@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T19:29:01.142Z",
+  "generatedAt": "2026-08-16T19:33:26.932Z",
   "algorithm": "SHA-256",
   "selfHashExcluded": true,
   "selfHashExcludedReason": "A manifest cannot contain a stable hash of itself.",
@@ -24,7 +24,7 @@
     ],
     "reason": "Repository metadata, dependencies, build output, local development and audit output, operating-system metadata, and the self-referential manifest are not release-manifest entries."
   },
-  "fileCountExcludingManifest": 11540,
+  "fileCountExcludingManifest": 11541,
   "files": [
     {
       "path": ".env.example",
@@ -868,6 +868,15 @@
       "fileType": "markdown",
       "sizeBytes": 1278,
       "sha256": "25579b6f417e4bda4f08ab9636c01767b7305b2f95e57fd7d289ee80df864fce",
+      "subject": null,
+      "contentType": null,
+      "status": "source"
+    },
+    {
+      "path": "audit/production-audit-2026-08-16.md",
+      "fileType": "markdown",
+      "sizeBytes": 1766,
+      "sha256": "2b24d8f04b42208c63f524044f51f283cd4a66cb169476b7da644834e440afa4",
       "subject": null,
       "contentType": null,
       "status": "source"
