@@ -537,7 +537,7 @@ function CurriculumTopicPage({ subjectSlug, unitSlug, topicSlug, navigate }: { s
         onPractice={questionCount > 0 ? () => openTab("practice") : undefined}
       />
 
-      <ListenControls key={topic.id} sections={speechSections} sourceId={topic.id} label={topic.title} />
+      <ListenControls key={`listen-${topic.id}`} sections={speechSections} sourceId={topic.id} label={topic.title} />
 
       {activeTab && (
         <>
@@ -606,7 +606,7 @@ function CurriculumTopicPage({ subjectSlug, unitSlug, topicSlug, navigate }: { s
 
       <ConnectedLearning topics={relatedTopics} navigate={navigate} />
 
-      <EvidenceExplorer key={topic.id} initialQuery={topic.title} />
+      <EvidenceExplorer key={`evidence-${topic.id}`} initialQuery={topic.title} />
 
       {/* The per-topic provenance block was removed. Source and licence
           information now lives in one place, on /licensing, which is also what
