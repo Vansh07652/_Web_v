@@ -83,6 +83,14 @@
 .learn-hero-actions { margin-top: var(--space-6); }
 .learn-hero-actions .button { min-height: 3.25rem; padding-inline: var(--space-5); }
 
+@media (max-width: 359px) {
+  .learn-hero { align-items: start; min-height: 0; padding-block: var(--space-5); }
+  .learn-hero h1 { margin-block: var(--space-3) var(--space-4); font-size: clamp(2.45rem, 13.5vw, 2.7rem); }
+  .learn-hero-lede { font-size: var(--text-sm); line-height: 1.55; }
+  .learn-hero-actions { margin-top: var(--space-4); }
+  .learn-trust-points { margin-top: var(--space-4); }
+}
+
 .learn-trust-points {
   display: flex;
   flex-wrap: wrap;

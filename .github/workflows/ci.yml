@@ -18,7 +18,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
-    defaults:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4

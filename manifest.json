@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T19:33:26.932Z",
+  "generatedAt": "2026-08-16T20:02:46.162Z",
   "algorithm": "SHA-256",
   "selfHashExcluded": true,
   "selfHashExcludedReason": "A manifest cannot contain a stable hash of itself.",
@@ -24,7 +24,7 @@
     ],
     "reason": "Repository metadata, dependencies, build output, local development and audit output, operating-system metadata, and the self-referential manifest are not release-manifest entries."
   },
-  "fileCountExcludingManifest": 11541,
+  "fileCountExcludingManifest": 11542,
   "files": [
     {
       "path": ".env.example",
@@ -38,8 +38,8 @@
     {
       "path": ".github/workflows/ci.yml",
       "fileType": "yml",
-      "sizeBytes": 1776,
-      "sha256": "0a86a0515a2a5b7c8708ed2497194d34be4fd6dcbad52bd9ce27b516c33c52b0",
+      "sizeBytes": 1762,
+      "sha256": "cf0d5642d700d8c6474c02efdeda48b431e9fe7401852534355eee82fc65dc06",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -47,8 +47,8 @@
     {
       "path": ".github/workflows/deploy-pages.yml",
       "fileType": "yml",
-      "sizeBytes": 3606,
-      "sha256": "70caa34eba76e1e251d678f89b55c88cef408b88b37d95ccdb2c9b3d2062d8ca",
+      "sizeBytes": 1874,
+      "sha256": "452ba042838f25f427b81934d300c28312af9d8286e13a3d246bfe239699dbca",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -83,8 +83,8 @@
     {
       "path": "AUDIT_REPORT.md",
       "fileType": "markdown",
-      "sizeBytes": 13850,
-      "sha256": "07066806d598a108427665aef5b3f0a7f3bd012e4c4c4e24d651f1e1a419cb2f",
+      "sizeBytes": 13948,
+      "sha256": "26cdb6201ba3b3ac72e7cb7bd17cb66df8649f4d4e9b02610d8adb91a4039dc0",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -128,8 +128,8 @@
     {
       "path": "DEPLOYMENT.md",
       "fileType": "markdown",
-      "sizeBytes": 4909,
-      "sha256": "4fd4ea1f29bd2ae1e48c000726c1d0728392b384f28b8632bc4eba58545fb110",
+      "sizeBytes": 5176,
+      "sha256": "973562f055fa81aa90b4bc33749542d4c994c2b3a223c044321e770c34ae0b02",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -146,8 +146,8 @@
     {
       "path": "FINAL_REPORT.md",
       "fileType": "markdown",
-      "sizeBytes": 14473,
-      "sha256": "2435ed301d4376c1c5bdfab4e16a1eee256b0593c9bd8ccf110a0e03abd3e164",
+      "sizeBytes": 14655,
+      "sha256": "999e7d8fe47d91acbbd218c89e53ceabe8696a9139c588fd714849ee6cb0a68f",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -200,8 +200,8 @@
     {
       "path": "README.md",
       "fileType": "markdown",
-      "sizeBytes": 12368,
-      "sha256": "9ecddc82f1f4851a7dbdfb5f4a743b02ae6b2fdfa2226fb7b3fbe57947aacc0d",
+      "sizeBytes": 12151,
+      "sha256": "4592bd8302d2d53fbf48af9695aaaf1220370a173274a514b8d919507951bad5",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -57908,8 +57908,8 @@
     {
       "path": "index.html",
       "fileType": "html",
-      "sizeBytes": 3920,
-      "sha256": "fbf8efe1f56c64894bdd682d8be1b4a07d0bfb01848312cd866df2938be4cd4d",
+      "sizeBytes": 3946,
+      "sha256": "1c11811747556d72f9ebb70ad609b1130ec024d2c7f5cda6fb1170abce4792af",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -102135,7 +102135,7 @@
       "path": "public/site.webmanifest",
       "fileType": "webmanifest",
       "sizeBytes": 630,
-      "sha256": "3b160e1e25a7dd8461d3163f6aeab0f86e545db5a0940ab964d95518867f8079",
+      "sha256": "d681b757026bc79596fd292687d6628bd454c7dd688936b6bdef96971cb80a5b",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -102341,8 +102341,8 @@
     {
       "path": "scripts/create-github-pages-fallback.mjs",
       "fileType": "javascript",
-      "sizeBytes": 1596,
-      "sha256": "2dbd54b6e7a9b40110388fe83fc46ca6473b99c14494d77cde08941b80116afa",
+      "sizeBytes": 9238,
+      "sha256": "8ae227b273315d6b1a68e2376b3f2c967cc386f04acb65db131d5bc113c0213b",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -102692,8 +102692,8 @@
     {
       "path": "src/components/HomeQuestionDemo.tsx",
       "fileType": "typescript-react",
-      "sizeBytes": 3783,
-      "sha256": "da42ee656c2030187b14564d78e0b4caa091291794e87e054aaf9e55bc12686e",
+      "sizeBytes": 3232,
+      "sha256": "be21390bbe5755476a86461b2e5fc4b9a7bec903c0c53707f02037c17bd418b6",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -102847,6 +102847,15 @@
       "fileType": "typescript",
       "sizeBytes": 9724,
       "sha256": "e8c32d7b38b8bf115fc278f3769672ca2736b28e8736ee27c7e0cfd03d35c4df",
+      "subject": null,
+      "contentType": null,
+      "status": "source"
+    },
+    {
+      "path": "src/data/home-question-demo.ts",
+      "fileType": "typescript",
+      "sizeBytes": 1522,
+      "sha256": "14b8809c73da3992efb1afe562d16aad577cd3eaf5af0c5c4a35df855b0d813f",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -103196,8 +103205,8 @@
     {
       "path": "src/pages/SearchPage.tsx",
       "fileType": "typescript-react",
-      "sizeBytes": 10118,
-      "sha256": "b45e9e6d4c7b606b32401752484b0e67c8c9b9d5e5cc1a16a17bf4b3f94011de",
+      "sizeBytes": 10938,
+      "sha256": "31b6738121cbddf5851fdceb817b6a7861d319349d60ba2cc4fd79d864ffb4f6",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -103304,8 +103313,8 @@
     {
       "path": "src/styles/learn.css",
       "fileType": "stylesheet",
-      "sizeBytes": 27645,
-      "sha256": "d94558dbaae5d026565c10d37b67d42a1836bd1dbf2a01caefb9c1eb863f9906",
+      "sizeBytes": 28046,
+      "sha256": "006d290e10f16f9121e4995b7c9c92161f3521d70789459772135fd83940b6ad",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -103322,8 +103331,8 @@
     {
       "path": "src/styles/main.css",
       "fileType": "stylesheet",
-      "sizeBytes": 48547,
-      "sha256": "c4e9a2f11b1da423704ed0b1000e962df3a3d6258ba1942983ee10005e7bf1ca",
+      "sizeBytes": 48617,
+      "sha256": "1a9d8b5580dc7714523c2095ab88772550d19eb91a010f50bfc6f098d8ac4608",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -103889,8 +103898,8 @@
     {
       "path": "wrangler.jsonc",
       "fileType": "jsonc",
-      "sizeBytes": 1063,
-      "sha256": "7b695e2cff6635c19eced9d48e227f63b842e9c5b84bf4ff32a15e8e0641b27b",
+      "sizeBytes": 1065,
+      "sha256": "1bb91d806167f44fa9f93236e7ba1e21c19b837ed77b0efb53d1473b607369a4",
       "subject": null,
       "contentType": null,
       "status": "source"

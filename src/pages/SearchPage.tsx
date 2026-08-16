@@ -13,7 +13,7 @@ const normalized = (value: string) => value.toLocaleLowerCase().trim();
 const queryTokens = (value: string) => normalized(value).split(/[^\p{L}\p{N}]+/u).filter(Boolean);
 
 export function SearchPage({ navigate }: { navigate: Navigate }) {
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(() => new URLSearchParams(window.location.search).get("q") ?? "");
   const [subject, setSubject] = useState("");
   const [contentType, setContentType] = useState<SearchContentType>("all");
   const [lesson, setLesson] = useState("");
@@ -31,6 +31,23 @@ export function SearchPage({ navigate }: { navigate: Navigate }) {
     }).catch(() => { if (active) setFailed(true); });
     return () => { active = false; };
   }, []);
+
+  useEffect(() => {
+    const syncQueryFromLocation = () => setQuery(new URLSearchParams(window.location.search).get("q") ?? "");
+    window.addEventListener("popstate", syncQueryFromLocation);
+    return () => window.removeEventListener("popstate", syncQueryFromLocation);
+  }, []);
+
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    const normalizedQuery = query.trim();
+    if (normalizedQuery) url.searchParams.set("q", normalizedQuery);
+    else url.searchParams.delete("q");
+    const nextUrl = `${url.pathname}${url.search}${url.hash}`;
+    if (nextUrl !== `${window.location.pathname}${window.location.search}${window.location.hash}`) {
+      window.history.replaceState(window.history.state, "", nextUrl);
+    }
+  }, [query]);
 
   const legacySubjects = loadSubjects();
   const subjects = useMemo(() => {

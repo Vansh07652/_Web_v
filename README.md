@@ -1,6 +1,6 @@
-# Study Compass
+# MedMosa
 
-Study Compass is a static, mobile-friendly study website for 11 pre-nursing subjects. It presents the approved release content as browsable lessons and notes, interactive practice questions with answer explanations, and searchable/filterable study results. Subjects without approved material remain visible with clear empty states.
+MedMosa is a static, mobile-first learning website for pre-health students. It provides a 39-course curriculum, open nursing and science books, practice questions with answer rationales, and local-only search and study tools.
 
 ## Subjects
 
@@ -37,7 +37,7 @@ npm run preview
 npm run dev:worker
 ```
 
-The production site is written to ignored `dist/`. `npm run build:pages` creates the `/NUR_WEB/` production build, canonical static route entries, and the GitHub Pages `404.html` fallback.
+The production site is written to ignored `dist/`. `npm run build:pages` creates the custom-domain root build, route-specific static metadata, canonical route entries, and the GitHub Pages `404.html` fallback.
 
 ## Test and validate
 
@@ -71,7 +71,7 @@ For final release validation, run `npm ci`, generate the inventory and manifest,
 
 **Editing any tracked file invalidates its manifest hash.** `npm run validate:source` will then fail with `MANIFEST_HASH: <path>` until `npm run release:manifest` is re-run. This is the most common way to break the build; `docs/development-and-validation.md` opens with it.
 
-`validate:metadata`, `validate:source-registry`, `validate:question-quality`, `validate:study-paths` and `validate-structured-data.mjs` are registered here and pass, but are **not yet invoked by either GitHub Actions workflow**. Run them by hand before pushing until they are added.
+The CI workflow runs the core type, lint, test, content, metadata, security, route, link, asset, and build validation checks on every push and pull request.
 
 ## Study routes and tools
 

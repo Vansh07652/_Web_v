@@ -10,8 +10,9 @@
       }
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="color-scheme" content="light" />
-    <meta name="theme-color" content="#0d3b57" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#071a2c" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data: https:; connect-src 'self' https://api.medmosa.org https://*.supabase.co; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'" />
 
     <title>MedMosa — free medical learning, made clear</title>
     <meta
@@ -49,10 +50,7 @@
     <link rel="manifest" href="site.webmanifest" />
 
     <!--
-      The organisation node only. The sitelinks search action that used to sit
-      here was removed: src/pages/SearchPage.tsx keeps its query in component
-      state and never reads the query string, so /search?q= was not a working
-      endpoint and the markup was advertising one. Per-page WebSite and
+      The organisation node only. Per-page WebSite and
       BreadcrumbList markup is added at run time by src/lib/structured-data.ts.
     -->
     <script type="application/ld+json">

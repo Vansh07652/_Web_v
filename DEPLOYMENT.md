@@ -5,14 +5,14 @@
 | Setting | Value |
 | --- | --- |
 | Repository owner | `Vansh07652` |
-| Repository name | `ELI_Nur_Web` |
-| Repository URL | `https://github.com/Vansh07652/ELI_Nur_Web` |
+| Repository name | `_Web_v` |
+| Repository URL | `https://github.com/Vansh07652/_Web_v` |
 | Default/production branch | `main` |
 | Package manager | npm with `package-lock.json` |
 | Pages build command | `npm run build:pages` |
 | Output directory | `dist/` |
 | Hosting provider | GitHub Pages |
-| Deployment project | GitHub Pages site for `Vansh07652/ELI_Nur_Web` |
+| Deployment project | GitHub Pages site for `Vansh07652/_Web_v` |
 | Pages source | GitHub Actions |
 | Deployment workflow | `.github/workflows/deploy-pages.yml` |
 | Primary production URL | `https://medmosa.org/` |
@@ -37,7 +37,7 @@ Two settings live outside this repository and have to be changed by hand:
 1. **DNS at the registrar.** For an apex domain, four `A` records to `185.199.108.153`, `185.199.109.153`, `185.199.110.153` and `185.199.111.153` (and the matching `AAAA` records if IPv6 is wanted), plus a `CNAME` record for `www` pointing at `vansh07652.github.io`. A provider that supports `ALIAS`/`ANAME` at the apex can point that at `vansh07652.github.io` instead.
 2. **Settings → Pages → Custom domain** on the repository, set to the same host as `public/CNAME`, then *Enforce HTTPS* once the certificate is issued.
 
-Until both are done the site keeps serving from the previous domain and from `vansh07652.github.io/ELI_Nur_Web/`.
+The custom domain is currently configured for `https://medmosa.org/`. The repository's project-page URL is only a fallback preview surface; production uses the custom domain.
 
 ## Validate a release
 
@@ -78,3 +78,4 @@ Keep prior commits and deployments. Create a branch that reverts the faulty chan
 - Preserve least-privilege workflow permissions.
 - Run the dependency audit and secret scan before every release.
 - Preserve `public/CNAME` and configure any domain change only after ownership and DNS access are verified.
+- GitHub Pages provides HTTPS and HSTS, but cannot set full response-header policy. The page includes a baseline meta CSP; use an edge proxy if response CSP, `frame-ancestors`, or Permissions-Policy headers are required.

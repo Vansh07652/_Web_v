@@ -1,6 +1,6 @@
 # AUDIT_REPORT.md
 
-Deep audit of the Study Compass site (`GITHUB_VM/Web/Web_Apps/ELI_Nur_Web/web`).
+> Historical audit of the retired Study Compass / `ELI_Nur_Web` project. It is retained for traceability only and must not be used as MedMosa deployment or product documentation.
 Severity is **Critical / High / Medium / Low**. The *Fixed* column is filled in
 during Phase 2 and re-verified in Phase 6.
 

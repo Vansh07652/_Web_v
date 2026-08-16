@@ -368,6 +368,9 @@ img { max-width: 100%; height: auto; }
 .button-small { min-height: 2.35rem; padding: var(--space-2) var(--space-3); font-size: var(--text-xs); }
 
 .text-button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
   padding: var(--space-2) 0;
   border: 0; background: transparent; color: var(--teal-700);
   font-size: var(--text-sm); font-weight: 650; text-decoration: underline; cursor: pointer;

@@ -1,5 +1,7 @@
 # FINAL_REPORT.md
 
+> Historical report for the retired Study Compass / `ELI_Nur_Web` project. It is retained for traceability only and must not be used as MedMosa deployment or product documentation.
+
 Audit, bug-fix and front-end redesign of **Study Compass**
 (`GITHUB_VM/Web/Web_Apps/ELI_Nur_Web/web`) — 14 August 2026.
 

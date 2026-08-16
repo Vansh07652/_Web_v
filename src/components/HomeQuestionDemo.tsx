@@ -1,6 +1,5 @@
-import { useEffect, useId, useRef, useState } from "react";
-import { loadCurriculumQuestions } from "../lib/content/curriculum-v2";
-import type { CurriculumQuestionV2 } from "../types";
+import { useId, useRef, useState } from "react";
+import { homeQuestionDemo } from "../data/home-question-demo";
 import { InlineMarkup } from "./MarkdownDocument";
 
 /**
@@ -9,22 +8,12 @@ import { InlineMarkup } from "./MarkdownDocument";
  * real study history.
  */
 export function HomeQuestionDemo() {
-  const [question, setQuestion] = useState<CurriculumQuestionV2>();
   const [selected, setSelected] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const feedbackRef = useRef<HTMLDivElement>(null);
   const headingId = useId();
 
-  useEffect(() => {
-    let active = true;
-    void loadCurriculumQuestions("anatomy-physiology-1")?.then((bank) => {
-      const candidate = bank.questions.find((item) => !item.citationReviewRequired) ?? bank.questions[0];
-      if (active) setQuestion(candidate);
-    });
-    return () => { active = false; };
-  }, []);
-
-  if (!question) return <div className="home-demo-loading" aria-live="polite">Preparing a real practice question…</div>;
+  const question = homeQuestionDemo;
 
   const correct = selected === question.correctAnswer;
   const correctOption = question.options.find((option) => option.id === question.correctAnswer);
