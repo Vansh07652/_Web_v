@@ -6,6 +6,7 @@ import { markdownSection, normalizeForOverlap, sectionUnlessDuplicated } from ".
 import { ListenControls } from "../components/ListenControls";
 import { MarkdownDocument } from "../components/MarkdownDocument";
 import { RichQuestionPractice } from "../components/RichQuestionPractice";
+import { TopicRandomQuestionPractice } from "../components/TopicRandomQuestionPractice";
 import { ConnectedLearning, TopicFacts, type RelatedTopicLink } from "../components/TopicDetails";
 import { EvidenceExplorer } from "../components/sources/EvidenceExplorer";
 import { StudyUseNotice } from "../components/LegalNotice";
@@ -22,6 +23,7 @@ import {
   loadCurriculumTopic,
 } from "../lib/content/curriculum-v2";
 import { getTopicMetadata } from "../lib/content/metadata";
+import { questionsForTopic } from "../lib/topic-practice";
 import type { Navigate } from "../lib/navigation";
 import { recordTopicView } from "../lib/progress";
 import { plainTextFromMarkdown, type SpeechSection } from "../lib/speech";
@@ -403,7 +405,7 @@ function CurriculumTopicPage({ subjectSlug, unitSlug, topicSlug, navigate }: { s
   }, [tab, bank, subjectSlug]);
 
   const questions = useMemo(
-    () => (topic && bank ? bank.questions.filter((question) => question.mappedCanonicalTopicIds.includes(topic.id)) : []),
+    () => (topic && bank ? questionsForTopic(bank.questions, topic.id) : []),
     [bank, topic],
   );
 
@@ -442,7 +444,10 @@ function CurriculumTopicPage({ subjectSlug, unitSlug, topicSlug, navigate }: { s
   const flatTopics = subject.units.flatMap((itemUnit) => itemUnit.topics.map((itemTopic) => ({ unit: itemUnit, topic: itemTopic })));
   const currentIndex = flatTopics.findIndex((item) => item.topic.id === topic.id);
   const metadata = getTopicMetadata(topic.id);
-  const questionCount = topic.availability?.exactQuestions ?? 0;
+  // The generated availability count is derived from the same stable topic id
+  // mapping as the question bank. Once loaded, the usable pool is authoritative
+  // so a corrupt record can never be offered as practice.
+  const questionCount = bank ? questions.length : topic.availability?.exactQuestions ?? 0;
 
   // Everything the college-level reading holds, in source order. On a topic with
   // no college note this composes whatever prose the bundle does carry — usually
@@ -575,14 +580,21 @@ function CurriculumTopicPage({ subjectSlug, unitSlug, topicSlug, navigate }: { s
                     <h2>{questions.length} practice question{questions.length === 1 ? "" : "s"}</h2>
                     <p>Every question explains why the right answer is right, then says it again in plain language.</p>
                   </div>
-                  <RichQuestionPractice questions={questions} subjectSlug={subjectSlug} />
+                  <TopicRandomQuestionPractice
+                    questions={questions}
+                    subjectSlug={subjectSlug}
+                    subjectTitle={subject.subject.title}
+                    topicId={topic.id}
+                    topicTitle={topic.title}
+                    onBackToTopic={() => openTab(tabs.includes("learn") ? "learn" : "practice")}
+                  />
                 </>
               ) : (
                 <EmptyState
-                  title="No questions for this topic yet"
+                  title="Practice questions are coming soon"
                   action={<Link href={curriculumPracticeHref(subjectSlug)} navigate={navigate} className="button">Practise the whole course</Link>}
                 >
-                  This topic has no questions matched to it. The course-wide practice set may still cover it.
+                  Practice questions for this topic are coming soon. The course-wide practice set may still cover it.
                 </EmptyState>
               )
             )}

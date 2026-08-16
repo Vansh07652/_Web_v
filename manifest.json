@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T20:02:46.162Z",
+  "generatedAt": "2026-08-16T20:50:10.472Z",
   "algorithm": "SHA-256",
   "selfHashExcluded": true,
   "selfHashExcludedReason": "A manifest cannot contain a stable hash of itself.",
@@ -24,7 +24,7 @@
     ],
     "reason": "Repository metadata, dependencies, build output, local development and audit output, operating-system metadata, and the self-referential manifest are not release-manifest entries."
   },
-  "fileCountExcludingManifest": 11542,
+  "fileCountExcludingManifest": 11545,
   "files": [
     {
       "path": ".env.example",
@@ -200,8 +200,8 @@
     {
       "path": "README.md",
       "fileType": "markdown",
-      "sizeBytes": 12151,
-      "sha256": "4592bd8302d2d53fbf48af9695aaaf1220370a173274a514b8d919507951bad5",
+      "sizeBytes": 12540,
+      "sha256": "800a6537ddb7f05304f1b36023c3963231558c0957771fca5ee455f34190c46e",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -102260,8 +102260,8 @@
     {
       "path": "scripts/browser-audit.mjs",
       "fileType": "javascript",
-      "sizeBytes": 25819,
-      "sha256": "58d77b22b94d9666551fa770da218be3febcbf4e65389bfe93a75958a9af0488",
+      "sizeBytes": 27832,
+      "sha256": "257dca88f47232ef7fd7db9bc6c14aa8052cea8cba5365d5bd4cc4bda9bf463a",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -102755,8 +102755,17 @@
     {
       "path": "src/components/TopicDetails.tsx",
       "fileType": "typescript-react",
-      "sizeBytes": 6910,
-      "sha256": "9d419e092e089d3db7cf7d8f874fe7c9007eede3460d950c74ea35abf58111db",
+      "sizeBytes": 7162,
+      "sha256": "51ab327a6e590acf0fee1541dbc8dddaa5406ff28fa5bd7e91ba11ced55609bf",
+      "subject": null,
+      "contentType": null,
+      "status": "source"
+    },
+    {
+      "path": "src/components/TopicRandomQuestionPractice.tsx",
+      "fileType": "typescript-react",
+      "sizeBytes": 9399,
+      "sha256": "4579188472611175b7f3371f36e1b18c4566906a3ba88fd78d5f2963a50e2716",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -103131,6 +103140,15 @@
       "status": "source"
     },
     {
+      "path": "src/lib/topic-practice.ts",
+      "fileType": "typescript",
+      "sizeBytes": 2937,
+      "sha256": "583bb5067cdff2de7717be2596836a5cbb98ad182e3c2a0cff0344b06a28a449",
+      "subject": null,
+      "contentType": null,
+      "status": "source"
+    },
+    {
       "path": "src/main.tsx",
       "fileType": "typescript-react",
       "sizeBytes": 359,
@@ -103151,8 +103169,8 @@
     {
       "path": "src/pages/CurriculumExplorer.tsx",
       "fileType": "typescript-react",
-      "sizeBytes": 31370,
-      "sha256": "1ffb8dcdc4739df1633a4bb6b3674c40ad8b8b2b126874a54cd6365d9f5f4d69",
+      "sizeBytes": 32032,
+      "sha256": "82f153ee24e909fa4e772f94f93814da23fa7a711c83b760d2db6dd00ac630b1",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -103331,8 +103349,8 @@
     {
       "path": "src/styles/main.css",
       "fileType": "stylesheet",
-      "sizeBytes": 48617,
-      "sha256": "1a9d8b5580dc7714523c2095ab88772550d19eb91a010f50bfc6f098d8ac4608",
+      "sizeBytes": 49189,
+      "sha256": "37b965eb36612c1e0555b023fe56d2025622532df9ba7a63ef7d376d78dc65bc",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -103414,6 +103432,15 @@
       "fileType": "typescript",
       "sizeBytes": 6654,
       "sha256": "2c48e30b988443957e3c3f85811601f8f1c2769a59716d9e917b7058c27ec30c",
+      "subject": null,
+      "contentType": null,
+      "status": "source"
+    },
+    {
+      "path": "src/tests/topic-practice.test.ts",
+      "fileType": "typescript",
+      "sizeBytes": 2764,
+      "sha256": "c8f8044b6cebf475f698b7b4bc645099b46aa5167f67d98218fd1ff3f3585f51",
       "subject": null,
       "contentType": null,
       "status": "source"

@@ -759,6 +759,14 @@ tr:last-child td { border-bottom: 0; }
 .quiz-navigation { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-3); padding-top: var(--space-5); border-top: 1px solid var(--line); }
 .quiz-complete { text-align: center; }
 .quiz-score { margin: var(--space-2) 0 var(--space-4); color: var(--teal-700); font-family: var(--font-display); font-size: var(--text-3xl); font-weight: 700; }
+.topic-practice-action { display: grid; gap: var(--space-1); }
+.topic-practice-action > span, .topic-practice-empty { color: var(--ink-muted); font-size: var(--text-xs); }
+.topic-practice-empty { margin: var(--space-3) 0 0; }
+.topic-practice-complete-actions { justify-content: center; }
+@media (max-width: 519px) {
+  .topic-practice-action, .topic-practice-action .button, .topic-random-practice .quiz-navigation .button, .topic-practice-complete-actions .button { width: 100%; }
+  .topic-random-practice .quiz-navigation { display: grid; grid-template-columns: 1fr; }
+}
 
 .practice-list, .catalog-list { display: grid; gap: var(--space-3); }
 .practice-list article, .catalog-list article {
