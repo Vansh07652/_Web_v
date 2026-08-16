@@ -764,7 +764,7 @@ tr:last-child td { border-bottom: 0; }
 .topic-practice-empty { margin: var(--space-3) 0 0; }
 .topic-practice-complete-actions { justify-content: center; }
 @media (max-width: 519px) {
-  .topic-practice-action, .topic-practice-action .button, .topic-random-practice .quiz-navigation .button, .topic-practice-complete-actions .button { width: 100%; }
+  .topic-practice-action, .topic-practice-action .button, .topic-random-practice form > .button, .topic-random-practice .quiz-navigation .button, .topic-practice-complete-actions .button { width: 100%; }
   .topic-random-practice .quiz-navigation { display: grid; grid-template-columns: 1fr; }
 }
 
