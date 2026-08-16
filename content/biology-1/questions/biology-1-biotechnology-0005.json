@@ -1,0 +1,39 @@
+{
+  "id": "biology-1-biotechnology-0005",
+  "subject": "biology-1",
+  "lesson": "biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A forensic lab receives a tiny bloodstain containing very little DNA and runs PCR with **primers** designed for a specific region of the genome. What does the reaction actually amplify?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Only the target segment flanked by the primers, copied repeatedly from the original DNA strands."
+    },
+    {
+      "id": "b",
+      "text": "The complete genome of the organism, copied in a single cycle."
+    },
+    {
+      "id": "c",
+      "text": "All of the RNA in the sample, reverse-transcribed into DNA each cycle."
+    },
+    {
+      "id": "d",
+      "text": "The primers themselves, which the polymerase copies instead of the DNA."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The primers flank the target region, and the polymerase copies only the DNA between them, using the original strands and then the newly made strands as templates, so the number of copies doubles each cycle. B overstates the product, C describes reverse transcription of RNA, which PCR does not perform, and D is wrong because primers are short synthetic starting sequences that define the product rather than being amplified themselves.",
+  "difficulty": "unknown",
+  "tags": [
+    "what",
+    "pcr",
+    "amplifies"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-37c6d4d415f69033",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

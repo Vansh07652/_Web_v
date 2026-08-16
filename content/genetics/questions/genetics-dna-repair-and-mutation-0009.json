@@ -1,0 +1,41 @@
+{
+  "id": "genetics-dna-repair-and-mutation-0009",
+  "subject": "genetics",
+  "lesson": "dna-repair-and-mutation",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application During G2 phase, a chromosome suffers a double strand break while an intact sister chromatid is available. Which repair pathway is expected, and with what outcome?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Nonhomologous end joining, which rejoins the broken ends and can delete bases at the junction"
+    },
+    {
+      "id": "b",
+      "text": "Nonhomologous end joining, which is error free because it uses the sister chromatid as a template"
+    },
+    {
+      "id": "c",
+      "text": "Homologous recombination, which can only operate in G1 when sister chromatids are present"
+    },
+    {
+      "id": "d",
+      "text": "Homologous recombination using the sister chromatid as the template, which restores the original sequence"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "In S and G2 phases a sister chromatid supplies a perfect template, so homologous recombination copies the intact sister sequence and restores the original information with no net loss; *BRCA1* and *BRCA2* function in this pathway. A describes nonhomologous end joining correctly, but that pathway is the fallback used when no template exists, B wrongly gives nonhomologous end joining a template, and C places the sister chromatid in G1 even though sister chromatids first appear after replication in S phase.",
+  "difficulty": "unknown",
+  "tags": [
+    "double",
+    "strand",
+    "break",
+    "repair",
+    "pathway"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ca8f349f5901cf65",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

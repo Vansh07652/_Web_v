@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-2:carbonyl-chemistry:carboxylic-acids",
+  "slug": "carboxylic-acids",
+  "title": "Carboxylic Acids",
+  "subject": {
+    "id": "subject:organic-chemistry-2",
+    "slug": "organic-chemistry-2",
+    "title": "Organic Chemistry II"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-2:carbonyl-chemistry",
+    "slug": "carbonyl-chemistry",
+    "title": "Carbonyl Chemistry",
+    "order": 5
+  },
+  "order": 19,
+  "status": "final",
+  "sections": {
+    "overview": "Carboxylic acids contain the carboxyl group (-COOH), a carbonyl carbon directly bonded to a hydroxyl group. They are the most acidic common organic functional groups because their conjugate base, the carboxylate ion, is stabilized by resonance that delocalizes the negative charge equally over two oxygen atoms. This resonance, together with strong intermolecular hydrogen bonding, gives them unusually high boiling points and good water solubility for their size. They are prepared by oxidation of primary alcohols or alkylbenzenes, by oxidative cleavage of alkenes or alkynes, or by adding carbon dioxide to Grignard reagents, and they are reduced to primary alcohols.",
+    "whyItMatters": "Carboxylic acids are everywhere in biology and medicine: amino acids (which carry both -COOH and -NH2), fatty acids in membranes and energy storage, and drugs such as aspirin (acetylsalicylic acid) and ibuprofen. Their acidity makes them ionizable at physiological pH — the water-soluble carboxylate form is how many drugs and metabolites are transported and excreted. Understanding pKa and carboxylate formation is essential for predicting whether a drug is charged at blood pH and therefore how it distributes in the body.",
+    "learningObjectives": "1. Identify the carboxyl group and name carboxylic acids using both IUPAC and common nomenclature.\n2. Explain how hydrogen bonding shapes the boiling points and water solubility of carboxylic acids.\n3. Rationalize carboxylic acid acidity through carboxylate-ion resonance stabilization and predict relative acidity.\n4. Outline the main synthetic routes to carboxylic acids and their reduction to primary alcohols.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Carboxylic acid | A molecule bearing a -COOH group | Central functional group of this unit and of biochemistry (amino acids, fatty acids) |\n| Carboxyl group | A carbonyl plus a hydroxyl on the same carbon | Defines the reactivity and acidity of the acid |\n| Carboxylate ion | RCOO-, the deprotonated form | Its resonance stability is the source of acidity |\n| Resonance stabilization | Spreading a charge over multiple atoms | Makes carboxylates far more stable than alkoxides |\n| pKa | A measure of acid strength (lower = stronger) | Lets you rank relative acidity quantitatively |\n| Hydrogen-bonded dimer | Two acid molecules joined by two H-bonds | Explains unusually high boiling points |",
+    "collegeNotes": "### 1. Structure and Nomenclature\nThe carboxyl group (-COOH) is planar and sp2-hybridized at carbon. IUPAC names use the \"-oic acid\" suffix on the longest chain containing the carboxyl carbon, and that carbon is always C1: ethanoic acid, butanoic acid, pentanedioic acid. Common names persist widely in practice: formic acid (methanoic), acetic acid (ethanoic, vinegar), propionic acid, butyric acid (rancid butter), valeric acid, benzoic acid, and dicarboxylic acids such as oxalic, malonic, succinic, glutaric, and adipic acid. When the -COOH group is a substituent, it is named \"carboxy-.\"\n\n### 2. Hydrogen Bonding and Physical Properties\nCarboxylic acids can both donate and accept two hydrogen bonds each, so they pair up into cyclic hydrogen-bonded dimers in the gas and liquid phases. This gives them boiling points higher than alcohols of comparable molar mass: acetic acid (60 g/mol) boils at 118 °C, while 1-propanol (60 g/mol) boils at 97 °C. They are strongly water-soluble up to about four or five carbons because the polar carboxyl group hydrogen-bonds with water; solubility drops steadily as the nonpolar chain lengthens.\n\n### 3. Acidity and the Carboxylate Ion\nCarboxylic acids are weak acids with pKa values near 4-5 (acetic acid, pKa 4.76), far more acidic than alcohols (pKa ~16-18) and water (15.7). The reason is resonance: the carboxylate anion delocalizes its negative charge equally over two equivalent oxygen atoms, so no single oxygen carries a full charge. Because acid strength tracks conjugate-base stability, anything that stabilizes the anion raises acidity. Electron-withdrawing groups near the carboxyl group increase acidity (trichloroacetic acid is a strong acid), while electron-donating groups decrease it.",
+    "howItWorks": "1. Primary-alcohol oxidation proceeds all the way to a carboxylic acid (any aldehyde intermediate is oxidized further under aqueous conditions).\n2. An alkylbenzene with benzylic C-H bonds is oxidized by hot KMnO4 or chromic acid to give a benzoic acid-type product.\n3. Oxidative cleavage of an alkene with KMnO4, or of an alkyne with KMnO4 or ozone, yields carboxylic acids (and CO2 from terminal alkynes).\n4. A Grignard reagent adds to carbon dioxide; protonation of the resulting carboxylate gives a carboxylic acid with one more carbon than the starting alkyl halide.\n5. A nitrile is hydrolyzed under aqueous acid or base to a carboxylic acid.\n6. Carboxylic acids are reduced by LiAlH4 (or borane) to primary alcohols; NaBH4 is generally too weak for this transformation.",
+    "comparisons": "",
+    "highYield": "- **High yield:** The carboxyl carbon is C1 and contributes to the parent-chain length.\n- **High yield:** Carboxylic acids are more acidic than alcohols and phenols because carboxylate resonance delocalizes charge over two identical oxygens.\n- Electron-withdrawing groups raise acidity; electron-donating groups lower it.\n- **High yield:** Carboxylic acids dimerize by hydrogen bonding, giving high boiling points.\n- Grignard + CO2 adds one carbon — a classic one-carbon homologation.\n- **High yield:** Oxidation of primary alcohols (and of aldehydes) gives carboxylic acids.\n- LiAlH4, not NaBH4, reduces carboxylic acids to primary alcohols.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Carboxylic acid (-COOH) | Ester (-COOR) | The ester has an alkyl group on the oxygen instead of H, so it has no acidic proton |\n| Carboxylic acid | Phenol | Both are acidic, but carboxylate delocalizes over two identical O atoms (pKa ~4-5) versus phenol's O and aromatic ring (pKa ~10) |\n| Carboxylate ion | Alkoxide ion | Carboxylate is resonance-stabilized and weakly basic; alkoxide holds a localized charge and is strongly basic |\n| Acid boiling point | Same-mass alcohol boiling point | Acids dimerize and boil higher |",
+    "memoryAids": "\"**R**esonance **O**ver **O**xygen **M**akes **A**cids\" — ROMA: the carboxylate's negative charge Resonates Over (two) Oxygens, Making it Acidic. In short, \"the acid is happy because the charge has a roommate.\"",
+    "eli10": "Think of a carboxylic acid as a carbonyl group wearing a hat: the carbon is double-bonded to one oxygen and single-bonded to an -OH group. The carbon is a bit electron-poor, but unlike a plain ketone, this molecule can give up a proton fairly easily. Why? Because once it lets go of the proton, the leftover negative charge spreads out across both oxygen atoms — like two people sharing one heavy backpack instead of one person carrying it alone. That sharing makes the deprotonated form comfortable and stable, so the acid is happy to lose its proton.\n\nA comparison: a regular alcohol (such as ethanol) holds its proton tightly, because losing it would leave a negative charge stuck on one oxygen with no help. A carboxylic acid is a much stronger acid because its conjugate base shares the burden between two oxygens.\n\nWhere it stops being exact: the two oxygens are not \"swapping\" the charge back and forth in time. The real structure is a single hybrid with both C-O bonds identical (bond order 1.5) and a half-negative charge on each oxygen — a shortcut for resonance delocalization, not an oscillation.\n\n### Simple Example\nAcetic acid (CH3COOH, the acid in vinegar) dissolves in water and dissociates slightly into H3O+ and acetate (CH3COO-). The two C-O bonds in acetate are equal in length, evidence that the negative charge is distributed evenly between both oxygens.",
+    "quickReview": "### Topic Recap\n\nCarboxylic acids are built on the carboxyl group and stand out for three reasons: strong intermolecular hydrogen bonding (high boiling points and water solubility), acidity driven by carboxylate resonance, and rich preparation chemistry (alcohol and alkylbenzene oxidation, oxidative cleavage, Grignard + CO2, nitrile hydrolysis). They reduce to primary alcohols and set the stage for the derivative chemistry of the next two topics.\n\n### Knowledge Check\n\n1. Why is acetic acid a much stronger acid than ethanol?\n2. Name CH3CH2CH2COOH by IUPAC rules.\n3. Which has the higher boiling point, butanoic acid or 1-butanol, and why?\n4. What product forms when CH3MgBr reacts with CO2 followed by aqueous acid?\n5. Which is more acidic, chloroacetic acid or acetic acid, and why?\n\n### Answers and Rationales\n\n1. Acetate's negative charge is delocalized over two equivalent oxygens (resonance), stabilizing the conjugate base, whereas ethoxide's charge is localized on one oxygen. A more stable conjugate base means a stronger acid.\n2. Butanoic acid — four carbons, with the carboxyl carbon as C1.\n3. Butanoic acid, because it forms hydrogen-bonded dimers (two H-bonds per pair), which require more energy to break apart than the single-donor hydrogen bonding of 1-butanol.\n4. Acetic acid (CH3COOH) — the Grignard adds to CO2 to form a carboxylate, and protonation gives the acid with one added carbon.\n5. Chloroacetic acid — the electron-withdrawing chlorine stabilizes the negative carboxylate, increasing acidity.",
+    "workedExamples": "Dissociation of a carboxylic acid in water (electron movement described before products):\n1. A water molecule's lone pair attacks the acidic proton of the -OH group. A double-headed curved arrow is drawn from the water oxygen lone pair to that proton.\n2. At the same time, the O-H bonding electrons move onto the carboxyl oxygen, giving it a full negative charge and breaking the O-H bond.\n3. The products are a hydronium ion (H3O+) and a carboxylate ion (RCOO-).\n4. The carboxylate ion is drawn as a resonance hybrid of two equivalent structures, each with one C=O and one C-O-. A curved arrow shows a lone pair on the negatively charged oxygen forming a new C=O π bond while the original π bond's electrons move onto the other oxygen as a lone pair.\n5. Charge, atom, and electron accounting balance in both resonance forms and in the hybrid: carbon keeps four bonds, each oxygen keeps a full octet, and the total charge is -1 spread over both oxygens.\n\nThis two-resonance-form picture explains both why the conjugate base is stabilized and why the two C-O bonds in the carboxylate are experimentally equal (each ~1.26 Å, between single- and double-bond lengths).",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "carboxylic-acids",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "19-carboxylic-acids",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-ii"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-ii",
+    "sourceFile": "organic-chemistry-ii-study-notes/docs/organic-chemistry-ii/19-carboxylic-acids.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

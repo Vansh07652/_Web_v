@@ -1,0 +1,206 @@
+---
+title: "Preparing Alkyl Halides from Alkanes: Radical Halogenation"
+subject: "Science"
+book: "Organic Chemistry: A Tenth Edition"
+chapter: "10: Organohalides"
+topic_number: "2"
+source: "organic-chemistry.md"
+tags:
+  - "preparing-alkyl-halides-from-alkanes-radical-halogenation"
+  - "science"
+status: "complete"
+---
+
+# Preparing Alkyl Halides from Alkanes: Radical Halogenation
+
+> **Book:** [Organic Chemistry: A Tenth Edition](../../README.md)  
+> **Chapter:** [Chapter 10: Organohalides](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Alkanes are the most unreactive organic molecules — no π bonds, no polar bonds, no obvious site for attack. Yet they *can* be converted directly to alkyl halides by **radical halogenation**: treat the alkane with a halogen (especially Cl₂ or Br₂) in the presence of light or heat, and a hydrogen is replaced by a halogen:
+
+\[ \mathrm{RH + X_2 \xrightarrow{light\ or\ heat} RX + HX} \]
+
+The reaction proceeds by a **free-radical chain mechanism** with three phases — initiation, propagation, and termination — that you will meet again in polymer chemistry, metabolism, and atmospheric chemistry. The star of the show is the **radical**: a neutral, highly reactive species with an unpaired electron, formed by homolytic cleavage of the halogen–halogen bond.
+
+The most important intellectual payoff is the link between **bond strength, radical stability, and reaction selectivity**. Chlorination and bromination both substitute hydrogen for halogen, but they give completely different product mixtures because they abstract hydrogen at different relative rates. Understanding why — the reactivity–selectivity principle — lets you *predict* product distributions rather than memorize them.
+
+## Why This Matters
+
+Radical halogenation is one of the few ways to functionalize an alkane directly, and it is industrially enormous: the chlorination of methane produces methyl chloride, methylene chloride, chloroform, and carbon tetrachloride, all on a massive scale; chlorination of ethane and higher alkanes feeds the solvent and plastics industries. Conceptually, this topic is your first full mechanism with radicals, and the same chain-reaction logic explains combustion, the free-radical damage antioxidants prevent, and why CFCs destroy stratospheric ozone (a Cl• chain reaction). On exams, you will be asked to (1) write the mechanism, (2) predict product ratios from relative rates, and (3) explain why bromination is selective while chlorination is not — all skills built here.
+
+## Core Concepts
+
+### The three phases of a radical chain mechanism
+
+**Initiation** — create radicals by homolytically cleaving the halogen bond with light or heat:
+\[ \mathrm{Cl{-}Cl \xrightarrow{h\nu\ or\ \Delta} Cl{\bullet} + Cl{\bullet}} \]
+
+**Propagation** — the chain-carrying steps, repeated many times. First, a chlorine atom abstracts a hydrogen from the alkane, forming HCl and an alkyl radical:
+\[ \mathrm{Cl{\bullet} + R{-}H \rightarrow H{-}Cl + R{\bullet}} \]
+Then the alkyl radical abstracts a chlorine atom from Cl₂, forming the alkyl chloride and regenerating a chlorine atom:
+\[ \mathrm{R{\bullet} + Cl{-}Cl \rightarrow R{-}Cl + Cl{\bullet}} \]
+
+**Termination** — radicals combine or disproportionate, removing chain carriers: R• + Cl• → R–Cl; R• + R• → R–R; Cl• + Cl• → Cl₂. Termination is statistically unlikely (radicals are dilute), so one initiation event supports thousands of propagation cycles.
+
+Each step is written with **single-headed (fishhook) curved arrows** that show the movement of single electrons — half-headed arrows, not the double-headed arrows of polar mechanisms. A propagation step must conserve radicals: one radical in, one radical out.
+
+### Bond dissociation energies and radical stability
+
+Whether a hydrogen is abstracted depends on the **C–H bond dissociation energy (BDE)** — the energy needed to break the bond homolytically:
+
+| C–H bond | Approx. BDE (kJ/mol) | Radical formed |
+|---|---|---|
+| CH₃–H (methane) | 438 | methyl •CH₃ |
+| 1° R–H (e.g., ethane) | 423 | primary RCH₂• |
+| 2° R–H (e.g., propane middle C) | 413 | secondary R₂CH• |
+| 3° R–H (e.g., isobutane central C) | 404 | tertiary R₃C• |
+
+Weaker bond = easier to break = more stable radical. So radical stability follows **methyl < primary < secondary < tertiary**, because alkyl substituents stabilize the electron-deficient radical center (hyperconjugation). The tertiary C–H bond is the weakest, which is why the tertiary radical forms fastest.
+
+### Reactivity vs selectivity: chlorination vs bromination
+
+Both Cl₂ and Br₂ react by the same mechanism, but the product mixtures differ dramatically. The rate of hydrogen abstraction depends on the H–X bond formed:
+
+- **Chlorination** abstracts H at relative rates (per hydrogen) of roughly **1° : 2° : 3° = 1 : 4 : 5** — barely selective, because the H–Cl bond is so strong that the transition state is early and resembles the reactants (Hammond postulate).
+- **Bromination** abstracts H at relative rates of roughly **1° : 2° : 3° = 1 : 82 : 1600** — extremely selective, because H–Br formation is much less exothermic, the transition state is late and resembles the alkyl radical, and the radical stability order is fully expressed.
+
+The general lesson (reactivity–selectivity principle): the more reactive the abstracting species, the less selective it is. Chlorine atoms are so reactive they barely "care" which hydrogen they take; bromine atoms are picky and take only the most easily removed (tertiary) hydrogen.
+
+Fluorination is so exothermic it is essentially unselective and dangerously explosive; iodination is endothermic and essentially does not occur with alkanes. So in practice: **Cl₂ gives mixtures, Br₂ gives one major product**.
+
+### Predicting product mixtures with relative rates
+
+To predict the monohalogenation product ratio, multiply the relative rate per hydrogen by the *number of equivalent hydrogens* of each type. This is a counting problem, and the numbers matter — see the worked examples below.
+
+## ELI-10: Explain Like I'm 10
+
+Imagine a bucket of water balloons (hydrogens) all attached to a frame, and a crowd of people (halogen atoms) with pins. A chlorine person is so excited that they pop whichever balloon is closest — first come, first served, no favorites. A bromine person is much calmer: they walk around and only pop the easiest balloons to reach (the ones on the most crowded carbons). So with chlorine you get a little bit of everything, but with bromine almost everyone comes back with the same prize: the balloon on the busiest carbon. Same game, different pickiness.
+
+## High-Yield Points
+
+- Radical halogenation: RH + X₂ → RX + HX, requires light or heat; mechanism = initiation, propagation, termination.
+- Fishhook (single-headed) curved arrows show single-electron movement; propagation conserves the number of radicals.
+- Radical stability: 3° > 2° > 1° > methyl; corresponding C–H bonds get weaker in that order (3° C–H ≈ 404 kJ/mol vs CH₃–H ≈ 438 kJ/mol).
+- Relative abstraction rates per H: chlorination 1°:2°:3° ≈ 1:4:5 (unselective); bromination ≈ 1:82:1600 (very selective).
+- Reactivity–selectivity principle: more reactive halogenating agent = less selective.
+- F₂ too reactive/explosive; I₂ too unreactive; Cl₂ and Br₂ are the practical reagents.
+- Monohalogenation product ratios = (relative rate) × (number of equivalent H's) for each type; count carefully.
+- Over-halogenation is a practical problem: the product R–X still has C–H bonds and can react again, so excess halogen and control of conversion matter.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Radical (free radical) | Neutral species with an unpaired electron, e.g., Cl•, CH₃• | The reactive chain carrier in halogenation |
+| Homolytic cleavage | Bond breaking that gives each atom one electron | Produces radicals; drawn with fishhook arrows |
+| Initiation | Step that creates radicals from a non-radical (X₂ + light/heat) | Starts the chain; needs energy input |
+| Propagation | Steps that convert reactants to products and regenerate a radical | The chain-carrying steps that do the chemistry |
+| Termination | Steps where two radicals combine, removing chain carriers | Ends the chain; statistically rare |
+| Bond dissociation energy (BDE) | Energy to break a bond homolytically | Sets which H is abstracted and radical stability order |
+| Reactivity–selectivity principle | More reactive reagent, less selective reaction | Explains why Cl₂ is unselective and Br₂ is selective |
+| Hammond postulate | Transition state resembles the nearer species (reactants or products) | Explains early (unselective) vs late (selective) transition states |
+| Hyperconjugation | Donation from adjacent C–H σ bonds to the electron-poor center | Stabilizes more substituted radicals and cations |
+| Monohalogenation | Substitution of a single H by one halogen | The idealized product; over-halogenation is a complication |
+
+## Worked Examples
+
+### Example 1: Predicting the monochlorination products of propane
+
+Propane, CH₃CH₂CH₃, has two types of hydrogens: six primary (the two CH₃ groups, equivalent) and two secondary (the middle CH₂).
+
+Using chlorination relative rates 1° : 2° = 1 : 4 per hydrogen:
+
+\[ \text{primary contribution} = 6\ \mathrm{H} \times 1 = 6 \]
+\[ \text{secondary contribution} = 2\ \mathrm{H} \times 4 = 8 \]
+\[ \text{total} = 6 + 8 = 14 \]
+
+Percent 1-chloropropane:
+\[ \% = \frac{6}{14} \times 100\% = 43\% \]
+
+Percent 2-chloropropane:
+\[ \% = \frac{8}{14} \times 100\% = 57\% \]
+
+So chlorination of propane gives roughly **43% 1-chloropropane and 57% 2-chloropropane** — a mixture. The secondary hydrogen is only ~1.3× favored despite being 4× more reactive per hydrogen, because there are three times more primary hydrogens. This is the classic "count the hydrogens" trap.
+
+### Example 2: Predicting the monobromination products of 2-methylpropane (isobutane)
+
+Isobutane, (CH₃)₃CH, has nine equivalent primary hydrogens and one tertiary hydrogen.
+
+Using bromination relative rates 1° : 3° = 1 : 1600 per hydrogen:
+
+\[ \text{primary contribution} = 9\ \mathrm{H} \times 1 = 9 \]
+\[ \text{tertiary contribution} = 1\ \mathrm{H} \times 1600 = 1600 \]
+
+Percent 2-bromo-2-methylpropane (tertiary):
+\[ \% = \frac{1600}{1600 + 9} \times 100\% = \frac{1600}{1609} \times 100\% = 99.4\% \]
+
+Bromination of isobutane gives essentially **one product: 2-bromo-2-methylpropane**, (CH₃)₃CBr. This selectivity is why bromination is the synthetic method of choice when a single product is needed. Contrast with Example 1: the same counting method, but the huge relative rate makes the answer almost trivial.
+
+### Example 3: Why is the tertiary C–H abstracted so much faster? An energy argument
+
+Consider hydrogen abstraction by a bromine atom from a tertiary C–H vs a primary C–H:
+
+Tertiary: \[ \mathrm{Br{\bullet} + (CH_3)_3C{-}H \rightarrow H{-}Br + (CH_3)_3C{\bullet}} \]
+Primary: \[ \mathrm{Br{\bullet} + CH_3CH_2CH_2CH_2{-}H \rightarrow H{-}Br + CH_3CH_2CH_2CH_2{\bullet}} \]
+
+Using BDEs (C–H tertiary ≈ 404, primary ≈ 423; H–Br ≈ 366 kJ/mol), the enthalpy of each abstraction step is:
+
+Tertiary:
+\[ \Delta H = \mathrm{BDE(C{-}H)} - \mathrm{BDE(H{-}Br)} = 404\ \mathrm{kJ/mol} - 366\ \mathrm{kJ/mol} = +38\ \mathrm{kJ/mol} \]
+
+Primary:
+\[ \Delta H = 423\ \mathrm{kJ/mol} - 366\ \mathrm{kJ/mol} = +57\ \mathrm{kJ/mol} \]
+
+Both steps are endothermic, but the tertiary abstraction costs **19 kJ/mol less**, and per the Hammond postulate the transition state resembles the radical product — so the difference in radical stability shows up almost fully in the activation energies. That 19 kJ/mol gap (roughly a factor of \(e^{19000/RT} \approx 10^3\) at room temperature) is why the relative rate is ~1600:1. The numbers are approximate textbook BDEs, but the logic — weaker bond, more stable radical, faster abstraction — is the takeaway.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Chlorination selectivity | Bromination selectivity | Cl₂: 1°:2°:3° ≈ 1:4:5 (mixture); Br₂: ≈ 1:82:1600 (one major product) |
+| Relative rate per hydrogen | Total product amount | Multiply rate per H by the count of equivalent hydrogens before comparing |
+| Radical stability order | Carbocation stability order | Both follow 3° > 2° > 1° > methyl, but radicals are neutral and less stabilized — the reasoning (hyperconjugation vs resonance) still applies |
+| Propagation steps | Initiation steps | Propagation needs a radical to start and produces one; initiation produces two radicals from a non-radical |
+| Homolytic cleavage | Heterolytic cleavage | Homolytic: one electron each, radicals, fishhook arrows; heterolytic: both electrons to one atom, ions, curved arrows |
+| Fishhook arrow | Curved (double-headed) arrow | Fishhook = single electron movement; curved = electron pair movement |
+| "Monohalogenation predicted product" | Actual isolated product | Over-halogenation and polyhalogenation are real; predicted ratios assume ideal 1:1 conditions |
+| Radical stability | Radical reactivity | More stable radical = harder to make but longer-lived; reactivity and stability are inverse |
+
+## Quick Review
+
+1. Write the three phases of the radical chlorination of methane, identifying which species carry the chain.
+2. Why does bromination of 2-methylpropane give essentially one product, while chlorination gives a mixture?
+3. Propane has six primary and two secondary hydrogens. With chlorination rates 1:4 per H, what is the percent of 2-chloropropane?
+4. Arrange CH₃–H, 1° C–H, 2° C–H, 3° C–H in order of increasing bond dissociation energy.
+5. What is the reactivity–selectivity principle, in one sentence?
+6. Why is iodine essentially unreactive toward alkanes, and why is fluorine dangerous?
+
+<details>
+<summary>Show answers</summary>
+
+1. Initiation: Cl₂ → 2 Cl• (light/heat). Propagation: Cl• + CH₄ → HCl + •CH₃; •CH₃ + Cl₂ → CH₃Cl + Cl•. Termination: any two radicals combine (Cl• + Cl•, Cl• + •CH₃, •CH₃ + •CH₃). Chain carriers: Cl• and •CH₃.
+2. Bromine abstracts hydrogens at rates 1°:3° ≈ 1:1600 per H, so the single tertiary hydrogen dominates overwhelmingly (99.4%); chlorine's rates (1:4) are too similar, so the nine primary hydrogens compete effectively.
+3. Secondary contribution = 2 × 4 = 8; primary = 6 × 1 = 6; total 14; 2-chloropropane = 8/14 = 57%.
+4. Increasing BDE: 3° C–H (404) < 2° C–H (413) < 1° C–H (423) < CH₃–H (438 kJ/mol).
+5. The more reactive the attacking species, the less selective it is — reactivity and selectivity are inversely related.
+6. Iodine abstraction of H is endothermic (I–H bond too weak to pay for breaking C–H), so the reaction is too slow; fluorine abstraction is wildly exothermic, releasing so much energy that the reaction is explosive and unselective.
+
+</details>
+
+## Related Topics
+
+- Previous: [Names and Structures of Alkyl Halides](01-names-and-structures-of-alkyl-halides.md)
+- Next: [Preparing Alkyl Halides from Alkenes: Allylic Bromination](03-preparing-alkyl-halides-from-alkenes-allylic-bromination.md)
+- Related: [Stability of the Allyl Radical: Resonance Revisited](04-stability-of-the-allyl-radical-resonance-revisited.md), [Radical Reactions](../chapter-06-an-overview-of-organic-reactions/06-radical-reactions.md), [Organohalides chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Organic Chemistry: A Tenth Edition
+- Local outline source: `organic-chemistry.md`
+- Official source URL: https://openstax.org/details/books/organic-chemistry/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-16

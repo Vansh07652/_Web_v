@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-polarity-and-intermolecular-forces-q03",
+  "subject": "chemistry-1",
+  "lesson": "polarity-and-intermolecular-forces",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A true hydrogen bond requires a hydrogen atom to be covalently bonded directly to which set of atoms?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Carbon, nitrogen, or sulfur"
+    },
+    {
+      "id": "b",
+      "text": "Nitrogen, oxygen, or fluorine"
+    },
+    {
+      "id": "c",
+      "text": "Oxygen, sulfur, or chlorine"
+    },
+    {
+      "id": "d",
+      "text": "Any element more electronegative than hydrogen"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "N, O, and F combine high electronegativity with small atomic radius, so they strip enough electron density from hydrogen to leave a highly concentrated partial positive charge on a very small, unshielded nucleus. That exposed proton can approach a lone pair on a nearby N, O, or F closely enough to give an unusually strong dipole-dipole interaction, typically 4 to 40 kJ/mol. The weakest qualifying case, N-H, still has an electronegativity difference of 3.04 - 2.2 = 0.84, whereas larger atoms such as S and Cl are too diffuse to produce the same effect despite reasonable electronegativity.\n\nELI-10: Hydrogen has only one electron, so when a very electronegative partner pulls that electron away, almost nothing is left shielding the proton. Size matters as much as pull: the partner has to be small enough that the stripped hydrogen sits close to it and stays exposed. Nitrogen, oxygen, and fluorine are the only common atoms that are both small and greedy enough. Chlorine is electronegative but large, so its electron cloud spreads out and the effect fades.",
+  "difficulty": "easy",
+  "tags": [
+    "hydrogen bonding",
+    "electronegativity and atomic size",
+    "donor atoms"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-275",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

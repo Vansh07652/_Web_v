@@ -1,0 +1,3264 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:medical-office-assistant",
+    "slug": "medical-office-assistant",
+    "title": "Medical Office Assistant",
+    "aliases": [
+      {
+        "value": "medical-office-assistant",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "moa",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "medical administrative assistant",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "medical assisting",
+        "kind": "legacy_or_display_alias"
+      }
+    ],
+    "status": "final",
+    "category": "allied-health"
+  },
+  "units": [
+    {
+      "id": "unit:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles",
+      "slug": "program-orientation-professionalism-and-healthcare-roles",
+      "title": "Program Orientation, Professionalism, and Healthcare Roles",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "program-orientation-professionalism-and-healthcare-roles",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:certificate-associate-degree-pathways",
+          "slug": "certificate-associate-degree-pathways",
+          "title": "Certificate and Associate Degree Pathways",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/certificate-associate-degree-pathways.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:administrative-clinical-management-functions",
+          "slug": "administrative-clinical-management-functions",
+          "title": "Administrative, Clinical, and Management Functions",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/administrative-clinical-management-functions.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:ambulatory-care-settings-practice-types",
+          "slug": "ambulatory-care-settings-practice-types",
+          "title": "Ambulatory Care Settings and Practice Types",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/ambulatory-care-settings-practice-types.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:entry-level-role-expectations-professional-behavior",
+          "slug": "entry-level-role-expectations-professional-behavior",
+          "title": "Entry-Level Role Expectations and Professional Behavior",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/entry-level-role-expectations-professional-behavior.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:healthcare-team-roles",
+          "slug": "healthcare-team-roles",
+          "title": "Healthcare Team Roles",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/healthcare-team-roles.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:front-back-office-collaboration",
+          "slug": "front-back-office-collaboration",
+          "title": "Front-Office and Back-Office Collaboration",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/front-back-office-collaboration.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:chain-of-command-delegation-supervision",
+          "slug": "chain-of-command-delegation-supervision",
+          "title": "Chain of Command, Delegation, and Supervision",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/chain-of-command-delegation-supervision.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:scope-of-practice-reporting-concerns",
+          "slug": "scope-of-practice-reporting-concerns",
+          "title": "Scope of Practice and When to Report Concerns",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/scope-of-practice-reporting-concerns.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:professional-appearance-reliability-punctuality",
+          "slug": "professional-appearance-reliability-punctuality",
+          "title": "Professional Appearance, Reliability, and Punctuality",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/professional-appearance-reliability-punctuality.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:stress-management-teamwork-conflict",
+          "slug": "stress-management-teamwork-conflict",
+          "title": "Stress Management, Teamwork, and Conflict Management",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/stress-management-teamwork-conflict.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:cultural-humility-diversity-accessibility-bias",
+          "slug": "cultural-humility-diversity-accessibility-bias",
+          "title": "Cultural Humility, Diversity, Accessibility, and Bias Awareness",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/cultural-humility-diversity-accessibility-bias.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:respectful-communication-boundaries-social-media",
+          "slug": "respectful-communication-boundaries-social-media",
+          "title": "Respectful Communication, Boundaries, and Social Media",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/respectful-communication-boundaries-social-media.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:aama-cma-credential",
+          "slug": "aama-cma-credential",
+          "title": "AAMA Certified Medical Assistant (CMA) Credential",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/aama-cma-credential.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:cmaa-ccma-other-credentials",
+          "slug": "cmaa-ccma-other-credentials",
+          "title": "CMAA, CCMA, and Other Credential Concepts",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/cmaa-ccma-other-credentials.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:eligibility-verification-recertification",
+          "slug": "eligibility-verification-recertification",
+          "title": "Eligibility, Verification, and Recertification",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/eligibility-verification-recertification.json",
+          "mappedQuestionCount": 84,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 84
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:program-orientation-professionalism-and-healthcare-roles:credential-licensure-program-completion",
+          "slug": "credential-licensure-program-completion",
+          "title": "Credential vs. Licensure vs. Program Completion",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/program-orientation-professionalism-and-healthcare-roles/credential-licensure-program-completion.json",
+          "mappedQuestionCount": 84,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 84
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:medical-office-assistant:foundational-medical-knowledge",
+      "slug": "foundational-medical-knowledge",
+      "title": "Foundational Medical Knowledge",
+      "order": 2,
+      "aliases": [
+        {
+          "value": "foundational-medical-knowledge",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:word-roots-combining-forms",
+          "slug": "word-roots-combining-forms",
+          "title": "Word Roots and Combining Forms",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/word-roots-combining-forms.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:prefixes-suffixes",
+          "slug": "prefixes-suffixes",
+          "title": "Prefixes and Suffixes",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/prefixes-suffixes.json",
+          "mappedQuestionCount": 65,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 65
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:singular-plural-spelling-pronunciation",
+          "slug": "singular-plural-spelling-pronunciation",
+          "title": "Singular and Plural Forms, Spelling, and Pronunciation",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/singular-plural-spelling-pronunciation.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:directional-terms-planes-cavities",
+          "slug": "directional-terms-planes-cavities",
+          "title": "Directional Terms, Body Planes, and Body Cavities",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/directional-terms-planes-cavities.json",
+          "mappedQuestionCount": 74,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 74
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:abbreviations-unsafe-abbreviations",
+          "slug": "abbreviations-unsafe-abbreviations",
+          "title": "Medical Abbreviations and Unsafe-Abbreviation Awareness",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/abbreviations-unsafe-abbreviations.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:musculoskeletal-integumentary-terminology",
+          "slug": "musculoskeletal-integumentary-terminology",
+          "title": "Musculoskeletal and Integumentary Terminology",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/musculoskeletal-integumentary-terminology.json",
+          "mappedQuestionCount": 70,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 70
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:cardiovascular-lymphatic-immune-terminology",
+          "slug": "cardiovascular-lymphatic-immune-terminology",
+          "title": "Cardiovascular, Lymphatic, and Immune Terminology",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/cardiovascular-lymphatic-immune-terminology.json",
+          "mappedQuestionCount": 73,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 73
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:respiratory-terminology",
+          "slug": "respiratory-terminology",
+          "title": "Respiratory Terminology",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/respiratory-terminology.json",
+          "mappedQuestionCount": 64,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 64
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:nervous-endocrine-terminology",
+          "slug": "nervous-endocrine-terminology",
+          "title": "Nervous and Endocrine Terminology",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/nervous-endocrine-terminology.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:gastrointestinal-urinary-terminology",
+          "slug": "gastrointestinal-urinary-terminology",
+          "title": "Gastrointestinal and Urinary Terminology",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/gastrointestinal-urinary-terminology.json",
+          "mappedQuestionCount": 84,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 84
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:reproductive-terminology",
+          "slug": "reproductive-terminology",
+          "title": "Reproductive Terminology",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/reproductive-terminology.json",
+          "mappedQuestionCount": 65,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 65
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:disease-process-terminology",
+          "slug": "disease-process-terminology",
+          "title": "Disease-Process Terminology",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/disease-process-terminology.json",
+          "mappedQuestionCount": 62,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 62
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:surgical-diagnostic-procedure-terminology",
+          "slug": "surgical-diagnostic-procedure-terminology",
+          "title": "Surgical and Diagnostic Procedure Terminology",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/surgical-diagnostic-procedure-terminology.json",
+          "mappedQuestionCount": 72,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 72
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:cells-tissues-homeostasis",
+          "slug": "cells-tissues-homeostasis",
+          "title": "Cells, Tissues, and Homeostasis",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/cells-tissues-homeostasis.json",
+          "mappedQuestionCount": 84,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 84
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:integumentary-musculoskeletal-systems",
+          "slug": "integumentary-musculoskeletal-systems",
+          "title": "Integumentary and Musculoskeletal Systems",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/integumentary-musculoskeletal-systems.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:nervous-endocrine-systems",
+          "slug": "nervous-endocrine-systems",
+          "title": "Nervous and Endocrine Systems",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/nervous-endocrine-systems.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:cardiovascular-lymphatic-immune-systems",
+          "slug": "cardiovascular-lymphatic-immune-systems",
+          "title": "Cardiovascular, Lymphatic, and Immune Systems",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/cardiovascular-lymphatic-immune-systems.json",
+          "mappedQuestionCount": 83,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 83
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:respiratory-system",
+          "slug": "respiratory-system",
+          "title": "Respiratory System",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/respiratory-system.json",
+          "mappedQuestionCount": 77,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 77
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:digestive-urinary-systems",
+          "slug": "digestive-urinary-systems",
+          "title": "Digestive and Urinary Systems",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/digestive-urinary-systems.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:reproductive-system",
+          "slug": "reproductive-system",
+          "title": "Reproductive System",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/reproductive-system.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:health-versus-disease-concepts",
+          "slug": "health-versus-disease-concepts",
+          "title": "Health vs. Disease Concepts",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/health-versus-disease-concepts.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:a-p-applied-office-tasks",
+          "slug": "a-p-applied-office-tasks",
+          "title": "A&P Applied to Office Tasks",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/a-p-applied-office-tasks.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:drug-classifications-names",
+          "slug": "drug-classifications-names",
+          "title": "Drug Classifications, Generic and Brand Names",
+          "order": 23,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/drug-classifications-names.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:indications-adverse-effects-contraindications",
+          "slug": "indications-adverse-effects-contraindications",
+          "title": "Indications, Adverse Effects, and Contraindications",
+          "order": 24,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/indications-adverse-effects-contraindications.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:medication-routes-prescription-terminology",
+          "slug": "medication-routes-prescription-terminology",
+          "title": "Medication Routes and Prescription Terminology",
+          "order": 25,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/medication-routes-prescription-terminology.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:otc-medications-reconciliation",
+          "slug": "otc-medications-reconciliation",
+          "title": "Over-the-Counter Medications and Medication Reconciliation",
+          "order": 26,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/otc-medications-reconciliation.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:controlled-substances-storage-security",
+          "slug": "controlled-substances-storage-security",
+          "title": "Controlled Substances, Storage, and Security",
+          "order": 27,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/controlled-substances-storage-security.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:medication-documentation-high-alert",
+          "slug": "medication-documentation-high-alert",
+          "title": "Medication Documentation and High-Alert Awareness",
+          "order": 28,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/medication-documentation-high-alert.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:units-measure-metric-conversions",
+          "slug": "units-measure-metric-conversions",
+          "title": "Units of Measure and Metric Conversions",
+          "order": 29,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/units-measure-metric-conversions.json",
+          "mappedQuestionCount": 89,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 89
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:dosage-calculation-principles",
+          "slug": "dosage-calculation-principles",
+          "title": "Dosage-Calculation Principles",
+          "order": 30,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/dosage-calculation-principles.json",
+          "mappedQuestionCount": 87,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 87
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:reading-medication-labels-orders",
+          "slug": "reading-medication-labels-orders",
+          "title": "Reading Medication Labels and Orders",
+          "order": 31,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/reading-medication-labels-orders.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:calculation-verification-error-prevention",
+          "slug": "calculation-verification-error-prevention",
+          "title": "Calculation Verification and Error Prevention",
+          "order": 32,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/calculation-verification-error-prevention.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:foundational-medical-knowledge:medication-documentation-discrepancy-reporting",
+          "slug": "medication-documentation-discrepancy-reporting",
+          "title": "Medication Documentation and Discrepancy Reporting",
+          "order": 33,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/foundational-medical-knowledge/medication-documentation-discrepancy-reporting.json",
+          "mappedQuestionCount": 83,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 83
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:medical-office-assistant:administrative-procedures-and-office-management",
+      "slug": "administrative-procedures-and-office-management",
+      "title": "Administrative Procedures and Office Management",
+      "order": 3,
+      "aliases": [
+        {
+          "value": "administrative-procedures-and-office-management",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:office-workflow-patient-flow",
+          "slug": "office-workflow-patient-flow",
+          "title": "Office Workflow and Patient Flow",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/office-workflow-patient-flow.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:reception-responsibilities-time-management",
+          "slug": "reception-responsibilities-time-management",
+          "title": "Reception Responsibilities and Time Management",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/reception-responsibilities-time-management.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:task-prioritization-interruptions-escalation",
+          "slug": "task-prioritization-interruptions-escalation",
+          "title": "Task Prioritization, Interruptions, and Escalation",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/task-prioritization-interruptions-escalation.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:office-organization-policies-quality-improvement",
+          "slug": "office-organization-policies-quality-improvement",
+          "title": "Office Organization, Policies, and Quality Improvement",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/office-organization-policies-quality-improvement.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:new-patient-registration-demographics",
+          "slug": "new-patient-registration-demographics",
+          "title": "New-Patient Registration and Demographics",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/new-patient-registration-demographics.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:insurance-information-collection",
+          "slug": "insurance-information-collection",
+          "title": "Insurance Information Collection",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/insurance-information-collection.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:appointment-scheduling-types-templates",
+          "slug": "appointment-scheduling-types-templates",
+          "title": "Appointment Scheduling, Types, and Templates",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/appointment-scheduling-types-templates.json",
+          "mappedQuestionCount": 84,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 84
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:cancellations-no-shows-waitlists",
+          "slug": "cancellations-no-shows-waitlists",
+          "title": "Cancellations, No-Shows, and Waitlists",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/cancellations-no-shows-waitlists.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:referrals-prior-authorization-concepts",
+          "slug": "referrals-prior-authorization-concepts",
+          "title": "Referrals and Prior Authorization Concepts",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/referrals-prior-authorization-concepts.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:urgent-routine-scheduling-identity-verification",
+          "slug": "urgent-routine-scheduling-identity-verification",
+          "title": "Urgent vs Routine Scheduling and Identity Verification",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/urgent-routine-scheduling-identity-verification.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:reception-area-management-privacy",
+          "slug": "reception-area-management-privacy",
+          "title": "Reception-Area Management and Privacy",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/reception-area-management-privacy.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:patient-check-in-check-out",
+          "slug": "patient-check-in-check-out",
+          "title": "Patient Check-In and Check-Out",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/patient-check-in-check-out.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:intake-questions-updating-information",
+          "slug": "intake-questions-updating-information",
+          "title": "Intake Questions and Updating Patient Information",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/intake-questions-updating-information.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:language-access-accessibility-de-escalation",
+          "slug": "language-access-accessibility-de-escalation",
+          "title": "Language Access, Accessibility, and De-escalation",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/language-access-accessibility-de-escalation.json",
+          "mappedQuestionCount": 83,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 83
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:complaints-boundaries-urgent-escalation",
+          "slug": "complaints-boundaries-urgent-escalation",
+          "title": "Patient Complaints, Boundaries, and Urgent Escalation",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/complaints-boundaries-urgent-escalation.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:telephone-etiquette-identifying-urgent",
+          "slug": "telephone-etiquette-identifying-urgent",
+          "title": "Telephone Etiquette and Identifying Urgent Calls",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/telephone-etiquette-identifying-urgent.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:message-documentation-routing-clinical",
+          "slug": "message-documentation-routing-clinical",
+          "title": "Message Documentation and Routing Clinical Concerns",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/message-documentation-routing-clinical.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:triage-boundaries-avoiding-advice",
+          "slug": "triage-boundaries-avoiding-advice",
+          "title": "Telephone Triage Boundaries and Avoiding Medical Advice",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/triage-boundaries-avoiding-advice.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:voicemail-email-portal-secure",
+          "slug": "voicemail-email-portal-secure",
+          "title": "Voicemail, Email, Portal, and Secure Communication",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/voicemail-email-portal-secure.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:read-back-clarification-communication-partners",
+          "slug": "read-back-clarification-communication-partners",
+          "title": "Read-Back, Clarification, and Communication Partners",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/read-back-clarification-communication-partners.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:pomr-soap-concepts",
+          "slug": "pomr-soap-concepts",
+          "title": "Problem-Oriented Medical Record and SOAP Notes",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/pomr-soap-concepts.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:documentation-standards-objective-subjective",
+          "slug": "documentation-standards-objective-subjective",
+          "title": "Documentation Standards: Objective vs Subjective",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/documentation-standards-objective-subjective.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:amendments-corrections-late-entries",
+          "slug": "amendments-corrections-late-entries",
+          "title": "Amendments, Corrections, and Late Entries",
+          "order": 23,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/amendments-corrections-late-entries.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:legal-significance-never-falsify",
+          "slug": "legal-significance-never-falsify",
+          "title": "Legal Significance of Records and Never Falsifying",
+          "order": 24,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/legal-significance-never-falsify.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:record-retention-access",
+          "slug": "record-retention-access",
+          "title": "Record Retention and Access",
+          "order": 25,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/record-retention-access.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:ehr-basics-master-patient-index",
+          "slug": "ehr-basics-master-patient-index",
+          "title": "EHR Basics and Master Patient Index",
+          "order": 26,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/ehr-basics-master-patient-index.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:patient-matching-duplicate-prevention",
+          "slug": "patient-matching-duplicate-prevention",
+          "title": "Patient Matching and Duplicate-Record Prevention",
+          "order": 27,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/patient-matching-duplicate-prevention.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:patient-portals-secure-messaging",
+          "slug": "patient-portals-secure-messaging",
+          "title": "Patient Portals and Secure Messaging",
+          "order": 28,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/patient-portals-secure-messaging.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:user-access-passwords-audit-trails",
+          "slug": "user-access-passwords-audit-trails",
+          "title": "User Access, Passwords, and Audit Trails",
+          "order": 29,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/user-access-passwords-audit-trails.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:backup-disaster-recovery-downtime",
+          "slug": "backup-disaster-recovery-downtime",
+          "title": "Backup, Disaster Recovery, and Downtime",
+          "order": 30,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/backup-disaster-recovery-downtime.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:cybersecurity-phishing-awareness",
+          "slug": "cybersecurity-phishing-awareness",
+          "title": "Cybersecurity and Phishing Awareness",
+          "order": 31,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/cybersecurity-phishing-awareness.json",
+          "mappedQuestionCount": 84,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 84
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:hipaa-protected-health-information",
+          "slug": "hipaa-protected-health-information",
+          "title": "HIPAA and Protected Health Information",
+          "order": 32,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/hipaa-protected-health-information.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:minimum-necessary-tpo-disclosures",
+          "slug": "minimum-necessary-tpo-disclosures",
+          "title": "Minimum Necessary and Permissible Disclosures (TPO)",
+          "order": 33,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/minimum-necessary-tpo-disclosures.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:authorization-release-of-information",
+          "slug": "authorization-release-of-information",
+          "title": "Authorizations and Release of Information",
+          "order": 34,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/authorization-release-of-information.json",
+          "mappedQuestionCount": 84,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 84
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:privacy-confidentiality-security",
+          "slug": "privacy-confidentiality-security",
+          "title": "Privacy, Confidentiality, and Security",
+          "order": 35,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/privacy-confidentiality-security.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:informed-consent-boundaries",
+          "slug": "informed-consent-boundaries",
+          "title": "Informed Consent Boundaries",
+          "order": 36,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/informed-consent-boundaries.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:negligence-malpractice",
+          "slug": "negligence-malpractice",
+          "title": "Negligence and Malpractice",
+          "order": 37,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/negligence-malpractice.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:incident-reporting-mandatory-reporting",
+          "slug": "incident-reporting-mandatory-reporting",
+          "title": "Incident Reporting and Mandatory Reporting",
+          "order": 38,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/incident-reporting-mandatory-reporting.json",
+          "mappedQuestionCount": 84,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 84
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:subpoenas-legal-requests",
+          "slug": "subpoenas-legal-requests",
+          "title": "Subpoenas and Legal Requests",
+          "order": 39,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/subpoenas-legal-requests.json",
+          "mappedQuestionCount": 74,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 74
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:ethical-principles-dilemmas",
+          "slug": "ethical-principles-dilemmas",
+          "title": "Ethical Principles and Dilemmas",
+          "order": 40,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/ethical-principles-dilemmas.json",
+          "mappedQuestionCount": 84,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 84
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:fraud-abuse-awareness",
+          "slug": "fraud-abuse-awareness",
+          "title": "Fraud and Abuse Awareness",
+          "order": 41,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/administrative-procedures-and-office-management/fraud-abuse-awareness.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:medical-office-assistant:medical-economics-billing-and-coding",
+      "slug": "medical-economics-billing-and-coding",
+      "title": "Medical Economics, Billing, and Coding",
+      "order": 4,
+      "aliases": [
+        {
+          "value": "medical-economics-billing-and-coding",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:revenue-cycle-management",
+          "slug": "revenue-cycle-management",
+          "title": "Revenue Cycle Management",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/revenue-cycle-management.json",
+          "mappedQuestionCount": 83,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 83
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:patient-accounts-charges-payments-adjustments",
+          "slug": "patient-accounts-charges-payments-adjustments",
+          "title": "Patient Accounts, Charges, Payments, and Adjustments",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/patient-accounts-charges-payments-adjustments.json",
+          "mappedQuestionCount": 84,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 84
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:accounts-receivable-aging-reports",
+          "slug": "accounts-receivable-aging-reports",
+          "title": "Accounts Receivable and Aging Reports",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/accounts-receivable-aging-reports.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:daily-financial-workflow-controls-reconciliation",
+          "slug": "daily-financial-workflow-controls-reconciliation",
+          "title": "Daily Financial Workflow, Controls, and Reconciliation",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/daily-financial-workflow-controls-reconciliation.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:patient-billing-payment-plans-price-transparency",
+          "slug": "patient-billing-payment-plans-price-transparency",
+          "title": "Patient Billing, Payment Plans, and Price Transparency",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/patient-billing-payment-plans-price-transparency.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:icd-10-cm-purpose-structure",
+          "slug": "icd-10-cm-purpose-structure",
+          "title": "ICD-10-CM Purpose and Structure",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/icd-10-cm-purpose-structure.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:alphabetic-index-tabular-list",
+          "slug": "alphabetic-index-tabular-list",
+          "title": "Alphabetic Index and Tabular List",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/alphabetic-index-tabular-list.json",
+          "mappedQuestionCount": 83,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 83
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:specificity-laterality-placeholders",
+          "slug": "specificity-laterality-placeholders",
+          "title": "Code Specificity, Laterality, and Placeholders",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/specificity-laterality-placeholders.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:excludes-includes-notes",
+          "slug": "excludes-includes-notes",
+          "title": "Excludes and Includes Notes",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/excludes-includes-notes.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:medical-necessity-documentation-querying",
+          "slug": "medical-necessity-documentation-querying",
+          "title": "Medical Necessity, Documentation, and Querying",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/medical-necessity-documentation-querying.json",
+          "mappedQuestionCount": 89,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 89
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:code-assignment-compliance",
+          "slug": "code-assignment-compliance",
+          "title": "Code Assignment Principles and Compliance",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/code-assignment-compliance.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:cpt-purpose-structure",
+          "slug": "cpt-purpose-structure",
+          "title": "CPT Purpose and Structure",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/cpt-purpose-structure.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:hcpcs-level-ii-purpose",
+          "slug": "hcpcs-level-ii-purpose",
+          "title": "HCPCS Level II Purpose",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/hcpcs-level-ii-purpose.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:em-coding-concepts",
+          "slug": "em-coding-concepts",
+          "title": "Evaluation and Management Coding Concepts",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/em-coding-concepts.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:modifiers",
+          "slug": "modifiers",
+          "title": "Modifiers",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/modifiers.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:supplies-dme-concepts",
+          "slug": "supplies-dme-concepts",
+          "title": "Supplies and Durable Medical Equipment Concepts",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/supplies-dme-concepts.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:bundling-unbundling-concepts",
+          "slug": "bundling-unbundling-concepts",
+          "title": "Bundling and Unbundling Concepts",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/bundling-unbundling-concepts.json",
+          "mappedQuestionCount": 89,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 89
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:cac-licensing-limitations",
+          "slug": "cac-licensing-limitations",
+          "title": "Computer-Assisted Coding and Licensing Limitations",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/cac-licensing-limitations.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:medical-necessity-coding-billing",
+          "slug": "medical-necessity-coding-billing",
+          "title": "Medical Necessity in Coding and Billing",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/medical-necessity-coding-billing.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:upcoding-downcoding",
+          "slug": "upcoding-downcoding",
+          "title": "Upcoding and Downcoding",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/upcoding-downcoding.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:unbundling-duplicate-billing",
+          "slug": "unbundling-duplicate-billing",
+          "title": "Unbundling and Duplicate Billing",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/unbundling-duplicate-billing.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:false-claims-documentation-integrity",
+          "slug": "false-claims-documentation-integrity",
+          "title": "False Claims and Documentation Integrity",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/false-claims-documentation-integrity.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:compliance-programs-audit-readiness",
+          "slug": "compliance-programs-audit-readiness",
+          "title": "Compliance Programs and Audit Readiness",
+          "order": 23,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/compliance-programs-audit-readiness.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:exclusion-sanction-reporting",
+          "slug": "exclusion-sanction-reporting",
+          "title": "Exclusion, Sanctions, and Reporting Concerns",
+          "order": 24,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/exclusion-sanction-reporting.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:error-waste-abuse-fraud-distinctions",
+          "slug": "error-waste-abuse-fraud-distinctions",
+          "title": "Error, Waste, Abuse, and Fraud Distinctions",
+          "order": 25,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/error-waste-abuse-fraud-distinctions.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:medicare-medicaid",
+          "slug": "medicare-medicaid",
+          "title": "Medicare and Medicaid",
+          "order": 26,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/medicare-medicaid.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:commercial-hmo-ppo-managed-care",
+          "slug": "commercial-hmo-ppo-managed-care",
+          "title": "Commercial Insurance, HMO, PPO, and Managed Care",
+          "order": 27,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/commercial-hmo-ppo-managed-care.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:copay-deductible-coinsurance",
+          "slug": "copay-deductible-coinsurance",
+          "title": "Copayments, Deductibles, and Coinsurance",
+          "order": 28,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/copay-deductible-coinsurance.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:prior-authorization-referrals",
+          "slug": "prior-authorization-referrals",
+          "title": "Prior Authorization and Referrals",
+          "order": 29,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/prior-authorization-referrals.json",
+          "mappedQuestionCount": 50,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 50
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:encounter-forms-claims-generation",
+          "slug": "encounter-forms-claims-generation",
+          "title": "Encounter Forms and Claims Generation",
+          "order": 30,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/encounter-forms-claims-generation.json",
+          "mappedQuestionCount": 83,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 83
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:electronic-claims-submission-status",
+          "slug": "electronic-claims-submission-status",
+          "title": "Electronic Claims Submission and Status",
+          "order": 31,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/electronic-claims-submission-status.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:eob-remittance-advice",
+          "slug": "eob-remittance-advice",
+          "title": "Explanation of Benefits and Remittance Advice",
+          "order": 32,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/eob-remittance-advice.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:claim-denials-appeals",
+          "slug": "claim-denials-appeals",
+          "title": "Claim Denials and Appeals",
+          "order": 33,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/claim-denials-appeals.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:patient-responsibility-payer-variation",
+          "slug": "patient-responsibility-payer-variation",
+          "title": "Patient Responsibility and Payer Variation",
+          "order": 34,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/medical-economics-billing-and-coding/patient-responsibility-payer-variation.json",
+          "mappedQuestionCount": 84,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 84
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:medical-office-assistant:clinical-office-practice-and-patient-safety",
+      "slug": "clinical-office-practice-and-patient-safety",
+      "title": "Clinical Office Practice and Patient Safety",
+      "order": 5,
+      "aliases": [
+        {
+          "value": "clinical-office-practice-and-patient-safety",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:preparing-exam-rooms-turnover",
+          "slug": "preparing-exam-rooms-turnover",
+          "title": "Preparing Examination Rooms and Turnover",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/preparing-exam-rooms-turnover.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:supply-checks-equipment-readiness",
+          "slug": "supply-checks-equipment-readiness",
+          "title": "Supply Checks and Equipment Readiness",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/supply-checks-equipment-readiness.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:identity-verification-privacy-chaperones",
+          "slug": "identity-verification-privacy-chaperones",
+          "title": "Identity Verification, Privacy, and Chaperones",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/identity-verification-privacy-chaperones.json",
+          "mappedQuestionCount": 83,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 83
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:gowning-draping-positioning-dignity",
+          "slug": "gowning-draping-positioning-dignity",
+          "title": "Gowning, Draping, Positioning, and Dignity",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/gowning-draping-positioning-dignity.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:room-safety-environmental-cleaning",
+          "slug": "room-safety-environmental-cleaning",
+          "title": "Room Safety and Environmental Cleaning",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/room-safety-environmental-cleaning.json",
+          "mappedQuestionCount": 84,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 84
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:temperature-pulse-respirations",
+          "slug": "temperature-pulse-respirations",
+          "title": "Temperature, Pulse, and Respirations",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/temperature-pulse-respirations.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:blood-pressure",
+          "slug": "blood-pressure",
+          "title": "Blood Pressure",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/blood-pressure.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:height-weight-bmi",
+          "slug": "height-weight-bmi",
+          "title": "Height, Weight, and Body-Mass Index",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/height-weight-bmi.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:pain-assessment",
+          "slug": "pain-assessment",
+          "title": "Pain Assessment",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/pain-assessment.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:accurate-measurement-documentation",
+          "slug": "accurate-measurement-documentation",
+          "title": "Accurate Measurement and Documentation",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/accurate-measurement-documentation.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:unexpected-results-rechecking-reporting",
+          "slug": "unexpected-results-rechecking-reporting",
+          "title": "Unexpected Results, Rechecking, and Reporting",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/unexpected-results-rechecking-reporting.json",
+          "mappedQuestionCount": 89,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 89
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:chain-of-infection",
+          "slug": "chain-of-infection",
+          "title": "Chain of Infection",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/chain-of-infection.json",
+          "mappedQuestionCount": 84,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 84
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:standard-precautions-hand-hygiene",
+          "slug": "standard-precautions-hand-hygiene",
+          "title": "Standard Precautions and Hand Hygiene",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/standard-precautions-hand-hygiene.json",
+          "mappedQuestionCount": 89,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 89
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:personal-protective-equipment",
+          "slug": "personal-protective-equipment",
+          "title": "Personal Protective Equipment",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/personal-protective-equipment.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:transmission-based-precautions",
+          "slug": "transmission-based-precautions",
+          "title": "Transmission-Based Precautions",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/transmission-based-precautions.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:sharps-safety-bloodborne-pathogens",
+          "slug": "sharps-safety-bloodborne-pathogens",
+          "title": "Sharps Safety and Bloodborne Pathogens",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/sharps-safety-bloodborne-pathogens.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:cleaning-disinfection-sterile-clean",
+          "slug": "cleaning-disinfection-sterile-clean",
+          "title": "Cleaning, Disinfection, and Sterile vs Clean Technique",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/cleaning-disinfection-sterile-clean.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:exposure-reporting-environmental-safety",
+          "slug": "exposure-reporting-environmental-safety",
+          "title": "Exposure Reporting and Environmental Safety",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/exposure-reporting-environmental-safety.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:room-equipment-supply-preparation",
+          "slug": "room-equipment-supply-preparation",
+          "title": "Room, Equipment, and Supply Preparation",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/room-equipment-supply-preparation.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:patient-communication-positioning-assistance",
+          "slug": "patient-communication-positioning-assistance",
+          "title": "Patient Communication and Positioning Assistance",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/patient-communication-positioning-assistance.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:sterile-field-awareness-privacy",
+          "slug": "sterile-field-awareness-privacy",
+          "title": "Sterile-Field Awareness and Privacy",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/sterile-field-awareness-privacy.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:specimen-workflow-documentation-support",
+          "slug": "specimen-workflow-documentation-support",
+          "title": "Specimen Workflow and Documentation Support",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/specimen-workflow-documentation-support.json",
+          "mappedQuestionCount": 84,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 84
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:post-procedure-instructions-complication-reporting",
+          "slug": "post-procedure-instructions-complication-reporting",
+          "title": "Post-Procedure Instructions and Complication Reporting",
+          "order": 23,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/post-procedure-instructions-complication-reporting.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:cleaning-decontamination",
+          "slug": "cleaning-decontamination",
+          "title": "Cleaning and Decontamination",
+          "order": 24,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/cleaning-decontamination.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:disinfection-sterilization",
+          "slug": "disinfection-sterilization",
+          "title": "Disinfection and Sterilization",
+          "order": 25,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/disinfection-sterilization.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:instrument-handling-packaging-labeling-storage",
+          "slug": "instrument-handling-packaging-labeling-storage",
+          "title": "Instrument Handling, Packaging, Labeling, and Storage",
+          "order": 26,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/instrument-handling-packaging-labeling-storage.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:monitoring-point-of-use",
+          "slug": "monitoring-point-of-use",
+          "title": "Chemical and Biological Monitoring and Point-of-Use",
+          "order": 27,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/monitoring-point-of-use.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-office-practice-and-patient-safety:manufacturer-instructions-facility-policy",
+          "slug": "manufacturer-instructions-facility-policy",
+          "title": "Manufacturer Instructions and Facility Policy",
+          "order": 28,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-office-practice-and-patient-safety/manufacturer-instructions-facility-policy.json",
+          "mappedQuestionCount": 75,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 75
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:medical-office-assistant:clinical-laboratory-technology-and-diagnostics",
+      "slug": "clinical-laboratory-technology-and-diagnostics",
+      "title": "Clinical Laboratory Technology and Diagnostics",
+      "order": 6,
+      "aliases": [
+        {
+          "value": "clinical-laboratory-technology-and-diagnostics",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:specimen-identification-two-identifiers",
+          "slug": "specimen-identification-two-identifiers",
+          "title": "Specimen Identification and Two-Identifier Principles",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/specimen-identification-two-identifiers.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:labeling-chain-of-custody",
+          "slug": "labeling-chain-of-custody",
+          "title": "Labeling and Chain-of-Custody Concepts",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/labeling-chain-of-custody.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:urine-blood-swab-specimens",
+          "slug": "urine-blood-swab-specimens",
+          "title": "Urine, Blood, and Swab Specimens",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/urine-blood-swab-specimens.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:collection-timing-transport-storage",
+          "slug": "collection-timing-transport-storage",
+          "title": "Collection Timing, Transport, and Storage",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/collection-timing-transport-storage.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:rejection-criteria-documentation-reporting",
+          "slug": "rejection-criteria-documentation-reporting",
+          "title": "Rejection Criteria, Documentation, and Reporting",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/rejection-criteria-documentation-reporting.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:venipuncture-concepts",
+          "slug": "venipuncture-concepts",
+          "title": "Venipuncture Concepts",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/venipuncture-concepts.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:capillary-puncture-concepts",
+          "slug": "capillary-puncture-concepts",
+          "title": "Capillary Puncture Concepts",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/capillary-puncture-concepts.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:patient-identification-safety-tourniquet",
+          "slug": "patient-identification-safety-tourniquet",
+          "title": "Patient Identification, Safety, and Tourniquet Concepts",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/patient-identification-safety-tourniquet.json",
+          "mappedQuestionCount": 87,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 87
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:order-of-draw",
+          "slug": "order-of-draw",
+          "title": "Order of Draw",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/order-of-draw.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:specimen-labeling-hemolysis-needle-safety",
+          "slug": "specimen-labeling-hemolysis-needle-safety",
+          "title": "Specimen Labeling, Hemolysis, and Needle Safety",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/specimen-labeling-hemolysis-needle-safety.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:needlestick-exposure-syncope-scope",
+          "slug": "needlestick-exposure-syncope-scope",
+          "title": "Needlestick Exposure, Syncope, and Scope",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/needlestick-exposure-syncope-scope.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:clia-concepts-waived-testing",
+          "slug": "clia-concepts-waived-testing",
+          "title": "CLIA Concepts and Waived Testing",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/clia-concepts-waived-testing.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:test-kit-instructions-quality-control",
+          "slug": "test-kit-instructions-quality-control",
+          "title": "Test-Kit Instructions and Quality Control",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/test-kit-instructions-quality-control.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:rapid-strep-urinalysis",
+          "slug": "rapid-strep-urinalysis",
+          "title": "Rapid Strep Testing and Urinalysis Concepts",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/rapid-strep-urinalysis.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:poc-blood-glucose",
+          "slug": "poc-blood-glucose",
+          "title": "Point-of-Care Blood Glucose Concepts",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/poc-blood-glucose.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:documentation-result-reporting-qa",
+          "slug": "documentation-result-reporting-qa",
+          "title": "Documentation, Result Reporting, and Quality Assurance",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/documentation-result-reporting-qa.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:ecg-purpose-lead-placement",
+          "slug": "ecg-purpose-lead-placement",
+          "title": "ECG Purpose and Lead-Placement Concepts",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/ecg-purpose-lead-placement.json",
+          "mappedQuestionCount": 84,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 84
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:patient-preparation-artifact-recognition",
+          "slug": "patient-preparation-artifact-recognition",
+          "title": "Patient Preparation and Artifact Recognition",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/patient-preparation-artifact-recognition.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:equipment-checks-mounting-labeling",
+          "slug": "equipment-checks-mounting-labeling",
+          "title": "Equipment Checks, Mounting, and Labeling",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/equipment-checks-mounting-labeling.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:documentation-urgent-escalation",
+          "slug": "documentation-urgent-escalation",
+          "title": "Documentation and Urgent-Symptom Escalation",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/documentation-urgent-escalation.json",
+          "mappedQuestionCount": 90,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 90
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:respiratory-test-concepts-patient-instructions",
+          "slug": "respiratory-test-concepts-patient-instructions",
+          "title": "Basic Respiratory-Test Concepts and Patient Instructions",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/respiratory-test-concepts-patient-instructions.json",
+          "mappedQuestionCount": 74,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 74
+          }
+        },
+        {
+          "id": "topic:medical-office-assistant:clinical-laboratory-technology-and-diagnostics:scope-supervision-non-interpretation",
+          "slug": "scope-supervision-non-interpretation",
+          "title": "Scope, Supervision, and Non-Interpretation",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-office-assistant/topics/clinical-laboratory-technology-and-diagnostics/scope-supervision-non-interpretation.json",
+          "mappedQuestionCount": 85,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 85
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 6,
+    "topicCount": 174,
+    "teachingTopicCount": 0,
+    "eli10TopicCount": 174,
+    "highYieldTopicCount": 0,
+    "referencedTopicCount": 174,
+    "exactOrMappedQuestionCount": 14505,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 14505,
+    "citationReviewRequiredCount": 0
+  },
+  "provenance": {
+    "sourceCollection": "medical-office-assistant-question-bank",
+    "sourceRoot": "generated-subjects/medical-office-assistant-question-bank",
+    "importBatch": "2026-08-14-generated-subjects",
+    "importedWithoutRewriting": true
+  }
+}

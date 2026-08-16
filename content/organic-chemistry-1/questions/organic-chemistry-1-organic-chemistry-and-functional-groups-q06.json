@@ -1,0 +1,40 @@
+{
+  "id": "organic-chemistry-1-organic-chemistry-and-functional-groups-q06",
+  "subject": "organic-chemistry-1",
+  "lesson": "organic-chemistry-and-functional-groups",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A hypothetical primary amine whose conjugate acid has a pKa of 9.4 is placed in a buffered solution at pH 7.4. What is the most likely outcome?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The amine precipitates as a neutral solid because acid removes its hydrogen bonding ability"
+    },
+    {
+      "id": "b",
+      "text": "The nitrogen donates a proton to water, giving an anion that is less water soluble"
+    },
+    {
+      "id": "c",
+      "text": "The amine stays neutral because nitrogen's lone pair is already committed to bonding"
+    },
+    {
+      "id": "d",
+      "text": "The nitrogen lone pair accepts a proton, giving a cation that is more water soluble"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Amines are weak bases because the nonbonding electron pair on nitrogen can accept a proton, producing a substituted ammonium cation (R—NH3+). By the Henderson-Hasselbalch relationship, the protonated form exceeds the neutral form by 10^(9.4 − 7.4) = 100 to 1 at pH 7.4, so the amine is overwhelmingly ionized. The full positive charge greatly strengthens ion-dipole interaction with water, which is why amine-containing drugs are commonly formulated as hydrochloride salts to improve dissolution.\n\nELI-10: Nitrogen in an amine has one pair of electrons not used in bonding, and a proton is simply a bare positive charge looking for electrons, so the two combine readily. When the pH sits below the conjugate acid's pKa, the protonated form wins, and here 9.4 − 7.4 = 2 pH units below means it wins by 10^2, or 100 to 1. That single charge is what makes the molecule dissolve well in water, the same reason sodium chloride dissolves and cooking oil does not.",
+  "difficulty": "medium",
+  "tags": [
+    "amines as bases",
+    "protonation",
+    "Henderson-Hasselbalch",
+    "solubility of salts"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-281",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

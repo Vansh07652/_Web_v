@@ -1,0 +1,41 @@
+{
+  "id": "physics-1-thermodynamics-ii-entropy-and-heat-engines-0005",
+  "subject": "physics-1",
+  "lesson": "thermodynamics-ii-entropy-and-heat-engines",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For heat engine schematic and thermal efficiency, use $eta = W_out / Q_h$ in a engine efficiency model. The first quantity is 50.00 J and the second is 100.00 J. What is the thermal efficiency?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$0.25$ dimensionless"
+    },
+    {
+      "id": "b",
+      "text": "$0.50$ dimensionless"
+    },
+    {
+      "id": "c",
+      "text": "$1.00$ dimensionless"
+    },
+    {
+      "id": "d",
+      "text": "$0.62$ dimensionless"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Using $eta = W_out / Q_h$ gives 50.00 J divided by 100.00 J = $0.50$ dimensionless. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to dimensionless, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "heat",
+    "engine",
+    "schematic",
+    "thermal",
+    "efficiency"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-c7e66ab5e747e446",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

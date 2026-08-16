@@ -1,0 +1,256 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:medical-terminology",
+    "slug": "medical-terminology",
+    "title": "Medical Terminology",
+    "aliases": [
+      {
+        "value": "medical-terminology",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "med-term",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "medical terminology",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "medical_terminology",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "Medical Terminology",
+        "kind": "source_subject_title",
+        "source_id": "expansion_qb"
+      },
+      {
+        "value": "07-medical-terminology",
+        "kind": "source_subject_directory",
+        "source_id": "expansion_qb"
+      },
+      {
+        "value": "7",
+        "kind": "source_subject_number",
+        "source_id": "expansion_qb"
+      }
+    ],
+    "status": "final_question_bank_no_college_notes",
+    "category": "healthcare-foundations"
+  },
+  "units": [
+    {
+      "id": "unit:medical-terminology:core-topics",
+      "slug": "core-topics",
+      "title": "Core Topics",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "core-topics",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:medical-terminology:core-topics:word-roots-prefixes-and-suffixes",
+          "slug": "word-roots-prefixes-and-suffixes",
+          "title": "Word Roots, Prefixes, and Suffixes",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-terminology/topics/core-topics/word-roots-prefixes-and-suffixes.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:medical-terminology:core-topics:building-and-decoding-medical-terms",
+          "slug": "building-and-decoding-medical-terms",
+          "title": "Building and Decoding Medical Terms",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-terminology/topics/core-topics/building-and-decoding-medical-terms.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:medical-terminology:core-topics:anatomical-and-directional-medical-terminology",
+          "slug": "anatomical-and-directional-medical-terminology",
+          "title": "Anatomical and Directional Medical Terminology",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-terminology/topics/core-topics/anatomical-and-directional-medical-terminology.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:medical-terminology:core-topics:cardiovascular-and-hematologic-terminology",
+          "slug": "cardiovascular-and-hematologic-terminology",
+          "title": "Cardiovascular and Hematologic Terminology",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-terminology/topics/core-topics/cardiovascular-and-hematologic-terminology.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:medical-terminology:core-topics:respiratory-terminology",
+          "slug": "respiratory-terminology",
+          "title": "Respiratory Terminology",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-terminology/topics/core-topics/respiratory-terminology.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:medical-terminology:core-topics:gastrointestinal-and-hepatic-terminology",
+          "slug": "gastrointestinal-and-hepatic-terminology",
+          "title": "Gastrointestinal and Hepatic Terminology",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-terminology/topics/core-topics/gastrointestinal-and-hepatic-terminology.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:medical-terminology:core-topics:renal-and-urinary-terminology",
+          "slug": "renal-and-urinary-terminology",
+          "title": "Renal and Urinary Terminology",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-terminology/topics/core-topics/renal-and-urinary-terminology.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:medical-terminology:core-topics:neurologic-and-musculoskeletal-terminology",
+          "slug": "neurologic-and-musculoskeletal-terminology",
+          "title": "Neurologic and Musculoskeletal Terminology",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-terminology/topics/core-topics/neurologic-and-musculoskeletal-terminology.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:medical-terminology:core-topics:endocrine-and-reproductive-terminology",
+          "slug": "endocrine-and-reproductive-terminology",
+          "title": "Endocrine and Reproductive Terminology",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-terminology/topics/core-topics/endocrine-and-reproductive-terminology.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:medical-terminology:core-topics:diagnostic-procedural-and-healthcare-abbreviations",
+          "slug": "diagnostic-procedural-and-healthcare-abbreviations",
+          "title": "Diagnostic, Procedural, and Healthcare Abbreviations",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/medical-terminology/topics/core-topics/diagnostic-procedural-and-healthcare-abbreviations.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 1,
+    "topicCount": 10,
+    "teachingTopicCount": 0,
+    "eli10TopicCount": 10,
+    "highYieldTopicCount": 0,
+    "referencedTopicCount": 10,
+    "exactOrMappedQuestionCount": 120,
+    "subjectWideQuestionCount": 300,
+    "uniqueQuestionCount": 420,
+    "citationReviewRequiredCount": 300
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

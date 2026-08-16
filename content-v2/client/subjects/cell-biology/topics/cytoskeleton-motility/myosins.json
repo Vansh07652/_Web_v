@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cytoskeleton-motility:myosins",
+  "slug": "myosins",
+  "title": "Myosins: Actin-Based Motor Proteins",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cytoskeleton-motility",
+    "slug": "cytoskeleton-motility",
+    "title": "Cytoskeleton Motility",
+    "order": 5
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "Myosins are a superfamily of motor proteins that use the energy of ATP hydrolysis to move along actin filaments. All myosins share a conserved **head (motor) domain** that binds actin and hydrolyzes ATP, converting chemical energy into a conformational \"power stroke.\" Myosin II forms bipolar filaments that slide actin filaments (muscle contraction, cytokinesis), while the many \"unconventional\" myosins (myosin I, V, VI, and others) carry cargo, organize the cell cortex, and power membrane dynamics.",
+    "whyItMatters": "Myosin II drives muscle contraction, cytokinesis, and cell adhesion/migration; unconventional myosins transport vesicles and organelles (myosin V), maintain stereocilia (myosin VIIa in hearing), and organize microvilli (myosin I). Mutations cause hypertrophic cardiomyopathy (β-myosin), deafness (Usher syndrome, myosin VIIa), and Griscelli syndrome (myosin V, pigment transport). Myosin inhibitors and activators are emerging cardiac therapeutics.",
+    "learningObjectives": "- Describe myosin structure and the ATPase cross-bridge cycle.\n- Explain how myosin moves along actin filaments and the direction of movement.\n- Distinguish myosin II (filament-forming, contractile) from unconventional myosins.\n- Relate myosin classes to their cellular functions (muscle, cytokinesis, transport).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nMyosins are a superfamily of motor proteins that use the energy of ATP hydrolysis to move along actin filaments. All myosins share a conserved **head (motor) domain** that binds actin and hydrolyzes ATP, converting chemical energy into a conformational \"power stroke.\" Myosin II forms bipolar filaments that slide actin filaments (muscle contraction, cytokinesis), while the many \"unconventional\" myosins (myosin I, V, VI, and others) carry cargo, organize the cell cortex, and power membrane dynamics.\n\n### Key Components\n\n- **Head (motor) domain:** binds actin and ATP; contains the ATPase and actin-binding sites.\n- **Neck (lever arm):** binds light chains (calmodulin or essential/regulatory light chains); its rotation amplifies small conformational changes into a large stroke.\n- **Tail domain:** determines function — self-association into filaments (myosin II) or cargo binding (unconventional myosins).\n- **Actin-binding cycle:** the sequence of ATP binding, hydrolysis, phosphate release, and ADP release that drives movement.\n- **Myosin II:** the filament-forming, contractile myosin (muscle, cytokinesis, stress fibers).\n- **Unconventional myosins:** myosin V (processive cargo transport), myosin VI (moves toward the pointed/minus end), myosin I (membrane–cortex interactions).\n\n### Mechanism / How It Works\n\n1. **Rigor state:** the myosin head is tightly bound to actin (no nucleotide).\n2. **ATP binding** to the head lowers its affinity for actin, releasing the head.\n3. **ATP hydrolysis** (to ADP + Pi) cocks the head into a high-energy conformation while it is detached.\n4. **Weak rebinding:** the head re-attaches weakly to actin further along the filament.\n5. **Phosphate release** triggers the **power stroke** — the lever arm swings, pulling the actin filament (relative to myosin) toward the minus end.\n6. **ADP release** returns the head to the rigor state, tightly bound, ready for the next ATP.\n7. Repeated cycles cause the head to \"walk\" stepwise along the filament.\n\n### Energy and Directionality\n\nMyosin movement is directly ATP-driven: one ATP is hydrolyzed per cross-bridge cycle, and the chemical energy is transduced into mechanical work by the power stroke. Directionality is set by the motor's structure: most myosins (I, II, V) walk toward the **barbed (plus) end** of actin, while myosin VI walks toward the **pointed (minus) end**. In myosin II, because the filament is bipolar, sliding of oppositely oriented actin filaments toward each other produces contraction rather than transport.\n\n### Experimental Evidence / Technique\n\n- **In vitro motility assays:** myosin-coated beads or filaments moving over actin (or vice versa) showed myosin generates force and moves directionally — directly visualizing motility.\n- **Optical tweezers (Finer, Simmons & Spudich):** measured single myosin steps (~5–40 nm) and forces (a few pN) per ATP, resolving the elementary power stroke.\n- **X-ray crystallography (Rayment et al.):** the myosin head structure with nucleotide analogs revealed the lever-arm and conformational changes underlying the stroke.\n- **Muscle fiber biochemistry:** rapid kinetics (caged ATP) correlated ATP hydrolysis with cross-bridge detachment and force generation.\n- **Myosin mutations:** mutations in myosin heads (e.g. in *MYH7* β-cardiac myosin) cause cardiomyopathies, linking motor function to disease.",
+    "howItWorks": "1. **Rigor state:** the myosin head is tightly bound to actin (no nucleotide).\n2. **ATP binding** to the head lowers its affinity for actin, releasing the head.\n3. **ATP hydrolysis** (to ADP + Pi) cocks the head into a high-energy conformation while it is detached.\n4. **Weak rebinding:** the head re-attaches weakly to actin further along the filament.\n5. **Phosphate release** triggers the **power stroke** — the lever arm swings, pulling the actin filament (relative to myosin) toward the minus end.\n6. **ADP release** returns the head to the rigor state, tightly bound, ready for the next ATP.\n7. Repeated cycles cause the head to \"walk\" stepwise along the filament.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Myosins move on **actin** using **ATP** hydrolysis (one ATP per cross-bridge cycle).\n- Domain structure: **head (motor/ATPase), neck (lever arm), tail (function).**\n- Cross-bridge cycle: **attach → release (ATP binds) → cock (hydrolysis) → power stroke (Pi release) → rigor (ADP release).**\n- Most myosins walk toward the **barbed (+) end**; **myosin VI** walks toward the **pointed (−) end**.\n- **Myosin II** forms bipolar filaments → contraction (muscle, cytokinesis, stress fibers).\n- **Myosin V** is processive, carrying cargo long distances.\n- The power stroke occurs on **Pi release**, not on ATP hydrolysis.\n- Myosin mutations → **cardiomyopathy, deafness (Usher), Griscelli syndrome**.",
+    "commonConfusions": "- **\"Myosin moves on microtubules.\"** No — myosins move on **actin**; kinesins and dyneins move on **microtubules** (a common mix-up).\n- **\"The power stroke happens when ATP is hydrolyzed.\"** Hydrolysis *cocks* the head; the power stroke occurs on **phosphate release**.\n- **\"All myosins move toward the plus end.\"** Myosin VI is a notable exception, moving toward the minus (pointed) end.\n- **\"Rigor mortis is muscle over-contraction.\"** Rigor occurs because, without ATP, myosin heads stay attached to actin (rigor state), locking filaments — it is the *absence* of ATP, not active contraction.\n- **\"Only muscle cells have myosin.\"** All eukaryotic cells express myosins (cytokinesis, transport, migration).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a climber pulling a rope hand-over-hand. The climber's hand (the myosin head) grabs the rope (actin), pulls it, lets go, reaches forward, and grabs again. Each \"grab-pull-release\" is one ATP coin spent — the climber buys each pull with one coin. Many climbers pulling the same rope in opposite teams is how muscle squeezes. (The analogy omits that the \"pull\" comes from a lever-arm swing triggered by releasing a phosphate, and that some myosins climb the rope in the opposite direction.)",
+    "quickReview": "- Myosin = actin motor; ATP hydrolysis drives a lever-arm power stroke.\n- Cycle: attach → ATP binds → release → cock → rebind → Pi release → power stroke → ADP release.\n- Myosin II contracts (muscle, cytokinesis); unconventional myosins transport cargo.\n- Direction: mostly plus-end; myosin VI is minus-end.\n- ATP is required for detachment as well as the stroke (hence rigor mortis without ATP).",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, Johnson A, Lewis J, et al. \"Molecular Motors.\" *Molecular Biology of the Cell.* 4th edition. Garland Science; 2002. https://www.ncbi.nlm.nih.gov/books/NBK26888/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26888/"
+      },
+      {
+        "text": "Cooper GM. \"Actin, Myosin, and Cell Movement.\" *The Cell: A Molecular Approach.* 2nd edition. Sinauer Associates; 2000. https://www.ncbi.nlm.nih.gov/books/NBK9961/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9961/"
+      },
+      {
+        "text": "Clark MA, Choi J, Douglas M. \"4.5 The Cytoskeleton.\" *Biology 2e.* OpenStax. https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+        "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/05-cytoskeleton-motility/04-myosins.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

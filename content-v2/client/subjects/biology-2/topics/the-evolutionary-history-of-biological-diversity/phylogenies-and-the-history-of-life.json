@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-2:the-evolutionary-history-of-biological-diversity:phylogenies-and-the-history-of-life",
+  "slug": "phylogenies-and-the-history-of-life",
+  "title": "Phylogenies and the History of Life",
+  "subject": {
+    "id": "subject:biology-2",
+    "slug": "biology-2",
+    "title": "Biology II"
+  },
+  "unit": {
+    "id": "unit:biology-2:the-evolutionary-history-of-biological-diversity",
+    "slug": "the-evolutionary-history-of-biological-diversity",
+    "title": "The Evolutionary History of Biological Diversity",
+    "order": 2
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "A phylogeny is the evolutionary history of a group of organisms, usually drawn as a branching tree. Systematists reconstruct these trees from shared, inherited characteristics—especially DNA—so that classification reflects actual ancestry rather than superficial resemblance. The same framework frames life's earliest history: organic molecules formed on early Earth, a self-replicating \"RNA world\" took hold, and a single ancestral population (LUCA) gave rise to the three domains.",
+    "whyItMatters": "Phylogenetic methods underpin modern molecular epidemiology: during an outbreak, scientists sequence a pathogen and build a tree to reveal how closely one patient's strain is related to another's—tracing transmission chains without a written record. The same logic tracks antibiotic-resistant bacteria through hospitals, flags viruses that have jumped from animals to people, and guides conservation by revealing which species are most evolutionarily distinct and in greatest need of protection.",
+    "learningObjectives": "By the end of this topic, you should be able to:\n\n1. Distinguish taxonomy from systematics and explain binomial nomenclature.\n2. Read a phylogenetic tree: identify nodes, branches, sister taxa, roots, and outgroups.\n3. Tell monophyletic, paraphyletic, and polyphyletic groups apart and explain why only monophyletic groups (clades) are used in modern classification.\n4. Contrast homologous and analogous structures and connect analogy to convergent evolution.\n5. Explain why shared derived characters (synapomorphies), not shared ancestral ones, resolve relationships.\n6. Describe how life may have originated on Earth and what the Last Universal Common Ancestor (LUCA) represents.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Clade | An ancestor and all of its descendants | The only kind of group modern classification accepts |\n| Monophyletic | One ancestor plus all descendants (\"one cut\") | A valid clade |\n| Paraphyletic | One ancestor plus some but not all descendants | Invalid in cladistics (e.g., \"reptiles\" without birds) |\n| Polyphyletic | Members that do not share a recent common ancestor | Reflects resemblance, not relatedness |\n| Homology | Similarity due to shared ancestry | Evidence of common descent |\n| Analogy | Similarity due to convergent evolution | Looks alike but not closely related |\n| Synapomorphy | A shared derived character unique to a clade | The marker that defines clades |\n| Outgroup | A relative that split off before the study group | Roots the tree; shows ancestral vs. derived states |\n| LUCA | Last Universal Common Ancestor of all life | The shared root of Bacteria, Archaea, and Eukarya |",
+    "collegeNotes": "### 1. Naming and Classifying Life\n\nTaxonomy is the science of naming and grouping organisms. Carolus Linnaeus gave us two tools still in use: binomial nomenclature (a two-part name such as *Homo sapiens*—genus capitalized, species lowercase, both italicized) and a nested hierarchy (species → genus → family → order → class → phylum → kingdom → domain). Systematics goes further: it arranges organisms to reflect evolutionary relationships. The modern goal is that every named group should be a clade—an ancestor plus all of its descendants.\n\n### 2. Reading a Phylogenetic Tree\n\nKey parts: tips (living or extinct taxa), branches (lineages), nodes (branch points, each a common ancestor), the root (the oldest ancestor in the tree), and an outgroup (a related taxon that split off before the study group, used to orient the tree). Sister taxa are two groups that share an immediate common ancestor no one else shares.\n\nThree rules prevent most misreadings:\n\n- Branch order at the tips is arbitrary—branches rotate freely around nodes.\n- A living tip is never the ancestor of another living tip.\n- To find who is most closely related, trace backward to the most recent common ancestor, not to who sits nearest at the tips.\n\nTrees are hypotheses, built from morphology and, increasingly, DNA, and revised as data improve.\n\n### 3. The Origin of Life and the Three Domains\n\nLife's earliest steps are reconstructed from chemistry and geology. Early Earth (about 4 billion years ago) had little free oxygen but abundant water, methane, ammonia, and energy (lightning, UV, hydrothermal vents), conditions under which amino acids and nucleotides form without life, as Miller–Urey-style experiments show. Many scientists favor an \"RNA world,\" in which RNA both stored information and catalyzed reactions, later handing those jobs to DNA and proteins. From the population we call LUCA descended the three domains: Bacteria, Archaea, and Eukarya.",
+    "howItWorks": "How life may have begun:\n\n1. Abiotic synthesis of small organic molecules (amino acids, nucleotides) under early-Earth conditions.\n2. Polymerization of monomers into RNA and other macromolecules, aided by mineral surfaces.\n3. Formation of protocells—simple membrane-bound compartments that concentrate and protect molecules.\n4. Onset of self-replication, with RNA serving as both information and catalyst (the RNA world).\n5. Transition to a DNA/protein world, improving fidelity of storage and efficiency of catalysis.\n6. Evolution of LUCA and divergence into the three domains we see today.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Monophyletic = one cut, all descendants. Paraphyletic = some descendants missing. Polyphyletic = multiple cuts needed.\n- Only monophyletic groups (clades) are valid under cladistics.\n- Only shared derived characters (synapomorphies) resolve relationships; shared ancestral characters do not.\n- Homology = shared ancestry; analogy = convergent evolution.\n- **High yield:** Living tips are never ancestors of other living tips; branches rotate freely; proximity at the tips does not equal relatedness.\n- A phylogenetic tree is a hypothesis, not an inscribed fact—it is revised as new evidence arrives.\n- Evolution is a branching bush, not a ladder; no living species is \"more evolved\" than another.\n- The three domains (Bacteria, Archaea, Eukarya) replaced the older five-kingdom system based on molecular evidence.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Homology | Analogy | Homology = shared ancestry; analogy = convergent evolution |\n| Monophyletic | Paraphyletic | Monophyletic includes all descendants; paraphyletic leaves some out |\n| Shared ancestral character | Shared derived character | Ancestral is old and uninformative; derived defines a clade |\n| \"Humans evolved from chimps\" | Humans and chimps share a common ancestor | Sister lineages, not ancestor–descendant |\n| Scientific theory | Everyday \"guess\" | A scientific theory is a well-supported explanation, not a hunch |\n| Branch length | Time (on every tree) | Only some trees (chronograms) scale branches to time |",
+    "memoryAids": "\"One cut = one clade.\" If you can slice a tree with a single cut and collect everything downstream, you have a monophyletic group. If you must make multiple cuts, it is polyphyletic; if you cut once but deliberately leave a branch behind, it is paraphyletic.",
+    "eli10": "A phylogenetic tree is like a family tree for species instead of people. Your cousin is not your ancestor—you share grandparents. In the same way, humans did not evolve from chimpanzees; humans and chimpanzees share an ancient ancestor species that lived millions of years ago and no longer exists. Each fork is a moment when one lineage split into two, and every living tip has been changing for the same amount of time.\n\nThe comparison stops being exact because a real family tree is recorded—with names and dates—while a phylogenetic tree is inferred from fossils and DNA. Its internal nodes are hypotheses about long-vanished species, so new evidence can move the branches. The real biological meaning: every living thing shares a common ancestor if you trace far enough back, and evolution is a branching bush, not a ladder with humans at the top.\n\n### Simple Example\n\nAt a family reunion, you and your sibling branch together before your cousin joins because you share parents—a more recent common ancestor. No one at the reunion is anyone else's ancestor.",
+    "quickReview": "### Topic Recap\n\n- Taxonomy names organisms; systematics orders them by evolutionary relationship.\n- Read trees by common ancestry, not by tip order or \"progress.\"\n- Only clades (monophyletic groups) are valid; paraphyletic and polyphyletic groups are rejected.\n- Homology and analogy distinguish ancestry from convergence.\n- Life likely began with abiotic monomers, an RNA world, and protocells, then LUCA and the three domains.\n\n### Knowledge Check\n\n1. A group contains birds, bats, and pterosaurs. Is it monophyletic, paraphyletic, or polyphyletic, and why?\n2. Why is \"reptiles\" (as traditionally defined, excluding birds) considered paraphyletic?\n3. On a tree, species A and B sit side by side at the tips, with C farther away. What is the correct way to determine which pair is most closely related?\n4. Why is the statement \"birds are more evolved than crocodiles\" incorrect?\n\n### Answers and Rationales\n\n1. Polyphyletic—flight evolved independently in birds, bats, and pterosaurs, so their shared recent ancestor did not fly; grouping them needs multiple cuts and reflects convergent resemblance, not ancestry.\n2. Because the common ancestor of all reptiles also gave rise to birds, which the group excludes—so it is an ancestor minus some of its descendants.\n3. Ignore tip order (branches rotate freely) and trace backward from each taxon to find which pair shares the most recent common ancestor (the fewest nodes back).\n4. Birds and crocodiles have both been evolving for the same amount of time since their shared archosaur ancestor; neither is \"more evolved,\" only differently adapted.",
+    "workedExamples": "",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "phylogenies-and-the-history-of-life",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "04-phylogenies-and-the-history-of-life",
+      "kind": "source_file_stem",
+      "source_id": "need-review-biology-2"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-biology-2",
+    "sourceFile": "biology-2-study-notes/docs/biology-2/04-phylogenies-and-the-history-of-life.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

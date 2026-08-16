@@ -1,0 +1,41 @@
+{
+  "id": "physics-2-dc-circuits-0005",
+  "subject": "physics-2",
+  "lesson": "dc-circuits",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For rc charging and discharging with the time constant, use $tau = R C$ in a RC time constant model. The first quantity is 5.00 Ohm and the second is 2.00 F. What is the time constant?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$5.00\\ \\text{s}$"
+    },
+    {
+      "id": "b",
+      "text": "$10.00\\ \\text{s}$"
+    },
+    {
+      "id": "c",
+      "text": "$20.00\\ \\text{s}$"
+    },
+    {
+      "id": "d",
+      "text": "$12.50\\ \\text{s}$"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Using $tau = R C$ gives 5.00 Ohm times 2.00 F = $10.00\\ \\text{s}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to s, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "rc",
+    "charging",
+    "discharging",
+    "time",
+    "constant"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ecaad7dd501f0cf0",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

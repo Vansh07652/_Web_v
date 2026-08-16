@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:evidence-based-practice-basic-statistics:core-topics:standard-deviation-and-distribution-concepts",
+  "slug": "standard-deviation-and-distribution-concepts",
+  "title": "Standard Deviation and Distribution Concepts",
+  "subject": {
+    "id": "subject:evidence-based-practice-basic-statistics",
+    "slug": "evidence-based-practice-basic-statistics",
+    "title": "Evidence-Based Practice & Basic Statistics"
+  },
+  "unit": {
+    "id": "unit:evidence-based-practice-basic-statistics:core-topics",
+    "slug": "core-topics",
+    "title": "Core Topics",
+    "order": 1
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nStandard deviation answers one question: how far from average is a typical value? Here the average is 72 and the typical miss is about 6, so most people land somewhere around 66 to 78, and 72 + 6 = 78 marks the spot one typical miss above average. It is not the biggest gap in the data and it is not a percentage of anything. It is the usual amount of scatter, reported in the same units as the measurement itself.\n\n### Question 2\n\nA normal curve is tallest at the mean and thins out toward both edges, so most observations sit close to the center. Mark a boundary one standard deviation to the left and another one standard deviation to the right: each half of that band holds about 34 out of every 100 observations, and 34 + 34 = 68. Push the boundaries out to two standard deviations and you capture about 95 out of 100; three standard deviations captures about 99.7. Memorizing the three numbers 68, 95, and 99.7 in that order covers most exam questions on this topic.\n\n### Question 3\n\nComputing variance requires squaring every distance from the mean, which inflates the number and leaves it in squared units, like reporting a hallway in square feet when you wanted plain feet. The square root reverses both problems at once: the square root of 81 is 9, and 9 is back on the same scale as the scores. Variance and standard deviation carry identical information about spread, but only the standard deviation can be added to or subtracted from the mean.\n\n### Question 4\n\nPicture the scores as marks on a ruler. Adding 5 slides every mark the same distance to the right, so the mean slides 5 as well and the gaps between marks are untouched. Standard deviation measures those gaps, not the location of the group, so it does not change: 85 minus 81 is still 4, exactly what 80 minus 76 was. Contrast this with doubling every score, which would stretch the gaps and double the standard deviation.\n\n### Question 5\n\nTwo units can average the same score for very different reasons. In Unit A almost everyone rates near 80, so a typical rating misses the mean by only about 3 points. In Unit B some patients rate very high and others very low, and a typical rating misses by about 9 points, three times as far. The averages are identical, but the experience of care is far more uneven in Unit B, which is exactly the kind of difference a manager needs to see.\n\n### Question 6\n\nJudging spread by the range is like describing a class by interviewing only the tallest and shortest student. Add one unusually tall newcomer and the answer jumps from 46 to something much larger, even though nobody else changed. Standard deviation asks every observation how far it sits from the mean and combines all of those answers, so a single unusual value moves it only a little. More information goes in, and a more stable number comes out.\n\n### Question 7\n\nIn a right-skewed distribution the bulk of the observations pile up on the low end and a thin tail stretches far to the right. Those few very long stays pull the mean upward while barely moving the middle value, which is why the mean sits 7 hours above the median here. Because the curve is lopsided, the symmetric 68-95-99.7 bands no longer capture the percentages they promise, and the same outliers that shifted the mean also enlarge the standard deviation.\n\n### Question 8\n\nA z-score restates a raw value as a count of standard deviations from the mean. One standard deviation here is 15 points, and the participant is 30 points above the mean, so 30 divided by 15 gives exactly 2 standard deviations. Reporting 2 rather than 30 points is useful because a z of 2 means the same relative position on any normally distributed measure, no matter what units that measure uses.\n\n### Question 9\n\nConvert the percentage into a number of standard deviations first: 95 percent corresponds to two standard deviations on each side. Each standard deviation is 8 mmHg, so two of them is 16 mmHg. Subtract 16 from 120 to get the lower bound of 104 and add 16 to get the upper bound of 136. Only about 5 values in 100 land outside that window, which is what makes values beyond it worth a second look in this simulation.\n\n### Question 10\n\nWork the formula one step at a time. The deviations are minus 5, minus 5, 0, plus 5, and plus 5, and squaring them gives 25 + 25 + 0 + 25 + 25 = 100. Divide by n minus 1, which is 4, not 5, because using the sample's own mean uses up one piece of information; that gives a variance of 25. Take the square root and the standard deviation is 5 points, back in the same units as the quiz scores. Stopping at 25 reports the variance, a common error.\n\n### Question 11\n\nStandard deviation describes how scattered individual people are. Standard error describes how much the average itself would move if the study were repeated with a fresh group of 100 people. Averages are steadier than individuals because one extreme person gets diluted by the other 99, and that steadying effect is exactly the square root of n. Here the square root of 100 is 10, so 20 divided by 10 gives a standard error of 2: the mean is ten times steadier than any single measurement.\n\n### Question 12\n\nA scatter of 10 units matters a great deal when the values average 50 and much less when they average 200, so raw standard deviations cannot be compared across different scales. The coefficient of variation fixes this by expressing the standard deviation as a percentage of its own mean: 10 out of 50 is 20 percent, while 20 out of 200 is only 10 percent. By that yardstick set A is twice as variable, even though set B has the larger standard deviation on paper.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Introductory Statistics — OpenStax",
+        "url": "https://openstax.org/details/books/introductory-statistics"
+      },
+      {
+        "text": "Evidence-Based Practice resources — U.S. National Library of Medicine",
+        "url": "https://www.nlm.nih.gov/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "expansion-question-bank",
+    "sourceFile": "Education/pre-nursing-expansion-question-bank/questions/17-evidence-statistics/338-standard-deviation-and-distribution-concepts.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false
+  },
+  "sourceSnapshotMarkdown": ""
+}

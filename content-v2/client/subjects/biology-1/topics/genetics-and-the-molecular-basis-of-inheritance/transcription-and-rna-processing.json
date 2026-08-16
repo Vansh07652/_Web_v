@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:transcription-and-rna-processing",
+  "slug": "transcription-and-rna-processing",
+  "title": "Transcription and RNA Processing",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:genetics-and-the-molecular-basis-of-inheritance",
+    "slug": "genetics-and-the-molecular-basis-of-inheritance",
+    "title": "Genetics And The Molecular Basis Of Inheritance",
+    "order": 6
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "**Transcription** is the synthesis of an **RNA** copy of a gene's DNA sequence, carried out by **RNA polymerase**. It is the first step of the **central dogma** — DNA → RNA → protein — converting stored genetic information into a form the cell can use to build proteins. In eukaryotes, the initial transcript is then **processed** (capped, tailed, and spliced) into mature mRNA.",
+    "whyItMatters": "Transcription is the main control point for gene expression: most regulation of which proteins a cell makes happens by controlling when and how much a gene is transcribed. Errors in splicing cause many genetic diseases (e.g., some forms of thalassemia and spinal muscular atrophy). Understanding promoters, transcription factors, and alternative splicing also underpins biotechnology (making therapeutic proteins) and medicine (drugs that target transcription).",
+    "learningObjectives": "- State the central dogma (DNA → RNA → protein) and where transcription fits.\n- Explain how RNA polymerase uses a promoter and a template strand to synthesize RNA.\n- Distinguish the template (noncoding) strand from the coding strand.\n- Describe eukaryotic RNA processing: 5′ cap, poly-A tail, splicing, and alternative splicing.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Transcription** is the synthesis of an **RNA** copy of a gene's DNA sequence, carried out by **RNA polymerase**. It is the first step of the **central dogma** — DNA → RNA → protein — converting stored genetic information into a form the cell can use to build proteins. In eukaryotes, the initial transcript is then **processed** (capped, tailed, and spliced) into mature mRNA.\n\n### Key Concepts\n\n### The central dogma\n\nThe flow of genetic information is **DNA → RNA → protein**. DNA is the permanent store; **transcription** makes an RNA working copy of a gene; **translation** (next note) reads that RNA to assemble a protein. (Some viruses reverse the flow — reverse transcription — but the DNA → RNA → protein direction is the general rule of life.)\n\n### RNA polymerase and the promoter\n\n**RNA polymerase** unwinds a short stretch of DNA and links ribonucleotides into RNA, moving 5′→3′ along the template. It does not need a primer. Transcription begins at a **promoter** — a specific DNA sequence upstream of the gene that RNA polymerase (with the help of transcription factors) recognizes and binds. The promoter determines *where* transcription starts and *which* strand is read.\n\n### Template strand vs. coding strand\n\nOf the two DNA strands, only one — the **template (noncoding) strand** — is copied into RNA, using complementary base pairing (with **uracil (U)** replacing thymine). The other strand, the **coding strand**, has the *same* sequence as the RNA (with T instead of U) and is not used as a template. Which strand serves as template differs from gene to gene.\n\n### Elongation and termination\n\nDuring **elongation**, RNA polymerase adds RNA nucleotides complementary to the template (A pairs with U, C with G), growing the transcript 5′→3′. **Termination** occurs when the polymerase reaches a terminator sequence and releases the transcript. In prokaryotes this mRNA can be translated immediately; in eukaryotes it must first be processed.\n\n### Eukaryotic RNA processing\n\nEukaryotic pre-mRNA undergoes three major modifications before leaving the nucleus: (1) a **5′ cap** (a modified guanine nucleotide) is added to the 5′ end, protecting the RNA and helping the ribosome bind; (2) a **poly-A tail** (a string of adenines) is added to the 3′ end, protecting against degradation and aiding export; and (3) **splicing** removes **introns** (noncoding sequences) and joins **exons** (coding sequences) together, catalyzed by the **spliceosome** (a complex of RNA and protein).\n\n### Alternative splicing\n\nBecause a single pre-mRNA can be spliced in more than one way — different combinations of exons joined, or some exons skipped — one gene can produce **multiple different proteins**. This **alternative splicing** helps explain how ~20,000 human genes can encode far more protein products, contributing to tissue-specific and developmental diversity.\n\n### How It Works\n\nTranscription factors guide RNA polymerase to the promoter, where the polymerase unwinds the DNA and selects the template strand. The polymerase moves along the template 3′→5′ (synthesizing RNA 5′→3′), adding U for each A, G for each C, and so on, until it reaches a terminator and falls off. In eukaryotes, the pre-mRNA then gets its 5′ cap and poly-A tail, and the spliceosome cuts out introns and ligates exons. The mature mRNA — capped, tailed, spliced — is exported to the cytoplasm for translation.",
+    "howItWorks": "Transcription factors guide RNA polymerase to the promoter, where the polymerase unwinds the DNA and selects the template strand. The polymerase moves along the template 3′→5′ (synthesizing RNA 5′→3′), adding U for each A, G for each C, and so on, until it reaches a terminator and falls off. In eukaryotes, the pre-mRNA then gets its 5′ cap and poly-A tail, and the spliceosome cuts out introns and ligates exons. The mature mRNA — capped, tailed, spliced — is exported to the cytoplasm for translation.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Central dogma: DNA → RNA → protein.\n- RNA polymerase synthesizes RNA 5′→3′ using the **template strand**; no primer needed.\n- In RNA, **uracil replaces thymine**; A pairs with U.\n- The **coding strand** matches the RNA sequence (T→U); the **template strand** is complementary to it.\n- Promoter = where transcription starts; terminator = where it stops.\n- Eukaryotic processing: 5′ cap, poly-A tail, splicing.\n- Splicing removes introns, joins exons (spliceosome).\n- Alternative splicing → multiple proteins from one gene.",
+    "commonConfusions": "- **\"Both DNA strands are transcribed.\"** Wrong — only the template strand is copied into RNA.\n- **\"The template strand has the same sequence as the mRNA.\"** Wrong — the **coding** strand matches the mRNA (with T→U); the template is complementary.\n- **\"RNA polymerase needs a primer.\"** Wrong — that's DNA polymerase; RNA polymerase can start from scratch at the promoter.\n- **\"Thymine pairs with uracil.\"** Wrong — in RNA, **A pairs with U**; T is simply not used in RNA.\n- **\"Introns are junk that does nothing.\"** Oversimplified — some introns are regulatory or code for other RNAs; and their removal/splicing is essential for making correct mRNA.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nDNA is the master cookbook locked in the library (the nucleus), and you can't take the book out. So the cell makes a **photocopy** of one recipe — that's **transcription**, and the copy is mRNA. The copy is edited before it leaves: a protective cover on the front (**5′ cap**), a \"The End\" tag on the back (**poly-A tail**), and the blank pages (**introns**) are cut out so only the real instructions (**exons**) remain — that's **splicing**. Sometimes you cut the copy differently and get a slightly different recipe — **alternative splicing**, one book making several dishes. The analogy's limit: the cell does this with precise molecular machines (RNA polymerase, the spliceosome), not scissors and a photocopier.",
+    "quickReview": "- DNA → RNA → protein (central dogma).\n- RNA polymerase binds the promoter and reads the template strand.\n- RNA is made 5′→3′; A pairs with U.\n- Coding strand = mRNA sequence; template strand = its complement.\n- Processing: 5′ cap, poly-A tail, intron removal/exon joining.\n- Spliceosome does the splicing; alternative splicing creates protein diversity.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 15.2, \"Prokaryotic Transcription.\" https://openstax.org/books/biology-2e/pages/15-2-prokaryotic-transcription",
+        "url": "https://openstax.org/books/biology-2e/pages/15-2-prokaryotic-transcription"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 15.3, \"Eukaryotic Transcription.\" https://openstax.org/books/biology-2e/pages/15-3-eukaryotic-transcription",
+        "url": "https://openstax.org/books/biology-2e/pages/15-3-eukaryotic-transcription"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 15.4, \"RNA Processing in Eukaryotes.\" https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes",
+        "url": "https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes"
+      },
+      {
+        "text": "NCBI Bookshelf, *Molecular Biology of the Cell*, 4th ed. (Alberts et al.). https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/06-genetics-and-the-molecular-basis-of-inheritance/07-transcription-and-rna-processing.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

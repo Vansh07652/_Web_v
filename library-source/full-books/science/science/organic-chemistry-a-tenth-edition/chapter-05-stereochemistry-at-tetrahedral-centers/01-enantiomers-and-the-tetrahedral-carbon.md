@@ -1,0 +1,167 @@
+---
+title: "Enantiomers and the Tetrahedral Carbon"
+subject: "Science"
+book: "Organic Chemistry: A Tenth Edition"
+chapter: "5: Stereochemistry at Tetrahedral Centers"
+topic_number: "1"
+source: "organic-chemistry.md"
+tags:
+  - "enantiomers-and-the-tetrahedral-carbon"
+  - "science"
+status: "complete"
+---
+
+# Enantiomers and the Tetrahedral Carbon
+
+> **Book:** [Organic Chemistry: A Tenth Edition](../../README.md)  
+> **Chapter:** [Chapter 5: Stereochemistry at Tetrahedral Centers](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+The carbon atom in every alkane is **tetrahedral**: its four bonds point toward the corners of a regular tetrahedron, with bond angles near \\(109.5^\circ\\). Because of this geometry, a carbon bonded to **four different substituents** can exist in two forms that are mirror images of each other but cannot be superimposed — like your left and right hands. Such a carbon is called a **stereocenter** (or chiral center), and the two mirror-image forms are called **enantiomers**. This topic explains why the tetrahedral geometry creates handedness, how to recognize a stereocenter, and how to draw and compare enantiomers using wedge-and-dash notation. Everything else in this chapter builds directly on these ideas.
+
+## Why This Matters
+
+- **Drugs and biology:** Biological receptors are themselves chiral. The two enantiomers of a drug can smell, taste, or act completely differently in the body. (R)-Limonene smells like oranges and (S)-limonene like lemons; the thalidomide case — one enantiomer a sedative, the other associated with birth defects — made "chiral drugs" a regulatory focus.
+- **Synthesis and industry:** Many industrial and pharmaceutical processes must produce a single enantiomer, not a mixture. Recognizing stereocenters is the first step in designing such syntheses.
+- **Exams:** "Is this molecule chiral? How many stereocenters does it have?" are among the most tested questions in organic chemistry — both reduce to the tetrahedral carbon.
+
+## Core Concepts
+
+### The tetrahedral carbon
+
+Carbon forms four single bonds using four equivalent \\(sp^3\\) hybrid orbitals, which point toward the vertices of a tetrahedron. The H–C–H angle in methane is \\(109.5^\circ\\). Drawings show two bonds in the plane of the page, one **wedge** (solid, toward you) and one **dash** (dashed, away) — always check which is which.
+
+### Recognizing a stereocenter
+
+A carbon is a stereocenter when **all four of its attached groups are different** from one another. For example, in 2-chlorobutane, `CH3–CH(Cl)–CH2–CH3`, carbon 2 is attached to Cl, CH3, CH2CH3, and H — four different groups — so it is a stereocenter. In 2-chloropropane, `CH3–CH(Cl)–CH3`, carbon 2 is attached to Cl, H, and *two identical* CH3 groups, so it is **not** a stereocenter. Note that "different" refers to whole groups, not just the first atom: CH3 and CH2CH3 both begin with carbon but are different groups.
+
+### Mirror images and superimposability
+
+Reflect any object in a mirror: the result is its **mirror image**. For many objects — a coffee mug, a water molecule — the image can be rotated onto the original; it is **superimposable**. For others, no rotation works: a right glove never fits a left hand. A molecule whose mirror image is non-superimposable is **chiral**; otherwise it is **achiral**. The mirror image of a chiral molecule is its **enantiomer**.
+
+### Enantiomers: a pair of non-identical twins
+
+Enantiomers have identical connectivity and, in an achiral environment, essentially identical physical properties — same boiling point, melting point, density, and solubility. They differ only in interactions with **chirality-sensitive probes**: opposite rotation of plane-polarized light (Topic 3) and different reaction rates with other chiral molecules, which is why biology distinguishes them. No bond rotation interconverts them; separating enantiomers requires breaking bonds.
+
+## ELI-10: Explain Like I’m 10
+
+Imagine a little ball with four arms, each holding a different toy — a ball, a cube, a star, and a triangle. Hold it in front of a mirror: the mirror "hand" holds the star on the opposite side, and no amount of spinning makes the real ball match its reflection. That is exactly what enantiomers are: two molecular "hands" that are mirror images but can never be stacked on top of each other.
+
+## High-Yield Points
+
+- Tetrahedral carbon: four \\(sp^3\\) bonds at \\(109.5^\circ\\); drawn with wedge (toward you), dash (away), and two in-plane bonds.
+- A **stereocenter** is a carbon with four *different* groups — the structural cause of chirality in this chapter.
+- **Chiral** = mirror image is non-superimposable; **achiral** = mirror image superimposes.
+- The mirror image of a chiral molecule is its **enantiomer**; the two are non-identical, non-interconvertible by rotation.
+- Enantiomers share all ordinary physical properties (bp, mp, density) but differ in optical rotation and in reactions with chiral reagents.
+- Test superimposability by rotation alone — reflection, not rotation, is what distinguishes enantiomers.
+- Count stereocenters carefully: a carbon with two identical groups (even if the identical groups are large) is not a stereocenter.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Tetrahedral carbon | Carbon with four single bonds pointing to the corners of a tetrahedron (~109.5°) | Geometry that creates the possibility of handedness |
+| Stereocenter (chiral center) | A carbon bearing four different groups | The structural feature you must learn to spot by eye |
+| Chiral | Object or molecule whose mirror image is non-superimposable | The defining property of this entire chapter |
+| Achiral | Object or molecule whose mirror image is superimposable | Most molecules; knowing why is half the battle |
+| Enantiomers | A pair of non-superimposable mirror-image molecules | The two "handed" forms of a chiral molecule |
+| Superimposable | Able to be placed exactly on top of the original by rotation | The operational test for chirality |
+| Wedge / dash | Drawing convention: solid wedge = toward viewer, dashed = away | The language in which stereochemistry is communicated |
+| Mirror image | The reflection of an object across a plane | The operation that generates an enantiomer |
+
+## How It Works / Step-by-Step Process
+
+1. Draw (or mentally construct) the molecule and identify each carbon that bears four single bonds.
+2. List the four groups on that carbon. If all four are different, it is a stereocenter.
+3. If the molecule has at least one stereocenter, check for symmetry: a plane of symmetry usually makes the molecule achiral despite the center (see Topic 7, meso compounds).
+4. To test whether two drawings are enantiomers, draw the mirror image of one and try to superimpose it on the other by rotation — never by reflection.
+
+## Worked Examples
+
+### Example 1: Finding the stereocenter in 2-chlorobutane
+
+**Problem:** 2-Chlorobutane (`CH3–CH(Cl)–CH2–CH3`) has one carbon that is a stereocenter. Which one, and why?
+
+**Step 1 — List the carbons.** Carbons 1 and 4 are terminal (CH3 and CH3), carbon 3 is CH2, and carbon 2 is CH.
+
+**Step 2 — Check carbon 2.** Its four bonds go to: Cl, CH3 (carbon 1), CH2CH3 (carbons 3–4), and H. That is four different groups — a stereocenter.
+
+**Step 3 — Check the others.** Carbons 1, 3, and 4 each carry at least two identical H atoms (or two identical CH3 groups), so none is a stereocenter.
+
+**Answer:** Carbon 2 only. Because it has four different groups, 2-chlorobutane exists as two enantiomers — mirror-image arrangements of Cl, CH3, CH2CH3, and H around that carbon.
+
+### Example 2: Why 2-chloropropane is achiral
+
+**Problem:** Show that 2-chloropropane (`CH3–CH(Cl)–CH3`) has no enantiomer.
+
+**Step 1 — List groups on carbon 2.** Cl, H, CH3, CH3 — two of the four groups are identical.
+
+**Step 2 — Reflect.** Draw the mirror image. The two CH3 groups are interchangeable: reflecting the molecule just swaps the two identical methyl groups, which is the same as a simple rotation of the original.
+
+**Step 3 — Superimpose.** A rotation that exchanges the two CH3 groups lands the mirror image exactly on the original.
+
+**Answer:** No enantiomer exists. Identical groups always provide a rotation that superimposes the mirror image, so the molecule is achiral despite carbon 2's "crowded" look.
+
+### Example 3: The mirror-image test on a chiral center
+
+**Problem:** Bromochlorofluoromethane, `CHBrClF`, is the smallest chiral molecule containing a stereocenter. Describe its two enantiomers in words.
+
+**Step 1 — Confirm the stereocenter.** The carbon bears Br, Cl, F, and H — four different groups.
+
+**Step 2 — Draw one arrangement.** H on a dash (away), Br on a wedge (toward), Cl and F in the plane.
+
+**Step 3 — Reflect.** In the mirror, wedge and dash swap sides and Cl/F exchange positions.
+
+**Step 4 — Test.** No rotation can exchange Br with H, so the arrangements never coincide.
+
+**Answer:** A non-superimposable mirror-image pair — enantiomers. Ordinary properties cannot tell them apart; only a chiral probe (Topic 3) can.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Chiral molecule | Molecule with a stereocenter | A stereocenter is the usual *cause*; chirality is the *property*. Some molecules with stereocenters are achiral (meso, Topic 7), and a few chiral molecules lack tetrahedral stereocenters (allenes) |
+| Four different atoms | Four different groups | CH3 and CH2CH3 are different *groups* though both start with carbon — still counts toward a stereocenter |
+| Rotation | Reflection | Rotating a molecule never converts it into its mirror image; only reflection does. If rotation alone superimposes, the object is achiral |
+| Enantiomers | Conformers (rotamers) | Conformers interconvert by bond rotation; enantiomers differ in *configuration* and need bond breaking to interconvert |
+| Wedge | Dash | A wedge comes out of the page toward you; a dash goes behind. Reversing them changes the handedness you are drawing |
+| Identical molecules | Enantiomers | If the mirror image can be rotated onto the original, the molecule is achiral and the "pair" is really just one molecule |
+
+## Quick Review
+
+1. What are the four bond angles and geometry around a carbon with four single bonds?
+2. Which carbon in 2-butanol (`CH3–CH(OH)–CH2–CH3`) is a stereocenter, and what are its four groups?
+3. Why does 2-chloropropane have no enantiomer even though its central carbon has four bonds?
+4. True or false: enantiomers have identical boiling points and densities. Explain.
+5. How would you prove that two drawings of `CHBrClF` are enantiomers rather than the same molecule?
+
+<details>
+<summary>Show answers</summary>
+
+1. Approximately 109.5° each; tetrahedral geometry (sp³ hybridized).
+2. Carbon 2 (the CH): its groups are OH, CH3, CH2CH3, and H — four different groups, so it is the stereocenter.
+3. Two of its four groups are identical (CH3 and CH3). The mirror image superimposes on the original by a rotation that swaps the two methyl groups, so the molecule is achiral.
+4. True. Enantiomers have identical ordinary physical properties (bp, mp, density, solubility in achiral solvents); they differ only in optical rotation and interaction with chiral environments.
+5. Draw the mirror image of one and try to rotate it onto the other. If no rotation superimposes them, they are enantiomers (the H and Br positions are locked in different arrangements).
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter
+- Next: [The Reason for Handedness in Molecules: Chirality](02-the-reason-for-handedness-in-molecules-chirality.md)
+- Related: [Optical Activity](03-optical-activity.md) · [Meso Compounds](07-meso-compounds.md) · [A Review of Isomerism](09-a-review-of-isomerism.md)
+- Related: [Stereochemistry at Tetrahedral Centers chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Organic Chemistry: A Tenth Edition
+- Local outline source: `organic-chemistry.md`
+- Official source URL: https://openstax.org/details/books/organic-chemistry/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Bond angles and structural conventions (wedge/dash, tetrahedral geometry) are standard textbook values; verify specialized data (e.g., odor or bioactivity claims for specific enantiomers) against current sources before relying on them in assessments.
+- Last updated: 2026-08-16

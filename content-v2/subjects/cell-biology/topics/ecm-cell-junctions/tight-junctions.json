@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:ecm-cell-junctions:tight-junctions",
+  "slug": "tight-junctions",
+  "title": "Tight Junctions",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:ecm-cell-junctions",
+    "slug": "ecm-cell-junctions",
+    "title": "ECM Cell Junctions",
+    "order": 9
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "**Tight junctions** are the most apical cell–cell junctions in epithelial sheets, where they form a continuous belt that seals the space between adjacent cells. Their transmembrane strands, built mainly from **claudins** (with contributions from occludin and JAMs), control the **paracellular** pathway — the route between cells. Tight junctions are best understood as a **selectively permeable barrier**: they block free diffusion of most molecules, but they are *not* absolutely impermeable — they let specific ions and small solutes pass through charge- and size-selective pores, and their permeability varies widely by tissue.",
+    "whyItMatters": "Tight junctions are what make epithelia act as barriers: they seal the gut against harmful lumen contents while permitting selective nutrient absorption, form the blood–brain barrier (which restricts drug entry into the CNS), and keep the skin waterproof. Their dysregulation underlies leaky-gut syndromes, inflammatory bowel disease, and edema, and their selective permeability is a key consideration in drug delivery across the blood–brain barrier.",
+    "learningObjectives": "- Describe the molecular composition of tight junctions (claudins, occludin, ZO proteins).\n- Explain the barrier and fence functions of tight junctions.\n- Explain why tight junctions are selectively — not absolutely — impermeable.\n- Relate claudin specificity to tissue-specific permeability.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Tight junctions** are the most apical cell–cell junctions in epithelial sheets, where they form a continuous belt that seals the space between adjacent cells. Their transmembrane strands, built mainly from **claudins** (with contributions from occludin and JAMs), control the **paracellular** pathway — the route between cells. Tight junctions are best understood as a **selectively permeable barrier**: they block free diffusion of most molecules, but they are *not* absolutely impermeable — they let specific ions and small solutes pass through charge- and size-selective pores, and their permeability varies widely by tissue.\n\n### Key Components\n\n- **Claudins:** the principal barrier-forming transmembrane proteins (~27 members); their composition determines paracellular charge and size selectivity.\n- **Occludin:** a transmembrane protein that contributes to barrier regulation and signaling.\n- **JAMs (junctional adhesion molecules):** Ig-superfamily proteins involved in barrier formation and leukocyte transmigration.\n- **ZO proteins (ZO-1, ZO-2, ZO-3):** cytoplasmic scaffold proteins that link the strands to the actin cytoskeleton.\n- **Strands/fibrils:** continuous, anastomosing protein rows visible as ridges around the cell apex.\n- **Paracellular pathway:** the route for solutes passing *between* cells (vs. the transcellular route *through* cells).\n\n### Mechanism\n\nClaudin and occludin molecules from adjacent cells interact extracellularly to form sealing strands that encircle the apical surface. These strands restrict the paracellular diffusion of water, ions, and macromolecules. Selectivity arises from the specific claudin composition: some claudins form cation-selective pores (e.g., claudin-2), while others tighten the barrier or selectively permit specific ions (e.g., claudin-16 for Mg²⁺ in the kidney). ZO proteins tether the strands to actin, coupling the barrier to the cytoskeleton. Tight junctions also perform a **fence function**, preventing lipids and proteins from diffusing between the apical and basolateral membrane domains, thereby maintaining epithelial polarity.\n\n### How It Works\n\n1. Claudin/occludin/JAM molecules assemble into strands at the cell apex.\n2. Adjacent cells' strands interlock, sealing the paracellular space.\n3. The strands restrict free diffusion of solutes between cells.\n4. Claudin composition determines which ions/solutes can pass (size/charge selectivity).\n5. ZO proteins link the strands to the actin cytoskeleton.\n6. The junction's fence function keeps apical and basolateral membrane domains distinct.\n\n### Energy and Directionality\n\nThe tight-junction barrier itself is a passive, diffusion-limiting structure — it requires no ATP to *block* solute movement; selectivity reflects the size and charge of the claudin pores. Energy enters in assembly, regulation, and maintenance: protein trafficking, actin dynamics, and signaling (e.g., kinase-mediated regulation of barrier permeability) all consume ATP. Directionality is evident in the *vectorial* transport tight junctions enable: by separating apical and basolateral domains, they let cells move solutes directionally across an epithelium (absorption or secretion).\n\n### Experimental Evidence\n\n- **Freeze-fracture electron microscopy:** revealed the anastomosing strand network of tight junctions.\n- **Transepithelial electrical resistance (TEER):** measures barrier tightness; claudin knockouts alter resistance.\n- **Tracer studies:** fluorescent or electron-dense tracers are excluded by tight junctions but pass when junctions are disrupted.\n- **Claudin genetics:** claudin-16 mutations cause familial hypomagnesemia (renal Mg²⁺ wasting); claudin-1 knockout causes fatal skin-barrier loss.\n\n### Technique\n\n- **Freeze-fracture EM** — visualize tight-junction strands.\n- **TEER measurement** — quantify epithelial barrier integrity.\n- **Paracellular tracer flux (FITC-dextran, mannitol)** — measure size-selective permeability.\n- **Immunofluorescence (ZO-1, claudin, occludin)** — localize tight junctions.\n- **Calcium-switch assays** — dissect junction assembly/disassembly.",
+    "howItWorks": "1. Claudin/occludin/JAM molecules assemble into strands at the cell apex.\n2. Adjacent cells' strands interlock, sealing the paracellular space.\n3. The strands restrict free diffusion of solutes between cells.\n4. Claudin composition determines which ions/solutes can pass (size/charge selectivity).\n5. ZO proteins link the strands to the actin cytoskeleton.\n6. The junction's fence function keeps apical and basolateral membrane domains distinct.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Tight junctions = apical cell–cell junctions; control the **paracellular** pathway.\n- Core proteins: **claudins** (barrier + selectivity), **occludin**, **JAMs**; scaffolded by **ZO proteins** to actin.\n- **Selectively permeable, NOT absolutely impermeable** — charge/size-selective pores.\n- **Fence function:** maintains apical–basolateral membrane polarity.\n- Claudin specificity: claudin-2 = cation pore; claudin-16 = renal Mg²⁺ reabsorption.\n- Measured by **TEER** and tracer flux.",
+    "commonConfusions": "- **\"Tight junctions are absolutely impermeable.\"** — They are selectively permeable; specific ions and solutes pass through claudin pores, and permeability varies by tissue.\n- **\"Tight junctions are the same as desmosomes.\"** — Tight junctions seal the paracellular space (claudins/occludin, actin); desmosomes provide mechanical adhesion (cadherins, intermediate filaments).\n- **\"Claudins and occludin are cadherins.\"** — They are a distinct family of tetraspan transmembrane proteins, unrelated to cadherins.\n- **\"Tight junctions only block things.\"** — They also have a fence function maintaining membrane-domain polarity.\n- **\"All tight junctions are equally tight.\"** — Permeability varies enormously (leaky gut vs. blood–brain barrier).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a row of cells as a brick wall, and the tight junctions as the mortar between the bricks near the top. The mortar doesn't let big stuff slip between the bricks — but it's not solid steel: it has tiny gates that let certain small, charged particles trickle through, depending on which \"gate proteins\" (claudins) are installed. The mortar also marks a \"top side\" and \"bottom side\" of each brick so the wall knows which way is up. (The mortar analogy underplays that the barrier is actively adjustable and that selectivity is fine-tuned tissue by tissue.)",
+    "quickReview": "- Tight junctions seal the paracellular space at the epithelial apex.\n- Claudins (selectivity) + occludin + JAMs; ZO proteins link to actin.\n- Selectively permeable barrier + fence function (polarity).\n- Claudin composition tunes ion/size selectivity; measured by TEER and tracers.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"tight junction.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tight-junction",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tight-junction"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"Cell Junctions.\" https://www.ncbi.nlm.nih.gov/books/NBK26857/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26857/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"4.6 Connections between Cells and Cellular Activities.\" https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities",
+        "url": "https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"Cell-Cell Adhesion.\" https://www.ncbi.nlm.nih.gov/books/NBK26937/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26937/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "tight-junctions",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "09-tight-junctions",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:6287494fe0b08dcb"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:6287494fe0b08dcb"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:6287494fe0b08dcb"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:6287494fe0b08dcb"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/09-ecm-cell-junctions/09-tight-junctions.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Tight Junctions\n\n## Learning Goals\n- Describe the molecular composition of tight junctions (claudins, occludin, ZO proteins).\n- Explain the barrier and fence functions of tight junctions.\n- Explain why tight junctions are selectively — not absolutely — impermeable.\n- Relate claudin specificity to tissue-specific permeability.\n\n## Core Concept\n**Tight junctions** are the most apical cell–cell junctions in epithelial sheets, where they form a continuous belt that seals the space between adjacent cells. Their transmembrane strands, built mainly from **claudins** (with contributions from occludin and JAMs), control the **paracellular** pathway — the route between cells. Tight junctions are best understood as a **selectively permeable barrier**: they block free diffusion of most molecules, but they are *not* absolutely impermeable — they let specific ions and small solutes pass through charge- and size-selective pores, and their permeability varies widely by tissue.\n\n## Key Components\n- **Claudins:** the principal barrier-forming transmembrane proteins (~27 members); their composition determines paracellular charge and size selectivity.\n- **Occludin:** a transmembrane protein that contributes to barrier regulation and signaling.\n- **JAMs (junctional adhesion molecules):** Ig-superfamily proteins involved in barrier formation and leukocyte transmigration.\n- **ZO proteins (ZO-1, ZO-2, ZO-3):** cytoplasmic scaffold proteins that link the strands to the actin cytoskeleton.\n- **Strands/fibrils:** continuous, anastomosing protein rows visible as ridges around the cell apex.\n- **Paracellular pathway:** the route for solutes passing *between* cells (vs. the transcellular route *through* cells).\n\n## Mechanism\nClaudin and occludin molecules from adjacent cells interact extracellularly to form sealing strands that encircle the apical surface. These strands restrict the paracellular diffusion of water, ions, and macromolecules. Selectivity arises from the specific claudin composition: some claudins form cation-selective pores (e.g., claudin-2), while others tighten the barrier or selectively permit specific ions (e.g., claudin-16 for Mg²⁺ in the kidney). ZO proteins tether the strands to actin, coupling the barrier to the cytoskeleton. Tight junctions also perform a **fence function**, preventing lipids and proteins from diffusing between the apical and basolateral membrane domains, thereby maintaining epithelial polarity.\n\n## How It Works\n1. Claudin/occludin/JAM molecules assemble into strands at the cell apex.\n2. Adjacent cells' strands interlock, sealing the paracellular space.\n3. The strands restrict free diffusion of solutes between cells.\n4. Claudin composition determines which ions/solutes can pass (size/charge selectivity).\n5. ZO proteins link the strands to the actin cytoskeleton.\n6. The junction's fence function keeps apical and basolateral membrane domains distinct.\n\n## Energy and Directionality\nThe tight-junction barrier itself is a passive, diffusion-limiting structure — it requires no ATP to *block* solute movement; selectivity reflects the size and charge of the claudin pores. Energy enters in assembly, regulation, and maintenance: protein trafficking, actin dynamics, and signaling (e.g., kinase-mediated regulation of barrier permeability) all consume ATP. Directionality is evident in the *vectorial* transport tight junctions enable: by separating apical and basolateral domains, they let cells move solutes directionally across an epithelium (absorption or secretion).\n\n## Experimental Evidence\n- **Freeze-fracture electron microscopy:** revealed the anastomosing strand network of tight junctions.\n- **Transepithelial electrical resistance (TEER):** measures barrier tightness; claudin knockouts alter resistance.\n- **Tracer studies:** fluorescent or electron-dense tracers are excluded by tight junctions but pass when junctions are disrupted.\n- **Claudin genetics:** claudin-16 mutations cause familial hypomagnesemia (renal Mg²⁺ wasting); claudin-1 knockout causes fatal skin-barrier loss.\n\n## Technique\n- **Freeze-fracture EM** — visualize tight-junction strands.\n- **TEER measurement** — quantify epithelial barrier integrity.\n- **Paracellular tracer flux (FITC-dextran, mannitol)** — measure size-selective permeability.\n- **Immunofluorescence (ZO-1, claudin, occludin)** — localize tight junctions.\n- **Calcium-switch assays** — dissect junction assembly/disassembly.\n\n## Why It Matters\nTight junctions are what make epithelia act as barriers: they seal the gut against harmful lumen contents while permitting selective nutrient absorption, form the blood–brain barrier (which restricts drug entry into the CNS), and keep the skin waterproof. Their dysregulation underlies leaky-gut syndromes, inflammatory bowel disease, and edema, and their selective permeability is a key consideration in drug delivery across the blood–brain barrier.\n\n## High-Yield Facts\n- Tight junctions = apical cell–cell junctions; control the **paracellular** pathway.\n- Core proteins: **claudins** (barrier + selectivity), **occludin**, **JAMs**; scaffolded by **ZO proteins** to actin.\n- **Selectively permeable, NOT absolutely impermeable** — charge/size-selective pores.\n- **Fence function:** maintains apical–basolateral membrane polarity.\n- Claudin specificity: claudin-2 = cation pore; claudin-16 = renal Mg²⁺ reabsorption.\n- Measured by **TEER** and tracer flux.\n\n## Eli Explains\nThink of a row of cells as a brick wall, and the tight junctions as the mortar between the bricks near the top. The mortar doesn't let big stuff slip between the bricks — but it's not solid steel: it has tiny gates that let certain small, charged particles trickle through, depending on which \"gate proteins\" (claudins) are installed. The mortar also marks a \"top side\" and \"bottom side\" of each brick so the wall knows which way is up. (The mortar analogy underplays that the barrier is actively adjustable and that selectivity is fine-tuned tissue by tissue.)\n\n## Common Confusions\n- **\"Tight junctions are absolutely impermeable.\"** — They are selectively permeable; specific ions and solutes pass through claudin pores, and permeability varies by tissue.\n- **\"Tight junctions are the same as desmosomes.\"** — Tight junctions seal the paracellular space (claudins/occludin, actin); desmosomes provide mechanical adhesion (cadherins, intermediate filaments).\n- **\"Claudins and occludin are cadherins.\"** — They are a distinct family of tetraspan transmembrane proteins, unrelated to cadherins.\n- **\"Tight junctions only block things.\"** — They also have a fence function maintaining membrane-domain polarity.\n- **\"All tight junctions are equally tight.\"** — Permeability varies enormously (leaky gut vs. blood–brain barrier).\n\n## Quick Review\n- Tight junctions seal the paracellular space at the epithelial apex.\n- Claudins (selectivity) + occludin + JAMs; ZO proteins link to actin.\n- Selectively permeable barrier + fence function (polarity).\n- Claudin composition tunes ion/size selectivity; measured by TEER and tracers.\n\n## Sources\n- NCI Dictionary of Cancer Terms, \"tight junction.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tight-junction\n- Alberts et al., *Molecular Biology of the Cell*, \"Cell Junctions.\" https://www.ncbi.nlm.nih.gov/books/NBK26857/\n- OpenStax, *Biology 2e*, \"4.6 Connections between Cells and Cellular Activities.\" https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities\n- Alberts et al., *Molecular Biology of the Cell*, \"Cell-Cell Adhesion.\" https://www.ncbi.nlm.nih.gov/books/NBK26937/\n"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-ions-and-electrolytes-q08",
+  "subject": "chemistry-1",
+  "lesson": "ions-and-electrolytes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A hypothetical teaching solution contains 0.02 mol of KCl dissolved per liter of water. Assuming complete dissociation, what is the concentration of K+ expressed in mEq/L?",
+  "options": [
+    {
+      "id": "a",
+      "text": "2 mEq/L, because the amount in moles is divided by the charge on the potassium ion"
+    },
+    {
+      "id": "b",
+      "text": "20 mEq/L, because 0.02 mol/L equals 20 mmol/L and K+ carries a single positive charge"
+    },
+    {
+      "id": "c",
+      "text": "40 mEq/L, because the K+ and the Cl- released by each formula unit are both counted"
+    },
+    {
+      "id": "d",
+      "text": "0.02 mEq/L, because for a monovalent ion the equivalent concentration equals the molarity"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Two steps are required. Convert the unit prefix: 0.02 mol/L x 1000 = 20 mmol/L. Then multiply by the charge magnitude of 1 for K+, giving 20 mEq/L. Option D correctly notes that mmol/L and mEq/L coincide for monovalent ions but fails to convert mol/L to mmol/L first. Chloride is a distinct anion reported separately and is never folded into the potassium result.\n\nELI-10: Work the prefix and the charge as separate operations. The prefix: a millimole is one thousandth of a mole, so 0.02 mol/L becomes 20 mmol/L by multiplying by 1000. The charge: potassium is K+, one unit of charge, so multiplying by 1 leaves the value at 20 mEq/L. The equality of mmol/L and mEq/L for monovalent ions is a useful check, but it holds only after the amounts are in the same prefix - 0.02 and 20 are not interchangeable.",
+  "difficulty": "medium",
+  "tags": [
+    "mol/L to mEq/L conversion",
+    "monovalent ions",
+    "metric prefix conversion"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-273",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

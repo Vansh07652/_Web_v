@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:mcat-foundations:biology:cell-signaling-and-communication",
+  "slug": "cell-signaling-and-communication",
+  "title": "Cell Signaling and Communication",
+  "subject": {
+    "id": "subject:mcat-foundations",
+    "slug": "mcat-foundations",
+    "title": "MCAT Foundations"
+  },
+  "unit": {
+    "id": "unit:mcat-foundations:biology",
+    "slug": "biology",
+    "title": "Biology",
+    "order": 1
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "Cells do not live in isolation. Every cell in a multicellular organism must sense its environment, communicate with neighbors, and coordinate responses to maintain homeostasis. Cell signaling is the molecular language that makes multicellular life possible — it governs everything from embryonic development to immune responses, from metabolism to programmed cell death. The MCAT tests your ability to trace a signal from its origin (a ligand) through reception, transduction, and finally the cellular response. Understanding the logic of signaling — amplification, specificity, regulation, and termination — is more important than memorizing every pathway. Focus on the recurring motifs: conformational change, phosphorylation, second messengers, and feedback loops.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- Endocrine, paracrine, autocrine, and synaptic signaling\n- Receptors: intracellular, GPCRs, receptor tyrosine kinases, ligand-gated channels\n- Second messengers\n- Signal amplification\n- Phosphorylation cascades\n- Feedback regulation",
+    "collegeNotes": "## \n\nSignaling molecules (ligands) travel varying distances to reach their targets. Endocrine signaling involves hormones secreted into the bloodstream, acting on distant target cells throughout the body (e.g., insulin from pancreatic β-cells acts on liver, muscle, and adipose tissue). Paracrine signaling affects neighboring cells within a local tissue environment — the ligand diffuses through extracellular fluid over short distances (e.g., neurotransmitters at some synapses, growth factors in wound healing, nitric oxide relaxing smooth muscle). Autocrine signaling occurs when a cell secretes a ligand that binds to receptors on its own surface; this is common in immune cells (e.g., T cells releasing interleukin-2 to stimulate their own proliferation) and in cancer, where autocrine loops drive uncontrolled growth. Synaptic signaling (a specialized form of paracrine signaling) involves neurons releasing neurotransmitters across a synaptic cleft onto a postsynaptic target cell — fast, precise, and spatially restricted. Juxtacrine (contact-dependent) signaling requires direct cell-to-cell contact, with membrane-bound ligands binding receptors on adjacent cells (e.g., Delta-Notch signaling in development).\n\n## \n\nReceptors are proteins that bind ligands and initiate the cellular response. They fall into two broad classes based on location. Intracellular receptors are cytoplasmic or nuclear proteins that bind small, hydrophobic ligands capable of crossing the plasma membrane (e.g., steroid hormones, thyroid hormones, retinoic acid). The ligand-receptor complex often acts as a transcription factor, directly regulating gene expression — these responses are typically slow (hours to days) but long-lasting. Cell-surface receptors account for the vast majority of signaling diversity and include three major families. G protein-coupled receptors (GPCRs) are seven-transmembrane-helix proteins that, upon ligand binding, activate heterotrimeric G proteins (α, β, γ subunits) by catalyzing GDP→GTP exchange on the α subunit. The activated Gα-GTP and Gβγ dimer then modulate effector enzymes (adenylyl cyclase, phospholipase C) or ion channels. Receptor tyrosine kinases (RTKs) are single-pass transmembrane proteins with intrinsic kinase activity. Ligand binding induces receptor dimerization and autophosphorylation of tyrosine residues in the cytoplasmic domain. These phosphotyrosines serve as docking sites for downstream signaling proteins containing SH2 or PTB domains, initiating cascades such as the Ras-MAPK pathway and the PI3K-Akt pathway. Ligand-gated ion channels (ionotropic receptors) open or close in direct response to ligand binding, allowing specific ions (Na⁺, K⁺, Ca²⁺, Cl⁻) to flow across the membrane. This produces rapid electrical and chemical changes — essential for synaptic transmission (e.g., nicotinic acetylcholine receptor, NMDA and AMPA glutamate receptors, GABA_A receptor).\n\n## \n\nSecond messengers are small, diffusible intracellular molecules that relay and amplify signals from activated receptors to downstream effectors. Key second messengers include: cAMP (cyclic AMP) — synthesized from ATP by adenylyl cyclase (activated by Gαs, inhibited by Gαi), activates protein kinase A (PKA), degraded by phosphodiesterase (PDE). IP₃ and DAG — generated when phospholipase C (PLC, activated by Gαq) cleaves PIP₂. IP₃ diffuses to the ER and opens IP₃-gated Ca²⁺ channels, releasing Ca²⁺ into the cytoplasm. DAG remains in the membrane and activates protein kinase C (PKC). Ca²⁺ — cytosolic Ca²⁺ concentrations are kept extremely low (~100 nM) at rest; signal-induced opening of plasma membrane or ER Ca²⁺ channels causes a rapid, transient spike that triggers diverse responses including muscle contraction, secretion, and gene expression.\n\n## \n\nA defining feature of signaling cascades is amplification: one activated receptor can generate many second messenger molecules, each of which activates multiple downstream enzymes. A single epinephrine-bound β-adrenergic receptor activates many Gαs proteins. Each Gαs activates one adenylyl cyclase, but that enzyme produces hundreds of cAMP molecules. Each cAMP activates a PKA tetramer, and each active PKA catalytic subunit phosphorylates many target proteins. This geometric progression means a single ligand-receptor binding event at the cell surface can produce thousands to millions of intracellular effector molecules — explaining how picomolar hormone concentrations elicit robust physiological responses. The MCAT expects you to quantify amplification multiplicatively: if each step amplifies by a factor of n₁, n₂, n₃, the total amplification is n₁ × n₂ × n₃.\n\n## \n\nPhosphorylation cascades are the backbone of intracellular signal transduction. Kinases transfer the γ-phosphate of ATP to specific serine, threonine, or tyrosine residues on target proteins, altering their activity, localization, or interactions. Phosphatases reverse these modifications. The archetypal cascade is the MAP kinase (MAPK) pathway: an extracellular signal activates Ras (a small GTPase), which activates Raf (MAPKKK), which phosphorylates MEK (MAPKK), which phosphorylates ERK (MAPK), which phosphorylates transcription factors and other targets in the nucleus and cytoplasm. Each tier provides opportunities for regulation, crosstalk, and further amplification. Other critical phosphorylation cascades include the JAK-STAT pathway (cytokine signaling) and the PI3K-Akt-mTOR pathway (growth and survival signaling).\n\n## \n\nSignaling pathways are tightly regulated by positive and negative feedback loops. Negative feedback turns off or dampens the signal: PKA phosphorylates and desensitizes the β-adrenergic receptor; GPCR kinases (GRKs) phosphorylate activated receptors, recruiting β-arrestin to block G protein coupling and promote internalization; phosphodiesterases degrade cAMP; MAPK phosphatases (MKPs) dephosphorylate and inactivate ERK. Positive feedback amplifies and sustains signals: in the blood-clotting cascade, thrombin activates upstream factors that produce more thrombin; in the action potential, voltage-gated Na⁺ channel opening depolarizes the membrane further, opening more channels. Feedforward regulation anticipates demand — Ca²⁺-induced Ca²⁺ release from the sarcoplasmic reticulum.\n\n## How it works\n\n[object Object]",
+    "howItWorks": "[object Object]",
+    "comparisons": "- Biochemistry: Enzyme kinetics of kinases and phosphatases; GTP/GDP cycling as a molecular switch; membrane lipid composition and PIP₂ cleavage.\n- Organ systems: Endocrine — insulin/glucagon signaling, hypothalamic-pituitary axes. Nervous system — synaptic transmission, ionotropic vs. metabotropic receptors.\n- Genetics/Molecular biology: Receptor mutations in cancer (constitutively active Ras, HER2 overexpression, mutant GPCRs); transcription factors downstream of signaling (CREB, STATs).\n- Pharmacology: β-blockers (GPCR antagonism), SSRIs (serotonin signaling), tyrosine kinase inhibitors (imatinib, erlotinib).\n- General chemistry: Equilibrium binding (Kd, Bmax); cooperative binding and allostery; thermodynamics of conformational change.",
+    "highYield": "",
+    "commonConfusions": "- GPCR downstream = serine/threonine kinases (PKA, PKC) via second messengers; RTK downstream = tyrosine kinase cascades (Ras-MAPK). Don't conflate.\n- Gαs = stimulates adenylyl cyclase (↑cAMP); Gαi = inhibits adenylyl cyclase (↓cAMP); Gαq = activates phospholipase C (↑IP₃, DAG, Ca²⁺). Know these cold.\n- Steroid receptors are intracellular → slow genomic responses; peptide hormones bind cell-surface receptors → fast, second-messenger-mediated responses. MCAT tests this with time-course graphs.\n- Amplification is forward-directional: knocking out an upstream component eliminates the entire downstream response; knocking out a downstream component doesn't stop second messenger production upstream.\n- Ligand-gated = chemical binding; voltage-gated = membrane potential change. Both can coexist and serve sequential roles (e.g., ACh receptor → depolarization → voltage-gated Na⁺ channels).\n- Phosphorylation can activate, inhibit, or tag for degradation depending on context. Don't assume phosphorylation always means activation.",
+    "memoryAids": "",
+    "eli10": "Imagine your body is a giant city, and every cell is a building that needs to receive mail. Some mail (hormones like insulin) travels through the bloodstream — that's like the postal service delivering packages across town: that's endocrine signaling. Other messages are like shouting to your next-door neighbor: that's paracrine signaling. Sometimes a building sends a letter to itself to double-check its own work — that's autocrine signaling. And when two neurons talk across the tiny gap between them, that's synaptic signaling — like two people whispering through a wall with a special listening device. The 'mailbox' on each building is the receptor. Some mailboxes are inside the building (intracellular receptors for steroid hormones). Most are on the outside wall (cell-surface receptors), and they come in different types: GPCRs are like complex locks that trigger an alarm system inside; RTKs are like key cards that activate an elevator; and ligand-gated channels are like doors that only open when the right key is inserted. Inside, the message gets passed along a chain of relay runners (the signaling cascade), and each runner recruits more runners (amplification), so one piece of mail can make the whole building jump into action.",
+    "quickReview": "- Endocrine = bloodstream, distant targets; paracrine = local diffusion; autocrine = self-signaling; synaptic = neuronal, precise, fast; juxtacrine = direct contact.\n- GPCRs: 7-TM helices, heterotrimeric G proteins (α, β, γ), GDP/GTP switch. Major classes: Gαs (↑cAMP), Gαi (↓cAMP), Gαq (↑IP₃/DAG/Ca²⁺).\n- RTKs: Ligand-induced dimerization → autophosphorylation on Tyr → SH2-domain proteins dock → Ras-MAPK and PI3K-Akt pathways.\n- Ligand-gated channels: Direct ion flux, no second messenger, fast response (milliseconds).\n- Key second messengers: cAMP (activates PKA), IP₃ (releases Ca²⁺ from ER), DAG (activates PKC), Ca²⁺ (binds calmodulin, activates CaMKs).\n- Signal amplification: Multiplicative — one ligand can trigger millions of effector molecules.\n- Phosphorylation cascades: Kinases add phosphate (ATP donor), phosphatases remove it. MAPK cascade: Raf → MEK → ERK (tiered control).\n- Negative feedback: PKA desensitizes GPCRs, phosphodiesterase degrades cAMP, phosphatases reverse signals.\n- Steroid receptors are intracellular, slow genomic responses; peptide/amine receptors are cell-surface, rapid responses.\n- PTMs beyond phosphorylation: ubiquitination (degradation), lipidation (membrane targeting, e.g., Ras farnesylation), acetylation.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax Biology 2e — Chapter 9: Cell Communication",
+        "url": "https://openstax.org/books/biology-2e/pages/9-introduction"
+      },
+      {
+        "text": "Molecular Biology of the Cell, 4th Edition — Chapter 15: Cell Communication (NCBI Bookshelf)",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21205/"
+      },
+      {
+        "text": "Khan Academy — Cell Signaling (MCAT Preparation)",
+        "url": "https://www.khanacademy.org/test-prep/mcat/cells/cell-signaling"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "cell-signaling-and-communication",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "MCAT_STUDY_LIBRARY/pages/biology/05-cell-signaling-and-communication.md"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "MCAT_STUDY_LIBRARY/pages/biology/05-cell-signaling-and-communication.md"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "mcat-one-page-topic-library",
+    "sourceFile": "MCAT_STUDY_LIBRARY/pages/biology/05-cell-signaling-and-communication.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-mcat-library"
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biochemistry:nucleic-acids-and-molecular-biology:transcription",
+  "slug": "transcription",
+  "title": "Transcription",
+  "subject": {
+    "id": "subject:biochemistry",
+    "slug": "biochemistry",
+    "title": "Biochemistry"
+  },
+  "unit": {
+    "id": "unit:biochemistry:nucleic-acids-and-molecular-biology",
+    "slug": "nucleic-acids-and-molecular-biology",
+    "title": "Nucleic Acids and Molecular Biology",
+    "order": 7
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "This section covers **transcription** — the first step of gene expression, in which a gene's DNA is copied into **messenger RNA (mRNA)** — including the role of **RNA polymerase** and how transcription fits into the **central dogma** (DNA → RNA → protein).",
+    "whyItMatters": "Transcription is how the instructions in DNA get read out to make proteins. It's a foundational step in gene expression and is targeted by some drugs and disrupted in some diseases — key context for genetics and pharmacology.",
+    "learningObjectives": "- State the **central dogma** of molecular biology.\n- Define **transcription** and its product (**mRNA**).\n- Describe the role of **RNA polymerase**.\n- Identify the types of RNA involved in gene expression.",
+    "keyTerms": "",
+    "collegeNotes": "**The central dogma.** The **central dogma** of molecular biology describes the flow of genetic information: **DNA → RNA → protein**. DNA is transcribed into RNA (**transcription**), and RNA is translated into protein (**translation**, next section). This is how the genetic code ultimately directs the building of proteins that do the cell's work.\n\n**Transcription overview.** **Transcription** is the process of copying a **gene's DNA sequence into RNA** — specifically **messenger RNA (mRNA)**. It occurs in the **nucleus** (in eukaryotic cells like ours). Only the relevant **gene** is transcribed, not the whole genome, and only **one strand** of the DNA (the template strand) is read.\n\n**How it works (overview).**\n\n- **RNA polymerase** — the key enzyme — binds to the gene's start region (**promoter**), unwinds the DNA locally, and reads the **template strand**.\n- It builds a complementary **mRNA** strand following base-pairing rules, but with **uracil (U) in place of thymine (T)** (since RNA uses U). For example, a DNA template base **A** specifies **U** in the mRNA; **T→A, G→C, C→G**.\n- When the gene's end is reached, transcription stops and the **mRNA is released**.\n\n**RNA processing (eukaryotes).** In eukaryotic cells, the new mRNA is usually **processed** before leaving the nucleus (e.g., adding protective modifications and removing non-coding segments called **introns**, keeping the coding **exons**). The finished mRNA then travels to the **cytoplasm** to be translated.\n\n**Types of RNA.** Several RNAs participate in gene expression:\n\n- **Messenger RNA (mRNA)** — carries the gene's message from DNA to the ribosome.\n- **Transfer RNA (tRNA)** — brings amino acids during translation.\n- **Ribosomal RNA (rRNA)** — a structural/functional part of ribosomes.",
+    "howItWorks": "Transcription:\n\n```\nCentral dogma: DNA → RNA → protein\nTranscription = copy a GENE's DNA into mRNA (in the nucleus)\nRNA polymerase: binds promoter → reads TEMPLATE strand → builds mRNA (U replaces T)\n   pairing: DNA A→U, T→A, G→C, C→G (mRNA)\nFinish → mRNA released → (eukaryotes) processed (remove introns, keep exons) → to cytoplasm\nRNA types: mRNA (message), tRNA (brings amino acids), rRNA (ribosome part)\n```",
+    "comparisons": "| Step | Enzyme/product |\n| --- | --- |\n| Transcription | RNA polymerase → mRNA |\n| Translation (next) | Ribosome → protein |\n\n| RNA type | Role |\n| --- | --- |\n| mRNA | Carries the message (DNA → ribosome) |\n| tRNA | Brings amino acids |\n| rRNA | Structural part of ribosome |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\nTranscription is the first step of **gene expression** — how genes produce proteins that determine cell function. Some **drugs and toxins** target RNA polymerase or transcription (e.g., certain **antibiotics** target bacterial RNA polymerase — recall Microbiology). Errors or dysregulation in transcription contribute to disease (including cancer). Understanding **DNA → RNA → protein** frames genetics, inherited disease, and how a mutation in DNA can change a protein (and cause disease). Some **viruses** and antiviral drugs involve these processes.",
+    "commonConfusions": "- **Transcription = DNA → mRNA** (translation is mRNA → protein).\n- **RNA uses uracil (U) instead of thymine (T).**\n- **Only one gene (and one DNA strand) is transcribed at a time**, not the whole genome.\n- **mRNA carries the message; tRNA and rRNA assist translation.**",
+    "memoryAids": "- **\"Central dogma: DNA → RNA → protein.\"**\n- **\"Transcription = writing DNA's message into RNA (still a nucleic-acid 'language').\"**\n- **\"RNA polymerase makes RNA; remember U for RNA.\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nYour DNA instruction manual stays safely in the cell's \"library\" (the nucleus). To use a recipe, the cell makes a **photocopy** of just that one page — this copy is called **mRNA**, and making it is called **transcription**.\n\n### Analogy\nThink of your **DNA** as a giant, precious **cookbook** that must never leave the library (the **nucleus**) — you don't want to risk damaging the master copy. When the cell wants to \"cook\" a specific protein, it doesn't take the whole cookbook; instead, a worker enzyme called **RNA polymerase** finds the right **recipe (gene)** and **copies just that page** onto a little notecard. That notecard is **messenger RNA (mRNA)**. The copy follows the same matching-letter rules as before, with one twist: RNA uses the letter **U** instead of **T**. Once the notecard is written (and tidied up a bit), it leaves the library and heads out to the \"kitchen\" (the cytoplasm), where the protein will actually be built. This copying step is called **transcription** because it's like **transcribing** (rewriting) the recipe into a portable form — still in a similar \"language,\" just a working copy.\n\n### What is actually happening\nThis is the first half of the most important process in biology: turning genes into proteins (the \"**central dogma**\": DNA → RNA → protein). It matters medically because if a gene has a **mistake** (mutation), the \"recipe copy\" will be wrong, and the protein it builds may not work — causing disease. Some **antibiotics** even work by **blocking bacteria's version of RNA polymerase**, stopping them from making the proteins they need to survive. Understanding transcription helps make sense of genetics, inherited diseases, cancer, and how certain drugs fight infections.\n\n### Where the analogy stops\nPhotocopying a page is a single simple act, but transcription is a precise, regulated process the cell turns on and off for thousands of genes depending on its needs — the cell chooses *which* recipes to copy and *when*, far more selectively than a copy machine.",
+    "quickReview": "- The **central dogma** is **DNA → RNA → protein**; **transcription** is the **DNA → mRNA** step (in the **nucleus**).\n- **RNA polymerase** binds the gene's promoter, reads the **template strand**, and builds **mRNA** using base pairing with **uracil (U) replacing thymine (T)**.\n- In eukaryotes, mRNA is **processed** (introns removed, exons kept) before moving to the **cytoplasm**.\n- Key RNAs: **mRNA** (message), **tRNA** (brings amino acids), **rRNA** (ribosome component).",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Chapter 15: Genes and Proteins (transcription). https://openstax.org/details/books/biology-2e",
+        "url": "https://openstax.org/details/books/biology-2e"
+      },
+      {
+        "text": "MedlinePlus (U.S. National Library of Medicine) — How genes work: How do genes direct the production of proteins? https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "transcription",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "biochem-u07-s03",
+      "kind": "source_topic_id",
+      "source_id": "prenursing_notes"
+    },
+    {
+      "value": "03-transcription",
+      "kind": "source_file_stem",
+      "source_id": "prenursing_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:prenursing_notes:ea619f553b9166df"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:prenursing_notes:ea619f553b9166df"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:prenursing_notes:ea619f553b9166df"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:prenursing_notes:ea619f553b9166df"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/05-biochemistry/07-nucleic-acids-and-molecular-biology/03-transcription.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "\n# Transcription\n\n## What This Topic Is\n\nThis section covers **transcription** — the first step of gene expression, in which a gene's DNA is copied into **messenger RNA (mRNA)** — including the role of **RNA polymerase** and how transcription fits into the **central dogma** (DNA → RNA → protein).\n\n## Why It Matters\n\nTranscription is how the instructions in DNA get read out to make proteins. It's a foundational step in gene expression and is targeted by some drugs and disrupted in some diseases — key context for genetics and pharmacology.\n\n## Learning Objectives\n\n- State the **central dogma** of molecular biology.\n- Define **transcription** and its product (**mRNA**).\n- Describe the role of **RNA polymerase**.\n- Identify the types of RNA involved in gene expression.\n\n## Core Explanation\n\n**The central dogma.** The **central dogma** of molecular biology describes the flow of genetic information: **DNA → RNA → protein**. DNA is transcribed into RNA (**transcription**), and RNA is translated into protein (**translation**, next section). This is how the genetic code ultimately directs the building of proteins that do the cell's work.\n\n**Transcription overview.** **Transcription** is the process of copying a **gene's DNA sequence into RNA** — specifically **messenger RNA (mRNA)**. It occurs in the **nucleus** (in eukaryotic cells like ours). Only the relevant **gene** is transcribed, not the whole genome, and only **one strand** of the DNA (the template strand) is read.\n\n**How it works (overview).**\n\n- **RNA polymerase** — the key enzyme — binds to the gene's start region (**promoter**), unwinds the DNA locally, and reads the **template strand**.\n- It builds a complementary **mRNA** strand following base-pairing rules, but with **uracil (U) in place of thymine (T)** (since RNA uses U). For example, a DNA template base **A** specifies **U** in the mRNA; **T→A, G→C, C→G**.\n- When the gene's end is reached, transcription stops and the **mRNA is released**.\n\n**RNA processing (eukaryotes).** In eukaryotic cells, the new mRNA is usually **processed** before leaving the nucleus (e.g., adding protective modifications and removing non-coding segments called **introns**, keeping the coding **exons**). The finished mRNA then travels to the **cytoplasm** to be translated.\n\n**Types of RNA.** Several RNAs participate in gene expression:\n\n- **Messenger RNA (mRNA)** — carries the gene's message from DNA to the ribosome.\n- **Transfer RNA (tRNA)** — brings amino acids during translation.\n- **Ribosomal RNA (rRNA)** — a structural/functional part of ribosomes.\n\n## How It Works\n\nTranscription:\n\n```\nCentral dogma: DNA → RNA → protein\nTranscription = copy a GENE's DNA into mRNA (in the nucleus)\nRNA polymerase: binds promoter → reads TEMPLATE strand → builds mRNA (U replaces T)\n   pairing: DNA A→U, T→A, G→C, C→G (mRNA)\nFinish → mRNA released → (eukaryotes) processed (remove introns, keep exons) → to cytoplasm\nRNA types: mRNA (message), tRNA (brings amino acids), rRNA (ribosome part)\n```\n\n## Important Relationships and Comparisons\n\n| Step | Enzyme/product |\n| --- | --- |\n| Transcription | RNA polymerase → mRNA |\n| Translation (next) | Ribosome → protein |\n\n| RNA type | Role |\n| --- | --- |\n| mRNA | Carries the message (DNA → ribosome) |\n| tRNA | Brings amino acids |\n| rRNA | Structural part of ribosome |\n\n## High-Yield Pre-Nursing Connections\n\nTranscription is the first step of **gene expression** — how genes produce proteins that determine cell function. Some **drugs and toxins** target RNA polymerase or transcription (e.g., certain **antibiotics** target bacterial RNA polymerase — recall Microbiology). Errors or dysregulation in transcription contribute to disease (including cancer). Understanding **DNA → RNA → protein** frames genetics, inherited disease, and how a mutation in DNA can change a protein (and cause disease). Some **viruses** and antiviral drugs involve these processes.\n\n## Common Confusions\n\n- **Transcription = DNA → mRNA** (translation is mRNA → protein).\n- **RNA uses uracil (U) instead of thymine (T).**\n- **Only one gene (and one DNA strand) is transcribed at a time**, not the whole genome.\n- **mRNA carries the message; tRNA and rRNA assist translation.**\n\n## Memory Aids\n\n- **\"Central dogma: DNA → RNA → protein.\"**\n- **\"Transcription = writing DNA's message into RNA (still a nucleic-acid 'language').\"**\n- **\"RNA polymerase makes RNA; remember U for RNA.\"**\n\n## ELI-10 Explains\n\n### Simple idea\nYour DNA instruction manual stays safely in the cell's \"library\" (the nucleus). To use a recipe, the cell makes a **photocopy** of just that one page — this copy is called **mRNA**, and making it is called **transcription**.\n\n### Analogy\nThink of your **DNA** as a giant, precious **cookbook** that must never leave the library (the **nucleus**) — you don't want to risk damaging the master copy. When the cell wants to \"cook\" a specific protein, it doesn't take the whole cookbook; instead, a worker enzyme called **RNA polymerase** finds the right **recipe (gene)** and **copies just that page** onto a little notecard. That notecard is **messenger RNA (mRNA)**. The copy follows the same matching-letter rules as before, with one twist: RNA uses the letter **U** instead of **T**. Once the notecard is written (and tidied up a bit), it leaves the library and heads out to the \"kitchen\" (the cytoplasm), where the protein will actually be built. This copying step is called **transcription** because it's like **transcribing** (rewriting) the recipe into a portable form — still in a similar \"language,\" just a working copy.\n\n### What is actually happening\nThis is the first half of the most important process in biology: turning genes into proteins (the \"**central dogma**\": DNA → RNA → protein). It matters medically because if a gene has a **mistake** (mutation), the \"recipe copy\" will be wrong, and the protein it builds may not work — causing disease. Some **antibiotics** even work by **blocking bacteria's version of RNA polymerase**, stopping them from making the proteins they need to survive. Understanding transcription helps make sense of genetics, inherited diseases, cancer, and how certain drugs fight infections.\n\n### Where the analogy stops\nPhotocopying a page is a single simple act, but transcription is a precise, regulated process the cell turns on and off for thousands of genes depending on its needs — the cell chooses *which* recipes to copy and *when*, far more selectively than a copy machine.\n\n## Quick Recap\n\n- The **central dogma** is **DNA → RNA → protein**; **transcription** is the **DNA → mRNA** step (in the **nucleus**).\n- **RNA polymerase** binds the gene's promoter, reads the **template strand**, and builds **mRNA** using base pairing with **uracil (U) replacing thymine (T)**.\n- In eukaryotes, mRNA is **processed** (introns removed, exons kept) before moving to the **cytoplasm**.\n- Key RNAs: **mRNA** (message), **tRNA** (brings amino acids), **rRNA** (ribosome component).\n\n## Sources\n\n- OpenStax, *Biology 2e*, Chapter 15: Genes and Proteins (transcription). https://openstax.org/details/books/biology-2e\n- MedlinePlus (U.S. National Library of Medicine) — How genes work: How do genes direct the production of proteins? https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/\n"
+}

@@ -1,0 +1,142 @@
+---
+title: "Naming Carboxylic Acids and Nitriles"
+subject: "Science"
+book: "Organic Chemistry: A Tenth Edition"
+chapter: "20: Carboxylic Acids and Nitriles"
+topic_number: "1"
+source: "organic-chemistry.md"
+tags:
+  - "naming-carboxylic-acids-and-nitriles"
+  - "science"
+status: "complete"
+---
+
+# Naming Carboxylic Acids and Nitriles
+
+> **Book:** [Organic Chemistry: A Tenth Edition](../../README.md)  
+> **Chapter:** [Chapter 20: Carboxylic Acids and Nitriles](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+A systematic name is a compact code that lets any chemist in the world draw the exact same structure from a string of words and numbers. Carboxylic acids are named with the suffix **-oic acid**: the parent chain is the longest chain that contains the carboxyl carbon, and that carbon is always numbered 1. Nitriles, which contain the \(\text{C}\equiv\text{N}\) triple bond, are named with the suffix **-nitrile**, and here the nitrile carbon itself counts as part of the parent chain. Because these two functional groups are intimately connected in synthesis — nitriles hydrolyze to carboxylic acids, and carboxylic acids can be dehydrated to nitriles — learning both naming systems together makes the chemistry of Chapter 20 much easier to follow. Common names such as acetic acid, formic acid, and succinic acid remain so widespread in biology, medicine, and industry that they must be learned alongside the systematic names.
+
+## Why This Matters
+
+Names are how chemists, pharmacists, and clinicians communicate precisely. Aspirin is acetylsalicylic acid (ethanoate ester of 2-hydroxybenzoic acid); ibuprofen is 2-(4-isobutylphenyl)propanoic acid; amino acids, fatty acids, and the citric acid cycle intermediates all carry carboxylic acid names. Nitriles matter because they are versatile synthetic intermediates: a nitrile adds two carbons' worth of chemistry in one step and can be converted into carboxylic acids, amides, or amines. If you cannot name these compounds, you cannot read a drug label, a synthesis scheme, or a biochemical pathway — and you will lose easy points on any exam that tests nomenclature.
+
+## Core Concepts
+
+### The carboxyl group is the naming anchor
+
+The carboxyl group \(\text{-COOH}\) is the highest-priority functional group in the IUPAC priority list, so whenever it is present, the parent name must end in **-oic acid** and the carboxyl carbon is automatically carbon 1. This rule overrides chain-length considerations: the parent chain is always the longest chain that *contains* the carboxyl carbon, even if a longer chain exists that does not.
+
+### Steps for naming a simple acyclic acid
+
+1. Find the longest continuous carbon chain that includes the carboxyl carbon.
+2. Name the corresponding alkane, drop the final \(-e\), and add \(-oic\ acid\). Methane → methanoic acid; ethane → ethanoic acid.
+3. Number the chain starting at the carboxyl carbon (C1) and use the lowest possible numbers for substituents.
+4. Name substituents alphabetically with their position numbers (2-chloro-, 3-methyl-, and so on).
+
+For example, \(\text{CH}_3\text{CH}_2\text{CH}_2\text{COOH}\) is butanoic acid, and a methyl group on the third carbon gives 3-methylbutanoic acid — not 2-methylbutanoic acid, because numbering must start at the carboxyl carbon.
+
+### Common names you must recognize
+
+Small acids are still routinely called by their common names, which are based on Latin/trivial roots: formic acid (methanoic, 1 C), acetic acid (ethanoic, 2 C), propionic acid (propanoic, 3 C), butyric acid (butanoic, 4 C), valeric acid (pentanoic, 5 C), and caproic acid (hexanoic, 6 C). The two-carbon acid is particularly important: "acetic acid" is the systematic vinegar acid, and its IUPAC name ethanoic acid is used interchangeably in modern texts.
+
+### Dicarboxylic acids
+
+When a molecule has two carboxyl groups, the suffix becomes **-dioic acid** and both carboxyl carbons are numbered: \(\text{HOOC}-\text{CH}_2-\text{CH}_2-\text{COOH}\) is butanedioic acid. The common names of the straight-chain dicarboxylic acids are heavily used in biology and polymer chemistry: oxalic (2 C), malonic (3 C), succinic (4 C), glutaric (5 C), and adipic (6 C) acids. Adipic acid is a nylon-6,6 monomer; succinic acid is a citric acid cycle intermediate.
+
+### Aromatic and substituted acids
+
+Benzoic acid, \(\text{C}_6\text{H}_5\text{COOH}\), is the parent name for aromatic acids — do not try to force the ring into a chain name. Substituents on the ring are numbered from the carboxyl carbon: 2- (ortho, \(o\)-), 3- (meta, \(m\)-), and 4- (para, \(p\)-) positions. Salicylic acid is 2-hydroxybenzoic acid, and acetylsalicylic acid (aspirin) is its acetate ester.
+
+### Naming nitriles
+
+A nitrile contains \(\text{-C}\equiv\text{N}\), and the suffix is **-nitrile**. Crucially, the nitrile carbon is counted as part of the parent chain: \(\text{CH}_3\text{CH}_2\text{CH}_2\text{C}\equiv\text{N}\) is butanenitrile (four carbons, including the nitrile carbon), named by dropping the \(-e\) of butane and adding \(-nitrile\). When the nitrile group is attached to a ring, the suffix is **-carbonitrile**: benzonitrile (phenyl cyanide) and cyclohexanecarbonitrile. Older common names treat the nitrile as a cyanide salt: acetonitrile is methyl cyanide, and benzonitrile is phenyl cyanide. The nitrile carbon is numbered 1 in the parent chain, and substituents are numbered from it.
+
+## ELI-10: Explain Like I'm 10
+
+> A systematic name is like a mailing address for a molecule: the "street" is the longest chain of carbons, the "house number" tells you where a group sits, and the ending — like *-oic acid* or *-nitrile* — tells you what kind of molecule it is. If everyone uses the same address system, chemists anywhere in the world can build the exact same molecule from the name.
+
+## High-Yield Points
+
+- Carboxylic acids end in **-oic acid**; the carboxyl carbon is always C1, and the parent chain must contain it.
+- Numbering starts at the carboxyl carbon, so substituents get the lowest possible numbers from that end.
+- Common names to memorize: formic (1C), acetic (2C), propionic (3C), butyric (4C); oxalic (2C diacid), malonic (3C), succinic (4C), glutaric (5C), adipic (6C).
+- Benzoic acid is the parent aromatic acid; use ortho/meta/para (2-/3-/4-) for ring substituents.
+- Nitriles end in **-nitrile**, and the nitrile carbon **counts** in the parent chain: \(\text{CH}_3\text{CH}_2\text{CN}\) is propanenitrile.
+- Nitriles on rings use **-carbonitrile**: benzonitrile, cyclohexanecarbonitrile.
+- Common "cyanide" names: methyl cyanide = acetonitrile; phenyl cyanide = benzonitrile.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| carboxyl group | The \(\text{-COOH}\) group: a carbonyl (\(\text{C}=\text{O}\)) plus a hydroxyl (\(\text{-OH}\)) on the same carbon. | Highest-priority functional group; dictates the -oic acid ending. |
+| parent chain | The longest carbon chain that contains the principal functional group. | Determines the root name and numbering direction. |
+| -oic acid suffix | Ending used when a carboxyl group is the principal group. | Replaces the alkane \(-e\): ethane → ethanoic acid. |
+| -dioic acid suffix | Ending for a molecule with two carboxyl groups. | Gives names like butanedioic acid (succinic acid). |
+| nitrile | A compound containing the \(\text{-C}\equiv\text{N}\) group. | Synthetic gateway to carboxylic acids, amides, and amines. |
+| -carbonitrile suffix | Ending used when a nitrile group is attached to a ring. | Gives benzonitrile and cyclohexanecarbonitrile. |
+| ortho / meta / para | Ring positions 2-, 3-, and 4- relative to the principal group on a benzene ring. | Standard shorthand in aromatic naming and reactivity. |
+
+## Example 1: Naming a Branched Acid
+
+Name the compound \(\text{CH}_3\text{CH}(\text{CH}_3)\text{CH}_2\text{COOH}\). Step 1: find the longest chain containing the carboxyl carbon — four carbons, so the parent is butanoic acid. Step 2: number from the carboxyl carbon, making the carboxyl carbon C1, so the chain runs C1(COOH)–C2–C3–C4. Step 3: the methyl substituent sits on C3. Step 4: alphabetize and assemble: **3-methylbutanoic acid**. Notice the name would change entirely if you numbered from the other end, which is why the "carboxyl carbon is C1" rule must come first.
+
+## Example 2: Dicarboxylic Acids and Aromatic Acids
+
+Name \(\text{HOOC}-\text{CH}_2-\text{CH}_2-\text{COOH}\). The chain is four carbons with a carboxyl at each end, so the parent is butanedioic acid (common name: succinic acid). Now name 2-hydroxybenzoic acid: the parent is benzoic acid, the hydroxyl is at C2 (ortho), so the systematic name is 2-hydroxybenzoic acid — commonly called salicylic acid, the precursor to aspirin. Acetylation of the hydroxyl converts it to acetylsalicylic acid, aspirin, showing how the naming system tracks real drug chemistry.
+
+## Example 3: Naming Nitriles
+
+Name \(\text{CH}_3\text{CH}_2\text{CH}_2\text{C}\equiv\text{N}\). The parent chain includes the nitrile carbon: four carbons total, so the name is butanenitrile (methyl cyanide in older usage). If a methyl branch sits on the second carbon, the name becomes 2-methylbutanenitrile — the nitrile carbon is C1. If the same nitrile group attaches to a benzene ring instead, the compound is benzonitrile (phenyl cyanide), and on a cyclohexane ring it is cyclohexanecarbonitrile. The "-carbonitrile" form is required because "cyclohexanenitrile" would incorrectly imply the nitrile carbon is part of the ring.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| -oic acid ending | -al (aldehyde) or -one (ketone) endings | The acid ending marks the highest-priority group; only the carboxyl group earns -oic acid. |
+| Acetic acid | Ethanoic acid | Same molecule; acetic is the common name, ethanoic the systematic name. |
+| Nitrile carbon counting | Nitrile carbon not counting | The nitrile carbon IS part of the parent chain: \(\text{CH}_3\text{CH}_2\text{CN}\) is propanenitrile (3 C), not ethanenitrile. |
+| Succinic acid | Adipic acid | Succinic is 4 carbons (butanedioic); adipic is 6 carbons (hexanedioic). |
+| Benzoic acid | "Benzene carboxylic acid" | The accepted parent name is simply benzoic acid; the ring is not treated as a substituent. |
+| Methyl cyanide | Acetonitrile | Same compound; "cyanide" names come from treating the nitrile as a cyanide salt. |
+
+## Quick Review
+
+1. Why is the carboxyl carbon always numbered 1 in a carboxylic acid name?
+2. What is the systematic name of \(\text{CH}_3\text{CH}_2\text{COOH}\), and what is its common name?
+3. Name the compound \(\text{HOOC}-\text{CH}_2-\text{CH}_2-\text{COOH}\) both systematically and by common name.
+4. How many carbons are in the parent chain of \(\text{CH}_3\text{CH}_2\text{CH}_2\text{C}\equiv\text{N}\), and what is its name?
+5. What suffix do you use when a nitrile group is attached directly to a benzene ring?
+
+<details>
+<summary>Show answers</summary>
+
+1. The carboxyl carbon is the highest-priority functional-group carbon, and IUPAC rules fix it at position 1 so numbering is unambiguous.
+2. Propanoic acid; common name propionic acid.
+3. Butanedioic acid; common name succinic acid.
+4. Four carbons total including the nitrile carbon; the name is butanenitrile.
+5. -carbonitrile: benzonitrile (phenyl cyanide).
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter
+- Next: [Structure and Properties of Carboxylic Acids](02-structure-and-properties-of-carboxylic-acids.md)
+- Related: [Chemistry of Nitriles](07-chemistry-of-nitriles.md)
+- Related: [Carboxylic Acids and Nitriles chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Organic Chemistry: A Tenth Edition
+- Local outline source: `organic-chemistry.md`
+- Official source URL: https://openstax.org/details/books/organic-chemistry/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-16
+- Science note: Naming rules follow standard IUPAC organic nomenclature as taught in undergraduate organic chemistry. No experimental data are fabricated.

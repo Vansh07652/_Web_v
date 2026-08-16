@@ -1,0 +1,41 @@
+{
+  "id": "genetics-dna-repair-and-mutation-0007",
+  "subject": "genetics",
+  "lesson": "dna-repair-and-mutation",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A child with extreme sensitivity to sunlight and a very high risk of skin cancer is found to have a defect in nucleotide excision repair. Which explanation best accounts for these findings?",
+  "options": [
+    {
+      "id": "a",
+      "text": "UV light creates bulky helix distorting lesions such as thymine dimers that require nucleotide excision repair, which is lost in this child"
+    },
+    {
+      "id": "b",
+      "text": "UV light creates mispaired bases that require mismatch repair"
+    },
+    {
+      "id": "c",
+      "text": "UV light creates single damaged bases that are removed by base excision repair"
+    },
+    {
+      "id": "d",
+      "text": "UV light breaks both DNA strands, requiring double strand break repair"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Per the Disorder Index, xeroderma pigmentosum is caused by loss of nucleotide excision repair through defects in *XPA*, *XPC*, *ERCC1*, or *ERCC2* and produces extreme sensitivity to UV light with a very high risk of skin cancers, because UV photoproducts such as thymine dimers distort the helix and require NER for removal. Mismatch repair corrects replication errors rather than UV damage, base excision repair handles single damaged bases, and UV light does not directly create double strand breaks.",
+  "difficulty": "unknown",
+  "tags": [
+    "nucleotide",
+    "excision",
+    "repair",
+    "uv",
+    "damage"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ca8f349f5901cf65",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

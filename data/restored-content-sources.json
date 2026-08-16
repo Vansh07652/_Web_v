@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "restoredAt": "2026-08-11",
+  "approvalBasis": "The user identified the chemistry course exports as missing. Only source topics already marked final and covered by a passing subject audit were restored.",
+  "courseMapping": {
+    "chemistry-1": "Topics 272-276: atomic structure through chemical reactions",
+    "chemistry-2": "Topics 277-280: quantitative chemistry through physiologic buffers",
+    "organic-chemistry-1": "Topic 281: organic chemistry and functional groups"
+  },
+  "validationEvidence": {
+    "subjectAudit": "quality/subject-audits/subject-11.json",
+    "result": "PASS",
+    "totalQuestions": 120,
+    "structuralErrors": 0,
+    "computationErrors": 0,
+    "nearDuplicatePairs": 0,
+    "duplicateIds": 0,
+    "allTopicsFinal": true
+  },
+  "sources": [
+    {"id":"chemistry-topic-272","logicalPath":"pre-nursing-expansion-question-bank/questions/11-chemistry/272-atomic-structure-and-the-periodic-table.json","sha256":"82c1c820235266f42bf0df1903eff748885e1cb4a87971e1c92680ec02511b6c","status":"final","questionCount":12},
+    {"id":"chemistry-topic-273","logicalPath":"pre-nursing-expansion-question-bank/questions/11-chemistry/273-ions-and-electrolytes.json","sha256":"aa7ccd09efdf011b222f7c2bbba9cab8ddcead3a0ccf4bcdb45aa07c1c9b51ae","status":"final","questionCount":12},
+    {"id":"chemistry-topic-274","logicalPath":"pre-nursing-expansion-question-bank/questions/11-chemistry/274-ionic-and-covalent-bonding.json","sha256":"ef16acea91b538bbdc7a1a271ddddb89c7dfe1fa863b63ec0348b183cf089d51","status":"final","questionCount":12},
+    {"id":"chemistry-topic-275","logicalPath":"pre-nursing-expansion-question-bank/questions/11-chemistry/275-polarity-and-intermolecular-forces.json","sha256":"7cd6723c8d7a5bbac68210852379b7af8804953e1ec81378893e864486928b35","status":"final","questionCount":12},
+    {"id":"chemistry-topic-276","logicalPath":"pre-nursing-expansion-question-bank/questions/11-chemistry/276-chemical-reactions-and-equations.json","sha256":"6ef86126ce44198ac52ef92f54d94f119b8a48a4fd9bf9ca46df828d5fa4bd9e","status":"final","questionCount":12},
+    {"id":"chemistry-topic-277","logicalPath":"pre-nursing-expansion-question-bank/questions/11-chemistry/277-moles-and-molar-mass.json","sha256":"ce49718ddb6329e9078cbcddc6c4f46192e52eec44fc8fbac560ff1f2b84d222","status":"final","questionCount":12},
+    {"id":"chemistry-topic-278","logicalPath":"pre-nursing-expansion-question-bank/questions/11-chemistry/278-solutions-and-concentration.json","sha256":"504203f211e3a735e33e9de51f4160aedbf1c0507cc745435b4dfaca435f2c53","status":"final","questionCount":12},
+    {"id":"chemistry-topic-279","logicalPath":"pre-nursing-expansion-question-bank/questions/11-chemistry/279-acids-bases-and-ph.json","sha256":"f875b2dbd7bd25638ce7f01a764ea4a8dec63c2b0a5c7b5e4ef5bb92001297e1","status":"final","questionCount":12},
+    {"id":"chemistry-topic-280","logicalPath":"pre-nursing-expansion-question-bank/questions/11-chemistry/280-buffers-and-physiologic-chemistry.json","sha256":"a8e3db9adaddb62bf5455805fb3b2e58f14a8178126c8bbbc64ee76655389b24","status":"final","questionCount":12},
+    {"id":"chemistry-topic-281","logicalPath":"pre-nursing-expansion-question-bank/questions/11-chemistry/281-organic-chemistry-and-functional-groups.json","sha256":"6f1a041e8decaf50113524df5f6c5f19c200e6797c20fb7ec0cb408b7f83656e","status":"final","questionCount":12}
+  ],
+  "unrestored": [
+    {"subject":"organic-chemistry-2","reason":"CONTENT_UNRECOVERABLE: no exact approved source exists in the supplied directory, backups, branches, or preserved source tree."},
+    {"subject":"nclex-review","reason":"QUALIFIED_REVIEW_REQUIRED: preserved clinical material remains explicitly excluded from the approved export pending current qualified human review."}
+  ]
+}

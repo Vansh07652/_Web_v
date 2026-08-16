@@ -1,0 +1,832 @@
+{
+  "slug": "microbiology",
+  "title": "Microbiology",
+  "subjectArea": "Science",
+  "order": 18,
+  "status": "excluded",
+  "topicCount": 127,
+  "source": {
+    "repositoryPath": "science/science/microbiology",
+    "provenance": "Original educational study guides based on the documented source outline.",
+    "license": null
+  },
+  "chapters": [
+    {
+      "slug": "chapter-01-an-invisible-world",
+      "title": "Chapter 1: An Invisible World",
+      "order": 1,
+      "topics": [
+        {
+          "slug": "01-what-our-ancestors-knew",
+          "title": "What Our Ancestors Knew",
+          "order": 1
+        },
+        {
+          "slug": "02-a-systematic-approach",
+          "title": "A Systematic Approach",
+          "order": 2
+        },
+        {
+          "slug": "03-types-of-microorganisms",
+          "title": "Types of Microorganisms",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "slug": "chapter-02-how-we-see-the-invisible-world",
+      "title": "Chapter 2: How We See the Invisible World",
+      "order": 2,
+      "topics": [
+        {
+          "slug": "01-the-properties-of-light",
+          "title": "The Properties of Light",
+          "order": 1
+        },
+        {
+          "slug": "02-peering-into-the-invisible-world",
+          "title": "Peering Into the Invisible World",
+          "order": 2
+        },
+        {
+          "slug": "03-instruments-of-microscopy",
+          "title": "Instruments of Microscopy",
+          "order": 3
+        },
+        {
+          "slug": "04-staining-microscopic-specimens",
+          "title": "Staining Microscopic Specimens",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "slug": "chapter-03-the-cell",
+      "title": "Chapter 3: The Cell",
+      "order": 3,
+      "topics": [
+        {
+          "slug": "01-spontaneous-generation",
+          "title": "Spontaneous Generation",
+          "order": 1
+        },
+        {
+          "slug": "02-foundations-of-modern-cell-theory",
+          "title": "Foundations of Modern Cell Theory",
+          "order": 2
+        },
+        {
+          "slug": "03-unique-characteristics-of-prokaryotic-cells",
+          "title": "Unique Characteristics of Prokaryotic Cells",
+          "order": 3
+        },
+        {
+          "slug": "04-unique-characteristics-of-eukaryotic-cells",
+          "title": "Unique Characteristics of Eukaryotic Cells",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "slug": "chapter-04-prokaryotic-diversity",
+      "title": "Chapter 4: Prokaryotic Diversity",
+      "order": 4,
+      "topics": [
+        {
+          "slug": "01-prokaryote-habitats-relationships-and-microbiomes",
+          "title": "Prokaryote Habitats, Relationships, and Microbiomes",
+          "order": 1
+        },
+        {
+          "slug": "02-proteobacteria",
+          "title": "Proteobacteria",
+          "order": 2
+        },
+        {
+          "slug": "03-nonproteobacteria-gram-negative-bacteria-and-phototrophic-bacteria",
+          "title": "Nonproteobacteria Gram-Negative Bacteria and Phototrophic Bacteria",
+          "order": 3
+        },
+        {
+          "slug": "04-gram-positive-bacteria",
+          "title": "Gram-Positive Bacteria",
+          "order": 4
+        },
+        {
+          "slug": "05-deeply-branching-bacteria",
+          "title": "Deeply Branching Bacteria",
+          "order": 5
+        },
+        {
+          "slug": "06-archaea",
+          "title": "Archaea",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "slug": "chapter-05-the-eukaryotes-of-microbiology",
+      "title": "Chapter 5: The Eukaryotes of Microbiology",
+      "order": 5,
+      "topics": [
+        {
+          "slug": "01-unicellular-eukaryotic-parasites",
+          "title": "Unicellular Eukaryotic Parasites",
+          "order": 1
+        },
+        {
+          "slug": "02-parasitic-helminths",
+          "title": "Parasitic Helminths",
+          "order": 2
+        },
+        {
+          "slug": "03-fungi",
+          "title": "Fungi",
+          "order": 3
+        },
+        {
+          "slug": "04-algae",
+          "title": "Algae",
+          "order": 4
+        },
+        {
+          "slug": "05-lichens",
+          "title": "Lichens",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "slug": "chapter-06-acellular-pathogens",
+      "title": "Chapter 6: Acellular Pathogens",
+      "order": 6,
+      "topics": [
+        {
+          "slug": "01-viruses",
+          "title": "Viruses",
+          "order": 1
+        },
+        {
+          "slug": "02-the-viral-life-cycle",
+          "title": "The Viral Life Cycle",
+          "order": 2
+        },
+        {
+          "slug": "03-isolation-culture-and-identification-of-viruses",
+          "title": "Isolation, Culture, and Identification of Viruses",
+          "order": 3
+        },
+        {
+          "slug": "04-viroids-virusoids-and-prions",
+          "title": "Viroids, Virusoids, and Prions",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "slug": "chapter-07-microbial-biochemistry",
+      "title": "Chapter 7: Microbial Biochemistry",
+      "order": 7,
+      "topics": [
+        {
+          "slug": "01-organic-molecules",
+          "title": "Organic Molecules",
+          "order": 1
+        },
+        {
+          "slug": "02-carbohydrates",
+          "title": "Carbohydrates",
+          "order": 2
+        },
+        {
+          "slug": "03-lipids",
+          "title": "Lipids",
+          "order": 3
+        },
+        {
+          "slug": "04-proteins",
+          "title": "Proteins",
+          "order": 4
+        },
+        {
+          "slug": "05-using-biochemistry-to-identify-microorganisms",
+          "title": "Using Biochemistry to Identify Microorganisms",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "slug": "chapter-08-microbial-metabolism",
+      "title": "Chapter 8: Microbial Metabolism",
+      "order": 8,
+      "topics": [
+        {
+          "slug": "01-energy-matter-and-enzymes",
+          "title": "Energy, Matter, and Enzymes",
+          "order": 1
+        },
+        {
+          "slug": "02-catabolism-of-carbohydrates",
+          "title": "Catabolism of Carbohydrates",
+          "order": 2
+        },
+        {
+          "slug": "03-cellular-respiration",
+          "title": "Cellular Respiration",
+          "order": 3
+        },
+        {
+          "slug": "04-fermentation",
+          "title": "Fermentation",
+          "order": 4
+        },
+        {
+          "slug": "05-catabolism-of-lipids-and-proteins",
+          "title": "Catabolism of Lipids and Proteins",
+          "order": 5
+        },
+        {
+          "slug": "06-photosynthesis",
+          "title": "Photosynthesis",
+          "order": 6
+        },
+        {
+          "slug": "07-biogeochemical-cycles",
+          "title": "Biogeochemical Cycles",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "slug": "chapter-09-microbial-growth",
+      "title": "Chapter 9: Microbial Growth",
+      "order": 9,
+      "topics": [
+        {
+          "slug": "01-how-microbes-grow",
+          "title": "How Microbes Grow",
+          "order": 1
+        },
+        {
+          "slug": "02-oxygen-requirements-for-microbial-growth",
+          "title": "Oxygen Requirements for Microbial Growth",
+          "order": 2
+        },
+        {
+          "slug": "03-the-effects-of-ph-on-microbial-growth",
+          "title": "The Effects of pH on Microbial Growth",
+          "order": 3
+        },
+        {
+          "slug": "04-temperature-and-microbial-growth",
+          "title": "Temperature and Microbial Growth",
+          "order": 4
+        },
+        {
+          "slug": "05-other-environmental-conditions-that-affect-growth",
+          "title": "Other Environmental Conditions that Affect Growth",
+          "order": 5
+        },
+        {
+          "slug": "06-media-used-for-bacterial-growth",
+          "title": "Media Used for Bacterial Growth",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "slug": "chapter-10-biochemistry-of-the-genome",
+      "title": "Chapter 10: Biochemistry of the Genome",
+      "order": 10,
+      "topics": [
+        {
+          "slug": "01-using-microbiology-to-discover-the-secrets-of-life",
+          "title": "Using Microbiology to Discover the Secrets of Life",
+          "order": 1
+        },
+        {
+          "slug": "02-structure-and-function-of-dna",
+          "title": "Structure and Function of DNA",
+          "order": 2
+        },
+        {
+          "slug": "03-structure-and-function-of-rna",
+          "title": "Structure and Function of RNA",
+          "order": 3
+        },
+        {
+          "slug": "04-structure-and-function-of-cellular-genomes",
+          "title": "Structure and Function of Cellular Genomes",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "slug": "chapter-11-mechanisms-of-microbial-genetics",
+      "title": "Chapter 11: Mechanisms of Microbial Genetics",
+      "order": 11,
+      "topics": [
+        {
+          "slug": "01-the-functions-of-genetic-material",
+          "title": "The Functions of Genetic Material",
+          "order": 1
+        },
+        {
+          "slug": "02-dna-replication",
+          "title": "DNA Replication",
+          "order": 2
+        },
+        {
+          "slug": "03-rna-transcription",
+          "title": "RNA Transcription",
+          "order": 3
+        },
+        {
+          "slug": "04-protein-synthesis-translation",
+          "title": "Protein Synthesis (Translation)",
+          "order": 4
+        },
+        {
+          "slug": "05-mutations",
+          "title": "Mutations",
+          "order": 5
+        },
+        {
+          "slug": "06-how-asexual-prokaryotes-achieve-genetic-diversity",
+          "title": "How Asexual Prokaryotes Achieve Genetic Diversity",
+          "order": 6
+        },
+        {
+          "slug": "07-gene-regulation-operon-theory",
+          "title": "Gene Regulation: Operon Theory",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "slug": "chapter-12-modern-applications-of-microbial-genetics",
+      "title": "Chapter 12: Modern Applications of Microbial Genetics",
+      "order": 12,
+      "topics": [
+        {
+          "slug": "01-microbes-and-the-tools-of-genetic-engineering",
+          "title": "Microbes and the Tools of Genetic Engineering",
+          "order": 1
+        },
+        {
+          "slug": "02-visualizing-and-characterizing-dna-rna-and-protein",
+          "title": "Visualizing and Characterizing DNA, RNA, and Protein",
+          "order": 2
+        },
+        {
+          "slug": "03-whole-genome-methods-and-pharmaceutical-applications-of-genetic-engineering",
+          "title": "Whole Genome Methods and Pharmaceutical Applications of Genetic Engineering",
+          "order": 3
+        },
+        {
+          "slug": "04-gene-therapy",
+          "title": "Gene Therapy",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "slug": "chapter-13-control-of-microbial-growth",
+      "title": "Chapter 13: Control of Microbial Growth",
+      "order": 13,
+      "topics": [
+        {
+          "slug": "01-controlling-microbial-growth",
+          "title": "Controlling Microbial Growth",
+          "order": 1
+        },
+        {
+          "slug": "02-using-physical-methods-to-control-microorganisms",
+          "title": "Using Physical Methods to Control Microorganisms",
+          "order": 2
+        },
+        {
+          "slug": "03-using-chemicals-to-control-microorganisms",
+          "title": "Using Chemicals to Control Microorganisms",
+          "order": 3
+        },
+        {
+          "slug": "04-testing-the-effectiveness-of-antiseptics-and-disinfectants",
+          "title": "Testing the Effectiveness of Antiseptics and Disinfectants",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "slug": "chapter-14-antimicrobial-drugs",
+      "title": "Chapter 14: Antimicrobial Drugs",
+      "order": 14,
+      "topics": [
+        {
+          "slug": "01-history-of-chemotherapy-and-antimicrobial-discovery",
+          "title": "History of Chemotherapy and Antimicrobial Discovery",
+          "order": 1
+        },
+        {
+          "slug": "02-fundamentals-of-antimicrobial-chemotherapy",
+          "title": "Fundamentals of Antimicrobial Chemotherapy",
+          "order": 2
+        },
+        {
+          "slug": "03-mechanisms-of-antibacterial-drugs",
+          "title": "Mechanisms of Antibacterial Drugs",
+          "order": 3
+        },
+        {
+          "slug": "04-mechanisms-of-other-antimicrobial-drugs",
+          "title": "Mechanisms of Other Antimicrobial Drugs",
+          "order": 4
+        },
+        {
+          "slug": "05-drug-resistance",
+          "title": "Drug Resistance",
+          "order": 5
+        },
+        {
+          "slug": "06-testing-the-effectiveness-of-antimicrobials",
+          "title": "Testing the Effectiveness of Antimicrobials",
+          "order": 6
+        },
+        {
+          "slug": "07-current-strategies-for-antimicrobial-discovery",
+          "title": "Current Strategies for Antimicrobial Discovery",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "slug": "chapter-15-microbial-mechanisms-of-pathogenicity",
+      "title": "Chapter 15: Microbial Mechanisms of Pathogenicity",
+      "order": 15,
+      "topics": [
+        {
+          "slug": "01-characteristics-of-infectious-disease",
+          "title": "Characteristics of Infectious Disease",
+          "order": 1
+        },
+        {
+          "slug": "02-how-pathogens-cause-disease",
+          "title": "How Pathogens Cause Disease",
+          "order": 2
+        },
+        {
+          "slug": "03-virulence-factors-of-bacterial-and-viral-pathogens",
+          "title": "Virulence Factors of Bacterial and Viral Pathogens",
+          "order": 3
+        },
+        {
+          "slug": "04-virulence-factors-of-eukaryotic-pathogens",
+          "title": "Virulence Factors of Eukaryotic Pathogens",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "slug": "chapter-16-disease-and-epidemiology",
+      "title": "Chapter 16: Disease and Epidemiology",
+      "order": 16,
+      "topics": [
+        {
+          "slug": "01-the-language-of-epidemiologists",
+          "title": "The Language of Epidemiologists",
+          "order": 1
+        },
+        {
+          "slug": "02-tracking-infectious-diseases",
+          "title": "Tracking Infectious Diseases",
+          "order": 2
+        },
+        {
+          "slug": "03-modes-of-disease-transmission",
+          "title": "Modes of Disease Transmission",
+          "order": 3
+        },
+        {
+          "slug": "04-global-public-health",
+          "title": "Global Public Health",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "slug": "chapter-17-innate-nonspecific-host-defenses",
+      "title": "Chapter 17: Innate Nonspecific Host Defenses",
+      "order": 17,
+      "topics": [
+        {
+          "slug": "01-physical-defenses",
+          "title": "Physical Defenses",
+          "order": 1
+        },
+        {
+          "slug": "02-chemical-defenses",
+          "title": "Chemical Defenses",
+          "order": 2
+        },
+        {
+          "slug": "03-cellular-defenses",
+          "title": "Cellular Defenses",
+          "order": 3
+        },
+        {
+          "slug": "04-pathogen-recognition-and-phagocytosis",
+          "title": "Pathogen Recognition and Phagocytosis",
+          "order": 4
+        },
+        {
+          "slug": "05-inflammation-and-fever",
+          "title": "Inflammation and Fever",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "slug": "chapter-18-adaptive-specific-host-defenses",
+      "title": "Chapter 18: Adaptive Specific Host Defenses",
+      "order": 18,
+      "topics": [
+        {
+          "slug": "01-overview-of-specific-adaptive-immunity",
+          "title": "Overview of Specific Adaptive Immunity",
+          "order": 1
+        },
+        {
+          "slug": "02-major-histocompatibility-complexes-and-antigen-presenting-cells",
+          "title": "Major Histocompatibility Complexes and Antigen-Presenting Cells",
+          "order": 2
+        },
+        {
+          "slug": "03-t-lymphocytes-and-cellular-immunity",
+          "title": "T Lymphocytes and Cellular Immunity",
+          "order": 3
+        },
+        {
+          "slug": "04-b-lymphocytes-and-humoral-immunity",
+          "title": "B Lymphocytes and Humoral Immunity",
+          "order": 4
+        },
+        {
+          "slug": "05-vaccines",
+          "title": "Vaccines",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "slug": "chapter-19-diseases-of-the-immune-system",
+      "title": "Chapter 19: Diseases of the Immune System",
+      "order": 19,
+      "topics": [
+        {
+          "slug": "01-hypersensitivities",
+          "title": "Hypersensitivities",
+          "order": 1
+        },
+        {
+          "slug": "02-autoimmune-disorders",
+          "title": "Autoimmune Disorders",
+          "order": 2
+        },
+        {
+          "slug": "03-organ-transplantation-and-rejection",
+          "title": "Organ Transplantation and Rejection",
+          "order": 3
+        },
+        {
+          "slug": "04-immunodeficiency",
+          "title": "Immunodeficiency",
+          "order": 4
+        },
+        {
+          "slug": "05-cancer-immunobiology-and-immunotherapy",
+          "title": "Cancer Immunobiology and Immunotherapy",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "slug": "chapter-20-laboratory-analysis-of-the-immune-response",
+      "title": "Chapter 20: Laboratory Analysis of the Immune Response",
+      "order": 20,
+      "topics": [
+        {
+          "slug": "01-polyclonal-and-monoclonal-antibody-production",
+          "title": "Polyclonal and Monoclonal Antibody Production",
+          "order": 1
+        },
+        {
+          "slug": "02-detecting-antigen-antibody-complexes",
+          "title": "Detecting Antigen-Antibody Complexes",
+          "order": 2
+        },
+        {
+          "slug": "03-agglutination-assays",
+          "title": "Agglutination Assays",
+          "order": 3
+        },
+        {
+          "slug": "04-eias-and-elisas",
+          "title": "EIAs and ELISAs",
+          "order": 4
+        },
+        {
+          "slug": "05-fluorescent-antibody-techniques",
+          "title": "Fluorescent Antibody Techniques",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "slug": "chapter-21-skin-and-eye-infections",
+      "title": "Chapter 21: Skin and Eye Infections",
+      "order": 21,
+      "topics": [
+        {
+          "slug": "01-anatomy-and-normal-microbiota-of-the-skin-and-eyes",
+          "title": "Anatomy and Normal Microbiota of the Skin and Eyes",
+          "order": 1
+        },
+        {
+          "slug": "02-bacterial-infections-of-the-skin-and-eyes",
+          "title": "Bacterial Infections of the Skin and Eyes",
+          "order": 2
+        },
+        {
+          "slug": "03-viral-infections-of-the-skin-and-eyes",
+          "title": "Viral Infections of the Skin and Eyes",
+          "order": 3
+        },
+        {
+          "slug": "04-mycoses-of-the-skin",
+          "title": "Mycoses of the Skin",
+          "order": 4
+        },
+        {
+          "slug": "05-protozoan-and-helminthic-infections-of-the-skin-and-eyes",
+          "title": "Protozoan and Helminthic Infections of the Skin and Eyes",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "slug": "chapter-22-respiratory-system-infections",
+      "title": "Chapter 22: Respiratory System Infections",
+      "order": 22,
+      "topics": [
+        {
+          "slug": "01-anatomy-and-normal-microbiota-of-the-respiratory-tract",
+          "title": "Anatomy and Normal Microbiota of the Respiratory Tract",
+          "order": 1
+        },
+        {
+          "slug": "02-bacterial-infections-of-the-respiratory-tract",
+          "title": "Bacterial Infections of the Respiratory Tract",
+          "order": 2
+        },
+        {
+          "slug": "03-viral-infections-of-the-respiratory-tract",
+          "title": "Viral Infections of the Respiratory Tract",
+          "order": 3
+        },
+        {
+          "slug": "04-respiratory-mycoses",
+          "title": "Respiratory Mycoses",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "slug": "chapter-23-urogenital-system-infections",
+      "title": "Chapter 23: Urogenital System Infections",
+      "order": 23,
+      "topics": [
+        {
+          "slug": "01-anatomy-and-normal-microbiota-of-the-urogenital-tract",
+          "title": "Anatomy and Normal Microbiota of the Urogenital Tract",
+          "order": 1
+        },
+        {
+          "slug": "02-bacterial-infections-of-the-urinary-system",
+          "title": "Bacterial Infections of the Urinary System",
+          "order": 2
+        },
+        {
+          "slug": "03-bacterial-infections-of-the-reproductive-system",
+          "title": "Bacterial Infections of the Reproductive System",
+          "order": 3
+        },
+        {
+          "slug": "04-viral-infections-of-the-reproductive-system",
+          "title": "Viral Infections of the Reproductive System",
+          "order": 4
+        },
+        {
+          "slug": "05-fungal-infections-of-the-reproductive-system",
+          "title": "Fungal Infections of the Reproductive System",
+          "order": 5
+        },
+        {
+          "slug": "06-protozoan-infections-of-the-urogenital-system",
+          "title": "Protozoan Infections of the Urogenital System",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "slug": "chapter-24-digestive-system-infections",
+      "title": "Chapter 24: Digestive System Infections",
+      "order": 24,
+      "topics": [
+        {
+          "slug": "01-anatomy-and-normal-microbiota-of-the-digestive-system",
+          "title": "Anatomy and Normal Microbiota of the Digestive System",
+          "order": 1
+        },
+        {
+          "slug": "02-microbial-diseases-of-the-mouth-and-oral-cavity",
+          "title": "Microbial Diseases of the Mouth and Oral Cavity",
+          "order": 2
+        },
+        {
+          "slug": "03-bacterial-infections-of-the-gastrointestinal-tract",
+          "title": "Bacterial Infections of the Gastrointestinal Tract",
+          "order": 3
+        },
+        {
+          "slug": "04-viral-infections-of-the-gastrointestinal-tract",
+          "title": "Viral Infections of the Gastrointestinal Tract",
+          "order": 4
+        },
+        {
+          "slug": "05-protozoan-infections-of-the-gastrointestinal-tract",
+          "title": "Protozoan Infections of the Gastrointestinal Tract",
+          "order": 5
+        },
+        {
+          "slug": "06-helminthic-infections-of-the-gastrointestinal-tract",
+          "title": "Helminthic Infections of the Gastrointestinal Tract",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "slug": "chapter-25-circulatory-and-lymphatic-system-infections",
+      "title": "Chapter 25: Circulatory and Lymphatic System Infections",
+      "order": 25,
+      "topics": [
+        {
+          "slug": "01-anatomy-of-the-circulatory-and-lymphatic-systems",
+          "title": "Anatomy of the Circulatory and Lymphatic Systems",
+          "order": 1
+        },
+        {
+          "slug": "02-bacterial-infections-of-the-circulatory-and-lymphatic-systems",
+          "title": "Bacterial Infections of the Circulatory and Lymphatic Systems",
+          "order": 2
+        },
+        {
+          "slug": "03-viral-infections-of-the-circulatory-and-lymphatic-systems",
+          "title": "Viral Infections of the Circulatory and Lymphatic Systems",
+          "order": 3
+        },
+        {
+          "slug": "04-parasitic-infections-of-the-circulatory-and-lymphatic-systems",
+          "title": "Parasitic Infections of the Circulatory and Lymphatic Systems",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "slug": "chapter-26-nervous-system-infections",
+      "title": "Chapter 26: Nervous System Infections",
+      "order": 26,
+      "topics": [
+        {
+          "slug": "01-anatomy-of-the-nervous-system",
+          "title": "Anatomy of the Nervous System",
+          "order": 1
+        },
+        {
+          "slug": "02-bacterial-diseases-of-the-nervous-system",
+          "title": "Bacterial Diseases of the Nervous System",
+          "order": 2
+        },
+        {
+          "slug": "03-acellular-diseases-of-the-nervous-system",
+          "title": "Acellular Diseases of the Nervous System",
+          "order": 3
+        },
+        {
+          "slug": "04-fungal-and-parasitic-diseases-of-the-nervous-system",
+          "title": "Fungal and Parasitic Diseases of the Nervous System",
+          "order": 4
+        }
+      ]
+    }
+  ]
+}

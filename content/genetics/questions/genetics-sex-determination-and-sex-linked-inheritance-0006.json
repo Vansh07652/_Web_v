@@ -1,0 +1,39 @@
+{
+  "id": "genetics-sex-determination-and-sex-linked-inheritance-0006",
+  "subject": "genetics",
+  "lesson": "sex-determination-and-sex-linked-inheritance",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem A trait is inherited strictly on the Y chromosome, with complete penetrance. An affected man (*X Y*) mates with an unaffected woman (*X X*). Assume no new mutations and a 1:1 sex ratio (sums to 2). What fraction of his sons is expected to show the trait?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/4"
+    },
+    {
+      "id": "b",
+      "text": "1/2"
+    },
+    {
+      "id": "c",
+      "text": "1"
+    },
+    {
+      "id": "d",
+      "text": "0"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "A son always receives his Y chromosome from his father, and the trait allele rides that Y, so 1 x 1 = 1, meaning every son shows the trait. Daughters never show it, because they receive the father's X chromosome instead. B is the fraction of all offspring that are sons rather than the fraction of sons affected, A treats the locus as autosomal with two recessive alleles required, and D confuses Y linked inheritance with a sex influenced trait that only some males express.",
+  "difficulty": "unknown",
+  "tags": [
+    "linked",
+    "father",
+    "son"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-67f5c8a12332791c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

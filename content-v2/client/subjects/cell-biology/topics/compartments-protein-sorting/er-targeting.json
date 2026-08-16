@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:compartments-protein-sorting:er-targeting",
+  "slug": "er-targeting",
+  "title": "ER Targeting: Signal Peptide, SRP, and Sec61",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:compartments-protein-sorting",
+    "slug": "compartments-protein-sorting",
+    "title": "Compartments Protein Sorting",
+    "order": 3
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "Proteins destined for secretion, the plasma membrane, or the endomembrane system enter the pathway at the endoplasmic reticulum. Targeting is initiated by an **ER signal peptide** — a usually N-terminal, hydrophobic sequence that emerges from the ribosome first. A cytosolic ribonucleoprotein, the **signal-recognition particle (SRP)**, binds the signal peptide and the ribosome, pauses translation, and delivers the whole ribosome–nascent-chain complex to the **SRP receptor** on the ER membrane. The complex is then handed off to the **Sec61 translocon**, a protein-conducting channel through which the growing polypeptide is threaded into (or across) the ER membrane **as it is synthesized** — co-translational translocation. The signal peptide is usually cleaved by signal peptidase in the lumen, completing the protein's commitment to the secretory pathway.",
+    "whyItMatters": "ER targeting is the entry gate to the entire secretory pathway — every secreted protein (hormones, antibodies, digestive enzymes, collagen) and every plasma-membrane receptor depends on it. Defects in SRP, the SRP receptor, or Sec61 cause severe disease, including congenital disorders of secretion and some forms of neutropenia (SRP54 mutations). The signal peptide also underpins biotechnology: recombinant therapeutic proteins are engineered with signal peptides to drive their secretion from production cells.",
+    "learningObjectives": "- Describe the structure of an ER signal peptide.\n- Explain how the signal-recognition particle (SRP) couples translation to translocation.\n- Trace the handoff from SRP to the SRP receptor and the Sec61 translocon.\n- State why ER translocation is co-translational and how it is powered.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nProteins destined for secretion, the plasma membrane, or the endomembrane system enter the pathway at the endoplasmic reticulum. Targeting is initiated by an **ER signal peptide** — a usually N-terminal, hydrophobic sequence that emerges from the ribosome first. A cytosolic ribonucleoprotein, the **signal-recognition particle (SRP)**, binds the signal peptide and the ribosome, pauses translation, and delivers the whole ribosome–nascent-chain complex to the **SRP receptor** on the ER membrane. The complex is then handed off to the **Sec61 translocon**, a protein-conducting channel through which the growing polypeptide is threaded into (or across) the ER membrane **as it is synthesized** — co-translational translocation. The signal peptide is usually cleaved by signal peptidase in the lumen, completing the protein's commitment to the secretory pathway.\n\n### Key Components\n\n- **ER signal peptide:** ~15–30 residues; a positively charged N-terminal region, a central hydrophobic core of 8–12 residues, and a polar cleavage region recognized by signal peptidase.\n- **Signal-recognition particle (SRP):** a ribonucleoprotein of six proteins plus a 7SL RNA; binds the signal peptide and the ribosome and arrests elongation.\n- **SRP receptor (SR):** an ER-membrane heterodimer (SRα and SRβ), both GTPases, that docks SRP and releases the nascent chain to the translocon.\n- **Sec61 translocon:** a conserved αβγ channel; the α subunit forms a central aqueous pore with a lateral gate that opens into the lipid bilayer.\n- **Signal peptidase:** a lumenal protease that cleaves the signal peptide after translocation.\n\n### Mechanism / How It Works\n\n1. As the N-terminal signal peptide emerges from the ribosome exit tunnel, **SRP** binds it (and the ribosome), causing a pause in translation (elongation arrest).\n2. SRP delivers the ribosome–nascent-chain–SRP complex to the ER membrane by binding the **SRP receptor**.\n3. GTP binding/hydrolysis by SRP and the SRP receptor releases SRP, and the ribosome is docked onto the **Sec61 translocon**, with the signal peptide inserted into the channel.\n4. Translation resumes; the elongating polypeptide is threaded through the Sec61 pore directly into the ER lumen.\n5. The **signal peptide is cleaved** by signal peptidase; the mature protein continues to elongate and fold in the lumen.\n6. SRP and its receptor dissociate and are recycled for another round.\n\nThe key feature is that translocation is **co-translational**: the protein is pushed across the membrane by the energy of protein synthesis itself, before it can fold into its final cytosolic shape.\n\n### Energy and Directionality\n\nER targeting consumes **GTP** at two checkpoints — SRP and the SRP receptor (both are GTPases) — to ensure accurate targeting and to release SRP in an ordered handoff. Translocation itself is driven primarily by the **energy of translation elongation** (the ribosome pushes the growing chain through the pore). In the lumen, the chaperone **BiP** (an Hsp70 ATPase) binds the emerging chain and, by ATP-dependent conformational cycles, can act as a ratchet to bias forward movement. No membrane potential is required, in sharp contrast to mitochondrial import.\n\n### Experimental Evidence / Technique\n\nThe ER signal hypothesis was proposed by Günter Blobel and David Sabatini (1971) and confirmed by **cell-free reconstitution**: translating secretory proteins in a test tube with added ER-derived microsomes produced signal-peptide cleavage and lumenal sequestration — the signal and machinery were necessary and sufficient (Blobel's 1999 Nobel Prize). **Crosslinking experiments** showed SRP binds the signal peptide in the ribosome tunnel, and **cryo-electron microscopy** of ribosome–Sec61 complexes revealed the channel and its lateral gate directly. Mutating the hydrophobic core of the signal peptide abolishes targeting.",
+    "howItWorks": "1. As the N-terminal signal peptide emerges from the ribosome exit tunnel, **SRP** binds it (and the ribosome), causing a pause in translation (elongation arrest).\n2. SRP delivers the ribosome–nascent-chain–SRP complex to the ER membrane by binding the **SRP receptor**.\n3. GTP binding/hydrolysis by SRP and the SRP receptor releases SRP, and the ribosome is docked onto the **Sec61 translocon**, with the signal peptide inserted into the channel.\n4. Translation resumes; the elongating polypeptide is threaded through the Sec61 pore directly into the ER lumen.\n5. The **signal peptide is cleaved** by signal peptidase; the mature protein continues to elongate and fold in the lumen.\n6. SRP and its receptor dissociate and are recycled for another round.\n\nThe key feature is that translocation is **co-translational**: the protein is pushed across the membrane by the energy of protein synthesis itself, before it can fold into its final cytosolic shape.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- ER signal peptide: N-terminal, hydrophobic core (8–12 aa), positively charged N-region, cleaved by signal peptidase.\n- SRP = ribonucleoprotein (6 proteins + 7SL RNA); binds signal peptide and pauses translation.\n- SRP receptor = ER-membrane GTPase heterodimer; hands ribosome to Sec61.\n- Sec61 = αβγ translocon with an aqueous pore and a lateral gate.\n- Translocation is **co-translational** — driven by translation elongation, not a membrane potential.\n- GTP is used by SRP and SRP receptor; ATP by lumenal BiP.\n- Contrast: ER signal peptide (cleaved, hydrophobic, SRP) ≠ nuclear NLS (retained, basic, importin).",
+    "commonConfusions": "- **\"The signal peptide is at the C-terminus.\"** — The ER signal peptide is usually **N-terminal**; it is the first thing to emerge from the ribosome.\n- **\"The NLS and the ER signal peptide are the same concept.\"** — No: the NLS is internal, basic, and retained for nuclear import; the ER signal peptide is N-terminal, hydrophobic, and cleaved for ER translocation.\n- **\"Translocation happens after translation finishes.\"** — ER translocation is **co-translational** (post-translational import is the mitochondrial/chloroplast mechanism, and even there requires unfolding).\n- **\"A membrane potential drives ER translocation.\"** — There is no potential requirement; mitochondrial import is the one that requires Δψ.\n- **\"SRP is a pure protein.\"** — SRP is a **ribonucleoprotein**; its 7SL RNA is essential for function.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a long noodle being squeezed out of a pasta machine (the ribosome). The very first part of the noodle has a special sticky tag (the signal peptide). As soon as the tag pokes out, a helper hand (SRP) grabs it and pauses the machine. The helper carries the whole machine over to a door in the kitchen wall (the ER) and docks it onto a slot (Sec61). The machine starts again, and now the noodle is threaded straight through the slot into the next room as it's made — it never gets a chance to curl up in the kitchen. A pair of scissors (signal peptidase) snips off the tag once the noodle is safely through. (The analogy hides the GTP \"toll\" paid at the docking step and the BiP ratchet that helps pull the chain through.)",
+    "quickReview": "- Signal peptide → SRP (pauses translation) → SRP receptor (GTP) → Sec61 → co-translational translocation.\n- Signal peptidase cleaves the signal peptide in the lumen.\n- Energy: GTP (targeting) + translation elongation + BiP ATPase; no membrane potential.\n- SRP/SR/Sec61 are necessary and sufficient (cell-free reconstitution).\n- The ER is the entry point for all secreted and membrane proteins.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Endoplasmic Reticulum.\" https://www.ncbi.nlm.nih.gov/books/NBK26841/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26841/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Intracellular Compartments and Protein Sorting.\" https://www.ncbi.nlm.nih.gov/books/NBK21053/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21053/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"4.4 The Endomembrane System and Proteins.\" https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+        "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/03-compartments-protein-sorting/07-er-targeting.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

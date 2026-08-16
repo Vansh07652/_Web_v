@@ -1,0 +1,41 @@
+{
+  "id": "physics-1-fluid-dynamics-0002",
+  "subject": "physics-1",
+  "lesson": "fluid-dynamics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For volume flow rate and the continuity equation, use $Q = A v$ in a continuity flow rate model. The first quantity is 1.90 m^2 and the second is 3.00 m/s. What is the volume flow rate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$2.85\\ \\text{m^3/s}$"
+    },
+    {
+      "id": "b",
+      "text": "$11.40\\ \\text{m^3/s}$"
+    },
+    {
+      "id": "c",
+      "text": "$5.70\\ \\text{m^3/s}$"
+    },
+    {
+      "id": "d",
+      "text": "$8.70\\ \\text{m^3/s}$"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Using $Q = A v$ gives 1.90 m^2 times 3.00 m/s = $5.70\\ \\text{m^3/s}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to m^3/s, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "volume",
+    "flow",
+    "rate",
+    "continuity",
+    "equation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-f069f3be0b6a57ec",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

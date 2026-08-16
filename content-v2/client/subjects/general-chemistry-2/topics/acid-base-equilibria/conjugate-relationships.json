@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:acid-base-equilibria:conjugate-relationships",
+  "slug": "conjugate-relationships",
+  "title": "Conjugate Acid–Base Relationships and Ka × Kb = Kw",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:acid-base-equilibria",
+    "slug": "acid-base-equilibria",
+    "title": "Acid Base Equilibria",
+    "order": 5
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "Every acid, once it donates a proton, becomes a conjugate base; every base, once it accepts one, becomes a conjugate acid. The two are locked together by the proton they exchange, and their strengths are inversely linked through water's ion-product constant: **Ka × Kb = Kw = 1.0 × 10⁻¹⁴** at 25 °C. This single equation is the bridge between the \"acid world\" and the \"base world,\" letting you convert the Ka of any acid into the Kb of its conjugate base and reason about which ions hydrolyze water.",
+    "whyItMatters": "This relationship turns one table of constants into two. Given only Ka values, you can instantly find the Kb of every conjugate base — which is exactly what you need to explain why NaF, NaCN, and NaCH₃COO make water basic, or why NH₄Cl makes it acidic. It is also the conceptual engine behind buffer design, where a weak acid and its conjugate base coexist in equilibrium.",
+    "learningObjectives": "- Explain what makes two species a conjugate acid–base pair.\n- Derive and use Ka × Kb = Kw to interconvert Ka and Kb.\n- Predict relative strength within a conjugate pair.\n- Determine whether a given ion will act as an acid or a base in water.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nEvery acid, once it donates a proton, becomes a conjugate base; every base, once it accepts one, becomes a conjugate acid. The two are locked together by the proton they exchange, and their strengths are inversely linked through water's ion-product constant: **Ka × Kb = Kw = 1.0 × 10⁻¹⁴** at 25 °C. This single equation is the bridge between the \"acid world\" and the \"base world,\" letting you convert the Ka of any acid into the Kb of its conjugate base and reason about which ions hydrolyze water.\n\n### Key Ideas\n\n- **Conjugate pair:** two species differing by exactly one H⁺ (HCl/Cl⁻, NH₄⁺/NH₃, H₂O/OH⁻).\n- **Inverse strength:** the stronger an acid, the weaker its conjugate base (and vice versa).\n- **Ka × Kb = Kw** holds for *any* conjugate pair at a given temperature (25 °C: 1.0 × 10⁻¹⁴).\n- **Log form:** pKa + pKb = pKw = 14.00 at 25 °C.\n- **Amphiprotic species** (H₂O, HCO₃⁻, H₂PO₄⁻, HSO₄⁻) can donate or accept; which dominates is set by the relative sizes of their Ka and Kb.\n\n### Equations and Variables\n\n- Conjugate pair: HA / A⁻ (differ by one proton)\n- Ka(HA) × Kb(A⁻) = Kw\n- Kb(A⁻) = Kw / Ka(HA)\n- Ka(BH⁺) = Kw / Kb(B)\n- pKa + pKb = 14.00 (25 °C)\n\n### How It Works\n\n1. Identify the conjugate pair: remove one H⁺ from an acid to get its conjugate base (and subtract one from the charge); add one H⁺ to a base to get its conjugate acid (and add one to the charge).\n2. Multiply the two equilibrium constants: Ka for the acid ionization and Kb for the reverse reaction (the conjugate base grabbing a proton from water). The H₃O⁺ and OH⁻ they produce multiply to give Kw, and everything else cancels.\n3. Use Ka × Kb = Kw to find whichever constant you're missing. For example, acetic acid (Ka = 1.8 × 10⁻⁵) has an acetate conjugate base with Kb = 1.0 × 10⁻¹⁴ / 1.8 × 10⁻⁵ = 5.6 × 10⁻¹⁰.\n4. To predict whether an ion is acidic or basic in water, compare its Ka and Kb: if Ka > Kb it's a net acid; if Kb > Ka it's a net base.\n\n### Worked Example\n\n**(a) Find Kb for CN⁻. (b) Find Ka for NH₄⁺.**\n\nGiven Ka(HCN) = 6.2 × 10⁻¹⁰ and Kb(NH₃) = 1.8 × 10⁻⁵.\n\n(a) CN⁻ is the conjugate base of HCN:\n\nKb(CN⁻) = Kw / Ka(HCN) = (1.0 × 10⁻¹⁴) / (6.2 × 10⁻¹⁰) = 1.6 × 10⁻⁵\n\n(b) NH₄⁺ is the conjugate acid of NH₃:\n\nKa(NH₄⁺) = Kw / Kb(NH₃) = (1.0 × 10⁻¹⁴) / (1.8 × 10⁻⁵) = 5.6 × 10⁻¹⁰\n\nNotice the symmetry: HCN (Ka 6.2 × 10⁻¹⁰) and NH₄⁺ (Ka 5.6 × 10⁻¹⁰) are comparably weak acids, and their conjugate bases CN⁻ (Kb 1.6 × 10⁻⁵) and NH₃ (Kb 1.8 × 10⁻⁵) are comparably weak bases.",
+    "howItWorks": "1. Identify the conjugate pair: remove one H⁺ from an acid to get its conjugate base (and subtract one from the charge); add one H⁺ to a base to get its conjugate acid (and add one to the charge).\n2. Multiply the two equilibrium constants: Ka for the acid ionization and Kb for the reverse reaction (the conjugate base grabbing a proton from water). The H₃O⁺ and OH⁻ they produce multiply to give Kw, and everything else cancels.\n3. Use Ka × Kb = Kw to find whichever constant you're missing. For example, acetic acid (Ka = 1.8 × 10⁻⁵) has an acetate conjugate base with Kb = 1.0 × 10⁻¹⁴ / 1.8 × 10⁻⁵ = 5.6 × 10⁻¹⁰.\n4. To predict whether an ion is acidic or basic in water, compare its Ka and Kb: if Ka > Kb it's a net acid; if Kb > Ka it's a net base.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Conjugate pairs differ by one proton: HA ↔ A⁻ + H⁺.\n- Ka × Kb = Kw = 1.0 × 10⁻¹⁴ (25 °C); pKa + pKb = 14.00.\n- Strong acid → negligible conjugate base; weak acid → weak conjugate base (Kb = Kw/Ka).\n- To convert: Kb = Kw/Ka and Ka = Kw/Kb.\n- An ion's net behavior is set by the larger of its Ka and Kb.",
+    "commonConfusions": "- **\"Conjugate base of a weak acid is strong.\"** — It is weak too, just with Kb = Kw/Ka; only the conjugate base of a *strong* acid is truly negligible.\n- **\"Ka × Kb = Kw applies to any two species.\"** — It applies only to a *conjugate pair*, not to unrelated acids and bases.\n- **\"Adding H⁺ doesn't change the charge.\"** — It does: adding a proton raises the charge by +1, so an acid and its conjugate base differ by one charge unit.\n- **\"HCO₃⁻ is always a base.\"** — It is amphiprotic; in pure water its Kb (≈2.3 × 10⁻⁸) exceeds its Ka (≈4.7 × 10⁻¹¹), so it makes a basic solution, but against a strong acid it acts as a base.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nAn acid and its conjugate base are two ends of a see-saw. Push one end down (a very strong acid) and the other end flies up into weakness (a nearly useless conjugate base). The bolt holding the see-saw together is Kw — so if you know how strong one end is, you automatically know the other end's strength by dividing 10⁻¹⁴. (The see-saw hides that \"strength\" is really an equilibrium constant, not a single force.)",
+    "quickReview": "- Conjugate pair = differs by one H⁺ (and one charge unit).\n- Ka × Kb = Kw = 1.0 × 10⁻¹⁴; pKa + pKb = 14.00.\n- Kb(A⁻) = Kw/Ka(HA); Ka(BH⁺) = Kw/Kb(B).\n- Stronger acid ⇒ weaker conjugate base.\n- Compare Ka vs Kb to decide net acid/base character of an amphiprotic ion.",
+    "workedExamples": "### Worked Example\n\n**(a) Find Kb for CN⁻. (b) Find Ka for NH₄⁺.**\n\nGiven Ka(HCN) = 6.2 × 10⁻¹⁰ and Kb(NH₃) = 1.8 × 10⁻⁵.\n\n(a) CN⁻ is the conjugate base of HCN:\n\nKb(CN⁻) = Kw / Ka(HCN) = (1.0 × 10⁻¹⁴) / (6.2 × 10⁻¹⁰) = 1.6 × 10⁻⁵\n\n(b) NH₄⁺ is the conjugate acid of NH₃:\n\nKa(NH₄⁺) = Kw / Kb(NH₃) = (1.0 × 10⁻¹⁴) / (1.8 × 10⁻⁵) = 5.6 × 10⁻¹⁰\n\nNotice the symmetry: HCN (Ka 6.2 × 10⁻¹⁰) and NH₄⁺ (Ka 5.6 × 10⁻¹⁰) are comparably weak acids, and their conjugate bases CN⁻ (Kb 1.6 × 10⁻⁵) and NH₃ (Kb 1.8 × 10⁻⁵) are comparably weak bases.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.3 Relative Strengths of Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.1 Brønsted-Lowry Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases"
+      },
+      {
+        "text": "Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/14-acid-base-equilibria/07-conjugate-relationships.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

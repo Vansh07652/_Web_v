@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-1:structure-and-bonding:valence-bond-theory",
+  "slug": "valence-bond-theory",
+  "title": "Valence Bond Theory",
+  "subject": {
+    "id": "subject:general-chemistry-1",
+    "slug": "general-chemistry-1",
+    "title": "General Chemistry I"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-1:structure-and-bonding",
+    "slug": "structure-and-bonding",
+    "title": "Structure and Bonding",
+    "order": 6
+  },
+  "order": 23,
+  "status": "final",
+  "sections": {
+    "overview": "Valence bond (VB) theory describes a covalent bond as the overlap of atomic orbitals, each containing one electron, so that the two electrons are shared in the region of overlap. To explain the shapes VSEPR predicts, orbitals \"mix\" into hybrid orbitals (sp, sp², sp³, sp³d, sp³d²) that point in the required directions. A single bond is one sigma (σ) bond; the extra bonds in double and triple bonds are pi (π) bonds. When π electrons spread over more than two atoms (as in resonance), they are delocalized.",
+    "whyItMatters": "Delocalized π systems are the basis of many drugs and biological pigments. The extended π systems in molecules such as beta-carotene (a vitamin A precursor) and the porphyrin ring of heme (which binds oxygen in hemoglobin) absorb visible light, giving color and enabling light-driven chemistry. Understanding σ versus π bonding also explains why double bonds (alkenes) are more chemically reactive than single bonds — a key distinction in drug metabolism.",
+    "learningObjectives": "1. Explain how covalent bonds form by overlap of atomic orbitals.\n2. Identify the hybridization (sp, sp², sp³, sp³d, sp³d²) of a central atom from its electron domains.\n3. Distinguish sigma (σ) and pi (π) bonds and count them in a molecule.\n4. Define delocalized electrons and connect them to resonance.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Orbital overlap | Region where two atomic orbitals merge to share electrons | Where the covalent bond forms |\n| Hybridization | Mixing of an atom's orbitals into new, directionally shaped orbitals | Explains observed bond angles and shapes |\n| sp, sp², sp³ | Hybrid sets from one s plus one/two/three p orbitals | Match 2, 3, and 4 electron domains |\n| sp³d, sp³d² | Hybrid sets that include d orbitals | Match 5 and 6 electron domains |\n| Sigma (σ) bond | Head-on overlap along the bond axis | The single bond present in every bond type |\n| Pi (π) bond | Side-to-side overlap above/below the axis | The extra bonds in double and triple bonds |\n| Delocalized electrons | Electrons spread over three or more atoms | Stabilize resonance structures (benzene) |",
+    "collegeNotes": "### 1. Orbital Overlap and Sigma/Pi Bonds\n\nA covalent bond forms when two half-filled orbitals overlap and the electron pair occupies the overlap region. End-to-end (head-on) overlap gives a sigma (σ) bond, which is cylindrically symmetric about the bond axis. Side-to-side overlap of two p orbitals gives a pi (π) bond, with electron density above and below the axis. Every single bond is one σ bond; a double bond is one σ plus one π; a triple bond is one σ plus two π.\n\n### 2. Hybridization\n\nHybrid orbitals are combinations of atomic orbitals on the same atom. The type depends on the number of electron domains (steric number):\n\n- 2 domains → sp (two orbitals, 180°)\n- 3 domains → sp² (three orbitals, 120°)\n- 4 domains → sp³ (four orbitals, 109.5°)\n- 5 domains → sp³d (five orbitals, trigonal bipyramidal)\n- 6 domains → sp³d² (six orbitals, octahedral)\n\nLone pairs also occupy hybrid orbitals, so count all domains. Unhybridized p orbitals left over form π bonds.\n\n### 3. Delocalized Electrons\n\nIn molecules with resonance (benzene, nitrate, carbonate), the π electrons are not confined between two atoms but spread (\"delocalized\") over three or more atoms. VB theory handles this with resonance hybrids; full delocalization is more naturally described by molecular orbital theory. Delocalization lowers energy and stabilizes the molecule.",
+    "howItWorks": "1. Draw the Lewis structure and determine the central atom's electron domains (steric number).\n2. Assign hybridization: 2→sp, 3→sp², 4→sp³, 5→sp³d, 6→sp³d².\n3. Form σ bonds by overlap of hybrid orbitals with orbitals on neighboring atoms.\n4. Use leftover unhybridized p orbitals to form π bonds for double and triple bonds.\n5. Identify delocalized π systems when resonance structures exist.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Count ALL electron domains (bonds plus lone pairs) to find hybridization.\n- **High yield:** Single = 1 σ; double = 1 σ + 1 π; triple = 1 σ + 2 π.\n- A σ bond is stronger than a π bond; π bonds are weaker and more reactive.\n- **High yield:** sp = linear (180°), sp² = trigonal planar (120°), sp³ = tetrahedral (109.5°).\n- Lone pairs occupy hybrid orbitals; they still count toward hybridization.\n- Delocalized electrons (benzene, CO₃²⁻, NO₃⁻) cannot be represented by a single correct Lewis structure.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Hybridization | Molecular shape | Hybridization describes the orbitals; VSEPR names the shape — they match but are different ideas |\n| Sigma bond | Pi bond | σ is head-on and stronger; π is side-to-side and weaker |\n| Localized electrons | Delocalized electrons | Localized stay between two atoms; delocalized spread over three or more |\n| sp³ (4 domains) | sp² (3 domains) | The count of domains, not the number of bonds, sets hybridization |",
+    "memoryAids": "\"Same Number of Domains\" — the number of electron domains equals the number of hybrid orbitals and the number of letters in the hybrid name (sp = 2, sp² = 3, sp³ = 4, sp³d = 5, sp³d² = 6).",
+    "eli10": "Think of two hands overlapping to hold a rope: each hand contributes a grip, and the rope is held where the grips overlap. A covalent bond works the same way — two orbitals (one from each atom) overlap and share a pair of electrons in the overlapping region.\n\nHybridization is like mixing different ingredients to get the right shape of \"grip\": instead of using the atom's original s and p orbitals (which point in awkward directions), the atom blends them into new orbitals that point exactly where bonds need to go. Where this stops being exact is that orbitals are not literal hands or ropes, and VB theory treats electrons as localized between two atoms — which it cannot do for delocalized systems; those need molecular orbital theory.\n\n### Simple Example\n\nMethane (CH₄) needs four equal bonds pointing to tetrahedral corners. Carbon mixes its one 2s and three 2p orbitals into four identical sp³ hybrid orbitals, each pointing to a corner; each overlaps a hydrogen 1s orbital to form four σ bonds.",
+    "quickReview": "### Topic Recap\n\nVB theory builds bonds from overlapping orbitals and uses hybridization to match VSEPR shapes. Hybridization is set by electron-domain count; σ bonds form by head-on overlap and π bonds by side-to-side overlap; resonance spreads π electrons over multiple atoms (delocalization).\n\n### Knowledge Check\n\n1. What is the hybridization of the carbon in CH₄?\n2. How many σ and π bonds are in a carbon–carbon double bond?\n3. What hybridization does a central atom with three electron domains have, and what is its shape?\n4. Why are the π electrons in benzene described as delocalized?\n5. What hybridization would a central atom with five electron domains (e.g., PCl₅) have?\n\n### Answers and Rationales\n\n1. sp³ — four electron domains (four C–H bonds, no lone pairs) mix one s and three p orbitals.\n2. One σ bond and one π bond.\n3. sp² hybridization, trigonal planar shape (120°).\n4. Benzene has two equivalent resonance structures; the six π electrons spread evenly over all six carbons rather than alternating single and double bonds.\n5. sp³d — five domains require five hybrid orbitals (trigonal bipyramidal).",
+    "workedExamples": "Counting σ and π bonds: single bond = 1 σ; double bond = 1 σ + 1 π; triple bond = 1 σ + 2 π.\n\nExample: In ethene (C₂H₄), each carbon is sp². There are 4 C–H σ bonds plus 1 C–C σ bond = 5 σ bonds, plus 1 C–C π bond (from the leftover p orbitals).\n\nExample: In acetylene (C₂H₂), each carbon is sp. There are 2 C–H σ bonds plus 1 C–C σ bond = 3 σ bonds and 2 π bonds (the triple bond contributes 1 σ + 2 π).",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 2
+  },
+  "aliases": [
+    {
+      "value": "valence-bond-theory",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "23-valence-bond-theory",
+      "kind": "source_file_stem",
+      "source_id": "need-review-general-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-general-chemistry-i",
+    "sourceFile": "general-chemistry-i-study-notes/docs/general-chemistry-i/23-valence-bond-theory.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

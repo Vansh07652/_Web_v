@@ -1,0 +1,237 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:physics-1",
+    "slug": "physics-1",
+    "title": "Physics I",
+    "aliases": [
+      {
+        "value": "physics-1",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "phys1",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "PHYS1",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "physics i",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "physics_1",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "physics1",
+        "kind": "current_web_slug",
+        "source_id": "current_web"
+      }
+    ],
+    "status": "final",
+    "category": "pre-health-core"
+  },
+  "units": [
+    {
+      "id": "unit:physics-1:course-topics",
+      "slug": "course-topics",
+      "title": "Course Topics",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "course-topics",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "physics-1",
+          "kind": "source_course_directory",
+          "source_id": "physics_eli10"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:physics-1:course-topics:kinematics",
+          "slug": "kinematics",
+          "title": "Kinematics — Motion in 1D and 2D",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-1/topics/course-topics/kinematics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:physics-1:course-topics:dynamics",
+          "slug": "dynamics",
+          "title": "Dynamics — Newton's Laws of Motion",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-1/topics/course-topics/dynamics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:physics-1:course-topics:work-energy-power",
+          "slug": "work-energy-power",
+          "title": "Work, Energy, and Power",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-1/topics/course-topics/work-energy-power.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:physics-1:course-topics:momentum-collisions",
+          "slug": "momentum-collisions",
+          "title": "Linear Momentum and Collisions",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-1/topics/course-topics/momentum-collisions.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:physics-1:course-topics:rotational-motion",
+          "slug": "rotational-motion",
+          "title": "Rotational Motion and Rigid Body Dynamics",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-1/topics/course-topics/rotational-motion.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:physics-1:course-topics:equilibrium-elasticity-gravitation",
+          "slug": "equilibrium-elasticity-gravitation",
+          "title": "Static Equilibrium, Elasticity, and Gravitation",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-1/topics/course-topics/equilibrium-elasticity-gravitation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:physics-1:course-topics:fluid-mechanics",
+          "slug": "fluid-mechanics",
+          "title": "Fluid Mechanics",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-1/topics/course-topics/fluid-mechanics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:physics-1:course-topics:oscillations-waves",
+          "slug": "oscillations-waves",
+          "title": "Oscillations and Mechanical Waves",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-1/topics/course-topics/oscillations-waves.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:physics-1:course-topics:thermodynamics",
+          "slug": "thermodynamics",
+          "title": "Thermodynamics",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-1/topics/course-topics/thermodynamics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 1,
+    "topicCount": 9,
+    "teachingTopicCount": 9,
+    "eli10TopicCount": 9,
+    "highYieldTopicCount": 0,
+    "referencedTopicCount": 9,
+    "exactOrMappedQuestionCount": 0,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 0,
+    "citationReviewRequiredCount": 0
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

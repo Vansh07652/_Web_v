@@ -1,0 +1,317 @@
+/* ---------------------------------------------------------------------------
+   Study dashboard
+   ---------------------------------------------------------------------------
+   Card-grid dashboard modelled on the reference layout: a wide "continue"
+   panel with artwork, stat cards with ring gauges beside it, and a course
+   grid below. Colour comes entirely from the Editorial Ink tokens in
+   main.css — this file adds layout and the few shapes the tokens do not
+   already describe.
+
+   Mobile first. The grid is a single column until 60rem, because the audience
+   is mostly on phones and a four-across card row is unreadable there.
+   --------------------------------------------------------------------------- */
+
+.sc-dash {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.sc-dash-head { display: flex; flex-direction: column; gap: var(--space-2); }
+
+.sc-dash-greeting {
+  font-family: var(--font-display);
+  font-size: var(--text-3xl);
+  line-height: var(--leading-display);
+  margin: 0;
+  color: var(--ink);
+}
+
+.sc-dash-sub {
+  margin: 0;
+  max-inline-size: var(--measure);
+  color: var(--ink-muted);
+  font-size: var(--text-md);
+}
+
+.sc-dash-grid {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 60rem) {
+  .sc-dash-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .sc-continue { grid-column: span 2; }
+  /* Row 2 is practice + courses side by side. Spanning the course panel to the
+     full width instead left the practice card alone on its own row with two
+     empty columns beside it. */
+  .sc-systems { grid-column: span 2; }
+}
+
+/* --- Continue panel ------------------------------------------------------ */
+
+.sc-continue {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-5);
+  padding: var(--space-6);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  /* The double rule is the Editorial Ink hero treatment. */
+  box-shadow: inset 0 0 0 1px var(--paper), inset 0 0 0 2px var(--line-soft);
+}
+
+.sc-continue-copy { display: flex; flex-direction: column; gap: var(--space-3); min-inline-size: 0; }
+
+.sc-eyebrow {
+  margin: 0;
+  font-size: var(--text-2xs);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--teal-600);
+}
+
+.sc-continue-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  line-height: var(--leading-display);
+  color: var(--ink);
+}
+
+.sc-continue-text { margin: 0; color: var(--ink-muted); max-inline-size: 44ch; }
+
+.sc-continue-position {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.sc-continue-actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-block-start: var(--space-2); }
+
+.sc-continue-art { flex: 0 0 auto; inline-size: min(15rem, 38%); color: var(--accent-teal); }
+.sc-continue-art svg { inline-size: 100%; block-size: auto; display: block; }
+
+@media (max-width: 48rem) {
+  .sc-continue { flex-direction: column; align-items: flex-start; padding: var(--space-5); }
+  .sc-continue-art { inline-size: 9rem; align-self: center; }
+}
+
+/* --- Hero artwork -------------------------------------------------------- */
+
+.sc-hero-art { overflow: visible; }
+.sc-hero-halo { fill: var(--teal-050); stroke: none; }
+.sc-hero-halo--inner { fill: var(--amber-050); }
+.sc-hero-art g { stroke: var(--accent-teal); }
+.sc-hero-heart { fill: var(--amber-050); stroke: var(--teal-700); }
+.sc-hero-pulse { stroke: var(--teal-600); fill: none; }
+
+/* --- Stat cards ---------------------------------------------------------- */
+
+.sc-stat-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-5);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.sc-stat-title {
+  margin: 0;
+  font-size: var(--text-2xs);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--ink-muted-strong);
+}
+
+.sc-stat-body { display: flex; align-items: center; gap: var(--space-4); flex-wrap: wrap; }
+
+.sc-stat-number {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-3xl);
+  line-height: 1;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.sc-stat-caption { margin: 0; color: var(--ink-muted); font-size: var(--text-sm); }
+
+.sc-stat-list { margin: 0; display: flex; flex-direction: column; gap: var(--space-2); }
+.sc-stat-list div { display: flex; flex-direction: column; }
+.sc-stat-list dt {
+  font-size: var(--text-2xs);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+.sc-stat-list dd { margin: 0; font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
+
+.sc-stat-foot {
+  margin-block-start: auto;
+  padding-block-start: var(--space-3);
+  border-block-start: 1px solid var(--line-soft);
+  font-size: var(--text-sm);
+  color: var(--ink-muted);
+}
+
+.sc-stat-link { font-weight: 600; }
+
+/* --- Ring gauge ---------------------------------------------------------- */
+
+.sc-ring { position: relative; inline-size: 6.5rem; block-size: 6.5rem; flex: 0 0 auto; }
+.sc-ring svg { inline-size: 100%; block-size: 100%; transform: rotate(-90deg); }
+.sc-ring-track { fill: none; stroke: var(--line-soft); stroke-width: 9; }
+.sc-ring-fill {
+  fill: none;
+  stroke: var(--teal-600);
+  stroke-width: 9;
+  stroke-linecap: round;
+  transition: stroke-dashoffset var(--duration) var(--ease);
+}
+.sc-ring-centre {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.sc-ring-centre strong {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  line-height: 1;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.sc-ring-centre span { font-size: var(--text-2xs); color: var(--ink-muted); }
+
+@media (prefers-reduced-motion: reduce) {
+  .sc-ring-fill { transition: none; }
+}
+
+/* --- Course grid --------------------------------------------------------- */
+
+.sc-systems {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.sc-systems-head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-3); }
+.sc-systems-head h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  color: var(--ink);
+}
+
+.sc-course-grid {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+  /* Equal-height cards, so a two-line course name does not make one card
+     taller than the rest of its row. */
+  grid-auto-rows: 1fr;
+}
+
+.sc-course-card {
+  display: grid;
+  grid-template-columns: 2.25rem 1fr;
+  grid-template-areas:
+    "art name"
+    "art stage"
+    "bar bar"
+    "count count";
+  align-items: center;
+  gap: var(--space-1) var(--space-3);
+  padding: var(--space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--canvas);
+  align-content: start;
+}
+
+.sc-course-art { grid-area: art; color: var(--accent-teal); inline-size: 2.25rem; }
+.sc-course-art svg { inline-size: 100%; block-size: auto; display: block; }
+.sc-art-accent { stroke: var(--teal-600); }
+
+.sc-course-name { grid-area: name; margin: 0; font-size: var(--text-base); font-weight: 600; overflow-wrap: anywhere; text-wrap: balance; }
+.sc-course-name a { color: var(--ink); }
+
+.sc-course-stage {
+  grid-area: stage;
+  margin: 0;
+  font-size: var(--text-2xs);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--ink-muted);
+}
+.sc-course-card--mastered .sc-course-stage { color: var(--success); }
+.sc-course-card--proficient .sc-course-stage { color: var(--teal-700); }
+.sc-course-card--developing .sc-course-stage { color: var(--warning); }
+
+.sc-course-bar {
+  grid-area: bar;
+  margin-block-start: var(--space-2);
+  block-size: .375rem;
+  background: var(--line-soft);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+}
+.sc-course-bar > span {
+  display: block;
+  block-size: 100%;
+  background: var(--teal-600);
+  border-radius: inherit;
+}
+.sc-course-card--mastered .sc-course-bar > span { background: var(--success); }
+.sc-course-card--developing .sc-course-bar > span { background: var(--amber-500); }
+
+.sc-course-count {
+  grid-area: count;
+  margin: 0;
+  font-size: var(--text-2xs);
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- Privacy note -------------------------------------------------------- */
+
+.sc-dash-privacy {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--ink-muted);
+}
+
+.sc-linklike {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: var(--teal-700);
+  text-decoration: underline;
+  text-underline-offset: .2em;
+  cursor: pointer;
+}
+.sc-linklike:hover { color: var(--accent-mint); }
+
+/* --- Small marks --------------------------------------------------------- */
+
+.sc-art { inline-size: 100%; block-size: auto; display: block; }

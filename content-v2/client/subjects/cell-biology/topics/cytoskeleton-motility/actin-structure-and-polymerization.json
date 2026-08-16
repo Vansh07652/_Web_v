@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cytoskeleton-motility:actin-structure-and-polymerization",
+  "slug": "actin-structure-and-polymerization",
+  "title": "Actin Structure and Polymerization",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cytoskeleton-motility",
+    "slug": "cytoskeleton-motility",
+    "title": "Cytoskeleton Motility",
+    "order": 5
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "Actin is the most abundant protein in many eukaryotic cells and the building block of microfilaments — thin, flexible polymers essential for cell shape, motility, division, and intracellular transport. Globular actin monomers (G-actin) polymerize head-to-tail into a helical filament (F-actin) with structural polarity: a fast-growing **barbed (plus) end** and a slow-growing **pointed (minus) end**. Polymerization is coupled to ATP hydrolysis, which creates functional differences between the two ends and drives the dynamic turnover of the cytoskeleton.",
+    "whyItMatters": "Actin polymerization underlies cell shape (microvilli, cortex), cell crawling (lamellipodia/filopodia), cytokinesis (contractile ring), endocytosis, and intracellular transport. The same filament dynamics are co-opted by pathogens (e.g. *Listeria* polymerizes host actin to propel itself) and disrupted in diseases of migration (cancer metastasis) and muscle function. Understanding actin assembly is the foundation for the entire cytoskeleton.",
+    "learningObjectives": "- Describe the structure of the actin monomer and the actin filament.\n- Explain the polarity of actin filaments (barbed vs. pointed ends).\n- Describe the three phases of actin polymerization (nucleation, elongation, steady state).\n- Explain the role of ATP in actin assembly.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nActin is the most abundant protein in many eukaryotic cells and the building block of microfilaments — thin, flexible polymers essential for cell shape, motility, division, and intracellular transport. Globular actin monomers (G-actin) polymerize head-to-tail into a helical filament (F-actin) with structural polarity: a fast-growing **barbed (plus) end** and a slow-growing **pointed (minus) end**. Polymerization is coupled to ATP hydrolysis, which creates functional differences between the two ends and drives the dynamic turnover of the cytoskeleton.\n\n### Key Components\n\n- **G-actin (globular actin):** the 42-kDa monomer with a bound nucleotide (ATP or ADP) and a divalent cation (Mg²⁺).\n- **F-actin (filamentous actin):** the helical polymer of G-actin, ~7 nm in diameter.\n- **Barbed end (plus end):** the fast-growing end where ATP-actin is preferentially added.\n- **Pointed end (minus end):** the slow-growing end where ADP-actin is preferentially lost.\n- **ATP/ADP:** nucleotide bound to actin that is hydrolyzed after polymerization.\n- **Critical concentration (Cc):** the monomer concentration at which a given end neither grows nor shrinks.\n- **Nucleation:** the rate-limiting initial step of forming a stable actin trimer/oligomer.\n\n### Mechanism / How It Works\n\n1. **Nucleation (lag phase):** actin monomers must first associate into an unstable dimer, then a stable trimer (nucleus). This is slow and rate-limiting because dimers dissociate readily.\n2. **Elongation (growth phase):** once a nucleus exists, monomers add rapidly to both ends; addition is much faster at the barbed end, so filaments grow predominantly from the plus end.\n3. **Steady state (equilibrium):** the monomer concentration falls until net assembly balances disassembly. Because the two ends have different critical concentrations, at steady state the barbed end can still add subunits while the pointed end loses them (treadmilling — see the next note).\n4. **ATP hydrolysis:** ATP-actin adds to the filament; within the filament ATP is slowly hydrolyzed to ADP and the phosphate is released. The older, pointed-end region is therefore ADP-rich, while the freshly added barbed-end region is ATP-rich — an \"age gradient\" along the filament.\n\n### Energy and Directionality\n\nActin assembly is directional and nucleotide-coupled. ATP-actin binds the barbed end with high affinity; after incorporation, ATP hydrolysis is triggered, lowering the affinity of the subunit for its neighbors. This means the reaction is not a simple equilibrium — the continuous input of ATP-actin and hydrolysis of ATP drive the asymmetric growth (barbed-end addition) and turnover of the filament. Nucleotide hydrolysis does not drive polymerization itself but creates the difference in subunit stability between ends that makes treadmilling possible.\n\n### Experimental Evidence / Technique\n\n- **Electron microscopy (Huxley; Hanson & Lowy):** revealed the helical F-actin structure and, with myosin \"decoration,\" established filament polarity (arrowhead pattern pointing toward the pointed end).\n- **Fluorescence speckle / pyrene-actin assays:** pyrene-labeled actin fluoresces more when polymerized, allowing real-time measurement of nucleation, elongation, and steady state.\n- **Cytochalasin / latrunculin / phalloidin pharmacology:** cytochalasin caps the barbed end and latrunculin sequesters monomers (both block assembly), while phalloidin stabilizes filaments — tools that defined the roles of each end.\n- **Critical concentration experiments:** measuring the monomer concentration at which polymerization begins gave distinct Cc values for the barbed and pointed ends.",
+    "howItWorks": "1. **Nucleation (lag phase):** actin monomers must first associate into an unstable dimer, then a stable trimer (nucleus). This is slow and rate-limiting because dimers dissociate readily.\n2. **Elongation (growth phase):** once a nucleus exists, monomers add rapidly to both ends; addition is much faster at the barbed end, so filaments grow predominantly from the plus end.\n3. **Steady state (equilibrium):** the monomer concentration falls until net assembly balances disassembly. Because the two ends have different critical concentrations, at steady state the barbed end can still add subunits while the pointed end loses them (treadmilling — see the next note).\n4. **ATP hydrolysis:** ATP-actin adds to the filament; within the filament ATP is slowly hydrolyzed to ADP and the phosphate is released. The older, pointed-end region is therefore ADP-rich, while the freshly added barbed-end region is ATP-rich — an \"age gradient\" along the filament.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- G-actin (monomer, 42 kDa, binds ATP/ADP) polymerizes into F-actin (helical, ~7 nm).\n- Filament polarity: **barbed (+) end = fast-growing; pointed (−) end = slow-growing.**\n- Polymerization has three phases: **nucleation (lag), elongation (growth), steady state.**\n- **Nucleation is rate-limiting** — forming the stable trimer is slow.\n- **ATP-actin** adds to the barbed end; **ATP → ADP** hydrolysis occurs after incorporation.\n- The **critical concentration (Cc)** is lower at the barbed end than the pointed end.\n- **Phalloidin** stabilizes F-actin; **latrunculin/cytochalasin** inhibit assembly.\n- Myosin decoration creates an **arrowhead pattern** pointing toward the pointed end.",
+    "commonConfusions": "- **\"Actin filaments have no direction.\"** They are polarized: the barbed (plus) end grows faster than the pointed (minus) end — this asymmetry is central to all actin function.\n- **\"ATP hydrolysis powers polymerization.\"** Polymerization is powered by subunit binding; ATP hydrolysis occurs *after* addition and creates end asymmetry/treadmilling.\n- **\"Nucleation is fast.\"** Nucleation is the slow, rate-limiting step; cells use nucleators (Arp2/3, formins) to bypass it.\n- **\"G-actin and F-actin are different proteins.\"** They are the same protein in monomeric vs. polymeric form.\n- **\"Actin is only in muscle.\"** Actin is ubiquitous — it forms the cell cortex, drives crawling, endocytosis, and division in every animal cell.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine Lego bricks that snap together only one way — every brick has a \"front\" and a \"back,\" so the tower has a fast-growing top and a slow-growing bottom. Building a tower from scratch is hard: you need three bricks to click together before the tower is stable enough to grow quickly (that's nucleation). Each brick carries a little battery (ATP) that runs down after the brick is placed, making the bottom of the tower weaker and more likely to shed bricks. (The analogy omits that real actin is a helix, not a straight tower, and that the \"battery\" change is ATP hydrolysis that happens *after* the brick is added.)",
+    "quickReview": "- G-actin → F-actin (helical polymer) with barbed (+) and pointed (−) ends.\n- Three phases: nucleation → elongation → steady state.\n- ATP-actin adds at the barbed end; ATP is hydrolyzed to ADP within the filament.\n- Nucleation is rate-limiting; Cc differs between the two ends.\n- Actin powers shape, motility, division, and transport; targeted by phalloidin/latrunculin/cytochalasin.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, Johnson A, Lewis J, et al. \"The Self-Assembly and Dynamic Structure of Cytoskeletal Filaments.\" *Molecular Biology of the Cell.* 4th edition. Garland Science; 2002. https://www.ncbi.nlm.nih.gov/books/NBK26862/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26862/"
+      },
+      {
+        "text": "Cooper GM. \"Structure and Organization of Actin Filaments.\" *The Cell: A Molecular Approach.* 2nd edition. Sinauer Associates; 2000. https://www.ncbi.nlm.nih.gov/books/NBK9908/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9908/"
+      },
+      {
+        "text": "Clark MA, Choi J, Douglas M. \"4.5 The Cytoskeleton.\" *Biology 2e.* OpenStax. https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+        "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/05-cytoskeleton-motility/01-actin-structure-and-polymerization.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

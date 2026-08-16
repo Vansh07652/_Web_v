@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:vesicular-traffic:autophagy",
+  "slug": "autophagy",
+  "title": "Autophagy",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:vesicular-traffic",
+    "slug": "vesicular-traffic",
+    "title": "Vesicular Traffic",
+    "order": 4
+  },
+  "order": 15,
+  "status": "final",
+  "sections": {
+    "overview": "Autophagy (\"self-eating\") is the process by which cells degrade their own cytoplasmic components — damaged organelles, protein aggregates, and bulk cytoplasm — by enclosing them in a double-membrane vesicle called the **autophagosome**, which then fuses with a lysosome. Unlike the ubiquitin-proteasome system, which degrades individual unfolded proteins, autophagy handles entire organelles and large structures, making it the cell's bulk-recycling and quality-control pathway. It is strongly induced by starvation, and its dysregulation contributes to cancer, neurodegeneration, and infection.",
+    "whyItMatters": "Autophagy removes damaged mitochondria (mitophagy), clears protein aggregates, and sustains cells during starvation. Its failure is implicated in neurodegeneration (impaired aggregate clearance in Parkinson's, Alzheimer's, and Huntington's disease), in cancer (context-dependent tumor-suppressing or tumor-promoting roles), in infection (xenophagy destroys intracellular pathogens), and in aging. Autophagy modulation (e.g. via rapamycin, which inhibits mTORC1) is an active therapeutic target.",
+    "learningObjectives": "- Define autophagy and distinguish it from the ubiquitin-proteasome pathway.\n- Describe the steps of autophagosome formation and lysosomal fusion.\n- Explain the signaling that regulates autophagy (mTOR, AMPK).\n- Relate autophagy to cellular quality control, starvation survival, and disease.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nAutophagy (\"self-eating\") is the process by which cells degrade their own cytoplasmic components — damaged organelles, protein aggregates, and bulk cytoplasm — by enclosing them in a double-membrane vesicle called the **autophagosome**, which then fuses with a lysosome. Unlike the ubiquitin-proteasome system, which degrades individual unfolded proteins, autophagy handles entire organelles and large structures, making it the cell's bulk-recycling and quality-control pathway. It is strongly induced by starvation, and its dysregulation contributes to cancer, neurodegeneration, and infection.\n\n### Key Components\n\n- **Phagophore (isolation membrane):** the cup-shaped double membrane that begins to engulf cargo.\n- **Autophagosome:** the closed double-membrane vesicle containing the cargo.\n- **Autolysosome:** the structure formed when the autophagosome fuses with a lysosome.\n- **Atg proteins (autophagy-related):** the conserved machinery (e.g. Atg5–Atg12, Atg8/LC3) that builds the autophagosome.\n- **LC3 / Atg8:** lipidated (phosphatidylethanolamine-conjugated) protein that decorates the autophagosome membrane — the classic autophagy marker.\n- **mTOR (mTORC1):** the master inhibitor of autophagy (active when nutrients are plentiful).\n- **AMPK:** energy sensor that activates autophagy under low energy.\n- **ULK1 complex:** the initiation kinase complex that triggers phagophore formation.\n\n### Mechanism / How It Works\n\n1. Under nutrient/energy stress, AMPK activates (or mTORC1 inhibition relieves) the **ULK1 complex**, initiating autophagy.\n2. A phagophore nucleates, often at ER-associated sites, and elongates around a region of cytoplasm or a targeted organelle.\n3. Two ubiquitin-like conjugation systems (Atg5–Atg12, and Atg8/LC3–PE) drive membrane expansion and closure.\n4. **LC3** is conjugated to phosphatidylethanolamine and inserted into the growing membrane, marking it as autophagosomal and recruiting cargo adaptors (e.g. p62/SQSTM1) that bind ubiquitinated cargo.\n5. The phagophore seals to form the double-membrane **autophagosome**.\n6. The autophagosome is transported along microtubules and fuses with a lysosome (or first with a late endosome), forming an **autolysosome**.\n7. Lysosomal hydrolases digest the inner membrane and contents; monomers are exported for reuse.\n\n### Energy and Directionality\n\nAutophagy is unidirectional (cytoplasm → lysosome) and, paradoxically, is a *degradative* pathway that is *induced* when energy is low — the cell breaks down its own parts to generate nutrients. Building the autophagosome consumes ATP/GTP (kinases, Atg conjugation, membrane trafficking), but the net payoff under starvation is the release of amino acids, fatty acids, and sugars from digested material. Regulation is energetic: high ATP/amino acids → active mTORC1 → autophagy off; low energy → active AMPK → autophagy on.\n\n### Experimental Evidence / Technique\n\n- **Electron microscopy:** the discovery and definitive visualization of double-membrane autophagosomes engulfing mitochondria and cytoplasm.\n- **Yeast Atg screens (Ohsumi, Nobel Prize 2016):** identified the ~30 ATG genes by isolating mutants unable to survive nitrogen starvation, establishing the conserved autophagy machinery.\n- **LC3/GFP-LC3 puncta assay:** when autophagy is induced, cytosolic GFP-LC3 relocates to punctate autophagosomes — the standard fluorescence readout of autophagic flux.\n- **Bafilomycin A1 / chloroquine treatment:** these block lysosomal acidification (or autolysosome degradation), causing LC3 puncta to accumulate — used to distinguish increased *induction* from blocked *completion*.\n- **p62/SQSTM1 turnover:** p62 is itself degraded by autophagy, so its levels fall when flux is active and rise when autophagy is blocked.",
+    "howItWorks": "1. Under nutrient/energy stress, AMPK activates (or mTORC1 inhibition relieves) the **ULK1 complex**, initiating autophagy.\n2. A phagophore nucleates, often at ER-associated sites, and elongates around a region of cytoplasm or a targeted organelle.\n3. Two ubiquitin-like conjugation systems (Atg5–Atg12, and Atg8/LC3–PE) drive membrane expansion and closure.\n4. **LC3** is conjugated to phosphatidylethanolamine and inserted into the growing membrane, marking it as autophagosomal and recruiting cargo adaptors (e.g. p62/SQSTM1) that bind ubiquitinated cargo.\n5. The phagophore seals to form the double-membrane **autophagosome**.\n6. The autophagosome is transported along microtubules and fuses with a lysosome (or first with a late endosome), forming an **autolysosome**.\n7. Lysosomal hydrolases digest the inner membrane and contents; monomers are exported for reuse.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Autophagy = **bulk/whole-organelle** degradation via a **double-membrane autophagosome** fusing with a lysosome.\n- The **proteasome** degrades individual ubiquitinated proteins; autophagy handles **organelles and aggregates** — distinct, complementary systems.\n- **LC3/Atg8** is conjugated to **phosphatidylethanolamine** and marks autophagosomes.\n- **mTORC1 inhibits** autophagy (nutrient-rich); **AMPK activates** it (low energy).\n- Autophagosome → lysosome fusion forms the **autolysosome**.\n- **p62/SQSTM1** is a cargo adaptor that links ubiquitinated cargo to LC3.\n- **Ohsumi** identified the ATG genes in yeast (Nobel Prize 2016).\n- Bafilomycin/chloroquine block lysosomal degradation and are used to measure autophagic **flux**.",
+    "commonConfusions": "- **\"Autophagy and the proteasome do the same job.\"** They are distinct: the proteasome degrades short-lived, ubiquitinated individual proteins; autophagy degrades bulk cytoplasm, aggregates, and whole organelles.\n- **\"Autophagy is always destructive/bad.\"** It is a homeostatic, pro-survival quality-control mechanism; only excessive or misregulated autophagy is harmful.\n- **\"The autophagosome is a single-membrane vesicle like an endosome.\"** It has a **double** membrane, which is its defining feature.\n- **\"mTOR activates autophagy.\"** mTOR (mTORC1) **inhibits** autophagy; starvation/inhibition of mTOR (e.g. by rapamycin) turns autophagy on.\n- **\"LC3 puncta always mean more autophagy.\"** Puncta can accumulate because flux is *blocked* (lysosome inhibitor) — induction and completion must be distinguished.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of autophagy as the cell's house-cleaning and emergency-food service rolled into one. When the cell is starving, it builds a special double-walled trash bag (the autophagosome) around old furniture — a broken mitochondrion, a pile of clutter — seals it, and carries it to the incinerator (the lysosome) to be burned down into reusable raw materials. The proteasome, by contrast, is a paper shredder that only handles single sheets of paper (individual proteins). (The analogy omits that a whole cascade of Atg proteins builds the bag and that the \"incinerator\" must fuse its membrane with the bag before burning.)",
+    "quickReview": "- Autophagy = self-eating: double-membrane autophagosome engulfs cytoplasm/organelles → fuses with lysosome.\n- Key markers/players: LC3 (PE-lipidated), p62 adaptor, Atg proteins, ULK1.\n- Regulation: mTORC1 (off switch), AMPK (on switch).\n- Distinct from the ubiquitin-proteasome system.\n- Disease links: neurodegeneration, cancer, infection, aging; measured by autophagic flux.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, Johnson A, Lewis J, et al. \"Transport from the Trans Golgi Network to Lysosomes.\" *Molecular Biology of the Cell.* 4th edition. Garland Science; 2002. https://www.ncbi.nlm.nih.gov/books/NBK26844/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26844/"
+      },
+      {
+        "text": "Rajkumar V, Dumpa V. \"Lysosomal Storage Disease.\" *StatPearls.* StatPearls Publishing. https://www.ncbi.nlm.nih.gov/books/NBK563270/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK563270/"
+      },
+      {
+        "text": "Clark MA, Choi J, Douglas M. \"4.4 The Endomembrane System and Proteins.\" *Biology 2e.* OpenStax. https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+        "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/04-vesicular-traffic/15-autophagy.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

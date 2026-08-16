@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biochemistry:nucleic-acids-and-molecular-biology:dna-replication",
+  "slug": "dna-replication",
+  "title": "DNA Replication",
+  "subject": {
+    "id": "subject:biochemistry",
+    "slug": "biochemistry",
+    "title": "Biochemistry"
+  },
+  "unit": {
+    "id": "unit:biochemistry:nucleic-acids-and-molecular-biology",
+    "slug": "nucleic-acids-and-molecular-biology",
+    "title": "Nucleic Acids and Molecular Biology",
+    "order": 7
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "This section covers **DNA replication** — how cells copy their DNA before dividing — including the **semiconservative** mechanism, the role of **DNA polymerase**, and **proofreading/repair** that keeps copies accurate.",
+    "whyItMatters": "Every time a cell divides, it must copy its DNA accurately so each new cell gets a complete, correct genome. Errors in replication and repair contribute to mutations and cancer, making this a foundation for understanding cell division, genetics, and disease.",
+    "learningObjectives": "- Explain why DNA must be **replicated**.\n- Describe **semiconservative** replication.\n- Identify the role of **DNA polymerase**.\n- Explain **proofreading** and its importance.",
+    "keyTerms": "",
+    "collegeNotes": "**Why replicate?** Before a cell divides (recall the cell cycle from A&P/biology), it must **copy all of its DNA** so that each daughter cell receives a **complete, identical set** of genetic instructions. This copying is **DNA replication**.\n\n**Complementary pairing makes copying possible.** Because of **complementary base pairing** (A–T, G–C), each DNA strand contains the information to rebuild its partner. In replication, the double helix is **\"unzipped\"** into two single strands, and each serves as a **template** to build a new complementary strand.\n\n**Semiconservative replication.** DNA replication is **semiconservative**: each new double helix consists of **one original (parent) strand and one newly made strand**. So each copy \"conserves\" half of the original — a key concept confirmed by classic experiments.\n\n**Key steps and enzymes (overview).**\n\n- **Unwinding:** an enzyme (**helicase**) unwinds and separates the two strands at the **replication fork**.\n- **Building new strands:** **DNA polymerase** adds new nucleotides to each template strand, following base-pairing rules (A with T, G with C), synthesizing the complementary strands.\n- **Joining/finishing:** other enzymes (like **ligase**) seal segments together, completing the new strands.\n\nThe result is **two identical DNA molecules**, each with one old and one new strand.\n\n**Proofreading and repair.** Accuracy is critical. **DNA polymerase proofreads** as it works — checking for and correcting mispaired bases — and cells have additional **DNA repair** systems. This makes replication **extremely accurate** (very few errors). Still, occasional uncorrected errors (**mutations**) can occur; accumulated DNA damage and repair failures are linked to **aging and cancer**.",
+    "howItWorks": "DNA replication:\n\n```\nPurpose: copy DNA before cell division → each daughter cell gets a full, identical genome\nMechanism: unzip double helix → each strand is a TEMPLATE → build complementary strand (A–T, G–C)\nSemiconservative: each new helix = 1 OLD strand + 1 NEW strand\nEnzymes: helicase (unwind) → DNA polymerase (add nucleotides) → ligase (seal)\nAccuracy: DNA polymerase PROOFREADS + repair systems → very few errors\n   uncorrected errors = mutations (linked to aging/cancer)\n```",
+    "comparisons": "| Term | Role |\n| --- | --- |\n| Helicase | Unwinds/separates strands |\n| DNA polymerase | Builds new strands; proofreads |\n| Ligase | Seals strand segments |\n\n| Concept | Meaning |\n| --- | --- |\n| Semiconservative | Each copy = 1 old + 1 new strand |\n| Proofreading | Error-checking for accuracy |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\nDNA replication precedes **cell division** — relevant to tissue growth, healing, and **cancer** (uncontrolled division). **Replication errors/mutations** and failed repair underlie **cancer** and some inherited conditions. Because **rapidly dividing cells** replicate DNA often, many **chemotherapy drugs** target DNA replication/division (also affecting healthy fast-dividing cells, explaining side effects like hair loss). Some **antibiotics** target bacterial DNA replication (recall Microbiology). Understanding accurate copying supports genetics and oncology concepts.",
+    "commonConfusions": "- **Replication is semiconservative** (each new helix has one old + one new strand).\n- **DNA polymerase builds new strands and proofreads** (it doesn't just copy blindly).\n- **Complementary base pairing makes accurate copying possible** (each strand templates its partner).\n- **Uncorrected errors = mutations**, linked to cancer/aging (but replication is normally very accurate).",
+    "memoryAids": "- **\"Semiconservative = save half (one old strand kept).\"**\n- **\"Helicase = unzips; polymerase = builds; ligase = links.\"**\n- **\"Unzip, template, copy, proofread.\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nBefore a cell splits into two, it has to make a **complete copy of its DNA** so both new cells get the full instruction manual. It does this by unzipping the DNA ladder and building a new matching half for each side.\n\n### Analogy\nRemember DNA is a twisted ladder where letters pair up (**A with T, G with C**). To copy it, the cell **unzips the ladder right down the middle**, splitting the rungs so you have **two single half-ladders**. Now here's the clever part: because the letters *always* pair the same way, each half-ladder is a perfect **template** to rebuild its missing side! A worker enzyme called **DNA polymerase** runs along each half and **adds the matching letters** to build a brand-new complete ladder. When it's done, you have **two identical DNA ladders**, and each one is made of **one old side and one brand-new side** — that's why it's called \"**semiconservative**\" (half is saved from the original). Even better, DNA polymerase is a careful worker — it **proofreads** as it goes, fixing mistakes, so the copy comes out almost perfect.\n\n### What is actually happening\nThis matters for a lot of medicine. Every time your body **grows or heals**, cells copy their DNA and divide. If the copying makes **mistakes that don't get fixed** (mutations), it can contribute to **cancer** — which is basically cells dividing out of control. That's also why many **chemotherapy drugs** work by attacking DNA copying in fast-dividing cells (they hit cancer hard, but also healthy fast-growing cells, which is why they cause side effects like hair loss). Some **antibiotics** block *bacterial* DNA copying to stop infections. So understanding this careful copy-and-check process helps explain cell growth, cancer, and how important cancer and infection drugs actually work.\n\n### Where the analogy stops\nUnzipping a ladder sounds slow and simple, but real replication is a fast, crowded team effort with many enzymes working at once on both strands — far more complex and coordinated than one person copying a ladder.",
+    "quickReview": "- **DNA replication** copies all DNA before cell division so each daughter cell gets a **complete, identical genome**.\n- It is **semiconservative**: the helix unzips, each strand acts as a **template**, and each new helix has **one old and one new strand**.\n- **DNA polymerase** builds new strands (with helicase unwinding and ligase sealing) following **base-pairing rules**.\n- **Proofreading and repair** make replication very accurate; uncorrected errors are **mutations** linked to **cancer and aging**.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Chapter 14: DNA Structure and Function (DNA replication). https://openstax.org/details/books/biology-2e",
+        "url": "https://openstax.org/details/books/biology-2e"
+      },
+      {
+        "text": "MedlinePlus (U.S. National Library of Medicine) — What is a gene mutation? (MedlinePlus Genetics). https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/",
+        "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/05-biochemistry/07-nucleic-acids-and-molecular-biology/02-dna-replication.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:acid-base-equilibria:strong-acids-and-bases",
+  "slug": "strong-acids-and-bases",
+  "title": "Strong Acids and Strong Bases",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:acid-base-equilibria",
+    "slug": "acid-base-equilibria",
+    "title": "Acid Base Equilibria",
+    "order": 5
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "A **strong acid** or **strong base** dissociates essentially 100% in water, so its equilibrium lies completely to the product side and the calculation collapses to simple stoichiometry: the concentration of H₃O⁺ (or OH⁻) equals the concentration of the acid (or base), multiplied by the number of protons/hydroxides per formula unit. There are only six strong acids to memorize — HCl, HBr, HI, HNO₃, H₂SO₄, HClO₄ — and the strong bases are the group 1 hydroxides plus the heavier group 2 hydroxides.",
+    "whyItMatters": "Strong acids and bases are the workhorses of the lab — HCl in stomach acid, H₂SO₄ in batteries, NaOH in soap-making and titrations. Knowing that their pH depends only on concentration (and stoichiometry) makes them the easy anchor points for titration curves and lets you predict, at a glance, whether a solution is dangerously acidic or caustically basic.",
+    "learningObjectives": "- Memorize the six common strong acids and the strong bases.\n- Calculate pH and pOH of strong-acid and strong-base solutions.\n- Account for stoichiometry (diprotic acids, group 2 hydroxides).\n- Explain why strong acids/bases ionize \"completely.\"",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA **strong acid** or **strong base** dissociates essentially 100% in water, so its equilibrium lies completely to the product side and the calculation collapses to simple stoichiometry: the concentration of H₃O⁺ (or OH⁻) equals the concentration of the acid (or base), multiplied by the number of protons/hydroxides per formula unit. There are only six strong acids to memorize — HCl, HBr, HI, HNO₃, H₂SO₄, HClO₄ — and the strong bases are the group 1 hydroxides plus the heavier group 2 hydroxides.\n\n### Key Ideas\n\n- **Six strong acids:** HCl, HBr, HI (hydrohalic), HNO₃ (nitric), H₂SO₄ (sulfuric, first proton), HClO₄ (perchloric).\n- **Strong bases:** Group 1 hydroxides (LiOH, NaOH, KOH, RbOH, CsOH) and Group 2 hydroxides Ca(OH)₂, Sr(OH)₂, Ba(OH)₂.\n- **\"Strong\" ≠ \"concentrated\":** strong is about *extent of ionization*, not molarity; a dilute strong acid is still a strong acid.\n- **Complete ionization** means [H₃O⁺] = C(acid) for monoprotic strong acids; [OH⁻] = C(base) for monohydroxide bases.\n- **Diprotic/dihydroxide stoichiometry:** H₂SO₄ gives (mostly) 2 H₃O⁺ per molecule; Ca(OH)₂ gives 2 OH⁻ per formula unit.\n\n### Equations and Variables\n\n- HCl(aq) + H₂O → H₃O⁺ + Cl⁻ (complete; single arrow)\n- HNO₃ + H₂O → H₃O⁺ + NO₃⁻\n- NaOH(s) → Na⁺ + OH⁻ (complete dissociation)\n- For monoprotic strong acid: [H₃O⁺] = Cₐ, pH = −log Cₐ\n- For monohydroxide strong base: [OH⁻] = C_b, pOH = −log C_b, pH = 14.00 − pOH\n- For Ca(OH)₂: [OH⁻] = 2 × C_b (because each formula unit releases two OH⁻)\n\n### How It Works\n\n1. Write the dissociation with a *single* arrow — for strong electrolytes there is no meaningful reverse reaction.\n2. Read off the stoichiometry: one HCl gives one H₃O⁺; one Ca(OH)₂ gives two OH⁻.\n3. Multiply the formal concentration by the number of H⁺ (or OH⁻) per formula unit to get the ion concentration.\n4. Take the negative log to get pH (from [H₃O⁺]) or pOH (from [OH⁻]), then convert with pH + pOH = 14.00.\n5. For very dilute strong acid (near 10⁻⁷ M), the acid's own H₃O⁺ becomes comparable to water's autoionization, and you must add the 1.0 × 10⁻⁷ M contribution from water — a special case beyond simple stoichiometry.\n\n### Worked Example\n\n**Calculate the pH of 0.025 M Ca(OH)₂ and of 0.0050 M HClO₄.**\n\nFor Ca(OH)₂, each unit gives 2 OH⁻:\n\n[OH⁻] = 2 × 0.025 M = 0.050 M\n\npOH = −log(0.050) = 1.30\n\npH = 14.00 − 1.30 = 12.70\n\nFor HClO₄ (monoprotic, complete):\n\n[H₃O⁺] = 0.0050 M\n\npH = −log(0.0050) = 2.30",
+    "howItWorks": "1. Write the dissociation with a *single* arrow — for strong electrolytes there is no meaningful reverse reaction.\n2. Read off the stoichiometry: one HCl gives one H₃O⁺; one Ca(OH)₂ gives two OH⁻.\n3. Multiply the formal concentration by the number of H⁺ (or OH⁻) per formula unit to get the ion concentration.\n4. Take the negative log to get pH (from [H₃O⁺]) or pOH (from [OH⁻]), then convert with pH + pOH = 14.00.\n5. For very dilute strong acid (near 10⁻⁷ M), the acid's own H₃O⁺ becomes comparable to water's autoionization, and you must add the 1.0 × 10⁻⁷ M contribution from water — a special case beyond simple stoichiometry.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Six strong acids: HCl, HBr, HI, HNO₃, H₂SO₄, HClO₄.\n- Strong bases = Group 1 hydroxides + Ca(OH)₂, Sr(OH)₂, Ba(OH)₂.\n- Complete dissociation → [H₃O⁺] = Cₐ (monoprotic) or [OH⁻] = C_b (monohydroxide).\n- Multiply by 2 for H₂SO₄'s second proton (first is complete; second is weak) and for Group 2 hydroxides.\n- \"Strong\" refers to extent of ionization, never to concentration.\n- Any acid not on the six-acid list is weak (e.g., HF, CH₃COOH, HCN).",
+    "commonConfusions": "- **\"Concentrated = strong.\"** — Concentration is how much is present; strength is the fraction that ionizes. They are independent.\n- **\"HF is a strong acid.\"** — No; HF is weak (strong H–F bond, small Ka). HCl, HBr, HI are the strong hydrohalic acids.\n- **\"H₂SO₄ donates both protons completely.\"** — The first proton dissociates completely; the second (HSO₄⁻) is weak (Ka₂ ≈ 1.2 × 10⁻²).\n- **\"Mg(OH)₂ is a strong base.\"** — It is only sparingly soluble; even though it is a Group 2 hydroxide, its low solubility limits the OH⁻ it can deliver, so treat the strong Group 2 bases as Ca, Sr, Ba (and note solubility matters).\n- **\"Forgetting the factor of 2.\"** — Ca(OH)₂ produces 2 OH⁻ per unit; the most common pH error is using C_b instead of 2C_b.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nA strong acid is a runner who finishes *every* lap — every single molecule crosses the finish line and hands over its proton. A weak acid is a runner who stops halfway; most molecules never finish. The important trick: \"strong\" tells you about *how many finish*, not *how many started*. A huge crowd of weak runners (a concentrated weak acid) can still beat a single strong runner — which is why concentration and strength are different words.",
+    "quickReview": "- Strong acids: HCl, HBr, HI, HNO₃, H₂SO₄, HClO₄ (complete ionization).\n- Strong bases: Group 1 hydroxides + Ca(OH)₂, Sr(OH)₂, Ba(OH)₂.\n- pH = −log[H₃O⁺] with [H₃O⁺] from stoichiometry; account for 2 H⁺/2 OH⁻.\n- Strength ≠ concentration.\n- Dilute-solution special case: add water's 1.0 × 10⁻⁷ M H₃O⁺ when acid concentration is near that value.",
+    "workedExamples": "### Worked Example\n\n**Calculate the pH of 0.025 M Ca(OH)₂ and of 0.0050 M HClO₄.**\n\nFor Ca(OH)₂, each unit gives 2 OH⁻:\n\n[OH⁻] = 2 × 0.025 M = 0.050 M\n\npOH = −log(0.050) = 1.30\n\npH = 14.00 − 1.30 = 12.70\n\nFor HClO₄ (monoprotic, complete):\n\n[H₃O⁺] = 0.0050 M\n\npH = −log(0.0050) = 2.30",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.3 Relative Strengths of Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases"
+      },
+      {
+        "text": "PubChem, \"Hydrochloric Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Hydrochloric-acid",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Hydrochloric-acid"
+      },
+      {
+        "text": "PubChem, \"Sodium Hydroxide.\" https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-hydroxide",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-hydroxide"
+      },
+      {
+        "text": "PubChem, \"Sulfuric Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Sulfuric-acid",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Sulfuric-acid"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/14-acid-base-equilibria/04-strong-acids-and-bases.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "../schemas/curriculum-crosswalk-v2.schema.json",
+  "schemaVersion": "2.0.0",
+  "subjectSlug": "anatomy-physiology-1",
+  "policy": {
+    "canonicalTeachingTaxonomy": "pre-nursing-study-hub-content",
+    "practiceSourcesAreOverlays": true,
+    "broadMappingsAreExplicit": true,
+    "outOfScopeContentIsDeferredNotDiscarded": true
+  },
+  "sources": [
+    {
+      "sourceCollection": "ap1-study-pack",
+      "sourceRoot": "Education/anatomy-physiology-1-study-pack/topics",
+      "mappings": [
+        { "sourceTopicId": "topic-01", "sourceTitle": "Introduction to Anatomy & Physiology and Homeostasis", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "introduction-to-the-human-body", "topicSlugs": ["anatomical-terminology", "anatomical-position-and-directional-terms", "body-planes-and-sections", "body-cavities-and-membranes", "levels-of-structural-organization", "homeostasis"] } },
+        { "sourceTopicId": "topic-02", "sourceTitle": "Chemistry and Biochemistry", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "basic-chemistry-for-ap", "topicSlugs": ["matter-elements-and-atomic-structure", "chemical-bonds", "water-solutions-and-mixtures", "acids-bases-and-ph", "inorganic-vs-organic-compounds-overview", "biological-macromolecules"] } },
+        { "sourceTopicId": "topic-03", "sourceTitle": "Cells, Membranes, and Transport", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "cellular-anatomy-and-physiology", "topicSlugs": ["overview-of-the-cell-and-cell-theory", "the-plasma-membrane", "membrane-transport", "cytoplasmic-organelles", "the-nucleus-and-genetic-control", "cell-cycle-and-division"] } },
+        { "sourceTopicId": "topic-04", "sourceTitle": "Metabolism and Energy", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "cellular-anatomy-and-physiology", "topicSlugs": ["cellular-respiration-overview"] }, "additionalTargets": [{ "subjectSlug": "anatomy-physiology-1", "unitSlug": "muscular-system", "topicSlugs": ["muscle-metabolism-and-fatigue"] }] },
+        { "sourceTopicId": "topic-05", "sourceTitle": "Epithelial Tissue", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "histology-and-body-membranes", "topicSlugs": ["epithelial-tissue", "body-membranes"] } },
+        { "sourceTopicId": "topic-06", "sourceTitle": "Connective, Muscle, and Nervous Tissue", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "histology-and-body-membranes", "topicSlugs": ["introduction-to-tissues", "connective-tissue", "muscle-tissue", "nervous-tissue", "tissue-repair"] } },
+        { "sourceTopicId": "topic-07", "sourceTitle": "Integumentary System", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "integumentary-system", "topicSlugs": ["skin-structure-epidermis", "skin-structure-dermis-and-hypodermis", "skin-color-and-its-clinical-signals", "accessory-structures", "functions-of-the-integument", "burns-and-skin-cancer"] } },
+        { "sourceTopicId": "topic-08", "sourceTitle": "Bone Tissue and Skeletal Overview", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "skeletal-system", "topicSlugs": ["functions-and-bone-classification", "bone-structure-and-histology", "bone-formation-growth-and-remodeling", "bone-and-joint-disorders"] } },
+        { "sourceTopicId": "topic-09", "sourceTitle": "Axial Skeleton", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "skeletal-system", "topicSlugs": ["the-axial-skeleton"] } },
+        { "sourceTopicId": "topic-10", "sourceTitle": "Appendicular Skeleton", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "skeletal-system", "topicSlugs": ["the-appendicular-skeleton"] } },
+        { "sourceTopicId": "topic-11", "sourceTitle": "Joints", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "skeletal-system", "topicSlugs": ["joints-articulations", "bone-and-joint-disorders"] } },
+        { "sourceTopicId": "topic-12", "sourceTitle": "Muscle Tissue", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "muscular-system", "topicSlugs": ["overview-and-types-of-muscle-tissue", "skeletal-muscle-anatomy", "the-sliding-filament-mechanism", "muscle-contraction-physiology", "muscle-metabolism-and-fatigue", "smooth-and-cardiac-muscle"] } },
+        { "sourceTopicId": "topic-13", "sourceTitle": "Muscular System", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "muscular-system", "topicSlugs": ["major-skeletal-muscles-and-body-movements"] } },
+        { "sourceTopicId": "topic-14", "sourceTitle": "Nervous Tissue", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "nervous-system-and-special-senses", "topicSlugs": ["organization-of-the-nervous-system", "nervous-tissue-neurons-and-neuroglia", "resting-and-action-potential", "the-synapse-and-neurotransmission"] } },
+        { "sourceTopicId": "topic-15", "sourceTitle": "Central Nervous System: Brain", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "nervous-system-and-special-senses", "topicSlugs": ["the-central-nervous-system"] } },
+        { "sourceTopicId": "topic-16", "sourceTitle": "Central Nervous System: Spinal Cord and Reflexes", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "nervous-system-and-special-senses", "topicSlugs": ["the-central-nervous-system", "the-peripheral-nervous-system-and-reflexes"] } },
+        { "sourceTopicId": "topic-17", "sourceTitle": "Peripheral Nervous System and Cranial Nerves", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "nervous-system-and-special-senses", "topicSlugs": ["the-peripheral-nervous-system-and-reflexes"] } },
+        { "sourceTopicId": "topic-18", "sourceTitle": "Autonomic Nervous System", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "nervous-system-and-special-senses", "topicSlugs": ["the-autonomic-nervous-system"] } },
+        { "sourceTopicId": "topic-19", "sourceTitle": "Vision and Hearing", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "nervous-system-and-special-senses", "topicSlugs": ["special-senses"] } },
+        { "sourceTopicId": "topic-20", "sourceTitle": "Olfaction, Gustation, and Equilibrium", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "nervous-system-and-special-senses", "topicSlugs": ["special-senses"] } },
+        { "sourceTopicId": "topic-21", "sourceTitle": "Endocrine System", "disposition": "defer-to-canonical-subject", "target": { "subjectSlug": "anatomy-physiology-2", "unitSlug": "endocrine-system", "topicSlugs": ["endocrine-overview-and-hormone-chemistry", "mechanisms-of-hormone-action-and-regulation", "hypothalamus-and-pituitary-gland", "thyroid-and-parathyroid-glands", "adrenal-glands", "pancreas-and-blood-glucose-regulation", "other-endocrine-tissues-and-stress-response"] } },
+        { "sourceTopicId": "topic-22", "sourceTitle": "Blood", "disposition": "defer-to-canonical-subject", "target": { "subjectSlug": "anatomy-physiology-2", "unitSlug": "blood-cardiovascular-and-circulation", "topicSlugs": ["composition-and-functions-of-blood", "erythrocytes-hemoglobin-and-oxygen-transport", "leukocytes-platelets-and-hemostasis", "blood-types-and-transfusion"] } }
+      ]
+    },
+    {
+      "sourceCollection": "prenursing-native-app-bank",
+      "sourceRoot": "Apps/ANON/apps/PreNursing_app/PreNursingPrep/Resources/QuestionBank/anatomy_physiology_1.json",
+      "mappings": [
+        { "sourceTopicId": "anatomy_physiology_1-t01", "sourceTitle": "Cellular Biology and Chemistry of Life", "targets": [{ "subjectSlug": "anatomy-physiology-1", "unitSlug": "basic-chemistry-for-ap", "topicSlugs": ["matter-elements-and-atomic-structure", "chemical-bonds", "water-solutions-and-mixtures", "acids-bases-and-ph", "inorganic-vs-organic-compounds-overview", "biological-macromolecules"] }, { "subjectSlug": "anatomy-physiology-1", "unitSlug": "cellular-anatomy-and-physiology", "topicSlugs": ["overview-of-the-cell-and-cell-theory", "the-plasma-membrane", "membrane-transport", "cytoplasmic-organelles", "the-nucleus-and-genetic-control", "cell-cycle-and-division", "cellular-respiration-overview"] }] },
+        { "sourceTopicId": "anatomy_physiology_1-t02", "sourceTitle": "Histology and Tissue Types", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "histology-and-body-membranes", "topicSlugs": ["introduction-to-tissues", "epithelial-tissue", "connective-tissue", "muscle-tissue", "nervous-tissue", "body-membranes", "tissue-repair"] } },
+        { "sourceTopicId": "anatomy_physiology_1-t03", "sourceTitle": "The Integumentary System", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "integumentary-system", "topicSlugs": ["skin-structure-epidermis", "skin-structure-dermis-and-hypodermis", "skin-color-and-its-clinical-signals", "accessory-structures", "functions-of-the-integument", "burns-and-skin-cancer"] } },
+        { "sourceTopicId": "anatomy_physiology_1-t04", "sourceTitle": "The Skeletal System: Bone Tissue", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "skeletal-system", "topicSlugs": ["functions-and-bone-classification", "bone-structure-and-histology", "bone-formation-growth-and-remodeling", "bone-and-joint-disorders"] } },
+        { "sourceTopicId": "anatomy_physiology_1-t05", "sourceTitle": "The Skeletal System: Axial and Appendicular Skeleton", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "skeletal-system", "topicSlugs": ["the-axial-skeleton", "the-appendicular-skeleton", "joints-articulations"] } },
+        { "sourceTopicId": "anatomy_physiology_1-t06", "sourceTitle": "The Muscular System: Muscle Tissue", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "muscular-system", "topicSlugs": ["overview-and-types-of-muscle-tissue", "skeletal-muscle-anatomy", "the-sliding-filament-mechanism", "muscle-contraction-physiology", "muscle-metabolism-and-fatigue", "smooth-and-cardiac-muscle"] } },
+        { "sourceTopicId": "anatomy_physiology_1-t07", "sourceTitle": "The Muscular System: Gross Anatomy", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "muscular-system", "topicSlugs": ["major-skeletal-muscles-and-body-movements"] } },
+        { "sourceTopicId": "anatomy_physiology_1-t08", "sourceTitle": "The Nervous System: Fundamentals", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "nervous-system-and-special-senses", "topicSlugs": ["organization-of-the-nervous-system", "nervous-tissue-neurons-and-neuroglia", "resting-and-action-potential", "the-synapse-and-neurotransmission"] } },
+        { "sourceTopicId": "anatomy_physiology_1-t09", "sourceTitle": "The Central Nervous System", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "nervous-system-and-special-senses", "topicSlugs": ["the-central-nervous-system", "the-peripheral-nervous-system-and-reflexes"] } },
+        { "sourceTopicId": "anatomy_physiology_1-t10", "sourceTitle": "Peripheral and Autonomic Nervous System", "target": { "subjectSlug": "anatomy-physiology-1", "unitSlug": "nervous-system-and-special-senses", "topicSlugs": ["the-peripheral-nervous-system-and-reflexes", "the-autonomic-nervous-system", "special-senses"] } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+---
+title: "Biogeochemical Cycles"
+subject: "Science"
+book: "Biology for AP® Courses"
+chapter: "37: Ecosystems"
+topic_number: "3"
+source: "biology-ap-courses.md"
+tags:
+  - "biogeochemical-cycles"
+  - "science"
+status: "complete"
+---
+
+# Biogeochemical Cycles
+
+> **Book:** [Biology for AP® Courses](../../README.md)  
+> **Chapter:** [Chapter 37: Ecosystems](../README.md)  
+> **Topic:** 3  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Energy flows through ecosystems and is lost; matter does not. The atoms that make up your body — carbon, nitrogen, oxygen, hydrogen, phosphorus — have been circulating between living things and the physical world for billions of years, and they will keep circulating long after you are gone. **Biogeochemical cycles** are the routes these elements take among organisms (the *bio* part), the rocks, soils, and waters of the Earth (*geo*), and the chemical transformations that change their form (*chemical*). Understanding a cycle means knowing three things: where an element is stored, in what form, and what moves it from one place to another.
+
+Every cycle has two kinds of compartments. **Reservoirs** are large, long-term storage sites — carbon in fossil fuels or deep ocean water, phosphorus in rock. **Exchange pools** are smaller, short-term compartments that turn over quickly — carbon in the atmosphere, nitrogen in soil, water in organisms. The distinction matters because human activity usually perturbs the *exchange* between the two — where environmental problems appear. Cycles also fall into two families: **gaseous cycles** (carbon, nitrogen, water), which move elements quickly through the atmosphere, and **sedimentary cycles** (phosphorus, sulfur), which lack one and move slowly through rock, soil, and water.
+
+## Why This Matters
+
+Biogeochemical cycles are the plumbing of the planet, and human activity has been modifying the pipes. Burning fossil fuels moves carbon from a reservoir (coal, oil, gas) into an exchange pool (the atmosphere) far faster than the cycle can return it — the core of the climate-change problem. Applying nitrogen and phosphorus fertilizers moves these elements into rivers and oceans, where they trigger algal blooms and oxygen-depleted "dead zones." These are not abstract chemistry problems; they affect drinking water, fisheries, and public health. On the AP exam, cycle questions test whether you can name the transformations (especially the nitrogen steps), identify where elements are stored, and predict what happens when humans add an input or remove a link.
+
+## Core Concepts
+
+### The water cycle
+
+Water moves among the atmosphere, land, oceans, and organisms. **Evaporation** from oceans and lakes and **transpiration** from plants return water vapor to the atmosphere; **condensation** forms clouds; **precipitation** returns water to the surface as rain or snow. On land, water either **infiltrates** into the soil (recharging **groundwater**) or runs off into streams and rivers on its way back to the ocean. Water is the solvent for nearly all other cycles and carries dissolved nutrients with it — which is why runoff from fertilized fields can poison a lake far downstream. Human impacts include groundwater depletion and altered runoff from paving and deforestation.
+
+### The carbon cycle
+
+Carbon is the backbone of organic molecules. The fast loop: **photosynthesis** removes CO₂ from the atmosphere and fixes it into organic compounds; **respiration** by organisms and **decomposition** of dead matter return CO₂. The slow loop: carbon is stored for millions of years in fossil fuels, in carbonate rocks, and in deep ocean water. The ocean is the largest active carbon pool, absorbing and releasing CO₂ at its surface. The human perturbation is simple to state: we are mining the slow loop (burning fossil fuels, clearing forests) and dumping its carbon into the fast loop, raising atmospheric CO₂ — the driver of climate change and **ocean acidification**.
+
+### The nitrogen cycle
+
+Nitrogen is the atmosphere's most abundant gas (N₂), yet almost no organism can use it directly — the triple bond in N₂ is extremely stable. The cycle therefore runs on microbial transformations, five of which you must know:
+
+- **Nitrogen fixation** converts N₂ into ammonia (NH₃): done by symbiotic bacteria (e.g., *Rhizobium* in legume root nodules), free-living soil bacteria, cyanobacteria, lightning, and — since the early 1900s — the industrial **Haber-Bosch** process used to make fertilizer.
+- **Nitrification** converts ammonia into nitrite then nitrate (NO₃⁻) — nitrate being the form plants absorb most readily.
+- **Assimilation** is the uptake of nitrate or ammonia by plants into proteins and nucleic acids.
+- **Ammonification** returns nitrogen to the soil as ammonia when decomposers break down waste and dead organisms.
+- **Denitrification** converts nitrate back to N₂ gas, closing the cycle.
+
+Humans have roughly doubled the rate of nitrogen fixation on the planet through fertilizer production (a commonly cited figure — verify against current sources). Excess nitrogen runs off into waterways, where it fertilizes algal blooms; when the algae die and decompose, microbial respiration consumes oxygen and can kill fish — **eutrophication**.
+
+### The phosphorus cycle
+
+Phosphorus is the odd one out: it has **no significant atmospheric phase**. It comes from the weathering of phosphate rock, enters soil and water, is taken up by plants, passes through food chains, and is returned to soil in waste and dead tissue — a slow, sedimentary cycle. Phosphorus is frequently the **limiting nutrient** in freshwater ecosystems, so even small additions trigger large responses. Human impacts: mining phosphate rock for fertilizer, and runoff of phosphorus (with nitrogen) driving eutrophication in lakes and coastal waters.
+
+### Human perturbations and the pattern to recognize
+
+Every major environmental problem in this chapter follows the same template: humans move an element from a reservoir into an exchange pool faster than the natural cycle can absorb it — CO₂ to the atmosphere (climate), nitrogen and phosphorus to waterways (eutrophication), sulfur and nitrogen oxides to the air (acid rain). When you see a cycle question, ask: which compartment is being added to, which transformation is being bypassed, and who pays the cost downstream?
+
+## ELI-10: Explain Like I'm 10
+
+Atoms are like building blocks that never get thrown away — they just get reused. The water in your glass might once have been in a cloud, a dinosaur, or an ocean wave; the carbon in your body was recently carbon dioxide in the air. Biogeochemical cycles are the recycling routes those blocks travel: through living things, soil, water, and air. Humans sometimes speed up one part of a route way too much — like pouring a whole truckload of extra building blocks into a tiny room — and that's when problems like pollution and climate change start.
+
+## High-Yield Points
+
+- **Matter cycles; energy does not** — this is the chapter's organizing rule.
+- **Reservoir** (long-term storage: rocks, fossil fuels, deep oceans) vs **exchange pool** (short-term: atmosphere, organisms, soil water).
+- **Carbon:** photosynthesis removes CO₂, respiration/decomposition return it; fossil-fuel burning moves stored carbon into the atmosphere; oceans absorb CO₂ (acidification).
+- **Nitrogen:** five steps — fixation, nitrification, assimilation, ammonification, denitrification — nearly all done by bacteria.
+- **N₂ is unusable by most organisms until fixed**; legumes host nitrogen-fixing bacteria in root nodules.
+- **Phosphorus has no atmospheric phase** — it is sedimentary, slow, and often the limiting nutrient in fresh water.
+- **Eutrophication:** excess N and P → algal bloom → decomposers consume oxygen → fish die-offs/dead zones.
+- **Humans accelerate cycles** (fertilizer, fossil fuels, deforestation), which is the common thread behind climate change, acid rain, and eutrophication.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Biogeochemical cycle | The route an element takes through living organisms, earth materials, and chemical transformations | Explains where nutrients come from and where pollution goes |
+| Reservoir | Large, long-term storage site for an element (fossil fuels, rock, deep ocean) | Carbon locked here for millennia is what fossil-fuel burning releases |
+| Exchange pool | Small, short-term compartment that turns over quickly (atmosphere, organisms) | Where elements are actively used and where pollution first appears |
+| Nitrogen fixation | Conversion of N₂ gas into ammonia by bacteria, lightning, or industry | Makes atmospheric nitrogen usable by life |
+| Nitrification | Conversion of ammonia to nitrite and then nitrate | Produces nitrate, the form plants absorb best |
+| Denitrification | Conversion of nitrate back to N₂ gas | Returns nitrogen to the atmosphere, closing the cycle |
+| Eutrophication | Nutrient over-enrichment of water causing algal blooms and oxygen depletion | The main water-quality problem caused by fertilizer runoff |
+| Limiting nutrient | The nutrient in shortest supply relative to need, which caps growth | Explains why adding one element (P or N) can trigger blooms |
+
+## Example: From Fertilizer to Dead Zone
+
+A farm sits beside a river that flows to the coast. In spring, the farmer applies nitrogen and phosphorus fertilizer; heavy rain washes some of it into the river. Trace that nitrogen through the cycle. In the soil, most applied nitrogen is in forms plants can use (ammonium and nitrate, produced by nitrification and the fertilizer itself). Some is taken up by the corn (**assimilation**); the rest runs off. In the river and coastal sea, the added nitrogen and phosphorus fertilize a massive bloom of algae and phytoplankton. When the bloom dies, **decomposers** (bacteria) consume the dead cells, and their respiration — **ammonification** plus the oxidation of organic matter — draws down dissolved oxygen. Fish, crabs, and other animals suffocate; the area becomes a "dead zone" that can persist.
+
+Now trace the same nitrogen's alternatives. If the field had a **buffer strip** of wetland plants, much of the runoff nitrogen would be taken up by vegetation or converted back to N₂ gas by **denitrifying bacteria** before reaching the river — the wetland acts as a nitrogen sink. If the farmer applied less fertilizer or timed it to avoid heavy rain, less nitrogen would leave the field. That is the practical payoff of understanding cycles: every intervention manipulates a transformation (fixation, assimilation, denitrification) or a compartment (soil, wetland, river), and the cycle tells you where to intervene.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Nitrogen fixation | Nitrification | Fixation turns N₂ gas into ammonia (mostly bacteria/lightning/industry); nitrification turns ammonia into nitrite/nitrate |
+| Nitrogen fixation | Denitrification | Fixation adds usable nitrogen to ecosystems; denitrification removes it, returning N₂ to the air — they run the cycle in opposite directions |
+| Reservoir | Exchange pool | Reservoirs store an element long-term (fossil fuels, rock); exchange pools turn over fast (atmosphere, organisms) |
+| Eutrophication | Normal nutrient cycling | Eutrophication is *excess* nutrient input causing blooms and oxygen loss; normal cycling sustains healthy productivity |
+| Photosynthesis in the carbon cycle | Respiration in the carbon cycle | Photosynthesis removes CO₂ from the air; respiration and decomposition return it — opposite directions in the same cycle |
+| Water "being used up" | Water moving | Water is not destroyed; the cycle moves and redistributes it, but pollution and overuse can make clean water locally scarce |
+| The phosphorus cycle | The nitrogen cycle | Phosphorus is sedimentary with no atmospheric phase; nitrogen is gaseous with an atmospheric phase |
+
+## Quick Review
+
+1. What is the difference between a reservoir and an exchange pool? Give one example of each for carbon.
+2. List the five key transformations of the nitrogen cycle in order, and state which ones are performed mainly by bacteria.
+3. Why is nitrogen gas (N₂) useless to most organisms, and how does it become usable?
+4. Why can phosphorus runoff trigger algal blooms even though phosphorus is not the most abundant nutrient in fertilizer?
+5. Explain the chain of events from fertilizer application to a coastal dead zone.
+6. How does burning fossil fuels differ from respiration in terms of the carbon cycle?
+
+<details>
+<summary>Show answers</summary>
+
+1. A reservoir is a large, long-term storage site (e.g., fossil fuels, deep ocean water); an exchange pool is a small, fast-turning compartment (e.g., atmospheric CO₂, living organisms). Fossil-fuel carbon sits in a reservoir; the CO₂ you exhale is in an exchange pool.
+2. Fixation (bacteria, cyanobacteria, lightning, industry) → nitrification (bacteria) → assimilation (plants/microbes) → ammonification (decomposers) → denitrification (bacteria). Fixation, nitrification, ammonification, and denitrification are performed mainly by microbes; assimilation is done by all organisms taking up nutrients.
+3. The triple bond of N₂ is extremely stable, so most organisms lack the enzymes to break it. Nitrogen-fixing bacteria, cyanobacteria, lightning, and the industrial Haber-Bosch process convert N₂ into ammonia, which can then be nitrified to nitrate for plant uptake.
+4. Phosphorus is often the limiting nutrient in freshwater systems — the nutrient in shortest supply relative to demand. When a pulse of phosphorus arrives, it removes the limit, and algae grow explosively even though the added amount is small.
+5. Fertilizer N and P run off into rivers → nutrient enrichment of coastal waters → algal bloom → algae die → decomposers multiply and consume dissolved oxygen → fish and other aerobic organisms suffocate, creating a seasonal dead zone.
+6. Respiration returns carbon to the atmosphere that was recently fixed by photosynthesis — part of the fast, balanced loop. Burning fossil fuels releases carbon stored over millions of years in a reservoir, adding *new* CO₂ to the atmosphere beyond what the fast loop can absorb.
+
+</details>
+
+## Related Topics
+
+- Previous: [Energy Flow through Ecosystems](02-energy-flow-through-ecosystems.md)
+- Next: End of chapter
+- Related: [Ecology for Ecosystems](01-ecology-for-ecosystems.md) · [The Importance of Biodiversity to Human Life](../chapter-38-conservation-biology-and-biodiversity/02-the-importance-of-biodiversity-to-human-life.md) · [Threats to Biodiversity](../chapter-38-conservation-biology-and-biodiversity/03-threats-to-biodiversity.md)
+- Chapter: [Ecosystems chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Biology for AP® Courses
+- Local outline source: `biology-ap-courses.md`
+- Official source URL: https://openstax.org/details/books/biology-ap-courses/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: educational content only. Quantitative claims (e.g., the human contribution to nitrogen fixation) are commonly taught textbook figures — verify against current primary sources before citing in graded work.
+- Last updated: 2026-08-16

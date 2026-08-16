@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-polarity-and-intermolecular-forces-q05",
+  "subject": "chemistry-1",
+  "lesson": "polarity-and-intermolecular-forces",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Carbon dioxide contains two strongly polar C=O bonds, yet the whole molecule is nonpolar. Which explanation is accurate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The molecule is linear, so two equal bond dipoles point in opposite directions and cancel."
+    },
+    {
+      "id": "b",
+      "text": "The individual C=O bond dipoles are too small to give the molecule measurable polarity."
+    },
+    {
+      "id": "c",
+      "text": "Double bonds share four electrons, and that larger shared count cancels bond polarity."
+    },
+    {
+      "id": "d",
+      "text": "Lone pairs on the central carbon atom offset the partial charges on the two oxygens."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Molecular polarity is the vector sum of bond dipoles, so geometry matters as much as electronegativity. Each C=O bond is genuinely polar, with an electronegativity difference of 3.44 - 2.55 = 0.89, but the central carbon has no lone pairs, giving a linear 180-degree arrangement in which two identical dipoles point directly away from each other and sum to zero. Water contains comparably polar O-H bonds but is bent at about 104.5 degrees, so its bond dipoles cannot cancel and the molecule has a net dipole of 1.85 D.\n\nELI-10: Think of the two oxygens as equally strong pulls on the electrons, aimed in exactly opposite directions along a straight line. Real forces exist on each bond, but they add up to nothing overall, so the molecule has no plus end or minus end for a neighbor to grab. The key skill is checking geometry before declaring a molecule polar: identical polar bonds arranged symmetrically cancel, and the same bonds arranged asymmetrically, as in bent water, do not.",
+  "difficulty": "medium",
+  "tags": [
+    "bond dipole vs molecular dipole",
+    "molecular geometry",
+    "vector cancellation"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-275",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

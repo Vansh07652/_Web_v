@@ -1,0 +1,26 @@
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+dist-worker/
+.wrangler/
+build/
+coverage/
+.vite/
+.vite-temp/
+.cache/
+*.log
+*.tmp
+*.swp
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.preview/
+
+# Local audit harness output (tools/)
+.audit/
+.preview/

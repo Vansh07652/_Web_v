@@ -1,0 +1,128 @@
+---
+title: "Migraine Headaches and Migraine Headache Drugs"
+subject: "Nursing"
+book: "Pharmacology for Nurses"
+chapter: "12: Anticonvulsant Drugs and Drugs to Treat Epilepsy, Migraine Headaches, and Intracranial Emergencies"
+topic_number: "2"
+source: "pharmacology.md"
+tags:
+  - "migraine-headaches-and-migraine-headache-drugs"
+  - "nursing"
+status: "complete"
+---
+
+# Migraine Headaches and Migraine Headache Drugs
+
+> **Book:** [Pharmacology for Nurses](../../README.md)  
+> **Chapter:** [Chapter 12: Anticonvulsant Drugs and Drugs to Treat Epilepsy, Migraine Headaches, and Intracranial Emergencies](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Migraine is a recurring neurological condition, not just "a bad headache." An attack typically produces moderate-to-severe throbbing pain, often on one side of the head, lasting hours to days, with nausea, vomiting, and sensitivity to light and sound. It affects people of all ages and is roughly three times more common in females than males, often running in families. The condition is best understood as a disorder of brain signaling: a wave of abnormal neuronal activity spreads across the brain, activates the trigeminal nerve system, and triggers release of pain-signaling molecules — most importantly calcitonin gene-related peptide (CGRP) — around the meningeal blood vessels. That neurochemical cascade, not the vessels themselves, drives the pain. Treatment is organized into two broad strategies: **acute (abortive) therapy**, used at the start of an attack to stop it, and **preventive (prophylactic) therapy**, used regularly to reduce the frequency and severity of attacks in people with frequent or disabling episodes. Drug classes range from simple analgesics and nonsteroidal anti-inflammatory drugs (NSAIDs) to triptans, ergot alkaloids, the newer ditans and gepants, and preventive agents such as beta-blockers, certain anticonvulsants, tricyclic antidepressants, and CGRP-targeted monoclonal antibodies. This topic focuses on understanding those classes by mechanism so the nurse can anticipate effects, monitor for adverse reactions, and teach people with migraine to use their medicines safely.
+
+## Why This Matters
+
+Migraine is one of the most common neurological disorders seen in primary care and emergency settings, and a leading cause of disability in younger adults. People with migraine often turn to nurses first — in clinic, urgent care, or the emergency department — for help during an attack. Safe care depends on distinguishing migraine from dangerous secondary headaches (such as subarachnoid hemorrhage or meningitis), choosing the right drug class for the situation, and recognizing when a drug is inappropriate for a particular person. Because many migraine medicines interact with common drugs — triptans combined with SSRIs or SNRIs carry a serotonin syndrome risk — medication reconciliation and teaching are core nursing responsibilities. Misuse of acute therapies can also cause medication overuse headache, a preventable condition nurses are often first to identify.
+
+## Core Concepts
+
+### How a migraine attack unfolds
+
+Migraine attacks are often described in phases. The **prodrome** can begin hours to a day before the headache with subtle changes such as yawning, mood shifts, food cravings, or neck stiffness. About one in four people experience an **aura** — a reversible neurological symptom, most commonly a visual disturbance like flashing lights or zigzag lines. The **headache phase** follows with throbbing pain, nausea, and light and sound sensitivity, and the **postdrome** is the exhausted "hangover" that can linger for a day. Not every person experiences every phase, but recognizing the pattern helps people act early — acute medicines work best when taken at the first sign of an attack.
+
+### The signaling cascade behind the pain
+
+The dominant model of migraine involves **cortical spreading depression**: a slow wave of neuronal depolarization moving across the cerebral cortex. This wave activates the trigeminal nerve, whose branches innervate the meninges and cerebral blood vessels. Activation triggers release of neuropeptides — especially **CGRP**, along with substance P — producing neurogenic inflammation and dilation of meningeal vessels. Pain signals travel to the trigeminal nucleus caudalis in the brainstem and up to the thalamus and cortex. CGRP is so central that modern migraine drugs either block the CGRP receptor (gepants) or bind CGRP itself (monoclonal antibodies).
+
+### Acute (abortive) therapy by mechanism
+
+- **Analgesics and NSAIDs** — acetaminophen, ibuprofen, naproxen, and similar agents reduce pain and inflammation and are first-line options for mild-to-moderate attacks.
+- **Triptans** — selective agonists at serotonin **5-HT1B/1D receptors**. They constrict dilated intracranial vessels and inhibit trigeminal nerve transmission, working best when taken early in an attack. Because they can constrict coronary arteries, they are avoided in people with significant ischemic heart disease or uncontrolled hypertension, and serotonin syndrome risk rises when they are combined with SSRIs, SNRIs, or MAOIs. **Verify each person's risk status and current orders against the current reference.**
+- **Ditans** (e.g., lasmiditan) — selective **5-HT1F** agonists that block pain transmission without constricting blood vessels, an advantage for people who cannot take triptans; sedation and dizziness are notable effects.
+- **Gepants** (e.g., ubrogepant, rimegepant) — small-molecule **CGRP receptor antagonists** used for acute attacks; they do not cause vasoconstriction.
+- **Ergot alkaloids** (ergotamine, dihydroergotamine) — older, nonselective drugs that activate 5-HT1 receptors and also alpha-adrenergic receptors. They are potent vasoconstrictors, cause nausea, and are contraindicated in coronary artery disease, uncontrolled hypertension, and pregnancy; their use is limited by these effects and the risk of medication overuse headache.
+
+### Preventive therapy
+
+Preventive treatment is considered for people with frequent or disabling attacks that do not respond well to acute therapy. The goal is fewer, milder attacks. Mechanistically diverse options include **beta-blockers** (e.g., propranolol), certain **anticonvulsants** (e.g., topiramate, valproate), the tricyclic antidepressant **amitriptyline**, and — more recently — **CGRP monoclonal antibodies** (e.g., erenumab, galcanezumab, fremanezumab) that bind CGRP or its receptor; onabotulinumtoxinA injections are an option for chronic migraine. Preventive drugs are taken on a regular schedule, take weeks to show benefit, and require monitoring for their own adverse effects — topiramate can cause cognitive slowing and kidney stones, and valproate is avoided in pregnancy. **Selection, dosing, and monitoring follow current guidelines and prescriber orders; verify against the current formulary and references.**
+
+### Medication overuse headache
+
+Frequent use of any acute migraine medicine — analgesics, triptans, ergots — can paradoxically make headaches more frequent and chronic: **medication overuse (rebound) headache**. The pattern is a warning sign during medication reconciliation: a person who takes abortive drugs on most days of the week and reports daily or near-daily headache. Management is educational and structured, usually a planned reduction of the overused drug under prescriber guidance. Nurses teach people to track medication days and to recognize that "more medicine" is not the answer to a rebound pattern.
+
+## ELI-10: Explain Like I'm 10
+
+A migraine is like a false fire alarm going off inside the brain. A slow wave of "noise" travels across the brain and makes the nerves around the head's blood vessels release a chemical (CGRP) that shouts "pain!" to the brain, even though nothing is actually wrong. Some medicines quiet the alarm quickly when it starts (like a fire extinguisher), while others are taken every day to make the false alarms happen less often (like fixing the alarm system).
+
+## High-Yield Points
+
+- Migraine is a neurological disorder involving cortical spreading depression, trigeminal nerve activation, and **CGRP** release — not simply a vascular problem.
+- Acute therapy treats an attack in progress; **preventive therapy** is taken regularly to reduce attack frequency. Know which strategy a drug belongs to.
+- **Triptans** are 5-HT1B/1D agonists; **ditans** are 5-HT1F agonists (no vasoconstriction); **gepants** block the CGRP receptor; **ergots** are nonselective vasoconstrictors.
+- Take abortive drugs **early** in the attack — teach people to recognize their prodrome or aura.
+- Triptans + SSRIs/SNRIs/MAOIs raise **serotonin syndrome** risk; triptans and ergots are contraindicated with significant cardiovascular disease — verify against current references and orders.
+- Frequent use of acute drugs causes **medication overuse headache**, a preventable cause of chronic daily headache.
+- Red flags (sudden severe "thunderclap" headache, fever with neck stiffness, new focal weakness, headache after head injury) require urgent evaluation — never assume a headache is migraine.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| CGRP (calcitonin gene-related peptide) | A neuropeptide released by trigeminal nerves that drives migraine pain and vessel dilation | The central target of gepants and preventive monoclonal antibodies |
+| Aura | A reversible neurological symptom, usually visual, that precedes some migraine headaches | Helps people recognize an attack early and take abortive medicine sooner |
+| Triptan | A drug that activates 5-HT1B/1D serotonin receptors to stop an attack | First-line abortive class; cardiovascular and serotonin syndrome precautions apply |
+| Ergot alkaloid | An older nonselective vasoconstrictor (e.g., ergotamine) used for acute attacks | Potent vasoconstriction limits use; many contraindications and interactions |
+| Gepant | A CGRP receptor antagonist used for acute migraine | Aborts attacks without vasoconstriction — an option when triptans are not suitable |
+| Preventive therapy | A regular-schedule drug that reduces attack frequency and severity | Used for frequent/disabling migraine; benefit develops over weeks |
+| Medication overuse headache | Worsening chronic headache caused by frequent use of acute medicines | A preventable trap; detect it during medication reconciliation |
+| Cortical spreading depression | A slow wave of abnormal neuronal activity across the brain that initiates the attack | Explains the aura and the trigger for the pain cascade |
+
+## Example Scenario
+
+**Recognizing a pattern and a red flag.** A nursing student takes a history from a person who reports "sinus headaches that never go away." The person describes throbbing right-sided pain with nausea and light sensitivity occurring 10–12 days per month, and admits using a triptan "almost every other day" because "nothing else touches it." The student notes two things: the pattern is classic for migraine with medication overuse headache, and the person has coronary artery disease — a relative contraindication to triptans that the prescriber may need to revisit. The student separates observations (attack pattern, medication frequency, cardiac history) from interpretation (possible rebound headache, questionable triptan choice) and raises both with the instructor. Teaching points would include taking acute medicine at the first sign of attack, tracking medication days in a headache diary, and discussing preventive therapy — because frequent abortive use signals that prevention, not more abortive medication, is needed. Actual drug choices are made by the prescriber and verified against the current formulary and references.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Migraine | Tension-type headache | Migraine is throbbing, often unilateral, with nausea and light/sound sensitivity; tension-type is mild, band-like pressure without those features |
+| Acute (abortive) therapy | Preventive therapy | Abortives are taken at attack onset to stop it; preventives are taken daily/weekly to reduce attack frequency |
+| Triptan | Ergot alkaloid | Both vasoconstrict; triptans are selective 5-HT1B/1D agonists, ergots are nonselective with alpha-adrenergic effects and more adverse effects |
+| Gepant (acute CGRP blocker) | CGRP monoclonal antibody (preventive) | Gepants are short-acting oral drugs for an attack; monoclonal antibodies are long-acting injections for prevention |
+| Serotonin syndrome | Medication overuse headache | Serotonin syndrome is a drug-interaction emergency (triptans + SSRIs/SNRIs/MAOIs); overuse headache is chronic rebound pain from frequent abortive use |
+| Migraine aura | Seizure | Aura is a transient, fully reversible neurological symptom (often visual) before a headache; seizures are paroxysmal electrical events with different treatment |
+
+## Quick Review
+
+1. Why are triptans generally avoided in a person with significant coronary artery disease?
+2. What is the difference between a gepant and a CGRP monoclonal antibody?
+3. A person reports using their abortive migraine medicine most days of the week and now has daily headaches. What is the likely explanation, and why does it matter?
+4. Why is it important to take an abortive migraine drug early in the attack?
+5. What red-flag features in a headache history would require urgent evaluation rather than routine migraine care?
+
+<details>
+<summary>Show answers</summary>
+
+1. Triptans activate 5-HT1B/1D receptors and can constrict coronary arteries, so they pose risk in ischemic heart disease. The prescriber selects therapy based on the person's cardiovascular risk; the nurse verifies against current references and orders.
+2. A gepant is a small-molecule CGRP receptor antagonist taken orally to abort an attack; a CGRP monoclonal antibody is a long-acting injectable preventive that reduces attack frequency over time.
+3. This pattern suggests medication overuse (rebound) headache — frequent abortive use can convert episodic migraine into chronic daily headache. It matters because the solution is a planned, guided reduction plus preventive therapy, not more abortive medicine.
+4. The pain cascade amplifies quickly once an attack starts; early administration (at prodrome or aura) gives the drug the best chance to stop or blunt the attack, and it is a core teaching point for people with migraine.
+5. Sudden severe "thunderclap" onset, fever with nuchal rigidity, new focal neurological deficits, headache after head trauma, or a first-ever severe headache at an older age all warrant urgent evaluation for secondary causes such as hemorrhage or infection.
+
+</details>
+
+## Related Topics
+
+- Previous: [Epilepsy and Anticonvulsant Drugs](01-epilepsy-and-anticonvulsant-drugs.md)
+- Next: [Intracranial Emergencies and Intracranial Emergency Drugs](03-intracranial-emergencies-and-intracranial-emergency-drugs.md)
+- Related: [Anticonvulsant Drugs and Drugs to Treat Epilepsy, Migraine Headaches, and Intracranial Emergencies chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Pharmacology for Nurses
+- Local outline source: `pharmacology.md`
+- Official source URL: https://openstax.org/details/books/pharmacology/
+- Content type: Original educational study guide based on OpenStax outline structure. Drug classes and mechanisms only; no doses, schedules, or administration recommendations are included. Verify all clinical decisions against current references, the institutional formulary, and prescriber orders.
+- Last updated: 2026-08-15

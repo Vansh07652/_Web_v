@@ -1,0 +1,41 @@
+{
+  "id": "genetics-gene-expression-translation-and-genetic-code-0001",
+  "subject": "genetics",
+  "lesson": "gene-expression-translation-and-genetic-code",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A messenger RNA has the sequence 5' UCA AUG GGC UAA 3'. Where does translation begin, and what is the first amino acid of the peptide?",
+  "options": [
+    {
+      "id": "a",
+      "text": "At the AUG at nucleotides 4-6, producing methionine first"
+    },
+    {
+      "id": "b",
+      "text": "At the first nucleotide of the mRNA, producing serine first"
+    },
+    {
+      "id": "c",
+      "text": "At the GGC codon, producing glycine first"
+    },
+    {
+      "id": "d",
+      "text": "At the UAA stop codon, where no amino acid is added"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The ribosome scans the mRNA until it finds the AUG start codon, which encodes methionine, so translation begins at nucleotides 4-6 and methionine is added first. Starting at the first nucleotide would put UCA, a serine codon, first, which is a frame error. GGC encodes glycine but is not the start codon, and UAA is a stop codon, so no amino acid is added there and translation could not begin.",
+  "difficulty": "unknown",
+  "tags": [
+    "reading",
+    "frame",
+    "start",
+    "codon",
+    "identification"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-65cdececfa71eb09",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

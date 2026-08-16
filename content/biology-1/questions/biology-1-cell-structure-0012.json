@@ -1,0 +1,39 @@
+{
+  "id": "biology-1-cell-structure-0012",
+  "subject": "biology-1",
+  "lesson": "cell-structure",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A single cell cannot grow without limit. Which physical constraint involving the **surface-area-to-volume ratio** sets the maximum size a cell can reach?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A very large cell would need more DNA than a single nucleus can hold."
+    },
+    {
+      "id": "b",
+      "text": "A very large cell would have a cell wall too thick to absorb nutrients."
+    },
+    {
+      "id": "c",
+      "text": "A very large cell could not divide its ribosomes fast enough."
+    },
+    {
+      "id": "d",
+      "text": "Surface area grows more slowly than volume, so exchange across the membrane cannot keep up with the cell's needs."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "As a cell grows, volume increases as the cube of its size while surface area increases only as the square, so beyond a limit the membrane cannot supply the cytoplasm fast enough. A fails because DNA content does not set the size limit. B fails because most cells have no wall at all. C fails because ribosome numbers grow along with the cell and are not the constraint.",
+  "difficulty": "unknown",
+  "tags": [
+    "surface",
+    "area",
+    "volume"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-9062b24a38de1e43",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,252 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:patient-safety",
+    "slug": "patient-safety",
+    "title": "Patient Safety & Infection Prevention",
+    "aliases": [
+      {
+        "value": "patient-safety",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "patient safety & infection prevention",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "infection prevention",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "Patient Safety & Infection Prevention",
+        "kind": "source_subject_title",
+        "source_id": "expansion_qb"
+      },
+      {
+        "value": "15-patient-safety",
+        "kind": "source_subject_directory",
+        "source_id": "expansion_qb"
+      },
+      {
+        "value": "15",
+        "kind": "source_subject_number",
+        "source_id": "expansion_qb"
+      }
+    ],
+    "status": "final_question_bank_no_college_notes",
+    "category": "healthcare-foundations"
+  },
+  "units": [
+    {
+      "id": "unit:patient-safety:core-topics",
+      "slug": "core-topics",
+      "title": "Core Topics",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "core-topics",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:patient-safety:core-topics:foundations-of-patient-safety",
+          "slug": "foundations-of-patient-safety",
+          "title": "Foundations of Patient Safety",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/patient-safety/topics/core-topics/foundations-of-patient-safety.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:patient-safety:core-topics:standard-precautions",
+          "slug": "standard-precautions",
+          "title": "Standard Precautions",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/patient-safety/topics/core-topics/standard-precautions.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:patient-safety:core-topics:hand-hygiene",
+          "slug": "hand-hygiene",
+          "title": "Hand Hygiene",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/patient-safety/topics/core-topics/hand-hygiene.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:patient-safety:core-topics:personal-protective-equipment",
+          "slug": "personal-protective-equipment",
+          "title": "Personal Protective Equipment",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/patient-safety/topics/core-topics/personal-protective-equipment.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:patient-safety:core-topics:transmission-based-precautions",
+          "slug": "transmission-based-precautions",
+          "title": "Transmission-Based Precautions",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/patient-safety/topics/core-topics/transmission-based-precautions.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:patient-safety:core-topics:breaking-the-chain-of-infection",
+          "slug": "breaking-the-chain-of-infection",
+          "title": "Breaking the Chain of Infection",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/patient-safety/topics/core-topics/breaking-the-chain-of-infection.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:patient-safety:core-topics:falls-and-injury-prevention",
+          "slug": "falls-and-injury-prevention",
+          "title": "Falls and Injury Prevention",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/patient-safety/topics/core-topics/falls-and-injury-prevention.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:patient-safety:core-topics:medication-safety-foundations",
+          "slug": "medication-safety-foundations",
+          "title": "Medication Safety Foundations",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/patient-safety/topics/core-topics/medication-safety-foundations.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:patient-safety:core-topics:healthcare-errors-and-near-misses",
+          "slug": "healthcare-errors-and-near-misses",
+          "title": "Healthcare Errors and Near Misses",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/patient-safety/topics/core-topics/healthcare-errors-and-near-misses.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:patient-safety:core-topics:safety-culture-and-human-factors",
+          "slug": "safety-culture-and-human-factors",
+          "title": "Safety Culture and Human Factors",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/patient-safety/topics/core-topics/safety-culture-and-human-factors.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 1,
+    "topicCount": 10,
+    "teachingTopicCount": 0,
+    "eli10TopicCount": 10,
+    "highYieldTopicCount": 0,
+    "referencedTopicCount": 10,
+    "exactOrMappedQuestionCount": 120,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 120,
+    "citationReviewRequiredCount": 0
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

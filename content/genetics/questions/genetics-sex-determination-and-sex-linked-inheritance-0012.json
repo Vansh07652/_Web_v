@@ -1,0 +1,40 @@
+{
+  "id": "genetics-sex-determination-and-sex-linked-inheritance-0012",
+  "subject": "genetics",
+  "lesson": "sex-determination-and-sex-linked-inheritance",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** pedigree The pedigree below shows a family with an X linked dominant trait. An affected father has three daughters, all affected, and two sons, both unaffected. Which statement best explains this pattern? ```text PEDIGREE: Generation I: I-1 affected male x I-2 unaffected female Generation II: II-1 affected female, II-2 affected female, II-3 affected female, II-4 unaffected male, II-5 unaffected male Key inference: An affected father transmits the trait to all daughters and to no sons. Most consistent mode: X linked dominant ```",
+  "options": [
+    {
+      "id": "a",
+      "text": "Daughters are affected because they inherit two X chromosomes, one from each parent"
+    },
+    {
+      "id": "b",
+      "text": "An affected father passes the mutant allele to all of his children, but only daughters express it"
+    },
+    {
+      "id": "c",
+      "text": "The sons are unaffected because X inactivation silences the mutant allele in males"
+    },
+    {
+      "id": "d",
+      "text": "An affected father passes his mutant X chromosome to every daughter and his Y chromosome to every son, so all daughters are affected and no sons are"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "An affected male has genotype *X^D Y* and passes his *X^D* chromosome to every daughter with probability 1 and his Y chromosome to every son, so all daughters are affected and all sons are unaffected. A describes the mechanics of X inheritance in daughters but does not explain why the trait appears, B is contradicted by the sons, who never receive the paternal X at all, and C confuses dosage compensation with transmission, because males do not inactivate their single X chromosome.",
+  "difficulty": "unknown",
+  "tags": [
+    "linked",
+    "dominant",
+    "father",
+    "daughters"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-67f5c8a12332791c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,327 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:genetics",
+    "slug": "genetics",
+    "title": "Genetics",
+    "aliases": [],
+    "status": "final",
+    "category": "pre-health-core"
+  },
+  "units": [
+    {
+      "id": "unit:genetics:core-genetics",
+      "slug": "core-genetics",
+      "title": "Core Genetics",
+      "order": 1,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:genetics:core-genetics:introduction-to-genetics-and-history",
+          "slug": "introduction-to-genetics-and-history",
+          "title": "Introduction to Genetics and History",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/introduction-to-genetics-and-history.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:genetics:core-genetics:cell-division-and-chromosomes",
+          "slug": "cell-division-and-chromosomes",
+          "title": "Cell Division and Chromosomes",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/cell-division-and-chromosomes.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:genetics:core-genetics:mendelian-genetics-i-principles",
+          "slug": "mendelian-genetics-i-principles",
+          "title": "Mendelian Genetics I Principles",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/mendelian-genetics-i-principles.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:genetics:core-genetics:mendelian-genetics-ii-extensions",
+          "slug": "mendelian-genetics-ii-extensions",
+          "title": "Mendelian Genetics II Extensions",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/mendelian-genetics-ii-extensions.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:genetics:core-genetics:sex-determination-and-sex-linked-inheritance",
+          "slug": "sex-determination-and-sex-linked-inheritance",
+          "title": "Sex Determination and Sex Linked Inheritance",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/sex-determination-and-sex-linked-inheritance.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:genetics:core-genetics:linkage-and-genetic-mapping",
+          "slug": "linkage-and-genetic-mapping",
+          "title": "Linkage and Genetic Mapping",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/linkage-and-genetic-mapping.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:genetics:core-genetics:dna-structure-and-replication",
+          "slug": "dna-structure-and-replication",
+          "title": "DNA Structure and Replication",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/dna-structure-and-replication.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:genetics:core-genetics:dna-repair-and-mutation",
+          "slug": "dna-repair-and-mutation",
+          "title": "DNA Repair and Mutation",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/dna-repair-and-mutation.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:genetics:core-genetics:gene-expression-transcription",
+          "slug": "gene-expression-transcription",
+          "title": "Gene Expression Transcription",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/gene-expression-transcription.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:genetics:core-genetics:gene-expression-translation-and-genetic-code",
+          "slug": "gene-expression-translation-and-genetic-code",
+          "title": "Gene Expression Translation and Genetic Code",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/gene-expression-translation-and-genetic-code.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:genetics:core-genetics:gene-regulation-prokaryotes",
+          "slug": "gene-regulation-prokaryotes",
+          "title": "Gene Regulation Prokaryotes",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/gene-regulation-prokaryotes.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:genetics:core-genetics:gene-regulation-eukaryotes-and-epigenetics",
+          "slug": "gene-regulation-eukaryotes-and-epigenetics",
+          "title": "Gene Regulation Eukaryotes and Epigenetics",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/gene-regulation-eukaryotes-and-epigenetics.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:genetics:core-genetics:recombinant-dna-technology-and-biotechnology",
+          "slug": "recombinant-dna-technology-and-biotechnology",
+          "title": "Recombinant DNA Technology and Biotechnology",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/recombinant-dna-technology-and-biotechnology.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:genetics:core-genetics:genomics-and-bioinformatics",
+          "slug": "genomics-and-bioinformatics",
+          "title": "Genomics and Bioinformatics",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/genomics-and-bioinformatics.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:genetics:core-genetics:population-genetics-and-evolution",
+          "slug": "population-genetics-and-evolution",
+          "title": "Population Genetics and Evolution",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/population-genetics-and-evolution.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:genetics:core-genetics:human-genetics-and-medical-applications",
+          "slug": "human-genetics-and-medical-applications",
+          "title": "Human Genetics and Medical Applications",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/genetics/topics/core-genetics/human-genetics-and-medical-applications.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 1,
+    "topicCount": 16,
+    "teachingTopicCount": 16,
+    "eli10TopicCount": 16,
+    "highYieldTopicCount": 16,
+    "referencedTopicCount": 0,
+    "exactOrMappedQuestionCount": 192,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 192,
+    "citationReviewRequiredCount": 192
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

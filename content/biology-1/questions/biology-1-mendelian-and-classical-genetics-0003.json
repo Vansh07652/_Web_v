@@ -1,0 +1,38 @@
+{
+  "id": "biology-1-mendelian-and-classical-genetics-0003",
+  "subject": "biology-1",
+  "lesson": "mendelian-and-classical-genetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A tall pea plant shows the dominant phenotype for stem height, but its genotype is unknown. A **test cross** is used to determine whether the plant is **homozygous** dominant (TT) or heterozygous (Tt). Which cross would accomplish this?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Crossing it with a tall plant of unknown genotype."
+    },
+    {
+      "id": "b",
+      "text": "Crossing it with a homozygous dominant (TT) plant."
+    },
+    {
+      "id": "c",
+      "text": "Crossing it with a homozygous recessive dwarf plant (tt)."
+    },
+    {
+      "id": "d",
+      "text": "Observing the plant's height under a microscope to read its genotype directly."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "A test cross mates the unknown dominant phenotype with a homozygous recessive individual, because any recessive allele hidden in the unknown parent will show up in the offspring. If the plant is TT, all offspring are tall, but if it is Tt, half the offspring are dwarf, revealing the genotype. A and B can never expose a hidden recessive allele, and D is wrong because a phenotype cannot be read directly from cells in this way.",
+  "difficulty": "unknown",
+  "tags": [
+    "test",
+    "cross"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-f0963ec18ccf229e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

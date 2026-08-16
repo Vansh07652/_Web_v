@@ -1,0 +1,40 @@
+{
+  "id": "genetics-gene-regulation-prokaryotes-0002",
+  "subject": "genetics",
+  "lesson": "gene-regulation-prokaryotes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application An *E. coli* strain carries a *lacY^-* loss of function mutation, so no lactose permease is produced. Lactose is added to the medium. What is the most likely outcome?",
+  "options": [
+    {
+      "id": "a",
+      "text": "beta galactosidase is produced at high levels because lactose is not consumed and accumulates in the medium."
+    },
+    {
+      "id": "b",
+      "text": "The lac operon is induced poorly or not at all, because lactose cannot enter the cell to inactivate the Lac repressor."
+    },
+    {
+      "id": "c",
+      "text": "The lac operon is induced normally, because lactose permease is not required for induction."
+    },
+    {
+      "id": "d",
+      "text": "The Lac repressor is not made, so the lac operon is transcribed constitutively."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Lactose permease, the protein product of *lacY*, transports lactose into the cell, where it inactivates the Lac repressor and induces *lacZ*, which encodes beta galactosidase. Without permease, the inducer never accumulates and the repressor stays bound to the operator. C forgets the permease's transport role, and D confuses *lacY* with *lacI*.",
+  "difficulty": "unknown",
+  "tags": [
+    "lacy",
+    "mutant",
+    "induction",
+    "failure"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-3367b1216fd616d4",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

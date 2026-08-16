@@ -1,0 +1,40 @@
+{
+  "id": "genetics-population-genetics-and-evolution-0012",
+  "subject": "genetics",
+  "lesson": "population-genetics-and-evolution",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem A single *Aa* heterozygote plant in a normally outcrossing species is self-fertilized for two consecutive generations. Assuming equal viability and Mendelian segregation, what fraction of the plants in the second generation is heterozygous?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/2"
+    },
+    {
+      "id": "b",
+      "text": "1/8"
+    },
+    {
+      "id": "c",
+      "text": "1/4"
+    },
+    {
+      "id": "d",
+      "text": "3/4"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Each generation of selfing removes half of the remaining heterozygosity, because an *Aa* plant selfed gives 1/4 *AA*, 1/2 *Aa*, and 1/4 *aa*, the 1:2:1 genotypic ratio (sums to 4). After one selfing generation the heterozygote fraction is 1/2, and after the second it is 1/2 x 1/2 = 1/4. Option A is the fraction after only one generation, B is 1/2 x 1/2 x 1/2 = 1/8, and D is the fraction of homozygotes, 3/4, in the second generation.",
+  "difficulty": "unknown",
+  "tags": [
+    "self",
+    "fertilization",
+    "reduces",
+    "heterozygosity"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-c8080c5df327048e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,39 @@
+{
+  "id": "physics-2-dc-circuits-0002",
+  "subject": "physics-2",
+  "lesson": "dc-circuits",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For equivalent resistance reduction, use $tau = R C$ in a RC time constant model. The first quantity is 3.80 Ohm and the second is 2.00 F. What is the time constant?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$3.80\\ \\text{s}$"
+    },
+    {
+      "id": "b",
+      "text": "$15.20\\ \\text{s}$"
+    },
+    {
+      "id": "c",
+      "text": "$7.60\\ \\text{s}$"
+    },
+    {
+      "id": "d",
+      "text": "$9.50\\ \\text{s}$"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Using $tau = R C$ gives 3.80 Ohm times 2.00 F = $7.60\\ \\text{s}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to s, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "equivalent",
+    "resistance",
+    "reduction"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ecaad7dd501f0cf0",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

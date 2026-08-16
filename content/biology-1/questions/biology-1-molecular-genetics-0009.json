@@ -1,0 +1,39 @@
+{
+  "id": "biology-1-molecular-genetics-0009",
+  "subject": "biology-1",
+  "lesson": "molecular-genetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "The **trp operon** encodes enzymes that make the amino acid tryptophan. Which statement best describes how this repressible operon is regulated?",
+  "options": [
+    {
+      "id": "a",
+      "text": "High tryptophan levels activate the repressor, which binds the operator and shuts off tryptophan synthesis"
+    },
+    {
+      "id": "b",
+      "text": "High tryptophan levels inactivate the repressor, which allows more tryptophan synthesis"
+    },
+    {
+      "id": "c",
+      "text": "Tryptophan binds RNA polymerase directly to prevent transcription"
+    },
+    {
+      "id": "d",
+      "text": "The trp operon is transcribed at a constant rate regardless of tryptophan levels"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The trp repressor is inactive on its own, and tryptophan acts as a corepressor that binds and activates it, so the repressor can block the operator and stop synthesis when tryptophan is already abundant. B reverses the logic and would waste energy making a product the cell already has. C names the wrong target, and D ignores regulation entirely.",
+  "difficulty": "unknown",
+  "tags": [
+    "regulation",
+    "trp",
+    "operon"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-2692bbd1e4c2f67c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

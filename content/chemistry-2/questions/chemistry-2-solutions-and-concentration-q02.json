@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-solutions-and-concentration-q02",
+  "subject": "chemistry-2",
+  "lesson": "solutions-and-concentration",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which statement correctly defines molarity, and what is the molarity of a solution containing 0.5 mol of glucose in a total volume of 2 L?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Moles of solute per kilogram of solvent; the molarity is 0.25 M"
+    },
+    {
+      "id": "b",
+      "text": "Grams of solute per liter of solution; the molarity is 0.25 M"
+    },
+    {
+      "id": "c",
+      "text": "Moles of solute per liter of solution; the molarity is 0.25 M"
+    },
+    {
+      "id": "d",
+      "text": "Moles of solute per liter of solution; the molarity is 4 M"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Molarity (M) is moles of solute divided by liters of final solution, so 0.5 mol / 2 L = 0.25 M. Choice A gives the definition of molality (mol solute per kg solvent), a distinct unit used for colligative-property work; choice D applies the right definition but inverts the division (2 / 0.5). Molarity is referenced to the finished solution volume rather than the volume of solvent added, because dissolving a solute changes the final volume of the mixture.\n\nELI-10: Molarity answers one question: how many moles of solute sit in each liter of the finished liquid? Two details carry all the weight. First, the numerator is moles, not grams, so a mass must be converted before you can use it. Second, the denominator is the volume after mixing, not the volume of water you started with. Here, 0.5 mol spread over 2 L means each liter holds only a quarter of a mole, so the value is 0.25 M. If you ever get a number larger than the moles you started with, check that you did not divide backwards.",
+  "difficulty": "easy",
+  "tags": [
+    "molarity definition",
+    "moles per liter",
+    "molarity vs molality"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-278",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

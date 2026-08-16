@@ -1,0 +1,40 @@
+{
+  "id": "biology-1-biotechnology-0006",
+  "subject": "biology-1",
+  "lesson": "biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In **Sanger sequencing**, the reaction contains normal nucleotides plus a small amount of **dideoxy nucleotides** that lack the 3-prime hydroxyl group. What happens when the polymerase inserts a dideoxy nucleotide?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The strand grows faster because the dideoxy nucleotide carries extra energy."
+    },
+    {
+      "id": "b",
+      "text": "Chain elongation stops at that position, so the mix produces fragments of different lengths that reveal the sequence."
+    },
+    {
+      "id": "c",
+      "text": "The double helix denatures, allowing the fragments to be weighed on a scale."
+    },
+    {
+      "id": "d",
+      "text": "The dideoxy nucleotide is converted to a normal nucleotide and the chain continues."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "A dideoxy nucleotide lacks the 3-prime hydroxyl group, so when the polymerase inserts one, no bond can form for the next nucleotide and synthesis stops at that position. Because the reaction mixes normal and dideoxy nucleotides, the products are fragments that stop at every possible position, and their lengths reveal the sequence one base at a time. A and D describe effects that dideoxy nucleotides do not have, and C confuses denaturation with the chain-termination readout.",
+  "difficulty": "unknown",
+  "tags": [
+    "sanger",
+    "sequencing",
+    "chain",
+    "termination"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-37c6d4d415f69033",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

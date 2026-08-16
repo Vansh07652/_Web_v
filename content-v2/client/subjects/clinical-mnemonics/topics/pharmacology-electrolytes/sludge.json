@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:clinical-mnemonics:pharmacology-electrolytes:sludge",
+  "slug": "sludge",
+  "title": "SLUDGE",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics"
+  },
+  "unit": {
+    "id": "unit:clinical-mnemonics:pharmacology-electrolytes",
+    "slug": "pharmacology-electrolytes",
+    "title": "Pharmacology & Electrolytes",
+    "order": 3
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "Names the classic muscarinic effects of cholinergic excess — Salivation, Lacrimation, Urination, Defecation/Diarrhea, Gastrointestinal distress, Emesis — the 'wet patient' of organophosphate/carbamate poisoning and nerve-agent exposure.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- **S** — Salivation\n- **L** — Lacrimation\n- **U** — Urination\n- **D** — Defecation / Diarrhea\n- **G** — Gastrointestinal distress\n- **E** — Emesis",
+    "collegeNotes": "Names the classic muscarinic effects of cholinergic excess — Salivation, Lacrimation, Urination, Defecation/Diarrhea, Gastrointestinal distress, Emesis — the 'wet patient' of organophosphate/carbamate poisoning and nerve-agent exposure.\n\n### S — Salivation\n\nExcess saliva, drooling, frothing\n\nMuscarinic (M3) stimulation of salivary glands produces copious salivation, drooling, and frothing — a visible early sign of organophosphate or nerve-agent poisoning.\n\n**Physiology.** Acetylcholine normally drives salivation via M3 muscarinic receptors; when acetylcholinesterase is inhibited, acetylcholine accumulates and the glands run at full blast.\n\n### L — Lacrimation\n\nExcess tears\n\nMuscarinic stimulation of the lacrimal glands causes excess tearing; with miosis it is a hallmark of cholinergic toxicity.\n\n**Physiology.** Lacrimal glands, like salivary glands, are M3 muscarinic targets driven by acetylcholine excess.\n\n### U — Urination\n\nInvoluntary / increased urination\n\nMuscarinic stimulation of the detrusor causes involuntary urination and urgency — part of the 'wet patient' picture.\n\n**Physiology.** Bladder contraction is mediated by M3 receptors on the detrusor; acetylcholine excess causes uncontrolled emptying.\n\n### D — Defecation / Diarrhea\n\nInvoluntary stool, diarrhea\n\nCholinergic excess produces gastrointestinal hypermotility with diarrhea and involuntary defecation.\n\n**Physiology.** M3 receptors increase gut smooth-muscle motility and secretions; acetylcholine excess causes cramping and diarrhea.\n\n### G — Gastrointestinal distress\n\nCramping, hypermotility\n\nSmooth-muscle hypermotility causes abdominal cramping, nausea, and increased GI secretions, worsening dehydration and electrolyte loss.\n\n**Physiology.** The same muscarinic overdrive that causes diarrhea also produces cramping and secretory losses.\n\n### E — Emesis\n\nVomiting\n\nMuscarinic stimulation plus central chemoreceptor activation triggers vomiting, adding to fluid loss and raising aspiration risk in a patient with a compromised airway.\n\n**Physiology.** Acetylcholine excess activates peripheral GI receptors and central pathways that coordinate vomiting.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "- S = Salivation\n- L = Lacrimation\n- U = Urination\n- D = Defecation / Diarrhea\n- G = Gastrointestinal distress\n- E = Emesis",
+    "eli10": "A list of the 'wet and leaky' signs that happen when too much acetylcholine turns on all the body's squeeze-and-secrete switches at once.\n\n**S — Salivation.** The mouth has 'water faucets' that a chemical messenger turns on. Too much messenger leaves the faucets stuck open, so the mouth overflows with spit.\n\n**L — Lacrimation.** The same messenger turns on the tear faucets, so the eyes water even though the patient isn't sad.\n\n**U — Urination.** The bladder is told to squeeze and empty by the same messenger; too much makes it squeeze on its own, so the patient wets themselves.\n\n**D — Defecation / Diarrhea.** The gut is told to squeeze and push by this messenger; too much makes the bowels move too much — loose, watery, uncontrollable stool.\n\n**G — Gastrointestinal distress.** The stomach and intestines cramp and churn too hard, like a washing machine stuck on spin — painful belly cramps and nausea.\n\n**E — Emesis.** The stomach gets the 'throw up' signal too, so the patient vomits, sometimes repeatedly.",
+    "quickReview": "- S = Salivation — Excess saliva, drooling, frothing\n- L = Lacrimation — Excess tears\n- U = Urination — Involuntary / increased urination\n- D = Defecation / Diarrhea — Involuntary stool, diarrhea\n- G = Gastrointestinal distress — Cramping, hypermotility\n- E = Emesis — Vomiting",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Cholinesterase Inhibitors / Organophosphate Toxicity — Centers for Disease Control and Prevention",
+        "url": "https://emergency.cdc.gov/agent/nerve/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "sludge",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-nursing-mnemonics",
+    "sourceFile": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json",
+    "sourceStatus": "CURRENT",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-clinical-mnemonics"
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:clinical-mnemonics:emergency-trauma:sample",
+  "slug": "sample",
+  "title": "SAMPLE",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics"
+  },
+  "unit": {
+    "id": "unit:clinical-mnemonics:emergency-trauma",
+    "slug": "emergency-trauma",
+    "title": "Emergency & Trauma",
+    "order": 1
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "A six-part history-taking checklist gathering signs/symptoms, allergies, medications, past medical history, last oral intake, and events leading up to explain why a patient is sick now.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- **S** — Signs / Symptoms\n- **A** — Allergies\n- **M** — Medications\n- **P** — Past medical history\n- **L** — Last oral intake\n- **E** — Events leading up",
+    "collegeNotes": "A six-part history-taking checklist gathering signs/symptoms, allergies, medications, past medical history, last oral intake, and events leading up to explain why a patient is sick now.\n\n### S — Signs / Symptoms\n\nWhat is wrong, seen vs. felt\n\nGather the chief complaint and the story of the current illness. Signs are objective (fever, bleeding, wheezing); symptoms are subjective (pain, nausea). Documenting both allows tracking and accurate handoff.\n\n**Physiology.** Objective signs anchor the assessment and are reproducible; symptoms localize the affected body system.\n\n### A — Allergies\n\nWhat the patient reacts to\n\nAsk specifically about drug allergies (penicillin, sulfa, contrast, latex, opioids) and the type of reaction. Distinguish a true allergy (anaphylaxis, hives, swelling) from an intolerance (nausea). Verify before every administration, including contrast and blood products.\n\n**Physiology.** True allergic reactions are immune-mediated and can be life-threatening; intolerances are dose-related side effects.\n\n**Safety.** Verify allergies before every medication administration; clarify unlabeled allergies before giving the drug.\n\n### M — Medications\n\nWhat the patient takes\n\nObtain a complete list including prescriptions, over-the-counter, herbals/supplements, and PRNs, with doses and last times taken. Note recent changes, missed doses, and non-adherence. Many presentations are caused by medications (side effects, toxicity, withdrawal).\n\n**Physiology.** Drugs modify physiology: beta-blockers mask tachycardia, anticoagulants change bleeding risk, missed antihypertensives cause rebound hypertension.\n\n**Safety.** Include OTC and herbal products (aspirin, NSAIDs, ginkgo, garlic) that increase bleeding risk.\n\n### P — Past medical history\n\nPrevious illness and surgery\n\nAsk about chronic conditions (diabetes, hypertension, heart disease, asthma, seizures, cancer), prior surgeries, hospitalizations, and relevant obstetric history. This explains current risk (e.g., a diabetic with chest pain may have a silent MI).\n\n**Physiology.** Chronic disease changes baseline physiology and risk; knowing the past explains the present and predicts the future.\n\n### L — Last oral intake\n\nLast meal or drink\n\nRecord the time, amount, and content of the last meal/fluid. This informs aspiration risk before sedation/anesthesia, helps interpret blood glucose in diabetics, and flags prolonged fasting (dehydration, hypoglycemia).\n\n**Physiology.** A full stomach raises regurgitation/aspiration risk during sedation; prolonged fasting contributes to hypoglycemia and dehydration.\n\n**Safety.** Fasting status is a required check before any procedure requiring sedation.\n\n### E — Events leading up\n\nWhat happened immediately before onset\n\nAsk what the patient was doing immediately before onset — activity, trauma, exposure, meals, medications, emotional stress. This context is often the single most informative piece and frequently holds the diagnosis.\n\n**Physiology.** Most acute presentations have an identifiable trigger or mechanism; identifying it explains the event and guides treatment and prevention.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "- S = Signs / Symptoms\n- A = Allergies\n- M = Medications\n- P = Past medical history\n- L = Last oral intake\n- E = Events leading up",
+    "eli10": "A six-box 'all about me' form you fill in about any patient, so you know the important background — and never miss something dangerous like an allergy — before you act.\n\n**S — Signs / Symptoms.** Signs are things others can see or measure (a fever, a rash, fast breathing); symptoms are things only the patient feels (pain, nausea, dizziness). Together they answer 'what's wrong?'\n\n**A — Allergies.** Allergies ask if the body has ever overreacted to a medicine, food, or other substance — like a car alarm that goes off too easily. We ask because we must never give a medicine that sets off that alarm.\n\n**M — Medications.** Medications ask what pills, shots, or inhalers the patient takes — like reading the 'what's under the hood' list of a car. It explains symptoms and changes what is safe to give.\n\n**P — Past medical history.** Past medical history asks what has happened to the body before — big sicknesses, surgeries, hospital stays — like reading the service history of a used car. Past problems often explain today's.\n\n**L — Last oral intake.** Last oral intake asks when the patient last ate or drank. An empty stomach is safer if surgery is needed, and for diabetics, skipped meals can cause low blood sugar.\n\n**E — Events leading up.** Events leading up asks what was happening right before this started — the 'story of the moment.' They were stung by a bee, fell off a ladder, or took medicine and felt faint.",
+    "quickReview": "- S = Signs / Symptoms — What is wrong, seen vs. felt\n- A = Allergies — What the patient reacts to\n- M = Medications — What the patient takes\n- P = Past medical history — Previous illness and surgery\n- L = Last oral intake — Last meal or drink\n- E = Events leading up — What happened immediately before onset",
+    "workedExamples": "",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "sample",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-nursing-mnemonics",
+    "sourceFile": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json",
+    "sourceStatus": "CURRENT",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-clinical-mnemonics"
+  },
+  "sourceSnapshotMarkdown": "{\n  \"mnemonic\": \"SAMPLE\",\n  \"category\": \"Emergency & Trauma\",\n  \"purpose\": \"A six-part history-taking checklist gathering signs/symptoms, allergies, medications, past medical history, last oral intake, and events leading up to explain why a patient is sick now.\",\n  \"eli10_purpose\": \"A six-box 'all about me' form you fill in about any patient, so you know the important background — and never miss something dangerous like an allergy — before you act.\",\n  \"status\": \"CURRENT\",\n  \"components\": [\n    {\n      \"symbol\": \"S\",\n      \"term\": \"Signs / Symptoms\",\n      \"association\": \"What is wrong, seen vs. felt\",\n      \"eli10\": \"Signs are things others can see or measure (a fever, a rash, fast breathing); symptoms are things only the patient feels (pain, nausea, dizziness). Together they answer 'what's wrong?'\",\n      \"clinical_explanation\": \"Gather the chief complaint and the story of the current illness. Signs are objective (fever, bleeding, wheezing); symptoms are subjective (pain, nausea). Documenting both allows tracking and accurate handoff.\",\n      \"physiology\": \"Objective signs anchor the assessment and are reproducible; symptoms localize the affected body system.\",\n      \"safety_note\": \"\"\n    },\n    {\n      \"symbol\": \"A\",\n      \"term\": \"Allergies\",\n      \"association\": \"What the patient reacts to\",\n      \"eli10\": \"Allergies ask if the body has ever overreacted to a medicine, food, or other substance — like a car alarm that goes off too easily. We ask because we must never give a medicine that sets off that alarm.\",\n      \"clinical_explanation\": \"Ask specifically about drug allergies (penicillin, sulfa, contrast, latex, opioids) and the type of reaction. Distinguish a true allergy (anaphylaxis, hives, swelling) from an intolerance (nausea). Verify before every administration, including contrast and blood products.\",\n      \"physiology\": \"True allergic reactions are immune-mediated and can be life-threatening; intolerances are dose-related side effects.\",\n      \"safety_note\": \"Verify allergies before every medication administration; clarify unlabeled allergies before giving the drug.\"\n    },\n    {\n      \"symbol\": \"M\",\n      \"term\": \"Medications\",\n      \"association\": \"What the patient takes\",\n      \"eli10\": \"Medications ask what pills, shots, or inhalers the patient takes — like reading the 'what's under the hood' list of a car. It explains symptoms and changes what is safe to give.\",\n      \"clinical_explanation\": \"Obtain a complete list including prescriptions, over-the-counter, herbals/supplements, and PRNs, with doses and last times taken. Note recent changes, missed doses, and non-adherence. Many presentations are caused by medications (side effects, toxicity, withdrawal).\",\n      \"physiology\": \"Drugs modify physiology: beta-blockers mask tachycardia, anticoagulants change bleeding risk, missed antihypertensives cause rebound hypertension.\",\n      \"safety_note\": \"Include OTC and herbal products (aspirin, NSAIDs, ginkgo, garlic) that increase bleeding risk.\"\n    },\n    {\n      \"symbol\": \"P\",\n      \"term\": \"Past medical history\",\n      \"association\": \"Previous illness and surgery\",\n      \"eli10\": \"Past medical history asks what has happened to the body before — big sicknesses, surgeries, hospital stays — like reading the service history of a used car. Past problems often explain today's.\",\n      \"clinical_explanation\": \"Ask about chronic conditions (diabetes, hypertension, heart disease, asthma, seizures, cancer), prior surgeries, hospitalizations, and relevant obstetric history. This explains current risk (e.g., a diabetic with chest pain may have a silent MI).\",\n      \"physiology\": \"Chronic disease changes baseline physiology and risk; knowing the past explains the present and predicts the future.\",\n      \"safety_note\": \"\"\n    },\n    {\n      \"symbol\": \"L\",\n      \"term\": \"Last oral intake\",\n      \"association\": \"Last meal or drink\",\n      \"eli10\": \"Last oral intake asks when the patient last ate or drank. An empty stomach is safer if surgery is needed, and for diabetics, skipped meals can cause low blood sugar.\",\n      \"clinical_explanation\": \"Record the time, amount, and content of the last meal/fluid. This informs aspiration risk before sedation/anesthesia, helps interpret blood glucose in diabetics, and flags prolonged fasting (dehydration, hypoglycemia).\",\n      \"physiology\": \"A full stomach raises regurgitation/aspiration risk during sedation; prolonged fasting contributes to hypoglycemia and dehydration.\",\n      \"safety_note\": \"Fasting status is a required check before any procedure requiring sedation.\"\n    },\n    {\n      \"symbol\": \"E\",\n      \"term\": \"Events leading up\",\n      \"association\": \"What happened immediately before onset\",\n      \"eli10\": \"Events leading up asks what was happening right before this started — the 'story of the moment.' They were stung by a bee, fell off a ladder, or took medicine and felt faint.\",\n      \"clinical_explanation\": \"Ask what the patient was doing immediately before onset — activity, trauma, exposure, meals, medications, emotional stress. This context is often the single most informative piece and frequently holds the diagnosis.\",\n      \"physiology\": \"Most acute presentations have an identifiable trigger or mechanism; identifying it explains the event and guides treatment and prevention.\",\n      \"safety_note\": \"\"\n    }\n  ]\n}"
+}

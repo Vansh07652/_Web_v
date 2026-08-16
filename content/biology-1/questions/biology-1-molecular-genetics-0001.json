@@ -1,0 +1,39 @@
+{
+  "id": "biology-1-molecular-genetics-0001",
+  "subject": "biology-1",
+  "lesson": "molecular-genetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In nearly all living cells, genetic information moves along a single standard pathway. According to the **central dogma**, which sequence of steps describes this pathway?",
+  "options": [
+    {
+      "id": "a",
+      "text": "DNA to RNA to protein"
+    },
+    {
+      "id": "b",
+      "text": "Protein to RNA to DNA"
+    },
+    {
+      "id": "c",
+      "text": "RNA to protein without any DNA intermediate"
+    },
+    {
+      "id": "d",
+      "text": "DNA to protein, skipping the RNA message"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The central dogma states that DNA is copied into RNA by transcription and that RNA is read into protein by translation, always in that order. B reverses the flow into a protein-first pathway, which only special reverse-transcribing viruses use and is not the standard route. C leaves out DNA, and D leaves out RNA, but the standard pathway always passes through both steps.",
+  "difficulty": "unknown",
+  "tags": [
+    "central",
+    "dogma",
+    "flow"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-2692bbd1e4c2f67c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

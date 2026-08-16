@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cytoskeleton-motility:lamellipodia",
+  "slug": "lamellipodia",
+  "title": "Lamellipodia",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cytoskeleton-motility",
+    "slug": "cytoskeleton-motility",
+    "title": "Cytoskeleton Motility",
+    "order": 5
+  },
+  "order": 14,
+  "status": "final",
+  "sections": {
+    "overview": "The lamellipodium is the broad, flat, sheet-like protrusion at the leading edge of a migrating cell, a thin veil (only ~100–200 nm thick) filled with a **dense, branched actin network**. Its branched geometry is created by the **Arp2/3 complex**, which nucleates a new \"daughter\" filament at a ~70° angle off the side of an existing \"mother\" filament. As the network grows, actin **treadmills** — monomers add at the membrane-proximal barbed ends while older ADP-actin is severed and recycled at the rear by **cofilin** — and this continuous polymerization pushes the plasma membrane forward. Lamellipodium formation is triggered by the Rho-family GTPase **Rac**, which acts through **WAVE** to activate Arp2/3.",
+    "whyItMatters": "Lamellipodia drive **cell crawling** in immune cells chasing pathogens, fibroblasts closing wounds, and epithelial sheets during development. The Rac→WAVE→Arp2/3 pathway is a core engine of **cell migration**, and its deregulation is central to **cancer invasion and metastasis** (many tumors upregulate Rac, WAVE, or Arp2/3). The same branched-actin machinery also powers **endocytosis** (clathrin-mediated), **phagocytosis**, and intracellular motility of pathogens (e.g., *Listeria* hijacks Arp2/3 to move through cells) — making it a broad target for understanding and treating disease.",
+    "learningObjectives": "- Describe the structure of the lamellipodium and its branched actin network.\n- Explain how the Arp2/3 complex nucleates branched filaments and how WASP/WAVE activate it.\n- Trace the actin treadmilling cycle that produces protrusive force.\n- Relate Rac signaling to lamellipodium formation and contrast it with filopodia.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe lamellipodium is the broad, flat, sheet-like protrusion at the leading edge of a migrating cell, a thin veil (only ~100–200 nm thick) filled with a **dense, branched actin network**. Its branched geometry is created by the **Arp2/3 complex**, which nucleates a new \"daughter\" filament at a ~70° angle off the side of an existing \"mother\" filament. As the network grows, actin **treadmills** — monomers add at the membrane-proximal barbed ends while older ADP-actin is severed and recycled at the rear by **cofilin** — and this continuous polymerization pushes the plasma membrane forward. Lamellipodium formation is triggered by the Rho-family GTPase **Rac**, which acts through **WAVE** to activate Arp2/3.\n\n### Key Components\n\n- **Actin filaments (F-actin):** polarized polymers whose barbed (plus) ends face the leading-edge membrane.\n- **Arp2/3 complex:** a seven-subunit nucleator that binds the side of a mother filament and initiates a new filament at a **~70° branch**.\n- **Nucleation-promoting factors (NPFs):** **WASP/WAVE/SCAR** proteins that deliver actin monomers and activate Arp2/3.\n- **Rac (Rho-family GTPase):** the master switch for lamellipodia; active Rac activates WAVE.\n- **Profilin:** delivers ATP–actin to barbed ends and promotes nucleotide exchange.\n- **Capping protein:** binds and blocks barbed ends, funneling monomers to the few remaining free ends (thus increasing protrusive force and branch density).\n- **Cofilin/ADF:** severs older ADP-actin filaments and promotes pointed-end disassembly at the network rear.\n- **AIP1, gelsolin:** additional severing/capping regulators of the treadmilling cycle.\n\n### Mechanism / How It Works\n\n1. Activated **Rac** (membrane-anchored, GTP-bound) recruits and activates the **WAVE complex**, which in turn activates **Arp2/3** near the plasma membrane.\n2. **Arp2/3** binds the side of an existing filament and nucleates a new filament growing at ~70°, producing the characteristic Y-branched, dendritic network.\n3. **Profilin–actin** adds to the free barbed ends, which push against the membrane, generating protrusive force.\n4. **Capping protein** terminates many barbed ends after they elongate a short distance; this channels monomer flux into fewer, well-oriented ends and keeps the network dense and branched.\n5. As filaments age, actin-bound ATP hydrolyzes to ADP; **cofilin** severs and disassembles this older ADP-actin at the network's rear, recycling monomers (profilin recharges them with ATP).\n6. The net result is **treadmilling**: assembly at the front, disassembly at the back, with the membrane pushed forward while the cell body catches up.\n\n### Energy and Directionality\n\nLamellipodial protrusion is powered by **actin ATP hydrolysis**. ATP–actin polymerizes at the barbed (plus) ends; the lagging hydrolysis to ADP marks older filaments for cofilin severing at the rear. This **directional treadmilling** (barbed-end assembly at the front, pointed-end/severed disassembly at the back) is what converts chemical energy (ATP) into directed mechanical work — pushing the membrane outward.\n\n### Experimental Evidence / Technique\n\n- **Electron microscopy (platinum replica):** shows the dense, ~70° branched (dendritic) network unique to lamellipodia.\n- **Arp2/3 inhibition (CK-666, RNAi):** cells lose lamellipodial branches and slow migration, proving Arp2/3 builds the network.\n- **Photoactivation / fluorescent speckle microscopy:** reveals actin flux — continuous polymerization at the leading edge and retrograde flow/disassembly at the rear.\n- **Rac dominant-negative/active mutants:** active Rac induces lamellipodia; dominant-negative Rac abolishes them, establishing Rac as the trigger.\n- **WAVE/WASP knockout:** loss of NPFs blocks Arp2/3 activation and lamellipodium formation.",
+    "howItWorks": "1. Activated **Rac** (membrane-anchored, GTP-bound) recruits and activates the **WAVE complex**, which in turn activates **Arp2/3** near the plasma membrane.\n2. **Arp2/3** binds the side of an existing filament and nucleates a new filament growing at ~70°, producing the characteristic Y-branched, dendritic network.\n3. **Profilin–actin** adds to the free barbed ends, which push against the membrane, generating protrusive force.\n4. **Capping protein** terminates many barbed ends after they elongate a short distance; this channels monomer flux into fewer, well-oriented ends and keeps the network dense and branched.\n5. As filaments age, actin-bound ATP hydrolyzes to ADP; **cofilin** severs and disassembles this older ADP-actin at the network's rear, recycling monomers (profilin recharges them with ATP).\n6. The net result is **treadmilling**: assembly at the front, disassembly at the back, with the membrane pushed forward while the cell body catches up.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Lamellipodium = **broad, flat, branched (Arp2/3) actin network** (~70° branches).\n- **Arp2/3** nucleates daughter filaments off mother filaments; activated by **WASP/WAVE (NPFs)**.\n- **Rac** is the GTPase switch; **Cdc42 → filopodia**, **Rho → stress fibers/focal adhesions**.\n- **Profilin** feeds ATP–actin to barbed ends; **capping protein** limits end length.\n- **Cofilin** severs ADP-actin at the rear → recycling → **treadmilling**.\n- Protrusive force = actin polymerization (barbed ends push the membrane).\n- Powered by **actin ATP hydrolysis**.\n- Deregulated in cancer invasion; also used in endocytosis/phagocytosis/Listeria motility.",
+    "commonConfusions": "- **\"Lamellipodia and filopodia are interchangeable.\"** — Lamellipodia are **branched sheets** (Arp2/3); filopodia are **parallel bundles** (formins + fascin).\n- **\"Arp2/3 elongates filaments.\"** — Arp2/3 **nucleates branches**; elongation is done by profilin–actin addition at barbed ends (and by formins elsewhere).\n- **\"Rac makes filopodia.\"** — **Rac → lamellipodia**; **Cdc42 → filopodia**; **Rho → stress fibers**.\n- **\"Actin pushes by contracting.\"** — Protrusion is from **polymerization**; contraction (myosin II) happens behind the leading edge in stress fibers.\n- **\"The network is static.\"** — It continuously treadmills; a steady lamellipodium is a dynamic steady state, not a frozen structure.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture a crowd pushing a giant, thin sheet of fabric forward from behind. The \"pushers\" are actin filaments, and a helper machine (Arp2/3) keeps gluing new pushers onto the sides of old ones at an angle, making a branching tree that fans out flat. New pushers are added at the front edge, shoving the fabric (the cell membrane) outward, while a cleanup crew (cofilin) breaks down the old pushers at the back so their parts can be reused. The sheet keeps rolling forward because it's built at the front and recycled at the back. (The analogy omits that the force comes from molecular polymerization, that Rac is the on-switch, and that capping proteins deliberately limit how long each filament grows.)",
+    "quickReview": "- Lamellipodium = flat, branched Arp2/3 network at the leading edge.\n- Rac → WAVE → Arp2/3 → ~70° branch nucleation; profilin feeds barbed ends.\n- Capping protein funnels growth; cofilin severs/recycles at the rear → treadmilling.\n- Powered by actin ATP hydrolysis; polymerization pushes the membrane.\n- Contrast: filopodia (Cdc42/formins/fascin) and stress fibers (Rho/myosin).\n- Relevant to migration, wound healing, immunity, and cancer invasion.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Cooper GM. *The Cell: A Molecular Approach.* 2nd ed. \"Actin, Myosin, and Cell Movement.\" https://www.ncbi.nlm.nih.gov/books/NBK9961/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9961/"
+      },
+      {
+        "text": "Alberts B, et al. *Molecular Biology of the Cell.* 4th ed. \"The Cytoskeleton and Cell Behavior.\" https://www.ncbi.nlm.nih.gov/books/NBK26930/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26930/"
+      },
+      {
+        "text": "Cooper GM. *The Cell: A Molecular Approach.* 2nd ed. Chapter 11: \"The Cytoskeleton and Cell Movement.\" https://www.ncbi.nlm.nih.gov/books/NBK9893/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9893/"
+      },
+      {
+        "text": "OpenStax. *Biology 2e.* Chapter 4.5: \"The Cytoskeleton.\" https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+        "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/05-cytoskeleton-motility/14-lamellipodia.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

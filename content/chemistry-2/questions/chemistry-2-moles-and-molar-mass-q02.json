@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-moles-and-molar-mass-q02",
+  "subject": "chemistry-2",
+  "lesson": "moles-and-molar-mass",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which value correctly states the number of representative particles contained in exactly one mole of any substance?",
+  "options": [
+    {
+      "id": "a",
+      "text": "6.022 x 10^23 particles, the value known as Avogadro's number that defines the mole"
+    },
+    {
+      "id": "b",
+      "text": "1.008 x 10^23 particles, since the mole is anchored to the molar mass of hydrogen"
+    },
+    {
+      "id": "c",
+      "text": "6.022 x 10^-23 particles, since the exponent is negative for quantities as small as atoms"
+    },
+    {
+      "id": "d",
+      "text": "1.204 x 10^24 particles, since the mole is referenced to a 12-gram sample of carbon-12"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The Avogadro constant is 6.02214076 x 10^23 mol^-1 (an exact defined value in the SI system since 2019), commonly rounded to 6.022 x 10^23. It applies to whatever the representative particle is: atoms for elements, molecules for molecular compounds, formula units for ionic compounds. Because the count is fixed, one mole of any substance contains the same number of particles even though the masses differ widely. A negative exponent would describe a fraction of a particle, and 12 g of carbon-12 contains one mole, not two.\n\nELI-10: A dozen always means 12, whether the items are eggs or bricks; only the weight changes. A mole always means 6.022 x 10^23, whether the items are gold atoms or water molecules. The number is enormous because atoms are so small that you need hundreds of thousands of billions of billions of them before the pile is big enough to see and weigh. Note the sign of the exponent: 10^23 is a huge count. A negative exponent would mean less than one particle, which cannot be what a mole means.",
+  "difficulty": "easy",
+  "tags": [
+    "Avogadro's number",
+    "representative particles",
+    "mole definition"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-277",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-1:cellular-anatomy-and-physiology:cellular-respiration-overview",
+  "slug": "cellular-respiration-overview",
+  "title": "Cellular Respiration Overview",
+  "subject": {
+    "id": "subject:anatomy-physiology-1",
+    "slug": "anatomy-physiology-1",
+    "title": "Anatomy & Physiology I"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-1:cellular-anatomy-and-physiology",
+    "slug": "cellular-anatomy-and-physiology",
+    "title": "Cellular Anatomy and Physiology",
+    "order": 3
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "Cells release usable energy from nutrients through **cellular respiration**. This section gives a systems-level overview: how glucose is converted to **ATP**, the difference between **aerobic** and **anaerobic** pathways, and why the body constantly needs ATP. The detailed biochemistry (glycolysis, the citric acid cycle, the electron transport chain) is covered in the biochemistry subject; here we build the big picture.",
+    "whyItMatters": "ATP powers nearly everything: muscle contraction, nerve signaling, active transport, and building molecules. Oxygen's role in energy release explains why breathing and circulation are life-or-death, and why tissues starved of oxygen (as in a heart attack or stroke) are quickly damaged.",
+    "learningObjectives": "- Explain the overall purpose of **cellular respiration**.\n- Describe **ATP** as the cell's energy currency.\n- Contrast **aerobic** and **anaerobic** energy production.\n- Connect oxygen supply to tissue survival.",
+    "keyTerms": "- **Cellular respiration** — the process of breaking down glucose to capture energy as ATP.\n- **ATP (adenosine triphosphate)** — the molecule that stores and delivers usable cellular energy.\n- **Aerobic** — requiring oxygen.\n- **Anaerobic** — without oxygen.\n- **Glycolysis** — the initial breakdown of glucose (in the cytoplasm), producing a small amount of ATP.\n- **Lactic acid** — the byproduct of anaerobic glucose breakdown in human cells.",
+    "collegeNotes": "**The purpose: turning food energy into ATP.** Nutrients hold energy in their chemical bonds, but cells can't use that energy directly — they need it in the form of **ATP**. Cellular respiration is the controlled \"burning\" of glucose that transfers its stored energy into ATP, a little at a time, so the cell can spend it wherever needed.\n\n**ATP as energy currency.** ATP consists of adenosine plus three phosphate groups. The bond to the last phosphate stores readily released energy. When the cell needs power, it breaks ATP into **ADP + phosphate**, releasing energy for work; later, respiration recharges ADP back into ATP. Think of ATP as a rechargeable battery cycling between charged (ATP) and spent (ADP) states thousands of times a day.\n\n**The overall reaction** can be summarized simply:\n\n```\nGlucose + Oxygen → Carbon dioxide + Water + ATP (energy)\n```\n\nReading it shows why you breathe: you take in the **oxygen** on the left and breathe out the **carbon dioxide** on the right, while capturing energy as ATP.\n\n**Aerobic vs anaerobic.** How much ATP a cell gets depends on oxygen:\n\n- **Aerobic respiration** (with oxygen) is highly efficient, fully breaking glucose down to carbon dioxide and water and yielding a large amount of ATP. It occurs mainly in the **mitochondria** and is the body's normal energy source at rest and during moderate activity.\n- **Anaerobic** energy production (without enough oxygen) relies on **glycolysis** alone, which splits glucose in the cytoplasm for a **small** amount of ATP and produces **lactic acid**. It is fast but inefficient, used briefly during intense exercise when oxygen delivery can't keep up. The lactic acid contributes to muscle fatigue and is later cleared when oxygen returns (the \"oxygen debt\" repaid by heavier breathing after a sprint).\n\n**Why oxygen equals survival.** Because aerobic respiration provides most of the body's ATP, an interrupted oxygen supply quickly starves cells of energy. Highly active tissues with little tolerance for oxygen loss — brain and heart — are damaged within minutes, which is why cutting off blood flow (ischemia) in a stroke or heart attack is so dangerous. This overview connects directly to the respiratory and cardiovascular systems, whose whole job is delivering oxygen and removing carbon dioxide.",
+    "howItWorks": "The energy pipeline at a glance:\n\n1. **Fuel in:** glucose (from food) enters the cell.\n2. **Glycolysis** (cytoplasm) splits glucose → a little ATP; no oxygen needed.\n3. **If oxygen is present** → mitochondria finish the job **aerobically** → lots of ATP + CO₂ + water.\n4. **If oxygen is scarce** → **anaerobic** pathway → little ATP + lactic acid.\n5. **ATP is spent** (ATP → ADP + Pi) to power cell work, then recharged.",
+    "comparisons": "| Feature | Aerobic | Anaerobic |\n| --- | --- | --- |\n| Oxygen | Required | Not required |\n| Location | Mainly mitochondria | Cytoplasm (glycolysis) |\n| ATP yield | Large | Small |\n| Byproducts | CO₂ + water | Lactic acid |\n| When used | Rest, moderate activity | Brief intense exertion, low O₂ |",
+    "highYield": "Ischemia (loss of blood/oxygen) causes rapid energy failure and cell injury — the core mechanism of heart attacks and strokes, developed in pathophysiology. Elevated **lactic acid** (lactate) in the blood signals inadequate oxygen delivery and is monitored in critically ill patients (for example, in shock). Understanding aerobic vs anaerobic metabolism explains exercise physiology, muscle fatigue, and why supplemental oxygen and restored circulation are urgent priorities.",
+    "commonConfusions": "- **Cellular respiration vs breathing.** Breathing (ventilation) moves air; cellular respiration is the chemistry inside cells. They're linked but not the same.\n- **ATP is not stored in bulk.** Cells keep little ATP on hand and constantly regenerate it — it's a fast-cycling currency, not a savings account.\n- **Anaerobic ≠ no energy.** It yields *some* ATP quickly, just far less than aerobic.\n- **Lactic acid is a byproduct, not the cause of all soreness.** It contributes to acute fatigue and is cleared with oxygen.",
+    "memoryAids": "- **ATP = \"A-Tiny-Powerpack.\"**\n- **Aerobic = \"Air-obic\"** (needs air/oxygen).\n- **Glucose + O₂ → CO₂ + H₂O + ATP** — \"breathe in oxygen, breathe out CO₂.\"",
+    "eli10": "### Simple idea\nYour cells turn food into a special energy money called ATP, and they make the most of it when oxygen is around.\n\n### Analogy\nThink of ATP as a rechargeable battery. When a cell needs to do work, it \"drains\" a battery (ATP → ADP) to get energy, then recharges it later. To recharge, the cell burns fuel (**glucose**) — like a tiny, controlled campfire. With plenty of **oxygen**, the fire burns cleanly and fully, giving lots of energy (**aerobic**). If oxygen runs short — like during an all-out sprint — the cell switches to a quick, smoky shortcut that gives only a little energy and leaves behind **lactic acid**, which makes muscles feel tired (**anaerobic**).\n\n### What is actually happening\nThe clean burn happens in the **mitochondria** and follows the recipe **glucose + oxygen → carbon dioxide + water + ATP** — which is exactly why you breathe in oxygen and breathe out carbon dioxide. Because the body depends on this oxygen-powered energy, cutting off oxygen (like in a **stroke** or **heart attack**) starves cells of ATP and damages them within minutes.\n\n### Where the analogy stops\nA campfire wastes energy as a big burst of heat and light, but cells release glucose's energy in many tiny, careful steps so they can capture most of it as ATP instead of losing it all as heat.",
+    "quickReview": "- **Cellular respiration** converts glucose's energy into **ATP**, the cell's rechargeable energy currency (ATP ⇄ ADP).\n- Overall: **glucose + oxygen → carbon dioxide + water + ATP**.\n- **Aerobic** respiration (mitochondria, needs oxygen) yields lots of ATP; **anaerobic** glycolysis yields little ATP and **lactic acid**.\n- Oxygen supply is critical: ischemia rapidly injures energy-hungry tissues like brain and heart. (Detailed pathways: biochemistry unit.)",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 3.2 and Chapter 24 (Metabolism) — cellular energy overview. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — Metabolism. https://medlineplus.gov/ency/article/002257.htm",
+        "url": "https://medlineplus.gov/ency/article/002257.htm"
+      }
+    ]
+  },
+  "aliases": [
+    {
+      "value": "cellular-respiration-overview",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "ap1-u03-s07",
+      "kind": "source_topic_id",
+      "source_id": "prenursing_notes"
+    },
+    {
+      "value": "07-cellular-respiration-overview",
+      "kind": "source_file_stem",
+      "source_id": "prenursing_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:prenursing_notes:007a1538d0c532d2",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:007a1538d0c532d2",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/07-cellular-respiration-overview.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:prenursing_notes:007a1538d0c532d2",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:007a1538d0c532d2",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/07-cellular-respiration-overview.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:prenursing_notes:007a1538d0c532d2",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:007a1538d0c532d2",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/07-cellular-respiration-overview.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:prenursing_notes:007a1538d0c532d2",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:007a1538d0c532d2",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/07-cellular-respiration-overview.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "pre-nursing-study-hub-content",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/07-cellular-respiration-overview.md",
+    "sourceStatus": "final",
+    "factChecked": true,
+    "coverageChecked": true,
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "\n# Cellular Respiration Overview\n\n## What This Topic Is\n\nCells release usable energy from nutrients through **cellular respiration**. This section gives a systems-level overview: how glucose is converted to **ATP**, the difference between **aerobic** and **anaerobic** pathways, and why the body constantly needs ATP. The detailed biochemistry (glycolysis, the citric acid cycle, the electron transport chain) is covered in the biochemistry subject; here we build the big picture.\n\n## Why It Matters\n\nATP powers nearly everything: muscle contraction, nerve signaling, active transport, and building molecules. Oxygen's role in energy release explains why breathing and circulation are life-or-death, and why tissues starved of oxygen (as in a heart attack or stroke) are quickly damaged.\n\n## Learning Objectives\n\n- Explain the overall purpose of **cellular respiration**.\n- Describe **ATP** as the cell's energy currency.\n- Contrast **aerobic** and **anaerobic** energy production.\n- Connect oxygen supply to tissue survival.\n\n## Key Terms\n\n- **Cellular respiration** — the process of breaking down glucose to capture energy as ATP.\n- **ATP (adenosine triphosphate)** — the molecule that stores and delivers usable cellular energy.\n- **Aerobic** — requiring oxygen.\n- **Anaerobic** — without oxygen.\n- **Glycolysis** — the initial breakdown of glucose (in the cytoplasm), producing a small amount of ATP.\n- **Lactic acid** — the byproduct of anaerobic glucose breakdown in human cells.\n\n## Core Explanation\n\n**The purpose: turning food energy into ATP.** Nutrients hold energy in their chemical bonds, but cells can't use that energy directly — they need it in the form of **ATP**. Cellular respiration is the controlled \"burning\" of glucose that transfers its stored energy into ATP, a little at a time, so the cell can spend it wherever needed.\n\n**ATP as energy currency.** ATP consists of adenosine plus three phosphate groups. The bond to the last phosphate stores readily released energy. When the cell needs power, it breaks ATP into **ADP + phosphate**, releasing energy for work; later, respiration recharges ADP back into ATP. Think of ATP as a rechargeable battery cycling between charged (ATP) and spent (ADP) states thousands of times a day.\n\n**The overall reaction** can be summarized simply:\n\n```\nGlucose + Oxygen → Carbon dioxide + Water + ATP (energy)\n```\n\nReading it shows why you breathe: you take in the **oxygen** on the left and breathe out the **carbon dioxide** on the right, while capturing energy as ATP.\n\n**Aerobic vs anaerobic.** How much ATP a cell gets depends on oxygen:\n\n- **Aerobic respiration** (with oxygen) is highly efficient, fully breaking glucose down to carbon dioxide and water and yielding a large amount of ATP. It occurs mainly in the **mitochondria** and is the body's normal energy source at rest and during moderate activity.\n- **Anaerobic** energy production (without enough oxygen) relies on **glycolysis** alone, which splits glucose in the cytoplasm for a **small** amount of ATP and produces **lactic acid**. It is fast but inefficient, used briefly during intense exercise when oxygen delivery can't keep up. The lactic acid contributes to muscle fatigue and is later cleared when oxygen returns (the \"oxygen debt\" repaid by heavier breathing after a sprint).\n\n**Why oxygen equals survival.** Because aerobic respiration provides most of the body's ATP, an interrupted oxygen supply quickly starves cells of energy. Highly active tissues with little tolerance for oxygen loss — brain and heart — are damaged within minutes, which is why cutting off blood flow (ischemia) in a stroke or heart attack is so dangerous. This overview connects directly to the respiratory and cardiovascular systems, whose whole job is delivering oxygen and removing carbon dioxide.\n\n## How It Works\n\nThe energy pipeline at a glance:\n\n1. **Fuel in:** glucose (from food) enters the cell.\n2. **Glycolysis** (cytoplasm) splits glucose → a little ATP; no oxygen needed.\n3. **If oxygen is present** → mitochondria finish the job **aerobically** → lots of ATP + CO₂ + water.\n4. **If oxygen is scarce** → **anaerobic** pathway → little ATP + lactic acid.\n5. **ATP is spent** (ATP → ADP + Pi) to power cell work, then recharged.\n\n## Important Relationships and Comparisons\n\n| Feature | Aerobic | Anaerobic |\n| --- | --- | --- |\n| Oxygen | Required | Not required |\n| Location | Mainly mitochondria | Cytoplasm (glycolysis) |\n| ATP yield | Large | Small |\n| Byproducts | CO₂ + water | Lactic acid |\n| When used | Rest, moderate activity | Brief intense exertion, low O₂ |\n\n## High-Yield Pre-Nursing Connections\n\nIschemia (loss of blood/oxygen) causes rapid energy failure and cell injury — the core mechanism of heart attacks and strokes, developed in pathophysiology. Elevated **lactic acid** (lactate) in the blood signals inadequate oxygen delivery and is monitored in critically ill patients (for example, in shock). Understanding aerobic vs anaerobic metabolism explains exercise physiology, muscle fatigue, and why supplemental oxygen and restored circulation are urgent priorities.\n\n## Common Confusions\n\n- **Cellular respiration vs breathing.** Breathing (ventilation) moves air; cellular respiration is the chemistry inside cells. They're linked but not the same.\n- **ATP is not stored in bulk.** Cells keep little ATP on hand and constantly regenerate it — it's a fast-cycling currency, not a savings account.\n- **Anaerobic ≠ no energy.** It yields *some* ATP quickly, just far less than aerobic.\n- **Lactic acid is a byproduct, not the cause of all soreness.** It contributes to acute fatigue and is cleared with oxygen.\n\n## Memory Aids\n\n- **ATP = \"A-Tiny-Powerpack.\"**\n- **Aerobic = \"Air-obic\"** (needs air/oxygen).\n- **Glucose + O₂ → CO₂ + H₂O + ATP** — \"breathe in oxygen, breathe out CO₂.\"\n\n## ELI-10 Explains\n\n### Simple idea\nYour cells turn food into a special energy money called ATP, and they make the most of it when oxygen is around.\n\n### Analogy\nThink of ATP as a rechargeable battery. When a cell needs to do work, it \"drains\" a battery (ATP → ADP) to get energy, then recharges it later. To recharge, the cell burns fuel (**glucose**) — like a tiny, controlled campfire. With plenty of **oxygen**, the fire burns cleanly and fully, giving lots of energy (**aerobic**). If oxygen runs short — like during an all-out sprint — the cell switches to a quick, smoky shortcut that gives only a little energy and leaves behind **lactic acid**, which makes muscles feel tired (**anaerobic**).\n\n### What is actually happening\nThe clean burn happens in the **mitochondria** and follows the recipe **glucose + oxygen → carbon dioxide + water + ATP** — which is exactly why you breathe in oxygen and breathe out carbon dioxide. Because the body depends on this oxygen-powered energy, cutting off oxygen (like in a **stroke** or **heart attack**) starves cells of ATP and damages them within minutes.\n\n### Where the analogy stops\nA campfire wastes energy as a big burst of heat and light, but cells release glucose's energy in many tiny, careful steps so they can capture most of it as ATP instead of losing it all as heat.\n\n## Quick Recap\n\n- **Cellular respiration** converts glucose's energy into **ATP**, the cell's rechargeable energy currency (ATP ⇄ ADP).\n- Overall: **glucose + oxygen → carbon dioxide + water + ATP**.\n- **Aerobic** respiration (mitochondria, needs oxygen) yields lots of ATP; **anaerobic** glycolysis yields little ATP and **lactic acid**.\n- Oxygen supply is critical: ischemia rapidly injures energy-hungry tissues like brain and heart. (Detailed pathways: biochemistry unit.)\n\n## Sources\n\n- OpenStax, *Anatomy and Physiology 2e*, Chapter 3.2 and Chapter 24 (Metabolism) — cellular energy overview. https://openstax.org/details/books/anatomy-and-physiology-2e\n- U.S. National Library of Medicine, MedlinePlus — Metabolism. https://medlineplus.gov/ency/article/002257.htm\n"
+}

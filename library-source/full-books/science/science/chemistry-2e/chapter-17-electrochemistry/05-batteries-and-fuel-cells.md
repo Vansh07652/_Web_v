@@ -1,0 +1,142 @@
+---
+title: "Batteries and Fuel Cells"
+subject: "Science"
+book: "Chemistry 2e"
+chapter: "17: Electrochemistry"
+topic_number: "5"
+source: "chemistry-2e.md"
+tags:
+  - "batteries-and-fuel-cells"
+  - "science"
+status: "complete"
+---
+
+# Batteries and Fuel Cells
+
+> **Book:** [Chemistry 2e](../../README.md)  
+> **Chapter:** [Chapter 17: Electrochemistry](../README.md)  
+> **Topic:** 5  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+A **battery** is one or more galvanic cells packaged so that the spontaneous redox reaction drives electrons through an external circuit on demand. This topic surveys the chemistries inside the batteries you actually use — **dry cells**, **alkaline cells**, **lead–acid batteries**, **lithium-ion batteries**, and **nickel–cadmium** cells — and then contrasts them with **fuel cells**, which generate electricity continuously from externally supplied fuels such as hydrogen. For each system you should be able to write the half-reactions, identify anode and cathode, and explain why the design choices (electrolyte, electrodes, rechargeability) follow from the chemistry.
+
+## Why This Matters
+
+Electrochemistry's most visible products are batteries: they start cars, power phones and laptops, and enable everything from pacemakers to grid-scale energy storage. Understanding the half-reactions tells you why a lead–acid cell delivers about 2 V while a lithium-ion cell delivers about 3.6 V, why some batteries recharge and others do not, and why fuel cells are being developed for vehicles and spacecraft. These same concepts drive decisions about battery disposal, recycling, and safety — for example, why alkaline cells can leak, why lithium cells must never be punctured, and why hydrogen fuel is stored with care.
+
+## Core Concepts
+
+### Primary vs. secondary batteries
+
+A **primary battery** performs its redox reaction once and is discarded when the reactants are exhausted (the reaction is not practically reversible). A **secondary battery** is rechargeable: applying an external voltage drives the reverse reaction, regenerating the original reactants. The distinction is purely about reversibility of the chemistry, not size — a tiny hearing-aid cell can be primary, while a car battery is secondary.
+
+### The dry cell and the alkaline battery
+
+The classic **dry cell** (Leclanché cell) uses a zinc can as the anode, a graphite rod surrounded by manganese dioxide as the cathode, and a moist paste of ammonium chloride as the electrolyte. The zinc oxidizes (\(\text{Zn} \rightarrow \text{Zn}^{2+} + 2e^-\)), and MnO₂ is reduced. The **alkaline battery** replaces the acidic paste with potassium hydroxide, which slows corrosion of the zinc and lets the cell deliver higher current for longer; it delivers roughly 1.5 V. Because the zinc in an alkaline cell corrodes far more slowly, alkaline cells last longer on the shelf and are the modern replacement for dry cells.
+
+### Lead–acid batteries: the workhorse
+
+A **lead–acid battery** (used in nearly every car) is a set of six secondary cells in series, each delivering about 2 V, for a nominal 12 V. In each cell, the anode is spongy lead and the cathode is lead dioxide, both immersed in sulfuric acid:
+
+\[ \text{Anode: } \text{Pb}(s) + \text{SO}_4^{2-}(aq) \rightarrow \text{PbSO}_4(s) + 2e^- \qquad \text{Cathode: } \text{PbO}_2(s) + \text{SO}_4^{2-}(aq) + 4\text{H}^+(aq) + 2e^- \rightarrow \text{PbSO}_4(s) + 2\text{H}_2\text{O}(l) \]
+
+Both electrodes produce solid lead sulfate on discharge, and recharging reverses both reactions. The sulfuric acid is consumed and water is produced as the battery discharges, which is why a discharged battery has a lower acid concentration (measurable as a lower specific gravity).
+
+### Lithium-ion batteries
+
+**Lithium-ion** cells store energy by shuttling Li⁺ ions between a graphite anode and a metal-oxide cathode (often lithium cobalt oxide). There is no lithium metal inside — the ions intercalate into solid host structures — which is why they are called lithium-**ion**, not lithium-metal, batteries. They deliver roughly 3.6 V per cell, much higher than lead–acid, and have high energy density, making them the standard for portable electronics and electric vehicles. Their chemistry is highly energetic: damage, overcharging, or manufacturing defects can release that energy as heat and fire, which is why lithium-ion cells carry strict safety requirements.
+
+### Fuel cells: batteries that refuel
+
+A **fuel cell** is a galvanic cell in which the reactants are supplied continuously from outside. The classic **hydrogen–oxygen fuel cell** oxidizes hydrogen at the anode and reduces oxygen at the cathode:
+
+\[ \text{Anode: } 2\text{H}_2(g) \rightarrow 4\text{H}^+(aq) + 4e^- \qquad \text{Cathode: } \text{O}_2(g) + 4\text{H}^+(aq) + 4e^- \rightarrow 2\text{H}_2\text{O}(l) \]
+
+The only product is water, which is why hydrogen fuel cells powered spacecraft life-support systems and are being developed for vehicles. Fuel cells are not "used up" like primary batteries — they keep working as long as fuel and oxidant are supplied — but they face practical hurdles: storing hydrogen safely, the cost of catalysts (often platinum), and the energy cost of producing the hydrogen in the first place.
+
+## ELI-10: Explain Like I'm 10
+
+A battery is like a juice box of electricity: the chemical "juice" inside makes electricity flow, and when the juice is gone, the box is empty (primary) — or you can refill it by plugging it in (secondary). A fuel cell is more like a straw with a faucet: as long as you keep pouring in hydrogen and oxygen, electricity keeps coming out, and the only waste is water. Different batteries use different "juices," which is why some give 1.5 V and others give 12 V.
+
+## High-Yield Points
+
+- Primary batteries run once; secondary batteries are rechargeable because their redox reactions are reversible.
+- Dry cell: Zn anode, MnO₂ cathode, acidic paste; alkaline cell: same idea but KOH electrolyte, ~1.5 V, longer life.
+- Lead–acid: Pb/PbO₂ in H₂SO₄; about 2 V per cell, six cells in series ≈ 12 V; both electrodes make PbSO₄ on discharge.
+- Lithium-ion cells deliver ~3.6 V and high energy density; Li⁺ shuttles between intercalation hosts — no lithium metal.
+- Fuel cells are continuously fed; the H₂/O₂ cell produces only water, \(E^\circ_{\text{cell}} = +1.23\ \text{V}\).
+- Cell voltage adds when cells are wired in series; a 12 V lead–acid battery is six ~2 V cells.
+- Battery safety follows from the chemistry: corrosive electrolytes, flammable or energetic materials, and hydrogen gas all demand respect.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Primary battery | A cell whose reaction runs once and cannot be recharged | Cheap and simple, but disposable — think AA alkaline cells |
+| Secondary battery | A rechargeable cell whose reaction can be reversed | Enables phones, cars, and renewable-energy storage |
+| Dry cell | Leclanché cell with a paste electrolyte and Zn anode | The original portable battery; ~1.5 V |
+| Alkaline battery | Dry-cell chemistry with KOH electrolyte | Longer shelf life and higher current than acidic dry cells |
+| Lead–acid battery | Pb/PbO₂ secondary cell in sulfuric acid | The standard car battery; six cells give ~12 V |
+| Lithium-ion battery | Cell that shuttles Li⁺ between intercalation hosts | Highest practical energy density; powers electronics and EVs |
+| Fuel cell | Galvanic cell fed continuously with reactants | Clean, efficient power; H₂/O₂ cell exhaust is water |
+| Electrolyte | The ion-conducting medium between electrodes | Carries charge inside the cell and sets its chemistry |
+
+## Example: Cell Potentials from Half-Reactions
+
+**Worked Example 1 — Voltage of a lead–acid cell.** Using standard reduction potentials, \(E^\circ(\text{PbO}_2/\text{PbSO}_4) = +1.69\ \text{V}\) and \(E^\circ(\text{PbSO}_4/\text{Pb}) = -0.36\ \text{V}\):
+
+\[ E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}} = 1.69\ \text{V} - (-0.36\ \text{V}) = 2.05\ \text{V} \]
+
+Six such cells in series give \(6 \times 2.05 = 12.3\ \text{V}\) — the familiar "12-volt" car battery (rated nominally at 12 V).
+
+**Worked Example 2 — Energy released by a hydrogen fuel cell.** For the H₂/O₂ cell, \(E^\circ_{\text{cell}} = 1.23\ \text{V}\) and \(n = 4\) moles of electrons per mole of O₂:
+
+\[ \Delta G^\circ = -nFE^\circ_{\text{cell}} = -(4\ \text{mol e}^-)\left(96{,}485\ \frac{\text{C}}{\text{mol e}^-}\right)(1.23\ \text{V}) = -4.75 \times 10^5\ \text{J} = -475\ \text{kJ} \]
+
+per mole of O₂ consumed. The large negative \(\Delta G^\circ\) confirms the reaction is strongly spontaneous — the same driving force a combustion engine gets from burning hydrogen, but captured directly as electricity instead of heat.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Primary battery | Secondary battery | Primary runs once; secondary reverses on recharging |
+| Dry cell | Alkaline cell | Same electrode pair, different electrolyte (acidic paste vs. KOH) |
+| Anode sign in a battery | Anode sign in an electrolytic cell | In a battery the anode is negative (it is oxidized); electrolysis flips the sign |
+| "12-volt" battery | A single 12 V cell | It is six ~2 V lead–acid cells wired in series |
+| Lithium-ion battery | Lithium-metal battery | Li-ion stores Li⁺ in host materials; lithium-metal cells use metallic lithium (much more reactive) |
+| Fuel cell | Battery | A fuel cell needs a continuous fuel supply; a battery stores its reactants internally |
+
+## Quick Review
+
+1. Why is an alkaline battery called "alkaline," and what advantage does that give it over a dry cell?
+2. Write the two half-reactions of a lead–acid cell and state why the acid concentration falls during discharge.
+3. Roughly how many volts does one lead–acid cell deliver, and how does a car get 12 V?
+4. Why must lithium-ion batteries be handled and charged with care?
+5. What are the two products of a hydrogen–oxygen fuel cell, and why was it used on spacecraft?
+
+<details>
+<summary>Show answers</summary>
+
+1. Its electrolyte is potassium hydroxide (a base). KOH slows zinc corrosion, giving longer shelf life and higher usable current than the acidic ammonium-chloride paste of a dry cell.
+2. Anode: Pb + SO₄²⁻ → PbSO₄ + 2e⁻; cathode: PbO₂ + SO₄²⁻ + 4H⁺ + 2e⁻ → PbSO₄ + 2H₂O. Discharge consumes H₂SO₄ and produces water, so the acid becomes more dilute.
+3. About 2.05 V per cell; six cells wired in series give roughly 12 V.
+4. Their chemistry stores a great deal of energy; puncturing, overcharging, or defective cells can release it as fire or explosion.
+5. Electricity and water (plus heat). Water is harmless and drinkable, making the H₂/O₂ fuel cell ideal for spacecraft life support.
+
+</details>
+
+## Related Topics
+
+- Previous: [Potential, Free Energy, and Equilibrium](04-potential-free-energy-and-equilibrium.md)
+- Next: [Corrosion](06-corrosion.md)
+- Related: [Galvanic Cells](02-galvanic-cells.md) · [Electrode and Cell Potentials](03-electrode-and-cell-potentials.md) · [Electrochemistry chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Chemistry 2e
+- Local outline source: `chemistry-2e.md`
+- Official source URL: https://openstax.org/details/books/chemistry-2e/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-16

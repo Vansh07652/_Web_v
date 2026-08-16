@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:structure-and-bonding:conformational-analysis-of-alkanes",
+  "slug": "conformational-analysis-of-alkanes",
+  "title": "Conformational Analysis of Alkanes",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:structure-and-bonding",
+    "slug": "structure-and-bonding",
+    "title": "Structure and Bonding",
+    "order": 1
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "Conformations are different spatial arrangements of the same molecule produced by rotation about single (sigma) bonds — no bonds are broken, so conformations interconvert freely. A Newman projection looks straight down a chosen C–C bond. Staggered conformations are lower in energy and eclipsed ones higher because of torsional strain; in butane, the anti conformation is most stable, gauche is slightly higher, and eclipsed forms (especially the methyl–methyl eclipsed form) are highest. At room temperature the molecule spends most of its time in the most stable conformers, a balance described by conformational equilibrium.",
+    "whyItMatters": "Conformational flexibility underlies how drugs recognize their targets. A drug molecule must be able to adopt the bioactive conformation that fits a protein binding site, and the relative energies of its conformers determine how easily that shape is reached. The ethane rotational barrier (about 3 kcal/mol) and the gauche preference are fundamental numbers used throughout molecular modeling and medicinal chemistry. Conceptually, this is why subtle steric tweaks to a drug can change its activity dramatically.",
+    "learningObjectives": "1. Define conformations and explain why single bonds allow free rotation between them.\n2. Draw and read Newman projections and identify staggered versus eclipsed arrangements.\n3. Distinguish torsional strain, steric strain, and angle strain, and rank conformations by energy.\n4. Perform a conformational analysis of butane and interpret its energy diagram and conformational equilibrium.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Conformation | A spatial arrangement reached by rotating about single bonds | Explains molecular flexibility without bond breaking |\n| Sigma-bond rotation | Spinning around a single bond axis | Makes conformations possible |\n| Newman projection | View straight down a C–C bond | Standard way to visualize conformers |\n| Staggered | Front and back bonds offset by 60° | Lower-energy arrangement |\n| Eclipsed | Front and back bonds aligned | Higher-energy arrangement |\n| Torsional strain | Repulsion between eclipsed bonding electrons | Main energy cost of eclipsed conformers |\n| Steric strain | Repulsion between nearby nonbonded atoms | Raises energy when groups crowd |\n| Angle strain | Energy from distorted bond angles | Relevant in rings, minimal in open chains |\n| Anti | Staggered with the two largest groups 180° apart | Most stable butane conformation |\n| Gauche | Staggered with the two largest groups 60° apart | Slightly higher than anti |\n| Conformational equilibrium | Population spread across conformers at a given temperature | Explains why most molecules sit in the stable form |",
+    "collegeNotes": "### 1. Conformations and Rotation About Sigma Bonds\n\nBecause a sigma bond has cylindrical symmetry, the groups on either side can rotate around the bond axis without breaking it. Each distinct arrangement reached by this rotation is a conformation (also called a conformer or rotational isomer). Conformations are not constitutional isomers — connectivity is unchanged — and they are not separated by energy barriers high enough to isolate them at ordinary temperatures. Rotation about pi bonds is not possible in the same way because it would require breaking the pi overlap.\n\n### 2. Newman Projections and Staggered vs Eclipsed\n\nA Newman projection is drawn by looking straight down a chosen C–C bond. The front carbon is drawn as a dot with its three bonds radiating outward; the back carbon is a circle with its three bonds emerging from behind. When the front and back bonds are perfectly aligned, the conformation is eclipsed; when they are offset by 60°, it is staggered. Staggered forms are lower in energy than eclipsed forms because the C–H bonding electrons of the front and back carbons are farther apart, minimizing repulsion.\n\n### 3. The Three Kinds of Strain\n\n- Torsional strain — repulsion between bonding electrons of eclipsed adjacent bonds (the barrier that separates staggered from eclipsed).\n- Steric strain — repulsion between nonbonded atoms forced too close together (for example, two methyl groups crowding each other).\n- Angle strain — energy from bond angles distorted away from their ideal value; this matters mainly in rings (Topic 10), not in open-chain alkanes, whose bond angles stay near 109.5°.\n\nIn acyclic alkanes only torsional and steric strain are relevant; angle strain becomes important when rings force bond angles away from tetrahedral.",
+    "howItWorks": "1. Choose the C–C bond to analyze and orient the viewer down its axis.\n2. Draw the Newman projection with the front carbon's three bonds and the back carbon's three bonds.\n3. Identify each arrangement as staggered or eclipsed.\n4. In substituted cases, identify anti versus gauche and note steric crowding.\n5. Rank conformations by energy: staggered < eclipsed; anti < gauche.\n6. Use the ranking to predict which conformer dominates at equilibrium.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Rotation about a sigma bond changes conformation, not constitution — no bonds break.\n- **High yield:** Staggered is always lower in energy than eclipsed; anti is the most stable butane conformation.\n- **High yield:** The fully eclipsed (methyl–methyl) butane conformation is the highest-energy point.\n- Torsional strain comes from eclipsed bond electrons; steric strain comes from nonbonded atoms crowding.\n- Angle strain is essentially absent in acyclic alkanes and becomes important in rings.\n- Energy barriers between conformers are small, so interconversion is rapid at room temperature.\n- An energy diagram of butane has two unequal minima (anti, gauche) and two unequal maxima (eclipsed).",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Staggered | Eclipsed | Staggered bonds are offset 60° and lower in energy |\n| Anti | Gauche | Both are staggered; anti has large groups 180° apart (lowest energy) |\n| Torsional strain | Steric strain | Torsional = eclipsed bond-electron repulsion; steric = nonbonded atom crowding |\n| Conformation | Constitutional isomer | Conformers share the same connectivity; constitutional isomers do not |",
+    "memoryAids": "\"**S**taggered is **S**table and **S**pacious; **E**clipsed is **E**nergy-costly.\" For butane, remember \"**A**nti is **A**ll-good (lowest), **G**auche is a **G**rudge (slightly higher).\"",
+    "eli10": "Imagine two propellers mounted on the same axle. Both propellers are identical in every way, but you can spin one relative to the other so the blades line up in front of each other or sit neatly between each other. The molecule is still the same molecule either way — only the \"twist\" changed. That twist is a conformation.\n\nThe comparison: it is like the hands of a clock — the clock is unchanged whether the hands point at 12 or at 6, but each position is a different snapshot. Where it stops being exact: a clock hand spins with zero effort, but in a molecule the rotation is not completely free — some positions cost energy because atoms crowd or bond electrons repel each other. Bonds are not literal sticks on an axle; they are clouds of electron density that interact.\n\n### Simple Example\n\nLook down the central C–C bond of butane (CH₃CH₂–CH₂CH₃). If the two methyl groups are 180° apart, the molecule is in the anti conformation. If they are 60° apart, it is gauche. Both are staggered (stable) arrangements of the same molecule, differing only by rotation.",
+    "quickReview": "### Topic Recap\n\nConformations arise from rotation about sigma bonds and interconvert without breaking bonds. Newman projections reveal staggered (lower energy) and eclipsed (higher energy) arrangements. Butane's energy diagram ranks anti < gauche < eclipsed < fully eclipsed, driven by torsional and steric strain. Because barriers are small, molecules populate the most stable conformers at equilibrium.\n\n### Knowledge Check\n\n1. What changes when one conformation converts to another — bonding, connectivity, or spatial arrangement?\n2. In a Newman projection of ethane, which arrangement is lower in energy: staggered or eclipsed?\n3. What is the most stable conformation of butane, and why?\n4. Which contributes to the energy of the fully eclipsed butane conformation: torsional strain, steric strain, or both?\n5. At room temperature, where does most of a butane sample reside on the energy diagram?\n\n### Answers and Rationales\n\n1. Only the spatial arrangement changes; bonds and connectivity are unchanged.\n2. Staggered — the C–H bonding electrons are farther apart, minimizing torsional strain.\n3. Anti — the methyl groups are 180° apart, avoiding steric crowding, at 0 kcal/mol.\n4. Both — maximum torsional strain (eclipsed bonds) plus steric strain (methyl eclipsing methyl).\n5. In the lowest-energy conformers (mostly anti, with some gauche), because thermal energy lets molecules cross the small barriers and populate the minima.",
+    "workedExamples": "A conformational analysis of butane, rotating about the C2–C3 bond:\n\n1. Draw the anti conformation (methyl groups 180° apart). This is the energy minimum, defined as 0 kcal/mol.\n2. Rotate the back carbon 60° clockwise. The methyls now sit 60° apart — the gauche conformation. There is slight steric crowding between the two methyls, raising energy to about +0.8 kcal/mol.\n3. Rotate another 60° (total 120°). A methyl group now eclipses a hydrogen. Torsional strain plus some steric strain raises the energy to about +3.6 kcal/mol.\n4. Rotate to 0° so the two methyls eclipse each other. This fully eclipsed form carries both maximum torsional strain and maximum steric strain, reaching roughly +4.5 to +5 kcal/mol — the highest point on the diagram.\n5. Continue rotating to return to anti, completing a 360° cycle. The energy diagram is a repeating wave with two unequal maxima (eclipsed) and two unequal minima (anti lowest, gauche slightly higher).\n\nThe relative energies show anti < gauche < eclipsed (CH₃/H) < fully eclipsed (CH₃/CH₃). Because the barriers between conformers are small compared to thermal energy at room temperature, molecules rapidly interconvert, and the population is greatest in the lowest-energy conformers — the essence of conformational equilibrium.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "conformational-analysis-of-alkanes",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "09-conformational-analysis-of-alkanes",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/09-conformational-analysis-of-alkanes.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

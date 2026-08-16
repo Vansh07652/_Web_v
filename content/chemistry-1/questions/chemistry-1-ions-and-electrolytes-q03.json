@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-ions-and-electrolytes-q03",
+  "subject": "chemistry-1",
+  "lesson": "ions-and-electrolytes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A physiology text lists the normal serum reference interval for the major extracellular cation as 135-145 mEq/L. Which ion is being described, and what is the midpoint of that interval?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Potassium (K+), midpoint 140 mEq/L, because K+ is the dominant cation of extracellular fluid"
+    },
+    {
+      "id": "b",
+      "text": "Calcium (Ca2+), midpoint 140 mEq/L, because Ca2+ is the chief cation dissolved in plasma"
+    },
+    {
+      "id": "c",
+      "text": "Sodium (Na+), midpoint 140 mEq/L, because Na+ is the dominant cation of extracellular fluid"
+    },
+    {
+      "id": "d",
+      "text": "Sodium (Na+), midpoint 280 mEq/L, because the two interval endpoints are added together"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Sodium is the principal extracellular cation, and the midpoint of its reference interval is the mean of the endpoints: (135 + 145)/2 = 140 mEq/L. Adding the endpoints without dividing gives 280, a unit-nonsensical value. Potassium is the principal intracellular cation and circulates at only about 3.5-5 mEq/L, and although calcium is the most abundant cation in the body by mass, over 99% of it is bound in bone rather than dissolved in plasma (total serum calcium is roughly 4.5-5.5 mEq/L).\n\nELI-10: Two separate skills are being checked. The identity part rests on compartments: sodium is concentrated in the fluid outside cells, potassium inside cells, which is why a blood sample is dominated by sodium. The arithmetic part is a midpoint, which is an average, not a sum: add 135 and 145 to get 280, then divide by 2 to get 140. Forgetting the division is the classic slip, and 280 mEq/L should look wrong immediately because it sits far outside any plausible serum value.",
+  "difficulty": "easy",
+  "tags": [
+    "principal extracellular cation",
+    "serum reference intervals",
+    "midpoint of a range"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-273",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

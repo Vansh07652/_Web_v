@@ -1,0 +1,39 @@
+{
+  "id": "genetics-mendelian-genetics-ii-extensions-0011",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-ii-extensions",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application You cross two true-breeding white-flowered mutants of a plant whose wild-type flowers are purple, and all F1 plants have purple flowers. What does this result indicate about the two mutations?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The mutations are in the same gene, so the F1 is expected to be white."
+    },
+    {
+      "id": "b",
+      "text": "The mutations are dominant alleles of the same gene."
+    },
+    {
+      "id": "c",
+      "text": "The mutations are in different genes, and each parent supplies a functional allele the other lacks."
+    },
+    {
+      "id": "d",
+      "text": "The F1 shows incomplete dominance at a single gene."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "**Complementation** occurs when two recessive mutations lie in different genes: the F1 receives a functional copy of gene 1 from one parent and a functional copy of gene 2 from the other, restoring purple. If both mutations were in the same gene, no F1 plant would have a functional allele and the F1 would be white, contradicting A and B. Incomplete dominance would give an intermediate color at a single locus, not full purple.",
+  "difficulty": "unknown",
+  "tags": [
+    "complementation",
+    "test",
+    "cross"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-459ae50fda335511",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

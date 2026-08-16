@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:clinical-mnemonics:emergency-trauma:avpu",
+  "slug": "avpu",
+  "title": "AVPU",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics"
+  },
+  "unit": {
+    "id": "unit:clinical-mnemonics:emergency-trauma",
+    "slug": "emergency-trauma",
+    "title": "Emergency & Trauma",
+    "order": 1
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "A four-step, one-glance scale describing how awake a patient is: Alert, responds to Voice, responds to Pain, or Unresponsive.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- **A** — Alert\n- **V** — Verbal (responds to voice)\n- **P** — Pain (responds to pain)\n- **U** — Unresponsive",
+    "collegeNotes": "A four-step, one-glance scale describing how awake a patient is: Alert, responds to Voice, responds to Pain, or Unresponsive.\n\n### A — Alert\n\nAwake and aware\n\nAn alert patient is awake with eyes open spontaneously and is oriented. Alert does not by itself confirm full orientation — a patient can be awake but confused — so document orientation separately (e.g., A&O × 4).\n\n**Physiology.** Wakefulness (brainstem reticular activating system) and awareness (cerebral cortex) can be separately affected; a patient can be awake but disoriented.\n\n### V — Verbal (responds to voice)\n\nResponds only when spoken to\n\nThe patient responds only to verbal stimulation (opening eyes, making sounds, or moving) but is not spontaneously awake. This is a depressed level of consciousness requiring close monitoring and escalation.\n\n**Physiology.** Reduced reticular activating system drive means external stimulation is needed to produce responsiveness; note whether the response is appropriate (words) or incomprehensible (moans).\n\n### P — Pain (responds to pain)\n\nResponds only to a painful stimulus\n\nThe patient responds only to a painful stimulus (trapezius squeeze, sternal rub) by grimacing, withdrawing, or opening eyes. This indicates significant CNS depression and high risk of airway compromise; escalate immediately.\n\n**Physiology.** As consciousness declines, progressively stronger stimuli are needed to elicit a response; pain-only responsiveness reflects loss of spontaneous and verbal responsiveness.\n\n**Safety.** Use a brief central painful stimulus (trapezius squeeze) and stop as soon as a response is observed.\n\n### U — Unresponsive\n\nNo response to voice or pain\n\nThe patient does not respond to verbal or painful stimuli, indicating coma or profound CNS depression. Immediate priorities are airway protection, breathing, circulation, and rapid escalation.\n\n**Physiology.** Unresponsiveness reflects severe depression of the reticular activating system and/or cortex from head injury, hypoxia, hypoglycemia, drugs/toxins, or a post-ictal state; absent protective reflexes are immediately life-threatening.\n\n**Safety.** Never leave an unresponsive patient alone; protect the airway and call for help.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "- A = Alert\n- V = Verbal (responds to voice)\n- P = Pain (responds to pain)\n- U = Unresponsive",
+    "eli10": "A four-rung ladder of 'how awake are you?' — from fully awake, to waking only when talked to, to waking only when pinched, to not waking at all.\n\n**A — Alert.** Alert means the patient is awake like you are right now — eyes open, knows who they are, where they are, and what's going on. The brain's front desk is fully staffed.\n\n**V — Verbal (responds to voice).** If saying the patient's name or 'are you okay?' makes them open their eyes or mumble, but they don't stay awake on their own, they are at 'V' — the brain wakes only when someone knocks.\n\n**P — Pain (responds to pain).** If talking doesn't wake them, but a firm pinch or chest rub makes them open their eyes or pull away, they are at 'P' — the brain only answers a strong alarm, not a gentle knock.\n\n**U — Unresponsive.** If no amount of talking or pinching gets any response — no eye opening, no movement, no sound — the patient is 'U.' The brain's front desk is completely closed; this is a five-alarm emergency.",
+    "quickReview": "- A = Alert — Awake and aware\n- V = Verbal (responds to voice) — Responds only when spoken to\n- P = Pain (responds to pain) — Responds only to a painful stimulus\n- U = Unresponsive — No response to voice or pain",
+    "workedExamples": "",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "avpu",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-nursing-mnemonics",
+    "sourceFile": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json",
+    "sourceStatus": "CURRENT",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-clinical-mnemonics"
+  },
+  "sourceSnapshotMarkdown": "{\n  \"mnemonic\": \"AVPU\",\n  \"category\": \"Emergency & Trauma\",\n  \"purpose\": \"A four-step, one-glance scale describing how awake a patient is: Alert, responds to Voice, responds to Pain, or Unresponsive.\",\n  \"eli10_purpose\": \"A four-rung ladder of 'how awake are you?' — from fully awake, to waking only when talked to, to waking only when pinched, to not waking at all.\",\n  \"status\": \"CURRENT\",\n  \"components\": [\n    {\n      \"symbol\": \"A\",\n      \"term\": \"Alert\",\n      \"association\": \"Awake and aware\",\n      \"eli10\": \"Alert means the patient is awake like you are right now — eyes open, knows who they are, where they are, and what's going on. The brain's front desk is fully staffed.\",\n      \"clinical_explanation\": \"An alert patient is awake with eyes open spontaneously and is oriented. Alert does not by itself confirm full orientation — a patient can be awake but confused — so document orientation separately (e.g., A&O × 4).\",\n      \"physiology\": \"Wakefulness (brainstem reticular activating system) and awareness (cerebral cortex) can be separately affected; a patient can be awake but disoriented.\",\n      \"safety_note\": \"\"\n    },\n    {\n      \"symbol\": \"V\",\n      \"term\": \"Verbal (responds to voice)\",\n      \"association\": \"Responds only when spoken to\",\n      \"eli10\": \"If saying the patient's name or 'are you okay?' makes them open their eyes or mumble, but they don't stay awake on their own, they are at 'V' — the brain wakes only when someone knocks.\",\n      \"clinical_explanation\": \"The patient responds only to verbal stimulation (opening eyes, making sounds, or moving) but is not spontaneously awake. This is a depressed level of consciousness requiring close monitoring and escalation.\",\n      \"physiology\": \"Reduced reticular activating system drive means external stimulation is needed to produce responsiveness; note whether the response is appropriate (words) or incomprehensible (moans).\",\n      \"safety_note\": \"\"\n    },\n    {\n      \"symbol\": \"P\",\n      \"term\": \"Pain (responds to pain)\",\n      \"association\": \"Responds only to a painful stimulus\",\n      \"eli10\": \"If talking doesn't wake them, but a firm pinch or chest rub makes them open their eyes or pull away, they are at 'P' — the brain only answers a strong alarm, not a gentle knock.\",\n      \"clinical_explanation\": \"The patient responds only to a painful stimulus (trapezius squeeze, sternal rub) by grimacing, withdrawing, or opening eyes. This indicates significant CNS depression and high risk of airway compromise; escalate immediately.\",\n      \"physiology\": \"As consciousness declines, progressively stronger stimuli are needed to elicit a response; pain-only responsiveness reflects loss of spontaneous and verbal responsiveness.\",\n      \"safety_note\": \"Use a brief central painful stimulus (trapezius squeeze) and stop as soon as a response is observed.\"\n    },\n    {\n      \"symbol\": \"U\",\n      \"term\": \"Unresponsive\",\n      \"association\": \"No response to voice or pain\",\n      \"eli10\": \"If no amount of talking or pinching gets any response — no eye opening, no movement, no sound — the patient is 'U.' The brain's front desk is completely closed; this is a five-alarm emergency.\",\n      \"clinical_explanation\": \"The patient does not respond to verbal or painful stimuli, indicating coma or profound CNS depression. Immediate priorities are airway protection, breathing, circulation, and rapid escalation.\",\n      \"physiology\": \"Unresponsiveness reflects severe depression of the reticular activating system and/or cortex from head injury, hypoxia, hypoglycemia, drugs/toxins, or a post-ictal state; absent protective reflexes are immediately life-threatening.\",\n      \"safety_note\": \"Never leave an unresponsive patient alone; protect the airway and call for help.\"\n    }\n  ]\n}"
+}

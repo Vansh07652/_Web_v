@@ -1,0 +1,40 @@
+{
+  "id": "organic-chemistry-1-organic-chemistry-and-functional-groups-q12",
+  "subject": "organic-chemistry-1",
+  "lesson": "organic-chemistry-and-functional-groups",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "An unknown hydrocarbon isolated in a teaching laboratory has the molecular formula C6H10. Which structural conclusion is best supported by this formula alone?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The compound is fully saturated, since it contains more hydrogens than carbons"
+    },
+    {
+      "id": "b",
+      "text": "The compound has one double bond and no rings, since it falls two hydrogens short of an alkane"
+    },
+    {
+      "id": "c",
+      "text": "The compound has two degrees of unsaturation, so it contains some combination of rings and pi bonds"
+    },
+    {
+      "id": "d",
+      "text": "The compound is a benzene derivative, since aromatic rings are the usual source of missing hydrogens"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "The saturated six-carbon alkane is C6H14, so C6H10 is four hydrogens short, and each ring or pi bond costs two hydrogens: (2(6) + 2 − 10) / 2 = 2 degrees of unsaturation. Those two degrees can be satisfied by two double bonds, one triple bond, one ring plus one double bond, or two rings, so the formula constrains the structure without determining it, which is why choice B is too specific. Benzene is C6H6 with four degrees of unsaturation, so an aromatic ring alone cannot fit C6H10.\n\nELI-10: Start from the fully saturated benchmark for six carbons, 2(6) + 2 = 14 hydrogens, then compare with the 10 hydrogens actually present. Every time a molecule closes a ring or forms a pi bond, two hydrogen atoms are no longer needed, so the four missing hydrogens mean two such features: (14 − 10) / 2 = 2. The calculation tells you how many rings or pi bonds exist but not which, so cyclohexene, 1-hexyne, and 1,3-hexadiene all satisfy C6H10. Spectroscopy is what narrows the possibilities from there.",
+  "difficulty": "hard",
+  "tags": [
+    "degrees of unsaturation",
+    "molecular formula analysis",
+    "rings and pi bonds",
+    "isomer possibilities"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-281",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

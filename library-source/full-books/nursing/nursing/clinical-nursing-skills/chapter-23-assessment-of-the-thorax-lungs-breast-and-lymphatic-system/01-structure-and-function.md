@@ -1,0 +1,142 @@
+---
+title: "Structure and Function"
+subject: "Nursing"
+book: "Clinical Nursing Skills"
+chapter: "23: Assessment of the Thorax, Lungs, Breast, and Lymphatic System"
+topic_number: "1"
+source: "clinical-nursing-skills.md"
+tags:
+  - "structure-and-function"
+  - "nursing"
+status: "complete"
+---
+
+# Structure and Function
+
+> **Book:** [Clinical Nursing Skills](../../README.md)  
+> **Chapter:** [Chapter 23: Assessment of the Thorax, Lungs, Breast, and Lymphatic System](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Before you can listen to a chest or feel for a pulse, you need to know what is inside the thorax and where it lives. This topic builds the anatomical map that makes the rest of the chapter work: the bony landmarks and reference lines nurses use to find the right spot to listen, the lungs and their lobes, the mechanics of breathing, the structure of the breast, and the lymphatic network that drains the chest wall and arms. Structure predicts function: knowing which lobe sits where tells you what a finding in a particular location might mean, and knowing lymphatic drainage patterns tells you where to feel for swollen nodes.
+
+This is foundational anatomy — the vocabulary and landmarks you will use in every later topic of the chapter, so take the time to draw the map before you start listening.
+
+## Why This Matters
+
+- **Accurate placement:** landmarks like the angle of Louis let you count ribs and intercostal spaces, so you listen and percuss at the same spot every time — and document locations others can find.
+- **Interpreting findings:** knowing that the lower lobes dominate the posterior chest explains why you listen to the back for lower-lobe sounds and why a right-middle-lobe problem is heard anteriorly and in the axilla.
+- **Recognizing work of breathing:** understanding the mechanics of breathing (which muscles do what) lets you notice when accessory muscles are working at rest — an important observation.
+- **Lymphatic clues:** knowing drainage patterns (breast and arm to the axilla) tells you where to palpate and why node enlargement is a clue to investigate, not a diagnosis.
+- **Exams and safety:** lobe counts, landmark levels, and normal-versus-abnormal structure questions are classic exam material, and structure knowledge prevents misplaced stethoscopes and missed findings.
+
+## Core Concepts
+
+### Landmarks and reference lines
+
+The thorax is a cage of bones: 12 pairs of ribs, the sternum, and the thoracic vertebrae. Key landmarks:
+
+- **Sternal notch:** the dip at the top of the sternum.
+- **Angle of Louis:** the ridge where the manubrium meets the body of the sternum; it lines up with the 2nd rib and 2nd costal cartilage and is the counting-off point for ribs and intercostal spaces (the spaces between ribs).
+- **Vertebra prominens:** the prominent spinous process at the base of the neck (usually C7), the starting point for counting down the spine.
+- **Costal angle:** the angle formed where the lower ribs meet at the front; normally about 90 degrees or less.
+
+Reference lines are imaginary vertical lines used to name locations: midsternal (down the center of the sternum), midclavicular (through the midpoint of each collarbone), anterior axillary, midaxillary, and posterior axillary (from the armpit region), plus scapular and vertebral lines on the back. When you document "diminished breath sounds at the right base, midclavicular line," the provider knows exactly where you listened.
+
+### The lungs and their lobes
+
+The right lung has three lobes (upper, middle, lower); the left lung has two (upper and lower) because the heart takes up space on the left. Lobes are separated by fissures. The lobes do not sit where you might guess from the outside: the upper lobes project anteriorly and superiorly, the lower lobes dominate the posterior chest, and the right middle lobe is best heard anteriorly and in the axilla. The trachea divides into the right and left main bronchi, which branch into smaller bronchi, bronchioles, and finally the alveoli — tiny air sacs where gas exchange happens. Each lung is wrapped in a double-layered membrane (the pleura); the thin pleural space between the layers holds a small amount of fluid that lets the lungs slide as they inflate and deflate. Surfactant, a substance lining the alveoli, lowers surface tension and keeps the air sacs from collapsing.
+
+### Mechanics of breathing
+
+Breathing is a pressure game. At rest, inspiration is active: the diaphragm contracts and flattens, and the external intercostal muscles lift the ribs, enlarging the chest and lowering pressure inside, so air flows in. Expiration at rest is mostly passive — the muscles relax and the elastic lungs recoil. Accessory muscles (sternocleidomastoid, scalenes) can help when breathing is harder, but using them at rest is a sign of increased work of breathing — an important observation. Tidal volume is the amount of air moved in and out with each normal breath. Disease changes this machinery: stiff lungs, narrowed airways, fluid in the pleural space, or a collapsed lung all change what you see, feel, hear, and percuss — which is exactly why the physical exam works.
+
+### Breast structure
+
+The breast sits on the chest wall over the pectoral muscles and extends into the axilla as the axillary tail. Each breast contains 15–20 lobes of glandular tissue that branch into ducts leading to the nipple; the nipple is surrounded by the areola. Fibrous bands called Cooper's ligaments support the breast tissue and attach it to the chest wall. Breast tissue changes across the lifespan and with hormones (development, menstrual cycle, pregnancy, lactation, menopause), and people of any gender can have breast tissue — assessment is performed respectfully, with consent, and according to facility policy.
+
+### The lymphatic system
+
+The lymphatic system is a network of vessels that carries lymph (fluid from tissues) back toward the bloodstream and filters it through lymph nodes — small, bean-shaped structures that house immune cells. Nodes swell as part of the immune response: a clue, not a diagnosis. Key groups for this chapter: head and neck nodes (cervical chains), axillary nodes (central, pectoral, subscapular, lateral, and apical groups) that drain the arm and breast, epitrochlear nodes (just above the elbow), and inguinal nodes in the groin. Drainage patterns matter: knowing that the breast and arm drain to the axilla tells you where to palpate when a person has breast or arm symptoms, and why axillary nodes are important after breast surgery (educational context — specific post-operative care follows orders and policy).
+
+## ELI-10: Explain Like I’m 10
+
+Your chest is like a house with a map: the ribs are the walls, and nurses use special "address lines" on the chest so everyone knows exactly which room they are talking about. The lungs are like two balloons that fill with air, the heart sits between them, and a network of tiny pipes (the lymph system) carries clear fluid around and filters it in little "security checkpoints" called lymph nodes.
+
+## High-Yield Points
+
+- The angle of Louis marks the 2nd rib — your starting point for counting ribs and intercostal spaces.
+- Right lung: 3 lobes; left lung: 2 lobes (the heart lives on the left).
+- Upper lobes project anteriorly; lower lobes dominate the posterior chest; the right middle lobe is anterior and axillary.
+- Inspiration is active (diaphragm); resting expiration is passive (elastic recoil).
+- Accessory muscle use at rest = increased work of breathing — an observation worth reporting.
+- Surfactant keeps alveoli from collapsing; the pleura lets the lungs slide within the chest.
+- The breast and arm drain to axillary nodes; epitrochlear nodes sit just above the elbow.
+- Structure predicts function: where a finding is located tells you which structure is involved.
+- Assessment is always respectful and consent-based; scope and technique follow facility policy.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Angle of Louis | Ridge where the manubrium meets the sternum body, level with the 2nd rib | The landmark for counting ribs and intercostal spaces |
+| Intercostal space | The space between two ribs | Where you listen and percuss; named by number (e.g., 2nd ICS) |
+| Midclavicular line | Imaginary vertical line through the midpoint of each collarbone | Reference line for naming exam locations |
+| Alveoli | Tiny air sacs where gas exchange happens | The business end of the lung; their health determines oxygenation |
+| Pleura | Double membrane around each lung with a thin fluid-filled space | Inflammation or fluid here changes breath sounds and percussion |
+| Surfactant | Substance lining the alveoli that lowers surface tension | Keeps air sacs open; when it is lacking (e.g., in some premature infants), alveoli collapse |
+| Tidal volume | Air moved in and out with each normal breath | A basic measure of ventilation |
+| Accessory muscles | Neck and shoulder muscles (e.g., sternocleidomastoid) that assist breathing | Use at rest signals increased work of breathing |
+| Cooper's ligaments | Fibrous bands supporting breast tissue | Explain breast shape and some examination findings |
+| Lymph nodes | Small immune-cell filters along lymph vessels | Enlargement is a clue to infection or other disease — report, don't diagnose |
+
+## Example: Finding your way to the right spot
+
+You need to listen to the right upper lobe. Here is the map: find the sternal notch, slide your fingers down to the angle of Louis (the ridge at the 2nd rib level), then walk your fingers out along the 2nd rib to the 2nd intercostal space; the right upper lobe is heard anteriorly around the 2nd intercostal space near the midclavicular line. To listen to a lower lobe, think posteriorly: lower lobes dominate the back, so you listen over the posterior chest below the scapulae. Same lung, two different listening posts — because structure determines where a lobe's sounds surface. When a patient's right middle lobe area sounds different from everywhere else, you know exactly which lobe to mention in your report.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Sternal notch | Angle of Louis | The notch is the dip at the top of the sternum; the angle of Louis is the ridge below it, at the 2nd rib |
+| Right lung lobes | Left lung lobes | Right: 3 (upper, middle, lower). Left: 2 (upper, lower) — the heart takes left-side space |
+| Upper lobe location | Lower lobe location | Upper lobes: anterior and superior. Lower lobes: posterior and low. Right middle lobe: anterior and axillary |
+| Tidal volume | Total lung capacity | Tidal volume is one normal breath; capacity is the maximum the lungs can hold |
+| Lymph node swelling | Infection diagnosis | Swelling is a sign of immune activity with many causes — describe and report |
+| Axillary tail of breast | Lymph node | The breast's tail is glandular tissue reaching into the axilla; nodes are separate structures |
+
+## Quick Review
+
+1. Why is the angle of Louis the most useful landmark on the anterior chest?
+2. How many lobes does each lung have, and why do the right and left differ?
+3. Where are the lower lobes best heard, and why?
+4. Describe the mechanics of a normal resting breath (which phase is active, which is passive).
+5. What does surfactant do, and why does it matter?
+6. Where does the breast tissue drain, and which node groups are nearby?
+
+<details>
+<summary>Show answers</summary>
+
+1. It marks the 2nd rib, so it is the counting-off point for all ribs and intercostal spaces.
+2. Right lung: 3 lobes (upper, middle, lower). Left lung: 2 (upper, lower) because the heart occupies space on the left.
+3. Posteriorly, over the back below the scapulae — the lower lobes dominate the posterior chest.
+4. Inspiration is active (diaphragm contracts, chest enlarges, air flows in); resting expiration is passive (muscles relax, lungs recoil).
+5. It lowers surface tension in the alveoli so the air sacs stay open instead of collapsing.
+6. The breast and arm drain to the axillary nodes; nearby groups include the central, pectoral, subscapular, lateral, and apical axillary nodes, plus cervical nodes above.
+</details>
+
+## Related Topics
+
+- Next: [Physical Assessment of the Thorax](02-physical-assessment-of-the-thorax.md)
+- Related: [Breath Sounds and Lung Assessment](03-breath-sounds-and-lung-assessment.md), [Breast and Lymphatic System](04-breast-and-lymphatic-system.md)
+- Chapter overview: [Assessment of the Thorax, Lungs, Breast, and Lymphatic System](../README.md)
+
+## Source Notes
+
+- Book: Clinical Nursing Skills
+- Local outline source: `clinical-nursing-skills.md`
+- Official source URL: https://openstax.org/details/books/clinical-nursing-skills/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-15

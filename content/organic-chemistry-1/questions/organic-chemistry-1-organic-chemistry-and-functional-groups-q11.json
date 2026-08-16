@@ -1,0 +1,40 @@
+{
+  "id": "organic-chemistry-1-organic-chemistry-and-functional-groups-q11",
+  "subject": "organic-chemistry-1",
+  "lesson": "organic-chemistry-and-functional-groups",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "What would happen if a secondary alcohol such as 2-propanol were subjected to mild oxidation?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It would form an aldehyde that is then rapidly oxidized further to a carboxylic acid"
+    },
+    {
+      "id": "b",
+      "text": "It would form an ether by losing water and joining a second alcohol molecule"
+    },
+    {
+      "id": "c",
+      "text": "It would form a ketone, which resists further oxidation under the same conditions"
+    },
+    {
+      "id": "d",
+      "text": "It would resist oxidation, because its carbinol carbon carries no hydrogen atom"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Oxidation of an alcohol removes the hydroxyl hydrogen along with a hydrogen from the carbinol carbon. A secondary alcohol has exactly one hydrogen on that carbon, so oxidation stops at the ketone; 2-propanol (C3H8O, about 60 g/mol) becomes acetone (C3H6O, about 58 g/mol), a loss of 60 − 58 = 2 g/mol corresponding to two hydrogen atoms. Primary alcohols keep a second carbinol hydrogen after forming an aldehyde and can therefore proceed to a carboxylic acid, while tertiary alcohols have no carbinol hydrogen at all, which is what choice D actually describes.\n\nELI-10: Count the hydrogens on the carbon that holds the —OH, because that number sets how far oxidation can go. A primary alcohol's carbinol carbon has two, so it can be oxidized twice, first to an aldehyde and then to a carboxylic acid. A secondary alcohol's has one, so oxidation runs once and stops at a ketone. A tertiary alcohol's has none and is essentially inert to this reaction. The mass bookkeeping confirms it: 60 − 58 = 2 g/mol, exactly the two hydrogens removed when 2-propanol becomes acetone.",
+  "difficulty": "hard",
+  "tags": [
+    "alcohol oxidation",
+    "primary versus secondary versus tertiary alcohols",
+    "ketones versus aldehydes",
+    "carbinol carbon"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-281",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

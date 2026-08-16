@@ -1,0 +1,40 @@
+{
+  "id": "biology-1-mendelian-and-classical-genetics-0008",
+  "subject": "biology-1",
+  "lesson": "mendelian-and-classical-genetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A **pedigree** chart shows a rare disorder in which two unaffected parents have an affected son and an affected daughter, and the trait does not appear in any earlier generation. Which mode of inheritance does this pattern most strongly support?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Autosomal dominant, because a new case of the trait appeared in this generation."
+    },
+    {
+      "id": "b",
+      "text": "Autosomal recessive, because both unaffected parents must be carriers of the recessive allele."
+    },
+    {
+      "id": "c",
+      "text": "X-linked dominant, because the affected children include a son."
+    },
+    {
+      "id": "d",
+      "text": "Polygenic, because several genes could contribute to the disorder."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "For a rare recessive trait, affected children are homozygous for the recessive allele, and their unaffected parents must both be carriers, which matches this pedigree. An affected daughter rules out X-linked recessive inheritance because her unaffected father would have to pass her an X chromosome carrying the disease allele, which he does not have. Dominant inheritance would require an affected parent, and polygenic traits show a continuous range of variation rather than clear affected and unaffected categories.",
+  "difficulty": "unknown",
+  "tags": [
+    "pedigree",
+    "analysis",
+    "rare",
+    "disorder"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-f0963ec18ccf229e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

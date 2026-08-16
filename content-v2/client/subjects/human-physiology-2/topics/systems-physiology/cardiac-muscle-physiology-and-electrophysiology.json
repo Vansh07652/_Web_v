@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:human-physiology-2:systems-physiology:cardiac-muscle-physiology-and-electrophysiology",
+  "slug": "cardiac-muscle-physiology-and-electrophysiology",
+  "title": "Cardiac Muscle Physiology and Electrophysiology",
+  "subject": {
+    "id": "subject:human-physiology-2",
+    "slug": "human-physiology-2",
+    "title": "Human Physiology II"
+  },
+  "unit": {
+    "id": "unit:human-physiology-2:systems-physiology",
+    "slug": "systems-physiology",
+    "title": "Systems Physiology",
+    "order": 1
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "The heart is a four-chambered pump whose rhythm depends on a specialized electrical system. Pacemaker cells in the sinoatrial (SA) node depolarize spontaneously — driven largely by the \"funny current\" (If) — and that wave spreads across the atria, pauses at the atrioventricular (AV) node, then travels down the bundle of His and Purkinje fibers to the ventricles. In contractile cells, the plateau (Ca2+ entry) triggers calcium-induced calcium release from the sarcoplasmic reticulum, producing contraction.",
+    "whyItMatters": "Disruption of the conduction system or ion channels produces arrhythmias: AV-node disease or ischemia can cause conduction \"blocks,\" and abnormal automaticity or re-entry can drive tachycardias. Ion-channel drugs and electrolytes (notably K+ and Ca2+) alter these currents, so electrolyte disturbances change the ECG and rhythm. Criteria and protocols vary by institution and jurisdiction; urgent symptoms require immediate evaluation by qualified clinicians or local emergency services. These notes support education and do not replace clinical instruction or supervision.",
+    "learningObjectives": "1. Describe the heart's gross anatomy (chambers, valves, coronary circulation) and distinguish anatomy from electrical function.\n2. Compare the fast-response (contractile) and slow-response (pacemaker) action potentials, including each phase and its dominant ion current.\n3. Explain the pacemaker potential, the funny current (If), and SA node dominance.\n4. Trace the cardiac conduction system and explain excitation-contraction coupling via calcium-induced calcium release.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Pacemaker potential | Slow spontaneous depolarization of nodal cells toward threshold | Makes the heart beat automatically |\n| Funny current (If) | Inward Na+ current through HCN channels opened by hyperpolarization | The main engine of SA node automaticity |\n| Fast-response action potential | Na+-dependent spike with a Ca2+ plateau, in myocytes and Purkinje fibers | Produces the long contraction and refractory period |\n| Slow-response action potential | Ca2+-dependent, self-depolarizing action potential of nodal cells | Underlies automaticity in the SA and AV nodes |\n| AV node delay | ~0.1 s slowing of conduction at the AV node | Ensures the atria empty before the ventricles contract |\n| Calcium-induced calcium release (CICR) | Small Ca2+ entry triggers large sarcoplasmic-reticulum Ca2+ release | Links the electrical signal to contraction |\n| SA node dominance | Fastest pacemaker sets the rate for all slower pacemakers | Keeps one orderly rhythm |",
+    "collegeNotes": "### 1. Heart Anatomy: Chambers, Valves, and Coronary Circulation\nThe heart has four chambers. The right atrium and ventricle pump deoxygenated blood to the lungs; the left pair pumps oxygenated blood to the body. Four one-way valves prevent backflow: the tricuspid (right) and mitral/bicuspid (left) atrioventricular (AV) valves sit between atria and ventricles, and the pulmonary and aortic semilunar valves sit at the ventricular outlets. The coronary circulation supplies the myocardium: the right and left coronary arteries arise from the aortic root, and coronary veins drain into the coronary sinus, which empties into the right atrium. Coronary flow occurs mostly during diastole.\n\n### 2. Two Types of Cardiac Action Potentials\nFast-response cells (atrial and ventricular myocytes, Purkinje fibers) have a stable resting membrane potential near −90 mV and a rapid upstroke. Slow-response cells (SA node, AV node) lack a stable resting potential and depolarize spontaneously.\n\n### 3. Excitation–Contraction Coupling: Calcium-Induced Calcium Release\nThe plateau opens L-type Ca2+ channels; this small Ca2+ influx triggers the sarcoplasmic reticulum (via ryanodine receptors) to release a much larger Ca2+ store — \"calcium-induced calcium release\" (CICR). Ca2+ binds troponin C, moving tropomyosin off actin so cross-bridges generate force; relaxation resequesters Ca2+ via SERCA and the Na+/Ca2+ exchanger.",
+    "howItWorks": "1. The SA node's funny current drives its cells to threshold (an action potential).\n2. The impulse spreads across the atria, slows at the AV node, then races down the bundle of His and Purkinje fibers to the ventricles.\n3. Fast-response action potentials open Na+ then Ca2+ channels; Ca2+ entry triggers CICR from the sarcoplasmic reticulum.\n4. Ca2+ binds troponin C, the ventricle contracts, and Ca2+ is resequestered so the cycle repeats.",
+    "comparisons": "",
+    "highYield": "- **High yield:** The plateau (Phase 2) is caused by L-type Ca2+ influx and gives the heart its long refractory period.\n- **High yield:** The funny current (If) opens on hyperpolarization and drives SA node automaticity; sympathetic stimulation increases it, parasympathetic decreases it.\n- The SA node is the normal pacemaker because it depolarizes fastest and suppresses slower pacemakers.\n- The AV node delay separates atrial from ventricular contraction.\n- CICR: a small trigger Ca2+ releases a much larger sarcoplasmic-reticulum Ca2+ store.\n- Fast-response cells rest near −90 mV; slow-response cells never truly rest.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Pacemaker (slow-response) cells | Contractile (fast-response) cells | Pacemakers depolarize spontaneously via If and Ca2+; contractile cells need a stimulus and use fast Na+ |\n| The plateau (Phase 2) | The pacemaker potential (nodal Phase 4) | The plateau holds a depolarized level during contraction; the pacemaker potential rises toward the next beat |\n| SA node | AV node | SA node sets the rate; AV node delays and relays the signal |\n| Calcium-induced calcium release | Direct voltage-driven release (skeletal muscle) | Cardiac SR Ca2+ release needs trigger Ca2+ entry; skeletal muscle uses direct mechanical coupling |",
+    "memoryAids": "**\"S-Aid To Ventricles — Pause, Then Purkinje.\"** Conduction order: SA node → Atria → pause (AV node) → Then Ventricles via the bundle of His and Purkinje fibers.",
+    "eli10": "Think of the heart as a building with its own alarm-and-wiring system. The pacemaker cells are the \"alarm clock\" — they ring on their own, fastest, so the rest of the building follows. The wiring (conduction system) carries that ring to every room (muscle cell), where calcium rushes in and makes the muscle squeeze.\n\nComparison: it is like dominoes, where knocking one over triggers the next — except each cardiac cell briefly holds its position (the \"plateau\") so the squeeze lasts long enough to push blood.\n\nWhere it stops being exact: cardiac cells do not just flip on and off — they use graded ion currents (sodium, calcium, potassium) through specific channels, and nerves and hormones can speed or slow the \"alarm clock.\"\n\n### Simple Example\nSqueeze a garden hose in a wave from one end to the other and water squirts out the far end. The heart does the same: a wave travels from atria to ventricles, each region squeezing just after the wave passes.",
+    "quickReview": "### Topic Recap\n\nThe heart combines a self-starting electrical system with excitable muscle. Pacemaker cells depolarize spontaneously via the funny current; the SA node dominates by firing fastest, and the conduction system routes the impulse with a deliberate AV delay. Contractile myocytes respond with a Na+ spike and Ca2+ plateau, whose Ca2+ entry triggers calcium-induced calcium release — coupling electricity to contraction.\n\n### Knowledge Check\n\n1. Which ion current is the dominant driver of the SA node's pacemaker potential?\n2. Why does the fast-response action potential have a long plateau, and which ion sustains it?\n3. What is the functional purpose of the AV node delay?\n4. In calcium-induced calcium release, what is the \"trigger\" and what is the \"release\"?\n5. Why does the SA node — not the AV node or Purkinje fibers — normally set the heart rate?\n\n### Answers and Rationales\n\n1. The funny current (If), an inward Na+ current through HCN channels; it opens on hyperpolarization and depolarizes the cell toward threshold.\n2. The plateau is sustained by L-type Ca2+ influx balancing K+ efflux; it prolongs depolarization for full Ca2+ release, contraction, and a long refractory period.\n3. The ~0.1 s delay lets the atria finish filling the ventricles before the ventricles contract.\n4. The trigger is the small Ca2+ entering through L-type channels; the release is the large Ca2+ burst from the sarcoplasmic reticulum via ryanodine receptors.\n5. Because the SA node has the fastest intrinsic rate and suppresses slower pacemakers.",
+    "workedExamples": "The fast-response (contractile) action potential has five phases:\n\n1. Phase 0 (rapid depolarization): voltage-gated Na+ channels open, and fast Na+ influx drives the membrane from −90 mV toward +20 mV.\n2. Phase 1 (early repolarization): Na+ channels inactivate and a transient outward K+ current drops the membrane a few millivolts.\n3. Phase 2 (plateau): L-type Ca2+ channels open; slow Ca2+ influx nearly balances outward K+ current, holding the cell depolarized 200–300 ms for contraction and a long refractory period.\n4. Phase 3 (repolarization): Ca2+ channels close while K+ efflux returns the membrane to rest.\n5. Phase 4 (resting potential): pumps (Na+/K+-ATPase, Ca2+ transporters) restore ion gradients.\n\nThe slow-response (pacemaker) action potential has no stable resting state:\n\n1. Phase 4 (pacemaker potential): the membrane drifts toward threshold, driven mainly by the funny current (If) — inward Na+ through hyperpolarization-activated cyclic-nucleotide-gated (HCN) channels, \"funny\" because they open on hyperpolarization, not depolarization.\n2. Phase 0 (upstroke): at threshold, L-type Ca2+ channels open; the upstroke is slower because Ca2+ influx is slower than Na+ influx.\n3. Phase 3 (repolarization): K+ efflux restores the negative potential, and the cycle repeats (no plateau).\n\nSA node dominance arises because the SA node's intrinsic rate (~60–100 beats/min) exceeds that of the AV node (~40–60) and Purkinje fibers (~20–40); the fastest pacemaker drives the slower ones (overdrive suppression). Conduction: SA node → internodal pathways → AV node (an ~0.1 s delay so the atria finish filling the ventricles) → bundle of His → bundle branches → Purkinje fibers, which conduct rapidly for a coordinated squeeze.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "cardiac-muscle-physiology-and-electrophysiology",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "01-cardiac-muscle-physiology-and-electrophysiology",
+      "kind": "source_file_stem",
+      "source_id": "need-review-human-physiology-ii"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-human-physiology-ii",
+    "sourceFile": "human-physiology-ii-study-notes/docs/human-physiology-ii/01-cardiac-muscle-physiology-and-electrophysiology.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

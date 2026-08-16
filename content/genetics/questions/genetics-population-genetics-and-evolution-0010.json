@@ -1,0 +1,39 @@
+{
+  "id": "genetics-population-genetics-and-evolution-0010",
+  "subject": "genetics",
+  "lesson": "population-genetics-and-evolution",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation In a population, the heterozygosity expected under Hardy Weinberg equilibrium is 0.42, but the observed heterozygosity is only 0.36. What is the inbreeding coefficient F?",
+  "options": [
+    {
+      "id": "a",
+      "text": "0.06"
+    },
+    {
+      "id": "b",
+      "text": "0.14"
+    },
+    {
+      "id": "c",
+      "text": "0.36"
+    },
+    {
+      "id": "d",
+      "text": "0.86"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "The inbreeding coefficient is F = 1 - H_obs/H_exp, so F = 1 - 0.36/0.42 = 1 - 0.86 = 0.14. Option A is the raw heterozygosity deficit, 0.42 - 0.36 = 0.06, without scaling by the expected value, and C is the observed heterozygosity itself. D is the ratio H_obs/H_exp = 0.36/0.42 = 0.86, the fraction of heterozygotes retained rather than the fraction lost.",
+  "difficulty": "unknown",
+  "tags": [
+    "inbreeding",
+    "coefficient",
+    "heterozygosity"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-c8080c5df327048e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

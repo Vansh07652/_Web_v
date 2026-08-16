@@ -1,0 +1,131 @@
+---
+title: "Sexually Transmitted Infections"
+subject: "Nursing"
+book: "Maternal-Newborn Nursing"
+chapter: "7: Commonly Occurring Reproductive and Genitourinary System Infections"
+topic_number: "1"
+source: "maternal-newborn-nursing.md"
+tags:
+  - "sexually-transmitted-infections"
+  - "nursing"
+status: "complete"
+---
+
+# Sexually Transmitted Infections
+
+> **Book:** [Maternal-Newborn Nursing](../../README.md)  
+> **Chapter:** [Chapter 7: Commonly Occurring Reproductive and Genitourinary System Infections](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Sexually transmitted infections (STIs)** are infections spread primarily through sexual contact — including vaginal, anal, and oral sex. They are caused by bacteria (*Chlamydia trachomatis*, *Neisseria gonorrhoeae*, *Treponema pallidum* — syphilis), viruses (human immunodeficiency virus [HIV], herpes simplex virus [HSV], human papillomavirus [HPV], hepatitis B), and parasites (*Trichomonas vaginalis*). A key concept from the start: an **infection** and a **disease** are not the same thing. Many STIs are **asymptomatic** — a person can carry and transmit an infection with no symptoms at all — which is why screening matters and why "I feel fine" is not evidence of being uninfected.
+
+In maternal-newborn nursing, STIs carry an extra dimension: some cross the **placenta** during pregnancy (syphilis, HIV), some infect the newborn **during birth** (chlamydia, gonorrhea, HSV, hepatitis B), and some pass through **breastfeeding** (HIV). The stakes are doubled — the health of the pregnant person and of the fetus and newborn. Many of these outcomes are preventable: screening in pregnancy, treatment when found, vaccination where it exists, and newborn prophylaxis where indicated all dramatically reduce transmission. The nurse's role spans education, sensitive screening discussions, partner notification, stigma reduction, and support.
+
+## Why This Matters
+
+STIs are common, frequently silent, and treatable or preventable — a high-impact area for nursing. Untreated chlamydia and gonorrhea can ascend and cause **pelvic inflammatory disease (PID)**, which damages the fallopian tubes and raises the risk of infertility and ectopic pregnancy. Syphilis can cross the placenta and cause **congenital syphilis** — fetal death, stillbirth, or severe newborn disease — even though screening and treatment prevent it. HSV acquired near term can cause devastating **neonatal herpes**. HIV can transmit across the placenta, at birth, or through breastfeeding; prevention of vertical transmission has changed the outlook for affected newborns dramatically. Screening is the backbone: routine prenatal screening exists for several of these infections, and nurses both offer it and explain why it matters. Finally, STI care demands exceptional communication — nonjudgmental questions, confidentiality, partner notification, and destigmatizing language all influence whether a person is tested, treated, and healed.
+
+## Core Concepts
+
+### Bacterial STIs and their reproductive consequences
+
+**Chlamydia** is the most commonly reported bacterial STI and is frequently asymptomatic. Untreated, it can cause cervicitis, PID, and tubal damage leading to infertility or ectopic pregnancy. In pregnancy, it can be transmitted to the newborn during vaginal birth, causing neonatal conjunctivitis and pneumonia. **Gonorrhea** behaves similarly — asymptomatic carriage is common, complications include PID and infertility, and the newborn can acquire an eye infection during birth, which is why **newborn eye prophylaxis** is standard preventive care (the specific agent and timing follow current guidelines and institutional policy). **Syphilis** is the classic vertically transmitted infection: the spirochete crosses the placenta, and untreated syphilis in pregnancy can cause miscarriage, stillbirth, or congenital syphilis with lifelong effects. It is staged (primary, secondary, latent, tertiary), and prenatal screening is routine — early treatment prevents congenital disease. Because these are bacterial, they are curable with antibiotics; the nursing issues are finding them (screening), treating partners, and preventing reinfection.
+
+### Viral STIs: control, not cure
+
+**HIV** is a retrovirus that, untreated, destroys immune cells and progresses to AIDS. Vertical transmission can occur during pregnancy, during birth, and through breastfeeding; prevention involves maternal treatment, birth-planning decisions, and newborn prophylaxis — a bundle of interventions that has made pediatric HIV largely preventable where resources allow. **HSV** causes oral and genital herpes: **HSV-1** is classically oral, **HSV-2** classically genital, but either can infect either site. HSV can transmit to the newborn during birth — risk is highest with a **primary (first-time) infection acquired near term**, because protective antibodies have not yet developed. Neonatal herpes can be severe, affecting skin, eyes and mouth, the central nervous system, or becoming disseminated. **HPV** is extremely common; most infections clear spontaneously, persistent high-risk types can cause cervical and other cancers (see Chapter 6), and low-risk types cause genital warts. **Hepatitis B** is transmitted sexually and vertically; newborns of infected parents receive vaccination and immune globulin at birth to prevent chronic infection. Viruses are managed, not cured — treatment suppresses the virus, and prevention (vaccines, prophylaxis) is the cornerstone.
+
+### Parasitic STI: trichomoniasis
+
+**Trichomoniasis** is caused by the protozoan *Trichomonas vaginalis*. It commonly causes a frothy, malodorous vaginal discharge and itching, though many infected people are asymptomatic. In pregnancy it has been associated with adverse outcomes such as preterm birth — a reason it is screened and treated. It is curable, and partners need treatment too to prevent reinfection.
+
+### The nursing response: screening, education, and dignity
+
+The nursing approach to STIs is a communication skill as much as a clinical one. **Screening**: offer testing routinely and explain what is being tested and why; prenatal screening is the norm for several infections. **Education**: teach prevention (condoms, vaccines for HPV and hepatitis B), explain that "no symptoms" does not mean "no infection," and give honest information about transmission. **Partner notification**: infected people are supported — often confidentially and anonymously where services exist — to notify partners so they can be tested and treated, breaking the cycle of reinfection. **Dignity**: use person-first, nonjudgmental language, do not moralize, protect confidentiality, and remember that stigma is a real barrier to testing. **Scope**: nurses support these processes, but testing, diagnosis, treatment, and partner-notification programs operate under laws, guidelines, and institutional policies that vary by jurisdiction — nurses should know their local rules, including which infections are reportable to public health.
+
+## ELI-10: Explain Like I'm 10
+
+Some germs spread when people are close in a special way — through sex. Some of these germs make you sick right away, but many hide with no signs at all, so you can pass them to someone else without knowing. Some can travel from a pregnant person to the baby before or during birth, which is why pregnant people get tests and sometimes medicine. Many of these infections can be cured, others can be controlled, and vaccines can prevent some — so getting tested and treated is the brave, responsible thing to do.
+
+## High-Yield Points
+
+- **Infection ≠ disease:** most STIs can be asymptomatic; "I feel fine" is not proof of being uninfected — screening is the only way to know.
+- **Bacterial STIs (chlamydia, gonorrhea, syphilis) are curable; viral STIs (HIV, HSV, HPV, hepatitis B) are managed, not cured.**
+- **Chlamydia and gonorrhea → PID → tubal damage → infertility and ectopic pregnancy risk** if untreated; both can infect the newborn at birth (eye infections; chlamydia also causes neonatal pneumonia).
+- **Syphilis crosses the placenta → congenital syphilis** (fetal death, stillbirth, severe newborn disease); routine prenatal screening plus treatment prevents it.
+- **HIV transmits in pregnancy, at birth, and via breastfeeding; prevention of vertical transmission is a bundled, high-impact intervention.**
+- **Neonatal herpes risk is highest with a primary HSV infection acquired near term** — before protective antibodies develop.
+- **Newborn eye prophylaxis at birth is standard preventive care** against gonococcal ophthalmia; specifics follow current guidelines.
+- **Nursing essentials: offer screening without judgment, teach prevention (condoms, vaccines), support partner notification, protect confidentiality, and know local reporting requirements.**
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| STI | Sexually transmitted infection — infection spread mainly through sexual contact | Broader than "STD": infection can exist without disease or symptoms |
+| Asymptomatic | Present but causing no symptoms | Why screening matters — silent carriage still transmits and still harms |
+| Vertical transmission | Spread of infection from parent to fetus/newborn (placenta, birth, breastfeeding) | The pregnancy-specific risk that makes STIs a maternal-newborn priority |
+| PID | Pelvic inflammatory disease — infection ascending into the uterus/tubes | The pathway from untreated chlamydia/gonorrhea to infertility and ectopic pregnancy |
+| Congenital syphilis | Syphilis acquired by the fetus across the placenta | Preventable with screening and treatment; can cause stillbirth and severe newborn disease |
+| Neonatal herpes | HSV infection acquired by the newborn, usually during birth | Can be severe (skin/eyes/mouth, CNS, or disseminated); risk peaks with primary infection near term |
+| Ophthalmia neonatorum | Newborn eye infection, classically gonococcal | Prevented with routine newborn eye prophylaxis |
+| Vertical transmission prevention (HIV) | The bundle of interventions reducing parent-to-child HIV transmission | Has made pediatric HIV largely preventable where resources allow |
+| Partner notification | Helping an infected person inform and refer their sexual partners | Breaks the cycle of reinfection; often confidential and legally supported |
+| Reportable infection | An infection that law/regulation requires be reported to public health | Nurses must know local reporting rules — they vary by jurisdiction |
+
+## Example: A Screening Conversation Done Well
+
+A 23-year-old comes for her first prenatal visit. The nurse reviews the standard prenatal labs and mentions that screening for HIV, syphilis, chlamydia, gonorrhea, and hepatitis B is routine in pregnancy. The patient looks down and says quietly, "Do I really need all of those?" The nurse does not assume the question means anything about her behavior. She answers plainly: "Yes — these tests are offered to everyone in pregnancy, not because we assume anything about you, but because these infections can be silent and can affect a baby. Finding one early means we can treat it and protect you and the baby. The tests are quick, and results stay confidential." The patient agrees. Two days later, the chlamydia result is positive. The nurse calls her in, explains calmly and without judgment, confirms chlamydia is curable, arranges treatment, and discusses partner treatment so she is not reinfected — treating it now protects both her fertility and her baby. The patient leaves relieved and engaged in care. The entire outcome hinged on one thing: a screening conversation that made testing feel safe instead of shameful.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| STI (infection) | STD (disease) | Infection can be present with no symptoms or disease; STD implies symptoms — "infection" is the more accurate, less stigmatizing term |
+| Chlamydia | Gonorrhea | Different bacteria, similar reproductive consequences (PID, infertility, newborn eye infection); they are co-tested because co-infection is common |
+| HSV-1 | HSV-2 | HSV-1 is classically oral and HSV-2 genital, but either virus can infect either site — "genital herpes" is not exclusively HSV-2 |
+| HPV infection | Cervical cancer | Most HPV clears on its own; only persistent high-risk types progress to precancer/cancer over years |
+| "No symptoms = no infection" | "I need a test to know" | Most STIs can be asymptomatic; screening is the only reliable way to detect them |
+| Neonatal herpes from chronic HSV | Neonatal herpes from primary HSV near term | Risk is far higher with a *primary* infection near delivery, before protective antibodies exist |
+| Vertical transmission only at birth | Vertical transmission across pregnancy, birth, and breastfeeding | Routes differ by organism — syphilis/HIV cross the placenta, HSV at birth, HIV also via breastfeeding |
+| Treating the patient | Treating the patient and partners | Untreated partners cause reinfection; partner notification is part of complete care |
+
+## Quick Review
+
+1. Why is "asymptomatic" the most important word in STI screening education?
+2. How can untreated chlamydia or gonorrhea lead to infertility?
+3. Which infection crosses the placenta and can cause stillbirth or congenital disease, and how is it prevented in pregnancy?
+4. When is the risk of neonatal herpes highest, and why?
+5. Which STIs are curable and which are managed but not cured? Give one example of each category.
+6. Name three routes of vertical transmission and give one infection that uses each.
+
+<details>
+<summary>Show answers</summary>
+
+1. Because most STIs can be present with no symptoms at all — a person can transmit the infection unknowingly, and "feeling fine" is not evidence of being uninfected. Screening is the only way to detect silent infection.
+2. Untreated infection ascends from the cervix to the uterus and fallopian tubes, causing pelvic inflammatory disease (PID); the resulting inflammation and scarring damage the tubes, raising the risk of infertility and ectopic pregnancy.
+3. Syphilis — the spirochete crosses the placenta and causes congenital syphilis (fetal death, stillbirth, or severe newborn disease). Routine prenatal screening plus treatment of the pregnant person prevents it.
+4. When the pregnant person has a primary (first-time) HSV infection acquired near term — because the immune system has not yet produced protective antibodies to pass to the newborn, so transmission risk during birth is highest.
+5. Curable: bacterial STIs such as chlamydia, gonorrhea, and syphilis. Managed, not cured: viral STIs such as HIV, HSV, HPV, and hepatitis B (treatment suppresses the virus; prevention and vaccination are key).
+6. Across the placenta (e.g., syphilis, HIV), during birth (e.g., HSV, chlamydia, gonorrhea, hepatitis B), and through breastfeeding (e.g., HIV).
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter
+- Next: [Vaginal Infections and Other Conditions](02-vaginal-infections-and-other-conditions.md)
+- Related: [Urinary Tract Infections](03-urinary-tract-infections.md)
+- Related: [Commonly Occurring Reproductive and Genitourinary System Infections chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Maternal-Newborn Nursing
+- Local outline source: `maternal-newborn-nursing.md`
+- Official source URL: https://openstax.org/details/books/maternal-newborn-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: Educational draft only — no screening intervals, treatment regimens, prophylaxis protocols, or drug recommendations are provided here. Prenatal screening panels, newborn prophylaxis specifics, HIV vertical-transmission prevention bundles, and reportable-infection lists vary by guideline, jurisdiction, and institution; verify against current sources. Flag for SME review: descriptions of vertical transmission risk and the association between trichomoniasis and preterm birth.
+- Last updated: 2026-08-15

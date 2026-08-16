@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-cycle-cell-death:cohesin-and-separase",
+  "slug": "cohesin-and-separase",
+  "title": "Cohesin and Separase",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-cycle-cell-death",
+    "slug": "cell-cycle-cell-death",
+    "title": "Cell Cycle Cell Death",
+    "order": 7
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "Cohesin is a ring-shaped protein complex that physically entraps the two sister chromatids, holding them together from their creation in S phase until anaphase. This cohesion is essential for correct chromosome biorientation on the spindle: the opposing pull of kinetochore microtubules is resisted by cohesion, generating tension that signals correct attachment. At the metaphase–anaphase transition, the protease separase cleaves the kleisin subunit of cohesin, opening the ring and allowing sister chromatids to separate. Separase is kept inactive by the inhibitor securin, and the APC/C triggers anaphase by ubiquitinating securin (and cyclin B), marking it for destruction.",
+    "whyItMatters": "Cohesin-mediated sister-chromatid cohesion is the structural foundation of accurate chromosome segregation. Its failure causes aneuploidy — a driver of cancer and of developmental disorders. Premature loss of cohesion (e.g., from weakened centromeric protection with maternal age) is a leading cause of age-related nondisjunction in human oocytes and Down syndrome. Beyond mitosis, cohesin regulates chromatin architecture and gene expression, and its dysfunction underlies the \"cohesinopathies\" (Cornelia de Lange syndrome) and contributes to some leukemias and solid tumors.",
+    "learningObjectives": "- Describe the cohesin complex and when it is loaded onto DNA.\n- Explain how cohesin holds sister chromatids together from S phase to anaphase.\n- Describe the roles of securin and separase in cohesin cleavage.\n- Explain how the APC/C coordinates the destruction of securin to trigger anaphase.\n- Connect cohesin/separase defects to aneuploidy and cohesinopathies.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nCohesin is a ring-shaped protein complex that physically entraps the two sister chromatids, holding them together from their creation in S phase until anaphase. This cohesion is essential for correct chromosome biorientation on the spindle: the opposing pull of kinetochore microtubules is resisted by cohesion, generating tension that signals correct attachment. At the metaphase–anaphase transition, the protease separase cleaves the kleisin subunit of cohesin, opening the ring and allowing sister chromatids to separate. Separase is kept inactive by the inhibitor securin, and the APC/C triggers anaphase by ubiquitinating securin (and cyclin B), marking it for destruction.\n\n### Key Components\n\n- **Cohesin**: A four-subunit ring — SMC1, SMC3, the kleisin subunit Scc1/Rad21, and an accessory subunit (SA/Stag, plus Pds5/Wapl regulators).\n- **SMC proteins**: Long coiled-coil proteins with hinge and ATPase \"head\" domains that dimerize to form the ring.\n- **Kleisin (Scc1/Rad21)**: The subunit that closes the ring and is cleaved by separase.\n- **Separase**: A cysteine protease that cleaves the kleisin subunit.\n- **Securin**: Separase inhibitor; also stabilizes and directs separase.\n- **APC/C (anaphase-promoting complex/cyclosome)**: E3 ubiquitin ligase that ubiquitinates securin and cyclin B.\n- **Cohesin loader (Scc2/Scc4)** and **establishment factors (Eco1)**: Load cohesin and convert it to cohesive form in S phase.\n\n### Mechanism / How It Works\n\n1. **Loading**: Cohesin is loaded onto DNA in G1 (and during replication) by the loader complex Scc2–Scc4. The ring topologically embraces DNA.\n2. **Establishment of cohesion**: During S phase, as the replication fork passes, cohesin that surrounds both newly synthesized sister DNAs becomes \"cohesive\"; Eco1 acetylates SMC3 to stabilize this state against the destabilizer Wapl.\n3. **Maintenance through G2/prophase**: Cohesin holds sisters together. In vertebrate prophase, most cohesin is removed from chromosome arms by the \"prophase pathway\" (phosphorylation by Plk1 and Aurora B, and Wapl), but centromeric cohesin is protected by the shugoshin (Sgo1)–PP2A complex.\n4. **Anaphase trigger**: The spindle assembly checkpoint, once satisfied, allows APC/C activation. APC/C (with Cdc20) polyubiquitinates securin.\n5. **Separase activation**: Securin is degraded by the proteasome, releasing separase. (In vertebrates, separase is further activated by phosphorylation, and its inhibition by Cdk1 is relieved as cyclin B is also degraded.)\n6. **Cohesin cleavage**: Active separase cleaves the kleisin subunit (Scc1/Rad21) at specific sites. The cohesin ring opens, and the sister chromatids, now free, are pulled to opposite poles by the spindle.\n\n### Energy and Directionality\n\nThe process is built to be irreversible at the point of no return. Establishment of cohesion during replication is coupled to the replication fork. Destruction of securin requires ATP (ubiquitin activation and proteasome function), and separase-mediated proteolysis of kleisin is a covalent, irreversible cleavage — cohesin cannot be \"repaired\" to re-tether the sisters. This one-way, proteolysis-driven design guarantees that once anaphase starts, it cannot be reversed, protecting against missegregation.\n\n### Experimental Evidence / Technique\n\n- **Yeast genetics**: Identification of cohesin (SMC proteins), separase (Esp1), and securin (Pds1) through mutants with premature sister-chromatid separation.\n- **Securin mutants / non-degradable securin**: Block anaphase even with APC/C active, showing securin destruction is the key step.\n- **Cohesin cleavage assays**: Separase cleaves Rad21 at defined sites; mutation of these sites produces non-cleavable cohesin that blocks anaphase.\n- **Chromosome spreads and FISH**: Show sister chromatids as paired signals that resolve to single signals after anaphase.\n- **Cohesinopathies**: Mutations in cohesin components (NIPBL, SMC1A, SMC3) cause Cornelia de Lange syndrome, demonstrating roles of cohesin beyond cohesion (gene regulation).",
+    "howItWorks": "1. **Loading**: Cohesin is loaded onto DNA in G1 (and during replication) by the loader complex Scc2–Scc4. The ring topologically embraces DNA.\n2. **Establishment of cohesion**: During S phase, as the replication fork passes, cohesin that surrounds both newly synthesized sister DNAs becomes \"cohesive\"; Eco1 acetylates SMC3 to stabilize this state against the destabilizer Wapl.\n3. **Maintenance through G2/prophase**: Cohesin holds sisters together. In vertebrate prophase, most cohesin is removed from chromosome arms by the \"prophase pathway\" (phosphorylation by Plk1 and Aurora B, and Wapl), but centromeric cohesin is protected by the shugoshin (Sgo1)–PP2A complex.\n4. **Anaphase trigger**: The spindle assembly checkpoint, once satisfied, allows APC/C activation. APC/C (with Cdc20) polyubiquitinates securin.\n5. **Separase activation**: Securin is degraded by the proteasome, releasing separase. (In vertebrates, separase is further activated by phosphorylation, and its inhibition by Cdk1 is relieved as cyclin B is also degraded.)\n6. **Cohesin cleavage**: Active separase cleaves the kleisin subunit (Scc1/Rad21) at specific sites. The cohesin ring opens, and the sister chromatids, now free, are pulled to opposite poles by the spindle.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Cohesin = **SMC1 + SMC3 + kleisin (Scc1/Rad21) + SA**; a ring that topologically entraps sister DNAs.\n- Loaded in G1, made **cohesive during S phase** (Eco1 acetylation); maintained until anaphase.\n- Centromeric cohesin is protected from the prophase pathway by **shugoshin–PP2A**.\n- **Separase** (cysteine protease) cleaves **kleisin**; **securin** inhibits separase.\n- **APC/C → ubiquitinates securin → proteasome → free separase → cohesin cleavage → anaphase.**",
+    "commonConfusions": "- **Cohesin vs. condensin**: Cohesin holds sisters together; condensin compacts chromosomes. Both are SMC ring complexes but with different kleisin partners and jobs.\n- **Cohesion is established in S phase, not G2**: Sisters are already tethered during replication; the cell does not glue them together after the fact.\n- **Separase cleaves kleisin, not DNA**: The target is the cohesin subunit, not the chromosome.\n- **Securin vs. separase**: Securin *inhibits* separase; their names are easily swapped. APC/C destroys securin to free separase.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of each duplicated chromosome as two identical books tied together with a rubber band (cohesin). During the whole time the cell prepares to divide, the rubber band keeps the two copies as a matched pair so the cell can line them up correctly. When it is finally time to split, a pair of scissors named separase cuts the rubber band. But the scissors are kept in a locked box — the lock is a protein called securin. The \"go\" signal (APC/C) tags the lock for destruction, the lock falls off, the scissors snip the rubber band, and the two books fly apart to opposite sides. The analogy's limit: cohesin is a molecular ring that threads through DNA (not a band around the outside), and its cleavage is an irreversible covalent cut — the cell can never re-tie that pair.",
+    "quickReview": "- S phase: cohesin loaded + established → sisters held together.\n- Prophase: arm cohesin removed; centromeric cohesin protected by shugoshin–PP2A.\n- Anaphase: APC/C → securin degraded → separase active → kleisin cleaved → sisters separate.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 17, \"Cohesin and Sister-Chromatid Separation.\""
+      },
+      {
+        "text": "Uhlmann, F., \"Chromosome cohesion and separation: from men and molecules,\" *Current Biology* (2003)."
+      },
+      {
+        "text": "Nasmyth, K., \"Cohesin: a catenase with separate entry and exit gates?\" *Nature Cell Biology* (2011)."
+      },
+      {
+        "text": "Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 19."
+      },
+      {
+        "text": "NCBI Bookshelf, *The Cell: A Molecular Approach*, 2nd ed., \"Sister chromatid separation.\""
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "cohesin-and-separase",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "07-cohesin-and-separase",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:f3d06a5dea313eb5"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:f3d06a5dea313eb5"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:f3d06a5dea313eb5"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:f3d06a5dea313eb5"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/07-cell-cycle-cell-death/07-cohesin-and-separase.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Cohesin and Separase\n\n## Learning Goals\n\n- Describe the cohesin complex and when it is loaded onto DNA.\n- Explain how cohesin holds sister chromatids together from S phase to anaphase.\n- Describe the roles of securin and separase in cohesin cleavage.\n- Explain how the APC/C coordinates the destruction of securin to trigger anaphase.\n- Connect cohesin/separase defects to aneuploidy and cohesinopathies.\n\n## Core Concept\n\nCohesin is a ring-shaped protein complex that physically entraps the two sister chromatids, holding them together from their creation in S phase until anaphase. This cohesion is essential for correct chromosome biorientation on the spindle: the opposing pull of kinetochore microtubules is resisted by cohesion, generating tension that signals correct attachment. At the metaphase–anaphase transition, the protease separase cleaves the kleisin subunit of cohesin, opening the ring and allowing sister chromatids to separate. Separase is kept inactive by the inhibitor securin, and the APC/C triggers anaphase by ubiquitinating securin (and cyclin B), marking it for destruction.\n\n## Key Components\n\n- **Cohesin**: A four-subunit ring — SMC1, SMC3, the kleisin subunit Scc1/Rad21, and an accessory subunit (SA/Stag, plus Pds5/Wapl regulators).\n- **SMC proteins**: Long coiled-coil proteins with hinge and ATPase \"head\" domains that dimerize to form the ring.\n- **Kleisin (Scc1/Rad21)**: The subunit that closes the ring and is cleaved by separase.\n- **Separase**: A cysteine protease that cleaves the kleisin subunit.\n- **Securin**: Separase inhibitor; also stabilizes and directs separase.\n- **APC/C (anaphase-promoting complex/cyclosome)**: E3 ubiquitin ligase that ubiquitinates securin and cyclin B.\n- **Cohesin loader (Scc2/Scc4)** and **establishment factors (Eco1)**: Load cohesin and convert it to cohesive form in S phase.\n\n## Mechanism / How It Works\n\n1. **Loading**: Cohesin is loaded onto DNA in G1 (and during replication) by the loader complex Scc2–Scc4. The ring topologically embraces DNA.\n2. **Establishment of cohesion**: During S phase, as the replication fork passes, cohesin that surrounds both newly synthesized sister DNAs becomes \"cohesive\"; Eco1 acetylates SMC3 to stabilize this state against the destabilizer Wapl.\n3. **Maintenance through G2/prophase**: Cohesin holds sisters together. In vertebrate prophase, most cohesin is removed from chromosome arms by the \"prophase pathway\" (phosphorylation by Plk1 and Aurora B, and Wapl), but centromeric cohesin is protected by the shugoshin (Sgo1)–PP2A complex.\n4. **Anaphase trigger**: The spindle assembly checkpoint, once satisfied, allows APC/C activation. APC/C (with Cdc20) polyubiquitinates securin.\n5. **Separase activation**: Securin is degraded by the proteasome, releasing separase. (In vertebrates, separase is further activated by phosphorylation, and its inhibition by Cdk1 is relieved as cyclin B is also degraded.)\n6. **Cohesin cleavage**: Active separase cleaves the kleisin subunit (Scc1/Rad21) at specific sites. The cohesin ring opens, and the sister chromatids, now free, are pulled to opposite poles by the spindle.\n\n## Energy and Directionality\n\nThe process is built to be irreversible at the point of no return. Establishment of cohesion during replication is coupled to the replication fork. Destruction of securin requires ATP (ubiquitin activation and proteasome function), and separase-mediated proteolysis of kleisin is a covalent, irreversible cleavage — cohesin cannot be \"repaired\" to re-tether the sisters. This one-way, proteolysis-driven design guarantees that once anaphase starts, it cannot be reversed, protecting against missegregation.\n\n## Experimental Evidence / Technique\n\n- **Yeast genetics**: Identification of cohesin (SMC proteins), separase (Esp1), and securin (Pds1) through mutants with premature sister-chromatid separation.\n- **Securin mutants / non-degradable securin**: Block anaphase even with APC/C active, showing securin destruction is the key step.\n- **Cohesin cleavage assays**: Separase cleaves Rad21 at defined sites; mutation of these sites produces non-cleavable cohesin that blocks anaphase.\n- **Chromosome spreads and FISH**: Show sister chromatids as paired signals that resolve to single signals after anaphase.\n- **Cohesinopathies**: Mutations in cohesin components (NIPBL, SMC1A, SMC3) cause Cornelia de Lange syndrome, demonstrating roles of cohesin beyond cohesion (gene regulation).\n\n## Why It Matters\n\nCohesin-mediated sister-chromatid cohesion is the structural foundation of accurate chromosome segregation. Its failure causes aneuploidy — a driver of cancer and of developmental disorders. Premature loss of cohesion (e.g., from weakened centromeric protection with maternal age) is a leading cause of age-related nondisjunction in human oocytes and Down syndrome. Beyond mitosis, cohesin regulates chromatin architecture and gene expression, and its dysfunction underlies the \"cohesinopathies\" (Cornelia de Lange syndrome) and contributes to some leukemias and solid tumors.\n\n## High-Yield Facts\n\n- Cohesin = **SMC1 + SMC3 + kleisin (Scc1/Rad21) + SA**; a ring that topologically entraps sister DNAs.\n- Loaded in G1, made **cohesive during S phase** (Eco1 acetylation); maintained until anaphase.\n- Centromeric cohesin is protected from the prophase pathway by **shugoshin–PP2A**.\n- **Separase** (cysteine protease) cleaves **kleisin**; **securin** inhibits separase.\n- **APC/C → ubiquitinates securin → proteasome → free separase → cohesin cleavage → anaphase.**\n\n## Eli Explains\n\nThink of each duplicated chromosome as two identical books tied together with a rubber band (cohesin). During the whole time the cell prepares to divide, the rubber band keeps the two copies as a matched pair so the cell can line them up correctly. When it is finally time to split, a pair of scissors named separase cuts the rubber band. But the scissors are kept in a locked box — the lock is a protein called securin. The \"go\" signal (APC/C) tags the lock for destruction, the lock falls off, the scissors snip the rubber band, and the two books fly apart to opposite sides. The analogy's limit: cohesin is a molecular ring that threads through DNA (not a band around the outside), and its cleavage is an irreversible covalent cut — the cell can never re-tie that pair.\n\n## Common Confusions\n\n- **Cohesin vs. condensin**: Cohesin holds sisters together; condensin compacts chromosomes. Both are SMC ring complexes but with different kleisin partners and jobs.\n- **Cohesion is established in S phase, not G2**: Sisters are already tethered during replication; the cell does not glue them together after the fact.\n- **Separase cleaves kleisin, not DNA**: The target is the cohesin subunit, not the chromosome.\n- **Securin vs. separase**: Securin *inhibits* separase; their names are easily swapped. APC/C destroys securin to free separase.\n\n## Quick Review\n\n- S phase: cohesin loaded + established → sisters held together.\n- Prophase: arm cohesin removed; centromeric cohesin protected by shugoshin–PP2A.\n- Anaphase: APC/C → securin degraded → separase active → kleisin cleaved → sisters separate.\n\n## Sources\n\n- Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 17, \"Cohesin and Sister-Chromatid Separation.\"\n- Uhlmann, F., \"Chromosome cohesion and separation: from men and molecules,\" *Current Biology* (2003).\n- Nasmyth, K., \"Cohesin: a catenase with separate entry and exit gates?\" *Nature Cell Biology* (2011).\n- Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 19.\n- NCBI Bookshelf, *The Cell: A Molecular Approach*, 2nd ed., \"Sister chromatid separation.\"\n"
+}

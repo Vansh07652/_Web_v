@@ -1,0 +1,39 @@
+{
+  "id": "genetics-dna-repair-and-mutation-0002",
+  "subject": "genetics",
+  "lesson": "dna-repair-and-mutation",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A chemical mutagen converts a guanine in the DNA so that it pairs with thymine during the next round of replication, turning a G:C base pair into an A:T base pair. How is this base substitution classified?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A transversion, because the base pair changed from G:C to A:T"
+    },
+    {
+      "id": "b",
+      "text": "A transition, because a purine was replaced by another purine"
+    },
+    {
+      "id": "c",
+      "text": "A transition, because a pyrimidine was replaced by another pyrimidine"
+    },
+    {
+      "id": "d",
+      "text": "A transversion, because guanine and adenine belong to different base classes"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Guanine and adenine are both purines, so the G:C to A:T change replaces a purine with a purine, which defines a transition; a transversion would replace a purine with a pyrimidine or the reverse. A reasons from the change in the base pair rather than the class of the substituted base, C misidentifies guanine and adenine as pyrimidines, and D asserts that guanine and adenine belong to different base classes when both are purines.",
+  "difficulty": "unknown",
+  "tags": [
+    "transition",
+    "versus",
+    "transversion"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ca8f349f5901cf65",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

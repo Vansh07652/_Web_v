@@ -1,0 +1,126 @@
+---
+title: "What Are Circadian Rhythms?"
+subject: "Science"
+book: "Introduction to Behavioral Neuroscience"
+chapter: "15: Biological Rhythms and Sleep"
+topic_number: "1"
+source: "introduction-behavioral-neuroscience.md"
+tags:
+  - "what-are-circadian-rhythms"
+  - "science"
+status: "complete"
+---
+
+# What Are Circadian Rhythms?
+
+> **Book:** [Introduction to Behavioral Neuroscience](../../README.md)  
+> **Chapter:** [Chapter 15: Biological Rhythms and Sleep](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Almost every organism on Earth shows daily cycles of physiology and behavior — activity, body temperature, hormone release, alertness. A **circadian rhythm** (from Latin *circa diem*, "about a day") is a biological cycle of roughly 24 hours. Three properties define a true circadian rhythm: it is **endogenous** (generated internally, not just a response to the environment), it **free-runs** with a period near — but not exactly — 24 hours when external cues are removed, and it can be **entrained** (reset and synchronized) by environmental signals called **zeitgebers**, most importantly light. This topic defines those properties, places circadian rhythms among other biological rhythms (ultradian and infradian), and explains why an endogenous clock is useful at all. Later topics in this chapter locate the clock in the brain and trace how sleep is regulated around it.
+
+## Why This Matters
+
+Circadian rhythms are not a curiosity — they organize nearly everything the body does. Alertness, body temperature, blood pressure, digestion, immune function, and the secretion of hormones such as cortisol and melatonin all fluctuate on a daily cycle. Knowing that these rhythms are *endogenous* explains a set of very practical phenomena: why jet lag makes you tired at the wrong time of day, why shift workers struggle, why taking a medication at the right time of day can improve its effect, and why "just sleeping in" does not fully fix a disrupted schedule. For health fields, circadian disruption is linked to metabolic, cardiovascular, and mood problems, and understanding the clock is the first step toward understanding sleep disorders covered later in this chapter. On exams, the defining properties of circadian rhythms are classic questions.
+
+## Core Concepts
+
+### Rhythms come in several time scales
+
+Biological rhythms are classified by period. **Circadian** rhythms cycle about once per day (~24 h). **Ultradian** rhythms cycle more than once per day — examples include the ~90-minute sleep-cycle oscillation and the ~4-hour feeding rhythm in many mammals. **Infradian** rhythms cycle less than once per day — the human menstrual cycle (~28 days) and seasonal rhythms in many animals are examples. The circadian class gets the most attention because it is nearly universal and because a single master clock in the brain coordinates it. The terminology matters on exams: naming a rhythm correctly tells you its time scale and hints at the mechanisms that generate it.
+
+### The clock is endogenous
+
+The key discovery about circadian rhythms is that they persist without external cues. In constant conditions — no light-dark cycle, no temperature change, no social cues — activity and physiology continue to cycle, but with a period that drifts away from 24 hours. This **free-running period** is the clock's intrinsic period, typically around 24.2 hours in humans in the classic laboratory studies (though estimates vary across studies and individuals). This is the strongest evidence that the rhythm is generated internally rather than simply driven by the sun. It also explains a practical quirk: a free-running period slightly longer than 24 hours means that, left to our own devices without cues, most people would drift later and later each day.
+
+### Entrainment and zeitgebers
+
+Because the intrinsic period is not exactly 24 hours, the clock must be reset daily to stay synchronized with the external world. **Entrainment** is the process of synchronizing the internal rhythm to environmental cycles, and the cues that do the synchronizing are called **zeitgebers** (German for "time givers"). Light is the dominant zeitgeber for most organisms, but food availability, temperature, social cues, and exercise can also entrain rhythms — especially for peripheral clocks. The clock does not reset instantly; a **phase response curve (PRC)** describes how much and in which direction the clock shifts when light is presented at different points in the cycle. Light late in the subjective day pushes the clock later; light in the early subjective morning pushes it earlier. This phase-dependence is why jet lag recovery has a direction — eastward travel is generally harder than westward.
+
+### Why have an endogenous clock?
+
+An internal clock is useful because it allows the body to *anticipate* regular changes rather than merely react to them. Hormones can rise before waking, body temperature can prepare for activity, and digestive enzymes can be ready before a meal arrives. Anticipation is more efficient than reaction: the system is prepared in advance instead of responding after the fact. The clock also lets the organism integrate many rhythms with each other — coordinating physiology across the day — and lets it maintain rhythmicity through brief environmental disturbances. This predictive, coordinating function is why the clock is conserved across nearly all life, from single-celled organisms to humans.
+
+### Measuring rhythms and the free-run experiment
+
+The standard way to study a circadian rhythm is to place an organism in constant conditions and record a behavior (activity, sleep-wake, hormone level) over many days, displayed in an **actogram** — a chart with successive days stacked vertically. When the rhythm is entrained, activity onsets align vertically day after day. In constant darkness, a free-running animal's onsets drift progressively earlier or later, producing a diagonal pattern whose slope reveals the period. Such experiments showed that human free-running periods cluster near 24 hours and vary across individuals, and that bright light can shift the rhythm — paving the way for light-based treatments of circadian disruption discussed later in this chapter.
+
+## ELI-10: Explain Like I'm 10
+
+> Your body has its own clock that runs for about a day, even if you never saw the sun. If you hid in a cave with no clocks or daylight, you'd still get sleepy and hungry in a daily pattern — just not exactly every 24 hours. Sunlight is the main "time teacher" that resets your clock every morning so it matches the real day.
+
+## High-Yield Points
+
+- **Circadian = about a day;** ultradian = more than once a day; infradian = less than once a day.
+- **Three defining properties:** endogenous generation, free-running period near (not exactly) 24 h, and entrainment by zeitgebers.
+- **Light is the dominant zeitgeber**; food, temperature, social cues, and exercise can also entrain.
+- **Phase response curve:** light at different circadian phases shifts the clock different amounts and directions — basis of jet lag and light therapy.
+- **Human free-running period ≈ 24.2 h** in classic laboratory studies — a commonly taught reference value that varies across studies and individuals.
+- **The clock enables anticipation** — hormones and physiology prepare for events before they happen, which is more efficient than reacting.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Circadian rhythm | A biological cycle of about 24 hours | The daily clock organizing physiology and behavior |
+| Ultradian rhythm | A cycle faster than once a day | E.g., the ~90-min sleep cycle |
+| Infradian rhythm | A cycle slower than once a day | E.g., the menstrual cycle |
+| Free-running period | The intrinsic cycle length without external cues | Proves the rhythm is endogenous |
+| Entrainment | Synchronizing the clock to environmental cycles | Keeps the internal clock aligned with the outside world |
+| Zeitgeber | An environmental cue that resets the clock | Light is the main one for most organisms |
+| Phase response curve (PRC) | How clock shifts depend on when light is given | Explains jet lag direction and light-therapy timing |
+| Actogram | Chart of activity across successive days | The standard way to visualize and measure rhythms |
+
+## Example: Two weeks in a cave
+
+A volunteer lives for two weeks in an underground bunker with no windows, no clocks, and no schedule — meals when hungry, sleep when tired. During the first few days, the sleep-wake pattern stays roughly on a 24-hour schedule. But by the second week, the onset of sleep and waking drifts later each day: bedtime moves from 11 p.m. to midnight to 1 a.m. and beyond. The activity record looks like a staircase tilted to the right — a free-running rhythm with a period longer than 24 hours (about 24.2 hours). If the researchers then introduce a bright light in the morning, the drift reverses and the pattern locks back onto a 24-hour day: that light is acting as a zeitgeber, entraining the endogenous clock. The cave experiment is the cleanest demonstration of all three defining properties at once: the rhythm persists without cues (endogenous), its period is not exactly 24 hours (free-running), and light resets it (entrainment).
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Circadian rhythm | Just "being awake in the day" | Circadian implies an endogenous ~24-h clock, not merely a response to daylight |
+| Free-running period | Entrained period | Free-running is the intrinsic period without cues (~24.2 h); entrained is locked to the environment (exactly 24 h) |
+| Zeitgeber | The clock itself | The zeitgeber is the external cue; the clock is the internal mechanism |
+| Ultradian | Infradian | Faster than daily (sleep cycles) vs. slower than daily (menstrual cycle) |
+| Light at any time shifts the clock the same way | Light shifts depend on phase | The PRC: light at different circadian phases shifts the clock differently and can even shift it backward |
+| A daily rhythm | A circadian rhythm | A rhythm could be driven by the environment; only endogenous, free-running, entrainable rhythms are truly circadian |
+
+## Quick Review
+
+1. What three properties define a true circadian rhythm?
+2. How does the free-running experiment provide evidence that the clock is endogenous?
+3. What is a zeitgeber, and which one is dominant for most organisms?
+4. What does a phase response curve describe, and why does it matter for jet lag?
+5. Give one example each of an ultradian and an infradian rhythm, and state their periods.
+
+<details>
+<summary>Show answers</summary>
+
+1. It is endogenous (generated internally), free-runs with a period near but not exactly 24 hours when cues are removed, and can be entrained (reset) by environmental cues such as light.
+2. In constant conditions with no light-dark, temperature, or social cues, rhythms persist with a period drifting away from 24 hours. Persistence without cues shows the rhythm is internally generated, and the drift shows the period is intrinsic, not imposed.
+3. A zeitgeber is an environmental cue that resets or synchronizes the clock. Light is the dominant zeitgeber for most organisms; food, temperature, social cues, and exercise can also act as zeitgebers.
+4. The PRC describes how much and in which direction the clock shifts when light is presented at different circadian phases. It explains why light at the right time can advance or delay the clock, and why jet lag recovery differs by travel direction.
+5. Ultradian: the ~90-minute sleep cycle (more than once per day). Infradian: the human menstrual cycle (~28 days) or seasonal rhythms (less than once per day).
+
+</details>
+
+## Related Topics
+
+- Next: [Where Are Rhythms in the Brain?](02-where-are-rhythms-in-the-brain.md) — the suprachiasmatic nucleus and how light reaches the clock
+- Related: [Regulation of Sleep](03-regulation-of-sleep.md) — how the circadian clock and sleep pressure interact
+- Related: [Circadian Rhythms and Society](05-circadian-rhythms-and-society.md) — jet lag, shift work, and real-world consequences
+- Chapter: [Chapter 15: Biological Rhythms and Sleep](../README.md) — chapter overview and topic list
+
+## Source Notes
+
+- Book: Introduction to Behavioral Neuroscience
+- Local outline source: `introduction-behavioral-neuroscience.md`
+- Official source URL: https://openstax.org/details/books/introduction-behavioral-neuroscience/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Science note: the human free-running period (~24.2 h), the ~90-min sleep cycle, and the ~28-day menstrual cycle are commonly taught textbook reference values that vary across individuals, studies, and measurement methods — verify against current texts.
+- Last updated: 2026-08-16
+

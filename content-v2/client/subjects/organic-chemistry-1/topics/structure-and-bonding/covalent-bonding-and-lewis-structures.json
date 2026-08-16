@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:structure-and-bonding:covalent-bonding-and-lewis-structures",
+  "slug": "covalent-bonding-and-lewis-structures",
+  "title": "Covalent Bonding and Lewis Structures",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:structure-and-bonding",
+    "slug": "structure-and-bonding",
+    "title": "Structure and Bonding",
+    "order": 1
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "A **covalent bond** forms when two atoms share an electron pair. If they differ in **electronegativity**, the electrons are pulled unequally, giving a **polar covalent bond** with a **dipole moment**; near-equal sharing gives a **nonpolar** bond. **Lewis structures** show all valence electrons and usually satisfy the **octet rule**, with **formal charge** used to pick the best arrangement. Organic chemists normally draw compact **line-angle (skeletal) structures** in which carbon and its hydrogens are implicit.",
+    "whyItMatters": "Bond polarity and dipole moments govern how drugs dissolve and cross membranes: polar molecules dissolve in water (blood), nonpolar ones prefer lipid membranes — the core of the \"drug-likeness\" rules used to predict oral absorption. Spotting polar groups (O–H, N–H, C=O) in line-angle structures lets a medicinal chemist estimate a candidate's solubility and permeability before any experiment.",
+    "learningObjectives": "1. Describe how covalent bonds form from shared electron pairs and how electronegativity creates bond polarity.\n2. Draw correct Lewis structures, assign formal charges, and apply the octet rule and its exceptions.\n3. Convert among Lewis, condensed, and line-angle (skeletal) structures.\n4. Interpret line-angle structures by recognizing implicit carbon and hydrogen atoms.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Covalent bond | Shared electron pair between atoms | The primary organic bond |\n| Electronegativity | An atom's pull on shared electrons | Sets polarity and reactivity |\n| Bond polarity | Unequal sharing of electrons | Creates partial charges |\n| Polar vs nonpolar covalent bond | Unequal vs equal sharing | Decides dipole moments |\n| Dipole moment | Measure of charge separation | Explains properties and reactivity |\n| Lewis dot symbol | Element symbol + valence dots | Starting point for Lewis structures |\n| Lewis structure | Diagram of atoms, bonds, lone pairs | Shows connectivity and electrons |\n| Octet rule | 8 valence electrons for second-row atoms | Guides valid structures |\n| Octet exceptions | H (2), B/Be (fewer), P/S (more) | Avoids impossible structures |\n| Formal charge | valence − (lone + ½ bonding) | Picks the best Lewis structure |\n| Line-angle / skeletal structure | C and H implied, zigzag lines | Standard compact notation |\n| Condensed structure | Groups written in line | Bridges full and line-angle forms |",
+    "collegeNotes": "### 1. Electronegativity, Polarity, and Dipole Moments\n\n**Electronegativity** is an atom's ability to attract shared electrons (F is highest). The electronegativity difference between bonded atoms decides bond type: small → **nonpolar covalent**, moderate → **polar covalent**, very large → ionic. A **dipole moment** measures charge separation — a vector with magnitude and direction (from δ+ toward δ−). A molecule with polar bonds can still be nonpolar if the dipoles cancel by symmetry (as in CO₂).\n\n### 2. Lewis Structures and the Octet Rule\n\nA **Lewis dot symbol** shows valence electrons as dots around the element symbol; a **Lewis structure** connects atoms with shared pairs (lines) and shows lone pairs (dots). The **octet rule** says second-row main-group atoms (C, N, O, F) are most stable with eight valence electrons. **Octet exceptions**: hydrogen wants two; boron and beryllium are stable with fewer than eight; third-row elements such as P and S can exceed eight. When several valid structures exist, **formal charge** selects the best.\n\n### 3. Formal Charge\n\n**Formal charge** is a bookkeeping charge:\n\n\\\\[ \\text{Formal charge} = \\text{valence electrons} - \\left(\\text{lone-pair electrons} + \\tfrac{1}{2}\\text{bonding electrons}\\right) \\\\]\n\nEach bond contributes one electron to each atom. The best structure minimizes charges, puts negative charge on the more electronegative atom, and avoids adjacent like charges. Formal charge is not a real charge — the actual distribution is captured by bond dipoles.\n\n### 4. Line-Angle, Skeletal, and Condensed Structures\n\nA **condensed structure** writes groups in line (CH₃CH₂CH₂OH). A **line-angle structure** (a **skeletal structure**) draws carbons as line vertices and endpoints, omitting C and H entirely. **Interpreting implicit carbons/hydrogens** is essential: every vertex or line end is a carbon carrying enough implied hydrogens to reach four bonds. Heteroatoms (O, N, halogens) and their attached hydrogens are written explicitly.",
+    "howItWorks": "1. Count total valence electrons (add one per negative charge, subtract per positive).\n2. Connect atoms with single bonds, least electronegative central.\n3. Distribute remaining electrons as lone pairs to fill octets.\n4. Form multiple bonds or apply octet exceptions as needed.\n5. Assign formal charges and choose the structure with minimal, best-placed charges.",
+    "comparisons": "",
+    "highYield": "- **High yield:** In line-angle structures, every vertex and line end is a carbon with implied hydrogens to complete four bonds.\n- **High yield:** Formal charge = valence − (lone-pair electrons + ½ bonding electrons).\n- **High yield:** Electronegativity increases left → right and bottom → top (F highest).\n- **High yield:** The best Lewis structure minimizes charges and puts negative charge on the more electronegative atom.\n- H has max 2 electrons; B/Be can hold fewer than 8; P and S can exceed 8.\n- A molecule can have polar bonds but zero net dipole if dipoles cancel by symmetry.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Polar bond | Ionic bond | Unequal sharing vs electron transfer |\n| Formal charge | Real (partial) charge | Bookkeeping vs actual electron pull |\n| Nonpolar molecule | Nonpolar bond | Polar bonds can cancel to a nonpolar molecule |\n| Condensed structure | Line-angle structure | Groups written out vs C/H implicit |\n| Octet rule | Legal requirement | It is an empirical stability trend |",
+    "memoryAids": "Remember \"**S**tudents **C**ount **F**ormal **O**ctets **L**eaving **H**ydrogen\": **S**hare valence electrons, **C**onnect atoms, **F**ormal charge to choose, **O**ctet for second-row atoms, **L**ine-angle (C/H implicit), **H**ydrogen gets two.",
+    "eli10": "Think of two people pulling a rope: equal pull keeps it centered (a **nonpolar covalent bond**); a much stronger person shifts it toward them (a **polar covalent bond**), where \"strength\" is **electronegativity**. For drawing, a full map labels every house and street (a Lewis structure), while a simplified map draws only roads and leaves street names off because everyone knows them (a line-angle structure, where carbon and its hydrogens are understood but not drawn). The comparison **stops being exact** because shared electrons are not a stationary rope — they form a probability cloud spread over both atoms — and \"partial charge\" is an average, not a full ±1.\n\n### Simple Example\n\nIn HCl, chlorine's higher electronegativity pulls the bonding pair toward it, so H–Cl is polar with δ− on chlorine and δ+ on hydrogen. In propane (CH₃CH₂CH₃), the C–C and C–H bonds are nearly nonpolar, and the line-angle structure is simply a three-line zigzag.",
+    "quickReview": "### Topic Recap\n\nCovalent bonds are shared electron pairs whose polarity follows electronegativity differences, producing dipole moments and partial charges. Lewis structures apply the octet rule (with exceptions) and use formal charge to select the best arrangement. Organic chemists communicate these structures through condensed and line-angle (skeletal) notations, where carbon and hydrogen are implicit. These notations and the formal-charge calculation are prerequisites for everything that follows.\n\n### Knowledge Check\n\n1. Rank C, N, O, and F by increasing electronegativity.\n2. Calculate the formal charge on nitrogen in NH₄⁺.\n3. Why is BF₃ an octet-rule exception?\n4. How many carbons and hydrogens are in a line-angle drawing showing one straight C–C line?\n5. Draw CO₂ and explain why it is nonpolar despite polar bonds.\n\n### Answers and Rationales\n\n1. C < N < O < F — electronegativity increases across a period.\n2. Formal charge = 5 − (0 + ½ × 8) = **+1**, matching the ion's overall charge.\n3. Boron has three valence electrons, so three B–F bonds give it six electrons — a stable sextet, not an octet.\n4. **Two carbons** (one per endpoint) and **six hydrogens** (each carbon carries three implied H) — ethane, CH₃CH₃.\n5. CO₂ is O=C=O; the two polar C=O bonds point in opposite directions and cancel, giving a **net dipole of zero**.",
+    "workedExamples": "We build the Lewis structure of nitrate, NO₃⁻, and assign formal charges (electron bookkeeping, not electron movement).\n\n1. Count valence electrons: N (5) + 3 O (18) + 1 (for −1 charge) = 24.\n2. Put the least electronegative atom (N) central, bonded to three oxygens: three N–O bonds use 6 electrons, leaving 18.\n3. Complete the terminal oxygens' octets with lone pairs (6 each), using all 18.\n4. Nitrogen now has only 6 electrons, so move one oxygen lone pair into an N=O double bond (the double bond is delocalized — see Topic 3).\n5. Assign formal charges: singly-bonded O with three lone pairs = 6 − (6 + 1) = −1; double-bonded O = 6 − (4 + 2) = 0; nitrogen = 5 − (0 + 4) = +1. Sum = −1, matching the ion's charge, with all octets satisfied.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "covalent-bonding-and-lewis-structures",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "02-covalent-bonding-and-lewis-structures",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/02-covalent-bonding-and-lewis-structures.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

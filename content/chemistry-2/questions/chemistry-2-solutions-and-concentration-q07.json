@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-solutions-and-concentration-q07",
+  "subject": "chemistry-2",
+  "lesson": "solutions-and-concentration",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which comparison of a 0.1 M sodium chloride solution and a 0.1 M glucose solution is accurate with respect to dissolved particle concentration?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The NaCl solution is about 0.2 osmol/L because NaCl dissociates into two ions, while glucose stays as one particle"
+    },
+    {
+      "id": "b",
+      "text": "The glucose solution is about 0.2 osmol/L because each glucose molecule splits into two particles in water"
+    },
+    {
+      "id": "c",
+      "text": "Both are about 0.2 osmol/L because molarity already accounts for dissociation of the solute"
+    },
+    {
+      "id": "d",
+      "text": "Both are about 0.1 osmol/L because equal molarity means equal numbers of dissolved particles"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Sodium chloride is a strong electrolyte that dissociates essentially completely into Na+ and Cl-, so each mole yields approximately 2 osmoles and 0.1 M x 2 = 0.2 osmol/L. Glucose is a nonelectrolyte that dissolves as intact molecules, giving 0.1 osmol/L. Osmolarity rather than molarity governs osmotic pressure and the direction of water movement across a semipermeable membrane, which is why two equimolar solutions can behave very differently.\n\nELI-10: Molarity counts formula units before they dissolve; osmolarity counts the independent particles that exist afterward. Glucose dissolves intact, so one mole in gives one osmole of particles. NaCl separates into a sodium ion and a chloride ion, so one mole in gives about two osmoles. That is why the salt solution reaches 0.2 osmol/L at the same 0.1 M label. Osmosis responds to the number of dissolved particles rather than their identity or size, so the particle count is the figure that predicts water movement.",
+  "difficulty": "medium",
+  "tags": [
+    "osmolarity vs molarity",
+    "electrolyte dissociation",
+    "dissolved particle count"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-278",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

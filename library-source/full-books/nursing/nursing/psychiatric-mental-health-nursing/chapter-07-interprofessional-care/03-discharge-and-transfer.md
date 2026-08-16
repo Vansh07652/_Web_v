@@ -1,0 +1,145 @@
+---
+title: "Discharge and Transfer"
+subject: "Nursing"
+book: "Psychiatric-Mental Health Nursing"
+chapter: "7: Interprofessional Care"
+topic_number: "3"
+source: "psychiatric-mental-health.md"
+tags:
+  - "discharge-and-transfer"
+  - "nursing"
+status: "complete"
+---
+
+# Discharge and Transfer
+
+> **Book:** [Psychiatric-Mental Health Nursing](../../README.md)  
+> **Chapter:** [Chapter 7: Interprofessional Care](../README.md)  
+> **Topic:** 3  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Discharge planning** is the continuous process of preparing a client to leave a care setting safely — and it begins at admission, not on the last day. From the moment a person enters a psychiatric unit, the team should be asking what that person will need in order to leave and stay well: follow-up appointments, medications, housing, transportation, a crisis plan, and people who will be there. **Transfer** is different: it moves a client between units or facilities — for example, from a psychiatric unit to a medical floor, or from an acute hospital to a longer-term facility. Both discharge and transfer are transition points, and transitions are among the most dangerous moments in health care, because that is when information, accountability, and relationships change hands.
+
+For psychiatric clients, the stakes are especially high. The period after discharge carries elevated risk, and a poorly planned discharge — a missed follow-up, an unreconciled medication list, a crisis plan that exists only in the chart — can undo weeks of treatment within days. This topic builds on collaboration and coordination (Topic 1) and recovery and rehabilitation (Topic 2): a recovery-oriented discharge does not just move a person out of the hospital; it lands them in a life that can support them, which is where the next topics — continued support (Topic 4) and online services (Topic 5) — continue the story.
+
+## Why This Matters
+
+- **Readmission is common when planning is thin.** Inpatient mental health care is often short, and the community is where long-term outcomes are actually decided.
+- **Medication errors cluster at transitions.** Discharge and transfer are prime moments for wrong doses, omitted drugs, and duplications, especially when the medication list is not reconciled and verified.
+- **The post-discharge period is high-risk.** Follow-up gaps and interrupted treatment are associated with poor outcomes; a solid plan — with a named next appointment and a usable crisis plan — is a safety intervention.
+- **There are legal and regulatory dimensions.** Rules about discharge, involuntary status, transfer, and leaving against medical advice vary by jurisdiction and facility, and nurses must follow their organization's policy. Understanding the *concepts* prepares the nurse to apply whatever the local rules require.
+
+## Core Concepts
+
+### Discharge planning: a process, not a final step
+
+Discharge planning runs through the whole admission:
+
+- **At admission:** begin assessing the client's living situation, support system, resources, and follow-up needs. Ask what the client's life looks like outside, because that is where they are going back to.
+- **During the stay:** teach and practice skills, involve the client and family (with consent) in planning, coordinate with community providers, and keep the client's recovery goals (Topic 2) in the plan.
+- **Before discharge:** confirm follow-up appointments, prescriptions, transportation, and housing; make sure the client can *explain* the plan, not just sign it; and connect the client to the receiving team — a "warm handoff" where providers talk directly when possible.
+
+### Teaching and verifying: teach-back
+
+Discharge teaching fails when it is a stack of papers. The nurse's job is to verify understanding using **teach-back**: ask the client to explain, in their own words, what the medication is for, when the follow-up appointment is, and what to do if things get worse. The nurse does not judge the client for what they cannot repeat — the nurse re-teaches, using simpler language or another approach, until the client can demonstrate understanding. Family and caregivers are included in teaching with the client's consent, and what was taught — and verified — is documented.
+
+### Medications at discharge
+
+A clear, reconciled medication list is one of the most important discharge documents: what to take, when, for what purpose, and what to do about missed doses or side effects. The nurse teaches from the actual prescribed list (never improvising doses or indications), checks understanding with teach-back, and documents. Any discrepancy — a medication the client cannot afford, a list that does not match what the pharmacy has — is reported so the team can resolve it before discharge, not after.
+
+### Crisis and safety planning
+
+Before a client at risk leaves, the team develops a **crisis plan** with the client: how to recognize early warning signs, whom to call, and what the first step is. The nurse's role is to make sure the client can actually use the plan — can name the first step and has the phone numbers in hand. If the nurse has any concern about a client's safety at discharge, that concern is reported to the provider immediately and the discharge decision is revisited; the nurse does not silently hope for the best, and does not improvise interventions. Crisis response follows facility policy and provider direction at every step.
+
+### Transfers: moving within or between facilities
+
+Transfers happen for many reasons: the client's medical condition changes (a psychiatric client develops a physical illness needing a medical floor), the level of care needs to change (more or less intensive), or a placement change is indicated. A transfer requires: a provider's order, communication with the client and family, a complete handoff of information, and documentation. The transferring nurse is accountable for a complete, accurate handoff — typically structured (SBAR-style) and including medications, diagnoses, current status, and the receiving unit's needs. The receiving nurse is accountable for verifying the information and the client's condition on arrival. Transfer is *not* discharge: the client remains under care, but the change of setting and staff is still a high-risk moment that deserves the same rigor as discharge.
+
+### Leaving against medical advice (AMA)
+
+Sometimes a client chooses to leave before the team recommends discharge. The nurse's response rests on respect for autonomy: listen to the client's reasons, make sure they understand the risks and the plan the team was proposing, **notify the provider immediately**, and follow facility policy for documentation and follow-up. The nurse does not coerce, threaten, or punish — and should not treat AMA as a personal failure. Terminology and procedure vary: some facilities distinguish "leaving against medical advice" from **elopement** (leaving without notification or authorization), and each has its own policy and documentation requirements. Readiness for discharge itself is a provider decision informed by the whole team: the nurse reports assessment findings and concerns, but does not unilaterally decide that a client is or is not ready to leave.
+
+## ELI-10: Explain Like I'm 10
+
+Leaving the hospital is like moving to a new school: the old teachers (the hospital team) must write a note for the new teachers (the community team) so nothing is lost — which medicines you take, what to do if you feel bad, who to call for help. If the note is incomplete, the new school cannot help you properly. The nurse's job is to make sure the note is complete — and that you can read it.
+
+## High-Yield Points
+
+- **Discharge planning begins at admission**, not on the day of discharge.
+- **Teach-back verifies understanding** — a signed paper proves nothing; the client explaining the plan in their own words does.
+- **The medication list is a key discharge document**: reconciled, taught, and verified.
+- **A crisis plan must be usable by the client** — they should be able to name the first step and have the numbers in hand.
+- **Any safety concern at discharge is reported to the provider immediately**; the nurse does not improvise and does not remain silent.
+- **Transfers require orders, communication, a complete handoff, and documentation** — transferring and receiving nurses are both accountable.
+- **AMA is handled with respect and autonomy**: listen, ensure understanding, notify the provider, document per policy — never coerce.
+- **Readiness for discharge is a provider decision** informed by the team; the nurse reports, the provider decides.
+- **Terminology and procedures vary by jurisdiction and facility** (e.g., AMA vs. elopement) — follow local policy.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Discharge planning | Continuous preparation, from admission onward, for a safe transition out of care | Reduces readmissions, errors, and post-discharge crises |
+| Transfer | Movement of a client between units or facilities | A high-risk change of setting requiring orders, handoff, and documentation |
+| Handoff | Transfer of client information and accountability between providers or teams | The most error-prone moment in care; structure (SBAR) reduces risk |
+| Teach-back | Asking the client to explain the plan back in their own words | Verifies understanding instead of assuming it |
+| Medication reconciliation | Comparing and correcting the medication list at every transition | Prevents omissions, duplications, and dose errors |
+| Crisis plan | A written plan, made with the client, for recognizing worsening and getting help | A key safety tool that must be usable by the client |
+| Leaving against medical advice (AMA) | Client chooses to leave before the team recommends discharge | Requires respect, provider notification, and policy-based documentation — never coercion |
+| Elopement | Leaving without notification or authorization | Different from AMA; handled under its own facility policy |
+
+## Example: The discharge that was built all week
+
+Ms. Rivera, 41, was admitted with severe depression. From her first day, the team begins discharge planning: her nurse learns she lives alone, has a sister nearby, and has been unable to afford her prior medications. Over the week, the pieces come together: the social worker arranges a follow-up appointment and a transportation option; the provider adjusts the medication plan with an eye to what Ms. Rivera can afford; the nurse teaches the medication schedule using teach-back, practicing until Ms. Rivera can explain each medication's purpose in her own words; and together the team and Ms. Rivera write a crisis plan — early warning signs, whom to call, and the first step — which her sister also reviews with consent.
+
+On discharge morning, the nurse walks through the plan one more time: appointment date and time, medications, the crisis plan, and the phone numbers in Ms. Rivera's hand. The nurse calls the community clinic and completes a warm handoff with the receiving nurse, confirming the appointment and the medication list. Documentation closes the loop. Later that week, Ms. Rivera keeps her appointment, and the crisis plan stays in her wallet — unused, but ready. Nothing about this was heroic; it was discharge planning done the way it is supposed to be done: continuously, collaboratively, and verified.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Discharge planning begins at discharge | Discharge planning begins at admission | The last day is too late to discover housing, cost, or transportation problems — assessment starts day one |
+| Discharge | Transfer | Discharge ends the episode of care; transfer moves the client to another unit or facility under continuing care — both need complete handoffs |
+| Handing out a pamphlet | Verified understanding | Information given is not information learned; teach-back is what verifies the plan is understood |
+| The nurse decides discharge readiness | The provider decides, informed by the team | The nurse reports assessment and concerns; the provider makes the discharge decision |
+| AMA = the client is "wrong" | AMA = an autonomy decision to respect | The nurse's job is to listen, ensure understanding, notify the provider, and document — not to coerce or judge |
+| A crisis plan guarantees safety | A crisis plan prepares for risk | Its purpose is early recognition and a known next step — it does not promise nothing will go wrong |
+
+## Quick Review
+
+1. Why does discharge planning begin at admission rather than on the day of discharge?
+2. What is teach-back, and why is it used instead of simply giving the client written information?
+3. List four things a complete discharge handoff should include.
+4. A client states they intend to leave against medical advice. What should the nurse do?
+5. How is a transfer different from a discharge, and why is it still a high-risk moment?
+6. Who decides whether a client is ready for discharge, and what is the nurse's role in that decision?
+
+<details>
+<summary>Show answers</summary>
+
+1. Because needs take time to arrange: housing, transportation, affordable medications, follow-up appointments, and a crisis plan cannot be created on the last day. Starting at admission gives the team time to assess, teach, coordinate, and verify — and to discover problems (like a client who cannot afford the prescribed medications) before they become discharge-day crises.
+2. Teach-back asks the client to explain the plan back in their own words — what the medication is for, when the appointment is, what to do if things worsen. It is used because giving information does not guarantee understanding; teach-back verifies learning, and anything the client cannot repeat is re-taught in a different way.
+3. Examples include: the reconciled medication list; follow-up appointments and providers; warning signs and the crisis plan (with contact numbers); diagnoses and current status; and any special needs of the client or instructions for the receiving team. A complete handoff also includes documentation and, when possible, a warm handoff between providers.
+4. Listen to the client's reasons and make sure they understand the risks and the proposed plan, notify the provider immediately, and follow facility policy for documentation and follow-up. The nurse does not coerce, threaten, or punish, and does not treat AMA as a personal failure.
+5. Discharge ends the episode of care and returns the client to the community; transfer moves a client to another unit or facility while care continues. Transfer is still high-risk because the setting, staff, and information change hands — a complete, structured handoff (including medications and current status) is required, and both the transferring and receiving nurses are accountable.
+6. Readiness for discharge is a provider decision informed by the whole team. The nurse's role is to report assessment findings and concerns — including any safety concern — so the decision is made on complete information. The nurse does not unilaterally decide readiness and never stays silent about a safety concern.
+
+</details>
+
+## Related Topics
+
+- Previous: [Recovery and Rehabilitative Needs](02-recovery-and-rehabilitative-needs.md)
+- Next: [Continued Support](04-continued-support.md)
+- Related: [Collaboration and Coordination of Care](01-collaboration-and-coordination-of-care.md)
+- Related: [Challenges to Continuity of Care](06-challenges-to-continuity-of-care.md)
+- Related: [Interprofessional Care chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Psychiatric-Mental Health Nursing
+- Local outline source: `psychiatric-mental-health.md`
+- Official source URL: https://openstax.org/details/books/psychiatric-mental-health/
+- Content type: Original educational study guide based on OpenStax outline structure. Concepts presented for learning; this material is not diagnostic or prescriptive. Discharge and transfer procedures, legal requirements, and terminology (e.g., AMA vs. elopement) vary by jurisdiction and facility and must be followed according to current local policy and provider orders.
+- Last updated: 2026-08-16

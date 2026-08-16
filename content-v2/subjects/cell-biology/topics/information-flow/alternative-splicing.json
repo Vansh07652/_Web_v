@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:information-flow:alternative-splicing",
+  "slug": "alternative-splicing",
+  "title": "Alternative Splicing",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:information-flow",
+    "slug": "information-flow",
+    "title": "Information Flow",
+    "order": 10
+  },
+  "order": 13,
+  "status": "final",
+  "sections": {
+    "overview": "Alternative splicing is the process by which a single pre-mRNA is spliced in more than one way, producing multiple mature mRNAs — and therefore multiple protein isoforms — from one gene. It explains how the human genome's ~20,000 protein-coding genes generate a far larger proteome. Splice-site choice is governed by cis-acting regulatory sequences in the pre-mRNA and by splicing activators and repressors (e.g., SR proteins and hnRNPs), making alternative splicing a regulated, cell-type- and developmental-stage-specific layer of gene expression.",
+    "whyItMatters": "Alternative splicing expands proteome diversity and shapes tissue identity, development, and stress responses. Misregulation is pervasive in disease: splicing-factor mutations drive myelodysplastic syndromes and many cancers, and aberrant isoforms contribute to neurodegeneration and muscular dystrophy. Therapeutic strategies (e.g., antisense oligonucleotides for SMA and Duchenne muscular dystrophy) directly manipulate splicing.",
+    "learningObjectives": "- Define alternative splicing and its major modes (exon skipping, alternative 5′/3′ sites, intron retention, mutually exclusive exons).\n- Explain how a single gene can produce multiple protein isoforms.\n- Describe how splicing regulatory proteins (enhancers/silencers) control splice-site choice.\n- Explain the biological and disease significance of alternative splicing.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nAlternative splicing is the process by which a single pre-mRNA is spliced in more than one way, producing multiple mature mRNAs — and therefore multiple protein isoforms — from one gene. It explains how the human genome's ~20,000 protein-coding genes generate a far larger proteome. Splice-site choice is governed by cis-acting regulatory sequences in the pre-mRNA and by splicing activators and repressors (e.g., SR proteins and hnRNPs), making alternative splicing a regulated, cell-type- and developmental-stage-specific layer of gene expression.\n\n### Key Components\n\n- **Exon skipping (cassette exon)** — the most common mode; an exon is included or left out.\n- **Alternative 5′ or 3′ splice sites** — a different donor/acceptor site is chosen, changing exon boundaries.\n- **Intron retention** — an intron is kept in the mature mRNA.\n- **Mutually exclusive exons** — one of two exons (never both) is included.\n- **Splicing enhancers/silencers** — exonic/intronic sequences (ESE, ISE, ESS, ISS) that promote or inhibit splice-site use.\n- **SR proteins** — serine/arginine-rich activators that bind enhancers and recruit the spliceosome.\n- **hnRNP proteins** — repressors that bind silencers and block splice-site recognition.\n\n### Mechanism\n\nThe core spliceosome recognizes splice sites by their match to consensus sequences, but many sites are \"weak\" and cannot be used without help. Regulatory proteins determine the outcome: SR proteins bind exonic splicing enhancers, stabilize U1/U2 binding, and promote exon inclusion; hnRNPs bind silencers and antagonize spliceosome assembly, promoting skipping. Because different cell types express different complements of SR/hnRNP proteins (and because signals alter their phosphorylation), the same transcript can be spliced differently in different contexts.\n\n### How It Works\n\n1. A pre-mRNA contains multiple, partly redundant splice sites, some weak and some strong.\n2. SR proteins bind enhancer elements and recruit U1/U2 to a weak splice site → exon is included.\n3. Alternatively, hnRNP proteins bind silencer elements and block splice-site recognition → exon is skipped.\n4. Cell-type-specific or signal-regulated levels of these factors shift the balance among inclusion, skipping, and alternative site choice.\n5. The chosen splice pattern produces a distinct mature mRNA (different exon composition).\n6. Translation of the isoform-specific mRNAs yields distinct protein isoforms with different functions, localizations, or stabilities.\n\n### Energy and Directionality\n\nAs with constitutive splicing, the transesterification chemistry is isoenergetic; the regulatory decisions are driven by ATP-dependent spliceosome assembly and by the reversible phosphorylation of splicing factors (kinases/phosphatases), which alters their activity and localization. Directionality is encoded in the pre-mRNA sequence — the position and strength of splice sites and regulatory elements dictate which exons are joined and in what order, while the balance of activators and repressors determines which of the permitted patterns actually occurs.\n\n### Experimental Evidence\n\n- **Dscam in Drosophila** — the Dscam gene can generate tens of thousands of isoforms via mutually exclusive exon choice, showing the enormous diversity alternative splicing permits.\n- **Troponin T** — early examples of alternative splicing producing muscle-specific isoforms from one gene.\n- **Sex determination in Drosophila** — a cascade of regulated splicing events (sxl, tra, dsx) determines sex, proving splicing can control developmental fate.\n- **RNA-seq and exon-junction microarrays** — revealed that >95% of human multi-exon genes undergo alternative splicing.\n- **Splicing-factor knockdowns** — depleting specific SR or hnRNP proteins shifts isoform ratios, directly demonstrating their regulatory roles.\n\n### Technique\n\nIsoform diversity is catalogued by **RNA-seq** (junction-spanning reads), **exon arrays**, **RT-PCR with isoform-specific primers**, and **long-read (Nanopore/PacBio) sequencing** of full-length transcripts. Regulatory elements are mapped by **minigene splicing reporter assays** and **CLIP-seq** of splicing factors.",
+    "howItWorks": "1. A pre-mRNA contains multiple, partly redundant splice sites, some weak and some strong.\n2. SR proteins bind enhancer elements and recruit U1/U2 to a weak splice site → exon is included.\n3. Alternatively, hnRNP proteins bind silencer elements and block splice-site recognition → exon is skipped.\n4. Cell-type-specific or signal-regulated levels of these factors shift the balance among inclusion, skipping, and alternative site choice.\n5. The chosen splice pattern produces a distinct mature mRNA (different exon composition).\n6. Translation of the isoform-specific mRNAs yields distinct protein isoforms with different functions, localizations, or stabilities.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- One pre-mRNA → multiple mRNAs/proteins via alternative splicing.\n- Modes: exon skipping (most common), alternative 5′/3′ sites, intron retention, mutually exclusive exons.\n- SR proteins = activators (bind enhancers); hnRNPs = repressors (bind silencers).\n- >95% of human multi-exon genes are alternatively spliced.\n- Dscam can generate tens of thousands of isoforms.\n- Splicing-factor mutations cause MDS and cancer; ASOs treat SMA/DMD.\n- Produces protein isoforms with different functions/localizations.",
+    "commonConfusions": "- **\"Alternative splicing is a mistake\"** — it is a regulated, purposeful mechanism producing functional isoform diversity.\n- **\"One gene = one protein\"** — alternative splicing (and other mechanisms) mean one gene can yield many proteins.\n- **\"Exon skipping removes coding only\"** — skipped or retained regions can also alter untranslated regions, stability, and localization.\n- **\"All exons are constitutively included\"** — inclusion is context-dependent and regulated by SR/hnRNP proteins.\n- **\"Splicing mutations always abolish the protein\"** — they often change the *isoform* pattern rather than eliminating expression entirely.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine one recipe with some steps marked \"optional\" and some \"choose A or B.\" Different cooks following the same recipe can produce different dishes: one skips the spicy step, another uses version A of a step. The result is many dishes from one recipe. That's what cells do with a gene — they pick which parts of the RNA to keep, making different proteins from the same instruction book. (The analogy's limit: the \"cooks\" are specific proteins (SR and hnRNP) whose amounts differ between cell types, and they physically influence a molecular machine rather than making a choice.)",
+    "quickReview": "- Alternative splicing generates multiple mRNAs/isoforms from one gene.\n- Modes: exon skipping, alternative 5′/3′ sites, intron retention, mutually exclusive exons.\n- SR proteins (activators) vs hnRNPs (repressors) decide splice-site use.\n- Regulated by cell type, development, and signaling (factor phosphorylation).\n- >95% of multi-exon human genes affected; Dscam as extreme example.\n- Misregulation → cancer, MDS, neurodegeneration; therapeutic target for SMA/DMD.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"16.5 Eukaryotic Post-transcriptional Gene Regulation.\" https://openstax.org/books/biology-2e/pages/16-5-eukaryotic-post-transcriptional-gene-regulation",
+        "url": "https://openstax.org/books/biology-2e/pages/16-5-eukaryotic-post-transcriptional-gene-regulation"
+      },
+      {
+        "text": "Nature Scitable, \"RNA Splicing.\" https://www.nature.com/scitable/topicpage/rna-splicing-introns-exons-and-spliceosome-12375/",
+        "url": "https://www.nature.com/scitable/topicpage/rna-splicing-introns-exons-and-spliceosome-12375/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"15.4 RNA Processing in Eukaryotes.\" https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes",
+        "url": "https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes"
+      },
+      {
+        "text": "Nature Scitable, \"Gene Expression.\" https://www.nature.com/scitable/topicpage/gene-expression-14121669/",
+        "url": "https://www.nature.com/scitable/topicpage/gene-expression-14121669/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "alternative-splicing",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "13-alternative-splicing",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:5852895e012a4036"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:5852895e012a4036"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:5852895e012a4036"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:5852895e012a4036"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/10-information-flow/13-alternative-splicing.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Alternative Splicing\n\n## Learning Goals\n- Define alternative splicing and its major modes (exon skipping, alternative 5′/3′ sites, intron retention, mutually exclusive exons).\n- Explain how a single gene can produce multiple protein isoforms.\n- Describe how splicing regulatory proteins (enhancers/silencers) control splice-site choice.\n- Explain the biological and disease significance of alternative splicing.\n\n## Core Concept\nAlternative splicing is the process by which a single pre-mRNA is spliced in more than one way, producing multiple mature mRNAs — and therefore multiple protein isoforms — from one gene. It explains how the human genome's ~20,000 protein-coding genes generate a far larger proteome. Splice-site choice is governed by cis-acting regulatory sequences in the pre-mRNA and by splicing activators and repressors (e.g., SR proteins and hnRNPs), making alternative splicing a regulated, cell-type- and developmental-stage-specific layer of gene expression.\n\n## Key Components\n- **Exon skipping (cassette exon)** — the most common mode; an exon is included or left out.\n- **Alternative 5′ or 3′ splice sites** — a different donor/acceptor site is chosen, changing exon boundaries.\n- **Intron retention** — an intron is kept in the mature mRNA.\n- **Mutually exclusive exons** — one of two exons (never both) is included.\n- **Splicing enhancers/silencers** — exonic/intronic sequences (ESE, ISE, ESS, ISS) that promote or inhibit splice-site use.\n- **SR proteins** — serine/arginine-rich activators that bind enhancers and recruit the spliceosome.\n- **hnRNP proteins** — repressors that bind silencers and block splice-site recognition.\n\n## Mechanism\nThe core spliceosome recognizes splice sites by their match to consensus sequences, but many sites are \"weak\" and cannot be used without help. Regulatory proteins determine the outcome: SR proteins bind exonic splicing enhancers, stabilize U1/U2 binding, and promote exon inclusion; hnRNPs bind silencers and antagonize spliceosome assembly, promoting skipping. Because different cell types express different complements of SR/hnRNP proteins (and because signals alter their phosphorylation), the same transcript can be spliced differently in different contexts.\n\n## How It Works\n1. A pre-mRNA contains multiple, partly redundant splice sites, some weak and some strong.\n2. SR proteins bind enhancer elements and recruit U1/U2 to a weak splice site → exon is included.\n3. Alternatively, hnRNP proteins bind silencer elements and block splice-site recognition → exon is skipped.\n4. Cell-type-specific or signal-regulated levels of these factors shift the balance among inclusion, skipping, and alternative site choice.\n5. The chosen splice pattern produces a distinct mature mRNA (different exon composition).\n6. Translation of the isoform-specific mRNAs yields distinct protein isoforms with different functions, localizations, or stabilities.\n\n## Energy and Directionality\nAs with constitutive splicing, the transesterification chemistry is isoenergetic; the regulatory decisions are driven by ATP-dependent spliceosome assembly and by the reversible phosphorylation of splicing factors (kinases/phosphatases), which alters their activity and localization. Directionality is encoded in the pre-mRNA sequence — the position and strength of splice sites and regulatory elements dictate which exons are joined and in what order, while the balance of activators and repressors determines which of the permitted patterns actually occurs.\n\n## Experimental Evidence\n- **Dscam in Drosophila** — the Dscam gene can generate tens of thousands of isoforms via mutually exclusive exon choice, showing the enormous diversity alternative splicing permits.\n- **Troponin T** — early examples of alternative splicing producing muscle-specific isoforms from one gene.\n- **Sex determination in Drosophila** — a cascade of regulated splicing events (sxl, tra, dsx) determines sex, proving splicing can control developmental fate.\n- **RNA-seq and exon-junction microarrays** — revealed that >95% of human multi-exon genes undergo alternative splicing.\n- **Splicing-factor knockdowns** — depleting specific SR or hnRNP proteins shifts isoform ratios, directly demonstrating their regulatory roles.\n\n## Technique\nIsoform diversity is catalogued by **RNA-seq** (junction-spanning reads), **exon arrays**, **RT-PCR with isoform-specific primers**, and **long-read (Nanopore/PacBio) sequencing** of full-length transcripts. Regulatory elements are mapped by **minigene splicing reporter assays** and **CLIP-seq** of splicing factors.\n\n## Why It Matters\nAlternative splicing expands proteome diversity and shapes tissue identity, development, and stress responses. Misregulation is pervasive in disease: splicing-factor mutations drive myelodysplastic syndromes and many cancers, and aberrant isoforms contribute to neurodegeneration and muscular dystrophy. Therapeutic strategies (e.g., antisense oligonucleotides for SMA and Duchenne muscular dystrophy) directly manipulate splicing.\n\n## High-Yield Facts\n- One pre-mRNA → multiple mRNAs/proteins via alternative splicing.\n- Modes: exon skipping (most common), alternative 5′/3′ sites, intron retention, mutually exclusive exons.\n- SR proteins = activators (bind enhancers); hnRNPs = repressors (bind silencers).\n- >95% of human multi-exon genes are alternatively spliced.\n- Dscam can generate tens of thousands of isoforms.\n- Splicing-factor mutations cause MDS and cancer; ASOs treat SMA/DMD.\n- Produces protein isoforms with different functions/localizations.\n\n## Eli Explains\nImagine one recipe with some steps marked \"optional\" and some \"choose A or B.\" Different cooks following the same recipe can produce different dishes: one skips the spicy step, another uses version A of a step. The result is many dishes from one recipe. That's what cells do with a gene — they pick which parts of the RNA to keep, making different proteins from the same instruction book. (The analogy's limit: the \"cooks\" are specific proteins (SR and hnRNP) whose amounts differ between cell types, and they physically influence a molecular machine rather than making a choice.)\n\n## Common Confusions\n- **\"Alternative splicing is a mistake\"** — it is a regulated, purposeful mechanism producing functional isoform diversity.\n- **\"One gene = one protein\"** — alternative splicing (and other mechanisms) mean one gene can yield many proteins.\n- **\"Exon skipping removes coding only\"** — skipped or retained regions can also alter untranslated regions, stability, and localization.\n- **\"All exons are constitutively included\"** — inclusion is context-dependent and regulated by SR/hnRNP proteins.\n- **\"Splicing mutations always abolish the protein\"** — they often change the *isoform* pattern rather than eliminating expression entirely.\n\n## Quick Review\n- Alternative splicing generates multiple mRNAs/isoforms from one gene.\n- Modes: exon skipping, alternative 5′/3′ sites, intron retention, mutually exclusive exons.\n- SR proteins (activators) vs hnRNPs (repressors) decide splice-site use.\n- Regulated by cell type, development, and signaling (factor phosphorylation).\n- >95% of multi-exon human genes affected; Dscam as extreme example.\n- Misregulation → cancer, MDS, neurodegeneration; therapeutic target for SMA/DMD.\n\n## Sources\n- OpenStax, *Biology 2e*, \"16.5 Eukaryotic Post-transcriptional Gene Regulation.\" https://openstax.org/books/biology-2e/pages/16-5-eukaryotic-post-transcriptional-gene-regulation\n- Nature Scitable, \"RNA Splicing.\" https://www.nature.com/scitable/topicpage/rna-splicing-introns-exons-and-spliceosome-12375/\n- OpenStax, *Biology 2e*, \"15.4 RNA Processing in Eukaryotes.\" https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes\n- Nature Scitable, \"Gene Expression.\" https://www.nature.com/scitable/topicpage/gene-expression-14121669/\n"
+}

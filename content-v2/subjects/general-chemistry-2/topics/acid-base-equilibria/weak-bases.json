@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:acid-base-equilibria:weak-bases",
+  "slug": "weak-bases",
+  "title": "Weak Bases and Kb",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:acid-base-equilibria",
+    "slug": "acid-base-equilibria",
+    "title": "Acid Base Equilibria",
+    "order": 5
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "A **weak base** accepts only a fraction of the protons available, establishing an equilibrium described by the base-dissociation constant **Kb = [BH⁺][OH⁻]/[B]**. The smaller the Kb (or larger the pKb), the weaker the base. Solving for pH mirrors the weak-acid procedure: build an ICE table, find [OH⁻] = x, compute pOH, then pH = 14.00 − pOH. Two structural families matter — neutral molecules with a lone pair (NH₃, amines) and anions that are conjugate bases of weak acids (CH₃COO⁻, F⁻, CN⁻).",
+    "whyItMatters": "Ammonia and amines are central to biology (amino groups on amino acids and drugs) and to household cleaners (NH₃, bleach-related chemistry). Anionic weak bases explain why salts like sodium acetate or baking soda (NaHCO₃) make water basic. Understanding Kb lets you predict the pH of these common solutions and is the first step toward buffers.",
+    "learningObjectives": "- Write the Kb expression for a weak base and interpret its magnitude.\n- Distinguish neutral weak bases (ammonia, amines) from anionic bases.\n- Solve weak-base equilibria with an ICE table and the 5% approximation.\n- Convert between Kb, pKb, and pH via Kw.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA **weak base** accepts only a fraction of the protons available, establishing an equilibrium described by the base-dissociation constant **Kb = [BH⁺][OH⁻]/[B]**. The smaller the Kb (or larger the pKb), the weaker the base. Solving for pH mirrors the weak-acid procedure: build an ICE table, find [OH⁻] = x, compute pOH, then pH = 14.00 − pOH. Two structural families matter — neutral molecules with a lone pair (NH₃, amines) and anions that are conjugate bases of weak acids (CH₃COO⁻, F⁻, CN⁻).\n\n### Key Ideas\n\n- **Partial protonation:** B(aq) + H₂O(l) ⇌ BH⁺(aq) + OH⁻(aq), double arrow.\n- **Kb expression:** Kb = [BH⁺][OH⁻] / [B]; water (the solvent) is omitted.\n- **pKb = −log Kb:** smaller pKb = stronger base.\n- **Two families:** neutral bases (NH₃, CH₃NH₂) and anionic bases (the conjugate bases of weak acids).\n- **Relationship to the conjugate acid:** for any conjugate pair, Ka × Kb = Kw = 1.0 × 10⁻¹⁴ at 25 °C.\n\n### Equations and Variables\n\n- Kb = [BH⁺][OH⁻] / [B]\n- pKb = −log Kb\n- ICE: [B]₀ − x, [BH⁺] = x, [OH⁻] = x → Kb = x² / ([B]₀ − x)\n- Approximation: x ≈ √(Kb × [B]₀), valid when x/[B]₀ ≤ 5%\n- pH = 14.00 − pOH = 14.00 + log[OH⁻]\n- Ka × Kb = Kw (conjugate pair, 25 °C)\n\n### How It Works\n\n1. Write the base ionization with water and the Kb expression.\n2. Build the ICE table; the equilibrium row gives [BH⁺] = [OH⁻] = x and [B] = [B]₀ − x.\n3. Substitute into Kb → Kb = x²/([B]₀ − x).\n4. Approximate x ≈ √(Kb·[B]₀) and verify the 5% rule; if it fails, solve the quadratic.\n5. Compute pOH = −log x, then pH = 14.00 − pOH.\n6. For an anionic base like CH₃COO⁻, get Kb from the conjugate acid's Ka: Kb = Kw / Ka.\n\n### Worked Example\n\n**Find the pH of 0.20 M ammonia (NH₃), Kb = 1.8 × 10⁻⁵.**\n\nNH₃ + H₂O ⇌ NH₄⁺ + OH⁻; Kb = [NH₄⁺][OH⁻]/[NH₃].\n\nICE: [NH₃] = 0.20 − x; [NH₄⁺] = [OH⁻] = x.\n\nKb = x² / (0.20 − x) ≈ x² / 0.20 = 1.8 × 10⁻⁵\n\nx = √(1.8 × 10⁻⁵ × 0.20) = √(3.6 × 10⁻⁶) = 1.90 × 10⁻³ M = [OH⁻]\n\nCheck: (1.90 × 10⁻³ / 0.20) × 100% = 0.95% < 5% ✓\n\npOH = −log(1.90 × 10⁻³) = 2.72 → pH = 14.00 − 2.72 = 11.28",
+    "howItWorks": "1. Write the base ionization with water and the Kb expression.\n2. Build the ICE table; the equilibrium row gives [BH⁺] = [OH⁻] = x and [B] = [B]₀ − x.\n3. Substitute into Kb → Kb = x²/([B]₀ − x).\n4. Approximate x ≈ √(Kb·[B]₀) and verify the 5% rule; if it fails, solve the quadratic.\n5. Compute pOH = −log x, then pH = 14.00 − pOH.\n6. For an anionic base like CH₃COO⁻, get Kb from the conjugate acid's Ka: Kb = Kw / Ka.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Weak base: B + H₂O ⇌ BH⁺ + OH⁻; Kb = [BH⁺][OH⁻]/[B].\n- Smaller Kb (larger pKb) = weaker base.\n- For a pure weak-base solution, [OH⁻] = [BH⁺] = x.\n- pOH = −log[OH⁻]; pH = 14.00 − pOH.\n- Conjugate-pair link: Ka × Kb = Kw; a weak acid has a weak (not strong) conjugate base, and vice versa.\n- Common weak bases: NH₃, CH₃NH₂, and anions F⁻, CN⁻, CH₃COO⁻, HCO₃⁻.",
+    "commonConfusions": "- **\"A weak acid has a strong conjugate base.\"** — No; only the conjugate of a *strong* acid is negligible. For a weak acid, its conjugate base is also weak, with Kb = Kw/Ka.\n- **\"All bases contain OH⁻.\"** — NH₃ and amines have no hydroxide in their formula; they *produce* OH⁻ by pulling a proton from water.\n- **\"pOH is the same as pH for bases.\"** — A basic solution has high pH and low pOH; always convert pOH → pH with 14.00 − pOH.\n- **\"The 5% rule is optional.\"** — It is the test that decides whether the approximation is legitimate; ignoring it risks wrong answers for dilute or relatively strong bases.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nA weak base is a catcher who only catches *some* of the pitches (protons) thrown at them. Kb measures their catching rate. To figure out how many pitches got caught (the OH⁻), you solve the same \"x² over initial\" math as for weak acids — then you just convert \"caught\" (pOH) into the pH score everyone reports. (The analogy hides that an anion base like acetate isn't catching from water randomly — it's the leftover piece of an acid that wants its proton back.)",
+    "quickReview": "- Kb = [BH⁺][OH⁻]/[B]; pKb = −log Kb.\n- ICE → Kb = x²/([B]₀ − x); approximate and check 5%.\n- [OH⁻] = x; pOH = −log x; pH = 14.00 − pOH.\n- Ka × Kb = Kw links a base to its conjugate acid.\n- Neutral bases (NH₃, amines) and anionic bases (conjugate bases of weak acids).",
+    "workedExamples": "### Worked Example\n\n**Find the pH of 0.20 M ammonia (NH₃), Kb = 1.8 × 10⁻⁵.**\n\nNH₃ + H₂O ⇌ NH₄⁺ + OH⁻; Kb = [NH₄⁺][OH⁻]/[NH₃].\n\nICE: [NH₃] = 0.20 − x; [NH₄⁺] = [OH⁻] = x.\n\nKb = x² / (0.20 − x) ≈ x² / 0.20 = 1.8 × 10⁻⁵\n\nx = √(1.8 × 10⁻⁵ × 0.20) = √(3.6 × 10⁻⁶) = 1.90 × 10⁻³ M = [OH⁻]\n\nCheck: (1.90 × 10⁻³ / 0.20) × 100% = 0.95% < 5% ✓\n\npOH = −log(1.90 × 10⁻³) = 2.72 → pH = 14.00 − 2.72 = 11.28",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.3 Relative Strengths of Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases"
+      },
+      {
+        "text": "PubChem, \"Ammonia.\" https://pubchem.ncbi.nlm.nih.gov/compound/Ammonia",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Ammonia"
+      },
+      {
+        "text": "NIST Chemistry WebBook (ammonia). https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      },
+      {
+        "text": "Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "weak-bases",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "06-weak-bases",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:7d1a9661a1c548fd"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:7d1a9661a1c548fd"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:7d1a9661a1c548fd"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:7d1a9661a1c548fd"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/14-acid-base-equilibria/06-weak-bases.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Weak Bases and Kb\n\n## Learning Goals\n- Write the Kb expression for a weak base and interpret its magnitude.\n- Distinguish neutral weak bases (ammonia, amines) from anionic bases.\n- Solve weak-base equilibria with an ICE table and the 5% approximation.\n- Convert between Kb, pKb, and pH via Kw.\n\n## Core Concept\nA **weak base** accepts only a fraction of the protons available, establishing an equilibrium described by the base-dissociation constant **Kb = [BH⁺][OH⁻]/[B]**. The smaller the Kb (or larger the pKb), the weaker the base. Solving for pH mirrors the weak-acid procedure: build an ICE table, find [OH⁻] = x, compute pOH, then pH = 14.00 − pOH. Two structural families matter — neutral molecules with a lone pair (NH₃, amines) and anions that are conjugate bases of weak acids (CH₃COO⁻, F⁻, CN⁻).\n\n## Key Ideas\n- **Partial protonation:** B(aq) + H₂O(l) ⇌ BH⁺(aq) + OH⁻(aq), double arrow.\n- **Kb expression:** Kb = [BH⁺][OH⁻] / [B]; water (the solvent) is omitted.\n- **pKb = −log Kb:** smaller pKb = stronger base.\n- **Two families:** neutral bases (NH₃, CH₃NH₂) and anionic bases (the conjugate bases of weak acids).\n- **Relationship to the conjugate acid:** for any conjugate pair, Ka × Kb = Kw = 1.0 × 10⁻¹⁴ at 25 °C.\n\n## Equations and Variables\n- Kb = [BH⁺][OH⁻] / [B]\n- pKb = −log Kb\n- ICE: [B]₀ − x, [BH⁺] = x, [OH⁻] = x → Kb = x² / ([B]₀ − x)\n- Approximation: x ≈ √(Kb × [B]₀), valid when x/[B]₀ ≤ 5%\n- pH = 14.00 − pOH = 14.00 + log[OH⁻]\n- Ka × Kb = Kw (conjugate pair, 25 °C)\n\n## How It Works\n1. Write the base ionization with water and the Kb expression.\n2. Build the ICE table; the equilibrium row gives [BH⁺] = [OH⁻] = x and [B] = [B]₀ − x.\n3. Substitute into Kb → Kb = x²/([B]₀ − x).\n4. Approximate x ≈ √(Kb·[B]₀) and verify the 5% rule; if it fails, solve the quadratic.\n5. Compute pOH = −log x, then pH = 14.00 − pOH.\n6. For an anionic base like CH₃COO⁻, get Kb from the conjugate acid's Ka: Kb = Kw / Ka.\n\n## Worked Example\n**Find the pH of 0.20 M ammonia (NH₃), Kb = 1.8 × 10⁻⁵.**\n\nNH₃ + H₂O ⇌ NH₄⁺ + OH⁻; Kb = [NH₄⁺][OH⁻]/[NH₃].\n\nICE: [NH₃] = 0.20 − x; [NH₄⁺] = [OH⁻] = x.\n\nKb = x² / (0.20 − x) ≈ x² / 0.20 = 1.8 × 10⁻⁵\n\nx = √(1.8 × 10⁻⁵ × 0.20) = √(3.6 × 10⁻⁶) = 1.90 × 10⁻³ M = [OH⁻]\n\nCheck: (1.90 × 10⁻³ / 0.20) × 100% = 0.95% < 5% ✓\n\npOH = −log(1.90 × 10⁻³) = 2.72 → pH = 14.00 − 2.72 = 11.28\n\n## Why It Matters\nAmmonia and amines are central to biology (amino groups on amino acids and drugs) and to household cleaners (NH₃, bleach-related chemistry). Anionic weak bases explain why salts like sodium acetate or baking soda (NaHCO₃) make water basic. Understanding Kb lets you predict the pH of these common solutions and is the first step toward buffers.\n\n## High-Yield Facts\n- Weak base: B + H₂O ⇌ BH⁺ + OH⁻; Kb = [BH⁺][OH⁻]/[B].\n- Smaller Kb (larger pKb) = weaker base.\n- For a pure weak-base solution, [OH⁻] = [BH⁺] = x.\n- pOH = −log[OH⁻]; pH = 14.00 − pOH.\n- Conjugate-pair link: Ka × Kb = Kw; a weak acid has a weak (not strong) conjugate base, and vice versa.\n- Common weak bases: NH₃, CH₃NH₂, and anions F⁻, CN⁻, CH₃COO⁻, HCO₃⁻.\n\n## Eli Explains\nA weak base is a catcher who only catches *some* of the pitches (protons) thrown at them. Kb measures their catching rate. To figure out how many pitches got caught (the OH⁻), you solve the same \"x² over initial\" math as for weak acids — then you just convert \"caught\" (pOH) into the pH score everyone reports. (The analogy hides that an anion base like acetate isn't catching from water randomly — it's the leftover piece of an acid that wants its proton back.)\n\n## Common Confusions\n- **\"A weak acid has a strong conjugate base.\"** — No; only the conjugate of a *strong* acid is negligible. For a weak acid, its conjugate base is also weak, with Kb = Kw/Ka.\n- **\"All bases contain OH⁻.\"** — NH₃ and amines have no hydroxide in their formula; they *produce* OH⁻ by pulling a proton from water.\n- **\"pOH is the same as pH for bases.\"** — A basic solution has high pH and low pOH; always convert pOH → pH with 14.00 − pOH.\n- **\"The 5% rule is optional.\"** — It is the test that decides whether the approximation is legitimate; ignoring it risks wrong answers for dilute or relatively strong bases.\n\n## Quick Review\n- Kb = [BH⁺][OH⁻]/[B]; pKb = −log Kb.\n- ICE → Kb = x²/([B]₀ − x); approximate and check 5%.\n- [OH⁻] = x; pOH = −log x; pH = 14.00 − pOH.\n- Ka × Kb = Kw links a base to its conjugate acid.\n- Neutral bases (NH₃, amines) and anionic bases (conjugate bases of weak acids).\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"14.3 Relative Strengths of Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases\n- PubChem, \"Ammonia.\" https://pubchem.ncbi.nlm.nih.gov/compound/Ammonia\n- NIST Chemistry WebBook (ammonia). https://webbook.nist.gov/chemistry/\n- Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria\n"
+}

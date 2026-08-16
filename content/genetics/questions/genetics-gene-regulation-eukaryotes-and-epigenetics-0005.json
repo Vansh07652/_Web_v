@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-regulation-eukaryotes-and-epigenetics-0005",
+  "subject": "genetics",
+  "lesson": "gene-regulation-eukaryotes-and-epigenetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A cultured cell line has a stable pattern of promoter DNA methylation. After one round of DNA replication, the newly synthesized daughter strands are unmethylated at CpG sites that are methylated on the template strands. Which enzyme restores the full methylation pattern so the silenced state is maintained?",
+  "options": [
+    {
+      "id": "a",
+      "text": "*DNMT1*, which maintains CpG methylation through cell division."
+    },
+    {
+      "id": "b",
+      "text": "*XIST*, the long noncoding RNA that initiates X chromosome inactivation."
+    },
+    {
+      "id": "c",
+      "text": "*HDAC1*, which removes acetyl groups from histones."
+    },
+    {
+      "id": "d",
+      "text": "DNA polymerase III, which copies the methyl marks along with the bases."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "*DNMT1* reads the methyl groups on the parental strand and adds matching methyl groups to the CpG sites on the newly synthesized strand, which is why it is called the maintenance methyltransferase. *XIST* is a long noncoding RNA that coats and silences an X chromosome, not a DNA modifying enzyme. *HDAC1* modifies histones, not DNA. DNA polymerase III copies bases but cannot place methyl marks, which are added afterward by methyltransferases.",
+  "difficulty": "unknown",
+  "tags": [
+    "dnmt1",
+    "maintenance",
+    "methylation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-8ab599ccbbccc2db",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

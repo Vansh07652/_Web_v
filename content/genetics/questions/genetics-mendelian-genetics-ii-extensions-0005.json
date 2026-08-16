@@ -1,0 +1,42 @@
+{
+  "id": "genetics-mendelian-genetics-ii-extensions-0005",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-ii-extensions",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation In shepherd's purse, seed capsule shape is controlled by two unlinked duplicate loci: a dominant allele at either locus gives a triangular capsule, and only the double recessive *aabb* gives an ovoid capsule. Two *AaBb* plants are crossed. Assuming independent assortment and complete viability, what fraction of the F2 is expected to have ovoid capsules?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/8"
+    },
+    {
+      "id": "b",
+      "text": "1/12"
+    },
+    {
+      "id": "c",
+      "text": "1/16"
+    },
+    {
+      "id": "d",
+      "text": "1/4"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "The ovoid class is the double recessive *aabb*, whose probability is 1/4 x 1/4 = 1/16, the single non-triangular class in the 15:1 ratio (sums to 16). A is the class *aaBb* (1/4 x 1/2 = 1/8), and D is the probability of being *aa* at just one locus. B has no arithmetic route here and typically comes from misreading the 9:6:1 cumulative ratio (sums to 16) as containing a 1/12 class.",
+  "difficulty": "unknown",
+  "tags": [
+    "duplicate",
+    "gene",
+    "action",
+    "ovoid",
+    "capsule",
+    "fraction"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-459ae50fda335511",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

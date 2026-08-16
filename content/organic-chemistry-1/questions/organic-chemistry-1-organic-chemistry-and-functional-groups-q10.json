@@ -1,0 +1,40 @@
+{
+  "id": "organic-chemistry-1-organic-chemistry-and-functional-groups-q10",
+  "subject": "organic-chemistry-1",
+  "lesson": "organic-chemistry-and-functional-groups",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A hypothetical study compound consists of an unbranched 12-carbon hydrocarbon chain bearing a single terminal hydroxyl group. Which prediction about its behavior in water is best supported?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It will be freely miscible, because long carbon chains create strong dipole–dipole attractions to water"
+    },
+    {
+      "id": "b",
+      "text": "It will be freely miscible, because a single hydroxyl group hydrogen bonds strongly enough to carry the molecule into solution"
+    },
+    {
+      "id": "c",
+      "text": "It will be poorly soluble, because the large nonpolar chain outweighs one polar hydroxyl group"
+    },
+    {
+      "id": "d",
+      "text": "It will dissolve as an ionic solution, because hydroxyl groups release hydrogen ions in water"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Alcohol solubility falls sharply as the carbon-to-hydroxyl ratio rises: methanol, ethanol, and 1-propanol are miscible with water, 1-butanol is only partly soluble, and alcohols of five or more carbons per hydroxyl are increasingly insoluble. At a ratio of 12 / 1 = 12 carbons per hydroxyl, the hydrophobic surface that water must reorganize around dwarfs the hydrogen-bonding contribution of one —OH. Choice D also fails because alcohols have pKa near 16 and do not measurably ionize at physiological pH.\n\nELI-10: Solubility is a competition between the polar part of a molecule, which water welcomes, and the nonpolar part, which forces water into an ordered cage that costs energy. A short alcohol like 1-propanol has 3 carbons for its one —OH and the polar end wins. Stretch the chain to 12 carbons for the same single —OH and the ratio is 12 / 1, so the nonpolar side dominates and the compound behaves more like an oil or a wax than like rubbing alcohol. The same logic explains why fatty acids need bile salts to disperse in the aqueous contents of the intestine.",
+  "difficulty": "medium",
+  "tags": [
+    "solubility prediction",
+    "polarity",
+    "hydrophobic effect",
+    "alcohols"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-281",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

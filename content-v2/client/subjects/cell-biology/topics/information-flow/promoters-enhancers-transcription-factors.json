@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:information-flow:promoters-enhancers-transcription-factors",
+  "slug": "promoters-enhancers-transcription-factors",
+  "title": "Promoters, Enhancers, and Transcription Factors",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:information-flow",
+    "slug": "information-flow",
+    "title": "Information Flow",
+    "order": 10
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "Eukaryotic gene expression is controlled combinatorially by DNA regulatory elements and the proteins that bind them. The promoter is the core DNA region where RNA polymerase II and general transcription factors assemble to initiate transcription. Enhancers are distal DNA sequences that boost transcription from a promoter through DNA looping, often over large distances. Transcription factors are sequence-specific DNA-binding proteins — activators and repressors — that, together with coactivators and chromatin remodelers, integrate developmental and environmental signals to turn genes on or off in a cell-type-specific manner.",
+    "whyItMatters": "Combinatorial control by promoters, enhancers, and transcription factors explains how one genome builds hundreds of cell types and how cells respond to signals. Most human disease-associated variants lie in noncoding regulatory regions, and misregulation of transcription factors (e.g., MYC, p53, nuclear receptors) drives cancer and developmental disorders. This machinery is the direct target of many drugs (e.g., nuclear hormone receptor ligands).",
+    "learningObjectives": "- Define promoters, enhancers, and the classes of transcription factors that bind them.\n- Explain how activators, coactivators, and general transcription factors work together.\n- Describe how enhancers act at a distance through DNA looping.\n- Explain combinatorial control of gene expression.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nEukaryotic gene expression is controlled combinatorially by DNA regulatory elements and the proteins that bind them. The promoter is the core DNA region where RNA polymerase II and general transcription factors assemble to initiate transcription. Enhancers are distal DNA sequences that boost transcription from a promoter through DNA looping, often over large distances. Transcription factors are sequence-specific DNA-binding proteins — activators and repressors — that, together with coactivators and chromatin remodelers, integrate developmental and environmental signals to turn genes on or off in a cell-type-specific manner.\n\n### Key Components\n\n- **Core promoter** — contains the TATA box and/or initiator element; where the preinitiation complex assembles.\n- **General transcription factors (TFIIA–H)** — including TBP and TFIIH, required for basal transcription.\n- **Activators** — sequence-specific factors that bind enhancers/promoter-proximal elements and stimulate transcription.\n- **Repressors** — factors that block activation or recruit deacetylases to silence genes.\n- **Coactivators/Mediator** — multiprotein complexes that bridge activators to the basal machinery and modify chromatin.\n- **Enhancers** — distal cis-regulatory elements bound by activators; act independently of orientation/distance via looping.\n- **DNA-binding domains** — structural motifs (e.g., zinc finger, helix-turn-helix, leucine zipper) that recognize specific sequences.\n\n### Mechanism\n\nTranscription initiation requires assembly of the preinitiation complex at the core promoter. Basal transcription factors position Pol II and open the DNA, but this yields only low-level transcription. Activators bound at enhancers or proximal elements dramatically increase initiation by recruiting coactivators (histone acetyltransferases, remodelers) and the Mediator complex, which contacts Pol II. DNA looping brings distant enhancer-bound activators into proximity with the promoter. Repressors counteract this by competing for sites, masking activation domains, or recruiting deacetylases that compact chromatin.\n\n### How It Works\n\n1. Activator proteins bind specific sequences in an enhancer (or upstream promoter element).\n2. Coactivators recruited by the activators acetylate histones and remodel nucleosomes, opening the local chromatin.\n3. The enhancer–activator complex loops to contact the promoter via Mediator.\n4. General transcription factors (including TBP at the TATA box) assemble the preinitiation complex with Pol II.\n5. TFIIH unwinds DNA and phosphorylates the Pol II CTD, initiating productive elongation.\n6. Multiple activators acting on one promoter integrate signals, so expression depends on the *combination* of factors present — the basis of cell-type-specific transcription.\n\n### Energy and Directionality\n\nTranscription is energetically costly and tightly directed. Promoter opening and CTD phosphorylation by TFIIH consume ATP; histone acetylation consumes acetyl-CoA; ATP-dependent remodelers consume ATP to expose the promoter. Directionality is imposed by the promoter sequence, which fixes the transcription start site and the template strand, and by the orientation-independent but position-dependent action of enhancers, whose looping is constrained by chromatin architecture (CTCF/cohesin). The net effect is to funnel multiple regulatory inputs into a single directional output of mRNA synthesis.\n\n### Experimental Evidence\n\n- **Enhancer deletion/reporter assays** — removing an enhancer or moving it far away abolishes high-level expression, proving enhancers act in cis and at a distance.\n- **β-globin locus control region** — a distal regulatory region required for high-level globin expression, establishing long-range enhancer function.\n- **Chromosome conformation capture (3C/Hi-C)** — directly demonstrated physical looping between enhancers and promoters.\n- **MyoD experiment** — expressing the MyoD transcription factor converts fibroblasts into muscle-like cells, showing a single master regulator can activate a program of genes.\n- **Yeast two-hybrid and co-immunoprecipitation** — defined Mediator and coactivator interactions.\n\n### Technique\n\nKey methods include **luciferase/GFP reporter assays** (measure promoter/enhancer activity), **electrophoretic mobility shift assays (EMSA)** and **ChIP-seq** (map factor binding), **DNase/ATAC-seq** (open regulatory regions), **3C/Hi-C and 4C** (enhancer–promoter looping), and **CRISPR interference/activation** (perturb specific elements).",
+    "howItWorks": "1. Activator proteins bind specific sequences in an enhancer (or upstream promoter element).\n2. Coactivators recruited by the activators acetylate histones and remodel nucleosomes, opening the local chromatin.\n3. The enhancer–activator complex loops to contact the promoter via Mediator.\n4. General transcription factors (including TBP at the TATA box) assemble the preinitiation complex with Pol II.\n5. TFIIH unwinds DNA and phosphorylates the Pol II CTD, initiating productive elongation.\n6. Multiple activators acting on one promoter integrate signals, so expression depends on the *combination* of factors present — the basis of cell-type-specific transcription.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Promoter = assembly site for Pol II + general transcription factors (TATA box/TBP).\n- Enhancer = distal element that boosts transcription via DNA looping, orientation-independent.\n- Activators bind enhancers and recruit coactivators/Mediator.\n- Repressors block activation or recruit deacetylases.\n- Combinatorial control: the set of factors, not any single one, determines expression.\n- Mediator bridges activators to Pol II; TFIIH unwinds DNA and phosphorylates the CTD.\n- Transcription factors use DNA-binding domains (zinc finger, HTH, leucine zipper).",
+    "commonConfusions": "- **\"Enhancers must be near and upstream of the gene\"** — they can act over megabases, upstream or downstream, and in either orientation.\n- **\"Transcription factors always activate\"** — many are repressors that silence genes.\n- **\"General transcription factors are enough for regulation\"** — they enable basal transcription; activators/repressors provide regulation.\n- **\"One factor = one gene\"** — factors act combinatorially; the same factor can regulate many genes depending on partners.\n- **\"Promoter and enhancer are the same\"** — the promoter is where initiation occurs; the enhancer is a separate, distal regulatory element.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture the promoter as a light switch and the enhancer as a dimmer dial across the room. Transcription factors are the hands that flip the switch and turn the dial, and a long flexible wire (DNA looping) lets the dimmer control the light even from far away. Different rooms have different hands available, which is why the same house wiring (the genome) lights different rooms differently. (The analogy's limit: real \"hands\" are proteins that physically bend the DNA into a loop to touch the switch, and many dials can combine, not just one.)",
+    "quickReview": "- Promoter (TATA/TBP) → preinitiation complex with Pol II.\n- Enhancers act at distance via looping, orientation-independent.\n- Activators/repressors + coactivators/Mediator control transcription.\n- Combinatorial control = cell-type specificity.\n- Assays: reporters, EMSA, ChIP-seq, ATAC-seq, Hi-C.\n- Regulatory variants and TF misregulation drive disease.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"16.4 Eukaryotic Transcription Gene Regulation.\" https://openstax.org/books/biology-2e/pages/16-4-eukaryotic-transcription-gene-regulation",
+        "url": "https://openstax.org/books/biology-2e/pages/16-4-eukaryotic-transcription-gene-regulation"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"16.1 Regulation of Gene Expression.\" https://openstax.org/books/biology-2e/pages/16-1-regulation-of-gene-expression",
+        "url": "https://openstax.org/books/biology-2e/pages/16-1-regulation-of-gene-expression"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"15.3 Eukaryotic Transcription.\" https://openstax.org/books/biology-2e/pages/15-3-eukaryotic-transcription",
+        "url": "https://openstax.org/books/biology-2e/pages/15-3-eukaryotic-transcription"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"From DNA to RNA.\" https://www.ncbi.nlm.nih.gov/books/NBK26887/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/10-information-flow/09-promoters-enhancers-transcription-factors.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

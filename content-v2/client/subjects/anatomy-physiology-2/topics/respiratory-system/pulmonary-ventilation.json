@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-2:respiratory-system:pulmonary-ventilation",
+  "slug": "pulmonary-ventilation",
+  "title": "Pulmonary Ventilation (Breathing Mechanics)",
+  "subject": {
+    "id": "subject:anatomy-physiology-2",
+    "slug": "anatomy-physiology-2",
+    "title": "Anatomy & Physiology II"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-2:respiratory-system",
+    "slug": "respiratory-system",
+    "title": "Respiratory System",
+    "order": 4
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "**Pulmonary ventilation** is breathing — moving air in and out of the lungs. This section explains the mechanics: how **pressure changes** driven by the **diaphragm** and rib muscles cause **inspiration** and **expiration**.",
+    "whyItMatters": "Breathing mechanics determine how air enters and leaves the lungs. Understanding the pressure–volume relationship explains normal breathing, why a punctured chest (pneumothorax) collapses a lung, and how breathing changes in disease.",
+    "learningObjectives": "- Explain the pressure–volume relationship in breathing (**Boyle's law**).\n- Describe the muscles and mechanics of **inspiration**.\n- Describe **expiration**.\n- Explain why lungs can **collapse** (pneumothorax).",
+    "keyTerms": "",
+    "collegeNotes": "**Air moves down pressure gradients.** Breathing works on a simple principle: **air flows from higher to lower pressure**. To bring air in, the body makes the pressure inside the lungs **lower** than the outside air; to push air out, it makes lung pressure **higher**. The lungs themselves have no muscles — they're inflated by changing the **volume of the thoracic cavity**, which changes pressure. This follows **Boyle's law**: at a fixed amount of gas, **increasing volume decreases pressure** (and vice versa).\n\n**Inspiration (breathing in) — active.** Inspiration requires muscle effort:\n\n1. The **diaphragm** (the dome-shaped muscle below the lungs) **contracts and flattens downward**, and the **external intercostal muscles** lift the rib cage up and out.\n2. This **increases the thoracic cavity's volume**.\n3. By Boyle's law, the larger volume **lowers the pressure** inside the lungs below atmospheric pressure.\n4. Air flows **in** down the pressure gradient until pressures equalize.\n\n**Expiration (breathing out) — usually passive.** At rest, expiration is passive:\n\n1. The diaphragm and intercostals **relax**.\n2. The elastic lungs and chest wall **recoil**, **decreasing** thoracic volume.\n3. This **raises** the pressure inside the lungs above atmospheric pressure.\n4. Air flows **out**.\n\nDuring heavy breathing or exercise, expiration becomes **active**, using additional muscles (like the internal intercostals and abdominal muscles) to push air out faster.\n\n**Why lungs stay inflated — and can collapse.** The lungs cling to the chest wall because of the **pleural cavity**, where a thin layer of fluid and slightly negative pressure hold the pleural membranes together (like two wet glass slides). This coupling means that when the chest expands, the lungs expand with it. If the pleural cavity is punctured (as in a chest injury), air enters the space, the negative pressure is lost, and the lung can **collapse** — a **pneumothorax**. This directly connects the pleural anatomy from the previous section to a serious clinical condition.",
+    "howItWorks": "One breath:\n\n```\nInspiration: diaphragm contracts (flattens) + ribs lift → thoracic volume ↑ → lung pressure ↓ → air IN\nExpiration (rest): muscles relax → lungs/chest recoil → volume ↓ → lung pressure ↑ → air OUT\nBoyle's law: volume up → pressure down; volume down → pressure up\n```",
+    "comparisons": "| Phase | Muscles | Thoracic volume | Lung pressure | Airflow |\n| --- | --- | --- | --- | --- |\n| Inspiration | Diaphragm + external intercostals contract | Increases | Decreases | In |\n| Expiration (rest) | Muscles relax (recoil) | Decreases | Increases | Out |\n| Forced expiration | + abdominals, internal intercostals | Decreases more | Increases more | Out (faster) |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\nBreathing mechanics explain **respiratory assessment**: use of **accessory muscles** signals labored breathing. A **pneumothorax** (collapsed lung from air in the pleural space) is a respiratory emergency; understanding pleural pressure explains why it happens and why chest tubes re-expand the lung. **Mechanical ventilation** and conditions that stiffen the lungs or weaken breathing muscles (like certain neuromuscular diseases) all relate to these mechanics. The diaphragm's role connects to its nerve supply (injury can impair breathing).",
+    "commonConfusions": "- **Lungs have no muscles** — breathing is driven by the diaphragm and rib muscles changing thoracic volume.\n- **Inspiration is active; resting expiration is passive** (recoil).\n- **Boyle's law direction.** Bigger volume = lower pressure (air comes in).\n- **Pneumothorax** = air in the pleural space collapsing the lung (loss of the pressure coupling).",
+    "memoryAids": "- **\"Diaphragm Down = air in.\"**\n- **Boyle's law: \"Big volume, Baby pressure (low).\"**\n- **Inspiration = \"Increase volume, Inhale.\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nYou breathe in by making your chest bigger, which lowers the pressure inside and sucks air in; you breathe out by letting your chest shrink back, which pushes air out.\n\n### Analogy\nThink of your chest like a stretchy accordion or a bellows. When you pull it open (making it bigger), the space inside has *lower* pressure than the air outside, so air rushes **in** to fill it — that's breathing in. The main muscle doing the pulling is the **diaphragm**, a dome under your lungs that flattens down to make room, while your rib muscles lift your ribs up and out. When those muscles **relax**, the stretchy chest springs back to smaller, the pressure inside goes *up*, and air gets pushed **out** — that's breathing out (which usually takes no effort at all). Your lungs themselves are like limp balloons with no muscles; they just follow the chest's movements because they're \"stuck\" to the chest wall by a thin layer of fluid.\n\n### What is actually happening\nThis is a real rule of physics (**Boyle's law**): make a space bigger and its pressure drops; make it smaller and pressure rises — and air always flows toward lower pressure. The \"stuck to the chest wall\" part matters a lot: if the chest gets punctured (a stab wound or certain injuries), air sneaks into the space and the lung un-sticks and **collapses** — a dangerous emergency called a **pneumothorax**, which doctors fix by removing the trapped air so the lung can re-inflate.\n\n### Where the analogy stops\nAn accordion needs a person to pump it, but your body does it automatically about 12–20 times a minute without you thinking — and can instantly ramp up when you run or slow down when you rest.",
+    "quickReview": "- **Breathing** moves air down pressure gradients by changing **thoracic volume** (Boyle's law: volume up → pressure down).\n- **Inspiration** is **active**: the **diaphragm** flattens and ribs lift → volume up → lung pressure down → air in.\n- **Resting expiration** is **passive** recoil; forced expiration uses extra muscles.\n- The **pleural cavity** couples lungs to the chest wall; puncturing it causes a lung **collapse (pneumothorax)**.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 22.3: The Process of Breathing. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — Pleural Disorders; Collapsed Lung. https://medlineplus.gov/pleuraldisorders.html",
+        "url": "https://medlineplus.gov/pleuraldisorders.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/02-anatomy-physiology-ii/04-respiratory-system/02-pulmonary-ventilation.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

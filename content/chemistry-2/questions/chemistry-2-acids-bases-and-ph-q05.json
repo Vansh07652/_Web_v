@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-acids-bases-and-ph-q05",
+  "subject": "chemistry-2",
+  "lesson": "acids-bases-and-ph",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which comparison between a strong acid and a weak acid prepared at the same molar concentration is accurate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The strong acid has the higher pH because it holds its protons tightly"
+    },
+    {
+      "id": "b",
+      "text": "Both solutions have the same hydronium concentration because molarity sets pH"
+    },
+    {
+      "id": "c",
+      "text": "The weak acid ionizes completely but neutralizes added base more slowly"
+    },
+    {
+      "id": "d",
+      "text": "The strong acid ionizes essentially completely, so it has the lower pH"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Acid strength describes the extent of ionization, not the amount of acid dissolved. A strong acid such as HCl dissociates essentially completely, releasing far more hydronium per mole than a weak acid such as acetic acid, which establishes an equilibrium with most molecules still undissociated. More hydronium means a lower pH, so at equal molarity the strong acid gives the more acidic solution.\n\nELI-10: Concentration counts how much acid you added; strength counts what fraction of it actually lets go of its proton. In 0.1 mol/L HCl essentially every molecule releases H+, giving about 0.1 mol/L hydronium and a pH near 1. In 0.1 mol/L acetic acid only about 1 percent releases H+, giving roughly 0.001 mol/L and a pH near 3. Same amount dissolved, about a hundredfold difference in hydronium.",
+  "difficulty": "medium",
+  "tags": [
+    "strong vs weak acids",
+    "degree of ionization",
+    "concentration vs strength"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-279",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

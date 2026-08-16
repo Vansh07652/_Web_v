@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:modern-techniques:proteomics",
+  "slug": "proteomics",
+  "title": "Proteomics",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:modern-techniques",
+    "slug": "modern-techniques",
+    "title": "Modern Techniques",
+    "order": 11
+  },
+  "order": 12,
+  "status": "final",
+  "sections": {
+    "overview": "Proteomics is the large-scale study of the **proteome** — the complete set of proteins expressed by a cell, tissue, or organism, including their abundances, modifications, and interactions. Because protein levels are governed by translation, turnover, and post-translational modification (not just mRNA), the proteome must be measured directly. The core method is **mass spectrometry (MS)**: proteins are digested into peptides, ionized, and separated by their **mass-to-charge ratio (m/z)**; selected peptides are fragmented (MS/MS), and the fragment spectra are matched against a database to identify the parent proteins and quantify their abundance. Proteomics measures **protein** identity, amount, and modification — the closest large-scale readout to the functional output of the genome.",
+    "whyItMatters": "Proteomics closes the gap between genome/transcriptome and phenotype. It identifies disease biomarkers in blood, reveals drug targets and drug mechanisms, maps signaling networks through phosphoproteomics, and characterizes protein complexes and modifications that genomics cannot predict. Because most drugs act on proteins, the proteome is the most direct \"parts that matter\" list for medicine.",
+    "learningObjectives": "- Define the proteome and explain why it cannot be read directly from the genome.\n- Describe how mass spectrometry identifies and quantifies proteins (bottom-up, MS/MS).\n- Explain how peptides are matched to a database to name proteins, and how PTMs are detected.\n- Distinguish proteomics from transcriptomics and from targeted methods like Western blotting.\n- Identify what proteomics can and cannot prove about protein function.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nProteomics is the large-scale study of the **proteome** — the complete set of proteins expressed by a cell, tissue, or organism, including their abundances, modifications, and interactions. Because protein levels are governed by translation, turnover, and post-translational modification (not just mRNA), the proteome must be measured directly. The core method is **mass spectrometry (MS)**: proteins are digested into peptides, ionized, and separated by their **mass-to-charge ratio (m/z)**; selected peptides are fragmented (MS/MS), and the fragment spectra are matched against a database to identify the parent proteins and quantify their abundance. Proteomics measures **protein** identity, amount, and modification — the closest large-scale readout to the functional output of the genome.\n\n### Key Components\n\n### Protein extraction and digestion\n- Proteins are extracted, denatured, and cleaved with a specific protease (usually **trypsin**, which cuts after lysine/arginine) into predictable peptides.\n\n### Liquid chromatography (LC)\n- Peptides are separated by hydrophobicity before entering the mass spectrometer, reducing complexity and increasing coverage.\n\n### Mass spectrometry (MS and MS/MS)\n- An ion source ionizes peptides (electrospray); the first analyzer measures **m/z** (MS1); selected precursor ions are fragmented (collision-induced dissociation) and their fragments measured (MS2), generating a \"fingerprint\" of each peptide.\n\n### Database search and quantification\n- Fragment spectra are matched to theoretical spectra from a protein database (e.g., UniProt) to identify peptides/proteins; abundance is estimated from peptide ion intensities (label-free, or with isobaric tags such as TMT/iTRAQ, or stable isotope labeling).\n\n### Post-translational modification (PTM) analysis\n- Mass shifts in fragment spectra reveal modifications (phosphorylation +80 Da, ubiquitination, acetylation, etc.).\n\n### Mechanism\n\n1. **Extract and digest.** Proteins are isolated and cut with trypsin into peptides.\n2. **Separate.** Peptides are resolved by liquid chromatography.\n3. **Ionize and measure.** Peptides are ionized; MS1 records each peptide's m/z.\n4. **Fragment.** Selected peptides are fragmented; MS2 records the fragment-ion spectrum.\n5. **Identify.** Software matches MS2 spectra to a database, naming the peptides and their parent proteins.\n6. **Quantify.** Peptide intensities (or reporter tags) yield relative/absolute protein abundance; PTMs are read from mass shifts.\n\n### Energy and Directionality\n\nMass spectrometry is a physical separation, not an enzymatic reaction: gas-phase ions are accelerated and steered by **electric/magnetic fields**, and the \"signal\" is the m/z of each ion. Ionization and fragmentation require input energy (electrospray voltage; collision energy in MS/MS) to break peptide bonds at predictable positions. The information flows directionally — intact peptide mass (MS1) → fragment masses (MS2) → matched sequence — and the biological conclusion (which protein, how much, what modification) is inferred from that physical readout.\n\n### Experimental Evidence\n\n- **What it measures:** protein **identity, abundance, and post-translational modifications** across a sample (the proteome).\n- **Principle:** protease digestion → LC separation → MS1/MS2 mass-to-charge measurement → database matching.\n- **Input:** protein lysate (cells/tissue); **Output:** lists of identified proteins with (relative) abundances and detected PTMs.\n- **What it can prove:** which proteins are actually present and in what relative amounts (unlike mRNA); that a modification (e.g., phosphorylation) occurs at a specific site; protein-complex composition (via affinity purification + MS); differential protein abundance between conditions.\n- **What it cannot prove:** protein **activity** or functional state directly (a protein can be abundant but inactive); spatial localization; dynamic transient interactions without specialized approaches; and it may miss low-abundance or poorly ionized proteins (incomplete coverage).\n- **Controls/quality steps:** technical and biological replicates; **spike-in standards** for absolute quantification; false-discovery-rate (FDR) control in database matching (decoy database) to avoid mis-identifications; and **validation by Western blot or targeted MS** (e.g., SRM/PRM) of key hits.\n- **Common mistakes:** equating protein abundance with activity; over-trusting single-peptide identifications; ignoring FDR; incomplete digestion affecting quantitation; and assuming mRNA and protein levels will agree.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Proteomics = large-scale study of the **proteome (proteins)**, measured by **mass spectrometry**.\n- Bottom-up workflow: **digest (trypsin) → LC → MS1 (m/z) → MS2 (fragment) → database match**.\n- Trypsin cuts after **lysine (K) and arginine (R)**.\n- MS identifies by **mass-to-charge ratio (m/z)** + fragment spectra.\n- Detects **PTMs** (phosphorylation, etc.) via characteristic **mass shifts**.\n- Protein abundance ≠ activity; mRNA ≠ protein (translation/turnover/PTM).",
+    "commonConfusions": "- **\"Proteomics reads protein sequences like DNA sequencing\"** — MS identifies proteins by matching peptide **masses/fragments to a database**, not by base-by-base sequencing.\n- **\"mRNA levels predict protein levels\"** — They correlate poorly in many cases; translation, turnover, and PTMs intervene.\n- **\"The proteome is fixed by the genome\"** — One gene can yield many protein forms via splicing and PTMs; the proteome is dynamic and context-dependent.\n- **\"Abundance = activity\"** — A protein can be present but inactive (needs PTM, binding partner, or correct localization).\n- **\"MS sees every protein\"** — Low-abundance, hydrophobic, or poorly ionizing proteins are often missed (incomplete coverage).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nProteomics is taking inventory of the actual workers in a factory, not the instruction manuals. You can't guess who's working by counting manuals (mRNA) — some manuals are read a lot, some not. So you chop every worker into standard pieces, weigh each piece on a super-accurate scale (mass spectrometer), break them again, and match the pieces to a catalog to name each worker and count how many there are. (The analogy's limit: the inventory shows who is *present*, not who is actually *working* — an abundant protein can still be switched off.)",
+    "quickReview": "- Extract proteins → trypsin digest → LC → MS1 (m/z) → MS2 (fragments) → database match → identify/quantify/PTMs.\n- Measures protein identity, abundance, and modifications — the functional layer.\n- Protein ≠ mRNA, and abundance ≠ activity; validate key hits with Western/targeted MS.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NCI, \"proteomics\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/proteomics",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/proteomics"
+      },
+      {
+        "text": "NCI, \"mass spectrometry\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/mass-spectrometry",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/mass-spectrometry"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"Genomics and Proteomics.\" https://openstax.org/books/biology-2e/pages/17-5-genomics-and-proteomics",
+        "url": "https://openstax.org/books/biology-2e/pages/17-5-genomics-and-proteomics"
+      },
+      {
+        "text": "MedlinePlus, \"What are proteins and what do they do?\" https://medlineplus.gov/genetics/understanding/howgeneswork/protein/",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/protein/"
+      },
+      {
+        "text": "NCI, \"biomarker\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/biomarker",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/biomarker"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "proteomics",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "12-proteomics",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:f8f7b03d25b66ad0"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:f8f7b03d25b66ad0"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:f8f7b03d25b66ad0"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:f8f7b03d25b66ad0"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/11-modern-techniques/12-proteomics.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Proteomics\n\n## Learning Goals\n- Define the proteome and explain why it cannot be read directly from the genome.\n- Describe how mass spectrometry identifies and quantifies proteins (bottom-up, MS/MS).\n- Explain how peptides are matched to a database to name proteins, and how PTMs are detected.\n- Distinguish proteomics from transcriptomics and from targeted methods like Western blotting.\n- Identify what proteomics can and cannot prove about protein function.\n\n## Core Concept\nProteomics is the large-scale study of the **proteome** — the complete set of proteins expressed by a cell, tissue, or organism, including their abundances, modifications, and interactions. Because protein levels are governed by translation, turnover, and post-translational modification (not just mRNA), the proteome must be measured directly. The core method is **mass spectrometry (MS)**: proteins are digested into peptides, ionized, and separated by their **mass-to-charge ratio (m/z)**; selected peptides are fragmented (MS/MS), and the fragment spectra are matched against a database to identify the parent proteins and quantify their abundance. Proteomics measures **protein** identity, amount, and modification — the closest large-scale readout to the functional output of the genome.\n\n## Key Components\n\n### Protein extraction and digestion\n- Proteins are extracted, denatured, and cleaved with a specific protease (usually **trypsin**, which cuts after lysine/arginine) into predictable peptides.\n\n### Liquid chromatography (LC)\n- Peptides are separated by hydrophobicity before entering the mass spectrometer, reducing complexity and increasing coverage.\n\n### Mass spectrometry (MS and MS/MS)\n- An ion source ionizes peptides (electrospray); the first analyzer measures **m/z** (MS1); selected precursor ions are fragmented (collision-induced dissociation) and their fragments measured (MS2), generating a \"fingerprint\" of each peptide.\n\n### Database search and quantification\n- Fragment spectra are matched to theoretical spectra from a protein database (e.g., UniProt) to identify peptides/proteins; abundance is estimated from peptide ion intensities (label-free, or with isobaric tags such as TMT/iTRAQ, or stable isotope labeling).\n\n### Post-translational modification (PTM) analysis\n- Mass shifts in fragment spectra reveal modifications (phosphorylation +80 Da, ubiquitination, acetylation, etc.).\n\n## Mechanism\n1. **Extract and digest.** Proteins are isolated and cut with trypsin into peptides.\n2. **Separate.** Peptides are resolved by liquid chromatography.\n3. **Ionize and measure.** Peptides are ionized; MS1 records each peptide's m/z.\n4. **Fragment.** Selected peptides are fragmented; MS2 records the fragment-ion spectrum.\n5. **Identify.** Software matches MS2 spectra to a database, naming the peptides and their parent proteins.\n6. **Quantify.** Peptide intensities (or reporter tags) yield relative/absolute protein abundance; PTMs are read from mass shifts.\n\n## Energy and Directionality\nMass spectrometry is a physical separation, not an enzymatic reaction: gas-phase ions are accelerated and steered by **electric/magnetic fields**, and the \"signal\" is the m/z of each ion. Ionization and fragmentation require input energy (electrospray voltage; collision energy in MS/MS) to break peptide bonds at predictable positions. The information flows directionally — intact peptide mass (MS1) → fragment masses (MS2) → matched sequence — and the biological conclusion (which protein, how much, what modification) is inferred from that physical readout.\n\n## Experimental Evidence\n- **What it measures:** protein **identity, abundance, and post-translational modifications** across a sample (the proteome).\n- **Principle:** protease digestion → LC separation → MS1/MS2 mass-to-charge measurement → database matching.\n- **Input:** protein lysate (cells/tissue); **Output:** lists of identified proteins with (relative) abundances and detected PTMs.\n- **What it can prove:** which proteins are actually present and in what relative amounts (unlike mRNA); that a modification (e.g., phosphorylation) occurs at a specific site; protein-complex composition (via affinity purification + MS); differential protein abundance between conditions.\n- **What it cannot prove:** protein **activity** or functional state directly (a protein can be abundant but inactive); spatial localization; dynamic transient interactions without specialized approaches; and it may miss low-abundance or poorly ionized proteins (incomplete coverage).\n- **Controls/quality steps:** technical and biological replicates; **spike-in standards** for absolute quantification; false-discovery-rate (FDR) control in database matching (decoy database) to avoid mis-identifications; and **validation by Western blot or targeted MS** (e.g., SRM/PRM) of key hits.\n- **Common mistakes:** equating protein abundance with activity; over-trusting single-peptide identifications; ignoring FDR; incomplete digestion affecting quantitation; and assuming mRNA and protein levels will agree.\n\n## Why It Matters\nProteomics closes the gap between genome/transcriptome and phenotype. It identifies disease biomarkers in blood, reveals drug targets and drug mechanisms, maps signaling networks through phosphoproteomics, and characterizes protein complexes and modifications that genomics cannot predict. Because most drugs act on proteins, the proteome is the most direct \"parts that matter\" list for medicine.\n\n## High-Yield Facts\n- Proteomics = large-scale study of the **proteome (proteins)**, measured by **mass spectrometry**.\n- Bottom-up workflow: **digest (trypsin) → LC → MS1 (m/z) → MS2 (fragment) → database match**.\n- Trypsin cuts after **lysine (K) and arginine (R)**.\n- MS identifies by **mass-to-charge ratio (m/z)** + fragment spectra.\n- Detects **PTMs** (phosphorylation, etc.) via characteristic **mass shifts**.\n- Protein abundance ≠ activity; mRNA ≠ protein (translation/turnover/PTM).\n\n## Eli Explains\nProteomics is taking inventory of the actual workers in a factory, not the instruction manuals. You can't guess who's working by counting manuals (mRNA) — some manuals are read a lot, some not. So you chop every worker into standard pieces, weigh each piece on a super-accurate scale (mass spectrometer), break them again, and match the pieces to a catalog to name each worker and count how many there are. (The analogy's limit: the inventory shows who is *present*, not who is actually *working* — an abundant protein can still be switched off.)\n\n## Common Confusions\n- **\"Proteomics reads protein sequences like DNA sequencing\"** — MS identifies proteins by matching peptide **masses/fragments to a database**, not by base-by-base sequencing.\n- **\"mRNA levels predict protein levels\"** — They correlate poorly in many cases; translation, turnover, and PTMs intervene.\n- **\"The proteome is fixed by the genome\"** — One gene can yield many protein forms via splicing and PTMs; the proteome is dynamic and context-dependent.\n- **\"Abundance = activity\"** — A protein can be present but inactive (needs PTM, binding partner, or correct localization).\n- **\"MS sees every protein\"** — Low-abundance, hydrophobic, or poorly ionizing proteins are often missed (incomplete coverage).\n\n## Quick Review\n- Extract proteins → trypsin digest → LC → MS1 (m/z) → MS2 (fragments) → database match → identify/quantify/PTMs.\n- Measures protein identity, abundance, and modifications — the functional layer.\n- Protein ≠ mRNA, and abundance ≠ activity; validate key hits with Western/targeted MS.\n\n## Sources\n- NCI, \"proteomics\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/proteomics\n- NCI, \"mass spectrometry\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/mass-spectrometry\n- OpenStax, *Biology 2e*, \"Genomics and Proteomics.\" https://openstax.org/books/biology-2e/pages/17-5-genomics-and-proteomics\n- MedlinePlus, \"What are proteins and what do they do?\" https://medlineplus.gov/genetics/understanding/howgeneswork/protein/\n- NCI, \"biomarker\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/biomarker\n"
+}

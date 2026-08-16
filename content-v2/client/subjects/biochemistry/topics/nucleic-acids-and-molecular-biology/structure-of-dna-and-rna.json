@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biochemistry:nucleic-acids-and-molecular-biology:structure-of-dna-and-rna",
+  "slug": "structure-of-dna-and-rna",
+  "title": "Structure of DNA and RNA",
+  "subject": {
+    "id": "subject:biochemistry",
+    "slug": "biochemistry",
+    "title": "Biochemistry"
+  },
+  "unit": {
+    "id": "unit:biochemistry:nucleic-acids-and-molecular-biology",
+    "slug": "nucleic-acids-and-molecular-biology",
+    "title": "Nucleic Acids and Molecular Biology",
+    "order": 7
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "This section covers the structure of **nucleic acids** — **DNA** and **RNA** — including **nucleotides**, the **double helix**, **complementary base pairing**, and the key differences between DNA and RNA.",
+    "whyItMatters": "DNA carries the genetic instructions for building proteins and running cells; RNA helps carry out those instructions. Understanding their structure is the foundation for genetics, protein synthesis, mutations, and many clinical topics (from cancer to inherited disease).",
+    "learningObjectives": "- Describe the structure of a **nucleotide**.\n- Explain the **DNA double helix** and **base pairing**.\n- Distinguish **DNA** and **RNA**.\n- State the **base-pairing rules**.",
+    "keyTerms": "",
+    "collegeNotes": "**Nucleic acids and nucleotides.** **Nucleic acids** (DNA and RNA) are polymers built from monomers called **nucleotides**. Each **nucleotide** has three parts:\n\n- a **five-carbon sugar** (deoxyribose in DNA, ribose in RNA),\n- a **phosphate group**, and\n- a **nitrogenous base**.\n\nNucleotides link into long chains with a **sugar-phosphate backbone** and bases sticking out.\n\n**The nitrogenous bases.** There are two categories of bases:\n\n- **Purines** (double-ring): **adenine (A)** and **guanine (G)**.\n- **Pyrimidines** (single-ring): **cytosine (C)**, **thymine (T)** (in DNA), and **uracil (U)** (in RNA, replacing thymine).\n\n**DNA: the double helix.** **DNA (deoxyribonucleic acid)** is a **double-stranded** molecule twisted into a **double helix** (famously described by Watson and Crick, building on work including that of Rosalind Franklin). The two strands run in **opposite (antiparallel) directions** and are held together by **hydrogen bonds** between paired bases.\n\n**Complementary base pairing.** The strands pair by strict rules (a purine always pairs with a pyrimidine):\n\n- **A pairs with T** (adenine–thymine) in DNA.\n- **G pairs with C** (guanine–cytosine).\n\n(In RNA, **A pairs with U** instead of T.) This **complementary base pairing** is the key to how DNA is **copied** and **read** — each strand specifies the other. So if you know one strand's sequence, you know the other.\n\n**RNA vs. DNA.** **RNA (ribonucleic acid)** differs from DNA in several ways:\n\n- **Sugar:** ribose (RNA) vs. deoxyribose (DNA).\n- **Strands:** RNA is usually **single-stranded**; DNA is double-stranded.\n- **Bases:** RNA uses **uracil (U)** instead of thymine (T).\n- **Role:** DNA is the stable **information storage**; RNA is more of a **working copy/messenger** used to make proteins.",
+    "howItWorks": "Nucleic acid structure:\n\n```\nNucleotide = sugar + phosphate + nitrogenous base → chains (sugar-phosphate backbone)\nBases: PURINES (2-ring) A, G | PYRIMIDINES (1-ring) C, T(DNA), U(RNA)\nDNA = double helix, antiparallel strands, hydrogen-bonded base pairs\nBase pairing: A–T, G–C (DNA); A–U in RNA  → COMPLEMENTARY (each strand specifies the other)\nRNA vs DNA: ribose vs deoxyribose | single vs double strand | U vs T | working copy vs storage\n```",
+    "comparisons": "| Feature | DNA | RNA |\n| --- | --- | --- |\n| Sugar | Deoxyribose | Ribose |\n| Strands | Double | Usually single |\n| Bases | A, T, G, C | A, U, G, C |\n| Role | Information storage | Working copy (protein synthesis) |\n\n| Base pairing | Pair |\n| --- | --- |\n| DNA | A–T, G–C |\n| RNA | A–U, G–C |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\nDNA structure underlies **genetics, inheritance, and mutations** — changes in DNA sequence can cause disease (e.g., sickle cell, many cancers). **Complementary base pairing** is the basis for DNA **replication** and for technologies like **PCR** and genetic testing. Understanding **DNA vs. RNA** sets up **protein synthesis** (transcription/translation). Some **medications and antibiotics** target nucleic acid processes (recall Microbiology). Knowing bases and pairing supports understanding of **genetic testing, viruses (some use RNA), and pharmacology**.",
+    "commonConfusions": "- **Nucleotide = sugar + phosphate + base** (the building block of nucleic acids).\n- **A–T and G–C in DNA; A–U in RNA** (uracil replaces thymine).\n- **Purines (A, G) are double-ring; pyrimidines (C, T, U) are single-ring.**\n- **DNA is double-stranded storage; RNA is usually single-stranded working copy.**",
+    "memoryAids": "- **\"Pure As Gold = PURines are Adenine & Guanine.\"**\n- **\"A–T, G–C\" (Apple–Tree, Green–Car — pick your pair).\"**\n- **\"RNA has U (no T); RNA is a single working copy.\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\n**DNA** is like the body's instruction manual, written in a code of four \"letters.\" It's shaped like a twisted ladder, and the letters pair up in a specific way. **RNA** is a working copy of parts of that manual, used to build proteins.\n\n### Analogy\nImagine **DNA** as a super-long **twisted ladder** (a \"double helix\"). The sides of the ladder are a steady **sugar-phosphate** railing, and the **rungs** are made of paired \"letters\" called **bases**: **A, T, G, and C**. Here's the neat rule: the letters always pair the same way — **A holds hands with T**, and **G holds hands with C**. So the two sides of the ladder are perfect **matching partners** — if you know one side, you automatically know the other! That's the secret to how DNA gets **copied** and **read**. **RNA** is like a **photocopy** of a single page of the manual — it's usually **just one strand** (half a ladder), uses a slightly different letter (**U instead of T**), and its job is to carry instructions out to build **proteins**. DNA is the **master copy kept safe**; RNA is the **working copy** sent out to do the job.\n\n### What is actually happening\nThis is the foundation of genetics and a huge amount of medicine. Your **DNA** holds the instructions for making every protein in your body, and a tiny change (a **mutation**) can cause disease — like **sickle cell anemia** (one changed letter) or many **cancers** (damaged DNA). The **matching-letter rule** is also how lab tests work: **genetic testing** and tools like **PCR** (used in many medical and infectious-disease tests) rely on bases pairing up. And knowing that **DNA and RNA are different** sets up the next big idea: how cells **read DNA to build proteins**. Some **antibiotics and antiviral drugs** even work by messing with these nucleic acid processes.\n\n### Where the analogy stops\nA ladder is rigid and lifeless, but real DNA is constantly being read, copied, repaired, and folded by busy molecular machines inside every cell — it's an active, living library, not a static object.",
+    "quickReview": "- **Nucleic acids** (DNA, RNA) are polymers of **nucleotides** (sugar + phosphate + nitrogenous base).\n- Bases are **purines (A, G)** and **pyrimidines (C, T, U)**; **DNA** is a **double helix** with **antiparallel** strands held by hydrogen bonds.\n- **Complementary base pairing**: **A–T, G–C** (DNA), **A–U** in RNA — each strand specifies the other.\n- **RNA** differs from **DNA** by using **ribose**, being **single-stranded**, using **uracil**, and serving as a **working copy** for protein synthesis.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Chapter 14: DNA Structure and Function. https://openstax.org/details/books/biology-2e",
+        "url": "https://openstax.org/details/books/biology-2e"
+      },
+      {
+        "text": "MedlinePlus (U.S. National Library of Medicine) — What is DNA? (MedlinePlus Genetics). https://medlineplus.gov/genetics/understanding/basics/dna/",
+        "url": "https://medlineplus.gov/genetics/understanding/basics/dna/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/05-biochemistry/07-nucleic-acids-and-molecular-biology/01-structure-of-dna-and-rna.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

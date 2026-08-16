@@ -1,0 +1,133 @@
+---
+title: "Neural Communication"
+subject: "Science"
+book: "Introduction to Behavioral Neuroscience"
+chapter: "2: Neurophysiology"
+topic_number: "1"
+source: "introduction-behavioral-neuroscience.md"
+tags:
+  - "neural-communication"
+  - "science"
+status: "complete"
+---
+
+# Neural Communication
+
+> **Book:** [Introduction to Behavioral Neuroscience](../../README.md)  
+> **Chapter:** [Chapter 2: Neurophysiology](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Everything a nervous system does — sensing, thinking, moving, remembering — comes down to one activity: **neurons talking to each other**. This topic is about how a single neuron receives information, decides whether to pass it along, and delivers it to the next cell.
+
+A neuron is built for this job. Its **dendrites** receive signals from other neurons as small electrical changes that travel toward the cell body (**soma**), where they are pooled. If the pool is big enough at the trigger zone (**axon hillock**), the neuron fires an **action potential** — a brief, stereotyped spike that races down the **axon** to the **axon terminals**. There the signal becomes chemical: neurotransmitter molecules are released into the narrow gap (the **synapse**) between this neuron and the next, whose receptors detect them and start the cycle again.
+
+Two kinds of signaling are woven together: **electrical signaling** (voltage changes along a neuron's own membrane) and **chemical signaling** (neurotransmitter crossing the synapse). The direction rule is simple: enter at dendrites, integrate at the soma, travel down the axon, exit at the terminals — almost always one-way.
+
+## Why This Matters
+
+- **Every later topic builds on this** — neurochemistry, sensory systems, motor control, and memory are variations of the same scheme.
+- **Drugs act on this machinery.** Local anesthetics (like lidocaine) block electrical spikes; many antidepressants and stimulants change how neurotransmitters are released, detected, or cleared.
+- **Disease makes sense through this lens.** In multiple sclerosis, myelin damage slows or blocks conduction; in epilepsy, neurons fire excessively and in synchrony; in myasthenia gravis, muscle-synapse signaling fails.
+- **Exam strategy:** most neurophysiology questions reduce to tracing a signal — where it enters, where it is summed, where it becomes an all-or-none spike, and where it turns chemical.
+
+## Core Concepts
+
+### Neurons are structurally polarized for one-way flow
+
+The neuron's shape *is* its function. A typical motor neuron has a bushy dendritic tree receiving thousands of contacts, a soma packed with organelles, an axon that can extend a meter or more, and terminal branches ending on muscle fibers or other neurons. Receptors for incoming signals are concentrated on dendrites; the release machinery sits at the terminals. Information therefore flows **receive → integrate → conduct → transmit** — why a neuron is drawn as an arrow.
+
+### Two electrical events, one decision
+
+Not all electrical changes are alike. Small, local changes called **graded potentials** occur when ion channels open on the dendrites or soma: they are proportional to stimulus strength, fade with distance, and can be excitatory or inhibitory. When they pile up at the axon hillock and push the membrane past **threshold**, they trigger an **action potential** — a much larger, all-or-none spike that regenerates at each patch of membrane and travels the full axon at constant amplitude.
+
+This two-stage design is the heart of signaling: *graded potentials are the vote; the action potential is the decision*. The output is binary (fires or doesn't), but the message is rich — what matters is **how often** it fires and **which neurons** fire together.
+
+### The synapse converts electricity into chemistry
+
+The gap between an axon terminal and the next cell is the **synaptic cleft**, about 20–40 nanometers wide (a commonly taught reference figure — verify against current texts). An arriving action potential opens voltage-gated calcium channels; calcium entry triggers sacs of neurotransmitter (**vesicles**) to fuse with the membrane and empty into the cleft. The transmitter diffuses across, binds receptors on the next cell, and opens ion channels there — producing a new graded potential on the postsynaptic side, without the cells ever touching.
+
+### Intensity is coded in patterns, not spike size
+
+An action potential is always the same size for a given neuron (all-or-none), so a stronger stimulus cannot be coded by bigger spikes. Instead, intensity is coded in **frequency** (more spikes per second) and in **population** (more neurons recruited). A light touch and a hard poke both travel as action potentials — the hard poke just produces a faster barrage across more fibers.
+
+## ELI-10: Explain Like I'm 10
+
+> A neuron is like a message runner. Her long arms (dendrites) listen for people calling her name (signals from other neurons). If enough people call at once, she says "Okay, I'm going!" and runs down the hallway (the axon) yelling one loud message. At the end she drops a letter (neurotransmitter) into the mailbox of the next runner, who reads it and decides whether to run too.
+
+## High-Yield Points
+
+- Information flows **dendrites → soma → axon hillock → axon → terminals**; synapses connect one neuron's terminals to the next neuron's dendrites/soma.
+- **Two signal types:** graded potentials (local, variable size, fade with distance) and action potentials (all-or-none, full-size, regenerate along the axon).
+- The **axon hillock** is the decision point — it converts summed graded potentials into an all-or-none spike when threshold is crossed.
+- Synapses are **chemical** in the vast majority of cases: Ca²⁺ entry → vesicle fusion → neurotransmitter release → postsynaptic receptors → new graded potential.
+- Action potential **amplitude is constant**; intensity is coded by firing **frequency** and by the **number of neurons recruited**.
+- Communication is **one-way across a synapse**: transmitter is released presynaptically and receptors sit postsynaptically.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Dendrites | Branching extensions that receive signals from other neurons | The input side of the neuron; most synapses land here |
+| Soma (cell body) | The main body of the neuron containing the nucleus | Where incoming signals are pooled |
+| Axon | The long fiber that conducts action potentials away from the soma | The output line; can be extremely long |
+| Axon hillock | Where the axon leaves the soma; the trigger zone | Where graded potentials are summed and the firing decision is made |
+| Axon terminal | Branched ending of the axon that releases neurotransmitter | Converts spikes into chemical signals |
+| Action potential | A brief, all-or-none electrical spike that travels down the axon | The neuron's "decision" and its long-distance signal |
+| Graded potential | A small, local voltage change proportional to the stimulus | The "vote" that builds toward or away from firing |
+| Synapse | The junction where a neuron signals to another cell | The point of chemical transfer |
+| Neurotransmitter | A chemical messenger released at the synapse | Carries the signal across the gap |
+| Threshold | The membrane voltage needed to trigger an action potential | The dividing line between firing and not |
+
+## Example: Tracing a Signal from Skin to Muscle
+
+A mosquito lands on your forearm. Stretched sensory endings open ion channels, producing **graded potentials** in a sensory neuron. They spread to the axon hillock; a few alone would be too small, but they add up (summation) until the membrane crosses **threshold**. An **action potential** fires and races up the arm's nerves to the spinal cord, where the spike triggers release of **glutamate** onto an interneuron. If the interneuron fires, its spike reaches a motor neuron; if that neuron fires, its action potential runs down to the arm muscle, acetylcholine is released, and the muscle twitches — you flinch. Every step followed the same pattern: graded potentials deciding, action potentials committing, neurotransmitters carrying the message across each gap.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Direction of signal flow | Direction of information in the body | Within a neuron, signals go dendrite → terminal; across a synapse they go from the *presynaptic* terminal to the *postsynaptic* cell — the "arrow" flips at each synapse |
+| Graded potentials | Action potentials | Graded: local, variable amplitude, fade with distance. Action potentials: all-or-none, constant amplitude, regenerate. |
+| Stronger stimulus = bigger action potential | Stronger stimulus = more frequent action potentials | Spike size is fixed (all-or-none); intensity is coded by firing rate and neuron count |
+| Axon | Dendrite | Axons conduct *away* from the soma and release transmitter; dendrites receive and conduct *toward* the soma |
+| "The synapse fires" | The neuron fires | Neurons fire action potentials; the synapse is the gap where chemical transmission happens |
+
+## Quick Review
+
+1. In what order does a signal pass through a neuron's parts, and where is the all-or-none decision made?
+2. What are two ways a neuron codes the intensity of a stimulus, given that action potentials are all the same size?
+3. List the steps of chemical transmission at a synapse, starting from an action potential arriving at the terminal.
+4. Why can an action potential travel the full length of a long axon without fading, while a graded potential fades within a short distance?
+5. A drug blocks calcium channels at axon terminals. What step of neural communication would fail, and why?
+6. Why is communication across a synapse normally one-way rather than bidirectional?
+
+<details>
+<summary>Show answers</summary>
+
+1. Dendrites → soma → axon hillock → axon → terminals. The axon hillock sums graded potentials and triggers the action potential if threshold is reached.
+2. By firing frequency (rate coding) and by recruiting more neurons (population coding).
+3. AP opens voltage-gated Ca²⁺ channels at the terminal; Ca²⁺ enters and triggers vesicle fusion; neurotransmitter is released into the cleft; transmitter binds postsynaptic receptors; ion channels open, producing a new graded potential.
+4. Action potentials regenerate: each depolarized patch opens voltage-gated channels that depolarize the next patch — the spike rebuilds itself. Graded potentials have no regenerative mechanism, so they decay passively with distance.
+5. Neurotransmitter release would fail, because Ca²⁺ entry triggers vesicle fusion. The electrical signal would arrive at the terminal but could not be handed to the next cell.
+6. Neurotransmitter is stored and released only on the presynaptic side, and receptors are concentrated postsynaptically; the machinery is asymmetric, so transmission points one way.
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter
+- Next: [Neural Circuits](02-neural-circuits.md)
+- Related: [Neurophysiology chapter overview](../README.md)
+- Related: [Building a Nervous System](../chapter-01-structure-and-function-of-the-nervous-system-cells-and-anatomy/01-building-a-nervous-system.md) — the cell types and structures that do the communicating
+- Related: [General Neurochemistry Principles](../chapter-03-basic-neurochemistry/01-general-neurochemistry-principles.md) — the chemistry of the messengers this topic describes
+
+## Source Notes
+
+- Book: Introduction to Behavioral Neuroscience
+- Local outline source: `introduction-behavioral-neuroscience.md`
+- Official source URL: https://openstax.org/details/books/introduction-behavioral-neuroscience/
+- Content type: Original educational study guide based on OpenStax outline structure. Membrane-voltage and cleft-width figures are commonly taught textbook reference values; verify against current sources before clinical application.
+- Last updated: 2026-08-16

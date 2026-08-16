@@ -1,0 +1,40 @@
+{
+  "id": "physics-1-fluid-statics-0006",
+  "subject": "physics-1",
+  "lesson": "fluid-statics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For pascal principle and hydraulic systems, use $rho = m / V$ in a density definition model. The first quantity is 10.80 kg and the second is 2.00 m^3. What is the density?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$2.70\\ \\text{kg/m^3}$"
+    },
+    {
+      "id": "b",
+      "text": "$10.80\\ \\text{kg/m^3}$"
+    },
+    {
+      "id": "c",
+      "text": "$5.40\\ \\text{kg/m^3}$"
+    },
+    {
+      "id": "d",
+      "text": "$7.40\\ \\text{kg/m^3}$"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Using $rho = m / V$ gives 10.80 kg divided by 2.00 m^3 = $5.40\\ \\text{kg/m^3}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to kg/m^3, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "pascal",
+    "principle",
+    "hydraulic",
+    "systems"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-a6186cb52a69ff09",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

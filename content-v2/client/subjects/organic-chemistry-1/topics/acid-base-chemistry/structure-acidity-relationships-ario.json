@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:acid-base-chemistry:structure-acidity-relationships-ario",
+  "slug": "structure-acidity-relationships-ario",
+  "title": "Structure-Acidity Relationships: ARIO",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:acid-base-chemistry",
+    "slug": "acid-base-chemistry",
+    "title": "Acid-Base Chemistry",
+    "order": 2
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "Acidity is governed by conjugate-base stability: the more stable the anion left behind, the stronger the acid. ARIO ranks the stabilizing factors in order — Atom (which atom carries the charge), Resonance (delocalization), Induction (nearby electron-withdrawing groups), and Orbital (hybridization). You compare acids factor by factor in that order, moving on only when the current factor fails to break the tie.",
+    "whyItMatters": "ARIO underlies amino-acid side-chain pKa values: aspartate and glutamate are acidic because their carboxylates are resonance-stabilized, while lysine's ammonium and histidine's imidazole differ mainly because of the atom holding the proton. Drug chemists tune a molecule's charge at physiological pH using these trends, shaping solubility, permeability, and target binding.",
+    "learningObjectives": "1. Explain the ARIO hierarchy (Atom, Resonance, Induction, Orbital) and why the factors are applied in that order.\n2. Predict relative acid strength from the atom bearing the acidic proton, using electronegativity across a period and atomic size down a group.\n3. Use resonance delocalization and inductive electron withdrawal to explain why certain conjugate bases are unusually stable.\n4. Apply orbital hybridization and full systematic ARIO comparison to rank acids, and state the framework's limitations.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| ARIO framework | The ordered list Atom → Resonance → Induction → Orbital | Gives a consistent procedure instead of guessing |\n| Atom effect | How the charge-bearing atom's electronegativity or size stabilizes the anion | Usually the decisive first factor |\n| Resonance effect | Delocalizing a negative charge over multiple atoms | Explains why carboxylic acids and phenols are acidic |\n| Inductive effect | Electron withdrawal/donation through sigma bonds by nearby groups | Fine-tunes acidity after resonance is considered |\n| Orbital effect | Stabilization from the hybridization (s-character) of the charged atom | Explains alkyne > alkene > alkane acidity |\n| Hybridization | Mixing of atomic orbitals (sp, sp², sp³) on an atom | Sets how tightly electrons are held |\n| Anion stability | How well a conjugate base accommodates negative charge | Directly sets acid strength |\n| Conjugate-base stability | The energy of the species left after deprotonation | The stronger the base, the weaker the acid |",
+    "collegeNotes": "### 1. Acidity tracks conjugate-base (anion) stability\nFor HA ⇌ H⁺ + A⁻, the equilibrium lies further right when A⁻ is more stable. So to compare two acids, compare their conjugate bases: whichever forms the more stable anion is the stronger acid. **Anion stability** is the foundation of ARIO.\n### 2. The ARIO hierarchy\n- **Atom:** first ask which atom bears the negative charge after deprotonation. Across a period, acidity rises with electronegativity (O > N > C); down a group it rises with atomic size (HI > HBr > HCl > HF), because a larger atom spreads the charge over more volume.\n- **Resonance:** if the charge-bearing atom is the same, an anion that can delocalize its charge over multiple atoms is more stable than one that cannot.\n- **Induction:** if atom and resonance tie, nearby electronegative atoms or electron-withdrawing groups pull density away from the charged atom, stabilizing the anion.\n- **Orbital:** finally, more s-character at the charged atom holds electrons closer to the nucleus and stabilizes the negative charge (sp > sp² > sp³).\n### 3. Systematic comparison and its limits\nApply ARIO one factor at a time — Atom, then Resonance, then Induction, then Orbital — because a higher factor usually outweighs the ones below it. ARIO ranks acids relatively and qualitatively; it does not produce pKa numbers and can be fooled when factors pull in opposite directions (see Common Confusions).",
+    "howItWorks": "1. Write the two acids and their conjugate bases with correct formal charges.\n2. Compare the Atom holding the charge (electronegativity across a period; size down a group).\n3. If tied, check Resonance — can either anion delocalize the charge?\n4. If still tied, check Induction — do nearby withdrawing groups stabilize one anion more?\n5. If still tied, check Orbital — which anion has more s-character at the charged atom?\n6. Declare the stronger acid: the one whose conjugate base is more stable at the first factor that differs.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Stronger acid ⇔ more stable conjugate base — always compare anions, not the acids themselves.\n- **High yield:** Apply ARIO in order (Atom → Resonance → Induction → Orbital) and stop at the first factor that differs.\n- **High yield:** Across a period, electronegativity controls (O–H > N–H > C–H); down a group, size controls (HI > HBr > HCl > HF).\n- **High yield:** Resonance is why carboxylic acids (pKa ≈ 5) beat alcohols (pKa ≈ 16) despite both being O–H acids.\n- **High yield:** More s-character = more acidic: sp > sp² > sp³ (alkyne > alkene > alkane).\n- ARIO is a ranking tool, not a pKa calculator; a lower-ranked factor never overrides a higher one.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Electronegativity trend | Atomic-size trend | Electronegativity ranks across a period (O > N > C); size ranks down a group (I > Br > Cl > F) |\n| Resonance effect | Inductive effect | Resonance delocalizes charge through π bonds; induction pulls density through σ bonds |\n| Anion stability | Acid strength | They move together — a more stable anion means the *acid* is stronger |\n| Orbital effect | Resonance effect | Orbital effect comes from hybridization/s-character; resonance comes from delocalization |\n| ARIO as a ranking aid | ARIO as a formula | ARIO orders acids qualitatively; it does not compute exact pKa values |",
+    "memoryAids": "\"**A**ll **R**eactions **I**nvolve **O**rbitals\" keeps **A**tom → **R**esonance → **I**nduction → **O**rbital in order. For the atom trends, \"**E**lectronegativity across, **S**ize down\" — across a period electronegativity wins, down a group size wins.",
+    "eli10": "Imagine a negative charge as a heavy backpack. A base forced to carry the whole load on one atom is strained and unstable (a strong conjugate base, so a weak acid). If the load can be shared across several atoms, it becomes comfortable to carry — and that comfortable (stable) anion corresponds to a strong acid. ARIO is a checklist for guessing how well the load is spread: who carries it (Atom), whether it is shared (Resonance), whether neighbors lighten it (Induction), and what kind of straps the atom has (Orbital).\n\nWhere it stops being exact: charge is not a physical weight and spreading is not a choice — it is quantum-mechanical electron distribution, and ARIO ranks acids qualitatively without computing a pKa.\n### Simple Example\nAcetic acid (CH₃CO₂H, pKa ≈ 4.8) is far more acidic than ethanol (CH₃CH₂OH, pKa ≈ 16). Both conjugate bases put the negative charge on oxygen (same Atom), but acetate spreads it over two oxygens by resonance while ethoxide cannot — so acetate is more stable and acetic acid is the stronger acid.",
+    "quickReview": "### Topic Recap\n\nAcid strength is conjugate-base stability. ARIO orders the comparison: Atom (electronegativity across, size down), then Resonance, then Induction, then Orbital (hybridization), stopping at the first factor that differs. It ranks acids reliably but qualitatively — a ranking tool, not a formula — and must be applied factor by factor.\n\n### Knowledge Check\n\n1. Which is the stronger acid, H₂O or H₂S, and which ARIO factor decides?\n2. Why is phenol (C₆H₅OH, pKa ≈ 10) more acidic than cyclohexanol (pKa ≈ 16)?\n3. Rank ethyne, ethane, and ethene by acidity. Which factor applies?\n4. Why is trifluoroacetic acid (CF₃CO₂H) more acidic than acetic acid (CH₃CO₂H)?\n5. In ARIO, why is Atom checked before Resonance?\n\n### Answers and Rationales\n\n1. H₂S — the Atom effect. Sulfur is larger than oxygen, so HS⁻ spreads the charge over more volume and is more stable than OH⁻.\n2. Resonance. Both anions hold charge on oxygen, but phenoxide delocalizes the lone pair into the aromatic ring while cyclohexanol's anion is localized; the more stable phenoxide makes phenol the stronger acid.\n3. Ethyne > ethene > ethane — the Orbital effect. The conjugate-base carbons are sp, sp², and sp³; more s-character stabilizes the lone pair.\n4. Induction. The three fluorines withdraw electron density through σ bonds, stabilizing trifluoroacetate relative to acetate.\n5. Because the atom holding the charge has the largest effect on stability; an Atom-level difference usually outweighs the lower factors.",
+    "workedExamples": "1. **Draw both conjugate bases.** Remove the acidic proton from each acid and show the anion with correct formal charges.\n2. **Compare the Atom.** Across a period, more electronegative wins; down a group, larger wins. Example: CH₃OH vs CH₃NH₂ — oxygen is more electronegative than nitrogen, so methanol is the stronger acid.\n3. **If the Atom ties, compare Resonance.** Ethanol vs acetic acid: both anions carry charge on oxygen, but acetate delocalizes over two oxygens while ethoxide localizes on one; acetic acid wins.\n4. **If Resonance ties, compare Induction.** CF₃CO₂H (pKa ≈ 0.2) beats CH₃CO₂H (4.8): three fluorines withdraw density from the carboxylate, stabilizing it.\n5. **If Induction ties, compare Orbital (hybridization).** Ethyne (pKa ≈ 25) vs ethene (≈ 44) vs ethane (≈ 50): the conjugate-base carbons are sp, sp², and sp³, and more s-character means the lone pair is held closer to the nucleus, so ethyne is the strongest acid.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "structure-acidity-relationships-ario",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "06-structure-acidity-relationships-ario",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/06-structure-acidity-relationships-ario.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

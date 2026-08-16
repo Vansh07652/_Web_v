@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:acid-base-equilibria:weak-acids",
+  "slug": "weak-acids",
+  "title": "Weak Acids and Ka",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:acid-base-equilibria",
+    "slug": "acid-base-equilibria",
+    "title": "Acid Base Equilibria",
+    "order": 5
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "A **weak acid** ionizes only partially in water, so it establishes a real equilibrium described by an acid-dissociation constant **Ka = [H₃O⁺][A⁻]/[HA]**. The smaller the Ka (or the larger the pKa), the weaker the acid. Solving for pH means setting up an ICE table and solving for the equilibrium concentration of H₃O⁺, usually with a justified approximation (x ≪ initial concentration) or, when necessary, the quadratic formula.",
+    "whyItMatters": "Weak acids are everywhere in biology: acetic acid (vinegar), carbonic acid (blood buffering), and the carboxylic acid groups of amino acids. Their partial ionization is what makes buffers possible and what makes their pH depend on both Ka and concentration — the reason you cannot just take −log of the concentration the way you do for strong acids.",
+    "learningObjectives": "- Write the Ka expression for a weak acid and interpret its magnitude.\n- Solve weak-acid equilibria with an ICE table.\n- Decide when the \"x is small\" approximation is justified.\n- Compute percent ionization and use it to compare acid strengths.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA **weak acid** ionizes only partially in water, so it establishes a real equilibrium described by an acid-dissociation constant **Ka = [H₃O⁺][A⁻]/[HA]**. The smaller the Ka (or the larger the pKa), the weaker the acid. Solving for pH means setting up an ICE table and solving for the equilibrium concentration of H₃O⁺, usually with a justified approximation (x ≪ initial concentration) or, when necessary, the quadratic formula.\n\n### Key Ideas\n\n- **Partial ionization:** HA(aq) + H₂O(l) ⇌ H₃O⁺(aq) + A⁻(aq), with a double arrow.\n- **Ka expression:** products over reactants, water omitted, concentrations at equilibrium.\n- **pKa = −log Ka:** smaller pKa = stronger acid; each pKa unit is a ten-fold change in Ka.\n- **ICE table:** track Initial, Change, Equilibrium concentrations; the change column uses −x for reactants and +x for products.\n- **Percent ionization** = ([H₃O⁺] at equilibrium / initial [HA]) × 100%; it *increases* as the acid is diluted.\n\n### Equations and Variables\n\n- Ka = [H₃O⁺][A⁻] / [HA]\n- pKa = −log Ka\n- ICE: [HA]₀ − x, [H₃O⁺] = x, [A⁻] = x → Ka = x² / ([HA]₀ − x)\n- Approximation (valid when x is small): Ka ≈ x² / [HA]₀, so x ≈ √(Ka × [HA]₀)\n- Rule of thumb for the approximation: valid if x / [HA]₀ ≤ 5% (or [HA]₀ / Ka ≥ ~400)\n- % ionization = (x / [HA]₀) × 100%\n\n### How It Works\n\n1. Write the equilibrium and the Ka expression.\n2. Build the ICE table with the given initial concentration [HA]₀.\n3. Substitute the equilibrium row into Ka, giving Ka = x²/([HA]₀ − x), where x = [H₃O⁺] = [A⁻].\n4. **Try the approximation:** if [HA]₀ is much larger than Ka, x is negligible compared to [HA]₀, so Ka ≈ x²/[HA]₀ and x ≈ √(Ka·[HA]₀).\n5. **Check** the 5% rule (x/[HA]₀ × 100%). If it fails, solve the full quadratic instead.\n6. Convert x to pH = −log x, and optionally compute % ionization.\n\n### Worked Example\n\n**Find the pH of 0.10 M acetic acid (CH₃COOH), Ka = 1.8 × 10⁻⁵.**\n\nICE table: [CH₃COOH]₀ = 0.10, change −x; [H₃O⁺] = [CH₃COO⁻] = x.\n\nKa = x² / (0.10 − x) = 1.8 × 10⁻⁵\n\nApproximate (0.10 − x ≈ 0.10):\n\nx ≈ √(1.8 × 10⁻⁵ × 0.10) = √(1.8 × 10⁻⁶) = 1.34 × 10⁻³ M\n\nCheck: (1.34 × 10⁻³ / 0.10) × 100% = 1.3% < 5% ✓ (approximation valid).\n\npH = −log(1.34 × 10⁻³) = 2.87",
+    "howItWorks": "1. Write the equilibrium and the Ka expression.\n2. Build the ICE table with the given initial concentration [HA]₀.\n3. Substitute the equilibrium row into Ka, giving Ka = x²/([HA]₀ − x), where x = [H₃O⁺] = [A⁻].\n4. **Try the approximation:** if [HA]₀ is much larger than Ka, x is negligible compared to [HA]₀, so Ka ≈ x²/[HA]₀ and x ≈ √(Ka·[HA]₀).\n5. **Check** the 5% rule (x/[HA]₀ × 100%). If it fails, solve the full quadratic instead.\n6. Convert x to pH = −log x, and optionally compute % ionization.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Weak acid: HA ⇌ H₃O⁺ + A⁻; Ka = [H₃O⁺][A⁻]/[HA].\n- Smaller Ka (larger pKa) = weaker acid.\n- For a pure weak-acid solution, [H₃O⁺] = [A⁻] = x (water's contribution ignored when x > ~10⁻⁶ M).\n- Approximation Ka ≈ x²/[HA]₀ is valid only when the 5% rule passes; otherwise use the quadratic.\n- Percent ionization rises on dilution (Le Châtelier shifts ionization right as concentration drops).\n- pKa = −log Ka; Ka = 10^(−pKa).",
+    "commonConfusions": "- **\"Weak acid pH = −log[HA].\"** — Wrong; that ignores partial ionization. You must solve Ka = x²/([HA]₀ − x).\n- **\"Small Ka means the acid is dilute.\"** — Ka is a constant for the acid; concentration is a separate quantity you set.\n- **\"The approximation is always fine.\"** — It fails for high Ka relative to [HA]₀ (e.g., 0.010 M HF, Ka = 6.8 × 10⁻⁴); then you must use the quadratic.\n- **\"Percent ionization is constant.\"** — It depends on concentration and increases as the solution is diluted.\n- **\"A stronger weak acid ionizes 100%.\"** — No; once it ionizes completely it is no longer weak — it is strong.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a class where only some students raise their hands when asked a question. A weak acid is a classroom where just a few students raise their hands — most stay quiet. Ka is the \"hand-raising tendency.\" To count the raised hands (the H₃O⁺), you use the fact that the number of hands equals the number of students who answered, which is x. (The analogy omits that dilution makes more hands go up per student — in reality, percent ionization rises as you water the acid down.)",
+    "quickReview": "- Ka = [H₃O⁺][A⁻]/[HA]; pKa = −log Ka.\n- ICE table → Ka = x²/([HA]₀ − x).\n- Approximate x ≈ √(Ka·[HA]₀) and check the 5% rule; else quadratic.\n- % ionization = x/[HA]₀ × 100%; increases on dilution.\n- pH = −log x.",
+    "workedExamples": "### Worked Example\n\n**Find the pH of 0.10 M acetic acid (CH₃COOH), Ka = 1.8 × 10⁻⁵.**\n\nICE table: [CH₃COOH]₀ = 0.10, change −x; [H₃O⁺] = [CH₃COO⁻] = x.\n\nKa = x² / (0.10 − x) = 1.8 × 10⁻⁵\n\nApproximate (0.10 − x ≈ 0.10):\n\nx ≈ √(1.8 × 10⁻⁵ × 0.10) = √(1.8 × 10⁻⁶) = 1.34 × 10⁻³ M\n\nCheck: (1.34 × 10⁻³ / 0.10) × 100% = 1.3% < 5% ✓ (approximation valid).\n\npH = −log(1.34 × 10⁻³) = 2.87",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.3 Relative Strengths of Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases"
+      },
+      {
+        "text": "PubChem, \"Acetic Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Acetic-acid",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Acetic-acid"
+      },
+      {
+        "text": "NIST Chemistry WebBook (acetic acid). https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      },
+      {
+        "text": "Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/14-acid-base-equilibria/05-weak-acids.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

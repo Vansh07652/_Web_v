@@ -1,0 +1,138 @@
+---
+title: "Mild Neurocognitive Disorders"
+subject: "Nursing"
+book: "Psychiatric-Mental Health Nursing"
+chapter: "14: Neurocognitive Disorders"
+topic_number: "1"
+source: "psychiatric-mental-health.md"
+tags:
+  - "mild-neurocognitive-disorders"
+  - "nursing"
+status: "complete"
+---
+
+# Mild Neurocognitive Disorders
+
+> **Book:** [Psychiatric-Mental Health Nursing](../../README.md)  
+> **Chapter:** [Chapter 14: Neurocognitive Disorders](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Everyone forgets things occasionally, and memory changes are common as people age. But some changes are not "just getting older." **Mild neurocognitive disorder (mild NCD)** is the term clinicians use — following the DSM-5 classification — for cognitive decline that is measurable and beyond what is expected for a person's age and education, yet **not severe enough to interfere with independence** in everyday activities. A person with mild NCD may struggle to remember appointments, find words, or follow complex instructions, but can still manage their own meals, finances, and transportation — often with some extra effort, lists, or reminders.
+
+The concept grew out of research in the 1990s, most prominently work by Ronald Petersen and colleagues at the Mayo Clinic, who studied a border zone they called **mild cognitive impairment (MCI)**. Their work showed that some people with subtle cognitive complaints progressed to dementia while others remained stable or even improved — which is why the condition is now understood as a *syndrome* (a pattern of symptoms) with varied outcomes, not a single disease. This is the crucial lesson of this topic: mild NCD is a warning sign that deserves attention, but it is not a guaranteed diagnosis of dementia, and it is definitely not normal aging.
+
+## Why This Matters
+
+Mild NCD matters because it sits at the earliest, most actionable point on the cognitive decline spectrum. This is the window where the cause may be found — and some causes are reversible or manageable (such as medication effects, depression, thyroid disease, vitamin deficiencies, or sleep apnea). It is also the window where safety planning, lifestyle changes, and medical follow-up can genuinely change the trajectory. For the nurse, recognizing mild NCD and referring the person for evaluation can prevent years of unrecognized decline. Finally, it matters because of what it is *not*: labeling a person's ordinary forgetfulness as disease causes needless worry, while dismissing genuine decline as "old age" delays help. The nurse's balanced role is to take the concern seriously, support evaluation, and neither catastrophize nor minimize.
+
+## Core Concepts
+
+### Normal aging, mild NCD, and major NCD: the spectrum
+
+The cognitive changes of aging fall on a spectrum. **Normal aging** includes slower processing speed and occasional word-finding slips, but daily function is intact and the person's abilities are stable for their age. **Mild NCD** is a *decline from a previous level* in one or more cognitive domains that others can notice and testing can confirm, but independence is preserved (possibly with extra effort). **Major NCD** — the DSM-5 term for what is commonly called dementia — involves decline severe enough to interfere with independence in everyday activities. The dividing line between mild and major is not a test score; it is *function*: can this person still manage their own life?
+
+### The six cognitive domains
+
+Clinicians evaluate cognition across six domains, because different conditions affect different domains:
+
+- **Complex attention:** sustained focus, processing speed, resistance to distraction.
+- **Executive function:** planning, organizing, problem solving, inhibiting impulses.
+- **Learning and memory:** taking in, storing, and retrieving new information.
+- **Language:** word finding, naming, comprehension, fluent speech.
+- **Perceptual-motor:** visual-spatial skills, coordinating perception with action.
+- **Social cognition:** reading others' emotions, recognizing social cues, regulating behavior appropriately.
+
+A person with mild NCD may show a subtle change in one or more of these — for example, repeating questions (learning and memory), struggling to follow a recipe (executive function), or having trouble finding words (language) — while other domains stay intact.
+
+### Mild versus major: the independence test
+
+The single most important distinction is functional independence. In mild NCD, the person can still perform basic activities of daily living (bathing, dressing, eating) and instrumental activities (managing money, medications, shopping, driving) — though tasks may take longer or require aids. In major NCD, the person needs help with at least some of these. The nurse's collateral history — asking a family member what has actually changed — is often more informative than a single office visit, because people compensate for early deficits and may not notice their own decline.
+
+### Subtypes and causes
+
+The DSM-5 classifies neurocognitive disorders by their presumed cause when there is evidence for it: Alzheimer's disease, vascular disease, frontotemporal degeneration, Lewy body disease, traumatic brain injury, HIV, substance/medication use, Parkinson's disease, and others. Mild NCD can precede any of these, and sometimes no single cause is identified. Some contributors are potentially reversible or treatable — depression (sometimes called "pseudodementia" when it mimics cognitive decline), medication side effects, sleep disorders, and metabolic problems — which is exactly why a thorough evaluation matters before anyone concludes the decline is progressive.
+
+### Nursing assessment and care
+
+The nursing role includes listening carefully to concerns, gathering a collateral history, and supporting cognitive screening. Screening tools such as the Montreal Cognitive Assessment (MoCA) and Mini-Mental State Examination (MMSE) are used by trained clinicians to detect and track changes; they are screening aids, not diagnoses, and results must be interpreted in light of the person's education, language, and baseline. Nursing care focuses on safety and support: reviewing medication management (who gives what, and whether mistakes are happening), discussing driving risk, encouraging physical activity, social engagement, and good sleep, and helping the family plan follow-up. The nurse also watches for red flags that suggest something more urgent — sudden onset, confusion, hallucinations, or rapid decline — and escalates these to the provider promptly.
+
+## ELI-10: Explain Like I'm 10
+
+Think of the brain like a school notebook. Normal aging is when the notebook gets a little worn and sometimes you have to look twice to find a page. Mild neurocognitive disorder is when pages start getting lost — you can still use the notebook, but you need bookmarks and reminders. Major neurocognitive disorder (dementia) is when so many pages are missing that you can't do your homework without help anymore. The important thing is that if your notebook is losing pages, you tell an adult — because sometimes the problem is fixable.
+
+## High-Yield Points
+
+- Mild NCD = measurable cognitive decline **beyond normal aging** but **not interfering with independence**; the boundary with major NCD (dementia) is functional, not a test score.
+- It is a syndrome with varied outcomes: some people progress to dementia, some stay stable, and some improve — so it is not a guaranteed diagnosis.
+- Six cognitive domains: complex attention, executive function, learning and memory, language, perceptual-motor, social cognition.
+- The concept (MCI) was formalized through Mayo Clinic research in the 1990s; it is a border zone between normal aging and dementia.
+- Some causes of cognitive decline are reversible or treatable (depression, medications, thyroid, vitamin deficiency, sleep apnea) — evaluation matters before assuming progression.
+- Collateral history from family is often more informative than a single visit; screening tools (MoCA, MMSE) aid but do not make the diagnosis.
+- Nursing care: medication review, safety planning (driving, finances), lifestyle support, follow-up, and escalation of sudden or rapid changes.
+- Use person-first language: a person with mild NCD, not "a mild cognitive impairment."
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Mild neurocognitive disorder | Decline from a previous level in one or more cognitive domains that does not interfere with independence | The DSM-5 term for the border zone between normal aging and dementia |
+| Mild cognitive impairment (MCI) | The research term for the same border zone, used in studies and clinical practice | The name you will see in literature and guidelines |
+| Cognitive domain | A category of mental function (attention, memory, language, executive function, etc.) | Different conditions affect different domains; assessment is organized by domain |
+| Collateral history | Information about the person gathered from family or others who know them | People often underreport their own decline; others see the change first |
+| Instrumental activities of daily living (IADLs) | Complex tasks like managing money, medications, shopping, and driving | Losing IADLs is the early marker that distinguishes mild from major NCD |
+| Screening tool | A brief test (e.g., MoCA, MMSE) that detects possible cognitive change | Aids detection and tracking, but is not a diagnosis by itself |
+| Major neurocognitive disorder | Decline severe enough to interfere with independence — the clinical term for dementia | The endpoint that mild NCD may or may not progress to |
+
+## Example: Clinical Scenario
+
+Mr. Patel, 68, comes to the clinic with his daughter. She says that over the past year her father — a retired accountant — has been paying bills twice, forgetting appointments, and asking the same questions repeatedly. Mr. Patel shrugs: "I'm just getting old; everyone forgets." The nurse does not dismiss either view. She takes a collateral history: his daughter confirms the changes are new over the last year and that he has stopped balancing his checkbook because "the numbers get jumbled." She also asks about medications, sleep, mood, and alcohol — and learns Mr. Patel's wife died six months ago and he has been sleeping poorly and eating little.
+
+The nurse documents the pattern: decline in learning and memory and executive function, independence mostly preserved, plus possible depression and sleep problems. She reports her findings to the provider, who orders a cognitive screening, a depression assessment, and blood work (including thyroid and vitamin levels). The nurse teaches the family that the evaluation will sort out what is reversible from what may be progressive, and she raises driving safety gently. The teaching point: mild NCD was recognized early, the treatable contributors (depression, poor sleep) were put on the table, and the family now has a plan instead of worry.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Mild NCD | Normal aging | Normal aging is stable and age-appropriate; mild NCD is a *change from a previous level* that others notice |
+| Mild NCD | Dementia (major NCD) | Mild preserves independence; dementia interferes with independence — the functional test decides |
+| Memory loss | Mild NCD | Memory is only one of six cognitive domains; mild NCD can affect attention, language, or executive function alone |
+| "Forgetful = Alzheimer's" | A decline with many possible causes | Depression, medications, thyroid disease, and sleep apnea can cause reversible cognitive changes |
+| One bad day | Persistent decline | Mild NCD is a *pattern over time*, not a single episode of forgetfulness |
+| Screening test result | Diagnosis | Screening tools flag possible change; diagnosis requires a full clinical evaluation by a qualified clinician |
+
+## Quick Review
+
+1. What is the key difference between mild neurocognitive disorder and major neurocognitive disorder?
+2. Name the six cognitive domains used to organize cognitive assessment.
+3. Why is collateral history from family often essential in evaluating mild NCD?
+4. Why is it important not to assume that every cognitive decline is progressive?
+5. A family asks you whether a MoCA score "means their father has dementia." How do you respond?
+
+<details>
+<summary>Show answers</summary>
+
+1. Function: in mild NCD the person remains independent in everyday activities (possibly with extra effort); in major NCD (dementia) the decline interferes with independence.
+2. Complex attention, executive function, learning and memory, language, perceptual-motor, and social cognition.
+3. Because people often compensate for and underreport their own decline; family members are usually the first to notice the change from the person's previous level of function.
+4. Because some causes are reversible or treatable — depression, medication effects, thyroid or vitamin problems, sleep apnea — and because some people with mild NCD remain stable or improve; a thorough evaluation is needed before concluding the decline is progressive.
+5. Explain that the MoCA is a screening tool, not a diagnosis: it detects possible change, but interpretation requires the person's baseline, education, and language, and diagnosis requires a full clinical evaluation.
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter
+- Next: [Delirium](02-delirium.md)
+- Related: [Dementia](03-dementia.md), [Depressive Disorders](../chapter-16-mood-disorders-and-suicide/01-depressive-disorders.md)
+- Chapter overview: [Neurocognitive Disorders](../README.md)
+
+## Source Notes
+
+- Book: Psychiatric-Mental Health Nursing
+- Local outline source: `psychiatric-mental-health.md`
+- Official source URL: https://openstax.org/details/books/psychiatric-mental-health/
+- Content type: Original educational study guide based on OpenStax outline structure. Educational draft only — diagnostic criteria, screening tool use, and interpretation are the responsibility of qualified clinicians; assessment tools and practice standards vary by setting and jurisdiction.
+- Last updated: 2026-08-16

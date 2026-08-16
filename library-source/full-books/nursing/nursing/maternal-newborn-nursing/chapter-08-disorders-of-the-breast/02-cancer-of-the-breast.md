@@ -1,0 +1,133 @@
+---
+title: "Cancer of the Breast"
+subject: "Nursing"
+book: "Maternal-Newborn Nursing"
+chapter: "8: Disorders of the Breast"
+topic_number: "2"
+source: "maternal-newborn-nursing.md"
+tags:
+  - "cancer-of-the-breast"
+  - "nursing"
+status: "complete"
+---
+
+# Cancer of the Breast
+
+> **Book:** [Maternal-Newborn Nursing](../../README.md)  
+> **Chapter:** [Chapter 8: Disorders of the Breast](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Breast cancer is a malignant growth of cells in the breast, most often arising in the cells lining the **ducts** (ductal carcinoma) or the **lobules** (lobular carcinoma). "Cancer" means the cells grow without normal control and can invade surrounding tissue and spread. **In situ** cancer stays where it started; **invasive** cancer has broken into surrounding tissue and can travel through the lymphatic system — most commonly to the axillary (armpit) nodes — or through the bloodstream. Staging describes how far the cancer has grown and spread and is a main factor guiding treatment.
+
+Because the breast is part of the reproductive system, this topic fits naturally in maternal-newborn nursing: reproductive history influences risk, and breast cancer can occur during pregnancy or lactation. The nurse teaches what to look for, supports people through screening and diagnosis, provides skilled care during and after treatment, and offers emotional support — with person-first language and respect for the person's decisions.
+
+## Why This Matters
+
+Breast cancer is one of the most common cancers affecting people of reproductive age and beyond, and outcomes improve dramatically when it is found early. Nurses are often the first health professional a person tells about a new lump, and how that conversation goes can determine whether evaluation happens promptly. Nurses teach breast self-awareness, support people through screening and biopsy, care for surgical incisions and drains, and help families navigate the weight of a cancer diagnosis — including in maternity settings, where a suspicious finding may surface during postpartum care or pregnancy.
+
+## Core Concepts
+
+### Risk factors: associations, not verdicts
+
+Risk factors are *associations* — things that increase statistical chance — not guarantees, and **most people diagnosed with breast cancer have no identifiable risk factor at all**. Known associations include increasing age; being female; personal or family history; inherited changes such as BRCA1 or BRCA2 mutations; reproductive history (early first menstruation, late menopause, no children, or late first pregnancy); long-term combined hormone therapy; and alcohol use. A person with no risk factors still needs the same vigilance.
+
+### Warning signs: what to teach people to notice
+
+The classic warning sign is a **new lump** — often painless, firm, and fixed — but not every breast cancer presents as a lump. Other signs: a change in breast size or shape; skin dimpling like an orange peel; redness or thickening; nipple retraction or new discharge, especially bloody; or a swollen lymph node under the arm. **Pain is not a reliable guide** — many breast cancers are painless, and most painful breasts are benign. Any new or persistent finding warrants evaluation.
+
+### Screening and diagnosis
+
+**Screening** looks for cancer in people without symptoms; **diagnosis** confirms it in someone with a finding. Mammography is the main screening tool, but recommendations for when to start and how often **vary among professional organizations and change over time** — teach people to follow current, trusted guidelines and their provider's advice. In pregnancy and lactation the breast is dense, so ultrasound is often used and other imaging may be deferred or modified. The **definitive diagnosis is a biopsy** — a needle sample examined by a pathologist. Imaging alone, no matter how reassuring, is not a diagnosis; a biopsy may be recommended even when imaging looks benign.
+
+### Treatment: a team decision, not a recipe
+
+Treatment depends on the cancer's type, stage, and biological features (such as hormone receptors and other markers the pathologist reports) and on the person's preferences and health. Options fall into broad categories: **surgery** (removing the tumor with or without the whole breast, and evaluating lymph nodes), **radiation therapy**, and **systemic therapy** (endocrine therapy, chemotherapy, or targeted therapies); many people receive a combination. The nurse reinforces the oncology team's plan and supports the person through drains, wound care, fatigue, and the emotional toll. Treatment is individualized — what a friend or relative "did" is not a treatment plan.
+
+### Pregnancy-associated breast cancer
+
+Breast cancer during pregnancy is uncommon but real, and emotionally devastating because two lives are at stake. Diagnosis is often delayed because pregnancy and lactation changes make the breast feel lumpy and full — exactly why a *new, distinct, persistent* lump in pregnancy must never be waved off as "just hormones." Evaluation uses imaging and biopsy techniques adapted for pregnancy, and treatment is planned by a multidisciplinary team balancing both the person's care and fetal considerations. Specific protocols vary by institution.
+
+### Nursing care across the journey
+
+Nursing care spans the whole experience: teaching self-awareness and screening; supporting the person through biopsy and waiting for results (often the hardest part); preparing them for surgery (incision and drain care, activity restrictions); watching for side effects; and connecting the family with support services, including support groups and, when needed, palliative care. After lymph node surgery, some facilities teach precautions for the affected arm (avoiding blood pressure cuffs and blood draws on that side) to reduce lymphedema risk, though the evidence has evolved — follow current institutional guidance. Throughout, the nurse honors the person's choices, including the right to decline treatment.
+
+## ELI-10: Explain Like I'm 10
+
+Breast cancer is when cells in the breast grow out of control, like weeds in a garden. Finding it early — when the weed is still tiny — makes it much easier to remove, which is why doctors take pictures of breasts and why you should tell a grown-up about any new lump or change. A tiny sample (biopsy) tells the doctor exactly what kind of weed it is, so they pick the right way to remove it.
+
+## High-Yield Points
+
+- **Most breast cancers present as a new, often painless, fixed lump — but not all do**; pain rules neither in nor out.
+- **In situ = contained; invasive = can spread** — usually first to the axillary lymph nodes.
+- **A biopsy is the definitive diagnosis**; imaging alone is not.
+- **Most people with breast cancer have no identifiable risk factor** — risk factors are associations, not verdicts.
+- **Screening schedules vary by organization and change over time** — follow current trusted guidelines.
+- **In pregnancy, a new distinct lump is never "just hormones."**
+- **Nurses support, teach, and refer — they do not diagnose or prescribe.**
+- **Person-first language:** "a person with breast cancer."
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| In situ | Cancer cells that have not spread beyond where they started | Caught early, the outlook is excellent |
+| Invasive | Cancer that has broken into surrounding tissue and can spread | Drives staging and treatment decisions |
+| Metastasis | Spread of cancer to distant organs | Why breast cancer becomes life-threatening |
+| Biopsy | A needle sample of tissue examined under a microscope | The definitive way to diagnose cancer |
+| Mammography | X-ray imaging of the breast for screening | The main screening tool; schedules vary |
+| BRCA1 / BRCA2 | Inherited genes linked to high breast/ovarian cancer risk | A family-history red flag; prompt genetic counseling referrals |
+| Lymphedema | Arm swelling from disrupted lymph drainage after node surgery | Possible long-term side effect; precautions follow institutional guidance |
+
+## Example: The Prenatal Visit That Changed Course
+
+A 32-year-old person at 16 weeks of pregnancy tells the nurse, "I found a small hard lump near my armpit a few weeks ago. I figured it was just my breasts changing." The nurse does not dismiss it: "Pregnancy definitely changes breast tissue, but a new, distinct lump deserves a proper look — that's the safe way to be sure." The nurse documents the finding and arranges for the provider to plan pregnancy-adapted imaging. The lump turns out to be a benign fibroadenoma. The person says, "I almost didn't say anything." The nurse's refusal to wave off the finding is exactly the behavior that catches pregnancy-associated breast cancer when it occurs.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| A new fixed lump | Fibrocystic lumpiness | Benign changes are often bilateral and cyclic; a new, distinct, fixed lump is a red flag |
+| Painful breast | Breast cancer | Most breast cancers are painless; most painful breasts are benign — pain is not a reliable guide |
+| Screening | Diagnosis | Screening finds suspicious findings; biopsy confirms the diagnosis |
+| Imaging results | A diagnosis | Even reassuring imaging is not a biopsy; the provider decides whether tissue sampling is needed |
+| Mastitis (red, hot breast) | Inflammatory breast cancer | Both cause a red, swollen breast; one that does not respond to treatment needs further evaluation — never assume |
+| "No family history" | "No risk" | Most people diagnosed have no identifiable risk factor — family history is not protection |
+
+## Quick Review
+
+1. What is the difference between in situ and invasive breast cancer, and where does breast cancer typically spread first?
+2. Name four warning signs of breast cancer that a nurse should teach people to recognize.
+3. Why is a biopsy considered the definitive diagnosis rather than imaging?
+4. Why must a new lump in pregnancy never be dismissed as "hormonal"?
+5. A person says, "My mother had breast cancer, so it's my destiny." What does the nurse say?
+6. What is the nurse's scope in the treatment phase?
+
+<details>
+<summary>Show answers</summary>
+
+1. In situ cancer stays where it began, inside the duct or lobule; invasive cancer has broken into surrounding tissue and can spread — first to the axillary (armpit) nodes.
+2. Any new, persistent lump (often painless and fixed); skin dimpling or "orange-peel" texture; redness, warmth, or thickening; nipple retraction or new/bloody discharge; a swollen axillary node. Any of these warrants evaluation.
+3. Imaging shows structure, not cell identity; only a pathologist examining biopsied tissue can confirm whether cells are malignant.
+4. Because pregnancy and lactation normally make breasts lumpy — exactly why a *new, distinct, persistent* lump is easy to explain away and dangerous to ignore; it needs pregnancy-adapted evaluation.
+5. "Family history raises risk, but it is not a verdict — most people diagnosed have no risk factor, and early detection makes a real difference. Let's make sure you're following the screening plan that's right for you."
+6. The nurse reinforces the oncology team's plan, prepares the person with questions, supports surgical recovery, monitors for side effects, and refers — the nurse does not select or prescribe treatment.
+
+</details>
+
+## Related Topics
+
+- Previous: [Benign Disorders of the Breast](01-benign-disorders-of-the-breast.md)
+- Next: End of chapter
+- Related: [Disorders of the Breast chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Maternal-Newborn Nursing
+- Local outline source: `maternal-newborn-nursing.md`
+- Official source URL: https://openstax.org/details/books/maternal-newborn-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-15
+- Flagged for SME review: current screening schedules and clinical-breast-exam recommendations (they vary by organization), specifics of pregnancy-adapted imaging/biopsy, and lymphedema arm-precautions guidance — verify against current evidence and institutional policy.

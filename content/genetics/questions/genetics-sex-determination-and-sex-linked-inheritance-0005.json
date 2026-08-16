@@ -1,0 +1,40 @@
+{
+  "id": "genetics-sex-determination-and-sex-linked-inheritance-0005",
+  "subject": "genetics",
+  "lesson": "sex-determination-and-sex-linked-inheritance",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem An X linked dominant trait with complete penetrance is segregating in a family. An affected woman who is heterozygous (*X^D X^d*) mates with an unaffected man (*X^d Y*). Assume no new mutations and a 1:1 sex ratio (sums to 2). What fraction of all offspring, sons and daughters combined, is expected to be affected?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/4"
+    },
+    {
+      "id": "b",
+      "text": "1"
+    },
+    {
+      "id": "c",
+      "text": "3/4"
+    },
+    {
+      "id": "d",
+      "text": "1/2"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "The mother is heterozygous, so each child inherits *X^D* with probability 1/2, and because the trait is dominant with complete penetrance any child carrying *X^D* is affected, so 1/2 x 1 = 1/2 of all offspring are affected. Sons who inherit *X^D* are hemizygous (*X^D Y*) and daughters are heterozygous (*X^D X^d*), and both are affected. A (1/4) counts only affected daughters, C (3/4) assumes all daughters are affected and adds affected sons, and B (1) assumes the dominant allele reaches every child, which a heterozygous mother does not guarantee.",
+  "difficulty": "unknown",
+  "tags": [
+    "linked",
+    "dominant",
+    "carrier",
+    "cross"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-67f5c8a12332791c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

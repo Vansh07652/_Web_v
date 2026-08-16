@@ -1,0 +1,39 @@
+{
+  "id": "genetics-recombinant-dna-technology-and-biotechnology-0007",
+  "subject": "genetics",
+  "lesson": "recombinant-dna-technology-and-biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** sequence-analysis Four Sanger sequencing reactions are run on one DNA fragment, one reaction with each ddNTP, and the products are separated by size on a denaturing gel. A primer annealed to the template strand was extended by DNA polymerase. Reading the gel from the bottom (shortest fragments) to the top (longest fragments), the terminating nucleotides are T, C, A, G, G, T. What is the sequence of the template strand, written 3' to 5'?",
+  "options": [
+    {
+      "id": "a",
+      "text": "3' TGG ACT 5'"
+    },
+    {
+      "id": "b",
+      "text": "3' ACC TGA 5'"
+    },
+    {
+      "id": "c",
+      "text": "5' AGT CCA 3'"
+    },
+    {
+      "id": "d",
+      "text": "3' AGT CCA 5'"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "In Sanger sequencing each band is a terminated fragment, and because the shortest fragment terminates at the first nucleotide incorporated, reading bottom to top spells the newly synthesized strand 5' to 3', here 5' TCA GGT 3'. The template is the antiparallel complement of that strand, so its sequence is 3' AGT CCA 5'. A gives the synthesized strand in the requested polarity instead of the template, and B reads the gel from the top down, inverting the order before complementing. C has the right bases but the wrong polarity, the signature of forgetting that the template is antiparallel.",
+  "difficulty": "unknown",
+  "tags": [
+    "sanger",
+    "sequencing",
+    "read"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-2e5f1806a7bd2d1a",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

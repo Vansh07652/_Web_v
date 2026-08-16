@@ -1,0 +1,41 @@
+{
+  "id": "genetics-sex-determination-and-sex-linked-inheritance-0008",
+  "subject": "genetics",
+  "lesson": "sex-determination-and-sex-linked-inheritance",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem In a breed of sheep, wool color is sex influenced: allele B produces dark wool in males whether homozygous or heterozygous, but in females only the homozygote (*BB*) is dark. A heterozygous ram (*Bb*) is crossed with a heterozygous ewe (*Bb*). Assume complete dominance within each sex and a 1:1 sex ratio (sums to 2). What fraction of the male offspring is expected to have dark wool?",
+  "options": [
+    {
+      "id": "a",
+      "text": "3/4"
+    },
+    {
+      "id": "b",
+      "text": "1/4"
+    },
+    {
+      "id": "c",
+      "text": "1/2"
+    },
+    {
+      "id": "d",
+      "text": "9/16"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The cross *Bb* x *Bb* gives a 1:2:1 genotypic ratio (sums to 4), with *BB* at 1/4, *Bb* at 1/2, and *bb* at 1/4. In males the dark phenotype appears in both *BB* and *Bb*, so 1/4 + 1/2 = 3/4 of male offspring are dark. B (1/4) applies the female threshold to males, C (1/2) counts only the heterozygotes, and D (9/16) wrongly multiplies 3/4 by a 3/4 fraction of males instead of the true 1/2 fraction.",
+  "difficulty": "unknown",
+  "tags": [
+    "sex",
+    "influenced",
+    "wool",
+    "color",
+    "cross"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-67f5c8a12332791c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

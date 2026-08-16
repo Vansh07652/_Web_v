@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:nursing-math-dosage:core-topics:liquid-medication-calculation-foundations",
+  "slug": "liquid-medication-calculation-foundations",
+  "title": "Liquid Medication Calculation Foundations",
+  "subject": {
+    "id": "subject:nursing-math-dosage",
+    "slug": "nursing-math-dosage",
+    "title": "Nursing Math & Dosage Foundations"
+  },
+  "unit": {
+    "id": "unit:nursing-math-dosage:core-topics",
+    "slug": "core-topics",
+    "title": "Core Topics",
+    "order": 1
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nThink of it like a recipe card: \"125 mg per 5 mL\" is like saying \"125 chocolate chips in every spoonful,\" where one spoonful is 5 mL. The big number counts the chips (the drug, in mg) and the small number sizes the spoon (the liquid, in mL) - never the other way around. It doesn't tell you how many chips are in the whole jar or how many you should eat, only how many ride along in each measured scoop. Split that spoonful into its 5 single mL and each one carries 25 chips. That fixed pairing is what we call the concentration.\n\n### Question 2\n\nThe formula compares what you WANT to what you HAVE. \"Have\" is the strength already sitting in the bottle's measured scoop, like knowing each cup of juice mix has 250 sugar grains. Once you know what's in one scoop, you can figure out how many scoops give the amount you want.\n\n### Question 3\n\nA decimal point is tiny and easy to miss, so we give it a bodyguard: a zero in front (0.5) makes sure nobody skips the dot and reads it as 5. We also don't add extra zeros at the end, because 0.50 can trick a tired eye into seeing 50. One little zero in front, none tacked on the end.\n\n### Question 4\n\nIf one cup of lemonade mix has 250 sugar grains and you want 500 grains, you simply need two cups. The sweetness of each cup never changes; you just pour more to reach the bigger amount. More drug wanted means more liquid poured.\n\n### Question 5\n\nWeak juice needs more cups to taste as sweet as strong juice. Syrup B is the watered-down one, so you must pour more of it to get the same 100 mg of medicine. Less strength packed in each mL means more mL to reach your goal.\n\n### Question 6\n\nIf your juice suddenly becomes twice as strong, you only need half as much to get the same sweetness. Stronger medicine in each mL means fewer mL to pour. Double the strength, halve the scoop.\n\n### Question 7\n\nMilligrams tell you how much medicine, and milliliters tell you how much liquid, just like \"how many chocolate chips\" is not the same as \"how many spoonfuls.\" If you grab 250 spoonfuls when you only needed 5, you've poured far too much. Never swap the drug number for the liquid number.\n\n### Question 8\n\nYou want 3 times as much drug as one scoop holds (300 is 3 x 100). Each scoop is 2.5 mL, so three scoops is 2.5 + 2.5 + 2.5 = 7.5 mL. Find how many scoops, then add up their sizes.\n\n### Question 9\n\nYou need a little less than what a full 5 mL scoop holds, because 120 is smaller than 160. Three-quarters of the scoop gives three-quarters of the drug: 0.75 x 5 mL = 3.75 mL. Less drug wanted means a smaller scoop than the full one.\n\n### Question 10\n\nOne full mL carries 40 mg, but you only want 30 mg, which is less than a full mL holds. So you take three-quarters of a milliliter, 0.75 mL. Wanting less than what one scoop holds always means less than one scoop.\n\n### Question 11\n\nThe order speaks in grams but the bottle speaks in milligrams, so first translate: 0.5 g is 500 mg. Now it's easy, 500 mg is two 250 mg scoops, and each scoop is 5 mL, so 10 mL. Grams and milligrams are 1000 times apart, so forgetting to translate doesn't miss by a little - it misses by a thousand. Always make both sides speak the same unit before you divide.\n\n### Question 12\n\nDimensional analysis is like a relay race where each unit hands off to the next: grams pass to milligrams, milligrams pass to milliliters, and any leftover wrong unit means you dropped the baton. Line them up and 0.2 g becomes 200 mg, which is two of the 100 mg/2 mL scoops, giving 4 mL. If the labels don't cancel neatly, you know the setup is wrong before you ever pour.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "SI Units / Metric System — NIST",
+        "url": "https://www.nist.gov/pml/owm/metric-si/si-units"
+      },
+      {
+        "text": "Prealgebra 2e / Elementary Algebra — OpenStax",
+        "url": "https://openstax.org/subjects/math"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "expansion-question-bank",
+    "sourceFile": "Education/pre-nursing-expansion-question-bank/questions/08-nursing-math-dosage/249-liquid-medication-calculation-foundations.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-2:reaction-mechanism:the-baeyer-villiger-oxidation",
+  "slug": "the-baeyer-villiger-oxidation",
+  "title": "The Baeyer-Villiger Oxidation",
+  "subject": {
+    "id": "subject:organic-chemistry-2",
+    "slug": "organic-chemistry-2",
+    "title": "Organic Chemistry II"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-2:reaction-mechanism",
+    "slug": "reaction-mechanism",
+    "title": "Reaction Mechanism",
+    "order": 2
+  },
+  "order": 18,
+  "status": "final",
+  "sections": {
+    "overview": "The Baeyer-Villiger oxidation inserts an oxygen atom between a carbonyl carbon and one of its substituents, converting a ketone into an ester and an aldehyde into a carboxylic acid. A peroxyacid (\\( \\ce{RCO3H} \\), e.g., mCPBA) adds to the carbonyl to give a Criegee intermediate, and one substituent then migrates from carbon to oxygen with cleavage of the weak O–O bond. The group with the higher migratory aptitude migrates, and cyclic ketones expand into lactones.",
+    "whyItMatters": "The Baeyer-Villiger oxidation is used to make lactones and esters, motifs found in antibiotics, fragrances, and biodegradable polymers. It is a standard tool in the synthesis of steroids and macrolide natural products, where controlled ring expansion installs the lactone core. Because the reaction uses peroxide-based oxidants, it is always run under strictly controlled laboratory conditions with institutional safety oversight.",
+    "learningObjectives": "1. Describe how a peroxyacid converts a ketone to an ester and an aldehyde to a carboxylic acid.\n2. Write the mechanism of the Baeyer-Villiger oxidation, including the Criegee intermediate and the migration step.\n3. Apply migratory aptitude and stereochemical rules to predict which group migrates and the resulting product.\n4. Explain ring expansion in cyclic ketones and state the oxidant safety boundaries.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Baeyer-Villiger oxidation | Ketone → ester (aldehyde → acid) with a peroxyacid | Inserts oxygen next to the carbonyl |\n| Ketone-to-ester conversion | Oxidation that turns \\( \\ce{R-C(=O)-R'} \\) into \\( \\ce{R-C(=O)-O-R'} \\) | The signature transformation |\n| Aldehyde-to-carboxylic-acid conversion | Aldehyde + peroxyacid → carboxylic acid | H migrates preferentially |\n| Peroxyacid | \\( \\ce{RCO3H} \\), a reagent with a weak O–O bond | The oxygen source and oxidant |\n| Criegee intermediate | Tetrahedral adduct of peroxyacid and carbonyl | The key intermediate before migration |\n| Migratory aptitude | Relative tendency of a group to migrate | Determines which oxygen ends up where |\n| Ring expansion | Cyclic ketone → lactone (ring +1 atom) | Common in natural-product synthesis |\n| Regiochemistry | Which group migrates, hence ester orientation | Controls the product structure |\n| Stereochemical migration | Migrating group retains configuration | Predicts stereochemistry of products |\n| Product prediction | Apply migratory aptitude to the substrate | Direct route to the correct ester |\n| Oxidant safety | Peroxyacids are strong, shock-sensitive oxidizers | Governs lab handling via institutional rules |",
+    "collegeNotes": "### 1. Peroxyacids and the Criegee Intermediate\nPeroxyacids contain a weak O–O bond (\\( \\ce{R-C(=O)-O-OH} \\)); meta-chloroperoxybenzoic acid (mCPBA) and peracetic acid are common examples. The peroxyacid's terminal oxygen attacks the carbonyl carbon, and the resulting tetrahedral adduct — the **Criegee intermediate** (\\( \\ce{R2C(OH)-O-O-C(=O)R} \\)) — holds both a weak O–O bond and a migrating group on the same carbon.\n\n### 2. Migratory Aptitude\nIn the key step, one substituent migrates from the carbonyl carbon to the adjacent oxygen while the O–O bond breaks. The group that migrates is the one best able to stabilize developing positive charge in the transition state. The general order is: **H > tertiary alkyl > secondary alkyl ≈ aryl > primary alkyl > methyl**. In other words, the more substituted (more electron-rich) group migrates preferentially, and hydrogen — when present (an aldehyde) — migrates fastest.\n\n### 3. Regiochemistry, Ring Expansion, and Stereochemistry\nRegiochemically, the ester oxygen is inserted between the carbonyl carbon and the group that migrated. For cyclic ketones, migration of a ring carbon inserts oxygen into the ring, expanding it by one atom to give a lactone. The migration is stereospecific: a migrating chiral group retains its configuration, because it moves with its electron pair in a concerted, suprafacial manner without becoming a free carbocation.",
+    "howItWorks": "1. A peroxyacid attacks the carbonyl carbon.\n2. The Criegee intermediate forms with a weak O–O bond in place.\n3. The group with the highest migratory aptitude migrates to oxygen.\n4. The O–O bond breaks, expelling a carboxylic acid.\n5. An ester forms (from a ketone) or a carboxylic acid forms (from an aldehyde).\n6. Cyclic ketones expand to lactones.\n7. The migrating group keeps its stereochemistry.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Ketone + peroxyacid → ester; aldehyde + peroxyacid → carboxylic acid.\n- **High yield:** Migratory aptitude order: H > tertiary alkyl > secondary ≈ aryl > primary > methyl.\n- **High yield:** The group that migrates is the one that best stabilizes positive charge (most substituted / most electron-rich).\n- **High yield:** Cyclic ketones give lactones — the ring expands by one atom.\n- The Criegee intermediate holds the weak O–O bond; its cleavage drives the migration.\n- The migrating group retains its configuration (stereospecific, concerted migration).\n- Peroxyacids are strong oxidizers; quantities, storage, and handling follow institutional safety documentation only.\n- The byproduct is a carboxylic acid (from the peroxyacid).",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Baeyer-Villiger | Ozonolysis | BV inserts O next to the carbonyl; ozonolysis cleaves C=C bonds |\n| Criegee intermediate | Tetrahedral hydrate | Criegee has an O–O–C(O)R unit, not two OH groups |\n| Migratory aptitude | Leaving-group ability | Aptitude ranks which group moves to O; leaving-group ability ranks which group departs |\n| Ester product | Carboxylic acid product | Ketones give esters; aldehydes give carboxylic acids |\n| Ring expansion | Ring contraction | BV adds one ring atom; contraction removes one |",
+    "memoryAids": "\"**B**aeyer-**V**illiger **B**uilds a **B**igger ring and **B**onds oxygen **B**eside the carbonyl.\" For migratory aptitude: \"**H**ydrogen **T**ravels **S**oonest, **A**ryl and **P**rimary **M**ove last\" (**H > T > S ≈ A > P > M**), matching the more-substituted-migrates rule.",
+    "eli10": "Imagine the carbonyl as a traffic intersection where one road (a substituent) is going to switch lanes. A peroxyacid — an acid with an extra oxygen–oxygen \"spare tire\" — first attaches to the carbonyl carbon, forming a crowded four-arm intermediate. Then one of the arms \"switches lanes,\" sliding over to the neighboring oxygen while the spare tire's O–O link snaps. The result is an extra oxygen squeezed into the chain, turning a ketone into an ester.\n\nA useful comparison: think of the reaction as a zipper with a weak link. The peroxyacid zips onto the carbonyl, and then one substituent slides across to the oxygen on the other side, popping the weak O–O link like a zipper tooth that is designed to break. The group that slides over is the one that can best \"hold\" a temporary positive charge along the way.\n\nThis comparison stops being exact because the substituent does not physically slide; it migrates with its electron pair in a concerted rearrangement, and the O–O bond breaks at the same time. The preference for which group migrates is a real, measurable ordering (migratory aptitude), not a random choice, and it can be predicted from structure.\n\n### Simple Example\nCyclohexanone plus a peroxyacid gives ε-caprolactone, a seven-membered cyclic ester (lactone). The ring carbon migrates to oxygen and the six-membered ring expands by one atom.",
+    "quickReview": "### Topic Recap\n\nThe Baeyer-Villiger oxidation inserts oxygen next to a carbonyl using a peroxyacid, passing through a Criegee intermediate whose weak O–O bond breaks as one substituent migrates to oxygen. Migratory aptitude (H > tertiary > secondary ≈ aryl > primary > methyl) governs which group moves, ketones become esters, aldehydes become carboxylic acids, and cyclic ketones expand to lactones. The migration is stereospecific, and peroxyacid handling follows strict safety protocols.\n\n### Knowledge Check\n\n1. Predict the product of Baeyer-Villiger oxidation of acetophenone (\\( \\ce{C6H5COCH3} \\)).\n2. Which group migrates in the oxidation of methyl ethyl ketone, and why?\n3. What product forms from cyclopentanone, and what is this class of product called?\n4. Why does an aldehyde give a carboxylic acid rather than a formate ester?\n5. State one safety consideration specific to Baeyer-Villiger oxidations.\n\n### Answers and Rationales\n\n1. Phenyl acetate (\\( \\ce{C6H5-O-C(=O)CH3} \\)). Aryl migrates preferentially over methyl, so oxygen is inserted between the ring and the carbonyl carbon.\n2. The ethyl group migrates (over methyl) because a secondary alkyl group stabilizes developing positive charge better than methyl, matching the aptitude order.\n3. δ-Valerolactone, a six-membered lactone. The cyclic ketone's ring carbon migrates and the ring expands from five to six atoms.\n4. Hydrogen migrates fastest (highest migratory aptitude), so the H moves to oxygen and the carbonyl becomes a carboxylic acid.\n5. Peroxyacids are strong, shock-sensitive oxidizers; their use requires institutional safety documentation for storage, quantities, and handling — no improvised procedures.",
+    "workedExamples": "The Baeyer-Villiger mechanism (electron movement described before the products):\n\n1. **Nucleophilic attack on the carbonyl.** The terminal OH oxygen of the peroxyacid attacks the electrophilic carbonyl carbon. A double-headed arrow runs from that oxygen's lone pair to carbon, while the \\( \\ce{C=O} \\) π electrons move onto the carbonyl oxygen. This gives the tetrahedral **Criegee intermediate**, \\( \\ce{R2C(OH)-O-O-C(=O)R'} \\), in which the original carbonyl oxygen now carries a negative charge.\n2. **Proton transfer.** A proton relocates (directly or via solvent) so that the leaving group is a neutral carboxylic acid rather than a charged carboxylate; this sets up the migration.\n3. **Migration with O–O cleavage.** One substituent on the carbonyl carbon migrates with its electron pair to the adjacent oxygen. Two arrows are drawn simultaneously: one from the migrating C–R bond to the neighboring O–O oxygen, and one from the O–O bond to the departing carboxylate oxygen (breaking the weak O–O bond). Electron accounting: the C–R bond's electron pair forms the new C–O bond, while the O–O bond's electron pair leaves with the carboxylate.\n4. **Deprotonation.** The resulting protonated ester loses a proton to give the neutral ester product and the carboxylic-acid byproduct.\n\nFor prediction, identify the group with the highest migratory aptitude; that group migrates, and the ester forms by inserting O between the carbonyl carbon and that group.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "the-baeyer-villiger-oxidation",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "18-the-baeyer-villiger-oxidation",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-ii"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-ii",
+    "sourceFile": "organic-chemistry-ii-study-notes/docs/organic-chemistry-ii/18-the-baeyer-villiger-oxidation.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

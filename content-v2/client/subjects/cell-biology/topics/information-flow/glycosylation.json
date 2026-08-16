@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:information-flow:glycosylation",
+  "slug": "glycosylation",
+  "title": "Glycosylation",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:information-flow",
+    "slug": "information-flow",
+    "title": "Information Flow",
+    "order": 10
+  },
+  "order": 17,
+  "status": "final",
+  "sections": {
+    "overview": "Glycosylation is the covalent attachment of carbohydrate chains (glycans) to proteins, forming glycoproteins. It is the most abundant and structurally diverse post-translational modification of secreted and membrane proteins. N-linked glycosylation attaches a preassembled oligosaccharide to the amide nitrogen of asparagine (Asn-X-Ser/Thr sequon) and begins co-translationally in the endoplasmic reticulum. O-linked glycosylation attaches sugars to the hydroxyl of serine or threonine and occurs mainly in the Golgi. Glycans guide protein folding and quality control, protect against proteolysis, mediate cell–cell recognition, and modulate signaling.",
+    "whyItMatters": "Glycans are essential for protein folding and quality control, cell adhesion, immune recognition, and blood-group/ABO identity. Congenital disorders of glycosylation (CDGs) cause severe multi-system disease, and altered glycosylation is a hallmark of cancer (e.g., tumor-associated antigens) and inflammation. Therapeutic proteins — monoclonal antibodies and hormones such as erythropoietin — depend on correct glycosylation for activity and half-life, and glycoengineering is a core biopharmaceutical tool.",
+    "learningObjectives": "- Define glycosylation and distinguish N-linked from O-linked glycosylation.\n- Describe where in the secretory pathway each type occurs.\n- Explain the functions of glycans on proteins (folding, stability, recognition, signaling).\n- Relate glycosylation defects to disease and its use in therapeutics.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nGlycosylation is the covalent attachment of carbohydrate chains (glycans) to proteins, forming glycoproteins. It is the most abundant and structurally diverse post-translational modification of secreted and membrane proteins. N-linked glycosylation attaches a preassembled oligosaccharide to the amide nitrogen of asparagine (Asn-X-Ser/Thr sequon) and begins co-translationally in the endoplasmic reticulum. O-linked glycosylation attaches sugars to the hydroxyl of serine or threonine and occurs mainly in the Golgi. Glycans guide protein folding and quality control, protect against proteolysis, mediate cell–cell recognition, and modulate signaling.\n\n### Key Components\n\n- **N-linked glycans** — attached to Asn in the sequon Asn-X-Ser/Thr; share a common core and are added en bloc in the ER.\n- **O-linked glycans** — attached to Ser/Thr hydroxyls, added sugar-by-sugar in the Golgi (e.g., mucin-type O-GalNAc).\n- **Oligosaccharyltransferase (OST)** — ER enzyme that transfers the 14-sugar precursor from dolichol to Asn.\n- **Dolichol phosphate** — lipid carrier on which the N-glycan precursor is built.\n- **Calnexin/calreticulin** — ER lectins that bind monoglucosylated N-glycans to assist folding.\n- **Glycosyltransferases and glycosidases** — enzymes that add/trim sugars in the ER and Golgi.\n- **Glycosylation sites** — Asn (N-linked) and Ser/Thr (O-linked).\n\n### Mechanism\n\nFor N-linked glycans, a 14-residue oligosaccharide (Glc₃Man₉GlcNAc₂) is assembled on dolichol phosphate, flipped into the ER lumen, and transferred as a unit onto an asparagine by OST as the nascent protein enters the ER. Glucose trimming and lectin binding (calnexin/calreticulin) drive a folding/quality-control cycle; correctly folded proteins proceed to the Golgi, where glycosidases and glycosyltransferases remodel the glycan into complex or hybrid forms. O-linked glycosylation begins later, with sugars added one at a time (often starting with GalNAc on Ser/Thr) by Golgi glycosyltransferases.\n\n### How It Works\n\n1. The N-glycan precursor (Glc₃Man₉GlcNAc₂) is built stepwise on dolichol-P in the ER membrane.\n2. As a nascent polypeptide translocates into the ER, OST transfers the glycan en bloc to Asn-X-Ser/Thr.\n3. Glucosidases trim terminal glucoses; calnexin/calreticulin bind the monoglucosylated glycan, retaining the protein for folding.\n4. A final glucose removal releases the correctly folded protein; misfolded proteins are re-glucosylated and recycled, or targeted for ER-associated degradation.\n5. The glycoprotein moves to the Golgi, where mannosidases and glycosyltransferases remodel the glycan (complex, hybrid, or high-mannose).\n6. In the Golgi, O-linked sugars (e.g., GalNAc) are added to Ser/Thr and extended into mucin-type chains.\n7. Finished glycoproteins are delivered to the plasma membrane, lysosomes, or secretion.\n\n### Energy and Directionality\n\nGlycosylation is energetically expensive: each sugar added consumes activated nucleotide-sugar donors (UDP-sugars, GDP-sugars, and for the dolichol precursor, nucleotide and dolichol-phospho intermediates). The reaction is directional and compartmentalized — the N-glycan precursor is assembled on the cytosolic face, flipped into the ER lumen, and transferred en bloc; subsequent trimming and reglycosylation proceed from the ER toward the Golgi (cis → medial → trans), so glycan structure matures in a vectorial, organelle-specific fashion. The enzymes, not the DNA, dictate the final glycan structures.\n\n### Experimental Evidence\n\n- **Tunicamycin** — inhibits the first step of N-glycan precursor assembly, blocking N-glycosylation and causing misfolding/ER stress, proving the pathway's importance.\n- **Endoglycosidase H (Endo H) sensitivity** — distinguishes high-mannose ER glycans (sensitive) from mature Golgi-processed glycans (resistant), mapping glycan maturation.\n- **Lectin binding** — calnexin/calreticulin preferentially bind monoglucosylated glycoproteins, confirming the glucose-trimming quality-control cycle.\n- **Blood group antigens** — A/B/O blood types are determined by different glycosyltransferases adding terminal sugars, showing glycans encode recognition.\n- **Glycosylation-defective cell lines (Lec mutants)** — define specific enzymes in the pathway.\n\n### Technique\n\nGlycosylation is analyzed with **lectin blots/arrays** (probe specific glycan structures), **mass spectrometry of glycopeptides** (site-specific glycan profiling), **Endo H/PNGase F digestion** (N-glycan removal/type), **metabolic labeling with azido-sugars**, and **glycan sequencing** by HPLC/exoglycosidase arrays.",
+    "howItWorks": "1. The N-glycan precursor (Glc₃Man₉GlcNAc₂) is built stepwise on dolichol-P in the ER membrane.\n2. As a nascent polypeptide translocates into the ER, OST transfers the glycan en bloc to Asn-X-Ser/Thr.\n3. Glucosidases trim terminal glucoses; calnexin/calreticulin bind the monoglucosylated glycan, retaining the protein for folding.\n4. A final glucose removal releases the correctly folded protein; misfolded proteins are re-glucosylated and recycled, or targeted for ER-associated degradation.\n5. The glycoprotein moves to the Golgi, where mannosidases and glycosyltransferases remodel the glycan (complex, hybrid, or high-mannose).\n6. In the Golgi, O-linked sugars (e.g., GalNAc) are added to Ser/Thr and extended into mucin-type chains.\n7. Finished glycoproteins are delivered to the plasma membrane, lysosomes, or secretion.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- N-linked: oligosaccharide added en bloc to Asn-X-Ser/Thr in the ER (by OST, from dolichol-P).\n- O-linked: sugars added one-by-one to Ser/Thr, mainly in the Golgi.\n- Calnexin/calreticulin read glucose-trimmed N-glycans for folding/quality control.\n- Tunicamycin blocks N-glycosylation; Endo H tests glycan maturation.\n- ABO blood groups arise from different glycosyltransferases.\n- Glycans mediate folding, stability, recognition, and signaling.\n- Defects → CDGs; altered glycosylation in cancer.",
+    "commonConfusions": "- **\"N-linked and O-linked are interchangeable\"** — they differ in attachment site (Asn vs Ser/Thr), timing, and location (ER vs Golgi), and in how sugars are added (en bloc vs one-by-one).\n- **\"Glycosylation is coded directly by DNA\"** — the peptide and sequons are encoded, but the actual glycan structures are built by enzymes and can vary with cell type/state.\n- **\"Glycans are only for stability\"** — they also mediate folding, quality control, recognition, and signaling.\n- **\"O-linked glycosylation starts in the ER\"** — it occurs predominantly in the Golgi.\n- **\"All glycosylation is N-linked\"** — O-linked (mucin-type and others) is widespread and functionally distinct.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of proteins leaving the cell's factory wearing a coat of sugar decorations. While the protein is still being made, a ready-made sugar chain is snapped onto it (N-linked) — this helps the quality inspectors check the protein is folded right. Later, more sugar beads are threaded on one at a time in a different workshop (O-linked). These sugar coats let cells recognize \"self\" from \"foreign,\" which is why your blood type depends on which sugar decorations you carry. (The analogy's limit: the sugars aren't just decoration — they actively control folding and signaling, and each is added by a specific enzyme using activated sugar building blocks.)",
+    "quickReview": "- Glycosylation = covalent attachment of glycans to proteins.\n- N-linked: en bloc transfer to Asn-X-Ser/Thr in ER (OST, dolichol-P).\n- O-linked: sugar-by-sugar on Ser/Thr in Golgi.\n- Calnexin/calreticulin mediate folding/QC via glucose-trimmed glycans.\n- ABO blood groups = different glycosyltransferases.\n- Tools: lectins, MS, Endo H/PNGase F; defects cause CDGs and cancer glyco-signatures.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"4.4 The Endomembrane System and Proteins.\" https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+        "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"16.6 Eukaryotic Translational and Post-translational Gene Regulation.\" https://openstax.org/books/biology-2e/pages/16-6-eukaryotic-translational-and-post-translational-gene-regulation",
+        "url": "https://openstax.org/books/biology-2e/pages/16-6-eukaryotic-translational-and-post-translational-gene-regulation"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"From RNA to Protein.\" https://www.ncbi.nlm.nih.gov/books/NBK26829/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"3.4 Proteins.\" https://openstax.org/books/biology-2e/pages/3-4-proteins",
+        "url": "https://openstax.org/books/biology-2e/pages/3-4-proteins"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/10-information-flow/17-glycosylation.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

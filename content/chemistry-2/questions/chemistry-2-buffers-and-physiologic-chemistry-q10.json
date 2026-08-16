@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-buffers-and-physiologic-chemistry-q10",
+  "subject": "chemistry-2",
+  "lesson": "buffers-and-physiologic-chemistry",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A student prepares a hypothetical laboratory acetate buffer containing equal concentrations of acetic acid and acetate, so its pH equals the pKa of 4.76. Which change would produce a buffer with a pH above the pKa?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Diluting the buffer with an equal volume of pure water"
+    },
+    {
+      "id": "b",
+      "text": "Adding more of the weak acid so it exceeds the conjugate base"
+    },
+    {
+      "id": "c",
+      "text": "Adding a small volume of a strong acid to the finished buffer"
+    },
+    {
+      "id": "d",
+      "text": "Adding conjugate base until it is twice the weak acid concentration"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Henderson-Hasselbalch gives pH = pKa + log([A-]/[HA]), so any ratio greater than 1 produces a positive logarithm and a pH above the pKa. With [A-] at 0.2 mol/L and [HA] at 0.1 mol/L the ratio is 2, log 2 is about 0.3, and the pH is about 5.06. Adding weak acid or adding strong acid shifts the ratio below 1 and lowers pH instead. Equal-volume dilution reduces both concentrations by the same factor, leaving the ratio and therefore the pH essentially unchanged, although it does reduce total buffer capacity.\n\nELI-10: Think of the pKa as home base, with the ratio deciding which way you drift. Add more base and pH rises; add more acid and pH falls. Doubling the base makes the ratio 2, and log 2 is about 0.3, so you land three tenths of a unit above home base: 4.76 + 0.3 = 5.06. Dilution is the interesting case. Watering down soup halves every ingredient but keeps the recipe's proportions, so the flavor, like the pH, stays the same, even though there is less of it to go around.",
+  "difficulty": "medium",
+  "tags": [
+    "Henderson-Hasselbalch",
+    "buffer ratio",
+    "effect of dilution"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-280",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

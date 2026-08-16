@@ -1,0 +1,42 @@
+{
+  "id": "physics-2-dc-circuits-0003",
+  "subject": "physics-2",
+  "lesson": "dc-circuits",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For kirchhoff junction and loop rules with an explicit sign convention, use $tau = R C$ in a RC time constant model. The first quantity is 4.20 Ohm and the second is 2.00 F. What is the time constant?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$4.20\\ \\text{s}$"
+    },
+    {
+      "id": "b",
+      "text": "$16.80\\ \\text{s}$"
+    },
+    {
+      "id": "c",
+      "text": "$10.50\\ \\text{s}$"
+    },
+    {
+      "id": "d",
+      "text": "$8.40\\ \\text{s}$"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Using $tau = R C$ gives 4.20 Ohm times 2.00 F = $8.40\\ \\text{s}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to s, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "kirchhoff",
+    "junction",
+    "loop",
+    "rules",
+    "explicit",
+    "sig"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ecaad7dd501f0cf0",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

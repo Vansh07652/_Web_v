@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-2:spectroscopy:mass-spectrometry",
+  "slug": "mass-spectrometry",
+  "title": "Mass Spectrometry",
+  "subject": {
+    "id": "subject:organic-chemistry-2",
+    "slug": "organic-chemistry-2",
+    "title": "Organic Chemistry II"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-2:spectroscopy",
+    "slug": "spectroscopy",
+    "title": "Spectroscopy",
+    "order": 1
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "Mass spectrometry ionizes molecules, sorts the ions by their mass-to-charge ratio \\((m/z)\\), and records abundance at each ratio. The molecular-ion peak gives molecular mass; its isotope satellites (M+1, M+2) reveal carbon count and halogens (Cl, Br). Fragmentation into predictable cations produces the lower-mass peaks, and the tallest peak is the base peak. High-resolution instruments measure exact mass, often pinning down the formula uniquely.",
+    "whyItMatters": "Clinical labs use mass spectrometry for newborn screening (exact masses of acylcarnitines and amino acids detect inborn errors of metabolism), therapeutic drug monitoring, and toxicology screens. A drug's spectrum and exact mass act as an identity fingerprint in pharmaceutical quality control, and tandem MS/MS quantifies drugs and metabolites at trace levels in blood and urine.",
+    "learningObjectives": "1. Explain what mass spectrometry measures and how a molecule becomes a detectable ion.\n2. Interpret the molecular-ion peak, isotope peaks (M+1, M+2), and the chlorine/bromine patterns to find molecular mass and formula.\n3. Describe common fragmentation pathways (alpha cleavage; alkanes, alcohols, amines, carbonyls) and identify the base peak.\n4. Use high-resolution (exact-mass) data with the degree of unsaturation to assign a molecular formula.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Mass spectrometry | Weighs charged fragments of a molecule | Mass fingerprint |\n| Electron-impact MS | Ionization by knocking out one electron | Makes molecular ions |\n| Molecular ion | Intact molecule minus one electron \\((M^{+\\bullet})\\) | Gives molecular mass |\n| Molecular-ion peak | Highest \\(m/z\\) peak of the cluster | Read mass here |\n| Mass-to-charge ratio (m/z) | Mass ÷ ionic charge | Spectrum x-axis |\n| Molecular mass determination | Reading mass from the molecular ion | Key output |\n| Isotope peaks | Satellites from ¹³C, ³⁷Cl, ⁸¹Br | Shows composition |\n| M+1 peak | One unit above M, mostly ¹³C | Carbon count |\n| M+2 peak | Two units above M | Detects Cl/Br/S |\n| Chlorine isotope pattern | 3:1 M : M+2 | Spots Cl |\n| Bromine isotope pattern | 1:1 M : M+2 | Spots Br |\n| Fragmentation | Molecular ion breaking into cations | Peak pattern |\n| Alpha cleavage | Bond break one atom from a heteroatom/π system | Diagnostic |\n| Base peak | Tallest peak (100%) | Intensity scale |\n| High-resolution MS | Measures mass to several decimals | Splits formulas |\n| Exact mass | Mass from the most abundant isotopes | Unique formula |\n| Molecular formula determination | Mass + isotopes + exact mass → CₓHᵧ… | Goal of MS |\n| Degree of unsaturation | \\((2C+2+N-H-X)/2\\) | Rings + π bonds |",
+    "collegeNotes": "### 1. Ionization and the molecular ion\nIn **electron-impact (EI) MS**, a ~70 eV electron beam strikes vaporized molecules and ejects an electron, forming a radical cation \\(M^{+\\bullet}\\). This **molecular ion** has essentially the same mass as the neutral molecule, so its \\(m/z\\) gives **molecular mass determination** directly. If it survives to the detector, it appears as the **molecular-ion peak** at the highest \\(m/z\\) of the isotopic cluster.\n\n### 2. Mass-to-charge ratio and the base peak\nThe instrument measures the **mass-to-charge ratio \\((m/z)\\)**; since most ions carry one charge, \\(m/z\\) is read as the ion's mass in atomic mass units. The **base peak** is the tallest peak, set to 100%, with others reported relative to it. It is usually the most stable *fragment*, not the molecular ion.\n\n### 3. Isotopes and the M+1/M+2 peaks\nFor \\(n\\) carbons, the **M+1 peak** is about \\(1.1\\% \\times n\\) of M (¹³C is 1.1% abundant); the **M+2 peak** flags heavier isotopes. **Chlorine** (³⁵Cl:³⁷Cl ≈ 3:1) gives M+2 about one-third of M; **bromine** (⁷⁹Br:⁸¹Br ≈ 1:1) gives nearly equal M and M+2, and two bromines give a 1:2:1 M : M+2 : M+4 pattern. These **isotope peaks** are the fastest way to spot halogens.",
+    "howItWorks": "1. The sample is vaporized into a high-vacuum chamber.\n2. A 70 eV electron beam ejects an electron, forming radical cations.\n3. Ions are accelerated into a magnetic or time-of-flight analyzer.\n4. The analyzer separates ions by \\(m/z\\).\n5. The detector counts arrivals and plots relative intensity vs. \\(m/z\\).\n6. The chemist reads molecular ion, isotopes, and fragments to deduce mass and formula.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Molecular-ion peak → molecular mass; M+1/M+2 → composition.\n- **High yield:** Cl ≈ 3:1 (M : M+2); Br ≈ 1:1; two Br → 1:2:1.\n- **High yield:** The base peak is the most *abundant* fragment, not necessarily the molecular ion.\n- **High yield:** Alpha cleavage breaks the bond next to a heteroatom or carbonyl, giving resonance-stabilized cations.\n- **High yield:** Alkanes fragment by C–C cleavage into carbocation/radical combos, giving clusters spaced by 14 (CH₂).\n- **High yield:** Nitrogen rule: odd nominal mass ⇒ odd number of N (CHNO/halogen molecules).\n- The molecular ion may be absent for fragile, highly branched molecules — its absence is information, not failure. MS proves *mass and formula*, not full connectivity.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Molecular ion \\((M^{+\\bullet})\\) | Base peak | Intact-minus-electron vs. tallest (fragment) peak |\n| M+1 peak | M+2 peak | M+1 = ¹³C; M+2 = Cl/Br/S isotopes |\n| \\(m/z\\) | Neutral molecular mass | Ions only; neutral molecules are invisible |\n| Exact mass | Nominal mass | Exact uses precise masses to split ties |\n| Fragmentation peak | A real stable molecule | Fragments are transient charged species |",
+    "memoryAids": "**\"M-I-B-D: Mass, Isotopes, Base, Degree.\"** Read top-down: **M**olecular ion gives mass, **I**sotope peaks give atoms (C, Cl, Br), the **B**ase peak is just the tallest, and **D**egree of unsaturation turns the formula into rings + π bonds.",
+    "eli10": "Imagine throwing a LEGO spaceship at a wall: some copies survive intact, others shatter into wings and engines. A mass spectrometer does the same to molecules — it knocks an electron off (so pieces carry charge) and bends the charged pieces through a curved track, where light pieces curve a lot and heavy pieces curve a little. A detector counts how many of each weight arrives, giving a bar graph of \"weight vs. how many.\"\n\nIt is like a scale that weighs *ions*, not neutral molecules. The comparison \"where it stops being exact\" is that the \"weight\" we read is really mass divided by charge \\((m/z)\\), and many peaks are transient charged fragments that exist only inside the machine for microseconds — not isolable molecules. A fragile molecular ion may never appear, so a missing peak never proves the molecule was absent.\n\n### Simple Example\nMethane (CH₄) gives a molecular ion at \\(m/z = 16\\). Fragmentation knocks off hydrogens one at a time, producing a \"comb\" of peaks at \\(m/z = 15, 14, 13, 12\\).",
+    "quickReview": "### Topic Recap\n\nMass spectrometry weighs charged fragments of a molecule. The molecular-ion peak gives molecular mass; isotope peaks (M+1, M+2) reveal carbon count and halogens; fragmentation (alpha cleavage and neutral losses) hints at structure. Combining nominal mass, isotope patterns, the nitrogen rule, degree of unsaturation, and exact mass yields a molecular formula — the quantitative first step in structure determination.\n\n### Knowledge Check\n\n1. A compound shows M⁺ at \\(m/z = 122\\) with an M+2 peak of nearly equal height. Which halogen is present?\n2. An M+1 peak is 6.6% of M. What does that tell you?\n3. An ion at \\(m/z = 43\\) (base peak) forms by alpha cleavage of 2-butanone. What is the fragment?\n4. A hydrocarbon has molecular ion \\(m/z = 84\\). Give its formula and degree of unsaturation.\n5. Why can two molecules share a nominal mass, and how is the ambiguity resolved?\n\n### Answers and Rationales\n\n1. **Bromine.** A 1:1 M : M+2 pattern is the Br hallmark (⁷⁹Br:⁸¹Br ≈ 1:1); chlorine would give ~3:1.\n2. **About 6 carbons.** M+1/M ≈ 1.1% per carbon, so 6.6/1.1 ≈ 6.\n3. **The acylium ion CH₃C≡O⁺** (\\(m/z = 43\\)). Alpha cleavage on the ethyl side of the carbonyl gives the resonance-stabilized acetyl cation.\n4. **C₆H₁₂, DoU = 1.** C₆H₁₂ = 84; DoU = \\((2×6+2−12)/2 = 1\\) (one ring or π bond).\n5. **Different exact masses.** N₂, CO, and C₂H₄ are all nominal 28 but have distinct exact masses; high-resolution MS resolves them.",
+    "workedExamples": "*Interpreting a mass spectrum:*\n\n1. **Read the molecular-ion region.** The highest \\(m/z\\) cluster gives the nominal molecular mass.\n2. **Read the isotope pattern.** Large M+2 → Cl (3:1) or Br (1:1); visible M+1 estimates carbon count via \\((M+1)/M \\times 100 \\approx 1.1n\\).\n3. **Compute the degree of unsaturation**:\n\\[\n\\text{DoU} = \\frac{2C + 2 + N - H - X}{2}\n\\]\nwhere halogens X count like hydrogen and each N adds one; DoU = rings + π bonds (**degree of unsaturation from formula**).\n4. **Apply the nitrogen rule.** Odd nominal mass (for CHNO/halogen molecules) implies an odd number of nitrogens.\n5. **Read fragmentation.** Look for losses of stable neutrals (−15 CH₃, −18 H₂O, −29 C₂H₅) and for **alpha cleavage** pieces.\n6. **Confirm with exact mass.** In **high-resolution MS**, the **exact mass** distinguishes same-nominal-mass formulas (e.g., CO = 27.9949 vs. C₂H₄ = 28.0313), completing **molecular formula determination**.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "mass-spectrometry",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "01-mass-spectrometry",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-ii"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-ii",
+    "sourceFile": "organic-chemistry-ii-study-notes/docs/organic-chemistry-ii/01-mass-spectrometry.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

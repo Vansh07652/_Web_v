@@ -1,0 +1,153 @@
+---
+title: "Fats"
+subject: "Nursing"
+book: "Nutrition for Nurses"
+chapter: "2: A Holistic View of Macronutrients"
+topic_number: "2"
+source: "nutrition.md"
+tags:
+  - "fats"
+  - "nursing"
+status: "complete"
+---
+
+# Fats
+
+> **Book:** [Nutrition for Nurses](../../README.md)  
+> **Chapter:** [Chapter 2: A Holistic View of Macronutrients](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Dietary fats are **lipids** — water-insoluble molecules and the most energy-dense macronutrient, providing about 9 kilocalories per gram, more than twice the energy of carbohydrate or protein. But fat is far more than calories: it builds cell membranes, carries fat-soluble vitamins, cushions organs, insulates the body, and supplies raw material for hormones. Foods called "fats" are mixtures of different **fatty acids** that behave very differently in the body.
+
+The popular story treats fat as a single enemy. The scientific picture is more interesting: the *type* of fat matters more than the total amount in many dietary patterns, and a few fats are **essential** — the body cannot make them. This topic gives you a structural map of fats so you can read a label, explain a recommendation, and discuss fat without oversimplifying.
+
+## Why This Matters
+
+- **Heart and vascular health:** Dietary patterns rich in saturated and trans fats are associated with higher cardiovascular risk; patterns emphasizing unsaturated fats are associated with lower risk. These are population-level associations; individual risk management belongs to the care team.
+- **Fat-soluble vitamins:** Vitamins A, D, E, and K require dietary fat for absorption. Fat malabsorption (from conditions affecting bile or pancreatic enzymes) puts these vitamins at risk — a concept nurses should recognize and refer.
+- **Label literacy:** Patients ask nurses constantly, "Is this healthy?" Understanding saturated fat, trans fat, and serving sizes lets you teach patients to evaluate foods themselves.
+- **Satiety and flavor:** Fat slows stomach emptying and adds mouthfeel, which is why fatty foods feel satisfying — and why "fat-free" versions are not automatically healthier.
+
+## Core Concepts
+
+### What a fat molecule looks like
+
+Dietary fats are mostly **triglycerides**: one glycerol "backbone" with three fatty acids attached, like a three-pronged holder holding three candles. A fatty acid is a chain of carbons with hydrogens attached; the chain's shape determines how the fat behaves:
+
+- **Saturated fatty acids** have no double bonds — straight chains that pack tightly and are solid at room temperature (butter, lard, coconut oil).
+- **Monounsaturated fatty acids** have one double bond, putting a kink in the chain (olive oil, canola oil, avocado, most nuts).
+- **Polyunsaturated fatty acids** have two or more double bonds and are even more fluid (vegetable oils, fatty fish, walnuts, flaxseed).
+
+The kinks from double bonds keep unsaturated fats liquid — pure chemistry that explains why olive oil pours and butter doesn't.
+
+### Saturated, unsaturated, and trans fats
+
+- **Saturated fats** dominate in animal foods (meat fat, butter, cheese, cream) and some plant oils (coconut, palm). High intake is associated with higher LDL cholesterol and cardiovascular risk in population studies, which is why guidance often suggests limiting them.
+- **Unsaturated fats** — the fats in olive oil, nuts, seeds, avocados, and fish — are what most dietary patterns encourage.
+- **Trans fats** are created by partial hydrogenation, which adds hydrogen and straightens chains, turning liquid oil into semi-solid spread. Industrially produced trans fats are strongly associated with higher cardiovascular risk, and many countries restrict them. "Partially hydrogenated oil" on a label is a red flag worth teaching patients to spot.
+
+### Essential fatty acids and cholesterol
+
+Two fatty acids are **essential**: **linoleic acid** (omega-6, in vegetable oils, nuts, seeds) and **alpha-linolenic acid** (omega-3, in flaxseed, walnuts, canola oil). The body uses them to build signaling molecules and membranes. Longer-chain omega-3s (EPA, DHA) come mainly from fatty fish and are sometimes called conditionally essential because conversion from alpha-linolenic acid is limited.
+
+**Cholesterol** is a different lipid — not a fatty acid and not essential in the diet, because the liver makes all the body needs. It is a membrane component and precursor of steroid hormones and vitamin D. In blood, cholesterol travels inside **lipoproteins**: LDL (low-density) delivers cholesterol to tissues; HDL (high-density) is involved in returning it. These are blood particles, not foods. Current dietary guidance has shifted focus from food cholesterol toward the *types* of fat eaten, but recommendations continue to evolve — nurses should teach the general concept and defer specific targets to the care team.
+
+### Digestion and absorption: the lymph detour
+
+Fat digestion is slow and needs help. Lingual and gastric lipases start the work, but the main action is in the small intestine: **bile** (made in the liver, stored in the gallbladder) emulsifies fat into tiny droplets, and pancreatic lipase breaks triglycerides into fatty acids and monoglycerides. Intestinal cells reassemble them into triglycerides and package them into **chylomicrons** — lipoproteins that travel through the lymphatic system before entering the blood. This detour is why fat absorption is slower than carbohydrate absorption, and why disrupted bile or pancreatic function can cause fatty stools and fat-soluble vitamin deficiency.
+
+### Fat storage
+
+Beyond meals, the body stores excess energy as fat in **adipose tissue**, which cushions organs, insulates, and releases fatty acids as fuel between meals. Body fat is also hormonally active; nurses discuss weight with person-first language and without assumptions about habits.
+
+## ELI-10: Explain Like I'm 10
+
+Fats are like oil for the body — they store energy, build the walls of every cell, and carry important vitamins. Some fats are solid like butter and some are liquid like olive oil because of the shape of their tiny parts. A few fats are so important that your body can't make them, so you have to eat them — like fish, nuts, and seeds.
+
+## High-Yield Points
+
+- Fats provide ~9 kcal/g — the most energy-dense macronutrient.
+- Triglyceride = glycerol + three fatty acids; saturation (number of double bonds) determines solid vs. liquid at room temperature.
+- Saturated fats are mostly animal; unsaturated fats come from plants and fish; industrial trans fats are associated with cardiovascular risk.
+- Linoleic acid (omega-6) and alpha-linolenic acid (omega-3) are essential fatty acids.
+- Cholesterol is made by the body; LDL and HDL are blood lipoproteins that transport it — food cholesterol and blood cholesterol are different concepts.
+- Fat absorption requires bile and pancreatic lipase; chylomicrons carry dietary fat through the lymph.
+- Dietary fat is needed to absorb vitamins A, D, E, and K.
+- "Fat-free" does not automatically mean healthier; read the full label.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Lipid | Water-insoluble molecule family including fats and oils | The chemical class of dietary fats |
+| Triglyceride | Glycerol backbone + three fatty acids; the main dietary fat form | The structure of nearly all fat you eat |
+| Saturated fatty acid | No double bonds; straight chains, solid at room temperature | Associated with higher cardiovascular risk in population studies |
+| Unsaturated fatty acid | One or more double bonds; liquid at room temperature | The fats most dietary patterns emphasize |
+| Trans fat | Fat from partial hydrogenation; semi-solid | Strongly associated with cardiovascular risk; label red flag |
+| Essential fatty acid | Fat the body cannot make (omega-6 linoleic, omega-3 alpha-linolenic) | Must come from food; supports membranes and signaling |
+| Cholesterol | Lipid made by the body; membrane component, hormone precursor | Not essential in diet; carried by lipoproteins in blood |
+| Lipoprotein | Protein–lipid particle carrying cholesterol and fat in blood (LDL, HDL, chylomicrons) | Explains how fats travel in watery blood |
+| Chylomicron | Lipoprotein carrying dietary fat from intestine through lymph | The unique absorption pathway of dietary fat |
+| Emulsification | Bile breaking fat into tiny droplets | Required step that lets lipase digest fat |
+
+## Example: Reading a Nutrition Label Together
+
+A patient in cardiac rehabilitation holds up crackers and asks, "These say zero cholesterol — so they're fine, right?"
+
+1. **Check fat types, not just totals.** The nurse points to saturated and trans fat, explaining that "zero cholesterol" refers to food cholesterol, which is only part of the picture.
+2. **Scan the ingredients.** "Partially hydrogenated oil" would be the phrase to avoid; this product lacks it, and its fat is mostly unsaturated oil.
+3. **Check the serving size.** The "per serving" numbers assume a small portion.
+4. **Keep it practical.** The nurse suggests treating crackers as a sometimes-food and pairing them with protein and fiber — without prescribing amounts, which come from the RD and care team.
+
+The lesson: label reading is a teachable nursing skill, and it starts with fat *type*, not one number.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Food cholesterol | Blood cholesterol (LDL/HDL) | Food contains cholesterol; blood lipoproteins carry it; different measures |
+| Saturated fat | Trans fat | Both are solid-ish, but industrial trans fats come from hydrogenation and carry higher risk |
+| "Fat-free" | "Healthy" | Fat-free products often add sugar and starch for texture |
+| Dietary fat | Body fat | Excess calories of any kind store as fat; eating fat does not automatically create body fat |
+| All unsaturated fats | Identical fats | Monounsaturated and polyunsaturated differ; omega-3 and omega-6 have different roles |
+| Total fat on label | Fat quality | Guidance emphasizes fat types over total amount |
+
+## Quick Review
+
+1. Why is olive oil liquid at room temperature while butter is solid?
+2. Name the two essential fatty acids and give an example food source of each.
+3. What are the roles of bile and pancreatic lipase, and why do chylomicrons travel through the lymph?
+4. Why are vitamins A, D, E, and K at risk with fat malabsorption?
+5. A patient says, "I eat zero cholesterol foods, so my heart is fine." What is the more complete picture?
+6. What label phrase should you teach patients to recognize as a trans-fat red flag?
+
+<details>
+<summary>Show answers</summary>
+
+1. Butter is mostly saturated fat — straight chains pack tightly and stay solid. Olive oil is mostly monounsaturated fat — double-bond kinks keep chains loose and liquid.
+2. Linoleic acid (omega-6; vegetable oils, nuts, seeds) and alpha-linolenic acid (omega-3; flaxseed, walnuts, canola oil); fatty fish provides EPA/DHA.
+3. Bile emulsifies fat so pancreatic lipase can digest it; absorbed fats are repackaged into chylomicrons entering the blood via lymph.
+4. These vitamins dissolve in fat and are absorbed along with it; when fat absorption fails, their absorption fails too.
+5. Food cholesterol is only part of the picture; current guidance emphasizes fat types and overall pattern, with individualized targets from the care team.
+6. "Partially hydrogenated oil" — the marker of industrial trans fats, associated with higher cardiovascular risk.
+
+</details>
+
+## Related Topics
+
+- Previous: [Carbohydrates](01-carbohydrates.md)
+- Next: [Protein](03-protein.md)
+- Related: [Hydration](04-hydration.md)
+- Chapter: [A Holistic View of Macronutrients chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Nutrition for Nurses
+- Local outline source: `nutrition.md`
+- Official source URL: https://openstax.org/details/books/nutrition/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: Educational content only; lipid targets and dietary therapy require individualized plans from an RD and care team. Population-level associations are described as associations, not prescriptions. Flag for source/SME review before clinical use.
+- Last updated: 2026-08-15

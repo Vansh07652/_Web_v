@@ -1,0 +1,588 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:general-chemistry-1",
+    "slug": "general-chemistry-1",
+    "title": "General Chemistry I",
+    "aliases": [],
+    "status": "final",
+    "category": "pre-health-core"
+  },
+  "units": [
+    {
+      "id": "unit:general-chemistry-1:measurement-and-math",
+      "slug": "measurement-and-math",
+      "title": "Measurement and Math",
+      "order": 1,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:general-chemistry-1:measurement-and-math:matter-and-measurement",
+          "slug": "matter-and-measurement",
+          "title": "Matter and Measurement",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/measurement-and-math/matter-and-measurement.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:measurement-and-math:the-mole-and-molar-mass",
+          "slug": "the-mole-and-molar-mass",
+          "title": "The Mole and Molar Mass",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/measurement-and-math/the-mole-and-molar-mass.json",
+          "mappedQuestionCount": 13,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 13
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:measurement-and-math:solution-stoichiometry",
+          "slug": "solution-stoichiometry",
+          "title": "Solution Stoichiometry",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/measurement-and-math/solution-stoichiometry.json",
+          "mappedQuestionCount": 1,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:general-chemistry-1:atomic-structure",
+      "slug": "atomic-structure",
+      "title": "Atomic Structure",
+      "order": 2,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:general-chemistry-1:atomic-structure:atomic-theory-and-structure",
+          "slug": "atomic-theory-and-structure",
+          "title": "Atomic Theory and Structure",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/atomic-structure/atomic-theory-and-structure.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:atomic-structure:introduction-to-the-periodic-table",
+          "slug": "introduction-to-the-periodic-table",
+          "title": "Introduction to the Periodic Table",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/atomic-structure/introduction-to-the-periodic-table.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:atomic-structure:the-nature-of-light",
+          "slug": "the-nature-of-light",
+          "title": "The Nature of Light",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/atomic-structure/the-nature-of-light.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:atomic-structure:bohr-model-and-quantum-mechanics",
+          "slug": "bohr-model-and-quantum-mechanics",
+          "title": "Bohr Model and Quantum Mechanics",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/atomic-structure/bohr-model-and-quantum-mechanics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:atomic-structure:quantum-numbers-and-atomic-orbitals",
+          "slug": "quantum-numbers-and-atomic-orbitals",
+          "title": "Quantum Numbers and Atomic Orbitals",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/atomic-structure/quantum-numbers-and-atomic-orbitals.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:atomic-structure:electron-configurations",
+          "slug": "electron-configurations",
+          "title": "Electron Configurations",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/atomic-structure/electron-configurations.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:atomic-structure:effective-nuclear-charge",
+          "slug": "effective-nuclear-charge",
+          "title": "Effective Nuclear Charge",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/atomic-structure/effective-nuclear-charge.json",
+          "mappedQuestionCount": 1,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 1
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:atomic-structure:periodic-trends",
+          "slug": "periodic-trends",
+          "title": "Periodic Trends",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/atomic-structure/periodic-trends.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:general-chemistry-1:core-concept",
+      "slug": "core-concept",
+      "title": "Core Concept",
+      "order": 3,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:general-chemistry-1:core-concept:chemical-formulas-and-naming",
+          "slug": "chemical-formulas-and-naming",
+          "title": "Chemical Formulas and Naming",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/core-concept/chemical-formulas-and-naming.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:core-concept:properties-of-aqueous-solutions",
+          "slug": "properties-of-aqueous-solutions",
+          "title": "Properties of Aqueous Solutions",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/core-concept/properties-of-aqueous-solutions.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:core-concept:properties-of-gases",
+          "slug": "properties-of-gases",
+          "title": "Properties of Gases",
+          "order": 25,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/core-concept/properties-of-gases.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:core-concept:the-gas-laws",
+          "slug": "the-gas-laws",
+          "title": "The Gas Laws",
+          "order": 26,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/core-concept/the-gas-laws.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:core-concept:kinetic-molecular-theory",
+          "slug": "kinetic-molecular-theory",
+          "title": "Kinetic Molecular Theory",
+          "order": 28,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/core-concept/kinetic-molecular-theory.json",
+          "mappedQuestionCount": 1,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:general-chemistry-1:chemical-process",
+      "slug": "chemical-process",
+      "title": "Chemical Process",
+      "order": 4,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:general-chemistry-1:chemical-process:chemical-equations-and-reaction-stoichiometry",
+          "slug": "chemical-equations-and-reaction-stoichiometry",
+          "title": "Chemical Equations and Reaction Stoichiometry",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/chemical-process/chemical-equations-and-reaction-stoichiometry.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:chemical-process:types-of-chemical-reactions",
+          "slug": "types-of-chemical-reactions",
+          "title": "Types of Chemical Reactions",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/chemical-process/types-of-chemical-reactions.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:chemical-process:gas-mixtures-and-stoichiometry",
+          "slug": "gas-mixtures-and-stoichiometry",
+          "title": "Gas Mixtures and Stoichiometry",
+          "order": 27,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/chemical-process/gas-mixtures-and-stoichiometry.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:general-chemistry-1:energy-and-thermodynamics",
+      "slug": "energy-and-thermodynamics",
+      "title": "Energy and Thermodynamics",
+      "order": 5,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:general-chemistry-1:energy-and-thermodynamics:energy-and-heat",
+          "slug": "energy-and-heat",
+          "title": "Energy and Heat",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/energy-and-thermodynamics/energy-and-heat.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:energy-and-thermodynamics:calorimetry",
+          "slug": "calorimetry",
+          "title": "Calorimetry",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/energy-and-thermodynamics/calorimetry.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:energy-and-thermodynamics:enthalpy",
+          "slug": "enthalpy",
+          "title": "Enthalpy",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/energy-and-thermodynamics/enthalpy.json",
+          "mappedQuestionCount": 1,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:general-chemistry-1:structure-and-bonding",
+      "slug": "structure-and-bonding",
+      "title": "Structure and Bonding",
+      "order": 6,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:general-chemistry-1:structure-and-bonding:ionic-and-covalent-bonding",
+          "slug": "ionic-and-covalent-bonding",
+          "title": "Ionic and Covalent Bonding",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/structure-and-bonding/ionic-and-covalent-bonding.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:structure-and-bonding:lewis-structures",
+          "slug": "lewis-structures",
+          "title": "Lewis Structures",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/structure-and-bonding/lewis-structures.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:structure-and-bonding:bond-properties",
+          "slug": "bond-properties",
+          "title": "Bond Properties",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/structure-and-bonding/bond-properties.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:structure-and-bonding:vsepr-theory",
+          "slug": "vsepr-theory",
+          "title": "VSEPR Theory",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/structure-and-bonding/vsepr-theory.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:structure-and-bonding:valence-bond-theory",
+          "slug": "valence-bond-theory",
+          "title": "Valence Bond Theory",
+          "order": 23,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/structure-and-bonding/valence-bond-theory.json",
+          "mappedQuestionCount": 2,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 2
+          }
+        },
+        {
+          "id": "topic:general-chemistry-1:structure-and-bonding:molecular-orbital-mo-theory",
+          "slug": "molecular-orbital-mo-theory",
+          "title": "Molecular Orbital (MO) Theory",
+          "order": 24,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-chemistry-1/topics/structure-and-bonding/molecular-orbital-mo-theory.json",
+          "mappedQuestionCount": 1,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 1
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 6,
+    "topicCount": 28,
+    "teachingTopicCount": 28,
+    "eli10TopicCount": 28,
+    "highYieldTopicCount": 28,
+    "referencedTopicCount": 0,
+    "exactOrMappedQuestionCount": 32,
+    "subjectWideQuestionCount": 554,
+    "uniqueQuestionCount": 586,
+    "citationReviewRequiredCount": 490
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

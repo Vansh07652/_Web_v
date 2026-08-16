@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:acid-base-equilibria:acid-base-models",
+  "slug": "acid-base-models",
+  "title": "Arrhenius, Brønsted–Lowry, and Lewis Acid–Base Models",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:acid-base-equilibria",
+    "slug": "acid-base-equilibria",
+    "title": "Acid Base Equilibria",
+    "order": 5
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "Acids and bases are defined by three nested models of increasing generality. The **Arrhenius** model says an acid produces H⁺ in water and a base produces OH⁻. The **Brønsted–Lowry** model reframes this as *proton transfer*: an acid is a proton donor, a base a proton acceptor, and every acid–base reaction leaves behind a conjugate pair. The **Lewis** model is the most general of all: an acid is an *electron-pair acceptor* and a base an *electron-pair donor*, so it covers reactions that involve no proton at all. Each later model contains the earlier one, and the Brønsted–Lowry model is the workhorse of aqueous acid–base equilibria.",
+    "whyItMatters": "The three models explain why the same word \"acid\" covers vinegar (CH₃COOH), stomach acid (HCl), and electron-hungry boron trifluoride. The Lewis model underlies coordination chemistry, metal-ion catalysis in enzymes, and the behavior of transition-metal complexes — skills you will need in biochemistry and inorganic chemistry, where many \"acid\" reactions move no proton at all.",
+    "learningObjectives": "- Distinguish the Arrhenius, Brønsted–Lowry, and Lewis definitions of acids and bases.\n- Identify conjugate acid–base pairs in a proton-transfer reaction.\n- Recognize amphoteric species that can act as either an acid or a base.\n- Classify a reaction as a Lewis acid–base (coordination) reaction when no proton is transferred.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nAcids and bases are defined by three nested models of increasing generality. The **Arrhenius** model says an acid produces H⁺ in water and a base produces OH⁻. The **Brønsted–Lowry** model reframes this as *proton transfer*: an acid is a proton donor, a base a proton acceptor, and every acid–base reaction leaves behind a conjugate pair. The **Lewis** model is the most general of all: an acid is an *electron-pair acceptor* and a base an *electron-pair donor*, so it covers reactions that involve no proton at all. Each later model contains the earlier one, and the Brønsted–Lowry model is the workhorse of aqueous acid–base equilibria.\n\n### Key Ideas\n\n- **Arrhenius (1884):** acid → H⁺(aq); base → OH⁻(aq). Limited to aqueous solutions; treats H⁺ as a bare proton and fails for bases like NH₃.\n- **Brønsted–Lowry (1923):** acid = proton donor; base = proton acceptor. Works in any solvent; requires a conjugate pair.\n- **Conjugate pair:** after an acid donates H⁺, the species that remains is its conjugate base (one fewer H, one more negative charge); after a base accepts H⁺, the product is its conjugate acid.\n- **Amphoteric / amphiprotic:** a species (water, HCO₃⁻, H₂PO₄⁻) that can both donate and accept protons.\n- **Lewis (1923):** acid = electron-pair acceptor; base = electron-pair donor. Covers BF₃, metal cations, and every Brønsted reaction.\n\n### Equations and Variables\n\n- Brønsted acid ionization: HA + H₂O ⇌ H₃O⁺ + A⁻ (A⁻ = conjugate base)\n- Brønsted base ionization: B + H₂O ⇌ BH⁺ + OH⁻ (BH⁺ = conjugate acid)\n- Conjugate pair shorthand: HCl / Cl⁻, NH₄⁺ / NH₃, H₂O / OH⁻, H₃O⁺ / H₂O\n- Lewis adduct formation: BF₃ + :NH₃ → F₃B–NH₃ (BF₃ = Lewis acid, NH₃ = Lewis base)\n\n### How It Works\n\n1. In the Brønsted–Lowry picture, a proton (H⁺, just a bare nucleus) moves from the acid to the base, but only when the base has a lone pair to grab it.\n2. The acid **donates** H⁺ and becomes its conjugate base (one charge unit more negative). Example: HCl → Cl⁻.\n3. The base **accepts** H⁺ and becomes its conjugate acid (one charge unit more positive). Example: NH₃ → NH₄⁺.\n4. The reaction is always written in both directions, so *every* Brønsted reaction has two conjugate pairs, one on each side.\n5. The Lewis model looks one level deeper: it ignores the proton and asks \"who is accepting a lone pair?\" A Brønsted acid's H⁺ accepts the base's lone pair, so every Brønsted acid is automatically a Lewis acid.\n\n### Worked Example\n\n**Identify the conjugate pairs and the Lewis roles in each reaction.**\n\n(a) HF + H₂O ⇌ H₃O⁺ + F⁻\n- HF donates H⁺ → its conjugate base is F⁻.\n- H₂O accepts H⁺ → its conjugate acid is H₃O⁺.\n- Pairs: (HF/F⁻) and (H₃O⁺/H₂O).\n\n(b) BF₃ + :NH₃ → F₃B–NH₃\n- No proton moves. NH₃ donates its lone pair (Lewis base); BF₃ accepts it (Lewis acid). This is a Lewis acid–base reaction that is *not* a Brønsted reaction, because BF₃ has no H to give.",
+    "howItWorks": "1. In the Brønsted–Lowry picture, a proton (H⁺, just a bare nucleus) moves from the acid to the base, but only when the base has a lone pair to grab it.\n2. The acid **donates** H⁺ and becomes its conjugate base (one charge unit more negative). Example: HCl → Cl⁻.\n3. The base **accepts** H⁺ and becomes its conjugate acid (one charge unit more positive). Example: NH₃ → NH₄⁺.\n4. The reaction is always written in both directions, so *every* Brønsted reaction has two conjugate pairs, one on each side.\n5. The Lewis model looks one level deeper: it ignores the proton and asks \"who is accepting a lone pair?\" A Brønsted acid's H⁺ accepts the base's lone pair, so every Brønsted acid is automatically a Lewis acid.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Brønsted–Lowry acid = proton donor; base = proton acceptor; they always come in conjugate pairs.\n- A conjugate base has one fewer H and one more negative charge than its acid; a conjugate acid has one more H and one more positive charge than its base.\n- Water is amphoteric: H₂O + H₂O ⇌ H₃O⁺ + OH⁻ (autoionization).\n- Every Arrhenius acid is a Brønsted–Lowry acid, but not every Brønsted acid is Arrhenius (NH₄⁺ works in non-aqueous solvents).\n- Every Brønsted acid is a Lewis acid, but BF₃ and metal cations are Lewis acids that are not Brønsted acids.\n- A strong acid has a weak conjugate base, and vice versa.",
+    "commonConfusions": "- **\"H⁺ and H₃O⁺ are different substances.\"** — In water, a bare H⁺ immediately attaches to H₂O to form H₃O⁺ (hydronium); the two notations are used interchangeably for aqueous work.\n- **\"A conjugate base is a base in its own right.\"** — It *is* a base in the reverse reaction, but \"conjugate\" just labels the partner; whether it is appreciably basic depends on strength.\n- **\"Lewis acids must contain hydrogen.\"** — Wrong; BF₃, AlCl₃, and Fe³⁺ are Lewis acids with no acidic proton.\n- **\"Arrhenius and Brønsted are equally general.\"** — Brønsted is broader; it explains NH₃ and works in non-aqueous solvents.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a proton as a hot potato. A Brønsted acid is someone *handing you* the potato, and a base is someone *taking* it. Hand it over and you're left with a \"conjugate base\" — the person minus one potato. Now imagine the Lewis model: it's not about the potato at all, it's about an empty seat. A Lewis acid has an empty seat, and a Lewis base has an extra pillow (a lone pair) to put in that seat. (The potato analogy ignores that a lone pair is what really does the grabbing — in reality the base's electron pair reaches for the proton.)",
+    "quickReview": "- Arrhenius: H⁺ producer (acid) / OH⁻ producer (base), aqueous only.\n- Brønsted–Lowry: proton donor / proton acceptor, conjugate pairs, amphoteric water.\n- Lewis: electron-pair acceptor / donor, most general, no proton required.\n- HF/F⁻, H₃O⁺/H₂O, NH₄⁺/NH₃ are classic conjugate pairs.\n- BF₃ + NH₃ is Lewis-only; HF + H₂O is both Brønsted and Lewis.",
+    "workedExamples": "### Worked Example\n\n**Identify the conjugate pairs and the Lewis roles in each reaction.**\n\n(a) HF + H₂O ⇌ H₃O⁺ + F⁻\n- HF donates H⁺ → its conjugate base is F⁻.\n- H₂O accepts H⁺ → its conjugate acid is H₃O⁺.\n- Pairs: (HF/F⁻) and (H₃O⁺/H₂O).\n\n(b) BF₃ + :NH₃ → F₃B–NH₃\n- No proton moves. NH₃ donates its lone pair (Lewis base); BF₃ accepts it (Lewis acid). This is a Lewis acid–base reaction that is *not* a Brønsted reaction, because BF₃ has no H to give.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.1 Brønsted-Lowry Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"15.2 Lewis Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/15-2-lewis-acids-and-bases",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-2-lewis-acids-and-bases"
+      },
+      {
+        "text": "Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "acid-base-models",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "01-acid-base-models",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:f42f5068d104cd3f"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:f42f5068d104cd3f"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:f42f5068d104cd3f"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:f42f5068d104cd3f"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/14-acid-base-equilibria/01-acid-base-models.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Arrhenius, Brønsted–Lowry, and Lewis Acid–Base Models\n\n## Learning Goals\n- Distinguish the Arrhenius, Brønsted–Lowry, and Lewis definitions of acids and bases.\n- Identify conjugate acid–base pairs in a proton-transfer reaction.\n- Recognize amphoteric species that can act as either an acid or a base.\n- Classify a reaction as a Lewis acid–base (coordination) reaction when no proton is transferred.\n\n## Core Concept\nAcids and bases are defined by three nested models of increasing generality. The **Arrhenius** model says an acid produces H⁺ in water and a base produces OH⁻. The **Brønsted–Lowry** model reframes this as *proton transfer*: an acid is a proton donor, a base a proton acceptor, and every acid–base reaction leaves behind a conjugate pair. The **Lewis** model is the most general of all: an acid is an *electron-pair acceptor* and a base an *electron-pair donor*, so it covers reactions that involve no proton at all. Each later model contains the earlier one, and the Brønsted–Lowry model is the workhorse of aqueous acid–base equilibria.\n\n## Key Ideas\n- **Arrhenius (1884):** acid → H⁺(aq); base → OH⁻(aq). Limited to aqueous solutions; treats H⁺ as a bare proton and fails for bases like NH₃.\n- **Brønsted–Lowry (1923):** acid = proton donor; base = proton acceptor. Works in any solvent; requires a conjugate pair.\n- **Conjugate pair:** after an acid donates H⁺, the species that remains is its conjugate base (one fewer H, one more negative charge); after a base accepts H⁺, the product is its conjugate acid.\n- **Amphoteric / amphiprotic:** a species (water, HCO₃⁻, H₂PO₄⁻) that can both donate and accept protons.\n- **Lewis (1923):** acid = electron-pair acceptor; base = electron-pair donor. Covers BF₃, metal cations, and every Brønsted reaction.\n\n## Equations and Variables\n- Brønsted acid ionization: HA + H₂O ⇌ H₃O⁺ + A⁻ (A⁻ = conjugate base)\n- Brønsted base ionization: B + H₂O ⇌ BH⁺ + OH⁻ (BH⁺ = conjugate acid)\n- Conjugate pair shorthand: HCl / Cl⁻, NH₄⁺ / NH₃, H₂O / OH⁻, H₃O⁺ / H₂O\n- Lewis adduct formation: BF₃ + :NH₃ → F₃B–NH₃ (BF₃ = Lewis acid, NH₃ = Lewis base)\n\n## How It Works\n1. In the Brønsted–Lowry picture, a proton (H⁺, just a bare nucleus) moves from the acid to the base, but only when the base has a lone pair to grab it.\n2. The acid **donates** H⁺ and becomes its conjugate base (one charge unit more negative). Example: HCl → Cl⁻.\n3. The base **accepts** H⁺ and becomes its conjugate acid (one charge unit more positive). Example: NH₃ → NH₄⁺.\n4. The reaction is always written in both directions, so *every* Brønsted reaction has two conjugate pairs, one on each side.\n5. The Lewis model looks one level deeper: it ignores the proton and asks \"who is accepting a lone pair?\" A Brønsted acid's H⁺ accepts the base's lone pair, so every Brønsted acid is automatically a Lewis acid.\n\n## Worked Example\n**Identify the conjugate pairs and the Lewis roles in each reaction.**\n\n(a) HF + H₂O ⇌ H₃O⁺ + F⁻\n- HF donates H⁺ → its conjugate base is F⁻.\n- H₂O accepts H⁺ → its conjugate acid is H₃O⁺.\n- Pairs: (HF/F⁻) and (H₃O⁺/H₂O).\n\n(b) BF₃ + :NH₃ → F₃B–NH₃\n- No proton moves. NH₃ donates its lone pair (Lewis base); BF₃ accepts it (Lewis acid). This is a Lewis acid–base reaction that is *not* a Brønsted reaction, because BF₃ has no H to give.\n\n## Why It Matters\nThe three models explain why the same word \"acid\" covers vinegar (CH₃COOH), stomach acid (HCl), and electron-hungry boron trifluoride. The Lewis model underlies coordination chemistry, metal-ion catalysis in enzymes, and the behavior of transition-metal complexes — skills you will need in biochemistry and inorganic chemistry, where many \"acid\" reactions move no proton at all.\n\n## High-Yield Facts\n- Brønsted–Lowry acid = proton donor; base = proton acceptor; they always come in conjugate pairs.\n- A conjugate base has one fewer H and one more negative charge than its acid; a conjugate acid has one more H and one more positive charge than its base.\n- Water is amphoteric: H₂O + H₂O ⇌ H₃O⁺ + OH⁻ (autoionization).\n- Every Arrhenius acid is a Brønsted–Lowry acid, but not every Brønsted acid is Arrhenius (NH₄⁺ works in non-aqueous solvents).\n- Every Brønsted acid is a Lewis acid, but BF₃ and metal cations are Lewis acids that are not Brønsted acids.\n- A strong acid has a weak conjugate base, and vice versa.\n\n## Eli Explains\nThink of a proton as a hot potato. A Brønsted acid is someone *handing you* the potato, and a base is someone *taking* it. Hand it over and you're left with a \"conjugate base\" — the person minus one potato. Now imagine the Lewis model: it's not about the potato at all, it's about an empty seat. A Lewis acid has an empty seat, and a Lewis base has an extra pillow (a lone pair) to put in that seat. (The potato analogy ignores that a lone pair is what really does the grabbing — in reality the base's electron pair reaches for the proton.)\n\n## Common Confusions\n- **\"H⁺ and H₃O⁺ are different substances.\"** — In water, a bare H⁺ immediately attaches to H₂O to form H₃O⁺ (hydronium); the two notations are used interchangeably for aqueous work.\n- **\"A conjugate base is a base in its own right.\"** — It *is* a base in the reverse reaction, but \"conjugate\" just labels the partner; whether it is appreciably basic depends on strength.\n- **\"Lewis acids must contain hydrogen.\"** — Wrong; BF₃, AlCl₃, and Fe³⁺ are Lewis acids with no acidic proton.\n- **\"Arrhenius and Brønsted are equally general.\"** — Brønsted is broader; it explains NH₃ and works in non-aqueous solvents.\n\n## Quick Review\n- Arrhenius: H⁺ producer (acid) / OH⁻ producer (base), aqueous only.\n- Brønsted–Lowry: proton donor / proton acceptor, conjugate pairs, amphoteric water.\n- Lewis: electron-pair acceptor / donor, most general, no proton required.\n- HF/F⁻, H₃O⁺/H₂O, NH₄⁺/NH₃ are classic conjugate pairs.\n- BF₃ + NH₃ is Lewis-only; HF + H₂O is both Brønsted and Lewis.\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"14.1 Brønsted-Lowry Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases\n- OpenStax, *Chemistry 2e*, \"15.2 Lewis Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/15-2-lewis-acids-and-bases\n- Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n"
+}

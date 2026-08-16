@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:acid-base-equilibria:salt-hydrolysis",
+  "slug": "salt-hydrolysis",
+  "title": "Hydrolysis of Salts: Acidic, Basic, and Neutral Solutions",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:acid-base-equilibria",
+    "slug": "acid-base-equilibria",
+    "title": "Acid Base Equilibria",
+    "order": 5
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "When a salt dissolves, its ions may react with water in a process called **hydrolysis** (literally \"water-splitting\"). Whether the resulting solution is acidic, basic, or neutral is decided by the ions' parent acid and base. The rule of thumb: the cation of a *strong base* and the anion of a *strong acid* are spectators (neutral solution); the cation of a weak base (or a small, highly charged metal ion) makes the solution acidic; and the anion of a weak acid makes it basic.",
+    "whyItMatters": "Salt hydrolysis explains the everyday pH of household and biological solutions: why baking soda (NaHCO₃) and soap (sodium salts of fatty acids) feel slippery and basic, why ammonium fertilizers acidify soil, and why many metal salts (alum, ferric chloride) are acidic in water — a fact used in water treatment and antiperspirants. It is also the key to understanding how buffers resist pH change.",
+    "learningObjectives": "- Predict whether a salt solution is acidic, basic, or neutral.\n- Write the hydrolysis reaction of an acidic or basic ion.\n- Calculate the pH of a salt solution using Ka or Kb.\n- Relate salt behavior to the strength of the parent acid and base.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nWhen a salt dissolves, its ions may react with water in a process called **hydrolysis** (literally \"water-splitting\"). Whether the resulting solution is acidic, basic, or neutral is decided by the ions' parent acid and base. The rule of thumb: the cation of a *strong base* and the anion of a *strong acid* are spectators (neutral solution); the cation of a weak base (or a small, highly charged metal ion) makes the solution acidic; and the anion of a weak acid makes it basic.\n\n### Key Ideas\n\n- **Neutral:** strong acid + strong base → neither ion hydrolyzes (NaCl, KNO₃, CaCl₂).\n- **Acidic:** strong acid + weak base → the cation hydrolyzes (NH₄Cl → NH₄⁺ donates H⁺).\n- **Basic:** weak acid + strong base → the anion hydrolyzes (NaCH₃COO → CH₃COO⁻ accepts H⁺).\n- **Both hydrolyze:** weak acid + weak base → compare Ka of the cation to Kb of the anion (NH₄CH₃COO ≈ neutral; NH₄CN is basic).\n- **Metal-cation acidity:** small, highly charged cations (Fe³⁺, Al³⁺, Cu²⁺) polarize water and release H⁺, giving acidic solutions even without a proton to donate.\n\n### Equations and Variables\n\n- Acidic cation: NH₄⁺ + H₂O ⇌ H₃O⁺ + NH₃, Ka = Kw/Kb(NH₃)\n- Basic anion: CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻, Kb = Kw/Ka(CH₃COOH)\n- Metal ion: [Fe(H₂O)₆]³⁺ + H₂O ⇌ [Fe(H₂O)₅OH]²⁺ + H₃O⁺\n- For an acidic salt: [H₃O⁺] = √(Ka × C_salt)\n- For a basic salt: [OH⁻] = √(Kb × C_salt)\n\n### How It Works\n\n1. Split the salt into its ions and identify the \"parent\" acid and base that would form each ion.\n2. The conjugate of a *strong* acid (e.g., Cl⁻) or *strong* base (e.g., Na⁺) is too weak to hydrolyze — it is a spectator.\n3. The conjugate of a *weak* acid (CH₃COO⁻) hydrolyzes as a base; the conjugate of a *weak* base (NH₄⁺) hydrolyzes as an acid.\n4. Convert the needed Ka or Kb using Ka × Kb = Kw.\n5. Solve with an ICE table to get [H₃O⁺] or [OH⁻], then the pH.\n6. When both ions hydrolyze, compare their Ka and Kb to decide the net direction.\n\n### Worked Example\n\n**Predict whether each solution is acidic, basic, or neutral, and find the pH of 0.10 M NaF (Ka of HF = 6.8 × 10⁻⁴).**\n\n- NaCl: Na⁺ (from NaOH, strong) and Cl⁻ (from HCl, strong) → neutral.\n- NH₄Cl: Cl⁻ spectator; NH₄⁺ (from weak NH₃) → acidic.\n- NaF: Na⁺ spectator; F⁻ is the conjugate base of weak HF → basic.\n\nFor 0.10 M NaF:\n\nKb(F⁻) = Kw / Ka(HF) = (1.0 × 10⁻¹⁴) / (6.8 × 10⁻⁴) = 1.47 × 10⁻¹¹\n\nF⁻ + H₂O ⇌ HF + OH⁻; Kb = x²/(0.10 − x) ≈ x²/0.10\n\nx = [OH⁻] = √(1.47 × 10⁻¹¹ × 0.10) = √(1.47 × 10⁻¹²) = 1.21 × 10⁻⁶ M\n\npOH = 5.92 → pH = 14.00 − 5.92 = 8.08 (basic) ✓",
+    "howItWorks": "1. Split the salt into its ions and identify the \"parent\" acid and base that would form each ion.\n2. The conjugate of a *strong* acid (e.g., Cl⁻) or *strong* base (e.g., Na⁺) is too weak to hydrolyze — it is a spectator.\n3. The conjugate of a *weak* acid (CH₃COO⁻) hydrolyzes as a base; the conjugate of a *weak* base (NH₄⁺) hydrolyzes as an acid.\n4. Convert the needed Ka or Kb using Ka × Kb = Kw.\n5. Solve with an ICE table to get [H₃O⁺] or [OH⁻], then the pH.\n6. When both ions hydrolyze, compare their Ka and Kb to decide the net direction.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Strong acid + strong base salt → neutral (spectator ions only).\n- Strong acid + weak base salt → acidic (cation hydrolyzes).\n- Weak acid + strong base salt → basic (anion hydrolyzes).\n- Weak acid + weak base salt → compare Ka(cation) vs Kb(anion).\n- Conjugate of a strong acid/base never hydrolyzes appreciably.\n- Fe³⁺, Al³⁺, Cu²⁺ give acidic solutions by polarizing water.",
+    "commonConfusions": "- **\"All salts are neutral.\"** — Only strong-acid/strong-base salts are; many common salts are acidic or basic.\n- **\"Na⁺ or Cl⁻ hydrolyzes.\"** — They are spectators; they are conjugates of a strong base/acid and are too weak to react.\n- **\"NH₄Cl is basic because NH₃ is a base.\"** — NH₄⁺ is the *acid* form of ammonia; it donates a proton and makes the solution acidic.\n- **\"Metal ions with no H can't be acidic.\"** — Small, highly charged cations (Fe³⁺, Al³⁺) release H⁺ from coordinated water molecules.\n- **\"You can skip the Kw conversion.\"** — For salt pH you must convert the weak parent's Ka to the ion's Kb (or vice versa) with Ka × Kb = Kw.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nDissolving a salt is like inviting two houseguests over — one from an \"acid family\" and one from a \"base family.\" If both come from strong families, they're polite and leave the water alone (neutral). If the acid-family guest comes from a *weak* family, they start grabbing protons and make things basic; if the base-family guest is weak, they hand out protons and make things acidic. (The analogy omits the metal-ion case, where the guest isn't \"from a weak family\" but just a small, needy ion that bullies water into giving up a proton.)",
+    "quickReview": "- Neutral: strong acid + strong base.\n- Acidic: strong acid + weak base (cation hydrolyzes).\n- Basic: weak acid + strong base (anion hydrolyzes).\n- Use Ka × Kb = Kw to convert constants for the hydrolyzing ion.\n- Metal cations Fe³⁺, Al³⁺, Cu²⁺ → acidic via water polarization.",
+    "workedExamples": "### Worked Example\n\n**Predict whether each solution is acidic, basic, or neutral, and find the pH of 0.10 M NaF (Ka of HF = 6.8 × 10⁻⁴).**\n\n- NaCl: Na⁺ (from NaOH, strong) and Cl⁻ (from HCl, strong) → neutral.\n- NH₄Cl: Cl⁻ spectator; NH₄⁺ (from weak NH₃) → acidic.\n- NaF: Na⁺ spectator; F⁻ is the conjugate base of weak HF → basic.\n\nFor 0.10 M NaF:\n\nKb(F⁻) = Kw / Ka(HF) = (1.0 × 10⁻¹⁴) / (6.8 × 10⁻⁴) = 1.47 × 10⁻¹¹\n\nF⁻ + H₂O ⇌ HF + OH⁻; Kb = x²/(0.10 − x) ≈ x²/0.10\n\nx = [OH⁻] = √(1.47 × 10⁻¹¹ × 0.10) = √(1.47 × 10⁻¹²) = 1.21 × 10⁻⁶ M\n\npOH = 5.92 → pH = 14.00 − 5.92 = 8.08 (basic) ✓",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.4 Hydrolysis of Salts.\" https://openstax.org/books/chemistry-2e/pages/14-4-hydrolysis-of-salts",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-4-hydrolysis-of-salts"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.3 Relative Strengths of Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases"
+      },
+      {
+        "text": "PubChem, \"Sodium Acetate.\" https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-acetate",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-acetate"
+      },
+      {
+        "text": "Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "salt-hydrolysis",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "09-salt-hydrolysis",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:eb80d3c1f7cfa72a"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:eb80d3c1f7cfa72a"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:eb80d3c1f7cfa72a"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:eb80d3c1f7cfa72a"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/14-acid-base-equilibria/09-salt-hydrolysis.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Hydrolysis of Salts: Acidic, Basic, and Neutral Solutions\n\n## Learning Goals\n- Predict whether a salt solution is acidic, basic, or neutral.\n- Write the hydrolysis reaction of an acidic or basic ion.\n- Calculate the pH of a salt solution using Ka or Kb.\n- Relate salt behavior to the strength of the parent acid and base.\n\n## Core Concept\nWhen a salt dissolves, its ions may react with water in a process called **hydrolysis** (literally \"water-splitting\"). Whether the resulting solution is acidic, basic, or neutral is decided by the ions' parent acid and base. The rule of thumb: the cation of a *strong base* and the anion of a *strong acid* are spectators (neutral solution); the cation of a weak base (or a small, highly charged metal ion) makes the solution acidic; and the anion of a weak acid makes it basic.\n\n## Key Ideas\n- **Neutral:** strong acid + strong base → neither ion hydrolyzes (NaCl, KNO₃, CaCl₂).\n- **Acidic:** strong acid + weak base → the cation hydrolyzes (NH₄Cl → NH₄⁺ donates H⁺).\n- **Basic:** weak acid + strong base → the anion hydrolyzes (NaCH₃COO → CH₃COO⁻ accepts H⁺).\n- **Both hydrolyze:** weak acid + weak base → compare Ka of the cation to Kb of the anion (NH₄CH₃COO ≈ neutral; NH₄CN is basic).\n- **Metal-cation acidity:** small, highly charged cations (Fe³⁺, Al³⁺, Cu²⁺) polarize water and release H⁺, giving acidic solutions even without a proton to donate.\n\n## Equations and Variables\n- Acidic cation: NH₄⁺ + H₂O ⇌ H₃O⁺ + NH₃, Ka = Kw/Kb(NH₃)\n- Basic anion: CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻, Kb = Kw/Ka(CH₃COOH)\n- Metal ion: [Fe(H₂O)₆]³⁺ + H₂O ⇌ [Fe(H₂O)₅OH]²⁺ + H₃O⁺\n- For an acidic salt: [H₃O⁺] = √(Ka × C_salt)\n- For a basic salt: [OH⁻] = √(Kb × C_salt)\n\n## How It Works\n1. Split the salt into its ions and identify the \"parent\" acid and base that would form each ion.\n2. The conjugate of a *strong* acid (e.g., Cl⁻) or *strong* base (e.g., Na⁺) is too weak to hydrolyze — it is a spectator.\n3. The conjugate of a *weak* acid (CH₃COO⁻) hydrolyzes as a base; the conjugate of a *weak* base (NH₄⁺) hydrolyzes as an acid.\n4. Convert the needed Ka or Kb using Ka × Kb = Kw.\n5. Solve with an ICE table to get [H₃O⁺] or [OH⁻], then the pH.\n6. When both ions hydrolyze, compare their Ka and Kb to decide the net direction.\n\n## Worked Example\n**Predict whether each solution is acidic, basic, or neutral, and find the pH of 0.10 M NaF (Ka of HF = 6.8 × 10⁻⁴).**\n\n- NaCl: Na⁺ (from NaOH, strong) and Cl⁻ (from HCl, strong) → neutral.\n- NH₄Cl: Cl⁻ spectator; NH₄⁺ (from weak NH₃) → acidic.\n- NaF: Na⁺ spectator; F⁻ is the conjugate base of weak HF → basic.\n\nFor 0.10 M NaF:\n\nKb(F⁻) = Kw / Ka(HF) = (1.0 × 10⁻¹⁴) / (6.8 × 10⁻⁴) = 1.47 × 10⁻¹¹\n\nF⁻ + H₂O ⇌ HF + OH⁻; Kb = x²/(0.10 − x) ≈ x²/0.10\n\nx = [OH⁻] = √(1.47 × 10⁻¹¹ × 0.10) = √(1.47 × 10⁻¹²) = 1.21 × 10⁻⁶ M\n\npOH = 5.92 → pH = 14.00 − 5.92 = 8.08 (basic) ✓\n\n## Why It Matters\nSalt hydrolysis explains the everyday pH of household and biological solutions: why baking soda (NaHCO₃) and soap (sodium salts of fatty acids) feel slippery and basic, why ammonium fertilizers acidify soil, and why many metal salts (alum, ferric chloride) are acidic in water — a fact used in water treatment and antiperspirants. It is also the key to understanding how buffers resist pH change.\n\n## High-Yield Facts\n- Strong acid + strong base salt → neutral (spectator ions only).\n- Strong acid + weak base salt → acidic (cation hydrolyzes).\n- Weak acid + strong base salt → basic (anion hydrolyzes).\n- Weak acid + weak base salt → compare Ka(cation) vs Kb(anion).\n- Conjugate of a strong acid/base never hydrolyzes appreciably.\n- Fe³⁺, Al³⁺, Cu²⁺ give acidic solutions by polarizing water.\n\n## Eli Explains\nDissolving a salt is like inviting two houseguests over — one from an \"acid family\" and one from a \"base family.\" If both come from strong families, they're polite and leave the water alone (neutral). If the acid-family guest comes from a *weak* family, they start grabbing protons and make things basic; if the base-family guest is weak, they hand out protons and make things acidic. (The analogy omits the metal-ion case, where the guest isn't \"from a weak family\" but just a small, needy ion that bullies water into giving up a proton.)\n\n## Common Confusions\n- **\"All salts are neutral.\"** — Only strong-acid/strong-base salts are; many common salts are acidic or basic.\n- **\"Na⁺ or Cl⁻ hydrolyzes.\"** — They are spectators; they are conjugates of a strong base/acid and are too weak to react.\n- **\"NH₄Cl is basic because NH₃ is a base.\"** — NH₄⁺ is the *acid* form of ammonia; it donates a proton and makes the solution acidic.\n- **\"Metal ions with no H can't be acidic.\"** — Small, highly charged cations (Fe³⁺, Al³⁺) release H⁺ from coordinated water molecules.\n- **\"You can skip the Kw conversion.\"** — For salt pH you must convert the weak parent's Ka to the ion's Kb (or vice versa) with Ka × Kb = Kw.\n\n## Quick Review\n- Neutral: strong acid + strong base.\n- Acidic: strong acid + weak base (cation hydrolyzes).\n- Basic: weak acid + strong base (anion hydrolyzes).\n- Use Ka × Kb = Kw to convert constants for the hydrolyzing ion.\n- Metal cations Fe³⁺, Al³⁺, Cu²⁺ → acidic via water polarization.\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"14.4 Hydrolysis of Salts.\" https://openstax.org/books/chemistry-2e/pages/14-4-hydrolysis-of-salts\n- OpenStax, *Chemistry 2e*, \"14.3 Relative Strengths of Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases\n- PubChem, \"Sodium Acetate.\" https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-acetate\n- Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria\n"
+}

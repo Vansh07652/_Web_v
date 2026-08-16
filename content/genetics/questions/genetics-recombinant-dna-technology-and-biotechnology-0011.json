@@ -1,0 +1,39 @@
+{
+  "id": "genetics-recombinant-dna-technology-and-biotechnology-0011",
+  "subject": "genetics",
+  "lesson": "recombinant-dna-technology-and-biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation A PCR reaction is set up with a single copy of a target sequence and run for 30 cycles at perfect efficiency. Approximately how many copies of the target sequence are present when the reaction finishes?",
+  "options": [
+    {
+      "id": "a",
+      "text": "30 copies"
+    },
+    {
+      "id": "b",
+      "text": "about 1.07 x 10^9 copies"
+    },
+    {
+      "id": "c",
+      "text": "about 1.07 x 10^6 copies"
+    },
+    {
+      "id": "d",
+      "text": "60 copies"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Each cycle doubles the number of amplicons, so a single template produces 2^30 copies after 30 cycles, and the arithmetic chain is 2 x 2 x 2 ... 30 times = 2^30 = 1,073,741,824, which is about 1.07 x 10^9 copies. A (30 copies) and D (60 copies) treat amplification as additive, counting one or two copies per cycle rather than doubling. C (about 1.07 x 10^6) underestimates by three orders of magnitude, the result of losing track of roughly ten doublings.",
+  "difficulty": "unknown",
+  "tags": [
+    "pcr",
+    "amplification",
+    "doubling"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-2e5f1806a7bd2d1a",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:dna-replication",
+  "slug": "dna-replication",
+  "title": "DNA Replication",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:genetics-and-the-molecular-basis-of-inheritance",
+    "slug": "genetics-and-the-molecular-basis-of-inheritance",
+    "title": "Genetics And The Molecular Basis Of Inheritance",
+    "order": 6
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "**DNA replication** copies the entire genome once per cell cycle, producing two identical double helices. It is **semiconservative**: each new molecule contains one original (\"parent\") strand and one newly synthesized strand. This follows directly from complementary base pairing — each original strand serves as a template for a new partner.",
+    "whyItMatters": "Faithful replication is the basis of inheritance and of every cell division. Errors that escape repair are **mutations**, which can drive cancer and genetic disease. The replication machinery is also a major drug target: many antibiotics and chemotherapies (e.g., fluoroquinolones, some antimetabolites) inhibit replication enzymes, and the telomere/telomerase connection links replication to aging and cancer.",
+    "learningObjectives": "- Explain why replication is semiconservative and describe the Meselson–Stahl evidence.\n- Name the key enzymes (helicase, topoisomerase, primase, DNA polymerase, ligase) and their jobs.\n- Explain why DNA polymerase synthesizes 5′→3′ and how this creates leading and lagging strands.\n- Describe Okazaki fragments, primer removal, and the roles of telomeres and telomerase.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**DNA replication** copies the entire genome once per cell cycle, producing two identical double helices. It is **semiconservative**: each new molecule contains one original (\"parent\") strand and one newly synthesized strand. This follows directly from complementary base pairing — each original strand serves as a template for a new partner.\n\n### Key Concepts\n\n### Semiconservative replication\n\nIn the **Meselson–Stahl experiment** (1958), bacteria were grown in heavy ¹⁵N medium, then switched to light ¹⁴N. After one round of replication, DNA was of intermediate density (one heavy + one light strand); after two rounds, equal amounts of intermediate and light DNA appeared. This pattern rules out conservative and dispersive models and proves **semiconservative** replication.\n\n### Origins and the replication fork\n\nReplication begins at specific sequences called **origins of replication**, where the two strands separate to form a **replication bubble** with a **replication fork** at each end. Prokaryotes have a single origin; eukaryotes have many origins per chromosome, allowing fast replication of large genomes. Replication proceeds bidirectionally from each origin.\n\n### The replication enzymes\n\n- **Helicase** unwinds the double helix by breaking hydrogen bonds between base pairs.\n- **Topoisomerase** relieves the torsional strain (supercoiling) ahead of the fork by cutting and resealing DNA strands.\n- **Single-strand binding proteins (SSBs)** coat the separated strands and keep them from re-annealing.\n- **Primase** synthesizes a short **RNA primer**, giving DNA polymerase a free 3′—OH to extend from.\n- **DNA polymerase** adds nucleotides to the 3′ end of a growing strand, synthesizing in the **5′→3′** direction; the main replicative polymerases also proofread (3′→5′ exonuclease) to correct mistakes.\n- **DNA ligase** seals the nicks between fragments by forming phosphodiester bonds.\n\n### Leading vs. lagging strand\n\nBecause DNA polymerase can only add to a **3′—OH** (synthesis is always **5′→3′**) and the strands are antiparallel, the two template strands are copied differently. The **leading strand** is synthesized continuously toward the fork in the 5′→3′ direction from a single primer. The **lagging strand** is synthesized discontinuously, away from the fork, in short **Okazaki fragments**, each requiring its own RNA primer. Primers are later replaced with DNA, and **ligase** joins the fragments.\n\n### Telomeres and telomerase\n\nLinear eukaryotic chromosomes have a problem: the lagging strand cannot be fully replicated at the very ends, so chromosomes would shorten every round. **Telomeres** are repetitive, noncoding sequences (TTAGGG in humans) that buffer this loss. **Telomerase**, active in germ cells, stem cells, and most cancer cells, extends telomeres using an internal RNA template, allowing continued division. Most somatic cells lack telomerase, so their telomeres shorten with age — a contributor to cellular aging.\n\n### How It Works\n\nAt an origin, helicase unwinds the DNA and topoisomerase relieves strain. Primase lays down RNA primers. DNA polymerase III (in prokaryotes) extends each primer with complementary nucleotides, moving 5′→3′: one strand (leading) is made in one long piece, the other (lagging) in Okazaki fragments. DNA polymerase I removes the RNA primers and fills the gaps with DNA; ligase seals the remaining nicks. Proofreading by the polymerase catches most mispaired bases, giving an error rate of roughly one mistake per 10⁹–10¹⁰ bases.",
+    "howItWorks": "At an origin, helicase unwinds the DNA and topoisomerase relieves strain. Primase lays down RNA primers. DNA polymerase III (in prokaryotes) extends each primer with complementary nucleotides, moving 5′→3′: one strand (leading) is made in one long piece, the other (lagging) in Okazaki fragments. DNA polymerase I removes the RNA primers and fills the gaps with DNA; ligase seals the remaining nicks. Proofreading by the polymerase catches most mispaired bases, giving an error rate of roughly one mistake per 10⁹–10¹⁰ bases.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Replication is **semiconservative** (Meselson–Stahl).\n- DNA polymerase adds nucleotides to a free **3′—OH**, so synthesis is **5′→3′**.\n- Leading strand = continuous; lagging strand = Okazaki fragments.\n- Enzymes: helicase (unwind), topoisomerase (relieve strain), primase (RNA primer), DNA polymerase (synthesize + proofread), ligase (seal nicks).\n- Primers are RNA, later replaced with DNA.\n- Telomeres = protective repetitive ends; telomerase extends them (germ/stem/cancer cells).\n- Prokaryotes: one origin; eukaryotes: many origins.",
+    "commonConfusions": "- **\"DNA polymerase adds nucleotides to the 5′ end.\"** Wrong — it adds to the free **3′—OH**, so new DNA grows **5′→3′**.\n- **\"The lagging strand is synthesized 3′→5′.\"** Wrong — all synthesis is 5′→3′; the lagging strand is just made in short pieces, and the strand *overall* grows in the 3′→5′ direction of the template.\n- **\"Helicase seals the DNA.\"** Wrong — helicase unwinds; **ligase** seals nicks.\n- **\"Primers are made of DNA.\"** Wrong — primers are **RNA**.\n- **\"Telomerase is active in all cells.\"** Wrong — it is largely inactive in most adult somatic cells, which is why they age; it's active in germ, stem, and most cancer cells.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nCopying DNA is like unzipping a zipper and building a new matching side onto each half. The unzipper is **helicase**. A \"starter tab\" (the **RNA primer** made by primase) gives the builder (**DNA polymerase**) something to grab, and the builder can only add new teeth in one direction — like writing, you can only add letters to the right end of a word. So one side is built smoothly in one pass (the **leading strand**), while the other side has to be built backward in small chunks (**Okazaki fragments**) that get glued together by **ligase**. And because the very tips can't be fully copied, cells cap the ends with **telomeres**, like the plastic tips on shoelaces that keep them from fraying. The analogy's limit: real enzymes work with chemical precision and proofread as they go, not like a clumsy builder.",
+    "quickReview": "- Semiconservative: one old + one new strand per daughter molecule.\n- Origins → replication bubble → forks (bidirectional).\n- Helicase unwinds; topoisomerase relieves supercoiling; SSBs stabilize.\n- Primase makes RNA primers; polymerase extends 5′→3′ and proofreads.\n- Leading strand continuous; lagging strand = Okazaki fragments + ligase.\n- Telomeres/telomerase protect chromosome ends.\n- Errors = mutations; replication enzymes are drug targets.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 14.3, \"Basics of DNA Replication.\" https://openstax.org/books/biology-2e/pages/14-3-basics-of-dna-replication",
+        "url": "https://openstax.org/books/biology-2e/pages/14-3-basics-of-dna-replication"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 14.4, \"DNA Replication in Prokaryotes.\" https://openstax.org/books/biology-2e/pages/14-4-dna-replication-in-prokaryotes",
+        "url": "https://openstax.org/books/biology-2e/pages/14-4-dna-replication-in-prokaryotes"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 14.5, \"DNA Replication in Eukaryotes.\" https://openstax.org/books/biology-2e/pages/14-5-dna-replication-in-eukaryotes",
+        "url": "https://openstax.org/books/biology-2e/pages/14-5-dna-replication-in-eukaryotes"
+      },
+      {
+        "text": "NCBI Bookshelf, *Molecular Biology of the Cell*, 4th ed. (Alberts et al.). https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 1
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/06-genetics-and-the-molecular-basis-of-inheritance/06-dna-replication.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

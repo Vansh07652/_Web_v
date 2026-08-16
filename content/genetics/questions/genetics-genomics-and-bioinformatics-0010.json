@@ -1,0 +1,40 @@
+{
+  "id": "genetics-genomics-and-bioinformatics-0010",
+  "subject": "genetics",
+  "lesson": "genomics-and-bioinformatics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A pharmacogenomics report for a patient starting thiopurine therapy shows very low thiopurine methyltransferase activity, and the same report includes a *CYP2D6* poor metabolizer genotype. Which interpretation of these results is correct?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Reduced *TPMT* activity means thiopurines are cleared faster, so a higher thiopurine dose is needed."
+    },
+    {
+      "id": "b",
+      "text": "The *CYP2D6* poor metabolizer genotype requires a lower warfarin dose because *CYP2D6* metabolizes warfarin."
+    },
+    {
+      "id": "c",
+      "text": "*TPMT* and *CYP2D6* both metabolize thiopurines, so the two results are interchangeable."
+    },
+    {
+      "id": "d",
+      "text": "*TPMT* encodes thiopurine methyltransferase, which metabolizes thiopurine drugs, so low activity slows thiopurine clearance and typically calls for dose adjustment, while the *CYP2D6* result does not guide warfarin dosing because warfarin is not among the drugs that *CYP2D6* metabolizes."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "*TPMT* (6p22.3) encodes thiopurine methyltransferase, which metabolizes thiopurine drugs, so reduced activity slows thiopurine clearance and dose adjustment is the standard pharmacogenomic response, the opposite of option A. *CYP2D6* (22q13.2) encodes cytochrome P450 2D6, which metabolizes many drugs, but warfarin is not among them, so option B misassigns the drug. Option C confuses two genes whose products have different substrates.",
+  "difficulty": "unknown",
+  "tags": [
+    "pharmacogenomic",
+    "drug",
+    "enzyme",
+    "match"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-16973b1c51d4a9a2",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

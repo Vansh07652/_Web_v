@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-thermodynamics:temperature-dependence-of-spontaneity",
+  "slug": "temperature-dependence-of-spontaneity",
+  "title": "Temperature Dependence of Spontaneity",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-thermodynamics",
+    "slug": "chemical-thermodynamics",
+    "title": "Chemical Thermodynamics",
+    "order": 7
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "Because ΔG = ΔH − TΔS, the signs of ΔH and ΔS — and the temperature — jointly decide spontaneity. There are four cases: **(1)** ΔH < 0, ΔS > 0 → always spontaneous; **(2)** ΔH > 0, ΔS < 0 → never spontaneous (reverse is always spontaneous); **(3)** ΔH < 0, ΔS < 0 → spontaneous only at *low* T; **(4)** ΔH > 0, ΔS > 0 → spontaneous only at *high* T. The last two have a **crossover temperature** where ΔG = 0: T = ΔH/ΔS.",
+    "whyItMatters": "Temperature control is how chemists and engineers make unfavorable reactions favorable: driving endothermic syntheses at high temperature (steam reforming, lime production) or stabilizing products by cooling (condensation, crystallization). It also explains everyday phase behavior — ice melts above 0 °C, water boils above 100 °C — as a single ΔH/ΔS crossover logic.",
+    "learningObjectives": "- Enumerate the four sign combinations of ΔH and ΔS and predict the temperature dependence of spontaneity for each.\n- Calculate the crossover (transition) temperature at which a process becomes spontaneous.\n- Explain why some processes are always spontaneous, some never, and some only above or below a threshold.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nBecause ΔG = ΔH − TΔS, the signs of ΔH and ΔS — and the temperature — jointly decide spontaneity. There are four cases: **(1)** ΔH < 0, ΔS > 0 → always spontaneous; **(2)** ΔH > 0, ΔS < 0 → never spontaneous (reverse is always spontaneous); **(3)** ΔH < 0, ΔS < 0 → spontaneous only at *low* T; **(4)** ΔH > 0, ΔS > 0 → spontaneous only at *high* T. The last two have a **crossover temperature** where ΔG = 0: T = ΔH/ΔS.\n\n### Key Ideas\n\n- **Enthalpy- vs. entropy-driven.** Cases 3 and 4 are a tug-of-war; temperature tips the balance.\n- **Crossover temperature.** Set ΔG = 0 ⇒ T = ΔH/ΔS (with ΔH and ΔS in consistent units).\n- **Low-T spontaneity (ΔH<0, ΔS<0).** Exothermic and ordering (e.g., freezing, condensation) wins when T is small because the TΔS penalty shrinks.\n- **High-T spontaneity (ΔH>0, ΔS>0).** Endothermic and disordering (melting, boiling, many decompositions) wins when T is large because the TΔS reward grows.\n- **Signs stay fixed in sign tables.** ΔH and ΔS are usually treated as roughly constant over modest temperature ranges, so the crossover logic holds.\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| ΔG | Gibbs free-energy change | kJ/mol |\n| ΔH | Enthalpy change | kJ/mol |\n| ΔS | Entropy change | J/(mol·K) |\n| T_cross | Crossover temperature (ΔG = 0) | K |\n\nT_cross = ΔH / ΔS (consistent units)\n\n### How It Works\n\n1. Determine the signs of ΔH and ΔS from the process (phase change, gas-mole count, bond breaking).\n2. Assign the case from the four combinations.\n3. For the temperature-dependent cases, solve T_cross = ΔH/ΔS.\n4. Decide which side of T_cross is spontaneous by testing the sign of ΔG on either side.\n\n### Worked Example\n\n**Predict the temperature dependence of CaCO₃(s) → CaO(s) + CO₂(g), and find the crossover temperature.**\n\nThis is the thermal decomposition of limestone. ΔH° = +178.1 kJ/mol (endothermic; bonds broken), and ΔS° = +160.5 J/(mol·K) = +0.1605 kJ/(mol·K) (a gas is produced, so entropy rises).\n\nThis is case 4 (ΔH > 0, ΔS > 0) → spontaneous only at *high* temperature.\n\n- T_cross = ΔH/ΔS = 178.1 kJ/mol ÷ 0.1605 kJ/(mol·K) = **1110 K** (≈ 837 °C).\n\nBelow 1110 K, ΔG > 0 and limestone is stable; above 1110 K, ΔG < 0 and it decomposes to quicklime and CO₂ — the basis of lime kilns.",
+    "howItWorks": "1. Determine the signs of ΔH and ΔS from the process (phase change, gas-mole count, bond breaking).\n2. Assign the case from the four combinations.\n3. For the temperature-dependent cases, solve T_cross = ΔH/ΔS.\n4. Decide which side of T_cross is spontaneous by testing the sign of ΔG on either side.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Four cases: (−,+ ) always spontaneous; (+,−) never spontaneous; (−,−) low-T only; (+,+) high-T only.\n- Crossover temperature: **T = ΔH/ΔS** (units must match: both kJ or both J).\n- ΔH < 0, ΔS < 0 ⇒ spontaneous below T_cross (e.g., freezing, condensation).\n- ΔH > 0, ΔS > 0 ⇒ spontaneous above T_cross (e.g., melting, boiling, CaCO₃ decomposition).\n- At T_cross, ΔG = 0: the system is at equilibrium (e.g., melting/boiling point).\n- Raising T always favors the direction with *more entropy* (more gas, looser phase).",
+    "commonConfusions": "- **\"Exothermic reactions are spontaneous at all temperatures.\"** — Wrong. If ΔS < 0 (e.g., freezing), they're spontaneous only below T_cross.\n- **\"Endothermic reactions can never be spontaneous.\"** — Wrong. If ΔS > 0, they become spontaneous above T_cross (melting, boiling).\n- **\"Compute T_cross in °C.\"** — Wrong. ΔH/ΔS gives Kelvin; convert afterward.\n- **\"Mixing kJ and J is fine.\"** — Wrong. ΔH (kJ) and ΔS (J/K) must be converted to the same energy unit before dividing.\n- **\"The four cases are four different equations.\"** — Wrong. They're all the same equation ΔG = ΔH − TΔS with different sign combinations.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a reaction as a debate between two voters: one votes \"go\" if heat is released (ΔH), the other votes \"go\" if things get more spread out (ΔS). Temperature is a microphone turned toward the \"spread out\" voter. When the room is cold, that microphone is quiet, so the heat voter decides. When the room gets hot, the spread-out voter shouts louder and louder until he overrules the heat voter. The temperature where the vote ties is the \"crossover\" — exactly where ice melts or limestone turns to lime. (The limit: this is a cartoon; real ΔH and ΔS drift slightly with temperature, but the \"which voter wins when\" logic is exactly right.)",
+    "quickReview": "- ΔG = ΔH − TΔS; temperature scales the entropy term.\n- (−,+) always spontaneous; (+,−) never; (−,−) low-T only; (+,+) high-T only.\n- Crossover: T = ΔH/ΔS where ΔG = 0.\n- Below T_cross, ΔH dominates the sign; above it, TΔS dominates.\n- Higher T always favors the higher-entropy state.",
+    "workedExamples": "### Worked Example\n\n**Predict the temperature dependence of CaCO₃(s) → CaO(s) + CO₂(g), and find the crossover temperature.**\n\nThis is the thermal decomposition of limestone. ΔH° = +178.1 kJ/mol (endothermic; bonds broken), and ΔS° = +160.5 J/(mol·K) = +0.1605 kJ/(mol·K) (a gas is produced, so entropy rises).\n\nThis is case 4 (ΔH > 0, ΔS > 0) → spontaneous only at *high* temperature.\n\n- T_cross = ΔH/ΔS = 178.1 kJ/mol ÷ 0.1605 kJ/(mol·K) = **1110 K** (≈ 837 °C).\n\nBelow 1110 K, ΔG > 0 and limestone is stable; above 1110 K, ΔG < 0 and it decomposes to quicklime and CO₂ — the basis of lime kilns.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 16.4 \"Free Energy.\" https://openstax.org/books/chemistry-2e/pages/16-4-free-energy",
+        "url": "https://openstax.org/books/chemistry-2e/pages/16-4-free-energy"
+      },
+      {
+        "text": "NIST Chemistry WebBook (thermochemical data). https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      },
+      {
+        "text": "PubChem, National Library of Medicine. https://pubchem.ncbi.nlm.nih.gov/",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 1
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/16-chemical-thermodynamics/06-temperature-dependence-of-spontaneity.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

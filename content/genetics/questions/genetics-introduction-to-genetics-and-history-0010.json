@@ -1,0 +1,40 @@
+{
+  "id": "genetics-introduction-to-genetics-and-history-0010",
+  "subject": "genetics",
+  "lesson": "introduction-to-genetics-and-history",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem Two pea plants heterozygous for flower color with genotype *Aa* x *Aa* are crossed, with complete dominance of A over a and normal segregation at this single locus. What phenotypic ratio is expected among the offspring?",
+  "options": [
+    {
+      "id": "a",
+      "text": "3:1 dominant to recessive"
+    },
+    {
+      "id": "b",
+      "text": "1:2:1 genotypic classes"
+    },
+    {
+      "id": "c",
+      "text": "9:3:3:1"
+    },
+    {
+      "id": "d",
+      "text": "1:1"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Each parent makes A and a gametes with probability 1/2 each, so the offspring genotypes are 1 *AA* : 2 *Aa* : 1 *aa*, which sum to 4, and with complete dominance the *AA* and *Aa* classes show the dominant phenotype, giving a 3:1 phenotypic ratio (sums to 4). B gives the 1:2:1 genotypic ratio (sums to 4) rather than the phenotypic ratio that was asked. C is the two locus 9:3:3:1 ratio (sums to 16) expected from a dihybrid cross. D is the 1:1 ratio (sums to 2) seen in a testcross of a heterozygote.",
+  "difficulty": "unknown",
+  "tags": [
+    "monohybrid",
+    "cross",
+    "phenotypic",
+    "ratio"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-8e27c6e4aabb150c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

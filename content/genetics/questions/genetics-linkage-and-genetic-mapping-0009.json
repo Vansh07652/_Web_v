@@ -1,0 +1,42 @@
+{
+  "id": "genetics-linkage-and-genetic-mapping-0009",
+  "subject": "genetics",
+  "lesson": "linkage-and-genetic-mapping",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem A female Drosophila heterozygous for two recessive mutations *p* and *q*, with the arrangement *p q* / + +, is test crossed to a male homozygous *p q* / *p q*. Assumptions: complete penetrance, no lethality, and equal viability of all classes. The 1000 progeny consist of 450 showing both recessive traits, 450 wild type, 50 showing only *p*, and 50 showing only *q*. Are the genes linked, and if so, how far apart?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The genes are linked, 5 cM apart."
+    },
+    {
+      "id": "b",
+      "text": "The genes are linked, 50 cM apart."
+    },
+    {
+      "id": "c",
+      "text": "The genes are unlinked and assort independently."
+    },
+    {
+      "id": "d",
+      "text": "The genes are linked, 10 cM apart."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Under independent assortment a test cross gives a 1:1:1:1 ratio (sums to 4), so the 900 parental versus 100 recombinant progeny are grossly skewed and the genes must be linked. The recombination frequency is (50 + 50)/1000 = 0.10, so the map distance is 0.10 x 100 = 10 cM. A counts only one of the two reciprocal recombinant classes, 50/1000 x 100 = 5 cM, and B mistakes the presence of recombination for the 50% maximum seen between very distant or unlinked genes.",
+  "difficulty": "unknown",
+  "tags": [
+    "two",
+    "point",
+    "test",
+    "cross",
+    "linkage",
+    "detection"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-6f4c5593d895eb88",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

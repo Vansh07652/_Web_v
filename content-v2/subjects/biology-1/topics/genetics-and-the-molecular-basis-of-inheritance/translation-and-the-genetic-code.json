@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:translation-and-the-genetic-code",
+  "slug": "translation-and-the-genetic-code",
+  "title": "Translation and the Genetic Code",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:genetics-and-the-molecular-basis-of-inheritance",
+    "slug": "genetics-and-the-molecular-basis-of-inheritance",
+    "title": "Genetics And The Molecular Basis Of Inheritance",
+    "order": 6
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "**Translation** is the decoding of an mRNA sequence into a **protein**: the ribosome reads the mRNA in three-base groups called **codons**, and **tRNA** molecules deliver the matching amino acids, which are linked into a polypeptide chain. The **genetic code** is the set of rules mapping each codon to an amino acid (or stop signal); it is nearly universal, redundant, and read in a fixed **reading frame**.",
+    "whyItMatters": "Translation is how genotype becomes phenotype — every protein in the body is made this way. Many antibiotics (tetracycline, erythromycin, streptomycin) kill bacteria by targeting bacterial ribosomes while sparing ours. Mutations that change a codon (missense), create a stop (nonsense), or shift the frame (frameshift) cause diseases such as sickle-cell anemia (a single codon change) and many others.",
+    "learningObjectives": "- Explain how mRNA codons specify amino acids via the genetic code.\n- Describe the roles of tRNA (anticodon) and the ribosome's A, P, and E sites.\n- Identify the start codon (AUG) and the three stop codons.\n- Explain the code's redundancy (degeneracy) and the importance of the reading frame.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Translation** is the decoding of an mRNA sequence into a **protein**: the ribosome reads the mRNA in three-base groups called **codons**, and **tRNA** molecules deliver the matching amino acids, which are linked into a polypeptide chain. The **genetic code** is the set of rules mapping each codon to an amino acid (or stop signal); it is nearly universal, redundant, and read in a fixed **reading frame**.\n\n### Key Concepts\n\n### Codons and the genetic code\n\nmRNA is read in **codons** — consecutive groups of three nucleotides. There are 4³ = 64 possible codons: **61 specify amino acids** and **3 are stop codons** (UAA, UAG, UGA). The code is **redundant (degenerate)** because most amino acids are specified by more than one codon (e.g., six codons for leucine). The code is also nearly **universal** — the same in almost all organisms — which is why a human gene can be expressed in bacteria.\n\n### The start codon and reading frame\n\n**AUG** is the **start codon**: it signals the beginning of translation and codes for **methionine** (so new proteins begin with Met). Because codons are read in non-overlapping triplets, the mRNA has a **reading frame** set by the first AUG. A shift of one or two bases (a **frameshift**) changes every subsequent codon, usually producing a completely different, nonfunctional protein.\n\n### tRNA and the anticodon\n\nEach **tRNA** carries a specific amino acid at one end and bears an **anticodon** — a three-base sequence complementary to an mRNA codon — at the other. By base-pairing its anticodon with a codon, the tRNA delivers the correct amino acid. An enzyme (aminoacyl-tRNA synthetase) attaches each amino acid to its matching tRNA, a step that enforces the code.\n\n### The ribosome: A, P, and E sites\n\nThe **ribosome** is the molecular machine that coordinates translation; it has a large and a small subunit and contains **rRNA** plus proteins. It has three tRNA-binding sites: the **A (aminoacyl) site** holds the incoming tRNA with the next amino acid; the **P (peptidyl) site** holds the tRNA carrying the growing polypeptide; and the **E (exit) site** holds the now-empty tRNA before it leaves. Peptide bonds form between the amino acid in the P site and the incoming one in the A site, catalyzed by the ribosome's rRNA (a ribozyme).\n\n### Initiation, elongation, termination\n\n**Initiation:** the small ribosomal subunit, initiator tRNA (carrying Met), and mRNA assemble at the start codon; the large subunit then joins. **Elongation:** tRNAs enter the A site, the polypeptide is transferred to the new amino acid (forming a peptide bond), and the ribosome **translocates** three bases so the tRNA moves P→E and A→P, exposing the next codon. **Termination:** a stop codon enters the A site; a **release factor** binds and causes the ribosome to release the completed polypeptide and disassemble.\n\n### How It Works\n\nThe ribosome moves along the mRNA codon by codon, 5′→3′. At each codon, a tRNA whose anticodon is complementary enters the A site carrying its amino acid. The growing chain is transferred from the P-site tRNA onto the new amino acid, forming a new peptide bond. The ribosome shifts one codon, the empty tRNA exits through the E site, and the cycle repeats until a stop codon triggers release. The chain folds (often with help from chaperones) into its functional three-dimensional shape.",
+    "howItWorks": "The ribosome moves along the mRNA codon by codon, 5′→3′. At each codon, a tRNA whose anticodon is complementary enters the A site carrying its amino acid. The growing chain is transferred from the P-site tRNA onto the new amino acid, forming a new peptide bond. The ribosome shifts one codon, the empty tRNA exits through the E site, and the cycle repeats until a stop codon triggers release. The chain folds (often with help from chaperones) into its functional three-dimensional shape.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Codon = 3 mRNA bases; 64 codons → 61 amino acid codons + 3 stop codons.\n- Start codon = **AUG** (methionine); stop codons = **UAA, UAG, UGA**.\n- tRNA anticodon is complementary to the mRNA codon.\n- Ribosome sites: **A** (incoming tRNA), **P** (growing chain), **E** (exit).\n- Code is **degenerate** (redundant) and nearly **universal**.\n- Frameshift mutations change the entire reading frame downstream.\n- Peptide bond formation is catalyzed by rRNA (ribozyme).\n- Reading frame is set by the first AUG.",
+    "commonConfusions": "- **\"AUG always codes for tryptophan.\"** Wrong — AUG codes for **methionine** and is the start codon.\n- **\"There is one codon per amino acid.\"** Wrong — the code is degenerate: most amino acids have multiple codons (some have six).\n- **\"The anticodon is the same sequence as the codon.\"** Wrong — it is **complementary** (and antiparallel) to the codon.\n- **\"The A site holds the growing chain.\"** Wrong — the growing chain is in the **P site**; the A site holds the incoming aminoacyl-tRNA.\n- **\"A stop codon codes for an amino acid.\"** Wrong — stop codons signal termination and match no tRNA; a release factor binds instead.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nTranslation is like reading a secret message written in three-letter words. The message (mRNA) is divided into groups of three letters (codons), and each three-letter word stands for one building block (an amino acid). A helper molecule called tRNA carries the right building block and matches its three-letter \"tag\" (anticodon) to the word on the message. The ribosome is the reader that slides along, one word at a time, and hooks the blocks into a chain — the protein. If you start reading one letter too early or too late, every single word changes (a frameshift) and the whole message becomes gibberish. The analogy's limit: in cells it's molecular shape-matching and chemistry, not a person reading words, and the \"meaning\" is a folded protein, not a sentence.",
+    "quickReview": "- mRNA → protein via codons (triplets).\n- 61 amino-acid codons + 3 stop codons (UAA, UAG, UGA).\n- AUG = start (Met); sets the reading frame.\n- tRNA anticodon pairs with codon; aminoacyl-tRNA synthetase loads amino acids.\n- Ribosome A, P, E sites coordinate elongation.\n- Code is redundant and nearly universal.\n- Frameshift = shift of reading frame (usually catastrophic).",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 15.1, \"The Genetic Code.\" https://openstax.org/books/biology-2e/pages/15-1-the-genetic-code",
+        "url": "https://openstax.org/books/biology-2e/pages/15-1-the-genetic-code"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 15.5, \"Ribosomes and Protein Synthesis.\" https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis",
+        "url": "https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis"
+      },
+      {
+        "text": "NCBI Bookshelf, *Molecular Biology of the Cell*, 4th ed. (Alberts et al.). https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "translation-and-the-genetic-code",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "08-translation-and-the-genetic-code",
+      "kind": "source_file_stem",
+      "source_id": "biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:biology_notes:18ba628b927ccd9d"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:biology_notes:18ba628b927ccd9d"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:biology_notes:18ba628b927ccd9d"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:biology_notes:18ba628b927ccd9d"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/06-genetics-and-the-molecular-basis-of-inheritance/08-translation-and-the-genetic-code.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Translation and the Genetic Code\n\n## Learning Goals\n\n- Explain how mRNA codons specify amino acids via the genetic code.\n- Describe the roles of tRNA (anticodon) and the ribosome's A, P, and E sites.\n- Identify the start codon (AUG) and the three stop codons.\n- Explain the code's redundancy (degeneracy) and the importance of the reading frame.\n\n## Core Concept\n\n**Translation** is the decoding of an mRNA sequence into a **protein**: the ribosome reads the mRNA in three-base groups called **codons**, and **tRNA** molecules deliver the matching amino acids, which are linked into a polypeptide chain. The **genetic code** is the set of rules mapping each codon to an amino acid (or stop signal); it is nearly universal, redundant, and read in a fixed **reading frame**.\n\n## Key Concepts\n\n### Codons and the genetic code\n\nmRNA is read in **codons** — consecutive groups of three nucleotides. There are 4³ = 64 possible codons: **61 specify amino acids** and **3 are stop codons** (UAA, UAG, UGA). The code is **redundant (degenerate)** because most amino acids are specified by more than one codon (e.g., six codons for leucine). The code is also nearly **universal** — the same in almost all organisms — which is why a human gene can be expressed in bacteria.\n\n### The start codon and reading frame\n\n**AUG** is the **start codon**: it signals the beginning of translation and codes for **methionine** (so new proteins begin with Met). Because codons are read in non-overlapping triplets, the mRNA has a **reading frame** set by the first AUG. A shift of one or two bases (a **frameshift**) changes every subsequent codon, usually producing a completely different, nonfunctional protein.\n\n### tRNA and the anticodon\n\nEach **tRNA** carries a specific amino acid at one end and bears an **anticodon** — a three-base sequence complementary to an mRNA codon — at the other. By base-pairing its anticodon with a codon, the tRNA delivers the correct amino acid. An enzyme (aminoacyl-tRNA synthetase) attaches each amino acid to its matching tRNA, a step that enforces the code.\n\n### The ribosome: A, P, and E sites\n\nThe **ribosome** is the molecular machine that coordinates translation; it has a large and a small subunit and contains **rRNA** plus proteins. It has three tRNA-binding sites: the **A (aminoacyl) site** holds the incoming tRNA with the next amino acid; the **P (peptidyl) site** holds the tRNA carrying the growing polypeptide; and the **E (exit) site** holds the now-empty tRNA before it leaves. Peptide bonds form between the amino acid in the P site and the incoming one in the A site, catalyzed by the ribosome's rRNA (a ribozyme).\n\n### Initiation, elongation, termination\n\n**Initiation:** the small ribosomal subunit, initiator tRNA (carrying Met), and mRNA assemble at the start codon; the large subunit then joins. **Elongation:** tRNAs enter the A site, the polypeptide is transferred to the new amino acid (forming a peptide bond), and the ribosome **translocates** three bases so the tRNA moves P→E and A→P, exposing the next codon. **Termination:** a stop codon enters the A site; a **release factor** binds and causes the ribosome to release the completed polypeptide and disassemble.\n\n## How It Works\n\nThe ribosome moves along the mRNA codon by codon, 5′→3′. At each codon, a tRNA whose anticodon is complementary enters the A site carrying its amino acid. The growing chain is transferred from the P-site tRNA onto the new amino acid, forming a new peptide bond. The ribosome shifts one codon, the empty tRNA exits through the E site, and the cycle repeats until a stop codon triggers release. The chain folds (often with help from chaperones) into its functional three-dimensional shape.\n\n## Why It Matters\n\nTranslation is how genotype becomes phenotype — every protein in the body is made this way. Many antibiotics (tetracycline, erythromycin, streptomycin) kill bacteria by targeting bacterial ribosomes while sparing ours. Mutations that change a codon (missense), create a stop (nonsense), or shift the frame (frameshift) cause diseases such as sickle-cell anemia (a single codon change) and many others.\n\n## High-Yield Facts\n\n- Codon = 3 mRNA bases; 64 codons → 61 amino acid codons + 3 stop codons.\n- Start codon = **AUG** (methionine); stop codons = **UAA, UAG, UGA**.\n- tRNA anticodon is complementary to the mRNA codon.\n- Ribosome sites: **A** (incoming tRNA), **P** (growing chain), **E** (exit).\n- Code is **degenerate** (redundant) and nearly **universal**.\n- Frameshift mutations change the entire reading frame downstream.\n- Peptide bond formation is catalyzed by rRNA (ribozyme).\n- Reading frame is set by the first AUG.\n\n## Eli Explains\n\nTranslation is like reading a secret message written in three-letter words. The message (mRNA) is divided into groups of three letters (codons), and each three-letter word stands for one building block (an amino acid). A helper molecule called tRNA carries the right building block and matches its three-letter \"tag\" (anticodon) to the word on the message. The ribosome is the reader that slides along, one word at a time, and hooks the blocks into a chain — the protein. If you start reading one letter too early or too late, every single word changes (a frameshift) and the whole message becomes gibberish. The analogy's limit: in cells it's molecular shape-matching and chemistry, not a person reading words, and the \"meaning\" is a folded protein, not a sentence.\n\n## Common Confusions\n\n- **\"AUG always codes for tryptophan.\"** Wrong — AUG codes for **methionine** and is the start codon.\n- **\"There is one codon per amino acid.\"** Wrong — the code is degenerate: most amino acids have multiple codons (some have six).\n- **\"The anticodon is the same sequence as the codon.\"** Wrong — it is **complementary** (and antiparallel) to the codon.\n- **\"The A site holds the growing chain.\"** Wrong — the growing chain is in the **P site**; the A site holds the incoming aminoacyl-tRNA.\n- **\"A stop codon codes for an amino acid.\"** Wrong — stop codons signal termination and match no tRNA; a release factor binds instead.\n\n## Quick Review\n\n- mRNA → protein via codons (triplets).\n- 61 amino-acid codons + 3 stop codons (UAA, UAG, UGA).\n- AUG = start (Met); sets the reading frame.\n- tRNA anticodon pairs with codon; aminoacyl-tRNA synthetase loads amino acids.\n- Ribosome A, P, E sites coordinate elongation.\n- Code is redundant and nearly universal.\n- Frameshift = shift of reading frame (usually catastrophic).\n\n## Sources\n\n- OpenStax, *Biology 2e*, Ch. 15.1, \"The Genetic Code.\" https://openstax.org/books/biology-2e/pages/15-1-the-genetic-code\n- OpenStax, *Biology 2e*, Ch. 15.5, \"Ribosomes and Protein Synthesis.\" https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis\n- NCBI Bookshelf, *Molecular Biology of the Cell*, 4th ed. (Alberts et al.). https://www.ncbi.nlm.nih.gov/books/NBK21054/\n"
+}

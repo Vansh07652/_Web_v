@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-solutions-and-concentration-q10",
+  "subject": "chemistry-2",
+  "lesson": "solutions-and-concentration",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A laboratory water sample used in a teaching exercise contains 0.012 g of a dissolved mineral in 4 kg of solution. Expressed as parts per million by mass, what is the concentration?",
+  "options": [
+    {
+      "id": "a",
+      "text": "12 ppm, taking the solute mass expressed in milligrams as the ppm value"
+    },
+    {
+      "id": "b",
+      "text": "3000 ppm, using the solution mass in kilograms rather than converting it to grams"
+    },
+    {
+      "id": "c",
+      "text": "3 ppm, dividing the solute mass by the solution mass in grams and multiplying by one million"
+    },
+    {
+      "id": "d",
+      "text": "0.003 ppm, dividing the two masses in grams and multiplying by one thousand"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Parts per million by mass is (mass of solute / mass of solution) x 10^6 with both masses in the same unit: (0.012 g / 4000 g) x 10^6 = 3 ppm. Equivalently, 1 ppm by mass equals 1 mg per kg, and 12 mg / 4 kg = 3 mg/kg = 3 ppm. Choice B fails to convert 4 kg to 4000 g, and choice D applies the parts-per-thousand factor instead of parts per million. Trace concentrations are reported this way because expressing them as a percent would require awkwardly small decimals.\n\nELI-10: Parts per million is just a mass ratio rescaled so small numbers become readable. First put both masses in the same unit: 0.012 g of mineral in 4000 g of solution. The raw ratio is 0.000003, which is hard to read, so multiply by one million to get 3 ppm. A useful shortcut for dilute aqueous samples is that 1 ppm equals 1 mg of solute per kg of solution, so 12 mg spread through 4 kg gives 3 mg per kg, the same 3 ppm. Forgetting the kilogram-to-gram conversion inflates the answer by a factor of one thousand.",
+  "difficulty": "medium",
+  "tags": [
+    "parts per million",
+    "trace concentration units",
+    "mass unit conversion"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-278",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

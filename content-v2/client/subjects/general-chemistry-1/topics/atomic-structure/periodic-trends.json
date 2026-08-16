@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-1:atomic-structure:periodic-trends",
+  "slug": "periodic-trends",
+  "title": "Periodic Trends",
+  "subject": {
+    "id": "subject:general-chemistry-1",
+    "slug": "general-chemistry-1",
+    "title": "General Chemistry I"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-1:atomic-structure",
+    "slug": "atomic-structure",
+    "title": "Atomic Structure",
+    "order": 2
+  },
+  "order": 18,
+  "status": "final",
+  "sections": {
+    "overview": "Periodic trends are predictable changes in atomic properties that follow from effective nuclear charge (\\\\(Z_{\\text{eff}}\\\\)) and shell number. Atomic radius decreases left → right and increases down a group; cations are smaller than their parent atoms and anions are larger; ionization energy generally increases left → right and decreases down a group; electron affinity becomes more negative (more favorable) across a period; and metallic character increases down a group and to the left of the table.",
+    "whyItMatters": "Ionic radius and charge determine how ions fit through biological channels and how salts dissolve. In the body, the small, high-charge-density cation \\\\(Mg^{2+}\\\\) and the larger \\\\(Na^+\\\\) and \\\\(K^+\\\\) play very different roles in enzyme function and nerve signaling precisely because their sizes and charge densities differ. In the lab, the huge jump in successive ionization energies explains the stable charges of common ions — e.g., \\\\(Na^+\\\\) and \\\\(Ca^{2+}\\\\) — which in turn dictates the formulas of the salts used in buffers and intravenous fluids.",
+    "learningObjectives": "1. State and explain the periodic trends in atomic radius across a period and down a group.\n2. Compare ionic radii of cations and anions to their parent atoms, and rank isoelectronic ions.\n3. Define ionization energy, distinguish first from successive ionization energies, and explain the big jumps.\n4. Describe electron affinity and metallic character, and predict them from position on the periodic table.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Atomic radius | Half the distance between bonded identical atoms' nuclei | Measures atom size; drives packing and bond length |\n| Ionic radius | Radius of a cation or anion | Cations shrink, anions expand relative to neutral atoms |\n| Cation | A positively charged ion (lost electrons) | Smaller than its parent atom |\n| Anion | A negatively charged ion (gained electrons) | Larger than its parent atom |\n| Ionization energy (IE) | Energy to remove an electron from a gaseous atom | Measures how tightly electrons are held |\n| Successive ionization energies | Energies to remove the 1st, 2nd, 3rd, … electrons | The big jump reveals valence-electron count |\n| Electron affinity | Energy change when a gaseous atom gains an electron | Measures how eagerly an atom accepts electrons |\n| Metallic character | How readily an element loses electrons / behaves as a metal | Predicts conductivity, malleability, and cation formation |",
+    "collegeNotes": "### 1. Atomic Radius\n\nAtomic radius is half the distance between the nuclei of two identical atoms bonded together. Across a period, \\\\(Z_{\\text{eff}}\\\\) rises while the shell number stays the same, so the nucleus pulls the electrons closer — radius *decreases* left → right. Down a group, each new shell sits farther out, so radius *increases*.\n\n### 2. Ionic Radius\n\nWhen an atom loses electrons to form a **cation**, the remaining electrons are pulled tighter and electron–electron repulsion drops, so the cation is *smaller* than the neutral atom. When an atom gains electrons to form an **anion**, added repulsion spreads the electrons out, so the anion is *larger*. In an **isoelectronic series** (same number of electrons), the ion with the *highest* nuclear charge is the smallest — e.g., \\\\(Al^{3+} < Mg^{2+} < Na^+ < F^- < O^{2-}\\\\) for the 10-electron series.\n\n### 3. Ionization Energy\n\nIonization energy (IE) is the energy needed to remove one mole of electrons from one mole of gaseous atoms: \\\\(X(g) \\to X^+(g) + e^-\\\\). First IE (\\\\(IE_1\\\\)) removes the first electron; successive IEs remove later electrons. IE rises left → right (higher \\\\(Z_{\\text{eff}}\\\\)) and falls down a group (electrons farther from the nucleus, better shielded). Successive IEs always increase, and a *huge jump* appears when you start removing electrons from a lower, filled shell.",
+    "howItWorks": "1. Locate the element on the periodic table.\n2. Determine its \\\\(Z_{\\text{eff}}\\\\) (topic 17) and its period (shell number).\n3. For size: higher \\\\(Z_{\\text{eff}}\\\\) (same period) shrinks the atom; more shells (lower in a group) enlarge it.\n4. For ions: remove electrons → smaller; add electrons → larger; among isoelectronic ions, more protons → smaller.\n5. For IE: higher \\\\(Z_{\\text{eff}}\\\\) and smaller radius → harder to remove an electron → higher IE.\n6. For electron affinity and metallic character: elements on the right (nonmetals) gain electrons readily; elements on the left and bottom (metals) lose them readily.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Atomic radius decreases across a period and increases down a group.\n- **High yield:** Cations are smaller than their parent atoms; anions are larger.\n- **High yield:** In an isoelectronic series, the highest nuclear charge gives the smallest ion.\n- **High yield:** A huge jump between successive ionization energies marks the start of a new, inner shell.\n- Ionization energy generally increases left → right and decreases down a group.\n- Electron affinity generally becomes more negative across a period; halogens are the most eager to gain electrons.\n- Metallic character increases down a group and to the left of the table.\n- Nonmetals (top right) have high IE and strongly negative electron affinities; metals (left/bottom) are the opposite.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Atomic radius | Ionic radius | Ionic radius is for charged ions; cations shrink and anions grow |\n| Cation radius | Anion radius | Cations are smaller than the parent atom; anions are larger |\n| First ionization energy | Successive ionization energy | Successive values always rise; the *jump*, not just the rise, matters |\n| Electron affinity | Electronegativity | Electron affinity is a measured energy (of an isolated atom); electronegativity is a relative scale of atom attraction *within a bond* |\n| Metallic character | Metal as a substance | Metallic character is a trend/gradient; a \"metal\" is an element classification |",
+    "memoryAids": "**\"Radius: down the stairs and to the left, atoms get bigger.\"** Imagine walking *down* a group (bigger) and *left* across a period (bigger). Ionization energy runs the opposite direction: up and to the right, atoms hold electrons tighter.",
+    "eli10": "Think of the periodic table as a magnet-strength map. Going right across a row, the nucleus adds protons *and* tightens its grip on the same set of outer electrons, so the atom shrinks like a fist closing. Going down a column, you add a whole new \"orbit\" of electrons farther out, so the atom swells like an onion gaining layers.\n\n*Where it stops being exact:* electron affinity has messy exceptions (filled and half-filled subshells are unusually stable), and \"metallic character\" is a smooth gradient, not an on/off switch. The trends are tendencies, not guarantees for every single element.\n\n### Simple Example\n\nFluorine (top-right of the nonmetals) is a small, electron-hungry atom with a very high ionization energy, while cesium (bottom-left of the metals) is huge and gives up its electron easily. That single left–right, top–bottom contrast explains most of the reactivity differences in chemistry.",
+    "quickReview": "### Topic Recap\n\nAll the major periodic trends trace back to two factors: effective nuclear charge and the number of electron shells. Atomic radius and metallic character grow down and to the left; ionization energy and electron affinity grow up and to the right. Cations shrink and anions swell relative to their parent atoms, and successive ionization energies reveal exactly how many electrons an atom can comfortably lose before the next removal becomes prohibitively expensive.\n\n### Knowledge Check\n\n1. Does atomic radius increase or decrease as you move from left to right across period 2? Why?\n2. Which is larger, \\\\(Cl\\\\) or \\\\(Cl^-\\\\), and why?\n3. Arrange \\\\(S^{2-}, Cl^-, K^+, Ca^{2+}\\\\) (all 18 electrons) by increasing radius.\n4. Why is \\\\(IE_2\\\\) of sodium much larger than \\\\(IE_1\\\\)?\n5. Which has more metallic character, potassium or bromine? Explain.\n\n### Answers and Rationales\n\n1. It *decreases*. Across period 2, \\\\(Z_{\\text{eff}}\\\\) rises while electrons stay in the \\\\(n = 2\\\\) shell, so the nucleus pulls them closer.\n2. \\\\(Cl^-\\\\) is larger. Adding an electron increases electron–electron repulsion and spreads the cloud out, while the nuclear charge is unchanged.\n3. \\\\(Ca^{2+} < K^+ < Cl^- < S^{2-}\\\\). All have 18 electrons; more protons pull harder, so \\\\(Ca^{2+}\\\\) (20 protons) is smallest and \\\\(S^{2-}\\\\) (16 protons) is largest.\n4. \\\\(IE_1\\\\) removes sodium's lone \\\\(3s\\\\) valence electron, but \\\\(IE_2\\\\) removes a \\\\(2p\\\\) *core* electron that feels a much higher \\\\(Z_{\\text{eff}}\\\\) — hence the huge jump.\n5. Potassium. It is farther down and to the left, so its valence electron is easier to remove; bromine, a nonmetal near the top right, gains electrons instead.",
+    "workedExamples": "Ionization is written as a one-electron process with an associated energy:\n\n\\\\[ X(g) \\longrightarrow X^+(g) + e^- \\qquad IE_1 = \\text{energy required} \\\\]\n\n**Worked Example 1 — Ranking atomic radii.** Compare Na, Mg, and Cl. All are in period 3, so radius decreases left → right: \\\\(Na > Mg > Cl\\\\). Sodium is the largest because it has the lowest \\\\(Z_{\\text{eff}}\\\\) on its valence electron.\n\n**Worked Example 2 — Successive ionization energies of magnesium.** Magnesium (\\\\(1s^2 2s^2 2p^6 3s^2\\\\)) has two valence electrons. Removing them (\\\\(IE_1\\\\) and \\\\(IE_2\\\\)) costs a few thousand kJ/mol, but the *third* ionization removes a \\\\(2p\\\\) core electron, which feels a much higher \\\\(Z_{\\text{eff}}\\\\). So \\\\(IE_3\\\\) of Mg is enormously larger than \\\\(IE_2\\\\) — the classic \"big jump\" that reveals how many valence electrons an element has. This jump is why magnesium forms \\\\(Mg^{2+}\\\\) but not \\\\(Mg^{3+}\\\\).\n\n**Worked Example 3 — Isoelectronic ranking.** For the 10-electron ions \\\\(N^{3-}, O^{2-}, F^-, Na^+, Mg^{2+}\\\\), nuclear charge increases \\\\(7 \\to 12\\\\). The same 10 electrons are pulled harder as \\\\(Z\\\\) rises, so the radius falls: \\\\(N^{3-} > O^{2-} > F^- > Na^+ > Mg^{2+}\\\\).\n\n**Common setup error:** comparing ions without normalizing electron count. Always check whether two ions are isoelectronic before ranking by charge; different electron counts change the shell structure.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "periodic-trends",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "18-periodic-trends",
+      "kind": "source_file_stem",
+      "source_id": "need-review-general-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-general-chemistry-i",
+    "sourceFile": "general-chemistry-i-study-notes/docs/general-chemistry-i/18-periodic-trends.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

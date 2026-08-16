@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:acid-base-chemistry:lewis-acids-bases-electrophiles-and-nucleophiles",
+  "slug": "lewis-acids-bases-electrophiles-and-nucleophiles",
+  "title": "Lewis Acids, Bases, Electrophiles, and Nucleophiles",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:acid-base-chemistry",
+    "slug": "acid-base-chemistry",
+    "title": "Acid-Base Chemistry",
+    "order": 2
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "A Lewis acid is an electron-pair acceptor and a Lewis base is an electron-pair donor — broader than Brønsted because it needs no proton. Electrophiles (\"electron lovers\") are Lewis acids; nucleophiles (\"nucleus lovers\") are Lewis bases. Polar bonds mark reactive centers: electron-poor atoms (δ⁺) are electrophilic, while lone pairs, π bonds, and negative charges are nucleophilic. Every acid-base reaction is drawn with a curved arrow starting on the nucleophile's electron pair and pointing at the electrophile.",
+    "whyItMatters": "Lewis acid-base chemistry is central to enzyme action. The zinc ion in carbonic anhydrase is a Lewis acid: it accepts electron density from a bound water molecule, lowering that water's pKa so it can transfer a proton in converting CO₂ to bicarbonate. Metal-ion Lewis acids (zinc, iron, magnesium) appear throughout biochemistry, and recognizing which atom is electrophilic versus nucleophilic is how medicinal chemists predict where a drug binds or reacts.",
+    "learningObjectives": "1. Define Lewis acids and bases as electron-pair acceptors and donors, and relate them to the Brønsted-Lowry definitions.\n2. Identify electrophiles, nucleophiles, and their reactive centers using formal charge and bond polarity.\n3. Draw curved-arrow mechanisms for Lewis acid-base reactions, including proton transfers and leaving-group departure.\n4. Distinguish nucleophilicity from basicity and describe how steric and solvent effects modulate each.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Lewis acid | An electron-pair acceptor | Broadest definition of \"acid\"; covers species with no proton |\n| Lewis base | An electron-pair donor | Supplies the pair that starts every curved arrow |\n| Electron-pair acceptor/donor | What defines a Lewis acid/base respectively | Replaces proton talk with electron-pair talk |\n| Electrophile | An electron-poor species seeking a pair (a Lewis acid) | The \"target\" nucleophiles attack |\n| Nucleophile | An electron-rich species donating a pair (a Lewis base) | The \"attacker\" in most organic reactions |\n| Electrophilic/nucleophilic center | The specific electron-poor/electron-rich atom in a molecule | Tells you *where* a reaction happens |\n| Formal charge | Charge an atom would have if bonding electrons split evenly | Reveals electron-poor and electron-rich sites |\n| Polar bond | A bond with unequal electron sharing (δ⁺/δ⁻) | Creates electrophilic and nucleophilic centers |\n| Leaving group | A group that departs with the bonding electron pair | Its ability controls whether substitution/elimination proceeds |",
+    "collegeNotes": "### 1. Lewis acids and bases generalize Brønsted-Lowry\nA Lewis acid accepts an electron pair; a Lewis base donates one. Every Brønsted acid is a Lewis acid (its proton is accepted by a base), but the reverse is not true: BF₃ and AlCl₃ are Lewis acids with no proton to give. Every Brønsted base is a Lewis base, but donors like CO or NH₃ can act without accepting a proton. The Lewis view is the more general one and describes nearly all organic reactions.\n### 2. Electrophiles, nucleophiles, and reactive centers\nAn **electrophile** is attracted to electrons — an electron-poor site seeking a pair; it is a Lewis acid. A **nucleophile** is attracted to nuclei — an electron-rich species with a pair to donate; it is a Lewis base. Read formal charge and bond polarity to find centers: positively charged atoms (carbocations, H⁺) and δ⁺ atoms in polar bonds (the carbon of C–X or a carbonyl C=O) are **electrophilic centers**; lone pairs, π bonds, and full negative charges are **nucleophilic centers**. One molecule can carry both.\n### 3. Nucleophilicity vs basicity, sterics, and solvent\n**Nucleophilicity** is kinetic — how fast a species attacks an electrophilic carbon; **basicity** is thermodynamic — how strongly it binds a proton. They usually track together but can diverge: a bulky base may be a poor nucleophile, and solvent can change one more than the other. **Steric effects** (bulk around the reactive atom) slow nucleophilic attack far more than proton transfer. **Solvent effects** (introductory): protic solvents hydrogen-bond to and \"wrap\" small charged nucleophiles, weakening them; polar aprotic solvents leave nucleophiles \"naked\" and more reactive.",
+    "howItWorks": "1. Assign formal charges and mark polar bonds (δ⁺/δ⁻) on every reactant.\n2. Label each electrophilic center (δ⁺ atoms, positive charges, electron-deficient atoms) and nucleophilic center (lone pairs, π bonds, negative charges).\n3. Identify the nucleophile (Lewis base) and electrophile (Lewis acid).\n4. Draw a curved arrow from the nucleophile's electron pair to the electrophilic atom.\n5. If a bond must break, draw a second arrow moving that bonding pair onto the departing atom (the leaving group).\n6. Verify atom balance, charge balance, and octets on the products.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Lewis acid = electron-pair acceptor; Lewis base = electron-pair donor. No proton required.\n- **High yield:** Electrophile = Lewis acid; nucleophile = Lewis base — two vocabularies for the same pair.\n- **High yield:** Curved arrows start on electron pairs (lone pairs or bonds) and point at atoms — they move electrons, not atoms.\n- **High yield:** Read formal charge and δ⁺/δ⁻ to find electrophilic (electron-poor) and nucleophilic (electron-rich) centers.\n- **High yield:** Nucleophilicity is kinetic; basicity is thermodynamic — related but distinct.\n- **High yield:** Steric bulk lowers nucleophilicity more than basicity, so bulky bases can be strong bases yet weak nucleophiles.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Nucleophilicity | Basicity | Nucleophilicity is kinetic (rate of attack); basicity is thermodynamic (proton affinity) |\n| Electrophile | Nucleophile | Electrophiles are electron-poor (accept pairs); nucleophiles are electron-rich (donate pairs) |\n| Lewis acid | Brønsted acid | Lewis acids accept electron pairs (may lack H⁺); Brønsted acids specifically donate protons |\n| Leaving group | Nucleophile | A leaving group departs with the pair; a nucleophile arrives with the pair |\n| Curved arrow (double-headed) | Fishhook arrow (single-headed) | Double-headed shows electron-pair movement; single-headed shows one-electron (radical) movement |",
+    "memoryAids": "\"**N**ucleophile = **N**egative (electron-rich, donates); **E**lectrophile = **E**lectron-poor (accepts).\" For the Lewis rule, \"**B**oth electrons come from the **B**ase\": every Lewis acid-base bond is formed from a pair the base supplies.",
+    "eli10": "Imagine an electron pair as a basketball and the nucleophile as the player holding it. The nucleophile passes the ball to an electrophile — a teammate with empty hands ready to catch. A Lewis acid is any player who can catch (accept the pair), and a Lewis base is any player who can pass (donate the pair). Curved arrows are the scoreboard showing who passed to whom.\n\nWhere it stops being exact: electron pairs are not physical balls, and catching is not a choice — it is orbital overlap and charge attraction. A curved arrow tracks where a pair of electrons starts and ends, not where an atom travels.\n### Simple Example\nBF₃ + NH₃ → BF₃–NH₃. Boron has only six valence electrons (an empty p orbital) and accepts nitrogen's lone pair, so BF₃ is the Lewis acid (electrophile) and NH₃ is the Lewis base (nucleophile). No proton is involved.",
+    "quickReview": "### Topic Recap\n\nLewis acids accept electron pairs and Lewis bases donate them, generalizing Brønsted chemistry to species without protons. Electrophiles are Lewis acids and nucleophiles are Lewis bases; formal charge and bond polarity reveal their reactive centers. Curved arrows begin on the nucleophile's electron pair and point at the electrophile, and leaving groups depart with the bonding pair. Nucleophilicity (kinetic) and basicity (thermodynamic) are related but distinct, pushed apart by steric and solvent effects.\n\n### Knowledge Check\n\n1. Is BF₃ a Brønsted acid? A Lewis acid? Explain.\n2. In CH₃Br, which atom is the electrophilic center and why?\n3. Draw the curved arrows for NH₃ + HCl → NH₄⁺ + Cl⁻.\n4. Why is the t-butoxide ion (CH₃)₃CO⁻ a strong base but a weak nucleophile?\n5. In (CH₃)₃C–Br → (CH₃)₃C⁺ + Br⁻, where do the C–Br bonding electrons end up?\n\n### Answers and Rationales\n\n1. BF₃ is not a Brønsted acid (no proton to donate) but is a Lewis acid, because boron accepts an electron pair to complete its octet.\n2. The carbon. It is bonded to the more-electronegative bromine, so it is δ⁺ (electron-poor) — the site a nucleophile attacks.\n3. One arrow from nitrogen's lone pair to the acidic H of HCl; a second arrow from the H–Cl bond onto chlorine (forming Cl⁻). Products: NH₄⁺ + Cl⁻.\n4. Steric effects. The three methyl groups block approach to oxygen, slowing nucleophilic attack on carbon, while proton transfer is less hindered — so it is a strong base but a poor nucleophile.\n5. They depart with bromine. The C–Br pair moves onto Br, forming bromide (Br⁻) and leaving the carbocation electron-poor.",
+    "workedExamples": "1. **A Lewis acid-base reaction without protons.** Draw a curved arrow from nitrogen's lone pair (nucleophile) to boron (electrophile), forming a new N–B bond: \\(\\ce{NH3 + BF3 -> H3N-BF3}\\). Nitrogen's lone pair becomes a shared pair and boron gains an octet.\n2. **A proton transfer (Brønsted within the Lewis view).** Draw one arrow from water's lone pair to the acidic H, and a second arrow from the H–Cl bond onto chlorine. The H–Cl pair ends on Cl⁻ (the leaving group), and H₂O becomes H₃O⁺: \\(\\ce{H2O: + H-Cl -> H3O+ + :Cl-}\\).\n3. **A leaving-group departure.** In \\(\\ce{(CH3)3C-Br -> (CH3)3C+ + Br-}\\), the C–Br bonding pair departs with bromine (one curved arrow from the C–Br bond onto Br), giving a carbocation electrophile and a bromide leaving group. Charge balance: neutral → (+1) + (−1); carbon drops from four bonds to three (sextet), which is why carbocations are electron-poor.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "lewis-acids-bases-electrophiles-and-nucleophiles",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "07-lewis-acids-bases-electrophiles-and-nucleophiles",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/07-lewis-acids-bases-electrophiles-and-nucleophiles.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:membranes-transport:secondary-active-transport",
+  "slug": "secondary-active-transport",
+  "title": "Secondary Active Transport: Symport and Antiport",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:membranes-transport",
+    "slug": "membranes-transport",
+    "title": "Membranes Transport",
+    "order": 2
+  },
+  "order": 11,
+  "status": "final",
+  "sections": {
+    "overview": "Secondary active transport (co-transport) moves a solute against its own concentration or electrochemical gradient by coupling it to the downhill movement of another solute — usually Na⁺ in animal cells or H⁺ in plants, bacteria, and many organelles. The energy comes indirectly from ATP, because the driving ion's gradient was itself established by a primary pump (the Na⁺/K⁺ ATPase or an H⁺ ATPase). **Symporters** move the two solutes in the same direction; **antiporters** move them in opposite directions.",
+    "whyItMatters": "Secondary active transport is how cells concentrate nutrients (glucose, amino acids) against gradients and regulate pH and Ca²⁺. It underlies intestinal glucose absorption (SGLT1), kidney reabsorption, cardiac Ca²⁺ extrusion (NCX), and neurotransmitter re-uptake (Na⁺-coupled transporters targeted by antidepressants and stimulants). Its dependence on the Na⁺ gradient explains why the Na⁺/K⁺ pump is essential.",
+    "learningObjectives": "- Define secondary active transport and distinguish it from primary active transport.\n- Contrast symport and antiport and give physiological examples.\n- Explain how the Na⁺ (or H⁺) gradient provides the driving force.\n- Predict coupling: how moving one solute down its gradient can move another uphill.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nSecondary active transport (co-transport) moves a solute against its own concentration or electrochemical gradient by coupling it to the downhill movement of another solute — usually Na⁺ in animal cells or H⁺ in plants, bacteria, and many organelles. The energy comes indirectly from ATP, because the driving ion's gradient was itself established by a primary pump (the Na⁺/K⁺ ATPase or an H⁺ ATPase). **Symporters** move the two solutes in the same direction; **antiporters** move them in opposite directions.\n\n### Key Components\n\n### Driving ion gradient\nThe Na⁺ electrochemical gradient (high outside, inside negative) in animals, or a proton gradient elsewhere, stores energy that co-transporters tap.\n\n### Symport (co-transport, same direction)\nThe driving ion and the transported solute cross in the same direction. Example: the Na⁺/glucose symporter (SGLT1) uses Na⁺ influx to import glucose into intestinal and kidney cells against the glucose gradient.\n\n### Antiport (exchange, opposite directions)\nThe driving ion moves in while the transported solute moves out (or vice versa). Examples: the Na⁺/Ca²⁺ exchanger (NCX) and the Na⁺/H⁺ exchanger.\n\n### Coupling and stoichiometry\nThe free energy released by the downhill ion movement must exceed the free energy required to move the substrate uphill; the coupling ratio (e.g., 2 Na⁺ : 1 glucose, or 3 Na⁺ : 1 Ca²⁺) sets the thermodynamic limit.\n\n### Mechanism\n\nA co-transporter has binding sites for both the driving ion and the substrate, with conformational changes that only occur when the sites are appropriately filled. Binding of the driving ion on its high side (outside Na⁺) triggers a conformation that also binds the substrate and then reorients both binding sites inward, releasing substrate against its gradient; the transporter returns empty (or carrying a counter-ion) to repeat.\n\n### How It Works\n\n1. A primary pump (Na⁺/K⁺ ATPase) maintains a steep inward Na⁺ gradient.\n2. Extracellular Na⁺ binds the symporter, which then binds its substrate (glucose) on the outside.\n3. A conformational change moves both Na⁺ and glucose inward.\n4. Na⁺ is released down its gradient; glucose is released against its gradient.\n5. For antiporters, Na⁺ binding inward drives the counter-transported solute outward (e.g., Ca²⁺ out of the cell).\n\n### Energy and Directionality\n\nThe transport of the substrate is \"uphill\" but the overall process is \"downhill\" because the Na⁺ (or H⁺) movement releases more free energy than the substrate movement consumes. The reaction is coupled and thermodynamically favorable overall; the \"fuel\" is ultimately ATP, spent earlier by the primary pump that built the gradient.\n\n### Experimental Evidence\n\n- **Gradient dependence:** intestinal glucose uptake collapses when external Na⁺ is removed or the Na⁺ gradient is dissipated with ouabain (which inhibits the Na⁺/K⁺ ATPase) — proving glucose transport depends on the Na⁺ gradient.\n- **Reversal of flux:** imposing a reversed Na⁺ gradient drives the co-transporter backward, confirming tight coupling.\n- **Stoichiometry determination:** flux and electrophysiology measurements (SGLT1 is electrogenic, ~2 Na⁺ per glucose) established coupling ratios.\n\n### Technique\n\nCo-transport is studied by measuring substrate uptake while manipulating the driving-ion gradient (ion substitution, ouabain, ionophores) and by electrophysiology for electrogenic co-transporters; liposome reconstitution with defined gradients proves the mechanism directly.",
+    "howItWorks": "1. A primary pump (Na⁺/K⁺ ATPase) maintains a steep inward Na⁺ gradient.\n2. Extracellular Na⁺ binds the symporter, which then binds its substrate (glucose) on the outside.\n3. A conformational change moves both Na⁺ and glucose inward.\n4. Na⁺ is released down its gradient; glucose is released against its gradient.\n5. For antiporters, Na⁺ binding inward drives the counter-transported solute outward (e.g., Ca²⁺ out of the cell).",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Secondary active transport = uses an ion gradient (built by a primary pump) to move another solute uphill.\n- Symport: same direction (Na⁺/glucose SGLT1, Na⁺/amino-acid transporters).\n- Antiport: opposite direction (Na⁺/Ca²⁺ exchanger, Na⁺/H⁺ exchanger).\n- No direct ATP hydrolysis by the co-transporter itself.\n- Driving ions: Na⁺ (animals), H⁺ (plants, bacteria, organelles).\n- Ouabain blocks Na⁺/K⁺ ATPase and thereby blocks Na⁺-coupled transport.",
+    "commonConfusions": "- **\"Secondary transport hydrolyzes ATP itself.\"** The co-transporter uses no ATP directly; it uses the ion gradient that a primary pump created.\n- **\"Symport and antiport are the same.\"** Symport moves both solutes the same way; antiport exchanges them in opposite directions.\n- **\"It is 'passive' because no ATP is used at the co-transporter.\"** The *substrate* moves uphill; only the coupled system is downhill overall.\n- **\"Only Na⁺ can drive co-transport.\"** Protons drive it in plants, bacteria, and many organelles.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a water wheel beside a grain mill. Water (Na⁺) flows downhill from a high reservoir the cell filled earlier with a pump, and as it rushes through the wheel, the wheel's turning carries grain (glucose) uphill into the mill. The water wheel does not burn fuel itself — it borrows the downhill rush of water that a pump already worked to store up.",
+    "quickReview": "- Co-transport couples downhill ion flow to uphill solute flow.\n- Symport (same direction) vs. antiport (opposite).\n- Examples: SGLT1 (Na⁺/glucose symport), NCX (Na⁺/Ca²⁺ antiport).\n- Ultimately powered by the primary pump's gradient.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"5.3 Active Transport.\" https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+        "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport"
+      },
+      {
+        "text": "StatPearls, \"Physiology, Sodium Potassium Pump.\" https://www.ncbi.nlm.nih.gov/books/NBK537088/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK537088/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Principles of Membrane Transport.\" https://www.ncbi.nlm.nih.gov/books/NBK26815/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "secondary-active-transport",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "11-secondary-active-transport",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:6e063fd5c74fe929"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:6e063fd5c74fe929"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:6e063fd5c74fe929"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:6e063fd5c74fe929"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/02-membranes-transport/11-secondary-active-transport.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Secondary Active Transport: Symport and Antiport\n\n## Learning Goals\n- Define secondary active transport and distinguish it from primary active transport.\n- Contrast symport and antiport and give physiological examples.\n- Explain how the Na⁺ (or H⁺) gradient provides the driving force.\n- Predict coupling: how moving one solute down its gradient can move another uphill.\n\n## Core Concept\nSecondary active transport (co-transport) moves a solute against its own concentration or electrochemical gradient by coupling it to the downhill movement of another solute — usually Na⁺ in animal cells or H⁺ in plants, bacteria, and many organelles. The energy comes indirectly from ATP, because the driving ion's gradient was itself established by a primary pump (the Na⁺/K⁺ ATPase or an H⁺ ATPase). **Symporters** move the two solutes in the same direction; **antiporters** move them in opposite directions.\n\n## Key Components\n### Driving ion gradient\nThe Na⁺ electrochemical gradient (high outside, inside negative) in animals, or a proton gradient elsewhere, stores energy that co-transporters tap.\n\n### Symport (co-transport, same direction)\nThe driving ion and the transported solute cross in the same direction. Example: the Na⁺/glucose symporter (SGLT1) uses Na⁺ influx to import glucose into intestinal and kidney cells against the glucose gradient.\n\n### Antiport (exchange, opposite directions)\nThe driving ion moves in while the transported solute moves out (or vice versa). Examples: the Na⁺/Ca²⁺ exchanger (NCX) and the Na⁺/H⁺ exchanger.\n\n### Coupling and stoichiometry\nThe free energy released by the downhill ion movement must exceed the free energy required to move the substrate uphill; the coupling ratio (e.g., 2 Na⁺ : 1 glucose, or 3 Na⁺ : 1 Ca²⁺) sets the thermodynamic limit.\n\n## Mechanism\nA co-transporter has binding sites for both the driving ion and the substrate, with conformational changes that only occur when the sites are appropriately filled. Binding of the driving ion on its high side (outside Na⁺) triggers a conformation that also binds the substrate and then reorients both binding sites inward, releasing substrate against its gradient; the transporter returns empty (or carrying a counter-ion) to repeat.\n\n## How It Works\n1. A primary pump (Na⁺/K⁺ ATPase) maintains a steep inward Na⁺ gradient.\n2. Extracellular Na⁺ binds the symporter, which then binds its substrate (glucose) on the outside.\n3. A conformational change moves both Na⁺ and glucose inward.\n4. Na⁺ is released down its gradient; glucose is released against its gradient.\n5. For antiporters, Na⁺ binding inward drives the counter-transported solute outward (e.g., Ca²⁺ out of the cell).\n\n## Energy and Directionality\nThe transport of the substrate is \"uphill\" but the overall process is \"downhill\" because the Na⁺ (or H⁺) movement releases more free energy than the substrate movement consumes. The reaction is coupled and thermodynamically favorable overall; the \"fuel\" is ultimately ATP, spent earlier by the primary pump that built the gradient.\n\n## Experimental Evidence\n- **Gradient dependence:** intestinal glucose uptake collapses when external Na⁺ is removed or the Na⁺ gradient is dissipated with ouabain (which inhibits the Na⁺/K⁺ ATPase) — proving glucose transport depends on the Na⁺ gradient.\n- **Reversal of flux:** imposing a reversed Na⁺ gradient drives the co-transporter backward, confirming tight coupling.\n- **Stoichiometry determination:** flux and electrophysiology measurements (SGLT1 is electrogenic, ~2 Na⁺ per glucose) established coupling ratios.\n\n## Technique\nCo-transport is studied by measuring substrate uptake while manipulating the driving-ion gradient (ion substitution, ouabain, ionophores) and by electrophysiology for electrogenic co-transporters; liposome reconstitution with defined gradients proves the mechanism directly.\n\n## Why It Matters\nSecondary active transport is how cells concentrate nutrients (glucose, amino acids) against gradients and regulate pH and Ca²⁺. It underlies intestinal glucose absorption (SGLT1), kidney reabsorption, cardiac Ca²⁺ extrusion (NCX), and neurotransmitter re-uptake (Na⁺-coupled transporters targeted by antidepressants and stimulants). Its dependence on the Na⁺ gradient explains why the Na⁺/K⁺ pump is essential.\n\n## High-Yield Facts\n- Secondary active transport = uses an ion gradient (built by a primary pump) to move another solute uphill.\n- Symport: same direction (Na⁺/glucose SGLT1, Na⁺/amino-acid transporters).\n- Antiport: opposite direction (Na⁺/Ca²⁺ exchanger, Na⁺/H⁺ exchanger).\n- No direct ATP hydrolysis by the co-transporter itself.\n- Driving ions: Na⁺ (animals), H⁺ (plants, bacteria, organelles).\n- Ouabain blocks Na⁺/K⁺ ATPase and thereby blocks Na⁺-coupled transport.\n\n## Eli Explains\nThink of a water wheel beside a grain mill. Water (Na⁺) flows downhill from a high reservoir the cell filled earlier with a pump, and as it rushes through the wheel, the wheel's turning carries grain (glucose) uphill into the mill. The water wheel does not burn fuel itself — it borrows the downhill rush of water that a pump already worked to store up.\n\n## Common Confusions\n- **\"Secondary transport hydrolyzes ATP itself.\"** The co-transporter uses no ATP directly; it uses the ion gradient that a primary pump created.\n- **\"Symport and antiport are the same.\"** Symport moves both solutes the same way; antiport exchanges them in opposite directions.\n- **\"It is 'passive' because no ATP is used at the co-transporter.\"** The *substrate* moves uphill; only the coupled system is downhill overall.\n- **\"Only Na⁺ can drive co-transport.\"** Protons drive it in plants, bacteria, and many organelles.\n\n## Quick Review\n- Co-transport couples downhill ion flow to uphill solute flow.\n- Symport (same direction) vs. antiport (opposite).\n- Examples: SGLT1 (Na⁺/glucose symport), NCX (Na⁺/Ca²⁺ antiport).\n- Ultimately powered by the primary pump's gradient.\n\n## Sources\n- OpenStax, *Biology 2e*, \"5.3 Active Transport.\" https://openstax.org/books/biology-2e/pages/5-3-active-transport\n- StatPearls, \"Physiology, Sodium Potassium Pump.\" https://www.ncbi.nlm.nih.gov/books/NBK537088/\n- Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Principles of Membrane Transport.\" https://www.ncbi.nlm.nih.gov/books/NBK26815/\n"
+}

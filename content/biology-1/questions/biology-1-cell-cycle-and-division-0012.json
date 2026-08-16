@@ -1,0 +1,39 @@
+{
+  "id": "biology-1-cell-cycle-and-division-0012",
+  "subject": "biology-1",
+  "lesson": "cell-cycle-and-division",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "The protein **p53**, a **tumor suppressor**, detects DNA damage and halts the cell cycle at the G1 checkpoint so repair can occur. A cell loses both working copies of the p53 gene. Which outcome is most likely?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The cell immediately stops dividing and dies."
+    },
+    {
+      "id": "b",
+      "text": "The cell repairs damaged DNA even more efficiently."
+    },
+    {
+      "id": "c",
+      "text": "The cell replicates DNA only during G2 instead of S phase."
+    },
+    {
+      "id": "d",
+      "text": "Damaged DNA no longer triggers a G1 arrest, so mutations accumulate as the cell keeps dividing."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "p53 is a tumor suppressor that enforces G1 arrest when DNA is damaged, so losing it lets damaged cells keep dividing and pile up mutations, a hallmark of cancer. A is wrong because division continues unchecked, B reverses p53's role, and C misplaces DNA replication in G2.",
+  "difficulty": "unknown",
+  "tags": [
+    "loss",
+    "p53",
+    "cancer"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-d4eb26fb1a74e2b8",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": "genetics-dna-structure-and-replication-0007",
+  "subject": "genetics",
+  "lesson": "dna-structure-and-replication",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** sequence-analysis The template strand of a short DNA segment is 3' TAC GCA TTG 5'. DNA polymerase synthesizes a new strand on this template. What is the sequence and polarity of the new strand?",
+  "options": [
+    {
+      "id": "a",
+      "text": "5' ATG CGT AAC 3'"
+    },
+    {
+      "id": "b",
+      "text": "3' ATG CGT AAC 5'"
+    },
+    {
+      "id": "c",
+      "text": "5' TAC GCA TTG 3'"
+    },
+    {
+      "id": "d",
+      "text": "3' TAC GCA TTG 5'"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The new strand must be antiparallel to the template and complementary to it, pairing A with T and G with C, so the template 3' TAC GCA TTG 5' is copied as 5' ATG CGT AAC 3'. Option B has the correct bases but the wrong polarity, option C is the template sequence itself, and option D is the template written in reverse without complementing the bases. DNA polymerase extends the new strand only in the 5' to 3' direction, which matches the answer's orientation.",
+  "difficulty": "unknown",
+  "tags": [
+    "template",
+    "new",
+    "strand",
+    "sequence"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-5fcc89f16ce99a1e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

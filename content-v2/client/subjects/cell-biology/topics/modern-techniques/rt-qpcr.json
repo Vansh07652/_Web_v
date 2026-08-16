@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:modern-techniques:rt-qpcr",
+  "slug": "rt-qpcr",
+  "title": "Reverse Transcription Quantitative PCR (RT-qPCR)",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:modern-techniques",
+    "slug": "modern-techniques",
+    "title": "Modern Techniques",
+    "order": 11
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "RT-qPCR measures the amount of a specific RNA transcript by first copying it into complementary DNA (cDNA) with a reverse transcriptase, then quantifying that cDNA in real time with PCR that reports fluorescence each cycle. The number of cycles needed for fluorescence to cross a threshold — the **Ct (cycle threshold, also written Cq)** — is inversely related to how much target was present at the start: more starting transcript gives a lower Ct. Because raw Ct values are affected by RNA input and efficiency, results are normalized against stably expressed **reference genes** (e.g., GAPDH, ACTB). RT-qPCR is the gold standard for measuring *gene expression* (mRNA abundance) of defined genes — but it quantifies RNA, not protein, and it cannot by itself prove that a transcript yields functional protein.",
+    "whyItMatters": "RT-qPCR is the standard for confirming gene-expression changes found in microarrays or RNA-Seq, for viral-load quantification in HIV and COVID-19 diagnostics, for cancer biomarker and fusion-transcript detection, and for validating knockouts/knockdowns. Its combination of sensitivity, speed, and quantitative precision makes it the reference method for \"is this gene on, and by how much?\"",
+    "learningObjectives": "- Explain why RT-qPCR is a two-step process: reverse transcription of RNA to cDNA, then quantitative PCR with fluorescence detection.\n- Define Ct (Cq) and explain its inverse relationship to starting transcript amount.\n- Describe the roles of SYBR Green and TaqMan probe chemistries and of reference (housekeeping) genes.\n- Distinguish relative from absolute quantification and what RT-qPCR can and cannot prove.\n- List the essential controls (no-RT, no-template) and the rationale for normalization.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nRT-qPCR measures the amount of a specific RNA transcript by first copying it into complementary DNA (cDNA) with a reverse transcriptase, then quantifying that cDNA in real time with PCR that reports fluorescence each cycle. The number of cycles needed for fluorescence to cross a threshold — the **Ct (cycle threshold, also written Cq)** — is inversely related to how much target was present at the start: more starting transcript gives a lower Ct. Because raw Ct values are affected by RNA input and efficiency, results are normalized against stably expressed **reference genes** (e.g., GAPDH, ACTB). RT-qPCR is the gold standard for measuring *gene expression* (mRNA abundance) of defined genes — but it quantifies RNA, not protein, and it cannot by itself prove that a transcript yields functional protein.\n\n### Key Components\n\n### Reverse transcriptase\n- An RNA-dependent DNA polymerase (from retroviruses such as Moloney murine leukemia virus, MMLV) that synthesizes cDNA from an RNA template, typically primed by oligo(dT) (targets poly-A mRNA), random hexamers, or gene-specific primers.\n\n### cDNA\n- The DNA copy of the RNA of interest; it is the template for the subsequent qPCR. Converting to cDNA lets the stable DNA amplification machinery work on an RNA-derived target.\n\n### Fluorescent detection\n- **SYBR Green** — a dye that fluoresces when bound to double-stranded DNA; simple and cheap but binds *any* dsDNA, so it can also detect primer dimers and nonspecific products.\n- **TaqMan probe** — a sequence-specific oligonucleotide with a fluorophore and quencher; the probe is cleaved during extension, releasing fluorescence only when the correct target is amplified (high specificity, enables multiplexing).\n\n### Reference (housekeeping) genes\n- Endogenous genes expected to be expressed at constant levels (GAPDH, ACTB, 18S rRNA); used to normalize Ct values and correct for differences in input RNA and reaction efficiency (the ΔΔCt method).\n\n### Mechanism\n\n1. **Reverse transcription (RT).** Total RNA (or mRNA) is incubated with reverse transcriptase and primers to synthesize first-strand cDNA. This is the \"RT\" step — RNA → cDNA.\n2. **qPCR amplification.** The cDNA is amplified by PCR in the presence of a fluorescent reporter (SYBR Green or TaqMan probe); a detector reads fluorescence every cycle.\n3. **Threshold and Ct.** The instrument plots fluorescence vs. cycle number; the cycle at which fluorescence rises above a set threshold (background) is the Ct. Lower Ct = higher starting amount.\n4. **Normalization and quantification.** Target Ct is compared to reference-gene Ct (ΔCt), then to a calibrator sample (ΔΔCt) for **relative quantification**, or to a standard curve of known copy numbers for **absolute quantification**.\n5. **Quality check.** A melt-curve (for SYBR Green) confirms a single product; no-RT and no-template controls are checked for contamination.\n\n### Energy and Directionality\n\nReverse transcriptase synthesizes DNA **5′→3′** from an RNA template, using dNTP hydrolysis for energy; it has no proofreading, so it is more error-prone than DNA polymerases (an acceptable cost for a short diagnostic readout). The subsequent qPCR is standard primer-directed 5′→3′ DNA synthesis powered by dNTP hydrolysis. The \"signal\" is directional too: fluorescence accumulates only as new double-stranded DNA (or cleaved probe) is produced, so the readout tracks net product formation cycle by cycle.\n\n### Experimental Evidence\n\n- **What it measures:** the relative or absolute abundance of a specific RNA transcript (gene expression), via its cDNA copy.\n- **Principle:** RNA→cDNA by reverse transcription, then real-time fluorescence PCR whose Ct reflects starting target amount.\n- **Input:** purified RNA (quality-checked, DNase-treated), RT enzyme, gene-specific primers, fluorescent reporter, reference-gene primers. **Output:** a Ct value per target, convertible to fold-change or copy number.\n- **What it can prove:** a transcript is present and how its abundance differs between conditions/tissues/timepoints; a gene is upregulated or downregulated.\n- **What it cannot prove:** protein abundance, protein activity, or post-translational regulation — mRNA and protein levels can diverge; it also cannot detect unknown/new transcripts (that is RNA-Seq's job).\n- **Controls:** **no-RT control** (omit reverse transcriptase — any signal indicates contaminating genomic DNA, since RNA cannot be amplified by DNA polymerase); **no-template control (NTC)** (detects reagent contamination and primer dimers); **reference genes** (normalize input); **standard curve** (for absolute copy number); melt-curve (confirms specificity).\n- **Common mistakes:** skipping DNase treatment (gDNA falsely inflates signal), poor RNA quality/degradation, primer dimers with SYBR Green, invalid reference genes whose expression actually changes, and reporting raw Ct without normalization.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- RT-qPCR = **RT (RNA → cDNA)** *then* **qPCR (fluorescence, real-time)**.\n- **Ct/Cq** = cycle at which fluorescence crosses threshold; **lower Ct = more starting transcript**.\n- SYBR Green binds **any** dsDNA (less specific); TaqMan probe is **sequence-specific**.\n- Requires **reference (housekeeping) genes** for normalization (ΔΔCt).\n- no-RT control detects **genomic DNA contamination**.\n- Measures **mRNA**, not protein; expression ≠ protein activity.\n- Relative (fold-change) vs. absolute (copy number) quantification.",
+    "commonConfusions": "- **\"RT-qPCR = regular PCR\"** — No. RT-qPCR measures RNA by first making cDNA, then quantifying in real time; plain PCR just amplifies DNA and is end-point, not quantitative.\n- **\"A high Ct means more transcript\"** — Wrong direction: high Ct means *less* starting transcript (more cycles needed to reach threshold).\n- **\"Housekeeping genes never change\"** — They are usually stable but must be *validated* per condition; some change in disease or development.\n- **\"mRNA level = protein level\"** — Post-transcriptional and post-translational regulation decouple them; RT-qPCR alone cannot claim a functional change.\n- **\"SYBR Green is always specific\"** — It stains all double-stranded DNA, including primer dimers, so a melt-curve is required to confirm a single product.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine you want to know how loud a specific \"gene voice\" is in a cell. The cell speaks in RNA, which is fragile, so first you tape-record it into a sturdy DNA copy (that's reverse transcription). Then you feed that copy into a copy machine that flashes a light every time it makes a new copy — the sooner the light turns on, the more of your gene's message was there to begin with. You compare against a few always-on \"housekeeping\" voices to make the measurement fair. (The analogy hides that \"loudness\" is really molecule counts, and that a loud message doesn't guarantee a working protein is made.)",
+    "quickReview": "- Two steps: reverse transcription (RNA→cDNA), then quantitative PCR with fluorescence readout.\n- Ct is inversely proportional to starting transcript; normalize to reference genes (ΔΔCt).\n- Use no-RT and NTC controls; DNase-treat RNA; validate reference genes.\n- Quantifies gene expression (RNA), not protein or function.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NCI, \"real-time PCR\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/real-time-pcr",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/real-time-pcr"
+      },
+      {
+        "text": "NHGRI, \"Polymerase Chain Reaction (PCR) Fact Sheet.\" https://www.genome.gov/about-genomics/fact-sheets/Polymerase-Chain-Reaction-Fact-Sheet",
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/Polymerase-Chain-Reaction-Fact-Sheet"
+      },
+      {
+        "text": "NCI, \"gene expression\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/gene-expression",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/gene-expression"
+      },
+      {
+        "text": "MedlinePlus, \"How do genes direct the production of proteins?\" https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"Biotechnology.\" https://openstax.org/books/biology-2e/pages/17-1-biotechnology",
+        "url": "https://openstax.org/books/biology-2e/pages/17-1-biotechnology"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/11-modern-techniques/03-rt-qpcr.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

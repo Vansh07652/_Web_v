@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:nursing-math-dosage:master-study-guide:rapid-review-reference-sheets",
+  "slug": "rapid-review-reference-sheets",
+  "title": "Rapid-Review Reference Sheets",
+  "subject": {
+    "id": "subject:nursing-math-dosage",
+    "slug": "nursing-math-dosage",
+    "title": "Nursing Math & Dosage Foundations"
+  },
+  "unit": {
+    "id": "unit:nursing-math-dosage:master-study-guide",
+    "slug": "master-study-guide",
+    "title": "Master Study Guide",
+    "order": 2
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "Move the decimal three places per metric step among g–mg–mcg and L–mL.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "",
+    "collegeNotes": "## 1. Conversion Chart\n\n| Conversion | Value | Type |\n|---|---|---|\n| 1 kg | ≈ 2.2 lb | rounded (nursing convention) |\n| 1 tsp | 5 mL | exact |\n| 1 tbsp | 15 mL | exact |\n| 1 fl oz | ≈ 30 mL | rounded (nursing convention) |\n| 1 L | 1000 mL | exact |\n| 1 g | 1000 mg | exact |\n| 1 mg | 1000 mcg | exact |\n| 1 lb | ≈ 0.45 kg (16 oz) | rounded |\n\nMove the decimal three places per metric step among g–mg–mcg and L–mL.\n\n## 2. Major Formulas\n\n| Purpose | Formula |\n|---|---|\n| Basic dose | Desired / Have × Quantity = Amount (D/H × Q = X) |\n| Pump rate | mL/hr = Total Volume (mL) ÷ Total Time (hr) |\n| Gravity drip | gtt/min = [Volume (mL) × Drop Factor (gtt/mL)] ÷ Time (min) |\n| Weight | kg = lb ÷ 2.2 |\n| Concentration | mg/mL = total mg ÷ total mL |\n\n## 3. Dimensional-Analysis Checklist\n\n1. Identify the **wanted unit** (e.g., mL, gtt/min, mL/hr).\n2. Start with the **given** quantity or an appropriate conversion factor.\n3. Arrange factors so **unwanted units cancel** (numerator ↔ denominator).\n4. Keep going until **only the wanted unit remains**.\n5. Multiply numerators, multiply denominators, **divide**.\n6. **Round only at the final step** per the stated rule.\n7. Attach the correct **unit**.\n8. **Reasonableness check** — is the number clinically plausible?\n\n## 4. Rounding Reminders\n\n- Tablets/capsules → whole or half tablet (only if safe/splittable).\n- Oral liquids → nearest tenth or hundredth (device-dependent; state which).\n- mL/hr (pump) → whole or tenth (state which).\n- gtt/min → whole drop.\n- Weight (lb→kg) → nearest tenth **only when the question says so**.\n- No intermediate rounding unless explicitly required.\n\n## 5. IV Flow-Rate Formulas\n\n- **mL/hr** = mL ÷ hr  (convert minutes to hours first: min ÷ 60).\n- **gtt/min** = (mL × drop factor) ÷ min.\n- **Completion time** = start time + duration.\n- **Remaining volume** = total − infused; **time remaining** = remaining mL ÷ mL/hr.\n\n## 6. Pediatric Safe-Range Workflow (7 steps)\n\n1. Convert weight: **kg = lb ÷ 2.2** (round to nearest tenth if instructed).\n2. Identify whether the range is **per dose** or **per day**.\n3. Calculate **minimum safe dose**.\n4. Calculate **maximum safe dose**.\n5. Multiply by **doses/day** if the range is daily.\n6. **Compare** the ordered dose (per dose and per day) to the range.\n7. Conclude **SAFE** or **UNSAFE**; only then calculate administration volume if asked.\n\n## 7. Critical-Care Drip Workflow\n\n**Order → pump rate (mL/hr):**\n1. Convert to a common time base (per min or per hr).\n2. Multiply by weight (kg) for kg-based orders (mcg/kg/min, mg/kg/hr).\n3. Convert drug mass to volume using **concentration** (mg/mL or mcg/mL).\n4. Ensure only **mL/hr** remains.\n\n**Pump rate → actual dose (reverse):**\n1. mL/hr → drug/hr using concentration.\n2. ÷ weight (kg).\n3. Convert time base back to the requested unit (mcg/kg/min).\n\n## 8. Medication-Order Safety Checklist\n\n- Verify the **order** is complete (drug, dose, route, frequency, duration).\n- Verify the **medication label** against the order (drug, strength, concentration).\n- **Compare** against appropriate dosing references / safe ranges.\n- Consider **maximum doses** and high-alert status.\n- Confirm **patient weight** (reweigh if uncertain, especially pediatrics).\n- **Clarify** any ambiguous, incomplete, or unsafe order before giving.\n- Use the **correct measuring device** (oral syringe, calibrated cup, insulin syringe).\n- **Independent double-check** high-alert drugs per facility policy.\n\n## 9. High-Risk Abbreviation Reminders\n\n**The Joint Commission \"Do Not Use\" (must not be used):**\n\n| Avoid | Use |\n|---|---|\n| U | \"unit\" |\n| IU | \"international units\" |\n| Q.D., QD, q.d., qd | \"daily\" |\n| Q.O.D., QOD, q.o.d., qod | \"every other day\" |\n| trailing zero (X.0 mg) | X mg |\n| missing leading zero (.X mg) | 0.X mg |\n| MS / MSO4 / MgSO4 | spell out \"morphine sulfate\" / \"magnesium sulfate\" |\n\n**Broader ISMP error-prone items** (avoid where possible): µg (use \"mcg\"), cc (use \"mL\"), HS (use \"half-strength\" or \"at bedtime\" spelled out), @, >, <.\n\n> The Joint Commission list is the required minimum; ISMP's list is broader recommended practice.\n> Always follow facility policy.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Medication-safety and calculation conventions are anchored in the following authoritative sources."
+      },
+      {
+        "text": "**The Joint Commission** — \"Do Not Use\" List of Abbreviations.",
+        "url": "https://www.jointcommission.org/resources/patient-safety-topics/do-not-use-list/"
+      },
+      {
+        "text": "**ISMP (Institute for Safe Medication Practices)** — List of Error-Prone Abbreviations, Symbols, and Dose Designations.",
+        "url": "https://www.ismp.org/recommendations/error-prone-abbreviations-list"
+      },
+      {
+        "text": "**ISMP** — High-Alert Medications in Acute Care Settings.",
+        "url": "https://www.ismp.org/recommendations/high-alert-medications-acute-list"
+      },
+      {
+        "text": "**FDA** — Medication Guides / drug labeling.",
+        "url": "https://www.fda.gov/drugs"
+      },
+      {
+        "text": "**USP** — General Chapter <7> Labeling and pharmaceutical compounding references (as applicable).",
+        "url": "https://www.usp.org/"
+      },
+      {
+        "text": "**CDC** — Vaccine administration / injection-safety references (as applicable).",
+        "url": "https://www.cdc.gov/"
+      },
+      {
+        "text": "**Official manufacturer labeling** — drug-specific concentrations, reconstitution, stability, and beyond-use information (accessed per drug via DailyMed).",
+        "url": "https://dailymed.nlm.nih.gov/"
+      },
+      {
+        "text": "**Exact:** 1 L = 1000 mL; 1 g = 1000 mg; 1 mg = 1000 mcg; 1 tsp = 5 mL; 1 tbsp = 15 mL."
+      },
+      {
+        "text": "**Conventionally rounded for nursing calculations (approximate):** 1 kg ≈ 2.2 lb; 1 fl oz ≈ 30 mL."
+      },
+      {
+        "text": "**Grains:** gr→mg equivalence varies by convention (60 mg vs 65 mg); always qualified, never presented as exact."
+      },
+      {
+        "text": "> This registry records only the source *types* used. No specific drug concentration, safe-dose"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": false,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "rapid-review-reference-sheets",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/nursing-dosage-calculations/part-4-reference-sheets.md"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "nursing-dosage-calculations",
+    "sourceFile": "generated-subjects/nursing-dosage-calculations/part-4-reference-sheets.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-dosage-calculations"
+  },
+  "sourceSnapshotMarkdown": ""
+}

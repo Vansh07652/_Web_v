@@ -1,0 +1,40 @@
+{
+  "id": "genetics-gene-regulation-prokaryotes-0008",
+  "subject": "genetics",
+  "lesson": "gene-regulation-prokaryotes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A partial diploid *E. coli* has the genotype F' *lacO^c* *lacZ^+* / *lacO^+* *lacZ^-* (both copies carry *lacI^+* and *lacY^+*). The operator constitutive allele *lacO^c* prevents repressor binding to that operator. In the absence of lactose, is beta galactosidase produced?",
+  "options": [
+    {
+      "id": "a",
+      "text": "No, because the operator is a trans acting element, so the chromosomal *lacO^+* silences the F' copy."
+    },
+    {
+      "id": "b",
+      "text": "Yes, but only when lactose is present to inactivate the Lac repressor."
+    },
+    {
+      "id": "c",
+      "text": "No, because the *lacZ^-* allele on the chromosome makes beta galactosidase defective in the whole cell."
+    },
+    {
+      "id": "d",
+      "text": "Yes, because the *lacO^c* mutation acts only in cis, so the adjacent *lacZ^+* on the same molecule is transcribed even without lactose."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Operators act in cis, meaning an operator only controls transcription of genes on the same DNA molecule. On the F' copy, *lacO^c* cannot be bound by the Lac repressor, so the adjacent *lacZ^+* is transcribed constitutively, while the chromosomal *lacO^+* *lacZ^-* pair stays off and its allele produces nothing. A applies trans logic to a cis element, B misses that *lacO^c* makes induction unnecessary, and C ignores that the *lacZ^+* copy supplies functional enzyme.",
+  "difficulty": "unknown",
+  "tags": [
+    "laco",
+    "cis",
+    "partial",
+    "diploid"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-3367b1216fd616d4",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-1:measurement-and-math:matter-and-measurement",
+  "slug": "matter-and-measurement",
+  "title": "Matter and Measurement",
+  "subject": {
+    "id": "subject:general-chemistry-1",
+    "slug": "general-chemistry-1",
+    "title": "General Chemistry I"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-1:measurement-and-math",
+    "slug": "measurement-and-math",
+    "title": "Measurement and Math",
+    "order": 1
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "Chemistry is the study of matter and the changes it undergoes. Matter is classified as elements, compounds, or mixtures, and its changes are either physical (identity unchanged) or chemical (a new substance forms). All measurements use SI units and metric prefixes and are reported with the correct significant figures to reflect the precision of the instrument. Dimensional analysis (unit-factor conversion) is the standard tool for moving between units.",
+    "whyItMatters": "A clinical technologist measures a patient's blood glucose in mg/dL. Reporting 98.4 vs. 98 mg/dL reflects the glucometer's precision (significant figures). Diluting a medication stock solution requires exact dimensional analysis—an inverted conversion factor or dropped zero could mean a 10× dosing error. A glucose meter is calibrated against a known standard (accuracy), and repeated readings should cluster tightly (precision).",
+    "learningObjectives": "1. Classify matter as elements, compounds, or mixtures and distinguish homogeneous from heterogeneous mixtures.\n2. Differentiate physical properties/changes from chemical properties/changes.\n3. Report measurements with the correct number of significant figures and distinguish accuracy from precision.\n4. Use SI base units, metric prefixes, and dimensional analysis to convert between units reliably.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Element | Pure substance of one kind of atom | Building block of all matter |\n| Compound | Two+ elements chemically combined in a fixed ratio | Most substances around us |\n| Mixture | Physical blend of substances | Separable without chemistry |\n| Homogeneous | Uniform composition throughout | e.g., solutions |\n| Heterogeneous | Nonuniform composition | e.g., sand and water |\n| Physical change | Identity unchanged | Reversible phase changes |\n| Chemical change | New substance forms | Reactions |\n| SI unit | Internationally agreed base unit | Consistent measurement |\n| Metric prefix | Power-of-ten multiplier | Convenient scaling |\n| Significant figures | Digits reflecting measurement precision | Honest reporting of data |\n| Accuracy | Nearness to the true value | Correctness |\n| Precision | Reproducibility | Consistency |\n| Dimensional analysis | Unit-factor conversion | Error-proof conversions |\n| Density | Mass per unit volume | Identifies substances |",
+    "collegeNotes": "### 1. Classification of Matter\nMatter is anything that has mass and occupies space. It divides into pure substances and mixtures.\n- **Elements:** cannot be separated into simpler substances by chemical means; about 118 are known, organized in the periodic table.\n- **Compounds:** two or more elements chemically combined in fixed proportions; separable only by chemical reactions.\n- **Mixtures:** physical combinations separable by physical means (filtration, distillation, evaporation). Homogeneous mixtures (solutions) have uniform composition; heterogeneous mixtures have visibly distinct parts.\n\n### 2. Physical vs. Chemical Properties and Changes\n- **Physical properties:** observed without changing identity (color, density, melting point, boiling point, solubility).\n- **Chemical properties:** describe how a substance reacts (flammability, reactivity with acid, oxidation).\n- **Physical changes:** identity is unchanged (melting, boiling, cutting, dissolving).\n- **Chemical changes:** a new substance forms (combustion, rusting, digestion), often signaled by a color change, gas evolution, or formation of a precipitate.\n\n### 3. SI Units and Metric Prefixes\nSI base units: length (meter, m), mass (kilogram, kg), time (second, s), temperature (kelvin, K), amount of substance (mole, mol), electric current (ampere, A), luminous intensity (candela, cd). Derived units combine base units (e.g., density = mass/volume, in g/mL or g/cm³). Metric prefixes scale a base unit by powers of ten: kilo- (10³), centi- (10⁻²), milli- (10⁻³), micro- (10⁻⁶), nano- (10⁻⁹).",
+    "howItWorks": "1. Classify a sample as an element, compound, or homogeneous/heterogeneous mixture.\n2. Decide whether a change is physical (same substance) or chemical (new substance, often via color change, gas, precipitate, or temperature change).\n3. Choose the appropriate SI unit and metric prefix for the quantity.\n4. Determine significant figures by applying the rules to the instrument's readings.\n5. Convert units with dimensional analysis, canceling units explicitly.\n6. Report the final answer to the correct number of significant figures.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Elements cannot be broken down chemically; compounds are fixed-ratio combinations; mixtures are physical blends.\n- **High yield:** Physical change = same identity; chemical change = new substance.\n- **High yield:** Leading zeros never count; trailing zeros after a decimal do count.\n- **High yield:** Multiplication/division → fewest significant figures; addition/subtraction → fewest decimal places.\n- **High yield:** Accurate = on target; precise = tightly grouped (accuracy ≠ precision).\n- Density = mass/volume is the most common derived quantity in the lab.\n- 1 mL = 1 cm³; 1 L = 1000 mL.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Element | Compound | Element = one kind of atom; compound = 2+ elements bonded |\n| Homogeneous mixture | Compound | Mixture composition can vary; a compound's ratio is fixed |\n| Physical change | Chemical change | Physical keeps identity; chemical makes a new substance |\n| Accuracy | Precision | Accuracy = correctness; precision = repeatability |\n| Mass | Weight | Mass is constant; weight depends on gravity |",
+    "memoryAids": "\"**K**ing **H**enry **D**ied **B**y **D**rinking **C**hocolate **M**ilk\" — **K**ilo, **H**ecto, **D**eca, **B**ase (unit), **D**eci, **C**enti, **M**illi: the metric prefix ladder, each step a factor of ten.",
+    "eli10": "Imagine a big LEGO collection. Each different-colored brick is like an **element**—a pure substance made of only one kind of atom that cannot be broken down by ordinary chemical means. When you snap specific bricks together into a fixed shape, you have made a **compound**—a pure substance of two or more elements chemically combined in a fixed ratio. If you just pour loose bricks into a bin, you have a **mixture**—physically combined, not chemically joined, and separable by physical means.\n\nA **physical change** is like rearranging the same bricks (melting ice); the bricks don't change. A **chemical change** is like permanently gluing bricks into a new shape (burning wood); you can't easily get the originals back.\n\n**Where it stops being exact:** chemical bonds are not physical connectors—they are forces from shared or transferred electrons. Also, mixtures come in two kinds the loose-bricks picture misses: **homogeneous** (uniform, like salt water) and **heterogeneous** (nonuniform, like sand in water).\n\n### Simple Example\nCopper wire is an element (only copper atoms). Table salt, NaCl, is a compound (sodium + chlorine in a fixed 1:1 ratio). A salad is a heterogeneous mixture; air is a homogeneous mixture.",
+    "quickReview": "### Topic Recap\n\nMatter is classified into elements, compounds, and mixtures; changes are physical or chemical. Measurements use SI units and metric prefixes, reported with significant figures that reflect accuracy and precision. Dimensional analysis converts units by canceling labeled conversion factors.\n\n### Knowledge Check\n\n1. Which is a compound? (a) oxygen gas O₂ (b) brass (c) water H₂O (d) air\n2. How many significant figures are in 0.004060?\n3. Convert 500 mL to liters.\n4. Is burning a match a physical or a chemical change?\n5. A dart thrower hits the same wrong spot every time. Is this precise, accurate, or neither?\n\n### Answers and Rationales\n\n1. (c) water H₂O — oxygen gas is an element; brass and air are homogeneous mixtures.\n2. 4 — the leading zeros (0.00) don't count; the 4, 0, 6, and trailing 0 all count.\n3. 0.500 L — 500 mL × (1 L / 1000 mL); 3 significant figures.\n4. Chemical — combustion produces new substances (CO₂, H₂O, ash); the identity changes.\n5. Precise but not accurate — tightly grouped (reproducible) but systematically off-target.",
+    "workedExamples": "### Significant Figures\nRules:\n1. All nonzero digits are significant (1.234 has 4).\n2. Zeros between nonzero digits are significant (1002 has 4).\n3. Leading zeros are NOT significant (0.0045 has 2).\n4. Trailing zeros after a decimal point are significant (4.50 has 3).\n5. Trailing zeros in a whole number with no decimal are ambiguous (300 has 1, 2, or 3); scientific notation removes the ambiguity (3.0 × 10² has 2).\n\nRounding in calculations:\n- **Multiplication/division:** the answer has as many significant figures as the measurement with the fewest.\n- **Addition/subtraction:** the answer has as many decimal places as the measurement with the fewest.\n\n### Dimensional Analysis\nThe general method is:\n\\[\n\\text{quantity (given unit)} \\times \\frac{\\text{conversion factor (desired unit)}}{\\text{conversion factor (given unit)}} = \\text{quantity (desired unit)}\n\\]\nEach conversion factor equals 1, so the value's magnitude is preserved while the units cancel.\n\n**Example 1.** Convert 2.50 km to meters.\n\\[\n2.50\\ \\mathrm{km} \\times \\frac{1000\\ \\mathrm{m}}{1\\ \\mathrm{km}} = 2.50 \\times 10^{3}\\ \\mathrm{m} = 2500\\ \\mathrm{m}\n\\]\nThe km units cancel, leaving meters; the answer keeps 3 significant figures.\n\n**Example 2.** Convert 65 miles per hour to meters per second (1 mi = 1609 m; 1 h = 3600 s).\n\\[\n\\frac{65\\ \\mathrm{mi}}{\\mathrm{h}} \\times \\frac{1609\\ \\mathrm{m}}{1\\ \\mathrm{mi}} \\times \\frac{1\\ \\mathrm{h}}{3600\\ \\mathrm{s}} = 29\\ \\mathrm{m/s}\n\\]\nMiles cancel with miles and hours cancel with hours, leaving m/s. The answer rounds to 2 significant figures (65 has 2).\n\n**Common errors:** inverting a conversion factor so the units fail to cancel; forgetting to square conversion factors for area/volume conversions (1 cm³ = (0.01 m)³ = 1 × 10⁻⁶ m³, not 0.01 m³); and rounding intermediate values too early.\n\n### Accuracy vs. Precision\n- **Accuracy:** closeness of a measurement to the true (accepted) value.\n- **Precision:** reproducibility of repeated measurements (closeness to each other).\nA result can be precise but inaccurate (systematic error) or accurate but imprecise (random error).",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "matter-and-measurement",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "01-matter-and-measurement",
+      "kind": "source_file_stem",
+      "source_id": "need-review-general-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-general-chemistry-i",
+    "sourceFile": "general-chemistry-i-study-notes/docs/general-chemistry-i/01-matter-and-measurement.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

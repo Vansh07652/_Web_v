@@ -1,0 +1,154 @@
+---
+title: "Alzheimer’s Drugs"
+subject: "Nursing"
+book: "Pharmacology for Nurses"
+chapter: "10: Drugs to Treat Myasthenia Gravis and Alzheimer’s Disease"
+topic_number: "4"
+source: "pharmacology.md"
+tags:
+  - "alzheimer-s-drugs"
+  - "nursing"
+status: "complete"
+---
+
+# Alzheimer’s Drugs
+
+> **Book:** [Pharmacology for Nurses](../../README.md)  
+> **Chapter:** [Chapter 10: Drugs to Treat Myasthenia Gravis and Alzheimer’s Disease](../README.md)  
+> **Topic:** 4  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+The drugs used for Alzheimer's disease (AD) do **not cure the disease or reverse neuron loss**. They are **symptomatic treatments** designed to slow cognitive decline, delay functional loss, and improve quality of life for a time — and benefit varies from person to person. Two main mechanistic families are used:
+
+- **Acetylcholinesterase (AChE) inhibitors** — for example, donepezil, rivastigmine, and galantamine — boost acetylcholine signaling in the brain, compensating for the cholinergic neuron loss that characterizes AD. They are used mainly for mild to moderate AD.
+- **An NMDA receptor antagonist** — memantine — dampens excessive glutamate signaling, thought to contribute to neuronal injury in AD. It is used mainly for moderate to severe AD, often with an AChE inhibitor.
+
+Because these drugs act on brain signaling rather than on the disease process itself, the goals are realistic: modest, temporary improvement or stabilization. The nurse's role — assessment, monitoring, teaching, and supporting caregivers — is at least as important as the prescription.
+
+## Why This Matters
+
+Alzheimer's drugs are among the most widely prescribed medications for older adults, and nurses administer, monitor, and teach about them daily in long-term care, memory care units, and home health. Understanding their mechanisms explains their adverse effects (GI upset and bradycardia from cholinergic stimulation; dizziness and constipation from NMDA blockade) and why the agents are not interchangeable. Managing expectations matters clinically: families often believe these drugs "cure" or dramatically reverse dementia, and honest, compassionate education is part of the nurse's job. The exam payoffs are also high — mechanisms, stage-based use, and adverse-effect profiles are classic questions. All content here is mechanism-level; every prescription must be verified against current references, the formulary, and prescriber orders.
+
+## Core Concepts
+
+### The cholinergic rationale and the AChE inhibitors
+
+AD is marked by the loss of **cholinergic neurons** — neurons that release acetylcholine (ACh) — in brain regions supporting memory and attention. **AChE inhibitors** block **acetylcholinesterase**, the enzyme that breaks down ACh, so the ACh released by surviving neurons lingers in the synapse and stimulates more receptors. This is the same mechanism used in myasthenia gravis, with a critical difference: for AD, the drug must **cross the blood-brain barrier** to reach brain synapses. The class includes donepezil, rivastigmine, and galantamine — agents that differ in metabolism and administration but share the core mechanism.
+
+The expected benefit is **modest and temporary**: some people show a small improvement or a slowing of decline over months; some show no measurable change. Response is highly individual, and "no dramatic change" does not mean the drug is failing.
+
+### Adverse effects of AChE inhibitors: the price of boosting ACh
+
+Because ACh also acts on **muscarinic receptors** in the periphery, AChE inhibitors carry predictable adverse effects:
+
+- **Gastrointestinal:** nausea, vomiting, diarrhea, loss of appetite, weight loss — the most common reasons people stop treatment. Taking the drug with food and titrating slowly (per prescriber instructions) can improve tolerance.
+- **Cardiac:** bradycardia and, in susceptible people, syncope. Heart rate monitoring is an important nursing check.
+- **Sleep and CNS:** insomnia, vivid dreams; less commonly, agitation.
+- **Muscle:** cramps or twitching from nicotinic effects.
+
+Prescribers weigh individual risks (for example, cardiac conduction problems or asthma), and abrupt discontinuation is generally avoided — changes are made under prescriber direction.
+
+### The NMDA receptor antagonist: memantine
+
+Glutamate is the brain's main excitatory neurotransmitter. In AD, excessive glutamate stimulation of **NMDA receptors** is thought to contribute to **excitotoxicity**, in which overstimulated neurons are damaged. **Memantine** is an NMDA receptor antagonist that partially blocks this excessive stimulation while (at therapeutic levels) still allowing normal signaling — "dampening the noise without silencing the signal." It is used mainly in **moderate to severe** AD, where AChE inhibitors alone offer less benefit, and is frequently prescribed **in combination** with an AChE inhibitor because the mechanisms are complementary. Its adverse effects are generally milder — dizziness, headache, and constipation among them.
+
+### Realistic goals and combination therapy
+
+The unifying truth of AD pharmacology: **these drugs manage symptoms; they do not modify the disease.** Treatment goals are set with the person and family:
+
+- Slow the rate of cognitive and functional decline.
+- Preserve independence and safety for as long as possible.
+- Manage symptoms without adding harm — minimizing drug burden, especially in frail older adults.
+
+Combination therapy (an AChE inhibitor plus memantine) is common in moderate to severe disease because the mechanisms address different aspects of the signaling problem. Polypharmacy review matters: medications with **anticholinergic properties** (used for overactive bladder, allergies, or depression) can worsen cognition and should be reviewed with the prescriber.
+
+### Nursing care and teaching
+
+Nursing care includes:
+
+- **Baseline and ongoing assessment:** heart rate and rhythm, GI status, weight, sleep, cognition, and functional status — with trends documented over time.
+- **Safe administration:** verify drug, dose, form, and route against order and formulary; some agents have specific instructions (forms that must not be crushed, patches that must be rotated) — check the product's guidance.
+- **Monitoring** and reporting significant findings promptly (marked bradycardia, severe GI intolerance, weight loss, falls, new confusion).
+- **Teaching the person and caregiver:** purpose and realistic expectations; what to report; and that drugs do not replace safety measures and caregiver support.
+- **Caregiver support** and care-team coordination; scope varies by state/province and institutional policy.
+
+## ELI-10: Explain Like I'm 10
+
+In Alzheimer's disease, the brain's memory messengers are running low, so the first medicine acts like a janitor who stops mopping up the messenger chemical too fast — the few messengers left get to deliver more notes. The second medicine is like turning down a loud radio: brain cells can get hurt when the "excited" signal is too loud, so it turns the volume down a bit without turning it off. Neither medicine fixes the brain, but both can help it work a little better for a while.
+
+## High-Yield Points
+
+- **No cure — symptomatic only:** AD drugs slow decline modestly and temporarily; benefit varies; set realistic expectations.
+- **AChE inhibitors (donepezil, rivastigmine, galantamine):** boost ACh in brain synapses by blocking its breakdown; used mainly in mild-to-moderate AD; must cross the blood-brain barrier (unlike the MG use of the same mechanism).
+- **AChE inhibitor adverse effects are mechanism-predictable:** nausea, vomiting, diarrhea, anorexia/weight loss (GI); bradycardia and syncope (cardiac); insomnia and vivid dreams (CNS).
+- **Memantine = NMDA receptor antagonist:** dampens excessive glutamate signaling (excitotoxicity); used mainly in moderate-to-severe AD; often combined with an AChE inhibitor.
+- **Combination therapy is common** because the mechanisms are complementary.
+- **Avoid anticholinergic burden:** review other medications that block ACh — they can worsen cognition.
+- **Don't stop abruptly** — symptoms can rebound; dose changes are prescriber-directed.
+- **Nursing anchors:** baseline and trended heart rate, weight, GI tolerance, sleep, cognition, and function; product-specific administration; caregiver education and support.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Symptomatic treatment | Therapy that relieves symptoms without curing the disease | Describes all AD drugs — expectations must match reality |
+| Acetylcholinesterase (AChE) inhibitor | A drug that blocks the enzyme breaking down acetylcholine | The main cognitive drug class for mild-to-moderate AD |
+| Cholinergic neuron | A neuron that releases acetylcholine | Selectively lost in AD; the target of AChE inhibitors |
+| NMDA receptor | A glutamate receptor involved in learning and excitotoxicity | Memantine's target; blocking excess stimulation protects neurons |
+| Excitotoxicity | Neuron damage from excessive glutamate stimulation | The rationale for NMDA antagonist therapy in AD |
+| Memantine | The NMDA receptor antagonist used in AD | Used mainly in moderate-to-severe AD, often with an AChE inhibitor |
+| Titration | Slow, stepwise dose adjustment to find the best-tolerated effective dose | Reduces GI adverse effects when starting AChE inhibitors |
+| Anticholinergic | A drug that blocks acetylcholine (opposite of cholinergic) | Can worsen cognition — a polypharmacy red flag in AD |
+
+## Example: Starting an AChE Inhibitor — Realistic Care
+
+A 76-year-old person with mild Alzheimer's disease is prescribed an AChE inhibitor. The nurse's first action is a baseline assessment: heart rate 64 and regular, normal GI pattern, stable weight, and a recent cognitive screening score documented for comparison. The nurse reviews the medication list and flags a bladder medication with strong anticholinergic properties — the prescriber is notified and the plan is adjusted, because blocking acetylcholine while also boosting it would be counterproductive. The nurse teaches the person and their spouse what to expect: the drug may slow the decline or produce a small improvement over months; it will not cure the disease; nausea and loss of appetite are possible, especially early on; a slow pulse or fainting must be reported immediately. The spouse is coached on realistic goal-setting — "the goal is more good months at home, not a memory cure." At follow-up, the person's heart rate has dropped to 50, so the nurse reports the finding and the prescriber adjusts the plan.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| AChE inhibitor (AD) | AChE inhibitor (MG) | Same enzyme target, different site of action: AD drugs must reach brain synapses; MG drugs act at the neuromuscular junction |
+| AChE inhibitor | Direct cholinergic agonist | AChE inhibitors extend the life of released ACh; direct agonists mimic ACh by binding receptors themselves |
+| AChE inhibitor | Anticholinergic drug | Opposite directions: one boosts ACh signaling, the other blocks it — never assume they are interchangeable |
+| Memantine | AChE inhibitor | Memantine dampens excessive glutamate at NMDA receptors; AChE inhibitors boost acetylcholine — different targets, different stages of use |
+| "The drug is working" (stable cognition) | "The drug is curing the disease" | Stability or slower decline is the realistic goal; the disease process continues |
+| GI upset early in treatment = stop the drug | GI upset = often managed with titration, timing, and reporting | Early adverse effects are common and often improve; dose changes are prescriber-directed |
+
+## Quick Review
+
+1. What is the mechanism of action of the AChE inhibitors used in Alzheimer's disease, and why does it make sense for this disease?
+2. List four common adverse effects of AChE inhibitors and the body system each one reflects.
+3. How does memantine differ mechanistically from the AChE inhibitors, and in which stage of AD is it typically used?
+4. Why is it important to review a person's other medications when they start an AD drug? Give one example of a problematic interaction.
+5. A family member asks whether the new medication will "bring their father back." How should you respond, and why?
+6. A person's heart rate drops from 68 to 48 after starting an AChE inhibitor. What should the nurse do?
+
+<details>
+<summary>Show answers</summary>
+
+1. They block acetylcholinesterase, the enzyme that breaks down acetylcholine, so the ACh released by surviving cholinergic neurons lasts longer in the synapse and stimulates more receptors. This compensates — partially and temporarily — for the cholinergic neuron loss that is a hallmark of AD.
+2. Gastrointestinal (nausea, vomiting, diarrhea, anorexia/weight loss), cardiac (bradycardia, syncope), CNS/sleep (insomnia, vivid dreams), and muscle (cramps, twitching).
+3. Memantine is an NMDA receptor antagonist: it partially blocks excessive glutamate stimulation (excitotoxicity) while allowing normal signaling. AChE inhibitors boost cholinergic signaling. Memantine is typically used in moderate-to-severe AD, often combined with an AChE inhibitor.
+4. Because many other medications — anticholinergics used for bladder problems, allergies, or depression — block acetylcholine and can worsen cognition, directly counteracting the AD drug's mechanism. Reviewing and deprescribing such drugs (with the prescriber) is an important nursing role.
+5. Respond honestly and compassionately: the medication may slow the decline or produce a modest improvement for a time, but it does not cure Alzheimer's disease or restore the person's former self. This expectation protects the family from disappointment and redirects energy toward function, safety, and quality of life.
+6. Notify the provider promptly and document the finding — significant bradycardia is a known adverse effect of cholinergic stimulation and may warrant a dose change or discontinuation per the prescriber. Assess for related symptoms and teach the person/caregiver to report slow pulse or fainting. Dose changes are never made by the nurse independently.
+
+</details>
+
+## Related Topics
+
+- Previous: [Introduction to Alzheimer’s Disease](03-introduction-to-alzheimer-s-disease.md)
+- Next: End of chapter
+- Related: [Drugs to Treat Myasthenia Gravis and Alzheimer’s Disease chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Pharmacology for Nurses
+- Local outline source: `pharmacology.md`
+- Official source URL: https://openstax.org/details/books/pharmacology/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: Educational draft only — drug classes and mechanisms are described; no doses, schedules, or administration recommendations are provided. Always verify drug-specific information against current references, the institutional formulary, and prescriber orders.
+- Last updated: 2026-08-15

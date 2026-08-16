@@ -1,0 +1,48 @@
+#!/usr/bin/env node
+import fs from "node:fs";
+import path from "node:path";
+import crypto from "node:crypto";
+import { fileURLToPath } from "node:url";
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const errors = [];
+for (const file of ["dist/index.html", "dist/404.html"]) {
+  if (!fs.existsSync(path.join(root, file))) errors.push(`Missing ${file}`);
+}
+const sourceCname = path.join(root, "public/CNAME");
+const builtCname = path.join(root, "dist/CNAME");
+if (fs.existsSync(sourceCname)) {
+  if (!fs.existsSync(builtCname)) errors.push("Missing dist/CNAME");
+  else if (fs.readFileSync(builtCname, "utf8").trim() !== fs.readFileSync(sourceCname, "utf8").trim()) {
+    errors.push("Built CNAME does not match public/CNAME");
+  }
+}
+if (fs.existsSync(path.join(root, "dist/index.html"))) {
+  const html = fs.readFileSync(path.join(root, "dist/index.html"), "utf8");
+  if (!html.includes('<base id="app-base" href="/"')) errors.push("Build is missing the deep-route base URL fallback");
+  for (const match of html.matchAll(/(?:src|href)="([^"]+)"/g)) {
+    const reference = match[1];
+    if (/^(?:https?:|data:|#)/.test(reference)) continue;
+    let buildPath = reference.replace(/^\.\//, "").replace(/^\//, "");
+    const assetsIndex = buildPath.indexOf("assets/");
+    if (assetsIndex > 0) buildPath = buildPath.slice(assetsIndex);
+    const target = path.resolve(root, "dist", buildPath);
+    if (!fs.existsSync(target)) errors.push(`Missing build asset ${reference}`);
+  }
+  if (/\/(?:Users|home)\//.test(html)) errors.push("Build contains a local filesystem path");
+}
+const assetsDirectory = path.join(root, "dist/assets");
+if (fs.existsSync(assetsDirectory)) {
+  const hashes = new Map();
+  for (const name of fs.readdirSync(assetsDirectory)) {
+    const target = path.join(assetsDirectory, name);
+    if (!fs.statSync(target).isFile()) continue;
+    const hash = crypto.createHash("sha256").update(fs.readFileSync(target)).digest("hex");
+    const existing = hashes.get(hash);
+    if (existing) errors.push(`Duplicate build assets ${existing} and ${name}`);
+    else hashes.set(hash, name);
+  }
+}
+console.log(`BUILD VALIDATION: ${errors.length ? "FAIL" : "PASS"}`);
+for (const error of errors) console.log(`- ${error}`);
+if (errors.length) process.exit(1);

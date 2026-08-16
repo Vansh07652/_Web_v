@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:mcat-foundations:physics:atomic-nuclear-and-modern-physics",
+  "slug": "atomic-nuclear-and-modern-physics",
+  "title": "Atomic, Nuclear, and Modern Physics",
+  "subject": {
+    "id": "subject:mcat-foundations",
+    "slug": "mcat-foundations",
+    "title": "MCAT Foundations"
+  },
+  "unit": {
+    "id": "unit:mcat-foundations:physics",
+    "slug": "physics",
+    "title": "Physics",
+    "order": 5
+  },
+  "order": 13,
+  "status": "final",
+  "sections": {
+    "overview": "Atomic, nuclear, and modern physics governs matter at the smallest scales, where classical mechanics fails and quantization rules. The MCAT tests four domains: (1) electronic structure — electrons occupy discrete energy levels defined by quantum numbers; (2) the photoelectric effect, proving light is quantized — photons eject electrons only above threshold frequency; (3) nuclear physics — stability (N/Z ratio), decay modes (alpha, beta, gamma), half-life kinetics, and E = mc² for fission, fusion, and medical imaging; and (4) particle physics — quarks, leptons, force carriers, and medical applications (PET, radiation therapy). The MCAT connects these to chemistry (ionization energies, PES), biology (radioisotope tracers, DNA damage), and biochemistry (X-ray crystallography).",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- Photons\n- Photoelectric effect\n- Atomic spectra\n- Radioactivity\n- Half-life\n- Nuclear reactions\n- Medical imaging concepts",
+    "collegeNotes": "## Atomic Structure and Energy Levels\n\nElectrons occupy orbitals defined by quantum numbers: principal n (shell), angular momentum l (subshell: s,p,d,f for l = 0,1,2,3), magnetic m_l (orientation), and spin m_s (±½). Filling follows Aufbau (lowest first), Pauli exclusion (unique set), and Hund's rule (degenerate orbitals fill singly). Z_eff = Z − S controls trends: ionization energy rises across a period, falls down a group. Bohr (E_n = −13.6·Z²/n²) applies only to H-like one-electron systems.\n\n## Photoelectric Effect\n\nLight on metal ejects electrons: (1) emission requires hf > work function φ — threshold f₀ = φ/h; below this, zero electrons regardless of intensity; (2) above threshold, intensity raises photocurrent but not KE; (3) frequency raises maximum KE: K_max = hf − φ. Photon energy E = hf = hc/λ. Stopping potential eV_s = K_max. Einstein's photon model explained this where classical wave theory failed.\n\n## Photon Energy and the Bohr Model\n\nBohr yields E_n = −13.6·Z²/n². Transitions: ΔE = −13.6(1/n_f² − 1/n_i²). Series: Lyman (n_f=1, UV), Balmer (n_f=2, visible), Paschen (n_f=3, IR). λ = hc/|ΔE|; Rydberg: 1/λ = R(1/n_f² − 1/n_i²). Fails for multi-electron atoms, but quantization carries forward.\n\n## Nuclear Structure and Stability\n\nThe nucleus (Z p⁺, N n⁰, A = Z+N) is bound by the strong force (~10⁻¹⁵ m). Band of stability: light nuclei N/Z ≈ 1; heavy nuclei N/Z ≈ 1.5. Z > 83: all radioactive. Binding energy E_b = [Zm_p + Nm_n − m_nucleus]c²; per-nucleon peak at Fe-56 (~8.8 MeV). Fusion and fission both release energy toward the iron peak.\n\n## Radioactive Decay: Alpha, Beta, Gamma\n\nAlpha: ⁴₂He (A↓4, Z↓2). Low penetration. β⁻: n→p⁺+e⁻+ν̄ (Z↑1, neutron-rich). β⁺: p⁺→n+e⁺+ν (Z↓1, proton-rich). EC: p⁺+e⁻→n+ν_e. Gamma: photon (no ΔA/ΔZ). β⁻ electron is created, not orbital.\n\n## Half-Life and Decay Kinetics\n\nFirst-order: N = N₀(1/2)^(t/t₁/₂). t₁/₂ is constant — independent of T, P, or amount. λ = 0.693/t₁/₂; N = N₀e^(−λt); A = λN (Bq). After n half-lives: (1/2)ⁿ remains. ¹⁴C dating (5,730 yr). Parent-daughter equilibrium: t₁/₂(parent) >> t₁/₂(daughter).\n\n## Nuclear Reactions and Mass-Energy Equivalence\n\nE=mc²: Q=Δm·c²; 1 u = 931.5 MeV/c². Fission: ²³⁵U (~200 MeV). Fusion: 4H→⁴He+26.7 MeV. Products near iron peak. ~10⁶× chemical bond energies.\n\n## Particle Physics Fundamentals\n\nFermions: 6 quarks (fractional charge), 6 leptons (e,μ,τ,ν_e,ν_μ,ν_τ). Bosons: photon (EM), W/Z (weak), 8 gluons (strong). p = uud (+1), n = udd (0). β decay: d→u via W. e⁺+e⁻→2γ (511 keV). Leptons: no strong force.\n\n## Medical Applications of Nuclear Physics\n\nPET: β⁺ emitter (¹⁸F-FDG, 110 min) → annihilation → two 511 keV photons 180° apart → metabolic map. SPECT: γ emitter (⁹⁹ᵐTc, 6 hr). Radiation therapy: ionizing radiation → DNA damage. Tracers: ¹³¹I (thyroid), ²°¹Tl (cardiac). X-ray/CT: bremsstrahlung + characteristic X-rays from metal target — atomic, not nuclear. Isotope: half-life long enough for procedure, short to limit dose. Dose: gray (Gy=J/kg), sievert (Sv=bio-weighted).\n\n## How it works\n\nThree energy tiers. Atomic (eV): E=hf=hc/λ, K_max=hf−φ, ΔE=−13.6(1/n_f²−1/n_i²). Nuclear (MeV): balance A,Z; check N/Z; half-life; 1u=931.5 MeV/c². Particle: quark composition (uud=+1), force carriers, conservation laws. Medical: isotope selection by half-life, decay mode, targeting; trace decay→image. Unifying: quantization from spectra to PET.",
+    "howItWorks": "Three energy tiers. Atomic (eV): E=hf=hc/λ, K_max=hf−φ, ΔE=−13.6(1/n_f²−1/n_i²). Nuclear (MeV): balance A,Z; check N/Z; half-life; 1u=931.5 MeV/c². Particle: quark composition (uud=+1), force carriers, conservation laws. Medical: isotope selection by half-life, decay mode, targeting; trace decay→image. Unifying: quantization from spectra to PET.",
+    "comparisons": "- C/P (Gen Chem): Quantum numbers, electron configs, periodic trends, PES — all from atomic energy levels.\n- C/P (Org Chem): HOMO-LUMO gap → λ_max — quantized levels applied to conjugated systems.\n- B/B (Biochem): Radioisotope labeling (³²P, ³⁵S), X-ray crystallography, radiation DNA damage.\n- B/B (Physiology): ¹³¹I thyroid, ¹⁸F-FDG PET brain, ⁹⁹ᵐTc cardiac, radiation therapy. Isotope: half-life, decay mode, tissue targeting.",
+    "highYield": "",
+    "commonConfusions": "- Using Bohr formula for multi-electron atoms — only valid for H-like one-electron systems.\n- Confusing photoelectric intensity (current) with frequency (threshold and K_max). Below f₀: no emission at any intensity.\n- Mixing β⁻ (n→p, Z↑, neutron-rich) and β⁺ (p→n, Z↓, proton-rich).\n- Treating t₁/₂ as condition-dependent — it is constant, unlike chemical reaction rates.\n- Writing 1 u = 931.5 MeV without c² — it is 1 u·c² = 931.5 MeV.\n- Confusing X-ray (atomic) vs. gamma-ray (nuclear) origin — different physics, similar energies.",
+    "memoryAids": "",
+    "eli10": "Imagine the atom as an apartment building. Electrons live on specific floors only — floor 1, 2, or 3, never 1.5. To jump up, an electron must absorb exactly the right photon energy. Falling down releases that same color of light — that is why hot atoms glow in distinct colors. The nucleus is a locked safe. Unstable safes crack open: alpha decay ejects a 2-proton-2-neutron bundle; beta decay converts a neutron into a proton, shooting out a fast electron; gamma just releases a photon burst while the safe stays intact. Half-life is like popcorn popping — each kernel pops unpredictably, but half the remaining kernels pop every cycle. Nuclear energy comes from E = mc² — mass is frozen energy. A pinch of uranium mass becomes an enormous bomb. PET scanners use antimatter: a positron meets an electron, they annihilate into two back-to-back photons, and detectors map exactly where — that's how cancer lights up on a screen. This analogy fails for quarks, which never appear alone and feel forces growing stronger with distance, unlike anything in daily life.",
+    "quickReview": "- Four quantum numbers: n, l (s/p/d/f), m_l, m_s. Aufbau, Pauli, Hund's rule. Bohr (E_n = −13.6·Z²/n²) only for H-like atoms.\n- Photoelectric: K_max = hf − φ, emission only if hf > φ. Intensity → current; frequency → threshold and K_max.\n- Spectral series: Lyman (n_f=1, UV), Balmer (n_f=2, visible), Paschen (n_f=3, IR). Rydberg: 1/λ = R(1/n_f² − 1/n_i²).\n- Band of stability: N/Z ≈ 1 (light), ~1.5 (heavy). Binding energy/nucleon peaks at Fe-56 (~8.8 MeV). Fusion and fission both release energy.\n- α: ⁴₂He (A↓4, Z↓2). β⁻: n→p⁺+e⁻+ν̄ (Z↑1). β⁺: p⁺→n+e⁺+ν (Z↓1). γ: photon (no ΔA/ΔZ).\n- Half-life: N = N₀(1/2)^(t/t₁/₂), constant, λ = 0.693/t₁/₂. After n cycles: fraction = (1/2)ⁿ.\n- E = mc²: 1 u = 931.5 MeV/c². Nuclear reactions: MeV-scale (×10⁶ chemical). Q = Δm·c².\n- Standard Model: proton = uud, neutron = udd. Forces: photon (EM), W/Z (weak), gluons (strong). Leptons feel no strong force.\n- PET: β⁺ → annihilation → two 511 keV photons 180° apart → coincidence detection. ¹⁸F-FDG t₁/₂ 110 min.\n- X-rays = atomic process; gamma rays = nuclear process. Different origin, potentially similar photon energy.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax College Physics 2e — Chapter 29: Introduction to Quantum Physics — OpenStax / Rice University",
+        "url": "https://openstax.org/books/college-physics-2e/pages/29-introduction-to-quantum-physics"
+      },
+      {
+        "text": "OpenStax College Physics 2e — Chapter 30: Atomic Physics — OpenStax / Rice University",
+        "url": "https://openstax.org/books/college-physics-2e/pages/30-introduction-to-atomic-physics"
+      },
+      {
+        "text": "OpenStax College Physics 2e — Chapter 31: Radioactivity and Nuclear Physics — OpenStax / Rice University",
+        "url": "https://openstax.org/books/college-physics-2e/pages/31-introduction-to-radioactivity-and-nuclear-physics"
+      },
+      {
+        "text": "OpenStax College Physics 2e — Chapter 33: Particle Physics — OpenStax / Rice University",
+        "url": "https://openstax.org/books/college-physics-2e/pages/33-introduction-to-particle-physics"
+      },
+      {
+        "text": "AAMC MCAT Content Outline — Chemical and Physical Foundations: 4E (Atoms, Nuclear Decay, Electronic Structure, and Atomic Chemical Behavior) — AAMC",
+        "url": "https://students-residents.aamc.org/media/9261/download"
+      },
+      {
+        "text": "LibreTexts Physics — Nuclear Physics and Medical Applications — LibreTexts",
+        "url": "https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/31%3A_Radioactivity_and_Nuclear_Physics/31.07%3A_Nuclear_Imaging"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "atomic-nuclear-and-modern-physics",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "MCAT_STUDY_LIBRARY/pages/physics/13-atomic-nuclear-and-modern-physics.md"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "MCAT_STUDY_LIBRARY/pages/physics/13-atomic-nuclear-and-modern-physics.md"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "mcat-one-page-topic-library",
+    "sourceFile": "MCAT_STUDY_LIBRARY/pages/physics/13-atomic-nuclear-and-modern-physics.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-mcat-library"
+  },
+  "sourceSnapshotMarkdown": "# Atomic, Nuclear, and Modern Physics | Subject PH 13\n\n## Big Picture\nAtomic, nuclear, and modern physics governs matter at the smallest scales, where classical mechanics fails and quantization rules. The MCAT tests four domains: (1) electronic structure — electrons occupy discrete energy levels defined by quantum numbers; (2) the photoelectric effect, proving light is quantized — photons eject electrons only above threshold frequency; (3) nuclear physics — stability (N/Z ratio), decay modes (alpha, beta, gamma), half-life kinetics, and E = mc² for fission, fusion, and medical imaging; and (4) particle physics — quarks, leptons, force carriers, and medical applications (PET, radiation therapy). The MCAT connects these to chemistry (ionization energies, PES), biology (radioisotope tracers, DNA damage), and biochemistry (X-ray crystallography).\n\n## Core Concepts\n\n### 1. Atomic Structure and Energy Levels\nElectrons occupy orbitals defined by quantum numbers: principal **n** (shell), angular momentum **l** (subshell: s,p,d,f for l = 0,1,2,3), magnetic **m_l** (orientation), and spin **m_s** (±½). Filling follows Aufbau (lowest first), Pauli exclusion (unique set), and Hund's rule (degenerate orbitals fill singly). Z_eff = Z − S controls trends: ionization energy rises across a period, falls down a group. Bohr (E_n = −13.6·Z²/n²) applies only to H-like one-electron systems.\n\n### 2. Photoelectric Effect\nLight on metal ejects electrons: (1) emission requires hf > work function φ — threshold f₀ = φ/h; below this, zero electrons regardless of intensity; (2) above threshold, intensity raises photocurrent but not KE; (3) frequency raises maximum KE: **K_max = hf − φ**. Photon energy E = hf = hc/λ. Stopping potential eV_s = K_max. Einstein's photon model explained this where classical wave theory failed.\n\n### 3. Photon Energy and the Bohr Model\nBohr yields **E_n = −13.6·Z²/n²**. Transitions: **ΔE = −13.6(1/n_f² − 1/n_i²)**. Series: Lyman (n_f=1, UV), Balmer (n_f=2, visible), Paschen (n_f=3, IR). λ = hc/|ΔE|; Rydberg: 1/λ = R(1/n_f² − 1/n_i²). Fails for multi-electron atoms, but quantization carries forward.\n\n### 4. Nuclear Structure and Stability\nThe nucleus (Z p⁺, N n⁰, A = Z+N) is bound by the strong force (~10⁻¹⁵ m). Band of stability: light nuclei N/Z ≈ 1; heavy nuclei N/Z ≈ 1.5. Z > 83: all radioactive. Binding energy E_b = [Zm_p + Nm_n − m_nucleus]c²; per-nucleon peak at Fe-56 (~8.8 MeV). Fusion and fission both release energy toward the iron peak.\n\n### 5. Radioactive Decay: Alpha, Beta, Gamma\n**Alpha:** ⁴₂He (A↓4, Z↓2). Low penetration. **β⁻:** n→p⁺+e⁻+ν̄ (Z↑1, neutron-rich). **β⁺:** p⁺→n+e⁺+ν (Z↓1, proton-rich). **EC:** p⁺+e⁻→n+ν_e. **Gamma:** photon (no ΔA/ΔZ). β⁻ electron is created, not orbital.\n\n### 6. Half-Life and Decay Kinetics\nFirst-order: **N = N₀(1/2)^(t/t₁/₂)**. t₁/₂ is constant — independent of T, P, or amount. λ = 0.693/t₁/₂; N = N₀e^(−λt); A = λN (Bq). After n half-lives: (1/2)ⁿ remains. ¹⁴C dating (5,730 yr). Parent-daughter equilibrium: t₁/₂(parent) >> t₁/₂(daughter).\n\n### 7. Nuclear Reactions and Mass-Energy Equivalence\nE=mc²: Q=Δm·c²; **1 u = 931.5 MeV/c²**. Fission: ²³⁵U (~200 MeV). Fusion: 4H→⁴He+26.7 MeV. Products near iron peak. ~10⁶× chemical bond energies.\n\n### 8. Particle Physics Fundamentals\nFermions: 6 quarks (fractional charge), 6 leptons (e,μ,τ,ν_e,ν_μ,ν_τ). Bosons: photon (EM), W/Z (weak), 8 gluons (strong). p = uud (+1), n = udd (0). β decay: d→u via W. e⁺+e⁻→2γ (511 keV). Leptons: no strong force.\n\n### 9. Medical Applications of Nuclear Physics\n**PET:** β⁺ emitter (¹⁸F-FDG, 110 min) → annihilation → two 511 keV photons 180° apart → metabolic map. **SPECT:** γ emitter (⁹⁹ᵐTc, 6 hr). **Radiation therapy:** ionizing radiation → DNA damage. **Tracers:** ¹³¹I (thyroid), ²⁰¹Tl (cardiac). **X-ray/CT:** bremsstrahlung + characteristic X-rays from metal target — atomic, not nuclear. Isotope: half-life long enough for procedure, short to limit dose. Dose: gray (Gy=J/kg), sievert (Sv=bio-weighted).\n\n## How It Works\nThree energy tiers. Atomic (eV): E=hf=hc/λ, K_max=hf−φ, ΔE=−13.6(1/n_f²−1/n_i²). Nuclear (MeV): balance A,Z; check N/Z; half-life; 1u=931.5 MeV/c². Particle: quark composition (uud=+1), force carriers, conservation laws. Medical: isotope selection by half-life, decay mode, targeting; trace decay→image. Unifying: quantization from spectra to PET.\n\n## MCAT Connections\n- **C/P (Gen Chem):** Quantum numbers, electron configs, periodic trends, PES — all from atomic energy levels.\n- **C/P (Org Chem):** HOMO-LUMO gap → λ_max — quantized levels applied to conjugated systems.\n- **B/B (Biochem):** Radioisotope labeling (³²P, ³⁵S), X-ray crystallography, radiation DNA damage.\n- **B/B (Physiology):** ¹³¹I thyroid, ¹⁸F-FDG PET brain, ⁹⁹ᵐTc cardiac, radiation therapy. Isotope: half-life, decay mode, tissue targeting.\n\n## High-Yield MCAT Traps\n1. Using Bohr formula for multi-electron atoms — only valid for H-like one-electron systems.\n2. Confusing photoelectric intensity (current) with frequency (threshold and K_max). Below f₀: no emission at any intensity.\n3. Mixing β⁻ (n→p, Z↑, neutron-rich) and β⁺ (p→n, Z↓, proton-rich).\n4. Treating t₁/₂ as condition-dependent — it is constant, unlike chemical reaction rates.\n5. Writing 1 u = 931.5 MeV without c² — it is 1 u·c² = 931.5 MeV.\n6. Confusing X-ray (atomic) vs. gamma-ray (nuclear) origin — different physics, similar energies.\n\n## ELI-10 Explains\nImagine the atom as an apartment building. Electrons live on specific floors only — floor 1, 2, or 3, never 1.5. To jump up, an electron must absorb exactly the right photon energy. Falling down releases that same color of light — that is why hot atoms glow in distinct colors. The nucleus is a locked safe. Unstable safes crack open: alpha decay ejects a 2-proton-2-neutron bundle; beta decay converts a neutron into a proton, shooting out a fast electron; gamma just releases a photon burst while the safe stays intact. Half-life is like popcorn popping — each kernel pops unpredictably, but half the remaining kernels pop every cycle. Nuclear energy comes from E = mc² — mass is frozen energy. A pinch of uranium mass becomes an enormous bomb. PET scanners use antimatter: a positron meets an electron, they annihilate into two back-to-back photons, and detectors map exactly where — that's how cancer lights up on a screen. This analogy fails for quarks, which never appear alone and feel forces growing stronger with distance, unlike anything in daily life.\n\n## Quick Recall\n1. Four quantum numbers: n, l (s/p/d/f), m_l, m_s. Aufbau, Pauli, Hund's rule. Bohr (E_n = −13.6·Z²/n²) only for H-like atoms.\n2. Photoelectric: K_max = hf − φ, emission only if hf > φ. Intensity → current; frequency → threshold and K_max.\n3. Spectral series: Lyman (n_f=1, UV), Balmer (n_f=2, visible), Paschen (n_f=3, IR). Rydberg: 1/λ = R(1/n_f² − 1/n_i²).\n4. Band of stability: N/Z ≈ 1 (light), ~1.5 (heavy). Binding energy/nucleon peaks at Fe-56 (~8.8 MeV). Fusion and fission both release energy.\n5. α: ⁴₂He (A↓4, Z↓2). β⁻: n→p+e⁻+ν̄ (Z↑1). β⁺: p→n+e⁺+ν (Z↓1). γ: photon (no ΔA/ΔZ).\n6. Half-life: N = N₀·(1/2)^(t/t₁/₂), constant, λ = 0.693/t₁/₂. After n cycles: fraction = (1/2)ⁿ.\n7. E = mc²: 1 u = 931.5 MeV/c². Nuclear reactions: MeV-scale (×10⁶ chemical). Q = Δm·c².\n8. Standard Model: proton = uud, neutron = udd. Forces: photon (EM), W/Z (weak), gluons (strong). Leptons feel no strong force.\n9. PET: β⁺ → annihilation → two 511 keV photons 180° apart → coincidence detection. ¹⁸F-FDG t₁/₂ 110 min.\n10. X-rays = atomic process; gamma rays = nuclear process. Different origin, potentially similar photon energy."
+}

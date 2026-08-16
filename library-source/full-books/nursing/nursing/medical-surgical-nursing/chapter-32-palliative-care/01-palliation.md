@@ -1,0 +1,147 @@
+---
+title: "Palliation"
+subject: "Nursing"
+book: "Medical-Surgical Nursing"
+chapter: "32: Palliative Care"
+topic_number: "1"
+source: "medical-surgical-nursing.md"
+tags:
+  - "palliation"
+  - "nursing"
+status: "complete"
+---
+
+# Palliation
+
+> **Book:** [Medical-Surgical Nursing](../../README.md)  
+> **Chapter:** [Chapter 32: Palliative Care](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Palliative care is specialized care for people living with serious illness, focused on relieving suffering and improving quality of life for the person and family. The single most important idea: palliative care is **not** only for people who are dying. It can begin when a serious illness is diagnosed and can be delivered at the same time as treatments aimed at cure or disease control. The World Health Organization describes palliative care as an approach that improves quality of life through the prevention and relief of suffering by early identification and treatment of pain and other physical, psychosocial, and spiritual problems. In short, palliation is a philosophy and a set of skills — assessment, symptom management, communication, and teamwork — that can wrap around a person at any stage of illness.
+
+## Why This Matters
+
+Nurses are the clinicians who spend the most time with people who are seriously ill, and they are usually the first to notice uncontrolled symptoms, unspoken fears, or family distress. Understanding palliation lets the nurse recognize when a palliative approach would help, advocate for earlier referral, and explain it to patients and families in a way that feels like "more support" rather than "giving up." This matters for exams — the palliative-versus-hospice distinction and the domains of suffering are classic test items — and it matters in practice, because many people are referred to palliative care far later than they could have benefited. Nurses who understand palliation help close that gap.
+
+## Core Concepts
+
+### What palliation is (and is not)
+
+Palliative care is both an approach and a specialty service. As an approach, it puts the person's goals and comfort at the center of every decision; as a service, it is delivered by an interdisciplinary team in hospitals, clinics, and homes. It is not limited to the last weeks of life, is not the same as hospice, and is not "stopping treatment" — a person can receive chemotherapy, dialysis, or other disease-directed treatment and palliative care at the same time.
+
+### Domains of suffering
+
+Suffering in serious illness is multidimensional. The classic domains are:
+
+- **Physical** — pain, dyspnea, fatigue, nausea, constipation, insomnia, anorexia.
+- **Psychological** — anxiety, depression, fear, grief.
+- **Social** — isolation, role changes, financial strain, caregiver burden.
+- **Spiritual** — questions of meaning, purpose, hope, and faith.
+
+The domains interact: uncontrolled pain worsens anxiety, and fear can amplify pain. This is why palliative assessment and care are never purely physical.
+
+### The interdisciplinary team
+
+Palliative care is team care. Typical members include a physician or advanced practice clinician, registered nurses, a social worker, a chaplain or spiritual care provider, a pharmacist, and often a psychologist or psychiatrist — plus the person and their family as the center of the team. Composition varies by setting: a hospital consult team, an outpatient palliative clinic, or a hospice program's own structure. Communication and coordination across the team are essential nursing functions.
+
+### Symptom management focus
+
+Palliative symptom management targets the symptoms that cause the most suffering: pain, dyspnea, nausea and vomiting, fatigue, poor appetite, constipation, depression, anxiety, and delirium. The approach follows a consistent logic: assess the symptom thoroughly, look for reversible causes, use non-drug measures (positioning, relaxation, education, environmental adjustments) alongside medications, and reassess after every intervention. Specific medications, doses, and routes are prescribed by the clinician per current guidelines and institutional policy — this guide intentionally lists no doses; medication questions go to the prescriber and pharmacist.
+
+### When to introduce palliative care
+
+Earlier is generally better. Palliative care can be introduced at diagnosis of a serious or life-limiting illness, when symptoms are burdensome, or when goals-of-care conversations become complex — not only when disease-directed treatment stops. Research consistently associates earlier palliative involvement with better quality of life. Referral criteria and availability vary by institution and region, so the nurse advocates within the local system.
+
+### Palliative care and hospice: the relationship
+
+Hospice is a specific model of palliative care for people nearing the end of life — typically a prognosis measured in months or less, a comfort-focused goal, and eligibility rules set by payers and jurisdiction. Palliative care is the broader umbrella: all hospice care is palliative, but not all palliative care is hospice. End-of-Life Care, the next topic, explores the final phase in depth.
+
+## ELI-10: Explain Like I'm 10
+
+Palliative care is like a pit crew for someone running a very hard race. The runner may still be trying to finish — they can keep getting treatments — but the crew keeps the car fueled, tires fresh, and the driver comfortable along the way. It is not about stopping the race. It is about making every mile as smooth as possible.
+
+## High-Yield Points
+
+- **Palliative care is not end-of-life care only**; it can run alongside curative treatment at any stage of serious illness.
+- The WHO framing: early identification and relief of **physical, psychosocial, and spiritual** suffering.
+- Four domains of suffering: **physical, psychological, social, spiritual** — they interact.
+- Care is delivered by an **interdisciplinary team**; composition varies by setting.
+- Symptom management logic: assess → look for reversible causes → non-drug measures + ordered medications → reassess.
+- **Earlier referral is associated with better quality of life**; late referral is common, so nurses advocate.
+- **Hospice is a subset of palliative care** with its own eligibility rules; not all palliative care is hospice.
+- Scope note: nurses assess, teach, coordinate, and advocate; prescribing and advanced interventions follow provider orders and institutional policy.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Palliative care | Specialized care for serious illness that relieves suffering and improves quality of life at any stage | The central concept of this chapter; often misunderstood as end-of-life-only |
+| Domains of suffering | Physical, psychological, social, and spiritual dimensions of distress | A complete assessment must cover all four; they influence each other |
+| Interdisciplinary team | Clinicians from multiple disciplines working together with the person and family | Palliative care is team care; the nurse coordinates and communicates |
+| Hospice | A model of palliative care for people nearing the end of life, with eligibility rules | Frequently confused with palliative care generally; know the difference |
+| Quality of life | The person's own sense of well-being across physical, emotional, social, and spiritual areas | The central goal of all palliative interventions |
+
+
+## How It Works / Step-by-Step Process
+
+When a nurse identifies uncontrolled symptoms or distress, the palliative response follows a familiar loop:
+
+1. **Assess thoroughly** — characterize each symptom (onset, severity, quality, timing, aggravating and relieving factors) across all four domains.
+2. **Communicate** — report findings to the provider and the team promptly and clearly.
+3. **Plan together** — contribute non-drug comfort measures within nursing scope; medications are prescribed per orders and guidelines.
+4. **Implement and teach** — carry out the plan, explain it to the person and family in plain language.
+5. **Reassess** — evaluate response after every intervention and adjust.
+6. **Involve the team** — refer to social work, chaplaincy, or palliative specialists as needs emerge.
+7. **Document** — record findings, interventions, and responses per institutional standards.
+
+## Example
+
+A person with advanced COPD is admitted with breathlessness and visible anxiety. The person tells the nurse, "I don't want any of that hospice stuff — I'm not giving up." The nurse does not argue. Instead, the nurse explores what the person understands about palliative care, then explains that a palliative approach can run right alongside the usual COPD treatments — it means extra help with breathing comfort, anxiety, and planning, not withdrawal of care. The nurse teaches a comfortable upright position and paced-breathing techniques (education, not a prescription), and, with the person's agreement, coordinates a conversation with the provider about a palliative care consult. The person agrees to meet the palliative team, and later describes feeling "more in control, not less." The nurse's accurate explanation turned a feared service into welcome support.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Palliative care | Hospice | Hospice is a subset for people nearing the end of life with its own eligibility rules; palliative care is broader and can start at diagnosis |
+| Palliative care = giving up | Palliative care = added support | It can be delivered while continuing curative treatments; it is more help, not no help |
+| Palliative care is only for cancer | Palliative care for any serious illness | COPD, heart failure, kidney disease, and neurologic conditions are common palliative care populations |
+| Morphine at end of life hastens death | Symptom medications are titrated to relieve suffering | The ethical principle of double effect considers intent (relief) versus unintended effects; prescribing follows guidelines and orders |
+| Palliative care is a place | Palliative care is an approach and a team | It is delivered in hospitals, clinics, homes, and hospice facilities |
+| Palliative care is only for the last days of life | It is appropriate at any stage of serious illness | Earlier involvement is associated with better quality of life |
+
+## Quick Review
+
+1. Can a person receive palliative care while still receiving treatment aimed at curing their disease?
+2. Name the four domains of suffering addressed in palliative care.
+3. What is the relationship between palliative care and hospice?
+4. What is the basic symptom-management loop used in palliative care?
+5. Why might a nurse advocate for an earlier palliative care referral?
+
+<details>
+<summary>Show answers</summary>
+
+1. Yes — palliative care can be provided at any stage of serious illness, including alongside curative or disease-directed treatment. It is not limited to the end of life.
+2. Physical, psychological, social, and spiritual.
+3. Hospice is a specific model of palliative care for people nearing the end of life, with eligibility rules and a comfort-focused goal. All hospice care is palliative; not all palliative care is hospice.
+4. Assess the symptom thoroughly, look for reversible causes, use non-drug measures alongside ordered medications, and reassess after every intervention.
+5. Because earlier palliative involvement is associated with better quality of life, and many people are referred too late — the nurse is often the first to notice suffering and can advocate for help.
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter
+- Next: [End-of-Life Care](02-end-of-life-care.md)
+- Related: [Palliative Care chapter overview](../README.md)
+- See also: [Survivorship](../../chapter-31-cancer/04-survivorship.md)
+
+## Source Notes
+
+- Book: Medical-Surgical Nursing
+- Local outline source: `medical-surgical-nursing.md`
+- Official source URL: https://openstax.org/details/books/medical-surgical-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-15

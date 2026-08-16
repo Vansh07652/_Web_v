@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:membranes-transport:chemical-vs-electrical-gradients",
+  "slug": "chemical-vs-electrical-gradients",
+  "title": "Chemical vs. Electrical Gradients: The Electrochemical Gradient",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:membranes-transport",
+    "slug": "membranes-transport",
+    "title": "Membranes Transport",
+    "order": 2
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "A chemical (concentration) gradient is a difference in solute concentration across a membrane; an electrical gradient is a difference in charge (membrane potential) across the membrane. For a charged solute such as an ion, the two combine into a single **electrochemical gradient** — the net thermodynamic driving force that determines the direction of passive ion flow. Neutral solutes feel only the chemical gradient, but ions respond to both the concentration difference and the electrical field.",
+    "whyItMatters": "The electrochemical gradient is the currency of cellular excitability and transport: it underlies the resting membrane potential, action potentials, ATP synthesis in mitochondria (proton gradient), and all secondary active transport (using one ion's gradient to move another solute). Misunderstanding it as \"concentration only\" leads to wrong predictions about ion flow.",
+    "learningObjectives": "- Distinguish a concentration (chemical) gradient from an electrical gradient.\n- Define the electrochemical gradient and state its two components.\n- Explain why ions respond to both concentration and voltage while neutral solutes respond only to concentration.\n- Apply the electrochemical driving force to predict ion movement.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA chemical (concentration) gradient is a difference in solute concentration across a membrane; an electrical gradient is a difference in charge (membrane potential) across the membrane. For a charged solute such as an ion, the two combine into a single **electrochemical gradient** — the net thermodynamic driving force that determines the direction of passive ion flow. Neutral solutes feel only the chemical gradient, but ions respond to both the concentration difference and the electrical field.\n\n### Key Components\n\n### Chemical (concentration) gradient\nA higher concentration on one side drives net movement to the other side. For an uncharged solute, this is the entire driving force.\n\n### Electrical gradient (membrane potential)\nA separation of charge across the membrane produces a voltage (V_m). Ions, being charged, are pushed by this electric field: cations move toward the more negative side, anions toward the more positive side.\n\n### Electrochemical gradient\nThe combined effect of the two gradients. Its energetic size is given by Δμ = RT·ln(C_in/C_out) + zF·V_m, where R is the gas constant, T the absolute temperature, z the ion's charge, F the Faraday constant, and V_m the membrane potential.\n\n### Equilibrium potential (E_ion)\nThe voltage at which the electrical and chemical gradients exactly balance for one ion, so net flux of that ion is zero (Nernst equation).\n\n### Mechanism\n\nThe two gradients are additive because they act on the same charged particle. A concentration gradient stores chemical free energy; a voltage stores electrical free energy; an ion \"sees\" the sum. If concentration and voltage push in the same direction, the driving force is large; if they oppose, the ion moves according to whichever term dominates — and at the equilibrium potential the two cancel.\n\n### How It Works\n\n1. Cells pump ions to build concentration differences (for example, high K⁺ inside, high Na⁺ outside).\n2. The uneven distribution, together with the selective leak of K⁺, builds a membrane potential (inside negative).\n3. For any ion, the direction of passive movement is set by the net electrochemical gradient.\n4. K⁺ tends to leak outward down its concentration gradient, but the negative interior pulls it back inward — the two balance near K⁺'s equilibrium potential.\n5. Na⁺, with both a higher outside concentration and a negative interior, is strongly driven inward when its channels open.\n\n### Energy and Directionality\n\nDirection is \"downhill\" along the electrochemical gradient (spontaneous). Moving an ion *against* its electrochemical gradient requires energy input — exactly what pumps and co-transporters supply. The sign and magnitude of Δμ (above) tell you the direction and strength of the driving force for any ion.\n\n### Experimental Evidence\n\n- **Nernst-equation measurements:** measuring the reversal potential of an ion-selective channel at different external ion concentrations matches the predicted Nernst potential, confirming that the electrical and chemical gradients balance at E_ion.\n- **Ion-substitution experiments:** replacing external Na⁺ or K⁺ shifts membrane potential and channel currents as predicted by the electrochemical driving force.\n- **Radioisotope flux measurements:** tracing labeled ions shows net flux direction follows the combined gradient, not concentration alone.\n\n### Technique\n\nThe reversal (equilibrium) potential is measured with voltage-clamp or patch-clamp recordings while varying the ionic composition of the bathing solution; the Nernst equation converts measured ion concentrations into the predicted potential.",
+    "howItWorks": "1. Cells pump ions to build concentration differences (for example, high K⁺ inside, high Na⁺ outside).\n2. The uneven distribution, together with the selective leak of K⁺, builds a membrane potential (inside negative).\n3. For any ion, the direction of passive movement is set by the net electrochemical gradient.\n4. K⁺ tends to leak outward down its concentration gradient, but the negative interior pulls it back inward — the two balance near K⁺'s equilibrium potential.\n5. Na⁺, with both a higher outside concentration and a negative interior, is strongly driven inward when its channels open.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Electrochemical gradient = concentration gradient + electrical gradient.\n- Ions respond to both; neutral solutes respond only to concentration.\n- Δμ = RT·ln(C_in/C_out) + zF·V_m.\n- At the Nernst (equilibrium) potential, chemical and electrical forces balance and net flux is zero.\n- Inside-negative potential pulls cations inward and drives anions outward.",
+    "commonConfusions": "- **\"Ions move only down their concentration gradient.\"** Ions move down their *electrochemical* gradient — voltage matters just as much as concentration.\n- **\"A neutral solute has an electrochemical gradient.\"** Only its concentration matters; there is no electrical term for an uncharged molecule.\n- **\"Equilibrium potential means the ion is not moving at all.\"** Individual ions still cross, but equal numbers cross each way, so *net* flux is zero.\n- **\"Membrane potential and concentration gradient are independent.\"** They are coupled — one ion's gradient and permeability generate the voltage that then acts on every ion.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a crowd and an escalator. The \"concentration gradient\" is how crowded one side is — people naturally spread out. The \"electrical gradient\" is like a magnet that pulls charged things one way. A charged ion feels both at once: the crowding pushes it one way, and the magnet pulls it another. Sometimes they team up, sometimes they fight — and where they exactly cancel, the ion stops moving on average.",
+    "quickReview": "- Chemical gradient = concentration difference; electrical gradient = voltage.\n- Combined → electrochemical gradient (concentration + electrical).\n- Δμ = RT·ln(C_in/C_out) + zF·V_m.\n- At E_ion the two components balance.\n- Fundamental to resting potential, action potentials, and co-transport.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Principles of Membrane Transport.\" https://www.ncbi.nlm.nih.gov/books/NBK26815/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+      },
+      {
+        "text": "StatPearls, \"Physiology, Resting Potential.\" https://www.ncbi.nlm.nih.gov/books/NBK538338/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK538338/"
+      },
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, \"12.4 The Action Potential.\" https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/02-membranes-transport/07-chemical-vs-electrical-gradients.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

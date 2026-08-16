@@ -1,0 +1,82 @@
+#!/usr/bin/env node
+import crypto from "node:crypto";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+// Every gitignored output directory belongs here. `.preview/` and `.audit/`
+// are written by `tools/devbuild.mjs` and the local audit harness, so running
+// either before this script used to fold ~40 local-only files into the
+// manifest — which CI then failed on, because they are not in the repository.
+const excludedDirectories = new Set([
+  ".git", "node_modules", "dist", "build", "coverage",
+  ".preview", ".audit", ".vite", ".vite-temp", ".cache",
+  ".wrangler", "dist-worker",
+]);
+const excludedFiles = new Set(["manifest.json", ".DS_Store"]);
+const files = [];
+const walk = (directory) => {
+  for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+    if (entry.isDirectory() && excludedDirectories.has(entry.name)) continue;
+    const target = path.join(directory, entry.name);
+    if (entry.isDirectory()) walk(target);
+    else if (!excludedFiles.has(entry.name)) files.push(target);
+  }
+};
+walk(root);
+const generatedFiles = new Set([
+  "data/content-index.json",
+  "data/lessons.json",
+  "data/notes.json",
+  "data/questions.json",
+  "data/search-index.json",
+  "data/subjects.json",
+  "data/tags.json",
+  "release-content-inventory.csv",
+  "release-content-inventory.json",
+  "release-validation-report.md",
+  "PHASE_5_STATUS.md",
+]);
+const fileType = (relativePath) => {
+  const extension = path.extname(relativePath).toLowerCase();
+  return ({
+    ".css": "stylesheet",
+    ".html": "html",
+    ".json": "json",
+    ".md": "markdown",
+    ".mjs": "javascript",
+    ".png": "image",
+    ".ts": "typescript",
+    ".tsx": "typescript-react",
+  })[extension] ?? (extension ? extension.slice(1) : "file");
+};
+const entries = files.sort().map((file) => {
+  const buffer = fs.readFileSync(file);
+  const relativePath = path.relative(root, file).split(path.sep).join("/");
+  const contentMatch = relativePath.match(/^content\/([^/]+)\/(notes|questions)\//);
+  return {
+    path: relativePath,
+    fileType: fileType(relativePath),
+    sizeBytes: buffer.length,
+    sha256: crypto.createHash("sha256").update(buffer).digest("hex"),
+    subject: contentMatch?.[1] ?? null,
+    contentType: contentMatch ? (contentMatch[2] === "notes" ? "note" : "question") : null,
+    status: generatedFiles.has(relativePath) ? "generated" : "source",
+  };
+});
+const manifest = {
+  generatedAt: new Date().toISOString(),
+  algorithm: "SHA-256",
+  selfHashExcluded: true,
+  selfHashExcludedReason: "A manifest cannot contain a stable hash of itself.",
+  documentedExclusions: {
+    directories: [...excludedDirectories].sort(),
+    files: [".DS_Store", "manifest.json"],
+    reason: "Repository metadata, dependencies, build output, local development and audit output, operating-system metadata, and the self-referential manifest are not release-manifest entries.",
+  },
+  fileCountExcludingManifest: entries.length,
+  files: entries,
+};
+fs.writeFileSync(path.join(root, "manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`);
+console.log(`Updated manifest with ${entries.length} files.`);

@@ -1,0 +1,39 @@
+{
+  "id": "biology-1-biotechnology-0010",
+  "subject": "biology-1",
+  "lesson": "biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Forensic labs use **DNA fingerprinting** to compare a crime-scene sample with a suspect's DNA. What does the analysis actually compare, and why does it identify individuals so powerfully?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The complete DNA sequence of every chromosome, compared base by base."
+    },
+    {
+      "id": "b",
+      "text": "The lengths of short tandem repeat regions at several locations across the genome."
+    },
+    {
+      "id": "c",
+      "text": "The number of chromosomes present in each cell sample."
+    },
+    {
+      "id": "d",
+      "text": "The protein sequence of a single gene shared by everyone."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "DNA fingerprinting compares the lengths of short tandem repeat regions at several loci, and because the number of repeats at each locus varies widely among people, the combined pattern is effectively unique to an individual. PCR amplifies the repeat regions and gel or capillary electrophoresis measures their lengths. A is unnecessary, C ignores that chromosome number is the same in every person, and D is wrong because a gene shared by everyone reveals little about identity.",
+  "difficulty": "unknown",
+  "tags": [
+    "dna",
+    "fingerprinting",
+    "forensics"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-37c6d4d415f69033",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

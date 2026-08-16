@@ -1,0 +1,164 @@
+---
+title: "Acne Drugs"
+subject: "Nursing"
+book: "Pharmacology for Nurses"
+chapter: "40: Dermatologic Disorder Drugs"
+topic_number: "2"
+source: "pharmacology.md"
+tags:
+  - "acne-drugs"
+  - "nursing"
+status: "complete"
+---
+
+# Acne Drugs
+
+> **Book:** [Pharmacology for Nurses](../../README.md)  
+> **Chapter:** [Chapter 40: Dermatologic Disorder Drugs](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Acne vulgaris — the common form of acne — is the most frequent skin condition seen by clinicians, affecting the vast majority of people at some point, most often during adolescence and young adulthood. It arises in the **pilosebaceous unit**, the combination of a hair follicle and its attached sebaceous (oil) gland. Acne is not one single problem but the product of four interacting processes: excess sebum production, abnormal shedding of cells inside the follicle (hyperkeratinization), colonization by the skin bacterium *Cutibacterium acnes*, and inflammation. Different drugs attack different parts of this quartet, which is why acne therapy is almost always a combination strategy rather than a single miracle cream.
+
+Acne drugs span the full range of routes: topical agents applied directly to the skin, oral antibiotics, hormonal therapies, and the powerful oral retinoid isotretinoin reserved for severe disease. Because acne is visible and often begins during a socially sensitive age, its psychological impact — embarrassment, low self-esteem, even depression — is real and deserves the same clinical attention as the lesions themselves.
+
+## Why This Matters
+
+- **Near-universal prevalence:** Most people with acne self-treat with over-the-counter products before ever seeing a clinician, and nurses frequently encounter questions about them.
+- **Combination logic:** Understanding which drug targets which mechanism lets you predict why benzoyl peroxide and a topical retinoid are often paired, and why antibiotics are combined with non-antibiotic agents.
+- **Adherence is the real treatment:** Topical acne therapy takes weeks to months to work and often worsens before it improves. Teaching expectations is a major determinant of whether anyone completes therapy.
+- **Antibiotic stewardship:** Widespread use of topical and oral antibiotics for acne has fueled bacterial resistance. Knowing why antibiotics should not be used alone — and why benzoyl peroxide is paired with them — is modern, responsible practice.
+- **Serious safety:** Oral isotretinoin can cause severe harm to a developing fetus and requires strict pregnancy-prevention measures; it is also associated with other monitored effects. Nurses play a central role in screening, education, and monitoring programs.
+
+## Core Concepts
+
+### The pilosebaceous unit and the four pillars of acne
+
+Each follicle and its sebaceous gland form a pilosebaceous unit. In acne:
+
+1. **Sebum excess:** Androgens stimulate sebaceous glands to produce more oil.
+2. **Follicular hyperkeratinization:** Cells lining the follicle shed abnormally and stick together, plugging the pore. A plugged follicle is a **comedone** — closed (whitehead) or open (blackhead; the dark color is oxidized material, not dirt).
+3. ***C. acnes* overgrowth:** The trapped, oily, oxygen-poor environment favors this normal skin bacterium.
+4. **Inflammation:** Bacterial products and follicle contents trigger inflammation; if the follicle wall ruptures, contents spill into the dermis, producing red papules, pustules, nodules, and cysts — and potential scarring.
+
+Treatment selection follows this quartet: reduce sebum, normalize keratinization, reduce bacteria, and calm inflammation.
+
+### Topical retinoids: fixing the clog
+
+**Retinoids** are vitamin A derivatives. Applied topically (e.g., tretinoin, adapalene, tazarotene), they normalize follicular keratinization — the cells shed properly instead of plugging the pore. They are **comedolytic** (they clear and prevent comedones) and are considered first-line for most acne, especially comedonal acne. Key nursing-relevant facts:
+
+- They work slowly — visible improvement typically takes weeks to months.
+- They commonly cause initial dryness, peeling, and irritation, and they make skin more sun-sensitive.
+- They are not antibiotics; resistance is not a concern, which is why they are the backbone of combination therapy.
+
+### Benzoyl peroxide: the oxidizer that bacteria can't outsmart
+
+**Benzoyl peroxide** releases oxygen when it contacts skin, creating an environment *C. acnes* cannot survive — an **oxidizing antimicrobial** action. It also has mild keratolytic (peeling) effects. Because its mechanism is physical/chemical, bacteria do not develop resistance to it — which is why it is the recommended partner for topical antibiotics. It can bleach fabric and cause dryness and irritation, so patients need practical teaching (use white towels and pillowcases, expect some stinging).
+
+### Keratolytics and other topical agents
+
+**Salicylic acid**, available over the counter, is a keratolytic that loosens the glue between cells, helping shed the top layer and unclog pores. It is milder and less effective than prescription retinoids but useful for mild, comedonal acne. The pattern for study: **mild disease → topical therapy; moderate → combinations; severe → systemic therapy.**
+
+### Topical and systemic antibiotics
+
+Topical **clindamycin** and **erythromycin** reduce *C. acnes* populations directly at the follicle. They work well but are best used **in combination with benzoyl peroxide or a retinoid** — an antibiotic used alone invites bacterial resistance and gives slower, less complete results. Systemic antibiotics (tetracycline-class drugs are the classic choice for acne) treat moderate-to-severe inflammatory acne by combining antimicrobial action with **anti-inflammatory effects**. They require months of adherence, carry photosensitivity and other class-specific considerations, and their use is time-limited to reduce resistance.
+
+### Oral retinoids: isotretinoin
+
+**Isotretinoin** is an oral retinoid reserved for severe, scarring, or treatment-resistant nodular acne. It shrinks sebaceous glands (dramatically reducing sebum), normalizes keratinization, and reduces *C. acnes* indirectly by removing its food supply — the closest thing acne therapy has to a "reset." It is also the most safety-intensive acne drug:
+
+- It is a **known teratogen** — it can cause severe fetal harm, so pregnancy must be excluded before starting and prevented throughout treatment and for a time afterward (in the United States, a restricted-distribution program governs its use).
+- It requires regular monitoring for other potential effects (e.g., on lipids and liver) per current guidelines.
+- It commonly causes dry skin, lips, eyes, and nose — practical side effects that need proactive teaching.
+
+Nurses do not prescribe isotretinoin, but they are often the ones verifying pregnancy-prevention counseling, reminding about monitoring visits, and teaching about side effects — an excellent example of the nurse's role in high-risk therapy.
+
+### Hormonal therapies
+
+Because androgens drive sebum production, hormonal approaches are options for some people, particularly those whose acne flares cyclically or resists other treatment. **Combined oral contraceptives** (estrogen–progestin products) and the androgen-blocking drug **spironolactone** reduce androgenic stimulation of sebaceous glands. These are mechanism-based choices made by the prescriber based on the person's sex, age, health history, and preferences — a reminder that "one acne treatment" does not exist, and selection is individualized.
+
+## ELI-10: Explain Like I'm 10
+
+Acne happens when the tiny tubes in your skin get clogged with oil and dead cells, then bacteria move in and it gets red and swollen. Different medicines fix different parts of the problem: one kind unclogs the tubes (retinoids), one kind kills the bacteria with oxygen (benzoyl peroxide), and antibiotics fight the bacteria directly. Because no single medicine fixes all four problems, doctors often use two or three together — and they take weeks to work, like watering a plant.
+
+## High-Yield Points
+
+- **The four mechanisms of acne:** excess sebum, follicular plugging (comedones), *C. acnes* overgrowth, and inflammation. Drugs target one or more of these.
+- **Topical retinoids** (tretinoin, adapalene, tazarotene) normalize keratinization and are comedolytic — first-line for comedonal acne, slow to work, irritating, photosensitizing.
+- **Benzoyl peroxide** is an oxidizing antimicrobial that does not cause bacterial resistance — the reason it is paired with topical antibiotics.
+- **Topical antibiotics** (clindamycin, erythromycin) reduce *C. acnes* but should not be used alone — combination with benzoyl peroxide or a retinoid limits resistance.
+- **Systemic antibiotics** (tetracycline class) add anti-inflammatory effects for moderate-to-severe acne; use is time-limited.
+- **Isotretinoin** is for severe nodular acne; it is a known teratogen, requires pregnancy exclusion and prevention plus regular monitoring, and is governed by a restricted-distribution program in the US.
+- **Hormonal therapy** (combined oral contraceptives, spironolactone) reduces androgenic sebum stimulation in appropriate people.
+- **Patient education is the treatment:** dryness, irritation, sun sensitivity, fabric bleaching, and slow onset must be explained up front or people stop therapy.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Pilosebaceous unit | A hair follicle plus its sebaceous gland | The site where all acne pathology begins |
+| Comedone | A plugged follicle — closed (whitehead) or open (blackhead) | The earliest visible acne lesion; comedolytics target it |
+| Retinoid | A vitamin A derivative that normalizes cell shedding in the follicle | First-line comedolytic therapy; also used in psoriasis |
+| Keratolytic | An agent that loosens and sheds the outer skin cells | Unclogs pores (salicylic acid, benzoyl peroxide, retinoids) |
+| Benzoyl peroxide | An oxygen-releasing oxidizing antimicrobial | Kills *C. acnes* without promoting antibiotic resistance |
+| *C. acnes* | The normal skin bacterium that overgrows in plugged follicles | Target of topical and systemic antibiotics |
+| Teratogen | A substance that can harm a developing fetus | Isotretinoin is one — pregnancy prevention is mandatory |
+| Androgen | A hormone (e.g., testosterone) that stimulates sebaceous glands | Explains hormonal therapies for acne |
+
+## Example: A Person Starting Acne Therapy
+
+Jordan, 17, sees the nurse practitioner with blackheads and whiteheads across the forehead and chin plus a few red pustules on the cheeks. The plan: a topical retinoid at bedtime and benzoyl peroxide wash in the morning, with a topical antibiotic added to the benzoyl peroxide to treat the pustules. Trace the reasoning:
+
+- The **comedones** explain the retinoid — it normalizes the shedding that plugs the pores.
+- The **pustules** explain the benzoyl peroxide–antibiotic pair — the antibiotic cuts *C. acnes*, and the benzoyl peroxide prevents resistance while adding its own antimicrobial punch.
+- The nurse's teaching covers what Jordan actually needs to hear: apply a pea-sized amount (more is not better — it only irritates), expect dryness and possible initial worsening over the first weeks, use sunscreen because skin is now sun-sensitive, and judge success at **months**, not days. The nurse documents the teaching and notes the plan to reassess at follow-up.
+
+Now imagine the same visit ends with a referral for severe nodular acne. The conversation changes completely: pregnancy testing and prevention counseling, monitoring visits, and detailed side-effect teaching become the center of nursing care. Same disease, same person-first approach — but the drug class dictates a very different nursing role.
+
+> **Safety note:** This example describes drug classes and mechanisms only. No doses, frequencies, durations, or treatment-selection rules are implied — choices vary by patient, product, guidelines, and institution. Always verify against current references, the facility formulary, and the prescriber's orders.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Blackhead "dirt" | A plug of keratin and oil | The dark color is oxidized material in the open pore, not dirt — scrubbing does not fix acne |
+| Benzoyl peroxide | An antibiotic | It is an oxidizing antimicrobial; bacteria cannot develop resistance to it, which is why it partners with antibiotics |
+| Topical retinoids | Oral isotretinoin | Both are retinoids, but topical forms act locally with modest risk, while oral isotretinoin is high-risk, teratogenic, and reserved for severe disease |
+| Acne "worsening" at the start | Treatment failure | Initial irritation and flares are common early in retinoid therapy; improvement takes weeks to months |
+| Antibiotic resistance from acne therapy | An unavoidable side effect | Resistance is real but minimized by avoiding antibiotic monotherapy and pairing with benzoyl peroxide |
+
+## Quick Review
+
+1. List the four pathogenic processes in acne and name one drug class that targets each.
+2. Why is benzoyl peroxide recommended in combination with topical antibiotics?
+3. Why do topical retinoids take weeks to show benefit, and what side effects should patients expect?
+4. What makes oral isotretinoin different from other acne drugs in terms of safety monitoring?
+5. Why might hormonal therapy be appropriate for some people with acne?
+
+<details>
+<summary>Show answers</summary>
+
+1. Excess sebum (hormonal therapy, isotretinoin), follicular hyperkeratinization (topical retinoids), *C. acnes* overgrowth (benzoyl peroxide, topical/systemic antibiotics), inflammation (antibiotics, retinoids, hormonal therapy).
+2. Because benzoyl peroxide kills *C. acnes* by an oxidizing mechanism that does not promote resistance, protecting the antibiotic's usefulness while adding antimicrobial effect.
+3. Because they work by normalizing cell turnover in the follicle — a gradual process. Expect dryness, peeling, irritation, and sun sensitivity; improvement typically takes weeks to months.
+4. It is a known teratogen (pregnancy must be excluded and prevented), requires regular monitoring per guidelines, and in the US is governed by a restricted-distribution program. No other acne drug carries this level of monitoring.
+5. Because androgens stimulate sebum production; reducing androgenic stimulation (combined oral contraceptives or androgen blockade) can improve acne in appropriate people — selection is individualized by the prescriber.
+
+</details>
+
+## Related Topics
+
+- Previous: [Introduction to the Skin and Its Function](01-introduction-to-the-skin-and-its-function.md)
+- Next: [Psoriatic Drugs](03-psoriatic-drugs.md)
+- Related: [Psoriatic Drugs](03-psoriatic-drugs.md) · [Other Dermatologic Condition Drugs and Topical Anti-infectives for Burns](04-other-dermatologic-condition-drugs-and-topical-anti-infectives-for-burns.md)
+- Chapter: [Dermatologic Disorder Drugs overview](../README.md)
+
+## Source Notes
+
+- Book: Pharmacology for Nurses
+- Local outline source: `pharmacology.md`
+- Official source URL: https://openstax.org/details/books/pharmacology/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-15

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:vesicular-traffic:ldl-receptor-mediated-endocytosis",
+  "slug": "ldl-receptor-mediated-endocytosis",
+  "title": "LDL Receptor-Mediated Endocytosis and Cholesterol Homeostasis",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:vesicular-traffic",
+    "slug": "vesicular-traffic",
+    "title": "Vesicular Traffic",
+    "order": 4
+  },
+  "order": 12,
+  "status": "final",
+  "sections": {
+    "overview": "Low-density lipoprotein (LDL) carries cholesterol through the blood. Cells take it up by receptor-mediated endocytosis: LDL binds the LDL receptor, which concentrates in clathrin-coated pits; the resulting vesicle delivers LDL to endosomes, where low pH releases the particle from its receptor. The receptor recycles to the cell surface for reuse, while LDL is delivered to lysosomes where its cholesterol esters are hydrolyzed to free cholesterol. This elegant cycle is the textbook example of receptor-mediated endocytosis, and its disruption causes familial hypercholesterolemia and premature atherosclerosis.",
+    "whyItMatters": "The LDL receptor is the body's main route for clearing LDL cholesterol from blood. Loss-of-function mutations (e.g. in *LDLR*) cause **familial hypercholesterolemia**, with very high plasma LDL and premature heart attacks. The pathway also explains the mechanism of **statins**: by inhibiting HMG-CoA reductase, they lower intracellular cholesterol, which upregulates LDL receptor expression and increases LDL clearance. Understanding this cycle is foundational to cardiovascular medicine.",
+    "learningObjectives": "- Trace the life cycle of the LDL receptor and its LDL cargo.\n- Explain how endosomal acidification separates ligand from receptor.\n- Describe how receptor recycling and lysosomal delivery coordinate cholesterol uptake.\n- Relate defects in LDL uptake to familial hypercholesterolemia.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nLow-density lipoprotein (LDL) carries cholesterol through the blood. Cells take it up by receptor-mediated endocytosis: LDL binds the LDL receptor, which concentrates in clathrin-coated pits; the resulting vesicle delivers LDL to endosomes, where low pH releases the particle from its receptor. The receptor recycles to the cell surface for reuse, while LDL is delivered to lysosomes where its cholesterol esters are hydrolyzed to free cholesterol. This elegant cycle is the textbook example of receptor-mediated endocytosis, and its disruption causes familial hypercholesterolemia and premature atherosclerosis.\n\n### Key Components\n\n- **LDL particle:** a lipoprotein with a core of cholesterol esters and a surface coat of phospholipids, free cholesterol, and one molecule of apolipoprotein B-100 (ApoB-100).\n- **LDL receptor:** a transmembrane protein whose extracellular domain binds ApoB-100; its cytoplasmic tail carries an NPXY internalization signal recognized by AP2.\n- **Clathrin-coated pit and AP2 adaptor:** concentrate the receptor–ligand complex.\n- **Endosome acidification:** the vacuolar H⁺-ATPase (V-ATPase) lowers endosomal pH, triggering ligand release.\n- **Lysosomes:** degrade LDL; acid lipase releases free cholesterol.\n- **SREBP pathway:** senses cholesterol and regulates LDL receptor and cholesterol synthesis (feedback control).\n\n### Mechanism / How It Works\n\n1. Circulating LDL binds the LDL receptor on the cell surface via ApoB-100.\n2. The receptor–ligand complexes cluster in clathrin-coated pits (internalization signal binds AP2).\n3. The pit invaginates and dynamin pinches off a coated vesicle.\n4. The vesicle uncoats and fuses with an early endosome.\n5. The V-ATPase acidifies the endosome; at ~pH 5–6, the receptor undergoes a conformational change and **releases the LDL particle**.\n6. The receptor is sorted into recycling tubules and returns to the plasma membrane (a receptor molecule cycles about every 10 minutes over ~100+ trips).\n7. LDL remains in the maturing endosome, which becomes a late endosome and fuses with a lysosome.\n8. In the lysosome, ApoB is degraded to amino acids and cholesterol esters are hydrolyzed by acid lipase to free cholesterol, which the cell uses for membranes, steroid hormones, and bile acids.\n9. Rising free cholesterol activates SREBP-mediated feedback that **downregulates** LDL receptor synthesis and HMG-CoA reductase (cholesterol synthesis).\n\n### Energy and Directionality\n\nUptake is unidirectional (blood → cell interior) and energy-consuming: GTP (dynamin, Rabs, ARF), ATP (V-ATPase pumping H⁺ into endosomes, motor-based transport). The receptor–ligand dissociation is driven by the **pH gradient** (low endosomal pH), which the V-ATPase maintains using ATP — a classic example of an ion gradient powering a conformational switch rather than a direct ATP-consuming \"unbinding\" step.\n\n### Experimental Evidence / Technique\n\n- **Brown and Goldstein's classic studies (Nobel Prize 1985):** fibroblasts from patients with familial hypercholesterolemia (FH) failed to bind, internalize, or degrade LDL, and showed defective feedback suppression of HMG-CoA reductase — dissecting the entire LDL receptor pathway.\n- **Iodinated (¹²⁵I)-LDL binding and uptake assays:** demonstrated saturable, high-affinity, specific binding and receptor-mediated internalization.\n- **Ammonium chloride / chloroquine treatment:** these weak bases neutralize endosomes and block LDL dissociation and delivery — proving acidification is required for the ligand-release step.\n- **Immunofluorescence / electron microscopy:** followed the receptor through coated pits, endosomes, and back to the surface (receptor recycling).",
+    "howItWorks": "1. Circulating LDL binds the LDL receptor on the cell surface via ApoB-100.\n2. The receptor–ligand complexes cluster in clathrin-coated pits (internalization signal binds AP2).\n3. The pit invaginates and dynamin pinches off a coated vesicle.\n4. The vesicle uncoats and fuses with an early endosome.\n5. The V-ATPase acidifies the endosome; at ~pH 5–6, the receptor undergoes a conformational change and **releases the LDL particle**.\n6. The receptor is sorted into recycling tubules and returns to the plasma membrane (a receptor molecule cycles about every 10 minutes over ~100+ trips).\n7. LDL remains in the maturing endosome, which becomes a late endosome and fuses with a lysosome.\n8. In the lysosome, ApoB is degraded to amino acids and cholesterol esters are hydrolyzed by acid lipase to free cholesterol, which the cell uses for membranes, steroid hormones, and bile acids.\n9. Rising free cholesterol activates SREBP-mediated feedback that **downregulates** LDL receptor synthesis and HMG-CoA reductase (cholesterol synthesis).",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- LDL is taken up by **receptor-mediated endocytosis** via the **LDL receptor** binding **ApoB-100**.\n- The receptor's **NPXY** cytoplasmic motif recruits AP2 and clathrin.\n- **Endosome acidification (V-ATPase, pH ~5–6) releases LDL** from its receptor.\n- The receptor **recycles** to the surface; LDL is delivered to **lysosomes**.\n- Lysosomal **acid lipase** hydrolyzes cholesterol esters → free cholesterol.\n- Free cholesterol exerts **feedback inhibition** (SREBP) on LDL receptor and HMG-CoA reductase.\n- **Familial hypercholesterolemia** = LDL receptor deficiency → high LDL, early atherosclerosis.\n- **Statins** lower cholesterol by upregulating LDL receptor expression (indirectly, by inhibiting synthesis).",
+    "commonConfusions": "- **\"The receptor is degraded along with LDL.\"** The receptor is *recycled* to the surface and reused ~100 times; only the LDL is degraded.\n- **\"LDL is digested in the endosome.\"** LDL is only *separated* from its receptor in the acidic endosome; degradation happens later in the **lysosome**.\n- **\"Familial hypercholesterolemia is always a total absence of receptor.\"** It can be reduced receptor number, defective binding, or defective internalization — several molecular classes exist.\n- **\"Statins directly activate the LDL receptor.\"** Statins inhibit cholesterol synthesis; the resulting lower intracellular cholesterol *upregulates* receptor gene expression via SREBP.\n- **\"Acidification requires no energy.\"** The V-ATPase actively pumps protons using ATP to create the acidic lumen.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture a delivery service. A truck (LDL) arrives carrying boxes of bricks (cholesterol). The house has a special doorman (the LDL receptor) who recognizes the truck, escorts it into the loading dock (coated pit), and pulls it inside. In the warehouse, a change of \"air\" (lower pH) makes the doorman let go of the truck; the doorman walks back outside to greet the next truck, while the truck is sent to the recycling center (lysosome) where the bricks are unpacked. If the doorman is missing, trucks pile up outside — that's familial hypercholesterolemia. (The analogy omits that \"letting go\" is a pH-driven shape change and that free cholesterol also signals the cell to order fewer trucks.)",
+    "quickReview": "- LDL + LDL receptor → clathrin-coated pit → coated vesicle → early endosome.\n- Low endosomal pH releases LDL; receptor recycles to the surface.\n- LDL → late endosome → lysosome; acid lipase frees cholesterol.\n- Free cholesterol feedback-inhibits receptor and synthesis (SREBP).\n- LDLR mutations → familial hypercholesterolemia; statins exploit this pathway.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, Johnson A, Lewis J, et al. \"Transport into the Cell from the Plasma Membrane: Endocytosis.\" *Molecular Biology of the Cell.* 4th edition. Garland Science; 2002. https://www.ncbi.nlm.nih.gov/books/NBK26870/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26870/"
+      },
+      {
+        "text": "Ibrahim MA, Asuka E, Jialal I. \"Familial Hypercholesterolemia.\" *StatPearls.* StatPearls Publishing. https://www.ncbi.nlm.nih.gov/books/NBK556009/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK556009/"
+      },
+      {
+        "text": "Lent-Schochet D, Jialal I. \"Biochemistry, LDL Cholesterol.\" *StatPearls.* StatPearls Publishing. https://www.ncbi.nlm.nih.gov/books/NBK519561/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK519561/"
+      },
+      {
+        "text": "Clark MA, Choi J, Douglas M. \"5.4 Bulk Transport.\" *Biology 2e.* OpenStax. https://openstax.org/books/biology-2e/pages/5-4-bulk-transport",
+        "url": "https://openstax.org/books/biology-2e/pages/5-4-bulk-transport"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/04-vesicular-traffic/12-ldl-receptor-mediated-endocytosis.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,195 @@
+---
+title: "Disaccharides"
+subject: "Science"
+book: "Organic Chemistry: A Tenth Edition"
+chapter: "25: Biomolecules: Carbohydrates"
+topic_number: "8"
+source: "organic-chemistry.md"
+tags:
+  - "disaccharides"
+  - "science"
+status: "complete"
+---
+
+# Disaccharides
+
+> **Book:** [Organic Chemistry: A Tenth Edition](../../README.md)  
+> **Chapter:** [Chapter 25: Biomolecules: Carbohydrates](../README.md)  
+> **Topic:** 8  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+A **disaccharide** is a carbohydrate made of two monosaccharide units joined by a **glycosidic bond** — an acetal-like link between the anomeric carbon of one sugar and a hydroxyl of the other, formed with loss of water. The four most important are maltose, cellobiose, lactose, and sucrose. All share the formula \(C_{12}H_{22}O_{11}\) (two hexoses minus one water), yet behave very differently because their linkages join different carbons with \(\alpha\) or \(\beta\) configuration. The key classification is **reducing vs. non-reducing**: reducing if at least one anomeric carbon remains free as a hemiacetal (maltose, cellobiose, lactose), non-reducing if both anomeric carbons are in the bond (sucrose). This topic covers glycosidic bond formation, linkage notation, and each disaccharide's biological role.
+
+## Why This Matters
+
+- **Sucrose is table sugar.** The most consumed pure organic compound on Earth is the \(\alpha\)-1,2-linked glucose–fructose disaccharide from cane and beet.
+- **Lactose intolerance is a disaccharide problem.** Lactose must be split by the enzyme lactase; when lactase is low or absent, undigested lactose ferments in the gut.
+- **Maltose and cellobiose show how digestion depends on linkage.** Maltose is the \(\alpha\)-linked product of starch breakdown; cellobiose the \(\beta\)-linked product of cellulose breakdown. Humans hydrolyze maltose but not cellobiose — one configuration at one carbon.
+- **Reducing-sugar tests are clinical and lab tools.** Urine glucose tests (and Tollens'/Fehling's tests) detect free hemiacetal anomeric carbons; this explains why sucrose gives a negative test.
+- **Exam relevance.** Naming glycosidic linkages (\(\alpha\)-1,4 vs. \(\beta\)-1,4), predicting reducing behavior, and writing hydrolysis products are favorite test questions.
+
+## Core Concepts
+
+### How a glycosidic bond forms
+
+A monosaccharide in its cyclic form has an **anomeric carbon** (C1 for aldoses, C2 for ketoses) bearing an \(\mathrm{{-}OH}\) from ring closure. When that anomeric \(\mathrm{{-}OH}\) reacts with a hydroxyl on a second sugar, water is lost and an **acetal** link — the glycosidic bond — forms:
+
+\[
+\text{sugar-OH} + \mathrm{HO{-}sugar} \rightarrow \text{sugar{-}O{-}sugar} + H_2O
+\]
+
+The bond is named by the anomeric configuration (\(\alpha\) or \(\beta\)) and the carbon numbers joined, e.g., \(\alpha(1\rightarrow4)\). Because bond formation consumes the anomeric hydroxyl, that carbon can no longer equilibrate between \(\alpha\) and \(\beta\) — it is locked.
+
+### Maltose: \(\alpha(1\rightarrow4)\) glucose–glucose
+
+Maltose is two D-glucose units joined \(\alpha(1\rightarrow4)\). It forms during starch digestion and is the "malt sugar" of germinating grain. The second glucose's anomeric carbon is free, so maltose is a **reducing sugar** — it mutarotates and reduces Tollens' or Benedict's reagent. Complete hydrolysis gives two molecules of glucose:
+
+\[
+C_{12}H_{22}O_{11} + H_2O \rightarrow 2\,C_6H_{12}O_6
+\]
+
+### Cellobiose: \(\beta(1\rightarrow4)\) glucose–glucose
+
+Cellobiose is the same two glucose units joined \(\beta(1\rightarrow4)\). It is cellulose's repeating unit, produced by partial hydrolysis of cellulose. Humans lack a \(\beta\)-glucosidase, so we cannot digest cellobiose or cellulose; it, too, is reducing (free anomeric carbon on the second unit).
+
+### Lactose: \(\beta(1\rightarrow4)\) galactose–glucose
+
+Lactose is D-galactose linked \(\beta(1\rightarrow4)\) to D-glucose — the sugar of mammalian milk (~5% by mass in cow's milk). The galactose unit contributes the anomeric carbon (linkage Gal(\(\beta\)1\(\rightarrow\)4)Glc). The glucose end keeps a free anomeric carbon, making lactose reducing; lactase hydrolyzes it to galactose + glucose, and too little lactase causes lactose intolerance.
+
+### Sucrose: \(\alpha(1\rightarrow2)\) glucose–fructose
+
+Sucrose joins glucose \(\alpha(1\rightarrow2)\) to fructose, and fructose's anomeric carbon (C2) is involved — so **both anomeric carbons are committed** to the bond. No free hemiacetal remains: sucrose is **non-reducing** (negative Tollens'/Benedict's tests, no mutarotation). Hydrolysis (sucrase or acid) gives one glucose plus one fructose — **invert sugar**, sweeter than sucrose itself.
+
+### Reducing vs. non-reducing: the rule
+
+A sugar is reducing if any anomeric carbon exists as a free hemiacetal. Check the glycosidic bond: if one sugar's anomeric carbon is not in the linkage, the disaccharide is reducing. Maltose, cellobiose, and lactose are reducing; sucrose is not — the classic exam discriminator, and why sucrose gives no positive Benedict's test until hydrolyzed.
+
+## ELI-10: Explain Like I'm 10
+
+A disaccharide is two sugar bricks glued together — the glue is a squeezed-out water molecule. The joint has a name ("1-to-4 glue" or "1-to-2 glue") and can point up (alpha) or down (beta). Sucrose is special: both bricks are glued at their "special ends," so no free end remains to grab — it doesn't react in sugar tests, while maltose, cellobiose, and lactose still have one free end and do react.
+
+## High-Yield Points
+
+- Disaccharides = two monosaccharides joined by a glycosidic (acetal) bond, formed by condensation with loss of \(H_2O\).
+- All four common hexose disaccharides share the formula \(C_{12}H_{22}O_{11}\).
+- Maltose: Glc \(\alpha(1\rightarrow4)\) Glc — from starch digestion; reducing.
+- Cellobiose: Glc \(\beta(1\rightarrow4)\) Glc — cellulose repeating unit; reducing; humans cannot digest it.
+- Lactose: Gal \(\beta(1\rightarrow4)\) Glc — milk sugar; reducing; hydrolyzed by lactase.
+- Sucrose: Glc \(\alpha(1\rightarrow2)\) Fru — table sugar; non-reducing because both anomeric carbons are in the bond.
+- Reducing sugar = has a free anomeric (hemiacetal) carbon; reduces Tollens'/Benedict's reagent.
+- Hydrolysis of any hexose disaccharide: \(C_{12}H_{22}O_{11} + H_2O \rightarrow 2\,C_6H_{12}O_6\) (sucrose → glucose + fructose).
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Disaccharide | Two monosaccharides joined by one glycosidic bond | Sucrose, lactose, maltose, and cellobiose are dietary and structural staples |
+| Glycosidic bond | Acetal C–O–C link between two sugars, formed with loss of water | Its \(\alpha\)/\(\beta\) and carbon positions control digestion and reactivity |
+| Anomeric carbon | The carbonyl carbon of the cyclic sugar; the one that forms the glycosidic bond | A free anomeric carbon (hemiacetal) is what makes a sugar reducing |
+| Reducing sugar | Sugar with a free anomeric carbon that can reduce Tollens'/Benedict's reagent | Distinguishes maltose/cellobiose/lactose (reducing) from sucrose (not) |
+| Hydrolysis | Cleavage of a glycosidic bond by addition of water | How digestion releases monosaccharides for absorption |
+| Invert sugar | Equimolar glucose + fructose mixture from sucrose hydrolysis | Sweeter than sucrose; relevant to food science and sugar tests |
+
+## Worked Examples
+
+## Worked Examples
+
+### Example 1: Molar mass of sucrose
+
+Calculate the molar mass of sucrose, \(C_{12}H_{22}O_{11}\) (\(C = 12.011\), \(H = 1.008\), \(O = 15.999\) g/mol).
+
+**Formula first:**
+
+\[
+M = 12M(\mathrm{C}) + 22M(\mathrm{H}) + 11M(\mathrm{O})
+\]
+
+**Substitute:**
+
+\[
+M = 12(12.011) + 22(1.008) + 11(15.999) = 144.132 + 22.176 + 175.989 = 342.30\ \text{g/mol}
+\]
+
+**Answer:** Sucrose is 342.30 g/mol. Check: two hexoses are \(2 \times 180.16 = 360.32\) g/mol; minus one water (18.02) gives 342.30. A teaspoon of sugar (~4.2 g) is \(4.2/342.30 = 0.0123\) mol.
+
+### Example 2: Mass of glucose from lactose hydrolysis
+
+A glass of milk contains 12.0 g of lactose. How many grams of glucose are released if all the lactose is hydrolyzed?
+
+**Reaction first:** lactose + water \(\rightarrow\) galactose + glucose. One mole of lactose (342.30 g/mol) yields one mole of glucose (180.16 g/mol).
+
+**Convert moles of lactose:**
+
+\[
+12.0\ \text{g} \times \frac{1\ \text{mol}}{342.30\ \text{g}} = 0.03506\ \text{mol lactose}
+\]
+
+**Convert to glucose mass:**
+
+\[
+0.03506\ \text{mol} \times \frac{180.16\ \text{g}}{1\ \text{mol}} = 6.32\ \text{g glucose}
+\]
+
+**Answer:** About 6.32 g of glucose (and the same mass of galactose, since products are 1:1); roughly half the lactose mass becomes glucose — a useful sanity check.
+
+### Example 3: Predicting reducing behavior from structure
+
+Which of the following give a positive Tollens' test: maltose, cellobiose, lactose, sucrose?
+
+**Reasoning walkthrough:** locate each glycosidic bond and ask whether an anomeric carbon remains free.
+
+- Maltose \(\alpha(1\rightarrow4)\): second glucose's C1 is free \(\rightarrow\) reducing.
+- Cellobiose \(\beta(1\rightarrow4)\): same bonding geometry; second glucose's C1 is free \(\rightarrow\) reducing.
+- Lactose \(\beta(1\rightarrow4)\): glucose's C1 is free \(\rightarrow\) reducing.
+- Sucrose \(\alpha(1\rightarrow2)\): glucose C1 *and* fructose C2 are both in the bond \(\rightarrow\) no free hemiacetal \(\rightarrow\) non-reducing.
+
+**Answer:** Maltose, cellobiose, and lactose are reducing; sucrose is not. Lactose intolerance, cellobiose indigestibility, and sucrose's negative sugar test all follow from these linkage structures — one rule, three applications.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Reducing sugar | Sweet-tasting sugar | "Reducing" is a structural property (free anomeric carbon), not a taste or health property; sucrose is sweet but non-reducing. |
+| Maltose vs. cellobiose | Same disaccharide | Both are Glc–Glc, but maltose is \(\alpha(1\rightarrow4)\) and cellobiose is \(\beta(1\rightarrow4)\); only maltose is digestible by humans. |
+| \(\alpha\) vs. \(\beta\) in a glycosidic bond | D vs. L sugar | \(\alpha\)/\(\beta\) describes the configuration at the anomeric carbon of the *linkage*; D/L describes the whole sugar's reference carbon. |
+| Sucrose hydrolysis products | Two glucoses | Sucrose gives glucose + fructose; maltose/cellobiose give two glucoses; lactose gives galactose + glucose. |
+| Glycosidic bond | Hydrogen bond | The glycosidic bond is a covalent acetal C–O–C link; hydrogen bonds are much weaker noncovalent interactions. |
+| "Invert sugar" | Sucrose | Invert sugar is the hydrolyzed glucose + fructose mixture; it is sweeter and reducing. |
+
+## Quick Review
+
+1. Write the hydrolysis reaction of maltose and name the products.
+2. Why is sucrose classified as a non-reducing sugar?
+3. What is the molecular formula shared by maltose, cellobiose, lactose, and sucrose, and why?
+4. Which disaccharide is cellulose's repeating unit, and what is its linkage?
+5. A patient's urine gives a negative Benedict's test after a sucrose-sweetened drink. Explain why, and predict the result after sucrase treatment.
+6. What is the molar mass of lactose?
+
+<details>
+<summary>Show answers</summary>
+
+1. \(C_{12}H_{22}O_{11} + H_2O \rightarrow 2\,C_6H_{12}O_6\); two molecules of D-glucose.
+2. Both anomeric carbons (glucose C1 and fructose C2) are involved in the glycosidic bond, so no free hemiacetal exists to reduce the reagent.
+3. \(C_{12}H_{22}O_{11}\) — two hexoses (\(C_6H_{12}O_6\) each) minus one water (\(H_2O\)).
+4. Cellobiose, with a \(\beta(1\rightarrow4)\) linkage between two glucose units.
+5. Sucrose is non-reducing, so intact sucrose gives a negative test; after sucrase hydrolysis, the glucose product (a reducing sugar) gives a positive test.
+6. \(12(12.011) + 22(1.008) + 11(15.999) = 342.30\) g/mol.
+
+</details>
+
+## Related Topics
+
+- Previous: [The Eight Essential Monosaccharides](07-the-eight-essential-monosaccharides.md)
+- Next: [Polysaccharides and Their Synthesis](09-polysaccharides-and-their-synthesis.md)
+- Related: [Biomolecules: Carbohydrates chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Organic Chemistry: A Tenth Edition
+- Local outline source: `organic-chemistry.md`
+- Official source URL: https://openstax.org/details/books/organic-chemistry/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Numerical values (molar masses, milk sugar content) are standard reference values; verify against current sources before relying on them in assessments.
+- Last updated: 2026-08-16

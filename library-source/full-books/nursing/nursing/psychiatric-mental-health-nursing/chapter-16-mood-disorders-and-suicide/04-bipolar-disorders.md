@@ -1,0 +1,142 @@
+---
+title: "Bipolar Disorders"
+subject: "Nursing"
+book: "Psychiatric-Mental Health Nursing"
+chapter: "16: Mood Disorders and Suicide"
+topic_number: "4"
+source: "psychiatric-mental-health.md"
+tags:
+  - "bipolar-disorders"
+  - "nursing"
+status: "complete"
+---
+
+# Bipolar Disorders
+
+> **Book:** [Psychiatric-Mental Health Nursing](../../README.md)  
+> **Chapter:** [Chapter 16: Mood Disorders and Suicide](../README.md)  
+> **Topic:** 4  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Bipolar disorders are mood disorders defined by **episodes** — distinct periods in which mood, energy, and activity shift dramatically away from a person's baseline. The signature of the bipolar spectrum is the **manic or hypomanic episode**: a period of abnormally elevated, expansive, or irritable mood paired with increased energy and goal-directed activity. Because these episodes alternate with (or occur alongside) depressive episodes, bipolar disorders were once called "manic-depressive illness" — an older term that captures the two poles of mood.
+
+The bipolar spectrum is organized by episode severity. **Bipolar I disorder** requires at least one full manic episode, which may or may not be accompanied by depressive episodes. **Bipolar II disorder** involves hypomanic episodes plus major depressive episodes, but never a full manic episode. **Cyclothymic disorder** is a chronic, milder fluctuation between hypomanic and depressive symptoms that never quite reaches full episode criteria. The organizing questions for this topic: what separates an ordinary mood swing from a mood episode, and what separates mania from hypomania?
+
+## Why This Matters
+
+Bipolar disorders are common enough that every nurse will care for someone who lives with one, and they carry real risks. Manic episodes bring impulsivity, poor judgment, and dramatically reduced sleep — a combination that can lead to reckless spending, substance use, risky driving, and conflict with others. Depressive and mixed episodes carry one of the highest suicide risks of any psychiatric condition, so recognition and timely escalation genuinely save lives.
+
+Nurses are often the first people to notice a mood shift because they observe behavior across days and shifts — sleep patterns, speech rate, activity level, and expressed plans all change in recognizable ways. Early recognition, factual documentation, and prompt reporting to the treatment team can change the course of an episode. The nurse also carries a long-term teaching role: medication adherence, regular sleep, and avoiding substances that destabilize mood are the practical habits that keep episodes from recurring. Finally, stigma is real, and person-first language — a person *has* bipolar disorder, a person is not "a bipolar" — is part of respectful, professional care.
+
+## Core Concepts
+
+### Episodes, not personality
+
+The key idea is that bipolar disorders are **episodic**: symptoms come and go in time-limited states that are different from the person's usual self. This is why a nurse who knows the patient well is valuable — a change from baseline is the first clue. Mania is a distinct period of abnormally elevated, expansive, or irritable mood plus persistently increased activity or energy, lasting at least one week (or any duration if hospitalization is required), causing marked impairment or, in some cases, psychotic features. Hypomania is a shorter (at least four days) and milder version of the same picture: a clear change the person or others notice, but without marked impairment or psychosis. These descriptions are for learning; only qualified clinicians make the diagnosis.
+
+### The bipolar spectrum: I, II, and cyclothymic disorder
+
+- **Bipolar I** — at least one full manic episode. Depressive episodes are common but not required for the diagnosis.
+- **Bipolar II** — hypomanic episodes plus at least one major depressive episode, with no full manic episode. (If a full manic episode ever occurs, the diagnosis is no longer bipolar II.)
+- **Cyclothymic disorder** — chronic hypomanic and depressive symptoms for at least two years (one year in children and adolescents), never meeting full criteria for a manic or major depressive episode.
+
+A practical consequence: many people with bipolar II spend far more time depressed than hypomanic, so they can be mistaken for having unipolar depression. Asking about past episodes of unusually high energy, little need for sleep, or rapid talking is part of a careful history.
+
+### Mixed features and rapid cycling
+
+Two course patterns deserve special attention. **Mixed features** means manic and depressive symptoms occur together in the same episode — for example, a person with a depressed mood who is also agitated, sleepless, and racing with thoughts. Mixed states are considered high-risk periods, in part because agitation and hopelessness combine. **Rapid cycling** means four or more mood episodes within twelve months; it is more common in women and is associated with a more difficult course. Both are course descriptors, not separate diagnoses.
+
+### What is known about causes: history and biology
+
+Two strands of evidence shape current understanding. **Family and twin studies** show that bipolar disorders run in families and that identical twins are more likely to share the condition than fraternal twins, pointing to a strong genetic contribution. Methodological note: twin studies rest on assumptions about shared environments, and their results describe populations, not individuals — they do not predict any one person's outcome. **Brain research** implicates dysregulation in mood-regulating circuits and neurotransmitter systems, but no single biological explanation exists yet; the cause is understood as a combination of genetic vulnerability and life circumstances.
+
+The **lithium story** is a landmark worth knowing. In 1949 the Australian psychiatrist John Cade reported that lithium salts calmed manic behavior — first observed in guinea pigs, then in patients. Judged by modern standards the studies were small and uncontrolled, yet the finding launched the modern era of mood-stabilizing treatment. Lithium remains a mainstay of treatment but has a narrow therapeutic range, so it requires blood-level monitoring and provider management. The nurse's role is education and monitoring: explaining why blood draws matter, supporting adherence, and teaching the person to report concerning side effects — never dosing or adjusting medication.
+
+### Nursing care across the poles
+
+- **During mania** — safety first. The person may be impulsive, grandiose, and sleeping almost nothing. A low-stimulation environment, structured routine, and regular meals and fluids are standard supports because people in mania often forget to eat and sleep. Redirect high energy into safe, contained activity; set limits calmly and respectfully; and escalate rising agitation promptly to the provider per facility policy — including any institutional protocol for crisis response.
+- **During depression** — suicide risk is the priority. The nurse assesses for expressed hopelessness or thoughts of self-harm and **reports immediately** to the provider and treatment team, following facility policy for safety checks and support. (See the Self-Harm and Suicide topic.)
+- **Across phases** — medication adherence teaching, sleep regularity (sleep loss can trigger episodes), education about alcohol and stimulant use, family education, and linkage to follow-up care.
+
+Scope note: assessment, monitoring, safety, education, and reporting are core nursing work; diagnosis, medication selection, dosing, and treatment decisions are provider responsibilities, and every facility has its own policies for escalation, safety checks, and crisis response.
+
+## ELI-10: Explain Like I'm 10
+
+Think of mood like a car's speed: most people drift smoothly between slow and fast, but someone with bipolar disorder sometimes lurches suddenly into full speed — feeling supercharged, needing almost no sleep, and making big impulsive decisions — and at other times crawls to a stop with no energy and no hope. These lurches are episodes that come and go, not the person's true personality. Nurses help by watching for sudden shifts, keeping the person safe, and supporting medication and follow-up care so the episodes happen less often.
+
+## High-Yield Points
+
+- Bipolar disorders are **episodic**; the manic or hypomanic episode is what separates them from unipolar depression.
+- **Bipolar I** = full mania (≥1 week or hospitalization; marked impairment). **Bipolar II** = hypomania + major depression, never full mania. **Cyclothymic disorder** = chronic low-grade fluctuation below full episode criteria.
+- Classic manic signs a nurse may observe: **decreased need for sleep, grandiosity, pressured speech, flight of ideas, distractibility, increased goal-directed activity, and risky behavior**.
+- **Mixed features and rapid cycling** are high-risk course patterns; suicide risk is highest during depressive and mixed phases.
+- Sleep loss, alcohol and stimulant use, and missed medication can destabilize mood — education targets these.
+- **Lithium** (Cade, 1949) was the first effective mood stabilizer; it requires blood-level monitoring and provider management. Nurses never dose or adjust.
+- During mania: low-stimulation environment, structure, meals and fluids, respectful limit-setting, early escalation. During depression: suicide-risk assessment and immediate reporting per facility policy.
+- Person-first language: the person *has* bipolar disorder; the illness is not the identity.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Bipolar I disorder | Mood disorder with at least one full manic episode | The most severe pole of the spectrum; mania can require hospitalization |
+| Bipolar II disorder | Hypomanic episodes plus major depressive episodes, never full mania | Easily mistaken for unipolar depression; past hypomania must be asked about |
+| Mania | Distinct period of elevated/expansive/irritable mood plus increased energy, causing marked impairment | The defining episode of bipolar I; a safety concern because of impulsivity |
+| Hypomania | Milder, shorter version of mania without marked impairment | Separates bipolar II from bipolar I |
+| Cyclothymic disorder | Chronic mild mood fluctuation below full episode thresholds | A spectrum diagnosis; chronic but less severe |
+| Mixed features | Manic and depressive symptoms in the same episode | A high-risk period combining agitation and hopelessness |
+| Rapid cycling | Four or more mood episodes in twelve months | A course pattern linked to more difficult treatment |
+| Flight of ideas | Rapidly shifting speech and thoughts that jump between topics | A classic manic sign recognized in conversation |
+| Pressured speech | Fast, hard-to-interrupt talking | A classic manic sign; distinct from ordinary talkativeness |
+| Mood stabilizer | Medication class used to even out mood episodes (e.g., lithium), prescribed and monitored by providers | Adherence and monitoring education are core nursing work |
+
+## Example: Clinical Scenario
+
+Ms. Alvarez, age 34, was admitted for depression three weeks ago and responded well to treatment. This morning the night nurse notes that she slept only two hours, is laughing loudly in the hallway, talks so quickly it is hard to interrupt her, and has told three staff members she is launching a business with her savings. The nurse recognizes the pattern as a possible shift toward mania — a *change from baseline*, not the person's usual self. She documents the specific observations (sleep, speech, activity, expressed plans), keeps the environment calm, offers meals and fluids, and reports the change to the provider so the treatment team can adjust care. She does not argue with the grand plans, because arguing can escalate; she does not promise to help fund them; and she quietly follows the unit's safety routines. The teaching point: the nurse's job was recognition and reporting, not diagnosis — and the specific, factual documentation gave the team what it needed to act.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Bipolar disorder | Unipolar (major) depression | Unipolar depression has no history of mania or hypomania; a person with bipolar II can present while depressed, so past hypomania must be asked about |
+| Mania | Ordinary excitement or "high energy" | Mania is a distinct episode with decreased need for sleep, impulsivity, and impaired judgment lasting days; ordinary high spirits respond to rest and do not impair function |
+| Hypomania | Mania | Hypomania is shorter and milder — a noticeable change without marked impairment or psychosis; full mania causes marked impairment and may require hospitalization |
+| Bipolar II | Cyclothymic disorder | Bipolar II includes full depressive episodes plus hypomania; cyclothymia never reaches full episode severity |
+| "Mood swings" | Bipolar disorder | Rapid shifts within a day are not the same as discrete mood episodes lasting days to weeks; episode duration and impairment are what matter |
+| "The patient is bipolar" | "The patient has bipolar disorder" | Person-first language — the diagnosis describes an illness, not an identity |
+| Lithium dose is the same for everyone | Individualized dosing with blood-level monitoring | Lithium is provider-managed; nurses educate about adherence and monitoring but never dose or adjust |
+
+## Quick Review
+
+1. What single feature separates bipolar disorders from unipolar depression?
+2. How do mania and hypomania differ?
+3. List four classic signs of a manic episode a nurse might observe.
+4. Why are mixed features and rapid cycling flagged as high-risk course patterns?
+5. A patient hospitalized for depression suddenly seems elated, sleeps little, and talks rapidly. What is the nurse's role?
+
+<details>
+<summary>Show answers</summary>
+
+1. The presence of a manic or hypomanic episode. Unipolar depression has no history of either.
+2. Mania lasts at least one week (or requires hospitalization), causes marked impairment, and may include psychosis. Hypomania lasts at least four days and is milder — a clear change without marked impairment or psychosis.
+3. Decreased need for sleep, grandiosity, pressured speech, flight of ideas, distractibility, increased goal-directed activity, risky behavior. (Any four.)
+4. Mixed features combine manic agitation with depressive hopelessness — a high-risk combination; rapid cycling (4+ episodes in 12 months) is linked to a more difficult course. Both warrant close monitoring and prompt provider notification.
+5. Recognize the change from baseline as a possible manic shift, document specific observations, keep the environment calm and safe, offer meals and fluids, and report to the provider — not diagnose or argue with the patient's plans.
+
+</details>
+
+## Related Topics
+
+- Previous: [Self-Harm and Suicide](03-self-harm-and-suicide.md)
+- Next: End of chapter
+- Related: [Depressive Disorders](01-depressive-disorders.md), [The Spectrum of Mood Disorders](02-the-spectrum-of-mood-disorders.md), and the [Mood Disorders and Suicide chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Psychiatric-Mental Health Nursing
+- Local outline source: `psychiatric-mental-health.md`
+- Official source URL: https://openstax.org/details/books/psychiatric-mental-health/
+- Content type: Original educational study guide based on OpenStax outline structure. Educational draft only — no treatment recommendations; diagnosis, medication selection, and dosing require qualified clinicians and must follow facility policy.
+- Last updated: 2026-08-16

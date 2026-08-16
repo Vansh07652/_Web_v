@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-thermodynamics:gibbs-free-energy",
+  "slug": "gibbs-free-energy",
+  "title": "Gibbs Free Energy",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-thermodynamics",
+    "slug": "chemical-thermodynamics",
+    "title": "Chemical Thermodynamics",
+    "order": 7
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "**Gibbs free energy (G)** is the thermodynamic function that packages the Second Law into a system-only quantity. Its change is **ΔG = ΔH − TΔS**, and at constant temperature and pressure, ΔG < 0 means the process is spontaneous, ΔG > 0 means it is nonspontaneous (the reverse is spontaneous), and ΔG = 0 means the system is at equilibrium. Because ΔG = −T·ΔS_universe, checking ΔG is exactly equivalent to checking the Second Law — but far more convenient, since ΔH and ΔS refer only to the system.",
+    "whyItMatters": "Gibbs free energy is the single most used spontaneity test in chemistry and biology. It tells chemists whether a reaction will run, biochemists whether a metabolic step is favorable, and engineers how much useful (non-PV) work a process can deliver at constant T and P. ATP hydrolysis, combustion, and battery discharge are all quantified through ΔG.",
+    "learningObjectives": "- Define Gibbs free energy and explain what ΔG = ΔH − TΔS means.\n- Use the sign of ΔG to classify a process as spontaneous, nonspontaneous, or at equilibrium.\n- Calculate ΔG from given ΔH, ΔS, and temperature (in Kelvin).\n- Explain how ΔG combines the enthalpy and entropy criteria of spontaneity.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Gibbs free energy (G)** is the thermodynamic function that packages the Second Law into a system-only quantity. Its change is **ΔG = ΔH − TΔS**, and at constant temperature and pressure, ΔG < 0 means the process is spontaneous, ΔG > 0 means it is nonspontaneous (the reverse is spontaneous), and ΔG = 0 means the system is at equilibrium. Because ΔG = −T·ΔS_universe, checking ΔG is exactly equivalent to checking the Second Law — but far more convenient, since ΔH and ΔS refer only to the system.\n\n### Key Ideas\n\n- **One number, two drivers.** ΔG balances the enthalpy tendency (ΔH) against the entropy tendency (TΔS).\n- **TΔS scales with temperature.** The higher T, the more the entropy term matters (and its units are energy, because K × J/(mol·K) = J/mol).\n- **Sign convention is everything.** Negative ⇒ spontaneous/forward-favored; positive ⇒ reverse-favored; zero ⇒ equilibrium.\n- **Units discipline.** ΔH in kJ/mol and ΔS in J/(mol·K) must be reconciled (convert ΔS to kJ/(mol·K) or ΔH to J/mol) before combining.\n- **Kelvin only.** T must be absolute temperature.\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| ΔG | Gibbs free-energy change | kJ/mol |\n| ΔH | Enthalpy change | kJ/mol |\n| ΔS | Entropy change | J/(mol·K) |\n| T | Absolute temperature | K |\n\nΔG = ΔH − TΔS\n\n### How It Works\n\n1. Obtain ΔH and ΔS for the process (from tables or measurement) at the temperature of interest.\n2. Put ΔS and ΔH in compatible units (e.g., convert ΔS to kJ/(mol·K)).\n3. Multiply T × ΔS.\n4. Subtract: ΔG = ΔH − TΔS.\n5. Read the sign: negative → spontaneous; positive → nonspontaneous; zero → equilibrium.\n\n### Worked Example\n\n**Calculate ΔG° at 25 °C for H₂O(l) → H₂O(g). Is vaporization spontaneous at this temperature?**\n\nData: ΔH° = +44.0 kJ/mol, ΔS° = +118.9 J/(mol·K) = +0.1189 kJ/(mol·K).\n\n- T = 25 + 273 = 298 K\n- TΔS° = 298 K × 0.1189 kJ/(mol·K) = 35.4 kJ/mol\n- ΔG° = ΔH° − TΔS° = +44.0 − 35.4 = **+8.6 kJ/mol**\n\nΔG° > 0, so liquid water does *not* spontaneously vaporize at 25 °C (the reverse, condensation, is favored). At 100 °C (373 K), TΔS° = 373 × 0.1189 = 44.4 kJ/mol, giving ΔG° ≈ 44.0 − 44.4 ≈ 0 — equilibrium, the boiling point.",
+    "howItWorks": "1. Obtain ΔH and ΔS for the process (from tables or measurement) at the temperature of interest.\n2. Put ΔS and ΔH in compatible units (e.g., convert ΔS to kJ/(mol·K)).\n3. Multiply T × ΔS.\n4. Subtract: ΔG = ΔH − TΔS.\n5. Read the sign: negative → spontaneous; positive → nonspontaneous; zero → equilibrium.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- ΔG = ΔH − TΔS (T in Kelvin).\n- ΔG < 0 ⇒ spontaneous; ΔG > 0 ⇒ nonspontaneous; ΔG = 0 ⇒ equilibrium.\n- ΔG = −T·ΔS_universe (so ΔG < 0 ⇔ ΔS_universe > 0).\n- TΔS has energy units; a large T amplifies the entropy contribution.\n- Convert ΔS (J/mol·K) to kJ/mol·K before subtracting from ΔH (kJ/mol).\n- At constant T and P, ΔG is the maximum non-expansion work available.",
+    "commonConfusions": "- **\"ΔG < 0 means the reaction is fast.\"** — Wrong. ΔG says nothing about rate; many ΔG < 0 reactions are kinetically slow.\n- **\"Use °C in ΔG = ΔH − TΔS.\"** — Wrong. T must be in Kelvin.\n- **\"A negative ΔH always makes ΔG negative.\"** — Wrong. If ΔS is negative and T is large, the −TΔS term can outweigh ΔH and make ΔG positive.\n- **\"ΔG = 0 means the reaction stopped.\"** — Wrong. It means dynamic equilibrium: forward and reverse rates are equal.\n- **\"ΔG and ΔH have the same units as ΔS.\"** — Wrong. ΔH and ΔG are kJ/mol; ΔS is J/(mol·K) — convert before combining.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture a seesaw with two kids. On one side sits \"heat\" (ΔH) — a reaction likes to give off heat, which pushes toward happening. On the other side sits \"spread-out\" (ΔS) — a reaction likes to spread things out, which also pushes toward happening. Temperature is the weight of the \"spread-out\" kid: crank up the heat and the entropy kid gets heavier and can tip the seesaw by himself. If the seesaw tips \"forward,\" the reaction happens on its own; that's ΔG being negative. (The limit: ΔG is really about *available energy to do work*, not a literal seesaw, but \"two competing pushes, one of which gets stronger with temperature\" is the correct picture.)",
+    "quickReview": "- ΔG = ΔH − TΔS; T in Kelvin.\n- ΔG < 0 spontaneous, > 0 nonspontaneous, = 0 equilibrium.\n- ΔG = −T·ΔS_universe.\n- Entropy term scales with temperature.\n- Convert ΔS to kJ/(mol·K) before combining with ΔH.",
+    "workedExamples": "### Worked Example\n\n**Calculate ΔG° at 25 °C for H₂O(l) → H₂O(g). Is vaporization spontaneous at this temperature?**\n\nData: ΔH° = +44.0 kJ/mol, ΔS° = +118.9 J/(mol·K) = +0.1189 kJ/(mol·K).\n\n- T = 25 + 273 = 298 K\n- TΔS° = 298 K × 0.1189 kJ/(mol·K) = 35.4 kJ/mol\n- ΔG° = ΔH° − TΔS° = +44.0 − 35.4 = **+8.6 kJ/mol**\n\nΔG° > 0, so liquid water does *not* spontaneously vaporize at 25 °C (the reverse, condensation, is favored). At 100 °C (373 K), TΔS° = 373 × 0.1189 = 44.4 kJ/mol, giving ΔG° ≈ 44.0 − 44.4 ≈ 0 — equilibrium, the boiling point.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 16.4 \"Free Energy.\" https://openstax.org/books/chemistry-2e/pages/16-4-free-energy",
+        "url": "https://openstax.org/books/chemistry-2e/pages/16-4-free-energy"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 16.2 \"Entropy.\" https://openstax.org/books/chemistry-2e/pages/16-2-entropy",
+        "url": "https://openstax.org/books/chemistry-2e/pages/16-2-entropy"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 1
+  },
+  "aliases": [
+    {
+      "value": "gibbs-free-energy",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "05-gibbs-free-energy",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:9023eb88ce5fe767"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:9023eb88ce5fe767"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:9023eb88ce5fe767"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:9023eb88ce5fe767"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/16-chemical-thermodynamics/05-gibbs-free-energy.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Gibbs Free Energy\n\n## Learning Goals\n\n- Define Gibbs free energy and explain what ΔG = ΔH − TΔS means.\n- Use the sign of ΔG to classify a process as spontaneous, nonspontaneous, or at equilibrium.\n- Calculate ΔG from given ΔH, ΔS, and temperature (in Kelvin).\n- Explain how ΔG combines the enthalpy and entropy criteria of spontaneity.\n\n## Core Concept\n\n**Gibbs free energy (G)** is the thermodynamic function that packages the Second Law into a system-only quantity. Its change is **ΔG = ΔH − TΔS**, and at constant temperature and pressure, ΔG < 0 means the process is spontaneous, ΔG > 0 means it is nonspontaneous (the reverse is spontaneous), and ΔG = 0 means the system is at equilibrium. Because ΔG = −T·ΔS_universe, checking ΔG is exactly equivalent to checking the Second Law — but far more convenient, since ΔH and ΔS refer only to the system.\n\n## Key Ideas\n\n- **One number, two drivers.** ΔG balances the enthalpy tendency (ΔH) against the entropy tendency (TΔS).\n- **TΔS scales with temperature.** The higher T, the more the entropy term matters (and its units are energy, because K × J/(mol·K) = J/mol).\n- **Sign convention is everything.** Negative ⇒ spontaneous/forward-favored; positive ⇒ reverse-favored; zero ⇒ equilibrium.\n- **Units discipline.** ΔH in kJ/mol and ΔS in J/(mol·K) must be reconciled (convert ΔS to kJ/(mol·K) or ΔH to J/mol) before combining.\n- **Kelvin only.** T must be absolute temperature.\n\n## Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| ΔG | Gibbs free-energy change | kJ/mol |\n| ΔH | Enthalpy change | kJ/mol |\n| ΔS | Entropy change | J/(mol·K) |\n| T | Absolute temperature | K |\n\nΔG = ΔH − TΔS\n\n## How It Works\n\n1. Obtain ΔH and ΔS for the process (from tables or measurement) at the temperature of interest.\n2. Put ΔS and ΔH in compatible units (e.g., convert ΔS to kJ/(mol·K)).\n3. Multiply T × ΔS.\n4. Subtract: ΔG = ΔH − TΔS.\n5. Read the sign: negative → spontaneous; positive → nonspontaneous; zero → equilibrium.\n\n## Worked Example\n\n**Calculate ΔG° at 25 °C for H₂O(l) → H₂O(g). Is vaporization spontaneous at this temperature?**\n\nData: ΔH° = +44.0 kJ/mol, ΔS° = +118.9 J/(mol·K) = +0.1189 kJ/(mol·K).\n\n- T = 25 + 273 = 298 K\n- TΔS° = 298 K × 0.1189 kJ/(mol·K) = 35.4 kJ/mol\n- ΔG° = ΔH° − TΔS° = +44.0 − 35.4 = **+8.6 kJ/mol**\n\nΔG° > 0, so liquid water does *not* spontaneously vaporize at 25 °C (the reverse, condensation, is favored). At 100 °C (373 K), TΔS° = 373 × 0.1189 = 44.4 kJ/mol, giving ΔG° ≈ 44.0 − 44.4 ≈ 0 — equilibrium, the boiling point.\n\n## Why It Matters\n\nGibbs free energy is the single most used spontaneity test in chemistry and biology. It tells chemists whether a reaction will run, biochemists whether a metabolic step is favorable, and engineers how much useful (non-PV) work a process can deliver at constant T and P. ATP hydrolysis, combustion, and battery discharge are all quantified through ΔG.\n\n## High-Yield Facts\n\n- ΔG = ΔH − TΔS (T in Kelvin).\n- ΔG < 0 ⇒ spontaneous; ΔG > 0 ⇒ nonspontaneous; ΔG = 0 ⇒ equilibrium.\n- ΔG = −T·ΔS_universe (so ΔG < 0 ⇔ ΔS_universe > 0).\n- TΔS has energy units; a large T amplifies the entropy contribution.\n- Convert ΔS (J/mol·K) to kJ/mol·K before subtracting from ΔH (kJ/mol).\n- At constant T and P, ΔG is the maximum non-expansion work available.\n\n## Eli Explains\n\nPicture a seesaw with two kids. On one side sits \"heat\" (ΔH) — a reaction likes to give off heat, which pushes toward happening. On the other side sits \"spread-out\" (ΔS) — a reaction likes to spread things out, which also pushes toward happening. Temperature is the weight of the \"spread-out\" kid: crank up the heat and the entropy kid gets heavier and can tip the seesaw by himself. If the seesaw tips \"forward,\" the reaction happens on its own; that's ΔG being negative. (The limit: ΔG is really about *available energy to do work*, not a literal seesaw, but \"two competing pushes, one of which gets stronger with temperature\" is the correct picture.)\n\n## Common Confusions\n\n- **\"ΔG < 0 means the reaction is fast.\"** — Wrong. ΔG says nothing about rate; many ΔG < 0 reactions are kinetically slow.\n- **\"Use °C in ΔG = ΔH − TΔS.\"** — Wrong. T must be in Kelvin.\n- **\"A negative ΔH always makes ΔG negative.\"** — Wrong. If ΔS is negative and T is large, the −TΔS term can outweigh ΔH and make ΔG positive.\n- **\"ΔG = 0 means the reaction stopped.\"** — Wrong. It means dynamic equilibrium: forward and reverse rates are equal.\n- **\"ΔG and ΔH have the same units as ΔS.\"** — Wrong. ΔH and ΔG are kJ/mol; ΔS is J/(mol·K) — convert before combining.\n\n## Quick Review\n\n- ΔG = ΔH − TΔS; T in Kelvin.\n- ΔG < 0 spontaneous, > 0 nonspontaneous, = 0 equilibrium.\n- ΔG = −T·ΔS_universe.\n- Entropy term scales with temperature.\n- Convert ΔS to kJ/(mol·K) before combining with ΔH.\n\n## Sources\n\n- OpenStax, *Chemistry 2e*, Ch. 16.4 \"Free Energy.\" https://openstax.org/books/chemistry-2e/pages/16-4-free-energy\n- OpenStax, *Chemistry 2e*, Ch. 16.2 \"Entropy.\" https://openstax.org/books/chemistry-2e/pages/16-2-entropy\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n"
+}

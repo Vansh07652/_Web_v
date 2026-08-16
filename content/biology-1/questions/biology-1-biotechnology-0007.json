@@ -1,0 +1,40 @@
+{
+  "id": "biology-1-biotechnology-0007",
+  "subject": "biology-1",
+  "lesson": "biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Next-generation sequencing** produces millions of short DNA sequence reads at once. How do researchers assemble a complete genome from these short reads?",
+  "options": [
+    {
+      "id": "a",
+      "text": "They translate every read into protein and infer the genome from the amino acid sequences."
+    },
+    {
+      "id": "b",
+      "text": "They sort the reads by chromosome number and count them at each position."
+    },
+    {
+      "id": "c",
+      "text": "They align overlapping reads and merge them into longer contiguous sequences, then order those sequences."
+    },
+    {
+      "id": "d",
+      "text": "They insert each read into a plasmid and let bacteria recombine them into a genome."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Short reads from next-generation sequencing overlap with one another, so researchers align the overlapping ends and merge them into longer contiguous sequences called contigs, then order the contigs into scaffolds and chromosomes. Deep coverage ensures that most positions appear in many reads, which makes the overlaps reliable. A assumes the reads map to known proteins, B ignores the sequence information, and D describes no real assembly method.",
+  "difficulty": "unknown",
+  "tags": [
+    "assembling",
+    "next",
+    "generation",
+    "reads"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-37c6d4d415f69033",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:membrane-structure-and-cellular-transport:passive-transport",
+  "slug": "passive-transport",
+  "title": "Passive Transport: Diffusion, Osmosis, and Facilitated Diffusion",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:membrane-structure-and-cellular-transport",
+    "slug": "membrane-structure-and-cellular-transport",
+    "title": "Membrane Structure And Cellular Transport",
+    "order": 3
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "Passive transport is the movement of substances across a membrane **down their concentration gradient** (from high to low concentration) without the cell spending metabolic energy. It includes **simple diffusion**, **osmosis** (the diffusion of water), and **facilitated diffusion** (movement of solutes through channel or carrier proteins). In every case, the driving force is the random thermal motion of molecules and the tendency of a system to spread out toward equilibrium.",
+    "whyItMatters": "Passive transport governs gas exchange in lungs and tissues (O₂ and CO₂ diffusion), nutrient uptake (glucose via facilitated diffusion), and water balance in every cell. Tonicity is the direct reason why intravenous fluids must be isotonic (a hypotonic IV would lyse red blood cells; a hypertonic one would crenate them), why freshwater fish constantly pump out water, and why plants wilt when their soil becomes hypertonic with salt.",
+    "learningObjectives": "- Define diffusion and explain why it requires no energy input.\n- Distinguish simple diffusion from facilitated diffusion, and channels from carrier proteins.\n- Define osmosis and predict water movement using tonicity (isotonic, hypertonic, hypotonic).\n- Compare the effects of hypo- and hypertonic solutions on animal cells versus plant cells.\n- Explain the role of aquaporins in water movement.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nPassive transport is the movement of substances across a membrane **down their concentration gradient** (from high to low concentration) without the cell spending metabolic energy. It includes **simple diffusion**, **osmosis** (the diffusion of water), and **facilitated diffusion** (movement of solutes through channel or carrier proteins). In every case, the driving force is the random thermal motion of molecules and the tendency of a system to spread out toward equilibrium.\n\n### Key Concepts\n\n### Diffusion\nDiffusion is the **net movement of particles from a region of higher concentration to a region of lower concentration**, driven by random molecular motion. Individual molecules move in all directions, but because there are more particles on the high-concentration side, there is a net flow down the gradient until concentrations equalize (equilibrium). Diffusion is faster with steeper gradients, higher temperature, smaller molecules, and a shorter distance.\n\n### Simple vs. Facilitated Diffusion\n**Simple diffusion** occurs when a molecule crosses the lipid bilayer directly — possible mainly for small, nonpolar molecules (O₂, CO₂) and small polar molecules like water. **Facilitated diffusion** moves solutes that cannot cross the lipid bilayer on their own (ions, glucose, amino acids) through **transport proteins**, still down their gradient and still without energy.\n\n### Channels and Carriers\n**Channel proteins** form hydrophilic pores through the membrane; many are **gated** (opened by ligands, voltage, or mechanical force). They are fast and typically ion-selective. **Carrier proteins** (also called transporters) bind their solute and undergo a **conformational change** to release it on the other side. Carriers can be saturated because they must physically bind and change shape, so they reach a maximum transport rate (Vmax).\n\n### Aquaporins\nWater crosses membranes slowly by simple diffusion but rapidly through **aquaporins**, specialized channel proteins that form water-selective pores. Aquaporins greatly speed up osmosis in cells that must move large volumes of water quickly, such as kidney tubule cells and plant root cells.\n\n### Osmosis and Tonicity\n**Osmosis** is the diffusion of **water** across a selectively permeable membrane, from the side with lower solute concentration (more free water) to the side with higher solute concentration (less free water). **Tonicity** describes the ability of a surrounding solution to make a cell gain or lose water:\n\n- **Isotonic** — equal solute concentration to the cell; no net water movement.\n- **Hypertonic** — higher solute (lower free water) than the cell; water leaves, cell shrinks.\n- **Hypotonic** — lower solute (higher free water) than the cell; water enters, cell swells.\n\n### Effects on Animal vs. Plant Cells\nIn a **hypertonic** solution, an **animal cell shrivels (crenates)** and a **plant cell** undergoes **plasmolysis** (the plasma membrane pulls away from the cell wall as the vacuole loses water). In a **hypotonic** solution, an **animal cell** — lacking a cell wall — swells and may burst (**lyse**), while a **plant cell** becomes **turgid** (firm) because the cell wall resists expansion; turgor pressure is normal and healthy for plants. In an **isotonic** solution, an animal cell is normal (\"flaccid\" is the term for a plant cell in isotonic conditions — limp but intact).\n\n### How It Works\n\nThe mechanism is statistical, not directional. (1) Every molecule vibrates and moves randomly. (2) In a concentration gradient, more molecules are available to move away from the crowded region than toward it, so the **net** movement is downhill. (3) For solutes that cannot cross the lipid bilayer, channel proteins provide water-filled pores, or carrier proteins bind the solute and change shape to shuttle it across — still driven only by the gradient. (4) Water follows the solutes: because solutes reduce the concentration of free water, water moves toward the compartment with more solute. No step requires ATP; the cell simply provides a permeable surface and, where needed, the appropriate protein.",
+    "howItWorks": "The mechanism is statistical, not directional. (1) Every molecule vibrates and moves randomly. (2) In a concentration gradient, more molecules are available to move away from the crowded region than toward it, so the **net** movement is downhill. (3) For solutes that cannot cross the lipid bilayer, channel proteins provide water-filled pores, or carrier proteins bind the solute and change shape to shuttle it across — still driven only by the gradient. (4) Water follows the solutes: because solutes reduce the concentration of free water, water moves toward the compartment with more solute. No step requires ATP; the cell simply provides a permeable surface and, where needed, the appropriate protein.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Diffusion = net movement down a concentration gradient; requires no energy.\n- Facilitated diffusion uses channel or carrier proteins; still no ATP, still down the gradient.\n- Channels are pores (often gated); carriers bind and change conformation (saturable).\n- Osmosis = diffusion of water across a selectively permeable membrane.\n- Hypertonic = higher solute → cell shrinks (animal cell crenates; plant cell plasmolyzes).\n- Hypotonic = lower solute → animal cell lyses; plant cell becomes turgid.\n- Isotonic = equal solute → no net water movement.\n- Aquaporins are water-specific channel proteins that accelerate osmosis.",
+    "commonConfusions": "- **\"Passive transport uses a little energy.\"** Wrong — passive transport requires no cellular energy at all; the gradient provides the driving force.\n- **\"Facilitated diffusion is active transport.\"** Wrong — facilitated diffusion uses proteins but still moves solutes *down* the gradient without ATP.\n- **\"Osmosis is the movement of solute.\"** Wrong — osmosis is specifically the movement of *water* (solvent), not solute.\n- **\"Hypertonic means more water.\"** Wrong — hypertonic means more *solute* (therefore less free water); water leaves the cell placed in it.\n- **\"Plant cells burst in hypotonic solution.\"** Wrong — the cell wall prevents lysis; instead the plant cell becomes turgid, which is normal.\n- **\"Water can't cross the lipid bilayer.\"** Wrong — water crosses slowly by simple diffusion and rapidly through aquaporins.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of diffusion like a crowded elevator: when the doors open onto a nearly empty hallway, people in the elevator bump around randomly, but more of them end up stepping out than stepping in, so the crowd spreads out until it is even everywhere. Nobody is directing them — it's just that a crowded spot has more people to spill out. Facilitated diffusion is the same idea, but some passengers (like ions and sugar) are too big or too \"water-shy\" to walk through the lobby wall, so they need a revolving door (a channel) or a friendly usher who grabs them and spins them through (a carrier). Osmosis is water doing this through the walls — water rushes toward wherever there is more \"stuff\" (salt or sugar) dissolved, to try to even things out. The analogy's limit: real molecules move because of heat energy and probability, not because they \"want\" anything, and equilibrium means no *net* movement even though molecules never stop jiggling.",
+    "quickReview": "- Passive transport = down-gradient, no energy: diffusion, osmosis, facilitated diffusion.\n- Simple diffusion handles small nonpolar molecules directly through the bilayer.\n- Channels = pores; carriers = conformational-change shuttles (saturable, Vmax).\n- Aquaporins accelerate water movement.\n- Tonicity drives osmosis: hypertonic shrinks, hypotonic swells, isotonic = no change.\n- Animal cell: crenates (hypertonic) / lyses (hypotonic). Plant cell: plasmolyzes / turgid.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"5.2 Passive Transport.\" https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+        "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Principles of Membrane Transport.\" NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/"
+      },
+      {
+        "text": "MedlinePlus, \"Fluid and Electrolyte Balance.\" U.S. National Library of Medicine. https://medlineplus.gov/fluidandelectrolytebalance.html",
+        "url": "https://medlineplus.gov/fluidandelectrolytebalance.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/03-membrane-structure-and-cellular-transport/02-passive-transport.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

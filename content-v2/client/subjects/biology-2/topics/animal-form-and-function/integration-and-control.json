@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-2:animal-form-and-function:integration-and-control",
+  "slug": "integration-and-control",
+  "title": "Integration and Control",
+  "subject": {
+    "id": "subject:biology-2",
+    "slug": "biology-2",
+    "title": "Biology II"
+  },
+  "unit": {
+    "id": "unit:biology-2:animal-form-and-function",
+    "slug": "animal-form-and-function",
+    "title": "Animal Form and Function",
+    "order": 5
+  },
+  "order": 17,
+  "status": "final",
+  "sections": {
+    "overview": "Animals coordinate their bodies with two communication systems. The **nervous system** sends fast, short-lived electrical signals — action potentials — along neurons and chemical signals across synapses, wiring sensation to response. The **endocrine system** releases hormones into the blood for slower, longer-lasting effects on cells that carry matching receptors. Together they integrate information, control internal conditions, and let an animal respond, from a reflex in milliseconds to growth regulated over days.",
+    "whyItMatters": "Nervous and endocrine signaling explain how many medicines and conditions work: local anesthetics block sodium channels to stop action potentials, some antidepressants affect serotonin at synapses, and diabetes involves insulin signaling gone wrong. The fight-or-flight versus rest-and-digest distinction explains why stress raises heart rate and why recovery depends on parasympathetic activity. For pre-health learners, tracing a reflex arc and recognizing hormone feedback loops build the vocabulary for discussing pain, autonomic responses, and endocrine disorders. This material is educational only and does not replace clinical training or medical advice.",
+    "learningObjectives": "By the end of this topic, you should be able to:\n\n1. Describe neuron structure and explain how an action potential is generated and propagated.\n2. Explain how signals cross a synapse and how neurotransmitters work.\n3. Distinguish the central and peripheral nervous systems and the somatic versus autonomic divisions.\n4. Describe how sensory receptors transduce a stimulus into a signal.\n5. Explain how hormones act on target cells and contrast endocrine with nervous signaling.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| **Neuron** | A signaling cell with dendrites, a body, and an axon | The functional unit of the nervous system |\n| **Action potential** | An all-or-nothing electrical spike down an axon | How neurons signal over distance |\n| **Membrane potential** | Voltage difference across the cell membrane | The basis of electrical signaling |\n| **Synapse** | Junction where one neuron signals another | Where transmission becomes chemical |\n| **Neurotransmitter** | Chemical messenger released at a synapse | Excites or inhibits the next cell |\n| **CNS / PNS** | Brain and spinal cord / nerves outside them | Integrates versus carries information |\n| **Sensory transduction** | Converting a stimulus into an electrical signal | The first step of every sensation |\n| **Hormone** | Chemical messenger secreted into the blood | Coordinates slow, body-wide responses |\n| **Target cell** | A cell with a receptor for a given signal | Determines where a signal acts |",
+    "collegeNotes": "### 1. Neurons and the action potential\n\n**Neurons** are signaling cells with dendrites that receive input, a cell body, and an axon that conducts output. At rest a neuron holds a **membrane potential** — the inside negative to the outside — because pumps and channels keep more potassium inside and sodium outside. When a stimulus depolarizes the membrane to threshold, sodium channels open and sodium rushes in, then potassium channels open and potassium leaves, restoring the charge. This all-or-nothing spike is the **action potential**, and it travels down the axon as each segment triggers the next; a **myelin sheath** speeds it by letting the signal jump between gaps (saltatory conduction).\n\n### 2. Synapses and neurotransmitters\n\nAt a **synapse**, the arriving action potential opens calcium channels, causing vesicles to release **neurotransmitters** into the cleft. These chemicals bind receptors on the receiving cell, changing its membrane potential — exciting it toward firing or inhibiting it away. Acetylcholine, dopamine, serotonin, and GABA are examples; the same transmitter can excite or inhibit depending on the receptor. This chemical handoff lets signals be summed and modulated, and it is the target of many medicines and toxins.\n\n### 3. Organization of the nervous system\n\nThe **central nervous system (CNS)** — brain and spinal cord — integrates information. The **peripheral nervous system (PNS)** carries signals to and from it and has two divisions: **somatic** (voluntary skeletal muscle) and **autonomic** (involuntary organs such as heart, digestion, breathing). The autonomic system splits into the **sympathetic** (\"fight or flight\") branch, which mobilizes the body, and the **parasympathetic** (\"rest and digest\") branch, which calms it and promotes maintenance.\n\n### 4. Sensory reception and transduction\n\n**Sensory receptors** convert a specific stimulus — light, sound, pressure, temperature, or chemicals — into an electrical change, a process called **transduction**. Photoreceptors respond to photons, mechanoreceptors to stretch or pressure, chemoreceptors to molecules, thermoreceptors to temperature. The resulting signal can trigger action potentials whose frequency encodes stimulus strength, and the brain interprets *which* neurons fire — so the same kind of signal can feel like touch or vision depending on its pathway.\n\n### 5. The endocrine system and hormones\n\nThe **endocrine system** is a set of glands — hypothalamus, pituitary, thyroid, adrenals, pancreas, gonads — that secrete **hormones** into the blood. A hormone travels everywhere but acts only on **target cells** bearing a matching receptor, and many work through negative feedback (thyroid hormone feeding back on the pituitary; insulin and glucagon balancing blood glucose). Compared with nerves, endocrine signaling is slower to start and stop but longer-lasting and body-wide, making the two systems complementary.",
+    "howItWorks": "1. A stimulus (say, a tap) opens ion channels in a sensory receptor, producing a receptor potential.\n2. If strong enough, the receptor triggers action potentials in a sensory neuron.\n3. Action potentials race along the sensory neuron into the spinal cord (CNS).\n4. At a synapse, neurotransmitter crosses to an interneuron or motor neuron.\n5. The motor neuron fires, releasing neurotransmitter at a muscle, which contracts.\n6. Stimulus to movement can complete as a reflex in milliseconds.",
+    "comparisons": "",
+    "highYield": "- **High yield:** An action potential is all-or-nothing — sodium in, then potassium out.\n- **High yield:** Neurons communicate across synapses using neurotransmitters.\n- **High yield:** Sympathetic = fight-or-flight; parasympathetic = rest-and-digest.\n- The CNS integrates; the PNS carries signals to and from it.\n- Hormones act only on target cells with matching receptors.\n- Nervous signaling is fast and brief; endocrine signaling is slower and longer-lasting.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Action potential | Electric current in a wire | It is a moving wave of ion movement, far slower than wire current |\n| Neurotransmitter | Hormone | A neurotransmitter crosses a synapse; a hormone travels in blood |\n| Somatic division | Autonomic division | Somatic is voluntary muscle; autonomic is involuntary organ control |\n| Sympathetic | Parasympathetic | They push the body in opposite directions (mobilize vs. calm) |\n| Target cell | Any cell the blood reaches | Only cells with the matching receptor respond |",
+    "memoryAids": "\"**S**ensory → **I**ntegration → **M**otor\" spells **SIM** — every reflex follows the same card: sense it, integrate it, move. For the two messengers: \"**N**erves are **N**ow (fast), **H**ormones are **H**ere-for-a-while (slow but lasting).\"",
+    "eli10": "Imagine the body as a building with two message systems. The nervous system is the wiring: messages zip along almost instantly, but only to a specific outlet, and stop when you hang up. The endocrine system is the postal service: it drops hormone \"letters\" into the blood, and only cells with the right \"mailbox\" (a matching receptor) open and read them — slower, but the message reaches many rooms and can act for a long time. A neuron sends its signal by letting charged particles rush in and out, flipping the wire from \"off\" to \"on\" in a wave that races down the cell. The comparison stops being exact because a hormone does not reach every cell equally — only cells with the matching receptor respond — and nerve speed is a slower electrochemical pulse, not wire speed. Still, the picture captures the real difference: nerves are fast and precise, hormones are slower and broad.\n\n### Simple Example\n\nPulling your hand off a hot pan is the nervous system — a reflex so fast you move before you think. The growth spurt of puberty is the endocrine system — hormones slowly reshaping the body over months.",
+    "quickReview": "### Topic Recap\n\n- Neurons send all-or-nothing action potentials; synapses convert the signal to a chemical message.\n- The CNS integrates, the PNS carries, and the autonomic system balances sympathetic and parasympathetic control.\n- Sensory receptors transduce specific stimuli into electrical signals.\n- Hormones act on target cells and regulate through feedback loops.\n- Nervous and endocrine signaling are complementary — one fast and precise, the other slow and broad.\n\n### Knowledge Check\n\n1. What two ion movements produce an action potential, and in what order?\n2. How does a signal get across a synapse?\n3. Which branch of the autonomic nervous system prepares the body for action?\n4. Why does a hormone affect some organs but not others?\n\n### Answers and Rationales\n\n1. **Answer:** Sodium enters first (depolarization), then potassium leaves (repolarization). **Why:** Sodium influx makes the inside positive; potassium efflux restores it.\n2. **Answer:** Neurotransmitter is released from the sending cell and binds receptors on the receiving cell. **Why:** The signal is chemical at the synapse, then electrical again in the next cell.\n3. **Answer:** The sympathetic division. **Why:** It mobilizes the body for fight-or-flight responses.\n4. **Answer:** Because only cells with a receptor for that hormone can respond. **Why:** The receptor, not the hormone alone, determines the target.",
+    "workedExamples": "",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "integration-and-control",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "17-integration-and-control",
+      "kind": "source_file_stem",
+      "source_id": "need-review-biology-2"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-biology-2",
+    "sourceFile": "biology-2-study-notes/docs/biology-2/17-integration-and-control.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

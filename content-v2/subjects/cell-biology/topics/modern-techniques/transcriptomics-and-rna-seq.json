@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:modern-techniques:transcriptomics-and-rna-seq",
+  "slug": "transcriptomics-and-rna-seq",
+  "title": "Transcriptomics and RNA-Seq",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:modern-techniques",
+    "slug": "modern-techniques",
+    "title": "Modern Techniques",
+    "order": 11
+  },
+  "order": 11,
+  "status": "final",
+  "sections": {
+    "overview": "Transcriptomics is the genome-wide study of the **transcriptome** — the complete set of RNA transcripts a cell or tissue produces under given conditions. Its flagship method, **RNA-Seq**, converts RNA to a cDNA library, sequences millions of fragments with high-throughput sequencing, then computationally **aligns** reads to a reference genome/transcriptome and **counts** how many reads map to each gene. Read counts serve as a digital measure of expression, enabling genome-wide discovery of which genes are on, how much, and in which splice isoforms — without the need to know targets in advance. RNA-Seq measures **RNA abundance**, not protein, and reveals *correlates* of gene activity that still require functional validation.",
+    "whyItMatters": "RNA-Seq is the default assay for transcriptome profiling: it underpins cancer molecular subtyping and biomarker discovery, single-cell atlases of tissues (scRNA-Seq), developmental and disease expression atlases, and the discovery of non-coding RNAs and fusion transcripts. It turned gene expression from a one-gene question into a genome-wide, hypothesis-free measurement.",
+    "learningObjectives": "- Define the transcriptome and explain what RNA-Seq measures.\n- Describe the RNA-Seq workflow: RNA → cDNA library → sequencing → alignment → quantification.\n- Explain how expression is quantified (read counts, TPM/FPKM) and what differential expression analysis tests.\n- Contrast RNA-Seq with microarrays and with RT-qPCR.\n- Identify what RNA-Seq can and cannot prove about gene function.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nTranscriptomics is the genome-wide study of the **transcriptome** — the complete set of RNA transcripts a cell or tissue produces under given conditions. Its flagship method, **RNA-Seq**, converts RNA to a cDNA library, sequences millions of fragments with high-throughput sequencing, then computationally **aligns** reads to a reference genome/transcriptome and **counts** how many reads map to each gene. Read counts serve as a digital measure of expression, enabling genome-wide discovery of which genes are on, how much, and in which splice isoforms — without the need to know targets in advance. RNA-Seq measures **RNA abundance**, not protein, and reveals *correlates* of gene activity that still require functional validation.\n\n### Key Components\n\n### RNA extraction and enrichment\n- Total RNA (or poly(A)-selected mRNA, or rRNA-depleted RNA) is isolated; RNA quality (RIN) is checked because degraded input biases results.\n\n### cDNA library preparation\n- RNA is reverse-transcribed to cDNA, fragmented, and ligated to sequencing adapters; each fragment may be tagged with a molecular barcode for accurate counting.\n\n### High-throughput sequencing\n- The library is sequenced (typically Illumina short reads) to produce millions of reads representing the original transcripts.\n\n### Alignment and quantification\n- Reads are mapped to a reference genome or transcriptome; the number of reads per gene/transcript is counted and normalized (RPKM/FPKM/TPM) to account for gene length and library size.\n\n### Differential expression and isoform analysis\n- Statistical tests compare counts across conditions to find differentially expressed genes; splicing-aware tools reconstruct transcript isoforms.\n\n### Mechanism\n\n1. **Extract and QC RNA.** Isolate RNA and verify integrity.\n2. **Build library.** Convert RNA to cDNA, fragment, add adapters (and barcodes).\n3. **Sequence.** Generate millions of short reads.\n4. **Align.** Map reads to the reference genome/transcriptome (or assemble *de novo*).\n5. **Quantify.** Count reads per gene and normalize (TPM/FPKM) to estimate expression.\n6. **Analyze.** Perform differential expression testing, detect isoforms/novel transcripts, then validate key hits by RT-qPCR.\n\n### Energy and Directionality\n\nRNA-Seq is not an enzymatic assay in the cell — its \"directionality\" is informational. Reads are sequenced **5′→3′** (polymerase-driven, powered by dNTP hydrolysis during sequencing-by-synthesis), and the alignment step assigns each read to a genomic coordinate, converting sequence into a quantitative expression vector. The biological signal (mRNA abundance) is inferred from read counts, so the method reports *steady-state* transcript levels — the net of transcription and degradation — not rates.\n\n### Experimental Evidence\n\n- **What it measures:** genome-wide **RNA abundance** (expression), plus splicing/isoform structure and, with scRNA-Seq, cell-to-cell heterogeneity.\n- **Principle:** high-throughput sequencing of cDNA from cellular RNA + alignment + counting.\n- **Input:** RNA (cells/tissue); **Output:** a count/abundance matrix (genes × samples), lists of differentially expressed genes, and detected isoforms/novel transcripts.\n- **What it can prove:** which genes are transcribed and to what relative level across conditions; splicing differences; discovery of **novel** transcripts and non-coding RNAs (no prior probe design needed); (via single-cell RNA-Seq) expression at the level of individual cells.\n- **What it cannot prove:** protein abundance or activity (mRNA-protein discordance is common); post-translational regulation; causal mechanisms (expression changes are correlations); absolute copy number without spike-in standards.\n- **Controls/quality steps:** biological and technical replicates; RNA integrity (RIN) and library-quality checks; **spike-in controls** (known synthetic RNAs) for absolute calibration; batch correction; and **validation of key genes by RT-qPCR** (the orthogonal gold standard).\n- **Common mistakes:** ignoring RNA quality (degradation skews counts); insufficient replicates (statistical power); library-size/gene-length normalization errors; conflating mRNA change with protein change; and over-interpreting a correlation as mechanism.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- RNA-Seq measures the **transcriptome (RNA)**, genome-wide and without pre-designed probes.\n- Workflow: **RNA → cDNA library → sequence → align → count → differential expression**.\n- Expression normalized as **RPKM/FPKM/TPM** (account for gene length + library size).\n- Advantages over microarrays: **wider dynamic range, novel transcripts/isoforms, no cross-hybridization**.\n- **scRNA-Seq** profiles individual cells.\n- Measures **RNA, not protein**; validate hits by **RT-qPCR**.",
+    "commonConfusions": "- **\"RNA-Seq = DNA sequencing of the genome\"** — RNA-Seq sequences **cDNA from RNA**, measuring expression; whole-genome sequencing reads DNA.\n- **\"RNA-Seq replaces RT-qPCR\"** — RNA-Seq is discovery/global; RT-qPCR remains the targeted validation standard.\n- **\"High mRNA = high protein\"** — Translation and protein turnover decouple them; confirm protein separately.\n- **\"TPM and raw counts are the same\"** — TPM/FPKM are normalized for gene length and library size; raw counts are not comparable across genes/samples without normalization.\n- **\"A differentially expressed gene is causally important\"** — It is a candidate; mechanism needs functional experiments.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nRNA-Seq is taking attendance for every gene in the cell at once. The cell's \"messages\" (RNA) are copied into sturdy DNA tickets, the tickets are read millions of times by a machine, and a computer counts how many tickets each gene got — more tickets = more active that gene. Because you count everything, you even discover messages you didn't know existed. (The analogy's limit: a gene can be \"talking a lot\" without the resulting protein doing anything — the ticket count measures the talking, not the action.)",
+    "quickReview": "- RNA → cDNA library → high-throughput sequencing → align to reference → count reads → normalize (TPM) → differential expression.\n- Measures transcriptome-wide RNA abundance and isoforms; discovery without probes.\n- RNA ≠ protein; expression changes are correlations needing functional validation.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NHGRI, \"RNA-Seq.\" https://www.genome.gov/genetics-glossary/RNA-Seq",
+        "url": "https://www.genome.gov/genetics-glossary/RNA-Seq"
+      },
+      {
+        "text": "NCI, \"transcriptome\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/transcriptome",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/transcriptome"
+      },
+      {
+        "text": "NCI, \"single-cell RNA sequencing\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/single-cell-rna-sequencing",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/single-cell-rna-sequencing"
+      },
+      {
+        "text": "NHGRI, \"Microarray Technology.\" https://www.genome.gov/genetics-glossary/Microarray-Technology",
+        "url": "https://www.genome.gov/genetics-glossary/Microarray-Technology"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"Genomics and Proteomics.\" https://openstax.org/books/biology-2e/pages/17-5-genomics-and-proteomics",
+        "url": "https://openstax.org/books/biology-2e/pages/17-5-genomics-and-proteomics"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "transcriptomics-and-rna-seq",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "11-transcriptomics-and-rna-seq",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:67b75237dbd9b467"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:67b75237dbd9b467"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:67b75237dbd9b467"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:67b75237dbd9b467"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/11-modern-techniques/11-transcriptomics-and-rna-seq.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Transcriptomics and RNA-Seq\n\n## Learning Goals\n- Define the transcriptome and explain what RNA-Seq measures.\n- Describe the RNA-Seq workflow: RNA → cDNA library → sequencing → alignment → quantification.\n- Explain how expression is quantified (read counts, TPM/FPKM) and what differential expression analysis tests.\n- Contrast RNA-Seq with microarrays and with RT-qPCR.\n- Identify what RNA-Seq can and cannot prove about gene function.\n\n## Core Concept\nTranscriptomics is the genome-wide study of the **transcriptome** — the complete set of RNA transcripts a cell or tissue produces under given conditions. Its flagship method, **RNA-Seq**, converts RNA to a cDNA library, sequences millions of fragments with high-throughput sequencing, then computationally **aligns** reads to a reference genome/transcriptome and **counts** how many reads map to each gene. Read counts serve as a digital measure of expression, enabling genome-wide discovery of which genes are on, how much, and in which splice isoforms — without the need to know targets in advance. RNA-Seq measures **RNA abundance**, not protein, and reveals *correlates* of gene activity that still require functional validation.\n\n## Key Components\n\n### RNA extraction and enrichment\n- Total RNA (or poly(A)-selected mRNA, or rRNA-depleted RNA) is isolated; RNA quality (RIN) is checked because degraded input biases results.\n\n### cDNA library preparation\n- RNA is reverse-transcribed to cDNA, fragmented, and ligated to sequencing adapters; each fragment may be tagged with a molecular barcode for accurate counting.\n\n### High-throughput sequencing\n- The library is sequenced (typically Illumina short reads) to produce millions of reads representing the original transcripts.\n\n### Alignment and quantification\n- Reads are mapped to a reference genome or transcriptome; the number of reads per gene/transcript is counted and normalized (RPKM/FPKM/TPM) to account for gene length and library size.\n\n### Differential expression and isoform analysis\n- Statistical tests compare counts across conditions to find differentially expressed genes; splicing-aware tools reconstruct transcript isoforms.\n\n## Mechanism\n1. **Extract and QC RNA.** Isolate RNA and verify integrity.\n2. **Build library.** Convert RNA to cDNA, fragment, add adapters (and barcodes).\n3. **Sequence.** Generate millions of short reads.\n4. **Align.** Map reads to the reference genome/transcriptome (or assemble *de novo*).\n5. **Quantify.** Count reads per gene and normalize (TPM/FPKM) to estimate expression.\n6. **Analyze.** Perform differential expression testing, detect isoforms/novel transcripts, then validate key hits by RT-qPCR.\n\n## Energy and Directionality\nRNA-Seq is not an enzymatic assay in the cell — its \"directionality\" is informational. Reads are sequenced **5′→3′** (polymerase-driven, powered by dNTP hydrolysis during sequencing-by-synthesis), and the alignment step assigns each read to a genomic coordinate, converting sequence into a quantitative expression vector. The biological signal (mRNA abundance) is inferred from read counts, so the method reports *steady-state* transcript levels — the net of transcription and degradation — not rates.\n\n## Experimental Evidence\n- **What it measures:** genome-wide **RNA abundance** (expression), plus splicing/isoform structure and, with scRNA-Seq, cell-to-cell heterogeneity.\n- **Principle:** high-throughput sequencing of cDNA from cellular RNA + alignment + counting.\n- **Input:** RNA (cells/tissue); **Output:** a count/abundance matrix (genes × samples), lists of differentially expressed genes, and detected isoforms/novel transcripts.\n- **What it can prove:** which genes are transcribed and to what relative level across conditions; splicing differences; discovery of **novel** transcripts and non-coding RNAs (no prior probe design needed); (via single-cell RNA-Seq) expression at the level of individual cells.\n- **What it cannot prove:** protein abundance or activity (mRNA-protein discordance is common); post-translational regulation; causal mechanisms (expression changes are correlations); absolute copy number without spike-in standards.\n- **Controls/quality steps:** biological and technical replicates; RNA integrity (RIN) and library-quality checks; **spike-in controls** (known synthetic RNAs) for absolute calibration; batch correction; and **validation of key genes by RT-qPCR** (the orthogonal gold standard).\n- **Common mistakes:** ignoring RNA quality (degradation skews counts); insufficient replicates (statistical power); library-size/gene-length normalization errors; conflating mRNA change with protein change; and over-interpreting a correlation as mechanism.\n\n## Why It Matters\nRNA-Seq is the default assay for transcriptome profiling: it underpins cancer molecular subtyping and biomarker discovery, single-cell atlases of tissues (scRNA-Seq), developmental and disease expression atlases, and the discovery of non-coding RNAs and fusion transcripts. It turned gene expression from a one-gene question into a genome-wide, hypothesis-free measurement.\n\n## High-Yield Facts\n- RNA-Seq measures the **transcriptome (RNA)**, genome-wide and without pre-designed probes.\n- Workflow: **RNA → cDNA library → sequence → align → count → differential expression**.\n- Expression normalized as **RPKM/FPKM/TPM** (account for gene length + library size).\n- Advantages over microarrays: **wider dynamic range, novel transcripts/isoforms, no cross-hybridization**.\n- **scRNA-Seq** profiles individual cells.\n- Measures **RNA, not protein**; validate hits by **RT-qPCR**.\n\n## Eli Explains\nRNA-Seq is taking attendance for every gene in the cell at once. The cell's \"messages\" (RNA) are copied into sturdy DNA tickets, the tickets are read millions of times by a machine, and a computer counts how many tickets each gene got — more tickets = more active that gene. Because you count everything, you even discover messages you didn't know existed. (The analogy's limit: a gene can be \"talking a lot\" without the resulting protein doing anything — the ticket count measures the talking, not the action.)\n\n## Common Confusions\n- **\"RNA-Seq = DNA sequencing of the genome\"** — RNA-Seq sequences **cDNA from RNA**, measuring expression; whole-genome sequencing reads DNA.\n- **\"RNA-Seq replaces RT-qPCR\"** — RNA-Seq is discovery/global; RT-qPCR remains the targeted validation standard.\n- **\"High mRNA = high protein\"** — Translation and protein turnover decouple them; confirm protein separately.\n- **\"TPM and raw counts are the same\"** — TPM/FPKM are normalized for gene length and library size; raw counts are not comparable across genes/samples without normalization.\n- **\"A differentially expressed gene is causally important\"** — It is a candidate; mechanism needs functional experiments.\n\n## Quick Review\n- RNA → cDNA library → high-throughput sequencing → align to reference → count reads → normalize (TPM) → differential expression.\n- Measures transcriptome-wide RNA abundance and isoforms; discovery without probes.\n- RNA ≠ protein; expression changes are correlations needing functional validation.\n\n## Sources\n- NHGRI, \"RNA-Seq.\" https://www.genome.gov/genetics-glossary/RNA-Seq\n- NCI, \"transcriptome\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/transcriptome\n- NCI, \"single-cell RNA sequencing\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/single-cell-rna-sequencing\n- NHGRI, \"Microarray Technology.\" https://www.genome.gov/genetics-glossary/Microarray-Technology\n- OpenStax, *Biology 2e*, \"Genomics and Proteomics.\" https://openstax.org/books/biology-2e/pages/17-5-genomics-and-proteomics\n"
+}

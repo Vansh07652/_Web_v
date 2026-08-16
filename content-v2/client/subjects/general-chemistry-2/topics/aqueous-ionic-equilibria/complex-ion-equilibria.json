@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:aqueous-ionic-equilibria:complex-ion-equilibria",
+  "slug": "complex-ion-equilibria",
+  "title": "Complex-Ion Equilibria and Formation Constants, Kf",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:aqueous-ionic-equilibria",
+    "slug": "aqueous-ionic-equilibria",
+    "title": "Aqueous Ionic Equilibria",
+    "order": 6
+  },
+  "order": 10,
+  "status": "final",
+  "sections": {
+    "overview": "A **complex ion** forms when a metal cation (a Lewis acid) binds several ligands (Lewis bases) — molecules or anions with lone pairs. The equilibrium is described by a **formation constant Kf**, which is usually huge, meaning complex formation is strongly favored. This is why \"insoluble\" salts dissolve: a ligand such as ammonia or cyanide pulls free metal ions out of solution, driving the dissolution equilibrium forward. The overall reaction is the sum of the dissolution (Ksp) and complexation (Kf) steps, so its equilibrium constant is the product **K = Ksp × Kf**.",
+    "whyItMatters": "Complex-ion chemistry is everywhere in applied and biological chemistry: photographic \"fixer\" (thiosulfate) dissolves silver halides; cyanide leaching extracts gold from ore; EDTA chelates toxic heavy metals in medicine (chelation therapy) and softens water; hemoglobin and chlorophyll are metal–ligand complexes; and many metal-ion pollutants move through the environment as soluble complexes.",
+    "learningObjectives": "- Define a complex ion and the formation constant Kf.\n- Explain how a ligand can dissolve an otherwise \"insoluble\" salt.\n- Calculate solubility in the presence of a complexing ligand.\n- Relate the overall equilibrium constant to Ksp × Kf.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA **complex ion** forms when a metal cation (a Lewis acid) binds several ligands (Lewis bases) — molecules or anions with lone pairs. The equilibrium is described by a **formation constant Kf**, which is usually huge, meaning complex formation is strongly favored. This is why \"insoluble\" salts dissolve: a ligand such as ammonia or cyanide pulls free metal ions out of solution, driving the dissolution equilibrium forward. The overall reaction is the sum of the dissolution (Ksp) and complexation (Kf) steps, so its equilibrium constant is the product **K = Ksp × Kf**.\n\n### Key Ideas\n\n- **Complex ion:** a central metal ion surrounded by ligands, e.g., [Ag(NH₃)₂]⁺, [Cu(NH₃)₄]²⁺, [Fe(CN)₆]³⁻.\n- **Lewis picture:** the metal ion is a Lewis acid; each ligand is a Lewis base donating a lone pair.\n- **Kf (formation constant):** equilibrium constant for assembling the complex from the free metal ion and ligands.\n- **Large Kf** ⇒ the complex is very stable and its free metal-ion concentration is tiny.\n- **Solubility boost:** ligands remove free metal ions, so more solid dissolves (Le Châtelier).\n- **Overall K:** for dissolution followed by complexation, K = Ksp × Kf.\n\n### Equations and Variables\n\n- Ag⁺ + 2 NH₃ ⇌ [Ag(NH₃)₂]⁺, Kf = [Ag(NH₃)₂⁺] / ([Ag⁺][NH₃]²)\n- AgCl(s) ⇌ Ag⁺ + Cl⁻, Ksp\n- Overall: AgCl(s) + 2 NH₃ ⇌ [Ag(NH₃)₂]⁺ + Cl⁻, K = Ksp × Kf\n- Stepwise formations: Kf = K1 × K2 × K3 × … (each step adds one ligand)\n\n### How It Works\n\n1. A ligand (NH₃, CN⁻, OH⁻, S₂O₃²⁻, EDTA) approaches the metal cation and donates a lone pair, forming a coordinate covalent bond.\n2. Complexes form stepwise — one ligand at a time — and the overall Kf is the product of the individual step constants.\n3. Because Kf is typically large (10⁵ to 10³⁰), nearly all free metal ions are captured once enough ligand is present.\n4. In a solubility context, this removal of free metal ions shifts the dissolution equilibrium MₓAᵧ(s) ⇌ x Mⁿ⁺ + y Aᵐ⁻ to the right, so the salt dissolves much more than Ksp alone would predict.\n5. Quantitatively, add the two equations and multiply their constants: K = Ksp × Kf.\n\n### Worked Example\n\n**Calculate the overall equilibrium constant for dissolving AgCl in aqueous ammonia.**\n\nAgCl(s) ⇌ Ag⁺ + Cl⁻, Ksp = 1.8 × 10⁻¹⁰\n\nAg⁺ + 2 NH₃ ⇌ [Ag(NH₃)₂]⁺, Kf = 1.7 × 10⁷\n\nSum the two steps (Ag⁺ cancels):\n\nAgCl(s) + 2 NH₃ ⇌ [Ag(NH₃)₂]⁺ + Cl⁻\n\nK = Ksp × Kf = (1.8 × 10⁻¹⁰)(1.7 × 10⁷) = 3.1 × 10⁻³\n\nThe overall K is far larger than Ksp alone — that is why AgCl, essentially \"insoluble\" in pure water, dissolves readily in concentrated NH₃. (This is the basis of the classic qualitative-analysis test for silver.)",
+    "howItWorks": "1. A ligand (NH₃, CN⁻, OH⁻, S₂O₃²⁻, EDTA) approaches the metal cation and donates a lone pair, forming a coordinate covalent bond.\n2. Complexes form stepwise — one ligand at a time — and the overall Kf is the product of the individual step constants.\n3. Because Kf is typically large (10⁵ to 10³⁰), nearly all free metal ions are captured once enough ligand is present.\n4. In a solubility context, this removal of free metal ions shifts the dissolution equilibrium MₓAᵧ(s) ⇌ x Mⁿ⁺ + y Aᵐ⁻ to the right, so the salt dissolves much more than Ksp alone would predict.\n5. Quantitatively, add the two equations and multiply their constants: K = Ksp × Kf.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Complex ion = metal cation (Lewis acid) + ligands (Lewis bases).\n- Kf = [MLₙ]/([M][L]ⁿ); large Kf = stable complex.\n- Overall K for dissolution + complexation = Ksp × Kf.\n- Ligands (NH₃, CN⁻, EDTA, S₂O₃²⁻) dramatically increase apparent solubility.\n- Formation is stepwise; overall Kf = product of step constants.\n- EDTA is a hexadentate chelating ligand (binds one metal with six donor atoms).",
+    "commonConfusions": "- **\"A complex ion and a precipitate are the same.\"** — A complex ion is a *soluble* species; it actually *prevents* or *reverses* precipitation.\n- **\"Kf and Ksp are unrelated.\"** — They combine: the overall constant for dissolving a salt in a ligand solution is Ksp × Kf.\n- **\"Ligands only bind transition metals.\"** — Many cations (Mg²⁺, Ca²⁺, Al³⁺) form complexes too; transition metals are just especially good at it.\n- **\"Large Kf means the complex dissociates easily.\"** — Opposite: large Kf means it barely dissociates — the complex is stable.\n- **\"Overall K = Ksp + Kf.\"** — When you add the two reactions, you *multiply* their equilibrium constants, not add them.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a shy metal ion that keeps leaving the party to rejoin the solid dance floor. Along comes a friendly ligand that grabs the metal ion's hand and won't let go (a very strong grip, Kf). Now the metal ion stays in solution, so more solid has to dissolve to replace it. The \"grip strength\" of the ligand times the \"stubbornness of the solid\" (Ksp) tells you how much extra dissolves. (The limit: the grip is a series of lone-pair handshakes, and the math multiplies the two tendencies together.)",
+    "quickReview": "- Complex ion = metal cation + ligands (Lewis acid–base).\n- Kf = [MLₙ]/([M][L]ⁿ); large Kf = stable.\n- Ligands increase apparent solubility by removing free metal ions.\n- Overall K (dissolve + complex) = Ksp × Kf.\n- Stepwise formation; overall Kf = product of steps.",
+    "workedExamples": "### Worked Example\n\n**Calculate the overall equilibrium constant for dissolving AgCl in aqueous ammonia.**\n\nAgCl(s) ⇌ Ag⁺ + Cl⁻, Ksp = 1.8 × 10⁻¹⁰\n\nAg⁺ + 2 NH₃ ⇌ [Ag(NH₃)₂]⁺, Kf = 1.7 × 10⁷\n\nSum the two steps (Ag⁺ cancels):\n\nAgCl(s) + 2 NH₃ ⇌ [Ag(NH₃)₂]⁺ + Cl⁻\n\nK = Ksp × Kf = (1.8 × 10⁻¹⁰)(1.7 × 10⁷) = 3.1 × 10⁻³\n\nThe overall K is far larger than Ksp alone — that is why AgCl, essentially \"insoluble\" in pure water, dissolves readily in concentrated NH₃. (This is the basis of the classic qualitative-analysis test for silver.)",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"15.2 Lewis Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/15-2-lewis-acids-and-bases",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-2-lewis-acids-and-bases"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"15.3 Coupled Equilibria.\" https://openstax.org/books/chemistry-2e/pages/15-3-coupled-equilibria",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-3-coupled-equilibria"
+      },
+      {
+        "text": "Chem LibreTexts, \"General Chemistry (Petrucci) — 18: Solubility and Complex-Ion Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_%28Petrucci_et_al.%29/18%3A_Solubility_and_Complex-Ion_Equilibria",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_%28Petrucci_et_al.%29/18%3A_Solubility_and_Complex-Ion_Equilibria"
+      },
+      {
+        "text": "PubChem, \"Silver Chloride.\" https://pubchem.ncbi.nlm.nih.gov/compound/Silver-chloride",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Silver-chloride"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/15-aqueous-ionic-equilibria/10-complex-ion-equilibria.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

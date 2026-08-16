@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-kinetics:collision-theory",
+  "slug": "collision-theory",
+  "title": "Collision Theory",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-kinetics",
+    "slug": "chemical-kinetics",
+    "title": "Chemical Kinetics",
+    "order": 3
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "Collision theory is the molecular-level explanation for why reactions have the rates they do. For a reaction to occur, reactant particles must **collide**, and only a fraction of collisions actually produce products. Two conditions must be met: the colliding particles must have the correct **orientation**, and they must possess at least a minimum amount of energy called the **activation energy (Ea)**. The reaction rate reflects the frequency of these *effective* collisions.",
+    "whyItMatters": "Collision theory explains, at the molecular level, why the rate law's temperature and concentration dependence exist. It rationalizes why catalysts help (they lower Ea so more collisions are productive), why reactions slow when cooled, and why the same reaction can be instant in one orientation and impossible in another. It is the conceptual bridge from \"atoms bouncing\" to the measured rate constant k.",
+    "learningObjectives": "- Explain why molecules must collide to react.\n- State the two requirements a collision must meet to be productive (orientation and energy).\n- Relate collision frequency, orientation factor, and the activation-energy barrier to the observed rate.\n- Explain why raising temperature or concentration speeds up a reaction.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nCollision theory is the molecular-level explanation for why reactions have the rates they do. For a reaction to occur, reactant particles must **collide**, and only a fraction of collisions actually produce products. Two conditions must be met: the colliding particles must have the correct **orientation**, and they must possess at least a minimum amount of energy called the **activation energy (Ea)**. The reaction rate reflects the frequency of these *effective* collisions.\n\n### Key Ideas\n\n- Reactions happen through collisions between particles (atoms, molecules, or ions).\n- Only **effective collisions** — correctly oriented and energetic enough — lead to products.\n- The **activation energy** is the minimum energy needed to break existing bonds and begin forming new ones.\n- Increasing concentration or pressure raises collision frequency; increasing temperature raises both frequency and the fraction of collisions with enough energy.\n\n### Equations and Variables\n\nThe rate constant can be understood as the product of three factors:\n\n$$k = Z \\cdot f \\cdot p$$\n\n- Z = collision frequency (number of collisions per second, s⁻¹ at unit concentration)\n- f = fraction of collisions with energy ≥ Ea (unitless, given by the Boltzmann factor e^(−Ea/RT))\n- p = orientation (steric) factor, the fraction of collisions with the correct geometry (unitless, 0 < p ≤ 1)\n\nThe energetic requirement is captured by the exponential **Boltzmann factor**:\n\n$$f \\approx e^{-E_a/RT}$$\n\n- Ea = activation energy (J/mol)\n- R = 8.314 J·mol⁻¹·K⁻¹ (gas constant)\n- T = absolute temperature (K)\n\n### How It Works\n\nPicture a gas or solution full of moving particles. They collide constantly, but most collisions are sterile — the particles simply bounce apart. Two things turn a collision into a reaction:\n\n1. **Orientation.** The colliding particles must meet in a geometry that allows the right atoms to interact. In NO + O₃ → NO₂ + O₂, the O₃ must be struck in a way that lets an O transfer to NO. If the molecules hit \"backwards,\" nothing happens.\n\n2. **Energy.** Even with perfect orientation, the particles need enough kinetic energy to break existing bonds (an endothermic \"uphill\" push) before new bonds form. The minimum required energy is Ea. Only the high-energy tail of the molecular speed distribution (the Maxwell–Boltzmann distribution) clears this barrier.\n\nRaising **temperature** does two things at once: particles move faster (more collisions, larger Z) and, more importantly, a much larger fraction of them exceed Ea (larger f). Because f depends exponentially on T, a modest temperature rise can dramatically increase the rate. Raising **concentration** increases only the collision frequency Z, not the fraction that succeeds.\n\n### Worked Example\n\nConsider a reaction with Ea = 60 kJ/mol. Compare the fraction of molecules with enough energy to react at 300 K versus 320 K, using the Boltzmann factor e^(−Ea/RT).\n\n**At 300 K:**\n\n$$\\frac{E_a}{RT} = \\frac{60{,}000\\ \\text{J mol}^{-1}}{(8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(300\\ \\text{K})} = 24.1$$\n\n$$f = e^{-24.1} = 3.4 \\times 10^{-11}$$\n\n**At 320 K:**\n\n$$\\frac{E_a}{RT} = \\frac{60{,}000}{(8.314)(320)} = 22.6$$\n\n$$f = e^{-22.6} = 1.5 \\times 10^{-10}$$\n\nThe fraction of energetic collisions rises from 3.4 × 10⁻¹¹ to 1.5 × 10⁻¹⁰ — a factor of about 4.4 — for only a 20 K rise. This is why a small temperature increase can multiply the rate severalfold.",
+    "howItWorks": "Picture a gas or solution full of moving particles. They collide constantly, but most collisions are sterile — the particles simply bounce apart. Two things turn a collision into a reaction:\n\n1. **Orientation.** The colliding particles must meet in a geometry that allows the right atoms to interact. In NO + O₃ → NO₂ + O₂, the O₃ must be struck in a way that lets an O transfer to NO. If the molecules hit \"backwards,\" nothing happens.\n\n2. **Energy.** Even with perfect orientation, the particles need enough kinetic energy to break existing bonds (an endothermic \"uphill\" push) before new bonds form. The minimum required energy is Ea. Only the high-energy tail of the molecular speed distribution (the Maxwell–Boltzmann distribution) clears this barrier.\n\nRaising **temperature** does two things at once: particles move faster (more collisions, larger Z) and, more importantly, a much larger fraction of them exceed Ea (larger f). Because f depends exponentially on T, a modest temperature rise can dramatically increase the rate. Raising **concentration** increases only the collision frequency Z, not the fraction that succeeds.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Effective collision = correct orientation **and** energy ≥ Ea.\n- Ea is the energy barrier to breaking bonds and forming the transition state.\n- The Boltzmann factor e^(−Ea/RT) is the fraction of collisions with sufficient energy.\n- Temperature affects the rate primarily through f, not just through collision frequency.\n- Concentration affects only collision frequency, not the energy fraction.",
+    "commonConfusions": "- **Confusing collision frequency with reaction rate.** Only a tiny fraction of collisions react; frequency alone is not the whole story.\n- **Forgetting orientation.** Energy alone is insufficient; two requirements must both be met.\n- **Using °C instead of K.** The Boltzmann factor requires absolute temperature.\n- **Thinking Ea can be negative.** Activation energy is always a positive barrier.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a reaction as a pool shot. You can hit the cue ball many times, but to sink the target ball you need two things: aim (orientation) and enough force to knock it into the pocket (energy). Most of your hits — most molecular collisions — are either aimed wrong or too soft, so nothing sinks. Collision theory just counts the good shots: the ones aimed right *and* struck hard enough. Turn up the temperature and you're hitting harder, so more shots have enough force; pack in more balls (higher concentration) and you get more shots per minute. Both make the game — the reaction — finish faster.",
+    "quickReview": "1. What two conditions must a collision satisfy to produce products?\n2. Define activation energy.\n3. Which factor in k = Z·f·p depends most strongly on temperature, and why?\n4. Why does raising concentration speed up a reaction?\n5. If Ea increases, does the fraction of effective collisions rise or fall?",
+    "workedExamples": "### Worked Example\n\nConsider a reaction with Ea = 60 kJ/mol. Compare the fraction of molecules with enough energy to react at 300 K versus 320 K, using the Boltzmann factor e^(−Ea/RT).\n\n**At 300 K:**\n\n$$\\frac{E_a}{RT} = \\frac{60{,}000\\ \\text{J mol}^{-1}}{(8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(300\\ \\text{K})} = 24.1$$\n\n$$f = e^{-24.1} = 3.4 \\times 10^{-11}$$\n\n**At 320 K:**\n\n$$\\frac{E_a}{RT} = \\frac{60{,}000}{(8.314)(320)} = 22.6$$\n\n$$f = e^{-22.6} = 1.5 \\times 10^{-10}$$\n\nThe fraction of energetic collisions rises from 3.4 × 10⁻¹¹ to 1.5 × 10⁻¹⁰ — a factor of about 4.4 — for only a 20 K rise. This is why a small temperature increase can multiply the rate severalfold.",
+    "references": [
+      {
+        "text": "OpenStax. *Chemistry 2e*. Ch. 12, \"Collision Theory.\" https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory"
+      },
+      {
+        "text": "IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"activation energy,\" \"collision theory.\" https://goldbook.iupac.org/",
+        "url": "https://goldbook.iupac.org/"
+      },
+      {
+        "text": "Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman."
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/12-chemical-kinetics/05-collision-theory.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

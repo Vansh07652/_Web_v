@@ -1,0 +1,178 @@
+---
+title: "Properties of Alkanes"
+subject: "Science"
+book: "Organic Chemistry: A Tenth Edition"
+chapter: "3: Organic Compounds: Alkanes and Their Stereochemistry"
+topic_number: "5"
+source: "organic-chemistry.md"
+tags:
+  - "properties-of-alkanes"
+  - "science"
+status: "complete"
+---
+
+# Properties of Alkanes
+
+> **Book:** [Organic Chemistry: A Tenth Edition](../../README.md)  
+> **Chapter:** [Chapter 3: Organic Compounds: Alkanes and Their Stereochemistry](../README.md)  
+> **Topic:** 5  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Alkanes are **nonpolar** molecules: carbon and hydrogen have similar electronegativities (about 2.55 and 2.20 on the Pauling scale), so C–H bonds are nearly nonpolar and the molecules carry no permanent dipole. That fact drives almost every physical property: alkanes are insoluble in water, soluble in nonpolar solvents, less dense than water, and held together in the liquid and solid states only by weak **London dispersion forces**. Because those forces depend on molecular surface area, boiling points rise with chain length but fall with branching: n-pentane boils at about 36 °C while its isomer 2,2-dimethylpropane boils at about 9.5 °C. Chemically, alkanes are the least reactive organic family — no π bonds, no polar bonds, no lone pairs — so their reactions are limited mainly to **combustion** (with \(O_2\), giving \(CO_2\) and water) and **free-radical halogenation** (with \(Cl_2\) or \(Br_2\), heat or UV). This topic connects molecular structure to observable properties and to the combustion stoichiometry behind alkanes' role as the world's primary fuel.
+
+## Why This Matters
+
+- **Everyday materials:** Natural gas (methane), propane grills, gasoline (C₅–C₁₂ alkanes), kerosene, candle wax, and asphalt are all alkane mixtures; boiling ranges decide which petroleum fraction is which.
+- **Oil spills and environment:** Alkanes float on water (density < 1 g/mL) and resist dissolving — why petroleum spills spread as slicks and are hard to clean up.
+- **Safety:** Alkane vapors are flammable; limited-oxygen combustion produces toxic carbon monoxide. General laboratory principle: keep alkanes away from ignition sources and work with ventilation.
+- **Combustion stoichiometry:** Fuel efficiency, \(CO_2\) emissions, and oxygen requirements come from balanced combustion equations — a recurring real-world calculation and exam staple.
+
+## Core Concepts
+
+### Nonpolarity and intermolecular forces
+
+Alkanes contain only C–C and C–H σ bonds, both nearly nonpolar, so they have no permanent dipole and no hydrogen-bond donors or acceptors. The only intermolecular attractions are **London dispersion forces** — transient induced dipoles that grow with electron count and molecular surface area. These weak forces explain the low boiling points relative to polar compounds of similar mass (water boils at 100 °C at 18 g/mol; butane at about −0.5 °C at 58 g/mol), insolubility in water, and mutual solubility with other nonpolar substances ("like dissolves like").
+
+### Boiling and melting point trends
+
+Boiling point increases with chain length: methane −161.5 °C, ethane −88.6 °C, propane −42.1 °C, butane −0.5 °C, pentane 36.1 °C, hexane 68.7 °C — roughly +20–30 °C per \(CH_2\), because longer chains have more electrons and surface area. **Branching lowers the boiling point**: a compact molecule like 2,2-dimethylpropane has less surface area for intermolecular contact than its straight-chain isomer n-pentane. Melting points follow a less regular pattern — solid packing matters — so do not assume they mirror boiling points.
+
+### Solubility and density
+
+Water is polar and hydrogen-bonding; alkanes are neither, so they are essentially insoluble in water (a few mg/L at best for small alkanes). They dissolve readily in nonpolar solvents (diethyl ether, hexane, carbon tetrachloride) — "like dissolves like." Liquid alkanes are less dense than water (roughly 0.6–0.8 g/mL vs. 1.00 g/mL), so they float — oil slicks and the water/hexane two-layer demo in lab.
+
+### Chemical reactivity: combustion and halogenation
+
+Alkanes have no reactive sites (no π bonds, no polar bonds), so at room temperature they resist acids, bases, and oxidizing agents — "inert" in that limited sense. The two important reactions:
+
+- **Combustion:** complete combustion of an alkane gives \(CO_2\) and \(H_2O\): \(C_nH_{2n+2} + \frac{3n+1}{2}O_2 \rightarrow nCO_2 + (n+1)H_2O\). In limited oxygen, incomplete combustion produces carbon monoxide (CO), a colorless, odorless, toxic gas — the reason furnaces and engines must be vented.
+- **Free-radical halogenation:** with \(Cl_2\) or \(Br_2\) under heat or UV light, an H is replaced: \(CH_4 + Cl_2 \xrightarrow{UV} CH_3Cl + HCl\). The three-stage mechanism — initiation (Cl₂ splits into two chlorine radicals), propagation (a chlorine radical abstracts an H; the methyl radical reacts with Cl₂), termination (two radicals combine) — usually gives mixtures for larger alkanes, so it is not a clean synthesis.
+
+## ELI-10: Explain Like I'm 10
+
+Alkanes are like oil: they don't mix with water, they float on top, and they catch fire easily. Think of each molecule as a smooth, slippery ball — big balls (long chains) stick to each other better than small ones, so they need more heat to boil apart; a round, branched ball sticks worse than a long skinny one, so it boils sooner. When an alkane burns with enough air, every carbon becomes carbon dioxide and every hydrogen becomes water — that's the fire, and it's why we can predict how much CO₂ a fuel makes.
+
+## High-Yield Points
+
+- Alkanes are nonpolar (C and H have similar electronegativity): no dipole, no hydrogen bonding.
+- Intermolecular forces = London dispersion only; strength rises with electron count and surface area. Boiling point rises with chain length (~+20–30 °C per \(CH_2\)) and falls with branching.
+- Solubility: insoluble in water, soluble in nonpolar solvents; liquid alkanes float on water (density ≈ 0.6–0.8 g/mL).
+- Phase at room temperature: C₁–C₄ gases, C₅–C₁₇ liquids, C₁₈+ waxy solids.
+- Complete combustion: \(C_nH_{2n+2} + \frac{3n+1}{2}O_2 \rightarrow nCO_2 + (n+1)H_2O\); incomplete combustion makes toxic CO.
+- Halogenation: free-radical mechanism (initiation, propagation, termination), needs heat or UV; gives mixtures.
+- Safety: alkane vapors are flammable; use ventilation and keep away from ignition sources.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| London dispersion forces | Weak attractions from transient induced dipoles | The only intermolecular force in alkanes; sets boiling points |
+| Nonpolar molecule | No permanent separation of charge | Explains insolubility in water, solubility in nonpolar solvents |
+| Boiling point | Temperature where vapor pressure equals atmospheric pressure | Petroleum distillation relies on alkane boiling ranges |
+| Combustion | Reaction with \(O_2\) producing \(CO_2\) and \(H_2O\) (complete) | The fuel chemistry of alkanes; basis of energy and \(CO_2\) accounting |
+| Incomplete combustion | Burning with limited \(O_2\) producing CO (or soot) | Carbon monoxide is toxic — ventilation is essential |
+| Free-radical halogenation | H replaced by halogen via radical chain mechanism | The classic substitution reaction of alkanes; needs UV/heat |
+| Like dissolves like | Polar solvents dissolve polar solutes; nonpolar dissolve nonpolar | Predicts alkane solubility behavior |
+
+## Worked Examples
+
+### Example 1: Predicting relative boiling points
+
+Which boils lower: n-pentane (\(C_5H_{12}\)) or 2,2-dimethylpropane (\(C_5H_{12}\))? Explain using intermolecular forces.
+
+**Both are \(C_5H_{12}\), so compare shape.** n-Pentane is a long, flexible chain; 2,2-dimethylpropane is nearly spherical (a central carbon with four methyls). Dispersion forces depend on surface area available for contact, and the compact isomer has far less.
+
+**Answer:** 2,2-dimethylpropane boils lower (about 9.5 °C vs. 36.1 °C). This is why refining separates isomers by boiling point — “same formula” never means “same properties.”
+
+### Example 2: Combustion stoichiometry — oxygen and CO₂ from octane
+
+How many grams of \(O_2\) are required for complete combustion of 114 g of octane (\(C_8H_{18}\), molar mass 114.23 g/mol)?
+
+**Balanced equation first:**
+
+\[
+2C_8H_{18} + 25O_2 \rightarrow 16CO_2 + 18H_2O
+\]
+
+**Step 1 — moles of octane:**
+
+\[
+n = 114\ \text{g} \times \frac{1\ \text{mol}}{114.23\ \text{g}} = 0.998\ \text{mol} \approx 1.00\ \text{mol}
+\]
+
+**Step 2 — moles of \(O_2\)** (ratio 25 mol \(O_2\) : 2 mol \(C_8H_{18}\)):
+
+\[
+n_{O_2} = 1.00\ \text{mol}\ \text{C}_8\text{H}_{18} \times \frac{25\ \text{mol}\ O_2}{2\ \text{mol}\ \text{C}_8\text{H}_{18}} = 12.5\ \text{mol}
+\]
+
+**Step 3 — mass of \(O_2\)** (molar mass 32.00 g/mol):
+
+\[
+m = 12.5\ \text{mol} \times \frac{32.00\ \text{g}}{\text{mol}} = 400\ \text{g}
+\]
+
+**Answer:** about 400 g of \(O_2\) per 114 g of octane. The same skeleton works for any fuel — balance first, then convert mass → moles → moles → mass.
+
+### Example 3: Density — why alkanes float on water
+
+A 1.00 L sample of hexane has a density of 0.66 g/mL. Compare its mass with 1.00 L of water (1.00 g/mL):
+
+**Formula first:** \(m = d \times V\). **Substitute** for hexane:
+
+\[
+m = 0.66\ \frac{\text{g}}{\text{mL}} \times 1000\ \text{mL} = 660\ \text{g}
+\]
+
+**Water:** \(1.00\ \frac{\text{g}}{\text{mL}} \times 1000\ \text{mL} = 1000\ \text{g}\).
+
+**Answer:** the hexane layer (660 g) is less dense than the water layer (1000 g), so hexane floats — the physical basis of oil-slick behavior and water/hexane extractions in lab.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Boiling-point trend with branching | Melting-point trend with branching | Boiling points fall with branching (surface area); melting points depend on solid packing — no simple rule |
+| "Alkanes are inert" | "Alkanes never react" | Inert toward acids/bases/oxidizers at room temperature, but they burn and halogenate |
+| Complete combustion | Incomplete combustion | Limited \(O_2\) yields CO (colorless, toxic) or soot, not \(CO_2\) — a furnace/engine hazard |
+| London dispersion forces | Dipole–dipole or hydrogen bonding | Alkanes have no permanent dipoles; only dispersion forces operate |
+| Solubility in water | Miscibility with nonpolar liquids | Alkanes are insoluble in water but fully miscible with hexane, ether, etc. |
+| Density of alkane liquids | Density of alkanes in general | Liquid alkanes (~0.6–0.8 g/mL) float on water; gases like methane have negligible density |
+
+## Quick Review
+
+1. Why are alkanes insoluble in water but soluble in hexane?
+2. Which has the higher boiling point: n-hexane or 2,2-dimethylbutane? Explain.
+3. Write the balanced equation for complete combustion of propane, \(C_3H_8\).
+4. How many moles of \(O_2\) are needed to burn 2.0 mol of octane completely?
+5. Why is carbon monoxide a concern when alkanes burn?
+6. Arrange in order of increasing boiling point: methane, pentane, ethane, decane.
+
+<details>
+<summary>Show answers</summary>
+
+1. Water is polar and hydrogen-bonding; alkanes are nonpolar. Like dissolves like — alkanes dissolve in nonpolar hexane, not in polar water.
+2. n-Hexane — a straight chain has more surface area for dispersion forces than the branched 2,2-dimethylbutane, so its boiling point is higher.
+3. \(C_3H_8 + 5O_2 \rightarrow 3CO_2 + 4H_2O\).
+4. 25 mol — from \(2C_8H_{18} + 25O_2 \rightarrow 16CO_2 + 18H_2O\), 2 mol octane needs 25 mol \(O_2\).
+5. Limited oxygen gives incomplete combustion and CO, a colorless, odorless, toxic gas — hence ventilation around furnaces, engines, and heaters.
+6. Methane (−161.5 °C) < ethane (−88.6 °C) < pentane (36.1 °C) < decane (174 °C) — boiling point rises with chain length.
+
+</details>
+
+## Related Topics
+
+- Previous: [Naming Alkanes](04-naming-alkanes.md)
+- Next: [Conformations of Ethane](06-conformations-of-ethane.md)
+- Related: [Organic Compounds: Alkanes and Their Stereochemistry chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Organic Chemistry: A Tenth Edition
+- Local outline source: `organic-chemistry.md`
+- Official source URL: https://openstax.org/details/books/organic-chemistry/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Numerical values (boiling points, densities, molar masses) are standard reference values; verify against current sources before relying on them in assessments.
+- Last updated: 2026-08-16

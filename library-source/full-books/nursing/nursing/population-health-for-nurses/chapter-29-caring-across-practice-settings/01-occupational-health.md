@@ -1,0 +1,146 @@
+---
+title: "Occupational Health"
+subject: "Nursing"
+book: "Population Health for Nurses"
+chapter: "29: Caring Across Practice Settings"
+topic_number: "1"
+source: "population-health.md"
+tags:
+  - "occupational-health"
+  - "nursing"
+status: "complete"
+---
+
+# Occupational Health
+
+> **Book:** [Population Health for Nurses](../../README.md)  
+> **Chapter:** [Chapter 29: Caring Across Practice Settings](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Occupational health** is the branch of public health concerned with the health and safety of people at work. Its defining idea is that the workplace is a *population*: workers in a factory, hospital, school, or office share exposures, hazards, schedules, and working conditions that shape their health in ways that reach far beyond the job site. Occupational health nursing applies the nursing process to that working population — preventing injury and illness, promoting health, and caring for workers when prevention fails.
+
+Because most adults spend a large share of their waking hours at work, the workplace is one of the most efficient settings for population-level intervention. A change in policy, equipment, or work organization can improve the health of thousands of people at once, and the occupational health nurse is often the person who identifies the problem, gathers the evidence, and helps design the fix. Occupational health is also the one area of nursing where the nurse is responsible for the health of the *organization's* people as a group — including the employer's obligations, which creates both opportunity and ethical tension.
+
+## Why This Matters
+
+Work-related injury and illness are common, costly, and largely preventable. They cause pain, disability, lost income, and lost years of life — and they fall unevenly on people in lower-wage, physically demanding, and hazardous jobs. For nurses, the topic has a double relevance. First, as professionals, nurses may practice in occupational health settings — in industry, government, hospitals as employers, and occupational health clinics — where they conduct surveillance, manage injury cases, and deliver workplace health programs. Second, every nurse is a worker: hospitals and health systems have their own occupational hazards, including musculoskeletal injury from lifting, bloodborne pathogen exposure, shift work, and workplace violence. Understanding how hazards are controlled is how nurses protect themselves and their colleagues.
+
+## Core Concepts
+
+### Categories of workplace hazards
+
+Workplace hazards are usually grouped into five categories:
+
+- **Physical** — noise, vibration, extreme heat or cold, radiation, and poorly lit or unsafe work environments.
+- **Chemical** — solvents, dusts, fumes, gases, and other substances that can be inhaled, absorbed, or ingested. Material Safety Data Sheets (now Safety Data Sheets, SDS) describe each chemical's hazards and required precautions.
+- **Biological** — infectious agents such as bloodborne pathogens (hepatitis B and C, HIV), tuberculosis, and other organisms encountered in health care, laboratories, agriculture, and animal handling.
+- **Ergonomic** — forces, postures, and repetitive motions that strain muscles and joints, causing musculoskeletal disorders such as back injuries and carpal tunnel syndrome.
+- **Psychosocial** — stress, shift work, long hours, harassment, and workplace violence, which affect mental health and contribute to physical illness.
+
+### The hierarchy of controls
+
+The core prevention concept in occupational health is the **hierarchy of controls**, which ranks interventions from most to least effective:
+
+1. **Elimination** — remove the hazard entirely (e.g., ban a dangerous chemical).
+2. **Substitution** — replace the hazard with something safer (e.g., a less toxic solvent).
+3. **Engineering controls** — isolate people from the hazard (ventilation, machine guards, noise barriers).
+4. **Administrative controls** — change how work is done (rotation, training, policies, rest breaks).
+5. **Personal protective equipment (PPE)** — the last line of defense (respirators, gloves, earplugs), effective only if worn and fitted correctly.
+
+The nurse's advocacy role follows directly from the hierarchy: the most reliable protections change the environment, not the worker. Teaching workers to "be more careful" is administrative control at best — and the least reliable kind.
+
+### Regulatory and legal context
+
+In the United States, **OSHA** (the Occupational Safety and Health Administration) sets and enforces workplace safety standards — including requirements that employers provide PPE, training, and records of exposure — and **NIOSH** (the National Institute for Occupational Safety and Health) conducts research and makes recommendations. Workers' compensation systems provide medical care and wage replacement for work-related injury and illness, and employment laws such as the Americans with Disabilities Act (ADA) shape return-to-work and accommodation decisions. Jurisdiction varies: some states run their own OSHA-approved programs, and other countries have their own agencies and standards. The occupational health nurse must know the rules that apply where they practice.
+
+### Occupational health nursing roles and services
+
+Occupational health nurses work across prevention levels:
+
+- **Primary prevention** — pre-placement assessments, immunizations, hearing conservation and respirator-fit programs, ergonomic evaluations, health and safety training, and health promotion campaigns (nutrition, exercise, smoking cessation).
+- **Secondary prevention** — periodic surveillance exams (hearing, lung function, vision, blood tests as indicated by exposure), and early detection of work-related problems through health screening.
+- **Tertiary prevention** — care of work injuries and illnesses, first aid and emergency response, case management, rehabilitation, and return-to-work planning with accommodations.
+
+The nurse also tracks injury and illness data — surveillance — to spot patterns (e.g., a cluster of back injuries on one shift) and to evaluate whether controls are working.
+
+### Confidentiality and ethics
+
+Occupational health nurses hold two sets of records with different rules: medical records (protected, confidential) and occupational exposure records (which employers may need for regulatory and compensation purposes). The ethical challenge is the **dual client** — the worker as patient and the employer as client. The nurse's professional duty of confidentiality and advocacy belongs to the worker; the employer is entitled to information about fitness for duty and work restrictions, but not to private diagnosis and treatment details. Exactly what can be shared varies by jurisdiction and policy, and navigating that boundary is a defining skill of the specialty.
+
+## ELI-10: Explain Like I'm 10
+
+Occupational health is about keeping people safe and well at their jobs. Think of a noisy factory: instead of just telling workers to "be careful," the best fix is to make the machine quieter or put a wall around it — fixing the problem instead of asking people to live with it. The occupational health nurse watches out for the whole group of workers, finds what is hurting them, and works to change it so fewer people get sick or hurt at work.
+
+## High-Yield Points
+
+- The workplace is a **population**: shared hazards and conditions make it a powerful setting for prevention.
+- Five hazard categories: **physical, chemical, biological, ergonomic, psychosocial** — and remember that psychosocial hazards (stress, shift work, violence) are real hazards.
+- **Hierarchy of controls** (most to least effective): elimination → substitution → engineering → administrative → PPE. Environment-level fixes beat person-level fixes.
+- OSHA enforces workplace standards; NIOSH does research; workers' compensation covers work-related injury/illness; jurisdiction varies by state and country.
+- Nursing roles span all three prevention levels: pre-placement exams and training (primary), surveillance and screening (secondary), injury care and return-to-work (tertiary).
+- **Surveillance** — tracking injuries and illnesses — turns scattered cases into recognizable patterns and drives prevention.
+- The occupational health nurse has a **dual client**: the worker (patient) and the employer (client). Confidentiality belongs to the worker; employers get fitness-for-duty information, not private diagnoses.
+- Nurses are workers too: lifting injuries, sharps exposures, shift work, and workplace violence are among the hazards this specialty exists to control.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Occupational health | The field concerned with the health and safety of people at work | Frames the workforce as a population with shared exposures and needs |
+| Hierarchy of controls | The ranked set of controls from elimination (best) to PPE (last resort) | Guides prevention decisions: change the environment before asking workers to adapt |
+| Hazard | A condition or agent with the potential to cause harm (physical, chemical, biological, ergonomic, psychosocial) | Identifying hazards is the first step of every prevention effort |
+| OSHA | The U.S. agency that sets and enforces workplace safety and health standards | Defines many employer duties; state plans and other countries vary |
+| NIOSH | The U.S. research agency for occupational safety and health | Produces the evidence base and recommendations for prevention |
+| Workers' compensation | The insurance system covering medical care and wage replacement for work-related injury/illness | Shapes documentation, reporting, and return-to-work practice |
+| Surveillance | Ongoing tracking of injuries, illnesses, and exposures to detect patterns | Turns individual cases into population-level signals for prevention |
+| Return-to-work | Planning a worker's safe transition back to the job, often with accommodations | Bridges clinical recovery and workplace reality; governed by law and policy |
+
+## Example: Clinical Scenario
+
+In a food-processing plant, the occupational health nurse reviews the year's injury log and notices a cluster of hand and wrist injuries on the packaging line, all reported in the afternoon shifts. She walks the line and observes workers reaching across a conveyor to grasp boxes while the line speed peaks in the afternoons — an ergonomic and administrative problem combined. Instead of simply reminding workers to "stretch," she works through the hierarchy: the line speed can be adjusted (administrative), the conveyor can be repositioned so workers don't reach (engineering), and wrist supports are available for the interim (PPE). She brings the data and the options to plant management, and after the conveyor is repositioned, wrist injuries on that line drop markedly. The teaching point: the nurse used surveillance to find a pattern, traced it to working conditions, and applied the hierarchy of controls — changing the environment rather than blaming the workers.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Occupational health | "Workers' comp paperwork" | The specialty is prevention and population health; injury management and compensation claims are a small part of it |
+| PPE | The best protection | PPE is the last rung of the hierarchy — it fails if not worn, fitted, or used correctly. Engineering and elimination protect everyone automatically |
+| Physical hazards | Musculoskeletal "overuse" | Physical hazards include noise, heat, radiation, and vibration; ergonomic hazards are the forces, postures, and repetition that strain the body |
+| "Being careful" training | Effective prevention | Training is an administrative control — useful, but weaker than removing or engineering out the hazard |
+| Employer's right to know | Access to the worker's medical record | Employers get fitness-for-duty and restriction information; private diagnosis and treatment details are confidential, with jurisdiction-specific rules |
+| Occupational illness | Occupational injury | Injuries are sudden events (a fall, a cut); illnesses develop from exposure over time (hearing loss, lung disease) — both are compensable and preventable, but they require different surveillance and prevention approaches |
+
+## Quick Review
+
+1. List the five categories of workplace hazards and give one example of each.
+2. Rank the five levels of the hierarchy of controls from most to least effective.
+3. Why is PPE considered the last line of defense rather than the primary protection?
+4. What is the "dual client" in occupational health nursing, and how does it affect confidentiality?
+5. A nurse notices three back injuries on the same loading dock in one month. What should she do with that observation?
+
+<details>
+<summary>Show answers</summary>
+
+1. Physical (noise, heat, radiation), chemical (solvents, fumes), biological (bloodborne pathogens, tuberculosis), ergonomic (repetitive motion, heavy lifting), and psychosocial (stress, shift work, workplace violence).
+2. Elimination → substitution → engineering controls → administrative controls → PPE.
+3. PPE protects only the person wearing it, only while worn, and only if fitted and used correctly; it requires constant human behavior, whereas elimination, substitution, and engineering controls protect everyone automatically.
+4. The occupational health nurse serves both the worker (as patient) and the employer (as client). Confidentiality and advocacy belong to the worker; the employer is entitled to fitness-for-duty and work-restriction information but not private medical details, within jurisdiction-specific rules.
+5. Treat it as surveillance data: investigate the pattern (walk the dock, look at the work process and equipment), consider engineering and administrative controls, and report the findings and recommendations through the appropriate channels rather than treating each injury as an isolated event.
+</details>
+
+## Related Topics
+
+- Next: [School Health](02-school-health.md)
+- Related: [Correctional Nursing](03-correctional-nursing.md)
+- Chapter overview: [Caring Across Practice Settings](../README.md)
+
+## Source Notes
+
+- Book: Population Health for Nurses
+- Local outline source: `population-health.md`
+- Official source URL: https://openstax.org/details/books/population-health/
+- Content type: Original educational study guide based on OpenStax outline structure. Educational draft only — regulatory agencies, reporting thresholds, confidentiality rules, and surveillance requirements vary by jurisdiction and industry and must be verified against current law and facility policy.
+- Last updated: 2026-08-16

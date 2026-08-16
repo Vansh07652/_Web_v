@@ -1,0 +1,39 @@
+{
+  "id": "biology-2-population-and-community-ecology-0003",
+  "subject": "biology-2",
+  "lesson": "population-and-community-ecology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A population of deer grows with **logistic growth** at r = 0.2 per year, with a current population size N = 400 and a **carrying capacity** K = 800. Using the logistic equation dN/dt = rN(1 - N/K), what is the current growth rate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "20 deer per year"
+    },
+    {
+      "id": "b",
+      "text": "40 deer per year"
+    },
+    {
+      "id": "c",
+      "text": "80 deer per year"
+    },
+    {
+      "id": "d",
+      "text": "160 deer per year"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "The logistic equation dN/dt = rN(1 - N/K) requires multiplying the rate, the current size, and the correction term together. With N/K equal to 0.5, the correction term (1 - N/K) is also 0.5, so 0.2 x 400 x 0.5 equals 40 deer per year. Option C ignores the correction term entirely, D doubles the population before applying the rate, and A applies the correction twice.",
+  "difficulty": "unknown",
+  "tags": [
+    "logistic",
+    "growth",
+    "calculation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-5587a65811e8effd",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

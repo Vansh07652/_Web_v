@@ -1,0 +1,42 @@
+{
+  "id": "genetics-linkage-and-genetic-mapping-0002",
+  "subject": "genetics",
+  "lesson": "linkage-and-genetic-mapping",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation A female Drosophila heterozygous for two recessive mutations *d* and *e*, with the arrangement *d e* / + +, is test crossed to a male homozygous *d e* / *d e*. Among 1000 progeny, 482 show both recessive traits, 478 are wild type, 20 show only *d*, and 20 show only *e*. What is the map distance between *d* and *e*?",
+  "options": [
+    {
+      "id": "a",
+      "text": "2 cM"
+    },
+    {
+      "id": "b",
+      "text": "4 cM"
+    },
+    {
+      "id": "c",
+      "text": "8 cM"
+    },
+    {
+      "id": "d",
+      "text": "0.04 cM"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "The recombinant classes are the 20 progeny showing only *d* and the 20 showing only *e*, because they differ from both parental arrangements (*d e* and + +). The recombination frequency is (20 + 20)/1000 = 0.04, so the map distance is 0.04 x 100 = 4 cM. A counts only one of the two reciprocal recombinant classes, giving 20/1000 x 100 = 2 cM. C doubles the recombinants to 80/1000 x 100 = 8 cM, and D reports the fraction 0.04 without converting it to map units.",
+  "difficulty": "unknown",
+  "tags": [
+    "two",
+    "point",
+    "test",
+    "cross",
+    "map",
+    "distance"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-6f4c5593d895eb88",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

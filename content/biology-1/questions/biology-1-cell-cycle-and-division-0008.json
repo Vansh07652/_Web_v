@@ -1,0 +1,38 @@
+{
+  "id": "biology-1-cell-cycle-and-division-0008",
+  "subject": "biology-1",
+  "lesson": "cell-cycle-and-division",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In a dividing cell, one chromosome fails to attach to spindle fibers from both poles. The M checkpoint should normally block the next step. If the M checkpoint fails, what is the most likely outcome?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The cell pauses in metaphase until the attachment improves on its own."
+    },
+    {
+      "id": "b",
+      "text": "The unattached chromosome is copied again so a spare is available."
+    },
+    {
+      "id": "c",
+      "text": "The chromosome decondenses and the cell returns to prophase."
+    },
+    {
+      "id": "d",
+      "text": "The cell enters anaphase anyway, producing daughter cells with the wrong number of chromosomes."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "The M checkpoint holds anaphase until every kinetochore is attached, and when it fails, cells proceed with misattached chromosomes and produce daughters with missing or extra chromosomes. Pausing is what a functioning checkpoint does, and neither re-replication nor a return to prophase is a checkpoint response.",
+  "difficulty": "unknown",
+  "tags": [
+    "failure",
+    "checkpoint"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-d4eb26fb1a74e2b8",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

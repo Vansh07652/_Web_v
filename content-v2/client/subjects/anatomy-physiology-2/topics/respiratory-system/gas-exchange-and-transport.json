@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-2:respiratory-system:gas-exchange-and-transport",
+  "slug": "gas-exchange-and-transport",
+  "title": "Gas Exchange and Transport",
+  "subject": {
+    "id": "subject:anatomy-physiology-2",
+    "slug": "anatomy-physiology-2",
+    "title": "Anatomy & Physiology II"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-2:respiratory-system",
+    "slug": "respiratory-system",
+    "title": "Respiratory System",
+    "order": 4
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "This section explains how oxygen and carbon dioxide are **exchanged** at the lungs and tissues (by diffusion down pressure gradients) and how they are **transported** in the blood.",
+    "whyItMatters": "Getting oxygen to cells and carbon dioxide out is the whole point of breathing and circulation working together. Understanding gas transport explains pulse oximetry, the effects of lung and blood disorders, and why carbon monoxide is deadly.",
+    "learningObjectives": "- Explain **external** and **internal respiration** (gas exchange).\n- Describe how **oxygen** is transported in blood.\n- Describe how **carbon dioxide** is transported.\n- Connect gas exchange to **partial pressure gradients**.",
+    "keyTerms": "",
+    "collegeNotes": "**Gases diffuse down partial pressure gradients.** Each gas moves from where its **partial pressure** (its individual pressure in a mixture) is **higher** to where it's **lower** — simple diffusion, no energy required. This principle drives all gas exchange:\n\n- **External respiration** (at the lungs): the air in the alveoli is **high in oxygen** and **low in carbon dioxide** compared with the blood arriving from the body. So **oxygen diffuses from alveoli into blood**, and **carbon dioxide diffuses from blood into alveoli** to be exhaled.\n- **Internal respiration** (at the tissues): body cells are **using oxygen** (so tissue oxygen is low) and **producing carbon dioxide** (so tissue CO₂ is high). So **oxygen diffuses from blood into tissues**, and **carbon dioxide diffuses from tissues into blood**.\n\nThe blood thus acts as a shuttle: loading oxygen and unloading CO₂ at the lungs, then unloading oxygen and loading CO₂ at the tissues.\n\n**Oxygen transport.** Oxygen doesn't dissolve well in blood, so about **98% is carried bound to hemoglobin** in red blood cells (recall each hemoglobin carries up to four O₂), with only a small amount dissolved in plasma. Hemoglobin **loads** oxygen where oxygen is plentiful (lungs) and **releases** it where oxygen is scarce (active tissues) — and it releases more readily where tissues are warm, acidic, or metabolically active (exactly where oxygen is most needed). **Pulse oximetry** estimates the percentage of hemoglobin saturated with oxygen.\n\n**Carbon dioxide transport.** CO₂ is carried in blood three ways:\n\n- **As bicarbonate (~70%):** most CO₂ is converted to **bicarbonate ions (HCO₃⁻)** in red blood cells (via carbonic anhydrase), which also links to blood **pH** (recall the bicarbonate buffer). This is the major transport form.\n- **Bound to hemoglobin (~20%):** carried on hemoglobin (at a different site than oxygen).\n- **Dissolved in plasma (~10%):** a small amount travels dissolved.\n\nBecause CO₂ transport is tied to bicarbonate and pH, breathing directly affects acid–base balance: breathing faster removes more CO₂ (raising pH), and breathing slower retains CO₂ (lowering pH) — the respiratory contribution to pH control from A&P I.",
+    "howItWorks": "Gas movement, both ends:\n\n```\nLungs (external respiration): alveoli high O₂/low CO₂ → O₂ INTO blood, CO₂ OUT to alveoli (exhaled)\nTissues (internal respiration): cells low O₂/high CO₂ → O₂ INTO tissues, CO₂ INTO blood\nO₂ transport: ~98% on hemoglobin. CO₂ transport: ~70% bicarbonate, ~20% on hemoglobin, ~10% dissolved.\n```",
+    "comparisons": "| Location | Oxygen | Carbon dioxide |\n| --- | --- | --- |\n| Lungs (external) | Blood → loaded | Blood → unloaded (exhaled) |\n| Tissues (internal) | Blood → unloaded | Blood → loaded |\n\n| Gas | Main transport form |\n| --- | --- |\n| Oxygen | ~98% on hemoglobin |\n| Carbon dioxide | ~70% as bicarbonate (+ ~20% hemoglobin, ~10% dissolved) |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\n**Pulse oximetry** measures hemoglobin oxygen saturation — a vital sign. **Carbon monoxide poisoning** is deadly because CO binds hemoglobin far more tightly than oxygen, blocking oxygen transport (and pulse oximeters can read falsely normal). Conditions that impair diffusion (**pneumonia**, **pulmonary edema**) or hemoglobin (**anemia**) reduce oxygen delivery. The CO₂–bicarbonate link explains why breathing rate affects **acid–base balance** — hyperventilation raises pH, hypoventilation lowers it — central to interpreting blood gases.",
+    "commonConfusions": "- **External vs internal respiration.** External = at the lungs; internal = at the tissues.\n- **Most oxygen rides on hemoglobin**, not dissolved in plasma.\n- **Most CO₂ travels as bicarbonate**, not bound to hemoglobin.\n- **Breathing affects pH** via CO₂ — a key acid–base concept.",
+    "memoryAids": "- **\"eXternal = eXchange at lungs; Internal = In the tissues.\"**\n- **O₂ = \"on hemoglobin\"; CO₂ = \"mostly bicarbonate.\"**\n- **\"Blow off CO₂ → raise pH.\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nOxygen moves from your lungs into your blood and then into your cells, while carbon dioxide moves the opposite way — and the blood carries them using clever packaging.\n\n### Analogy\nThink of gases like people leaving a crowded room for an empty one — they always spread toward where there's *less* of them. In your **lungs**, there's lots of oxygen and little carbon dioxide, so oxygen crowds *into* your blood and carbon dioxide leaves *out* to be exhaled. In your **tissues**, it's the reverse: your busy cells have used up oxygen and made carbon dioxide, so oxygen unloads *into* them and carbon dioxide loads *into* the blood. To carry all that oxygen, your blood uses **hemoglobin** (the oxygen \"seats\" in red blood cells), since oxygen doesn't dissolve well on its own. Carbon dioxide mostly gets repackaged into a dissolved form called **bicarbonate** for the trip back.\n\n### What is actually happening\nThis two-way swap is why breathing and blood flow must work together. It explains some important things in medicine: a **pulse oximeter** clipped on your finger measures how \"full\" your hemoglobin seats are with oxygen. **Carbon monoxide** (from smoke or faulty heaters) is deadly because it grabs those hemoglobin seats *harder* than oxygen, so oxygen can't get on board. And because carbon dioxide is linked to **bicarbonate** (which controls blood acidity), how fast you breathe actually changes your blood's **pH** — breathe fast and you blow off acid; breathe slow and it builds up.\n\n### Where the analogy stops\nPeople choose to move rooms, but gases just drift automatically toward lower crowding — and your body cleverly stacks the deck, releasing oxygen exactly where cells are hottest and busiest, right when they need it most.",
+    "quickReview": "- Gases diffuse down **partial pressure gradients**: at the **lungs** (external respiration) O₂ enters blood and CO₂ leaves; at the **tissues** (internal respiration) O₂ leaves blood and CO₂ enters.\n- **Oxygen**: ~98% carried on **hemoglobin**; released more where tissues are warm/active.\n- **Carbon dioxide**: ~70% as **bicarbonate**, ~20% on hemoglobin, ~10% dissolved — linking breathing to **acid–base balance**.\n- Pulse oximetry, carbon monoxide poisoning, and blood-gas interpretation all rest on these principles.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 22.4: Gas Exchange; 22.5: Transport of Gases. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — Lungs and Breathing; Carbon Monoxide Poisoning. https://medlineplus.gov/carbonmonoxidepoisoning.html",
+        "url": "https://medlineplus.gov/carbonmonoxidepoisoning.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/02-anatomy-physiology-ii/04-respiratory-system/03-gas-exchange-and-transport.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-2:endocrine-system:thyroid-and-parathyroid-glands",
+  "slug": "thyroid-and-parathyroid-glands",
+  "title": "Thyroid and Parathyroid Glands",
+  "subject": {
+    "id": "subject:anatomy-physiology-2",
+    "slug": "anatomy-physiology-2",
+    "title": "Anatomy & Physiology II"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-2:endocrine-system",
+    "slug": "endocrine-system",
+    "title": "Endocrine System",
+    "order": 1
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "The **thyroid** sets the body's metabolic rate, and the **parathyroid glands** control blood calcium. This section covers thyroid hormone (and calcitonin), parathyroid hormone (PTH), and their regulation.",
+    "whyItMatters": "Thyroid and calcium disorders are among the most common endocrine problems. Thyroid hormone affects nearly every cell's metabolism, and precise calcium control is essential for nerves, muscles, and the heart. These topics recur constantly in clinical care.",
+    "learningObjectives": "- Describe **thyroid hormone** and its effects on metabolism.\n- Explain thyroid regulation by **TSH** and negative feedback.\n- Describe **calcitonin** and its role.\n- Explain **parathyroid hormone (PTH)** and calcium balance.",
+    "keyTerms": "- **Thyroid hormone (T3/T4)** — hormones that set the body's metabolic rate; require **iodine**.\n- **TSH** — pituitary hormone that stimulates the thyroid.\n- **Calcitonin** — thyroid hormone that lowers blood calcium.\n- **Parathyroid glands** — four small glands on the thyroid that secrete PTH.\n- **Parathyroid hormone (PTH)** — raises blood calcium.",
+    "collegeNotes": "**Thyroid hormone — the metabolic thermostat.** The **thyroid gland** in the neck produces **thyroid hormone** (mainly **T4** and the more active **T3**), which increases the **metabolic rate** of nearly every cell — raising oxygen use, heat production, heart rate, and the pace of many body processes. Making thyroid hormone requires the mineral **iodine**, which is why iodine deficiency impairs thyroid function.\n\nThyroid hormone is regulated through the pituitary chain: the hypothalamus releases TRH → the pituitary releases **TSH** → TSH stimulates the thyroid → thyroid hormone rises → rising thyroid hormone **feeds back to suppress** TRH and TSH (negative feedback). This loop keeps metabolism steady.\n\n**Calcitonin.** The thyroid also makes **calcitonin**, which **lowers blood calcium** (mainly by inhibiting osteoclasts, slowing bone breakdown). In adult humans its role is relatively minor compared with PTH, but it is the counterpart that opposes calcium-raising signals.\n\n**Parathyroid glands and PTH — calcium control.** Behind the thyroid sit four tiny **parathyroid glands** that secrete **parathyroid hormone (PTH)** — the body's **main calcium-raising** hormone. Recall from the skeletal unit that when blood calcium falls, PTH:\n\n- stimulates **osteoclasts** to break down bone, releasing calcium,\n- increases calcium **reabsorption** in the kidneys, and\n- activates **vitamin D** to boost calcium **absorption** from the gut.\n\nRising calcium then suppresses further PTH — negative feedback. Because blood calcium must stay in a narrow range for nerves, muscles, and the heart to work, this system is tightly controlled. PTH and calcitonin form an opposing pair (PTH raises, calcitonin lowers), with PTH the dominant player in adults.",
+    "howItWorks": "Two regulated systems:\n\n```\nMetabolism: hypothalamus (TRH) → pituitary (TSH) → thyroid (T3/T4) → metabolic rate ↑\n   → high T3/T4 feeds back to lower TRH/TSH\n\nCalcium: low blood Ca²⁺ → PTH → bone releases Ca²⁺, kidney saves Ca²⁺, gut absorbs more (via vitamin D) → Ca²⁺ rises\n   → high Ca²⁺ → calcitonin (minor) and reduced PTH → Ca²⁺ falls\n```",
+    "comparisons": "| Hormone | Source | Main effect |\n| --- | --- | --- |\n| Thyroid hormone (T3/T4) | Thyroid | Raises metabolic rate (needs iodine) |\n| Calcitonin | Thyroid | Lowers blood calcium (minor in adults) |\n| PTH | Parathyroids | Raises blood calcium (bone, kidney, gut) |\n\n| Blood calcium | Hormone | Direction |\n| --- | --- | --- |\n| Low | PTH ↑ | Raises calcium |\n| High | Calcitonin ↑ / PTH ↓ | Lowers calcium |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\n**Hypothyroidism** (too little thyroid hormone) slows metabolism — fatigue, weight gain, cold intolerance; **hyperthyroidism** speeds it — weight loss, heat intolerance, rapid heart rate. Iodine deficiency causes **goiter**. Measuring **TSH** with thyroid hormone localizes the problem (high TSH + low thyroid hormone = primary thyroid failure). **PTH** disorders (hyper-/hypoparathyroidism) disturb calcium, causing nerve and muscle symptoms (tingling, cramps, or bone loss). Calcium imbalances also affect cardiac rhythm.",
+    "commonConfusions": "- **Thyroid hormone vs calcitonin.** Both from the thyroid, but thyroid hormone sets metabolism; calcitonin lowers calcium.\n- **PTH vs calcitonin.** PTH raises calcium; calcitonin lowers it (PTH dominates in adults).\n- **Hypo- vs hyperthyroid.** Hypo = slow (tired, cold, gaining); hyper = fast (jittery, hot, losing).\n- **TSH interpretation.** In primary hypothyroidism, TSH is *high* (pituitary pushing a failing thyroid) even though thyroid hormone is low.",
+    "memoryAids": "- **\"Thyroid = Throttle (metabolism).\"**\n- **\"PTH Pushes calcium up; calciTONIN Tones it down.\"**\n- **Hypothyroid = \"slow, cold, tired\"; hyperthyroid = \"fast, hot, wired.\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nYour thyroid is like the gas pedal for your whole body's speed, and your parathyroid glands are the managers that keep the right amount of calcium in your blood.\n\n### Analogy\nImagine your body is a car. The **thyroid** sets your engine's idle speed — the **metabolic rate**. Turn it up (too much thyroid hormone) and everything races: you feel hot, jittery, and lose weight. Turn it down (too little) and everything drags: you feel cold, tired, and gain weight. It needs a special fuel additive called **iodine** to work. Separately, four tiny **parathyroid glands** act like careful bankers for **calcium**: when calcium in the blood runs low, they release **PTH**, which withdraws calcium from your bones, saves it in your kidneys, and helps your gut absorb more — bringing the level back up. A different hormone, **calcitonin**, gently pushes calcium back down when it's too high.\n\n### What is actually happening\nThe thyroid's speed is controlled by a \"boss\" hormone from the pituitary called **TSH**, using **negative feedback** — when there's enough thyroid hormone, the body stops asking for more. Calcium control matters a lot because your **nerves, muscles, and heart** all depend on exactly the right amount; too little makes muscles cramp and tingle, and too much causes other problems. That's why these two glands, sitting right next to each other in your neck, are checked often in health care.\n\n### Where the analogy stops\nA car's idle is set once, but your thyroid constantly adjusts your \"engine speed\" to match your needs — faster when you're cold or growing, and the calcium bankers rebalance your blood every minute of every day.",
+    "quickReview": "- **Thyroid hormone (T3/T4)** raises the body's **metabolic rate** and needs **iodine**; it's controlled by pituitary **TSH** with negative feedback.\n- **Calcitonin** (thyroid) lowers blood calcium (minor in adults).\n- **PTH** (parathyroids) is the main **calcium-raising** hormone (bone, kidney, gut via vitamin D); calcium must stay in a narrow range for nerve/muscle/heart function.\n- Thyroid (hypo/hyper) and calcium (PTH) disorders are common; TSH + thyroid hormone together localize thyroid problems.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 17.4: The Thyroid Gland; 17.5: The Parathyroid Glands. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — Thyroid Diseases; Parathyroid Disorders. https://medlineplus.gov/thyroiddiseases.html",
+        "url": "https://medlineplus.gov/thyroiddiseases.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [
+    {
+      "value": "thyroid-and-parathyroid-glands",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "ap2-u01-s04",
+      "kind": "source_topic_id",
+      "source_id": "prenursing_notes"
+    },
+    {
+      "value": "04-thyroid-and-parathyroid-glands",
+      "kind": "source_file_stem",
+      "source_id": "prenursing_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:prenursing_notes:bed6ea6765e92ae5"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:prenursing_notes:bed6ea6765e92ae5"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:prenursing_notes:bed6ea6765e92ae5"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:prenursing_notes:bed6ea6765e92ae5"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/02-anatomy-physiology-ii/01-endocrine-system/04-thyroid-and-parathyroid-glands.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "\n# Thyroid and Parathyroid Glands\n\n## What This Topic Is\n\nThe **thyroid** sets the body's metabolic rate, and the **parathyroid glands** control blood calcium. This section covers thyroid hormone (and calcitonin), parathyroid hormone (PTH), and their regulation.\n\n## Why It Matters\n\nThyroid and calcium disorders are among the most common endocrine problems. Thyroid hormone affects nearly every cell's metabolism, and precise calcium control is essential for nerves, muscles, and the heart. These topics recur constantly in clinical care.\n\n## Learning Objectives\n\n- Describe **thyroid hormone** and its effects on metabolism.\n- Explain thyroid regulation by **TSH** and negative feedback.\n- Describe **calcitonin** and its role.\n- Explain **parathyroid hormone (PTH)** and calcium balance.\n\n## Key Terms\n\n- **Thyroid hormone (T3/T4)** — hormones that set the body's metabolic rate; require **iodine**.\n- **TSH** — pituitary hormone that stimulates the thyroid.\n- **Calcitonin** — thyroid hormone that lowers blood calcium.\n- **Parathyroid glands** — four small glands on the thyroid that secrete PTH.\n- **Parathyroid hormone (PTH)** — raises blood calcium.\n\n## Core Explanation\n\n**Thyroid hormone — the metabolic thermostat.** The **thyroid gland** in the neck produces **thyroid hormone** (mainly **T4** and the more active **T3**), which increases the **metabolic rate** of nearly every cell — raising oxygen use, heat production, heart rate, and the pace of many body processes. Making thyroid hormone requires the mineral **iodine**, which is why iodine deficiency impairs thyroid function.\n\nThyroid hormone is regulated through the pituitary chain: the hypothalamus releases TRH → the pituitary releases **TSH** → TSH stimulates the thyroid → thyroid hormone rises → rising thyroid hormone **feeds back to suppress** TRH and TSH (negative feedback). This loop keeps metabolism steady.\n\n**Calcitonin.** The thyroid also makes **calcitonin**, which **lowers blood calcium** (mainly by inhibiting osteoclasts, slowing bone breakdown). In adult humans its role is relatively minor compared with PTH, but it is the counterpart that opposes calcium-raising signals.\n\n**Parathyroid glands and PTH — calcium control.** Behind the thyroid sit four tiny **parathyroid glands** that secrete **parathyroid hormone (PTH)** — the body's **main calcium-raising** hormone. Recall from the skeletal unit that when blood calcium falls, PTH:\n\n- stimulates **osteoclasts** to break down bone, releasing calcium,\n- increases calcium **reabsorption** in the kidneys, and\n- activates **vitamin D** to boost calcium **absorption** from the gut.\n\nRising calcium then suppresses further PTH — negative feedback. Because blood calcium must stay in a narrow range for nerves, muscles, and the heart to work, this system is tightly controlled. PTH and calcitonin form an opposing pair (PTH raises, calcitonin lowers), with PTH the dominant player in adults.\n\n## How It Works\n\nTwo regulated systems:\n\n```\nMetabolism: hypothalamus (TRH) → pituitary (TSH) → thyroid (T3/T4) → metabolic rate ↑\n   → high T3/T4 feeds back to lower TRH/TSH\n\nCalcium: low blood Ca²⁺ → PTH → bone releases Ca²⁺, kidney saves Ca²⁺, gut absorbs more (via vitamin D) → Ca²⁺ rises\n   → high Ca²⁺ → calcitonin (minor) and reduced PTH → Ca²⁺ falls\n```\n\n## Important Relationships and Comparisons\n\n| Hormone | Source | Main effect |\n| --- | --- | --- |\n| Thyroid hormone (T3/T4) | Thyroid | Raises metabolic rate (needs iodine) |\n| Calcitonin | Thyroid | Lowers blood calcium (minor in adults) |\n| PTH | Parathyroids | Raises blood calcium (bone, kidney, gut) |\n\n| Blood calcium | Hormone | Direction |\n| --- | --- | --- |\n| Low | PTH ↑ | Raises calcium |\n| High | Calcitonin ↑ / PTH ↓ | Lowers calcium |\n\n## High-Yield Pre-Nursing Connections\n\n**Hypothyroidism** (too little thyroid hormone) slows metabolism — fatigue, weight gain, cold intolerance; **hyperthyroidism** speeds it — weight loss, heat intolerance, rapid heart rate. Iodine deficiency causes **goiter**. Measuring **TSH** with thyroid hormone localizes the problem (high TSH + low thyroid hormone = primary thyroid failure). **PTH** disorders (hyper-/hypoparathyroidism) disturb calcium, causing nerve and muscle symptoms (tingling, cramps, or bone loss). Calcium imbalances also affect cardiac rhythm.\n\n## Common Confusions\n\n- **Thyroid hormone vs calcitonin.** Both from the thyroid, but thyroid hormone sets metabolism; calcitonin lowers calcium.\n- **PTH vs calcitonin.** PTH raises calcium; calcitonin lowers it (PTH dominates in adults).\n- **Hypo- vs hyperthyroid.** Hypo = slow (tired, cold, gaining); hyper = fast (jittery, hot, losing).\n- **TSH interpretation.** In primary hypothyroidism, TSH is *high* (pituitary pushing a failing thyroid) even though thyroid hormone is low.\n\n## Memory Aids\n\n- **\"Thyroid = Throttle (metabolism).\"**\n- **\"PTH Pushes calcium up; calciTONIN Tones it down.\"**\n- **Hypothyroid = \"slow, cold, tired\"; hyperthyroid = \"fast, hot, wired.\"**\n\n## ELI-10 Explains\n\n### Simple idea\nYour thyroid is like the gas pedal for your whole body's speed, and your parathyroid glands are the managers that keep the right amount of calcium in your blood.\n\n### Analogy\nImagine your body is a car. The **thyroid** sets your engine's idle speed — the **metabolic rate**. Turn it up (too much thyroid hormone) and everything races: you feel hot, jittery, and lose weight. Turn it down (too little) and everything drags: you feel cold, tired, and gain weight. It needs a special fuel additive called **iodine** to work. Separately, four tiny **parathyroid glands** act like careful bankers for **calcium**: when calcium in the blood runs low, they release **PTH**, which withdraws calcium from your bones, saves it in your kidneys, and helps your gut absorb more — bringing the level back up. A different hormone, **calcitonin**, gently pushes calcium back down when it's too high.\n\n### What is actually happening\nThe thyroid's speed is controlled by a \"boss\" hormone from the pituitary called **TSH**, using **negative feedback** — when there's enough thyroid hormone, the body stops asking for more. Calcium control matters a lot because your **nerves, muscles, and heart** all depend on exactly the right amount; too little makes muscles cramp and tingle, and too much causes other problems. That's why these two glands, sitting right next to each other in your neck, are checked often in health care.\n\n### Where the analogy stops\nA car's idle is set once, but your thyroid constantly adjusts your \"engine speed\" to match your needs — faster when you're cold or growing, and the calcium bankers rebalance your blood every minute of every day.\n\n## Quick Recap\n\n- **Thyroid hormone (T3/T4)** raises the body's **metabolic rate** and needs **iodine**; it's controlled by pituitary **TSH** with negative feedback.\n- **Calcitonin** (thyroid) lowers blood calcium (minor in adults).\n- **PTH** (parathyroids) is the main **calcium-raising** hormone (bone, kidney, gut via vitamin D); calcium must stay in a narrow range for nerve/muscle/heart function.\n- Thyroid (hypo/hyper) and calcium (PTH) disorders are common; TSH + thyroid hormone together localize thyroid problems.\n\n## Sources\n\n- OpenStax, *Anatomy and Physiology 2e*, Chapter 17.4: The Thyroid Gland; 17.5: The Parathyroid Glands. https://openstax.org/details/books/anatomy-and-physiology-2e\n- U.S. National Library of Medicine, MedlinePlus — Thyroid Diseases; Parathyroid Disorders. https://medlineplus.gov/thyroiddiseases.html\n"
+}

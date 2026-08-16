@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:intermolecular-forces-liquids-solids:phase-changes-and-heating-curves",
+  "slug": "phase-changes-and-heating-curves",
+  "title": "Phase Changes and Heating Curves",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:intermolecular-forces-liquids-solids",
+    "slug": "intermolecular-forces-liquids-solids",
+    "title": "Intermolecular Forces Liquids Solids",
+    "order": 1
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "When a substance is heated, its temperature rises only while it stays within a single phase; during an actual phase change (melting, vaporizing), all added heat goes into breaking intermolecular forces rather than raising temperature, so the temperature plateaus. A heating curve plots temperature versus heat added, showing sloped segments (q = mcΔT, sensible heat) and flat segments (q = nΔHfus or nΔHvap, latent heat).",
+    "whyItMatters": "- **Cooking:** the plateau at 100 °C is why water can't get hotter than its boiling point at 1 atm; steam carries a lot of latent heat (why steam burns are severe).\n- **Climate:** evaporation/condensation of ocean water transports enormous amounts of energy around the planet.\n- **Medicine:** evaporative cooling (sweat) and freeze–thaw cycles rely on latent heat.\n- **Industry:** refrigeration, distillation, and power-plant steam cycles all hinge on phase-change energetics.",
+    "learningObjectives": "- List the six phase transitions and their enthalpy sign conventions.\n- Distinguish the two types of heat in a heating curve: q = mcΔT (slopes) and q = nΔH (plateaus).\n- Calculate the total heat to convert a substance across multiple phases.\n- Explain why temperature stays constant during a phase change.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nWhen a substance is heated, its temperature rises only while it stays within a single phase; during an actual phase change (melting, vaporizing), all added heat goes into breaking intermolecular forces rather than raising temperature, so the temperature plateaus. A heating curve plots temperature versus heat added, showing sloped segments (q = mcΔT, sensible heat) and flat segments (q = nΔHfus or nΔHvap, latent heat).\n\n### Key Ideas\n\n### The six transitions\n- **Melting/freezing** (solid ↔ liquid): ΔHfus ≈ 6.01 kJ/mol for water.\n- **Vaporization/condensation** (liquid ↔ gas): ΔHvap ≈ 40.7 kJ/mol for water.\n- **Sublimation/deposition** (solid ↔ gas): ΔHsub = ΔHfus + ΔHvap.\n\n### Sign convention\n- Endothermic (energy in, positive q): melting, vaporization, sublimation.\n- Exothermic (energy out, negative q): freezing, condensation, deposition.\n\n### Two kinds of heat\n- **Sensible heat** (temperature change within a phase): q = m·c·ΔT.\n- **Latent heat** (phase change at constant T): q = n·ΔH (or q = m·ΔH per gram).\n\n### Why plateaus occur\n- During a phase change, added energy breaks IMFs instead of increasing molecular kinetic energy, so temperature holds constant until the transition completes.\n\n### Equations and Variables\n\n- **Sensible heat (slopes):** q = m·c·ΔT, where q = heat (J), m = mass (g), c = specific heat capacity (J/g·°C), ΔT = temperature change.\n- **Latent heat of fusion (melting plateau):** q = n·ΔHfus (or q = m·ΔHfus,per gram).\n- **Latent heat of vaporization (boiling plateau):** q = n·ΔHvap.\n- **Sublimation:** ΔHsub = ΔHfus + ΔHvap (Hess's law).\n- **Water constants:** c_ice ≈ 2.09 J/g·°C, c_water = 4.184 J/g·°C, c_steam ≈ 2.01 J/g·°C; ΔHfus = 6.01 kJ/mol (= 334 J/g); ΔHvap = 40.7 kJ/mol (= 2260 J/g).\n\n### How It Works\n\n1. **Heat a solid:** temperature rises along a slope, q = m·c_ice·ΔT.\n2. **Reach the melting point:** added heat now breaks the lattice; temperature plateaus at 0 °C while ice melts (q = n·ΔHfus).\n3. **Heat the liquid:** temperature rises again, q = m·c_water·ΔT.\n4. **Reach the boiling point:** temperature plateaus at 100 °C while water vaporizes (q = n·ΔHvap).\n5. **Heat the gas:** temperature rises once more, q = m·c_steam·ΔT.\n6. **Sum all five contributions** to get the total heat for the entire process.\n\n### Worked Example\n\nHow much heat is required to convert 25.0 g of ice at −10.0 °C to steam at 110.0 °C?\n\n1. **Warm ice −10 → 0 °C:** q₁ = m·c_ice·ΔT = 25.0 × 2.09 × 10.0 = 522.5 J.\n2. **Melt ice:** q₂ = m·ΔHfus = 25.0 × 334 = 8,350 J.\n3. **Warm water 0 → 100 °C:** q₃ = 25.0 × 4.184 × 100 = 10,460 J.\n4. **Vaporize water:** q₄ = m·ΔHvap = 25.0 × 2260 = 56,500 J.\n5. **Warm steam 100 → 110 °C:** q₅ = 25.0 × 2.01 × 10.0 = 502.5 J.\n6. **Total:** q = 522.5 + 8,350 + 10,460 + 56,500 + 502.5 = 76,335 J ≈ **76.3 kJ**.\n\nNotice that vaporization (56.5 kJ) is by far the largest term — breaking the liquid's IMFs dominates the energy budget.",
+    "howItWorks": "1. **Heat a solid:** temperature rises along a slope, q = m·c_ice·ΔT.\n2. **Reach the melting point:** added heat now breaks the lattice; temperature plateaus at 0 °C while ice melts (q = n·ΔHfus).\n3. **Heat the liquid:** temperature rises again, q = m·c_water·ΔT.\n4. **Reach the boiling point:** temperature plateaus at 100 °C while water vaporizes (q = n·ΔHvap).\n5. **Heat the gas:** temperature rises once more, q = m·c_steam·ΔT.\n6. **Sum all five contributions** to get the total heat for the entire process.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Slopes of a heating curve: q = mcΔT. Plateaus: q = nΔHfus or nΔHvap.\n- Temperature is constant during a phase change.\n- ΔHsub = ΔHfus + ΔHvap.\n- Water: ΔHfus = 6.01 kJ/mol (334 J/g); ΔHvap = 40.7 kJ/mol (2260 J/g).\n- ΔHvap >> ΔHfus because vaporization must fully separate molecules, not just loosen them.\n- Vaporization is usually the largest heat term in a full ice→steam calculation.",
+    "commonConfusions": "- **\"Temperature rises during melting/boiling.\"** — Wrong. Temperature is constant throughout a phase change; added heat breaks IMFs.\n- **\"The plateau means heat isn't being absorbed.\"** — Wrong. Heat is absorbed the whole time (q = nΔH); it just doesn't raise temperature.\n- **\"Melting and boiling need about the same energy.\"** — Wrong. ΔHvap (40.7 kJ/mol) is about 6.8× ΔHfus (6.01 kJ/mol) for water.\n- **\"ΔHsub = ΔHfus × ΔHvap.\"** — Wrong. They add: ΔHsub = ΔHfus + ΔHvap.\n- **\"Specific heat is the same for ice, water, and steam.\"** — Wrong. They differ (2.09, 4.184, 2.01 J/g·°C).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nHeating ice is like waking up a sleepy crowd in stages. First you warm everyone up (temperature rises). But when it's time to actually break everyone apart into a new arrangement — melting the ice, or boiling the water — all your energy goes into unsticking the crowd, and nobody actually speeds up, so the \"temperature\" holds still while the crowd reorganizes. Only after everyone is unstuck does the temperature start climbing again. The energy spent just unsticking (with no temperature change) is the \"latent heat\" of the plateaus. (The analogy's limit: \"unsticking\" is breaking intermolecular forces, and the crowd's \"speed\" is molecular kinetic energy, which is exactly what temperature measures.)",
+    "quickReview": "- Six transitions; melting/vaporization/sublimation are endothermic.\n- Slopes q = mcΔT; plateaus q = nΔHfus / nΔHvap.\n- T constant during phase change; ΔHsub = ΔHfus + ΔHvap.\n- Water: 6.01 and 40.7 kJ/mol.\n- Worked: 25.0 g ice (−10 °C) → steam (110 °C) ≈ 76.3 kJ.",
+    "workedExamples": "### Worked Example\n\nHow much heat is required to convert 25.0 g of ice at −10.0 °C to steam at 110.0 °C?\n\n1. **Warm ice −10 → 0 °C:** q₁ = m·c_ice·ΔT = 25.0 × 2.09 × 10.0 = 522.5 J.\n2. **Melt ice:** q₂ = m·ΔHfus = 25.0 × 334 = 8,350 J.\n3. **Warm water 0 → 100 °C:** q₃ = 25.0 × 4.184 × 100 = 10,460 J.\n4. **Vaporize water:** q₄ = m·ΔHvap = 25.0 × 2260 = 56,500 J.\n5. **Warm steam 100 → 110 °C:** q₅ = 25.0 × 2.01 × 10.0 = 502.5 J.\n6. **Total:** q = 522.5 + 8,350 + 10,460 + 56,500 + 502.5 = 76,335 J ≈ **76.3 kJ**.\n\nNotice that vaporization (56.5 kJ) is by far the largest term — breaking the liquid's IMFs dominates the energy budget.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"10.3 Phase Transitions.\" https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+        "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"5.3 Enthalpy.\" https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy",
+        "url": "https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy"
+      },
+      {
+        "text": "NIST Chemistry WebBook, \"Water.\" https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185",
+        "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e* (book home). https://openstax.org/details/books/chemistry-2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      },
+      {
+        "text": "PubChem, \"Water\" (compound 962). https://pubchem.ncbi.nlm.nih.gov/compound/962",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "phase-changes-and-heating-curves",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "05-phase-changes-and-heating-curves",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:fd6520ffaf0d25ca"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:fd6520ffaf0d25ca"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:fd6520ffaf0d25ca"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:fd6520ffaf0d25ca"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/10-intermolecular-forces-liquids-solids/05-phase-changes-and-heating-curves.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Phase Changes and Heating Curves\n\n## Learning Goals\n- List the six phase transitions and their enthalpy sign conventions.\n- Distinguish the two types of heat in a heating curve: q = mcΔT (slopes) and q = nΔH (plateaus).\n- Calculate the total heat to convert a substance across multiple phases.\n- Explain why temperature stays constant during a phase change.\n\n## Core Concept\nWhen a substance is heated, its temperature rises only while it stays within a single phase; during an actual phase change (melting, vaporizing), all added heat goes into breaking intermolecular forces rather than raising temperature, so the temperature plateaus. A heating curve plots temperature versus heat added, showing sloped segments (q = mcΔT, sensible heat) and flat segments (q = nΔHfus or nΔHvap, latent heat).\n\n## Key Ideas\n### The six transitions\n- **Melting/freezing** (solid ↔ liquid): ΔHfus ≈ 6.01 kJ/mol for water.\n- **Vaporization/condensation** (liquid ↔ gas): ΔHvap ≈ 40.7 kJ/mol for water.\n- **Sublimation/deposition** (solid ↔ gas): ΔHsub = ΔHfus + ΔHvap.\n\n### Sign convention\n- Endothermic (energy in, positive q): melting, vaporization, sublimation.\n- Exothermic (energy out, negative q): freezing, condensation, deposition.\n\n### Two kinds of heat\n- **Sensible heat** (temperature change within a phase): q = m·c·ΔT.\n- **Latent heat** (phase change at constant T): q = n·ΔH (or q = m·ΔH per gram).\n\n### Why plateaus occur\n- During a phase change, added energy breaks IMFs instead of increasing molecular kinetic energy, so temperature holds constant until the transition completes.\n\n## Equations and Variables\n- **Sensible heat (slopes):** q = m·c·ΔT, where q = heat (J), m = mass (g), c = specific heat capacity (J/g·°C), ΔT = temperature change.\n- **Latent heat of fusion (melting plateau):** q = n·ΔHfus (or q = m·ΔHfus,per gram).\n- **Latent heat of vaporization (boiling plateau):** q = n·ΔHvap.\n- **Sublimation:** ΔHsub = ΔHfus + ΔHvap (Hess's law).\n- **Water constants:** c_ice ≈ 2.09 J/g·°C, c_water = 4.184 J/g·°C, c_steam ≈ 2.01 J/g·°C; ΔHfus = 6.01 kJ/mol (= 334 J/g); ΔHvap = 40.7 kJ/mol (= 2260 J/g).\n\n## How It Works\n1. **Heat a solid:** temperature rises along a slope, q = m·c_ice·ΔT.\n2. **Reach the melting point:** added heat now breaks the lattice; temperature plateaus at 0 °C while ice melts (q = n·ΔHfus).\n3. **Heat the liquid:** temperature rises again, q = m·c_water·ΔT.\n4. **Reach the boiling point:** temperature plateaus at 100 °C while water vaporizes (q = n·ΔHvap).\n5. **Heat the gas:** temperature rises once more, q = m·c_steam·ΔT.\n6. **Sum all five contributions** to get the total heat for the entire process.\n\n## Worked Example\nHow much heat is required to convert 25.0 g of ice at −10.0 °C to steam at 110.0 °C?\n\n1. **Warm ice −10 → 0 °C:** q₁ = m·c_ice·ΔT = 25.0 × 2.09 × 10.0 = 522.5 J.\n2. **Melt ice:** q₂ = m·ΔHfus = 25.0 × 334 = 8,350 J.\n3. **Warm water 0 → 100 °C:** q₃ = 25.0 × 4.184 × 100 = 10,460 J.\n4. **Vaporize water:** q₄ = m·ΔHvap = 25.0 × 2260 = 56,500 J.\n5. **Warm steam 100 → 110 °C:** q₅ = 25.0 × 2.01 × 10.0 = 502.5 J.\n6. **Total:** q = 522.5 + 8,350 + 10,460 + 56,500 + 502.5 = 76,335 J ≈ **76.3 kJ**.\n\nNotice that vaporization (56.5 kJ) is by far the largest term — breaking the liquid's IMFs dominates the energy budget.\n\n## Why It Matters\n- **Cooking:** the plateau at 100 °C is why water can't get hotter than its boiling point at 1 atm; steam carries a lot of latent heat (why steam burns are severe).\n- **Climate:** evaporation/condensation of ocean water transports enormous amounts of energy around the planet.\n- **Medicine:** evaporative cooling (sweat) and freeze–thaw cycles rely on latent heat.\n- **Industry:** refrigeration, distillation, and power-plant steam cycles all hinge on phase-change energetics.\n\n## High-Yield Facts\n- Slopes of a heating curve: q = mcΔT. Plateaus: q = nΔHfus or nΔHvap.\n- Temperature is constant during a phase change.\n- ΔHsub = ΔHfus + ΔHvap.\n- Water: ΔHfus = 6.01 kJ/mol (334 J/g); ΔHvap = 40.7 kJ/mol (2260 J/g).\n- ΔHvap >> ΔHfus because vaporization must fully separate molecules, not just loosen them.\n- Vaporization is usually the largest heat term in a full ice→steam calculation.\n\n## Eli Explains\nHeating ice is like waking up a sleepy crowd in stages. First you warm everyone up (temperature rises). But when it's time to actually break everyone apart into a new arrangement — melting the ice, or boiling the water — all your energy goes into unsticking the crowd, and nobody actually speeds up, so the \"temperature\" holds still while the crowd reorganizes. Only after everyone is unstuck does the temperature start climbing again. The energy spent just unsticking (with no temperature change) is the \"latent heat\" of the plateaus. (The analogy's limit: \"unsticking\" is breaking intermolecular forces, and the crowd's \"speed\" is molecular kinetic energy, which is exactly what temperature measures.)\n\n## Common Confusions\n- **\"Temperature rises during melting/boiling.\"** — Wrong. Temperature is constant throughout a phase change; added heat breaks IMFs.\n- **\"The plateau means heat isn't being absorbed.\"** — Wrong. Heat is absorbed the whole time (q = nΔH); it just doesn't raise temperature.\n- **\"Melting and boiling need about the same energy.\"** — Wrong. ΔHvap (40.7 kJ/mol) is about 6.8× ΔHfus (6.01 kJ/mol) for water.\n- **\"ΔHsub = ΔHfus × ΔHvap.\"** — Wrong. They add: ΔHsub = ΔHfus + ΔHvap.\n- **\"Specific heat is the same for ice, water, and steam.\"** — Wrong. They differ (2.09, 4.184, 2.01 J/g·°C).\n\n## Quick Review\n- Six transitions; melting/vaporization/sublimation are endothermic.\n- Slopes q = mcΔT; plateaus q = nΔHfus / nΔHvap.\n- T constant during phase change; ΔHsub = ΔHfus + ΔHvap.\n- Water: 6.01 and 40.7 kJ/mol.\n- Worked: 25.0 g ice (−10 °C) → steam (110 °C) ≈ 76.3 kJ.\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"10.3 Phase Transitions.\" https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions\n- OpenStax, *Chemistry 2e*, \"5.3 Enthalpy.\" https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy\n- NIST Chemistry WebBook, \"Water.\" https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185\n- OpenStax, *Chemistry 2e* (book home). https://openstax.org/details/books/chemistry-2e\n- PubChem, \"Water\" (compound 962). https://pubchem.ncbi.nlm.nih.gov/compound/962\n"
+}

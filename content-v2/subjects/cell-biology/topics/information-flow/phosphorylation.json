@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:information-flow:phosphorylation",
+  "slug": "phosphorylation",
+  "title": "Phosphorylation",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:information-flow",
+    "slug": "information-flow",
+    "title": "Information Flow",
+    "order": 10
+  },
+  "order": 16,
+  "status": "final",
+  "sections": {
+    "overview": "Protein phosphorylation is the covalent addition of a phosphate group to a protein — most commonly to the hydroxyl side chains of serine, threonine, or tyrosine — catalyzed by protein kinases and reversed by protein phosphatases. It is the most widespread post-translational modification and the primary language of intracellular signaling. By adding a bulky, doubly negative-charge group, phosphorylation changes a protein's conformation, activity, interactions, or localization, often within seconds, making it a fast, reversible, and switch-like regulator of virtually every cellular process.",
+    "whyItMatters": "Phosphorylation governs signal transduction, metabolism, gene expression, the cell cycle (CDK–cyclin), apoptosis, and the cytoskeleton. Dysregulated kinases/phosphatases are central to cancer (e.g., BCR-ABL in CML, HER2, BRAF) and are among the most successful drug targets — kinase inhibitors (imatinib, trastuzumab, vemurafenib) are mainstays of targeted therapy, and many tumor suppressors are phosphatases (e.g., PTEN).",
+    "learningObjectives": "- Describe protein phosphorylation and the enzymes that catalyze it.\n- Explain how kinases and phosphatases make phosphorylation a reversible regulatory switch.\n- Give examples of phosphorylation controlling enzyme activity, signaling, and the cell cycle.\n- Explain the role of ATP as the phosphate donor and the structural consequences of phosphorylation.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nProtein phosphorylation is the covalent addition of a phosphate group to a protein — most commonly to the hydroxyl side chains of serine, threonine, or tyrosine — catalyzed by protein kinases and reversed by protein phosphatases. It is the most widespread post-translational modification and the primary language of intracellular signaling. By adding a bulky, doubly negative-charge group, phosphorylation changes a protein's conformation, activity, interactions, or localization, often within seconds, making it a fast, reversible, and switch-like regulator of virtually every cellular process.\n\n### Key Components\n\n- **Protein kinases** — enzymes that transfer the γ-phosphate of ATP to a protein substrate (e.g., protein kinase A, MAP kinases, CDKs, receptor tyrosine kinases).\n- **Protein phosphatases** — enzymes that hydrolyze the phosphoester bond to remove the phosphate (e.g., PP1, PP2A).\n- **ATP** — the phosphate donor; the γ-phosphate is transferred to the substrate.\n- **Target residues** — serine, threonine (serine/threonine kinases) and tyrosine (tyrosine kinases); some kinases are dual-specificity.\n- **Phospho-binding domains** — e.g., SH2, 14-3-3 proteins, that read the modification and propagate the signal.\n- **Kinase cascades** — sequential phosphorylation of one kinase by another (e.g., MAPK cascade), amplifying signals.\n\n### Mechanism\n\nA kinase positions ATP and the substrate so the γ-phosphate of ATP is transferred to the target hydroxyl, forming a phosphoester bond and releasing ADP. The added phosphate (with its two negative charges at physiological pH) can stabilize a new conformation, create or block a binding site, or alter catalytic activity. Phosphatases reverse this by hydrolyzing the bond, regenerating the unmodified protein and inorganic phosphate. Because each phosphorylation event is a binary, enzyme-catalyzed toggle, the net state of a protein reflects the local balance of kinase and phosphatase activity.\n\n### How It Works\n\n1. A signal (hormone, growth factor, stress) activates a kinase directly or through a cascade.\n2. The kinase binds its substrate and transfers the γ-phosphate of ATP to a specific Ser/Thr/Tyr residue.\n3. The added phosphate induces a conformational change or creates a docking site for phospho-binding domains.\n4. Downstream effectors bind or are released, changing enzyme activity, protein–protein interactions, or localization.\n5. The signal is propagated or amplified (e.g., one activated kinase phosphorylates many substrates).\n6. Phosphatases remove the phosphate, returning the protein to its basal state and terminating the signal.\n\n### Energy and Directionality\n\nPhosphorylation is energetically costly and directional in an important sense: each event consumes one ATP (hydrolyzed to ADP), so a protein cannot phosphorylate itself without energy input, and the modification is always installed by the forward (kinase) reaction and removed by the opposing (phosphatase) reaction. This creates directionality and reversibility — a signaling pathway flows \"uphill\" when kinases dominate and is reset \"downhill\" by phosphatases. The large free-energy change of ATP hydrolysis makes phosphorylation effectively irreversible until a phosphatase acts.\n\n### Experimental Evidence\n\n- **Glycogen phosphorylase (Krebs & Fischer)** — showed that phosphorylation converts the enzyme between active and inactive forms, earning a Nobel Prize and establishing phosphorylation as a regulatory mechanism.\n- **³²P-labeling** — incubating cells with radioactive ATP/phosphate revealed hundreds of phosphorylated proteins responding to stimuli.\n- **v-Src and tyrosine kinases** — the discovery that the Rous sarcoma virus oncogene encodes a tyrosine kinase linked phosphorylation to cancer.\n- **Kinase/phosphatase inhibitors** — specific inhibitors (e.g., okadaic acid for PP1/PP2A) block dephosphorylation and change pathway output, confirming the balance model.\n- **Mass spectrometry phosphoproteomics** — catalogs thousands of phosphorylation sites and their dynamics globally.\n\n### Technique\n\nPhosphorylation is detected with **phospho-specific antibodies** (Western blot, immunofluorescence), **³²P metabolic labeling**, **Phos-tag SDS-PAGE** (mobility shift), and **mass spectrometry–based phosphoproteomics** (identify and quantify sites). **In vitro kinase assays** with [γ-³²P]ATP measure enzyme activity; **inhibitors** and **phosphatase treatment** test reversibility.",
+    "howItWorks": "1. A signal (hormone, growth factor, stress) activates a kinase directly or through a cascade.\n2. The kinase binds its substrate and transfers the γ-phosphate of ATP to a specific Ser/Thr/Tyr residue.\n3. The added phosphate induces a conformational change or creates a docking site for phospho-binding domains.\n4. Downstream effectors bind or are released, changing enzyme activity, protein–protein interactions, or localization.\n5. The signal is propagated or amplified (e.g., one activated kinase phosphorylates many substrates).\n6. Phosphatases remove the phosphate, returning the protein to its basal state and terminating the signal.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Kinases add phosphate (from ATP) to Ser/Thr/Tyr; phosphatases remove it.\n- Phosphorylation is reversible — the balance of kinase vs phosphatase sets the state.\n- Each event consumes one ATP (γ-phosphate transfer).\n- Adds a bulky, −2-charged group → conformational/activity/recruitment changes.\n- Phospho-binding domains (SH2, 14-3-3) read the mark.\n- Kinase cascades (MAPK) amplify signals.\n- Examples: glycogen phosphorylase, CDK–cyclin, receptor tyrosine kinases, PTEN phosphatase.",
+    "commonConfusions": "- **\"Phosphorylation always activates a protein\"** — it can also inactivate (e.g., some enzymes), change localization, or mark for degradation.\n- **\"Kinases add phosphate from free phosphate\"** — the donor is ATP (γ-phosphate), not inorganic phosphate.\n- **\"Phosphorylation is permanent\"** — phosphatases reverse it, making it a dynamic, reversible switch.\n- **\"Only serine is phosphorylated\"** — Ser/Thr and Tyr are all common targets.\n- **\"Kinases only act in signaling\"** — they also regulate metabolism, transcription, the cell cycle, and the cytoskeleton.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a light switch controlled by two people: one whose job is to flip it on (the kinase) and another whose job is to flip it off (the phosphatase). The \"flipping\" is done by sticking a special charged tag (phosphate) onto the protein, using a battery (ATP) for energy. Because you can always flip it back, the cell can turn proteins on and off instantly and reversibly. (The analogy's limit: real phosphorylation adds a chemical group to specific amino acids, which changes the protein's shape — not just an on/off position — and often many tags, not one, tune its activity.)",
+    "quickReview": "- Kinase (adds P from ATP) ↔ phosphatase (removes P) = reversible switch.\n- Targets Ser/Thr/Tyr hydroxyls; consumes ATP.\n- Changes conformation, activity, interactions, localization.\n- Phospho-readers: SH2, 14-3-3; cascades (MAPK) amplify.\n- Krebs/Fischer glycogen phosphorylase; oncogenic tyrosine kinases.\n- Dysregulation → cancer; kinase inhibitors are key drugs.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"9.3 Response to the Signal.\" https://openstax.org/books/biology-2e/pages/9-3-response-to-the-signal",
+        "url": "https://openstax.org/books/biology-2e/pages/9-3-response-to-the-signal"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"16.6 Eukaryotic Translational and Post-translational Gene Regulation.\" https://openstax.org/books/biology-2e/pages/16-6-eukaryotic-translational-and-post-translational-gene-regulation",
+        "url": "https://openstax.org/books/biology-2e/pages/16-6-eukaryotic-translational-and-post-translational-gene-regulation"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"From RNA to Protein.\" https://www.ncbi.nlm.nih.gov/books/NBK26829/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"9.4 Signaling in Single-Celled Organisms.\" https://openstax.org/books/biology-2e/pages/9-4-signaling-in-single-celled-organisms",
+        "url": "https://openstax.org/books/biology-2e/pages/9-4-signaling-in-single-celled-organisms"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "phosphorylation",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "16-phosphorylation",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:58154f9822e5296e"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:58154f9822e5296e"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:58154f9822e5296e"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:58154f9822e5296e"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/10-information-flow/16-phosphorylation.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Phosphorylation\n\n## Learning Goals\n- Describe protein phosphorylation and the enzymes that catalyze it.\n- Explain how kinases and phosphatases make phosphorylation a reversible regulatory switch.\n- Give examples of phosphorylation controlling enzyme activity, signaling, and the cell cycle.\n- Explain the role of ATP as the phosphate donor and the structural consequences of phosphorylation.\n\n## Core Concept\nProtein phosphorylation is the covalent addition of a phosphate group to a protein — most commonly to the hydroxyl side chains of serine, threonine, or tyrosine — catalyzed by protein kinases and reversed by protein phosphatases. It is the most widespread post-translational modification and the primary language of intracellular signaling. By adding a bulky, doubly negative-charge group, phosphorylation changes a protein's conformation, activity, interactions, or localization, often within seconds, making it a fast, reversible, and switch-like regulator of virtually every cellular process.\n\n## Key Components\n- **Protein kinases** — enzymes that transfer the γ-phosphate of ATP to a protein substrate (e.g., protein kinase A, MAP kinases, CDKs, receptor tyrosine kinases).\n- **Protein phosphatases** — enzymes that hydrolyze the phosphoester bond to remove the phosphate (e.g., PP1, PP2A).\n- **ATP** — the phosphate donor; the γ-phosphate is transferred to the substrate.\n- **Target residues** — serine, threonine (serine/threonine kinases) and tyrosine (tyrosine kinases); some kinases are dual-specificity.\n- **Phospho-binding domains** — e.g., SH2, 14-3-3 proteins, that read the modification and propagate the signal.\n- **Kinase cascades** — sequential phosphorylation of one kinase by another (e.g., MAPK cascade), amplifying signals.\n\n## Mechanism\nA kinase positions ATP and the substrate so the γ-phosphate of ATP is transferred to the target hydroxyl, forming a phosphoester bond and releasing ADP. The added phosphate (with its two negative charges at physiological pH) can stabilize a new conformation, create or block a binding site, or alter catalytic activity. Phosphatases reverse this by hydrolyzing the bond, regenerating the unmodified protein and inorganic phosphate. Because each phosphorylation event is a binary, enzyme-catalyzed toggle, the net state of a protein reflects the local balance of kinase and phosphatase activity.\n\n## How It Works\n1. A signal (hormone, growth factor, stress) activates a kinase directly or through a cascade.\n2. The kinase binds its substrate and transfers the γ-phosphate of ATP to a specific Ser/Thr/Tyr residue.\n3. The added phosphate induces a conformational change or creates a docking site for phospho-binding domains.\n4. Downstream effectors bind or are released, changing enzyme activity, protein–protein interactions, or localization.\n5. The signal is propagated or amplified (e.g., one activated kinase phosphorylates many substrates).\n6. Phosphatases remove the phosphate, returning the protein to its basal state and terminating the signal.\n\n## Energy and Directionality\nPhosphorylation is energetically costly and directional in an important sense: each event consumes one ATP (hydrolyzed to ADP), so a protein cannot phosphorylate itself without energy input, and the modification is always installed by the forward (kinase) reaction and removed by the opposing (phosphatase) reaction. This creates directionality and reversibility — a signaling pathway flows \"uphill\" when kinases dominate and is reset \"downhill\" by phosphatases. The large free-energy change of ATP hydrolysis makes phosphorylation effectively irreversible until a phosphatase acts.\n\n## Experimental Evidence\n- **Glycogen phosphorylase (Krebs & Fischer)** — showed that phosphorylation converts the enzyme between active and inactive forms, earning a Nobel Prize and establishing phosphorylation as a regulatory mechanism.\n- **³²P-labeling** — incubating cells with radioactive ATP/phosphate revealed hundreds of phosphorylated proteins responding to stimuli.\n- **v-Src and tyrosine kinases** — the discovery that the Rous sarcoma virus oncogene encodes a tyrosine kinase linked phosphorylation to cancer.\n- **Kinase/phosphatase inhibitors** — specific inhibitors (e.g., okadaic acid for PP1/PP2A) block dephosphorylation and change pathway output, confirming the balance model.\n- **Mass spectrometry phosphoproteomics** — catalogs thousands of phosphorylation sites and their dynamics globally.\n\n## Technique\nPhosphorylation is detected with **phospho-specific antibodies** (Western blot, immunofluorescence), **³²P metabolic labeling**, **Phos-tag SDS-PAGE** (mobility shift), and **mass spectrometry–based phosphoproteomics** (identify and quantify sites). **In vitro kinase assays** with [γ-³²P]ATP measure enzyme activity; **inhibitors** and **phosphatase treatment** test reversibility.\n\n## Why It Matters\nPhosphorylation governs signal transduction, metabolism, gene expression, the cell cycle (CDK–cyclin), apoptosis, and the cytoskeleton. Dysregulated kinases/phosphatases are central to cancer (e.g., BCR-ABL in CML, HER2, BRAF) and are among the most successful drug targets — kinase inhibitors (imatinib, trastuzumab, vemurafenib) are mainstays of targeted therapy, and many tumor suppressors are phosphatases (e.g., PTEN).\n\n## High-Yield Facts\n- Kinases add phosphate (from ATP) to Ser/Thr/Tyr; phosphatases remove it.\n- Phosphorylation is reversible — the balance of kinase vs phosphatase sets the state.\n- Each event consumes one ATP (γ-phosphate transfer).\n- Adds a bulky, −2-charged group → conformational/activity/recruitment changes.\n- Phospho-binding domains (SH2, 14-3-3) read the mark.\n- Kinase cascades (MAPK) amplify signals.\n- Examples: glycogen phosphorylase, CDK–cyclin, receptor tyrosine kinases, PTEN phosphatase.\n\n## Eli Explains\nImagine a light switch controlled by two people: one whose job is to flip it on (the kinase) and another whose job is to flip it off (the phosphatase). The \"flipping\" is done by sticking a special charged tag (phosphate) onto the protein, using a battery (ATP) for energy. Because you can always flip it back, the cell can turn proteins on and off instantly and reversibly. (The analogy's limit: real phosphorylation adds a chemical group to specific amino acids, which changes the protein's shape — not just an on/off position — and often many tags, not one, tune its activity.)\n\n## Common Confusions\n- **\"Phosphorylation always activates a protein\"** — it can also inactivate (e.g., some enzymes), change localization, or mark for degradation.\n- **\"Kinases add phosphate from free phosphate\"** — the donor is ATP (γ-phosphate), not inorganic phosphate.\n- **\"Phosphorylation is permanent\"** — phosphatases reverse it, making it a dynamic, reversible switch.\n- **\"Only serine is phosphorylated\"** — Ser/Thr and Tyr are all common targets.\n- **\"Kinases only act in signaling\"** — they also regulate metabolism, transcription, the cell cycle, and the cytoskeleton.\n\n## Quick Review\n- Kinase (adds P from ATP) ↔ phosphatase (removes P) = reversible switch.\n- Targets Ser/Thr/Tyr hydroxyls; consumes ATP.\n- Changes conformation, activity, interactions, localization.\n- Phospho-readers: SH2, 14-3-3; cascades (MAPK) amplify.\n- Krebs/Fischer glycogen phosphorylase; oncogenic tyrosine kinases.\n- Dysregulation → cancer; kinase inhibitors are key drugs.\n\n## Sources\n- OpenStax, *Biology 2e*, \"9.3 Response to the Signal.\" https://openstax.org/books/biology-2e/pages/9-3-response-to-the-signal\n- OpenStax, *Biology 2e*, \"16.6 Eukaryotic Translational and Post-translational Gene Regulation.\" https://openstax.org/books/biology-2e/pages/16-6-eukaryotic-translational-and-post-translational-gene-regulation\n- Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"From RNA to Protein.\" https://www.ncbi.nlm.nih.gov/books/NBK26829/\n- OpenStax, *Biology 2e*, \"9.4 Signaling in Single-Celled Organisms.\" https://openstax.org/books/biology-2e/pages/9-4-signaling-in-single-celled-organisms\n"
+}

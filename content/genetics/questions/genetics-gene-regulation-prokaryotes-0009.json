@@ -1,0 +1,40 @@
+{
+  "id": "genetics-gene-regulation-prokaryotes-0009",
+  "subject": "genetics",
+  "lesson": "gene-regulation-prokaryotes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A partial diploid *E. coli* has the genotype F' *lacI^+* *lacZ^+* / *lacI^-* *lacZ^+* (both copies carry *lacO^+* and *lacY^+*). In the absence of lactose, is beta galactosidase produced?",
+  "options": [
+    {
+      "id": "a",
+      "text": "No, because the repressor made from *lacI^+* is diffusible and silences both copies of the operon."
+    },
+    {
+      "id": "b",
+      "text": "Yes, because the *lacI^-* copy cannot make repressor, so its own *lacZ^+* is transcribed."
+    },
+    {
+      "id": "c",
+      "text": "Yes, because *lacI^-* is dominant over *lacI^+*, so no functional repressor is made."
+    },
+    {
+      "id": "d",
+      "text": "No, because the *lacI^+* allele makes a defective repressor that cannot bind the operator."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The Lac repressor is a diffusible protein, so it acts in trans: repressor made from the *lacI^+* copy binds operators on both DNA molecules in the cell. Without lactose the repressor is active, so both *lacZ^+* copies remain off and no beta galactosidase is made. B treats the repressor as if it acted only in cis, and D inverts the meaning of the *lacI^+* allele.",
+  "difficulty": "unknown",
+  "tags": [
+    "laci",
+    "trans",
+    "partial",
+    "diploid"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-3367b1216fd616d4",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-expression-transcription-0006",
+  "subject": "genetics",
+  "lesson": "gene-expression-transcription",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application The lac operon of *E. coli* contains a promoter, an operator, and the structural genes *lacZ*, *lacY*, and *lacA*. Which statement correctly describes how these elements are organized and expressed?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The operator is the DNA site where RNA polymerase binds to begin transcription of the structural genes."
+    },
+    {
+      "id": "b",
+      "text": "The structural genes *lacZ*, *lacY*, and *lacA* are transcribed together as a single polycistronic mRNA."
+    },
+    {
+      "id": "c",
+      "text": "The promoter is the DNA site where the Lac repressor binds to block transcription."
+    },
+    {
+      "id": "d",
+      "text": "The repressor gene *lacI* lies inside the operon and is transcribed along with the structural genes."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "In the lac operon, the promoter, operator, and structural genes are arranged in one cluster, and RNA polymerase transcribes *lacZ*, *lacY*, and *lacA* as a single polycistronic mRNA, so the three enzymes are expressed together. A and C swap the promoter and the operator, since the promoter is the RNA polymerase binding site and the operator is the Lac repressor binding site. D is wrong because *lacI* lies outside the operon and is transcribed on its own.",
+  "difficulty": "unknown",
+  "tags": [
+    "lac",
+    "operon",
+    "organization"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-d70bead5ed76165d",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

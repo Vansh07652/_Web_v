@@ -1,0 +1,40 @@
+{
+  "id": "physics-2-dc-circuits-0001",
+  "subject": "physics-2",
+  "lesson": "dc-circuits",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For series and parallel resistor combination, use $tau = R C$ in a RC time constant model. The first quantity is 3.40 Ohm and the second is 2.00 F. What is the time constant?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$3.40\\ \\text{s}$"
+    },
+    {
+      "id": "b",
+      "text": "$6.80\\ \\text{s}$"
+    },
+    {
+      "id": "c",
+      "text": "$13.60\\ \\text{s}$"
+    },
+    {
+      "id": "d",
+      "text": "$8.50\\ \\text{s}$"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Using $tau = R C$ gives 3.40 Ohm times 2.00 F = $6.80\\ \\text{s}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to s, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "series",
+    "parallel",
+    "resistor",
+    "combination"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ecaad7dd501f0cf0",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:evidence-based-practice-basic-statistics:core-topics:mean-median-mode-and-range",
+  "slug": "mean-median-mode-and-range",
+  "title": "Mean, Median, Mode, and Range",
+  "subject": {
+    "id": "subject:evidence-based-practice-basic-statistics",
+    "slug": "evidence-based-practice-basic-statistics",
+    "title": "Evidence-Based Practice & Basic Statistics"
+  },
+  "unit": {
+    "id": "unit:evidence-based-practice-basic-statistics:core-topics",
+    "slug": "core-topics",
+    "title": "Core Topics",
+    "order": 1
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nSorting comes first, then counting: put the five values in order and step to the middle position. With five values the middle is the third one, 71. Notice that no addition was needed, because the median is defined by where a value sits in the ordered line, not by how large the values are.\n\n### Question 2\n\nCenter and spread answer different questions. Central tendency asks where the typical value sits; the range asks how far apart the extremes are. Subtracting the lowest reading from the highest, 148 - 96, gives 52 mmHg, a width, so it says nothing about where the readings cluster.\n\n### Question 3\n\nYou cannot average the labels \"type O\" and \"type A\" the way you can average two temperatures, because the labels have no numeric size or order. What you can always do with labels is count them, and the category with the highest count is the mode. That is why the mode is the one measure of center that works for categorical data.\n\n### Question 4\n\nThe mean is the total divided equally, so any change in a single value changes the total and therefore the mean: 72 extra hours spread over 9 students raises the average by 8. The median only asks which observation is fifth in line. Because the corrected entry was already above the middle and simply moved farther up, the ordering around the middle never changed.\n\n### Question 5\n\nPicture the values as weights on a ruler: the mean is the balance point, so one weight sitting far out at 22 days tips the balance toward it. The median is just the middle mark of the row of weights and does not care how far the last one sits. That gap, a balance point of 6 days against a middle of 3.5 days, is what right skew looks like numerically.\n\n### Question 6\n\nAdding the same amount to every value slides the entire data set along the number line without changing the gaps between values. Anything that describes location, such as the mean and the median, slides by that same 2 hours. Anything that describes width, such as the range, stays put because the highest and lowest values moved together.\n\n### Question 7\n\nReporting only the range is like describing a race by naming only the winner and the last-place finisher. Both classes have the same fastest and slowest scores, so the range is identical, yet in one class everyone else is bunched near the bottom. Because only two observations contribute, the range cannot reveal what the rest of the data are doing.\n\n### Question 8\n\nWith eight scores in order, positions four and five tie for the middle, so the median is defined as the point halfway between them. Halfway between 85 and 88 is 86.5. This is why a median can be a value no student actually earned; it marks a position, not an observation.\n\n### Question 9\n\nRaising the mean of five scores by 2 points requires 5 x 2 = 10 extra points in the total. The new exam must supply the new average of 86 for itself plus the 8 points needed to lift the four earlier exams from 84 to 86, giving 94. That is why nudging an average upward takes a score well above the average.\n\n### Question 10\n\nData arrive in the order they were collected, not in rank order, so the first step for a median is always to sort. Once sorted, the two middle counts are 4 and 5, and their midpoint is 4.5. The mode is found by tallying instead of sorting: 2 is the only count that appears more than once.\n\n### Question 11\n\nTo combine means, rebuild the totals first: group A contributes 800 points and group B contributes 2700, for 3500 points shared among 40 students. Averaging 80 and 90 directly would treat 10 students as equal in weight to 30. Since three-quarters of the students belong to the higher-scoring group, the combined mean lands three-quarters of the way from 80 toward 90.\n\n### Question 12\n\nPushing the largest value even higher moves only the statistics that depend on magnitude or on the extremes. The total grows, so the mean rises, and the maximum moves farther from the minimum, so the range widens. The middle position and the tally of repeated values are untouched, so the median and mode hold still. Be careful with the reverse move: pulling a top value down far enough can push it past the middle and change the median too.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Introductory Statistics — OpenStax",
+        "url": "https://openstax.org/details/books/introductory-statistics"
+      },
+      {
+        "text": "Evidence-Based Practice resources — U.S. National Library of Medicine",
+        "url": "https://www.nlm.nih.gov/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "expansion-question-bank",
+    "sourceFile": "Education/pre-nursing-expansion-question-bank/questions/17-evidence-statistics/337-mean-median-mode-and-range.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false
+  },
+  "sourceSnapshotMarkdown": ""
+}

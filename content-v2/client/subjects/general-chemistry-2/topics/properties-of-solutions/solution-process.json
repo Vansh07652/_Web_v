@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:properties-of-solutions:solution-process",
+  "slug": "solution-process",
+  "title": "The Solution Process",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:properties-of-solutions",
+    "slug": "properties-of-solutions",
+    "title": "Properties Of Solutions",
+    "order": 2
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "A solution forms when a solute disperses uniformly in a solvent. Dissolving is a competition between energy and disorder: the solute and solvent must first be pulled apart (endothermic), then come together through solute–solvent attractions (exothermic). The net enthalpy change (ΔH_soln) plus the favorable increase in entropy determine whether dissolving is spontaneous. The guiding heuristic \"like dissolves like\" captures this — polar solvents dissolve polar/ionic solutes, nonpolar solvents dissolve nonpolar solutes.",
+    "whyItMatters": "- **Biology:** water's ability to hydrate ions and polar molecules underpins biochemistry; cell membranes exploit \"like dissolves like\" to separate aqueous and lipid compartments.\n- **Medicine:** drug solubility in water vs. lipid determines absorption, dosing, and formulation.\n- **Everyday chemistry:** soap/detergents bridge polar and nonpolar phases to wash away grease.\n- **Electrochemistry:** electrolyte solutions are essential for batteries, plating, and biological signaling.",
+    "learningObjectives": "- Define solute, solvent, solution, and the terms miscible/immiscible.\n- Describe the three energy steps in dissolving and the meaning of ΔH_soln.\n- Apply \"like dissolves like\" to predict solubility and miscibility.\n- Distinguish strong, weak, and non-electrolytes.\n- Explain the role of entropy in why some solutes dissolve despite unfavorable enthalpy.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA solution forms when a solute disperses uniformly in a solvent. Dissolving is a competition between energy and disorder: the solute and solvent must first be pulled apart (endothermic), then come together through solute–solvent attractions (exothermic). The net enthalpy change (ΔH_soln) plus the favorable increase in entropy determine whether dissolving is spontaneous. The guiding heuristic \"like dissolves like\" captures this — polar solvents dissolve polar/ionic solutes, nonpolar solvents dissolve nonpolar solutes.\n\n### Key Ideas\n\n### Definitions\n- **Solute:** the component present in smaller amount (what dissolves).\n- **Solvent:** the component in larger amount (what does the dissolving).\n- **Miscible:** two liquids that dissolve in all proportions (ethanol + water). **Immiscible:** two liquids that separate (oil + water).\n\n### The three energy steps\n1. **Separate solute particles** (break solute–solute IMFs) — endothermic, ΔH₁ > 0.\n2. **Separate solvent particles** (break solvent–solvent IMFs) — endothermic, ΔH₂ > 0.\n3. **Mix solute + solvent** (form solute–solvent attractions, solvation/hydration) — exothermic, ΔH₃ < 0.\n- **ΔH_soln = ΔH₁ + ΔH₂ + ΔH₃.**\n\n### Like dissolves like\n- Polar/ionic solutes dissolve in polar solvents (water) because strong ion–dipole or dipole–dipole interactions form.\n- Nonpolar solutes dissolve in nonpolar solvents (oil in hexane) via dispersion forces.\n- \"Like dissolves like\" is a heuristic, not an absolute law.\n\n### Electrolytes\n- **Strong electrolyte:** fully ionizes in solution (NaCl, HCl, NaOH) → conducts well.\n- **Weak electrolyte:** partially ionizes (acetic acid, HF) → conducts weakly.\n- **Nonelectrolyte:** dissolves as neutral molecules (sugar, ethanol) → no conductivity.\n\n### Equations and Variables\n\n- **Enthalpy of solution:** ΔH_soln = ΔH₁ + ΔH₂ + ΔH₃, where ΔH₁ = energy to separate solute, ΔH₂ = energy to separate solvent, ΔH₃ = energy released on solvation.\n- **Hydration energy** = ΔH₃ when the solvent is water (ion–dipole attractions between ions and water).\n- **Spontaneity:** governed by ΔG = ΔH − TΔS. Even when ΔH_soln > 0, a large positive ΔS (increase in disorder) can make dissolving spontaneous.\n\n### How It Works\n\n1. **Separate the solute.** Energy is invested to overcome solute–solute attractions (e.g., breaking the ionic lattice of a salt).\n2. **Separate the solvent.** Energy is invested to open up space among solvent molecules.\n3. **Solvate.** Solvent molecules surround each solute particle; water orients its δ+ toward anions and δ− toward cations (hydration), releasing energy.\n4. **Net outcome.** If the energy released in step 3 roughly matches or exceeds the energy spent in steps 1–2, the solute dissolves readily.\n5. **Entropy check.** Even if the enthalpy is slightly unfavorable, the huge increase in disorder when a solid disperses into solution often drives dissolution anyway.\n\n### Worked Example\n\nPredict whether each pair is miscible or immiscible, and classify the solute's conductivity: (a) NaCl in water, (b) I₂ in CCl₄, (c) oil in water.\n\n1. **NaCl in water.** NaCl is ionic; water is polar. Ion–dipole (hydration) forces are strong enough to overcome the lattice energy → dissolves, forming a *strong electrolyte* solution that conducts electricity.\n2. **I₂ in CCl₄.** I₂ is nonpolar (dispersion only) and CCl₄ is nonpolar. Like dissolves like → dissolves; a *nonelectrolyte* solution (no ions, no conductivity).\n3. **Oil in water.** Oil is nonpolar; water is polar. Water's strong H-bonds would have to be broken to make room for oil, with only weak dispersion forces gained in return → immiscible; the oil separates into droplets or a layer.",
+    "howItWorks": "1. **Separate the solute.** Energy is invested to overcome solute–solute attractions (e.g., breaking the ionic lattice of a salt).\n2. **Separate the solvent.** Energy is invested to open up space among solvent molecules.\n3. **Solvate.** Solvent molecules surround each solute particle; water orients its δ+ toward anions and δ− toward cations (hydration), releasing energy.\n4. **Net outcome.** If the energy released in step 3 roughly matches or exceeds the energy spent in steps 1–2, the solute dissolves readily.\n5. **Entropy check.** Even if the enthalpy is slightly unfavorable, the huge increase in disorder when a solid disperses into solution often drives dissolution anyway.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- ΔH_soln = ΔH₁ + ΔH₂ + ΔH₃ (separate solute + separate solvent + solvate).\n- Steps 1 and 2 are endothermic; step 3 (solvation) is exothermic.\n- \"Like dissolves like\": polar dissolves polar/ionic; nonpolar dissolves nonpolar (heuristic).\n- Hydration = solvation by water (ion–dipole).\n- Strong electrolyte (fully ionized), weak (partially), nonelectrolyte (neutral molecules).\n- Dissolution can occur even with ΔH_soln > 0 when ΔS is large and favorable.",
+    "commonConfusions": "- **\"'Like dissolves like' is a strict law.\"** — Wrong. It's a useful heuristic; exceptions and borderline cases exist (e.g., some small polar molecules dissolve in nonpolar solvents via dispersion).\n- **\"Dissolving always releases heat.\"** — Wrong. Some solutes (e.g., NH₄NO₃ in water) dissolve endothermically (the solution gets cold).\n- **\"All dissolved compounds conduct electricity.\"** — Wrong. Only electrolytes (which form ions) conduct; sugar and ethanol solutions do not.\n- **\"Breaking bonds always costs no energy.\"** — Wrong. Separating solute and solvent particles is endothermic; the exothermic solvation step is what pays for it.\n- **\"Hydration only applies to cations.\"** — Wrong. Water hydrates both ions — H₂O's O (δ−) faces cations, and its H (δ+) faces anions.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nDissolving is like inviting a new kid into a friend group. First the group has to break apart (that costs energy), then the newcomer has to be welcomed in and held by new friendships (that releases energy). If the new friendships are at least as warm as the old ones, the newcomer joins easily — that's \"like dissolves like.\" Even if the old group was tighter, sometimes the crowd *wants* to mix because it gets more fun and spread out (entropy), and that's enough to make it happen anyway. (The analogy's limit: \"friendships\" are electrostatic attractions, and the \"wanting to spread out\" is the second law of thermodynamics, but the energy bookkeeping of break-then-make is exactly how ΔH_soln works.)",
+    "quickReview": "- Solute + solvent → solution; miscible = all proportions, immiscible = separate.\n- ΔH_soln = ΔH₁ + ΔH₂ + ΔH₃ (separate + separate + solvate).\n- Like dissolves like; hydration is water's solvation of ions.\n- Strong/weak/nonelectrolyte by degree of ionization.\n- Entropy can drive endothermic dissolution.",
+    "workedExamples": "### Worked Example\n\nPredict whether each pair is miscible or immiscible, and classify the solute's conductivity: (a) NaCl in water, (b) I₂ in CCl₄, (c) oil in water.\n\n1. **NaCl in water.** NaCl is ionic; water is polar. Ion–dipole (hydration) forces are strong enough to overcome the lattice energy → dissolves, forming a *strong electrolyte* solution that conducts electricity.\n2. **I₂ in CCl₄.** I₂ is nonpolar (dispersion only) and CCl₄ is nonpolar. Like dissolves like → dissolves; a *nonelectrolyte* solution (no ions, no conductivity).\n3. **Oil in water.** Oil is nonpolar; water is polar. Water's strong H-bonds would have to be broken to make room for oil, with only weak dispersion forces gained in return → immiscible; the oil separates into droplets or a layer.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"11.1 The Dissolution Process.\" https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process",
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"11.2 Electrolytes.\" https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes",
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes"
+      },
+      {
+        "text": "PubChem, \"Water\" (compound 962). https://pubchem.ncbi.nlm.nih.gov/compound/962",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e* (book home). https://openstax.org/details/books/chemistry-2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      },
+      {
+        "text": "American Chemical Society. https://www.acs.org/",
+        "url": "https://www.acs.org/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/11-properties-of-solutions/01-solution-process.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,224 @@
+---
+title: "Gas Pressure"
+subject: "Science"
+book: "Chemistry: Atoms First 2e"
+chapter: "8: Gases"
+topic_number: "1"
+source: "chemistry-atoms-first-2e.md"
+tags:
+  - "gas-pressure"
+  - "science"
+status: "complete"
+---
+
+# Gas Pressure
+
+> **Book:** [Chemistry: Atoms First 2e](../../README.md)  
+> **Chapter:** [Chapter 8: Gases](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+A gas exerts **pressure** because its molecules are in constant, rapid motion, colliding with the walls of any container and bouncing off with a change in momentum. Each collision is tiny, but there are astronomically many of them — at room temperature and 1 atm, roughly \(10^{23}\) collisions per second per square centimeter of wall. The summed force of all those impacts, divided by the wall area, is what we call gas pressure:
+
+\[
+P = \frac{F}{A}
+\]
+
+where \(P\) is pressure, \(F\) is the force exerted perpendicular to a surface, and \(A\) is the area of that surface. This topic develops the definition of pressure, the units used to report it (and how to convert among them), and the instruments — the barometer and the manometer — used to measure atmospheric and confined-gas pressures. These ideas are the foundation for every gas law that follows in this chapter.
+
+## Why This Matters
+
+- **Every gas law depends on pressure:** Boyle's law, the ideal gas law, and gas stoichiometry all use \(P\) as a key variable, so unit conversions are unavoidable.
+- **Weather and altitude:** atmospheric pressure changes with weather systems and elevation; it is the reason your ears "pop" on a flight and why water boils at a lower temperature on a mountain.
+- **Medical and breathing applications:** ventilators, oxygen tanks, and blood pressure readings all report pressures in everyday units (mmHg, psi, atm) that must be converted correctly.
+- **Industrial and lab safety:** pressure vessels, gas cylinders, and vacuum systems are rated in specific pressure units; misreading a unit can be a safety hazard.
+- **Exams:** pressure conversions and manometer/barometer readings are classic calculation items, and the numbers carry units that must be tracked through every formula.
+
+## Core Concepts
+
+### Pressure is force spread over an area
+
+Pressure is not the same as force. A heavy person standing on one heel exerts far more pressure on the floor than the same person standing flat-footed, because the force is concentrated on a smaller area. In SI units, force is measured in newtons (N) and area in square meters, so the SI unit of pressure is the **pascal**:
+
+\[
+1\ \text{Pa} = 1\ \text{N m}^{-2}
+\]
+
+One pascal is a very small pressure — a sheet of paper resting on a table exerts roughly 1 Pa. Chemists therefore commonly use the **atmosphere (atm)**, the **torr**, **millimeters of mercury (mmHg)**, the **bar**, and **pounds per square inch (psi)**.
+
+### Standard conversion relationships
+
+By definition and measurement, one standard atmosphere equals:
+
+\[
+1\ \text{atm} = 760\ \text{torr} = 760\ \text{mmHg} = 101.325\ \text{kPa} = 1.01325\ \text{bar} \approx 14.7\ \text{psi}
+\]
+
+Note that torr and mmHg are numerically equal (both defined so that 1 atm = 760 of each), though they arose from different conventions: the torr is named after Torricelli, while mmHg literally describes the height of a mercury column. These equalities are exact conversion factors, so dimensional analysis converts any pressure into any other unit by multiplying by the appropriate ratio.
+
+### The barometer: measuring atmospheric pressure
+
+A **barometer** measures the pressure of the atmosphere. A classic mercury barometer is a glass tube closed at one end, filled with mercury, and inverted into a dish of mercury. The mercury column falls until the weight of the column balances the atmospheric pressure pushing on the dish. At sea level on a standard day, the column stands about 760 mm tall — which is exactly why "760 mmHg" equals 1 atm.
+
+The relationship is:
+
+\[
+P = \rho g h
+\]
+
+where \(\rho\) is the density of the liquid, \(g\) is gravitational acceleration, and \(h\) is the column height. For a given liquid, height alone reports pressure, which is why mmHg works as a pressure unit.
+
+### The manometer: measuring confined gas pressure
+
+A **manometer** measures the pressure of a gas in a closed container. The simplest version is a U-shaped tube partially filled with mercury, connected to the gas on one side and open to the atmosphere on the other.
+
+- If the mercury level is **equal on both sides**, the gas pressure equals atmospheric pressure.
+- If the gas side is **lower**, the gas pressure is greater than atmospheric: \(P_{\text{gas}} = P_{\text{atm}} + h\).
+- If the gas side is **higher**, the gas pressure is less than atmospheric: \(P_{\text{gas}} = P_{\text{atm}} - h\).
+
+Here \(h\) is the difference in mercury column heights, expressed in the same pressure units as \(P_{\text{atm}}\).
+
+## ELI-10: Explain Like I'm 10
+
+> Imagine a crowd of people pushing against a fence from the inside. Each person is a gas molecule, and the fence is the container wall. The harder and more often they push, the more pressure they create. A barometer is like a mercury straw that the air holds up — the air can hold up a 760 mm column when the weather is normal. A manometer is a U-shaped tube that compares the push of your gas sample with the push of the air outside.
+
+## High-Yield Points
+
+- Gas pressure comes from **molecular collisions** with container walls; \(P = F/A\).
+- **SI unit:** pascal (\(1\ \text{Pa} = 1\ \text{N m}^{-2}\)); common chemistry units: atm, torr, mmHg, bar, psi.
+- **Memorize the bridge:** \(1\ \text{atm} = 760\ \text{torr} = 760\ \text{mmHg} = 101.325\ \text{kPa} = 1.01325\ \text{bar} \approx 14.7\ \text{psi}\).
+- Torr and mmHg are numerically identical, but they are defined differently.
+- A **barometer** measures atmospheric pressure; a **manometer** measures a confined gas against the atmosphere.
+- Manometer rule of thumb: gas side lower ⇒ \(P_{\text{gas}} = P_{\text{atm}} + h\); gas side higher ⇒ \(P_{\text{gas}} = P_{\text{atm}} - h\).
+- Always convert pressure to the units required by the gas-law constant you plan to use (e.g., atm for \(R = 0.08206\ \text{L atm mol}^{-1}\text{K}^{-1}\)).
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Pressure | Force exerted per unit area, \(P = F/A\) | The central variable of all gas laws; gases push on everything they touch |
+| Pascal (Pa) | The SI unit of pressure: 1 N of force per 1 m² of area | The official SI unit; 1 atm = 101,325 Pa |
+| Atmosphere (atm) | The average pressure of Earth's atmosphere at sea level | The familiar "1 atm" reference used in gas-law constants |
+| Torr | A pressure unit equal to 1/760 of an atmosphere | Named for Torricelli; numerically equal to mmHg |
+| mmHg | Pressure equal to the force of a 1 mm column of mercury | The unit read directly from mercury barometers and manometers |
+| Bar | A pressure unit equal to 100,000 Pa | Common in meteorology and industry; 1 atm = 1.01325 bar |
+| psi | Pounds of force per square inch | Everyday unit for tires, gas cylinders, and pressure gauges in the U.S. |
+| Barometer | Instrument that measures atmospheric pressure using a liquid column | Gives us the "760 mmHg = 1 atm" standard |
+| Manometer | U-shaped tube comparing a gas's pressure with atmospheric pressure | The standard lab instrument for measuring confined gas pressure |
+
+## Worked Examples
+
+### Example 1: Converting torr to atm and kPa
+
+A weather report states the atmospheric pressure is 742 torr. Express this pressure in atmospheres and in kilopascals.
+
+**Step 1 — Write the conversion factor from the bridge:**
+
+\[
+1\ \text{atm} = 760\ \text{torr}
+\]
+
+**Step 2 — Multiply so that torr cancels:**
+
+\[
+P = 742\ \text{torr} \times \frac{1\ \text{atm}}{760\ \text{torr}} = 0.976\ \text{atm}
+\]
+
+**Step 3 — Convert to kPa using \(1\ \text{atm} = 101.325\ \text{kPa}\):**
+
+\[
+P = 0.976\ \text{atm} \times \frac{101.325\ \text{kPa}}{1\ \text{atm}} = 98.9\ \text{kPa}
+\]
+
+Dimensional check: torr cancels in step 2 and atm cancels in step 3, leaving atm then kPa. The answer makes sense: 742 torr is slightly less than 760 torr, so slightly less than 1 atm — and 98.9 kPa is indeed just under 101.325 kPa.
+
+### Example 2: Reading an open-end manometer
+
+An open-end mercury manometer is attached to a flask of nitrogen. The mercury is 38 mmHg higher on the side open to the atmosphere than on the gas side, and the barometric pressure is 745 torr. What is the pressure of the nitrogen in the flask, in torr and in atm?
+
+**Step 1 — Decide which case applies.** The gas-side mercury is *lower* than the open-side mercury, so the gas is pressing harder than the atmosphere:
+
+\[
+P_{\text{gas}} = P_{\text{atm}} + h
+\]
+
+**Step 2 — Substitute and add (torr and mmHg are numerically equal):**
+
+\[
+P_{\text{gas}} = 745\ \text{torr} + 38\ \text{mmHg} = 783\ \text{torr}
+\]
+
+**Step 3 — Convert to atm:**
+
+\[
+P_{\text{gas}} = 783\ \text{torr} \times \frac{1\ \text{atm}}{760\ \text{torr}} = 1.03\ \text{atm}
+\]
+
+Sanity check: 783 torr > 760 torr, so the answer must be greater than 1 atm — consistent with 1.03 atm.
+
+### Example 3: Converting psi to atm and kPa
+
+A scuba tank gauge reads 3000 psi when full. Express this in atm and kPa.
+
+**Step 1 — Use the approximate bridge \(1\ \text{atm} \approx 14.7\ \text{psi}\):**
+
+\[
+P = 3000\ \text{psi} \times \frac{1\ \text{atm}}{14.7\ \text{psi}} = 204\ \text{atm}
+\]
+
+**Step 2 — Convert to kPa:**
+
+\[
+P = 204\ \text{atm} \times \frac{101.325\ \text{kPa}}{1\ \text{atm}} = 2.07 \times 10^4\ \text{kPa}\ (20,700\ \text{kPa})
+\]
+
+Note: the 14.7 psi value is approximate, so the final answers carry that limitation; report to the precision the conversion factor justifies.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Pressure | Force | Pressure is force *divided by area*; the same force on a smaller area gives higher pressure |
+| Torr | mmHg | Numerically equal (1 torr = 1 mmHg), but defined differently — torr from Torricelli's name, mmHg from column height |
+| atm | bar | 1 atm = 1.01325 bar; they are close but not identical |
+| Barometer | Manometer | Barometer measures the atmosphere itself; manometer compares a confined gas with the atmosphere |
+| Gas pressure greater than atmospheric | Gas pressure less than atmospheric | Read the mercury heights: gas side lower = gas pressure higher; gas side higher = gas pressure lower |
+| kPa | Pa | 1 kPa = 1000 Pa; 1 atm = 101.325 kPa, not 101.325 Pa |
+
+## Quick Review
+
+1. In words and in an equation, what causes gas pressure on the walls of a container?
+2. Write the full bridge of equalities for 1 atm (torr, mmHg, kPa, bar, psi).
+3. A barometer reads 735 mmHg. What is this pressure in atm and in kPa?
+4. An open-end manometer shows the mercury 25 mmHg higher on the gas side than the open side, with atmospheric pressure 760 torr. Is the gas pressure greater or less than atmospheric, and what is it in torr?
+5. Why is the pascal inconvenient for reporting everyday gas pressures, and which units do chemists actually use?
+6. A tire gauge reads 32 psi. Convert this to atm and to kPa, showing your conversion factors.
+
+<details>
+<summary>Show answers</summary>
+
+1. Gas molecules collide with the walls, transferring momentum; the summed force per unit area is \(P = F/A\).
+2. \(1\ \text{atm} = 760\ \text{torr} = 760\ \text{mmHg} = 101.325\ \text{kPa} = 1.01325\ \text{bar} \approx 14.7\ \text{psi}\).
+3. \(735\ \text{mmHg} \times (1\ \text{atm}/760\ \text{mmHg}) = 0.967\ \text{atm}\); \(0.967 \times 101.325 = 98.0\ \text{kPa}\).
+4. The gas side is higher, so the gas pressure is *less* than atmospheric: \(P_{\text{gas}} = 760 - 25 = 735\ \text{torr}\).
+5. One pascal is tiny (about the pressure of a sheet of paper); atmospheric pressure is ~101,325 Pa, an awkward number, so chemists use atm, torr, mmHg, bar, and psi.
+6. \(32\ \text{psi} \times (1\ \text{atm}/14.7\ \text{psi}) = 2.2\ \text{atm}\); \(2.2 \times 101.325 \approx 220\ \text{kPa}\).
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter
+- Next: [Relating Pressure, Volume, Amount, and Temperature: The Ideal Gas Law](02-relating-pressure-volume-amount-and-temperature-the-ideal-gas-law.md)
+- Related: [Gases chapter overview](../README.md)
+- Related: [Stoichiometry of Gaseous Substances, Mixtures, and Reactions](03-stoichiometry-of-gaseous-substances-mixtures-and-reactions.md) — uses pressure units in gas stoichiometry problems
+
+## Source Notes
+
+- Book: Chemistry: Atoms First 2e
+- Local outline source: `chemistry-atoms-first-2e.md`
+- Official source URL: https://openstax.org/details/books/chemistry-atoms-first-2e/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-16

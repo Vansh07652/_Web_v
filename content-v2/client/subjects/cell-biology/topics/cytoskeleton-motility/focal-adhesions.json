@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cytoskeleton-motility:focal-adhesions",
+  "slug": "focal-adhesions",
+  "title": "Focal Adhesions",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cytoskeleton-motility",
+    "slug": "cytoskeleton-motility",
+    "title": "Cytoskeleton Motility",
+    "order": 5
+  },
+  "order": 15,
+  "status": "final",
+  "sections": {
+    "overview": "Focal adhesions are large, dynamic protein complexes where a cell attaches to the **extracellular matrix (ECM)** and links it, through the plasma membrane, to the **actin cytoskeleton**. The core chain is simple to state — **integrin binds ECM; adaptor proteins bind integrin; actin binds the adaptors** — but the full structure is a hub of hundreds of proteins that both transmit mechanical force and relay biochemical signals. Focal adhesions are force sensors: pulling on them makes them grow and strengthen, while loss of attachment triggers programmed cell death (**anoikis**). They are the \"feet\" of a migrating cell, anchoring the front while the rear releases.",
+    "whyItMatters": "Focal adhesions govern **cell migration, tissue architecture, and survival signaling**. In wound healing, fibroblasts and keratinocytes crawl using focal adhesions; in immunity, leukocytes adhere and transmigrate. Their breakdown underlies **cancer metastasis**: tumor cells must detach (resist anoikis), migrate, and re-adhere at distant sites, and FAK/integrin inhibitors are actively pursued as anticancer drugs. Fibrotic diseases and atherosclerosis also involve dysregulated adhesion. Anchorage-independent survival is a defining hallmark of malignant transformation.",
+    "learningObjectives": "- Describe the molecular architecture of a focal adhesion (integrin → adaptor → actin).\n- Explain integrin activation and the inside-out/outside-in signaling distinction.\n- Trace how force strengthens and matures focal adhesions.\n- Relate focal adhesions to cell survival (anoikis) and migration.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nFocal adhesions are large, dynamic protein complexes where a cell attaches to the **extracellular matrix (ECM)** and links it, through the plasma membrane, to the **actin cytoskeleton**. The core chain is simple to state — **integrin binds ECM; adaptor proteins bind integrin; actin binds the adaptors** — but the full structure is a hub of hundreds of proteins that both transmit mechanical force and relay biochemical signals. Focal adhesions are force sensors: pulling on them makes them grow and strengthen, while loss of attachment triggers programmed cell death (**anoikis**). They are the \"feet\" of a migrating cell, anchoring the front while the rear releases.\n\n### Key Components\n\n- **Integrins:** transmembrane α/β heterodimers that bind ECM ligands (e.g., the RGD sequence of fibronectin) and connect to the cytoskeleton.\n- **Talin:** a key adaptor that binds the integrin β-subunit cytoplasmic tail and actin; it also activates integrins.\n- **Vinculin:** recruited by talin under tension; reinforces the integrin–actin link.\n- **Paxillin:** an adaptor/scaffold that organizes signaling (FAK, Src) at adhesions.\n- **Focal adhesion kinase (FAK):** a tyrosine kinase that autophosphorylates (Y397) upon integrin clustering, recruiting Src and downstream survival/proliferation signals.\n- **Actin stress fibers:** bundled actin + myosin II cables anchored at focal adhesions.\n- **RhoA → ROCK → myosin II:** the contractile pathway that applies tension and drives adhesion maturation.\n\n### Mechanism / How It Works\n\n1. An inactive integrin (bent, low-affinity conformation) is **activated from inside** (\"inside-out\" signaling): talin (and kindlin) binds the β-integrin cytoplasmic tail, straightening the integrin so its extracellular head opens to bind ECM ligand.\n2. ECM-bound integrins **cluster** laterally, concentrating adaptors and kinases at the nascent adhesion.\n3. **Talin** links integrin tails to actin; **vinculin** is recruited as tension builds, reinforcing the connection into a mature focal adhesion.\n4. Clustered integrins trigger **outside-in** signaling: **FAK** autophosphorylates at Y397, recruits **Src**, and activates pathways (PI3K/Akt, Ras/MAPK) promoting survival and proliferation.\n5. **RhoA → ROCK → myosin II** contraction pulls on actin stress fibers, generating tension that is transmitted through the adhesion to the matrix; this **force matures** small nascent adhesions into large focal adhesions.\n6. If attachment is lost (or adhesion turnover is blocked), survival signaling ceases and the cell undergoes **anoikis** — a safeguard against detached cells re-seeding elsewhere.\n\n### Energy and Directionality\n\nFocal adhesion assembly is an **ATP/GTP-dependent, force-dependent** process. The **GTPase cycle** of RhoA (RhoGEFs activate, RhoGAPs inactivate) controls myosin II contraction, and myosin II consumes **ATP** to pull on actin. Directionality comes from **actin retrograde flow**: actin polymerizes at the leading edge and flows backward; focal adhesions act as a \"molecular clutch\" that engages the flowing actin to the substrate, transmitting the polymerization/contractile force into forward cell movement.\n\n### Experimental Evidence / Technique\n\n- **Interference reflection microscopy (IRM) / TIRF:** visualizes adhesions as dark regions where the membrane is close (10–15 nm) to the substrate.\n- **Immunofluorescence:** co-localization of integrin, talin, vinculin, paxillin, and actin confirms the molecular chain.\n- **Traction force microscopy:** cells on flexible gels show highest traction stress at focal adhesions, proving they transmit force.\n- **FAK knockout/inhibition:** loss of FAK impairs adhesion turnover and promotes apoptosis, demonstrating its signaling role.\n- **Anoikis assays:** plating epithelial cells on non-adhesive (poly-HEMA) surfaces triggers apoptosis, showing survival depends on integrin engagement.",
+    "howItWorks": "1. An inactive integrin (bent, low-affinity conformation) is **activated from inside** (\"inside-out\" signaling): talin (and kindlin) binds the β-integrin cytoplasmic tail, straightening the integrin so its extracellular head opens to bind ECM ligand.\n2. ECM-bound integrins **cluster** laterally, concentrating adaptors and kinases at the nascent adhesion.\n3. **Talin** links integrin tails to actin; **vinculin** is recruited as tension builds, reinforcing the connection into a mature focal adhesion.\n4. Clustered integrins trigger **outside-in** signaling: **FAK** autophosphorylates at Y397, recruits **Src**, and activates pathways (PI3K/Akt, Ras/MAPK) promoting survival and proliferation.\n5. **RhoA → ROCK → myosin II** contraction pulls on actin stress fibers, generating tension that is transmitted through the adhesion to the matrix; this **force matures** small nascent adhesions into large focal adhesions.\n6. If attachment is lost (or adhesion turnover is blocked), survival signaling ceases and the cell undergoes **anoikis** — a safeguard against detached cells re-seeding elsewhere.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Focal adhesion chain: **integrin → talin/vinculin → actin stress fibers**.\n- Integrins bind **ECM RGD motifs** (e.g., fibronectin); α/β heterodimers.\n- **Talin (+ kindlin)** activates integrins (inside-out); **FAK Y397** relays outside-in survival signals.\n- **RhoA → ROCK → myosin II** tension **matures** adhesions (force strengthens them).\n- Focal adhesions are the **molecular clutch** engaging actin retrograde flow.\n- Loss of attachment → **anoikis** (programmed cell death).\n- FAK autophosphorylation recruits **Src**, activating PI3K/Akt and Ras/MAPK.\n- Adhesion turnover (disassembly at the rear) is required for migration.",
+    "commonConfusions": "- **\"Focal adhesions are permanent glue.\"** — They are dynamic and constantly assemble/disassemble; they must turn over for migration.\n- **\"Integrins are just passive anchors.\"** — They are bidirectional signal transducers (inside-out activation + outside-in signaling), not mere glue.\n- **\"Focal adhesions are the same as desmosomes/hemidesmosomes.\"** — Focal adhesions link actin to **ECM via integrins**; desmosomes link **intermediate filaments cell-to-cell**, hemidesmosomes link IFs to ECM.\n- **\"Force breaks adhesions.\"** — Moderate tension actually **strengthens** them (maturation); only excessive/unbalanced force tears them.\n- **\"FAK is only structural.\"** — FAK is primarily a **signaling kinase** for survival/proliferation, not a structural linker.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of focal adhesions as the suction cups on a climbing toy's feet. Each cup has a part that pokes through the \"skin\" (integrin) to grab the wall, and a part inside that clips onto the toy's muscle cables (actin). When the toy pulls on the cable, the clip tightens and the cup grips harder — the harder you pull, the stronger the grip. If a cup loses its grip entirely, an alarm goes off and tells the cell it's floating loose, which (in real cells) can trigger self-destruction. (The analogy omits the rich biochemical signaling — FAK/Src survival switches — and the fact that adhesions must also *let go* at the back for the cell to move.)",
+    "quickReview": "- Focal adhesion = integrin → talin/vinculin → actin stress fibers.\n- Integrins: inside-out activation (talin/kindlin) + outside-in signaling (FAK/Src).\n- RhoA/ROCK/myosin II tension matures and strengthens adhesions.\n- Molecular clutch couples actin flow to substrate; powers migration.\n- Detachment → anoikis; FAK = survival kinase and cancer target.\n- Techniques: TIRF/IRM, immunofluorescence, traction-force microscopy, FAK knockouts.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, et al. *Molecular Biology of the Cell.* 4th ed. \"Integrins.\" https://www.ncbi.nlm.nih.gov/books/NBK26867/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26867/"
+      },
+      {
+        "text": "Cooper GM. *The Cell: A Molecular Approach.* 2nd ed. Chapter 11: \"The Cytoskeleton and Cell Movement.\" https://www.ncbi.nlm.nih.gov/books/NBK9893/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9893/"
+      },
+      {
+        "text": "OpenStax. *Biology 2e.* Chapter 4.6: \"Connections between Cells and Cellular Activities.\" https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities",
+        "url": "https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/05-cytoskeleton-motility/15-focal-adhesions.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

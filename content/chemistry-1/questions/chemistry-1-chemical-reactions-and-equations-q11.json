@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-chemical-reactions-and-equations-q11",
+  "subject": "chemistry-1",
+  "lesson": "chemical-reactions-and-equations",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Butane undergoes complete combustion according to the unbalanced equation C4H10 + O2 -> CO2 + H2O. When the equation is balanced with the smallest possible whole-number coefficients, what is the sum of all four coefficients?",
+  "options": [
+    {
+      "id": "a",
+      "text": "24"
+    },
+    {
+      "id": "b",
+      "text": "33"
+    },
+    {
+      "id": "c",
+      "text": "31"
+    },
+    {
+      "id": "d",
+      "text": "29"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Balancing carbon and hydrogen first gives C4H10 + 13/2 O2 -> 4 CO2 + 5 H2O, and multiplying every coefficient by 2 clears the fraction to give 2 C4H10 + 13 O2 -> 8 CO2 + 10 H2O, so the coefficients sum to 2 + 13 + 8 + 10 = 33. The atom inventory confirms 8 C, 20 H, and 26 O on each side, since 13 x 2 = 26 and (8 x 2) + 10 = 26. The sums 24 and 29 arise from doubling only some of the coefficients after clearing the fraction (24 = 2 + 13 + 4 + 5 and 29 = 2 + 13 + 4 + 10), while 31 is simply a nearby total that no correct balancing produces.\n\nELI-10: Balance carbon and hydrogen first because each appears in only one product, and leave oxygen for last because it appears in two. That gives 4 CO2 and 5 H2O, which need 13 oxygen atoms, or 6.5 O2 molecules. Since half a molecule is not allowed, multiply every coefficient in the equation by 2, exactly as you would double a whole recipe rather than one ingredient. The result is 2, 13, 8, 10, which adds to 33.",
+  "difficulty": "hard",
+  "tags": [
+    "balancing combustion equations",
+    "fractional coefficients",
+    "atom inventory"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-276",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

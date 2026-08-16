@@ -1,0 +1,41 @@
+{
+  "id": "genetics-dna-structure-and-replication-0011",
+  "subject": "genetics",
+  "lesson": "dna-structure-and-replication",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation In the Meselson-Stahl experiment, E. coli with fully heavy DNA was shifted to light nitrogen medium and allowed to replicate. After two rounds of replication, what fraction of the DNA molecules are hybrid, containing one heavy strand and one light strand?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/4"
+    },
+    {
+      "id": "b",
+      "text": "1/2"
+    },
+    {
+      "id": "c",
+      "text": "3/4"
+    },
+    {
+      "id": "d",
+      "text": "1/8"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "After one round there are 2 hybrid molecules, and after the second round each hybrid produces one hybrid and one light molecule, so 2 of the 4 molecules are hybrid and 2/4 = 1/2. Option A is the hybrid fraction after a third round (2/8 = 1/4), option C counts light strands among all 8 strands (6/8 = 3/4), and option D wrongly halves the hybrid fraction each round. The key arithmetic is that every hybrid molecule contributes one hybrid and one light daughter in each round.",
+  "difficulty": "unknown",
+  "tags": [
+    "hybrid",
+    "fraction",
+    "after",
+    "two",
+    "rounds"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-5fcc89f16ce99a1e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

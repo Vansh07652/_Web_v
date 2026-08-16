@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-signaling:sh2-domains",
+  "slug": "sh2-domains",
+  "title": "SH2 Domains and Phosphotyrosine Recognition",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-signaling",
+    "slug": "cell-signaling",
+    "title": "Cell Signaling",
+    "order": 6
+  },
+  "order": 10,
+  "status": "final",
+  "sections": {
+    "overview": "SH2 (Src homology 2) domains are ~100-amino-acid protein modules that bind specifically to phosphotyrosine-containing peptides. They are the cell's principal \"readers\" of tyrosine phosphorylation, translating a kinase's covalent mark into the assembly of multiprotein signaling complexes. Because an SH2 domain binds both the phosphotyrosine and several residues C-terminal to it, different SH2 domains select different phosphorylation sites, giving the cell a combinatorial docking code. This modular recognition is what lets receptor tyrosine kinases and non-receptor tyrosine kinases activate distinct, site-specific downstream programs.",
+    "whyItMatters": "SH2 recognition underlies essentially all tyrosine-kinase signaling — growth factor responses, immune-cell activation (ZAP-70, Syk), cytokine signaling (STATs), and oncogenesis. Mutations that create a novel SH2 docking site, or that hyperactivate SH2-dependent kinases, drive disease: the BCR–ABL fusion is an oncogenic tyrosine kinase whose signaling is scaffolded by SH2/SH3 modules, and Src-family kinases are central to many cancers. SH2 domains are also drug-design targets: inhibitors that block pTyr docking (or the kinases that make it) are frontline therapies.",
+    "learningObjectives": "- Describe the structure of an SH2 domain and how it binds phosphotyrosine.\n- Explain how SH2 domains achieve sequence specificity beyond the pTyr itself.\n- Contrast SH2 domains with PTB domains and SH3 domains.\n- Explain the modular logic of signaling: how SH2-containing proteins are recruited and regulated.\n- Connect SH2 recognition to disease (e.g., mutations that create novel docking sites).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nSH2 (Src homology 2) domains are ~100-amino-acid protein modules that bind specifically to phosphotyrosine-containing peptides. They are the cell's principal \"readers\" of tyrosine phosphorylation, translating a kinase's covalent mark into the assembly of multiprotein signaling complexes. Because an SH2 domain binds both the phosphotyrosine and several residues C-terminal to it, different SH2 domains select different phosphorylation sites, giving the cell a combinatorial docking code. This modular recognition is what lets receptor tyrosine kinases and non-receptor tyrosine kinases activate distinct, site-specific downstream programs.\n\n### Key Components\n\n- **Phosphotyrosine (pTyr)**: The recognition mark, added by tyrosine kinases, removed by phosphatases.\n- **SH2 domain**: A conserved fold with a central β-sheet flanked by two α-helices; binds pTyr in a positively charged pocket.\n- **PTB domain**: A second phosphotyrosine-binding module that recognizes pTyr plus residues N-terminal (or, for some, non-phosphorylated motifs).\n- **SH3 domain**: Binds proline-rich sequences (PxxP) — polyproline type II helix — not phosphotyrosine.\n- **Modular signaling proteins**: Grb2 (SH2 + two SH3), PI3K p85 (two SH2 + SH3), Src (SH3 + SH2 + kinase), PLCγ (two SH2), STATs (SH2 + DNA-binding).\n\n### Mechanism / How It Works\n\n1. **The mark is made**: A tyrosine kinase (RTK, Src, JAK, Abl) phosphorylates a specific tyrosine.\n2. **Specificity is read**: An SH2 domain docks onto the pTyr. A conserved arginine in the binding pocket hydrogen-bonds the phosphate; a deep pocket accommodates the aromatic tyrosine ring; and residues +1 to +3 (and sometimes +4) C-terminal to the pTyr insert into a specificity groove that varies among SH2 domains. Thus the Src SH2 domain prefers pTyr-Glu-Glu-Ile, while the Grb2 SH2 domain prefers pTyr-X-Asn-X.\n3. **Complex assembly**: Binding brings the SH2-containing protein to the membrane or to the receptor, positioning its other domains to act. Grb2's SH2 binds the receptor while its SH3 domains recruit SOS, activating Ras. PI3K's p85 SH2 domains bind the receptor, relieving inhibition of the p110 catalytic subunit.\n4. **Regulation**: SH2 binding can also be intramolecular. In inactive Src, its SH2 domain binds an internal phosphotyrosine, holding the kinase closed; dephosphorylation or competitive binding opens it.\n5. **Reversal**: Tyrosine phosphatases remove the phosphate, releasing the SH2 protein and dismantling the complex.\n\n### Energy and Directionality\n\nPhosphorylation (ATP-driven) creates the binding site, and dephosphorylation removes it — both enzymatic, both regulated. SH2 binding itself is a reversible, non-covalent equilibrium driven by favorable enthalpy (salt bridges, hydrogen bonds, van der Waals) and shaped by local concentration: kinase activity concentrates pTyr sites, recruiting effectors from the cytosol. The directionality comes from the covalent on/off switch: the cell pays ATP to assemble signaling complexes and spends separate enzymatic activity to disassemble them.\n\n### Experimental Evidence / Technique\n\n- **SH2 domain structure**: Waksman et al. solved the Src SH2 domain bound to a pTyr peptide (1992–93), revealing the two-pocket recognition mechanism.\n- **Peptide library screens** map the sequence preferences of individual SH2 domains.\n- **Far-Western blotting / pull-downs** with pTyr peptides or recombinant SH2 domains identify binding partners.\n- **Isothermal titration calorimetry (ITC) and surface plasmon resonance (SPR)** quantify binding affinity (typically low-micromolar to nanomolar KD).\n- **Engineered SH2 mutations** (e.g., of the conserved arginine) abolish binding, confirming the phosphate–arginine interaction.",
+    "howItWorks": "1. **The mark is made**: A tyrosine kinase (RTK, Src, JAK, Abl) phosphorylates a specific tyrosine.\n2. **Specificity is read**: An SH2 domain docks onto the pTyr. A conserved arginine in the binding pocket hydrogen-bonds the phosphate; a deep pocket accommodates the aromatic tyrosine ring; and residues +1 to +3 (and sometimes +4) C-terminal to the pTyr insert into a specificity groove that varies among SH2 domains. Thus the Src SH2 domain prefers pTyr-Glu-Glu-Ile, while the Grb2 SH2 domain prefers pTyr-X-Asn-X.\n3. **Complex assembly**: Binding brings the SH2-containing protein to the membrane or to the receptor, positioning its other domains to act. Grb2's SH2 binds the receptor while its SH3 domains recruit SOS, activating Ras. PI3K's p85 SH2 domains bind the receptor, relieving inhibition of the p110 catalytic subunit.\n4. **Regulation**: SH2 binding can also be intramolecular. In inactive Src, its SH2 domain binds an internal phosphotyrosine, holding the kinase closed; dephosphorylation or competitive binding opens it.\n5. **Reversal**: Tyrosine phosphatases remove the phosphate, releasing the SH2 protein and dismantling the complex.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- SH2 = Src homology 2; binds phosphotyrosine in a **sequence-specific** manner.\n- Key interaction: conserved **arginine–phosphate** salt bridge plus recognition of residues C-terminal to pTyr.\n- PTB domains bind pTyr too but read residues **N-terminal** to it (and some bind non-phosphorylated motifs).\n- SH3 domains bind **proline-rich (PxxP)** sequences, not pTyr.\n- Grb2 = SH2 + SH3 + SH3: SH2 → receptor pTyr, SH3 → SOS.",
+    "commonConfusions": "- **SH2 vs. SH3**: SH2 binds phosphotyrosine; SH3 binds proline-rich motifs. Grb2 uses both, but for different partners.\n- **SH2 vs. PTB**: Both recognize pTyr, but SH2 reads downstream (C-terminal) residues and PTB typically reads upstream (N-terminal) residues.\n- **Tyrosine vs. serine/threonine phosphorylation**: There is no SH2-equivalent general \"phosphoserine reader\" of the same prominence; Ser/Thr signaling uses other adaptors (e.g., 14-3-3 proteins).\n- **\"Src homology\" naming**: SH2/SH3 are named after where they were first found (Src), but they are widespread modules.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine phosphotyrosine as a little Velcro patch that a \"stamper\" enzyme sticks onto a protein. SH2 domains are like specialized gloves that only grab Velcro patches of a certain shape and color — the patch itself plus the few threads right next to it. Different workers own different gloves, so the exact spot where the patch is stuck decides *which* worker gets pulled in to help. When the job is done, a \"remover\" enzyme peels the patch off, and the workers let go and walk away. The analogy's limit: the \"patch\" is a specific covalent phosphate group, and the \"gloves\" discriminate by hydrogen bonding to particular amino-acid side chains, which is far more precise than color matching.",
+    "quickReview": "- Tyrosine kinase phosphorylates Tyr → SH2 (or PTB) domain binds pTyr + flanking residues → effector recruited/activated.\n- Specificity = pTyr pocket + C-terminal (SH2) or N-terminal (PTB) groove.\n- Reversal by tyrosine phosphatases; Src uses intramolecular SH2 binding for autoinhibition.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Waksman, G. et al., \"Binding of a high affinity phosphotyrosyl peptide to the Src SH2 domain,\" *Cell* (1993)."
+      },
+      {
+        "text": "Pawson, T. & Nash, P., \"Assembly of cell regulatory systems through protein interaction domains,\" *Science* (2003)."
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 15, \"Modular Interaction Domains.\""
+      },
+      {
+        "text": "Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 16."
+      },
+      {
+        "text": "NCBI Bookshelf, *The Cell: A Molecular Approach*, 2nd ed., \"Protein domains and signaling.\""
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/06-cell-signaling/10-sh2-domains.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

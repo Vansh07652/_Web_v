@@ -1,0 +1,40 @@
+{
+  "id": "genetics-genomics-and-bioinformatics-0005",
+  "subject": "genetics",
+  "lesson": "genomics-and-bioinformatics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** sequence-analysis Variant calling compares sequencing reads with a reference genome. The reference coding strand is 5' ATG GCT CAG 3' and a read from a sample is 5' ATG ACT CAG 3', so the only difference is a G to A change at position 4. What type of variant is this, and what amino acid change does it produce?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A missense variant: the G to A transition changes codon GCT to ACT, so the encoded amino acid changes from alanine to threonine."
+    },
+    {
+      "id": "b",
+      "text": "A synonymous variant: codons GCT and ACT both encode alanine."
+    },
+    {
+      "id": "c",
+      "text": "A nonsense variant: the G to A change creates a stop codon."
+    },
+    {
+      "id": "d",
+      "text": "A frameshift variant: the substitution inserts an extra A and shifts the reading frame."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The coding strand sequence GCT corresponds to the mRNA codon GCU, which is alanine, while ACT corresponds to ACU, which is threonine, so the encoded amino acid changes and the variant is missense rather than synonymous. ACU is not a stop codon, so the change is not nonsense, and no bases are inserted or deleted, so the reading frame is not shifted. A G to A change is a transition because both bases are purines.",
+  "difficulty": "unknown",
+  "tags": [
+    "variant",
+    "calling",
+    "transition",
+    "missense"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-16973b1c51d4a9a2",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

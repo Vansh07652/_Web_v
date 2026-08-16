@@ -1,0 +1,41 @@
+{
+  "id": "physics-2-inductance-and-ac-circuits-0002",
+  "subject": "physics-2",
+  "lesson": "inductance-and-ac-circuits",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For energy stored in an inductor and in the magnetic field, use $X_L = omega L$ in a inductive reactance model. The first quantity is 19.00 rad/s and the second is 0.50 H. What is the inductive reactance?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$4.75\\ \\text{Ohm}$"
+    },
+    {
+      "id": "b",
+      "text": "$19.00\\ \\text{Ohm}$"
+    },
+    {
+      "id": "c",
+      "text": "$9.50\\ \\text{Ohm}$"
+    },
+    {
+      "id": "d",
+      "text": "$11.88\\ \\text{Ohm}$"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Using $X_L = omega L$ gives 19.00 rad/s times 0.50 H = $9.50\\ \\text{Ohm}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to Ohm, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "energy",
+    "stored",
+    "inductor",
+    "magnetic",
+    "field"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-3641e63f8bc833b3",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

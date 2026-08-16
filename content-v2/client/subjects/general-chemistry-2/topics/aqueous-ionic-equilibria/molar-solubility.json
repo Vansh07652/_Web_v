@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:aqueous-ionic-equilibria:molar-solubility",
+  "slug": "molar-solubility",
+  "title": "Molar Solubility and Ksp Calculations",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:aqueous-ionic-equilibria",
+    "slug": "aqueous-ionic-equilibria",
+    "title": "Aqueous Ionic Equilibria",
+    "order": 6
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "**Molar solubility (s)** is the number of moles of a salt that dissolve per liter of solution to reach saturation. It is *not* the same as Ksp: Ksp is a constant, while s depends on stoichiometry (and on the presence of common ions). The two are linked through the dissolution equation — for a 1:1 salt, Ksp = s²; for a 1:2 or 2:1 salt, Ksp = 4s³. Solving for s from Ksp (or back) is a simple ICE-table exercise, and the common-ion effect lowers s whenever one of the salt's ions is already present.",
+    "whyItMatters": "Converting Ksp to molar solubility tells you the actual grams-per-liter that dissolve — the number a pharmacist needs to know whether a drug will stay dissolved, an environmental chemist needs to track a pollutant's mobility, and a physician needs to understand why calcium oxalate kidney stones form in urine where [Ca²⁺] and [C₂O₄²⁻] already sit above their product limit.",
+    "learningObjectives": "- Define molar solubility (s).\n- Convert between Ksp and molar solubility for any stoichiometry.\n- Compute molar solubility in pure water and in a common-ion solution.\n- Use an ICE table to relate s to ion concentrations.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Molar solubility (s)** is the number of moles of a salt that dissolve per liter of solution to reach saturation. It is *not* the same as Ksp: Ksp is a constant, while s depends on stoichiometry (and on the presence of common ions). The two are linked through the dissolution equation — for a 1:1 salt, Ksp = s²; for a 1:2 or 2:1 salt, Ksp = 4s³. Solving for s from Ksp (or back) is a simple ICE-table exercise, and the common-ion effect lowers s whenever one of the salt's ions is already present.\n\n### Key Ideas\n\n- **Molar solubility s** = mol of salt dissolved per liter of saturated solution.\n- **Ksp ↔ s via stoichiometry:** the coefficient of each ion becomes a multiplier of s.\n- **1:1 salt (AgCl, BaSO₄):** Ksp = s² → s = √Ksp.\n- **1:2 or 2:1 salt (PbCl₂, Ag₂CrO₄):** Ksp = 4s³ → s = (Ksp/4)^(1/3).\n- **Common-ion effect:** an ion already present lowers s compared to pure water.\n- **Larger Ksp does not always mean larger s** across different stoichiometries — always convert to s to compare.\n\n### Equations and Variables\n\n- AgCl(s) ⇌ Ag⁺ + Cl⁻: Ksp = s·s = s²\n- PbCl₂(s) ⇌ Pb²⁺ + 2 Cl⁻: Ksp = s·(2s)² = 4s³\n- Ag₂CrO₄(s) ⇌ 2 Ag⁺ + CrO₄²⁻: Ksp = (2s)²·s = 4s³\n- Ca₃(PO₄)₂(s) ⇌ 3 Ca²⁺ + 2 PO₄³⁻: Ksp = (3s)³·(2s)² = 108s⁵\n\n### How It Works\n\n1. Write the balanced dissolution equation.\n2. Let s be the molar solubility; assign equilibrium ion concentrations as multiples of s (e.g., 2s for an ion with coefficient 2).\n3. Substitute into the Ksp expression and solve for s.\n4. To compare solubilities of different salts, convert Ksp → s; a direct Ksp comparison is only valid for identical stoichiometries.\n5. For a common-ion solution, the shared ion starts at a nonzero concentration, and s is smaller (solve the resulting algebra rather than using the pure-water shortcut).\n\n### Worked Example\n\n**Calculate the molar solubility of (a) AgCl (Ksp = 1.8 × 10⁻¹⁰) and (b) PbCl₂ (Ksp = 1.7 × 10⁻⁵) in pure water.**\n\n(a) AgCl(s) ⇌ Ag⁺ + Cl⁻, so Ksp = s².\n\ns = √(1.8 × 10⁻¹⁰) = 1.3 × 10⁻⁵ M\n\n(b) PbCl₂(s) ⇌ Pb²⁺ + 2 Cl⁻, so Ksp = [Pb²⁺][Cl⁻]² = s(2s)² = 4s³.\n\ns = (Ksp/4)^(1/3) = (1.7 × 10⁻⁵ / 4)^(1/3) = (4.25 × 10⁻⁶)^(1/3) = 1.6 × 10⁻² M\n\nNote that PbCl₂ (Ksp = 1.7 × 10⁻⁵) is *more* soluble than AgCl (Ksp = 1.8 × 10⁻¹⁰) despite the Ksp comparison being across different stoichiometries — the conversion to s makes the ranking unambiguous.",
+    "howItWorks": "1. Write the balanced dissolution equation.\n2. Let s be the molar solubility; assign equilibrium ion concentrations as multiples of s (e.g., 2s for an ion with coefficient 2).\n3. Substitute into the Ksp expression and solve for s.\n4. To compare solubilities of different salts, convert Ksp → s; a direct Ksp comparison is only valid for identical stoichiometries.\n5. For a common-ion solution, the shared ion starts at a nonzero concentration, and s is smaller (solve the resulting algebra rather than using the pure-water shortcut).",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Molar solubility s = moles dissolved per liter at saturation.\n- 1:1 salt: Ksp = s².\n- 1:2 or 2:1 salt: Ksp = 4s³.\n- General pattern: coefficient n on an ion gives (ns)ⁿ in the expression.\n- Common-ion presence lowers s.\n- Compare solubilities via s, not raw Ksp, when stoichiometries differ.",
+    "commonConfusions": "- **\"Ksp = s² always.\"** — Only for 1:1 salts; use 4s³ for AB₂/A₂B, and 108s⁵ for A₃B₂-type salts.\n- **\"Larger Ksp always means more soluble.\"** — False across different stoichiometries; Ag₂CrO₄ (Ksp = 1.1 × 10⁻¹²) is more soluble than AgCl (Ksp = 1.8 × 10⁻¹⁰) because of the 4s³ vs s² relationship.\n- **\"Forgetting to square the coefficient.\"** — In PbCl₂, [Cl⁻] = 2s, so its Ksp term is (2s)², not 2s.\n- **\"Common ion increases solubility.\"** — It decreases solubility (Le Châtelier: adding a product shifts dissolution left).\n- **\"s is fixed for a salt.\"** — s depends on the medium; it is smaller in a common-ion solution than in pure water.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nMolar solubility is \"how many teaspoons actually dissolve,\" while Ksp is \"the product-of-ions fire-code limit.\" They're related by the recipe of the salt. A salt that breaks into three pieces has a cube (s³) in its math because each molecule spawns more ions — so you can't just eyeball Ksp numbers across different recipes; you have to convert both to teaspoons (s) first. (The limit: the \"teaspoons\" are really moles per liter, and the cube comes from the ion coefficients, not from volume.)",
+    "quickReview": "- s = molar solubility (mol/L at saturation).\n- 1:1 → Ksp = s²; AB₂/A₂B → Ksp = 4s³.\n- Convert Ksp → s to compare different salts.\n- Common ion lowers s.\n- ICE table relates s to each ion concentration via coefficients.",
+    "workedExamples": "### Worked Example\n\n**Calculate the molar solubility of (a) AgCl (Ksp = 1.8 × 10⁻¹⁰) and (b) PbCl₂ (Ksp = 1.7 × 10⁻⁵) in pure water.**\n\n(a) AgCl(s) ⇌ Ag⁺ + Cl⁻, so Ksp = s².\n\ns = √(1.8 × 10⁻¹⁰) = 1.3 × 10⁻⁵ M\n\n(b) PbCl₂(s) ⇌ Pb²⁺ + 2 Cl⁻, so Ksp = [Pb²⁺][Cl⁻]² = s(2s)² = 4s³.\n\ns = (Ksp/4)^(1/3) = (1.7 × 10⁻⁵ / 4)^(1/3) = (4.25 × 10⁻⁶)^(1/3) = 1.6 × 10⁻² M\n\nNote that PbCl₂ (Ksp = 1.7 × 10⁻⁵) is *more* soluble than AgCl (Ksp = 1.8 × 10⁻¹⁰) despite the Ksp comparison being across different stoichiometries — the conversion to s makes the ranking unambiguous.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"15.1 Precipitation and Dissolution.\" https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution"
+      },
+      {
+        "text": "PubChem, \"Silver Chloride.\" https://pubchem.ncbi.nlm.nih.gov/compound/Silver-chloride",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Silver-chloride"
+      },
+      {
+        "text": "Chem LibreTexts, \"General Chemistry (Petrucci) — 18: Solubility and Complex-Ion Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_%28Petrucci_et_al.%29/18%3A_Solubility_and_Complex-Ion_Equilibria",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_%28Petrucci_et_al.%29/18%3A_Solubility_and_Complex-Ion_Equilibria"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 1
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/15-aqueous-ionic-equilibria/08-molar-solubility.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

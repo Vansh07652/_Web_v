@@ -1,0 +1,40 @@
+{
+  "id": "physics-1-units-measurement-and-dimensional-analysis-0001",
+  "subject": "physics-1",
+  "lesson": "units-measurement-and-dimensional-analysis",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For si base and derived units, use $L = L_0 C$ in a conversion factor model. The first quantity is 2.12 km and the second is 1000.00 m/km. What is the converted length?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$1062.50\\ \\text{m}$"
+    },
+    {
+      "id": "b",
+      "text": "$2125.00\\ \\text{m}$"
+    },
+    {
+      "id": "c",
+      "text": "$4250.00\\ \\text{m}$"
+    },
+    {
+      "id": "d",
+      "text": "$3125.00\\ \\text{m}$"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Using $L = L_0 C$ gives 2.12 km times 1000.00 m/km = $2125.00\\ \\text{m}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to m, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "si",
+    "base",
+    "derived",
+    "units"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-b3622b49e58e0cb8",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

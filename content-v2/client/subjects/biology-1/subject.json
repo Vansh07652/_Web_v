@@ -1,0 +1,827 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I",
+    "aliases": [
+      {
+        "value": "biology-1",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "bio1",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "BIO1",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "biology i",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "general biology i",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "biology_1",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "notes/biology-1",
+        "kind": "source_course_directory",
+        "source_id": "biology_notes"
+      },
+      {
+        "value": "bio1",
+        "kind": "current_web_slug",
+        "source_id": "current_web"
+      }
+    ],
+    "status": "final",
+    "category": "pre-health-core"
+  },
+  "units": [
+    {
+      "id": "unit:biology-1:chemical-context-of-life",
+      "slug": "chemical-context-of-life",
+      "title": "Chemical Context Of Life",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "chemical-context-of-life",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "01-chemical-context-of-life",
+          "kind": "source_unit_directory",
+          "source_id": "biology_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:biology-1:chemical-context-of-life:elements-and-atoms",
+          "slug": "elements-and-atoms",
+          "title": "Elements and Atoms",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/chemical-context-of-life/elements-and-atoms.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:chemical-context-of-life:chemical-bonds",
+          "slug": "chemical-bonds",
+          "title": "Chemical Bonds",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/chemical-context-of-life/chemical-bonds.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:chemical-context-of-life:water-and-life",
+          "slug": "water-and-life",
+          "title": "Water and Life",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/chemical-context-of-life/water-and-life.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:chemical-context-of-life:carbon-and-molecular-diversity",
+          "slug": "carbon-and-molecular-diversity",
+          "title": "Carbon and Molecular Diversity",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/chemical-context-of-life/carbon-and-molecular-diversity.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:chemical-context-of-life:biological-macromolecules",
+          "slug": "biological-macromolecules",
+          "title": "Biological Macromolecules",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/chemical-context-of-life/biological-macromolecules.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biology-1:cell-structure-and-function",
+      "slug": "cell-structure-and-function",
+      "title": "Cell Structure And Function",
+      "order": 2,
+      "aliases": [
+        {
+          "value": "cell-structure-and-function",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "02-cell-structure-and-function",
+          "kind": "source_unit_directory",
+          "source_id": "biology_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:biology-1:cell-structure-and-function:microscopy-and-cell-theory",
+          "slug": "microscopy-and-cell-theory",
+          "title": "Microscopy and Cell Theory",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cell-structure-and-function/microscopy-and-cell-theory.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:cell-structure-and-function:prokaryotic-vs-eukaryotic-cells",
+          "slug": "prokaryotic-vs-eukaryotic-cells",
+          "title": "Prokaryotic vs. Eukaryotic Cells",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cell-structure-and-function/prokaryotic-vs-eukaryotic-cells.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:cell-structure-and-function:nucleus-and-ribosomes",
+          "slug": "nucleus-and-ribosomes",
+          "title": "The Nucleus and Ribosomes",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cell-structure-and-function/nucleus-and-ribosomes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:cell-structure-and-function:endomembrane-system",
+          "slug": "endomembrane-system",
+          "title": "The Endomembrane System",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cell-structure-and-function/endomembrane-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:cell-structure-and-function:energy-converting-organelles-endosymbiosis",
+          "slug": "energy-converting-organelles-endosymbiosis",
+          "title": "Mitochondria, Chloroplasts, and Endosymbiosis",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cell-structure-and-function/energy-converting-organelles-endosymbiosis.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:cell-structure-and-function:cytoskeleton",
+          "slug": "cytoskeleton",
+          "title": "The Cytoskeleton",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cell-structure-and-function/cytoskeleton.json",
+          "mappedQuestionCount": 1,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 1
+          }
+        },
+        {
+          "id": "topic:biology-1:cell-structure-and-function:extracellular-components-and-cell-junctions",
+          "slug": "extracellular-components-and-cell-junctions",
+          "title": "Extracellular Components and Cell Junctions",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cell-structure-and-function/extracellular-components-and-cell-junctions.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biology-1:membrane-structure-and-cellular-transport",
+      "slug": "membrane-structure-and-cellular-transport",
+      "title": "Membrane Structure And Cellular Transport",
+      "order": 3,
+      "aliases": [
+        {
+          "value": "membrane-structure-and-cellular-transport",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "03-membrane-structure-and-cellular-transport",
+          "kind": "source_unit_directory",
+          "source_id": "biology_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:biology-1:membrane-structure-and-cellular-transport:fluid-mosaic-model",
+          "slug": "fluid-mosaic-model",
+          "title": "The Fluid Mosaic Model of the Plasma Membrane",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/membrane-structure-and-cellular-transport/fluid-mosaic-model.json",
+          "mappedQuestionCount": 1,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 1
+          }
+        },
+        {
+          "id": "topic:biology-1:membrane-structure-and-cellular-transport:passive-transport",
+          "slug": "passive-transport",
+          "title": "Passive Transport: Diffusion, Osmosis, and Facilitated Diffusion",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/membrane-structure-and-cellular-transport/passive-transport.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:membrane-structure-and-cellular-transport:active-transport",
+          "slug": "active-transport",
+          "title": "Active Transport: Pumps, Gradients, and the Na⁺/K⁺ ATPase",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/membrane-structure-and-cellular-transport/active-transport.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:membrane-structure-and-cellular-transport:bulk-transport",
+          "slug": "bulk-transport",
+          "title": "Bulk Transport: Exocytosis and Endocytosis",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/membrane-structure-and-cellular-transport/bulk-transport.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biology-1:cellular-energetics-and-metabolism",
+      "slug": "cellular-energetics-and-metabolism",
+      "title": "Cellular Energetics And Metabolism",
+      "order": 4,
+      "aliases": [
+        {
+          "value": "cellular-energetics-and-metabolism",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "04-cellular-energetics-and-metabolism",
+          "kind": "source_unit_directory",
+          "source_id": "biology_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:biology-1:cellular-energetics-and-metabolism:thermodynamics-in-biology",
+          "slug": "thermodynamics-in-biology",
+          "title": "Thermodynamics in Biology: Energy, Entropy, and Free Energy",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cellular-energetics-and-metabolism/thermodynamics-in-biology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:cellular-energetics-and-metabolism:atp-and-energy-coupling",
+          "slug": "atp-and-energy-coupling",
+          "title": "ATP and Energy Coupling",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cellular-energetics-and-metabolism/atp-and-energy-coupling.json",
+          "mappedQuestionCount": 1,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 1
+          }
+        },
+        {
+          "id": "topic:biology-1:cellular-energetics-and-metabolism:enzymes",
+          "slug": "enzymes",
+          "title": "Enzymes: Catalysts of Cellular Reactions",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cellular-energetics-and-metabolism/enzymes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:cellular-energetics-and-metabolism:cellular-respiration",
+          "slug": "cellular-respiration",
+          "title": "Cellular Respiration: Glycolysis to Oxidative Phosphorylation",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cellular-energetics-and-metabolism/cellular-respiration.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:biology-1:cellular-energetics-and-metabolism:fermentation-and-anaerobic-metabolism",
+          "slug": "fermentation-and-anaerobic-metabolism",
+          "title": "Fermentation and Anaerobic Metabolism",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cellular-energetics-and-metabolism/fermentation-and-anaerobic-metabolism.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:cellular-energetics-and-metabolism:photosynthesis",
+          "slug": "photosynthesis",
+          "title": "Photosynthesis: Light Reactions and the Calvin Cycle",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cellular-energetics-and-metabolism/photosynthesis.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biology-1:cell-communication-and-the-cell-cycle",
+      "slug": "cell-communication-and-the-cell-cycle",
+      "title": "Cell Communication And The Cell Cycle",
+      "order": 5,
+      "aliases": [
+        {
+          "value": "cell-communication-and-the-cell-cycle",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "05-cell-communication-and-the-cell-cycle",
+          "kind": "source_unit_directory",
+          "source_id": "biology_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:biology-1:cell-communication-and-the-cell-cycle:cell-signaling",
+          "slug": "cell-signaling",
+          "title": "Cell Signaling",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cell-communication-and-the-cell-cycle/cell-signaling.json",
+          "mappedQuestionCount": 1,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 1
+          }
+        },
+        {
+          "id": "topic:biology-1:cell-communication-and-the-cell-cycle:signal-transduction-pathways",
+          "slug": "signal-transduction-pathways",
+          "title": "Signal Transduction Pathways",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cell-communication-and-the-cell-cycle/signal-transduction-pathways.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:cell-communication-and-the-cell-cycle:cell-cycle",
+          "slug": "cell-cycle",
+          "title": "The Cell Cycle",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cell-communication-and-the-cell-cycle/cell-cycle.json",
+          "mappedQuestionCount": 23,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 23
+          }
+        },
+        {
+          "id": "topic:biology-1:cell-communication-and-the-cell-cycle:mitosis",
+          "slug": "mitosis",
+          "title": "Mitosis",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cell-communication-and-the-cell-cycle/mitosis.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:cell-communication-and-the-cell-cycle:cell-cycle-regulation-and-cancer",
+          "slug": "cell-cycle-regulation-and-cancer",
+          "title": "Cell Cycle Regulation and Cancer",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/cell-communication-and-the-cell-cycle/cell-cycle-regulation-and-cancer.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biology-1:genetics-and-the-molecular-basis-of-inheritance",
+      "slug": "genetics-and-the-molecular-basis-of-inheritance",
+      "title": "Genetics And The Molecular Basis Of Inheritance",
+      "order": 6,
+      "aliases": [
+        {
+          "value": "genetics-and-the-molecular-basis-of-inheritance",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "06-genetics-and-the-molecular-basis-of-inheritance",
+          "kind": "source_unit_directory",
+          "source_id": "biology_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:meiosis-and-sexual-life-cycles",
+          "slug": "meiosis-and-sexual-life-cycles",
+          "title": "Meiosis and Sexual Life Cycles",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/genetics-and-the-molecular-basis-of-inheritance/meiosis-and-sexual-life-cycles.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:mendelian-genetics",
+          "slug": "mendelian-genetics",
+          "title": "Mendelian Genetics",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/genetics-and-the-molecular-basis-of-inheritance/mendelian-genetics.json",
+          "mappedQuestionCount": 24,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 24
+          }
+        },
+        {
+          "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:non-mendelian-inheritance",
+          "slug": "non-mendelian-inheritance",
+          "title": "Non-Mendelian Inheritance",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/genetics-and-the-molecular-basis-of-inheritance/non-mendelian-inheritance.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:chromosomal-basis-of-inheritance",
+          "slug": "chromosomal-basis-of-inheritance",
+          "title": "The Chromosomal Basis of Inheritance",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/genetics-and-the-molecular-basis-of-inheritance/chromosomal-basis-of-inheritance.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:dna-structure",
+          "slug": "dna-structure",
+          "title": "DNA Structure",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/genetics-and-the-molecular-basis-of-inheritance/dna-structure.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:dna-replication",
+          "slug": "dna-replication",
+          "title": "DNA Replication",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/genetics-and-the-molecular-basis-of-inheritance/dna-replication.json",
+          "mappedQuestionCount": 1,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 1
+          }
+        },
+        {
+          "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:transcription-and-rna-processing",
+          "slug": "transcription-and-rna-processing",
+          "title": "Transcription and RNA Processing",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/genetics-and-the-molecular-basis-of-inheritance/transcription-and-rna-processing.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:translation-and-the-genetic-code",
+          "slug": "translation-and-the-genetic-code",
+          "title": "Translation and the Genetic Code",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/genetics-and-the-molecular-basis-of-inheritance/translation-and-the-genetic-code.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:gene-regulation",
+          "slug": "gene-regulation",
+          "title": "Gene Regulation",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-1/topics/genetics-and-the-molecular-basis-of-inheritance/gene-regulation.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 6,
+    "topicCount": 36,
+    "teachingTopicCount": 36,
+    "eli10TopicCount": 36,
+    "highYieldTopicCount": 36,
+    "referencedTopicCount": 36,
+    "exactOrMappedQuestionCount": 112,
+    "subjectWideQuestionCount": 476,
+    "uniqueQuestionCount": 588,
+    "citationReviewRequiredCount": 468
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

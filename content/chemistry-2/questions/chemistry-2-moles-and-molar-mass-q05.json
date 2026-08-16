@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-moles-and-molar-mass-q05",
+  "subject": "chemistry-2",
+  "lesson": "moles-and-molar-mass",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "The periodic table lists the molar mass of chlorine as 35.45 g/mol, yet no individual chlorine atom has that mass. What accounts for this non-whole-number value?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Electrons contribute a small fractional mass that pulls the value away from a whole number"
+    },
+    {
+      "id": "b",
+      "text": "It is the abundance-weighted average of the masses of chlorine's naturally occurring isotopes"
+    },
+    {
+      "id": "c",
+      "text": "It is the plain average of the mass numbers 35 and 37, since both isotopes occur in nature"
+    },
+    {
+      "id": "d",
+      "text": "It is the mass of a single chlorine-35 atom, rounded to two decimal places for tabulation"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Natural chlorine is about 75.76% chlorine-35 (34.969 amu) and 24.24% chlorine-37 (36.966 amu), giving (0.7576)(34.969) + (0.2424)(36.966) = 35.45 amu. Because any real sample is a mixture of isotopes, the tabulated atomic mass is an abundance-weighted average rather than the mass of any single atom. An unweighted average of 35 and 37 would give 36, electron mass is negligible at this precision, and 34.969 rounds to 34.97 rather than 35.45.\n\nELI-10: Suppose a group has 76 members weighing 35 kg and 24 members weighing 37 kg. The group average is about 35.5 kg, even though no single member weighs that. Chlorine is the same situation: most chlorine atoms are the lighter chlorine-35 type and a smaller share are chlorine-37. The periodic table reports the average, weighted so the more common isotope counts more heavily. Note that a plain average of 35 and 37 would give 36, so the weighting is what pulls chlorine's listed value down to 35.45.",
+  "difficulty": "medium",
+  "tags": [
+    "isotopes",
+    "weighted average atomic mass",
+    "periodic table interpretation"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-277",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

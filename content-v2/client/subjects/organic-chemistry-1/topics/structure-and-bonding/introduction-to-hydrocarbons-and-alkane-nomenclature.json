@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:structure-and-bonding:introduction-to-hydrocarbons-and-alkane-nomenclature",
+  "slug": "introduction-to-hydrocarbons-and-alkane-nomenclature",
+  "title": "Introduction to Hydrocarbons and Alkane Nomenclature",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:structure-and-bonding",
+    "slug": "structure-and-bonding",
+    "title": "Structure and Bonding",
+    "order": 1
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "Hydrocarbons are compounds containing only carbon and hydrogen. Alkanes are saturated hydrocarbons in which every carbon forms only single bonds; their acyclic members follow the general formula CₙH₂ₙ₊₂ (n carbons, 2n+2 hydrogens). IUPAC naming follows a fixed sequence: find the longest continuous carbon chain (the parent), number it to give substituents the lowest locants, name each substituent as an alkyl group, list them alphabetically, and use multiplicative prefixes (di-, tri-, tetra-) for repeats. The core skill is drawing from names (building a structure from its name) and naming a line-angle formula without ambiguity.",
+    "whyItMatters": "Alkanes are the backbone of the petroleum and pharmaceutical industries. Simple alkanes (methane through octane) are fuels, and branching raises gasoline octane rating. In drug molecules, small alkyl \"R groups\" tune solubility and receptor binding, so reading a name such as \"3-ethyl-2,4-dimethylhexane\" is the same structural literacy a pharmacist uses to parse an active ingredient. Converting a name into a drawn structure — and back — is safety-relevant: misreading a locant changes the compound entirely. No synthesis or handling instructions are given here; all chemical work must follow approved institutional safety documentation.",
+    "learningObjectives": "1. Define hydrocarbons and distinguish alkanes (saturated) from alkenes, alkynes, and arenes.\n2. State the general formula for acyclic alkanes and explain why branching creates isomers.\n3. Apply the IUPAC rules — parent-chain selection, numbering, naming substituents, and alphabetizing — to name branched alkanes.\n4. Convert fluently between names and structures, including line-angle (skeletal) formulas.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Hydrocarbon | Compound of only carbon and hydrogen | Defines the class; bonding type sets reactivity |\n| Alkane | Hydrocarbon with only C–C single bonds | The \"saturated\" baseline for naming and reactivity |\n| Saturated hydrocarbon | Every carbon holds the maximum number of H | Explains the CₙH₂ₙ₊₂ formula |\n| Parent chain | Longest continuous carbon chain | Supplies the root name of the compound |\n| Alkyl substituent | Alkane minus one hydrogen (methyl, ethyl, …) | The branches named as prefixes |\n| Locant | Number showing where a substituent sits | Makes a name map to exactly one structure |\n| Multiplicative prefix | di-, tri-, tetra- for repeated groups | Counts identical substituents |\n| Complex substituent | A branch that itself branches (isopropyl, tert-butyl) | Parenthesized and numbered separately |\n| Common name | Traditional name (isobutane, neopentane) | Must be recognized in textbooks and industry |",
+    "collegeNotes": "### 1. Hydrocarbons and the Alkane Family\n\nHydrocarbons contain only carbon and hydrogen and are classified by their bonding. Alkanes have only C–C single bonds; alkenes contain at least one C=C double bond; alkynes contain at least one C≡C triple bond; arenes (aromatics) contain benzene-like rings. Alkanes are \"saturated\" because each carbon carries the maximum possible number of hydrogens — no carbon–carbon multiple bond is present. Every carbon in an alkane is sp³-hybridized and tetrahedral, connected by sigma bonds, which makes alkanes relatively unreactive; their main chemistry (combustion and radical halogenation) is covered in later topics.\n\n### 2. IUPAC Nomenclature: The Five-Step System\n\nThe IUPAC (International Union of Pure and Applied Chemistry) rules assign one systematic name per structure:\n\n1. Find the longest continuous carbon chain and name it as the parent (meth-, eth-, prop-, but-, pent-, hex-, hept-, oct-, non-, dec-).\n2. Number the chain from the end that gives substituents the lowest possible locants (using the first point of difference when ties occur).\n3. Identify and name each substituent as an alkyl group by replacing the -ane ending with -yl (methane → methyl, ethane → ethyl, propane → propyl).\n4. Assemble the name: list substituents alphabetically with their locants, using di-, tri-, tetra- to count identical groups.\n5. Write the full name as one continuous word, with hyphens between numbers and letters and commas between numbers.\n\n### 3. Substituents, Prefixes, and Common Names\n\nAlkyl substituents are alkanes missing one hydrogen. Multiplicative prefixes (di- = 2, tri- = 3, tetra- = 4) count identical groups but are ignored when alphabetizing. Complex substituents — branches that themselves branch, such as isopropyl or tert-butyl — are named in parentheses with their own internal numbering. Many traditional names persist: isobutane, isopentane, and neopentane, along with the descriptors iso-, sec-, and tert-. You should recognize these common names even though IUPAC names are preferred for systematic work.",
+    "howItWorks": "1. Identify the longest continuous carbon chain and write its alkane name.\n2. Number the chain so substituents receive the lowest locants.\n3. Name each substituent as an alkyl group.\n4. Alphabetize substituents and add locants plus multiplicative prefixes.\n5. Join everything into one continuous word with correct hyphenation.\n6. Reverse the process to draw: sketch the parent, number it, and attach substituents at their locants.",
+    "comparisons": "",
+    "highYield": "- **High yield:** The longest continuous chain is the parent, even if it is not drawn as a straight line.\n- **High yield:** Numbering must give the lowest set of locants, decided by the first point of difference.\n- **High yield:** Alphabetize ignoring di-, tri-, sec-, and tert-, but keep iso- and cyclo- as part of the name.\n- Substituent names replace -ane with -yl.\n- Acyclic alkanes follow CₙH₂ₙ₊₂; each ring or double bond removes two hydrogens.\n- Common names (isobutane, isopentane, neopentane) still appear and must be recognized.\n- Commas separate numbers; hyphens separate numbers from letters.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Longest chain (parent) | Longest straight line as drawn | The parent may bend; count all continuous C–C paths |\n| Alphabetizing prefixes | di-, tri-, sec-, tert- | These counting/descriptor prefixes are ignored when alphabetizing |\n| iso- (common prefix) | IUPAC systematic name | iso- names are accepted common names, not IUPAC |\n| \"Lowest number\" | \"Lowest sum\" of locants | IUPAC uses the first point of difference, not necessarily the smallest sum |",
+    "memoryAids": "\"Longest chain, lowest number, alphabetical, one word\" — or remember the sequence **P-N-S-A**: Parent, Number, Substituents, Assemble.",
+    "eli10": "Think of an alkane as a chain of building blocks where each block is a carbon, and every unused connection point is capped by a hydrogen. Because each carbon block can attach to up to four other pieces, chains can run straight or branch like a tree. The molecule's name is a set of written instructions for rebuilding that exact arrangement: which is the longest spine, where each branch attaches, and what each branch is called.\n\nThe comparison: naming an alkane is like writing a precise address — but read in reverse. You first find the longest road (the longest carbon chain), then describe each side street with its own label and house number. Where it stops being exact: the analogy suggests one perfect, obvious name, but in chemistry a single molecule can carry several legitimate names (a common name and an IUPAC name), and the \"longest chain\" is often not the chain drawn left-to-right — you must hunt through the structure to find it.\n\n### Simple Example\n\n2-Methylbutane has a four-carbon parent (butane) with a one-carbon \"methyl\" branch attached to carbon 2. All five carbons could also be drawn as one straight five-carbon chain, but the IUPAC rule says choose the longest continuous chain — here four carbons — which leaves the fifth carbon as a branch rather than part of the parent.",
+    "quickReview": "### Topic Recap\n\nHydrocarbons contain only carbon and hydrogen. Alkanes are saturated (all single bonds) and follow CₙH₂ₙ₊₂. IUPAC naming means longest chain → lowest numbering → name substituents → alphabetize → assemble. Fluency in both directions — name to structure and structure to name — is the goal.\n\n### Knowledge Check\n\n1. What is the general formula of an acyclic alkane with n carbons?\n2. Name CH₃CH₂CH₂CH₂CH₃.\n3. Why is \"2-ethylpropane\" an incorrect name for a five-carbon molecule?\n4. Name a six-carbon chain carrying a methyl on C2 and a methyl on C3.\n5. Cyclopentane has the formula C₅H₁₀. Why does it have two fewer hydrogens than pentane?\n\n### Answers and Rationales\n\n1. CₙH₂ₙ₊₂ — every carbon is saturated with single bonds.\n2. Pentane — five carbons in one continuous chain.\n3. Because the longest continuous chain is actually five carbons (a pentane bearing a methyl), not a three-carbon propane with a two-carbon branch.\n4. 2,3-dimethylhexane.\n5. Ten hydrogens, two fewer than pentane (C₅H₁₂), because closing the ring removes two terminal hydrogens.",
+    "workedExamples": "Naming is a deterministic procedure rather than a mechanism, so we \"calculate\" a name and then verify the atom bookkeeping.\n\n1. Draw or receive the structure (often a line-angle formula).\n2. Trace every continuous carbon path and select the longest one as the parent chain.\n3. Number the chain from the end giving the first substituent the lower number; break ties by the first point of difference, then by alphabetization.\n4. Name each substituent (count its carbons, name the alkyl group, record its locant).\n5. Alphabetize substituent names, ignoring di-, tri-, sec-, and tert-.\n6. Assemble: substituent locants and names, followed by the parent. Example: a hexane with an ethyl on C3 and methyls on C2 and C4 becomes 3-ethyl-2,4-dimethylhexane.\n7. Verify: count carbons and hydrogens and confirm the formula matches CₙH₂ₙ₊₂ for an acyclic alkane.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "introduction-to-hydrocarbons-and-alkane-nomenclature",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "08-introduction-to-hydrocarbons-and-alkane-nomenclature",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/08-introduction-to-hydrocarbons-and-alkane-nomenclature.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

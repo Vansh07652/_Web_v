@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cancer-biology:brca1-2",
+  "slug": "brca1-2",
+  "title": "BRCA1 and BRCA2: Homologous Recombination Caretakers",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cancer-biology",
+    "slug": "cancer-biology",
+    "title": "Cancer Biology",
+    "order": 8
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "*BRCA1* and *BRCA2* are tumor suppressor genes that encode **caretaker** proteins central to **homologous recombination (HR)**, the error-free pathway for repairing DNA double-strand breaks (DSBs). They do not directly regulate cell division; instead, their loss disables a major DNA-repair mechanism, causing genomic instability that accelerates the accumulation of mutations in other genes. Although both genes sit in the same HR pathway, they perform **distinct** jobs — BRCA1 orchestrates repair and checkpoint signaling in multiple complexes, while BRCA2 directly loads the RAD51 recombinase onto single-stranded DNA.",
+    "whyItMatters": "BRCA1/2 are the most clinically important hereditary cancer genes. Carriers face sharply elevated lifetime risks — BRCA1 ~55–65% (up to ~72% in older estimates) for breast cancer and ~39–44% for ovarian cancer; BRCA2 ~45% for breast and ~11–17% for ovarian — plus risks for prostate, pancreatic, and male breast cancer. Identifying carriers enables intensive screening, prophylactic surgery, and targeted therapy. The PARP-inhibitor story is the textbook example of **synthetic lethality** and precision oncology.",
+    "learningObjectives": "- Explain the distinct molecular roles of BRCA1 and BRCA2 in DNA double-strand-break repair.\n- Describe homologous recombination and contrast it with non-homologous end joining.\n- Explain why BRCA1/2 mutations raise breast, ovarian, and other cancer risks.\n- Explain the principle of synthetic lethality and PARP-inhibitor therapy.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n*BRCA1* and *BRCA2* are tumor suppressor genes that encode **caretaker** proteins central to **homologous recombination (HR)**, the error-free pathway for repairing DNA double-strand breaks (DSBs). They do not directly regulate cell division; instead, their loss disables a major DNA-repair mechanism, causing genomic instability that accelerates the accumulation of mutations in other genes. Although both genes sit in the same HR pathway, they perform **distinct** jobs — BRCA1 orchestrates repair and checkpoint signaling in multiple complexes, while BRCA2 directly loads the RAD51 recombinase onto single-stranded DNA.\n\n### Key Components\n\n- **Double-strand break (DSB):** the most dangerous DNA lesion; repaired by HR or non-homologous end joining (NHEJ).\n- **Homologous recombination (HR):** error-free repair using the intact sister chromatid as a template, restricted to S/G2.\n- **Non-homologous end joining (NHEJ):** faster, error-prone pathway that simply ligates broken ends.\n- **RAD51:** the recombinase that coats single-stranded DNA and mediates strand invasion during HR.\n- **BRCA1:** scaffold protein in multiple complexes; promotes end resection and checkpoint signaling; functions with its partner BARD1 as an E3 ubiquitin ligase.\n- **BRCA2:** chaperones RAD51 onto single-stranded DNA (via BRC repeats), enabling strand invasion.\n- **PARP inhibitors:** drugs that create synthetic lethality in HR-defective tumors.\n\n### Mechanism\n\nWhen a DSB occurs, BRCA1 is recruited to the break and promotes **end resection** — the generation of single-stranded DNA overhangs required for HR — while also activating cell-cycle checkpoints. BRCA2 then loads **RAD51** onto these overhangs, displacing the single-strand-binding protein RPA. The RAD51 filament searches for and invades the intact sister chromatid, which serves as a template for accurate resynthesis of the damaged region. If BRCA1 or BRCA2 is defective, HR fails, and the cell falls back on error-prone NHEJ, generating deletions and rearrangements that drive genome instability and cancer.\n\n### How It Works\n\n1. A double-strand break forms (radiation, replication stress, reactive oxygen).\n2. BRCA1 is recruited and promotes DNA end resection to create ssDNA overhangs.\n3. BRCA1 signals to ATM/ATR checkpoints, pausing the cell cycle.\n4. BRCA2 loads RAD51 onto the ssDNA (replacing RPA).\n5. The RAD51 filament invades the homologous sister chromatid.\n6. DNA polymerase synthesizes the missing sequence using the sister strand as template.\n7. The break is resolved accurately (error-free HR).\n\n### Energy and Directionality\n\nHR is an ATP-dependent process: RAD51 is an ATPase whose filament assembly, strand invasion, and disassembly are coupled to ATP binding/hydrolysis, and helicases and polymerases consume nucleotide triphosphates during repair. The choice of HR (error-free) versus NHEJ (error-prone) is a regulated directional decision based on cell-cycle phase and resection. Loss of BRCA1/2 biases repair toward the mutagenic NHEJ pathway, raising the mutation rate and thereby driving tumor evolution.\n\n### Experimental Evidence\n\n- **Linkage studies (1990s):** *BRCA1* and *BRCA2* were mapped in families with hereditary breast/ovarian cancer.\n- **Cell-biology studies:** BRCA-deficient cells show defective RAD51 focus formation, radiation sensitivity, and genomic instability.\n- **Synthetic lethality (Bryant et al.; Farmer et al., 2005):** PARP inhibitors kill BRCA1/2-deficient cells while sparing normal cells — because PARP inhibition creates lesions that require HR for repair.\n- **Clinical trials:** PARP inhibitors (olaparib) and platinum agents are effective in BRCA-mutated breast/ovarian cancers.\n\n### Technique\n\n- **Germline sequencing** — detect pathogenic *BRCA1/2* variants (genetic testing for risk).\n- **RAD51 focus formation assay** — a functional readout of HR competence (defective in BRCA-mutant cells).\n- **PARP-inhibitor sensitivity assays** — identify HR-deficient tumors.\n- **Homologous recombination deficiency (HRD) scores** — genomic scars that reveal HR defects.\n- **Mouse models** — conditional knockouts to study tissue-specific tumorigenesis.",
+    "howItWorks": "1. A double-strand break forms (radiation, replication stress, reactive oxygen).\n2. BRCA1 is recruited and promotes DNA end resection to create ssDNA overhangs.\n3. BRCA1 signals to ATM/ATR checkpoints, pausing the cell cycle.\n4. BRCA2 loads RAD51 onto the ssDNA (replacing RPA).\n5. The RAD51 filament invades the homologous sister chromatid.\n6. DNA polymerase synthesizes the missing sequence using the sister strand as template.\n7. The break is resolved accurately (error-free HR).",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- BRCA1/2 are **caretaker** tumor suppressors in the **homologous recombination (HR)** pathway.\n- **BRCA1** promotes end resection and checkpoint signaling; **BRCA2** loads **RAD51** onto ssDNA.\n- HR = **error-free** (uses sister chromatid, S/G2); NHEJ = error-prone.\n- Loss of BRCA1/2 → HR failure → genome instability → breast/ovarian (and other) cancers.\n- **PARP inhibitors** exploit synthetic lethality in HR-defective tumors.\n- Inheritance is autosomal dominant for *risk*, but the defect is recessive at the cellular level (two-hit).",
+    "commonConfusions": "- **\"BRCA1 and BRCA2 do the same thing.\"** — They have distinct roles: BRCA1 = resection/scaffold/checkpoint; BRCA2 = RAD51 loading.\n- **\"BRCA genes cause breast cancer directly.\"** — Their loss disables DNA repair; cancer arises from the resulting genomic instability in other genes.\n- **\"Everyone with a BRCA mutation gets cancer.\"** — No; risk is elevated but penetrance is incomplete (~45–72% breast, depending on gene and study).\n- **\"BRCA only affects women / only causes breast and ovarian cancer.\"** — It also affects men and raises prostate, pancreatic, and male breast cancer risk.\n- **\"BRCA1/2 are gatekeepers like RB.\"** — They are caretakers (repair genes), a different category of tumor suppressor.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of BRCA1 and BRCA2 as the two specialists in a DNA repair crew. When a chromosome snaps in two, BRCA1 is the site foreman who clears the area and calls for a pause, and BRCA2 is the worker who threads the repair thread (RAD51) through the needle and stitches the break back together using the cell's spare copy as the pattern. If either specialist is missing, the crew has to use duct tape instead of proper stitching — and duct-taped DNA accumulates mistakes that can turn into cancer. (The analogy simplifies many other proteins and steps in the repair pathway.)",
+    "quickReview": "- BRCA1/2 = caretakers of homologous recombination.\n- BRCA1: end resection + checkpoints; BRCA2: RAD51 loading.\n- HR (error-free, sister chromatid) vs. NHEJ (error-prone).\n- Mutations → hereditary breast/ovarian cancer, incomplete penetrance.\n- PARP inhibitors = synthetic lethality.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "MedlinePlus Genetics, \"BRCA1 gene.\" https://medlineplus.gov/genetics/gene/brca1/",
+        "url": "https://medlineplus.gov/genetics/gene/brca1/"
+      },
+      {
+        "text": "MedlinePlus Genetics, \"BRCA2 gene.\" https://medlineplus.gov/genetics/gene/brca2/",
+        "url": "https://medlineplus.gov/genetics/gene/brca2/"
+      },
+      {
+        "text": "NCI, \"BRCA Gene Changes: Cancer Risk and Genetic Testing.\" https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet",
+        "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet"
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"BRCA1 gene.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/brca1-gene",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/brca1-gene"
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"BRCA2 gene.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/brca2-gene",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/brca2-gene"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/08-cancer-biology/07-brca1-2.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

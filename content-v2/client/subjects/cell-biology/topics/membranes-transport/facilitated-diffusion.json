@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:membranes-transport:facilitated-diffusion",
+  "slug": "facilitated-diffusion",
+  "title": "Facilitated Diffusion: Carriers and Channels",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:membranes-transport",
+    "slug": "membranes-transport",
+    "title": "Membranes Transport",
+    "order": 2
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "Facilitated diffusion is passive transport down a concentration gradient that requires a membrane protein — a carrier or a channel — because the solute cannot cross the lipid bilayer on its own. No metabolic energy is consumed; the gradient supplies the driving force. The two protein types differ sharply: **carriers** (like the GLUT glucose transporters) bind their substrate, change conformation, and release it on the other side, showing saturation kinetics and relatively low speed; **channels** (like aquaporins and ion channels) form aqueous pores that let solutes flow through when open, achieving much higher flux, often with gating.",
+    "whyItMatters": "Facilitated diffusion moves the solutes cells cannot get by simple diffusion: glucose into nearly all cells (GLUT), water across kidney tubules and epithelia (aquaporins), and ions for signaling (channels). Its regulation — insulin-stimulated GLUT4 delivery to the cell surface, aquaporin-2 regulation by ADH, channel gating — is central to metabolism, osmoregulation, and the nervous system.",
+    "learningObjectives": "- Define facilitated diffusion and explain how it differs from simple diffusion and active transport.\n- Contrast carrier proteins (GLUT) with channels (aquaporins, ion channels).\n- Explain saturation kinetics, gating, specificity, and transport speed.\n- Identify physiological examples (GLUT1, aquaporins).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nFacilitated diffusion is passive transport down a concentration gradient that requires a membrane protein — a carrier or a channel — because the solute cannot cross the lipid bilayer on its own. No metabolic energy is consumed; the gradient supplies the driving force. The two protein types differ sharply: **carriers** (like the GLUT glucose transporters) bind their substrate, change conformation, and release it on the other side, showing saturation kinetics and relatively low speed; **channels** (like aquaporins and ion channels) form aqueous pores that let solutes flow through when open, achieving much higher flux, often with gating.\n\n### Key Components\n\n### Carrier proteins (transporters)\nBind a specific solute, undergo a conformational change, and release it across the membrane. They show Michaelis-Menten-like **saturation** (a maximum transport rate, V_max) and can be competitively inhibited. Examples: GLUT1–GLUT4 glucose transporters.\n\n### Channel proteins\nForm a hydrophilic pore spanning the bilayer. When open they let specific solutes (or ions) diffuse through rapidly. **Aquaporins** are water-specific channels; **ion channels** are ion-specific pores that are usually **gated** (open/closed). Channels are much faster than carriers and do not saturate in the classic carrier sense (though ion flux can be limited by other factors).\n\n### Selectivity\nBoth types are selective — carriers by binding specificity, channels by a selectivity filter (size/charge/hydration).\n\n### Gating\nChannels can be opened/closed by voltage, ligand, or mechanical force; carriers are not \"gated\" but cycle between conformations.\n\n### Passive direction\nAlways downhill along the concentration (for water/glucose) or electrochemical (for ions) gradient.\n\n### Mechanism\n\nA carrier alternates between outward- and inward-facing conformations: solute binds on the high-concentration side, a conformational switch reorients the binding site, and the solute is released on the low side. A channel, by contrast, provides a continuous water-filled pathway; when open, ions or water stream through by simple diffusion within the pore. Both are passive because they only ever run in the direction the gradient allows.\n\n### How It Works\n\n1. Solute arrives at the transport protein on the high-concentration side.\n2. **Carrier path:** solute binds → protein flips conformation → solute released on the low side → protein flips back. Each cycle moves a fixed number of molecules (limited by turnover rate).\n3. **Channel path:** gate opens → solutes/ions diffuse single-file (or in a narrow stream) through the pore → gate closes.\n4. Net flux continues until the gradient dissipates.\n5. No ATP is used in either path.\n\n### Energy and Directionality\n\nBoth processes are exergonic and downhill: they convert the stored free energy of a concentration (or electrochemical) gradient into solute movement. They cannot move solutes against a gradient. The difference is kinetic: carriers are limited by conformational turnover (V_max), whereas open channels sustain near-diffusion-limited flux.\n\n### Experimental Evidence\n\n- **Saturation kinetics:** glucose uptake into erythrocytes increases with external glucose and plateaus at V_max — the classic proof of carrier-mediated (facilitated) transport.\n- **Specificity and competition:** glucose analogues inhibit glucose uptake, demonstrating a specific binding site (GLUT).\n- **Aquaporin discovery:** Peter Agre identified CHIP28/aquaporin-1 and showed it greatly increases water permeability (Nobel Prize in Chemistry 2003).\n- **Single-channel currents:** patch-clamp recordings show channels pass ~10⁶–10⁸ ions/s — orders of magnitude faster than carriers.\n\n### Technique\n\nUptake of radiolabeled or fluorescent substrates into cells or liposomes (with saturation and competition analysis) characterizes carriers; patch-clamp electrophysiology and stopped-flow water-flux assays characterize channels and aquaporins.",
+    "howItWorks": "1. Solute arrives at the transport protein on the high-concentration side.\n2. **Carrier path:** solute binds → protein flips conformation → solute released on the low side → protein flips back. Each cycle moves a fixed number of molecules (limited by turnover rate).\n3. **Channel path:** gate opens → solutes/ions diffuse single-file (or in a narrow stream) through the pore → gate closes.\n4. Net flux continues until the gradient dissipates.\n5. No ATP is used in either path.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Facilitated diffusion = passive, protein-mediated, downhill transport.\n- Carriers (GLUT): bind, change conformation, saturate at V_max, slower.\n- Channels (aquaporin, ion channels): pores; gated; far faster; ion-selective.\n- No ATP used by either.\n- GLUT4 is insulin-regulated; aquaporin-2 is ADH-regulated.\n- Channels: ~10⁶–10⁸ ions/s; carriers: ~10²–10⁴ molecules/s.",
+    "commonConfusions": "- **\"Facilitated diffusion needs ATP.\"** It is passive — only the gradient drives it.\n- **\"Carriers and channels work the same way.\"** Carriers bind and change shape (saturable, slower); channels are gated pores (faster, often ion-selective).\n- **\"Channels saturate like carriers.\"** Open channels do not show carrier-style saturation; they are limited by gating and the gradient, not by a conformational cycle.\n- **\"Aquaporin is an ion channel.\"** It is water-specific and excludes ions, including protons.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nIf the membrane is a wall, a carrier is a revolving door: one person (molecule) steps in, the door spins, and the person steps out the other side — it can only move so many people per minute. A channel is an open hallway with a gate: when the gate opens, people pour through in a rush. Both only let people move from the crowded side to the empty side; neither can shove anyone uphill.",
+    "quickReview": "- Passive transport via protein: carrier or channel.\n- Carrier = binding + conformational change (GLUT), saturates.\n- Channel = gated aqueous pore (aquaporin, ion channels), fast.\n- Both run downhill; neither uses ATP.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"5.2 Passive Transport.\" https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+        "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Principles of Membrane Transport.\" https://www.ncbi.nlm.nih.gov/books/NBK26815/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+      },
+      {
+        "text": "NobelPrize.org, \"The Nobel Prize in Chemistry 2003\" (aquaporins and ion channels). https://www.nobelprize.org/prizes/chemistry/2003/summary/",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2003/summary/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/02-membranes-transport/09-facilitated-diffusion.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

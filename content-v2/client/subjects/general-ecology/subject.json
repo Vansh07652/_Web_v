@@ -1,0 +1,598 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:general-ecology",
+    "slug": "general-ecology",
+    "title": "General Ecology",
+    "aliases": [],
+    "status": "final",
+    "category": "pre-health-core"
+  },
+  "units": [
+    {
+      "id": "unit:general-ecology:ecological-foundations",
+      "slug": "ecological-foundations",
+      "title": "Ecological Foundations",
+      "order": 1,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:general-ecology:ecological-foundations:the-science-and-scope-of-ecology",
+          "slug": "the-science-and-scope-of-ecology",
+          "title": "The Science and Scope of Ecology",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/ecological-foundations/the-science-and-scope-of-ecology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:general-ecology:physical-environment",
+      "slug": "physical-environment",
+      "title": "Physical Environment",
+      "order": 2,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:general-ecology:physical-environment:climate-weather-and-the-biosphere",
+          "slug": "climate-weather-and-the-biosphere",
+          "title": "Climate, Weather, and the Biosphere",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/physical-environment/climate-weather-and-the-biosphere.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:physical-environment:terrestrial-biomes",
+          "slug": "terrestrial-biomes",
+          "title": "Terrestrial Biomes",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/physical-environment/terrestrial-biomes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:physical-environment:aquatic-biomes",
+          "slug": "aquatic-biomes",
+          "title": "Aquatic Biomes",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/physical-environment/aquatic-biomes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:general-ecology:organismal-ecology",
+      "slug": "organismal-ecology",
+      "title": "Organismal Ecology",
+      "order": 3,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:general-ecology:organismal-ecology:evolutionary-principles-in-ecology",
+          "slug": "evolutionary-principles-in-ecology",
+          "title": "Evolutionary Principles in Ecology",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/organismal-ecology/evolutionary-principles-in-ecology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:organismal-ecology:physiological-ecology-temperature-and-water-relations",
+          "slug": "physiological-ecology-temperature-and-water-relations",
+          "title": "Physiological Ecology: Temperature and Water Relations",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/organismal-ecology/physiological-ecology-temperature-and-water-relations.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:organismal-ecology:physiological-ecology-energy-and-nutrient-acquisition",
+          "slug": "physiological-ecology-energy-and-nutrient-acquisition",
+          "title": "Physiological Ecology: Energy and Nutrient Acquisition",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/organismal-ecology/physiological-ecology-energy-and-nutrient-acquisition.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:general-ecology:population-ecology",
+      "slug": "population-ecology",
+      "title": "Population Ecology",
+      "order": 4,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:general-ecology:population-ecology:population-characteristics-distribution-and-metapopulations",
+          "slug": "population-characteristics-distribution-and-metapopulations",
+          "title": "Population Characteristics, Distribution, and Metapopulations",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/population-ecology/population-characteristics-distribution-and-metapopulations.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:population-ecology:population-demography-and-life-tables",
+          "slug": "population-demography-and-life-tables",
+          "title": "Population Demography and Life Tables",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/population-ecology/population-demography-and-life-tables.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:population-ecology:population-growth-models",
+          "slug": "population-growth-models",
+          "title": "Population Growth Models",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/population-ecology/population-growth-models.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:population-ecology:population-regulation-and-cycles",
+          "slug": "population-regulation-and-cycles",
+          "title": "Population Regulation and Cycles",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/population-ecology/population-regulation-and-cycles.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:population-ecology:life-history-strategies-and-trade-offs",
+          "slug": "life-history-strategies-and-trade-offs",
+          "title": "Life-History Strategies and Trade-Offs",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/population-ecology/life-history-strategies-and-trade-offs.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:general-ecology:species-interactions",
+      "slug": "species-interactions",
+      "title": "Species Interactions",
+      "order": 5,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:general-ecology:species-interactions:interspecific-competition-and-ecological-niches",
+          "slug": "interspecific-competition-and-ecological-niches",
+          "title": "Interspecific Competition and Ecological Niches",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/species-interactions/interspecific-competition-and-ecological-niches.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:species-interactions:predation-herbivory-and-prey-defenses",
+          "slug": "predation-herbivory-and-prey-defenses",
+          "title": "Predation, Herbivory, and Prey Defenses",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/species-interactions/predation-herbivory-and-prey-defenses.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:species-interactions:parasitism-disease-and-host-parasite-ecology",
+          "slug": "parasitism-disease-and-host-parasite-ecology",
+          "title": "Parasitism, Disease, and Host-Parasite Ecology",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/species-interactions/parasitism-disease-and-host-parasite-ecology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:species-interactions:mutualism-commensalism-and-symbiotic-networks",
+          "slug": "mutualism-commensalism-and-symbiotic-networks",
+          "title": "Mutualism, Commensalism, and Symbiotic Networks",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/species-interactions/mutualism-commensalism-and-symbiotic-networks.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:general-ecology:community-ecology",
+      "slug": "community-ecology",
+      "title": "Community Ecology",
+      "order": 6,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:general-ecology:community-ecology:community-structure-diversity-and-edge-effects",
+          "slug": "community-structure-diversity-and-edge-effects",
+          "title": "Community Structure, Diversity, and Edge Effects",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/community-ecology/community-structure-diversity-and-edge-effects.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:community-ecology:food-webs-trophic-structure-and-trophic-cascades",
+          "slug": "food-webs-trophic-structure-and-trophic-cascades",
+          "title": "Food Webs, Trophic Structure, and Trophic Cascades",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/community-ecology/food-webs-trophic-structure-and-trophic-cascades.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:community-ecology:community-dynamics-disturbance-and-succession",
+          "slug": "community-dynamics-disturbance-and-succession",
+          "title": "Community Dynamics, Disturbance, and Succession",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/community-ecology/community-dynamics-disturbance-and-succession.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:community-ecology:biogeography-and-island-biogeography",
+          "slug": "biogeography-and-island-biogeography",
+          "title": "Biogeography and Island Biogeography",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/community-ecology/biogeography-and-island-biogeography.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:general-ecology:ecosystem-ecology",
+      "slug": "ecosystem-ecology",
+      "title": "Ecosystem Ecology",
+      "order": 7,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:general-ecology:ecosystem-ecology:energy-flow-productivity-and-ecological-pyramids",
+          "slug": "energy-flow-productivity-and-ecological-pyramids",
+          "title": "Energy Flow, Productivity, and Ecological Pyramids",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/ecosystem-ecology/energy-flow-productivity-and-ecological-pyramids.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:ecosystem-ecology:biogeochemical-cycles-and-nutrient-limitation",
+          "slug": "biogeochemical-cycles-and-nutrient-limitation",
+          "title": "Biogeochemical Cycles and Nutrient Limitation",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/ecosystem-ecology/biogeochemical-cycles-and-nutrient-limitation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:general-ecology:landscape-and-global-ecology",
+      "slug": "landscape-and-global-ecology",
+      "title": "Landscape and Global Ecology",
+      "order": 8,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:general-ecology:landscape-and-global-ecology:landscape-ecology-fragmentation-and-connectivity",
+          "slug": "landscape-ecology-fragmentation-and-connectivity",
+          "title": "Landscape Ecology, Fragmentation, and Connectivity",
+          "order": 23,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/landscape-and-global-ecology/landscape-ecology-fragmentation-and-connectivity.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:landscape-and-global-ecology:global-ecology-human-impacts-and-the-anthropocene",
+          "slug": "global-ecology-human-impacts-and-the-anthropocene",
+          "title": "Global Ecology, Human Impacts, and the Anthropocene",
+          "order": 24,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/landscape-and-global-ecology/global-ecology-human-impacts-and-the-anthropocene.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:general-ecology:conservation-biology",
+      "slug": "conservation-biology",
+      "title": "Conservation Biology",
+      "order": 9,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:general-ecology:conservation-biology:biodiversity-ecosystem-services-and-human-welfare",
+          "slug": "biodiversity-ecosystem-services-and-human-welfare",
+          "title": "Biodiversity, Ecosystem Services, and Human Welfare",
+          "order": 25,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/conservation-biology/biodiversity-ecosystem-services-and-human-welfare.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:conservation-biology:threats-to-biodiversity",
+          "slug": "threats-to-biodiversity",
+          "title": "Threats to Biodiversity",
+          "order": 26,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/conservation-biology/threats-to-biodiversity.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:general-ecology:conservation-biology:conservation-strategies-and-restoration-ecology",
+          "slug": "conservation-strategies-and-restoration-ecology",
+          "title": "Conservation Strategies and Restoration Ecology",
+          "order": 27,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/general-ecology/topics/conservation-biology/conservation-strategies-and-restoration-ecology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 9,
+    "topicCount": 27,
+    "teachingTopicCount": 27,
+    "eli10TopicCount": 27,
+    "highYieldTopicCount": 27,
+    "referencedTopicCount": 0,
+    "exactOrMappedQuestionCount": 0,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 0,
+    "citationReviewRequiredCount": 0
+  },
+  "provenance": {
+    "sourceCollection": "need-review-general-ecology",
+    "sourceRoot": "general-ecology-study-notes",
+    "importBatch": "2026-08-15-need-review-notes",
+    "importedWithoutRewriting": true
+  }
+}

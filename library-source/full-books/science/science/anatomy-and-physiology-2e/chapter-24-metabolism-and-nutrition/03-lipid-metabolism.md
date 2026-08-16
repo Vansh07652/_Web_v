@@ -1,0 +1,145 @@
+---
+title: "Lipid Metabolism"
+subject: "Science"
+book: "Anatomy and Physiology 2e"
+chapter: "24: Metabolism and Nutrition"
+topic_number: "3"
+source: "anatomy-and-physiology-2e.md"
+tags:
+  - "lipid-metabolism"
+  - "science"
+status: "complete"
+---
+
+# Lipid Metabolism
+
+> **Book:** [Anatomy and Physiology 2e](../../README.md)  
+> **Chapter:** [Chapter 24: Metabolism and Nutrition](../README.md)  
+> **Topic:** 3  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Lipids are the body's most concentrated fuel and its largest energy reserve. The central players are **triglycerides** — three fatty acids attached to a glycerol backbone — stored in adipose tissue. Lipid metabolism has four big movements: **absorption** (dietary fat packaged into chylomicrons and delivered through lymph, Chapter 23), **storage** (lipogenesis and fat deposition), **mobilization** (lipolysis releasing fatty acids into the blood), and **oxidation** (beta-oxidation chopping fatty acids into acetyl-CoA, which feeds the Krebs cycle). The liver is the hub: it assembles lipoproteins, oxidizes fatty acids, and, when acetyl-CoA piles up faster than the Krebs cycle can handle, converts the excess into **ketone bodies** — alternative fuels that muscle and even the brain can use during fasting. Cholesterol, though not an energy fuel, rides along in the same lipoproteins and has its own essential roles in membranes, steroid hormones, bile salts, and vitamin D. This topic shows why fat is both the endurance fuel and the source of the body's most dangerous metabolic derangements when regulation fails.
+
+## Why This Matters
+
+Fat is the body's long-term savings account: the commonly taught view is that a typical adult's stored triglyceride energy could sustain survival for weeks, dwarfing the glycogen reserve. That is why endurance exercise and prolonged fasting run on fat, and why the brain — which prefers glucose — must adapt to ketones during starvation. The flip side is that fat metabolism can go wrong dramatically: in the absence of insulin (as in uncontrolled type 1 diabetes), lipolysis is unopposed, ketone production outstrips use, and the blood becomes acidic — a medical emergency. And because lipids travel in lipoproteins, lipid metabolism is inseparable from the cholesterol story of cardiovascular health: chylomicrons, VLDL, LDL, and HDL are the vehicles, and the commonly taught (if simplified) "good/bad cholesterol" framing traces back to which lipoprotein carries what where. For exams, lipid metabolism delivers classic high-yield items: where beta-oxidation happens, what it produces, why fat yields more ATP per gram than glucose, and the ketone body pathway.
+
+## Core Concepts
+
+### From meal to chylomicron: absorption and transport
+
+Dietary triglycerides cannot cross the intestinal wall intact. Bile emulsifies them, pancreatic lipase digests them, micelles ferry the products to the enterocyte, and inside the enterocyte they are reassembled into triglycerides and packaged into **chylomicrons** — large lipoproteins that leave through lacteals and lymph, entering the blood via the thoracic duct (Chapter 23, Topic 7). In the capillaries of muscle and adipose tissue, **lipoprotein lipase (LPL)** on the vessel wall unloads the chylomicron's triglycerides into the tissues; the remaining chylomicron remnant is taken up by the liver.
+
+### Lipoproteins: the delivery fleet
+
+Because lipids do not dissolve in water, they travel in **lipoproteins** — spherical particles with a hydrophobic core (triglycerides and cholesterol esters) and a surface of phospholipids and proteins (apolipoproteins) that keeps them suspended and targets them to specific tissues. The four commonly taught classes, from largest to smallest:
+
+- **Chylomicrons** — carry dietary triglycerides from the intestine to tissues.
+- **VLDL** (very-low-density lipoproteins) — carry triglycerides made in the liver (from dietary excess or lipogenesis) to tissues.
+- **LDL** (low-density lipoproteins) — carry cholesterol to tissues; the "bad cholesterol" of popular framing, because excess blood LDL is associated with cholesterol deposition in arteries (commonly taught).
+- **HDL** (high-density lipoproteins) — gather cholesterol from tissues and return it to the liver for excretion; the "good cholesterol" of popular framing.
+
+This simple good/bad framing is a teaching shorthand, not the whole story; current guidelines continue to evolve, and apolipoprotein-based risk concepts go beyond this study guide. What matters here is the direction of travel: chylomicrons and VLDL deliver, LDL delivers cholesterol, and HDL collects.
+
+### Storage and mobilization
+
+When calorie intake exceeds need, insulin promotes **lipogenesis** — converting excess glucose (and amino acids) into fatty acids, esterified into triglycerides and deposited in **adipose tissue**. Adipose is the largest energy depot and also an active endocrine organ. When fuel is needed — fasting, exercise, stress — **lipolysis** breaks triglycerides down: **hormone-sensitive lipase**, activated by glucagon and epinephrine and inhibited by insulin, releases free fatty acids and glycerol. Fatty acids travel in the blood bound to **albumin**, while glycerol goes to the liver, where it can feed gluconeogenesis. This insulin–glucagon seesaw mirrors the carbohydrate one: insulin builds fat, glucagon and epinephrine burn it.
+
+### Beta-oxidation: chopping fatty acids into acetyl-CoA
+
+Fatty acids are oxidized in the mitochondria by **beta-oxidation**, which removes two carbons at a time as **acetyl-CoA**. Long-chain fatty acids require the **carnitine shuttle** to cross the mitochondrial membrane (commonly taught). Each cycle also produces one NADH and one FADH2, which feed the electron transport chain. The payoff is why fat is the endurance fuel: a fatty acid yields far more ATP per gram than glucose (commonly taught: roughly twice as much), because fatty acids are highly reduced — packed with hydrogens ready to donate electrons. The acetyl-CoA joins the Krebs cycle just like the acetyl-CoA from glucose. Because fatty acids cannot run glycolysis, they cannot be converted to glucose in humans — which is why fat alone cannot feed the brain's glucose needs.
+
+### Ketogenesis: the liver's overflow valve
+
+When fatty acid delivery is high and the Krebs cycle is already busy — prolonged fasting, very-low-carbohydrate diets, or unopposed lipolysis — the liver converts excess acetyl-CoA into **ketone bodies**: **acetoacetate**, **beta-hydroxybutyrate**, and acetone (which forms spontaneously and is exhaled, giving a fruity breath odor). This is **ketogenesis**, and it is a normal adaptation: ketone bodies are water-soluble, leave the liver, and are used as fuel by muscle, heart, kidney, and — after a few days of adaptation — the brain, sparing glucose and muscle protein. The controlled, modest ketosis of fasting is different from **ketoacidosis**: when insulin is absent (uncontrolled diabetes), lipolysis runs unchecked, ketone production vastly outstrips use, and the accumulating ketones overwhelm the blood's buffering, producing a life-threatening metabolic acidosis (educational description only — diagnosis and treatment are clinical matters). The difference between the two states is regulation, not chemistry.
+
+### Cholesterol: not a fuel, but essential
+
+Cholesterol is not oxidized for energy; its roles are structural and synthetic: it stabilizes cell membranes and is the precursor for steroid hormones (cortisol, aldosterone, the sex hormones), bile salts, and vitamin D. The liver synthesizes most of the body's cholesterol and also packages dietary and newly made cholesterol into lipoproteins. Excess cholesterol is excreted in bile (partly as bile salts, with most bile salts recycled via the enterohepatic circulation). Two fatty acids — **linoleic acid** (an omega-6) and **alpha-linolenic acid** (an omega-3) — are **essential fatty acids**: the body cannot synthesize them, so they must come from the diet (commonly taught). They are needed for membranes and as precursors for signaling molecules such as eicosanoids.
+
+## ELI-10: Explain Like I'm 10
+
+Fat is the body's big basement pantry. The fridge (glycogen) holds snacks for the next few hours, but the basement holds enough food for weeks. When the fridge runs low, the body sends movers upstairs with boxes (lipolysis), and the liver chops each box into smaller fuel pieces (beta-oxidation). If the pieces pile up faster than they can be used — like during a long fast — the liver packs them into special fuel bricks called ketones, which even the brain can learn to burn. But if the packing machine runs wild with no one to stop it, the bricks can pile up so high they make the blood too acidic — that is the dangerous version, ketoacidosis.
+
+## High-Yield Points
+
+- **Triglycerides in adipose tissue are the largest energy reserve**; fat yields roughly twice the ATP per gram of glucose (commonly taught).
+- Dietary fat travels as **chylomicrons** through lymph; **lipoprotein lipase** unloads triglycerides at tissues.
+- Lipoprotein classes: **chylomicron** (dietary fat), **VLDL** (liver triglycerides), **LDL** (cholesterol delivery; "bad" in popular framing), **HDL** (cholesterol collection; "good") — a teaching shorthand, not the whole story.
+- **Lipolysis** (hormone-sensitive lipase) is stimulated by glucagon and epinephrine, inhibited by insulin; fatty acids ride on **albumin**.
+- **Beta-oxidation** occurs in mitochondria (carnitine shuttle for long chains), removing 2 carbons per cycle as **acetyl-CoA**, producing NADH and FADH2.
+- **Fatty acids cannot be converted to glucose** in humans — only glycerol (and amino acids) can feed gluconeogenesis.
+- **Ketogenesis** (liver): excess acetyl-CoA → acetoacetate, beta-hydroxybutyrate, acetone; ketones fuel muscle, heart, kidney, and the adapted brain during fasting.
+- **Ketosis (controlled, fasting) ≠ ketoacidosis (uncontrolled, acidic)** — regulation is the difference.
+- **Cholesterol** builds membranes and is the precursor of steroid hormones, bile salts, and vitamin D; it is not burned for energy.
+- **Essential fatty acids** (linoleic, alpha-linolenic) must come from the diet.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Triglyceride | Three fatty acids on a glycerol backbone | The body's main fat storage and transport form |
+| Lipogenesis | Making fatty acids/triglycerides from excess glucose and amino acids | The storage pathway promoted by insulin |
+| Lipolysis | Breakdown of triglycerides into fatty acids and glycerol | The mobilization pathway promoted by glucagon/epinephrine |
+| Hormone-sensitive lipase | Adipose enzyme that releases stored fatty acids | The switch between fat storage and fat burning |
+| Beta-oxidation | Mitochondrial chopping of fatty acids into acetyl-CoA | The main route for oxidizing fat for energy |
+| Carnitine shuttle | System that moves long-chain fatty acids into mitochondria | Required for beta-oxidation of long chains (commonly taught) |
+| Lipoprotein | Water-soluble particle carrying lipids in blood | The delivery fleet for triglycerides and cholesterol |
+| Chylomicron | Lipoprotein carrying dietary fat from intestine to tissues | How absorbed fat enters the body (via lymph) |
+| VLDL / LDL / HDL | Lipoproteins carrying liver triglycerides / cholesterol to tissues / cholesterol back to liver | The commonly taught classes behind the "good/bad cholesterol" shorthand |
+| Lipoprotein lipase | Enzyme on vessel walls that unloads triglycerides from lipoproteins | Delivers fatty acids to muscle and adipose |
+| Ketone bodies | Acetoacetate, beta-hydroxybutyrate, acetone | Water-soluble alternative fuels made by the liver |
+| Ketoacidosis | Uncontrolled, excessive ketone production causing blood acidity | A medical emergency of unregulated fat metabolism (educational) |
+
+## Example: The Marathon Runner's Fuel Switch
+
+A runner lines up for a 42 km marathon with full glycogen stores and a healthy fat reserve. Kilometers 1–5: mostly carbohydrate — glycogen burns fast because it produces ATP quickly. Kilometers 10–25: as glycogen thins, the pace settles into the aerobic zone, **lipolysis** releases fatty acids, and **beta-oxidation** feeds acetyl-CoA into the Krebs cycle, sparing glycogen for later surges. Kilometers 30–42 ("hitting the wall" territory): if glycogen runs critically low, the runner slows, and fat oxidation alone cannot sustain the pace — this is the moment pacing and training decisions matter. Now imagine the same biochemistry without regulation: a person with uncontrolled type 1 diabetes has no insulin, so lipolysis runs unchecked, ketone bodies pour out of the liver, and the blood turns acidic — ketoacidosis, a medical emergency, not an adaptation. One pathway, two outcomes; the difference is the insulin–glucagon balance that decides whether fat metabolism is a marathon fuel or a runaway process.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Eating fat making you fat directly | Excess calories of any kind being stored | Excess glucose and amino acids are converted to fat by lipogenesis; energy balance, not fat intake alone, drives storage |
+| Ketosis and ketoacidosis | Two different states | Ketosis is controlled fasting adaptation; ketoacidosis is unregulated, acidic, and an emergency |
+| "Bad" LDL and "good" HDL being absolute | A simplified teaching shorthand | These labels are approximations; risk concepts continue to evolve in current guidelines |
+| Fat digestion happening in the stomach | Fat digestion in the small intestine | Bile and pancreatic lipase act in the duodenum; the stomach mostly churns |
+| Fatty acids running the Krebs cycle directly | Beta-oxidation coming first | Fatty acids must be chopped into acetyl-CoA before entering the Krebs cycle |
+| Fat being convertible to glucose | Fat being convertible only to acetyl-CoA | Acetyl-CoA cannot make glucose net in humans; only glycerol and amino acids can |
+
+## Quick Review
+
+1. What is the difference between lipogenesis and lipolysis, and which hormones promote each?
+2. Where does beta-oxidation occur, what does each cycle produce, and why is fat so energy-dense?
+3. List the four commonly taught lipoprotein classes and the direction each carries lipid.
+4. When and why does the liver make ketone bodies, and what happens to the brain during prolonged fasting?
+5. How do ketosis and ketoacidosis differ?
+6. Why can fatty acids not be converted to glucose in humans?
+
+<details>
+<summary>Show answers</summary>
+
+1. Lipogenesis builds triglycerides from excess glucose/amino acids (insulin-promoted); lipolysis breaks triglycerides down into fatty acids and glycerol (glucagon- and epinephrine-promoted).
+2. In the mitochondria (long chains need the carnitine shuttle); each cycle removes two carbons as acetyl-CoA and produces NADH and FADH2; fatty acids are highly reduced, so they yield roughly twice the ATP per gram of glucose (commonly taught).
+3. Chylomicrons — dietary fat from intestine to tissues; VLDL — liver triglycerides to tissues; LDL — cholesterol to tissues; HDL — cholesterol from tissues back to liver.
+4. When acetyl-CoA exceeds Krebs capacity (prolonged fasting, low-carb diets, unopposed lipolysis); the liver converts it to ketone bodies, which muscle, heart, kidney, and the adapted brain use as fuel.
+5. Ketosis is a controlled fasting adaptation with moderate ketone levels; ketoacidosis is unregulated, excessive ketone production that overwhelms blood buffering and causes life-threatening acidosis.
+6. Because their breakdown product is acetyl-CoA, which cannot be converted to glucose net in humans — only glycerol (and glucogenic amino acids) can feed gluconeogenesis.
+
+</details>
+
+## Related Topics
+
+- Previous: [Carbohydrate Metabolism](02-carbohydrate-metabolism.md)
+- Next: [Protein Metabolism](04-protein-metabolism.md)
+- Related: [Accessory Organs in Digestion: The Liver, Pancreas, and Gallbladder](../chapter-23-the-digestive-system/06-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder.md)
+- Chapter overview: [Metabolism and Nutrition](../README.md)
+
+## Source Notes
+
+- Book: Anatomy and Physiology 2e
+- Local outline source: `anatomy-and-physiology-2e.md`
+- Official source URL: https://openstax.org/details/books/anatomy-and-physiology-2e/
+- Content type: Original educational study guide based on OpenStax outline structure. Educational draft only — ATP yield comparisons, lipoprotein classifications, and metabolic details are commonly taught textbook concepts; current cardiovascular guidelines and diagnostic criteria evolve and must be verified against up-to-date sources. No clinical recommendations are implied.
+- Last updated: 2026-08-16

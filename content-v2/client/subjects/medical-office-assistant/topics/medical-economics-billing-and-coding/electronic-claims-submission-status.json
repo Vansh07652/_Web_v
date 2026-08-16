@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:electronic-claims-submission-status",
+  "slug": "electronic-claims-submission-status",
+  "title": "Electronic Claims Submission and Status",
+  "subject": {
+    "id": "subject:medical-office-assistant",
+    "slug": "medical-office-assistant",
+    "title": "Medical Office Assistant"
+  },
+  "unit": {
+    "id": "unit:medical-office-assistant:medical-economics-billing-and-coding",
+    "slug": "medical-economics-billing-and-coding",
+    "title": "Medical Economics, Billing, and Coding",
+    "order": 4
+  },
+  "order": 31,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "- Describe electronic claim submission, including the standardized 837 transaction and required data elements.\n- Explain the role of clearinghouses, electronic acknowledgments, and claim status inquiry in the submission process.\n- Distinguish between claim rejections and denials and describe the appropriate response to each.\n- Explain timely-filing requirements and the assistant's role in tracking and protecting filing deadlines.",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nAn electronic claim is like sending a bill through the computer instead of mailing a paper letter — it uses a special shared code so the insurance company's computer can read it instantly.\n\n### Question 2\n\nThe 837P is like the standard claim \"envelope\" that carries a doctor's bill; different letters after 837 are for hospitals (I) and dentists (D).\n\n### Question 3\n\nHospitals use the \"I\" (institutional) version, doctor offices use \"P\" (professional), and dentists use \"D\" — like different sizes of the same box.\n\n### Question 4\n\nHIPAA made a common language for claims so any doctor's computer can talk to any insurance computer, like everyone agreeing to use the same alphabet.\n\n### Question 5\n\nSending a bill by computer is like emailing instead of mailing a letter — it gets there instantly and tells you right away if something is wrong.\n\n### Question 6\n\nThe claim is like a detailed receipt: who the patient is, what was done, why (the diagnosis), and how much it costs.\n\n### Question 7\n\nA clean claim is like turning in homework with every answer filled in and no smudges — it can be graded right away.\n\n### Question 8\n\nA companion guide is like a teacher's specific instructions for filling out a form, on top of the general rules everyone follows.\n\n### Question 9\n\nBefore two computers can exchange bills, both sides have to \"sign up\" and agree how to talk — like setting up a new account before you can send messages.\n\n### Question 10\n\nA trading partner agreement is like a handshake and a written promise about how two companies will share bills electronically.\n\n### Question 11\n\nDirect submission is like handing a letter straight to one friend instead of going through a mailroom that sorts lots of letters.\n\n### Question 12\n\nBatching is like mailing a whole stack of letters in one envelope instead of sending them one at a time.\n\n### Question 13\n\nComputers need everything in the same code, like a cashier needs barcodes instead of handwriting, so the machine can read it fast.\n\n### Question 14\n\nThe 837 is built like a filing cabinet with labeled drawers — each drawer holds one kind of information in the same order every time.\n\n### Question 15\n\nThe NPI is like a provider's official ID number that every insurance computer recognizes.\n\n### Question 16\n\nA rejection is like a bounced email — it never got delivered because something about the address or format was wrong.\n\n### Question 17\n\nA clearinghouse is like a post office for electronic bills: it checks the address, tidies the envelope, and sends each bill to the right insurance company.\n\n### Question 18\n\nInstead of wiring the office computer to every insurance company one by one, the clearinghouse is one big hub that connects to all of them for you.\n\n### Question 19\n\nA scrubber is like a spell-checker for bills — it catches mistakes so you can fix them before you hit send.\n\n### Question 20\n\nThe clearinghouse is like a translator who takes your message and says it in whatever language each insurance company speaks.\n\n### Question 21\n\nThe clearinghouse sends back a receipt that says \"got it\" or \"needs fixing,\" like a delivery confirmation for your bill.\n\n### Question 22\n\nOnce the bill checks out, the clearinghouse delivers it to the insurance company to be reviewed and paid.\n\n### Question 23\n\nThe clearinghouse is the mail sorter, not the judge — the insurance company is the one that decides and pays.\n\n### Question 24\n\nPick a clearinghouse the way you pick a phone service: it has to work with your phone and reach the people you call.\n\n### Question 25\n\nThe 999/277CA is like a \"message received\" or \"message failed\" reply that comes back after you send a bill.\n\n### Question 26\n\nThe 270/271 is like calling ahead to ask, \"Is this patient's insurance card good?\" before the appointment.\n\n### Question 27\n\nThe 835 is the insurance company's \"receipt and explanation\" showing what they paid and why, sent electronically.\n\n### Question 28\n\nEFT is like a direct deposit — the money goes straight into the bank account instead of a check arriving in the mail.\n\n### Question 29\n\nA rejection is a \"return to sender\" — the bill never got inside, so you fix the mistake and send it again.\n\n### Question 30\n\nThe 276/277 is like calling a package hotline and asking, \"Where is my package?\" — and getting a tracking update.\n\n### Question 31\n\nBesides the computer \"tracking number,\" offices can check a claim by looking it up on the insurance website or calling them.\n\n### Question 32\n\n\"Finalized\" is like a package marked \"delivered\" — the insurance company is done reviewing that bill.\n\n### Question 33\n\nIf a bill is still \"being worked on,\" you write it down and check again later — you don't send it twice or give up.\n\n### Question 34\n\nWriting down every call is like keeping a journal of the package search — so anyone can see exactly what you already tried.\n\n### Question 35\n\n\"More information needed\" is like the insurance company saying, \"We got your bill, but we need one more paper to finish.\"\n\n### Question 36\n\nIf your package hasn't arrived, you check the tracking number first — you don't just blame the recipient or give up.\n\n### Question 37\n\nA rejection is \"returned to sender, never opened\"; a denial is \"opened, read, and answered no.\"\n\n### Question 38\n\nA typo in a code is like a wrong address on a letter — it bounces back before anyone opens it.\n\n### Question 39\n\nThe insurance company opened the bill, read it, and said, \"This kind of service isn't covered\" — that's a denial.\n\n### Question 40\n\nPassing front-end edits is like getting through the door — you still have to be reviewed inside before anything is decided.\n\n### Question 41\n\nThe insurance company looked at the bill and said the service wasn't needed — that decision is a denial, not a bounced envelope.\n\n### Question 42\n\nIf your letter bounced back for a bad address, you fix the address and mail it again — you don't have to file a formal complaint.\n\n### Question 43\n\nIf the insurance company says no, you read why, then fix it or ask them to reconsider — you don't throw it away or resend it unchanged.\n\n### Question 44\n\n\"Accepted\" means the letter was received and opened — not that the answer will be yes.\n\n### Question 45\n\nSending the same bill twice makes the insurance computer think it already handled it, so it says \"already got this one.\"\n\n### Question 46\n\nMissing ID number = bounced before opening; coverage and authorization problems = decided after opening.\n\n### Question 47\n\nTimely filing is like a due date for turning in the bill — send it too late and the insurance company can refuse it.\n\n### Question 48\n\nDifferent insurance companies have different due dates, like different teachers with different homework deadlines — you have to track each one.\n\n### Question 49\n\nTurn in the bill after the due date and the insurance company can say \"too late\" and refuse to pay.\n\n### Question 50\n\nKeep the \"delivery receipt\" with the date stamp — that's how you prove you turned it in on time.\n\n### Question 51\n\nTurn things in early and keep a checklist, like a student who tracks every due date instead of cramming at the end.\n\n### Question 52\n\nFixing a typo and resending is quick; arguing about whether a service was covered takes a formal request to reconsider.\n\n### Question 53\n\nIf the insurance company requires an \"okay in advance\" and the office forgot to ask, they can refuse to pay afterward.\n\n### Question 54\n\nWhen you disagree with a \"no,\" you gather your evidence and formally ask them to look again — you don't just resend the same thing.\n\n### Question 55\n\nTelling the patient \"we just need to fix a typo\" versus \"the insurance won't cover this\" are two very different messages, and they deserve the right one.\n\n### Question 56\n\nThe insurance company agreed to pay a set price and adjusted the rest — that's normal, not a mistake.\n\n### Question 57\n\nIt's a straight line: send the bill, get the \"received\" check, have it reviewed, then get the answer (paid or not).\n\n### Question 58\n\nIf a bill bounces back, you fix it and resend quickly — and if you're stuck, you ask the billing expert, because the clock is ticking.\n\n### Question 59\n\nCount 180 days on the calendar from the visit date — that's the last day to turn the bill in.\n\n### Question 60\n\nMedicare gives a full year — like a school project due at the end of the year — but it still must be turned in on time.\n\n### Question 61\n\nWhen you turn in a corrected version, the due date might change, so you check that payer's rule instead of assuming it's the same.\n\n### Question 62\n\nDDE is like typing your order directly into a website form instead of uploading a big file.\n\n### Question 63\n\nThe provider portal is like an online account page where you can look up what happened to each bill.\n\n### Question 64\n\nYou need your login and the right \"tracking number\" to look up a bill — just like checking a bank account.\n\n### Question 65\n\nExplain what the paperwork says in simple words, and if it's a medical question you can't answer, hand it to the expert.\n\n### Question 66\n\nYou can fix a typo, but you can never change the facts to make the bill pass — that's cheating the system.\n\n### Question 67\n\nIf you missed the due date, you ask if there's a late excuse that's true — you never change the date to make it look on time.\n\n### Question 68\n\nThe assistant double-checks the \"address and name\" on every bill so it doesn't bounce back — but the doctor's team picks the codes.\n\n### Question 69\n\nChecking the insurance card is real and active before billing is like checking the address before you mail a letter.\n\n### Question 70\n\nYou have the dated delivery receipt — show it to the insurance company to prove you mailed it on time.\n\n### Question 71\n\nThe assistant is the careful helper who checks the form; the doctor's team is the one who decides the medical parts.\n\n### Question 72\n\nWhen you're not sure of the rule, ask the person in charge instead of guessing — that's the safe move.\n\n### Question 73\n\nThe kind of bill (doctor's office vs. hospital) picks the right envelope, not how much it costs.\n\n### Question 74\n\nIf they ask for one more paper, you gather what truly exists and send it safely — you never make one up.\n\n### Question 75\n\nYou only look up bills for patients you're actually helping — never for curiosity, because that's private information.\n\n### Question 76\n\nIf the tracking number comes up empty, first check whether you really sent it, then work with the insurance company to find it.\n\n### Question 77\n\nThe bill that's been sitting unsent for months is the one in danger of being \"too late.\"\n\n### Question 78\n\nThose fields are the \"To:\" address on the bill's envelope so it reaches the right insurance company.\n\n### Question 79\n\nSometimes the \"sent\" receipt and the \"received\" record don't match — you investigate with both companies to find where it got stuck.\n\n### Question 80\n\nFix a bill using the real paperwork, not your memory or what would pay more.\n\n### Question 81\n\nAdjudication is the judge's decision on the bill; the front-end is just the door check.\n\n### Question 82\n\nIf the due date changes, you update your calendar and tell everyone — you don't keep using the old date.\n\n### Question 83\n\nFilling in a missing birthday and resending is an easy fix — the harder ones need the experts.\n\n### Question 84\n\nMatch the \"sent\" list against the \"answered\" list to find bills that got lost in between.\n\n### Question 85\n\nWhen you're new and unsure, you follow the instructions and ask for help — that's the safe and smart way to learn.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Centers for Medicare & Medicaid Services — CMS.gov",
+        "url": "https://www.cms.gov/"
+      },
+      {
+        "text": "American Health Information Management Association — AHIMA - Health Information and Coding",
+        "url": "https://www.ahima.org/"
+      },
+      {
+        "text": "AAPC — Medical Coding and Billing",
+        "url": "https://www.aapc.com/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 85
+  },
+  "aliases": [
+    {
+      "value": "electronic-claims-submission-status",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "moa-04-05-06",
+      "kind": "source_topic_id",
+      "source_id": "medical-office-assistant-question-bank"
+    },
+    {
+      "value": "electronic-claims-submission-status",
+      "kind": "source_topic_slug",
+      "source_id": "medical-office-assistant-question-bank"
+    }
+  ],
+  "authority": {
+    "questions": [
+      {
+        "source_file": "generated-subjects/medical-office-assistant-question-bank/data/04-medical-economics-billing-coding/05-06-electronic-claims-submission-status.json"
+      }
+    ],
+    "answer_rationales": [
+      {
+        "source_file": "generated-subjects/medical-office-assistant-question-bank/data/04-medical-economics-billing-coding/05-06-electronic-claims-submission-status.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-office-assistant-question-bank/data/04-medical-economics-billing-coding/05-06-electronic-claims-submission-status.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-office-assistant-question-bank",
+    "sourceFile": "generated-subjects/medical-office-assistant-question-bank/data/04-medical-economics-billing-coding/05-06-electronic-claims-submission-status.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false,
+    "importBatch": "2026-08-14-generated-subjects"
+  },
+  "sourceSnapshotMarkdown": ""
+}

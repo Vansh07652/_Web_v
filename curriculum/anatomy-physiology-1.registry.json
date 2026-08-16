@@ -1,0 +1,3569 @@
+{
+  "schemaVersion": "2.0.0",
+  "registryId": "eli-explains-master-curriculum",
+  "registryVersion": "1.0.0",
+  "generatedOn": "2026-08-13",
+  "subject": {
+    "id": "subject:anatomy-physiology-1",
+    "slug": "anatomy-physiology-1",
+    "title": "Anatomy & Physiology I",
+    "category_id": "pre-health-core",
+    "order": 1,
+    "status": "final",
+    "aliases": [
+      {
+        "value": "anatomy-physiology-1",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "ap1",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "AP1",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "anatomy & physiology i",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "anatomy-physiology-i",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "anatomy_physiology_1",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "01-anatomy-physiology-i",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "ap1",
+        "kind": "source_subject_id",
+        "source_id": "prenursing_notes"
+      }
+    ],
+    "authority": {
+      "curriculum": [
+        {
+          "ref_id": "source-ref:prenursing_notes:e738a156c16cd222"
+        }
+      ],
+      "source_registry": [
+        {
+          "ref_id": "source-ref:prenursing_notes:98f1a270803548f6"
+        }
+      ],
+      "course_level_question_sources": [
+        {
+          "ref_id": "source-ref:ap1_pack:2c87366c72a2b50f"
+        },
+        {
+          "ref_id": "source-ref:prenursing_app_qb:482746aadce72998"
+        }
+      ],
+      "course_level_mapping_status": "semantic_topic_crosswalk_required"
+    },
+    "units": [
+      {
+        "id": "unit:anatomy-physiology-1:introduction-to-the-human-body",
+        "slug": "introduction-to-the-human-body",
+        "title": "Introduction to the Human Body",
+        "order": 1,
+        "path": "/learn/anatomy-physiology-1/introduction-to-the-human-body",
+        "aliases": [
+          {
+            "value": "introduction-to-the-human-body",
+            "kind": "canonical_slug"
+          },
+          {
+            "value": "ap1-u01",
+            "kind": "source_unit_id",
+            "source_id": "prenursing_notes"
+          },
+          {
+            "value": "01-introduction-to-the-human-body",
+            "kind": "source_directory",
+            "source_id": "prenursing_notes"
+          }
+        ],
+        "topics": [
+          {
+            "id": "topic:anatomy-physiology-1:introduction-to-the-human-body:anatomical-terminology",
+            "slug": "anatomical-terminology",
+            "title": "Anatomical Terminology",
+            "order": 1,
+            "path": "/learn/anatomy-physiology-1/introduction-to-the-human-body/anatomical-terminology",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "anatomical-terminology",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u01-s01",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "01-anatomical-terminology",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:3893f8caf71e8607"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:3893f8caf71e8607"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:3893f8caf71e8607"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:3893f8caf71e8607"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:introduction-to-the-human-body:anatomical-position-and-directional-terms",
+            "slug": "anatomical-position-and-directional-terms",
+            "title": "Anatomical Position and Directional Terms",
+            "order": 2,
+            "path": "/learn/anatomy-physiology-1/introduction-to-the-human-body/anatomical-position-and-directional-terms",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "anatomical-position-and-directional-terms",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u01-s02",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "02-anatomical-position-and-directional-terms",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ecb157f299219d3a"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ecb157f299219d3a"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ecb157f299219d3a"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ecb157f299219d3a"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:introduction-to-the-human-body:body-planes-and-sections",
+            "slug": "body-planes-and-sections",
+            "title": "Body Planes and Sections",
+            "order": 3,
+            "path": "/learn/anatomy-physiology-1/introduction-to-the-human-body/body-planes-and-sections",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "body-planes-and-sections",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u01-s03",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "03-body-planes-and-sections",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:75426f901be36f68"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:75426f901be36f68"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:75426f901be36f68"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:75426f901be36f68"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:introduction-to-the-human-body:body-cavities-and-membranes",
+            "slug": "body-cavities-and-membranes",
+            "title": "Body Cavities and Membranes",
+            "order": 4,
+            "path": "/learn/anatomy-physiology-1/introduction-to-the-human-body/body-cavities-and-membranes",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "body-cavities-and-membranes",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u01-s04",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "04-body-cavities-and-membranes",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:9442943c36a00319"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:9442943c36a00319"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:9442943c36a00319"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:9442943c36a00319"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:introduction-to-the-human-body:levels-of-structural-organization",
+            "slug": "levels-of-structural-organization",
+            "title": "Levels of Structural Organization",
+            "order": 5,
+            "path": "/learn/anatomy-physiology-1/introduction-to-the-human-body/levels-of-structural-organization",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "levels-of-structural-organization",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u01-s05",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "05-levels-of-structural-organization",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:19d953c61ea25b80"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:19d953c61ea25b80"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:19d953c61ea25b80"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:19d953c61ea25b80"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:introduction-to-the-human-body:homeostasis",
+            "slug": "homeostasis",
+            "title": "Homeostasis",
+            "order": 6,
+            "path": "/learn/anatomy-physiology-1/introduction-to-the-human-body/homeostasis",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "homeostasis",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u01-s06",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "06-homeostasis",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:2a5cd58d800b6716"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:2a5cd58d800b6716"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:2a5cd58d800b6716"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:2a5cd58d800b6716"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "unit:anatomy-physiology-1:basic-chemistry-for-ap",
+        "slug": "basic-chemistry-for-ap",
+        "title": "Basic Chemistry for A&P",
+        "order": 2,
+        "path": "/learn/anatomy-physiology-1/basic-chemistry-for-ap",
+        "aliases": [
+          {
+            "value": "basic-chemistry-for-ap",
+            "kind": "canonical_slug"
+          },
+          {
+            "value": "ap1-u02",
+            "kind": "source_unit_id",
+            "source_id": "prenursing_notes"
+          },
+          {
+            "value": "02-basic-chemistry-for-ap",
+            "kind": "source_directory",
+            "source_id": "prenursing_notes"
+          }
+        ],
+        "topics": [
+          {
+            "id": "topic:anatomy-physiology-1:basic-chemistry-for-ap:matter-elements-and-atomic-structure",
+            "slug": "matter-elements-and-atomic-structure",
+            "title": "Matter, Elements, and Atomic Structure",
+            "order": 1,
+            "path": "/learn/anatomy-physiology-1/basic-chemistry-for-ap/matter-elements-and-atomic-structure",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "matter-elements-and-atomic-structure",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u02-s01",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "01-matter-elements-and-atomic-structure",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:b383ef6de32b6a49"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:b383ef6de32b6a49"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:b383ef6de32b6a49"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:b383ef6de32b6a49"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:basic-chemistry-for-ap:chemical-bonds",
+            "slug": "chemical-bonds",
+            "title": "Chemical Bonds",
+            "order": 2,
+            "path": "/learn/anatomy-physiology-1/basic-chemistry-for-ap/chemical-bonds",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "chemical-bonds",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u02-s02",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "02-chemical-bonds",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:3cb4898b773231a1"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:3cb4898b773231a1"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:3cb4898b773231a1"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:3cb4898b773231a1"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:basic-chemistry-for-ap:water-solutions-and-mixtures",
+            "slug": "water-solutions-and-mixtures",
+            "title": "Water, Solutions, and Mixtures",
+            "order": 3,
+            "path": "/learn/anatomy-physiology-1/basic-chemistry-for-ap/water-solutions-and-mixtures",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "water-solutions-and-mixtures",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u02-s03",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "03-water-solutions-and-mixtures",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:97a7901a0d32c976"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:97a7901a0d32c976"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:97a7901a0d32c976"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:97a7901a0d32c976"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:basic-chemistry-for-ap:acids-bases-and-ph",
+            "slug": "acids-bases-and-ph",
+            "title": "Acids, Bases, and pH",
+            "order": 4,
+            "path": "/learn/anatomy-physiology-1/basic-chemistry-for-ap/acids-bases-and-ph",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "acids-bases-and-ph",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u02-s04",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "04-acids-bases-and-ph",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:fe2768a69f602a6b"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:fe2768a69f602a6b"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:fe2768a69f602a6b"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:fe2768a69f602a6b"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:basic-chemistry-for-ap:inorganic-vs-organic-compounds-overview",
+            "slug": "inorganic-vs-organic-compounds-overview",
+            "title": "Inorganic vs Organic Compounds Overview",
+            "order": 5,
+            "path": "/learn/anatomy-physiology-1/basic-chemistry-for-ap/inorganic-vs-organic-compounds-overview",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "inorganic-vs-organic-compounds-overview",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u02-s05",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "05-inorganic-vs-organic-compounds-overview",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:85ae2138fb282375"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:85ae2138fb282375"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:85ae2138fb282375"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:85ae2138fb282375"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:basic-chemistry-for-ap:biological-macromolecules",
+            "slug": "biological-macromolecules",
+            "title": "Biological Macromolecules",
+            "order": 6,
+            "path": "/learn/anatomy-physiology-1/basic-chemistry-for-ap/biological-macromolecules",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "biological-macromolecules",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u02-s06",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "06-biological-macromolecules",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:31ddadf5214c6387"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:31ddadf5214c6387"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:31ddadf5214c6387"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:31ddadf5214c6387"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "unit:anatomy-physiology-1:cellular-anatomy-and-physiology",
+        "slug": "cellular-anatomy-and-physiology",
+        "title": "Cellular Anatomy and Physiology",
+        "order": 3,
+        "path": "/learn/anatomy-physiology-1/cellular-anatomy-and-physiology",
+        "aliases": [
+          {
+            "value": "cellular-anatomy-and-physiology",
+            "kind": "canonical_slug"
+          },
+          {
+            "value": "ap1-u03",
+            "kind": "source_unit_id",
+            "source_id": "prenursing_notes"
+          },
+          {
+            "value": "03-cellular-anatomy-and-physiology",
+            "kind": "source_directory",
+            "source_id": "prenursing_notes"
+          }
+        ],
+        "topics": [
+          {
+            "id": "topic:anatomy-physiology-1:cellular-anatomy-and-physiology:overview-of-the-cell-and-cell-theory",
+            "slug": "overview-of-the-cell-and-cell-theory",
+            "title": "Overview of the Cell and Cell Theory",
+            "order": 1,
+            "path": "/learn/anatomy-physiology-1/cellular-anatomy-and-physiology/overview-of-the-cell-and-cell-theory",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "overview-of-the-cell-and-cell-theory",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u03-s01",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "01-overview-of-the-cell-and-cell-theory",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:7a8f7effb6da0111"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:7a8f7effb6da0111"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:7a8f7effb6da0111"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:7a8f7effb6da0111"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:cellular-anatomy-and-physiology:the-plasma-membrane",
+            "slug": "the-plasma-membrane",
+            "title": "The Plasma Membrane",
+            "order": 2,
+            "path": "/learn/anatomy-physiology-1/cellular-anatomy-and-physiology/the-plasma-membrane",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "the-plasma-membrane",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u03-s02",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "02-the-plasma-membrane",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:0bed8e7bfa7292f9"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:0bed8e7bfa7292f9"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:0bed8e7bfa7292f9"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:0bed8e7bfa7292f9"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:cellular-anatomy-and-physiology:membrane-transport",
+            "slug": "membrane-transport",
+            "title": "Membrane Transport",
+            "order": 3,
+            "path": "/learn/anatomy-physiology-1/cellular-anatomy-and-physiology/membrane-transport",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "membrane-transport",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u03-s03",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "03-membrane-transport",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:bf2dde1c561617c2"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:bf2dde1c561617c2"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:bf2dde1c561617c2"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:bf2dde1c561617c2"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:cellular-anatomy-and-physiology:cytoplasmic-organelles",
+            "slug": "cytoplasmic-organelles",
+            "title": "Cytoplasmic Organelles",
+            "order": 4,
+            "path": "/learn/anatomy-physiology-1/cellular-anatomy-and-physiology/cytoplasmic-organelles",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "cytoplasmic-organelles",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u03-s04",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "04-cytoplasmic-organelles",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:5fe66996884d3e81"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:5fe66996884d3e81"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:5fe66996884d3e81"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:5fe66996884d3e81"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:cellular-anatomy-and-physiology:the-nucleus-and-genetic-control",
+            "slug": "the-nucleus-and-genetic-control",
+            "title": "The Nucleus and Genetic Control",
+            "order": 5,
+            "path": "/learn/anatomy-physiology-1/cellular-anatomy-and-physiology/the-nucleus-and-genetic-control",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "the-nucleus-and-genetic-control",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u03-s05",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "05-the-nucleus-and-genetic-control",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:d9cfd3183c2b302a"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:d9cfd3183c2b302a"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:d9cfd3183c2b302a"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:d9cfd3183c2b302a"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:cellular-anatomy-and-physiology:cell-cycle-and-division",
+            "slug": "cell-cycle-and-division",
+            "title": "Cell Cycle and Division",
+            "order": 6,
+            "path": "/learn/anatomy-physiology-1/cellular-anatomy-and-physiology/cell-cycle-and-division",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "cell-cycle-and-division",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u03-s06",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "06-cell-cycle-and-division",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:355451774d5585aa"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:355451774d5585aa"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:355451774d5585aa"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:355451774d5585aa"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:cellular-anatomy-and-physiology:cellular-respiration-overview",
+            "slug": "cellular-respiration-overview",
+            "title": "Cellular Respiration Overview",
+            "order": 7,
+            "path": "/learn/anatomy-physiology-1/cellular-anatomy-and-physiology/cellular-respiration-overview",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "cellular-respiration-overview",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u03-s07",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "07-cellular-respiration-overview",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:007a1538d0c532d2"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:007a1538d0c532d2"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:007a1538d0c532d2"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:007a1538d0c532d2"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "unit:anatomy-physiology-1:histology-and-body-membranes",
+        "slug": "histology-and-body-membranes",
+        "title": "Histology and Body Membranes",
+        "order": 4,
+        "path": "/learn/anatomy-physiology-1/histology-and-body-membranes",
+        "aliases": [
+          {
+            "value": "histology-and-body-membranes",
+            "kind": "canonical_slug"
+          },
+          {
+            "value": "ap1-u04",
+            "kind": "source_unit_id",
+            "source_id": "prenursing_notes"
+          },
+          {
+            "value": "04-histology-and-body-membranes",
+            "kind": "source_directory",
+            "source_id": "prenursing_notes"
+          }
+        ],
+        "topics": [
+          {
+            "id": "topic:anatomy-physiology-1:histology-and-body-membranes:introduction-to-tissues",
+            "slug": "introduction-to-tissues",
+            "title": "Introduction to Tissues",
+            "order": 1,
+            "path": "/learn/anatomy-physiology-1/histology-and-body-membranes/introduction-to-tissues",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "introduction-to-tissues",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u04-s01",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "01-introduction-to-tissues",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:0253591ffe657c5a"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:0253591ffe657c5a"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:0253591ffe657c5a"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:0253591ffe657c5a"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:histology-and-body-membranes:epithelial-tissue",
+            "slug": "epithelial-tissue",
+            "title": "Epithelial Tissue",
+            "order": 2,
+            "path": "/learn/anatomy-physiology-1/histology-and-body-membranes/epithelial-tissue",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "epithelial-tissue",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u04-s02",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "02-epithelial-tissue",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:2f7caa24bea94626"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:2f7caa24bea94626"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:2f7caa24bea94626"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:2f7caa24bea94626"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:histology-and-body-membranes:connective-tissue",
+            "slug": "connective-tissue",
+            "title": "Connective Tissue",
+            "order": 3,
+            "path": "/learn/anatomy-physiology-1/histology-and-body-membranes/connective-tissue",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "connective-tissue",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u04-s03",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "03-connective-tissue",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:9ffb76bbe66335d5"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:9ffb76bbe66335d5"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:9ffb76bbe66335d5"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:9ffb76bbe66335d5"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:histology-and-body-membranes:muscle-tissue",
+            "slug": "muscle-tissue",
+            "title": "Muscle Tissue",
+            "order": 4,
+            "path": "/learn/anatomy-physiology-1/histology-and-body-membranes/muscle-tissue",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "muscle-tissue",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u04-s04",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "04-muscle-tissue",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:df65b9daf60a2d5d"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:df65b9daf60a2d5d"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:df65b9daf60a2d5d"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:df65b9daf60a2d5d"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:histology-and-body-membranes:nervous-tissue",
+            "slug": "nervous-tissue",
+            "title": "Nervous Tissue",
+            "order": 5,
+            "path": "/learn/anatomy-physiology-1/histology-and-body-membranes/nervous-tissue",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "nervous-tissue",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u04-s05",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "05-nervous-tissue",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:7b741bac166b0949"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:7b741bac166b0949"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:7b741bac166b0949"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:7b741bac166b0949"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:histology-and-body-membranes:body-membranes",
+            "slug": "body-membranes",
+            "title": "Body Membranes",
+            "order": 6,
+            "path": "/learn/anatomy-physiology-1/histology-and-body-membranes/body-membranes",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "body-membranes",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u04-s06",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "06-body-membranes",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:298c0371e149219d"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:298c0371e149219d"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:298c0371e149219d"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:298c0371e149219d"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:histology-and-body-membranes:tissue-repair",
+            "slug": "tissue-repair",
+            "title": "Tissue Repair",
+            "order": 7,
+            "path": "/learn/anatomy-physiology-1/histology-and-body-membranes/tissue-repair",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "tissue-repair",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u04-s07",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "07-tissue-repair",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:b72c9c4fbf872ba1"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:b72c9c4fbf872ba1"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:b72c9c4fbf872ba1"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:b72c9c4fbf872ba1"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "unit:anatomy-physiology-1:integumentary-system",
+        "slug": "integumentary-system",
+        "title": "Integumentary System",
+        "order": 5,
+        "path": "/learn/anatomy-physiology-1/integumentary-system",
+        "aliases": [
+          {
+            "value": "integumentary-system",
+            "kind": "canonical_slug"
+          },
+          {
+            "value": "ap1-u05",
+            "kind": "source_unit_id",
+            "source_id": "prenursing_notes"
+          },
+          {
+            "value": "05-integumentary-system",
+            "kind": "source_directory",
+            "source_id": "prenursing_notes"
+          }
+        ],
+        "topics": [
+          {
+            "id": "topic:anatomy-physiology-1:integumentary-system:skin-structure-epidermis",
+            "slug": "skin-structure-epidermis",
+            "title": "Skin Structure: Epidermis",
+            "order": 1,
+            "path": "/learn/anatomy-physiology-1/integumentary-system/skin-structure-epidermis",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "skin-structure-epidermis",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u05-s01",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "01-skin-structure-epidermis",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:cdb000ddb3bfa54a"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:cdb000ddb3bfa54a"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:cdb000ddb3bfa54a"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:cdb000ddb3bfa54a"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:integumentary-system:skin-structure-dermis-and-hypodermis",
+            "slug": "skin-structure-dermis-and-hypodermis",
+            "title": "Skin Structure: Dermis and Hypodermis",
+            "order": 2,
+            "path": "/learn/anatomy-physiology-1/integumentary-system/skin-structure-dermis-and-hypodermis",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "skin-structure-dermis-and-hypodermis",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u05-s02",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "02-skin-structure-dermis-and-hypodermis",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:6eaf544a66f71362"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:6eaf544a66f71362"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:6eaf544a66f71362"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:6eaf544a66f71362"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:integumentary-system:skin-color-and-its-clinical-signals",
+            "slug": "skin-color-and-its-clinical-signals",
+            "title": "Skin Color and Its Clinical Signals",
+            "order": 3,
+            "path": "/learn/anatomy-physiology-1/integumentary-system/skin-color-and-its-clinical-signals",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "skin-color-and-its-clinical-signals",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u05-s03",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "03-skin-color-and-its-clinical-signals",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:4a2c1810f069285a"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:4a2c1810f069285a"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:4a2c1810f069285a"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:4a2c1810f069285a"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:integumentary-system:accessory-structures",
+            "slug": "accessory-structures",
+            "title": "Accessory Structures",
+            "order": 4,
+            "path": "/learn/anatomy-physiology-1/integumentary-system/accessory-structures",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "accessory-structures",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u05-s04",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "04-accessory-structures",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:8f2f3c0421d57ed9"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:8f2f3c0421d57ed9"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:8f2f3c0421d57ed9"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:8f2f3c0421d57ed9"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:integumentary-system:functions-of-the-integument",
+            "slug": "functions-of-the-integument",
+            "title": "Functions of the Integument",
+            "order": 5,
+            "path": "/learn/anatomy-physiology-1/integumentary-system/functions-of-the-integument",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "functions-of-the-integument",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u05-s05",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "05-functions-of-the-integument",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ba7499e505a104a0"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ba7499e505a104a0"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ba7499e505a104a0"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ba7499e505a104a0"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:integumentary-system:burns-and-skin-cancer",
+            "slug": "burns-and-skin-cancer",
+            "title": "Burns and Skin Cancer",
+            "order": 6,
+            "path": "/learn/anatomy-physiology-1/integumentary-system/burns-and-skin-cancer",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "burns-and-skin-cancer",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u05-s06",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "06-burns-and-skin-cancer",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ae1720582f0e6452"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ae1720582f0e6452"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ae1720582f0e6452"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ae1720582f0e6452"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "unit:anatomy-physiology-1:skeletal-system",
+        "slug": "skeletal-system",
+        "title": "Skeletal System",
+        "order": 6,
+        "path": "/learn/anatomy-physiology-1/skeletal-system",
+        "aliases": [
+          {
+            "value": "skeletal-system",
+            "kind": "canonical_slug"
+          },
+          {
+            "value": "ap1-u06",
+            "kind": "source_unit_id",
+            "source_id": "prenursing_notes"
+          },
+          {
+            "value": "06-skeletal-system",
+            "kind": "source_directory",
+            "source_id": "prenursing_notes"
+          }
+        ],
+        "topics": [
+          {
+            "id": "topic:anatomy-physiology-1:skeletal-system:functions-and-bone-classification",
+            "slug": "functions-and-bone-classification",
+            "title": "Functions of the Skeletal System and Bone Classification",
+            "order": 1,
+            "path": "/learn/anatomy-physiology-1/skeletal-system/functions-and-bone-classification",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "functions-and-bone-classification",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u06-s01",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "01-functions-and-bone-classification",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:eb88308285d529fd"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:eb88308285d529fd"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:eb88308285d529fd"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:eb88308285d529fd"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:skeletal-system:bone-structure-and-histology",
+            "slug": "bone-structure-and-histology",
+            "title": "Bone Structure and Histology",
+            "order": 2,
+            "path": "/learn/anatomy-physiology-1/skeletal-system/bone-structure-and-histology",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "bone-structure-and-histology",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u06-s02",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "02-bone-structure-and-histology",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ba0b5ad6b65023dc"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ba0b5ad6b65023dc"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ba0b5ad6b65023dc"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ba0b5ad6b65023dc"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:skeletal-system:bone-formation-growth-and-remodeling",
+            "slug": "bone-formation-growth-and-remodeling",
+            "title": "Bone Formation, Growth, and Remodeling",
+            "order": 3,
+            "path": "/learn/anatomy-physiology-1/skeletal-system/bone-formation-growth-and-remodeling",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "bone-formation-growth-and-remodeling",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u06-s03",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "03-bone-formation-growth-and-remodeling",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:82c5ab58cefafb32"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:82c5ab58cefafb32"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:82c5ab58cefafb32"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:82c5ab58cefafb32"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:skeletal-system:the-axial-skeleton",
+            "slug": "the-axial-skeleton",
+            "title": "The Axial Skeleton",
+            "order": 4,
+            "path": "/learn/anatomy-physiology-1/skeletal-system/the-axial-skeleton",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "the-axial-skeleton",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u06-s04",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "04-the-axial-skeleton",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:11ce03b5753afe74"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:11ce03b5753afe74"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:11ce03b5753afe74"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:11ce03b5753afe74"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:skeletal-system:the-appendicular-skeleton",
+            "slug": "the-appendicular-skeleton",
+            "title": "The Appendicular Skeleton",
+            "order": 5,
+            "path": "/learn/anatomy-physiology-1/skeletal-system/the-appendicular-skeleton",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "the-appendicular-skeleton",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u06-s05",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "05-the-appendicular-skeleton",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:f71833a432b58f84"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:f71833a432b58f84"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:f71833a432b58f84"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:f71833a432b58f84"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:skeletal-system:joints-articulations",
+            "slug": "joints-articulations",
+            "title": "Joints (Articulations)",
+            "order": 6,
+            "path": "/learn/anatomy-physiology-1/skeletal-system/joints-articulations",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "joints-articulations",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u06-s06",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "06-joints-articulations",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:9206b9e305cde829"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:9206b9e305cde829"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:9206b9e305cde829"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:9206b9e305cde829"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:skeletal-system:bone-and-joint-disorders",
+            "slug": "bone-and-joint-disorders",
+            "title": "Bone and Joint Disorders",
+            "order": 7,
+            "path": "/learn/anatomy-physiology-1/skeletal-system/bone-and-joint-disorders",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "bone-and-joint-disorders",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u06-s07",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "07-bone-and-joint-disorders",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:96efcd8af080785e"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:96efcd8af080785e"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:96efcd8af080785e"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:96efcd8af080785e"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "unit:anatomy-physiology-1:muscular-system",
+        "slug": "muscular-system",
+        "title": "Muscular System",
+        "order": 7,
+        "path": "/learn/anatomy-physiology-1/muscular-system",
+        "aliases": [
+          {
+            "value": "muscular-system",
+            "kind": "canonical_slug"
+          },
+          {
+            "value": "ap1-u07",
+            "kind": "source_unit_id",
+            "source_id": "prenursing_notes"
+          },
+          {
+            "value": "07-muscular-system",
+            "kind": "source_directory",
+            "source_id": "prenursing_notes"
+          }
+        ],
+        "topics": [
+          {
+            "id": "topic:anatomy-physiology-1:muscular-system:overview-and-types-of-muscle-tissue",
+            "slug": "overview-and-types-of-muscle-tissue",
+            "title": "Overview and Types of Muscle Tissue",
+            "order": 1,
+            "path": "/learn/anatomy-physiology-1/muscular-system/overview-and-types-of-muscle-tissue",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "overview-and-types-of-muscle-tissue",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u07-s01",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "01-overview-and-types-of-muscle-tissue",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:d5bc13aa20224d92"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:d5bc13aa20224d92"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:d5bc13aa20224d92"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:d5bc13aa20224d92"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:muscular-system:skeletal-muscle-anatomy",
+            "slug": "skeletal-muscle-anatomy",
+            "title": "Skeletal Muscle Anatomy",
+            "order": 2,
+            "path": "/learn/anatomy-physiology-1/muscular-system/skeletal-muscle-anatomy",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "skeletal-muscle-anatomy",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u07-s02",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "02-skeletal-muscle-anatomy",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:84c194975ee3832d"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:84c194975ee3832d"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:84c194975ee3832d"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:84c194975ee3832d"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:muscular-system:the-sliding-filament-mechanism",
+            "slug": "the-sliding-filament-mechanism",
+            "title": "The Sliding Filament Mechanism",
+            "order": 3,
+            "path": "/learn/anatomy-physiology-1/muscular-system/the-sliding-filament-mechanism",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "the-sliding-filament-mechanism",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u07-s03",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "03-the-sliding-filament-mechanism",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:c965f234e804c941"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:c965f234e804c941"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:c965f234e804c941"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:c965f234e804c941"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:muscular-system:muscle-contraction-physiology",
+            "slug": "muscle-contraction-physiology",
+            "title": "Muscle Contraction Physiology",
+            "order": 4,
+            "path": "/learn/anatomy-physiology-1/muscular-system/muscle-contraction-physiology",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "muscle-contraction-physiology",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u07-s04",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "04-muscle-contraction-physiology",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:a2e57dda21f66de9"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:a2e57dda21f66de9"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:a2e57dda21f66de9"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:a2e57dda21f66de9"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:muscular-system:muscle-metabolism-and-fatigue",
+            "slug": "muscle-metabolism-and-fatigue",
+            "title": "Muscle Metabolism and Fatigue",
+            "order": 5,
+            "path": "/learn/anatomy-physiology-1/muscular-system/muscle-metabolism-and-fatigue",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "muscle-metabolism-and-fatigue",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u07-s05",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "05-muscle-metabolism-and-fatigue",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:6c15fdc0f7395b12"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:6c15fdc0f7395b12"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:6c15fdc0f7395b12"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:6c15fdc0f7395b12"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:muscular-system:major-skeletal-muscles-and-body-movements",
+            "slug": "major-skeletal-muscles-and-body-movements",
+            "title": "Major Skeletal Muscles and Body Movements",
+            "order": 6,
+            "path": "/learn/anatomy-physiology-1/muscular-system/major-skeletal-muscles-and-body-movements",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "major-skeletal-muscles-and-body-movements",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u07-s06",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "06-major-skeletal-muscles-and-body-movements",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:aa8ca006228fd84f"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:aa8ca006228fd84f"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:aa8ca006228fd84f"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:aa8ca006228fd84f"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:muscular-system:smooth-and-cardiac-muscle",
+            "slug": "smooth-and-cardiac-muscle",
+            "title": "Smooth and Cardiac Muscle",
+            "order": 7,
+            "path": "/learn/anatomy-physiology-1/muscular-system/smooth-and-cardiac-muscle",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "smooth-and-cardiac-muscle",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u07-s07",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "07-smooth-and-cardiac-muscle",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:c51f1ce278fdc87d"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:c51f1ce278fdc87d"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:c51f1ce278fdc87d"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:c51f1ce278fdc87d"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "unit:anatomy-physiology-1:nervous-system-and-special-senses",
+        "slug": "nervous-system-and-special-senses",
+        "title": "Nervous System and Special Senses",
+        "order": 8,
+        "path": "/learn/anatomy-physiology-1/nervous-system-and-special-senses",
+        "aliases": [
+          {
+            "value": "nervous-system-and-special-senses",
+            "kind": "canonical_slug"
+          },
+          {
+            "value": "ap1-u08",
+            "kind": "source_unit_id",
+            "source_id": "prenursing_notes"
+          },
+          {
+            "value": "08-nervous-system-and-special-senses",
+            "kind": "source_directory",
+            "source_id": "prenursing_notes"
+          }
+        ],
+        "topics": [
+          {
+            "id": "topic:anatomy-physiology-1:nervous-system-and-special-senses:organization-of-the-nervous-system",
+            "slug": "organization-of-the-nervous-system",
+            "title": "Organization of the Nervous System",
+            "order": 1,
+            "path": "/learn/anatomy-physiology-1/nervous-system-and-special-senses/organization-of-the-nervous-system",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "organization-of-the-nervous-system",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u08-s01",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "01-organization-of-the-nervous-system",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:7754a624bdbe0052"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:7754a624bdbe0052"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:7754a624bdbe0052"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:7754a624bdbe0052"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:nervous-system-and-special-senses:nervous-tissue-neurons-and-neuroglia",
+            "slug": "nervous-tissue-neurons-and-neuroglia",
+            "title": "Nervous Tissue: Neurons and Neuroglia",
+            "order": 2,
+            "path": "/learn/anatomy-physiology-1/nervous-system-and-special-senses/nervous-tissue-neurons-and-neuroglia",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "nervous-tissue-neurons-and-neuroglia",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u08-s02",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "02-nervous-tissue-neurons-and-neuroglia",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:c18979aaa8089e81"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:c18979aaa8089e81"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:c18979aaa8089e81"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:c18979aaa8089e81"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:nervous-system-and-special-senses:resting-and-action-potential",
+            "slug": "resting-and-action-potential",
+            "title": "Resting Membrane Potential and Action Potential",
+            "order": 3,
+            "path": "/learn/anatomy-physiology-1/nervous-system-and-special-senses/resting-and-action-potential",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "resting-and-action-potential",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u08-s03",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "03-resting-and-action-potential",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:676492d85214bbf6"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:676492d85214bbf6"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:676492d85214bbf6"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:676492d85214bbf6"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:nervous-system-and-special-senses:the-synapse-and-neurotransmission",
+            "slug": "the-synapse-and-neurotransmission",
+            "title": "The Synapse and Neurotransmission",
+            "order": 4,
+            "path": "/learn/anatomy-physiology-1/nervous-system-and-special-senses/the-synapse-and-neurotransmission",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "the-synapse-and-neurotransmission",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u08-s04",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "04-the-synapse-and-neurotransmission",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:099eb24b7da43929"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:099eb24b7da43929"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:099eb24b7da43929"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:099eb24b7da43929"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:nervous-system-and-special-senses:the-central-nervous-system",
+            "slug": "the-central-nervous-system",
+            "title": "The Central Nervous System",
+            "order": 5,
+            "path": "/learn/anatomy-physiology-1/nervous-system-and-special-senses/the-central-nervous-system",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "the-central-nervous-system",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u08-s05",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "05-the-central-nervous-system",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:f6647336d2346187"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:f6647336d2346187"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:f6647336d2346187"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:f6647336d2346187"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:nervous-system-and-special-senses:the-peripheral-nervous-system-and-reflexes",
+            "slug": "the-peripheral-nervous-system-and-reflexes",
+            "title": "The Peripheral Nervous System and Reflexes",
+            "order": 6,
+            "path": "/learn/anatomy-physiology-1/nervous-system-and-special-senses/the-peripheral-nervous-system-and-reflexes",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "the-peripheral-nervous-system-and-reflexes",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u08-s06",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "06-the-peripheral-nervous-system-and-reflexes",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:6ff7db57004f47cf"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:6ff7db57004f47cf"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:6ff7db57004f47cf"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:6ff7db57004f47cf"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:nervous-system-and-special-senses:the-autonomic-nervous-system",
+            "slug": "the-autonomic-nervous-system",
+            "title": "The Autonomic Nervous System",
+            "order": 7,
+            "path": "/learn/anatomy-physiology-1/nervous-system-and-special-senses/the-autonomic-nervous-system",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "the-autonomic-nervous-system",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u08-s07",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "07-the-autonomic-nervous-system",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:a207f8aa0d912bba"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:a207f8aa0d912bba"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:a207f8aa0d912bba"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:a207f8aa0d912bba"
+                }
+              ]
+            }
+          },
+          {
+            "id": "topic:anatomy-physiology-1:nervous-system-and-special-senses:special-senses",
+            "slug": "special-senses",
+            "title": "Special Senses",
+            "order": 8,
+            "path": "/learn/anatomy-physiology-1/nervous-system-and-special-senses/special-senses",
+            "status": "final",
+            "aliases": [
+              {
+                "value": "special-senses",
+                "kind": "canonical_slug"
+              },
+              {
+                "value": "ap1-u08-s08",
+                "kind": "source_topic_id",
+                "source_id": "prenursing_notes"
+              },
+              {
+                "value": "08-special-senses",
+                "kind": "source_file_stem",
+                "source_id": "prenursing_notes"
+              }
+            ],
+            "authority": {
+              "college_notes": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ecd01f435bd68096"
+                }
+              ],
+              "eli10": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ecd01f435bd68096"
+                }
+              ],
+              "high_yield": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ecd01f435bd68096"
+                }
+              ],
+              "references": [
+                {
+                  "ref_id": "source-ref:prenursing_notes:ecd01f435bd68096"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "source_of_taxonomy": "prenursing_notes"
+  },
+  "sourceReferences": [
+    {
+      "id": "source-ref:prenursing_notes:007a1538d0c532d2",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/07-cellular-respiration-overview.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:0253591ffe657c5a",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/04-histology-and-body-membranes/01-introduction-to-tissues.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:099eb24b7da43929",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/04-the-synapse-and-neurotransmission.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:0bed8e7bfa7292f9",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/02-the-plasma-membrane.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:11ce03b5753afe74",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/06-skeletal-system/04-the-axial-skeleton.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:19d953c61ea25b80",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/01-introduction-to-the-human-body/05-levels-of-structural-organization.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:298c0371e149219d",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/04-histology-and-body-membranes/06-body-membranes.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:2a5cd58d800b6716",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/01-introduction-to-the-human-body/06-homeostasis.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:2f7caa24bea94626",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/04-histology-and-body-membranes/02-epithelial-tissue.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:31ddadf5214c6387",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/02-basic-chemistry-for-ap/06-biological-macromolecules.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:355451774d5585aa",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/06-cell-cycle-and-division.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:3893f8caf71e8607",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/01-introduction-to-the-human-body/01-anatomical-terminology.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:3cb4898b773231a1",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/02-basic-chemistry-for-ap/02-chemical-bonds.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:4a2c1810f069285a",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/05-integumentary-system/03-skin-color-and-its-clinical-signals.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:5fe66996884d3e81",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/04-cytoplasmic-organelles.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:676492d85214bbf6",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/03-resting-and-action-potential.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:6c15fdc0f7395b12",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/07-muscular-system/05-muscle-metabolism-and-fatigue.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:6eaf544a66f71362",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/05-integumentary-system/02-skin-structure-dermis-and-hypodermis.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:6ff7db57004f47cf",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/06-the-peripheral-nervous-system-and-reflexes.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:75426f901be36f68",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/01-introduction-to-the-human-body/03-body-planes-and-sections.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:7754a624bdbe0052",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/01-organization-of-the-nervous-system.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:7a8f7effb6da0111",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/01-overview-of-the-cell-and-cell-theory.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:7b741bac166b0949",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/04-histology-and-body-membranes/05-nervous-tissue.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:82c5ab58cefafb32",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/06-skeletal-system/03-bone-formation-growth-and-remodeling.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:84c194975ee3832d",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/07-muscular-system/02-skeletal-muscle-anatomy.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:85ae2138fb282375",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/02-basic-chemistry-for-ap/05-inorganic-vs-organic-compounds-overview.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:8f2f3c0421d57ed9",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/05-integumentary-system/04-accessory-structures.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:9206b9e305cde829",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/06-skeletal-system/06-joints-articulations.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:9442943c36a00319",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/01-introduction-to-the-human-body/04-body-cavities-and-membranes.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:96efcd8af080785e",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/06-skeletal-system/07-bone-and-joint-disorders.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:97a7901a0d32c976",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/02-basic-chemistry-for-ap/03-water-solutions-and-mixtures.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:9ffb76bbe66335d5",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/04-histology-and-body-membranes/03-connective-tissue.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:a207f8aa0d912bba",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/07-the-autonomic-nervous-system.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:a2e57dda21f66de9",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/07-muscular-system/04-muscle-contraction-physiology.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:aa8ca006228fd84f",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/07-muscular-system/06-major-skeletal-muscles-and-body-movements.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:ae1720582f0e6452",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/05-integumentary-system/06-burns-and-skin-cancer.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:b383ef6de32b6a49",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/02-basic-chemistry-for-ap/01-matter-elements-and-atomic-structure.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:b72c9c4fbf872ba1",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/04-histology-and-body-membranes/07-tissue-repair.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:ba0b5ad6b65023dc",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/06-skeletal-system/02-bone-structure-and-histology.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:ba7499e505a104a0",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/05-integumentary-system/05-functions-of-the-integument.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:bf2dde1c561617c2",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/03-membrane-transport.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:c18979aaa8089e81",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/02-nervous-tissue-neurons-and-neuroglia.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:c51f1ce278fdc87d",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/07-muscular-system/07-smooth-and-cardiac-muscle.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:c965f234e804c941",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/07-muscular-system/03-the-sliding-filament-mechanism.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:cdb000ddb3bfa54a",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/05-integumentary-system/01-skin-structure-epidermis.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:d5bc13aa20224d92",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/07-muscular-system/01-overview-and-types-of-muscle-tissue.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:d9cfd3183c2b302a",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/05-the-nucleus-and-genetic-control.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:df65b9daf60a2d5d",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/04-histology-and-body-membranes/04-muscle-tissue.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:eb88308285d529fd",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/06-skeletal-system/01-functions-and-bone-classification.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:ecb157f299219d3a",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/01-introduction-to-the-human-body/02-anatomical-position-and-directional-terms.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:ecd01f435bd68096",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/08-special-senses.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:f6647336d2346187",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/05-the-central-nervous-system.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:f71833a432b58f84",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/06-skeletal-system/05-the-appendicular-skeleton.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    },
+    {
+      "id": "source-ref:prenursing_notes:fe2768a69f602a6b",
+      "source_id": "prenursing_notes",
+      "path": "content/01-anatomy-physiology-i/02-basic-chemistry-for-ap/04-acids-bases-and-ph.md",
+      "fields": [
+        "college_notes",
+        "eli10",
+        "high_yield",
+        "quick_review",
+        "references"
+      ],
+      "authority": "authoritative",
+      "note": "One Markdown file owns all listed teaching layers.",
+      "use_count": 4
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-buffers-and-physiologic-chemistry-q01",
+  "subject": "chemistry-2",
+  "lesson": "buffers-and-physiologic-chemistry",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which statement best describes what a buffer solution does?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It slowly returns the pH to exactly its original value after acid is added"
+    },
+    {
+      "id": "b",
+      "text": "It neutralizes all hydrogen ions so the solution becomes chemically neutral"
+    },
+    {
+      "id": "c",
+      "text": "It resists large changes in pH when small amounts of acid or base are added"
+    },
+    {
+      "id": "d",
+      "text": "It raises the pH of any solution it is added to until the solution becomes basic"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "A buffer blunts, but does not abolish, changes in pH when limited amounts of strong acid or strong base are introduced. It works because it holds an appreciable reservoir of both a proton donor and a proton acceptor, converting strong acids or bases into weak ones. The pH does shift slightly and stays shifted; nothing restores the original value. Buffer capacity is also finite, so once one component is largely consumed the pH moves sharply, which is exactly what happens clinically when body buffers are overwhelmed.\n\nELI-10: Think of a buffer like the shock absorbers on a car. The bumps in the road are still there, but the ride only jiggles instead of throwing you out of your seat. Add enough acid to blood to use up 2 of its 24 bicarbonates, while breathing keeps dissolved CO2 at about 1.2, and the pH only nudges from 7.4 to about 7.36 rather than crashing, because 6.1 + log(22/1.2) works out to 7.36. Notice the ride does not un-bump itself: the pH stays a little lower. And like shocks, buffers wear out, so enough acid eventually makes the ride rough again.",
+  "difficulty": "easy",
+  "tags": [
+    "buffer definition",
+    "pH stability",
+    "buffer capacity"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-280",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-1:measurement-and-math:solution-stoichiometry",
+  "slug": "solution-stoichiometry",
+  "title": "Solution Stoichiometry",
+  "subject": {
+    "id": "subject:general-chemistry-1",
+    "slug": "general-chemistry-1",
+    "title": "General Chemistry I"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-1:measurement-and-math",
+    "slug": "measurement-and-math",
+    "title": "Measurement and Math",
+    "order": 1
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "Molarity (M) is moles of solute per liter of solution. Dilution lowers concentration by adding solvent while moles stay constant, giving M1V1 = M2V2. In solution reactions, molarity times volume gives moles for stoichiometry. Gravimetric analysis finds an analyte's amount by precipitating, filtering, and weighing it; titration finds concentration by reacting an analyte with a titrant of known molarity to the equivalence point.",
+    "whyItMatters": "Molarity and dilution are daily clinical realities. IV medications and stock drugs are labeled in concentration units, and nurses and pharmacists dilute stock solutions to safe strengths — the same M1V1 = M2V2 math. Clinical labs measure blood glucose, electrolytes, and drug levels with standardized solutions. Getting a dilution wrong is a patient-safety issue, so the arithmetic is double-checked.",
+    "learningObjectives": "1. Define molarity and calculate it from the mass of solute and volume of solution.\n2. Use the dilution equation M1V1 = M2V2 to prepare solutions of a desired concentration.\n3. Use molarity as a conversion factor in stoichiometric calculations for solution reactions.\n4. Solve gravimetric analysis and acid-base titration problems.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Molarity (M) | Moles of solute per liter of solution | The standard unit of concentration |\n| Concentration | Amount of solute in a given amount of solvent/solution | Determines available reactant |\n| Dilution | Adding solvent to lower concentration | Makes working solutions from a stock |\n| M1V1 = M2V2 | Dilution equation (moles conserved) | Fast way to compute dilution volumes |\n| Gravimetric analysis | Measuring an analyte via the mass of a precipitate | Precise, classic quantitative technique |\n| Titration | Adding a known titrant to react with an analyte | Standard way to measure concentration |\n| Titrant | Solution of known molarity added from a buret | Provides the measured moles |\n| Analyte | The substance whose amount is unknown | The target of the measurement |\n| Equivalence point | Point where reactants are in exact stoichiometric ratio | The titration's goal |\n| Endpoint | Point where the indicator changes color | The observable signal, near equivalence |",
+    "collegeNotes": "### 1. Molarity (Concentration)\nMolarity is the most common lab unit of concentration:\n\\[ M = \\frac{\\text{moles of solute}}{\\text{liters of solution}} \\]\nNote the denominator is liters of solution, not solvent. To make a 1.00 M solution, dissolve the solute in some water and dilute to the final volume in a volumetric flask. Molarity is also a conversion factor: L × M = mol.\n\n### 2. Dilution\nDilution adds solvent, leaving moles of solute unchanged:\n\\[ M_1 V_1 = M_2 V_2 \\]\nHere M1 and V1 are the initial (stock) molarity and volume, and M2 and V2 are the final values. Any volume unit works as long as it is the same on both sides, because the equation is really \"moles before = moles after\" (M × V = mol).\n\n### 3. Gravimetric Analysis and Titrations\nGravimetric analysis finds an unknown amount by mass: precipitate the analyte as a known insoluble compound, filter, dry, and weigh it, then convert that mass to moles and back to the analyte's amount. A titration measures concentration by reacting a known volume of analyte with a titrant of known molarity. The equivalence point is where moles of titrant exactly match moles of analyte; the endpoint is where an indicator changes color, just past the equivalence point.",
+    "howItWorks": "1. Calculate molarity from moles and liters, or moles from molarity and volume.\n2. For dilution, use M1V1 = M2V2 to find the stock volume, then add solvent to the final volume.\n3. For solution reactions, convert molarity and volume to moles, then use the balanced equation's mole ratio.\n4. For gravimetric analysis, precipitate, filter, dry, and weigh, then convert mass → moles → analyte amount.\n5. For titrations, add titrant until the endpoint; at the equivalence point, moles of titrant and analyte match the mole ratio.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Molarity is per liter of solution, not per liter of solvent.\n- **High yield:** M1V1 = M2V2 works because moles of solute are conserved during dilution.\n- **High yield:** Molarity × volume = moles; this is the bridge from solution to stoichiometry.\n- **High yield:** The equivalence point is a stoichiometric concept; the endpoint is an observed color change.\n- Convert mL to L before molarity calculations.\n- Check the balanced equation's mole ratio before converting titrant to analyte moles.\n- Gravimetric analysis requires the precipitate to be filtered, dried, and weighed.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Molarity | Molality | Molarity is mol/L of solution; molality is mol/kg of solvent |\n| Equivalence point | Endpoint | Equivalence is the stoichiometric point; endpoint is the color change |\n| Dilution | Reaction stoichiometry | Dilution conserves moles of one solute; stoichiometry converts between substances |\n| Solvent volume | Solution volume | Molarity uses total solution volume, including the solute |\n| Concentrated | Strong | Concentrated = amount of solute; strong = degree of ionization |",
+    "memoryAids": "\"Moles stay, water plays\" — in any dilution the moles of solute are conserved while only the water (solvent) increases. MiVi = MfVf: you don't lose what you started with.",
+    "eli10": "Molarity is like a recipe's strength. Imagine you always make Kool-Aid in the same pitcher: one scoop per pitcher is weak, five scoops is strong. The \"scoops\" are moles and the \"pitcher\" is the liter, so molarity says how many moles are packed into each liter. Dilution is adding more water to the same pitcher — the scoops stay the same, but now they are spread through more liters, so each glass is weaker.\n\nIt stops being exact in one way: molarity counts per liter of total solution, not per liter of water added. Dump one scoop into one liter of water and the final volume is a touch more than a liter, so the true molarity is a hair lower. Precise work fills to the mark in a volumetric flask rather than adding a full liter of water to the solute.\n\n### Simple Example\nDissolve 0.50 mol of NaCl in enough water to make 1.0 L of solution:\n\\[ M = \\frac{0.50\\ \\mathrm{mol}}{1.0\\ \\mathrm{L}} = 0.50\\ \\mathrm{M} \\]",
+    "quickReview": "### Topic Recap\n\nMolarity is moles per liter of solution and is the bridge between solution volume and moles. Dilution conserves moles and follows M1V1 = M2V2. In solution stoichiometry, convert concentration and volume to moles, apply the balanced equation's mole ratio, then convert onward. Gravimetric analysis measures an analyte by the mass of a precipitate, and titrations measure concentration at the equivalence point.\n\n### Knowledge Check\n\n1. How many moles are in 500.0 mL of 0.250 M NaCl?\n2. What volume of 2.00 M stock is needed to make 100.0 mL of 0.500 M solution?\n3. Why must the denominator of molarity be \"liters of solution\" and not \"liters of water\"?\n4. A titration uses 22.50 mL of 0.100 M NaOH to neutralize 25.00 mL of HNO3. What is the HNO3 molarity?\n5. In gravimetric analysis, why must the precipitate be dry before weighing?\n\n### Answers and Rationales\n\n1. 0.125 mol — 0.250 M × 0.5000 L = 0.125 mol.\n2. 25.0 mL — V1 = (0.500 × 100.0) / 2.00 = 25.0 mL.\n3. Because dissolving a solute changes the total volume; molarity must reflect the final volume of the mixture.\n4. 0.0900 M — moles NaOH = 0.100 × 0.02250 = 0.002250 mol; 1:1 with HNO3, so M = 0.002250 / 0.02500 = 0.0900 M.\n5. Because water of hydration would add mass and inflate the result; only the dry precipitate should count.",
+    "workedExamples": "Worked example 1 — molarity:\nHow many grams of NaOH are needed to make 250.0 mL of 0.400 M NaOH (NaOH = 40.00 g/mol)?\n\\[ \\text{moles} = M \\times V = 0.400\\ \\mathrm{\\frac{mol}{L}} \\times 0.2500\\ \\mathrm{L} = 0.100\\ \\mathrm{mol} \\]\n\\[ \\text{mass} = 0.100\\ \\mathrm{mol} \\times 40.00\\ \\mathrm{\\frac{g}{mol}} = 4.00\\ \\mathrm{g} \\]\nSetup error: using 250 mL instead of 0.2500 L — convert to liters first.\n\nWorked example 2 — dilution:\nHow many mL of 6.00 M HCl are needed to make 500.0 mL of 0.150 M HCl?\n\\[ V_1 = \\frac{M_2 V_2}{M_1} = \\frac{0.150\\ \\mathrm{M} \\times 500.0\\ \\mathrm{mL}}{6.00\\ \\mathrm{M}} = 12.5\\ \\mathrm{mL} \\]\nMeasure 12.5 mL of the stock and dilute to 500.0 mL. Setup error: inverting the ratio (gives 20,000 mL).\n\nWorked example 3 — titration:\n25.00 mL of HCl requires 34.80 mL of 0.1000 M NaOH to reach the equivalence point. Find [HCl].\n\\[ \\text{moles NaOH} = 0.1000\\ \\mathrm{\\frac{mol}{L}} \\times 0.03480\\ \\mathrm{L} = 0.003480\\ \\mathrm{mol} \\]\nHCl and NaOH react 1:1, so moles HCl = 0.003480 mol.\n\\[ M_{\\mathrm{HCl}} = \\frac{0.003480\\ \\mathrm{mol}}{0.02500\\ \\mathrm{L}} = 0.1392\\ \\mathrm{M} \\]\nSetup error: forgetting the mole ratio — check the balanced equation first.\n\nWorked example 4 — gravimetric analysis:\nExcess AgNO3 is added to a sample containing Cl−, and 1.432 g of AgCl is collected (AgCl = 143.32 g/mol). Find the mass of Cl− (35.45 g/mol).\n\\[ \\text{mol AgCl} = \\frac{1.432\\ \\mathrm{g}}{143.32\\ \\mathrm{g/mol}} = 0.009991\\ \\mathrm{mol} \\]\nEach AgCl contains one Cl−, so mol Cl− = 0.009991 mol.\n\\[ \\text{mass Cl}^- = 0.009991\\ \\mathrm{mol} \\times 35.45\\ \\mathrm{g/mol} = 0.3542\\ \\mathrm{g} \\]",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 1
+  },
+  "aliases": [
+    {
+      "value": "solution-stoichiometry",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "09-solution-stoichiometry",
+      "kind": "source_file_stem",
+      "source_id": "need-review-general-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-general-chemistry-i",
+    "sourceFile": "general-chemistry-i-study-notes/docs/general-chemistry-i/09-solution-stoichiometry.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

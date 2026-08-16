@@ -1,0 +1,175 @@
+---
+title: "Translation of RNA: Protein Biosynthesis"
+subject: "Science"
+book: "Organic Chemistry: A Tenth Edition"
+chapter: "28: Biomolecules: Nucleic Acids"
+topic_number: "5"
+source: "organic-chemistry.md"
+tags:
+  - "translation-of-rna-protein-biosynthesis"
+  - "science"
+status: "complete"
+---
+
+# Translation of RNA: Protein Biosynthesis
+
+> **Book:** [Organic Chemistry: A Tenth Edition](../../README.md)  
+> **Chapter:** [Chapter 28: Biomolecules: Nucleic Acids](../README.md)  
+> **Topic:** 5  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Translation** is the process by which the nucleotide sequence of messenger RNA (mRNA) directs the assembly of a protein. It is the second step of the central dogma and the step where the language of nucleic acids (four letters) is converted into the language of proteins (twenty amino acids). Three players cooperate: the **mRNA** (the message), **transfer RNA (tRNA)** molecules (the adapters that match each three‑letter code word, or **codon**, to a specific amino acid), and the **ribosome** (the machine that aligns them and catalyzes peptide‑bond formation).
+
+Translation is an organic chemist's dream mechanism: every peptide bond forms by a nucleophilic acyl substitution in which the α‑amino group of an incoming aminoacyl‑tRNA attacks the ester carbonyl of the growing peptide chain. This topic explains the genetic code, tRNA charging, the ribosome's active sites, and the energetics of protein assembly.
+
+## Why This Matters
+
+Protein synthesis is the endpoint of gene expression — the point where genetic information becomes the enzymes, structural proteins, and signaling molecules that run the organism. It is also one of the most important drug targets in medicine: **streptomycin**, **tetracyclines**, **chloramphenicol**, and **erythromycin** kill bacteria by binding the bacterial ribosome, and they are safe for humans because our ribosomes differ enough that the drugs do not bind them well. Understanding translation explains how mutations cause disease: a single base change can turn a codon into a stop signal (nonsense mutation) or shift the reading frame and scramble the whole protein. And mRNA vaccines work only because the ribosome reads injected mRNA — the exact mechanism you study here.
+
+## Core Concepts
+
+### The genetic code: three letters per amino acid
+
+The mRNA is read in non‑overlapping groups of three nucleotides called **codons**. With four bases, there are \(4^3 = 64\) possible codons — enough for the 20 amino acids, with redundancy. Sixty‑one codons specify amino acids (the code is **degenerate**: most amino acids have several codons), and three — UAA, UAG, UGA — are **stop codons**. **AUG** is the **start codon**: it specifies methionine and sets the reading frame, so any insertion or deletion of one or two nucleotides shifts the frame from that point on (a **frameshift** mutation).
+
+### tRNA: the adapter molecule
+
+Each tRNA is a small (73–93 nucleotide) RNA folded into a cloverleaf shape. One end carries the **anticodon**, three bases complementary to a codon; the other end (always the sequence CCA) carries the amino acid, attached as an **ester** between its carboxyl group and the tRNA's 3′‑OH. The enzyme **aminoacyl‑tRNA synthetase** performs this charging reaction, using ATP (converted to AMP + PPᵢ — two high‑energy phosphate bonds) to drive formation of the ester. Each synthetase recognizes one amino acid and its matching tRNAs — sometimes called the "second genetic code," because this recognition step is where specificity is actually enforced.
+
+### The ribosome: three sites and a ribozyme
+
+The ribosome is built from ribosomal RNA (rRNA) and dozens of proteins. It has three tRNA‑binding sites: the **A (aminoacyl) site** where the incoming aminoacyl‑tRNA docks, the **P (peptidyl) site** holding the tRNA attached to the growing peptide, and the **E (exit) site** where the emptied tRNA leaves. Peptide‑bond formation is catalyzed by the rRNA of the large subunit — the ribosome is a **ribozyme**, an RNA catalyst. The mechanism is a nucleophilic acyl substitution: the α‑amino group of the A‑site amino acid attacks the ester carbonyl of the P‑site peptidyl‑tRNA, forming the new amide (peptide) bond and transferring the growing chain to the A‑site tRNA. No ATP is needed for this step; elongation runs on GTP.
+
+### The elongation cycle and energy accounting
+
+Elongation repeats three steps per amino acid: (1) an aminoacyl‑tRNA is delivered to the A site with a GTP‑binding factor (one GTP); (2) peptide‑bond formation occurs; (3) **translocation** moves the mRNA and tRNAs forward one codon, the peptidyl‑tRNA moving to P and the empty tRNA to E (a second GTP). When a stop codon reaches the A site, **release factors** trigger hydrolysis of the completed polypeptide. The total bill per amino acid is four high‑energy phosphate bonds: two from activation (ATP → AMP + PPᵢ) and two from the two GTP molecules of elongation.
+
+## ELI-10: Explain Like I'm 10
+
+> Imagine a message written in secret code, where every three letters spell one word from a list of 20 color names. Translation is a machine (the ribosome) that reads the coded message three letters at a time and, for each three‑letter word, grabs the matching crayon from a box of labeled crayons (the tRNAs). It glues the crayons together in order — that's the protein. When the message says "STOP," the machine lets go of the finished chain.
+
+## High-Yield Points
+
+- The genetic code: 64 codons, 61 sense + 3 stop (UAA, UAG, UGA); AUG = start = methionine; the code is degenerate but unambiguous.
+- Codons are on mRNA; anticodons are on tRNA; they pair antiparallel with wobble tolerated at the third position.
+- Amino acids attach to tRNA as esters at the 3′‑OH (CCA end); aminoacyl‑tRNA synthetases enforce specificity using ATP (→ AMP + PPᵢ).
+- The ribosome has A, P, and E sites; peptide‑bond formation is a nucleophilic acyl substitution catalyzed by rRNA (a ribozyme).
+- Each peptide bond costs 4 high‑energy phosphate bonds: 2 ATP (activation) + 2 GTP (elongation).
+- A frameshift (insertion/deletion of 1–2 nucleotides) scrambles every downstream codon; a point mutation changes one codon.
+- Many antibiotics (streptomycin, tetracyclines, chloramphenicol, erythromycin) block the bacterial ribosome.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| translation | Using mRNA sequence to assemble a protein | The endpoint of gene expression and a major drug target |
+| codon | Three‑base "word" on mRNA specifying one amino acid or stop | The unit of genetic information read by the ribosome |
+| anticodon | Three bases on tRNA complementary to a codon | The matchmaker that delivers the right amino acid |
+| tRNA | Small RNA adapter carrying an amino acid | Physically links the nucleotide code to amino acids |
+| ribosome | rRNA + protein machine with A, P, E sites | Catalyzes peptide‑bond formation (a ribozyme) |
+| aminoacyl‑tRNA synthetase | Enzyme that attaches each amino acid to its tRNA | Enforces the "second genetic code" |
+| start / stop codons | AUG (Met) starts; UAA, UAG, UGA stop | Define the reading frame and the protein's ends |
+| reading frame | The grouping of mRNA into codons | One‑ or two‑base shifts scramble the entire protein |
+| peptide bond | Amide bond between amino acid residues | The chemical linkage that defines a protein |
+
+## How It Works / Step-by-Step Process
+
+1. The small ribosomal subunit binds the mRNA near the 5′ cap and scans to the first AUG; the initiator tRNA (Met) settles in the P site; the large subunit joins.
+2. An aminoacyl‑tRNA whose anticodon matches the A‑site codon is delivered (one GTP consumed).
+3. The α‑amino group of the A‑site amino acid attacks the ester carbonyl of the P‑site peptidyl‑tRNA: a peptide bond forms and the growing chain transfers to the A‑site tRNA.
+4. Translocation shifts the ribosome one codon down the mRNA (second GTP); the peptidyl‑tRNA moves to P, the empty tRNA exits via E.
+5. Steps 2–4 repeat until a stop codon (UAA, UAG, UGA) reaches the A site; a release factor triggers hydrolysis, and the finished polypeptide is released.
+
+## Worked Examples
+
+### Example 1: Reading an mRNA and building the protein
+
+Translate the mRNA 5′–AUG GCA UUU CGA UAA–3′ using AUG = Met (start), GCA = Ala, UUU = Phe, CGA = Arg, UAA = stop:
+
+\[
+\text{AUG}\ \text{GCA}\ \text{UUU}\ \text{CGA}\ \text{UAA} \longrightarrow \text{Met–Ala–Phe–Arg}
+\]
+
+The ribosome groups the message in threes starting at the first AUG, adds four amino acids, and stops at UAA — so the product is a tetrapeptide. Notice that the fourth amino acid is still added before termination: the stop codon is read in the A site only after Arg has been incorporated.
+
+### Example 2: From gene length to protein size and energy cost
+
+An mRNA open reading frame (ORF) is 1,200 nucleotides long. The number of codons is
+
+\[
+\frac{1{,}200\ \text{nt}}{3\ \text{nt/codon}} = 400\ \text{codons}
+\]
+
+The stop codon does not code for an amino acid, so the protein has 399 residues. Using the rule of thumb that an average amino acid residue contributes about 110 Da:
+
+\[
+399\ \text{residues} \times 110\ \frac{\text{Da}}{\text{residue}} \approx 44{,}000\ \text{Da} = 44\ \text{kDa}
+\]
+
+The energy cost: each of the 399 peptide bonds requires 4 high‑energy phosphate bonds (2 ATP activation + 2 GTP elongation), so
+
+\[
+399 \times 4 \approx 1{,}600\ \text{high-energy phosphate bonds per protein molecule}
+\]
+
+To synthesize 1.0 μmol of this protein, the cell spends 1.0 μmol × 399 × 2 = 798 μmol ≈ 0.80 mmol of GTP (elongation) and an equal 0.80 mmol of ATP (activation) — a concrete sense of why protein synthesis dominates a growing cell's energy budget.
+
+### Example 3: Why a frameshift is catastrophic
+
+Original message: 5′–AUG UUU GGG CAA–3′ → Met–Phe–Gly–Gln. Now insert one extra A immediately after the start codon:
+
+\[
+\text{5′–AUG A UUU GGG CAA–3′} \longrightarrow \text{AUG}\ \text{AUU}\ \text{UGG}\ \text{GCA}\ \text{A}
+\]
+
+Grouping in threes from the start gives Met–Ile–Trp–Ala (plus one leftover nucleotide). Every codon after the insertion point is different, so every amino acid from position two onward changes — which is why insertions or deletions of 1–2 nucleotides are usually far more damaging than a single base substitution.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Codon | Anticodon | Codon is the three‑base word on mRNA; anticodon is its complementary partner on tRNA |
+| Translation | Transcription | Transcription makes RNA from DNA; translation makes protein from RNA |
+| Amino acid | Nucleotide | Amino acids (20) are protein building blocks; nucleotides (4 bases) are nucleic acid building blocks |
+| tRNA | mRNA | tRNA is the adapter carrying an amino acid; mRNA is the message that is read |
+| "Amino acids are added in the A site" | "Peptide bonds form in the P site" | The incoming aminoacyl‑tRNA enters the A site; the peptide bond forms between A‑site and P‑site tRNAs |
+| Start codon = any AUG | Start codon = the first AUG selected | Only the AUG the ribosome selects as start defines the reading frame; internal AUGs encode methionine |
+| Stop codons code for an amino acid | Stop codons end translation | UAA, UAG, UGA bind release factors, not tRNAs — no amino acid is added |
+
+## Quick Review
+
+1. How many codons are there, and how many specify amino acids versus stop?
+2. Which codon is the start codon, and what amino acid does it carry?
+3. In which ribosomal site does the incoming aminoacyl‑tRNA bind, and what reaction occurs next?
+4. How many high‑energy phosphate bonds are spent per peptide bond, and where are they spent?
+5. An mRNA reads 5′–AUG UCU GGG UAA–3′. What peptide is produced (UCU = Ser, GGG = Gly)?
+6. Why is a one‑base insertion usually more damaging than a one‑base substitution?
+
+<details>
+<summary>Show answers</summary>
+
+1. 64 codons total: 61 specify amino acids, 3 are stop codons (UAA, UAG, UGA).
+2. AUG, which codes for methionine (in bacteria, the initiator is formyl‑methionine).
+3. The A (aminoacyl) site. The α‑amino group of the A‑site amino acid then attacks the ester carbonyl of the P‑site peptidyl‑tRNA, forming the peptide bond.
+4. Four: two ATP equivalents during tRNA charging (ATP → AMP + PPᵢ) and two GTP during elongation (A‑site delivery + translocation).
+5. Met–Ser–Gly (the UAA stop codon ends translation after Gly).
+6. A substitution changes one codon (usually one amino acid); a one‑base insertion shifts the reading frame, so every codon downstream is regrouped and the entire rest of the protein is different.
+</details>
+
+## Related Topics
+
+- Previous: [Transcription of DNA](04-transcription-of-dna.md)
+- Next: [DNA Sequencing](06-dna-sequencing.md)
+- Related: [Nucleotides and Nucleic Acids](01-nucleotides-and-nucleic-acids.md)
+- Related: [Biomolecules: Nucleic Acids chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Organic Chemistry: A Tenth Edition
+- Local outline source: `organic-chemistry.md`
+- Official source URL: https://openstax.org/details/books/organic-chemistry/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Constants: 64 codons / 20 amino acids; average amino acid residue mass ≈ 110 Da; 4 high‑energy phosphate bonds per peptide bond (2 ATP activation + 2 GTP elongation); standard textbook values (2026-08).
+- Last updated: 2026-08-16

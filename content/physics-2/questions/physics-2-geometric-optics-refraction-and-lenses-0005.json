@@ -1,0 +1,38 @@
+{
+  "id": "physics-2-geometric-optics-refraction-and-lenses-0005",
+  "subject": "physics-2",
+  "lesson": "geometric-optics-refraction-and-lenses",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For fiber optics, use $v = c / n$ in a speed in a medium model. The first quantity is 3.750e+08 m/s and the second is 1.50 dimensionless. What is the wave speed?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$1.25e+08\\ \\text{m/s}$"
+    },
+    {
+      "id": "b",
+      "text": "$2.50e+08\\ \\text{m/s}$"
+    },
+    {
+      "id": "c",
+      "text": "$5.00e+08\\ \\text{m/s}$"
+    },
+    {
+      "id": "d",
+      "text": "$3.12e+08\\ \\text{m/s}$"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Using $v = c / n$ gives 3.750e+08 m/s divided by 1.50 dimensionless = $2.50e+08\\ \\text{m/s}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to m/s, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "fiber",
+    "optics"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-5097849c5241cd05",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

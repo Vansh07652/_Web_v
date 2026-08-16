@@ -1,0 +1,144 @@
+---
+title: "The Function of Nervous Tissue"
+subject: "Science"
+book: "Anatomy and Physiology 2e"
+chapter: "12: The Nervous System and Nervous Tissue"
+topic_number: "3"
+source: "anatomy-and-physiology-2e.md"
+tags:
+  - "the-function-of-nervous-tissue"
+  - "science"
+status: "complete"
+---
+
+# The Function of Nervous Tissue
+
+> **Book:** [Anatomy and Physiology 2e](../../README.md)  
+> **Chapter:** [Chapter 12: The Nervous System and Nervous Tissue](../README.md)  
+> **Topic:** 3  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Neurons communicate with electricity and chemistry. Inside a neuron, information travels as changes in the **membrane potential** — the voltage across the plasma membrane, set by unequal ion distribution. Between neurons, information travels chemically as neurotransmitters cross a synapse. This topic covers the electrical half: the resting potential, graded potentials, and the all-or-nothing action potential.
+
+The story has three acts. First, the neuron at rest maintains a stable, slightly negative internal charge. Second, a stimulus causes small local changes called graded potentials. Third, if those changes are strong enough to reach threshold, the neuron fires an action potential — a rapid, self-propagating reversal of charge that travels down the axon and triggers neurotransmitter release at the terminal.
+
+## Why This Matters
+
+The action potential is the currency of all nervous system function — every sensation, thought, and movement depends on it. Understanding it explains how local anesthetics block pain signals (they interfere with the ion channels that generate action potentials), why demyelinating diseases slow signaling, and why nerve signals are either present or absent rather than "a little bit there." It also underlies how drugs affect the heart, which uses the same electrical principles, and how EEGs and nerve conduction studies work.
+
+## Core Concepts
+
+### The resting membrane potential
+
+The membrane of a resting neuron is slightly polarized: the inside is negative relative to the outside. The commonly taught reference value is about **-70 mV** (verify against current texts). This voltage comes from two things working together:
+
+- **The sodium–potassium pump (Na⁺/K⁺-ATPase):** actively moves 3 Na⁺ out and 2 K⁺ in per ATP, building up concentration gradients — high Na⁺ outside, high K⁺ inside.
+- **Leak channels:** the resting membrane is more permeable to K⁺ than Na⁺, so K⁺ leaks out, leaving excess negative charge inside.
+
+The pump maintains the gradients; leak channels and selective permeability set the voltage. The cell is "resting" but far from idle — it constantly spends energy to keep its battery charged.
+
+### Graded potentials
+
+A stimulus (sensory input or neurotransmitter) can open ion channels locally and change the membrane potential by small amounts. These are **graded potentials**:
+
+- They are **local** — they spread only a short distance and weaken as they go (decremental).
+- Their size **varies with stimulus strength** — a bigger stimulus makes a bigger change.
+- They can be **depolarizing** (less negative, toward threshold) or **hyperpolarizing** (more negative, away from threshold).
+- They can **summate**: small inputs arriving close in time (temporal summation) or space (spatial summation) can add up to reach threshold.
+
+### The action potential
+
+If graded potentials depolarize the membrane to **threshold** (commonly taught as about -55 mV; verify against current texts), voltage-gated sodium channels open and an action potential fires. It has distinct phases:
+
+1. **Depolarization:** Na⁺ rushes into the cell through open voltage-gated Na⁺ channels, and the membrane potential swings sharply positive (commonly taught as peaking near +30 mV).
+2. **Repolarization:** the Na⁺ channels inactivate and voltage-gated K⁺ channels open; K⁺ leaves the cell, returning the potential toward negative.
+3. **Hyperpolarization (undershoot):** K⁺ channels close slowly, so K⁺ keeps leaving briefly, dipping below resting before the pump and leak channels restore baseline.
+
+The action potential is **all-or-none**: once threshold is reached, the full event happens. A stronger stimulus produces more action potentials per second (frequency coding), not bigger ones.
+
+**Refractory periods** follow each action potential. During the **absolute refractory period**, voltage-gated Na⁺ channels are inactivated and no new action potential is possible. During the **relative refractory period**, only a stronger-than-usual stimulus can trigger one. Refractory periods ensure one-way signal flow and cap firing rate.
+
+### Propagation: continuous and saltatory
+
+An action potential at one patch of membrane triggers the next, so the signal travels along the axon. In **unmyelinated** axons, conduction is **continuous** — a wave of depolarization moves step by step. In **myelinated** axons, the signal jumps between **nodes of Ranvier** (**saltatory conduction**), which is faster and more energy-efficient because ion exchange happens only at the nodes.
+
+### From electricity to chemistry
+
+When the action potential reaches the axon terminals, it triggers neurotransmitter release into the synaptic cleft, where the chemical binds receptors on the next neuron — the subject of the next topic. The electrical signal is thus converted into a chemical one at each synapse.
+
+## ELI-10: Explain Like I'm 10
+
+> A neuron at rest is like a stretched rubber band with a little stored energy. Small pokes make tiny dents, but if enough pokes add up to cross a line (the threshold), the whole band snaps — that's the action potential. Once it snaps, the "snap" travels down the wire like a wave, hopping quickly between bare spots on insulated (myelinated) wires instead of crawling along.
+
+## High-Yield Points
+
+- **Resting potential (~-70 mV) is set by leak channels; the Na⁺/K⁺ pump maintains the gradients** — both are needed.
+- **Graded potentials are local, graded, decremental, and summable**; action potentials are all-or-none and self-propagating.
+- **Threshold (commonly ~-55 mV) triggers voltage-gated Na⁺ channels** — this is the decision point.
+- **Phases to memorize:** depolarization (Na⁺ in) → repolarization (K⁺ out) → hyperpolarization/undershoot (K⁺ lingering) → pump restores baseline.
+- **All-or-none + frequency coding:** stimulus strength is encoded by firing rate, not by action potential size.
+- **Absolute refractory period = no new action potential possible; relative = possible with a stronger stimulus.**
+- **Myelin = speed:** saltatory conduction (jumping between nodes) beats continuous conduction.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| graded potential | A local, variable-sized change in membrane potential | The neuron's way of "listening" to stimuli; can summate to reach threshold |
+| threshold | The membrane potential that triggers an action potential (commonly taught as about -55 mV) | The all-or-nothing decision point |
+| action potential | A rapid, all-or-none, self-propagating electrical signal | The neuron's signal; travels the length of the axon |
+| refractory period | The time after an action potential when firing is limited | Ensures one-way travel and caps firing rate |
+| saltatory conduction | Signal "jumping" between nodes of Ranvier in myelinated axons | Faster and more energy-efficient signaling |
+
+## Example
+
+A patient at the dentist receives a local anesthetic before a filling. The anesthetic molecules (educational context — verify details against current texts) work by interfering with voltage-gated sodium channels in the sensory neurons of the area. With those channels blocked, the neurons cannot produce the rapid Na⁺ influx that drives depolarization, so no action potential is generated and pain signals never travel to the brain. This is a practical demonstration of why the action potential and its ion channels matter: block the channels, and you block the message.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Depolarization, repolarization, hyperpolarization | Direction of voltage change | Depolarization moves toward/above zero (Na⁺ in); repolarization returns toward resting (K⁺ out); hyperpolarization dips below resting |
+| Graded potentials and action potentials | Local vs. propagated | Graded: local, decremental, graded size, summable; action potential: all-or-none, self-propagating, fixed size |
+| "The pump makes the resting potential" | The pump vs. leak channels | The pump builds the ion gradients; K⁺ leak channels and selective permeability set the actual resting voltage |
+| Absolute and relative refractory periods | Both "rest periods" | Absolute: no new action potential possible (Na⁺ channels inactivated); relative: possible only with a stronger stimulus |
+| "Stronger stimulus = bigger action potential" | All-or-none law | Action potential size is fixed; stronger stimuli increase firing frequency, not amplitude |
+| Threshold as a fixed universal value | Reference values | -55 mV is a commonly taught reference for many neurons; actual values vary with cell type and conditions — verify against current texts |
+
+## Quick Review
+
+1. What two mechanisms together produce the resting membrane potential, and what is the commonly taught resting value?
+2. List the phases of an action potential and the main ion movement in each.
+3. Why is the action potential described as "all-or-none," and how does the nervous system encode stimulus strength?
+4. What is the difference between the absolute and relative refractory periods?
+5. Why is saltatory conduction faster than continuous conduction?
+6. What event at the axon terminal converts the electrical signal into a chemical signal?
+
+<details>
+<summary>Show answers</summary>
+
+1. The sodium–potassium pump maintains the ion gradients, and leak channels (mostly K⁺) set the voltage. The commonly taught resting value is about -70 mV.
+2. Depolarization (Na⁺ enters through voltage-gated channels), repolarization (K⁺ exits through voltage-gated channels), hyperpolarization/undershoot (K⁺ channels close slowly), then restoration by the pump.
+3. Once threshold is reached, the full action potential always fires at the same size — a stronger stimulus cannot make it bigger. Strength is encoded by firing frequency (more action potentials per second).
+4. Absolute: voltage-gated Na⁺ channels are inactivated, so no new action potential is possible regardless of stimulus. Relative: a stronger-than-normal stimulus can trigger a new action potential.
+5. In myelinated axons the signal jumps between nodes of Ranvier, so depolarization only needs to be regenerated at the nodes rather than at every point along the membrane.
+6. The arrival of the action potential at the axon terminal triggers the release of neurotransmitter into the synaptic cleft — covered in the next topic, Communication Between Neurons.
+
+</details>
+
+## Related Topics
+
+- Previous: [Nervous Tissue](02-nervous-tissue.md)
+- Next: [The Action Potential](04-the-action-potential.md)
+- Related: [The Nervous System and Nervous Tissue chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Anatomy and Physiology 2e
+- Local outline source: `anatomy-and-physiology-2e.md`
+- Official source URL: https://openstax.org/details/books/anatomy-and-physiology-2e/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Verification note: voltage values (-70 mV resting, ~-55 mV threshold, ~+30 mV peak, ~-75 mV undershoot) and the local-anesthetic mechanism are commonly taught reference concepts — verify exact values and mechanisms against current texts. No clinical dosing or treatment recommendations are included.
+- Last updated: 2026-08-16

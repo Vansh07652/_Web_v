@@ -1,0 +1,144 @@
+---
+title: "Systems-Based Practice"
+subject: "Nursing"
+book: "Medical-Surgical Nursing"
+chapter: "1: Professional Medical-Surgical Nursing"
+topic_number: "6"
+source: "medical-surgical-nursing.md"
+tags:
+  - "systems-based-practice"
+  - "nursing"
+status: "complete"
+---
+
+# Systems-Based Practice
+
+> **Book:** [Medical-Surgical Nursing](../../README.md)  
+> **Chapter:** [Chapter 1: Professional Medical-Surgical Nursing](../README.md)  
+> **Topic:** 6  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+"Systems-based practice" names one of the core competencies that health professions educators expect clinicians to develop: the ability to understand how the healthcare system is organized, work effectively within it, and use its resources to deliver safe, high-quality care. For the medical-surgical nurse, this means recognizing that no patient encounter happens in isolation. Every bed sits inside a unit; every unit sits inside a hospital; every hospital sits inside a web of payers, policies, professional regulations, and community resources. A nurse who thinks in systems asks different questions: *Who else needs to know about this change in condition? What must happen before this patient can safely go home? Which team member owns which piece of this plan? Where is information most likely to get lost?*
+
+Systems-based practice is not bureaucracy for its own sake. It is the practical skill of making the system work *for* the patient — spotting the gaps between people, shifts, and settings, and closing them before they become errors.
+
+## Why This Matters
+
+- **Patient safety depends on coordination.** Patient safety analyses repeatedly identify handoffs and transitions as high-risk moments — a large share of harmful events happen not during a single procedure but in the spaces between caregivers and care settings.
+- **Transitions are where information leaks.** Every transfer — unit to unit, hospital to home, hospital to skilled facility — is a chance for details such as medication lists, allergies, and pending results to be lost or duplicated.
+- **Nurses are the system's hubs.** The RN is often the only professional who sees the whole picture across a shift, and is positioned to notice what is missing.
+- **Resources are limited.** Thoughtful use of supplies, time, and services (resource stewardship) keeps care affordable and available for everyone.
+- **Exams test system thinking.** NCLEX-style questions about delegation, chain of command, discharge planning, and "who do you call?" scenarios are systems questions in disguise.
+- **Scope note:** how far a nurse can go in coordinating care depends on the state nurse practice act, facility policy, and the nurse's role (RN, LPN/LVN, or unlicensed assistive personnel). The principles here are universal; the exact job descriptions vary.
+
+## Core Concepts
+
+### The system has layers: micro, meso, and macro
+
+- **Micro level** — the nurse–patient relationship: assessment, teaching, medication administration, the bedside encounter.
+- **Meso level** — unit and facility operations: staffing, scheduling, supplies, policies, how the unit runs shift to shift.
+- **Macro level** — payment models, public policy, regulations, workforce and education systems, public health structures.
+
+A problem at one layer ripples through the others. A staffing shortage at the meso level shows up at the micro level as delayed responses and rushed handoffs; a change in payment policy at the macro level can decide whether a patient qualifies for home services after discharge.
+
+### Care coordination and transitions of care
+
+Care coordination is deliberately organizing a patient's care activities across people and settings so the plan stays coherent. Transitions are the movements between settings or levels of care, and each one is a risk point. Core practices include:
+
+- **Discharge planning that starts at admission**, not on discharge day.
+- **Structured handoffs** using tools such as SBAR (Situation, Background, Assessment, Recommendation) or ISBAR (adding Identification), which give urgent and routine communication a predictable shape.
+- **Medication reconciliation** — building and verifying an accurate list of everything a patient takes, done with the patient and across every transition, involving the appropriate team members (nurse, pharmacist, provider).
+
+### The interprofessional team and scope of practice
+
+The med-surg team includes physicians and advanced practice providers, pharmacists, physical and occupational therapists, respiratory therapists, dietitians, social workers, case managers, chaplains, and others. Each member acts within a scope defined by licensure, state law, and facility policy — and these vary by state and setting. Delegation follows the same logic: an RN may transfer a specific task (such as a routine measurement or hygiene care) to an LPN/LVN or unlicensed assistive personnel when the task, the person, and the patient's stability allow it, but the RN retains accountability and must supervise. Knowing when to escalate and through which chain of command is part of working the system safely.
+
+### Resource stewardship and quality improvement
+
+Stewardship means using time, supplies, and services wisely without compromising care. Reporting near misses and incidents is how the system learns — in a "Just Culture," the primary target of an investigation is the broken process, not the individual, though reckless behavior is still accountable. Quality improvement (QI) teams test small changes using cycles such as Plan-Do-Study-Act (PDSA): plan a change, do it on a small scale, study the results, act on what was learned.
+
+### The nurse as navigator and advocate
+
+Patients face a maze: insurance preauthorization, scheduling, transportation, equipment, follow-up visits, community resources. Nurses help patients and families find their way through it and speak up when the system fails a patient — that speaking up is advocacy, and it is a professional duty, not an optional extra.
+
+## ELI-10: Explain Like I'm 10
+
+> Being a nurse in a hospital is like being on a soccer team. If you just dribble the ball by yourself, the team loses. You win when everyone knows the play: who passes, who defends, who takes the shot. A nurse who understands "the play" — how the unit, the pharmacy, the lab, the doctors, and the insurance company fit together — can help the patient cross the field safely instead of getting stuck in the middle of it.
+
+## High-Yield Points
+
+- Systems-based practice is about understanding the **whole system**, not just your own job.
+- Most safety breakdowns happen at **transitions and handoffs** — use structured tools (SBAR/ISBAR) and verify that information was received.
+- **Discharge planning begins at admission**, not on the day of discharge.
+- The nurse **coordinates but does not control**: every team member acts within their own scope, which varies by state and facility.
+- **Delegation shifts tasks, not accountability** — the RN stays responsible for the outcome and for supervision.
+- Report near misses: in a Just Culture, fixing the process protects the next patient.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Systems-based practice | Working effectively within the larger healthcare system and using its resources well | A core professional competency; safe practice and exam questions both depend on it |
+| Care coordination | Organizing a patient's care activities across people, shifts, and settings | Keeps the plan coherent so nothing is lost between providers |
+| Transition of care | A move between settings or levels of care (e.g., hospital to home) | A high-risk moment for errors; requires deliberate planning and communication |
+| Handoff | Transfer of responsibility and information from one caregiver to another | A structured handoff prevents critical information from being lost |
+| SBAR | Situation–Background–Assessment–Recommendation | A common, predictable format that keeps urgent communication complete |
+| Scope of practice | The activities a professional is legally and institutionally allowed to perform | Prevents unsafe care; varies by license, state, and facility |
+| Delegation | Transferring a task to another qualified person while retaining accountability | Lets the team work at full capacity without compromising safety |
+| Interprofessional team | Caregivers from multiple disciplines working toward shared goals | No single professional can supply all the expertise a patient needs |
+| Just Culture | A safety philosophy focused on fixing processes while holding reckless behavior accountable | Encourages honest error reporting, which is how systems improve |
+| Resource stewardship | Using time, supplies, and services thoughtfully | Waste raises costs and can delay care for other patients |
+
+## Example: A discharge that takes a village
+
+Mr. Alvarez, age 68, is admitted from the emergency department with pneumonia. On the first day, his nurse, Priya, is already thinking past the bedside. From the admission interview she knows he lives alone, takes several daily medications, has no car, and will need a follow-up appointment after discharge.
+
+Priya flags the case manager, who begins arranging home services per facility policy. She asks the pharmacist to review the medication list (medication reconciliation). She teaches Mr. Alvarez about his medications using teach-back — asking him to explain the plan back in his own words. She confirms the follow-up appointment is scheduled and that transportation has been arranged, and she asks the dietitian to talk with him about foods that fit both his preferences and his recovery needs.
+
+On discharge day, Priya gives the receiving provider a complete handoff: the diagnosis, the current medication list, what was taught, and what still needs follow-up — and she documents it all. No single step was dramatic, but each one closed a gap where information could have been lost. Exactly which steps the nurse performs herself, versus requesting them from case management or social work, varies by facility and state practice act. The principle is constant: plan for the whole journey, not just the hospital stay.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| "The patient was told" | The patient understood | Telling is one-way; understanding is verified, usually with teach-back |
+| Delegation | Abandonment | The RN transfers a task but stays accountable and must supervise |
+| A verbal-only handoff | A complete handoff | A complete handoff also includes the written record, the medication list, and verification of understanding |
+| Care coordination | Case management | Overlapping but not identical: coordination organizes care activities; case management is a specific role that also manages insurance, resources, and length of stay |
+| Blaming an individual for an error | Improving the system | In a Just Culture, most errors trace to process flaws; fixing the process protects the next patient |
+
+## Quick Review
+
+1. Name the three "layers" of the healthcare system and give one example of how a problem in one layer shows up in another.
+2. Why are handoffs and transitions of care considered high-risk moments?
+3. What is the difference between delegating a task and being accountable for it?
+4. When should discharge planning begin, and why?
+5. What does SBAR stand for, and what makes it useful?
+
+<details>
+<summary>Show answers</summary>
+
+1. Micro (the nurse–patient encounter), meso (the unit or facility), and macro (payment systems, policy, regulation). Example: a hospital staffing shortage (meso) can slow response times at the bedside (micro), which can affect outcomes.
+2. Because responsibility and information move between people who do not share context; details such as medication lists, allergies, and pending results can be lost, duplicated, or misstated.
+3. Delegation transfers a task to a qualified person, but the delegating RN retains accountability for the outcome and must supervise and follow up.
+4. At admission. Early planning gives the team time to arrange medications, follow-up, equipment, and community services instead of scrambling at discharge.
+5. Situation, Background, Assessment, Recommendation — a predictable structure that keeps urgent communication complete and concise.
+
+</details>
+
+## Related Topics
+
+- Previous: [Health-Care Delivery Systems](05-health-care-delivery-systems.md)
+- Next: [Technology and Informatics](07-technology-and-informatics.md)
+- Related: [Intercollaborative Care](02-intercollaborative-care.md), [Health Policy and Ethical Considerations](03-health-policy-and-ethical-considerations.md)
+- Related: [Professional Medical-Surgical Nursing chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Medical-Surgical Nursing
+- Local outline source: `medical-surgical-nursing.md`
+- Official source URL: https://openstax.org/details/books/medical-surgical-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-15

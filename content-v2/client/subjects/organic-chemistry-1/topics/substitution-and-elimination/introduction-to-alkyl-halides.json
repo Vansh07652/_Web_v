@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:substitution-and-elimination:introduction-to-alkyl-halides",
+  "slug": "introduction-to-alkyl-halides",
+  "title": "Introduction to Alkyl Halides",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:substitution-and-elimination",
+    "slug": "substitution-and-elimination",
+    "title": "Substitution and Elimination",
+    "order": 5
+  },
+  "order": 19,
+  "status": "final",
+  "sections": {
+    "overview": "An alkyl halide is an alkane in which one or more hydrogens are replaced by a halogen (F, Cl, Br, or I), so it is also called a haloalkane. The carbon–halogen bond is polar: the halogen pulls electron density toward itself, leaving the carbon electrophilic (δ+) and the halogen δ−. Because the halogen can depart with the bonding pair of electrons as a stable halide ion, it serves as a leaving group, and the carbon becomes the site of nucleophilic substitution and elimination reactions.",
+    "whyItMatters": "Alkyl halides appear throughout medicine and the laboratory as solvents, anesthetics, and intermediates. For example, some volatile halogenated compounds have historically been used as inhalation anesthetics, and alkyl halides are key building blocks for pharmaceuticals and polymers. However, many alkyl halides are toxic, volatile, or environmentally persistent, so their handling, storage, and disposal are governed by institutional safety documentation. This study note intentionally omits operational procedures for preparing or using these compounds; any hands-on work must follow your institution's approved protocols.",
+    "learningObjectives": "1. Define alkyl halides (haloalkanes) and classify a halogen-bearing carbon as methyl, primary (1°), secondary (2°), tertiary (3°), allylic, benzylic, vinylic, or aryl.\n2. Name alkyl halides using IUPAC rules and draw a structure from a given name.\n3. Explain the polarity of the carbon–halogen bond and rank the leaving-group ability of the halides.\n4. Describe how substrate structure sets up the substitution and elimination chemistry covered in the next five topics.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Alkyl halide / haloalkane | An alkane with one or more hydrogens replaced by a halogen | The starting material for nearly all substitution and elimination reactions |\n| Primary (1°) halide | Halogen on a carbon bonded to one other carbon | Favors SN2 substitution |\n| Secondary (2°) halide | Halogen on a carbon bonded to two other carbons | Can follow SN1, SN2, E1, or E2 depending on conditions |\n| Tertiary (3°) halide | Halogen on a carbon bonded to three other carbons | Blocks SN2; favors SN1/E1 or E2 |\n| Allylic / benzylic halide | Halogen on a carbon next to a double bond / benzene ring | Resonance-stabilized carbocations make these especially reactive |\n| Vinylic / aryl halide | Halogen bonded directly to an sp² carbon of an alkene / ring | Generally unreactive in SN reactions |\n| Leaving group | The group that departs with the bonding electron pair | Its stability determines how readily substitution or elimination occurs |\n| Polarizability | How easily an atom's electron cloud distorts | Increases down the halogen group and underlies leaving-group ability |",
+    "collegeNotes": "### 1. What Alkyl Halides Are and How to Classify Them\n\nAlkyl halides (haloalkanes) contain a carbon–halogen bond. The classification of the halogen-bearing carbon determines reactivity:\n\n- **Methyl halide** — the halogen is on a CH₃ group (for example, CH₃Br), a carbon bonded to zero other carbons.\n- **Primary (1°)** — the carbon bearing the halogen is bonded to one other carbon.\n- **Secondary (2°)** — bonded to two other carbons.\n- **Tertiary (3°)** — bonded to three other carbons.\n- **Allylic halide** — the halogen is on a carbon adjacent to a C=C double bond.\n- **Benzylic halide** — the halogen is on a carbon adjacent to a benzene ring.\n- **Vinylic halide** — the halogen is bonded directly to a C=C carbon (sp²).\n- **Aryl halide** — the halogen is bonded directly to an aromatic ring carbon (sp²).\n\n### 2. Carbon–Halogen Polarity and Leaving-Group Ability\n\nHalogens are more electronegative than carbon, so the C–X bond is polarized C(δ+)–X(δ−). Both the magnitude of the dipole and the bond's reactivity change down the group. Bond strength decreases from C–F to C–I because the halogen atoms get larger and overlap with carbon's orbitals worsens. Polarity alone favors fluorine (most electronegative), but *reactivity* as a leaving group follows the opposite trend: I⁻ > Br⁻ > Cl⁻ > F⁻. A good leaving group is a *weak base* — a species that is stable once it carries the negative charge — and iodide is the weakest base (most stable anion) of the four halides. Fluoride, a strong, poorly stabilized base, is a very poor leaving group.\n\n### 3. Substrate Structure and Reactivity Overview\n\nThe number of alkyl groups at the halogen-bearing carbon governs which reactions are fast. Bulky, substituted carbons resist backside attack (SN2) but stabilize the carbocations needed for SN1 and E1 reactions. Methyl and primary substrates favor SN2, tertiary substrates favor SN1/E1 or E2, and secondary substrates sit in between. Vinylic and aryl halides are generally unreactive under SN1/SN2 conditions because their C–X bonds are shorter and stronger (sp² carbon) and their corresponding cations would be very unstable.",
+    "howItWorks": "1. The halogen's electronegativity polarizes the C–X bond, making carbon electron-poor.\n2. A nucleophile or base is attracted to the δ+ carbon (or to an adjacent β hydrogen).\n3. The C–X bond breaks heterolytically — both bonding electrons leave with the halogen.\n4. The halogen departs as a halide ion (X⁻), a stable, weak base.\n5. A new bond to carbon (substitution) or a new C=C π bond (elimination) forms.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Halide leaving-group ability is I⁻ > Br⁻ > Cl⁻ > F⁻ — the opposite of basicity.\n- **High yield:** Classify the halogen-bearing carbon (methyl/1°/2°/3°) before predicting any mechanism.\n- **High yield:** Allylic and benzylic halides react especially well because their carbocations are resonance-stabilized.\n- **High yield:** Vinylic and aryl halides do not undergo SN1 or SN2 reactions.\n- **High yield:** A good leaving group is a weak base.\n- The carbon–halogen bond is polar, with carbon δ+ and halogen δ−.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Vinylic halide | Allylic halide | Vinylic has X directly on the C=C carbon; allylic has X one bond away from the C=C |\n| Aryl halide | Benzylic halide | Aryl has X on the ring; benzylic has X on the carbon next to the ring |\n| Bond polarity | Leaving-group ability | Fluorine gives the most polar C–X bond but is the worst leaving group |\n| Electronegativity | Polarizability | Electronegativity peaks at fluorine; polarizability (and leaving ability) peaks at iodine |",
+    "memoryAids": "\"**I Br Cl F** — I Bring Chloride's Friend\" (or simply \"Iodide leaves best, Fluoride leaves worst\") reminds you of the leaving-group order I⁻ > Br⁻ > Cl⁻ > F⁻.",
+    "eli10": "Think of a carbon as a handshake partner that normally holds onto four neighbors (hydrogens and carbons). An alkyl halide is what you get when one of those handshake partners is swapped for a halogen — chlorine, bromine, iodine, or fluorine — like replacing one regular player on a team with a slightly \"greedy\" player. Halogens are greedy for electrons, so they tug the shared electrons toward themselves, leaving the carbon a little bit positive and the halogen a little bit negative.\n\nThat tiny imbalance is the whole reason alkyl halides are interesting: the slightly positive carbon becomes a target. A nucleophile (a \"nucleus-lover,\" a species rich in electrons) can attack it, and the halogen can leave, taking the shared electrons with it. This is like a relay race where a new runner (the nucleophile) tags in and the old runner (the halogen) tags out.\n\nWhere this stops being exact: the \"handshake\" image suggests a static picture, but bonds are shared electron density, and the carbon and halogen do not carry full +1 and −1 charges — they carry partial charges (δ+ and δ−). Also, not every halogen leaves equally easily; fluorine holds on far more tightly than iodine, so \"the halogen leaves\" is only a good summary for the heavier halogens. The precise behavior depends on bond strength and how well the halide ion stabilizes its negative charge.\n\n### Simple Example\n\nChloromethane, CH₃Cl, is methane (CH₄) with one hydrogen replaced by chlorine. The carbon is δ+ and chlorine is δ−. When a nucleophile such as hydroxide (OH⁻) attacks the carbon, the C–Cl bond breaks and chloride (Cl⁻) leaves, giving methanol, CH₃OH.",
+    "quickReview": "### Topic Recap\n\nAlkyl halides are alkanes with a halogen substituent, classified by the substitution pattern at the halogen-bearing carbon. Their polar C–X bond makes the carbon electrophilic and the halogen a potential leaving group, with leaving-group ability increasing down the group (I > Br > Cl > F). This substrate family is the launching point for the SN1, SN2, E1, and E2 mechanisms that follow.\n\n### Knowledge Check\n\n1. Classify the halogen-bearing carbon in (CH₃)₃CBr.\n2. Rank Cl⁻, F⁻, I⁻, Br⁻ in order of leaving-group ability, best to worst.\n3. Name the compound CH₃CH₂CH(Cl)CH₃.\n4. Why is fluoride a poor leaving group even though the C–F bond is the most polar?\n5. Is the halogen in CH₂=CHCl vinylic or allylic?\n\n### Answers and Rationales\n\n1. Tertiary (3°) — the bromine-bearing carbon is bonded to three other carbons.\n2. I⁻ > Br⁻ > Cl⁻ > F⁻ — iodide is the weakest base (most stable anion), so it leaves most easily.\n3. 2-chlorobutane — the longest chain is butane and chlorine gets the lower number (2).\n4. Polarity is not the same as leaving-group ability. Fluoride is a small, strongly basic anion that holds its negative charge poorly and is hard to stabilize, so it leaves reluctantly. Leaving-group ability tracks *weak basicity*, which follows the trend opposite to electronegativity.\n5. Vinylic — the chlorine is bonded directly to one of the C=C carbon atoms.",
+    "workedExamples": "This topic is introductory, so the walkthrough is a naming and classification exercise.\n\n1. **Pick the parent chain.** For 2-bromo-3-methylbutane, find the longest continuous chain that contains the carbon bonded to the halogen. That chain is butane (four carbons).\n2. **Number to give substituents the lowest numbers.** Number from the end that gives the halogen the lower number. The bromine is on carbon 2 and the methyl is on carbon 3.\n3. **Name halogens as substituents.** Use the prefixes fluoro-, chloro-, bromo-, and iodo- (dropping the \"-ine\"). List substituents alphabetically: \"bromo\" comes before \"methyl,\" giving 2-bromo-3-methylbutane.\n4. **Classify the carbon.** The bromine-bearing carbon (C2) is bonded to two other carbons, so this is a secondary (2°) alkyl bromide.\n5. **Assess the leaving group.** Bromide is a good leaving group (weak base), so this substrate is set up for substitution and elimination.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "introduction-to-alkyl-halides",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "19-introduction-to-alkyl-halides",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/19-introduction-to-alkyl-halides.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

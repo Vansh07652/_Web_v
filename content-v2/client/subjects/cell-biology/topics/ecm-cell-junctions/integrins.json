@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:ecm-cell-junctions:integrins",
+  "slug": "integrins",
+  "title": "Integrins",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:ecm-cell-junctions",
+    "slug": "ecm-cell-junctions",
+    "title": "ECM Cell Junctions",
+    "order": 9
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "**Integrins** are the principal transmembrane receptors that attach cells to the extracellular matrix (and, in some cases, to other cells). Each integrin is a **heterodimer** of one α and one β subunit — 18 α and 8 β subunits combine into 24 distinct human integrins. Integrins are remarkable for **bidirectional signaling**: \"inside-out\" signaling regulates their affinity from within the cell, while \"outside-in\" signaling transmits ECM-binding events into intracellular responses (survival, proliferation, migration). They thus serve as the physical and informational bridge between the ECM and the actin cytoskeleton.",
+    "whyItMatters": "Integrins mediate nearly every aspect of cell–matrix interaction: leukocyte homing and platelet clotting, wound healing, embryonic development, and — when dysregulated — cancer metastasis. Their central role makes them major drug targets: αIIbβ3 antagonists (antiplatelet therapy), α4-integrin antagonists (multiple sclerosis), and αvβ3/αvβ5 inhibitors (anti-angiogenesis). Understanding integrin activation and signaling is essential for both physiology and pharmacology.",
+    "learningObjectives": "- Describe integrin structure as an αβ heterodimer.\n- Explain inside-out and outside-in (bidirectional) signaling.\n- Explain how integrin conformation (bent vs. extended) gates ligand binding.\n- Relate integrin defects to disease.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Integrins** are the principal transmembrane receptors that attach cells to the extracellular matrix (and, in some cases, to other cells). Each integrin is a **heterodimer** of one α and one β subunit — 18 α and 8 β subunits combine into 24 distinct human integrins. Integrins are remarkable for **bidirectional signaling**: \"inside-out\" signaling regulates their affinity from within the cell, while \"outside-in\" signaling transmits ECM-binding events into intracellular responses (survival, proliferation, migration). They thus serve as the physical and informational bridge between the ECM and the actin cytoskeleton.\n\n### Key Components\n\n- **α and β subunits:** type I transmembrane glycoproteins; each has a large extracellular domain, a single transmembrane helix, and a short cytoplasmic tail.\n- **Ligand-binding head:** recognizes ECM ligands, often via the **RGD** tripeptide.\n- **Talin and kindlin:** intracellular activators that bind the β-subunit tail and trigger the high-affinity conformation.\n- **FAK (focal adhesion kinase) and Src:** tyrosine kinases recruited to integrin clusters during outside-in signaling.\n- **Ligand specificity:** α5β1 binds fibronectin; α6β1/α6β4 bind laminin; αIIbβ3 binds fibrinogen (platelets); αvβ3 binds vitronectin.\n\n### Mechanism\n\nInactive integrins adopt a **bent (low-affinity)** conformation. Inside-out activation begins when intracellular signals cause talin and kindlin to bind the β cytoplasmic tail, which propagates a conformational change through the transmembrane helices, straightening the extracellular domain into the **extended, high-affinity** form that binds ligand. Once bound, integrins cluster and recruit adaptor and signaling proteins (talin, vinculin, FAK, Src) to form adhesion complexes — the outside-in signal that regulates the actin cytoskeleton, survival, and gene expression. The same receptor can therefore be switched on from inside and then report back from outside.\n\n### How It Works\n\n1. Intracellular signals activate talin/kindlin.\n2. Talin binds the β-subunit cytoplasmic tail, extending the integrin (inside-out activation).\n3. The extended integrin binds its ECM ligand (e.g., fibronectin's RGD).\n4. Ligand-bound integrins cluster into adhesion complexes.\n5. FAK and Src are recruited and autophosphorylate, launching signaling cascades.\n6. The cell responds — spreading, migration, survival, proliferation (outside-in signaling).\n\n### Energy and Directionality\n\nIntegrin–ligand binding is affinity-driven (no ATP), but the activation and signaling machinery consumes energy: conformational switching is regulated by signaling events, and the downstream kinase cascades (FAK, Src, and the actomyosin machinery they control) are ATP-dependent. Directionality is intrinsic to the bidirectionality itself — signals can flow inward (to activate the receptor) or outward (from the ECM into the cell), coupling extracellular forces to intracellular biochemistry.\n\n### Experimental Evidence\n\n- **Blocking-antibody and RGD-peptide studies:** integrins were identified as the RGD-recognizing receptors mediating cell–matrix adhesion.\n- **Cryo-electron microscopy:** captured bent (inactive) vs. extended (active) integrin conformations, confirming the conformational-switch model.\n- **Knockout mice:** β1-integrin deletion is embryonic-lethal, and subunit-specific knockouts reveal distinct tissue roles.\n- **Human genetics:** leukocyte adhesion deficiency (β2 integrin defects) and Glanzmann thrombasthenia (αIIbβ3 defects) link integrins to immune and platelet function.\n\n### Technique\n\n- **Cell-adhesion and spreading assays** on defined ECM substrates.\n- **Flow cytometry with activation-specific antibodies** — detect the high-affinity integrin conformation.\n- **FRET / conformation sensors** — monitor integrin extension in live cells.\n- **Co-immunoprecipitation** — identify integrin-associated adaptors (talin, FAK).\n- **Cryo-EM** — resolve active vs. inactive structures.",
+    "howItWorks": "1. Intracellular signals activate talin/kindlin.\n2. Talin binds the β-subunit cytoplasmic tail, extending the integrin (inside-out activation).\n3. The extended integrin binds its ECM ligand (e.g., fibronectin's RGD).\n4. Ligand-bound integrins cluster into adhesion complexes.\n5. FAK and Src are recruited and autophosphorylate, launching signaling cascades.\n6. The cell responds — spreading, migration, survival, proliferation (outside-in signaling).",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Integrin = **αβ heterodimer**; 18 α + 8 β = 24 human integrins.\n- **Bidirectional signaling:** inside-out (talin/kindlin activate) and outside-in (FAK/Src respond).\n- Bent = inactive/low-affinity; **extended = active/high-affinity**.\n- Ligands: α5β1–fibronectin (RGD), α6β4–laminin, αIIbβ3–fibrinogen, αvβ3–vitronectin.\n- Short cytoplasmic tails bind adaptors linking to **actin**.\n- Diseases: leukocyte adhesion deficiency (β2), Glanzmann thrombasthenia (αIIbβ3).",
+    "commonConfusions": "- **\"Integrins are single-chain receptors.\"** — They are obligate αβ heterodimers.\n- **\"Integrin signaling is one-directional.\"** — It is bidirectional (inside-out and outside-in).\n- **\"Integrins only stick cells down.\"** — They also transduce survival, growth, and migration signals.\n- **\"Integrins bind actin directly.\"** — They link to actin through adaptors (talin, vinculin, etc.), not directly.\n- **\"All integrins bind the same ligand.\"** — Different αβ combinations recognize different ECM proteins.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of integrins as the hands of a cell reaching out to grab the world around it. Normally the hands are curled up and hidden (the \"bent,\" inactive shape). A signal from inside the cell tells the hands to open and stretch out (inside-out activation), and once open they grab the matrix. But grabbing also sends a message back into the cell — \"I've got a grip!\" — telling it to spread out, move, or survive (outside-in signaling). So integrins are two-way radios as well as hands. (The hand analogy doesn't capture the subtle graded affinity changes and the huge variety of \"grips\" for different matrix proteins.)",
+    "quickReview": "- Integrins = αβ heterodimers; 24 in humans.\n- Bidirectional: inside-out (talin/kindlin) and outside-in (FAK/Src).\n- Conformation: bent (off) ↔ extended (on).\n- Link ECM to actin via adaptors; key in adhesion, migration, clotting, immunity.\n- Drug targets in antiplatelet, anti-inflammatory, and anti-angiogenic therapy.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"integrin.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/integrin",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/integrin"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"The Extracellular Matrix of Animals.\" https://www.ncbi.nlm.nih.gov/books/NBK26810/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26810/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"Cell Junctions.\" https://www.ncbi.nlm.nih.gov/books/NBK26857/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26857/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"4.6 Connections between Cells and Cellular Activities.\" https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities",
+        "url": "https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/09-ecm-cell-junctions/06-integrins.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

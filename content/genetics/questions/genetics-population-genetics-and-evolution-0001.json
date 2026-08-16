@@ -1,0 +1,40 @@
+{
+  "id": "genetics-population-genetics-and-evolution-0001",
+  "subject": "genetics",
+  "lesson": "population-genetics-and-evolution",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept In a large randomly mating population with no selection, mutation, migration, or drift, what does the equation p^2 + 2pq + q^2 = 1 describe?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The genotype frequencies expected at equilibrium, where p^2 is *AA*, 2pq is *Aa*, and q^2 is *aa*"
+    },
+    {
+      "id": "b",
+      "text": "The phenotypic ratio produced by a cross between two *Aa* parents"
+    },
+    {
+      "id": "c",
+      "text": "The allele frequencies that remain after a population bottleneck"
+    },
+    {
+      "id": "d",
+      "text": "The probability that two unrelated individuals both carry allele *a*"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The Hardy Weinberg equation converts allele frequencies into the genotype frequencies expected in a population at equilibrium: *AA* = p^2, *Aa* = 2pq, and *aa* = q^2, with p + q = 1. Option B describes the outcome of a single Mendelian cross, not a population state, and C attributes a bottleneck effect to an equation that assumes no drift. D misreads the equation as an individual matching probability rather than a population genotype census.",
+  "difficulty": "unknown",
+  "tags": [
+    "hardy",
+    "weinberg",
+    "genotype",
+    "frequencies"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-c8080c5df327048e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-signaling:ip3-dag-ca2-pkc-pathway",
+  "slug": "ip3-dag-ca2-pkc-pathway",
+  "title": "IP3/DAG/Ca2+–PKC Pathway",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-signaling",
+    "slug": "cell-signaling",
+    "title": "Cell Signaling",
+    "order": 6
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "The IP3/DAG pathway is a GPCR cascade built on the hydrolysis of the membrane lipid phosphatidylinositol 4,5-bisphosphate (PIP2). Activation of Gq leads to activation of phospholipase C-β, which cleaves PIP2 into two second messengers: inositol 1,4,5-trisphosphate (IP3), which diffuses through the cytosol and opens Ca2+ channels in the endoplasmic reticulum, and diacylglycerol (DAG), which stays in the membrane and recruits/activates protein kinase C. The rise in cytosolic Ca2+ together with DAG activates PKC and many Ca2+-dependent enzymes, translating one receptor signal into a broad, often oscillatory, cellular response.",
+    "whyItMatters": "This pathway mediates vascular smooth-muscle contraction (angiotensin II, α1-adrenergic), salivary and pancreatic secretion (muscarinic), platelet activation, and fertilization (the sperm-triggered Ca2+ wave that activates the egg). PKC is a major oncogenic and drug target; Ca2+ dysregulation underlies cardiac arrhythmia, neurodegeneration, and excitotoxicity. Lithium's action on inositol phosphate recycling is a proposed basis for its mood-stabilizing effects.",
+    "learningObjectives": "- Explain how Gq couples a GPCR to phospholipase C-β (PLCβ).\n- Describe the cleavage of PIP2 into IP3 and DAG and the fate of each messenger.\n- Trace how IP3 releases Ca2+ from the endoplasmic reticulum and how Ca2+ acts as a signal.\n- Explain how DAG activates protein kinase C (PKC).\n- Connect Ca2+ oscillations and store-operated entry to sustained signaling.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe IP3/DAG pathway is a GPCR cascade built on the hydrolysis of the membrane lipid phosphatidylinositol 4,5-bisphosphate (PIP2). Activation of Gq leads to activation of phospholipase C-β, which cleaves PIP2 into two second messengers: inositol 1,4,5-trisphosphate (IP3), which diffuses through the cytosol and opens Ca2+ channels in the endoplasmic reticulum, and diacylglycerol (DAG), which stays in the membrane and recruits/activates protein kinase C. The rise in cytosolic Ca2+ together with DAG activates PKC and many Ca2+-dependent enzymes, translating one receptor signal into a broad, often oscillatory, cellular response.\n\n### Key Components\n\n- **Gq**: Heterotrimeric G protein α subunit that activates PLCβ.\n- **Phospholipase C-β (PLCβ)**: Cleaves PIP2 → IP3 + DAG.\n- **PIP2**: Minor membrane phospholipid, the substrate and precursor of both messengers.\n- **IP3**: Water-soluble second messenger; ligand for the IP3 receptor.\n- **IP3 receptor (IP3R)**: Ligand-gated Ca2+ channel in the ER membrane.\n- **DAG**: Lipid second messenger that activates PKC.\n- **Protein kinase C (PKC)**: Ser/Thr kinase requiring DAG (and often Ca2+) for activation.\n- **Calmodulin**: Ca2+-binding protein that relays Ca2+ signals to targets like CaM kinase.\n\n### Mechanism / How It Works\n\n1. **Receptor → Gq**: A ligand (e.g., angiotensin II, acetylcholine at muscarinic receptors, vasopressin) activates its GPCR, which activates Gqα by promoting GDP→GTP exchange.\n2. **PLCβ activation**: GTP-bound Gqα binds and activates PLCβ.\n3. **PIP2 hydrolysis**: PLCβ cleaves PIP2 into IP3 (released to cytosol) and DAG (retained in the plasma membrane).\n4. **Ca2+ release**: IP3 binds the IP3 receptor on the ER, opening it and releasing stored Ca2+ into the cytosol (cytosolic Ca2+ rises from ~100 nM to ~1 µM or more).\n5. **PKC activation**: The Ca2+ spike drives conventional PKC isoforms to the membrane, where DAG (and the acidic phospholipid phosphatidylserine) completes their activation.\n6. **Downstream effects**: PKC phosphorylates targets controlling secretion, contraction, gene expression, and cell growth; Ca2+-calmodulin activates CaM kinase, calcineurin, and other effectors.\n7. **Signal shaping**: Ca2+ release is often pulsatile because the IP3 receptor is itself regulated by Ca2+ (positive feedback at low Ca2+, negative at high), producing Ca2+ oscillations and waves.\n\n### Energy and Directionality\n\nCa2+ signaling is fundamentally an ion-gradient-driven process. The ER sequesters Ca2+ against a steep gradient using SERCA ATPases (ATP-driven), storing it at ~0.5–1 mM; opening IP3R/Ca2+ channels lets Ca2+ flow passively down its electrochemical gradient into the cytosol. Termination requires energy: SERCA pumps Ca2+ back into the ER, and plasma-membrane Ca2+ ATPases (PMCA) and Na+/Ca2+ exchangers extrude it. IP3 is rapidly dephosphorylated or phosphorylated (to IP4), and DAG is phosphorylated by DAG kinase to phosphatidic acid or hydrolyzed. Sustained signaling often uses store-operated Ca2+ entry (CRAC/Orai channels) to refill depleted ER stores. Thus the pathway is directional — powered by ATP-dependent pumps that maintain the gradient — and reversible only at a metabolic cost.\n\n### Experimental Evidence / Technique\n\n- **Fluorescent Ca2+ indicators** (Fura-2, Fluo-4, GCaMP) directly visualize IP3-induced Ca2+ spikes and oscillations in living cells.\n- **Caged IP3** allows photolytic release of IP3 in a defined spot, showing that IP3 alone triggers Ca2+ release.\n- **Thapsigargin** (a SERCA inhibitor) depletes ER Ca2+ stores without IP3, proving the ER is the Ca2+ reservoir.\n- **Phorbol esters** (e.g., PMA) mimic DAG and activate PKC chronically, used to dissect DAG-dependent responses.",
+    "howItWorks": "1. **Receptor → Gq**: A ligand (e.g., angiotensin II, acetylcholine at muscarinic receptors, vasopressin) activates its GPCR, which activates Gqα by promoting GDP→GTP exchange.\n2. **PLCβ activation**: GTP-bound Gqα binds and activates PLCβ.\n3. **PIP2 hydrolysis**: PLCβ cleaves PIP2 into IP3 (released to cytosol) and DAG (retained in the plasma membrane).\n4. **Ca2+ release**: IP3 binds the IP3 receptor on the ER, opening it and releasing stored Ca2+ into the cytosol (cytosolic Ca2+ rises from ~100 nM to ~1 µM or more).\n5. **PKC activation**: The Ca2+ spike drives conventional PKC isoforms to the membrane, where DAG (and the acidic phospholipid phosphatidylserine) completes their activation.\n6. **Downstream effects**: PKC phosphorylates targets controlling secretion, contraction, gene expression, and cell growth; Ca2+-calmodulin activates CaM kinase, calcineurin, and other effectors.\n7. **Signal shaping**: Ca2+ release is often pulsatile because the IP3 receptor is itself regulated by Ca2+ (positive feedback at low Ca2+, negative at high), producing Ca2+ oscillations and waves.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Gq → PLCβ → PIP2 → IP3 (cytosol, opens ER Ca2+ channels) + DAG (membrane, activates PKC).\n- IP3 receptor is a Ca2+ channel on the ER; it is NOT on the plasma membrane.\n- Conventional PKC needs BOTH DAG and Ca2+; novel PKC isoforms need DAG but not Ca2+.\n- SERCA and PMCA are ATP-driven pumps that terminate the Ca2+ signal.\n- Ca2+ commonly signals in oscillations, not one sustained spike.",
+    "commonConfusions": "- **IP3 vs. Ca2+**: IP3 is the messenger that *opens the channel*; Ca2+ is the ion that *does the work*. They are distinct.\n- **ER vs. plasma membrane Ca2+ channels**: IP3R and ryanodine receptors are on the ER/SR; voltage-gated Ca2+ channels are on the plasma membrane.\n- **PLCβ vs. PLCγ**: PLCβ is Gq-coupled; PLCγ is recruited by receptor tyrosine kinases (SH2 domains) — a different activation route to the same messengers.\n- **DAG's location**: DAG stays in the membrane (it is a lipid), while IP3 diffuses in the cytosol (it is polar).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of the cell as a house with a water tower (the endoplasmic reticulum) full of stored water (calcium). A message (IP3) is a key that opens a valve on the tower, so water pours down into the yard (cytosol) and turns on sprinklers (calcium-activated proteins). Another chemical (DAG) holds a switch open on some of the sprinklers. When the job is done, pumps (SERCA) carry the water back up into the tower, costing energy. The clever part is that the cell opens the valve in little pulses, so the sprinklers turn on and off in a rhythm instead of flooding. The analogy is limited because calcium is an ion carrying an electrical charge, not neutral water, and its movement is governed by both concentration and voltage.",
+    "quickReview": "- Ligand → GPCR → Gqα(GTP) → PLCβ → PIP2 → IP3 + DAG.\n- IP3 → IP3R (ER) → Ca2+ release; Ca2+ + DAG → PKC; Ca2+ → calmodulin → CaM kinase/calcineurin.\n- Termination: SERCA/PMCA pumps, IP3 degradation, DAG kinase, PKC downregulation.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 15, \"The Inositol Phospholipid Pathway.\""
+      },
+      {
+        "text": "Berridge, M. J., \"Inositol trisphosphate and calcium signalling,\" *Nature* (1993)."
+      },
+      {
+        "text": "Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 15."
+      },
+      {
+        "text": "NCBI Bookshelf, *The Cell: A Molecular Approach*, 2nd ed., \"Phospholipids and Ca2+.\""
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Chapter 9, \"Propagation of the Signal.\""
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/06-cell-signaling/08-ip3-dag-ca2-pkc-pathway.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

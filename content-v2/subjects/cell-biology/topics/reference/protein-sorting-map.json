@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:reference:protein-sorting-map",
+  "slug": "protein-sorting-map",
+  "title": "Protein Sorting Map (Nucleus, ER, Mitochondria, Lysosome, Peroxisome)",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:reference",
+    "slug": "reference",
+    "title": "Reference",
+    "order": 12
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "Eukaryotic proteins are delivered to their correct compartment by **sorting signals** — short amino-acid sequences (or, for lysosomal enzymes, an added sugar tag) that are read by specific **receptors** and routed through dedicated **translocation machinery**. Nuclear proteins carry a nuclear localization signal (NLS) and are imported through nuclear pore complexes; secretory and membrane proteins carry an N-terminal signal sequence and enter the ER **co-translationally** via SRP; mitochondrial proteins use an amphipathic presequence and TOM/TIM complexes; lysosomal enzymes are tagged with mannose-6-phosphate and sorted at the Golgi; peroxisomal proteins carry PTS1/PTS2 signals recognized by Pex receptors. Each route uses a distinct energy source (GTP, ATP, or membrane potential), and the signal plus its receptor jointly determine the destination.",
+    "whyItMatters": "Protein sorting is the molecular basis of cellular compartmentalization — every organelle's identity depends on receiving the right proteins. Its failure underlies diseases: I-cell disease (M6P tagging), Zellweger syndrome (peroxisomes), and many mitochondrial disorders. Sorting signals are also exploited in biotechnology (secretion tags for producing therapeutic proteins) and to target drugs/probes to organelles.",
+    "learningObjectives": "- For each destination organelle, state the targeting signal, its receptor, the translocation machinery, and the energy source.\n- Explain why nuclear import differs fundamentally from post-translational import into mitochondria/peroxisomes.\n- Contrast co-translational ER entry with post-translational mitochondrial/peroxisomal entry.\n- Trace how a lysosomal enzyme gets its mannose-6-phosphate tag and reaches the lysosome.\n- Predict the sorting defect caused by mutating a signal or receptor.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nEukaryotic proteins are delivered to their correct compartment by **sorting signals** — short amino-acid sequences (or, for lysosomal enzymes, an added sugar tag) that are read by specific **receptors** and routed through dedicated **translocation machinery**. Nuclear proteins carry a nuclear localization signal (NLS) and are imported through nuclear pore complexes; secretory and membrane proteins carry an N-terminal signal sequence and enter the ER **co-translationally** via SRP; mitochondrial proteins use an amphipathic presequence and TOM/TIM complexes; lysosomal enzymes are tagged with mannose-6-phosphate and sorted at the Golgi; peroxisomal proteins carry PTS1/PTS2 signals recognized by Pex receptors. Each route uses a distinct energy source (GTP, ATP, or membrane potential), and the signal plus its receptor jointly determine the destination.\n\n### Key Components\n\n| Organelle | Signal | Receptor | Machinery | Energy | Destination logic |\n|---|---|---|---|---|---|\n| **Nucleus** | NLS (basic, e.g., PKKKRKV); NES for export | Importins (α/β) / exportins (karyopherins) | Nuclear pore complex (NPC) | **Ran-GTP gradient** (GTP hydrolysis) | Import: importin binds NLS → NPC → Ran-GTP releases cargo inside |\n| **ER (secretory/membrane)** | N-terminal hydrophobic signal sequence | **SRP** + SRP receptor | Sec61 **translocon** | **GTP** (SRP/receptor) + translation (GTP for elongation) | Co-translational: SRP halts ribosome, docks on translocon, polypeptide threaded into ER |\n| **Mitochondria** | N-terminal amphipathic **presequence** | Tom20/22 (outer), Tim (inner) receptors | **TOM** (outer) + **TIM23** (inner) complexes | **Membrane potential (Δψ)** + matrix **ATP** (mtHsp70) | Unfolded import; presequence cleaved in matrix |\n| **Lysosome** | **Mannose-6-phosphate (M6P)** tag | M6P receptor | Clathrin-coated vesicle from Golgi/TGN | **ATP** (coat assembly, fusion) | M6P added in cis-Golgi; receptor sorts enzyme into lysosome-bound vesicle |\n| **Peroxisome** | **PTS1** (C-terminal -SKL) or PTS2 | **Pex5** (PTS1) / Pex7 (PTS2) | PEX translocon (Pex13/14 + others) | **ATP** (Pex1/Pex6 AAA ATPases) | Post-translational; folded/oligomeric import possible |\n\n### Mechanism\n\n1. **Signal recognition.** A receptor (importin, SRP, Tom20, M6P receptor, or Pex5) binds the protein's sorting signal, committing it to a route.\n2. **Targeting.** The receptor–cargo complex docks at the destination's machinery (NPC, translocon, TOM, coated vesicle, or PEX translocon).\n3. **Translocation.** The protein is threaded through a channel — through NPC gating, a translocon, TOM/TIM, or the peroxisomal translocon (which can admit folded proteins).\n4. **Release/reset.** A switch (Ran-GTP in the nucleus, signal cleavage in ER/mitochondria, low pH in endosomes, receptor recycling) releases cargo and recycles the receptor for another round.\n\n### Energy and Directionality\n\nEach pathway is **vectorial** — cargo moves one way — and the energy source enforces that direction. Nuclear transport uses the **Ran-GTP gradient**: Ran-GTP is high in the nucleus, and its binding to importin discharges cargo, while GTP hydrolysis (Ran-GAP) resets the cycle. ER import is driven by **GTP** (SRP/SRP receptor) plus the **translation** machinery. Mitochondrial import consumes the inner-membrane **electrochemical potential (Δψ)** and matrix **ATP** (Hsp70 pulling). Lysosomal sorting and peroxisomal import consume **ATP** (coat dynamics and AAA ATPases). In every case, removing the energy source (or the signal) blocks import — a useful experimental test.\n\n### Experimental Evidence\n\n- **Classical experiments:** pulse-chase autoradiography (Palade) showed secreted proteins move ER → Golgi → vesicles → surface; *in vitro* reconstitution (Blobel) proved signal-sequence-dependent ER targeting and SRP function.\n- **Cell-free import assays:** mitochondrial proteins imported only with a presequence + membrane potential; ionophores that collapse Δψ block import.\n- **Signal-swap experiments:** attaching an ER signal to a cytosolic protein redirects it to the ER; appending an NLS sends a reporter into the nucleus — direct proof that signals are both necessary and sufficient.\n- **Disease evidence:** I-cell disease (mucolipidosis II), caused by defective M6P tagging, misroutes lysosomal enzymes — proving the M6P tag's role; Zellweger syndrome (PEX mutations) shows peroxisomal import failure.\n- **What this proves vs. not:** these experiments establish *where* a protein goes and *what signal directs it*, but not the protein's function at the destination.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Nucleus: **NLS → importin → NPC → Ran-GTP** (import); NES → exportin (export).\n- ER: **signal sequence → SRP → SRP receptor → Sec61 translocon** (co-translational, GTP).\n- Mitochondria: **presequence → TOM/TIM** (post-translational, needs **Δψ + ATP**).\n- Lysosome: **M6P tag → M6P receptor → clathrin vesicle** (tag added in cis-Golgi).\n- Peroxisome: **PTS1 (-SKL) → Pex5 → PEX translocon** (ATP; can import folded proteins).\n- **I-cell disease** = defective M6P tagging; **Zellweger** = peroxisomal import failure.",
+    "commonConfusions": "- **\"All import needs ATP\"** — Nuclear import is driven by the **Ran-GTP gradient** (GTP, not ATP); mitochondrial import needs **Δψ** plus ATP.\n- **\"ER and mitochondrial import are the same\"** — ER import is **co-translational** (during synthesis via SRP); mitochondrial import is **post-translational** (unfolded protein threads through TOM/TIM).\n- **\"The NLS and ER signal sequence are interchangeable\"** — They are different sequences read by different receptors; each routes to a different organelle.\n- **\"Lysosomal enzymes are sorted by an amino-acid signal\"** — They use a **sugar** tag, mannose-6-phosphate, added in the Golgi.\n- **\"Peroxisomes import only unfolded proteins\"** — Peroxisomes can import **folded and oligomeric** proteins, unlike mitochondria/ER.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nEvery protein in a cell is like a package with a mailing label. The label (signal) is a short strip of letters; a mail sorter (receptor) reads it and sends the package to the right building (organelle) through a specific loading dock (machinery). Different docks need different fuel — some run on GTP, some on ATP, mitochondria need an electric charge. Rip off the label and the package is stranded. (The analogy's limit: some \"packages\" — peroxisomal proteins — can be shipped fully folded, unlike most mail.)",
+    "quickReview": "- Each organelle = specific signal + receptor + machinery + energy source.\n- Nucleus (NLS/importin/Ran-GTP), ER (signal/SRP/Sec61/GTP), mitochondria (presequence/TOM-TIM/Δψ+ATP), lysosome (M6P/M6P-receptor/clathrin/ATP), peroxisome (PTS1/Pex5/PEX/ATP).\n- Signals are necessary and sufficient; mutation → mislocalization → disease.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"The Endomembrane System and Proteins.\" https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+        "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins"
+      },
+      {
+        "text": "NHGRI, \"Nucleus.\" https://www.genome.gov/genetics-glossary/Nucleus",
+        "url": "https://www.genome.gov/genetics-glossary/Nucleus"
+      },
+      {
+        "text": "NHGRI, \"Mitochondria.\" https://www.genome.gov/genetics-glossary/Mitochondria",
+        "url": "https://www.genome.gov/genetics-glossary/Mitochondria"
+      },
+      {
+        "text": "NHGRI, \"Lysosome.\" https://www.genome.gov/genetics-glossary/Lysosome",
+        "url": "https://www.genome.gov/genetics-glossary/Lysosome"
+      },
+      {
+        "text": "NHGRI, \"Ribosome.\" https://www.genome.gov/genetics-glossary/Ribosome",
+        "url": "https://www.genome.gov/genetics-glossary/Ribosome"
+      },
+      {
+        "text": "MedlinePlus, \"How do genes direct the production of proteins?\" https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "protein-sorting-map",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "protein-sorting-map",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:51e59db392da37ec"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:51e59db392da37ec"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:51e59db392da37ec"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:51e59db392da37ec"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/reference/protein-sorting-map.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Protein Sorting Map (Nucleus, ER, Mitochondria, Lysosome, Peroxisome)\n\n## Learning Goals\n- For each destination organelle, state the targeting signal, its receptor, the translocation machinery, and the energy source.\n- Explain why nuclear import differs fundamentally from post-translational import into mitochondria/peroxisomes.\n- Contrast co-translational ER entry with post-translational mitochondrial/peroxisomal entry.\n- Trace how a lysosomal enzyme gets its mannose-6-phosphate tag and reaches the lysosome.\n- Predict the sorting defect caused by mutating a signal or receptor.\n\n## Core Concept\nEukaryotic proteins are delivered to their correct compartment by **sorting signals** — short amino-acid sequences (or, for lysosomal enzymes, an added sugar tag) that are read by specific **receptors** and routed through dedicated **translocation machinery**. Nuclear proteins carry a nuclear localization signal (NLS) and are imported through nuclear pore complexes; secretory and membrane proteins carry an N-terminal signal sequence and enter the ER **co-translationally** via SRP; mitochondrial proteins use an amphipathic presequence and TOM/TIM complexes; lysosomal enzymes are tagged with mannose-6-phosphate and sorted at the Golgi; peroxisomal proteins carry PTS1/PTS2 signals recognized by Pex receptors. Each route uses a distinct energy source (GTP, ATP, or membrane potential), and the signal plus its receptor jointly determine the destination.\n\n## Key Components\n\n| Organelle | Signal | Receptor | Machinery | Energy | Destination logic |\n|---|---|---|---|---|---|\n| **Nucleus** | NLS (basic, e.g., PKKKRKV); NES for export | Importins (α/β) / exportins (karyopherins) | Nuclear pore complex (NPC) | **Ran-GTP gradient** (GTP hydrolysis) | Import: importin binds NLS → NPC → Ran-GTP releases cargo inside |\n| **ER (secretory/membrane)** | N-terminal hydrophobic signal sequence | **SRP** + SRP receptor | Sec61 **translocon** | **GTP** (SRP/receptor) + translation (GTP for elongation) | Co-translational: SRP halts ribosome, docks on translocon, polypeptide threaded into ER |\n| **Mitochondria** | N-terminal amphipathic **presequence** | Tom20/22 (outer), Tim (inner) receptors | **TOM** (outer) + **TIM23** (inner) complexes | **Membrane potential (Δψ)** + matrix **ATP** (mtHsp70) | Unfolded import; presequence cleaved in matrix |\n| **Lysosome** | **Mannose-6-phosphate (M6P)** tag | M6P receptor | Clathrin-coated vesicle from Golgi/TGN | **ATP** (coat assembly, fusion) | M6P added in cis-Golgi; receptor sorts enzyme into lysosome-bound vesicle |\n| **Peroxisome** | **PTS1** (C-terminal -SKL) or PTS2 | **Pex5** (PTS1) / Pex7 (PTS2) | PEX translocon (Pex13/14 + others) | **ATP** (Pex1/Pex6 AAA ATPases) | Post-translational; folded/oligomeric import possible |\n\n## Mechanism\n1. **Signal recognition.** A receptor (importin, SRP, Tom20, M6P receptor, or Pex5) binds the protein's sorting signal, committing it to a route.\n2. **Targeting.** The receptor–cargo complex docks at the destination's machinery (NPC, translocon, TOM, coated vesicle, or PEX translocon).\n3. **Translocation.** The protein is threaded through a channel — through NPC gating, a translocon, TOM/TIM, or the peroxisomal translocon (which can admit folded proteins).\n4. **Release/reset.** A switch (Ran-GTP in the nucleus, signal cleavage in ER/mitochondria, low pH in endosomes, receptor recycling) releases cargo and recycles the receptor for another round.\n\n## Energy and Directionality\nEach pathway is **vectorial** — cargo moves one way — and the energy source enforces that direction. Nuclear transport uses the **Ran-GTP gradient**: Ran-GTP is high in the nucleus, and its binding to importin discharges cargo, while GTP hydrolysis (Ran-GAP) resets the cycle. ER import is driven by **GTP** (SRP/SRP receptor) plus the **translation** machinery. Mitochondrial import consumes the inner-membrane **electrochemical potential (Δψ)** and matrix **ATP** (Hsp70 pulling). Lysosomal sorting and peroxisomal import consume **ATP** (coat dynamics and AAA ATPases). In every case, removing the energy source (or the signal) blocks import — a useful experimental test.\n\n## Experimental Evidence\n- **Classical experiments:** pulse-chase autoradiography (Palade) showed secreted proteins move ER → Golgi → vesicles → surface; *in vitro* reconstitution (Blobel) proved signal-sequence-dependent ER targeting and SRP function.\n- **Cell-free import assays:** mitochondrial proteins imported only with a presequence + membrane potential; ionophores that collapse Δψ block import.\n- **Signal-swap experiments:** attaching an ER signal to a cytosolic protein redirects it to the ER; appending an NLS sends a reporter into the nucleus — direct proof that signals are both necessary and sufficient.\n- **Disease evidence:** I-cell disease (mucolipidosis II), caused by defective M6P tagging, misroutes lysosomal enzymes — proving the M6P tag's role; Zellweger syndrome (PEX mutations) shows peroxisomal import failure.\n- **What this proves vs. not:** these experiments establish *where* a protein goes and *what signal directs it*, but not the protein's function at the destination.\n\n## Why It Matters\nProtein sorting is the molecular basis of cellular compartmentalization — every organelle's identity depends on receiving the right proteins. Its failure underlies diseases: I-cell disease (M6P tagging), Zellweger syndrome (peroxisomes), and many mitochondrial disorders. Sorting signals are also exploited in biotechnology (secretion tags for producing therapeutic proteins) and to target drugs/probes to organelles.\n\n## High-Yield Facts\n- Nucleus: **NLS → importin → NPC → Ran-GTP** (import); NES → exportin (export).\n- ER: **signal sequence → SRP → SRP receptor → Sec61 translocon** (co-translational, GTP).\n- Mitochondria: **presequence → TOM/TIM** (post-translational, needs **Δψ + ATP**).\n- Lysosome: **M6P tag → M6P receptor → clathrin vesicle** (tag added in cis-Golgi).\n- Peroxisome: **PTS1 (-SKL) → Pex5 → PEX translocon** (ATP; can import folded proteins).\n- **I-cell disease** = defective M6P tagging; **Zellweger** = peroxisomal import failure.\n\n## Eli Explains\nEvery protein in a cell is like a package with a mailing label. The label (signal) is a short strip of letters; a mail sorter (receptor) reads it and sends the package to the right building (organelle) through a specific loading dock (machinery). Different docks need different fuel — some run on GTP, some on ATP, mitochondria need an electric charge. Rip off the label and the package is stranded. (The analogy's limit: some \"packages\" — peroxisomal proteins — can be shipped fully folded, unlike most mail.)\n\n## Common Confusions\n- **\"All import needs ATP\"** — Nuclear import is driven by the **Ran-GTP gradient** (GTP, not ATP); mitochondrial import needs **Δψ** plus ATP.\n- **\"ER and mitochondrial import are the same\"** — ER import is **co-translational** (during synthesis via SRP); mitochondrial import is **post-translational** (unfolded protein threads through TOM/TIM).\n- **\"The NLS and ER signal sequence are interchangeable\"** — They are different sequences read by different receptors; each routes to a different organelle.\n- **\"Lysosomal enzymes are sorted by an amino-acid signal\"** — They use a **sugar** tag, mannose-6-phosphate, added in the Golgi.\n- **\"Peroxisomes import only unfolded proteins\"** — Peroxisomes can import **folded and oligomeric** proteins, unlike mitochondria/ER.\n\n## Quick Review\n- Each organelle = specific signal + receptor + machinery + energy source.\n- Nucleus (NLS/importin/Ran-GTP), ER (signal/SRP/Sec61/GTP), mitochondria (presequence/TOM-TIM/Δψ+ATP), lysosome (M6P/M6P-receptor/clathrin/ATP), peroxisome (PTS1/Pex5/PEX/ATP).\n- Signals are necessary and sufficient; mutation → mislocalization → disease.\n\n## Sources\n- OpenStax, *Biology 2e*, \"The Endomembrane System and Proteins.\" https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins\n- NHGRI, \"Nucleus.\" https://www.genome.gov/genetics-glossary/Nucleus\n- NHGRI, \"Mitochondria.\" https://www.genome.gov/genetics-glossary/Mitochondria\n- NHGRI, \"Lysosome.\" https://www.genome.gov/genetics-glossary/Lysosome\n- NHGRI, \"Ribosome.\" https://www.genome.gov/genetics-glossary/Ribosome\n- MedlinePlus, \"How do genes direct the production of proteins?\" https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/\n"
+}

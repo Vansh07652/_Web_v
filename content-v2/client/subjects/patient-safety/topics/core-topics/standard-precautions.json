@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:patient-safety:core-topics:standard-precautions",
+  "slug": "standard-precautions",
+  "title": "Standard Precautions",
+  "subject": {
+    "id": "subject:patient-safety",
+    "slug": "patient-safety",
+    "title": "Patient Safety & Infection Prevention"
+  },
+  "unit": {
+    "id": "unit:patient-safety:core-topics",
+    "slug": "core-topics",
+    "title": "Core Topics",
+    "order": 1
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nThe word 'standard' is doing real work in this name: it marks the default setting, not a special mode you switch on. Compare it to a seatbelt, which you buckle on every trip rather than only on the trips you expect to go badly. The reason is the same in both cases: you cannot identify the risky instance in advance. Since a patient's infection status is often unknown even to the patient, the only workable rule is one that does not depend on knowing it.\n\n### Question 2\n\nThe underlying logic is the same as a lab rule that says treat every unlabeled container as hazardous: you skip the testing step and handle everything carefully, because testing each one is slower than protecting against all of them. Applied to the body, that means blood, saliva, urine, stool, and wound drainage are all handled as if organisms are present. Sweat is carved out because evidence has never linked it to spread of these pathogens. Broken skin and the moist linings of eyes, nose, and mouth are on the list for a different reason: they are the openings organisms actually travel through.\n\n### Question 3\n\nA useful test for whether something belongs to Standard Precautions is to ask: could this reasonably be done for every patient, every time, without knowing anything about them? A barrier device for rescue breathing passes that test, because it is cheap, always available, and protects the rescuer from oral secretions no matter who is being resuscitated. Fit-tested respirators, negative-pressure rooms, and admission screening all fail it, because each is triggered by a suspected pathogen or costs far more than universal use could justify.\n\n### Question 4\n\nConsider a rule that let you put on a raincoat only after you had confirmed it was raining. You would already be wet. Infectious agents make this worse in two ways: they are invisible, and people can carry and transmit them while feeling completely well. By the time a culture returns or symptoms appear, the exposure has already happened. Note that universal application does not mean identical application: the coat goes on for everyone, but how heavy a coat depends on what you are about to do.\n\n### Question 5\n\nTwo earlier systems each solved half the problem. One said to guard against blood, which addressed HIV and hepatitis but ignored other routes. The other said to guard against any moist body substance, which was broader but had grown out of a different tradition. Standard Precautions is the consolidation of both, which is why questions about chronology usually hinge on direction: the merged, broader rule came second and absorbed its predecessors rather than being displaced by them.\n\n### Question 6\n\nThe mistake here comes from picturing a syringe as a one-way pusher. It is actually a two-way tube: fluid can move back into the barrel during and after an injection, carrying blood with it into a space you cannot see or clean. Swapping the needle is like swapping the straw on a bottle someone has already drunk from. Wiping the outside of the barrel does nothing, because the contamination is on the inside surfaces. Hence the rule replaces the whole assembly, not just the sharp end.\n\n### Question 7\n\nThe controlling question before any task is: what could realistically reach my skin, clothing, or face during this? A venipuncture is a small, contained puncture with a predictable path, so hand protection matches the risk. Suctioning an airway involves a coughing patient and secretions under pressure, so the plausible splash zone now includes the eyes, mouth, and torso, and the barriers expand to match. Notice that nothing in this reasoning required knowing the patient's diagnosis, which is exactly what makes it usable on every patient.\n\n### Question 8\n\nTwo opposite errors appear among the wrong answers, and recognizing both is the point of the question. The first is withholding a barrier because a test was negative, which misreads what a test says: it reports on the organisms it looked for, on the day it looked, and says nothing about the splash physics of the task in front of you. The second is adding a barrier where nothing wet is involved, which feels cautious but measurably degrades hand hygiene. Correct practice tracks the anticipated exposure in both directions, up and down.\n\n### Question 9\n\nThis element targets the source rather than the receiver, which is why it happens at the front desk instead of the exam room. Containing droplets where they are produced protects everyone in the space at once, and it costs almost nothing: a mask, tissues, sanitizer, and a few feet of distance. Deferring to the provider misses the window, since the shared waiting room is precisely where unprotected exposure accumulates. Equipping the receptionist with a respirator, by contrast, protects one person while the droplets still reach everyone else.\n\n### Question 10\n\nInjuries cluster in the interval between using a sharp and securing it, and every additional handling step lengthens that interval. That single fact explains all four options. Immediate activation and disposal shortens the interval to seconds. Recapping with two hands points a contaminated needle toward the hand holding the cap. Bending or breaking creates fragments and requires manipulation. Carrying sharps down a corridor stretches the interval across an entire shift. It also explains why containers hang on the wall in the room rather than living in a supply closet.\n\n### Question 11\n\nThree different kinds of authority overlap here, and they are often collapsed into one. CDC functions as an expert body: it reviews evidence and publishes what works, but it cannot fine anyone. OSHA functions as a regulator: its bloodborne pathogens rule is codified federal law, enforceable through inspection and citation, and it is the reason your employer must supply gloves and gowns free of charge rather than expecting you to buy them. Your facility's manual is a third layer, typically at least as strict as both, and it is the one that governs your discipline as an employee.\n\n### Question 12\n\nPlacement decisions belong to Standard Precautions, not only to transmission-based precautions, and the triggering question is about containment rather than diagnosis: can this patient's body substances be kept within their immediate space? Here the answer is no, since stool and drainage are reaching shared surfaces, so a single room is warranted before any organism is named. The two wrong strategies fail in opposite ways: culture-driven waiting accepts real exposure for a day or two in exchange for information, while a negative-pressure room applies an airborne engineering control to a contact problem.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Infection Control / Standard & Transmission-Based Precautions — CDC",
+        "url": "https://www.cdc.gov/infection-control/hcp/basics/index.html"
+      },
+      {
+        "text": "Hand Hygiene in Healthcare Settings — CDC",
+        "url": "https://www.cdc.gov/infection-control/hcp/hand-hygiene/index.html"
+      },
+      {
+        "text": "Patient Safety — AHRQ",
+        "url": "https://www.ahrq.gov/patient-safety/index.html"
+      },
+      {
+        "text": "Patient safety fact sheet — World Health Organization",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/patient-safety"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "expansion-question-bank",
+    "sourceFile": "Education/pre-nursing-expansion-question-bank/questions/15-patient-safety/313-standard-precautions.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:electrochemistry:electrolytic-cells",
+  "slug": "electrolytic-cells",
+  "title": "Electrolytic Cells",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:electrochemistry",
+    "slug": "electrochemistry",
+    "title": "Electrochemistry",
+    "order": 8
+  },
+  "order": 10,
+  "status": "final",
+  "sections": {
+    "overview": "An **electrolytic cell** uses an external source of electrical energy to drive a *nonspontaneous* redox reaction — the reverse of a galvanic cell. The external supply forces electrons to move in the opposite direction, so the electrode signs are reversed (anode positive, cathode negative in electrolysis), but the *chemistry* is unchanged: oxidation still occurs at the **anode** and reduction at the **cathode**. Electrolysis decomposes compounds (molten salts to metals, water to H₂ and O₂) and is the industrial basis of aluminum, chlorine, and electroplating.",
+    "whyItMatters": "Electrolysis is how we obtain reactive metals that cannot be won by ordinary chemical reduction — aluminum (Hall–Héroult), sodium, magnesium — and how we make chlorine, lye, and hydrogen fuel from water. It powers electroplating, electrorefining of copper, and rechargeable batteries (charging is electrolysis). It is also the process behind green-hydrogen production for renewable energy storage.",
+    "learningObjectives": "- Distinguish an electrolytic cell from a galvanic cell.\n- Explain why an electrolytic cell requires an external power source and how electrode polarity flips.\n- Predict the products of electrolysis for molten salts and aqueous solutions.\n- State that the anode is still the site of oxidation and the cathode of reduction, even in electrolysis.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nAn **electrolytic cell** uses an external source of electrical energy to drive a *nonspontaneous* redox reaction — the reverse of a galvanic cell. The external supply forces electrons to move in the opposite direction, so the electrode signs are reversed (anode positive, cathode negative in electrolysis), but the *chemistry* is unchanged: oxidation still occurs at the **anode** and reduction at the **cathode**. Electrolysis decomposes compounds (molten salts to metals, water to H₂ and O₂) and is the industrial basis of aluminum, chlorine, and electroplating.\n\n### Key Ideas\n\n- **Nonspontaneous, powered.** The cell reaction has ΔG > 0 (E°cell < 0); the external supply overcomes it.\n- **Signs flip, roles don't.** In an electrolytic cell the anode is the positive electrode and the cathode negative, but oxidation is still at the anode and reduction at the cathode.\n- **Electrons pumped backward.** The external source pushes electrons onto the cathode (reduction) and pulls them from the anode (oxidation).\n- **Molten salts give the elements.** Electrolysis of molten NaCl yields Na metal and Cl₂ gas.\n- **Aqueous solutions compete with water.** In water, H₂O can be reduced (to H₂ + OH⁻) or oxidized (to O₂ + H⁺) instead of, or in competition with, the solute ions.\n\n### Equations and Variables\n\n| Term | Meaning |\n|---|---|\n| Anode | Electrode where oxidation occurs (positive in electrolysis) |\n| Cathode | Electrode where reduction occurs (negative in electrolysis) |\n| E_ext | Externally applied voltage (must exceed the cell's back-voltage) |\n| ΔG | Free-energy change (positive for the nonspontaneous cell reaction) |\n\n### How It Works\n\n1. An external power supply is connected to two electrodes immersed in an electrolyte (molten salt or solution).\n2. The supply's negative terminal feeds electrons to the cathode, where cations are *reduced*.\n3. The supply's positive terminal draws electrons from the anode, where anions (or the solvent) are *oxidized*.\n4. The applied voltage must exceed the spontaneous back-voltage (plus any overpotential) for current to flow.\n5. The result is a net nonspontaneous decomposition driven by electrical work.\n\n### Worked Example\n\n**Predict the products of electrolysis of molten NaCl, and label the electrodes.**\n\nMolten NaCl contains Na⁺ and Cl⁻ (no water to compete).\n\n- **Cathode (reduction):** Na⁺ + e⁻ → Na(l) — sodium metal forms.\n- **Anode (oxidation):** 2 Cl⁻ → Cl₂(g) + 2 e⁻ — chlorine gas forms.\n- **Net:** 2 NaCl(l) → 2 Na(l) + Cl₂(g).\n\nFor **aqueous** NaCl, water competes: at the cathode, water is more easily reduced than Na⁺, so 2 H₂O + 2 e⁻ → H₂ + 2 OH⁻ (hydrogen, not sodium); at the anode, 2 Cl⁻ → Cl₂ + 2 e⁻ (chlorine). So aqueous NaCl electrolysis gives H₂ and Cl₂ (with NaOH left in solution), not sodium metal.",
+    "howItWorks": "1. An external power supply is connected to two electrodes immersed in an electrolyte (molten salt or solution).\n2. The supply's negative terminal feeds electrons to the cathode, where cations are *reduced*.\n3. The supply's positive terminal draws electrons from the anode, where anions (or the solvent) are *oxidized*.\n4. The applied voltage must exceed the spontaneous back-voltage (plus any overpotential) for current to flow.\n5. The result is a net nonspontaneous decomposition driven by electrical work.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Electrolytic cell runs a **nonspontaneous** reaction (ΔG > 0, E°cell < 0) using external power.\n- Anode = oxidation and cathode = reduction in *both* cell types.\n- Electrode polarity **flips** in electrolysis: anode is positive (+), cathode negative (−).\n- Molten NaCl electrolysis → Na metal (cathode) + Cl₂ gas (anode).\n- Aqueous NaCl electrolysis → H₂ (cathode) + Cl₂ (anode), because water is reduced instead of Na⁺.\n- Minimum applied voltage must exceed the spontaneous back-voltage (plus overpotentials).",
+    "commonConfusions": "- **\"In an electrolytic cell the anode does reduction.\"** — Wrong. Anode = oxidation and cathode = reduction in every cell, galvanic or electrolytic.\n- **\"The anode is always negative.\"** — Wrong. In electrolysis the anode is *positive* (connected to the supply's + terminal); only in a galvanic cell is the anode negative.\n- **\"Electrolyzing aqueous NaCl gives sodium metal.\"** — Wrong. Water is reduced to H₂ instead; sodium metal requires molten NaCl (no water).\n- **\"No voltage is needed if the reaction is spontaneous.\"** — Then it wouldn't be electrolysis; electrolysis is for *nonspontaneous* reactions, so external voltage is required.\n- **\"The cathode and anode trade which reaction they host.\"** — Wrong. They trade electrical *sign*, not their chemical roles.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nA galvanic cell is a battery that runs \"downhill\" and gives you electricity. An electrolytic cell is the same hill, walked *up* — you plug in power to shove the reaction backward. The chemistry doesn't change its habits: the anode always does oxidation (losing electrons) and the cathode always does reduction (gaining them) — only the wiring is reversed, so the \"+\" and \"−\" labels trade places. Think of a water pump forcing water uphill: same water, opposite direction, needs external energy. (The limit: real electrolysis also wastes some energy as heat and may need extra \"overpotential\" beyond the ideal voltage to get going.)",
+    "quickReview": "- Electrolytic cell: nonspontaneous reaction driven by external electricity.\n- Anode = oxidation (+), cathode = reduction (−) — signs reversed vs. galvanic.\n- Molten salt → elements; aqueous → water may compete.\n- Aqueous NaCl → H₂ + Cl₂ (not Na).\n- Applied voltage must exceed the back-voltage.",
+    "workedExamples": "### Worked Example\n\n**Predict the products of electrolysis of molten NaCl, and label the electrodes.**\n\nMolten NaCl contains Na⁺ and Cl⁻ (no water to compete).\n\n- **Cathode (reduction):** Na⁺ + e⁻ → Na(l) — sodium metal forms.\n- **Anode (oxidation):** 2 Cl⁻ → Cl₂(g) + 2 e⁻ — chlorine gas forms.\n- **Net:** 2 NaCl(l) → 2 Na(l) + Cl₂(g).\n\nFor **aqueous** NaCl, water competes: at the cathode, water is more easily reduced than Na⁺, so 2 H₂O + 2 e⁻ → H₂ + 2 OH⁻ (hydrogen, not sodium); at the anode, 2 Cl⁻ → Cl₂ + 2 e⁻ (chlorine). So aqueous NaCl electrolysis gives H₂ and Cl₂ (with NaOH left in solution), not sodium metal.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 17.7 \"Electrolysis.\" https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 17.2 \"Galvanic Cells.\" https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "electrolytic-cells",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "10-electrolytic-cells",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:4b641f3447b3e420"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:4b641f3447b3e420"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:4b641f3447b3e420"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:4b641f3447b3e420"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/17-electrochemistry/10-electrolytic-cells.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Electrolytic Cells\n\n## Learning Goals\n\n- Distinguish an electrolytic cell from a galvanic cell.\n- Explain why an electrolytic cell requires an external power source and how electrode polarity flips.\n- Predict the products of electrolysis for molten salts and aqueous solutions.\n- State that the anode is still the site of oxidation and the cathode of reduction, even in electrolysis.\n\n## Core Concept\n\nAn **electrolytic cell** uses an external source of electrical energy to drive a *nonspontaneous* redox reaction — the reverse of a galvanic cell. The external supply forces electrons to move in the opposite direction, so the electrode signs are reversed (anode positive, cathode negative in electrolysis), but the *chemistry* is unchanged: oxidation still occurs at the **anode** and reduction at the **cathode**. Electrolysis decomposes compounds (molten salts to metals, water to H₂ and O₂) and is the industrial basis of aluminum, chlorine, and electroplating.\n\n## Key Ideas\n\n- **Nonspontaneous, powered.** The cell reaction has ΔG > 0 (E°cell < 0); the external supply overcomes it.\n- **Signs flip, roles don't.** In an electrolytic cell the anode is the positive electrode and the cathode negative, but oxidation is still at the anode and reduction at the cathode.\n- **Electrons pumped backward.** The external source pushes electrons onto the cathode (reduction) and pulls them from the anode (oxidation).\n- **Molten salts give the elements.** Electrolysis of molten NaCl yields Na metal and Cl₂ gas.\n- **Aqueous solutions compete with water.** In water, H₂O can be reduced (to H₂ + OH⁻) or oxidized (to O₂ + H⁺) instead of, or in competition with, the solute ions.\n\n## Equations and Variables\n\n| Term | Meaning |\n|---|---|\n| Anode | Electrode where oxidation occurs (positive in electrolysis) |\n| Cathode | Electrode where reduction occurs (negative in electrolysis) |\n| E_ext | Externally applied voltage (must exceed the cell's back-voltage) |\n| ΔG | Free-energy change (positive for the nonspontaneous cell reaction) |\n\n## How It Works\n\n1. An external power supply is connected to two electrodes immersed in an electrolyte (molten salt or solution).\n2. The supply's negative terminal feeds electrons to the cathode, where cations are *reduced*.\n3. The supply's positive terminal draws electrons from the anode, where anions (or the solvent) are *oxidized*.\n4. The applied voltage must exceed the spontaneous back-voltage (plus any overpotential) for current to flow.\n5. The result is a net nonspontaneous decomposition driven by electrical work.\n\n## Worked Example\n\n**Predict the products of electrolysis of molten NaCl, and label the electrodes.**\n\nMolten NaCl contains Na⁺ and Cl⁻ (no water to compete).\n\n- **Cathode (reduction):** Na⁺ + e⁻ → Na(l) — sodium metal forms.\n- **Anode (oxidation):** 2 Cl⁻ → Cl₂(g) + 2 e⁻ — chlorine gas forms.\n- **Net:** 2 NaCl(l) → 2 Na(l) + Cl₂(g).\n\nFor **aqueous** NaCl, water competes: at the cathode, water is more easily reduced than Na⁺, so 2 H₂O + 2 e⁻ → H₂ + 2 OH⁻ (hydrogen, not sodium); at the anode, 2 Cl⁻ → Cl₂ + 2 e⁻ (chlorine). So aqueous NaCl electrolysis gives H₂ and Cl₂ (with NaOH left in solution), not sodium metal.\n\n## Why It Matters\n\nElectrolysis is how we obtain reactive metals that cannot be won by ordinary chemical reduction — aluminum (Hall–Héroult), sodium, magnesium — and how we make chlorine, lye, and hydrogen fuel from water. It powers electroplating, electrorefining of copper, and rechargeable batteries (charging is electrolysis). It is also the process behind green-hydrogen production for renewable energy storage.\n\n## High-Yield Facts\n\n- Electrolytic cell runs a **nonspontaneous** reaction (ΔG > 0, E°cell < 0) using external power.\n- Anode = oxidation and cathode = reduction in *both* cell types.\n- Electrode polarity **flips** in electrolysis: anode is positive (+), cathode negative (−).\n- Molten NaCl electrolysis → Na metal (cathode) + Cl₂ gas (anode).\n- Aqueous NaCl electrolysis → H₂ (cathode) + Cl₂ (anode), because water is reduced instead of Na⁺.\n- Minimum applied voltage must exceed the spontaneous back-voltage (plus overpotentials).\n\n## Eli Explains\n\nA galvanic cell is a battery that runs \"downhill\" and gives you electricity. An electrolytic cell is the same hill, walked *up* — you plug in power to shove the reaction backward. The chemistry doesn't change its habits: the anode always does oxidation (losing electrons) and the cathode always does reduction (gaining them) — only the wiring is reversed, so the \"+\" and \"−\" labels trade places. Think of a water pump forcing water uphill: same water, opposite direction, needs external energy. (The limit: real electrolysis also wastes some energy as heat and may need extra \"overpotential\" beyond the ideal voltage to get going.)\n\n## Common Confusions\n\n- **\"In an electrolytic cell the anode does reduction.\"** — Wrong. Anode = oxidation and cathode = reduction in every cell, galvanic or electrolytic.\n- **\"The anode is always negative.\"** — Wrong. In electrolysis the anode is *positive* (connected to the supply's + terminal); only in a galvanic cell is the anode negative.\n- **\"Electrolyzing aqueous NaCl gives sodium metal.\"** — Wrong. Water is reduced to H₂ instead; sodium metal requires molten NaCl (no water).\n- **\"No voltage is needed if the reaction is spontaneous.\"** — Then it wouldn't be electrolysis; electrolysis is for *nonspontaneous* reactions, so external voltage is required.\n- **\"The cathode and anode trade which reaction they host.\"** — Wrong. They trade electrical *sign*, not their chemical roles.\n\n## Quick Review\n\n- Electrolytic cell: nonspontaneous reaction driven by external electricity.\n- Anode = oxidation (+), cathode = reduction (−) — signs reversed vs. galvanic.\n- Molten salt → elements; aqueous → water may compete.\n- Aqueous NaCl → H₂ + Cl₂ (not Na).\n- Applied voltage must exceed the back-voltage.\n\n## Sources\n\n- OpenStax, *Chemistry 2e*, Ch. 17.7 \"Electrolysis.\" https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis\n- OpenStax, *Chemistry 2e*, Ch. 17.2 \"Galvanic Cells.\" https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n"
+}

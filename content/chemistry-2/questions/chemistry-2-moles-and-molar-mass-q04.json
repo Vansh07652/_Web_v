@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-moles-and-molar-mass-q04",
+  "subject": "chemistry-2",
+  "lesson": "moles-and-molar-mass",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Two beakers each hold 100 g of solid: one holds glucose (180.16 g/mol) and the other holds water ice (18.02 g/mol). Which comparison of the two samples is accurate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The two samples hold equal numbers of moles, since their masses are equal"
+    },
+    {
+      "id": "b",
+      "text": "The glucose sample holds about 10 times more moles, since its molar mass is larger"
+    },
+    {
+      "id": "c",
+      "text": "The two samples hold equal numbers of molecules, since molar mass affects only the mass"
+    },
+    {
+      "id": "d",
+      "text": "The water sample holds about 10 times more moles, since its molar mass is about 10 times smaller"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Moles equal mass divided by molar mass, so at fixed mass the mole count is inversely proportional to molar mass. Since 180.16 / 18.02 is about 9.998, the same 100 g yields roughly ten times as many moles of water as of glucose (about 5.55 mol versus 0.555 mol). Equal masses therefore do not imply equal mole counts or equal particle counts, which is precisely why chemists convert to moles before comparing amounts or setting up reactions.\n\nELI-10: Picture 100 grams of marbles beside 100 grams of bowling balls. The scale reads the same, but you have far more marbles because each one is light. A water molecule is the marble here at 18.02 g per mole, and a glucose molecule is the bowling ball at 180.16 g per mole, roughly ten times heavier. So the same 100 g gives you about ten times as many water molecules. Heavier particles means fewer of them in every gram.",
+  "difficulty": "medium",
+  "tags": [
+    "inverse relationship of mass and molar mass",
+    "mole comparison",
+    "particle counting"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-277",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

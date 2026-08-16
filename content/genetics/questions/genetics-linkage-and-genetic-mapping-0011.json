@@ -1,0 +1,38 @@
+{
+  "id": "genetics-linkage-and-genetic-mapping-0011",
+  "subject": "genetics",
+  "lesson": "linkage-and-genetic-mapping",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept In a three point cross, fewer double crossovers are observed than expected from the product of the two single crossover frequencies. Which term best describes this outcome, and how is it measured?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Negative interference, measured as I = 1 - CoC, with I less than 0."
+    },
+    {
+      "id": "b",
+      "text": "Positive interference, measured as I = 1 - CoC, with I greater than 0."
+    },
+    {
+      "id": "c",
+      "text": "Linkage disequilibrium, measured as I = 1 - CoC."
+    },
+    {
+      "id": "d",
+      "text": "Positive interference, measured as I = CoC - 1."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Fewer double crossovers than expected gives CoC = observed DCO / expected DCO less than 1, so I = 1 - CoC is greater than 0, which is positive interference. A describes negative interference, which requires CoC greater than 1 and I less than 0, the opposite of the observed data. D uses the reversed formula, which would give a negative I here, and C mistakes a cross based quantity for linkage disequilibrium, a population level association.",
+  "difficulty": "unknown",
+  "tags": [
+    "interference",
+    "definition"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-6f4c5593d895eb88",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

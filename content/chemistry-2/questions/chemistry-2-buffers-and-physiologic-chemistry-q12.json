@@ -1,0 +1,40 @@
+{
+  "id": "chemistry-2-buffers-and-physiologic-chemistry-q12",
+  "subject": "chemistry-2",
+  "lesson": "buffers-and-physiologic-chemistry",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In a hypothetical teaching case, prolonged loss of gastric hydrochloric acid leaves bicarbonate at 36 mmol/L and PaCO2 at 48 mm Hg. Using dissolved CO2 = 0.03 x PaCO2, pH = 6.1 + log([HCO3-]/[CO2]), and log 25 = 1.4, what are the calculated pH and the interpretation?",
+  "options": [
+    {
+      "id": "a",
+      "text": "About 7.5, indicating metabolic alkalosis with respiratory compensation"
+    },
+    {
+      "id": "b",
+      "text": "About 7.5, indicating respiratory alkalosis with renal compensation"
+    },
+    {
+      "id": "c",
+      "text": "About 7.3, indicating metabolic acidosis with respiratory compensation"
+    },
+    {
+      "id": "d",
+      "text": "About 7.3, indicating respiratory acidosis with renal compensation"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Dissolved CO2 equals 0.03 multiplied by 48, or 1.44 mmol/L, so the ratio is 36 divided by 1.44, which is 25; adding log 25, about 1.4, to the pKa of 6.1 gives a pH near 7.5. Losing hydrochloric acid strips H+ from the body and leaves bicarbonate in excess, so the primary disorder is metabolic alkalosis, identified by the high bicarbonate accompanying an alkalemic pH. The elevated PaCO2 is compensatory hypoventilation retaining acidic CO2, which blunts the alkalemia without normalizing the pH; a primary respiratory alkalosis would instead show a low PaCO2.\n\nELI-10: Vomiting stomach acid is like pouring acid down the drain, and what remains in the blood is left too basic. First put both numbers in the same units: 0.03 times 48 gives 1.44 mmol/L of dissolved CO2. Now compare: 36 to 1.44 is a ratio of 25, higher than the usual 20, so the base side is winning. Log 25 is about 1.4, so 6.1 + 1.4 = 7.5. The body answers by breathing more slowly to hold acidic CO2 in, which is exactly why the PaCO2 drifted up to 48 instead of down.",
+  "difficulty": "hard",
+  "tags": [
+    "metabolic alkalosis",
+    "dissolved CO2 conversion",
+    "Henderson-Hasselbalch",
+    "compensation"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-280",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

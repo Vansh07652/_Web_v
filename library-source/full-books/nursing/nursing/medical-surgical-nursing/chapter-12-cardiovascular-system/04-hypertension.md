@@ -1,0 +1,136 @@
+---
+title: "Hypertension"
+subject: "Nursing"
+book: "Medical-Surgical Nursing"
+chapter: "12: Cardiovascular System"
+topic_number: "4"
+source: "medical-surgical-nursing.md"
+tags:
+  - "hypertension"
+  - "nursing"
+status: "complete"
+---
+
+# Hypertension
+
+> **Book:** [Medical-Surgical Nursing](../../README.md)  
+> **Chapter:** [Chapter 12: Cardiovascular System](../README.md)  
+> **Topic:** 4  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Hypertension is a sustained elevation of arterial blood pressure. It is not a single "high number" but a condition in which the pressure the blood exerts against the walls of the arteries stays above the range considered healthy over time. Blood pressure is the product of two forces: **cardiac output** (how much blood the heart pumps per minute) and **systemic vascular resistance** (how much the small arteries resist that flow). Anything that raises either one — faster or stronger pumping, narrowed or stiff arteries, extra fluid volume — pushes the numbers up.
+
+The condition comes in two broad forms. **Primary (essential) hypertension** develops gradually over years with no single identifiable cause; it accounts for the large majority of cases and reflects a combination of genetics, age, diet, body weight, activity level, and stress. **Secondary hypertension** is high blood pressure caused by another condition, such as kidney disease, narrowing of the renal arteries, certain hormonal disorders, or medication side effects — and treating the underlying cause can resolve it. Because most people feel completely well for years, hypertension earned its nickname "the silent killer": the damage happens quietly until a stroke, heart attack, or kidney failure announces it.
+
+## Why This Matters
+
+Hypertension is the most common chronic condition seen in adult primary care and one of the most powerful modifiable risk factors for cardiovascular disease worldwide. It damages the heart, brain, kidneys, and eyes — the "target organs" — and is a leading contributor to stroke, myocardial infarction, heart failure, and chronic kidney disease. For nurses, this topic matters twice over. First, nurses are often the people who measure blood pressure first and most often; a nurse who measures correctly and reports thoughtfully can change a person's entire health trajectory. Second, much of hypertension management happens outside the hospital — through daily medication taking, diet, exercise, and self-monitoring — so patient teaching is not a side task but the core intervention. Understanding the physiology behind the numbers lets a nurse explain *why* the prescription, the salt restriction, and the follow-up visits all matter, which is what actually drives adherence.
+
+## Core Concepts
+
+### What the two numbers mean
+
+The top number, systolic pressure, is the peak pressure during ventricular contraction (when the heart squeezes). The bottom number, diastolic pressure, is the lowest pressure while the heart relaxes and refills. Both matter: systolic pressure rises with age as arteries stiffen, and in older adults it is often the more important predictor of risk. Classification thresholds for "elevated," "stage 1," and "stage 2" hypertension vary between guideline bodies (for example, commonly cited cutoffs of 130/80 versus 140/90 mm Hg), so nurses should learn the classification used by their institution and current national guidelines rather than memorizing a single number.
+
+### The body's pressure-control systems
+
+Pressure is not a passive number — it is actively regulated minute by minute. **Baroreceptors** in the carotid arteries and aorta sense stretch and trigger rapid adjustments in heart rate and vessel tone. The **renin-angiotensin-aldosterone system (RAAS)** responds over hours to days: when the kidneys sense low pressure or low sodium delivery, renin starts a cascade that produces angiotensin II (a powerful vasoconstrictor) and aldosterone (which makes the kidneys hold onto sodium and water). The kidneys ultimately set long-term pressure by controlling blood volume. In primary hypertension, these systems become set to a higher level, and the body actively *defends* the higher pressure — which is why lifestyle and medications must work together to reset it.
+
+### How hypertension damages organs
+
+Sustained pressure injures the delicate lining of arteries (the endothelium), making them stiff, thickened, and prone to atherosclerosis. In the **heart**, the left ventricle must pump against higher resistance and hypertrophies; this increases the risk of heart failure and coronary disease. In the **brain**, damaged vessels raise the risk of both ischemic stroke and hemorrhage. In the **kidneys**, narrowed glomerular vessels reduce filtration, and kidney damage in turn worsens hypertension — a vicious cycle. In the **eyes**, hypertensive retinopathy can be seen on fundoscopy as narrowed, "silver-wired" arterioles, hemorrhages, and exudates. These organ changes are why the same blood pressure number can mean very different things to different people.
+
+### Measuring blood pressure correctly
+
+The single most important nursing skill in this topic is measurement technique, because errors change care. The person should be seated quietly for several minutes first, feet flat, with the arm supported at heart level. The cuff must be the right size — a cuff that is too small falsely raises readings, a common error in people with larger arms. The nurse should take more than one reading and consider readings from both arms on the first visit. Because "white coat" anxiety can raise pressure in the office and masked hypertension can hide it, home monitoring is often used to see the true pattern. A single high reading is *not* a diagnosis of hypertension; diagnosis is based on multiple elevated readings over time.
+
+### Hypertensive crisis
+
+When blood pressure climbs very high and is accompanied by acute target-organ damage — such as chest pain, shortness of breath, neurologic changes, or visual disturbance — the situation is a hypertensive emergency requiring urgent treatment. The nurse's job in this situation is rapid, systematic assessment, prompt reporting, and careful monitoring, because the specific drugs and targets are determined by the care team and institutional protocols, not by the bedside nurse. Educational point: it is the *presence of organ damage*, not the number alone, that defines a crisis.
+
+### Primary versus secondary: thinking like a detective
+
+When a younger person, or someone who responded well to treatment before, develops high blood pressure suddenly, the nurse should wonder about secondary causes — kidney disease, renal artery stenosis, endocrine disorders, or medications such as corticosteroids, decongestants, and some oral contraceptives. Asking "when did this start and what changed?" is a nursing assessment that can redirect the whole workup.
+
+## ELI-10: Explain Like I'm 10
+
+Blood pressure is like the water pressure in a garden hose. If the pump pushes harder, or the hose gets narrower or stiffer, the pressure inside goes up. High blood pressure means the pressure inside your "hoses" (arteries) stays too high for too long, which wears them out quietly — like water slowly damaging a hose from the inside — even though you can't feel it happening.
+
+## High-Yield Points
+
+- Blood pressure = cardiac output × systemic vascular resistance; both are treatment targets.
+- Primary (essential) hypertension has no single cause; secondary hypertension is caused by another condition and may resolve when that condition is treated.
+- It is usually asymptomatic — "the silent killer" — and is diagnosed from multiple elevated readings over time, not one office visit.
+- Target organs: heart (LV hypertrophy, heart failure, coronary disease), brain (stroke), kidneys (nephrosclerosis), eyes (retinopathy).
+- Correct cuff size, position, rest, and repeated readings are nursing essentials; a small cuff inflates readings.
+- Hypertensive emergency is defined by acute organ damage with very high pressure, not by the number alone.
+- Teaching adherence (medication, low-sodium eating, activity, home monitoring) is a core nursing intervention; follow-up matters because blood pressure is chronic.
+- Classification cutoffs vary by guideline (e.g., 130/80 vs 140/90) — use the current guideline and institutional policy.
+- *Scope note:* diagnosis and medication decisions belong to the provider; the nurse's role is accurate measurement, assessment, documentation, reporting, and teaching.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Systolic pressure | Peak arterial pressure while the heart contracts | The top number; increasingly important with age as arteries stiffen |
+| Diastolic pressure | Lowest arterial pressure while the heart relaxes and refills | The bottom number; reflects resting resistance in the arteries |
+| Cardiac output | Amount of blood the heart pumps per minute (heart rate × stroke volume) | One of the two forces that determine blood pressure |
+| Systemic vascular resistance | Total resistance to blood flow in the small arteries | The other force; narrowing or stiffening raises it |
+| RAAS | Renin-angiotensin-aldosterone system: a hormonal cascade controlling vessel tone and fluid volume | Central regulator of long-term pressure; target of many drug classes |
+| Primary hypertension | High blood pressure with no identifiable single cause | The common form; managed long-term with lifestyle and medication |
+| Secondary hypertension | High blood pressure caused by another disease or drug | Finding the cause can cure it — assessment matters |
+| Target organ damage | Injury to heart, brain, kidneys, or eyes from sustained high pressure | Explains why untreated hypertension is dangerous even when it feels mild |
+| Hypertensive emergency | Very high pressure with acute organ damage (chest pain, dyspnea, neuro changes) | A time-critical situation requiring urgent care and close monitoring |
+
+## Example / Clinical Scenario
+
+Mr. Chen, 54, is in the clinic for a routine physical. The nurse's first reading is 172/98 mm Hg. Mr. Chen says he feels fine and "doesn't want pills for a number." The nurse's response shows the nursing thought process in action: she confirms the reading with correct technique — right cuff size, five minutes of quiet sitting, feet flat, arm at heart level — and repeats it; the second reading is 168/96. Rather than labeling him hypertensive from one visit, she documents both readings, asks about family history, kidney problems, and current medications, and reports the findings so the provider can order appropriate follow-up. She also teaches: hypertension usually causes no symptoms, the goal is to prevent stroke and heart attack years from now, and lifestyle changes plus medication work together. She schedules a home-monitoring teaching session. What she does *not* do is diagnose, prescribe, or decide a target — those belong to the provider. Her accurate measurement and honest explanation are what turn a "fine" person into someone who returns for follow-up.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| One high office reading | Hypertension (a diagnosis) | Diagnosis requires multiple elevated readings over time; anxiety ("white coat") and technique affect single readings |
+| Hypertension | Hypotension | Hypertension is high pressure; hypotension is abnormally low pressure with symptoms like dizziness and fainting |
+| "No symptoms" | "No problem" | Hypertension is silent while it damages organs; absence of symptoms proves nothing |
+| Systolic pressure | Diastolic pressure | Systolic = contraction peak; diastolic = relaxation trough; systolic matters most in older adults |
+| Hypertensive urgency | Hypertensive emergency | Emergency includes acute organ damage and is time-critical; urgency alone is not defined by any single number |
+| Secondary hypertension | Primary hypertension | Secondary has an identifiable underlying cause (kidney disease, drugs, hormones); primary does not |
+
+## Quick Review
+
+1. What two forces determine arterial blood pressure, and what does each one represent?
+2. Why is hypertension called "the silent killer," and which organs does it damage?
+3. List three components of correct blood-pressure measurement technique.
+4. What is the difference between primary and secondary hypertension?
+5. A patient's pressure is very high but the patient has no symptoms. Does that mean there is no emergency? Explain.
+6. Why is a single elevated clinic reading not enough to diagnose hypertension?
+
+<details>
+<summary>Show answers</summary>
+
+1. Cardiac output (blood pumped per minute) and systemic vascular resistance (resistance in the small arteries). Pressure rises when either increases.
+2. It usually causes no symptoms for years while it silently injures the heart (LV hypertrophy, heart failure), brain (stroke), kidneys (kidney disease), and eyes (retinopathy).
+3. Correct cuff size, quiet rest before the reading, proper position (feet flat, arm at heart level), and more than one reading.
+4. Primary (essential) hypertension has no identifiable single cause; secondary hypertension results from another condition or medication and may resolve when the cause is treated.
+5. No — emergency is defined by acute target-organ damage (chest pain, dyspnea, neurologic changes), not by the number alone. A very high number with no symptoms still needs follow-up and monitoring, but the classification and treatment plan belong to the provider.
+6. Blood pressure fluctuates with activity, stress, and technique; diagnosis is based on multiple elevated readings over time, often including home monitoring.
+</details>
+
+## Related Topics
+
+- Previous: [Heart Failure](03-heart-failure.md)
+- Next: [Myocardial Infarction](05-myocardial-infarction.md)
+- Related: [Vascular Disorders](06-vascular-disorders.md) · [Peripheral Vascular Disease](07-peripheral-vascular-disease.md) · [Cardiovascular Overview](01-cardiovascular-overview.md)
+- Chapter: [Cardiovascular System chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Medical-Surgical Nursing
+- Local outline source: `medical-surgical-nursing.md`
+- Official source URL: https://openstax.org/details/books/medical-surgical-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: educational draft only — classification thresholds and management decisions vary by guideline and institution; no doses or treatment recommendations are given here.
+- Last updated: 2026-08-15

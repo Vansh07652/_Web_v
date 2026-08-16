@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cytoskeleton-motility:muscle-contraction",
+  "slug": "muscle-contraction",
+  "title": "Muscle Contraction: The Sliding Filament Mechanism",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cytoskeleton-motility",
+    "slug": "cytoskeleton-motility",
+    "title": "Cytoskeleton Motility",
+    "order": 5
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "Skeletal muscle contracts by the **sliding filament mechanism**: myosin II heads pull actin thin filaments toward the center of the sarcomere, so the actin and myosin filaments slide past one another and the sarcomere shortens — the filaments themselves do not change length. Contraction is switched on by Ca²⁺, which binds troponin and moves tropomyosin off the myosin-binding sites on actin. Both the power stroke and the detachment of myosin heads require ATP, which is why ATP depletion produces rigor mortis (permanently attached heads).",
+    "whyItMatters": "Muscle contraction underlies locomotion, breathing, circulation, and posture. Its failure causes disease: muscular dystrophies (structural defects), myasthenia gravis (impaired neuromuscular transmission), malignant hyperthermia (ryanodine receptor over-release of Ca²⁺), and cardiomyopathies (myosin mutations). The sliding-filament and Ca²⁺-regulation framework is the basis for understanding cardiac and smooth-muscle pharmacology and muscle physiology in general.",
+    "learningObjectives": "- Describe sarcomere structure and the arrangement of actin and myosin filaments.\n- Explain the cross-bridge cycle and the sliding filament mechanism.\n- Explain the role of Ca²⁺, troponin, and tropomyosin in regulation.\n- Clarify that filaments slide and do not shorten, and that ATP is required for both contraction and relaxation.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nSkeletal muscle contracts by the **sliding filament mechanism**: myosin II heads pull actin thin filaments toward the center of the sarcomere, so the actin and myosin filaments slide past one another and the sarcomere shortens — the filaments themselves do not change length. Contraction is switched on by Ca²⁺, which binds troponin and moves tropomyosin off the myosin-binding sites on actin. Both the power stroke and the detachment of myosin heads require ATP, which is why ATP depletion produces rigor mortis (permanently attached heads).\n\n### Key Components\n\n- **Sarcomere:** the repeating contractile unit between two Z-lines.\n- **Thin filaments:** actin plus the regulatory proteins **tropomyosin** (blocks myosin-binding sites) and **troponin** (Ca²⁺ sensor: TnC, TnI, TnT).\n- **Thick filaments:** bipolar bundles of **myosin II** with protruding heads.\n- **Z-line (Z-disc):** anchors the thin filaments; **M-line:** anchors thick filaments.\n- **A-band:** length of the thick filament (constant during contraction); **I-band:** thin-filament-only region (shortens); **H-zone:** thick-filament-only region (shortens).\n- **Sarcoplasmic reticulum (SR):** stores Ca²⁺; **T-tubules** conduct the action potential inward.\n- **DHP receptor / ryanodine receptor:** couple membrane depolarization to SR Ca²⁺ release (excitation–contraction coupling).\n\n### Mechanism / How It Works\n\n1. **Excitation:** a motor-neuron action potential depolarizes the muscle membrane and propagates down T-tubules.\n2. **Ca²⁺ release:** the voltage-sensitive DHP receptor triggers the ryanodine receptor to open, releasing Ca²⁺ from the sarcoplasmic reticulum into the cytosol.\n3. **Activation:** Ca²⁺ binds **troponin C**, causing a conformational change that moves **tropomyosin** off the myosin-binding sites on actin.\n4. **Cross-bridge cycle:** myosin heads bind actin, undergo the power stroke (released on Pi), pulling thin filaments toward the M-line, and detach when a fresh ATP binds.\n5. **Shortening:** repeated cycles slide thin filaments past thick filaments, shortening the sarcomere (I-band and H-zone shrink; A-band is unchanged).\n6. **Relaxation:** when stimulation stops, Ca²⁺-ATPase pumps (SERCA) return Ca²⁺ to the SR, tropomyosin re-covers the binding sites, and cross-bridges detach.\n\n### Energy and Directionality\n\nContraction is powered by ATP: one ATP per cross-bridge cycle (hydrolysis cocks the head; Pi release drives the stroke), and additional ATP is spent by SERCA to re-sequester Ca²⁺ for relaxation. The direction of force is toward the sarcomere center because thick filaments are bipolar — heads at each end pull the oppositely oriented thin filaments inward. Rigor mortis illustrates both ATP roles: without ATP, heads cannot detach (rigor) and Ca²⁺ cannot be pumped back (so the muscle stiffens after death).\n\n### Experimental Evidence / Technique\n\n- **Huxley and Niedergerke / Huxley and Hanson (1954):** interference microscopy showed the A-band stays constant while the I-band shortens during contraction — direct evidence for the sliding filament model (which replaced the \"filament folding\" idea).\n- **X-ray diffraction:** revealed cross-bridge movement and the repeating helical arrangement of myosin heads during contraction.\n- **Glycerinated/skinned fiber experiments:** permeabilized fibers contract when given ATP and Ca²⁺, and relax when Ca²⁺ is removed — dissecting the minimal requirements.\n- **Optical tweezers and in vitro motility:** measured single myosin power-stroke size and force.\n- **Caged ATP / caged Ca²⁺:** flash photolysis triggered contraction or relaxation with millisecond resolution, correlating biochemistry with mechanics.",
+    "howItWorks": "1. **Excitation:** a motor-neuron action potential depolarizes the muscle membrane and propagates down T-tubules.\n2. **Ca²⁺ release:** the voltage-sensitive DHP receptor triggers the ryanodine receptor to open, releasing Ca²⁺ from the sarcoplasmic reticulum into the cytosol.\n3. **Activation:** Ca²⁺ binds **troponin C**, causing a conformational change that moves **tropomyosin** off the myosin-binding sites on actin.\n4. **Cross-bridge cycle:** myosin heads bind actin, undergo the power stroke (released on Pi), pulling thin filaments toward the M-line, and detach when a fresh ATP binds.\n5. **Shortening:** repeated cycles slide thin filaments past thick filaments, shortening the sarcomere (I-band and H-zone shrink; A-band is unchanged).\n6. **Relaxation:** when stimulation stops, Ca²⁺-ATPase pumps (SERCA) return Ca²⁺ to the SR, tropomyosin re-covers the binding sites, and cross-bridges detach.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Contraction = **filaments slide, they do NOT shorten** (the actin and myosin filaments keep a constant length).\n- Sarcomere: **Z-line to Z-line**; I-band and H-zone shorten, **A-band stays constant**.\n- **Ca²⁺ binds troponin C → moves tropomyosin → exposes myosin-binding sites on actin.**\n- One **ATP per cross-bridge cycle**; ATP is needed for the **power stroke AND detachment**.\n- **SERCA** pumps Ca²⁺ back into the SR using ATP → relaxation.\n- Excitation–contraction coupling: **DHP receptor (voltage) → ryanodine receptor (SR Ca²⁺ release)**.\n- **Rigor mortis** = no ATP → heads cannot detach.\n- Thin = actin + tropomyosin + troponin; thick = myosin II.",
+    "commonConfusions": "- **\"Filaments shorten during contraction.\"** They **slide**; the actin and myosin filaments themselves keep a constant length — only the sarcomere shortens.\n- **\"ATP is only needed to contract.\"** ATP is also required for **relaxation** (detachment and Ca²⁺ reuptake); rigor mortis is caused by lack of ATP.\n- **\"Ca²⁺ binds myosin directly.\"** Ca²⁺ binds **troponin C**, which moves tropomyosin; myosin's target is actin.\n- **\"The A-band shortens.\"** The A-band (thick filament length) is constant; the I-band and H-zone shorten.\n- **\"Muscle contraction requires one ATP total.\"** It requires one ATP per cross-bridge cycle, continuously, for as long as contraction lasts.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine two rows of interlocked fingers being pulled together. The fingers (cross-bridges) grab, pull, let go, reach forward, and grab again, so the two hands slide past each other and the whole thing shortens — but no finger ever gets shorter. A small switch (tropomyosin) normally blocks the grabbing spots; calcium moves the switch, and each grab costs one ATP coin. If the coins run out, the fingers stay locked in a fist — that's rigor mortis. (The analogy omits the exact lever-arm chemistry and the separate ATP pump that stores calcium back away.)",
+    "quickReview": "- Sliding filament: myosin pulls actin inward; sarcomere shortens, filaments don't.\n- Ca²⁺ → troponin → tropomyosin shift → cross-bridge cycling.\n- ATP: powers the stroke and detachment; SERCA re-sequesters Ca²⁺.\n- Excitation–contraction coupling via DHP and ryanodine receptors.\n- Rigor mortis = ATP depletion → locked cross-bridges.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, Johnson A, Lewis J, et al. \"Molecular Motors.\" *Molecular Biology of the Cell.* 4th edition. Garland Science; 2002. https://www.ncbi.nlm.nih.gov/books/NBK26888/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26888/"
+      },
+      {
+        "text": "Cooper GM. \"Actin, Myosin, and Cell Movement.\" *The Cell: A Molecular Approach.* 2nd edition. Sinauer Associates; 2000. https://www.ncbi.nlm.nih.gov/books/NBK9961/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9961/"
+      },
+      {
+        "text": "Clark MA, Choi J, Douglas M. \"4.5 The Cytoskeleton.\" *Biology 2e.* OpenStax. https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+        "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/05-cytoskeleton-motility/05-muscle-contraction.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

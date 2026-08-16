@@ -1,0 +1,2329 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:mcat-foundations",
+    "slug": "mcat-foundations",
+    "title": "MCAT Foundations",
+    "category": "pre-health-core",
+    "status": "final",
+    "summary": "One self-contained page for every topic on the AAMC content outline: nine subjects, each topic taught once at college level and once in plain language, with its sources listed."
+  },
+  "statistics": {
+    "unitCount": 9,
+    "topicCount": 124,
+    "teachingTopicCount": 124,
+    "eli10TopicCount": 124,
+    "highYieldTopicCount": 0,
+    "referencedTopicCount": 124,
+    "exactOrMappedQuestionCount": 0,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 0,
+    "citationReviewRequiredCount": 0
+  },
+  "units": [
+    {
+      "id": "unit:mcat-foundations:biology",
+      "slug": "biology",
+      "title": "Biology",
+      "order": 1,
+      "topics": [
+        {
+          "id": "topic:mcat-foundations:biology:foundations-of-cell-biology",
+          "slug": "foundations-of-cell-biology",
+          "title": "Foundations of Cell Biology",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/foundations-of-cell-biology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:cell-membranes-and-transport",
+          "slug": "cell-membranes-and-transport",
+          "title": "Cell Membranes and Transport",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/cell-membranes-and-transport.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:organelles-and-cellular-trafficking",
+          "slug": "organelles-and-cellular-trafficking",
+          "title": "Organelles and Cellular Trafficking",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/organelles-and-cellular-trafficking.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:cytoskeleton-cell-junctions-and-motility",
+          "slug": "cytoskeleton-cell-junctions-and-motility",
+          "title": "Cytoskeleton, Cell Junctions, and Motility",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/cytoskeleton-cell-junctions-and-motility.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:cell-signaling-and-communication",
+          "slug": "cell-signaling-and-communication",
+          "title": "Cell Signaling and Communication",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/cell-signaling-and-communication.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:cell-cycle-mitosis-and-cancer",
+          "slug": "cell-cycle-mitosis-and-cancer",
+          "title": "Cell Cycle, Mitosis, and Cancer",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/cell-cycle-mitosis-and-cancer.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:meiosis-and-sexual-reproduction",
+          "slug": "meiosis-and-sexual-reproduction",
+          "title": "Meiosis and Sexual Reproduction",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/meiosis-and-sexual-reproduction.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:dna-structure-and-replication",
+          "slug": "dna-structure-and-replication",
+          "title": "DNA Structure and Replication",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/dna-structure-and-replication.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:gene-expression-transcription-and-rna-processing",
+          "slug": "gene-expression-transcription-and-rna-processing",
+          "title": "Gene Expression: Transcription and RNA Processing",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/gene-expression-transcription-and-rna-processing.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:translation-and-protein-processing",
+          "slug": "translation-and-protein-processing",
+          "title": "Translation and Protein Processing",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/translation-and-protein-processing.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:gene-regulation-and-epigenetics",
+          "slug": "gene-regulation-and-epigenetics",
+          "title": "Gene Regulation and Epigenetics",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/gene-regulation-and-epigenetics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:classical-and-population-genetics",
+          "slug": "classical-and-population-genetics",
+          "title": "Classical and Population Genetics",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/classical-and-population-genetics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:biotechnology-and-molecular-methods",
+          "slug": "biotechnology-and-molecular-methods",
+          "title": "Biotechnology and Molecular Methods",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/biotechnology-and-molecular-methods.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:evolution-and-natural-selection",
+          "slug": "evolution-and-natural-selection",
+          "title": "Evolution and Natural Selection",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/evolution-and-natural-selection.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:ecology-and-population-dynamics",
+          "slug": "ecology-and-population-dynamics",
+          "title": "Ecology and Population Dynamics",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/ecology-and-population-dynamics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:embryology-and-development",
+          "slug": "embryology-and-development",
+          "title": "Embryology and Development",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/embryology-and-development.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:nervous-system",
+          "slug": "nervous-system",
+          "title": "Nervous System",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/nervous-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:endocrine-system",
+          "slug": "endocrine-system",
+          "title": "Endocrine System",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/endocrine-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:musculoskeletal-system",
+          "slug": "musculoskeletal-system",
+          "title": "Musculoskeletal System",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/musculoskeletal-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:cardiovascular-system",
+          "slug": "cardiovascular-system",
+          "title": "Cardiovascular System",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/cardiovascular-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:respiratory-system",
+          "slug": "respiratory-system",
+          "title": "Respiratory System",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/respiratory-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:renal-system-and-fluid-balance",
+          "slug": "renal-system-and-fluid-balance",
+          "title": "Renal System and Fluid Balance",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/renal-system-and-fluid-balance.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:digestive-system-and-nutrition",
+          "slug": "digestive-system-and-nutrition",
+          "title": "Digestive System and Nutrition",
+          "order": 23,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/digestive-system-and-nutrition.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:immune-system",
+          "slug": "immune-system",
+          "title": "Immune System",
+          "order": 24,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/immune-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:reproductive-system",
+          "slug": "reproductive-system",
+          "title": "Reproductive System",
+          "order": 25,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/reproductive-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biology:integumentary-system-and-homeostasis",
+          "slug": "integumentary-system-and-homeostasis",
+          "title": "Integumentary System and Homeostasis",
+          "order": 26,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biology/integumentary-system-and-homeostasis.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:mcat-foundations:biochemistry",
+      "slug": "biochemistry",
+      "title": "Biochemistry",
+      "order": 2,
+      "topics": [
+        {
+          "id": "topic:mcat-foundations:biochemistry:amino-acids",
+          "slug": "amino-acids",
+          "title": "Amino Acids",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biochemistry/amino-acids.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biochemistry:protein-structure-and-function",
+          "slug": "protein-structure-and-function",
+          "title": "Protein Structure and Function",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biochemistry/protein-structure-and-function.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biochemistry:enzymes-and-enzyme-kinetics",
+          "slug": "enzymes-and-enzyme-kinetics",
+          "title": "Enzymes and Enzyme Kinetics",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biochemistry/enzymes-and-enzyme-kinetics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biochemistry:carbohydrates",
+          "slug": "carbohydrates",
+          "title": "Carbohydrates",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biochemistry/carbohydrates.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biochemistry:lipids-and-biological-membranes",
+          "slug": "lipids-and-biological-membranes",
+          "title": "Lipids and Biological Membranes",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biochemistry/lipids-and-biological-membranes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biochemistry:nucleotides-and-nucleic-acids",
+          "slug": "nucleotides-and-nucleic-acids",
+          "title": "Nucleotides and Nucleic Acids",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biochemistry/nucleotides-and-nucleic-acids.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biochemistry:bioenergetics-and-thermodynamics",
+          "slug": "bioenergetics-and-thermodynamics",
+          "title": "Bioenergetics and Thermodynamics",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biochemistry/bioenergetics-and-thermodynamics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biochemistry:glycolysis-gluconeogenesis-and-ppp",
+          "slug": "glycolysis-gluconeogenesis-and-ppp",
+          "title": "Glycolysis, Gluconeogenesis, and Pentose Phosphate Pathway",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biochemistry/glycolysis-gluconeogenesis-and-ppp.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biochemistry:tca-cycle-and-oxidative-phosphorylation",
+          "slug": "tca-cycle-and-oxidative-phosphorylation",
+          "title": "Citric Acid Cycle and Oxidative Phosphorylation",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biochemistry/tca-cycle-and-oxidative-phosphorylation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biochemistry:lipid-metabolism",
+          "slug": "lipid-metabolism",
+          "title": "Lipid Metabolism",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biochemistry/lipid-metabolism.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biochemistry:amino-acid-and-nitrogen-metabolism",
+          "slug": "amino-acid-and-nitrogen-metabolism",
+          "title": "Amino-Acid and Nitrogen Metabolism",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biochemistry/amino-acid-and-nitrogen-metabolism.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biochemistry:hormonal-metabolic-integration",
+          "slug": "hormonal-metabolic-integration",
+          "title": "Hormonal Metabolic Integration",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biochemistry/hormonal-metabolic-integration.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:biochemistry:biochemical-laboratory-techniques",
+          "slug": "biochemical-laboratory-techniques",
+          "title": "Biochemical Laboratory Techniques",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/biochemistry/biochemical-laboratory-techniques.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:mcat-foundations:general-chemistry",
+      "slug": "general-chemistry",
+      "title": "General Chemistry",
+      "order": 3,
+      "topics": [
+        {
+          "id": "topic:mcat-foundations:general-chemistry:atomic-structure-and-periodic-trends",
+          "slug": "atomic-structure-and-periodic-trends",
+          "title": "Atomic Structure and Periodic Trends",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/general-chemistry/atomic-structure-and-periodic-trends.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:general-chemistry:chemical-bonding-and-molecular-geometry",
+          "slug": "chemical-bonding-and-molecular-geometry",
+          "title": "Chemical Bonding and Molecular Geometry",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/general-chemistry/chemical-bonding-and-molecular-geometry.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:general-chemistry:stoichiometry-and-chemical-reactions",
+          "slug": "stoichiometry-and-chemical-reactions",
+          "title": "Stoichiometry and Chemical Reactions",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/general-chemistry/stoichiometry-and-chemical-reactions.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:general-chemistry:gases",
+          "slug": "gases",
+          "title": "Gases",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/general-chemistry/gases.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:general-chemistry:intermolecular-forces-and-phases",
+          "slug": "intermolecular-forces-and-phases",
+          "title": "Intermolecular Forces and Phases",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/general-chemistry/intermolecular-forces-and-phases.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:general-chemistry:solutions-and-solubility",
+          "slug": "solutions-and-solubility",
+          "title": "Solutions and Solubility",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/general-chemistry/solutions-and-solubility.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:general-chemistry:chemical-kinetics",
+          "slug": "chemical-kinetics",
+          "title": "Chemical Kinetics",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/general-chemistry/chemical-kinetics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:general-chemistry:chemical-equilibrium",
+          "slug": "chemical-equilibrium",
+          "title": "Chemical Equilibrium",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/general-chemistry/chemical-equilibrium.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:general-chemistry:acids-bases-buffers-and-titrations",
+          "slug": "acids-bases-buffers-and-titrations",
+          "title": "Acids, Bases, Buffers, and Titrations",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/general-chemistry/acids-bases-buffers-and-titrations.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:general-chemistry:thermochemistry-and-thermodynamics",
+          "slug": "thermochemistry-and-thermodynamics",
+          "title": "Thermochemistry and Thermodynamics",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/general-chemistry/thermochemistry-and-thermodynamics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:general-chemistry:oxidation-reduction-and-electrochemistry",
+          "slug": "oxidation-reduction-and-electrochemistry",
+          "title": "Oxidation-Reduction and Electrochemistry",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/general-chemistry/oxidation-reduction-and-electrochemistry.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:general-chemistry:nuclear-chemistry",
+          "slug": "nuclear-chemistry",
+          "title": "Nuclear Chemistry",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/general-chemistry/nuclear-chemistry.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:mcat-foundations:organic-chemistry",
+      "slug": "organic-chemistry",
+      "title": "Organic Chemistry",
+      "order": 4,
+      "topics": [
+        {
+          "id": "topic:mcat-foundations:organic-chemistry:organic-structure-bonding-and-nomenclature",
+          "slug": "organic-structure-bonding-and-nomenclature",
+          "title": "Organic Structure, Bonding, and Nomenclature",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/organic-chemistry/organic-structure-bonding-and-nomenclature.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:organic-chemistry:stereochemistry",
+          "slug": "stereochemistry",
+          "title": "Stereochemistry",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/organic-chemistry/stereochemistry.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:organic-chemistry:acids-bases-and-reaction-mechanisms",
+          "slug": "acids-bases-and-reaction-mechanisms",
+          "title": "Acids, Bases, and Reaction Mechanisms",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/organic-chemistry/acids-bases-and-reaction-mechanisms.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:organic-chemistry:alkanes-alkenes-and-alkynes",
+          "slug": "alkanes-alkenes-and-alkynes",
+          "title": "Alkanes, Alkenes, and Alkynes",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/organic-chemistry/alkanes-alkenes-and-alkynes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:organic-chemistry:alcohols-ethers-and-epoxides",
+          "slug": "alcohols-ethers-and-epoxides",
+          "title": "Alcohols, Ethers, and Epoxides",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/organic-chemistry/alcohols-ethers-and-epoxides.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:organic-chemistry:carbonyl-chemistry",
+          "slug": "carbonyl-chemistry",
+          "title": "Carbonyl Chemistry",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/organic-chemistry/carbonyl-chemistry.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:organic-chemistry:carboxylic-acids-and-derivatives",
+          "slug": "carboxylic-acids-and-derivatives",
+          "title": "Carboxylic Acids and Derivatives",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/organic-chemistry/carboxylic-acids-and-derivatives.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:organic-chemistry:amines-and-nitrogen-compounds",
+          "slug": "amines-and-nitrogen-compounds",
+          "title": "Amines and Nitrogen-Containing Compounds",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/organic-chemistry/amines-and-nitrogen-compounds.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:organic-chemistry:aromatic-chemistry",
+          "slug": "aromatic-chemistry",
+          "title": "Aromatic Chemistry",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/organic-chemistry/aromatic-chemistry.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:organic-chemistry:spectroscopy-and-structure-determination",
+          "slug": "spectroscopy-and-structure-determination",
+          "title": "Spectroscopy and Structure Determination",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/organic-chemistry/spectroscopy-and-structure-determination.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:organic-chemistry:laboratory-techniques-and-separations",
+          "slug": "laboratory-techniques-and-separations",
+          "title": "Laboratory Techniques and Separations",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/organic-chemistry/laboratory-techniques-and-separations.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:organic-chemistry:biologically-relevant-organic-molecules",
+          "slug": "biologically-relevant-organic-molecules",
+          "title": "Biologically Relevant Organic Molecules",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/organic-chemistry/biologically-relevant-organic-molecules.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:mcat-foundations:physics",
+      "slug": "physics",
+      "title": "Physics",
+      "order": 5,
+      "topics": [
+        {
+          "id": "topic:mcat-foundations:physics:units-vectors-and-mathematical-reasoning",
+          "slug": "units-vectors-and-mathematical-reasoning",
+          "title": "Units, Vectors, and Mathematical Reasoning",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/physics/units-vectors-and-mathematical-reasoning.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:physics:kinematics",
+          "slug": "kinematics",
+          "title": "Kinematics",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/physics/kinematics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:physics:forces-and-newtonian-mechanics",
+          "slug": "forces-and-newtonian-mechanics",
+          "title": "Forces and Newtonian Mechanics",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/physics/forces-and-newtonian-mechanics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:physics:work-energy-and-power",
+          "slug": "work-energy-and-power",
+          "title": "Work, Energy, and Power",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/physics/work-energy-and-power.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:physics:momentum-and-collisions",
+          "slug": "momentum-and-collisions",
+          "title": "Momentum and Collisions",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/physics/momentum-and-collisions.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:physics:rotation-torque-and-equilibrium",
+          "slug": "rotation-torque-and-equilibrium",
+          "title": "Rotation, Torque, and Equilibrium",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/physics/rotation-torque-and-equilibrium.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:physics:fluids-and-circulation",
+          "slug": "fluids-and-circulation",
+          "title": "Fluids and Circulation",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/physics/fluids-and-circulation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:physics:thermodynamics-and-heat-transfer",
+          "slug": "thermodynamics-and-heat-transfer",
+          "title": "Thermodynamics and Heat Transfer",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/physics/thermodynamics-and-heat-transfer.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:physics:electrostatics",
+          "slug": "electrostatics",
+          "title": "Electrostatics",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/physics/electrostatics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:physics:circuits-and-electromagnetism",
+          "slug": "circuits-and-electromagnetism",
+          "title": "Circuits and Electromagnetism",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/physics/circuits-and-electromagnetism.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:physics:waves-and-sound",
+          "slug": "waves-and-sound",
+          "title": "Waves and Sound",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/physics/waves-and-sound.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:physics:light-and-optics",
+          "slug": "light-and-optics",
+          "title": "Light and Optics",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/physics/light-and-optics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:physics:atomic-nuclear-and-modern-physics",
+          "slug": "atomic-nuclear-and-modern-physics",
+          "title": "Atomic, Nuclear, and Modern Physics",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/physics/atomic-nuclear-and-modern-physics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:mcat-foundations:psychology",
+      "slug": "psychology",
+      "title": "Psychology",
+      "order": 6,
+      "topics": [
+        {
+          "id": "topic:mcat-foundations:psychology:biological-bases-of-behavior",
+          "slug": "biological-bases-of-behavior",
+          "title": "Biological Bases of Behavior",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/psychology/biological-bases-of-behavior.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:psychology:sensation-and-perception",
+          "slug": "sensation-and-perception",
+          "title": "Sensation and Perception",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/psychology/sensation-and-perception.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:psychology:learning-and-conditioning",
+          "slug": "learning-and-conditioning",
+          "title": "Learning and Conditioning",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/psychology/learning-and-conditioning.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:psychology:memory",
+          "slug": "memory",
+          "title": "Memory",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/psychology/memory.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:psychology:cognition-language-and-intelligence",
+          "slug": "cognition-language-and-intelligence",
+          "title": "Cognition, Language, and Intelligence",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/psychology/cognition-language-and-intelligence.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:psychology:consciousness-sleep-and-psychoactive-drugs",
+          "slug": "consciousness-sleep-and-psychoactive-drugs",
+          "title": "Consciousness, Sleep, and Psychoactive Drugs",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/psychology/consciousness-sleep-and-psychoactive-drugs.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:psychology:motivation-emotion-and-stress",
+          "slug": "motivation-emotion-and-stress",
+          "title": "Motivation, Emotion, and Stress",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/psychology/motivation-emotion-and-stress.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:psychology:development-across-the-lifespan",
+          "slug": "development-across-the-lifespan",
+          "title": "Development Across the Lifespan",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/psychology/development-across-the-lifespan.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:psychology:personality",
+          "slug": "personality",
+          "title": "Personality",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/psychology/personality.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:psychology:psychological-disorders",
+          "slug": "psychological-disorders",
+          "title": "Psychological Disorders",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/psychology/psychological-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:psychology:treatment-and-health-psychology",
+          "slug": "treatment-and-health-psychology",
+          "title": "Treatment and Health Psychology",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/psychology/treatment-and-health-psychology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:psychology:social-psychology",
+          "slug": "social-psychology",
+          "title": "Social Psychology",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/psychology/social-psychology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:mcat-foundations:sociology",
+      "slug": "sociology",
+      "title": "Sociology",
+      "order": 7,
+      "topics": [
+        {
+          "id": "topic:mcat-foundations:sociology:sociological-theories-and-research",
+          "slug": "sociological-theories-and-research",
+          "title": "Sociological Theories and Research",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/sociology/sociological-theories-and-research.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:sociology:culture",
+          "slug": "culture",
+          "title": "Culture",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/sociology/culture.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:sociology:socialization-and-the-life-course",
+          "slug": "socialization-and-the-life-course",
+          "title": "Socialization and the Life Course",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/sociology/socialization-and-the-life-course.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:sociology:social-interaction-and-groups",
+          "slug": "social-interaction-and-groups",
+          "title": "Social Interaction and Groups",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/sociology/social-interaction-and-groups.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:sociology:deviance-and-social-control",
+          "slug": "deviance-and-social-control",
+          "title": "Deviance and Social Control",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/sociology/deviance-and-social-control.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:sociology:social-stratification-and-inequality",
+          "slug": "social-stratification-and-inequality",
+          "title": "Social Stratification and Inequality",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/sociology/social-stratification-and-inequality.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:sociology:race-ethnicity-and-immigration",
+          "slug": "race-ethnicity-and-immigration",
+          "title": "Race, Ethnicity, and Immigration",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/sociology/race-ethnicity-and-immigration.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:sociology:gender-and-sexuality",
+          "slug": "gender-and-sexuality",
+          "title": "Gender and Sexuality",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/sociology/gender-and-sexuality.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:sociology:families-and-social-institutions",
+          "slug": "families-and-social-institutions",
+          "title": "Families and Social Institutions",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/sociology/families-and-social-institutions.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:sociology:population-demographics-and-urbanization",
+          "slug": "population-demographics-and-urbanization",
+          "title": "Population, Demographics, and Urbanization",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/sociology/population-demographics-and-urbanization.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:sociology:media-technology-and-globalization",
+          "slug": "media-technology-and-globalization",
+          "title": "Media, Technology, and Globalization",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/sociology/media-technology-and-globalization.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:sociology:health-illness-and-healthcare-inequality",
+          "slug": "health-illness-and-healthcare-inequality",
+          "title": "Health, Illness, and Healthcare Inequality",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/sociology/health-illness-and-healthcare-inequality.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:mcat-foundations:cars",
+      "slug": "cars",
+      "title": "CARS",
+      "order": 8,
+      "topics": [
+        {
+          "id": "topic:mcat-foundations:cars:cars-passage-mapping",
+          "slug": "cars-passage-mapping",
+          "title": "CARS Passage Mapping",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/cars/cars-passage-mapping.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:cars:main-idea-and-central-thesis",
+          "slug": "main-idea-and-central-thesis",
+          "title": "Main Idea and Central Thesis",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/cars/main-idea-and-central-thesis.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:cars:author-tone-and-attitude",
+          "slug": "author-tone-and-attitude",
+          "title": "Author Tone and Attitude",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/cars/author-tone-and-attitude.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:cars:author-purpose-and-rhetorical-strategy",
+          "slug": "author-purpose-and-rhetorical-strategy",
+          "title": "Author Purpose and Rhetorical Strategy",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/cars/author-purpose-and-rhetorical-strategy.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:cars:reasoning-within-the-text",
+          "slug": "reasoning-within-the-text",
+          "title": "Reasoning Within the Text",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/cars/reasoning-within-the-text.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:cars:reasoning-beyond-the-text",
+          "slug": "reasoning-beyond-the-text",
+          "title": "Reasoning Beyond the Text",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/cars/reasoning-beyond-the-text.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:cars:argument-analysis",
+          "slug": "argument-analysis",
+          "title": "Argument Analysis",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/cars/argument-analysis.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:cars:comparing-viewpoints",
+          "slug": "comparing-viewpoints",
+          "title": "Comparing Viewpoints",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/cars/comparing-viewpoints.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:cars:evidence-selection",
+          "slug": "evidence-selection",
+          "title": "Evidence Selection",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/cars/evidence-selection.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:cars:cars-timing-strategy-and-question-types",
+          "slug": "cars-timing-strategy-and-question-types",
+          "title": "CARS Timing, Strategy, and Question Types",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/cars/cars-timing-strategy-and-question-types.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:mcat-foundations:research-methods-statistics-and-scientific-reasoning",
+      "slug": "research-methods-statistics-and-scientific-reasoning",
+      "title": "Research Methods, Statistics, and Scientific Reasoning",
+      "order": 9,
+      "topics": [
+        {
+          "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:scientific-method-and-experimental-design",
+          "slug": "scientific-method-and-experimental-design",
+          "title": "Scientific Method and Experimental Design",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/research-methods-statistics-and-scientific-reasoning/scientific-method-and-experimental-design.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:variables-and-controls",
+          "slug": "variables-and-controls",
+          "title": "Variables and Controls",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/research-methods-statistics-and-scientific-reasoning/variables-and-controls.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:study-design-and-causality",
+          "slug": "study-design-and-causality",
+          "title": "Study Design and Causality",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/research-methods-statistics-and-scientific-reasoning/study-design-and-causality.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:sampling-and-generalizability",
+          "slug": "sampling-and-generalizability",
+          "title": "Sampling and Generalizability",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/research-methods-statistics-and-scientific-reasoning/sampling-and-generalizability.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:bias-confounding-and-causation",
+          "slug": "bias-confounding-and-causation",
+          "title": "Bias, Confounding, and Causation",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/research-methods-statistics-and-scientific-reasoning/bias-confounding-and-causation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:reliability-validity-and-measurement",
+          "slug": "reliability-validity-and-measurement",
+          "title": "Reliability, Validity, and Measurement",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/research-methods-statistics-and-scientific-reasoning/reliability-validity-and-measurement.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:research-ethics",
+          "slug": "research-ethics",
+          "title": "Research Ethics",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/research-methods-statistics-and-scientific-reasoning/research-ethics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:descriptive-statistics",
+          "slug": "descriptive-statistics",
+          "title": "Descriptive Statistics",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/research-methods-statistics-and-scientific-reasoning/descriptive-statistics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:inferential-statistics-and-hypothesis-testing",
+          "slug": "inferential-statistics-and-hypothesis-testing",
+          "title": "Inferential Statistics and Hypothesis Testing",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/research-methods-statistics-and-scientific-reasoning/inferential-statistics-and-hypothesis-testing.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:correlation-and-regression",
+          "slug": "correlation-and-regression",
+          "title": "Correlation and Regression",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/research-methods-statistics-and-scientific-reasoning/correlation-and-regression.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:variable-structure-and-methods-interpretation",
+          "slug": "variable-structure-and-methods-interpretation",
+          "title": "Variable Structure and Methods Interpretation",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/research-methods-statistics-and-scientific-reasoning/variable-structure-and-methods-interpretation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:results-interpretation-and-figure-analysis",
+          "slug": "results-interpretation-and-figure-analysis",
+          "title": "Results Interpretation and Figure Analysis",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/research-methods-statistics-and-scientific-reasoning/results-interpretation-and-figure-analysis.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:identifying-conclusions-and-evaluating-limitations",
+          "slug": "identifying-conclusions-and-evaluating-limitations",
+          "title": "Identifying Conclusions and Evaluating Limitations",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/research-methods-statistics-and-scientific-reasoning/identifying-conclusions-and-evaluating-limitations.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:experimental-reasoning-and-follow-up-design",
+          "slug": "experimental-reasoning-and-follow-up-design",
+          "title": "Experimental Reasoning and Follow-Up Design",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/mcat-foundations/topics/research-methods-statistics-and-scientific-reasoning/experimental-reasoning-and-follow-up-design.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ]
+}

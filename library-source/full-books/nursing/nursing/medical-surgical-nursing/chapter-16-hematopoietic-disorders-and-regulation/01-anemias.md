@@ -1,0 +1,136 @@
+---
+title: "Anemias"
+subject: "Nursing"
+book: "Medical-Surgical Nursing"
+chapter: "16: Hematopoietic Disorders and Regulation"
+topic_number: "1"
+source: "medical-surgical-nursing.md"
+tags:
+  - "anemias"
+  - "nursing"
+status: "complete"
+---
+
+# Anemias
+
+> **Book:** [Medical-Surgical Nursing](../../README.md)  
+> **Chapter:** [Chapter 16: Hematopoietic Disorders and Regulation](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Anemia is not a single disease but a common finding and clinical syndrome: the blood carries less hemoglobin — the oxygen-carrying protein inside red blood cells (RBCs) — than the body needs, so tissues receive less oxygen than they require. Because hemoglobin travels inside RBCs, anemia can result from any problem that reduces RBC production, increases RBC destruction, or loses RBCs through bleeding. Those three mechanisms — **decreased production, increased destruction (hemolysis), and blood loss** — organize the whole topic and are the first question to ask: is the body failing to make cells, destroying them too fast, or losing them?
+
+The complete blood count (CBC) supplies the next clues. The average size of the RBCs (the MCV) classifies anemia as **microcytic** (cells smaller than normal, as in iron deficiency), **macrocytic** (larger than normal, as in B12 or folate deficiency), or **normocytic** (normal-sized, as in blood loss, chronic disease, or kidney disease). The **reticulocyte count** — the percentage of young, newly released RBCs — shows whether the marrow is responding by cranking up production. Mechanism plus cell size together point toward a short list of causes.
+
+Anemia is the most common blood disorder in the world, and iron deficiency is its most common form — which is why this topic is a foundation for the rest of the chapter and for nearly every clinical rotation.
+
+## Why This Matters
+
+Anemia matters because it is everywhere and never just "a low number." In the hospital, it contributes to falls, delayed recovery after surgery, poor wound healing, and decompensation in people with heart or lung disease whose reserves are thin. It is frequently the first clue to an underlying problem: an older adult with new iron-deficiency anemia often has occult gastrointestinal bleeding, and a workup to find the source is standard. For the nurse, the practical stakes are fatigue and safety (energy conservation, fall prevention), recognition of severe anemia (dyspnea at rest, chest pain, confusion — which can be urgent), patient teaching about diet, medications, and follow-up, and safe transfusion support when ordered. On exams, anemia questions reward mechanism thinking: given the history and CBC pattern, which mechanism and which cause fit best?
+
+## Core Concepts
+
+### The RBC life cycle and the three mechanisms
+
+RBCs are produced in the bone marrow from hematopoietic stem cells under the influence of **erythropoietin**, a hormone released mainly by the kidneys when they sense low oxygen. Mature RBCs live about 120 days and are then removed by the spleen, which recycles their iron. Against that backdrop, the three mechanisms of anemia make sense:
+
+- **Decreased production** — the marrow makes too few cells. Causes include iron, B12, or folate deficiency; chronic inflammation; kidney disease (too little erythropoietin); marrow damage from chemotherapy, radiation, or disease; and aplastic anemia.
+- **Increased destruction (hemolysis)** — cells are destroyed faster than they are replaced, either because the cell itself is abnormal (hereditary disorders, covered in the next topic) or because something outside attacks it (autoimmune hemolysis, some medications, mechanical damage).
+- **Blood loss** — acute loss (trauma, surgery, bleeding ulcer) or chronic loss (heavy menstruation, slow gastrointestinal bleeding). Chronic loss matters because it quietly depletes iron stores over months.
+
+### Reading the CBC clues: cell size and the marrow response
+
+The CBC reports hemoglobin, hematocrit (the proportion of blood made of cells), and the MCV. Cell size narrows the diagnosis: small cells suggest trouble making hemoglobin (iron deficiency, thalassemia); large cells suggest trouble making DNA (B12 or folate deficiency); normal-sized cells fit blood loss, chronic disease, kidney disease, or early iron deficiency. The reticulocyte count answers the second question — is the marrow trying? A high count means the marrow is responding, pointing toward destruction or recent blood loss; a low count points toward a production problem. These are patterns, not absolute rules, and the clinician reads them with the full history.
+
+### Iron-deficiency anemia: the most common anemia
+
+Iron is the core of the hemoglobin molecule — without it, the marrow makes small, pale cells. Iron deficiency develops when intake is inadequate (common in restrictive diets), absorption is impaired (after gastric surgery, in celiac disease), or — most important in adults — iron is being lost through bleeding. Heavy menstrual bleeding is a leading cause in women; in men and in postmenopausal women, gastrointestinal blood loss is suspected until proven otherwise, which is why a new diagnosis of iron-deficiency anemia often triggers a gastrointestinal evaluation. Features include fatigue, pale skin and conjunctivae, and sometimes cravings for non-food items such as ice or dirt (pica) or a sore tongue. Treatment is directed by the provider — typically iron replacement plus correction of the cause — and the nurse teaches how to take iron (constipation and dark stools are common, expected effects), dietary sources, and the importance of the follow-up workup.
+
+### B12 and folate deficiency: the macrocytic anemias
+
+Vitamin B12 and folate are needed to build DNA, so when either is lacking, the marrow's dividing cells grow abnormally large — producing macrocytic anemia. **Pernicious anemia** is an autoimmune condition in which the stomach stops making **intrinsic factor**, the protein needed to absorb dietary B12; without it, B12 cannot get in no matter how much is eaten. B12 deficiency deserves special attention because it can cause **neurologic symptoms** — numbness, tingling, balance problems, cognitive changes — that can appear before the anemia does and may not fully reverse if treatment is delayed. Folate deficiency produces the same blood picture without the neurologic component, so the two are always distinguished before treatment. Vegans and people with gastric surgery are at higher risk and are often advised to monitor their B12 levels.
+
+### Anemia of chronic disease and kidney disease
+
+Chronic inflammation — from conditions like rheumatoid arthritis, cancer, chronic infection, or kidney failure — disrupts iron use: iron is present but trapped in storage, and erythropoietin production falls. The result is usually a mild, slowly developing anemia that does not improve with iron supplements alone. In kidney disease the problem is more direct: damaged kidneys make too little erythropoietin, so the marrow is under-stimulated. Management targets the underlying condition, sometimes with provider-ordered erythropoiesis-stimulating therapy and iron — a good example of why mechanism thinking matters: giving iron to someone whose problem is hormone deficiency will not fix it.
+
+### Nursing care of the person with anemia
+
+Assessment focuses on the body's response to reduced oxygen delivery: fatigue, pallor of the skin and mucous membranes, dyspnea on exertion, palpitations, dizziness, and — in severe anemia — chest pain, confusion, or dyspnea at rest. **Orthostatic vital signs** (lying, sitting, standing) identify volume and perfusion changes that raise fall risk. Falls are the practical danger, so call-light teaching, a low bed, and assistance with ambulation are standard. Energy-conservation teaching helps patients pace activity and rest. Dietary teaching covers iron-rich foods and the fact that vitamin C enhances iron absorption while tea, coffee, and calcium can reduce it — general educational points, with specifics deferred to the dietitian and provider. When transfusion is ordered, the nurse follows the institution's policy, monitors during the infusion, and knows the signs of a transfusion reaction (see the Blood Products and Transfusion Principles topic). Scope note: assessment, monitoring, safety, and education are core nursing work; iron studies, transfusions, and erythropoietin therapy require provider orders, and exact thresholds vary by institution.
+
+## ELI-10: Explain Like I'm 10
+
+Anemia is like a delivery service running low on trucks — the red blood cells are the trucks that carry oxygen to every part of the body. When there aren't enough trucks, or the trucks are too small or too few, the organs don't get all the oxygen they need, so the person feels tired, weak, and short of breath. The nurse's job is to help figure out what kind of truck problem it is — not enough trucks being built, trucks being wrecked too fast, or trucks being lost — and keep the person safe while the cause is treated.
+
+## High-Yield Points
+
+- Anemia = reduced oxygen-carrying capacity; organize every case by mechanism: **decreased production, increased destruction, or blood loss**.
+- Classify by cell size: **microcytic** (iron deficiency), **macrocytic** (B12/folate deficiency), **normocytic** (blood loss, chronic disease, kidney disease).
+- **Iron deficiency is the most common anemia worldwide**; in adults, blood loss — especially gastrointestinal — is the leading cause until proven otherwise.
+- **B12 deficiency can cause neurologic symptoms** (numbness, tingling, balance problems) that may appear before the anemia and may not fully reverse if treatment is delayed.
+- The **reticulocyte count** shows whether the marrow is responding — the key clue separating production problems from destruction or loss.
+- Fatigue is the cardinal symptom, but **falls and functional decline are the real safety issues**, especially in older adults: orthostatic vitals and fall precautions matter.
+- Nursing care centers on assessment (pallor, fatigue, dyspnea, orthostasis), energy conservation, fall prevention, diet and medication teaching, and safe transfusion support per orders.
+- Never dismiss "mild anemia": in older adults and people with heart or lung disease, even mild anemia can tip someone into decompensation.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Hemoglobin | The oxygen-carrying protein inside red blood cells | Its level defines anemia and determines oxygen delivery to tissues |
+| Hematocrit | The proportion of blood made up of red blood cells | A rough measure of RBC mass; falls with anemia |
+| MCV (mean corpuscular volume) | The average size of a red blood cell | Classifies anemia as microcytic, normocytic, or macrocytic |
+| Reticulocyte | A young red blood cell recently released from the marrow | A high count shows the marrow is responding; a low count suggests a production problem |
+| Erythropoietin | A hormone, made mainly by the kidneys, that stimulates RBC production | Deficiency causes the anemia of kidney disease |
+| Intrinsic factor | A protein made by the stomach that is required to absorb vitamin B12 | Its absence causes pernicious anemia |
+| Pica | Craving and eating non-food items such as ice or dirt | A recognized feature of iron deficiency |
+
+## Example: Clinical Scenario
+
+Mr. Tanaka, age 72, is three days post-operative after a hip replacement. He tells the nurse he is "more tired than he should be" and feels lightheaded when he stands to walk. The nurse notices pallor in his conjunctivae and palms, checks orthostatic vital signs (his blood pressure drops and heart rate rises on standing), and reviews his morning labs, which show a hemoglobin below his pre-operative baseline with a normal MCV. She places him on fall precautions, teaches him to sit at the edge of the bed and rise slowly, and reports the trend to the provider, asking whether further workup is needed to find the source of the loss. She also reviews iron-rich foods to support recovery and explains that his fatigue should improve as his counts recover. The teaching point: the nurse connected a vague complaint to objective findings (pallor, orthostatic changes, falling hemoglobin), acted on the real risk (falls), and escalated the trend — the everyday pattern of nursing care for anemia.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Iron-deficiency anemia | B12/folate deficiency | Iron deficiency is microcytic (small cells) and caused by loss or poor intake; B12/folate deficiency is macrocytic (large cells) and causes neurologic symptoms with B12 |
+| Anemia | Low blood volume (hypovolemia) | Anemia is low hemoglobin; hypovolemia is low total fluid volume. A person can be anemic with a normal fluid volume, or dehydrated with a normal hemoglobin |
+| A "normal" hemoglobin | Adequate oxygen delivery | In heart failure or chronic disease, fluid shifts can dilute or concentrate blood, and a patient with heart disease can be symptomatic at levels others tolerate |
+| Fatigue dismissed as depression or "just aging" | A clue to anemia or underlying disease | New or worsening fatigue deserves assessment, especially with pallor, dyspnea on exertion, or orthostasis |
+| Anemia of chronic disease | Iron-deficiency anemia | In chronic disease, iron is present but trapped; iron supplements alone do not fix it. Mechanism determines treatment |
+| "Low hemoglobin is always an emergency" | Context-dependent severity | Mild chronic anemia needs a workup, not panic; severe anemia with dyspnea at rest or chest pain is urgent. Severity thresholds follow facility/reference standards |
+
+## Quick Review
+
+1. What are the three mechanisms of anemia, with one example cause for each?
+2. A CBC shows large red blood cells (high MCV). Which deficiencies should you think of, and which one can cause neurologic symptoms?
+3. Why is the reticulocyte count a useful clue, and what does a high count suggest?
+4. Why might a new diagnosis of iron-deficiency anemia in an older adult trigger a gastrointestinal workup?
+5. A post-operative patient reports lightheadedness when standing. What three nursing actions should follow?
+
+<details>
+<summary>Show answers</summary>
+
+1. Decreased production (iron, B12, or folate deficiency; marrow suppression; kidney disease), increased destruction/hemolysis (autoimmune, inherited cell defects), and blood loss (acute or chronic bleeding).
+2. Vitamin B12 and folate deficiency. B12 deficiency can cause neurologic symptoms — numbness, tingling, balance problems — that may appear before the anemia.
+3. The reticulocyte count shows whether the marrow is producing young RBCs. A high count means the marrow is responding, pointing toward destruction or recent blood loss; a low count points toward a production problem.
+4. In men and postmenopausal women, iron deficiency is most often caused by blood loss, and the gastrointestinal tract is the most common hidden source — so a workup to find it is standard.
+5. Check orthostatic vital signs, implement fall precautions (call light within reach, bed low, assist with ambulation), and report the findings and lab trends to the provider.
+
+</details>
+
+## Related Topics
+
+- Next: [Hereditary Disorders](02-hereditary-disorders.md)
+- Related: [Polycythemia](03-polycythemia.md), [Thrombocytopenia](04-thrombocytopenia.md), [Blood Products and Transfusion Principles](07-blood-products-and-transfusion-principles.md)
+- Chapter overview: [Hematopoietic Disorders and Regulation](../README.md)
+
+## Source Notes
+
+- Book: Medical-Surgical Nursing
+- Local outline source: `medical-surgical-nursing.md`
+- Official source URL: https://openstax.org/details/books/medical-surgical-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure. Educational draft only — no treatment recommendations; laboratory thresholds, transfusion criteria, and supplementation regimens vary by institution and current evidence and must be verified against facility policy.
+- Last updated: 2026-08-15

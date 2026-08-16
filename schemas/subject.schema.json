@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Subject",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "enum": [
+        "biology-1",
+        "biology-2",
+        "organic-chemistry-1",
+        "organic-chemistry-2",
+        "chemistry-1",
+        "chemistry-2",
+        "physics-1",
+        "physics-2",
+        "microbiology",
+        "genetics",
+        "nclex-review"
+      ]
+    },
+    "slug": {
+      "enum": [
+        "biology-1",
+        "biology-2",
+        "organic-chemistry-1",
+        "organic-chemistry-2",
+        "chemistry-1",
+        "chemistry-2",
+        "physics-1",
+        "physics-2",
+        "microbiology",
+        "genetics",
+        "nclex-review"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "approved",
+        "needs-review"
+      ]
+    },
+    "approvedContentCount": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "additionalProperties": false
+}

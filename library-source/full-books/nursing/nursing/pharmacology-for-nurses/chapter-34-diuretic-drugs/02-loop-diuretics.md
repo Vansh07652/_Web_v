@@ -1,0 +1,153 @@
+---
+title: "Loop Diuretics"
+subject: "Nursing"
+book: "Pharmacology for Nurses"
+chapter: "34: Diuretic Drugs"
+topic_number: "2"
+source: "pharmacology.md"
+tags:
+  - "loop-diuretics"
+  - "nursing"
+status: "complete"
+---
+
+# Loop Diuretics
+
+> **Book:** [Pharmacology for Nurses](../../README.md)  
+> **Chapter:** [Chapter 34: Diuretic Drugs](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Loop diuretics (prototype furosemide; also bumetanide, torsemide, ethacrynic acid) are the most potent diuretic class. They act on the thick ascending limb of the loop of Henle by blocking the sodium-potassium-chloride cotransporter (Na⁺-K⁺-2Cl⁻), the transport protein that powers salt reabsorption in that segment. Because that segment normally reabsorbs a large share of filtered sodium, blocking it produces a diuresis far larger than any other class can achieve — which is why loop diuretics are called "high-ceiling" diuretics: their effect keeps rising over a wide dose range. They are the drugs of choice for severe fluid overload — acute pulmonary edema and advanced heart failure — and remain effective in moderate kidney impairment where weaker classes fail. With that power come well-defined risks, chiefly potassium and magnesium wasting.
+
+## Why This Matters
+
+- **Emergency pharmacology:** in acute pulmonary edema, a loop diuretic can mean the difference between rapid relief of breathlessness and respiratory failure.
+- **Potency and risk travel together:** the same site that makes loop diuretics powerful also makes their electrolyte losses the largest of any class. Hypokalemia can trigger serious arrhythmias and sensitizes the heart to digoxin.
+- **They work when others don't:** acting on a segment that still transports salt in moderate renal impairment, loop diuretics are relied on when thiazides lose effectiveness.
+- **Ototoxicity awareness:** hearing changes are a recognized risk, especially with rapid IV administration or aminoglycoside antibiotics — unique to this class.
+
+## Core Concepts
+
+### Mechanism of action
+
+The thick ascending limb reabsorbs sodium via the Na⁺-K⁺-2Cl⁻ cotransporter on its luminal surface; loop diuretics block it. Three consequences follow:
+
+1. **Direct diuresis:** sodium stays in the tubular fluid, water follows, and urine output rises sharply.
+2. **Loss of the medullary gradient:** the ascending limb's salt transport builds the gradient that lets the kidney concentrate urine; when transport stops, the gradient fades and even the collecting duct reabsorbs less water — the kidney temporarily "forgets" how to concentrate urine.
+3. **Calcium and magnesium follow:** these ions are normally reabsorbed in the same segment along the electrical gradient created by salt transport. When the gradient collapses, more calcium and magnesium are lost in the urine.
+
+### Why they are the most potent class
+
+Potency follows the fraction of filtered sodium handled at the site: the thick ascending limb handles a larger share than the distal segments, so blocking it produces the largest possible diuresis. The "high-ceiling" label captures the dose–response shape — effectiveness keeps climbing over a wide range, unlike classes that plateau quickly. (Mechanism only — specific doses are always per prescriber orders and current references.)
+
+### Clinical uses as a class
+
+- **Acute pulmonary edema:** rapid volume reduction — plus an acute venodilating effect that lowers preload — quickly eases breathing.
+- **Heart failure with fluid overload:** the standard tool for mobilizing edema when the kidneys can still respond.
+- **Edema of renal origin:** retains effectiveness in moderate kidney impairment, where distal-site diuretics fail.
+- **Hypertension:** used when other agents are insufficient (indications vary by guideline and formulary).
+- **Hypercalcemia:** by increasing urinary calcium excretion, the class appears in hypercalcemia management as part of a broader, provider-directed plan.
+
+### Electrolyte effects: the class signature
+
+- **Hypokalemia** — the classic concern. Potassium loss causes weakness, muscle cramps, and dangerous arrhythmias, and sensitizes the heart to digoxin, making toxicity more likely at lower digoxin levels.
+- **Hyponatremia and hypochloremia** — from the heavy sodium and chloride losses.
+- **Hypomagnesemia** — often travels with hypokalemia; potassium may not correct until magnesium is replaced.
+- **Hypocalcemia** — calcium wasting, generally modest in people with normal calcium regulation.
+- **Metabolic alkalosis** — from hydrogen ion loss and volume contraction.
+
+### Adverse effects to monitor
+
+- **Volume depletion and hypotension:** orthostatic dizziness, tachycardia, decreased urine output — diuresis outrunning intake.
+- **Arrhythmias:** driven mainly by hypokalemia and hypomagnesemia; catch the electrolyte trend before the rhythm problem.
+- **Ototoxicity:** tinnitus and hearing loss, classically associated with rapid IV administration and concurrent aminoglycosides; report hearing changes promptly.
+- **Hyperuricemia:** reduced uric acid excretion can trigger gout flares in susceptible people.
+- **Acute kidney injury:** over-aggressive diuresis can under-perfuse the kidneys; monitor renal function in people already at risk.
+- **Sulfonamide cross-sensitivity:** several loop diuretics are sulfonamide derivatives (ethacrynic acid is not); check cross-reactivity against current references and the person's allergy history rather than assuming.
+
+### Nursing considerations
+
+- **Monitoring:** daily weights, strict intake and output, serum potassium, sodium, magnesium, calcium, and renal function per orders; blood pressure including orthostatic checks.
+- **Assessment of effect:** lung sounds, edema, and breathlessness should improve; trends matter more than single values.
+- **Watch the ears:** with intravenous administration, note any new tinnitus or hearing change and report it.
+- **Education:** teach the person to report dizziness (low volume), weakness or muscle cramps (electrolyte loss), palpitations (rhythm risk), and decreased urination. Dietary potassium advice is individualized and follows the care plan, not a generic handout.
+- **Verification:** this guide contains no doses or schedules; every order is verified against current references, the formulary, and institutional policy.
+
+## ELI-10: Explain Like I'm 10
+
+Your kidneys have a pipe with a pump that pulls salt out of the water, and that pump also builds a "salt ladder" the kidneys use to save water. A loop diuretic puts a stopper in that pump. Suddenly a lot of salt stays in the water and goes down the drain, so you pee a lot — but the salt ladder breaks too, so the kidneys also lose water they would normally save. That's why this medicine is so strong, and why the salt (especially potassium) lost with it has to be watched carefully.
+
+## High-Yield Points
+
+- **Mechanism:** block the Na⁺-K⁺-2Cl⁻ cotransporter in the thick ascending limb — the most powerful sodium-handling site in the nephron.
+- **"High-ceiling" and most potent:** the class produces the largest diuresis and keeps working in moderate renal impairment.
+- **Electrolyte signature:** loses K⁺, Na⁺, Cl⁻, Ca²⁺, and Mg²⁺ — hypokalemia and hypomagnesemia are the safety priorities.
+- **Hypokalemia + digoxin = danger:** low potassium sensitizes the heart to digoxin, so these two therapies together demand close monitoring.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Na⁺-K⁺-2Cl⁻ cotransporter | The salt pump in the thick ascending limb that loop diuretics block | The molecular target of the entire class |
+| Thick ascending limb | Nephron segment that reabsorbs salt but not water; builds the medullary gradient | Site of action; explains potency and the loss of concentrating ability |
+| Hypokalemia | Low serum potassium | The classic loop-diuretic complication; arrhythmia and digoxin-toxicity risk |
+| Hypomagnesemia | Low serum magnesium | Travels with hypokalemia; potassium replacement may not work until magnesium is fixed |
+| Ototoxicity | Drug-induced hearing damage (tinnitus, hearing loss) | A loop-diuretic-specific risk, increased by rapid IV use and aminoglycosides |
+
+## How It Works / Step-by-Step Process
+
+1. **Recognize the clinical situation:** severe fluid overload — pulmonary edema, decompensated heart failure, or edema that has not responded to other classes.
+2. **Connect situation to site:** the need is for maximum diuresis, so the thick ascending limb — the segment handling the largest sodium load — is the target.
+3. **Predict the effects:** large sodium and water loss, fading medullary gradient, and urinary losses of K⁺, Mg²⁺, and Ca²⁺.
+4. **Plan the monitoring:** daily weights, intake and output, potassium/magnesium/sodium/calcium, renal function, blood pressure with orthostatics, and hearing checks with IV therapy.
+5. **Evaluate and verify:** breathlessness, edema, and weight should improve and electrolytes stay within safe ranges; the drug, route, dose, and schedule follow the prescriber's order, checked against current references and the formulary.
+
+## Example
+
+A person with acute decompensated heart failure arrives breathless, unable to lie flat, with crackles halfway up the lung fields and 4 kg of weight gain over a week. The reasoning: the failing heart has backed up volume into the lungs; the fastest way to relieve that is to reduce circulating volume rapidly. The thick ascending limb is the only nephron site powerful enough — a loop diuretic blocks the Na⁺-K⁺-2Cl⁻ cotransporter, urine output climbs within a short time, preload falls, and the work of breathing eases. The nurse's parallel track is anticipation: this class will waste potassium and magnesium, so labs are drawn per orders; the person is watched for dizziness on standing, hearing changes with IV administration, and the electrolyte trend that precedes a rhythm problem. (Educational scenario; the actual drug, dose, and route are verified per current references, the formulary, and prescriber orders.)
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Loop diuretics | Thiazide diuretics | Different sites: loop = thick ascending limb (most potent); thiazide = distal convoluted tubule (moderate, hypertension workhorse). |
+| Hypokalemia from loop diuretics | Hyperkalemia from potassium-sparing diuretics | Loop and thiazide classes waste potassium; the potassium-sparing class conserves it — opposite priorities. |
+| Ototoxicity | Nephrotoxicity | Ototoxicity is hearing damage (loop diuretics, rapid IV, aminoglycosides); nephrotoxicity is kidney injury — both need monitoring, but they are different harms. |
+| "High-ceiling" diuretic | "High-dose" recommendation | High ceiling describes the dose–response curve; it is not a suggestion to use high doses — doses follow prescriber orders. |
+| Furosemide | Thiazide diuretics | Furosemide is a loop diuretic; despite frequent use, it is not a thiazide. |
+
+## Quick Review
+
+1. Where in the nephron do loop diuretics act, and what transporter do they block?
+2. Why are loop diuretics the most potent diuretic class?
+3. Name the electrolyte losses that define the loop-diuretic signature, and the two that matter most for cardiac safety.
+4. Why does hypokalemia create special danger in a person also taking digoxin?
+5. What is ototoxicity, and what two factors increase its risk with loop diuretics?
+
+<details>
+<summary>Show answers</summary>
+
+1. They act on the thick ascending limb of the loop of Henle, blocking the Na⁺-K⁺-2Cl⁻ cotransporter on the luminal surface of the tubule cells.
+2. Because the thick ascending limb reabsorbs a larger share of filtered sodium than any distal segment, blocking it produces the largest diuresis of any class. Its effect also keeps rising over a wide dose range ("high ceiling") and it retains effectiveness in moderate renal impairment.
+3. Potassium, sodium, chloride, calcium, and magnesium are lost. Potassium and magnesium are the cardiac-safety priorities — hypokalemia and hypomagnesemia predispose to arrhythmias.
+4. Low potassium sensitizes the heart's conduction tissue to digoxin, so toxicity (including dangerous rhythms) can occur at digoxin levels that would otherwise be safe. Close monitoring of both is required.
+5. Ototoxicity is drug-induced hearing damage — tinnitus or hearing loss. Risk is increased by rapid intravenous administration of loop diuretics and by concurrent use of aminoglycoside antibiotics.
+
+</details>
+
+## Related Topics
+
+- Previous: [Introduction to Diuretics](01-introduction-to-diuretics.md)
+- Next: [Osmotic Diuretics](03-osmotic-diuretics.md)
+- Related: [Diuretic Drugs chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Pharmacology for Nurses
+- Local outline source: `pharmacology.md`
+- Official source URL: https://openstax.org/details/books/pharmacology/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-15

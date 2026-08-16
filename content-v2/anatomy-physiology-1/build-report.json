@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-08-13",
+  "valid": true,
+  "checks": {
+    "units": 8,
+    "canonicalTopics": 54,
+    "completeTeachingTopics": 54,
+    "studyPackSourceTopics": 22,
+    "studyPackQuestionsParsed": 279,
+    "nativeAppSourceTopics": 10,
+    "nativeAppQuestionsParsed": 300,
+    "ap1QuestionsPublished": 553,
+    "questionsDeferredToAp2": 26,
+    "sourceMappings": 32
+  },
+  "notes": [
+    "Canonical teaching content is imported without rewriting from the 54-topic pre-nursing corpus.",
+    "Broad question-bank topics retain every mapped canonical topic ID; they are not falsely represented as exact mappings.",
+    "Endocrine and blood study-pack material is preserved in deferred[] for the Anatomy & Physiology II build.",
+    "Native app questions have no authoritative citation arrays and remain flagged citationReviewRequired=true."
+  ]
+}

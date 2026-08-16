@@ -1,0 +1,40 @@
+{
+  "id": "genetics-population-genetics-and-evolution-0008",
+  "subject": "genetics",
+  "lesson": "population-genetics-and-evolution",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A severe drought kills 98 percent of a wildflower population, and the few survivors regrow the population. An allele that had frequency 0.02 before the drought is now at 0.25 among the survivors, and the allele has no effect on survival or reproduction. What best explains this change?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Mutation created the allele at a high rate during the drought"
+    },
+    {
+      "id": "b",
+      "text": "Selection favored the allele during the drought"
+    },
+    {
+      "id": "c",
+      "text": "Gene flow introduced the allele from a distant population"
+    },
+    {
+      "id": "d",
+      "text": "Genetic drift from the bottleneck randomly changed the allele frequency"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Genetic drift is the random change in allele frequencies caused by sampling in small populations, and a bottleneck is a sharp population reduction that amplifies drift; a founder effect is the same sampling process when a few individuals start a new population rather than surviving a crash. Because the allele has no effect on fitness, selection cannot explain the change, and the problem describes no mutation or migration event. The jump from 0.02 to 0.25 reflects which individuals happened to survive.",
+  "difficulty": "unknown",
+  "tags": [
+    "population",
+    "bottleneck",
+    "genetic",
+    "drift"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-c8080c5df327048e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

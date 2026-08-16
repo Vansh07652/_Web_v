@@ -1,0 +1,1042 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:anatomy-physiology-2",
+    "slug": "anatomy-physiology-2",
+    "title": "Anatomy & Physiology II",
+    "aliases": [
+      {
+        "value": "anatomy-physiology-2",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "ap2",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "AP2",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "anatomy & physiology ii",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "anatomy-physiology-ii",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "anatomy_physiology_2",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "02-anatomy-physiology-ii",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "ap2",
+        "kind": "source_subject_id",
+        "source_id": "prenursing_notes"
+      }
+    ],
+    "status": "final",
+    "category": "pre-health-core"
+  },
+  "units": [
+    {
+      "id": "unit:anatomy-physiology-2:endocrine-system",
+      "slug": "endocrine-system",
+      "title": "Endocrine System",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "endocrine-system",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "ap2-u01",
+          "kind": "source_unit_id",
+          "source_id": "prenursing_notes"
+        },
+        {
+          "value": "01-endocrine-system",
+          "kind": "source_directory",
+          "source_id": "prenursing_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:anatomy-physiology-2:endocrine-system:endocrine-overview-and-hormone-chemistry",
+          "slug": "endocrine-overview-and-hormone-chemistry",
+          "title": "Endocrine System Overview and Hormone Chemistry",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/endocrine-system/endocrine-overview-and-hormone-chemistry.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:endocrine-system:mechanisms-of-hormone-action-and-regulation",
+          "slug": "mechanisms-of-hormone-action-and-regulation",
+          "title": "Mechanisms of Hormone Action and Regulation",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/endocrine-system/mechanisms-of-hormone-action-and-regulation.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:endocrine-system:hypothalamus-and-pituitary-gland",
+          "slug": "hypothalamus-and-pituitary-gland",
+          "title": "Hypothalamus and Pituitary Gland",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/endocrine-system/hypothalamus-and-pituitary-gland.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:endocrine-system:thyroid-and-parathyroid-glands",
+          "slug": "thyroid-and-parathyroid-glands",
+          "title": "Thyroid and Parathyroid Glands",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/endocrine-system/thyroid-and-parathyroid-glands.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:endocrine-system:adrenal-glands",
+          "slug": "adrenal-glands",
+          "title": "Adrenal Glands",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/endocrine-system/adrenal-glands.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:endocrine-system:pancreas-and-blood-glucose-regulation",
+          "slug": "pancreas-and-blood-glucose-regulation",
+          "title": "Pancreas and Blood Glucose Regulation",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/endocrine-system/pancreas-and-blood-glucose-regulation.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:endocrine-system:other-endocrine-tissues-and-stress-response",
+          "slug": "other-endocrine-tissues-and-stress-response",
+          "title": "Other Endocrine Tissues and Stress Response",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/endocrine-system/other-endocrine-tissues-and-stress-response.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:anatomy-physiology-2:blood-cardiovascular-and-circulation",
+      "slug": "blood-cardiovascular-and-circulation",
+      "title": "Blood, Cardiovascular System, and Circulation",
+      "order": 2,
+      "aliases": [
+        {
+          "value": "blood-cardiovascular-and-circulation",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "ap2-u02",
+          "kind": "source_unit_id",
+          "source_id": "prenursing_notes"
+        },
+        {
+          "value": "02-blood-cardiovascular-and-circulation",
+          "kind": "source_directory",
+          "source_id": "prenursing_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:anatomy-physiology-2:blood-cardiovascular-and-circulation:composition-and-functions-of-blood",
+          "slug": "composition-and-functions-of-blood",
+          "title": "Composition and Functions of Blood",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/blood-cardiovascular-and-circulation/composition-and-functions-of-blood.json",
+          "mappedQuestionCount": 14,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 14
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:blood-cardiovascular-and-circulation:erythrocytes-hemoglobin-and-oxygen-transport",
+          "slug": "erythrocytes-hemoglobin-and-oxygen-transport",
+          "title": "Erythrocytes, Hemoglobin, and Oxygen Transport",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/blood-cardiovascular-and-circulation/erythrocytes-hemoglobin-and-oxygen-transport.json",
+          "mappedQuestionCount": 14,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 14
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:blood-cardiovascular-and-circulation:leukocytes-platelets-and-hemostasis",
+          "slug": "leukocytes-platelets-and-hemostasis",
+          "title": "Leukocytes, Platelets, and Hemostasis",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/blood-cardiovascular-and-circulation/leukocytes-platelets-and-hemostasis.json",
+          "mappedQuestionCount": 14,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 14
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:blood-cardiovascular-and-circulation:blood-types-and-transfusion",
+          "slug": "blood-types-and-transfusion",
+          "title": "Blood Types and Transfusion",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/blood-cardiovascular-and-circulation/blood-types-and-transfusion.json",
+          "mappedQuestionCount": 14,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 14
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:blood-cardiovascular-and-circulation:heart-anatomy",
+          "slug": "heart-anatomy",
+          "title": "Heart Anatomy",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/blood-cardiovascular-and-circulation/heart-anatomy.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:blood-cardiovascular-and-circulation:cardiac-conduction-and-the-cardiac-cycle",
+          "slug": "cardiac-conduction-and-the-cardiac-cycle",
+          "title": "Cardiac Conduction and the Cardiac Cycle",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/blood-cardiovascular-and-circulation/cardiac-conduction-and-the-cardiac-cycle.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:blood-cardiovascular-and-circulation:cardiac-output-and-its-regulation",
+          "slug": "cardiac-output-and-its-regulation",
+          "title": "Cardiac Output and Its Regulation",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/blood-cardiovascular-and-circulation/cardiac-output-and-its-regulation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:blood-cardiovascular-and-circulation:blood-vessels-and-hemodynamics",
+          "slug": "blood-vessels-and-hemodynamics",
+          "title": "Blood Vessels and Hemodynamics",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/blood-cardiovascular-and-circulation/blood-vessels-and-hemodynamics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:blood-cardiovascular-and-circulation:blood-pressure-regulation",
+          "slug": "blood-pressure-regulation",
+          "title": "Blood Pressure Regulation",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/blood-cardiovascular-and-circulation/blood-pressure-regulation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:blood-cardiovascular-and-circulation:circulatory-pathways",
+          "slug": "circulatory-pathways",
+          "title": "Circulatory Pathways",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/blood-cardiovascular-and-circulation/circulatory-pathways.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:anatomy-physiology-2:lymphatic-and-immune-systems",
+      "slug": "lymphatic-and-immune-systems",
+      "title": "Lymphatic and Immune Systems",
+      "order": 3,
+      "aliases": [
+        {
+          "value": "lymphatic-and-immune-systems",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "ap2-u03",
+          "kind": "source_unit_id",
+          "source_id": "prenursing_notes"
+        },
+        {
+          "value": "03-lymphatic-and-immune-systems",
+          "kind": "source_directory",
+          "source_id": "prenursing_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:anatomy-physiology-2:lymphatic-and-immune-systems:lymphatic-system-structure-and-function",
+          "slug": "lymphatic-system-structure-and-function",
+          "title": "Lymphatic System Structure and Function",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/lymphatic-and-immune-systems/lymphatic-system-structure-and-function.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:lymphatic-and-immune-systems:innate-nonspecific-defenses",
+          "slug": "innate-nonspecific-defenses",
+          "title": "Innate (Nonspecific) Defenses",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/lymphatic-and-immune-systems/innate-nonspecific-defenses.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:lymphatic-and-immune-systems:adaptive-immunity-overview-and-antigens",
+          "slug": "adaptive-immunity-overview-and-antigens",
+          "title": "Adaptive Immunity: Overview and Antigens",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/lymphatic-and-immune-systems/adaptive-immunity-overview-and-antigens.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:lymphatic-and-immune-systems:humoral-immunity-and-antibodies",
+          "slug": "humoral-immunity-and-antibodies",
+          "title": "Humoral Immunity and Antibodies",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/lymphatic-and-immune-systems/humoral-immunity-and-antibodies.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:lymphatic-and-immune-systems:cell-mediated-immunity",
+          "slug": "cell-mediated-immunity",
+          "title": "Cell-Mediated Immunity",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/lymphatic-and-immune-systems/cell-mediated-immunity.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:lymphatic-and-immune-systems:immune-disorders-and-immunization",
+          "slug": "immune-disorders-and-immunization",
+          "title": "Immune Disorders and Immunization",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/lymphatic-and-immune-systems/immune-disorders-and-immunization.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:anatomy-physiology-2:respiratory-system",
+      "slug": "respiratory-system",
+      "title": "Respiratory System",
+      "order": 4,
+      "aliases": [
+        {
+          "value": "respiratory-system",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "ap2-u04",
+          "kind": "source_unit_id",
+          "source_id": "prenursing_notes"
+        },
+        {
+          "value": "04-respiratory-system",
+          "kind": "source_directory",
+          "source_id": "prenursing_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:anatomy-physiology-2:respiratory-system:respiratory-system-anatomy",
+          "slug": "respiratory-system-anatomy",
+          "title": "Respiratory System Anatomy",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/respiratory-system/respiratory-system-anatomy.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:respiratory-system:pulmonary-ventilation",
+          "slug": "pulmonary-ventilation",
+          "title": "Pulmonary Ventilation (Breathing Mechanics)",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/respiratory-system/pulmonary-ventilation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:respiratory-system:gas-exchange-and-transport",
+          "slug": "gas-exchange-and-transport",
+          "title": "Gas Exchange and Transport",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/respiratory-system/gas-exchange-and-transport.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:respiratory-system:control-of-respiration",
+          "slug": "control-of-respiration",
+          "title": "Control of Respiration",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/respiratory-system/control-of-respiration.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:respiratory-system:respiratory-volumes-and-clinical-measures",
+          "slug": "respiratory-volumes-and-clinical-measures",
+          "title": "Respiratory Volumes and Clinical Measures",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/respiratory-system/respiratory-volumes-and-clinical-measures.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:anatomy-physiology-2:digestive-system-and-metabolism",
+      "slug": "digestive-system-and-metabolism",
+      "title": "Digestive System and Metabolism",
+      "order": 5,
+      "aliases": [
+        {
+          "value": "digestive-system-and-metabolism",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "ap2-u05",
+          "kind": "source_unit_id",
+          "source_id": "prenursing_notes"
+        },
+        {
+          "value": "05-digestive-system-and-metabolism",
+          "kind": "source_directory",
+          "source_id": "prenursing_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:anatomy-physiology-2:digestive-system-and-metabolism:digestive-system-organization",
+          "slug": "digestive-system-organization",
+          "title": "Digestive System Organization",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/digestive-system-and-metabolism/digestive-system-organization.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:digestive-system-and-metabolism:the-mouth-pharynx-and-esophagus",
+          "slug": "the-mouth-pharynx-and-esophagus",
+          "title": "The Mouth, Pharynx, and Esophagus",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/digestive-system-and-metabolism/the-mouth-pharynx-and-esophagus.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:digestive-system-and-metabolism:the-stomach",
+          "slug": "the-stomach",
+          "title": "The Stomach",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/digestive-system-and-metabolism/the-stomach.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:digestive-system-and-metabolism:the-small-intestine-liver-and-pancreas",
+          "slug": "the-small-intestine-liver-and-pancreas",
+          "title": "The Small Intestine, Liver, and Pancreas",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/digestive-system-and-metabolism/the-small-intestine-liver-and-pancreas.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:digestive-system-and-metabolism:the-large-intestine",
+          "slug": "the-large-intestine",
+          "title": "The Large Intestine",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/digestive-system-and-metabolism/the-large-intestine.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:digestive-system-and-metabolism:digestion-and-absorption-of-nutrients",
+          "slug": "digestion-and-absorption-of-nutrients",
+          "title": "Digestion and Absorption of Nutrients",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/digestive-system-and-metabolism/digestion-and-absorption-of-nutrients.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:digestive-system-and-metabolism:metabolism-and-energy-balance",
+          "slug": "metabolism-and-energy-balance",
+          "title": "Metabolism and Energy Balance",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/digestive-system-and-metabolism/metabolism-and-energy-balance.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:anatomy-physiology-2:urinary-system-and-fluid-balance",
+      "slug": "urinary-system-and-fluid-balance",
+      "title": "Urinary System and Fluid Balance",
+      "order": 6,
+      "aliases": [
+        {
+          "value": "urinary-system-and-fluid-balance",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "ap2-u06",
+          "kind": "source_unit_id",
+          "source_id": "prenursing_notes"
+        },
+        {
+          "value": "06-urinary-system-and-fluid-balance",
+          "kind": "source_directory",
+          "source_id": "prenursing_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:anatomy-physiology-2:urinary-system-and-fluid-balance:urinary-system-anatomy-and-the-nephron",
+          "slug": "urinary-system-anatomy-and-the-nephron",
+          "title": "Urinary System Anatomy and the Nephron",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/urinary-system-and-fluid-balance/urinary-system-anatomy-and-the-nephron.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:urinary-system-and-fluid-balance:glomerular-filtration",
+          "slug": "glomerular-filtration",
+          "title": "Glomerular Filtration",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/urinary-system-and-fluid-balance/glomerular-filtration.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:urinary-system-and-fluid-balance:tubular-reabsorption-and-secretion",
+          "slug": "tubular-reabsorption-and-secretion",
+          "title": "Tubular Reabsorption and Secretion",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/urinary-system-and-fluid-balance/tubular-reabsorption-and-secretion.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:urinary-system-and-fluid-balance:urine-concentration-and-regulation",
+          "slug": "urine-concentration-and-regulation",
+          "title": "Urine Concentration and Regulation",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/urinary-system-and-fluid-balance/urine-concentration-and-regulation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:urinary-system-and-fluid-balance:fluid-electrolyte-and-acid-base-balance",
+          "slug": "fluid-electrolyte-and-acid-base-balance",
+          "title": "Fluid, Electrolyte, and Acid–Base Balance",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/urinary-system-and-fluid-balance/fluid-electrolyte-and-acid-base-balance.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:anatomy-physiology-2:reproductive-system-and-human-development",
+      "slug": "reproductive-system-and-human-development",
+      "title": "Reproductive System and Human Development",
+      "order": 7,
+      "aliases": [
+        {
+          "value": "reproductive-system-and-human-development",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "ap2-u07",
+          "kind": "source_unit_id",
+          "source_id": "prenursing_notes"
+        },
+        {
+          "value": "07-reproductive-system-and-human-development",
+          "kind": "source_directory",
+          "source_id": "prenursing_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:anatomy-physiology-2:reproductive-system-and-human-development:male-reproductive-system",
+          "slug": "male-reproductive-system",
+          "title": "Male Reproductive System",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/reproductive-system-and-human-development/male-reproductive-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:reproductive-system-and-human-development:female-reproductive-system",
+          "slug": "female-reproductive-system",
+          "title": "Female Reproductive System",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/reproductive-system-and-human-development/female-reproductive-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:reproductive-system-and-human-development:the-female-reproductive-cycle",
+          "slug": "the-female-reproductive-cycle",
+          "title": "The Female Reproductive Cycle",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/reproductive-system-and-human-development/the-female-reproductive-cycle.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:reproductive-system-and-human-development:fertilization-and-early-development",
+          "slug": "fertilization-and-early-development",
+          "title": "Fertilization and Early Development",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/reproductive-system-and-human-development/fertilization-and-early-development.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:anatomy-physiology-2:reproductive-system-and-human-development:pregnancy-fetal-development-and-birth",
+          "slug": "pregnancy-fetal-development-and-birth",
+          "title": "Pregnancy, Fetal Development, and Birth",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/anatomy-physiology-2/topics/reproductive-system-and-human-development/pregnancy-fetal-development-and-birth.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 7,
+    "topicCount": 45,
+    "teachingTopicCount": 45,
+    "eli10TopicCount": 45,
+    "highYieldTopicCount": 45,
+    "referencedTopicCount": 45,
+    "exactOrMappedQuestionCount": 26,
+    "subjectWideQuestionCount": 621,
+    "uniqueQuestionCount": 647,
+    "citationReviewRequiredCount": 300
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

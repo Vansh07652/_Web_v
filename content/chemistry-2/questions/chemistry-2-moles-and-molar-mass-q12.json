@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-moles-and-molar-mass-q12",
+  "subject": "chemistry-2",
+  "lesson": "moles-and-molar-mass",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Four sealed vials each contain exactly 1 g of a pure gas: hydrogen (H2, 2.016 g/mol), helium (He, 4.003 g/mol), nitrogen (N2, 28.02 g/mol), and oxygen (O2, 32 g/mol). Which vial contains the greatest total number of atoms?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The oxygen vial, because its larger molar mass supplies more atomic material per gram"
+    },
+    {
+      "id": "b",
+      "text": "The helium vial, because single atoms give more particles per gram than bonded molecules do"
+    },
+    {
+      "id": "c",
+      "text": "The hydrogen vial, because it has both the smallest molar mass and two atoms per molecule"
+    },
+    {
+      "id": "d",
+      "text": "The nitrogen vial, because its molar mass balances particle count against atoms per molecule"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "At fixed mass, moles rise as molar mass falls, and the total atom count then scales with the atoms per formula unit. Hydrogen gives (1 g / 2.016 g/mol) x 2 = 0.992 mol of atoms, compared with 0.25 mol for helium, 0.0714 mol for nitrogen, and 0.0625 mol for oxygen. Being monatomic does not help helium enough, since each helium atom is nearly twice the mass of an entire H2 molecule, so the diatomic gas still wins on both factors combined.\n\nELI-10: Two factors decide atoms per gram: how light each particle is, and how many atoms each particle carries. Hydrogen leads on both. It is the lightest molecule there is, so 1 g gives about half a mole of molecules, and each molecule carries two atoms, doubling that to about 0.992 mole of atoms. Helium comes as single atoms, which sounds like an advantage, but one helium atom outweighs a whole H2 molecule, so 1 g yields only 0.25 mole of atoms. Lightest plus doubled beats single but heavier.",
+  "difficulty": "hard",
+  "tags": [
+    "molar mass and particle count",
+    "atoms per molecule",
+    "multi-step comparison"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-277",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

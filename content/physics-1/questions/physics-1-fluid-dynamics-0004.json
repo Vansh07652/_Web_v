@@ -1,0 +1,41 @@
+{
+  "id": "physics-1-fluid-dynamics-0004",
+  "subject": "physics-1",
+  "lesson": "fluid-dynamics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For applications to venturi meters lift and efflux, use $Q = A v$ in a continuity flow rate model. The first quantity is 2.30 m^2 and the second is 3.00 m/s. What is the volume flow rate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$6.90\\ \\text{m^3/s}$"
+    },
+    {
+      "id": "b",
+      "text": "$3.45\\ \\text{m^3/s}$"
+    },
+    {
+      "id": "c",
+      "text": "$13.80\\ \\text{m^3/s}$"
+    },
+    {
+      "id": "d",
+      "text": "$9.90\\ \\text{m^3/s}$"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Using $Q = A v$ gives 2.30 m^2 times 3.00 m/s = $6.90\\ \\text{m^3/s}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to m^3/s, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "applications",
+    "venturi",
+    "meters",
+    "lift",
+    "efflux"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-f069f3be0b6a57ec",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

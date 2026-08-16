@@ -1,0 +1,111 @@
+# Deploys the Study Compass site to GitHub Pages.
+#
+# HISTORY OF THIS TRIGGER
+# -----------------------
+# This workflow was previously `workflow_dispatch` only, on the grounds that the
+# live site deployed from a separate `NUR_WEB` repository and that firing on push
+# would make the two repos compete for the same GitHub Pages target.
+#
+# On 2026-08-14 that reasoning was re-checked and no longer holds:
+#
+#   * `NUR_WEB` is unreachable — `git ls-remote` returns 403 and a fetch yields
+#     no refs, so nothing here can confirm it still exists or still deploys.
+#   * The live site was proven to be built WITHOUT the canonical curriculum:
+#     https://medmosa.org/subjects/biology-1        -> 200
+#     https://medmosa.org/learn/anatomy-physiology-1 -> 404
+#     That matches this repository's state before the curriculum was committed,
+#     which is strong evidence this repo is the one serving the domain.
+#   * All 28 courses, 782 topics and 5,412 questions have therefore never been
+#     live for a single student.
+#
+# TO REVERT: delete the `push:` block below, leaving `workflow_dispatch:` alone.
+# If GitHub reports the custom domain is already in use, release it from the
+# other repository first (Settings -> Pages -> remove custom domain); a domain
+# can only belong to one GitHub Pages site at a time.
+#
+# SAFETY: the validation step below runs before anything is published. If the
+# typecheck, tests or validators fail, the deploy never runs and the live site
+# is left exactly as it is.
+
+name: Deploy GitHub Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "**"
+      - ".github/workflows/deploy-pages.yml"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    defaults:
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      # `enablement: true` was removed on 2026-08-14. It calls the "create Pages
+      # site" API, which this workflow's token is not allowed to use — the run
+      # failed with "Create Pages site failed. Resource not accessible by
+      # integration", and a failed build job means the deploy job never runs.
+      # Pages is already enabled for this repository and already owns the custom
+      # domain (https://vansh07652.github.io/ELI_Nur_Web/ 302-redirects to
+      # https://medmosa.org), so there is nothing left to create.
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Validate deployable source
+        run: >-
+          npm run typecheck &&
+          npm test &&
+          npm run build:books &&
+          npm run validate:books &&
+          npm run validate:source &&
+          npm run validate:routes &&
+          npm run check:links &&
+          npm run check:assets &&
+          npm run scan:secrets
+
+      - name: Build production site
+        run: npm run build:pages
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    timeout-minutes: 10
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-regulation-prokaryotes-0001",
+  "subject": "genetics",
+  "lesson": "gene-regulation-prokaryotes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept Which statement correctly describes regulation of the lac operon?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The lac operon is inducible: transcription is low in the absence of lactose and high when lactose is present."
+    },
+    {
+      "id": "b",
+      "text": "The lac operon is repressible: transcription is high by default and stopped when lactose accumulates."
+    },
+    {
+      "id": "c",
+      "text": "The Lac repressor activates transcription when lactose is absent and falls off when lactose is present."
+    },
+    {
+      "id": "d",
+      "text": "The lac operon is transcribed constitutively, regardless of lactose levels."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The Lac repressor, encoded by *lacI*, binds the *lacO* operator and blocks transcription of *lacZ* and *lacY* until lactose inactivates the repressor. An inducible operon is off by default and turned on by its inducer, which is the lac pattern. B describes a repressible operon such as trp, C reverses the repressor's role, and D ignores the operator control entirely.",
+  "difficulty": "unknown",
+  "tags": [
+    "lac",
+    "operon",
+    "inducibility"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-3367b1216fd616d4",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

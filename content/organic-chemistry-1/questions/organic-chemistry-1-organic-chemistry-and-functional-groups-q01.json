@@ -1,0 +1,40 @@
+{
+  "id": "organic-chemistry-1-organic-chemistry-and-functional-groups-q01",
+  "subject": "organic-chemistry-1",
+  "lesson": "organic-chemistry-and-functional-groups",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which description correctly defines the carboxyl functional group?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A carbon atom bonded to nitrogen with no oxygen on that carbon (C—N)"
+    },
+    {
+      "id": "b",
+      "text": "A carbonyl carbon that also carries a hydroxyl group (—COOH)"
+    },
+    {
+      "id": "c",
+      "text": "A carbonyl carbon bonded to two other carbon atoms (C—CO—C)"
+    },
+    {
+      "id": "d",
+      "text": "An oxygen atom bridging two carbon-containing groups (C—O—C)"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "A carboxyl group places a carbonyl (C=O) and a hydroxyl (—OH) on the same carbon, giving the condensed formula —COOH and two oxygen atoms per group. That arrangement is what makes carboxylic acids acidic (typical pKa 4 to 5), because loss of the —OH proton yields a carboxylate anion whose charge is delocalized over both oxygens. The distractors describe an amine linkage, a ketone, and an ether, none of which has an —OH bound to a carbonyl carbon and none of which is appreciably acidic.\n\nELI-10: A functional group is the reactive part bolted onto an otherwise unreactive carbon chain, and the carboxyl group is two parts bolted to one carbon: a double-bonded oxygen and an —OH. Neither part alone is acidic, but together the double-bonded oxygen pulls electron density away from the —OH, so that hydrogen leaves as H+ much more readily. Count the oxygens in —COOH and you get 1 + 1 = 2, which is the quickest way to tell a carboxyl from a plain alcohol on an exam structure.",
+  "difficulty": "easy",
+  "tags": [
+    "functional groups",
+    "carboxylic acid",
+    "carbonyl",
+    "hydroxyl"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-281",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

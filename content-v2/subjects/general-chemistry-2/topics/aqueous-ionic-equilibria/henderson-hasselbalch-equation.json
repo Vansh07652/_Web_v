@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:aqueous-ionic-equilibria:henderson-hasselbalch-equation",
+  "slug": "henderson-hasselbalch-equation",
+  "title": "The Henderson–Hasselbalch Equation",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:aqueous-ionic-equilibria",
+    "slug": "aqueous-ionic-equilibria",
+    "title": "Aqueous Ionic Equilibria",
+    "order": 6
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "The **Henderson–Hasselbalch equation** is a rearranged, log-form version of the Ka expression that makes buffer pH easy to read: **pH = pKa + log([A⁻]/[HA])**. It says buffer pH is set by the pKa of the weak acid plus a correction for the ratio of conjugate base to acid. When the two concentrations are equal, pH = pKa. The equation is a *shortcut, not a new law* — it assumes the approximations of the common-ion ICE table (that x is small), so it is accurate for buffers where both members are present at appreciable, comparable concentrations.",
+    "whyItMatters": "The Henderson–Hasselbalch equation is the practical tool of buffer design in the lab, in pharmacy (formulating IV fluids and drugs near physiological pH), and in physiology (calculating blood pH from [HCO₃⁻]/[H₂CO₃]). It turns \"make a pH-7.4 solution\" from trial-and-error into a one-line calculation.",
+    "learningObjectives": "- Derive the Henderson–Hasselbalch equation from the Ka expression.\n- Use it to calculate buffer pH from the [A⁻]/[HA] ratio.\n- Recognize its assumptions and limits.\n- Solve for the ratio needed to hit a target pH.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe **Henderson–Hasselbalch equation** is a rearranged, log-form version of the Ka expression that makes buffer pH easy to read: **pH = pKa + log([A⁻]/[HA])**. It says buffer pH is set by the pKa of the weak acid plus a correction for the ratio of conjugate base to acid. When the two concentrations are equal, pH = pKa. The equation is a *shortcut, not a new law* — it assumes the approximations of the common-ion ICE table (that x is small), so it is accurate for buffers where both members are present at appreciable, comparable concentrations.\n\n### Key Ideas\n\n- **Origin:** take −log of Ka = [H₃O⁺][A⁻]/[HA] and solve for pH.\n- **Form:** pH = pKa + log([A⁻]/[HA]).\n- **Equal concentrations:** [A⁻] = [HA] ⇒ log(1) = 0 ⇒ pH = pKa.\n- **Ratio matters, not total amount:** diluting a buffer changes [A⁻] and [HA] by the same factor, so the ratio (and pH) stays nearly constant.\n- **Base version:** pOH = pKb + log([BH⁺]/[B]).\n- **Assumptions:** x is negligible compared to both [HA] and [A⁻]; activity effects ignored.\n\n### Equations and Variables\n\n- Ka = [H₃O⁺][A⁻] / [HA]\n- pH = pKa + log([A⁻]/[HA])\n- pOH = pKb + log([BH⁺]/[B])\n- Target ratio: [A⁻]/[HA] = 10^(pH − pKa)\n\n### How It Works\n\n1. Start from the equilibrium expression Ka = [H₃O⁺][A⁻]/[HA].\n2. Solve for [H₃O⁺]: [H₃O⁺] = Ka × [HA]/[A⁻].\n3. Take the negative log of both sides: −log[H₃O⁺] = −log Ka − log([HA]/[A⁻]).\n4. Apply the definitions pH = −log[H₃O⁺] and pKa = −log Ka, and flip the sign of the last log (since −log([HA]/[A⁻]) = +log([A⁻]/[HA])).\n5. Result: pH = pKa + log([A⁻]/[HA]). To design a buffer, invert it: choose a weak acid with pKa near the target, then set the ratio [A⁻]/[HA] = 10^(pH − pKa).\n\n### Worked Example\n\n**You need a buffer at pH 5.00. Acetic acid has pKa = 4.74. What [CH₃COO⁻]/[CH₃COOH] ratio is required?**\n\npH − pKa = 5.00 − 4.74 = 0.26\n\n[A⁻]/[HA] = 10^0.26 = 1.8\n\nSo you need about 1.8 times as much acetate as acetic acid (e.g., 0.18 M CH₃COO⁻ with 0.10 M CH₃COOH). Check: pH = 4.74 + log(1.8) = 4.74 + 0.26 = 5.00 ✓.",
+    "howItWorks": "1. Start from the equilibrium expression Ka = [H₃O⁺][A⁻]/[HA].\n2. Solve for [H₃O⁺]: [H₃O⁺] = Ka × [HA]/[A⁻].\n3. Take the negative log of both sides: −log[H₃O⁺] = −log Ka − log([HA]/[A⁻]).\n4. Apply the definitions pH = −log[H₃O⁺] and pKa = −log Ka, and flip the sign of the last log (since −log([HA]/[A⁻]) = +log([A⁻]/[HA])).\n5. Result: pH = pKa + log([A⁻]/[HA]). To design a buffer, invert it: choose a weak acid with pKa near the target, then set the ratio [A⁻]/[HA] = 10^(pH − pKa).",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- pH = pKa + log([A⁻]/[HA]); pOH = pKb + log([BH⁺]/[B]).\n- [A⁻] = [HA] ⇒ pH = pKa.\n- To hit pH, pick pKa near target and set [A⁻]/[HA] = 10^(pH − pKa).\n- Dilution (adding water) barely changes buffer pH because the ratio is unchanged.\n- The equation is a rearranged Ka expression, valid when x is small.",
+    "commonConfusions": "- **\"It's a new fundamental law.\"** — It is just the Ka expression with logs; nothing new, only convenient.\n- **\"Adding water changes buffer pH.\"** — Dilution changes [A⁻] and [HA] by the same factor, so the ratio — and pH — barely changes (a tiny shift remains because the x-small assumption improves).\n- **\"Use molarity of the salt and acid before mixing.\"** — Use the *equilibrium* (post-stoichiometry) concentrations; if strong acid/base was added, do stoichiometry first.\n- **\"It works for any acid.\"** — It is meant for buffers (weak acid + conjugate base); it fails for strong acids or very dilute buffers.\n- **\"log([A⁻]/[HA]) is always positive.\"** — If [HA] > [A⁻], the ratio is < 1 and the log is negative, so pH < pKa.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of the equation as a recipe card. pKa is the acid's \"natural\" pH — where it has exactly equal amounts of acid and base forms. The log term is the seasoning: if you have more base form than acid form, you nudge the pH up; more acid form, nudge it down. The log just converts \"how many times more\" into a small add-on number. (The limit: the recipe assumes the acid is weak and both ingredients are present in real amounts — it breaks down if one ingredient is nearly gone.)",
+    "quickReview": "- pH = pKa + log([A⁻]/[HA]).\n- Derived from Ka by taking −log and rearranging.\n- Equal concentrations ⇒ pH = pKa.\n- Target ratio: [A⁻]/[HA] = 10^(pH − pKa).\n- Dilution preserves the ratio, so pH stays nearly constant.",
+    "workedExamples": "### Worked Example\n\n**You need a buffer at pH 5.00. Acetic acid has pKa = 4.74. What [CH₃COO⁻]/[CH₃COOH] ratio is required?**\n\npH − pKa = 5.00 − 4.74 = 0.26\n\n[A⁻]/[HA] = 10^0.26 = 1.8\n\nSo you need about 1.8 times as much acetate as acetic acid (e.g., 0.18 M CH₃COO⁻ with 0.10 M CH₃COOH). Check: pH = 4.74 + log(1.8) = 4.74 + 0.26 = 5.00 ✓.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.6 Buffers.\" https://openstax.org/books/chemistry-2e/pages/14-6-buffers",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-6-buffers"
+      },
+      {
+        "text": "Chem LibreTexts, \"Henderson-Hasselbalch Approximation.\" https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Acids_and_Bases/Buffers/Henderson-Hasselbalch_Approximation",
+        "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Acids_and_Bases/Buffers/Henderson-Hasselbalch_Approximation"
+      },
+      {
+        "text": "PubChem, \"Acetic Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Acetic-acid",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Acetic-acid"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "henderson-hasselbalch-equation",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "03-henderson-hasselbalch-equation",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:344551e7685cabaf"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:344551e7685cabaf"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:344551e7685cabaf"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:344551e7685cabaf"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/15-aqueous-ionic-equilibria/03-henderson-hasselbalch-equation.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# The Henderson–Hasselbalch Equation\n\n## Learning Goals\n- Derive the Henderson–Hasselbalch equation from the Ka expression.\n- Use it to calculate buffer pH from the [A⁻]/[HA] ratio.\n- Recognize its assumptions and limits.\n- Solve for the ratio needed to hit a target pH.\n\n## Core Concept\nThe **Henderson–Hasselbalch equation** is a rearranged, log-form version of the Ka expression that makes buffer pH easy to read: **pH = pKa + log([A⁻]/[HA])**. It says buffer pH is set by the pKa of the weak acid plus a correction for the ratio of conjugate base to acid. When the two concentrations are equal, pH = pKa. The equation is a *shortcut, not a new law* — it assumes the approximations of the common-ion ICE table (that x is small), so it is accurate for buffers where both members are present at appreciable, comparable concentrations.\n\n## Key Ideas\n- **Origin:** take −log of Ka = [H₃O⁺][A⁻]/[HA] and solve for pH.\n- **Form:** pH = pKa + log([A⁻]/[HA]).\n- **Equal concentrations:** [A⁻] = [HA] ⇒ log(1) = 0 ⇒ pH = pKa.\n- **Ratio matters, not total amount:** diluting a buffer changes [A⁻] and [HA] by the same factor, so the ratio (and pH) stays nearly constant.\n- **Base version:** pOH = pKb + log([BH⁺]/[B]).\n- **Assumptions:** x is negligible compared to both [HA] and [A⁻]; activity effects ignored.\n\n## Equations and Variables\n- Ka = [H₃O⁺][A⁻] / [HA]\n- pH = pKa + log([A⁻]/[HA])\n- pOH = pKb + log([BH⁺]/[B])\n- Target ratio: [A⁻]/[HA] = 10^(pH − pKa)\n\n## How It Works\n1. Start from the equilibrium expression Ka = [H₃O⁺][A⁻]/[HA].\n2. Solve for [H₃O⁺]: [H₃O⁺] = Ka × [HA]/[A⁻].\n3. Take the negative log of both sides: −log[H₃O⁺] = −log Ka − log([HA]/[A⁻]).\n4. Apply the definitions pH = −log[H₃O⁺] and pKa = −log Ka, and flip the sign of the last log (since −log([HA]/[A⁻]) = +log([A⁻]/[HA])).\n5. Result: pH = pKa + log([A⁻]/[HA]). To design a buffer, invert it: choose a weak acid with pKa near the target, then set the ratio [A⁻]/[HA] = 10^(pH − pKa).\n\n## Worked Example\n**You need a buffer at pH 5.00. Acetic acid has pKa = 4.74. What [CH₃COO⁻]/[CH₃COOH] ratio is required?**\n\npH − pKa = 5.00 − 4.74 = 0.26\n\n[A⁻]/[HA] = 10^0.26 = 1.8\n\nSo you need about 1.8 times as much acetate as acetic acid (e.g., 0.18 M CH₃COO⁻ with 0.10 M CH₃COOH). Check: pH = 4.74 + log(1.8) = 4.74 + 0.26 = 5.00 ✓.\n\n## Why It Matters\nThe Henderson–Hasselbalch equation is the practical tool of buffer design in the lab, in pharmacy (formulating IV fluids and drugs near physiological pH), and in physiology (calculating blood pH from [HCO₃⁻]/[H₂CO₃]). It turns \"make a pH-7.4 solution\" from trial-and-error into a one-line calculation.\n\n## High-Yield Facts\n- pH = pKa + log([A⁻]/[HA]); pOH = pKb + log([BH⁺]/[B]).\n- [A⁻] = [HA] ⇒ pH = pKa.\n- To hit pH, pick pKa near target and set [A⁻]/[HA] = 10^(pH − pKa).\n- Dilution (adding water) barely changes buffer pH because the ratio is unchanged.\n- The equation is a rearranged Ka expression, valid when x is small.\n\n## Eli Explains\nThink of the equation as a recipe card. pKa is the acid's \"natural\" pH — where it has exactly equal amounts of acid and base forms. The log term is the seasoning: if you have more base form than acid form, you nudge the pH up; more acid form, nudge it down. The log just converts \"how many times more\" into a small add-on number. (The limit: the recipe assumes the acid is weak and both ingredients are present in real amounts — it breaks down if one ingredient is nearly gone.)\n\n## Common Confusions\n- **\"It's a new fundamental law.\"** — It is just the Ka expression with logs; nothing new, only convenient.\n- **\"Adding water changes buffer pH.\"** — Dilution changes [A⁻] and [HA] by the same factor, so the ratio — and pH — barely changes (a tiny shift remains because the x-small assumption improves).\n- **\"Use molarity of the salt and acid before mixing.\"** — Use the *equilibrium* (post-stoichiometry) concentrations; if strong acid/base was added, do stoichiometry first.\n- **\"It works for any acid.\"** — It is meant for buffers (weak acid + conjugate base); it fails for strong acids or very dilute buffers.\n- **\"log([A⁻]/[HA]) is always positive.\"** — If [HA] > [A⁻], the ratio is < 1 and the log is negative, so pH < pKa.\n\n## Quick Review\n- pH = pKa + log([A⁻]/[HA]).\n- Derived from Ka by taking −log and rearranging.\n- Equal concentrations ⇒ pH = pKa.\n- Target ratio: [A⁻]/[HA] = 10^(pH − pKa).\n- Dilution preserves the ratio, so pH stays nearly constant.\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"14.6 Buffers.\" https://openstax.org/books/chemistry-2e/pages/14-6-buffers\n- Chem LibreTexts, \"Henderson-Hasselbalch Approximation.\" https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Acids_and_Bases/Buffers/Henderson-Hasselbalch_Approximation\n- PubChem, \"Acetic Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Acetic-acid\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n"
+}

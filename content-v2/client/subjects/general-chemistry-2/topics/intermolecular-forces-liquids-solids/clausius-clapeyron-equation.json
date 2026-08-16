@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:intermolecular-forces-liquids-solids:clausius-clapeyron-equation",
+  "slug": "clausius-clapeyron-equation",
+  "title": "The Clausius–Clapeyron Equation",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:intermolecular-forces-liquids-solids",
+    "slug": "intermolecular-forces-liquids-solids",
+    "title": "Intermolecular Forces Liquids Solids",
+    "order": 1
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "The Clausius–Clapeyron equation quantifies how a liquid's vapor pressure rises with temperature. Because vaporization is endothermic, more molecules can escape at higher temperature, and the relationship is exponential. In its two-point form, ln(P₂/P₁) = −(ΔHᵥₐₚ/R)(1/T₂ − 1/T₁), the equation lets you calculate the vapor pressure at one temperature if you know it at another, given the enthalpy of vaporization ΔHᵥₐₚ.",
+    "whyItMatters": "- **Meteorology:** relates humidity, dew point, and saturation vapor pressure to temperature.\n- **Boiling at altitude / pressure cooking:** predicts boiling points at non-standard pressures.\n- **Engineering:** design of distillation columns, evaporators, and steam systems.\n- **Safety:** estimates how much flammable vapor a solvent generates at a given temperature.",
+    "learningObjectives": "- State the two-point (integrated) form of the Clausius–Clapeyron equation.\n- Use it to find a vapor pressure at a new temperature (or a temperature at a new pressure).\n- Explain why the equation requires absolute (Kelvin) temperatures and constant ΔHᵥₐₚ.\n- Interpret the slope of a plot of ln P versus 1/T.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe Clausius–Clapeyron equation quantifies how a liquid's vapor pressure rises with temperature. Because vaporization is endothermic, more molecules can escape at higher temperature, and the relationship is exponential. In its two-point form, ln(P₂/P₁) = −(ΔHᵥₐₚ/R)(1/T₂ − 1/T₁), the equation lets you calculate the vapor pressure at one temperature if you know it at another, given the enthalpy of vaporization ΔHᵥₐₚ.\n\n### Key Ideas\n\n### The underlying physics\n- Vaporization is endothermic (ΔHᵥₐₚ > 0). Raising temperature shifts the kinetic-energy distribution so more molecules exceed the escape threshold.\n- Vapor pressure therefore increases exponentially, not linearly, with temperature.\n\n### The two forms\n- **Linear/graphical form:** ln P = −(ΔHᵥₐₚ/R)(1/T) + C. A plot of ln P vs. 1/T is a straight line with slope −ΔHᵥₐₚ/R.\n- **Two-point form (most used in exams):** ln(P₂/P₁) = −(ΔHᵥₐₚ/R)(1/T₂ − 1/T₁).\n\n### Assumptions\n- ΔHᵥₐₚ is treated as constant over the temperature range (it actually varies slightly with T).\n- Temperatures must be in **kelvin**; pressures may be in any consistent units.\n- Valid below the critical point, away from extreme conditions.\n\n### Equations and Variables\n\n- **Clausius–Clapeyron (two-point):** ln(P₂/P₁) = −(ΔHᵥₐₚ/R)(1/T₂ − 1/T₁)\n  - P₁, P₂ = vapor pressures at temperatures T₁, T₂ (same units for P)\n  - T₁, T₂ = absolute temperatures in **kelvin**\n  - ΔHᵥₐₚ = molar enthalpy of vaporization (J/mol, to match R)\n  - R = 8.314 J/(mol·K)\n- **Graphical form:** ln P = −(ΔHᵥₐₚ/R)(1/T) + C; slope = −ΔHᵥₐₚ/R.\n\n### How It Works\n\n1. **Start with known (P₁, T₁).** You typically know the normal boiling point (T where P = 1 atm) or a tabulated vapor pressure.\n2. **Convert temperatures to kelvin.** T(K) = T(°C) + 273.15. Using °C gives nonsense results.\n3. **Make units consistent.** Put ΔHᵥₐₚ in J/mol so it cancels with R = 8.314 J/mol·K.\n4. **Compute the exponent.** Evaluate (1/T₂ − 1/T₁), multiply by −ΔHᵥₐₚ/R.\n5. **Solve.** Exponentiate to find P₂/P₁, then P₂. To find a boiling point at a given pressure, solve for T₂ instead.\n\n### Worked Example\n\nThe normal boiling point of water is 100 °C (P₁ = 760 torr at T₁ = 373.15 K), and ΔHᵥₐₚ = 40.7 kJ/mol. Estimate the vapor pressure of water at 25 °C.\n\n1. **Convert.** T₁ = 373.15 K, T₂ = 25 + 273.15 = 298.15 K, ΔHᵥₐₚ = 40,700 J/mol.\n2. **Compute 1/T₂ − 1/T₁.** 1/298.15 − 1/373.15 = 0.003354 − 0.002680 = 0.000674 K⁻¹.\n3. **Compute the exponent.** −(ΔHᵥₐₚ/R)(1/T₂ − 1/T₁) = −(40,700 / 8.314)(0.000674) = −(4895)(0.000674) = −3.30.\n4. **Exponentiate.** ln(P₂/760) = −3.30 → P₂/760 = e⁻³·³⁰ = 0.0369.\n5. **Solve.** P₂ = 760 × 0.0369 = **28 torr** (measured value ≈ 23.8 torr; the small difference reflects ΔHᵥₐₚ varying with temperature).",
+    "howItWorks": "1. **Start with known (P₁, T₁).** You typically know the normal boiling point (T where P = 1 atm) or a tabulated vapor pressure.\n2. **Convert temperatures to kelvin.** T(K) = T(°C) + 273.15. Using °C gives nonsense results.\n3. **Make units consistent.** Put ΔHᵥₐₚ in J/mol so it cancels with R = 8.314 J/mol·K.\n4. **Compute the exponent.** Evaluate (1/T₂ − 1/T₁), multiply by −ΔHᵥₐₚ/R.\n5. **Solve.** Exponentiate to find P₂/P₁, then P₂. To find a boiling point at a given pressure, solve for T₂ instead.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- ln(P₂/P₁) = −(ΔHᵥₐₚ/R)(1/T₂ − 1/T₁).\n- Temperatures MUST be in kelvin.\n- ΔHᵥₐₚ in J/mol matches R = 8.314 J/mol·K.\n- Slope of ln P vs. 1/T is −ΔHᵥₐₚ/R.\n- Larger ΔHᵥₐₚ → steeper slope → vapor pressure changes more with temperature.\n- The equation assumes constant ΔHᵥₐₚ (an approximation).",
+    "commonConfusions": "- **\"I can use Celsius in the equation.\"** — Wrong. The 1/T terms must use absolute temperature (kelvin); Celsius gives incorrect ratios.\n- **\"Any unit for ΔHᵥₐₚ works.\"** — Wrong. Use J/mol to match R = 8.314 J/mol·K (or kJ/mol with R = 0.008314 kJ/mol·K).\n- **\"The two pressures can be in different units.\"** — Wrong. P₁ and P₂ must share the same units (they cancel in the ratio).\n- **\"Vapor pressure rises linearly with temperature.\"** — Wrong. It rises exponentially (hence the ln form).\n- **\"The slope is +ΔHᵥₐₚ/R.\"** — Wrong. The slope of ln P vs. 1/T is negative, −ΔHᵥₐₚ/R.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nVapor pressure is like how many kids are jumping out of a bouncy castle. When it's warm, everyone is bouncing higher, so way more kids fly out over the walls. The rule that tells you *exactly how many more* kids fly out when you turn the heat up a little is the Clausius–Clapeyron equation. The \"hill\" the kids have to climb to escape is ΔHᵥₐₚ (the energy to vaporize) — the taller the hill, the more dramatically the number of escapees changes with temperature. (The analogy's limit: the equation doesn't count individual kids; it predicts the *ratio* of pressures at two temperatures, and it assumes the \"hill height\" doesn't change, which is only approximately true.)",
+    "quickReview": "- Two-point form: ln(P₂/P₁) = −(ΔHᵥₐₚ/R)(1/T₂ − 1/T₁).\n- Use kelvin; use consistent pressure units; ΔHᵥₐₚ in J/mol.\n- ln P vs. 1/T is linear with slope −ΔHᵥₐₚ/R.\n- Worked: water, 760 torr at 373 K → ≈28 torr at 298 K.",
+    "workedExamples": "### Worked Example\n\nThe normal boiling point of water is 100 °C (P₁ = 760 torr at T₁ = 373.15 K), and ΔHᵥₐₚ = 40.7 kJ/mol. Estimate the vapor pressure of water at 25 °C.\n\n1. **Convert.** T₁ = 373.15 K, T₂ = 25 + 273.15 = 298.15 K, ΔHᵥₐₚ = 40,700 J/mol.\n2. **Compute 1/T₂ − 1/T₁.** 1/298.15 − 1/373.15 = 0.003354 − 0.002680 = 0.000674 K⁻¹.\n3. **Compute the exponent.** −(ΔHᵥₐₚ/R)(1/T₂ − 1/T₁) = −(40,700 / 8.314)(0.000674) = −(4895)(0.000674) = −3.30.\n4. **Exponentiate.** ln(P₂/760) = −3.30 → P₂/760 = e⁻³·³⁰ = 0.0369.\n5. **Solve.** P₂ = 760 × 0.0369 = **28 torr** (measured value ≈ 23.8 torr; the small difference reflects ΔHᵥₐₚ varying with temperature).",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"10.3 Phase Transitions.\" https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+        "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions"
+      },
+      {
+        "text": "NIST Chemistry WebBook, \"Water.\" https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185",
+        "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e* (book home). https://openstax.org/details/books/chemistry-2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      },
+      {
+        "text": "PubChem, \"Water\" (compound 962). https://pubchem.ncbi.nlm.nih.gov/compound/962",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/10-intermolecular-forces-liquids-solids/04-clausius-clapeyron-equation.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

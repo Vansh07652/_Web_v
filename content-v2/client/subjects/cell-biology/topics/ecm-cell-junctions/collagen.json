@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:ecm-cell-junctions:collagen",
+  "slug": "collagen",
+  "title": "Collagen",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:ecm-cell-junctions",
+    "slug": "ecm-cell-junctions",
+    "title": "ECM Cell Junctions",
+    "order": 9
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "**Collagen** is the most abundant protein in mammals, accounting for roughly 25–30% of total body protein. It is the principal tensile-strength element of the ECM: its rope-like triple-helical fibrils resist stretching, giving structural integrity to skin, bone, tendon, cartilage, and blood vessels. Collagen is not a single protein but a family of ~28 types, built from three polypeptide (α) chains with a repeating **Gly-X-Y** sequence, where X is often proline and Y is often hydroxyproline. The glycine in every third position is essential because its tiny side chain fits into the crowded center of the triple helix.",
+    "whyItMatters": "Collagen determines the mechanical properties of virtually every tissue. Its deficiency or defect causes disease: **scurvy** (vitamin C deficiency → unstable collagen → bleeding gums, poor wound healing), **osteogenesis imperfecta** (brittle bones from type I collagen mutations), and **Ehlers–Danlos syndrome** (some forms from defective collagen processing). Collagen is also the basis of wound healing, cosmetic and reconstructive applications, and engineered tissue scaffolds.",
+    "learningObjectives": "- Describe collagen's triple-helical structure and the Gly-X-Y repeat.\n- Outline the biosynthetic pathway from procollagen to crosslinked fibril.\n- Explain the role of vitamin C in collagen synthesis and the consequences of its deficiency.\n- Distinguish the major collagen types and their tissue functions.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Collagen** is the most abundant protein in mammals, accounting for roughly 25–30% of total body protein. It is the principal tensile-strength element of the ECM: its rope-like triple-helical fibrils resist stretching, giving structural integrity to skin, bone, tendon, cartilage, and blood vessels. Collagen is not a single protein but a family of ~28 types, built from three polypeptide (α) chains with a repeating **Gly-X-Y** sequence, where X is often proline and Y is often hydroxyproline. The glycine in every third position is essential because its tiny side chain fits into the crowded center of the triple helix.\n\n### Key Components\n\n- **Triple helix:** three left-handed α chains wound into a right-handed superhelix.\n- **Gly-X-Y repeat:** glycine every third residue; proline and hydroxyproline stabilize the helix.\n- **Hydroxyproline / hydroxylysine:** post-translational modifications requiring vitamin C.\n- **Procollagen:** the soluble precursor with globular propeptides at each end.\n- **Fibrillar collagens (types I, II, III):** form the major banded fibrils (type I in bone/tendon/skin, II in cartilage, III in extensible tissues).\n- **Type IV collagen:** a network-forming collagen in the basal lamina.\n- **Lysyl oxidase:** crosslinks collagen molecules into stable fibrils.\n\n### Mechanism\n\nCollagen α chains are synthesized on the rough ER as pre-procollagen, where proline and lysine residues are hydroxylated by prolyl and lysyl hydroxylases (vitamin C–dependent). Three chains assemble, register their C-terminal propeptides, and zipper into a triple helix (procollagen). After secretion, propeptides are cleaved, and the resulting tropocollagen molecules self-assemble into staggered fibrils, which are then covalently crosslinked by lysyl oxidase to form strong, stable fibers. Hydroxylation is critical: hydroxyproline's hydroxyl groups form stabilizing hydrogen bonds and water bridges, and without it the triple helix is unstable.\n\n### How It Works\n\n1. α chains are synthesized and hydroxylated in the ER (requires vitamin C).\n2. Three chains assemble into a procollagen triple helix.\n3. Procollagen is secreted; propeptides are cleaved extracellularly.\n4. Tropocollagen molecules self-assemble into staggered fibrils.\n5. Lysyl oxidase introduces covalent crosslinks between molecules.\n6. Crosslinked fibrils bundle into fibers, providing tensile strength.\n\n### Energy and Directionality\n\nCollagen synthesis is energy-intensive: protein translation consumes GTP/ATP, and the hydroxylation and crosslinking reactions require molecular oxygen and cofactors (ascorbate for hydroxylases; copper for lysyl oxidase). Fibril assembly is thermodynamically favorable self-assembly, but the covalent crosslinks make the final structure effectively irreversible, giving tissues durable, load-bearing strength. The direction of the pathway — synthesis → modification → assembly → crosslinking — is unidirectional and tightly quality-controlled.\n\n### Experimental Evidence\n\n- **X-ray diffraction:** established the triple-helical structure and its repeating periodicity.\n- **SDS-PAGE and biochemistry:** revealed the α-chain composition and the unusual hydroxyproline content.\n- **Scurvy studies:** showed vitamin C is required for collagen hydroxylation; without it, blood vessels and wounds fail (historically in sailors).\n- **Genetics:** mutations in type I collagen cause **osteogenesis imperfecta** (\"brittle bone disease\"), linking specific collagen genes to tissue strength.\n\n### Technique\n\n- **Mass spectrometry / amino-acid analysis** — quantify hydroxyproline as a collagen marker.\n- **SDS-PAGE** — separate collagen α chains.\n- **Masson's trichrome stain** — visualize collagen fibers in tissue (blue/green).\n- **Electron microscopy** — observe the 67-nm banding pattern of fibrils.\n- **Genetic testing** — identify collagen mutations in connective-tissue disorders.",
+    "howItWorks": "1. α chains are synthesized and hydroxylated in the ER (requires vitamin C).\n2. Three chains assemble into a procollagen triple helix.\n3. Procollagen is secreted; propeptides are cleaved extracellularly.\n4. Tropocollagen molecules self-assemble into staggered fibrils.\n5. Lysyl oxidase introduces covalent crosslinks between molecules.\n6. Crosslinked fibrils bundle into fibers, providing tensile strength.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Collagen = most abundant mammalian protein (~25–30% of total protein).\n- Structure: **triple helix** of three α chains with **Gly-X-Y** repeats; glycine every third residue.\n- **Hydroxyproline** (vitamin C–dependent) stabilizes the helix.\n- Pathway: procollagen → propeptide cleavage → tropocollagen → fibril → **lysyl-oxidase crosslinks**.\n- Type I (bone/tendon/skin), II (cartilage), III (extensible), IV (basal lamina network).\n- **Scurvy** = vitamin C deficiency; **osteogenesis imperfecta** = type I collagen defects.",
+    "commonConfusions": "- **\"Collagen is one protein.\"** — It is a family of ~28 types with distinct structures and tissue roles.\n- **\"Vitamin C is a building block of collagen.\"** — It is a *cofactor* for the hydroxylation enzymes, not a component of the protein.\n- **\"Collagen makes tissues stretchy.\"** — Collagen provides *tensile strength* (resists stretching); elastin provides elasticity.\n- **\"Collagen is only in bones and skin.\"** — It is in nearly all connective tissues, including blood vessels, cornea, and cartilage.\n- **\"The triple helix forms inside the cell as final fibrils.\"** — Final fibril assembly and crosslinking occur *outside* the cell.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine collagen as a three-strand rope. Three separate strands twist around each other, and every third rung is a tiny \"glycine\" hook that has to stay small so the three strands can pack tightly. Vitamin C is like the worker who welds extra handles (hydroxyl groups) onto the rope so the strands grip each other. Without vitamin C, the welds fail, the rope unravels, and the body's \"ropes\" — blood vessels, gums, skin — get weak and tear easily. That's exactly what scurvy is. (The rope analogy omits the many collagen types and the fact that some collagens form sheets rather than ropes.)",
+    "quickReview": "- Collagen = triple helix of α chains, Gly-X-Y repeats, most abundant protein.\n- Synthesis: hydroxylation (vitamin C) → procollagen → secretion → cleavage → fibrils → crosslinks (lysyl oxidase).\n- Types: I (bone/tendon/skin), II (cartilage), IV (basal lamina).\n- Diseases: scurvy, osteogenesis imperfecta.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"collagen.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/collagen",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/collagen"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"The Extracellular Matrix of Animals.\" https://www.ncbi.nlm.nih.gov/books/NBK26810/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26810/"
+      },
+      {
+        "text": "MedlinePlus Genetics, \"Osteogenesis imperfecta.\" https://medlineplus.gov/genetics/condition/osteogenesis-imperfecta/",
+        "url": "https://medlineplus.gov/genetics/condition/osteogenesis-imperfecta/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"4.6 Connections between Cells and Cellular Activities.\" https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities",
+        "url": "https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/09-ecm-cell-junctions/02-collagen.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

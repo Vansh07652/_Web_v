@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-chemical-reactions-and-equations-q06",
+  "subject": "chemistry-1",
+  "lesson": "chemical-reactions-and-equations",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In a teaching demonstration, hydrochloric acid is neutralized by calcium hydroxide: 2 HCl + Ca(OH)2 -> CaCl2 + 2 H2O. How many moles of Ca(OH)2 are required to neutralize 0.4 mol of HCl completely?",
+  "options": [
+    {
+      "id": "a",
+      "text": "0.2 mol, because each mole of Ca(OH)2 supplies two moles of hydroxide"
+    },
+    {
+      "id": "b",
+      "text": "0.4 mol, because an acid and a base always neutralize in a 1:1 ratio"
+    },
+    {
+      "id": "c",
+      "text": "0.1 mol, because each of the two hydroxide ions neutralizes two moles of acid"
+    },
+    {
+      "id": "d",
+      "text": "0.8 mol, because each mole of HCl requires two moles of the base"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The balanced equation sets a 2:1 mole ratio of HCl to Ca(OH)2, so 0.4 mol HCl requires 0.4 / 2 = 0.2 mol of the base. Each formula unit of Ca(OH)2 releases two hydroxide ions, so one mole of it neutralizes two moles of a monoprotic acid such as HCl. Assuming every acid-base pairing is 1:1 is a frequent misconception that produces a twofold error in the amount of base.\n\nELI-10: Neutralization pairs one H+ with one OH-. HCl delivers one H+ per formula unit, while Ca(OH)2 delivers two OH- per formula unit. So each unit of base can handle two units of this acid, and you need only half as many moles of base as acid: 0.4 divided by 2 is 0.2 mol.",
+  "difficulty": "medium",
+  "tags": [
+    "neutralization",
+    "mole ratio",
+    "acid-base stoichiometry"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-276",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

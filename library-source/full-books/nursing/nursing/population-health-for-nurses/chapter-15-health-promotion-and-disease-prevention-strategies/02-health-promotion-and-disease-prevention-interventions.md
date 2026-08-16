@@ -1,0 +1,135 @@
+---
+title: "Health Promotion and Disease Prevention Interventions"
+subject: "Nursing"
+book: "Population Health for Nurses"
+chapter: "15: Health Promotion and Disease Prevention Strategies"
+topic_number: "2"
+source: "population-health.md"
+tags:
+  - "health-promotion-and-disease-prevention-interventions"
+  - "nursing"
+status: "complete"
+---
+
+# Health Promotion and Disease Prevention Interventions
+
+> **Book:** [Population Health for Nurses](../../README.md)  
+> **Chapter:** [Chapter 15: Health Promotion and Disease Prevention Strategies](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+An intervention is any deliberate action taken to promote health or prevent disease — but the toolbox is much bigger than "tell people to be healthier." This topic catalogs the main types of interventions, contrasts individual- and population-level strategies, and connects them to the levels of prevention from Topic 1. It also covers the planning and equity considerations that separate effective from well-intentioned interventions.
+
+The central insight is the *population strategy*: helping everyone a little rather than rescuing a few people a lot. Fluoridating water, taxing sugary drinks, redesigning streets for walking, and requiring seat belts shift health across an entire population. Individual-level interventions — counseling, education, screening for high-risk people — remain essential, but reach fewer people and often widen gaps. Choosing the right mix is a core population-health skill.
+
+## Why This Matters
+
+Nurses do not just deliver interventions — they choose, design, implement, and evaluate them. A community health nurse reducing fall injuries among older adults could give every client a brochure, offer home assessments, or work with the housing authority and city planners to improve sidewalks and lighting — different costs, reach, and effects. Understanding the options lets nurses match the intervention to the problem, the evidence, and the community's priorities.
+
+Interventions are also where resources meet values: decisions about what to fund — screening everyone or focusing on high-risk groups, counseling or policy change — decide who benefits and who is left out. An equity lens is not optional: ask who is reached, who is missed, and whether the intervention narrows or widens health gaps.
+
+## Core Concepts
+
+### Individual versus population strategies
+
+The epidemiologist Geoffrey Rose distinguished two classic strategies. The **high-risk strategy** finds people at greatest risk and gives them intensive help — a nurse case-manages the 20 people in a clinic with the highest blood pressures. It is efficient per person and clinically easy to justify, but reaches few people and does nothing for the majority whose risk is moderate. The **population strategy** shifts the whole distribution: reducing salt in the food supply lowers blood pressure a little for almost everyone, preventing more total disease even though no individual notices a big change. Rose's **prevention paradox** names the result: large community benefit, small individual benefit — hard to motivate one person at a time, but often the best investment for population health. The strategies are complements; strong systems use both.
+
+### Types of interventions
+
+- **Education and communication:** information, skill-building, and social marketing (plain-language handouts, media campaigns, classroom programs). Necessary but rarely sufficient alone — information changes behavior mainly when the environment supports it.
+- **Screening and early detection:** identifying disease or risk early so it can be treated (secondary prevention). Screening is justified only when the condition is important, the test is accurate and acceptable, early treatment helps, and the program is organized and evaluated. Schedules vary by jurisdiction and change with evidence — follow current local guidelines.
+- **Immunization and preventive clinical services:** vaccines and clinical prevention delivered through health systems — among the most effective primary prevention ever developed.
+- **Environmental and structural change:** altering the physical or social environment so healthy choices are easier — smoke-free housing, safe routes to school, green space.
+- **Policy, legislation, and regulation:** laws and rules that protect health — seat-belt laws, food labeling, clean-air standards — plus economic levers such as tobacco taxes and fruit-and-vegetable subsidies. The highest-leverage tool for whole-population change, and the slowest to achieve.
+- **Community development and organizational change:** building local capacity and workplace or school wellness cultures so health is embedded in daily operations.
+
+### Where interventions happen: settings and channels
+
+Interventions are delivered where people are: schools, workplaces, health care settings, faith communities, parks, and food retail. The *settings approach* recognizes that whole populations pass through these places daily. School-based breakfast programs, workplace walking groups, and faith-community blood-pressure ministries all use existing settings as channels — cheaper and more equitable than clinic-only outreach.
+
+### Planning and evidence
+
+Interventions follow a planning logic: assess the problem and its determinants, choose an evidence-informed intervention matched to the level of prevention and target population, adapt it to local culture and context (Chapters 23–24), implement with fidelity, and evaluate. Evidence matters at every step: some popular interventions (standalone education posters) have weak evidence, while unglamorous ones (water fluoridation, smoke-free policies) have strong evidence. Nurses should distinguish *efficacy* (works under ideal conditions?) from *effectiveness* (works in the real world?) and ask whether a program proven elsewhere will transfer to their community.
+
+### Equity considerations
+
+Every intervention has a reach problem: clinic-based programs miss people without access; digital campaigns miss people without connectivity; English-language materials miss linguistic minorities. Worse, some interventions *widen* gaps — when a new preventive service appears, uptake is often highest among people who already have resources (the "inverse care law"). Equity-minded planning asks: who is hardest to reach, and does this intervention reduce disparities or risk increasing them? Universal interventions with proportionate effort — the same benefit for all, extra support for those who need more — are a promising strategy.
+
+## ELI-10: Explain Like I’m 10
+
+> Two ways to keep a school from slipping on ice: watch each kid and grab the wobbliest, or salt the whole walkway. Salting helps every kid a little — even ones you never noticed — and is often the smarter move. The best plan does both: salt the walkway *and* watch the wobbly kids.
+
+## High-Yield Points
+
+- Two classic strategies: **high-risk** (intensive help for few people) and **population** (small help for everyone); population strategies prevent more disease overall.
+- Rose's prevention paradox: large community benefit, small individual benefit — expect it, plan for it, communicate it.
+- Intervention types range from education and screening to policy and environmental change — each fits different problems and levels of prevention.
+- Screening is justified only when condition, test, early treatment, and program meet established criteria; follow current local guidelines.
+- Policy and environmental change are the highest-leverage tools; education alone rarely changes behavior without supportive conditions.
+- Apply an equity lens: ask who is reached, who is missed, and whether the intervention narrows or widens disparities.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Intervention | A deliberate action to promote health or prevent disease | The unit of practice nurses plan, deliver, and evaluate |
+| High-risk strategy | Focusing intensive prevention on people at greatest risk | Efficient per person, small reach; complements the population strategy |
+| Population strategy | Shifting risk across the whole population | Prevents the most disease; the prevention paradox applies |
+| Prevention paradox | Population measures help many people a little, so individuals notice little benefit | Large community benefit, small individual benefit — why population measures need policy support |
+| Screening | Testing apparently healthy people to detect disease or risk early | Secondary prevention; only justified when established criteria are met |
+| Environmental/structural change | Altering surroundings so healthy choices are easier | Changes behavior at scale without depending on individual willpower |
+| Policy intervention | Laws, regulations, and rules that protect health | The highest-leverage, slowest tool for population change |
+| Settings approach | Delivering interventions where populations already gather (schools, workplaces) | Improves reach and equity versus clinic-only delivery |
+| Efficacy vs. effectiveness | Works under ideal conditions vs. works in real-world practice | Guides whether a program proven elsewhere transfers to your community |
+| Inverse care law | Those who need care least tend to receive it most | The equity problem interventions must be designed against |
+
+## Example: Salt, Blood Pressure, and the Whole City
+
+A public health nurse works in a city where high blood pressure is common and heart disease leads in deaths. A clinic-based approach would screen and counsel those with the highest readings (high-risk strategy) — valuable, but it reaches only people who come to the clinic. The team instead works on a **population strategy**: partnering with the health department on a sodium-reduction initiative — lowering salt in prepared foods and advocating for front-of-package labeling. The nurse explains the prevention paradox to skeptical community members: "This will lower most people's blood pressure only a little, and you personally may not feel a change — but across the city, thousands of heart attacks and strokes will be prevented." The high-risk program continues for those needing intensive support — salt the whole walkway and keep an eye on the wobbly walkers.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Population strategy | Scaling up an individual intervention | Shifts the whole distribution; scaling up individual counseling still only reaches individuals |
+| Health education | Health promotion intervention | Education is one tool; promotion interventions change environments, policy, and capability too |
+| Screening | Primary prevention | Screening detects existing early disease (secondary); it does not prevent onset |
+| Efficacy | Effectiveness | Ideal-condition vs. real-world performance — programs fail when one is mistaken for the other |
+| "The program worked in another city" | It will work here | Context, culture, and capacity differ; interventions must be adapted and re-evaluated |
+| Doing something | Doing something effective | Activity is not impact — evaluation distinguishes them |
+
+## Quick Review
+
+1. Compare the high-risk and population strategies, including one strength and one limitation of each.
+2. State Rose's prevention paradox in your own words. Why does it matter for communicating with the public?
+3. Name three types of interventions and match each to a level of prevention.
+4. Why is screening not automatically a good idea, even when a test exists?
+5. What is the "inverse care law," and how should it shape intervention planning?
+
+<details>
+<summary>Show answers</summary>
+
+1. High-risk: intensive help for people at greatest risk — efficient per person but reaches few. Population: shifts risk across everyone — prevents the most disease overall, though each individual benefits only slightly.
+2. A population measure with large community benefits produces only a small benefit for each individual — so no one feels it working and it is hard to motivate. Communicating this builds realistic expectations and sustains support.
+3. Immunization/clinical services → primary; screening → secondary; cardiac rehabilitation and diabetes self-management → tertiary; smoke-free housing policy and street redesign → primordial/primary (changing conditions and risk exposure).
+4. Screening is justified only when the condition is important, the test is accurate and acceptable, early treatment improves outcomes, and the program is organized and evaluated — and benefits outweigh harms. A test existing is not a program.
+5. The inverse care law is the pattern in which people who need care least tend to receive it most. Planning must ask who is missed, use settings-based and outreach channels, and design universal interventions with proportionate extra support.
+
+</details>
+
+## Related Topics
+
+- Previous: [Defining Health Promotion and Disease Prevention](01-defining-health-promotion-and-disease-prevention.md)
+- Next: [Theories and Models](03-theories-and-models.md)
+- Related: [Barriers and Opportunities for Health Promotion and Disease Prevention](04-barriers-and-opportunities-for-health-promotion-and-disease-prevention.md)
+- Chapter overview: [Health Promotion and Disease Prevention Strategies](../README.md)
+
+## Source Notes
+
+- Book: Population Health for Nurses
+- Local outline source: `population-health.md`
+- Official source URL: https://openstax.org/details/books/population-health/
+- Content type: Original educational study guide based on OpenStax outline structure. Educational draft only: screening recommendations, immunization schedules, and regulatory details vary by jurisdiction and change with evidence — verify current local guidelines before implementation. No clinical treatment recommendations included.
+- Last updated: 2026-08-16

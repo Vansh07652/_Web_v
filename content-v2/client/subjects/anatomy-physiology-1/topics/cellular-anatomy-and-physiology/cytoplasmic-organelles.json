@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-1:cellular-anatomy-and-physiology:cytoplasmic-organelles",
+  "slug": "cytoplasmic-organelles",
+  "title": "Cytoplasmic Organelles",
+  "subject": {
+    "id": "subject:anatomy-physiology-1",
+    "slug": "anatomy-physiology-1",
+    "title": "Anatomy & Physiology I"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-1:cellular-anatomy-and-physiology",
+    "slug": "cellular-anatomy-and-physiology",
+    "title": "Cellular Anatomy and Physiology",
+    "order": 3
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "Suspended in the cytoplasm are **organelles** — specialized structures that each perform a job for the cell. This section tours the major ones: **mitochondria, ribosomes, endoplasmic reticulum (rough and smooth), Golgi apparatus, lysosomes, peroxisomes, the cytoskeleton, and the centrosome** — and ties each structure to its function.",
+    "whyItMatters": "Organelle functions explain cell behavior in health and disease. Cells that use lots of energy are packed with mitochondria; cells that secrete proteins have abundant rough ER and Golgi. Many genetic and metabolic disorders are traced to a single malfunctioning organelle.",
+    "learningObjectives": "- Match each **organelle** to its primary **function**.\n- Explain the **protein-secretion pathway** (ribosome → rough ER → Golgi → vesicle).\n- Distinguish **rough** from **smooth** ER.\n- Describe the roles of **lysosomes, peroxisomes**, and the **cytoskeleton**.",
+    "keyTerms": "- **Mitochondrion** — the \"powerhouse\"; site of most **ATP** production.\n- **Ribosome** — makes proteins (protein synthesis).\n- **Rough ER** — endoplasmic reticulum studded with ribosomes; processes proteins.\n- **Smooth ER** — ER without ribosomes; makes lipids, stores calcium, detoxifies.\n- **Golgi apparatus** — modifies, sorts, and packages proteins for shipping.\n- **Lysosome** — digestive sac full of enzymes; recycles and destroys.\n- **Peroxisome** — detoxifies and breaks down fatty acids; neutralizes free radicals.\n- **Cytoskeleton** — protein fiber network giving shape, support, and movement.\n- **Centrosome/centrioles** — organize microtubules; key in cell division.",
+    "collegeNotes": "**Mitochondria — powerhouses.** These double-membraned organelles perform **cellular respiration**, converting glucose-derived fuel and oxygen into **ATP**, the cell's usable energy. Their inner membrane is folded into **cristae** to increase surface area for the reactions. Cells with high energy demands — heart muscle, liver, kidney — contain many mitochondria. (Uniquely, mitochondria carry their own small DNA, inherited from the mother.)\n\n**Ribosomes — protein factories.** Tiny structures that read genetic instructions (messenger RNA) to assemble amino acids into proteins. **Free ribosomes** floating in the cytosol make proteins used inside the cell; ribosomes bound to the ER make proteins destined for membranes or secretion.\n\n**Endoplasmic reticulum (ER) — the manufacturing network.** A system of membranous tubes continuous with the nuclear envelope:\n\n- **Rough ER** is coated with ribosomes and processes and folds **proteins**, then buds off vesicles carrying them onward. Cells that secrete a lot (e.g., antibody-producing cells, pancreatic cells) are rich in rough ER.\n- **Smooth ER** lacks ribosomes and instead synthesizes **lipids** (including steroid hormones), stores and releases **calcium** (crucial in muscle), and **detoxifies** drugs and metabolic byproducts (abundant in liver cells).\n\n**Golgi apparatus — shipping department.** A stack of flattened sacs that receives proteins from the rough ER, then **modifies, sorts, tags, and packages** them into vesicles addressed for the membrane, secretion, or lysosomes. Think of it as the cell's post office.\n\n**Lysosomes — recycling and demolition.** Membrane sacs filled with powerful digestive **enzymes**. They break down worn-out organelles, engulfed bacteria, and debris, recycling the parts. In white blood cells, lysosomes destroy ingested pathogens.\n\n**Peroxisomes — detox units.** Sacs of enzymes that break down fatty acids and neutralize harmful **free radicals** and toxins (such as some alcohol), producing and then destroying hydrogen peroxide in the process.\n\n**Cytoskeleton — the internal scaffold.** A network of protein fibers (microfilaments, intermediate filaments, and microtubules) that gives the cell **shape and mechanical support**, anchors organelles, and enables **movement** — from internal transport to whole-cell crawling and muscle contraction.\n\n**Centrosome and centrioles.** Located near the nucleus, the centrosome (containing paired **centrioles**) organizes microtubules and forms the spindle that separates chromosomes during **cell division**.\n\n### The secretory pathway in sequence\n\nMany organelles cooperate to make and export a protein:\n\n```\nRibosome (on rough ER) builds the protein\n   → Rough ER folds and checks it, buds a transport vesicle\n   → Golgi apparatus modifies, sorts, and packages it\n   → Secretory vesicle carries it to the membrane\n   → Exocytosis releases it from the cell\n```\n\nReading this pathway shows how organelles are a coordinated assembly line, not a bag of separate parts.",
+    "howItWorks": "Predicting a cell's organelle profile from its job:\n\n1. **High energy use?** → many mitochondria (heart, muscle).\n2. **Secretes proteins?** → abundant rough ER + Golgi.\n3. **Makes lipids/steroids or detoxifies?** → lots of smooth ER (liver, gonads).\n4. **Destroys pathogens/debris?** → many lysosomes (immune cells).",
+    "comparisons": "| Organelle | Function | \"Job title\" |\n| --- | --- | --- |\n| Mitochondrion | ATP production | Power plant |\n| Ribosome | Protein synthesis | Factory worker |\n| Rough ER | Protein processing | Assembly line |\n| Smooth ER | Lipid synthesis, Ca²⁺ storage, detox | Chemical lab |\n| Golgi | Modify/sort/package | Post office |\n| Lysosome | Digestion/recycling | Recycling center |\n| Peroxisome | Detox, fatty-acid breakdown | Hazmat unit |\n| Cytoskeleton | Shape, support, movement | Scaffolding |\n| Centrosome | Organizes division spindle | Site foreman |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\nMany diseases are organelle-level failures: **lysosomal storage diseases** (e.g., Tay-Sachs) result from missing lysosomal enzymes; **mitochondrial disorders** impair energy-hungry tissues; the liver's smooth ER handles drug metabolism, which affects dosing and drug interactions. Cells that make hormones or antibodies are recognizable by their heavy rough ER and Golgi — a link between structure and clinical function.",
+    "commonConfusions": "- **Rough vs smooth ER.** Rough = ribosomes = proteins; smooth = no ribosomes = lipids/detox/calcium.\n- **Ribosome vs lysosome.** Ribosome *builds* proteins; lysosome *breaks down* material. Similar sound, opposite jobs.\n- **Golgi vs ER.** ER makes/processes; Golgi finishes, packages, and ships.\n- **Lysosome vs peroxisome.** Both digest, but lysosomes handle general debris/pathogens; peroxisomes specialize in fatty acids and free radicals.",
+    "memoryAids": "- **Mitochondria = \"mighty\" power.**\n- **Rough ER has Ribosomes → makes pRoteins** (all R's).\n- **Golgi = \"Gift-wrapping\"** (packages and ships).\n- **Lysosome = \"demoLYSHion\" crew.**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nInside each cell are little machines called organelles, and each one has a special job — like different departments in a company.\n\n### Analogy\nThink of the cell as a company. **Mitochondria** are the power generators that keep the lights on. **Ribosomes** are the workers who build products (proteins). The **rough ER** is the assembly line where those products get checked; the **smooth ER** is the chemistry lab that makes oils and cleans up toxins. The **Golgi** is the shipping department that wraps and labels products. **Lysosomes** are the cleanup and recycling crew. **Peroxisomes** are the hazmat team handling dangerous waste. The **cytoskeleton** is the building's frame that holds everything up, and the **centrosome** is the foreman during \"company expansion\" (cell division).\n\n### What is actually happening\nThese departments really cooperate on an assembly line: a ribosome builds a protein on the **rough ER**, the ER passes it to the **Golgi** to package, and a bubble carries it out of the cell. **Mitochondria** make the energy molecule **ATP** that powers all of it. That's why a hard-working cell like a heart-muscle cell is stuffed with mitochondria, and a cell that pumps out lots of protein has tons of rough ER.\n\n### Where the analogy stops\nCompany departments are run by people making decisions, but organelles follow automatic chemical instructions from the cell's DNA — there's no manager thinking things through, just well-tuned molecular machinery.",
+    "quickReview": "- **Mitochondria** make ATP; **ribosomes** build proteins.\n- **Rough ER** (with ribosomes) processes proteins; **smooth ER** makes lipids, stores calcium, and detoxifies.\n- **Golgi** modifies, sorts, and ships; **lysosomes** digest/recycle; **peroxisomes** handle fatty acids and free radicals.\n- The **cytoskeleton** provides shape, support, and movement; the **centrosome/centrioles** organize cell division.\n- Organelles work as a coordinated **secretory pathway**, not isolated parts.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 3.2: The Cytoplasm and Cellular Organelles. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus Genetics — Cells and DNA. https://medlineplus.gov/genetics/",
+        "url": "https://medlineplus.gov/genetics/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 42
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/04-cytoplasmic-organelles.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

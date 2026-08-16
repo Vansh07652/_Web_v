@@ -1,0 +1,172 @@
+---
+title: "Data Collection and Documentation"
+subject: "Nursing"
+book: "Clinical Nursing Skills"
+chapter: "4: Obtaining a Complete Health History"
+topic_number: "2"
+source: "clinical-nursing-skills.md"
+tags:
+  - "data-collection-and-documentation"
+  - "nursing"
+status: "complete"
+---
+
+# Data Collection and Documentation
+
+> **Book:** [Clinical Nursing Skills](../../README.md)  
+> **Chapter:** [Chapter 4: Obtaining a Complete Health History](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Before a nurse can plan care, someone has to gather the information — and once gathered, that information is worthless unless it is written down in a way other people can trust. **Data collection** is the systematic gathering of information about a patient: what they tell you, what you observe, what you measure, and what prior records reveal. **Documentation** is the permanent, legal recording of that information (and of the care provided) in the patient's record. The two belong together: collection without documentation is lost work, and documentation without careful collection is empty paperwork.
+
+This topic builds directly on the previous one. Topic 1 described what belongs in a complete, accurate health history; this topic explains *how* nurses gather that data and *how* they write it down so that it is clear, honest, and useful. Later, Topic 3 (Informatics) will look at the electronic systems that store and move this documentation.
+
+## Why This Matters
+
+Documentation is the nurse's primary communication tool with the rest of the healthcare team — the night-shift nurse, the surgeon, the pharmacist, and the next hospital all rely on what was written. It is also the **legal record of care**: if care is not documented, in most settings it is treated as though it did not happen. Beyond safety and law, documentation drives billing and reimbursement, feeds quality-improvement and research data, and provides the evidence base for nursing education. Poor documentation — vague entries, undocumented assessments, charted-for-someone-else notes — is a leading source of errors, duplicate work, and legal liability. Mastering the principles in this topic is one of the highest-yield skills in nursing school and practice.
+
+## Core Concepts
+
+### Subjective versus objective data
+
+Every piece of patient data falls into one of two buckets:
+
+- **Subjective data** is what the patient (or family) *tells* you: "I feel dizzy when I stand up," "The pain is an 8 out of 10." Only the patient can report symptoms like pain, nausea, or fatigue. Record subjective data as a report, ideally quoting the patient's words.
+- **Objective data** is what you can *observe, measure, or verify*: vital signs, a wound's appearance, the patient's gait, laboratory results, the sound of breath sounds. Objective data is gathered by inspection, palpation, percussion, auscultation, and measurement.
+
+Good nursing notes contain both, clearly labeled. A common beginner error is writing "patient is in severe pain" (an interpretation) instead of "patient reports pain 8/10, grimacing, guarding right side" (report + observation).
+
+### Primary and secondary sources
+
+The **primary source** is the patient — the only person who can describe their own symptoms and history. **Secondary sources** include family members and caregivers, prior medical records, the medication administration record, laboratory results, and other healthcare team members. Use the patient first whenever possible; use secondary sources when the patient cannot communicate or to fill gaps — and document which source was used ("per spouse," "per prior records"). This matters because it tells the next reader how much weight to give the information.
+
+### Methods of data collection
+
+Nurses collect data through several methods, usually combined:
+
+- **The interview/history:** structured questions covering the sections described in Topic 1 (chief complaint, HPI, past history, medications, etc.).
+- **Observation:** watching appearance, behavior, movement, mood, and interactions from the moment the patient is seen.
+- **Physical assessment:** the head-to-toe or focused exam using inspection, palpation, percussion, and auscultation.
+- **Record review:** prior notes, orders, results, and transfer summaries.
+- **Collaboration:** information from the provider, pharmacy, therapy services, or the patient's outpatient team.
+
+The assessment phase of the nursing process is essentially organized data collection; each later phase (diagnosis, planning, intervention, evaluation) depends on the quality of that data.
+
+### What good documentation looks like
+
+Documentation standards are taught with a set of shared characteristics — good entries are:
+
+- **Timely:** written as soon as possible after the care, while memory is fresh; never pre-charted or back-dated.
+- **Accurate and factual:** objective language, exact measurements, patient's own words for symptoms.
+- **Complete:** no blanks that leave the next reader guessing; significant findings, refusals, and follow-up actions included.
+- **Concise:** enough detail to be useful, without wordiness.
+- **Objective and nonjudgmental:** "patient refused the dressing change and stated…" not "patient was uncooperative."
+- **Organized:** chronological, logical flow that tells the story of the shift.
+- **Confidential:** written and stored where only authorized people can see it.
+
+Correct a mistake properly: never white-out or erase in a paper chart; draw a single line, mark "error," add the correction with date/time and signature. In an EHR, use the system's correction function so the original entry remains visible and traceable — this preserves the legal integrity of the record.
+
+### Common charting formats
+
+Different settings use different formats; a nurse should know the common ones:
+
+- **Narrative charting:** running paragraphs in chronological order — flexible but can be wordy and hard to scan.
+- **SOAP:** Subjective, Objective, Assessment, Plan — organizes notes by type of content; widely used in outpatient and clinic settings.
+- **PIE:** Problem, Intervention, Evaluation — organized around each patient problem.
+- **DAR:** Data, Action, Response — a focused format often used for follow-up notes tied to a specific problem.
+- **Charting by exception (CBE):** documents only deviations from predefined norms and standards, relying on flow sheets for the routine. Efficient, but only safe when the norms are truly standardized and the exceptions are fully described.
+
+There is no single "right" format; institutions choose formats, and nurses follow their facility's policy.
+
+### Do-not-use abbreviations and other traps
+
+Misread abbreviations cause real medication errors, so organizations maintain a **do-not-use list** (e.g., avoid "U" for units, "QD" for daily, trailing zeros, and "MSO4" for morphine — per The Joint Commission's national patient safety goals in U.S. settings). Nurses must use only approved abbreviations, spell out ambiguous terms, and follow the institution's list, which may differ from the national one. Similar traps: charting for another person, charting before care is given, vague words like "appears comfortable" without observations, and using someone else's login in an EHR — all are prohibited and can be grounds for discipline.
+
+## ELI-10: Explain Like I'm 10
+
+Collecting data is like a detective gathering clues: you listen to what the patient says, look carefully at what you can see, and check old files for things you missed. Then you write all the clues down in a special notebook that everyone on the team reads. The rules are simple: write it soon, write what really happened (not what you guess), write it so someone else can understand, and never scribble out a mistake — fix it neatly so the truth is still there.
+
+## High-Yield Points
+
+- **Subjective = what the patient says; objective = what you observe/measure.** Label them, and quote the patient for symptoms.
+- **Patient first, secondary sources second** — and document which source provided the information.
+- Good documentation is **timely, accurate, complete, concise, objective, organized, and confidential**.
+- **"If it wasn't documented, it wasn't done"** — the record is the legal evidence of care.
+- Never **pre-chart, back-date, or chart for someone else**; never use another person's EHR login.
+- Fix errors with a **dated correction that preserves the original** — never erase.
+- Know your facility's **charting format and do-not-use abbreviation list**; they vary by institution.
+- Refusals and unusual events must be documented factually, with the patient's stated reason.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Subjective data | Information the patient reports, such as symptoms | Only the patient can provide it; record it as a report, in their words |
+| Objective data | Observable, measurable information | Verifiable by others; the backbone of assessment |
+| Primary source | The patient themselves | The most authoritative source of their own history |
+| Secondary source | Family, records, results, team members | Fills gaps but must be identified in the note |
+| SOAP/PIE/DAR | Charting formats organizing notes by content type or problem | Knowing the format keeps notes structured and scannable |
+| Charting by exception | Documenting only deviations from established norms | Efficient, but unsafe if norms or exceptions are unclear |
+| Do-not-use list | Abbreviations banned because they cause errors | Prevents misinterpretation of orders and documentation |
+| Late entry | An entry added after the fact, clearly labeled as such | Keeps the record honest and chronological when charting was delayed |
+
+## Example: A shift's worth of documentation done right
+
+A nurse admits a patient with abdominal pain. The admission note includes:
+
+- **Subjective (quoted):** "The pain started last night after dinner — it's a 7/10, right upper side, worse when I eat." *Source: patient.*
+- **Objective:** temperature, pulse, respirations, blood pressure, and pain score recorded on the flow sheet; abdomen noted as "soft, tender in the right upper quadrant on palpation, no visible distension."
+- **Assessment/plan:** the nurse's interpretation (possible biliary-type pain, needs provider evaluation) stated separately from the data.
+- **Follow-up:** when the patient refuses a scheduled assessment at 2200, the nurse documents: "Patient declined vital signs at 2200; stated 'I was finally able to sleep.' Will recheck at next round. Provider notified." — factual, nonjudgmental, and complete.
+- **Error handling:** a vital sign was entered into the wrong time slot; the nurse used the EHR correction function, leaving the original entry visible with a note of the correction.
+
+Every entry meets the seven characteristics of good documentation, tells the next reader exactly what happened, and would hold up as a legal record.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Subjective data | Objective data | "Patient reports dizziness" (subjective) vs. "blood pressure 90/58 sitting" (objective) — exam questions hinge on this |
+| Documentation | The care itself | Care may be excellent, but the legal record is what was written |
+| An interpretation | A fact | "Severe pain" (interpretation) vs. "reports pain 8/10, rating scale" (fact) — write both, label both |
+| Charting by exception | Skipping documentation | CBE still requires documenting every exception fully; "nothing abnormal" flow sheets are not an excuse for missing findings |
+| A late entry | A back-dated entry | Late entries are allowed when clearly labeled; back-dating/falsifying is never allowed |
+| Incident reports | The patient's chart | Incident reports are separate, confidential quality documents — never referenced in the chart |
+
+## Quick Review
+
+1. Give one example of subjective data and one of objective data for the same patient situation.
+2. When would you rely on a secondary source instead of the patient, and what must you document?
+3. List the seven characteristics of high-quality documentation.
+4. Why are do-not-use abbreviations dangerous, and where does the list come from?
+5. A nurse realizes a chart entry contains the wrong medication time. What is the correct way to fix it?
+6. What is the difference between charting by exception and simply documenting less?
+
+<details>
+<summary>Show answers</summary>
+
+1. Subjective: "I feel short of breath when I walk to the bathroom." Objective: respiratory rate 24, oxygen saturation 91% on room air, audible wheezing. (Any paired report + measurable observation is correct.)
+2. When the patient cannot communicate, is confused, or is a child — or to fill gaps. Document the source, e.g., "history obtained from spouse."
+3. Timely, accurate, complete, concise, objective/nonjudgmental, organized, confidential.
+4. Abbreviations like "U" or "QD" are easily misread (e.g., "U" read as a zero), causing medication errors; the list comes from national patient safety organizations (e.g., The Joint Commission in the U.S.) plus each institution's own policy.
+5. Use the EHR correction function (or in paper, draw a single line through the error, write "error," add the correct entry with date/time and signature) — the original must remain visible; never erase or obscure it.
+6. CBE documents deviations from *established norms and standards* with full detail; it is not permission to skip documentation — routine care is captured on flow sheets, and any exception must be described completely.
+</details>
+
+## Related Topics
+
+- Previous: [Foundations for a Complete Electronic Health Record: Accurate Health History](01-foundations-for-a-complete-electronic-health-record-accurate-health-history.md)
+- Next: [Informatics](03-informatics.md)
+- Related: [Comprehensive Interview Practices](../chapter-03-patient-communication-and-interviewing/02-comprehensive-interview-practices.md)
+- Related: [Obtaining a Complete Health History chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Clinical Nursing Skills
+- Local outline source: `clinical-nursing-skills.md`
+- Official source URL: https://openstax.org/details/books/clinical-nursing-skills/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-15

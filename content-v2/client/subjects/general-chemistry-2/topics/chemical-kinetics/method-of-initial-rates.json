@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-kinetics:method-of-initial-rates",
+  "slug": "method-of-initial-rates",
+  "title": "The Method of Initial Rates",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-kinetics",
+    "slug": "chemical-kinetics",
+    "title": "Chemical Kinetics",
+    "order": 3
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "The method of initial rates is the standard laboratory procedure for extracting the order of a reaction from data. The idea is elegant: measure the **initial rate** of a reaction for several starting concentrations, then compare experiments in which only **one** concentration changes at a time. Because the rate at t = 0 depends only on the known starting concentrations, the effect of each reactant can be isolated cleanly.",
+    "whyItMatters": "The method of initial rates is how real rate laws are established in the lab. It converts raw concentration–time measurements into the quantitative order and rate constant that feed into everything downstream: predicting rates, designing reactors, and testing reaction mechanisms. Mastery of the ratio technique is essential for any kinetics calculation.",
+    "learningObjectives": "- Use the method of initial rates to determine reaction orders from experimental data.\n- Recognize the strategy of holding one concentration constant while varying another.\n- Calculate the rate constant k once the orders are known.\n- Write the complete experimental rate law for a reaction.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe method of initial rates is the standard laboratory procedure for extracting the order of a reaction from data. The idea is elegant: measure the **initial rate** of a reaction for several starting concentrations, then compare experiments in which only **one** concentration changes at a time. Because the rate at t = 0 depends only on the known starting concentrations, the effect of each reactant can be isolated cleanly.\n\n### Key Ideas\n\n- Measure the initial rate (tangent slope at t = 0) for a series of runs.\n- Hold every concentration constant except one, then note how the rate responds.\n- The order is the exponent that satisfies: (rate ratio) = (concentration ratio)^order.\n- Once orders are known, solve for k from any single run.\n\n### Equations and Variables\n\nAssume a rate law Rate = k[A]^m[B]^n. Comparing two runs where only [A] changes (and [B] is held fixed):\n\n$$\\frac{\\text{Rate}_2}{\\text{Rate}_1} = \\left(\\frac{[A]_2}{[A]_1}\\right)^m$$\n\nTaking the logarithm isolates the order:\n\n$$m = \\frac{\\ln(\\text{Rate}_2/\\text{Rate}_1)}{\\ln([A]_2/[A]_1)}$$\n\nThen solve for k:\n\n$$k = \\frac{\\text{Rate}}{[A]^m[B]^n}$$\n\n- Rate₁, Rate₂ = initial rates of two runs (M/s)\n- [A]₁, [A]₂ = starting concentrations of A (M)\n- m, n = orders (unitless)\n- k = rate constant (units depend on overall order)\n\n### How It Works\n\nThe method works because the rate law is a clean power law. If you double [A] while holding [B] fixed, the rate changes by a factor of 2^m. A ratio of rates is therefore enough to read off m:\n\n- Rate doubles (×2) when [A] doubles → 2^m = 2 → **m = 1**\n- Rate quadruples (×4) when [A] doubles → 2^m = 4 → **m = 2**\n- Rate unchanged (×1) when [A] doubles → 2^m = 1 → **m = 0**\n\nThe same logic applies to each reactant in turn. This is why initial rates are used rather than later rates: at t = 0 the concentrations are exactly what you pipetted in, with no interference from products or reverse reactions.\n\n### Worked Example\n\nThe reaction 2 NO(g) + Cl₂(g) → 2 NOCl(g) is studied, with these initial rates:\n\n| Run | [NO] (M) | [Cl₂] (M) | Initial rate (M/s) |\n| --- | -------- | --------- | ------------------ |\n| 1   | 0.10     | 0.10      | 3.0 × 10⁻⁴         |\n| 2   | 0.10     | 0.20      | 6.0 × 10⁻⁴         |\n| 3   | 0.20     | 0.20      | 2.4 × 10⁻³         |\n\n**(a) Order in Cl₂.** Compare runs 1 and 2, where [NO] is constant (0.10 M) and [Cl₂] doubles (0.10 → 0.20 M). The rate doubles (3.0 → 6.0 × 10⁻⁴):\n\n$$\\frac{6.0\\times10^{-4}}{3.0\\times10^{-4}} = \\left(\\frac{0.20}{0.10}\\right)^n \\quad\\Rightarrow\\quad 2 = 2^n \\quad\\Rightarrow\\quad n = 1$$\n\nFirst order in Cl₂.\n\n**(b) Order in NO.** Compare runs 2 and 3, where [Cl₂] is constant (0.20 M) and [NO] doubles (0.10 → 0.20 M). The rate goes up by 6.0 × 10⁻⁴ → 2.4 × 10⁻³, a factor of 4:\n\n$$\\frac{2.4\\times10^{-3}}{6.0\\times10^{-4}} = \\left(\\frac{0.20}{0.10}\\right)^m \\quad\\Rightarrow\\quad 4 = 2^m \\quad\\Rightarrow\\quad m = 2$$\n\nSecond order in NO.\n\n**(c) Rate constant k.** Use run 1:\n\n$$k = \\frac{\\text{Rate}}{[\\text{NO}]^2[\\text{Cl}_2]} = \\frac{3.0\\times10^{-4}\\ \\text{M s}^{-1}}{(0.10\\ \\text{M})^2(0.10\\ \\text{M})} = \\frac{3.0\\times10^{-4}}{1.0\\times10^{-3}}\\ \\text{M}^{-2}\\text{s}^{-1} = 0.30\\ \\text{M}^{-2}\\text{s}^{-1}$$\n\n**(d) Complete rate law.**\n\n$$\\text{Rate} = 0.30\\ \\text{M}^{-2}\\text{s}^{-1}\\ [\\text{NO}]^2[\\text{Cl}_2]$$\n\nNote the contrast with the balanced equation: NO appears with coefficient 2 and it *is* second order here, but Cl₂ appears with coefficient 1 and it is first order — the coefficients coincidentally match here, but that is **not** a rule. Orders must always come from data.",
+    "howItWorks": "The method works because the rate law is a clean power law. If you double [A] while holding [B] fixed, the rate changes by a factor of 2^m. A ratio of rates is therefore enough to read off m:\n\n- Rate doubles (×2) when [A] doubles → 2^m = 2 → **m = 1**\n- Rate quadruples (×4) when [A] doubles → 2^m = 4 → **m = 2**\n- Rate unchanged (×1) when [A] doubles → 2^m = 1 → **m = 0**\n\nThe same logic applies to each reactant in turn. This is why initial rates are used rather than later rates: at t = 0 the concentrations are exactly what you pipetted in, with no interference from products or reverse reactions.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Change **one** concentration at a time; the other must stay fixed.\n- (rate ratio) = (concentration ratio)^order.\n- Doubling a reactant and seeing the rate double → first order; quadruple → second order; no change → zero order.\n- Solve for k only after the orders are known.\n- The balanced equation may or may not match the orders — never assume.",
+    "commonConfusions": "- **Comparing runs where two concentrations change at once.** Isolate one variable or the analysis is meaningless.\n- **Writing the order from the balanced equation.** Always use the data.\n- **Forgetting the units of k.** They follow from the overall order (here M⁻²·s⁻¹ for third order).\n- **Using average rates instead of initial rates.** Initial rates avoid complications from products and reverse reactions.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine you're trying to figure out which dial on a machine controls its speed, but you can only turn one dial at a time. You turn Dial A up to double and watch: did the machine go twice as fast? Four times as fast? No change? That tells you whether the speed depends on Dial A to the first power, the second power, or not at all. Then you freeze Dial A and do the same for Dial B. The method of initial rates is exactly that — a controlled experiment where you change one ingredient at a time and read the exponent straight off the speed change. It's the cleanest possible way to \"reverse-engineer\" the rate law.",
+    "quickReview": "1. Why is the *initial* rate used in this method?\n2. If doubling [A] (with [B] fixed) leaves the rate unchanged, what is the order in A?\n3. If doubling [A] quadruples the rate, what is the order in A?\n4. Describe the step-by-step strategy of the method.\n5. When can you compute k, and how?",
+    "workedExamples": "### Worked Example\n\nThe reaction 2 NO(g) + Cl₂(g) → 2 NOCl(g) is studied, with these initial rates:\n\n| Run | [NO] (M) | [Cl₂] (M) | Initial rate (M/s) |\n| --- | -------- | --------- | ------------------ |\n| 1   | 0.10     | 0.10      | 3.0 × 10⁻⁴         |\n| 2   | 0.10     | 0.20      | 6.0 × 10⁻⁴         |\n| 3   | 0.20     | 0.20      | 2.4 × 10⁻³         |\n\n**(a) Order in Cl₂.** Compare runs 1 and 2, where [NO] is constant (0.10 M) and [Cl₂] doubles (0.10 → 0.20 M). The rate doubles (3.0 → 6.0 × 10⁻⁴):\n\n$$\\frac{6.0\\times10^{-4}}{3.0\\times10^{-4}} = \\left(\\frac{0.20}{0.10}\\right)^n \\quad\\Rightarrow\\quad 2 = 2^n \\quad\\Rightarrow\\quad n = 1$$\n\nFirst order in Cl₂.\n\n**(b) Order in NO.** Compare runs 2 and 3, where [Cl₂] is constant (0.20 M) and [NO] doubles (0.10 → 0.20 M). The rate goes up by 6.0 × 10⁻⁴ → 2.4 × 10⁻³, a factor of 4:\n\n$$\\frac{2.4\\times10^{-3}}{6.0\\times10^{-4}} = \\left(\\frac{0.20}{0.10}\\right)^m \\quad\\Rightarrow\\quad 4 = 2^m \\quad\\Rightarrow\\quad m = 2$$\n\nSecond order in NO.\n\n**(c) Rate constant k.** Use run 1:\n\n$$k = \\frac{\\text{Rate}}{[\\text{NO}]^2[\\text{Cl}_2]} = \\frac{3.0\\times10^{-4}\\ \\text{M s}^{-1}}{(0.10\\ \\text{M})^2(0.10\\ \\text{M})} = \\frac{3.0\\times10^{-4}}{1.0\\times10^{-3}}\\ \\text{M}^{-2}\\text{s}^{-1} = 0.30\\ \\text{M}^{-2}\\text{s}^{-1}$$\n\n**(d) Complete rate law.**\n\n$$\\text{Rate} = 0.30\\ \\text{M}^{-2}\\text{s}^{-1}\\ [\\text{NO}]^2[\\text{Cl}_2]$$\n\nNote the contrast with the balanced equation: NO appears with coefficient 2 and it *is* second order here, but Cl₂ appears with coefficient 1 and it is first order — the coefficients coincidentally match here, but that is **not** a rule. Orders must always come from data.",
+    "references": [
+      {
+        "text": "OpenStax. *Chemistry 2e*. Ch. 12, \"Rate Laws\" and \"Integrated Rate Laws.\" https://openstax.org/books/chemistry-2e/pages/12-3-rate-laws",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-3-rate-laws"
+      },
+      {
+        "text": "IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"order of reaction.\" https://goldbook.iupac.org/",
+        "url": "https://goldbook.iupac.org/"
+      },
+      {
+        "text": "Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman."
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/12-chemical-kinetics/03-method-of-initial-rates.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

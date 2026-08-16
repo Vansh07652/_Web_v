@@ -1,0 +1,41 @@
+{
+  "id": "physics-1-thermodynamics-i-laws-and-processes-0003",
+  "subject": "physics-1",
+  "lesson": "thermodynamics-i-laws-and-processes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For first law of thermodynamics with an explicitly stated sign convention, use $W = P Delta V$ in a isobaric process model. The first quantity is 315.00 Pa and the second is 0.040 m^3. What is the work by gas?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$6.30\\ \\text{J}$"
+    },
+    {
+      "id": "b",
+      "text": "$25.20\\ \\text{J}$"
+    },
+    {
+      "id": "c",
+      "text": "$12.64\\ \\text{J}$"
+    },
+    {
+      "id": "d",
+      "text": "$12.60\\ \\text{J}$"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Using $W = P Delta V$ gives 315.00 Pa times 0.040 m^3 = $12.60\\ \\text{J}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to J, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "first",
+    "law",
+    "thermodynamics",
+    "explicitly",
+    "stated"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-07b8e02453e44d2c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

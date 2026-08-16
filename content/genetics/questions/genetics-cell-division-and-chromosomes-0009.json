@@ -1,0 +1,41 @@
+{
+  "id": "genetics-cell-division-and-chromosomes-0009",
+  "subject": "genetics",
+  "lesson": "cell-division-and-chromosomes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A researcher treats a population of dividing cells with a drug that specifically inhibits cyclin dependent kinase 1, the kinase that drives entry into mitosis. In which phase of the cell cycle would the treated cells accumulate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "G2 phase"
+    },
+    {
+      "id": "b",
+      "text": "G1 phase"
+    },
+    {
+      "id": "c",
+      "text": "S phase"
+    },
+    {
+      "id": "d",
+      "text": "M phase"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Cyclin dependent kinase 1 (encoded by *CDK1* at 10q21.2) drives the G2 to M transition, so inhibiting it blocks entry into mitosis and cells accumulate in G2. Cyclin dependent kinase 2 (encoded by *CDK2* at 12q13.2) drives entry into S phase, so a G1 block would be produced by a CDK2 inhibitor, not a CDK1 inhibitor. Cells blocked at the G2/M border never reach M phase itself.",
+  "difficulty": "unknown",
+  "tags": [
+    "cdk1",
+    "inhibition",
+    "cell",
+    "cycle",
+    "arrest"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-362d42c8f413fa58",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

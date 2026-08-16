@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-thermodynamics:free-energy-and-equilibrium",
+  "slug": "free-energy-and-equilibrium",
+  "title": "Free Energy and Equilibrium",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-thermodynamics",
+    "slug": "chemical-thermodynamics",
+    "title": "Chemical Thermodynamics",
+    "order": 7
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "At equilibrium ΔG = 0 and Q = K. Substituting these into ΔG = ΔG° + RT ln Q gives the master link between thermodynamics and chemical equilibrium: **ΔG° = −RT ln K** (equivalently K = e^(−ΔG°/RT)). This single equation says a reaction's equilibrium constant is fixed by its standard free-energy change: a more negative ΔG° means a larger K and more products at equilibrium. It is how we predict equilibrium position from tables of thermodynamic data, with no experiment required.",
+    "whyItMatters": "ΔG° = −RT ln K is the bridge connecting two of chemistry's biggest ideas. It lets you predict equilibrium constants from tables (and vice versa), understand why some reactions \"go to completion\" while others barely proceed, and design conditions (temperature, pressure) to shift a reaction toward products — the heart of industrial chemistry, biochemistry, and environmental chemistry.",
+    "learningObjectives": "- Derive and use ΔG° = −RT ln K.\n- Calculate K from ΔG° and ΔG° from K.\n- Explain the relationship among ΔG°, K, and reaction favorability (K > 1, K = 1, K < 1).\n- State why ΔG = 0 (not ΔG° = 0) defines equilibrium.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nAt equilibrium ΔG = 0 and Q = K. Substituting these into ΔG = ΔG° + RT ln Q gives the master link between thermodynamics and chemical equilibrium: **ΔG° = −RT ln K** (equivalently K = e^(−ΔG°/RT)). This single equation says a reaction's equilibrium constant is fixed by its standard free-energy change: a more negative ΔG° means a larger K and more products at equilibrium. It is how we predict equilibrium position from tables of thermodynamic data, with no experiment required.\n\n### Key Ideas\n\n- **At equilibrium, ΔG = 0.** The forward and reverse free-energy driving forces exactly cancel.\n- **ΔG° is not zero at equilibrium.** ΔG° is a fixed standard-state constant; only the *actual* ΔG is zero.\n- **Exponential sensitivity.** Because K = e^(−ΔG°/RT), a modest change in ΔG° produces a huge change in K (at 298 K, a 5.7 kJ/mol shift changes K by a factor of 10).\n- **Sign → size.** ΔG° < 0 ⇒ K > 1 (products favored); ΔG° > 0 ⇒ K < 1 (reactants favored); ΔG° = 0 ⇒ K = 1.\n- **Temperature dependence.** Combined with ΔG° = ΔH° − TΔS°, this predicts how K changes with T (van 't Hoff).\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| ΔG° | Standard free-energy change | kJ/mol (or J/mol) |\n| K | Equilibrium constant | dimensionless |\n| R | Gas constant = 8.314 J/(mol·K) | J/(mol·K) |\n| T | Absolute temperature | K |\n\nΔG° = −RT ln K\n\n### How It Works\n\n1. Compute ΔG° from ΔG°f tables (or from ΔH° and ΔS°).\n2. Convert ΔG° to J/mol.\n3. Solve ln K = −ΔG°/RT, then K = e^(ln K).\n4. Interpret K: >1 product-favored, <1 reactant-favored, ≈1 balanced.\n\n### Worked Example\n\n**Calculate K at 25 °C for N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g), given ΔG° = −33.0 kJ/mol.**\n\n- Convert: ΔG° = −33.0 kJ/mol = −33,000 J/mol\n- ln K = −ΔG°/(RT) = 33,000 / (8.314 × 298) = 33,000 / 2477.6 = 13.3\n- K = e^13.3 = **6.1 × 10⁵**\n\nThe large K reflects a strongly product-favored equilibrium at room temperature — consistent with the industrial Haber process value (though industrially it runs hot, where K is smaller, and relies on high pressure and catalysis).",
+    "howItWorks": "1. Compute ΔG° from ΔG°f tables (or from ΔH° and ΔS°).\n2. Convert ΔG° to J/mol.\n3. Solve ln K = −ΔG°/RT, then K = e^(ln K).\n4. Interpret K: >1 product-favored, <1 reactant-favored, ≈1 balanced.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- ΔG° = −RT ln K; K = e^(−ΔG°/RT).\n- At equilibrium: ΔG = 0 and Q = K; ΔG° is generally **not** zero.\n- ΔG° < 0 ⇒ K > 1; ΔG° > 0 ⇒ K < 1; ΔG° = 0 ⇒ K = 1.\n- At 298 K, K changes by 10× for every ~5.7 kJ/mol change in ΔG°.\n- ΔG° must be in J/mol to match R = 8.314 J/(mol·K).\n- ln K = −ΔG°/RT ⇒ a larger (more negative) ΔG° gives a larger K.",
+    "commonConfusions": "- **\"ΔG° = 0 at equilibrium.\"** — Wrong. *ΔG* = 0 at equilibrium; ΔG° is a constant that is zero only if K happens to equal 1.\n- **\"K = 1 whenever ΔG° = 0.\"** — Correct as stated, but students often mistake *any* equilibrium for ΔG° = 0. Equilibrium ⇒ ΔG = 0, not ΔG° = 0.\n- **\"Bigger ΔG° means bigger K.\"** — Wrong. More *negative* ΔG° means bigger K (K = e^(−ΔG°/RT)).\n- **\"K can be computed in °C.\"** — Wrong. T must be in Kelvin.\n- **\"Units of ΔG° don't matter.\"** — Wrong. Use J/mol with R = 8.314 J/(mol·K).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nΔG° and K are two ways of saying the same thing. ΔG° is the reaction's \"energy report card\"; K is its \"final score\" — how far the reaction leans toward products when everything settles down. They're tied by a one-way conversion: the better the energy report card (more negative ΔG°), the more lopsided the final score (bigger K). A tiny improvement in the report card makes a *huge* jump in the score, because the conversion is exponential, like compound interest. (The limit: K is about equilibrium *position*, while ΔG° is an energy quantity at standard conditions — but the \"better energy ⇒ bigger K\" direction is exact.)",
+    "quickReview": "- ΔG° = −RT ln K; K = e^(−ΔG°/RT).\n- At equilibrium ΔG = 0 and Q = K.\n- More negative ΔG° ⇒ larger K (product-favored).\n- K > 1 ⇔ ΔG° < 0; K < 1 ⇔ ΔG° > 0.\n- Use Kelvin and J/mol.",
+    "workedExamples": "### Worked Example\n\n**Calculate K at 25 °C for N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g), given ΔG° = −33.0 kJ/mol.**\n\n- Convert: ΔG° = −33.0 kJ/mol = −33,000 J/mol\n- ln K = −ΔG°/(RT) = 33,000 / (8.314 × 298) = 33,000 / 2477.6 = 13.3\n- K = e^13.3 = **6.1 × 10⁵**\n\nThe large K reflects a strongly product-favored equilibrium at room temperature — consistent with the industrial Haber process value (though industrially it runs hot, where K is smaller, and relies on high pressure and catalysis).",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 16.4 \"Free Energy.\" https://openstax.org/books/chemistry-2e/pages/16-4-free-energy",
+        "url": "https://openstax.org/books/chemistry-2e/pages/16-4-free-energy"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/16-chemical-thermodynamics/09-free-energy-and-equilibrium.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

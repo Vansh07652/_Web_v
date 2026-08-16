@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-ions-and-electrolytes-q11",
+  "subject": "chemistry-1",
+  "lesson": "ions-and-electrolytes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A student compares 0.1 M CaCl2 with 0.15 M NaCl, assuming ideal complete dissociation of both salts. Which comparison of their calculated osmolarities is accurate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "They are equal at 0.3 osmol/L, because CaCl2 releases 3 particles and NaCl releases 2"
+    },
+    {
+      "id": "b",
+      "text": "CaCl2 is lower at 0.2 osmol/L, because Ca2+ counts as one particle carrying a double charge"
+    },
+    {
+      "id": "c",
+      "text": "NaCl is higher at 0.45 osmol/L, because each formula unit releases three separate chloride ions"
+    },
+    {
+      "id": "d",
+      "text": "CaCl2 is higher at 0.6 osmol/L, because the ionic charge magnitudes multiply the particle count"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Osmolarity counts dissolved particles and ignores their charge: CaCl2 yields Ca2+ plus two Cl-, so 0.1 x 3 = 0.3 osmol/L, while NaCl yields two particles, so 0.15 x 2 = 0.3 osmol/L. The solutions are therefore isosmotic despite different molarities and different ionic charges. The discriminating idea is that osmolarity depends on particle number while milliequivalents depend on charge - two quantities students routinely conflate. Real solutions deviate slightly because of ion pairing, which is why the problem specifies ideal behavior.\n\nELI-10: Osmolarity is a particle census, and charge is not counted in that census - a 2+ calcium ion counts exactly the same as a 1+ sodium ion. So the only thing to track is how many pieces each formula unit produces. CaCl2 produces three, and 0.1 x 3 = 0.3. NaCl produces two, and 0.15 x 2 = 0.3. Equal particle concentrations mean the two solutions pull water across a membrane with equal force: they are isosmotic. If the question had asked about milliequivalents instead, charge would matter and the answers would differ.",
+  "difficulty": "hard",
+  "tags": [
+    "osmolarity vs molarity",
+    "dissociation factor",
+    "particle count vs charge"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-273",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

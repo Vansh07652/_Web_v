@@ -1,0 +1,42 @@
+{
+  "id": "biology-1-mendelian-and-classical-genetics-0009",
+  "subject": "biology-1",
+  "lesson": "mendelian-and-classical-genetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A couple is planning to have two children, and both parents are heterozygous (Aa) for a recessive disorder. Using the **sum rule** of probability, what is the chance that exactly one of their two children will be affected (aa)?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/4"
+    },
+    {
+      "id": "b",
+      "text": "1/16"
+    },
+    {
+      "id": "c",
+      "text": "7/16"
+    },
+    {
+      "id": "d",
+      "text": "3/8"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "The chance that any one child is affected is 1/4, and the chance that a child is unaffected is 3/4. Exactly one affected child can occur in two orders, so the sum rule gives (1/4 x 3/4) plus (3/4 x 1/4), which equals 6/16, or 3/8. A is the chance for a single affected child, B is the chance that both are affected, and C is the chance that at least one is affected.",
+  "difficulty": "unknown",
+  "tags": [
+    "sum",
+    "rule",
+    "exactly",
+    "one",
+    "affected",
+    "child"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-f0963ec18ccf229e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:human-physiology-2:systems-physiology:male-reproductive-physiology",
+  "slug": "male-reproductive-physiology",
+  "title": "Male Reproductive Physiology",
+  "subject": {
+    "id": "subject:human-physiology-2",
+    "slug": "human-physiology-2",
+    "title": "Human Physiology II"
+  },
+  "unit": {
+    "id": "unit:human-physiology-2:systems-physiology",
+    "slug": "systems-physiology",
+    "title": "Systems Physiology",
+    "order": 1
+  },
+  "order": 29,
+  "status": "final",
+  "sections": {
+    "overview": "The testes perform two jobs: sperm production in the seminiferous tubules and testosterone secretion by Leydig cells, with Sertoli cells supporting and nourishing developing sperm. A single hypothalamic-pituitary-gonadal axis controls both: GnRH drives FSH (which acts on Sertoli cells) and LH (which drives Leydig cells to make testosterone), and testosterone plus inhibin feed back to keep the system balanced. Erection is a parasympathetic, nitric-oxide-mediated vascular event, whereas ejaculation is a sympathetic reflex that expels semen.",
+    "whyItMatters": "Male reproductive physiology is assessed with measurements such as testosterone, FSH, LH, and inhibin B, plus semen analysis (sperm count, motility, and morphology). The HPG-axis pattern is diagnostic: primary testicular failure raises FSH/LH, whereas hypothalamic-pituitary failure lowers them — but reference ranges and interpretation criteria vary by institution and jurisdiction. These notes support education and do not replace clinical instruction; any concerning symptoms require evaluation by qualified clinicians.",
+    "learningObjectives": "1. Describe testicular anatomy, including the seminiferous tubules, Sertoli cells, and Leydig cells.\n2. Trace the steps of spermatogenesis and the contributions to semen production.\n3. Explain the hypothalamic-pituitary-gonadal (HPG) axis and the roles of GnRH, FSH, LH, testosterone, and inhibin, including feedback.\n4. Distinguish the neural control of erection (parasympathetic/nitric oxide) from ejaculation (sympathetic).",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Seminiferous tubules | Coiled tubules where sperm are made | Site of spermatogenesis |\n| Sertoli cells | Supporting cells lining the tubules | Nourish sperm, form blood-testis barrier, secrete inhibin |\n| Leydig cells | Interstitial cells between the tubules | Produce testosterone |\n| Spermatogenesis | Production of mature sperm from stem cells | The male germ-cell pathway |\n| GnRH | Hypothalamic hormone driving FSH and LH | Top of the HPG axis |\n| FSH | Pituitary hormone acting on Sertoli cells | Supports spermatogenesis |\n| LH | Pituitary hormone acting on Leydig cells | Stimulates testosterone |\n| Testosterone | Main male androgen | Drives spermatogenesis and male characteristics |\n| Inhibin | Sertoli-cell hormone | Selectively inhibits FSH |\n| Nitric oxide (NO) | Vasodilator released during erection | Mediates parasympathetic erection |",
+    "collegeNotes": "### 1. Testicular anatomy separates sperm production from hormone production\nThe seminiferous tubules are coiled tubes where spermatogenesis occurs, lined by Sertoli cells. Between the tubules, in the interstitial space, sit the Leydig cells, which secrete testosterone. This spatial separation lets one axis control two products.\n### 2. Spermatogenesis converts stem cells into sperm\nSpermatogonia divide and mature through spermatocytes (where meiosis occurs) and spermatids, which then differentiate (spermiogenesis) into mature spermatozoa. Sertoli cells provide structural support, nutrients, a blood-testis barrier, and androgen-binding protein, and they secrete inhibin.\n### 3. The HPG axis uses dual feedback\nHypothalamic GnRH stimulates the anterior pituitary to release FSH and LH. FSH acts on Sertoli cells to support spermatogenesis and stimulate inhibin; LH acts on Leydig cells to stimulate testosterone. Testosterone feeds back to suppress GnRH and LH, while inhibin selectively suppresses FSH, fine-tuning sperm output.",
+    "howItWorks": "1. GnRH pulses drive the pituitary to release FSH and LH.\n2. LH makes Leydig cells secrete testosterone; FSH makes Sertoli cells support sperm development.\n3. Spermatogonia mature through meiosis and spermiogenesis into spermatozoa.\n4. Glands add fluids to make semen, which travels the epididymis and vas deferens.\n5. Testosterone and inhibin feed back to restrain GnRH, LH, and FSH.\n6. Parasympathetic NO produces erection; sympathetic signals drive ejaculation.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Spermatogenesis happens in the seminiferous tubules; testosterone is made by the Leydig cells; Sertoli cells support the germ cells.\n- **High yield:** FSH → Sertoli cells (spermatogenesis support + inhibin); LH → Leydig cells (testosterone).\n- **High yield:** Testosterone inhibits GnRH/LH, while inhibin selectively inhibits FSH — a two-signal feedback system.\n- **High yield:** Erection is parasympathetic and nitric-oxide (cGMP) mediated; ejaculation is sympathetic.\n- Spermatogenesis includes meiosis, which halves the chromosome number to 23.\n- The blood-testis barrier, formed by Sertoli cells, protects developing sperm from immune attack and controls their environment.\n- Semen = sperm + secretions from seminal vesicles, prostate, and bulbourethral glands.\n- Testosterone is required both for spermatogenesis and for male secondary sex characteristics.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Leydig cells | Sertoli cells | Leydig cells (interstitial) make testosterone; Sertoli cells (in tubules) support sperm and make inhibin |\n| FSH action | LH action | FSH targets Sertoli cells; LH targets Leydig cells |\n| Erection | Ejaculation | Erection is parasympathetic/NO vasodilation; ejaculation is sympathetic muscle contraction |\n| Testosterone feedback | Inhibin feedback | Testosterone suppresses GnRH/LH; inhibin suppresses FSH |",
+    "memoryAids": "**\"S-L-F\"** — **S**ertoli cells are **S**upported by FSH, **L**eydig cells are **L**ed by LH. For erection vs ejaculation, remember **\"Point and Shoot\"**: **P**arasympathetic for the **P**oint (erection), **S**ympathetic for the **S**hoot (ejaculation).",
+    "eli10": "Think of the testis as a factory with two departments. The \"sperm department\" (seminiferous tubules) is a long assembly line where immature cells divide and mature into sperm, with Sertoli cells as the support staff feeding and protecting them. The \"hormone department\" (Leydig cells) sits between the assembly lines and manufactures testosterone. A control room in the brain (hypothalamus and pituitary) sends two messengers — FSH to the support staff and LH to the hormone department — and reads reports (testosterone and inhibin) to decide how hard each department should work. The comparison stops being exact because the two departments depend on each other: testosterone from the Leydig cells is itself required for sperm to mature, so they are not as separate as two factory floors.\n### Simple Example\nFSH is like the manager who tells the Sertoli support staff to keep the assembly line running, while LH tells the Leydig cells to keep making testosterone — and the finished product (testosterone) then reports back to slow the managers down when enough is made.",
+    "quickReview": "### Topic Recap\n\nThe testes house spermatogenesis in the seminiferous tubules (supported by Sertoli cells) and testosterone production in the Leydig cells. GnRH drives FSH and LH; FSH acts on Sertoli cells and LH on Leydig cells, while testosterone and inhibin provide feedback. Erection results from parasympathetic nitric-oxide vasodilation, and ejaculation from sympathetic contraction, completing the two branches of male reproductive function.\n\n### Knowledge Check\n\n1. Which cells produce testosterone, and which pituitary hormone stimulates them?\n2. What is the role of Sertoli cells in spermatogenesis, and which two products do they secrete or bind?\n3. What two hormones provide negative feedback on the HPG axis, and what does each inhibit?\n4. Why is erection described as a parasympathetic event, and which molecule is the key mediator?\n5. Which division of the autonomic nervous system drives ejaculation?\n\n### Answers and Rationales\n\n1. **Leydig cells**, stimulated by **LH**. FSH acts on Sertoli cells instead.\n2. **Sertoli cells nourish developing sperm, form the blood-testis barrier, and secrete inhibin and androgen-binding protein**, concentrating testosterone for spermatogenesis.\n3. **Testosterone inhibits GnRH and LH; inhibin selectively inhibits FSH**, allowing independent control of androgen levels and sperm output.\n4. **Because parasympathetic nerves release nitric oxide**, which activates cGMP and relaxes penile vascular smooth muscle to increase blood flow and produce erection.\n5. **The sympathetic nervous system**, which contracts the ducts and glands to move semen and trigger ejaculation.",
+    "workedExamples": "1. **Central drive:** The hypothalamus releases GnRH in pulses into the portal blood, driving the anterior pituitary to secrete FSH and LH.\n2. **Leydig cell response:** LH binds Leydig-cell receptors and raises cAMP, stimulating testosterone synthesis from cholesterol. Testosterone enters the blood and also diffuses into the tubules.\n3. **Sertoli cell response:** FSH (and testosterone) acts on Sertoli cells to support spermatogenesis. Sertoli cells concentrate testosterone via androgen-binding protein and create the blood-testis barrier that protects developing germ cells.\n4. **Spermatogenesis:** Spermatogonia undergo mitotic divisions, meiosis (reducing chromosome number to 23), and spermiogenesis (tail and acrosome formation), producing motile sperm that are released into the tubule lumen.\n5. **Semen production:** As sperm pass through the epididymis (maturation and storage) and vas deferens, the seminal vesicles (fructose-rich fluid), prostate (alkaline, enzyme-rich fluid), and bulbourethral glands (lubricating mucus) add secretions to form semen.\n6. **Feedback:** Testosterone inhibits GnRH and LH; inhibin from Sertoli cells inhibits FSH. These negative-feedback loops keep testosterone and sperm production within normal ranges.\n7. **Erection (parasympathetic):** Sexual stimulation activates parasympathetic nerves that release nitric oxide in penile arterioles. NO activates guanylate cyclase → cGMP, relaxing vascular smooth muscle, increasing blood flow into the erectile tissue and trapping it to produce erection.\n8. **Ejaculation (sympathetic):** Sympathetic nerves trigger contraction of the epididymis, vas deferens, seminal vesicles, and prostate to propel semen into the urethra (emission), followed by rhythmic contraction of pelvic muscles (ejaculation).",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "male-reproductive-physiology",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "29-male-reproductive-physiology",
+      "kind": "source_file_stem",
+      "source_id": "need-review-human-physiology-ii"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-human-physiology-ii",
+    "sourceFile": "human-physiology-ii-study-notes/docs/human-physiology-ii/29-male-reproductive-physiology.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:compartments-protein-sorting:soluble-vs-membrane-protein-insertion",
+  "slug": "soluble-vs-membrane-protein-insertion",
+  "title": "Soluble vs. Membrane Protein Insertion into the ER",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:compartments-protein-sorting",
+    "slug": "compartments-protein-sorting",
+    "title": "Compartments Protein Sorting",
+    "order": 3
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "All proteins enter the ER through the same Sec61 translocon, but their fates diverge based on the internal signals in their sequence. **Soluble lumenal proteins** are threaded completely through the channel and released into the ER lumen (their signal peptide cleaved). **Transmembrane proteins** use two kinds of internal sequences — **start-transfer (signal-anchor)** sequences that initiate threading and insert a helix into the lipid bilayer, and **stop-transfer** sequences that halt translocation so the rest of the protein remains on the cytosolic side. The Sec61 translocon has a **lateral gate** that opens sideways into the lipid bilayer, letting hydrophobic transmembrane segments slip out of the channel into the membrane. The arrangement and orientation of start- and stop-transfer sequences therefore program the final topology of each membrane protein, and that topology — which end faces the lumen and which faces the cytosol — is fixed and conserved through all subsequent vesicular traffic.",
+    "whyItMatters": "Membrane protein topology is function: receptors must place their ligand-binding domains outside and their signaling domains inside. Errors in insertion produce misfolded, nonfunctional proteins that are degraded — and contribute to disease (e.g., cystic fibrosis, caused by misfolding of CFTR, a multipass chloride channel). Understanding start/stop-transfer logic is also essential for engineering and predicting the structure of the thousands of membrane proteins that are drug targets.",
+    "learningObjectives": "- Contrast the translocation of soluble proteins with the insertion of transmembrane proteins.\n- Explain how start-transfer and stop-transfer sequences determine membrane topology.\n- Distinguish Type I, Type II, and multipass membrane proteins.\n- Apply the \"positive-inside rule\" to predict topology.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nAll proteins enter the ER through the same Sec61 translocon, but their fates diverge based on the internal signals in their sequence. **Soluble lumenal proteins** are threaded completely through the channel and released into the ER lumen (their signal peptide cleaved). **Transmembrane proteins** use two kinds of internal sequences — **start-transfer (signal-anchor)** sequences that initiate threading and insert a helix into the lipid bilayer, and **stop-transfer** sequences that halt translocation so the rest of the protein remains on the cytosolic side. The Sec61 translocon has a **lateral gate** that opens sideways into the lipid bilayer, letting hydrophobic transmembrane segments slip out of the channel into the membrane. The arrangement and orientation of start- and stop-transfer sequences therefore program the final topology of each membrane protein, and that topology — which end faces the lumen and which faces the cytosol — is fixed and conserved through all subsequent vesicular traffic.\n\n### Key Components\n\n- **Sec61 translocon:** the αβγ channel with a lateral gate that opens into the lipid bilayer.\n- **Start-transfer sequence:** a hydrophobic segment (often ~20 residues) that serves as both an uncleaved signal and the first transmembrane α-helix.\n- **Stop-transfer sequence:** a hydrophobic segment that stops translocation and becomes a transmembrane α-helix.\n- **Signal peptidase:** cleaves cleavable signal peptides (but not internal signal-anchor sequences).\n- **Type I / Type II / multipass topologies:** the classification of transmembrane protein orientations.\n\n### Mechanism / How It Works\n\n1. **Soluble protein.** An N-terminal cleavable signal peptide targets the protein to Sec61, the entire chain is threaded through the pore into the lumen, and signal peptidase cleaves the signal peptide. The protein ends up free in the lumen.\n2. **Type I membrane protein (N-terminus in lumen, C-terminus in cytosol).** An N-terminal cleavable signal initiates translocation; a later **stop-transfer sequence** (hydrophobic) arrests translocation. The channel's lateral gate releases the stop-transfer helix into the bilayer; the segment between the signal and the stop sequence is pulled into the lumen, while the C-terminal tail remains in the cytosol. Result: N-lumen, C-cytosol (single pass).\n3. **Type II membrane protein (N-terminus in cytosol, C-terminus in lumen).** An internal **signal-anchor (start-transfer) sequence** — uncleaved — inserts in the membrane and initiates translocation of the downstream C-terminal region into the lumen, while the N-terminus stays cytosolic. Orientation is set by the charged residues flanking the signal-anchor (positive-inside rule). Result: N-cytosol, C-lumen.\n4. **Multipass proteins.** Alternating start-transfer and stop-transfer sequences thread the chain back and forth, producing proteins that cross the membrane multiple times (e.g., GPCRs with seven transmembrane helices).\n\nThe orientation is determined once, during synthesis, and is topologically invariant thereafter.\n\n### Energy and Directionality\n\nInsertion and threading are driven by the same machinery as soluble translocation: translation elongation pushes the chain through Sec61, and GTP/ATP support targeting and BiP-mediated translocation. Crucially, the **hydrophobicity** of a transmembrane segment (favorable partitioning into the lipid bilayer via the lateral gate) provides the thermodynamic driving force for membrane insertion. No additional energy is spent to \"decide\" topology — topology is encoded in the sequence (signal placement plus flanking charges), and the machinery merely executes it.\n\n### Experimental Evidence / Technique\n\nTopology was mapped by **protease-protection and glycosylation-site scanning**: lumenal domains are protected from added protease and become N-glycosylated (glycosylation occurs only in the ER lumen), while cytosolic domains are digested. **Reporter fusion experiments** demonstrated the positive-inside rule — moving charged residues around a signal-anchor flips its orientation. **Cryo-EM of Sec61** with a translocating chain revealed the lateral gate and confirmed that signal and stop-transfer sequences occupy the channel and then partition into the lipid.",
+    "howItWorks": "1. **Soluble protein.** An N-terminal cleavable signal peptide targets the protein to Sec61, the entire chain is threaded through the pore into the lumen, and signal peptidase cleaves the signal peptide. The protein ends up free in the lumen.\n2. **Type I membrane protein (N-terminus in lumen, C-terminus in cytosol).** An N-terminal cleavable signal initiates translocation; a later **stop-transfer sequence** (hydrophobic) arrests translocation. The channel's lateral gate releases the stop-transfer helix into the bilayer; the segment between the signal and the stop sequence is pulled into the lumen, while the C-terminal tail remains in the cytosol. Result: N-lumen, C-cytosol (single pass).\n3. **Type II membrane protein (N-terminus in cytosol, C-terminus in lumen).** An internal **signal-anchor (start-transfer) sequence** — uncleaved — inserts in the membrane and initiates translocation of the downstream C-terminal region into the lumen, while the N-terminus stays cytosolic. Orientation is set by the charged residues flanking the signal-anchor (positive-inside rule). Result: N-cytosol, C-lumen.\n4. **Multipass proteins.** Alternating start-transfer and stop-transfer sequences thread the chain back and forth, producing proteins that cross the membrane multiple times (e.g., GPCRs with seven transmembrane helices).\n\nThe orientation is determined once, during synthesis, and is topologically invariant thereafter.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Soluble proteins: cleavable signal → full translocation into the lumen.\n- Type I: cleavable signal + **stop-transfer** → N-lumen, C-cytosol.\n- Type II: internal **signal-anchor (start-transfer)** → N-cytosol, C-lumen.\n- Multipass: alternating start- and stop-transfer sequences.\n- Sec61 **lateral gate** releases hydrophobic helices into the bilayer.\n- Positive-inside rule: more positively charged flanking residues stay on the cytosolic side.\n- Topology is set once and conserved through vesicle traffic (cytosolic faces stay cytosolic).",
+    "commonConfusions": "- **\"All signal sequences are cleaved.\"** — Internal signal-anchor (start-transfer) sequences are **not cleaved**; only N-terminal cleavable signals are removed.\n- **\"A stop-transfer sequence stops everything.\"** — It stops *translocation* of that chain, but the ribosome continues translating the C-terminal region into the cytosol.\n- **\"Type I and Type II are interchangeable names for the same thing.\"** — They have opposite orientations: Type I = N-lumen/C-cytosol; Type II = N-cytosol/C-lumen.\n- **\"Topology can flip after budding/fusion.\"** — Topology is invariant: the lumenal face always stays lumenal and the cytosolic face cytosolic through every vesicle step.\n- **\"Membrane insertion requires a special 'insertion machine' beyond Sec61.\"** — Sec61's lateral gate and the sequence's hydrophobicity do the job; no separate machine is needed.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of the ER membrane as a pool cover with a narrow slit (Sec61). A soluble protein is like a thread pulled all the way through the slit into the water (the lumen). A membrane protein is like a thread with floats attached: a float (a hydrophobic helix) slides sideways out of the slit and sticks in the cover. If the thread has one float in the middle, it stays anchored, half in the water and half out. The order of floats and \"stop here\" knots decides how many times the thread crosses the cover and which end dangles where. Once it's sewn in, it never flips over. (The analogy simplifies that the \"floats\" are driven into the cover by their oily nature and the channel's side door.)",
+    "quickReview": "- Soluble proteins pass fully into the lumen; transmembrane proteins are retained by hydrophobic segments.\n- Start-transfer (signal-anchor) and stop-transfer sequences program topology.\n- Type I (N-lumen/C-cytosol) vs Type II (N-cytosol/C-lumen) vs multipass.\n- Sec61 lateral gate partitions helices into the bilayer.\n- Positive-inside rule predicts orientation from flanking charges.\n- Topology is set once and conserved.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Endoplasmic Reticulum.\" https://www.ncbi.nlm.nih.gov/books/NBK26841/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26841/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Intracellular Compartments and Protein Sorting.\" https://www.ncbi.nlm.nih.gov/books/NBK21053/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21053/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/03-compartments-protein-sorting/08-soluble-vs-membrane-protein-insertion.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

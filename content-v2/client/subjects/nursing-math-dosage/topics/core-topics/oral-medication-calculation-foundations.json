@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:nursing-math-dosage:core-topics:oral-medication-calculation-foundations",
+  "slug": "oral-medication-calculation-foundations",
+  "title": "Oral Medication Calculation Foundations",
+  "subject": {
+    "id": "subject:nursing-math-dosage",
+    "slug": "nursing-math-dosage",
+    "title": "Nursing Math & Dosage Foundations"
+  },
+  "unit": {
+    "id": "unit:nursing-math-dosage:core-topics",
+    "slug": "core-topics",
+    "title": "Core Topics",
+    "order": 1
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nThink of a recipe: the 'desired dose' is how much sugar the recipe asks for, not how much is in the whole bag. D is simply the amount the prescriber asked to be given. You compare what you WANT (D) to what you HAVE (H) to figure out how many spoonfuls to scoop.\n\n### Question 2\n\nH is the 'size of each scoop' you already own. If each tablet is a 250 mg scoop, that's your H. You need to know how big each scoop is before you can figure out how many scoops equal what the prescriber ordered.\n\n### Question 3\n\n'Milli' always means one-thousandth, like a millimeter is a tiny slice of a meter. So a gram is 1000 of those tiny milligram slices, the same way 1000 meters make one kilometer. When you switch from grams to milligrams, you jump up by 1000.\n\n### Question 4\n\nYou can't fairly compare 2 of something to 250 of something else if they're measured differently, like comparing dollars to pennies without converting. Change them to the same money first, then the comparison works. Same units in, correct answer out.\n\n### Question 5\n\nFor a pill, one tablet is your scoop, so Q is 1. For syrup, the 'scoop' might be 5 mL that holds the medicine, so Q becomes 5. The recipe is the same; you just plug in how big the liquid scoop is.\n\n### Question 6\n\nIf you forget that grams are 1000 times bigger than milligrams, your math thinks the dose is tiny and tells you almost nothing to give. Convert 0.5 g into 500 mg first, and the real answer, 2 tablets, appears. Skipping the step shrinks your answer way down.\n\n### Question 7\n\nA microgram is a super-tiny crumb; it takes 1000 crumbs to make one milligram, like it takes 1000 grams to make a kilogram. So mg is the big one and mcg is the little one. Mix them up and your dose can be off by a thousand times.\n\n### Question 8\n\nThe order wants 500 mg, and each pill is a 250 mg scoop. How many 250 scoops make 500? Two. So you give 2 tablets, simple as counting scoops.\n\n### Question 9\n\nEach 5 mL of syrup holds 125 mg of medicine. You need 250 mg, which is two of those 125 mg amounts, so you need two of the 5 mL scoops, which is 10 mL. Double the medicine means double the liquid.\n\n### Question 10\n\nFirst make the units match: 1 gram becomes 1000 mg. Each pill is 500 mg, and 1000 is two of those, so the answer is 2 tablets. The trick is always changing to the same unit, using the true factor 1 g = 1000 mg, before you divide.\n\n### Question 11\n\nChange 0.5 g into 500 mg first. Each 5 mL holds 250 mg, and 500 is two of those, so you need two 5 mL scoops, which is 10 mL. Convert, then count the scoops.\n\n### Question 12\n\nTurn 0.125 mg into micrograms by multiplying by 1000, which gives 125 mcg. Each pill is 62.5 mcg, and 125 is exactly two of those, so you give 2 tablets. The big step is remembering mg is 1000 times bigger than mcg.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "SI Units / Metric System — NIST",
+        "url": "https://www.nist.gov/pml/owm/metric-si/si-units"
+      },
+      {
+        "text": "Prealgebra 2e / Elementary Algebra — OpenStax",
+        "url": "https://openstax.org/subjects/math"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "expansion-question-bank",
+    "sourceFile": "Education/pre-nursing-expansion-question-bank/questions/08-nursing-math-dosage/248-oral-medication-calculation-foundations.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false
+  },
+  "sourceSnapshotMarkdown": ""
+}

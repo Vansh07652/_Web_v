@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-regulation-eukaryotes-and-epigenetics-0002",
+  "subject": "genetics",
+  "lesson": "gene-regulation-eukaryotes-and-epigenetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept A **silencer** is a DNA element that decreases transcription of its target gene. Which statement correctly describes how a silencer functions?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It base pairs directly with the promoter to block entry of RNA polymerase."
+    },
+    {
+      "id": "b",
+      "text": "It codes for a microRNA that cleaves the target messenger RNA after transcription."
+    },
+    {
+      "id": "c",
+      "text": "It is bound by repressor proteins that recruit enzymes removing acetyl groups from histones, condensing local chromatin and reducing access of the transcription machinery."
+    },
+    {
+      "id": "d",
+      "text": "It removes acetyl groups from the DNA double helix, making the helix too tight to unwind."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Silencers are binding sites for repressor proteins, which recruit chromatin condensing activities such as *HDAC1* (histone deacetylase 1), and compacted chromatin blocks access of the transcription machinery. A fails because DNA elements work through bound proteins, not direct base pairing with the promoter. B confuses a silencer with a microRNA gene, which acts on messenger RNA after transcription. D fails because acetylation marks histones, not DNA, and removing acetyl groups condenses chromatin rather than tightening the helix.",
+  "difficulty": "unknown",
+  "tags": [
+    "silencer",
+    "repressor",
+    "binding"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-8ab599ccbbccc2db",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

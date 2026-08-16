@@ -1,0 +1,145 @@
+---
+title: "Quasars"
+subject: "Science"
+book: "Astronomy 2e"
+chapter: "27: Active Galaxies, Quasars, and Supermassive Black Holes"
+topic_number: "1"
+source: "astronomy-2e.md"
+tags:
+  - "quasars"
+  - "science"
+status: "complete"
+---
+
+# Quasars
+
+> **Book:** [Astronomy 2e](../../README.md)  
+> **Chapter:** [Chapter 27: Active Galaxies, Quasars, and Supermassive Black Holes](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+In the early 1960s, radio astronomers kept finding strong radio sources whose positions matched faint, star-like points of light. They looked like stars, so they were named **quasi-stellar radio sources** — **quasars** for short. The breakthrough came in 1963, when Maarten Schmidt decoded the spectrum of **3C 273** and found familiar hydrogen emission lines shifted redward by about 16% (z ≈ 0.158). Under Hubble's law (Chapter 26), that redshift places 3C 273 roughly 2 billion light-years away — and an object that bright from that far away must outshine hundreds of entire galaxies.
+
+Quasars turned out to be the most luminous persistent objects in the universe, pouring out the energy of trillions of Suns from a region no larger than our solar system. This topic covers how they were discovered, what we learned from their spectra, their variability, and the "energy problem" that forced astronomers to rethink what could power them.
+
+## Why This Matters
+
+Quasars matter for three reasons:
+
+- **They are cosmic beacons.** Bright enough to be seen across most of the universe, they mark the locations of the most extreme activity in galaxies — and they illuminate the gas between us and them (Topic 3).
+- **They forced a new physics.** No known star or star cluster could produce a quasar's energy. Explaining quasars led directly to the supermassive-black-hole model (Topic 2) and reshaped our picture of every large galaxy's center.
+- **They are exam favorites.** Expect questions on the 3C 273/Schmidt discovery, why "star-like" was misleading, what variability implies, and radio-loud versus radio-quiet terminology.
+
+## Core Concepts
+
+### The discovery: radio sources that looked like stars
+
+In the 1950s and early 1960s, radio surveys (the 3C catalog among them) pinpointed strong radio emitters. When optical telescopes looked at the positions, they saw unremarkable blue "stars." The puzzle: ordinary stars emit almost no radio, and these objects were screaming in radio while looking like nothing special optically.
+
+The breakthrough came when **Maarten Schmidt (1963)** studied 3C 273 and noticed that four mysterious emission lines matched the pattern of hydrogen's Balmer series — if the whole spectrum were shifted redward by z ≈ 0.158. A redshift of 16% means the object is receding at ~16% of the speed of light, which Hubble's law translates to a distance of roughly 2 billion light-years (a commonly taught reference figure). A "star" 2 billion light-years away that is still visible to modest telescopes must be unbelievably luminous. Schmidt's redshift was the key that unlocked everything else.
+
+### Star-like but not a star: the size problem
+
+Quasars appear **point-like** — unresolved even in large telescopes — meaning their light comes from a region too small to see. Variability sharpens the limit. If a quasar's brightness changes significantly over, say, a week, the emitting region cannot be much larger than a light-week across (the **light-travel-time argument**: a source can only change on timescales comparable to the time light takes to cross it). A light-week is roughly a few thousand astronomical units — comparable to the outer solar system. So quasars concentrate galaxy-scale power in a solar-system-scale volume.
+
+### The luminosity problem
+
+Quasar luminosities reach roughly **10¹²–10¹³ times the Sun's luminosity** (commonly taught reference values). For scale: the entire Milky Way shines at about 10¹⁰–10¹¹ L☉ (also a commonly taught figure). A single quasar can therefore outshine a thousand normal galaxies — from a region the size of the solar system. If it ran on starlight, you would need trillions of Suns packed into that volume, and even then stars don't radiate that efficiently. This mismatch is called the **energy problem**, and it is the puzzle Topic 2 resolves.
+
+### Radio-loud versus radio-quiet
+
+Only about **10–15% of quasars are radio-loud** (commonly taught fraction) — meaning they emit strong radio radiation, typically from narrow **jets** of relativistic particles. The rest are radio-quiet: equally luminous optically but weak in radio. The historical name "quasar" came from the radio-loud examples; astronomers now use **quasi-stellar object (QSO)** for the class as a whole, with "quasar" often reserved for the radio-loud subset. Don't let the name mislead you — radio emission is not what makes a quasar a quasar.
+
+### What quasar spectra tell us
+
+Quasar spectra show **broad emission lines** — lines smeared by gas moving at thousands of km/s — along with a strong, smooth continuum that peaks in the ultraviolet. The lines reveal composition (mostly hydrogen and helium, with heavier elements present), while the line widths and the fast variability indicate hot gas swirling at high speeds near a compact engine. Some quasars also show broad absorption lines, gas flowing outward from the center.
+
+## ELI-10: Explain Like I'm 10
+
+A quasar is like a marble-sized flashlight that shines brighter than a thousand stadium lights. Quasars look like ordinary stars through a telescope, but their light is stretched (redshifted) so much that they must be billions of light-years away — which means they're actually the brightest things in the universe. They also flicker, which tells us their power comes from a tiny space, like a firefly-sized bulb that can't possibly be a star.
+
+## High-Yield Points
+
+- **1963, Maarten Schmidt:** decoded 3C 273's spectrum as hydrogen redshifted by z ≈ 0.158 → quasars are very distant, not nearby stars.
+- **Definition:** star-like appearance + large redshift + enormous luminosity (10¹²–10¹³ L☉, commonly taught).
+- **Variability on short timescales → compact source** (light-travel-time argument): energy from a solar-system-scale region.
+- **Radio-loud (~10–15%) vs. radio-quiet (QSO)** — radio is not the defining feature.
+- **The energy problem:** starlight cannot power a quasar; a new energy source is required (Topic 2).
+- **Broad emission lines** show fast-moving gas; the continuum peaks in the UV.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Quasar / QSO | Star-like, highly redshifted, hyper-luminous object | The most powerful persistent energy sources known |
+| 3C 273 | The first quasar whose redshift was decoded (Schmidt, 1963) | The discovery object that launched quasar astronomy |
+| Redshift (z) | Fractional stretch of wavelengths, Δλ/λ | Proves quasars are at enormous distances |
+| Emission lines | Bright spectral lines from hot, glowing gas | Reveal composition and (via Doppler broadening) gas speeds |
+| Radio-loud | Quasar with strong radio emission (jets) | ~10–15% of quasars; the historical "quasar" label |
+| Radio-quiet | Quasar weak in radio but optically luminous | Most QSOs; shows radio isn't essential |
+| Variability | Rapid brightness changes over days–months | Light-travel-time argument → tiny emitting region |
+| Light-travel-time argument | Source can't change faster than light crosses it | Sets an upper limit on the size of the energy source |
+| Luminosity | Total power output (energy per second) | Quasars outshine ~1,000 normal galaxies |
+
+## Example: Two Observations, One Unavoidable Conclusion
+
+Imagine you're an astronomer in 1963 with two pieces of data on the object at the position of radio source 3C 273:
+
+1. **A photograph.** The object looks exactly like a faint blue star — a single point of light, no galaxy visible around it.
+2. **A spectrum.** Four emission lines, at wavelengths matching hydrogen's Balmer series — but every line shifted to longer wavelengths by the same 16%.
+
+**Inference from observation 1:** the light comes from a very compact region (unresolved, point-like).
+
+**Inference from observation 2:** the object is receding at ~16% of light speed. Using Hubble's law from the previous chapter (v = H₀d), that means a distance of roughly 2 billion light-years. Since apparent brightness falls as 1/d², an object this bright at that distance must be intrinsically ~100 times more luminous than the entire Milky Way — and it flickers on month timescales, so all that power comes from a region smaller than a light-month across.
+
+The conclusion is inescapable: something in that tiny volume is converting mass into light far more efficiently than any star can. That's the energy problem — and the resolution is Topic 2.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Quasars being nearby stars | Distant active galactic nuclei | Redshifts of z ~ 0.1–7 prove enormous distances |
+| "Quasar" requiring radio emission | The QSO class | ~85–90% of QSOs are radio-quiet; radio isn't defining |
+| Redshift being only a Doppler effect | Cosmological redshift from expansion | Light stretches while traveling through expanding space (Ch. 26) |
+| Quasars being huge objects | Quasars being compact but powerful | Variability shows sizes ~solar-system scale, not galaxy scale |
+| Quasar brightness coming from size | Brightness from an efficient engine | Accretion onto a black hole, not a giant star cluster |
+| All quasars looking alike | Great diversity | Spectra, radio power, and variability differ widely |
+
+## Quick Review
+
+1. Who decoded the first quasar spectrum, which object, and what was the key insight?
+2. Why did quasars' star-like appearance initially mislead astronomers?
+3. What does a quasar's rapid variability tell you about its size?
+4. Roughly how many times brighter than the Milky Way can a quasar be?
+5. What is the difference between a "quasar" and a "QSO"?
+6. Why can't a cluster of stars power a quasar?
+
+<details>
+<summary>Show answers</summary>
+
+1. Maarten Schmidt (1963) decoded 3C 273's spectrum, recognizing its emission lines as hydrogen redshifted by z ≈ 0.158 — proving quasars are extremely distant, not nearby stars.
+2. They looked like point sources of light — like stars — so they seemed to be nearby stellar objects, not the enormously distant, enormously luminous objects they really are.
+3. A source can only change as fast as light can cross it, so variability over days–weeks implies an emitting region no larger than a few light-days to a light-month — solar-system scale.
+4. Quasar luminosities of 10¹²–10¹³ L☉ versus the Milky Way's ~10¹⁰–10¹¹ L☉ mean a quasar can outshine roughly a thousand galaxies (commonly taught reference figures).
+5. Historically, "quasar" named the radio-loud sources; "quasi-stellar object" (QSO) is the broader class, radio-loud or not. Most QSOs are radio-quiet.
+6. Stars release only ~0.7% of their rest mass as energy over their lifetimes, and you'd need trillions packed into a solar-system-sized volume — fusion can't come close to the required power density (Topic 2).
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter — see [The Expanding Universe](../chapter-26-galaxies/05-the-expanding-universe.md)
+- Next: [Supermassive Black Holes: What Quasars Really Are](02-supermassive-black-holes-what-quasars-really-are.md)
+- Related: [Quasars as Probes of Evolution in the Universe](03-quasars-as-probes-of-evolution-in-the-universe.md)
+- Chapter overview: [Active Galaxies, Quasars, and Supermassive Black Holes](../README.md)
+
+## Source Notes
+
+- Book: Astronomy 2e
+- Local outline source: `astronomy-2e.md`
+- Official source URL: https://openstax.org/details/books/astronomy-2e/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Numerical values (3C 273's z ≈ 0.158 and distance, quasar luminosity range 10¹²–10¹³ L☉, Milky Way luminosity, ~10–15% radio-loud fraction) are commonly taught reference figures intended for learning; verify against current sources before citing in assessments.
+- Last updated: 2026-08-16

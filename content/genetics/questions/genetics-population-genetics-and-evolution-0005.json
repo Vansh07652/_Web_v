@@ -1,0 +1,41 @@
+{
+  "id": "genetics-population-genetics-and-evolution-0005",
+  "subject": "genetics",
+  "lesson": "population-genetics-and-evolution",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem Two heterozygous parents, genotype *Aa* x *Aa*, are crossed at a locus where the *aa* genotype is a recessive lethal that dies before birth. Assuming the lethal acts before any offspring can be scored, what fraction of the surviving offspring is expected to be heterozygous?",
+  "options": [
+    {
+      "id": "a",
+      "text": "2/3"
+    },
+    {
+      "id": "b",
+      "text": "1/2"
+    },
+    {
+      "id": "c",
+      "text": "1/4"
+    },
+    {
+      "id": "d",
+      "text": "3/4"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The zygotic genotypic ratio is 1:2:1 (sums to 4), so 1/4 are *AA*, 1/2 are *Aa*, and 1/4 are *aa*, and the lethal removes the *aa* class, leaving 3/4 of zygotes surviving. The heterozygous fraction among survivors is (1/2)/(3/4) = 2/3. Option B counts *Aa* among all zygotes, 2/4 = 1/2, without renormalizing to survivors, and D is the 3/4 of zygotes that survive, not the heterozygote fraction among them.",
+  "difficulty": "unknown",
+  "tags": [
+    "lethal",
+    "recessive",
+    "cross",
+    "surviving",
+    "offspring"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-c8080c5df327048e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

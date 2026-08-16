@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-thermodynamics:second-law-of-thermodynamics",
+  "slug": "second-law-of-thermodynamics",
+  "title": "The Second Law of Thermodynamics",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-thermodynamics",
+    "slug": "chemical-thermodynamics",
+    "title": "Chemical Thermodynamics",
+    "order": 7
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "The **Second Law of Thermodynamics** states that for any spontaneous process, the total entropy of the universe increases: **ΔS_universe > 0**. The universe is the system plus its surroundings, so ΔS_universe = ΔS_system + ΔS_surroundings. A spontaneous process may decrease the system's entropy (water freezing) as long as the surroundings' entropy increases by more. At equilibrium, ΔS_universe = 0. This is the fundamental, universal test of spontaneity — more fundamental than ΔG, which is a convenience derived from it.",
+    "whyItMatters": "The Second Law is arguably the most far-reaching law in science: it dictates the direction of heat flow, the arrow of time, the maximum efficiency of engines and refrigerators, and why perpetual-motion machines are impossible. In chemistry, it is the reason we can build spontaneity into a single handy criterion (ΔG) and predict reaction direction under any conditions.",
+    "learningObjectives": "- State the Second Law of Thermodynamics in terms of the entropy of the universe.\n- Explain the difference between ΔS_system, ΔS_surroundings, and ΔS_universe.\n- Calculate ΔS_surroundings from the enthalpy change and temperature.\n- Use ΔS_universe to judge whether a process is spontaneous or at equilibrium.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe **Second Law of Thermodynamics** states that for any spontaneous process, the total entropy of the universe increases: **ΔS_universe > 0**. The universe is the system plus its surroundings, so ΔS_universe = ΔS_system + ΔS_surroundings. A spontaneous process may decrease the system's entropy (water freezing) as long as the surroundings' entropy increases by more. At equilibrium, ΔS_universe = 0. This is the fundamental, universal test of spontaneity — more fundamental than ΔG, which is a convenience derived from it.\n\n### Key Ideas\n\n- **Universe = system + surroundings.** The surroundings are everything outside the system that can exchange heat with it.\n- **The decisive quantity.** A process is spontaneous if and only if ΔS_universe > 0; it is at equilibrium when ΔS_universe = 0.\n- **Heat transfer drives ΔS_surroundings.** For a process at constant temperature, ΔS_surroundings = −ΔH_system / T.\n- **Exothermic favors spontaneity.** When ΔH_system < 0, the surroundings gain heat, so ΔS_surroundings > 0 — an exothermic reaction pushes the universe toward higher entropy.\n- **Temperature moderates the effect.** The same heat transfer produces a larger surroundings-entropy change at low T than at high T (dividing by T).\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| ΔS_univ | Entropy change of the universe | J/(mol·K) |\n| ΔS_sys | Entropy change of the system | J/(mol·K) |\n| ΔS_surr | Entropy change of the surroundings | J/(mol·K) |\n| ΔH_sys | Enthalpy change of the system | J/mol |\n| T | Absolute temperature | K |\n\nΔS_univ = ΔS_sys + ΔS_surr, with ΔS_surr = −ΔH_sys / T.\n\n### How It Works\n\n1. Any process transfers energy and redistributes matter between the system and surroundings.\n2. Compute the system's entropy change (from tables or ΔS = q_rev/T for reversible paths).\n3. Compute the surroundings' change: heat −ΔH_sys leaves or enters the surroundings, changing its entropy by −ΔH_sys/T.\n4. Add the two. If the sum is positive, the process is spontaneous; if zero, equilibrium; if negative, the process is nonspontaneous (its reverse is spontaneous).\n\n### Worked Example\n\n**Is ice melting spontaneous at 25 °C? Use ΔS_universe.**\n\nMelting: H₂O(s) → H₂O(l), with ΔH_fus = +6.01 kJ/mol = +6010 J/mol.\n\n- ΔS_sys = ΔH_fus / T_m = 6010 J/mol ÷ 273 K = +22.0 J/(mol·K) (entropy increases on melting).\n- ΔS_surr = −ΔH_sys / T = −6010 J/mol ÷ 298 K = −20.2 J/(mol·K) (surroundings lose heat to the endothermic melting).\n- ΔS_univ = +22.0 + (−20.2) = **+1.8 J/(mol·K) > 0**, so melting is spontaneous at 25 °C.\n\nAt exactly 0 °C (273 K), ΔS_surr = −6010/273 = −22.0 J/(mol·K), making ΔS_univ = 0 — the melting point is the equilibrium (phase-transition) temperature.",
+    "howItWorks": "1. Any process transfers energy and redistributes matter between the system and surroundings.\n2. Compute the system's entropy change (from tables or ΔS = q_rev/T for reversible paths).\n3. Compute the surroundings' change: heat −ΔH_sys leaves or enters the surroundings, changing its entropy by −ΔH_sys/T.\n4. Add the two. If the sum is positive, the process is spontaneous; if zero, equilibrium; if negative, the process is nonspontaneous (its reverse is spontaneous).",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Second Law: **ΔS_universe > 0** for spontaneous processes, **= 0** at equilibrium.\n- ΔS_univ = ΔS_sys + ΔS_surr.\n- ΔS_surr = **−ΔH_sys / T** (T in Kelvin).\n- Exothermic reactions (ΔH < 0) increase the surroundings' entropy, favoring spontaneity.\n- A process can be spontaneous even when ΔS_sys < 0, if ΔS_surr > 0 outweighs it (e.g., water freezing).\n- ΔS_univ < 0 means the process is nonspontaneous (the reverse is spontaneous).\n- ΔG = −T·ΔS_univ, which is why ΔG < 0 ⇔ ΔS_univ > 0.",
+    "commonConfusions": "- **\"The entropy of the system must increase for any spontaneous process.\"** — Wrong. Only ΔS_universe must increase; water freezing is spontaneous with ΔS_sys < 0.\n- **\"ΔS_surroundings = ΔH/T.\"** — Wrong sign. Heat *leaving* the system (exothermic) *increases* surroundings entropy, so ΔS_surr = −ΔH_sys/T.\n- **\"Temperature can be in °C.\"** — Wrong. Must use Kelvin; using °C gives nonsense (and division by zero near 0 °C).\n- **\"ΔS_universe = 0 means nothing is happening.\"** — Wrong. It means the system is at equilibrium — forward and reverse processes balance.\n- **\"The Second Law forbids local order.\"** — Wrong. Local order (crystallization, life) can and does form; it is always paid for by a larger entropy increase elsewhere.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine the universe as two connected rooms: your bedroom (the system) and the rest of the house (the surroundings). You can make your bedroom *tidy* (low entropy) — but only by dumping all the mess into the hallway, which gets messier. The Second Law says the *whole house* never gets tidier on its own. Spontaneous things happen because the total mess — system plus surroundings — always grows. (The limit: \"mess\" here really means energy spread among microscopic arrangements, and \"temperature\" decides how much the hallway's mess grows when you throw heat into it.)",
+    "quickReview": "- Second Law: spontaneous ⇒ ΔS_universe > 0; equilibrium ⇒ ΔS_universe = 0.\n- ΔS_univ = ΔS_sys + ΔS_surr.\n- ΔS_surr = −ΔH_sys/T (Kelvin).\n- Exothermic helps spontaneity by raising surroundings entropy.\n- A decrease in system entropy can still be spontaneous if surroundings entropy rises more.",
+    "workedExamples": "### Worked Example\n\n**Is ice melting spontaneous at 25 °C? Use ΔS_universe.**\n\nMelting: H₂O(s) → H₂O(l), with ΔH_fus = +6.01 kJ/mol = +6010 J/mol.\n\n- ΔS_sys = ΔH_fus / T_m = 6010 J/mol ÷ 273 K = +22.0 J/(mol·K) (entropy increases on melting).\n- ΔS_surr = −ΔH_sys / T = −6010 J/mol ÷ 298 K = −20.2 J/(mol·K) (surroundings lose heat to the endothermic melting).\n- ΔS_univ = +22.0 + (−20.2) = **+1.8 J/(mol·K) > 0**, so melting is spontaneous at 25 °C.\n\nAt exactly 0 °C (273 K), ΔS_surr = −6010/273 = −22.0 J/(mol·K), making ΔS_univ = 0 — the melting point is the equilibrium (phase-transition) temperature.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 16.3 \"The Second and Third Laws of Thermodynamics.\" https://openstax.org/books/chemistry-2e/pages/16-3-the-second-and-third-laws-of-thermodynamics",
+        "url": "https://openstax.org/books/chemistry-2e/pages/16-3-the-second-and-third-laws-of-thermodynamics"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 16.2 \"Entropy.\" https://openstax.org/books/chemistry-2e/pages/16-2-entropy",
+        "url": "https://openstax.org/books/chemistry-2e/pages/16-2-entropy"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 2
+  },
+  "aliases": [
+    {
+      "value": "second-law-of-thermodynamics",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "03-second-law-of-thermodynamics",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b5f0bc1fb92ff149"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b5f0bc1fb92ff149"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b5f0bc1fb92ff149"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b5f0bc1fb92ff149"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/16-chemical-thermodynamics/03-second-law-of-thermodynamics.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# The Second Law of Thermodynamics\n\n## Learning Goals\n\n- State the Second Law of Thermodynamics in terms of the entropy of the universe.\n- Explain the difference between ΔS_system, ΔS_surroundings, and ΔS_universe.\n- Calculate ΔS_surroundings from the enthalpy change and temperature.\n- Use ΔS_universe to judge whether a process is spontaneous or at equilibrium.\n\n## Core Concept\n\nThe **Second Law of Thermodynamics** states that for any spontaneous process, the total entropy of the universe increases: **ΔS_universe > 0**. The universe is the system plus its surroundings, so ΔS_universe = ΔS_system + ΔS_surroundings. A spontaneous process may decrease the system's entropy (water freezing) as long as the surroundings' entropy increases by more. At equilibrium, ΔS_universe = 0. This is the fundamental, universal test of spontaneity — more fundamental than ΔG, which is a convenience derived from it.\n\n## Key Ideas\n\n- **Universe = system + surroundings.** The surroundings are everything outside the system that can exchange heat with it.\n- **The decisive quantity.** A process is spontaneous if and only if ΔS_universe > 0; it is at equilibrium when ΔS_universe = 0.\n- **Heat transfer drives ΔS_surroundings.** For a process at constant temperature, ΔS_surroundings = −ΔH_system / T.\n- **Exothermic favors spontaneity.** When ΔH_system < 0, the surroundings gain heat, so ΔS_surroundings > 0 — an exothermic reaction pushes the universe toward higher entropy.\n- **Temperature moderates the effect.** The same heat transfer produces a larger surroundings-entropy change at low T than at high T (dividing by T).\n\n## Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| ΔS_univ | Entropy change of the universe | J/(mol·K) |\n| ΔS_sys | Entropy change of the system | J/(mol·K) |\n| ΔS_surr | Entropy change of the surroundings | J/(mol·K) |\n| ΔH_sys | Enthalpy change of the system | J/mol |\n| T | Absolute temperature | K |\n\nΔS_univ = ΔS_sys + ΔS_surr, with ΔS_surr = −ΔH_sys / T.\n\n## How It Works\n\n1. Any process transfers energy and redistributes matter between the system and surroundings.\n2. Compute the system's entropy change (from tables or ΔS = q_rev/T for reversible paths).\n3. Compute the surroundings' change: heat −ΔH_sys leaves or enters the surroundings, changing its entropy by −ΔH_sys/T.\n4. Add the two. If the sum is positive, the process is spontaneous; if zero, equilibrium; if negative, the process is nonspontaneous (its reverse is spontaneous).\n\n## Worked Example\n\n**Is ice melting spontaneous at 25 °C? Use ΔS_universe.**\n\nMelting: H₂O(s) → H₂O(l), with ΔH_fus = +6.01 kJ/mol = +6010 J/mol.\n\n- ΔS_sys = ΔH_fus / T_m = 6010 J/mol ÷ 273 K = +22.0 J/(mol·K) (entropy increases on melting).\n- ΔS_surr = −ΔH_sys / T = −6010 J/mol ÷ 298 K = −20.2 J/(mol·K) (surroundings lose heat to the endothermic melting).\n- ΔS_univ = +22.0 + (−20.2) = **+1.8 J/(mol·K) > 0**, so melting is spontaneous at 25 °C.\n\nAt exactly 0 °C (273 K), ΔS_surr = −6010/273 = −22.0 J/(mol·K), making ΔS_univ = 0 — the melting point is the equilibrium (phase-transition) temperature.\n\n## Why It Matters\n\nThe Second Law is arguably the most far-reaching law in science: it dictates the direction of heat flow, the arrow of time, the maximum efficiency of engines and refrigerators, and why perpetual-motion machines are impossible. In chemistry, it is the reason we can build spontaneity into a single handy criterion (ΔG) and predict reaction direction under any conditions.\n\n## High-Yield Facts\n\n- Second Law: **ΔS_universe > 0** for spontaneous processes, **= 0** at equilibrium.\n- ΔS_univ = ΔS_sys + ΔS_surr.\n- ΔS_surr = **−ΔH_sys / T** (T in Kelvin).\n- Exothermic reactions (ΔH < 0) increase the surroundings' entropy, favoring spontaneity.\n- A process can be spontaneous even when ΔS_sys < 0, if ΔS_surr > 0 outweighs it (e.g., water freezing).\n- ΔS_univ < 0 means the process is nonspontaneous (the reverse is spontaneous).\n- ΔG = −T·ΔS_univ, which is why ΔG < 0 ⇔ ΔS_univ > 0.\n\n## Eli Explains\n\nImagine the universe as two connected rooms: your bedroom (the system) and the rest of the house (the surroundings). You can make your bedroom *tidy* (low entropy) — but only by dumping all the mess into the hallway, which gets messier. The Second Law says the *whole house* never gets tidier on its own. Spontaneous things happen because the total mess — system plus surroundings — always grows. (The limit: \"mess\" here really means energy spread among microscopic arrangements, and \"temperature\" decides how much the hallway's mess grows when you throw heat into it.)\n\n## Common Confusions\n\n- **\"The entropy of the system must increase for any spontaneous process.\"** — Wrong. Only ΔS_universe must increase; water freezing is spontaneous with ΔS_sys < 0.\n- **\"ΔS_surroundings = ΔH/T.\"** — Wrong sign. Heat *leaving* the system (exothermic) *increases* surroundings entropy, so ΔS_surr = −ΔH_sys/T.\n- **\"Temperature can be in °C.\"** — Wrong. Must use Kelvin; using °C gives nonsense (and division by zero near 0 °C).\n- **\"ΔS_universe = 0 means nothing is happening.\"** — Wrong. It means the system is at equilibrium — forward and reverse processes balance.\n- **\"The Second Law forbids local order.\"** — Wrong. Local order (crystallization, life) can and does form; it is always paid for by a larger entropy increase elsewhere.\n\n## Quick Review\n\n- Second Law: spontaneous ⇒ ΔS_universe > 0; equilibrium ⇒ ΔS_universe = 0.\n- ΔS_univ = ΔS_sys + ΔS_surr.\n- ΔS_surr = −ΔH_sys/T (Kelvin).\n- Exothermic helps spontaneity by raising surroundings entropy.\n- A decrease in system entropy can still be spontaneous if surroundings entropy rises more.\n\n## Sources\n\n- OpenStax, *Chemistry 2e*, Ch. 16.3 \"The Second and Third Laws of Thermodynamics.\" https://openstax.org/books/chemistry-2e/pages/16-3-the-second-and-third-laws-of-thermodynamics\n- OpenStax, *Chemistry 2e*, Ch. 16.2 \"Entropy.\" https://openstax.org/books/chemistry-2e/pages/16-2-entropy\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "biology-1-biotechnology-0011",
+  "subject": "biology-1",
+  "lesson": "biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In a **paternity test**, DNA fingerprinting is performed on a child, the mother, and a man alleged to be the father. Which pattern of results supports paternity?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The child matches the mother at every location and shares no bands with the man."
+    },
+    {
+      "id": "b",
+      "text": "The man's profile is an exact copy of the child's profile."
+    },
+    {
+      "id": "c",
+      "text": "Every band in the child that does not come from the mother matches a band in the man."
+    },
+    {
+      "id": "d",
+      "text": "The man and the mother share identical profiles, so the child matches both."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "A child inherits one copy of each chromosome from each parent, so every band in the child's fingerprint must trace to the mother or the father, and paternity is supported when the bands that do not match the mother match the alleged father. A would rule the man out, B is impossible because the child also carries maternal bands, and D confuses the parents' profiles with the child's inheritance.",
+  "difficulty": "unknown",
+  "tags": [
+    "interpreting",
+    "paternity",
+    "test"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-37c6d4d415f69033",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": "genetics-mendelian-genetics-i-principles-0007",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-i-principles",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem Two plants both *AaBb* at two independently assorting loci are crossed. Assuming complete dominance, what is the probability that an offspring has the genotype *AABb*?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/8"
+    },
+    {
+      "id": "b",
+      "text": "1/4"
+    },
+    {
+      "id": "c",
+      "text": "1/16"
+    },
+    {
+      "id": "d",
+      "text": "3/16"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "At the first locus, *Aa* x *Aa* gives *AA* with probability 1/4, and at the second locus, *Bb* x *Bb* gives *Bb* with probability 1/2. Because the loci assort independently, the product rule gives 1/4 x 1/2 = 1/8. C is the probability of *AABB* (1/4 x 1/4 = 1/16), D is the probability of *AA* combined with the dominant phenotype at the second locus (1/4 x 3/4 = 3/16), and B keeps only the first locus.",
+  "difficulty": "unknown",
+  "tags": [
+    "probability",
+    "specific",
+    "dihybrid",
+    "genotype"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-a9c23a294d5c5fc1",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": "biology-1-energy-and-metabolism-basics-0007",
+  "subject": "biology-1",
+  "lesson": "energy-and-metabolism-basics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A cell's **electron transport chain** complexes suddenly stop pumping protons across the inner membrane. Which of the following does the cell immediately lose?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The ability to split glucose into two pyruvate molecules in glycolysis."
+    },
+    {
+      "id": "b",
+      "text": "The ability to perform substrate-level phosphorylation in the Krebs cycle."
+    },
+    {
+      "id": "c",
+      "text": "The proton gradient across the inner mitochondrial membrane that powers ATP synthase."
+    },
+    {
+      "id": "d",
+      "text": "The carbon dioxide released when pyruvate is oxidized."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "The complexes of the electron transport chain use electron energy to pump protons into the intermembrane space, building the gradient that ATP synthase harvests, so stopping the pumps collapses the gradient. A describes glycolysis, which still runs. B describes the substrate-level ATP made in glycolysis and the Krebs cycle. D occurs in the matrix and is unaffected.",
+  "difficulty": "unknown",
+  "tags": [
+    "electron",
+    "transport",
+    "chain",
+    "proton",
+    "pumping"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-fa041cb89290bc9b",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

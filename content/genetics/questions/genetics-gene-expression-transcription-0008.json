@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-expression-transcription-0008",
+  "subject": "genetics",
+  "lesson": "gene-expression-transcription",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A researcher removes the 5' cap from a mature eukaryotic mRNA before it reaches the ribosome. What is the most likely consequence?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The mRNA is degraded more rapidly and is translated less efficiently."
+    },
+    {
+      "id": "b",
+      "text": "Introns can no longer be removed from the mRNA."
+    },
+    {
+      "id": "c",
+      "text": "The ribosome now reads the mRNA in the 3' to 5' direction."
+    },
+    {
+      "id": "d",
+      "text": "The mRNA gains a longer poly-A tail to compensate."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The 5' cap protects the mRNA from exonucleases and is recognized by the ribosome to initiate translation, so removing it destabilizes the message and reduces translation. B is wrong because splicing removes introns from pre-mRNA in the nucleus, before the mature mRNA exists. C is wrong because ribosomes always read mRNA in the 5' to 3' direction. D is wrong because polyadenylation is a separate 3' end event that does not replace the cap.",
+  "difficulty": "unknown",
+  "tags": [
+    "five",
+    "prime",
+    "cap"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-d70bead5ed76165d",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

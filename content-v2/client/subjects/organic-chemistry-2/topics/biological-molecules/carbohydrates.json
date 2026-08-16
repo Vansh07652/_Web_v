@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-2:biological-molecules:carbohydrates",
+  "slug": "carbohydrates",
+  "title": "Carbohydrates",
+  "subject": {
+    "id": "subject:organic-chemistry-2",
+    "slug": "organic-chemistry-2",
+    "title": "Organic Chemistry II"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-2:biological-molecules",
+    "slug": "biological-molecules",
+    "title": "Biological Molecules",
+    "order": 8
+  },
+  "order": 31,
+  "status": "final",
+  "sections": {
+    "overview": "Carbohydrates are polyhydroxy aldehydes or ketones, or substances that yield them on hydrolysis. Simple sugars (monosaccharides) exist mainly as cyclic hemiacetals in solution, with open-chain and cyclic forms interconverting through mutarotation. Their rich stereochemistry — D/L configuration, epimers, and alpha/beta anomers — governs their biological recognition, and they assemble into disaccharides and polysaccharides through glycosidic bonds.",
+    "whyItMatters": "Blood glucose is measured using its reducing-sugar chemistry (glucose oxidase or redox indicators), and the difference between α- and β-glycosidic linkages explains why humans digest starch but not cellulose — the β(1→4) links in cellulose require enzymes we lack. Lactose intolerance arises from reduced lactase activity that leaves the β-galactoside lactose undigested, and glycoproteins and glycolipids on cell surfaces use specific sugar anomers for immune recognition and blood-type determination.",
+    "learningObjectives": "1. Classify carbohydrates as monosaccharides, disaccharides, or polysaccharides and as aldoses or ketoses.\n2. Interpret Fischer and Haworth projections and assign D/L configuration, epimers, and alpha/beta anomers.\n3. Explain how hemiacetal/hemiketal ring formation, mutarotation, and glycoside formation arise from carbonyl chemistry.\n4. Predict the products of carbohydrate oxidation and reduction and connect these reactions to their biological relevance.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Carbohydrate | A polyhydroxy aldehyde/ketone or its derivative | Central energy and structural biomolecules |\n| Monosaccharide/disaccharide/polysaccharide | One, two, or many sugar units | Defines sugar size and complexity |\n| Aldose/ketose | Sugar bearing an aldehyde vs. a ketone carbonyl | Determines redox and cyclization behavior |\n| D and L sugars | Configuration at the stereocenter farthest from the carbonyl | Sets the biological enantiomeric series (D in nature) |\n| Epimer | Stereoisomer differing at one stereocenter | Explains sugar relationships (glucose vs. mannose/galactose) |\n| Fischer projection | Vertical 2-D drawing of a sugar's open chain | Standard way to read D/L and epimer relationships |\n| Haworth projection | Flat-ring drawing of a cyclic sugar | Shows ring size and anomer orientation |\n| Hemiacetal/hemiketal | Product of carbonyl + one alcohol (from aldose/ketose) | The ring-forming linkage of sugars |\n| Anomer (alpha/beta) | Isomers differing only at the anomeric carbon | Governs glycosidic-bond stereochemistry |\n| Mutarotation | Interconversion of anomers through the open form | Explains changing optical rotation of sugar solutions |\n| Glycoside | Acetal formed at the anomeric carbon | Locks the ring; links sugars into di/polysaccharides |",
+    "collegeNotes": "### 1. Classification and D/L Configuration\nA **monosaccharide** is a single sugar unit; **disaccharides** (e.g., sucrose, lactose) are two units joined by a glycosidic bond, and **polysaccharides** (starch, cellulose, glycogen) are long chains. **Aldoses** carry an aldehyde carbonyl; **ketoses** carry a ketone (usually at C-2). In a **Fischer projection**, the carbonyl is drawn at or near the top and the chain runs vertically; the **D or L** label is set by the configuration of the stereocenter farthest from the carbonyl — the –OH on that carbon points right in D sugars and left in L sugars. Most biological sugars are D.\n\n### 2. Epimers, Cyclization, and Anomers\n**Epimers** are stereoisomers that differ at exactly one stereocenter (e.g., D-glucose and D-mannose differ only at C-2). When a sugar cyclizes, the carbonyl carbon becomes a new stereocenter called the anomeric carbon. Reaction of the aldehyde with a hydroxyl forms a **hemiacetal**; a ketone forms a **hemiketal**. The two possible configurations at the anomeric carbon are the **anomers**: α (the anomeric –OH is trans to the CH₂OH reference) and β (cis). **Haworth projections** draw the ring as a flat polygon with the anomeric –OH up or down.\n\n### 3. Mutarotation, Redox, and Glycosides\n**Mutarotation** is the slow change in optical rotation as α and β anomers interconvert through the open-chain form. Aldoses are **oxidized** by mild oxidants (e.g., Benedict's or Tollens' reagents) at the aldehyde to give aldonic acids — the basis of \"reducing sugar\" tests — while **reduction** (e.g., NaBH₄) converts the carbonyl to an alcohol (alditols such as sorbitol). **Glycoside formation** locks the anomeric –OH as an acetal: reacting the hemiacetal –OH with an alcohol forms an O-glycoside that no longer mutarotates and is no longer a reducing sugar.",
+    "howItWorks": "1. In water, an aldose or ketose carbonyl is attacked by an internal –OH to form a cyclic hemiacetal/hemiketal.\n2. The new anomeric stereocenter gives α and β anomers that equilibrate (mutarotation).\n3. Mild oxidation of an aldose gives an aldonic acid; reduction gives an alditol.\n4. Reaction of the anomeric –OH with an alcohol forms a glycosidic (acetal) bond, joining monosaccharides.\n5. Repeated glycosidic linkages build disaccharides and polysaccharides, and the linkage stereochemistry (α vs. β) determines digestibility and function.",
+    "comparisons": "",
+    "highYield": "- **High yield:** The D/L label uses the stereocenter farthest from the carbonyl, not the anomeric carbon.\n- **High yield:** Epimers differ at exactly one stereocenter; anomers differ only at the anomeric (formerly carbonyl) carbon.\n- **High yield:** In D-sugars drawn as standard Haworth projections, α places the anomeric –OH \"down\" and β places it \"up.\"\n- **High yield:** A sugar that can open to an aldehyde is a reducing sugar; a glycoside (acetal) is not reducing and cannot mutarotate.\n- **High yield:** Aldoses reduce Benedict's/Tollens' reagents; ketoses can also give a positive test by isomerizing to aldoses under base.\n- **High yield:** α vs. β glycosidic linkage distinguishes starch/cellulose and lactose from other sugars.\n- Glucose and galactose are C-4 epimers; glucose and mannose are C-2 epimers.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Epimer | Anomer | Epimers differ at any one non-carbonyl stereocenter; anomers differ only at the anomeric carbon |\n| Hemiacetal | Acetal (glycoside) | A hemiacetal still has a free –OH and can open; an acetal has two OR groups and is locked |\n| α anomer | D configuration | α/β is anomeric stereochemistry; D/L is the chain-end configuration |\n| Ketose | Aldose | Ketoses carry a ketone (C-2); aldoses carry an aldehyde |\n| Reducing sugar | Non-reducing sugar (glycoside) | Reducing sugars open to a free aldehyde; glycosides cannot |",
+    "memoryAids": "**\"Furthest from the C=O decides D/L; the anomeric C decides α/β.\"** And: **\"α-down, β-up\"** for D-sugar Haworth drawings.",
+    "eli10": "Think of a sugar as a short chain of carbon \"beads,\" each wearing an –OH \"tag,\" with one special end that holds a C=O \"hook.\" In water, the chain curls up so that the hook latches onto one of its own –OH tags, snapping into a ring — the same way a bracelet snaps shut. The hook can latch from either side, giving two slightly different bracelets (the alpha and beta forms) that can open and re-close, so the sugar keeps flipping between shapes.\n\nThis stops being exact because the \"hook\" is a real carbonyl reacting with a real alcohol to form a hemiacetal, a specific covalent linkage with defined stereochemistry, and the flipping between forms is a measurable equilibrium (mutarotation) that changes optical rotation over time, not a random jumble.\n\n### Simple Example\nD-Glucose, a six-carbon aldose, cyclizes between C-5's –OH and the C-1 aldehyde to form a six-membered ring; the resulting anomers are α-D-glucopyranose (C-1 OH drawn \"down\" in the standard Haworth) and β-D-glucopyranose (C-1 OH \"up\").",
+    "quickReview": "### Topic Recap\n\nCarbohydrates are polyhydroxy aldehydes/ketones that exist largely as cyclic hemiacetals. Fischer projections encode D/L configuration and epimer relationships, while Haworth projections show ring form and α/β anomers. Mutarotation reflects anomer interconversion, oxidation and reduction act on the carbonyl, and glycoside formation locks the ring to build disaccharides and polysaccharides. These stereochemical details determine energy storage, structure, and recognition in biology.\n\n### Knowledge Check\n\n1. What distinguishes an aldose from a ketose?\n2. Which stereocenter determines the D or L designation of a sugar?\n3. Why does a pure sample of α-D-glucopyranose gradually change its optical rotation in water?\n4. Is a glycoside a reducing sugar? Explain.\n5. What kind of functional group forms when a monosaccharide cyclizes?\n\n### Answers and Rationales\n\n1. An aldose has an aldehyde carbonyl (terminal or C-1); a ketose has a ketone carbonyl (usually at C-2).\n2. The stereocenter farthest from the carbonyl carbon — its –OH points right for D and left for L in the Fischer projection.\n3. Because α and β anomers interconvert through the open-chain aldehyde form (mutarotation) until equilibrium is reached, so the optical rotation drifts.\n4. No — a glycoside is an acetal; its anomeric carbon is locked and cannot reopen to a free aldehyde, so it does not reduce Benedict's/Tollens' reagents.\n5. A cyclic hemiacetal (from an aldose) or hemiketal (from a ketose).",
+    "workedExamples": "Cyclization of D-glucose:\n\n1. The C-5 hydroxyl oxygen (nucleophile) attacks the C-1 aldehyde carbon (electrophile); a lone pair moves to form the new C–O bond.\n2. The C=O pi bond breaks, with those electrons moving onto oxygen to give an alkoxide, which is protonated to a hemiacetal –OH at C-1.\n3. Attack can occur from either face of the planar aldehyde, so both α and β anomers form; the two electron-pair arrows (O→C and C=O→O) conserve charge and every atom keeps an octet.\n4. Because the hemiacetal can reopen to the aldehyde and re-close, the anomers equilibrate — this is mutarotation. Once the anomeric –OH is converted to an OR acetal (glycoside), reopening is blocked and the configuration is fixed.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "carbohydrates",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "31-carbohydrates",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-ii"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-ii",
+    "sourceFile": "organic-chemistry-ii-study-notes/docs/organic-chemistry-ii/31-carbohydrates.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

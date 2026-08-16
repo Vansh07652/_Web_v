@@ -1,0 +1,876 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I",
+    "aliases": [],
+    "status": "partial",
+    "category": "pre-health-core"
+  },
+  "units": [
+    {
+      "id": "unit:organic-chemistry-1:structure-and-bonding",
+      "slug": "structure-and-bonding",
+      "title": "Structure and Bonding",
+      "order": 1,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-1:structure-and-bonding:atomic-structure-and-orbitals",
+          "slug": "atomic-structure-and-orbitals",
+          "title": "Atomic Structure and Orbitals",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/structure-and-bonding/atomic-structure-and-orbitals.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:structure-and-bonding:covalent-bonding-and-lewis-structures",
+          "slug": "covalent-bonding-and-lewis-structures",
+          "title": "Covalent Bonding and Lewis Structures",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/structure-and-bonding/covalent-bonding-and-lewis-structures.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:structure-and-bonding:resonance-and-delocalization",
+          "slug": "resonance-and-delocalization",
+          "title": "Resonance and Delocalization",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/structure-and-bonding/resonance-and-delocalization.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:structure-and-bonding:molecular-geometry-and-hybridization",
+          "slug": "molecular-geometry-and-hybridization",
+          "title": "Molecular Geometry and Hybridization",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/structure-and-bonding/molecular-geometry-and-hybridization.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:structure-and-bonding:introduction-to-hydrocarbons-and-alkane-nomenclature",
+          "slug": "introduction-to-hydrocarbons-and-alkane-nomenclature",
+          "title": "Introduction to Hydrocarbons and Alkane Nomenclature",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/structure-and-bonding/introduction-to-hydrocarbons-and-alkane-nomenclature.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:structure-and-bonding:conformational-analysis-of-alkanes",
+          "slug": "conformational-analysis-of-alkanes",
+          "title": "Conformational Analysis of Alkanes",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/structure-and-bonding/conformational-analysis-of-alkanes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:structure-and-bonding:cycloalkanes-and-ring-strain",
+          "slug": "cycloalkanes-and-ring-strain",
+          "title": "Cycloalkanes and Ring Strain",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/structure-and-bonding/cycloalkanes-and-ring-strain.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:structure-and-bonding:conformations-of-cyclohexane",
+          "slug": "conformations-of-cyclohexane",
+          "title": "Conformations of Cyclohexane",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/structure-and-bonding/conformations-of-cyclohexane.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:structure-and-bonding:alkene-structure-and-nomenclature",
+          "slug": "alkene-structure-and-nomenclature",
+          "title": "Alkene Structure and Nomenclature",
+          "order": 25,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/structure-and-bonding/alkene-structure-and-nomenclature.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:organic-chemistry-1:acid-base-chemistry",
+      "slug": "acid-base-chemistry",
+      "title": "Acid-Base Chemistry",
+      "order": 2,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-1:acid-base-chemistry:br-nsted-lowry-acids-and-bases",
+          "slug": "br-nsted-lowry-acids-and-bases",
+          "title": "Brønsted-Lowry Acids and Bases",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/acid-base-chemistry/br-nsted-lowry-acids-and-bases.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:acid-base-chemistry:structure-acidity-relationships-ario",
+          "slug": "structure-acidity-relationships-ario",
+          "title": "Structure-Acidity Relationships: ARIO",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/acid-base-chemistry/structure-acidity-relationships-ario.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:acid-base-chemistry:lewis-acids-bases-electrophiles-and-nucleophiles",
+          "slug": "lewis-acids-bases-electrophiles-and-nucleophiles",
+          "title": "Lewis Acids, Bases, Electrophiles, and Nucleophiles",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/acid-base-chemistry/lewis-acids-bases-electrophiles-and-nucleophiles.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:organic-chemistry-1:stereochemistry",
+      "slug": "stereochemistry",
+      "title": "Stereochemistry",
+      "order": 3,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-1:stereochemistry:chirality-and-stereocenters",
+          "slug": "chirality-and-stereocenters",
+          "title": "Chirality and Stereocenters",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/stereochemistry/chirality-and-stereocenters.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:stereochemistry:enantiomers-and-the-cahn-ingold-prelog-system",
+          "slug": "enantiomers-and-the-cahn-ingold-prelog-system",
+          "title": "Enantiomers and the Cahn-Ingold-Prelog System",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/stereochemistry/enantiomers-and-the-cahn-ingold-prelog-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:stereochemistry:multiple-stereocenters-diastereomers-and-meso-compounds",
+          "slug": "multiple-stereocenters-diastereomers-and-meso-compounds",
+          "title": "Multiple Stereocenters, Diastereomers, and Meso Compounds",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/stereochemistry/multiple-stereocenters-diastereomers-and-meso-compounds.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:stereochemistry:stereochemical-representations-and-resolution",
+          "slug": "stereochemical-representations-and-resolution",
+          "title": "Stereochemical Representations and Resolution",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/stereochemistry/stereochemical-representations-and-resolution.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:organic-chemistry-1:reaction-mechanisms",
+      "slug": "reaction-mechanisms",
+      "title": "Reaction Mechanisms",
+      "order": 4,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-1:reaction-mechanisms:thermodynamics-and-kinetics",
+          "slug": "thermodynamics-and-kinetics",
+          "title": "Thermodynamics and Kinetics",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/reaction-mechanisms/thermodynamics-and-kinetics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:reaction-mechanisms:nucleophiles-electrophiles-and-reactive-intermediates",
+          "slug": "nucleophiles-electrophiles-and-reactive-intermediates",
+          "title": "Nucleophiles, Electrophiles, and Reactive Intermediates",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/reaction-mechanisms/nucleophiles-electrophiles-and-reactive-intermediates.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:reaction-mechanisms:mechanisms-and-arrow-pushing",
+          "slug": "mechanisms-and-arrow-pushing",
+          "title": "Mechanisms and Arrow Pushing",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/reaction-mechanisms/mechanisms-and-arrow-pushing.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:organic-chemistry-1:substitution-and-elimination",
+      "slug": "substitution-and-elimination",
+      "title": "Substitution and Elimination",
+      "order": 5,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-1:substitution-and-elimination:introduction-to-alkyl-halides",
+          "slug": "introduction-to-alkyl-halides",
+          "title": "Introduction to Alkyl Halides",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/substitution-and-elimination/introduction-to-alkyl-halides.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:substitution-and-elimination:the-sn2-mechanism",
+          "slug": "the-sn2-mechanism",
+          "title": "The SN2 Mechanism",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/substitution-and-elimination/the-sn2-mechanism.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:substitution-and-elimination:the-sn1-mechanism",
+          "slug": "the-sn1-mechanism",
+          "title": "The SN1 Mechanism",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/substitution-and-elimination/the-sn1-mechanism.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:substitution-and-elimination:the-e2-mechanism",
+          "slug": "the-e2-mechanism",
+          "title": "The E2 Mechanism",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/substitution-and-elimination/the-e2-mechanism.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:substitution-and-elimination:the-e1-mechanism",
+          "slug": "the-e1-mechanism",
+          "title": "The E1 Mechanism",
+          "order": 23,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/substitution-and-elimination/the-e1-mechanism.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:substitution-and-elimination:predicting-sn1-sn2-e1-and-e2-products",
+          "slug": "predicting-sn1-sn2-e1-and-e2-products",
+          "title": "Predicting SN1, SN2, E1, and E2 Products",
+          "order": 24,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/substitution-and-elimination/predicting-sn1-sn2-e1-and-e2-products.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:substitution-and-elimination:preparation-of-alkenes-via-elimination",
+          "slug": "preparation-of-alkenes-via-elimination",
+          "title": "Preparation of Alkenes via Elimination",
+          "order": 27,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/substitution-and-elimination/preparation-of-alkenes-via-elimination.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:organic-chemistry-1:alkene-and-alkyne-chemistry",
+      "slug": "alkene-and-alkyne-chemistry",
+      "title": "Alkene and Alkyne Chemistry",
+      "order": 6,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-1:alkene-and-alkyne-chemistry:stability-of-alkenes",
+          "slug": "stability-of-alkenes",
+          "title": "Stability of Alkenes",
+          "order": 26,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/alkene-and-alkyne-chemistry/stability-of-alkenes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:alkene-and-alkyne-chemistry:electrophilic-addition",
+          "slug": "electrophilic-addition",
+          "title": "Electrophilic Addition",
+          "order": 28,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/alkene-and-alkyne-chemistry/electrophilic-addition.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:alkene-and-alkyne-chemistry:halogenation-and-halohydrin-formation",
+          "slug": "halogenation-and-halohydrin-formation",
+          "title": "Halogenation and Halohydrin Formation",
+          "order": 29,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/alkene-and-alkyne-chemistry/halogenation-and-halohydrin-formation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:alkene-and-alkyne-chemistry:hydration-without-rearrangements",
+          "slug": "hydration-without-rearrangements",
+          "title": "Hydration Without Rearrangements",
+          "order": 30,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/alkene-and-alkyne-chemistry/hydration-without-rearrangements.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:alkene-and-alkyne-chemistry:catalytic-hydrogenation",
+          "slug": "catalytic-hydrogenation",
+          "title": "Catalytic Hydrogenation",
+          "order": 31,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/alkene-and-alkyne-chemistry/catalytic-hydrogenation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:alkene-and-alkyne-chemistry:alkene-oxidation-and-cleavage",
+          "slug": "alkene-oxidation-and-cleavage",
+          "title": "Alkene Oxidation and Cleavage",
+          "order": 32,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/alkene-and-alkyne-chemistry/alkene-oxidation-and-cleavage.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:alkene-and-alkyne-chemistry:structure-and-nomenclature-of-alkynes",
+          "slug": "structure-and-nomenclature-of-alkynes",
+          "title": "Structure and Nomenclature of Alkynes",
+          "order": 33,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/alkene-and-alkyne-chemistry/structure-and-nomenclature-of-alkynes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:alkene-and-alkyne-chemistry:preparation-of-alkynes",
+          "slug": "preparation-of-alkynes",
+          "title": "Preparation of Alkynes",
+          "order": 34,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/alkene-and-alkyne-chemistry/preparation-of-alkynes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:alkene-and-alkyne-chemistry:reactions-of-alkynes",
+          "slug": "reactions-of-alkynes",
+          "title": "Reactions of Alkynes",
+          "order": 35,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/alkene-and-alkyne-chemistry/reactions-of-alkynes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:organic-chemistry-1:radical-chemistry",
+      "slug": "radical-chemistry",
+      "title": "Radical Chemistry",
+      "order": 7,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-1:radical-chemistry:free-radicals",
+          "slug": "free-radicals",
+          "title": "Free Radicals",
+          "order": 36,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/radical-chemistry/free-radicals.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:radical-chemistry:radical-mechanisms",
+          "slug": "radical-mechanisms",
+          "title": "Radical Mechanisms",
+          "order": 37,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/radical-chemistry/radical-mechanisms.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:radical-chemistry:halogenation-of-alkanes",
+          "slug": "halogenation-of-alkanes",
+          "title": "Halogenation of Alkanes",
+          "order": 38,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/radical-chemistry/halogenation-of-alkanes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:radical-chemistry:allylic-bromination",
+          "slug": "allylic-bromination",
+          "title": "Allylic Bromination",
+          "order": 39,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/radical-chemistry/allylic-bromination.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:radical-chemistry:radical-addition-of-hbr-to-alkenes",
+          "slug": "radical-addition-of-hbr-to-alkenes",
+          "title": "Radical Addition of HBr to Alkenes",
+          "order": 40,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/radical-chemistry/radical-addition-of-hbr-to-alkenes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:organic-chemistry-1:synthesis-foundation",
+      "slug": "synthesis-foundation",
+      "title": "Synthesis Foundation",
+      "order": 8,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-1:synthesis-foundation:retrosynthetic-analysis",
+          "slug": "retrosynthetic-analysis",
+          "title": "Retrosynthetic Analysis",
+          "order": 41,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/synthesis-foundation/retrosynthetic-analysis.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:synthesis-foundation:changing-the-carbon-skeleton",
+          "slug": "changing-the-carbon-skeleton",
+          "title": "Changing the Carbon Skeleton",
+          "order": 42,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/synthesis-foundation/changing-the-carbon-skeleton.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-1:synthesis-foundation:changing-functional-group-and-pi-bond-position",
+          "slug": "changing-functional-group-and-pi-bond-position",
+          "title": "Changing Functional-Group and Pi-Bond Position",
+          "order": 43,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-1/topics/synthesis-foundation/changing-functional-group-and-pi-bond-position.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 8,
+    "topicCount": 43,
+    "teachingTopicCount": 43,
+    "eli10TopicCount": 43,
+    "highYieldTopicCount": 43,
+    "referencedTopicCount": 0,
+    "exactOrMappedQuestionCount": 0,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 0,
+    "citationReviewRequiredCount": 0
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

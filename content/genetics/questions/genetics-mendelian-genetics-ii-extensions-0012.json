@@ -1,0 +1,40 @@
+{
+  "id": "genetics-mendelian-genetics-ii-extensions-0012",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-ii-extensions",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** pedigree A mother of blood type A and a father of blood type B have two children: a son of blood type AB and a daughter of blood type O. ```text PEDIGREE: Generation I: A mother of blood type A and a father of blood type B have two children. Generation II: A son of blood type AB and a daughter of blood type O. Key inference: The type O daughter must be ii, so each parent must contribute an i allele. Most consistent mode: Multiple alleles at the ABO locus with codominance. ``` Which parental genotypes at the *ABO* locus are consistent with this family?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Mother *I^A I^A*, father *I^B I^B*"
+    },
+    {
+      "id": "b",
+      "text": "Mother *I^A i*, father *I^B I^B*"
+    },
+    {
+      "id": "c",
+      "text": "Mother *I^A I^A*, father *I^B i*"
+    },
+    {
+      "id": "d",
+      "text": "Mother *I^A i*, father *I^B i*"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "A type O child must be *ii*, receiving one *i* from each parent, so both parents must carry the recessive allele; only D satisfies this. The genotypes in D also explain the son of type AB, who inherits *I^A* from the mother and *I^B* from the father. Any parent homozygous at the *ABO* locus, as in A, B, or C, could not contribute an *i* allele and could not have a type O child.",
+  "difficulty": "unknown",
+  "tags": [
+    "abo",
+    "pedigree",
+    "parental",
+    "genotypes"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-459ae50fda335511",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

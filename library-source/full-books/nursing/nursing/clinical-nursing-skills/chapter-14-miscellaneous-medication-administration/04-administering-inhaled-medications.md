@@ -1,0 +1,124 @@
+---
+title: "Administering Inhaled Medications"
+subject: "Nursing"
+book: "Clinical Nursing Skills"
+chapter: "14: Miscellaneous Medication Administration"
+topic_number: "4"
+source: "clinical-nursing-skills.md"
+tags:
+  - "administering-inhaled-medications"
+  - "nursing"
+status: "complete"
+---
+
+# Administering Inhaled Medications
+
+> **Book:** [Clinical Nursing Skills](../../README.md)  
+> **Chapter:** [Chapter 14: Miscellaneous Medication Administration](../README.md)  
+> **Topic:** 4  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Inhaled medications are breathed into the lungs to act **locally** on the airways — most commonly **bronchodilators**, which relax and widen the airways, and **corticosteroids**, which reduce airway inflammation — with a much smaller dose than would be needed by mouth. The air passages form a branching tree: from the mouth and nose down the trachea, into the bronchi, and on into ever-smaller bronchioles. Medication must ride a breath deep into that tree, and the device must turn the drug into particles small enough to travel that far. That is why **device technique is the heart of this skill**: with poor technique, a large share of the dose lands in the mouth and throat instead of the lungs, the person gets little relief, and medication is wasted. The three main devices — metered-dose inhalers (MDIs), dry powder inhalers (DPIs), and nebulizers — each demand a different breathing pattern, so "show me how you use it" is often the single most useful nursing intervention.
+
+## Why This Matters
+
+For people living with asthma or COPD, an inhaler is their treatment — often used daily and during emergencies. Yet poor inhaler technique is extremely common, and each missed dose can mean worsening symptoms, extra emergency visits, and unnecessary systemic exposure. Two safety details stand out. First, **ordering matters**: when both a bronchodilator and a corticosteroid are ordered, the bronchodilator is generally given first so the airways are more open when the corticosteroid arrives — but this always follows the prescriber's orders. Second, **corticosteroids that land in the mouth** can cause oral thrush (a fungal infection of the mouth) and hoarseness, which is why rinsing the mouth after use is standard teaching. The nurse who teaches, observes, and corrects technique — and checks respiratory status before and after the dose — improves both safety and outcomes.
+
+## Core Concepts
+
+### The three main devices
+
+- **Metered-dose inhaler (MDI):** a pressurized canister that releases a measured puff of medication. It requires *coordination*: pressing the canister while inhaling slowly and deeply. Many people cannot manage this, which is why **spacers (holding chambers)** exist — a tube that holds the puff until the person inhales, reducing timing demands and mouth/throat drug deposition.
+- **Dry powder inhaler (DPI):** a breath-activated device that releases powder when the person inhales. It needs a **fast, forceful, deep breath** to pull the powder into the lungs, and it must *never* be exhaled into — moisture from the breath can clump the powder and ruin future doses. No spacer is used.
+- **Nebulizer:** a machine that turns liquid medication into a fine mist, breathed in over several minutes through a mouthpiece or mask with normal tidal breathing. Often used when a person cannot manage an inhaler (severe symptoms, young children, older adults with coordination difficulty). The powering gas (room air or oxygen) is determined by the order and the clinical situation.
+
+### Technique fundamentals
+
+**MDI (with spacer, the classic teaching):** shake the inhaler; remove the cap; insert it into the spacer; breathe out away from the device; seal the lips around the mouthpiece; press the canister once and inhale slowly and deeply; hold the breath (commonly taught as 5–10 seconds); breathe out; wait about a minute between puffs (commonly taught). **MDI without a spacer:** the same, but the actuation must be timed with the start of the slow inhalation — the harder coordination task. **DPI:** load the dose per the device's instructions, breathe out *away from* the device, seal the lips, inhale forcefully and deeply, then hold the breath. **Nebulizer:** assemble per policy, pour the medication into the cup, run the treatment until the mist sputters (tapping the cup helps), then clean the equipment per the manufacturer. **In every case:** never share inhalers between people, and check dose counters where present.
+
+### Sequencing and mouth care
+
+When the order includes both a **bronchodilator and a corticosteroid**, the bronchodilator is generally given first (per the prescriber's orders) so the airways are more open for the second drug. After a **corticosteroid** inhaler, the person should **rinse the mouth** (and, if taught, gargle and spit) to wash away drug deposited in the mouth and reduce the risk of oral thrush and hoarseness. Spacers reduce mouth and throat deposition and should be cleaned per the manufacturer. If the person uses a rescue inhaler and a daily controller inhaler, they are different medications with different schedules — they are not interchangeable.
+
+### Assessment, teaching, and documentation
+
+**Before:** assess breath sounds, respiratory effort, and any ordered measures such as oxygen saturation or peak flow readings; verify the right person, medication, dose, route, time, and device. **After:** reassess respiratory status and ask about symptom relief; document the medication, dose, device, the person's technique, and their response. **Teach:** demonstrate the device, then have the person **return-demonstrate** — technique is learned by doing. Correct common errors (hard sniffing on an MDI, exhaling into a DPI, not holding the breath), show spacer use and cleaning, and tell the person to report worsening symptoms, especially if rescue medication is not helping as usual.
+
+## ELI-10: Explain Like I'm 10
+
+Your lungs are like an upside-down tree, and the medicine is a tiny mist that must ride your breath down to the branches. Some inhalers need a slow, gentle sip of air; others need a quick, strong suck. Use the wrong breath, and the medicine splashes onto the back of your mouth instead of reaching your lungs.
+
+## High-Yield Points
+
+- **MDI:** slow, deep inhalation with actuation at the start (a spacer makes this easier); hold the breath 5–10 seconds (commonly taught); wait about a minute between puffs.
+- **DPI:** fast, forceful, deep inhalation; **never exhale into the device**; no spacer used.
+- **Nebulizer:** normal tidal breathing over several minutes until the mist is gone.
+- Give the **bronchodilator before the corticosteroid** when both are ordered (follow the prescriber's orders).
+- **Rinse the mouth** after corticosteroid inhalers to reduce the risk of oral thrush and hoarseness.
+- Spacers cut mouth/throat deposition and make MDIs usable when coordination is difficult.
+- Never share inhalers or nebulizer equipment between people.
+- Teach with **return demonstration** — poor technique is common and fixable.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| metered-dose inhaler (MDI) | Pressurized canister that releases a measured puff of medication | Requires coordination of actuation with a slow, deep breath |
+| dry powder inhaler (DPI) | Breath-activated device that releases medication powder on inhalation | Requires a fast, forceful breath; never exhale into it |
+| nebulizer | Machine that turns liquid medication into a mist inhaled over minutes | Used when inhaler coordination is difficult; normal tidal breathing |
+| spacer (holding chamber) | Tube that holds the MDI puff until the person inhales | Reduces coordination demands and mouth/throat drug deposition |
+| bronchodilator | Medication that relaxes and widens the airways | Usually given first when paired with a corticosteroid, per orders |
+| corticosteroid (inhaled) | Anti-inflammatory medication delivered to the airways | Rinse the mouth after use to reduce oral thrush and hoarseness risk |
+| tidal breathing | Normal, quiet breathing in and out | The breathing pattern used during nebulizer treatments |
+
+## Example / Clinical Scenario
+
+A nurse is preparing to give a person with asthma their ordered inhaled medications: a bronchodilator and a corticosteroid, both by MDI. The nurse checks the order — bronchodilator first, then the corticosteroid — verifies the person's identity, and assesses breath sounds and oxygen saturation before the dose. Because the person reports that they "usually just puff it," the nurse brings a spacer and demonstrates: shake the inhaler, insert it into the spacer, breathe out, seal the lips, press the canister once while inhaling slowly, and hold the breath for several seconds. The person tries it and inhales sharply; the nurse hears the dose hit the back of the throat and corrects the rhythm: "Slower — like sipping a hot drink. The spacer holds the medicine until your breath is ready for it." After practice the person coordinates the breath, the bronchodilator is given, and the nurse reassesses breath sounds and asks about symptom relief before giving the corticosteroid. The person rinses their mouth afterward, and the nurse documents the medications, coaching, and response — scheduling a return-demonstration check at the next visit.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| MDI breathing (slow, deep) | DPI breathing (fast, forceful) | MDIs need a slow sip of breath with the puff; DPIs need a quick, strong inhalation to pull the powder in. |
+| Exhaling before the dose | Exhaling into a DPI | You breathe out *away from* the device before inhaling; blowing into a DPI ruins doses with moisture. |
+| Using a spacer | Skipping it because it "isn't the real thing" | Spacers improve delivery and reduce mouth deposition — they are a correct part of MDI use, not a shortcut. |
+| Rinsing after a corticosteroid | Rinsing after a bronchodilator | Mouth rinsing is standard after corticosteroids to prevent oral thrush; follow teaching for each medication. |
+| Bronchodilator and corticosteroid as interchangeable puffs | Two steps in an ordered sequence | They have different jobs and different timing; the bronchodilator is generally given first, per orders. |
+| Sharing an inhaler "just for one puff" | Keeping devices person-specific | Inhalers and nebulizer equipment are never shared between people. |
+
+## Quick Review
+
+1. Why does device technique matter more for inhaled medications than for most routes?
+2. How does the inhalation pattern differ between an MDI and a DPI?
+3. What is the purpose of a spacer (holding chamber)?
+4. When a person is ordered both a bronchodilator and a corticosteroid inhaler, what is the usual sequence, and why?
+5. Why is rinsing the mouth recommended after a corticosteroid inhaler?
+6. What is the best way to confirm a person can use their inhaler correctly?
+
+<details>
+<summary>Show answers</summary>
+
+1. The medication must ride a breath deep into the branching airways; with poor technique, most of the dose lands in the mouth and throat, so the person gets little relief and the drug is wasted (and may cause local side effects).
+2. MDI: inhale slowly and deeply while (or just after) pressing the canister. DPI: inhale quickly and forcefully to pull the powder into the lungs.
+3. A spacer holds the puff from the MDI until the person inhales, so timing doesn't have to be perfect; it also reduces the amount of drug deposited in the mouth and throat.
+4. The bronchodilator first, then the corticosteroid (following the prescriber's orders), because opening the airways first lets the corticosteroid reach deeper into the lungs.
+5. To wash away medication that landed in the mouth, reducing the risk of oral thrush and hoarseness.
+6. Have the person return-demonstrate with their own device and correct any errors — observing actual technique reveals problems that asking about it will not.
+
+</details>
+
+## Related Topics
+
+- Previous: [Administering Nasal Medications](03-administering-nasal-medications.md)
+- Next: [Administering Other Medications](05-administering-other-medications.md)
+- Related: [Miscellaneous Medication Administration chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Clinical Nursing Skills
+- Local outline source: `clinical-nursing-skills.md`
+- Official source URL: https://openstax.org/details/books/clinical-nursing-skills/
+- Content type: Original educational study guide based on OpenStax outline structure. Technique details (breath holds, waiting between puffs, sequencing) are commonly taught practices that vary by device, manufacturer, and institution; always follow the product's instructions, the institution's procedure manual, and prescriber orders, and note that scope of practice varies by state and setting.
+- Last updated: 2026-08-15

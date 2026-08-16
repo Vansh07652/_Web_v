@@ -1,0 +1,40 @@
+{
+  "id": "genetics-gene-regulation-eukaryotes-and-epigenetics-0003",
+  "subject": "genetics",
+  "lesson": "gene-regulation-eukaryotes-and-epigenetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A researcher treats cultured human cells with a drug that inhibits *HDAC1* (histone deacetylase 1). Which outcome is most likely over the next several hours?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Histones lose acetyl groups, chromatin condenses, and transcription of most genes decreases."
+    },
+    {
+      "id": "b",
+      "text": "Promoter DNA methylation spreads along the chromosome, silencing many genes."
+    },
+    {
+      "id": "c",
+      "text": "Messenger RNA export from the nucleus stops because the nuclear pores close."
+    },
+    {
+      "id": "d",
+      "text": "Acetyl groups accumulate on histones, chromatin opens, and transcription of many genes increases."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "*HDAC1* removes acetyl groups from histones, so inhibiting it shifts the balance toward acetylated histones, which relax chromatin and generally increase transcription. A describes the opposite direction, as if the deacetylase were more active. B describes DNA methylation, a separate silencing mark that is not driven by HDAC inhibition. C invents an effect on nuclear pores, which is not part of the histone acetylation pathway.",
+  "difficulty": "unknown",
+  "tags": [
+    "hdac",
+    "inhibition",
+    "opens",
+    "chromatin"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-8ab599ccbbccc2db",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

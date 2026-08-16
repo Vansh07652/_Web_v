@@ -1,0 +1,39 @@
+{
+  "id": "biology-1-meiosis-and-sexual-reproduction-0004",
+  "subject": "biology-1",
+  "lesson": "meiosis-and-sexual-reproduction",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A diploid cell with 2n = 4 has two pairs of homologous chromosomes. Assuming no crossing over, how many different combinations of maternal and paternal chromosomes can **independent assortment** produce in the gametes of this cell?",
+  "options": [
+    {
+      "id": "a",
+      "text": "2, because only one orientation of the chromosome pairs is possible per cell."
+    },
+    {
+      "id": "b",
+      "text": "6, because the two pairs can form six possible arrangements at the metaphase plate."
+    },
+    {
+      "id": "c",
+      "text": "8, because each of the four chromosomes can assort independently into either daughter cell."
+    },
+    {
+      "id": "d",
+      "text": "4, because each of the two chromosome pairs can orient in either of two ways, giving 2 times 2 possible combinations."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Each pair of homologous chromosomes aligns independently at metaphase I, so the number of possible gamete types from a cell with n chromosome pairs is 2 to the power of n, and here n = 2, giving 4. A and B offer numbers that match no formula for this case. C would require four independently assorting units, but only two pairs are present. With 2n = 4 the real count is 4, and humans with 23 pairs can produce over 8 million combinations by this mechanism alone.",
+  "difficulty": "unknown",
+  "tags": [
+    "independent",
+    "assortment",
+    "calculation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-f0c6247e5915595a",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

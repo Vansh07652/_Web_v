@@ -1,0 +1,39 @@
+{
+  "id": "genetics-mendelian-genetics-i-principles-0003",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-i-principles",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept A plant shows the dominant phenotype at a single locus, but its genotype could be *AA* or *Aa*. How does a test cross distinguish between these two genotypes?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Cross to a homozygous recessive *aa* plant and score the offspring phenotypes."
+    },
+    {
+      "id": "b",
+      "text": "Cross to a homozygous dominant *AA* plant and score the offspring phenotypes."
+    },
+    {
+      "id": "c",
+      "text": "Self the plant and count only the dominant offspring."
+    },
+    {
+      "id": "d",
+      "text": "Cross to a heterozygous *Aa* plant and count only the recessive offspring."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "A test cross mates the dominant phenotype individual with a homozygous recessive individual, because every allele the recessive parent contributes is *a* and cannot mask what the tested individual passes on. If the tested plant is *AA*, all offspring are *Aa* and look dominant; if it is *Aa*, half the offspring are *aa* and recessive, showing the 1:1 ratio (sums to 2). B never exposes the hidden allele, and C and D produce classes that do not distinguish the two genotypes.",
+  "difficulty": "unknown",
+  "tags": [
+    "purpose",
+    "test",
+    "cross"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-a9c23a294d5c5fc1",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:vesicular-traffic:lysosomes",
+  "slug": "lysosomes",
+  "title": "Lysosomes",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:vesicular-traffic",
+    "slug": "vesicular-traffic",
+    "title": "Vesicular Traffic",
+    "order": 4
+  },
+  "order": 14,
+  "status": "final",
+  "sections": {
+    "overview": "Lysosomes are membrane-bound organelles that serve as the cell's degradative compartment. They contain dozens of acid hydrolases (proteases, lipases, nucleases, glycosidases, phosphatases) that break down macromolecules, delivered from endocytosis, phagocytosis, and autophagy, into reusable building blocks. Their lumen is maintained at pH ~4.5–5 by the vacuolar H⁺-ATPase (V-ATPase), which is essential because the hydrolases are active only in acid. Lysosomal enzymes are sorted to lysosomes by a specific tag — mannose-6-phosphate (M6P) — added in the Golgi.",
+    "whyItMatters": "Lysosomes degrade macromolecules, recycle cellular components, kill engulfed pathogens, and process antigens. Failure of any single hydrolase causes a **lysosomal storage disease** — undigested substrate accumulates, enlarging the organelle and damaging the cell (e.g. Gaucher, Tay-Sachs, Pompe disease; over 50 such disorders are known). Many are treated by enzyme-replacement therapy or substrate-reduction therapy. Lysosomes are also central to aging and to neurodegeneration (defective lysosomal clearance in Parkinson's and Alzheimer's disease).",
+    "learningObjectives": "- Describe lysosome structure, function, and contents.\n- Explain how lysosomal enzymes are targeted by the mannose-6-phosphate pathway.\n- Explain how the lysosomal lumen is acidified and why low pH is essential.\n- Distinguish the multiple pathways that deliver material to lysosomes.\n- Relate lysosomal dysfunction to storage diseases.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nLysosomes are membrane-bound organelles that serve as the cell's degradative compartment. They contain dozens of acid hydrolases (proteases, lipases, nucleases, glycosidases, phosphatases) that break down macromolecules, delivered from endocytosis, phagocytosis, and autophagy, into reusable building blocks. Their lumen is maintained at pH ~4.5–5 by the vacuolar H⁺-ATPase (V-ATPase), which is essential because the hydrolases are active only in acid. Lysosomal enzymes are sorted to lysosomes by a specific tag — mannose-6-phosphate (M6P) — added in the Golgi.\n\n### Key Components\n\n- **Acid hydrolases:** the degradative enzymes (e.g. cathepsins, acid lipase, glycosidases, nucleases).\n- **V-ATPase:** the vacuolar proton pump that acidifies the lumen.\n- **Lysosomal membrane proteins (LAMPs/LIMPs):** highly glycosylated proteins that protect the inner membrane from digestion.\n- **Mannose-6-phosphate (M6P):** the carbohydrate tag that routes soluble hydrolases to lysosomes.\n- **M6P receptors (MPRs):** recognize M6P-tagged enzymes in the TGN and carry them to endosomes.\n- **GlcNAc-phosphotransferase:** the Golgi enzyme that adds the M6P tag.\n- **Lysosomal membrane transporters:** export digested monomers (amino acids, sugars) to the cytosol.\n\n### Mechanism / How It Works\n\n1. Lysosomal hydrolases are synthesized in the ER, where they receive N-linked oligosaccharides.\n2. In the cis-Golgi, **GlcNAc-phosphotransferase** transfers GlcNAc-phosphate onto mannose residues; a second enzyme removes GlcNAc, leaving **mannose-6-phosphate**.\n3. In the TGN, M6P receptors bind the tagged enzymes and package them into clathrin-coated vesicles.\n4. These vesicles fuse with late endosomes; the acidic lumen releases the enzymes from the receptors, and the receptors recycle to the Golgi.\n5. The late endosome matures into a lysosome; the V-ATPase pumps H⁺ into the lumen (pH ~4.5–5), activating the hydrolases.\n6. Material arrives via **endocytosis** (late endosomes), **phagocytosis** (phagosomes), and **autophagy** (autophagosomes), each fusing with lysosomes.\n7. Hydrolases digest the contents; membrane transporters export the resulting monomers for reuse.\n\n### Energy and Directionality\n\nLysosomal function is energetically expensive and unidirectional (degradation). The V-ATPase hydrolyzes ATP to concentrate protons — establishing both the low pH and the positive membrane potential — which is required for enzyme activity and for the release of M6P-tagged enzymes from their receptors. Import of material (vesicle fusion) also consumes GTP/ATP via Rabs and SNAREs. The direction is strictly catabolic: macromolecules in, monomers out.\n\n### Experimental Evidence / Technique\n\n- **de Duve's cell-fractionation studies (Nobel Prize 1974):** differential centrifugation separated \"acid phosphatase-containing particles\" — the discovery of lysosomes.\n- **Enzyme histochemistry / acid phosphatase staining:** localized hydrolases to lysosomes by their activity at low pH.\n- **Pulse-chase radiolabeling:** showed lysosomal enzymes acquire phosphate on mannose in the Golgi before reaching lysosomes.\n- **I-cell disease (mucolipidosis II) biochemistry:** patients lack GlcNAc-phosphotransferase; their hydrolases are secreted instead of lysosome-targeted, proving the M6P pathway is required for sorting.\n- **Lysotracker / acridine orange staining:** fluorescent weak bases accumulate in acidic organelles, visualizing lysosomes in live cells.",
+    "howItWorks": "1. Lysosomal hydrolases are synthesized in the ER, where they receive N-linked oligosaccharides.\n2. In the cis-Golgi, **GlcNAc-phosphotransferase** transfers GlcNAc-phosphate onto mannose residues; a second enzyme removes GlcNAc, leaving **mannose-6-phosphate**.\n3. In the TGN, M6P receptors bind the tagged enzymes and package them into clathrin-coated vesicles.\n4. These vesicles fuse with late endosomes; the acidic lumen releases the enzymes from the receptors, and the receptors recycle to the Golgi.\n5. The late endosome matures into a lysosome; the V-ATPase pumps H⁺ into the lumen (pH ~4.5–5), activating the hydrolases.\n6. Material arrives via **endocytosis** (late endosomes), **phagocytosis** (phagosomes), and **autophagy** (autophagosomes), each fusing with lysosomes.\n7. Hydrolases digest the contents; membrane transporters export the resulting monomers for reuse.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Lysosomes contain **acid hydrolases** active at **pH ~4.5–5**.\n- The **V-ATPase** acidifies the lumen using ATP.\n- Soluble lysosomal enzymes are tagged with **mannose-6-phosphate (M6P)** in the Golgi.\n- M6P is added by **GlcNAc-phosphotransferase**; loss of this enzyme causes **I-cell disease**.\n- **M6P receptors** deliver enzymes from the TGN to endosomes, then recycle.\n- Lysosomes receive cargo from **endocytosis, phagocytosis, and autophagy**.\n- LAMP/LIMP membrane proteins are heavily glycosylated to resist digestion.\n- >50 **lysosomal storage diseases** result from single hydrolase deficiencies.",
+    "commonConfusions": "- **\"Lysosomes and peroxisomes are the same.\"** Peroxisomes do oxidative reactions (e.g. H₂O₂ breakdown) and have a different origin; lysosomes are acidic degradative organelles of the endomembrane system.\n- **\"Lysosomes are made in the ER like other organelles.\"** Lysosomal *enzymes* come from the ER/Golgi, but lysosomes form by maturation/fusion of late endosomes (and fusion with autophagosomes/phagosomes).\n- **\"The lysosome's main job is to digest food only.\"** It degrades the cell's *own* material too (autophagy) and recycles building blocks.\n- **\"M6P is a protein sequence.\"** M6P is a *carbohydrate* modification on N-linked glycans, not an amino-acid sequence.\n- **\"Low pH is optional.\"** The acidic lumen is essential — hydrolases are inactive at neutral pH, and the pH gradient drives substrate and enzyme sorting.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a lysosome as the cell's recycling-and-trash plant. Trucks (vesicles) deliver garbage (old proteins, worn-out organelles, engulfed bacteria). Inside the plant, the air is made very acidic (by a special pump) because the workers — the shredding enzymes — can only work in acid. The plant is lined with a tough coating so the shredders don't destroy the building itself. Each shredder is tagged with a special sticker (M6P) at the shipping office (Golgi) so it gets routed to the right plant. If one shredder is missing, its particular type of garbage piles up — that's a storage disease. (The analogy omits that the \"acidic air\" also carries a positive charge that helps run the plant.)",
+    "quickReview": "- Lysosome = acidic (pH ~4.5–5) degradative organelle with acid hydrolases.\n- V-ATPase pumps H⁺ (ATP-dependent).\n- M6P tag (added by GlcNAc-phosphotransferase) sorts enzymes via M6P receptors.\n- Cargo arrives from endocytosis, phagocytosis, and autophagy.\n- Hydrolase deficiencies → lysosomal storage diseases (Gaucher, Tay-Sachs, Pompe, I-cell).",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, Johnson A, Lewis J, et al. \"Transport from the Trans Golgi Network to Lysosomes.\" *Molecular Biology of the Cell.* 4th edition. Garland Science; 2002. https://www.ncbi.nlm.nih.gov/books/NBK26844/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26844/"
+      },
+      {
+        "text": "Rajkumar V, Dumpa V. \"Lysosomal Storage Disease.\" *StatPearls.* StatPearls Publishing. https://www.ncbi.nlm.nih.gov/books/NBK563270/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK563270/"
+      },
+      {
+        "text": "Clark MA, Choi J, Douglas M. \"4.4 The Endomembrane System and Proteins.\" *Biology 2e.* OpenStax. https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+        "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins"
+      },
+      {
+        "text": "Cooper GM. \"Lysosomes.\" *The Cell: A Molecular Approach.* 2nd edition. Sinauer Associates; 2000. https://www.ncbi.nlm.nih.gov/books/NBK9953/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9953/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/04-vesicular-traffic/14-lysosomes.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "curriculum-topic-v2.schema.json",
+  "title": "Canonical curriculum topic v2",
+  "type": "object",
+  "required": ["schemaVersion", "id", "slug", "title", "subject", "unit", "order", "status", "sections", "aliases", "authority", "provenance", "sourceSnapshotMarkdown"],
+  "properties": {
+    "schemaVersion": { "const": "2.0.0" },
+    "id": { "type": "string", "minLength": 1 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title": { "type": "string", "minLength": 1 },
+    "subject": { "type": "object", "required": ["id", "slug", "title"] },
+    "unit": { "type": "object", "required": ["id", "slug", "title", "order"] },
+    "order": { "type": "integer", "minimum": 1 },
+    "status": { "type": "string", "minLength": 1 },
+    "sections": {
+      "type": "object",
+      "required": ["overview", "whyItMatters", "learningObjectives", "collegeNotes", "howItWorks", "comparisons", "highYield", "commonConfusions", "memoryAids", "eli10", "quickReview", "references"],
+      "properties": {
+        "overview": { "type": "string" },
+        "whyItMatters": { "type": "string" },
+        "learningObjectives": { "type": "string" },
+        "keyTerms": { "type": "string" },
+        "collegeNotes": { "type": "string" },
+        "howItWorks": { "type": "string" },
+        "comparisons": { "type": "string" },
+        "highYield": { "type": "string" },
+        "commonConfusions": { "type": "string" },
+        "memoryAids": { "type": "string" },
+        "eli10": { "type": "string" },
+        "quickReview": { "type": "string" },
+        "workedExamples": { "type": "string" },
+        "references": { "type": "array", "items": { "$ref": "#/$defs/reference" } }
+      },
+      "additionalProperties": false
+    },
+    "availability": { "type": "object" },
+    "aliases": { "type": "array", "items": { "type": "object" } },
+    "authority": { "type": "object" },
+    "provenance": { "type": "object", "required": ["sourceCollection", "sourceFile"] },
+    "sourceSnapshotMarkdown": { "type": "string", "minLength": 1 }
+  },
+  "$defs": {
+    "reference": {
+      "type": "object",
+      "required": ["text"],
+      "properties": { "text": { "type": "string" }, "url": { "type": "string" } },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

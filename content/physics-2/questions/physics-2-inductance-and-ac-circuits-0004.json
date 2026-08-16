@@ -1,0 +1,43 @@
+{
+  "id": "physics-2-inductance-and-ac-circuits-0004",
+  "subject": "physics-2",
+  "lesson": "inductance-and-ac-circuits",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For ac source description with rms vs peak values, use $X_L = omega L$ in a inductive reactance model. The first quantity is 23.00 rad/s and the second is 0.50 H. What is the inductive reactance?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$11.50\\ \\text{Ohm}$"
+    },
+    {
+      "id": "b",
+      "text": "$5.75\\ \\text{Ohm}$"
+    },
+    {
+      "id": "c",
+      "text": "$23.00\\ \\text{Ohm}$"
+    },
+    {
+      "id": "d",
+      "text": "$14.38\\ \\text{Ohm}$"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Using $X_L = omega L$ gives 23.00 rad/s times 0.50 H = $11.50\\ \\text{Ohm}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to Ohm, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "ac",
+    "source",
+    "description",
+    "rms",
+    "vs",
+    "peak",
+    "values"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-3641e63f8bc833b3",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

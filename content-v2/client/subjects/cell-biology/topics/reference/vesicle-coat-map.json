@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:reference:vesicle-coat-map",
+  "slug": "vesicle-coat-map",
+  "title": "Vesicle Coat Map (COPII, COPI, Clathrin)",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:reference",
+    "slug": "reference",
+    "title": "Reference",
+    "order": 12
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "Intracellular transport between organelles is mediated by **coated vesicles**. A small **GTPase** (Sar1 for COPII, Arf1 for COPI and clathrin at the Golgi) is activated by a GEF, inserts into the donor membrane, and recruits coat proteins that bend the membrane and concentrate cargo into a bud; the vesicle pinches off and then sheds its coat to expose fusion machinery. **COPII** moves cargo **forward** (ER → Golgi, anterograde); **COPI** moves cargo **backward** (Golgi → ER, retrograde, retrieving escaped ER-resident proteins); **clathrin** mediates traffic from the Golgi to endosomes/lysosomes and from the plasma membrane inward (endocytosis). Each coat thus encodes a direction and a cargo set, powered by GTP hydrolysis.",
+    "whyItMatters": "Coated vesicles are how the secretory and endocytic pathways move material — nutrient uptake, hormone secretion, lysosomal enzyme delivery, and receptor recycling all depend on COPII/COPI/clathrin. Defects underlie lipid disorders (familial hypercholesterolemia via LDL-receptor endocytosis), and many bacterial toxins and viruses hijack these routes to enter cells. Understanding coat specificity is also essential for designing drug-delivery vehicles.",
+    "learningObjectives": "- State the direction of transport for COPII, COPI, and clathrin-coated vesicles.\n- Identify the small GTPase and coat subunits for each coat type.\n- Explain how GTPase cycling (GEF/GAP) controls coat assembly and disassembly.\n- Describe what cargo each coat carries and the role of adaptor proteins.\n- Explain the role of dynamin in scission and why coat proteins must come off before fusion.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nIntracellular transport between organelles is mediated by **coated vesicles**. A small **GTPase** (Sar1 for COPII, Arf1 for COPI and clathrin at the Golgi) is activated by a GEF, inserts into the donor membrane, and recruits coat proteins that bend the membrane and concentrate cargo into a bud; the vesicle pinches off and then sheds its coat to expose fusion machinery. **COPII** moves cargo **forward** (ER → Golgi, anterograde); **COPI** moves cargo **backward** (Golgi → ER, retrograde, retrieving escaped ER-resident proteins); **clathrin** mediates traffic from the Golgi to endosomes/lysosomes and from the plasma membrane inward (endocytosis). Each coat thus encodes a direction and a cargo set, powered by GTP hydrolysis.\n\n### Key Components\n\n| Coat | Direction | Small GTPase | Coat / adaptors | Cargo | Scission |\n|---|---|---|---|---|---|\n| **COPII** | **ER → Golgi** (anterograde) | **Sar1** (GEF: Sec12) | Sec23/24 (inner), Sec13/31 (outer cage) | Secreted/membrane proteins with ER exit signals; ERGIC/Golgi residents | No dynamin (self-assembles) |\n| **COPI** | **Golgi → ER** (retrograde) | **Arf1** (GEF: GBF1) | Coatomer (α/β/β′/γ/δ/ε/ζ) | Escaped ER proteins (KDEL receptor), Golgi enzymes recycling | No dynamin |\n| **Clathrin** | **Golgi/TGN → endosome/lysosome** and **PM → endosome** | **Arf1** (at Golgi); **AP-2** (at PM) | Clathrin triskelion cage + AP complexes | Lysosomal enzymes (via M6P receptor), endocytosed receptors (LDL, transferrin) | **Dynamin** (PM) |\n\n### Mechanism\n\n1. **Activation.** A GEF (e.g., Sec12 for Sar1) exchanges GDP for GTP on the small GTPase, exposing an amphipathic helix that inserts into the membrane.\n2. **Coat assembly.** Membrane-bound GTPase recruits coat subunits (Sec23/24, coatomer, or AP + clathrin); adaptors simultaneously bind cargo and coat, concentrating cargo into the bud.\n3. **Budding and scission.** The coat deforms the membrane into a vesicle; at the plasma membrane **dynamin** (a GTPase) constricts and pinches the neck; COPII/COPI buds are thought to self-assemble and pinch off.\n4. **Uncoating.** A GAP stimulates GTP hydrolysis, releasing the coat so the vesicle can tether and fuse (coat removal is required for fusion).\n5. **Fusion.** The uncoated vesicle fuses with its target via SNAREs and Rab GTPases.\n\n### Energy and Directionality\n\nCoat assembly is **self-assembly driven by GTP**: the GTP-bound form of Sar1/Arf1 is the \"on\" state that recruits coat; **GTP hydrolysis** (accelerated by GAPs) drives coat disassembly, making the cycle irreversible and directional. **Dynamin** consumes GTP to perform membrane scission. Directionality is thus written twice — in which GTPase/adaptor is used (defining the donor and destination) and in the GTP on/off switch that prevents reverse assembly. Additional directionality comes from cargo-receptor and SNARE pairing at the target membrane.\n\n### Experimental Evidence\n\n- **Temperature-sensitive mutants (Schekman, yeast):** *sec* mutants block ER→Golgi transport and identified COPII components; accumulation of vesicles in mutants revealed coat requirements.\n- **Cell-free budding assays:** adding GTPγS (non-hydrolyzable) or blocking GAP activity causes coat accumulation and blocks uncoating/fusion — proving GTP hydrolysis is needed for disassembly.\n- **KDEL/KDEL-receptor studies:** ER-resident proteins (e.g., BiP) carry a KDEL sequence that the KDEL receptor retrieves from the Golgi back to the ER via COPI — evidence for retrograde salvage.\n- **Dominant-negative dynamin (GTPase-dead):** deep invaginations with collared necks accumulate at the plasma membrane, proving dynamin's scission role in endocytosis.\n- **Electron microscopy:** distinct coat morphologies (COPII cages, clathrin triskelion lattices) directly visualized the coat architectures.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- **COPII = ER → Golgi** (anterograde), GTPase **Sar1**, coat Sec23/24 + Sec13/31.\n- **COPI = Golgi → ER** (retrograde), GTPase **Arf1**, coat **coatomer**.\n- **Clathrin = Golgi → lysosome / PM → endosome**, adaptors **AP-1/AP-2**, scission by **dynamin**.\n- Coat assembly needs **GTP-bound** GTPase; **GTP hydrolysis (GAP)** triggers uncoating.\n- **KDEL receptor** retrieves ER residents via COPI.\n- Coats must **come off before fusion** (exposes SNAREs).",
+    "commonConfusions": "- **\"COPII and COPI go the same direction\"** — Opposite: COPII is **anterograde** (ER→Golgi), COPI is **retrograde** (Golgi→ER).\n- **\"Coat proteins are permanent vesicle parts\"** — Coats are **removed before fusion**; a coated vesicle cannot fuse (coat hides SNAREs).\n- **\"GTP hydrolysis builds the coat\"** — GTP *binding* builds it; **hydrolysis** takes it apart.\n- **\"Dynamin coats all vesicles\"** — Dynamin (scission GTPase) is key at the plasma membrane for clathrin; COPII/COPI buds pinch off without dynamin.\n- **\"Clathrin itself selects cargo\"** — **Adaptors (AP complexes)** select cargo and link it to the clathrin cage.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nVesicle coats are like three different delivery trucks. Each truck has its own route sticker and its own fuel key. Truck COPII drives forward (ER → Golgi); truck COPI drives backward (Golgi → ER) to bring back anything that got sent the wrong way; truck clathrin does local pickups (from the cell surface or to the recycling center/lysosome). Each truck's engine only runs while its \"GTP key\" is turned; turning the key back (hydrolysis) makes the truck drop its cage so it can unload. (The analogy's limit: the \"trucks\" are protein cages that assemble and disassemble on the spot, not permanent vehicles.)",
+    "quickReview": "- COPII (Sar1, Sec23/24+13/31) ER→Golgi; COPI (Arf1, coatomer) Golgi→ER; clathrin (AP1/AP2) Golgi→lysosome and PM→endosome (dynamin).\n- GTP-bound GTPase recruits coat; GAP-driven hydrolysis uncoats; fusion requires uncoating.\n- KDEL receptor drives retrograde retrieval of ER residents.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"The Endomembrane System and Proteins.\" https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+        "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins"
+      },
+      {
+        "text": "NHGRI, \"Lysosome.\" https://www.genome.gov/genetics-glossary/Lysosome",
+        "url": "https://www.genome.gov/genetics-glossary/Lysosome"
+      },
+      {
+        "text": "NHGRI, \"Ribosome.\" https://www.genome.gov/genetics-glossary/Ribosome",
+        "url": "https://www.genome.gov/genetics-glossary/Ribosome"
+      },
+      {
+        "text": "NHGRI, \"Nucleus.\" https://www.genome.gov/genetics-glossary/Nucleus",
+        "url": "https://www.genome.gov/genetics-glossary/Nucleus"
+      },
+      {
+        "text": "MedlinePlus, \"How do genes direct the production of proteins?\" https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/reference/vesicle-coat-map.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

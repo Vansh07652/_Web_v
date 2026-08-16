@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-kinetics:reaction-mechanisms",
+  "slug": "reaction-mechanisms",
+  "title": "Reaction Mechanisms",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-kinetics",
+    "slug": "chemical-kinetics",
+    "title": "Chemical Kinetics",
+    "order": 3
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "A **reaction mechanism** is the detailed sequence of elementary steps by which reactants become products. Most reactions do not happen in a single molecular collision; they proceed through a series of simple steps, each involving only a few particles. The sum of the steps equals the balanced equation, and the slowest step — the **rate-determining step** — controls the overall rate.",
+    "whyItMatters": "Mechanisms connect the abstract rate law to real molecular events. They explain why the orders are what they are, allow chemists to design better catalysts (by targeting the RDS), and let us understand complex multistep processes from atmospheric ozone depletion to enzyme pathways in the body. The rate-determining-step concept is one of the most powerful ideas in all of chemistry.",
+    "learningObjectives": "- Define an elementary step and its molecularity.\n- Distinguish intermediates from catalysts in a mechanism.\n- Identify the rate-determining step and derive the rate law it predicts.\n- Show that a proposed mechanism must sum to the overall equation and match the observed rate law.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA **reaction mechanism** is the detailed sequence of elementary steps by which reactants become products. Most reactions do not happen in a single molecular collision; they proceed through a series of simple steps, each involving only a few particles. The sum of the steps equals the balanced equation, and the slowest step — the **rate-determining step** — controls the overall rate.\n\n### Key Ideas\n\n- An **elementary step** is a single molecular event; its rate law can be written directly from its stoichiometry.\n- **Molecularity** = number of reactant particles in an elementary step (unimolecular, bimolecular, termolecular).\n- The **rate-determining step (RDS)** is the slowest step; it sets the overall rate law.\n- An **intermediate** is produced in one step and consumed in a later step; it never appears in the overall equation.\n- A **catalyst** is consumed in one step and regenerated in a later step; it appears unchanged overall.\n\n### Equations and Variables\n\nFor an elementary step, the rate law follows directly:\n\n- A → products (unimolecular): Rate = k[A]\n- A + B → products (bimolecular): Rate = k[A][B]\n- 2A → products (bimolecular): Rate = k[A]²\n- A + B + C → products (termolecular): Rate = k[A][B][C] (rare)\n\nThe overall rate law is that of the **rate-determining step**. If the RDS involves an intermediate, the intermediate's concentration is eliminated using the fast-equilibrium steps that form it.\n\n### How It Works\n\nA mechanism is validated by two tests. First, the elementary steps must add up to the overall balanced equation (canceling any intermediates). Second, the mechanism's predicted rate law must match the experimentally measured rate law. A mechanism that fails either test is wrong.\n\nThe rate-determining step acts like a bottleneck: fast steps that follow it are irrelevant to the overall rate because product formation is limited by how quickly the slow step turns over. Whatever species appear in the RDS's rate law — reactants directly, or intermediates tied to reactants by fast equilibria — determine the observed order.\n\n### Worked Example\n\nThe reaction 2 NO₂(g) + F₂(g) → 2 NO₂F(g) has the experimental rate law Rate = k[NO₂][F₂]. Evaluate the proposed mechanism:\n\n- Step 1 (slow): NO₂ + F₂ → NO₂F + F\n- Step 2 (fast): F + NO₂ → NO₂F\n\n**Sum of the steps.** Add and cancel the F atom (an intermediate):\n\nNO₂ + F₂ + F + NO₂ → NO₂F + F + NO₂F → **2 NO₂ + F₂ → 2 NO₂F** ✓ matches.\n\n**Molecularity.** Step 1 is bimolecular (NO₂ + F₂); Step 2 is bimolecular (F + NO₂). Both are single collision events.\n\n**Rate law from the RDS.** Step 1 is slow, so it is the rate-determining step. Being an elementary step, its rate law is:\n\n$$\\text{Rate} = k[\\text{NO}_2][\\text{F}_2]$$\n\nThis matches the experimental rate law exactly, so the mechanism is consistent with the data. Note that the overall stoichiometry (coefficient 2 on NO₂) would *suggest* second order in NO₂, but the mechanism correctly predicts first order — a reminder that orders come from the mechanism, not the balanced equation.\n\n**Intermediate.** The fluorine atom F is formed in step 1 and consumed in step 2; it appears in neither the overall equation nor the final rate law.",
+    "howItWorks": "A mechanism is validated by two tests. First, the elementary steps must add up to the overall balanced equation (canceling any intermediates). Second, the mechanism's predicted rate law must match the experimentally measured rate law. A mechanism that fails either test is wrong.\n\nThe rate-determining step acts like a bottleneck: fast steps that follow it are irrelevant to the overall rate because product formation is limited by how quickly the slow step turns over. Whatever species appear in the RDS's rate law — reactants directly, or intermediates tied to reactants by fast equilibria — determine the observed order.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Elementary step ⇒ rate law from coefficients (this is the *only* time coefficients = order).\n- Molecularity counts reactant particles in a step: uni-, bi-, termolecular.\n- The slowest step is rate-determining and sets the overall rate law.\n- Intermediates cancel when steps are summed; catalysts are regenerated.\n- A valid mechanism sums to the overall reaction and reproduces the observed rate law.",
+    "commonConfusions": "- **Writing rate laws for a non-elementary overall reaction from its coefficients.** Only elementary steps allow this.\n- **Confusing intermediate and catalyst.** An intermediate is created then destroyed; a catalyst is used then regenerated.\n- **Forgetting to verify both tests.** A mechanism must both sum correctly *and* match the rate law.\n- **Assuming the first step is always rate-determining.** It is the *slowest* step, wherever it occurs.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine building a car on an assembly line where one station — say, painting — is much slower than the rest. No matter how fast the other stations work, cars come off the line only as fast as painting allows. That slow station is the rate-determining step, and the whole factory's output is set by it. The parts that pass between stations but never show up in the finished car are intermediates; a tool the factory uses over and over without wearing out is a catalyst. To check a proposed assembly plan (mechanism), you make sure the parts add up to a complete car and that the bottleneck matches the speed you actually measured.",
+    "quickReview": "1. What is an elementary step?\n2. Define unimolecular, bimolecular, and termolecular.\n3. What is the rate-determining step and why does it matter?\n4. How do you distinguish an intermediate from a catalyst?\n5. What two conditions must a valid mechanism satisfy?",
+    "workedExamples": "### Worked Example\n\nThe reaction 2 NO₂(g) + F₂(g) → 2 NO₂F(g) has the experimental rate law Rate = k[NO₂][F₂]. Evaluate the proposed mechanism:\n\n- Step 1 (slow): NO₂ + F₂ → NO₂F + F\n- Step 2 (fast): F + NO₂ → NO₂F\n\n**Sum of the steps.** Add and cancel the F atom (an intermediate):\n\nNO₂ + F₂ + F + NO₂ → NO₂F + F + NO₂F → **2 NO₂ + F₂ → 2 NO₂F** ✓ matches.\n\n**Molecularity.** Step 1 is bimolecular (NO₂ + F₂); Step 2 is bimolecular (F + NO₂). Both are single collision events.\n\n**Rate law from the RDS.** Step 1 is slow, so it is the rate-determining step. Being an elementary step, its rate law is:\n\n$$\\text{Rate} = k[\\text{NO}_2][\\text{F}_2]$$\n\nThis matches the experimental rate law exactly, so the mechanism is consistent with the data. Note that the overall stoichiometry (coefficient 2 on NO₂) would *suggest* second order in NO₂, but the mechanism correctly predicts first order — a reminder that orders come from the mechanism, not the balanced equation.\n\n**Intermediate.** The fluorine atom F is formed in step 1 and consumed in step 2; it appears in neither the overall equation nor the final rate law.",
+    "references": [
+      {
+        "text": "OpenStax. *Chemistry 2e*. Ch. 12, \"Reaction Mechanisms.\" https://openstax.org/books/chemistry-2e/pages/12-6-reaction-mechanisms",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-6-reaction-mechanisms"
+      },
+      {
+        "text": "IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"elementary reaction,\" \"molecularity,\" \"rate-determining step.\" https://goldbook.iupac.org/",
+        "url": "https://goldbook.iupac.org/"
+      },
+      {
+        "text": "Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman."
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/12-chemical-kinetics/07-reaction-mechanisms.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

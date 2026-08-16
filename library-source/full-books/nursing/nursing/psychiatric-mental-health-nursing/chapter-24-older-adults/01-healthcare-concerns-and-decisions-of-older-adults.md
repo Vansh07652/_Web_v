@@ -1,0 +1,165 @@
+---
+title: "Healthcare Concerns and Decisions of Older Adults"
+subject: "Nursing"
+book: "Psychiatric-Mental Health Nursing"
+chapter: "24: Older Adults"
+topic_number: "1"
+source: "psychiatric-mental-health.md"
+tags:
+  - "healthcare-concerns-and-decisions-of-older-adults"
+  - "nursing"
+status: "complete"
+---
+
+# Healthcare Concerns and Decisions of Older Adults
+
+> **Book:** [Psychiatric-Mental Health Nursing](../../README.md)  
+> **Chapter:** [Chapter 24: Older Adults](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+People age 65 and older make up a growing share of the population and use health care more than younger people. **Healthcare concerns of older adults** refers to the physical, mental, and functional problems that cluster in later life — multiple chronic conditions, many medications, falls, sensory loss, cognitive changes, and mental health needs. **Decisions** refers to how care choices are made: who decides, how a person's wishes are respected, and what happens when someone cannot decide for themselves.
+
+The two halves connect: an older adult's health concerns shape the decisions that must be made — treat aggressively or focus on comfort, stay at home or move, who decides during a hospital stay. Mental health runs through both: depression and anxiety are common but under-treated in later life, and cognition directly affects a person's ability to participate in decisions about their own care.
+
+## Why This Matters
+
+Nurses care for older adults in nearly every setting: hospitals, clinics, homes, assisted living, and long-term care. This topic matters because:
+
+- **Under-recognition is common.** Mental health concerns in older adults are frequently dismissed as "just getting old" — by the person, the family, and sometimes clinicians.
+- **Decisions have real consequences.** Who makes a health care decision — and with what information — can determine whether a person's last months are spent at home or in a hospital, and whether their wishes are honored.
+- **Safety and autonomy must be balanced.** Older adults may want to keep driving or live alone when real risks exist; nurses help teams weigh respect for choice against protection from harm.
+- **It is exam and practice currency.** Advance directives, capacity, and age-related changes appear on licensing exams and in everyday documentation, handoffs, and care planning.
+
+## Core Concepts
+
+### Aging demographics and the nurse's role
+
+The world's population is aging: birth rates have declined while life expectancy has increased, so the proportion of people over 65 keeps rising. Most nurses will care for older adults regularly, whatever specialty they choose — geriatric mental health knowledge is core nursing knowledge, not a niche.
+
+### Typical healthcare concerns in later life
+
+- **Multimorbidity:** Many older adults live with two or more chronic conditions (heart disease, diabetes, arthritis, COPD). Conditions interact — pain and poor sleep worsen each other, and both can worsen depression.
+- **Polypharmacy:** Taking five or more medications is common. More medications mean more side effects and interactions, and a higher risk of drug-related confusion and falls; some (anticholinergics, sedatives) can cause or worsen cognitive and mood symptoms.
+- **Functional decline:** Difficulty with daily activities such as bathing, dressing, cooking, and managing money strongly predicts the need for help — often the real reason a person is hospitalized or moves to a care facility.
+- **Sensory changes:** Hearing and vision loss are extremely common. A person who cannot hear a question or read a consent form may appear confused when they are actually alert — a crucial assessment distinction.
+- **Falls and frailty:** Falls are a leading cause of injury and hospitalization; frailty — low strength, slow walking, fatigue — raises vulnerability to illness and its complications.
+
+### Normal aging versus disease
+
+A central teaching point: aging itself is not a disease. Some abilities slow with age, but it is NOT normal for depression, delirium, or dementia to be accepted as inevitable. This was not always understood — early 20th-century institutional studies found high rates of "senility" among psychiatric hospital and nursing home residents, and researchers concluded that severe cognitive decline was routine in old age. Later work showed those studies were biased: they sampled only people already institutionalized, overestimating how common severe decline was in the general population, and some "senile" residents actually had treatable depression or delirium. The lesson — beware drawing conclusions from a narrow sample — is also clinical: look for treatable causes before assuming decline is permanent.
+
+### Decision-making: capacity and consent
+
+**Capacity** is the ability to understand information relevant to a decision, appreciate its consequences, reason through options, and communicate a choice. Two points matter:
+
+- **Capacity is decision-specific.** A person can have capacity to choose what to eat but not to manage their finances; it is not all-or-nothing and can change over time (for example, during delirium).
+- **Capacity is assessed, not assumed.** Formal assessment is performed by qualified clinicians (per institutional policy and jurisdiction). The nurse recognizes changes in understanding and communication, documents observations, and reports so the right professional can assess — a nurse does not independently declare someone "incompetent."
+
+**Competence** is a legal status determined by a court, not a clinical judgment.
+
+### Advance directives and surrogate decision-makers
+
+**Advance directives** let a person state preferences before they lose the ability to decide: a **living will** states which treatments the person would or would not want, and a **durable power of attorney for health care** names a health care proxy to decide if the person cannot.
+
+**Surrogate decision-makers** use two standards: **substituted judgment** (deciding as the person would have, based on expressed values) or **best interests** (deciding what is objectively best when wishes are unknown). Laws and forms vary by jurisdiction and institution; nurses follow facility policy for documenting advance directives.
+
+### Balancing autonomy and safety
+
+Older adults can face genuine tension between independence and risk: driving with slowed reflexes, living alone after a fall, or managing finances while cognition declines. **Autonomy** (respecting the person's choices) must be weighed against **beneficence** (doing good) and **nonmaleficence** (avoiding harm). Nurses assess function honestly, involve the person, and bring concerns to the care team — decisions like revoking a driver's license go through defined processes involving providers and, in many places, state agencies.
+
+### Ageism and mental health under-recognition
+
+**Ageism** is prejudice or discrimination based on age; psychiatrist Robert Butler coined the term in 1968-1969, arguing that negative stereotypes of older people harmed their care and research. The concept reshaped geriatrics: instead of assuming older patients' complaints were trivial, clinicians began asking whether treatable conditions were being missed. Ageism remains relevant — older adults are still less likely to be screened for depression or offered mental health treatment than younger people.
+
+## ELI-10: Explain Like I'm 10
+
+> As people get older, their bodies change and they may need more help — like taking several medicines or needing help walking. They still get to make important choices about their health, and the law protects that right. If someone becomes too sick to choose, the instructions they wrote earlier and the people they trust tell doctors and nurses what they wanted.
+
+## High-Yield Points
+
+- **Mental health symptoms in older adults are NOT "just aging"** — depression, anxiety, and delirium are treatable or manageable conditions that deserve recognition.
+- **Multimorbidity + polypharmacy = higher risk** of drug reactions, confusion, and falls; medication review is a recurring nursing concern.
+- **Hearing/vision loss can masquerade as confusion** — assess sensory function before assuming cognitive decline.
+- **Capacity is decision-specific, can fluctuate, and is assessed by qualified clinicians** — nurses observe, document, and report.
+- **Advance directives** (living will, durable power of attorney for health care) preserve autonomy when a person cannot speak for themselves.
+- **Substituted judgment** (what the person would want) vs. **best interests** (what is objectively best) are the two surrogate decision standards.
+- **Ageism (Butler, 1969)** — early institutional studies overestimated "senility"; treatable conditions were being missed.
+- **Autonomy vs. safety is a team conversation** — driving, living alone, and financial decisions involve defined legal and institutional processes, not unilateral nursing action.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Multimorbidity | Living with two or more chronic conditions at once | Conditions interact and complicate care; a hallmark of later life |
+| Polypharmacy | Taking many medications (commonly five or more) | Raises risks of side effects, interactions, confusion, and falls |
+| Frailty | Low strength, slow walking, fatigue, and reduced reserve | Marks vulnerability to illness, falls, and complications |
+| Capacity | Ability to understand, appreciate, reason about, and communicate a decision | Decision-specific and fluctuating; assessed by qualified clinicians |
+| Competence | A legal status decided by a court | Different from clinical capacity; not a nursing judgment |
+| Advance directive | Written instructions about future health care preferences | Preserves autonomy when the person cannot decide |
+| Living will | States which treatments a person would or would not want | Guides end-of-life treatment decisions |
+| Durable power of attorney for health care | Names a proxy to make health decisions | Identifies who decides if the person cannot |
+| Substituted judgment | Deciding as the person would have decided | Honors the person's known values |
+| Best interests | Deciding what is objectively best when wishes are unknown | Fallback standard for surrogates |
+| Ageism | Prejudice or discrimination based on age | Can cause under-treatment of older adults' mental health |
+
+## Example: Mrs. Chen's choices
+
+Mrs. Chen, 82, was hospitalized after a fall at home. She has diabetes, mild arthritis, and low vision. During the admission, she tells the nurse she wants to go home: "I've managed for forty years; I don't need a facility." Her son says she forgot to pay bills twice this month and fell twice before, and he wants her to move to assisted living.
+
+The nurse's job is not to pick a side. She assesses what she observes — mood, orientation, ability to hear and read (she offers glasses and re-explains in a clear voice before judging comprehension), balance, medication list — and documents factually: "patient states she wants to return home; son reports two recent falls and missed bill payments." She raises the conflict with the care team so capacity, safety, and discharge planning are evaluated through the right channels, and asks about advance directives so documented wishes can guide decisions if her condition changes.
+
+Notice what the nurse does NOT do: she does not declare Mrs. Chen incapable of deciding, does not promise she can go home, and does not override the son. She gathers and reports, letting the interprofessional process — provider, and if needed an ethics or social work consult — weigh autonomy against safety. That is the nurse's decision-making role in older-adult care: observation, communication, documentation, and escalation.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Normal aging | Disease | Slowing is normal; depression, delirium, and severe cognitive decline are not "just aging" |
+| Capacity | Competence | Capacity is a clinical, decision-specific judgment; competence is a legal status set by a court |
+| Inability to hear/see | Confusion | Sensory loss can look like disorientation; correct hearing aids/glasses before judging cognition |
+| "Senility is inevitable" | Treatable decline | Classic bias from institutional samples; many "senile" residents had treatable conditions |
+| Living will | Power of attorney | Living will states treatments; power of attorney names a decision-maker |
+| Best interests | Substituted judgment | Best interests = objective good; substituted judgment = what the person would have wanted |
+| Nurse determining capacity | Nurse recognizing change | Nurses observe and report; qualified clinicians formally assess capacity |
+| Keeping someone safe | Overriding their choices | Safety measures must go through defined processes and respect the person's rights |
+
+## Quick Review
+
+1. Name three healthcare concerns that commonly cluster in older adults and explain how they interact.
+2. Why can hearing loss be mistaken for confusion, and what does the nurse do about it?
+3. What is the difference between capacity and competence?
+4. What are the two standards a surrogate decision-maker may use, and when is each used?
+5. Why were early 20th-century institutional studies of "senility" misleading?
+6. What is the nurse's role when an older adult's autonomy (e.g., driving) conflicts with safety?
+
+<details>
+<summary>Show answers</summary>
+
+1. Any three of: multimorbidity, polypharmacy, functional decline, falls/frailty, sensory loss, cognitive change. They interact — e.g., pain disrupts sleep, worsening depression; many medications raise fall risk; falls cause hospitalization, accelerating decline.
+2. A person who cannot hear questions or read materials may appear confused or uncooperative. The nurse ensures hearing aids and glasses are in place before considering sensory function in the assessment.
+3. Capacity is a clinical judgment about a specific decision, made by qualified clinicians, that can fluctuate; competence is a legal status determined by a court.
+4. Substituted judgment (decide as the person would have) and best interests (decide objectively when wishes are unknown).
+5. They sampled only people already institutionalized (selection bias), overestimating how common severe decline was in the general population — and some residents had treatable depression or delirium.
+6. The nurse assesses and documents observations, involves the person, and reports to the care team so capacity, risk, and legal/institutional processes apply — autonomy is never restricted unilaterally.
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter
+- Next: [Depression](02-depression.md)
+- Related: [Anxiety](03-anxiety.md), [Delirium](04-delirium.md), [Psychiatric-Mental Healthcare Nursing Interventions](07-psychiatric-mental-healthcare-nursing-interventions.md)
+- Chapter overview: [Older Adults](../README.md)
+- Cross-chapter: [Neurocognitive Disorders](../chapter-14-neurocognitive-disorders/README.md), [Legal and Ethical Guidelines](../chapter-10-legal-and-ethical-guidelines/README.md)
+
+## Source Notes
+
+- Book: Psychiatric-Mental Health Nursing
+- Local outline source: `psychiatric-mental-health.md`
+- Official source URL: https://openstax.org/details/books/psychiatric-mental-health/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: Educational overview only. Capacity assessment, competence determinations, and decisions restricting autonomy (driving, placement) are made by qualified clinicians and through legal/institutional processes that vary by jurisdiction. Nurses observe, document, and report; always follow facility policy and scope of practice.
+- Last updated: 2026-08-16

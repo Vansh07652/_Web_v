@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-ions-and-electrolytes-q12",
+  "subject": "chemistry-1",
+  "lesson": "ions-and-electrolytes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A hypothetical laboratory solution contains 0.15 mol/L Na+ and 0.02 mol/L Ca2+, with chloride as the only anion present. What must the chloride concentration be, and what principle sets it?",
+  "options": [
+    {
+      "id": "a",
+      "text": "0.19 mol/L, because the total negative charge must balance the total positive charge"
+    },
+    {
+      "id": "b",
+      "text": "0.17 mol/L, because the total moles of anion must match the total moles of cation one for one"
+    },
+    {
+      "id": "c",
+      "text": "0.13 mol/L, because the divalent calcium offsets part of the sodium contribution"
+    },
+    {
+      "id": "d",
+      "text": "0.34 mol/L, because each dissolved cation requires two chloride ions to be neutralized"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Electroneutrality requires equal totals of positive and negative charge: 0.15 from Na+ plus 0.02 x 2 = 0.04 from Ca2+ gives 0.19 mol/L of positive charge. Chloride is monovalent, so 0.19 mol/L of Cl- is needed to balance it. Simply adding cation moles gives 0.17 and ignores calcium's 2+ valence, which is exactly the error that charge-based equivalents are designed to prevent. Bulk solutions cannot carry any appreciable net charge.\n\nELI-10: Balance charges, not particles. Sodium contributes 0.15 mol/L of ions each carrying one positive charge, so 0.15 units of positive charge. Calcium contributes only 0.02 mol/L of ions, but each carries two positive charges, so 0.02 x 2 = 0.04 units. The positive total is 0.19. Chloride carries one negative charge apiece, so its concentration must also be 0.19 mol/L. Counting calcium as 0.02 would leave the solution with net positive charge, which no real bulk solution can sustain.",
+  "difficulty": "hard",
+  "tags": [
+    "electroneutrality",
+    "valence weighting",
+    "charge balance calculation"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-273",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

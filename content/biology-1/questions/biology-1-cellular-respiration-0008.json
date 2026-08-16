@@ -1,0 +1,40 @@
+{
+  "id": "biology-1-cellular-respiration-0008",
+  "subject": "biology-1",
+  "lesson": "cellular-respiration",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "For every three turns of the **Calvin cycle**, which of the following best describes what is consumed and produced?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Three ATP and three NADPH are consumed, and three G3P molecules are released."
+    },
+    {
+      "id": "b",
+      "text": "Two G3P molecules are consumed to build glucose, and nine ATP are produced."
+    },
+    {
+      "id": "c",
+      "text": "Carbon dioxide is consumed and oxygen is released as the main product."
+    },
+    {
+      "id": "d",
+      "text": "Three CO2 molecules are fixed using nine ATP and six NADPH, yielding one net G3P."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Each turn fixes one carbon dioxide and consumes three ATP and two NADPH, so three turns consume nine ATP and six NADPH and release one net G3P. A miscounts the ATP and reports three G3P instead of one net. B reverses consumption and production, since G3P is produced, not consumed, and ATP is consumed, not produced. C describes cellular respiration, while oxygen is released in the light reactions, not the Calvin cycle.",
+  "difficulty": "unknown",
+  "tags": [
+    "calvin",
+    "cycle",
+    "inputs",
+    "output"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-247e595a482fe894",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:acid-base-equilibria:molecular-structure-and-acid-strength",
+  "slug": "molecular-structure-and-acid-strength",
+  "title": "Molecular Structure and Acid Strength",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:acid-base-equilibria",
+    "slug": "acid-base-equilibria",
+    "title": "Acid Base Equilibria",
+    "order": 5
+  },
+  "order": 10,
+  "status": "final",
+  "sections": {
+    "overview": "Acid strength is a *structural* property: an acid is strong when its conjugate base is stable. Everything reduces to how easily the H–X bond breaks and how well the resulting anion spreads out its negative charge. Two families show clean trends. For **binary acids** (H–X) down a group, bond strength dominates (weaker bonds → stronger acids: HF < HCl < HBr < HI). For **oxyacids** (H–O–Y), the number of terminal oxygen atoms, the electronegativity of the central atom, and resonance stabilization all pull electron density off the O–H bond, making the proton easier to lose.",
+    "whyItMatters": "Structure–strength reasoning lets you predict acidity of drugs, biomolecules, and environmental acids without a table. The carboxylic acid group (–COOH) of amino acids is a stronger acid than an alcohol –OH largely because the carboxylate anion delocalizes its charge over two oxygens — the same resonance logic you apply to oxyacids. It also explains why sulfuric and nitric acids are strong while their \"cousins\" with fewer oxygens are weak.",
+    "learningObjectives": "- Explain acid-strength trends in binary acids (H–X) using bond strength and electronegativity.\n- Explain oxyacid trends using oxygen count, central-atom electronegativity, and resonance.\n- Predict relative acid strength from structure without a table.\n- Connect structure to the stability of the conjugate base.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nAcid strength is a *structural* property: an acid is strong when its conjugate base is stable. Everything reduces to how easily the H–X bond breaks and how well the resulting anion spreads out its negative charge. Two families show clean trends. For **binary acids** (H–X) down a group, bond strength dominates (weaker bonds → stronger acids: HF < HCl < HBr < HI). For **oxyacids** (H–O–Y), the number of terminal oxygen atoms, the electronegativity of the central atom, and resonance stabilization all pull electron density off the O–H bond, making the proton easier to lose.\n\n### Key Ideas\n\n- **Rule of thumb:** stronger acid ⇒ more stable (weaker) conjugate base.\n- **Binary acids, down a group:** bond strength dominates → HI > HBr > HCl > HF (H–I is the weakest bond).\n- **Binary acids, across a period:** electronegativity dominates → HF > H₂O > NH₃ > CH₄.\n- **Oxyacids:** more terminal O atoms (not bonded to H) = stronger acid; HClO < HClO₂ < HClO₃ < HClO₄.\n- **Same O count, different central atom:** higher electronegativity = stronger acid (HClO > HBrO > HIO).\n- **Resonance:** conjugate bases with delocalized charge (NO₃⁻, SO₄²⁻, ClO₄⁻) are highly stable → strong acids.\n\n### Equations and Variables\n\n- General oxyacid: H–O–Y (Y = central atom plus n terminal oxygens).\n- Electronegativity pulls electron density from the O–H bond, weakening it.\n- Conjugate-base stability: A⁻ more stable when the negative charge is spread over more atoms (resonance) or pulled toward electronegative atoms (induction).\n- Acid strength order for chlorine oxyacids: HClO (Ka ≈ 2.9 × 10⁻⁸) < HClO₂ (≈1.1 × 10⁻²) < HClO₃ (strong) < HClO₄ (very strong).\n\n### How It Works\n\n1. Identify the family. Binary H–X acids have one H on a nonmetal; oxyacids have an O–H group attached to a central atom.\n2. **Binary, down a group:** as X gets larger, the H–X bond lengthens and weakens, so the proton leaves more easily. This effect overrides electronegativity, so HI is the strongest and HF the weakest.\n3. **Binary, across a period:** same period means similar bond lengths, so the more electronegative X stabilizes the negative conjugate base better → HF is the strongest in its row.\n4. **Oxyacids:** each extra terminal oxygen is electronegative and *withdraws* electron density from the O–H bond, and it also lets the conjugate base delocalize charge over more oxygens (more resonance structures). Both make the proton easier to remove.\n5. **Same O count:** a more electronegative central atom (Cl vs Br vs I) withdraws more electron density → stronger acid.\n\n### Worked Example\n\n**Rank in order of increasing acid strength: (a) HClO, HBrO, HIO; (b) H₂SO₃ vs H₂SO₄.**\n\n(a) All have one terminal O and one O–H. Only the central halogen differs. Electronegativity falls Cl > Br > I, so the ability to stabilize the conjugate base falls in the same order. Therefore acid strength: HIO < HBrO < HClO.\n\n(b) H₂SO₄ has four oxygens total (two terminal O on S), H₂SO₃ has three (one terminal O). More terminal oxygens → stronger acid. H₂SO₃ < H₂SO₄. (Indeed H₂SO₄ is strong; H₂SO₃ is weak.)",
+    "howItWorks": "1. Identify the family. Binary H–X acids have one H on a nonmetal; oxyacids have an O–H group attached to a central atom.\n2. **Binary, down a group:** as X gets larger, the H–X bond lengthens and weakens, so the proton leaves more easily. This effect overrides electronegativity, so HI is the strongest and HF the weakest.\n3. **Binary, across a period:** same period means similar bond lengths, so the more electronegative X stabilizes the negative conjugate base better → HF is the strongest in its row.\n4. **Oxyacids:** each extra terminal oxygen is electronegative and *withdraws* electron density from the O–H bond, and it also lets the conjugate base delocalize charge over more oxygens (more resonance structures). Both make the proton easier to remove.\n5. **Same O count:** a more electronegative central atom (Cl vs Br vs I) withdraws more electron density → stronger acid.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Acid strength tracks conjugate-base stability.\n- Binary acids down a group: HF < HCl < HBr < HI (bond strength wins).\n- Binary acids across a period: CH₄ < NH₃ < H₂O < HF (electronegativity wins).\n- Oxyacids: more terminal O = stronger (HClO < HClO₂ < HClO₃ < HClO₄).\n- Same O count: higher central electronegativity = stronger (HClO > HBrO > HIO).\n- Resonance-delocalized conjugate bases (NO₃⁻, ClO₄⁻) make strong acids.",
+    "commonConfusions": "- **\"HF is the strongest hydrohalic acid.\"** — No; despite fluorine's high electronegativity, the very strong H–F bond makes HF weak. HI is the strongest.\n- **\"More hydrogen atoms = stronger oxyacid.\"** — What matters is the number of *terminal oxygen atoms* (not bonded to H), not the number of H. H₃PO₃ has three H but only one terminal O and is weaker than H₃PO₄.\n- **\"Resonance makes the acid molecule stable.\"** — It is the *conjugate base* whose resonance stabilization matters; a stable anion means the acid readily forms it.\n- **\"Bond strength and electronegativity always point the same way.\"** — Down a group they conflict, and bond strength wins; across a period they agree.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nAn acid is strong when its \"other half\" (the conjugate base) is happy being left behind. A happy negative ion is one that spreads its extra electron over lots of atoms — like splitting a heavy backpack among many friends so no one is overloaded. Oxygens are great backpack-sharers (they're greedy for electrons and can share via resonance). So the more oxygens an acid has, the happier its leftover ion, and the more eager it is to toss the proton. (The analogy's limit: \"happiness\" is really electrostatic stability — spreading charge over electronegative atoms lowers energy.)",
+    "quickReview": "- Strong acid ⇒ stable conjugate base.\n- Binary down a group: bond strength dominates (HF < HCl < HBr < HI).\n- Binary across a period: electronegativity dominates (CH₄ < NH₃ < H₂O < HF).\n- Oxyacids: terminal O count ↑ ⇒ strength ↑; electronegative central atom ↑ ⇒ strength ↑.\n- Resonance in the anion spreads charge and increases acid strength.",
+    "workedExamples": "### Worked Example\n\n**Rank in order of increasing acid strength: (a) HClO, HBrO, HIO; (b) H₂SO₃ vs H₂SO₄.**\n\n(a) All have one terminal O and one O–H. Only the central halogen differs. Electronegativity falls Cl > Br > I, so the ability to stabilize the conjugate base falls in the same order. Therefore acid strength: HIO < HBrO < HClO.\n\n(b) H₂SO₄ has four oxygens total (two terminal O on S), H₂SO₃ has three (one terminal O). More terminal oxygens → stronger acid. H₂SO₃ < H₂SO₄. (Indeed H₂SO₄ is strong; H₂SO₃ is weak.)",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.3 Relative Strengths of Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases"
+      },
+      {
+        "text": "Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria"
+      },
+      {
+        "text": "PubChem, \"Hydrochloric Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Hydrochloric-acid",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Hydrochloric-acid"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "molecular-structure-and-acid-strength",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "10-molecular-structure-and-acid-strength",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:f0c5319f18b94462"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:f0c5319f18b94462"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:f0c5319f18b94462"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:f0c5319f18b94462"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/14-acid-base-equilibria/10-molecular-structure-and-acid-strength.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Molecular Structure and Acid Strength\n\n## Learning Goals\n- Explain acid-strength trends in binary acids (H–X) using bond strength and electronegativity.\n- Explain oxyacid trends using oxygen count, central-atom electronegativity, and resonance.\n- Predict relative acid strength from structure without a table.\n- Connect structure to the stability of the conjugate base.\n\n## Core Concept\nAcid strength is a *structural* property: an acid is strong when its conjugate base is stable. Everything reduces to how easily the H–X bond breaks and how well the resulting anion spreads out its negative charge. Two families show clean trends. For **binary acids** (H–X) down a group, bond strength dominates (weaker bonds → stronger acids: HF < HCl < HBr < HI). For **oxyacids** (H–O–Y), the number of terminal oxygen atoms, the electronegativity of the central atom, and resonance stabilization all pull electron density off the O–H bond, making the proton easier to lose.\n\n## Key Ideas\n- **Rule of thumb:** stronger acid ⇒ more stable (weaker) conjugate base.\n- **Binary acids, down a group:** bond strength dominates → HI > HBr > HCl > HF (H–I is the weakest bond).\n- **Binary acids, across a period:** electronegativity dominates → HF > H₂O > NH₃ > CH₄.\n- **Oxyacids:** more terminal O atoms (not bonded to H) = stronger acid; HClO < HClO₂ < HClO₃ < HClO₄.\n- **Same O count, different central atom:** higher electronegativity = stronger acid (HClO > HBrO > HIO).\n- **Resonance:** conjugate bases with delocalized charge (NO₃⁻, SO₄²⁻, ClO₄⁻) are highly stable → strong acids.\n\n## Equations and Variables\n- General oxyacid: H–O–Y (Y = central atom plus n terminal oxygens).\n- Electronegativity pulls electron density from the O–H bond, weakening it.\n- Conjugate-base stability: A⁻ more stable when the negative charge is spread over more atoms (resonance) or pulled toward electronegative atoms (induction).\n- Acid strength order for chlorine oxyacids: HClO (Ka ≈ 2.9 × 10⁻⁸) < HClO₂ (≈1.1 × 10⁻²) < HClO₃ (strong) < HClO₄ (very strong).\n\n## How It Works\n1. Identify the family. Binary H–X acids have one H on a nonmetal; oxyacids have an O–H group attached to a central atom.\n2. **Binary, down a group:** as X gets larger, the H–X bond lengthens and weakens, so the proton leaves more easily. This effect overrides electronegativity, so HI is the strongest and HF the weakest.\n3. **Binary, across a period:** same period means similar bond lengths, so the more electronegative X stabilizes the negative conjugate base better → HF is the strongest in its row.\n4. **Oxyacids:** each extra terminal oxygen is electronegative and *withdraws* electron density from the O–H bond, and it also lets the conjugate base delocalize charge over more oxygens (more resonance structures). Both make the proton easier to remove.\n5. **Same O count:** a more electronegative central atom (Cl vs Br vs I) withdraws more electron density → stronger acid.\n\n## Worked Example\n**Rank in order of increasing acid strength: (a) HClO, HBrO, HIO; (b) H₂SO₃ vs H₂SO₄.**\n\n(a) All have one terminal O and one O–H. Only the central halogen differs. Electronegativity falls Cl > Br > I, so the ability to stabilize the conjugate base falls in the same order. Therefore acid strength: HIO < HBrO < HClO.\n\n(b) H₂SO₄ has four oxygens total (two terminal O on S), H₂SO₃ has three (one terminal O). More terminal oxygens → stronger acid. H₂SO₃ < H₂SO₄. (Indeed H₂SO₄ is strong; H₂SO₃ is weak.)\n\n## Why It Matters\nStructure–strength reasoning lets you predict acidity of drugs, biomolecules, and environmental acids without a table. The carboxylic acid group (–COOH) of amino acids is a stronger acid than an alcohol –OH largely because the carboxylate anion delocalizes its charge over two oxygens — the same resonance logic you apply to oxyacids. It also explains why sulfuric and nitric acids are strong while their \"cousins\" with fewer oxygens are weak.\n\n## High-Yield Facts\n- Acid strength tracks conjugate-base stability.\n- Binary acids down a group: HF < HCl < HBr < HI (bond strength wins).\n- Binary acids across a period: CH₄ < NH₃ < H₂O < HF (electronegativity wins).\n- Oxyacids: more terminal O = stronger (HClO < HClO₂ < HClO₃ < HClO₄).\n- Same O count: higher central electronegativity = stronger (HClO > HBrO > HIO).\n- Resonance-delocalized conjugate bases (NO₃⁻, ClO₄⁻) make strong acids.\n\n## Eli Explains\nAn acid is strong when its \"other half\" (the conjugate base) is happy being left behind. A happy negative ion is one that spreads its extra electron over lots of atoms — like splitting a heavy backpack among many friends so no one is overloaded. Oxygens are great backpack-sharers (they're greedy for electrons and can share via resonance). So the more oxygens an acid has, the happier its leftover ion, and the more eager it is to toss the proton. (The analogy's limit: \"happiness\" is really electrostatic stability — spreading charge over electronegative atoms lowers energy.)\n\n## Common Confusions\n- **\"HF is the strongest hydrohalic acid.\"** — No; despite fluorine's high electronegativity, the very strong H–F bond makes HF weak. HI is the strongest.\n- **\"More hydrogen atoms = stronger oxyacid.\"** — What matters is the number of *terminal oxygen atoms* (not bonded to H), not the number of H. H₃PO₃ has three H but only one terminal O and is weaker than H₃PO₄.\n- **\"Resonance makes the acid molecule stable.\"** — It is the *conjugate base* whose resonance stabilization matters; a stable anion means the acid readily forms it.\n- **\"Bond strength and electronegativity always point the same way.\"** — Down a group they conflict, and bond strength wins; across a period they agree.\n\n## Quick Review\n- Strong acid ⇒ stable conjugate base.\n- Binary down a group: bond strength dominates (HF < HCl < HBr < HI).\n- Binary across a period: electronegativity dominates (CH₄ < NH₃ < H₂O < HF).\n- Oxyacids: terminal O count ↑ ⇒ strength ↑; electronegative central atom ↑ ⇒ strength ↑.\n- Resonance in the anion spreads charge and increases acid strength.\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"14.3 Relative Strengths of Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases\n- Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria\n- PubChem, \"Hydrochloric Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Hydrochloric-acid\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n"
+}

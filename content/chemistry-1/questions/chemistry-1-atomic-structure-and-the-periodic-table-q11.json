@@ -1,0 +1,40 @@
+{
+  "id": "chemistry-1-atomic-structure-and-the-periodic-table-q11",
+  "subject": "chemistry-1",
+  "lesson": "atomic-structure-and-the-periodic-table",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Element M has 11 protons (Period 3, Group 1) and element Q has 19 protons (Period 4, Group 1). What happens to the first ionization energy going from M to Q, and why?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Higher for Q, because 8 additional protons raise the nuclear charge felt by the valence electron"
+    },
+    {
+      "id": "b",
+      "text": "Identical for both, because each atom has only a single valence electron to remove"
+    },
+    {
+      "id": "c",
+      "text": "Lower for Q, because its valence electron occupies the fourth shell behind 8 more core electrons"
+    },
+    {
+      "id": "d",
+      "text": "Lower for Q, because its greater atomic mass weakens the nucleus's hold on the outer electron"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Element Q has 18 core electrons versus 10 for element M, a difference of 8 shielding electrons, and its lone valence electron sits in the n = 4 shell rather than n = 3. Greater distance plus increased shielding lowers the effective nuclear charge acting on that electron, so less energy is needed to remove it, even though total nuclear charge is larger. Mass itself exerts no electrostatic attraction, and having one valence electron does not by itself fix ionization energy, which is why first ionization energy falls down a group and the heavier alkali metals are the more reactive ones.\n\nELI-10: Both atoms have exactly one loose outer electron, so the difference has to come from how tightly that electron is held. In Q, the electron sits one shell farther out, and electrostatic attraction weakens sharply with distance. On top of that, 8 extra inner electrons stand between it and the nucleus, cancelling much of the positive pull it would otherwise feel. The net pull, called effective nuclear charge, is weaker for Q, so its electron leaves more easily and its ionization energy is lower.",
+  "difficulty": "hard",
+  "tags": [
+    "ionization energy",
+    "shielding",
+    "effective nuclear charge",
+    "group trends"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-272",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

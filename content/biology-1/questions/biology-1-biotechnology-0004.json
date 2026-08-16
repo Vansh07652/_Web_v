@@ -1,0 +1,39 @@
+{
+  "id": "biology-1-biotechnology-0004",
+  "subject": "biology-1",
+  "lesson": "biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "The **polymerase chain reaction** (PCR) amplifies a target DNA segment through repeated temperature cycles. What is the correct order of the three main steps in each cycle?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Extension, denaturation, annealing."
+    },
+    {
+      "id": "b",
+      "text": "Annealing, extension, denaturation."
+    },
+    {
+      "id": "c",
+      "text": "Denaturation, extension, annealing."
+    },
+    {
+      "id": "d",
+      "text": "Denaturation, annealing, extension."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Each cycle begins with denaturation, heating the double-stranded DNA near 95 degrees Celsius so the strands separate, followed by annealing, when the temperature drops and primers bind to their complementary sequences, and then extension, when a heat-stable polymerase builds new strands. Only D lists the steps in that order, and the other options scramble the cycle.",
+  "difficulty": "unknown",
+  "tags": [
+    "pcr",
+    "cycle",
+    "order"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-37c6d4d415f69033",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

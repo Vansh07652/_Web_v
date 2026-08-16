@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-signaling:camp-pka-pathway",
+  "slug": "camp-pka-pathway",
+  "title": "cAMP–PKA Pathway",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-signaling",
+    "slug": "cell-signaling",
+    "title": "Cell Signaling",
+    "order": 6
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "The cAMP pathway is a canonical G-protein–coupled receptor (GPCR) signaling cascade. A hormone or neurotransmitter binds a seven-transmembrane receptor, which activates a heterotrimeric G protein. The G protein's alpha subunit (Gs, stimulatory) activates the membrane enzyme adenylyl cyclase, which converts ATP to the second messenger cyclic AMP (cAMP). cAMP binds the regulatory subunits of protein kinase A (PKA), releasing its catalytic subunits to phosphorylate serine/threonine residues on target proteins. The response is turned off by phosphodiesterases that hydrolyze cAMP and by phosphatases that remove the phosphates.",
+    "whyItMatters": "The cAMP–PKA axis governs glycogen breakdown, lipolysis, cardiac contractility (β-adrenergic → increased heart rate and force), hormone secretion, and long-term potentiation in neurons. It is the target of beta-blockers, asthma medications (β-agonists), and caffeine (a phosphodiesterase inhibitor). Pertussis and cholera are direct demonstrations of pathway physiology.",
+    "learningObjectives": "- Trace the cAMP pathway from ligand binding to PKA activation, naming every intermediate.\n- Distinguish the roles of Gs and Gi in regulating adenylyl cyclase.\n- Explain how cAMP acts as a second messenger and how it is degraded.\n- Describe how PKA phosphorylates diverse targets to produce cell-type-specific responses.\n- Connect pathway defects (e.g., cholera toxin) to disease.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe cAMP pathway is a canonical G-protein–coupled receptor (GPCR) signaling cascade. A hormone or neurotransmitter binds a seven-transmembrane receptor, which activates a heterotrimeric G protein. The G protein's alpha subunit (Gs, stimulatory) activates the membrane enzyme adenylyl cyclase, which converts ATP to the second messenger cyclic AMP (cAMP). cAMP binds the regulatory subunits of protein kinase A (PKA), releasing its catalytic subunits to phosphorylate serine/threonine residues on target proteins. The response is turned off by phosphodiesterases that hydrolyze cAMP and by phosphatases that remove the phosphates.\n\n### Key Components\n\n- **GPCR**: Seven-transmembrane receptor (e.g., β-adrenergic receptor for epinephrine).\n- **Heterotrimeric G protein**: α, β, γ subunits. Gsα stimulates adenylyl cyclase; Giα inhibits it.\n- **Adenylyl cyclase**: Integral membrane enzyme converting ATP → cAMP + PPi.\n- **cAMP**: Diffusible second messenger.\n- **Protein kinase A (PKA)**: Tetramer of two regulatory (R) and two catalytic (C) subunits.\n- **Phosphodiesterase (PDE)**: Hydrolyzes cAMP to 5′-AMP.\n- **CREB** and other PKA targets: Mediate transcriptional and metabolic responses.\n\n### Mechanism / How It Works\n\n1. **Ligand binding** induces a conformational change in the receptor, enabling it to act as a guanine nucleotide exchange factor (GEF) for the G protein.\n2. **G protein activation**: Gsα exchanges GDP for GTP, dissociates from the βγ dimer, and becomes active.\n3. **Adenylyl cyclase activation**: GTP-bound Gsα binds and stimulates adenylyl cyclase, sharply raising cytosolic cAMP.\n4. **PKA activation**: Four cAMP molecules (two per regulatory subunit) bind the R subunits, causing a conformational change that releases the catalytic subunits, which are now active kinases.\n5. **Phosphorylation**: Catalytic subunits phosphorylate target proteins on serine/threonine in the consensus motif Arg-Arg-X-Ser/Thr. In liver and muscle, PKA phosphorylates phosphorylase kinase and glycogen synthase to mobilize glucose; in other cells it phosphorylates transcription factors such as CREB.\n6. **CREB transcription**: PKA translocates to the nucleus and phosphorylates CREB at Ser133, recruiting the coactivator CBP/p300 and switching on cAMP-response-element (CRE) genes.\n\n### Energy and Directionality\n\nEach step is powered and directional. GTP hydrolysis by Gsα (intrinsic GTPase) is slow but finite, so Gsα self-inactivates. ATP is consumed twice: once by adenylyl cyclase to make cAMP (releasing PPi, hydrolyzed to 2 Pi, making the reaction essentially irreversible) and once per phosphorylation event by PKA. cAMP is short-lived because phosphodiesterases hydrolyze it to 5′-AMP. Thus the pathway is a driven cascade: signal amplification (one receptor → many G proteins → many cAMP → many PKA → many phosphorylated targets) with built-in timers for shutdown.\n\n### Experimental Evidence / Technique\n\n- **Sutherland's discovery**: Earl Sutherland showed that epinephrine plus a liver membrane fraction produced a heat-stable factor (cAMP) that activated glycogen phosphorylase — the first second messenger (Nobel Prize, 1971).\n- **FRET biosensors** (e.g., Epac-based or PKA-based sensors) report real-time cAMP dynamics in single cells.\n- **Cholera toxin** ADP-ribosylates Gsα, locking it in the GTP-bound state; the resulting unregulated cAMP production opens CFTR chloride channels in intestinal epithelium, causing the massive secretory diarrhea of cholera.\n- **Pertussis toxin** ADP-ribosylates Giα, preventing it from inhibiting adenylyl cyclase.",
+    "howItWorks": "1. **Ligand binding** induces a conformational change in the receptor, enabling it to act as a guanine nucleotide exchange factor (GEF) for the G protein.\n2. **G protein activation**: Gsα exchanges GDP for GTP, dissociates from the βγ dimer, and becomes active.\n3. **Adenylyl cyclase activation**: GTP-bound Gsα binds and stimulates adenylyl cyclase, sharply raising cytosolic cAMP.\n4. **PKA activation**: Four cAMP molecules (two per regulatory subunit) bind the R subunits, causing a conformational change that releases the catalytic subunits, which are now active kinases.\n5. **Phosphorylation**: Catalytic subunits phosphorylate target proteins on serine/threonine in the consensus motif Arg-Arg-X-Ser/Thr. In liver and muscle, PKA phosphorylates phosphorylase kinase and glycogen synthase to mobilize glucose; in other cells it phosphorylates transcription factors such as CREB.\n6. **CREB transcription**: PKA translocates to the nucleus and phosphorylates CREB at Ser133, recruiting the coactivator CBP/p300 and switching on cAMP-response-element (CRE) genes.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Gs → activates adenylyl cyclase; Gi → inhibits it; Gq → activates PLCβ (different pathway).\n- cAMP activates PKA by releasing catalytic subunits (not by phosphorylating PKA itself).\n- PKA is a Ser/Thr kinase with consensus RRX(S/T).\n- cAMP is degraded to 5′-AMP by phosphodiesterase; caffeine inhibits PDE.\n- Cholera toxin locks Gsα ON; pertussis toxin locks Giα OFF (both raise cAMP, via different mechanisms).",
+    "commonConfusions": "- **cAMP vs. AMP**: cAMP is a cyclic, second-messenger form; AMP is an ordinary nucleotide and a degradation product.\n- **PKA activation mechanism**: cAMP does not phosphorylate PKA; it binds the regulatory subunits and causes them to release the catalytic subunits.\n- **Gs vs. Gi**: Both regulate adenylyl cyclase but in opposite directions; Gq is an entirely different effector (phospholipase C).\n- **Cholera vs. pertussis**: Cholera over-activates Gs; pertussis disables Gi. Both increase cAMP, but through different G proteins.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a fire alarm in a building. The alarm button is the receptor — when a chemical \"finger\" (the hormone) presses it, it flips a switch (the G protein). The switch turns on a machine (adenylyl cyclase) that stamps out lots of tiny \"alert tickets\" called cAMP. Each ticket floats through the cell and wakes up a team of messengers (PKA) by unlocking their handcuffs. The messengers then run around turning machines on and off. When the emergency is over, a shredder (phosphodiesterase) destroys the leftover tickets so the building can go back to normal. The analogy breaks down because the cell's \"tickets\" are actual molecules whose concentration is tightly controlled — not just paper — and the alarm can amplify one signal into thousands of actions.",
+    "quickReview": "- Ligand → GPCR → Gsα(GTP) → adenylyl cyclase → ATP → cAMP → PKA (R2C2 → free catalytic) → Ser/Thr phosphorylation → response.\n- Off switches: GTP hydrolysis, phosphodiesterase, phosphatases, receptor desensitization.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 15 (NCBI Bookshelf)."
+      },
+      {
+        "text": "Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 15 (Signal Transduction)."
+      },
+      {
+        "text": "Sutherland, E. W., \"Studies on the mechanism of hormone action,\" *Science* (1972), Nobel Lecture."
+      },
+      {
+        "text": "NCBI Bookshelf, *The Cell: A Molecular Approach*, 2nd ed., \"Signaling by G proteins.\""
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Chapter 9, \"Cell Communication.\""
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/06-cell-signaling/07-camp-pka-pathway.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

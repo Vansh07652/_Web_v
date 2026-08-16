@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-1:structure-and-bonding:vsepr-theory",
+  "slug": "vsepr-theory",
+  "title": "VSEPR Theory",
+  "subject": {
+    "id": "subject:general-chemistry-1",
+    "slug": "general-chemistry-1",
+    "title": "General Chemistry I"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-1:structure-and-bonding",
+    "slug": "structure-and-bonding",
+    "title": "Structure and Bonding",
+    "order": 6
+  },
+  "order": 22,
+  "status": "final",
+  "sections": {
+    "overview": "VSEPR (Valence Shell Electron Pair Repulsion) theory predicts molecular shape from the idea that electron pairs around a central atom repel one another and spread out to minimize that repulsion. Counting electron domains (bonding pairs and lone pairs) gives an electron-domain geometry; ignoring lone pairs when naming the shape gives the molecular geometry. Because lone pairs occupy space, they compress bond angles and change the molecular shape (for example, water is bent, not linear). Combining shape with bond polarity determines whether a molecule has a net dipole (is polar).",
+    "whyItMatters": "A molecule's three-dimensional shape controls whether it fits a biological receptor or enzyme active site, which is why drug design is largely \"shape design.\" The bent, polar structure of water drives its ability to dissolve ions and polar biomolecules — a property central to blood, cellular chemistry, and drug solubility. Many drugs are developed to be shape-specific, and VSEPR is the first step in reasoning about that shape.",
+    "learningObjectives": "1. Distinguish between electron-domain geometry and molecular geometry and explain why they can differ.\n2. Predict the electron-domain geometry for 2, 3, 4, 5, and 6 electron domains around a central atom.\n3. Explain how lone pairs compress bond angles and change molecular shape.\n4. Predict whether a molecule is polar or nonpolar from its bond dipoles and overall shape.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Electron domain | A region of electron density around a central atom (single, double, or triple bond, or lone pair) | Counting domains is the first step in predicting shape |\n| Electron-domain geometry | Arrangement of ALL domains (bonding plus lone) around the atom | The underlying \"skeleton\" from which shape is derived |\n| Molecular geometry | Arrangement of the atoms only (lone pairs ignored) | The shape we actually observe and name |\n| Lone pair | A nonbonding pair of valence electrons on the atom | Occupies space and compresses bond angles |\n| Bond angle | Angle between two adjacent bonds | Identifies geometry (180°, 120°, 109.5°, etc.) |\n| Net dipole moment | The vector sum of all bond dipoles | Determines whether a molecule is polar |\n| Polar molecule | Molecule with a nonzero net dipole | Affects solubility, boiling point, and interactions |\n| Nonpolar molecule | Molecule whose bond dipoles cancel | Has different physical properties than polar analogs |",
+    "collegeNotes": "### 1. Electron Domains and Repulsion\n\nAn electron domain is any region where electrons are concentrated around the central atom: a single bond, a double bond, a triple bond, or a lone pair each count as ONE domain (a double bond is one domain, not two). The strength of repulsion is not equal: lone-pair/lone-pair repulsion is strongest, followed by lone-pair/bonding-pair, then bonding-pair/bonding-pair. Lone pairs are held closer to the nucleus and spread out more, so they push harder and squeeze the bonding pairs together.\n\n### 2. The Five Electron-Domain Geometries\n\nCount the domains (bonding plus lone), then read the geometry:\n\n- 2 domains → linear, 180°\n- 3 domains → trigonal planar, 120°\n- 4 domains → tetrahedral, 109.5°\n- 5 domains → trigonal bipyramidal, 90° and 120°\n- 6 domains → octahedral, 90°\n\nTo name the molecular geometry, ignore lone pairs and describe only the atoms. For four domains: 4 bonding/0 lone = tetrahedral; 3 bonding/1 lone = trigonal pyramidal; 2 bonding/2 lone = bent. For five domains: 5/0 = trigonal bipyramidal; 4/1 = seesaw; 3/2 = T-shaped; 2/3 = linear. For six domains: 6/0 = octahedral; 5/1 = square pyramidal; 4/2 = square planar. In trigonal bipyramidal and octahedral arrangements, lone pairs occupy equatorial (or opposite) positions first to minimize repulsion.\n\n### 3. Molecular Polarity\n\nA molecule is polar if it has a net dipole moment — an uneven electron distribution that does not cancel. Polarity requires BOTH polar bonds AND a shape that lets the bond dipoles add up instead of canceling. Bond dipoles are vectors; if they point symmetrically and cancel (as in linear CO₂ or tetrahedral CCl₄), the molecule is nonpolar despite having polar bonds. Bent water's two O–H dipoles add to a net dipole, so water is polar.",
+    "howItWorks": "1. Draw a correct Lewis structure and identify the central atom.\n2. Count electron domains: each bond (single, double, or triple) = 1 domain; each lone pair = 1 domain.\n3. Determine the electron-domain geometry from the total count (2→linear, 3→trigonal planar, 4→tetrahedral, 5→trigonal bipyramidal, 6→octahedral).\n4. Place lone pairs so repulsion is minimized (equatorial first in trigonal bipyramidal; opposite first in octahedral).\n5. Name the molecular geometry from the positions of the atoms only.\n6. Predict bond angles, reducing them below the ideal value when lone pairs are present.\n7. Add bond-dipole vectors to decide whether the molecule has a net dipole (is polar).",
+    "comparisons": "",
+    "highYield": "- **High yield:** A double or triple bond counts as ONE electron domain.\n- **High yield:** Molecular geometry ignores lone pairs; electron-domain geometry counts them.\n- Lone pairs repel more strongly than bonding pairs, compressing bond angles below ideal values.\n- Water (4 domains, 2 lone) is bent at 104.5°, not 109.5° and not linear.\n- In a trigonal bipyramidal arrangement, lone pairs go equatorial.\n- **High yield:** Polarity needs polar bonds AND an asymmetric shape; symmetric molecules with polar bonds (CO₂, BF₃, CCl₄) are nonpolar.\n- Two lone pairs opposite each other in an octahedron give square planar geometry (XeF₄).",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Electron-domain geometry | Molecular geometry | The first counts lone pairs; the second describes atoms only |\n| A bent (104.5°) water molecule | A linear molecule | Two lone pairs force the O–H bonds together |\n| Polar bond | Polar molecule | A molecule can have polar bonds yet be nonpolar if the dipoles cancel |\n| Double bond = 2 domains | Double bond = 1 domain | A multiple bond is a single electron domain |",
+    "memoryAids": "\"Lone Pairs Take Up Space\" — remember that lone pairs count as domains when you find the geometry but disappear when you name the molecular shape, and they compress the bond angles.",
+    "eli10": "Imagine tying two, three, or four balloons together at a central knot. The balloons naturally push apart and arrange themselves as far from one another as possible: two balloons point in opposite directions, three form a flat triangle, and four point to the corners of a three-dimensional pyramid. Electron pairs around an atom do the same thing.\n\nSo VSEPR is really just \"pairs push apart\": count the pairs, and their arrangement follows. Where the analogy stops being exact is that real electron pairs are not identical balloons — lone pairs repel more strongly than bonding pairs, so angles are not exactly the ideal values, and VSEPR says nothing about why the pairs avoid each other (that requires quantum mechanics).\n\n### Simple Example\n\nMethane (CH₄) has four C–H bonds and no lone pairs, so four electron domains repel into a tetrahedron with 109.5° bond angles. Water (H₂O) also has four domains, but two are lone pairs; the shape we see (the O–H bonds only) is bent with a 104.5° angle.",
+    "quickReview": "### Topic Recap\n\nCount electron domains, read the electron-domain geometry (linear → trigonal planar → tetrahedral → trigonal bipyramidal → octahedral), remove lone pairs to name the molecular shape, then add bond dipoles to judge polarity. Lone pairs compress angles and change the shape; symmetry can cancel polar bonds.\n\n### Knowledge Check\n\n1. How many electron domains does NH₃ (ammonia) have, and what is its molecular geometry?\n2. What are the electron-domain geometry and molecular geometry of CO₂?\n3. Why is the H–O–H bond angle in water (104.5°) smaller than the tetrahedral 109.5°?\n4. Which of these is nonpolar: H₂O, NH₃, CO₂, or SO₂?\n5. In a trigonal bipyramidal molecule with one lone pair (SF₄), where does the lone pair go, and what is the molecular shape?\n\n### Answers and Rationales\n\n1. NH₃ has four electron domains (three N–H bonds plus one lone pair), so the electron-domain geometry is tetrahedral and the molecular geometry is trigonal pyramidal.\n2. CO₂ has two double bonds (two domains), giving linear electron-domain geometry and linear molecular geometry (180°).\n3. Two lone pairs on oxygen repel more strongly than bonding pairs, pushing the two O–H bonds closer together (104.5°).\n4. CO₂ is nonpolar: two equal C=O dipoles point in opposite directions and cancel. H₂O, NH₃, and SO₂ are all polar.\n5. The lone pair goes in an equatorial position, and the molecular shape is seesaw (SF₄).",
+    "workedExamples": "Dipole moment: \\\\( \\mu = Q \\times d \\\\), where \\\\( Q \\\\) is the magnitude of the separated charge and \\\\( d \\\\) is the distance between the charge centers; dipole moments are reported in debye (D).\n\nExample: In HF, a partial charge of roughly 0.4 electron charges separated over a bond length of about 92 pm gives a sizable dipole (about 1.8 D), confirming HF is polar. In contrast, CO₂ has two equal C=O dipoles pointing in exactly opposite directions; they sum vectorially to zero, so CO₂ is nonpolar despite very polar bonds.\n\nNote: For most VSEPR problems the calculation is qualitative — you add bond-dipole vectors by inspection rather than computing \\\\( \\mu \\\\) explicitly.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "vsepr-theory",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "22-vsepr-theory",
+      "kind": "source_file_stem",
+      "source_id": "need-review-general-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-general-chemistry-i",
+    "sourceFile": "general-chemistry-i-study-notes/docs/general-chemistry-i/22-vsepr-theory.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

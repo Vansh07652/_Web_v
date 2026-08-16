@@ -1,0 +1,41 @@
+{
+  "id": "genetics-dna-repair-and-mutation-0004",
+  "subject": "genetics",
+  "lesson": "dna-repair-and-mutation",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** sequence-analysis The original and mutant coding strands of a short gene are shown below, each with strand and polarity declared. Original coding strand 5' ATG GAA CTG TAA 3' Mutant coding strand 5' ATG GAG CTG TAA 3' What is the most likely class of the mutation?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Silent mutation"
+    },
+    {
+      "id": "b",
+      "text": "Missense mutation"
+    },
+    {
+      "id": "c",
+      "text": "Nonsense mutation"
+    },
+    {
+      "id": "d",
+      "text": "Frameshift mutation"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Reading the coding strand in the same reading frame as its RNA transcript, the second codon changes from GAA to GAG, and both codons encode glutamic acid, so the amino acid sequence is Met Glu Leu stop in both versions and the mutation is silent. A missense change would alter the amino acid, a nonsense change would create a stop codon, and a frameshift would require an insertion or deletion that shifts the reading frame.",
+  "difficulty": "unknown",
+  "tags": [
+    "sequence",
+    "analysis",
+    "silent",
+    "base",
+    "change"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ca8f349f5901cf65",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

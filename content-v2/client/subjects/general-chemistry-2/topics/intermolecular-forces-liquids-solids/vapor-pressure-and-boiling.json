@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:intermolecular-forces-liquids-solids:vapor-pressure-and-boiling",
+  "slug": "vapor-pressure-and-boiling",
+  "title": "Vapor Pressure and Boiling",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:intermolecular-forces-liquids-solids",
+    "slug": "intermolecular-forces-liquids-solids",
+    "title": "Intermolecular Forces Liquids Solids",
+    "order": 1
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "In any liquid, some molecules have enough kinetic energy to escape into the gas phase. In a sealed container, escaping molecules build up a pressure and re-condense at the same rate they evaporate, reaching a dynamic equilibrium whose gas-phase pressure is the liquid's vapor pressure. Vapor pressure is a direct measure of how strongly molecules hold onto one another: weak intermolecular forces → easy escape → high vapor pressure → low boiling point. A liquid boils when its vapor pressure equals the external pressure pushing down on it.",
+    "whyItMatters": "- **Cooking at altitude:** water boils below 100 °C on mountains, so food cooks more slowly; pressure cookers raise the boiling point to speed cooking.\n- **Evaporative cooling:** sweating cools the body because the most energetic water molecules leave, lowering the average energy of what remains.\n- **Distillation:** differences in vapor pressure let chemists separate liquids (e.g., ethanol from water).\n- **Safety:** volatile solvents (acetone, ether) build flammable vapor pressure even at room temperature.",
+    "learningObjectives": "- Define vapor pressure and dynamic equilibrium in a closed container.\n- Explain how intermolecular forces control vapor pressure and volatility.\n- Define boiling point and normal boiling point.\n- Relate vapor pressure, external pressure, and boiling point.\n- Predict relative vapor pressures and boiling points from molecular structure.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nIn any liquid, some molecules have enough kinetic energy to escape into the gas phase. In a sealed container, escaping molecules build up a pressure and re-condense at the same rate they evaporate, reaching a dynamic equilibrium whose gas-phase pressure is the liquid's vapor pressure. Vapor pressure is a direct measure of how strongly molecules hold onto one another: weak intermolecular forces → easy escape → high vapor pressure → low boiling point. A liquid boils when its vapor pressure equals the external pressure pushing down on it.\n\n### Key Ideas\n\n### Vaporization and condensation\n- Evaporation is endothermic; only the most energetic surface molecules escape, so the remaining liquid cools (evaporative cooling).\n- In a closed container, evaporation and condensation reach equal rates — dynamic equilibrium.\n\n### Vapor pressure\n- The equilibrium pressure of vapor above a liquid at a given temperature.\n- Independent of container volume or amount of liquid; depends only on temperature and the substance's IMFs.\n\n### Volatility\n- A volatile substance evaporates readily (high vapor pressure); a nonvolatile substance barely evaporates.\n\n### Boiling point\n- The temperature at which vapor pressure = external pressure.\n- **Normal boiling point** = boiling point at exactly 1 atm (101.3 kPa).\n\n### Temperature and pressure effects\n- Vapor pressure rises steeply (exponentially) with temperature.\n- Lower external pressure (high altitude) → lower boiling point; higher pressure (pressure cooker) → higher boiling point.\n\n### Equations and Variables\n\n- **Vapor pressure is an equilibrium condition**, not a single formula; its temperature dependence is captured by the Clausius–Clapeyron equation (dedicated note): ln(P₂/P₁) = −(ΔHᵥₐₚ/R)(1/T₂ − 1/T₁), with P = vapor pressure, T = absolute temperature (K), ΔHᵥₐₚ = enthalpy of vaporization, R = 8.314 J/mol·K.\n- **Boiling condition:** P_vapor = P_external. At the normal boiling point, P_vapor = 1 atm.\n\n### How It Works\n\n1. **Molecules have a distribution of kinetic energies.** At any temperature, some surface molecules are fast enough to overcome IMFs and escape.\n2. **Escaping molecules accumulate** in the vapor space above the liquid and begin colliding with, and re-entering, the liquid.\n3. **Rates equalize.** When molecules escape and return at the same rate, the system reaches dynamic equilibrium; the pressure the vapor exerts is the vapor pressure.\n4. **Weaker IMFs = more escape.** If IMFs are weak, a larger fraction of molecules can escape at a given temperature, so vapor pressure is higher.\n5. **Raising temperature shifts the distribution.** More molecules exceed the escape threshold, so vapor pressure increases with T (exponentially).\n6. **Boiling occurs when vapor pressure reaches external pressure.** Bubbles can then form and grow throughout the liquid, not just at the surface.\n\n### Worked Example\n\nRank acetone, water, and glycerol by (a) increasing vapor pressure at 25 °C and (b) increasing boiling point.\n\n1. **Identify IMFs.** Acetone (CH₃COCH₃) = dipole–dipole + dispersion (no O–H). Water = hydrogen bonding. Glycerol (C₃H₈O₃) = extensive hydrogen bonding (three O–H groups per molecule) plus larger size.\n2. **Rank IMF strength.** Acetone < water < glycerol.\n3. **Apply the inverse relationships.** Stronger IMFs → lower vapor pressure and higher boiling point.\n4. **Result.** (a) Vapor pressure: glycerol < water < acetone. (b) Boiling point: acetone (56 °C) < water (100 °C) < glycerol (290 °C). Acetone is the most volatile; glycerol, with its multiple H-bonding sites, barely evaporates at room temperature.",
+    "howItWorks": "1. **Molecules have a distribution of kinetic energies.** At any temperature, some surface molecules are fast enough to overcome IMFs and escape.\n2. **Escaping molecules accumulate** in the vapor space above the liquid and begin colliding with, and re-entering, the liquid.\n3. **Rates equalize.** When molecules escape and return at the same rate, the system reaches dynamic equilibrium; the pressure the vapor exerts is the vapor pressure.\n4. **Weaker IMFs = more escape.** If IMFs are weak, a larger fraction of molecules can escape at a given temperature, so vapor pressure is higher.\n5. **Raising temperature shifts the distribution.** More molecules exceed the escape threshold, so vapor pressure increases with T (exponentially).\n6. **Boiling occurs when vapor pressure reaches external pressure.** Bubbles can then form and grow throughout the liquid, not just at the surface.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Vapor pressure = equilibrium pressure of vapor above a liquid at a given T.\n- Higher vapor pressure = weaker IMFs = lower boiling point (inverse relationship).\n- Vapor pressure increases with temperature (exponentially).\n- A liquid boils when its vapor pressure equals the external pressure.\n- Normal boiling point is measured at 1 atm.\n- Lower external pressure lowers the boiling point; higher pressure raises it.\n- Vapor pressure depends only on temperature and substance — not on container volume or liquid amount.",
+    "commonConfusions": "- **\"Boiling point is where a liquid turns into a gas.\"** — Imprecise. Evaporation happens at *all* temperatures; boiling specifically requires vapor pressure to equal external pressure.\n- **\"Adding more liquid raises its vapor pressure.\"** — Wrong. Vapor pressure is independent of the amount of liquid (and of container volume) at fixed T.\n- **\"High vapor pressure means strong intermolecular forces.\"** — Backwards. High vapor pressure means *weak* IMFs and easy escape.\n- **\"Vapor pressure and atmospheric pressure are the same thing.\"** — Wrong. Vapor pressure is from the substance's own vapor; atmospheric (external) pressure is the surroundings pushing on the liquid's surface.\n- **\"A volatile liquid has a high boiling point.\"** — Wrong. Volatile = high vapor pressure = *low* boiling point.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a room full of people at a party, each wanting to leave. The shy guests (weak intermolecular forces) slip out easily, so lots of them are outside at any moment (high vapor pressure). The clingy guests hold onto each other so tightly that almost nobody escapes (low vapor pressure). \"Boiling\" is when the whole crowd is pushing so hard to get out that they burst through the doors — that happens only when the pressure of people leaving matches the pressure of the bouncer holding the door shut (external pressure). At a mountain top, the bouncer is weaker, so the crowd bursts out at a lower temperature. (The analogy's limit: molecules don't \"decide\" to leave; escape is a statistical energy threshold, but the \"escape vs. external push\" balance is precisely what defines boiling.)",
+    "quickReview": "- Vapor pressure = equilibrium vapor pressure at a given T; reflects IMF strength.\n- Weak IMFs → high vapor pressure → low boiling point.\n- Vapor pressure ↑ with temperature (exponentially).\n- Boiling: P_vapor = P_external; normal bp at 1 atm.\n- Altitude lowers bp; pressure cookers raise it.\n- Ranked example: glycerol < water < acetone (vapor pressure).",
+    "workedExamples": "### Worked Example\n\nRank acetone, water, and glycerol by (a) increasing vapor pressure at 25 °C and (b) increasing boiling point.\n\n1. **Identify IMFs.** Acetone (CH₃COCH₃) = dipole–dipole + dispersion (no O–H). Water = hydrogen bonding. Glycerol (C₃H₈O₃) = extensive hydrogen bonding (three O–H groups per molecule) plus larger size.\n2. **Rank IMF strength.** Acetone < water < glycerol.\n3. **Apply the inverse relationships.** Stronger IMFs → lower vapor pressure and higher boiling point.\n4. **Result.** (a) Vapor pressure: glycerol < water < acetone. (b) Boiling point: acetone (56 °C) < water (100 °C) < glycerol (290 °C). Acetone is the most volatile; glycerol, with its multiple H-bonding sites, barely evaporates at room temperature.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"10.3 Phase Transitions.\" https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+        "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"10.1 Intermolecular Forces.\" https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces",
+        "url": "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      },
+      {
+        "text": "PubChem, \"Water\" (compound 962). https://pubchem.ncbi.nlm.nih.gov/compound/962",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      {
+        "text": "American Chemical Society. https://www.acs.org/",
+        "url": "https://www.acs.org/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/10-intermolecular-forces-liquids-solids/03-vapor-pressure-and-boiling.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

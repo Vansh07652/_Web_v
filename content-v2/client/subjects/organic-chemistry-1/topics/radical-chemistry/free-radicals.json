@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:radical-chemistry:free-radicals",
+  "slug": "free-radicals",
+  "title": "Free Radicals",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:radical-chemistry",
+    "slug": "radical-chemistry",
+    "title": "Radical Chemistry",
+    "order": 7
+  },
+  "order": 36,
+  "status": "final",
+  "sections": {
+    "overview": "A free radical is a neutral species with an unpaired electron; a carbon radical has seven valence electrons (three bonds plus one lone electron). Carbon radicals are roughly trigonal planar (sp²-like), with the unpaired electron in a p orbital. Stability rises with alkyl substitution (tertiary > secondary > primary > methyl) through hyperconjugation; allylic and benzylic radicals are extra stable because resonance delocalizes the odd electron, while vinylic and aryl radicals are unstable.",
+    "whyItMatters": "Radicals are central to physiology: reactive oxygen species such as superoxide (O₂•⁻), hydroxyl radical (•OH), and nitric oxide (NO•) arise in normal metabolism and immune defense. When they outpace antioxidants (vitamins C and E, glutathione), **oxidative stress** damages DNA, proteins, and membranes and is linked to aging, cancer, and cardiovascular disease. The same odd-electron chemistry drives radical **polymerization** and CFC-driven ozone destruction. These are conceptual examples, not treatment guidance.",
+    "learningObjectives": "1. Define a **free radical** and explain what an **unpaired electron** means in valence-electron counting and **radical notation**.\n2. Describe **radical geometry** for carbon radicals and identify the orbital holding the odd electron.\n3. Rank **radical stability** (methyl, primary, secondary, tertiary, plus **allylic/benzylic/vinylic radicals**) using **hyperconjugation** and **resonance stabilization**.\n4. Connect **relative stability** to bond-dissociation energy and **alkyl substitution**.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Free radical | Neutral species with an unpaired electron | The reactive species of radical chemistry |\n| Unpaired electron | A lone electron in an orbital with no partner | Makes the species odd-electron and reactive |\n| Radical notation | A dot (•) on the atom holding the odd electron | Flags radicals and tracks electron counts |\n| Radical geometry | ~Trigonal planar; odd electron in a p orbital | Explains why radical reactions racemize |\n| Alkyl substitution | Number of alkyl groups on the radical carbon | More substitution = more stable radical |\n| Hyperconjugation | σ-bond density \"leaning\" into the half-filled p orbital | Why 3° > 2° > 1° > methyl |\n| Resonance stabilization | Delocalizing the odd electron over a π system | Makes allylic/benzylic radicals very stable |\n| Allylic radical | Radical on a carbon next to a C=C | Two resonance contributors, extra stable |\n| Benzylic radical | Radical on a carbon next to a benzene ring | Most stable common radical type |\n| Vinylic radical | Radical on an sp² carbon of a double bond | Unstable; cannot delocalize |\n| Bond-dissociation energy (BDE) | Energy to break a bond homolytically | Lower BDE = weaker bond = easier radical formation |",
+    "collegeNotes": "### 1. Free Radicals and Unpaired Electrons\nA free radical is any species with an **odd number of valence electrons**, so at least one electron is unpaired. A carbon radical has **seven** valence electrons: three bonds (6 e⁻) + one unpaired electron (1 e⁻). Compare a neutral carbon (8 e⁻), a carbocation (6 e⁻), and a carbanion (8 e⁻ with a lone pair). Radicals are **neutral**; the odd electron carries no formal charge. The unpaired electron is shown as a single **dot**, the hallmark of radical (\"fishhook\") chemistry.\n\n### 2. Radical Geometry and the Orbital\nA carbon radical is essentially **trigonal planar (≈ sp²-hybridized)**: three σ bonds lie ~120° apart, and the unpaired electron occupies the **p orbital** above and below that plane. (Methyl is planar; larger radicals may be slightly shallow-pyramidal, but planar is the working model.) Because the odd electron is in a p orbital, attack can occur from *either face*, which is why reactions at radical centers erase stereochemistry (racemization) — used in topic 38.\n\n### 3. Radical Stability: Substitution, Hyperconjugation, Resonance\nStability follows **methyl < primary < secondary < tertiary** (CH₃• < RCH₂• < R₂CH• < R₃C•). Two effects drive this: **inductive donation** by alkyl groups, and — more important — **hyperconjugation**, in which adjacent C–H/C–C σ bonds donate electron density into the half-filled p orbital. More substituents = more hyperconjugation = more stable.\n\n**Resonance stabilization** is a larger, separate effect. An **allylic radical** (CH₂=CH–CH₂•) is on a carbon next to a C=C; its odd electron delocalizes over two carbons (CH₂=CH–CH₂• ↔ •CH₂–CH=CH₂). A **benzylic radical** (C₆H₅–CH₂•) spreads the odd electron into the ring. Both beat a tertiary radical. A **vinylic radical** (CH₂=CH•) holds its odd electron on an sp² carbon of the double bond — higher s-character, held tighter, and *not* delocalizable — so vinylic/aryl radicals are less stable than even primary. Full order:\n\n\\[ \\text{benzylic} \\approx \\text{allylic} > 3° > 2° > 1° > \\text{methyl} > \\text{vinylic/aryl} \\]",
+    "howItWorks": "1. A bond to carbon breaks **homolytically**, each atom keeping one electron (topic 37).\n2. The carbon is left with seven valence electrons — a **radical** — in ~trigonal planar geometry, odd electron in a p orbital.\n3. Adjacent σ bonds (hyperconjugation) and any π system (resonance) donate density into that p orbital.\n4. The more the odd electron spreads out, the more stable the radical — which decides which product dominates (topics 38-40).",
+    "comparisons": "",
+    "highYield": "- **High yield:** A carbon radical has **7 valence electrons** and is **neutral**; a carbocation has 6 and is positive.\n- **High yield:** Radicals are drawn with a **dot** (CH₃•) marking the unpaired electron.\n- **High yield:** Stability order: **3° > 2° > 1° > methyl**.\n- **High yield:** Stability comes from **hyperconjugation** plus inductive donation.\n- **High yield:** **Allylic ≈ benzylic > tertiary** — resonance beats hyperconjugation.\n- **High yield:** **Vinylic and aryl radicals are the least stable** — sp² odd electron, no delocalization.\n- Carbon radicals are ~**trigonal planar** (odd electron in a p orbital), so reactions at that center racemize.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Free radical (7 e⁻, neutral) | Carbocation (6 e⁻, + charge) | Radical has an *unpaired* electron; carbocation an *empty* orbital |\n| Free radical | Carbanion (8 e⁻, − charge) | Carbanion has a lone pair, not a single odd electron |\n| Allylic radical | Vinylic radical | Allylic (next to C=C) is stabilized; vinylic (on the C=C) is not |\n| Hyperconjugation (σ → p) | Resonance (π delocalization) | Hyperconjugation is weaker and uses adjacent σ bonds |\n| Planar radical (p orbital) | Planar carbocation (empty p) | Same shape; radical holds one electron in the p orbital |",
+    "memoryAids": "**\"Radicals are RUSHY: R**esonance wins, **U**npaired electron = dot, **S**ubstitution (3° > 2° > 1° > methyl), **H**yperconjugation, **Y**ou'll never find a stable vinyl.\" Order: **\"Methyl < Primary < Secondary < Tertiary < Allylic/Benzylic,\"** with vinyl/aryl last.",
+    "eli10": "Think of a completed puzzle where every piece has a partner. A radical is a puzzle missing one piece — one lone piece with no neighbor to click into, which is why it is eager to react. A carbon radical is a carbon that \"lost one glove\": it still holds three \"gloves\" (bonds) but is waving one empty hand (the unpaired electron).\n\nA useful comparison: a **carbocation** (C⁺) is missing an entire electron *pair* (six valence electrons, positive charge), while a radical is missing only *one* electron (seven valence electrons, neutral). The radical is \"halfway\" between a stable molecule (eight electrons) and a carbocation (six).\n\nWhere this stops being exact: the \"lonely glove\" suggests the electron sits inertly on one atom. In reality it occupies a p orbital and is partially stabilized by neighboring C–H bonds (hyperconjugation), and in allylic/benzylic radicals it genuinely spreads across several atoms by resonance. The picture also hides that \"radical\" names a whole family (oxygen radicals RO•, halogen atoms Cl•) united only by one unpaired electron.\n\n### Simple Example\nTear a hydrogen atom (H•) off methane: carbon is left with seven electrons — three C–H bonds plus one unpaired electron. That species is the **methyl radical**, written **CH₃•** or **•CH₃**. The dot marks the unpaired electron.",
+    "quickReview": "### Topic Recap\n\nA free radical is a neutral, odd-electron species; carbon radicals have seven valence electrons and are drawn with a dot. They are ~trigonal planar with the odd electron in a p orbital. Stability follows methyl < primary < secondary < tertiary via hyperconjugation and induction, with allylic/benzylic radicals further stabilized by resonance and vinylic/aryl radicals destabilized. Radical stability predicts which radicals form and thus which products dominate in the reactions that follow.\n\n### Knowledge Check\n\n1. How many valence electrons surround the carbon of a methyl radical, and is it charged?\n2. What orbital holds the unpaired electron, and what geometry results?\n3. Rank by stability: methyl, allylic, tertiary, vinylic, secondary.\n4. Why is a tertiary radical more stable than a primary radical?\n5. Why is an allylic radical more stable than a tertiary radical?\n\n### Answers and Rationales\n\n1. **Seven** (three bonds = 6, plus one unpaired), and it is **neutral**. Rationale: radicals are odd-electron but uncharged; the dot is the seventh electron.\n2. A **p orbital**, giving ~**trigonal planar** geometry. Rationale: ~sp² carbon with three σ bonds and the odd electron in the perpendicular p orbital.\n3. **Allylic > tertiary > secondary > methyl > vinylic.** Rationale: resonance tops hyperconjugation; among alkyl radicals more substitution wins; vinylic cannot delocalize.\n4. Hyperconjugation: more adjacent C–H/C–C σ bonds donate into the half-filled p orbital, plus more inductive donation. Rationale: more substituents = more stabilization.\n5. Resonance: the odd electron delocalizes over two carbons (CH₂=CH–CH₂• ↔ •CH₂–CH=CH₂). Rationale: delocalization over a π system beats hyperconjugation alone.",
+    "workedExamples": "Ranking radicals, explaining electron movement before the conclusion:\n\n1. **Count electrons.** Each radical carbon has 7 valence electrons (three bonding pairs + one unpaired). Confirm it is a radical, not a carbocation (6) or carbanion (8).\n2. **Assign geometry.** The carbon is ~trigonal planar; the odd electron sits in a p orbital — this is where electron density can flow *into* the half-filled orbital.\n3. **Check resonance.** Move a π bond (double-headed arrow) to relocate the unpaired electron without moving atoms. Two or more contributors ⇒ delocalized (allylic/benzylic) ⇒ strongly stabilized — this wins over everything.\n4. **If no resonance, count substituents.** 3 alkyl groups = tertiary, 2 = secondary, 1 = primary, 0 = methyl. Each adds hyperconjugation (adjacent σ bonds donate into the p orbital).\n5. **Flag vinylic/aryl.** An odd electron on an sp² double-bond/ring carbon cannot delocalize — rank it last.\n6. **State the order** (e.g., benzylic > tertiary > secondary > primary > methyl > vinyl).",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "free-radicals",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "36-free-radicals",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/36-free-radicals.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

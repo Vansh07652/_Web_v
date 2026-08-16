@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cancer-biology:tumor-suppressor-genes",
+  "slug": "tumor-suppressor-genes",
+  "title": "Tumor Suppressor Genes",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cancer-biology",
+    "slug": "cancer-biology",
+    "title": "Cancer Biology",
+    "order": 8
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "**Tumor suppressor genes** normally restrain cell proliferation, promote DNA repair, or trigger cell death — they are the \"brakes\" and \"mechanics\" of the genome. Cancer arises when both copies are inactivated, removing a protective checkpoint. Unlike oncogenes (dominant gain of function), tumor suppressors are typically **recessive at the cellular level**: one working copy is enough, and the cell must lose or inactivate *both* alleles — Knudson's \"two-hit\" model — to lose the brake entirely.",
+    "whyItMatters": "Tumor suppressor genes explain familial cancer risk and guide screening and prevention: people who inherit a *BRCA1/2*, *APC*, or *TP53* mutation receive intensive surveillance or prophylactic surgery. Caretaker defects also create therapeutic opportunities — BRCA-deficient tumors are exquisitely sensitive to PARP inhibitors and platinum agents, an example of synthetic lethality. Understanding the two-hit logic underlies genetic counseling and the distinction between inherited predisposition and sporadic cancer.",
+    "learningObjectives": "- Define tumor suppressor genes and explain why their loss-of-function is recessive at the cellular level.\n- Explain Knudson's two-hit hypothesis and the concept of loss of heterozygosity.\n- Distinguish gatekeeper and caretaker tumor suppressors with examples.\n- Explain why inherited tumor-suppressor mutations cause dominant familial cancer syndromes despite cellular recessiveness.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Tumor suppressor genes** normally restrain cell proliferation, promote DNA repair, or trigger cell death — they are the \"brakes\" and \"mechanics\" of the genome. Cancer arises when both copies are inactivated, removing a protective checkpoint. Unlike oncogenes (dominant gain of function), tumor suppressors are typically **recessive at the cellular level**: one working copy is enough, and the cell must lose or inactivate *both* alleles — Knudson's \"two-hit\" model — to lose the brake entirely.\n\n### Key Components\n\n- **Gatekeepers:** directly control proliferation or survival — e.g., *RB1* (cell-cycle control), *APC* (Wnt pathway, colon cancer), *TP53* (stress response).\n- **Caretakers:** maintain genome integrity by repairing DNA or fixing chromosomes — e.g., *BRCA1/BRCA2* (homologous recombination repair), *MLH1/MSH2* (mismatch repair). Their loss does not drive growth directly but accelerates mutation of other genes.\n- **Loss of heterozygosity (LOH):** the second, wild-type allele is deleted or silenced, leaving only the mutant allele.\n- **Two-hit hypothesis (Knudson):** both copies of a tumor suppressor must be inactivated to trigger tumorigenesis.\n- **Haploinsufficiency:** in some genes, losing one copy already reduces function enough to matter.\n\n### Mechanism\n\nA tumor suppressor protein normally provides a negative signal: it may block cell-cycle progression, sense DNA damage and halt division, or direct damaged cells to die. Inactivation removes this restraint. The first \"hit\" is often an inherited germline mutation present in every cell; the second \"hit\" is a somatic event — chromosomal deletion, point mutation, or promoter methylation — in a single cell. That cell now lacks the protective protein and can begin unchecked growth or accumulate further mutations. This is why familial cancer syndromes show dominant inheritance at the organism level (one inherited mutant allele predisposes every cell) even though the defect behaves recessively at the cellular level (a second hit is still required).\n\n### How It Works\n\n1. A cell carries one normal and one mutant copy of a tumor suppressor (e.g., inherited).\n2. The single normal copy produces enough protein to keep the checkpoint functional.\n3. A somatic event inactivates or deletes the remaining normal allele (LOH).\n4. The cell now has no functional tumor-suppressor protein.\n5. The lost restraint permits proliferation or genome instability, contributing to tumor formation.\n6. If the gene is a caretaker (e.g., BRCA1), the immediate effect is defective repair, which then accelerates hits in other genes.\n\n### Energy and Directionality\n\nTumor-suppressor function is not driven by a single energy currency but is embedded in energy-consuming checkpoints: DNA-repair enzymes hydrolyze ATP, and cell-cycle checkpoints require kinase cascades powered by ATP. Loss of the suppressor removes an energy-costly quality-control step, biasing the cell toward proliferation and, in caretaker mutants, toward an elevated mutation rate. Directionality thus emerges from selection: cells that shed a brake or a proofreader replicate more successfully and dominate the population.\n\n### Experimental Evidence\n\n- **Knudson (1971):** statistical analysis of retinoblastoma showed that bilateral (familial) cases required one inherited mutation plus one somatic hit, while unilateral (sporadic) cases required two somatic hits — the foundation of the two-hit model.\n- **LOH studies:** tumors from familial cases frequently show deletion of the chromosome region carrying the normal allele.\n- **Mouse knockouts:** homozygous deletion of tumor suppressors causes early, often embryonic-lethal phenotypes or tumor predisposition; heterozygotes are cancer-prone.\n- **Familial cancer syndromes:** Li–Fraumeni (*TP53*), familial adenomatous polyposis (*APC*), hereditary breast/ovarian cancer (*BRCA1/2*) all trace to heterozygous germline mutations with somatic second hits.\n\n### Technique\n\n- **Loss of heterozygosity (LOH) analysis** — microsatellite or SNP comparison of tumor vs. normal DNA.\n- **Promoter methylation assays** — detect epigenetic \"second hits\" that silence the normal allele.\n- **Immunohistochemistry** — detect loss of protein expression in tumors.\n- **Germline and tumor sequencing** — identify inherited vs. somatic mutations.\n- **Mouse models** — conditional knockouts to test tumor-suppressor function in specific tissues.",
+    "howItWorks": "1. A cell carries one normal and one mutant copy of a tumor suppressor (e.g., inherited).\n2. The single normal copy produces enough protein to keep the checkpoint functional.\n3. A somatic event inactivates or deletes the remaining normal allele (LOH).\n4. The cell now has no functional tumor-suppressor protein.\n5. The lost restraint permits proliferation or genome instability, contributing to tumor formation.\n6. If the gene is a caretaker (e.g., BRCA1), the immediate effect is defective repair, which then accelerates hits in other genes.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Tumor suppressors act by **loss of function**; oncogenes act by gain of function.\n- Cellular effect is **recessive** — both alleles must be inactivated (two-hit hypothesis).\n- **Gatekeepers** control proliferation (RB1, APC, TP53); **caretakers** maintain genome integrity (BRCA1/2, MLH1/MSH2).\n- **LOH** = loss of the second (normal) allele in a tumor.\n- Inherited suppressor mutations cause **dominant familial syndromes** because every cell starts with one hit.\n- Second hits arise by deletion, mutation, or **promoter methylation**.",
+    "commonConfusions": "- **\"Tumor suppressors act like oncogenes.\"** — Opposite. Oncogenes = stuck accelerator (dominant gain); suppressors = broken brakes (recessive loss).\n- **\"A tumor suppressor mutation is dominant, so one copy causes cancer.\"** — It is dominant for *inheritance of risk* but recessive for *cell transformation*; a second hit is still needed.\n- **\"BRCA1/2 are gatekeepers.\"** — They are caretakers (DNA-repair genes); their loss indirectly promotes cancer.\n- **\"Loss of the normal allele always requires a mutation.\"** — It can also occur by promoter methylation (epigenetic silencing).\n- **\"All tumor suppressors work the same way.\"** — They do not: RB blocks E2F, p53 integrates stress signals, BRCA repairs DNA.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a cell as a bicycle with two brakes. A tumor suppressor is a brake. You can lose one brake (inherit a broken brake) and still stop fine using the other — that's why one broken copy doesn't immediately cause cancer. But if the second brake also breaks (the \"second hit\"), the bike can't stop and careens downhill. For \"caretaker\" genes, it's not the brakes but the mechanic: lose the mechanic who fixes the bike, and all the other parts start breaking faster. (The analogy oversimplifies \"braking\" — some suppressors instead trigger cell suicide or fix DNA, not just stop division.)",
+    "quickReview": "- Tumor suppressors = brakes; loss of function, recessive (two-hit).\n- Knudson: inherited + somatic hit (familial) vs. two somatic hits (sporadic).\n- Gatekeepers (RB1, APC, TP53) vs. caretakers (BRCA1/2, mismatch-repair genes).\n- Second hit via deletion, mutation, or methylation (LOH).\n- Underlies familial cancer syndromes and PARP-inhibitor therapy.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"tumor suppressor gene.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-suppressor-gene",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-suppressor-gene"
+      },
+      {
+        "text": "National Human Genome Research Institute, \"Tumor Suppressor Gene.\" https://www.genome.gov/genetics-glossary/Tumor-Suppressor-Gene",
+        "url": "https://www.genome.gov/genetics-glossary/Tumor-Suppressor-Gene"
+      },
+      {
+        "text": "MedlinePlus Genetics, \"RB1 gene.\" https://medlineplus.gov/genetics/gene/rb1/",
+        "url": "https://medlineplus.gov/genetics/gene/rb1/"
+      },
+      {
+        "text": "MedlinePlus Genetics, \"Retinoblastoma.\" https://medlineplus.gov/genetics/condition/retinoblastoma/",
+        "url": "https://medlineplus.gov/genetics/condition/retinoblastoma/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"The Preventable Causes of Cancer.\" https://www.ncbi.nlm.nih.gov/books/NBK26897/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26897/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/08-cancer-biology/04-tumor-suppressor-genes.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

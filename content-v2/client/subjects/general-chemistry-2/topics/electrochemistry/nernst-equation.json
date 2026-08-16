@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:electrochemistry:nernst-equation",
+  "slug": "nernst-equation",
+  "title": "The Nernst Equation",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:electrochemistry",
+    "slug": "electrochemistry",
+    "title": "Electrochemistry",
+    "order": 8
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "A cell's potential depends on the concentrations of the species involved, not just on standard conditions. The **Nernst equation**, **E = E° − (RT/nF) ln Q**, corrects the standard cell potential for the actual reaction quotient Q. As a galvanic cell discharges, Q climbs toward K, so the (RT/nF) ln Q term grows and E falls — this is why a battery's voltage sags as it is used. At equilibrium, Q = K, ln Q = ln K, and E = 0. At 25 °C the equation simplifies to E = E° − (0.0592 V/n) log₁₀ Q.",
+    "whyItMatters": "The Nernst equation explains the behavior of every real battery and electrochemical sensor: why voltage drops as a battery discharges, how pH meters and oxygen sensors measure concentration from a voltage, and how concentration differences (not just different metals) can generate electricity. It is also the theory behind measuring K from a cell at equilibrium.",
+    "learningObjectives": "- Write the Nernst equation in both its general and 25 °C forms.\n- Calculate a nonstandard cell potential from concentrations or pressures.\n- Explain how a cell potential drifts as a reaction approaches equilibrium.\n- Use the Nernst equation to understand why batteries \"run down.\"",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA cell's potential depends on the concentrations of the species involved, not just on standard conditions. The **Nernst equation**, **E = E° − (RT/nF) ln Q**, corrects the standard cell potential for the actual reaction quotient Q. As a galvanic cell discharges, Q climbs toward K, so the (RT/nF) ln Q term grows and E falls — this is why a battery's voltage sags as it is used. At equilibrium, Q = K, ln Q = ln K, and E = 0. At 25 °C the equation simplifies to E = E° − (0.0592 V/n) log₁₀ Q.\n\n### Key Ideas\n\n- **Concentration matters.** Only under standard conditions (all solutes 1 M, gases 1 atm) is E = E°.\n- **Same Q as equilibrium.** Q is built from current concentrations/pressures, with solids and pure liquids omitted.\n- **Direction of the correction.** More products (larger Q) lowers E; more reactants (smaller Q) raises E.\n- **E hits zero at equilibrium.** When Q = K, the cell is \"dead\" and delivers no more voltage.\n- **25 °C shortcut.** E = E° − (0.0592 V/n) log Q; use log₁₀ with 0.0592, or natural log with 0.0257 V.\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| E | Cell potential under nonstandard conditions | V |\n| E° | Standard cell potential | V |\n| R | Gas constant = 8.314 J/(mol·K) | J/(mol·K) |\n| T | Absolute temperature | K |\n| n | Moles of electrons transferred | mol e⁻ |\n| F | Faraday constant = 96,485 C/mol e⁻ | C/mol |\n| Q | Reaction quotient | dimensionless |\n\nE = E° − (RT/nF) ln Q\n\n### How It Works\n\n1. Write the balanced cell reaction and identify n.\n2. Find E° from reduction potentials.\n3. Build Q from the given concentrations/pressures (omit solids/liquids).\n4. Plug into the Nernst equation (use the 0.0592/n log form at 25 °C).\n5. Solve for E; compare to E° and interpret.\n\n### Worked Example\n\n**A Zn/Cu cell runs Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s) with [Zn²⁺] = 0.10 M and [Cu²⁺] = 1.0 M at 25 °C. Find E.**\n\n- E° = +1.10 V, n = 2.\n- Q = [Zn²⁺]/[Cu²⁺] = 0.10 / 1.0 = 0.10.\n- E = E° − (0.0592 V/n) log Q = 1.10 − (0.0592/2) log(0.10)\n- = 1.10 − (0.0296)(−1) = 1.10 + 0.0296 = **1.13 V**\n\nBecause the product Zn²⁺ is dilute (small Q), the cell runs at a slightly higher voltage than standard. As the cell discharges and [Zn²⁺] rises toward [Cu²⁺], E falls toward zero.",
+    "howItWorks": "1. Write the balanced cell reaction and identify n.\n2. Find E° from reduction potentials.\n3. Build Q from the given concentrations/pressures (omit solids/liquids).\n4. Plug into the Nernst equation (use the 0.0592/n log form at 25 °C).\n5. Solve for E; compare to E° and interpret.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Nernst: E = E° − (RT/nF) ln Q.\n- At 25 °C: E = E° − (0.0592 V/n) log Q.\n- Q uses actual concentrations; solids and pure liquids are omitted.\n- Larger Q (more products) ⇒ lower E; smaller Q ⇒ higher E.\n- At equilibrium Q = K, so E = 0.\n- A discharging battery: Q rises, E falls.",
+    "commonConfusions": "- **\"E = E° always.\"** — Wrong. E = E° only at standard conditions (1 M, 1 atm); otherwise use the Nernst equation.\n- **\"Use K instead of Q in the Nernst equation.\"** — Wrong. Use Q (current amounts); Q = K only at equilibrium, where E = 0.\n- **\"0.0592 works with natural log.\"** — Wrong. 0.0592 V pairs with log₁₀; the natural-log form uses RT/nF (= 0.0257 V/n at 25 °C).\n- **\"Include solids and liquids in Q.\"** — Wrong. Their activity is 1 and they are omitted.\n- **\"A larger Q raises the voltage.\"** — Wrong. More products (larger Q) lowers E.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a battery as a water tank feeding a mill. The \"standard\" voltage is the pressure when the tank is filled to a reference level. As the reaction runs, products pile up (the tank drains and the lower side fills), so the pressure — the voltage — drops. The Nernst equation is just the pressure gauge: it tells you exactly how much the pressure has sagged from the reference level, based on how much reactant and product you currently have. When the levels equalize (equilibrium), the pressure hits zero and the mill stops. (The limit: \"pressure\" here is electrical potential, and it also changes with temperature, not just concentrations.)",
+    "quickReview": "- E = E° − (RT/nF) ln Q.\n- 25 °C: E = E° − (0.0592/n) log Q.\n- Build Q from current concentrations; omit solids/liquids.\n- E → 0 as Q → K (discharge).\n- Smaller Q ⇒ higher E; larger Q ⇒ lower E.",
+    "workedExamples": "### Worked Example\n\n**A Zn/Cu cell runs Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s) with [Zn²⁺] = 0.10 M and [Cu²⁺] = 1.0 M at 25 °C. Find E.**\n\n- E° = +1.10 V, n = 2.\n- Q = [Zn²⁺]/[Cu²⁺] = 0.10 / 1.0 = 0.10.\n- E = E° − (0.0592 V/n) log Q = 1.10 − (0.0592/2) log(0.10)\n- = 1.10 − (0.0296)(−1) = 1.10 + 0.0296 = **1.13 V**\n\nBecause the product Zn²⁺ is dilute (small Q), the cell runs at a slightly higher voltage than standard. As the cell discharges and [Zn²⁺] rises toward [Cu²⁺], E falls toward zero.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 17.4 \"Potential, Free Energy, and Equilibrium.\" https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium"
+      },
+      {
+        "text": "NIST CODATA (Faraday constant). https://physics.nist.gov/cuu/Constants/",
+        "url": "https://physics.nist.gov/cuu/Constants/"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 2
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/17-electrochemistry/08-nernst-equation.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

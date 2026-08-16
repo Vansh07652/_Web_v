@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-cycle-cell-death:g1-s-control",
+  "slug": "g1-s-control",
+  "title": "G1–S Control and the Restriction Point",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-cycle-cell-death",
+    "slug": "cell-cycle-cell-death",
+    "title": "Cell Cycle Cell Death",
+    "order": 7
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "The G1–S transition is the cell's main decision point: it commits the cell to a full round of division. The central molecular switch is the retinoblastoma protein (Rb), which in its underphosphorylated state binds and inhibits the E2F family of transcription factors. Mitogen-driven cyclin D–Cdk4/6 first phosphorylates Rb, and cyclin E–Cdk2 completes Rb hyperphosphorylation, releasing E2F to transcribe genes required for DNA synthesis. The point at which the cell no longer needs external growth signals to finish the cycle is the restriction point. DNA damage arrests this process through p53, which induces the CDK inhibitor p21.",
+    "whyItMatters": "Deregulation of the Rb pathway is nearly universal in cancer — through Rb loss, cyclin D/CDK4 amplification, p16 loss, or E2F activation. HPV's oncoproteins (E7) act by disabling Rb, linking viral infection to cervical cancer. p53 loss or mutation removes the p21 brake, letting damaged cells proceed into S phase and accumulate mutations. Clinically, CDK4/6 inhibitors exploit this axis to halt hormone-receptor-positive breast cancers, and p53/Rb status guides prognosis across many tumor types.",
+    "learningObjectives": "- Describe how growth signals drive the G1/S transition.\n- Explain the Rb–E2F pathway and how cyclin D–Cdk4/6 and cyclin E–Cdk2 regulate it.\n- Define the restriction point and why it represents commitment.\n- Explain how DNA damage blocks the transition via p53 and p21.\n- Connect Rb and p53 loss to cancer.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe G1–S transition is the cell's main decision point: it commits the cell to a full round of division. The central molecular switch is the retinoblastoma protein (Rb), which in its underphosphorylated state binds and inhibits the E2F family of transcription factors. Mitogen-driven cyclin D–Cdk4/6 first phosphorylates Rb, and cyclin E–Cdk2 completes Rb hyperphosphorylation, releasing E2F to transcribe genes required for DNA synthesis. The point at which the cell no longer needs external growth signals to finish the cycle is the restriction point. DNA damage arrests this process through p53, which induces the CDK inhibitor p21.\n\n### Key Components\n\n- **Mitogens (growth factors)**: Drive cyclin D expression via Ras–MAPK and PI3K pathways.\n- **Cyclin D–Cdk4/6**: The mitogen sensor; initiates Rb phosphorylation.\n- **Rb (retinoblastoma protein)**: Pocket protein; binds and represses E2F.\n- **E2F**: Transcription factor family driving S-phase genes (DNA polymerases, cyclin E, cyclin A, etc.).\n- **Cyclin E–Cdk2**: Completes Rb hyperphosphorylation; also phosphorylates other replication targets.\n- **p16 (INK4a)**: Inhibits Cdk4/6 (activated by stress/oncogene signals).\n- **p53 and p21**: DNA-damage checkpoint — p53 induces p21, which inhibits Cdk2 and Cdk4/6.\n- **Restriction point (R point)**: Late-G1 commitment threshold.\n\n### Mechanism / How It Works\n\n1. **Mitogen input**: Growth factors activate Ras–MAPK and PI3K–Akt, raising cyclin D levels and stabilizing it. Cyclin D binds Cdk4/6.\n2. **Early Rb phosphorylation**: Cyclin D–Cdk4/6 phosphorylates Rb at specific sites, partially inactivating it (hypophosphorylation). This step is mitogen-dependent and reversible.\n3. **E2F release and positive feedback**: Partially released E2F transcribes cyclin E (and A). Cyclin E–Cdk2 then hyperphosphorylates Rb on additional sites, fully releasing E2F — a positive-feedback loop that makes the transition switch-like and, once engaged, independent of further mitogen signal. This is the molecular basis of the restriction point.\n4. **S-phase entry**: Freed E2F drives expression of replication machinery (ORC components, DNA polymerases, MCM helicases, cyclins E and A), committing the cell to replicate DNA.\n5. **Checkpoint brake**: If DNA is damaged, ATM/ATR activate p53, which induces p21. p21 inhibits cyclin E–Cdk2 (and cyclin D–Cdk4/6), keeping Rb active and E2F sequestered, arresting the cell in G1.\n\n### Energy and Directionality\n\nRb phosphorylation consumes ATP (by Cdk4/6 and Cdk2), and the E2F positive-feedback loop (cyclin E–Cdk2 hyperphosphorylating Rb → more E2F → more cyclin E) is the energetic/kinetic engine that makes the restriction point irreversible. Once the loop engages, the transcriptional program is self-sustaining, so the cell commits — this is why passing the R point is the point of no return for a division cycle. Reversal (e.g., by p21-mediated arrest) requires actively re-establishing the underphosphorylated Rb state.\n\n### Experimental Evidence / Technique\n\n- **Rb as tumor suppressor**: Retinoblastoma arises from biallelic RB1 inactivation — the two-hit model of Knudson. Loss of Rb releases E2F constitutively.\n- **DNA tumor viruses**: SV40 large T antigen, adenovirus E1A, and HPV E7 bind and inactivate Rb, forcing E2F activity — a direct demonstration that Rb is a brake on proliferation.\n- **Serum starvation/readdition**: Cells arrested in G0 by serum withdrawal re-enter G1 and pass the restriction point only after mitogen addition; after the R point, mitogen withdrawal no longer stops them.\n- **Rb phospho-specific antibodies**: Track the progressive phosphorylation (hypo- vs. hyperphosphorylated Rb) through G1.\n- **p21/p16 knockouts and CDK4/6 inhibitors**: Show that blocking Cdk4/6 prevents Rb phosphorylation and arrests cells in G1.",
+    "howItWorks": "1. **Mitogen input**: Growth factors activate Ras–MAPK and PI3K–Akt, raising cyclin D levels and stabilizing it. Cyclin D binds Cdk4/6.\n2. **Early Rb phosphorylation**: Cyclin D–Cdk4/6 phosphorylates Rb at specific sites, partially inactivating it (hypophosphorylation). This step is mitogen-dependent and reversible.\n3. **E2F release and positive feedback**: Partially released E2F transcribes cyclin E (and A). Cyclin E–Cdk2 then hyperphosphorylates Rb on additional sites, fully releasing E2F — a positive-feedback loop that makes the transition switch-like and, once engaged, independent of further mitogen signal. This is the molecular basis of the restriction point.\n4. **S-phase entry**: Freed E2F drives expression of replication machinery (ORC components, DNA polymerases, MCM helicases, cyclins E and A), committing the cell to replicate DNA.\n5. **Checkpoint brake**: If DNA is damaged, ATM/ATR activate p53, which induces p21. p21 inhibits cyclin E–Cdk2 (and cyclin D–Cdk4/6), keeping Rb active and E2F sequestered, arresting the cell in G1.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- **Hypophosphorylated Rb binds E2F (inactive)**; **hyperphosphorylated Rb releases E2F (active)**.\n- Order: mitogens → cyclin D–Cdk4/6 → partial Rb-P → cyclin E–Cdk2 → full Rb-P → E2F → S-phase genes.\n- The **restriction point** = commitment, achieved by the E2F/cyclin E positive-feedback loop.\n- DNA damage → ATM/ATR → **p53 → p21 → inhibits Cdk2/4/6** → G1 arrest.\n- Tumor suppressors lost in cancer: **Rb, p53, p16, p21**.",
+    "commonConfusions": "- **Rb is not a transcription factor**: It is a co-repressor/regulator that binds and inhibits E2F; E2F is the transcription factor.\n- **Phosphorylation state matters**: Rb is *active as a brake* when underphosphorylated and *inactive* when hyperphosphorylated — the opposite of what intuition might suggest.\n- **Restriction point vs. G1/S checkpoint**: The R point is a commitment threshold (mitogen-dependent); the G1/S checkpoint is a damage sensor (p53/p21) that can arrest the cycle at the boundary.\n- **p16 vs. p21**: Both inhibit CDKs (p16 → Cdk4/6; p21 → Cdk2/Cdk4/6), but p16 responds to oncogenic stress and p21 to DNA damage via p53.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine E2F as a construction crew eager to start building a new copy of the cell's DNA. Normally the foreman, Rb, sits on them and holds them back. When the cell gets enough \"go-ahead\" messages (growth factors), a first set of bosses (cyclin D–Cdk4/6) gives Rb a gentle nudge, and then a second set (cyclin E–Cdk2) shoves Rb off the crew completely. Now the crew starts building — and, crucially, they also shout for more of the second boss, so once they start, they can't easily be stopped. That tipping point is the restriction point. If the DNA looks broken, a safety inspector (p53) brings in a guard (p21) who stops the bosses, keeping Rb on the crew. The analogy's limit: Rb is a protein that physically blocks a transcription factor, and \"shouting for more boss\" is a real positive-feedback loop in gene expression.",
+    "quickReview": "- Mitogens → cyclin D–Cdk4/6 → Rb partial phosphorylation → cyclin E–Cdk2 → Rb hyperphosphorylation → E2F free → S-phase gene transcription → S phase.\n- Restriction point: positive-feedback switch (E2F → cyclin E → more Rb-P).\n- Brakes: p16 (Cdk4/6), p53→p21 (Cdk2/4/6); DNA tumor viruses disable Rb.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 17, \"The G1/S Transition.\""
+      },
+      {
+        "text": "Weinberg, R. A., \"The retinoblastoma protein and cell cycle control,\" *Cell* (1995)."
+      },
+      {
+        "text": "Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 19."
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"retinoblastoma protein (Rb),\" \"p53.\""
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Chapter 10, \"Control of the Cell Cycle.\""
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "g1-s-control",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "03-g1-s-control",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:9d6a4d4a300404fc"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:9d6a4d4a300404fc"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:9d6a4d4a300404fc"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:9d6a4d4a300404fc"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/07-cell-cycle-cell-death/03-g1-s-control.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# G1–S Control and the Restriction Point\n\n## Learning Goals\n\n- Describe how growth signals drive the G1/S transition.\n- Explain the Rb–E2F pathway and how cyclin D–Cdk4/6 and cyclin E–Cdk2 regulate it.\n- Define the restriction point and why it represents commitment.\n- Explain how DNA damage blocks the transition via p53 and p21.\n- Connect Rb and p53 loss to cancer.\n\n## Core Concept\n\nThe G1–S transition is the cell's main decision point: it commits the cell to a full round of division. The central molecular switch is the retinoblastoma protein (Rb), which in its underphosphorylated state binds and inhibits the E2F family of transcription factors. Mitogen-driven cyclin D–Cdk4/6 first phosphorylates Rb, and cyclin E–Cdk2 completes Rb hyperphosphorylation, releasing E2F to transcribe genes required for DNA synthesis. The point at which the cell no longer needs external growth signals to finish the cycle is the restriction point. DNA damage arrests this process through p53, which induces the CDK inhibitor p21.\n\n## Key Components\n\n- **Mitogens (growth factors)**: Drive cyclin D expression via Ras–MAPK and PI3K pathways.\n- **Cyclin D–Cdk4/6**: The mitogen sensor; initiates Rb phosphorylation.\n- **Rb (retinoblastoma protein)**: Pocket protein; binds and represses E2F.\n- **E2F**: Transcription factor family driving S-phase genes (DNA polymerases, cyclin E, cyclin A, etc.).\n- **Cyclin E–Cdk2**: Completes Rb hyperphosphorylation; also phosphorylates other replication targets.\n- **p16 (INK4a)**: Inhibits Cdk4/6 (activated by stress/oncogene signals).\n- **p53 and p21**: DNA-damage checkpoint — p53 induces p21, which inhibits Cdk2 and Cdk4/6.\n- **Restriction point (R point)**: Late-G1 commitment threshold.\n\n## Mechanism / How It Works\n\n1. **Mitogen input**: Growth factors activate Ras–MAPK and PI3K–Akt, raising cyclin D levels and stabilizing it. Cyclin D binds Cdk4/6.\n2. **Early Rb phosphorylation**: Cyclin D–Cdk4/6 phosphorylates Rb at specific sites, partially inactivating it (hypophosphorylation). This step is mitogen-dependent and reversible.\n3. **E2F release and positive feedback**: Partially released E2F transcribes cyclin E (and A). Cyclin E–Cdk2 then hyperphosphorylates Rb on additional sites, fully releasing E2F — a positive-feedback loop that makes the transition switch-like and, once engaged, independent of further mitogen signal. This is the molecular basis of the restriction point.\n4. **S-phase entry**: Freed E2F drives expression of replication machinery (ORC components, DNA polymerases, MCM helicases, cyclins E and A), committing the cell to replicate DNA.\n5. **Checkpoint brake**: If DNA is damaged, ATM/ATR activate p53, which induces p21. p21 inhibits cyclin E–Cdk2 (and cyclin D–Cdk4/6), keeping Rb active and E2F sequestered, arresting the cell in G1.\n\n## Energy and Directionality\n\nRb phosphorylation consumes ATP (by Cdk4/6 and Cdk2), and the E2F positive-feedback loop (cyclin E–Cdk2 hyperphosphorylating Rb → more E2F → more cyclin E) is the energetic/kinetic engine that makes the restriction point irreversible. Once the loop engages, the transcriptional program is self-sustaining, so the cell commits — this is why passing the R point is the point of no return for a division cycle. Reversal (e.g., by p21-mediated arrest) requires actively re-establishing the underphosphorylated Rb state.\n\n## Experimental Evidence / Technique\n\n- **Rb as tumor suppressor**: Retinoblastoma arises from biallelic RB1 inactivation — the two-hit model of Knudson. Loss of Rb releases E2F constitutively.\n- **DNA tumor viruses**: SV40 large T antigen, adenovirus E1A, and HPV E7 bind and inactivate Rb, forcing E2F activity — a direct demonstration that Rb is a brake on proliferation.\n- **Serum starvation/readdition**: Cells arrested in G0 by serum withdrawal re-enter G1 and pass the restriction point only after mitogen addition; after the R point, mitogen withdrawal no longer stops them.\n- **Rb phospho-specific antibodies**: Track the progressive phosphorylation (hypo- vs. hyperphosphorylated Rb) through G1.\n- **p21/p16 knockouts and CDK4/6 inhibitors**: Show that blocking Cdk4/6 prevents Rb phosphorylation and arrests cells in G1.\n\n## Why It Matters\n\nDeregulation of the Rb pathway is nearly universal in cancer — through Rb loss, cyclin D/CDK4 amplification, p16 loss, or E2F activation. HPV's oncoproteins (E7) act by disabling Rb, linking viral infection to cervical cancer. p53 loss or mutation removes the p21 brake, letting damaged cells proceed into S phase and accumulate mutations. Clinically, CDK4/6 inhibitors exploit this axis to halt hormone-receptor-positive breast cancers, and p53/Rb status guides prognosis across many tumor types.\n\n## High-Yield Facts\n\n- **Hypophosphorylated Rb binds E2F (inactive)**; **hyperphosphorylated Rb releases E2F (active)**.\n- Order: mitogens → cyclin D–Cdk4/6 → partial Rb-P → cyclin E–Cdk2 → full Rb-P → E2F → S-phase genes.\n- The **restriction point** = commitment, achieved by the E2F/cyclin E positive-feedback loop.\n- DNA damage → ATM/ATR → **p53 → p21 → inhibits Cdk2/4/6** → G1 arrest.\n- Tumor suppressors lost in cancer: **Rb, p53, p16, p21**.\n\n## Eli Explains\n\nImagine E2F as a construction crew eager to start building a new copy of the cell's DNA. Normally the foreman, Rb, sits on them and holds them back. When the cell gets enough \"go-ahead\" messages (growth factors), a first set of bosses (cyclin D–Cdk4/6) gives Rb a gentle nudge, and then a second set (cyclin E–Cdk2) shoves Rb off the crew completely. Now the crew starts building — and, crucially, they also shout for more of the second boss, so once they start, they can't easily be stopped. That tipping point is the restriction point. If the DNA looks broken, a safety inspector (p53) brings in a guard (p21) who stops the bosses, keeping Rb on the crew. The analogy's limit: Rb is a protein that physically blocks a transcription factor, and \"shouting for more boss\" is a real positive-feedback loop in gene expression.\n\n## Common Confusions\n\n- **Rb is not a transcription factor**: It is a co-repressor/regulator that binds and inhibits E2F; E2F is the transcription factor.\n- **Phosphorylation state matters**: Rb is *active as a brake* when underphosphorylated and *inactive* when hyperphosphorylated — the opposite of what intuition might suggest.\n- **Restriction point vs. G1/S checkpoint**: The R point is a commitment threshold (mitogen-dependent); the G1/S checkpoint is a damage sensor (p53/p21) that can arrest the cycle at the boundary.\n- **p16 vs. p21**: Both inhibit CDKs (p16 → Cdk4/6; p21 → Cdk2/Cdk4/6), but p16 responds to oncogenic stress and p21 to DNA damage via p53.\n\n## Quick Review\n\n- Mitogens → cyclin D–Cdk4/6 → Rb partial phosphorylation → cyclin E–Cdk2 → Rb hyperphosphorylation → E2F free → S-phase gene transcription → S phase.\n- Restriction point: positive-feedback switch (E2F → cyclin E → more Rb-P).\n- Brakes: p16 (Cdk4/6), p53→p21 (Cdk2/4/6); DNA tumor viruses disable Rb.\n\n## Sources\n\n- Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 17, \"The G1/S Transition.\"\n- Weinberg, R. A., \"The retinoblastoma protein and cell cycle control,\" *Cell* (1995).\n- Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 19.\n- NCI Dictionary of Cancer Terms, \"retinoblastoma protein (Rb),\" \"p53.\"\n- OpenStax, *Biology 2e*, Chapter 10, \"Control of the Cell Cycle.\"\n"
+}

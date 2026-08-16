@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-expression-transcription-0003",
+  "subject": "genetics",
+  "lesson": "gene-expression-transcription",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** sequence-analysis The coding strand of a bacterial gene reads Coding strand 5' ATG GCA TAA 3'. What is the sequence of the RNA transcript, including its polarity?",
+  "options": [
+    {
+      "id": "a",
+      "text": "5' TAC CGT ATT 3'"
+    },
+    {
+      "id": "b",
+      "text": "5' UAC CGU AUU 3'"
+    },
+    {
+      "id": "c",
+      "text": "5' AUG GCA UAA 3'"
+    },
+    {
+      "id": "d",
+      "text": "5' ATG GCA TAA 3'"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "The RNA transcript is identical to the coding strand with T replaced by U, so coding strand 5' ATG GCA TAA 3' is transcribed as 5' AUG GCA UAA 3', which ends at the stop codon UAA. A shows the template strand written with T, which is what RNA polymerase reads rather than the RNA it makes. B is the RNA complementary to the coding strand, the product of copying the wrong strand. D keeps T in the message, forgetting that RNA uses uracil in place of thymine.",
+  "difficulty": "unknown",
+  "tags": [
+    "transcribing",
+    "coding",
+    "strand"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-d70bead5ed76165d",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

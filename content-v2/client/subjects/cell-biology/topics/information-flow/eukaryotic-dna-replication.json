@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:information-flow:eukaryotic-dna-replication",
+  "slug": "eukaryotic-dna-replication",
+  "title": "Eukaryotic DNA Replication",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:information-flow",
+    "slug": "information-flow",
+    "title": "Information Flow",
+    "order": 10
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "Eukaryotic DNA replication copies the entire genome once per cell cycle with extraordinary fidelity. It is semiconservative — each daughter duplex retains one parental strand — and initiates at many origins, each firing bidirectionally. Replication is catalyzed by three DNA polymerases (α, δ, and ε) that all synthesize 5′→3′, requiring a primer. Because the two template strands are antiparallel, one strand (leading) is synthesized continuously while the other (lagging) is made as discontinuous Okazaki fragments that are later joined by DNA ligase. The origin recognition complex (ORC), helicase, and telomerase are eukaryotic-specific cornerstones.",
+    "whyItMatters": "Faithful duplication is essential for genome stability: replication stress and errors drive mutations, cancer, and aging. The once-per-cycle licensing (ORC/MCM) prevents re-replication, and pol α/δ/ε plus ligase ensure both strands are completed. Telomerase is up-regulated in most cancers and deficient in some premature-aging (dyskeratosis congenita) syndromes, while many chemotherapeutics (e.g., nucleotide analogs) act by disrupting replication.",
+    "learningObjectives": "- List the key enzymes and proteins of eukaryotic DNA replication and their roles.\n- Explain why replication is semiconservative and bidirectional, and describe origins of replication.\n- Trace the synthesis of leading and lagging strands, including Okazaki fragments and ligation.\n- Describe how telomerase solves the end-replication problem.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nEukaryotic DNA replication copies the entire genome once per cell cycle with extraordinary fidelity. It is semiconservative — each daughter duplex retains one parental strand — and initiates at many origins, each firing bidirectionally. Replication is catalyzed by three DNA polymerases (α, δ, and ε) that all synthesize 5′→3′, requiring a primer. Because the two template strands are antiparallel, one strand (leading) is synthesized continuously while the other (lagging) is made as discontinuous Okazaki fragments that are later joined by DNA ligase. The origin recognition complex (ORC), helicase, and telomerase are eukaryotic-specific cornerstones.\n\n### Key Components\n\n- **Origin recognition complex (ORC)** — marks replication origins and recruits the pre-replication complex.\n- **MCM helicase** — unwinds the double helix ahead of the replication fork using ATP.\n- **DNA polymerase α/primase** — lays down a short RNA primer plus a short stretch of DNA to initiate each fragment.\n- **DNA polymerase ε** — main leading-strand polymerase; **DNA polymerase δ** — main lagging-strand polymerase (both highly processive and with 3′→5′ proofreading).\n- **Replication protein A (RPA)** — stabilizes single-stranded template.\n- **PCNA** — sliding clamp that tethers pol δ/ε for processivity.\n- **DNA ligase** — seals nicks between Okazaki fragments.\n- **Telomerase** — reverse transcriptase that extends telomeres using an internal RNA template.\n\n### Mechanism\n\nReplication begins at licensed origins, where the MCM helicase unwinds DNA to form a replication fork. Each polymerase adds nucleotides to a 3′-OH, so synthesis is always 5′→3′. On the leading strand this proceeds continuously toward the fork; on the lagging strand, primase repeatedly primes short segments that pol δ extends into ~100–200-nt Okazaki fragments. The primers are removed and replaced with DNA, and ligase seals the remaining nicks. Proofreading exonucleases and the later mismatch repair system drive the overall error rate down to roughly one mistake per 10⁹–10¹⁰ bases.\n\n### How It Works\n\n1. ORC binds an origin and loads the MCM helicase (licensing) during G1.\n2. At S-phase onset, activated MCM unwinds DNA bidirectionally; RPA coats the single strands.\n3. Pol α/primase synthesizes a short RNA primer on each template.\n4. Pol ε extends the leading strand continuously; pol δ extends lagging-strand fragments from each primer.\n5. Primers are excised, gaps filled with DNA, and ligase joins fragments into a continuous strand.\n6. The fork advances until the entire region is replicated; because lagging-strand ends lose terminal RNA primers, telomeres shorten slightly each round.\n7. Telomerase extends the 3′ overhang of the parental strand, allowing the lagging strand to be completed and preserving chromosome ends (active in germ and stem cells).\n\n### Energy and Directionality\n\nThe chemistry is powered by the incoming deoxynucleoside triphosphates: hydrolysis of their high-energy phosphoanhydride bonds (to dNMP + pyrophosphate) drives phosphodiester-bond formation, making chain elongation thermodynamically favorable. Synthesis proceeds strictly 5′→3′ (new nucleotides add to the 3′-OH). Unwinding by MCM and helicase, and clamp loading by RFC, consume ATP, while topoisomerases ahead of the fork relieve torsional stress. Directionality and proofreading (3′→5′ exonuclease) combine to make replication highly accurate and effectively unidirectional in reading the template.\n\n### Experimental Evidence\n\n- **Meselson–Stahl experiment (1958)** — density-gradient centrifugation with ¹⁵N/¹⁴N labeling proved replication is semiconservative.\n- **Okazaki's pulse-labeling** — short, newly synthesized DNA fragments (Okazaki fragments) demonstrated discontinuous lagging-strand synthesis.\n- **Origin mapping** — two-dimensional gel electrophoresis and nascent-strand sequencing identified many discrete replication origins.\n- **Telomere studies** — Blackburn and colleagues discovered telomerase activity, showing how telomeres are maintained (Nobel Prize 2009).\n- **In vitro reconstitution** — purified ORC, MCM, polymerases, and clamps reproduce origin-dependent replication, assigning roles to each factor.\n\n### Technique\n\n**Density-gradient centrifugation** (Meselson–Stahl), **pulse-chase labeling with nucleotide analogs (BrdU/EdU)** to track fork progression, **DNA fiber analysis** to measure fork speed and origin spacing, **Okazaki fragment analysis**, and **telomerase activity assays (TRAP)** are standard. Replication origins are mapped by **nascent-strand sequencing** and **Repli-seq**.",
+    "howItWorks": "1. ORC binds an origin and loads the MCM helicase (licensing) during G1.\n2. At S-phase onset, activated MCM unwinds DNA bidirectionally; RPA coats the single strands.\n3. Pol α/primase synthesizes a short RNA primer on each template.\n4. Pol ε extends the leading strand continuously; pol δ extends lagging-strand fragments from each primer.\n5. Primers are excised, gaps filled with DNA, and ligase joins fragments into a continuous strand.\n6. The fork advances until the entire region is replicated; because lagging-strand ends lose terminal RNA primers, telomeres shorten slightly each round.\n7. Telomerase extends the 3′ overhang of the parental strand, allowing the lagging strand to be completed and preserving chromosome ends (active in germ and stem cells).",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Replication is semiconservative and bidirectional from multiple origins.\n- All DNA polymerases synthesize 5′→3′; they require a 3′-OH primer.\n- Pol α/primase = initiator; pol ε = leading; pol δ = lagging.\n- Lagging strand = discontinuous Okazaki fragments joined by ligase.\n- ORC licenses origins; MCM is the replicative helicase.\n- PCNA = sliding clamp; RPA = ssDNA-binding protein.\n- Proofreading (3′→5′ exonuclease) lowers error rate ~100-fold before mismatch repair.\n- Telomerase is a reverse transcriptase with an internal RNA template.",
+    "commonConfusions": "- **\"Both strands are synthesized continuously\"** — only the leading strand is; the lagging strand is made as Okazaki fragments.\n- **\"DNA polymerase can start a new strand\"** — it cannot; it requires a 3′-OH primer provided by primase.\n- **\"One polymerase does everything\"** — eukaryotes use pol α (priming), pol ε (leading), and pol δ (lagging).\n- **\"Telomerase adds DNA randomly\"** — it is a reverse transcriptase extending the 3′ overhang using its own RNA template, repeating a specific sequence.\n- **\"Replication error = final error\"** — proofreading and mismatch repair correct most mistakes after synthesis.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nCopying DNA is like making a copy of a zipper. The zipper is unzipped down the middle, and each half gets a new matching half built onto it — so every new zipper keeps one original side. One side is easy to zip up in one long motion (leading strand); the other side has to be built in short backward stretches (Okazaki fragments) because the zipper teeth only snap on in one direction, then those stretches are glued together. The end caps of the zipper (telomeres) would wear away with each copy, so a special machine (telomerase) rebuilds them. (The analogy's limit: real copying is powered by the energy of nucleotide building blocks and checked for errors by proofreading, which a zipper can't do.)",
+    "quickReview": "- Semiconservative, bidirectional replication from many origins.\n- ORC → MCM helicase → primase/pol α priming → pol ε (leading) / pol δ (lagging).\n- Okazaki fragments are joined by ligase; PCNA clamp and RPA assist.\n- 5′→3′ synthesis driven by dNTP hydrolysis; proofreading raises fidelity.\n- Telomerase (reverse transcriptase) maintains telomeres.\n- Meselson–Stahl and Okazaki experiments defined the mechanism.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"14.5 DNA Replication in Eukaryotes.\" https://openstax.org/books/biology-2e/pages/14-5-dna-replication-in-eukaryotes",
+        "url": "https://openstax.org/books/biology-2e/pages/14-5-dna-replication-in-eukaryotes"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"14.3 Basics of DNA Replication.\" https://openstax.org/books/biology-2e/pages/14-3-basics-of-dna-replication",
+        "url": "https://openstax.org/books/biology-2e/pages/14-3-basics-of-dna-replication"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"DNA Replication Mechanisms.\" https://www.ncbi.nlm.nih.gov/books/NBK26850/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+      },
+      {
+        "text": "National Human Genome Research Institute, \"DNA Replication.\" https://www.genome.gov/genetics-glossary/DNA-Replication",
+        "url": "https://www.genome.gov/genetics-glossary/DNA-Replication"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"14.4 DNA Replication in Prokaryotes.\" https://openstax.org/books/biology-2e/pages/14-4-dna-replication-in-prokaryotes",
+        "url": "https://openstax.org/books/biology-2e/pages/14-4-dna-replication-in-prokaryotes"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/10-information-flow/04-eukaryotic-dna-replication.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

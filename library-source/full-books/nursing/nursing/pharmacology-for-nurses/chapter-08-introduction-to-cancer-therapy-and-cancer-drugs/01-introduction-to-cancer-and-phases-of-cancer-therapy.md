@@ -1,0 +1,141 @@
+---
+title: "Introduction to Cancer and Phases of Cancer Therapy"
+subject: "Nursing"
+book: "Pharmacology for Nurses"
+chapter: "8: Introduction to Cancer Therapy and Cancer Drugs"
+topic_number: "1"
+source: "pharmacology.md"
+tags:
+  - "introduction-to-cancer-and-phases-of-cancer-therapy"
+  - "nursing"
+status: "complete"
+---
+
+# Introduction to Cancer and Phases of Cancer Therapy
+
+> **Book:** [Pharmacology for Nurses](../../README.md)  
+> **Chapter:** [Chapter 8: Introduction to Cancer Therapy and Cancer Drugs](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Cancer is not one disease but a large family of diseases defined by a common failure: **cells that divide and grow without the normal brakes**. In healthy tissue, cell division is tightly controlled — cells replicate when needed, repair damage, and die on schedule through **apoptosis** (programmed cell death). In cancer, mutations accumulate in genes that promote growth (**oncogenes**) or restrain it (**tumor suppressor genes**), and the abnormal cells escape those controls. The result is a **malignant tumor**: a mass of cells that invades nearby tissue and can spread (**metastasize**) through the blood or lymph.
+
+Tumors are named by their tissue of origin: **carcinomas** arise from epithelial tissue (skin, organ linings), **sarcomas** from connective tissue (bone, muscle, fat), **leukemias** and **lymphomas** from blood-forming and lymphatic tissue. A key distinction is **benign vs. malignant**: benign tumors grow locally and do not invade or metastasize (though they can press on structures); malignant tumors invade and spread. **Staging** describes how far a cancer has spread (tumor, nodes, metastasis — TNM); **grading** describes how abnormal the cells look — a proxy for aggressiveness.
+
+Cancer therapy is rarely a single event. It is a **sequence of phases** — often surgery, then systemic therapy, with radiation layered in — and the phase determines the goal: eliminate detectable disease, prevent recurrence, or control symptoms. The drug classes in this chapter are best understood against this framework: each attacks cancer at a different level, and the phases explain *when* each is used.
+
+## Why This Matters
+
+Cancer is among the leading causes of death worldwide, and virtually every nurse — in oncology units, medical-surgical floors, primary care, and community health — cares for people affected by it. Understanding the disease and phases matters because **the nurse's role changes with the phase**: during curative treatment, the focus is delivering therapy safely and managing side effects; during maintenance, adherence and surveillance; during palliative care, symptom control and quality of life. It also matters because **cancer drugs are hazardous to handle** — safe handling (gloves, gowns, disposal, spill protocols) is a nursing safety duty. On exams, the foundations tested here — benign vs. malignant, staging vs. grading, the cell cycle, combination therapy — reappear in every drug-specific topic that follows. Cancer care is also emotionally intense; person-first language and honest communication are as important as any drug knowledge.
+
+## Core Concepts
+
+### The cell cycle: why cancer drugs target dividing cells
+
+Cells reproduce through a cycle: **G1** (preparation), **S** (DNA synthesis), **G2** (preparation for division), and **M** (mitosis); between cycles, cells may enter **G0**, a resting state. Most chemotherapy drugs damage DNA or the machinery of division, so they work best on actively cycling cells — which is why rapidly dividing tumors respond better, and why normal tissues with fast turnover (bone marrow, hair follicles, GI lining, oral mucosa) suffer the classic side effects: myelosuppression, hair loss, mucositis, nausea. The cycle also explains **combination chemotherapy**: drugs acting on different phases kill more tumor cells and reduce the chance a resistant subpopulation survives.
+
+### Hallmarks of cancer
+
+Modern oncology describes cancer by acquired capabilities: sustaining growth signals, ignoring growth-suppression signals, resisting apoptosis, enabling unlimited replication, building a blood supply (**angiogenesis**), and invading and metastasizing. Each hallmark is a potential drug target — angiogenesis inhibitors block blood-vessel growth; **immunotherapy** restores the immune system's ability to see and kill cancer cells. This bridges to the later topics on chemotherapeutic drugs and biologic response modifiers.
+
+### The phases of cancer therapy
+
+Cancer treatment is planned in phases, though the sequence varies by cancer type and stage:
+
+- **Primary/curative therapy** aims to eliminate the cancer: **surgery** removes the tumor; **radiation** kills local cancer cells; **systemic therapy** (chemotherapy, targeted, hormonal, immunotherapy) reaches cancer anywhere.
+- **Adjuvant therapy** is given *after* primary treatment to eliminate microscopic residual disease (e.g., chemotherapy after breast surgery). The goal is preventing recurrence.
+- **Neoadjuvant therapy** is given *before* primary treatment to shrink a tumor — making surgery easier.
+- **Maintenance therapy** is long-term, lower-intensity treatment to keep cancer from returning or progressing.
+- **Palliative therapy** aims to control symptoms and improve quality of life when cure is no longer the goal — usable at any stage.
+
+The phases are not a rigid ladder — a person might receive neoadjuvant chemo, surgery, adjuvant radiation, then maintenance hormonal therapy. The nurse helps the person understand which phase they are in and what it means for goals and side effects.
+
+### Goals, response, and the multidisciplinary team
+
+Treatment goals are described as **remission** (no detectable disease) or **cure** vs. **control**. Decisions are made by a multidisciplinary team — surgeons, oncologists, pharmacists, nurses, social workers — driven by cancer type, stage, grade, biomarkers, and the person's health and preferences. Nursing contributes assessment, education, symptom management, and safe drug handling; scope of practice varies by jurisdiction and institution.
+
+## ELI-10: Explain Like I'm 10
+
+Your body is made of tiny cells that follow rules: they divide when needed and stop when told. Cancer is when some cells break the rules and keep dividing into a crowd that pushes into other places. Doctors fight the crowd in steps: cut it out, then send in medicines that hurt the rule-breaking cells (and also fast-growing normal cells like hair — which is why hair falls out). The goal changes with the step: get rid of every last cell, or keep the crowd small so you feel well.
+
+## High-Yield Points
+
+- **Cancer = loss of growth control:** oncogenes push growth; tumor suppressors restrain it.
+- **Malignant ≠ benign:** malignant tumors invade and metastasize; benign grow locally.
+- **Staging vs. grading:** staging = how far it has spread (TNM); grading = how abnormal the cells look.
+- **The cell cycle (G1–S–G2–M, G0)** explains why chemo targets dividing cells and why fast-turnover normal tissues get the classic side effects.
+- **Combination chemotherapy** attacks different phases/targets to kill more cells and limit resistance.
+- **Phases of therapy:** primary/curative, adjuvant (after, prevent recurrence), neoadjuvant (before, shrink), maintenance (long-term control), palliative (quality of life).
+- **Cancer drugs are hazardous drugs:** safe handling is a core nursing safety duty.
+- **Side effects are mechanism-driven:** myelosuppression, hair loss, mucositis, nausea reflect damage to fast-dividing normal cells.
+- **Person-first, honest communication** is central to cancer nursing in every phase.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Oncogene | A gene that promotes cell growth; overactive in cancer | Many cancer drugs target its proteins |
+| Apoptosis | Programmed cell death — the normal self-destruct of damaged cells | Cancer cells evade it; therapies restore it |
+| Metastasis | Spread of cancer to distant organs via blood or lymph | The lethal feature; drives staging |
+| Carcinoma / sarcoma | Epithelial-tissue cancer / connective-tissue cancer | Naming tells tissue of origin, guiding treatment |
+| Staging (TNM) | Describes tumor size, nodes, metastasis | Determines prognosis and treatment |
+| Grading | How abnormal the cancer cells look | A measure of aggressiveness |
+| Cell cycle (G1, S, G2, M, G0) | The phases a cell passes through to divide | Explains how chemotherapy works and its side effects |
+| Adjuvant / neoadjuvant therapy | After primary therapy (prevent recurrence) / before (shrink the tumor) | The "when" of systemic therapy — exam distinction |
+| Myelosuppression | Suppression of bone marrow blood-cell production | Common dangerous chemo side effect — drives blood-count checks |
+
+## Example: One Person, Four Phases
+
+A 58-year-old person notices a breast lump. Imaging and biopsy confirm invasive breast cancer with hormone receptors. The team plans neoadjuvant chemotherapy first — the tumor is large, and shrinking it before surgery improves the surgical outcome. During this phase, the oncology nurse's work is intense: safe handling of the hazardous infusion, premedication for nausea, monitoring blood counts between cycles (the person develops neutropenia and needs teaching about fever precautions), and helping with fatigue and hair loss. The tumor shrinks, and surgery follows; pathology shows clear margins but microscopic risk remains, so the person receives adjuvant radiation and then begins maintenance hormonal therapy for years. The nurse's role shifts: adherence, managing side effects, scheduling surveillance mammograms, and — when the person says they are "tired of being a patient" — listening and connecting them with survivorship support. The same diagnosis, the same person, four different phases, each with different drugs and nursing priorities: that is why this topic matters.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Benign tumor | Malignant tumor | Benign grows locally; malignant invades and metastasizes |
+| Staging | Grading | Staging = how far it has spread; grading = how abnormal the cells look |
+| Adjuvant therapy | Neoadjuvant therapy | Adjuvant is after primary treatment; neoadjuvant is before |
+| Palliative therapy | End-of-life care only | Palliative care is symptom control and quality of life at any stage — it can accompany curative treatment |
+| Chemotherapy | Cancer therapy | Chemotherapy is one modality; surgery, radiation, hormonal, targeted, and immunotherapy are others |
+| Remission | Cure | Remission = no detectable disease; cure is only declared over time |
+| "Cancer is one disease" | Cancer is many diseases | Each type has different biology and treatment |
+
+## Quick Review
+
+1. What is the fundamental difference between a benign and a malignant tumor?
+2. What is the difference between staging and grading, and why do both matter?
+3. Name the phases of the cell cycle and explain why most chemotherapy drugs work best on actively dividing cells.
+4. What is the difference between adjuvant and neoadjuvant therapy, with an example of each?
+5. Why is combination chemotherapy used instead of one drug at a time?
+6. Why do chemotherapy side effects (hair loss, low blood counts, mouth sores) hit exactly the tissues they do?
+
+<details>
+<summary>Show answers</summary>
+
+1. Benign tumors grow locally, are usually contained, and do not invade or spread. Malignant tumors invade nearby tissue and can metastasize through blood or lymph — the property that makes cancer dangerous and drives staging.
+2. Staging describes how far the cancer has spread (TNM); grading describes how abnormal the cells look. Together they guide prognosis and treatment.
+3. G1 (preparation), S (DNA synthesis), G2 (preparation for division), M (mitosis), with G0 as a resting state. Chemotherapy damages DNA or division machinery, so it works best on cells moving through the cycle.
+4. Adjuvant therapy comes after primary treatment (e.g., chemotherapy after breast surgery) to eliminate microscopic residual disease. Neoadjuvant therapy comes before (e.g., chemotherapy before surgery) to shrink the tumor.
+5. Tumors contain heterogeneous cells, and a single drug leaves resistant subpopulations behind. Combining drugs that act on different phases or targets kills more cells and limits resistance.
+6. Those normal tissues (bone marrow, hair follicles, GI lining, oral mucosa) have the fastest cell turnover — collateral damage for drugs that target dividing cells.
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter
+- Next: [Chemotherapeutic Drugs](02-chemotherapeutic-drugs.md)
+- Related: [Hormonal Therapy](03-hormonal-therapy.md)
+- Related: [Biologic Response Modifiers](04-biologic-response-modifiers.md)
+- Related: [Introduction to Cancer Therapy and Cancer Drugs chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Pharmacology for Nurses
+- Local outline source: `pharmacology.md`
+- Official source URL: https://openstax.org/details/books/pharmacology/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: Educational draft only — drug classes and mechanisms are described; no doses, schedules, or treatment recommendations are provided. Staging criteria, treatment plans, and protocols vary by cancer type, guideline, jurisdiction, and institution — always verify against current references, the formulary, and prescriber orders, and follow institutional hazardous-drug handling policies.
+- Last updated: 2026-08-15

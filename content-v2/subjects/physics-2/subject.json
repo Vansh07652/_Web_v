@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:physics-2",
+    "slug": "physics-2",
+    "title": "Physics II",
+    "aliases": [
+      {
+        "value": "physics-2",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "phys2",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "PHYS2",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "physics ii",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "physics_2",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "physics2",
+        "kind": "current_web_slug",
+        "source_id": "current_web"
+      }
+    ],
+    "status": "final",
+    "category": "pre-health-core"
+  },
+  "units": [
+    {
+      "id": "unit:physics-2:course-topics",
+      "slug": "course-topics",
+      "title": "Course Topics",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "course-topics",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "physics-2",
+          "kind": "source_course_directory",
+          "source_id": "physics_eli10"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:physics-2:course-topics:electrostatics",
+          "slug": "electrostatics",
+          "title": "Electrostatics",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-2/topics/course-topics/electrostatics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:physics-2:course-topics:capacitance-dc-circuits",
+          "slug": "capacitance-dc-circuits",
+          "title": "Capacitance and DC Circuits",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-2/topics/course-topics/capacitance-dc-circuits.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:physics-2:course-topics:magnetism",
+          "slug": "magnetism",
+          "title": "Magnetism",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-2/topics/course-topics/magnetism.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:physics-2:course-topics:induction-ac-circuits",
+          "slug": "induction-ac-circuits",
+          "title": "Electromagnetic Induction and AC Circuits",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-2/topics/course-topics/induction-ac-circuits.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:physics-2:course-topics:electromagnetic-waves",
+          "slug": "electromagnetic-waves",
+          "title": "Electromagnetic Waves",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-2/topics/course-topics/electromagnetic-waves.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:physics-2:course-topics:optics",
+          "slug": "optics",
+          "title": "Geometric and Physical Optics",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-2/topics/course-topics/optics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:physics-2:course-topics:modern-physics",
+          "slug": "modern-physics",
+          "title": "Modern Physics — Relativity and Quantum Mechanics",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/physics-2/topics/course-topics/modern-physics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": true,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 1,
+    "topicCount": 7,
+    "teachingTopicCount": 7,
+    "eli10TopicCount": 7,
+    "highYieldTopicCount": 0,
+    "referencedTopicCount": 7,
+    "exactOrMappedQuestionCount": 0,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 0,
+    "citationReviewRequiredCount": 0
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

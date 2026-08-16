@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-cycle-cell-death:cyclins-and-cdks",
+  "slug": "cyclins-and-cdks",
+  "title": "Cyclins and Cyclin-Dependent Kinases (CDKs)",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-cycle-cell-death",
+    "slug": "cell-cycle-cell-death",
+    "title": "Cell Cycle Cell Death",
+    "order": 7
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "Cyclin-dependent kinases (CDKs) are the engines of the cell cycle. A CDK is catalytically active only when bound to its regulatory partner, a cyclin. Cyclin levels oscillate — synthesized in one phase, destroyed in the next — so different cyclin–CDK complexes peak at different times and drive the appropriate phase transitions. CDK activity is further gated by phosphorylation (activating and inhibitory) and by CDK inhibitor proteins. The periodic, regulated destruction of cyclins by ubiquitin ligases (SCF and APC/C) makes progression unidirectional.",
+    "whyItMatters": "The cyclin–CDK system is the master oscillator of proliferation. Its misregulation is universal in cancer: overexpression of cyclin D (e.g., via translocation in mantle-cell lymphoma), loss of the CKI p16 or p27, and mutation of Rb or CDK4 all drive unchecked division. This has made CDKs direct drug targets — CDK4/6 inhibitors (palbociclib, ribociclib, abemaciclib) are standard therapy for hormone-receptor-positive breast cancer. Understanding the timing of each cyclin also explains why some chemotherapies preferentially kill rapidly cycling cells.",
+    "learningObjectives": "- Describe the structure and function of CDKs and their cyclin partners.\n- Explain how cyclin concentration fluctuates through the cell cycle.\n- Describe how CDK activity is regulated by phosphorylation (Wee1/CAK/Cdc25) and by inhibitors (CKIs).\n- Explain how cyclin degradation (APC/C, SCF) makes the cycle irreversible.\n- Relate the four major cyclin–CDK complexes to their cell-cycle phases.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nCyclin-dependent kinases (CDKs) are the engines of the cell cycle. A CDK is catalytically active only when bound to its regulatory partner, a cyclin. Cyclin levels oscillate — synthesized in one phase, destroyed in the next — so different cyclin–CDK complexes peak at different times and drive the appropriate phase transitions. CDK activity is further gated by phosphorylation (activating and inhibitory) and by CDK inhibitor proteins. The periodic, regulated destruction of cyclins by ubiquitin ligases (SCF and APC/C) makes progression unidirectional.\n\n### Key Components\n\n- **CDKs**: Ser/Thr kinases (Cdk1, Cdk2, Cdk4, Cdk6 in mammals). CDK protein levels are fairly constant.\n- **Cyclins**: Regulatory subunits whose levels oscillate (cyclins D, E, A, B).\n- **Cyclin–CDK complexes**: G1: cyclin D–Cdk4/6; G1/S: cyclin E–Cdk2; S: cyclin A–Cdk2; M: cyclin B–Cdk1.\n- **CAK**: CDK-activating kinase, phosphorylates the T-loop (activating).\n- **Wee1/Myt1**: Kinases that add inhibitory phosphates (Thr14/Tyr15).\n- **Cdc25**: Phosphatase that removes the inhibitory phosphates (activating).\n- **CKIs**: CDK inhibitors — INK4 family (p16) inhibit Cdk4/6; Cip/Kip family (p21, p27) inhibit broader CDKs.\n- **Ubiquitin ligases**: SCF (targets G1/S cyclins) and APC/C (targets M-phase cyclins and securin).\n\n### Mechanism / How It Works\n\n1. **Synthesis**: Cyclin genes are transcribed in response to growth signals (cyclin D) or prior CDK activity (cyclins E, A, B). Newly made cyclin binds its CDK partner.\n2. **Activation by phosphorylation**: CAK phosphorylates the CDK's activation loop (T-loop), which is necessary for activity.\n3. **Inhibition by phosphorylation**: Wee1 and Myt1 phosphorylate conserved inhibitory sites (Thr14/Tyr15) near the active site, holding the complex inactive — a \"primed but braked\" state.\n4. **Activation by dephosphorylation**: The phosphatase Cdc25 removes those inhibitory phosphates, abruptly activating the complex.\n5. **Phase-specific action**: Each complex phosphorylates substrates that trigger the events of its phase (e.g., cyclin E–Cdk2 phosphorylates Rb and initiates S phase; cyclin B–Cdk1 phosphorylates lamins, condensin, and spindle proteins to drive mitosis).\n6. **Destruction**: At the end of its phase, the cyclin is polyubiquitinated — G1/S cyclins by the SCF complex (often after phosphorylation of the cyclin), mitotic cyclins by the APC/C — and degraded by the proteasome. CDK activity collapses, driving exit from that phase and allowing the next cyclin to take over.\n\n### Energy and Directionality\n\nCyclin synthesis requires ATP and GTP (transcription and translation); CDK phosphorylation consumes ATP; and cyclin destruction requires ATP at two steps — ubiquitin activation (E1) and proteasomal degradation. Directionality is built into this design: once a cyclin is destroyed, the associated CDK activity can be restored only by synthesizing fresh cyclin, so the cell cannot slide backward. The mitotic \"clock\" is therefore a ratchet: synthesis turns a phase on, destruction commits the cell to move forward.\n\n### Experimental Evidence / Technique\n\n- **Discovery in sea urchins and frogs**: Tim Hunt identified cyclins as proteins that accumulate in interphase and vanish abruptly at mitosis (Nobel Prize, 2001); Paul Nurse and Leland Hartwell identified Cdc2/Cdk1 and its role in the cycle.\n- **Xenopus egg extracts**: Adding non-degradable cyclin B (missing its destruction box) arrests extracts in mitosis, proving cyclin destruction is required for mitotic exit.\n- **Temperature-sensitive cdc mutants** in yeast map the essential CDK and cyclin genes.\n- **Western blots across a synchronized population** show the characteristic oscillation of each cyclin's abundance.\n- **Kinase assays** with histone H1 as substrate measure Cdk1 activity directly.",
+    "howItWorks": "1. **Synthesis**: Cyclin genes are transcribed in response to growth signals (cyclin D) or prior CDK activity (cyclins E, A, B). Newly made cyclin binds its CDK partner.\n2. **Activation by phosphorylation**: CAK phosphorylates the CDK's activation loop (T-loop), which is necessary for activity.\n3. **Inhibition by phosphorylation**: Wee1 and Myt1 phosphorylate conserved inhibitory sites (Thr14/Tyr15) near the active site, holding the complex inactive — a \"primed but braked\" state.\n4. **Activation by dephosphorylation**: The phosphatase Cdc25 removes those inhibitory phosphates, abruptly activating the complex.\n5. **Phase-specific action**: Each complex phosphorylates substrates that trigger the events of its phase (e.g., cyclin E–Cdk2 phosphorylates Rb and initiates S phase; cyclin B–Cdk1 phosphorylates lamins, condensin, and spindle proteins to drive mitosis).\n6. **Destruction**: At the end of its phase, the cyclin is polyubiquitinated — G1/S cyclins by the SCF complex (often after phosphorylation of the cyclin), mitotic cyclins by the APC/C — and degraded by the proteasome. CDK activity collapses, driving exit from that phase and allowing the next cyclin to take over.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- CDKs are **inactive alone**; cyclin binding is required (hence \"cyclin-dependent\").\n- Pairings: **D–Cdk4/6** (G1), **E–Cdk2** (G1/S), **A–Cdk2** (S), **B–Cdk1** (M).\n- **Wee1** adds inhibitory phosphates (Thr14/Tyr15); **Cdc25** removes them; **CAK** adds the activating T-loop phosphate.\n- **SCF** degrades G1/S cyclins; **APC/C** degrades mitotic cyclins and securin.\n- CKIs: **p16 (INK4)** and **p21/p27 (Cip/Kip)**.",
+    "commonConfusions": "- **Cyclin vs. CDK**: Cyclins oscillate and regulate; CDKs are the constant catalytic subunits. Cyclins do not have kinase activity alone.\n- **Activating vs. inhibitory phosphorylation**: CAK's T-loop phosphate activates; Wee1's Thr14/Tyr15 phosphates inhibit. Both are on the same CDK but have opposite effects.\n- **SCF vs. APC/C**: Both are ubiquitin ligases but target different substrates at different phases (SCF mainly G1/S; APC/C mainly M exit).\n- **Cdk2 vs. Cdk1**: Cdk2 pairs with cyclins E and A (G1/S and S); Cdk1 pairs with cyclin B (mitosis). (In some cells Cdk1 can partially substitute.)",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture a factory that runs on interchangeable engines. The engine (CDK) only works when a special key (cyclin) is inserted. Each shift of the day uses a different key, and each key is destroyed at the end of its shift so the factory is forced to move on to the next task — the \"morning\" key can't restart the morning. There are also safety locks: one manager (Wee1) puts a padlock on the engine, another (Cdc25) removes it only when everything is ready, and security guards (p21, p16) can block the engine entirely if something is wrong. The analogy's limit: the \"keys\" are actual proteins whose amounts rise and fall by synthesis and proteasomal destruction, a precise chemical timer rather than a shift schedule.",
+    "quickReview": "- Cyclin binds CDK → CAK phosphorylates T-loop (on) → Wee1 phosphorylates Thr14/Tyr15 (off) → Cdc25 dephosphorylates (on).\n- Activity peaks per phase: D (G1) → E (G1/S) → A (S) → B (M).\n- Turn-off: SCF/APC/C ubiquitination → proteasome → cyclin destroyed.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 17, \"Cyclin-Dependent Kinases.\""
+      },
+      {
+        "text": "Nurse, P., \"Cyclin dependent kinases and cell cycle control,\" *Bioscience Reports* (2002), Nobel Lecture."
+      },
+      {
+        "text": "Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 19."
+      },
+      {
+        "text": "NCBI Bookshelf, *The Cell: A Molecular Approach*, 2nd ed., \"Regulation of the cell cycle.\""
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Chapter 10, \"Control of the Cell Cycle.\""
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "cyclins-and-cdks",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "02-cyclins-and-cdks",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:41f92292a6ebe9c6"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:41f92292a6ebe9c6"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:41f92292a6ebe9c6"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:41f92292a6ebe9c6"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/07-cell-cycle-cell-death/02-cyclins-and-cdks.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Cyclins and Cyclin-Dependent Kinases (CDKs)\n\n## Learning Goals\n\n- Describe the structure and function of CDKs and their cyclin partners.\n- Explain how cyclin concentration fluctuates through the cell cycle.\n- Describe how CDK activity is regulated by phosphorylation (Wee1/CAK/Cdc25) and by inhibitors (CKIs).\n- Explain how cyclin degradation (APC/C, SCF) makes the cycle irreversible.\n- Relate the four major cyclin–CDK complexes to their cell-cycle phases.\n\n## Core Concept\n\nCyclin-dependent kinases (CDKs) are the engines of the cell cycle. A CDK is catalytically active only when bound to its regulatory partner, a cyclin. Cyclin levels oscillate — synthesized in one phase, destroyed in the next — so different cyclin–CDK complexes peak at different times and drive the appropriate phase transitions. CDK activity is further gated by phosphorylation (activating and inhibitory) and by CDK inhibitor proteins. The periodic, regulated destruction of cyclins by ubiquitin ligases (SCF and APC/C) makes progression unidirectional.\n\n## Key Components\n\n- **CDKs**: Ser/Thr kinases (Cdk1, Cdk2, Cdk4, Cdk6 in mammals). CDK protein levels are fairly constant.\n- **Cyclins**: Regulatory subunits whose levels oscillate (cyclins D, E, A, B).\n- **Cyclin–CDK complexes**: G1: cyclin D–Cdk4/6; G1/S: cyclin E–Cdk2; S: cyclin A–Cdk2; M: cyclin B–Cdk1.\n- **CAK**: CDK-activating kinase, phosphorylates the T-loop (activating).\n- **Wee1/Myt1**: Kinases that add inhibitory phosphates (Thr14/Tyr15).\n- **Cdc25**: Phosphatase that removes the inhibitory phosphates (activating).\n- **CKIs**: CDK inhibitors — INK4 family (p16) inhibit Cdk4/6; Cip/Kip family (p21, p27) inhibit broader CDKs.\n- **Ubiquitin ligases**: SCF (targets G1/S cyclins) and APC/C (targets M-phase cyclins and securin).\n\n## Mechanism / How It Works\n\n1. **Synthesis**: Cyclin genes are transcribed in response to growth signals (cyclin D) or prior CDK activity (cyclins E, A, B). Newly made cyclin binds its CDK partner.\n2. **Activation by phosphorylation**: CAK phosphorylates the CDK's activation loop (T-loop), which is necessary for activity.\n3. **Inhibition by phosphorylation**: Wee1 and Myt1 phosphorylate conserved inhibitory sites (Thr14/Tyr15) near the active site, holding the complex inactive — a \"primed but braked\" state.\n4. **Activation by dephosphorylation**: The phosphatase Cdc25 removes those inhibitory phosphates, abruptly activating the complex.\n5. **Phase-specific action**: Each complex phosphorylates substrates that trigger the events of its phase (e.g., cyclin E–Cdk2 phosphorylates Rb and initiates S phase; cyclin B–Cdk1 phosphorylates lamins, condensin, and spindle proteins to drive mitosis).\n6. **Destruction**: At the end of its phase, the cyclin is polyubiquitinated — G1/S cyclins by the SCF complex (often after phosphorylation of the cyclin), mitotic cyclins by the APC/C — and degraded by the proteasome. CDK activity collapses, driving exit from that phase and allowing the next cyclin to take over.\n\n## Energy and Directionality\n\nCyclin synthesis requires ATP and GTP (transcription and translation); CDK phosphorylation consumes ATP; and cyclin destruction requires ATP at two steps — ubiquitin activation (E1) and proteasomal degradation. Directionality is built into this design: once a cyclin is destroyed, the associated CDK activity can be restored only by synthesizing fresh cyclin, so the cell cannot slide backward. The mitotic \"clock\" is therefore a ratchet: synthesis turns a phase on, destruction commits the cell to move forward.\n\n## Experimental Evidence / Technique\n\n- **Discovery in sea urchins and frogs**: Tim Hunt identified cyclins as proteins that accumulate in interphase and vanish abruptly at mitosis (Nobel Prize, 2001); Paul Nurse and Leland Hartwell identified Cdc2/Cdk1 and its role in the cycle.\n- **Xenopus egg extracts**: Adding non-degradable cyclin B (missing its destruction box) arrests extracts in mitosis, proving cyclin destruction is required for mitotic exit.\n- **Temperature-sensitive cdc mutants** in yeast map the essential CDK and cyclin genes.\n- **Western blots across a synchronized population** show the characteristic oscillation of each cyclin's abundance.\n- **Kinase assays** with histone H1 as substrate measure Cdk1 activity directly.\n\n## Why It Matters\n\nThe cyclin–CDK system is the master oscillator of proliferation. Its misregulation is universal in cancer: overexpression of cyclin D (e.g., via translocation in mantle-cell lymphoma), loss of the CKI p16 or p27, and mutation of Rb or CDK4 all drive unchecked division. This has made CDKs direct drug targets — CDK4/6 inhibitors (palbociclib, ribociclib, abemaciclib) are standard therapy for hormone-receptor-positive breast cancer. Understanding the timing of each cyclin also explains why some chemotherapies preferentially kill rapidly cycling cells.\n\n## High-Yield Facts\n\n- CDKs are **inactive alone**; cyclin binding is required (hence \"cyclin-dependent\").\n- Pairings: **D–Cdk4/6** (G1), **E–Cdk2** (G1/S), **A–Cdk2** (S), **B–Cdk1** (M).\n- **Wee1** adds inhibitory phosphates (Thr14/Tyr15); **Cdc25** removes them; **CAK** adds the activating T-loop phosphate.\n- **SCF** degrades G1/S cyclins; **APC/C** degrades mitotic cyclins and securin.\n- CKIs: **p16 (INK4)** and **p21/p27 (Cip/Kip)**.\n\n## Eli Explains\n\nPicture a factory that runs on interchangeable engines. The engine (CDK) only works when a special key (cyclin) is inserted. Each shift of the day uses a different key, and each key is destroyed at the end of its shift so the factory is forced to move on to the next task — the \"morning\" key can't restart the morning. There are also safety locks: one manager (Wee1) puts a padlock on the engine, another (Cdc25) removes it only when everything is ready, and security guards (p21, p16) can block the engine entirely if something is wrong. The analogy's limit: the \"keys\" are actual proteins whose amounts rise and fall by synthesis and proteasomal destruction, a precise chemical timer rather than a shift schedule.\n\n## Common Confusions\n\n- **Cyclin vs. CDK**: Cyclins oscillate and regulate; CDKs are the constant catalytic subunits. Cyclins do not have kinase activity alone.\n- **Activating vs. inhibitory phosphorylation**: CAK's T-loop phosphate activates; Wee1's Thr14/Tyr15 phosphates inhibit. Both are on the same CDK but have opposite effects.\n- **SCF vs. APC/C**: Both are ubiquitin ligases but target different substrates at different phases (SCF mainly G1/S; APC/C mainly M exit).\n- **Cdk2 vs. Cdk1**: Cdk2 pairs with cyclins E and A (G1/S and S); Cdk1 pairs with cyclin B (mitosis). (In some cells Cdk1 can partially substitute.)\n\n## Quick Review\n\n- Cyclin binds CDK → CAK phosphorylates T-loop (on) → Wee1 phosphorylates Thr14/Tyr15 (off) → Cdc25 dephosphorylates (on).\n- Activity peaks per phase: D (G1) → E (G1/S) → A (S) → B (M).\n- Turn-off: SCF/APC/C ubiquitination → proteasome → cyclin destroyed.\n\n## Sources\n\n- Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 17, \"Cyclin-Dependent Kinases.\"\n- Nurse, P., \"Cyclin dependent kinases and cell cycle control,\" *Bioscience Reports* (2002), Nobel Lecture.\n- Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 19.\n- NCBI Bookshelf, *The Cell: A Molecular Approach*, 2nd ed., \"Regulation of the cell cycle.\"\n- OpenStax, *Biology 2e*, Chapter 10, \"Control of the Cell Cycle.\"\n"
+}

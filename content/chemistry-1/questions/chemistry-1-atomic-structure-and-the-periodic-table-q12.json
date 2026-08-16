@@ -1,0 +1,40 @@
+{
+  "id": "chemistry-1-atomic-structure-and-the-periodic-table-q12",
+  "subject": "chemistry-1",
+  "lesson": "atomic-structure-and-the-periodic-table",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Two hypothetical laboratory nuclide samples each contain neutral atoms with 53 protons; sample 1 has mass number 127 and sample 2 has mass number 131. Which statement best integrates the nuclear and chemical properties of these two samples?",
+  "options": [
+    {
+      "id": "a",
+      "text": "They are isotopes: matching proton and electron counts give nearly identical chemistry, while the 4-neutron difference alters nuclear stability"
+    },
+    {
+      "id": "b",
+      "text": "They are different elements, because mass number rather than proton count establishes elemental identity and therefore reactivity"
+    },
+    {
+      "id": "c",
+      "text": "They are ions of one element, because adding neutrons to a nucleus changes the net charge carried by each sample"
+    },
+    {
+      "id": "d",
+      "text": "They are isotopes, but the added neutrons require added valence electrons, so the two samples form different chemical bonds"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Both samples have Z = 53, so both are the same element, and neutral atoms of each carry 53 electrons with identical valence configurations, making their chemical reactions essentially indistinguishable. Their neutron counts differ by 131 - 127 = 4, and the neutron-to-proton ratio governs nuclear stability, so one nuclide can be stable while the other decays. Neutrons are uncharged and do not affect electron count, and elemental identity is set by protons, not by mass number; this separation of chemical identity from nuclear behavior is why a radioactive nuclide follows the same biological pathway as its stable counterpart.\n\nELI-10: An atom really has two independent identities. The outside identity, set by protons and the matching electrons, decides how it bonds and where the body sends it, and both samples are identical there with 53 of each. The inside identity is set by the mix of protons and neutrons in the nucleus, and the two samples differ by 4 neutrons. Certain neutron-to-proton ratios hold together and others do not, so one nuclide can sit there indefinitely while the other breaks down and emits radiation. Same chemistry, different nuclear stability.",
+  "difficulty": "hard",
+  "tags": [
+    "isotopes",
+    "nuclear stability",
+    "chemical versus nuclear properties",
+    "elemental identity"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-272",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

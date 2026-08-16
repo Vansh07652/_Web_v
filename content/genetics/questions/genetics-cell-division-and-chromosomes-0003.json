@@ -1,0 +1,38 @@
+{
+  "id": "genetics-cell-division-and-chromosomes-0003",
+  "subject": "genetics",
+  "lesson": "cell-division-and-chromosomes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application During meiosis II in a human testis, the sister chromatids of one chromosome fail to separate while all other chromosomes behave normally. If a sperm that is aneuploid as a result of this error fertilizes a normal egg, which chromosome numbers are possible in the resulting zygote?",
+  "options": [
+    {
+      "id": "a",
+      "text": "46"
+    },
+    {
+      "id": "b",
+      "text": "47 or 45"
+    },
+    {
+      "id": "c",
+      "text": "48 or 46"
+    },
+    {
+      "id": "d",
+      "text": "47"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Sister chromatids separate in meiosis II, so their failure to separate sends both copies into one sperm and none into another: one sperm carries n + 1 = 24 chromosomes and one carries n - 1 = 22. Fertilizing a normal egg with 23 chromosomes gives 24 + 23 = 47 or 22 + 23 = 45, and both outcomes are possible depending on which aneuploid sperm fuses. Option D keeps only the 47 outcome, option A assumes the error is corrected, and option C double-counts the mis-segregated chromosome.",
+  "difficulty": "unknown",
+  "tags": [
+    "nondisjunction",
+    "meiosis"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-362d42c8f413fa58",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

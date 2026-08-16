@@ -1,0 +1,908 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:pathophysiology",
+    "slug": "pathophysiology",
+    "title": "Pathophysiology",
+    "aliases": [
+      {
+        "value": "pathophysiology",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "patho",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "eli-path",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "pathophysiology-for-nursing",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "patho",
+        "kind": "source_subject_id",
+        "source_id": "prenursing_notes"
+      }
+    ],
+    "status": "final",
+    "category": "pathophysiology"
+  },
+  "units": [
+    {
+      "id": "unit:pathophysiology:foundations-of-pathophysiology",
+      "slug": "foundations-of-pathophysiology",
+      "title": "Foundations of Pathophysiology",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "foundations-of-pathophysiology",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:pathophysiology:foundations-of-pathophysiology:introduction-to-pathophysiology-and-disease-processes",
+          "slug": "introduction-to-pathophysiology-and-disease-processes",
+          "title": "Introduction to Pathophysiology and Disease Processes",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/foundations-of-pathophysiology/introduction-to-pathophysiology-and-disease-processes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:foundations-of-pathophysiology:cellular-adaptation-injury-and-death",
+          "slug": "cellular-adaptation-injury-and-death",
+          "title": "Cellular Adaptation, Injury, and Death",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/foundations-of-pathophysiology/cellular-adaptation-injury-and-death.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:foundations-of-pathophysiology:genetics-epigenetics-and-developmental-disorders",
+          "slug": "genetics-epigenetics-and-developmental-disorders",
+          "title": "Genetics, Epigenetics, and Developmental Disorders",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/foundations-of-pathophysiology/genetics-epigenetics-and-developmental-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:foundations-of-pathophysiology:stress-nutrition-and-disease",
+          "slug": "stress-nutrition-and-disease",
+          "title": "Stress, Nutrition, and Disease",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/foundations-of-pathophysiology/stress-nutrition-and-disease.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:pathophysiology:inflammation-immunity-infection-and-healing",
+      "slug": "inflammation-immunity-infection-and-healing",
+      "title": "Inflammation, Immunity, Infection, and Healing",
+      "order": 2,
+      "aliases": [
+        {
+          "value": "inflammation-immunity-infection-and-healing",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:pathophysiology:inflammation-immunity-infection-and-healing:inflammation-and-the-acute-phase-response",
+          "slug": "inflammation-and-the-acute-phase-response",
+          "title": "Inflammation and the Acute-Phase Response",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/inflammation-immunity-infection-and-healing/inflammation-and-the-acute-phase-response.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:inflammation-immunity-infection-and-healing:tissue-repair-and-wound-healing",
+          "slug": "tissue-repair-and-wound-healing",
+          "title": "Tissue Repair and Wound Healing",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/inflammation-immunity-infection-and-healing/tissue-repair-and-wound-healing.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:inflammation-immunity-infection-and-healing:altered-immunity-hypersensitivity-and-autoimmunity",
+          "slug": "altered-immunity-hypersensitivity-and-autoimmunity",
+          "title": "Altered Immunity, Hypersensitivity, and Autoimmunity",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/inflammation-immunity-infection-and-healing/altered-immunity-hypersensitivity-and-autoimmunity.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:inflammation-immunity-infection-and-healing:infection-sepsis-and-host-response",
+          "slug": "infection-sepsis-and-host-response",
+          "title": "Infection, Sepsis, and Host Response",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/inflammation-immunity-infection-and-healing/infection-sepsis-and-host-response.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:pathophysiology:fluids-electrolytes-and-acid-base-balance",
+      "slug": "fluids-electrolytes-and-acid-base-balance",
+      "title": "Fluids, Electrolytes, and Acid-Base Balance",
+      "order": 3,
+      "aliases": [
+        {
+          "value": "fluids-electrolytes-and-acid-base-balance",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:pathophysiology:fluids-electrolytes-and-acid-base-balance:body-fluids-and-fluid-volume-disorders",
+          "slug": "body-fluids-and-fluid-volume-disorders",
+          "title": "Body Fluids and Fluid Volume Disorders",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/fluids-electrolytes-and-acid-base-balance/body-fluids-and-fluid-volume-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:fluids-electrolytes-and-acid-base-balance:sodium-water-and-osmolality-disorders",
+          "slug": "sodium-water-and-osmolality-disorders",
+          "title": "Sodium, Water, and Osmolality Disorders",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/fluids-electrolytes-and-acid-base-balance/sodium-water-and-osmolality-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:fluids-electrolytes-and-acid-base-balance:potassium-calcium-magnesium-and-phosphate-disorders",
+          "slug": "potassium-calcium-magnesium-and-phosphate-disorders",
+          "title": "Potassium, Calcium, Magnesium, and Phosphate Disorders",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/fluids-electrolytes-and-acid-base-balance/potassium-calcium-magnesium-and-phosphate-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:fluids-electrolytes-and-acid-base-balance:acid-base-balance-and-compensation",
+          "slug": "acid-base-balance-and-compensation",
+          "title": "Acid-Base Balance and Compensation",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/fluids-electrolytes-and-acid-base-balance/acid-base-balance-and-compensation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:pathophysiology:hematologic-and-oncologic-disorders",
+      "slug": "hematologic-and-oncologic-disorders",
+      "title": "Hematologic and Oncologic Disorders",
+      "order": 4,
+      "aliases": [
+        {
+          "value": "hematologic-and-oncologic-disorders",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:pathophysiology:hematologic-and-oncologic-disorders:hematopoiesis-and-red-blood-cell-disorders",
+          "slug": "hematopoiesis-and-red-blood-cell-disorders",
+          "title": "Hematopoiesis and Red Blood Cell Disorders",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/hematologic-and-oncologic-disorders/hematopoiesis-and-red-blood-cell-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:hematologic-and-oncologic-disorders:white-blood-cell-platelet-and-coagulation-disorders",
+          "slug": "white-blood-cell-platelet-and-coagulation-disorders",
+          "title": "White Blood Cell, Platelet, and Coagulation Disorders",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/hematologic-and-oncologic-disorders/white-blood-cell-platelet-and-coagulation-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:hematologic-and-oncologic-disorders:neoplasia-and-cancer-biology",
+          "slug": "neoplasia-and-cancer-biology",
+          "title": "Neoplasia and Cancer Biology",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/hematologic-and-oncologic-disorders/neoplasia-and-cancer-biology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:pathophysiology:cardiovascular-disorders",
+      "slug": "cardiovascular-disorders",
+      "title": "Cardiovascular Disorders",
+      "order": 5,
+      "aliases": [
+        {
+          "value": "cardiovascular-disorders",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:pathophysiology:cardiovascular-disorders:atherosclerosis-hypertension-and-vascular-disorders",
+          "slug": "atherosclerosis-hypertension-and-vascular-disorders",
+          "title": "Atherosclerosis, Hypertension, and Vascular Disorders",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/cardiovascular-disorders/atherosclerosis-hypertension-and-vascular-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:cardiovascular-disorders:ischemic-heart-disease-and-acute-coronary-syndromes",
+          "slug": "ischemic-heart-disease-and-acute-coronary-syndromes",
+          "title": "Ischemic Heart Disease and Acute Coronary Syndromes",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/cardiovascular-disorders/ischemic-heart-disease-and-acute-coronary-syndromes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:cardiovascular-disorders:heart-failure-cardiomyopathies-and-valvular-disorders",
+          "slug": "heart-failure-cardiomyopathies-and-valvular-disorders",
+          "title": "Heart Failure, Cardiomyopathies, and Valvular Disorders",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/cardiovascular-disorders/heart-failure-cardiomyopathies-and-valvular-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:cardiovascular-disorders:dysrhythmias-shock-and-perfusion-failure",
+          "slug": "dysrhythmias-shock-and-perfusion-failure",
+          "title": "Dysrhythmias, Shock, and Perfusion Failure",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/cardiovascular-disorders/dysrhythmias-shock-and-perfusion-failure.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:pathophysiology:respiratory-disorders",
+      "slug": "respiratory-disorders",
+      "title": "Respiratory Disorders",
+      "order": 6,
+      "aliases": [
+        {
+          "value": "respiratory-disorders",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:pathophysiology:respiratory-disorders:ventilation-perfusion-and-gas-exchange-disorders",
+          "slug": "ventilation-perfusion-and-gas-exchange-disorders",
+          "title": "Ventilation, Perfusion, and Gas Exchange Disorders",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/respiratory-disorders/ventilation-perfusion-and-gas-exchange-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:respiratory-disorders:obstructive-and-restrictive-pulmonary-disorders",
+          "slug": "obstructive-and-restrictive-pulmonary-disorders",
+          "title": "Obstructive and Restrictive Pulmonary Disorders",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/respiratory-disorders/obstructive-and-restrictive-pulmonary-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:respiratory-disorders:respiratory-infections-pulmonary-vascular-disease-and-respiratory-failure",
+          "slug": "respiratory-infections-pulmonary-vascular-disease-and-respiratory-failure",
+          "title": "Respiratory Infections, Pulmonary Vascular Disease, and Respiratory Failure",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/respiratory-disorders/respiratory-infections-pulmonary-vascular-disease-and-respiratory-failure.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:pathophysiology:renal-and-urinary-disorders",
+      "slug": "renal-and-urinary-disorders",
+      "title": "Renal and Urinary Disorders",
+      "order": 7,
+      "aliases": [
+        {
+          "value": "renal-and-urinary-disorders",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:pathophysiology:renal-and-urinary-disorders:renal-physiology-and-acute-kidney-injury",
+          "slug": "renal-physiology-and-acute-kidney-injury",
+          "title": "Renal Physiology and Acute Kidney Injury",
+          "order": 23,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/renal-and-urinary-disorders/renal-physiology-and-acute-kidney-injury.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:renal-and-urinary-disorders:chronic-kidney-disease-and-renal-replacement-concepts",
+          "slug": "chronic-kidney-disease-and-renal-replacement-concepts",
+          "title": "Chronic Kidney Disease and Renal Replacement Concepts",
+          "order": 24,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/renal-and-urinary-disorders/chronic-kidney-disease-and-renal-replacement-concepts.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:renal-and-urinary-disorders:glomerular-tubular-obstructive-and-urinary-disorders",
+          "slug": "glomerular-tubular-obstructive-and-urinary-disorders",
+          "title": "Glomerular, Tubular, Obstructive, and Urinary Disorders",
+          "order": 25,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/renal-and-urinary-disorders/glomerular-tubular-obstructive-and-urinary-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:pathophysiology:endocrine-and-metabolic-disorders",
+      "slug": "endocrine-and-metabolic-disorders",
+      "title": "Endocrine and Metabolic Disorders",
+      "order": 8,
+      "aliases": [
+        {
+          "value": "endocrine-and-metabolic-disorders",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:pathophysiology:endocrine-and-metabolic-disorders:endocrine-regulation-and-pituitary-disorders",
+          "slug": "endocrine-regulation-and-pituitary-disorders",
+          "title": "Endocrine Regulation and Pituitary Disorders",
+          "order": 26,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/endocrine-and-metabolic-disorders/endocrine-regulation-and-pituitary-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:endocrine-and-metabolic-disorders:thyroid-parathyroid-and-calcium-disorders",
+          "slug": "thyroid-parathyroid-and-calcium-disorders",
+          "title": "Thyroid, Parathyroid, and Calcium Disorders",
+          "order": 27,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/endocrine-and-metabolic-disorders/thyroid-parathyroid-and-calcium-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:endocrine-and-metabolic-disorders:diabetes-mellitus-and-pancreatic-disorders",
+          "slug": "diabetes-mellitus-and-pancreatic-disorders",
+          "title": "Diabetes Mellitus and Pancreatic Disorders",
+          "order": 28,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/endocrine-and-metabolic-disorders/diabetes-mellitus-and-pancreatic-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:endocrine-and-metabolic-disorders:adrenal-disorders-and-stress-hormones",
+          "slug": "adrenal-disorders-and-stress-hormones",
+          "title": "Adrenal Disorders and Stress Hormones",
+          "order": 29,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/endocrine-and-metabolic-disorders/adrenal-disorders-and-stress-hormones.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:pathophysiology:neurologic-disorders",
+      "slug": "neurologic-disorders",
+      "title": "Neurologic Disorders",
+      "order": 9,
+      "aliases": [
+        {
+          "value": "neurologic-disorders",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:pathophysiology:neurologic-disorders:neurologic-function-increased-intracranial-pressure-and-stroke",
+          "slug": "neurologic-function-increased-intracranial-pressure-and-stroke",
+          "title": "Neurologic Function, Increased Intracranial Pressure, and Stroke",
+          "order": 30,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/neurologic-disorders/neurologic-function-increased-intracranial-pressure-and-stroke.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:neurologic-disorders:seizures-neurodegenerative-disorders-and-demyelinating-conditions",
+          "slug": "seizures-neurodegenerative-disorders-and-demyelinating-conditions",
+          "title": "Seizures, Neurodegenerative Disorders, and Demyelinating Conditions",
+          "order": 31,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/neurologic-disorders/seizures-neurodegenerative-disorders-and-demyelinating-conditions.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:neurologic-disorders:neuromuscular-disorders-pain-and-altered-consciousness",
+          "slug": "neuromuscular-disorders-pain-and-altered-consciousness",
+          "title": "Neuromuscular Disorders, Pain, and Altered Consciousness",
+          "order": 32,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/neurologic-disorders/neuromuscular-disorders-pain-and-altered-consciousness.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:pathophysiology:gastrointestinal-hepatic-and-pancreatic-disorders",
+      "slug": "gastrointestinal-hepatic-and-pancreatic-disorders",
+      "title": "Gastrointestinal, Hepatic, and Pancreatic Disorders",
+      "order": 10,
+      "aliases": [
+        {
+          "value": "gastrointestinal-hepatic-and-pancreatic-disorders",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:pathophysiology:gastrointestinal-hepatic-and-pancreatic-disorders:gastrointestinal-inflammation-obstruction-and-malabsorption",
+          "slug": "gastrointestinal-inflammation-obstruction-and-malabsorption",
+          "title": "Gastrointestinal Inflammation, Obstruction, and Malabsorption",
+          "order": 33,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/gastrointestinal-hepatic-and-pancreatic-disorders/gastrointestinal-inflammation-obstruction-and-malabsorption.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:gastrointestinal-hepatic-and-pancreatic-disorders:liver-disease-portal-hypertension-and-hepatic-failure",
+          "slug": "liver-disease-portal-hypertension-and-hepatic-failure",
+          "title": "Liver Disease, Portal Hypertension, and Hepatic Failure",
+          "order": 34,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/gastrointestinal-hepatic-and-pancreatic-disorders/liver-disease-portal-hypertension-and-hepatic-failure.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:gastrointestinal-hepatic-and-pancreatic-disorders:gallbladder-biliary-and-pancreatic-disorders",
+          "slug": "gallbladder-biliary-and-pancreatic-disorders",
+          "title": "Gallbladder, Biliary, and Pancreatic Disorders",
+          "order": 35,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/gastrointestinal-hepatic-and-pancreatic-disorders/gallbladder-biliary-and-pancreatic-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:pathophysiology:musculoskeletal-integumentary-and-reproductive-disorders",
+      "slug": "musculoskeletal-integumentary-and-reproductive-disorders",
+      "title": "Musculoskeletal, Integumentary, and Reproductive Disorders",
+      "order": 11,
+      "aliases": [
+        {
+          "value": "musculoskeletal-integumentary-and-reproductive-disorders",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:pathophysiology:musculoskeletal-integumentary-and-reproductive-disorders:bone-joint-connective-tissue-and-muscle-disorders",
+          "slug": "bone-joint-connective-tissue-and-muscle-disorders",
+          "title": "Bone, Joint, Connective Tissue, and Muscle Disorders",
+          "order": 36,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/musculoskeletal-integumentary-and-reproductive-disorders/bone-joint-connective-tissue-and-muscle-disorders.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:musculoskeletal-integumentary-and-reproductive-disorders:integumentary-disorders-burns-and-wound-complications",
+          "slug": "integumentary-disorders-burns-and-wound-complications",
+          "title": "Integumentary Disorders, Burns, and Wound Complications",
+          "order": 37,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/musculoskeletal-integumentary-and-reproductive-disorders/integumentary-disorders-burns-and-wound-complications.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:musculoskeletal-integumentary-and-reproductive-disorders:reproductive-disorders-and-sexually-transmitted-infections",
+          "slug": "reproductive-disorders-and-sexually-transmitted-infections",
+          "title": "Reproductive Disorders and Sexually Transmitted Infections",
+          "order": 38,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/musculoskeletal-integumentary-and-reproductive-disorders/reproductive-disorders-and-sexually-transmitted-infections.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:pathophysiology:musculoskeletal-integumentary-and-reproductive-disorders:pregnancy-related-pathophysiology-and-developmental-considerations",
+          "slug": "pregnancy-related-pathophysiology-and-developmental-considerations",
+          "title": "Pregnancy-Related Pathophysiology and Developmental Considerations",
+          "order": 39,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/pathophysiology/topics/musculoskeletal-integumentary-and-reproductive-disorders/pregnancy-related-pathophysiology-and-developmental-considerations.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 11,
+    "topicCount": 39,
+    "teachingTopicCount": 39,
+    "eli10TopicCount": 39,
+    "highYieldTopicCount": 39,
+    "referencedTopicCount": 0,
+    "exactOrMappedQuestionCount": 0,
+    "subjectWideQuestionCount": 300,
+    "uniqueQuestionCount": 300,
+    "citationReviewRequiredCount": 300
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

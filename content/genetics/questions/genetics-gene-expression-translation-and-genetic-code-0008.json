@@ -1,0 +1,40 @@
+{
+  "id": "genetics-gene-expression-translation-and-genetic-code-0008",
+  "subject": "genetics",
+  "lesson": "gene-expression-translation-and-genetic-code",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A mutation changes a codon in an mRNA from UUU to UUC. What is the effect on the encoded protein?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The protein is truncated because UUC is a stop codon"
+    },
+    {
+      "id": "b",
+      "text": "A different amino acid is inserted at that position because the codons differ"
+    },
+    {
+      "id": "c",
+      "text": "The protein is unchanged because both codons encode phenylalanine"
+    },
+    {
+      "id": "d",
+      "text": "The reading frame shifts for every downstream codon"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "UUU and UUC are synonymous codons, both encoding phenylalanine in the codon table, so the change is silent and the protein sequence is unchanged. UUC is a sense codon, not a stop codon, so there is no truncation. Because the amino acid is unchanged, no different amino acid is inserted, and because the change is a single base substitution within one codon, the reading frame stays intact.",
+  "difficulty": "unknown",
+  "tags": [
+    "synonymous",
+    "codon",
+    "silent",
+    "mutation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-65cdececfa71eb09",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

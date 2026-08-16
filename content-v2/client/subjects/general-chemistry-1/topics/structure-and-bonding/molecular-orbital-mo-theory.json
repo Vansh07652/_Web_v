@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-1:structure-and-bonding:molecular-orbital-mo-theory",
+  "slug": "molecular-orbital-mo-theory",
+  "title": "Molecular Orbital (MO) Theory",
+  "subject": {
+    "id": "subject:general-chemistry-1",
+    "slug": "general-chemistry-1",
+    "title": "General Chemistry I"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-1:structure-and-bonding",
+    "slug": "structure-and-bonding",
+    "title": "Structure and Bonding",
+    "order": 6
+  },
+  "order": 24,
+  "status": "final",
+  "sections": {
+    "overview": "Molecular orbital (MO) theory combines atomic orbitals from all atoms into molecular orbitals that spread over the entire molecule. Electrons in bonding orbitals stabilize the molecule; electrons in antibonding orbitals destabilize it. Filling a MO diagram gives the bond order (½ × [bonding − antibonding electrons]); a positive bond order means the molecule exists. Unpaired electrons make a molecule paramagnetic (attracted to a magnet); all-paired electrons make it diamagnetic (weakly repelled). MO theory explains things Lewis and VB theory cannot, such as why O₂ is paramagnetic.",
+    "whyItMatters": "Molecular oxygen's paramagnetism (two unpaired electrons) is directly relevant to how O₂ interacts with iron in hemoglobin and to its role as a reactive species in biology. MRI (magnetic resonance imaging) exploits the magnetic behavior of electrons and nuclei; understanding paramagnetic versus diamagnetic species underlies why certain contrast agents and free radicals behave as they do in the body.",
+    "learningObjectives": "1. Describe bonding and antibonding molecular orbitals and how they form.\n2. Construct MO diagrams for period 1 and period 2 diatomic molecules.\n3. Calculate bond order from electron occupancy and predict bond strength and length.\n4. Predict whether a molecule is paramagnetic or diamagnetic from its MO configuration.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Molecular orbital | An orbital spread over the whole molecule | The unit of electron placement in MO theory |\n| Bonding MO | Lower-energy combination with density between nuclei | Stabilizes the molecule |\n| Antibonding MO | Higher-energy combination with a node between nuclei | Destabilizes the molecule; cancels bonding |\n| σ and π MOs | MOs formed from head-on or side-to-side overlap | Organize the MO diagram |\n| MO diagram | Energy-level diagram of molecular orbitals | Shows filling order and bond order |\n| Bond order | ½(bonding − antibonding electrons) | Predicts bond strength, length, and existence |\n| Paramagnetic | Having unpaired electrons; attracted to a magnet | Explains O₂ behavior |\n| Diamagnetic | All electrons paired; weakly repelled by a magnet | The expected state when electrons are paired |",
+    "collegeNotes": "### 1. Bonding and Antibonding Orbitals\n\nWhen atomic orbitals overlap, they combine in two ways: the in-phase combination gives a bonding MO (lower energy, electron density between the nuclei), and the out-of-phase combination gives an antibonding MO (higher energy, a node between the nuclei). Antibonding orbitals are marked with an asterisk (σ*, π*). Electrons fill the lowest-energy MOs first, following the same Aufbau, Pauli, and Hund rules used for atoms.\n\n### 2. MO Diagrams for Period 1 and 2 Diatomics\n\nPeriod 1 (H₂, He₂): only 1s orbitals are available, giving σ₁s and σ*₁s. Period 2 (Li₂ through Ne₂): 2s orbitals form σ₂s and σ*₂s, while 2p orbitals form σ₂p, two degenerate π₂p orbitals, and their antibonding partners σ*₂p and π*₂p. For O₂, F₂, and Ne₂, σ₂p lies below π₂p; for B₂, C₂, and N₂ the π₂p orbitals lie below σ₂p (an s–p mixing effect) — a subtlety worth memorizing.\n\n### 3. Bond Order and Magnetism\n\nBond order = ½ (electrons in bonding MOs − electrons in antibonding MOs). A bond order of 0 means no stable bond; higher bond order means a stronger, shorter bond. A molecule with unpaired electrons is paramagnetic (attracted to a magnetic field); with all electrons paired it is diamagnetic. O₂ has two unpaired electrons in degenerate π*₂p orbitals (Hund's rule), making it paramagnetic — which Lewis structures cannot explain.",
+    "howItWorks": "1. Determine the total number of valence electrons for the diatomic (or simple) molecule.\n2. Draw the MO diagram with atomic orbitals on each side and molecular orbitals in the middle.\n3. Order the σ and π MOs correctly (remember s–p mixing for B₂, C₂, and N₂).\n4. Fill the MOs from lowest to highest energy, obeying the Pauli exclusion principle and Hund's rule.\n5. Compute the bond order and read off whether the molecule is paramagnetic or diamagnetic.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Bond order = ½(bonding electrons − antibonding electrons).\n- A bond order of 0 means the molecule does not exist (for example, He₂).\n- **High yield:** O₂ is paramagnetic because of two unpaired π*₂p electrons.\n- For B₂, C₂, and N₂ the π₂p level lies BELOW σ₂p; for O₂, F₂, and Ne₂, σ₂p lies below π₂p.\n- **High yield:** Higher bond order means a stronger and shorter bond.\n- Antibonding electrons cancel the stabilizing effect of bonding electrons.\n- MO theory explains delocalization naturally, without separate resonance structures.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Bonding MO | Antibonding MO | Bonding stabilizes; antibonding destabilizes and has a node |\n| Bond order | Number of bonds in a Lewis structure | They usually agree, but MO theory predicts fractional orders (e.g., 2.5) that Lewis cannot |\n| Paramagnetic | Diamagnetic | Unpaired electrons versus all paired electrons |\n| Atomic orbital | Molecular orbital | An AO belongs to one atom; an MO spans the whole molecule |",
+    "memoryAids": "\"Bonding Below, Antibonding Above\" — bonding orbitals always sit lower in energy and fill first; the asterisk (*) marks the higher, antibonding partner. Remember bond order as \"bonding minus antibonding, divided by two.\"",
+    "eli10": "Think of two tuning forks held close together: instead of two separate notes, they produce combined notes — one a little lower and one a little higher. Molecular orbitals work the same way: two atomic orbitals combine into TWO molecular orbitals, one lower in energy (bonding) and one higher (antibonding). Electrons prefer the lower one; filling the higher one cancels stability.\n\nWhere this stops being exact is that the picture treats electrons as spread over the whole molecule, which is more accurate for delocalized systems than VB theory but also more abstract — and getting the exact energies and ordering of orbitals for real molecules requires computation.\n\n### Simple Example\n\nTwo hydrogen atoms combine their two 1s orbitals into a bonding σ₁s (lower energy) and an antibonding σ*₁s (higher energy). H₂ puts both electrons in σ₁s, giving bond order 1 — a stable single bond. He₂ would put two electrons in σ₁s and two in σ*₁s, bond order 0, so He₂ does not exist.",
+    "quickReview": "### Topic Recap\n\nMO theory combines atomic orbitals into bonding and antibonding molecular orbitals spread over the whole molecule. Filling the diagram gives the bond order and predicts magnetism; it explains O₂'s paramagnetism and fractional bond orders that Lewis and VB theory cannot. It is the most complete, and most abstract, bonding model.\n\n### Knowledge Check\n\n1. What is the bond order of He₂, and does He₂ exist?\n2. Why is O₂ paramagnetic when its Lewis structure shows all electrons paired?\n3. In N₂, is the σ₂p level above or below the π₂p level?\n4. What is the bond order of N₂?\n5. Is F₂ paramagnetic or diamagnetic?\n\n### Answers and Rationales\n\n1. Bond order 0 (2 bonding − 2 antibonding, halved); He₂ does not exist.\n2. Two unpaired electrons occupy the degenerate π*₂p orbitals (Hund's rule), so O₂ is paramagnetic — Lewis structures cannot show this.\n3. σ₂p lies above the π₂p level (the π₂p orbitals fill first due to s–p mixing).\n4. Bond order 3 (a triple bond).\n5. F₂ is diamagnetic — all 14 valence electrons are paired.",
+    "workedExamples": "Bond order: \\\\( \\text{bond order} = \\frac{1}{2}(N_b - N_a) \\\\), where \\\\( N_b \\\\) is the number of electrons in bonding orbitals and \\\\( N_a \\\\) is the number in antibonding orbitals.\n\nExample (O₂): O₂ has 12 valence electrons (6 per oxygen). Configuration (with σ₂p below π₂p): σ₂s² σ*₂s² σ₂p² π₂p⁴ π*₂p². Bonding = 2 + 2 + 4 = 8; antibonding = 2 + 2 = 4. Bond order = ½(8 − 4) = 2.\n\nExample (N₂): N₂ has 10 valence electrons (5 per nitrogen). Configuration (with π₂p below σ₂p): σ₂s² σ*₂s² π₂p⁴ σ₂p². Bonding = 2 + 4 + 2 = 8; antibonding = 2. Bond order = ½(8 − 2) = 3, a triple bond.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 1
+  },
+  "aliases": [
+    {
+      "value": "molecular-orbital-mo-theory",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "24-molecular-orbital-theory",
+      "kind": "source_file_stem",
+      "source_id": "need-review-general-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-general-chemistry-i",
+    "sourceFile": "general-chemistry-i-study-notes/docs/general-chemistry-i/24-molecular-orbital-theory.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

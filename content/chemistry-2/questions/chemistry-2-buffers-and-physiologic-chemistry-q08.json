@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-buffers-and-physiologic-chemistry-q08",
+  "subject": "chemistry-2",
+  "lesson": "buffers-and-physiologic-chemistry",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In a hypothetical teaching sample the dissolved CO2 is 1.2 mmol/L and the pH is 7.4. Using pH = 6.1 + log([HCO3-]/[CO2]) and given that log 20 equals 1.3, what bicarbonate concentration must the sample contain?",
+  "options": [
+    {
+      "id": "a",
+      "text": "24 mmol/L"
+    },
+    {
+      "id": "b",
+      "text": "20 mmol/L"
+    },
+    {
+      "id": "c",
+      "text": "12 mmol/L"
+    },
+    {
+      "id": "d",
+      "text": "26 mmol/L"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Rearranging the equation, pH minus pKa equals 7.4 minus 6.1, or 1.3, and the ratio whose logarithm is 1.3 is 20. The bicarbonate concentration is therefore 20 times the dissolved CO2, or 20 multiplied by 1.2, which equals 24 mmol/L, matching the normal plasma value. Choosing 20 mmol/L mistakes the ratio itself for a concentration, and 12 mmol/L corresponds to a ratio of only 10, which would give pH 7.1. The exercise reinforces that pH is fixed by the ratio, so a 48:2.4 mmol/L pair would yield the same 7.4.\n\nELI-10: Work the equation backward. The pH sits 1.3 units above the pKa of 6.1, and 1.3 is the logarithm of 20, so bicarbonate must outnumber dissolved CO2 twentyfold. Multiply the CO2 you were given by that ratio: 20 times 1.2 equals 24 mmol/L, the familiar normal bicarbonate. Do not confuse the ratio with the amount; 20 is how many times bigger one is than the other, not the concentration itself.",
+  "difficulty": "medium",
+  "tags": [
+    "Henderson-Hasselbalch rearrangement",
+    "base-to-acid ratio",
+    "normal bicarbonate value"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-280",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

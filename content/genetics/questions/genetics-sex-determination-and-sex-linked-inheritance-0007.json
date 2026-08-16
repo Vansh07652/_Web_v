@@ -1,0 +1,41 @@
+{
+  "id": "genetics-sex-determination-and-sex-linked-inheritance-0007",
+  "subject": "genetics",
+  "lesson": "sex-determination-and-sex-linked-inheritance",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem Red green color blindness is X linked recessive, caused by defects in the cone opsin genes *OPN1LW* and *OPN1MW*. A carrier woman (*X^C X^c*) mates with a color blind man (*X^c Y*). Assume complete penetrance, no new mutations, and a 1:1 sex ratio (sums to 2). What fraction of their daughters is expected to be color blind?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/4"
+    },
+    {
+      "id": "b",
+      "text": "1/2"
+    },
+    {
+      "id": "c",
+      "text": "3/4"
+    },
+    {
+      "id": "d",
+      "text": "1"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "A daughter receives one X from each parent: the father contributes *X^c* with probability 1 and the mother contributes *X^c* with probability 1/2, so 1 x 1/2 = 1/2 of daughters are *X^c X^c* and color blind, while the other half are carriers (*X^C X^c*). A is the fraction of all offspring that are affected daughters, and D (1) applies the X linked dominant rule to a recessive trait. C (3/4) adds the two probabilities (1/2 + 1/4) instead of multiplying them.",
+  "difficulty": "unknown",
+  "tags": [
+    "color",
+    "blindness",
+    "carrier",
+    "affected",
+    "father"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-67f5c8a12332791c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

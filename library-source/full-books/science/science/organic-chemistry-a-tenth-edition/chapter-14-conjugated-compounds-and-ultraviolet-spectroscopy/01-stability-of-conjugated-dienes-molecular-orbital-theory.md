@@ -1,0 +1,211 @@
+---
+title: "Stability of Conjugated Dienes: Molecular Orbital Theory"
+subject: "Science"
+book: "Organic Chemistry: A Tenth Edition"
+chapter: "14: Conjugated Compounds and Ultraviolet Spectroscopy"
+topic_number: "1"
+source: "organic-chemistry.md"
+tags:
+  - "stability-of-conjugated-dienes-molecular-orbital-theory"
+  - "science"
+status: "complete"
+---
+
+# Stability of Conjugated Dienes: Molecular Orbital Theory
+
+> **Book:** [Organic Chemistry: A Tenth Edition](../../README.md)  
+> **Chapter:** [Chapter 14: Conjugated Compounds and Ultraviolet Spectroscopy](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+A **diene** is a molecule with two carbon–carbon double bonds. When the double bonds are separated by exactly one single bond — the pattern C=C–C=C, as in 1,3-butadiene, CH₂=CH–CH=CH₂ — the molecule is a **conjugated diene**, and the four π electrons stop behaving as two independent pairs: they spread out, or **delocalize**, over the whole four-carbon chain. The payoff is real stability. Hydrogenating 1,3-butadiene releases measurably less heat than hydrogenating two isolated double bonds; the central C–C bond shortens below a normal single-bond length; and rotation about that bond becomes restricted. Molecular orbital (MO) theory explains all three observations with one picture: the four p orbitals combine into four π molecular orbitals — two bonding, two antibonding — and the four π electrons occupy the two bonding orbitals, not one. This topic develops that MO description and the thermochemical evidence behind it.
+
+## Why This Matters
+
+- **It changes reactivity.** Electrophilic addition to a conjugated diene gives *two* products (1,2- and 1,4-addition) via a resonance-stabilized allylic carbocation — behavior that only makes sense once you accept delocalization.
+- **It sets the stage for the Diels–Alder reaction** (topic 14.4), one of the most powerful C–C bond-forming reactions in synthesis, which requires a conjugated diene.
+- **It explains color and vision.** The longer the conjugated chain, the longer the absorption wavelength — the basis of UV spectroscopy (topics 14.7–14.9) and retinal chemistry.
+- **It underlies materials science.** Natural rubber and synthetic polymers are built from conjugated dienes (isoprene, butadiene) via 1,4-polymerization.
+- **It is a gateway concept.** Aromaticity is conjugation taken to a ring.
+
+## Core Concepts
+
+### What counts as a conjugated diene?
+
+The classification depends on the spacing of the double bonds:
+
+- **Conjugated:** alternating single and double bonds, C=C–C=C. Example: 1,3-butadiene.
+- **Isolated:** double bonds separated by two or more single bonds, C=C–C–C=C. Example: 1,4-pentadiene.
+- **Cumulated:** double bonds sharing a carbon, C=C=C. Example: allene, CH₂=C=CH₂ — a different beast, with perpendicular π systems.
+
+Only the conjugated pattern lets the p orbitals of all four carbons overlap in a continuous line — the requirement for delocalization.
+
+### Experimental evidence: heat of hydrogenation
+
+**Hydrogenation** adds H₂ across each double bond (typically over Pd/C) and releases heat. The more stable an alkene, the less heat it releases. A monosubstituted double bond like 1-butene's releases about 126 kJ/mol (30.3 kcal/mol) on hydrogenation; hydrogenating both double bonds of 1,3-butadiene releases about 239 kJ/mol (57.1 kcal/mol) — *less* than twice the single-bond value. Because the molecule releases less heat than expected, it must start at lower energy than two independent double bonds would. The difference, about 15 kJ/mol (3.5–4 kcal/mol), is the **conjugation (delocalization) energy**.
+
+### Bond-length evidence: a partial double bond in the middle
+
+Diffraction data on 1,3-butadiene show the outer bonds at 1.34 Å (normal C=C) but the central bond at 1.48 Å — shorter than the 1.54 Å of a normal C–C single bond. The central bond has acquired partial double-bond character because the π electrons spend some time there. The same delocalization restricts rotation about the central bond: rotating it costs conjugation energy, which is why the barrier is higher than in a typical single bond and why the molecule prefers planar conformations.
+
+### Molecular orbital picture of 1,3-butadiene
+
+Each of the four sp² carbons contributes one unhybridized p orbital. Combining four atomic orbitals produces four **π molecular orbitals**, ranked by energy and by the number of nodes (planes of zero electron density):
+
+| MO | Nodes | Character | Electrons |
+|---|---|---|---|
+| ψ₁ | 0 | bonding | 2 |
+| ψ₂ | 1 | bonding | 2 |
+| ψ₃ | 2 | antibonding | 0 |
+| ψ₄ | 3 | antibonding | 0 |
+
+The four π electrons fill ψ₁ and ψ₂ (Aufbau + Pauli + Hund). The key insight: in the isolated picture, two independent double bonds would place two electrons in each of two identical localized π bonds. In the conjugated picture, delocalization lowers ψ₁ and ψ₂ below the energy of a localized π bond, so the total π-electron energy drops — the MO translation of the hydrogenation data. The frontier orbitals (ψ₂, highest occupied, and ψ₃, lowest unoccupied) have their largest coefficients at the terminal carbons, exactly where electrophiles and dienophiles interact.
+
+### Conformations: s-cis and s-trans
+
+Because the central bond has partial double-bond character, butadiene prefers planar conformations, which come in two arrangements:
+
+- **s-trans** (double bonds on opposite sides): the lower-energy conformation of the free molecule.
+- **s-cis** (double bonds on the same side): higher in energy by roughly 16 kJ/mol (≈4 kcal/mol) due to steric repulsion between the terminal CH₂ groups.
+
+Both matter for chemistry: the Diels–Alder reaction requires the diene to react in its s-cis form, so conjugation energy pays for that conformational cost.
+
+## ELI-10: Explain Like I'm 10
+
+> Four electrons holding hands in a chain can either hold hands as two separate pairs or all hold hands in one big linked line. When they link up (conjugation), they feel safer and the whole group is more stable — like a line of people linking arms so nobody falls. You can "see" the extra safety by measuring how much energy it takes to break them apart: the linked group needs less energy than two separate pairs would. The middle of the chain even acts a little like a double bond, because the electrons visit there too.
+
+## High-Yield Points
+
+- Conjugated diene = alternating C=C–C=C; isolated = C=C–C–C=C; cumulated = C=C=C.
+- Conjugation stabilizes 1,3-butadiene by ~15 kJ/mol (3.5–4 kcal/mol) — less heat released on hydrogenation than two independent double bonds.
+- Central C–C bond of butadiene is 1.48 Å — between single (1.54 Å) and double (1.34 Å) — showing partial double-bond character.
+- MO theory: 4 p orbitals → 4 π MOs; ψ₁, ψ₂ bonding; ψ₃, ψ₄ antibonding; 4 electrons fill ψ₁ and ψ₂.
+- Frontier-orbital coefficients concentrate at the terminal carbons — the sites of electrophilic attack.
+- s-trans is more stable than s-cis by ~16 kJ/mol; Diels–Alder needs s-cis.
+- Rotation about the central bond is hindered — a diagnostic of conjugation.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| conjugated diene | Two double bonds separated by one single bond (C=C–C=C) | Continuous p-orbital overlap enables delocalization and extra stability |
+| isolated diene | Double bonds separated by two or more single bonds | No continuous overlap; behaves like two independent alkenes |
+| cumulated diene | Double bonds sharing one carbon (C=C=C) | Perpendicular π systems; reactivity unlike conjugated dienes |
+| heat of hydrogenation | Heat released when H₂ adds across a double bond | Lower release = more stable alkene; the classic measure of conjugation energy |
+| conjugation energy | Extra stability of a conjugated system vs. isolated double bonds (~15 kJ/mol for butadiene) | Quantifies delocalization; predicts reactivity and absorption |
+| π molecular orbital | A delocalized orbital from combining p orbitals across the chain | Explains electron distribution, stability, and reactivity |
+| node | A plane of zero electron density in an MO | Each node raises orbital energy; node count identifies bonding vs. antibonding |
+| s-cis / s-trans | Planar conformations about the central single bond | s-trans is more stable; s-cis is required for Diels–Alder |
+
+## How It Works / Step-by-Step Process
+
+1. Identify the pattern: count the single bonds between the double bonds (conjugated = 1, isolated = ≥2, cumulated = 0).
+2. If conjugated, confirm all double-bond carbons are sp² with parallel p orbitals.
+3. Count π electrons and p orbitals: \(n\) p orbitals → \(n\) π MOs.
+4. Fill the MOs from lowest energy (fewest nodes) upward; note that delocalization lowers the occupied levels.
+5. Translate the MO picture into observables: lower heat of hydrogenation, shortened central bond, hindered rotation, longer-wavelength UV absorption.
+
+## Worked Examples
+
+### Example 1: Quantifying conjugation energy from heats of hydrogenation
+
+**Formula first.** The predicted heat of hydrogenation for a diene whose double bonds act independently is twice that of a comparable monoalkene:
+
+\[
+\Delta H^\circ_{\text{predicted}} = 2 \times \Delta H^\circ_{\text{monoalkene}}
+\]
+
+and the conjugation energy is the gap between predicted and measured values:
+
+\[
+E_{\text{conjugation}} = \Delta H^\circ_{\text{predicted}} - \Delta H^\circ_{\text{measured}}
+\]
+
+**Substitution.** For 1-butene, \(\Delta H^\circ_{\text{hydrogenation}} \approx -126\ \text{kJ/mol}\), so:
+
+\[
+\Delta H^\circ_{\text{predicted}} = 2 \times (-126\ \text{kJ/mol}) = -252\ \text{kJ/mol}
+\]
+
+The measured value for 1,3-butadiene is ≈−239 kJ/mol (reported values range −236 to −254 kJ/mol depending on conditions — compare like with like):
+
+\[
+E_{\text{conjugation}} = (-252\ \text{kJ/mol}) - (-239\ \text{kJ/mol}) = -13\ \text{kJ/mol}
+\]
+
+The negative sign means the molecule sits *lower* in energy than the independent-double-bond prediction — stabilized by about 13–15 kJ/mol (3–4 kcal/mol). Unit check: every term is kJ/mol, so the subtraction is dimensionally consistent.
+
+### Example 2: Building the MO diagram and counting electrons
+
+**Given data.** 1,3-butadiene has four π electrons (one per double-bond carbon).
+
+**Method.** Combine the four p orbitals into four MOs ranked by nodes: ψ₁ (0 nodes, lowest), ψ₂ (1 node), ψ₃ (2 nodes), ψ₄ (3 nodes, highest). Fill with four electrons: ψ₁ gets 2, ψ₂ gets 2, ψ₃ and ψ₄ stay empty.
+
+**Interpretation.** All four electrons occupy bonding orbitals. In Hückel theory the conjugated π energy is \(E_\pi = 4\alpha + 4.47\beta\), versus \(4\alpha + 4.00\beta\) for two isolated double bonds, where \(\alpha\) is the Coulomb integral and \(\beta < 0\) is the resonance integral. The delocalization energy is therefore:
+
+\[
+E_{\text{delocalization}} = (4\alpha + 4.47\beta) - (4\alpha + 4.00\beta) = 0.47\beta < 0
+\]
+
+**Physical meaning.** The \(0.47|\beta|\) lowering (tens of kJ/mol in Hückel parametrizations) is the MO counterpart of the ~15 kJ/mol hydrogenation stabilization — the estimates bracket each other because Hückel β is an empirical parameter, not a direct thermochemical constant.
+
+### Example 3: Reading bond lengths as evidence of delocalization
+
+**Given data.** 1,3-butadiene: C1–C2 = C3–C4 = 1.34 Å, C2–C3 = 1.48 Å. Ethane C–C = 1.54 Å; ethylene C=C = 1.34 Å.
+
+**Reasoning.** If the central bond were pure single it would measure ~1.54 Å; pure double, ~1.34 Å. It sits at 1.48 Å. Assigning "double-bond character" by linear interpolation:
+
+\[
+\text{double-bond character} = \frac{1.54\ \text{Å} - 1.48\ \text{Å}}{1.54\ \text{Å} - 1.34\ \text{Å}} \times 100\% = \frac{0.06}{0.20} \times 100\% = 30\%
+\]
+
+**Conclusion.** The central bond has ~30% double-bond character — a direct structural fingerprint of delocalization. This is why the s-cis/s-trans conformations are planar and rotation about C2–C3 is hindered: rotating destroys the overlap that the 30% double-bond character represents.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| "Any molecule with two double bonds is conjugated" | Conjugation requires alternating C=C–C=C; isolated and cumulated dienes are not | Only the alternating pattern allows continuous p-orbital overlap |
+| "More double bonds = more heat released = more stable" | Stable alkenes release *less* heat on hydrogenation | Lower heat release means the starting material was lower in energy |
+| "Conjugation energy and aromatic stabilization are the same" | Aromatic stabilization (benzene, ~150 kJ/mol) is far larger than diene conjugation (~15 kJ/mol) | Aromaticity is a special cyclic case with its own rules (Hückel 4n+2) |
+| "The central bond of butadiene is a double bond" | It has *partial* double-bond character (~30%), not a full double bond | Length 1.48 Å and hindered rotation, but still formally single |
+| "s-cis and cis/trans isomers are the same idea" | s-cis/s-trans describes rotation about the central *single* bond; cis/trans describes double-bond stereochemistry | Different axes; s-cis is a conformer, not a configurational isomer |
+
+## Quick Review
+
+1. Why does 1,3-butadiene release less heat on hydrogenation than two independent double bonds would?
+2. How many π MOs and π electrons does 1,3-butadiene have, and which MOs are occupied?
+3. What is the measured length of the central C–C bond in 1,3-butadiene, and what does it imply?
+4. Which conformation — s-cis or s-trans — is more stable, and by roughly how much?
+5. Explain in one sentence why rotation about the central bond of butadiene is hindered.
+6. Classify CH₂=CH–CH₂–CH=CH₂ and CH₂=C=CH₂ as conjugated, isolated, or cumulated.
+
+<details>
+<summary>Show answers</summary>
+
+1. The four π electrons delocalize over the chain, lowering the molecule's energy; a lower-energy starting material releases less heat (conjugation energy ≈ 15 kJ/mol).
+2. Four π MOs (from four p orbitals) and four π electrons; ψ₁ and ψ₂ are occupied (2 electrons each); ψ₃ and ψ₄ are empty.
+3. About 1.48 Å — between single (1.54 Å) and double (1.34 Å), implying ~30% double-bond character from delocalization.
+4. s-trans, by roughly 16 kJ/mol (≈4 kcal/mol), due to lower steric repulsion between terminal CH₂ groups.
+5. Rotation about C2–C3 breaks the p-orbital overlap giving the central bond its partial double-bond character, costing conjugation energy.
+6. CH₂=CH–CH₂–CH=CH₂ is isolated (two single bonds between the double bonds); CH₂=C=CH₂ is cumulated (double bonds share a carbon).
+
+</details>
+
+## Related Topics
+
+- Next: [Electrophilic Additions to Conjugated Dienes: Allylic Carbocations](02-electrophilic-additions-to-conjugated-dienes-allylic-carbocations.md)
+- Related: [The Diels–Alder Cycloaddition Reaction](04-the-diels-alder-cycloaddition-reaction.md)
+- Related: [Ultraviolet Spectroscopy](07-ultraviolet-spectroscopy.md)
+- Related: [Conjugated Compounds and Ultraviolet Spectroscopy chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Organic Chemistry: A Tenth Edition
+- Local outline source: `organic-chemistry.md`
+- Official source URL: https://openstax.org/details/books/organic-chemistry/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Hydrogenation values: 1-butene ≈ −126 kJ/mol (−30.3 kcal/mol); 1,3-butadiene ≈ −239 kJ/mol (−57.1 kcal/mol) per current reference data; conjugation energy ~15 kJ/mol (3.5–4 kcal/mol), with source-dependent variation (LibreTexts places it near 25 kJ/mol depending on reference diene). s-cis/s-trans difference ≈ 16 kJ/mol; bond lengths (1.34/1.48/1.54 Å) are standard crystallographic values.
+- Last updated: 2026-08-16

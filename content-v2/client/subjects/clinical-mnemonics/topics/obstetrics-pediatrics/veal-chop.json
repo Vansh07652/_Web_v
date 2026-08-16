@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:clinical-mnemonics:obstetrics-pediatrics:veal-chop",
+  "slug": "veal-chop",
+  "title": "VEAL CHOP",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics"
+  },
+  "unit": {
+    "id": "unit:clinical-mnemonics:obstetrics-pediatrics",
+    "slug": "obstetrics-pediatrics",
+    "title": "Obstetrics & Pediatrics",
+    "order": 4
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "A paired mnemonic linking fetal heart rate patterns (Variable, Early, Accelerations, Late) to their causes (Cord compression, Head compression, Okay, Placental insufficiency) to guide interpretation of intrapartum fetal monitoring.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- **V** — Variable decelerations\n- **E** — Early decelerations\n- **A** — Accelerations\n- **L** — Late decelerations",
+    "collegeNotes": "**Status: current, with caveats.** The source library flags this one as still taught but qualified — read the safety notes on each component before relying on it.\n\nA paired mnemonic linking fetal heart rate patterns (Variable, Early, Accelerations, Late) to their causes (Cord compression, Head compression, Okay, Placental insufficiency) to guide interpretation of intrapartum fetal monitoring.\n\n### V — Variable decelerations\n\nCord compression\n\nAbrupt FHR decreases (onset to nadir <30 sec) of >=15 bpm below baseline, lasting >=15 sec to <2 min, with a V/W shape and no consistent timing relative to contractions. Caused by umbilical cord compression; the most common deceleration type.\n\n**Physiology.** Cord compression squeezes the umbilical vein first, briefly reducing blood return to the heart; deeper compression also affects the arteries, triggering abrupt baroreceptor/chemoreceptor responses.\n\n**Safety.** Recurrent, deep, or prolonged variable decelerations (especially with loss of variability) can progress to fetal hypoxia; new variable decels after membrane rupture require a sterile vaginal exam to rule out cord prolapse.\n\n### E — Early decelerations\n\nHead compression\n\nGradual, smooth U-shaped dips (onset to nadir >=30 sec) that mirror the contraction (onset, nadir, and recovery align with the contraction's beginning, peak, and end). Caused by fetal head compression and benign.\n\n**Physiology.** Head compression stimulates the vagus nerve; parasympathetic output transiently slows the sinoatrial node — a mechanical reflex, not hypoxia.\n\n**Safety.** Early decelerations require no intervention; overreacting (stopping oxytocin, urgent C-section) is unnecessary and can slow labor.\n\n### A — Accelerations\n\nOkay (reassuring)\n\nAbrupt increases in FHR: >=15 bpm above baseline for >=15 sec (<2 min) in a term fetus; >=10 bpm for >=10 sec before 32 weeks. A reassuring sign of fetal well-being and an intact, responsive CNS.\n\n**Physiology.** Accelerations accompany fetal movement and reflect a healthy sympathetic/parasympathetic balance — evidence the fetal brain is well-oxygenated.\n\n**Safety.** Do not confuse a return-to-baseline after a deceleration with a true acceleration; absent accelerations are not automatically abnormal if variability is present.\n\n### L — Late decelerations\n\nPlacental insufficiency (uteroplacental insufficiency)\n\nGradual, smooth dips whose onset, nadir, and recovery lag behind the contraction (nadir after the contraction peak). Caused by uteroplacental insufficiency; an ominous sign of fetal hypoxia.\n\n**Physiology.** Each contraction temporarily reduces uterine blood flow; an insufficient placenta has no reserve, so fetal oxygenation drops below tolerable levels and chemoreceptors trigger reflex bradycardia.\n\n**Safety.** Persistent late decelerations with absent variability meet Category III (abnormal) criteria — turn the client left lateral, stop oxytocin, give oxygen, increase fluids, notify the provider, and prepare for possible urgent delivery.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "- V = Variable decelerations\n- E = Early decelerations\n- A = Accelerations\n- L = Late decelerations",
+    "eli10": "VEAL CHOP is a cheat-sheet that matches what you see on the baby-heartbeat monitor (sharp V-dips, smooth U-dips, little speed-ups, late dips) with the reason it is happening, so you know whether the baby is okay or needs help.\n\n**V — Variable decelerations.** When the baby's oxygen hose (umbilical cord) is squeezed, less blood gets through and the heartbeat dips like a sharp V, at random times and depths.\n\n**E — Early decelerations.** When the baby's head is squeezed during a contraction, a nerve gets a gentle pinch that slows the heart a little, exactly while the squeeze is happening — the dip mirrors the contraction.\n\n**A — Accelerations.** A happy, well-oxygenated baby revs its heartbeat up briefly — these little speed-ups are the baby waving 'I'm fine in here!'\n\n**L — Late decelerations.** When the placenta's oxygen river is running low, each contraction makes it worse, and the baby's heartbeat dips late — after the contraction peaks — because the oxygen shortage shows up once the squeeze has done its damage.",
+    "quickReview": "- V = Variable decelerations — Cord compression\n- E = Early decelerations — Head compression\n- A = Accelerations — Okay (reassuring)\n- L = Late decelerations — Placental insufficiency (uteroplacental insufficiency)",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Intrapartum Fetal Heart Rate Monitoring (Three-Tier Category System) — American College of Obstetricians and Gynecologists / NICHD",
+        "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "veal-chop",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-nursing-mnemonics",
+    "sourceFile": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json",
+    "sourceStatus": "CURRENT_WITH_CAVEATS",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-clinical-mnemonics"
+  },
+  "sourceSnapshotMarkdown": ""
+}

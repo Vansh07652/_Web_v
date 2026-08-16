@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:substitution-and-elimination:the-sn2-mechanism",
+  "slug": "the-sn2-mechanism",
+  "title": "The SN2 Mechanism",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:substitution-and-elimination",
+    "slug": "substitution-and-elimination",
+    "title": "Substitution and Elimination",
+    "order": 5
+  },
+  "order": 20,
+  "status": "final",
+  "sections": {
+    "overview": "SN2 stands for bimolecular nucleophilic substitution: the rate depends on both the substrate and the nucleophile. In one concerted step, the nucleophile attacks the backside of the carbon, 180° away from the leaving group, and the new bond forms as the old bond breaks. The result is inversion of configuration at the reacting carbon. SN2 works best on methyl and primary substrates with strong nucleophiles, good leaving groups, and polar aprotic solvents.",
+    "whyItMatters": "SN2 reactions are a workhorse for building carbon–heteroatom and carbon–carbon bonds in drug synthesis — for example, installing a nitrile, azide, or amine handle that later becomes part of a drug candidate. The strict stereospecificity of SN2 is clinically relevant because drug activity often depends on a single enantiomer; an SN2 step can invert a stereocenter cleanly rather than scrambling it. As always, preparative procedures, reagent quantities, and safety measures must follow institutional documentation and are not reproduced here.",
+    "learningObjectives": "1. State the meaning of \"SN2\" and the rate law \\(k\\,[\\text{RX}]\\,[\\text{Nu}^{-}]\\).\n2. Describe the one-step, concerted mechanism with backside attack and Walden inversion.\n3. Explain how substrate structure, nucleophile strength, leaving-group ability, and solvent influence SN2 rates.\n4. Draw and interpret SN2 energy diagrams and predict the stereochemical outcome.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| SN2 | Bimolecular nucleophilic substitution | Names the mechanism: rate depends on substrate and nucleophile |\n| Concerted | Bond-making and bond-breaking in one step | Explains the single transition state and absence of an intermediate |\n| Rate law | \\(k\\,[\\text{RX}]\\,[\\text{Nu}^{-}]\\) | Second-order kinetics is the experimental signature of SN2 |\n| Backside attack | Nucleophile approaches 180° from the leaving group | Minimizes repulsion and forces inversion |\n| Walden inversion | Stereochemical inversion at the reacting carbon | Makes SN2 stereospecific |\n| Steric hindrance | Bulk of alkyl groups blocking approach | Explains why tertiary substrates fail |\n| Polar aprotic solvent | Polar solvent with no O–H or N–H bonds (for example, DMSO) | Leaves the nucleophile reactive, speeding SN2 |",
+    "collegeNotes": "### 1. The One-Step, Concerted Mechanism and Rate Law\n\nSN2 is a single elementary step. The nucleophile donates its lone pair into the σ* antibonding orbital of the C–X bond while the leaving group departs with the bonding electrons. Because both the substrate and the nucleophile appear in the rate-determining (and only) step, the rate law is:\n\n\\[\\text{rate} = k\\,[\\text{RX}]\\,[\\text{Nu}^{-}]\\]\n\nDoubling either the substrate or the nucleophile doubles the rate (second order overall).\n\n### 2. Backside Attack and Walden Inversion\n\nThe nucleophile approaches along the axis of the C–X bond, from the side opposite the leaving group (180°). This backside approach minimizes repulsion between the incoming electrons and the departing leaving group. The three remaining substituents \"flip\" through a planar transition state, inverting configuration — the Walden inversion. SN2 is therefore stereospecific: a single enantiomeric starting material gives a single enantiomeric product with opposite configuration.\n\n### 3. Factors Governing SN2 Reactivity\n\n- **Substrate (steric hindrance):** methyl > primary > secondary >> tertiary. Tertiary substrates do not undergo SN2 because three alkyl groups block backside approach.\n- **Nucleophile strength:** strong, concentrated nucleophiles (for example, I⁻, Br⁻, CN⁻, N₃⁻, RS⁻) accelerate the reaction.\n- **Leaving group:** good leaving groups (weak bases) are required; I⁻ > Br⁻ > Cl⁻ > F⁻.\n- **Solvent:** polar aprotic solvents (DMSO, DMF, acetone, acetonitrile) solvate cations but leave the nucleophile's anion \"naked\" and highly reactive. Polar protic solvents slow SN2 by hydrogen-bonding to the nucleophile.",
+    "howItWorks": "1. A strong nucleophile with a lone pair approaches the backside of the C–X bond.\n2. The lone pair overlaps the σ* orbital of C–X, weakening that bond.\n3. A single transition state forms with partial bonds to both the nucleophile and the leaving group.\n4. The C–X bond fully breaks as the leaving group departs with both electrons.\n5. The three substituents invert, giving the substitution product with inverted configuration.",
+    "comparisons": "",
+    "highYield": "- **High yield:** SN2 = one step, second order, inversion of configuration.\n- **High yield:** Reactivity order by substrate: methyl > 1° > 2° >> 3° (no SN2 at tertiary).\n- **High yield:** Strong nucleophiles and good leaving groups speed up SN2.\n- **High yield:** Polar aprotic solvents accelerate SN2; polar protic solvents slow it.\n- **High yield:** SN2 is stereospecific — configuration inverts at the reacting carbon.\n- The nucleophile can be neutral (for example, NH₃, H₂O) or anionic, but anionic nucleophiles are generally stronger.\n- **High yield:** A classic exam trap is writing SN2 on a tertiary substrate, or forgetting that the product is the inverted enantiomer.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Transition state | Intermediate | A transition state is a fleeting, unisolable maximum; an intermediate is a real species at an energy minimum |\n| Nucleophilicity | Basicity | Nucleophilicity is a kinetic rate factor; basicity is a thermodynamic proton-affinity |\n| Inversion | Racemization | SN2 inverts configuration (one enantiomer in, one out); SN1 gives racemic mixtures |\n| Polar aprotic | Polar protic | Aprotic has no acidic O–H/N–H to solvate the anion; protic does and slows SN2 |",
+    "memoryAids": "\"**B**ackside, **B**oth, **B**ig-bulky-blocked\" — SN2 is Backside attack, depends on Both reactants, and is Blocked by bulky (tertiary) substrates.",
+    "eli10": "Picture a crowded four-person seat on a bus where one passenger (the leaving group) is about to get off. The incoming passenger (the nucleophile) cannot push in from the same door the leaving passenger is using; instead, the new passenger slides in from the opposite side, and in the same smooth motion the old passenger is pushed out the far side. That is exactly how SN2 works: attack from the backside while the leaving group departs from the front.\n\nThe \"umbrella flip\" is the classic comparison: if you push an umbrella open in a strong wind, the canopy can invert and blow inside-out. The carbon's three substituents \"flip\" like an umbrella as the nucleophile attacks the backside, so the product has the opposite three-dimensional arrangement — inversion of configuration.\n\nWhere this stops being exact: the umbrella image makes it look like two separate events, but SN2 is *concerted* — bond-making and bond-breaking happen at the same time through a single transition state, with no intermediate. Also, the \"flip\" only inverts configuration when the reacting carbon is a stereocenter; if the substrate is achiral, no configuration change is observable even though the geometry still inverts.\n\n### Simple Example\n\nHydroxide attacks methyl bromide. OH⁻ approaches from the backside of the C–Br bond; as the C–O bond forms, the C–Br bond breaks, and Br⁻ leaves. The single transition state has a partially formed C–O bond and a partially broken C–Br bond, and methanol (CH₃OH) is the product.",
+    "quickReview": "### Topic Recap\n\nSN2 is a concerted, second-order nucleophilic substitution with backside attack and inversion of configuration. It is fastest for methyl and primary substrates, favors strong nucleophiles and good leaving groups, and is accelerated by polar aprotic solvents. Its clean stereospecificity makes it invaluable in synthesis and a favorite exam target.\n\n### Knowledge Check\n\n1. Write the rate law for an SN2 reaction and state the overall kinetic order.\n2. Why does (CH₃)₃CBr not undergo SN2?\n3. What stereochemical change occurs at the reacting carbon in an SN2 reaction?\n4. Why do polar aprotic solvents speed up SN2?\n5. Which substrate reacts fastest with NaCN by SN2: CH₃Br, CH₃CH₂Br, or (CH₃)₂CHBr?\n\n### Answers and Rationales\n\n1. \\(k\\,[\\text{RX}]\\,[\\text{Nu}^{-}]\\), second order overall — both species are in the single rate-determining step.\n2. Three methyl groups sterically block backside approach; the bulky tertiary carbon also does not readily form a bond to the incoming nucleophile.\n3. Inversion of configuration (Walden inversion) — attack from the backside flips the substituents.\n4. They solvate cations tightly but leave the anionic nucleophile unsolvated and \"naked,\" which raises its reactivity.\n5. CH₃Br — methyl has the least steric hindrance, so backside attack is fastest.",
+    "workedExamples": "Walk through the SN2 reaction of cyanide with (R)-2-bromobutane.\n\n1. **Identify the electrophile and nucleophile.** The δ+ carbon bearing bromine is the electrophilic center; the cyanide ion (CN⁻) is the nucleophile, donating a lone pair.\n2. **Draw electron movement before products.** A double-headed curved arrow starts on the CN⁻ lone pair and points to the backside carbon. A second double-headed arrow starts at the C–Br bond and points to bromine, showing Br⁻ leaving with its bonding pair.\n3. **Show the transition state.** The carbon is trigonal planar with three groups in a plane; the incoming CN and the departing Br are on opposite sides, each with partial bonds (C···CN, C···Br).\n4. **Account for electrons and charge.** CN⁻ loses its lone pair into a new bond (neutral contribution) and Br⁻ gains the old bond's pair, becoming Br⁻. Net charge is conserved: the (−1) reactant nucleophile becomes the (−1) product bromide.\n5. **State the stereochemistry.** The (R) starting material inverts to the (S) product — 2-methylbutanenitrile with inverted configuration.\n6. **Verify atom balance.** C₄H₉Br + CN⁻ → C₄H₉CN + Br⁻; all atoms are conserved.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "the-sn2-mechanism",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "20-the-sn2-mechanism",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/20-the-sn2-mechanism.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:human-physiology-2:systems-physiology:the-cardiac-cycle",
+  "slug": "the-cardiac-cycle",
+  "title": "The Cardiac Cycle",
+  "subject": {
+    "id": "subject:human-physiology-2",
+    "slug": "human-physiology-2",
+    "title": "Human Physiology II"
+  },
+  "unit": {
+    "id": "unit:human-physiology-2:systems-physiology",
+    "slug": "systems-physiology",
+    "title": "Systems Physiology",
+    "order": 1
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "The cardiac cycle is one complete sequence of contraction and relaxation, timed by the electrical events and regulated by pressure differences across the heart's valves. It proceeds through atrial systole, isovolumetric contraction, ventricular ejection, isovolumetric relaxation, and ventricular filling. Valves open and close passively in response to pressure gradients, producing the heart sounds S1 (AV valve closure) and S2 (semilunar valve closure). The pressure-volume loop summarizes these events, and the difference between end-diastolic volume (EDV) and end-systolic volume (ESV) is the stroke volume ejected each beat.",
+    "whyItMatters": "Pressure-volume loops and ejection fraction are used to assess ventricular performance; a reduced ejection fraction can indicate impaired systolic function. Heart sounds and murmurs are auscultated to screen for valve disease. Precise measurements, reference ranges, and diagnostic thresholds vary by institution and jurisdiction; any concerning symptoms require immediate evaluation by qualified clinicians or local emergency services. These notes support education and do not replace clinical instruction or supervision.",
+    "learningObjectives": "1. Name and sequence the phases of the cardiac cycle (atrial systole, isovolumetric contraction, ventricular ejection, isovolumetric relaxation, ventricular filling).\n2. Read a Wiggers diagram, correlating pressure, volume, ECG, and heart sounds across time.\n3. Explain the origin of S1 and S2 and how murmurs arise.\n4. Interpret the pressure-volume loop and define EDV, ESV, and stroke volume.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Atrial systole | Atrial contraction that tops off ventricular filling | Provides the final ~20% of filling (atrial kick) |\n| Isovolumetric contraction | Ventricular squeeze with all valves closed, volume constant | Builds the pressure needed to open the aortic valve |\n| Ventricular ejection | Blood pumped out while the semilunar valve is open | Delivers the stroke volume to the circulation |\n| Isovolumetric relaxation | Ventricular relaxation with all valves closed, volume constant | Lets pressure fall so the mitral valve can reopen |\n| EDV | End-diastolic volume, blood in the ventricle at the end of filling | Sets the starting volume (and preload) for the next beat |\n| ESV | End-systolic volume, blood left after ejection | Determines stroke volume when subtracted from EDV |\n| Stroke volume | EDV − ESV, the volume ejected per beat | The volume per beat that drives cardiac output |",
+    "collegeNotes": "### 1. Phases of the Cardiac Cycle\n- Atrial systole: the atria contract, delivering the final ~20% of ventricular filling (the \"atrial kick\"), bringing the ventricles to end-diastolic volume (EDV).\n- Isovolumetric contraction: the ventricles begin to contract with all valves closed; pressure rises steeply while volume stays constant (between mitral closure and aortic opening).\n- Ventricular ejection: when ventricular pressure exceeds aortic pressure, the aortic valve opens and blood is ejected (rapid, then reduced ejection) until end-systolic volume (ESV) is reached.\n- Isovolumetric relaxation: the ventricles relax with all valves closed; pressure falls steeply while volume stays constant (between aortic closure and mitral opening).\n- Ventricular filling: when ventricular pressure falls below atrial pressure, the mitral valve opens; blood pours in (rapid filling, then diastasis), setting up the next cycle.\n\n### 2. The Wiggers Diagram\nThe Wiggers diagram plots, on one time axis, aortic pressure, left ventricular pressure, left atrial pressure, left ventricular volume, the ECG, and the phonocardiogram (heart sounds). It shows how electrical events (ECG) precede mechanical events (pressure and volume), and how valve openings and closings coincide with pressure crossovers.\n\n### 3. Heart Sounds and Murmurs\nS1 (\"lub\") is the closure of the AV valves (mitral and tricuspid) at the start of systole. S2 (\"dub\") is the closure of the semilunar valves (aortic and pulmonary) at the start of diastole. S3 reflects rapid ventricular filling, and S4 reflects atrial contraction into a stiff ventricle. Murmurs are turbulent-flow sounds produced by narrowed (stenotic) or leaky (regurgitant) valves.",
+    "howItWorks": "1. Late in diastole, the SA node fires; the atria contract (atrial systole), finishing ventricular filling.\n2. Ventricular contraction begins; rising pressure closes the AV valves, producing S1.\n3. With all valves shut, pressure builds (isovolumetric contraction).\n4. Ventricular pressure exceeds aortic pressure, opening the aortic valve and beginning ejection.\n5. Ejection slows as the ventricle empties; ventricular pressure falls below aortic pressure and the aortic valve closes, producing S2.\n6. With all valves shut, the ventricle relaxes (isovolumetric relaxation).\n7. Ventricular pressure falls below atrial pressure, opening the mitral valve for rapid filling, diastasis, and the next atrial systole.",
+    "comparisons": "",
+    "highYield": "- **High yield:** S1 = closure of the AV valves at the start of systole; S2 = closure of the semilunar valves at the start of diastole.\n- **High yield:** Stroke volume = EDV − ESV; ejection fraction = SV/EDV × 100% (normal ~55–65%).\n- **High yield:** In the isovolumetric phases the volume is constant — only pressure changes, because all valves are closed.\n- Valves open and close passively, driven by pressure gradients, not by direct neural commands.\n- The Wiggers diagram aligns ECG, pressure, volume, and sounds so electrical and mechanical events can be compared in time.\n- Murmurs reflect turbulent flow through stenotic or regurgitant valves.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Isovolumetric contraction | Ventricular ejection | In isovolumetric contraction volume is constant (no blood moves); in ejection the aortic valve is open and volume falls |\n| S1 | S2 | S1 is AV valve closure (start of systole); S2 is semilunar closure (start of diastole) |\n| EDV | ESV | EDV is volume after filling (maximum); ESV is volume after ejection (minimum); their difference is stroke volume |\n| Atrial systole | Ventricular systole | Atrial systole tops off filling; ventricular systole ejects blood into the arteries |",
+    "memoryAids": "**\"All Is Voluntarily Entered Viciously\"** for the phases in order: **A**trial systole, **I**sovolumetric contraction, **V**entricular **E**jection, **I**sovolumetric relaxation, **V**entricular filling. Or remember the valve-sound pairing: \"**L**ub = **L**eaflet (AV) valves close; **D**ub = **D**oor (semilunar) valves close.\"",
+    "eli10": "Picture two balloons connected by a one-way valve, with another one-way valve leading out. When the top balloon squeezes, it tops off the bottom balloon. Then the bottom balloon squeezes — but the doors stay shut for a moment while pressure builds, like a hand over a garden hose before the water finally blasts out. After the squeeze, the bottom balloon relaxes, the exit door slams shut (\"dub\"), and fresh blood rushes in through the entrance door (\"lub\").\n\nComparison: it is like a four-stroke engine — intake, compress, power, exhaust — but for blood, with valves deciding when each chamber can fill or empty.\n\nWhere it stops being exact: in the heart, valves are not \"told\" to open — they open and close purely because the pressure on one side exceeds the other. And the \"compress\" phase (isovolumetric contraction) moves no blood at all; it is purely a pressure-building step.\n\n### Simple Example\nBlow up a balloon, pinch the neck, then release your fingers. The balloon empties only when the pressure inside exceeds the pressure outside. The heart works the same way: each chamber squeezes to raise its pressure above the next compartment, and only then does its valve open and blood move.",
+    "quickReview": "### Topic Recap\n\nThe cardiac cycle sequences atrial systole, isovolumetric contraction, ejection, isovolumetric relaxation, and filling, all coordinated by pressure gradients that open and close the valves. The Wiggers diagram and pressure-volume loop correlate these mechanical events with the ECG and heart sounds, and stroke volume (EDV − ESV) is the amount of blood ejected each beat.\n\n### Knowledge Check\n\n1. During which phase(s) is ventricular volume constant even though the ventricle is contracting or relaxing?\n2. What produces S1 and S2?\n3. If EDV is 130 mL and ESV is 60 mL, what are the stroke volume and the ejection fraction?\n4. Why must isovolumetric contraction precede ejection?\n5. What does the width of the pressure-volume loop represent?\n\n### Answers and Rationales\n\n1. During isovolumetric contraction and isovolumetric relaxation, all valves are closed, so volume stays constant while pressure changes.\n2. S1 is produced by closure of the AV (mitral/tricuspid) valves at the start of systole; S2 by closure of the semilunar (aortic/pulmonary) valves at the start of diastole.\n3. SV = 130 − 60 = 70 mL; ejection fraction = 70/130 × 100% ≈ 54%.\n4. Isovolumetric contraction raises ventricular pressure above aortic pressure; only then can the aortic valve open and ejection begin.\n5. The loop's width (EDV − ESV) represents stroke volume.",
+    "workedExamples": "The pressure-volume (PV) loop plots left ventricular pressure (y-axis) against volume (x-axis), tracing four numbered segments:\n\n1. Ventricular filling (bottom edge, moving right): the mitral valve is open; volume rises from ESV to EDV at low pressure. EDV (~120 mL) is the volume at the end of filling.\n2. Isovolumetric contraction (left edge, moving up): volume is fixed at EDV while pressure rises until it exceeds aortic pressure. No blood moves.\n3. Ejection (top edge, moving left): the aortic valve opens; volume falls from EDV to ESV (~50 mL) while pressure stays high. Stroke volume (SV) = EDV − ESV (~70 mL).\n4. Isovolumetric relaxation (right edge, moving down): volume is fixed at ESV while pressure drops below atrial pressure, reopening the mitral valve.\n\nThe loop's width equals stroke volume, and its enclosed area approximates the external (pressure–volume) work of the ventricle. Ejection fraction = (SV / EDV) × 100%, normally about 55–65%. The direction of each edge follows pressure gradients: volume changes only when a valve is open, and valves open only when the upstream pressure exceeds the downstream pressure.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "the-cardiac-cycle",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "03-the-cardiac-cycle",
+      "kind": "source_file_stem",
+      "source_id": "need-review-human-physiology-ii"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-human-physiology-ii",
+    "sourceFile": "human-physiology-ii-study-notes/docs/human-physiology-ii/03-the-cardiac-cycle.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

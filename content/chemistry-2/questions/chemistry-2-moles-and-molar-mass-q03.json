@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-moles-and-molar-mass-q03",
+  "subject": "chemistry-2",
+  "lesson": "moles-and-molar-mass",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A laboratory sample contains 116.88 g of sodium chloride (molar mass 58.44 g/mol). How many moles of sodium chloride are present?",
+  "options": [
+    {
+      "id": "a",
+      "text": "0.5 mol, obtained by dividing the molar mass by the sample mass"
+    },
+    {
+      "id": "b",
+      "text": "2 mol, obtained by dividing the sample mass by the molar mass"
+    },
+    {
+      "id": "c",
+      "text": "58.44 mol, since the molar mass reports the mole count of the sample directly"
+    },
+    {
+      "id": "d",
+      "text": "6830 mol, obtained by multiplying the sample mass by the molar mass"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Moles are obtained by dividing the measured mass by the molar mass: 116.88 g / 58.44 g/mol = 2 mol. Dimensional analysis confirms the setup, because grams divided by grams per mole leaves moles. Option A inverts the ratio, giving 0.5 with units of mol^-1 (grams per mole divided by grams leaves 1/mol), and option D multiplies, giving about 6830 with units of g^2/mol; neither result carries the unit mol, so checking units catches both errors before the number is reported. Option C simply repeats the molar mass value and ignores the sample mass entirely.\n\nELI-10: If one sack of flour weighs 5 pounds and you are holding 10 pounds of flour, you have 10 / 5 = 2 sacks. Molar mass is the weight of one sack of particles, 58.44 g per mole for table salt, and your sample weighs 116.88 g. Divide and you get 2 sacks, meaning 2 moles. Carry the units through the arithmetic as a check: g divided by g/mol leaves mol, which is what the question asked for. If you divide or multiply the other way around, the leftover units are not moles, which is your signal to flip the setup and try again.",
+  "difficulty": "easy",
+  "tags": [
+    "mass to mole conversion",
+    "dimensional analysis",
+    "molar mass"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-277",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

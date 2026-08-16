@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:electrochemistry:concentration-cells",
+  "slug": "concentration-cells",
+  "title": "Concentration Cells",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:electrochemistry",
+    "slug": "electrochemistry",
+    "title": "Electrochemistry",
+    "order": 8
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "A **concentration cell** is a galvanic cell whose two half-cells use the *same* electrode and ion but at *different concentrations*. There is no difference in standard potentials, so E° = 0; the driving force is purely the concentration difference, which makes electrons flow from the more dilute side to the more concentrated side until the concentrations equalize. Its potential is given by the Nernst equation with E° = 0: E = −(RT/nF) ln Q. Concentration cells are the basis of pH meters, ion-selective electrodes, and biological membrane potentials.",
+    "whyItMatters": "Concentration cells turn \"chemical potential from a concentration gradient\" into measurable electricity. They underlie pH and ion-selective electrodes (the glass electrode reads H⁺ concentration from a voltage), nerve-cell membrane potentials, and even corrosion (different ion concentrations along a metal surface can set up local cells). They are also a clean demonstration that spontaneity can be driven by entropy (dilution) alone, with no change in chemical identity.",
+    "learningObjectives": "- Define a concentration cell and explain what drives its voltage.\n- Calculate the potential of a concentration cell using the Nernst equation.\n- Explain why E° = 0 for a concentration cell yet E ≠ 0 in practice.\n- Describe how concentration cells reach equilibrium (E → 0 as concentrations equalize).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA **concentration cell** is a galvanic cell whose two half-cells use the *same* electrode and ion but at *different concentrations*. There is no difference in standard potentials, so E° = 0; the driving force is purely the concentration difference, which makes electrons flow from the more dilute side to the more concentrated side until the concentrations equalize. Its potential is given by the Nernst equation with E° = 0: E = −(RT/nF) ln Q. Concentration cells are the basis of pH meters, ion-selective electrodes, and biological membrane potentials.\n\n### Key Ideas\n\n- **Same chemistry, different concentration.** Both electrodes are identical (e.g., Cu | Cu²⁺), so E° = 0.\n- **Dilution drives flow.** The dilute half-cell is the anode (oxidation, producing more ions); the concentrated half-cell is the cathode (reduction, consuming ions).\n- **Spontaneous equalization.** The cell runs until both concentrations are equal — at which point Q = 1, ln Q = 0, and E = 0.\n- **Nernst with E° = 0.** E = −(RT/nF) ln Q = (RT/nF) ln(c_high/c_low).\n- **Concentration → voltage.** Measuring E lets you read an unknown concentration (the principle of a pH meter).\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| E | Cell potential (nonzero from Δconcentration) | V |\n| E° | Standard cell potential (= 0 for a concentration cell) | V |\n| Q | Reaction quotient = c_low / c_high | dimensionless |\n| n | Electrons transferred | mol e⁻ |\n\nE = −(RT/nF) ln Q  (with E° = 0); at 25 °C, E = −(0.0592 V/n) log Q\n\n### How It Works\n\n1. Set up two half-cells of the same metal/metal-ion system with different ion concentrations.\n2. The dilute side tends to generate ions (oxidation at the anode); the concentrated side consumes them (reduction at the cathode).\n3. Electrons flow through the wire from dilute to concentrated; ions migrate through the salt bridge.\n4. As ions move, the concentrations converge, Q → 1, and E decays to zero.\n5. The measured E before equalization encodes the concentration ratio (Nernst equation).\n\n### Worked Example\n\n**A concentration cell has Cu electrodes in 1.0 M and 0.0010 M Cu²⁺ solutions at 25 °C. Find E.**\n\n- n = 2 (Cu²⁺ + 2 e⁻ ⇌ Cu).\n- Q = c_dilute / c_concentrated = 0.0010 / 1.0 = 1.0 × 10⁻³.\n- E = −(0.0592 V/2) log Q = −0.0296 × log(1.0 × 10⁻³)\n- = −0.0296 × (−3.0) = **+0.089 V**\n\nThe cell produces about 89 mV purely from the 1000-fold concentration difference. As ions migrate, the two concentrations converge and the voltage drops to zero.",
+    "howItWorks": "1. Set up two half-cells of the same metal/metal-ion system with different ion concentrations.\n2. The dilute side tends to generate ions (oxidation at the anode); the concentrated side consumes them (reduction at the cathode).\n3. Electrons flow through the wire from dilute to concentrated; ions migrate through the salt bridge.\n4. As ions move, the concentrations converge, Q → 1, and E decays to zero.\n5. The measured E before equalization encodes the concentration ratio (Nernst equation).",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Concentration cell: identical electrodes, different ion concentrations.\n- E° = 0; the voltage comes entirely from the concentration difference.\n- Dilute side = anode (oxidation); concentrated side = cathode (reduction).\n- E = −(0.0592/n) log(c_low/c_high) at 25 °C.\n- E → 0 as the concentrations equalize (equilibrium).\n- Basis of pH meters and ion-selective electrodes.",
+    "commonConfusions": "- **\"A concentration cell has no voltage because E° = 0.\"** — Wrong. E° = 0, but E ≠ 0 as long as the concentrations differ; the Nernst term supplies the voltage.\n- **\"Electrons flow from concentrated to dilute.\"** — Wrong. The dilute side oxidizes (anode), sending electrons to the concentrated side.\n- **\"The cell runs until one side is empty.\"** — Wrong. It runs until the concentrations *equalize*; then E = 0.\n- **\"The electrodes must be different metals.\"** — Wrong. Concentration cells use the *same* electrode on both sides.\n- **\"Q = c_high/c_low.\"** — Wrong. For the cell as written (dilute → concentrated), Q = c_low/c_high, which is < 1 so E comes out positive.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine two identical water tanks connected by a pipe, one nearly empty and one full. Water flows from the full tank to the empty one until both are level — even though the tanks are identical. A concentration cell is the same idea with ions: the \"full\" side hands ions to the \"empty\" side, and that flow of charge is a current. The bigger the level difference, the stronger the flow. Once both tanks are level (equal concentration), the flow stops and the voltage is zero. (The limit: the \"flow\" is ions and electrons moving in opposite parts of the circuit, and the voltage you can read is tiny — around 0.059 V per ten-fold difference.)",
+    "quickReview": "- Concentration cell: same electrode, different ion concentrations.\n- E° = 0; E = −(0.0592/n) log(c_low/c_high) at 25 °C.\n- Dilute = anode, concentrated = cathode.\n- Voltage fades to zero as concentrations equalize.\n- Underpins pH meters and ion-selective electrodes.",
+    "workedExamples": "### Worked Example\n\n**A concentration cell has Cu electrodes in 1.0 M and 0.0010 M Cu²⁺ solutions at 25 °C. Find E.**\n\n- n = 2 (Cu²⁺ + 2 e⁻ ⇌ Cu).\n- Q = c_dilute / c_concentrated = 0.0010 / 1.0 = 1.0 × 10⁻³.\n- E = −(0.0592 V/2) log Q = −0.0296 × log(1.0 × 10⁻³)\n- = −0.0296 × (−3.0) = **+0.089 V**\n\nThe cell produces about 89 mV purely from the 1000-fold concentration difference. As ions migrate, the two concentrations converge and the voltage drops to zero.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 17.4 \"Potential, Free Energy, and Equilibrium.\" https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium"
+      },
+      {
+        "text": "LibreTexts, *Chemistry 2e (OpenStax)*, Ch. 17 \"Electrochemistry.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenSTAX%29/17%3A_Electrochemistry",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenSTAX%29/17%3A_Electrochemistry"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/17-electrochemistry/09-concentration-cells.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

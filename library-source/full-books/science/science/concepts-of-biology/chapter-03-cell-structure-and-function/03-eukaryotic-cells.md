@@ -1,0 +1,165 @@
+---
+title: "Eukaryotic Cells"
+subject: "Science"
+book: "Concepts of Biology"
+chapter: "3: Cell Structure and Function"
+topic_number: "3"
+source: "concepts-biology.md"
+tags:
+  - "eukaryotic-cells"
+  - "science"
+status: "complete"
+---
+
+# Eukaryotic Cells
+
+> **Book:** [Concepts of Biology](../../README.md)  
+> **Chapter:** [Chapter 3: Cell Structure and Function](../README.md)  
+> **Topic:** 3  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Eukaryotic cells are the "big houses" of the cellular world: they contain a membrane-bound nucleus and a collection of specialized, membrane-bound compartments called **organelles**, each running its own part of the cell's business. This topic is a tour of that house, room by room. You will meet the **nucleus** (information center), **ribosomes** (protein builders), the **endomembrane system** — endoplasmic reticulum, Golgi apparatus, lysosomes, and vesicles (the production and shipping line) — plus **mitochondria** (power plants), the **cytoskeleton** (internal framework), and the plant-only additions: chloroplasts, the central vacuole, and the cell wall. The goal is not to memorize a list but to build a mental map of *which organelle does what, where it sits, and how it connects to the others* — because nearly every process in the rest of this book (energy, inheritance, cell division, immunity) runs through these compartments.
+
+## Why This Matters
+
+Organelles are where life's chemistry is organized, and knowing them by function unlocks human health and disease. Mitochondrial dysfunction underlies a family of metabolic disorders and contributes to aging; lysosomes that fail to degrade waste cause storage diseases; defects in the ER's protein-folding machinery are implicated in diseases like cystic fibrosis and some neurodegenerations. Even everyday facts trace to organelles: drug toxicity, muscle fatigue, and the liver's ability to detoxify chemicals all depend on organelle function (the smooth ER of liver cells is packed with detoxifying enzymes). For exams, expect organelle-function matching questions, "found in plant cells but not animal cells" questions, and pathway questions tracing a protein from ribosome to secretion. Build the map now and the rest of the course is easier.
+
+## Core Concepts
+
+### The nucleus: the cell's information center
+
+The **nucleus** is the defining organelle of eukaryotes. It is enclosed by the **nuclear envelope** — a double membrane pierced by **nuclear pores** that control traffic of RNA and proteins in and out. Inside:
+
+- **Chromatin** — DNA wound around histone proteins. During cell division it condenses into visible **chromosomes**.
+- The **nucleolus** — a dense region where **ribosomal RNA (rRNA)** is made and ribosome subunits are assembled.
+
+The nucleus holds the instructions, but the work happens elsewhere: messenger RNA (mRNA) carries copies of genes out through the pores to the ribosomes.
+
+### Ribosomes and the endomembrane system: making and shipping proteins
+
+**Ribosomes** build proteins by translating mRNA. **Free ribosomes** float in the cytoplasm (making proteins used inside the cell); **bound ribosomes** attach to the rough ER (making proteins destined for membranes, secretion, or organelles). Ribosomes are not membrane-bound organelles — they are large RNA–protein machines.
+
+The **endoplasmic reticulum (ER)** comes in two flavors:
+
+- **Rough ER** — studded with bound ribosomes; the site where secreted and membrane proteins are folded and modified. It is continuous with the nuclear envelope.
+- **Smooth ER** — no ribosomes; synthesizes **lipids** (phospholipids, steroids), stores calcium ions in muscle cells, and detoxifies drugs and poisons (especially in liver cells).
+
+The **Golgi apparatus** is the cell's shipping and sorting center: a stack of flattened sacs that receives vesicles from the ER, modifies proteins and lipids further (e.g., adding sugar groups), and packages them into **vesicles** for delivery to their destinations. The flow is a production line: **ribosome → rough ER → Golgi → vesicle → destination** (often out of the cell).
+
+**Lysosomes** are the cell's recycling and digestion centers (mainly in animal cells): membrane-bound sacs of digestive enzymes that break down worn-out organelles, engulfed particles, and macromolecules. They are the endpoint of **phagocytosis** ("cell eating") — when a white blood cell engulfs a bacterium, the bacterium is destroyed inside a lysosome.
+
+### Mitochondria: the power plants
+
+**Mitochondria** are the sites of aerobic respiration — harvesting energy from food molecules and storing it as **ATP**. Each mitochondrion has a double membrane: the outer membrane and a highly folded inner membrane (the folds are **cristae**), with the fluid **matrix** inside. The cristae dramatically increase the surface area where the electron transport chain and ATP synthesis occur. Mitochondria:
+
+- Contain their own small circular DNA and 70S ribosomes (evidence for the endosymbiotic theory).
+- Are numerous in cells with high energy demands (muscle, liver, sperm).
+- Divide independently of the cell they live in.
+
+### The cytoskeleton: shape, support, and movement
+
+The **cytoskeleton** is a network of protein fibers giving the cell its shape, anchoring organelles, and enabling movement:
+
+- **Microfilaments** (actin) — the thinnest; support the cell surface and drive muscle contraction and cell crawling (amoeboid movement, wound healing).
+- **Intermediate filaments** — provide mechanical strength (keratin in skin cells).
+- **Microtubules** — the thickest; hollow tubes that guide organelle movement, form the spindle during cell division, and make up the core of cilia and flagella. In animal cells, a pair of **centrioles** (microtubule bundles) organizes the spindle during division.
+
+### Plant cell extras: chloroplasts, central vacuole, cell wall
+
+Plant cells are eukaryotic but add three structures animal cells lack:
+
+- **Chloroplasts** — the organelles of photosynthesis; like mitochondria, they have their own DNA and a double membrane, and contain the green pigment **chlorophyll**. Photosynthesis converts light energy into chemical energy (sugars).
+- **Central vacuole** — a large membrane-bound sac (up to most of the cell's volume) storing water and ions, creating **turgor pressure** that keeps the plant upright. When a plant wilts, the vacuoles have lost water.
+- **Cell wall** — a rigid outer layer of **cellulose** outside the plasma membrane, providing support and protection. Unlike animal cells, plant cells do not lyse in dilute solutions because the wall resists expansion.
+
+Animal cells, for their part, have lysosomes and centrioles (which most plant cells lack), and no cell wall, chloroplasts, or central vacuole.
+
+## ELI-10: Explain Like I'm 10
+
+A eukaryotic cell is like a busy factory inside a building. The office (nucleus) holds the blueprints and sends copies (mRNA) to the workbenches (ribosomes), which build products (proteins). The products go to the assembly line (endoplasmic reticulum), get packaged in the shipping department (Golgi), and are sent out in boxes (vesicles). Big batteries (mitochondria) power the whole factory. Plant cells are factories with extra equipment: solar panels (chloroplasts) that make food from sunlight and a big water tank (vacuole) that keeps the building firm.
+
+## High-Yield Points
+
+- **Nucleus** = DNA storage + nucleolus (ribosome subunit assembly); enclosed by a double-membrane envelope with pores.
+- **Ribosomes** translate mRNA into protein; free = internal proteins, bound to rough ER = secreted/membrane proteins.
+- **Rough ER** = protein folding/modification; **smooth ER** = lipid synthesis, calcium storage, detoxification.
+- **Golgi apparatus** = modifies, sorts, and packages proteins and lipids into vesicles.
+- **Lysosomes** (animal cells) = digestion and recycling; end point of phagocytosis.
+- **Mitochondria** = ATP via aerobic respiration; double membrane with cristae; own DNA and ribosomes.
+- **Cytoskeleton** = microfilaments (movement), intermediate filaments (strength), microtubules (transport, spindle, cilia/flagella); centrioles in animal cells.
+- **Plant-only:** chloroplasts (photosynthesis), central vacuole (turgor), cellulose cell wall (support).
+- **Secretion pathway:** ribosome → rough ER → Golgi → vesicle → plasma membrane/exterior.
+- Exam trap: ribosomes and the cytoskeleton are *not* membrane-bound organelles.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Nucleus | Membrane-bound organelle holding the cell's DNA | The information center that directs cell activities |
+| Nuclear envelope | Double membrane with pores surrounding the nucleus | Controls traffic of RNA and proteins between nucleus and cytoplasm |
+| Nucleolus | Dense nuclear region where rRNA is made | Site of ribosome subunit assembly |
+| Ribosome | RNA–protein machine that builds proteins | The cell's protein factory; not membrane-bound |
+| Endoplasmic reticulum (ER) | Network of membranes; rough (with ribosomes) and smooth (without) | Rough ER processes proteins; smooth ER makes lipids and detoxifies |
+| Golgi apparatus | Stack of sacs that modifies and packages molecules | The shipping/sorting center of the cell |
+| Vesicle | Small membrane-bound sac that carries materials | Transports proteins and lipids between organelles and to the membrane |
+| Lysosome | Membrane-bound sac of digestive enzymes | Breaks down wastes, invaders, and worn-out organelles |
+| Mitochondrion | Double-membrane organelle that makes ATP | The cell's power plant; site of aerobic respiration |
+| Cytoskeleton | Network of protein fibers (microfilaments, intermediate filaments, microtubules) | Gives shape, support, and enables movement and transport |
+| Chloroplast | Photosynthetic organelle with chlorophyll (plant cells) | Converts light energy into chemical energy |
+| Central vacuole | Large water-storage sac in plant cells | Maintains turgor pressure that keeps plants upright |
+| Cell wall | Rigid cellulose layer outside the plant plasma membrane | Provides support and prevents bursting in dilute solutions |
+
+## Example: Tracing a Protein — The Secretion Production Line
+
+Follow a digestive enzyme from blueprint to bloodstream: a pancreatic cell needs to secrete the enzyme into the small intestine. (1) In the **nucleus**, the gene is transcribed into mRNA. (2) The mRNA exits through a **nuclear pore** and is translated by **ribosomes bound to the rough ER**, which thread the growing protein into the ER lumen. (3) In the **rough ER**, the protein folds and receives initial modifications. (4) A vesicle buds off the ER and fuses with the **Golgi apparatus**, where the protein is further modified, sorted, and packaged. (5) A final vesicle carries it to the plasma membrane and fuses, releasing the enzyme outside the cell — **exocytosis**. Meanwhile, **mitochondria** supply the ATP powering the ribosomes, vesicle traffic, and membrane fusion. If any station in this line fails, the enzyme never reaches the intestine — which is why defects in protein folding or trafficking cause disease. Compare with a plant: a leaf cell builds sugar in **chloroplasts**, stores water in its **central vacuole**, and is held rigid by its **cellulose cell wall** — none of which an animal pancreatic cell has.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Rough ER | Smooth ER | Rough ER has ribosomes and processes proteins; smooth ER has no ribosomes, makes lipids, stores calcium, detoxifies |
+| Ribosome | Membrane-bound organelle | Ribosomes build proteins but are NOT membrane-bound organelles |
+| Nucleus | Nucleoid | Nucleus is membrane-bound (eukaryotes); nucleoid is an unenclosed DNA region (prokaryotes) |
+| Lysosome | Peroxisome | Lysosomes use hydrolytic enzymes for general digestion; peroxisomes break down fatty acids and hydrogen peroxide |
+| Mitochondria | Chloroplasts | Mitochondria do aerobic respiration in nearly all eukaryotes; chloroplasts do photosynthesis in plants/algae only |
+| Golgi apparatus | ER | ER makes and folds; Golgi modifies, sorts, and ships — partners in the endomembrane system, not the same thing |
+| Microfilaments | Microtubules | Microfilaments (actin) are thin and drive contraction/crawling; microtubules are thick hollow tubes that move cargo and form the spindle |
+| "Animal cells lack cell walls" | "Animal cells lack all walls" | Animals have no cell wall but are full of membrane-bound organelles |
+
+## Quick Review
+
+1. What is the function of the nucleolus?
+2. Trace the path of a secreted protein from gene to cell exterior, naming each organelle.
+3. Why do muscle cells contain so many mitochondria?
+4. List three structures found in plant cells but not animal cells, and give the function of each.
+5. What is the difference between rough ER and smooth ER?
+6. A cell has a large central vacuole, chloroplasts, and a cellulose wall, but no lysosomes. Is it a plant or animal cell? How do you know?
+
+<details>
+<summary>Show answers</summary>
+
+1. The nucleolus is the site of ribosomal RNA (rRNA) synthesis and ribosome subunit assembly.
+2. Gene → mRNA in the nucleus → exits through a nuclear pore → translated by ribosomes on the rough ER → protein folded/modified in the rough ER → vesicle to the Golgi apparatus → modified, sorted, packaged → vesicle to the plasma membrane → exocytosis to the exterior.
+3. Muscle cells have high and sustained energy demands for contraction; mitochondria produce most of the cell's ATP, so energy-hungry cells are packed with them (extensive cristae add ATP-producing surface area).
+4. Chloroplasts (photosynthesis), central vacuole (water storage and turgor pressure), and the cellulose cell wall (support and protection). Lysosomes are typically absent from mature plant cells.
+5. Rough ER is studded with ribosomes and processes proteins destined for membranes or secretion; smooth ER lacks ribosomes and synthesizes lipids, stores calcium, and detoxifies drugs and poisons.
+6. Plant cell — chloroplasts, a central vacuole, and a cellulose cell wall are plant-specific structures; animal cells lack all three and generally do have lysosomes.
+
+</details>
+
+## Related Topics
+
+- Previous: [Comparing Prokaryotic and Eukaryotic Cells](02-comparing-prokaryotic-and-eukaryotic-cells.md)
+- Next: [The Cell Membrane](04-the-cell-membrane.md)
+- Related: [How Cells Are Studied](01-how-cells-are-studied.md) (organelles are seen with the microscopy tools from Topic 1), [The Cell Membrane](04-the-cell-membrane.md) (the membrane is the delivery destination of the endomembrane system)
+- Chapter overview: [Cell Structure and Function](../README.md)
+
+## Source Notes
+
+- Book: Concepts of Biology
+- Local outline source: `concepts-biology.md`
+- Official source URL: https://openstax.org/details/books/concepts-biology/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-16

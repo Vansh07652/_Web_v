@@ -1,0 +1,134 @@
+---
+title: "Causes of Infertility"
+subject: "Nursing"
+book: "Maternal-Newborn Nursing"
+chapter: "4: Influences on Fertility"
+topic_number: "3"
+source: "maternal-newborn-nursing.md"
+tags:
+  - "causes-of-infertility"
+  - "nursing"
+status: "complete"
+---
+
+# Causes of Infertility
+
+> **Book:** [Maternal-Newborn Nursing](../../README.md)  
+> **Chapter:** [Chapter 4: Influences on Fertility](../README.md)  
+> **Topic:** 3  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Infertility is commonly defined as the inability to conceive after about 12 months of regular, unprotected sexual intercourse; many sources shorten the evaluation window to about 6 months for people over age 35, and the exact definition varies by organization and clinical setting. It is a **couple-level diagnosis**: it describes how two people's reproductive systems work together, not a defect in either partner alone. It is divided into **primary infertility** (never conceived) and **secondary infertility** (conceived before, but unable to conceive again).
+
+Because conception requires a healthy egg, healthy sperm, a meeting place in the fallopian tube, and a uterus ready to support implantation, a problem at almost any step can contribute. Causes are grouped into female factors, male factors, combined factors, and unexplained infertility — and both partners often contribute. For the nurse, the key takeaway is that infertility has **medical, emotional, social, and sometimes financial dimensions**. The person or couple seeking help needs education, empathy, and clear information as much as they need diagnostic tests.
+
+## Why This Matters
+
+Infertility affects a substantial share of couples — commonly cited estimates suggest roughly 10–15% (rates vary by population and definition; verify before quoting). Nurses are often the first health professionals people talk to about trouble conceiving, whether in primary care, an OB-GYN clinic, or a fertility center. Understanding the major causes lets the nurse ask the right assessment questions, correct myths (such as "it's always the woman's problem"), give accurate education about testing, recognize when referral is appropriate, and support the emotional toll — grief, anxiety, relationship strain, and feelings of inadequacy. On exams and in practice, the causes of infertility are high-yield because they organize everything that follows: diagnostic testing, treatment choices, and nursing care.
+
+## Core Concepts
+
+### Defining infertility: time, timing, and terminology
+
+The 12-month threshold is not arbitrary: a large majority of couples conceive within a year of trying, so a couple who has not is statistically more likely to have an identifiable problem. Age changes the math — fertility declines with age, especially after the mid-30s — so many clinicians shorten the "try first" window for older people. Terminology matters: **sterility** means permanent inability to conceive, while **infertility** is a reduced ability that may still respond to treatment. **Subfertility** is a related term for conception that is possible but takes longer than average.
+
+### Female factors: ovulation, tubes, uterus, and age
+
+- **Ovulatory disorders** are among the most common female factors. Anovulation (no egg released) or oligo-ovulation (infrequent ovulation) can result from polycystic ovary syndrome (PCOS), a leading cause of anovulatory infertility; from hypothalamic-pituitary disruption due to stress, very low body weight, or extreme exercise; from thyroid or prolactin abnormalities; or from premature ovarian insufficiency (declining ovarian function before age 40).
+- **Tubal and peritoneal factors**: the tube must be open for the egg and sperm to meet. Pelvic inflammatory disease (PID) from sexually transmitted infections, endometriosis, prior pelvic surgery, and adhesions can scar or block the tubes.
+- **Uterine and cervical factors**: fibroids that distort the cavity, uterine polyps, intrauterine adhesions (Asherman syndrome), and some congenital uterine shapes can interfere with implantation; cervical factors are less common.
+- **Age**: egg supply (ovarian reserve) and egg quality decline over time, increasing time-to-conception and miscarriage risk. This is biological, not lifestyle-based — an important teaching point for people planning pregnancy.
+
+### Male factors: sperm production and delivery
+
+About a third of infertility cases involve a male factor, alone or combined with a female one. Semen analysis evaluates **count**, **motility** (movement), and **morphology** (shape). Problems include low count (oligospermia), absent sperm in the ejaculate (azoospermia), poor motility, and abnormal shape. Causes include varicocele (enlarged scrotal veins that can raise testicular temperature), hormonal disorders, genetic conditions, blockages of the reproductive tract (after infection or a prior vasectomy), and exposures such as tobacco, heavy alcohol, some chemotherapy agents, or prolonged heat.
+
+### Combined and unexplained infertility
+
+Some couples have mild problems on both sides that would not cause infertility alone but do together. **Unexplained infertility** is the label when standard testing finds no clear cause in either partner; it is a real and fairly common category, not a statement that "nothing is wrong." It means the workup found no identifiable cause, and it guides a stepwise treatment approach rather than a specific fix.
+
+### Factors affecting both partners
+
+Smoking, heavy alcohol use, obesity and underweight, poorly controlled chronic illness, certain medications, and environmental or occupational exposures can affect either or both partners. STIs are a two-sided risk — tubal damage in one partner, epididymal or urethral damage in the other. Some of these factors are modifiable, which makes patient education a legitimate nursing intervention before any advanced treatment begins.
+
+## ELI-10: Explain Like I'm 10
+
+Making a baby needs an egg, a sperm, a place for them to meet, and a safe spot for the baby to grow. Infertility means that after a year of trying, one of those steps isn't working as well as it should. Sometimes the problem is with the egg, sometimes with the sperm, and sometimes doctors can't find the reason at all. Doctors check both people to figure out which step needs help.
+
+## High-Yield Points
+
+- **Definition:** inability to conceive after ~12 months of regular unprotected intercourse (shorter, ~6 months, for people over 35 — varies by guideline and institution).
+- **Primary vs. secondary:** never conceived vs. conceived before but cannot now.
+- **Couple diagnosis:** evaluation and counseling include both partners; one partner's normal test does not close the case.
+- **Most common female factor:** ovulatory disorders, with PCOS a leading cause; tubal damage (PID, endometriosis) is another major group.
+- **Male factor in roughly a third of cases** — semen analysis is a standard, noninvasive early test.
+- **Unexplained infertility is a real category**, not a dismissal.
+- **Age is a major, non-modifiable factor** in female fertility.
+- **Nursing role:** thorough reproductive health history, myth correction, education on modifiable factors, emotional support, and referral — never blame or assumptions about which partner is "responsible."
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Infertility | Inability to conceive after ~12 months of regular unprotected intercourse | The clinical definition that triggers evaluation; varies with age and guideline |
+| Primary infertility | Infertility in someone who has never conceived | Distinguishes a first-time problem from a new problem after prior pregnancy |
+| Secondary infertility | Infertility after at least one prior conception | Often emotionally surprising; workup can differ from primary infertility |
+| Anovulation | Ovulation is not occurring; no egg is released | A common, often treatable cause; may or may not cause absent periods |
+| Polycystic ovary syndrome (PCOS) | A hormonal disorder associated with infrequent/absent ovulation | One of the most common causes of ovulatory infertility |
+| Tubal factor | Blocked or damaged fallopian tubes | Blocks the egg–sperm meeting; often from PID, endometriosis, or surgery |
+| Endometriosis | Uterine-like tissue growing outside the uterus | Can scar tubes and ovaries, reducing fertility |
+| Semen analysis | Lab test of sperm count, motility, and shape | The standard first test of male fertility; noninvasive |
+| Unexplained infertility | No cause found after standard evaluation of both partners | A real category guiding stepwise treatment, not "nothing is wrong" |
+
+## Example
+
+Maya, 34, and her partner have been trying to conceive for 14 months. At a clinic visit the nurse takes a careful history: Maya's periods are irregular (every 40–55 days), she has acne and excess facial hair, and she quit smoking six months ago; her partner has no chronic illness but takes a medication that can affect sperm production. The nurse explains that infertility is evaluated as a couple, that Maya's irregular cycles point toward an ovulatory problem (possibly PCOS) worth investigating, and that a semen analysis for her partner is a standard, painless first step. The nurse affirms that quitting smoking was a real win, discusses weight and alcohol nonjudgmentally, and acknowledges how stressful the past year has been, offering support resources. Notice what the nurse did *not* do: assign blame, promise a diagnosis, or name specific treatments — instead she organized the history, educated, and supported, leaving diagnosis to the provider and testing.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Infertility | Sterility | Reduced ability to conceive (often treatable) vs. permanent inability |
+| Primary infertility | Secondary infertility | Never conceived vs. conceived before but cannot now |
+| "The woman has the problem" | "The couple has a problem" | Male factors occur in roughly a third of cases; both partners are usually evaluated |
+| Irregular periods | No ovulation at all | Irregular cycles may still include ovulation; anovulation is a specific finding |
+| Unexplained infertility | "Nothing is wrong" | Unexplained means the standard workup found no cause — a genuine category with its own treatment pathway |
+| 12-month definition for everyone | Age-adjusted evaluation | Older people may be evaluated sooner; guidelines differ, so follow the institution's protocol |
+
+## Quick Review
+
+1. What is the standard definition of infertility, and when is the evaluation window sometimes shortened?
+2. Differentiate primary and secondary infertility.
+3. List four categories of female factors and one example cause for each.
+4. Why is a semen analysis typically part of the initial infertility workup?
+5. What does "unexplained infertility" actually mean?
+6. Name three nursing interventions for a newly referred infertility couple that do not require a provider order.
+
+<details>
+<summary>Show answers</summary>
+
+1. Inability to conceive after ~12 months of regular unprotected intercourse; the window is often shortened to ~6 months for people over 35, depending on guideline and institution.
+2. Primary = never conceived. Secondary = conceived before (any prior pregnancy) but unable to conceive again.
+3. Ovulatory (e.g., PCOS, hypothalamic amenorrhea); tubal/peritoneal (e.g., PID scarring, endometriosis); uterine/cervical (e.g., cavity-distorting fibroids, intrauterine adhesions); and age-related decline in ovarian reserve and egg quality.
+4. Because male factors contribute in roughly a third of cases, and semen analysis is simple, noninvasive, and relatively inexpensive compared with female testing.
+5. Standard evaluation of both partners found no identifiable cause — a real diagnostic category with a stepwise treatment approach, not proof that the problem is imaginary.
+6. Any three of: comprehensive reproductive health history; nonjudgmental education about modifiable factors; myth correction; emotional support and resources; explanation of upcoming tests; and coordination/referral per institutional policy.
+
+</details>
+
+## Related Topics
+
+- Previous: [Genetics](02-genetics.md)
+- Next: [Treating Infertility](04-treating-infertility.md)
+- Related: [Fertility and Conception](01-fertility-and-conception.md) · [Influences on Fertility chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Maternal-Newborn Nursing
+- Local outline source: `maternal-newborn-nursing.md`
+- Official source URL: https://openstax.org/details/books/maternal-newborn-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety flags for SME review: prevalence figures (e.g., ~10–15% of couples, ~1/3 male factor), the 12-month vs. 6-month thresholds, and the majority-conceive-within-a-year figure vary by source and guideline (ASRM/WHO); verify before clinical citation. No doses, treatment recommendations, or diagnostic cutoffs are provided. Testing and referral follow provider orders and institutional policy.
+- Last updated: 2026-08-15

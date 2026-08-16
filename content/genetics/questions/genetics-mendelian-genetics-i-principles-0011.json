@@ -1,0 +1,40 @@
+{
+  "id": "genetics-mendelian-genetics-i-principles-0011",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-i-principles",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation A dihybrid cross with complete dominance is expected to follow a 9:3:3:1 ratio (sums to 16). Among 160 offspring, how many are expected in the double dominant class?",
+  "options": [
+    {
+      "id": "a",
+      "text": "90"
+    },
+    {
+      "id": "b",
+      "text": "30"
+    },
+    {
+      "id": "c",
+      "text": "10"
+    },
+    {
+      "id": "d",
+      "text": "120"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The double dominant class occupies 9 parts of the 9:3:3:1 ratio (sums to 16), so the expected count is 9/16 x 160 = 90. B takes one of the 3 part classes, 3/16 x 160 = 30, and C takes the 1 part class, 1/16 x 160 = 10. D applies the single locus probability 3/4 instead of the two locus 9/16, giving 3/4 x 160 = 120.",
+  "difficulty": "unknown",
+  "tags": [
+    "expected",
+    "count",
+    "dihybrid",
+    "class"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-a9c23a294d5c5fc1",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,130 @@
+---
+title: "Introduction to Weight Management"
+subject: "Nursing"
+book: "Pharmacology for Nurses"
+chapter: "32: Weight Management Drugs"
+topic_number: "1"
+source: "pharmacology.md"
+tags:
+  - "introduction-to-weight-management"
+  - "nursing"
+status: "complete"
+---
+
+# Introduction to Weight Management
+
+> **Book:** [Pharmacology for Nurses](../../README.md)  
+> **Chapter:** [Chapter 32: Weight Management Drugs](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Body weight is governed by a simple-sounding equation with enormously complicated biology: weight stays stable when energy intake (calories consumed) roughly balances energy expenditure (calories burned through metabolism, activity, and digestion). Excess body fat that harms health — the chronic disease called **obesity** — develops when intake persistently exceeds expenditure, but the reasons that balance tips are far more than "eating too much." Genetics, appetite-regulating hormones, the gut microbiome, sleep, stress, certain medications, the food environment, and socioeconomic factors all influence how much a person eats, how the body stores energy, and how strongly the body defends its current weight. That is why weight management is a long-term process, not a one-time fix — and why drug therapy is one tool among several, never a cure on its own.
+
+This chapter's drugs work at different points in the energy-balance system: some reduce appetite, some block absorption of fat, and some act through hormones that regulate hunger and glucose. To use them safely, a nurse first needs the big picture of how weight is regulated, how weight status is measured, and where medication fits in the overall plan of care.
+
+## Why This Matters
+
+Obesity is one of the most common chronic conditions in clinical practice and a major contributor to other diseases: type 2 diabetes, hypertension and heart disease, obstructive sleep apnea, osteoarthritis, fatty liver disease, and certain cancers. Nurses encounter weight management in nearly every setting — primary care, medical-surgical units, perioperative care, obstetrics, pediatrics, and behavioral health — both as a health concern and as a factor affecting medication dosing, mobility, wound healing, and surgical risk.
+
+Weight management is also an emotionally loaded topic. People with obesity frequently report feeling blamed or shamed in health care, which can make them avoid appointments and delay care. A core nursing skill is opening the conversation in a non-judgmental, person-first way — "a person with obesity," not "an obese patient" — and asking what the person has already tried before offering advice. On exams and in practice, weight-management questions reward mechanism thinking about energy balance, honest assessment of evidence, and attention to safety and dignity.
+
+## Core Concepts
+
+### Energy balance: the body's accounting system
+
+Energy intake comes from food and drink; energy expenditure has three main components — resting metabolism (the largest share), physical activity, and the small amount burned digesting food. Weight change equals intake minus expenditure over time, but the body does not keep this ledger passively. When intake falls or weight drops, the body responds as if threatened: hunger hormones rise, satiety hormones fall, and metabolic rate drifts downward. This **compensatory response** is a major reason weight loss is hard to sustain and why weight regain after stopping treatment is common and expected, not a personal failure.
+
+### Measuring weight status: BMI and beyond
+
+**Body mass index (BMI)** — weight in kilograms divided by height in meters squared — is the standard screening tool: underweight, normal, overweight, and obesity ranges are defined by current reference standards (commonly obesity at a BMI of 30 or above, and overweight at 25–29.9). BMI is quick and useful for populations, but it is a screening measure, not a diagnosis: it does not distinguish fat from muscle, so a muscular athlete can have a high BMI, and it says nothing about where fat is distributed. **Waist circumference** adds information about abdominal (visceral) fat, which carries higher cardiometabolic risk. Clinical decisions about weight-management therapy are guided by BMI, waist measurement, and the presence of weight-related comorbidities — and the specific thresholds a provider uses should be verified against current guidelines and institutional policy.
+
+### Why the body resists weight loss
+
+Adipose tissue is not passive storage; it is an active endocrine organ that releases hormones and inflammatory signals. Meanwhile, the brain's hypothalamus integrates hunger and satiety signals from hormones such as **leptin** (released by fat tissue, signals fullness), **ghrelin** (released by the stomach when empty, signals hunger), and **GLP-1** and other gut hormones (released after eating, promote satiety). In many people with obesity, these signals are altered so that hunger is strong and fullness is weak, and weight loss amplifies the imbalance — the body actively works to regain lost pounds. Understanding this explains why "just eat less" is not a complete treatment and why pharmacotherapy exists at all.
+
+### The treatment ladder: lifestyle first, drugs as adjuncts
+
+Weight management proceeds in steps that can be combined: lifestyle change (nutrition, physical activity, sleep, stress management, and behavioral support) is the foundation; pharmacotherapy is added for appropriate candidates when lifestyle alone is insufficient; and bariatric surgery is an option for people who meet criteria for more severe obesity or obesity with serious comorbidities. Anti-obesity medications are **adjuncts** — they support the plan of care, they do not replace it, and their effects typically last only as long as they are taken. Expectation-setting is part of nursing teaching: drug-assisted weight loss is usually modest, and habits established during treatment are what keep weight off afterward.
+
+### Where weight-loss drugs fit in this chapter
+
+The drug classes that follow act at different steps of energy balance. **Anorexiants** work in the brain to reduce appetite. **Lipase inhibitors** work in the gut to block absorption of some dietary fat. **Other agents** — including hormone-based drugs such as GLP-1 receptor agonists and various supplements and herbal products — act through other mechanisms, with widely varying quality of evidence. Each class carries its own safety profile, which is why the nurse's role — assessment, monitoring, teaching, and verification against current references — matters as much as the prescription itself.
+
+### Nursing's role in weight management
+
+Nursing care starts with a thorough assessment: weight and height, waist circumference, vital signs, relevant labs, medication list (many drugs cause weight gain), readiness to change, and past attempts at weight loss. Teaching covers realistic goals, balanced nutrition and activity (deferring specifics to the dietitian and provider), and how any prescribed medication fits the overall plan. Monitoring includes watching for adverse effects of weight-loss drugs, checking weight trends over time, and supporting the person during plateaus, which are normal. Scope note: initiating or adjusting weight-loss medications is a prescriber decision, and institutional policies vary; the nurse's core work is assessment, education, monitoring, and safe, respectful advocacy for the person.
+
+## ELI-10: Explain Like I'm 10
+
+Your body is like a bank account for energy: eating puts energy in, and moving and staying alive take energy out. If too much goes in for a long time, the body stores the extra as fat — and the body then fights hard to keep that fat, making it feel very hungry when you try to take energy away. Weight-loss medicines are like helpers that make the body feel less hungry or stop some fat from coming in, but they work best when the person also eats well and moves more.
+
+## High-Yield Points
+
+- Weight change = energy intake − energy expenditure over time, but the body **actively defends its weight** through hormones (leptin, ghrelin, GLP-1) and metabolic changes.
+- **BMI is a screening tool, not a diagnosis**; it does not distinguish fat from muscle, and waist circumference adds information about harmful abdominal fat.
+- Obesity is a **chronic disease with multiple causes** — biology, environment, behavior, and social factors — not a failure of willpower.
+- Anti-obesity medications are **adjuncts to lifestyle change**, produce modest effects, and usually work only while taken; weight regain after stopping is expected.
+- Weight-management drugs are grouped by mechanism: **brain (anorexiants), gut (lipase inhibitors), and hormone-based/metabolic (GLP-1 receptor agonists and others)**.
+- Nurses' core work: stigma-free, person-first communication; full medication review (many drugs cause weight gain); realistic goal-setting; monitoring; and verification of all thresholds and regimens against current references and prescriber orders.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Energy balance | The relationship between calories taken in and calories burned | Weight gain, loss, and stability are all outcomes of this balance |
+| BMI (body mass index) | Weight (kg) divided by height (m²) | The standard screening measure for weight categories; quick but imperfect |
+| Adipose tissue | Body fat, which stores energy and releases hormones | It is an active endocrine organ, not passive storage |
+| Leptin | A hormone from fat tissue that signals fullness to the brain | Altered signaling helps explain why appetite regulation fails in obesity |
+| Ghrelin | A stomach hormone that signals hunger | Rises before meals and with weight loss, driving hunger |
+| GLP-1 | A gut hormone that promotes satiety and affects glucose | The basis of a major class of weight-management and diabetes drugs |
+| Adjunct therapy | Treatment added to support the main plan (lifestyle change) | Describes exactly how weight-loss drugs are meant to be used |
+| Compensatory response | The body's hormonal and metabolic pushback against weight loss | Explains plateaus and regain — a normal process, not failure |
+
+## Example: Clinical Scenario
+
+Ms. Alvarez, age 45, is seeing her primary care provider for the first time in two years. Her BMI is 32, her waist circumference is elevated, and she has prediabetes on her most recent labs. She tells the nurse, "I've tried every diet. I lose ten pounds and it comes right back, and I feel like everyone at the clinic just thinks I'm lazy." The nurse responds without judgment: she uses person-first language, acknowledges how discouraging regain feels, and explains briefly that the body fights weight loss — that is why it keeps coming back. She completes a full medication review (one of Ms. Alvarez's medicines is known to cause weight gain), asks about sleep and stress, and discusses realistic next steps: nutrition and activity support, and a conversation with the provider about whether pharmacotherapy might be an appropriate adjunct. She does not promise a number on the scale; she promises a plan and a partner. The teaching point: weight management begins with trust, assessment, and honest expectation-setting — the medication, if any, comes later.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| "Eating too much" as the cause of obesity | The biology of weight regulation | Appetite hormones, genetics, medications, and the environment all push intake and expenditure; blame helps no one |
+| BMI | Body composition | BMI cannot tell fat from muscle; a muscular person can have a high BMI with low body fat |
+| Weight-loss drugs | A cure | They are adjuncts with modest, reversible effects; lifestyle change is the foundation |
+| Weight regain after stopping a drug | Treatment failure or patient failure | The body's compensatory response makes regain expected once the drug is gone |
+| Feeling hungry | True need for food | Hunger signals are hormonal and often out of proportion to actual need — the target of appetite-based drug therapy |
+
+## Quick Review
+
+1. What is energy balance, and why is weight loss harder than the simple equation suggests?
+2. Why is BMI only a screening tool, and what information does waist circumference add?
+3. Name three hormones involved in appetite regulation and the general job of each.
+4. How are anti-obesity medications meant to be used relative to lifestyle change?
+5. What are three nursing actions that support a person beginning a weight-management plan?
+
+<details>
+<summary>Show answers</summary>
+
+1. Energy balance is intake minus expenditure. Weight loss is hard because the body compensates — hunger hormones rise, satiety signals fall, and metabolism drifts down — actively defending the current weight.
+2. BMI does not distinguish fat from muscle and says nothing about fat distribution. Waist circumference adds information about visceral (abdominal) fat, which carries higher cardiometabolic risk.
+3. Leptin (from fat, signals fullness), ghrelin (from the stomach, signals hunger), and GLP-1 (from the gut after eating, promotes satiety).
+4. As adjuncts to lifestyle change: they support the plan, do not replace it, produce modest effects, and typically work only while taken.
+5. Any three: stigma-free person-first communication; complete medication review for weight-gaining drugs; realistic goal-setting and expectation teaching; monitoring of weight, vital signs, and adverse effects; referral/coordination with dietitian and provider.
+
+</details>
+
+## Related Topics
+
+- Next: [Anorexiants](02-anorexiants.md)
+- Related: [Lipase Inhibitors](03-lipase-inhibitors.md), [Other Drugs, Supplements, and Herbal Remedies](04-other-drugs-supplements-and-herbal-remedies.md)
+- Chapter overview: [Weight Management Drugs](../README.md)
+
+## Source Notes
+
+- Book: Pharmacology for Nurses
+- Local outline source: `pharmacology.md`
+- Official source URL: https://openstax.org/details/books/pharmacology/
+- Content type: Original educational study guide based on OpenStax outline structure. Educational draft only — no treatment recommendations; BMI thresholds, indications for pharmacotherapy, and monitoring parameters vary by current guidelines and institution and must be verified against facility policy and prescriber orders.
+- Last updated: 2026-08-15

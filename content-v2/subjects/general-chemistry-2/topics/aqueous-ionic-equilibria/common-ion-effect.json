@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:aqueous-ionic-equilibria:common-ion-effect",
+  "slug": "common-ion-effect",
+  "title": "The Common-Ion Effect",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:aqueous-ionic-equilibria",
+    "slug": "aqueous-ionic-equilibria",
+    "title": "Aqueous Ionic Equilibria",
+    "order": 6
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "When a solution already contains one of the ions that an equilibrium produces, that equilibrium shifts *away* from producing more of it — Le Châtelier's principle applied to a shared ion. Adding acetate (CH₃COO⁻) to acetic acid suppresses the acid's ionization, lowering [H₃O⁺] and raising the pH. Adding NH₄⁺ to ammonia suppresses its ionization. The same principle lowers the solubility of a sparingly soluble salt when one of its ions is already present — and it is the foundational reason buffers work.",
+    "whyItMatters": "The common-ion effect is the single mechanism that makes buffers possible, and it explains practical phenomena from \"why fluoride toothpaste limits tooth-mineral dissolution\" to \"why you shouldn't salt a saturated solution if you want more solid to dissolve.\" Recognizing it lets you control ionization and solubility simply by adding a harmless shared ion.",
+    "learningObjectives": "- Define the common-ion effect in terms of Le Châtelier's principle.\n- Predict how adding a common ion shifts an acid–base or solubility equilibrium.\n- Calculate the pH of a weak acid (or base) in the presence of its conjugate salt.\n- Explain why the common-ion effect suppresses ionization.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nWhen a solution already contains one of the ions that an equilibrium produces, that equilibrium shifts *away* from producing more of it — Le Châtelier's principle applied to a shared ion. Adding acetate (CH₃COO⁻) to acetic acid suppresses the acid's ionization, lowering [H₃O⁺] and raising the pH. Adding NH₄⁺ to ammonia suppresses its ionization. The same principle lowers the solubility of a sparingly soluble salt when one of its ions is already present — and it is the foundational reason buffers work.\n\n### Key Ideas\n\n- **Definition:** the shift of an equilibrium caused by adding an ion already involved in it.\n- **Effect on weak acids:** adding the conjugate base A⁻ drives HA ⇌ H⁺ + A⁻ to the left, so [H₃O⁺] drops and pH rises.\n- **Effect on weak bases:** adding BH⁺ drives B + H₂O ⇌ BH⁺ + OH⁻ to the left, so [OH⁻] drops and pH falls.\n- **Effect on solubility:** adding a common ion to a saturated salt lowers its molar solubility.\n- **Quantitative consequence:** the ionization is no longer x²/C — now one of the products starts at a nonzero concentration.\n\n### Equations and Variables\n\n- Weak acid + common ion: HA ⇌ H₃O⁺ + A⁻, with [A⁻]₀ supplied by the salt.\n- ICE with a nonzero product start: Ka = x([A⁻]₀ + x) / ([HA]₀ − x)\n- Approximation: Ka ≈ x[A⁻]₀ / [HA]₀, so x = [H₃O⁺] = Ka × [HA]₀/[A⁻]₀\n- Solubility analog: AgCl(s) ⇌ Ag⁺ + Cl⁻; adding NaCl shifts left and lowers [Ag⁺].\n\n### How It Works\n\n1. Write the ionization equilibrium and identify the shared ion.\n2. Add the salt that supplies that ion; its concentration is now the *initial* concentration of that product.\n3. Rebuild the ICE table with a nonzero starting amount of the common product.\n4. Solve for x (the newly produced H₃O⁺ or OH⁻), which is now *smaller* than in the pure acid/base because the product side already starts populated.\n5. Use the approximation x = Ka([HA]₀/[A⁻]₀), which is simply a rearranged form of the Henderson–Hasselbalch equation.\n\n### Worked Example\n\n**Find the pH of a solution that is 0.10 M in acetic acid and 0.10 M in sodium acetate (Ka = 1.8 × 10⁻⁵). Compare to 0.10 M acetic acid alone (pH 2.87).**\n\nCH₃COOH ⇌ H₃O⁺ + CH₃COO⁻, with [CH₃COO⁻]₀ = 0.10 M from the salt.\n\nICE: [CH₃COOH] = 0.10 − x; [H₃O⁺] = x; [CH₃COO⁻] = 0.10 + x.\n\nKa = x(0.10 + x)/(0.10 − x) ≈ x(0.10)/(0.10) = x\n\nx = [H₃O⁺] = 1.8 × 10⁻⁵ M → pH = 4.74\n\nThe common acetate ion has suppressed [H₃O⁺] from 1.34 × 10⁻³ M down to 1.8 × 10⁻⁵ M — a ~75-fold drop — raising the pH from 2.87 to 4.74.",
+    "howItWorks": "1. Write the ionization equilibrium and identify the shared ion.\n2. Add the salt that supplies that ion; its concentration is now the *initial* concentration of that product.\n3. Rebuild the ICE table with a nonzero starting amount of the common product.\n4. Solve for x (the newly produced H₃O⁺ or OH⁻), which is now *smaller* than in the pure acid/base because the product side already starts populated.\n5. Use the approximation x = Ka([HA]₀/[A⁻]₀), which is simply a rearranged form of the Henderson–Hasselbalch equation.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Common ion ⇒ equilibrium shifts away from that ion (Le Châtelier).\n- Adding A⁻ to HA lowers [H₃O⁺] and raises pH.\n- Adding BH⁺ to B lowers [OH⁻] and lowers pH.\n- In the mixed acid + salt solution, [H₃O⁺] ≈ Ka × ([HA]/[A⁻]).\n- Adding a common ion reduces the molar solubility of a sparingly soluble salt.\n- The common-ion effect is the basis of buffer action and of selective precipitation.",
+    "commonConfusions": "- **\"The common ion must be H₃O⁺ or OH⁻.\"** — Any shared ion counts; the acetate or ammonium ion is the common ion in buffer-style problems.\n- **\"The salt fully neutralizes the acid.\"** — No; the acid still ionizes, just less. Some H₃O⁺ remains (here 1.8 × 10⁻⁵ M, not zero).\n- **\"Adding a common ion increases ionization.\"** — It decreases it; you are adding a product, so the reaction shifts toward reactants.\n- **\"The common-ion effect only applies to acids.\"** — It applies to any equilibrium: weak bases and solubility equilibria too.\n- **\"Forgetting the salt contributes the product at the start.\"** — The whole point is that [A⁻]₀ is not zero in the ICE table.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a vending machine that only gives out one soda at a time. If the machine is already fully stocked with sodas (lots of A⁻ around), it won't bother making more — so fewer protons get released. The presence of \"more of what it already makes\" tells the reaction to slow down. (The analogy hides the numbers, but the direction is exactly Le Châtelier: the system shifts to consume the added product.)",
+    "quickReview": "- Common ion = an ion already in the equilibrium.\n- Shifts the equilibrium to consume the added ion (Le Châtelier).\n- Weak acid + its salt: [H₃O⁺] = Ka × [HA]/[A⁻]; pH rises.\n- Weak base + its salt: [OH⁻] falls; pH falls.\n- Also lowers solubility of sparingly soluble salts.",
+    "workedExamples": "### Worked Example\n\n**Find the pH of a solution that is 0.10 M in acetic acid and 0.10 M in sodium acetate (Ka = 1.8 × 10⁻⁵). Compare to 0.10 M acetic acid alone (pH 2.87).**\n\nCH₃COOH ⇌ H₃O⁺ + CH₃COO⁻, with [CH₃COO⁻]₀ = 0.10 M from the salt.\n\nICE: [CH₃COOH] = 0.10 − x; [H₃O⁺] = x; [CH₃COO⁻] = 0.10 + x.\n\nKa = x(0.10 + x)/(0.10 − x) ≈ x(0.10)/(0.10) = x\n\nx = [H₃O⁺] = 1.8 × 10⁻⁵ M → pH = 4.74\n\nThe common acetate ion has suppressed [H₃O⁺] from 1.34 × 10⁻³ M down to 1.8 × 10⁻⁵ M — a ~75-fold drop — raising the pH from 2.87 to 4.74.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.6 Buffers.\" https://openstax.org/books/chemistry-2e/pages/14-6-buffers",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-6-buffers"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"13.1 Chemical Equilibria.\" https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria"
+      },
+      {
+        "text": "PubChem, \"Sodium Acetate.\" https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-acetate",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-acetate"
+      },
+      {
+        "text": "Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 1
+  },
+  "aliases": [
+    {
+      "value": "common-ion-effect",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "01-common-ion-effect",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b3bb1cee814c8de4"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b3bb1cee814c8de4"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b3bb1cee814c8de4"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b3bb1cee814c8de4"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/15-aqueous-ionic-equilibria/01-common-ion-effect.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# The Common-Ion Effect\n\n## Learning Goals\n- Define the common-ion effect in terms of Le Châtelier's principle.\n- Predict how adding a common ion shifts an acid–base or solubility equilibrium.\n- Calculate the pH of a weak acid (or base) in the presence of its conjugate salt.\n- Explain why the common-ion effect suppresses ionization.\n\n## Core Concept\nWhen a solution already contains one of the ions that an equilibrium produces, that equilibrium shifts *away* from producing more of it — Le Châtelier's principle applied to a shared ion. Adding acetate (CH₃COO⁻) to acetic acid suppresses the acid's ionization, lowering [H₃O⁺] and raising the pH. Adding NH₄⁺ to ammonia suppresses its ionization. The same principle lowers the solubility of a sparingly soluble salt when one of its ions is already present — and it is the foundational reason buffers work.\n\n## Key Ideas\n- **Definition:** the shift of an equilibrium caused by adding an ion already involved in it.\n- **Effect on weak acids:** adding the conjugate base A⁻ drives HA ⇌ H⁺ + A⁻ to the left, so [H₃O⁺] drops and pH rises.\n- **Effect on weak bases:** adding BH⁺ drives B + H₂O ⇌ BH⁺ + OH⁻ to the left, so [OH⁻] drops and pH falls.\n- **Effect on solubility:** adding a common ion to a saturated salt lowers its molar solubility.\n- **Quantitative consequence:** the ionization is no longer x²/C — now one of the products starts at a nonzero concentration.\n\n## Equations and Variables\n- Weak acid + common ion: HA ⇌ H₃O⁺ + A⁻, with [A⁻]₀ supplied by the salt.\n- ICE with a nonzero product start: Ka = x([A⁻]₀ + x) / ([HA]₀ − x)\n- Approximation: Ka ≈ x[A⁻]₀ / [HA]₀, so x = [H₃O⁺] = Ka × [HA]₀/[A⁻]₀\n- Solubility analog: AgCl(s) ⇌ Ag⁺ + Cl⁻; adding NaCl shifts left and lowers [Ag⁺].\n\n## How It Works\n1. Write the ionization equilibrium and identify the shared ion.\n2. Add the salt that supplies that ion; its concentration is now the *initial* concentration of that product.\n3. Rebuild the ICE table with a nonzero starting amount of the common product.\n4. Solve for x (the newly produced H₃O⁺ or OH⁻), which is now *smaller* than in the pure acid/base because the product side already starts populated.\n5. Use the approximation x = Ka([HA]₀/[A⁻]₀), which is simply a rearranged form of the Henderson–Hasselbalch equation.\n\n## Worked Example\n**Find the pH of a solution that is 0.10 M in acetic acid and 0.10 M in sodium acetate (Ka = 1.8 × 10⁻⁵). Compare to 0.10 M acetic acid alone (pH 2.87).**\n\nCH₃COOH ⇌ H₃O⁺ + CH₃COO⁻, with [CH₃COO⁻]₀ = 0.10 M from the salt.\n\nICE: [CH₃COOH] = 0.10 − x; [H₃O⁺] = x; [CH₃COO⁻] = 0.10 + x.\n\nKa = x(0.10 + x)/(0.10 − x) ≈ x(0.10)/(0.10) = x\n\nx = [H₃O⁺] = 1.8 × 10⁻⁵ M → pH = 4.74\n\nThe common acetate ion has suppressed [H₃O⁺] from 1.34 × 10⁻³ M down to 1.8 × 10⁻⁵ M — a ~75-fold drop — raising the pH from 2.87 to 4.74.\n\n## Why It Matters\nThe common-ion effect is the single mechanism that makes buffers possible, and it explains practical phenomena from \"why fluoride toothpaste limits tooth-mineral dissolution\" to \"why you shouldn't salt a saturated solution if you want more solid to dissolve.\" Recognizing it lets you control ionization and solubility simply by adding a harmless shared ion.\n\n## High-Yield Facts\n- Common ion ⇒ equilibrium shifts away from that ion (Le Châtelier).\n- Adding A⁻ to HA lowers [H₃O⁺] and raises pH.\n- Adding BH⁺ to B lowers [OH⁻] and lowers pH.\n- In the mixed acid + salt solution, [H₃O⁺] ≈ Ka × ([HA]/[A⁻]).\n- Adding a common ion reduces the molar solubility of a sparingly soluble salt.\n- The common-ion effect is the basis of buffer action and of selective precipitation.\n\n## Eli Explains\nImagine a vending machine that only gives out one soda at a time. If the machine is already fully stocked with sodas (lots of A⁻ around), it won't bother making more — so fewer protons get released. The presence of \"more of what it already makes\" tells the reaction to slow down. (The analogy hides the numbers, but the direction is exactly Le Châtelier: the system shifts to consume the added product.)\n\n## Common Confusions\n- **\"The common ion must be H₃O⁺ or OH⁻.\"** — Any shared ion counts; the acetate or ammonium ion is the common ion in buffer-style problems.\n- **\"The salt fully neutralizes the acid.\"** — No; the acid still ionizes, just less. Some H₃O⁺ remains (here 1.8 × 10⁻⁵ M, not zero).\n- **\"Adding a common ion increases ionization.\"** — It decreases it; you are adding a product, so the reaction shifts toward reactants.\n- **\"The common-ion effect only applies to acids.\"** — It applies to any equilibrium: weak bases and solubility equilibria too.\n- **\"Forgetting the salt contributes the product at the start.\"** — The whole point is that [A⁻]₀ is not zero in the ICE table.\n\n## Quick Review\n- Common ion = an ion already in the equilibrium.\n- Shifts the equilibrium to consume the added ion (Le Châtelier).\n- Weak acid + its salt: [H₃O⁺] = Ka × [HA]/[A⁻]; pH rises.\n- Weak base + its salt: [OH⁻] falls; pH falls.\n- Also lowers solubility of sparingly soluble salts.\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"14.6 Buffers.\" https://openstax.org/books/chemistry-2e/pages/14-6-buffers\n- OpenStax, *Chemistry 2e*, \"13.1 Chemical Equilibria.\" https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria\n- PubChem, \"Sodium Acetate.\" https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-acetate\n- Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria\n"
+}

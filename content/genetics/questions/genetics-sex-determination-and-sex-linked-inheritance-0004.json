@@ -1,0 +1,41 @@
+{
+  "id": "genetics-sex-determination-and-sex-linked-inheritance-0004",
+  "subject": "genetics",
+  "lesson": "sex-determination-and-sex-linked-inheritance",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem Hemophilia A is X linked recessive, caused by loss of function of *F8*. A carrier woman (*X^H X^h*) mates with an unaffected man (*X^H Y*). Assume complete penetrance, no new mutations, and a 1:1 sex ratio (sums to 2). What fraction of their sons is expected to have hemophilia A?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/4"
+    },
+    {
+      "id": "b",
+      "text": "1/2"
+    },
+    {
+      "id": "c",
+      "text": "1/8"
+    },
+    {
+      "id": "d",
+      "text": "3/4"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "A son receives his Y chromosome from his father with probability 1 and one X chromosome from his mother, which carries the *X^h* allele with probability 1/2, so 1/2 x 1 = 1/2 of sons are affected. A is the fraction of all offspring that are affected sons rather than the fraction of sons, and C wrongly multiplies by an extra 1/2. D reverses the allele probabilities, treating the mother as if she transmitted *X^h* three quarters of the time.",
+  "difficulty": "unknown",
+  "tags": [
+    "carrier",
+    "mother",
+    "unaffected",
+    "father",
+    "sons"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-67f5c8a12332791c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

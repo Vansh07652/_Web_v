@@ -1,0 +1,40 @@
+{
+  "id": "genetics-sex-determination-and-sex-linked-inheritance-0011",
+  "subject": "genetics",
+  "lesson": "sex-determination-and-sex-linked-inheritance",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** pedigree Duchenne muscular dystrophy is X linked recessive, caused by loss of dystrophin encoded by *DMD*. In the pedigree below, what is the probability that the unaffected woman II-2 is a carrier? ```text PEDIGREE: Generation I: I-1 unaffected male x I-2 unaffected female Generation II: II-1 affected male, II-2 unaffected female, II-3 unaffected male Generation III: III-1 unaffected male (son of II-2) Key inference: The affected male II-1 received his single X chromosome from his unaffected mother I-2, making her an obligate carrier. Most consistent mode: X linked recessive ```",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/2"
+    },
+    {
+      "id": "b",
+      "text": "2/3"
+    },
+    {
+      "id": "c",
+      "text": "1/3"
+    },
+    {
+      "id": "d",
+      "text": "1/4"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "I-2 is an obligate carrier because her affected son II-1 received his only X chromosome from her. II-2 is an unaffected daughter of the carrier (*X^H X^h*) and an unaffected man (*X^H Y*), so her father contributes *X^H* with probability 1 and her mother contributes *X^h* with probability 1/2, giving 1/2 x 1 = 1/2. B (2/3) incorrectly applies the autosomal recessive unaffected sibling correction, which does not apply here because the father's *X^H* contribution to every daughter is certain.",
+  "difficulty": "unknown",
+  "tags": [
+    "dmd",
+    "pedigree",
+    "carrier",
+    "probability"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-67f5c8a12332791c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

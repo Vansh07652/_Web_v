@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-kinetics:reaction-rates",
+  "slug": "reaction-rates",
+  "title": "Reaction Rates",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-kinetics",
+    "slug": "chemical-kinetics",
+    "title": "Chemical Kinetics",
+    "order": 3
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "Chemical kinetics asks a different question than thermodynamics. Thermodynamics tells you **whether** a reaction can happen; kinetics tells you **how fast** it happens. The reaction rate is a measure of how quickly reactants are consumed (or products are formed), reported as a change in concentration (molarity, M) per unit time. For a reaction like A → B, the rate is defined so that it is always a **positive** number: reactants get a negative sign because their concentration decreases, and products get a positive sign.",
+    "whyItMatters": "Reaction rates govern everything from drug metabolism and shelf-life of food to the design of industrial reactors and catalytic converters. Knowing how fast a reaction proceeds — and being able to slow it (refrigeration, preservatives) or speed it (heat, catalysts) — is the practical heart of chemistry. Kinetics also provides the experimental data from which reaction mechanisms are deduced.",
+    "learningObjectives": "- Define reaction rate in terms of the change in concentration of a reactant or product per unit time.\n- Distinguish average rate from instantaneous rate.\n- Relate the rates of different species in the same reaction through stoichiometry.\n- List the factors that influence how fast a reaction proceeds.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nChemical kinetics asks a different question than thermodynamics. Thermodynamics tells you **whether** a reaction can happen; kinetics tells you **how fast** it happens. The reaction rate is a measure of how quickly reactants are consumed (or products are formed), reported as a change in concentration (molarity, M) per unit time. For a reaction like A → B, the rate is defined so that it is always a **positive** number: reactants get a negative sign because their concentration decreases, and products get a positive sign.\n\n### Key Ideas\n\n- **Rate is an extensive property of concentration change.** We track concentration (M), not mass or moles, so that rate can be compared across different reaction vessels.\n- **Average rate vs. instantaneous rate.** Average rate covers a finite time interval; instantaneous rate is the slope of the concentration–time curve at a single instant.\n- **Stoichiometry links the rates.** In 2 NO₂ → 2 NO + O₂, NO is produced twice as fast as O₂ is produced, and NO₂ disappears at the same rate NO appears.\n- **Rates change over time.** As reactants are used up, most reactions slow down, so the rate is highest at the start (t = 0).\n\n### Equations and Variables\n\nFor a general reaction aA + bB → cC + dD, the rate is expressed so that every species gives the same numerical value:\n\n$$\\text{Rate} = -\\frac{1}{a}\\frac{\\Delta[A]}{\\Delta t} = -\\frac{1}{b}\\frac{\\Delta[B]}{\\Delta t} = +\\frac{1}{c}\\frac{\\Delta[C]}{\\Delta t} = +\\frac{1}{d}\\frac{\\Delta[D]}{\\Delta t}$$\n\n- [A], [B], [C], [D] = molar concentrations (M = mol/L)\n- Δt = change in time (s)\n- Δ[X] = [X]final − [X]initial (M)\n- a, b, c, d = stoichiometric coefficients (unitless)\n\nFor a simple one-to-one reaction A → B, this collapses to:\n\n$$\\text{Rate} = -\\frac{\\Delta[A]}{\\Delta t} = +\\frac{\\Delta[B]}{\\Delta t}$$\n\nUnits of rate are always concentration per time, most commonly **M·s⁻¹**.\n\n### How It Works\n\nImagine a reaction vessel where reactant A is slowly turning into product B. If [A] falls from 1.00 M to 0.80 M over 10.0 seconds, then Δ[A] = 0.80 − 1.00 = −0.20 M. The rate of consumption of A is −Δ[A]/Δt = −(−0.20 M)/10.0 s = 0.020 M/s. Because the sign convention already accounts for the decrease, the reported rate is positive.\n\nThe **stoichiometric factors** (1/a, 1/b, …) exist so that the rate means the same thing no matter which chemical you watch. Consider 2 H₂O₂ → 2 H₂O + O₂. Every time O₂ forms at 0.0050 M/s, H₂O₂ disappears at twice that rate (0.010 M/s) because two molecules of peroxide are consumed for every one O₂ produced. Dividing each by its coefficient makes them equal:\n\n$$\\text{Rate} = -\\frac{1}{2}\\frac{\\Delta[\\text{H}_2\\text{O}_2]}{\\Delta t} = \\frac{\\Delta[\\text{O}_2]}{\\Delta t}$$\n\nThe **instantaneous rate** is found by drawing a tangent line to the concentration–time curve at the time of interest and taking its slope. At t = 0 this is the initial rate, a quantity we use heavily later because concentrations are known exactly at the start.\n\n### Worked Example\n\nThe reaction 2 N₂O₅(g) → 4 NO₂(g) + O₂(g) is monitored. Over a 100-second interval, [N₂O₅] decreases from 0.0500 M to 0.0400 M.\n\n**(a) Average rate of N₂O₅ consumption.**\n\n$$\\text{Rate} = -\\frac{\\Delta[\\text{N}_2\\text{O}_5]}{\\Delta t} = -\\frac{0.0400 - 0.0500\\ \\text{M}}{100\\ \\text{s}} = -\\frac{-0.0100\\ \\text{M}}{100\\ \\text{s}} = 1.00 \\times 10^{-4}\\ \\text{M}\\ \\text{s}^{-1}$$\n\n**(b) Rate of O₂ formation over the same interval.**\n\nOne O₂ is produced for every two N₂O₅ consumed, so O₂ forms at half the rate:\n\n$$\\frac{\\Delta[\\text{O}_2]}{\\Delta t} = \\frac{1}{2}\\left(1.00 \\times 10^{-4}\\ \\text{M s}^{-1}\\right) = 5.0 \\times 10^{-5}\\ \\text{M s}^{-1}$$\n\n**(c) Rate of NO₂ formation.**\n\nFour NO₂ form per two N₂O₅ consumed, a 2:1 ratio, so NO₂ forms twice as fast as N₂O₅ disappears:\n\n$$\\frac{\\Delta[\\text{NO}_2]}{\\Delta t} = 2\\left(1.00 \\times 10^{-4}\\ \\text{M s}^{-1}\\right) = 2.0 \\times 10^{-4}\\ \\text{M s}^{-1}$$\n\nNotice that all three answers are positive, and the fastest-changing species (NO₂) has the largest coefficient.",
+    "howItWorks": "Imagine a reaction vessel where reactant A is slowly turning into product B. If [A] falls from 1.00 M to 0.80 M over 10.0 seconds, then Δ[A] = 0.80 − 1.00 = −0.20 M. The rate of consumption of A is −Δ[A]/Δt = −(−0.20 M)/10.0 s = 0.020 M/s. Because the sign convention already accounts for the decrease, the reported rate is positive.\n\nThe **stoichiometric factors** (1/a, 1/b, …) exist so that the rate means the same thing no matter which chemical you watch. Consider 2 H₂O₂ → 2 H₂O + O₂. Every time O₂ forms at 0.0050 M/s, H₂O₂ disappears at twice that rate (0.010 M/s) because two molecules of peroxide are consumed for every one O₂ produced. Dividing each by its coefficient makes them equal:\n\n$$\\text{Rate} = -\\frac{1}{2}\\frac{\\Delta[\\text{H}_2\\text{O}_2]}{\\Delta t} = \\frac{\\Delta[\\text{O}_2]}{\\Delta t}$$\n\nThe **instantaneous rate** is found by drawing a tangent line to the concentration–time curve at the time of interest and taking its slope. At t = 0 this is the initial rate, a quantity we use heavily later because concentrations are known exactly at the start.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Rate has units of M/s (concentration per time).\n- Reactants get a **negative** sign in the definition; products get a **positive** sign — the reported rate is always positive.\n- Divide each species by its stoichiometric coefficient so the rate is the same for every component.\n- Initial rate (t = 0) is the most reliable because starting concentrations are known.\n- Most reactions slow as reactants are consumed.",
+    "commonConfusions": "- **\"Rate is negative for reactants.\"** The concentration change Δ[A] is negative, but the rate itself is defined with a minus sign so it stays positive. Do not report a negative rate.\n- **Forgetting stoichiometric coefficients.** The rate of NO₂ formation is twice the rate of O₂ formation in the N₂O₅ example. Coefficients matter.\n- **Confusing average and instantaneous rate.** Average rate is over a window; instantaneous is a tangent slope. They agree only when the rate is constant.\n- **Using moles instead of molarity.** Rate uses concentration so it is independent of vessel size.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a rate as a speedometer for a reaction. The speedometer doesn't care whether you're driving toward your house (products) or away from your house (reactants) — it just reports a positive number. The stoichiometry is like converting between units: if a recipe uses two eggs to make one omelet, then omelets form half as fast as eggs disappear. We write the sign convention so the \"speed\" always comes out positive, and we divide by the coefficients so everybody reading the same reaction gets the same number off the speedometer. And just like a car burns fuel faster at the start of a trip, a reaction is fastest at the beginning when reactants are most plentiful.",
+    "quickReview": "1. Define the rate of a reaction in words and with a formula.\n2. Why is there a negative sign on reactant terms?\n3. In 2 H₂ + O₂ → 2 H₂O, how does the rate of H₂ consumption compare with the rate of H₂O formation?\n4. Name four factors that influence reaction rate.\n5. Why is the initial rate preferred in many experiments?",
+    "workedExamples": "### Worked Example\n\nThe reaction 2 N₂O₅(g) → 4 NO₂(g) + O₂(g) is monitored. Over a 100-second interval, [N₂O₅] decreases from 0.0500 M to 0.0400 M.\n\n**(a) Average rate of N₂O₅ consumption.**\n\n$$\\text{Rate} = -\\frac{\\Delta[\\text{N}_2\\text{O}_5]}{\\Delta t} = -\\frac{0.0400 - 0.0500\\ \\text{M}}{100\\ \\text{s}} = -\\frac{-0.0100\\ \\text{M}}{100\\ \\text{s}} = 1.00 \\times 10^{-4}\\ \\text{M}\\ \\text{s}^{-1}$$\n\n**(b) Rate of O₂ formation over the same interval.**\n\nOne O₂ is produced for every two N₂O₅ consumed, so O₂ forms at half the rate:\n\n$$\\frac{\\Delta[\\text{O}_2]}{\\Delta t} = \\frac{1}{2}\\left(1.00 \\times 10^{-4}\\ \\text{M s}^{-1}\\right) = 5.0 \\times 10^{-5}\\ \\text{M s}^{-1}$$\n\n**(c) Rate of NO₂ formation.**\n\nFour NO₂ form per two N₂O₅ consumed, a 2:1 ratio, so NO₂ forms twice as fast as N₂O₅ disappears:\n\n$$\\frac{\\Delta[\\text{NO}_2]}{\\Delta t} = 2\\left(1.00 \\times 10^{-4}\\ \\text{M s}^{-1}\\right) = 2.0 \\times 10^{-4}\\ \\text{M s}^{-1}$$\n\nNotice that all three answers are positive, and the fastest-changing species (NO₂) has the largest coefficient.",
+    "references": [
+      {
+        "text": "OpenStax. *Chemistry 2e*. Ch. 12, \"Chemical Reaction Rates.\" https://openstax.org/books/chemistry-2e/pages/12-1-chemical-reaction-rates",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-1-chemical-reaction-rates"
+      },
+      {
+        "text": "IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"rate of reaction.\" https://goldbook.iupac.org/",
+        "url": "https://goldbook.iupac.org/"
+      },
+      {
+        "text": "Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman."
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/12-chemical-kinetics/01-reaction-rates.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

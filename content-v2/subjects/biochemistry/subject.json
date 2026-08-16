@@ -1,0 +1,684 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:biochemistry",
+    "slug": "biochemistry",
+    "title": "Biochemistry",
+    "aliases": [
+      {
+        "value": "biochemistry",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "biochem",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "bio-chemistry",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "biochem",
+        "kind": "source_subject_id",
+        "source_id": "prenursing_notes"
+      }
+    ],
+    "status": "final",
+    "category": "pre-health-core"
+  },
+  "units": [
+    {
+      "id": "unit:biochemistry:chemistry-review-for-biochemistry",
+      "slug": "chemistry-review-for-biochemistry",
+      "title": "Chemistry Review for Biochemistry",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "chemistry-review-for-biochemistry",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "biochem-u01",
+          "kind": "source_unit_id",
+          "source_id": "prenursing_notes"
+        },
+        {
+          "value": "01-chemistry-review-for-biochemistry",
+          "kind": "source_directory",
+          "source_id": "prenursing_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:biochemistry:chemistry-review-for-biochemistry:atoms-bonds-and-water",
+          "slug": "atoms-bonds-and-water",
+          "title": "Atoms, Bonds, and Water in Biochemistry",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/chemistry-review-for-biochemistry/atoms-bonds-and-water.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:chemistry-review-for-biochemistry:acids-bases-buffers-and-ph",
+          "slug": "acids-bases-buffers-and-ph",
+          "title": "Acids, Bases, Buffers, and pH",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/chemistry-review-for-biochemistry/acids-bases-buffers-and-ph.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:chemistry-review-for-biochemistry:functional-groups-and-building-blocks",
+          "slug": "functional-groups-and-building-blocks",
+          "title": "Functional Groups and Biomolecule Building Blocks",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/chemistry-review-for-biochemistry/functional-groups-and-building-blocks.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biochemistry:carbohydrates",
+      "slug": "carbohydrates",
+      "title": "Carbohydrates",
+      "order": 2,
+      "aliases": [
+        {
+          "value": "carbohydrates",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "biochem-u02",
+          "kind": "source_unit_id",
+          "source_id": "prenursing_notes"
+        },
+        {
+          "value": "02-carbohydrates",
+          "kind": "source_directory",
+          "source_id": "prenursing_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:biochemistry:carbohydrates:monosaccharides",
+          "slug": "monosaccharides",
+          "title": "Monosaccharides and Their Structures",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/carbohydrates/monosaccharides.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:carbohydrates:disaccharides-and-the-glycosidic-bond",
+          "slug": "disaccharides-and-the-glycosidic-bond",
+          "title": "Disaccharides and the Glycosidic Bond",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/carbohydrates/disaccharides-and-the-glycosidic-bond.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:carbohydrates:polysaccharides",
+          "slug": "polysaccharides",
+          "title": "Polysaccharides and Their Functions",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/carbohydrates/polysaccharides.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biochemistry:lipids",
+      "slug": "lipids",
+      "title": "Lipids",
+      "order": 3,
+      "aliases": [
+        {
+          "value": "lipids",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "biochem-u03",
+          "kind": "source_unit_id",
+          "source_id": "prenursing_notes"
+        },
+        {
+          "value": "03-lipids",
+          "kind": "source_directory",
+          "source_id": "prenursing_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:biochemistry:lipids:fatty-acids-and-triglycerides",
+          "slug": "fatty-acids-and-triglycerides",
+          "title": "Fatty Acids and Triglycerides",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/lipids/fatty-acids-and-triglycerides.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:lipids:phospholipids-and-membranes",
+          "slug": "phospholipids-and-membranes",
+          "title": "Phospholipids and Membranes",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/lipids/phospholipids-and-membranes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:lipids:steroids-and-other-lipids",
+          "slug": "steroids-and-other-lipids",
+          "title": "Steroids and Other Lipids",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/lipids/steroids-and-other-lipids.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biochemistry:proteins-and-amino-acids",
+      "slug": "proteins-and-amino-acids",
+      "title": "Proteins and Amino Acids",
+      "order": 4,
+      "aliases": [
+        {
+          "value": "proteins-and-amino-acids",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "biochem-u04",
+          "kind": "source_unit_id",
+          "source_id": "prenursing_notes"
+        },
+        {
+          "value": "04-proteins-and-amino-acids",
+          "kind": "source_directory",
+          "source_id": "prenursing_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:biochemistry:proteins-and-amino-acids:amino-acids-and-the-peptide-bond",
+          "slug": "amino-acids-and-the-peptide-bond",
+          "title": "Amino Acids and the Peptide Bond",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/proteins-and-amino-acids/amino-acids-and-the-peptide-bond.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:proteins-and-amino-acids:levels-of-protein-structure",
+          "slug": "levels-of-protein-structure",
+          "title": "Levels of Protein Structure",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/proteins-and-amino-acids/levels-of-protein-structure.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:proteins-and-amino-acids:protein-function-and-denaturation",
+          "slug": "protein-function-and-denaturation",
+          "title": "Protein Function and Denaturation",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/proteins-and-amino-acids/protein-function-and-denaturation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biochemistry:enzymes-and-energy",
+      "slug": "enzymes-and-energy",
+      "title": "Enzymes and Energy",
+      "order": 5,
+      "aliases": [
+        {
+          "value": "enzymes-and-energy",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "biochem-u05",
+          "kind": "source_unit_id",
+          "source_id": "prenursing_notes"
+        },
+        {
+          "value": "05-enzymes-and-energy",
+          "kind": "source_directory",
+          "source_id": "prenursing_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:biochemistry:enzymes-and-energy:enzymes-as-biological-catalysts",
+          "slug": "enzymes-as-biological-catalysts",
+          "title": "Enzymes as Biological Catalysts",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/enzymes-and-energy/enzymes-as-biological-catalysts.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:enzymes-and-energy:enzyme-kinetics-and-regulation",
+          "slug": "enzyme-kinetics-and-regulation",
+          "title": "Enzyme Kinetics and Regulation",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/enzymes-and-energy/enzyme-kinetics-and-regulation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:enzymes-and-energy:bioenergetics-and-atp",
+          "slug": "bioenergetics-and-atp",
+          "title": "Bioenergetics and ATP",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/enzymes-and-energy/bioenergetics-and-atp.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biochemistry:cellular-respiration-and-metabolism",
+      "slug": "cellular-respiration-and-metabolism",
+      "title": "Cellular Respiration and Metabolism",
+      "order": 6,
+      "aliases": [
+        {
+          "value": "cellular-respiration-and-metabolism",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "biochem-u06",
+          "kind": "source_unit_id",
+          "source_id": "prenursing_notes"
+        },
+        {
+          "value": "06-cellular-respiration-and-metabolism",
+          "kind": "source_directory",
+          "source_id": "prenursing_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:biochemistry:cellular-respiration-and-metabolism:glycolysis",
+          "slug": "glycolysis",
+          "title": "Glycolysis",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/cellular-respiration-and-metabolism/glycolysis.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:cellular-respiration-and-metabolism:pyruvate-oxidation-and-citric-acid-cycle",
+          "slug": "pyruvate-oxidation-and-citric-acid-cycle",
+          "title": "Pyruvate Oxidation and the Citric Acid Cycle",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/cellular-respiration-and-metabolism/pyruvate-oxidation-and-citric-acid-cycle.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:cellular-respiration-and-metabolism:oxidative-phosphorylation-and-etc",
+          "slug": "oxidative-phosphorylation-and-etc",
+          "title": "Oxidative Phosphorylation and the Electron Transport Chain",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/cellular-respiration-and-metabolism/oxidative-phosphorylation-and-etc.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:cellular-respiration-and-metabolism:fermentation-and-anaerobic-metabolism",
+          "slug": "fermentation-and-anaerobic-metabolism",
+          "title": "Fermentation and Anaerobic Metabolism",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/cellular-respiration-and-metabolism/fermentation-and-anaerobic-metabolism.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:cellular-respiration-and-metabolism:metabolism-of-fats-and-proteins",
+          "slug": "metabolism-of-fats-and-proteins",
+          "title": "Metabolism of Fats and Proteins",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/cellular-respiration-and-metabolism/metabolism-of-fats-and-proteins.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:cellular-respiration-and-metabolism:integration-and-regulation-of-metabolism",
+          "slug": "integration-and-regulation-of-metabolism",
+          "title": "Integration and Regulation of Metabolism",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/cellular-respiration-and-metabolism/integration-and-regulation-of-metabolism.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biochemistry:nucleic-acids-and-molecular-biology",
+      "slug": "nucleic-acids-and-molecular-biology",
+      "title": "Nucleic Acids and Molecular Biology",
+      "order": 7,
+      "aliases": [
+        {
+          "value": "nucleic-acids-and-molecular-biology",
+          "kind": "canonical_slug"
+        },
+        {
+          "value": "biochem-u07",
+          "kind": "source_unit_id",
+          "source_id": "prenursing_notes"
+        },
+        {
+          "value": "07-nucleic-acids-and-molecular-biology",
+          "kind": "source_directory",
+          "source_id": "prenursing_notes"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:biochemistry:nucleic-acids-and-molecular-biology:structure-of-dna-and-rna",
+          "slug": "structure-of-dna-and-rna",
+          "title": "Structure of DNA and RNA",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/nucleic-acids-and-molecular-biology/structure-of-dna-and-rna.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:nucleic-acids-and-molecular-biology:dna-replication",
+          "slug": "dna-replication",
+          "title": "DNA Replication",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/nucleic-acids-and-molecular-biology/dna-replication.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:nucleic-acids-and-molecular-biology:transcription",
+          "slug": "transcription",
+          "title": "Transcription",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/nucleic-acids-and-molecular-biology/transcription.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:nucleic-acids-and-molecular-biology:translation-and-the-genetic-code",
+          "slug": "translation-and-the-genetic-code",
+          "title": "Translation and the Genetic Code",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/nucleic-acids-and-molecular-biology/translation-and-the-genetic-code.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biochemistry:nucleic-acids-and-molecular-biology:regulation-of-gene-expression",
+          "slug": "regulation-of-gene-expression",
+          "title": "Regulation of Gene Expression",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biochemistry/topics/nucleic-acids-and-molecular-biology/regulation-of-gene-expression.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 7,
+    "topicCount": 26,
+    "teachingTopicCount": 26,
+    "eli10TopicCount": 26,
+    "highYieldTopicCount": 26,
+    "referencedTopicCount": 26,
+    "exactOrMappedQuestionCount": 0,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 0,
+    "citationReviewRequiredCount": 0
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

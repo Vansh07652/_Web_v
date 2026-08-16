@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:vesicular-traffic:endosome-maturation",
+  "slug": "endosome-maturation",
+  "title": "Endosome Maturation",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:vesicular-traffic",
+    "slug": "vesicular-traffic",
+    "title": "Vesicular Traffic",
+    "order": 4
+  },
+  "order": 13,
+  "status": "final",
+  "sections": {
+    "overview": "Endosomes are a dynamic network of membrane compartments that sort the material taken up by endocytosis. Cargo enters the **early endosome**, where receptors and ligands separate in the acidic lumen: many receptors and lipids recycle to the plasma membrane via **recycling endosomes**, while remaining cargo is concentrated into **late endosomes** (multivesicular bodies) and ultimately delivered to lysosomes for degradation. Maturation from early to late endosome is marked by progressive acidification and by a switch in Rab GTPase identity (Rab5 → Rab7).",
+    "whyItMatters": "Endosomal sorting determines whether a receptor keeps signaling or is shut down — it is the cell's master control for receptor downregulation and signaling attenuation. Dysfunction is implicated in cancer (failed receptor degradation → sustained growth signaling), in viral budding (HIV exploits ESCRT), and in neurodegeneration (endosomal/lysosomal trafficking defects in Alzheimer's disease). Cholesterol, iron (transferrin), and many nutrients all depend on correct endosomal routing.",
+    "learningObjectives": "- Describe the endosomal pathway and its three main compartments.\n- Explain how endosomes acidify and change Rab identity as they mature.\n- Distinguish the recycling and degradative fates of endocytosed cargo.\n- Explain how multivesicular bodies sort membrane proteins for degradation.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nEndosomes are a dynamic network of membrane compartments that sort the material taken up by endocytosis. Cargo enters the **early endosome**, where receptors and ligands separate in the acidic lumen: many receptors and lipids recycle to the plasma membrane via **recycling endosomes**, while remaining cargo is concentrated into **late endosomes** (multivesicular bodies) and ultimately delivered to lysosomes for degradation. Maturation from early to late endosome is marked by progressive acidification and by a switch in Rab GTPase identity (Rab5 → Rab7).\n\n### Key Components\n\n- **Early endosomes (sorting endosomes):** mildly acidic (pH ~6.0–6.5), the primary sorting station; characterized by **Rab5** and **EEA1**.\n- **Recycling endosomes:** tubular compartments (often Rab11⁺) that return receptors and membrane to the plasma membrane.\n- **Late endosomes / multivesicular bodies (MVBs):** more acidic (pH ~5.5), contain intraluminal vesicles; characterized by **Rab7**.\n- **V-ATPase:** the proton pump that acidifies endosomes.\n- **ESCRT machinery:** sorts ubiquitinated membrane proteins into intraluminal vesicles of MVBs.\n- **PI3P (phosphatidylinositol 3-phosphate):** the early-endosome lipid that recruits Rab5 effectors.\n- **Rab conversion (Rab5 → Rab7):** the molecular signature of maturation.\n\n### Mechanism / How It Works\n\n1. Endocytic vesicles fuse with (or coalesce into) early endosomes, marked by Rab5 and enriched in PI3P.\n2. The V-ATPase begins acidifying the lumen (pH ~6.5 → 6.0); this lower pH triggers many ligand–receptor complexes to dissociate.\n3. Sorting begins: receptors destined for reuse are gathered into narrow **recycling tubules** that bud toward the plasma membrane (fast and slow recycling routes).\n4. Cargo destined for degradation stays in the vacuolar portion of the early endosome.\n5. As the endosome matures, **Rab5 is replaced by Rab7** (a Rab cascade with positive feedback), EEA1 dissociates, and the compartment becomes a late endosome/MVB.\n6. The ESCRT complex sorts ubiquitinated membrane proteins into **intraluminal vesicles** that bud into the lumen — this internalizes receptors so they can be degraded when the MVB fuses with a lysosome.\n7. The late endosome fuses with (or is delivered to) a lysosome, whose hydrolases degrade the contents.\n\n### Energy and Directionality\n\nEndosome maturation is a unidirectional (early → late → lysosome) process powered continuously by ATP: the V-ATPase pumps protons to drive progressive acidification, Rab cycles consume GTP, and ESCRT-mediated vesicle budding and MVB–lysosome fusion (SNARE/Rab machinery) all require nucleotide hydrolysis. The acidification itself is not merely incidental — the pH drop is what enables ligand dissociation, sorting, and ultimately lysosomal hydrolase activation.\n\n### Experimental Evidence / Technique\n\n- **Live-cell imaging of fluorescent Rabs:** Rab5-GFP is seen on early endosomes; over time, as Rab5 is lost and Rab7 appears, the same compartment matures — visualizing the Rab5→Rab7 conversion.\n- **pH-sensitive fluorescent probes:** ratiometric dyes (e.g. FITC-dextran) measured endosomal pH in living cells, showing the early→late pH decline.\n- **Electron microscopy:** identified multivesicular bodies and the budding of intraluminal vesicles.\n- **Pulse-chase with transferrin vs. EGF:** transferrin (recycling ligand) returns to the surface, while EGF (degradative ligand) is sent to lysosomes — separating the two sorting fates experimentally.\n- **ESCRT mutant studies (yeast):** loss of ESCRT subunits blocks MVB formation and traps receptors on the limiting membrane.",
+    "howItWorks": "1. Endocytic vesicles fuse with (or coalesce into) early endosomes, marked by Rab5 and enriched in PI3P.\n2. The V-ATPase begins acidifying the lumen (pH ~6.5 → 6.0); this lower pH triggers many ligand–receptor complexes to dissociate.\n3. Sorting begins: receptors destined for reuse are gathered into narrow **recycling tubules** that bud toward the plasma membrane (fast and slow recycling routes).\n4. Cargo destined for degradation stays in the vacuolar portion of the early endosome.\n5. As the endosome matures, **Rab5 is replaced by Rab7** (a Rab cascade with positive feedback), EEA1 dissociates, and the compartment becomes a late endosome/MVB.\n6. The ESCRT complex sorts ubiquitinated membrane proteins into **intraluminal vesicles** that bud into the lumen — this internalizes receptors so they can be degraded when the MVB fuses with a lysosome.\n7. The late endosome fuses with (or is delivered to) a lysosome, whose hydrolases degrade the contents.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Endosome sequence: **early (pH ~6) → recycling → late/MVB (pH ~5.5) → lysosome (pH ~4.5–5)**.\n- **Rab5 = early endosome; Rab7 = late endosome/lysosome.**\n- The **V-ATPase** drives progressive acidification.\n- **ESCRT** sorts ubiquitinated receptors into intraluminal vesicles for degradation.\n- **Transferrin/transferrin receptor** = canonical recycling cargo; **EGF/EGFR** = canonical degradative cargo.\n- **PI3P** recruits early-endosome effectors (EEA1).\n- Maturation is marked by a **Rab5→Rab7 cascade**, not by vesicle-by-vesicle handoff alone.\n- Intraluminal vesicles ensure the lysosome can degrade *membrane* proteins, not just luminal cargo.",
+    "commonConfusions": "- **\"Endosomes and lysosomes are the same thing.\"** Endosomes are sorting compartments that *precede* lysosomes; lysosomes are the degradative endpoint with mature acid hydrolases.\n- **\"All endocytosed cargo is degraded.\"** Most receptors and much membrane recycle to the surface; only a subset is degraded.\n- **\"Acidification is a passive side effect.\"** It is actively maintained by the V-ATPase and is functionally required for sorting and enzyme activation.\n- **\"Endosomes mature by fusing with each other only.\"** They also undergo Rab conversion and MVB formation — a genuine maturation process.\n- **\"Membrane proteins can't be degraded in lysosomes.\"** MVBs package them into intraluminal vesicles precisely so the lysosome can digest them.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a sorting office for mail. Mail arrives at the front desk (the early endosome), where clerks decide: \"return to sender\" (recycle to the surface) or \"shred it\" (send to the lysosome). The office gets more and more acidic as packages move deeper, and a different manager (Rab7) takes over from the first (Rab5). Packages headed for shredding are first sealed into inner envelopes (intraluminal vesicles) so the shredder can destroy the whole thing. (The analogy omits that \"acidification\" is actively pumped by V-ATPase and that the managers are small GTPases whose switch is itself tightly regulated.)",
+    "quickReview": "- Early endosome (Rab5, pH ~6) → recycling or → late endosome/MVB (Rab7, pH ~5.5) → lysosome.\n- V-ATPase acidifies; low pH releases ligands and drives sorting.\n- ESCRT forms intraluminal vesicles for membrane-protein degradation.\n- Rab5→Rab7 switch marks maturation.\n- Sorting decides receptor reuse vs. downregulation — central to signaling control.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, Johnson A, Lewis J, et al. \"Transport into the Cell from the Plasma Membrane: Endocytosis.\" *Molecular Biology of the Cell.* 4th edition. Garland Science; 2002. https://www.ncbi.nlm.nih.gov/books/NBK26870/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26870/"
+      },
+      {
+        "text": "Alberts B, et al. \"Transport from the Trans Golgi Network to Lysosomes.\" *Molecular Biology of the Cell.* 4th edition. 2002. https://www.ncbi.nlm.nih.gov/books/NBK26844/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26844/"
+      },
+      {
+        "text": "Clark MA, Choi J, Douglas M. \"5.4 Bulk Transport.\" *Biology 2e.* OpenStax. https://openstax.org/books/biology-2e/pages/5-4-bulk-transport",
+        "url": "https://openstax.org/books/biology-2e/pages/5-4-bulk-transport"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "endosome-maturation",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "13-endosome-maturation",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:07418093e9b9f04a"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:07418093e9b9f04a"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:07418093e9b9f04a"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:07418093e9b9f04a"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/04-vesicular-traffic/13-endosome-maturation.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Endosome Maturation\n\n## Learning Goals\n- Describe the endosomal pathway and its three main compartments.\n- Explain how endosomes acidify and change Rab identity as they mature.\n- Distinguish the recycling and degradative fates of endocytosed cargo.\n- Explain how multivesicular bodies sort membrane proteins for degradation.\n\n## Core Concept\nEndosomes are a dynamic network of membrane compartments that sort the material taken up by endocytosis. Cargo enters the **early endosome**, where receptors and ligands separate in the acidic lumen: many receptors and lipids recycle to the plasma membrane via **recycling endosomes**, while remaining cargo is concentrated into **late endosomes** (multivesicular bodies) and ultimately delivered to lysosomes for degradation. Maturation from early to late endosome is marked by progressive acidification and by a switch in Rab GTPase identity (Rab5 → Rab7).\n\n## Key Components\n- **Early endosomes (sorting endosomes):** mildly acidic (pH ~6.0–6.5), the primary sorting station; characterized by **Rab5** and **EEA1**.\n- **Recycling endosomes:** tubular compartments (often Rab11⁺) that return receptors and membrane to the plasma membrane.\n- **Late endosomes / multivesicular bodies (MVBs):** more acidic (pH ~5.5), contain intraluminal vesicles; characterized by **Rab7**.\n- **V-ATPase:** the proton pump that acidifies endosomes.\n- **ESCRT machinery:** sorts ubiquitinated membrane proteins into intraluminal vesicles of MVBs.\n- **PI3P (phosphatidylinositol 3-phosphate):** the early-endosome lipid that recruits Rab5 effectors.\n- **Rab conversion (Rab5 → Rab7):** the molecular signature of maturation.\n\n## Mechanism / How It Works\n1. Endocytic vesicles fuse with (or coalesce into) early endosomes, marked by Rab5 and enriched in PI3P.\n2. The V-ATPase begins acidifying the lumen (pH ~6.5 → 6.0); this lower pH triggers many ligand–receptor complexes to dissociate.\n3. Sorting begins: receptors destined for reuse are gathered into narrow **recycling tubules** that bud toward the plasma membrane (fast and slow recycling routes).\n4. Cargo destined for degradation stays in the vacuolar portion of the early endosome.\n5. As the endosome matures, **Rab5 is replaced by Rab7** (a Rab cascade with positive feedback), EEA1 dissociates, and the compartment becomes a late endosome/MVB.\n6. The ESCRT complex sorts ubiquitinated membrane proteins into **intraluminal vesicles** that bud into the lumen — this internalizes receptors so they can be degraded when the MVB fuses with a lysosome.\n7. The late endosome fuses with (or is delivered to) a lysosome, whose hydrolases degrade the contents.\n\n## Energy and Directionality\nEndosome maturation is a unidirectional (early → late → lysosome) process powered continuously by ATP: the V-ATPase pumps protons to drive progressive acidification, Rab cycles consume GTP, and ESCRT-mediated vesicle budding and MVB–lysosome fusion (SNARE/Rab machinery) all require nucleotide hydrolysis. The acidification itself is not merely incidental — the pH drop is what enables ligand dissociation, sorting, and ultimately lysosomal hydrolase activation.\n\n## Experimental Evidence / Technique\n- **Live-cell imaging of fluorescent Rabs:** Rab5-GFP is seen on early endosomes; over time, as Rab5 is lost and Rab7 appears, the same compartment matures — visualizing the Rab5→Rab7 conversion.\n- **pH-sensitive fluorescent probes:** ratiometric dyes (e.g. FITC-dextran) measured endosomal pH in living cells, showing the early→late pH decline.\n- **Electron microscopy:** identified multivesicular bodies and the budding of intraluminal vesicles.\n- **Pulse-chase with transferrin vs. EGF:** transferrin (recycling ligand) returns to the surface, while EGF (degradative ligand) is sent to lysosomes — separating the two sorting fates experimentally.\n- **ESCRT mutant studies (yeast):** loss of ESCRT subunits blocks MVB formation and traps receptors on the limiting membrane.\n\n## Why It Matters\nEndosomal sorting determines whether a receptor keeps signaling or is shut down — it is the cell's master control for receptor downregulation and signaling attenuation. Dysfunction is implicated in cancer (failed receptor degradation → sustained growth signaling), in viral budding (HIV exploits ESCRT), and in neurodegeneration (endosomal/lysosomal trafficking defects in Alzheimer's disease). Cholesterol, iron (transferrin), and many nutrients all depend on correct endosomal routing.\n\n## High-Yield Facts\n- Endosome sequence: **early (pH ~6) → recycling → late/MVB (pH ~5.5) → lysosome (pH ~4.5–5)**.\n- **Rab5 = early endosome; Rab7 = late endosome/lysosome.**\n- The **V-ATPase** drives progressive acidification.\n- **ESCRT** sorts ubiquitinated receptors into intraluminal vesicles for degradation.\n- **Transferrin/transferrin receptor** = canonical recycling cargo; **EGF/EGFR** = canonical degradative cargo.\n- **PI3P** recruits early-endosome effectors (EEA1).\n- Maturation is marked by a **Rab5→Rab7 cascade**, not by vesicle-by-vesicle handoff alone.\n- Intraluminal vesicles ensure the lysosome can degrade *membrane* proteins, not just luminal cargo.\n\n## Eli Explains\nThink of a sorting office for mail. Mail arrives at the front desk (the early endosome), where clerks decide: \"return to sender\" (recycle to the surface) or \"shred it\" (send to the lysosome). The office gets more and more acidic as packages move deeper, and a different manager (Rab7) takes over from the first (Rab5). Packages headed for shredding are first sealed into inner envelopes (intraluminal vesicles) so the shredder can destroy the whole thing. (The analogy omits that \"acidification\" is actively pumped by V-ATPase and that the managers are small GTPases whose switch is itself tightly regulated.)\n\n## Common Confusions\n- **\"Endosomes and lysosomes are the same thing.\"** Endosomes are sorting compartments that *precede* lysosomes; lysosomes are the degradative endpoint with mature acid hydrolases.\n- **\"All endocytosed cargo is degraded.\"** Most receptors and much membrane recycle to the surface; only a subset is degraded.\n- **\"Acidification is a passive side effect.\"** It is actively maintained by the V-ATPase and is functionally required for sorting and enzyme activation.\n- **\"Endosomes mature by fusing with each other only.\"** They also undergo Rab conversion and MVB formation — a genuine maturation process.\n- **\"Membrane proteins can't be degraded in lysosomes.\"** MVBs package them into intraluminal vesicles precisely so the lysosome can digest them.\n\n## Quick Review\n- Early endosome (Rab5, pH ~6) → recycling or → late endosome/MVB (Rab7, pH ~5.5) → lysosome.\n- V-ATPase acidifies; low pH releases ligands and drives sorting.\n- ESCRT forms intraluminal vesicles for membrane-protein degradation.\n- Rab5→Rab7 switch marks maturation.\n- Sorting decides receptor reuse vs. downregulation — central to signaling control.\n\n## Sources\n- Alberts B, Johnson A, Lewis J, et al. \"Transport into the Cell from the Plasma Membrane: Endocytosis.\" *Molecular Biology of the Cell.* 4th edition. Garland Science; 2002. https://www.ncbi.nlm.nih.gov/books/NBK26870/\n- Alberts B, et al. \"Transport from the Trans Golgi Network to Lysosomes.\" *Molecular Biology of the Cell.* 4th edition. 2002. https://www.ncbi.nlm.nih.gov/books/NBK26844/\n- Clark MA, Choi J, Douglas M. \"5.4 Bulk Transport.\" *Biology 2e.* OpenStax. https://openstax.org/books/biology-2e/pages/5-4-bulk-transport\n"
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-2:spectroscopy:infrared-spectroscopy",
+  "slug": "infrared-spectroscopy",
+  "title": "Infrared Spectroscopy",
+  "subject": {
+    "id": "subject:organic-chemistry-2",
+    "slug": "organic-chemistry-2",
+    "title": "Organic Chemistry II"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-2:spectroscopy",
+    "slug": "spectroscopy",
+    "title": "Spectroscopy",
+    "order": 1
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "Infrared (IR) spectroscopy measures which frequencies of infrared light a molecule absorbs as its bonds stretch and bend. Each functional group absorbs at a characteristic wavenumber, so the spectrum acts like a fingerprint of the bonds present. A carbonyl near 1700 cm⁻¹, a broad O–H near 3200–3600 cm⁻¹, and C≡C/C≡N near 2100–2260 cm⁻¹ are among the most diagnostic signals. IR confirms functional groups but does not give a complete structure.",
+    "whyItMatters": "IR spectroscopy identifies pharmaceuticals by matching a drug's spectrum against a pharmacopeial reference before release. Clinically, breath and blood analyzers use IR absorption (e.g., CO₂, ethanol) for rapid measurement, and near-IR underlies pulse oximetry's blood-oxygen monitoring.",
+    "learningObjectives": "1. Explain how infrared light excites molecular vibrations (stretching and bending) to produce an absorption spectrum.\n2. Relate absorption wavenumber to bond strength and atomic mass using the Hooke's-law model.\n3. Identify O–H, N–H, C=O, C=C, C≡C, and C≡N absorptions in the diagnostic region and use the fingerprint region appropriately.\n4. Apply a functional-group identification workflow and state the limitations of IR spectroscopy.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| IR spectroscopy | Measures absorbed infrared frequencies | Fast, cheap functional-group ID |\n| Molecular vibrations | Stretching and bending motions | Absorbs the light |\n| Stretching | Atoms moving along the bond axis | Diagnostic absorptions |\n| Bending | Atoms changing bond angles | Fingerprint region |\n| Wavenumber (cm⁻¹) | Energy/frequency unit on the x-axis | Higher = stiffer |\n| Hooke's law relationship | \\(\\tilde{\\nu} \\propto \\sqrt{k/\\mu}\\) | Predicts position |\n| Bond strength | Force constant \\(k\\) | Stronger → higher |\n| Atomic mass | Reduced mass \\(\\mu\\) of bonded atoms | Heavier → lower |\n| Diagnostic region | 4000–1400 cm⁻¹ | Assigns groups |\n| Fingerprint region | 1400–400 cm⁻¹ | Confirms identity |\n| Broad vs. sharp | Peak width from H-bonding | O–H H-bonds; N–H less so |\n| O–H identification | Broad ~3200–3600 cm⁻¹ | Alcohols, acids, water |\n| N–H identification | Sharp ~3300–3500 cm⁻¹, often double | Amines, amides |\n| C=O identification | Strong ~1650–1850 cm⁻¹ | Most diagnostic peak |\n| C=C identification | ~1600–1680 cm⁻¹ | Alkenes, aromatics |\n| C≡C identification | ~2100–2260 cm⁻¹ | Alkynes |\n| C≡N identification | ~2220–2260 cm⁻¹ | Nitriles |\n| Functional-group identification workflow | O–H/N–H → triple → C=O → C=C → fingerprint | Exam-ready |\n| IR limitations | What IR cannot tell you | Honest reading |",
+    "collegeNotes": "### 1. Molecular vibrations and wavenumber\nIR light (~4000–400 cm⁻¹) is too weak to break bonds but strong enough to set them vibrating. **Molecular vibrations** are **stretching** (atoms moving along the bond axis) and **bending** (angle changes — scissoring, rocking, wagging, twisting). The x-axis is **wavenumber** (cm⁻¹), proportional to frequency and energy.\n\n### 2. Hooke's law and the stretching frequency\nThe **Hooke's law relationship** models a bond as a spring. Stretching wavenumber rises with **bond strength** (stiffer spring) and falls with **atomic mass** (heavier atoms):\n\\[\n\\tilde{\\nu} \\propto \\sqrt{\\frac{k}{\\mu}}, \\qquad \\mu = \\frac{m_1 m_2}{m_1 + m_2}\n\\]\nSo triple bonds (highest \\(k\\)) absorb highest (C≡C ~2100, C≡N ~2260 cm⁻¹), double bonds next (C=C ~1650, C=O ~1700 cm⁻¹), and single bonds lowest (C–C ~1200 cm⁻¹). It also explains why C–H (~3000) absorbs far higher than C–Cl (~700): hydrogen is much lighter than chlorine.\n\n### 3. Diagnostic and fingerprint regions\nThe **diagnostic region** (~4000–1400 cm⁻¹) holds functional-group stretches that are easy to assign. The **fingerprint region** (~1400–400 cm⁻¹) holds complex bending and single-bond patterns unique to each molecule — used to match a compound against a reference, not to assign groups one by one.",
+    "howItWorks": "1. Infrared light of many frequencies passes through (or reflects off) the sample.\n2. Each bond absorbs only at frequencies matching its natural vibrations.\n3. A detector compares transmitted light to a reference beam and records the missing frequencies.\n4. Absorbance is plotted against wavenumber (cm⁻¹).\n5. The chemist assigns diagnostic-region peaks and matches the fingerprint region.",
+    "comparisons": "",
+    "highYield": "- **High yield:** The C=O stretch near 1700 cm⁻¹ is the single most useful IR signal — strong and reliable.\n- **High yield:** O–H is *broad* (~3200–3600 cm⁻¹) from H-bonding; N–H is sharper, often two peaks for primary amines.\n- **High yield:** Triple bonds (C≡C, C≡N) absorb ~2100–2260 cm⁻¹, a region almost nothing else occupies.\n- **High yield:** Ordering follows bond strength and mass: triple > double > single; C–H > C–C because H is light.\n- **High yield:** A symmetric C=C can be weak or invisible — absence of a peak is not proof of absence.\n- Carboxylic-acid O–H is the broadest (2500–3300 cm⁻¹) and overlaps the C–H region.\n- The fingerprint region proves identity only by matching a reference.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Stretching | Bending | Bond length vs. angle changes |\n| Wavenumber (cm⁻¹) | Wavelength (nm/µm) | Wavenumber ∝ frequency; they move oppositely |\n| Diagnostic region | Fingerprint region | Assignable group stretches vs. unique matching pattern |\n| Broad O–H | Sharp N–H | O–H strongly H-bonded; N–H weaker |\n| C=C stretch | C=O stretch | C=O stronger, higher; C=C may be absent |\n| \"No peak\" | \"No group\" | Symmetric/weak absorptions may not appear |",
+    "memoryAids": "**\"Heavy and Stiff move Higher; Light and Weak move Lower\"** — a bond absorbs at higher wavenumber when it is *stronger* and its atoms are *lighter*. And **\"ONE-C\"** for the scan order: **O**–H/N–H, **N**itrile/alkyne (triple), **E**ster/ketone (C=O), **C**=C — then the fingerprint.",
+    "eli10": "Think of a molecule as tiny springs connecting balls (the atoms). Push a swing at its natural rhythm and it moves strongly; push at any other speed and it barely moves. Infrared light is that push — when its frequency matches a bond's natural vibration, the molecule absorbs it and we record a peak. Stretching is the bond getting longer and shorter; bending is the angle opening and closing.\n\nThe comparison \"where it stops being exact\": treating bonds as ideal springs *predicts* roughly where a vibration appears, but real bonds also bend, wag, and twist, and neighboring groups shift every absorption. So IR reliably tells you \"there is a C=O here,\" but not which carbonyl compound you have, nor how the atoms connect in three dimensions.\n\n### Simple Example\nWater absorbs IR strongly where its O–H bonds stretch and the H–O–H angle bends. That is why water vapor is a greenhouse gas and why wet samples show a big O–H peak.",
+    "quickReview": "### Topic Recap\n\nInfrared spectroscopy excites bond stretching and bending and records absorbed frequencies as wavenumbers. The Hooke's-law model explains why absorption wavenumber rises with bond strength and falls with atomic mass (triple > double > single). The diagnostic region reveals functional groups — broad O–H, sharp N–H, strong C=O, and the C=C/C≡C/C≡N family — while the fingerprint region confirms identity by matching. IR is fast and group-specific but cannot supply a formula, skeleton, or stereochemistry.\n\n### Knowledge Check\n\n1. Why does a C≡C bond absorb at higher wavenumber than a C=C bond?\n2. A spectrum shows a very broad absorption near 3300 cm⁻¹ and a strong peak at 1710 cm⁻¹. Which functional group?\n3. Why is C–H (~3000 cm⁻¹) so much higher than C–Cl (~700 cm⁻¹)?\n4. What does the fingerprint region tell you that the diagnostic region cannot?\n5. A molecule has an internal symmetric C=C but no clear peak near 1650 cm⁻¹. Explain.\n\n### Answers and Rationales\n\n1. **Stronger bond.** The triple bond has a higher force constant \\(k\\); since \\(\\tilde{\\nu} \\propto \\sqrt{k/\\mu}\\), it vibrates at higher wavenumber.\n2. **A carboxylic acid.** Very broad O–H (2500–3300 cm⁻¹) plus C=O near 1710 cm⁻¹ is the classic acid signature.\n3. **Lighter atom.** H is far lighter than Cl, so the reduced mass \\(\\mu\\) for C–H is smaller, raising the wavenumber.\n4. **Identity.** Its unique pattern confirms identity by matching a reference; the diagnostic region only names individual groups.\n5. **Weak/inactive vibration.** A symmetric C=C stretch barely changes the dipole moment, so it absorbs IR only weakly — absence is not proof of absence.",
+    "workedExamples": "*Assigning functional groups from an IR spectrum:*\n\n1. **O–H/N–H zone (3600–3100 cm⁻¹).** A **broad** absorption near 3300 cm⁻¹ indicates O–H (alcohol or acid); acid O–H is very broad (2500–3300 cm⁻¹). N–H appears **sharp(er)**, often as two spikes for a primary amine.\n2. **Triple-bond zone (2260–2100 cm⁻¹).** A sharp peak near 2260–2220 cm⁻¹ is **C≡N**; near 2260–2100 cm⁻¹ is **C≡C** (weak or absent for symmetric alkynes).\n3. **Carbonyl zone (1850–1650 cm⁻¹).** A strong **C=O** near 1715 (ketone/aldehyde), 1735 (ester), or 1680–1690 cm⁻¹ (amide) is the single most diagnostic feature.\n4. **Double-bond zone (1680–1600 cm⁻¹).** A **C=C** near 1650 cm⁻¹ (weak/absent for symmetric alkenes); aromatic C=C gives a pair near 1600 and 1500 cm⁻¹.\n5. **Confirm in the fingerprint region.** Match the full 1400–400 cm⁻¹ pattern against a reference to verify identity.\n6. **State the limits.** IR gives functional groups, not formula, skeleton, or stereochemistry; a missing weak peak (e.g., symmetric C=C) is not proof the group is absent.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "infrared-spectroscopy",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "02-infrared-spectroscopy",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-ii"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-ii",
+    "sourceFile": "organic-chemistry-ii-study-notes/docs/organic-chemistry-ii/02-infrared-spectroscopy.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

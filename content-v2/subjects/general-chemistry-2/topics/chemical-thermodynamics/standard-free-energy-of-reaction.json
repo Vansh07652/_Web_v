@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-thermodynamics:standard-free-energy-of-reaction",
+  "slug": "standard-free-energy-of-reaction",
+  "title": "Standard Free Energy of Reaction",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-thermodynamics",
+    "slug": "chemical-thermodynamics",
+    "title": "Chemical Thermodynamics",
+    "order": 7
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "The **standard free energy of reaction (ΔG°rxn)** is the free-energy change when reactants in their standard states are converted to products in their standard states (25 °C, 1 atm, 1 M). It is calculated from tabulated **standard free energies of formation (ΔG°f)** — the ΔG for forming one mole of a compound from its elements in their standard states — using ΔG°rxn = ΣνΔG°f(products) − ΣνΔG°f(reactants). By convention, ΔG°f = 0 for elements in their standard states. A negative ΔG°rxn means the reaction is product-favored under standard conditions.",
+    "whyItMatters": "ΔG°rxn is the standard \"thermodynamic scoreboard\" for a reaction. It lets chemists compare the intrinsic favorability of different reactions, predict whether a synthesis is feasible, and — combined with ΔH° and ΔS° — understand the energetic and entropic reasons behind that favorability. It is also the bridge to the equilibrium constant (ΔG° = −RT ln K).",
+    "learningObjectives": "- Define the standard free energy of formation ΔG°f and state its reference convention (elements = 0).\n- Calculate ΔG°rxn from tabulated ΔG°f values using ΔG°rxn = ΣνΔG°f(products) − ΣνΔG°f(reactants).\n- Predict whether a reaction is product-favored or reactant-favored at standard conditions from the sign of ΔG°rxn.\n- Explain the difference between ΔG° (standard) and ΔG (actual).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe **standard free energy of reaction (ΔG°rxn)** is the free-energy change when reactants in their standard states are converted to products in their standard states (25 °C, 1 atm, 1 M). It is calculated from tabulated **standard free energies of formation (ΔG°f)** — the ΔG for forming one mole of a compound from its elements in their standard states — using ΔG°rxn = ΣνΔG°f(products) − ΣνΔG°f(reactants). By convention, ΔG°f = 0 for elements in their standard states. A negative ΔG°rxn means the reaction is product-favored under standard conditions.\n\n### Key Ideas\n\n- **Formation reference.** ΔG°f of any element in its standard state is defined as zero — the same convention as ΔH°f.\n- **Per-mole of compound.** ΔG°f is quoted per mole of the compound as written in its formation equation.\n- **Products minus reactants.** Sum the coefficients × ΔG°f for products and subtract the same for reactants.\n- **Standard ≠ actual.** ΔG° applies to standard-state conditions only; real ΔG changes as concentrations/pressures shift (via RT ln Q).\n- **ΔG° sign = K information.** ΔG°rxn < 0 ⇒ K > 1 (product-favored); ΔG°rxn > 0 ⇒ K < 1 (reactant-favored); ΔG°rxn = 0 ⇒ K = 1.\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| ΔG°f | Standard free energy of formation | kJ/mol |\n| ΔG°rxn | Standard free energy of reaction | kJ/mol |\n| ν | Stoichiometric coefficient | dimensionless |\n\nΔG°rxn = ΣνΔG°f(products) − ΣνΔG°f(reactants)\n\n### How It Works\n\n1. Write the balanced equation.\n2. Look up ΔG°f for every species; use 0 for elements in their standard states.\n3. Multiply each ΔG°f by its coefficient and sum over products, then subtract the sum over reactants.\n4. Interpret: negative → spontaneous/product-favored under standard conditions; positive → reverse favored.\n\n### Worked Example\n\n**Calculate ΔG°rxn for the combustion of methane: CH₄(g) + 2 O₂(g) → CO₂(g) + 2 H₂O(l).**\n\nStandard free energies of formation: ΔG°f(CH₄) = −50.8, ΔG°f(CO₂) = −394.4, ΔG°f(H₂O(l)) = −237.1 kJ/mol; ΔG°f(O₂) = 0.\n\n- Products: (−394.4) + 2(−237.1) = −394.4 − 474.2 = −868.6 kJ/mol\n- Reactants: (−50.8) + 2(0) = −50.8 kJ/mol\n- ΔG°rxn = −868.6 − (−50.8) = **−817.8 kJ/mol**\n\nLarge and negative, so combustion of methane is strongly product-favored — consistent with methane burning readily in air.",
+    "howItWorks": "1. Write the balanced equation.\n2. Look up ΔG°f for every species; use 0 for elements in their standard states.\n3. Multiply each ΔG°f by its coefficient and sum over products, then subtract the sum over reactants.\n4. Interpret: negative → spontaneous/product-favored under standard conditions; positive → reverse favored.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- ΔG°f = 0 for elements in their standard states (convention).\n- ΔG°rxn = ΣνΔG°f(products) − ΣνΔG°f(reactants).\n- ΔG°rxn < 0 ⇒ product-favored (K > 1); > 0 ⇒ reactant-favored (K < 1); = 0 ⇒ K = 1.\n- ΔG° uses standard states (25 °C, 1 atm, 1 M); ΔG is the value under actual conditions.\n- ΔG°f and ΔG°rxn are in kJ/mol.\n- A very negative ΔG°rxn does **not** guarantee a fast reaction (kinetics still apply).",
+    "commonConfusions": "- **\"ΔG°f of O₂(g) is some positive number.\"** — Wrong. Elements in their standard states have ΔG°f = 0 by definition.\n- **\"ΔG°rxn = Σ(reactants) − Σ(products).\"** — Wrong sign. It is products minus reactants.\n- **\"ΔG° equals ΔG in any real reaction.\"** — Wrong. ΔG° is only the standard-state value; real ΔG = ΔG° + RT ln Q.\n- **\"A negative ΔG°rxn means the reaction happens quickly.\"** — Wrong. It says the reaction is thermodynamically favored, not kinetically fast.\n- **\"Forgetting coefficients.\"** — Wrong. Multiply each ΔG°f by its stoichiometric coefficient before summing.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine every chemical has a \"free-energy price tag\" written on it — how much energy it took to build it from raw elements. Elements themselves cost zero (that's just a rule we agree on). To find out how much energy a reaction *releases* or *demands*, you add up the price tags of everything you *make* and subtract the price tags of everything you *spend*. A big negative total means the reaction is like a store giving you money back — it wants to happen. (The limit: \"price tags\" are free energy, not dollars, and the answer only applies to the special \"standard\" conditions — real reactions shift with concentration.)",
+    "quickReview": "- ΔG°f = 0 for elements in standard states.\n- ΔG°rxn = ΣνΔG°f(products) − ΣνΔG°f(reactants).\n- Negative ΔG°rxn ⇒ product-favored (K > 1).\n- ΔG° is the standard-state value; ΔG depends on actual conditions.\n- Units: kJ/mol.",
+    "workedExamples": "### Worked Example\n\n**Calculate ΔG°rxn for the combustion of methane: CH₄(g) + 2 O₂(g) → CO₂(g) + 2 H₂O(l).**\n\nStandard free energies of formation: ΔG°f(CH₄) = −50.8, ΔG°f(CO₂) = −394.4, ΔG°f(H₂O(l)) = −237.1 kJ/mol; ΔG°f(O₂) = 0.\n\n- Products: (−394.4) + 2(−237.1) = −394.4 − 474.2 = −868.6 kJ/mol\n- Reactants: (−50.8) + 2(0) = −50.8 kJ/mol\n- ΔG°rxn = −868.6 − (−50.8) = **−817.8 kJ/mol**\n\nLarge and negative, so combustion of methane is strongly product-favored — consistent with methane burning readily in air.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 16.4 \"Free Energy.\" https://openstax.org/books/chemistry-2e/pages/16-4-free-energy",
+        "url": "https://openstax.org/books/chemistry-2e/pages/16-4-free-energy"
+      },
+      {
+        "text": "NIST Chemistry WebBook (formation data). https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      },
+      {
+        "text": "PubChem, National Library of Medicine. https://pubchem.ncbi.nlm.nih.gov/",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "standard-free-energy-of-reaction",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "07-standard-free-energy-of-reaction",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:6e922b5d59370ec8"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:6e922b5d59370ec8"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:6e922b5d59370ec8"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:6e922b5d59370ec8"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/16-chemical-thermodynamics/07-standard-free-energy-of-reaction.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Standard Free Energy of Reaction\n\n## Learning Goals\n\n- Define the standard free energy of formation ΔG°f and state its reference convention (elements = 0).\n- Calculate ΔG°rxn from tabulated ΔG°f values using ΔG°rxn = ΣνΔG°f(products) − ΣνΔG°f(reactants).\n- Predict whether a reaction is product-favored or reactant-favored at standard conditions from the sign of ΔG°rxn.\n- Explain the difference between ΔG° (standard) and ΔG (actual).\n\n## Core Concept\n\nThe **standard free energy of reaction (ΔG°rxn)** is the free-energy change when reactants in their standard states are converted to products in their standard states (25 °C, 1 atm, 1 M). It is calculated from tabulated **standard free energies of formation (ΔG°f)** — the ΔG for forming one mole of a compound from its elements in their standard states — using ΔG°rxn = ΣνΔG°f(products) − ΣνΔG°f(reactants). By convention, ΔG°f = 0 for elements in their standard states. A negative ΔG°rxn means the reaction is product-favored under standard conditions.\n\n## Key Ideas\n\n- **Formation reference.** ΔG°f of any element in its standard state is defined as zero — the same convention as ΔH°f.\n- **Per-mole of compound.** ΔG°f is quoted per mole of the compound as written in its formation equation.\n- **Products minus reactants.** Sum the coefficients × ΔG°f for products and subtract the same for reactants.\n- **Standard ≠ actual.** ΔG° applies to standard-state conditions only; real ΔG changes as concentrations/pressures shift (via RT ln Q).\n- **ΔG° sign = K information.** ΔG°rxn < 0 ⇒ K > 1 (product-favored); ΔG°rxn > 0 ⇒ K < 1 (reactant-favored); ΔG°rxn = 0 ⇒ K = 1.\n\n## Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| ΔG°f | Standard free energy of formation | kJ/mol |\n| ΔG°rxn | Standard free energy of reaction | kJ/mol |\n| ν | Stoichiometric coefficient | dimensionless |\n\nΔG°rxn = ΣνΔG°f(products) − ΣνΔG°f(reactants)\n\n## How It Works\n\n1. Write the balanced equation.\n2. Look up ΔG°f for every species; use 0 for elements in their standard states.\n3. Multiply each ΔG°f by its coefficient and sum over products, then subtract the sum over reactants.\n4. Interpret: negative → spontaneous/product-favored under standard conditions; positive → reverse favored.\n\n## Worked Example\n\n**Calculate ΔG°rxn for the combustion of methane: CH₄(g) + 2 O₂(g) → CO₂(g) + 2 H₂O(l).**\n\nStandard free energies of formation: ΔG°f(CH₄) = −50.8, ΔG°f(CO₂) = −394.4, ΔG°f(H₂O(l)) = −237.1 kJ/mol; ΔG°f(O₂) = 0.\n\n- Products: (−394.4) + 2(−237.1) = −394.4 − 474.2 = −868.6 kJ/mol\n- Reactants: (−50.8) + 2(0) = −50.8 kJ/mol\n- ΔG°rxn = −868.6 − (−50.8) = **−817.8 kJ/mol**\n\nLarge and negative, so combustion of methane is strongly product-favored — consistent with methane burning readily in air.\n\n## Why It Matters\n\nΔG°rxn is the standard \"thermodynamic scoreboard\" for a reaction. It lets chemists compare the intrinsic favorability of different reactions, predict whether a synthesis is feasible, and — combined with ΔH° and ΔS° — understand the energetic and entropic reasons behind that favorability. It is also the bridge to the equilibrium constant (ΔG° = −RT ln K).\n\n## High-Yield Facts\n\n- ΔG°f = 0 for elements in their standard states (convention).\n- ΔG°rxn = ΣνΔG°f(products) − ΣνΔG°f(reactants).\n- ΔG°rxn < 0 ⇒ product-favored (K > 1); > 0 ⇒ reactant-favored (K < 1); = 0 ⇒ K = 1.\n- ΔG° uses standard states (25 °C, 1 atm, 1 M); ΔG is the value under actual conditions.\n- ΔG°f and ΔG°rxn are in kJ/mol.\n- A very negative ΔG°rxn does **not** guarantee a fast reaction (kinetics still apply).\n\n## Eli Explains\n\nImagine every chemical has a \"free-energy price tag\" written on it — how much energy it took to build it from raw elements. Elements themselves cost zero (that's just a rule we agree on). To find out how much energy a reaction *releases* or *demands*, you add up the price tags of everything you *make* and subtract the price tags of everything you *spend*. A big negative total means the reaction is like a store giving you money back — it wants to happen. (The limit: \"price tags\" are free energy, not dollars, and the answer only applies to the special \"standard\" conditions — real reactions shift with concentration.)\n\n## Common Confusions\n\n- **\"ΔG°f of O₂(g) is some positive number.\"** — Wrong. Elements in their standard states have ΔG°f = 0 by definition.\n- **\"ΔG°rxn = Σ(reactants) − Σ(products).\"** — Wrong sign. It is products minus reactants.\n- **\"ΔG° equals ΔG in any real reaction.\"** — Wrong. ΔG° is only the standard-state value; real ΔG = ΔG° + RT ln Q.\n- **\"A negative ΔG°rxn means the reaction happens quickly.\"** — Wrong. It says the reaction is thermodynamically favored, not kinetically fast.\n- **\"Forgetting coefficients.\"** — Wrong. Multiply each ΔG°f by its stoichiometric coefficient before summing.\n\n## Quick Review\n\n- ΔG°f = 0 for elements in standard states.\n- ΔG°rxn = ΣνΔG°f(products) − ΣνΔG°f(reactants).\n- Negative ΔG°rxn ⇒ product-favored (K > 1).\n- ΔG° is the standard-state value; ΔG depends on actual conditions.\n- Units: kJ/mol.\n\n## Sources\n\n- OpenStax, *Chemistry 2e*, Ch. 16.4 \"Free Energy.\" https://openstax.org/books/chemistry-2e/pages/16-4-free-energy\n- NIST Chemistry WebBook (formation data). https://webbook.nist.gov/chemistry/\n- PubChem, National Library of Medicine. https://pubchem.ncbi.nlm.nih.gov/\n"
+}

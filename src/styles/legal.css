@@ -1,0 +1,425 @@
+/* ==========================================================================
+   MedMosa — legal, privacy, licensing and accessibility layer.
+
+   Every selector in this file is prefixed `legal-`, and every rule is scoped
+   under `.legal-page`, `.legal-footer` or the single-element `.legal-note`.
+   Nothing here can reach a page that does not opt in.
+
+   Colour, spacing, type and shape all come from the tokens declared in
+   main.css. No new literals are introduced: where a surface needs a rule that
+   works on both paper and the dark footer, it is mixed from `currentColor`
+   rather than hard-coded.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Document
+   -------------------------------------------------------------------------- */
+
+.legal-page {
+  max-width: var(--measure);
+  color: var(--ink);
+}
+
+.legal-page .page-heading {
+  max-width: var(--measure);
+  margin-bottom: var(--space-4);
+}
+
+.legal-page p,
+.legal-page li,
+.legal-page dd {
+  max-width: var(--measure);
+  line-height: var(--leading-prose);
+}
+
+.legal-page ul,
+.legal-page ol {
+  margin: 0 0 var(--space-4);
+  padding-left: 1.35rem;
+}
+
+.legal-page li {
+  margin-bottom: var(--space-3);
+}
+
+.legal-page li:last-child {
+  margin-bottom: 0;
+}
+
+.legal-page code {
+  padding: .1rem .3rem;
+  border-radius: var(--radius-xs);
+  background: var(--navy-050);
+  color: var(--navy-700);
+  font-family: var(--font-mono);
+  font-size: .9em;
+  overflow-wrap: anywhere;
+}
+
+.legal-page a {
+  overflow-wrap: anywhere;
+}
+
+/* --------------------------------------------------------------------------
+   Version and date
+   -------------------------------------------------------------------------- */
+
+.legal-page .legal-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-5);
+  margin: 0 0 var(--space-5);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-muted);
+  font-size: var(--text-xs);
+}
+
+.legal-page .legal-meta div {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.legal-page .legal-meta dt {
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.legal-page .legal-meta dd {
+  margin: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Sections
+   -------------------------------------------------------------------------- */
+
+.legal-page .legal-section {
+  margin-top: var(--space-7);
+}
+
+.legal-page .legal-section h2 {
+  margin-bottom: var(--space-4);
+  font-size: var(--text-xl);
+}
+
+.legal-page .legal-section h3 {
+  margin: var(--space-6) 0 var(--space-3);
+  color: var(--teal-700);
+  font-family: var(--font-sans);
+  font-size: var(--text-md);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Callouts
+   -------------------------------------------------------------------------- */
+
+.legal-page .legal-callout {
+  margin: var(--space-5) 0;
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--line);
+  border-inline-start: 3px solid var(--amber-500);
+  border-radius: var(--radius-sm);
+  background: var(--amber-050);
+}
+
+.legal-page .legal-callout-title {
+  margin-bottom: var(--space-2);
+  color: var(--warning);
+  font-weight: 700;
+}
+
+.legal-page .legal-callout p:last-child,
+.legal-page .legal-callout ul:last-child {
+  margin-bottom: 0;
+}
+
+.legal-page .legal-callout-strong {
+  border: 1px solid var(--line-strong);
+  border-inline-start: 4px solid var(--danger);
+  background: var(--danger-soft);
+}
+
+.legal-page .legal-callout-strong .legal-callout-title {
+  color: var(--danger);
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  line-height: var(--leading-display);
+}
+
+/* --------------------------------------------------------------------------
+   Storage keys
+   -------------------------------------------------------------------------- */
+
+.legal-page .legal-keys {
+  display: grid;
+  gap: var(--space-4);
+  margin: 0 0 var(--space-4);
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--paper);
+}
+
+.legal-page .legal-keys dt {
+  margin-bottom: var(--space-2);
+  font-weight: 700;
+}
+
+.legal-page .legal-keys dd {
+  margin: 0;
+  color: var(--ink-muted);
+  font-size: var(--text-sm);
+}
+
+/* --------------------------------------------------------------------------
+   Copyright line
+   -------------------------------------------------------------------------- */
+
+.legal-page .legal-copyright {
+  margin: var(--space-5) 0;
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--line);
+  border-inline-start: 3px solid var(--accent-blue);
+  border-radius: var(--radius-sm);
+  background: var(--navy-050);
+  color: var(--navy-700);
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  line-height: var(--leading-display);
+}
+
+/* --------------------------------------------------------------------------
+   Closing note
+   -------------------------------------------------------------------------- */
+
+.legal-page .legal-review-note {
+  margin-top: var(--space-7);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--line);
+  color: var(--ink-muted);
+  font-size: var(--text-sm);
+}
+
+.legal-page .legal-review-note p {
+  margin: 0;
+  line-height: var(--leading-body);
+}
+
+/* --------------------------------------------------------------------------
+   Inline study-use notice. One element, placed next to content, so it takes
+   its colour from whatever surrounds it.
+   -------------------------------------------------------------------------- */
+
+.legal-note {
+  max-width: var(--measure);
+  margin: var(--space-4) 0;
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--line);
+  border-inline-start: 3px solid var(--teal-600);
+  border-radius: var(--radius-sm);
+  background: var(--canvas);
+  color: var(--ink-muted);
+  font-size: var(--text-sm);
+  line-height: var(--leading-body);
+}
+
+.legal-note strong {
+  color: var(--ink);
+}
+
+/* --------------------------------------------------------------------------
+   The extended clinical caution. Same shape as the study-use notice so the two
+   read as one family, with an amber rule rather than teal: it is the stronger
+   of the two, and a page may carry both.
+   -------------------------------------------------------------------------- */
+
+.legal-note-clinical {
+  border-inline-start-color: var(--amber-500);
+  background: var(--amber-050);
+}
+
+/* --------------------------------------------------------------------------
+   Contact address. One line, set large, because it is the whole point of the
+   page it appears on.
+   -------------------------------------------------------------------------- */
+
+.legal-page .legal-contact-address {
+  margin: 0 0 var(--space-4);
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  line-height: var(--leading-display);
+  overflow-wrap: anywhere;
+}
+
+/* --------------------------------------------------------------------------
+   Changelog. A list of dated entries; the marker is dropped because the date
+   already opens each one.
+   -------------------------------------------------------------------------- */
+
+.legal-page .legal-changelog {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.legal-page .legal-changelog li {
+  margin-bottom: 0;
+  padding: var(--space-4) 0;
+  border-top: 1px solid var(--line);
+}
+
+.legal-page .legal-changelog li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.legal-page .legal-changelog p {
+  margin: 0;
+}
+
+.legal-page .legal-changelog-date {
+  margin-bottom: var(--space-1);
+  color: var(--ink-muted);
+  font-size: var(--text-xs);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.legal-page .legal-changelog-title {
+  margin-bottom: var(--space-2);
+  color: var(--teal-700);
+  font-weight: 700;
+}
+
+/* --------------------------------------------------------------------------
+   The index of sibling policies that closes every policy page, so no document
+   is a dead end.
+   -------------------------------------------------------------------------- */
+
+.legal-page .legal-related {
+  margin-top: var(--space-7);
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--canvas);
+}
+
+.legal-page .legal-related h2 {
+  margin-bottom: var(--space-3);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.legal-page .legal-related ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.legal-page .legal-related li {
+  margin-bottom: 0;
+}
+
+.legal-page .legal-related a {
+  display: inline-block;
+  padding-block: var(--space-1);
+}
+
+/* --------------------------------------------------------------------------
+   Footer block. Composes into the existing dark site footer, so its rule and
+   its muted text are mixed from `currentColor` and work on either ground.
+   -------------------------------------------------------------------------- */
+
+.legal-footer {
+  margin-top: var(--space-5);
+  padding-top: var(--space-4);
+  border-top: 1px solid color-mix(in srgb, currentColor 22%, transparent);
+  font-size: var(--text-xs);
+}
+
+.legal-footer p {
+  margin: 0 0 var(--space-2);
+}
+
+.legal-footer .legal-footer-copyright {
+  font-weight: 650;
+}
+
+.legal-footer .legal-footer-sources {
+  max-width: 68ch;
+  color: color-mix(in srgb, currentColor 78%, transparent);
+}
+
+.legal-footer .legal-footer-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  margin: var(--space-3) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.legal-footer .legal-footer-nav a {
+  display: inline-block;
+  padding-block: var(--space-1);
+}
+
+/* --------------------------------------------------------------------------
+   Narrow screens. The documents are single-column already; at 320px the only
+   things that need help are the meta row and the section rhythm.
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 24.9375rem) {
+  .legal-page .legal-meta {
+    gap: var(--space-1) var(--space-4);
+  }
+
+  .legal-page .legal-section {
+    margin-top: var(--space-6);
+  }
+
+  .legal-page .legal-callout,
+  .legal-page .legal-keys,
+  .legal-page .legal-copyright,
+  .legal-page .legal-related {
+    padding-inline: var(--space-4);
+  }
+
+  .legal-page ul,
+  .legal-page ol {
+    padding-left: 1.1rem;
+  }
+
+  .legal-page .legal-changelog,
+  .legal-page .legal-related ul {
+    padding-left: 0;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Print. Policies get printed and filed more often than any other page here.
+   -------------------------------------------------------------------------- */
+
+@media print {
+  .legal-page {
+    max-width: none;
+  }
+
+  .legal-page .legal-callout,
+  .legal-page .legal-keys,
+  .legal-page .legal-copyright,
+  .legal-page .legal-related {
+    background: none;
+  }
+}

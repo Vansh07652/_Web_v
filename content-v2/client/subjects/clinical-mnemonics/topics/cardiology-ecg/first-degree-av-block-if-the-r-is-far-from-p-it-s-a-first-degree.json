@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:clinical-mnemonics:cardiology-ecg:first-degree-av-block-if-the-r-is-far-from-p-it-s-a-first-degree",
+  "slug": "first-degree-av-block-if-the-r-is-far-from-p-it-s-a-first-degree",
+  "title": "First-Degree AV Block — \"If the R is Far From P, It's a First Degree\"",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics"
+  },
+  "unit": {
+    "id": "unit:clinical-mnemonics:cardiology-ecg",
+    "slug": "cardiology-ecg",
+    "title": "Cardiology & ECG",
+    "order": 2
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "Recognize first-degree AV block: a prolonged but constant PR interval (> 0.20 sec) with every P wave still followed by a QRS — the impulse is slow but always gets through.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- **R** — R wave (QRS complex)\n- **P** — P wave\n- **Far** — Prolonged PR interval",
+    "collegeNotes": "Recognize first-degree AV block: a prolonged but constant PR interval (> 0.20 sec) with every P wave still followed by a QRS — the impulse is slow but always gets through.\n\n### R — R wave (QRS complex)\n\nThe ventricle's beat — \"the wife\" in the husband/wife analogy\n\nThe QRS complex reflects ventricular depolarization. In first-degree AV block a QRS follows every P wave — no beats are dropped. Its width depends on where the delay is; with a delay confined to the AV node the QRS is usually narrow.\n\n**Physiology.** A QRS appears every time the depolarization wave successfully reaches the ventricles. In first-degree block conduction is delayed (not blocked), so the QRS always follows — just later.\n\n**Safety.** Confirm on the monitor that every P wave is followed by a QRS; the relationship must be constant. If QRS complexes start dropping, the rhythm has progressed to a higher-degree block.\n\n### P — P wave\n\nThe atrium's beat — \"the husband\" firing from the SA node\n\nThe P wave reflects atrial depolarization originating in the SA node. In first-degree AV block the SA node and atria are normal; the problem is entirely downstream at the AV node, where the impulse is delayed before reaching the ventricles.\n\n**Physiology.** The SA node is the heart's natural pacemaker (60–100 bpm). In first-degree block it keeps firing normally and the atria respond normally — the rhythm's only abnormality is the delay between P and QRS.\n\n**Safety.** A normal, regular P wave with a prolonged PR tells you the atria are fine — look downstream (AV node, medications, ischemia) for the cause of the delay.\n\n### Far — Prolonged PR interval\n\nA consistent but stretched-out delay between the P wave and the R wave\n\nThe PR interval (normal 0.12–0.20 sec, or 3–5 small boxes) is the time from the start of atrial depolarization to the start of ventricular depolarization — essentially AV conduction time. In first-degree block the PR interval is constantly greater than 0.20 sec but fixed.\n\n**Physiology.** The AV node normally delays the impulse ~0.1 sec so the atria finish emptying before the ventricles contract. In first-degree block that delay is pathologically lengthened (disease, vagal tone, or drugs), but conduction still completes on every beat.\n\n**Safety.** First-degree block is usually benign by itself, but a new, sudden PR prolongation can be the first sign of digoxin/beta-blocker/calcium-channel-blocker toxicity or ischemia — investigate the cause rather than dismissing it.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "- R = R wave (QRS complex)\n- P = P wave\n- Far = Prolonged PR interval",
+    "eli10": "It's the mildest traffic jam in the heart's electrical road. The signal from the top rooms to the bottom rooms is slow, but every signal still gets through — nothing is blocked, just delayed.\n\n**R — R wave (QRS complex).** The \"R\" is the tall spike on the ECG that shows the bottom rooms (ventricles) squeezing. In the story, the R wave is the wife who does the heavy lifting of pumping blood out. In first-degree block she always shows up for work — just a little late, every single time.\n\n**P — P wave.** The \"P\" is the little bump before the spike that shows the top rooms (atria) squeezing. It is the husband in the story. In first-degree block the husband always calls home — the SA node fires normally and the atria contract on time, every time.\n\n**Far — Prolonged PR interval.** \"Far\" means the husband and wife stand a little farther apart than usual — the time between the P bump and the R spike is stretched out. The distance is always the same stretched length, and they always still connect.",
+    "quickReview": "- R = R wave (QRS complex) — The ventricle's beat — \"the wife\" in the husband/wife analogy\n- P = P wave — The atrium's beat — \"the husband\" firing from the SA node\n- Far = Prolonged PR interval — A consistent but stretched-out delay between the P wave and the R wave",
+    "workedExamples": "",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "first-degree-av-block-if-the-r-is-far-from-p-it-s-a-first-degree",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-nursing-mnemonics",
+    "sourceFile": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json",
+    "sourceStatus": "CURRENT",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-clinical-mnemonics"
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,155 @@
+---
+title: "Disorders of the Lower GI System"
+subject: "Nursing"
+book: "Medical-Surgical Nursing"
+chapter: "19: Gastrointestinal System and Disorders"
+topic_number: "5"
+source: "medical-surgical-nursing.md"
+tags:
+  - "disorders-of-the-lower-gi-system"
+  - "nursing"
+status: "complete"
+---
+
+# Disorders of the Lower GI System
+
+> **Book:** [Medical-Surgical Nursing](../../README.md)  
+> **Chapter:** [Chapter 19: Gastrointestinal System and Disorders](../README.md)  
+> **Topic:** 5  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+The lower gastrointestinal system — the small intestine, colon, rectum, and anus — finishes the job the stomach started. The small intestine absorbs most nutrients; the colon reclaims water and stores waste; the rectum and anus control elimination. When this region misbehaves, the results are familiar — diarrhea, constipation, cramping, and bleeding — but the causes range from annoying to life-threatening.
+
+Disorders of the lower GI system include **irritable bowel syndrome (IBS)**, **inflammatory bowel disease (IBD)** (covering **Crohn disease** and **ulcerative colitis**), **diverticular disease**, **appendicitis**, **bowel obstruction**, **colorectal cancer**, and anorectal problems such as **hemorrhoids** and **anal fissures**. What ties these together is a focus on patterns: stool frequency and consistency, pain location, presence of blood, and acute vs chronic course — plus hydration, skin protection, and recognizing emergencies.
+
+## Why This Matters
+
+- **Diarrhea and constipation are universal complaints.** They can dehydrate, injure skin, and signal serious disease.
+- **IBD changes lives.** Crohn disease and ulcerative colitis are chronic, relapsing conditions; nursing supports symptom management, nutrition, and coping.
+- **Some lower GI problems are emergencies.** Appendicitis, obstruction, perforation, and severe bleeding need rapid recognition.
+- **Colorectal cancer is preventable when caught early.** Education about screening and warning signs saves lives.
+- **Exam favorite:** IBS vs IBD, Crohn vs ulcerative colitis, diverticulosis vs diverticulitis.
+
+## Core Concepts
+
+### How the lower GI tract works
+
+After the stomach, chyme enters the **small intestine**, where enzymes and bile finish digestion and the lining absorbs nutrients, water, and electrolytes. The **colon** reclaims water, forming stool; the **rectum** and **anus** control elimination.
+
+### Diarrhea and constipation
+
+**Diarrhea** is loose, frequent stool. It matters because it causes dehydration and electrolyte loss — especially dangerous in older adults, infants, and people who cannot drink enough. Causes include infection, medications (including antibiotics), food intolerances, malabsorption, IBD, and IBS. **Constipation** is infrequent or difficult stool passage, often from low fiber and fluid, inactivity, or medications (opioids are a common culprit). Severe constipation with vomiting, distention, and inability to pass gas or stool may signal a **bowel obstruction** — a medical emergency, not a case for more laxatives.
+
+### Irritable bowel syndrome (IBS)
+
+**IBS** is a **functional** disorder: the bowel looks structurally normal, but motility and sensation are disturbed, producing cramping, bloating, and bowel habit changes. There is no tissue damage; it is diagnosed after other causes are ruled out, and management focuses on symptom relief — diet changes, stress management, and prescribed treatments.
+
+### Inflammatory bowel disease (IBD): Crohn and ulcerative colitis
+
+**IBD** is a group of chronic, immune-mediated inflammatory diseases:
+
+- **Crohn disease** can affect any part of the GI tract, involves all bowel wall layers, often appears in "skip lesions" (diseased patches separated by healthy tissue), and can cause **strictures** (narrowing) and **fistulas** (abnormal connections to other structures).
+- **Ulcerative colitis** is limited to the colon and rectum, involves only the inner lining, and extends continuously upward from the rectum.
+
+Both cause diarrhea (often with blood), cramping, weight loss, and fatigue, with flares and remissions. Complications include severe bleeding, strictures, fistulas (more with Crohn), and **toxic megacolon** (dangerous colon dilation, more with ulcerative colitis). Long-standing ulcerative colitis raises colorectal cancer risk. Nutrition is often affected — the dietitian is a key team member — and treatment is prescribed by the provider.
+
+### Diverticular disease
+
+**Diverticulosis** is the presence of small outpouchings (diverticula) in the colon wall — common with age and often symptom-free. **Diverticulitis** is when those pouches become inflamed or infected, causing pain (often left lower abdomen), fever, and bowel habit changes. Complications include abscess, perforation, and fistula. Older advice to avoid seeds and nuts is now seen as overly broad — fiber guidance should follow the provider's and dietitian's plan. Severe diverticulitis may require hospital care or surgery, per provider orders.
+
+### Appendicitis and bowel obstruction
+
+**Appendicitis** is inflammation of the appendix. The classic story: pain starting around the navel moves to the right lower abdomen, with fever, nausea, and appetite loss — but presentations vary. Because rupture causes peritonitis (a life-threatening abdominal infection), appendicitis is treated as a surgical emergency: NPO, IV fluids per orders, and preparation for surgery. **Bowel obstruction** blocks the forward movement of intestinal contents — mechanically (tumor, adhesions, hernia, stricture) or functionally (**ileus**, when the bowel stops contracting, as after surgery). Symptoms: cramping, vomiting, distention, and failure to pass gas or stool. Management includes decompression (often an NG tube), IV fluids, and possibly surgery; signs of strangulation (fever, severe constant pain, shock) demand urgent action.
+
+### Colorectal cancer
+
+Most colorectal cancers arise from **polyps** (growths on the colon lining) that slowly transform into cancer over years — which is why **screening** is so effective. Warning signs include change in bowel habits, blood in the stool, unexplained weight loss, and anemia — but early cancer can be silent. Screening recommendations vary by age and risk; follow current guidelines.
+
+### Nursing care across lower GI disorders
+
+Assessment focuses on the stool (frequency, consistency, color, blood, mucus), the pain (location, quality, timing), hydration status, skin integrity (diarrhea injures perianal skin), and nutrition. Care includes protecting perineal skin, encouraging fluids within the care plan, teaching about diet and fiber, and educating about prescribed treatments. Chronic conditions like IBD need emotional support and education about living with a relapsing disease; surgical patients may need ostomy preparation (see Ostomy Care). Scope note: nurses assess, monitor, educate, and coordinate; diagnosis, treatment, and surgery are provider responsibilities, with institutional variation.
+
+## ELI-10: Explain Like I'm 10
+
+Think of the lower gut as a recycling plant and a waste pipeline. The small intestine grabs the good stuff (nutrients and water) out of the food mush; the colon squeezes water out of the leftovers; the rectum is the loading dock. When the pipe is irritated (infection or IBD), waste hurries through too fast — diarrhea. Too slow — constipation. Sometimes it gets a sore spot (diverticulitis), a blockage, or a growth (polyp) that can turn into cancer if left alone.
+
+## High-Yield Points
+
+- Diarrhea and constipation are symptoms, not diseases — look for the cause and protect hydration and skin.
+- IBS is **functional** (no visible damage); IBD is **inflammatory** (visible, chronic tissue damage) — the key distinction in this topic.
+- Crohn: anywhere mouth-to-anus, all bowel layers, skip lesions, strictures and fistulas. Ulcerative colitis: colon only, inner lining only, continuous from the rectum.
+- Diverticulosis = pouches (usually harmless); diverticulitis = inflamed/infected pouches (pain, fever, possible emergency).
+- Appendicitis: pain migrates from the navel to the right lower abdomen; treated as a surgical emergency because rupture causes peritonitis.
+- Bowel obstruction: cramping + vomiting + distention + no gas/stool; ileus is a functional (non-mechanical) obstruction.
+- Colorectal cancer grows slowly from polyps — screening saves lives; blood in stool, bowel habit change, and weight loss warrant evaluation.
+- Emergency signs: severe or worsening pain, rigid abdomen, fever, vomiting, blood in stool, inability to pass gas or stool.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Small intestine | The section of bowel where most nutrient absorption occurs | Malabsorption here causes weight loss, diarrhea, and deficiencies |
+| Irritable bowel syndrome (IBS) | Functional disorder of bowel motility and sensation | Common and disruptive, but no tissue damage; diagnosis after ruling out other causes |
+| Inflammatory bowel disease (IBD) | Chronic immune-mediated inflammation of the bowel | Causes flares, complications, and long-term risks; needs lifelong management |
+| Crohn disease | IBD that can affect any GI location, through all bowel layers, with skip lesions | Can cause strictures and fistulas; affects nutrition and quality of life |
+| Ulcerative colitis | IBD limited to the colon/rectum, continuous from the rectum, in the inner lining | Bleeding and toxic megacolon risk; long-standing disease raises colorectal cancer risk |
+| Diverticulosis / diverticulitis | Pouches in the colon wall / inflammation of those pouches | Diverticulitis can cause abscess, perforation, and peritonitis |
+| Bowel obstruction | Blockage of intestinal contents (mechanical) or stop in motility (ileus) | Can progress to strangulation — a surgical emergency |
+
+## How It Works / Step-by-Step Process
+
+1. **Take the history:** stool frequency and consistency, blood or mucus, pain location and character, relation to meals and stress, medications, recent travel or antibiotics, and weight changes.
+2. **Assess:** hydration status, abdominal assessment (distention, tenderness, bowel sounds), and perianal skin.
+3. **Sort the pattern:** acute or chronic? Diarrhea or constipation? Blood present? Localizing pain (appendix, diverticula) or cramping and diffuse (IBS, obstruction)?
+4. **Identify red flags:** fever, vomiting, rigid abdomen, severe constant pain, no gas or stool, significant blood loss — notify the provider immediately.
+5. **Protect and educate:** maintain hydration per the care plan, protect skin, teach diet and fiber, explain prescribed treatments and screening.
+6. **Coordinate:** involve the provider for diagnosis, the dietitian for nutrition, and the wound/ostomy team for surgical patients.
+
+## Example
+
+Ms. Delgado, a 34-year-old person with Crohn disease, is admitted with three days of bloody diarrhea, cramping, and weight loss during a flare. The nurse assesses hydration, tracks stool output, protects her perianal skin with barrier care, and involves the dietitian when Ms. Delgado cannot tolerate her usual diet. The nurse also listens — Ms. Delgado is anxious about missing work — and teaches the warning signs that mean "call your provider now" (severe pain, high fever, heavy bleeding). The flare settles and Ms. Delgado leaves with a plan. The lesson: lower GI care is about hydration, skin, nutrition, and supporting a person with a chronic disease.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| IBS | IBD | IBS is functional (no visible damage, no inflammation); IBD is chronic inflammatory disease with tissue damage and complications |
+| Crohn disease | Ulcerative colitis | Crohn can occur anywhere mouth-to-anus, through all layers, with skip lesions; ulcerative colitis is colon/rectum-only, inner lining, continuous from the rectum |
+| Diverticulosis | Diverticulitis | Diverticulosis is silent pouches; diverticulitis is inflamed/infected pouches causing pain and fever |
+| Constipation | Bowel obstruction | Constipation is slow passage; obstruction is a true blockage with vomiting, distention, and failure to pass gas — an emergency |
+
+## Quick Review
+
+1. What is the most important difference between IBS and IBD?
+2. How does Crohn disease differ from ulcerative colitis?
+3. Why is appendicitis treated as a surgical emergency?
+4. Name three red-flag signs that require immediate provider notification in a patient with abdominal symptoms.
+5. Why is colorectal cancer screening so effective?
+
+<details>
+<summary>Show answers</summary>
+
+1. IBS is functional — the bowel looks structurally normal with no tissue damage. IBD is chronic inflammatory disease with visible damage, complications, and long-term risks.
+2. Crohn can affect any part of the GI tract through all bowel wall layers, with skip lesions. Ulcerative colitis is limited to the colon/rectum, in the inner lining only, continuous from the rectum.
+3. Because a ruptured appendix spills infected contents into the abdominal cavity, causing peritonitis — a life-threatening infection.
+4. Severe or worsening abdominal pain, rigid abdomen, high fever, vomiting, significant blood in stool, or failure to pass gas or stool.
+5. Most colorectal cancers develop slowly from polyps, so screening finds and removes polyps before they become cancer, or catches cancer early when treatment is most effective.
+
+</details>
+
+## Related Topics
+
+- Previous: [Disorders of the Upper GI System](04-disorders-of-the-upper-gi-system.md)
+- Next: [Hepatic and Biliary Disorders](06-hepatic-and-biliary-disorders.md)
+- Related: [Ostomy Care](07-ostomy-care.md)
+- Related: [Gastrointestinal System and Disorders chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Medical-Surgical Nursing
+- Local outline source: `medical-surgical-nursing.md`
+- Official source URL: https://openstax.org/details/books/medical-surgical-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-15

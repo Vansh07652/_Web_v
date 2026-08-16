@@ -1,0 +1,41 @@
+{
+  "id": "genetics-population-genetics-and-evolution-0007",
+  "subject": "genetics",
+  "lesson": "population-genetics-and-evolution",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For a recessive disease allele with mutation rate u = 0.00004 per generation and selection coefficient s = 0.1 against affected homozygotes, what is the equilibrium allele frequency q under mutation selection balance?",
+  "options": [
+    {
+      "id": "a",
+      "text": "0.0004"
+    },
+    {
+      "id": "b",
+      "text": "0.02"
+    },
+    {
+      "id": "c",
+      "text": "0.00004"
+    },
+    {
+      "id": "d",
+      "text": "0.1"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "At mutation selection balance for a recessive allele, q = sqrt(u/s). Here q = sqrt(0.00004/0.1) = sqrt(0.0004) = 0.02. Option A is u/s = 0.0004, the value before taking the square root, and C and D are the mutation rate and the selection coefficient themselves.",
+  "difficulty": "unknown",
+  "tags": [
+    "mutation",
+    "selection",
+    "balance",
+    "allele",
+    "frequency"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-c8080c5df327048e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

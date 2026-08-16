@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:human-physiology-2:systems-physiology:lung-volumes-and-capacities",
+  "slug": "lung-volumes-and-capacities",
+  "title": "Lung Volumes and Capacities",
+  "subject": {
+    "id": "subject:human-physiology-2",
+    "slug": "human-physiology-2",
+    "title": "Human Physiology II"
+  },
+  "unit": {
+    "id": "unit:human-physiology-2:systems-physiology",
+    "slug": "systems-physiology",
+    "title": "Systems Physiology",
+    "order": 1
+  },
+  "order": 12,
+  "status": "final",
+  "sections": {
+    "overview": "Spirometry measures the air a person moves into and out of the lungs and decomposes it into four volumes — tidal volume, inspiratory reserve volume (IRV), expiratory reserve volume (ERV), and residual volume (RV) — that combine into capacities such as vital capacity, total lung capacity, functional residual capacity (FRC), and inspiratory capacity (IC). Because part of every breath fills the conducting airways (anatomic dead space) rather than reaching alveoli, gas exchange depends on alveolar ventilation, not total minute ventilation. The FEV1/FVC ratio separates obstructive disease (slow airflow out, low ratio) from restrictive disease (small or stiff lung, normal or high ratio).",
+    "whyItMatters": "Spirometry is a cornerstone of pulmonary assessment because the volume-versus-time trace encodes both lung size and how fast air can move. An obstructive pattern (low FEV1/FVC) points toward airflow limitation such as asthma or COPD; a restrictive pattern (reduced TLC with a normal or high ratio) suggests a small or stiff lung. Normal values and interpretive criteria vary by institution, jurisdiction, and population reference equations; these notes support education only and do not replace clinical instruction or supervision.",
+    "learningObjectives": "1. Define the four primary lung volumes — tidal volume, inspiratory reserve volume, expiratory reserve volume, and residual volume — with representative adult values.\n2. Identify the four lung capacities and explain which volumes combine to form each.\n3. Distinguish anatomic from alveolar dead space and explain why alveolar ventilation, not minute ventilation, determines gas exchange.\n4. Use FEV1 and the FEV1/FVC ratio to separate obstructive from restrictive patterns of lung disease.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Tidal volume (TV) | Air moved per normal breath (~500 mL) | Basic unit of ventilation |\n| Inspiratory reserve volume (IRV) | Extra air inhaled beyond a normal breath | Feeds inspiratory capacity |\n| Expiratory reserve volume (ERV) | Extra air exhaled beyond a normal breath | Part of FRC and vital capacity |\n| Residual volume (RV) | Air left after maximal expiration | Keeps alveoli open; cannot be exhaled |\n| Inspiratory capacity (IC) | TV + IRV | Maximum air in from rest |\n| Functional residual capacity (FRC) | ERV + RV | Resting baseline; buffers gas, keeps alveoli open |\n| Vital capacity (VC) | TV + IRV + ERV | Maximum air that can be moved |\n| Total lung capacity (TLC) | TV + IRV + ERV + RV | Maximum the lungs can hold |\n| Anatomic dead space | Conducting-zone volume (~150 mL) | Air that never reaches alveoli |\n| Alveolar dead space | Ventilated but unperfused alveoli | Air that reaches alveoli but cannot exchange |\n| Minute ventilation | TV × respiratory rate | Total airflow per minute |\n| Alveolar ventilation | (TV − dead space) × rate | Airflow that actually exchanges gas |\n| FEV1/FVC ratio | Fraction of forced VC exhaled in 1 second | Distinguishes obstructive vs restrictive disease |",
+    "collegeNotes": "### 1. The four lung volumes\n\n- **Tidal volume (TV):** air moved per normal breath (~500 mL).\n- **Inspiratory reserve volume (IRV):** extra air inhaled beyond a normal breath (~3000 mL).\n- **Expiratory reserve volume (ERV):** extra air exhaled beyond a normal breath (~1100 mL).\n- **Residual volume (RV):** air left after maximal expiration (~1200 mL). It is never exhaled, so simple spirometry cannot measure it.\n\n### 2. The four lung capacities\n\nCapacities are sums of two or more volumes:\n\n- **Inspiratory capacity (IC) = TV + IRV** — maximum air in from resting end-expiration.\n- **Functional residual capacity (FRC) = ERV + RV** — air left after a quiet expiration; the resting baseline that keeps alveoli open and buffers gas concentrations.\n- **Vital capacity (VC) = TV + IRV + ERV** — maximum air exhaled after a maximum inspiration.\n- **Total lung capacity (TLC) = TV + IRV + ERV + RV** — total air the lungs can hold.\n\n### 3. Dead space and alveolar ventilation\n\nNot all inhaled air reaches the alveoli. **Anatomic dead space** (~150 mL) is the conducting-zone volume (trachea to terminal bronchioles) that never participates in gas exchange. **Alveolar dead space** is the volume of alveoli that are ventilated but not perfused. Together they make physiologic dead space. The air that actually reaches perfused alveoli is **alveolar ventilation**. **Minute ventilation** is total air moved per minute (TV × rate), but only alveolar ventilation drives gas exchange — so rapid, shallow breathing can move lots of air while ventilating the alveoli poorly.",
+    "howItWorks": "1. During quiet breathing only the tidal volume (~500 mL) moves in and out.\n2. About 150 mL of it stays in the conducting airways (anatomic dead space).\n3. The remaining ~350 mL reaches the alveoli and exchanges gas each breath.\n4. Multiplying these per-breath amounts by rate gives minute and alveolar ventilation.\n5. A spirometer records volume against time during quiet and maximal maneuvers.\n6. A forced maximal expiration yields FEV1 and FVC; their ratio reveals the pattern of limitation.\n7. Exhaled volumes are measured directly; RV and the capacities containing it (FRC, TLC) need methods such as helium dilution or body plethysmography.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Tidal volume (~500 mL) is the workhorse; residual volume (~1200 mL) can never be exhaled.\n- **High yield:** Capacities are sums — IC = TV+IRV, FRC = ERV+RV, VC = TV+IRV+ERV, TLC = all four.\n- **High yield:** FRC is the resting balance point that keeps alveoli open between breaths.\n- **High yield:** Alveolar ventilation, not minute ventilation, determines gas exchange (dead space is paid every breath).\n- **High yield:** FEV1/FVC below normal = obstructive; normal or high = restrictive.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Volume | Capacity | A volume is a single measurement; a capacity sums two or more volumes |\n| Residual volume | Functional residual capacity | RV is the un-exhalable remainder; FRC = RV + ERV |\n| Minute ventilation | Alveolar ventilation | Minute = total air moved; alveolar = the portion reaching perfused alveoli |\n| Anatomic dead space | Alveolar dead space | Anatomic is conducting-zone volume; alveolar is ventilated-but-unperfused alveoli |\n| Vital capacity | Total lung capacity | VC excludes residual volume; TLC includes it |\n| Obstructive | Restrictive | Obstructive = slow airflow out (low FEV1/FVC); restrictive = small/stiff lung |",
+    "memoryAids": "**\"TV + IRV + ERV + RV = TLC.\"** Capacities are made by adding neighbors: **IC** (TV+IRV), **FRC** (ERV+RV), **VC** (TV+IRV+ERV), **TLC** (everything). For the disease split, **\"Obstructive = can't get it Out\"** (low FEV1/FVC) versus **\"Restrictive = can't get it In\"** (small volumes, ratio preserved).",
+    "eli10": "Think of your lungs as a jug with a fixed maximum size. Most of the time you pour a little air in and out with each breath (tidal volume), and some is always left at the bottom that never drains, even when you try (residual volume). On top of your ordinary pour you can deliberately add extra (inspiratory reserve) or pour out extra (expiratory reserve). The \"capacities\" are just named combinations of these amounts — like \"the most I can move from empty to full\" (vital capacity) or \"everything the jug can hold\" (total lung capacity).\n\nWhere it stops being exact: a jug is rigid and its leftover is just gravity's doing, but lung residual volume exists because the chest wall and closed airways physically stop the lungs from ever emptying. Real volumes vary with body size, age, sex, and fitness, and disease patterns show up in how *fast* you can blow the air out.\n\n### Simple Example\n\nBreathe normally, then take the biggest breath you can: the extra air is your inspiratory reserve volume. Now blow out as hard and long as you can: the extra you force out is your expiratory reserve volume. What you still cannot exhale is residual volume.",
+    "quickReview": "### Topic Recap\n\nSpirometry breaks breathing into four volumes — TV, IRV, ERV, RV — which combine into four capacities (IC, FRC, VC, TLC). Only air reaching perfused alveoli does useful work, so alveolar ventilation (which subtracts dead space) matters more than minute ventilation. The FEV1/FVC ratio is the key index separating obstructive from restrictive disease.\n\n### Knowledge Check\n\n1. Which two volumes add to form functional residual capacity?\n2. Why can residual volume not be measured by ordinary spirometry?\n3. A person breathes 500 mL × 10/min with 200 mL dead space. What is their alveolar ventilation?\n4. In obstructive lung disease, does FEV1/FVC rise or fall, and why?\n5. Which single capacity is the sum of all four volumes?\n\n### Answers and Rationales\n\n1. Expiratory reserve volume + residual volume (FRC = ERV + RV).\n2. Because it remains after a maximal expiration and is never exhaled; it needs helium dilution or body plethysmography.\n3. (500 − 200) × 10 = 3,000 mL/min — dead space is subtracted from every breath before multiplying by rate.\n4. It falls, because narrowed airways slow forced expiration, so FEV1 drops far more than FVC.\n5. Total lung capacity (TLC = TV + IRV + ERV + RV).",
+    "workedExamples": "1. **Minute ventilation:** $V_E = V_T \\times f$ ($V_T$ = tidal volume, $f$ = respiratory rate). Example: 500 mL × 12 breaths/min = 6,000 mL/min.\n2. **Alveolar ventilation:** $V_A = (V_T - V_D) \\times f$ ($V_D$ = dead-space volume). With $V_D = 150$ mL: $(500 - 150) \\times 12 = 4,200$ mL/min. The same 6 L/min as 300 mL × 20 breaths/min gives only $(300 - 150) \\times 20 = 3,000$ mL/min — worse gas exchange because dead space is \"paid\" on every breath.\n3. **Forced maneuvers.** **FEV1** is the volume exhaled in the first second of a forced expiration; **FVC** is the total forced vital capacity. Normally **FEV1/FVC ≈ 0.75–0.80**. In **obstructive** disease the airways are narrowed, so FEV1 falls out of proportion to FVC and the ratio drops. In **restrictive** disease the lung is small or stiff, so FEV1 and FVC shrink together and the ratio stays normal or rises.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "lung-volumes-and-capacities",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "12-lung-volumes-and-capacities",
+      "kind": "source_file_stem",
+      "source_id": "need-review-human-physiology-ii"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-human-physiology-ii",
+    "sourceFile": "human-physiology-ii-study-notes/docs/human-physiology-ii/12-lung-volumes-and-capacities.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

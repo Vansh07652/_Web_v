@@ -1,0 +1,196 @@
+---
+title: "Hydrocarbons"
+subject: "Science"
+book: "Chemistry: Atoms First 2e"
+chapter: "21: Organic Chemistry"
+topic_number: "1"
+source: "chemistry-atoms-first-2e.md"
+tags:
+  - "hydrocarbons"
+  - "science"
+status: "complete"
+---
+
+# Hydrocarbons
+
+> **Book:** [Chemistry: Atoms First 2e](../../README.md)  
+> **Chapter:** [Chapter 21: Organic Chemistry](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Hydrocarbons contain **only carbon and hydrogen** — the simplest members of the organic family. Because carbon forms four bonds and links to itself in chains and rings, two elements make an enormous variety of molecules: the methane in natural gas, the octane in gasoline, the ethylene of plastics, and the benzene rings of many drugs. This topic organizes them into four families — **alkanes, alkenes, alkynes, aromatic hydrocarbons** — and shows how bonding, naming, and properties follow from structure. The central idea: the *type of carbon–carbon bond* controls the general formula, the reactions, and whether a molecule is saturated or unsaturated.
+
+## Why This Matters
+
+Hydrocarbons are the backbone of the energy economy and chemical industry. Natural gas is mostly methane; gasoline, diesel, and jet fuel are alkane mixtures; ethylene and propylene feed the plastics in bottles, pipes, and packaging; aromatic hydrocarbons appear in dyes, drugs, and polymers. Safety literacy depends on this too: alkanes are flammable fuels, alkenes polymerize readily, and benzene is a recognized carcinogen. Finally, hydrocarbons are the vocabulary base for every functional group in this chapter — alcohols, ethers, carbonyl compounds, amines, and amides are hydrocarbons with atoms replaced or added.
+
+## Core Concepts
+
+### Carbon: the four-bond rule
+
+Carbon has four valence electrons and forms four covalent bonds — the single most important fact in organic chemistry. A carbon bonded by four single bonds is *saturated*; one in a double or triple bond is *unsaturated*. Because C–H and C–C bonds are nearly nonpolar (electronegativities: C 2.55, H 2.20), hydrocarbons are **nonpolar**: insoluble in water, soluble in nonpolar solvents.
+
+### Alkanes: saturated chains and rings
+
+Alkanes contain only C–C and C–H single bonds. A chain alkane with n carbons fits \\(\\mathrm{C_nH_{2n+2}}\\): methane \\(\\mathrm{CH_4}\\), ethane \\(\\mathrm{C_2H_6}\\), propane \\(\\mathrm{C_3H_8}\\). **IUPAC naming**: (1) find the longest chain and name it with the parent stem (meth-, eth-, prop-, but-, pent-, …) plus **-ane**; (2) number the chain so substituents get the lowest locants; (3) name branches with **-yl** (methyl, ethyl), listed alphabetically with position numbers. Cycloalkanes use the prefix **cyclo-** (cyclohexane \\(\\mathrm{C_6H_{12}}\\)); each ring costs two hydrogens, so ring alkanes fit \\(\\mathrm{C_nH_{2n}}\\).
+
+### Alkenes and alkynes: the unsaturated hydrocarbons
+
+Alkenes contain at least one **C=C** bond; alkynes at least one **C≡C** bond. One double bond gives \\(\\mathrm{C_nH_{2n}}\\); one triple bond gives \\(\\mathrm{C_nH_{2n-2}}\\). Suffixes are **-ene** and **-yne**, with the multiple bond's locant included (1-butene vs. 2-butene). Because rotation around a double bond is blocked, alkenes show **geometric (cis/trans) isomerism**: in cis-2-butene the methyl groups sit on the same side; in trans-2-butene, opposite sides. These are different compounds with different boiling points. The exposed π electrons make alkenes react readily — the signature reaction is **addition across the double bond**.
+
+### Aromatic hydrocarbons: benzene's special stability
+
+Benzene, \\(\\mathrm{C_6H_6}\\), looks highly unsaturated yet does not react like an alkene. Its six π electrons are **delocalized** around the ring, making all six C–C bonds identical and the ring unusually stable. Aromatics therefore undergo **substitution** reactions that preserve the ring rather than addition reactions that destroy it. Derivatives are named with parent **benzene** (methylbenzene, commonly toluene). Because benzene is a recognized carcinogen, laboratory work with it requires a fume hood — a general principle for volatile aromatic solvents.
+
+### Physical properties: what structure predicts
+
+All hydrocarbons are nonpolar, held together by weak **dispersion (London) forces**. Consequences: (1) insoluble in water; (2) boiling points rise with molar mass — methane boils at −162 °C, pentane at 36 °C; (3) branched isomers boil lower than straight chains; (4) methane through butane are gases at room temperature, mid-size alkanes are liquids, larger ones waxy solids. All burn in oxygen to \\(\\mathrm{CO_2}\\) and \\(\\mathrm{H_2O}\\) — the basis of their use as fuels.
+
+## ELI-10: Explain Like I'm 10
+
+Hydrocarbons are molecules made of just two kinds of LEGO bricks: carbon and hydrogen. Carbon bricks have four connection points and snap into chains or rings; hydrogen bricks have one and fill the leftover spots. If all carbon–carbon connections are single, the molecule is an alkane (like grill-tank gas); if two carbons share a double connection, it's an alkene (plastic-maker); benzene is a ring with half-double connections, making it extra sturdy. The shape gives the name; the name predicts behavior.
+
+## High-Yield Points
+
+- Hydrocarbons contain **only C and H**; carbon always forms 4 bonds.
+- General formulas: alkane \\(\\mathrm{C_nH_{2n+2}}\\), alkene \\(\\mathrm{C_nH_{2n}}\\), alkyne \\(\\mathrm{C_nH_{2n-2}}\\), cycloalkane \\(\\mathrm{C_nH_{2n}}\\).
+- Saturated = only single bonds; unsaturated = double/triple bonds present.
+- IUPAC: longest chain → lowest locants → alphabetical substituents with -yl; suffix -ane/-ene/-yne. Alkenes show cis/trans isomerism because the double bond prevents rotation.
+- Benzene is aromatic: delocalized π electrons, extra stability, substitution rather than addition.
+- Hydrocarbons are nonpolar and water-insoluble; boiling point rises with molar mass and falls with branching.
+- Complete combustion of any hydrocarbon gives \\(\\mathrm{CO_2}\\) and \\(\\mathrm{H_2O}\\).
+- Degree of unsaturation: each ring or π bond = two hydrogens "missing" relative to \\(\\mathrm{C_nH_{2n+2}}\\).
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Hydrocarbon | Compound containing only C and H | Parent family of all organic compounds |
+| Alkane | Hydrocarbon with only single bonds | Saturated; fuel molecules (methane, octane) |
+| Alkene | Hydrocarbon with at least one C=C bond | Reactive; plastic feedstock |
+| Alkyne | Hydrocarbon with at least one C≡C bond | Unsaturated; very reactive (e.g., acetylene) |
+| Aromatic hydrocarbon | Ring with delocalized π electrons, e.g., benzene | Extra stability; basis of many drugs |
+| Saturated | Contains only single bonds | Sets reactivity and general formula |
+| Unsaturated | Contains double or triple bonds | Site of addition reactions |
+| Geometric isomer | cis/trans pair around a double bond | Different compounds, different properties |
+| Substituent | Atom/group attached to the main chain | Named with -yl in IUPAC |
+| Dispersion force | Weak attraction between nonpolar molecules | Explains boiling points and solubility |
+
+## Worked Examples
+
+### Example 1: Finding the degree of unsaturation
+
+The **degree of unsaturation** (index of hydrogen deficiency, IHD) counts rings and π bonds using
+
+\\[
+\mathrm{IHD} = \frac{2C + 2 - H}{2}
+\\]
+
+for hydrocarbons (halogens count as H; each N adds one to the numerator). Find the IHD of (a) octane \\(\\mathrm{C_8H_{18}}\\), (b) 1-butene \\(\\mathrm{C_4H_8}\\), (c) benzene \\(\\mathrm{C_6H_6}\\).
+
+**Substitution (a):**
+
+\\[
+\mathrm{IHD} = \frac{2(8) + 2 - 18}{2} = \frac{16 + 2 - 18}{2} = \frac{0}{2} = 0
+\\]
+
+Octane has no rings or π bonds — a saturated alkane.
+
+**Substitution (b):**
+
+\\[
+\mathrm{IHD} = \frac{2(4) + 2 - 8}{2} = \frac{8 + 2 - 8}{2} = \frac{2}{2} = 1
+\\]
+
+One degree of unsaturation matches the single double bond.
+
+**Substitution (c):**
+
+\\[
+\mathrm{IHD} = \frac{2(6) + 2 - 6}{2} = \frac{12 + 2 - 6}{2} = \frac{8}{2} = 4
+\\]
+
+Benzene's four degrees of unsaturation = three double bonds + one ring. The formula works even though the electrons are delocalized.
+
+### Example 2: How much CO₂ does burning octane produce?
+
+Gasoline is often modeled as octane, \\(\\mathrm{C_8H_{18}}\\), which combusts:
+
+\\[
+\mathrm{2\,C_8H_{18}(l) + 25\,O_2(g) \rightarrow 16\,CO_2(g) + 18\,H_2O(g)}
+\\]
+
+How many grams of \\(\\mathrm{CO_2}\\) form when 100.0 g of octane burns? Molar masses: octane 114.22, \\(\\mathrm{CO_2}\\) 44.01 g/mol.
+
+**Step 1 — Grams to moles:**
+
+\\[
+100.0\ \text{g C}_8\mathrm{H}_{18} \times \frac{1\ \text{mol C}_8\mathrm{H}_{18}}{114.22\ \text{g}} = 0.8755\ \text{mol C}_8\mathrm{H}_{18}
+\\]
+
+**Step 2 — Mole ratio (16 mol CO₂ per 2 mol octane):**
+
+\\[
+0.8755\ \text{mol C}_8\mathrm{H}_{18} \times \frac{16\ \text{mol CO}_2}{2\ \text{mol C}_8\mathrm{H}_{18}} = 7.004\ \text{mol CO}_2
+\\]
+
+**Step 3 — Moles to grams:**
+
+\\[
+7.004\ \text{mol CO}_2 \times \frac{44.01\ \text{g CO}_2}{1\ \text{mol CO}_2} = 308.2\ \text{g CO}_2
+\\]
+
+**Check:** each octane makes 8 CO₂, so 0.8755 mol × 8 = 7.004 mol; units cancel g → mol → mol → g. Burning 100 g of gasoline releases ~308 g of CO₂.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Alkane formula \\(\\mathrm{C_nH_{2n+2}}\\) | Alkene formula \\(\\mathrm{C_nH_{2n}}\\) | Each double bond removes two H atoms |
+| Saturated (hydrocarbon) | Saturated (solution) | Hydrocarbon meaning = only single bonds; unrelated to solutions |
+| cis vs. trans | Structural isomers | cis/trans differ only in double-bond arrangement; same connectivity |
+| Aromatic compounds | Alkenes | Aromatics look unsaturated but are far more stable; prefer substitution |
+| Benzene \\(\\mathrm{C_6H_6}\\) | Cyclohexane \\(\\mathrm{C_6H_{12}}\\) | Benzene has delocalized π electrons; cyclohexane is a saturated ring |
+| Longest-chain naming | Choosing a chain that includes the branch | Always pick the longest continuous chain, even if a branch sits on a "side" |
+| Substituent locant | Multiple-bond locant | Double bonds generally take priority when locants compete |
+
+## Quick Review
+
+1. General formula of an alkane with 7 carbons? Of an alkene with 7?
+2. Name \\(\\mathrm{CH_3CH_2CH_2CH_3}\\) by IUPAC rules.
+3. Why do cis- and trans-2-butene exist, while butane has no such pair?
+4. A hydrocarbon has the formula \\(\\mathrm{C_5H_8}\\). How many degrees of unsaturation does it have?
+5. Why does pentane boil far above methane?
+6. Write the balanced equation for propane's complete combustion \\(\\mathrm{C_3H_8}\\).
+
+<details>
+<summary>Show answers</summary>
+
+1. Alkane: \\(\\mathrm{C_7H_{16}}\\) (2(7) + 2). Alkene (one double bond): \\(\\mathrm{C_7H_{14}}\\) (2(7)).
+2. Butane — four-carbon chain (but-), all single bonds (-ane).
+3. The double bond prevents rotation, locking the methyl groups into cis or trans arrangements. Butane's single bonds rotate freely, so no such pair exists.
+4. \\(\\mathrm{IHD} = (2(5) + 2 - 8)/2 = 2\\). Examples: a diene (two double bonds), an alkyne (one triple bond), or a ring with one double bond.
+5. Dispersion forces strengthen as molecules grow. Pentane's larger molar mass and longer chain give much stronger attractions, so more energy is needed to vaporize it.
+6. \\(\\mathrm{C_3H_8(g) + 5\,O_2(g) \rightarrow 3\,CO_2(g) + 4\,H_2O(g)}\\).
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter
+- Next: [Alcohols and Ethers](02-alcohols-and-ethers.md)
+- Related: [Aldehydes, Ketones, Carboxylic Acids, and Esters](03-aldehydes-ketones-carboxylic-acids-and-esters.md)
+- Related: [Amines and Amides](04-amines-and-amides.md)
+- Related: [Organic Chemistry chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Chemistry: Atoms First 2e
+- Local outline source: `chemistry-atoms-first-2e.md`
+- Official source URL: https://openstax.org/details/books/chemistry-atoms-first-2e/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Reference-values note: molar masses and boiling points are commonly taught reference values based on standard atomic weights and physical data; use the data provided in your course for graded work.
+- Safety note: benzene is a recognized carcinogen; use volatile aromatic solvents only in a fume hood (general lab-safety principle).
+- Last updated: 2026-08-16

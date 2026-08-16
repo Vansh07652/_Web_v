@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:membranes-transport:patch-clamp",
+  "slug": "patch-clamp",
+  "title": "Patch-Clamp Electrophysiology: The Gigaseal and Single-Channel Recording",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:membranes-transport",
+    "slug": "membranes-transport",
+    "title": "Membranes Transport",
+    "order": 2
+  },
+  "order": 14,
+  "status": "final",
+  "sections": {
+    "overview": "Patch-clamp electrophysiology, developed by Erwin Neher and Bert Sakmann (Nobel Prize in Physiology or Medicine, 1991), is a technique that measures the tiny ionic currents flowing through individual ion channels or across an entire cell membrane. Its key technical innovation is the **gigaseal**: pressing a glass micropipette against the membrane and applying gentle suction forms an extremely tight seal with electrical resistance in the gigaohm range (>1 GΩ). This seal electrically isolates the tiny patch of membrane under the pipette and cuts background noise enough to resolve the picoampere currents of single channel openings.",
+    "whyItMatters": "Patch-clamp is the gold-standard method for studying ion channels and synaptic/secretory events. It revealed that electrical signaling is built from discrete single-channel events, enabled the molecular dissection of channelopathies (epilepsy, cardiac arrhythmias, cystic fibrosis), and is a cornerstone of drug discovery for ion-channel targets (anesthetics, antiarrhythmics, anticonvulsants, pain medications).",
+    "learningObjectives": "- Explain what patch-clamp recording measures and why it was revolutionary.\n- Define the gigaseal and why it is essential for low-noise recording.\n- Describe the four patch configurations and their uses.\n- Contrast single-channel and whole-cell recording.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nPatch-clamp electrophysiology, developed by Erwin Neher and Bert Sakmann (Nobel Prize in Physiology or Medicine, 1991), is a technique that measures the tiny ionic currents flowing through individual ion channels or across an entire cell membrane. Its key technical innovation is the **gigaseal**: pressing a glass micropipette against the membrane and applying gentle suction forms an extremely tight seal with electrical resistance in the gigaohm range (>1 GΩ). This seal electrically isolates the tiny patch of membrane under the pipette and cuts background noise enough to resolve the picoampere currents of single channel openings.\n\n### Key Components\n\n### Glass micropipette (patch pipette)\nA fine-tipped glass electrode filled with a physiological or defined saline, connected to a sensitive amplifier.\n\n### Gigaseal (>1 GΩ)\nThe tight pipette–membrane seal. High resistance forces most current to flow through the patch/channels rather than leaking around the pipette, enabling single-channel resolution.\n\n### Amplifier (patch-clamp amplifier)\nConverts picoampere (10⁻¹² A) currents into measurable voltages; in voltage-clamp mode it holds the membrane voltage fixed while recording current.\n\n### Patch configurations\n- **Cell-attached:** pipette sealed on an intact cell; records channels within the patch while the cell stays whole.\n- **Whole-cell:** the patch is ruptured (suction) so the pipette interior connects to the cytoplasm; records the summed current of all channels in the whole membrane.\n- **Inside-out:** after cell-attached, the pipette is pulled away, exposing the cytoplasmic face of the patch to the bath.\n- **Outside-out:** after whole-cell, the pipette is withdrawn so a vesicle reseals, exposing the extracellular face.\n\n### Single-channel parameters\nAmplitude (single-channel current), open probability, open/closed dwell times, and conductance.\n\n### Mechanism\n\nThe gigaseal works by bringing the glass and membrane so close that ions cannot slip through the gap — the seal resistance becomes enormous. With the patch electrically isolated, the only current path is through the channels in the patch. The amplifier clamps the voltage and records the square-wave-like openings and closings of single channels, or (in whole-cell mode) the aggregate current of the whole cell's channels.\n\n### How It Works\n\n1. A polished pipette is lowered onto a cell; slight suction pulls a small membrane dome into the tip.\n2. The glass–membrane junction seals to >1 GΩ (the gigaseal).\n3. **Cell-attached** recording begins: individual channels in the patch open/close, giving square current steps.\n4. Stronger suction ruptures the patch → **whole-cell** mode records currents from the entire cell membrane.\n5. Pulling the pipette away yields **inside-out** or **outside-out** excised patches, allowing control of both membrane faces.\n\n### Energy and Directionality\n\nThe technique does not move solutes; it *observes* them. However, it depends on and exploits electrochemical gradients: the direction and size of the measured single-channel current reflect the driving force on each ion, and clamping the voltage (or changing bath/pipette solutions) lets the experimenter set that driving force. No cellular ATP is consumed by the measurement itself.\n\n### Experimental Evidence\n\n- **First single-channel currents:** Neher and Sakmann (1976) resolved the opening/closing of individual acetylcholine-receptor channels in muscle, showing quantal, all-or-none current steps.\n- **Gigaseal development:** Neher's high-resistance seal (1981) lowered noise enough to make single-channel recording routine.\n- **Channel classification:** patch-clamp data established gating, conductance, selectivity, and pharmacology for voltage-, ligand-, and mechanically gated channels.\n- **Whole-cell pharmacology:** whole-cell recording underlies screening of ion-channel drugs and disease mutations.\n\n### Technique\n\nVoltage-clamp is applied via the patch amplifier; currents are digitized and analyzed for amplitude histograms, open probability, and dwell-time distributions. Perfusion systems exchange the bath solution (for excised patches) to control ligands and ions on each membrane face.",
+    "howItWorks": "1. A polished pipette is lowered onto a cell; slight suction pulls a small membrane dome into the tip.\n2. The glass–membrane junction seals to >1 GΩ (the gigaseal).\n3. **Cell-attached** recording begins: individual channels in the patch open/close, giving square current steps.\n4. Stronger suction ruptures the patch → **whole-cell** mode records currents from the entire cell membrane.\n5. Pulling the pipette away yields **inside-out** or **outside-out** excised patches, allowing control of both membrane faces.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Neher & Sakmann; Nobel Prize in Physiology or Medicine, 1991.\n- Gigaseal: pipette–membrane seal > 1 GΩ, essential for low-noise single-channel recording.\n- Configurations: cell-attached, whole-cell, inside-out, outside-out.\n- Single-channel recording resolves individual openings (picoampere currents).\n- Whole-cell recording sums all channels across the entire membrane.\n- Voltage-clamp holds voltage constant while measuring current.",
+    "commonConfusions": "- **\"Patch-clamp records voltage.\"** In the standard voltage-clamp mode it *controls* voltage and records *current*.\n- **\"A gigaseal is a type of channel.\"** It is the tight glass–membrane seal (>1 GΩ) that makes the recording possible.\n- **\"Single-channel and whole-cell are the same.\"** Single-channel resolves one channel's openings in a patch; whole-cell sums the entire membrane's channels.\n- **\"Cell-attached disrupts the cell.\"** Cell-attached leaves the cell intact; only rupturing (whole-cell) breaks the membrane under the pipette.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine pressing a straw onto a soap bubble and sucking just enough that the soap seals perfectly around the straw's rim — no air leaks. Now you can listen very closely and hear the tiny \"click-click\" of a single door opening and shutting in that little patch of soap. Pull harder and you break through to hear all the doors of the whole bubble at once. Patch-clamp is that straw-and-listening trick, but for the microscopic gates (ion channels) in a cell's skin.",
+    "quickReview": "- Patch-clamp measures ionic currents through channels.\n- Gigaseal (>1 GΩ) enables low-noise single-channel recording.\n- Four configurations: cell-attached, whole-cell, inside-out, outside-out.\n- Single-channel vs. whole-cell current.\n- Nobel Prize 1991 (Neher & Sakmann).",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NobelPrize.org, \"The Nobel Prize in Physiology or Medicine 1991 — Press release.\" https://www.nobelprize.org/prizes/medicine/1991/press-release/",
+        "url": "https://www.nobelprize.org/prizes/medicine/1991/press-release/"
+      },
+      {
+        "text": "NobelPrize.org, \"The Nobel Prize in Physiology or Medicine 1991.\" https://www.nobelprize.org/prizes/medicine/1991/summary/",
+        "url": "https://www.nobelprize.org/prizes/medicine/1991/summary/"
+      },
+      {
+        "text": "StatPearls, \"Physiology, Action Potential.\" https://www.ncbi.nlm.nih.gov/books/NBK538143/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK538143/"
+      },
+      {
+        "text": "StatPearls, \"Physiology, Resting Potential.\" https://www.ncbi.nlm.nih.gov/books/NBK538338/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK538338/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "patch-clamp",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "14-patch-clamp",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:91693ca65cad4eb8"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:91693ca65cad4eb8"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:91693ca65cad4eb8"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:91693ca65cad4eb8"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/02-membranes-transport/14-patch-clamp.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Patch-Clamp Electrophysiology: The Gigaseal and Single-Channel Recording\n\n## Learning Goals\n- Explain what patch-clamp recording measures and why it was revolutionary.\n- Define the gigaseal and why it is essential for low-noise recording.\n- Describe the four patch configurations and their uses.\n- Contrast single-channel and whole-cell recording.\n\n## Core Concept\nPatch-clamp electrophysiology, developed by Erwin Neher and Bert Sakmann (Nobel Prize in Physiology or Medicine, 1991), is a technique that measures the tiny ionic currents flowing through individual ion channels or across an entire cell membrane. Its key technical innovation is the **gigaseal**: pressing a glass micropipette against the membrane and applying gentle suction forms an extremely tight seal with electrical resistance in the gigaohm range (>1 GΩ). This seal electrically isolates the tiny patch of membrane under the pipette and cuts background noise enough to resolve the picoampere currents of single channel openings.\n\n## Key Components\n### Glass micropipette (patch pipette)\nA fine-tipped glass electrode filled with a physiological or defined saline, connected to a sensitive amplifier.\n\n### Gigaseal (>1 GΩ)\nThe tight pipette–membrane seal. High resistance forces most current to flow through the patch/channels rather than leaking around the pipette, enabling single-channel resolution.\n\n### Amplifier (patch-clamp amplifier)\nConverts picoampere (10⁻¹² A) currents into measurable voltages; in voltage-clamp mode it holds the membrane voltage fixed while recording current.\n\n### Patch configurations\n- **Cell-attached:** pipette sealed on an intact cell; records channels within the patch while the cell stays whole.\n- **Whole-cell:** the patch is ruptured (suction) so the pipette interior connects to the cytoplasm; records the summed current of all channels in the whole membrane.\n- **Inside-out:** after cell-attached, the pipette is pulled away, exposing the cytoplasmic face of the patch to the bath.\n- **Outside-out:** after whole-cell, the pipette is withdrawn so a vesicle reseals, exposing the extracellular face.\n\n### Single-channel parameters\nAmplitude (single-channel current), open probability, open/closed dwell times, and conductance.\n\n## Mechanism\nThe gigaseal works by bringing the glass and membrane so close that ions cannot slip through the gap — the seal resistance becomes enormous. With the patch electrically isolated, the only current path is through the channels in the patch. The amplifier clamps the voltage and records the square-wave-like openings and closings of single channels, or (in whole-cell mode) the aggregate current of the whole cell's channels.\n\n## How It Works\n1. A polished pipette is lowered onto a cell; slight suction pulls a small membrane dome into the tip.\n2. The glass–membrane junction seals to >1 GΩ (the gigaseal).\n3. **Cell-attached** recording begins: individual channels in the patch open/close, giving square current steps.\n4. Stronger suction ruptures the patch → **whole-cell** mode records currents from the entire cell membrane.\n5. Pulling the pipette away yields **inside-out** or **outside-out** excised patches, allowing control of both membrane faces.\n\n## Energy and Directionality\nThe technique does not move solutes; it *observes* them. However, it depends on and exploits electrochemical gradients: the direction and size of the measured single-channel current reflect the driving force on each ion, and clamping the voltage (or changing bath/pipette solutions) lets the experimenter set that driving force. No cellular ATP is consumed by the measurement itself.\n\n## Experimental Evidence\n- **First single-channel currents:** Neher and Sakmann (1976) resolved the opening/closing of individual acetylcholine-receptor channels in muscle, showing quantal, all-or-none current steps.\n- **Gigaseal development:** Neher's high-resistance seal (1981) lowered noise enough to make single-channel recording routine.\n- **Channel classification:** patch-clamp data established gating, conductance, selectivity, and pharmacology for voltage-, ligand-, and mechanically gated channels.\n- **Whole-cell pharmacology:** whole-cell recording underlies screening of ion-channel drugs and disease mutations.\n\n## Technique\nVoltage-clamp is applied via the patch amplifier; currents are digitized and analyzed for amplitude histograms, open probability, and dwell-time distributions. Perfusion systems exchange the bath solution (for excised patches) to control ligands and ions on each membrane face.\n\n## Why It Matters\nPatch-clamp is the gold-standard method for studying ion channels and synaptic/secretory events. It revealed that electrical signaling is built from discrete single-channel events, enabled the molecular dissection of channelopathies (epilepsy, cardiac arrhythmias, cystic fibrosis), and is a cornerstone of drug discovery for ion-channel targets (anesthetics, antiarrhythmics, anticonvulsants, pain medications).\n\n## High-Yield Facts\n- Neher & Sakmann; Nobel Prize in Physiology or Medicine, 1991.\n- Gigaseal: pipette–membrane seal > 1 GΩ, essential for low-noise single-channel recording.\n- Configurations: cell-attached, whole-cell, inside-out, outside-out.\n- Single-channel recording resolves individual openings (picoampere currents).\n- Whole-cell recording sums all channels across the entire membrane.\n- Voltage-clamp holds voltage constant while measuring current.\n\n## Eli Explains\nImagine pressing a straw onto a soap bubble and sucking just enough that the soap seals perfectly around the straw's rim — no air leaks. Now you can listen very closely and hear the tiny \"click-click\" of a single door opening and shutting in that little patch of soap. Pull harder and you break through to hear all the doors of the whole bubble at once. Patch-clamp is that straw-and-listening trick, but for the microscopic gates (ion channels) in a cell's skin.\n\n## Common Confusions\n- **\"Patch-clamp records voltage.\"** In the standard voltage-clamp mode it *controls* voltage and records *current*.\n- **\"A gigaseal is a type of channel.\"** It is the tight glass–membrane seal (>1 GΩ) that makes the recording possible.\n- **\"Single-channel and whole-cell are the same.\"** Single-channel resolves one channel's openings in a patch; whole-cell sums the entire membrane's channels.\n- **\"Cell-attached disrupts the cell.\"** Cell-attached leaves the cell intact; only rupturing (whole-cell) breaks the membrane under the pipette.\n\n## Quick Review\n- Patch-clamp measures ionic currents through channels.\n- Gigaseal (>1 GΩ) enables low-noise single-channel recording.\n- Four configurations: cell-attached, whole-cell, inside-out, outside-out.\n- Single-channel vs. whole-cell current.\n- Nobel Prize 1991 (Neher & Sakmann).\n\n## Sources\n- NobelPrize.org, \"The Nobel Prize in Physiology or Medicine 1991 — Press release.\" https://www.nobelprize.org/prizes/medicine/1991/press-release/\n- NobelPrize.org, \"The Nobel Prize in Physiology or Medicine 1991.\" https://www.nobelprize.org/prizes/medicine/1991/summary/\n- StatPearls, \"Physiology, Action Potential.\" https://www.ncbi.nlm.nih.gov/books/NBK538143/\n- StatPearls, \"Physiology, Resting Potential.\" https://www.ncbi.nlm.nih.gov/books/NBK538338/\n"
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-kinetics:catalysis",
+  "slug": "catalysis",
+  "title": "Catalysis",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-kinetics",
+    "slug": "chemical-kinetics",
+    "title": "Chemical Kinetics",
+    "order": 3
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "A **catalyst** is a substance that speeds up a reaction by providing an alternative reaction pathway with a **lower activation energy**, while being chemically unchanged at the end. Because Ea appears in the exponent of the Arrhenius equation, lowering Ea dramatically increases the fraction of effective collisions and therefore the rate. Crucially, a catalyst lowers the barrier for *both* the forward and reverse reactions equally, so it does **not** change the thermodynamics (ΔG°) or the equilibrium constant (K).",
+    "whyItMatters": "Catalysis is arguably the most economically important concept in chemistry — over 90% of industrial chemical processes use a catalyst. It underpins ammonia synthesis (fertilizer), petroleum refining, polymer production, and emissions control. In biology, enzymes make life possible at body temperature by accelerating reactions that would otherwise be impossibly slow. Understanding what a catalyst can and cannot do is essential for both industry and biochemistry.",
+    "learningObjectives": "- Define a catalyst and explain how it increases reaction rate.\n- Distinguish homogeneous and heterogeneous catalysis.\n- Explain the role of enzymes as biological catalysts.\n- State precisely what a catalyst does *not* change: ΔG°, K, and the equilibrium position.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA **catalyst** is a substance that speeds up a reaction by providing an alternative reaction pathway with a **lower activation energy**, while being chemically unchanged at the end. Because Ea appears in the exponent of the Arrhenius equation, lowering Ea dramatically increases the fraction of effective collisions and therefore the rate. Crucially, a catalyst lowers the barrier for *both* the forward and reverse reactions equally, so it does **not** change the thermodynamics (ΔG°) or the equilibrium constant (K).\n\n### Key Ideas\n\n- Catalysts work by lowering Ea, not by raising temperature or concentration.\n- **Homogeneous catalysis**: catalyst in the same phase as reactants (often dissolved).\n- **Heterogeneous catalysis**: catalyst in a different phase, usually a solid surface for gas/liquid reactants.\n- **Enzymes** are highly specific biological catalysts that stabilize the transition state.\n- Catalysts are regenerated — they are not consumed in the net reaction.\n\n### Equations and Variables\n\nThe connection to the Arrhenius equation:\n\n$$k = A\\,e^{-E_a/RT}$$\n\nLowering Ea (smaller barrier) increases e^(−Ea/RT) and thus k. The key thermodynamic constraint:\n\n$$\\Delta G^{\\circ} = -RT\\ln K$$\n\nSince a catalyst changes the pathway but not the free-energy difference between reactants and products, ΔG° — and therefore K — are unaffected.\n\n### How It Works\n\nA catalyst opens a new route with a lower energy hill. For a solid metal catalyst (heterogeneous), reactant molecules adsorb onto the surface, where they are held in favorable orientations and weakened by bonding to the surface, effectively lowering the barrier to reaction; products then desorb. For a homogeneous catalyst, the catalyst enters an intermediate compound with the reactants and is regenerated later.\n\nThe Haber process (N₂ + 3 H₂ → 2 NH₃) uses an iron catalyst to break the very strong N≡N bond more easily; catalytic converters use platinum/rhodium/palladium surfaces to oxidize CO and unburned hydrocarbons and reduce NOₓ. Enzymes, such as those in the liver, accelerate specific biological reactions millions of times by binding substrates in a precise active-site geometry that stabilizes the transition state.\n\nBecause the catalyst lowers Ea equally in both directions, it reaches equilibrium faster but arrives at the *same* equilibrium mixture. This is why a catalyst cannot make a thermodynamically unfavorable reaction favorable — it can only get you to equilibrium sooner.\n\n### Worked Example\n\nA reaction has Ea = 80 kJ/mol without a catalyst and Ea = 50 kJ/mol with one. Compare the Boltzmann factors at 300 K to estimate how much faster the catalyzed path is.\n\n**Uncatalyzed:**\n\n$$\\frac{E_a}{RT} = \\frac{80{,}000}{(8.314)(300)} = 32.1 \\quad\\Rightarrow\\quad e^{-32.1} = 1.1\\times10^{-14}$$\n\n**Catalyzed:**\n\n$$\\frac{E_a}{RT} = \\frac{50{,}000}{(8.314)(300)} = 20.0 \\quad\\Rightarrow\\quad e^{-20.0} = 2.1\\times10^{-9}$$\n\nThe fraction of productive collisions rises by about 2.1 × 10⁻⁹ / 1.1 × 10⁻¹⁴ ≈ **190,000-fold** — a dramatic speedup from lowering Ea by only 30 kJ/mol. (In practice, the orientation factor and A may also change, but the exponential dominates.) The equilibrium constant, meanwhile, is unchanged because ΔG° is the same with or without the catalyst.",
+    "howItWorks": "A catalyst opens a new route with a lower energy hill. For a solid metal catalyst (heterogeneous), reactant molecules adsorb onto the surface, where they are held in favorable orientations and weakened by bonding to the surface, effectively lowering the barrier to reaction; products then desorb. For a homogeneous catalyst, the catalyst enters an intermediate compound with the reactants and is regenerated later.\n\nThe Haber process (N₂ + 3 H₂ → 2 NH₃) uses an iron catalyst to break the very strong N≡N bond more easily; catalytic converters use platinum/rhodium/palladium surfaces to oxidize CO and unburned hydrocarbons and reduce NOₓ. Enzymes, such as those in the liver, accelerate specific biological reactions millions of times by binding substrates in a precise active-site geometry that stabilizes the transition state.\n\nBecause the catalyst lowers Ea equally in both directions, it reaches equilibrium faster but arrives at the *same* equilibrium mixture. This is why a catalyst cannot make a thermodynamically unfavorable reaction favorable — it can only get you to equilibrium sooner.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Catalysts lower Ea, providing an alternative lower-energy pathway.\n- Homogeneous = same phase; heterogeneous = different phase (solid surface).\n- Enzymes are biological catalysts with substrate-specific active sites.\n- A catalyst does **not** change ΔG°, ΔH°, K, or the equilibrium position — only the rate.\n- Catalysts are regenerated, so they are not part of the overall stoichiometry.",
+    "commonConfusions": "- **Thinking a catalyst changes K or ΔG°.** It does not — it only lowers Ea and raises the rate.\n- **Confusing a catalyst with a reactant.** A catalyst is regenerated and appears in neither the overall equation nor the equilibrium constant expression.\n- **Assuming \"faster\" means \"more product.\"** At equilibrium, the yield is the same; the catalyst just gets you there sooner.\n- **Forgetting heterogeneous surface effects.** Solid catalysts work by adsorption, orientation, and surface bonding, not by dissolving into the reaction.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nA catalyst is a shortcut through a mountain pass, not a change of destination. The reaction still ends up at the same valley (same products, same equilibrium), but the catalyst carves a lower tunnel so the trip — the activation-energy climb — is much shorter. Because the tunnel is cut through the same mountain for both directions, it lowers the climb coming and going equally, which is why it speeds up both the forward and reverse reactions and leaves the final balance (K) untouched. You reach the same town, just a lot faster.",
+    "quickReview": "1. How does a catalyst increase a reaction's rate?\n2. What is the difference between homogeneous and heterogeneous catalysis?\n3. Give one industrial and one biological example of catalysis.\n4. Why does a catalyst not change the equilibrium constant?\n5. In the Arrhenius equation, which quantity does a catalyst alter?",
+    "workedExamples": "### Worked Example\n\nA reaction has Ea = 80 kJ/mol without a catalyst and Ea = 50 kJ/mol with one. Compare the Boltzmann factors at 300 K to estimate how much faster the catalyzed path is.\n\n**Uncatalyzed:**\n\n$$\\frac{E_a}{RT} = \\frac{80{,}000}{(8.314)(300)} = 32.1 \\quad\\Rightarrow\\quad e^{-32.1} = 1.1\\times10^{-14}$$\n\n**Catalyzed:**\n\n$$\\frac{E_a}{RT} = \\frac{50{,}000}{(8.314)(300)} = 20.0 \\quad\\Rightarrow\\quad e^{-20.0} = 2.1\\times10^{-9}$$\n\nThe fraction of productive collisions rises by about 2.1 × 10⁻⁹ / 1.1 × 10⁻¹⁴ ≈ **190,000-fold** — a dramatic speedup from lowering Ea by only 30 kJ/mol. (In practice, the orientation factor and A may also change, but the exponential dominates.) The equilibrium constant, meanwhile, is unchanged because ΔG° is the same with or without the catalyst.",
+    "references": [
+      {
+        "text": "OpenStax. *Chemistry 2e*. Ch. 12, \"Catalysis.\" https://openstax.org/books/chemistry-2e/pages/12-7-catalysis",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-7-catalysis"
+      },
+      {
+        "text": "IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"catalyst,\" \"catalysis.\" https://goldbook.iupac.org/",
+        "url": "https://goldbook.iupac.org/"
+      },
+      {
+        "text": "Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman."
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/12-chemical-kinetics/08-catalysis.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:acid-base-chemistry:br-nsted-lowry-acids-and-bases",
+  "slug": "br-nsted-lowry-acids-and-bases",
+  "title": "Brønsted-Lowry Acids and Bases",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:acid-base-chemistry",
+    "slug": "acid-base-chemistry",
+    "title": "Acid-Base Chemistry",
+    "order": 2
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "A Brønsted-Lowry acid is a proton (H⁺) donor; a Brønsted-Lowry base is a proton acceptor. Losing a proton turns an acid into its conjugate base, and gaining one turns a base into its conjugate acid. Acid strength is reported as pKa = −log(Ka): the smaller the pKa, the stronger the acid. Every acid-base equilibrium runs toward the weaker acid and weaker base, so comparing pKa values predicts reaction direction.",
+    "whyItMatters": "Blood pH is held near 7.4 by the amphiprotic carbonic-acid/bicarbonate conjugate pair, H₂CO₃ ⇌ H⁺ + HCO₃⁻. The same logic governs drug absorption: most drugs are weak acids or bases, and their ionized-versus-neutral form — set by the molecule's pKa relative to local pH — controls membrane crossing. A carboxylic-acid drug (pKa ≈ 4–5) is largely neutral and permeable in the acidic stomach but ionized in the more basic intestine.",
+    "learningObjectives": "1. Define Brønsted-Lowry acids and bases as proton donors and acceptors, and identify conjugate acid-base pairs in a reaction.\n2. Write acid-dissociation equilibria and express both Ka and pKa, converting between them and interpreting their meaning.\n3. Predict the direction of an acid-base equilibrium by comparing pKa values and applying the stronger-acid/weaker-conjugate-base relationship.\n4. Use an approximate pKa ladder to rank common acids and apply it to unfamiliar molecules.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Brønsted-Lowry acid | A proton (H⁺) donor | Defines the starting point of acid-base chemistry |\n| Brønsted-Lowry base | A proton (H⁺) acceptor | Receives the proton in a transfer |\n| Conjugate base | What remains after an acid loses a proton | Its stability sets the acid's strength |\n| Conjugate acid | What forms when a base gains a proton | Completes the acid-base pair |\n| Amphiprotic compound | Can donate *or* accept a proton | Water and bicarbonate buffer solutions both ways |\n| Acid-base equilibrium | Reversible proton transfer between two conjugate pairs | Its position shows where the proton resides |\n| Ka | The acid-dissociation equilibrium constant | Directly measures acid strength |\n| pKa | −log(Ka); smaller = stronger acid | Compresses a huge Ka range into comparable numbers |\n| Relative acidity | How strong an acid is compared with another | Lets you predict reactions without a pH meter |",
+    "collegeNotes": "### 1. Proton donors and acceptors define conjugate pairs\nA Brønsted-Lowry acid donates a proton; a base accepts one. Every acid has a conjugate base (acid minus one H⁺), and every base has a conjugate acid (base plus one H⁺); the two differ by exactly one proton. In HCl + H₂O → H₃O⁺ + Cl⁻, HCl/Cl⁻ and H₂O/H₃O⁺ are the two conjugate pairs. A compound that can act as either an acid or a base is **amphiprotic** — water accepts a proton from HCl but donates one to NH₃.\n### 2. Ka and pKa quantify acid strength\nFor a generic acid HA in water, HA + H₂O ⇌ H₃O⁺ + A⁻, with \\(K_a = [\\ce{H3O+}] [\\ce{A-}]/[\\ce{HA}]\\). Because Ka spans many orders of magnitude, chemists report \\(pK_a = -\\log_{10} K_a\\), which inverts the intuition: **large Ka = small pKa = strong acid**. Acetic acid has Ka = 1.8 × 10⁻⁵, so pKa = 4.76; hydrochloric acid has pKa ≈ −7. One pKa unit equals a tenfold change in Ka.\n### 3. Equilibrium favors the weaker acid and weaker base\nAn acid-base equilibrium is a competition for the proton between two bases. The proton ends up on the stronger base, so the equilibrium lies on the side containing the **weaker acid** and **weaker base**. A strong acid always has a weak conjugate base, and a weak acid has a strong conjugate base.",
+    "howItWorks": "1. Identify the two conjugate pairs: find the proton donor (acid) and acceptor (base), then add/subtract one H⁺ to name each product.\n2. Look up or estimate the pKa of the two acids present (one reactant, one product).\n3. Decide which acid is stronger (lower pKa); it donates, driving equilibrium away from itself.\n4. State the result: equilibrium favors the side with the weaker acid and weaker base.\n5. Check consistency: the strong acid's conjugate base is weak, and vice versa.",
+    "comparisons": "",
+    "highYield": "- **High yield:** A Brønsted-Lowry acid *donates* a proton; a base *accepts* one.\n- **High yield:** Conjugate pairs differ by exactly one proton (H⁺).\n- **High yield:** Lower pKa = stronger acid = weaker conjugate base.\n- **High yield:** pKa = −log(Ka), so each pKa unit is a tenfold change in Ka.\n- **High yield:** Equilibrium favors the weaker acid and weaker base.\n- Water is amphiprotic — the solvent base for most proton transfers you will draw.\n- pKa anchors: strong mineral acids (< 0), carboxylic acids (≈ 4–5), phenols (≈ 10), water (15.7), alcohols (≈ 16–18), terminal alkynes (≈ 25), amines (≈ 38), alkanes (≈ 50).\n- Quantitative acidity (Ka/pKa) differs from relative acidity (ranking); both appear on exams.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Acid | Conjugate base | The acid has one extra proton; the conjugate base is what it becomes after donating |\n| Ka | pKa | They vary inversely — large Ka means small pKa and a stronger acid |\n| Strong acid | Concentrated acid | \"Strong\" is about Ka (ionization); \"concentrated\" is about how much is dissolved |\n| pKa | pH | pKa is a property of the acid; pH is the proton level of a specific solution |\n| Weaker conjugate base | Weaker acid | They go together — a strong acid always has a weak conjugate base |",
+    "memoryAids": "\"**DEA** — a **D**onor is an **A**cid\" fixes the direction. For equilibrium, \"**pKa low, proton flow**\": the proton flows from the low-pKa (strong) acid to the stronger base, ending on the side of the weak acid.",
+    "eli10": "Think of a proton as a baton in a relay race. An acid holds it loosely, ready to hand it off; a base reaches out to take it. After the handoff, the first runner (now the conjugate base) is empty-handed and the second (now the conjugate acid) holds the baton. Whoever grips it more tightly is the weaker acid and keeps it.\n\nWhere it stops being exact: a proton is not an object passed by choice. The \"handoff\" is one bond breaking while another forms, driven by energy differences — acids do not \"want\" anything.\n### Simple Example\nHCl + H₂O → H₃O⁺ + Cl⁻. HCl donates a proton (acid); H₂O accepts it (base). H₃O⁺ is the conjugate acid of water and Cl⁻ is the conjugate base of HCl.",
+    "quickReview": "### Topic Recap\n\nBrønsted-Lowry acids donate protons and bases accept them; each transfer forms a conjugate acid-base pair. Strength is measured by Ka and reported as pKa, with lower pKa meaning a stronger acid. Equilibrium always favors the weaker acid and weaker base, so comparing pKa values predicts proton-transfer direction in nearly any reaction.\n\n### Knowledge Check\n\n1. In NH₃ + H₂O ⇌ NH₄⁺ + OH⁻, name the two conjugate acid-base pairs.\n2. Acid X has Ka = 1 × 10⁻³; acid Y has pKa = 6. Which is stronger?\n3. An acid with pKa = 4 reacts with the conjugate base of an acid with pKa = 9. Which way does equilibrium lie?\n4. Why is H₂O described as amphiprotic?\n5. Which is the stronger acid — ethanol (pKa ≈ 16) or acetic acid (pKa ≈ 4.8) — and why?\n\n### Answers and Rationales\n\n1. NH₃/NH₄⁺ (base and its conjugate acid) and H₂O/OH⁻ (acid and its conjugate base); each pair differs by one proton.\n2. Acid X. Its Ka = 10⁻³ corresponds to pKa = 3, lower than 6, so it is the stronger acid.\n3. Toward products, away from the pKa = 4 acid. The pKa = 4 acid is stronger, so it donates; equilibrium favors the weaker acid (pKa = 9).\n4. Water can donate a proton (to NH₃, forming OH⁻) or accept one (from HCl, forming H₃O⁺), so it is amphiprotic.\n5. Acetic acid. Its pKa (4.8) is far lower than ethanol's (16); acetate is stabilized by resonance, ethoxide is not.",
+    "workedExamples": "1. **Draw the proton transfer with curved arrows.** A double-headed arrow starts at a lone pair on the base and points at the acidic proton; a second arrow starts at the H–A bond and points onto A, showing the bonding pair stays on the conjugate base. Arrows move electron *pairs*, never atoms: \\(\\ce{H2O: + H-Cl -> H3O+ + :Cl-}\\).\n2. **Calculate pKa from Ka.** For acetic acid, \\(pK_a = -\\log(1.8 \\times 10^{-5}) = 4.76\\). Working backward, pKa = 10 means Ka = 10⁻¹⁰, a much weaker acid.\n3. **Predict direction using pKa.** Compare the acid on each side. In \\(\\ce{CH3CO2H + NH3 ⇌ CH3CO2- + NH4+}\\), the acids are acetic acid (pKa ≈ 4.8) and ammonium (pKa ≈ 9.4). Acetic acid is stronger, so equilibrium lies to the *right*, favoring the weaker acid (NH₄⁺) and weaker base (CH₃CO₂⁻).",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "br-nsted-lowry-acids-and-bases",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "05-bronsted-lowry-acids-and-bases",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/05-bronsted-lowry-acids-and-bases.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

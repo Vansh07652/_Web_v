@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:vesicular-traffic:clathrin",
+  "slug": "clathrin",
+  "title": "Clathrin-Coated Vesicles",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:vesicular-traffic",
+    "slug": "vesicular-traffic",
+    "title": "Vesicular Traffic",
+    "order": 4
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "Clathrin is the coat that buds vesicles from the **plasma membrane** and the **trans-Golgi network (TGN)**, delivering cargo to **endosomes** (and, from the PM, carrying material into the cell by endocytosis). Clathrin itself is a structural cage built from **triskelions** — three-legged molecules of three heavy and three light chains — that do not touch the membrane or cargo directly. Instead, **adaptor protein (AP) complexes** sit between the clathrin cage and the membrane: they bind the membrane (via lipids), bind clathrin, and **select cargo** by recognizing sorting signals in the cytoplasmic tails of receptors. Because clathrin-coated buds at the plasma membrane have long, thin necks, their scission requires the GTPase **dynamin**, which pinches the vesicle off. The coat is then rapidly removed by an ATP-driven uncoating machinery.",
+    "whyItMatters": "Clathrin-mediated endocytosis is the cell's principal way to internalize nutrients (LDL via the LDL receptor), signaling receptors (EGFR), and ligands (transferrin-bound iron). Its dysregulation causes disease: mutations in the LDL receptor's internalization signal cause **familial hypercholesterolemia** (high blood cholesterol and atherosclerosis), and defects in clathrin/dynamin machinery are linked to neurological disorders (dynamin mutations in Charcot-Marie-Tooth). Many pathogens (influenza, SARS-CoV-2) enter cells by clathrin-mediated endocytosis, making it a drug target.",
+    "learningObjectives": "- Describe the structure of clathrin (triskelions) and its adaptor proteins.\n- Contrast the two major clathrin routes: plasma membrane → endosome and TGN → endosome.\n- Explain how adaptors select cargo via sorting signals.\n- Describe dynamin's role in scission and the mechanism of uncoating.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nClathrin is the coat that buds vesicles from the **plasma membrane** and the **trans-Golgi network (TGN)**, delivering cargo to **endosomes** (and, from the PM, carrying material into the cell by endocytosis). Clathrin itself is a structural cage built from **triskelions** — three-legged molecules of three heavy and three light chains — that do not touch the membrane or cargo directly. Instead, **adaptor protein (AP) complexes** sit between the clathrin cage and the membrane: they bind the membrane (via lipids), bind clathrin, and **select cargo** by recognizing sorting signals in the cytoplasmic tails of receptors. Because clathrin-coated buds at the plasma membrane have long, thin necks, their scission requires the GTPase **dynamin**, which pinches the vesicle off. The coat is then rapidly removed by an ATP-driven uncoating machinery.\n\n### Key Components\n\n- **Clathrin triskelion:** three heavy chains + three light chains; polymerizes into a polyhedral cage.\n- **AP2 adaptor:** at the plasma membrane; binds PI(4,5)P₂, cargo, and clathrin.\n- **AP1 adaptor:** at the TGN; binds cargo and clathrin for TGN → endosome transport.\n- **Sorting signals:** e.g., tyrosine-based **YXXΦ** and **dileucine [DE]XXXL[LI]** motifs in cargo tails.\n- **Dynamin:** a GTPase that forms a helix around the vesicle neck and drives scission.\n- **Hsc70 + auxilin:** the ATP-driven uncoating machinery.\n- **Amphiphysin/BAR proteins:** help recruit dynamin and sense/generate neck curvature.\n\n### Mechanism / How It Works\n\n1. **Adaptor recruitment.** AP2 binds the plasma membrane through phosphoinositide (PI(4,5)P₂) and binds the cytoplasmic tails of receptors bearing YXXΦ or dileucine signals.\n2. **Cage assembly.** Clathrin triskelions are recruited by the adaptors and self-assemble into a curved lattice that progressively invaginates the membrane, concentrating cargo.\n3. **Scission.** As the bud deepens into a deep pit with a narrow neck, **dynamin** assembles as a helix around the neck. GTP hydrolysis drives a conformational change that constricts and severs the neck, releasing the coated vesicle.\n4. **Uncoating.** **Auxilin** recruits **Hsc70**, whose ATP hydrolysis disassembles the clathrin cage and releases the adaptors, leaving a naked vesicle that can fuse with an early endosome.\n5. **Delivery and recycling.** The vesicle fuses with an early endosome; receptors and adaptors are recycled back to the plasma membrane or TGN for reuse.\n\n### Energy and Directionality\n\nClathrin transport consumes **GTP** (dynamin, for scission) and **ATP** (Hsc70, for uncoating; plus phosphoinositide metabolism upstream). The binding energy of adaptor–cargo and clathrin–adaptor interactions drives cage assembly and curvature, while phosphoinositides spatially direct the whole process (PI(4,5)P₂ marks the plasma membrane, and PI(4)P the TGN). Directionality is set by this lipid-based targeting plus the SNAREs and Rabs that specify the acceptor endosome.\n\n### Experimental Evidence / Technique\n\nClathrin coats were first visualized by **electron microscopy** of purified vesicles as the characteristic polyhedral \"basket\" lattice, and triskelions were revealed by rotary shadowing. **Dynamin's role in scission** was shown by the *Drosophila shibire* mutant, which at restrictive temperature accumulates unsevered coated pits with dynamin collars at their necks — proving dynamin pinches off the vesicle. **In vitro reconstitution** with clathrin, AP2, dynamin, and GTP produced buds and, with dynamin, scission. **RNAi and knockout studies** mapped AP2 cargo signals (YXXΦ, dileucine).",
+    "howItWorks": "1. **Adaptor recruitment.** AP2 binds the plasma membrane through phosphoinositide (PI(4,5)P₂) and binds the cytoplasmic tails of receptors bearing YXXΦ or dileucine signals.\n2. **Cage assembly.** Clathrin triskelions are recruited by the adaptors and self-assemble into a curved lattice that progressively invaginates the membrane, concentrating cargo.\n3. **Scission.** As the bud deepens into a deep pit with a narrow neck, **dynamin** assembles as a helix around the neck. GTP hydrolysis drives a conformational change that constricts and severs the neck, releasing the coated vesicle.\n4. **Uncoating.** **Auxilin** recruits **Hsc70**, whose ATP hydrolysis disassembles the clathrin cage and releases the adaptors, leaving a naked vesicle that can fuse with an early endosome.\n5. **Delivery and recycling.** The vesicle fuses with an early endosome; receptors and adaptors are recycled back to the plasma membrane or TGN for reuse.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Clathrin buds from the **plasma membrane (AP2)** and **TGN (AP1)** → endosomes.\n- Triskelion = 3 heavy + 3 light chains; forms the cage but does **not** bind cargo or membrane directly.\n- Adaptors (AP1/AP2) link clathrin to membrane and select cargo via **YXXΦ** and **dileucine** signals.\n- **Dynamin** GTPase severs the neck (shibire mutant → long unsevered necks).\n- **Hsc70 + auxilin** uncoat the vesicle using ATP.\n- PI(4,5)P₂ (PM) and PI(4)P (TGN) direct adaptor binding.\n- LDL receptor internalization depends on clathrin; defects → familial hypercholesterolemia.",
+    "commonConfusions": "- **\"Clathrin binds cargo directly.\"** — Clathrin is a structural cage; **adaptors** bind cargo and membrane, then recruit clathrin.\n- **\"Dynamin makes the bud.\"** — Dynamin only **severs the neck**; the coat/adaptors make the bud.\n- **\"Clathrin only works at the plasma membrane.\"** — It also buds from the **TGN** (via AP1) toward endosomes/lysosomes.\n- **\"COPI and clathrin use the same scission mechanism.\"** — Clathrin requires **dynamin** for scission; COPII/COPI scission is coat-driven (no dynamin).\n- **\"All endocytosis is clathrin-mediated.\"** — There are clathrin-independent routes (caveolae, macropinocytosis), but clathrin is the major pathway.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nClathrin is a cage built from little three-legged pieces that snap together like a geodesic dome. But the cage never touches the goods directly — instead, \"adapter brackets\" (AP complexes) first grab the goods by their barcodes and stick to the wall, then the cage assembles over the brackets, pulling the wall inward into a deep pocket. When the pocket's neck gets thin, a twist-tie machine (dynamin) cinches it and snips the bubble free. Finally, a cleanup crew (Hsc70/auxilin) takes the cage apart so the bubble can move on. (The analogy leaves out that \"snapping together\" and \"cinching\" are driven by GTP and ATP, not just shape-fitting.)",
+    "quickReview": "- Clathrin = triskelion cage; adaptors (AP2 at PM, AP1 at TGN) select cargo.\n- Cargo signals: YXXΦ and dileucine.\n- Dynamin (GTP) severs the neck; Hsc70/auxilin (ATP) uncoat.\n- Routes: PM → endosome (endocytosis), TGN → endosome.\n- LDL/transferrin receptors internalized by this pathway; defects → familial hypercholesterolemia.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Transport into the Cell from the Plasma Membrane: Endocytosis.\" https://www.ncbi.nlm.nih.gov/books/NBK26870/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26870/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Transport from the Trans Golgi Network to Lysosomes.\" https://www.ncbi.nlm.nih.gov/books/NBK26844/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26844/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Molecular Mechanisms of Membrane Transport and the Maintenance of Compartmental Diversity.\" https://www.ncbi.nlm.nih.gov/books/NBK26859/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26859/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "clathrin",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "04-clathrin",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:86e2e683e7905918"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:86e2e683e7905918"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:86e2e683e7905918"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:86e2e683e7905918"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/04-vesicular-traffic/04-clathrin.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Clathrin-Coated Vesicles\n\n## Learning Goals\n\n- Describe the structure of clathrin (triskelions) and its adaptor proteins.\n- Contrast the two major clathrin routes: plasma membrane → endosome and TGN → endosome.\n- Explain how adaptors select cargo via sorting signals.\n- Describe dynamin's role in scission and the mechanism of uncoating.\n\n## Core Concept\n\nClathrin is the coat that buds vesicles from the **plasma membrane** and the **trans-Golgi network (TGN)**, delivering cargo to **endosomes** (and, from the PM, carrying material into the cell by endocytosis). Clathrin itself is a structural cage built from **triskelions** — three-legged molecules of three heavy and three light chains — that do not touch the membrane or cargo directly. Instead, **adaptor protein (AP) complexes** sit between the clathrin cage and the membrane: they bind the membrane (via lipids), bind clathrin, and **select cargo** by recognizing sorting signals in the cytoplasmic tails of receptors. Because clathrin-coated buds at the plasma membrane have long, thin necks, their scission requires the GTPase **dynamin**, which pinches the vesicle off. The coat is then rapidly removed by an ATP-driven uncoating machinery.\n\n## Key Components\n\n- **Clathrin triskelion:** three heavy chains + three light chains; polymerizes into a polyhedral cage.\n- **AP2 adaptor:** at the plasma membrane; binds PI(4,5)P₂, cargo, and clathrin.\n- **AP1 adaptor:** at the TGN; binds cargo and clathrin for TGN → endosome transport.\n- **Sorting signals:** e.g., tyrosine-based **YXXΦ** and **dileucine [DE]XXXL[LI]** motifs in cargo tails.\n- **Dynamin:** a GTPase that forms a helix around the vesicle neck and drives scission.\n- **Hsc70 + auxilin:** the ATP-driven uncoating machinery.\n- **Amphiphysin/BAR proteins:** help recruit dynamin and sense/generate neck curvature.\n\n## Mechanism / How It Works\n\n1. **Adaptor recruitment.** AP2 binds the plasma membrane through phosphoinositide (PI(4,5)P₂) and binds the cytoplasmic tails of receptors bearing YXXΦ or dileucine signals.\n2. **Cage assembly.** Clathrin triskelions are recruited by the adaptors and self-assemble into a curved lattice that progressively invaginates the membrane, concentrating cargo.\n3. **Scission.** As the bud deepens into a deep pit with a narrow neck, **dynamin** assembles as a helix around the neck. GTP hydrolysis drives a conformational change that constricts and severs the neck, releasing the coated vesicle.\n4. **Uncoating.** **Auxilin** recruits **Hsc70**, whose ATP hydrolysis disassembles the clathrin cage and releases the adaptors, leaving a naked vesicle that can fuse with an early endosome.\n5. **Delivery and recycling.** The vesicle fuses with an early endosome; receptors and adaptors are recycled back to the plasma membrane or TGN for reuse.\n\n## Energy and Directionality\n\nClathrin transport consumes **GTP** (dynamin, for scission) and **ATP** (Hsc70, for uncoating; plus phosphoinositide metabolism upstream). The binding energy of adaptor–cargo and clathrin–adaptor interactions drives cage assembly and curvature, while phosphoinositides spatially direct the whole process (PI(4,5)P₂ marks the plasma membrane, and PI(4)P the TGN). Directionality is set by this lipid-based targeting plus the SNAREs and Rabs that specify the acceptor endosome.\n\n## Experimental Evidence / Technique\n\nClathrin coats were first visualized by **electron microscopy** of purified vesicles as the characteristic polyhedral \"basket\" lattice, and triskelions were revealed by rotary shadowing. **Dynamin's role in scission** was shown by the *Drosophila shibire* mutant, which at restrictive temperature accumulates unsevered coated pits with dynamin collars at their necks — proving dynamin pinches off the vesicle. **In vitro reconstitution** with clathrin, AP2, dynamin, and GTP produced buds and, with dynamin, scission. **RNAi and knockout studies** mapped AP2 cargo signals (YXXΦ, dileucine).\n\n## Why It Matters\n\nClathrin-mediated endocytosis is the cell's principal way to internalize nutrients (LDL via the LDL receptor), signaling receptors (EGFR), and ligands (transferrin-bound iron). Its dysregulation causes disease: mutations in the LDL receptor's internalization signal cause **familial hypercholesterolemia** (high blood cholesterol and atherosclerosis), and defects in clathrin/dynamin machinery are linked to neurological disorders (dynamin mutations in Charcot-Marie-Tooth). Many pathogens (influenza, SARS-CoV-2) enter cells by clathrin-mediated endocytosis, making it a drug target.\n\n## High-Yield Facts\n\n- Clathrin buds from the **plasma membrane (AP2)** and **TGN (AP1)** → endosomes.\n- Triskelion = 3 heavy + 3 light chains; forms the cage but does **not** bind cargo or membrane directly.\n- Adaptors (AP1/AP2) link clathrin to membrane and select cargo via **YXXΦ** and **dileucine** signals.\n- **Dynamin** GTPase severs the neck (shibire mutant → long unsevered necks).\n- **Hsc70 + auxilin** uncoat the vesicle using ATP.\n- PI(4,5)P₂ (PM) and PI(4)P (TGN) direct adaptor binding.\n- LDL receptor internalization depends on clathrin; defects → familial hypercholesterolemia.\n\n## Eli Explains\n\nClathrin is a cage built from little three-legged pieces that snap together like a geodesic dome. But the cage never touches the goods directly — instead, \"adapter brackets\" (AP complexes) first grab the goods by their barcodes and stick to the wall, then the cage assembles over the brackets, pulling the wall inward into a deep pocket. When the pocket's neck gets thin, a twist-tie machine (dynamin) cinches it and snips the bubble free. Finally, a cleanup crew (Hsc70/auxilin) takes the cage apart so the bubble can move on. (The analogy leaves out that \"snapping together\" and \"cinching\" are driven by GTP and ATP, not just shape-fitting.)\n\n## Common Confusions\n\n- **\"Clathrin binds cargo directly.\"** — Clathrin is a structural cage; **adaptors** bind cargo and membrane, then recruit clathrin.\n- **\"Dynamin makes the bud.\"** — Dynamin only **severs the neck**; the coat/adaptors make the bud.\n- **\"Clathrin only works at the plasma membrane.\"** — It also buds from the **TGN** (via AP1) toward endosomes/lysosomes.\n- **\"COPI and clathrin use the same scission mechanism.\"** — Clathrin requires **dynamin** for scission; COPII/COPI scission is coat-driven (no dynamin).\n- **\"All endocytosis is clathrin-mediated.\"** — There are clathrin-independent routes (caveolae, macropinocytosis), but clathrin is the major pathway.\n\n## Quick Review\n\n- Clathrin = triskelion cage; adaptors (AP2 at PM, AP1 at TGN) select cargo.\n- Cargo signals: YXXΦ and dileucine.\n- Dynamin (GTP) severs the neck; Hsc70/auxilin (ATP) uncoat.\n- Routes: PM → endosome (endocytosis), TGN → endosome.\n- LDL/transferrin receptors internalized by this pathway; defects → familial hypercholesterolemia.\n\n## Sources\n\n- Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Transport into the Cell from the Plasma Membrane: Endocytosis.\" https://www.ncbi.nlm.nih.gov/books/NBK26870/\n- Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Transport from the Trans Golgi Network to Lysosomes.\" https://www.ncbi.nlm.nih.gov/books/NBK26844/\n- Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Molecular Mechanisms of Membrane Transport and the Maintenance of Compartmental Diversity.\" https://www.ncbi.nlm.nih.gov/books/NBK26859/\n"
+}

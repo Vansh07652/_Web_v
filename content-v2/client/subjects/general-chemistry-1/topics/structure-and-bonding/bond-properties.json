@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-1:structure-and-bonding:bond-properties",
+  "slug": "bond-properties",
+  "title": "Bond Properties",
+  "subject": {
+    "id": "subject:general-chemistry-1",
+    "slug": "general-chemistry-1",
+    "title": "General Chemistry I"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-1:structure-and-bonding",
+    "slug": "structure-and-bonding",
+    "title": "Structure and Bonding",
+    "order": 6
+  },
+  "order": 21,
+  "status": "final",
+  "sections": {
+    "overview": "Bond length is the average distance between the nuclei of two bonded atoms, and bond enthalpy is the energy required to break one mole of a given bond in the gas phase (always reported as a positive value for breaking). Shorter bonds are generally stronger: multiple bonds are shorter and stronger than single bonds, and bonds between smaller atoms are shorter than those between larger atoms. The enthalpy change of a reaction can be estimated as the total energy of bonds broken minus the total energy of bonds formed.",
+    "whyItMatters": "Bond enthalpies explain why the body stores so much energy in carbon–carbon and carbon–hydrogen bonds and releases it gradually through metabolism. The strong \\\\(O{=}O\\\\) double bond in molecular oxygen is also why combustion and respiration require careful control — a fact exploited in clinical oxygen therapy, where oxygen is administered and handled under strict safety protocols because of its ability to sustain rapid, exothermic reactions.",
+    "learningObjectives": "1. Define bond length and bond enthalpy (bond energy) and state their units.\n2. Explain the relationships among bond length, bond order, and bond strength.\n3. Use tabulated bond enthalpies to estimate the enthalpy change of a reaction.\n4. Explain why bond-enthalpy calculations are estimates rather than exact values.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Bond length | Average distance between two bonded nuclei | Shorter bonds are stronger |\n| Bond order | Number of shared electron pairs between atoms (1, 2, 3) | Higher order → shorter, stronger bond |\n| Bond enthalpy (bond energy) | Energy to break one mole of a bond in the gas phase | Measures bond strength; used to estimate ΔH |\n| Bond dissociation enthalpy | Energy to break a *specific* bond in a specific molecule | More precise than the average bond enthalpy |\n| Exothermic | Reaction that releases energy (ΔH < 0) | Bonds formed are stronger than bonds broken |",
+    "collegeNotes": "### 1. Bond Length\n\nBond length is the equilibrium distance between two bonded nuclei. It decreases as bond order increases (triple < double < single) and as the bonded atoms get smaller. Longer bonds are weaker because the shared electrons are farther from the nuclei.\n\n### 2. Bond Enthalpy (Bond Energy)\n\nBond enthalpy is the energy required to break one mole of a specific bond in gaseous molecules, e.g.:\n\n\\\\[ H_2(g) \\\\longrightarrow 2H(g) \\\\qquad \\\\Delta H = +436\\\\text{ kJ/mol} \\\\]\n\nBreaking always absorbs energy (positive), forming always releases energy (negative). Stronger bonds have larger bond enthalpies.\n\n### 3. Estimating Reaction Enthalpy from Bond Enthalpies\n\nA chemical reaction breaks the bonds of the reactants and forms the bonds of the products. Because breaking absorbs energy and forming releases it, the net enthalpy change is:\n\n\\\\[ \\\\Delta H \\\\approx \\\\sum (\\\\text{bond enthalpies of bonds broken}) - \\\\sum (\\\\text{bond enthalpies of bonds formed}) \\\\]",
+    "howItWorks": "1. Write the balanced equation and draw the Lewis structure of each reactant and product.\n2. List every bond in the reactants (these are broken) and every bond in the products (these are formed).\n3. Multiply each bond enthalpy by the number of such bonds, using the equation coefficients.\n4. Sum the broken-bond enthalpies and the formed-bond enthalpies.\n5. Subtract formed from broken to estimate \\\\(\\\\Delta H\\\\).\n6. Interpret the sign: negative → exothermic, positive → endothermic.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Breaking bonds *absorbs* energy; forming bonds *releases* energy.\n- **High yield:** \\\\(\\\\Delta H \\\\approx \\\\sum D_{\\\\text{broken}} - \\\\sum D_{\\\\text{formed}}\\\\).\n- **High yield:** Shorter bonds are stronger; triple > double > single in both strength and shortness.\n- Bond enthalpies are *averages* over many molecules, so ΔH estimates are approximate.\n- A negative estimated ΔH means the products' bonds are, on balance, stronger than the reactants'.\n- Larger atoms form longer, weaker bonds (e.g., H–F is shorter and stronger than H–I).",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Bond enthalpy | Lattice energy | Bond enthalpy is per *covalent bond*; lattice energy is per *ionic crystal* |\n| Bond breaking (absorbs) | Bond forming (releases) | Opposite signs; mixing them flips the final ΔH |\n| Bond length | Bond enthalpy | They are inversely related: short bonds are strong bonds |\n| Bond enthalpy (average) | Bond dissociation enthalpy | The average is over many molecules; dissociation is molecule-specific |\n| Estimated ΔH | Measured ΔH | Bond-enthalpy estimates are approximate because of averaging |",
+    "memoryAids": "**\"Break it, then Make it — B minus M.\"** Energy to *break* reactant bonds minus energy released when you *make* product bonds gives ΔH. And **\"shorter is stronger\"** links bond length to bond energy.",
+    "eli10": "Picture bonds as springs connecting atoms. A short, stiff spring (a double or triple bond) is hard to stretch and snap, while a long, floppy spring (a single bond between big atoms) snaps easily. Breaking a bond always *costs* energy — like snapping a spring requires a pull — while forming a bond *releases* energy.\n\n*Where it stops being exact:* tabulated bond enthalpies are *average* values over many different molecules, so an O–H bond in water isn't exactly the same as an O–H bond in ethanol. Calculations using them are good estimates, not precise answers.\n\n### Simple Example\n\nA carbon–carbon triple bond is shorter and stronger than a carbon–carbon double bond, which is shorter and stronger than a carbon–carbon single bond. That's why breaking a \\\\(C\\\\equiv C\\\\) bond costs far more energy than breaking a C–C bond.",
+    "quickReview": "### Topic Recap\n\nBond length and bond enthalpy are inverse measures of the same idea: short bonds are strong bonds, and multiple bonds are both shorter and stronger than single bonds. Because breaking bonds absorbs energy and forming bonds releases it, the enthalpy change of a reaction can be estimated by subtracting the energy of the bonds formed from the energy of the bonds broken — a fast, approximate alternative to calorimetry.\n\n### Knowledge Check\n\n1. Is energy absorbed or released when a bond forms?\n2. Which C–C bond is shortest and strongest: single, double, or triple?\n3. Using \\\\(D(H\\\\!-\\\\!H) = 436\\\\) and \\\\(D(Br\\\\!-\\\\!Br) = 193\\\\text{ kJ/mol}\\\\), and \\\\(D(H\\\\!-\\\\!Br) = 366\\\\text{ kJ/mol}\\\\), estimate ΔH for \\\\(H_2 + Br_2 \\\\to 2HBr\\\\).\n4. Why are bond-enthalpy calculations only estimates?\n5. For the reaction \\\\(N_2 + 3H_2 \\\\to 2NH_3\\\\), which bonds are broken and which are formed?\n\n### Answers and Rationales\n\n1. Energy is *released* when a bond forms; forming a bond is always exothermic, while breaking one always absorbs energy.\n2. The triple bond. Higher bond order means more shared pairs pulling the nuclei together, giving a shorter, stronger bond.\n3. Bonds broken: \\\\(1\\\\,H\\\\!-\\\\!H + 1\\\\,Br\\\\!-\\\\!Br = 436 + 193 = 629\\\\text{ kJ}\\\\). Bonds formed: \\\\(2\\\\,H\\\\!-\\\\!Br = 2 \\\\times 366 = 732\\\\text{ kJ}\\\\). \\\\(\\\\Delta H \\\\approx 629 - 732 = -103\\\\text{ kJ/mol}\\\\) (exothermic).\n4. Because tabulated bond enthalpies are *average* values across many different molecules, not the exact energy of each specific bond in the reacting molecules.\n5. Broken: one \\\\(N\\\\equiv N\\\\) triple bond and three \\\\(H\\\\!-\\\\!H\\\\) bonds. Formed: six \\\\(N\\\\!-\\\\!H\\\\) bonds (three per \\\\(NH_3\\\\), times two molecules).",
+    "workedExamples": "\\\\[ \\\\Delta H_{\\\\text{rxn}} \\\\approx \\\\sum D_{\\\\text{bonds broken}} - \\\\sum D_{\\\\text{bonds formed}} \\\\]\n\nwhere \\\\(D\\\\) denotes the bond enthalpy of each bond.\n\n**Worked Example 1 — Hydrogen + chlorine.** Consider \\\\(H_2(g) + Cl_2(g) \\\\to 2HCl(g)\\\\). Using \\\\(D(H\\\\!-\\\\!H) = 436\\\\), \\\\(D(Cl\\\\!-\\\\!Cl) = 243\\\\), and \\\\(D(H\\\\!-\\\\!Cl) = 431\\\\text{ kJ/mol}\\\\):\n\n\\\\[ \\\\text{Bonds broken: } 1\\\\,H\\\\!-\\\\!H + 1\\\\,Cl\\\\!-\\\\!Cl = 436 + 243 = 679\\\\text{ kJ} \\\\]\n\n\\\\[ \\\\text{Bonds formed: } 2\\\\,H\\\\!-\\\\!Cl = 2 \\\\times 431 = 862\\\\text{ kJ} \\\\]\n\n\\\\[ \\\\Delta H \\\\approx 679 - 862 = -183\\\\text{ kJ/mol} \\\\]\n\nThe negative value means the reaction is exothermic — more energy is released forming the two H–Cl bonds than is absorbed breaking the reactants.\n\n**Worked Example 2 — Combustion of methane.** For \\\\(CH_4(g) + 2O_2(g) \\\\to CO_2(g) + 2H_2O(g)\\\\), using \\\\(D(C\\\\!-\\\\!H) = 413\\\\), \\\\(D(O{=}O) = 498\\\\), \\\\(D(C{=}O) = 799\\\\), and \\\\(D(O\\\\!-\\\\!H) = 463\\\\text{ kJ/mol}\\\\):\n\n\\\\[ \\\\text{Bonds broken: } 4\\\\,C\\\\!-\\\\!H + 2\\\\,O{=}O = 4(413) + 2(498) = 1652 + 996 = 2648\\\\text{ kJ} \\\\]\n\n\\\\[ \\\\text{Bonds formed: } 2\\\\,C{=}O + 4\\\\,O\\\\!-\\\\!H = 2(799) + 4(463) = 1598 + 1852 = 3450\\\\text{ kJ} \\\\]\n\n\\\\[ \\\\Delta H \\\\approx 2648 - 3450 = -802\\\\text{ kJ/mol} \\\\]\n\nMethane combustion is strongly exothermic, matching the fact that burning methane releases a great deal of heat.\n\n**Common setup error:** counting only the bonds that \"change\" instead of *all* bonds broken and *all* bonds formed, or forgetting that the coefficient multiplies every bond in a molecule (two \\\\(O_2\\\\) means two \\\\(O{=}O\\\\) bonds).",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "bond-properties",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "21-bond-properties",
+      "kind": "source_file_stem",
+      "source_id": "need-review-general-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-general-chemistry-i",
+    "sourceFile": "general-chemistry-i-study-notes/docs/general-chemistry-i/21-bond-properties.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

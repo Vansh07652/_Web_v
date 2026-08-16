@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:developmental-psychology:development:research-methods-and-ethics",
+  "slug": "research-methods-and-ethics",
+  "title": "Research Methods and Ethics",
+  "subject": {
+    "id": "subject:developmental-psychology",
+    "slug": "developmental-psychology",
+    "title": "Developmental Psychology: Lifespan Development"
+  },
+  "unit": {
+    "id": "unit:developmental-psychology:development",
+    "slug": "development",
+    "title": "Development",
+    "order": 1
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "Developmental researchers study change using **descriptive methods** (observation, surveys/interviews, case studies), **correlational methods**, and **experiments** — each answering a different question. Because true experiments are often impossible or unethical with children, researchers rely on **longitudinal**, **cross-sectional**, and **sequential** designs to track change over time. Every study is governed by **informed consent**, **assent** for minors, **confidentiality**, and **protection of vulnerable populations**. The field's most important distinction is **correlation vs causation**: relatedness of two variables never, by itself, proves one caused the other.",
+    "whyItMatters": "Clinicians and educators constantly interpret developmental research, so method quality is a patient-safety skill. When a study claims \"breastfeeding raises IQ,\" a nurse should recognize a correlational finding (confounded by income and parental education) before citing it to families. When describing a child's behavior, use descriptive and correlational language (\"is associated with,\" \"on average\") rather than causal overclaims — and never use group-level research findings to diagnose or label an individual child. Obtaining a child's assent before a procedure, in language the child understands, mirrors research assent and respects the child's autonomy, while guardians provide consent.",
+    "learningObjectives": "1. Describe the descriptive methods — observational research, surveys and interviews, and case studies — and their strengths and limits.\n2. Distinguish correlation from causation and explain why correlational findings cannot establish cause.\n3. Compare longitudinal, cross-sectional, and sequential designs, including each design's advantages and confounds.\n4. Identify the core ethical principles — informed consent, assent, confidentiality, and protection of vulnerable populations.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Observational research | Watching and recording behavior systematically | Captures real behavior; cannot show cause |\n| Surveys and interviews | Self-report questionnaires or conversations | Efficient but prone to bias |\n| Case studies | In-depth study of one person or small group | Rich detail; limited generalizability |\n| Correlation vs causation | Association vs one variable causing the other | The field's most important distinction |\n| Experiments | Manipulate a variable with random assignment | Only method that supports causal claims |\n| Longitudinal design | Same individuals studied over time | Shows real change; slow and costly |\n| Cross-sectional design | Different ages compared at one time | Fast, but confounds age with cohort |\n| Sequential design | Multiple cohorts followed over time | Separates age from cohort; most rigorous |\n| Informed consent | Voluntary, informed agreement to participate | Foundation of ethical research |\n| Assent | A minor's agreement, with guardian consent | Respects children's autonomy |\n| Confidentiality | Keeping participants' data private | Builds trust and protects people |\n| Protection of vulnerable populations | Extra safeguards for those who cannot fully consent | Applies to children, older adults, and people with disabilities |",
+    "collegeNotes": "### 1. Descriptive Methods\n\n- **Observational research** — systematically watching and recording behavior in natural or lab settings. Strength: captures real behavior. Limits: observer bias, reactivity, no causal inference.\n- **Surveys and interviews** — asking people to self-report attitudes, beliefs, or behaviors. Strength: efficient for large samples. Limits: self-report bias, memory error, social-desirability responding.\n- **Case studies** — in-depth study of one person or a small group. Strength: rich detail, hypothesis generation. Limits: may not generalize.\n\n### 2. Correlation vs Causation and Experiments\n\n- **Correlation** measures whether two variables change together but cannot show that one *causes* the other — a third variable or reverse causation may explain the link.\n- **Experiments** manipulate an independent variable and randomly assign participants to conditions, allowing causal inference (treatment vs control).\n\n### 3. Developmental Designs\n\n- **Longitudinal design** — follows the *same* individuals over time. Strength: reveals true individual change. Limits: slow, costly, subject to attrition and practice effects.\n- **Cross-sectional design** — compares *different* age groups at one point in time. Strength: fast and inexpensive. Limits: cannot reveal individual change; vulnerable to **cohort effects**.\n- **Sequential design** — follows multiple cohorts over time, separating age from cohort effects. Strength: most rigorous. Limits: complex and costly.",
+    "howItWorks": "1. Choose the right method: description (observation/survey/case study), association (correlation), or cause (experiment).\n2. For questions about change, select a design — longitudinal, cross-sectional, or sequential — matching it to the confounds you can tolerate.\n3. Obtain **informed consent** from adults (or guardians of minors), explaining purpose, procedures, risks, and the right to withdraw.\n4. Obtain **assent** from children in age-appropriate language, even when a guardian consents.\n5. Protect **confidentiality** by de-identifying data and storing it securely.\n6. Add safeguards for **vulnerable populations**, ensuring no coercion and minimal harm.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Correlation does not imply causation; only experiments with random assignment establish cause.\n- **High yield:** Cross-sectional studies confound age with cohort; longitudinal studies track true change but suffer attrition.\n- **High yield:** Sequential designs combine multiple cohorts and time points to separate age from cohort effects.\n- **High yield:** Children provide **assent** while guardians provide **consent**; both are ethically required.\n- Observational research, surveys, and case studies describe but cannot prove cause; confidentiality and protection of vulnerable populations are non-negotiable safeguards.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Correlation | Causation | Association vs proof one variable changes the other |\n| Longitudinal design | Cross-sectional design | Same people over time vs different ages at one time |\n| Cohort effect | Age effect | Birth-era differences vs changes from growing older |\n| Assent | Consent | A child's agreement vs an adult/guardian's permission |\n| Observational research | Experiment | Watching without manipulating vs manipulating with random assignment |",
+    "memoryAids": "Designs — **\"Long, Cross, and Seq\"**: **L**ongitudinal = same people over time; **C**ross-sectional = a snapshot cut across ages; **Se**quential = several cohorts over time. Ethics — **\"C-C-A-C\"**: **C**onsent, **C**onfidentiality, **A**ssent, protection of **C**hildren (and other vulnerable populations). The big rule: **\"Correlation is not causation.\"**",
+    "eli10": "Imagine you want to know whether screen time makes toddlers fussy. You could watch families and take notes (observational research), ask parents to fill out questionnaires (surveys/interviews), or study one child closely for months (a case study). Each gives a description but not proof of cause.\n\nNow suppose children who use screens more are also fussier. That is a **correlation** — two things go together, like how people who carry umbrellas are more likely to get rained on. The umbrella did not cause the rain; both trace to a third thing (stormy weather). \"Where it stops being exact\": the umbrella metaphor captures the *idea* of a third variable but is not a rigorous test — proving cause requires a controlled experiment, which may be impossible or unethical with children.\n\n### Simple Example\n\nA researcher randomly assigns one group of infants to a structured reading program and another to a control group. Because assignment is random, any later vocabulary difference is more plausibly *caused* by the program. Random assignment turns a correlation into a test of causation.",
+    "quickReview": "### Topic Recap\n\nDevelopmental research uses descriptive methods (observation, surveys/interviews, case studies) for description, correlational methods for association, and experiments for causation. Because experiments are often impossible or unethical with children, longitudinal, cross-sectional, and sequential designs track change — each with distinct strengths and confounds. Ethical practice requires informed consent, assent from minors, confidentiality, and protection of vulnerable populations. Above all, correlation is not causation.\n\n### Knowledge Check\n\n1. A researcher finds children who own more books have larger vocabularies. Can we conclude owning books *causes* a larger vocabulary? Why or why not?\n2. What is the key difference between a longitudinal and a cross-sectional design?\n3. Why might a cross-sectional study overstate age-related cognitive decline?\n4. What is the difference between informed consent and assent?\n5. Which single design feature allows an experiment to support a causal claim?\n\n### Answers and Rationales\n\n1. **No — it is correlational.** Families with more books may also read more or have higher income. Third variables and reverse causation are possible; only random assignment could test cause.\n2. **Longitudinal follows the same individuals over time; cross-sectional compares different age groups at one point in time.** Longitudinal reveals individual change; cross-sectional is faster but confounds age with cohort.\n3. **Because of cohort effects.** Older participants differ from younger ones in education, nutrition, and life experience — not just age — so the comparison is not a pure measure of aging.\n4. **Consent is legal, informed permission from an adult or guardian; assent is the minor's own agreement**, given in age-appropriate language.\n5. **Random assignment to conditions.** It distributes pre-existing differences across groups, isolating the effect of the manipulated variable.",
+    "workedExamples": "1. Suppose a cross-sectional study finds 60-year-olds score lower on a memory test than 20-year-olds. A naive reading is \"memory declines with age,\" but this **confuses cohort with age** — the groups differ in education, nutrition, and life experience, not just age.\n2. A longitudinal study of the *same* people tracks genuine change but risks **attrition** and **practice effects**.\n3. A **sequential design** tests several cohorts repeatedly, teasing apart aging, cohort, and time-of-measurement effects — the most rigorous but most expensive approach.\n4. Throughout, correlation is not causation: even a well-measured association is not proof of cause unless a true experiment with random assignment is run — and many developmental questions cannot be studied experimentally for practical or ethical reasons.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "research-methods-and-ethics",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "02-research-methods-and-ethics",
+      "kind": "source_file_stem",
+      "source_id": "need-review-developmental-psychology"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-developmental-psychology",
+    "sourceFile": "developmental-psychology-study-notes/docs/developmental-psychology/02-research-methods-and-ethics.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

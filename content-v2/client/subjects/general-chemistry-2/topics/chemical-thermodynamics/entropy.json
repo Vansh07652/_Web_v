@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-thermodynamics:entropy",
+  "slug": "entropy",
+  "title": "Entropy",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-thermodynamics",
+    "slug": "chemical-thermodynamics",
+    "title": "Chemical Thermodynamics",
+    "order": 7
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "**Entropy (S)** is a measure of how energy is dispersed among the available microstates of a system — the number of distinct, energetically equivalent ways the particles and their energy can be arranged. A state with more accessible microstates has higher entropy. Entropy increases when a substance heats up, melts, vaporizes, dissolves, or when a reaction produces more gas molecules than it consumes. Entropy is a state function, so ΔS depends only on initial and final states, not the path between them.",
+    "whyItMatters": "Entropy explains why heat flows from hot to cold, why gases expand, why proteins fold, and why energy \"degrades\" toward less-useful forms. It is the conceptual foundation of the Second Law of Thermodynamics and, through ΔG = ΔH − TΔS, of all spontaneity predictions in chemistry and biology.",
+    "learningObjectives": "- Define entropy in terms of energy dispersal and number of microstates (S = k ln W).\n- Predict the sign of ΔS for physical and chemical changes.\n- Explain why entropy increases with temperature, phase (solid → liquid → gas), and number of gas molecules.\n- Distinguish entropy from the everyday idea of \"disorder.\"",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Entropy (S)** is a measure of how energy is dispersed among the available microstates of a system — the number of distinct, energetically equivalent ways the particles and their energy can be arranged. A state with more accessible microstates has higher entropy. Entropy increases when a substance heats up, melts, vaporizes, dissolves, or when a reaction produces more gas molecules than it consumes. Entropy is a state function, so ΔS depends only on initial and final states, not the path between them.\n\n### Key Ideas\n\n- **Microstates and W.** A microstate is a specific microscopic arrangement of positions and energies. The Boltzmann equation, S = k ln W, links entropy to W, the number of microstates.\n- **Energy dispersal, not \"messiness.\"** A gas filling a room does so because more microstates correspond to the spread-out configuration than to a corner-clustered one.\n- **Phase ordering.** S_solid < S_liquid < S_gas for the same substance — gases have far more translational freedom.\n- **More particles = more entropy.** For a reaction, ΔS > 0 when the number of moles of gas increases.\n- **Entropy is a state function.** ΔS = S_final − S_initial, independent of pathway.\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| S | Entropy | J/(mol·K) |\n| k (k_B) | Boltzmann constant = 1.381 × 10⁻²³ J/K | J/K |\n| W | Number of microstates | dimensionless |\n| ΔS | Entropy change | J/(mol·K) |\n\n### How It Works\n\n1. A system's macrostate (T, P, V, amount) can be realized by many microstates (particle positions and velocities/energies).\n2. Spontaneous change proceeds toward the macrostate with the greatest number of accessible microstates — the one that maximizes W.\n3. Adding heat raises the particles' energy and spreads that energy over more quantum levels, increasing W and thus S.\n4. Expanding into more volume, changing to a less-constrained phase, or forming more independent particles all raise W.\n5. The logarithm in S = k ln W means entropy is additive: two identical systems together have entropy 2S, while W multiplies.\n\n### Worked Example\n\n**Predict the sign of ΔS for each process.**\n\n1. **H₂O(s) → H₂O(l).** ΔS > 0. Liquid water has more translational/rotational freedom than the rigid solid lattice.\n2. **2 H₂(g) + O₂(g) → 2 H₂O(g).** ΔS < 0. Three moles of gas become two; fewer gas particles means fewer microstates.\n3. **NaCl(s) → Na⁺(aq) + Cl⁻(aq).** ΔS > 0. A highly ordered crystal disperses into freely moving ions in solution.\n4. **Cooling a gas from 400 K to 200 K.** ΔS < 0. Lower temperature means fewer populated energy levels, fewer microstates.\n\nThe key heuristic: count gas molecules and watch for phase changes and dissolving — anything that increases molecular freedom or particle number raises S.",
+    "howItWorks": "1. A system's macrostate (T, P, V, amount) can be realized by many microstates (particle positions and velocities/energies).\n2. Spontaneous change proceeds toward the macrostate with the greatest number of accessible microstates — the one that maximizes W.\n3. Adding heat raises the particles' energy and spreads that energy over more quantum levels, increasing W and thus S.\n4. Expanding into more volume, changing to a less-constrained phase, or forming more independent particles all raise W.\n5. The logarithm in S = k ln W means entropy is additive: two identical systems together have entropy 2S, while W multiplies.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Entropy measures energy dispersal / number of microstates, **not simply \"disorder.\"**\n- Boltzmann: **S = k ln W**, with k = 1.381 × 10⁻²³ J/K.\n- S_solid < S_liquid < S_gas for a given substance.\n- ΔS > 0 when a reaction produces **more gas moles** than it consumes.\n- Dissolving a solid usually increases entropy (ions/crystal disperse).\n- Entropy is a **state function**; ΔS is path-independent.\n- Adding heat (higher T) raises S because more energy levels are populated.\n- Standard units of entropy are **J/(mol·K)**, unlike ΔH and ΔG (kJ/mol).",
+    "commonConfusions": "- **\"Entropy is just disorder/messiness.\"** — Incomplete. It is really about the number of microstates and energy dispersal; \"disorder\" is only a rough visual metaphor.\n- **\"Entropy always increases for any process.\"** — Wrong. The entropy of the *system* can decrease (water freezing); only the entropy of the *universe* must increase for a spontaneous process.\n- **\"Melting is endothermic, so it lowers entropy.\"** — Wrong. Melting raises entropy because the liquid has more microstates; the heat absorbed goes into increasing molecular freedom.\n- **\"Fewer gas molecules means higher entropy.\"** — Wrong. Fewer gas particles means fewer microstates and lower entropy.\n- **\"Entropy has no units that matter.\"** — Wrong. S and ΔS are in J/(mol·K); you must convert to kJ when combining with ΔH in ΔG = ΔH − TΔS.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of entropy as the number of different ways you can arrange a set of toys. A tidy toy box has basically one arrangement — low entropy. Dump the toys on the floor and there are a million ways they could be scattered — high entropy. Nature \"prefers\" the scattered state simply because there are *so many more* ways for it to happen. (The limit: real entropy counts ways to arrange *energy* among particles, not just positions of toys — but \"more arrangements = more likely\" is exactly the right idea.)",
+    "quickReview": "- Entropy quantifies energy dispersal and the number of accessible microstates.\n- S = k ln W (Boltzmann), k = 1.381 × 10⁻²³ J/K.\n- Entropy increases with temperature, phase loosening (s→l→g), dissolving, and more gas moles.\n- Entropy is a state function; only ΔS (final − initial) matters.\n- \"Disorder\" is a handy but imprecise shorthand for microstate counting.",
+    "workedExamples": "### Worked Example\n\n**Predict the sign of ΔS for each process.**\n\n1. **H₂O(s) → H₂O(l).** ΔS > 0. Liquid water has more translational/rotational freedom than the rigid solid lattice.\n2. **2 H₂(g) + O₂(g) → 2 H₂O(g).** ΔS < 0. Three moles of gas become two; fewer gas particles means fewer microstates.\n3. **NaCl(s) → Na⁺(aq) + Cl⁻(aq).** ΔS > 0. A highly ordered crystal disperses into freely moving ions in solution.\n4. **Cooling a gas from 400 K to 200 K.** ΔS < 0. Lower temperature means fewer populated energy levels, fewer microstates.\n\nThe key heuristic: count gas molecules and watch for phase changes and dissolving — anything that increases molecular freedom or particle number raises S.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 16.2 \"Entropy.\" https://openstax.org/books/chemistry-2e/pages/16-2-entropy",
+        "url": "https://openstax.org/books/chemistry-2e/pages/16-2-entropy"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 16.3 \"The Second and Third Laws of Thermodynamics.\" https://openstax.org/books/chemistry-2e/pages/16-3-the-second-and-third-laws-of-thermodynamics",
+        "url": "https://openstax.org/books/chemistry-2e/pages/16-3-the-second-and-third-laws-of-thermodynamics"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/16-chemical-thermodynamics/02-entropy.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

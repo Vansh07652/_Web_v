@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:reference:cytoskeleton-comparison",
+  "slug": "cytoskeleton-comparison",
+  "title": "Cytoskeleton Comparison (Actin, Microtubules, Intermediate Filaments)",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:reference",
+    "slug": "reference",
+    "title": "Reference",
+    "order": 12
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "The cytoskeleton is built from three filament systems that differ in subunit, size, polarity, dynamics, and function. **Actin microfilaments** (~7 nm) are polar polymers of G-actin that drive cell shape, migration, cytokinesis, and muscle contraction. **Microtubules** (~25 nm) are hollow polar tubes of α/β-tubulin that organize the cytoplasm, form the mitotic spindle, and serve as tracks for kinesin/dynein. **Intermediate filaments** (~10 nm) are non-polar, tissue-specific ropes (keratin, vimentin, lamin) that provide mechanical strength. Actin and microtubules are highly dynamic (treadmilling, dynamic instability) and have motor proteins and drugs; intermediate filaments are stable, non-polar, and lack motors and drugs — a recurring contrast.",
+    "whyItMatters": "The cytoskeleton underlies cell shape, division, and movement — and is a major drug target. Taxanes (paclitaxel) and vinca alkaloids (microtubule poisons) treat cancer; cytochalasins and latrunculins are research tools; mutations in keratins, lamins (progeria), and neurofilaments cause human disease. Understanding which filament does what is essential for interpreting cell biology and pharmacology.",
+    "learningObjectives": "- Compare the subunit, diameter, polarity, and assembly dynamics of the three cytoskeletal polymers.\n- Identify the motor proteins and drugs that act on actin filaments and microtubules.\n- State the primary functions of each filament system.\n- Explain dynamic instability and treadmilling and their role in cellular behavior.\n- Predict the cellular consequence of each cytoskeletal drug.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe cytoskeleton is built from three filament systems that differ in subunit, size, polarity, dynamics, and function. **Actin microfilaments** (~7 nm) are polar polymers of G-actin that drive cell shape, migration, cytokinesis, and muscle contraction. **Microtubules** (~25 nm) are hollow polar tubes of α/β-tubulin that organize the cytoplasm, form the mitotic spindle, and serve as tracks for kinesin/dynein. **Intermediate filaments** (~10 nm) are non-polar, tissue-specific ropes (keratin, vimentin, lamin) that provide mechanical strength. Actin and microtubules are highly dynamic (treadmilling, dynamic instability) and have motor proteins and drugs; intermediate filaments are stable, non-polar, and lack motors and drugs — a recurring contrast.\n\n### Key Components\n\n| Feature | Actin (microfilaments) | Microtubules | Intermediate filaments |\n|---|---|---|---|\n| **Subunit** | G-actin (ATPase) → F-actin | α/β-tubulin heterodimers (GTPase) | Tissue-specific proteins (keratin, vimentin, desmin, lamin, neurofilament) |\n| **Diameter** | ~7 nm | ~25 nm (13 protofilaments) | ~10 nm |\n| **Polarity** | **Polar** (+/− ends) | **Polar** (+/− ends) | **Non-polar** |\n| **Motors** | Myosin (moves toward + end, some −) | Kinesin (→ + end), dynein (→ − end) | **None** |\n| **Drugs** | Latrunculin/cytochalasin (depolymerize), phalloidin/jasplakinolide (stabilize) | Colchicine/nocodazole (depolymerize), taxol/paclitaxel (stabilize) | **None** |\n| **Nucleation** | Arp2/3 (branched), formins (linear) | γ-tubulin ring complex at centrosome | Self-assembly (no nucleator) |\n| **Functions** | Cell shape, migration, cytokinesis, muscle contraction, microvilli | Spindle, organelle positioning, vesicle tracks, cilia/flagella (9+2) | Mechanical strength, nuclear lamina, desmosome/hemidesmosome anchoring |\n\n### Mechanism\n\n1. **Nucleation.** Polymerization is seeded by nucleators — Arp2/3 and formins for actin, the γ-tubulin ring complex for microtubules; intermediate filaments self-assemble without a nucleator.\n2. **Polymerization and dynamics.** Actin and tubulin add subunits at the fast-growing (+) end, hydrolyzing ATP/GTP; this creates **treadmilling** (actin) and **dynamic instability** (microtubules, with catastrophe/rescue), allowing rapid reorganization.\n3. **Force and transport.** Myosin walks actin to generate contraction and motility; kinesin and dynein walk microtubules to move vesicles/organelles.\n4. **Structural support.** Intermediate filaments form stable, coiled-coil networks (and the nuclear lamina) that resist mechanical stress without motors or dynamics.\n\n### Energy and Directionality\n\nActin and microtubule dynamics are powered by **nucleotide hydrolysis**: actin hydrolyzes **ATP** and tubulin hydrolyzes **GTP** after subunit addition, and the resulting nucleotide gradient drives subunit dissociation at the (−) end (treadmilling) or catastrophic depolymerization (microtubules). Motor proteins are **ATPases** — myosin, kinesin, and dynein convert **ATP hydrolysis** into directional stepping, with kinesin walking to the (+) end and dynein to the (−) end. Intermediate filaments require **no nucleotide** for assembly and have no motor proteins, which is why they are stable and non-polar.\n\n### Experimental Evidence\n\n- **Drug pharmacology:** taxol stabilizes microtubules and blocks mitosis (anticancer); colchicine depolymerizes microtubules; cytochalasin blocks cytokinesis by disrupting actin — each drug's phenotype maps a filament's function.\n- **Fluorescence speckle/FRAP microscopy:** showed actin treadmilling and microtubule dynamic instability in live cells (growth/shrinkage at + ends, catastrophe and rescue).\n- **In vitro motility assays:** purified myosin/kinesin move along filaments on coverslips, proving they are ATP-driven motors with defined directionality.\n- **Motor-knockout/phenotype studies:** dynein loss disrupts organelle positioning (dynein → − end toward centrosome); kinesin loss blocks outward transport.\n- **Intermediate-filament genetics:** keratin mutations cause skin blistering (epidermolysis bullosa simplex), proving IFs provide mechanical integrity.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Actin **~7 nm** (polar, ATP, myosin); microtubules **~25 nm** (polar, GTP, kinesin/dynein); IF **~10 nm** (non-polar, no motors, no drugs).\n- Kinesin → **+ end**, dynein → **− end**; myosin walks **actin**.\n- **Dynamic instability** = microtubule catastrophe/rescue; **treadmilling** = actin.\n- Taxol **stabilizes** microtubules; colchicine **depolymerizes** them; phalloidin **stabilizes** actin; cytochalasin **depolymerizes** it.\n- Cilia/flagella = **9+2** microtubule axoneme.",
+    "commonConfusions": "- **\"All three filaments have motors\"** — Only actin (myosin) and microtubules (kinesin/dynein) have motors; intermediate filaments have none.\n- **\"All three are polar\"** — Intermediate filaments are **non-polar**.\n- **\"Microtubules and actin both treadmill\"** — Microtubules show **dynamic instability**; actin shows **treadmilling** (both are dynamic, but by different mechanisms).\n- **\"Taxol and colchicine act the same way\"** — Opposite: taxol **stabilizes**, colchicine **depolymerizes** microtubules (both still block mitosis by freezing dynamics).\n- **\"Dynein and kinesin move the same direction\"** — Kinesin → **+** end, dynein → **−** end.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of three building materials for a cell city. Actin filaments are thin, re-arrangeable tent poles that the \"muscle workers\" (myosin) can grab and pull to move the cell. Microtubules are thick train tracks laid from the center, with two kinds of engines — kinesin delivers outward, dynein hauls inward. Intermediate filaments are the steel cables and rivets that just hold everything together under stress — they don't move or carry cargo. (The analogy's limit: the first two are constantly being built and torn down, which is exactly what lets the cell change shape fast.)",
+    "quickReview": "- Actin (7 nm, polar, ATP, myosin, Arp2/3) — shape/migration/cytokinesis; drugs cytochalasin/phalloidin.\n- Microtubules (25 nm, polar, GTP, kinesin/dynein, γ-TuRC) — spindle/tracks/cilia; drugs taxol/colchicine.\n- IF (10 nm, non-polar, no motors/drugs) — mechanical strength (keratin, lamin).\n- All driven by nucleotide hydrolysis except IFs.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"The Cytoskeleton.\" https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+        "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"The Endomembrane System and Proteins.\" https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+        "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins"
+      },
+      {
+        "text": "NHGRI, \"Nucleus.\" https://www.genome.gov/genetics-glossary/Nucleus",
+        "url": "https://www.genome.gov/genetics-glossary/Nucleus"
+      },
+      {
+        "text": "MedlinePlus, \"What are proteins and what do they do?\" https://medlineplus.gov/genetics/understanding/howgeneswork/protein/",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/protein/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/reference/cytoskeleton-comparison.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

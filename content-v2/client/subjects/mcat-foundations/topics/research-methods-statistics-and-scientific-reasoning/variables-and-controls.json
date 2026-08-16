@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:variables-and-controls",
+  "slug": "variables-and-controls",
+  "title": "Variables and Controls",
+  "subject": {
+    "id": "subject:mcat-foundations",
+    "slug": "mcat-foundations",
+    "title": "MCAT Foundations"
+  },
+  "unit": {
+    "id": "unit:mcat-foundations:research-methods-statistics-and-scientific-reasoning",
+    "slug": "research-methods-statistics-and-scientific-reasoning",
+    "title": "Research Methods, Statistics, and Scientific Reasoning",
+    "order": 9
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "Every experiment asks a question: does changing X cause a change in Y? Variables and controls define the architecture of that question. The independent variable (IV) is what the researcher manipulates; the dependent variable (DV) is what is measured. Control groups provide the baseline absent the IV, and positive/negative controls confirm that the experimental system is working or establish the null response. Operational definitions translate abstract constructs into measurable procedures, ensuring replicability. Confounding variables threaten internal validity by offering alternative explanations. Randomization and blinding defend against these threats. On the MCAT, passages rarely name these concepts explicitly; instead, they describe an experimental design and ask you to identify flaws, predict outcomes, or evaluate whether conclusions are justified. Mastering variables and controls means you can read any Methods section and reconstruct the logical skeleton of the experiment.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- Independent variables\n- Dependent variables\n- Control groups\n- Positive and negative controls\n- Confounding variables\n- Operational definitions",
+    "collegeNotes": "## Operational Definitions\n\nAn operational definition specifies exactly how a variable is measured or manipulated in a study. It turns abstract constructs into concrete, replicable procedures. For example, 'aggression' could be operationally defined as the number of times a child hits a Bobo doll in a 10-minute observation period. 'Intelligence' might be operationally defined as a score on the WAIS-IV. Without operational definitions, studies cannot be replicated because no two researchers would measure the same thing the same way. The MCAT often tests this by asking you to evaluate whether a study's operational definition actually captures the intended construct (construct validity) or whether an alternative operationalization would yield different results. Key pitfall: an operational definition may be reliable (consistent) without being valid (measuring what it claims to).\n\n## Independent and Dependent Variables\n\nThe independent variable (IV) is the factor the experimenter systematically manipulates. It is the presumed cause. The dependent variable (DV) is the outcome measured; it depends on the IV. A well-designed experiment has exactly one IV being tested at a time (though it may have multiple levels or additional controlled variables). For example, in a drug trial, the IV is the drug dose (0 mg, 10 mg, 20 mg), and the DV is blood pressure reduction. The IV must precede the DV temporally for causation to be plausible. On the MCAT, passages may present complex designs with multiple IVs (factorial designs) or ask you to identify what variable was actually manipulated versus merely measured. A measured variable that was not manipulated is not an IV; it is a predictor in a correlational design.\n\n## Confounding Variables\n\nA confounding variable is an extraneous factor that systematically varies with the IV and could plausibly explain changes in the DV. Confounds threaten internal validity because they offer alternative explanations. For example, if a study tests whether a new teaching method improves test scores and the experimental group meets in the morning while the control group meets in the afternoon, time of day is a confound -- any difference in scores could be due to alertness rather than the teaching method. Common confounds include: participant characteristics (age, baseline health), environmental variables (time of day, season), experimenter effects, and selection bias. Random assignment is the strongest defense against confounds because it distributes them equally across conditions. The MCAT frequently asks you to identify whether a study's results could be explained by a confound or whether the design adequately controlled for one.\n\n## Positive and Negative Controls\n\nControls are conditions that establish baselines for comparison. A negative control is a condition where no effect is expected; it confirms that the experimental system is not producing false positives. For example, in an enzyme assay, the negative control lacks the enzyme and should show zero product formation. A positive control is a condition where an effect is known to occur; it confirms the system is capable of detecting an effect. In the same enzyme assay, the positive control uses a known active enzyme to verify the assay works. If the positive control fails, the experimental results are uninterpretable regardless of what the treatment group shows. Controls are not the same as control groups: a control group is a comparison group in an experiment (often receiving placebo or no treatment), while positive and negative controls are validation checks on the assay or experimental system itself.\n\n## Placebo and Blinding\n\nThe placebo effect occurs when a participant's belief in a treatment produces a real physiological or psychological response, even when the treatment is inert. To isolate the treatment's true effect, researchers compare the treatment group to a placebo control group. Blinding prevents expectation biases. In single-blind designs, participants do not know which condition they are in. In double-blind designs, neither participants nor experimenters interacting with them know group assignments. Double-blinding is the gold standard because it controls for both participant expectancy and experimenter bias (where the researcher unconsciously influences results). The MCAT commonly tests whether a study's blinding was adequate and whether lack of blinding could explain observed differences between groups.\n\n## Randomization\n\nRandomization -- the process of assigning participants to experimental conditions by chance -- is the cornerstone of experimental design. It differs from random sampling (how participants are selected from a population). Random assignment ensures that, on average, all pre-existing differences between participants are distributed equally across conditions, making groups comparable at baseline. This is what allows causal inferences: if the only systematic difference between groups is the IV, then any difference in the DV can be attributed to the IV. Stratified random assignment is used when researchers want to ensure balance on a key variable (e.g., sex) by randomizing within strata first. The MCAT often asks whether random assignment was used and, if not, whether the study supports causal claims.\n\n## Internal Validity\n\nInternal validity is the degree to which a study establishes that the IV (and only the IV) caused the observed change in the DV. A study has high internal validity when confounds are controlled, random assignment is used, blinding is adequate, and measurement is reliable. Threats to internal validity include: history (events outside the study), maturation (natural changes in participants), testing effects (practice effects from repeated measures), instrumentation (changes in measurement tools), regression to the mean, selection bias, and attrition. Internal validity is the prerequisite for causal claims. External validity (generalizability to other populations/settings) often trades off against internal validity -- tightly controlled lab experiments have high internal but lower external validity, while field studies have the reverse pattern. The MCAT tests this trade-off by asking you to identify which validity is threatened by specific design choices.\n\n## How it works\n\nWhen you encounter an experimental passage on the MCAT, reconstruct the design skeleton: (1) Identify the IV -- what did the researchers manipulate? (2) Identify the DV -- what did they measure? (3) Check for a control group -- is there a baseline for comparison? (4) Scan for confounds -- is there any factor systematically differing between groups besides the IV? (5) Evaluate controls -- were positive/negative controls used and did they behave as expected? (6) Assess blinding -- who knew group assignments? (7) Judge internal validity -- does the design support a causal conclusion? This seven-question framework catches the majority of MCAT experimental reasoning questions.",
+    "howItWorks": "When you encounter an experimental passage on the MCAT, reconstruct the design skeleton: (1) Identify the IV -- what did the researchers manipulate? (2) Identify the DV -- what did they measure? (3) Check for a control group -- is there a baseline for comparison? (4) Scan for confounds -- is there any factor systematically differing between groups besides the IV? (5) Evaluate controls -- were positive/negative controls used and did they behave as expected? (6) Assess blinding -- who knew group assignments? (7) Judge internal validity -- does the design support a causal conclusion? This seven-question framework catches the majority of MCAT experimental reasoning questions.",
+    "comparisons": "- B/B (Experimental passages): Enzyme kinetics experiments routinely use positive controls (known substrate turnover) and negative controls (no-enzyme blanks); expect questions about whether results are interpretable when a control fails.\n- C/P (Lab techniques): Spectrophotometry and chromatography experiments use positive controls (known standards) and negative controls (blank samples) to validate instruments.\n- P/S (Research methods): The entire P/S section tests your ability to identify IVs, DVs, confounds, and evaluate internal vs. external validity in psychology and sociology studies.\n- RM-001 (Scientific Method): Variables and controls operationalize the hypothesis-testing framework. The hypothesis specifies the predicted IV-DV relationship.\n- RM-005 (Bias and Confounding): Direct extension -- confounding variables are the most common source of bias, and controlling for them is this topic's core purpose.\n- RM-006 (Reliability and Validity): Internal validity is the endpoint; reliability (consistent measurement) is a prerequisite that feeds into validity.",
+    "highYield": "",
+    "commonConfusions": "- Mistaking a measured variable for an IV: If the researcher did not manipulate it, it is not an independent variable. Observational studies have predictors, not IVs.\n- Confusing control groups with controls: A control group is a comparison condition in an experiment. Positive/negative controls are validation checks on the assay or measurement system.\n- Assuming random sampling implies random assignment: Random sampling improves external validity (generalizability). Random assignment improves internal validity (causal inference). They serve different purposes.\n- Overlooking confounds in matched designs: Matching on one variable can introduce confounding on another. If a study matches cases and controls on age, variables correlated with age may now differ systematically.\n- Believing blinding alone establishes causality: Blinding prevents bias but does not create comparable groups. Without random assignment, even a double-blind study may have selection confounds.\n- Confusing internal and external validity: A tightly controlled lab study may have high internal validity but low ecological validity. The MCAT tests whether you can distinguish 'does X cause Y' from 'does this finding apply to the real world.'",
+    "memoryAids": "",
+    "eli10": "Imagine you want to know whether watering a plant with coffee makes it grow taller. You have two identical plants on the same windowsill. You water one with coffee (the independent variable -- what you change) and the other with plain water (your control group -- the baseline). After two weeks, you measure the height of each plant (the dependent variable -- what you measure). To be sure any difference is really from the coffee, you make everything else the same: same pot size, same sunlight, same starting height. Those are controlled variables. If the coffee plant grows more, can you conclude coffee caused it? Only if you also rule out confounds -- maybe the coffee plant happened to be in a sunnier spot. That is why scientists use randomization (flipping a coin to decide which plant gets coffee) and blinding (having someone measure the plants without knowing which was which). Limitation: plants are not people, and a windowsill is not a laboratory. Real experiments have dozens of unseen confounds that randomization and blinding help manage, but even the best-designed study can miss a hidden variable that matters.",
+    "quickReview": "- Independent variable (IV) = manipulated by researcher; Dependent variable (DV) = measured outcome\n- Confounding variable = correlates with both IV and DV, threatens internal validity\n- Operational definition = precise, replicable procedure for measuring a construct\n- Control group = no-treatment baseline; positive control = known-effect validation; negative control = no-effect baseline\n- Random assignment (not random sampling) enables causal inference by equalizing confounds across groups\n- Single-blind = subjects unaware of condition; double-blind = subjects AND experimenters unaware\n- Placebo effect = belief-driven improvement; placebo control group isolates true treatment effect\n- Internal validity = justified causal conclusion; External validity = generalizable to other populations/settings\n- Random sampling → external validity; random assignment → internal validity — don't confuse them\n- Without operational definitions, replication is impossible because no two labs measure 'the same thing'",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Psychology 2e - Chapter 2: Psychological Research — OpenStax",
+        "url": "https://openstax.org/books/psychology-2e/pages/2-introduction"
+      },
+      {
+        "text": "MCAT Content Outline: Scientific Reasoning — AAMC",
+        "url": "https://www.aamc.org/media/24301/download"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "variables-and-controls",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "MCAT_STUDY_LIBRARY/pages/research_methods_statistics/02-variables-and-controls.md"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "MCAT_STUDY_LIBRARY/pages/research_methods_statistics/02-variables-and-controls.md"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "mcat-one-page-topic-library",
+    "sourceFile": "MCAT_STUDY_LIBRARY/pages/research_methods_statistics/02-variables-and-controls.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-mcat-library"
+  },
+  "sourceSnapshotMarkdown": ""
+}

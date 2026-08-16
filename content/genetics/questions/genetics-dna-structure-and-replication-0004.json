@@ -1,0 +1,40 @@
+{
+  "id": "genetics-dna-structure-and-replication-0004",
+  "subject": "genetics",
+  "lesson": "dna-structure-and-replication",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application Meselson and Stahl grew E. coli for many generations in heavy nitrogen (15N) so all the DNA was heavy, then shifted the cells to light nitrogen (14N) and let them replicate once. The DNA formed a single band at an intermediate density in a cesium chloride gradient. Which mode of replication is ruled out by this single intermediate band?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Semiconservative replication, because it would produce two bands after one generation."
+    },
+    {
+      "id": "b",
+      "text": "Conservative replication, because it would produce one heavy band only."
+    },
+    {
+      "id": "c",
+      "text": "Conservative replication, because it would produce two bands, one heavy and one light."
+    },
+    {
+      "id": "d",
+      "text": "Dispersive replication, because it would produce a single light band after one generation."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Under conservative replication the original heavy duplex would remain intact and a brand new light duplex would form, giving two distinct bands after one generation, so the observed single intermediate band excludes it. Semiconservative replication predicts exactly one band of intermediate density, because each daughter duplex keeps one heavy strand and one new light strand. Dispersive replication also predicts a single band after one generation, so it is not excluded by this observation.",
+  "difficulty": "unknown",
+  "tags": [
+    "meselson",
+    "stahl",
+    "first",
+    "generation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-5fcc89f16ce99a1e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

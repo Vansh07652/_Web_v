@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-regulation-eukaryotes-and-epigenetics-0006",
+  "subject": "genetics",
+  "lesson": "gene-regulation-eukaryotes-and-epigenetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application In a mouse, *IGF2* at 11p15.5 encodes insulin like growth factor 2, and the gene is expressed only from the paternal allele; the maternal *IGF2* allele is silent even though its sequence is intact. *H19* encodes an imprinted long noncoding RNA that is expressed only from the maternal allele. What is the best explanation for this expression pattern?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The maternal *IGF2* allele carries a mutation that destroys the protein product."
+    },
+    {
+      "id": "b",
+      "text": "The paternal *IGF2* allele is transcribed more efficiently because it lies on the active X chromosome."
+    },
+    {
+      "id": "c",
+      "text": "X inactivation randomly silences the maternal *IGF2* allele in somatic cells."
+    },
+    {
+      "id": "d",
+      "text": "*IGF2* and *H19* are imprinted genes, so expression depends on the parent of origin, with *IGF2* expressed from the paternal allele."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "**Genomic imprinting** is parent of origin dependent expression: *IGF2* is expressed from the paternal allele and *H19* from the maternal allele at 11p15.5, so the maternal *IGF2* copy is silenced by imprinting rather than by mutation. A fails because the sequence is intact, which points to regulation, not mutation. B and C fail because *IGF2* is autosomal on chromosome 11, so X chromosome status and X inactivation do not apply.",
+  "difficulty": "unknown",
+  "tags": [
+    "imprinting",
+    "parent",
+    "origin"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-8ab599ccbbccc2db",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

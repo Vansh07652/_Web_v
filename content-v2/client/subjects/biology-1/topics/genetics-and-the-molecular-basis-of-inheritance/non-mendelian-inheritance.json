@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:non-mendelian-inheritance",
+  "slug": "non-mendelian-inheritance",
+  "title": "Non-Mendelian Inheritance",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:genetics-and-the-molecular-basis-of-inheritance",
+    "slug": "genetics-and-the-molecular-basis-of-inheritance",
+    "title": "Genetics And The Molecular Basis Of Inheritance",
+    "order": 6
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "Not every trait follows Mendel's simple dominant/recessive pattern. In **non-Mendelian inheritance**, alleles interact in more nuanced ways: some blend or both show at once, some genes affect many traits, some traits are controlled by many genes, and the environment can shift the outcome. These patterns extend rather than contradict Mendel — his laws of segregation and assortment still operate underneath.",
+    "whyItMatters": "Real traits — including most human diseases, height, skin color, and drug responses — are non-Mendelian. Understanding codominance and multiple alleles explains blood typing and safe transfusions; understanding epistasis and polygenic inheritance explains why most traits don't fall into simple 3:1 boxes and why \"one gene, one trait\" is usually an oversimplification. It also grounds personalized medicine, since environment and many genes jointly shape disease risk.",
+    "learningObjectives": "- Explain incomplete dominance and codominance and how they differ from complete dominance.\n- Describe multiple alleles and give the ABO blood group as the classic example.\n- Define pleiotropy, epistasis, and polygenic inheritance.\n- Explain how the environment can modify phenotype.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nNot every trait follows Mendel's simple dominant/recessive pattern. In **non-Mendelian inheritance**, alleles interact in more nuanced ways: some blend or both show at once, some genes affect many traits, some traits are controlled by many genes, and the environment can shift the outcome. These patterns extend rather than contradict Mendel — his laws of segregation and assortment still operate underneath.\n\n### Key Concepts\n\n### Incomplete dominance\n\nIn **incomplete dominance**, the heterozygote has an **intermediate** phenotype between the two homozygotes. A classic example is snapdragon flower color: red (CᴿCᴿ) × white (CᵂCᵂ) gives pink (CᴿCᵂ). Neither allele is fully dominant; each contributes a partial \"dose.\" Note the genotypic and phenotypic ratios coincide (1:2:1) — a clue that dominance is incomplete.\n\n### Codominance\n\nIn **codominance**, the heterozygote expresses **both** alleles fully and simultaneously — neither masks the other. The human **ABO blood group** is the model: the Iᴬ and Iᴮ alleles are codominant, so an IᴬIᴮ person has type AB blood, expressing both A and B antigens. (A and B are each dominant over the i allele, which produces neither antigen, giving type O.)\n\n### Multiple alleles\n\nA gene can have more than two alleles in a population, even though any single individual carries only two. The ABO gene has three common alleles — **Iᴬ, Iᴮ, and i** — producing four phenotypes (A, B, AB, O). Multiple alleles increase the number of possible genotypes and phenotypes without violating segregation.\n\n### Pleiotropy\n\n**Pleiotropy** occurs when one gene influences multiple, seemingly unrelated traits. Many genetic disorders are pleiotropic: a single mutated gene can affect several systems. For example, mutations in the gene for fibrillin (Marfan syndrome) affect the skeleton, eyes, and heart; sickle-cell mutations affect red cells, and secondarily many organs.\n\n### Epistasis\n\n**Epistasis** is when the alleles of **one gene mask or modify the expression of another gene**. A well-known example is coat color in Labrador retrievers: one gene (B) determines black vs. brown pigment, but a separate gene (E) must be functional for *any* pigment to be deposited — an ee dog is yellow regardless of its B genotype. Epistasis changes Mendelian ratios (e.g., a dihybrid cross giving 9:3:4 instead of 9:3:3:1).\n\n### Polygenic inheritance\n\n**Polygenic** traits are controlled by many genes, each contributing a small additive effect. The result is continuous variation — a bell-shaped distribution of phenotypes. Human height, skin color, and weight are polygenic. More contributing genes mean smoother, more continuous variation and many intermediate phenotypes.\n\n### Environment and phenotype\n\nPhenotype = genotype + environment. The same genotype can produce different phenotypes in different environments: a plant's height depends on water, light, and soil; human height depends partly on nutrition; and conditions like phenylketonuria (PKU) — severe with a normal diet, largely harmless with a special low-phenylalanine diet — show that environmental intervention can reshape an otherwise \"genetic\" outcome. **Norm of reaction** describes the range of phenotypes a genotype can produce across environments.\n\n### How It Works\n\nThe underlying mechanism is still segregation and assortment at the DNA level; what differs is how the gene products interact to build a phenotype. Incomplete dominance and codominance reflect how much product each allele makes (a half-dose vs. two full doses). Epistasis reflects genes acting in the same biochemical pathway (if an early step fails, later genes don't matter). Polygenic traits reflect many genes summing together with environmental noise. In every case, the alleles segregate normally in meiosis — only the mapping from genotype to phenotype changes.",
+    "howItWorks": "The underlying mechanism is still segregation and assortment at the DNA level; what differs is how the gene products interact to build a phenotype. Incomplete dominance and codominance reflect how much product each allele makes (a half-dose vs. two full doses). Epistasis reflects genes acting in the same biochemical pathway (if an early step fails, later genes don't matter). Polygenic traits reflect many genes summing together with environmental noise. In every case, the alleles segregate normally in meiosis — only the mapping from genotype to phenotype changes.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Incomplete dominance: heterozygote is intermediate (red × white → pink); 1:2:1 phenotype ratio.\n- Codominance: both alleles fully expressed (AB blood type).\n- Multiple alleles: ABO has Iᴬ, Iᴮ, i → four phenotypes.\n- Pleiotropy: one gene, many traits (Marfan syndrome).\n- Epistasis: one gene masks another (Labrador coat color; 9:3:4 ratio).\n- Polygenic: many genes, continuous/bell-shaped variation (height, skin color).\n- Phenotype = genotype + environment (PKU, plant height).\n- These patterns extend Mendel's laws, not break them.",
+    "commonConfusions": "- **\"Incomplete dominance and codominance are the same.\"** Wrong — incomplete dominance blends (pink, intermediate); codominance shows both fully at once (AB).\n- **\"Dominant alleles are always more common.\"** Wrong — the i (type O) allele is recessive yet the most common ABO allele in many populations.\n- **\"Polygenic means 'many traits from one gene.'\"** Wrong — that is pleiotropy (one gene → many traits). Polygenic is many genes → one trait.\n- **\"Epistasis is just dominance within one gene.\"** Wrong — dominance is between alleles of the same gene; epistasis is between alleles of *different* genes.\n- **\"Environment only affects plants.\"** Wrong — environment shapes human phenotypes too (nutrition and height, diet and PKU).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of paint. Complete dominance is one strong color that completely covers another. Incomplete dominance is mixing red and white paint to get pink. Codominance is like a marble cake — you can see both colors swirled together at once (both A and B show). Epistasis is like a top boss who can veto the work of a lower boss: if the \"deposit pigment\" gene says no, it doesn't matter what the color gene says — the dog is yellow. Polygenic traits are like a class's heights: lots of small contributions add up to a smooth range of short to tall, not just two categories. The analogy's limit: real gene products are proteins in specific pathways, not paint or bosses, and the \"mix\" is chemistry, not choices.",
+    "quickReview": "- Incomplete dominance → intermediate heterozygote (1:2:1 ratio).\n- Codominance → both alleles shown (AB blood).\n- Multiple alleles → ABO system (Iᴬ, Iᴮ, i).\n- Pleiotropy → one gene affects many traits.\n- Epistasis → one gene masks another (9:3:4).\n- Polygenic → many genes, continuous variation.\n- Environment modifies phenotype; norm of reaction = range of outcomes.\n- All still follow segregation/assortment at the DNA level.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 12.2, \"Characteristics and Traits.\" https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits",
+        "url": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 12.3, \"Laws of Inheritance.\" https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance",
+        "url": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+      },
+      {
+        "text": "MedlinePlus Genetics, \"Inheritance Patterns.\" https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/",
+        "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/06-genetics-and-the-molecular-basis-of-inheritance/03-non-mendelian-inheritance.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

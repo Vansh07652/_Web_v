@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-chemical-reactions-and-equations-q12",
+  "subject": "chemistry-1",
+  "lesson": "chemical-reactions-and-equations",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Ammonia is produced by N2 + 3 H2 -> 2 NH3. A sealed hypothetical reactor is charged with 2 mol N2 and 3 mol H2. Using 17 g/mol as the molar mass of NH3, what is the theoretical yield of ammonia?",
+  "options": [
+    {
+      "id": "a",
+      "text": "51 g, because each mole of H2 charged yields one mole of NH3"
+    },
+    {
+      "id": "b",
+      "text": "68 g, because N2 is limiting and yields 4 mol of NH3"
+    },
+    {
+      "id": "c",
+      "text": "34 g, because H2 is limiting and yields 2 mol of NH3"
+    },
+    {
+      "id": "d",
+      "text": "85 g, because all 5 mol of reactant charged is converted to product"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Divide each amount by its coefficient: N2 gives 2 / 1 = 2 reaction units while H2 gives 3 / 3 = 1, so hydrogen is the limiting reactant and 1 mol of N2 remains in excess. Applying the 3:2 ratio, 3 mol of H2 produces 2 mol of NH3, and 2 mol x 17 g/mol = 34 g. Comparing raw mole counts would point to N2 as limiting because only 2 mol were charged, which is exactly the error behind choice B; only the moles-divided-by-coefficient comparison correctly identifies H2 as the limiting reactant.\n\nELI-10: Each complete reaction consumes 1 N2 and 3 H2. With 3 mol of H2 you can run exactly one such reaction, and with 2 mol of N2 you could run two, so hydrogen runs out first and 1 mol of nitrogen is left over. That single reaction produces 2 mol of NH3, and at 17 g per mole that is 34 g. Notice that nitrogen is the one you have less of by simple count, yet hydrogen is what runs out, so always divide each amount by its coefficient before deciding which reactant limits the yield.",
+  "difficulty": "hard",
+  "tags": [
+    "limiting reactant",
+    "theoretical yield",
+    "mole to mass conversion"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-276",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

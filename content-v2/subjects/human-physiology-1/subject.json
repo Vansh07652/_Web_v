@@ -1,0 +1,779 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:human-physiology-1",
+    "slug": "human-physiology-1",
+    "title": "Human Physiology I",
+    "aliases": [
+      {
+        "value": "human-physiology-1",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "human-physiology-i-study-notes",
+        "kind": "source_directory",
+        "source_id": "need-review-human-physiology-i"
+      }
+    ],
+    "status": "final",
+    "category": "pre-health-core"
+  },
+  "units": [
+    {
+      "id": "unit:human-physiology-1:core-concept",
+      "slug": "core-concept",
+      "title": "Core Concept",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "core-concept",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:human-physiology-1:core-concept:introduction-to-physiology-and-body-organization",
+          "slug": "introduction-to-physiology-and-body-organization",
+          "title": "Introduction to Physiology and Body Organization",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/core-concept/introduction-to-physiology-and-body-organization.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:core-concept:homeostasis-feedback-feedforward-control-and-biorhythms",
+          "slug": "homeostasis-feedback-feedforward-control-and-biorhythms",
+          "title": "Homeostasis, Feedback, Feedforward Control, and Biorhythms",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/core-concept/homeostasis-feedback-feedforward-control-and-biorhythms.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:human-physiology-1:cellular-physiology",
+      "slug": "cellular-physiology",
+      "title": "Cellular Physiology",
+      "order": 2,
+      "aliases": [
+        {
+          "value": "cellular-physiology",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:human-physiology-1:cellular-physiology:cell-membranes-and-membrane-proteins",
+          "slug": "cell-membranes-and-membrane-proteins",
+          "title": "Cell Membranes and Membrane Proteins",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/cellular-physiology/cell-membranes-and-membrane-proteins.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:cellular-physiology:passive-transport-and-osmosis",
+          "slug": "passive-transport-and-osmosis",
+          "title": "Passive Transport and Osmosis",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/cellular-physiology/passive-transport-and-osmosis.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:cellular-physiology:primary-and-secondary-active-transport",
+          "slug": "primary-and-secondary-active-transport",
+          "title": "Primary and Secondary Active Transport",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/cellular-physiology/primary-and-secondary-active-transport.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:cellular-physiology:vesicular-transport",
+          "slug": "vesicular-transport",
+          "title": "Vesicular Transport",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/cellular-physiology/vesicular-transport.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:cellular-physiology:resting-membrane-potential",
+          "slug": "resting-membrane-potential",
+          "title": "Resting Membrane Potential",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/cellular-physiology/resting-membrane-potential.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:human-physiology-1:neurophysiology",
+      "slug": "neurophysiology",
+      "title": "Neurophysiology",
+      "order": 3,
+      "aliases": [
+        {
+          "value": "neurophysiology",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:human-physiology-1:neurophysiology:graded-potentials-threshold-and-action-potential-initiation",
+          "slug": "graded-potentials-threshold-and-action-potential-initiation",
+          "title": "Graded Potentials, Threshold, and Action Potential Initiation",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/neurophysiology/graded-potentials-threshold-and-action-potential-initiation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:neurophysiology:action-potential-phases-and-refractory-periods",
+          "slug": "action-potential-phases-and-refractory-periods",
+          "title": "Action Potential Phases and Refractory Periods",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/neurophysiology/action-potential-phases-and-refractory-periods.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:neurophysiology:action-potential-propagation-and-myelination",
+          "slug": "action-potential-propagation-and-myelination",
+          "title": "Action Potential Propagation and Myelination",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/neurophysiology/action-potential-propagation-and-myelination.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:neurophysiology:spinal-reflexes",
+          "slug": "spinal-reflexes",
+          "title": "Spinal Reflexes",
+          "order": 23,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/neurophysiology/spinal-reflexes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:human-physiology-1:synaptic-physiology",
+      "slug": "synaptic-physiology",
+      "title": "Synaptic Physiology",
+      "order": 4,
+      "aliases": [
+        {
+          "value": "synaptic-physiology",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:human-physiology-1:synaptic-physiology:electrical-and-chemical-synapses",
+          "slug": "electrical-and-chemical-synapses",
+          "title": "Electrical and Chemical Synapses",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/synaptic-physiology/electrical-and-chemical-synapses.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:synaptic-physiology:presynaptic-mechanisms-and-neurotransmitter-release",
+          "slug": "presynaptic-mechanisms-and-neurotransmitter-release",
+          "title": "Presynaptic Mechanisms and Neurotransmitter Release",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/synaptic-physiology/presynaptic-mechanisms-and-neurotransmitter-release.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:synaptic-physiology:postsynaptic-mechanisms-and-synaptic-integration",
+          "slug": "postsynaptic-mechanisms-and-synaptic-integration",
+          "title": "Postsynaptic Mechanisms and Synaptic Integration",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/synaptic-physiology/postsynaptic-mechanisms-and-synaptic-integration.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:synaptic-physiology:major-neurotransmitter-systems",
+          "slug": "major-neurotransmitter-systems",
+          "title": "Major Neurotransmitter Systems",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/synaptic-physiology/major-neurotransmitter-systems.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:human-physiology-1:muscle-physiology",
+      "slug": "muscle-physiology",
+      "title": "Muscle Physiology",
+      "order": 5,
+      "aliases": [
+        {
+          "value": "muscle-physiology",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:human-physiology-1:muscle-physiology:skeletal-muscle-anatomy-and-ultrastructure",
+          "slug": "skeletal-muscle-anatomy-and-ultrastructure",
+          "title": "Skeletal Muscle Anatomy and Ultrastructure",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/muscle-physiology/skeletal-muscle-anatomy-and-ultrastructure.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:muscle-physiology:excitation-contraction-coupling",
+          "slug": "excitation-contraction-coupling",
+          "title": "Excitation-Contraction Coupling",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/muscle-physiology/excitation-contraction-coupling.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:muscle-physiology:sliding-filament-theory-and-the-cross-bridge-cycle",
+          "slug": "sliding-filament-theory-and-the-cross-bridge-cycle",
+          "title": "Sliding Filament Theory and the Cross-Bridge Cycle",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/muscle-physiology/sliding-filament-theory-and-the-cross-bridge-cycle.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:muscle-physiology:muscle-mechanics-and-energetics",
+          "slug": "muscle-mechanics-and-energetics",
+          "title": "Muscle Mechanics and Energetics",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/muscle-physiology/muscle-mechanics-and-energetics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:muscle-physiology:smooth-and-cardiac-muscle-physiology",
+          "slug": "smooth-and-cardiac-muscle-physiology",
+          "title": "Smooth and Cardiac Muscle Physiology",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/muscle-physiology/smooth-and-cardiac-muscle-physiology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:human-physiology-1:central-nervous-system",
+      "slug": "central-nervous-system",
+      "title": "Central Nervous System",
+      "order": 6,
+      "aliases": [
+        {
+          "value": "central-nervous-system",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:human-physiology-1:central-nervous-system:central-nervous-system-organization",
+          "slug": "central-nervous-system-organization",
+          "title": "Central Nervous System Organization",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/central-nervous-system/central-nervous-system-organization.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:central-nervous-system:motor-control-systems",
+          "slug": "motor-control-systems",
+          "title": "Motor Control Systems",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/central-nervous-system/motor-control-systems.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:central-nervous-system:higher-cortical-functions-sleep-and-memory",
+          "slug": "higher-cortical-functions-sleep-and-memory",
+          "title": "Higher Cortical Functions, Sleep, and Memory",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/central-nervous-system/higher-cortical-functions-sleep-and-memory.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:human-physiology-1:autonomic-physiology",
+      "slug": "autonomic-physiology",
+      "title": "Autonomic Physiology",
+      "order": 7,
+      "aliases": [
+        {
+          "value": "autonomic-physiology",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:human-physiology-1:autonomic-physiology:general-organization-of-the-autonomic-nervous-system",
+          "slug": "general-organization-of-the-autonomic-nervous-system",
+          "title": "General Organization of the Autonomic Nervous System",
+          "order": 24,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/autonomic-physiology/general-organization-of-the-autonomic-nervous-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:autonomic-physiology:sympathetic-physiology",
+          "slug": "sympathetic-physiology",
+          "title": "Sympathetic Physiology",
+          "order": 25,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/autonomic-physiology/sympathetic-physiology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:autonomic-physiology:parasympathetic-physiology",
+          "slug": "parasympathetic-physiology",
+          "title": "Parasympathetic Physiology",
+          "order": 26,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/autonomic-physiology/parasympathetic-physiology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:human-physiology-1:sensory-physiology",
+      "slug": "sensory-physiology",
+      "title": "Sensory Physiology",
+      "order": 8,
+      "aliases": [
+        {
+          "value": "sensory-physiology",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:human-physiology-1:sensory-physiology:general-principles-of-sensory-reception",
+          "slug": "general-principles-of-sensory-reception",
+          "title": "General Principles of Sensory Reception",
+          "order": 27,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/sensory-physiology/general-principles-of-sensory-reception.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:sensory-physiology:somatosensory-physiology",
+          "slug": "somatosensory-physiology",
+          "title": "Somatosensory Physiology",
+          "order": 28,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/sensory-physiology/somatosensory-physiology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:sensory-physiology:vision",
+          "slug": "vision",
+          "title": "Vision",
+          "order": 29,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/sensory-physiology/vision.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:sensory-physiology:hearing-and-equilibrium",
+          "slug": "hearing-and-equilibrium",
+          "title": "Hearing and Equilibrium",
+          "order": 30,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/sensory-physiology/hearing-and-equilibrium.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:sensory-physiology:olfaction-and-gustation",
+          "slug": "olfaction-and-gustation",
+          "title": "Olfaction and Gustation",
+          "order": 31,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/sensory-physiology/olfaction-and-gustation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:human-physiology-1:endocrine-physiology",
+      "slug": "endocrine-physiology",
+      "title": "Endocrine Physiology",
+      "order": 9,
+      "aliases": [
+        {
+          "value": "endocrine-physiology",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:human-physiology-1:endocrine-physiology:principles-of-endocrinology",
+          "slug": "principles-of-endocrinology",
+          "title": "Principles of Endocrinology",
+          "order": 32,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/endocrine-physiology/principles-of-endocrinology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:endocrine-physiology:hypothalamic-pituitary-axis",
+          "slug": "hypothalamic-pituitary-axis",
+          "title": "Hypothalamic-Pituitary Axis",
+          "order": 33,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/endocrine-physiology/hypothalamic-pituitary-axis.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-1:endocrine-physiology:major-endocrine-axes-and-calcium-homeostasis",
+          "slug": "major-endocrine-axes-and-calcium-homeostasis",
+          "title": "Major Endocrine Axes and Calcium Homeostasis",
+          "order": 34,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-1/topics/endocrine-physiology/major-endocrine-axes-and-calcium-homeostasis.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 9,
+    "topicCount": 34,
+    "teachingTopicCount": 34,
+    "eli10TopicCount": 34,
+    "highYieldTopicCount": 34,
+    "referencedTopicCount": 0,
+    "exactOrMappedQuestionCount": 0,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 0,
+    "citationReviewRequiredCount": 0
+  },
+  "provenance": {
+    "sourceCollection": "need-review-human-physiology-i",
+    "sourceRoot": "human-physiology-i-study-notes",
+    "importBatch": "2026-08-15-need-review-notes",
+    "importedWithoutRewriting": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-acids-bases-and-ph-q10",
+  "subject": "chemistry-2",
+  "lesson": "acids-bases-and-ph",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which change would most likely raise the pH of a bicarbonate-buffered solution that is in contact with a gas phase?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Bubbling additional carbon dioxide gas through the solution"
+    },
+    {
+      "id": "b",
+      "text": "Adding a measured volume of hydrochloric acid solution"
+    },
+    {
+      "id": "c",
+      "text": "Sweeping dissolved carbon dioxide out of the solution"
+    },
+    {
+      "id": "d",
+      "text": "Adding a neutral salt that does not react with water"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Dissolved CO2 combines with water to form carbonic acid, the acid member of the bicarbonate buffer pair. Removing CO2 shifts the equilibrium CO2 + H2O ⇌ H2CO3 ⇌ H+ + HCO3- to the left, lowering H+ and raising the bicarbonate-to-acid ratio, so pH increases. Adding CO2 or a strong acid lowers pH, and an unreactive salt leaves the buffer ratio essentially unchanged.\n\nELI-10: Dissolved carbon dioxide functions as a hidden acid: combine it with water and carbonic acid forms, which then releases H+. Because that whole sequence is an equilibrium, taking CO2 away pulls the reaction backward and consumes H+, so the pH climbs. This is exactly the chemistry behind hyperventilation raising blood pH and hypoventilation lowering it, since ventilation controls how much CO2 stays dissolved.",
+  "difficulty": "medium",
+  "tags": [
+    "carbonic acid equilibrium",
+    "CO2 and pH",
+    "Le Chatelier applied to buffers"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-279",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

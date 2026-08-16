@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-ions-and-electrolytes-q06",
+  "subject": "chemistry-1",
+  "lesson": "ions-and-electrolytes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A lab measures a 0.05 M KCl solution, then a 0.1 M KCl solution, using the same electrodes and temperature. Which change is expected, and by what factor does the mobile-ion concentration change?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Conductivity falls, because the extra dissolved ions interfere with one another and stop migrating"
+    },
+    {
+      "id": "b",
+      "text": "Conductivity rises by a factor of 4, because K+ and Cl- each double independently"
+    },
+    {
+      "id": "c",
+      "text": "Conductivity is essentially unchanged, because KCl yields the same two ion types at any concentration"
+    },
+    {
+      "id": "d",
+      "text": "Conductivity rises, because the concentration of mobile ions increases by a factor of 2"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "For a strong electrolyte well below saturation, the number of charge carriers per liter scales directly with concentration, so 0.1/0.05 = 2 means both [K+] and [Cl-] double and conductivity rises roughly twofold. The two ion concentrations rise together as part of the same doubling; they do not multiply to give a fourfold effect. KCl is far below its solubility limit, so nothing precipitates, and ion-ion interference is negligible at these dilute concentrations.\n\nELI-10: Conductivity depends on how many charged particles per liter are available to migrate. Doubling the amount of KCl in the same volume doubles that supply: 0.1 divided by 0.05 equals 2. It is tempting to double once for K+ and again for Cl-, but those two are not independent - one doubling of KCl produces one doubling of the whole ion population, so the factor is 2, not 4. Crowding effects that reduce ion mobility do exist, but only at concentrations far higher than these.",
+  "difficulty": "medium",
+  "tags": [
+    "concentration and conductivity",
+    "molarity",
+    "strong electrolyte behavior"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-273",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

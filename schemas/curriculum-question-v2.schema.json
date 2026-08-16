@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "curriculum-question-v2.schema.json",
+  "title": "Curriculum question bank v2",
+  "type": "object",
+  "required": ["schemaVersion", "subjectSlug", "questions", "deferred"],
+  "properties": {
+    "schemaVersion": { "const": "2.0.0" },
+    "subjectSlug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "questions": { "type": "array", "items": { "$ref": "#/$defs/question" } },
+    "deferred": { "type": "array", "items": { "$ref": "#/$defs/question" } }
+  },
+  "$defs": {
+    "question": {
+      "type": "object",
+      "required": ["id", "sourceCollection", "sourceTopicId", "mappedCanonicalTopicIds", "mappingScope", "stem", "options", "correctAnswer", "rationales", "difficulty", "tags", "references", "citationReviewRequired", "provenance", "sourceSnapshotMarkdown"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "sourceCollection": { "type": "string" },
+        "sourceTopicId": { "type": "string" },
+        "mappedCanonicalTopicIds": { "type": "array", "items": { "type": "string" } },
+        "mappingScope": { "enum": ["exact", "broad-source-topic", "subject-wide-overlay", "deferred-to-other-subject"] },
+        "stem": { "type": "string", "minLength": 1 },
+        "options": { "type": "array", "minItems": 2, "items": { "type": "object", "required": ["id", "text"] } },
+        "correctAnswer": { "type": "string", "minLength": 1 },
+        "rationales": {
+          "type": "object",
+          "required": ["whyCorrect", "eli10"],
+          "properties": {
+            "whyCorrect": { "type": "string", "minLength": 1 },
+            "eli10": { "type": "string", "minLength": 1 },
+            "distractorAnalysis": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "difficulty": { "enum": ["foundational", "intermediate", "advanced", "unknown"] },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "references": { "type": "array", "items": { "type": "object" } },
+        "computation": { "type": ["object", "null"] },
+        "citationReviewRequired": { "type": "boolean" },
+        "provenance": { "type": "object", "required": ["sourceFile"] },
+        "sourceSnapshotMarkdown": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

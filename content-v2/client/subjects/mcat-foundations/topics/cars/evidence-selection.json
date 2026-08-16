@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:mcat-foundations:cars:evidence-selection",
+  "slug": "evidence-selection",
+  "title": "Evidence Selection",
+  "subject": {
+    "id": "subject:mcat-foundations",
+    "slug": "mcat-foundations",
+    "title": "MCAT Foundations"
+  },
+  "unit": {
+    "id": "unit:mcat-foundations:cars",
+    "slug": "cars",
+    "title": "CARS",
+    "order": 8
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "Evidence selection is the core CARS skill of identifying which passage details directly support an answer choice. The AAMC designs answer choices around three relationships to the text: direct support (correct), partial support (trap), and no support (trap). Mastering evidence selection means learning to distinguish these relationships quickly under time pressure. Every CARS question type -- main idea, inference, application, and reasoning -- ultimately reduces to finding the right piece of textual evidence. The difference between a 127 and 130 often comes down to precision in evidence matching: rejecting answers that feel right but cite the wrong paragraph, wrong scope, or wrong viewpoint.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- Best supporting detail\n- Relevant examples\n- Direct textual evidence\n- Distractor elimination\n- Evidence hierarchy",
+    "collegeNotes": "## Direct Evidence Matching\n\nDirect evidence matching is the process of locating a specific passage sentence or phrase that explicitly supports the correct answer choice. The AAMC writes correct answers to paraphrase or logically extend one identifiable piece of text. Key principle: if you cannot point to the line that proves an answer, you are guessing. Workflow: (1) read the question stem and identify what is being asked, (2) locate the relevant paragraph using your passage map, (3) find the specific sentence(s) that address the question, (4) match your evidence to exactly one answer choice. The best supporting detail is never the one that sounds most sophisticated; it is the one with the tightest textual link. Common mistake: selecting an answer that is true in the real world but unsupported by the passage. On CARS, outside knowledge is irrelevant -- only the text matters.\n\n## Elimination Strategy\n\nElimination strategy systematically removes wrong answer choices using specific textual reasons. Each eliminated answer should fail for a concrete reason: wrong scope (too broad or too narrow), wrong viewpoint (author vs. quoted source), wrong paragraph, extreme language not supported by the text, or opposite of what the passage states. The most efficient approach: eliminate three answers definitively rather than hunting for the perfect match. Common elimination patterns: answers using passage vocabulary in a new context (word-match trap), answers that reverse a causal relationship, answers that conflate two distinct passage ideas, and answers that are true for part of the passage but not the section the question targets. When stuck between two answers, return to the passage and find the evidence that explicitly decides between them -- do not rely on memory or impression.\n\n## Partial Evidence Traps\n\nPartial evidence traps are the AAMC's most effective wrong-answer design. These answers contain some truth -- they reference passage content correctly -- but are incomplete, distorted, or misapplied. Types: (a) The half-right trap: the first clause matches the passage but the second clause contradicts it or adds unsupported information. (b) The scope-shift trap: the answer uses passage evidence correctly but draws a conclusion beyond what the evidence supports. (c) The true-but-irrelevant trap: the answer states something the passage says, but about a different topic than what the question asks. (d) The extreme-extrapolation trap: the answer takes a moderate passage claim and inflates it into an absolute statement. Defense: read every word of the answer choice. If any part of the answer is unsupported, the entire choice is wrong. Never rationalize partial matches.\n\n## Strengthen/Weaken Evidence\n\nStrengthen/weaken questions ask which answer choice, if true, would most support or undermine a passage claim or argument. Unlike direct evidence questions, these require evaluating how new information interacts with the passage's reasoning. Strengthen: the correct answer provides additional evidence that makes the author's conclusion more likely. Weaken: the correct answer introduces evidence that casts doubt on an assumption, breaks a causal link, or provides a counterexample. Strategy: identify the argument's core logical structure (premises, conclusion, assumptions) before evaluating choices. The correct strengthen/weaken answer targets the argument's vulnerable point -- its unstated assumption or weakest causal link. Wrong answers often affect irrelevant aspects of the argument or affect the right component in the wrong direction.\n\n## New Information Integration\n\nNew information integration questions present a novel scenario, study result, or hypothetical example and ask how it relates to passage ideas. These questions test whether you can apply the passage's framework to new data. Approach: (1) extract the core principle, theory, or claim from the passage, (2) identify what the new information demonstrates, (3) determine whether the new information is consistent with, contradicts, or extends the passage's ideas. The correct answer will align with the passage's logic while accurately representing the new information. Traps include answers that correctly describe the passage but mischaracterize the new information, and answers that correctly describe the new information but misrepresent the passage's position. Never assume the new information is true just because the question presents it -- treat it as a hypothetical to evaluate against passage logic.\n\n## Evidence Hierarchy Across Question Types\n\nDifferent CARS question types demand different evidence standards. Main idea questions require passage-wide evidence: the correct answer must be supported by the thesis, not just one paragraph. Detail/retrieval questions require precise line references: the exact sentence must confirm the answer. Inference questions require conservative evidence: the answer must be the most reasonable inference from specific text, avoiding logical leaps. Application questions require principle-to-example matching: the passage principle must logically entail the answer. Reasoning-within-the-text questions require structural evidence: what function does this paragraph/sentence serve in the argument. Reasoning-beyond-the-text questions require evaluating new information against passage logic. Evidence hierarchy rule: when a question could be answered by evidence from different levels, prioritize the most specific available evidence. A detail question should be answered with a sentence, not the thesis.\n\n## How it works\n\nEvidence selection follows a locate-evaluate-match cycle. Locate: use the question stem keywords and passage map to identify the 2-3 sentence target zone. Evaluate: read the target zone carefully, noting the author's claim, the type of evidence provided (example, statistic, expert opinion, logical argument), and any qualifying language (some, often, may vs. all, always, must). Match: compare each answer choice against your target-zone evidence, eliminating any choice that requires evidence from outside the target zone. The cycle repeats for tough questions: if no answer matches perfectly, expand the target zone one paragraph in each direction and re-evaluate.",
+    "howItWorks": "Evidence selection follows a locate-evaluate-match cycle. Locate: use the question stem keywords and passage map to identify the 2-3 sentence target zone. Evaluate: read the target zone carefully, noting the author's claim, the type of evidence provided (example, statistic, expert opinion, logical argument), and any qualifying language (some, often, may vs. all, always, must). Match: compare each answer choice against your target-zone evidence, eliminating any choice that requires evidence from outside the target zone. The cycle repeats for tough questions: if no answer matches perfectly, expand the target zone one paragraph in each direction and re-evaluate.",
+    "comparisons": "- Argument Analysis (CR-007): Evidence selection builds directly on identifying premises and conclusions. Strengthen/weaken questions apply the same logical structure as argument-analysis questions.\n- Reasoning Within the Text (CR-005): Evidence selection is the operational skill for reasoning-within-the-text questions -- both require linking specific passage claims to answer choices.\n- Reasoning Beyond the Text (CR-006): New information integration questions overlap with reasoning-beyond-the-text. Both test whether you can apply passage logic to novel scenarios.\n- CARS Timing and Strategy (CR-010): Evidence selection speed is the largest determinant of CARS timing. Efficient evidence location and elimination directly enables pacing success.",
+    "highYield": "",
+    "commonConfusions": "- The word-match mirage: An answer reuses key passage vocabulary but applies it to a different claim or context. The AAMC deliberately seeds wrong answers with passage language. Match ideas, not words.\n- The reasonable-but-unsupported answer: An answer states a plausible, intelligent-sounding claim that the passage never actually makes. If you cannot find the line, it is wrong -- no matter how reasonable it sounds.\n- The extreme-language bait: The passage says 'some studies suggest' and the answer says 'research proves.' The AAMC tests your sensitivity to qualifiers -- extreme answers are almost always wrong unless the passage is equally extreme.\n- The viewpoint swap: An answer attributes to the author something a quoted critic said, or vice versa. CARS passages frequently present multiple viewpoints; track who said what.\n- The half-right poison pill: An answer is correct for its first half but introduces an unsupported claim, extreme qualifier, or scope shift in the second half. One wrong clause makes the entire answer wrong.",
+    "memoryAids": "",
+    "eli10": "Think of CARS evidence selection like being a lawyer in court. The passage is your only piece of evidence. The answer choices are different theories about what happened. Your job is to find the theory that the evidence actually proves -- not the one that sounds most interesting, not the one you wish were true, and not the one that is true in some other case you heard about. A good lawyer does not say 'this theory feels right.' A good lawyer points to the document and says 'line 14 proves it.' Bad lawyers get distracted by theories that are half-true or almost-right. The best lawyers know that if even one part of the theory does not match the evidence, the whole theory fails. That is CARS: be the lawyer who wins by sticking to the record. The limitation: in real law, you can bring in new evidence; on CARS, the passage is all you get -- no outside knowledge, no personal opinion, no common sense that the passage does not state.",
+    "quickReview": "- Evidence rule: every correct CARS answer is directly supported by at least one identifiable sentence in the passage. No line = no confidence.\n- Elimination: remove answers for wrong scope, wrong viewpoint, extreme language, opposite meaning, or true-but-irrelevant. Never eliminate based on 'sounds wrong.'\n- Partial evidence traps: half-right answers, scope shifts, true-but-irrelevant, extreme extrapolation. One wrong clause kills the whole answer.\n- Strengthen/weaken: target the argument's assumption or weakest causal link. Wrong answers affect irrelevant components or the right component in the wrong direction.\n- New information: extract the passage principle, evaluate the new scenario against it, choose the answer consistent with both. Do not assume new information is true.\n- Evidence hierarchy: main idea = whole-passage evidence; detail = line-specific; inference = conservative text-based reasoning; application = principle-to-example match.\n- Locate-evaluate-match cycle: target zone from passage map, careful reading of qualifying language, compare each answer against target-zone evidence only.\n- Word-match trap: AAMC seeds wrong answers with passage vocabulary in new contexts. Match ideas, not words.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "MCAT Content Outline -- Critical Analysis and Reasoning Skills (CARS) Section — Association of American Medical Colleges (AAMC)",
+        "url": "https://students-residents.aamc.org/media/9261/download"
+      },
+      {
+        "text": "Writing Guide with Handbook -- Chapter 7: Argument — OpenStax",
+        "url": "https://openstax.org/books/writing-guide/pages/7-introduction"
+      },
+      {
+        "text": "Psychology 2e -- Chapter 7: Thinking and Intelligence — OpenStax",
+        "url": "https://openstax.org/books/psychology-2e/pages/7-introduction"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "evidence-selection",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "MCAT_STUDY_LIBRARY/pages/cars/09-evidence-selection.md"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "MCAT_STUDY_LIBRARY/pages/cars/09-evidence-selection.md"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "mcat-one-page-topic-library",
+    "sourceFile": "MCAT_STUDY_LIBRARY/pages/cars/09-evidence-selection.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-mcat-library"
+  },
+  "sourceSnapshotMarkdown": ""
+}

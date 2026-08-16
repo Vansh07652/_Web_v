@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:information-flow:3-prime-polyadenylation",
+  "slug": "3-prime-polyadenylation",
+  "title": "3′ Polyadenylation",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:information-flow",
+    "slug": "information-flow",
+    "title": "Information Flow",
+    "order": 10
+  },
+  "order": 11,
+  "status": "final",
+  "sections": {
+    "overview": "Nearly all eukaryotic mRNAs carry a poly(A) tail — a string of 50–250 adenine nucleotides added to their 3′ end. The tail is not encoded in the DNA: it is synthesized post-transcriptionally by poly(A) polymerase, which adds adenosines one at a time without a template. The process has two coupled steps: endonucleolytic cleavage of the pre-mRNA at a specific site, followed by untemplated addition of the poly(A) tail. The tail protects the mRNA from 3′ exonucleases and works with the 5′ cap to promote export and efficient translation.",
+    "whyItMatters": "The poly(A) tail is a master regulator of mRNA fate: its length tunes stability and translation, and its shortening is often the first, rate-limiting step in mRNA decay. Polyadenylation defects cause disease (e.g., IPEX syndrome from FOXP3 polyadenylation mutations, some thalassemias), and alternative polyadenylation is widespread in cancer and development. Oligo(dT) selection of poly(A) RNA underpins most transcriptomics.",
+    "learningObjectives": "- Explain what the poly(A) tail is and that it is added post-transcriptionally, not DNA-templated.\n- Describe the cleavage and polyadenylation machinery and its sequence signals.\n- Explain the functions of the poly(A) tail and its role in mRNA stability and translation.\n- Relate polyadenylation to transcription termination.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nNearly all eukaryotic mRNAs carry a poly(A) tail — a string of 50–250 adenine nucleotides added to their 3′ end. The tail is not encoded in the DNA: it is synthesized post-transcriptionally by poly(A) polymerase, which adds adenosines one at a time without a template. The process has two coupled steps: endonucleolytic cleavage of the pre-mRNA at a specific site, followed by untemplated addition of the poly(A) tail. The tail protects the mRNA from 3′ exonucleases and works with the 5′ cap to promote export and efficient translation.\n\n### Key Components\n\n- **AAUAAA (polyadenylation signal)** — conserved hexamer ~10–30 nt upstream of the cleavage site.\n- **Cleavage and polyadenylation specificity factor (CPSF)** — binds AAUAAA and defines the cleavage site.\n- **Cleavage stimulation factor (CstF)** — binds a GU/U-rich downstream element and stimulates cleavage.\n- **Cleavage factors (CF I/II)** — execute the endonucleolytic cut.\n- **Poly(A) polymerase (PAP)** — adds adenosines to the new 3′-OH, untemplated.\n- **Poly(A)-binding protein (PABP)** — coats the tail and links it to translation and stability.\n\n### Mechanism\n\nThe polyadenylation complex recognizes the AAUAAA signal and a downstream GU-rich element. CPSF binds AAUAAA, CstF binds the downstream element, and together they position the cleavage factors. The pre-mRNA is cut ~10–30 nt downstream of AAUAAA, generating a free 3′-OH. Poly(A) polymerase then adds adenosines in rapid succession using ATP. Early addition is slow and requires CPSF; once ~10 adenines are added, PABP binds and converts PAP to a processive, CPSF-independent mode, extending the tail to ~200–250 adenines.\n\n### How It Works\n\n1. The Pol II CTD recruits CPSF and CstF as transcription passes the polyadenylation signals.\n2. CPSF binds the AAUAAA hexamer; CstF binds the GU/U-rich downstream sequence.\n3. Cleavage factors cut the nascent RNA ~10–30 nt after AAUAAA.\n4. The upstream fragment (now with a free 3′-OH) is retained as the mRNA; the downstream fragment is degraded.\n5. Poly(A) polymerase adds ~10 adenines slowly (CPSF-dependent initiation).\n6. PABP binds the short tail and makes PAP processive, extending it to ~250 adenines.\n7. The polyadenylated mRNA is exported; in the cytoplasm the tail shortens over time (deadenylation), regulating mRNA lifetime.\n\n### Energy and Directionality\n\nPolyadenylation consumes ATP: each added adenine comes from ATP, with pyrophosphate released on phosphodiester-bond formation. The reaction is untemplated and directional — adenines are added only to the 3′-OH end (5′→3′ addition onto the mRNA's 3′ terminus), so the tail is a pure homopolymer of A that lengthens the mRNA's 3′ end. Cleavage separates the productive (capped, polyadenylated) transcript from the discarded downstream RNA, coupling polyadenylation to Pol II transcription termination.\n\n### Experimental Evidence\n\n- **AAUAAA mutagenesis** — mutating the hexamer abolishes cleavage and polyadenylation, identifying it as the essential signal.\n- **In vitro processing** — nuclear extracts cleave and polyadenylate synthetic pre-mRNA, and omission of ATP or PAP blocks tail addition, proving PAP's untemplated activity.\n- **α-amanitin/CTD studies** — the Pol II CTD is required for efficient processing, showing coupling to transcription.\n- **Deadenylation assays** — progressive 3′ shortening by deadenylases correlates with mRNA decay, demonstrating the tail's protective role.\n\n### Technique\n\nMethods include **3′ RACE** (map polyadenylation sites), **RNA-seq with poly(A) selection** (isolate mature mRNAs via oligo(dT)), **oligo(dT) chromatography**, **PAT (poly(A) test) assays** to measure tail length, and **in vitro cleavage/polyadenylation** using radiolabeled substrates.",
+    "howItWorks": "1. The Pol II CTD recruits CPSF and CstF as transcription passes the polyadenylation signals.\n2. CPSF binds the AAUAAA hexamer; CstF binds the GU/U-rich downstream sequence.\n3. Cleavage factors cut the nascent RNA ~10–30 nt after AAUAAA.\n4. The upstream fragment (now with a free 3′-OH) is retained as the mRNA; the downstream fragment is degraded.\n5. Poly(A) polymerase adds ~10 adenines slowly (CPSF-dependent initiation).\n6. PABP binds the short tail and makes PAP processive, extending it to ~250 adenines.\n7. The polyadenylated mRNA is exported; in the cytoplasm the tail shortens over time (deadenylation), regulating mRNA lifetime.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Poly(A) tail = 50–250 adenines added to the mRNA 3′ end.\n- NOT DNA-templated; added by poly(A) polymerase using ATP.\n- AAUAAA signal (bound by CPSF) + GU-rich downstream element (bound by CstF).\n- Two steps: endonucleolytic cleavage → untemplated A addition.\n- PABP binds the tail and makes PAP processive.\n- Functions: 3′ protection, export, translation (via PABP–eIF4G), and regulated decay via deadenylation.\n- Coupled to Pol II termination via the CTD.",
+    "commonConfusions": "- **\"The poly(A) tail is coded by a run of T's in the DNA\"** — it is not; it is added post-transcriptionally by poly(A) polymerase without a template (the DNA only has the *signal* AAUAAA).\n- **\"The tail is added to the 5′ end\"** — it is added to the 3′ end (opposite the cap).\n- **\"A longer tail always means more protein\"** — tail length tunes stability/translation, but other factors (cap, miRNA) also regulate expression.\n- **\"Polyadenylation and transcription termination are unrelated\"** — polyadenylation site cleavage triggers Pol II termination.\n- **\"All RNAs get poly(A) tails\"** — mainly mRNA (and some lncRNAs); tRNA, rRNA, and histone mRNAs generally do not.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine an important text message that gets a long string of \"AAAAAA...\" typed at the end before sending. Those extra A's aren't part of the original message — a special machine adds them after the message is written. They act like a buffer that slowly gets nibbled away over time; the longer the buffer, the longer the message survives. (The analogy's limit: the \"A's\" are added by an enzyme one at a time using ATP, with no template, and they physically recruit proteins that both protect the RNA and help it make protein.)",
+    "quickReview": "- Poly(A) tail: 50–250 A's, untemplated, added by poly(A) polymerase (ATP).\n- CPSF binds AAUAAA; CstF binds downstream GU/U; cleavage factors cut the RNA.\n- PABP confers processivity and links tail to translation/stability.\n- Functions: 3′ protection, export, translation, deadenylation-regulated decay.\n- Coupled to Pol II termination; key to mRNA-based assays (oligo(dT), 3′ RACE).",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"15.4 RNA Processing in Eukaryotes.\" https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes",
+        "url": "https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"From DNA to RNA.\" https://www.ncbi.nlm.nih.gov/books/NBK26887/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"16.5 Eukaryotic Post-transcriptional Gene Regulation.\" https://openstax.org/books/biology-2e/pages/16-5-eukaryotic-post-transcriptional-gene-regulation",
+        "url": "https://openstax.org/books/biology-2e/pages/16-5-eukaryotic-post-transcriptional-gene-regulation"
+      },
+      {
+        "text": "Nature Scitable, \"Translation: DNA to mRNA to Protein.\" https://www.nature.com/scitable/topicpage/translation-dna-to-mrna-to-protein-393/",
+        "url": "https://www.nature.com/scitable/topicpage/translation-dna-to-mrna-to-protein-393/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/10-information-flow/11-3-prime-polyadenylation.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

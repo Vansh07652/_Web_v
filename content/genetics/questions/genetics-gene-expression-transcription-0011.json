@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-expression-transcription-0011",
+  "subject": "genetics",
+  "lesson": "gene-expression-transcription",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application In bacteria, ribosomes can begin translating an mRNA while RNA polymerase is still transcribing it. Why is this coupling possible in bacteria but not in typical eukaryotic cells?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Bacterial messages lack introns and are used directly, while eukaryotic pre-mRNA must be processed in the nucleus before translation."
+    },
+    {
+      "id": "b",
+      "text": "Bacterial ribosomes synthesize proteins faster than eukaryotic ribosomes do."
+    },
+    {
+      "id": "c",
+      "text": "In bacteria, RNA polymerase and the ribosome are the same enzyme complex."
+    },
+    {
+      "id": "d",
+      "text": "Eukaryotic mRNAs are too large to pass through the nuclear pore."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Bacterial mRNAs are translated immediately because they lack introns and because no nuclear envelope separates transcription from the ribosomes. Eukaryotic pre-mRNA must be capped, spliced, and polyadenylated in the nucleus before the mature mRNA is exported, so translation cannot begin until transcription finishes. B is wrong because the difference is spatial, not a matter of ribosome speed. C is wrong because RNA polymerase and the ribosome are entirely different complexes, and D is wrong because mRNA size is not the reason for the delay.",
+  "difficulty": "unknown",
+  "tags": [
+    "coupled",
+    "transcription",
+    "translation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-d70bead5ed76165d",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

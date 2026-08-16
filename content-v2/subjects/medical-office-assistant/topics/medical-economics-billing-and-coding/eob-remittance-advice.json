@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:eob-remittance-advice",
+  "slug": "eob-remittance-advice",
+  "title": "Explanation of Benefits and Remittance Advice",
+  "subject": {
+    "id": "subject:medical-office-assistant",
+    "slug": "medical-office-assistant",
+    "title": "Medical Office Assistant"
+  },
+  "unit": {
+    "id": "unit:medical-office-assistant:medical-economics-billing-and-coding",
+    "slug": "medical-economics-billing-and-coding",
+    "title": "Medical Economics, Billing, and Coding",
+    "order": 4
+  },
+  "order": 32,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "- Distinguish an Explanation of Benefits from a remittance advice, including who receives each and how each is used.\n- Interpret payment, adjustment, and patient responsibility amounts on an EOB and a remittance advice, including group and reason codes.\n- Post payments and adjustments accurately to the correct patient account and claim line, and reconcile posted totals to funds received.\n- Recognize when to escalate discrepancies, overpayments, credit balances, refunds, and cost-sharing questions to billing or authorized staff per office policy.",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nAn EOB is like the receipt and note a store mails you after a purchase to show what your membership card covered and what is left for you to pay.\n\n### Question 2\n\nAn EOB is like a note explaining a bill that will come later, not the bill itself.\n\n### Question 3\n\nA remittance advice is like the packing slip and receipt a store sends with your refund to show exactly what was credited and why.\n\n### Question 4\n\nThe 835 is like a standardized digital receipt format every store agrees to use so computers everywhere can read it the same way.\n\n### Question 5\n\nAn EOB is like a receipt that still prints even when a coupon covers the whole price, so you can see what happened.\n\n### Question 6\n\nIt is like one receipt described two ways: a plain-English note for the customer and a detailed ledger entry for the store.\n\n### Question 7\n\nAn EOB is like a scorecard for one claim that shows who paid what and why.\n\n### Question 8\n\nA remittance advice is like a detailed deposit slip showing each payment and why the amount is what it is.\n\n### Question 9\n\nIt is like having a bookkeeper receive the bank statement so they can record each deposit for the business.\n\n### Question 10\n\nThe subscriber is like the named person on a family membership card whose benefits everyone else on the plan uses.\n\n### Question 11\n\nThe allowed amount is like the agreed price a store and a discount card company set before the sale, regardless of the sticker price.\n\n### Question 12\n\nA contractual adjustment is like a store agreeing to accept a lower price and simply not charging the difference.\n\n### Question 13\n\nIt is like a store honoring a coupon: the discount is the store's to absorb, and the customer is never asked to pay it back.\n\n### Question 14\n\nCO is like a 'the store will eat this cost' label on a receipt, while PR is 'the customer pays this.'\n\n### Question 15\n\nPR is like a 'customer pays this part' tag on the bill, telling the store exactly what to charge.\n\n### Question 16\n\nOA is like a 'miscellaneous' bucket on a receipt that the store manager decides how to handle.\n\n### Question 17\n\nPatient responsibility is like the share of a restaurant bill a friend's coupon does not cover, in three forms: a set entry fee, a portion of the year, and a percentage.\n\n### Question 18\n\nIf the sticker price is $200 and the agreed price is $150, the store writes off the $50 difference.\n\n### Question 19\n\nIf the agreed price is $150 and the plan pays $120, the patient's leftover share is the $30 difference.\n\n### Question 20\n\nThe deductible is like a yearly 'pay the first $X yourself' amount; this claim just filled part of that bucket.\n\n### Question 21\n\nCoinsurance is like splitting a pizza 80/20: the plan pays for 80 slices out of 100 and you pay for 20.\n\n### Question 22\n\nIf an item is not on the 'covered' list, it is like buying something a gift card does not cover, so the customer pays.\n\n### Question 23\n\nA denial is like a returned package; you open it, find the reason, and fix and resend it rather than throwing it away.\n\n### Question 24\n\nA CARC is like the short reason code on a store return receipt explaining why you got back less than you paid.\n\n### Question 25\n\nIf the reason code is a short label, the RARC is the longer sentence underneath that explains it.\n\n### Question 26\n\nIt is like a store agreeing to a sale price and then secretly charging the customer the original sticker price later.\n\n### Question 27\n\nPR is the only label that means 'ask the customer for this'; CO and OA go back to the store's own records.\n\n### Question 28\n\nThe allowed amount is like the pre-agreed price in a contract between the store and the discount program.\n\n### Question 29\n\nIt is like a price being capped by a coupon, so the store writes off the part above the cap.\n\n### Question 30\n\nThe deductible is the part of the yearly 'pay yourself first' amount that lands on the patient's tab.\n\n### Question 31\n\nCOB is like two gift cards covering one purchase; the store needs the first card's receipt before the second card can help.\n\n### Question 32\n\nTimely filing is like a 'return within 30 days' rule; send it in late and the store will not accept it.\n\n### Question 33\n\nPrior authorization is like needing a permission slip from the plan before the visit, and the claim says the slip was missing.\n\n### Question 34\n\nIt is like a plan saying the service was not needed based on the notes, so it will not help pay.\n\n### Question 35\n\nA duplicate claim is like mailing the same letter twice; the second one is simply set aside.\n\n### Question 36\n\nPI is like a note from the plan saying 'we reduced this for our own reasons,' which the office then reviews.\n\n### Question 37\n\nA withhold is like a landlord holding a security deposit that may be returned later if everything checks out.\n\n### Question 38\n\nThe billed amount is like a sticker price, and the payer pays the discounted agreed price instead.\n\n### Question 39\n\nIt is like a cashier being handed $500 when the bill was $300; the honest move is to give back the extra $200.\n\n### Question 40\n\nA credit balance is like getting too much change back and needing to return the extra.\n\n### Question 41\n\nThe copay is like a cover charge, but the deductible and coinsurance are extra portions of the bill that can still apply.\n\n### Question 42\n\nA write-off is like forgiving part of a bill; a refund is like handing back cash you already collected.\n\n### Question 43\n\nIt is like making sure you put a deposit into the right person's bank account before typing in any numbers.\n\n### Question 44\n\nIt is like a grocery receipt where some items are covered and some are not; you record each item exactly.\n\n### Question 45\n\nIt is like counting the cash in the envelope against the amount written on it before entering it in the ledger.\n\n### Question 46\n\nAuto-posting is like a self-checkout machine; it is fast, but a person still checks that nothing scanned twice.\n\n### Question 47\n\nReconciliation is like checking that the money in the register matches what the receipts say at closing time.\n\n### Question 48\n\nPosting the write-off is like marking a coupon discount on the exact line it applies to.\n\n### Question 49\n\nThe leftover patient share stays on the patient's tab, like the part of a restaurant bill after a friend chips in.\n\n### Question 50\n\nAn unapplied payment is like a deposit with no label yet, sitting in a 'to be sorted' tray.\n\n### Question 51\n\nCorrecting an error is like fixing a wrong number in a ledger and noting who fixed it and when.\n\n### Question 52\n\nYou never change what the receipt says just to make the math look neat; you record it exactly.\n\n### Question 53\n\nA denial is a 'needs attention' flag, not a dead end; someone must fix the reason and try again or decide the charge.\n\n### Question 54\n\nIt is like checking a checklist so you do not deposit the same check into the register twice.\n\n### Question 55\n\nIf the receipt and the cash do not match, you stop and ask a manager instead of guessing.\n\n### Question 56\n\nIt is like marking a pre-paid ticket as already paid so no one asks for the money twice.\n\n### Question 57\n\nBefore answering, you check the store's own records to see what is actually owed, then explain clearly.\n\n### Question 58\n\nA refund is like returning change you were overpaid; someone in charge checks the math before the money goes back.\n\n### Question 59\n\nPosting to the wrong payer is like depositing money into the wrong bank account; the records stop matching reality.\n\n### Question 60\n\nThe secondary plan is like a second gift card that only works after the first card's receipt is attached.\n\n### Question 61\n\nBalancing is like making sure the cash register total equals the money in the drawer at the end of the day.\n\n### Question 62\n\nCollecting is taking the money; posting is writing it down in the ledger so the account is up to date.\n\n### Question 63\n\nIf a service is not covered, the amount is moved to the patient's own tab rather than erased.\n\n### Question 64\n\nIt is like a store deciding, by a set rule, not to chase a few cents, rather than making it up each time.\n\n### Question 65\n\nIt is like a store offering a set payment plan instead of either demanding everything now or giving it away.\n\n### Question 66\n\nIt is like finding money in an account with no deposit slip; you investigate where it really came from.\n\n### Question 67\n\nAccurate posting is like keeping a clean ledger so you always know exactly which bills are still unpaid.\n\n### Question 68\n\nIt is like a stray deposit that must be matched to the right bill or returned to the sender.\n\n### Question 69\n\nA remittance is like one delivery with many labeled packages; each package goes to its own mailbox.\n\n### Question 70\n\nThe statement is like a final tally that shows only what the patient genuinely still owes.\n\n### Question 71\n\nIt is the 'your part' line on the receipt after the plan's portion is subtracted.\n\n### Question 72\n\nIt is like a refund being sent to the customer instead of the store; the store checks with the customer before charging again.\n\n### Question 73\n\nIt is like marking off a savings goal so everyone knows how much more must be paid before the plan starts helping.\n\n### Question 74\n\nFor an out-of-network service, the plan uses its own price guide rather than the provider's sticker price.\n\n### Question 75\n\nThe PLB segment is like a summary line at the bottom of a statement covering adjustments that apply to the whole account.\n\n### Question 76\n\nIt is like an adjustment on the store's own summary account, not on any single customer's bill.\n\n### Question 77\n\nA recoupment is like a store taking back part of an earlier refund that was too large.\n\n### Question 78\n\nTake the $80 off the sticker price to reach $320, then the patient's 20% share of $320 is $64.\n\n### Question 79\n\nThe secondary plan is like a second friend who chips in only on what is left after the first friend pays.\n\n### Question 80\n\nAn audit trail is like a signed, dated note showing exactly who made each entry and when.\n\n### Question 81\n\nIf two receipts disagree, you compare them to the original order and ask the company which is right before charging anyone.\n\n### Question 82\n\nBundling is like a combo meal where the side item is already included and not charged separately.\n\n### Question 83\n\nInterest is like a small 'sorry for the wait' payment from the plan to the practice.\n\n### Question 84\n\nWaiving cost sharing without permission is like a cashier quietly not charging the required amount; it breaks the rules.\n\n### Question 85\n\nIt is like processing a mixed stack of mail: each item gets handled by the right rule, and anything unusual goes to a manager.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Centers for Medicare & Medicaid Services — CMS.gov",
+        "url": "https://www.cms.gov/"
+      },
+      {
+        "text": "American Health Information Management Association — AHIMA - Health Information and Coding",
+        "url": "https://www.ahima.org/"
+      },
+      {
+        "text": "AAPC — Medical Coding and Billing",
+        "url": "https://www.aapc.com/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 85
+  },
+  "aliases": [
+    {
+      "value": "eob-remittance-advice",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "moa-04-05-07",
+      "kind": "source_topic_id",
+      "source_id": "medical-office-assistant-question-bank"
+    },
+    {
+      "value": "eob-remittance-advice",
+      "kind": "source_topic_slug",
+      "source_id": "medical-office-assistant-question-bank"
+    }
+  ],
+  "authority": {
+    "questions": [
+      {
+        "source_file": "generated-subjects/medical-office-assistant-question-bank/data/04-medical-economics-billing-coding/05-07-eob-remittance-advice.json"
+      }
+    ],
+    "answer_rationales": [
+      {
+        "source_file": "generated-subjects/medical-office-assistant-question-bank/data/04-medical-economics-billing-coding/05-07-eob-remittance-advice.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-office-assistant-question-bank/data/04-medical-economics-billing-coding/05-07-eob-remittance-advice.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-office-assistant-question-bank",
+    "sourceFile": "generated-subjects/medical-office-assistant-question-bank/data/04-medical-economics-billing-coding/05-07-eob-remittance-advice.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false,
+    "importBatch": "2026-08-14-generated-subjects"
+  },
+  "sourceSnapshotMarkdown": "{\n  \"schema_version\": \"1.0\",\n  \"topic_id\": \"moa-04-05-07\",\n  \"unit_id\": \"unit-04\",\n  \"unit_title\": \"Medical Economics, Billing, and Coding\",\n  \"topic_title\": \"Explanation of Benefits and Remittance Advice\",\n  \"topic_slug\": \"eob-remittance-advice\",\n  \"audience\": \"Medical office assistant students\",\n  \"question_count\": 85,\n  \"difficulty_distribution\": {\n    \"foundational\": 25,\n    \"intermediate\": 42,\n    \"advanced\": 18\n  },\n  \"tags\": [\n    \"eob\",\n    \"remittance-advice\",\n    \"payments\",\n    \"adjustments\",\n    \"posting\"\n  ],\n  \"learning_objectives\": [\n    \"Distinguish an Explanation of Benefits from a remittance advice, including who receives each and how each is used.\",\n    \"Interpret payment, adjustment, and patient responsibility amounts on an EOB and a remittance advice, including group and reason codes.\",\n    \"Post payments and adjustments accurately to the correct patient account and claim line, and reconcile posted totals to funds received.\",\n    \"Recognize when to escalate discrepancies, overpayments, credit balances, refunds, and cost-sharing questions to billing or authorized staff per office policy.\"\n  ],\n  \"sources\": [\n    {\n      \"source_id\": \"src-001\",\n      \"organization_or_author\": \"Centers for Medicare & Medicaid Services\",\n      \"title\": \"CMS.gov\",\n      \"publication_or_website\": \"CMS.gov\",\n      \"year_or_last_updated\": \"2026\",\n      \"url\": \"https://www.cms.gov/\",\n      \"doi_or_pmid\": null,\n      \"access_type\": \"public\"\n    },\n    {\n      \"source_id\": \"src-002\",\n      \"organization_or_author\": \"American Health Information Management Association\",\n      \"title\": \"AHIMA - Health Information and Coding\",\n      \"publication_or_website\": \"AHIMA\",\n      \"year_or_last_updated\": \"2026\",\n      \"url\": \"https://www.ahima.org/\",\n      \"doi_or_pmid\": null,\n      \"access_type\": \"public\"\n    },\n    {\n      \"source_id\": \"src-003\",\n      \"organization_or_author\": \"AAPC\",\n      \"title\": \"Medical Coding and Billing\",\n      \"publication_or_website\": \"AAPC\",\n      \"year_or_last_updated\": \"2026\",\n      \"url\": \"https://www.aapc.com/\",\n      \"doi_or_pmid\": null,\n      \"access_type\": \"public\"\n    }\n  ],\n  \"scope_note\": \"EOB and remittance advice formats, group and reason codes, payment posting, and reconciliation practices vary by payer, contract, and practice-management system. Medical office assistants post payments and adjustments, explain patient responsibility in plain language, and reconcile totals under supervision and office policy; they must not independently waive or adjust cost sharing, decide write-offs, issue refunds, interpret coverage, or give financial, legal, or tax advice. Overpayments, credit balances, refunds, balance disputes, and any discrepancy between payment and remittance must be escalated to billing or authorized staff per office policy. This bank is educational only and is not billing, insurance, financial, or legal advice.\"\n}"
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-cycle-cell-death:g2-m-control",
+  "slug": "g2-m-control",
+  "title": "G2–M Control (Cyclin B–Cdk1, Wee1/Cdc25)",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-cycle-cell-death",
+    "slug": "cell-cycle-cell-death",
+    "title": "Cell Cycle Cell Death",
+    "order": 7
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "Entry into mitosis is controlled by the cyclin B–Cdk1 complex (historically, \"MPF\" — maturation-promoting factor). Cyclin B accumulates through G2 and binds Cdk1. The complex is held inactive by Wee1/Myt1 kinases, which phosphorylate Cdk1 on inhibitory sites (Thr14/Tyr15). At the G2/M boundary, the phosphatase Cdc25 removes these phosphates, rapidly activating Cdk1. Active Cdk1 then phosphorylates and activates more Cdc25 while inhibiting Wee1, creating a positive-feedback loop that flips the system abruptly into mitosis. DNA damage and unreplicated DNA activate checkpoints (ATM/ATR → Chk1/Chk2) that phosphorylate Cdc25 (for degradation/sequestration) and block mitotic entry.",
+    "whyItMatters": "The G2/M transition is the final quality gate before a cell divides its genome. Failure to arrest damaged cells at G2/M leads to mitotic catastrophe or aneuploidy and drives cancer. Many chemotherapeutics (e.g., DNA-damaging agents) kill cells by exploiting this checkpoint; conversely, Chk1/Wee1 inhibitors are being developed to push cancer cells with high replication stress into lethal premature mitosis. The switch-like control of Cdk1 is also the textbook example of a biological bistable switch built from opposing kinase/phosphatase feedback.",
+    "learningObjectives": "- Describe how cyclin B–Cdk1 (maturation/mitosis-promoting factor, MPF) triggers mitotic entry.\n- Explain the dual role of phosphorylation by Wee1 (inhibitory) and Cdc25 (activating).\n- Describe the positive-feedback loop that makes mitotic entry switch-like.\n- Explain how DNA damage and incomplete replication block mitotic entry.\n- Relate the G2/M checkpoint to genome stability.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nEntry into mitosis is controlled by the cyclin B–Cdk1 complex (historically, \"MPF\" — maturation-promoting factor). Cyclin B accumulates through G2 and binds Cdk1. The complex is held inactive by Wee1/Myt1 kinases, which phosphorylate Cdk1 on inhibitory sites (Thr14/Tyr15). At the G2/M boundary, the phosphatase Cdc25 removes these phosphates, rapidly activating Cdk1. Active Cdk1 then phosphorylates and activates more Cdc25 while inhibiting Wee1, creating a positive-feedback loop that flips the system abruptly into mitosis. DNA damage and unreplicated DNA activate checkpoints (ATM/ATR → Chk1/Chk2) that phosphorylate Cdc25 (for degradation/sequestration) and block mitotic entry.\n\n### Key Components\n\n- **Cyclin B–Cdk1 (MPF)**: The master mitotic kinase.\n- **Wee1 and Myt1**: Kinases that phosphorylate Cdk1 at Thr14/Tyr15 (inhibitory).\n- **Cdc25**: Phosphatase that removes Thr14/Tyr15 phosphates (activating).\n- **CAK**: Adds the activating T-loop phosphate (Thr161 in Cdk1).\n- **Plk1 and Aurora kinases**: Cooperate to amplify Cdk1 activation.\n- **Chk1/Chk2**: Effector kinases of the DNA-damage/replication checkpoints.\n- **14-3-3 proteins**: Sequester phosphorylated Cdc25 in the cytoplasm, inactivating it.\n\n### Mechanism / How It Works\n\n1. **Priming**: Through G2, cyclin B is synthesized and binds Cdk1. CAK phosphorylates the T-loop (activating), but Wee1/Myt1 keep the complex off by phosphorylating Thr14/Tyr15 near the ATP-binding site.\n2. **Trigger**: At the G2/M boundary, Cdc25 is activated (dephosphorylated/recruited to the nucleus) and removes the inhibitory phosphates, flipping Cdk1 on.\n3. **Positive feedback**: Active cyclin B–Cdk1 phosphorylates Cdc25 (activating it further) and phosphorylates Wee1/Myt1 (inactivating them). More Cdk1 activity → more Cdc25 and less Wee1 → a self-reinforcing, switch-like, irreversible commitment to mitosis.\n4. **Mitotic events**: Cyclin B–Cdk1 phosphorylates lamins (nuclear envelope breakdown), condensin and histone H3 (chromosome condensation), proteins driving centrosome separation and spindle assembly, and the Golgi disassembly machinery.\n5. **Checkpoint brake**: If DNA is damaged or replication incomplete, ATM/ATR activate Chk1/Chk2, which phosphorylate Cdc25. Phosphorylated Cdc25 binds 14-3-3 and is sequestered (or degraded), so it cannot activate Cdk1 — the cell arrests in G2 until repair is complete.\n\n### Energy and Directionality\n\nThe G2/M transition consumes ATP at every phosphorylation/dephosphorylation step (Wee1, CAK, Cdk1 substrates) and, at mitotic exit, ATP for ubiquitin-dependent destruction of cyclin B by the APC/C. The switch-like character comes from the positive-feedback loop: Cdk1 and Cdc25 activate each other, so once the loop tips past a threshold the transition is rapid, all-or-none, and effectively irreversible — a bistable system. Reversal requires destroying cyclin B, not merely dephosphorylating it.\n\n### Experimental Evidence / Technique\n\n- **MPF discovery**: Masui and Markert (1971) found that cytoplasm from a maturing frog oocyte injected into an immature oocyte induced maturation — a transferable \"maturation-promoting factor.\"\n- **Xenopus extracts and cyclin B**: Non-degradable cyclin B holds extracts in mitosis; adding cyclin B alone drives interphase nuclei into mitosis, showing Cdk1 is sufficient.\n- **wee1 and cdc25 yeast mutants**: wee1 mutants enter mitosis prematurely (small cells — \"wee\" in Scottish), while cdc25 mutants fail to enter mitosis, defining the antagonistic kinase/phosphatase pair.\n- **Phospho-specific antibodies** (anti-pCdk1-Tyr15) monitor the abrupt dephosphorylation at mitotic entry.\n- **Caffeine** overrides the G2/M checkpoint by inhibiting ATM/ATR, showing the checkpoint is kinase-dependent.",
+    "howItWorks": "1. **Priming**: Through G2, cyclin B is synthesized and binds Cdk1. CAK phosphorylates the T-loop (activating), but Wee1/Myt1 keep the complex off by phosphorylating Thr14/Tyr15 near the ATP-binding site.\n2. **Trigger**: At the G2/M boundary, Cdc25 is activated (dephosphorylated/recruited to the nucleus) and removes the inhibitory phosphates, flipping Cdk1 on.\n3. **Positive feedback**: Active cyclin B–Cdk1 phosphorylates Cdc25 (activating it further) and phosphorylates Wee1/Myt1 (inactivating them). More Cdk1 activity → more Cdc25 and less Wee1 → a self-reinforcing, switch-like, irreversible commitment to mitosis.\n4. **Mitotic events**: Cyclin B–Cdk1 phosphorylates lamins (nuclear envelope breakdown), condensin and histone H3 (chromosome condensation), proteins driving centrosome separation and spindle assembly, and the Golgi disassembly machinery.\n5. **Checkpoint brake**: If DNA is damaged or replication incomplete, ATM/ATR activate Chk1/Chk2, which phosphorylate Cdc25. Phosphorylated Cdc25 binds 14-3-3 and is sequestered (or degraded), so it cannot activate Cdk1 — the cell arrests in G2 until repair is complete.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- MPF = **cyclin B–Cdk1**; it triggers nuclear envelope breakdown, chromosome condensation, and spindle assembly.\n- **Wee1/Myt1** phosphorylate Cdk1 Thr14/Tyr15 → OFF; **Cdc25** dephosphorylates → ON; **CAK** (T-loop) → necessary activation.\n- **Positive feedback**: Cdk1 → activates Cdc25 and inhibits Wee1 → more Cdk1 → switch-like entry.\n- DNA damage → ATM/ATR → **Chk1/Chk2 → phosphorylate Cdc25 → 14-3-3 sequestration** → G2 arrest.\n- Mitotic exit requires APC/C-mediated cyclin B destruction.",
+    "commonConfusions": "- **Wee1 vs. Cdc25**: Wee1 is a kinase that inhibits Cdk1; Cdc25 is a phosphatase that activates Cdk1. They are antagonists, both acting on the same residues.\n- **Activating vs. inhibitory phosphates on Cdk1**: CAK's T-loop phosphate activates; Wee1's Thr14/Tyr15 phosphates inhibit. Do not conflate them.\n- **G2/M checkpoint vs. spindle checkpoint**: The G2/M checkpoint senses DNA damage/replication and acts via Chk1/Cdc25; the spindle assembly checkpoint senses chromosome attachment and acts via Mad/Bub → APC/C inhibition.\n- **Cyclin B degradation = mitotic exit, not entry**: Cdk1 activation triggers mitosis; cyclin B destruction ends it.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of Cdk1 as a race car. It has an engine ready to start (the CAK key is in) but two clamps (Thr14/Tyr15 phosphates) holding the wheels — those clamps are put on by a mechanic named Wee1. At the starting line, a pit-crew member named Cdc25 yanks the clamps off, and the car launches into mitosis. Once moving, the car's momentum makes Cdc25 work faster and Wee1 slower, so there is no stopping halfway — it is all or nothing. If the pit crew sees smoke (damaged DNA), a referee (Chk1) grabs Cdc25 and holds him back so the car never leaves. The analogy's limit: the \"clamps\" are specific phosphate groups, and the \"momentum\" is a molecular feedback loop of mutual phosphorylation, not inertia.",
+    "quickReview": "- Cyclin B accumulates in G2 → binds Cdk1 → CAK activates T-loop, Wee1 inhibits → Cdc25 removes inhibition → active Cdk1 → mitosis.\n- Feedback: Cdk1 ↔ Cdc25 (mutual activation) makes entry switch-like.\n- Damage → Chk1/Chk2 → Cdc25 inhibited → G2 arrest.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 17, \"The G2/M Transition.\""
+      },
+      {
+        "text": "Masui, Y. & Markert, C. L., \"Cytoplasmic control of nuclear behavior during meiotic maturation of frog oocytes,\" *J. Exp. Zool.* (1971)."
+      },
+      {
+        "text": "Nurse, P., \"Genetic control of cell size at cell division in yeast,\" *Nature* (1975)."
+      },
+      {
+        "text": "Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 19."
+      },
+      {
+        "text": "NCBI Bookshelf, *The Cell: A Molecular Approach*, 2nd ed., \"Entry into mitosis.\""
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/07-cell-cycle-cell-death/04-g2-m-control.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

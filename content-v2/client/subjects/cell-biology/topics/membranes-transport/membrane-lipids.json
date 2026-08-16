@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:membranes-transport:membrane-lipids",
+  "slug": "membrane-lipids",
+  "title": "Membrane Lipids: Glycerophospholipids, Sphingolipids, and Cholesterol",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:membranes-transport",
+    "slug": "membranes-transport",
+    "title": "Membranes Transport",
+    "order": 2
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "Membrane lipids are amphipathic molecules with a polar head and nonpolar tail(s). The three main classes are glycerophospholipids (built on a glycerol backbone), sphingolipids (built on a sphingosine backbone), and the sterol cholesterol. Their shared amphipathic design lets them spontaneously form bilayers, while differences in head group, tail saturation, and length tune membrane thickness, fluidity, curvature, and signaling.",
+    "whyItMatters": "Lipid composition sets the physical properties membranes require: fluidity (temperature adaptation), curvature (budding vesicles, endocytosis), signaling platforms (PI phosphorylation, PS exposure in apoptosis and clotting), and pathogen/drug entry. Defects in lipid metabolism underlie diseases from Niemann–Pick disease to atherosclerosis.",
+    "learningObjectives": "- Describe the structure of glycerophospholipids, sphingolipids, and cholesterol.\n- Explain how amphipathic structure drives bilayer self-assembly.\n- Describe membrane lipid asymmetry and the enzymes that maintain it.\n- Relate lipid composition to membrane function.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nMembrane lipids are amphipathic molecules with a polar head and nonpolar tail(s). The three main classes are glycerophospholipids (built on a glycerol backbone), sphingolipids (built on a sphingosine backbone), and the sterol cholesterol. Their shared amphipathic design lets them spontaneously form bilayers, while differences in head group, tail saturation, and length tune membrane thickness, fluidity, curvature, and signaling.\n\n### Key Components\n\n### Glycerophospholipids\nA glycerol backbone carries two fatty-acid tails and a phosphate head group with a variable substituent: phosphatidylcholine (PC), phosphatidylethanolamine (PE), phosphatidylserine (PS, negatively charged), and phosphatidylinositol (PI, a signaling precursor).\n\n### Sphingolipids\nA sphingosine backbone (an amino alcohol) carries one fatty acid plus a head group. Sphingomyelin bears a phosphocholine head; glycosphingolipids carry sugar head groups (cerebrosides, gangliosides).\n\n### Cholesterol\nA rigid four-ring steroid with a small polar hydroxyl (−OH) and a short hydrocarbon tail; a major animal-cell membrane lipid (roughly 20–50% of plasma-membrane lipid).\n\n### Fatty-acid tails\nTails vary in length and saturation. Unsaturated tails (cis double bonds) introduce kinks that loosen packing and increase fluidity.\n\n### Leaflet asymmetry\nPC, sphingomyelin, and glycolipids concentrate in the outer leaflet; PS, PE, and PI concentrate in the inner (cytosolic) leaflet.\n\n### Mechanism\n\nBilayer formation is entropy-driven: when amphipathic lipids meet water, water molecules that would otherwise form ordered \"cages\" around the hydrophobic tails are released, increasing entropy. Tails pack together and heads face water. Head-group chemistry then determines where each lipid resides and how it interacts with proteins and signaling machinery.\n\n### How It Works\n\n1. Lipids insert with heads in the aqueous phase and tails buried in the apolar core.\n2. Head-group size and shape set preferred curvature (PC is roughly cylindrical → flat bilayers; PE is cone-shaped → favors curvature).\n3. Flippases (P4-ATPases) use ATP to move PS and PE to the inner leaflet; floppases move PC outward; scramblases randomize both leaflets when activated.\n4. Externalized PS acts as an \"eat me\" signal during apoptosis and as a surface for blood-clotting complexes.\n\n### Energy and Directionality\n\nSpontaneous bilayer assembly releases free energy (an entropic gain), so it needs no ATP. In contrast, *maintaining* asymmetry against the diffusion-driven tendency to equalize requires active, ATP-dependent flippase transport — a steady state, not an equilibrium, distribution.\n\n### Experimental Evidence\n\n- **Chemical labeling:** impermeant reagents that label outer-leaflet amino groups showed that PS and PE reside mostly on the inner leaflet.\n- **Annexin V binding:** annexin V specifically binds externalized PS, revealing the PS flip that marks apoptotic cells.\n- **X-ray and neutron diffraction:** defined bilayer thickness and lipid head-group areas.\n\n### Technique\n\nLeaflet composition is assayed with impermeant chemical labels, phospholipases that digest only the outer leaflet, and fluorescent probes such as annexin V (for PS exposure). Mass spectrometry (\"lipidomics\") quantifies the full lipid repertoire.",
+    "howItWorks": "1. Lipids insert with heads in the aqueous phase and tails buried in the apolar core.\n2. Head-group size and shape set preferred curvature (PC is roughly cylindrical → flat bilayers; PE is cone-shaped → favors curvature).\n3. Flippases (P4-ATPases) use ATP to move PS and PE to the inner leaflet; floppases move PC outward; scramblases randomize both leaflets when activated.\n4. Externalized PS acts as an \"eat me\" signal during apoptosis and as a surface for blood-clotting complexes.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Glycerophospholipid = glycerol + 2 fatty acids + phosphate head (PC, PE, PS, PI).\n- Sphingolipid = sphingosine + 1 fatty acid + head (sphingomyelin, glycolipids).\n- Cholesterol = 4-ring sterol; buffers fluidity.\n- Outer leaflet: PC, sphingomyelin, glycolipids. Inner leaflet: PS, PE, PI.\n- PS exposure = apoptotic \"eat-me\" signal.\n- Flippases (ATP) move PS/PE inward; scramblases randomize.",
+    "commonConfusions": "- **\"Cholesterol is a phospholipid.\"** No — cholesterol is a sterol with a single hydroxyl; it has no glycerol or sphingosine backbone.\n- **\"All membrane lipids are phospholipids.\"** Sphingolipids and cholesterol are also major lipids.\n- **\"The two leaflets are identical.\"** They are compositionally asymmetric, maintained by flippases.\n- **\"Lipids just provide structure.\"** Many are active signaling molecules (PI phosphates, PS exposure).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nMembrane lipids are like a collection of floats, each with a \"water-loving\" top and a \"water-hating\" bottom, so they line up into a two-layered sheet. Some floats carry labels (sugar or charge flags) that face only one side of the sheet — the cell spends energy keeping \"inside-only\" flags (like a \"recycle me\" sticker) from showing on the outside unless the cell is dying.",
+    "quickReview": "- Three lipid classes: glycerophospholipids, sphingolipids, cholesterol.\n- Amphipathic → spontaneous bilayers (entropy-driven).\n- Asymmetry: outer = PC/sphingomyelin/glycolipids; inner = PS/PE/PI.\n- Flippases use ATP to maintain asymmetry; PS flips outward in apoptosis.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"5.1 Components and Structure.\" https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+        "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Lipid Bilayer.\" https://www.ncbi.nlm.nih.gov/books/NBK26871/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26871/"
+      },
+      {
+        "text": "Cooper, *The Cell: A Molecular Approach*, 2nd ed. https://www.ncbi.nlm.nih.gov/books/NBK9839/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9839/"
+      },
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, \"3.1 The Cell Membrane.\" https://openstax.org/books/anatomy-and-physiology-2e/pages/3-1-the-cell-membrane",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-1-the-cell-membrane"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/02-membranes-transport/02-membrane-lipids.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

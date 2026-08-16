@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-thermodynamics:nonstandard-free-energy",
+  "slug": "nonstandard-free-energy",
+  "title": "Nonstandard Free Energy",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-thermodynamics",
+    "slug": "chemical-thermodynamics",
+    "title": "Chemical Thermodynamics",
+    "order": 7
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "Real reactions rarely run at standard conditions. The **nonstandard free-energy change** is given by **ΔG = ΔG° + RT ln Q**, where Q is the reaction quotient (same form as K, but with actual current concentrations/pressures). When Q < K, ln Q is negative enough that ΔG < 0 and the reaction proceeds forward; when Q > K, ΔG > 0 and it proceeds in reverse; when Q = K, ΔG = 0 and the system is at equilibrium. The term RT ln Q is the correction that moves the standard value to actual conditions.",
+    "whyItMatters": "The correction RT ln Q is what makes thermodynamics predictive in the lab and in living cells, where concentrations are almost never standard. It explains why a reaction \"downhill\" in ΔG° can be driven backward by flooding it with product, and it underpins how concentration gradients power everything from batteries to active transport.",
+    "learningObjectives": "- Write the relationship between ΔG and ΔG°: ΔG = ΔG° + RT ln Q.\n- Define the reaction quotient Q and compute it from given concentrations or partial pressures.\n- Use ΔG (not ΔG°) to predict direction under nonstandard conditions.\n- Explain how Q relative to K determines the sign of ΔG.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nReal reactions rarely run at standard conditions. The **nonstandard free-energy change** is given by **ΔG = ΔG° + RT ln Q**, where Q is the reaction quotient (same form as K, but with actual current concentrations/pressures). When Q < K, ln Q is negative enough that ΔG < 0 and the reaction proceeds forward; when Q > K, ΔG > 0 and it proceeds in reverse; when Q = K, ΔG = 0 and the system is at equilibrium. The term RT ln Q is the correction that moves the standard value to actual conditions.\n\n### Key Ideas\n\n- **Same form as K.** Q = [products]^ν / [reactants]^ν using *current* (not equilibrium) amounts; gases use partial pressures.\n- **RT ln Q is the concentration correction.** It is zero when Q = 1 (standard-ish conditions) and nonzero otherwise.\n- **Direction from Q vs. K.** Q < K ⇒ ΔG < 0 (forward); Q > K ⇒ ΔG > 0 (reverse); Q = K ⇒ ΔG = 0.\n- **Spontaneity is now \"actual.\"** ΔG, not ΔG°, tells you which way a real reaction mixture moves.\n- **Units.** R = 8.314 J/(mol·K); ΔG° must be in J/mol (convert from kJ) so the terms add.\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| ΔG | Nonstandard free-energy change | kJ/mol (or J/mol) |\n| ΔG° | Standard free-energy change | kJ/mol |\n| R | Gas constant = 8.314 J/(mol·K) | J/(mol·K) |\n| T | Absolute temperature | K |\n| Q | Reaction quotient | dimensionless |\n\nΔG = ΔG° + RT ln Q\n\n### How It Works\n\n1. Compute ΔG° from tables.\n2. Write Q from the actual concentrations/pressures.\n3. Evaluate RT ln Q (convert ΔG° to J/mol so units match).\n4. Add. The sign of ΔG tells the actual spontaneous direction.\n\n### Worked Example\n\n**For N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g) with ΔG° = −33.0 kJ/mol at 25 °C, find ΔG when P(N₂) = 1.0 atm, P(H₂) = 3.0 atm, P(NH₃) = 0.50 atm.**\n\n- Q = P(NH₃)² / [P(N₂) · P(H₂)³] = (0.50)² / [1.0 × (3.0)³] = 0.25 / 27 = 9.26 × 10⁻³\n- ln Q = ln(9.26 × 10⁻³) = −4.68\n- RT ln Q = 8.314 J/(mol·K) × 298 K × (−4.68) = −11,600 J/mol = −11.6 kJ/mol\n- ΔG = ΔG° + RT ln Q = −33.0 + (−11.6) = **−44.6 kJ/mol**\n\nΔG < 0, so the mixture is still on the product side of equilibrium and will keep forming NH₃. (Q = 9.26 × 10⁻³ is far less than K ≈ 6 × 10⁵.)",
+    "howItWorks": "1. Compute ΔG° from tables.\n2. Write Q from the actual concentrations/pressures.\n3. Evaluate RT ln Q (convert ΔG° to J/mol so units match).\n4. Add. The sign of ΔG tells the actual spontaneous direction.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- ΔG = ΔG° + RT ln Q.\n- Q uses *actual* concentrations/pressures; K uses *equilibrium* values.\n- Q < K ⇒ ΔG < 0 (forward); Q > K ⇒ ΔG > 0 (reverse); Q = K ⇒ ΔG = 0.\n- Convert ΔG° to J/mol (or use R in kJ) so the terms share units.\n- At standard conditions Q = 1, so ΔG = ΔG°.\n- Solids and pure liquids are omitted from Q (activity = 1), as with K.",
+    "commonConfusions": "- **\"ΔG and ΔG° are the same thing.\"** — Wrong. ΔG° is a fixed standard-state constant; ΔG varies with actual conditions via RT ln Q.\n- **\"Use K instead of Q in ΔG = ΔG° + RT ln Q.\"** — Wrong. Use Q (current amounts); K is used only at equilibrium where ΔG = 0.\n- **\"A positive ΔG° means the reaction can never proceed forward.\"** — Wrong. With Q very small, RT ln Q can be negative enough to make ΔG < 0 even when ΔG° > 0.\n- **\"Include solids and liquids in Q.\"** — Wrong. Pure solids and liquids have activity 1 and are omitted.\n- **\"Forgetting the unit conversion.\"** — Wrong. ΔG° (kJ) and RT ln Q (J) must be reconciled before adding.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of ΔG° as the reaction's \"default mood\" under perfect, tidy conditions. Real conditions are messy — the reactants and products are rarely in their tidy amounts. The RT ln Q part is the \"mess correction\": it nudges the mood up or down depending on how crowded the product side already is. If products are scarce, the reaction is eager to go forward; if products are piled high, it wants to run backward. (The limit: the \"mood\" is really free energy, and \"crowded\" is quantified by the reaction quotient Q compared to the equilibrium constant K.)",
+    "quickReview": "- ΔG = ΔG° + RT ln Q.\n- Q is built from current amounts, not equilibrium amounts.\n- Compare Q to K to get the sign of ΔG and the reaction direction.\n- RT ln Q = 0 when Q = 1 (standard conditions).\n- Watch units: convert ΔG° to J/mol before adding.",
+    "workedExamples": "### Worked Example\n\n**For N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g) with ΔG° = −33.0 kJ/mol at 25 °C, find ΔG when P(N₂) = 1.0 atm, P(H₂) = 3.0 atm, P(NH₃) = 0.50 atm.**\n\n- Q = P(NH₃)² / [P(N₂) · P(H₂)³] = (0.50)² / [1.0 × (3.0)³] = 0.25 / 27 = 9.26 × 10⁻³\n- ln Q = ln(9.26 × 10⁻³) = −4.68\n- RT ln Q = 8.314 J/(mol·K) × 298 K × (−4.68) = −11,600 J/mol = −11.6 kJ/mol\n- ΔG = ΔG° + RT ln Q = −33.0 + (−11.6) = **−44.6 kJ/mol**\n\nΔG < 0, so the mixture is still on the product side of equilibrium and will keep forming NH₃. (Q = 9.26 × 10⁻³ is far less than K ≈ 6 × 10⁵.)",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 16.4 \"Free Energy.\" https://openstax.org/books/chemistry-2e/pages/16-4-free-energy",
+        "url": "https://openstax.org/books/chemistry-2e/pages/16-4-free-energy"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "nonstandard-free-energy",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "08-nonstandard-free-energy",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b7b3522a43734924"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b7b3522a43734924"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b7b3522a43734924"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b7b3522a43734924"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/16-chemical-thermodynamics/08-nonstandard-free-energy.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Nonstandard Free Energy\n\n## Learning Goals\n\n- Write the relationship between ΔG and ΔG°: ΔG = ΔG° + RT ln Q.\n- Define the reaction quotient Q and compute it from given concentrations or partial pressures.\n- Use ΔG (not ΔG°) to predict direction under nonstandard conditions.\n- Explain how Q relative to K determines the sign of ΔG.\n\n## Core Concept\n\nReal reactions rarely run at standard conditions. The **nonstandard free-energy change** is given by **ΔG = ΔG° + RT ln Q**, where Q is the reaction quotient (same form as K, but with actual current concentrations/pressures). When Q < K, ln Q is negative enough that ΔG < 0 and the reaction proceeds forward; when Q > K, ΔG > 0 and it proceeds in reverse; when Q = K, ΔG = 0 and the system is at equilibrium. The term RT ln Q is the correction that moves the standard value to actual conditions.\n\n## Key Ideas\n\n- **Same form as K.** Q = [products]^ν / [reactants]^ν using *current* (not equilibrium) amounts; gases use partial pressures.\n- **RT ln Q is the concentration correction.** It is zero when Q = 1 (standard-ish conditions) and nonzero otherwise.\n- **Direction from Q vs. K.** Q < K ⇒ ΔG < 0 (forward); Q > K ⇒ ΔG > 0 (reverse); Q = K ⇒ ΔG = 0.\n- **Spontaneity is now \"actual.\"** ΔG, not ΔG°, tells you which way a real reaction mixture moves.\n- **Units.** R = 8.314 J/(mol·K); ΔG° must be in J/mol (convert from kJ) so the terms add.\n\n## Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| ΔG | Nonstandard free-energy change | kJ/mol (or J/mol) |\n| ΔG° | Standard free-energy change | kJ/mol |\n| R | Gas constant = 8.314 J/(mol·K) | J/(mol·K) |\n| T | Absolute temperature | K |\n| Q | Reaction quotient | dimensionless |\n\nΔG = ΔG° + RT ln Q\n\n## How It Works\n\n1. Compute ΔG° from tables.\n2. Write Q from the actual concentrations/pressures.\n3. Evaluate RT ln Q (convert ΔG° to J/mol so units match).\n4. Add. The sign of ΔG tells the actual spontaneous direction.\n\n## Worked Example\n\n**For N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g) with ΔG° = −33.0 kJ/mol at 25 °C, find ΔG when P(N₂) = 1.0 atm, P(H₂) = 3.0 atm, P(NH₃) = 0.50 atm.**\n\n- Q = P(NH₃)² / [P(N₂) · P(H₂)³] = (0.50)² / [1.0 × (3.0)³] = 0.25 / 27 = 9.26 × 10⁻³\n- ln Q = ln(9.26 × 10⁻³) = −4.68\n- RT ln Q = 8.314 J/(mol·K) × 298 K × (−4.68) = −11,600 J/mol = −11.6 kJ/mol\n- ΔG = ΔG° + RT ln Q = −33.0 + (−11.6) = **−44.6 kJ/mol**\n\nΔG < 0, so the mixture is still on the product side of equilibrium and will keep forming NH₃. (Q = 9.26 × 10⁻³ is far less than K ≈ 6 × 10⁵.)\n\n## Why It Matters\n\nThe correction RT ln Q is what makes thermodynamics predictive in the lab and in living cells, where concentrations are almost never standard. It explains why a reaction \"downhill\" in ΔG° can be driven backward by flooding it with product, and it underpins how concentration gradients power everything from batteries to active transport.\n\n## High-Yield Facts\n\n- ΔG = ΔG° + RT ln Q.\n- Q uses *actual* concentrations/pressures; K uses *equilibrium* values.\n- Q < K ⇒ ΔG < 0 (forward); Q > K ⇒ ΔG > 0 (reverse); Q = K ⇒ ΔG = 0.\n- Convert ΔG° to J/mol (or use R in kJ) so the terms share units.\n- At standard conditions Q = 1, so ΔG = ΔG°.\n- Solids and pure liquids are omitted from Q (activity = 1), as with K.\n\n## Eli Explains\n\nThink of ΔG° as the reaction's \"default mood\" under perfect, tidy conditions. Real conditions are messy — the reactants and products are rarely in their tidy amounts. The RT ln Q part is the \"mess correction\": it nudges the mood up or down depending on how crowded the product side already is. If products are scarce, the reaction is eager to go forward; if products are piled high, it wants to run backward. (The limit: the \"mood\" is really free energy, and \"crowded\" is quantified by the reaction quotient Q compared to the equilibrium constant K.)\n\n## Common Confusions\n\n- **\"ΔG and ΔG° are the same thing.\"** — Wrong. ΔG° is a fixed standard-state constant; ΔG varies with actual conditions via RT ln Q.\n- **\"Use K instead of Q in ΔG = ΔG° + RT ln Q.\"** — Wrong. Use Q (current amounts); K is used only at equilibrium where ΔG = 0.\n- **\"A positive ΔG° means the reaction can never proceed forward.\"** — Wrong. With Q very small, RT ln Q can be negative enough to make ΔG < 0 even when ΔG° > 0.\n- **\"Include solids and liquids in Q.\"** — Wrong. Pure solids and liquids have activity 1 and are omitted.\n- **\"Forgetting the unit conversion.\"** — Wrong. ΔG° (kJ) and RT ln Q (J) must be reconciled before adding.\n\n## Quick Review\n\n- ΔG = ΔG° + RT ln Q.\n- Q is built from current amounts, not equilibrium amounts.\n- Compare Q to K to get the sign of ΔG and the reaction direction.\n- RT ln Q = 0 when Q = 1 (standard conditions).\n- Watch units: convert ΔG° to J/mol before adding.\n\n## Sources\n\n- OpenStax, *Chemistry 2e*, Ch. 16.4 \"Free Energy.\" https://openstax.org/books/chemistry-2e/pages/16-4-free-energy\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n"
+}

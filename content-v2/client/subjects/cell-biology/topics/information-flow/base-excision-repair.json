@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:information-flow:base-excision-repair",
+  "slug": "base-excision-repair",
+  "title": "Base Excision Repair",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:information-flow",
+    "slug": "information-flow",
+    "title": "Information Flow",
+    "order": 10
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "Base excision repair (BER) removes damaged or inappropriate DNA *bases* — such as oxidized, alkylated, or deaminated bases and uracil — that do not distort the helix. A lesion-specific DNA glycosylase flips the damaged base out and cleaves its glycosidic bond, leaving an abasic (AP) site. The sugar-phosphate backbone is then nicked, the gap is processed, and the correct nucleotide is reinserted by a DNA polymerase and sealed by ligase. BER is the cell's main defense against the thousands of spontaneous and reactive-oxygen-species-induced base lesions that arise daily.",
+    "whyItMatters": "BER constantly protects the genome from endogenous damage — depurination, deamination, and oxidative lesions caused by normal metabolism. Its failure accelerates mutagenesis and is implicated in cancer and neurodegeneration. BER also processes the lesions induced by certain chemotherapeutics and radiation, so its enzymes are both drug targets and determinants of therapy response.",
+    "learningObjectives": "- Define base excision repair (BER) and the types of DNA damage it removes.\n- Describe the roles of DNA glycosylases, AP endonuclease, and the downstream polymerases/ligases.\n- Distinguish short-patch from long-patch BER.\n- Explain why BER is critical for defending against oxidative and deamination damage.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nBase excision repair (BER) removes damaged or inappropriate DNA *bases* — such as oxidized, alkylated, or deaminated bases and uracil — that do not distort the helix. A lesion-specific DNA glycosylase flips the damaged base out and cleaves its glycosidic bond, leaving an abasic (AP) site. The sugar-phosphate backbone is then nicked, the gap is processed, and the correct nucleotide is reinserted by a DNA polymerase and sealed by ligase. BER is the cell's main defense against the thousands of spontaneous and reactive-oxygen-species-induced base lesions that arise daily.\n\n### Key Components\n\n- **DNA glycosylases** (e.g., uracil-DNA glycosylase/UNG, OGG1 for 8-oxoguanine) — recognize and excise specific damaged bases.\n- **AP endonuclease (APE1)** — nicks the backbone 5′ to the abasic site.\n- **DNA polymerase β (short patch)** — the main BER polymerase; removes the baseless sugar and inserts the correct base.\n- **DNA polymerase δ/ε and PCNA (long patch)** — replace a 2–10 nucleotide flap in long-patch BER.\n- **Flap endonuclease (FEN1)** — removes the displaced flap in long-patch BER.\n- **DNA ligase III/XRCC1 (short patch) or ligase I (long patch)** — seal the final nick.\n\n### Mechanism\n\nEach glycosylase recognizes a narrow class of lesions and cleaves the N-glycosidic bond, creating an apurinic/apyrimidinic (AP) site. APE1 then cuts the backbone, generating a nick with a 3′-OH and a 5′-deoxyribose phosphate. In short-patch BER, polymerase β removes the sugar-phosphate and inserts one correct nucleotide, and ligase III/XRCC1 seals the nick. In long-patch BER (when the 5′ end is blocked or modified), polymerase δ/ε displaces a short flap that FEN1 removes, and ligase I seals the longer gap.\n\n### How It Works\n\n1. A base is damaged (e.g., cytosine deaminated to uracil, or guanine oxidized to 8-oxoguanine).\n2. A specific DNA glycosylase flips the damaged base out of the helix and hydrolyzes its glycosidic bond, leaving an AP site.\n3. AP endonuclease 1 incises the backbone 5′ to the AP site, creating a 3′-OH and a 5′-deoxyribose phosphate.\n4. Short-patch: DNA polymerase β removes the 5′-deoxyribose phosphate and inserts the correct nucleotide.\n5. DNA ligase III (with XRCC1) seals the nick.\n6. Alternatively, long-patch: pol δ/ε (with PCNA) extends several nucleotides, FEN1 clips the displaced flap, and ligase I seals.\n\n### Energy and Directionality\n\nBER consumes dNTPs (for resynthesis) and ATP (for ligation and some glycosylase/processing steps); the initial glycosylase cleavage does not require external energy beyond the chemistry of bond hydrolysis. Directionality is defined by the lesion: repair proceeds from the damaged base outward, always resynthesizing 5′→3′ off the intact complementary strand, so the correct sequence is restored from the undamaged template. The choice of short- versus long-patch depends on the state of the 5′ terminus.\n\n### Experimental Evidence\n\n- **Uracil incorporation** — enzymes that remove uracil from DNA were first detected because dUTP misincorporation is toxic; UNG-deficient cells accumulate uracil.\n- **Knockout studies** — mice lacking individual glycosylases or APE1 show elevated mutation rates and, for APE1, embryonic lethality, proving BER's essential role.\n- **OGG1 and 8-oxoguanine** — deletion of OGG1 increases G→T transversions, the signature mutation of oxidative damage.\n- **In vitro reconstitution** — purified glycosylase, APE1, pol β, and ligase complete short-patch repair on defined substrates, confirming the pathway order.\n\n### Technique\n\nBER activity is assayed with **synthetic oligonucleotides containing a single defined lesion**, incubating with cell extracts or purified enzymes and resolving products by gel electrophoresis. **Comet assay** measures overall DNA strand breaks, and **glycosylase-specific assays** (e.g., aldehyde-reactive probes) quantify AP sites. **Whole-genome sequencing** of knockout cells reveals the mutation spectra attributable to each enzyme.",
+    "howItWorks": "1. A base is damaged (e.g., cytosine deaminated to uracil, or guanine oxidized to 8-oxoguanine).\n2. A specific DNA glycosylase flips the damaged base out of the helix and hydrolyzes its glycosidic bond, leaving an AP site.\n3. AP endonuclease 1 incises the backbone 5′ to the AP site, creating a 3′-OH and a 5′-deoxyribose phosphate.\n4. Short-patch: DNA polymerase β removes the 5′-deoxyribose phosphate and inserts the correct nucleotide.\n5. DNA ligase III (with XRCC1) seals the nick.\n6. Alternatively, long-patch: pol δ/ε (with PCNA) extends several nucleotides, FEN1 clips the displaced flap, and ligase I seals.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- BER removes damaged *bases* (oxidized, deaminated, alkylated, uracil) that don't distort the helix.\n- Step 1: a DNA glycosylase excises the base → AP site.\n- Step 2: APE1 nicks 5′ to the AP site.\n- Short-patch: pol β inserts one nucleotide; ligase III/XRCC1 seals.\n- Long-patch: pol δ/ε displaces a flap; FEN1 removes it; ligase I seals.\n- Glycosylases are lesion-specific (UNG for uracil, OGG1 for 8-oxoguanine).\n- BER is distinct from mismatch repair (replication errors) and NER (bulky helix-distorting lesions).",
+    "commonConfusions": "- **\"BER and mismatch repair do the same job\"** — MMR fixes *mispaired but normal* bases after replication; BER removes *chemically damaged* bases.\n- **\"NER and BER are interchangeable\"** — NER handles bulky, helix-distorting lesions (e.g., UV dimers); BER handles small, non-distorting base damage.\n- **\"The glycosylase removes the whole nucleotide\"** — it removes only the base; APE1 then cuts the backbone.\n- **\"Only one polymerase is used\"** — short-patch uses pol β; long-patch uses pol δ/ε with PCNA and FEN1.\n- **\"BER errors don't matter\"** — unrepaired oxidative lesions drive G→T mutations and age-related genome instability.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a long word where one letter has been scorched and smudged so it might be read wrong. BER is the fix-it kit that spots that one bad letter, snips it out of the paper, and glues in a fresh, correct letter using the other side as the guide. It only works on single damaged letters — bigger rips in the page need a different repair crew. (The analogy's limit: the \"smudge\" is a chemically altered base recognized by a specific enzyme that physically flips the base out of the DNA strand to cut it off.)",
+    "quickReview": "- BER targets damaged bases (uracil, 8-oxoguanine, alkylated/deaminated bases).\n- Glycosylase → AP site → APE1 nick → pol β (short) or pol δ/ε (long) → ligase.\n- Short-patch: 1 nucleotide; long-patch: 2–10 nt flap removed by FEN1.\n- Restores sequence from the intact template; consumes dNTPs and ATP.\n- Essential against endogenous/oxidative damage; defects raise mutation rates.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"14.6 DNA Repair.\" https://openstax.org/books/biology-2e/pages/14-6-dna-repair",
+        "url": "https://openstax.org/books/biology-2e/pages/14-6-dna-repair"
+      },
+      {
+        "text": "Brown, T.A., *Genomes*, 2nd ed., \"Mutation, Repair and Recombination.\" https://www.ncbi.nlm.nih.gov/books/NBK21114/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+      },
+      {
+        "text": "Nature Scitable, \"Mutation, DNA Repair, and DNA Integrity.\" https://www.nature.com/scitable/topicpage/dna-damage-repair-mechanisms-for-maintaining-dna-344/",
+        "url": "https://www.nature.com/scitable/topicpage/dna-damage-repair-mechanisms-for-maintaining-dna-344/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"DNA Replication Mechanisms.\" https://www.ncbi.nlm.nih.gov/books/NBK26850/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/10-information-flow/06-base-excision-repair.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

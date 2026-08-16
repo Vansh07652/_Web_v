@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-ions-and-electrolytes-q09",
+  "subject": "chemistry-1",
+  "lesson": "ions-and-electrolytes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A hypothetical teaching solution is analyzed for four cations: Na+ 5 mmol/L, Mg2+ 2 mmol/L, K+ 4 mmol/L, and Ca2+ 3 mmol/L. Which cation contributes the most positive charge per liter, and how much?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Na+, contributing 5 mEq/L, because it is present at the highest millimolar concentration"
+    },
+    {
+      "id": "b",
+      "text": "Mg2+, contributing 4 mEq/L, because its double charge outweighs every other cation listed"
+    },
+    {
+      "id": "c",
+      "text": "K+, contributing 4 mEq/L, because monovalent ions dominate the charge total in solution"
+    },
+    {
+      "id": "d",
+      "text": "Ca2+, contributing 6 mEq/L, because its 3 mmol/L is doubled by its 2+ charge"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Charge contribution is millimoles multiplied by charge magnitude: Na+ gives 5 x 1 = 5 mEq/L, Mg2+ gives 2 x 2 = 4 mEq/L, K+ gives 4 x 1 = 4 mEq/L, and Ca2+ gives 3 x 2 = 6 mEq/L. Calcium is highest even though sodium has the larger millimolar concentration, because the 2+ charge doubles calcium's contribution. Note that Mg2+ and K+ tie at 4 mEq/L from very different millimolar amounts, which shows that concentration ranking alone does not predict charge ranking.\n\nELI-10: Rank by charge, not by headcount. Convert each entry first by multiplying millimoles by the number of charges the ion carries: sodium 5 x 1 = 5, magnesium 2 x 2 = 4, potassium 4 x 1 = 4, calcium 3 x 2 = 6. Calcium wins at 6 even though sodium had the biggest raw number, because each calcium ion brings two units of charge. The magnesium and potassium tie makes the point sharply - 2 mmol/L of a divalent ion carries exactly as much charge as 4 mmol/L of a monovalent one.",
+  "difficulty": "medium",
+  "tags": [
+    "valence weighting of charge",
+    "divalent vs monovalent cations",
+    "comparing mEq/L contributions"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-273",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

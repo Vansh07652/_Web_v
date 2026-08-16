@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:cellular-energetics-and-metabolism:cellular-respiration",
+  "slug": "cellular-respiration",
+  "title": "Cellular Respiration: Glycolysis to Oxidative Phosphorylation",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:cellular-energetics-and-metabolism",
+    "slug": "cellular-energetics-and-metabolism",
+    "title": "Cellular Energetics And Metabolism",
+    "order": 4
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "Cellular respiration is the controlled, stepwise **oxidation of glucose** to CO₂ and H₂O, releasing free energy that is captured as ATP. It is a series of redox reactions in which electrons (carried by NADH and FADH₂) are stripped from fuel and passed, in many small steps, to the final electron acceptor **oxygen**. The energy released at each step is used — first to make a little ATP directly, and finally to pump protons and drive ATP synthase. The overall reaction is:\n\nC₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + energy (~30–32 ATP)",
+    "whyItMatters": "Cellular respiration is how nearly all eukaryotic cells extract energy from food, and it is the central connection between diet, energy, and disease. Mitochondrial dysfunction underlies many inherited metabolic disorders and aspects of aging; cyanide and carbon monoxide kill by blocking the ETC; and the proton-motive force is a universal energy-coupling mechanism shared with photosynthesis and bacterial metabolism. Understanding where the CO₂ you exhale and the water you produce come from — and where the ATP comes from — is foundational for physiology, biochemistry, and medicine.",
+    "learningObjectives": "- Write the overall equation for aerobic respiration and explain its redox logic (glucose oxidized, O₂ reduced).\n- Describe the roles of NAD⁺/NADH and FAD/FADH₂ as electron carriers.\n- For each stage — glycolysis, pyruvate oxidation, the citric acid cycle, and oxidative phosphorylation — state its location, inputs, and outputs.\n- Explain chemiosmosis and the role of the electron transport chain and ATP synthase.\n- Explain why the ATP yield is ~30–32 per glucose rather than a fixed number.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nCellular respiration is the controlled, stepwise **oxidation of glucose** to CO₂ and H₂O, releasing free energy that is captured as ATP. It is a series of redox reactions in which electrons (carried by NADH and FADH₂) are stripped from fuel and passed, in many small steps, to the final electron acceptor **oxygen**. The energy released at each step is used — first to make a little ATP directly, and finally to pump protons and drive ATP synthase. The overall reaction is:\n\nC₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + energy (~30–32 ATP)\n\n### Key Concepts\n\n### Redox and Electron Carriers\n**Oxidation** is the loss of electrons; **reduction** is the gain of electrons (remember OIL RIG). In respiration, glucose is oxidized (loses electrons), and O₂ is reduced (gains electrons, becoming H₂O). The electron carriers **NAD⁺** and **FAD** pick up electrons (plus protons) to become **NADH** and **FADH₂**, shuttling the high-energy electrons to the electron transport chain.\n\n### Stage 1: Glycolysis (cytosol)\nGlucose (6 carbons) is split into **2 pyruvate** (3 carbons each) through a series of 10 enzyme-catalyzed steps. Glycolysis **does not require oxygen** and yields a net of **2 ATP** (by substrate-level phosphorylation) and **2 NADH** per glucose. It is the ancient, universal pathway shared by nearly all organisms.\n\n### Stage 2: Pyruvate Oxidation (mitochondrial matrix)\nEach pyruvate is transported into the mitochondrial matrix and converted to **acetyl-CoA**, releasing **1 CO₂** and producing **1 NADH** per pyruvate (so **2 CO₂ and 2 NADH per glucose**). Acetyl-CoA is the two-carbon fuel that enters the next stage.\n\n### Stage 3: The Citric Acid (Krebs) Cycle (mitochondrial matrix)\nAcetyl-CoA (2 C) combines with oxaloacetate (4 C) to form citrate (6 C), which is then progressively oxidized, regenerating oxaloacetate. For each acetyl-CoA (two per glucose), the cycle produces **2 CO₂, 3 NADH, 1 FADH₂, and 1 GTP (≈ ATP)**. Per glucose: **4 CO₂, 6 NADH, 2 FADH₂, 2 ATP**.\n\n### Stage 4: Oxidative Phosphorylation (inner mitochondrial membrane)\nThis stage has two linked parts:\n- **Electron transport chain (ETC):** NADH and FADH₂ donate electrons to a series of protein complexes (I–IV) embedded in the inner membrane. As electrons fall to lower energy levels, the complexes pump **protons (H⁺)** from the matrix into the intermembrane space, building a proton gradient. Finally, electrons are passed to **O₂**, the terminal acceptor, which is reduced to water.\n- **Chemiosmosis:** the proton gradient is potential energy — the **proton-motive force**. Protons flow back into the matrix only through **ATP synthase**, a molecular turbine whose rotation phosphorylates ADP to ATP.\n\nThis stage produces the vast majority of the ATP (~26–28 molecules).\n\n### ATP Accounting and Why It Varies\nSubstrate-level phosphorylation gives a fixed **4 ATP** (2 from glycolysis, 2 from the citric acid cycle). Oxidative phosphorylation gives a variable amount because (a) the number of protons pumped per NADH/FADH₂ differs slightly by cell type, (b) the NADH made in glycolysis must be shuttled into the mitochondrion (the malate-aspartate vs. glycerol-phosphate shuttle), and (c) protons are also used for other transport. Hence the commonly cited **~30–32 ATP per glucose**, not a single exact number.\n\n### How It Works\n\n(1) Glycolysis partially oxidizes glucose to two pyruvate in the cytosol, capturing a little energy. (2) In the matrix, pyruvate is decarboxylated and linked to coenzyme A; the electrons harvested become NADH. (3) The citric acid cycle fully oxidizes the acetyl carbons to CO₂, loading NAD⁺ and FAD into NADH and FADH₂. (4) These carriers hand their electrons to the ETC; as electrons descend the chain, energy is used to pump H⁺ outward, creating a gradient. (5) H⁺ flows back through ATP synthase, driving the synthesis of most of the cell's ATP. Oxygen's only role is at the very end — accepting electrons so the chain keeps running. Remove O₂ and everything backs up (which is why fermentation, covered separately, is needed to recycle NAD⁺ in the absence of oxygen).",
+    "howItWorks": "(1) Glycolysis partially oxidizes glucose to two pyruvate in the cytosol, capturing a little energy. (2) In the matrix, pyruvate is decarboxylated and linked to coenzyme A; the electrons harvested become NADH. (3) The citric acid cycle fully oxidizes the acetyl carbons to CO₂, loading NAD⁺ and FAD into NADH and FADH₂. (4) These carriers hand their electrons to the ETC; as electrons descend the chain, energy is used to pump H⁺ outward, creating a gradient. (5) H⁺ flows back through ATP synthase, driving the synthesis of most of the cell's ATP. Oxygen's only role is at the very end — accepting electrons so the chain keeps running. Remove O₂ and everything backs up (which is why fermentation, covered separately, is needed to recycle NAD⁺ in the absence of oxygen).",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Overall: glucose + O₂ → CO₂ + H₂O + ~30–32 ATP.\n- Oxidation = loss of electrons; reduction = gain (OIL RIG); NAD⁺→NADH, FAD→FADH₂.\n- Glycolysis: cytosol, glucose → 2 pyruvate, net 2 ATP + 2 NADH (no O₂ needed).\n- Pyruvate oxidation: matrix, pyruvate → acetyl-CoA, 1 CO₂ + 1 NADH each.\n- Citric acid cycle: matrix, 2 CO₂ + 3 NADH + 1 FADH₂ + 1 GTP per acetyl-CoA.\n- Oxidative phosphorylation: inner membrane, ETC + chemiosmosis; O₂ is the final electron acceptor.\n- Most ATP is made by ATP synthase driven by the proton gradient.\n- ATP total ~30–32 (variable: shuttles, proton counts, proton use).",
+    "commonConfusions": "- **\"Respiration is the same as breathing.\"** Wrong — cellular respiration is the metabolic oxidation of glucose; breathing is the organism-level gas exchange that supplies O₂ and removes CO₂.\n- **\"Glycolysis requires oxygen.\"** Wrong — glycolysis is anaerobic and runs with or without oxygen.\n- **\"The citric acid cycle makes most of the ATP directly.\"** Wrong — it makes only 2 ATP (as GTP); most ATP comes later from oxidative phosphorylation.\n- **\"Oxygen is used in glycolysis or the Krebs cycle.\"** Wrong — O₂ is used only at the end of the electron transport chain, as the final electron acceptor.\n- **\"Exactly 38 ATP are produced.\"** Wrong — modern estimates are ~30–32, and the number varies by cell type and shuttle used.\n- **\"FADH₂ yields the same ATP as NADH.\"** Wrong — FADH₂ enters the ETC later and drives less proton pumping, so it yields less ATP.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of glucose as a fully charged battery full of energy. Respiration is the careful way the cell drains that battery: instead of burning it in one big flame (which would waste the energy as heat), the cell hands the battery's energy down a line of little \"bucket brigades\" — NADH and FADH₂ — a few sparks at a time. Glycolysis cracks the sugar in half (in the cytoplasm), then the mitochondrion strips its carbon atoms off one by one, releasing CO₂ (the air you breathe out) and loading up the buckets. Finally, the buckets dump their electrons into a chain of pumps that shove protons out of the mitochondrion like water behind a dam; when the protons rush back through a turbine (ATP synthase), the turbine spins and cranks out ATP — the cell's cash. Oxygen's job is at the very end: it's the garbage can that takes the spent electrons and, with protons, becomes water. The battery-and-dam analogy's limit: energy isn't literally \"contained in\" glucose like a charged battery — it's released by rearranging atoms into more stable molecules (CO₂ and H₂O), and the \"bucket brigade\" is really a series of chemical redox reactions, not people passing buckets.",
+    "quickReview": "- Redox: glucose oxidized, O₂ reduced to water; NAD⁺/FAD are electron carriers.\n- Glycolysis (cytosol): 2 pyruvate, 2 ATP, 2 NADH.\n- Pyruvate oxidation (matrix): acetyl-CoA + CO₂ + NADH.\n- Citric acid cycle (matrix): 2 CO₂, 3 NADH, 1 FADH₂, 1 GTP per turn.\n- ETC (inner membrane): electrons → O₂; protons pumped to build gradient.\n- Chemiosmosis: H⁺ flows through ATP synthase → most ATP.\n- Total ~30–32 ATP per glucose, variable.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"7.2 Glycolysis.\" https://openstax.org/books/biology-2e/pages/7-2-glycolysis",
+        "url": "https://openstax.org/books/biology-2e/pages/7-2-glycolysis"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"7.3 Oxidation of Pyruvate and the Citric Acid Cycle.\" https://openstax.org/books/biology-2e/pages/7-3-oxidation-of-pyruvate-and-the-citric-acid-cycle",
+        "url": "https://openstax.org/books/biology-2e/pages/7-3-oxidation-of-pyruvate-and-the-citric-acid-cycle"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"7.4 Oxidative Phosphorylation.\" https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation",
+        "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation"
+      },
+      {
+        "text": "Berg, Tymoczko & Stryer, *Biochemistry*, 5th ed., \"The Citric Acid Cycle\" and \"Oxidative Phosphorylation.\" NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/04-cellular-energetics-and-metabolism/04-cellular-respiration.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

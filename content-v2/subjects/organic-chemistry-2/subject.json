@@ -1,0 +1,767 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:organic-chemistry-2",
+    "slug": "organic-chemistry-2",
+    "title": "Organic Chemistry II",
+    "aliases": [
+      {
+        "value": "organic-chemistry-2",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "ochem2",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "OCHEM2",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "organic chemistry ii",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "organic_chemistry_2",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "organic-chemistry-2",
+        "kind": "source_course_directory",
+        "source_id": "organic_chemistry"
+      },
+      {
+        "value": "ochem2",
+        "kind": "current_web_slug",
+        "source_id": "current_web"
+      }
+    ],
+    "status": "partial",
+    "category": "pre-health-core"
+  },
+  "units": [
+    {
+      "id": "unit:organic-chemistry-2:spectroscopy",
+      "slug": "spectroscopy",
+      "title": "Spectroscopy",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "spectroscopy",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-2:spectroscopy:mass-spectrometry",
+          "slug": "mass-spectrometry",
+          "title": "Mass Spectrometry",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/spectroscopy/mass-spectrometry.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:spectroscopy:infrared-spectroscopy",
+          "slug": "infrared-spectroscopy",
+          "title": "Infrared Spectroscopy",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/spectroscopy/infrared-spectroscopy.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:spectroscopy:nuclear-magnetic-resonance-spectroscopy",
+          "slug": "nuclear-magnetic-resonance-spectroscopy",
+          "title": "Nuclear Magnetic Resonance Spectroscopy",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/spectroscopy/nuclear-magnetic-resonance-spectroscopy.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:spectroscopy:ultraviolet-visible-spectroscopy",
+          "slug": "ultraviolet-visible-spectroscopy",
+          "title": "Ultraviolet-Visible Spectroscopy",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/spectroscopy/ultraviolet-visible-spectroscopy.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:organic-chemistry-2:reaction-mechanism",
+      "slug": "reaction-mechanism",
+      "title": "Reaction Mechanism",
+      "order": 2,
+      "aliases": [
+        {
+          "value": "reaction-mechanism",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-2:reaction-mechanism:oxidation-reduction-and-alcohol-protecting-groups",
+          "slug": "oxidation-reduction-and-alcohol-protecting-groups",
+          "title": "Oxidation, Reduction, and Alcohol Protecting Groups",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/reaction-mechanism/oxidation-reduction-and-alcohol-protecting-groups.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:reaction-mechanism:ethers-epoxides-thiols-and-sulfides",
+          "slug": "ethers-epoxides-thiols-and-sulfides",
+          "title": "Ethers, Epoxides, Thiols, and Sulfides",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/reaction-mechanism/ethers-epoxides-thiols-and-sulfides.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:reaction-mechanism:conjugated-dienes",
+          "slug": "conjugated-dienes",
+          "title": "Conjugated Dienes",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/reaction-mechanism/conjugated-dienes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:reaction-mechanism:pericyclic-reactions",
+          "slug": "pericyclic-reactions",
+          "title": "Pericyclic Reactions",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/reaction-mechanism/pericyclic-reactions.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:reaction-mechanism:reactions-at-the-benzylic-position",
+          "slug": "reactions-at-the-benzylic-position",
+          "title": "Reactions at the Benzylic Position",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/reaction-mechanism/reactions-at-the-benzylic-position.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:reaction-mechanism:electrophilic-aromatic-substitution",
+          "slug": "electrophilic-aromatic-substitution",
+          "title": "Electrophilic Aromatic Substitution",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/reaction-mechanism/electrophilic-aromatic-substitution.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:reaction-mechanism:substituent-effects-in-electrophilic-aromatic-substitution",
+          "slug": "substituent-effects-in-electrophilic-aromatic-substitution",
+          "title": "Substituent Effects in Electrophilic Aromatic Substitution",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/reaction-mechanism/substituent-effects-in-electrophilic-aromatic-substitution.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:reaction-mechanism:nucleophilic-aromatic-substitution",
+          "slug": "nucleophilic-aromatic-substitution",
+          "title": "Nucleophilic Aromatic Substitution",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/reaction-mechanism/nucleophilic-aromatic-substitution.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:reaction-mechanism:nucleophilic-addition-reactions-of-aldehydes-and-ketones",
+          "slug": "nucleophilic-addition-reactions-of-aldehydes-and-ketones",
+          "title": "Nucleophilic Addition Reactions of Aldehydes and Ketones",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/reaction-mechanism/nucleophilic-addition-reactions-of-aldehydes-and-ketones.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:reaction-mechanism:the-wittig-reaction",
+          "slug": "the-wittig-reaction",
+          "title": "The Wittig Reaction",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/reaction-mechanism/the-wittig-reaction.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:reaction-mechanism:the-baeyer-villiger-oxidation",
+          "slug": "the-baeyer-villiger-oxidation",
+          "title": "The Baeyer-Villiger Oxidation",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/reaction-mechanism/the-baeyer-villiger-oxidation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:organic-chemistry-2:organometallic-synthesis",
+      "slug": "organometallic-synthesis",
+      "title": "Organometallic Synthesis",
+      "order": 3,
+      "aliases": [
+        {
+          "value": "organometallic-synthesis",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-2:organometallic-synthesis:organometallic-reagents",
+          "slug": "organometallic-reagents",
+          "title": "Organometallic Reagents",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/organometallic-synthesis/organometallic-reagents.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:organometallic-synthesis:palladium-catalyzed-coupling-reactions-and-alkene-metathesis",
+          "slug": "palladium-catalyzed-coupling-reactions-and-alkene-metathesis",
+          "title": "Palladium-Catalyzed Coupling Reactions and Alkene Metathesis",
+          "order": 30,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/organometallic-synthesis/palladium-catalyzed-coupling-reactions-and-alkene-metathesis.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:organic-chemistry-2:aromatic-chemistry",
+      "slug": "aromatic-chemistry",
+      "title": "Aromatic Chemistry",
+      "order": 4,
+      "aliases": [
+        {
+          "value": "aromatic-chemistry",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-2:aromatic-chemistry:aromaticity",
+          "slug": "aromaticity",
+          "title": "Aromaticity",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/aromatic-chemistry/aromaticity.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:organic-chemistry-2:carbonyl-chemistry",
+      "slug": "carbonyl-chemistry",
+      "title": "Carbonyl Chemistry",
+      "order": 5,
+      "aliases": [
+        {
+          "value": "carbonyl-chemistry",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-2:carbonyl-chemistry:aldehydes-and-ketones-preparation-and-nomenclature",
+          "slug": "aldehydes-and-ketones-preparation-and-nomenclature",
+          "title": "Aldehydes and Ketones: Preparation and Nomenclature",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/carbonyl-chemistry/aldehydes-and-ketones-preparation-and-nomenclature.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:carbonyl-chemistry:carboxylic-acids",
+          "slug": "carboxylic-acids",
+          "title": "Carboxylic Acids",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/carbonyl-chemistry/carboxylic-acids.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:carbonyl-chemistry:nucleophilic-acyl-substitution",
+          "slug": "nucleophilic-acyl-substitution",
+          "title": "Nucleophilic Acyl Substitution",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/carbonyl-chemistry/nucleophilic-acyl-substitution.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:carbonyl-chemistry:reactions-of-carboxylic-acid-derivatives",
+          "slug": "reactions-of-carboxylic-acid-derivatives",
+          "title": "Reactions of Carboxylic Acid Derivatives",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/carbonyl-chemistry/reactions-of-carboxylic-acid-derivatives.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:organic-chemistry-2:enolate-chemistry",
+      "slug": "enolate-chemistry",
+      "title": "Enolate Chemistry",
+      "order": 6,
+      "aliases": [
+        {
+          "value": "enolate-chemistry",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-2:enolate-chemistry:alpha-substitution-and-enolates",
+          "slug": "alpha-substitution-and-enolates",
+          "title": "Alpha Substitution and Enolates",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/enolate-chemistry/alpha-substitution-and-enolates.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:enolate-chemistry:aldol-reactions",
+          "slug": "aldol-reactions",
+          "title": "Aldol Reactions",
+          "order": 23,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/enolate-chemistry/aldol-reactions.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:enolate-chemistry:claisen-condensations",
+          "slug": "claisen-condensations",
+          "title": "Claisen Condensations",
+          "order": 24,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/enolate-chemistry/claisen-condensations.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:enolate-chemistry:alkylation-of-enolates",
+          "slug": "alkylation-of-enolates",
+          "title": "Alkylation of Enolates",
+          "order": 25,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/enolate-chemistry/alkylation-of-enolates.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:enolate-chemistry:conjugate-additions-and-robinson-annulation",
+          "slug": "conjugate-additions-and-robinson-annulation",
+          "title": "Conjugate Additions and Robinson Annulation",
+          "order": 26,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/enolate-chemistry/conjugate-additions-and-robinson-annulation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:organic-chemistry-2:amines",
+      "slug": "amines",
+      "title": "Amines",
+      "order": 7,
+      "aliases": [
+        {
+          "value": "amines",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-2:amines:structure-properties-and-nomenclature-of-amines",
+          "slug": "structure-properties-and-nomenclature-of-amines",
+          "title": "Structure, Properties, and Nomenclature of Amines",
+          "order": 27,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/amines/structure-properties-and-nomenclature-of-amines.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:amines:preparation-of-amines",
+          "slug": "preparation-of-amines",
+          "title": "Preparation of Amines",
+          "order": 28,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/amines/preparation-of-amines.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:amines:reactions-of-amines",
+          "slug": "reactions-of-amines",
+          "title": "Reactions of Amines",
+          "order": 29,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/amines/reactions-of-amines.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:organic-chemistry-2:biological-molecules",
+      "slug": "biological-molecules",
+      "title": "Biological Molecules",
+      "order": 8,
+      "aliases": [
+        {
+          "value": "biological-molecules",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:organic-chemistry-2:biological-molecules:carbohydrates",
+          "slug": "carbohydrates",
+          "title": "Carbohydrates",
+          "order": 31,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/biological-molecules/carbohydrates.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:biological-molecules:amino-acids-peptides-and-proteins",
+          "slug": "amino-acids-peptides-and-proteins",
+          "title": "Amino Acids, Peptides, and Proteins",
+          "order": 32,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/biological-molecules/amino-acids-peptides-and-proteins.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:organic-chemistry-2:biological-molecules:lipids",
+          "slug": "lipids",
+          "title": "Lipids",
+          "order": 33,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/organic-chemistry-2/topics/biological-molecules/lipids.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 8,
+    "topicCount": 33,
+    "teachingTopicCount": 33,
+    "eli10TopicCount": 33,
+    "highYieldTopicCount": 33,
+    "referencedTopicCount": 0,
+    "exactOrMappedQuestionCount": 0,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 0,
+    "citationReviewRequiredCount": 0
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

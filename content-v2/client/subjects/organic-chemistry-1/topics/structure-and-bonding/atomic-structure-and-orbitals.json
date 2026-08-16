@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:structure-and-bonding:atomic-structure-and-orbitals",
+  "slug": "atomic-structure-and-orbitals",
+  "title": "Atomic Structure and Orbitals",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:structure-and-bonding",
+    "slug": "structure-and-bonding",
+    "title": "Structure and Bonding",
+    "order": 1
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "An atom's electrons occupy **orbitals**, three-dimensional regions defined by solutions (wave functions) of the Schrödinger equation. Electrons fill orbitals in energy order, giving each element an **electron configuration** that mirrors its position on the periodic table. The **square of the wave function** gives the probability of finding an electron, and orbitals have **phase** (sign) as well as **nodes** (regions of zero probability). Only the outermost **valence electrons** form bonds, which is why carbon's four valence electrons yield four bonds.",
+    "whyItMatters": "Medical imaging leans directly on this chapter. MRI reads signals from hydrogen nuclear spins, a property tied to the quantum (not classical orbiting-electron) description of the atom, and PET imaging relies on quantum nuclear decay. A correct orbital model also underlies UV–vis absorption, the basis of many clinical assays and pharmaceutical quality-control measurements.",
+    "learningObjectives": "1. Write ground-state electron configurations for H, C, N, O, and halogens, and connect them to the periodic table.\n2. Describe the shapes and phases of s, p, and d atomic orbitals and distinguish radial from angular nodes.\n3. Explain what a wave function and its square (probability density) tell us about electron location.\n4. State why modern orbitals are probability regions rather than fixed electron paths, and why valence electrons matter in organic chemistry.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Wave function (ψ) | Mathematical function describing an electron | Source of every orbital shape and energy |\n| Probability density (ψ²) | Likelihood of finding the electron per unit volume | Turns ψ into the \"cloud\" we draw |\n| Electron probability | Chance of finding the electron in a region | Shows where electrons spend their time |\n| Atomic orbital | Region of high probability (s, p, d…) | Building block of all bonds |\n| Orbital phase | +/− sign of the wave function in a lobe | Decides bonding vs antibonding overlap |\n| Node (radial / angular) | Surface of zero electron probability | Explains size, shape, and energy |\n| Electron configuration | Listing of occupied orbitals | Predicts bonding behavior |\n| Valence electrons | Outermost-shell electrons | These form chemical bonds |\n| Orbitals vs fixed paths | Probability regions vs Bohr orbits | Corrects the \"planet\" model |",
+    "collegeNotes": "### 1. Wave Mechanics and Wave Functions\n\nElectrons behave as both particles and waves. In **wave mechanics**, each electron is described by a **wave function**, ψ (psi), obtained by solving the Schrödinger equation. The wave function itself has no direct physical meaning, but its **square, ψ²**, gives the **probability density** — the probability of finding the electron per unit volume. The **electron probability** over a region is the sum (integral) of ψ² across it. This is why orbitals are drawn as fuzzy \"electron clouds,\" densest where ψ² is largest.\n\n### 2. Orbitals and Their Shapes\n\nAn **atomic orbital** is a region of high electron probability defined by quantum numbers. **s** orbitals are spheres; the three **p** orbitals (pₓ, p_y, p_z) are dumbbell-shaped lobes along each axis; the five **d** orbitals are clover-leaf shaped. Every orbital carries **orbital phase** — the +/− sign of the wave function in each lobe. Phase decides bonding: same-phase lobes overlap constructively (bonding), opposite phases cancel (antibonding).\n\n### 3. Nodes\n\nA **node** is a surface where electron probability is exactly zero. **Radial nodes** are spherical surfaces between the nucleus and the orbital's edge (a 2s orbital has one). **Angular nodes** are planes through the nucleus (a 2p orbital has one). Total nodes rise with principal quantum number *n*: an *n*s orbital has *n* − 1 radial nodes, and each p orbital has one angular node. More nodes mean higher energy and a more diffuse orbital.\n\n### 4. Electron Configurations and the Periodic Table\n\nElectrons fill orbitals from lowest energy up (Aufbau principle), obeying the Pauli exclusion principle (two electrons per orbital, opposite spins) and Hund's rule (fill degenerate orbitals singly first). This produces an **electron configuration** such as carbon's 1s² 2s² 2p². The **periodic-table relationship** is direct: main-group elements in a group share the same number of **valence electrons** (outermost-shell electrons), so they share bonding patterns — all halogens have seven, all members of the carbon group have four.",
+    "howItWorks": "1. Solve the Schrödinger equation (conceptually) to obtain wave functions.\n2. Square each wave function to get a probability-density map for each orbital.\n3. Assign each orbital a size, shape, phase, and nodes.\n4. Fill orbitals with electrons by Aufbau, Pauli, and Hund rules.\n5. Use the resulting valence-electron count to predict bonding.",
+    "comparisons": "",
+    "highYield": "- **High yield:** An orbital is a probability region (ψ²), not a fixed path.\n- **High yield:** Carbon is 1s² 2s² 2p² — four valence electrons, four bonds.\n- **High yield:** Hund's rule half-fills degenerate p orbitals before any pairing.\n- **High yield:** Phase (sign) controls whether overlap is bonding or antibonding.\n- s orbitals are spherical; p orbitals are dumbbell-shaped with one angular node.\n- A node is a surface of exactly zero probability; more nodes = higher energy.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Orbital | Orbit | Probability region vs fixed circular path |\n| Wave function (ψ) | Probability density (ψ²) | ψ has a sign; ψ² is ≥ 0 and gives probability |\n| Node | Low-probability space | A node is *zero* probability, not just low |\n| Valence electrons | Core electrons | Only valence electrons bond |\n| Orbital phase | Electric charge | Wave-function sign, not ± charge |",
+    "memoryAids": "Remember \"**A**ll **P**eople **H**ave **P**ositive **V**ibes\": **A**ufbau (fill low first), **P**auli (two max), **H**und (half-fill first), **P**hase (wave sign), **V**alence (outer electrons bond).",
+    "eli10": "Imagine describing where a fast fan blade is at any instant: you can't point to one fixed spot, but you can say \"it's most likely in this blurred disc, never near the center.\" An orbital is that blurred disc — it gives the region where an electron is *likely* to be, not a precise path. It's like a dog roaming a fenced yard versus a train on fixed tracks: quantum mechanics gives a probability \"yard\" with \"fences\" (nodes) the electron never crosses. The comparison **stops being exact** because an orbital is a mathematical function, not a physical fence or cloud, and an electron's exact position is genuinely undefined until measured.\n\n### Simple Example\n\nHydrogen's single electron sits in a spherical **1s** orbital with no nodes. In carbon (1s² 2s² 2p²), the four **valence electrons** in 2s and 2p are the ones that form the four bonds of methane, CH₄.",
+    "quickReview": "### Topic Recap\n\nAtoms are built from electrons in orbitals — probability regions derived from wave functions. ψ² gives probability density, nodes mark zero-probability surfaces, and phase controls overlap. Electron configurations follow Aufbau, Pauli, and Hund rules and mirror the periodic table, with valence electrons setting bond count. This is the foundation for every later topic.\n\n### Knowledge Check\n\n1. What does ψ² represent?\n2. How many radial nodes does a 2s orbital have, and angular nodes does a 2p orbital have?\n3. Write oxygen's ground-state electron configuration and its valence-electron count.\n4. Why is \"the electron orbits like a planet\" incorrect?\n5. Why does carbon form four bonds rather than two?\n\n### Answers and Rationales\n\n1. ψ² is the **probability density** — likelihood of finding the electron per unit volume; ψ itself has no direct physical meaning.\n2. A 2s orbital has **one radial node** (*n* − 1 = 1); a 2p orbital has **one angular node** (the nodal plane through the nucleus).\n3. Oxygen is 1s² 2s² 2p⁴ with **six valence electrons**, so it typically forms two bonds and carries two lone pairs.\n4. Because electrons are described by wave functions, not trajectories; only the probability of location is knowable, and position is undefined until measured.\n5. Carbon has **four valence electrons** (2s² 2p²), so it forms up to four bonds to reach an octet.",
+    "workedExamples": "We build nitrogen's electron configuration; no curved arrows are needed because no electrons move between atoms.\n\n1. Count electrons (equal to atomic number): nitrogen has 7.\n2. Fill orbitals in energy order 1s → 2s → 2p: place 2 in 1s, 2 in 2s, leaving 3 for 2p.\n3. Apply the Pauli principle (max two per orbital) so 1s and 2s are full.\n4. Apply Hund's rule: put the three 2p electrons singly in separate p orbitals with parallel spins rather than pairing them.\n5. Read the result: 1s² 2s² 2p³ — nitrogen has five valence electrons, so it forms three bonds and carries one lone pair.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "atomic-structure-and-orbitals",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "01-atomic-structure-and-orbitals",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/01-atomic-structure-and-orbitals.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

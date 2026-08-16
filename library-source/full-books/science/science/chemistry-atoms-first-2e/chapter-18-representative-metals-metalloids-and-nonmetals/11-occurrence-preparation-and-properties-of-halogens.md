@@ -1,0 +1,225 @@
+---
+title: "Occurrence, Preparation, and Properties of Halogens"
+subject: "Science"
+book: "Chemistry: Atoms First 2e"
+chapter: "18: Representative Metals, Metalloids, and Nonmetals"
+topic_number: "11"
+source: "chemistry-atoms-first-2e.md"
+tags:
+  - "occurrence-preparation-and-properties-of-halogens"
+  - "science"
+status: "complete"
+---
+
+# Occurrence, Preparation, and Properties of Halogens
+
+> **Book:** [Chemistry: Atoms First 2e](../../README.md)  
+> **Chapter:** [Chapter 18: Representative Metals, Metalloids, and Nonmetals](../README.md)  
+> **Topic:** 11  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+The halogens — fluorine (F), chlorine (Cl), bromine (Br), iodine (I), and astatine (At) — are Group 17, the elements one electron short of a filled shell. Their name means "salt former," and they live up to it: they are never found free in nature, always paired with metals as halide salts such as sodium chloride in seawater, fluorite (\( \mathrm{CaF_2} \)), and the iodides in marine organisms. Because they need only one electron to complete an octet, they are the most reactive family of nonmetals, and reactivity decreases smoothly down the group: fluorine is so aggressive it attacks glass and reacts with almost everything, while iodine is a gentle gray-black solid that sublimes to a violet vapor. This topic covers where halogens occur, how each is prepared (electrolysis for fluorine and chlorine, simple displacement for bromine and iodine), and their signature properties: diatomic molecules, decreasing oxidizing power down the group, the −1 oxidation state in halides, and the positive states they show with oxygen and fluorine.
+
+## Why This Matters
+
+Halogen chemistry is all around you: chlorine disinfects drinking water and pools; fluoride hardens tooth enamel and is in most toothpastes; bromine compounds make flame retardants; iodine is essential for thyroid hormone synthesis, which is why table salt is iodized; and silver halides are the light-sensitive chemistry of traditional photography. The halogen displacement series — \( \mathrm{F_2 > Cl_2 > Br_2 > I_2} \) in oxidizing power — is a classic demonstration of periodic trends and redox. Chlorine and fluorine are also safety-critical: chlorine gas was a weapon in World War I, and concentrated fluorine is among the most dangerous substances in chemistry. On exams, the halogens test periodic trends, oxidation states, and displacement and electrolysis stoichiometry.
+
+## Core Concepts
+
+### Occurrence: always combined as halides
+
+Halogens are too reactive to exist free, so they occur as **halide ions** (\( \mathrm{X^-} \)) in salts:
+
+- **Chlorine** is the most abundant: sodium chloride in seawater (about 3.5% dissolved salts), rock salt (halite), and brines; also \( \mathrm{KCl} \) (sylvite) and \( \mathrm{MgCl_2} \).
+- **Fluorine** occurs as fluorite (\( \mathrm{CaF_2} \)), cryolite (\( \mathrm{Na_3AlF_6} \)), and fluoroapatite in phosphate rock.
+- **Bromine** is found as bromide in seawater and brines, concentrated by marine organisms (seaweed, sponges).
+- **Iodine** appears as iodide in seawater, brines, and nitrate deposits, and is concentrated in seaweed and thyroid glands.
+
+### Preparation: electrolysis for the top two, displacement for the rest
+
+**Fluorine** is too powerful an oxidizing agent for any chemical to displace, so it is made by **electrolysis of molten potassium hydrogen difluoride**, \( \mathrm{KHF_2} \):
+
+\[
+\mathrm{2\,KHF_2(l) \xrightarrow{electrolysis} 2\,KF(l) + H_2(g) + F_2(g)}
+\]
+
+**Chlorine** is made industrially by the **chlor-alkali process** — electrolysis of brine:
+
+\[
+\mathrm{2\,NaCl(aq) + 2\,H_2O(l) \xrightarrow{electrolysis} 2\,NaOH(aq) + H_2(g) + Cl_2(g)}
+\]
+
+**Bromine and iodine** are made by oxidizing their halide ions with a stronger halogen — a displacement reaction. Because chlorine is a stronger oxidizer than bromine, it displaces bromide from brine:
+
+\[
+\mathrm{Cl_2(g) + 2\,Br^-(aq) \rightarrow 2\,Cl^-(aq) + Br_2(l)}
+\]
+
+and chlorine (or bromine) displaces iodide:
+
+\[
+\mathrm{Cl_2(g) + 2\,I^-(aq) \rightarrow 2\,Cl^-(aq) + I_2(s)}
+\]
+
+This ordering — \( \mathrm{F_2 > Cl_2 > Br_2 > I_2} \) — is the **halogen displacement series**, a direct consequence of decreasing oxidizing power down the group.
+
+### Properties: a family with a visible trend
+
+All halogens are diatomic, \( \mathrm{X_2} \), with physical states that march down the group: fluorine is a pale-yellow gas, chlorine a greenish-yellow gas, bromine a red-brown liquid (one of only two elements liquid at room temperature, the other being mercury), and iodine a shiny gray-black solid that sublimes to a violet vapor. Electronegativity and reactivity decrease down the group (fluorine is the most electronegative element of all), while atomic radius and boiling point increase. Halogens show a **−1 oxidation state** in halides (e.g., \( \mathrm{NaCl} \), \( \mathrm{KBr} \)); with more electronegative partners (oxygen and fluorine), they show positive states: +1 (hypochlorite, \( \mathrm{ClO^-} \)), +3 (chlorite), +5 (chlorate, \( \mathrm{ClO_3^-} \)), and +7 (perchlorate, \( \mathrm{ClO_4^-} \)).
+
+### Hydrogen halides: a famous exception
+
+The hydrogen halides \( \mathrm{HF} \), \( \mathrm{HCl} \), \( \mathrm{HBr} \), and \( \mathrm{HI} \) are colorless, fuming gases that dissolve in water to form acids. The trend is a classic exam trap: **\( \mathrm{HCl} \), \( \mathrm{HBr} \), and \( \mathrm{HI} \) are strong acids, but \( \mathrm{HF} \) is weak** — despite fluorine being the most electronegative element — because the very strong H–F bond resists breaking. Hydrofluoric acid is also the only common acid that attacks glass:
+
+\[
+\mathrm{SiO_2(s) + 4\,HF(aq) \rightarrow SiF_4(g) + 2\,H_2O(l)}
+\]
+
+### Uses and safety
+
+Chlorine compounds disinfect water and bleach (sodium hypochlorite, \( \mathrm{NaOCl} \)); fluorine chemistry gives toothpaste fluoride, Teflon, and refrigerants; bromine compounds are flame retardants and were once photographic emulsions; iodine tincture is an antiseptic and \( \mathrm{KI} \) is added to table salt. All elemental halogens are toxic and corrosive — chlorine gas damages the lungs, fluorine reacts violently with moisture and organics, and bromine causes severe burns — so general principles apply: work in ventilated areas with proper containment, and never mix bleach with acids (which releases chlorine gas).
+
+## ELI-10: Explain Like I'm 10
+
+The halogens are a family of five elements that are all one step away from being "complete," so they grab electrons from other atoms — that is why they always travel with partners, like salt in the ocean. Fluorine is the bossy big sister who reacts with everything, while iodine is the calm one that turns straight from solid into purple gas. They are the family behind swimming-pool chlorine, toothpaste fluoride, and the iodine your body needs to make thyroid hormones.
+
+## High-Yield Points
+
+- Group 17 = halogens; all are diatomic (\( \mathrm{F_2} \), \( \mathrm{Cl_2} \), \( \mathrm{Br_2} \), \( \mathrm{I_2} \)) and **never found free** — always as halide salts.
+- **Physical states down the group:** F₂ pale-yellow gas → Cl₂ greenish-yellow gas → Br₂ red-brown liquid → I₂ gray-black solid (sublimes violet).
+- **Reactivity and oxidizing power decrease down the group:** \( \mathrm{F_2 > Cl_2 > Br_2 > I_2} \) — a stronger halogen displaces a weaker one from its halide.
+- **Preparation:** F₂ by electrolysis of molten \( \mathrm{KHF_2} \); Cl₂ by chlor-alkali electrolysis of brine (\( \mathrm{2\,NaCl + 2\,H_2O \rightarrow 2\,NaOH + H_2 + Cl_2} \)); Br₂ and I₂ by displacement with Cl₂.
+- **Oxidation states:** −1 in halides; +1, +3, +5, +7 with oxygen/fluorine (ClO⁻, ClO₃⁻, ClO₄⁻).
+- **HF is a weak acid** (strong H–F bond) even though HCl, HBr, and HI are strong; HF etches glass.
+- Fluoride hardens enamel; iodide is required for thyroid hormones (iodized salt); chlorine disinfects water.
+- Safety principles: halogens and their vapors are toxic/corrosive; never mix bleach with acid.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Halogen | Group 17 element, one electron short of a filled shell | The most reactive nonmetal family; "salt former" |
+| Halide | \( \mathrm{X^-} \) ion or salt of a halogen (e.g., \( \mathrm{Cl^-} \), \( \mathrm{NaCl} \)) | The form in which halogens occur and react |
+| Displacement reaction | A more reactive element replaces a less reactive one in a compound | \( \mathrm{Cl_2 + 2\,Br^- \rightarrow 2\,Cl^- + Br_2} \) — basis of Br₂ and I₂ preparation |
+| Chlor-alkali process | Electrolysis of brine producing NaOH, H₂, and Cl₂ | Industrial source of chlorine and sodium hydroxide |
+| Hypochlorite | \( \mathrm{ClO^-} \), chlorine in +1 with oxygen | The active ingredient in bleach and pool disinfectants |
+| Sublimation | Direct solid → gas transition | Iodine's signature violet vapor |
+| Hydrofluoric acid | \( \mathrm{HF(aq)} \), the only weak hydrogen halide acid | Etches glass; source of fluoride for enamel |
+
+## Worked Examples
+
+### Example 1: Displacement stoichiometry — making bromine
+
+How many grams of \( \mathrm{Br_2} \) are produced when 71.0 g of \( \mathrm{Cl_2} \) reacts with excess bromide ions? Balanced equation: \( \mathrm{Cl_2(g) + 2\,Br^-(aq) \rightarrow 2\,Cl^-(aq) + Br_2(l)} \). (Molar masses: Cl₂ = 70.90 g/mol, Br₂ = 159.80 g/mol.)
+
+**Step 1 — Grams to moles:**
+
+\[
+n(\mathrm{Cl_2}) = 71.0\ \text{g} \times \frac{1\ \text{mol Cl}_2}{70.90\ \text{g Cl}_2} = 1.00\ \text{mol Cl}_2
+\]
+
+**Step 2 — Mole ratio (1 mol Br₂ per 1 mol Cl₂):**
+
+\[
+1.00\ \text{mol Cl}_2 \times \frac{1\ \text{mol Br}_2}{1\ \text{mol Cl}_2} = 1.00\ \text{mol Br}_2
+\]
+
+**Step 3 — Moles to grams:**
+
+\[
+1.00\ \text{mol Br}_2 \times \frac{159.80\ \text{g Br}_2}{1\ \text{mol Br}_2} = 159.8\ \text{g Br}_2
+\]
+
+**Check the sense:** bromine atoms are more than twice as heavy as chlorine atoms, so 1 mol of Br₂ (160 g) outweighs 1 mol of Cl₂ (71 g) — consistent.
+
+### Example 2: Chlor-alkali electrolysis
+
+What mass of chlorine gas is produced by electrolyzing brine made from 117.0 g of \( \mathrm{NaCl} \)? Balanced equation: \( \mathrm{2\,NaCl(aq) + 2\,H_2O(l) \rightarrow 2\,NaOH(aq) + H_2(g) + Cl_2(g)} \). (Molar masses: NaCl = 58.44 g/mol, Cl₂ = 70.90 g/mol.)
+
+**Step 1 — Grams to moles:**
+
+\[
+n(\mathrm{NaCl}) = 117.0\ \text{g} \times \frac{1\ \text{mol NaCl}}{58.44\ \text{g NaCl}} = 2.00\ \text{mol NaCl}
+\]
+
+**Step 2 — Mole ratio (1 mol Cl₂ per 2 mol NaCl):**
+
+\[
+2.00\ \text{mol NaCl} \times \frac{1\ \text{mol Cl}_2}{2\ \text{mol NaCl}} = 1.00\ \text{mol Cl}_2
+\]
+
+**Step 3 — Moles to grams:**
+
+\[
+1.00\ \text{mol Cl}_2 \times \frac{70.90\ \text{g Cl}_2}{1\ \text{mol Cl}_2} = 70.9\ \text{g Cl}_2
+\]
+
+**Unit check:** g NaCl → mol NaCl → mol Cl₂ → g Cl₂. Answer: 70.9 g Cl₂.
+
+### Example 3: Percent chlorine in table salt
+
+What is the mass percent of chlorine in \( \mathrm{NaCl} \)? (Molar masses: Na = 22.99, Cl = 35.45 g/mol.)
+
+**Step 1 — Formula for molar mass:**
+
+\[
+M(\mathrm{NaCl}) = 22.99 + 35.45 = 58.44\ \text{g/mol}
+\]
+
+**Step 2 — Percent chlorine:**
+
+\[
+\%\mathrm{Cl} = \frac{35.45\ \text{g Cl}}{58.44\ \text{g NaCl}} \times 100\% = 60.7\%
+\]
+
+More than half the mass of table salt is chlorine — but as the harmless chloride ion, not the toxic Cl₂ molecule.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Halogen (\( \mathrm{X_2} \)) | Halide (\( \mathrm{X^-} \)) | Elemental, reactive molecule vs its ion in salts — Cl₂ is toxic, Cl⁻ is essential |
+| \( \mathrm{Cl_2} \) (chlorine gas) | \( \mathrm{Cl^-} \) (chloride ion) | Oxidized, toxic molecule vs reduced, harmless ion; pool "chlorine" is actually hypochlorite |
+| HF (weak acid) | HCl (strong acid) | H–F bond is very strong, so HF ionizes only slightly; HCl, HBr, HI are strong acids |
+| Reactivity order \( \mathrm{F_2 > Cl_2 > Br_2 > I_2} \) | Size order | Fluorine is the most reactive but the smallest; iodine is largest and least reactive |
+| Sublimation | Evaporation | Sublimation is solid → gas directly (iodine); evaporation is liquid → gas |
+| "Fluoride in toothpaste" | Elemental fluorine | Toothpaste contains \( \mathrm{F^-} \) ions; F₂ gas is violently reactive and corrosive |
+
+## Quick Review
+
+1. Why are halogens never found free in nature, and in what form do they occur?
+2. Rank \( \mathrm{F_2} \), \( \mathrm{Cl_2} \), \( \mathrm{Br_2} \), and \( \mathrm{I_2} \) by oxidizing strength, and use that to explain how bromine is prepared.
+3. Which hydrogen halide is the weak acid, and why?
+4. How many grams of \( \mathrm{I_2} \) form when 71.0 g of \( \mathrm{Cl_2} \) reacts with excess \( \mathrm{I^-} \) (I₂ = 253.80 g/mol)?
+5. What are the physical states of the four common halogens at room temperature?
+
+<details>
+<summary>Show answers</summary>
+
+1. They are one electron short of a filled shell, so they react readily with metals and almost everything else; in nature they occur as halide ions (\( \mathrm{F^-} \), \( \mathrm{Cl^-} \), \( \mathrm{Br^-} \), \( \mathrm{I^-} \)) in salts such as NaCl, CaF₂, and seawater bromides.
+2. \( \mathrm{F_2 > Cl_2 > Br_2 > I_2} \). A stronger halogen displaces a weaker one, so Cl₂ oxidizes \( \mathrm{Br^-} \) to \( \mathrm{Br_2} \) (\( \mathrm{Cl_2 + 2\,Br^- \rightarrow 2\,Cl^- + Br_2} \)) — the industrial route to bromine.
+3. HF. The H–F bond is very strong (the most polar and strongest hydrogen–halogen bond), so HF barely ionizes in water; HCl, HBr, and HI ionize almost completely.
+4. Moles Cl₂ = \( 71.0 \div 70.90 = 1.00\ \text{mol} \); 1:1 ratio with I₂; mass = \( 1.00 \times 253.80 = 253.8\ \text{g I}_2 \).
+5. F₂: pale-yellow gas; Cl₂: greenish-yellow gas; Br₂: red-brown liquid; I₂: gray-black solid that sublimes.
+
+</details>
+
+## Related Topics
+
+- Previous: [Occurrence, Preparation, and Properties of Sulfur](10-occurrence-preparation-and-properties-of-sulfur.md)
+- Next: [Occurrence, Preparation, and Properties of the Noble Gases](12-occurrence-preparation-and-properties-of-the-noble-gases.md)
+- Related: [Structure and General Properties of the Nonmetals](04-structure-and-general-properties-of-the-nonmetals.md)
+- Related: [Chapter 18 overview](../README.md)
+- Related: [Review of Redox Chemistry](../chapter-16-electrochemistry/01-review-of-redox-chemistry.md)
+
+## Source Notes
+
+- Book: Chemistry: Atoms First 2e
+- Local outline source: `chemistry-atoms-first-2e.md`
+- Official source URL: https://openstax.org/details/books/chemistry-atoms-first-2e/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Reference-values note: atomic masses are commonly taught reference values based on standard atomic weights; use the periodic table provided in your course for graded work. Physical states at room temperature and the displacement order \( \mathrm{F_2 > Cl_2 > Br_2 > I_2} \) are standard textbook facts.
+- Safety note: elemental halogens (especially F₂ and Cl₂) are toxic and corrosive; bromine causes severe burns; never mix bleach with acids (releases Cl₂). General ventilation and containment principles only — no lab procedures provided here.
+- Last updated: 2026-08-16

@@ -1,0 +1,563 @@
+/* ==========================================================================
+   Study tools — /coverage, /review, /paths and the starting-point questionnaire
+
+   Everything here is scoped under `.study-tools`, the wrapper each of those
+   pages renders, so no rule can reach a page that does not opt in. Every
+   colour, space, radius and type size is a token declared in main.css; there
+   are no raw colour literals in this file.
+
+   Mobile-first. The only breakpoints are the ones the content asks for:
+   560px (stat rows go side by side), 640px (form fields pair up), 720px and
+   768px (card grids become multi-column). At 320px every grid is a single
+   column and the one table scrolls inside its wrapper.
+   ========================================================================== */
+
+.study-tools { display: grid; align-content: start; gap: var(--space-6); }
+
+/* The wrapper owns the vertical rhythm, so the two components that carry their
+   own bottom margin would otherwise double it. */
+.study-tools > .breadcrumbs,
+.study-tools > .page-heading { margin-bottom: 0; }
+
+.study-tools h2 { font-size: var(--text-xl); }
+.study-tools h3 { font-size: var(--text-lg); }
+.study-tools h4 { font-size: var(--text-base); }
+.study-tools h3,
+.study-tools h4,
+.study-tools .path-course-title,
+.study-tools .review-topic-title { overflow-wrap: break-word; }
+
+/* --------------------------------------------------------------------------
+   Panels, hints and live regions
+   -------------------------------------------------------------------------- */
+
+.study-tools .study-panel,
+.study-tools .study-filters {
+  padding: clamp(var(--space-4), 4vw, var(--space-5));
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--paper);
+}
+
+.study-tools .study-panel > p,
+.study-tools .study-filters > p { max-width: var(--measure); color: var(--ink-muted); font-size: var(--text-sm); }
+.study-tools .study-panel > p strong { color: var(--ink); }
+
+.study-tools .study-hint {
+  max-width: var(--measure);
+  margin: var(--space-2) 0 0;
+  color: var(--ink-muted);
+  font-size: var(--text-xs);
+}
+
+/* Present from first paint so an update is announced rather than discovered. */
+.study-tools .study-live {
+  min-height: 1.5rem;
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: var(--text-sm);
+  font-weight: 650;
+}
+.study-tools .study-live:empty { min-height: 0; }
+
+.study-tools .study-results > h2 { margin-bottom: var(--space-3); }
+
+.study-tools .study-tick { display: inline-flex; flex: none; color: var(--success); }
+.study-tools .study-tick svg { width: .95rem; height: .95rem; }
+
+/* --------------------------------------------------------------------------
+   Controls
+
+   Every interactive target is at least 2.75rem (44px) tall: the selects and
+   number fields by min-height, the checkbox and radio rows by the same, and the
+   inline text links by becoming inline-flex boxes.
+   -------------------------------------------------------------------------- */
+
+.study-tools .study-filter-grid { display: grid; gap: var(--space-4); grid-template-columns: 1fr; }
+
+.study-tools .study-fieldset {
+  min-inline-size: 0;
+  margin: 0;
+  padding: var(--space-4);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius-sm);
+  background: var(--canvas);
+}
+
+.study-tools .study-fieldset legend {
+  padding: 0 var(--space-2);
+  color: var(--navy-700);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.study-tools .study-field {
+  display: block;
+  margin-bottom: var(--space-2);
+  color: var(--ink-soft);
+  font-size: var(--text-sm);
+  font-weight: 650;
+}
+
+.study-tools select,
+.study-tools input[type="date"],
+.study-tools input[type="number"] {
+  width: 100%;
+  min-height: 2.75rem;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--paper);
+  color: var(--ink);
+  font-size: var(--text-base);
+}
+.study-tools select:hover,
+.study-tools input[type="date"]:hover,
+.study-tools input[type="number"]:hover { border-color: var(--teal-700); }
+
+.study-tools .study-choice-grid { display: grid; gap: var(--space-1); margin-top: var(--space-2); }
+
+.study-tools .study-choice {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 2.75rem;
+  padding: var(--space-2);
+  border-radius: var(--radius-sm);
+  color: var(--ink-soft);
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+.study-tools .study-choice:hover { background: var(--navy-050); color: var(--navy-700); }
+.study-tools .study-choice input { flex: none; width: 1.15rem; height: 1.15rem; accent-color: var(--accent-teal); }
+
+.study-tools .study-actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-4); }
+
+/* --------------------------------------------------------------------------
+   Disclosure, confirmation and limitations
+   -------------------------------------------------------------------------- */
+
+.study-tools .study-disclosure {
+  padding: var(--space-2) var(--space-5) var(--space-4);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--teal-700);
+  border-radius: var(--radius-sm);
+  background: var(--teal-050);
+}
+.study-tools .study-disclosure > summary {
+  min-height: 2.75rem;
+  display: flex;
+  align-items: center;
+  color: var(--navy-700);
+  font-size: var(--text-base);
+  font-weight: 650;
+  cursor: pointer;
+}
+.study-tools .study-disclosure-body > * { max-width: var(--measure); color: var(--ink-muted); font-size: var(--text-sm); }
+.study-tools .study-disclosure-body ul { margin: 0 0 var(--space-4); padding-left: var(--space-5); }
+.study-tools .study-disclosure-body li { margin-bottom: var(--space-1); }
+
+.study-tools .study-confirm {
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--danger);
+  border-radius: var(--radius-sm);
+  background: var(--danger-soft);
+}
+/* Focus moves here programmatically when the step opens, so the ring is bound
+   to :focus rather than :focus-visible. It adds an outline; it removes none. */
+.study-tools .study-confirm:focus { outline: 3px solid var(--teal-700); outline-offset: 2px; }
+.study-tools .study-confirm p { max-width: var(--measure); margin-bottom: var(--space-2); color: var(--ink-soft); font-size: var(--text-sm); }
+.study-tools .study-confirm p strong { color: var(--danger); }
+
+/* Also a programmatic focus target, for the same reason as .study-confirm. */
+.study-tools .study-cleared { max-width: var(--measure); margin: 0; color: var(--ink-soft); font-size: var(--text-sm); }
+.study-tools .study-cleared:focus { outline: 3px solid var(--teal-700); outline-offset: 2px; }
+
+.study-tools .study-limitations {
+  border-left: 3px solid var(--amber-500);
+  background: var(--amber-050);
+}
+.study-tools .study-limitations ul { margin: var(--space-4) 0 0; padding-left: var(--space-5); }
+.study-tools .study-limitations li { margin-bottom: var(--space-3); max-width: var(--measure); color: var(--ink-soft); font-size: var(--text-sm); }
+.study-tools .study-limitations li:last-child { margin-bottom: 0; }
+
+/* --------------------------------------------------------------------------
+   Coverage
+   -------------------------------------------------------------------------- */
+
+.coverage-page .coverage-grid { display: grid; gap: var(--space-4); grid-template-columns: 1fr; }
+
+.coverage-page .coverage-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  min-width: 0;
+  padding: clamp(var(--space-4), 4vw, var(--space-5));
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--teal-700);
+  border-radius: var(--radius-md);
+  background: var(--paper);
+  transition: border-color var(--duration) var(--ease);
+}
+.coverage-page .coverage-card:hover { border-color: var(--line-strong); border-top-color: var(--teal-700); }
+.coverage-page .coverage-card h3 { margin: 0; font-family: var(--font-display); }
+.coverage-page .coverage-card h3 a { color: var(--navy-700); text-decoration: none; }
+.coverage-page .coverage-card h3 a:hover { color: var(--teal-700); text-decoration: underline; }
+
+.coverage-page .coverage-badges { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: 0; }
+
+.coverage-page .coverage-metrics { display: grid; gap: var(--space-3); margin: 0; }
+.coverage-page .coverage-row { display: grid; gap: var(--space-1); }
+.coverage-page .coverage-row dt {
+  color: var(--ink-muted);
+  font-size: var(--text-2xs);
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.coverage-page .coverage-row dd { display: grid; gap: var(--space-1); margin: 0; }
+.coverage-page .coverage-row--plain dd strong { color: var(--navy-700); font-family: var(--font-display); font-size: var(--text-lg); font-variant-numeric: tabular-nums; }
+
+.coverage-page .coverage-figure { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-2); color: var(--ink-soft); font-size: var(--text-sm); }
+.coverage-page .coverage-figure strong { color: var(--navy-700); font-variant-numeric: tabular-nums; }
+.coverage-page .coverage-figure .study-tick { align-self: center; }
+
+/* Decoration only: the same value is stated in words directly above it. */
+.coverage-page .coverage-track { display: block; height: .3rem; border-radius: var(--radius-pill); background: var(--line-soft); overflow: hidden; }
+.coverage-page .coverage-fill { display: block; height: 100%; background: var(--teal-700); }
+/* A full bar here is the bad outcome, so it is not tinted like a coverage bar.
+   The sentence beneath it carries the meaning either way. */
+.coverage-page .coverage-fill--flag { background: var(--warning); }
+
+.coverage-page .coverage-note { color: var(--ink-muted); font-size: var(--text-xs); }
+
+.study-tools .coverage-flag {
+  margin: 0;
+  padding: var(--space-3) var(--space-4);
+  border-left: 3px solid var(--amber-500);
+  border-radius: var(--radius-sm);
+  background: var(--amber-050);
+  color: var(--ink-soft);
+  font-size: var(--text-xs);
+}
+.study-tools .coverage-flag strong { color: var(--warning); }
+
+.study-tools .coverage-links { display: flex; flex-wrap: wrap; gap: var(--space-4); margin: auto 0 0; font-size: var(--text-sm); font-weight: 650; }
+.study-tools .coverage-links a { display: inline-flex; align-items: center; min-height: 2.75rem; }
+
+/* --------------------------------------------------------------------------
+   Review
+   -------------------------------------------------------------------------- */
+
+.review-page .review-stats { display: grid; gap: var(--space-3); margin: 0; grid-template-columns: 1fr; }
+.review-page .review-stats > div {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: var(--space-1);
+  min-width: 0;
+  padding: var(--space-4);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius-sm);
+  background: var(--canvas);
+}
+.review-page .review-stats dt {
+  color: var(--ink-muted);
+  font-size: var(--text-2xs);
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.review-page .review-stats dd {
+  margin: 0;
+  color: var(--navy-700);
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.review-page .review-session { margin-top: var(--space-5); padding-top: var(--space-5); border-top: 1px solid var(--line); }
+.review-page .review-session:focus { outline: 3px solid var(--teal-700); outline-offset: 2px; }
+.review-page .review-session h3 { font-family: var(--font-sans); }
+.review-page .review-session > p { max-width: var(--measure); color: var(--ink-muted); font-size: var(--text-sm); }
+
+.review-page .review-topic-list { display: grid; gap: var(--space-3); margin: var(--space-4) 0 0; padding-left: var(--space-6); }
+.review-page .review-topic {
+  min-width: 0;
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius-sm);
+  background: var(--canvas);
+}
+.review-page .review-topic p { margin: 0; }
+.review-page .review-topic > p + p { margin-top: var(--space-2); }
+.review-page .review-topic-title { color: var(--navy-700); font-size: var(--text-base); font-weight: 650; }
+.review-page .review-topic-title a { color: var(--navy-700); }
+.review-page .review-topic-course { color: var(--ink-muted); font-size: var(--text-sm); font-weight: 400; }
+.review-page .review-topic-status { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2); }
+.review-page .review-topic-figures { color: var(--ink-muted); font-size: var(--text-xs); }
+.review-page .review-topic-description { max-width: var(--measure); color: var(--ink-muted); font-size: var(--text-sm); }
+.review-page .review-topic-links { font-size: var(--text-sm); font-weight: 650; }
+.review-page .review-topic-links a { display: inline-flex; align-items: center; min-height: 2.75rem; }
+
+/* Status is a word first; the chip is a neutral token in every state, so no
+   meaning anywhere on this page rests on colour. */
+.review-page .study-status-label {
+  display: inline-flex;
+  align-items: center;
+  padding: .18rem .55rem;
+  border-radius: var(--radius-pill);
+  background: var(--navy-050);
+  color: var(--navy-700);
+  font-size: var(--text-2xs);
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.review-page .review-course-links { margin-top: var(--space-5); }
+.review-page .review-course-links h4 { margin-bottom: var(--space-2); font-family: var(--font-sans); }
+.review-page .review-course-links ul { display: grid; gap: 0; margin: 0; padding: 0; list-style: none; }
+.review-page .review-course-links li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-1);
+  border-top: 1px solid var(--line-soft);
+  font-size: var(--text-sm);
+}
+.review-page .review-course-links li:first-child { border-top: 0; }
+.review-page .review-course-links a { display: inline-flex; align-items: center; min-height: 2.75rem; }
+.review-page .review-course-count { color: var(--ink-muted); font-size: var(--text-xs); }
+
+/* --------------------------------------------------------------------------
+   Study paths
+   -------------------------------------------------------------------------- */
+
+.paths-page .path-grid { display: grid; gap: var(--space-4); grid-template-columns: 1fr; }
+
+.paths-page .path-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  min-width: 0;
+  padding: clamp(var(--space-4), 4vw, var(--space-5));
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--amber-500);
+  border-radius: var(--radius-md);
+  background: var(--paper);
+  transition: border-color var(--duration) var(--ease);
+}
+.paths-page .path-card:hover { border-color: var(--line-strong); border-top-color: var(--amber-500); }
+.paths-page .path-card h3 { margin: 0; font-family: var(--font-display); }
+.paths-page .path-card h3 a { color: var(--navy-700); text-decoration: none; }
+.paths-page .path-card h3 a:hover { color: var(--teal-700); text-decoration: underline; }
+.paths-page .path-card p { margin: 0; color: var(--ink-muted); font-size: var(--text-sm); }
+.paths-page .path-goal { color: var(--ink); font-weight: 650; }
+
+.study-tools .path-stats { display: grid; gap: var(--space-3); margin: var(--space-4) 0 0; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); }
+.study-tools .path-stats > div {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: var(--space-1);
+  min-width: 0;
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius-sm);
+  background: var(--canvas);
+}
+.study-tools .path-stats dt {
+  color: var(--ink-muted);
+  font-size: var(--text-2xs);
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.study-tools .path-stats dd {
+  margin: 0;
+  color: var(--navy-700);
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.path-page .path-course-list { display: grid; gap: 0; margin: var(--space-3) 0 0; padding: 0; list-style: none; }
+.path-page .path-course-list li { padding: var(--space-2) 0; border-top: 1px solid var(--line-soft); }
+.path-page .path-course-list li:first-child { border-top: 0; }
+.path-page .path-course-title { margin: 0; font-weight: 650; }
+.path-page .path-course-title a { display: inline-flex; align-items: center; min-height: 2.75rem; color: var(--navy-700); }
+.path-page .path-course-meta { margin: 0; color: var(--ink-muted); font-size: var(--text-xs); }
+
+/* --------------------------------------------------------------------------
+   Starting-point questionnaire
+
+   One question on screen at a time. The fieldset is the focus target when a
+   question changes, so it carries a :focus ring of its own; the radio rows
+   reuse .study-choice, which is already 2.75rem (44px) tall. Nothing here is
+   distinguished by colour alone: the suggested path is under a heading that
+   says so, and the near-misses under one that says what they are.
+   -------------------------------------------------------------------------- */
+
+.diagnostic-page .diagnostic-progress { margin-bottom: var(--space-2); font-family: var(--font-sans); font-variant-numeric: tabular-nums; }
+.diagnostic-page .diagnostic-form > .study-hint { margin-top: 0; }
+
+.diagnostic-page .diagnostic-question { margin-top: var(--space-4); }
+/* Focus arrives here programmatically when the question changes, so the ring is
+   bound to :focus rather than :focus-visible. It adds an outline; it removes
+   none. */
+.diagnostic-page .diagnostic-question:focus { outline: 3px solid var(--teal-700); outline-offset: 2px; }
+.diagnostic-page .diagnostic-question legend {
+  max-width: var(--measure);
+  color: var(--navy-700);
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  letter-spacing: normal;
+  text-transform: none;
+}
+/* One option per row at every width. The shared choice grid goes multi-column
+   above 560px, which these labels are far too long for, so this selector is
+   deliberately more specific than that breakpoint's rule. */
+.diagnostic-page .study-choice-grid.diagnostic-choices {
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+  grid-template-columns: 1fr;
+}
+.diagnostic-page .diagnostic-choices .study-choice {
+  align-items: flex-start;
+  padding: var(--space-3);
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius-sm);
+  background: var(--paper);
+  font-size: var(--text-base);
+}
+.diagnostic-page .diagnostic-choices .study-choice:hover { border-color: var(--teal-700); }
+.diagnostic-page .diagnostic-choices .study-choice input { margin-top: .15rem; }
+.diagnostic-page .diagnostic-choices .study-choice span { max-width: var(--measure); }
+
+.diagnostic-page .diagnostic-outcome:focus { outline: 3px solid var(--teal-700); outline-offset: 2px; }
+.diagnostic-page .diagnostic-outcome > .study-hint { margin-top: 0; }
+.diagnostic-page .diagnostic-rationale { max-width: var(--measure); color: var(--ink-soft); font-size: var(--text-md); font-weight: 650; }
+
+.diagnostic-page .diagnostic-path {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 0;
+  margin-top: var(--space-4);
+  padding: clamp(var(--space-4), 4vw, var(--space-5));
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--amber-500);
+  border-radius: var(--radius-md);
+  background: var(--paper);
+}
+.diagnostic-page .diagnostic-path-title { margin: 0; font-family: var(--font-display); }
+.diagnostic-page .diagnostic-path-title a { color: var(--navy-700); text-decoration: none; }
+.diagnostic-page .diagnostic-path-title a:hover { color: var(--teal-700); text-decoration: underline; }
+.diagnostic-page .diagnostic-path-goal { max-width: var(--measure); margin: 0; color: var(--ink-muted); font-size: var(--text-sm); }
+.diagnostic-page .diagnostic-open { margin: var(--space-4) 0 0; }
+
+.diagnostic-page .diagnostic-runners { margin-top: var(--space-5); padding-top: var(--space-5); border-top: 1px solid var(--line); }
+.diagnostic-page .diagnostic-runners h3 { font-family: var(--font-sans); }
+.diagnostic-page .diagnostic-runners .study-hint { margin-top: 0; }
+.diagnostic-page .diagnostic-runners .diagnostic-path { border-top-color: var(--line-strong); }
+.diagnostic-page .diagnostic-runners .diagnostic-path-title { font-family: var(--font-sans); font-size: var(--text-base); }
+
+.diagnostic-page .diagnostic-answer-list { display: grid; gap: 0; margin: var(--space-4) 0 0; }
+.diagnostic-page .diagnostic-answer-list > div { padding: var(--space-3) 0; border-top: 1px solid var(--line-soft); }
+.diagnostic-page .diagnostic-answer-list > div:first-child { border-top: 0; }
+.diagnostic-page .diagnostic-answer-list dt { max-width: var(--measure); color: var(--ink-muted); font-size: var(--text-xs); }
+.diagnostic-page .diagnostic-answer-list dd { max-width: var(--measure); margin: var(--space-1) 0 0; color: var(--ink-soft); font-size: var(--text-sm); font-weight: 650; }
+
+/* --------------------------------------------------------------------------
+   Plan builder
+   -------------------------------------------------------------------------- */
+
+.path-page .plan-form { display: grid; gap: var(--space-4); margin-top: var(--space-5); }
+.path-page .plan-field-grid { display: grid; gap: var(--space-4); grid-template-columns: 1fr; }
+.path-page .plan-field { display: grid; gap: var(--space-2); min-width: 0; }
+.path-page .plan-field label { color: var(--ink-soft); font-size: var(--text-sm); font-weight: 650; }
+.path-page .plan-field .study-hint { margin: 0; }
+
+.path-page .plan-result { margin-top: var(--space-5); padding-top: var(--space-5); border-top: 1px solid var(--line); }
+.path-page .plan-result h3 { font-family: var(--font-sans); }
+.path-page .plan-result > p { max-width: var(--measure); color: var(--ink-muted); font-size: var(--text-sm); }
+
+.path-page .plan-warnings {
+  margin-bottom: var(--space-4);
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--amber-500);
+  border-radius: var(--radius-sm);
+  background: var(--amber-050);
+}
+.path-page .plan-warnings h4 { margin-bottom: var(--space-2); color: var(--warning); font-family: var(--font-sans); }
+.path-page .plan-warnings ul { margin: 0; padding-left: var(--space-5); }
+.path-page .plan-warnings li { margin-bottom: var(--space-2); max-width: var(--measure); color: var(--ink-soft); font-size: var(--text-sm); }
+.path-page .plan-warnings li:last-child { margin-bottom: 0; }
+
+/* The table scrolls inside this box rather than pushing the page wide. */
+.path-page .study-table-scroll {
+  max-width: 100%;
+  margin-top: var(--space-4);
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+}
+.path-page .plan-table { width: 100%; min-width: 34rem; border-collapse: collapse; font-size: var(--text-sm); }
+.path-page .plan-table caption {
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-muted);
+  font-size: var(--text-xs);
+  text-align: left;
+}
+.path-page .plan-table th,
+.path-page .plan-table td { padding: var(--space-3); border-bottom: 1px solid var(--line-soft); text-align: left; vertical-align: top; }
+.path-page .plan-table thead th { background: var(--navy-050); color: var(--navy-700); font-weight: 650; }
+.path-page .plan-table tbody th { background: var(--canvas); color: var(--navy-700); font-weight: 650; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.path-page .plan-table td { color: var(--ink-soft); }
+.path-page .plan-table tbody:last-child tr:last-child th,
+.path-page .plan-table tbody:last-child tr:last-child td { border-bottom: 0; }
+
+/* --------------------------------------------------------------------------
+   Breakpoints
+
+   320 and 375: every grid above is already one column.
+   -------------------------------------------------------------------------- */
+
+@media (min-width: 560px) {
+  .review-page .review-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .study-tools .study-choice-grid { grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); }
+}
+
+@media (min-width: 640px) {
+  .path-page .plan-field-grid { grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); }
+}
+
+@media (min-width: 720px) {
+  .coverage-page .coverage-grid { grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr)); }
+}
+
+@media (min-width: 768px) {
+  .paths-page .path-grid { grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr)); }
+  .study-tools .study-filter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .study-tools .study-fieldset--wide { grid-column: 1 / -1; }
+}
+
+@media (min-width: 1024px) {
+  .study-tools .study-filter-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+/* --------------------------------------------------------------------------
+   Preferences
+   -------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .coverage-page .coverage-card,
+  .paths-page .path-card { transition: none; }
+}

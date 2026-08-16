@@ -1,0 +1,162 @@
+---
+title: "Infrared Spectra of Some Common Functional Groups"
+subject: "Science"
+book: "Organic Chemistry: A Tenth Edition"
+chapter: "12: Structure Determination: Mass Spectrometry and Infrared Spectroscopy"
+topic_number: "8"
+source: "organic-chemistry.md"
+tags:
+  - "infrared-spectra-of-some-common-functional-groups"
+  - "science"
+status: "complete"
+---
+
+# Infrared Spectra of Some Common Functional Groups
+
+> **Book:** [Organic Chemistry: A Tenth Edition](../../README.md)  
+> **Chapter:** [Chapter 12: Structure Determination: Mass Spectrometry and Infrared Spectroscopy](../README.md)  
+> **Topic:** 8  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+This topic is the practical payoff of Chapter 12: a catalog of IR absorptions that identify common functional groups. Each group has a **diagnostic band** — a stretch whose position, shape, and intensity announce its presence. Band positions follow from bond strength and atomic masses (Hooke's law), fine-tuned by **conjugation** (lowers C=O/C=C ~20–30 cm⁻¹), **ring strain** (raises C=O), and **resonance** (weakens bonds; amide C=O sits lower than ketone C=O).
+
+The five most important checks cover most organic unknowns: O–H (~3300, broad), N–H (~3300–3500, sharper), C–H (2850–3100), C≡N (~2250, medium-sharp), and C=O (~1715, strong). Add the C=C, aromatic, and C–O bands and you can identify the functional-group content of nearly any molecule from one spectrum.
+
+## Why This Matters
+
+These band positions are the working vocabulary of spectrum-reading chemists. When a synthesis produces a white solid, the first question is "did I make the target?" — usually answered by checking for the target's signature bands (and absence of the starting material's) in a two-minute IR scan. The same patterns run through pharmaceutical QC, polymer identification, food-safety screening, and forensics. On exams, "which compound matches this spectrum" questions directly test this table, so learn the *logic* rather than memorizing numbers.
+
+## Core Concepts
+
+### The master absorption table
+
+| Functional group | Diagnostic band (cm⁻¹) | Shape / intensity | Notes |
+|---|---|---|---|
+| Alcohol O–H | 3200–3600 | Broad, strong | H-bonding broadens it |
+| Carboxylic acid O–H | 2500–3300 | Very broad | Pairs with C=O near 1710 |
+| Amine N–H | 3300–3500 | Sharper than O–H; 1 or 2 bands | Two bands = primary amine; one = secondary |
+| Alkane C–H | 2850–2960 | Strong | sp³ C–H only |
+| Alkene / arene C–H | 3000–3100 | Medium | "Above 3000" = the test |
+| Terminal alkyne C–H | ~3300 | Sharp, medium | Distinct from the O–H hump |
+| Aldehyde C–H | ~2720 and ~2820 | Weak doublet | The aldehyde signature |
+| Nitrile C≡N | 2210–2260 | Medium, sharp | Unmistakable |
+| Alkyne C≡C | 2100–2260 | Weak | Often barely visible |
+| Ketone C=O | 1705–1725 | Strong | The anchor band |
+| Ester C=O | 1735–1750 | Strong | Raised by the attached O |
+| Carboxylic acid C=O | 1700–1725 | Strong | Companion: very broad O–H |
+| Amide C=O | 1630–1690 | Strong | Lowered by resonance |
+| Alkene C=C | 1640–1680 | Weak–medium | Conjugation lowers it |
+| Aromatic C=C | 1450–1600 | Medium, 2–3 bands | Out-of-plane C–H at 690–900 |
+| C–O (alcohol/ether/ester) | 1000–1300 | Strong | Confirms O-containing groups |
+
+### Carbonyl position tells the story
+
+The C=O stretch is strong and isolated; position identifies the class: **ketone ~1715**, **aldehyde ~1725**, **ester ~1735**, **carboxylic acid ~1710**, **amide ~1650**, **acid chloride ~1800**. Two electronic effects explain the spread: **Resonance** (amide): nitrogen lone-pair donation gives the C–N bond partial double-bond character, weakening the C=O and lowering the stretch to ~1650 cm⁻¹. **Inductive withdrawal** (ester, acid chloride): an attached electronegative O or Cl stiffens the C=O, raising the stretch. **Conjugation** (C=O attached to a ring or C=C) lowers the band ~20–30 cm⁻¹; **ring strain** (small rings) raises it.
+
+### O–H and N–H hydrogen bonding
+
+Hydrogen bonding stretches the O–H bond and spreads its energy, producing the classic **broad hump** at 3200–3600 cm⁻¹ (alcohols) or 2500–3300 cm⁻¹ (acids). N–H bands are narrower; primary amines show **two** N–H bands, secondary one, tertiary none — a quick branching test. Shape: O–H broad, N–H sharp.
+
+### Aromatic ring absorptions
+
+Arenes show three signatures: C–H stretches at 3030–3100 cm⁻¹, ring C=C bands at 1450–1600 cm⁻¹, and out-of-plane C–H bending at 690–900 cm⁻¹ whose pattern reflects the substitution pattern — a classic exam question.
+
+### Elimination reasoning with the table
+
+Interpretation becomes elimination: is the candidate band present, and are its companion bands? A strong C=O at 1735 plus strong C–O bands near 1240 and 1100 cm⁻¹ with no O–H → **ester**; the same C=O with a very broad 2500–3300 hump → **acid**; the same C=O with N–H near 3300 and a lower position near 1650 → **amide**. Each group has a companion-band fingerprint that prevents misassignment.
+
+## ELI-10: Explain Like I'm 10
+
+> Each functional group wears a badge at a particular spot on the IR chart — C=O is a big strong mark near 1715, O–H a wide smudge near 3300, C≡N a sharp thin line near 2250. Reading a spectrum tells which badges the molecule wears. Conjugation, H-bonding, and ring strain move the badges slightly.
+
+## High-Yield Points
+
+- The big five: O–H broad ~3300; N–H sharp ~3300–3500 (two bands = primary amine); C–H 2850–3100 (3000 is the sp²/sp³ line); C≡N ~2250; C=O strong ~1715.
+- Carbonyl ladder: acid chloride ~1800 > ester ~1735 > aldehyde ~1725 > ketone ~1715 > acid ~1710 > amide ~1650.
+- Acid O–H (2500–3300, very broad) + C=O ~1710 = carboxylic acid; no O–H + C=O ~1735 + C–O = ester.
+- Conjugation lowers C=O and C=C by ~20–30 cm⁻¹; ring strain raises C=O.
+- Nitrile (medium-sharp ~2240) vs alkyne (weak ~2150): the C≡N band is the reliable one.
+- Aromatic: C–H 3030–3100, ring C=C 1450–1600, out-of-plane C–H 690–900.
+- Treat wavenumbers as ranges — solvent, state, and hydrogen bonding shift bands.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Diagnostic band | An absorption whose position identifies a functional group | The core of functional-group ID |
+| Conjugation | Alternating single/double bonds sharing \(\pi\) electrons | Lowers C=O and C=C frequencies |
+| Ring strain | Angle compression in small rings | Raises C=O stretches (e.g., cyclobutanone ~1780 cm⁻¹) |
+| Hydrogen bonding | O–H / N–H groups associating via H-bonds | Broadens O–H bands, shifts them lower |
+| Resonance | Electron delocalization, e.g., in amides | Weakens C=O, lowering amide stretch to ~1650 cm⁻¹ |
+| Fingerprint region | Bands below ~1400 cm⁻¹ | Unique per molecule; confirms identity |
+| Out-of-plane C–H bend | Aromatic C–H bending at 690–900 cm⁻¹ | Pattern reflects substitution pattern |
+
+## Worked Examples
+
+### Example 1: Identifying an alcohol — 1-butanol (C₄H₁₀O)
+
+Spectrum: broad strong band near 3330 cm⁻¹; C–H stretches at 2960, 2935, 2875 (all below 3000); strong C–O near 1050 cm⁻¹; **nothing** in the carbonyl window.
+
+**Reasoning by elimination:** The broad 3330 cm⁻¹ hump is the O–H stretch of a hydrogen-bonded alcohol (no C=O nearby → not an acid). The strong C–O band near 1050 cm⁻¹ confirms the alcohol C–O stretch (primary alcohols: 1040–1060 cm⁻¹). No C=O rules out ketone, aldehyde, ester, acid; no sharp N–H bands rule out amines. Conclusion: a saturated primary alcohol — consistent with 1-butanol, \(\text{CH}_3\text{CH}_2\text{CH}_2\text{CH}_2\text{OH}\).
+
+### Example 2: Identifying a nitrile — butanenitrile (C₄H₇N)
+
+Spectrum: medium-sharp band at 2245 cm⁻¹; C–H stretches at 2960 and 2875 cm⁻¹; no O–H; no carbonyl band.
+
+**Reasoning:** The 2245 cm⁻¹ band sits in the triple-bond region where almost nothing else absorbs (C≡N 2210–2260). It is medium and sharp — typical of a nitrile, not the weak C≡C band of an alkyne. No O–H and no C=O eliminate oxygen groups; with nitrogen the only heteroatom, a C≡N stretch with no N–H bands is the nitrile signature. Conclusion: butanenitrile, \(\text{CH}_3\text{CH}_2\text{CH}_2\text{C≡N}\) (SMILES: `CCCC#N`).
+
+### Example 3: Using the carbonyl ladder to tell ketone, ester, and amide apart
+
+Three unknowns each show one strong C=O band, no O–H, and C–H stretches, at (a) 1715, (b) 1738, (c) 1655 cm⁻¹.
+
+- (a) 1715 cm⁻¹ → **ketone**: reference position, no companions.
+- (b) 1738 cm⁻¹ → **ester**: raised by the attached oxygen; confirm with C–O bands at 1000–1300 cm⁻¹.
+- (c) 1655 cm⁻¹ → **amide**: resonance lowers the C=O; confirm with one N–H band near 3300 cm⁻¹ (secondary amide).
+
+The ~20 cm⁻¹ class differences are decisive when combined with companion bands.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Ester C=O (~1735) | Ketone C=O (~1715) | Ester is raised by the adjacent O; confirm with C–O bands at 1000–1300 cm⁻¹ |
+| Acid O–H (very broad) | Alcohol O–H (broad) | Acid O–H spans ~2500–3300 cm⁻¹ and pairs with C=O ~1710; alcohol O–H is 3200–3600, no C=O |
+| Nitrile C≡N | Alkyne C≡C | C≡N is medium-sharp (~2240); C≡C is weak, often nearly invisible |
+| Primary vs secondary amide N–H | Same region | Primary amide: two N–H bands; secondary: one; tertiary: none |
+| Conjugation effect | Ring strain effect | Conjugation lowers C=O; ring strain raises it — opposite directions |
+| "C=O at 1715 means any carbonyl" | Class-specific position | Position plus companion bands (O–H, N–H, C–O) determine the class |
+
+## Quick Review
+
+1. A compound shows a very broad band from 2500–3300 cm⁻¹ and a strong C=O at 1710 cm⁻¹. What is it?
+2. Why does an amide C=O stretch appear lower (~1650 cm⁻¹) than a ketone's (~1715 cm⁻¹)?
+3. How do you distinguish a primary amine from an alcohol in the 3200–3600 cm⁻¹ region?
+4. A sharp, medium band appears at 2245 cm⁻¹ with no other bands above 3000 cm⁻¹. What group is most likely?
+5. Which two effects shift the C=O band, and in which directions?
+
+<details>
+<summary>Show answers</summary>
+
+1. A carboxylic acid — the exceptionally broad O–H (2500–3300 cm⁻¹) plus C=O near 1710 cm⁻¹.
+2. Resonance: the nitrogen lone pair donates into the carbonyl, giving the C–N bond partial double-bond character, weakening the C=O, and lowering the stretch to ~1630–1690 cm⁻¹.
+3. Shape and count: O–H is a broad hump; N–H is sharper, and a primary amine shows two N–H bands while an alcohol shows one.
+4. A nitrile (C≡N, 2210–2260 cm⁻¹) — medium-sharp and isolated; a C≡C stretch would be much weaker.
+5. Conjugation lowers C=O by ~20–30 cm⁻¹; ring strain raises it.
+</details>
+
+## Related Topics
+
+- Previous: [Interpreting Infrared Spectra](07-interpreting-infrared-spectra.md)
+- Next: End of chapter
+- Related: [Structure Determination: Mass Spectrometry and Infrared Spectroscopy chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Organic Chemistry: A Tenth Edition
+- Local outline source: `organic-chemistry.md`
+- Official source URL: https://openstax.org/details/books/organic-chemistry/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Wavenumber ranges are standard mid-IR values; exact positions depend on sample state, solvent, H-bonding, conjugation, and ring strain.
+- Last updated: 2026-08-16

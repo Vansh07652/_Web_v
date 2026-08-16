@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-2:blood-cardiovascular-and-circulation:cardiac-conduction-and-the-cardiac-cycle",
+  "slug": "cardiac-conduction-and-the-cardiac-cycle",
+  "title": "Cardiac Conduction and the Cardiac Cycle",
+  "subject": {
+    "id": "subject:anatomy-physiology-2",
+    "slug": "anatomy-physiology-2",
+    "title": "Anatomy & Physiology II"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-2:blood-cardiovascular-and-circulation",
+    "slug": "blood-cardiovascular-and-circulation",
+    "title": "Blood, Cardiovascular System, and Circulation",
+    "order": 2
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "This section explains how the heartbeat is generated and coordinated: the **electrical conduction system** (SA node, AV node, and the rest) and the **cardiac cycle** of systole and diastole, plus a brief note on the **ECG**.",
+    "whyItMatters": "The heart's electrical system creates the heartbeat and coordinates pumping. Its disturbances cause **arrhythmias**, and the **ECG** — one of the most common diagnostic tools — reads this electrical activity. Understanding the cardiac cycle explains blood pressure and heart sounds.",
+    "learningObjectives": "- Describe the **cardiac conduction system** and its components.\n- Explain **autorhythmicity** (the SA node as pacemaker).\n- Describe the **cardiac cycle** (systole and diastole).\n- Relate electrical activity to the **ECG**.",
+    "keyTerms": "- **Sinoatrial (SA) node** — the heart's natural **pacemaker**.\n- **Atrioventricular (AV) node** — delays the signal before it reaches the ventricles.\n- **Autorhythmicity** — the heart's ability to generate its own rhythm.\n- **Systole** — contraction (pumping).\n- **Diastole** — relaxation (filling).\n- **ECG (electrocardiogram)** — a recording of the heart's electrical activity.",
+    "collegeNotes": "**The conduction system generates the beat.** Recall that cardiac muscle has **automaticity** — it can generate its own rhythm. This comes from specialized cells forming the **conduction system**:\n\n1. **Sinoatrial (SA) node** (in the right atrium): the **pacemaker**, which spontaneously fires impulses that set the heart rate. The impulse spreads across both **atria**, causing them to contract.\n2. **Atrioventricular (AV) node** (between atria and ventricles): **briefly delays** the impulse. This pause lets the atria finish emptying into the ventricles before the ventricles contract.\n3. **AV bundle (bundle of His) and bundle branches:** carry the impulse down through the wall between the ventricles.\n4. **Purkinje fibers:** spread the impulse rapidly through the ventricle walls, so the **ventricles contract** from the bottom up, pushing blood efficiently into the arteries.\n\nBecause the SA node sets the pace on its own, the heart beats without conscious control; the **autonomic nervous system** only speeds it up (sympathetic) or slows it down (parasympathetic/vagus).\n\n**The cardiac cycle.** One heartbeat is one **cardiac cycle**, alternating between contraction and relaxation:\n\n- **Systole:** the chambers **contract** and eject blood. During **ventricular systole**, the ventricles squeeze blood into the pulmonary artery and aorta (the AV valves are closed — \"lub\").\n- **Diastole:** the chambers **relax and fill** with blood. During **ventricular diastole**, blood flows in from the atria (the semilunar valves are closed — \"dup\").\n\nBlood pressure readings reflect this cycle: the top number (**systolic**) is the pressure during ventricular contraction; the bottom (**diastolic**) is during relaxation.\n\n**The ECG.** An **electrocardiogram** records the heart's electrical activity from the skin surface. Its classic waves correspond to conduction events: the **P wave** (atrial depolarization → atrial contraction), the **QRS complex** (ventricular depolarization → ventricular contraction), and the **T wave** (ventricular repolarization → relaxation). Changes in these waves help diagnose arrhythmias, heart attacks, and conduction problems.",
+    "howItWorks": "One heartbeat, electrically and mechanically:\n\n```\nSA node fires → atria depolarize (P wave) → atria contract (fill ventricles)\n   → AV node delays → signal down AV bundle/branches → Purkinje fibers\n   → ventricles depolarize (QRS) → ventricles contract (systole, eject blood)\n   → ventricles repolarize (T wave) → relax (diastole, fill)\n   → SA node fires again\n```",
+    "comparisons": "| Structure | Role |\n| --- | --- |\n| SA node | Pacemaker; sets rate; fires the atria |\n| AV node | Delays signal (lets atria empty) |\n| AV bundle/branches | Carry signal to ventricles |\n| Purkinje fibers | Spread signal for ventricular contraction |\n\n| Phase | Event | Blood pressure |\n| --- | --- | --- |\n| Systole | Contraction (eject) | Systolic (top number) |\n| Diastole | Relaxation (fill) | Diastolic (bottom number) |\n\n| ECG wave | Event |\n| --- | --- |\n| P | Atrial depolarization |\n| QRS | Ventricular depolarization |\n| T | Ventricular repolarization |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\nThe **ECG** is central to cardiac care, detecting **arrhythmias** (like atrial fibrillation), heart blocks (AV node problems), and **heart attacks** (ST/QRS changes). If the SA node fails, backup pacemakers or an **artificial pacemaker** can drive the heart. Understanding systole/diastole underlies **blood pressure** interpretation, heart sounds, and heart failure. Autonomic effects (sympathetic speeds, vagus slows) explain heart rate changes with stress, medications, and vagal maneuvers.",
+    "commonConfusions": "- **SA vs AV node.** SA = pacemaker (starts the beat); AV = delay (times the ventricles).\n- **Systole vs diastole.** Systole = contraction/ejection; diastole = relaxation/filling.\n- **P/QRS/T waves.** P = atria fire; QRS = ventricles fire; T = ventricles reset.\n- **The heart sets its own rhythm** — nerves only adjust the rate, not create the beat.",
+    "memoryAids": "- **SA node = \"the Starting Amp (pacemaker/drummer).\"**\n- **\"Systole = Squeeze; Diastole = Dilate/fill.\"**\n- **ECG: \"P before QRS before T\" = atria, then ventricles, then reset.**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nYour heart has its own built-in electrical spark that starts each beat and a wiring system that makes the chambers squeeze in the right order — squeeze to pump, relax to refill, over and over.\n\n### Analogy\nThink of the heart as a band that keeps perfect time with its own drummer. The drummer is the **SA node**, which taps out the beat all by itself — no conductor needed. The beat first reaches the top chambers (atria), which give a little squeeze to top off the bottom chambers. Then it hits a \"**speed bump**\" (the **AV node**) that pauses just long enough for the top to finish filling the bottom, before the signal races down special wires (**Purkinje fibers**) to make the powerful bottom chambers (ventricles) squeeze and push blood out. The squeeze is **systole**; the relax-and-refill is **diastole**. Doctors can watch this electrical beat on a printout called an **ECG**.\n\n### What is actually happening\nThe SA node is a real natural **pacemaker**, which is why your heart keeps beating even without you thinking about it (your nerves only speed it up or slow it down). The **ECG** shows this as bumps — a small **P** wave (top chambers), a big **QRS** spike (bottom chambers), and a **T** wave (reset). Reading these bumps lets nurses and doctors spot irregular rhythms (**arrhythmias**) and **heart attacks**. If the natural drummer fails, doctors can implant an **artificial pacemaker**.\n\n### Where the analogy stops\nA band's drummer can take a break, but your heart's pacemaker never stops for your whole life — and if it ever falters, backup \"drummers\" in the heart or a machine step in to keep the beat going.",
+    "quickReview": "- The **conduction system**: **SA node** (pacemaker, fires atria) → **AV node** (delay) → **AV bundle/branches** → **Purkinje fibers** (ventricles contract). The heart has **autorhythmicity**; nerves only adjust rate.\n- The **cardiac cycle** alternates **systole** (contract/eject) and **diastole** (relax/fill); these set the **systolic/diastolic** blood pressure.\n- The **ECG** records electrical activity: **P** (atrial), **QRS** (ventricular), **T** (repolarization) — used to detect arrhythmias and heart attacks.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 19.2: Cardiac Muscle and Electrical Activity; 19.3: Cardiac Cycle. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — Arrhythmias; Electrocardiogram. https://medlineplus.gov/arrhythmia.html",
+        "url": "https://medlineplus.gov/arrhythmia.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "cardiac-conduction-and-the-cardiac-cycle",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "ap2-u02-s06",
+      "kind": "source_topic_id",
+      "source_id": "prenursing_notes"
+    },
+    {
+      "value": "06-cardiac-conduction-and-the-cardiac-cycle",
+      "kind": "source_file_stem",
+      "source_id": "prenursing_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:prenursing_notes:191d21365159e72b"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:prenursing_notes:191d21365159e72b"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:prenursing_notes:191d21365159e72b"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:prenursing_notes:191d21365159e72b"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/02-anatomy-physiology-ii/02-blood-cardiovascular-and-circulation/06-cardiac-conduction-and-the-cardiac-cycle.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "\n# Cardiac Conduction and the Cardiac Cycle\n\n## What This Topic Is\n\nThis section explains how the heartbeat is generated and coordinated: the **electrical conduction system** (SA node, AV node, and the rest) and the **cardiac cycle** of systole and diastole, plus a brief note on the **ECG**.\n\n## Why It Matters\n\nThe heart's electrical system creates the heartbeat and coordinates pumping. Its disturbances cause **arrhythmias**, and the **ECG** — one of the most common diagnostic tools — reads this electrical activity. Understanding the cardiac cycle explains blood pressure and heart sounds.\n\n## Learning Objectives\n\n- Describe the **cardiac conduction system** and its components.\n- Explain **autorhythmicity** (the SA node as pacemaker).\n- Describe the **cardiac cycle** (systole and diastole).\n- Relate electrical activity to the **ECG**.\n\n## Key Terms\n\n- **Sinoatrial (SA) node** — the heart's natural **pacemaker**.\n- **Atrioventricular (AV) node** — delays the signal before it reaches the ventricles.\n- **Autorhythmicity** — the heart's ability to generate its own rhythm.\n- **Systole** — contraction (pumping).\n- **Diastole** — relaxation (filling).\n- **ECG (electrocardiogram)** — a recording of the heart's electrical activity.\n\n## Core Explanation\n\n**The conduction system generates the beat.** Recall that cardiac muscle has **automaticity** — it can generate its own rhythm. This comes from specialized cells forming the **conduction system**:\n\n1. **Sinoatrial (SA) node** (in the right atrium): the **pacemaker**, which spontaneously fires impulses that set the heart rate. The impulse spreads across both **atria**, causing them to contract.\n2. **Atrioventricular (AV) node** (between atria and ventricles): **briefly delays** the impulse. This pause lets the atria finish emptying into the ventricles before the ventricles contract.\n3. **AV bundle (bundle of His) and bundle branches:** carry the impulse down through the wall between the ventricles.\n4. **Purkinje fibers:** spread the impulse rapidly through the ventricle walls, so the **ventricles contract** from the bottom up, pushing blood efficiently into the arteries.\n\nBecause the SA node sets the pace on its own, the heart beats without conscious control; the **autonomic nervous system** only speeds it up (sympathetic) or slows it down (parasympathetic/vagus).\n\n**The cardiac cycle.** One heartbeat is one **cardiac cycle**, alternating between contraction and relaxation:\n\n- **Systole:** the chambers **contract** and eject blood. During **ventricular systole**, the ventricles squeeze blood into the pulmonary artery and aorta (the AV valves are closed — \"lub\").\n- **Diastole:** the chambers **relax and fill** with blood. During **ventricular diastole**, blood flows in from the atria (the semilunar valves are closed — \"dup\").\n\nBlood pressure readings reflect this cycle: the top number (**systolic**) is the pressure during ventricular contraction; the bottom (**diastolic**) is during relaxation.\n\n**The ECG.** An **electrocardiogram** records the heart's electrical activity from the skin surface. Its classic waves correspond to conduction events: the **P wave** (atrial depolarization → atrial contraction), the **QRS complex** (ventricular depolarization → ventricular contraction), and the **T wave** (ventricular repolarization → relaxation). Changes in these waves help diagnose arrhythmias, heart attacks, and conduction problems.\n\n## How It Works\n\nOne heartbeat, electrically and mechanically:\n\n```\nSA node fires → atria depolarize (P wave) → atria contract (fill ventricles)\n   → AV node delays → signal down AV bundle/branches → Purkinje fibers\n   → ventricles depolarize (QRS) → ventricles contract (systole, eject blood)\n   → ventricles repolarize (T wave) → relax (diastole, fill)\n   → SA node fires again\n```\n\n## Important Relationships and Comparisons\n\n| Structure | Role |\n| --- | --- |\n| SA node | Pacemaker; sets rate; fires the atria |\n| AV node | Delays signal (lets atria empty) |\n| AV bundle/branches | Carry signal to ventricles |\n| Purkinje fibers | Spread signal for ventricular contraction |\n\n| Phase | Event | Blood pressure |\n| --- | --- | --- |\n| Systole | Contraction (eject) | Systolic (top number) |\n| Diastole | Relaxation (fill) | Diastolic (bottom number) |\n\n| ECG wave | Event |\n| --- | --- |\n| P | Atrial depolarization |\n| QRS | Ventricular depolarization |\n| T | Ventricular repolarization |\n\n## High-Yield Pre-Nursing Connections\n\nThe **ECG** is central to cardiac care, detecting **arrhythmias** (like atrial fibrillation), heart blocks (AV node problems), and **heart attacks** (ST/QRS changes). If the SA node fails, backup pacemakers or an **artificial pacemaker** can drive the heart. Understanding systole/diastole underlies **blood pressure** interpretation, heart sounds, and heart failure. Autonomic effects (sympathetic speeds, vagus slows) explain heart rate changes with stress, medications, and vagal maneuvers.\n\n## Common Confusions\n\n- **SA vs AV node.** SA = pacemaker (starts the beat); AV = delay (times the ventricles).\n- **Systole vs diastole.** Systole = contraction/ejection; diastole = relaxation/filling.\n- **P/QRS/T waves.** P = atria fire; QRS = ventricles fire; T = ventricles reset.\n- **The heart sets its own rhythm** — nerves only adjust the rate, not create the beat.\n\n## Memory Aids\n\n- **SA node = \"the Starting Amp (pacemaker/drummer).\"**\n- **\"Systole = Squeeze; Diastole = Dilate/fill.\"**\n- **ECG: \"P before QRS before T\" = atria, then ventricles, then reset.**\n\n## ELI-10 Explains\n\n### Simple idea\nYour heart has its own built-in electrical spark that starts each beat and a wiring system that makes the chambers squeeze in the right order — squeeze to pump, relax to refill, over and over.\n\n### Analogy\nThink of the heart as a band that keeps perfect time with its own drummer. The drummer is the **SA node**, which taps out the beat all by itself — no conductor needed. The beat first reaches the top chambers (atria), which give a little squeeze to top off the bottom chambers. Then it hits a \"**speed bump**\" (the **AV node**) that pauses just long enough for the top to finish filling the bottom, before the signal races down special wires (**Purkinje fibers**) to make the powerful bottom chambers (ventricles) squeeze and push blood out. The squeeze is **systole**; the relax-and-refill is **diastole**. Doctors can watch this electrical beat on a printout called an **ECG**.\n\n### What is actually happening\nThe SA node is a real natural **pacemaker**, which is why your heart keeps beating even without you thinking about it (your nerves only speed it up or slow it down). The **ECG** shows this as bumps — a small **P** wave (top chambers), a big **QRS** spike (bottom chambers), and a **T** wave (reset). Reading these bumps lets nurses and doctors spot irregular rhythms (**arrhythmias**) and **heart attacks**. If the natural drummer fails, doctors can implant an **artificial pacemaker**.\n\n### Where the analogy stops\nA band's drummer can take a break, but your heart's pacemaker never stops for your whole life — and if it ever falters, backup \"drummers\" in the heart or a machine step in to keep the beat going.\n\n## Quick Recap\n\n- The **conduction system**: **SA node** (pacemaker, fires atria) → **AV node** (delay) → **AV bundle/branches** → **Purkinje fibers** (ventricles contract). The heart has **autorhythmicity**; nerves only adjust rate.\n- The **cardiac cycle** alternates **systole** (contract/eject) and **diastole** (relax/fill); these set the **systolic/diastolic** blood pressure.\n- The **ECG** records electrical activity: **P** (atrial), **QRS** (ventricular), **T** (repolarization) — used to detect arrhythmias and heart attacks.\n\n## Sources\n\n- OpenStax, *Anatomy and Physiology 2e*, Chapter 19.2: Cardiac Muscle and Electrical Activity; 19.3: Cardiac Cycle. https://openstax.org/details/books/anatomy-and-physiology-2e\n- U.S. National Library of Medicine, MedlinePlus — Arrhythmias; Electrocardiogram. https://medlineplus.gov/arrhythmia.html\n"
+}

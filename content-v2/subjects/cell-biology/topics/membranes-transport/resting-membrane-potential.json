@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:membranes-transport:resting-membrane-potential",
+  "slug": "resting-membrane-potential",
+  "title": "The Resting Membrane Potential",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:membranes-transport",
+    "slug": "membranes-transport",
+    "title": "Membranes Transport",
+    "order": 2
+  },
+  "order": 13,
+  "status": "final",
+  "sections": {
+    "overview": "The resting membrane potential is the steady voltage across a cell's membrane when it is not signaling — about −70 mV in a typical neuron (inside negative). It arises because the membrane is far more permeable to K⁺ than to other ions, and intracellular K⁺ is much higher than extracellular K⁺: K⁺ leaks outward through K⁺ leak channels, leaving behind uncompensated negative charges, until the resulting electrical force balances the outward concentration drive. The Na⁺/K⁺ ATPase does *not* generate this potential directly; it **maintains** the Na⁺ and K⁺ concentration gradients on which the potential depends (and adds a small direct electrogenic contribution).",
+    "whyItMatters": "The resting membrane potential is the baseline from which all electrical signaling departs: action potentials are transient depolarizations and repolarizations away from it. It also powers secondary transport and Ca²⁺ signaling. Its disruption underlies arrhythmias, seizures, and disorders of excitability, and it explains why extracellular K⁺ must be tightly regulated (hyperkalemia depolarizes cells).",
+    "learningObjectives": "- Define the resting membrane potential and state its typical value in neurons.\n- Explain how selective K⁺ permeability and K⁺ leak channels generate the potential.\n- Apply the Nernst equation to one ion and the Goldman equation to several ions.\n- Clarify the roles of the Na⁺/K⁺ pump (maintains gradients) versus K⁺ diffusion (generates the potential).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe resting membrane potential is the steady voltage across a cell's membrane when it is not signaling — about −70 mV in a typical neuron (inside negative). It arises because the membrane is far more permeable to K⁺ than to other ions, and intracellular K⁺ is much higher than extracellular K⁺: K⁺ leaks outward through K⁺ leak channels, leaving behind uncompensated negative charges, until the resulting electrical force balances the outward concentration drive. The Na⁺/K⁺ ATPase does *not* generate this potential directly; it **maintains** the Na⁺ and K⁺ concentration gradients on which the potential depends (and adds a small direct electrogenic contribution).\n\n### Key Components\n\n### Selective permeability\nAt rest the membrane is ~25–100× more permeable to K⁺ than to Na⁺ (through constitutively open K⁺ leak channels), so K⁺ dominates the potential.\n\n### K⁺ leak channels\nChannels open at rest that let K⁺ move down its concentration gradient; their efflux makes the inside negative.\n\n### Nernst equation\nFor a single ion, the equilibrium potential E_ion = (RT/zF)·ln([ion]_out/[ion]_in). For K⁺ (roughly 5 mM out, 140 mM in, 37 °C), E_K ≈ −90 mV.\n\n### Goldman (GHK) equation\nFor a membrane permeable to several ions, weights each ion's contribution by its permeability (P): the resting potential is set mainly by the P_K-weighted K⁺ term, with smaller contributions from Na⁺ and Cl⁻, landing near −70 mV rather than −90 mV.\n\n### Na⁺/K⁺ ATPase\nActively pumps 3 Na⁺ out and 2 K⁺ in per ATP, keeping [K⁺] high inside and [Na⁺] high outside; its 3:2 electrogenic stoichiometry directly contributes only a few millivolts.\n\n### Mechanism\n\nThe potential is a diffusion potential. Because K⁺ channels are open and Na⁺ channels are mostly closed, K⁺ leaves the cell down its concentration gradient. Each K⁺ that exits leaves a negative counter-ion behind, so the inside becomes increasingly negative. This electrical field pulls K⁺ back in. Net K⁺ efflux continues until the electrical force exactly opposes the concentration force — the K⁺ equilibrium potential. A small Na⁺ leak (and the pump) shifts the steady value slightly positive of E_K, to ~−70 mV.\n\n### How It Works\n\n1. The Na⁺/K⁺ ATPase establishes high [K⁺] in and high [Na⁺] out.\n2. K⁺ leak channels are open at rest; Na⁺ channels are mostly closed.\n3. K⁺ diffuses outward, making the inside negative.\n4. The growing negative voltage opposes further K⁺ efflux.\n5. At equilibrium, K⁺ efflux = K⁺ influx (E_K); with a little Na⁺ leakage, the resting potential settles near −70 mV.\n\n### Energy and Directionality\n\nThe resting potential is an *equilibrium-like* steady state, not an energy-consuming one: K⁺ moves passively, and at E_K there is no net K⁺ flux. Energy (ATP) is spent elsewhere — by the Na⁺/K⁺ ATPase — to keep the ion gradients from running down, and by the small Na⁺ leak the pump must continuously counter. Thus the potential itself is \"free,\" but maintaining the gradients that sustain it is costly.\n\n### Experimental Evidence\n\n- **Changing external K⁺:** raising [K⁺]_out shifts the resting potential toward more positive values, closely tracking the Nernst prediction — direct proof that K⁺ permeability sets the potential.\n- **Ion substitution (removing Na⁺):** removing external Na⁺ barely changes the resting potential, confirming Na⁺ contributes little at rest.\n- **Ouabain blockade:** inhibiting the Na⁺/K⁺ ATPase causes the potential to run down slowly (gradients dissipate) rather than collapse instantly — showing the pump maintains gradients rather than generating the potential.\n- **Single-channel recording:** identified the K⁺ leak (K2P) channels responsible for resting K⁺ conductance.\n\n### Technique\n\nThe resting potential is measured with an intracellular microelectrode or whole-cell patch-clamp; the Nernst and Goldman equations convert measured ion concentrations and permeabilities into the predicted voltage. Varying external ions (especially K⁺) tests the model.",
+    "howItWorks": "1. The Na⁺/K⁺ ATPase establishes high [K⁺] in and high [Na⁺] out.\n2. K⁺ leak channels are open at rest; Na⁺ channels are mostly closed.\n3. K⁺ diffuses outward, making the inside negative.\n4. The growing negative voltage opposes further K⁺ efflux.\n5. At equilibrium, K⁺ efflux = K⁺ influx (E_K); with a little Na⁺ leakage, the resting potential settles near −70 mV.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Resting potential: ~−70 mV (inside negative); E_K ≈ −90 mV.\n- Generated by K⁺ efflux through leak channels + selective K⁺ permeability.\n- Nernst: E_ion = (RT/zF)·ln([ion]_out/[ion]_in).\n- Goldman equation: weights Na⁺, K⁺, Cl⁻ by permeability (P_K dominates).\n- Na⁺/K⁺ ATPase maintains gradients; it does not directly create the potential.\n- Raising external K⁺ depolarizes; removing external Na⁺ has little effect at rest.",
+    "commonConfusions": "- **\"The Na⁺/K⁺ pump directly produces the resting potential.\"** The pump maintains the ion gradients (and adds only ~a few mV directly); the potential is a K⁺ diffusion potential.\n- **\"The resting potential equals E_K exactly.\"** A small resting Na⁺ permeability (and the pump) shifts it a few millivolts positive of E_K, to ~−70 mV.\n- **\"Na⁺ sets the resting potential.\"** Na⁺ dominates the *action-potential* upstroke; at rest K⁺ dominates.\n- **\"The cell is at equilibrium.\"** It is a steady state that continuously leaks ions and spends ATP to maintain gradients.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a balloon full of potassium that has a tiny one-way-ish leak. Potassium particles keep leaking out, and every one that leaves leaves a \"minus\" behind, so the inside gets more and more negative. Pretty soon the negative charge starts pulling potassium back in as fast as it leaks out, and the two balance — that balance point is the resting voltage. The sodium-potassium pump is the maintenance crew that keeps restocking the potassium inside; it does not make the voltage, it just keeps the setup from running empty.",
+    "quickReview": "- ~−70 mV, inside negative; K⁺-driven diffusion potential.\n- K⁺ leak channels + high resting P_K set the value.\n- Nernst (one ion) vs. Goldman (weighted multi-ion).\n- Pump maintains gradients; K⁺ diffusion generates the voltage.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "StatPearls, \"Physiology, Resting Potential.\" https://www.ncbi.nlm.nih.gov/books/NBK538338/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK538338/"
+      },
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, \"12.4 The Action Potential.\" https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential"
+      },
+      {
+        "text": "StatPearls, \"Physiology, Sodium Potassium Pump.\" https://www.ncbi.nlm.nih.gov/books/NBK537088/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK537088/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Principles of Membrane Transport.\" https://www.ncbi.nlm.nih.gov/books/NBK26815/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "resting-membrane-potential",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "13-resting-membrane-potential",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:2b12bec1e84c19b9"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:2b12bec1e84c19b9"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:2b12bec1e84c19b9"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:2b12bec1e84c19b9"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/02-membranes-transport/13-resting-membrane-potential.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# The Resting Membrane Potential\n\n## Learning Goals\n- Define the resting membrane potential and state its typical value in neurons.\n- Explain how selective K⁺ permeability and K⁺ leak channels generate the potential.\n- Apply the Nernst equation to one ion and the Goldman equation to several ions.\n- Clarify the roles of the Na⁺/K⁺ pump (maintains gradients) versus K⁺ diffusion (generates the potential).\n\n## Core Concept\nThe resting membrane potential is the steady voltage across a cell's membrane when it is not signaling — about −70 mV in a typical neuron (inside negative). It arises because the membrane is far more permeable to K⁺ than to other ions, and intracellular K⁺ is much higher than extracellular K⁺: K⁺ leaks outward through K⁺ leak channels, leaving behind uncompensated negative charges, until the resulting electrical force balances the outward concentration drive. The Na⁺/K⁺ ATPase does *not* generate this potential directly; it **maintains** the Na⁺ and K⁺ concentration gradients on which the potential depends (and adds a small direct electrogenic contribution).\n\n## Key Components\n### Selective permeability\nAt rest the membrane is ~25–100× more permeable to K⁺ than to Na⁺ (through constitutively open K⁺ leak channels), so K⁺ dominates the potential.\n\n### K⁺ leak channels\nChannels open at rest that let K⁺ move down its concentration gradient; their efflux makes the inside negative.\n\n### Nernst equation\nFor a single ion, the equilibrium potential E_ion = (RT/zF)·ln([ion]_out/[ion]_in). For K⁺ (roughly 5 mM out, 140 mM in, 37 °C), E_K ≈ −90 mV.\n\n### Goldman (GHK) equation\nFor a membrane permeable to several ions, weights each ion's contribution by its permeability (P): the resting potential is set mainly by the P_K-weighted K⁺ term, with smaller contributions from Na⁺ and Cl⁻, landing near −70 mV rather than −90 mV.\n\n### Na⁺/K⁺ ATPase\nActively pumps 3 Na⁺ out and 2 K⁺ in per ATP, keeping [K⁺] high inside and [Na⁺] high outside; its 3:2 electrogenic stoichiometry directly contributes only a few millivolts.\n\n## Mechanism\nThe potential is a diffusion potential. Because K⁺ channels are open and Na⁺ channels are mostly closed, K⁺ leaves the cell down its concentration gradient. Each K⁺ that exits leaves a negative counter-ion behind, so the inside becomes increasingly negative. This electrical field pulls K⁺ back in. Net K⁺ efflux continues until the electrical force exactly opposes the concentration force — the K⁺ equilibrium potential. A small Na⁺ leak (and the pump) shifts the steady value slightly positive of E_K, to ~−70 mV.\n\n## How It Works\n1. The Na⁺/K⁺ ATPase establishes high [K⁺] in and high [Na⁺] out.\n2. K⁺ leak channels are open at rest; Na⁺ channels are mostly closed.\n3. K⁺ diffuses outward, making the inside negative.\n4. The growing negative voltage opposes further K⁺ efflux.\n5. At equilibrium, K⁺ efflux = K⁺ influx (E_K); with a little Na⁺ leakage, the resting potential settles near −70 mV.\n\n## Energy and Directionality\nThe resting potential is an *equilibrium-like* steady state, not an energy-consuming one: K⁺ moves passively, and at E_K there is no net K⁺ flux. Energy (ATP) is spent elsewhere — by the Na⁺/K⁺ ATPase — to keep the ion gradients from running down, and by the small Na⁺ leak the pump must continuously counter. Thus the potential itself is \"free,\" but maintaining the gradients that sustain it is costly.\n\n## Experimental Evidence\n- **Changing external K⁺:** raising [K⁺]_out shifts the resting potential toward more positive values, closely tracking the Nernst prediction — direct proof that K⁺ permeability sets the potential.\n- **Ion substitution (removing Na⁺):** removing external Na⁺ barely changes the resting potential, confirming Na⁺ contributes little at rest.\n- **Ouabain blockade:** inhibiting the Na⁺/K⁺ ATPase causes the potential to run down slowly (gradients dissipate) rather than collapse instantly — showing the pump maintains gradients rather than generating the potential.\n- **Single-channel recording:** identified the K⁺ leak (K2P) channels responsible for resting K⁺ conductance.\n\n## Technique\nThe resting potential is measured with an intracellular microelectrode or whole-cell patch-clamp; the Nernst and Goldman equations convert measured ion concentrations and permeabilities into the predicted voltage. Varying external ions (especially K⁺) tests the model.\n\n## Why It Matters\nThe resting membrane potential is the baseline from which all electrical signaling departs: action potentials are transient depolarizations and repolarizations away from it. It also powers secondary transport and Ca²⁺ signaling. Its disruption underlies arrhythmias, seizures, and disorders of excitability, and it explains why extracellular K⁺ must be tightly regulated (hyperkalemia depolarizes cells).\n\n## High-Yield Facts\n- Resting potential: ~−70 mV (inside negative); E_K ≈ −90 mV.\n- Generated by K⁺ efflux through leak channels + selective K⁺ permeability.\n- Nernst: E_ion = (RT/zF)·ln([ion]_out/[ion]_in).\n- Goldman equation: weights Na⁺, K⁺, Cl⁻ by permeability (P_K dominates).\n- Na⁺/K⁺ ATPase maintains gradients; it does not directly create the potential.\n- Raising external K⁺ depolarizes; removing external Na⁺ has little effect at rest.\n\n## Eli Explains\nImagine a balloon full of potassium that has a tiny one-way-ish leak. Potassium particles keep leaking out, and every one that leaves leaves a \"minus\" behind, so the inside gets more and more negative. Pretty soon the negative charge starts pulling potassium back in as fast as it leaks out, and the two balance — that balance point is the resting voltage. The sodium-potassium pump is the maintenance crew that keeps restocking the potassium inside; it does not make the voltage, it just keeps the setup from running empty.\n\n## Common Confusions\n- **\"The Na⁺/K⁺ pump directly produces the resting potential.\"** The pump maintains the ion gradients (and adds only ~a few mV directly); the potential is a K⁺ diffusion potential.\n- **\"The resting potential equals E_K exactly.\"** A small resting Na⁺ permeability (and the pump) shifts it a few millivolts positive of E_K, to ~−70 mV.\n- **\"Na⁺ sets the resting potential.\"** Na⁺ dominates the *action-potential* upstroke; at rest K⁺ dominates.\n- **\"The cell is at equilibrium.\"** It is a steady state that continuously leaks ions and spends ATP to maintain gradients.\n\n## Quick Review\n- ~−70 mV, inside negative; K⁺-driven diffusion potential.\n- K⁺ leak channels + high resting P_K set the value.\n- Nernst (one ion) vs. Goldman (weighted multi-ion).\n- Pump maintains gradients; K⁺ diffusion generates the voltage.\n\n## Sources\n- StatPearls, \"Physiology, Resting Potential.\" https://www.ncbi.nlm.nih.gov/books/NBK538338/\n- OpenStax, *Anatomy and Physiology 2e*, \"12.4 The Action Potential.\" https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential\n- StatPearls, \"Physiology, Sodium Potassium Pump.\" https://www.ncbi.nlm.nih.gov/books/NBK537088/\n- Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Principles of Membrane Transport.\" https://www.ncbi.nlm.nih.gov/books/NBK26815/\n"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "genetics-linkage-and-genetic-mapping-0001",
+  "subject": "genetics",
+  "lesson": "linkage-and-genetic-mapping",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** mapping In Drosophila, a female heterozygous for three recessive mutations in the linked genes *a*, *b*, and *c*, with the arrangement *a b c* / + + +, is test crossed to a male homozygous for all three recessives. The progeny classes and counts are: *a b c* 592, wild type 592, *b c* 108, *a* 108, *a b* 94, *c* 94, *a c* 4, *b* 4. Which locus lies in the middle of the genetic map?",
+  "options": [
+    {
+      "id": "a",
+      "text": "*b*"
+    },
+    {
+      "id": "b",
+      "text": "*a*"
+    },
+    {
+      "id": "c",
+      "text": "*c*"
+    },
+    {
+      "id": "d",
+      "text": "The order cannot be determined from these data"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "A double crossover exchanges the middle gene while the flanking genes stay in their parental arrangement, so the gene whose allele differs between the parental classes (*a b c*, + + +) and the double crossover classes (*a c*, *b*) is the middle locus; only *b* is swapped, so the order is *a*-*b*-*c*. Choosing *a* or *c* comes from reading order off the largest classes rather than comparing the parental with the double crossover classes, which never reveals the middle gene. D fails because the four *a c* and four *b* progeny are exactly the class needed to establish order.",
+  "difficulty": "unknown",
+  "tags": [
+    "three",
+    "point",
+    "test",
+    "cross",
+    "gene",
+    "order"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-6f4c5593d895eb88",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

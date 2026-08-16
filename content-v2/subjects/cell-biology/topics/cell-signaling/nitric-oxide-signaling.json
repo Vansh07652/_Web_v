@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-signaling:nitric-oxide-signaling",
+  "slug": "nitric-oxide-signaling",
+  "title": "Nitric Oxide Signaling",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-signaling",
+    "slug": "cell-signaling",
+    "title": "Cell Signaling",
+    "order": 6
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "Nitric oxide (NO) is an unusual signaling molecule: a small, **freely diffusible gas** synthesized on demand from the amino acid arginine by **nitric oxide synthase (NOS)**. Because it diffuses straight through membranes, it acts **locally (paracrine)** on neighboring cells — most importantly on **smooth muscle**, where it causes relaxation and vasodilation. NO's receptor is not on the cell surface or in the nucleus but a cytoplasmic enzyme, **soluble guanylyl cyclase (sGC)**, whose **heme iron** NO binds directly. Activation of sGC converts GTP to the second messenger **cGMP**, which activates **protein kinase G (PKG)**, lowering intracellular Ca²⁺ and relaxing muscle. NO is short-lived (half-life of seconds), so its signal is rapid, local, and tightly controlled.",
+    "whyItMatters": "NO is the master regulator of **vascular tone**: endothelial NO relaxes smooth muscle, dilating vessels and lowering blood pressure. This is the basis of **nitroglycerin** (a NO donor used to relieve angina) and of **sildenafil (Viagra)**, which inhibits **PDE5** to prolong cGMP and sustain vasodilation. In the brain, NO acts as a retrograde neurotransmitter; in the immune system, **iNOS** produces large amounts of NO to kill pathogens (macrophages). Dysregulation of NO contributes to hypertension, atherosclerosis, and septic shock (excess iNOS → pathological vasodilation).",
+    "learningObjectives": "- Explain how nitric oxide (NO) is synthesized and why it can act as an intercellular signal.\n- Trace the NO → soluble guanylyl cyclase (sGC) → cGMP → PKG pathway.\n- Explain why NO is NOT a nuclear-receptor ligand, contrasting it with steroid hormones.\n- Relate NO signaling to vasodilation and to drugs (nitroglycerin, sildenafil).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nNitric oxide (NO) is an unusual signaling molecule: a small, **freely diffusible gas** synthesized on demand from the amino acid arginine by **nitric oxide synthase (NOS)**. Because it diffuses straight through membranes, it acts **locally (paracrine)** on neighboring cells — most importantly on **smooth muscle**, where it causes relaxation and vasodilation. NO's receptor is not on the cell surface or in the nucleus but a cytoplasmic enzyme, **soluble guanylyl cyclase (sGC)**, whose **heme iron** NO binds directly. Activation of sGC converts GTP to the second messenger **cGMP**, which activates **protein kinase G (PKG)**, lowering intracellular Ca²⁺ and relaxing muscle. NO is short-lived (half-life of seconds), so its signal is rapid, local, and tightly controlled.\n\n### Key Components\n\n- **Nitric oxide synthase (NOS):** the enzyme that produces NO from L-arginine + O₂ → citrulline + NO, using NADPH. Isoforms: **eNOS** (endothelial), **nNOS** (neuronal), **iNOS** (inducible, immune).\n- **L-arginine:** the substrate; **citrulline** the co-product.\n- **Soluble guanylyl cyclase (sGC):** a cytoplasmic heterodimer with a **heme (iron) prosthetic group** that is NO's actual binding site.\n- **cGMP:** the second messenger made from GTP by sGC.\n- **Protein kinase G (PKG):** the cGMP-dependent kinase that phosphorylates targets (e.g., to reduce cytosolic Ca²⁺ in smooth muscle).\n- **Phosphodiesterase 5 (PDE5):** the enzyme that degrades cGMP, terminating the signal.\n\n### Mechanism / How It Works\n\n1. A stimulus — acetylcholine on endothelial cells, glutamate in neurons, or inflammatory cytokines in macrophages — raises intracellular Ca²⁺, activating **NOS**.\n2. NOS converts **arginine + O₂ → citrulline + NO** (using NADPH and cofactors).\n3. NO, being a small gas, **diffuses across membranes** into nearby target cells.\n4. In the target cell, NO binds the **heme iron of sGC**, triggering a conformational change that activates the cyclase.\n5. Active sGC converts **GTP → cGMP**, raising cGMP concentration hundreds-fold.\n6. **cGMP activates PKG**, which phosphorylates proteins that reduce cytosolic Ca²⁺ and desensitize the contractile machinery, causing **smooth-muscle relaxation** (vasodilation).\n7. **PDE5** hydrolyzes cGMP to GMP, and NO is oxidized (half-life ~2–5 seconds), quickly ending the signal.\n\n### Energy and Directionality\n\nNO synthesis consumes **NADPH** (reducing power) and **O₂**; cGMP production consumes **GTP**; and the Ca²⁺-pump/kinase machinery that executes relaxation consumes **ATP**. Directionality is spatial and chemical: NO is produced only by NOS-expressing cells and acts only on cells expressing sGC/PKG, and its **short half-life** confines the message to a small volume around the source — an inherently directional, local signal with a rapid on/off.\n\n### Experimental Evidence / Technique\n\n- **Vasodilation bioassays:** Furchgott and colleagues showed that endothelial-derived relaxing factor (EDRF) relaxes aortic rings only when the endothelium is present; EDRF was later identified as NO (1998 Nobel Prize).\n- **Griess assay / chemiluminescence:** detects nitrite/nitrate and NO directly, quantifying NO production.\n- **sGC/cGMP measurements:** NO donors (e.g., sodium nitroprusside) raise cGMP in target cells, linking NO → sGC → cGMP.\n- **Heme binding / spectroscopy:** NO binds the sGC heme iron, changing its absorbance spectrum — direct evidence of the NO–heme interaction.\n- **Knockout/knockin mice:** eNOS⁻/⁻ mice are hypertensive; sGC or PKG disruption blocks NO-dependent relaxation, confirming each pathway step in vivo.",
+    "howItWorks": "1. A stimulus — acetylcholine on endothelial cells, glutamate in neurons, or inflammatory cytokines in macrophages — raises intracellular Ca²⁺, activating **NOS**.\n2. NOS converts **arginine + O₂ → citrulline + NO** (using NADPH and cofactors).\n3. NO, being a small gas, **diffuses across membranes** into nearby target cells.\n4. In the target cell, NO binds the **heme iron of sGC**, triggering a conformational change that activates the cyclase.\n5. Active sGC converts **GTP → cGMP**, raising cGMP concentration hundreds-fold.\n6. **cGMP activates PKG**, which phosphorylates proteins that reduce cytosolic Ca²⁺ and desensitize the contractile machinery, causing **smooth-muscle relaxation** (vasodilation).\n7. **PDE5** hydrolyzes cGMP to GMP, and NO is oxidized (half-life ~2–5 seconds), quickly ending the signal.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- NO is a **gas**, synthesized by **NOS**: arginine + O₂ → citrulline + NO (NADPH).\n- NOS isoforms: **eNOS (endothelial), nNOS (neuronal), iNOS (inducible/immune)**.\n- NO acts **paracrine**; half-life only **~2–5 seconds**.\n- Receptor = **soluble guanylyl cyclase (sGC)**; NO binds its **heme iron** — NOT a nuclear receptor, NOT a 7TM receptor.\n- sGC makes **cGMP from GTP**; cGMP activates **PKG** → smooth-muscle relaxation/vasodilation.\n- **PDE5 degrades cGMP**; **sildenafil** inhibits PDE5; **nitroglycerin** donates NO.\n- NO is a retrograde signal in neurons and a microbicidal agent via iNOS.",
+    "commonConfusions": "- **\"NO is a hormone acting through a nuclear receptor.\"** — NO is a **gas** acting on the cytoplasmic enzyme **sGC**; it never binds a nuclear receptor.\n- **\"NO's receptor is a 7TM/GPCR.\"** — No; sGC is a soluble cytoplasmic cyclase, not a transmembrane receptor.\n- **\"NO works by binding DNA.\"** — It works by activating sGC → cGMP → PKG (though NO can also nitrosylate proteins, a distinct action).\n- **\"cGMP is made from ATP.\"** — cGMP is made from **GTP** (cAMP is the one made from ATP).\n- **\"NO is a long-range hormone.\"** — Its extreme lability makes it strictly **local/paracrine**.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of NO as a puff of smoke. A cell makes a quick puff (using a machine called NOS) and the smoke drifts through walls into the next-door cells — no doorbell or lock needed because smoke passes through everything. Inside the neighbor, the smoke lands on a special detector (sGC) and flips a switch that makes a \"relax\" signal (cGMP), telling the neighbor's muscle to loosen up. The smoke vanishes in a few seconds, so the message is brief and only reaches close neighbors. (The analogy omits that the \"smoke\" is a precisely made molecule, that the detector has an iron atom the molecule grabs, and that a cleanup enzyme must also switch the signal off.)",
+    "quickReview": "- NO = diffusible gas, made by NOS (e/n/i) from arginine, NADPH, O₂.\n- Pathway: NO → sGC (heme) → GTP → cGMP → PKG → vasodilation.\n- Short half-life (~seconds) → local, rapid, tightly controlled signaling.\n- NOT a nuclear receptor or GPCR; distinct from steroid hormones.\n- Drugs: nitroglycerin (NO donor), sildenafil (PDE5 inhibitor).\n- Roles: vascular tone, neurotransmission, immune killing; defects → hypertension, septic shock.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, et al. *Molecular Biology of the Cell.* 4th ed. \"General Principles of Cell Communication.\" https://www.ncbi.nlm.nih.gov/books/NBK26813/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26813/"
+      },
+      {
+        "text": "Cooper GM. *The Cell: A Molecular Approach.* 2nd ed. \"Signaling Molecules and Their Receptors.\" https://www.ncbi.nlm.nih.gov/books/NBK9924/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9924/"
+      },
+      {
+        "text": "OpenStax. *Biology 2e.* Chapter 9.1: \"Signaling Molecules and Cellular Receptors.\" https://openstax.org/books/biology-2e/pages/9-1-signaling-molecules-and-cellular-receptors",
+        "url": "https://openstax.org/books/biology-2e/pages/9-1-signaling-molecules-and-cellular-receptors"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "nitric-oxide-signaling",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "04-nitric-oxide-signaling",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:fd12aed636038092"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:fd12aed636038092"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:fd12aed636038092"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:fd12aed636038092"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/06-cell-signaling/04-nitric-oxide-signaling.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Nitric Oxide Signaling\n\n## Learning Goals\n- Explain how nitric oxide (NO) is synthesized and why it can act as an intercellular signal.\n- Trace the NO → soluble guanylyl cyclase (sGC) → cGMP → PKG pathway.\n- Explain why NO is NOT a nuclear-receptor ligand, contrasting it with steroid hormones.\n- Relate NO signaling to vasodilation and to drugs (nitroglycerin, sildenafil).\n\n## Core Concept\nNitric oxide (NO) is an unusual signaling molecule: a small, **freely diffusible gas** synthesized on demand from the amino acid arginine by **nitric oxide synthase (NOS)**. Because it diffuses straight through membranes, it acts **locally (paracrine)** on neighboring cells — most importantly on **smooth muscle**, where it causes relaxation and vasodilation. NO's receptor is not on the cell surface or in the nucleus but a cytoplasmic enzyme, **soluble guanylyl cyclase (sGC)**, whose **heme iron** NO binds directly. Activation of sGC converts GTP to the second messenger **cGMP**, which activates **protein kinase G (PKG)**, lowering intracellular Ca²⁺ and relaxing muscle. NO is short-lived (half-life of seconds), so its signal is rapid, local, and tightly controlled.\n\n## Key Components\n- **Nitric oxide synthase (NOS):** the enzyme that produces NO from L-arginine + O₂ → citrulline + NO, using NADPH. Isoforms: **eNOS** (endothelial), **nNOS** (neuronal), **iNOS** (inducible, immune).\n- **L-arginine:** the substrate; **citrulline** the co-product.\n- **Soluble guanylyl cyclase (sGC):** a cytoplasmic heterodimer with a **heme (iron) prosthetic group** that is NO's actual binding site.\n- **cGMP:** the second messenger made from GTP by sGC.\n- **Protein kinase G (PKG):** the cGMP-dependent kinase that phosphorylates targets (e.g., to reduce cytosolic Ca²⁺ in smooth muscle).\n- **Phosphodiesterase 5 (PDE5):** the enzyme that degrades cGMP, terminating the signal.\n\n## Mechanism / How It Works\n1. A stimulus — acetylcholine on endothelial cells, glutamate in neurons, or inflammatory cytokines in macrophages — raises intracellular Ca²⁺, activating **NOS**.\n2. NOS converts **arginine + O₂ → citrulline + NO** (using NADPH and cofactors).\n3. NO, being a small gas, **diffuses across membranes** into nearby target cells.\n4. In the target cell, NO binds the **heme iron of sGC**, triggering a conformational change that activates the cyclase.\n5. Active sGC converts **GTP → cGMP**, raising cGMP concentration hundreds-fold.\n6. **cGMP activates PKG**, which phosphorylates proteins that reduce cytosolic Ca²⁺ and desensitize the contractile machinery, causing **smooth-muscle relaxation** (vasodilation).\n7. **PDE5** hydrolyzes cGMP to GMP, and NO is oxidized (half-life ~2–5 seconds), quickly ending the signal.\n\n## Energy and Directionality\nNO synthesis consumes **NADPH** (reducing power) and **O₂**; cGMP production consumes **GTP**; and the Ca²⁺-pump/kinase machinery that executes relaxation consumes **ATP**. Directionality is spatial and chemical: NO is produced only by NOS-expressing cells and acts only on cells expressing sGC/PKG, and its **short half-life** confines the message to a small volume around the source — an inherently directional, local signal with a rapid on/off.\n\n## Experimental Evidence / Technique\n- **Vasodilation bioassays:** Furchgott and colleagues showed that endothelial-derived relaxing factor (EDRF) relaxes aortic rings only when the endothelium is present; EDRF was later identified as NO (1998 Nobel Prize).\n- **Griess assay / chemiluminescence:** detects nitrite/nitrate and NO directly, quantifying NO production.\n- **sGC/cGMP measurements:** NO donors (e.g., sodium nitroprusside) raise cGMP in target cells, linking NO → sGC → cGMP.\n- **Heme binding / spectroscopy:** NO binds the sGC heme iron, changing its absorbance spectrum — direct evidence of the NO–heme interaction.\n- **Knockout/knockin mice:** eNOS⁻/⁻ mice are hypertensive; sGC or PKG disruption blocks NO-dependent relaxation, confirming each pathway step in vivo.\n\n## Why It Matters\nNO is the master regulator of **vascular tone**: endothelial NO relaxes smooth muscle, dilating vessels and lowering blood pressure. This is the basis of **nitroglycerin** (a NO donor used to relieve angina) and of **sildenafil (Viagra)**, which inhibits **PDE5** to prolong cGMP and sustain vasodilation. In the brain, NO acts as a retrograde neurotransmitter; in the immune system, **iNOS** produces large amounts of NO to kill pathogens (macrophages). Dysregulation of NO contributes to hypertension, atherosclerosis, and septic shock (excess iNOS → pathological vasodilation).\n\n## High-Yield Facts\n- NO is a **gas**, synthesized by **NOS**: arginine + O₂ → citrulline + NO (NADPH).\n- NOS isoforms: **eNOS (endothelial), nNOS (neuronal), iNOS (inducible/immune)**.\n- NO acts **paracrine**; half-life only **~2–5 seconds**.\n- Receptor = **soluble guanylyl cyclase (sGC)**; NO binds its **heme iron** — NOT a nuclear receptor, NOT a 7TM receptor.\n- sGC makes **cGMP from GTP**; cGMP activates **PKG** → smooth-muscle relaxation/vasodilation.\n- **PDE5 degrades cGMP**; **sildenafil** inhibits PDE5; **nitroglycerin** donates NO.\n- NO is a retrograde signal in neurons and a microbicidal agent via iNOS.\n\n## Eli Explains\nThink of NO as a puff of smoke. A cell makes a quick puff (using a machine called NOS) and the smoke drifts through walls into the next-door cells — no doorbell or lock needed because smoke passes through everything. Inside the neighbor, the smoke lands on a special detector (sGC) and flips a switch that makes a \"relax\" signal (cGMP), telling the neighbor's muscle to loosen up. The smoke vanishes in a few seconds, so the message is brief and only reaches close neighbors. (The analogy omits that the \"smoke\" is a precisely made molecule, that the detector has an iron atom the molecule grabs, and that a cleanup enzyme must also switch the signal off.)\n\n## Common Confusions\n- **\"NO is a hormone acting through a nuclear receptor.\"** — NO is a **gas** acting on the cytoplasmic enzyme **sGC**; it never binds a nuclear receptor.\n- **\"NO's receptor is a 7TM/GPCR.\"** — No; sGC is a soluble cytoplasmic cyclase, not a transmembrane receptor.\n- **\"NO works by binding DNA.\"** — It works by activating sGC → cGMP → PKG (though NO can also nitrosylate proteins, a distinct action).\n- **\"cGMP is made from ATP.\"** — cGMP is made from **GTP** (cAMP is the one made from ATP).\n- **\"NO is a long-range hormone.\"** — Its extreme lability makes it strictly **local/paracrine**.\n\n## Quick Review\n- NO = diffusible gas, made by NOS (e/n/i) from arginine, NADPH, O₂.\n- Pathway: NO → sGC (heme) → GTP → cGMP → PKG → vasodilation.\n- Short half-life (~seconds) → local, rapid, tightly controlled signaling.\n- NOT a nuclear receptor or GPCR; distinct from steroid hormones.\n- Drugs: nitroglycerin (NO donor), sildenafil (PDE5 inhibitor).\n- Roles: vascular tone, neurotransmission, immune killing; defects → hypertension, septic shock.\n\n## Sources\n- Alberts B, et al. *Molecular Biology of the Cell.* 4th ed. \"General Principles of Cell Communication.\" https://www.ncbi.nlm.nih.gov/books/NBK26813/\n- Cooper GM. *The Cell: A Molecular Approach.* 2nd ed. \"Signaling Molecules and Their Receptors.\" https://www.ncbi.nlm.nih.gov/books/NBK9924/\n- OpenStax. *Biology 2e.* Chapter 9.1: \"Signaling Molecules and Cellular Receptors.\" https://openstax.org/books/biology-2e/pages/9-1-signaling-molecules-and-cellular-receptors\n"
+}

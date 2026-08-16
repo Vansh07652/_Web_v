@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:aqueous-ionic-equilibria:buffers",
+  "slug": "buffers",
+  "title": "Buffers: Solutions That Resist pH Change",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:aqueous-ionic-equilibria",
+    "slug": "aqueous-ionic-equilibria",
+    "title": "Aqueous Ionic Equilibria",
+    "order": 6
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "A **buffer** is a solution that resists changes in pH when small amounts of strong acid or base are added. It consists of a weak acid and its conjugate base (or a weak base and its conjugate acid) in comparable concentrations. Because both members are present, the weak acid can neutralize added OH⁻ and the conjugate base can neutralize added H₃O⁺, converting a strong acid/base assault into a tiny shift of a weak-acid equilibrium. This is why blood, seawater, and many biological fluids hold their pH nearly constant.",
+    "whyItMatters": "Buffers are the reason you are alive: human blood is buffered near pH 7.4 by the H₂CO₃/HCO₃⁻ system plus phosphate and protein buffers, and a shift of even ±0.4 pH units is life-threatening. Buffers also stabilize enzyme activity in the lab, control swimming-pool and aquarium chemistry, and keep drug formulations and foods at their intended pH.",
+    "learningObjectives": "- Define a buffer and identify buffer systems.\n- Explain how a weak acid + conjugate base pair resists pH change.\n- Calculate the pH of a buffer from its components.\n- Describe buffer capacity and the limits of buffer action.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA **buffer** is a solution that resists changes in pH when small amounts of strong acid or base are added. It consists of a weak acid and its conjugate base (or a weak base and its conjugate acid) in comparable concentrations. Because both members are present, the weak acid can neutralize added OH⁻ and the conjugate base can neutralize added H₃O⁺, converting a strong acid/base assault into a tiny shift of a weak-acid equilibrium. This is why blood, seawater, and many biological fluids hold their pH nearly constant.\n\n### Key Ideas\n\n- **Composition:** a weak acid + its conjugate base (e.g., CH₃COOH/CH₃COO⁻) or a weak base + its conjugate acid (NH₃/NH₄⁺).\n- **How it absorbs acid:** the conjugate base reacts: A⁻ + H₃O⁺ → HA + H₂O.\n- **How it absorbs base:** the weak acid reacts: HA + OH⁻ → A⁻ + H₂O.\n- **Key requirement:** both members must be present in significant, comparable amounts; a buffer is NOT a strong acid/strong base mix.\n- **Buffer range:** works best within about ±1 pH unit of pKa.\n- **Buffer capacity:** the amount of strong acid/base a buffer can absorb; highest when [A⁻] ≈ [HA] and when total concentrations are high.\n\n### Equations and Variables\n\n- Buffer equilibrium: HA ⇌ H₃O⁺ + A⁻\n- pH = pKa + log([A⁻]/[HA]) (Henderson–Hasselbalch)\n- Acid absorbed: A⁻ + H₃O⁺ → HA + H₂O\n- Base absorbed: HA + OH⁻ → A⁻ + H₂O\n- Buffer range: pKa ± 1\n\n### How It Works\n\n1. A buffer holds both halves of a conjugate pair. The weak acid (HA) sits ready to donate a proton; the conjugate base (A⁻) sits ready to accept one.\n2. **Add strong acid (H₃O⁺):** the added protons are consumed by A⁻ → HA. The pH barely moves because the strong acid is replaced by the weak acid HA.\n3. **Add strong base (OH⁻):** the hydroxide is consumed by HA → A⁻ + H₂O. Again, a strong species is swapped for a weak one.\n4. The ratio [A⁻]/[HA] changes slightly, and the pH shifts by the log of that ratio — a tiny change for modest additions.\n5. The buffer fails (capacity exceeded) once one member of the pair is essentially used up.\n\n### Worked Example\n\n**A buffer is 0.10 M CH₃COOH and 0.10 M CH₃COONa (pKa = 4.74). (a) Find its pH. (b) Find the new pH after adding 0.010 mol of NaOH to 1.0 L of the buffer.**\n\n(a) pH = pKa + log([A⁻]/[HA]) = 4.74 + log(0.10/0.10) = 4.74 + 0 = 4.74.\n\n(b) Stoichiometry first: NaOH (0.010 mol) reacts with HA:\n\nHA + OH⁻ → A⁻ + H₂O\n\nNew amounts: HA = 0.10 − 0.010 = 0.090 M; A⁻ = 0.10 + 0.010 = 0.110 M.\n\npH = 4.74 + log(0.110/0.090) = 4.74 + log(1.222) = 4.74 + 0.087 = 4.83.\n\nAdding 0.010 mol of strong base moved the pH by only +0.09 units. The same NaOH added to pure water would jump the pH from 7 to ~12.",
+    "howItWorks": "1. A buffer holds both halves of a conjugate pair. The weak acid (HA) sits ready to donate a proton; the conjugate base (A⁻) sits ready to accept one.\n2. **Add strong acid (H₃O⁺):** the added protons are consumed by A⁻ → HA. The pH barely moves because the strong acid is replaced by the weak acid HA.\n3. **Add strong base (OH⁻):** the hydroxide is consumed by HA → A⁻ + H₂O. Again, a strong species is swapped for a weak one.\n4. The ratio [A⁻]/[HA] changes slightly, and the pH shifts by the log of that ratio — a tiny change for modest additions.\n5. The buffer fails (capacity exceeded) once one member of the pair is essentially used up.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Buffer = weak acid + conjugate base (comparable amounts).\n- Absorbs acid via A⁻ + H₃O⁺ → HA; absorbs base via HA + OH⁻ → A⁻ + H₂O.\n- pH = pKa + log([A⁻]/[HA]).\n- When [A⁻] = [HA], pH = pKa and capacity is maximal.\n- Works best within pKa ± 1.\n- Capacity depends on total concentration and the [A⁻]/[HA] ratio.\n- Blood buffer: H₂CO₃/HCO₃⁻, pH ≈ 7.4.",
+    "commonConfusions": "- **\"A buffer is any acid + base mixture.\"** — It must be a *weak* acid with its *conjugate* base; HCl + NaCl is not a buffer (Cl⁻ is too weak a base).\n- **\"A buffer keeps pH exactly constant.\"** — It *resists* change; pH still moves a little, and it fails entirely once capacity is exceeded.\n- **\"The conjugate base can be any anion.\"** — It must be the conjugate base of the buffer's weak acid (acetate with acetic acid, not chloride).\n- **\"Strong acid + strong base makes a good buffer.\"** — No; they neutralize to a neutral salt with no buffering ability.\n- **\"Buffers work at any pH.\"** — Each buffer only works near its pKa (±1 unit).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nA buffer is a two-person team: one teammate hands out protons, the other collects them. If someone dumps in acid, the collector teammate grabs the protons; if someone dumps in base, the giver teammate hands protons over. Either way, the \"surprise guest\" is absorbed by the team, so the room's acidity barely changes. (The analogy's limit: the team can only absorb so much — once one teammate is exhausted, the buffer \"breaks\" and pH swings.)",
+    "quickReview": "- Buffer = weak acid + conjugate base (or weak base + conjugate acid).\n- Acid absorbed by A⁻, base absorbed by HA.\n- pH = pKa + log([A⁻]/[HA]).\n- Max capacity when [A⁻] = [HA]; range = pKa ± 1.\n- Biological example: blood's H₂CO₃/HCO₃⁻ system.",
+    "workedExamples": "### Worked Example\n\n**A buffer is 0.10 M CH₃COOH and 0.10 M CH₃COONa (pKa = 4.74). (a) Find its pH. (b) Find the new pH after adding 0.010 mol of NaOH to 1.0 L of the buffer.**\n\n(a) pH = pKa + log([A⁻]/[HA]) = 4.74 + log(0.10/0.10) = 4.74 + 0 = 4.74.\n\n(b) Stoichiometry first: NaOH (0.010 mol) reacts with HA:\n\nHA + OH⁻ → A⁻ + H₂O\n\nNew amounts: HA = 0.10 − 0.010 = 0.090 M; A⁻ = 0.10 + 0.010 = 0.110 M.\n\npH = 4.74 + log(0.110/0.090) = 4.74 + log(1.222) = 4.74 + 0.087 = 4.83.\n\nAdding 0.010 mol of strong base moved the pH by only +0.09 units. The same NaOH added to pure water would jump the pH from 7 to ~12.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.6 Buffers.\" https://openstax.org/books/chemistry-2e/pages/14-6-buffers",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-6-buffers"
+      },
+      {
+        "text": "PubChem, \"Sodium Acetate.\" https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-acetate",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-acetate"
+      },
+      {
+        "text": "PubChem, \"Acetic Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Acetic-acid",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Acetic-acid"
+      },
+      {
+        "text": "Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "buffers",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "02-buffers",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:1de0536da9043d73"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:1de0536da9043d73"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:1de0536da9043d73"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:1de0536da9043d73"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/15-aqueous-ionic-equilibria/02-buffers.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Buffers: Solutions That Resist pH Change\n\n## Learning Goals\n- Define a buffer and identify buffer systems.\n- Explain how a weak acid + conjugate base pair resists pH change.\n- Calculate the pH of a buffer from its components.\n- Describe buffer capacity and the limits of buffer action.\n\n## Core Concept\nA **buffer** is a solution that resists changes in pH when small amounts of strong acid or base are added. It consists of a weak acid and its conjugate base (or a weak base and its conjugate acid) in comparable concentrations. Because both members are present, the weak acid can neutralize added OH⁻ and the conjugate base can neutralize added H₃O⁺, converting a strong acid/base assault into a tiny shift of a weak-acid equilibrium. This is why blood, seawater, and many biological fluids hold their pH nearly constant.\n\n## Key Ideas\n- **Composition:** a weak acid + its conjugate base (e.g., CH₃COOH/CH₃COO⁻) or a weak base + its conjugate acid (NH₃/NH₄⁺).\n- **How it absorbs acid:** the conjugate base reacts: A⁻ + H₃O⁺ → HA + H₂O.\n- **How it absorbs base:** the weak acid reacts: HA + OH⁻ → A⁻ + H₂O.\n- **Key requirement:** both members must be present in significant, comparable amounts; a buffer is NOT a strong acid/strong base mix.\n- **Buffer range:** works best within about ±1 pH unit of pKa.\n- **Buffer capacity:** the amount of strong acid/base a buffer can absorb; highest when [A⁻] ≈ [HA] and when total concentrations are high.\n\n## Equations and Variables\n- Buffer equilibrium: HA ⇌ H₃O⁺ + A⁻\n- pH = pKa + log([A⁻]/[HA]) (Henderson–Hasselbalch)\n- Acid absorbed: A⁻ + H₃O⁺ → HA + H₂O\n- Base absorbed: HA + OH⁻ → A⁻ + H₂O\n- Buffer range: pKa ± 1\n\n## How It Works\n1. A buffer holds both halves of a conjugate pair. The weak acid (HA) sits ready to donate a proton; the conjugate base (A⁻) sits ready to accept one.\n2. **Add strong acid (H₃O⁺):** the added protons are consumed by A⁻ → HA. The pH barely moves because the strong acid is replaced by the weak acid HA.\n3. **Add strong base (OH⁻):** the hydroxide is consumed by HA → A⁻ + H₂O. Again, a strong species is swapped for a weak one.\n4. The ratio [A⁻]/[HA] changes slightly, and the pH shifts by the log of that ratio — a tiny change for modest additions.\n5. The buffer fails (capacity exceeded) once one member of the pair is essentially used up.\n\n## Worked Example\n**A buffer is 0.10 M CH₃COOH and 0.10 M CH₃COONa (pKa = 4.74). (a) Find its pH. (b) Find the new pH after adding 0.010 mol of NaOH to 1.0 L of the buffer.**\n\n(a) pH = pKa + log([A⁻]/[HA]) = 4.74 + log(0.10/0.10) = 4.74 + 0 = 4.74.\n\n(b) Stoichiometry first: NaOH (0.010 mol) reacts with HA:\n\nHA + OH⁻ → A⁻ + H₂O\n\nNew amounts: HA = 0.10 − 0.010 = 0.090 M; A⁻ = 0.10 + 0.010 = 0.110 M.\n\npH = 4.74 + log(0.110/0.090) = 4.74 + log(1.222) = 4.74 + 0.087 = 4.83.\n\nAdding 0.010 mol of strong base moved the pH by only +0.09 units. The same NaOH added to pure water would jump the pH from 7 to ~12.\n\n## Why It Matters\nBuffers are the reason you are alive: human blood is buffered near pH 7.4 by the H₂CO₃/HCO₃⁻ system plus phosphate and protein buffers, and a shift of even ±0.4 pH units is life-threatening. Buffers also stabilize enzyme activity in the lab, control swimming-pool and aquarium chemistry, and keep drug formulations and foods at their intended pH.\n\n## High-Yield Facts\n- Buffer = weak acid + conjugate base (comparable amounts).\n- Absorbs acid via A⁻ + H₃O⁺ → HA; absorbs base via HA + OH⁻ → A⁻ + H₂O.\n- pH = pKa + log([A⁻]/[HA]).\n- When [A⁻] = [HA], pH = pKa and capacity is maximal.\n- Works best within pKa ± 1.\n- Capacity depends on total concentration and the [A⁻]/[HA] ratio.\n- Blood buffer: H₂CO₃/HCO₃⁻, pH ≈ 7.4.\n\n## Eli Explains\nA buffer is a two-person team: one teammate hands out protons, the other collects them. If someone dumps in acid, the collector teammate grabs the protons; if someone dumps in base, the giver teammate hands protons over. Either way, the \"surprise guest\" is absorbed by the team, so the room's acidity barely changes. (The analogy's limit: the team can only absorb so much — once one teammate is exhausted, the buffer \"breaks\" and pH swings.)\n\n## Common Confusions\n- **\"A buffer is any acid + base mixture.\"** — It must be a *weak* acid with its *conjugate* base; HCl + NaCl is not a buffer (Cl⁻ is too weak a base).\n- **\"A buffer keeps pH exactly constant.\"** — It *resists* change; pH still moves a little, and it fails entirely once capacity is exceeded.\n- **\"The conjugate base can be any anion.\"** — It must be the conjugate base of the buffer's weak acid (acetate with acetic acid, not chloride).\n- **\"Strong acid + strong base makes a good buffer.\"** — No; they neutralize to a neutral salt with no buffering ability.\n- **\"Buffers work at any pH.\"** — Each buffer only works near its pKa (±1 unit).\n\n## Quick Review\n- Buffer = weak acid + conjugate base (or weak base + conjugate acid).\n- Acid absorbed by A⁻, base absorbed by HA.\n- pH = pKa + log([A⁻]/[HA]).\n- Max capacity when [A⁻] = [HA]; range = pKa ± 1.\n- Biological example: blood's H₂CO₃/HCO₃⁻ system.\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"14.6 Buffers.\" https://openstax.org/books/chemistry-2e/pages/14-6-buffers\n- PubChem, \"Sodium Acetate.\" https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-acetate\n- PubChem, \"Acetic Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Acetic-acid\n- Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria\n"
+}

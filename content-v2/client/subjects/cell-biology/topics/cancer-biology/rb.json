@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cancer-biology:rb",
+  "slug": "rb",
+  "title": "The Retinoblastoma Protein (Rb)",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cancer-biology",
+    "slug": "cancer-biology",
+    "title": "Cancer Biology",
+    "order": 8
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "The retinoblastoma protein (pRb, encoded by *RB1*) is a tumor suppressor that gates the **restriction point**, the decision in late G1 to commit to DNA replication. In its hypophosphorylated form, pRb binds and inhibits the **E2F** family of transcription factors, blocking expression of genes needed for S phase. Phosphorylation by cyclin D–CDK4/6 and cyclin E–CDK2 inactivates pRb, releasing E2F to drive cell-cycle entry. Loss of pRb removes this gate, allowing unrestrained S-phase entry — the basis of retinoblastoma and a common lesion in many cancers.",
+    "whyItMatters": "The pRb pathway is disrupted — directly or indirectly — in the vast majority of human cancers, through *RB1* mutation, *CDKN2A* (p16) loss, cyclin D overexpression, or CDK4 amplification. This made CDK4/6 a major therapeutic target: CDK4/6 inhibitors (e.g., palbociclib) restore pRb-mediated arrest in Rb-positive breast cancers. Understanding the pRb–E2F switch is essential for cell-cycle biology and for rational cancer therapy.",
+    "learningObjectives": "- Explain how pRb controls the G1/S transition through E2F.\n- Describe how cyclin–CDK phosphorylation regulates pRb.\n- Explain Knudson's two-hit model as it arose from retinoblastoma.\n- Discuss how viral oncoproteins (HPV E7) inactivate pRb.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe retinoblastoma protein (pRb, encoded by *RB1*) is a tumor suppressor that gates the **restriction point**, the decision in late G1 to commit to DNA replication. In its hypophosphorylated form, pRb binds and inhibits the **E2F** family of transcription factors, blocking expression of genes needed for S phase. Phosphorylation by cyclin D–CDK4/6 and cyclin E–CDK2 inactivates pRb, releasing E2F to drive cell-cycle entry. Loss of pRb removes this gate, allowing unrestrained S-phase entry — the basis of retinoblastoma and a common lesion in many cancers.\n\n### Key Components\n\n- **pRb (RB1):** a \"pocket protein\" that binds E2F and represses S-phase genes; its activity is controlled by phosphorylation.\n- **E2F transcription factors:** drive transcription of genes for DNA replication and S-phase progression.\n- **Cyclin D–CDK4/6:** first kinases to phosphorylate pRb in G1 (partially inactivating it).\n- **Cyclin E–CDK2:** completes pRb hyperphosphorylation, fully releasing E2F.\n- **CDK inhibitors:** p16 (INK4a) blocks CDK4/6; p21/p27 block CDK2 — both keep pRb active.\n- **Viral oncoproteins:** HPV E7 (and SV40 large T, adenovirus E1A) bind and inactivate pRb.\n\n### Mechanism\n\nIn quiescent or early-G1 cells, hypophosphorylated pRb binds E2F and actively represses E2F target genes (in part by recruiting histone-modifying repressors). Mitogenic signals raise cyclin D, activating CDK4/6, which phosphorylate pRb; this weakens E2F binding and derepresses early genes, including cyclin E. Cyclin E–CDK2 then hyperphosphorylates pRb, fully freeing E2F, which transcribes the S-phase program. The restriction point is the moment this loop becomes self-sustaining and the cell is committed to division. Loss of pRb short-circuits the entire gate: E2F is constitutively active and cells enter S phase without mitogenic input.\n\n### How It Works\n\n1. G0/early G1: hypophosphorylated pRb binds E2F; S-phase genes are off.\n2. Growth signals induce cyclin D, activating CDK4/6.\n3. CDK4/6 phosphorylates pRb (partial inactivation).\n4. Partial E2F release transcribes cyclin E.\n5. Cyclin E–CDK2 hyperphosphorylates pRb, fully releasing E2F.\n6. E2F drives S-phase genes (DNA polymerase, cyclin A, etc.); the cell passes the restriction point.\n7. After mitosis, phosphatases return pRb to the hypophosphorylated state for the next cycle.\n\n### Energy and Directionality\n\nPhosphorylation is the currency of this switch: cyclin-dependent kinases transfer phosphate from ATP onto pRb, and each phosphorylation step consumes ATP. The directionality of the cell cycle is enforced by the irreversible commitment at the restriction point — once E2F is fully released and S-phase genes are on, the cell is propelled forward. Energy also enters indirectly: sufficient growth signals and biosynthetic capacity (nutrients, ATP) are prerequisites for passing the gate.\n\n### Experimental Evidence\n\n- **Knudson's two-hit model:** retinoblastoma occurs earlier and bilaterally in familial cases (one inherited *RB1* mutation + one somatic hit) versus later and unilaterally in sporadic cases (two somatic hits) — the founding evidence for tumor-suppressor genes.\n- ***Rb1*-knockout mice:** die during embryogenesis with defects in the nervous system and hematopoiesis, showing pRb's essential developmental roles beyond cancer.\n- **Viral oncoprotein binding:** HPV E7, SV40 large T, and adenovirus E1A all bind pRb and inactivate it, linking viral tumorigenesis to the same pathway.\n\n### Technique\n\n- **Western blot** — resolve hypo- vs. hyperphosphorylated pRb (migration shift).\n- **Immunohistochemistry** — detect pRb loss or phospho-pRb in tumor tissue.\n- **Co-immunoprecipitation** — assay pRb–E2F binding.\n- **E2F luciferase reporters** — measure pRb-mediated repression.\n- **Genetic testing** — germline *RB1* mutation screening in familial retinoblastoma.",
+    "howItWorks": "1. G0/early G1: hypophosphorylated pRb binds E2F; S-phase genes are off.\n2. Growth signals induce cyclin D, activating CDK4/6.\n3. CDK4/6 phosphorylates pRb (partial inactivation).\n4. Partial E2F release transcribes cyclin E.\n5. Cyclin E–CDK2 hyperphosphorylates pRb, fully releasing E2F.\n6. E2F drives S-phase genes (DNA polymerase, cyclin A, etc.); the cell passes the restriction point.\n7. After mitosis, phosphatases return pRb to the hypophosphorylated state for the next cycle.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- pRb gates the **restriction point (G1/S)** by binding and inhibiting **E2F**.\n- Hypophosphorylated pRb = active (binds E2F); hyperphosphorylated pRb = inactive (releases E2F).\n- Phosphorylation: **cyclin D–CDK4/6** first, then **cyclin E–CDK2**.\n- CDK inhibitors p16, p21, p27 keep pRb active.\n- *RB1* loss → constitutive E2F → uncontrolled S-phase entry.\n- Retinoblastoma: familial = bilateral/early; sporadic = unilateral/later (two-hit).\n- **HPV E7** (and SV40 T, adenovirus E1A) inactivate pRb.",
+    "commonConfusions": "- **\"Rb only exists in the retina.\"** — No; *RB1* is expressed in essentially all cells. Retinoblastoma is simply where its loss was first discovered.\n- **\"pRb is an oncogene.\"** — No, it is a tumor suppressor; phosphorylation *inactivates* it.\n- **\"pRb only arrests the cell cycle.\"** — It also regulates differentiation and development (its knockout is embryonic-lethal).\n- **\"E2F is always free to act.\"** — In G0/G1 it is bound and repressed by pRb.\n- **\"CDK phosphorylation activates pRb.\"** — The opposite: phosphorylation *inactivates* pRb and releases E2F.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture pRb as a bouncer standing in front of the \"S-phase door.\" While the bouncer is on duty, the E2F crowd (the replication workers) can't get in, so the cell stays put. When the cell gets the right \"grow\" signal, kinases tag the bouncer with phosphate stickers until he's covered and steps aside — then E2F rushes in and starts the copying. If pRb is missing entirely, there's no bouncer at all and the workers pour in whenever they want. (The analogy hides the graded, multi-step phosphorylation and that pRb also actively *represses* genes, not just physically blocks E2F.)",
+    "quickReview": "- pRb = restriction-point gatekeeper; binds E2F.\n- Hypophosphorylated = active; hyperphosphorylated = inactive.\n- CDK4/6 → partial; CDK2 → full phosphorylation.\n- p16/p21/p27 inhibit CDKs, keeping pRb active.\n- Two-hit model, HPV E7, CDK4/6 inhibitors.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "MedlinePlus Genetics, \"RB1 gene.\" https://medlineplus.gov/genetics/gene/rb1/",
+        "url": "https://medlineplus.gov/genetics/gene/rb1/"
+      },
+      {
+        "text": "MedlinePlus Genetics, \"Retinoblastoma.\" https://medlineplus.gov/genetics/condition/retinoblastoma/",
+        "url": "https://medlineplus.gov/genetics/condition/retinoblastoma/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"10.4 Cancer and the Cell Cycle.\" https://openstax.org/books/biology-2e/pages/10-4-cancer-and-the-cell-cycle",
+        "url": "https://openstax.org/books/biology-2e/pages/10-4-cancer-and-the-cell-cycle"
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"tumor suppressor gene.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-suppressor-gene",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-suppressor-gene"
+      },
+      {
+        "text": "NCI, \"What Is Cancer?\" https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+        "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/08-cancer-biology/06-rb.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

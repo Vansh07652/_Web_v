@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cytoskeleton-motility:cytokinetic-contractile-ring",
+  "slug": "cytokinetic-contractile-ring",
+  "title": "The Cytokinetic Contractile Ring",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cytoskeleton-motility",
+    "slug": "cytoskeleton-motility",
+    "title": "Cytoskeleton Motility",
+    "order": 5
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "Cytokinesis — the physical division of one cell into two — is driven in animal cells by a **contractile ring** of actin filaments and myosin II assembled just beneath the plasma membrane at the cell equator. The ring uses the same sliding-filament machinery as muscle: myosin II pulls antiparallel actin filaments together, tightening the ring like a purse string and pinching the cell into two daughter cells. Ring formation is spatially controlled by the mitotic spindle (via RhoA signaling) so that division occurs precisely between the two sets of chromosomes.",
+    "whyItMatters": "Cytokinesis must be perfectly coordinated with chromosome segregation; failure produces aneuploid or binucleate cells, a hallmark of cancer and of developmental defects. Because the contractile ring is essential for cell proliferation, its components (myosin II, RhoA effectors) are therapeutic targets in cancer. Understanding ring constriction is also fundamental to developmental biology — asymmetric cell division and tissue morphogenesis depend on precise furrow placement.",
+    "learningObjectives": "- Describe how the contractile ring forms at the cell equator.\n- Explain how actin and myosin II generate the force that divides a cell.\n- Describe the signaling (RhoA, formins) that positions and assembles the ring.\n- Contrast animal-cell cytokinesis with the plant-cell phragmoplast.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nCytokinesis — the physical division of one cell into two — is driven in animal cells by a **contractile ring** of actin filaments and myosin II assembled just beneath the plasma membrane at the cell equator. The ring uses the same sliding-filament machinery as muscle: myosin II pulls antiparallel actin filaments together, tightening the ring like a purse string and pinching the cell into two daughter cells. Ring formation is spatially controlled by the mitotic spindle (via RhoA signaling) so that division occurs precisely between the two sets of chromosomes.\n\n### Key Components\n\n- **Contractile ring:** a circumferential band of actin filaments and myosin II under the membrane.\n- **Myosin II:** the motor that generates contractile force by sliding actin filaments.\n- **Formins (mDia):** nucleate and elongate the unbranched actin filaments of the ring.\n- **RhoA GTPase:** the master regulator that activates formins and myosin at the equator.\n- **Centralspindlin / Ect2:** the spindle-derived complex that recruits and activates RhoA at the equatorial cortex.\n- **Anillin and septins:** scaffold proteins that link the ring to the plasma membrane.\n- **Cleavage furrow:** the ingressing membrane constriction produced by the ring.\n\n### Mechanism / How It Works\n\n1. **Positioning:** in anaphase, the spindle's central region (via centralspindlin and the GEF Ect2) establishes a band of active **RhoA** at the equatorial cortex.\n2. **Assembly:** active RhoA stimulates **formins** to nucleate unbranched actin filaments and activates **myosin II**, assembling the contractile ring beneath the membrane.\n3. **Constriction:** myosin II cross-bridges slide antiparallel actin filaments past one another, and the ring tightens — the \"purse-string\" constriction that ingresses the cleavage furrow.\n4. **Disassembly (tandem with constriction):** as the ring shrinks, actin filaments are simultaneously disassembled (depolymerized) so the ring can keep constricting without thickening.\n5. **Abscission:** when the furrow closes down to a narrow intercellular bridge, the membranes are finally severed (abscission by the ESCRT machinery), yielding two daughter cells.\n6. **Plant variant:** plants build a **phragmoplast** — a scaffold that directs vesicles to fuse into a new cell plate at the division plane — because a rigid cell wall prevents purse-string constriction.\n\n### Energy and Directionality\n\nCytokinesis is ATP/GTP-driven and vectorial (ring tightens inward). Myosin II hydrolyzes ATP to slide actin filaments (contraction), RhoA cycles GTP (spatial switch), and formins and actin turnover consume ATP/GTP as the ring assembles and disassembles. The direction of constriction — inward, at the equator — is set by the equatorial localization of RhoA, itself dictated by spindle geometry, ensuring the furrow forms exactly between the separated chromosomes.\n\n### Experimental Evidence / Technique\n\n- **Live-cell imaging of the ring:** fluorescent actin and myosin II reveal a contracting ring at the equator whose constriction rate matches the rate of actin disassembly.\n- **Drug perturbations:** latrunculin (actin depolymerization) or blebbistatin (myosin II inhibition) block cytokinesis, proving both actin and myosin II are required.\n- **RhoA manipulations:** local RhoA activation anywhere on the cortex induces an ectopic furrow; RhoA inhibition prevents cytokinesis — demonstrating RhoA is the spatial switch.\n- **Laser microsurgery:** relocating or destroying a mitotic spindle repositions the furrow, showing the spindle (via its central region) dictates ring position.\n- **Caenorhabditis elegans / fly genetics:** mutants in myosin II, formins, or RhoA effectors fail cytokinesis and become multinucleate.",
+    "howItWorks": "1. **Positioning:** in anaphase, the spindle's central region (via centralspindlin and the GEF Ect2) establishes a band of active **RhoA** at the equatorial cortex.\n2. **Assembly:** active RhoA stimulates **formins** to nucleate unbranched actin filaments and activates **myosin II**, assembling the contractile ring beneath the membrane.\n3. **Constriction:** myosin II cross-bridges slide antiparallel actin filaments past one another, and the ring tightens — the \"purse-string\" constriction that ingresses the cleavage furrow.\n4. **Disassembly (tandem with constriction):** as the ring shrinks, actin filaments are simultaneously disassembled (depolymerized) so the ring can keep constricting without thickening.\n5. **Abscission:** when the furrow closes down to a narrow intercellular bridge, the membranes are finally severed (abscission by the ESCRT machinery), yielding two daughter cells.\n6. **Plant variant:** plants build a **phragmoplast** — a scaffold that directs vesicles to fuse into a new cell plate at the division plane — because a rigid cell wall prevents purse-string constriction.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Cytokinesis in animal cells uses an **actin + myosin II contractile ring** (a \"purse string\").\n- The ring is positioned by the **mitotic spindle** via **RhoA** activation at the equator (centralspindlin/Ect2).\n- **Formins (mDia)** nucleate the ring's unbranched actin; **myosin II** generates force.\n- Ring constriction is coupled to **actin disassembly** so the ring thins as it tightens.\n- **RhoA** is the master spatial regulator; ectopic RhoA → ectopic furrow.\n- Final membrane separation is **abscission** (ESCRT-mediated).\n- **Plants** divide by a **phragmoplast/cell plate**, not purse-string constriction (cell wall prevents it).\n- Inhibitors: **latrunculin** (actin) and **blebbistatin** (myosin II) block cytokinesis.",
+    "commonConfusions": "- **\"The contractile ring is made of microtubules.\"** It is **actin + myosin II**; microtubules (the spindle) *position* the ring but do not constrict it.\n- **\"The ring contracts like a rubber band.\"** Unlike rubber, the ring **disassembles** as it constricts — it is a dynamic, turning-over structure, not a passive elastic band.\n- **\"Cytokinesis and mitosis are the same thing.\"** Mitosis divides the *nucleus*; cytokinesis divides the *cytoplasm*. They can be uncoupled (e.g. multinucleate cells).\n- **\"Plant and animal cells divide the same way.\"** Plants build a cell plate (phragmoplast) because the cell wall prevents purse-string constriction.\n- **\"Anywhere on the membrane can form a furrow.\"** Furrow position is tightly specified by the spindle via RhoA at the equator.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine wrapping a drawstring around the waist of a balloon and pulling it tight. The drawstring (the contractile ring) is made of actin and myosin, and myosin is the hand that pulls the two halves of the string past each other, cinching the waist smaller and smaller until the balloon pinches into two. The cell knows exactly where to put the drawstring by reading a signal from the spindle (the chromosome-dividing machine). (The analogy omits that the string must also be disassembled as it tightens, and that the final pinch-off uses a separate membrane-cutting machine.)",
+    "quickReview": "- Contractile ring = actin + myosin II at the equatorial cortex.\n- RhoA (activated by spindle/centralspindlin/Ect2) positions and assembles the ring.\n- Formins nucleate actin; myosin II slides filaments → constriction; ring disassembles as it tightens.\n- Abscission (ESCRT) completes division.\n- Plants use the phragmoplast/cell plate instead.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, Johnson A, Lewis J, et al. \"Cytokinesis.\" *Molecular Biology of the Cell.* 4th edition. Garland Science; 2002. https://www.ncbi.nlm.nih.gov/books/NBK26831/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26831/"
+      },
+      {
+        "text": "Cooper GM. \"Actin, Myosin, and Cell Movement.\" *The Cell: A Molecular Approach.* 2nd edition. Sinauer Associates; 2000. https://www.ncbi.nlm.nih.gov/books/NBK9961/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9961/"
+      },
+      {
+        "text": "Clark MA, Choi J, Douglas M. \"10.2 The Cell Cycle.\" *Biology 2e.* OpenStax. https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+        "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/05-cytoskeleton-motility/06-cytokinetic-contractile-ring.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

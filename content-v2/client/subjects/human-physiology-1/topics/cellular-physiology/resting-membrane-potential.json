@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:human-physiology-1:cellular-physiology:resting-membrane-potential",
+  "slug": "resting-membrane-potential",
+  "title": "Resting Membrane Potential",
+  "subject": {
+    "id": "subject:human-physiology-1",
+    "slug": "human-physiology-1",
+    "title": "Human Physiology I"
+  },
+  "unit": {
+    "id": "unit:human-physiology-1:cellular-physiology",
+    "slug": "cellular-physiology",
+    "title": "Cellular Physiology",
+    "order": 2
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "Resting membrane potential is the steady voltage across a resting cell membrane, about −70 mV in neurons (inside relative to outside). It exists because the membrane is far more permeable to potassium than to sodium, so potassium leaks out through potassium leak channels down its chemical gradient, leaving negative charge behind. The sodium-potassium ATPase pumps potassium back in and sodium out to sustain the gradients. This voltage is the baseline for all electrical signaling.",
+    "whyItMatters": "Resting membrane potential underlies recordings such as ECGs and EEGs. In the lab it is measured with a microelectrode and compared with Nernst/GHK predictions to judge whether gradients or channels are normal. Electrolyte shifts change excitability: low blood potassium can hyperpolarize excitable cells, high potassium can depolarize them. Clinical values, diagnostic criteria, and protocols vary by institution and jurisdiction; these notes support education and do not replace clinical instruction or supervision. Concerning symptoms require evaluation by qualified clinicians or local emergency services.",
+    "learningObjectives": "1. Distinguish chemical, electrical, and electrochemical gradients for a given ion.\n2. Use the Nernst equation to find an ion's equilibrium potential and explain its meaning.\n3. Use the Goldman-Hodgkin-Katz (GHK) equation to explain why resting membrane potential sits near the potassium equilibrium potential.\n4. Relate potassium leak channels and the sodium-potassium ATPase to the maintenance of resting membrane potential.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Resting membrane potential | Steady voltage across a resting membrane (≈ −70 mV) | Baseline for signaling |\n| Chemical gradient | Concentration difference across a membrane | Drives ions high-to-low |\n| Electrical gradient | Voltage difference across a membrane | Drives ions toward opposite charge |\n| Electrochemical gradient | Sum of chemical and electrical forces | Sets actual ion movement |\n| Sodium (Na⁺) | Main extracellular cation | Both gradients point inward; excites |\n| Potassium (K⁺) | Main intracellular cation | Its leak dominates resting potential |\n| Chloride (Cl⁻) | Main extracellular anion | Follows passively; aids inhibition |\n| Calcium (Ca²⁺) | Divalent cation, very low inside | Tiny leaks are influential; a signal |\n| Equilibrium potential | Voltage where one ion's gradients cancel | Nernst anchor for each ion |\n| Nernst equation | Computes E_ion from concentrations | Shows where each ion \"wants\" V_m |\n| Goldman-Hodgkin-Katz equation | Computes V_m from permeabilities and concentrations | Explains why V_m ≈ E_K |\n| Relative membrane permeability | How easily each ion crosses vs. others | Decides which ion dominates V_m |\n| Potassium leak channels | Always-open K⁺-selective channels | Source of resting K⁺ permeability |\n| Sodium-potassium ATPase | Pump moving 3 Na⁺ out / 2 K⁺ in per ATP | Maintains the gradients |\n| Membrane voltage | Actual potential difference across the membrane | The measured quantity V_m |\n| Depolarization | V_m becomes less negative | First step toward excitation |\n| Hyperpolarization | V_m becomes more negative | Moves the cell from threshold |\n| Ion-channel selectivity | A channel's preference for one ion species | Explains each channel's effect |",
+    "collegeNotes": "### 1. Chemical, electrical, and electrochemical gradients\nA **chemical gradient** is a concentration difference; ions move high to low. An **electrical gradient** is a charge (voltage) difference; ions move away from like charges and toward opposite ones. Their sum is the **electrochemical gradient**, which sets net movement. For **sodium**, both gradients point inward. For **potassium**, the chemical gradient points out and the electrical gradient points in; at rest they nearly balance. **Chloride** is higher outside; **calcium** is kept at very low free concentration inside.\n\n### 2. Channels, selectivity, and permeability\n**Relative membrane permeability** is how easily each ion crosses compared with others, set mainly by which channels are open. **Ion-channel selectivity** means a channel admits almost only one ion species. At rest most sodium channels are closed while many **potassium leak channels** are open, so the membrane is 25–50 times more permeable to potassium than sodium.\n\n### 3. Equilibrium potential and membrane voltage\nThe **equilibrium potential** (E_ion) is the voltage at which one ion's gradients cancel, so that ion has no net flow. **Membrane voltage** (V_m) is the actual measured potential. Resting membrane potential is V_m with no signal passing — not one ion's E_ion but a permeability-weighted compromise nearest to E_K.",
+    "howItWorks": "1. The Na⁺/K⁺ pump builds steep Na⁺ and K⁺ gradients using ATP.\n2. K⁺ leak channels let potassium exit, making the inside negative.\n3. The negative interior opposes further K⁺ exit (electrical gradient).\n4. Net K⁺ movement stops near E_K (≈ −90 mV).\n5. A small sodium leak shifts V_m to ≈ −70 mV.\n6. The pump restores gradients, keeping the potential stable.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Resting potential is a permeability-weighted compromise of ion equilibrium potentials, dominated by K⁺.\n- **High yield:** A K⁺-only cell rests at E_K ≈ −90 mV; the Na⁺ leak explains why neurons sit near −70 mV.\n- Depolarization = less negative V_m; hyperpolarization = more negative V_m.\n- The pump sets up gradients but adds little direct current; removing it causes slow run-down.\n- Nernst ratio is [out]/[in] for cations, [in]/[out] for anions.\n- At 37 °C, E_ion ≈ 61 mV × log₁₀([ion]_out/[ion]_in) for a monovalent cation.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Chemical gradient | Electrical gradient | Concentration vs. charge difference |\n| Equilibrium potential | Resting membrane potential | One ion's balance point vs. the cell's permeability-weighted voltage |\n| Nernst equation | Goldman-Hodgkin-Katz equation | Single ion vs. multiple ions weighted by permeability |\n| Depolarization | Hyperpolarization | V_m toward zero vs. more negative |\n| Potassium leak channel | Voltage-gated potassium channel | Always open vs. opens on depolarization |",
+    "memoryAids": "**\"K leaks, Na sneaks, the pump restores.\"** Potassium leak channels make the inside negative, a little sodium sneaks in to hold −70 mV instead of −90 mV, and the Na⁺/K⁺ pump restores the gradients so the system never runs down.",
+    "eli10": "A ball rolls downhill because of gravity. Ions \"roll\" two ways at once: if one side has more of an ion, they spread toward even concentration (the chemical gradient), and because ions are charged, opposite charges attract and like charges repel (the electrical gradient). Together these form the electrochemical gradient that decides which way an ion moves.\n\nPicture the membrane as a wall with a few \"potassium-only\" doors. Potassium wanders out because there is more inside than outside (chemical gradient); each potassium that leaves takes positive charge with it, making the inside negative (electrical gradient pulling potassium back in). The voltage where push-out and pull-in cancel is the resting membrane potential.\n\nWhere it stops being exact: the ball picture has one force, but ions feel two forces at once that must be added. Real cells also have several ion types and doors, so the resting voltage is a permeability-weighted average, not one ion's balance point.\n### Simple Example\nA cell permeable only to potassium (150 mM inside, 5 mM outside) leaks potassium out until the negative interior pulls it back as fast as the gradient pushes it out — about −90 mV, potassium's equilibrium potential.",
+    "quickReview": "### Topic Recap\n\nResting membrane potential (≈ −70 mV) is a steady voltage set by ion gradients and membrane permeability. Potassium leak channels dominate, so V_m sits near E_K; a small sodium leak and the continuous Na⁺/K⁺ pump refine and sustain it. Nernst gives each ion's equilibrium potential, and GHK combines them to predict the real voltage.\n\n### Knowledge Check\n\n1. Why is resting membrane potential closer to E_K than to E_Na?\n2. A K⁺-only neuron has 150 mM inside and 5 mM outside. Estimate E_K at 37 °C.\n3. What two gradients act on an ion, and how are they combined?\n4. What does the sodium-potassium ATPase contribute, and what happens if it stops?\n5. Distinguish depolarization from hyperpolarization.\n\n### Answers and Rationales\n\n1. Resting membranes are far more permeable to K⁺ than Na⁺, so potassium dominates the GHK average. Rationale: permeability, not concentration alone, sets V_m.\n2. E_K ≈ 61 × log₁₀(5/150) ≈ −90 mV. Rationale: apply the 37 °C cation form with [out]/[in].\n3. Chemical (concentration) and electrical (charge) gradients; their sum is the electrochemical gradient. Rationale: ions respond to both forces.\n4. It builds and holds the gradients and exports 3 Na⁺/imports 2 K⁺ per ATP; if it stops, gradients run down and V_m slowly decays. Rationale: the pump is upkeep, not the source, of the voltage.\n5. Depolarization makes V_m less negative; hyperpolarization more negative. Rationale: both are relative to rest.",
+    "workedExamples": "1. The **sodium-potassium ATPase** (Na⁺/K⁺ pump) uses ATP to move 3 Na⁺ out and 2 K⁺ in per cycle, building the gradients (high Na⁺ and Cl⁻ outside; high K⁺ inside). It sets up the \"batteries\" but adds little directly to the voltage.\n2. Open potassium leak channels let K⁺ flow out down its chemical gradient; each exit removes positive charge, so the inside turns negative.\n3. Outward flow slows as the interior goes negative, because the electrical gradient now opposes further loss; net K⁺ movement stops near −90 mV.\n4. A small inward sodium leak pulls V_m slightly positive of −90 mV. The GHK equation combines these effects to give ≈ −70 mV.\n5. The pump keeps re-exporting leaked Na⁺ and re-importing leaked K⁺, so the gradients and resting potential persist.\n\n### Equations\nNernst (single ion): $$E_{ion} = \\frac{RT}{zF}\\ln\\frac{[ion]_{out}}{[ion]_{in}}$$\nR = gas constant, T = absolute temperature (K), z = ion valence (+1 K⁺/Na⁺, −1 Cl⁻, +2 Ca²⁺), F = Faraday constant, [ion]_out and [ion]_in = outside/inside concentrations. At 37 °C, a monovalent cation gives E_ion ≈ 61 mV × log₁₀([ion]_out/[ion]_in); anions invert the ratio.\n\nGoldman-Hodgkin-Katz (membrane voltage from multiple ions):\n$$V_m = \\frac{RT}{F}\\ln\\frac{P_K[K^+]_o + P_{Na}[Na^+]_o + P_{Cl}[Cl^-]_i}{P_K[K^+]_i + P_{Na}[Na^+]_i + P_{Cl}[Cl^-]_o}$$\nP_K, P_Na, P_Cl are permeabilities; chloride is inverted (anion). Assumptions: uniform membrane, independent ions, only these ions matter. Limits: ignores the pump's direct current and Ca²⁺, and describes a steady state only.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "resting-membrane-potential",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "07-resting-membrane-potential",
+      "kind": "source_file_stem",
+      "source_id": "need-review-human-physiology-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-human-physiology-i",
+    "sourceFile": "human-physiology-i-study-notes/docs/human-physiology-i/07-resting-membrane-potential.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

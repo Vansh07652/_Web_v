@@ -1,0 +1,41 @@
+{
+  "id": "genetics-mendelian-genetics-i-principles-0001",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-i-principles",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem A true-breeding tall pea plant (*TT*) is crossed with a true-breeding dwarf pea plant (*tt*), and the F1 plants are self-crossed. Assuming complete dominance and a single locus, what phenotypic ratio is expected among the F2 plants?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1:2:1"
+    },
+    {
+      "id": "b",
+      "text": "3:1"
+    },
+    {
+      "id": "c",
+      "text": "9:3:3:1"
+    },
+    {
+      "id": "d",
+      "text": "1:1"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Every F1 plant is *Tt* and makes *T* and *t* gametes in equal proportions, so the F2 genotype classes are 1 *TT* : 2 *Tt* : 1 *tt* (sums to 4). Because *T* is completely dominant, the *TT* and *Tt* classes both appear tall, giving the 3:1 phenotypic ratio (sums to 4). A is the genotypic ratio 1:2:1 (sums to 4), which describes genotypes rather than phenotypes. C is the two locus ratio 9:3:3:1 (sums to 16), and D is the test cross ratio (sums to 2).",
+  "difficulty": "unknown",
+  "tags": [
+    "monohybrid",
+    "cross",
+    "f2",
+    "phenotypic",
+    "ratio"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-a9c23a294d5c5fc1",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

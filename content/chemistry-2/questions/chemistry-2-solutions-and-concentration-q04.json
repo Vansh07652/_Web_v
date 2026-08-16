@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-solutions-and-concentration-q04",
+  "subject": "chemistry-2",
+  "lesson": "solutions-and-concentration",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A student adds pure water to 50 mL of a 2 M solution until the total volume is 250 mL. What happens to the amount of solute and the concentration, and what is the new molarity?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Moles of solute decrease and concentration decreases; the new molarity is 0.4 M"
+    },
+    {
+      "id": "b",
+      "text": "Moles of solute are unchanged and concentration decreases; the new molarity is 0.4 M"
+    },
+    {
+      "id": "c",
+      "text": "Moles of solute are unchanged and concentration is unchanged; the new molarity is 2 M"
+    },
+    {
+      "id": "d",
+      "text": "Moles of solute are unchanged and concentration decreases; the new molarity is 10 M"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Dilution adds solvent only, so the number of moles of solute is conserved while the volume rises, which lowers the concentration. Applying M1V1 = M2V2 gives M2 = (2 M)(50 mL) / 250 mL = 0.4 M. Choice D pairs the correct concept with the inverted ratio (2 x 250 / 50), and choice A misstates conservation of solute. The constancy of moles is precisely what makes the dilution equation valid, since M1V1 and M2V2 are both expressions for the same quantity of solute.\n\nELI-10: Adding water changes only the denominator of the concentration ratio. The solute particles already in the flask are not created or destroyed; you simply give them more room, so the number per liter falls. Check the direction before you trust the arithmetic: the volume went from 50 mL to 250 mL, five times larger, so the concentration must be one-fifth of 2 M, which is 0.4 M. A diluted solution that came out more concentrated than the original is always a signal that the ratio was flipped.",
+  "difficulty": "medium",
+  "tags": [
+    "dilution",
+    "M1V1 = M2V2",
+    "conservation of solute"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-278",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

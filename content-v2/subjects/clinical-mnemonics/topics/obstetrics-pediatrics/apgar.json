@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:clinical-mnemonics:obstetrics-pediatrics:apgar",
+  "slug": "apgar",
+  "title": "APGAR",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics"
+  },
+  "unit": {
+    "id": "unit:clinical-mnemonics:obstetrics-pediatrics",
+    "slug": "obstetrics-pediatrics",
+    "title": "Obstetrics & Pediatrics",
+    "order": 4
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "A 5-part scoring system (each part scored 0, 1, or 2; total 0-10) used to describe a newborn's condition at 1 and 5 minutes of life.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- **A** — Appearance\n- **P** — Pulse\n- **G** — Grimace\n- **A** — Activity\n- **R** — Respiration",
+    "collegeNotes": "A 5-part scoring system (each part scored 0, 1, or 2; total 0-10) used to describe a newborn's condition at 1 and 5 minutes of life.\n\n### A — Appearance\n\nSkin color (oxygenation)\n\nScore 0 = blue or pale all over; 1 = pink body with blue extremities (acrocyanosis, normal); 2 = completely pink. Central cyanosis or pallor (score 0) indicates inadequate oxygenation or perfusion.\n\n**Physiology.** After birth the fetal circulatory shunts close and the lungs take over gas exchange; peripheral circulation remains sluggish at first, so the far hands/feet may stay blue (acrocyanosis) while the trunk pinks up.\n\n**Safety.** Pallor is not the same as acrocyanosis — it can signal poor perfusion, anemia, or blood loss and is a resuscitation priority regardless of the APGAR number.\n\n### P — Pulse\n\nHeart rate\n\nScore 0 = absent; 1 = below 100 bpm; 2 = 100 bpm or higher (normal term HR is 110-160). Heart rate is the single most important APGAR component and the primary driver of resuscitation decisions.\n\n**Physiology.** Newborn cardiac output is rate-dependent; below 100 bpm in the first minutes is a warning sign, and a HR below 60 bpm despite ventilation triggers chest compressions per NRP.\n\n**Safety.** Count HR by auscultating the chest or palpating the base of the umbilical cord; never delay resuscitation to obtain a cleaner number.\n\n### G — Grimace\n\nReflex irritability (response to stimulation)\n\nScore 0 = no response; 1 = grimace only; 2 = grimace plus cough, sneeze, cry, or active withdrawal. Assessed by suctioning the nose/mouth or a gentle sole flick; reflects central nervous system integrity.\n\n**Physiology.** A full response means sensory input reached the brainstem and returned to muscles; grimace alone shows partial function; no response suggests CNS depression from hypoxia, maternal sedation, or neurologic injury.\n\n**Safety.** Absent grimace can be caused by maternal opioid/sedative administration as well as hypoxia — note maternal medications when interpreting a low score.\n\n### A — Activity\n\nMuscle tone\n\nScore 0 = limp/flaccid; 1 = some flexion of the extremities; 2 = active motion with well-flexed limbs. Flexed posture is a marker of an intact brain and spinal cord.\n\n**Physiology.** Tone is one of the most sensitive indicators of CNS depression; premature infants are normally more hypotonic, which legitimately lowers this component without meaning the baby is sick.\n\n**Safety.** Sudden limpness in a previously active newborn is an emergency — think hypoxia, hypoglycemia, sepsis, or neurologic injury.\n\n### R — Respiration\n\nBreathing effort\n\nScore 0 = absent; 1 = slow, weak, or irregular with a weak cry; 2 = strong, vigorous cry and regular breathing. A vigorous cry requires deep breaths and a functional respiratory drive.\n\n**Physiology.** The first breaths must inflate fluid-filled alveoli; weak or absent respiration means gas exchange is failing — the most common reason a newborn needs resuscitation.\n\n**Safety.** Gasping is not effective breathing — a gasping/apneic newborn needs immediate positive-pressure ventilation, not observation.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "- A = Appearance\n- P = Pulse\n- G = Grimace\n- A = Activity\n- R = Respiration",
+    "eli10": "APGAR is a report card for a baby's first minute and fifth minute of life: the team scores color, heartbeat, reaction, movement, and breathing to quickly tell how the baby is doing.\n\n**A — Appearance.** Pink skin means oxygen-rich blood is reaching everywhere; blue or pale skin means not enough oxygenated blood is getting to that part of the body. Pink trunk with blue hands/feet is normal for the first few minutes.\n\n**P — Pulse.** The heart is the baby's engine. A fast, steady heartbeat means the engine is pumping oxygen everywhere; a slow or silent one means the engine is failing.\n\n**G — Grimace.** A baby who coughs, sneezes, cries, or pulls away when touched has a healthy, awake nervous system; a baby who does nothing is like an alarm with dead batteries.\n\n**A — Activity.** A healthy newborn holds its arms and legs slightly bent and moves them, like a well-staked tent; a limp baby is a collapsed tent and a sign something is wrong.\n\n**R — Respiration.** The baby's first job after birth is to switch from placenta-breathing to air-breathing; a strong, loud cry means that switch is working.",
+    "quickReview": "- A = Appearance — Skin color (oxygenation)\n- P = Pulse — Heart rate\n- G = Grimace — Reflex irritability (response to stimulation)\n- A = Activity — Muscle tone\n- R = Respiration — Breathing effort",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Neonatal Resuscitation Program (NRP) and APGAR scoring — American Academy of Pediatrics",
+        "url": "https://www.aap.org/en/learning/neonatal-resuscitation-program/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "apgar",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-nursing-mnemonics",
+    "sourceFile": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json",
+    "sourceStatus": "CURRENT",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-clinical-mnemonics"
+  },
+  "sourceSnapshotMarkdown": "{\n  \"mnemonic\": \"APGAR\",\n  \"category\": \"Obstetrics & Pediatrics\",\n  \"purpose\": \"A 5-part scoring system (each part scored 0, 1, or 2; total 0-10) used to describe a newborn's condition at 1 and 5 minutes of life.\",\n  \"eli10_purpose\": \"APGAR is a report card for a baby's first minute and fifth minute of life: the team scores color, heartbeat, reaction, movement, and breathing to quickly tell how the baby is doing.\",\n  \"status\": \"CURRENT\",\n  \"components\": [\n    {\n      \"symbol\": \"A\",\n      \"term\": \"Appearance\",\n      \"association\": \"Skin color (oxygenation)\",\n      \"eli10\": \"Pink skin means oxygen-rich blood is reaching everywhere; blue or pale skin means not enough oxygenated blood is getting to that part of the body. Pink trunk with blue hands/feet is normal for the first few minutes.\",\n      \"clinical_explanation\": \"Score 0 = blue or pale all over; 1 = pink body with blue extremities (acrocyanosis, normal); 2 = completely pink. Central cyanosis or pallor (score 0) indicates inadequate oxygenation or perfusion.\",\n      \"physiology\": \"After birth the fetal circulatory shunts close and the lungs take over gas exchange; peripheral circulation remains sluggish at first, so the far hands/feet may stay blue (acrocyanosis) while the trunk pinks up.\",\n      \"safety_note\": \"Pallor is not the same as acrocyanosis — it can signal poor perfusion, anemia, or blood loss and is a resuscitation priority regardless of the APGAR number.\"\n    },\n    {\n      \"symbol\": \"P\",\n      \"term\": \"Pulse\",\n      \"association\": \"Heart rate\",\n      \"eli10\": \"The heart is the baby's engine. A fast, steady heartbeat means the engine is pumping oxygen everywhere; a slow or silent one means the engine is failing.\",\n      \"clinical_explanation\": \"Score 0 = absent; 1 = below 100 bpm; 2 = 100 bpm or higher (normal term HR is 110-160). Heart rate is the single most important APGAR component and the primary driver of resuscitation decisions.\",\n      \"physiology\": \"Newborn cardiac output is rate-dependent; below 100 bpm in the first minutes is a warning sign, and a HR below 60 bpm despite ventilation triggers chest compressions per NRP.\",\n      \"safety_note\": \"Count HR by auscultating the chest or palpating the base of the umbilical cord; never delay resuscitation to obtain a cleaner number.\"\n    },\n    {\n      \"symbol\": \"G\",\n      \"term\": \"Grimace\",\n      \"association\": \"Reflex irritability (response to stimulation)\",\n      \"eli10\": \"A baby who coughs, sneezes, cries, or pulls away when touched has a healthy, awake nervous system; a baby who does nothing is like an alarm with dead batteries.\",\n      \"clinical_explanation\": \"Score 0 = no response; 1 = grimace only; 2 = grimace plus cough, sneeze, cry, or active withdrawal. Assessed by suctioning the nose/mouth or a gentle sole flick; reflects central nervous system integrity.\",\n      \"physiology\": \"A full response means sensory input reached the brainstem and returned to muscles; grimace alone shows partial function; no response suggests CNS depression from hypoxia, maternal sedation, or neurologic injury.\",\n      \"safety_note\": \"Absent grimace can be caused by maternal opioid/sedative administration as well as hypoxia — note maternal medications when interpreting a low score.\"\n    },\n    {\n      \"symbol\": \"A\",\n      \"term\": \"Activity\",\n      \"association\": \"Muscle tone\",\n      \"eli10\": \"A healthy newborn holds its arms and legs slightly bent and moves them, like a well-staked tent; a limp baby is a collapsed tent and a sign something is wrong.\",\n      \"clinical_explanation\": \"Score 0 = limp/flaccid; 1 = some flexion of the extremities; 2 = active motion with well-flexed limbs. Flexed posture is a marker of an intact brain and spinal cord.\",\n      \"physiology\": \"Tone is one of the most sensitive indicators of CNS depression; premature infants are normally more hypotonic, which legitimately lowers this component without meaning the baby is sick.\",\n      \"safety_note\": \"Sudden limpness in a previously active newborn is an emergency — think hypoxia, hypoglycemia, sepsis, or neurologic injury.\"\n    },\n    {\n      \"symbol\": \"R\",\n      \"term\": \"Respiration\",\n      \"association\": \"Breathing effort\",\n      \"eli10\": \"The baby's first job after birth is to switch from placenta-breathing to air-breathing; a strong, loud cry means that switch is working.\",\n      \"clinical_explanation\": \"Score 0 = absent; 1 = slow, weak, or irregular with a weak cry; 2 = strong, vigorous cry and regular breathing. A vigorous cry requires deep breaths and a functional respiratory drive.\",\n      \"physiology\": \"The first breaths must inflate fluid-filled alveoli; weak or absent respiration means gas exchange is failing — the most common reason a newborn needs resuscitation.\",\n      \"safety_note\": \"Gasping is not effective breathing — a gasping/apneic newborn needs immediate positive-pressure ventilation, not observation.\"\n    }\n  ]\n}"
+}

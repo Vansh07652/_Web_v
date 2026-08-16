@@ -1,0 +1,40 @@
+{
+  "id": "genetics-gene-regulation-prokaryotes-0010",
+  "subject": "genetics",
+  "lesson": "gene-regulation-prokaryotes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept Why is the lac operon described as being under both negative and positive control?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Because the operon is inducible in the presence of lactose and repressible in its absence."
+    },
+    {
+      "id": "b",
+      "text": "The Lac repressor provides negative control that must be inactivated by the inducer, and the CAP protein provides positive control that must be bound with cAMP for strong transcription."
+    },
+    {
+      "id": "c",
+      "text": "Because *lacZ* and *lacY* are regulated in opposite directions by the same signal."
+    },
+    {
+      "id": "d",
+      "text": "Because the Lac repressor binds in trans while the CAP protein binds in cis."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Negative control comes from the Lac repressor encoded by *lacI*, which blocks the *lacO* operator until lactose inactivates it. Positive control comes from CAP, encoded by *crp*, which only helps RNA polymerase when bound to cAMP, so both layers must be satisfied for strong transcription. A confuses the inducible/repressible axis with the control layers, C invents opposite regulation of *lacZ* and *lacY*, and D misapplies cis/trans logic to DNA binding sites.",
+  "difficulty": "unknown",
+  "tags": [
+    "two",
+    "control",
+    "layers",
+    "concept"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-3367b1216fd616d4",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

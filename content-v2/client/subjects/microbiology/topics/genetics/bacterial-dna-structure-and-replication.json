@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:microbiology:genetics:bacterial-dna-structure-and-replication",
+  "slug": "bacterial-dna-structure-and-replication",
+  "title": "Bacterial DNA Structure and Replication",
+  "subject": {
+    "id": "subject:microbiology",
+    "slug": "microbiology",
+    "title": "Microbiology"
+  },
+  "unit": {
+    "id": "unit:microbiology:genetics",
+    "slug": "genetics",
+    "title": "Genetics",
+    "order": 6
+  },
+  "order": 13,
+  "status": "final",
+  "sections": {
+    "overview": "Most bacteria store their genes in one circular double-stranded DNA molecule that coils into a cytoplasmic region called the nucleoid. This chromosome, plus smaller circular plasmids, is copied by semi-conservative, bidirectional replication that starts at a single origin of replication and uses helicase, primase, DNA polymerase, and DNA ligase to build two identical daughter chromosomes.",
+    "whyItMatters": "Bacterial replication enzymes differ enough from human enzymes to be drug targets — fluoroquinolones interfere with bacterial topoisomerases, and other drugs target replication or repair machinery. Rapid, error-prone replication also underlies how resistance mutations arise and spread on plasmids. Drug use and dosing are clinician decisions, and laboratory procedures vary by institution.\n\n### Process, Laboratory, or Clinical Foundation\n\nThe **leading vs lagging strand** distinction is the core process. DNA polymerase adds nucleotides only 5′→3′, and the two template strands run antiparallel, so one strand is copied continuously (leading) while the other is copied discontinuously as short **Okazaki fragments** (lagging). DNA ligase joins these fragments into a continuous strand.\n\n**Result interpretation (conceptual only):** Pulse-chase and density-gradient experiments revealed the semi-conservative model and the short lagging-strand fragments — and explain why the two strands are built differently and why losing any enzyme stalls the process. Laboratory procedures and microorganism handling must follow approved local policies and are not described here.",
+    "learningObjectives": "1. Describe the bacterial chromosome, the nucleoid, and plasmids, and how DNA is packaged in a prokaryotic cell.\n2. Explain the double-helical structure of DNA and why replication is described as semi-conservative.\n3. Trace bidirectional DNA replication, naming each enzyme and its role at the replication fork.\n4. Distinguish leading-strand from lagging-strand synthesis and summarize how DNA damage is repaired.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Bacterial chromosome | The cell's main circular DNA molecule | Carries essential genes |\n| Circular chromosome | A DNA loop with no free ends | Typical bacterial genome form |\n| Nucleoid | Dense cytoplasmic region holding the chromosome | Packaging without a nucleus |\n| Plasmids | Small extra circular DNA molecules | Carry accessory genes, e.g., resistance |\n| DNA structure | Antiparallel double helix, A–T and G–C pairs | Sequence is the genetic code |\n| Semi-conservative replication | Each new DNA keeps one old and one new strand | Preserves information faithfully |\n| Origin of replication | Sequence where copying starts | Single origin per chromosome |\n| Replication fork | Y-shaped zone where DNA is unwound and copied | Site of enzyme activity |\n| Helicase | Enzyme that unzips the double helix | Opens templates for copying |\n| Primase | Enzyme that makes a short RNA primer | Polymerase cannot start alone |\n| DNA polymerase | Enzyme that adds nucleotides 5′→3′ | Builds the new strand |\n| Leading vs lagging strand | Continuous vs discontinuous synthesis | Two copying modes |\n| Okazaki fragments | Short DNA pieces on the lagging strand | Joined to finish that strand |\n| DNA ligase | Enzyme sealing nicks between fragments | Completes the lagging strand |\n| Topoisomerase | Enzyme relieving supercoiling tension | Prevents tangling ahead of fork |\n| Bidirectional replication | Two forks moving from one origin | Speeds circular copying |\n| DNA repair | Enzymatic correction of damage | Protects the genome |\n| Mutation prevention | Mechanisms reducing replication errors | Keeps the code stable |",
+    "collegeNotes": "### 1. The Bacterial Genome: Chromosome, Nucleoid, and Plasmids\nA **bacterial chromosome** is the cell's main genetic molecule, usually a single **circular chromosome** — a closed loop of double-stranded DNA with no free ends. Because bacteria lack a nucleus, this chromosome is compacted into a dense, membrane-free region of cytoplasm called the **nucleoid**, supercoiled and folded so that a molecule longer than the cell fits inside it.\n\nMany bacteria also carry **plasmids** — smaller, circular, independently replicating DNA molecules. Plasmids are not essential for daily survival but often carry useful accessory genes, such as antibiotic resistance or virulence factors, and can be shared between cells.\n\n### 2. DNA Structure and Semi-Conservative Replication\n**DNA structure** is a double helix of two antiparallel nucleotide strands. Each nucleotide has a deoxyribose sugar, a phosphate, and one of four bases — adenine (A), thymine (T), guanine (G), cytosine (C) — held together by complementary pairing (A–T, G–C). The base sequence encodes genetic information.\n\nReplication is **semi-conservative**: each daughter molecule keeps one original (parental) strand and one newly made strand — shown by the Meselson–Stahl experiment, where replicated DNA was a hybrid of old and new material.\n\n### 3. Bidirectional Replication and the Replication Fork\nReplication begins at a specific sequence, the **origin of replication**, where the strands separate to form a Y-shaped **replication fork**. Two forks form and travel in opposite directions around the circle — **bidirectional replication** — until they meet.\n\nKey enzymes: **helicase** unwinds the helix; **primase** lays a short RNA primer to start each strand; **DNA polymerase** adds nucleotides 5′→3′; **topoisomerase** relieves twisting tension ahead of the fork; **DNA ligase** seals gaps between fragments.",
+    "howItWorks": "1. Initiator proteins bind the origin of replication and locally unwind the DNA.\n2. Helicase separates the strands, forming two forks; single-strand-binding proteins hold them open.\n3. Topoisomerase relieves overwinding ahead of each fork.\n4. Primase makes an RNA primer on each template strand.\n5. DNA polymerase extends the primers, adding complementary nucleotides 5′→3′.\n6. The leading strand grows continuously; the lagging strand forms as Okazaki fragments.\n7. Polymerase replaces RNA primers with DNA; DNA ligase seals the remaining nicks.\n8. The two forks meet, producing two complete circular chromosomes.\n9. Proofreading and DNA repair correct mismatches before cell division.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Replication is semi-conservative, bidirectional, and starts at a single origin.\n- **High yield:** DNA polymerase synthesizes only 5′→3′, forcing Okazaki fragments on the lagging strand.\n- **High yield:** Helicase unwinds, primase primes, polymerase extends, ligase seals, topoisomerase untwists.\n- The chromosome is circular and lives in the nucleoid, not a nucleus.\n- Plasmids replicate independently and often carry resistance genes.\n- Leading = continuous; lagging = discontinuous.\n- Proofreading and repair prevent most errors from becoming mutations.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Nucleoid | Nucleus | Membrane-free DNA region vs membrane-bound organelle |\n| Plasmid | Chromosome | Small accessory replicon vs large essential genome |\n| Helicase | Topoisomerase | Separates strands vs relieves twisting tension |\n| Primase | DNA polymerase | Makes RNA primers vs makes DNA |\n| Leading strand | Lagging strand | Continuous vs discontinuous (Okazaki fragments) |\n| DNA ligase | DNA polymerase | Joins fragments vs builds new DNA |",
+    "memoryAids": "Remember the fork enzymes with **\"H-P-P-L-T\"** — *Helicase* unzips, *Primase* primes, *Polymerase* builds, *Ligase* links, *Topoisomerase* untwists. For strands: **\"Leading = Long and smooth; Lagging = Little pieces.\"**",
+    "eli10": "Think of a bacterial chromosome as a giant circular zipper. The two DNA strands are the zipper's halves, with paired bases (A–T, G–C) as the interlocking teeth. To copy it, a machine unzips the middle and adds a matching new half to each original half. Because every old half keeps a new half, each finished zipper is one old plus one new — that is \"semi-conservative.\"\n\n**Where it stops being exact:** A zipper opens from one end only; the circular chromosome has no ends, so copying starts at a fixed origin and works outward in two directions — and one strand copies smoothly while the other is built backward in short stitched-together patches.\n### Simple Example\nA bacterium about to divide duplicates its chromosome once, so each daughter cell gets a complete copy. Two replication forks move away from the single origin around the circle and meet on the far side, yielding two identical circular chromosomes, each with one old and one new strand.",
+    "quickReview": "### Topic Recap\n\nThe bacterial genome is one circular chromosome folded into the nucleoid, plus optional plasmids. Replication is semi-conservative and bidirectional, starting at one origin and running via two forks. Helicase unwinds, primase primes, DNA polymerase extends (continuously on the leading strand, discontinuously on the lagging strand), and ligase seals — with topoisomerase preventing tangles. Proofreading and DNA repair preserve fidelity and prevent most mutations.\n\n### Knowledge Check\n\n1. Where is the bacterial chromosome located?\n2. Why is replication described as semi-conservative?\n3. Which enzyme relieves supercoiling tension ahead of the fork?\n4. Why is the lagging strand made as Okazaki fragments?\n5. What does DNA ligase do?\n\n### Answers and Rationales\n\n1. In the nucleoid, a membrane-free cytoplasmic region — bacteria have no true nucleus.\n2. Each daughter molecule has one parental and one new strand, so information is preserved in the original strand.\n3. Topoisomerase — it prevents overwinding as helicase unzips the DNA.\n4. DNA polymerase adds nucleotides only 5′→3′, so the antiparallel lagging template must be copied in short pieces.\n5. It seals nicks between Okazaki fragments, joining the sugar-phosphate backbone to complete the strand.",
+    "workedExamples": "",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "bacterial-dna-structure-and-replication",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "13-bacterial-dna-structure-and-replication",
+      "kind": "source_file_stem",
+      "source_id": "need-review-general-microbiology"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-general-microbiology",
+    "sourceFile": "general-microbiology-study-notes/docs/general-microbiology/13-bacterial-dna-structure-and-replication.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-moles-and-molar-mass-q10",
+  "subject": "chemistry-2",
+  "lesson": "moles-and-molar-mass",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A hypothetical teaching solution is prepared by dissolving 11.1 g of calcium chloride, CaCl2 (110.98 g/mol), in water so that it fully dissociates. How many moles of chloride ions does the solution contain?",
+  "options": [
+    {
+      "id": "a",
+      "text": "0.05 mol, because the compound's moles are split evenly between the two kinds of ions"
+    },
+    {
+      "id": "b",
+      "text": "0.1 mol, because each formula unit releases one chloride ion into solution"
+    },
+    {
+      "id": "c",
+      "text": "2 mol, because the subscript 2 states the chloride mole quantity directly"
+    },
+    {
+      "id": "d",
+      "text": "0.2 mol, because each formula unit releases two chloride ions into solution"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "First convert to moles of compound: 11.1 g / 110.98 g/mol = 0.1 mol CaCl2. The formula shows two chloride ions per formula unit, so the ratio of 2 mol Cl- per 1 mol CaCl2 gives 0.2 mol chloride (alongside 0.1 mol Ca2+). Subscripts in a formula are per-unit ratios, not absolute mole quantities, which is the misconception behind the 2 mol option.\n\nELI-10: Each CaCl2 formula unit arrives as a set: one calcium ion and two chloride ions, like a bicycle with one frame and two wheels. Weighing tells you the number of sets, here 0.1 mole of them. The number of wheels is twice that, so 0.2 mole of chloride. The subscript 2 never means two moles on its own; it means two per unit. The order matters: find moles of the whole compound first, then apply the subscript as a multiplier.",
+  "difficulty": "medium",
+  "tags": [
+    "mole ratios from formulas",
+    "ionic dissociation",
+    "subscripts as ratios"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-277",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

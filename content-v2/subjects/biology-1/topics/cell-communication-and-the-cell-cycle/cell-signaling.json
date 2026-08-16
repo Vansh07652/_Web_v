@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:cell-communication-and-the-cell-cycle:cell-signaling",
+  "slug": "cell-signaling",
+  "title": "Cell Signaling",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:cell-communication-and-the-cell-cycle",
+    "slug": "cell-communication-and-the-cell-cycle",
+    "title": "Cell Communication And The Cell Cycle",
+    "order": 5
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "Cell signaling is how cells talk to one another. A **signaling cell** releases a chemical message called a **ligand** (often a hormone, neurotransmitter, or growth factor). That ligand travels and binds a specific **receptor** protein on or inside a **target cell**. The binding is like a key fitting a lock: only cells with the matching receptor \"hear\" the message and change their behavior in response. Signaling coordinates everything from cell division and differentiation to the immune response and heart rate.",
+    "whyItMatters": "Signaling failures underlie a huge share of disease. Diabetes involves defective insulin signaling; many cancers involve receptors that fire without their ligand (or over-respond to it); asthma, allergies, and many neurological and endocrine disorders are signaling diseases. Understanding signaling also explains how drugs work — many medicines are ligands that mimic (agonists) or block (antagonists) natural signals. It is also how a single fertilized egg coordinates billions of cells into a body.",
+    "learningObjectives": "- Define cell signaling and identify the four essential players: signaling cell, target cell, ligand, and receptor.\n- Distinguish the three signaling distance scales — paracrine, synaptic, and endocrine.\n- Explain how receptor–ligand specificity lets each cell respond only to the correct signals.\n- Describe why multicellular organisms depend on signaling for coordination and survival.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nCell signaling is how cells talk to one another. A **signaling cell** releases a chemical message called a **ligand** (often a hormone, neurotransmitter, or growth factor). That ligand travels and binds a specific **receptor** protein on or inside a **target cell**. The binding is like a key fitting a lock: only cells with the matching receptor \"hear\" the message and change their behavior in response. Signaling coordinates everything from cell division and differentiation to the immune response and heart rate.\n\n### Key Concepts\n\n### Signaling cell and target cell\n\nThe **signaling cell** produces and secretes the signal. The **target cell** receives it. A single signaling cell can influence many target cells, and one target cell can receive many different signals at once, integrating them into a single decision (divide, differentiate, die, move, etc.).\n\n### Ligands and receptors\n\nA **ligand** is any molecule that binds specifically to a larger molecule. In signaling, ligands are usually small or medium molecules (peptides, steroids, gases like nitric oxide, or amino-acid derivatives). A **receptor** is a protein that binds its ligand with high specificity. Most receptors sit in the plasma membrane (for water-soluble ligands that cannot cross the membrane); some sit inside the cell (for small hydrophobic ligands like steroid hormones that diffuse across the membrane).\n\n### Local signaling: paracrine and synaptic\n\n**Paracrine signaling** is short-range. The signaling cell secretes ligands that diffuse through extracellular fluid and affect only nearby cells — growth factors that tell neighbors to divide are classic examples. **Synaptic signaling** is a specialized local signal: a neuron releases neurotransmitters across a tiny gap (the synapse) onto one target cell, giving very fast, very precise communication. A related form, **autocrine signaling**, occurs when a cell signals itself (the signaling cell is also the target).\n\n### Long-distance signaling: endocrine\n\n**Endocrine signaling** uses the bloodstream. Endocrine cells release **hormones** that travel long distances through the blood to reach target cells anywhere in the body. Because hormones are diluted in blood, they act at low concentrations, which requires receptors with very high affinity.\n\n### Specificity\n\nA given ligand only affects cells bearing its matching receptor. This is why insulin lowers blood sugar in muscle, liver, and fat cells but does nothing to neurons that lack insulin receptors. Specificity is a direct consequence of the complementary shapes (and chemistry) of the ligand and its receptor's binding site.\n\n### How It Works\n\nThe basic sequence has three stages: **reception, transduction, and response**. First, the ligand binds its receptor (reception), changing the receptor's shape. Second, that shape change triggers a cascade of intracellular events (transduction) that amplify and relay the message. Third, the cell carries out a **response** — turning a gene on, opening an ion channel, secreting something, or changing metabolism. In the shortest version (a ligand-gated ion channel), reception and response are nearly simultaneous; in hormone signaling, many relay steps separate the two.",
+    "howItWorks": "The basic sequence has three stages: **reception, transduction, and response**. First, the ligand binds its receptor (reception), changing the receptor's shape. Second, that shape change triggers a cascade of intracellular events (transduction) that amplify and relay the message. Third, the cell carries out a **response** — turning a gene on, opening an ion channel, secreting something, or changing metabolism. In the shortest version (a ligand-gated ion channel), reception and response are nearly simultaneous; in hormone signaling, many relay steps separate the two.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Reception → Transduction → Response is the universal signaling pathway outline.\n- Ligands are usually water-soluble (can't cross the membrane → cell-surface receptors) or hydrophobic/steroid (cross the membrane → intracellular receptors).\n- Paracrine = local diffusion; synaptic = neuron → target across a synapse; endocrine = hormone via blood.\n- Autocrine = a cell signals itself.\n- Specificity comes from the receptor, not the ligand: the same ligand can trigger different responses in different cell types.\n- Neurotransmitters, hormones, growth factors, and nitric oxide are all ligands.",
+    "commonConfusions": "- **\"The ligand determines the response.\"** Wrong — the *receptor* (and the machinery downstream of it) determines what happens. Acetylcholine makes skeletal muscle contract but slows the heart, because the two tissues have different receptors.\n- **\"Endocrine and paracrine are the same thing.\"** Wrong — endocrine uses the bloodstream over long distances; paracrine is local diffusion and never enters the blood.\n- **\"All receptors are on the cell surface.\"** Wrong — steroid and thyroid hormones bind intracellular receptors because they can diffuse through the membrane.\n- **\"A signaling cell is always different from the target cell.\"** Wrong — in autocrine signaling, the same cell is both.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine every house on a street has a mailbox, and only some mailboxes have a slot that fits a special red envelope. When the red envelope (the **ligand**) is dropped in a mailbox with the matching slot (the **receptor**), a note inside tells that house what to do — turn on the porch light, water the garden, or lock the door. Houses without that slot just ignore the envelope. Cells do the same thing: they only \"listen\" to messages they have a matching receiver for. Short messages are like talking to your neighbor (paracrine) or whispering to the person next to you in class (synaptic); long messages are like mailing a letter across the country (endocrine, through the blood). The analogy's limit: cells don't choose to open the mail — receptor binding is automatic chemistry, not a decision.",
+    "quickReview": "- Cell signaling = signaling cell → ligand → receptor → target cell → response.\n- Three distance scales: paracrine (local), synaptic (neuron to target), endocrine (bloodborne hormone).\n- Receptor–ligand binding is specific, like a key in a lock.\n- Water-soluble ligands use cell-surface receptors; hydrophobic ligands use intracellular receptors.\n- Reception → Transduction → Response summarizes any pathway.\n- Diseases and many drugs act by altering signaling.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 9.1, \"Signaling Molecules and Cellular Receptors.\" https://openstax.org/books/biology-2e/pages/9-1-signaling-molecules-and-cellular-receptors",
+        "url": "https://openstax.org/books/biology-2e/pages/9-1-signaling-molecules-and-cellular-receptors"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 9.4, \"Signaling in Single-Celled Organisms.\" https://openstax.org/books/biology-2e/pages/9-4-signaling-in-single-celled-organisms",
+        "url": "https://openstax.org/books/biology-2e/pages/9-4-signaling-in-single-celled-organisms"
+      },
+      {
+        "text": "NCBI Bookshelf, *Molecular Biology of the Cell*, 4th ed. (Alberts et al.). https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 1
+  },
+  "aliases": [
+    {
+      "value": "cell-signaling",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "01-cell-signaling",
+      "kind": "source_file_stem",
+      "source_id": "biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:biology_notes:b3905ccf5f445c03"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:biology_notes:b3905ccf5f445c03"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:biology_notes:b3905ccf5f445c03"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:biology_notes:b3905ccf5f445c03"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/05-cell-communication-and-the-cell-cycle/01-cell-signaling.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Cell Signaling\n\n## Learning Goals\n\n- Define cell signaling and identify the four essential players: signaling cell, target cell, ligand, and receptor.\n- Distinguish the three signaling distance scales — paracrine, synaptic, and endocrine.\n- Explain how receptor–ligand specificity lets each cell respond only to the correct signals.\n- Describe why multicellular organisms depend on signaling for coordination and survival.\n\n## Core Concept\n\nCell signaling is how cells talk to one another. A **signaling cell** releases a chemical message called a **ligand** (often a hormone, neurotransmitter, or growth factor). That ligand travels and binds a specific **receptor** protein on or inside a **target cell**. The binding is like a key fitting a lock: only cells with the matching receptor \"hear\" the message and change their behavior in response. Signaling coordinates everything from cell division and differentiation to the immune response and heart rate.\n\n## Key Concepts\n\n### Signaling cell and target cell\n\nThe **signaling cell** produces and secretes the signal. The **target cell** receives it. A single signaling cell can influence many target cells, and one target cell can receive many different signals at once, integrating them into a single decision (divide, differentiate, die, move, etc.).\n\n### Ligands and receptors\n\nA **ligand** is any molecule that binds specifically to a larger molecule. In signaling, ligands are usually small or medium molecules (peptides, steroids, gases like nitric oxide, or amino-acid derivatives). A **receptor** is a protein that binds its ligand with high specificity. Most receptors sit in the plasma membrane (for water-soluble ligands that cannot cross the membrane); some sit inside the cell (for small hydrophobic ligands like steroid hormones that diffuse across the membrane).\n\n### Local signaling: paracrine and synaptic\n\n**Paracrine signaling** is short-range. The signaling cell secretes ligands that diffuse through extracellular fluid and affect only nearby cells — growth factors that tell neighbors to divide are classic examples. **Synaptic signaling** is a specialized local signal: a neuron releases neurotransmitters across a tiny gap (the synapse) onto one target cell, giving very fast, very precise communication. A related form, **autocrine signaling**, occurs when a cell signals itself (the signaling cell is also the target).\n\n### Long-distance signaling: endocrine\n\n**Endocrine signaling** uses the bloodstream. Endocrine cells release **hormones** that travel long distances through the blood to reach target cells anywhere in the body. Because hormones are diluted in blood, they act at low concentrations, which requires receptors with very high affinity.\n\n### Specificity\n\nA given ligand only affects cells bearing its matching receptor. This is why insulin lowers blood sugar in muscle, liver, and fat cells but does nothing to neurons that lack insulin receptors. Specificity is a direct consequence of the complementary shapes (and chemistry) of the ligand and its receptor's binding site.\n\n## How It Works\n\nThe basic sequence has three stages: **reception, transduction, and response**. First, the ligand binds its receptor (reception), changing the receptor's shape. Second, that shape change triggers a cascade of intracellular events (transduction) that amplify and relay the message. Third, the cell carries out a **response** — turning a gene on, opening an ion channel, secreting something, or changing metabolism. In the shortest version (a ligand-gated ion channel), reception and response are nearly simultaneous; in hormone signaling, many relay steps separate the two.\n\n## Why It Matters\n\nSignaling failures underlie a huge share of disease. Diabetes involves defective insulin signaling; many cancers involve receptors that fire without their ligand (or over-respond to it); asthma, allergies, and many neurological and endocrine disorders are signaling diseases. Understanding signaling also explains how drugs work — many medicines are ligands that mimic (agonists) or block (antagonists) natural signals. It is also how a single fertilized egg coordinates billions of cells into a body.\n\n## High-Yield Facts\n\n- Reception → Transduction → Response is the universal signaling pathway outline.\n- Ligands are usually water-soluble (can't cross the membrane → cell-surface receptors) or hydrophobic/steroid (cross the membrane → intracellular receptors).\n- Paracrine = local diffusion; synaptic = neuron → target across a synapse; endocrine = hormone via blood.\n- Autocrine = a cell signals itself.\n- Specificity comes from the receptor, not the ligand: the same ligand can trigger different responses in different cell types.\n- Neurotransmitters, hormones, growth factors, and nitric oxide are all ligands.\n\n## Eli Explains\n\nImagine every house on a street has a mailbox, and only some mailboxes have a slot that fits a special red envelope. When the red envelope (the **ligand**) is dropped in a mailbox with the matching slot (the **receptor**), a note inside tells that house what to do — turn on the porch light, water the garden, or lock the door. Houses without that slot just ignore the envelope. Cells do the same thing: they only \"listen\" to messages they have a matching receiver for. Short messages are like talking to your neighbor (paracrine) or whispering to the person next to you in class (synaptic); long messages are like mailing a letter across the country (endocrine, through the blood). The analogy's limit: cells don't choose to open the mail — receptor binding is automatic chemistry, not a decision.\n\n## Common Confusions\n\n- **\"The ligand determines the response.\"** Wrong — the *receptor* (and the machinery downstream of it) determines what happens. Acetylcholine makes skeletal muscle contract but slows the heart, because the two tissues have different receptors.\n- **\"Endocrine and paracrine are the same thing.\"** Wrong — endocrine uses the bloodstream over long distances; paracrine is local diffusion and never enters the blood.\n- **\"All receptors are on the cell surface.\"** Wrong — steroid and thyroid hormones bind intracellular receptors because they can diffuse through the membrane.\n- **\"A signaling cell is always different from the target cell.\"** Wrong — in autocrine signaling, the same cell is both.\n\n## Quick Review\n\n- Cell signaling = signaling cell → ligand → receptor → target cell → response.\n- Three distance scales: paracrine (local), synaptic (neuron to target), endocrine (bloodborne hormone).\n- Receptor–ligand binding is specific, like a key in a lock.\n- Water-soluble ligands use cell-surface receptors; hydrophobic ligands use intracellular receptors.\n- Reception → Transduction → Response summarizes any pathway.\n- Diseases and many drugs act by altering signaling.\n\n## Sources\n\n- OpenStax, *Biology 2e*, Ch. 9.1, \"Signaling Molecules and Cellular Receptors.\" https://openstax.org/books/biology-2e/pages/9-1-signaling-molecules-and-cellular-receptors\n- OpenStax, *Biology 2e*, Ch. 9.4, \"Signaling in Single-Celled Organisms.\" https://openstax.org/books/biology-2e/pages/9-4-signaling-in-single-celled-organisms\n- NCBI Bookshelf, *Molecular Biology of the Cell*, 4th ed. (Alberts et al.). https://www.ncbi.nlm.nih.gov/books/NBK21054/\n"
+}

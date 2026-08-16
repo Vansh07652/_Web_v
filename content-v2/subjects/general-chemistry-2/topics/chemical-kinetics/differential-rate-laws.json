@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-kinetics:differential-rate-laws",
+  "slug": "differential-rate-laws",
+  "title": "Differential Rate Laws",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-kinetics",
+    "slug": "chemical-kinetics",
+    "title": "Chemical Kinetics",
+    "order": 3
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "A **rate law** (also called a differential rate law) is an equation that connects the rate of a reaction to the concentrations of its reactants and a proportionality constant k. It has the general form:\n\n$$\\text{Rate} = k[A]^m[B]^n$$\n\nThe exponents m and n are the **orders** of the reaction with respect to A and B, and k is the **rate constant**. The crucial point — and the single most common exam trap in kinetics — is that m and n are **not** the stoichiometric coefficients. They must be measured experimentally.",
+    "whyItMatters": "The rate law is the quantitative heart of kinetics. It is how we predict how fast a reaction will go under any set of concentrations, and it is the fingerprint that lets chemists test a proposed mechanism: a mechanism's predicted rate law must match the experimentally observed one. Pharmaceutical dosing, pollutant breakdown, and industrial yield all hinge on knowing the correct order.",
+    "learningObjectives": "- Write a rate law in the form Rate = k[A]^m[B]^n and identify each term.\n- Define reaction order with respect to each reactant and overall order.\n- Explain why reaction orders must be determined experimentally, not from the balanced equation.\n- Determine the units of the rate constant k from the overall order.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA **rate law** (also called a differential rate law) is an equation that connects the rate of a reaction to the concentrations of its reactants and a proportionality constant k. It has the general form:\n\n$$\\text{Rate} = k[A]^m[B]^n$$\n\nThe exponents m and n are the **orders** of the reaction with respect to A and B, and k is the **rate constant**. The crucial point — and the single most common exam trap in kinetics — is that m and n are **not** the stoichiometric coefficients. They must be measured experimentally.\n\n### Key Ideas\n\n- The rate constant k is independent of concentration but depends strongly on temperature and the presence of a catalyst.\n- Reaction order can be zero, fractional, or any positive number; it is an empirical fact about the mechanism.\n- The **overall order** is the sum of all individual orders (m + n + …).\n- The units of k are fixed by the overall order so that the rate always has units of M/s.\n\n### Equations and Variables\n\nGeneral form for a reaction with two reactants:\n\n$$\\text{Rate} = k[A]^m[B]^n$$\n\n- k = rate constant (units depend on overall order)\n- [A], [B] = reactant concentrations (M)\n- m, n = reaction orders (determined experimentally, unitless)\n\nThe rate constant's units follow from the requirement that rate is in M·s⁻¹:\n\n| Overall order | Units of k |\n| ------------- | ---------- |\n| 0 | M·s⁻¹ |\n| 1 | s⁻¹ |\n| 2 | M⁻¹·s⁻¹ |\n| 3 | M⁻²·s⁻¹ |\n\nIn general, units of k = M^(1−order)·s⁻¹.\n\n### How It Works\n\nThe rate law is a statement about the **mechanism at the molecular level**, not about stoichiometry. For the reaction 2 N₂O₅ → 4 NO₂ + O₂, the balanced equation suggests the rate might be proportional to [N₂O₅]². Experiment shows instead that Rate = k[N₂O₅] — a first-order reaction. Why? Because the slow step that controls the rate involves a single N₂O₅ molecule, regardless of the overall stoichiometry.\n\nTo determine the order, chemists hold concentrations constant and vary one at a time (see the note on the Method of Initial Rates). The exponent m tells us how the rate scales: if m = 1, doubling [A] doubles the rate; if m = 2, doubling [A] quadruples the rate; if m = 0, the rate is unchanged when [A] changes.\n\nThe units of k are a quick diagnostic. A first-order reaction has k in s⁻¹ (pure inverse time, like a decay constant), while a second-order reaction has k in M⁻¹·s⁻¹. If you are ever asked for the units of k, write down Rate = k·(concentration)^order and solve for k.\n\n### Worked Example\n\nA reaction has the experimentally determined rate law:\n\n$$\\text{Rate} = k[\\text{NO}]^2[\\text{O}_2]$$\n\n**(a) Order with respect to each reactant and overall order.**\n\nThe reaction is second order in NO (exponent 2), first order in O₂ (exponent 1), and third order overall (2 + 1 = 3).\n\n**(b) Units of k.**\n\nSolve for k:\n\n$$k = \\frac{\\text{Rate}}{[\\text{NO}]^2[\\text{O}_2]} = \\frac{\\text{M s}^{-1}}{\\text{M}^2 \\cdot \\text{M}} = \\frac{\\text{M s}^{-1}}{\\text{M}^3} = \\text{M}^{-2}\\,\\text{s}^{-1}$$\n\n**(c) Effect of doubling [NO].**\n\nBecause the reaction is second order in NO, doubling [NO] multiplies the rate by 2² = 4, assuming [O₂] stays fixed.\n\n**(d) Effect of doubling [O₂].**\n\nFirst order in O₂, so doubling [O₂] doubles the rate (×2).\n\nIf both are doubled at once, the rate increases by a factor of 4 × 2 = 8.",
+    "howItWorks": "The rate law is a statement about the **mechanism at the molecular level**, not about stoichiometry. For the reaction 2 N₂O₅ → 4 NO₂ + O₂, the balanced equation suggests the rate might be proportional to [N₂O₅]². Experiment shows instead that Rate = k[N₂O₅] — a first-order reaction. Why? Because the slow step that controls the rate involves a single N₂O₅ molecule, regardless of the overall stoichiometry.\n\nTo determine the order, chemists hold concentrations constant and vary one at a time (see the note on the Method of Initial Rates). The exponent m tells us how the rate scales: if m = 1, doubling [A] doubles the rate; if m = 2, doubling [A] quadruples the rate; if m = 0, the rate is unchanged when [A] changes.\n\nThe units of k are a quick diagnostic. A first-order reaction has k in s⁻¹ (pure inverse time, like a decay constant), while a second-order reaction has k in M⁻¹·s⁻¹. If you are ever asked for the units of k, write down Rate = k·(concentration)^order and solve for k.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Exponents in a rate law are **experimental**, never copied from coefficients.\n- Overall order = sum of individual orders.\n- k is constant with respect to concentration; it changes with temperature and catalyst.\n- Units of k = M^(1−overall order)·s⁻¹.\n- Only for an **elementary step** (single molecular event) do exponents equal coefficients — a point developed in the mechanisms note.",
+    "commonConfusions": "- **Assuming exponents equal coefficients.** This is wrong for any non-elementary reaction. Always verify with data.\n- **Thinking k has fixed units.** k's units change with the overall order; only rate is always M/s.\n- **Forgetting that order can be zero or fractional.** \"Zero order\" means the rate is flat regardless of that reactant's concentration (common when a catalyst surface or light, not concentration, limits the rate).\n- **Mixing up \"molecularity\" and \"order.\"** Molecularity applies to an elementary step (how many molecules collide); order is the empirical exponent in the measured rate law.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThe rate law is like a recipe for how fast the pot boils, and it is measured by watching the pot, not by reading the ingredient list. The balanced equation tells you the proportions of ingredients (stoichiometry); the rate law tells you which ingredients actually control the speed. Sometimes a recipe's \"2 cups of sugar\" means double the sweetness, but the cook's actual behavior might depend only on how hot the stove is. That's why we measure the orders with experiments. And the rate constant k is the \"dial\" on the reaction — turn up the temperature or add a catalyst and k jumps, even though the recipe (the order) stays the same.",
+    "quickReview": "1. Write the general form of a rate law and name each symbol.\n2. Why can't you read reaction orders off the balanced equation?\n3. What is the overall order of Rate = k[A][B]²?\n4. What are the units of k for a first-order reaction? For a third-order reaction?\n5. If a reaction is second order in A, by what factor does the rate change when [A] is tripled?",
+    "workedExamples": "### Worked Example\n\nA reaction has the experimentally determined rate law:\n\n$$\\text{Rate} = k[\\text{NO}]^2[\\text{O}_2]$$\n\n**(a) Order with respect to each reactant and overall order.**\n\nThe reaction is second order in NO (exponent 2), first order in O₂ (exponent 1), and third order overall (2 + 1 = 3).\n\n**(b) Units of k.**\n\nSolve for k:\n\n$$k = \\frac{\\text{Rate}}{[\\text{NO}]^2[\\text{O}_2]} = \\frac{\\text{M s}^{-1}}{\\text{M}^2 \\cdot \\text{M}} = \\frac{\\text{M s}^{-1}}{\\text{M}^3} = \\text{M}^{-2}\\,\\text{s}^{-1}$$\n\n**(c) Effect of doubling [NO].**\n\nBecause the reaction is second order in NO, doubling [NO] multiplies the rate by 2² = 4, assuming [O₂] stays fixed.\n\n**(d) Effect of doubling [O₂].**\n\nFirst order in O₂, so doubling [O₂] doubles the rate (×2).\n\nIf both are doubled at once, the rate increases by a factor of 4 × 2 = 8.",
+    "references": [
+      {
+        "text": "OpenStax. *Chemistry 2e*. Ch. 12, \"Rate Laws.\" https://openstax.org/books/chemistry-2e/pages/12-3-rate-laws",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-3-rate-laws"
+      },
+      {
+        "text": "IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"order of reaction,\" \"rate constant.\" https://goldbook.iupac.org/",
+        "url": "https://goldbook.iupac.org/"
+      },
+      {
+        "text": "Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman."
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "differential-rate-laws",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "02-differential-rate-laws",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:5847418ffe32bd43"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:5847418ffe32bd43"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:5847418ffe32bd43"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:5847418ffe32bd43"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/12-chemical-kinetics/02-differential-rate-laws.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Differential Rate Laws\n\n## Learning Goals\n\n- Write a rate law in the form Rate = k[A]^m[B]^n and identify each term.\n- Define reaction order with respect to each reactant and overall order.\n- Explain why reaction orders must be determined experimentally, not from the balanced equation.\n- Determine the units of the rate constant k from the overall order.\n\n## Core Concept\n\nA **rate law** (also called a differential rate law) is an equation that connects the rate of a reaction to the concentrations of its reactants and a proportionality constant k. It has the general form:\n\n$$\\text{Rate} = k[A]^m[B]^n$$\n\nThe exponents m and n are the **orders** of the reaction with respect to A and B, and k is the **rate constant**. The crucial point — and the single most common exam trap in kinetics — is that m and n are **not** the stoichiometric coefficients. They must be measured experimentally.\n\n## Key Ideas\n\n- The rate constant k is independent of concentration but depends strongly on temperature and the presence of a catalyst.\n- Reaction order can be zero, fractional, or any positive number; it is an empirical fact about the mechanism.\n- The **overall order** is the sum of all individual orders (m + n + …).\n- The units of k are fixed by the overall order so that the rate always has units of M/s.\n\n## Equations and Variables\n\nGeneral form for a reaction with two reactants:\n\n$$\\text{Rate} = k[A]^m[B]^n$$\n\n- k = rate constant (units depend on overall order)\n- [A], [B] = reactant concentrations (M)\n- m, n = reaction orders (determined experimentally, unitless)\n\nThe rate constant's units follow from the requirement that rate is in M·s⁻¹:\n\n| Overall order | Units of k |\n| ------------- | ---------- |\n| 0 | M·s⁻¹ |\n| 1 | s⁻¹ |\n| 2 | M⁻¹·s⁻¹ |\n| 3 | M⁻²·s⁻¹ |\n\nIn general, units of k = M^(1−order)·s⁻¹.\n\n## How It Works\n\nThe rate law is a statement about the **mechanism at the molecular level**, not about stoichiometry. For the reaction 2 N₂O₅ → 4 NO₂ + O₂, the balanced equation suggests the rate might be proportional to [N₂O₅]². Experiment shows instead that Rate = k[N₂O₅] — a first-order reaction. Why? Because the slow step that controls the rate involves a single N₂O₅ molecule, regardless of the overall stoichiometry.\n\nTo determine the order, chemists hold concentrations constant and vary one at a time (see the note on the Method of Initial Rates). The exponent m tells us how the rate scales: if m = 1, doubling [A] doubles the rate; if m = 2, doubling [A] quadruples the rate; if m = 0, the rate is unchanged when [A] changes.\n\nThe units of k are a quick diagnostic. A first-order reaction has k in s⁻¹ (pure inverse time, like a decay constant), while a second-order reaction has k in M⁻¹·s⁻¹. If you are ever asked for the units of k, write down Rate = k·(concentration)^order and solve for k.\n\n## Worked Example\n\nA reaction has the experimentally determined rate law:\n\n$$\\text{Rate} = k[\\text{NO}]^2[\\text{O}_2]$$\n\n**(a) Order with respect to each reactant and overall order.**\n\nThe reaction is second order in NO (exponent 2), first order in O₂ (exponent 1), and third order overall (2 + 1 = 3).\n\n**(b) Units of k.**\n\nSolve for k:\n\n$$k = \\frac{\\text{Rate}}{[\\text{NO}]^2[\\text{O}_2]} = \\frac{\\text{M s}^{-1}}{\\text{M}^2 \\cdot \\text{M}} = \\frac{\\text{M s}^{-1}}{\\text{M}^3} = \\text{M}^{-2}\\,\\text{s}^{-1}$$\n\n**(c) Effect of doubling [NO].**\n\nBecause the reaction is second order in NO, doubling [NO] multiplies the rate by 2² = 4, assuming [O₂] stays fixed.\n\n**(d) Effect of doubling [O₂].**\n\nFirst order in O₂, so doubling [O₂] doubles the rate (×2).\n\nIf both are doubled at once, the rate increases by a factor of 4 × 2 = 8.\n\n## Why It Matters\n\nThe rate law is the quantitative heart of kinetics. It is how we predict how fast a reaction will go under any set of concentrations, and it is the fingerprint that lets chemists test a proposed mechanism: a mechanism's predicted rate law must match the experimentally observed one. Pharmaceutical dosing, pollutant breakdown, and industrial yield all hinge on knowing the correct order.\n\n## High-Yield Facts\n\n- Exponents in a rate law are **experimental**, never copied from coefficients.\n- Overall order = sum of individual orders.\n- k is constant with respect to concentration; it changes with temperature and catalyst.\n- Units of k = M^(1−overall order)·s⁻¹.\n- Only for an **elementary step** (single molecular event) do exponents equal coefficients — a point developed in the mechanisms note.\n\n## Eli Explains\n\nThe rate law is like a recipe for how fast the pot boils, and it is measured by watching the pot, not by reading the ingredient list. The balanced equation tells you the proportions of ingredients (stoichiometry); the rate law tells you which ingredients actually control the speed. Sometimes a recipe's \"2 cups of sugar\" means double the sweetness, but the cook's actual behavior might depend only on how hot the stove is. That's why we measure the orders with experiments. And the rate constant k is the \"dial\" on the reaction — turn up the temperature or add a catalyst and k jumps, even though the recipe (the order) stays the same.\n\n## Common Confusions\n\n- **Assuming exponents equal coefficients.** This is wrong for any non-elementary reaction. Always verify with data.\n- **Thinking k has fixed units.** k's units change with the overall order; only rate is always M/s.\n- **Forgetting that order can be zero or fractional.** \"Zero order\" means the rate is flat regardless of that reactant's concentration (common when a catalyst surface or light, not concentration, limits the rate).\n- **Mixing up \"molecularity\" and \"order.\"** Molecularity applies to an elementary step (how many molecules collide); order is the empirical exponent in the measured rate law.\n\n## Quick Review\n\n1. Write the general form of a rate law and name each symbol.\n2. Why can't you read reaction orders off the balanced equation?\n3. What is the overall order of Rate = k[A][B]²?\n4. What are the units of k for a first-order reaction? For a third-order reaction?\n5. If a reaction is second order in A, by what factor does the rate change when [A] is tripled?\n\n## Sources\n\n- OpenStax. *Chemistry 2e*. Ch. 12, \"Rate Laws.\" https://openstax.org/books/chemistry-2e/pages/12-3-rate-laws\n- IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"order of reaction,\" \"rate constant.\" https://goldbook.iupac.org/\n- Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman.\n"
+}

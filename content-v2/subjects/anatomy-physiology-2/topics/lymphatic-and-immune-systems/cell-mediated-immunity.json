@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-2:lymphatic-and-immune-systems:cell-mediated-immunity",
+  "slug": "cell-mediated-immunity",
+  "title": "Cell-Mediated Immunity",
+  "subject": {
+    "id": "subject:anatomy-physiology-2",
+    "slug": "anatomy-physiology-2",
+    "title": "Anatomy & Physiology II"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-2:lymphatic-and-immune-systems",
+    "slug": "lymphatic-and-immune-systems",
+    "title": "Lymphatic and Immune Systems",
+    "order": 3
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "**Cell-mediated immunity** uses **T cells** to attack threats hiding *inside* body cells (like viruses and cancer) and to coordinate the whole immune response. This section covers **helper T cells, cytotoxic T cells**, and memory T cells.",
+    "whyItMatters": "Cell-mediated immunity handles intracellular pathogens and abnormal cells that antibodies can't reach, and helper T cells direct both branches of adaptive immunity. This explains why HIV (which destroys helper T cells) is so devastating and how the immune system fights viruses and cancer.",
+    "learningObjectives": "- Explain what **cell-mediated immunity** targets.\n- Describe the roles of **helper T cells** and **cytotoxic T cells**.\n- Explain how T cells recognize infected cells.\n- Connect helper T cells to overall immune coordination.",
+    "keyTerms": "",
+    "collegeNotes": "**What it targets.** While antibodies (humoral immunity) work on pathogens in body fluids, many threats hide **inside cells** — viruses replicate inside host cells, and cancer cells arise from within. **Cell-mediated immunity**, carried out by **T cells**, deals with these by attacking infected or abnormal cells directly and by directing the broader response.\n\n**How T cells recognize threats.** Body cells constantly display fragments of their internal proteins on their surface (using markers called MHC molecules) — a kind of \"status report.\" A healthy cell shows normal \"self\" fragments; an infected or cancerous cell shows **abnormal (foreign) fragments**. T cells inspect these displays and recognize cells showing foreign antigen, allowing them to spot hidden infections without opening every cell.\n\n**The main T cells.** Two key types (both mature in the thymus):\n\n- **Helper T cells (CD4 cells):** the **coordinators**. They recognize antigen presented by other immune cells and then release chemical signals (**cytokines**) that **activate** cytotoxic T cells, help **activate B cells**, and boost the whole immune response. They don't kill directly, but without them the immune system barely functions — which is why their loss (as in **HIV/AIDS**) is catastrophic.\n- **Cytotoxic T cells (CD8 cells):** the **killers**. They directly destroy cells displaying foreign antigen — virus-infected cells, some cancer cells, and foreign (transplant) cells — by triggering them to die, stopping the infection from spreading.\n\n**Memory T cells.** Like B cells, activated T cells also form **memory T cells** that enable a faster, stronger response on re-exposure.\n\n**Working with humoral immunity.** The two branches are integrated: **helper T cells** activate B cells (humoral) *and* cytotoxic T cells (cell-mediated), so the whole adaptive response is coordinated. Antibodies handle extracellular threats; T cells handle intracellular ones; helper T cells tie it all together. This teamwork is why damage to helper T cells cripples immunity across the board.",
+    "howItWorks": "The cell-mediated response:\n\n```\nInfected/abnormal cell displays foreign antigen (via MHC)\n   → Helper T cell recognizes antigen → releases cytokines → activates:\n        Cytotoxic T cells → kill infected/abnormal cells\n        B cells → antibody production (humoral)\n   → Memory T cells formed for faster future response\n```",
+    "comparisons": "| T cell | Role |\n| --- | --- |\n| Helper T (CD4) | Coordinates: activates cytotoxic T and B cells (cytokines) |\n| Cytotoxic T (CD8) | Kills infected/abnormal cells directly |\n| Memory T | Fast response on re-exposure |\n\n| Branch | Targets | Main cell |\n| --- | --- | --- |\n| Humoral | Pathogens in fluids | B cells/antibodies |\n| Cell-mediated | Infected/abnormal cells | T cells |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\n**HIV** infects and destroys **helper T (CD4) cells**; as their numbers fall, the whole immune system fails, leading to **AIDS** and vulnerability to infections and cancers — the CD4 count is a key clinical measure. Cell-mediated immunity underlies **transplant rejection** (T cells attacking donor cells) and antiviral and antitumor defense. Understanding helper T cells' coordinating role explains why their loss affects both antibody and cell-killing responses.",
+    "commonConfusions": "- **Helper vs cytotoxic T cells.** Helper (CD4) coordinates; cytotoxic (CD8) kills.\n- **Humoral vs cell-mediated targets.** Antibodies reach pathogens in fluids; T cells reach threats inside cells.\n- **T cells recognize antigen on cell surfaces** (via MHC), not free-floating antigen the way antibodies do.\n- **Helper T cells don't kill** — they direct; but losing them disables the whole system.",
+    "memoryAids": "- **\"Helper = Headquarters (coordinates)\"; \"Cytotoxic = Cell killer.\"**\n- **CD4 = Helper (4 letters in \"help\"? use \"CD4 = coordinator\"); CD8 = \"ate/eight = destroyer.\"**\n- **HIV = \"Hits helper (CD4) cells.\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nCell-mediated immunity is the part of your defense that hunts down germs hiding *inside* your own cells and destroys those infected cells — and it has a commander that runs the whole immune battle.\n\n### Analogy\nAntibodies are great at catching germs floating out in the open, but what about enemies hiding *inside* buildings (your cells), like viruses? That's the job of **T cells**. Every cell in your body shows a little \"status report\" on its surface; if a cell is infected, its report shows enemy signs. Two kinds of T-cell specialists respond: **helper T cells** are the **commanders** who spot the trouble and radio orders (chemical signals) that fire up the rest of the army, and **cytotoxic T cells** are the **strike team** who storm the infected building and take it down before the germ can spread. Some become **memory** soldiers for next time.\n\n### What is actually happening\nThe **helper T cells (CD4)** are so central that they activate *both* the antibody-makers (B cells) *and* the killer T cells — they're the coordinators of the whole adaptive immune system. That's exactly why **HIV** is so dangerous: it specifically destroys helper T cells, and without the commanders, the entire immune army falls apart, leaving the body open to infections and cancers (this stage is called **AIDS**). Cell-mediated immunity is also why transplanted organs can be **rejected** — the killer T cells see the donor cells as foreign.\n\n### Where the analogy stops\nReal commanders can be replaced quickly, but if HIV wipes out enough helper T cells, the body can't easily rebuild them — which is why protecting and counting these cells (the **CD4 count**) is such a big deal in treatment.",
+    "quickReview": "- **Cell-mediated immunity** (T cells) targets threats **inside cells** (viruses, cancer) and coordinates the response.\n- **Helper T cells (CD4)** coordinate — activating cytotoxic T cells and B cells via **cytokines**; **cytotoxic T cells (CD8)** directly kill infected/abnormal cells.\n- T cells recognize **foreign antigen displayed on cell surfaces**; activated T cells form **memory T cells**.\n- **HIV** destroys helper T cells, crippling immunity (→ AIDS); cell-mediated immunity underlies transplant rejection and antiviral/antitumor defense.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 21.3–21.4: The Adaptive Immune Response — T Lymphocytes. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — HIV/AIDS. https://medlineplus.gov/hivaids.html",
+        "url": "https://medlineplus.gov/hivaids.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "cell-mediated-immunity",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "ap2-u03-s05",
+      "kind": "source_topic_id",
+      "source_id": "prenursing_notes"
+    },
+    {
+      "value": "05-cell-mediated-immunity",
+      "kind": "source_file_stem",
+      "source_id": "prenursing_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:prenursing_notes:058fe54d2deaad6d"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:prenursing_notes:058fe54d2deaad6d"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:prenursing_notes:058fe54d2deaad6d"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:prenursing_notes:058fe54d2deaad6d"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/02-anatomy-physiology-ii/03-lymphatic-and-immune-systems/05-cell-mediated-immunity.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "\n# Cell-Mediated Immunity\n\n## What This Topic Is\n\n**Cell-mediated immunity** uses **T cells** to attack threats hiding *inside* body cells (like viruses and cancer) and to coordinate the whole immune response. This section covers **helper T cells, cytotoxic T cells**, and memory T cells.\n\n## Why It Matters\n\nCell-mediated immunity handles intracellular pathogens and abnormal cells that antibodies can't reach, and helper T cells direct both branches of adaptive immunity. This explains why HIV (which destroys helper T cells) is so devastating and how the immune system fights viruses and cancer.\n\n## Learning Objectives\n\n- Explain what **cell-mediated immunity** targets.\n- Describe the roles of **helper T cells** and **cytotoxic T cells**.\n- Explain how T cells recognize infected cells.\n- Connect helper T cells to overall immune coordination.\n\n## Core Explanation\n\n**What it targets.** While antibodies (humoral immunity) work on pathogens in body fluids, many threats hide **inside cells** — viruses replicate inside host cells, and cancer cells arise from within. **Cell-mediated immunity**, carried out by **T cells**, deals with these by attacking infected or abnormal cells directly and by directing the broader response.\n\n**How T cells recognize threats.** Body cells constantly display fragments of their internal proteins on their surface (using markers called MHC molecules) — a kind of \"status report.\" A healthy cell shows normal \"self\" fragments; an infected or cancerous cell shows **abnormal (foreign) fragments**. T cells inspect these displays and recognize cells showing foreign antigen, allowing them to spot hidden infections without opening every cell.\n\n**The main T cells.** Two key types (both mature in the thymus):\n\n- **Helper T cells (CD4 cells):** the **coordinators**. They recognize antigen presented by other immune cells and then release chemical signals (**cytokines**) that **activate** cytotoxic T cells, help **activate B cells**, and boost the whole immune response. They don't kill directly, but without them the immune system barely functions — which is why their loss (as in **HIV/AIDS**) is catastrophic.\n- **Cytotoxic T cells (CD8 cells):** the **killers**. They directly destroy cells displaying foreign antigen — virus-infected cells, some cancer cells, and foreign (transplant) cells — by triggering them to die, stopping the infection from spreading.\n\n**Memory T cells.** Like B cells, activated T cells also form **memory T cells** that enable a faster, stronger response on re-exposure.\n\n**Working with humoral immunity.** The two branches are integrated: **helper T cells** activate B cells (humoral) *and* cytotoxic T cells (cell-mediated), so the whole adaptive response is coordinated. Antibodies handle extracellular threats; T cells handle intracellular ones; helper T cells tie it all together. This teamwork is why damage to helper T cells cripples immunity across the board.\n\n## How It Works\n\nThe cell-mediated response:\n\n```\nInfected/abnormal cell displays foreign antigen (via MHC)\n   → Helper T cell recognizes antigen → releases cytokines → activates:\n        Cytotoxic T cells → kill infected/abnormal cells\n        B cells → antibody production (humoral)\n   → Memory T cells formed for faster future response\n```\n\n## Important Relationships and Comparisons\n\n| T cell | Role |\n| --- | --- |\n| Helper T (CD4) | Coordinates: activates cytotoxic T and B cells (cytokines) |\n| Cytotoxic T (CD8) | Kills infected/abnormal cells directly |\n| Memory T | Fast response on re-exposure |\n\n| Branch | Targets | Main cell |\n| --- | --- | --- |\n| Humoral | Pathogens in fluids | B cells/antibodies |\n| Cell-mediated | Infected/abnormal cells | T cells |\n\n## High-Yield Pre-Nursing Connections\n\n**HIV** infects and destroys **helper T (CD4) cells**; as their numbers fall, the whole immune system fails, leading to **AIDS** and vulnerability to infections and cancers — the CD4 count is a key clinical measure. Cell-mediated immunity underlies **transplant rejection** (T cells attacking donor cells) and antiviral and antitumor defense. Understanding helper T cells' coordinating role explains why their loss affects both antibody and cell-killing responses.\n\n## Common Confusions\n\n- **Helper vs cytotoxic T cells.** Helper (CD4) coordinates; cytotoxic (CD8) kills.\n- **Humoral vs cell-mediated targets.** Antibodies reach pathogens in fluids; T cells reach threats inside cells.\n- **T cells recognize antigen on cell surfaces** (via MHC), not free-floating antigen the way antibodies do.\n- **Helper T cells don't kill** — they direct; but losing them disables the whole system.\n\n## Memory Aids\n\n- **\"Helper = Headquarters (coordinates)\"; \"Cytotoxic = Cell killer.\"**\n- **CD4 = Helper (4 letters in \"help\"? use \"CD4 = coordinator\"); CD8 = \"ate/eight = destroyer.\"**\n- **HIV = \"Hits helper (CD4) cells.\"**\n\n## ELI-10 Explains\n\n### Simple idea\nCell-mediated immunity is the part of your defense that hunts down germs hiding *inside* your own cells and destroys those infected cells — and it has a commander that runs the whole immune battle.\n\n### Analogy\nAntibodies are great at catching germs floating out in the open, but what about enemies hiding *inside* buildings (your cells), like viruses? That's the job of **T cells**. Every cell in your body shows a little \"status report\" on its surface; if a cell is infected, its report shows enemy signs. Two kinds of T-cell specialists respond: **helper T cells** are the **commanders** who spot the trouble and radio orders (chemical signals) that fire up the rest of the army, and **cytotoxic T cells** are the **strike team** who storm the infected building and take it down before the germ can spread. Some become **memory** soldiers for next time.\n\n### What is actually happening\nThe **helper T cells (CD4)** are so central that they activate *both* the antibody-makers (B cells) *and* the killer T cells — they're the coordinators of the whole adaptive immune system. That's exactly why **HIV** is so dangerous: it specifically destroys helper T cells, and without the commanders, the entire immune army falls apart, leaving the body open to infections and cancers (this stage is called **AIDS**). Cell-mediated immunity is also why transplanted organs can be **rejected** — the killer T cells see the donor cells as foreign.\n\n### Where the analogy stops\nReal commanders can be replaced quickly, but if HIV wipes out enough helper T cells, the body can't easily rebuild them — which is why protecting and counting these cells (the **CD4 count**) is such a big deal in treatment.\n\n## Quick Recap\n\n- **Cell-mediated immunity** (T cells) targets threats **inside cells** (viruses, cancer) and coordinates the response.\n- **Helper T cells (CD4)** coordinate — activating cytotoxic T cells and B cells via **cytokines**; **cytotoxic T cells (CD8)** directly kill infected/abnormal cells.\n- T cells recognize **foreign antigen displayed on cell surfaces**; activated T cells form **memory T cells**.\n- **HIV** destroys helper T cells, crippling immunity (→ AIDS); cell-mediated immunity underlies transplant rejection and antiviral/antitumor defense.\n\n## Sources\n\n- OpenStax, *Anatomy and Physiology 2e*, Chapter 21.3–21.4: The Adaptive Immune Response — T Lymphocytes. https://openstax.org/details/books/anatomy-and-physiology-2e\n- U.S. National Library of Medicine, MedlinePlus — HIV/AIDS. https://medlineplus.gov/hivaids.html\n"
+}

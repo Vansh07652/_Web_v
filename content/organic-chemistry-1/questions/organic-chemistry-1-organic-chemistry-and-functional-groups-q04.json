@@ -1,0 +1,40 @@
+{
+  "id": "organic-chemistry-1-organic-chemistry-and-functional-groups-q04",
+  "subject": "organic-chemistry-1",
+  "lesson": "organic-chemistry-and-functional-groups",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Acetic acid (pKa about 4.8) is a far stronger acid than ethanol (pKa about 16), even though both molecules contain an O—H bond. Which explanation best accounts for this difference?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Acetic acid is the more polar molecule, and polarity by itself determines acid strength"
+    },
+    {
+      "id": "b",
+      "text": "The acetate anion delocalizes its negative charge over two equivalent oxygen atoms by resonance"
+    },
+    {
+      "id": "c",
+      "text": "Ethanol's alkyl group physically blocks water molecules from reaching its O—H bond"
+    },
+    {
+      "id": "d",
+      "text": "Acetic acid's carbonyl oxygen accepts a proton from water, releasing hydroxide ions"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Acid strength tracks the stability of the conjugate base. When acetic acid loses its proton, the resulting carboxylate has two resonance forms in which the negative charge sits on either oxygen, so the real ion carries half a negative charge on each equivalent oxygen and is substantially stabilized. Ethanol's ethoxide ion localizes the full charge on one oxygen with no resonance partner, so ionization is far less favorable, and the roughly 16 − 4.8 = 11.2 pKa unit gap corresponds to about eleven orders of magnitude in Ka. Polarity alone (choice A) does not predict acidity, and choice D describes basic rather than acidic behavior.\n\nELI-10: Whether a molecule gives up its proton depends on how comfortable the leftover negative charge will be. Ethoxide is stuck holding the entire charge on one oxygen, so ethanol rarely lets go. Acetate spreads that charge across two identical oxygens, which lowers its energy and makes the proton easy to release. Each pKa unit is a factor of 10 in the acid ionization constant, so a gap of 16 − 4.8 = 11.2 units means acetic acid's ionization constant (Ka) is roughly a hundred billion times larger than ethanol's.",
+  "difficulty": "medium",
+  "tags": [
+    "carboxylic acid acidity",
+    "resonance stabilization",
+    "conjugate base stability",
+    "pKa comparison"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-281",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

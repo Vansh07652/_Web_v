@@ -1,0 +1,40 @@
+{
+  "id": "chemistry-1-atomic-structure-and-the-periodic-table-q08",
+  "subject": "chemistry-1",
+  "lesson": "atomic-structure-and-the-periodic-table",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A hypothetical teaching sample is labeled as the potassium-39 ion with a 1+ charge (atomic number 19, mass number 39). How many neutrons and electrons does one of these ions contain?",
+  "options": [
+    {
+      "id": "a",
+      "text": "19 neutrons and 20 electrons"
+    },
+    {
+      "id": "b",
+      "text": "20 neutrons and 19 electrons"
+    },
+    {
+      "id": "c",
+      "text": "20 neutrons and 18 electrons"
+    },
+    {
+      "id": "d",
+      "text": "18 neutrons and 20 electrons"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Neutron count equals mass number minus atomic number: 39 - 19 = 20. The 1+ charge means one electron has been lost from the neutral count of 19, leaving 18 electrons, an argon-like arrangement. Reading isotope and ion notation as two independent pieces of information, one nuclear and one electronic, is what allows correct interpretation of electrolyte chemistry, where potassium circulates as a singly charged cation.\n\nELI-10: There are two separate calculations hidden in this label, and each uses a different number. For neutrons, subtract the atomic number from the mass number: 39 minus 19 gives 20 neutrons. For electrons, start from the proton count, 19, and adjust for charge: a 1+ means one electron was lost, so 18 remain. The mass number tells you nothing about electrons, and the charge tells you nothing about neutrons, so never let one substitute for the other.",
+  "difficulty": "medium",
+  "tags": [
+    "isotope notation",
+    "neutron calculation",
+    "ionic charge",
+    "electron count"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-272",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

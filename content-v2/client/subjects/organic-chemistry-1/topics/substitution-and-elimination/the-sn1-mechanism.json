@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:substitution-and-elimination:the-sn1-mechanism",
+  "slug": "the-sn1-mechanism",
+  "title": "The SN1 Mechanism",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:substitution-and-elimination",
+    "slug": "substitution-and-elimination",
+    "title": "Substitution and Elimination",
+    "order": 5
+  },
+  "order": 21,
+  "status": "final",
+  "sections": {
+    "overview": "SN1 stands for unimolecular nucleophilic substitution. The rate depends only on the substrate because the slow, rate-determining step is departure of the leaving group to form a carbocation; a fast second step then has the nucleophile capture that planar cation. Tertiary (and resonance-stabilized allylic/benzylic) substrates react fastest. Because the nucleophile attacks a flat carbocation from either face, SN1 gives racemic (or partially racemic) product mixtures.",
+    "whyItMatters": "SN1 chemistry underlies many solvolysis reactions and is relevant to how some drugs are metabolized and how reactive intermediates form in vivo. The carbocation concept also matters for understanding alkylating agents and their reactivity. Because SN1 intermediates are high-energy and reactions can be exothermic, all laboratory work with these systems must follow institutional safety documentation; this note provides no operational procedures, quantities, or disposal instructions.",
+    "learningObjectives": "1. State the two-step SN1 mechanism and its first-order rate law, rate = k[RX].\n2. Explain carbocation stability and the role of rearrangements in SN1.\n3. Describe why nucleophile strength and leaving-group ability matter differently in SN1 than in SN2.\n4. Predict SN1 stereochemistry (racemization, with the ion-pair caveat) and draw its energy diagram.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| SN1 | Unimolecular nucleophilic substitution | Names the mechanism: rate depends only on the substrate |\n| Carbocation | A planar, electron-poor carbon with only three bonds and a positive charge | The key intermediate in SN1 (and E1) |\n| Rate-determining step | The slow step that sets the overall rate | Ionization is this step, so rate = k[RX] |\n| Racemization | Formation of both enantiomers | Planar carbocation attack from either face scrambles configuration |\n| Ion pair | A carbocation still loosely associated with the leaving group | Explains incomplete racemization (partial retention or inversion) |\n| Rearrangement | Hydride or alkyl shift to a more stable cation | Alters the carbon skeleton and is a classic exam trap |\n| Polar protic solvent | Solvent with O–H or N–H bonds (water, alcohols) | Stabilizes the cation and leaving group, speeding SN1 |",
+    "collegeNotes": "### 1. The Two-Step Mechanism and First-Order Rate Law\n\nStep 1 (slow, rate-determining): the C–X bond breaks heterolytically to give a carbocation and the leaving group. Step 2 (fast): the nucleophile attacks the carbocation. Only the substrate appears in the slow step, so:\n\n\\[\\text{rate} = k\\,[\\text{RX}]\\]\n\nThe reaction is first order; adding more nucleophile does not speed it up.\n\n### 2. Carbocation Stability and Rearrangements\n\nCarbocations are stabilized by alkyl groups through hyperconjugation and induction: tertiary > secondary > primary > methyl. Resonance is even more powerful, so allylic and benzylic carbocations are especially stable. When a more stable cation is available, the initially formed cation can rearrange by a 1,2-hydride shift or a 1,2-alkyl shift before the nucleophile attacks — a hallmark exam trap.\n\n### 3. Reactivity Factors and Stereochemistry\n\nNucleophile strength does not affect the rate (the nucleophile is absent from the rate law), so weak nucleophiles like water and alcohols work fine. A good leaving group is essential because its departure is rate-determining. Polar protic solvents (water, alcohols, carboxylic acids) stabilize the carbocation and the departing leaving group through solvation, speeding up SN1. Because the carbocation is planar and the nucleophile attacks from either face, the product is racemic — though ion pairs can shield one face, giving *incomplete racemization* (net inversion or partial retention, but never clean inversion).",
+    "howItWorks": "1. The leaving group departs with the bonding electrons, forming a planar carbocation (slow).\n2. The carbocation may rearrange to a more stable cation if one exists.\n3. A nucleophile (often the solvent) attacks the cation from either face (fast).\n4. If the nucleophile is neutral, deprotonation gives the neutral product.\n5. Product stereochemistry is racemic (or partially racemic due to ion pairing).",
+    "comparisons": "",
+    "highYield": "- **High yield:** SN1 = two steps, first order, carbocation intermediate, racemization.\n- **High yield:** Reactivity order: tertiary > secondary > primary > methyl (methyl and primary effectively do not do SN1).\n- **High yield:** Nucleophile strength does not affect the SN1 rate — weak nucleophiles work.\n- **High yield:** Watch for hydride and alkyl shifts (rearrangements) to more stable carbocations.\n- **High yield:** Polar protic solvents accelerate SN1; SN2 prefers aprotic.\n- **High yield:** Racemization is usually incomplete because of ion pairing — expect \"mostly racemic,\" not perfect 50:50.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| SN1 | SN2 | SN1 is two-step, first-order, racemizing; SN2 is one-step, second-order, inverting |\n| Carbocation | Transition state | A carbocation is a real intermediate at an energy minimum; a transition state is a fleeting maximum |\n| Racemization | Inversion | Racemization gives both enantiomers; inversion gives only the opposite one |\n| Polar protic (SN1) | Polar aprotic (SN2) | Protic solvents favor SN1; aprotic favor SN2 |",
+    "memoryAids": "\"**1** = **1** substrate, **1** slow step, **1**st order.\" SN1 depends on the substrate alone (one molecule) in its single slow step.",
+    "eli10": "Imagine a three-legged stool. If you pull out one leg (the leaving group), the stool collapses flat onto the floor — that flat, unstable moment is the carbocation. Only once the stool is flat does a new leg (the nucleophile) get attached, and because the flat stool has two faces, the new leg can be screwed in from either side. SN1 works this way: first the leaving group departs to make a flat, electron-poor carbocation, and only then does the nucleophile bond to it.\n\nComparison: SN2 is a single smooth hand-off (backside attack with inversion). SN1 is a two-stage collapse-and-rebuild, so the incoming group can attach from either face, giving a scrambled (racemic) result.\n\nWhere this stops being exact: the flat carbocation is not literally \"flat and waiting\" — it is a short-lived, high-energy intermediate that reacts almost immediately, often while the leaving group is still nearby. In reality the leaving group can shield one face (an \"ion pair\"), so the product is usually not perfectly 50:50 racemic, just largely racemized. Also, the carbocation can rearrange (shift a hydride or alkyl group) to a more stable cation before the nucleophile arrives.\n\n### Simple Example\n\ntert-Butyl bromide, (CH₃)₃CBr, in water: the C–Br bond breaks to give the planar tert-butyl cation, (CH₃)₃C⁺, plus Br⁻. Water then attacks the cation from either face, and deprotonation gives tert-butyl alcohol, (CH₃)₃COH. Because the starting carbon is achiral here, the stereochemistry question does not arise — but with a chiral tertiary substrate it would produce a racemic mixture.",
+    "quickReview": "### Topic Recap\n\nSN1 is a two-step, first-order substitution proceeding through a planar carbocation. It is fastest for tertiary and resonance-stabilized allylic/benzylic substrates, tolerates weak nucleophiles, is accelerated by polar protic solvents, and gives racemic products (with ion-pair caveats). Carbocation rearrangements are a constant pitfall to watch for.\n\n### Knowledge Check\n\n1. Write the SN1 rate law and state the overall kinetic order.\n2. Why is the nucleophile absent from the SN1 rate law?\n3. What product mixture results when an optically active secondary substrate undergoes SN1 at its stereocenter?\n4. Why do polar protic solvents speed up SN1?\n5. Which substrate reacts fastest by SN1: CH₃Br, (CH₃)₂CHBr, or (CH₃)₃CBr?\n\n### Answers and Rationales\n\n1. rate = k[RX], first order — only the substrate is in the rate-determining ionization step.\n2. The nucleophile attacks in the fast second step, after the rate-determining step, so its concentration does not appear in the rate law.\n3. A racemic (or mostly racemic) mixture of the two enantiomers, because the planar carbocation is attacked from both faces; ion pairing makes it incomplete.\n4. They solvate and stabilize both the developing carbocation and the departing leaving group, lowering the energy of the transition state and the intermediate.\n5. (CH₃)₃CBr — it forms the most stable (tertiary) carbocation.",
+    "workedExamples": "Walk through the SN1 solvolysis of (R)-3-bromo-3-methylhexane in methanol.\n\n1. **Ionization.** A double-headed curved arrow starts at the C–Br bond and ends on bromine: the bond breaks and both electrons leave with Br⁻. This produces the planar tertiary carbocation and bromide.\n2. **Check stability.** The cation is tertiary (bonded to three carbons), so it is relatively stable; it would rearrange only if a more stable cation were available (here it is already tertiary, so no shift is needed).\n3. **Nucleophilic capture.** Methanol's lone pair (double-headed arrow) attacks the flat cation from either face, forming a protonated ether.\n4. **Deprotonation.** A base (solvent methanol) removes the proton (double-headed arrow) to give the neutral ether product, 3-methoxy-3-methylhexane.\n5. **Stereochemistry.** The (R) substrate gives a roughly racemic mixture of (R)- and (S)-products because attack from both faces is possible; ion pairing can make it slightly enriched in one enantiomer.\n6. **Charge and atom balance.** Br⁻ (−1) and the neutral ether account for all atoms; the proton lost in the last step is picked up by solvent methanol, keeping charge balanced.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "the-sn1-mechanism",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "21-the-sn1-mechanism",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/21-the-sn1-mechanism.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

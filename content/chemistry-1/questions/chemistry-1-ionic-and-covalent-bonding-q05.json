@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-ionic-and-covalent-bonding-q05",
+  "subject": "chemistry-1",
+  "lesson": "ionic-and-covalent-bonding",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Using Pauling electronegativity values (H = 2.2, Cl = 3.16), the H-Cl bond has an electronegativity difference of 0.96. Which classification of this bond, with its consequence, is correct?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Nonpolar covalent, because the electrons are shared equally and no partial charges develop."
+    },
+    {
+      "id": "b",
+      "text": "Ionic, because chlorine removes hydrogen's electron completely, so an isolated HCl molecule consists of H+ and Cl- ions."
+    },
+    {
+      "id": "c",
+      "text": "Polar covalent, because the shared pair sits closer to chlorine, giving chlorine a partial negative and hydrogen a partial positive charge."
+    },
+    {
+      "id": "d",
+      "text": "Coordinate covalent, because chlorine supplies both electrons of the shared pair while hydrogen supplies none."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "An electronegativity difference of roughly 0.4 to 1.7 marks a polar covalent bond: the pair is genuinely shared, but unequally. At 3.16 - 2.2 = 0.96, chlorine draws the bonding pair closer and carries a partial negative charge (delta minus) while hydrogen carries a partial positive charge (delta plus), giving HCl a permanent dipole moment. Complete transfer to separate ions requires a much larger difference, which is why gaseous HCl is a polar molecule rather than an ionic solid. In HCl each atom contributes one electron to the bond, so it is not coordinate covalent.\n\nELI-10: Bond polarity is about where the shared electrons spend their time, not about who owns them. Chlorine's electronegativity of 3.16 beats hydrogen's 2.2 by 0.96, so the pair is pulled toward the chlorine side without ever leaving hydrogen entirely. The result is a molecule with a slightly negative chlorine end and a slightly positive hydrogen end, written delta minus and delta plus. Partial charges like these, not full ionic charges, are the signature of a polar covalent bond.",
+  "difficulty": "medium",
+  "tags": [
+    "electronegativity difference",
+    "polar covalent bonds",
+    "partial charges"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-274",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

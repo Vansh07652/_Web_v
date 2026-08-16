@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:descriptive-statistics",
+  "slug": "descriptive-statistics",
+  "title": "Descriptive Statistics",
+  "subject": {
+    "id": "subject:mcat-foundations",
+    "slug": "mcat-foundations",
+    "title": "MCAT Foundations"
+  },
+  "unit": {
+    "id": "unit:mcat-foundations:research-methods-statistics-and-scientific-reasoning",
+    "slug": "research-methods-statistics-and-scientific-reasoning",
+    "title": "Research Methods, Statistics, and Scientific Reasoning",
+    "order": 9
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "Before you can test a hypothesis, you must describe your data. Descriptive statistics summarize datasets into interpretable numbers and visuals. The three measures of central tendency -- mean, median, and mode -- tell you where the center of the data lies. Measures of spread -- range, variance, and standard deviation -- tell you how far the data scatter. The normal distribution provides a predictable bell-shaped model that underlies most parametric statistics, and skewness describes departures from symmetry. Percentiles let you locate a single score within a distribution. Data displays like histograms, box plots, and scatterplots turn raw numbers into visual patterns that reveal outliers, clusters, and relationships at a glance. On the MCAT, descriptive statistics questions appear in passage-based research contexts: you will be asked to interpret a table of means and standard deviations, identify whether a skewed distribution makes the median more appropriate than the mean, or read a box plot to determine the interquartile range. These are foundational skills; every subsequent statistics topic builds on them.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- Mean, median, and mode\n- Range\n- Standard deviation and variance\n- Normal distribution\n- Skewness\n- Percentiles\n- Data displays",
+    "collegeNotes": "## Mean, Median, and Mode\n\nMeasures of central tendency describe the typical or central value of a dataset. The mean is the arithmetic average: sum all values and divide by n. It uses every data point, which makes it sensitive to outliers. The median is the middle value when data are sorted; it is resistant to outliers, making it the preferred measure for skewed distributions (e.g., income data). The mode is the most frequently occurring value; a dataset can have one mode (unimodal), two modes (bimodal), or many modes (multimodal). Choice of measure matters: for a symmetric distribution, mean = median = mode. For a right-skewed distribution, mean > median > mode. For a left-skewed distribution, mean < median < mode. The MCAT tests whether you know when to prefer the median over the mean -- anytime outliers or skew are present, the median is more representative of the typical observation. Example: five test scores are 72, 78, 81, 83, and 98. Mean = (72+78+81+83+98)/5 = 82.4. Median = 81 (middle value). The 98 inflates the mean upward; the median better represents the typical score.\n\n## Range\n\nThe range is the simplest measure of spread: maximum value minus minimum value. Range = Max - Min. It is easy to compute but highly sensitive to outliers because it uses only the two most extreme values. For the test scores above (72, 78, 81, 83, 98), the range is 98 - 72 = 26. If one student scored 42, the range would jump to 56 even though 80% of scores are unchanged. Because the range depends entirely on extremes, it is rarely used alone. It is most informative when paired with the interquartile range (IQR), which describes the spread of the middle 50% of data: IQR = Q3 - Q1. Together, the range and IQR give a fuller picture: a large range with a small IQR suggests outliers at the extremes while the bulk of data is tightly clustered. The MCAT may present the range in a table alongside the standard deviation and ask you to explain why the range suggests possible outliers when the SD is modest.\n\n## Standard Deviation and Variance\n\nVariance and standard deviation quantify how far, on average, data points deviate from the mean. Variance (s^2 for a sample, sigma^2 for a population) is the average of squared deviations from the mean: s^2 = sum(x_i - mean)^2 / (n - 1). The n-1 denominator (Bessel's correction) corrects for the fact that sample variability underestimates population variability. Standard deviation is the square root of variance: s = sqrt(s^2). It has the same units as the original data, making it directly interpretable. A small SD means data cluster tightly around the mean; a large SD means they spread widely. In a normal distribution, approximately 68% of data fall within +/-1 SD of the mean, 95% within +/-2 SD, and 99.7% within +/-3 SD (the empirical rule). The MCAT uses SD in several ways: comparing variability between groups, interpreting error bars on graphs, and calculating z-scores (z = (x - mean) / SD) to standardize individual values. Worked example: for scores 72, 78, 81, 83, 98 with mean 82.4, the deviations are -10.4, -4.4, -1.4, 0.6, 15.6. Squared: 108.16, 19.36, 1.96, 0.36, 243.36. Sum = 373.2. Variance = 373.2/4 = 93.3. SD = sqrt(93.3) = 9.66.\n\n## Normal Distribution\n\nThe normal (Gaussian) distribution is a symmetric, bell-shaped curve defined entirely by its mean (mu) and standard deviation (sigma). Key properties: (1) mean = median = mode, all at the center peak. (2) The curve is asymptotic -- it approaches but never touches the x-axis. (3) The total area under the curve equals 1 (100% of observations). (4) The empirical rule: 68% of data within 1 SD, 95% within 2 SD, 99.7% within 3 SD. The standard normal distribution has mean = 0 and SD = 1, used for z-score calculations. Normality matters because many inferential tests (t-tests, ANOVA, linear regression) assume normally distributed data or residuals. The central limit theorem (CLT) states that the sampling distribution of the mean approaches normality as sample size increases, regardless of the population's shape -- this is why normality assumptions are often met in practice. On the MCAT, you may be asked: (a) what percent of scores fall between two z-score values, (b) whether a dataset is likely normal based on mean/median comparison, (c) when the CLT justifies parametric testing despite non-normal raw data.\n\n## Skewness\n\nSkewness measures the asymmetry of a distribution. A symmetric distribution has skewness = 0. Positive (right) skew: the tail extends to the right; mean > median. Common in variables with a lower bound but no upper bound (reaction times, income, antibody titers). Negative (left) skew: the tail extends to the left; mean < median. Common in ceiling-effect data (easy tests where most score high, maximum lifespan data). The direction of skew is named for the direction of the tail, not the hump. Visual identification: look where the tail stretches. The MCAT often presents a histogram or description and asks you to infer whether the mean or median is larger based on the skew direction. In positively skewed data, the mean is pulled toward the tail and exceeds the median, so the median is the better measure of central tendency. Skew also affects which statistical tests are appropriate -- highly skewed data may require nonparametric tests (Mann-Whitney, Kruskal-Wallis) instead of t-tests or ANOVA.\n\n## Percentiles\n\nA percentile indicates the percentage of scores that fall at or below a given value. The kth percentile is the value below which k% of observations fall. The 50th percentile is the median. The 25th and 75th percentiles are Q1 and Q3; their difference is the IQR. Percentiles are used extensively in standardized testing: an MCAT score at the 90th percentile means you scored higher than 90% of test-takers. Percentiles are not the same as percentage correct -- a 90th percentile score does not mean 90% of questions were answered correctly. To calculate a percentile rank: (number of values below score + 0.5) / total n x 100%. The MCAT may give you a dataset and ask you to identify which value corresponds to a given percentile, or present a cumulative frequency graph and ask you to read off the median or IQR. Key insight: percentiles are robust to outliers because they are based on rank order, not raw values.\n\n## Data Displays\n\nData displays translate numerical summaries into visual patterns. Histograms show frequency distributions by binning continuous data into intervals; shape, center, spread, and outliers are visible at a glance. Box plots (box-and-whisker plots) display the five-number summary: minimum, Q1, median, Q3, and maximum. The box spans Q1 to Q3 (the IQR); whiskers extend to the furthest point within 1.5 x IQR from the box; points beyond are flagged as outliers. Scatterplots display paired (x, y) data and reveal correlation direction, strength, and form (linear vs. nonlinear). Bar charts compare categorical group means, often with error bars showing SD or SEM. Line graphs display trends over time or across conditions. The MCAT tests graph literacy heavily: you must read values from axes, interpret error bars, identify the relationship type (positive/negative/none), and recognize when a graph's scaling exaggerates or obscures differences (truncated y-axis). Common trap: confusing SEM error bars with SD error bars -- SEM is always smaller (SEM = SD / sqrt(n)) and describes precision of the mean estimate, not variability of the raw data.\n\n## How it works\n\nWhen the MCAT presents a table or graph, ask four questions in sequence: (1) What is the center? Check the mean and median; if they differ, suspect skew. (2) What is the spread? Look at SD and range; a large SD relative to the mean signals high variability. (3) What is the shape? Identify symmetry or skew from the mean-median gap or from the histogram/box plot. (4) What is unusual? Scan for outliers in box plots or values more than 2-3 SD from the mean. This four-question framework collapses a full descriptive analysis into 30 seconds and catches virtually every descriptive-statistics question the MCAT asks. For graph-based questions, add a fifth step: verify the axis labels, units, and scale before interpreting any pattern -- rescaling or truncation can make trivial differences look dramatic.",
+    "howItWorks": "When the MCAT presents a table or graph, ask four questions in sequence: (1) What is the center? Check the mean and median; if they differ, suspect skew. (2) What is the spread? Look at SD and range; a large SD relative to the mean signals high variability. (3) What is the shape? Identify symmetry or skew from the mean-median gap or from the histogram/box plot. (4) What is unusual? Scan for outliers in box plots or values more than 2-3 SD from the mean. This four-question framework collapses a full descriptive analysis into 30 seconds and catches virtually every descriptive-statistics question the MCAT asks. For graph-based questions, add a fifth step: verify the axis labels, units, and scale before interpreting any pattern -- rescaling or truncation can make trivial differences look dramatic.",
+    "comparisons": "- RM-009 (Inferential Statistics): Descriptive statistics provide the summaries that inferential tests evaluate. You cannot interpret a t-test without first understanding means and SDs.\n- RM-010 (Correlation and Regression): Scatterplots and correlation coefficients are descriptive tools; regression builds on these with predictive models.\n- RM-012 (Results Interpretation): The entire topic depends on reading means, SDs, error bars, and box plots in published results.\n- B/B (Experimental passages): Enzyme activity graphs, dose-response curves, and growth charts all use descriptive statistics. Expect to compare mean values across treatment groups and interpret SD error bars.\n- P/S (Research methods): Psychology and sociology passages present survey data with means, SDs, and correlations. You must judge whether reported differences are meaningful or merely descriptive noise.",
+    "highYield": "",
+    "commonConfusions": "- Choosing the mean for skewed data: When a distribution is skewed, the mean is pulled toward the tail and misrepresents the typical observation. Always check for skew before reporting the mean.\n- Confusing SD with SEM: Standard deviation describes the spread of individual data points. Standard error of the mean (SEM) describes the precision of the mean estimate. SEM is always smaller and shrinks with larger n. Graphs with SEM error bars can make groups look more distinct than they are.\n- Forgetting the n-1 denominator: Sample variance uses n-1 (Bessel's correction). Population variance uses N. The MCAT may give you a sum of squares and ask for the sample standard deviation; forgetting n-1 is a common arithmetic error.\n- Misreading box plots as showing means: Box plots show medians, not means. The line inside the box is the median. If the mean differs from the median, it will not appear on a standard box plot.\n- Assuming all bell-shaped curves are normal: Symmetry alone does not guarantee normality. Kurtosis (peakedness) and tail weight also matter. The MCAT may show two symmetric curves with different spreads and ask which has more extreme observations.\n- Interpreting percentile as percent correct: A 90th percentile score means you outperformed 90% of the comparison group, not that you answered 90% of questions correctly. These are entirely different metrics.",
+    "memoryAids": "",
+    "eli10": "Imagine you are a coach evaluating your basketball team after tryouts. You have 15 players and their heights. The mean height tells you the average player height -- add everyone's height and divide by 15. The median is the height of the player standing in the middle when you line them up shortest to tallest. If one player is 7'2\" and everyone else is between 5'8\" and 6'2\", the mean gets pulled up and does not represent the typical player -- the median is more honest. The range (tallest minus shortest) tells you the span of the team, but one extreme player can blow it up. Standard deviation tells you how tightly the players cluster around the mean -- a small SD means similar heights (like a team of guards) and a large SD means diverse heights (a mix of guards and centers). If you make a histogram, the shape tells you whether heights are symmetric (bell-shaped) or skewed by that one tall player. Percentiles let you say 'this player is taller than 75% of the team.' A box plot shows you the median, the middle 50%, and any outliers at a glance. These tools together tell the story of your team without listing every player's height. Limitation: this analogy treats height as the only dimension that matters. Real datasets have multiple variables (height, speed, shooting percentage), and descriptive statistics on one variable cannot capture the relationships between them. A player who is average height but an exceptional shooter would look unremarkable in a height-only analysis -- descriptive statistics are always dimension-limited.",
+    "quickReview": "- Mean = sum/n; sensitive to outliers; best for symmetric data.\n- Median = middle value; resistant to outliers; best for skewed data.\n- Mode = most frequent value; can be bimodal or multimodal.\n- Right skew: mean > median; tail to the right.\n- Left skew: mean < median; tail to the left.\n- Range = Max - Min; sensitive to extremes.\n- IQR = Q3 - Q1; spread of middle 50%.\n- Variance = mean squared deviation; sample uses n-1.\n- SD = sqrt(variance); same units as data; empirical rule (68-95-99.7).\n- Normal distribution: symmetric, bell-shaped, mean=median=mode.\n- Z-score = (x - mean) / SD; standardizes values across distributions.\n- Percentile: % of scores at or below a value; 50th percentile = median.\n- Box plot: shows 5-number summary (min, Q1, median, Q3, max).\n- Histogram: bins continuous data; reveals shape, skew, outliers.\n- SEM = SD / sqrt(n); precision of mean, not variability of data.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "MCAT Content Outline: Scientific Reasoning and Inquiry Skills — AAMC",
+        "url": "https://www.aamc.org/media/24301/download"
+      },
+      {
+        "text": "Introductory Statistics 2e - Chapter 2: Descriptive Statistics — OpenStax",
+        "url": "https://openstax.org/books/introductory-statistics-2e/pages/2-introduction"
+      },
+      {
+        "text": "Introductory Statistics 2e - Chapter 1: Sampling and Data — OpenStax",
+        "url": "https://openstax.org/books/introductory-statistics-2e/pages/1-introduction"
+      },
+      {
+        "text": "Psychology 2e - Chapter 2: Psychological Research — OpenStax",
+        "url": "https://openstax.org/books/psychology-2e/pages/2-introduction"
+      },
+      {
+        "text": "Introduction to Statistics — Simply Psychology",
+        "url": "https://www.simplypsychology.org/statistics.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "descriptive-statistics",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "MCAT_STUDY_LIBRARY/pages/research_methods_statistics/08-descriptive-statistics.md"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "MCAT_STUDY_LIBRARY/pages/research_methods_statistics/08-descriptive-statistics.md"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "mcat-one-page-topic-library",
+    "sourceFile": "MCAT_STUDY_LIBRARY/pages/research_methods_statistics/08-descriptive-statistics.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-mcat-library"
+  },
+  "sourceSnapshotMarkdown": ""
+}

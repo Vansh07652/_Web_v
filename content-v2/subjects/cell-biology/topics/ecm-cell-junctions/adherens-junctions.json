@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:ecm-cell-junctions:adherens-junctions",
+  "slug": "adherens-junctions",
+  "title": "Adherens Junctions",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:ecm-cell-junctions",
+    "slug": "ecm-cell-junctions",
+    "title": "ECM Cell Junctions",
+    "order": 9
+  },
+  "order": 10,
+  "status": "final",
+  "sections": {
+    "overview": "**Adherens junctions** are cadherin-based cell–cell junctions that connect the actin cytoskeletons of adjacent cells, providing tissue cohesion and transmitting mechanical force across an epithelium. Their core assembly is: **classical cadherins (e.g., E-cadherin)** bind each other homophilically in the extracellular space, while their cytoplasmic tails bind **β-catenin** and **α-catenin**, which link the complex to **actin filaments**. In epithelial cells, adherens junctions form a continuous adhesion belt (zonula adherens) just below the tight junction.",
+    "whyItMatters": "Adherens junctions hold tissues together and drive morphogenesis. Their loss or weakening underlies the **epithelial–mesenchymal transition (EMT)**, in which epithelial cells lose E-cadherin, detach, and become migratory — a central step in cancer invasion and metastasis. E-cadherin is therefore a key diagnostic and prognostic marker in carcinomas, and the cadherin–catenin–actin axis is a focus of research into tissue engineering and wound healing.",
+    "learningObjectives": "- Describe the molecular composition of adherens junctions (cadherins, catenins, actin).\n- Explain Ca²⁺-dependent homophilic cadherin binding.\n- Explain how the cadherin–catenin complex links to the actin cytoskeleton.\n- Relate E-cadherin loss to the epithelial–mesenchymal transition and metastasis.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Adherens junctions** are cadherin-based cell–cell junctions that connect the actin cytoskeletons of adjacent cells, providing tissue cohesion and transmitting mechanical force across an epithelium. Their core assembly is: **classical cadherins (e.g., E-cadherin)** bind each other homophilically in the extracellular space, while their cytoplasmic tails bind **β-catenin** and **α-catenin**, which link the complex to **actin filaments**. In epithelial cells, adherens junctions form a continuous adhesion belt (zonula adherens) just below the tight junction.\n\n### Key Components\n\n- **Classical cadherins (E-cadherin, N-cadherin, etc.):** Ca²⁺-dependent transmembrane adhesion proteins with five extracellular (EC) domains.\n- **Ca²⁺ ions:** bind between EC domains, rigidifying the cadherin and enabling homophilic binding.\n- **β-catenin:** binds the cadherin cytoplasmic tail; also a transcription factor in Wnt signaling.\n- **α-catenin:** links the cadherin–β-catenin complex to actin filaments.\n- **p120-catenin:** stabilizes cadherins at the membrane and regulates their turnover.\n- **Actin cytoskeleton:** the force-bearing filaments connected across the junction.\n\n### Mechanism\n\nCadherins from opposing cells interact through their N-terminal EC domains in a Ca²⁺-dependent, homophilic (like-binds-like) manner; without Ca²⁺, the extracellular region is floppy and cannot bind. On the cytoplasmic side, the cadherin tail binds β-catenin, which in turn binds α-catenin; α-catenin couples the complex to actin, directly and through vinculin. This linkage allows actomyosin contractility in one cell to be transmitted to neighboring cells, enabling coordinated tissue movement during morphogenesis and maintaining tissue integrity against mechanical stress.\n\n### How It Works\n\n1. Cells express cadherins (e.g., E-cadherin) on their surface.\n2. Ca²⁺ binds between EC domains, rigidifying the cadherin.\n3. Cadherins from adjacent cells bind homophilically (trans interaction).\n4. β-catenin binds the cadherin cytoplasmic tail; α-catenin joins the complex.\n5. α-catenin (with vinculin) links the complex to actin filaments.\n6. Contractile forces and mechanical cues are transmitted across the epithelium.\n\n### Energy and Directionality\n\nCadherin–cadherin binding is affinity-driven and Ca²⁺-dependent, requiring no ATP directly. The energy cost of adhesion lies in maintaining and remodeling the actin network through actomyosin contractility (ATP hydrolysis), which also tunes junction strength. Directionality emerges from the mechanical coupling: tension transmitted through the cadherin–catenin–actin chain allows cells to sense and respond to forces, coordinating collective cell movements (e.g., convergent extension during development).\n\n### Experimental Evidence\n\n- **Calcium-switch assays:** cells round up and junctions disassemble when Ca²⁺ is removed, and reassemble when Ca²⁺ is restored — classic proof of Ca²⁺-dependent adhesion.\n- **Blocking antibodies / cadherin transfection:** expressing E-cadherin in non-adhesive cells makes them adhesive; blocking antibodies abolish adhesion.\n- **Knockout mice:** E-cadherin knockout is lethal at early embryonic stages (blastocyst compaction fails).\n- **Cancer studies:** loss of E-cadherin is a hallmark of the epithelial–mesenchymal transition (EMT) and is associated with invasion and metastasis.\n\n### Technique\n\n- **Immunofluorescence** — visualize the E-cadherin adhesion belt at cell–cell contacts.\n- **Calcium-switch / aggregation assays** — measure Ca²⁺-dependent adhesion.\n- **Co-immunoprecipitation** — detect the cadherin–catenin complex.\n- **Traction-force / laser-ablation experiments** — measure force transmission across junctions.\n- **IHC for E-cadherin** — assess EMT status in tumor specimens.",
+    "howItWorks": "1. Cells express cadherins (e.g., E-cadherin) on their surface.\n2. Ca²⁺ binds between EC domains, rigidifying the cadherin.\n3. Cadherins from adjacent cells bind homophilically (trans interaction).\n4. β-catenin binds the cadherin cytoplasmic tail; α-catenin joins the complex.\n5. α-catenin (with vinculin) links the complex to actin filaments.\n6. Contractile forces and mechanical cues are transmitted across the epithelium.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Adherens junction = **cadherin-based, actin-linked** cell–cell junction.\n- Classical cadherins bind **homophilically** and are **Ca²⁺-dependent**.\n- Cytoplasmic chain: **cadherin → β-catenin → α-catenin → actin** (with vinculin).\n- p120-catenin stabilizes cadherins at the membrane.\n- Forms the **zonula adherens** (adhesion belt) in epithelia.\n- **E-cadherin loss → EMT → invasion/metastasis.**",
+    "commonConfusions": "- **\"Adherens junctions and desmosomes are the same.\"** — Adherens junctions use classical cadherins linked to **actin**; desmosomes use desmoglein/desmocollin linked to **intermediate filaments**.\n- **\"Cadherin binding is Ca²⁺-independent.\"** — It is strictly Ca²⁺-dependent; removing Ca²⁺ disassembles the junction.\n- **\"β-catenin only works in adhesion.\"** — It is also the Wnt-pathway transcription co-activator (nuclear signaling).\n- **\"Cadherins bind integrins.\"** — Cadherins bind other cadherins (homophilic); integrins are separate ECM receptors.\n- **\"E-cadherin loss is harmless.\"** — It drives EMT and is a hallmark of invasive cancer.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine two people holding hands to form a chain across a tug-of-war. Their clasped hands are the cadherins — but they can only grip tightly if they're wearing special stiffening gloves, and calcium is what makes the gloves stiff (no calcium, no grip). Inside each person's arm, a series of links (β-catenin, then α-catenin) connects the hand to the muscles and skeleton (actin), so a pull on one person is felt by the whole line. When cancer cells \"let go\" (lose E-cadherin), they can crawl away on their own — that's how tumors start to spread. (The analogy simplifies that the handshake is between identical \"hands,\" and that the links are constantly rebuilt, not fixed.)",
+    "quickReview": "- Adherens junctions = cadherin–catenin–actin cell–cell adhesions.\n- Ca²⁺-dependent homophilic binding.\n- E-cadherin → β-catenin → α-catenin → actin (+ vinculin).\n- Adhesion belt in epithelia; force transmission.\n- E-cadherin loss → EMT → metastasis.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"cadherin.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cadherin",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cadherin"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"Cell-Cell Adhesion.\" https://www.ncbi.nlm.nih.gov/books/NBK26937/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26937/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"Cell Junctions.\" https://www.ncbi.nlm.nih.gov/books/NBK26857/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26857/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"4.6 Connections between Cells and Cellular Activities.\" https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities",
+        "url": "https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "adherens-junctions",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "10-adherens-junctions",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:829b42ff669a76f9"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:829b42ff669a76f9"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:829b42ff669a76f9"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:829b42ff669a76f9"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/09-ecm-cell-junctions/10-adherens-junctions.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Adherens Junctions\n\n## Learning Goals\n- Describe the molecular composition of adherens junctions (cadherins, catenins, actin).\n- Explain Ca²⁺-dependent homophilic cadherin binding.\n- Explain how the cadherin–catenin complex links to the actin cytoskeleton.\n- Relate E-cadherin loss to the epithelial–mesenchymal transition and metastasis.\n\n## Core Concept\n**Adherens junctions** are cadherin-based cell–cell junctions that connect the actin cytoskeletons of adjacent cells, providing tissue cohesion and transmitting mechanical force across an epithelium. Their core assembly is: **classical cadherins (e.g., E-cadherin)** bind each other homophilically in the extracellular space, while their cytoplasmic tails bind **β-catenin** and **α-catenin**, which link the complex to **actin filaments**. In epithelial cells, adherens junctions form a continuous adhesion belt (zonula adherens) just below the tight junction.\n\n## Key Components\n- **Classical cadherins (E-cadherin, N-cadherin, etc.):** Ca²⁺-dependent transmembrane adhesion proteins with five extracellular (EC) domains.\n- **Ca²⁺ ions:** bind between EC domains, rigidifying the cadherin and enabling homophilic binding.\n- **β-catenin:** binds the cadherin cytoplasmic tail; also a transcription factor in Wnt signaling.\n- **α-catenin:** links the cadherin–β-catenin complex to actin filaments.\n- **p120-catenin:** stabilizes cadherins at the membrane and regulates their turnover.\n- **Actin cytoskeleton:** the force-bearing filaments connected across the junction.\n\n## Mechanism\nCadherins from opposing cells interact through their N-terminal EC domains in a Ca²⁺-dependent, homophilic (like-binds-like) manner; without Ca²⁺, the extracellular region is floppy and cannot bind. On the cytoplasmic side, the cadherin tail binds β-catenin, which in turn binds α-catenin; α-catenin couples the complex to actin, directly and through vinculin. This linkage allows actomyosin contractility in one cell to be transmitted to neighboring cells, enabling coordinated tissue movement during morphogenesis and maintaining tissue integrity against mechanical stress.\n\n## How It Works\n1. Cells express cadherins (e.g., E-cadherin) on their surface.\n2. Ca²⁺ binds between EC domains, rigidifying the cadherin.\n3. Cadherins from adjacent cells bind homophilically (trans interaction).\n4. β-catenin binds the cadherin cytoplasmic tail; α-catenin joins the complex.\n5. α-catenin (with vinculin) links the complex to actin filaments.\n6. Contractile forces and mechanical cues are transmitted across the epithelium.\n\n## Energy and Directionality\nCadherin–cadherin binding is affinity-driven and Ca²⁺-dependent, requiring no ATP directly. The energy cost of adhesion lies in maintaining and remodeling the actin network through actomyosin contractility (ATP hydrolysis), which also tunes junction strength. Directionality emerges from the mechanical coupling: tension transmitted through the cadherin–catenin–actin chain allows cells to sense and respond to forces, coordinating collective cell movements (e.g., convergent extension during development).\n\n## Experimental Evidence\n- **Calcium-switch assays:** cells round up and junctions disassemble when Ca²⁺ is removed, and reassemble when Ca²⁺ is restored — classic proof of Ca²⁺-dependent adhesion.\n- **Blocking antibodies / cadherin transfection:** expressing E-cadherin in non-adhesive cells makes them adhesive; blocking antibodies abolish adhesion.\n- **Knockout mice:** E-cadherin knockout is lethal at early embryonic stages (blastocyst compaction fails).\n- **Cancer studies:** loss of E-cadherin is a hallmark of the epithelial–mesenchymal transition (EMT) and is associated with invasion and metastasis.\n\n## Technique\n- **Immunofluorescence** — visualize the E-cadherin adhesion belt at cell–cell contacts.\n- **Calcium-switch / aggregation assays** — measure Ca²⁺-dependent adhesion.\n- **Co-immunoprecipitation** — detect the cadherin–catenin complex.\n- **Traction-force / laser-ablation experiments** — measure force transmission across junctions.\n- **IHC for E-cadherin** — assess EMT status in tumor specimens.\n\n## Why It Matters\nAdherens junctions hold tissues together and drive morphogenesis. Their loss or weakening underlies the **epithelial–mesenchymal transition (EMT)**, in which epithelial cells lose E-cadherin, detach, and become migratory — a central step in cancer invasion and metastasis. E-cadherin is therefore a key diagnostic and prognostic marker in carcinomas, and the cadherin–catenin–actin axis is a focus of research into tissue engineering and wound healing.\n\n## High-Yield Facts\n- Adherens junction = **cadherin-based, actin-linked** cell–cell junction.\n- Classical cadherins bind **homophilically** and are **Ca²⁺-dependent**.\n- Cytoplasmic chain: **cadherin → β-catenin → α-catenin → actin** (with vinculin).\n- p120-catenin stabilizes cadherins at the membrane.\n- Forms the **zonula adherens** (adhesion belt) in epithelia.\n- **E-cadherin loss → EMT → invasion/metastasis.**\n\n## Eli Explains\nImagine two people holding hands to form a chain across a tug-of-war. Their clasped hands are the cadherins — but they can only grip tightly if they're wearing special stiffening gloves, and calcium is what makes the gloves stiff (no calcium, no grip). Inside each person's arm, a series of links (β-catenin, then α-catenin) connects the hand to the muscles and skeleton (actin), so a pull on one person is felt by the whole line. When cancer cells \"let go\" (lose E-cadherin), they can crawl away on their own — that's how tumors start to spread. (The analogy simplifies that the handshake is between identical \"hands,\" and that the links are constantly rebuilt, not fixed.)\n\n## Common Confusions\n- **\"Adherens junctions and desmosomes are the same.\"** — Adherens junctions use classical cadherins linked to **actin**; desmosomes use desmoglein/desmocollin linked to **intermediate filaments**.\n- **\"Cadherin binding is Ca²⁺-independent.\"** — It is strictly Ca²⁺-dependent; removing Ca²⁺ disassembles the junction.\n- **\"β-catenin only works in adhesion.\"** — It is also the Wnt-pathway transcription co-activator (nuclear signaling).\n- **\"Cadherins bind integrins.\"** — Cadherins bind other cadherins (homophilic); integrins are separate ECM receptors.\n- **\"E-cadherin loss is harmless.\"** — It drives EMT and is a hallmark of invasive cancer.\n\n## Quick Review\n- Adherens junctions = cadherin–catenin–actin cell–cell adhesions.\n- Ca²⁺-dependent homophilic binding.\n- E-cadherin → β-catenin → α-catenin → actin (+ vinculin).\n- Adhesion belt in epithelia; force transmission.\n- E-cadherin loss → EMT → metastasis.\n\n## Sources\n- NCI Dictionary of Cancer Terms, \"cadherin.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cadherin\n- Alberts et al., *Molecular Biology of the Cell*, \"Cell-Cell Adhesion.\" https://www.ncbi.nlm.nih.gov/books/NBK26937/\n- Alberts et al., *Molecular Biology of the Cell*, \"Cell Junctions.\" https://www.ncbi.nlm.nih.gov/books/NBK26857/\n- OpenStax, *Biology 2e*, \"4.6 Connections between Cells and Cellular Activities.\" https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities\n"
+}

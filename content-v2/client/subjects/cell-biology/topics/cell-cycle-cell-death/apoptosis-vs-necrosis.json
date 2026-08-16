@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-cycle-cell-death:apoptosis-vs-necrosis",
+  "slug": "apoptosis-vs-necrosis",
+  "title": "Apoptosis vs. Necrosis",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-cycle-cell-death",
+    "slug": "cell-cycle-cell-death",
+    "title": "Cell Cycle Cell Death",
+    "order": 7
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "Apoptosis is programmed, energy-dependent cell death — a tightly controlled, gene-encoded suicide program in which a cell shrinks, blebs, and fragments its DNA and cytoplasm into membrane-bound apoptotic bodies that are phagocytosed without provoking inflammation. Necrosis, classically, is accidental, passive cell death caused by overwhelming injury (trauma, ischemia, toxins): the cell swells, its membranes lose integrity, and its contents spill out, triggering an inflammatory response. The distinction is fundamental: apoptosis is an orderly, regulated demolition that preserves tissue homeostasis, while necrosis is a disorderly lysis that damages neighbors. Modern work blurs the line — regulated necrosis pathways (necroptosis, pyroptosis) exist that are programmed yet lytic and inflammatory.",
+    "whyItMatters": "The apoptosis–necrosis distinction is clinically central. Apoptosis removes damaged or unwanted cells silently, maintaining homeostasis, development (limb morphogenesis, immune tolerance), and tumor suppression; its failure underlies cancer and autoimmunity, while its excess drives neurodegeneration. Necrosis, by contrast, causes inflammation and tissue damage — the hallmark of ischemia-reperfusion injury (heart attack, stroke), trauma, and many infections. Because necroptosis and pyroptosis are druggable (RIPK1 inhibitors, NLRP3 inhibitors), the once-simple dichotomy now guides therapy for inflammatory, infectious, and degenerative diseases.",
+    "learningObjectives": "- Define apoptosis and necrosis and contrast their cellular features.\n- Describe the morphological hallmarks of apoptosis (shrinkage, blebbing, DNA fragmentation).\n- Describe the features of necrosis (swelling, membrane rupture, inflammation).\n- Explain why apoptosis is \"clean\" (non-inflammatory) and necrosis is \"dirty\" (inflammatory).\n- Note that regulated forms of necrosis exist (necroptosis, pyroptosis).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nApoptosis is programmed, energy-dependent cell death — a tightly controlled, gene-encoded suicide program in which a cell shrinks, blebs, and fragments its DNA and cytoplasm into membrane-bound apoptotic bodies that are phagocytosed without provoking inflammation. Necrosis, classically, is accidental, passive cell death caused by overwhelming injury (trauma, ischemia, toxins): the cell swells, its membranes lose integrity, and its contents spill out, triggering an inflammatory response. The distinction is fundamental: apoptosis is an orderly, regulated demolition that preserves tissue homeostasis, while necrosis is a disorderly lysis that damages neighbors. Modern work blurs the line — regulated necrosis pathways (necroptosis, pyroptosis) exist that are programmed yet lytic and inflammatory.\n\n### Key Components\n\n- **Apoptosis**: Caspase activation, cell shrinkage, chromatin condensation (pyknosis), nuclear fragmentation (karyorrhexis), membrane blebbing, phosphatidylserine exposure, apoptotic bodies.\n- **Necrosis**: ATP depletion, ion-pump failure, cell and organelle swelling, membrane rupture, release of intracellular contents (DAMPs), inflammation.\n- **Caspases**: Cysteine proteases that execute apoptosis.\n- **Phosphatidylserine (PS)**: \"Eat me\" signal externalized by apoptotic cells for phagocytes.\n- **DAMPs (danger-associated molecular patterns)**: Released by necrotic cells (e.g., HMGB1, ATP, DNA) to trigger inflammation.\n- **Regulated necrosis**: Necroptosis (RIPK1/RIPK3/MLKL), pyroptosis (inflammasome/caspase-1/gasdermin).\n\n### Mechanism / How It Works\n\n**Apoptosis**: A death signal (intrinsic or extrinsic) activates initiator caspases, which activate executioner caspases. These cleave ~hundreds of substrates: lamins (nuclear lamina breakdown), ICAD (releasing CAD to fragment DNA into the 180-bp nucleosomal ladder), and cytoskeletal/actin regulators (blebbing). The cell shrinks, condenses its chromatin, and fragments into membrane-bound apoptotic bodies. Phosphatidylserine flips to the outer leaflet, marking the remnants for phagocytes, which clear them silently — no inflammation.\n\n**Necrosis**: Overwhelming insult depletes ATP, so ion pumps (Na+/K+ ATPase) fail; the cell takes up water and swells (oncosis). Organelles swell, and eventually the plasma membrane ruptures, releasing cytoplasm and DAMPs into the extracellular space. DAMPs engage pattern-recognition receptors on immune cells, causing inflammation and collateral tissue damage.\n\n**Regulated necrosis**: Necroptosis and pyroptosis are molecularly programmed yet lytic. Necroptosis uses the RIPK1–RIPK3–MLKL kinase cascade (activated when caspases are inhibited); MLKL oligomerizes and perforates the membrane. Pyroptosis is driven by inflammatory caspases (caspase-1/4/5/11) cleaving gasdermin D, whose N-terminal fragment forms membrane pores.\n\n### Energy and Directionality\n\nApoptosis requires ATP — it is an active, energy-consuming demolition. Cells depleted of ATP often fail to complete apoptosis and instead die by necrosis, a key reason the two are linked to energy state. This is a striking example of biological directionality: an energy-dependent program (apoptosis) vs. an energy-independent failure mode (necrosis). The \"decision\" between them is influenced by ATP availability, caspase activity, and the nature of the insult. Regulated necrosis consumes ATP in its signaling (kinase cascades) but ends in the same lytic, inflammatory outcome as accidental necrosis.\n\n### Experimental Evidence / Technique\n\n- **Morphology**: Light/electron microscopy distinguishes apoptotic shrinkage and blebbing from necrotic swelling and rupture.\n- **DNA laddering**: Agarose gel electrophoresis shows the 180-bp nucleosomal ladder in apoptosis vs. a diffuse smear in necrosis.\n- **Annexin V staining**: Detects externalized phosphatidylserine (apoptosis); combined with propidium iodide (membrane integrity) it distinguishes early apoptosis, late apoptosis, and necrosis.\n- **TUNEL assay**: Labels DNA strand breaks characteristic of apoptosis.\n- **Caspase inhibitors** (zVAD-fmk) block apoptosis; **necroptosis** is revealed when cells die anyway via RIPK3/MLKL (inhibited by necrostatin-1).\n- **LDH release and HMGB1 detection**: Markers of necrotic membrane rupture and DAMP release.",
+    "howItWorks": "**Apoptosis**: A death signal (intrinsic or extrinsic) activates initiator caspases, which activate executioner caspases. These cleave ~hundreds of substrates: lamins (nuclear lamina breakdown), ICAD (releasing CAD to fragment DNA into the 180-bp nucleosomal ladder), and cytoskeletal/actin regulators (blebbing). The cell shrinks, condenses its chromatin, and fragments into membrane-bound apoptotic bodies. Phosphatidylserine flips to the outer leaflet, marking the remnants for phagocytes, which clear them silently — no inflammation.\n\n**Necrosis**: Overwhelming insult depletes ATP, so ion pumps (Na+/K+ ATPase) fail; the cell takes up water and swells (oncosis). Organelles swell, and eventually the plasma membrane ruptures, releasing cytoplasm and DAMPs into the extracellular space. DAMPs engage pattern-recognition receptors on immune cells, causing inflammation and collateral tissue damage.\n\n**Regulated necrosis**: Necroptosis and pyroptosis are molecularly programmed yet lytic. Necroptosis uses the RIPK1–RIPK3–MLKL kinase cascade (activated when caspases are inhibited); MLKL oligomerizes and perforates the membrane. Pyroptosis is driven by inflammatory caspases (caspase-1/4/5/11) cleaving gasdermin D, whose N-terminal fragment forms membrane pores.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Apoptosis: **shrinkage, blebbing, chromatin condensation, DNA laddering, PS exposure, no inflammation**.\n- Necrosis: **swelling, membrane rupture, DAMP release, inflammation**.\n- Apoptosis is **ATP-dependent** and caspase-mediated; necrosis is classically **passive/ATP-depleted**.\n- PS externalization = \"eat me\" signal (annexin V detects it).\n- **Regulated necrosis exists**: necroptosis (RIPK3/MLKL) and pyroptosis (gasdermin D pores) — programmed but lytic and inflammatory.",
+    "commonConfusions": "- **Apoptosis is not always \"good\"**: Excess apoptosis causes neurodegeneration and tissue loss; the point is it is *controlled* and non-inflammatory, not inherently beneficial.\n- **Necrosis can be regulated**: The old \"apoptosis = programmed, necrosis = accidental\" rule is now known to be incomplete — necroptosis and pyroptosis are programmed necrosis.\n- **Apoptotic bodies are not necrotic debris**: They are sealed, membrane-bound packages, which is why they don't cause inflammation.\n- **PS exposure vs. membrane rupture**: Apoptotic cells expose PS but keep membranes intact (early); necrotic cells rupture. Annexin V+/PI− = early apoptosis; PI+ = late apoptosis or necrosis.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine two ways a building can be torn down. Apoptosis is a careful demolition: workers (caspases) come in, take the building apart piece by piece, and pack the pieces into sealed boxes (apoptotic bodies) that the garbage trucks (phagocytes) quietly haul away — the neighbors never notice. Necrosis is a building collapse: the walls burst, rubble flies everywhere, and the neighbors raise the alarm and call the fire department (inflammation). The clever twist is that cells also have a *scheduled* collapse (necroptosis/pyroptosis) — they deliberately blow themselves up to sound the alarm when they detect an infection. The analogy's limit: the \"workers\" are proteases that cut specific proteins, and the \"alarm\" is real immune signaling through molecular danger signals, not literal sirens.",
+    "quickReview": "- Apoptosis: signal → caspases → shrinkage, blebbing, DNA ladder, PS exposure → apoptotic bodies → silent phagocytosis (ATP-dependent, non-inflammatory).\n- Necrosis: injury → ATP loss → swelling → rupture → DAMPs → inflammation (classically passive).\n- Regulated necrosis: necroptosis (RIPK3/MLKL) and pyroptosis (gasdermin D) — programmed, lytic, inflammatory.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 18, \"Apoptosis and Necrosis.\""
+      },
+      {
+        "text": "Kerr, J. F. R. et al., \"Apoptosis: a basic biological phenomenon with wide-ranging implications in tissue kinetics,\" *British Journal of Cancer* (1972)."
+      },
+      {
+        "text": "Vanden Berghe, T. et al., \"Regulated necrosis: the expanding network of non-apoptotic cell death pathways,\" *Nature Reviews Molecular Cell Biology* (2014)."
+      },
+      {
+        "text": "Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 22."
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"apoptosis,\" \"necrosis.\""
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/07-cell-cycle-cell-death/09-apoptosis-vs-necrosis.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

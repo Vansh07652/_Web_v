@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:modern-techniques:sds-page",
+  "slug": "sds-page",
+  "title": "SDS-PAGE (SDS-Polyacrylamide Gel Electrophoresis)",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:modern-techniques",
+    "slug": "modern-techniques",
+    "title": "Modern Techniques",
+    "order": 11
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "SDS-PAGE separates proteins by **molecular weight**. The anionic detergent sodium dodecyl sulfate (SDS) unfolds proteins and coats them with a roughly uniform negative charge per unit mass, so each protein's charge-to-mass ratio is nearly constant. When an electric field is applied, the SDS-coated proteins migrate through a porous polyacrylamide gel as a function of size alone: small proteins thread through the pores quickly, large ones slowly. The result is a set of bands, each representing proteins of a given molecular weight. SDS-PAGE reports **size and relative amount** of proteins, but not their identity, function, or native state.",
+    "whyItMatters": "SDS-PAGE is the universal first step in protein analysis: it underpins the Western blot, is used to check recombinant-protein purity and expression, to estimate protein size, and as a quality gate before mass spectrometry. It is cheap, fast, and run daily in essentially every molecular-biology and biochemistry laboratory.",
+    "learningObjectives": "- Explain how SDS denatures proteins and confers a uniform, size-proportional negative charge.\n- Describe why SDS-PAGE separates proteins almost entirely by molecular weight.\n- Explain the role of reducing agents, the stacking/resolving gel system, and molecular-weight standards.\n- Distinguish SDS-PAGE (denaturing) from native PAGE.\n- Identify what SDS-PAGE can and cannot reveal about a protein.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nSDS-PAGE separates proteins by **molecular weight**. The anionic detergent sodium dodecyl sulfate (SDS) unfolds proteins and coats them with a roughly uniform negative charge per unit mass, so each protein's charge-to-mass ratio is nearly constant. When an electric field is applied, the SDS-coated proteins migrate through a porous polyacrylamide gel as a function of size alone: small proteins thread through the pores quickly, large ones slowly. The result is a set of bands, each representing proteins of a given molecular weight. SDS-PAGE reports **size and relative amount** of proteins, but not their identity, function, or native state.\n\n### Key Components\n\n### SDS (sodium dodecyl sulfate)\n- An anionic detergent that binds ~1.4 g SDS per gram of protein, denaturing the polypeptide and imparting a negative charge proportional to length (mass). This swamps the protein's own charge.\n\n### Reducing agent (β-mercaptoethanol or DTT)\n- Breaks **disulfide bonds**, so multi-subunit or internally cross-linked proteins fully unfold into single polypeptide chains; without it, disulfide-linked complexes migrate at higher apparent mass.\n\n### Polyacrylamide gel (stacking + resolving)\n- A cross-linked polymer whose pore size is set by the acrylamide percentage (higher % = smaller pores = better for small proteins). A low-% **stacking gel** concentrates samples into a sharp band before they enter the higher-% **resolving gel** where separation occurs.\n\n### Molecular-weight markers\n- A ladder of proteins of known sizes run alongside samples to calibrate band masses.\n\n### Staining\n- Coomassie blue (simple, microgram sensitivity) or silver stain (nanogram sensitivity) makes separated bands visible for imaging.\n\n### Mechanism\n\n1. **Denature and coat.** Sample is boiled in loading buffer with SDS and a reducing agent; SDS unfolds the protein and wraps it in uniform negative charge; DTT/β-ME reduces disulfides.\n2. **Load and stack.** Samples enter the stacking gel, where glycine/chloride ion fronts compress proteins into a thin, sharp band.\n3. **Resolve by size.** In the resolving gel, SDS-coated proteins migrate toward the **anode (+)**; smaller proteins move faster through the pores, so bands separate by molecular weight.\n4. **Stain and measure.** The gel is stained; band positions are compared to the ladder to estimate molecular weights.\n\n### Energy and Directionality\n\nSeparation is driven entirely by the **electric field**: negatively charged SDS-protein complexes migrate toward the positive electrode. No ATP or GTP is consumed — the \"energy\" is electrical work moving charged particles through a resistive gel. Migration distance is roughly inversely proportional to the log of molecular weight (smaller proteins travel farther). The detergent's uniform charge coating is what converts the field into a pure *size* sieve rather than a size-and-charge separation.\n\n### Experimental Evidence\n\n- **What it measures:** the **molecular weight** and relative abundance of proteins in a mixture.\n- **Principle:** SDS denatures proteins and equalizes charge-per-mass; polyacrylamide sieves them by size in an electric field.\n- **Input:** protein lysate + SDS + reducing agent + polyacrylamide gel. **Output:** stained bands at positions corresponding to molecular weight.\n- **What it can prove:** the apparent molecular weight of a polypeptide; the number of major protein species and their relative amounts; purity of a preparation; (with reduction vs. non-reduction comparison) the presence of disulfide-linked subunits.\n- **What it cannot prove:** protein **identity** (that requires a Western blot or mass spectrometry); function/activity (the protein is denatured); native oligomeric state; and it cannot detect post-translational modifications unless they shift mass detectably.\n- **Controls:** a molecular-weight ladder (essential); known positive control protein of defined size; running non-reduced sample in parallel (to detect disulfide-linked complexes); proper boiling/denaturation (incomplete denaturation causes smears or wrong apparent sizes).\n- **Common mistakes:** skipping the reducing agent (disulfide-linked species run at double/higher mass); under- or over-loading (distorted bands); wrong acrylamide percentage for the size range; running without a ladder; and forgetting that the observed mass is the denatured monomer, not the native complex.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- SDS **denatures** proteins and gives a **uniform negative charge per unit mass** → separates by **size**.\n- Reducing agents (DTT, β-mercaptoethanol) **break disulfide bonds**.\n- Small proteins migrate **farther/faster** toward the **anode (+)**.\n- Stacking gel **concentrates**; resolving gel **separates**.\n- Higher % acrylamide = smaller pores = better for **small** proteins.\n- Stains: **Coomassie** (μg) vs. **silver** (ng).\n- Shows size + amount, **not identity or activity**.",
+    "commonConfusions": "- **\"SDS-PAGE identifies the protein\"** — No. It reports size and amount; a Western blot (antibody) or mass spectrometry identifies it.\n- **\"The protein keeps its native structure\"** — No. SDS *denatures* it; native PAGE is the non-denaturing variant.\n- **\"Charge differences separate the proteins\"** — SDS equalizes charge-per-mass, so separation is essentially by size.\n- **\"No need for a reducing agent\"** — Without DTT/β-ME, disulfide-linked complexes migrate at inflated apparent mass.\n- **\"A single band proves a pure, functional protein\"** — One band suggests one size/purity, not activity or correct folding.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture a crowd of tangled jump ropes of all lengths. You first dunk them in soapy water (SDS) that both straightens them out and gives every rope the same \"slipperiness\" per inch. Then you pull them through a mesh tunnel with an electric magnet — short ropes slip through fast, long ropes get caught and lag behind. When you stop, the ropes are lined up shortest-to-longest. (The analogy hides that SDS also destroys the rope's original shape, so what you measure is the *unfolded* length, not how it worked when folded.)",
+    "quickReview": "- SDS + reducing agent unfold and uniformly charge proteins → electric field sieves them by size in polyacrylamide.\n- Smaller = farther; compare to a molecular-weight ladder.\n- Reports size and relative amount; cannot identify or prove function (use Western/MS).",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NCI, \"gel electrophoresis\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/gel-electrophoresis",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/gel-electrophoresis"
+      },
+      {
+        "text": "MedlinePlus, \"What are proteins and what do they do?\" https://medlineplus.gov/genetics/understanding/howgeneswork/protein/",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/protein/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"Manipulating Proteins, DNA, and RNA.\" https://www.ncbi.nlm.nih.gov/books/NBK26936/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26936/"
+      },
+      {
+        "text": "NCI, \"western blot\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/western-blot",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/western-blot"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"Genomics and Proteomics.\" https://openstax.org/books/biology-2e/pages/17-5-genomics-and-proteomics",
+        "url": "https://openstax.org/books/biology-2e/pages/17-5-genomics-and-proteomics"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/11-modern-techniques/07-sds-page.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

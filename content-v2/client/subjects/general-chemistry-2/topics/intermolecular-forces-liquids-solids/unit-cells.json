@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:intermolecular-forces-liquids-solids:unit-cells",
+  "slug": "unit-cells",
+  "title": "Unit Cells and Crystal Structures",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:intermolecular-forces-liquids-solids",
+    "slug": "intermolecular-forces-liquids-solids",
+    "title": "Intermolecular Forces Liquids Solids",
+    "order": 1
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "Crystalline solids are built from a repeating unit cell — the smallest pattern that, repeated in three dimensions, generates the entire crystal. The three cubic lattices are simple cubic (SC, 1 atom/cell), body-centered cubic (BCC, 2 atoms/cell), and face-centered cubic (FCC, 4 atoms/cell). Each has a characteristic packing efficiency and a fixed geometric relationship between the unit-cell edge length and the atomic radius, which allows you to compute a metal's density from its crystal structure.",
+    "whyItMatters": "- **Metallurgy:** density, ductility, and alloy behavior follow from crystal structure (FCC metals are generally more ductile than BCC).\n- **Crystallography:** X-ray diffraction measures lattice spacings, letting us determine atomic radii and structures.\n- **Materials design:** packing efficiency explains why some metals are denser than others and how defects influence strength.\n- **Gems & minerals:** crystal habit and cleavage planes are set by the underlying unit cell.",
+    "learningObjectives": "- Define unit cell, lattice, and coordination number.\n- Determine the number of atoms per unit cell for simple cubic, body-centered cubic, and face-centered cubic lattices.\n- Relate edge length to atomic radius in each cubic lattice.\n- Calculate the density of a metal from its unit cell.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nCrystalline solids are built from a repeating unit cell — the smallest pattern that, repeated in three dimensions, generates the entire crystal. The three cubic lattices are simple cubic (SC, 1 atom/cell), body-centered cubic (BCC, 2 atoms/cell), and face-centered cubic (FCC, 4 atoms/cell). Each has a characteristic packing efficiency and a fixed geometric relationship between the unit-cell edge length and the atomic radius, which allows you to compute a metal's density from its crystal structure.\n\n### Key Ideas\n\n### The three cubic lattices\n- **Simple cubic (SC):** atoms only at the 8 corners → 1 atom/cell; coordination number (CN) = 6; packing efficiency ≈ 52%.\n- **Body-centered cubic (BCC):** 8 corner atoms + 1 center atom → 2 atoms/cell; CN = 8; packing efficiency ≈ 68%.\n- **Face-centered cubic (FCC):** 8 corner atoms + 6 face atoms → 4 atoms/cell; CN = 12; packing efficiency ≈ 74% (the densest cubic packing).\n\n### Counting atoms per cell\n- A corner atom is shared by 8 cells → contributes 1/8. A face atom is shared by 2 cells → contributes 1/2. A body-center atom belongs entirely to one cell → contributes 1.\n\n### Edge length ↔ radius\n- SC: a = 2r (atoms touch along the edge).\n- BCC: atoms touch along the body diagonal, 4r = a√3, so a = 4r/√3.\n- FCC: atoms touch along the face diagonal, 4r = a√2, so a = 2√2·r.\n\n### Equations and Variables\n\n- **Atoms per cell:** Z = (n_corner × 1/8) + (n_face × 1/2) + (n_center × 1). SC = 1, BCC = 2, FCC = 4.\n- **Edge–radius relations:** SC a = 2r; BCC a = 4r/√3; FCC a = 2√2 r.\n- **Density from unit cell:** ρ = (Z·M)/(N_A·a³), where ρ = density (g/cm³), Z = atoms per cell, M = molar mass (g/mol), N_A = 6.022 × 10²³ mol⁻¹, a = edge length (cm). Convert a from pm to cm (1 pm = 10⁻¹² m = 10⁻¹⁰ cm).\n- **Packing efficiency** = (volume of atoms in cell) / (cell volume) × 100%.\n\n### How It Works\n\n1. **Identify the lattice** (SC, BCC, or FCC) from the problem or a picture.\n2. **Count Z** by summing the fractional contributions of corner, face, and center atoms.\n3. **Relate a and r** using the geometry of where atoms touch.\n4. **Convert units** (pm → cm) and compute cell volume a³.\n5. **Compute density** with ρ = Z·M/(N_A·a³), or solve for an unknown (a, r, or M) if density is given.\n\n### Worked Example\n\nCopper crystallizes in an FCC lattice with an edge length a = 361.5 pm (3.615 × 10⁻⁸ cm) and molar mass 63.55 g/mol. Find its density, and also the atomic radius.\n\n1. **Atoms per cell.** FCC → Z = 4.\n2. **Cell volume.** a³ = (3.615 × 10⁻⁸ cm)³ = 4.724 × 10⁻²³ cm³.\n3. **Density.** ρ = Z·M/(N_A·a³) = (4 × 63.55) / (6.022 × 10²³ × 4.724 × 10⁻²³) = 254.2 / 28.45 = **8.93 g/cm³** (literature ≈ 8.96 g/cm³).\n4. **Radius.** For FCC, a = 2√2·r → r = a/(2√2) = 361.5 / 2.828 = **127.8 pm**.",
+    "howItWorks": "1. **Identify the lattice** (SC, BCC, or FCC) from the problem or a picture.\n2. **Count Z** by summing the fractional contributions of corner, face, and center atoms.\n3. **Relate a and r** using the geometry of where atoms touch.\n4. **Convert units** (pm → cm) and compute cell volume a³.\n5. **Compute density** with ρ = Z·M/(N_A·a³), or solve for an unknown (a, r, or M) if density is given.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- SC = 1 atom/cell (CN 6, ~52%); BCC = 2 (CN 8, ~68%); FCC = 4 (CN 12, ~74%).\n- Corner atoms contribute 1/8 each; face atoms 1/2 each; center atoms 1 each.\n- SC: a = 2r. BCC: a = 4r/√3. FCC: a = 2√2 r.\n- ρ = Z·M/(N_A·a³); convert edge length to cm.\n- FCC is the densest cubic packing (74%).\n- Coordination number = number of nearest neighbors.",
+    "commonConfusions": "- **\"A corner atom belongs fully to its unit cell.\"** — Wrong. It is shared by 8 cells, so it counts as 1/8.\n- **\"BCC has 8 atoms per cell.\"** — Wrong. Eight corners × 1/8 + one center = 2 atoms.\n- **\"Simple cubic is the densest packing.\"** — Wrong. SC is the least efficient (~52%); FCC is densest (~74%).\n- **\"All three lattices have the same coordination number.\"** — Wrong. CN = 6 (SC), 8 (BCC), 12 (FCC).\n- **\"Density uses the edge length in pm directly.\"** — Wrong. Convert pm to cm (or compute volume consistently) or the density comes out wrong by a factor of 10³⁰.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nA crystal is a Lego tower built from one repeated little block — the unit cell. Three different ways to stack the blocks exist: a roomy \"simple\" stack (lots of empty space), a \"body-centered\" stack with one block tucked in the middle, and the tightest \"face-centered\" stack where blocks also sit in the middle of every wall. Counting how many whole blocks you actually get per little repeat (because corner blocks are shared with neighbors) tells you how heavy the tower is — and that's how you can calculate a metal's density from its crystal pattern. (The analogy's limit: atoms aren't cubes and don't fill space completely; \"packing efficiency\" measures the real fraction filled by round atoms, which is why even the densest stack is only 74% full.)",
+    "quickReview": "- Unit cell = smallest repeating unit; SC/BCC/FCC = 1/2/4 atoms per cell.\n- Fractional counting: corner 1/8, face 1/2, center 1.\n- a = 2r (SC), 4r/√3 (BCC), 2√2 r (FCC).\n- ρ = Z·M/(N_A·a³).\n- Packing efficiency: 52% < 68% < 74%.",
+    "workedExamples": "### Worked Example\n\nCopper crystallizes in an FCC lattice with an edge length a = 361.5 pm (3.615 × 10⁻⁸ cm) and molar mass 63.55 g/mol. Find its density, and also the atomic radius.\n\n1. **Atoms per cell.** FCC → Z = 4.\n2. **Cell volume.** a³ = (3.615 × 10⁻⁸ cm)³ = 4.724 × 10⁻²³ cm³.\n3. **Density.** ρ = Z·M/(N_A·a³) = (4 × 63.55) / (6.022 × 10²³ × 4.724 × 10⁻²³) = 254.2 / 28.45 = **8.93 g/cm³** (literature ≈ 8.96 g/cm³).\n4. **Radius.** For FCC, a = 2√2·r → r = a/(2√2) = 361.5 / 2.828 = **127.8 pm**.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"10.6 Lattice Structures in Crystalline Solids.\" https://openstax.org/books/chemistry-2e/pages/10-6-lattice-structures-in-crystalline-solids",
+        "url": "https://openstax.org/books/chemistry-2e/pages/10-6-lattice-structures-in-crystalline-solids"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"10.5 The Solid State of Matter.\" https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+        "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e* (book home). https://openstax.org/details/books/chemistry-2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      },
+      {
+        "text": "American Chemical Society. https://www.acs.org/",
+        "url": "https://www.acs.org/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/10-intermolecular-forces-liquids-solids/08-unit-cells.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

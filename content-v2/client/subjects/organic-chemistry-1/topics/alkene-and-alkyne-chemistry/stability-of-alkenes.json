@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:alkene-and-alkyne-chemistry:stability-of-alkenes",
+  "slug": "stability-of-alkenes",
+  "title": "Stability of Alkenes",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:alkene-and-alkyne-chemistry",
+    "slug": "alkene-and-alkyne-chemistry",
+    "title": "Alkene and Alkyne Chemistry",
+    "order": 6
+  },
+  "order": 26,
+  "status": "final",
+  "sections": {
+    "overview": "More substituted alkenes are more stable: tetrasubstituted > trisubstituted > disubstituted > monosubstituted > unsubstituted. The stabilization comes mainly from hyperconjugation — donation of adjacent C–H and C–C σ-bond electron density into the empty π* orbital — plus relief of steric strain. Stability is measured by heat of hydrogenation: the less heat released, the more stable the alkene. *trans* (E) alkenes are usually more stable than *cis* (Z) because they avoid steric crowding, and conjugation adds extra resonance stabilization.",
+    "whyItMatters": "Stability ranking explains why naturally occurring unsaturated lipids usually contain *cis* double bonds even though *trans* is thermodynamically more stable — biology builds them with specific enzymes, and the cis geometry alters membrane fluidity and packing. Industrially, \"trans fats\" form when cis alkenes are partially hydrogenated; the more stable trans isomers pack more tightly, which made them useful in solid shortenings and is also why their health effects differ. Alkene stability is the conceptual foundation of that chemistry.",
+    "learningObjectives": "1. Rank alkene stability by degree of alkyl substitution and justify the ranking.\n2. Use heat-of-hydrogenation data to compare alkene stability thermodynamically.\n3. Explain hyperconjugation and steric effects as the sources of substitution- and geometry-dependent stability.\n4. Compare cis/trans (E/Z) isomers, conjugated alkenes, and isolated dienes (introductory) in stability.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Alkene stability | Relative thermodynamic energy of an alkene | Predicts major products and reactivity |\n| Heat of hydrogenation | Heat released converting alkene → alkane | Quantitative stability yardstick |\n| Alkyl substitution | Number of carbon groups attached to the C=C | More substitution → more stable |\n| Hyperconjugation | σ-bond donation into the empty π* orbital | Primary source of alkene stabilization |\n| Steric effects | Repulsion between bulky nearby groups | Makes cis (Z) less stable than trans (E) |\n| cis/trans stability | trans usually more stable than cis | Same connectivity, different energy |\n| E/Z stability | General stereochemical analog of cis/trans | E is typically more stable |\n| Conjugation | Alternating double–single bonds (π–π overlap) | Extra resonance stabilization |\n| Isolated dienes | Double bonds separated by two or more single bonds | No π overlap between them |",
+    "collegeNotes": "### 1. Alkyl Substitution and Stability\nStability order: tetrasubstituted > trisubstituted > disubstituted (trans > cis) > monosubstituted > unsubstituted (ethene). Each additional alkyl group on the C=C carbons stabilizes the alkene by lowering its energy.\n\n### 2. Hyperconjugation\nAdjacent C–H and C–C σ bonds overlap with the empty π* (antibonding) orbital of the double bond, donating electron density and lowering the molecule's energy. More alkyl substituents = more σ bonds available to donate = greater stabilization.\n\n### 3. Steric Effects and Conjugation\ncis (Z) alkenes force bulky substituents onto the same side of the rigid double bond, creating van der Waals crowding; trans (E) alkenes place them opposite, relieving strain — so trans is usually more stable. Separately, conjugation (alternating double–single bonds) allows π-electron delocalization across more than two carbons, adding resonance stabilization beyond simple substitution.",
+    "howItWorks": "1. Count the carbon substituents on the two C=C carbons to estimate the degree of substitution.\n2. Rank stability by substitution; break ties using cis/trans geometry.\n3. Confirm with heat-of-hydrogenation data when available.\n4. Recognize that conjugation lowers energy further through π delocalization.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Stability order: tetra > tri > di > mono > unsubstituted.\n- **High yield:** trans (E) > cis (Z) because cis suffers steric crowding.\n- **High yield:** Hyperconjugation, not mere \"bulk,\" is the main reason substitution stabilizes alkenes.\n- **High yield:** Less heat of hydrogenation = more stable alkene.\n- Conjugation (alternating double bonds) adds resonance stabilization beyond substitution.\n- Isolated dienes have double bonds too far apart to interact (introductory).\n- Stability is thermodynamic; it does not by itself predict reaction *rate*.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Thermodynamic stability | Kinetic reactivity | A stable alkene can still react; rate is a separate question |\n| Hyperconjugation | Resonance (conjugation) | Hyperconjugation uses σ bonds; conjugation uses π bonds |\n| cis | Z | cis needs identical groups; Z is the general label |\n| Large heat of hydrogenation | More stable alkene | Larger heat release = *less* stable alkene |\n| Isolated diene | Conjugated diene | Isolated double bonds don't overlap; conjugated ones do |",
+    "memoryAids": "**\"More carbon friends = more stable; E is Easier (lower energy) than Z.\"** Tetrasubstituted alkenes have the most \"friends\" (alkyl groups) donating through hyperconjugation.",
+    "eli10": "Imagine an alkene double bond as a shared blanket between two carbons. If those carbons are also holding extra neighbors (alkyl groups), the neighbors can lend electron \"warmth\" to the bond, making the whole arrangement cozier and more stable. The more neighbors lending support, the sturdier the structure.\n\nA comparison: a tent with four guy-lines (a tetrasubstituted alkene) stands firmer in the wind than a tent with a single guy-line (a monosubstituted alkene). Extra support stabilizes the structure.\n\nWhere it stops being exact: \"more neighbors = more stable\" is a useful ranking shortcut, but the real reason is *hyperconjugation* — a quantum-mechanical donation of electron density from adjacent C–H (and C–C) σ bonds into the empty π* antibonding orbital — not simply \"more mass nearby.\" Also, \"stable\" here is thermodynamic (lower energy, lower heat of hydrogenation), which does not automatically mean it reacts faster; stability and reaction rate are separate ideas.\n\n### Simple Example\n2-methylpropene (isobutylene), a disubstituted alkene, is more stable than propene (monosubstituted). On hydrogenation, propene releases more heat per mole than the more substituted but-2-enes, reflecting its higher (less stable) energy.",
+    "quickReview": "### Topic Recap\n\nAlkene stability increases with alkyl substitution (tetra > tri > di > mono), driven mainly by hyperconjugation, and trans (E) isomers are usually more stable than cis (Z) because of steric effects. Heat of hydrogenation gives a quantitative, thermodynamic comparison, and conjugation further stabilizes alkenes through π delocalization.\n\n### Knowledge Check\n\n1. Rank by stability: ethene, 2-methylpropene, 2,3-dimethylbut-2-ene.\n2. Which releases more heat on hydrogenation — cis- or trans-but-2-ene?\n3. What orbital interaction is responsible for hyperconjugation?\n4. Why is trans-but-2-ene more stable than cis-but-2-ene?\n5. Name the two factors that increase alkene stability with substitution.\n\n### Answers and Rationales\n\n1. 2,3-dimethylbut-2-ene (tetrasubstituted) > 2-methylpropene (disubstituted) > ethene (unsubstituted).\n2. cis-but-2-ene — it is less stable, so hydrogenation releases more heat.\n3. σ(C–H/C–C) bonding electrons donate into the empty π* antibonding orbital of the C=C.\n4. cis forces the two methyl groups onto the same face, causing steric strain; trans places them opposite.\n5. Hyperconjugation (electron donation) and relief of steric strain.",
+    "workedExamples": "**Comparing stability with heat of hydrogenation.**\n\n1. Hydrogenation converts an alkene to an alkane and releases heat. Because the product alkane is the same energy reference for a given carbon skeleton, the more stable (lower-energy) alkene releases *less* heat.\n2. Compare: ethene → ethane releases more heat per mole than 2-methylpropene → 2-methylpropane, so the disubstituted alkene is more stable than the unsubstituted one.\n3. Rank but-2-enes: trans-but-2-ene releases less heat than cis-but-2-ene, so trans is more stable.\n4. Rationale (electron picture first): in the more substituted alkene, σ(C–H) bonding electrons delocalize into the empty π* orbital — hyperconjugation — lowering energy before any reaction happens. In cis-but-2-ene, the two methyl groups crowd the same face, raising energy through steric repulsion.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "stability-of-alkenes",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "26-stability-of-alkenes",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/26-stability-of-alkenes.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

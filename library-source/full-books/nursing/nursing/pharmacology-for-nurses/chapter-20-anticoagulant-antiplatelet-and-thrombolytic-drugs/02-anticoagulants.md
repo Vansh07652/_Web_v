@@ -1,0 +1,128 @@
+---
+title: "Anticoagulants"
+subject: "Nursing"
+book: "Pharmacology for Nurses"
+chapter: "20: Anticoagulant, Antiplatelet, and Thrombolytic Drugs"
+topic_number: "2"
+source: "pharmacology.md"
+tags:
+  - "anticoagulants"
+  - "nursing"
+status: "complete"
+---
+
+# Anticoagulants
+
+> **Book:** [Pharmacology for Nurses](../../README.md)  
+> **Chapter:** [Chapter 20: Anticoagulant, Antiplatelet, and Thrombolytic Drugs](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Anticoagulants** interrupt the clotting-factor cascade — the plasma-protein machinery that builds the fibrin mesh of a clot (see [Introduction to Clotting and Coagulation](01-introduction-to-clotting-and-coagulation.md)). They do **not** dissolve clots that already exist, and they do **not** "thin" the blood in any literal sense: they make *new* clot formation less likely by slowing the cascade at specific points. They are preventive tools against thrombosis — deep-vein thrombosis, pulmonary embolism, stroke in atrial fibrillation, clotting on mechanical valves — and their price is bleeding risk. The class splits into **parenteral agents** (unfractionated heparin, low-molecular-weight heparins, fondaparinux) and **oral agents** (warfarin, a vitamin K antagonist, and the DOACs: dabigatran, plus the factor Xa inhibitors rivaroxaban, apixaban, and edoxaban).
+
+## Why This Matters
+
+Anticoagulants are among the most commonly prescribed — and most dangerous — drug classes in nursing. Because the therapeutic effect (less clotting) and the adverse effect (bleeding) are two sides of the same coin, nursing care centers on bleeding-risk assessment, monitoring, patient education, and knowing which reversal agents exist. Medication errors with these drugs are a leading cause of harm, so exams reward precise mechanism knowledge. This guide covers classes and mechanisms only; doses, monitoring targets, and administration must be verified against current references, the institutional formulary, and prescriber orders.
+
+## Core Concepts
+
+### Unfractionated heparin: the antithrombin booster
+
+Heparin binds to **antithrombin III**, a natural anticoagulant protein, and accelerates its inactivation of clotting factors — most importantly **thrombin (factor IIa)** and **factor Xa**. It acts quickly, has a short duration of action, and suits hospital settings, bridging therapy, and surgery. It is traditionally monitored with the **aPTT** test (verify current practice and targets against institutional policy). Bleeding is the main risk, and **protamine sulfate** can reverse heparin by binding and neutralizing it — an exam favorite.
+
+### LMWHs and fondaparinux
+
+**LMWHs** (e.g., enoxaparin) are heparin fragments that retain acceleration of antithrombin's inactivation of **factor Xa** but have less effect on thrombin. Their kinetics are more predictable, they are given subcutaneously, and they generally need less laboratory monitoring. **Fondaparinux** is a synthetic version of heparin's antithrombin-binding sequence — purely anti-Xa. An educational caveat: protamine does not fully reverse LMWHs and does not reverse fondaparinux, so bleeding management differs — verify reversal strategies against current references and protocols.
+
+### Warfarin: the vitamin K antagonist
+
+Warfarin blocks **vitamin K epoxide reductase**, the enzyme that recycles vitamin K in the liver; without recycled vitamin K, the liver cannot activate factors **II, VII, IX, and X** (nor proteins C and S). Because the body must use up already-activated factors, warfarin's onset takes days — why it is often started *alongside* a fast-acting parenteral agent until the INR reaches target. It is monitored with **PT/INR**, has many drug and food interactions (especially dietary vitamin K), and crosses the placenta, so its use in pregnancy is heavily restricted — verify current guidance. Bleeding is reversed with **vitamin K** and, in serious cases, clotting-factor replacement products per current protocols.
+
+### Direct oral anticoagulants (DOACs)
+
+The DOACs inhibit a single step directly, giving more predictable pharmacology than warfarin: **dabigatran** directly inhibits **thrombin (factor IIa)**; **rivaroxaban, apixaban, and edoxaban** directly inhibit **factor Xa**. DOACs have rapid onset, short half-lives, and, in most stable outpatient situations, fixed dosing without routine lab monitoring — though **kidney function matters**, since several are renally cleared. Specific reversal agents exist for serious bleeding (e.g., idarucizumab for dabigatran; andexanet alfa for the Xa inhibitors), but availability varies by institution — verify. DOACs are generally avoided in pregnancy and with mechanical heart valves; check current product information.
+
+### Nursing care across the class
+
+- **Bleeding-risk assessment**: identify higher-risk people (recent surgery or trauma, kidney or liver disease, concurrent antiplatelets, falls risk) and watch for bruising, bleeding gums, dark stools, blood in urine, or unusual headache.
+- **Monitoring**: know which drugs need lab monitoring (warfarin → INR; UFH → aPTT in many settings) and what the institution's protocol says — never rely on memory for targets.
+- **Education**: teach people to report unusual bleeding, carry medication ID, keep monitoring appointments, and ask before adding any new drug or product.
+- **Adherence and coordination**: missed or double doses are high-risk events, and surgery or spinal/epidural procedures require coordinated planning — always follow institutional policy and prescriber orders.
+
+## ELI-10: Explain Like I'm 10
+
+Think of clotting as a row of dominoes inside your blood that ends with a glue called fibrin. Anticoagulants put a stop-block between the dominoes, so the glue is less likely to form — your blood can still clot when you really need it, but it is slower. The catch: because the glue is harder to make, a small cut can bleed longer. Anticoagulants do not melt glue that is already there — that is a different medicine's job.
+
+## High-Yield Points
+
+- Anticoagulants **prevent** clot formation by slowing the clotting-factor cascade; they do **not** dissolve existing clots (thrombolytics) and do **not** target platelets (antiplatelets).
+- **Heparin** boosts **antithrombin III** to inactivate thrombin (IIa) and factor Xa; monitored with aPTT in many settings; reversed with **protamine sulfate**.
+- **LMWHs** are mainly **anti-Xa**, subcutaneous, more predictable, less monitoring; protamine reversal is incomplete. **Fondaparinux**: synthetic anti-Xa, no protamine reversal.
+- **Warfarin** blocks vitamin K recycling → inactive factors **II, VII, IX, X**; slow onset, INR monitoring, many interactions; reversed with **vitamin K** (+ factor replacement per protocol).
+- **DOACs**: dabigatran = direct thrombin inhibitor; rivaroxaban/apixaban/edoxaban = direct Xa inhibitors; fixed dosing, renal function matters; specific reversal agents exist but availability varies.
+- The dominant adverse effect of every agent is **bleeding**; nursing care = risk assessment, monitoring per protocol, education, adherence support.
+- Verify doses, monitoring targets, and administration against current references, formulary, and prescriber orders.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Anticoagulant | A drug that slows the clotting-factor cascade so new clots are less likely to form | The core identity of the class — prevention, not dissolution |
+| Antithrombin III | A natural protein that inactivates clotting factors | Heparin's partner; heparin works by supercharging it |
+| Factor Xa | The clotting factor where the intrinsic and extrinsic pathways converge | A prime drug target (LMWHs, fondaparinux, Xa-inhibitor DOACs) |
+| Vitamin K antagonist | A drug (warfarin) that blocks vitamin K recycling, leaving factors II, VII, IX, X inactive | Explains warfarin's mechanism, slow onset, INR monitoring, and vitamin K reversal |
+| DOAC | Direct oral anticoagulant — dabigatran (IIa) or the Xa inhibitors | Fixed dosing and less routine monitoring; renal clearance matters |
+| INR / aPTT | Lab tests sampling the extrinsic+common (INR) and intrinsic+common (aPTT) pathways | Classic monitoring tests for warfarin (INR) and UFH (aPTT) — targets per protocol |
+| Reversal agent | A drug that neutralizes an anticoagulant (protamine, vitamin K, specific agents) | Matching the right reversal to the right drug is a classic safety and exam point |
+
+## Example
+
+Mrs. Osei, 71, is admitted with a deep-vein thrombosis. The plan: a fast-acting parenteral anticoagulant bridging to warfarin. The nurse gives subcutaneous LMWH (anti-Xa via antithrombin, no routine aPTT checks in most settings) and starts warfarin the same day, explaining that warfarin takes days to work because the liver must first use up the already-activated vitamin K–dependent factors — so the LMWH covers her in the meantime; once the INR reaches its target, the LMWH stops and warfarin continues alone. Before discharge, the nurse teaches Mrs. Osei to watch for bleeding gums, dark stools, and unusual bruising, to keep INR appointments, and to ask before adding any new drug or supplement — with all instructions verified against the current discharge plan and prescriber orders. The scenario shows the classic heparin-to-warfarin bridge.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Anticoagulant | Antiplatelet | Anticoagulants slow the clotting-factor cascade; antiplatelets block platelet plug formation |
+| Anticoagulant | Thrombolytic | Anticoagulants prevent new clots; thrombolytics dissolve existing ones |
+| Heparin (UFH) | LMWH | UFH boosts antithrombin against both IIa and Xa (aPTT monitoring common); LMWH is mainly anti-Xa, subcutaneous, more predictable |
+| Warfarin | DOAC | Warfarin blocks vitamin K recycling (slow onset, INR monitoring, many interactions); DOACs directly inhibit IIa or Xa (fast onset, fixed dosing) |
+| Protamine sulfate | Vitamin K | Protamine reverses heparin; vitamin K reverses warfarin — matching the wrong reversal is a classic error |
+| "Blood thinner" | Making blood watery | Anticoagulants change clotting *behavior*, not blood thickness; bleeding risk is real regardless |
+
+## Quick Review
+
+1. What protein does heparin bind to, and which clotting factors does that protein then inactivate?
+2. Why does warfarin take several days to work, and why are parenteral anticoagulants often started at the same time?
+3. Name the two DOAC mechanisms and one example drug for each.
+4. A patient on warfarin has a nosebleed that will not stop. What is the classic reversal agent, and what lab test guides warfarin monitoring?
+5. Why does fondaparinux differ from heparin regarding protamine reversal, and what nursing implication follows?
+
+<details>
+<summary>Show answers</summary>
+
+1. Heparin binds to antithrombin III and accelerates its inactivation of thrombin (factor IIa) and factor Xa.
+2. Warfarin blocks vitamin K recycling, but the body must first consume the already-activated vitamin K–dependent factors (II, VII, IX, X), which takes days. Parenteral anticoagulants provide immediate coverage during that window.
+3. Dabigatran — direct thrombin (factor IIa) inhibitor; rivaroxaban, apixaban, and edoxaban — direct factor Xa inhibitors.
+4. Vitamin K (with factor replacement per protocol for serious bleeding); warfarin is monitored with PT/INR.
+5. Fondaparinux is a purely synthetic anti-Xa agent that protamine cannot neutralize (protamine reversal of LMWHs is also incomplete), so bleeding management must follow current institutional protocols rather than routine protamine.
+
+</details>
+
+## Related Topics
+
+- Previous: [Introduction to Clotting and Coagulation](01-introduction-to-clotting-and-coagulation.md)
+- Next: [Antiplatelets](03-antiplatelets.md)
+- Related: [Anticoagulant, Antiplatelet, and Thrombolytic Drugs chapter overview](../README.md)
+- Related: [Antiplatelets](03-antiplatelets.md), [Thrombolytics](04-thrombolytics.md)
+
+## Source Notes
+
+- Book: Pharmacology for Nurses
+- Local outline source: `pharmacology.md`
+- Official source URL: https://openstax.org/details/books/pharmacology/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: Educational draft only — drug classes and mechanisms; no doses, schedules, monitoring targets, or administration recommendations. All clinical decisions and monitoring must be verified against current references, the institutional formulary, and prescriber orders. Scope of practice and institutional variation apply.
+- Last updated: 2026-08-15

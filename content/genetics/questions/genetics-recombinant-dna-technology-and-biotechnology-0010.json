@@ -1,0 +1,40 @@
+{
+  "id": "genetics-recombinant-dna-technology-and-biotechnology-0010",
+  "subject": "genetics",
+  "lesson": "recombinant-dna-technology-and-biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A plasmid carries an ampicillin resistance gene and the *lacZ* gene with a multiple cloning site inside it. After transformation, cells are plated on medium containing ampicillin, IPTG, and X-gal, and blue colonies appear. What does a blue colony indicate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The cells took up no plasmid, and X-gal let them survive the ampicillin"
+    },
+    {
+      "id": "b",
+      "text": "The plasmid carries an insert that disrupted *lacZ*"
+    },
+    {
+      "id": "c",
+      "text": "The cells are ampicillin resistant because X-gal induced a resistance gene in the chromosome"
+    },
+    {
+      "id": "d",
+      "text": "The cells contain an intact plasmid with a functional *lacZ* gene and no insert"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Ampicillin resistance is the selectable marker, so only cells that carry the plasmid survive on the ampicillin plate. Blue color means beta galactosidase is active, which requires an intact *lacZ* gene, so the insert is absent. B is the inverted readout, because an insert in *lacZ* gives white colonies. A confuses the screen with selection, since cells without the plasmid die on ampicillin, and C mistakes the chromogenic substrate X-gal for an inducer of resistance.",
+  "difficulty": "unknown",
+  "tags": [
+    "blue",
+    "colonies",
+    "ampicillin",
+    "plate"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-2e5f1806a7bd2d1a",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

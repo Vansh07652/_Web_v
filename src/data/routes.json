@@ -1,0 +1,202 @@
+[
+  {
+    "id": "home",
+    "path": "/",
+    "title": "Home"
+  },
+  {
+    "id": "subjects",
+    "path": "/subjects",
+    "title": "Subjects"
+  },
+  {
+    "id": "subject",
+    "path": "/subjects/:subjectSlug",
+    "title": "Subject"
+  },
+  {
+    "id": "lessons",
+    "path": "/subjects/:subjectSlug/lessons",
+    "title": "Lessons"
+  },
+  {
+    "id": "lesson",
+    "path": "/subjects/:subjectSlug/lessons/:lessonSlug",
+    "title": "Lesson"
+  },
+  {
+    "id": "subject-notes",
+    "path": "/subjects/:subjectSlug/notes",
+    "title": "Subject notes"
+  },
+  {
+    "id": "note",
+    "path": "/subjects/:subjectSlug/notes/:lessonSlug",
+    "title": "Note"
+  },
+  {
+    "id": "subject-questions",
+    "path": "/subjects/:subjectSlug/questions",
+    "title": "Subject questions"
+  },
+  {
+    "id": "question-practice",
+    "path": "/subjects/:subjectSlug/questions/:lessonSlug",
+    "title": "Question practice"
+  },
+  {
+    "id": "notes",
+    "path": "/notes",
+    "title": "Notes"
+  },
+  {
+    "id": "questions",
+    "path": "/questions",
+    "title": "Questions"
+  },
+  {
+    "id": "curriculum-catalog",
+    "path": "/learn",
+    "title": "Master Curriculum"
+  },
+  {
+    "id": "curriculum-subject",
+    "path": "/learn/:subjectSlug",
+    "title": "Curriculum subject"
+  },
+  {
+    "id": "curriculum-practice",
+    "path": "/learn/:subjectSlug/practice",
+    "title": "Curriculum practice"
+  },
+  {
+    "id": "curriculum-unit",
+    "path": "/learn/:subjectSlug/:unitSlug",
+    "title": "Curriculum unit"
+  },
+  {
+    "id": "curriculum-topic",
+    "path": "/learn/:subjectSlug/:unitSlug/:topicSlug",
+    "title": "Curriculum topic"
+  },
+  {
+    "id": "search",
+    "path": "/search",
+    "title": "Search"
+  },
+  {
+    "id": "resources",
+    "path": "/resources",
+    "title": "Learning resources"
+  },
+  {
+    "id": "downloads",
+    "path": "/downloads",
+    "title": "Downloads"
+  },
+  {
+    "id": "about",
+    "path": "/about",
+    "title": "About and help"
+  },
+  {
+    "id": "coverage",
+    "path": "/coverage",
+    "title": "Content coverage"
+  },
+  {
+    "id": "review",
+    "path": "/review",
+    "title": "Review"
+  },
+  {
+    "id": "paths",
+    "path": "/paths",
+    "title": "Study paths"
+  },
+  {
+    "id": "path",
+    "path": "/paths/:pathSlug",
+    "title": "Study path"
+  },
+  {
+    "id": "terms",
+    "path": "/terms",
+    "title": "Terms of use"
+  },
+  {
+    "id": "privacy",
+    "path": "/privacy",
+    "title": "Privacy policy"
+  },
+  {
+    "id": "licensing",
+    "path": "/licensing",
+    "title": "Content licensing and attribution"
+  },
+  {
+    "id": "accessibility",
+    "path": "/accessibility",
+    "title": "Accessibility statement"
+  },
+  {
+    "id": "diagnostic",
+    "path": "/diagnostic",
+    "title": "Find your starting point"
+  },
+  {
+    "id": "content-review",
+    "path": "/content-review",
+    "title": "Content review process"
+  },
+  {
+    "id": "editorial-policy",
+    "path": "/editorial-policy",
+    "title": "Editorial policy"
+  },
+  {
+    "id": "source-citation-policy",
+    "path": "/source-citation-policy",
+    "title": "Source and citation policy"
+  },
+  {
+    "id": "medical-disclaimer",
+    "path": "/medical-disclaimer",
+    "title": "Medical disclaimer"
+  },
+  {
+    "id": "contact",
+    "path": "/contact",
+    "title": "Contact"
+  },
+  {
+    "id": "report-error",
+    "path": "/report-error",
+    "title": "Report an error"
+  },
+  {
+    "id": "changelog",
+    "path": "/changelog",
+    "title": "Changelog"
+  },
+  {
+    "id": "dashboard",
+    "path": "/dashboard",
+    "title": "Your study dashboard"
+  },
+  {
+    "id": "error",
+    "path": "/error",
+    "title": "Error"
+  },
+  {
+    "id": "not-found",
+    "path": "/404",
+    "title": "Page not found"
+  },
+  {
+    "id": "auth-callback",
+    "path": "/auth/callback",
+    "title": "Signing in"
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:properties-of-solutions:henrys-law",
+  "slug": "henrys-law",
+  "title": "Henry's Law",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:properties-of-solutions",
+    "slug": "properties-of-solutions",
+    "title": "Properties Of Solutions",
+    "order": 2
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "Henry's law describes the solubility of a gas in a liquid: at constant temperature, the concentration of a dissolved gas is directly proportional to the partial pressure of that gas above the solution. In the concentration convention, C = k_H·P, where k_H is a temperature-dependent Henry's law constant. Higher pressure forces more gas into solution; higher temperature lowers k_H and drives gas back out.",
+    "whyItMatters": "- **Carbonation & beverage science:** controlling CO₂ pressure sets the fizz in soda and beer.\n- **Medicine:** gas solubility explains decompression sickness, oxygen therapy, and how anesthetics partition into blood.\n- **Environmental chemistry:** dissolved oxygen levels in lakes and oceans follow Henry's law — warmer or saltier water holds less O₂.\n- **Diving safety:** divers use slow ascents and decompression stops to let dissolved N₂ escape gradually.",
+    "learningObjectives": "- State Henry's law and define each variable (state the convention used).\n- Calculate the concentration of a dissolved gas at a given partial pressure.\n- Explain how temperature affects Henry's law constant and gas solubility.\n- Relate Henry's law to everyday phenomena (carbonation, decompression sickness, oxygen in water).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nHenry's law describes the solubility of a gas in a liquid: at constant temperature, the concentration of a dissolved gas is directly proportional to the partial pressure of that gas above the solution. In the concentration convention, C = k_H·P, where k_H is a temperature-dependent Henry's law constant. Higher pressure forces more gas into solution; higher temperature lowers k_H and drives gas back out.\n\n### Key Ideas\n\n### The proportionality\n- More gas pressure above the liquid → more gas molecules collide with the surface → more dissolve.\n- Doubling the partial pressure doubles the dissolved concentration (direct proportionality).\n\n### Two common conventions\n- **Concentration form:** C = k_H·P (C = molarity, k_H = Henry's law constant in mol/L·atm, i.e., M/atm).\n- **Mole-fraction form:** P = k_H′·X (used in some engineering tables). Always state which convention you're using.\n\n### Temperature dependence\n- k_H decreases with rising temperature → gas solubility decreases as water warms (this is why thermal pollution and warm oceans hold less O₂ and CO₂).\n\n### Real-world consequences\n- Carbonated drinks are bottled under high CO₂ pressure; opening drops P, so CO₂ bubbles out.\n- Scuba divers ascending too fast get decompression sickness (\"the bends\") as dissolved N₂ comes out of solution.\n- Henry's law governs dissolved oxygen (DO) in natural waters — the basis of aquatic life.\n\n### Equations and Variables\n\n- **Henry's law (concentration convention):** C = k_H·P\n  - C = equilibrium concentration of dissolved gas (mol/L)\n  - k_H = Henry's law constant (mol/L·atm) — specific to gas, solvent, and temperature\n  - P = partial pressure of the gas above the solution (atm)\n- **Equivalent rearrangements:** P = C/k_H, or the mole-fraction form P = k_H′·X.\n\n### How It Works\n\n1. **Gas molecules strike the liquid surface** at a rate proportional to their partial pressure.\n2. **Some dissolve;** dissolved molecules also escape back to the gas phase.\n3. **At equilibrium** the two rates balance, and the dissolved concentration is proportional to pressure (C = k_H·P).\n4. **Increase P** → more gas dissolves. **Decrease P** (open the bottle) → gas comes out (fizzing).\n5. **Increase T** → k_H drops, so at fixed P the equilibrium concentration falls and gas escapes.\n\n### Worked Example\n\nThe Henry's law constant for CO₂ in water at 25 °C is k_H = 3.4 × 10⁻² M/atm. (a) What is the CO₂ concentration in a sealed bottle under 4.0 atm of CO₂? (b) What concentration remains after opening, when the CO₂ partial pressure drops to 4.0 × 10⁻⁴ atm (typical atmospheric CO₂)?\n\n1. **(a) Sealed.** C = k_H·P = (3.4 × 10⁻² M/atm)(4.0 atm) = **0.136 M CO₂**.\n2. **(b) Opened.** C = (3.4 × 10⁻² M/atm)(4.0 × 10⁻⁴ atm) = **1.4 × 10⁻⁵ M CO₂**.\n3. **Interpretation.** Opening the bottle drops the dissolved CO₂ about 10,000-fold; the excess bubbles out, which is exactly why soda fizzes and goes flat.",
+    "howItWorks": "1. **Gas molecules strike the liquid surface** at a rate proportional to their partial pressure.\n2. **Some dissolve;** dissolved molecules also escape back to the gas phase.\n3. **At equilibrium** the two rates balance, and the dissolved concentration is proportional to pressure (C = k_H·P).\n4. **Increase P** → more gas dissolves. **Decrease P** (open the bottle) → gas comes out (fizzing).\n5. **Increase T** → k_H drops, so at fixed P the equilibrium concentration falls and gas escapes.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Henry's law: C = k_H·P (concentration convention).\n- Gas solubility is directly proportional to partial pressure.\n- k_H is temperature-dependent and decreases with increasing T (gas solubility ↓ as T ↑).\n- Opening a carbonated drink lowers P → gas escapes (fizz).\n- Only the *partial pressure of that gas* matters, not the total pressure.\n- Henry's law applies to gases, not to solid or liquid solutes.",
+    "commonConfusions": "- **\"Henry's law uses total pressure.\"** — Wrong. It uses the *partial pressure* of the specific gas; other gases don't count.\n- **\"Higher temperature means more gas dissolves.\"** — Wrong. Gas solubility decreases with temperature (k_H drops).\n- **\"Henry's law applies to all solutes.\"** — Wrong. It applies only to gases dissolving in liquids, not solids or liquids.\n- **\"The two forms C = k_H P and P = k_H X use the same constant.\"** — Wrong. The constant has different units and meaning in the two conventions; always state the convention.\n- **\"Opening a soda releases all its CO₂ instantly.\"** — Wrong. Equilibrium re-establishes gradually as excess CO₂ escapes; some CO₂ always remains dissolved.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nHenry's law is the rule for how much \"fizz\" a drink can hold. Squeeze lots of gas above the liquid (high pressure), and you force more gas to hide inside it — like pushing more kids under the surface of a pool by pressing down on a floating raft. Let go of the raft (open the bottle), and the kids pop back up everywhere (the bubbles). Warm up the water and the kids get wiggly and escape more easily, so warm drinks go flat faster. (The analogy's limit: the \"pushing\" is really the number of gas collisions with the surface, and the \"wiggly\" is the lower Henry's law constant at higher temperature — but the direct pressure→concentration link is exactly Henry's law.)",
+    "quickReview": "- C = k_H·P; C = dissolved gas concentration, k_H = constant (T-dependent), P = partial pressure.\n- Direct proportionality: double P, double C.\n- k_H ↓ as T ↑ → gas solubility ↓ when heated.\n- Fizz = P drop on opening; the bends = rapid N₂ release on ascent.\n- Applies to gases only; uses partial pressure only.",
+    "workedExamples": "### Worked Example\n\nThe Henry's law constant for CO₂ in water at 25 °C is k_H = 3.4 × 10⁻² M/atm. (a) What is the CO₂ concentration in a sealed bottle under 4.0 atm of CO₂? (b) What concentration remains after opening, when the CO₂ partial pressure drops to 4.0 × 10⁻⁴ atm (typical atmospheric CO₂)?\n\n1. **(a) Sealed.** C = k_H·P = (3.4 × 10⁻² M/atm)(4.0 atm) = **0.136 M CO₂**.\n2. **(b) Opened.** C = (3.4 × 10⁻² M/atm)(4.0 × 10⁻⁴ atm) = **1.4 × 10⁻⁵ M CO₂**.\n3. **Interpretation.** Opening the bottle drops the dissolved CO₂ about 10,000-fold; the excess bubbles out, which is exactly why soda fizzes and goes flat.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"11.3 Solubility.\" https://openstax.org/books/chemistry-2e/pages/11-3-solubility",
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-3-solubility"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      },
+      {
+        "text": "PubChem, \"Water\" (compound 962). https://pubchem.ncbi.nlm.nih.gov/compound/962",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e* (book home). https://openstax.org/details/books/chemistry-2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      },
+      {
+        "text": "American Chemical Society. https://www.acs.org/",
+        "url": "https://www.acs.org/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "henrys-law",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "04-henrys-law",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:8ee934a31eb97ca9"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:8ee934a31eb97ca9"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:8ee934a31eb97ca9"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:8ee934a31eb97ca9"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/11-properties-of-solutions/04-henrys-law.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Henry's Law\n\n## Learning Goals\n- State Henry's law and define each variable (state the convention used).\n- Calculate the concentration of a dissolved gas at a given partial pressure.\n- Explain how temperature affects Henry's law constant and gas solubility.\n- Relate Henry's law to everyday phenomena (carbonation, decompression sickness, oxygen in water).\n\n## Core Concept\nHenry's law describes the solubility of a gas in a liquid: at constant temperature, the concentration of a dissolved gas is directly proportional to the partial pressure of that gas above the solution. In the concentration convention, C = k_H·P, where k_H is a temperature-dependent Henry's law constant. Higher pressure forces more gas into solution; higher temperature lowers k_H and drives gas back out.\n\n## Key Ideas\n### The proportionality\n- More gas pressure above the liquid → more gas molecules collide with the surface → more dissolve.\n- Doubling the partial pressure doubles the dissolved concentration (direct proportionality).\n\n### Two common conventions\n- **Concentration form:** C = k_H·P (C = molarity, k_H = Henry's law constant in mol/L·atm, i.e., M/atm).\n- **Mole-fraction form:** P = k_H′·X (used in some engineering tables). Always state which convention you're using.\n\n### Temperature dependence\n- k_H decreases with rising temperature → gas solubility decreases as water warms (this is why thermal pollution and warm oceans hold less O₂ and CO₂).\n\n### Real-world consequences\n- Carbonated drinks are bottled under high CO₂ pressure; opening drops P, so CO₂ bubbles out.\n- Scuba divers ascending too fast get decompression sickness (\"the bends\") as dissolved N₂ comes out of solution.\n- Henry's law governs dissolved oxygen (DO) in natural waters — the basis of aquatic life.\n\n## Equations and Variables\n- **Henry's law (concentration convention):** C = k_H·P\n  - C = equilibrium concentration of dissolved gas (mol/L)\n  - k_H = Henry's law constant (mol/L·atm) — specific to gas, solvent, and temperature\n  - P = partial pressure of the gas above the solution (atm)\n- **Equivalent rearrangements:** P = C/k_H, or the mole-fraction form P = k_H′·X.\n\n## How It Works\n1. **Gas molecules strike the liquid surface** at a rate proportional to their partial pressure.\n2. **Some dissolve;** dissolved molecules also escape back to the gas phase.\n3. **At equilibrium** the two rates balance, and the dissolved concentration is proportional to pressure (C = k_H·P).\n4. **Increase P** → more gas dissolves. **Decrease P** (open the bottle) → gas comes out (fizzing).\n5. **Increase T** → k_H drops, so at fixed P the equilibrium concentration falls and gas escapes.\n\n## Worked Example\nThe Henry's law constant for CO₂ in water at 25 °C is k_H = 3.4 × 10⁻² M/atm. (a) What is the CO₂ concentration in a sealed bottle under 4.0 atm of CO₂? (b) What concentration remains after opening, when the CO₂ partial pressure drops to 4.0 × 10⁻⁴ atm (typical atmospheric CO₂)?\n\n1. **(a) Sealed.** C = k_H·P = (3.4 × 10⁻² M/atm)(4.0 atm) = **0.136 M CO₂**.\n2. **(b) Opened.** C = (3.4 × 10⁻² M/atm)(4.0 × 10⁻⁴ atm) = **1.4 × 10⁻⁵ M CO₂**.\n3. **Interpretation.** Opening the bottle drops the dissolved CO₂ about 10,000-fold; the excess bubbles out, which is exactly why soda fizzes and goes flat.\n\n## Why It Matters\n- **Carbonation & beverage science:** controlling CO₂ pressure sets the fizz in soda and beer.\n- **Medicine:** gas solubility explains decompression sickness, oxygen therapy, and how anesthetics partition into blood.\n- **Environmental chemistry:** dissolved oxygen levels in lakes and oceans follow Henry's law — warmer or saltier water holds less O₂.\n- **Diving safety:** divers use slow ascents and decompression stops to let dissolved N₂ escape gradually.\n\n## High-Yield Facts\n- Henry's law: C = k_H·P (concentration convention).\n- Gas solubility is directly proportional to partial pressure.\n- k_H is temperature-dependent and decreases with increasing T (gas solubility ↓ as T ↑).\n- Opening a carbonated drink lowers P → gas escapes (fizz).\n- Only the *partial pressure of that gas* matters, not the total pressure.\n- Henry's law applies to gases, not to solid or liquid solutes.\n\n## Eli Explains\nHenry's law is the rule for how much \"fizz\" a drink can hold. Squeeze lots of gas above the liquid (high pressure), and you force more gas to hide inside it — like pushing more kids under the surface of a pool by pressing down on a floating raft. Let go of the raft (open the bottle), and the kids pop back up everywhere (the bubbles). Warm up the water and the kids get wiggly and escape more easily, so warm drinks go flat faster. (The analogy's limit: the \"pushing\" is really the number of gas collisions with the surface, and the \"wiggly\" is the lower Henry's law constant at higher temperature — but the direct pressure→concentration link is exactly Henry's law.)\n\n## Common Confusions\n- **\"Henry's law uses total pressure.\"** — Wrong. It uses the *partial pressure* of the specific gas; other gases don't count.\n- **\"Higher temperature means more gas dissolves.\"** — Wrong. Gas solubility decreases with temperature (k_H drops).\n- **\"Henry's law applies to all solutes.\"** — Wrong. It applies only to gases dissolving in liquids, not solids or liquids.\n- **\"The two forms C = k_H P and P = k_H X use the same constant.\"** — Wrong. The constant has different units and meaning in the two conventions; always state the convention.\n- **\"Opening a soda releases all its CO₂ instantly.\"** — Wrong. Equilibrium re-establishes gradually as excess CO₂ escapes; some CO₂ always remains dissolved.\n\n## Quick Review\n- C = k_H·P; C = dissolved gas concentration, k_H = constant (T-dependent), P = partial pressure.\n- Direct proportionality: double P, double C.\n- k_H ↓ as T ↑ → gas solubility ↓ when heated.\n- Fizz = P drop on opening; the bends = rapid N₂ release on ascent.\n- Applies to gases only; uses partial pressure only.\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"11.3 Solubility.\" https://openstax.org/books/chemistry-2e/pages/11-3-solubility\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n- PubChem, \"Water\" (compound 962). https://pubchem.ncbi.nlm.nih.gov/compound/962\n- OpenStax, *Chemistry 2e* (book home). https://openstax.org/details/books/chemistry-2e\n- American Chemical Society. https://www.acs.org/\n"
+}

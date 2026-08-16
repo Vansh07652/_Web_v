@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:membranes-transport:fluid-mosaic-model",
+  "slug": "fluid-mosaic-model",
+  "title": "The Fluid Mosaic Model of the Plasma Membrane",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:membranes-transport",
+    "slug": "membranes-transport",
+    "title": "Membranes Transport",
+    "order": 2
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "The fluid mosaic model, proposed by S. Jonathan Singer and Garth Nicolson in 1972, describes the plasma membrane as a two-dimensional fluid of phospholipids in which proteins are embedded like tiles in a mosaic. \"Fluid\" refers to the lateral mobility of lipids (and many proteins) within the plane of the bilayer; \"mosaic\" refers to the patchwork of different proteins scattered through that lipid sea. It is a model of *structure and dynamics*, not a complete account of everything membranes do — later work added membrane microdomains, cytoskeletal attachment, and leaflet asymmetry, which the original statement did not emphasize.",
+    "whyItMatters": "The fluid mosaic model is the conceptual frame for nearly all of membrane biology — how signals are received, how nutrients enter, how cells move and divide. Its predictions (lateral mobility, mosaic organization) explain drug targets (many drugs bind membrane receptors), immune recognition (membrane proteins), and diseases in which membrane protein or lipid organization fails.",
+    "learningObjectives": "- Explain what the fluid mosaic model states about membrane structure.\n- Distinguish the \"fluid\" and \"mosaic\" components and identify the molecules responsible for each.\n- Describe the experimental evidence (cell fusion, FRAP) that established membrane fluidity.\n- Identify the modern refinements that the original 1972 model did not emphasize.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe fluid mosaic model, proposed by S. Jonathan Singer and Garth Nicolson in 1972, describes the plasma membrane as a two-dimensional fluid of phospholipids in which proteins are embedded like tiles in a mosaic. \"Fluid\" refers to the lateral mobility of lipids (and many proteins) within the plane of the bilayer; \"mosaic\" refers to the patchwork of different proteins scattered through that lipid sea. It is a model of *structure and dynamics*, not a complete account of everything membranes do — later work added membrane microdomains, cytoskeletal attachment, and leaflet asymmetry, which the original statement did not emphasize.\n\n### Key Components\n\n### Phospholipid bilayer\nAmphipathic phospholipids self-assemble so that hydrophobic fatty-acid tails face inward and hydrophilic head groups face the aqueous cytoplasm and extracellular fluid. This bilayer is the fundamental \"fluid\" substrate.\n\n### Integral membrane proteins (the mosaic)\nTransmembrane proteins span the bilayer once or many times; others are anchored in a single leaflet. They perform transport, signaling, adhesion, and catalysis and are free to diffuse laterally unless tethered.\n\n### Peripheral and lipid-anchored proteins\nPeripheral proteins bind the membrane surface through electrostatic and hydrogen-bonding interactions; lipid-anchored proteins attach via covalently linked fatty acids, prenyl groups, or GPI anchors.\n\n### Cholesterol and glycolipids\nCholesterol (in animal cells) modulates fluidity, and glycolipids with carbohydrate head groups contribute to the outer-leaflet \"sugar coat\" (glycocalyx).\n\n### Fluidity\nThe bilayer behaves as a two-dimensional liquid: lipids rotate, flex their tails, and diffuse laterally, but they rarely flip between leaflets (flip-flop is slow without flippase enzymes).\n\n### Mechanism\n\nMembrane structure emerges from the hydrophobic effect. In water, phospholipid tails avoid contact with water, so the molecules spontaneously bury their tails together and expose their heads, forming a sealed bilayer. Proteins with hydrophobic transmembrane segments insert into this apolar core, held there by the same hydrophobic forces plus specific lipid–protein interactions. Nothing \"glues\" the membrane together; it is a self-assembling, self-sealing fluid.\n\n### How It Works\n\n1. Amphipathic lipids orient with heads out and tails in, forming a continuous bilayer.\n2. Hydrophobic transmembrane α-helices or β-barrels of proteins partition into the apolar core.\n3. Lipids and untethered proteins undergo rapid lateral diffusion in the plane of the leaflet.\n4. Peripheral proteins associate reversibly with the bilayer surface or with integral proteins.\n5. Membrane asymmetry and local clustering (rafts, cytoskeletal corrals) constrain and organize this motion, producing functional domains.\n\n### Energy and Directionality\n\nThe model is an *equilibrium* structure: bilayer formation is driven by an increase in the entropy of water (release of ordered water from around hydrophobic tails) and is therefore spontaneous (negative ΔG) with no external energy input. Lateral diffusion is thermal (Brownian) motion and costs no ATP. Only *directed* movements — flipping lipids between leaflets, pumping ions against gradients, or actively remodeling the membrane — require energy (ATP or ion gradients).\n\n### Experimental Evidence\n\n- **Frye and Edidin (1970):** mouse and human cells were fused to form heterokaryons; fluorescently labeled membrane proteins from each species intermixed within about 40 minutes, proving lateral protein diffusion in a fluid membrane.\n- **FRAP (fluorescence recovery after photobleaching):** bleaching a spot of fluorescent membrane lipids or proteins and watching fluorescence return as unbleached molecules diffuse in showed that diffusion is rapid and that some proteins are immobile (tethered to the cytoskeleton).\n- **Freeze-fracture electron microscopy:** splitting the bilayer down its hydrophobic midline revealed protein particles studding both leaflets, directly visualizing the \"mosaic.\"\n\n### Technique\n\nFRAP is the standard modern assay: a laser bleaches a small region of a labeled membrane, and the recovery rate reports the diffusion coefficient of that species. Freeze-fracture followed by electron microscopy images the two-dimensional distribution of intramembrane particles.",
+    "howItWorks": "1. Amphipathic lipids orient with heads out and tails in, forming a continuous bilayer.\n2. Hydrophobic transmembrane α-helices or β-barrels of proteins partition into the apolar core.\n3. Lipids and untethered proteins undergo rapid lateral diffusion in the plane of the leaflet.\n4. Peripheral proteins associate reversibly with the bilayer surface or with integral proteins.\n5. Membrane asymmetry and local clustering (rafts, cytoskeletal corrals) constrain and organize this motion, producing functional domains.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Singer & Nicolson, 1972, *Science*.\n- \"Fluid\" = lateral lipid/protein mobility; \"mosaic\" = heterogeneous embedded proteins.\n- Frye & Edidin heterokaryon: mouse + human membrane proteins intermix within minutes.\n- Flip-flop is slow; flippase enzymes catalyze it.\n- The original model understated domains, cytoskeletal tethering, and leaflet asymmetry.",
+    "commonConfusions": "- **\"The membrane is a rigid shell.\"** Wrong — it is a fluid two-dimensional liquid at physiological temperature.\n- **\"Fluid mosaic = the complete modern picture.\"** It is the 1972 starting point; modern models add lipid rafts, cortical cytoskeleton tethering, and leaflet asymmetry.\n- **\"Proteins float freely.\"** Many are anchored or confined by the cytoskeleton and move only within \"corrals.\"\n- **\"Cholesterol always stiffens membranes.\"** Cholesterol is a fluidity *buffer*, not a one-way stiffener (see the cholesterol note).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a membrane as a crowded pool full of people (lipids) floating on noodles, with bigger floats of all shapes (proteins) drifting among them. Everything can slide sideways (\"fluid\"), and the floats make a patchwork pattern (\"mosaic\"). (The analogy misses that real membranes are two layers, are studded with anchored objects that do not drift, and carry busy machinery actively moving things — it is not just people bobbing around.)",
+    "quickReview": "- Bilayer of amphipathic phospholipids = the fluid phase.\n- Embedded proteins = the mosaic.\n- Lateral diffusion fast; flip-flop slow.\n- Evidence: cell fusion, FRAP, freeze-fracture.\n- 1972 Singer–Nicolson model, refined by later discoveries.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"5.1 Components and Structure.\" https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+        "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Lipid Bilayer.\" https://www.ncbi.nlm.nih.gov/books/NBK26871/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26871/"
+      },
+      {
+        "text": "Cooper, *The Cell: A Molecular Approach*, 2nd ed. https://www.ncbi.nlm.nih.gov/books/NBK9839/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9839/"
+      },
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, \"3.1 The Cell Membrane.\" https://openstax.org/books/anatomy-and-physiology-2e/pages/3-1-the-cell-membrane",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-1-the-cell-membrane"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/02-membranes-transport/01-fluid-mosaic-model.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:electrochemistry:electrochemistry-and-equilibrium",
+  "slug": "electrochemistry-and-equilibrium",
+  "title": "Electrochemistry and Equilibrium",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:electrochemistry",
+    "slug": "electrochemistry",
+    "title": "Electrochemistry",
+    "order": 8
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "Equilibrium and cell potential are two faces of the same thermodynamic reality. Combining ΔG° = −nFE°cell with ΔG° = −RT ln K gives **ln K = nFE°cell / (RT)** (equivalently E°cell = (RT/nF) ln K). Because the relationship is exponential, a positive cell potential of only a few tenths of a volt corresponds to an enormous K; conversely, measuring a cell voltage is a precise way to determine an equilibrium constant. This is the final link in the chain E°cell ⇄ ΔG° ⇄ K.",
+    "whyItMatters": "This equation makes electrochemistry a precision tool for thermochemistry: a voltmeter can measure equilibrium constants that are too large or too small to measure by ordinary concentration methods. It also explains battery design — the bigger the gap between the two electrodes' potentials, the more completely the reaction runs and the more energy per electron is available.",
+    "learningObjectives": "- Derive and use ln K = nFE°cell / (RT).\n- Calculate K from E°cell and E°cell from K.\n- Explain why even a modest cell voltage can imply an enormous equilibrium constant.\n- Connect E°cell, ΔG°, and K in a single logical chain.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nEquilibrium and cell potential are two faces of the same thermodynamic reality. Combining ΔG° = −nFE°cell with ΔG° = −RT ln K gives **ln K = nFE°cell / (RT)** (equivalently E°cell = (RT/nF) ln K). Because the relationship is exponential, a positive cell potential of only a few tenths of a volt corresponds to an enormous K; conversely, measuring a cell voltage is a precise way to determine an equilibrium constant. This is the final link in the chain E°cell ⇄ ΔG° ⇄ K.\n\n### Key Ideas\n\n- **One chain, three quantities.** E°cell (volts), ΔG° (joules), and K (dimensionless) all encode the same spontaneity information.\n- **Logarithmic bridge.** ln K = nFE°cell/(RT) follows directly from setting the two ΔG° expressions equal.\n- **Exponential amplification.** K = e^(nFE°cell/RT) — small voltage differences mean huge K differences.\n- **At 25 °C, a convenient constant.** (RT/nF) = 0.0257 V/n (using ln) or 0.0592 V/n (using log₁₀).\n- **Positive E°cell ⇒ K > 1** (products favored); negative E°cell ⇒ K < 1 (reactants favored).\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| E°cell | Standard cell potential | V |\n| K | Equilibrium constant | dimensionless |\n| n | Moles of electrons transferred | mol e⁻ |\n| F | Faraday constant = 96,485 C/mol e⁻ | C/mol |\n| R | Gas constant = 8.314 J/(mol·K) | J/(mol·K) |\n| T | Absolute temperature | K |\n\nln K = nFE°cell / (RT)\n\n### How It Works\n\n1. Balance the reaction and find n and E°cell.\n2. Use the ln form (or the 25 °C shortcut: log K = nE°cell / 0.0592 V).\n3. Solve for K = e^(ln K).\n4. Interpret: K ≫ 1 (product-favored), K ≈ 1 (balanced), K ≪ 1 (reactant-favored).\n\n### Worked Example\n\n**Calculate K at 25 °C for Zn(s) + Cu²⁺(aq) ⇌ Zn²⁺(aq) + Cu(s).**\n\n- n = 2, E°cell = +1.10 V.\n- ln K = nFE°cell/(RT) = (2)(96,485 C/mol)(1.10 V) / (8.314 J/(mol·K) × 298 K)\n- Numerator = 212,267 J/mol; denominator = 2477.6 J/mol.\n- ln K = 212,267 / 2477.6 = 85.7\n- K = e^85.7 = **1.6 × 10³⁷**\n\nAn essentially infinite equilibrium constant — the Zn/Cu reaction runs essentially to completion. (Using the shortcut: log K = (2 × 1.10)/0.0592 = 37.2, so K = 10^37.2 ≈ 1.6 × 10³⁷, matching.)",
+    "howItWorks": "1. Balance the reaction and find n and E°cell.\n2. Use the ln form (or the 25 °C shortcut: log K = nE°cell / 0.0592 V).\n3. Solve for K = e^(ln K).\n4. Interpret: K ≫ 1 (product-favored), K ≈ 1 (balanced), K ≪ 1 (reactant-favored).",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- ln K = nFE°cell/(RT); K = e^(nFE°cell/RT).\n- At 25 °C: E°cell = (0.0257 V/n) ln K, or log K = nE°cell / 0.0592 V.\n- E°cell > 0 ⇒ K > 1; E°cell < 0 ⇒ K < 1; E°cell = 0 ⇒ K = 1.\n- Small voltage changes ⇒ huge K changes (exponential).\n- Full chain: ΔG° = −nFE°cell = −RT ln K.\n- Use T in Kelvin and consistent units for F, R, and E°cell.",
+    "commonConfusions": "- **\"Use log K = nE°/0.0592 with E° in millivolts.\"** — Wrong. E° must be in volts for the 0.0592 shortcut.\n- **\"Big E°cell means small K.\"** — Wrong. Larger E°cell means larger K (positive E°cell ⇒ K > 1).\n- **\"K = nFE°/(RT) directly.\"** — Wrong. It is ln K = nFE°/(RT); you must exponentiate to get K.\n- **\"The 0.0592 factor works at any temperature.\"** — Wrong. 0.0592 V assumes 25 °C (298 K).\n- **\"n is the same as the cell's coefficient of the cathode.\"** — Wrong. n is the total electrons transferred in the balanced net reaction.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a see-saw where the two seats are \"reactants\" and \"products.\" The cell voltage is how hard the see-saw tilts. You'd think a tiny tilt means the products barely win — but no: the tilt-to-K conversion is exponential, like a lever with a giant mechanical advantage. A modest 1-volt tilt slams the see-saw almost flat to the products side — K becomes astronomically large. That's why a humble 1.1-volt battery can drive its reaction essentially to completion. (The limit: K describes the *equilibrium position*, not how fast it gets there — a huge K can still be kinetically slow.)",
+    "quickReview": "- ln K = nFE°cell/(RT).\n- At 25 °C, log K = nE°cell/0.0592 V.\n- Positive E°cell ⇒ K > 1 (product-favored).\n- K depends exponentially on E°cell.\n- Chain: ΔG° = −nFE°cell = −RT ln K.",
+    "workedExamples": "### Worked Example\n\n**Calculate K at 25 °C for Zn(s) + Cu²⁺(aq) ⇌ Zn²⁺(aq) + Cu(s).**\n\n- n = 2, E°cell = +1.10 V.\n- ln K = nFE°cell/(RT) = (2)(96,485 C/mol)(1.10 V) / (8.314 J/(mol·K) × 298 K)\n- Numerator = 212,267 J/mol; denominator = 2477.6 J/mol.\n- ln K = 212,267 / 2477.6 = 85.7\n- K = e^85.7 = **1.6 × 10³⁷**\n\nAn essentially infinite equilibrium constant — the Zn/Cu reaction runs essentially to completion. (Using the shortcut: log K = (2 × 1.10)/0.0592 = 37.2, so K = 10^37.2 ≈ 1.6 × 10³⁷, matching.)",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 17.4 \"Potential, Free Energy, and Equilibrium.\" https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium"
+      },
+      {
+        "text": "NIST CODATA (Faraday constant). https://physics.nist.gov/cuu/Constants/",
+        "url": "https://physics.nist.gov/cuu/Constants/"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "electrochemistry-and-equilibrium",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "07-electrochemistry-and-equilibrium",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:6bdb367cc6d89d6a"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:6bdb367cc6d89d6a"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:6bdb367cc6d89d6a"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:6bdb367cc6d89d6a"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/17-electrochemistry/07-electrochemistry-and-equilibrium.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Electrochemistry and Equilibrium\n\n## Learning Goals\n\n- Derive and use ln K = nFE°cell / (RT).\n- Calculate K from E°cell and E°cell from K.\n- Explain why even a modest cell voltage can imply an enormous equilibrium constant.\n- Connect E°cell, ΔG°, and K in a single logical chain.\n\n## Core Concept\n\nEquilibrium and cell potential are two faces of the same thermodynamic reality. Combining ΔG° = −nFE°cell with ΔG° = −RT ln K gives **ln K = nFE°cell / (RT)** (equivalently E°cell = (RT/nF) ln K). Because the relationship is exponential, a positive cell potential of only a few tenths of a volt corresponds to an enormous K; conversely, measuring a cell voltage is a precise way to determine an equilibrium constant. This is the final link in the chain E°cell ⇄ ΔG° ⇄ K.\n\n## Key Ideas\n\n- **One chain, three quantities.** E°cell (volts), ΔG° (joules), and K (dimensionless) all encode the same spontaneity information.\n- **Logarithmic bridge.** ln K = nFE°cell/(RT) follows directly from setting the two ΔG° expressions equal.\n- **Exponential amplification.** K = e^(nFE°cell/RT) — small voltage differences mean huge K differences.\n- **At 25 °C, a convenient constant.** (RT/nF) = 0.0257 V/n (using ln) or 0.0592 V/n (using log₁₀).\n- **Positive E°cell ⇒ K > 1** (products favored); negative E°cell ⇒ K < 1 (reactants favored).\n\n## Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| E°cell | Standard cell potential | V |\n| K | Equilibrium constant | dimensionless |\n| n | Moles of electrons transferred | mol e⁻ |\n| F | Faraday constant = 96,485 C/mol e⁻ | C/mol |\n| R | Gas constant = 8.314 J/(mol·K) | J/(mol·K) |\n| T | Absolute temperature | K |\n\nln K = nFE°cell / (RT)\n\n## How It Works\n\n1. Balance the reaction and find n and E°cell.\n2. Use the ln form (or the 25 °C shortcut: log K = nE°cell / 0.0592 V).\n3. Solve for K = e^(ln K).\n4. Interpret: K ≫ 1 (product-favored), K ≈ 1 (balanced), K ≪ 1 (reactant-favored).\n\n## Worked Example\n\n**Calculate K at 25 °C for Zn(s) + Cu²⁺(aq) ⇌ Zn²⁺(aq) + Cu(s).**\n\n- n = 2, E°cell = +1.10 V.\n- ln K = nFE°cell/(RT) = (2)(96,485 C/mol)(1.10 V) / (8.314 J/(mol·K) × 298 K)\n- Numerator = 212,267 J/mol; denominator = 2477.6 J/mol.\n- ln K = 212,267 / 2477.6 = 85.7\n- K = e^85.7 = **1.6 × 10³⁷**\n\nAn essentially infinite equilibrium constant — the Zn/Cu reaction runs essentially to completion. (Using the shortcut: log K = (2 × 1.10)/0.0592 = 37.2, so K = 10^37.2 ≈ 1.6 × 10³⁷, matching.)\n\n## Why It Matters\n\nThis equation makes electrochemistry a precision tool for thermochemistry: a voltmeter can measure equilibrium constants that are too large or too small to measure by ordinary concentration methods. It also explains battery design — the bigger the gap between the two electrodes' potentials, the more completely the reaction runs and the more energy per electron is available.\n\n## High-Yield Facts\n\n- ln K = nFE°cell/(RT); K = e^(nFE°cell/RT).\n- At 25 °C: E°cell = (0.0257 V/n) ln K, or log K = nE°cell / 0.0592 V.\n- E°cell > 0 ⇒ K > 1; E°cell < 0 ⇒ K < 1; E°cell = 0 ⇒ K = 1.\n- Small voltage changes ⇒ huge K changes (exponential).\n- Full chain: ΔG° = −nFE°cell = −RT ln K.\n- Use T in Kelvin and consistent units for F, R, and E°cell.\n\n## Eli Explains\n\nImagine a see-saw where the two seats are \"reactants\" and \"products.\" The cell voltage is how hard the see-saw tilts. You'd think a tiny tilt means the products barely win — but no: the tilt-to-K conversion is exponential, like a lever with a giant mechanical advantage. A modest 1-volt tilt slams the see-saw almost flat to the products side — K becomes astronomically large. That's why a humble 1.1-volt battery can drive its reaction essentially to completion. (The limit: K describes the *equilibrium position*, not how fast it gets there — a huge K can still be kinetically slow.)\n\n## Common Confusions\n\n- **\"Use log K = nE°/0.0592 with E° in millivolts.\"** — Wrong. E° must be in volts for the 0.0592 shortcut.\n- **\"Big E°cell means small K.\"** — Wrong. Larger E°cell means larger K (positive E°cell ⇒ K > 1).\n- **\"K = nFE°/(RT) directly.\"** — Wrong. It is ln K = nFE°/(RT); you must exponentiate to get K.\n- **\"The 0.0592 factor works at any temperature.\"** — Wrong. 0.0592 V assumes 25 °C (298 K).\n- **\"n is the same as the cell's coefficient of the cathode.\"** — Wrong. n is the total electrons transferred in the balanced net reaction.\n\n## Quick Review\n\n- ln K = nFE°cell/(RT).\n- At 25 °C, log K = nE°cell/0.0592 V.\n- Positive E°cell ⇒ K > 1 (product-favored).\n- K depends exponentially on E°cell.\n- Chain: ΔG° = −nFE°cell = −RT ln K.\n\n## Sources\n\n- OpenStax, *Chemistry 2e*, Ch. 17.4 \"Potential, Free Energy, and Equilibrium.\" https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium\n- NIST CODATA (Faraday constant). https://physics.nist.gov/cuu/Constants/\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n"
+}

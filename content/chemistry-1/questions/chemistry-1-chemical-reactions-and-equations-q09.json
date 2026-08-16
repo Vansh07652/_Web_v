@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-chemical-reactions-and-equations-q09",
+  "subject": "chemistry-1",
+  "lesson": "chemical-reactions-and-equations",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In a hypothetical student synthesis, the calculated theoretical yield of a salt is 25 g and the mass actually isolated after purification is 20 g. What is the percent yield of the reaction?",
+  "options": [
+    {
+      "id": "a",
+      "text": "125%, found by dividing the theoretical yield by the actual yield"
+    },
+    {
+      "id": "b",
+      "text": "80%, found by dividing the actual yield by the theoretical yield"
+    },
+    {
+      "id": "c",
+      "text": "20%, because the isolated mass in grams is reported directly as the percentage"
+    },
+    {
+      "id": "d",
+      "text": "0.8%, found from the ratio of actual to theoretical without converting to a percentage"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Percent yield = (actual yield / theoretical yield) x 100 = (20 / 25) x 100 = 80%. Theoretical yield comes from the balanced equation applied to the limiting reactant; actual yield is what is physically recovered, and it is normally lower because of side reactions, incomplete reaction, and losses during transfer and filtration. A reported yield above 100% almost always signals an impure or incompletely dried product rather than extra material.\n\nELI-10: Percent yield compares what you got with what the stoichiometry promised. You were promised 25 g and recovered 20 g, so you kept 20 out of every 25, which is 4 out of every 5, or 80 out of 100. Two habits prevent errors here: put the actual amount on top, and remember to multiply the ratio by 100.",
+  "difficulty": "medium",
+  "tags": [
+    "percent yield",
+    "theoretical vs actual yield",
+    "reaction efficiency"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-276",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

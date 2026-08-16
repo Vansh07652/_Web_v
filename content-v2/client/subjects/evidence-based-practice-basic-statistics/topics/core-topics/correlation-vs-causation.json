@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:evidence-based-practice-basic-statistics:core-topics:correlation-vs-causation",
+  "slug": "correlation-vs-causation",
+  "title": "Correlation vs Causation",
+  "subject": {
+    "id": "subject:evidence-based-practice-basic-statistics",
+    "slug": "evidence-based-practice-basic-statistics",
+    "title": "Evidence-Based Practice & Basic Statistics"
+  },
+  "unit": {
+    "id": "unit:evidence-based-practice-basic-statistics:core-topics",
+    "slug": "core-topics",
+    "title": "Core Topics",
+    "order": 1
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nPicture each adult as one dot on a graph, steps across the bottom and energy up the side. The number r reports exactly two features of that cloud of dots: whether it slopes up or down, and how tightly the dots hug a straight line. An r of 0.6 means 'slopes up, moderately tight.' Notice what is missing from that description: nothing about which variable came first, and nothing about what would happen if you deliberately changed one. The coefficient can describe the pattern, but it cannot explain where the pattern came from.\n\n### Question 2\n\nA light switch shows what causation means. You flip it and the light comes on; you flip it back and the light goes off. You are not merely noticing that switches and lights change around the same time, you are producing the change, and you can reverse it on demand. The researchers did the same thing with the supplement: they controlled who received it, and the group that received it gained 12 units while the untouched group sat still. A correlation study never gets to do that flipping, which is exactly the difference the four terms are testing.\n\n### Question 3\n\nRoosters crow just before sunrise nearly every day, so the two events track each other almost perfectly. No rooster has ever lifted the sun; the Earth's rotation sets off both. That is the whole lesson: a tight match tells you the two things happen together, and the honest next question is 'what could produce that pattern?' A shared cause, a backwards arrow, and plain luck are all still standing after you compute r, and 0.85 does not knock any of them down.\n\n### Question 4\n\nTwo students in different classrooms both start yawning at 2 p.m. every afternoon. Neither one made the other yawn; both ate a heavy lunch at noon. The lunch is a shared upstream cause, and it makes two unconnected people look connected. Temperature plays that role here. Warm months send sales up and send more people into the water, so the two monthly counts rise and fall together on the graph while neither one touches the other. Whenever two things track the calendar, look for what the calendar is doing to both.\n\n### Question 5\n\nFirefighters show up wherever the biggest fires are burning. Looking only at the counts, you might conclude 'more firefighters, more fire, so firefighters must be starting them.' The fire came first and summoned the trucks. Reverse causation means the arrow points the opposite way from the one you assumed, and it is easy to miss when both variables are measured on the same day, as in this survey. Asking 'which one plausibly came first?' is the fastest way to catch it.\n\n### Question 6\n\nIf students choose whether to attend the workshop, the most motivated ones sign up, and their motivation walks into the results alongside the workshop. You can never separate the two afterward. Deciding by coin flip gives a motivated student no better chance of landing in one group of 30 than the other, so motivation is no longer stacked on the workshop's side. The two groups may still end up a little uneven by luck, but the unevenness is no longer pointed in a predictable direction, which leaves the workshop as the one difference the researchers built in on purpose. Adding more students or more decimal places measures the same tangled pattern with a finer ruler; it does not untangle it.\n\n### Question 7\n\nRead r as two separate pieces of information stuck together. The sign is a direction label: plus means the two rise together, minus means one rises as the other falls. The size, ignoring the sign, is a tightness rating, so -0.8 describes a tighter pattern than +0.4 the same way -8 sits farther from zero than +4. Neither piece is a verdict about value or about cause. A minus sign is not bad news, and a big number is not proof.\n\n### Question 8\n\nSuppose you learn that kids who own soccer cleats run faster. Did the cleats do it, or do kids who already love running practice daily and eventually buy cleats? Nobody handed out cleats at random, so the kids sorted themselves, and everything else about them sorted along with them. Coffee works the same way here: people chose their own cup count, and their sleep, income, and smoking habits came with the choice. Ten years of watching does not undo that sorting.\n\n### Question 9\n\nPlot the number of pirates in the world against average global temperature and the two lines mirror each other beautifully: pirates down, temperature up. No one believes pirates cooled the planet. Any two national totals that drift steadily across the same decade will trace similar lines, because both are riding time rather than each other. That is what 'spurious' means: the number is computed correctly and the pattern is real on the page, while the connection it suggests does not exist.\n\n### Question 10\n\nA thermometer tells you how hot the oven is, not how many minutes the cookies need. Right kind of number, wrong job. An r of 0.5 says 'these two move together, moderately, in the same direction,' and it has no units attached, so it cannot be cashed in for half a point per hour. A regression slope is the statistic that does that job. On top of that, nobody assigned anyone study hours, so the heavy studiers may also be the ones doing the readings and sleeping well.\n\n### Question 11\n\nOne scoop of fertilizer gives a slightly taller plant, two scoops a taller one, three scoops taller still. Coincidence almost never lines up into a neat staircase like that, and a hidden third factor would have to be graded in the same steps to fake it. Add the fact that you fertilized before the growth rather than after, and the alternative stories get very hard to tell. That staircase is what researchers mean by dose-response, and it is why each added 10 minutes bringing a bigger sleep gain matters more here than a bigger r.\n\n### Question 12\n\nThink about caffeine and alertness. A little helps, a lot makes you jittery and scattered, so the plotted dots form an upside-down U. Ask a straight-line statistic to summarize that arch and it reports something close to zero, because the rising half and the falling half cancel out, even though caffeine is obviously doing something. So r = 0.1 supports the modest statement 'no strong straight-line pattern here.' The leap to 'no effect' asks a straight-line tool to rule out every shape of relationship, which it was never built to do.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Introductory Statistics — OpenStax",
+        "url": "https://openstax.org/details/books/introductory-statistics"
+      },
+      {
+        "text": "Evidence-Based Practice resources — U.S. National Library of Medicine",
+        "url": "https://www.nlm.nih.gov/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "expansion-question-bank",
+    "sourceFile": "Education/pre-nursing-expansion-question-bank/questions/17-evidence-statistics/340-correlation-vs-causation.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false
+  },
+  "sourceSnapshotMarkdown": ""
+}

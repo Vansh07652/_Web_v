@@ -1,0 +1,41 @@
+{
+  "id": "genetics-gene-regulation-prokaryotes-0003",
+  "subject": "genetics",
+  "lesson": "gene-regulation-prokaryotes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application *E. coli* is grown in a medium containing both glucose and lactose. Which molecular state explains the low level of lac transcription observed in these conditions?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Glucose inactivates the Lac repressor, so transcription is blocked."
+    },
+    {
+      "id": "b",
+      "text": "Glucose binds the *lacO* operator directly and prevents RNA polymerase binding."
+    },
+    {
+      "id": "c",
+      "text": "Glucose keeps cAMP levels low, so the CAP protein does not bind its site and RNA polymerase initiates poorly."
+    },
+    {
+      "id": "d",
+      "text": "Glucose binds CAP directly and inactivates it, without any change in cAMP."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "CAP, the catabolite activator protein encoded by *crp*, is a positive regulator that binds the lac promoter region only when complexed with cAMP, which adenylate cyclase (encoded by *cyaA*) synthesizes when glucose is scarce. Glucose lowers cAMP, so CAP cannot help RNA polymerase even though lactose has inactivated the repressor. A confuses catabolite repression with induction, and B and D invent direct glucose interactions.",
+  "difficulty": "unknown",
+  "tags": [
+    "glucose",
+    "plus",
+    "lactose",
+    "catabolite",
+    "repression"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-3367b1216fd616d4",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

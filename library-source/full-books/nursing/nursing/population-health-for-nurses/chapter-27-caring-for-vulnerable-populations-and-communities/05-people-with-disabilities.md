@@ -1,0 +1,127 @@
+---
+title: "People with Disabilities"
+subject: "Nursing"
+book: "Population Health for Nurses"
+chapter: "27: Caring for Vulnerable Populations and Communities"
+topic_number: "5"
+source: "population-health.md"
+tags:
+  - "people-with-disabilities"
+  - "nursing"
+status: "complete"
+---
+
+# People with Disabilities
+
+> **Book:** [Population Health for Nurses](../../README.md)  
+> **Chapter:** [Chapter 27: Caring for Vulnerable Populations and Communities](../README.md)  
+> **Topic:** 5  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+People with disabilities make up a large, diverse population, and disability intersects with every other group in this chapter. A **disability** is a condition of the body or mind that makes it harder to do certain activities and interact with the world — but *how* that difficulty is understood matters enormously. The **medical model** views disability as a defect within the individual to be fixed or cured. The **social model** argues that disability is largely created by environments, attitudes, and systems that fail to accommodate difference — a wheelchair user is "disabled" by stairs and doorways more than by their legs. Modern frameworks, including the World Health Organization's biopsychosocial model, treat disability as the interaction between a person's condition and their environment: change the environment and you change the disability.
+
+This is not academic. It shapes whether a nurse asks "what is wrong with this patient?" or "what barriers does this person face, and how can I remove them?" It shapes policy, access, and the everyday quality of care. The population-health question is how to deliver equitable, accessible care to a group that experiences significant health disparities and frequent barriers to services.
+
+## Why This Matters
+
+People with disabilities have worse health outcomes than the general population — more chronic conditions, more unmet health care needs, fewer preventive services — even though disability itself is not a disease. Much of this gap is driven by **barriers**: physical (inaccessible offices and exam tables), communication (no interpreters or accessible materials), attitudinal (providers who assume a person cannot participate in their own care), and systemic (fewer screenings offered, shorter visits, insurance limits).
+
+Nurses often control the front door of care. Asking how a person prefers to communicate, offering help with transfers, or booking a longer visit can convert a barrier into an accessible encounter. Nurses are also positioned to notice exclusion — the patient whose questions are answered by a companion, or the clinic that never considered wheelchair access. The exam theme: disability-related disparities are largely **modifiable** — accessible care is good nursing, not a specialty add-on.
+
+## Core Concepts
+
+### Defining disability: models and language
+
+How we define disability determines how we respond to it. The **medical model** treats disability as an individual deficit to treat or cure; the **social model** treats it as a product of inaccessible environments and exclusionary attitudes. The WHO's **International Classification of Functioning, Disability and Health (ICF)** integrates both: functioning and disability result from the interaction of a health condition, body functions, activities, participation, and environmental and personal factors. A person with a spinal cord injury has limited mobility and difficulty with certain activities, but participation depends heavily on whether ramps, transportation, and inclusive policies exist.
+
+Language follows values. **Person-first language** ("a person who uses a wheelchair") emphasizes that the person is not defined by their condition; **identity-first language** ("a Deaf person") is preferred by many in disability communities who see disability as a valued identity. Neither is universally correct: ask how people describe themselves and mirror that. Avoid stigmatizing terms like "wheelchair-bound" — a wheelchair enables mobility.
+
+### Disability as a health disparity population
+
+People with disabilities are more likely to report fair or poor health and multiple chronic conditions, and less likely to receive recommended preventive care. Contributing factors include poverty (disability is associated with lower income and employment barriers), transportation problems, and health systems designed without accessibility in mind. For the nurse, this means treating disability like any vulnerable-group lens: look for patterns of unmet need, ask about access (can this person get here? get in? use the equipment? understand the instructions?), and treat accommodations as standard practice.
+
+Also be alert to **secondary conditions** — preventable problems arising from a primary disability, such as pressure injuries with limited mobility — and to **diagnostic overshadowing**: attributing a new symptom to the disability and missing a treatable illness.
+
+### Legal and policy context
+
+In the United States, the **Americans with Disabilities Act (ADA)** of 1990 prohibits disability discrimination in employment, public services, public accommodations, and telecommunications, and requires reasonable accommodations. **Section 504 of the Rehabilitation Act of 1973** protects people with disabilities in programs receiving federal funding — including most health care institutions — which is why clinics must provide auxiliary aids and services such as interpreters and accessible materials. Requirements vary by jurisdiction; the ethical principle behind compliance is **equity** — accommodations are how care becomes genuinely available to everyone.
+
+### The nurse's role: accessible, person-centered care
+
+Nursing care starts with the same assessment and respect given to anyone, plus attention to access: ask how the person prefers to communicate and who they want involved; confirm hearing and vision needs before teaching; offer transfer assistance rather than assuming; obtain consent from the person themselves; and provide education in usable formats — plain language, large print, captioned video, or teach-back. Scope note: accommodations (arranging professional interpreters, transfer equipment) follow institutional policy and nursing competence; escalate access barriers you cannot resolve.
+
+## ELI-10: Explain Like I'm 10
+
+Imagine a playground with only stairs to the slide — kids who can't climb stairs can't play, even though nothing is wrong with the slide. That's how disability works: the person's body or mind is different, but the "problem" is often the stairs, not the kid. Nurses help by finding the stairs — the barriers in clinics, messages, and attitudes — and removing them so everyone can join in.
+
+## High-Yield Points
+
+- **Models matter:** medical model fixes the person; social model removes barriers; ICF combines both — disability = condition × environment.
+- **Disability is a health disparity population:** worse outcomes and fewer preventive services are driven largely by modifiable barriers (physical, communication, attitudinal, systemic).
+- **Language is a choice with consequences:** use person-first or identity-first language as the individual prefers; avoid stigmatizing terms like "wheelchair-bound."
+- **Know the policy anchors:** the ADA and Section 504 require accessibility and reasonable accommodations in U.S. health care; requirements vary by jurisdiction.
+- **Diagnostic overshadowing is a real trap:** new symptoms may be a treatable illness, not "just part of the disability."
+- **Ask, don't assume:** how does the person communicate, transfer, and learn — and who do they want involved? Accommodations are standard practice.
+- **Watch for secondary conditions** (pressure injuries, contractures) and unmet preventive needs.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Disability | A condition of the body or mind that makes certain activities harder, shaped by the environment | The definition determines whether we "fix the person" or "fix the barriers" |
+| Medical model of disability | Views disability as an individual defect to be treated or cured | Can lead to care focused on the condition rather than the person's goals |
+| Social model of disability | Views disability as caused by inaccessible environments and attitudes | Points interventions at removing barriers — ramps, interpreters, inclusive policies |
+| ICF | WHO framework describing functioning as the interaction of condition, body function, activity, participation, and environment | The standard person-and-environment lens for assessing disability |
+| Reasonable accommodation | A modification that lets a person with a disability participate equally (interpreter, accessible exam room) | Legally required in many settings; the practical tool for equitable access |
+| Diagnostic overshadowing | Attributing a new health problem to a person's existing disability and missing a treatable illness | A documented cause of missed diagnoses in people with disabilities |
+| Person-first / identity-first language | Describing the person before the condition, or the identity first, as preferred | Respectful, individualized language that avoids stigma |
+
+## Example: Scenario — The front door of care
+
+A community clinic schedules a new-patient visit for Ms. Alvarez, a woman with cerebral palsy who uses a power wheelchair and communicates with a speech-generating device. The receptionist, unsure how to "handle" her, directs all questions to her adult daughter. The nurse gently redirects: she speaks directly to Ms. Alvarez, asks how she prefers to communicate, and confirms her daughter is there as support, not as the decision-maker. She checks the exam room is accessible, asks whether Ms. Alvarez needs transfer assistance, and offers it rather than assuming. During the visit, Ms. Alvarez reports increasing fatigue. The nurse assesses it as a new symptom rather than dismissing it as part of her disability — and the workup identifies a treatable anemia. The teaching point: three ordinary nursing behaviors — direct communication, an offered transfer, and refusing to attribute new symptoms to the disability — turned an excluding visit into the visit that found the real problem.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Disability itself | Illness or poor health | Disability is a status, not a disease; disparities come mostly from barriers |
+| Person-first vs identity-first language | One being "correct" | Preference varies by individual and community — ask and mirror |
+| "Wheelchair-bound" | "Wheelchair user" | A wheelchair enables mobility; "bound" implies being trapped |
+| Assuming a companion speaks for the person | Respecting decision-making rights | People with disabilities make their own decisions; use interpreters for communication access |
+| New symptoms = part of the disability | New treatable problem | Diagnostic overshadowing causes missed diagnoses — assess new symptoms on their own merits |
+| Accessibility as a "special favor" | Accessibility as standard practice | Accommodations are legal requirements and core to equitable care |
+
+## Quick Review
+
+1. How does the social model of disability differ from the medical model, and why does the difference matter in nursing?
+2. Why are people with disabilities considered a health disparity population?
+3. What is diagnostic overshadowing, and what does it mean for assessment?
+4. A patient who is Deaf requests an American Sign Language interpreter. What legal and practical considerations apply?
+5. A nurse is teaching a patient with low vision about a new medication. Name two ways to make the teaching accessible.
+
+<details>
+<summary>Show answers</summary>
+
+1. The medical model sees disability as an individual defect to fix; the social model sees it as the product of inaccessible environments and attitudes. The difference changes the intervention: changing the person versus removing barriers in environments, communication, and systems.
+2. People with disabilities have worse health outcomes and receive fewer preventive services, driven largely by modifiable barriers — physical, communication, attitudinal, and systemic — plus higher poverty rates and unmet health care needs.
+3. Diagnostic overshadowing is attributing a new symptom to a person's existing disability and therefore missing a treatable illness. In assessment, it means evaluating every new symptom on its own merits.
+4. Under the ADA and Section 504, the clinic must provide auxiliary aids such as a qualified interpreter; family members generally should not substitute for professional interpreters, and institutional policy governs arrangements. Exact requirements vary by jurisdiction.
+5. Provide materials in large print or accessible formats, use plain language with teach-back, review instructions verbally, and ensure good lighting. Ask the person what format works best.
+
+</details>
+
+## Related Topics
+
+- Previous: [Migrant Workers](04-migrant-workers.md)
+- Next: [Impact of Adverse Childhood Experiences](06-impact-of-adverse-childhood-experiences.md)
+- Related: [Caring for Vulnerable Populations and Communities chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Population Health for Nurses
+- Local outline source: `population-health.md`
+- Official source URL: https://openstax.org/details/books/population-health/
+- Content type: Original educational study guide based on OpenStax outline structure. Educational draft only — accommodation requirements, interpreter policies, and accessibility standards vary by jurisdiction and institution and must be verified against local law and facility policy.
+- Last updated: 2026-08-16

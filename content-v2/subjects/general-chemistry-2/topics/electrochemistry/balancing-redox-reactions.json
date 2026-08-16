@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:electrochemistry:balancing-redox-reactions",
+  "slug": "balancing-redox-reactions",
+  "title": "Balancing Redox Reactions (Half-Reaction Method)",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:electrochemistry",
+    "slug": "electrochemistry",
+    "title": "Electrochemistry",
+    "order": 8
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "A **redox (oxidation–reduction) reaction** transfers electrons between species: the substance that loses electrons is **oxidized** (its oxidation number increases) and the substance that gains electrons is **reduced** (its oxidation number decreases). Because free electrons never appear in a balanced net equation, redox equations are balanced with the **half-reaction method**: split the reaction into an oxidation half-reaction and a reduction half-reaction, balance each for atoms and charge (using H⁺, H₂O in acid; then OH⁻ in base), equalize the electron counts, and add the halves together.",
+    "whyItMatters": "Balanced redox equations are the arithmetic of electrochemistry, corrosion, combustion, metabolism (cellular respiration), and metallurgy. Correct stoichiometry is essential before any quantitative work — cell potentials, electrolysis calculations, and titration analysis all require an exactly balanced electron count.",
+    "learningObjectives": "- Assign oxidation numbers and identify what is oxidized and what is reduced.\n- Balance redox equations in acidic solution using the half-reaction method.\n- Balance redox equations in basic solution by converting from the acidic result.\n- Verify that both atoms and charge are balanced.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA **redox (oxidation–reduction) reaction** transfers electrons between species: the substance that loses electrons is **oxidized** (its oxidation number increases) and the substance that gains electrons is **reduced** (its oxidation number decreases). Because free electrons never appear in a balanced net equation, redox equations are balanced with the **half-reaction method**: split the reaction into an oxidation half-reaction and a reduction half-reaction, balance each for atoms and charge (using H⁺, H₂O in acid; then OH⁻ in base), equalize the electron counts, and add the halves together.\n\n### Key Ideas\n\n- **Oxidation = loss of e⁻ (OIL), reduction = gain of e⁻ (RIG).** \"OIL RIG\" or \"LEO says GER.\"\n- **Half-reactions separate the transfer.** One species is oxidized (e⁻ on the product side), another is reduced (e⁻ on the reactant side).\n- **Balance O with H₂O, H with H⁺ (acid).** These come from the solvent and are always available in aqueous acid.\n- **Basic solutions: neutralize H⁺ with OH⁻.** Add OH⁻ to both sides to convert H⁺ → H₂O, then simplify.\n- **Electrons must cancel.** Multiply each half-reaction so the electrons lost equal the electrons gained.\n\n### Equations and Variables\n\n| Term | Meaning |\n|---|---|\n| Oxidation number | Apparent charge on an atom under bookkeeping rules |\n| Half-reaction | Equation showing either oxidation or reduction alone |\n| ν | Stoichiometric multiplier to equalize electrons |\n\n### How It Works (acidic conditions)\n\n1. Assign oxidation numbers to find what is oxidized and reduced.\n2. Write the two unbalanced half-reactions.\n3. Balance every atom except H and O.\n4. Balance O by adding H₂O; balance H by adding H⁺.\n5. Balance charge by adding electrons (e⁻).\n6. Multiply each half-reaction so the electron counts match.\n7. Add the halves and cancel species that appear on both sides.\n8. (Basic) Add OH⁻ to both sides to cancel H⁺, forming H₂O, and simplify.\n\n### Worked Example\n\n**Balance MnO₄⁻ + Fe²⁺ → Mn²⁺ + Fe³⁺ in acidic solution.**\n\nOxidation half-reaction: Fe²⁺ → Fe³⁺ + e⁻\nReduction half-reaction: MnO₄⁻ → Mn²⁺ (Mn goes +7 → +2, gains 5 e⁻)\n- Balance O: MnO₄⁻ → Mn²⁺ + 4 H₂O\n- Balance H: MnO₄⁻ + 8 H⁺ → Mn²⁺ + 4 H₂O\n- Balance charge: MnO₄⁻ + 8 H⁺ + 5 e⁻ → Mn²⁺ + 4 H₂O (left charge +7 −5 = +2; right +2 ✓)\n\nMultiply oxidation by 5: 5 Fe²⁺ → 5 Fe³⁺ + 5 e⁻\nAdd and cancel electrons:\n\n**MnO₄⁻ + 8 H⁺ + 5 Fe²⁺ → Mn²⁺ + 4 H₂O + 5 Fe³⁺**\n\nCheck: atoms (1 Mn, 4 O, 8 H, 5 Fe on each side ✓) and charge (+7 left = +7 right ✓).\n\n**In basic solution**, add 8 OH⁻ to both sides to neutralize the 8 H⁺: 8 H⁺ + 8 OH⁻ → 8 H₂O, giving MnO₄⁻ + 4 H₂O + 5 Fe²⁺ → Mn²⁺ + 5 Fe³⁺ + 8 OH⁻ (after canceling the 4 H₂O that appear on both sides).",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Oxidation = loss of electrons (oxidation number ↑); reduction = gain (oxidation number ↓).\n- Balance O with H₂O, H with H⁺ in acid; add OH⁻ to both sides for base.\n- Balance charge last with electrons; then equalize electron counts.\n- Electrons cancel in the final net equation — none should remain.\n- Verify: atoms and total charge must balance on both sides.\n- In basic solution, H⁺ is converted to H₂O by adding OH⁻.",
+    "commonConfusions": "- **\"Oxidation means adding oxygen.\"** — Too narrow. Oxidation is loss of electrons (often accompanied by O, but not always).\n- **\"Electrons appear in the final balanced equation.\"** — Wrong. They must cancel between the half-reactions.\n- **\"H⁺ can be added in basic solution freely.\"** — No. In base, you neutralize H⁺ by adding OH⁻ to both sides.\n- **\"Balancing charge is optional.\"** — Wrong. Both atoms *and* charge must balance.\n- **\"Reduction = loss of electrons.\"** — Wrong. Reduction is the *gain* of electrons (remember \"LEO the lion says GER\").",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nBalancing redox is like making sure two kids trade the *exact same number* of trading cards. One kid gives away cards (oxidation — loses electrons); the other collects them (reduction — gains them). You write each kid's deal separately, count the cards, then multiply so the cards given and the cards received match perfectly. At the end, no cards are left floating around — everyone's collection is accounted for. (The limit: real electrons aren't \"cards,\" and in acid we also shuffle around H⁺ and H₂O like spare change to make the atoms match.)",
+    "quickReview": "- Identify oxidation (e⁻ loss) and reduction (e⁻ gain).\n- Split into half-reactions; balance atoms, then O (H₂O), H (H⁺), then charge (e⁻).\n- Equalize electrons, add, and cancel.\n- In base, add OH⁻ to remove H⁺.\n- Verify atoms and charge balance.",
+    "workedExamples": "### Worked Example\n\n**Balance MnO₄⁻ + Fe²⁺ → Mn²⁺ + Fe³⁺ in acidic solution.**\n\nOxidation half-reaction: Fe²⁺ → Fe³⁺ + e⁻\nReduction half-reaction: MnO₄⁻ → Mn²⁺ (Mn goes +7 → +2, gains 5 e⁻)\n- Balance O: MnO₄⁻ → Mn²⁺ + 4 H₂O\n- Balance H: MnO₄⁻ + 8 H⁺ → Mn²⁺ + 4 H₂O\n- Balance charge: MnO₄⁻ + 8 H⁺ + 5 e⁻ → Mn²⁺ + 4 H₂O (left charge +7 −5 = +2; right +2 ✓)\n\nMultiply oxidation by 5: 5 Fe²⁺ → 5 Fe³⁺ + 5 e⁻\nAdd and cancel electrons:\n\n**MnO₄⁻ + 8 H⁺ + 5 Fe²⁺ → Mn²⁺ + 4 H₂O + 5 Fe³⁺**\n\nCheck: atoms (1 Mn, 4 O, 8 H, 5 Fe on each side ✓) and charge (+7 left = +7 right ✓).\n\n**In basic solution**, add 8 OH⁻ to both sides to neutralize the 8 H⁺: 8 H⁺ + 8 OH⁻ → 8 H₂O, giving MnO₄⁻ + 4 H₂O + 5 Fe²⁺ → Mn²⁺ + 5 Fe³⁺ + 8 OH⁻ (after canceling the 4 H₂O that appear on both sides).",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 17.1 \"Review of Redox Chemistry.\" https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry"
+      },
+      {
+        "text": "LibreTexts, *Chemistry 2e (OpenStax)*, Ch. 17 \"Electrochemistry.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenSTAX%29/17%3A_Electrochemistry",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenSTAX%29/17%3A_Electrochemistry"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "balancing-redox-reactions",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "01-balancing-redox-reactions",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:4cf473a537eac292"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:4cf473a537eac292"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:4cf473a537eac292"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:4cf473a537eac292"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/17-electrochemistry/01-balancing-redox-reactions.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Balancing Redox Reactions (Half-Reaction Method)\n\n## Learning Goals\n\n- Assign oxidation numbers and identify what is oxidized and what is reduced.\n- Balance redox equations in acidic solution using the half-reaction method.\n- Balance redox equations in basic solution by converting from the acidic result.\n- Verify that both atoms and charge are balanced.\n\n## Core Concept\n\nA **redox (oxidation–reduction) reaction** transfers electrons between species: the substance that loses electrons is **oxidized** (its oxidation number increases) and the substance that gains electrons is **reduced** (its oxidation number decreases). Because free electrons never appear in a balanced net equation, redox equations are balanced with the **half-reaction method**: split the reaction into an oxidation half-reaction and a reduction half-reaction, balance each for atoms and charge (using H⁺, H₂O in acid; then OH⁻ in base), equalize the electron counts, and add the halves together.\n\n## Key Ideas\n\n- **Oxidation = loss of e⁻ (OIL), reduction = gain of e⁻ (RIG).** \"OIL RIG\" or \"LEO says GER.\"\n- **Half-reactions separate the transfer.** One species is oxidized (e⁻ on the product side), another is reduced (e⁻ on the reactant side).\n- **Balance O with H₂O, H with H⁺ (acid).** These come from the solvent and are always available in aqueous acid.\n- **Basic solutions: neutralize H⁺ with OH⁻.** Add OH⁻ to both sides to convert H⁺ → H₂O, then simplify.\n- **Electrons must cancel.** Multiply each half-reaction so the electrons lost equal the electrons gained.\n\n## Equations and Variables\n\n| Term | Meaning |\n|---|---|\n| Oxidation number | Apparent charge on an atom under bookkeeping rules |\n| Half-reaction | Equation showing either oxidation or reduction alone |\n| ν | Stoichiometric multiplier to equalize electrons |\n\n## How It Works (acidic conditions)\n\n1. Assign oxidation numbers to find what is oxidized and reduced.\n2. Write the two unbalanced half-reactions.\n3. Balance every atom except H and O.\n4. Balance O by adding H₂O; balance H by adding H⁺.\n5. Balance charge by adding electrons (e⁻).\n6. Multiply each half-reaction so the electron counts match.\n7. Add the halves and cancel species that appear on both sides.\n8. (Basic) Add OH⁻ to both sides to cancel H⁺, forming H₂O, and simplify.\n\n## Worked Example\n\n**Balance MnO₄⁻ + Fe²⁺ → Mn²⁺ + Fe³⁺ in acidic solution.**\n\nOxidation half-reaction: Fe²⁺ → Fe³⁺ + e⁻\nReduction half-reaction: MnO₄⁻ → Mn²⁺ (Mn goes +7 → +2, gains 5 e⁻)\n- Balance O: MnO₄⁻ → Mn²⁺ + 4 H₂O\n- Balance H: MnO₄⁻ + 8 H⁺ → Mn²⁺ + 4 H₂O\n- Balance charge: MnO₄⁻ + 8 H⁺ + 5 e⁻ → Mn²⁺ + 4 H₂O (left charge +7 −5 = +2; right +2 ✓)\n\nMultiply oxidation by 5: 5 Fe²⁺ → 5 Fe³⁺ + 5 e⁻\nAdd and cancel electrons:\n\n**MnO₄⁻ + 8 H⁺ + 5 Fe²⁺ → Mn²⁺ + 4 H₂O + 5 Fe³⁺**\n\nCheck: atoms (1 Mn, 4 O, 8 H, 5 Fe on each side ✓) and charge (+7 left = +7 right ✓).\n\n**In basic solution**, add 8 OH⁻ to both sides to neutralize the 8 H⁺: 8 H⁺ + 8 OH⁻ → 8 H₂O, giving MnO₄⁻ + 4 H₂O + 5 Fe²⁺ → Mn²⁺ + 5 Fe³⁺ + 8 OH⁻ (after canceling the 4 H₂O that appear on both sides).\n\n## Why It Matters\n\nBalanced redox equations are the arithmetic of electrochemistry, corrosion, combustion, metabolism (cellular respiration), and metallurgy. Correct stoichiometry is essential before any quantitative work — cell potentials, electrolysis calculations, and titration analysis all require an exactly balanced electron count.\n\n## High-Yield Facts\n\n- Oxidation = loss of electrons (oxidation number ↑); reduction = gain (oxidation number ↓).\n- Balance O with H₂O, H with H⁺ in acid; add OH⁻ to both sides for base.\n- Balance charge last with electrons; then equalize electron counts.\n- Electrons cancel in the final net equation — none should remain.\n- Verify: atoms and total charge must balance on both sides.\n- In basic solution, H⁺ is converted to H₂O by adding OH⁻.\n\n## Eli Explains\n\nBalancing redox is like making sure two kids trade the *exact same number* of trading cards. One kid gives away cards (oxidation — loses electrons); the other collects them (reduction — gains them). You write each kid's deal separately, count the cards, then multiply so the cards given and the cards received match perfectly. At the end, no cards are left floating around — everyone's collection is accounted for. (The limit: real electrons aren't \"cards,\" and in acid we also shuffle around H⁺ and H₂O like spare change to make the atoms match.)\n\n## Common Confusions\n\n- **\"Oxidation means adding oxygen.\"** — Too narrow. Oxidation is loss of electrons (often accompanied by O, but not always).\n- **\"Electrons appear in the final balanced equation.\"** — Wrong. They must cancel between the half-reactions.\n- **\"H⁺ can be added in basic solution freely.\"** — No. In base, you neutralize H⁺ by adding OH⁻ to both sides.\n- **\"Balancing charge is optional.\"** — Wrong. Both atoms *and* charge must balance.\n- **\"Reduction = loss of electrons.\"** — Wrong. Reduction is the *gain* of electrons (remember \"LEO the lion says GER\").\n\n## Quick Review\n\n- Identify oxidation (e⁻ loss) and reduction (e⁻ gain).\n- Split into half-reactions; balance atoms, then O (H₂O), H (H⁺), then charge (e⁻).\n- Equalize electrons, add, and cancel.\n- In base, add OH⁻ to remove H⁺.\n- Verify atoms and charge balance.\n\n## Sources\n\n- OpenStax, *Chemistry 2e*, Ch. 17.1 \"Review of Redox Chemistry.\" https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry\n- LibreTexts, *Chemistry 2e (OpenStax)*, Ch. 17 \"Electrochemistry.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenSTAX%29/17%3A_Electrochemistry\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n"
+}

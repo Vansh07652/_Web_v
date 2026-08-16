@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:electrochemistry:electrochemical-free-energy",
+  "slug": "electrochemical-free-energy",
+  "title": "Electrochemical Free Energy",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:electrochemistry",
+    "slug": "electrochemistry",
+    "title": "Electrochemistry",
+    "order": 8
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "The electrical work a galvanic cell can perform is tied directly to its free-energy change by **ΔG° = −nFE°cell**, where n is the number of moles of electrons transferred in the balanced equation and F is the Faraday constant (96,485 C/mol e⁻). A positive E°cell gives a negative ΔG° (spontaneous); a negative E°cell gives a positive ΔG° (nonspontaneous). This equation is the quantitative bridge between the electrical world (volts) and the thermodynamic world (joules), and it explains why batteries store chemical energy as useful electrical energy.",
+    "whyItMatters": "This equation is why batteries and fuel cells are power sources: it converts chemical free energy into a measurable voltage and, inversely, tells you the minimum voltage required to *force* a nonspontaneous reaction (electrolysis). It is the conceptual engine behind energy storage, electroplating, corrosion science, and the whole renewable-energy economy (electrolysis of water to store solar power as hydrogen).",
+    "learningObjectives": "- State and use ΔG° = −nFE°cell.\n- Identify n (moles of electrons transferred) from a balanced redox equation.\n- Calculate ΔG° from E°cell and E°cell from ΔG°.\n- Explain why a positive cell potential corresponds to a negative free-energy change.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe electrical work a galvanic cell can perform is tied directly to its free-energy change by **ΔG° = −nFE°cell**, where n is the number of moles of electrons transferred in the balanced equation and F is the Faraday constant (96,485 C/mol e⁻). A positive E°cell gives a negative ΔG° (spontaneous); a negative E°cell gives a positive ΔG° (nonspontaneous). This equation is the quantitative bridge between the electrical world (volts) and the thermodynamic world (joules), and it explains why batteries store chemical energy as useful electrical energy.\n\n### Key Ideas\n\n- **Work = charge × voltage.** ΔG° = −(nF)·E°cell is just \"maximum electrical work = total charge moved × potential difference,\" with the minus sign matching the ΔG sign convention.\n- **n counts electrons, not coefficients blindly.** n is the number of electrons transferred per reaction as balanced — the same value in both half-reactions.\n- **Faraday constant F = 96,485 C/mol e⁻.** The charge of one mole of electrons.\n- **Signs coupled.** E°cell > 0 ⇔ ΔG° < 0; E°cell < 0 ⇔ ΔG° > 0.\n- **Unit hygiene.** nF·E°cell comes out in joules (C × V = J); convert to kJ/mol as needed.\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| ΔG° | Standard free-energy change | J/mol (or kJ/mol) |\n| n | Moles of electrons transferred | mol e⁻ |\n| F | Faraday constant = 96,485 C/mol e⁻ | C/mol e⁻ |\n| E°cell | Standard cell potential | V |\n\nΔG° = −nFE°cell\n\n### How It Works\n\n1. Write the balanced net redox equation and identify n (electrons transferred).\n2. Compute E°cell from reduction potentials.\n3. Multiply n × F × E°cell to get the electrical work (in joules), then attach the minus sign for ΔG°.\n4. Interpret the sign: negative ΔG° = spontaneous/product-favored.\n\n### Worked Example\n\n**Find ΔG° for Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).**\n\n- n = 2 (two electrons transferred: Zn → Zn²⁺ + 2 e⁻ and Cu²⁺ + 2 e⁻ → Cu).\n- E°cell = +1.10 V (from the earlier note).\n- ΔG° = −nFE°cell = −(2)(96,485 C/mol)(1.10 V)\n- = −212,267 J/mol = **−212.3 kJ/mol**\n\nThe large negative value confirms the reaction is strongly spontaneous — exactly the energy released by a Daniell cell per mole of reaction.",
+    "howItWorks": "1. Write the balanced net redox equation and identify n (electrons transferred).\n2. Compute E°cell from reduction potentials.\n3. Multiply n × F × E°cell to get the electrical work (in joules), then attach the minus sign for ΔG°.\n4. Interpret the sign: negative ΔG° = spontaneous/product-favored.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- ΔG° = −nFE°cell.\n- F = 96,485 C/mol e⁻ (charge of one mole of electrons).\n- n = moles of electrons transferred in the balanced reaction.\n- E°cell > 0 ⇒ ΔG° < 0 (spontaneous); E°cell < 0 ⇒ ΔG° > 0.\n- Units: C × V = J; convert to kJ by ÷1000.\n- ΔG° scales with n; E°cell does not (it is intensive).",
+    "commonConfusions": "- **\"n is the largest coefficient in the equation.\"** — Wrong. n is the number of electrons transferred, equalized between the half-reactions (e.g., 2 for Zn/Cu, 6 for Cr₂O₇²⁻ + Fe²⁺).\n- **\"E°cell must be multiplied by n.\"** — Wrong. n multiplies *F* to give total charge; E°cell is a per-electron potential and is never scaled.\n- **\"A negative E°cell means ΔG° is negative.\"** — Wrong. The minus sign flips it: negative E°cell ⇒ positive ΔG°.\n- **\"F is the gas constant.\"** — Wrong. F is the Faraday constant (96,485 C/mol); R is the gas constant (8.314 J/(mol·K)).\n- **\"Units come out in kJ automatically.\"** — Wrong. nF·E°cell gives joules; divide by 1000 for kJ.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nVoltage and free energy are the same information in two languages. ΔG° speaks \"joules of energy\"; the battery speaks \"volts.\" The Faraday constant is the interpreter: it tells you how many coulombs of electric charge one mole of electrons carries, so you can translate \"so many volts\" into \"so many joules.\" A positive voltage is just the battery's way of saying its free-energy change is negative — it has energy to give. (The limit: ΔG° is the *maximum* electrical work available; real batteries deliver less because of internal resistance and heat losses.)",
+    "quickReview": "- ΔG° = −nFE°cell.\n- n = electrons transferred; F = 96,485 C/mol e⁻.\n- Positive E°cell ⇒ negative ΔG° (spontaneous).\n- E°cell is intensive; ΔG° scales with n.\n- Work in joules, then convert to kJ.",
+    "workedExamples": "### Worked Example\n\n**Find ΔG° for Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).**\n\n- n = 2 (two electrons transferred: Zn → Zn²⁺ + 2 e⁻ and Cu²⁺ + 2 e⁻ → Cu).\n- E°cell = +1.10 V (from the earlier note).\n- ΔG° = −nFE°cell = −(2)(96,485 C/mol)(1.10 V)\n- = −212,267 J/mol = **−212.3 kJ/mol**\n\nThe large negative value confirms the reaction is strongly spontaneous — exactly the energy released by a Daniell cell per mole of reaction.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 17.4 \"Potential, Free Energy, and Equilibrium.\" https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium"
+      },
+      {
+        "text": "NIST CODATA (Faraday constant). https://physics.nist.gov/cuu/Constants/",
+        "url": "https://physics.nist.gov/cuu/Constants/"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/17-electrochemistry/06-electrochemical-free-energy.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

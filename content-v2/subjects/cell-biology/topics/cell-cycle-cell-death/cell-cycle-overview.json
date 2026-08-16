@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-cycle-cell-death:cell-cycle-overview",
+  "slug": "cell-cycle-overview",
+  "title": "Cell Cycle Overview",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-cycle-cell-death",
+    "slug": "cell-cycle-cell-death",
+    "title": "Cell Cycle Cell Death",
+    "order": 7
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "The cell cycle is the ordered sequence of events by which a cell duplicates its contents and divides into two daughter cells. It is classically divided into interphase — G1 (gap 1), S (DNA synthesis), and G2 (gap 2) — and M phase (mitosis and cytokinesis). Interphase is when the cell grows and duplicates its DNA and centrosomes; M phase is when it segregates the duplicated chromosomes and splits the cytoplasm. Cells that are not actively cycling can exit into a quiescent state, G0. The cycle is driven by cyclin-dependent kinases (CDKs) and guarded by checkpoints that block progression unless key conditions are met.",
+    "whyItMatters": "The cell cycle is the interface between growth signals, genome integrity, and cancer. Cancer is fundamentally a disease of deregulated cell-cycle control — cells bypass the restriction point and checkpoints and divide without limit. Many chemotherapies (e.g., taxanes, vinca alkaloids, antimetabolites) work by targeting cycling cells. Developmental biology, stem-cell biology, and regenerative medicine all depend on precise control of proliferation versus quiescence and differentiation. Defects in checkpoints cause genomic instability and developmental disorders.",
+    "learningObjectives": "- Name the four phases of the cell cycle and the key events of each.\n- Explain the purpose of G1, S, and G2 in preparing for mitosis.\n- Define the G0 state and the restriction point.\n- Describe how checkpoints monitor the cycle and prevent errors.\n- Relate the cell cycle to growth, differentiation, and cancer.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe cell cycle is the ordered sequence of events by which a cell duplicates its contents and divides into two daughter cells. It is classically divided into interphase — G1 (gap 1), S (DNA synthesis), and G2 (gap 2) — and M phase (mitosis and cytokinesis). Interphase is when the cell grows and duplicates its DNA and centrosomes; M phase is when it segregates the duplicated chromosomes and splits the cytoplasm. Cells that are not actively cycling can exit into a quiescent state, G0. The cycle is driven by cyclin-dependent kinases (CDKs) and guarded by checkpoints that block progression unless key conditions are met.\n\n### Key Components\n\n- **G1 phase**: Growth, protein/RNA synthesis, preparation for DNA replication.\n- **S phase**: Semi-conservative replication of the entire genome; each chromosome becomes two sister chromatids held together by cohesin.\n- **G2 phase**: Further growth, synthesis of mitotic machinery, checks DNA integrity and completion of replication.\n- **M phase**: Mitosis (prophase, prometaphase, metaphase, anaphase, telophase) and cytokinesis.\n- **G0**: Quiescent, non-proliferating state (reversible) from which cells may re-enter the cycle.\n- **Restriction point**: The late-G1 commitment point after which the cell is committed to complete the cycle independent of external growth signals.\n- **Checkpoints**: Surveillance mechanisms at G1/S, G2/M, and the spindle assembly checkpoint (metaphase–anaphase).\n\n### Mechanism / How It Works\n\nThe cycle proceeds as a one-way, four-stroke engine. In G1, the cell assesses size, nutrients, and growth signals; if conditions are favorable it passes the restriction point and commits to division. In S phase, the origin-recognition and replication machinery fires at thousands of replication origins exactly once, duplicating each chromosome into a pair of sister chromatids tethered by cohesin. In G2, the cell synthesizes tubulin and other mitotic proteins and verifies that replication is complete and DNA is undamaged. In M phase, the nuclear envelope breaks down (in most eukaryotes), the mitotic spindle captures chromosomes via kinetochores, aligns them at the metaphase plate, and then separates the sister chromatids into the two daughter nuclei; cytokinesis partitions the cytoplasm by an actomyosin ring. Checkpoints pause the engine if DNA is damaged (G1/S, G2/M) or if chromosomes are not properly attached to the spindle (spindle assembly checkpoint), preventing aneuploidy and mutation.\n\n### Energy and Directionality\n\nThe cell cycle is highly energy-consuming, especially S phase (massive dNTP and ATP investment in DNA synthesis) and M phase (motor proteins, spindle dynamics). Directionality is enforced by irreversible switches: CDK activation, phosphorylation cascades, and above all the destruction of cyclins and securin by the anaphase-promoting complex/cyclosome (APC/C), which uses ubiquitination and ATP-dependent proteolysis to commit the cell irreversibly to anaphase and mitotic exit. Once the restriction point is passed or the APC/C fires, the cell cannot reverse course — a design that prevents half-divided chromosomes or half-replicated genomes.\n\n### Experimental Evidence / Technique\n\n- **Autoradiography with 3H-thymidine** (Howard and Pelc, 1953) first distinguished S phase from G1 and G2 by showing DNA synthesis occupies a discrete interval.\n- **Flow cytometry with DNA dyes** (propidium iodide) measures the fraction of cells in G1, S, and G2/M by DNA content (2N vs. 4N), the standard method for cell-cycle analysis.\n- **BrdU/EdU labeling** identifies cells actively synthesizing DNA.\n- **Live-cell imaging** with fluorescent histone/PCNA reporters follows individual cells through all phases in real time.\n- **Synchronization** by serum starvation (arrest in G0/G1) or drugs (thymidine block, nocodazole) lets researchers study phase-specific events.",
+    "howItWorks": "The cycle proceeds as a one-way, four-stroke engine. In G1, the cell assesses size, nutrients, and growth signals; if conditions are favorable it passes the restriction point and commits to division. In S phase, the origin-recognition and replication machinery fires at thousands of replication origins exactly once, duplicating each chromosome into a pair of sister chromatids tethered by cohesin. In G2, the cell synthesizes tubulin and other mitotic proteins and verifies that replication is complete and DNA is undamaged. In M phase, the nuclear envelope breaks down (in most eukaryotes), the mitotic spindle captures chromosomes via kinetochores, aligns them at the metaphase plate, and then separates the sister chromatids into the two daughter nuclei; cytokinesis partitions the cytoplasm by an actomyosin ring. Checkpoints pause the engine if DNA is damaged (G1/S, G2/M) or if chromosomes are not properly attached to the spindle (spindle assembly checkpoint), preventing aneuploidy and mutation.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Order: G1 → S → G2 → M; interphase = G1 + S + G2.\n- DNA content: G1 = 2N, S = between 2N and 4N, G2/M = 4N, G1 daughter = 2N.\n- S phase duplicates each chromosome into two sister chromatids held by **cohesin**.\n- **Restriction point** (late G1) = commitment to divide; **G0** = reversible quiescence.\n- Checkpoints: G1/S (DNA damage), G2/M (damage/replication), spindle assembly (chromosome attachment).",
+    "commonConfusions": "- **Interphase vs. M phase**: Interphase is not \"resting\" — it is when DNA replication and most growth occur; M phase is only the division.\n- **S phase vs. mitosis**: DNA is duplicated in S phase, not during mitosis; mitosis merely segregates the already-duplicated copies.\n- **2N vs. 4N**: Diploid G1 cells have 2N DNA content; after S phase they have 4N until division. \"4N\" here means doubled DNA amount, not tetraploidy.\n- **G0 vs. G1**: G0 cells are quiescent and out of the cycle; G1 cells are actively preparing to divide. Some cells (neurons, muscle) are terminally in G0.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of the cell cycle as a four-season year for a cell. In spring (G1) the cell grows and checks whether it has enough food and permission to reproduce. In summer (S phase) it photocopies its entire instruction manual (the DNA) so there will be two complete copies. In autumn (G2) it double-checks the copies for typos and builds the machinery it will need. In winter (M phase) it carefully splits the two manuals and the whole workshop into two identical cells. If anything looks wrong — a torn page or a jammed machine — a \"checkpoint\" pauses everything until it is fixed, because dividing with a broken manual is how cells turn into cancer. The analogy's limit: real checkpoints are molecular switches (kinases and proteases), not human inspectors, and the \"seasons\" overlap and are tuned to the second.",
+    "quickReview": "- G1 (growth, restriction point) → S (DNA replication) → G2 (prepare, check) → M (mitosis + cytokinesis).\n- G0 = quiescence; checkpoints guard G1/S, G2/M, and metaphase–anaphase.\n- Cycle is driven by CDKs and made irreversible by APC/C-mediated proteolysis.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 17, \"The Cell Cycle.\""
+      },
+      {
+        "text": "Howard, A. & Pelc, S. R., \"Synthesis of DNA in normal and irradiated cells,\" *Heredity* (1953)."
+      },
+      {
+        "text": "Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 19."
+      },
+      {
+        "text": "NCBI Bookshelf, *The Cell: A Molecular Approach*, 2nd ed., \"The Eukaryotic Cell Cycle.\""
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Chapter 10, \"Cell Reproduction.\""
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "cell-cycle-overview",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "01-cell-cycle-overview",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:d1b8476fd08ef7c7"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:d1b8476fd08ef7c7"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:d1b8476fd08ef7c7"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:d1b8476fd08ef7c7"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/07-cell-cycle-cell-death/01-cell-cycle-overview.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Cell Cycle Overview\n\n## Learning Goals\n\n- Name the four phases of the cell cycle and the key events of each.\n- Explain the purpose of G1, S, and G2 in preparing for mitosis.\n- Define the G0 state and the restriction point.\n- Describe how checkpoints monitor the cycle and prevent errors.\n- Relate the cell cycle to growth, differentiation, and cancer.\n\n## Core Concept\n\nThe cell cycle is the ordered sequence of events by which a cell duplicates its contents and divides into two daughter cells. It is classically divided into interphase — G1 (gap 1), S (DNA synthesis), and G2 (gap 2) — and M phase (mitosis and cytokinesis). Interphase is when the cell grows and duplicates its DNA and centrosomes; M phase is when it segregates the duplicated chromosomes and splits the cytoplasm. Cells that are not actively cycling can exit into a quiescent state, G0. The cycle is driven by cyclin-dependent kinases (CDKs) and guarded by checkpoints that block progression unless key conditions are met.\n\n## Key Components\n\n- **G1 phase**: Growth, protein/RNA synthesis, preparation for DNA replication.\n- **S phase**: Semi-conservative replication of the entire genome; each chromosome becomes two sister chromatids held together by cohesin.\n- **G2 phase**: Further growth, synthesis of mitotic machinery, checks DNA integrity and completion of replication.\n- **M phase**: Mitosis (prophase, prometaphase, metaphase, anaphase, telophase) and cytokinesis.\n- **G0**: Quiescent, non-proliferating state (reversible) from which cells may re-enter the cycle.\n- **Restriction point**: The late-G1 commitment point after which the cell is committed to complete the cycle independent of external growth signals.\n- **Checkpoints**: Surveillance mechanisms at G1/S, G2/M, and the spindle assembly checkpoint (metaphase–anaphase).\n\n## Mechanism / How It Works\n\nThe cycle proceeds as a one-way, four-stroke engine. In G1, the cell assesses size, nutrients, and growth signals; if conditions are favorable it passes the restriction point and commits to division. In S phase, the origin-recognition and replication machinery fires at thousands of replication origins exactly once, duplicating each chromosome into a pair of sister chromatids tethered by cohesin. In G2, the cell synthesizes tubulin and other mitotic proteins and verifies that replication is complete and DNA is undamaged. In M phase, the nuclear envelope breaks down (in most eukaryotes), the mitotic spindle captures chromosomes via kinetochores, aligns them at the metaphase plate, and then separates the sister chromatids into the two daughter nuclei; cytokinesis partitions the cytoplasm by an actomyosin ring. Checkpoints pause the engine if DNA is damaged (G1/S, G2/M) or if chromosomes are not properly attached to the spindle (spindle assembly checkpoint), preventing aneuploidy and mutation.\n\n## Energy and Directionality\n\nThe cell cycle is highly energy-consuming, especially S phase (massive dNTP and ATP investment in DNA synthesis) and M phase (motor proteins, spindle dynamics). Directionality is enforced by irreversible switches: CDK activation, phosphorylation cascades, and above all the destruction of cyclins and securin by the anaphase-promoting complex/cyclosome (APC/C), which uses ubiquitination and ATP-dependent proteolysis to commit the cell irreversibly to anaphase and mitotic exit. Once the restriction point is passed or the APC/C fires, the cell cannot reverse course — a design that prevents half-divided chromosomes or half-replicated genomes.\n\n## Experimental Evidence / Technique\n\n- **Autoradiography with 3H-thymidine** (Howard and Pelc, 1953) first distinguished S phase from G1 and G2 by showing DNA synthesis occupies a discrete interval.\n- **Flow cytometry with DNA dyes** (propidium iodide) measures the fraction of cells in G1, S, and G2/M by DNA content (2N vs. 4N), the standard method for cell-cycle analysis.\n- **BrdU/EdU labeling** identifies cells actively synthesizing DNA.\n- **Live-cell imaging** with fluorescent histone/PCNA reporters follows individual cells through all phases in real time.\n- **Synchronization** by serum starvation (arrest in G0/G1) or drugs (thymidine block, nocodazole) lets researchers study phase-specific events.\n\n## Why It Matters\n\nThe cell cycle is the interface between growth signals, genome integrity, and cancer. Cancer is fundamentally a disease of deregulated cell-cycle control — cells bypass the restriction point and checkpoints and divide without limit. Many chemotherapies (e.g., taxanes, vinca alkaloids, antimetabolites) work by targeting cycling cells. Developmental biology, stem-cell biology, and regenerative medicine all depend on precise control of proliferation versus quiescence and differentiation. Defects in checkpoints cause genomic instability and developmental disorders.\n\n## High-Yield Facts\n\n- Order: G1 → S → G2 → M; interphase = G1 + S + G2.\n- DNA content: G1 = 2N, S = between 2N and 4N, G2/M = 4N, G1 daughter = 2N.\n- S phase duplicates each chromosome into two sister chromatids held by **cohesin**.\n- **Restriction point** (late G1) = commitment to divide; **G0** = reversible quiescence.\n- Checkpoints: G1/S (DNA damage), G2/M (damage/replication), spindle assembly (chromosome attachment).\n\n## Eli Explains\n\nThink of the cell cycle as a four-season year for a cell. In spring (G1) the cell grows and checks whether it has enough food and permission to reproduce. In summer (S phase) it photocopies its entire instruction manual (the DNA) so there will be two complete copies. In autumn (G2) it double-checks the copies for typos and builds the machinery it will need. In winter (M phase) it carefully splits the two manuals and the whole workshop into two identical cells. If anything looks wrong — a torn page or a jammed machine — a \"checkpoint\" pauses everything until it is fixed, because dividing with a broken manual is how cells turn into cancer. The analogy's limit: real checkpoints are molecular switches (kinases and proteases), not human inspectors, and the \"seasons\" overlap and are tuned to the second.\n\n## Common Confusions\n\n- **Interphase vs. M phase**: Interphase is not \"resting\" — it is when DNA replication and most growth occur; M phase is only the division.\n- **S phase vs. mitosis**: DNA is duplicated in S phase, not during mitosis; mitosis merely segregates the already-duplicated copies.\n- **2N vs. 4N**: Diploid G1 cells have 2N DNA content; after S phase they have 4N until division. \"4N\" here means doubled DNA amount, not tetraploidy.\n- **G0 vs. G1**: G0 cells are quiescent and out of the cycle; G1 cells are actively preparing to divide. Some cells (neurons, muscle) are terminally in G0.\n\n## Quick Review\n\n- G1 (growth, restriction point) → S (DNA replication) → G2 (prepare, check) → M (mitosis + cytokinesis).\n- G0 = quiescence; checkpoints guard G1/S, G2/M, and metaphase–anaphase.\n- Cycle is driven by CDKs and made irreversible by APC/C-mediated proteolysis.\n\n## Sources\n\n- Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 17, \"The Cell Cycle.\"\n- Howard, A. & Pelc, S. R., \"Synthesis of DNA in normal and irradiated cells,\" *Heredity* (1953).\n- Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 19.\n- NCBI Bookshelf, *The Cell: A Molecular Approach*, 2nd ed., \"The Eukaryotic Cell Cycle.\"\n- OpenStax, *Biology 2e*, Chapter 10, \"Cell Reproduction.\"\n"
+}

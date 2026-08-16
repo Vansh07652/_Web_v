@@ -1,0 +1,256 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:population-public-health",
+    "slug": "population-public-health",
+    "title": "Population & Public Health Foundations",
+    "aliases": [
+      {
+        "value": "population-public-health",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "population health",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "public health foundations",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "community health foundations",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "Population & Public Health Foundations",
+        "kind": "source_subject_title",
+        "source_id": "expansion_qb"
+      },
+      {
+        "value": "19-population-health",
+        "kind": "source_subject_directory",
+        "source_id": "expansion_qb"
+      },
+      {
+        "value": "19",
+        "kind": "source_subject_number",
+        "source_id": "expansion_qb"
+      }
+    ],
+    "status": "final_question_bank_no_college_notes",
+    "category": "healthcare-foundations"
+  },
+  "units": [
+    {
+      "id": "unit:population-public-health:core-topics",
+      "slug": "core-topics",
+      "title": "Core Topics",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "core-topics",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:population-public-health:core-topics:introduction-to-population-health",
+          "slug": "introduction-to-population-health",
+          "title": "Introduction to Population Health",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/population-public-health/topics/core-topics/introduction-to-population-health.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:population-public-health:core-topics:social-determinants-of-health",
+          "slug": "social-determinants-of-health",
+          "title": "Social Determinants of Health",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/population-public-health/topics/core-topics/social-determinants-of-health.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:population-public-health:core-topics:health-disparities-and-health-equity",
+          "slug": "health-disparities-and-health-equity",
+          "title": "Health Disparities and Health Equity",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/population-public-health/topics/core-topics/health-disparities-and-health-equity.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:population-public-health:core-topics:health-promotion",
+          "slug": "health-promotion",
+          "title": "Health Promotion",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/population-public-health/topics/core-topics/health-promotion.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:population-public-health:core-topics:primary-secondary-and-tertiary-prevention",
+          "slug": "primary-secondary-and-tertiary-prevention",
+          "title": "Primary, Secondary, and Tertiary Prevention",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/population-public-health/topics/core-topics/primary-secondary-and-tertiary-prevention.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:population-public-health:core-topics:incidence-and-prevalence",
+          "slug": "incidence-and-prevalence",
+          "title": "Incidence and Prevalence",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/population-public-health/topics/core-topics/incidence-and-prevalence.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:population-public-health:core-topics:epidemiology-fundamentals",
+          "slug": "epidemiology-fundamentals",
+          "title": "Epidemiology Fundamentals",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/population-public-health/topics/core-topics/epidemiology-fundamentals.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:population-public-health:core-topics:screening-and-early-detection",
+          "slug": "screening-and-early-detection",
+          "title": "Screening and Early Detection",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/population-public-health/topics/core-topics/screening-and-early-detection.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:population-public-health:core-topics:communicable-disease-and-community-prevention",
+          "slug": "communicable-disease-and-community-prevention",
+          "title": "Communicable Disease and Community Prevention",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/population-public-health/topics/core-topics/communicable-disease-and-community-prevention.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:population-public-health:core-topics:environmental-and-community-health",
+          "slug": "environmental-and-community-health",
+          "title": "Environmental and Community Health",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/population-public-health/topics/core-topics/environmental-and-community-health.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 1,
+    "topicCount": 10,
+    "teachingTopicCount": 0,
+    "eli10TopicCount": 10,
+    "highYieldTopicCount": 0,
+    "referencedTopicCount": 10,
+    "exactOrMappedQuestionCount": 120,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 120,
+    "citationReviewRequiredCount": 0
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

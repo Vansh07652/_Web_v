@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:clinical-mnemonics:pharmacology-electrolytes:murder",
+  "slug": "murder",
+  "title": "MURDER",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics"
+  },
+  "unit": {
+    "id": "unit:clinical-mnemonics:pharmacology-electrolytes",
+    "slug": "pharmacology-electrolytes",
+    "title": "Pharmacology & Electrolytes",
+    "order": 3
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "Lists the body-system effects of hyperkalemia (high blood potassium) — Muscle, Urine, Respiratory, Decreased cardiac contractility, ECG, Reflexes — so the clinician recognizes the patient before the heart stops.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- **M** — Muscle abnormalities\n- **U** — Urine abnormalities\n- **R** — Respiratory effects\n- **D** — Decreased cardiac contractility\n- **E** — ECG changes\n- **R** — Reflex changes",
+    "collegeNotes": "**Status: current, with caveats.** The source library flags this one as still taught but qualified — read the safety notes on each component before relying on it.\n\nLists the body-system effects of hyperkalemia (high blood potassium) — Muscle, Urine, Respiratory, Decreased cardiac contractility, ECG, Reflexes — so the clinician recognizes the patient before the heart stops.\n\n### M — Muscle abnormalities\n\nWeakness, cramps, fasciculations, flaccid paralysis\n\nHyperkalemia partially depolarizes the resting membrane; muscles are first irritable (paresthesias, cramps, fasciculations) then profoundly weak, with an ascending pattern that can become flaccid paralysis and mimic Guillain-Barré.\n\n**Physiology.** Elevated extracellular K+ makes the resting membrane potential less negative; sodium channels become inactivated, so action potentials can no longer fire normally.\n\n**Safety.** New ascending weakness in an at-risk patient is a red flag — check ECG and potassium immediately.\n\n### U — Urine abnormalities\n\nOliguria / anuria (the underlying cause)\n\nImpaired renal excretion (AKI or ESRD) is the most common cause of clinically significant hyperkalemia, producing oliguria (<400 mL/day) or anuria (<100 mL/day).\n\n**Physiology.** The kidneys normally excrete ~90% of daily potassium load; when filtration or tubular secretion fails, serum potassium climbs.\n\n**Safety.** Weakness of the mnemonic: 'U' is an etiology clue (why potassium is high), not a manifestation of the high potassium itself.\n\n### R — Respiratory effects\n\nHypoventilation → respiratory failure\n\nProgressive weakness of the diaphragm and intercostal muscles causes hypoventilation, CO2 retention, and ultimately respiratory failure — a late, life-threatening manifestation.\n\n**Physiology.** The diaphragm is skeletal muscle and suffers the same depolarization blockade described under 'M'.\n\n**Safety.** Monitor respiratory rate, depth, and work of breathing; anticipate possible assisted ventilation.\n\n### D — Decreased cardiac contractility\n\nWeak heart squeeze, hypotension\n\nHyperkalemia depresses myocardial contractility and conduction, producing hypotension and decreased cardiac output that compound the arrhythmia risk.\n\n**Physiology.** Partial depolarization reduces the force of contraction and slows impulse conduction, causing bradyarrhythmias and heart block.\n\n**Safety.** Hypotension plus ECG changes is a medical emergency.\n\n### E — ECG changes\n\nPeaked T waves → PR/QRS changes → sine wave\n\nProgression: peaked 'tent' T waves (~5.5–6.5 mEq/L), PR prolongation and P-wave loss (~6.5–7.0), QRS widening (~7.0–8.0), then sine-wave pattern → VF/asystole (>8.0).\n\n**Physiology.** Depolarization slows atrial and ventricular conduction (P-wave loss, PR and QRS prolongation) while repolarization changes produce the peaked T wave.\n\n**Safety.** ECG does not always correlate with the serum number — treat the patient and ECG, not just the lab value; hyperkalemia can mimic wide-complex VT.\n\n### R — Reflex changes\n\nDiminished / absent deep tendon reflexes\n\nDeep tendon reflexes become diminished and then absent as muscle weakness progresses — a late finding paralleling the severity of muscle involvement.\n\n**Physiology.** Depolarization blockade reduces the muscle's ability to contract in response to the reflex arc.\n\n**Safety.** Weakness of the mnemonic: reflex changes are nonspecific, late, and easy to miss — rely on ECG and the potassium level for early detection.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "- M = Muscle abnormalities\n- U = Urine abnormalities\n- R = Respiratory effects\n- D = Decreased cardiac contractility\n- E = ECG changes\n- R = Reflex changes",
+    "eli10": "A checklist of the ways too much potassium can hurt the body — from weak muscles and weak breathing to a heart that can't keep its rhythm.\n\n**M — Muscle abnormalities.** Potassium is the battery that lets muscles fire. Too much drains the battery, so muscles get weak and floppy instead of strong.\n\n**U — Urine abnormalities.** The kidneys are the drains that flush out extra potassium. If the drains are clogged, potassium backs up in the blood.\n\n**R — Respiratory effects.** Breathing uses big muscles. If potassium makes muscles weak, the breathing pump gets weak too, and the patient can't move enough air.\n\n**D — Decreased cardiac contractility.** The heart is a muscle too. Too much potassium weakens its squeeze, like a pump losing power, so blood pressure drops.\n\n**E — ECG changes.** The ECG photographs the heart's electrical heartbeat; high potassium changes the photo in a predictable order until the rhythm melts into a dangerous squiggle.\n\n**R — Reflex changes.** When the doctor taps the knee, the leg should kick. If the muscles are too weak, the kick is small or missing.",
+    "quickReview": "- M = Muscle abnormalities — Weakness, cramps, fasciculations, flaccid paralysis\n- U = Urine abnormalities — Oliguria / anuria (the underlying cause)\n- R = Respiratory effects — Hypoventilation → respiratory failure\n- D = Decreased cardiac contractility — Weak heart squeeze, hypotension\n- E = ECG changes — Peaked T waves → PR/QRS changes → sine wave\n- R = Reflex changes — Diminished / absent deep tendon reflexes",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Potassium / Electrolyte Management in Kidney Disease — Kidney Disease: Improving Global Outcomes (KDIGO)",
+        "url": "https://kdigo.org/guidelines/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "murder",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-nursing-mnemonics",
+    "sourceFile": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json",
+    "sourceStatus": "CURRENT_WITH_CAVEATS",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-clinical-mnemonics"
+  },
+  "sourceSnapshotMarkdown": "{\n  \"mnemonic\": \"MURDER\",\n  \"category\": \"Pharmacology & Electrolytes\",\n  \"purpose\": \"Lists the body-system effects of hyperkalemia (high blood potassium) — Muscle, Urine, Respiratory, Decreased cardiac contractility, ECG, Reflexes — so the clinician recognizes the patient before the heart stops.\",\n  \"eli10_purpose\": \"A checklist of the ways too much potassium can hurt the body — from weak muscles and weak breathing to a heart that can't keep its rhythm.\",\n  \"status\": \"CURRENT_WITH_CAVEATS\",\n  \"components\": [\n    {\n      \"symbol\": \"M\",\n      \"term\": \"Muscle abnormalities\",\n      \"association\": \"Weakness, cramps, fasciculations, flaccid paralysis\",\n      \"eli10\": \"Potassium is the battery that lets muscles fire. Too much drains the battery, so muscles get weak and floppy instead of strong.\",\n      \"clinical_explanation\": \"Hyperkalemia partially depolarizes the resting membrane; muscles are first irritable (paresthesias, cramps, fasciculations) then profoundly weak, with an ascending pattern that can become flaccid paralysis and mimic Guillain-Barré.\",\n      \"physiology\": \"Elevated extracellular K+ makes the resting membrane potential less negative; sodium channels become inactivated, so action potentials can no longer fire normally.\",\n      \"safety_note\": \"New ascending weakness in an at-risk patient is a red flag — check ECG and potassium immediately.\"\n    },\n    {\n      \"symbol\": \"U\",\n      \"term\": \"Urine abnormalities\",\n      \"association\": \"Oliguria / anuria (the underlying cause)\",\n      \"eli10\": \"The kidneys are the drains that flush out extra potassium. If the drains are clogged, potassium backs up in the blood.\",\n      \"clinical_explanation\": \"Impaired renal excretion (AKI or ESRD) is the most common cause of clinically significant hyperkalemia, producing oliguria (<400 mL/day) or anuria (<100 mL/day).\",\n      \"physiology\": \"The kidneys normally excrete ~90% of daily potassium load; when filtration or tubular secretion fails, serum potassium climbs.\",\n      \"safety_note\": \"Weakness of the mnemonic: 'U' is an etiology clue (why potassium is high), not a manifestation of the high potassium itself.\"\n    },\n    {\n      \"symbol\": \"R\",\n      \"term\": \"Respiratory effects\",\n      \"association\": \"Hypoventilation → respiratory failure\",\n      \"eli10\": \"Breathing uses big muscles. If potassium makes muscles weak, the breathing pump gets weak too, and the patient can't move enough air.\",\n      \"clinical_explanation\": \"Progressive weakness of the diaphragm and intercostal muscles causes hypoventilation, CO2 retention, and ultimately respiratory failure — a late, life-threatening manifestation.\",\n      \"physiology\": \"The diaphragm is skeletal muscle and suffers the same depolarization blockade described under 'M'.\",\n      \"safety_note\": \"Monitor respiratory rate, depth, and work of breathing; anticipate possible assisted ventilation.\"\n    },\n    {\n      \"symbol\": \"D\",\n      \"term\": \"Decreased cardiac contractility\",\n      \"association\": \"Weak heart squeeze, hypotension\",\n      \"eli10\": \"The heart is a muscle too. Too much potassium weakens its squeeze, like a pump losing power, so blood pressure drops.\",\n      \"clinical_explanation\": \"Hyperkalemia depresses myocardial contractility and conduction, producing hypotension and decreased cardiac output that compound the arrhythmia risk.\",\n      \"physiology\": \"Partial depolarization reduces the force of contraction and slows impulse conduction, causing bradyarrhythmias and heart block.\",\n      \"safety_note\": \"Hypotension plus ECG changes is a medical emergency.\"\n    },\n    {\n      \"symbol\": \"E\",\n      \"term\": \"ECG changes\",\n      \"association\": \"Peaked T waves → PR/QRS changes → sine wave\",\n      \"eli10\": \"The ECG photographs the heart's electrical heartbeat; high potassium changes the photo in a predictable order until the rhythm melts into a dangerous squiggle.\",\n      \"clinical_explanation\": \"Progression: peaked 'tent' T waves (~5.5–6.5 mEq/L), PR prolongation and P-wave loss (~6.5–7.0), QRS widening (~7.0–8.0), then sine-wave pattern → VF/asystole (>8.0).\",\n      \"physiology\": \"Depolarization slows atrial and ventricular conduction (P-wave loss, PR and QRS prolongation) while repolarization changes produce the peaked T wave.\",\n      \"safety_note\": \"ECG does not always correlate with the serum number — treat the patient and ECG, not just the lab value; hyperkalemia can mimic wide-complex VT.\"\n    },\n    {\n      \"symbol\": \"R\",\n      \"term\": \"Reflex changes\",\n      \"association\": \"Diminished / absent deep tendon reflexes\",\n      \"eli10\": \"When the doctor taps the knee, the leg should kick. If the muscles are too weak, the kick is small or missing.\",\n      \"clinical_explanation\": \"Deep tendon reflexes become diminished and then absent as muscle weakness progresses — a late finding paralleling the severity of muscle involvement.\",\n      \"physiology\": \"Depolarization blockade reduces the muscle's ability to contract in response to the reflex arc.\",\n      \"safety_note\": \"Weakness of the mnemonic: reflex changes are nonspecific, late, and easy to miss — rely on ECG and the potassium level for early detection.\"\n    }\n  ]\n}"
+}

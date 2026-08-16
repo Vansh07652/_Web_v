@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-kinetics:arrhenius-equation",
+  "slug": "arrhenius-equation",
+  "title": "The Arrhenius Equation",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-kinetics",
+    "slug": "chemical-kinetics",
+    "title": "Chemical Kinetics",
+    "order": 3
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "The Arrhenius equation is the quantitative version of collision theory. It expresses the rate constant k in terms of three quantities: a **frequency (pre-exponential) factor A**, the **activation energy Ea**, and the absolute **temperature T**:\n\n$$k = A\\,e^{-E_a/RT}$$\n\nThe exponential term is the fraction of collisions with sufficient energy; A collects everything else (collision frequency and orientation). Because Ea sits in the exponent, k is exquisitely sensitive to temperature.",
+    "whyItMatters": "The Arrhenius equation is the single most important quantitative tool in kinetics for temperature effects. It underpins shelf-life prediction (accelerated aging tests), the design of reactors that run hot to maximize throughput, enzyme denaturation studies, and any calculation of how a reaction's speed changes with heat. Understanding its exponential sensitivity is key to interpreting why reactions that are slow at room temperature become fast in an oven.",
+    "learningObjectives": "- State the Arrhenius equation and identify each term.\n- Explain how the rate constant k depends on temperature and activation energy.\n- Use the two-point form to calculate Ea or a new k at a different temperature.\n- Recall that temperature must be in kelvin.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe Arrhenius equation is the quantitative version of collision theory. It expresses the rate constant k in terms of three quantities: a **frequency (pre-exponential) factor A**, the **activation energy Ea**, and the absolute **temperature T**:\n\n$$k = A\\,e^{-E_a/RT}$$\n\nThe exponential term is the fraction of collisions with sufficient energy; A collects everything else (collision frequency and orientation). Because Ea sits in the exponent, k is exquisitely sensitive to temperature.\n\n### Key Ideas\n\n- k increases as T increases and as Ea decreases.\n- A is essentially constant over modest temperature ranges.\n- The two-point (integrated) form lets you find Ea from two rate constants, or predict k at a new temperature.\n- T must be in kelvin; Ea and RT must be in the same energy units.\n\n### Equations and Variables\n\n**Linear form** (a straight line in a plot of ln k vs 1/T):\n\n$$\\ln k = \\ln A - \\frac{E_a}{R}\\cdot\\frac{1}{T}$$\n\n- slope = −Ea/R\n- y-intercept = ln A\n\n**Two-point form** (for two temperatures T₁, T₂ with rate constants k₁, k₂):\n\n$$\\ln\\frac{k_2}{k_1} = \\frac{E_a}{R}\\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right)$$\n\n- k = rate constant (same units on both sides)\n- A = frequency factor (same units as k)\n- Ea = activation energy (J/mol)\n- R = 8.314 J·mol⁻¹·K⁻¹\n- T = absolute temperature (K)\n\n### How It Works\n\nTake natural logarithms of the Arrhenius equation and it becomes a line: ln k = ln A − (Ea/R)(1/T). This is why chemists plot ln k against 1/T to measure Ea — the slope is −Ea/R. A steep (more negative) slope means a large activation energy and a rate constant that changes dramatically with temperature.\n\nThe two-point form is the practical shortcut. Because ln A cancels when you subtract the equation at two temperatures, you can determine Ea from just two (k, T) pairs — or, knowing Ea, predict how k changes when the temperature moves.\n\nA useful rule of thumb emerges: for a typical Ea near 50–100 kJ/mol, a 10 °C rise in temperature roughly doubles to triples the rate constant.\n\n### Worked Example\n\nA reaction has Ea = 75.0 kJ/mol. Its rate constant at 298 K is k₁ = 1.00 × 10⁻³ s⁻¹. Find k₂ at 308 K.\n\n**Step 1 — Convert Ea to J/mol:** 75.0 kJ/mol = 7.50 × 10⁴ J/mol.\n\n**Step 2 — Compute Ea/R:**\n\n$$\\frac{E_a}{R} = \\frac{7.50\\times10^{4}\\ \\text{J mol}^{-1}}{8.314\\ \\text{J mol}^{-1}\\text{K}^{-1}} = 9020\\ \\text{K}$$\n\n**Step 3 — Compute (1/T₁ − 1/T₂):**\n\n$$\\frac{1}{298} - \\frac{1}{308} = 0.003356 - 0.003247 = 1.09\\times10^{-4}\\ \\text{K}^{-1}$$\n\n**Step 4 — Apply the two-point form:**\n\n$$\\ln\\frac{k_2}{k_1} = 9020\\ \\text{K} \\times 1.09\\times10^{-4}\\ \\text{K}^{-1} = 0.983$$\n\n$$\\frac{k_2}{k_1} = e^{0.983} = 2.67$$\n\n$$k_2 = 2.67 \\times 1.00\\times10^{-3}\\ \\text{s}^{-1} = 2.67\\times10^{-3}\\ \\text{s}^{-1}$$\n\nA 10 K rise more than doubles the rate constant — consistent with the rule of thumb.",
+    "howItWorks": "Take natural logarithms of the Arrhenius equation and it becomes a line: ln k = ln A − (Ea/R)(1/T). This is why chemists plot ln k against 1/T to measure Ea — the slope is −Ea/R. A steep (more negative) slope means a large activation energy and a rate constant that changes dramatically with temperature.\n\nThe two-point form is the practical shortcut. Because ln A cancels when you subtract the equation at two temperatures, you can determine Ea from just two (k, T) pairs — or, knowing Ea, predict how k changes when the temperature moves.\n\nA useful rule of thumb emerges: for a typical Ea near 50–100 kJ/mol, a 10 °C rise in temperature roughly doubles to triples the rate constant.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- k = A·e^(−Ea/RT); larger T or smaller Ea → larger k.\n- ln k vs 1/T is linear with slope −Ea/R.\n- Two-point form: ln(k₂/k₁) = (Ea/R)(1/T₁ − 1/T₂).\n- Use kelvin, and keep Ea in J/mol to match R = 8.314 J·mol⁻¹·K⁻¹.\n- ~10 °C rise ≈ 2–3× rate increase for typical Ea values.",
+    "commonConfusions": "- **Using °C instead of K.** 1/T is meaningless in Celsius and can even be negative or infinite.\n- **Mixing units for Ea and R.** If Ea is in kJ/mol, convert to J/mol (or use R = 8.314 × 10⁻³ kJ·mol⁻¹·K⁻¹).\n- **Forgetting that A also carries units.** A has the same units as k, whatever they are.\n- **Misreading the sign.** Higher T always raises k for a given Ea; the negative exponent guarantees it.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThe Arrhenius equation is the math that says \"heat speeds things up — a lot.\" The activation energy Ea is the hill the reaction must climb; only molecules with enough energy make it over. When you raise the temperature, you hand more molecules enough energy to clear the hill, and because that \"enough energy\" condition is exponential, a little heat goes a long way. The two-point form is just a clever trick: by measuring the speed at two different temperatures, you can measure the height of the hill itself — no direct view of the molecules needed.",
+    "quickReview": "1. Write the Arrhenius equation and name each symbol.\n2. What is the slope of a plot of ln k vs 1/T?\n3. Write the two-point form of the Arrhenius equation.\n4. Why must temperature be in kelvin?\n5. If Ea is doubled (at fixed T), does k increase or decrease?",
+    "workedExamples": "### Worked Example\n\nA reaction has Ea = 75.0 kJ/mol. Its rate constant at 298 K is k₁ = 1.00 × 10⁻³ s⁻¹. Find k₂ at 308 K.\n\n**Step 1 — Convert Ea to J/mol:** 75.0 kJ/mol = 7.50 × 10⁴ J/mol.\n\n**Step 2 — Compute Ea/R:**\n\n$$\\frac{E_a}{R} = \\frac{7.50\\times10^{4}\\ \\text{J mol}^{-1}}{8.314\\ \\text{J mol}^{-1}\\text{K}^{-1}} = 9020\\ \\text{K}$$\n\n**Step 3 — Compute (1/T₁ − 1/T₂):**\n\n$$\\frac{1}{298} - \\frac{1}{308} = 0.003356 - 0.003247 = 1.09\\times10^{-4}\\ \\text{K}^{-1}$$\n\n**Step 4 — Apply the two-point form:**\n\n$$\\ln\\frac{k_2}{k_1} = 9020\\ \\text{K} \\times 1.09\\times10^{-4}\\ \\text{K}^{-1} = 0.983$$\n\n$$\\frac{k_2}{k_1} = e^{0.983} = 2.67$$\n\n$$k_2 = 2.67 \\times 1.00\\times10^{-3}\\ \\text{s}^{-1} = 2.67\\times10^{-3}\\ \\text{s}^{-1}$$\n\nA 10 K rise more than doubles the rate constant — consistent with the rule of thumb.",
+    "references": [
+      {
+        "text": "OpenStax. *Chemistry 2e*. Ch. 12, \"Activation Energy and the Arrhenius Equation.\" https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-5-collision-theory"
+      },
+      {
+        "text": "IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"Arrhenius equation,\" \"activation energy.\" https://goldbook.iupac.org/",
+        "url": "https://goldbook.iupac.org/"
+      },
+      {
+        "text": "NIST. *CODATA recommended values of fundamental physical constants* (gas constant R = 8.314462618 J·mol⁻¹·K⁻¹). https://physics.nist.gov/cuu/Constants/",
+        "url": "https://physics.nist.gov/cuu/Constants/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/12-chemical-kinetics/06-arrhenius-equation.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

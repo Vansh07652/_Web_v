@@ -1,0 +1,40 @@
+{
+  "id": "biology-1-biotechnology-0008",
+  "subject": "biology-1",
+  "lesson": "biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In **CRISPR-Cas9** gene editing, the Cas9 protein cuts DNA at a specific location guided by a **guide RNA**. What makes the guide RNA pick that location?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The protein folds its own shape to match the sequence it edits."
+    },
+    {
+      "id": "b",
+      "text": "The target sequence must contain a start codon that Cas9 recognizes."
+    },
+    {
+      "id": "c",
+      "text": "Cas9 cuts randomly, and the guide RNA repairs the damage afterward."
+    },
+    {
+      "id": "d",
+      "text": "The guide RNA carries a sequence complementary to the target, so it base-pairs with the genomic DNA and steers Cas9 to that site."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "The guide RNA carries a sequence complementary to the target, so it base-pairs with the genomic DNA and positions the Cas9 nuclease to cut at that exact site, next to a short motif called a protospacer adjacent motif. Changing the guide RNA changes the cut site, which is why CRISPR can be programmed for different genes. A and B describe targeting mechanisms that do not exist, and C is wrong because the cut is guided rather than random.",
+  "difficulty": "unknown",
+  "tags": [
+    "crispr",
+    "cas9",
+    "target",
+    "selection"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-37c6d4d415f69033",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

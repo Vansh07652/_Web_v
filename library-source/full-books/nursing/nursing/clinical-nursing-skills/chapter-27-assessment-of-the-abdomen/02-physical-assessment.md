@@ -1,0 +1,134 @@
+---
+title: "Physical Assessment"
+subject: "Nursing"
+book: "Clinical Nursing Skills"
+chapter: "27: Assessment of the Abdomen"
+topic_number: "2"
+source: "clinical-nursing-skills.md"
+tags:
+  - "physical-assessment"
+  - "nursing"
+status: "complete"
+---
+
+# Physical Assessment
+
+> **Book:** [Clinical Nursing Skills](../../README.md)  
+> **Chapter:** [Chapter 27: Assessment of the Abdomen](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Abdominal physical assessment is the systematic examination of the abdomen using the four classic techniques — **inspection, auscultation, percussion, and palpation** — in a specific order. The order is not arbitrary: you **auscultate before you percuss or palpate** because pressing on the abdomen can change bowel sounds, and you want to hear the bowel's natural activity before you disturb it. The assessment also begins well before you touch the patient: a careful health history often reveals more than the physical exam, and simply looking at the abdomen (inspection) provides a surprising amount of information. Throughout the exam, the goals are to identify tenderness, masses, distention, organ enlargement, and abnormal sounds; to compare findings with the patient's baseline; and to communicate anything concerning to the provider. Like all physical assessments, the abdominal exam is performed within the nurse's scope of practice and institutional policy, and findings are interpreted in the context of the whole patient, not in isolation.
+
+## Why This Matters
+
+Abdominal symptoms are common, and the abdominal exam is one of the most frequently performed nursing assessments — from routine admission exams to daily rounds to the rapid evaluation of a patient with acute pain. The exam has real safety consequences: recognizing the difference between a soft, non-tender abdomen and a rigid, tender one can be the difference between a routine report and an emergency response. Knowing the correct sequence prevents a common error — percussing or palpating first, then hearing bowel sounds you yourself altered. A skilled abdominal assessment also builds trust; patients who feel rushed or hurt during an exam are less likely to report symptoms, so technique, warmth, and communication are part of the skill, not extras.
+
+## Core Concepts
+
+### Preparation: history, comfort, and consent
+
+Before touching the abdomen, gather the history: the location, onset, and character of any pain (ask the patient to point with one finger); what makes it better or worse; associated symptoms such as nausea, vomiting, fever, or changes in appetite; and bowel and bladder patterns — the last bowel movement, any constipation or diarrhea, blood in stool, or urinary symptoms. Ask about recent surgery, known conditions (such as diabetes, which can change how pain is felt), and medications. Then prepare the environment: provide privacy and draping, position the patient supine with the head slightly elevated and knees bent (this relaxes the abdominal muscles), warm your hands and the stethoscope, and explain each step before you do it. If the patient reports a painful area, examine it **last** — this keeps the patient relaxed and prevents guarding from masking other findings.
+
+### Inspection: look before you touch
+
+Inspection begins the moment the drapes are lifted and continues while you talk with the patient. Note the **contour** of the abdomen — flat, rounded, protuberant (as with obesity, gas, or fluid), or scaphoid (sunken, as with malnutrition). Check for **symmetry**: a bulge on one side can indicate a mass or hernia. Observe the skin for color, scars, striae (stretch marks), bruises, lesions, or visible veins, and note the umbilicus — inverted, everted, or displaced. Watch for **visible pulsations** (normal in thin people over the aorta) and for movement with respiration — the abdomen should rise and fall with breathing; an abdomen that does not move with respiration can be a sign of peritoneal irritation. Finally, ask the patient to cough or bear down briefly to see if any bulge appears — a quick screen for hernias.
+
+### Auscultation: listen before you press
+
+Auscultation comes next — before percussion and palpation — because pressing on the abdomen can stimulate or silence bowel sounds. Use the diaphragm of the stethoscope, warm it first, and listen in all four quadrants, at least a minute or two in total. **Bowel sounds** are the sounds of peristalsis moving gas and fluid — normally heard as intermittent gurgles or clicks, with frequency varying from person to person. Findings are described as **normal, hypoactive** (fewer or quieter), **hyperactive** (louder, more frequent, sometimes high-pitched, often called borborygmi or "stomach growling"), or **absent** (which requires listening for several minutes in multiple quadrants before concluding — be cautious, and confirm with the provider before alarming the patient). Also listen over the aorta and other major vessels for **bruits** — a swishing sound indicating turbulent blood flow; these are typically evaluated and interpreted by providers.
+
+### Percussion: tap for the map
+
+Percussion involves tapping the abdomen with the middle finger of one hand (the pleximeter) struck by the middle finger of the other hand, and listening to the resulting note. **Tympany** — a hollow, drum-like note — is normal over gas-filled bowel and is the predominant sound over most of the abdomen. **Dullness** is heard over solid organs (the liver in the RUQ) and over fluid or masses. Percussion helps map the size of the liver and detect ascites (fluid in the peritoneal cavity — a fluid wave or shifting dullness can be elicited, typically by the provider). Percussion should be gentle; a painful response to percussion is significant and should be reported.
+
+### Palpation: feel with care
+
+**Palpation** is performed **last** and in two stages. **Light palpation** uses the flat of the hand, pressing gently (about 1 cm) to assess for tenderness, guarding, and superficial masses; watch the patient's face for wincing, which may be more reliable than their words. **Deep palpation** (2–4 cm or more) is used to feel deeper organs and masses, and is often performed or confirmed by the provider. Note the **location, size, shape, consistency, and tenderness** of anything you feel. **Guarding** — voluntary tensing of the abdominal muscles — occurs when the patient is anticipating pain. **Rigidity** — involuntary, board-like stiffness of the abdominal wall — is a more serious sign and can indicate peritoneal irritation. **Rebound tenderness** (pain worse when pressure is suddenly released) is a classic sign of peritoneal irritation; it is uncomfortable, so it is generally not repeated once elicited, and its evaluation is typically left to the provider. Palpate the painful area last, and stop if the patient is in significant distress.
+
+### Special considerations
+
+Several groups need adjustments. **Older adults** may have less pronounced signs and atypical presentations of serious conditions (pain may be vague, fever may be blunted), so a high index of suspicion is needed and any change should be reported. **Post-operative patients** may have incisions, dressings, drains, and temporary ileus (slowed bowel activity) — compare with the expected post-op course and report deviations. **Pregnant patients** have displaced organs and altered landmarks; follow obstetric-specific protocols. **Patients who cannot report pain** (altered mental status, sedation, language barriers, cognitive impairment) require extra attention to non-verbal cues and, often, provider involvement. Scope of practice varies by state or provincial regulations and facility policy.
+
+## ELI-10: Explain Like I'm 10
+
+Checking your belly is like checking a car engine — but with a strict order so you don't mess up the readings. First you look at the engine (inspection), then you listen to it running quietly (auscultation), then you tap parts to hear if they're full or hollow (percussion), and only at the very end do you press on things to feel for problems (palpation). If you pressed first, you'd change the sounds you hear, like shaking a car before listening to its engine. And you always save the sore spot for last, so the person stays relaxed.
+
+## High-Yield Points
+
+- **Order matters: Inspection → Auscultation → Percussion → Palpation.** Auscultate before pressing, because touch alters bowel sounds.
+- **History first:** location of pain (one finger), onset, character, aggravating/relieving factors, appetite, nausea/vomiting, bowel and bladder patterns, recent surgery.
+- **Inspect for contour, symmetry, skin, umbilicus, pulsations, and movement with respiration.**
+- **Listen in all four quadrants** and describe bowel sounds as normal, hypoactive, hyperactive, or absent — "absent" requires several minutes of listening and provider confirmation.
+- **Tympany over gas, dullness over solid organs** — percussion maps the liver and detects fluid.
+- **Palpate light then deep; examine the painful area last.** Guarding is voluntary; rigidity is involuntary and serious; rebound tenderness suggests peritoneal irritation (provider territory).
+- **Report red flags promptly:** severe or worsening pain, rigid abdomen, absent bowel sounds with distention and vomiting, blood in stool or vomit, fever with abdominal pain.
+- Scope and technique vary by institution; when in doubt, ask, and never repeat a maneuver that causes significant pain just to confirm a finding.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Inspection | Looking at the abdomen before touching it | Reveals contour, symmetry, skin, and visible pulsations |
+| Auscultation | Listening with a stethoscope for bowel and vascular sounds | Done before percussion/palpation so sounds are not altered |
+| Percussion | Tapping to produce notes (tympany vs dullness) | Maps gas-filled bowel vs solid organs and fluid |
+| Palpation | Pressing with the hands to feel organs and masses | Detects tenderness, guarding, rigidity, and masses |
+| Tympany | A hollow, drum-like percussion note | Normal over gas-filled bowel |
+| Dullness | A flat percussion note | Heard over solid organs, fluid, or masses |
+| Guarding | Voluntary muscle tensing because the patient expects pain | Tells you where it hurts; relaxes with distraction |
+| Rigidity | Involuntary, board-like abdominal wall stiffness | A serious sign that can indicate peritoneal irritation |
+| Rebound tenderness | Pain worsened by sudden release of pressure | A classic sign of peritoneal irritation; generally provider-evaluated |
+| Bruit | A swishing sound over a vessel | Suggests turbulent blood flow; provider interprets |
+
+## Example
+
+**The RLQ pain workup, done in order.** Ms. Alvarez, 29, reports sharp right lower quadrant pain that started around her navel this morning and moved down. After the history (pain, appetite, last bowel movement, any vomiting, last menstrual period), you set up for the exam: draping, knees bent, warm hands. You inspect — abdomen flat, symmetric, no scars, moves with respiration. You auscultate all four quadrants and hear normal, active bowel sounds. You percuss — tympany throughout, no dullness. Then light palpation, starting away from the pain: she is relaxed until you reach the RLQ, where she winces and guards. You do not press deeply there; you document "RLQ tenderness with guarding, bowel sounds active, abdomen soft otherwise" and report to the provider, who performs deep palpation and further evaluation. The sequence mattered: had you palpated first, you might have heard altered bowel sounds and misread the picture — and by examining the painful area last, you got a relaxed, cooperative patient and a reliable exam.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Auscultation order | Percussion/palpation order | Auscultate FIRST — pressing changes bowel sounds; percussion and palpation come after |
+| Hypoactive bowel sounds | Absent bowel sounds | Hypoactive = fewer/quieter (common after surgery); absent = none heard over several minutes, needs confirmation |
+| Guarding | Rigidity | Guarding is voluntary, relaxes with distraction; rigidity is involuntary, board-like, and more serious |
+| Tympany | Dullness | Tympany = hollow note over gas; dullness = flat note over solid organs/fluid |
+| Light palpation | Deep palpation | Light = gentle, for tenderness/guarding; deep = firmer, for organs/masses, often provider-performed |
+| Rebound tenderness | Direct tenderness | Direct pain is on pressing; rebound is worse on release and suggests peritoneal irritation |
+| "Normal for this patient" | "Normal textbook abdomen" | Post-op ileus, obesity, pregnancy, and age all change findings — compare with baseline |
+
+## Quick Review
+
+1. What is the correct order of the four abdominal exam techniques, and why does the order matter?
+2. You hear tympany in most of the abdomen and dullness in the RUQ. Is this expected?
+3. A patient's abdomen feels stiff and board-like, and it does not relax even when you distract them. What is this finding called, and why is it important?
+4. When should you examine the painful area during palpation — first or last, and why?
+5. What must you do before concluding bowel sounds are absent?
+6. List three red flags from an abdominal assessment that warrant prompt provider notification.
+
+<details>
+<summary>Show answers</summary>
+
+1. Inspection, auscultation, percussion, palpation. Order matters because percussion and palpation can alter bowel sounds, so you listen before you disturb the abdomen.
+2. Yes — tympany over gas-filled bowel is normal, and dullness over the liver in the RUQ is expected.
+3. Rigidity — involuntary board-like stiffness that can indicate peritoneal irritation (such as peritonitis); it is more serious than voluntary guarding and warrants prompt reporting.
+4. Last — examining the painful area first makes the patient tense up (guarding), which can mask other findings and make the exam unreliable.
+5. Listen in multiple quadrants for several minutes total (and confirm with the provider) before concluding sounds are absent.
+6. Severe or worsening pain; rigid (board-like) abdomen; absent bowel sounds with distention and vomiting; blood in stool or vomit; fever with abdominal pain. (Any of these warrant prompt notification.)
+
+</details>
+
+## Related Topics
+
+- Previous: [Structure and Function](01-structure-and-function.md)
+- Next: [Recognizing Common Abdominal Disorders](03-recognizing-common-abdominal-disorders.md)
+- Related: [Assessment of the Abdomen chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Clinical Nursing Skills
+- Local outline source: `clinical-nursing-skills.md`
+- Official source URL: https://openstax.org/details/books/clinical-nursing-skills/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-15

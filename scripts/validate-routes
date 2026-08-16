@@ -1,0 +1,28 @@
+#!/usr/bin/env node
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const websiteDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const routes = JSON.parse(fs.readFileSync(path.join(websiteDir, "src/data/routes.json"), "utf8"));
+const errors = [];
+const ids = new Set();
+const paths = new Set();
+const required = ["/", "/subjects", "/subjects/:subjectSlug", "/subjects/:subjectSlug/lessons", "/subjects/:subjectSlug/lessons/:lessonSlug", "/subjects/:subjectSlug/notes", "/subjects/:subjectSlug/notes/:lessonSlug", "/subjects/:subjectSlug/questions", "/subjects/:subjectSlug/questions/:lessonSlug", "/learn", "/learn/:subjectSlug", "/learn/:subjectSlug/practice", "/learn/:subjectSlug/:unitSlug", "/learn/:subjectSlug/:unitSlug/:topicSlug", "/notes", "/questions", "/search", "/downloads", "/about", "/error", "/404"];
+for (const route of routes) {
+  if (!route.id || !route.path || !route.title) errors.push(`Incomplete route: ${JSON.stringify(route)}`);
+  if (ids.has(route.id)) errors.push(`Duplicate route id: ${route.id}`);
+  if (paths.has(route.path)) errors.push(`Duplicate route path: ${route.path}`);
+  ids.add(route.id); paths.add(route.path);
+  if (!route.path.startsWith("/")) errors.push(`Route is not absolute: ${route.path}`);
+}
+for (const route of required) if (!paths.has(route)) errors.push(`Missing route: ${route}`);
+const appSource = fs.readFileSync(path.join(websiteDir, "src/App.tsx"), "utf8");
+for (const token of ["lessons", "notes", "questions", "search", "downloads", "about", "error"]) if (!appSource.includes(token)) errors.push(`Router does not reference ${token}`);
+const subjectSource = fs.readFileSync(path.resolve(websiteDir, "data/subjects.json"), "utf8");
+const subjects = JSON.parse(subjectSource);
+for (const subject of subjects) if (subject.slug !== subject.id) errors.push(`Noncanonical subject slug: ${subject.slug}`);
+console.log(`ROUTE VALIDATION: ${errors.length ? "FAIL" : "PASS"}`);
+console.log(`Route patterns: ${routes.length}; canonical subjects: ${subjects.length}`);
+for (const error of errors) console.log(`- ${error}`);
+if (errors.length) process.exit(1);

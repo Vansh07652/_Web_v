@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-acids-bases-and-ph-q09",
+  "subject": "chemistry-2",
+  "lesson": "acids-bases-and-ph",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A blood sample's pH is reported as 7.2, compared with a previous value of 7.4 in the same person. Which interpretation of this change is most accurate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Hydronium ion concentration rose roughly 1.6-fold"
+    },
+    {
+      "id": "b",
+      "text": "Hydronium ion concentration rose roughly 100-fold"
+    },
+    {
+      "id": "c",
+      "text": "Hydronium ion concentration fell roughly 1.6-fold"
+    },
+    {
+      "id": "d",
+      "text": "Hydronium ion concentration rose by about 0.2 mol/L"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "A fall in pH always corresponds to a rise in hydronium concentration, and the magnitude of that rise is 10 raised to the pH difference: 10^(7.4 - 7.2) = 10^0.2, which is about 1.58. So a 0.2-unit drop represents roughly a 58 percent increase in [H3O+]. Option B would require a 2-unit fall, option C reverses the direction of the relationship, and option D misreads a pH difference as a concentration difference in mol/L.\n\nELI-10: Two features of pH have to be applied together here: it runs in reverse, so a lower number means more hydronium, and it is logarithmic, so even a fractional change multiplies the concentration. Raising 10 to the 0.2 power gives about 1.6, meaning roughly 60 percent more hydronium than before. In absolute terms the shift is from about 4 × 10^-8 to about 6 × 10^-8 mol/L, tiny numbers whose ratio is what matters physiologically.",
+  "difficulty": "medium",
+  "tags": [
+    "interpreting pH changes",
+    "logarithmic scale",
+    "inverse pH relationship"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-279",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

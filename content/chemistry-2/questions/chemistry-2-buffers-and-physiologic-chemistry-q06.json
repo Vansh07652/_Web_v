@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-buffers-and-physiologic-chemistry-q06",
+  "subject": "chemistry-2",
+  "lesson": "buffers-and-physiologic-chemistry",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which change would most likely lower blood pH in a person whose kidneys and bicarbonate stores are normal?",
+  "options": [
+    {
+      "id": "a",
+      "text": "An increase in alveolar ventilation that lowers PaCO2"
+    },
+    {
+      "id": "b",
+      "text": "An increase in plasma bicarbonate concentration"
+    },
+    {
+      "id": "c",
+      "text": "A decrease in alveolar ventilation that raises PaCO2"
+    },
+    {
+      "id": "d",
+      "text": "A rise in both bicarbonate and dissolved CO2 that leaves their ratio unchanged"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Retained CO2 drives the hydration equilibrium toward carbonic acid and then toward H+ and HCO3-, raising hydrogen ion concentration and lowering pH, which defines respiratory acidosis. CO2 is the acid term in the denominator of the Henderson-Hasselbalch ratio, so raising it lowers pH, while options A and B move that ratio the other way and raise pH. Option D changes nothing, because pH depends on the ratio and not on either concentration alone. Applying the standard acute rule of a 0.08 pH fall per 10 mm Hg rise, a PaCO2 going from 40 to 60 mm Hg predicts a pH near 7.24.\n\nELI-10: Carbon dioxide is essentially acid in gas form: dissolve it in water and carbonic acid appears. Breathe too slowly and CO2 backs up like traffic, so the blood turns more acidic. A useful bedside rule is that each 10 mm Hg of acute CO2 buildup drops pH about 0.08. Going from 40 to 60 is two steps, so 7.4 minus 0.16 lands near 7.24. And if bicarbonate and CO2 both rise together, the ratio is unchanged, so the pH does not move at all.",
+  "difficulty": "medium",
+  "tags": [
+    "respiratory acidosis",
+    "CO2 as volatile acid",
+    "Henderson-Hasselbalch ratio"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-280",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

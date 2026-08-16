@@ -1,0 +1,138 @@
+---
+title: "Emergency Contraception"
+subject: "Nursing"
+book: "Maternal-Newborn Nursing"
+chapter: "5: Family Planning"
+topic_number: "6"
+source: "maternal-newborn-nursing.md"
+tags:
+  - "emergency-contraception"
+  - "nursing"
+status: "complete"
+---
+
+# Emergency Contraception
+
+> **Book:** [Maternal-Newborn Nursing](../../README.md)  
+> **Chapter:** [Chapter 5: Family Planning](../README.md)  
+> **Topic:** 6  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Emergency contraception (EC) is a set of methods used to prevent pregnancy **after** unprotected intercourse, a contraceptive failure (a broken condom, missed pills, a patch or ring left off too long, a late injection), or sexual assault. EC is a backup, not a regular method: it is less effective than ongoing contraception and is intended for occasional use. None of the hormonal EC methods ends an established pregnancy. Their primary mechanism is to **delay or suppress ovulation**, so that sperm waiting in the reproductive tract do not encounter an egg. For this reason EC is not effective if ovulation has already occurred, and it is not an abortion — a distinction the nurse must be able to explain clearly and without judgment.
+
+There are three main options: **levonorgestrel (LNG) pills**, **ulipristal acetate (UPA) pills**, and the **copper IUD**, which is the most effective EC of all and doubles as years of ongoing contraception. (The older Yuzpe method — using regular combined pills off-label — still appears in some references but is largely replaced by dedicated products.) Availability differs by country and jurisdiction: some hormonal EC products are available without a prescription, some require one, and the copper IUD always requires a clinician visit.
+
+## Why This Matters
+
+EC is time-sensitive: hormonal methods become less effective with every passing day, so a nurse who knows the timing windows, the access routes, and the follow-up plan can materially change a person's outcome. On exams, EC appears as counseling questions — who needs it, how quickly it must be started, what it does (and what it does not do), and how to follow up. In practice, EC conversations happen in emergency departments, clinics, pharmacies, and after sexual assault, where the nurse provides nonjudgmental, confidential education and — per institutional policy, scope of practice, and local law — may provide EC directly or refer the person to someone who can. Knowing the difference between EC and abortion is also a patient-education competency, because misinformation is common.
+
+## Core Concepts
+
+### When EC is indicated
+
+EC is offered after any episode of unprotected intercourse or method failure, including: condom breakage or slippage; two or more missed combined pills; a patch or ring left off beyond the allowed time; a progestin-only injection given late; or sexual assault. It is **not** indicated for a person already confirmed to be pregnant — it will not end a pregnancy, and it is not harmful to an existing pregnancy, but it does nothing, so a pregnancy test is part of the assessment when pregnancy is possible. Understanding the menstrual cycle matters here: EC works only if ovulation has not yet happened, which is why timing and cycle information guide counseling.
+
+### How hormonal EC works
+
+The primary action of LNG and UPA pills is to delay ovulation long enough for sperm to die off before an egg is released. They do not disrupt implantation and are not abortifacients. This mechanism-based explanation is the strongest teaching tool the nurse has: it simultaneously corrects the "EC is an abortion" myth and explains why EC fails when given too late. (The precise biologic details of hormonal EC are an active area of research; current educational consensus is that preventing or delaying ovulation is the central mechanism — verify against current sources.)
+
+### Timing and effectiveness by method
+
+- **Levonorgestrel (LNG) pills:** Most effective the sooner they are taken, classically within 72 hours of intercourse; some products are labeled for up to 120 hours, with declining effectiveness over the window. Widely available without a prescription in many places, which makes it the most accessible option.
+- **Ulipristal acetate (UPA):** A prescription option effective up to 120 hours (5 days). Its advantage is that it maintains its effectiveness later in the window, so it is often preferred when several days have already passed — a classic exam distinction.
+- **Copper IUD:** Inserted within 5 days of intercourse, it is the most effective EC available, works regardless of the cycle day, and continues as long-term contraception. It is the option to mention when a person wants both EC and an ongoing method.
+- **Yuzpe method:** Off-label use of combined oral contraceptives; less effective and more nauseating than dedicated products. Mentioned for completeness, but dedicated products are the standard in most settings.
+
+### Access, advance provision, and counseling
+
+Access varies widely: LNG products are over-the-counter in many jurisdictions, UPA usually requires a prescription, and the copper IUD requires a trained clinician. Some clinicians practice **advance provision** — giving hormonal EC to a person in advance so it is on hand when a failure happens — which matters for people using user-dependent methods or who face access barriers. The nurse's counseling tasks: assess the timing since intercourse, note the person's cycle if known, check allergies and current medications (some interactions exist, e.g., certain seizure medications can reduce hormonal EC effectiveness — verify current guidance), explain the method, and address nausea, which is common with hormonal EC.
+
+### After EC: the follow-up plan
+
+EC is a one-time intervention, so the plan after it matters as much as the pill itself. The person should start or resume a regular contraceptive method right away (timing the start of hormonal contraception after UPA is coordinated with the prescriber to avoid interactions — verify current guidance). Repeat use of hormonal EC is safe but is less effective than ongoing contraception and can disrupt cycles, so it is not a substitute for a regular method. The nurse teaches follow-up: if the next menses does not come within about a week of the expected date, take a pregnancy test. If the copper IUD was inserted, the person already has years of contraception and needs the usual IUD after-care teaching.
+
+### Scope and special situations
+
+After sexual assault, offering EC is part of trauma-informed care, alongside STI testing, injury care, emotional support, and mandated reporting where applicable — all per protocol. Access rules for minors, pharmacist dispensing, and insurance coverage vary by jurisdiction, and nurses follow local law and institutional policy. The nursing constant is the same everywhere: timely, nonjudgmental, confidential education, delivered without assumptions about the person or the circumstances.
+
+## ELI-10: Explain Like I'm 10
+
+If a condom breaks or someone forgets their birth control, emergency contraception is a backup plan to stop a pregnancy before it starts. It works like a stop sign for the ovary: "Don't let an egg out yet." The sooner it is taken, the better it works. It is not a regular birth control method, and it does not end a pregnancy that has already started.
+
+## High-Yield Points
+
+- **EC prevents pregnancy after sex; it does not terminate an established pregnancy** — its main mechanism is delaying ovulation.
+- **Three main options:** LNG pills (most effective within 72 hours, OTC in many places), UPA pills (up to 120 hours, prescription, holds effectiveness later in the window), and the copper IUD (up to 5 days, most effective, doubles as ongoing contraception).
+- **Earlier is better** for hormonal EC — effectiveness declines with time.
+- **EC is a backup, not a routine method** — repeat use is safe but less effective than ongoing contraception.
+- **Follow-up is part of the prescription:** start/resume a regular method, and pregnancy test if menses is more than ~a week late.
+- **Nausea is common** with hormonal EC — teach what to expect and how to manage it per guidance.
+- **Nursing constants:** timely, nonjudgmental, confidential care; access and dispensing rules vary by jurisdiction, policy, and scope.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Emergency contraception (EC) | Methods used after unprotected sex or method failure to prevent pregnancy | Time-sensitive backup that reduces unintended pregnancy |
+| Levonorgestrel (LNG) EC | Progestin pill, most effective when taken within 72 hours | The most accessible option; over-the-counter in many places |
+| Ulipristal acetate (UPA) | Prescription EC effective up to 120 hours | Holds effectiveness better later in the window — a key comparison point |
+| Yuzpe method | Off-label use of combined pills as EC | Historic/limited use; less effective and more nauseating than dedicated products |
+| Copper IUD as EC | IUD inserted within 5 days of intercourse | The most effective EC and years of ongoing contraception in one step |
+| Advance provision | Giving EC in advance to someone at ongoing risk | Removes access barriers at the moment of need |
+| Ovulation delay | Slowing or stopping egg release | The primary mechanism of hormonal EC — and the reason it is not an abortion |
+| Backup method | A method used when the regular one fails or is missed | The everyday context in which EC is needed |
+
+## Example: The Weekend Condom Break
+
+On Friday night, Maya's condom breaks. She calls the clinic first thing Monday morning, roughly 60 hours later, unsure what to do. The nurse takes the key history: timing since intercourse, usual cycle, current contraception, and medications. Because Maya is past the 72-hour mark that LNG products handle best, the nurse explains the options honestly: LNG is still possible but its effectiveness has dropped; UPA, if the nurse's practice can prescribe it, holds up better at this point in the window; and the copper IUD would be the most effective choice — inserted by a clinician today — while also giving Maya years of contraception she said she wants. Maya chooses the copper IUD, and the nurse arranges the visit, then teaches what to expect at insertion, what bleeding changes come with a copper IUD, and the follow-up: return if her period is late, and use condoms until she is confident in the method. The counseling worked because it matched the method to the hours that had passed — the single most important variable in EC care.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Emergency contraception | Abortion | EC delays ovulation and prevents pregnancy; it does not end an established pregnancy |
+| "Plan B works for 5 days" | Peak effectiveness | LNG products are labeled up to 120 hours but are most effective within 72 hours — earlier is better |
+| EC | Regular contraception | EC is occasional backup; ongoing methods are more effective and are the real solution |
+| "EC must be taken the next morning" | Reality | Hormonal EC works up to 3–5 days depending on the product, with declining effectiveness |
+| LNG vs. UPA | Interchangeable pills | Different windows and different late-window effectiveness; UPA is preferred when more days have passed |
+| Copper IUD EC | A pill | It needs a clinician visit within 5 days — but it is the most effective option and provides long-term contraception |
+
+## Quick Review
+
+1. What is the primary mechanism of hormonal emergency contraception, and what does that mean for when it works?
+2. Name the three main EC options and the time window for each.
+3. Why might a clinician prefer UPA over LNG when several days have passed since intercourse?
+4. Why is the copper IUD considered the most effective EC?
+5. What follow-up teaching is essential after someone uses hormonal EC?
+6. A person says "emergency contraception is the abortion pill." How do you respond?
+
+<details>
+<summary>Show answers</summary>
+
+1. It delays or suppresses ovulation so sperm do not meet an egg. This means it only works before ovulation has occurred, which is why timing matters — and why it does not end an existing pregnancy.
+2. LNG pills (most effective within 72 hours, labeled up to 120), UPA pills (up to 120 hours), and the copper IUD (inserted within 5 days of intercourse).
+3. UPA maintains its effectiveness better later in the 120-hour window, whereas LNG effectiveness declines noticeably as time passes.
+4. It is the most effective EC, works regardless of the cycle day, and adds years of ongoing contraception in the same intervention.
+5. Start or resume a regular contraceptive method (coordinated with the prescriber after UPA), take a pregnancy test if menses is more than about a week late, and remember EC is occasional backup, not routine contraception.
+6. Explain the mechanism: hormonal EC delays ovulation and prevents pregnancy from starting; it does not disrupt an established pregnancy, so it is not an abortion. Keep the tone factual and nonjudgmental.
+
+</details>
+
+## Related Topics
+
+- Previous: [Long-Acting Reversible Contraception](05-long-acting-reversible-contraception.md)
+- Next: [Sterilization](07-sterilization.md)
+- Related: [Short-Acting Reversible Hormonal Methods of Contraception](04-short-acting-reversible-hormonal-methods-of-contraception.md)
+- Related: [Barrier Methods of Contraception](03-barrier-methods-of-contraception.md)
+- Related: [Family Planning chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Maternal-Newborn Nursing
+- Local outline source: `maternal-newborn-nursing.md`
+- Official source URL: https://openstax.org/details/books/maternal-newborn-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: Educational draft only — no doses, regimens, or treatment recommendations are provided here. Always follow current evidence-based guidelines, product labeling, the prescribing provider, and institutional policy; access, dispensing, and minor-consent rules vary by jurisdiction.
+- Last updated: 2026-08-15

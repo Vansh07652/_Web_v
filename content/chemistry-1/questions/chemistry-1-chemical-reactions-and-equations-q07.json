@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-chemical-reactions-and-equations-q07",
+  "subject": "chemistry-1",
+  "lesson": "chemical-reactions-and-equations",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which statement about the complete ionic and net ionic equations for AgNO3(aq) + NaCl(aq) -> AgCl(s) + NaNO3(aq) is accurate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The net ionic equation lists all four ions, since each of them is dissolved in water"
+    },
+    {
+      "id": "b",
+      "text": "The net ionic equation drops Ag+ and Cl-, since ions that form a solid are not written"
+    },
+    {
+      "id": "c",
+      "text": "The net ionic equation drops the spectator ions Na+ and NO3-, leaving Ag+ + Cl- -> AgCl(s)"
+    },
+    {
+      "id": "d",
+      "text": "The complete ionic equation writes AgCl as separate Ag+ and Cl- ions in solution"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "In the complete ionic equation, soluble strong electrolytes are written as dissociated ions while the insoluble product AgCl is written as an intact solid. Na+ and NO3- appear unchanged on both sides, so they are spectator ions and cancel, leaving Ag+(aq) + Cl-(aq) -> AgCl(s). The net ionic equation isolates the chemical change that actually occurs, which is why it is the standard representation for precipitation and neutralization reactions.\n\nELI-10: Write out every dissolved ion first, but keep the insoluble solid together because it is not dissociated. Then cross off any ion that appears identically on both sides; it entered and left unchanged, so it did nothing. Here Na+ and NO3- cancel, and what survives is the silver ion joining the chloride ion to form solid AgCl.",
+  "difficulty": "medium",
+  "tags": [
+    "net ionic equations",
+    "spectator ions",
+    "precipitation reactions"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-276",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

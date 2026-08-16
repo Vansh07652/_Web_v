@@ -1,0 +1,137 @@
+---
+title: "Stress and Adaptation"
+subject: "Nursing"
+book: "Fundamentals of Nursing"
+chapter: "34: Stress, Adaptation, and Homeostasis"
+topic_number: "1"
+source: "fundamentals-nursing.md"
+tags:
+  - "stress-and-adaptation"
+  - "nursing"
+status: "complete"
+---
+
+# Stress and Adaptation
+
+> **Book:** [Fundamentals of Nursing](../../README.md)  
+> **Chapter:** [Chapter 34: Stress, Adaptation, and Homeostasis](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Stress** is the state produced when demands — physical, psychological, or social — are perceived as exceeding a person's resources to handle them. **Adaptation** is the process of adjusting to those demands so the body and mind can keep functioning. The two always appear together: stress is the challenge, adaptation is the response, and the outcome depends on the size of the challenge, the person's resources, and the fit between the two.
+
+Three classic ways of thinking about stress are useful in nursing: **stimulus-based** (stress is the event or demand — the stressor), **response-based** (stress is the body's reaction, such as the fight-or-flight response), and **transaction-based** (stress is the *relationship* between person and environment, filtered through the person's appraisal — "do I have what it takes?"). Nursing practice leans on the transaction view, because it explains why the same event (a surgery, an exam, a move) is devastating for one person and manageable for another.
+
+## Why This Matters
+
+Stress is universal in healthcare. Illness itself is a stressor; hospitalization adds more — pain, unfamiliar surroundings, lost routines, financial worry, family concern. Patients' ability to adapt affects healing, recovery, adherence to treatment, and quality of life. Nurses also experience stress, and understanding adaptation helps nurses recognize when their own coping is becoming unhealthy (burnout is addressed in Topic 2 of this chapter). Finally, stress and adaptation are the lens through which the rest of this chapter is read: the effects of stress on health (Topic 2), the factors that shape adaptation (Topic 3), and the formal theories and models (Topic 4) all build on the foundations here.
+
+## Core Concepts
+
+### Stressors: the demands that trigger stress
+
+A **stressor** is any demand that calls for adaptation. Categories include **physical** (illness, pain, injury, surgery, temperature extremes, noise), **psychological** (threats to self-esteem, worry, grief, fear), and **sociocultural** (role changes, family conflict, financial strain, discrimination, cultural dislocation). Environmental stressors (crowding, lack of privacy, constant alarms) are especially relevant in hospitals. What counts as a stressor is individual: noise that one patient sleeps through may keep another awake and anxious.
+
+### Appraisal: the transaction view
+
+Lazarus and Folkman's transactional model describes two judgments. **Primary appraisal:** "Is this a threat, a challenge, a loss, or irrelevant to me?" **Secondary appraisal:** "Do I have the resources and options to cope?" Stress results when the answer to the second question is "not really." This model explains individual differences: appraisal, not the event itself, determines the stress experience. It also points to nursing interventions — increasing the person's sense of control and resources changes the appraisal.
+
+### The physiological response: fight-or-flight and the stress hormones
+
+When the brain perceives a threat, the sympathetic nervous system activates: heart rate and breathing increase, blood flow shifts to muscles, and the adrenal glands release catecholamines (epinephrine and norepinephrine), preparing the body to fight or flee. A parallel pathway — the hypothalamic-pituitary-adrenal (HPA) axis — releases cortisol, which mobilizes energy and modulates inflammation and immune activity. These responses are life-saving in acute danger and costly when chronically activated (see Topic 2).
+
+### General adaptation syndrome (Selye)
+
+Hans Selye described a three-stage pattern of physiological response to ongoing stress:
+
+1. **Alarm reaction:** the initial fight-or-flight mobilization (the "first alarm"). If the stressor persists…
+2. **Resistance stage:** the body adapts and appears to cope; stress hormone levels may stabilize, but at a cost — resources are being spent to maintain this balance.
+3. **Exhaustion stage:** if the stressor continues too long, adaptive resources are depleted and the person becomes vulnerable to illness and breakdown.
+
+Selye's key insight: the body has a limited supply of adaptive energy, and prolonged stress is not free. The model is a teaching framework — real physiology is more complex — but it remains valuable for understanding why chronic stress damages health.
+
+### Homeostasis vs. allostasis
+
+**Homeostasis** is the maintenance of a stable internal environment (temperature, blood glucose, fluid balance) within narrow ranges. **Allostasis** is the process of *changing* internal settings to meet a demand — "stability through change." Running from a threat raises heart rate and blood pressure temporarily; that is allostasis working. **Allostatic load** is the cumulative wear and tear on the body from repeated or prolonged allostatic adjustments — the biological price of chronic stress. Homeostasis is the goal; allostasis is how the body pursues it under challenge; allostatic load is the bill that comes due.
+
+### Coping and adaptation: adaptive vs. maladaptive
+
+Adaptation includes **physiological** responses (automatic) and **psychological** coping (deliberate). Coping strategies are commonly grouped as **problem-focused** (changing the situation — e.g., studying for an exam, getting help) and **emotion-focused** (managing feelings — e.g., seeking support, reframing, relaxation). Most real coping uses both. The critical distinction for nurses is **adaptive** coping (moves the person toward health and function, even if imperfect) versus **maladaptive** coping (reduces distress in the short term but harms health — e.g., heavy drinking, avoidance that worsens the problem, giving up). The same strategy can be adaptive in one situation and maladaptive in another; context matters.
+
+## ELI-10: Explain Like I'm 10
+
+Stress is what happens when something hard feels too big for us to handle — like a big test we didn't study for. Our body helps us get ready to deal with it: the heart beats faster and we feel alert. Adapting is how we get through the hard thing, and then how our body settles back down. If hard things keep coming with no break, the body gets tired and can get sick.
+
+## High-Yield Points
+
+- **Stress = demands appraised as exceeding resources;** the same event stresses different people differently (transaction view).
+- **Three views:** stimulus (the stressor), response (fight-or-flight), transaction (appraisal) — know the distinction.
+- **Fight-or-flight:** sympathetic activation + catecholamines; **HPA axis:** cortisol; both are adaptive acutely.
+- **Selye's GAS:** alarm → resistance → exhaustion; prolonged stress depletes adaptive resources.
+- **Homeostasis** (stable internal state) vs. **allostasis** (stability through change) vs. **allostatic load** (cumulative wear and tear).
+- **Coping:** problem-focused vs. emotion-focused; adaptive vs. maladaptive depends on context.
+- **Nursing link:** supporting patients' sense of control and resources changes their appraisal — and their stress.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Stress | The state of perceived demands exceeding perceived resources | The core concept; understanding it as perceived explains individual variation |
+| Stressor | Any demand (physical, psychological, sociocultural) that triggers stress | Assessment starts with identifying which stressors are at play |
+| Appraisal | The person's judgment of threat and of coping resources | The hinge of the transactional model; changing appraisal changes stress |
+| Fight-or-flight response | Sympathetic nervous system activation preparing the body for action | Adaptive acutely; harmful if chronically activated |
+| General adaptation syndrome (GAS) | Selye's three stages: alarm, resistance, exhaustion | Explains how prolonged stress depletes the body |
+| Homeostasis | Maintenance of stable internal conditions | The body's baseline goal; the reason adaptation exists |
+| Allostasis / allostatic load | Dynamic adjustment to demands / its cumulative cost | Connects chronic stress to physical wear and tear |
+| Coping | Deliberate efforts to manage stress (problem- or emotion-focused) | Coping quality (adaptive vs. maladaptive) shapes outcomes |
+
+## Example
+
+Consider two patients awaiting the same surgery. Mr. Reyes has had the surgery before, understands the procedure, and has family support; he appraises it as a challenge to get through. Ms. Patel has never been hospitalized, fears anesthesia, and has no one to ask questions; she appraises the same surgery as a threat with few resources. Both will mount a physiological stress response, but Ms. Patel's is likely to be stronger and longer-lasting. The nurse cannot change the surgery, but can change the appraisal: answering questions, explaining what to expect, involving a family member, and giving Ms. Patel a sense of control (a call light, a schedule, choices where available). This is the transactional model in action — intervening on resources and appraisal, not just on the event. It also demonstrates the GAS idea that a brief, well-supported stress response resolves, while an unrelieved one (uncertainty, fear, no support) drags the patient toward the resistance and exhaustion stages.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Stress (response) | Stressor (the cause) | The stressor is the demand; stress is the person's response to it |
+| Homeostasis | Allostasis | Homeostasis is the stable state; allostasis is the temporary change used to maintain stability under demand |
+| Emotion-focused coping | Weak or bad coping | Emotion-focused coping (support, reframing, relaxation) is often the right tool when the situation cannot be changed |
+| Maladaptive coping | Any coping that feels bad | Coping is judged by outcomes over time, not by immediate comfort; a "feel-good" strategy can be harmful |
+| The alarm reaction | The whole stress response | Alarm is only the first stage of GAS; resistance and exhaustion follow if the stressor persists |
+| Acute stress | Chronic stress | Acute stress is adaptive and self-limiting; chronic stress accumulates allostatic load |
+
+## Quick Review
+
+1. Explain the transactional (appraisal-based) view of stress, and why it matters for two patients facing the same event.
+2. List the three stages of Selye's general adaptation syndrome and what happens in each.
+3. What is the difference between homeostasis, allostasis, and allostatic load?
+4. Give one example of problem-focused coping and one of emotion-focused coping for a patient awaiting test results.
+5. Why can a strategy be adaptive in one situation and maladaptive in another?
+
+<details>
+<summary>Show answers</summary>
+
+1. Stress arises from the person's appraisal that demands exceed resources, not from the event itself. Two patients facing the same surgery can experience very different stress depending on how threatening they judge it and how resourced they feel — so nurses can reduce stress by providing information, support, and control.
+2. Alarm reaction (initial fight-or-flight mobilization), resistance (the body adapts and appears to cope, at a cost), and exhaustion (adaptive resources depleted; vulnerability to illness increases).
+3. Homeostasis is the stable internal state the body maintains; allostasis is the temporary adjustment of internal settings to meet a demand ("stability through change"); allostatic load is the cumulative wear and tear from repeated or prolonged adjustments.
+4. Problem-focused: gathering information, calling the provider's office, making a follow-up plan. Emotion-focused: talking with a trusted friend, using relaxation breathing, reframing the wait as time to prepare. (Many answers are valid.)
+5. Because coping quality depends on context and outcomes over time — a strategy that eases distress without harming health in one situation (e.g., distraction during a short wait) can become harmful when it replaces needed action (e.g., avoidance that delays treatment).
+
+</details>
+
+## Related Topics
+
+- Next: [Effects of Stress on Health and Wellness](02-effects-of-stress-on-health-and-wellness.md)
+- Related: [Factors Affecting Stress and Adaptation](03-factors-affecting-stress-and-adaptation.md)
+- Related: [Adaptation Theories and Models](04-adaptation-theories-and-models.md)
+- Related: [Stress, Adaptation, and Homeostasis chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Fundamentals of Nursing
+- Local outline source: `fundamentals-nursing.md`
+- Official source URL: https://openstax.org/details/books/fundamentals-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure. Models described (Lazarus & Folkman transactional model; Selye's general adaptation syndrome; allostasis/allostatic load) are standard frameworks taught in nursing education; they are explanatory models, and real physiology is more complex. No clinical guidelines, doses, or treatment recommendations are provided.
+- Last updated: 2026-08-15

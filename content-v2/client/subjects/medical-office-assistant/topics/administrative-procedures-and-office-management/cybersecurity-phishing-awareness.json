@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:medical-office-assistant:administrative-procedures-and-office-management:cybersecurity-phishing-awareness",
+  "slug": "cybersecurity-phishing-awareness",
+  "title": "Cybersecurity and Phishing Awareness",
+  "subject": {
+    "id": "subject:medical-office-assistant",
+    "slug": "medical-office-assistant",
+    "title": "Medical Office Assistant"
+  },
+  "unit": {
+    "id": "unit:medical-office-assistant:administrative-procedures-and-office-management",
+    "slug": "administrative-procedures-and-office-management",
+    "title": "Administrative Procedures and Office Management",
+    "order": 3
+  },
+  "order": 31,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "- Describe the basics of cybersecurity and why protecting electronic health information matters.\n- Recognize phishing, social engineering, and other common cyber threats.\n- Protect credentials, protected health information, and devices using appropriate safeguards.\n- Report suspicious activity, security incidents, and potential breaches promptly according to policy.",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nCybersecurity is like having locks and alarms on a house so only the right people can get in and nothing valuable is stolen or broken.\n\n### Question 2\n\nThink of the CIA triad as three promises: keep secrets secret (confidentiality), keep information correct (integrity), and keep it available when needed (availability).\n\n### Question 3\n\nA medical record is like a treasure chest that holds a person's name, address, and insurance numbers — thieves want it because it has everything they need to pretend to be that person.\n\n### Question 4\n\nThe Security Rule is a set of rules for keeping electronic health information safe, like a rulebook for locking digital filing cabinets.\n\n### Question 5\n\nAdministrative safeguards are the 'people rules' — who is trained, what the policies say, and who is responsible — rather than locks or software.\n\n### Question 6\n\nPhysical safeguards are the locks, doors, and cabinets that stop someone from walking up and grabbing records or a computer.\n\n### Question 7\n\nTechnical safeguards are the 'computer rules' — logins, automatic sign-outs, and secret codes that scramble data.\n\n### Question 8\n\nA unique user ID is like signing your name on every chart you open, so everyone knows who did what.\n\n### Question 9\n\nLeaving a computer logged in is like leaving your house key in the door — the right move is to pull it out right away.\n\n### Question 10\n\nA strong password is like a key that only fits one lock and that you never lend to anyone.\n\n### Question 11\n\nMFA is like needing both a key and a secret knock to open a door — having just one is not enough.\n\n### Question 12\n\nYour login is like your personal signature — you would not let someone else sign your name on a chart.\n\n### Question 13\n\nHiding a password under the keyboard is like hiding a house key under the doormat — everyone knows to look there.\n\n### Question 14\n\nShoulder surfing is like someone reading your diary over your shoulder while you write in it.\n\n### Question 15\n\nLocking your computer when you step away is like locking your car even when you only run inside for a minute.\n\n### Question 16\n\nA clean desk rule is like putting toys away in a locked box so no one can take them while you are gone.\n\n### Question 17\n\nEncryption is like writing a message in a secret code that only the person with the decoder ring can read.\n\n### Question 18\n\nSending PHI insecurely is like mailing a private letter on a postcard where anyone can read it — encryption puts it in a sealed envelope.\n\n### Question 19\n\nPhishing is like someone dressing up as your teacher to trick you into telling them a secret.\n\n### Question 20\n\nGeneral phishing is like a fishing net cast wide, while spear phishing is like aiming a single arrow at one specific fish.\n\n### Question 21\n\nWhaling is named for hunting whales — the biggest, most valuable targets in an organization, like the boss.\n\n### Question 22\n\nVishing is a 'voice' scam — someone calling and pretending to be your bank or a coworker to get secrets.\n\n### Question 23\n\nSmishing is like getting a fake note that looks like it is from your bank asking for your secret PIN.\n\n### Question 24\n\nPretexting is like making up a believable story — 'I'm from IT and I need your password' — to get someone to hand over a secret.\n\n### Question 25\n\nBaiting is like leaving a free cookie that is secretly full of something bad, hoping someone cannot resist picking it up.\n\n### Question 26\n\nTailgating is like slipping in behind someone through a door before it closes, without showing your own key.\n\n### Question 27\n\nA real friend writes your name on a card; a stranger sending the same card to everyone just says 'Dear Customer.'\n\n### Question 28\n\nScammers say 'hurry, hurry!' because they do not want you to stop and think — like a pushy stranger rushing you into a decision.\n\n### Question 29\n\nA scammer can buy a website name that is one letter off from the real one, like getting 'payrol' instead of 'payroll,' to fool you.\n\n### Question 30\n\nHovering over a link is like checking the address on an envelope before opening the letter inside.\n\n### Question 31\n\nAn .exe file is a little program that can do bad things when opened — like accepting a wrapped package from a stranger without checking inside.\n\n### Question 32\n\nIf someone emails asking to change where money goes, call the number you already trust to double-check — like confirming with a friend before lending money to a stranger.\n\n### Question 33\n\nA fake login page is like a fake ATM that looks real but records your card number instead of giving you money.\n\n### Question 34\n\nThis is like someone pretending to be the boss and asking you to hand over the office's secret files to a stranger.\n\n### Question 35\n\nIf you see a suspicious email, the safe move is to show a grown-up (your IT team) instead of poking it yourself.\n\n### Question 36\n\nWhen you spot something fishy, you tell the right helper — the IT team — not just anyone.\n\n### Question 37\n\nIf you touch something hot, you tell someone right away so they can help — hiding it only makes it worse.\n\n### Question 38\n\nA phishing drill is like a fire drill — practicing in a safe way so everyone knows what to do in a real emergency.\n\n### Question 39\n\nRansomware is like a thief who locks your diary in a box and says they will only give back the key if you pay them.\n\n### Question 40\n\nRansomware scrambles your files into secret code and hides the key, like locking everything in a safe and keeping the combination.\n\n### Question 41\n\nRansomware usually sneaks in when someone opens a poisoned email attachment or link — like a trap behind a tempting door.\n\n### Question 42\n\nPaying a kidnapper does not guarantee they will return what they took — and it tells them the crime works, so they do it again.\n\n### Question 43\n\nA backup is like keeping a spare copy of your homework at home, so if someone scribbles on your school copy, you still have a clean one.\n\n### Question 44\n\nAn offline backup is like keeping a spare key in a completely different, hidden place — the thief cannot grab both.\n\n### Question 45\n\nAntivirus is like a guard dog that barks when something bad tries to get into your computer.\n\n### Question 46\n\nUpdating software is like fixing a broken lock on your door before a burglar notices it.\n\n### Question 47\n\nA firewall is like a security guard at the door who checks who is allowed in and out of the building.\n\n### Question 48\n\nLeast privilege is like giving each worker only the keys to the rooms they actually need to enter, not every key in the building.\n\n### Question 49\n\nWhen someone leaves a job, taking back their keys and keycard keeps the building safe — the same goes for computer logins.\n\n### Question 50\n\nAn audit log is like a guest book at a museum that writes down exactly who went into which room and when.\n\n### Question 51\n\nUsing open public Wi-Fi with private information is like shouting a secret in a crowded room where anyone can listen.\n\n### Question 52\n\nA VPN is like a secret underground tunnel that carries your messages safely past the people who might be watching the road.\n\n### Question 53\n\nA strange USB drive is like a mystery package left on your porch — you should not plug it in without knowing where it came from.\n\n### Question 54\n\nShredding is like tearing a secret letter into tiny pieces so no one can put it back together and read it.\n\n### Question 55\n\nDe-identification is like removing the name tag from a picture so you can share it without revealing who it is.\n\n### Question 56\n\nMinimum necessary means only telling the part of a secret that the other person actually needs to know — nothing extra.\n\n### Question 57\n\nIf a pipe bursts, you call for help right away — hiding it only lets the water spread.\n\n### Question 58\n\nStopping a leak first, then calling the experts, is the right order — you stop the water before mopping.\n\n### Question 59\n\nA shared login is like everyone signing their papers with the same name — no one can tell who really did what.\n\n### Question 60\n\nEach person uses their own keycard to clock in and out, so the office knows who was where and when.\n\n### Question 61\n\nWorking with patient information at home is like doing secret work — you need a private, locked space, not the kitchen table.\n\n### Question 62\n\nProtecting a phone with PHI is like keeping a wallet with a lock, a secret code, and a way to erase it if it is lost.\n\n### Question 63\n\nA patient portal is like a personal mailbox with a key, so each patient can see only their own letters.\n\n### Question 64\n\nFaxing safely is like double-checking the address before mailing a secret letter, so it goes to the right person.\n\n### Question 65\n\nSending PHI securely is like putting a letter in a locked, sealed envelope rather than a postcard anyone can read.\n\n### Question 66\n\nYou would not hand a friend's secret to someone who just claims to know them — first you check they are really allowed to know.\n\n### Question 67\n\nBefore sharing a secret, you check the person is really who they say they are and is allowed to know.\n\n### Question 68\n\nIf a stranger calls and demands a secret 'right now,' the safe move is to check with a trusted source first, not to hurry and hand it over.\n\n### Question 69\n\nYou would not hold a locked door open for a stranger at home — the same rule protects the clinic's private areas.\n\n### Question 70\n\nKeep your screen turned like a diary you do not want the person next to you to read.\n\n### Question 71\n\nYou turn a screen away like you would turn a private letter away from someone standing beside you.\n\n### Question 72\n\nThrow away a secret by shredding it, not by tossing it where anyone can find it.\n\n### Question 73\n\nIf you lose something with a secret inside, you tell someone right away so they can help lock it down.\n\n### Question 74\n\nIf a computer gets locked by a bad guy, you do not pay — you call for help and do not touch the trap.\n\n### Question 75\n\nA scary pop-up telling you to call a strange number is like a stranger knocking and saying 'pay me to fix your house' — you check with the real experts instead.\n\n### Question 76\n\nIf you think someone knows your locker combination, you change it right away and tell the teacher.\n\n### Question 77\n\nA strong password is like a long, secret sentence that no one could guess, instead of something simple like '1234.'\n\n### Question 78\n\nUsing the same password everywhere is like using one key for your house, car, and locker — if someone copies it once, they can open everything.\n\n### Question 79\n\nMFA is like needing both a key and a special code from your phone to open a door — stealing the key alone is not enough.\n\n### Question 80\n\nThe Privacy Rule says who may see health information; the Security Rule says how to lock up the electronic version.\n\n### Question 81\n\nHIPAA says everyone who handles patient information has to learn the rules for keeping it safe — like a class before you drive.\n\n### Question 82\n\nBreaking the rules has consequences — the office must respond with fair discipline so everyone knows the rules matter.\n\n### Question 83\n\nIf a text about a package looks suspicious, check the real website yourself instead of tapping the link — like asking the store directly instead of trusting a stranger's note.\n\n### Question 84\n\nDefense in depth is like a castle with a moat, walls, guards, and locks — if one fails, the others still protect it.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Office of the National Coordinator for Health IT — Privacy, Security, and HIPAA",
+        "url": "https://www.healthit.gov/topic/privacy-security-and-hipaa"
+      },
+      {
+        "text": "U.S. Department of Health and Human Services — Health Information Privacy (HIPAA)",
+        "url": "https://www.hhs.gov/hipaa/index.html"
+      },
+      {
+        "text": "U.S. Department of Health and Human Services — Summary of the HIPAA Privacy Rule",
+        "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 84
+  },
+  "aliases": [
+    {
+      "value": "cybersecurity-phishing-awareness",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "moa-03-06-06",
+      "kind": "source_topic_id",
+      "source_id": "medical-office-assistant-question-bank"
+    },
+    {
+      "value": "cybersecurity-phishing-awareness",
+      "kind": "source_topic_slug",
+      "source_id": "medical-office-assistant-question-bank"
+    }
+  ],
+  "authority": {
+    "questions": [
+      {
+        "source_file": "generated-subjects/medical-office-assistant-question-bank/data/03-administrative-procedures-office-management/06-06-cybersecurity-phishing-awareness.json"
+      }
+    ],
+    "answer_rationales": [
+      {
+        "source_file": "generated-subjects/medical-office-assistant-question-bank/data/03-administrative-procedures-office-management/06-06-cybersecurity-phishing-awareness.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-office-assistant-question-bank/data/03-administrative-procedures-office-management/06-06-cybersecurity-phishing-awareness.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-office-assistant-question-bank",
+    "sourceFile": "generated-subjects/medical-office-assistant-question-bank/data/03-administrative-procedures-office-management/06-06-cybersecurity-phishing-awareness.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false,
+    "importBatch": "2026-08-14-generated-subjects"
+  },
+  "sourceSnapshotMarkdown": ""
+}

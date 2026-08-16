@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:membranes-transport:lipid-rafts-and-microdomains",
+  "slug": "lipid-rafts-and-microdomains",
+  "title": "Lipid Rafts and Membrane Microdomains",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:membranes-transport",
+    "slug": "membranes-transport",
+    "title": "Membranes Transport",
+    "order": 2
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "Lipid rafts are proposed membrane microdomains enriched in cholesterol, sphingolipids (with long, mostly saturated acyl chains), and specific proteins (GPI-anchored, acylated, and certain signaling proteins). They are thought to be small (roughly 10–200 nm), highly dynamic, and short-lived — transient platforms that can be stabilized and enlarged by protein cross-linking. Critically, rafts are *not* large, permanent, static islands; early \"detergent-resistant membrane\" (DRM) experiments overestimated their size and stability, and super-resolution live-cell imaging now portrays them as fluctuating nanoscale assemblies.",
+    "whyItMatters": "Rafts are proposed to organize signaling (immune-receptor activation), membrane trafficking (endocytosis/exocytosis), and pathogen entry (many viruses and toxins exploit raft lipids). Even while its details are debated, the raft concept has focused attention on lateral membrane organization, which is central to how cells localize signaling.",
+    "learningObjectives": "- Define lipid rafts and their proposed composition.\n- Explain why rafts are described as dynamic nanoscale domains rather than static islands.\n- Describe the experimental evidence for rafts and its limitations (detergent resistance vs. live-cell imaging).\n- Identify the functional roles proposed for rafts in signaling and trafficking.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nLipid rafts are proposed membrane microdomains enriched in cholesterol, sphingolipids (with long, mostly saturated acyl chains), and specific proteins (GPI-anchored, acylated, and certain signaling proteins). They are thought to be small (roughly 10–200 nm), highly dynamic, and short-lived — transient platforms that can be stabilized and enlarged by protein cross-linking. Critically, rafts are *not* large, permanent, static islands; early \"detergent-resistant membrane\" (DRM) experiments overestimated their size and stability, and super-resolution live-cell imaging now portrays them as fluctuating nanoscale assemblies.\n\n### Key Components\n\n### Lipid basis\nCholesterol packs tightly with sphingolipids' long saturated tails, favoring a more ordered, thicker \"liquid-ordered\" (Lo) phase that coexists with the surrounding more disordered bilayer (Ld).\n\n### Resident proteins\nGPI-anchored proteins (outer leaflet), Src-family kinases and other acylated or palmitoylated signaling proteins (inner leaflet), and glycosphingolipids.\n\n### Liquid-ordered vs. liquid-disordered phases\nThe phase-separation concept: raft domains represent a more ordered lipid phase floating in a disordered sea.\n\n### Dynamic behavior\nRafts continually form, merge, and disperse; individual proteins and lipids exchange in and out on sub-second timescales.\n\n### Mechanism\n\nFavorable packing between cholesterol's rigid rings and sphingolipids' saturated tails drives local phase separation into a more ordered domain. Protein lipid anchors (GPI, palmitoyl, myristoyl) partition preferentially into this ordered environment. Signaling molecules clustering there can then interact more efficiently; cross-linking (by antibodies or ligands) coalesces many small rafts into larger, more stable platforms.\n\n### How It Works\n\n1. Cholesterol and sphingolipids self-associate into nanoscale ordered domains.\n2. Lipid-anchored and certain transmembrane proteins partition into these domains.\n3. The domains diffuse and fluctuate, exchanging constituents with the surrounding membrane.\n4. Ligand binding or antibody cross-linking stabilizes and enlarges rafts.\n5. Clustered signaling complexes (for example, T-cell receptor activation) form functional platforms.\n\n### Energy and Directionality\n\nRaft formation is largely a passive thermodynamic consequence of lipid–lipid packing preferences (no ATP). However, the *functional* outcomes (signaling amplification, endocytosis) are driven and regulated by active processes — phosphorylation, actin dynamics, and membrane trafficking that consume energy.\n\n### Experimental Evidence\n\n- **Detergent resistance:** extraction with cold Triton X-100 leaves cholesterol/sphingolipid-rich \"DRMs\" — interpreted as rafts, but criticized as an artifact of the detergent itself.\n- **FRET and single-molecule tracking:** show that raft-associated proteins transiently co-localize in nanoscale clusters (~10–20 nm) with millisecond-to-second lifetimes.\n- **Super-resolution microscopy (STED, PALM):** directly visualizes dynamic nanodomains too small and too short-lived for conventional light microscopy.\n\n### Technique\n\nCold-detergent extraction (DRM isolation), fluorescence resonance energy transfer (FRET), single-particle tracking, and super-resolution fluorescence microscopy are the key methods — each with distinct biases that must be reconciled.",
+    "howItWorks": "1. Cholesterol and sphingolipids self-associate into nanoscale ordered domains.\n2. Lipid-anchored and certain transmembrane proteins partition into these domains.\n3. The domains diffuse and fluctuate, exchanging constituents with the surrounding membrane.\n4. Ligand binding or antibody cross-linking stabilizes and enlarges rafts.\n5. Clustered signaling complexes (for example, T-cell receptor activation) form functional platforms.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Rafts: cholesterol- and sphingolipid-enriched microdomains, ~10–200 nm.\n- Enriched in GPI-anchored and acylated signaling proteins.\n- Dynamic and transient, NOT static giant islands.\n- DRMs (detergent-resistant membranes) overstate size/stability — a known artifact.\n- Cross-linking stabilizes/enlarges rafts into functional platforms.\n- Visualized by FRET, single-molecule tracking, and super-resolution microscopy.",
+    "commonConfusions": "- **\"Rafts are large, permanent islands.\"** They are small, dynamic, nanoscale, and transient.\n- **\"Detergent-resistant membranes = rafts.\"** DRMs are a biochemical proxy that can create or enlarge the very domains it claims to measure.\n- **\"All membrane proteins localize to rafts.\"** Only specific lipid-anchored, ordered-phase-preferring proteins do.\n- **\"Rafts are firmly proven structures.\"** Their exact size, lifetime, and even existence in vivo remain debated.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a lava lamp: little blobs of one kind of waxy liquid form, drift around, merge, and break apart again inside another liquid. Lipid rafts are like those blobs — special cholesterol-and-fat \"rafts\" that pop in and out of existence, carrying signaling proteins that only work when they bunch together. (The analogy overstates their size and solidity; real rafts are far tinier and flicker much faster than lava-lamp blobs.)",
+    "quickReview": "- Cholesterol + sphingolipids → liquid-ordered nanodomains.\n- GPI-anchored proteins partition in; signaling clusters form on cross-linking.\n- Dynamic, transient, ~10–200 nm.\n- Evidence: DRMs (artifact-prone), FRET, super-resolution microscopy.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Lipid Bilayer.\" https://www.ncbi.nlm.nih.gov/books/NBK26871/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26871/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"5.1 Components and Structure.\" https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+        "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure"
+      },
+      {
+        "text": "Cooper, *The Cell: A Molecular Approach*, 2nd ed. https://www.ncbi.nlm.nih.gov/books/NBK9839/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9839/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "lipid-rafts-and-microdomains",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "04-lipid-rafts-and-microdomains",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:a22f486510463699"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:a22f486510463699"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:a22f486510463699"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:a22f486510463699"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/02-membranes-transport/04-lipid-rafts-and-microdomains.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Lipid Rafts and Membrane Microdomains\n\n## Learning Goals\n- Define lipid rafts and their proposed composition.\n- Explain why rafts are described as dynamic nanoscale domains rather than static islands.\n- Describe the experimental evidence for rafts and its limitations (detergent resistance vs. live-cell imaging).\n- Identify the functional roles proposed for rafts in signaling and trafficking.\n\n## Core Concept\nLipid rafts are proposed membrane microdomains enriched in cholesterol, sphingolipids (with long, mostly saturated acyl chains), and specific proteins (GPI-anchored, acylated, and certain signaling proteins). They are thought to be small (roughly 10–200 nm), highly dynamic, and short-lived — transient platforms that can be stabilized and enlarged by protein cross-linking. Critically, rafts are *not* large, permanent, static islands; early \"detergent-resistant membrane\" (DRM) experiments overestimated their size and stability, and super-resolution live-cell imaging now portrays them as fluctuating nanoscale assemblies.\n\n## Key Components\n### Lipid basis\nCholesterol packs tightly with sphingolipids' long saturated tails, favoring a more ordered, thicker \"liquid-ordered\" (Lo) phase that coexists with the surrounding more disordered bilayer (Ld).\n\n### Resident proteins\nGPI-anchored proteins (outer leaflet), Src-family kinases and other acylated or palmitoylated signaling proteins (inner leaflet), and glycosphingolipids.\n\n### Liquid-ordered vs. liquid-disordered phases\nThe phase-separation concept: raft domains represent a more ordered lipid phase floating in a disordered sea.\n\n### Dynamic behavior\nRafts continually form, merge, and disperse; individual proteins and lipids exchange in and out on sub-second timescales.\n\n## Mechanism\nFavorable packing between cholesterol's rigid rings and sphingolipids' saturated tails drives local phase separation into a more ordered domain. Protein lipid anchors (GPI, palmitoyl, myristoyl) partition preferentially into this ordered environment. Signaling molecules clustering there can then interact more efficiently; cross-linking (by antibodies or ligands) coalesces many small rafts into larger, more stable platforms.\n\n## How It Works\n1. Cholesterol and sphingolipids self-associate into nanoscale ordered domains.\n2. Lipid-anchored and certain transmembrane proteins partition into these domains.\n3. The domains diffuse and fluctuate, exchanging constituents with the surrounding membrane.\n4. Ligand binding or antibody cross-linking stabilizes and enlarges rafts.\n5. Clustered signaling complexes (for example, T-cell receptor activation) form functional platforms.\n\n## Energy and Directionality\nRaft formation is largely a passive thermodynamic consequence of lipid–lipid packing preferences (no ATP). However, the *functional* outcomes (signaling amplification, endocytosis) are driven and regulated by active processes — phosphorylation, actin dynamics, and membrane trafficking that consume energy.\n\n## Experimental Evidence\n- **Detergent resistance:** extraction with cold Triton X-100 leaves cholesterol/sphingolipid-rich \"DRMs\" — interpreted as rafts, but criticized as an artifact of the detergent itself.\n- **FRET and single-molecule tracking:** show that raft-associated proteins transiently co-localize in nanoscale clusters (~10–20 nm) with millisecond-to-second lifetimes.\n- **Super-resolution microscopy (STED, PALM):** directly visualizes dynamic nanodomains too small and too short-lived for conventional light microscopy.\n\n## Technique\nCold-detergent extraction (DRM isolation), fluorescence resonance energy transfer (FRET), single-particle tracking, and super-resolution fluorescence microscopy are the key methods — each with distinct biases that must be reconciled.\n\n## Why It Matters\nRafts are proposed to organize signaling (immune-receptor activation), membrane trafficking (endocytosis/exocytosis), and pathogen entry (many viruses and toxins exploit raft lipids). Even while its details are debated, the raft concept has focused attention on lateral membrane organization, which is central to how cells localize signaling.\n\n## High-Yield Facts\n- Rafts: cholesterol- and sphingolipid-enriched microdomains, ~10–200 nm.\n- Enriched in GPI-anchored and acylated signaling proteins.\n- Dynamic and transient, NOT static giant islands.\n- DRMs (detergent-resistant membranes) overstate size/stability — a known artifact.\n- Cross-linking stabilizes/enlarges rafts into functional platforms.\n- Visualized by FRET, single-molecule tracking, and super-resolution microscopy.\n\n## Eli Explains\nImagine a lava lamp: little blobs of one kind of waxy liquid form, drift around, merge, and break apart again inside another liquid. Lipid rafts are like those blobs — special cholesterol-and-fat \"rafts\" that pop in and out of existence, carrying signaling proteins that only work when they bunch together. (The analogy overstates their size and solidity; real rafts are far tinier and flicker much faster than lava-lamp blobs.)\n\n## Common Confusions\n- **\"Rafts are large, permanent islands.\"** They are small, dynamic, nanoscale, and transient.\n- **\"Detergent-resistant membranes = rafts.\"** DRMs are a biochemical proxy that can create or enlarge the very domains it claims to measure.\n- **\"All membrane proteins localize to rafts.\"** Only specific lipid-anchored, ordered-phase-preferring proteins do.\n- **\"Rafts are firmly proven structures.\"** Their exact size, lifetime, and even existence in vivo remain debated.\n\n## Quick Review\n- Cholesterol + sphingolipids → liquid-ordered nanodomains.\n- GPI-anchored proteins partition in; signaling clusters form on cross-linking.\n- Dynamic, transient, ~10–200 nm.\n- Evidence: DRMs (artifact-prone), FRET, super-resolution microscopy.\n\n## Sources\n- Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Lipid Bilayer.\" https://www.ncbi.nlm.nih.gov/books/NBK26871/\n- OpenStax, *Biology 2e*, \"5.1 Components and Structure.\" https://openstax.org/books/biology-2e/pages/5-1-components-and-structure\n- Cooper, *The Cell: A Molecular Approach*, 2nd ed. https://www.ncbi.nlm.nih.gov/books/NBK9839/\n"
+}

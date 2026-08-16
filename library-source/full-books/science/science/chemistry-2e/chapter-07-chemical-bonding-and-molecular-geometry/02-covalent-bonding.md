@@ -1,0 +1,170 @@
+---
+title: "Covalent Bonding"
+subject: "Science"
+book: "Chemistry 2e"
+chapter: "7: Chemical Bonding and Molecular Geometry"
+topic_number: "2"
+source: "chemistry-2e.md"
+tags:
+  - "covalent-bonding"
+  - "science"
+status: "complete"
+---
+
+# Covalent Bonding
+
+> **Book:** [Chemistry 2e](../../README.md)  
+> **Chapter:** [Chapter 7: Chemical Bonding and Molecular Geometry](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+When two atoms have similar electronegativities, neither can pull an electron completely away from the other — so instead of transferring electrons, they **share** them. That sharing is a **covalent bond**. Each shared pair counts toward both atoms' octets, which is why two chlorine atoms, each needing one electron, form a single bond in Cl₂, and two nitrogen atoms, each needing three, form a triple bond in N₂. Covalent bonding is the glue of the molecular world: water, oxygen, proteins, DNA, plastics, and fuels are all held together by shared electron pairs. This topic covers what covalent bonds are, how bond order changes strength and length, how electronegativity makes bonds polar, and coordinate covalent bonds.
+
+## Why This Matters
+
+Most of the chemistry of living things is covalent chemistry. Water's ability to dissolve, transport, and stabilize biomolecules; the strength of the O₂ bond that respiration must break; the folding of proteins; the pairing of DNA strands — all trace back to covalent bonds and their polarity. In health care, drug solubility and membrane permeability depend on whether molecules are polar or nonpolar, and blood gas transport (O₂ and CO₂) involves covalent molecules moving through the body. On exams, covalent bonding is the foundation for Lewis structures, molecular shape, polarity, and nearly every later chapter.
+
+## Core Concepts
+
+### Sharing electrons completes octets
+
+In H₂, each hydrogen brings one electron; the shared pair gives each a full duet, matching helium. In Cl₂, each chlorine shares one of its seven valence electrons and counts eight: six lone-pair electrons plus the two shared. A single line between atoms represents one shared pair — one bond.
+
+### Bond order: single, double, and triple
+
+Atoms can share more than one pair. **Bond order** is the number of shared pairs between two atoms: O₂ has a double bond (O=O), N₂ a triple bond (N≡N). More shared pairs mean more electron density between the nuclei, making the bond shorter and stronger: N–N averages about 163 kJ/mol, N=N about 418 kJ/mol, and N≡N about 945 kJ/mol. The Lewis model has limits — it cannot explain why O₂ is paramagnetic — but it remains the standard first tool for counting bonds.
+
+### Electronegativity and bond polarity
+
+No two atoms share equally unless they are identical. **Electronegativity** measures how strongly an atom attracts shared electrons, and the difference \(\Delta EN\) between bonded atoms decides bond character:
+
+- \(\Delta EN < 0.4\): nonpolar covalent bond (equal sharing, e.g., H–H).
+- \(0.4 \le \Delta EN \le 1.7\): polar covalent bond (unequal sharing, e.g., H–Cl).
+- \(\Delta EN > 1.7\): largely ionic (transfer, e.g., Na–Cl).
+
+In a polar bond, the more electronegative atom carries a partial negative charge, \(\delta-\), and its partner carries \(\delta+\). These partial charges create a bond **dipole** — a separation of charge within the bond — which drives solubility, intermolecular forces, and molecular polarity later in the chapter.
+
+### Coordinate covalent bonds
+
+In most covalent bonds, each atom contributes one electron to the shared pair. In a **coordinate covalent bond**, one atom supplies both. Ammonia has a lone pair on nitrogen; when it reacts with H⁺, nitrogen donates that pair into a new N–H bond, forming NH₄⁺. Once formed, a coordinate bond is indistinguishable from any other covalent bond. The same pattern produces H₃O⁺ when water accepts an H⁺.
+
+### Properties of molecular compounds
+
+Covalent compounds form discrete molecules held together by relatively weak intermolecular forces, so they tend to have low melting and boiling points, are often gases or liquids at room temperature, and do not conduct electricity — a sharp contrast with the ionic lattices of Topic 1. Water is a famous exception: its polar O–H bonds allow hydrogen bonding between molecules, raising its boiling point far above what its molar mass suggests.
+
+## ELI-10: Explain Like I'm 10
+
+> Two friends each want a full set of marbles, but neither can take the other's without a fight — so they agree to share, and both feel complete. A covalent bond is exactly that: two atoms share a pair of electrons, sometimes two pairs or even three, so each counts a full outer shell.
+
+## High-Yield Points
+
+- Covalent bonds share electron pairs between nonmetals; each shared pair counts toward both atoms' octets (duet for H).
+- Bond order 1, 2, or 3: more shared pairs mean shorter, stronger bonds (N≡N 945 kJ/mol vs N–N 163 kJ/mol).
+- \(\Delta EN\): \(<0.4\) nonpolar, \(0.4\)–\(1.7\) polar covalent, \(>1.7\) largely ionic — a guideline, not a law.
+- Polar bonds carry partial charges: \(\delta-\) on the more electronegative atom, \(\delta+\) on the other.
+- Coordinate covalent bonds: one atom donates both electrons (NH₃ + H⁺ → NH₄⁺); the product bond is ordinary afterward.
+- Molecular compounds generally have low melting points and do not conduct; hydrogen bonding explains water's high boiling point.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| covalent bond | A bond formed by sharing a pair of electrons between two atoms | Holds together nearly all molecules, including water and biomolecules |
+| bond order | Number of shared electron pairs between two atoms (1, 2, or 3) | Predicts relative bond length and strength |
+| electronegativity | An atom's ability to attract shared electrons | Determines whether a bond is nonpolar, polar, or ionic |
+| polar covalent bond | A bond with unequal sharing, producing \(\delta+\) and \(\delta-\) ends | Creates dipoles that govern solubility and intermolecular forces |
+| nonpolar covalent bond | A bond with equal (or nearly equal) sharing | Found in H₂, O₂, N₂, and symmetric molecules |
+| coordinate covalent bond | A bond in which one atom supplies both shared electrons | Explains NH₄⁺, H₃O⁺, and metal–ligand complexes |
+| dipole | Separation of charge within a bond or molecule | Underlies polarity and hydrogen bonding |
+| lone pair | A pair of valence electrons not involved in bonding | Occupies space and drives shape and reactivity |
+
+## How It Works / Step-by-Step Process
+
+1. Identify the atoms (typically nonmetals) and count valence electrons.
+2. Decide how many electrons each atom must share to reach an octet (duet for H).
+3. Draw the structure: shared pairs as lines, lone pairs as dots.
+4. Classify each bond by \(\Delta EN\): nonpolar, polar covalent, or largely ionic.
+5. Predict physical properties from the molecular model: discrete molecules, weak forces, low melting points.
+
+## Worked Examples
+
+### Example 1: Classifying bonds with electronegativity differences
+
+Use Pauling electronegativities (H = 2.20, Cl = 3.16, Na = 0.93) to classify three bonds.
+
+For H–H:
+
+\[
+\Delta EN = 2.20 - 2.20 = 0.00
+\]
+
+so the bond is nonpolar covalent — identical atoms share equally.
+
+For H–Cl:
+
+\[
+\Delta EN = 3.16 - 2.20 = 0.96
+\]
+
+so the bond is polar covalent, with \(\delta-\) on chlorine and \(\delta+\) on hydrogen.
+
+For Na–Cl:
+
+\[
+\Delta EN = 3.16 - 0.93 = 2.23
+\]
+
+so the bond is largely ionic — chlorine essentially takes the electron. Together the three examples span the continuum from pure sharing to near-complete transfer.
+
+### Example 2: Bond order, strength, and reactivity in nitrogen
+
+Compare the nitrogen–nitrogen bonds in three molecules: hydrazine, N₂H₄, has an N–N single bond (about 163 kJ/mol); diazene, N₂H₂, an N=N double bond (about 418 kJ/mol); and nitrogen gas, N₂, an N≡N triple bond (about 945 kJ/mol). Each additional shared pair roughly doubles the bond energy and shortens the bond.
+
+The enormous triple-bond energy of N₂ explains a real-world puzzle: nitrogen gas is everywhere in the air, yet it is unreactive at ordinary temperatures because breaking that bond costs so much energy. Nitrogen fixation — converting N₂ into usable fertilizer compounds — therefore demands high temperatures, high pressures, or specialized catalysts, and the human body cannot use atmospheric nitrogen directly.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| "Sharing" meaning equal sharing | Polar covalent sharing | Unequal sharing happens whenever \(\Delta EN > 0\); polar bonds have \(\delta+/\delta-\) ends |
+| A double bond being exactly twice as strong | A double bond being stronger than a single bond | C=C (614 kJ/mol) beats C–C (348 kJ/mol) but not by double |
+| "Covalent compounds conduct when dissolved" | Ionic compounds conduct when dissolved | Sugar dissolves but does not conduct; salts do — they produce ions |
+| The Lewis structure being a complete description | A useful model with limits | The Lewis model does not predict O₂'s paramagnetism |
+| All bonds being either ionic or covalent | A bonding continuum | Most real bonds are mixed; \(\Delta EN\) is a guideline |
+| A coordinate bond being special forever | An ordinary bond after formation | Once formed, it is identical to any other covalent bond |
+
+## Quick Review
+
+1. Why does nitrogen gas form a triple bond rather than a single bond?
+2. Which bond is more polar, H–F or H–Cl?
+3. What is unusual about the new N–H bond in NH₄⁺?
+4. How many shared pairs hold two oxygen atoms together in O₂?
+5. Water is covalent yet boils at 100 °C. Does this contradict the low-boiling-point trend for molecular compounds?
+
+<details>
+<summary>Show answers</summary>
+
+1. Each nitrogen atom has five valence electrons and needs three more to reach an octet, so the atoms share three pairs — a triple bond.
+2. H–F. Fluorine (3.98) and hydrogen (2.20) differ by \(\Delta EN = 1.78\), while H–Cl differs by 0.96; the larger difference means more unequal sharing.
+3. Nitrogen donates its lone pair to the H⁺ ion — both electrons of the new bond come from nitrogen. It is a coordinate covalent bond.
+4. Two shared pairs — a double bond — plus two lone pairs on each oxygen.
+5. No. The trend holds for the bonding model; water's unusually high boiling point is explained by strong hydrogen bonding between its polar molecules, an intermolecular effect.
+
+</details>
+
+## Related Topics
+
+- Previous: [Ionic Bonding](01-ionic-bonding.md)
+- Next: [Lewis Symbols and Structures](03-lewis-symbols-and-structures.md)
+- Related: [Chemical Bonding and Molecular Geometry chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Chemistry 2e
+- Local outline source: `chemistry-2e.md`
+- Official source URL: https://openstax.org/details/books/chemistry-2e/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Bond energies and Pauling electronegativity values are standard reference values from the OpenStax Chemistry 2e bond-energy table and common periodic tables.
+- Last updated: 2026-08-16

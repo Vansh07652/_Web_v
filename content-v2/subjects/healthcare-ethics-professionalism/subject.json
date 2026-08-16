@@ -1,0 +1,256 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:healthcare-ethics-professionalism",
+    "slug": "healthcare-ethics-professionalism",
+    "title": "Healthcare Ethics & Professionalism",
+    "aliases": [
+      {
+        "value": "healthcare-ethics-professionalism",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "ethics-professionalism",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "healthcare ethics",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "professionalism",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "Healthcare Ethics & Professionalism",
+        "kind": "source_subject_title",
+        "source_id": "expansion_qb"
+      },
+      {
+        "value": "18-ethics-professionalism",
+        "kind": "source_subject_directory",
+        "source_id": "expansion_qb"
+      },
+      {
+        "value": "18",
+        "kind": "source_subject_number",
+        "source_id": "expansion_qb"
+      }
+    ],
+    "status": "final_question_bank_no_college_notes",
+    "category": "healthcare-foundations"
+  },
+  "units": [
+    {
+      "id": "unit:healthcare-ethics-professionalism:core-topics",
+      "slug": "core-topics",
+      "title": "Core Topics",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "core-topics",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:healthcare-ethics-professionalism:core-topics:foundations-of-healthcare-ethics",
+          "slug": "foundations-of-healthcare-ethics",
+          "title": "Foundations of Healthcare Ethics",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/healthcare-ethics-professionalism/topics/core-topics/foundations-of-healthcare-ethics.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:healthcare-ethics-professionalism:core-topics:autonomy",
+          "slug": "autonomy",
+          "title": "Autonomy",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/healthcare-ethics-professionalism/topics/core-topics/autonomy.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:healthcare-ethics-professionalism:core-topics:beneficence-and-nonmaleficence",
+          "slug": "beneficence-and-nonmaleficence",
+          "title": "Beneficence and Nonmaleficence",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/healthcare-ethics-professionalism/topics/core-topics/beneficence-and-nonmaleficence.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:healthcare-ethics-professionalism:core-topics:justice",
+          "slug": "justice",
+          "title": "Justice",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/healthcare-ethics-professionalism/topics/core-topics/justice.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:healthcare-ethics-professionalism:core-topics:veracity-and-fidelity",
+          "slug": "veracity-and-fidelity",
+          "title": "Veracity and Fidelity",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/healthcare-ethics-professionalism/topics/core-topics/veracity-and-fidelity.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:healthcare-ethics-professionalism:core-topics:informed-consent",
+          "slug": "informed-consent",
+          "title": "Informed Consent",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/healthcare-ethics-professionalism/topics/core-topics/informed-consent.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:healthcare-ethics-professionalism:core-topics:privacy-and-confidentiality",
+          "slug": "privacy-and-confidentiality",
+          "title": "Privacy and Confidentiality",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/healthcare-ethics-professionalism/topics/core-topics/privacy-and-confidentiality.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:healthcare-ethics-professionalism:core-topics:professional-boundaries",
+          "slug": "professional-boundaries",
+          "title": "Professional Boundaries",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/healthcare-ethics-professionalism/topics/core-topics/professional-boundaries.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:healthcare-ethics-professionalism:core-topics:accountability-and-professional-conduct",
+          "slug": "accountability-and-professional-conduct",
+          "title": "Accountability and Professional Conduct",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/healthcare-ethics-professionalism/topics/core-topics/accountability-and-professional-conduct.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:healthcare-ethics-professionalism:core-topics:ethical-dilemmas-and-patient-advocacy",
+          "slug": "ethical-dilemmas-and-patient-advocacy",
+          "title": "Ethical Dilemmas and Patient Advocacy",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/healthcare-ethics-professionalism/topics/core-topics/ethical-dilemmas-and-patient-advocacy.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 1,
+    "topicCount": 10,
+    "teachingTopicCount": 0,
+    "eli10TopicCount": 10,
+    "highYieldTopicCount": 0,
+    "referencedTopicCount": 10,
+    "exactOrMappedQuestionCount": 120,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 120,
+    "citationReviewRequiredCount": 0
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

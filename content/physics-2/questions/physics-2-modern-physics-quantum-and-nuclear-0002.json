@@ -1,0 +1,38 @@
+{
+  "id": "physics-2-modern-physics-quantum-and-nuclear-0002",
+  "subject": "physics-2",
+  "lesson": "modern-physics-quantum-and-nuclear",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For photon energy, use $E = h f$ in a photon energy model. The first quantity is 6.295e-34 J s and the second is 5.000e+14 Hz. What is the photon energy?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$1.57e-19\\ \\text{J}$"
+    },
+    {
+      "id": "b",
+      "text": "$6.29e-19\\ \\text{J}$"
+    },
+    {
+      "id": "c",
+      "text": "$3.15e-19\\ \\text{J}$"
+    },
+    {
+      "id": "d",
+      "text": "$3.93e-19\\ \\text{J}$"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Using $E = h f$ gives 6.295e-34 J s times 5.000e+14 Hz = $3.15e-19\\ \\text{J}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to J, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "photon",
+    "energy"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-c3f89c7eaa1b50bb",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

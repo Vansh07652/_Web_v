@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Parsed note front matter",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "slug",
+    "subject",
+    "subjectName",
+    "contentType",
+    "lesson",
+    "lessonNumber",
+    "description",
+    "status",
+    "reviewStatus",
+    "humanVerificationRequired",
+    "difficulty",
+    "tags",
+    "source",
+    "sourceUrl",
+    "originalFile",
+    "lastReviewed",
+    "version"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "subject": {
+      "enum": [
+        "biology-1",
+        "biology-2",
+        "organic-chemistry-1",
+        "organic-chemistry-2",
+        "chemistry-1",
+        "chemistry-2",
+        "physics-1",
+        "physics-2",
+        "microbiology",
+        "genetics",
+        "nclex-review"
+      ]
+    },
+    "subjectName": {
+      "type": "string"
+    },
+    "contentType": {
+      "const": "note"
+    },
+    "lesson": {
+      "type": "string"
+    },
+    "lessonNumber": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "status": {
+      "const": "approved"
+    },
+    "reviewStatus": {
+      "const": "audited"
+    },
+    "humanVerificationRequired": {
+      "const": false
+    },
+    "difficulty": {
+      "enum": [
+        "introductory",
+        "intermediate",
+        "advanced",
+        "unknown"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source": {
+      "type": "string"
+    },
+    "sourceUrl": {
+      "type": "string"
+    },
+    "originalFile": {
+      "type": "string"
+    },
+    "lastReviewed": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

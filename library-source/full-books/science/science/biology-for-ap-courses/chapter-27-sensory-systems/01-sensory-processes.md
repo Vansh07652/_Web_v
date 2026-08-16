@@ -1,0 +1,122 @@
+---
+title: "Sensory Processes"
+subject: "Science"
+book: "Biology for AP® Courses"
+chapter: "27: Sensory Systems"
+topic_number: "1"
+source: "biology-ap-courses.md"
+tags:
+  - "sensory-processes"
+  - "science"
+status: "complete"
+---
+
+# Sensory Processes
+
+> **Book:** [Biology for AP® Courses](../../README.md)  
+> **Chapter:** [Chapter 27: Sensory Systems](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Every second, your nervous system is flooded with information: photons bouncing off this page, air pressure waves from a voice, molecules drifting off food, the stretch of muscles as you shift in your chair. None of that raw energy means anything until it is captured and converted. That conversion is the job of **sensory receptors** — specialized cells that act as biological transducers, changing one form of energy (light, mechanical pressure, chemicals) into the only language the nervous system speaks: electrochemical signals.
+
+This topic explains the general principles every sense shares. Whether the stimulus is light on the retina, sound waves moving the ear's membranes, or chemicals on taste buds, the same sequence plays out: **stimulus → transduction → receptor potential → action potentials → pathway to the brain → perception**. Note the key distinction: **sensation** is the detection and neural signaling of a stimulus, while **perception** is the brain's interpretation of those signals. Two people can receive identical sensory input yet perceive it differently; biology explains the sensation, prior experience shapes the perception.
+
+## Why This Matters
+
+Sensory processes are the front door of the nervous system — without them, the brain is a closed room with no windows. For AP Biology, this topic supplies the vocabulary and mechanisms used in every later topic in this chapter. It also explains everyday phenomena and clinical situations: why your nose "goes blind" to a familiar smell (adaptation), how local anesthetics work (they block the ion channels that turn a receptor potential into action potentials), and why people with diabetes may lose feeling in their feet (nerve damage alters sensory signaling). Receptors are also drug targets: many medications and toxins act on the receptors or ion channels involved in transduction rather than on the brain itself.
+
+## Core Concepts
+
+### Sensory receptors are biological transducers
+
+A **sensory receptor** is a specialized neuron or epithelial cell that responds to a specific stimulus type. Receptors are classified by the energy they detect: **mechanoreceptors** (mechanical distortion — touch, pressure, sound), **chemoreceptors** (dissolved chemicals — taste, smell, blood-gas monitors), **photoreceptors** (light), **thermoreceptors** (temperature), **nociceptors** (tissue damage → pain), and **osmoreceptors** (solute concentration). Each receptor has a **receptive field** — the region of space in which a stimulus activates it. Small fields (fingertips) allow fine discrimination; large fields (back) give coarse sensation.
+
+### Transduction and the receptor potential
+
+**Transduction** converts a stimulus into a change in the receptor cell's membrane potential. A stimulus opens or closes ion channels (directly in mechanoreceptors, via second-messenger cascades in photoreceptors), producing a **receptor potential** — a *graded* local voltage change whose size scales with stimulus strength. If the receptor potential is large enough to reach the axon's trigger zone, it fires action potentials; larger receptor potentials produce higher firing rates. This is how intensity is encoded, since action potentials themselves are all-or-none. Stronger stimuli also recruit more receptors (**population coding**).
+
+### Encoding intensity, duration, and adaptation
+
+Intensity is encoded by (1) **frequency coding** — stronger stimulus, faster firing — and (2) **population coding** — more receptors activated. Duration is encoded by firing pattern: slowly adapting receptors (e.g., Merkel cells) keep firing during constant pressure, which is why you feel a ring all day; rapidly adapting receptors (e.g., Pacinian corpuscles) fire a burst then go quiet, which is why you feel a tap but not the constant pressure afterward. **Sensory adaptation** is this decline in response to a constant stimulus — distinct from **fatigue**, the loss of responsiveness from depleted resources. Crucially, **nociceptors adapt very little**: persistent pain signals ongoing tissue damage that should not be ignored.
+
+### Pathways and labeled lines
+
+Signals travel along **sensory (afferent) pathways** through the spinal cord, brainstem, and **thalamus** (a relay and filter for most senses) to the cerebral cortex; olfaction is the exception, bypassing the thalamus. The **labeled line principle** holds that stimulus identity is determined by *which* pathway carries the signal, not by its content — all action potentials look alike. Pressing on your eyeball produces the sensation of light because mechanical pressure stimulates the visual pathway, which the brain interprets as light. The same principle explains **phantom limb** sensations after amputation: severed nerves still fire along original pathways, so the brain keeps "feeling" the missing limb.
+
+## ELI-10: Explain Like I'm 10
+
+Your senses work like a doorbell. The button (your receptor) is pressed by something outside — light, sound, a smell — and makes electricity in the wire (the nerve signal). The bell (your brain) rings, and you know someone is at the door. It doesn't matter what the button looks like; the brain only hears "ding-dong," so it figures out what's outside by which doorbell rang.
+
+## High-Yield Points
+
+- **Sensation ≠ perception:** sensation is receptor detection and signaling; perception is the brain's interpretation.
+- **Transduction** converts a stimulus into a graded **receptor potential**; a large enough one triggers action potentials.
+- Action potentials are all-or-none, so **intensity is coded by firing rate and receptor number** (frequency + population coding).
+- **Sensory adaptation** is decreased response to a constant stimulus; pain receptors adapt little, protecting the body.
+- **Labeled lines:** stimulus identity comes from *which pathway* fires — pressure on the eye is perceived as light.
+- The **thalamus** relays most sensory input; **olfaction bypasses it**.
+- Receptor classes: mechano-, chemo-, photo-, thermo-, noci-, and osmoreceptors.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Transduction | Converting a stimulus into an electrical change in a receptor cell | The first step of every sense; without it the brain receives nothing |
+| Receptor potential | A graded, local voltage change in a receptor produced by a stimulus | Its size determines whether action potentials fire, encoding strength |
+| Sensory adaptation | Declining receptor response to a constant stimulus | Explains why persistent smells, sounds, or pressure fade from awareness |
+| Labeled line | The principle that stimulus identity is set by which pathway carries it | Explains phantom limbs and why eye pressure is seen as light |
+| Mechanoreceptor | Receptor responding to mechanical distortion | Basis of touch, hearing, and balance |
+| Chemoreceptor | Receptor responding to dissolved chemicals | Basis of taste, smell, and blood-gas monitoring |
+| Nociceptor | Receptor responding to tissue-damaging stimuli | Produces pain; adapts little to protect the body |
+| Receptive field | The region of space in which a stimulus activates a receptor | Small fields (fingertips) give fine discrimination; large fields give coarse |
+
+## Example: Following a signal from fingertip to brain
+
+Touch a hot mug. **Thermoreceptors** in your fingertip depolarize, producing a receptor potential; the hotter the mug, the larger the potential and the faster action potentials fire up the sensory axon. The signal enters the spinal cord through the dorsal root, ascends through the brainstem and thalamus, and reaches the somatosensory cortex. The *cortical location* activated tells the brain the signal came from the finger (labeled line); the *firing rate* tells it how hot (intensity). Now imagine the same touch after a dentist numbs your hand: the anesthetic blocks voltage-gated sodium channels in the sensory axons, so the receptor potential can no longer trigger action potentials and the pathway goes silent. You feel nothing — not because the stimulus is absent, but because transduction succeeded while *transmission* failed. That separation of steps is why each step is a drug target and a potential point of failure in disease.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Sensation | Perception | Sensation is neural detection and signaling; perception is the conscious interpretation built from it |
+| Receptor potential | Action potential | Receptor potentials are graded and local, varying with stimulus strength; action potentials are all-or-none |
+| Adaptation | Fatigue | Adaptation is normal, reversible decline in response to a constant stimulus; fatigue is loss of responsiveness from depleted resources |
+| Stimulus intensity | Stimulus identity | Intensity is coded by firing rate and receptor number; identity is coded by which pathway (labeled line) fires |
+| Transduction | Transmission | Transduction converts stimulus energy into a receptor potential; transmission propagates action potentials along the pathway |
+
+## Quick Review
+
+1. What is the difference between sensation and perception?
+2. A receptor's potential grows as a stimulus strengthens. How is that translated into a signal the brain reads, given that action potentials are all-or-none?
+3. Why does a constant stimulus fade from awareness while persistent pain does not?
+4. A person presses gently on their eyelid and "sees" a flash of light. Which principle explains this, and how?
+5. Which major sensory pathway bypasses the thalamus?
+
+<details>
+<summary>Show answers</summary>
+
+1. Sensation is the detection and neural signaling of a stimulus by receptors; perception is the brain's interpretation of those signals into an experience.
+2. Larger receptor potentials drive higher firing rates (frequency coding), and stronger stimuli activate more receptors (population coding). The brain reads intensity from firing rate and receptor number, not action-potential size.
+3. Most receptors undergo sensory adaptation, reducing firing during a constant stimulus; nociceptors adapt very little because persistent pain signals possible ongoing tissue damage.
+4. The labeled line principle: mechanical pressure stimulates neurons of the visual pathway, so the brain interprets the signals as light regardless of the actual stimulus.
+5. Olfaction (smell): olfactory signals travel from the olfactory bulb to olfactory cortex without a thalamic relay.
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter
+- Next: [Somatosensation](02-somatosensation.md)
+- Related: [Taste and Smell](03-taste-and-smell.md), [Hearing and Vestibular Sensation](04-hearing-and-vestibular-sensation.md), [Vision](05-vision.md)
+- Chapter overview: [Sensory Systems](../README.md)
+
+## Source Notes
+
+- Book: Biology for AP® Courses
+- Local outline source: `biology-ap-courses.md`
+- Official source URL: https://openstax.org/details/books/biology-ap-courses/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-16

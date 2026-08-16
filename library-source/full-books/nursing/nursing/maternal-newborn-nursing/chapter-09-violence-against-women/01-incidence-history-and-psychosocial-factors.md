@@ -1,0 +1,141 @@
+---
+title: "Incidence, History, and Psychosocial Factors"
+subject: "Nursing"
+book: "Maternal-Newborn Nursing"
+chapter: "9: Violence Against Women"
+topic_number: "1"
+source: "maternal-newborn-nursing.md"
+tags:
+  - "incidence-history-and-psychosocial-factors"
+  - "nursing"
+status: "complete"
+---
+
+# Incidence, History, and Psychosocial Factors
+
+> **Book:** [Maternal-Newborn Nursing](../../README.md)  
+> **Chapter:** [Chapter 9: Violence Against Women](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Violence against women is not a rare, private problem — it is a widespread public health issue that nurses encounter in almost every setting, including every stage of reproductive care. It takes many forms: physical, sexual, and psychological abuse; economic control; stalking; and reproductive coercion (such as sabotaging birth control or pressuring a partner to become pregnant). **Intimate partner violence (IPV)** describes abuse by a current or former intimate partner, while **domestic violence** is a broader term that can include family and household members. This topic asks a deceptively simple question: *how common is it, where did we come from, and why do people stay?* The answers shape how nurses screen, respond, and support.
+
+Understanding the history matters because healthcare has not always seen violence as its business. For much of modern medicine, abuse was treated as a family matter — something for police or clergy, not clinicians. Decades of advocacy, research, and survivor testimony reframed it as a health crisis: violence injures bodies, complicates pregnancies, and leaves lasting psychological wounds. Today, professional organizations broadly recommend that clinicians ask every patient about safety — usually privately and at every visit — because screening works only when a person can answer honestly. This opening topic gives the nurse the foundation: what the numbers do and do not tell us, why people may not disclose or leave, and how to respond with compassion rather than judgment.
+
+## Why This Matters
+
+Pregnancy is a time of particular vulnerability: violence can begin, escalate, or be first disclosed during pregnancy, and prenatal care provides a rare repeated opportunity to ask about safety without the partner present. The stakes for maternal-newborn nursing are direct — abuse during pregnancy has been associated with adverse outcomes for the pregnant person and the fetus, and the postpartum period brings new stresses, isolation, and risk. Survivors sit in front of nurses every day: the prenatal clinic, the labor unit, the postpartum floor. A single nonjudgmental question asked in private — "Is anyone hurting you?" — can be the moment a person finally feels safe enough to speak. Understanding incidence, history, and psychosocial factors turns that question from a checklist item into a life-changing intervention.
+
+## Core Concepts
+
+### What the numbers do and do not tell us
+
+Accurate incidence figures are hard to establish because violence is profoundly **underreported**. People may stay silent out of shame, fear of retaliation, financial dependence, distrust of authorities, language barriers, immigration concerns, or the belief that it is a private matter. Surveys measure what people are willing to say to strangers, and definitions, methods, and cultural contexts vary — so published rates differ widely and should be read as minimums rather than exact counts. What the research consistently shows, without needing a specific number, is that violence against women is common, that intimate partners are the most frequent perpetrators, and that a substantial share of female homicides are partner-related — figures that should be verified with current, cited sources before being quoted. The nurse's takeaway: violence is common enough to justify screening every person, and rare enough in any one provider's memory that we must keep asking.
+
+### A short history: from private matter to public health issue
+
+For much of the 20th century, wife-beating was legal in many places, and even where it was not, police and courts rarely intervened — "domestic disputes" were considered outside their role. The modern shift began with the women's movement of the 1960s–1970s, which opened the first shelters and hotlines, and with research showing abuse was not confined to any class or culture. Over the following decades, healthcare organizations began issuing guidance on routine screening, and laws changed: protection orders, mandatory-arrest policies in some jurisdictions, and legal recognition of marital rape. Today, violence is framed as both a human-rights violation and a preventable health condition. This history matters to nurses because it explains the system survivors navigate: resources exist, but they are uneven, underfunded, and differ dramatically by state, country, and institution.
+
+### The power-and-control framework
+
+The most useful lens for understanding abuse is **power and control**, not anger or "losing it." Abuse is a pattern of behavior used to dominate a partner: physical violence, intimidation and threats, emotional abuse and humiliation, isolation from friends and family, economic control (withholding money, forbidding work), using children, and minimizing or denying the abuse. Each tactic chips away at the person's independence and self-worth, which is why abuse so often escalates over time rather than resolving. The nurse who understands this sees why a survivor's behavior — minimizing, defending the partner, canceling appointments — is a survival strategy, not a character flaw.
+
+### The cycle of violence: a framework, not a law
+
+The classic **cycle of violence** describes three phases: **tension-building** (criticism, jealousy, small incidents), an **acute explosion** (the violent incident), and a **honeymoon phase** (apologies, gifts, promises it will never happen again). The honeymoon phase is why many people hope the abuse is over and why leaving is so difficult — the partner they love seems to be back. The cycle repeats and often accelerates. Nurses should use this framework with an important caveat: **not every abusive relationship follows the cycle**, and its predictability should not be overstated. Abuse patterns vary; what does not vary is the underlying dynamic of power and control.
+
+### Why people stay: barriers to leaving
+
+The question "why doesn't she just leave?" misunderstands how hard leaving is. Leaving is a *process*, not a single decision, and the most dangerous time is often **after** the survivor leaves, when the abuser loses control. Barriers include: fear of escalated violence or homicide; financial dependence and lack of housing; concerns for children's safety and custody; immigration status that makes leaving feel impossible; cultural, religious, or family pressure; isolation from support networks; love and hope that the partner will change; and the exhausting reality of rebuilding a life alone. Many survivors leave and return multiple times before leaving for good. The nurse's role is never to judge the timeline — it is to be a safe person who plants the message: *you deserve safety, and help exists whenever you are ready.*
+
+### Pregnancy, postpartum, and reproductive coercion
+
+Pregnancy is a recognized period of elevated risk: abuse may begin or escalate, and the pregnant person may be more dependent and less able to leave. **Reproductive coercion** — birth-control sabotage, condom refusal, pressuring pregnancy or abortion against a partner's wishes — can occur alongside other abuse and is a red flag on its own. Postpartum brings sleep deprivation, isolation, and financial strain that can worsen danger. Because prenatal and postpartum visits happen repeatedly and often alone with the clinician, they are the ideal settings for routine, private safety screening — which is why organizations broadly recommend universal screening despite ongoing debate about the strength of the evidence for every outcome.
+
+### The nurse's response: screen, support, refer
+
+A trauma-informed response starts with **private screening** — never with a partner, family member, or interpreter the person does not trust in the room. Ask directly and nonjudgmentally using validated screening questions familiar from your facility's policy; if the person discloses, respond with belief and validation ("Thank you for telling me. This is not your fault. I believe you."), assess immediate safety (Is the abuser here? Are weapons involved? Do children need protection?), document objectively using the person's own words, and connect them with an advocate, social worker, hotline, or safety plan per policy. **Mandatory reporting rules vary** — some jurisdictions require reporting of abuse of children, elders, or dependent adults, while reporting of abuse of competent adults is generally not mandatory and can even be dangerous if done without consent; the nurse must know the law and institutional policy where they practice. Never pressure a person to leave, never hand them printed materials if it could be discovered by the abuser, and remember: a person who does not disclose is not a screening failure — repeated, private, nonjudgmental asking is the intervention.
+
+## ELI-10: Explain Like I'm 10
+
+Some people get hurt by the person they love, and it is very hard to tell anyone about it — they might be scared, or have no money or place to go, or still hope things will get better. Nurses ask about it quietly, when the partner is not in the room, so a person can answer safely. If someone says yes, the nurse says "this is not your fault" and helps them find people who can protect and support them.
+
+## High-Yield Points
+
+- **Violence against women is common and underreported** — exact incidence numbers vary by study and should be cited from current sources, not memorized as fixed facts.
+- **Screening must be private** — never ask or discuss with the partner present; use validated questions per facility policy.
+- **The power-and-control model explains abuse better than anger** — abuse is a pattern of domination, not losing one's temper.
+- **The cycle of violence (tension → explosion → honeymoon) is a useful framework but not a universal law.**
+- **Leaving is a dangerous, repeated process, not a single event** — the highest danger is often after separation; never judge the timeline.
+- **Pregnancy and postpartum are elevated-risk periods**, and reproductive coercion is a form of abuse.
+- **Mandatory reporting varies by jurisdiction and population** — know your state's law and your institution's policy.
+- **Respond with belief and validation, document the person's own words, connect to advocates** — never pressure disclosure or leaving.
+- **Person-first, survivor-centered language:** "a survivor of intimate partner violence."
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Intimate partner violence (IPV) | Abuse by a current or former intimate partner | The most common form of violence against women; the core focus of screening |
+| Domestic violence | A broader term including family/household members | Clarifies who the perpetrator is; legal definitions vary by jurisdiction |
+| Reproductive coercion | Sabotaging birth control or pressuring pregnancy/abortion | A distinct form of abuse that can occur alongside IPV |
+| Power and control | The pattern of domination underlying abuse | Explains why abuse escalates and why survivors behave as they do |
+| Cycle of violence | Tension → acute explosion → honeymoon phases | A common framework; useful but not universal |
+| Underreporting | Survivors not disclosing abuse to surveys or clinicians | Explains why incidence figures understate reality and why repeated private screening matters |
+| Safety planning | A practical plan for surviving and escaping danger | A core nursing intervention; timing and details are the survivor's choice |
+| Trauma-informed care | Care that recognizes the impact of trauma and avoids re-traumatizing | The foundation of every response to disclosure |
+
+## Example: The Partner Who Never Leaves
+
+A nurse in a prenatal clinic notices that the partner accompanies the patient to every visit and answers questions for them. The patient makes little eye contact, and when asked how things are at home, they glance at the partner and say "fine." During the urine-specimen trip, the nurse asks the partner to wait, and in the private exam room asks gently, "I ask everyone this. Is anyone at home hurting you, or making you do things you don't want to do?" The patient's eyes fill: "He takes my phone and my money, and last week he pushed me into the wall. I'm scared to leave — I have nowhere to go, and my family says I should stay for the baby." The nurse responds without judgment: "Thank you for telling me. This is not your fault, and it is not your baby's fault. You are not alone." The nurse documents the person's own words, assesses immediate danger (the partner is waiting outside), and — per policy — connects the patient with the clinic social worker and a domestic-violence advocate, who discuss options including shelter and a safety plan. The nurse does not tell the patient to leave, does not hand over printed brochures the partner might find, and arranges a follow-up visit and a private signal the patient can use to ask for help next time.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| IPV | All domestic violence | IPV is partner-perpetrated; domestic violence includes other family/household members |
+| The cycle of violence | A rule every abusive relationship follows | It is a commonly observed pattern, but abuse varies — the constant is power and control |
+| "Why doesn't she leave?" | "Leaving is the solution" | Leaving is a dangerous, repeated process with real barriers; the highest danger can come after separation |
+| Screening questions | An interrogation | Validated screening is brief, private, and asked of everyone — never with the partner present |
+| Mandatory reporting of IPV | A universal legal duty | Reporting rules vary by jurisdiction and by who the victim is (e.g., child abuse is reportable); adult IPV reporting is often not mandatory and may be unsafe without consent |
+| Disclosing abuse | Being ready to leave | Disclosure is a step, not a plan; the survivor decides what happens next, and the nurse supports that autonomy |
+| "She's making excuses" | Survival behavior | Minimizing, defending the partner, and canceling visits are coping strategies under power and control |
+
+## Quick Review
+
+1. Why do official statistics understate the true incidence of violence against women?
+2. What is the difference between intimate partner violence and domestic violence?
+3. Describe the three phases of the classic cycle of violence, and name one limitation of the framework.
+4. List four barriers that keep survivors from leaving an abusive relationship.
+5. Why is pregnancy a time of elevated risk, and why are prenatal visits an ideal screening opportunity?
+6. A patient discloses abuse in front of their partner. What should the nurse do?
+
+<details>
+<summary>Show answers</summary>
+
+1. Because of underreporting — shame, fear of retaliation, financial dependence, distrust of systems, language and immigration concerns, and cultural pressures all keep survivors silent; survey methods and definitions also vary, so figures are minimums.
+2. IPV is abuse by a current or former intimate partner; domestic violence is a broader term that can include abuse by other family or household members — legal definitions vary by jurisdiction.
+3. Tension-building → acute explosion → honeymoon (apologies and promises). Limitation: not every abusive relationship follows the cycle, and the framework should not be treated as a universal law.
+4. Fear of escalated violence (often greatest after leaving), financial dependence and lack of housing, concern for children, immigration status, cultural/religious/family pressure, isolation, love and hope the partner will change, and the practical difficulty of rebuilding a life.
+5. Abuse can begin or escalate during pregnancy, and the person may be more dependent; prenatal visits occur repeatedly and often in private, giving clinicians a recurring, safe opportunity to ask — which is why universal private screening is recommended.
+6. Never interview with the partner present. Create privacy (per facility policy), screen privately, respond with belief and validation, assess immediate danger, document the person's own words, and connect with an advocate/social worker — while remembering the person has the right to decide their next steps and that mandatory reporting rules vary by jurisdiction.
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter
+- Next: [Domestic and Intimate Partner Violence](02-domestic-and-intimate-partner-violence.md)
+- Related: [Sexual Abuse and Assault](03-sexual-abuse-and-assault.md) · [Human Trafficking](04-human-trafficking.md) · [Social and Cultural Practices of Violence Against Women](05-social-and-cultural-practices-of-violence-against-women.md) · [Psychological Trauma of Violence Against Women](06-psychological-trauma-of-violence-against-women.md)
+- Chapter overview: [Violence Against Women](../README.md)
+
+## Source Notes
+
+- Book: Maternal-Newborn Nursing
+- Local outline source: `maternal-newborn-nursing.md`
+- Official source URL: https://openstax.org/details/books/maternal-newborn-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-15
+- Flagged for SME review: specific incidence statistics (must be cited from current sources, as figures vary by methodology and population), the strength of evidence for universal IPV screening, and mandatory-reporting requirements (which vary by jurisdiction and institution).

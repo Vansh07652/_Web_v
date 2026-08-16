@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:alkene-and-alkyne-chemistry:catalytic-hydrogenation",
+  "slug": "catalytic-hydrogenation",
+  "title": "Catalytic Hydrogenation",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:alkene-and-alkyne-chemistry",
+    "slug": "alkene-and-alkyne-chemistry",
+    "title": "Alkene and Alkyne Chemistry",
+    "order": 6
+  },
+  "order": 31,
+  "status": "final",
+  "sections": {
+    "overview": "Catalytic hydrogenation converts an alkene to an alkane by adding H₂ across the C=C bond in the presence of a heterogeneous metal catalyst (Pt, Pd, Ni, or Pd/C). Both hydrogens are delivered from the metal surface to the *same face* of the alkene, so the reaction is a **syn addition**. For a disubstituted cycloalkene, this places the two new hydrogens cis, which makes the two substituents end up cis to each other. The reaction is conceptually clean — no rearrangements and no regiochemical ambiguity — but it requires flammable hydrogen gas and is taught here only conceptually.",
+    "whyItMatters": "Catalytic hydrogenation is a cornerstone of industrial and pharmaceutical chemistry: it saturates unsaturated fats (partial hydrogenation) and reduces carbon–carbon double bonds in drug intermediates. The metal surface's control of syn delivery is also the conceptual model behind stereoselective reductions. (Hydrogen gas is highly flammable and explosive in air, and pressurized reactions require specialized equipment and trained personnel; safety and operational details are governed by approved institutional documentation and are not provided here.)",
+    "learningObjectives": "1. Describe catalytic hydrogenation of alkenes and identify the heterogeneous catalysts used.\n2. Explain the catalytic surface model and why hydrogenation is a syn addition.\n3. Predict the stereochemical outcome of hydrogenating a substituted cyclic alkene.\n4. Distinguish catalytic hydrogenation from other alkene additions and state the safety limitations of working with hydrogen gas.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Catalytic hydrogenation | Addition of H₂ across an alkene using a metal catalyst | The standard alkene-to-alkane reduction |\n| Heterogeneous catalyst | Solid catalyst in a different phase from the reactants | Pt, Pd, Ni act on a surface, not in solution |\n| Hydrogen gas | H₂, the reductant that adds across the π bond | Supplies both new C–H bonds |\n| Alkene reduction | Conversion of C=C to C–C (gain of H) | Lowers the degree of unsaturation |\n| Syn addition | Both hydrogens add to the same face | Sets cis stereochemistry in cyclic products |\n| Catalytic surface model | Picture of adsorption, dissociation, addition, desorption | Explains why the addition is syn |",
+    "collegeNotes": "### 1. Catalytic Hydrogenation and Heterogeneous Catalysts\nCatalytic hydrogenation is the addition of H₂ to reduce an alkene to an alkane. The catalyst is a metal — platinum (Pt), palladium (Pd), or nickel (Ni), often as finely divided metal or on a carbon support (Pd/C). These are **heterogeneous catalysts**: the solid catalyst is in a different phase from the gaseous H₂ and the liquid (or dissolved) alkene. The catalyst is not consumed; it lowers the activation energy by providing a surface where H₂ and the alkene come together.\n\n### 2. The Catalytic Surface Model\nThe accepted picture has several steps: (1) H₂ adsorbs onto the metal surface and the H–H bond dissociates into surface-bound hydrogen atoms; (2) the alkene adsorbs, using its π electrons to bind the metal surface; (3) the two hydrogens transfer to the same face of the alkene (syn); and (4) the alkane desorbs, freeing the surface for another cycle. Because both hydrogens come from the same surface, hydrogenation is stereospecifically **syn**.\n\n### 3. Alkene-to-Alkane Reduction and Stereochemistry\nHydrogenation converts C=C to C–C, decreasing the degree of unsaturation by one per double bond and producing a saturated alkane. The reaction is exothermic; the heat released (heat of hydrogenation) is a direct measure of alkene stability (Topic 26). Stereochemically, the cis product forms from a cyclic or cis-disubstituted alkene because both H atoms add from one face. There is no regiochemistry problem (both carbons simply gain an H) and no rearrangement (no carbocation intermediate).",
+    "howItWorks": "1. Adsorb the alkene onto the metal surface through its π electrons.\n2. Dissociate H₂ into surface-bound hydrogen atoms.\n3. Transfer both hydrogens to the same face of the alkene (syn addition).\n4. Release the alkane and recycle the catalyst surface.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Hydrogenation = alkene → alkane, using H₂ and Pt, Pd, Ni, or Pd/C.\n- **High yield:** It is a syn addition: both hydrogens add to the same face.\n- **High yield:** A disubstituted cycloalkene gives the cis-dialkyl product.\n- **High yield:** No rearrangements and no regiochemical ambiguity (both carbons just gain H).\n- The catalyst is heterogeneous and is regenerated, not consumed.\n- Heat of hydrogenation measures alkene stability (more stable alkene = less heat released).\n- Hydrogenation is not limited to alkenes; alkynes can also be reduced (Topic 35), but the alkene case is the focus here.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Syn addition | Anti addition | Syn = same face; anti = opposite faces |\n| Heterogeneous catalyst | Homogeneous catalyst | Solid surface in a different phase vs catalyst dissolved in the same phase |\n| Reduction (gain of H) | Oxidation (gain of O / loss of H) | Hydrogenation is a reduction, not an oxidation |\n| Hydrogenation | Hydrohalogenation | H₂ adds two H atoms; HX adds H and a halogen |\n| Heat of hydrogenation | Rate of hydrogenation | Thermodynamic stability vs kinetic speed |",
+    "memoryAids": "\"**H**ydrogenation is **H**elpful and **H**andles both sides the same\" — both H atoms add to the same face (syn). Or simply: \"**S**urface = **S**yn.\"",
+    "eli10": "Picture a flat metal table with sticky spots. The alkene lies down flat on the table and grabs hold; the H₂ molecule also lands on the table and splits into two separate H atoms sitting on the surface. Because the alkene is stuck face-down on the table, both H atoms can only reach it from the *top* side — they both attach from the same side, which is syn addition. Then the finished alkane pops off, leaving the table clean for the next alkene.\n\nA comparison: it is like stamping two stickers onto the front of a flat card that is lying on a desk. You can only press both stickers onto the *upward* face. Where it stops being exact: the alkene does not literally lie \"face-down\" on a flat, rigid table; adsorption is a dynamic balance of metal–π bonding, and the H atoms are not truly free atoms floating on the surface but adsorbed species that migrate. The model is a useful picture, not a quantum-mechanical description.\n\n### Simple Example\n1,2-dimethylcyclohexene + H₂ over Pd → cis-1,2-dimethylcyclohexane. Both hydrogens add to the same face, so the two methyl groups, which started on the same side of the double bond, stay on the same face (cis) in the product.",
+    "quickReview": "### Topic Recap\n\nCatalytic hydrogenation reduces an alkene to an alkane using H₂ and a heterogeneous metal catalyst (Pt, Pd, Ni, Pd/C). Through the catalytic surface model, both hydrogens add to the same face (syn), giving cis products from cyclic alkenes, with no rearrangements and no regiochemical ambiguity. The reaction is conceptually straightforward but requires flammable hydrogen gas and trained handling.\n\n### Knowledge Check\n\n1. What reagents and catalyst convert an alkene to an alkane?\n2. Why is catalytic hydrogenation a syn addition?\n3. What is the product of hydrogenating 1,2-dimethylcyclohexene, and what is its stereochemistry?\n4. What is a heterogeneous catalyst, and why is the catalyst not consumed?\n5. Why is there no regiochemical (Markovnikov) question in hydrogenation?\n\n### Answers and Rationales\n\n1. H₂ gas with a metal catalyst such as Pt, Pd, Ni, or Pd/C.\n2. Both alkene and H₂ adsorb onto the metal surface; the two hydrogens are delivered from that same surface to one face of the alkene.\n3. cis-1,2-dimethylcyclohexane. Both hydrogens add from the same face, so the two methyls remain cis.\n4. A solid catalyst in a different phase from the reactants. It lowers activation energy and is regenerated each cycle, so it is reused rather than consumed.\n5. Both alkene carbons become equivalent sp³ carbons each gaining one H, so there is no \"more substituted\" preference to decide — only syn stereochemistry matters.",
+    "workedExamples": "1. The alkene adsorbs to the metal surface through its π bond; this weakens the π bond and holds the alkene in a fixed geometry.\n2. H₂ adsorbs and dissociates on the surface, giving two hydrogen atoms coordinated to the metal.\n3. One surface hydrogen adds to each alkene carbon, both from the side facing the surface — the defining syn step. Electron movement can be pictured as the π electrons and the surface-bound H atoms rearranging into two new C–H σ bonds.\n4. The saturated alkane desorbs, regenerating the empty metal surface. Atom balance: CₙH₂ₙ + H₂ → CₙH₂ₙ₊₂; every carbon keeps an octet and gains one H. No charges or ions are involved at any stage.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "catalytic-hydrogenation",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "31-catalytic-hydrogenation",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/31-catalytic-hydrogenation.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

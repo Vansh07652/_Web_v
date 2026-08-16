@@ -1,0 +1,38 @@
+{
+  "id": "genetics-dna-structure-and-replication-0006",
+  "subject": "genetics",
+  "lesson": "dna-structure-and-replication",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept What is an origin of replication?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The site where Okazaki fragments are sealed into a continuous lagging strand."
+    },
+    {
+      "id": "b",
+      "text": "The site at the end of a chromosome where telomerase adds repetitive sequence."
+    },
+    {
+      "id": "c",
+      "text": "The point where the two daughter molecules are separated by topoisomerases after replication."
+    },
+    {
+      "id": "d",
+      "text": "A specific DNA sequence where initiator proteins bind and the duplex opens so replication can begin."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "An origin is a defined sequence, such as the E. coli origin bound by the DnaA initiator protein (the *dnaA* product), where the duplex is opened and helicase is loaded for bidirectional replication. Option A describes the job of DNA ligase (the *ligA* product), option B describes the telomere, and option C confuses the origin with the machinery that separates finished chromosomes. Replication always starts at origins, never at random positions along the chromosome.",
+  "difficulty": "unknown",
+  "tags": [
+    "origins",
+    "replication"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-5fcc89f16ce99a1e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

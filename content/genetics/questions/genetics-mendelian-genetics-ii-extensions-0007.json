@@ -1,0 +1,41 @@
+{
+  "id": "genetics-mendelian-genetics-ii-extensions-0007",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-ii-extensions",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem In mice, the *Ay* allele at the agouti locus is dominant for yellow coat color and is homozygous lethal, so *Ay Ay* embryos die before birth. Two yellow mice (*Ay a* x *Ay a*) are crossed. Assuming the lethal class is never observed and the two surviving genotypes are equally viable, what phenotypic ratio is expected among the live-born pups?",
+  "options": [
+    {
+      "id": "a",
+      "text": "3:1 yellow:non-yellow (sums to 4)"
+    },
+    {
+      "id": "b",
+      "text": "1:2:1 dead:yellow:non-yellow (sums to 4)"
+    },
+    {
+      "id": "c",
+      "text": "1:1 yellow:non-yellow (sums to 2)"
+    },
+    {
+      "id": "d",
+      "text": "2:1 yellow:non-yellow (sums to 3)"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "The cross produces *Ay Ay*, *Ay a*, and *aa* in a 1:2:1 genotypic ratio (sums to 4), but the *Ay Ay* class is a **lethal allele** combination and never appears. Restricting to live pups gives 2 *Ay a* to 1 *aa*, a 2:1 ratio (sums to 3). A counts the dead class as yellow, B reports the full genotypic ratio as if the lethal class survived, and C is the ratio of a testcross.",
+  "difficulty": "unknown",
+  "tags": [
+    "lethal",
+    "allele",
+    "yellow",
+    "mouse",
+    "cross"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-459ae50fda335511",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

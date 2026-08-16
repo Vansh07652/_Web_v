@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:substitution-and-elimination:the-e2-mechanism",
+  "slug": "the-e2-mechanism",
+  "title": "The E2 Mechanism",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:substitution-and-elimination",
+    "slug": "substitution-and-elimination",
+    "title": "Substitution and Elimination",
+    "order": 5
+  },
+  "order": 22,
+  "status": "final",
+  "sections": {
+    "overview": "E2 is bimolecular elimination: in one concerted step a strong base removes a β hydrogen while the leaving group departs and a π bond forms between the α and β carbons. The rate depends on both substrate and base (rate = \\(k\\,[\\text{RX}]\\,[\\text{base}]\\)). The β hydrogen and leaving group must be anti-periplanar (180° apart), which makes E2 stereospecific. E2 usually gives the more substituted (Zaitsev) alkene, but bulky bases favor the less substituted (Hofmann) alkene.",
+    "whyItMatters": "Dehydrohalogenation (E2) is a standard route to alkenes, which are themselves precursors to pharmaceuticals and polymers. The stereospecificity of E2 is exploited when a synthesis must install a double bond with a defined E/Z geometry. As with all elimination reactions, the strong bases used are corrosive and reactive, so their use must follow institutional safety documentation; no operational procedures are given here.",
+    "learningObjectives": "1. State the E2 mechanism and its rate law, \\(k\\,[\\text{RX}]\\,[\\text{base}]\\).\n2. Explain the anti-periplanar requirement and how it controls E2 stereochemistry.\n3. Distinguish Zaitsev and Hofmann regioselectivity and predict which product forms.\n4. Apply the trans-diaxial requirement to cyclohexane substrates.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| E2 | Bimolecular elimination | Names the mechanism: rate depends on substrate and base |\n| β hydrogen (beta hydrogen) | A hydrogen on the carbon adjacent to the leaving-group carbon | The proton removed during elimination |\n| Anti-periplanar | H and leaving group 180° apart in the same plane | Required geometry; makes E2 stereospecific |\n| Zaitsev product | The more substituted (more stable) alkene | The usual major product with ordinary bases |\n| Hofmann product | The less substituted alkene | Favored by bulky bases |\n| Bulky base | A large, hindered base (for example, tert-butoxide) | Shifts selectivity to the Hofmann product |\n| Trans-diaxial | Both substituents axial and anti on a cyclohexane | The cyclohexane version of anti-periplanar |",
+    "collegeNotes": "### 1. The One-Step Concerted Mechanism and Rate Law\n\nE2 is a single step. The base's electron pair grabs a β hydrogen; the electrons of that C–H bond move to form a π bond between the α and β carbons; and the leaving group departs with the C–X bonding electrons. All three electron movements happen together, so:\n\n\\[\\text{rate} = k\\,[\\text{RX}]\\,[\\text{base}]\\]\n\nE2 is second order. Strong bases (OH⁻, OR⁻, NH₂⁻, and bulky bases like tert-butoxide) are required.\n\n### 2. The Anti-Periplanar Requirement and Stereospecificity\n\nThe C–H bond being broken and the C–X bond being broken must lie in the same plane, pointing in opposite directions (anti-periplanar, about 180° dihedral). This alignment lets the C–H bonding electrons overlap with the C–X σ* orbital as the π bond forms. Because only one specific geometry reacts, E2 is stereospecific: the stereochemistry of the substrate dictates whether the E or Z alkene forms. On cyclohexane rings, anti-periplanar means the hydrogen and the leaving group must both be axial (trans-diaxial) — an equatorial leaving group must first ring-flip to axial.\n\n### 3. Regioselectivity: Zaitsev vs Hofmann\n\nWith more than one possible β hydrogen, the more substituted alkene (Zaitsev product) is usually favored because it is thermodynamically more stable. But bulky bases such as tert-butoxide, (CH₃)₃CO⁻, are too big to reach the more hindered β hydrogens and instead remove the most accessible hydrogen, giving the less substituted alkene (Hofmann product).",
+    "howItWorks": "1. A strong base approaches a β hydrogen.\n2. The substrate adopts a conformation with the β hydrogen anti-periplanar to the leaving group.\n3. In one step, the base removes the hydrogen, the π bond forms, and the leaving group departs.\n4. The alkene product forms with stereochemistry set by the anti-periplanar geometry.\n5. Regioselectivity (Zaitsev vs Hofmann) is set by base size and alkene stability.",
+    "comparisons": "",
+    "highYield": "- **High yield:** E2 = one step, second order, anti-periplanar, stereospecific.\n- **High yield:** Strong bases are required for E2.\n- **High yield:** The more substituted (Zaitsev) alkene is usually major; bulky bases give the Hofmann product.\n- **High yield:** On cyclohexanes, the H and leaving group must be trans-diaxial (both axial).\n- **High yield:** E2 does not involve a carbocation, so there are no rearrangements.\n- Primary, secondary, and tertiary substrates can all undergo E2 (tertiary is especially fast with strong base).",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| E2 | E1 | E2 is one-step, second-order, needs a strong base; E1 is two-step, first-order, goes through a carbocation |\n| Zaitsev product | Hofmann product | Zaitsev = more substituted alkene (ordinary bases); Hofmann = less substituted (bulky bases) |\n| Anti-periplanar | Anti conformation | Anti-periplanar is the specific 180° coplanar arrangement required for E2 |\n| Stereospecific | Regioselective | Stereospecific fixes E/Z geometry; regioselective fixes which carbons form the double bond |",
+    "memoryAids": "\"**E2 = Everything at once, anti, 2 molecules**\" — both partners react in one step, the H and leaving group must be anti, and two molecules (RX + base) are in the rate law.",
+    "eli10": "Think of E2 as a \"tug and release\" in one motion: a strong base grabs a hydrogen off the carbon next to the leaving group (the β carbon) at the exact moment the leaving group slips off the α carbon, and the electrons that held the hydrogen snap over to form a double bond between the two carbons. It is like pulling a loose thread while the fabric simultaneously comes apart at a seam — everything happens together.\n\nThe anti-periplanar requirement is a geometry rule: the hydrogen being pulled and the leaving group must point in exactly opposite directions (like a stretched-out 180° line) for their orbitals to line up properly. Imagine two people passing a baton while standing back-to-back — that alignment is what makes the electron hand-off efficient.\n\nWhere this stops being exact: the \"simultaneous\" picture is accurate for the single transition state, but the C–H and C–X bonds do not break at exactly identical rates — the transition state is a blend of partially broken bonds. Also, anti-periplanar is the ideal geometry, but in flexible acyclic molecules the substrate can rotate into it; the requirement is really about which conformation reacts, not a permanent shape of the molecule.\n\n### Simple Example\n\nSodium ethoxide (NaOEt) reacts with 2-bromobutane. Ethoxide removes a β hydrogen while bromide leaves, forming but-2-ene (mainly the more substituted 2-butene, which itself appears as a mixture of E and Z isomers). The anti-periplanar requirement dictates which β hydrogen is removed and the alkene stereochemistry.",
+    "quickReview": "### Topic Recap\n\nE2 is a concerted, second-order elimination requiring a strong base and an anti-periplanar arrangement of the β hydrogen and leaving group. It is stereospecific, usually gives the Zaitsev (more substituted) alkene — the Hofmann product with bulky bases — and on cyclohexanes requires trans-diaxial geometry. No carbocation means no rearrangements.\n\n### Knowledge Check\n\n1. Write the rate law for an E2 reaction.\n2. What geometry must the β hydrogen and the leaving group adopt for E2 to occur?\n3. Which product is favored when a bulky base like tert-butoxide is used — Zaitsev or Hofmann?\n4. Why are there no rearrangements in E2?\n5. On a cyclohexane ring, what orientation must the leaving group adopt for E2 elimination?\n\n### Answers and Rationales\n\n1. \\(k\\,[\\text{RX}]\\,[\\text{base}]\\) — both the substrate and the base are in the single step.\n2. Anti-periplanar — 180° apart in the same plane, so the orbitals overlap correctly.\n3. Hofmann (less substituted alkene) — the bulky base cannot reach the hindered hydrogens that would give the Zaitsev product.\n4. No carbocation forms in the concerted E2 mechanism, so there is no intermediate that could shift.\n5. Axial — the leaving group and the β hydrogen must both be axial (trans-diaxial) to be anti-periplanar.",
+    "workedExamples": "Walk through the E2 dehydrohalogenation of 2-bromobutane with ethoxide.\n\n1. **Identify the base and β hydrogens.** Ethoxide is a strong base. The β carbons (carbons adjacent to the bromine-bearing carbon) hold the hydrogens that can be removed.\n2. **Draw electron movement before products.** A double-headed arrow from ethoxide's lone pair grabs a β hydrogen. A double-headed arrow from that C–H bond moves its electrons to form the C=C π bond. A double-headed arrow from the C–Br bond moves those electrons onto bromine.\n3. **Enforce anti-periplanar geometry.** The removed hydrogen and the leaving bromide must be anti (180°) for the reaction to proceed; the substrate rotates into the reactive conformation.\n4. **Account for electrons and charge.** Ethoxide (negative) becomes neutral ethanol after proton transfer; bromide leaves as Br⁻ (−1). Charge is conserved (one anion in, one anion out).\n5. **Predict regiochemistry.** With two types of β hydrogen, the more substituted alkene (Zaitsev) dominates with a non-bulky base.\n6. **State stereochemistry.** The anti-periplanar transition state determines whether the E or Z alkene forms.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "the-e2-mechanism",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "22-the-e2-mechanism",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/22-the-e2-mechanism.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

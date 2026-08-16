@@ -1,0 +1,40 @@
+{
+  "id": "genetics-recombinant-dna-technology-and-biotechnology-0004",
+  "subject": "genetics",
+  "lesson": "recombinant-dna-technology-and-biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A PCR reaction is run with template DNA, two primers, deoxynucleotides, and Taq polymerase. During which step of the PCR cycle is the temperature lowered so that the primers can base-pair with the template?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Denaturation, in which the temperature is raised to about 95 degrees C to separate the strands"
+    },
+    {
+      "id": "b",
+      "text": "Extension, in which the temperature is raised to about 72 degrees C so that DNA polymerase adds nucleotides"
+    },
+    {
+      "id": "c",
+      "text": "Annealing, in which the temperature is lowered to about 55 degrees C so that the primers base-pair with the template"
+    },
+    {
+      "id": "d",
+      "text": "Ligation, in which the temperature is held at about 37 degrees C so that DNA ligase seals the strands"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "PCR cycles three temperatures: denaturation near 95 degrees C separates the strands, annealing at about 55 degrees C lets the primers base-pair with their complementary template sequences, and extension near 72 degrees C lets Taq polymerase synthesize new strands. A describes denaturation, which melts the duplex rather than binding primers. B describes the extension step, and D invokes ligation, which is used in cloning rather than in PCR, because amplification relies on polymerase and not ligase.",
+  "difficulty": "unknown",
+  "tags": [
+    "pcr",
+    "annealing",
+    "step",
+    "temperature"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-2e5f1806a7bd2d1a",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

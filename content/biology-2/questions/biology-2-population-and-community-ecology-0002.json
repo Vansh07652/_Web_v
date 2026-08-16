@@ -1,0 +1,39 @@
+{
+  "id": "biology-2-population-and-community-ecology-0002",
+  "subject": "biology-2",
+  "lesson": "population-and-community-ecology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A population of algae in a lake grows with **exponential growth** at an intrinsic rate of increase r = 0.5 per day. If the current population size N is 1000 cells, what is the daily growth rate dN/dt?",
+  "options": [
+    {
+      "id": "a",
+      "text": "500 cells per day"
+    },
+    {
+      "id": "b",
+      "text": "1000 cells per day"
+    },
+    {
+      "id": "c",
+      "text": "2000 cells per day"
+    },
+    {
+      "id": "d",
+      "text": "250 cells per day"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The exponential growth equation is dN/dt = rN, so multiply the rate r = 0.5 per day by the current size N = 1000 cells. That gives 500 cells per day. Option B reports the population size itself, C doubles it, and D divides instead of multiplying.",
+  "difficulty": "unknown",
+  "tags": [
+    "exponential",
+    "growth",
+    "calculation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-5587a65811e8effd",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

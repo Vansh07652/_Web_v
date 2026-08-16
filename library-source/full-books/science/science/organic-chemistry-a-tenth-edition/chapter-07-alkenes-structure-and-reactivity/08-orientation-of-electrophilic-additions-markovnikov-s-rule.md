@@ -1,0 +1,158 @@
+---
+title: "Orientation of Electrophilic Additions: Markovnikov’s Rule"
+subject: "Science"
+book: "Organic Chemistry: A Tenth Edition"
+chapter: "7: Alkenes: Structure and Reactivity"
+topic_number: "8"
+source: "organic-chemistry.md"
+tags:
+  - "orientation-of-electrophilic-additions-markovnikov-s-rule"
+  - "science"
+status: "complete"
+---
+
+# Orientation of Electrophilic Additions: Markovnikov's Rule
+
+> **Book:** [Organic Chemistry: A Tenth Edition](../../README.md)  
+> **Chapter:** [Chapter 7: Alkenes: Structure and Reactivity](../README.md)  
+> **Topic:** 8  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+When HBr adds to ethene, only one product is possible. But when HBr adds to an unsymmetrical alkene such as propene, the reagent could attach two ways, giving either 1-bromopropane or 2-bromopropane — and in practice 2-bromopropane dominates overwhelmingly. This regioselectivity was first codified by Vladimir Markovnikov in 1870 and is one of the most famous empirical rules in organic chemistry.
+
+Markovnikov's rule: in addition of HX to an alkene, the hydrogen adds to the double-bond carbon that already has more hydrogens, and the halogen adds to the carbon with fewer. The modern explanation is mechanistic — the proton adds to whichever alkene carbon gives the more stable carbocation, and the halide captures that cation. This topic states the rule, explains it through carbocation stability, previews the peroxides exception that flips the regiochemistry, and shows how the Hammond postulate (Topic 10) ties it together.
+
+## Why This Matters
+
+Markovnikov's rule is the most frequently tested regiochemistry rule in introductory organic chemistry, and it recurs downstream: it governs oxymercuration, hydration, halogenation, and many other electrophilic additions. In industry, regiochemistry decides which alcohol, halide, or polymer microstructure a process delivers. In biochemistry, the same "add the electrophile to give the more stable cation" logic underlies enzyme-catalyzed additions in terpene biosynthesis. Understanding the rule mechanistically — rather than memorizing "rich get richer" — lets you predict products for unfamiliar electrophiles and spot exceptions.
+
+## Core Concepts
+
+### The rule as stated
+
+For the addition of a protic acid HX (HCl, HBr, HI) to an unsymmetrical alkene:
+
+> **Markovnikov's rule:** The hydrogen atom of HX adds to the double-bond carbon that has the larger number of hydrogen atoms; the X group adds to the carbon with the smaller number of hydrogens.
+
+For propene, CH2=CH–CH3, the terminal carbon (CH2) has two hydrogens and the internal carbon has one. The proton adds to the terminal carbon, and bromide adds to the internal carbon:
+
+\[ \text{CH}_3\text{CH}=\text{CH}_2 + \text{HBr} \rightarrow \text{CH}_3\text{CHBrCH}_3 \quad \text{(2-bromopropane, major)} \]
+
+Only a trace of 1-bromopropane (CH3CH2CH2Br) forms.
+
+### Why the rule works: the carbocation intermediate
+
+The addition is a two-step polar mechanism (Topic 7). In step 1, the alkene \(\pi\) electrons act as a Lewis base and attack the proton of HBr, forming a C–H bond and leaving a carbocation; in step 2, bromide attacks the cation. The proton can add to either alkene carbon, but the two possible cations are not equally stable:
+
+\[ \text{CH}_3\text{CH}=\text{CH}_2 + \text{H}^+ \rightarrow \text{CH}_3\text{CH}^+\text{CH}_3 \quad \text{(secondary, favored)} \]
+
+\[ \text{CH}_3\text{CH}=\text{CH}_2 + \text{H}^+ \rightarrow \text{CH}_3\text{CH}_2\text{CH}_2^+ \quad \text{(primary, disfavored)} \]
+
+Protonation on the terminal carbon gives a secondary cation (CH3CH⁺CH3); protonation on the internal carbon gives a primary one (CH3CH2CH2⁺). Because secondary cations are more stable than primary (Topic 9), the first pathway has a lower activation energy and dominates; bromide then fixes the halogen on the more substituted carbon. Markovnikov's rule is therefore a **carbocation-stability rule** in disguise.
+
+### The Hammond postulate connection
+
+Why does the more stable cation form faster, when it is only an intermediate, not the transition state? The Hammond postulate (Topic 10) answers: the cation-forming step is endothermic, so its transition state resembles the cation. Anything that stabilizes the cation (extra alkyl groups, resonance) also stabilizes the transition state and lowers the activation energy — so cation stability maps directly onto protonation rate, the mechanistic heart of Markovnikov selectivity.
+
+### The exception: HBr with peroxides
+
+The rule has a famous exception: in the presence of peroxides (ROOR), HBr adds to propene to give **1-bromopropane** — the anti-Markovnikov product. The reason is a change of mechanism: peroxides initiate a radical chain (Topic 8.10) in which a bromine atom adds to the alkene first, forming the **more stable radical** on the more substituted carbon, and hydrogen is then abstracted from HBr. Because Br· (not H⁺) adds first, the regiochemistry flips. HCl and HI do not show the effect cleanly (their radical chains are too slow or endothermic), so the peroxide effect is specific to HBr — a classic exam distinction.
+
+### Predicting products systematically
+
+To predict the Markovnikov product of any HX addition: (1) identify the two alkene carbons; (2) protonate the carbon that gives the more stable cation — the one leaving the positive charge on the more substituted carbon (or on a carbon adjacent to a π system, if resonance can delocalize it); (3) place X on that cation carbon. The logic extends to additions of H2O (acid-catalyzed hydration), H–Hg, and H–B reagents, with each reagent's caveats (e.g., hydroboration adds anti-Markovnikov because boron delivers first).
+
+## ELI-10: Explain Like I'm 10
+
+Imagine two kids on a seesaw: the side with more friends pushing down is the stable side. When a proton arrives, it "pushes" the alkene so the positive charge lands where it has the most friends (alkyl groups) to support it — like choosing the side of the seesaw with the strongest helpers. The halogen then joins the charge there, so the whole thing settles on that side.
+
+## High-Yield Points
+
+- Markovnikov's rule: H adds to the alkene carbon with more hydrogens; X adds to the carbon with fewer hydrogens.
+- The rule is a consequence of carbocation stability: protonation forms the more substituted (more stable) carbocation.
+- Mechanism: step 1 protonation gives a carbocation; step 2 halide captures it.
+- Hammond postulate: the endothermic protonation step has a transition state resembling the carbocation, so cation stability controls the rate.
+- Peroxide effect: HBr + peroxides gives anti-Markovnikov product (radical mechanism); HCl and HI do not show the effect.
+- Examples: HBr + propene → 2-bromopropane (major); HBr + 2-methylpropene → tert-butyl bromide (2-bromo-2-methylpropane).
+- Hydroboration (Chapter 8) is a separate anti-Markovnikov addition: boron adds first, then H.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Markovnikov's rule | In HX addition to an alkene, H goes to the carbon with more hydrogens and X to the carbon with fewer. | The canonical regiochemistry rule for electrophilic additions. |
+| regioselectivity | Preference for one constitutional isomer over another when a reaction could give several. | The property Markovnikov's rule predicts. |
+| carbocation | A carbon bearing a positive charge and only three bonds; sp2-hybridized with an empty p orbital. | The intermediate whose stability sets the regiochemistry. |
+| anti-Markovnikov addition | Addition placing H on the more substituted carbon and X on the less substituted one. | The radical-mechanism outcome for HBr with peroxides. |
+| peroxide effect | Reversal of Markovnikov regiochemistry for HBr in the presence of ROOR. | Classic exception; mechanism switches from ionic to radical. |
+| transition state | The highest-energy configuration on the reaction coordinate. | Its resemblance to the carbocation (Hammond postulate) explains the rate difference. |
+
+## Worked Examples
+
+**Example 1 — Predict the product of HCl addition to 2-methylpropene.** The alkene is (CH3)2C=CH2: the internal carbon has zero hydrogens and carries two methyl groups; the terminal carbon has two hydrogens. Protonation on the terminal carbon gives the tertiary carbocation (CH3)3C⁺; protonation on the internal carbon would give a primary carbocation. The tertiary cation is far more stable, so the major product is:
+
+\[ (\text{CH}_3)_2\text{C}=\text{CH}_2 + \text{HCl} \rightarrow (\text{CH}_3)_3\text{CCl} \quad \text{(2-chloro-2-methylpropane, tert-butyl chloride)} \]
+
+**Example 2 — Stoichiometry of an HBr addition.** A student adds HBr to 10.0 g of propene (CH3CH=CH2, molar mass 42.08 g/mol) and wants to know the mass of HBr (80.91 g/mol) consumed. The reaction is 1:1. Write the mole relation, then substitute:
+
+\[ n(\text{propene}) = n(\text{HBr}) = \frac{10.0\ \text{g}}{42.08\ \text{g mol}^{-1}} = 0.2376\ \text{mol} \]
+
+\[ m(\text{HBr}) = 0.2376\ \text{mol} \times 80.91\ \text{g mol}^{-1} = 19.2\ \text{g} \]
+
+So 19.2 g of HBr reacts completely with 10.0 g of propene, forming 2-bromopropane as the major product.
+
+**Example 3 — Why does the peroxide effect flip HBr but not HCl?** Explain mechanistically. *Answer:* With peroxides, the chain carrier is a bromine atom (Br·). It adds to the alkene to give the more stable carbon radical (on the more substituted carbon), and that radical abstracts H from HBr, placing H on the less substituted carbon — anti-Markovnikov. For HCl, the corresponding Cl· addition is fast but the chain-carrying step (radical + HCl → R–H + Cl·) is strongly endothermic, so the radical chain is inefficient and the ionic Markovnikov pathway dominates instead.
+
+**Example 4 — Apply the rule to a resonance-stabilized case.** Predict the major product of HBr addition to 1,3-butadiene (CH2=CH–CH=CH2) under ionic conditions. *Answer:* Protonation at C1 (terminal) gives an allylic carbocation CH3–CH⁺–CH=CH2, which is resonance-stabilized (the positive charge can delocalize to C3). Protonation at C2 gives a less favorable secondary cation without full allylic delocalization. The major product is the 1,2-addition product 3-bromo-1-butene (with significant 1,4-addition product), a preview of conjugated diene chemistry (Chapter 14).
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Markovnikov's rule | "the more stable alkene wins" | The rule concerns the *carbocation* formed on protonation, not the stability of an alkene product. |
+| Peroxide effect for HBr | peroxide effect for HCl/HI | Only HBr reliably shows the anti-Markovnikov radical pathway. |
+| Markovnikov hydration (H2O, H2SO4) | hydroboration–oxidation | Acid-catalyzed hydration is Markovnikov; hydroboration–oxidation delivers water anti-Markovnikov. |
+| Carbocation stability | radical stability | Both favor more substituted centers, but the peroxide effect depends on *radical* stability; the ionic rule depends on *carbocation* stability. |
+| Regioselectivity | stereoselectivity | Regiochemistry is about which constitutional isomer forms; stereochemistry (Chapter 8, Topics 12–13) is about which 3D arrangement forms. |
+| "H adds to the carbon with more H" | "H adds to the more substituted carbon" | These are opposite statements — more hydrogens means *less* substituted. A classic trap. |
+
+## Quick Review
+
+1. State Markovnikov's rule in your own words.
+2. Why does protonation of propene favor the secondary carbocation over the primary one?
+3. What product forms from HBr + 2-methylpropene, and why?
+4. What is the peroxide effect, and why is it specific to HBr?
+5. Explain how the Hammond postulate rationalizes Markovnikov selectivity.
+6. HBr adds to CH3CH=CHCH3 (2-butene). How many products are possible, and what are they?
+
+<details>
+<summary>Answers</summary>
+
+1. In HX addition to an unsymmetrical alkene, the hydrogen adds to the double-bond carbon that already has more hydrogens; X adds to the other carbon.
+2. Protonating the terminal carbon leaves the positive charge on the internal carbon, giving a secondary carbocation; protonating the internal carbon gives a primary one. Secondary > primary in stability, so the first pathway has a lower activation energy.
+3. 2-Bromo-2-methylpropane ((CH3)3CBr): protonation at the CH2 carbon gives the tertiary carbocation (CH3)3C⁺, the most stable possible cation here.
+4. Peroxides convert HBr addition to a radical chain in which Br· adds first, placing H on the less substituted carbon (anti-Markovnikov). It is specific to HBr because for HCl the radical chain is too slow/endothermic to compete.
+5. The carbocation-forming step is endothermic, so its transition state resembles the carbocation; stabilizing the cation therefore lowers the transition-state energy, making formation of the more stable cation faster.
+6. 2-Butene is symmetric, so only one product: 2-bromobutane (CH3CHBrCH2CH3). Regiochemistry questions only arise for unsymmetrical alkenes.
+
+</details>
+
+## Related Topics
+
+- [Chapter 7 README](../README.md)
+- [7. Electrophilic Addition Reactions of Alkenes](07-electrophilic-addition-reactions-of-alkenes.md)
+- [9. Carbocation Structure and Stability](09-carbocation-structure-and-stability.md)
+- [10. The Hammond Postulate](10-the-hammond-postulate.md)
+- [11. Evidence for the Mechanism of Electrophilic Additions: Carbocation Rearrangements](11-evidence-for-the-mechanism-of-electrophilic-additions-carbocation-rearrangements.md)
+- [Chapter 8, Topic 10: Radical Additions to Alkenes: Chain-Growth Polymers](../chapter-08-alkenes-reactions-and-synthesis/10-radical-additions-to-alkenes-chain-growth-polymers.md)
+
+## Source Notes
+
+- Book: Organic Chemistry: A Tenth Edition
+- Local outline source: `organic-chemistry.md`
+- Official source URL: https://openstax.org/details/books/organic-chemistry/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Constants: molar masses computed from standard atomic weights (C 12.011, H 1.008, Br 79.904); no experimental rate or energy data claimed beyond qualitative, textbook-standard stability orderings.
+- Last updated: 2026-08-16

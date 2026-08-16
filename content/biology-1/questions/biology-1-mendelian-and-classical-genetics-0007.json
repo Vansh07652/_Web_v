@@ -1,0 +1,40 @@
+{
+  "id": "biology-1-mendelian-and-classical-genetics-0007",
+  "subject": "biology-1",
+  "lesson": "mendelian-and-classical-genetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Color blindness is a **sex-linked** trait caused by a recessive allele on the X chromosome, inherited in the **X-linked** pattern. A color-blind man (XbY) and a woman with normal vision who is a carrier (XBXb) have children. What is the probability that a son they have will be color-blind?",
+  "options": [
+    {
+      "id": "a",
+      "text": "50%"
+    },
+    {
+      "id": "b",
+      "text": "25%"
+    },
+    {
+      "id": "c",
+      "text": "100%"
+    },
+    {
+      "id": "d",
+      "text": "0%"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "A son receives his Y chromosome from his father, so the father's X chromosome never reaches him, and the only X a son gets comes from his mother. The mother passes XB or Xb with equal probability, so half of her sons are XbY and color-blind. The father's own color blindness does not affect his sons at all.",
+  "difficulty": "unknown",
+  "tags": [
+    "linked",
+    "inheritance",
+    "color",
+    "blindness"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-f0963ec18ccf229e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

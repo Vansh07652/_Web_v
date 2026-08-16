@@ -1,0 +1,157 @@
+---
+title: "Intrauterine Resuscitation"
+subject: "Nursing"
+book: "Maternal-Newborn Nursing"
+chapter: "16: Electronic Fetal and Uterine Contraction Monitoring"
+topic_number: "5"
+source: "maternal-newborn-nursing.md"
+tags:
+  - "intrauterine-resuscitation"
+  - "nursing"
+status: "complete"
+---
+
+# Intrauterine Resuscitation
+
+> **Book:** [Maternal-Newborn Nursing](../../README.md)  
+> **Chapter:** [Chapter 16: Electronic Fetal and Uterine Contraction Monitoring](../README.md)  
+> **Topic:** 5  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Intrauterine resuscitation** is a coordinated set of bedside interventions used when fetal heart rate (FHR) monitoring suggests that the fetus may not be getting enough oxygen. The name can be misleading: no one is "reviving" the fetus directly. Instead, the nurse acts on the mother-fetus oxygen supply chain — repositioning the pregnant person, adjusting fluids, relieving uterine overstimulation, and removing anything that is squeezing off blood flow — so that oxygen delivery across the placenta improves on its own. In that sense, intrauterine resuscitation treats the *environment* around the fetus rather than the fetus itself.
+
+The interventions themselves are simple, fast, and reversible: turn the person onto their side, stop the oxytocin, give an IV fluid bolus, and so on. What makes them powerful is *timing* — a tracing that shows recurrent late decelerations is a signal that the fetus is being stressed with every contraction, and each contraction is another round of oxygen deprivation. Recognizing the pattern and acting within minutes can mean the difference between a fetus that recovers and one that develops worsening acidemia requiring urgent delivery.
+
+Most of these measures are nurse-initiated: the nurse recognizes the pattern, starts the immediate interventions that standing orders or institutional protocols allow, and notifies the provider or care team. Exactly which steps a nurse may start without a new order depends on state practice acts, hospital policy, and provider protocols — so the nursing student's job is to know the *bundle* of interventions and the reasoning behind each one, then apply it under whatever scope the institution defines.
+
+## Why This Matters
+
+Fetal monitoring is only useful if someone acts on what it shows. An FHR tracing is the most continuous, real-time window we have into fetal oxygenation, and the nurse is almost always the person watching it. Intrauterine resuscitation is the bridge between "I see a worrying pattern" and "the fetus is getting oxygen again." Delays matter: fetal hypoxemia that is recognized and corrected early usually resolves; hypoxemia that is ignored or slowly escalated can progress to metabolic acidemia, depressed newborn status at birth, and an emergency cesarean that might have been avoided.
+
+This topic is also a favorite exam area because it tests clinical judgment, not memorization. Questions pair a tracing description with a list of actions and ask which to take first — the answer is almost always the reversible, low-risk intervention (position change, fluids, turn off the oxytocin), not jumping straight to delivery. In practice, intrauterine resuscitation is a team drill: the nurse acts, communicates with the provider (often with SBAR), reassesses the tracing, and documents everything. Knowing the bundle cold makes you a safer nurse and a better test-taker.
+
+## Core Concepts
+
+### The fetal oxygen supply chain
+
+Fetal oxygen does not come from fetal lungs — it comes from the pregnant person's blood. Oxygenated maternal blood enters the **intervillous space** of the placenta, diffuses across the placental membrane into fetal capillaries, and travels to the fetus through the **umbilical vein**. Any break in that chain reduces fetal oxygen:
+
+- **Maternal side:** low maternal blood pressure (hypotension), or compression of the maternal vena cava and aorta when the person lies supine (**aortocaval compression**), reduces blood flow into the placenta.
+- **Uterine side:** contractions squeeze the spiral arteries. With normal contraction frequency and resting tone, blood flow recovers between contractions; with **tachysystole** (too many contractions or too little resting time), recovery time disappears.
+- **Placental side:** abruption or placental insufficiency damages the exchange surface.
+- **Cord side:** umbilical cord compression (e.g., cord around a body part, oligohydramnios) blocks the fetal half of the circuit.
+
+The fetus has limited oxygen reserves and depends on continuous delivery, which is why interruptions show up quickly on the tracing.
+
+### Reading the signals that trigger resuscitation
+
+The classic triggers are patterns described in earlier topics of this chapter:
+
+- **Late decelerations** — a gradual fall in FHR that starts at or after the peak of the contraction and returns slowly. They reflect **uteroplacental insufficiency**: with each contraction, oxygen delivery drops below what the fetus needs.
+- **Recurrent variable decelerations** — abrupt drops in FHR caused by **umbilical cord compression**.
+- **Prolonged decelerations** — a single deceleration lasting more than about two minutes, with causes ranging from maternal hypotension to cord prolapse; a vaginal exam may be needed to check for a prolapsed cord.
+- **Bradycardia, minimal or absent variability**, or a sudden change from a previously reassuring pattern.
+
+Context matters: a single late deceleration in an otherwise normal tracing is treated differently from recurrent late decelerations with rising baseline and decreasing variability. The pattern is interpreted together with the contraction tracing and the clinical situation (e.g., a just-placed epidural, oxytocin running, ruptured membranes).
+
+### The intrauterine resuscitation bundle
+
+The interventions target whichever link of the oxygen chain is failing. The classic bundle:
+
+- **Reposition the pregnant person.** The left lateral position relieves aortocaval compression and often improves uterine blood flow; other positions (right side, hands-and-knees) may help when the cord is compressed against the pelvis. A supine person with a worrying tracing should not stay supine.
+- **Stop or reduce the oxytocin infusion** when tachysystole or excessive uterine activity is present, per the oxytocin protocol or provider order. More contractions = less recovery time = less oxygen.
+- **Give an IV fluid bolus** per order. Fluids expand maternal blood volume and support blood pressure and uterine perfusion, especially after an epidural or with dehydration.
+- **Administer oxygen** per order or institutional policy. The evidence for routine oxygen in every worrisome tracing has been debated, so practice varies; some protocols use it, others reserve it — know your institution's policy.
+- **Correct maternal hypotension.** If the tracing follows an epidural placement, position changes and IV fluids usually help; the anesthesia provider is notified if needed.
+- **Relieve cord compression.** Repositioning is the first move; if variable decelerations persist, the provider may order an **amnioinfusion** (sterile fluid instilled into the uterus through an intrauterine catheter) to cushion the cord.
+- **Perform a vaginal exam** to rule out cord prolapse or rapid descent when a prolonged deceleration appears.
+- **Notify the provider and keep watching.** Resuscitation is not "do one thing and move on"; the tracing must be reassessed to see whether the pattern resolved, and the response documented.
+
+### Time, teamwork, and documentation
+
+In practice, several interventions happen at once — someone turns the person, someone stops the pump, someone hangs the bolus — while the nurse reassesses the tracing within a few minutes. Communication to the provider should be structured (SBAR: situation, background, assessment, recommendation) and the tracing, interventions, and fetal response documented. If the pattern does not resolve despite the bundle, the conversation shifts to delivery planning: intrauterine resuscitation buys time; it does not replace the decision to deliver when the fetus remains compromised.
+
+### Scope and institutional variation
+
+Which steps a nurse may initiate independently varies widely: some units have standing protocols for the whole bundle, others require a provider order for oxygen or fluids, and state practice acts define nursing scope. Always follow the institution's protocol, and flag the difference between "protocol allows me to start this" and "this requires a provider order."
+
+## ELI-10: Explain Like I'm 10
+
+A baby inside the womb gets oxygen from the parent's blood through the placenta, kind of like a house getting power through a cable. When the monitor shows the baby isn't getting enough power, the nurse fixes the cable, not the house: she turns the parent onto their side, turns off the medicine making the uterus squeeze too hard, and gives extra fluid. Then she watches the monitor to see if the "power" came back.
+
+## High-Yield Points
+
+- **Intrauterine resuscitation = fix the oxygen supply chain**, not the fetus: position, fluids, oxytocin off, blood pressure up, cord pressure off.
+- **Left lateral position** relieves aortocaval compression; supine positioning in a supine person with a concerning tracing is wrong.
+- **Late decelerations → uteroplacental insufficiency** (flow problem at the placenta); **variable decelerations → cord compression** — each has a matching intervention.
+- **Oxytocin is turned off or reduced for tachysystole** per protocol; the uterus needs relaxation time between contractions to restore blood flow.
+- **Interventions are parallel, not serial** — start the bundle, then reassess the tracing within minutes.
+- **Oxygen and IV boluses follow orders/policy**, and oxygen's routine use is debated — institutional variation.
+- **Escalation is a decision, not a failure:** if the pattern doesn't resolve, the discussion moves to delivery.
+- **Document the tracing, the interventions, and the response**; communicate with SBAR.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Intrauterine resuscitation | Bedside interventions that restore fetal oxygenation by improving blood flow on the maternal side of the placenta | The nurse's first response to a non-reassuring FHR tracing |
+| Uteroplacental insufficiency | Inadequate oxygen/blood exchange at the placenta during contractions | The mechanism behind late decelerations; the reason resting time between contractions matters |
+| Late deceleration | Gradual FHR fall starting at or after the contraction peak, returning slowly | Signals the fetus is stressed by each contraction; triggers repositioning, fluids, oxytocin review |
+| Variable deceleration | Abrupt FHR drop caused by umbilical cord compression | Repositioning and possibly amnioinfusion are the matching interventions |
+| Prolonged deceleration | A single deceleration lasting more than about two minutes | Urgent: assess for cord prolapse, hypotension, or uterine rupture; call for help |
+| Tachysystole | Too many contractions, too little resting time between them | Deprives the fetus of recovery time; managed by reducing/stoppage of oxytocin per protocol |
+| Aortocaval compression | Supine position lets the uterus compress maternal vessels, lowering blood flow | Explains why lateral positioning is a cornerstone of resuscitation |
+| Amnioinfusion | Sterile fluid instilled into the uterus via an intrauterine catheter | Cushions the cord to relieve variable decelerations; provider-ordered |
+
+## Example: Late Decelerations After an Epidural
+
+Consider a laboring person at 7 cm dilation with an epidural in place and an oxytocin infusion running. The nurse notices a cluster of late decelerations: the FHR dips after each contraction and returns slowly, and the pattern is repeating. The nurse's reasoning follows the oxygen chain. First, the epidural may have dropped the blood pressure — so the nurse checks it, turns the person to the left lateral position to relieve aortocaval compression, and calls for a fluid bolus per the standing protocol. Second, the contraction tracing shows contractions coming close together with little resting time, so the nurse turns off the oxytocin per protocol. The nurse notes that oxygen was administered per policy, then re-evaluates the tracing. Within a few minutes the decelerations resolve and variability returns. The nurse reports to the provider with SBAR — what the tracing showed, what was done, and the current reassuring status — and documents the pattern, interventions, and response. The key point: the nurse never "waited to see"; the bundle went in while the provider was being notified, and the reassessment confirmed it worked.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Late decelerations | Variable decelerations | Late = gradual, mirrors contraction, placental flow problem; variable = abrupt, cord compression — different interventions |
+| "Resuscitation" = newborn CPR | Intrauterine resuscitation | Here the fetus is still inside; the nurse changes the mother-side environment, not the fetus |
+| Oxygen for every tracing | Oxygen per order/policy | Routine oxygen's benefit is debated; practice varies by institution — follow policy |
+| Nurse stops oxytocin whenever | Stopping per protocol | Oxytocin management follows the institution's protocol and provider orders |
+| One intervention, then done | Reassess continuously | The tracing must be rechecked to see whether the pattern resolved; escalate if not |
+| Any supine position is fine | Supine causes aortocaval compression | Supine reduces cardiac output and uterine perfusion; lateral positioning is the cornerstone |
+
+## Quick Review
+
+1. What is the single goal of intrauterine resuscitation, and how does that goal differ from newborn resuscitation?
+2. Why does the left lateral position appear in almost every resuscitation bundle?
+3. A tracing shows recurrent late decelerations. What does that tell you about the oxygen supply chain, and what are the first interventions?
+4. When would a provider consider amnioinfusion?
+5. A prolonged deceleration appears. What must the nurse check for, and why?
+
+<details>
+<summary>Show answers</summary>
+
+1. To restore fetal oxygenation by improving blood flow on the maternal side of the placenta (position, fluids, uterine activity, blood pressure, cord compression). Newborn resuscitation instead acts directly on a baby after birth (airway, breathing, circulation).
+2. Supine positioning lets the uterus compress the maternal vena cava and aorta (aortocaval compression), reducing blood flow to the placenta. Lateral positioning relieves that compression and improves uterine perfusion.
+3. Late decelerations signal uteroplacental insufficiency: with each contraction, oxygen delivery drops below fetal need. First interventions: reposition (lateral), give an IV fluid bolus per order, and review uterine activity — stop or reduce oxytocin per protocol if tachysystole is present; oxygen per policy; notify the provider.
+4. For persistent variable decelerations from cord compression — instilling fluid cushions the cord. It requires a provider order and an intrauterine catheter.
+5. Assess for a prolapsed cord (vaginal exam), maternal hypotension (especially after an epidural), and uterine rupture in at-risk situations; reposition, give fluids, and notify the provider urgently. A prolonged deceleration is a time-sensitive signal, not a "wait and see" finding.
+
+</details>
+
+## Related Topics
+
+- Previous: [Nursing Interventions Based on Fetal Heart Rate and Uterine Contraction Patterns](04-nursing-interventions-based-on-fetal-heart-rate-and-uterine-contraction-patterns.md)
+- Next: End of chapter
+- Related: [Basic Terms of Fetal Heart Rate and Contraction Patterns](01-basic-terms-of-fetal-heart-rate-and-contraction-patterns.md)
+- Related: [Physiological Influences on Fetal Heart Rate Patterns](03-physiological-influences-on-fetal-heart-rate-patterns.md)
+- Related: [Electronic Fetal and Uterine Contraction Monitoring chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Maternal-Newborn Nursing
+- Local outline source: `maternal-newborn-nursing.md`
+- Official source URL: https://openstax.org/details/books/maternal-newborn-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: Educational draft only — no drug doses, oxygen flow rates, bolus volumes, or monitoring frequencies are provided here. Intervention specifics (oxytocin management, fluid boluses, oxygen use, amnioinfusion) follow provider orders and institutional protocols; nursing scope varies by state practice act.
+- Last updated: 2026-08-15

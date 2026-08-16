@@ -1,0 +1,166 @@
+---
+title: "Shifting Equilibria: Le Châtelier’s Principle"
+subject: "Science"
+book: "Chemistry: Atoms First 2e"
+chapter: "13: Fundamental Equilibrium Concepts"
+topic_number: "3"
+source: "chemistry-atoms-first-2e.md"
+tags:
+  - "shifting-equilibria-le-cha-telier-s-principle"
+  - "science"
+status: "complete"
+---
+
+# Shifting Equilibria: Le Châtelier’s Principle
+
+> **Book:** [Chemistry: Atoms First 2e](../../README.md)  
+> **Chapter:** [Chapter 13: Fundamental Equilibrium Concepts](../README.md)  
+> **Topic:** 3  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Le Châtelier's principle** states that when a system at equilibrium is disturbed, it shifts in the direction that counteracts the disturbance and restores equilibrium. The disturbances are changes in concentration, changes in pressure or volume (for gases), and changes in temperature. Adding a reactant pushes the reaction toward products; removing a product pulls it forward; compressing a gas mixture favors the side with fewer gas molecules; heating an exothermic reaction favors the reactants. Temperature is special — unlike concentration or pressure changes, changing the temperature actually *changes the value of \(K\) itself*, because \(K\) depends on temperature.
+
+The quantitative companion is the reaction quotient \(Q\): the reaction runs in whichever direction moves \(Q\) back toward \(K\). Catalysts and inert gases added at constant volume do **not** shift the equilibrium — they change approach speed or total pressure, not the reaction's balance.
+
+## Why This Matters
+
+Le Châtelier's principle is the design rule of industrial chemistry. The Haber–Bosch process makes ammonia — the source of most nitrogen fertilizer — by exploiting all three levers at once: high pressure (fewer gas moles on the product side), moderate temperature (exothermic reaction, with a catalyst to compensate for slower kinetics), and continuous removal of product ammonia. In the body, the bicarbonate buffer \(\text{CO}_2 + \text{H}_2\text{O} \rightleftharpoons \text{H}^+ + \text{HCO}_3^-\) shifts with blood \(\text{CO}_2\): rapid breathing removes \(\text{CO}_2\) and changes blood pH. On exams, Le Châtelier questions test whether you can predict the direction of shift — and, critically, distinguish the cases that change \(K\) from those that do not.
+
+## Core Concepts
+
+### Concentration changes
+
+Adding a reactant (or removing a product) makes \(Q < K\), so the forward reaction runs until \(Q = K\) again. Removing a reactant (or adding a product) makes \(Q > K\), so the reverse reaction runs. The value of \(K\) is untouched — only the composition changes.
+
+### Pressure and volume changes for gases
+
+Changing the volume changes all partial pressures. The direction of the shift is set by \(\Delta n\), the change in moles of gas from reactants to products. If the product side has fewer gas moles (\(\Delta n < 0\)), compression (higher pressure) favors products; if \(\Delta n > 0\), compression favors reactants; if \(\Delta n = 0\), pressure changes have no effect. Inert gas added *at constant volume* changes total pressure, not the reacting gases' partial pressures — no shift.
+
+### Temperature changes — the special case
+
+Temperature changes alter the equilibrium constant itself. For an exothermic reaction (\(\Delta H < 0\)), heat is effectively a "product": raising the temperature favors the reactants and decreases \(K\); lowering the temperature favors products and increases \(K\). For an endothermic reaction (\(\Delta H > 0\)), the logic flips: raising the temperature increases \(K\) and favors products.
+
+### Catalysts and the no-shift cases
+
+A catalyst lowers the activation energy for both directions equally: it speeds the approach but leaves the position and \(K\) unchanged. Inert gas at constant volume changes no partial pressures — no shift. Spotting these no-shift cases is a favorite exam trap.
+
+### The Haber–Bosch process as a case study
+
+For \(\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoons 2\text{NH}_3(g)\), \(\Delta H^\circ = -92\) kJ per mole of reaction. High pressure favors ammonia because \(\Delta n = 2 - 4 = -2\). Low temperature would favor ammonia but make the reaction too slow, so plants compromise near 400–500 °C with an iron catalyst, very high pressure (roughly 150–300 atm), and continuous condensation of product ammonia.
+
+## ELI-10: Explain Like I'm 10
+
+Imagine a seesaw with kids on both sides, perfectly balanced. If you add one more kid to the left, the seesaw tips and the right side rises — the system "fights back" by moving in the direction that uses up the new kid. That is Le Châtelier's principle: when you disturb a balance, the reaction shifts to use up what you added or replace what you removed.
+
+## High-Yield Points
+
+- Le Châtelier's principle: a disturbed equilibrium shifts to counteract the disturbance.
+- Adding reactant / removing product → forward shift; adding product / removing reactant → reverse shift. \(K\) unchanged.
+- Pressure changes matter only for gases, and only through \(\Delta n\): compression favors the side with fewer gas moles.
+- Inert gas at constant volume: no shift. Catalyst: faster approach, no shift, \(K\) unchanged.
+- Temperature changes \(K\) itself: heating favors the endothermic direction; cooling favors the exothermic direction.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Le Châtelier's principle | A stressed equilibrium shifts to counteract the stress | The qualitative rule for predicting direction |
+| \(\Delta n\) | Change in moles of gas, products minus reactants | Decides whether pressure changes matter and which way |
+| exothermic / endothermic | Releases / absorbs heat | Sets how temperature changes affect \(K\) |
+| reaction quotient (\(Q\)) | Mass-action ratio at current conditions | The quantitative check on shift direction |
+
+## How It Works / Step-by-Step Process
+
+1. Identify the stress: concentration, pressure/volume, or temperature.
+2. If temperature changed, shift \(K\) per exo/endo — and stop there (no \(Q\) needed).
+3. If concentration or pressure changed, compute \(Q\) and compare with \(K\): \(Q < K\) → forward, \(Q > K\) → reverse, \(Q = K\) → none.
+4. Check the no-shift cases: catalyst, inert gas at constant volume, or a pressure change with \(\Delta n = 0\).
+
+## Example 1: Adding Hydrogen to the H₂–I₂–HI System
+
+At 445 °C, \(K_c = 50.2\) for \(\text{H}_2(g) + \text{I}_2(g) \rightleftharpoons 2\text{HI}(g)\). At equilibrium \([\text{H}_2] = [\text{I}_2] = 0.022\) M and \([\text{HI}] = 0.156\) M. Extra \(\text{H}_2\) is injected, raising \([\text{H}_2]\) to 0.050 M before any reaction. Compute the new \(Q\):
+
+\[
+Q = \frac{[\text{HI}]^2}{[\text{H}_2][\text{I}_2]} = \frac{(0.156)^2}{(0.050)(0.022)} = \frac{0.0243}{0.00110} = 22.1
+\]
+
+\(Q = 22.1 < K = 50.2\), so HI forms and consumes some added hydrogen. Solving the equilibrium expression (ICE-table method, next topic) gives \([\text{HI}] = 0.172\) M, \([\text{H}_2] = 0.042\) M, \([\text{I}_2] = 0.014\) M. Check: \((0.172)^2/((0.042)(0.014)) = 50.3\), essentially \(K\) again — the system shifted forward and \(K\) never changed.
+
+## Example 2: Pressure and Temperature on the NO₂–N₂O₄ System
+
+Nitrogen dioxide dimerizes: \(2\text{NO}_2(g) \rightleftharpoons \text{N}_2\text{O}_4(g)\), \(\Delta H^\circ = -57.2\) kJ per mole of reaction (exothermic, \(\Delta n = -1\)). At 25 °C, \(K_p = P(\text{N}_2\text{O}_4)/P(\text{NO}_2)^2 = 6.9\) atm⁻¹.
+
+**Pressure stress.** At equilibrium, \(P(\text{NO}_2) = 0.20\) atm and \(P(\text{N}_2\text{O}_4) = 0.28\) atm:
+
+\[
+Q = \frac{P(\text{N}_2\text{O}_4)}{P(\text{NO}_2)^2} = \frac{0.28}{(0.20)^2} = \frac{0.28}{0.040} = 7.0 \approx K
+\]
+
+Compress the mixture to half its volume: every partial pressure doubles, \(P(\text{NO}_2) = 0.40\) atm and \(P(\text{N}_2\text{O}_4) = 0.56\) atm:
+
+\[
+Q = \frac{0.56}{(0.40)^2} = \frac{0.56}{0.16} = 3.5
+\]
+
+\(Q = 3.5 < K = 6.9\), so \(\text{NO}_2\) dimerizes, reducing the number of gas moles — compression favored the side with fewer gas molecules, as \(\Delta n = -1\) predicts.
+
+**Temperature stress.** Heating favors decomposition back to brown \(\text{NO}_2\) and decreases \(K\) for the exothermic direction — the brown color deepens. Cooling favors colorless \(\text{N}_2\text{O}_4\), and the mixture lightens.
+
+## Example 3: The Haber Process — All Three Levers at Once
+
+An ammonia plant runs \(\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoons 2\text{NH}_3(g)\), \(\Delta H^\circ = -92\) kJ, \(\Delta n = -2\):
+
+- **Pressure:** roughly 150–300 atm. \(\Delta n = -2\), so high pressure favors ammonia.
+- **Temperature:** a compromise near 400–500 °C — cooler would favor the exothermic reaction (larger \(K\)) but be too slow, so the iron catalyst restores speed at a smaller \(K\).
+- **Product removal:** ammonia is condensed out of the circulating gas. Removing product keeps \(Q < K\), so the forward reaction keeps running and unreacted \(\text{N}_2/\text{H}_2\) is recycled.
+
+Pressure and removal push the position, temperature balances yield against rate, and the catalyst handles kinetics — one long application of Le Châtelier's principle.
+
+## Common Confusions
+
+| Common Confusion | Correct Understanding |
+|---|---|
+| "Adding an inert gas shifts the equilibrium." | Only if the volume is allowed to change. At constant volume, no shift. |
+| "A catalyst changes the equilibrium position." | It speeds both directions equally; position and \(K\) are unchanged. |
+| "Heating always favors products." | Heating favors the endothermic direction — reactants for an exothermic reaction. |
+| "Temperature and concentration both just shift the position." | Concentration changes leave \(K\) alone; temperature changes \(K\) itself. |
+| "Higher pressure always shifts toward products." | It shifts toward the side with *fewer gas moles*; if \(\Delta n = 0\), no shift. |
+| "The shift completely cancels the disturbance." | It only partially relieves it; the new equilibrium is at a different composition. |
+
+## Quick Review
+
+1. State Le Châtelier's principle in one sentence.
+2. For \(\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoons 2\text{NH}_3(g)\) (\(\Delta H^\circ = -92\) kJ), predict the effect of (a) increasing pressure, (b) raising temperature, (c) removing \(\text{NH}_3\), (d) adding a catalyst.
+3. In Example 1, why did \(Q\) drop below \(K\) when hydrogen was added?
+4. In Example 2, compression made \(Q = 3.5 < K_p = 6.9\). Which direction did the reaction shift, and why does that relieve the stress?
+
+<details>
+<summary>Show answers</summary>
+
+1. When a system at equilibrium is disturbed, it shifts in the direction that counteracts the disturbance and restores equilibrium.
+2. (a) Forward — fewer gas moles on the product side; (b) reverse — exothermic reaction, \(K\) decreases; (c) forward — product removal makes \(Q < K\); (d) no shift — only a faster approach.
+3. Adding H₂ raised the denominator of the mass-action expression, lowering \(Q\) below \(K\), so the forward reaction must run to restore \(Q = K\).
+4. Forward, toward N₂O₄: dimerization consumes two NO₂ per N₂O₄ formed, reducing the gas moles and partially offsetting the pressure increase.
+
+</details>
+
+## Related Topics
+
+- Previous: [Equilibrium Constants](02-equilibrium-constants.md)
+- Next: [Equilibrium Calculations](04-equilibrium-calculations.md)
+- Related: [Equilibrium Constants](02-equilibrium-constants.md)
+- Related: [Equilibrium Calculations](04-equilibrium-calculations.md)
+- Related: [Fundamental Equilibrium Concepts chapter overview](../README.md)
+- Related: [Buffers in Chapter 14](../../chapter-14-acid-base-equilibria/06-buffers.md)
+- Related: [Acid-Base Equilibria in Chapter 14](../../chapter-14-acid-base-equilibria/README.md)
+
+## Source Notes
+
+- Book: Chemistry: Atoms First 2e
+- Local outline source: `chemistry-atoms-first-2e.md`
+- Official source URL: https://openstax.org/details/books/chemistry-atoms-first-2e/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Equilibrium data: \(K_c = 50.2\) at 445 °C for \(\text{H}_2 + \text{I}_2 \rightleftharpoons 2\text{HI}\) and \(K_p = 0.14\) atm at 25 °C for \(\text{N}_2\text{O}_4 \rightleftharpoons 2\text{NO}_2\) (so \(K_p = 6.9\) atm⁻¹ for the dimerization direction) are widely used textbook values; \(\Delta H^\circ = -57.2\) kJ for dimerization of \(\text{NO}_2\) and \(\Delta H^\circ = -92\) kJ for ammonia synthesis are standard reference values, with small variations among tables.
+- Last updated: 2026-08-16

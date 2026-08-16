@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:electrochemistry:spontaneity-and-cell-potential",
+  "slug": "spontaneity-and-cell-potential",
+  "title": "Spontaneity and Cell Potential",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:electrochemistry",
+    "slug": "electrochemistry",
+    "title": "Electrochemistry",
+    "order": 8
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "A redox reaction is spontaneous when its cell potential is positive: **E°cell > 0 ⇒ spontaneous**. This is the electrochemical restatement of ΔG° < 0, since ΔG° = −nFE°cell. Whenever you pair a stronger oxidizing agent (higher E°) with a stronger reducing agent (lower E°), the spontaneous direction is the one that yields a positive E°cell. The sign of E°cell therefore predicts, in one step, which way a redox reaction runs and whether it can power a battery.",
+    "whyItMatters": "The sign of E°cell is the fastest, most portable way to answer \"does this redox reaction go?\" — the question behind battery design, corrosion prediction (which metals will be attacked), metal extraction, and the selection of oxidizing/reducing agents in synthesis and analysis. It turns a table of numbers into a predictive tool.",
+    "learningObjectives": "- State the criterion that E°cell > 0 corresponds to a spontaneous reaction.\n- Predict whether a proposed redox reaction is spontaneous using reduction potentials.\n- Relate the sign of E°cell to the sign of ΔG° and the size of K.\n- Identify the strongest oxidizing and reducing agents from a potential table.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA redox reaction is spontaneous when its cell potential is positive: **E°cell > 0 ⇒ spontaneous**. This is the electrochemical restatement of ΔG° < 0, since ΔG° = −nFE°cell. Whenever you pair a stronger oxidizing agent (higher E°) with a stronger reducing agent (lower E°), the spontaneous direction is the one that yields a positive E°cell. The sign of E°cell therefore predicts, in one step, which way a redox reaction runs and whether it can power a battery.\n\n### Key Ideas\n\n- **Positive voltage = spontaneous.** E°cell > 0 ⇔ ΔG° < 0 ⇔ K > 1.\n- **Oxidizer reduced, reducer oxidized.** In the spontaneous direction, the species with the higher E° is reduced and the lower E° is oxidized.\n- **Same sign as ΔG° flipped.** Because ΔG° = −nFE°cell, a positive E°cell is a negative ΔG°.\n- **Bigger E°cell ⇒ farther from equilibrium.** Larger voltage means larger K and a more product-favored reaction.\n- **Practical prediction tool.** \"Will Zn dissolve in acid? Will Cu plate onto Fe?\" are answered by computing E°cell.\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| E°cell | Standard cell potential | V |\n| ΔG° | Standard free-energy change | J/mol |\n| n | Moles of electrons transferred | mol e⁻ |\n| F | Faraday constant = 96,485 C/mol e⁻ | C/mol |\n| K | Equilibrium constant | dimensionless |\n\nE°cell = E°cathode − E°anode, and ΔG° = −nFE°cell.\n\n### How It Works\n\n1. Write the two half-reactions as reductions and note their E° values.\n2. Assign the more positive E° to the cathode (reduction) and the other, reversed, to the anode (oxidation).\n3. Compute E°cell = E°cathode − E°anode.\n4. If E°cell > 0, the reaction as written is spontaneous; if E°cell < 0, the reverse is spontaneous; if E°cell = 0, the system is at equilibrium.\n\n### Worked Example\n\n**Will solid zinc spontaneously reduce Cu²⁺ to Cu in aqueous solution?**\n\nCandidate reaction: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)\n\n- Cathode (reduction): Cu²⁺ + 2 e⁻ → Cu, E° = +0.34 V\n- Anode (oxidation): Zn → Zn²⁺ + 2 e⁻ (reverse of −0.76 V)\n- E°cell = +0.34 − (−0.76) = **+1.10 V**\n\nE°cell > 0, so yes — zinc spontaneously reduces Cu²⁺. (This is why a zinc strip dipped in blue CuSO₄ solution becomes coated with reddish copper while the solution fades.)\n\nFor contrast, consider Cu(s) + Zn²⁺(aq) → Cu²⁺(aq) + Zn(s). Here E°cell = −1.10 V, so that direction is nonspontaneous — copper will *not* reduce Zn²⁺.",
+    "howItWorks": "1. Write the two half-reactions as reductions and note their E° values.\n2. Assign the more positive E° to the cathode (reduction) and the other, reversed, to the anode (oxidation).\n3. Compute E°cell = E°cathode − E°anode.\n4. If E°cell > 0, the reaction as written is spontaneous; if E°cell < 0, the reverse is spontaneous; if E°cell = 0, the system is at equilibrium.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- E°cell > 0 ⇒ spontaneous; E°cell < 0 ⇒ nonspontaneous; E°cell = 0 ⇒ equilibrium.\n- E°cell > 0 ⇔ ΔG° < 0 ⇔ K > 1.\n- Spontaneous direction: higher-E° species is reduced, lower-E° species is oxidized.\n- ΔG° = −nFE°cell (negative when E°cell positive).\n- The magnitude of E°cell (not just sign) indicates how far the equilibrium lies.",
+    "commonConfusions": "- **\"E°cell negative means it goes forward slowly.\"** — Wrong. Negative E°cell means the reaction as written is nonspontaneous; its reverse is spontaneous.\n- **\"Spontaneity depends on current or resistance.\"** — Wrong. The thermodynamic direction depends only on E°cell; current/resistance affect how fast, not which way.\n- **\"E°cell = 0 means nothing happens.\"** — Wrong. It means the system is at equilibrium (ΔG° = 0, K = 1).\n- **\"A large positive E°cell guarantees a fast reaction.\"** — Wrong. Voltage says nothing about kinetics.\n- **\"Sign convention flips for electrolytic cells.\"** — The *spontaneity* test is the same; electrolytic cells simply run a nonspontaneous reaction with external power.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nA battery works only if it has a \"natural downhill\" for electrons. The cell potential is like a slope: positive voltage means downhill (electrons flow on their own — spontaneous), negative means uphill (you'd have to push — nonspontaneous). So before building a battery, you just check the sign: if the slope is downhill, it runs; if uphill, you've written the reaction backwards. (The limit: a positive E°cell tells you the reaction is *thermodynamically* downhill, but like a ball on a slope, it may still need a little nudge to start.)",
+    "quickReview": "- E°cell > 0 ⇒ spontaneous (ΔG° < 0, K > 1).\n- Spontaneous direction reduces the higher-E° species.\n- E°cell = E°cathode − E°anode.\n- Sign predicts direction; magnitude predicts how product-favored.\n- ΔG° = −nFE°cell.",
+    "workedExamples": "### Worked Example\n\n**Will solid zinc spontaneously reduce Cu²⁺ to Cu in aqueous solution?**\n\nCandidate reaction: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)\n\n- Cathode (reduction): Cu²⁺ + 2 e⁻ → Cu, E° = +0.34 V\n- Anode (oxidation): Zn → Zn²⁺ + 2 e⁻ (reverse of −0.76 V)\n- E°cell = +0.34 − (−0.76) = **+1.10 V**\n\nE°cell > 0, so yes — zinc spontaneously reduces Cu²⁺. (This is why a zinc strip dipped in blue CuSO₄ solution becomes coated with reddish copper while the solution fades.)\n\nFor contrast, consider Cu(s) + Zn²⁺(aq) → Cu²⁺(aq) + Zn(s). Here E°cell = −1.10 V, so that direction is nonspontaneous — copper will *not* reduce Zn²⁺.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 17.4 \"Potential, Free Energy, and Equilibrium.\" https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-4-potential-free-energy-and-equilibrium"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 17.3 \"Electrode and Cell Potentials.\" https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/17-electrochemistry/05-spontaneity-and-cell-potential.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

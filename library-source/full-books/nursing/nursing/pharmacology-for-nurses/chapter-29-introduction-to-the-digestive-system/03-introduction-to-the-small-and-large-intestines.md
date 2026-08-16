@@ -1,0 +1,136 @@
+---
+title: "Introduction to the Small and Large Intestines"
+subject: "Nursing"
+book: "Pharmacology for Nurses"
+chapter: "29: Introduction to the Digestive System"
+topic_number: "3"
+source: "pharmacology.md"
+tags:
+  - "introduction-to-the-small-and-large-intestines"
+  - "nursing"
+status: "complete"
+---
+
+# Introduction to the Small and Large Intestines
+
+> **Book:** [Pharmacology for Nurses](../../README.md)  
+> **Chapter:** [Chapter 29: Introduction to the Digestive System](../README.md)  
+> **Topic:** 3  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+The small and large intestines are where digestion finishes and where the body actually collects what it needs. The **small intestine** is a long, coiled tube (about 6 meters) with three regions — **duodenum, jejunum, and ileum** — and it is the main site of both chemical digestion and absorption. Its lining is folded into millions of finger-like projections called **villi**, each covered with even finer projections (microvilli, the "brush border"), giving it a surface area roughly the size of a tennis court. Pancreatic enzymes and bile finish breaking down food here, and the resulting nutrients, water, and electrolytes cross into the blood and lymph. The **large intestine** (colon) receives whatever is left, reabsorbs water and electrolytes, hosts a vast community of microbes, and forms and stores feces until defecation.
+
+For pharmacology, this is the topic that explains how drugs get into the body (most absorption happens in the small intestine), why some drugs are destroyed or altered before they reach the blood (digestive enzymes and the liver's first-pass effect), and where drugs like antidiarrheals, laxatives, and stool softeners act (Chapter 30).
+
+## Why This Matters
+
+Nearly every nutrient and most oral medications enter the body through the small intestine, so anything that damages or shortens it — celiac disease, Crohn's disease, intestinal resection, or rapid motility during diarrhea — changes both nutrition and drug absorption. The nurse meets the intestines in daily care: listening to bowel sounds, assessing stool, managing diarrhea and constipation, caring for ostomies, preparing patients for colonoscopy (bowel prep), and teaching about the gut microbiome. The colon's role in water balance explains why diarrhea is dangerous (fluid and electrolyte loss, especially in older adults and children) and why constipation is so common in hospitalized patients. On exams, questions about where a nutrient or drug is absorbed, what first-pass metabolism does, and why diarrhea causes dehydration all trace back to this topic.
+
+## Core Concepts
+
+### The small intestine: built for surface area
+
+The small intestine maximizes contact between chyme and the absorptive surface in three ways. The wall is thrown into circular folds (**plicae circulares**); the mucosa is covered with **villi**, each a tiny finger of tissue containing a capillary network and a **lacteal** (a lymph capillary); and every villus cell carries **microvilli**, the brush border that hugely increases surface area. This design means the small intestine can absorb an enormous amount of nutrient and drug in a short time. The duodenum also receives the **common bile duct** (bile from the liver/gallbladder) and the **pancreatic duct** (enzymes and bicarbonate) — digestion is finished in the first section, while the jejunum and ileum do most of the absorbing.
+
+### Digestion finished: pancreatic enzymes and bile
+
+The pancreas secretes enzymes that work in the small intestine's neutral-to-slightly-alkaline environment: **pancreatic amylase** (starch), **pancreatic lipase** (fats), and **proteases** such as trypsin (proteins), all delivered with **bicarbonate** that neutralizes the acidic chyme arriving from the stomach. **Bile**, produced by the liver and stored in the gallbladder, does not digest fat chemically — it **emulsifies** it, breaking large fat globules into tiny droplets so lipase can attack them. Brush-border enzymes on the microvilli finish the job, splitting disaccharides and small peptides into absorbable monosaccharides and amino acids. Without lipase or bile working properly, fat is not absorbed and appears in the stool (steatorrhea).
+
+### Absorption: how nutrients and drugs cross the wall
+
+Carbohydrates and proteins are absorbed as monosaccharides and amino acids into the **blood capillaries** of the villi and travel via the portal vein to the liver — this is the **first-pass effect**: the liver processes much of what is absorbed before it reaches the general circulation, which is why some oral drugs need higher doses than intravenous ones and why some drugs are destroyed on first pass and must be given another way. Fats take a different route: they are packaged with bile into **micelles**, absorbed into the cells, reassembled into **chylomicrons**, and carried into the **lacteals** and lymphatic system, eventually entering the blood via the thoracic duct. **Vitamin B12** is absorbed specifically in the **ileum**, but only when bound to intrinsic factor from the stomach — which is why ileal resection or loss of intrinsic factor both cause B12 deficiency. Water and electrolytes are absorbed throughout, driven by the osmotic gradients the absorbed nutrients create.
+
+### The large intestine: water recovery and waste formation
+
+The large intestine, about 1.5 meters long, runs from the **cecum** (where the ileum empties through the ileocecal valve) through the **ascending, transverse, descending, and sigmoid colon** to the **rectum** and **anus**. Its main job is to **reabsorb water and electrolytes**, turning the liquid residue of the small intestine into semisolid **feces**. It also houses the **gut microbiome** — trillions of bacteria that ferment some undigested fiber, produce some vitamins, and influence immunity and health. The colon's motility is slow: **haustral contractions** mix the contents, and a few times a day, **mass movements** push fecal material toward the rectum. When the rectum stretches, the **defecation reflex** is triggered, and conscious control via the external anal sphincter decides when elimination occurs.
+
+### Diarrhea and constipation: the two ends of the balance
+
+**Diarrhea** occurs when the small or large intestine fails to reabsorb enough water — because of infection, rapid motility that gives absorption no time, osmotic load from undigested material, or secretions from damaged mucosa. The result is watery stool and the risk of **dehydration and electrolyte loss**, especially in infants, older adults, and people with chronic illness. **Constipation** occurs when colonic transit is too slow or water is over-reabsorbed, producing hard, dry stool — common with low fiber, low fluid intake, immobility, opioid use, and many medications. Both conditions are targets of drug therapy (antidiarrheals and laxatives, Chapter 30), and both are shaped by the same physiology: the colon's water balance and the gut's motility.
+
+### The intestines in nursing care
+
+Nurses assess the abdomen, auscultate bowel sounds, monitor stool frequency and character, and track intake and output. **Ostomy care** (colostomy or ileostomy) requires knowing which part of the bowel empties through the stoma: an ileostomy output is more liquid, a colostomy output more formed. **Bowel preparation** before colonoscopy empties the colon per protocol, and nurses teach patients about the prep and monitor for dehydration. After abdominal surgery, **ileus** (temporary loss of motility) is watched for by checking bowel sounds, flatus, and tolerance of oral intake. Person-first language applies throughout — nurses care for "a person with a colostomy," not "a colostomy patient." Scope note: ostomy management, bowel-prep teaching, and diet guidance follow institutional policy and prescriber orders; specific laxative or antidiarrheal choices are directed by providers and current references.
+
+## ELI-10: Explain Like I'm 10
+
+Your small intestine is like a long, velvety conveyor belt with millions of tiny straws that soak up the good parts of your food — sugars, proteins, fats, vitamins, and water — and send them into your body. Whatever is left over moves to the big intestine, which acts like a sponge that squeezes out most of the water and packs the rest into poop. That's why diarrhea (no time to soak up water) makes you dehydrated, and why most pills are absorbed in the small intestine before the liver takes a first look at them.
+
+## High-Yield Points
+
+- The **small intestine is the main site of digestion and absorption**; the large intestine mainly reabsorbs water and forms feces.
+- Surface area comes from **plicae circulares → villi → microvilli (brush border)** — the "tennis court" design.
+- **Bile emulsifies fat** (does not digest it); **pancreatic lipase** digests it; undigested fat → steatorrhea.
+- Absorbed nutrients and most oral drugs go **portal vein → liver (first-pass effect)**; fats go via **lacteals → lymph**.
+- **Vitamin B12 is absorbed in the ileum and needs intrinsic factor** — ileal resection or lost intrinsic factor both cause B12 deficiency.
+- **Diarrhea = failed water reabsorption → dehydration/electrolyte loss**, especially dangerous in infants and older adults.
+- **Constipation = slow colonic transit/over-reabsorption of water** — worsened by low fiber, low fluid, immobility, and opioids.
+- The **gut microbiome** lives in the colon, ferments fiber, and influences health; antibiotics can disrupt it.
+- Bowel sounds, stool character, ostomy output, and ileus after surgery are everyday nursing assessments.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Villi | Finger-like projections of the small-intestine mucosa | Multiply the absorptive surface; contain blood capillaries and lacteals |
+| Microvilli (brush border) | Tiny projections on villus cells | Final digestion and absorption happen at this surface |
+| Duodenum / jejunum / ileum | The three regions of the small intestine | Bile and pancreatic enzymes enter in the duodenum; B12 absorbs in the ileum |
+| Emulsification | Breaking fat into tiny droplets by bile | Lets lipase digest fat efficiently |
+| Lacteal | A lymph capillary inside each villus | Absorbed fats enter lymph here, bypassing the liver's first pass |
+| First-pass effect | Liver processing of absorbed material before it reaches general circulation | Explains dose differences and why some drugs cannot be given orally |
+| Intrinsic factor | Stomach protein required for ileal B12 absorption | Deficiency causes pernicious anemia |
+| Microbiome | The community of microbes in the colon | Ferments fiber, produces some vitamins, influences health |
+| Mass movements | Strong colonic contractions that push feces toward the rectum | Trigger the defecation reflex and the urge to stool |
+| Steatorrhea | Fatty, greasy, floating stool | Signals fat digestion/absorption failure (lipase or bile problem) |
+
+## Example: Clinical Scenario
+
+Mr. Nguyen, age 68, is recovering from surgery that removed a portion of his ileum. The nurse reviews his plan: he will be monitored for nutritional status, and his provider orders vitamin B12 monitoring because the ileum is where B12 is absorbed with intrinsic factor. The nurse explains this to Mr. Nguyen in plain language: "Your stomach makes a key, and the end of your small intestine is the lock — surgery removed part of the lock, so we'll keep an eye on that vitamin." Later that day, he develops loose stools; the nurse assesses for dehydration (skin turgor, mucous membranes, urine output), monitors his intake and output, and reports the change — diarrhea through a shortened intestine can quickly deplete fluids. She documents stool frequency and consults the care team about hydration and any ordered management. The teaching point: the nurse linked anatomy (ileal resection) to a specific nutrient risk (B12) and to the general danger of diarrhea (water loss), turning physiology into patient-specific monitoring.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Small intestine digestion | Stomach digestion | The stomach begins protein digestion; almost all digestion and absorption of nutrients happens in the small intestine |
+| Emulsification | Digestion of fat | Bile emulsifies (breaks fat into droplets); lipase digests it. Bile has no digestive enzyme of its own |
+| Blood capillaries vs. lacteals | Same absorption route | Carbohydrates/proteins → capillaries → portal vein → liver (first pass); fats → lacteals → lymph |
+| Diarrhea | "Just loose stool" | Diarrhea is a water-balance failure with real dehydration/electrolyte risk, especially in infants and older adults |
+| Constipation | "Just not going today" | Constipation is defined by hard, difficult stool and slow transit — not simply frequency |
+| Ileostomy output | Colostomy output | Ileostomy output is liquid (no colon water reabsorption); colostomy output is more formed |
+| The microbiome | Pathogens only | The microbiome is mostly beneficial (fiber fermentation, vitamins, immunity); disruption (e.g., antibiotics) can cause problems |
+
+## Quick Review
+
+1. Why is the small intestine so effective at absorption? Name the three structural adaptations in order.
+2. What is the first-pass effect, and why does it matter for oral drug dosing?
+3. How do fats differ from carbohydrates and proteins in their absorption route?
+4. Why is vitamin B12 absorption affected by both stomach disease and ileal surgery?
+5. Why does diarrhea cause dehydration, and which patients are at greatest risk?
+
+<details>
+<summary>Show answers</summary>
+
+1. Plicae circulares (circular folds) → villi → microvilli (brush border), which together multiply the absorptive surface area enormously.
+2. Absorbed material travels from the gut via the portal vein to the liver, which processes much of it before it reaches the general circulation; this reduces the amount of active drug available, so some drugs need higher oral doses and some are given by other routes.
+3. Carbohydrates and proteins are absorbed into blood capillaries and go to the liver; fats are absorbed as micelles, repackaged into chylomicrons, and carried by lacteals into the lymphatic system.
+4. Because B12 must bind to intrinsic factor (made in the stomach) and is absorbed only in the ileum — a problem at either end blocks absorption.
+5. Diarrhea means the intestine fails to reabsorb water, so water and electrolytes leave the body in stool; infants and older adults have smaller reserves and are at greatest risk.
+
+</details>
+
+## Related Topics
+
+- Previous: [Introduction to the Esophagus and Stomach](02-introduction-to-the-esophagus-and-stomach.md)
+- Related: [Introduction to the Gastrointestinal System and Oral Cavity](01-introduction-to-the-gastrointestinal-system-and-oral-cavity.md) · [Antidiarrheals](../chapter-30-gastrointestinal-disorder-drugs/02-antidiarrheals.md) · [Laxatives and Stool Softeners](../chapter-30-gastrointestinal-disorder-drugs/03-laxatives-and-stool-softeners.md)
+- Next: End of chapter
+- Chapter overview: [Introduction to the Digestive System](../README.md)
+
+## Source Notes
+
+- Book: Pharmacology for Nurses
+- Local outline source: `pharmacology.md`
+- Official source URL: https://openstax.org/details/books/pharmacology/
+- Content type: Original educational study guide based on OpenStax outline structure. Educational draft only — no treatment recommendations; bowel-prep protocols, ostomy management, and hydration/electrolyte replacement follow institutional policy and prescriber orders and must be verified against current references.
+- Last updated: 2026-08-15

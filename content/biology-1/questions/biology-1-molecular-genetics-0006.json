@@ -1,0 +1,39 @@
+{
+  "id": "biology-1-molecular-genetics-0006",
+  "subject": "biology-1",
+  "lesson": "molecular-genetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A **frameshift mutation** inserts a single extra nucleotide into the middle of a gene's coding sequence. What is the most likely consequence for the protein that is produced?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Only the single amino acid at the insertion site changes"
+    },
+    {
+      "id": "b",
+      "text": "Every amino acid after the insertion point changes, and a premature stop codon may appear"
+    },
+    {
+      "id": "c",
+      "text": "The protein sequence is completely unchanged because the mutation is silent"
+    },
+    {
+      "id": "d",
+      "text": "Only the stop codon is removed, so the protein becomes longer"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Adding one nucleotide shifts the reading frame, so every codon downstream of the insertion is regrouped into different triplets and codes for different amino acids, often producing an early stop codon. A describes the effect of a missense point mutation, which changes only one amino acid. C describes a silent mutation, which needs no frame shift, and D misplaces the damage at the end of the message.",
+  "difficulty": "unknown",
+  "tags": [
+    "frameshift",
+    "mutation",
+    "consequences"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-2692bbd1e4c2f67c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

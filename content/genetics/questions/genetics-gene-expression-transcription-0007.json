@@ -1,0 +1,38 @@
+{
+  "id": "genetics-gene-expression-transcription-0007",
+  "subject": "genetics",
+  "lesson": "gene-expression-transcription",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A single eukaryotic gene produces three different mRNAs in three different tissues, and each mRNA is translated into a different protein. What mechanism accounts for this?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The gene is transcribed in different directions in different tissues."
+    },
+    {
+      "id": "b",
+      "text": "RNA polymerase reads a different template strand in each tissue."
+    },
+    {
+      "id": "c",
+      "text": "Each mRNA is produced from a different allele of the gene."
+    },
+    {
+      "id": "d",
+      "text": "Alternative splicing joins different combinations of exons from the same pre-mRNA."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Alternative splicing allows the same pre-mRNA to be spliced into different exon combinations, so one gene can encode multiple proteins in different cell types. A is wrong because a gene is always transcribed in one direction from the same promoter. B is wrong because the same template strand is read in every tissue. C is wrong because one gene, not several alleles, is the source of all three mRNAs.",
+  "difficulty": "unknown",
+  "tags": [
+    "alternative",
+    "splicing"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-d70bead5ed76165d",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

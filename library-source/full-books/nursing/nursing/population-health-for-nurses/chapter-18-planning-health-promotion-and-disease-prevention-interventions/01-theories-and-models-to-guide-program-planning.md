@@ -1,0 +1,145 @@
+---
+title: "Theories and Models to Guide Program Planning"
+subject: "Nursing"
+book: "Population Health for Nurses"
+chapter: "18: Planning Health Promotion and Disease Prevention Interventions"
+topic_number: "1"
+source: "population-health.md"
+tags:
+  - "theories-and-models-to-guide-program-planning"
+  - "nursing"
+status: "complete"
+---
+
+# Theories and Models to Guide Program Planning
+
+> **Book:** [Population Health for Nurses](../../README.md)  
+> **Chapter:** [Chapter 18: Planning Health Promotion and Disease Prevention Interventions](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Assessment told the team *what* is wrong and *who* is affected; the community nursing diagnosis named the risk and its drivers. Now comes the question Chapter 18 answers: **what are we actually going to do, and how will we do it well?** The answer begins with planning — and planning begins with choosing a **theoretical framework or model** to guide the work.
+
+A **program** is an organized set of activities designed to achieve an intended health outcome — a walking program, a vaccination campaign, a community garden project. **Program planning** is the blueprint phase: selecting and sequencing activities, coordinating resources, and defining how success will be recognized. A theory explains *why* people and communities change; a model turns that explanation into a step-by-step planning structure. This topic surveys the most common planning frameworks — the Community Action Model, PRECEDE-PROCEED, PATCH, and Intervention Mapping — plus **logic models**, the visual tool that ties a program's resources, activities, and results together. None is "the right model" for every situation; the nurse matches the model to the problem, the population, and the community's context.
+
+## Why This Matters
+
+Programs planned without theory are shots in the dark. Money is spent, activities happen, and nobody can say why they should work — or why they failed. A theoretical framework forces the team to make its assumptions explicit: *we believe that if we increase access to fresh food (enabling factor), more families will eat more vegetables (behavior), and diabetes risk will fall (outcome).* Those assumptions can be tested and refined. Funders increasingly expect logic models and theory-based rationales in proposals; exams and accreditation frameworks expect nurses to *apply* planning models, not just describe them. Most importantly, a well-planned program is an ethical program — it uses scarce resources where evidence and reasoning say they will help, and it can honestly report whether it helped.
+
+## Core Concepts
+
+### What a theoretical framework does in planning
+
+A framework provides a systematic method to develop, implement, and evaluate a program. It answers questions the team might otherwise skip: Who should be at the planning table? What must we understand before choosing activities? What will we measure, and when? The assessment frameworks from Chapter 17 (MAPP, the Community Health Assessment Toolkit, CHANGE) guide *assessment*; the planning models in this topic take over after the diagnosis, guiding *intervention design, implementation, and evaluation*. Teams often combine tools — using PRECEDE-PROCEED for the overall arc and a logic model to visualize the program.
+
+### Community Action Model (Healthy Places by Design)
+
+The Community Action Model centers on **sustained change** through community capacity building. Six essential practices weave through every stage: a health equity focus, facilitative leadership, a culture of learning, strategic communication, sustainable thinking, and community engagement. Its action cycle is the **"3P" cycle**: **Partner** (build relationships with those who will shape and sustain the work), **Prepare** (develop capacity, plans, and resources), and **Progress** (implement, learn, adjust). The model fits when the goal is lasting change and the community's own organizations must carry the work forward after the program ends.
+
+### PRECEDE-PROCEED
+
+PRECEDE-PROCEED is the most widely taught planning model in population health. Its name encodes both halves of the work.
+
+**PRECEDE** (Predisposing, Reinforcing, Enabling Constructs in Educational/Environmental Diagnosis and Evaluation) happens *before* the intervention. Its four phases: (1) define the outcome — assess what the community wants and needs; (2) identify the issue — select the most important problem an intervention can influence; (3) examine the **predisposing** (knowledge, beliefs, attitudes), **reinforcing** (rewards, social support), and **enabling** (skills, resources, access) factors that drive the behavior; (4) identify best-practice interventions.
+
+**PROCEED** (Policy, Regulatory, and Organizational Constructs in Educational and Environmental Development) guides implementation and evaluation through four phases: **implementation** (deliver as designed), **process evaluation** (is it being done as planned?), **impact evaluation** (did it change the targeted factors or behaviors?), and **outcome evaluation** (did it change the health problem itself?). PRECEDE-PROCEED's signature strength is forcing the team to understand *why* a behavior happens before choosing an intervention — a walk-to-school program will fail if the real barrier is a missing sidewalk.
+
+### PATCH (Planned Approach to Community Health)
+
+PATCH is a practical, worksheet-heavy model built on PRECEDE, designed for communities with less planning experience. It emphasizes five critical elements: community participation, data-driven development, a comprehensive health promotion strategy, evaluation for timely feedback, and building community capacity. Its five phases: (1) mobilize the community; (2) collect and organize data; (3) choose health priorities; (4) develop a comprehensive intervention plan; (5) evaluate. PATCH's guidance to start simple and combine **educational, policy, and environmental strategies** — working through schools, work sites, and health systems — is a useful reminder that single-strategy programs rarely produce population-level change.
+
+### Intervention Mapping
+
+Intervention Mapping (IM) is the most rigorous of the models — a six-step, theory-based protocol: (1) **logic model of the problem** (assemble the team, use the assessment, map the problem's causes); (2) **logic model of change** (identify determinants to target, define outcomes and objectives); (3) **program design** (choose evidence-based change methods and delivery formats); (4) **program production** (draft, pretest, refine materials); (5) **implementation plan** (assign responsibilities, state performance objectives, deliver); (6) **evaluation plan** (develop indicators, then evaluate). IM's power is traceability — every component traces back through a chain of evidence to the original logic model. Its cost is complexity: it demands time, expertise, and often formal training, so teams weigh that against the stakes of the program.
+
+### Logic models
+
+A **logic model** is a one-page visual of the program's theory — the sequence from resources to results: **resources/inputs** (human, financial, organizational, and community assets), **activities** (the processes, tools, events, and actions the program carries out), **outputs** (direct products: sessions held, people reached), **outcomes** (changes in participants' knowledge, behavior, skills, or status; usually short- and long-term), and **impact** (the fundamental, longer-term change the program hopes to produce, often years away). The logic model connects the program's *need* (from the diagnosis) to its *results*. Logic models are used inside Intervention Mapping and are routinely required in grant proposals and evaluation plans.
+
+### Choosing a model for the situation
+
+The choice depends on the problem, the population, the team's experience, and available resources. A small community with limited planning experience may start with PATCH's worksheets; a large, funded initiative tackling a complex problem may justify Intervention Mapping; a long-term coalition seeking durable environmental change may build on the Community Action Model; a team wanting an evidence-based, end-to-end arc will reach for PRECEDE-PROCEED. Whatever the choice, the model should be selected *with* the program planning team — including the people who will deliver, fund, and benefit from the program — and should be visible in the plan itself, so reviewers and evaluators can see the reasoning.
+
+## ELI-10: Explain Like I'm 10
+
+Before building a treehouse, you draw a plan: what wood you need, what steps to do first, and what the finished treehouse should look like. Theories and models are the plan for health programs. They help the nurse decide why the program should work, what to do, who will do it, and how to check if it worked. A logic model is like a picture of the whole plan on one page: what we put in, what we do, what we get, and what changes for people.
+
+## High-Yield Points
+
+- A **program** is an organized set of activities for an intended outcome; **program planning** is the blueprint phase; **theories/models** make it systematic.
+- Planning models follow the diagnosis from Chapter 17 — they guide intervention design, implementation, and evaluation, not assessment.
+- **PRECEDE-PROCEED:** PRECEDE = 4 diagnosis phases before the intervention (outcome → issue → predisposing/reinforcing/enabling factors → best practices); PROCEED = implementation + process, impact, and outcome evaluation.
+- **Community Action Model:** 6 essential practices + the Partner–Prepare–Progress (3P) cycle; built for sustained community change.
+- **PATCH:** worksheet-based, for less-experienced communities; 5 phases; combines educational, policy, and environmental strategies.
+- **Intervention Mapping:** 6 rigorous steps from logic model of the problem to evaluation; every component traces back to evidence.
+- **Logic model = resources → activities → outputs → outcomes → impact**; one page showing the program's theory of change.
+- Match the model to the problem, population, team experience, and resources; choose it *with* the planning team.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Program | An organized set of related activities to achieve an intended health outcome | The unit of work in health promotion and disease prevention |
+| Program planning | Selecting and sequencing activities and resources to achieve outcomes | The blueprint phase that prevents wasted effort and money |
+| Theory | An explanation of why and how people and communities change | Provides the "we believe this will work because…" reasoning |
+| Model/framework | A step-by-step structure for developing, implementing, and evaluating a program | Keeps planning systematic and repeatable |
+| PRECEDE | Predisposing, Reinforcing, Enabling Constructs in Educational/Environmental Diagnosis and Evaluation | The assessment half of PRECEDE-PROCEED — understand behavior before intervening |
+| PROCEED | Policy, Regulatory, and Organizational Constructs in Educational and Environmental Development | The implementation/evaluation half — do it, then check process, impact, outcomes |
+| Predisposing factor | Knowledge, beliefs, attitudes that shape a behavior | Tells you what education might change |
+| Enabling factor | Skills, resources, access that make a behavior possible | Tells you what access and environmental changes are needed |
+| Reinforcing factor | Rewards and social support that sustain a behavior | Tells you what support systems to build |
+| Logic model | A visual chain of resources → activities → outputs → outcomes → impact | One-page theory of change; the standard planning and evaluation tool |
+
+## Example / Scenario
+
+After the CHA, a county health department team writes a community nursing diagnosis: *Risk of physical inactivity among families in Kenton County related to limited bike infrastructure, low bike-safety knowledge, and lack of access to affordable equipment.* They select PRECEDE-PROCEED and work the PRECEDE phases: the desired outcome (more active families), the priority issue (inactivity linked to biking barriers), and the factors — predisposing (families think biking is unsafe), enabling (few bike paths, no helmets or bikes in many homes), reinforcing (no biking culture or social groups). For PROCEED, they implement a family bike program: safety classes (predisposing), a bike-lending library and new trail connections (enabling), and group rides with peer mentors (reinforcing). They plan process evaluation (were classes held?), impact evaluation (did knowledge, helmet use, and riding time change?), and outcome evaluation (did activity levels change?). They also build a logic model: inputs (grant, YMCA staff, volunteers) → activities (classes, group rides, helmet distribution) → outputs (families served) → short-term outcomes (safety knowledge, helmet use) → long-term outcomes (minutes of activity per week) → impact (reduced inactivity and chronic disease risk). Every funding report and evaluation question now has an answer because the planning was theory-driven from the start.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Theory | Model | A theory explains *why* change happens; a model is a *planning structure*. Models often embed theories |
+| Assessment models (Chapter 17) | Planning models (Chapter 18) | CHA frameworks organize assessment; planning models guide intervention design, implementation, and evaluation |
+| PRECEDE | PROCEED | PRECEDE diagnoses before the intervention; PROCEED implements and evaluates after it |
+| Process evaluation | Outcome evaluation | Process asks "did we do it as planned?"; outcome asks "did it change the health problem?" (impact evaluation sits between) |
+| Outputs | Outcomes | Outputs are direct products (classes held, people reached); outcomes are changes in knowledge, behavior, or status |
+| One "right" model | Best-fit model | No model is universally correct; the choice depends on the problem, population, team experience, and resources |
+
+## Quick Review
+
+1. What is the difference between PRECEDE and PROCEED, and which comes first?
+2. Name the three categories of factors PRECEDE asks the team to examine, with one example of each.
+3. What are the five components of a logic model, in order?
+4. How does Intervention Mapping differ from PATCH in rigor and in the communities they suit?
+5. Why does the Community Action Model emphasize the "3P" cycle and the six essential practices?
+6. Why should a team choose the planning model before writing the program plan, rather than after?
+
+<details>
+<summary>Show answers</summary>
+
+1. PRECEDE is the diagnostic half — four phases before the intervention (define the outcome, identify the issue, examine predisposing/reinforcing/enabling factors, identify best practices). PROCEED is the implementation/evaluation half — implementation plus process, impact, and outcome evaluation. PRECEDE always comes first: understand the problem before intervening.
+2. Predisposing factors — knowledge, beliefs, attitudes (e.g., families believe biking is unsafe); enabling factors — skills, resources, access (e.g., no bike paths or helmets); reinforcing factors — rewards and social support (e.g., peer group rides that make biking a social norm).
+3. Resources/inputs → activities → outputs → outcomes → impact. Resources are what you invest; activities are what you do; outputs are the direct products; outcomes are changes in participants; impact is the fundamental long-term change.
+4. Intervention Mapping is a six-step, rigorous, evidence-traceable protocol requiring time and expertise; PATCH is a practical, worksheet-driven model for communities with less planning experience. Choose IM for complex, high-stakes programs with capacity; PATCH to get a capable program started with modest resources.
+5. Because the model targets *sustained* change: the six essential practices keep the work values-driven, while the Partner–Prepare–Progress cycle builds the relationships, capacity, and learning loops needed for the community to carry the work forward after external support ends.
+6. Because the model determines what must be assessed, what the intervention includes, what is measured, and how evaluation is structured. Choosing the model first forces explicit assumptions and coherent planning; picking a model afterward means retrofitting a label onto an unstructured plan.
+
+</details>
+
+## Related Topics
+
+- Previous: [Formulating a Nursing Community Diagnosis and Plan of Care](../chapter-17-assessment-analysis-and-diagnosis/04-formulating-a-nursing-community-diagnosis-and-plan-of-care.md)
+- Next: [Partnerships and Coalitions in Program Planning](02-partnerships-and-coalitions-in-program-planning.md)
+- Related: [Developing Program Goals and Measurable Objectives to Demonstrate Outcomes](03-developing-program-goals-and-measurable-objectives-to-demonstrate-outcomes.md)
+- Related: [Planning Health Promotion and Disease Prevention Interventions chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Population Health for Nurses
+- Local outline source: `population-health.md`
+- Official source URL: https://openstax.org/details/books/population-health/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: Educational draft only. Model names and general phases reflect the widely published versions of these frameworks; specific editions, worksheets, and agency guidance change over time — verify against current official sources (e.g., NACCHO for MAPP, CDC, Healthy Places by Design, W. K. Kellogg Foundation logic model guide) before applying them. No clinical facts, doses, screening schedules, or treatment recommendations are included; population/community focus only. Scope of nursing practice varies by jurisdiction and institution; always consult the applicable nurse practice act and organizational policy.
+- Last updated: 2026-08-16

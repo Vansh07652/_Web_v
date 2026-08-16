@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:cell-communication-and-the-cell-cycle:cell-cycle",
+  "slug": "cell-cycle",
+  "title": "The Cell Cycle",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:cell-communication-and-the-cell-cycle",
+    "slug": "cell-communication-and-the-cell-cycle",
+    "title": "Cell Communication And The Cell Cycle",
+    "order": 5
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "The **cell cycle** is the ordered series of events by which a cell grows, duplicates its contents, and divides into two daughter cells. It has two broad parts: **interphase** (growth and DNA replication, taking up most of the cycle) and the **M phase** (mitosis and cytokinesis, when the cell actually divides). The goal is to produce two genetically identical daughter cells, each with a complete copy of the genome.",
+    "whyItMatters": "The cell cycle is the basis of growth, development, tissue repair, and reproduction. Getting it wrong — dividing too much, too little, or at the wrong time — underlies cancer (uncontrolled division), developmental defects, and many other diseases. Understanding the cycle's phases and checkpoints is the foundation for understanding how chemotherapies (which often target rapidly dividing cells) work.",
+    "learningObjectives": "- Name the phases of the cell cycle (G1, S, G2, M) and describe what happens in each.\n- Distinguish interphase from the mitotic (M) phase.\n- Explain the difference between a chromosome and a sister chromatid before and after S phase.\n- Describe cytokinesis and how it completes cell division.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe **cell cycle** is the ordered series of events by which a cell grows, duplicates its contents, and divides into two daughter cells. It has two broad parts: **interphase** (growth and DNA replication, taking up most of the cycle) and the **M phase** (mitosis and cytokinesis, when the cell actually divides). The goal is to produce two genetically identical daughter cells, each with a complete copy of the genome.\n\n### Key Concepts\n\n### Interphase (G1, S, G2)\n\nInterphase is the non-dividing portion of the cycle and typically occupies about 90% of the time. **G1 phase** (\"first gap\") is a period of growth, protein synthesis, and normal cell function; the cell prepares the machinery for DNA replication. **S phase** (\"synthesis\") is when the cell replicates its DNA — each chromosome is duplicated into two identical **sister chromatids**. **G2 phase** (\"second gap\") is a second growth/checkpoint period in which the cell produces proteins needed for mitosis (e.g., spindle components) and checks that replication is complete and undamaged.\n\n### M phase (mitosis + cytokinesis)\n\nThe **M phase** consists of **mitosis** (division of the nucleus and its duplicated chromosomes) and **cytokinesis** (division of the cytoplasm), producing two daughter cells. Mitosis itself is subdivided into prophase, prometaphase, metaphase, anaphase, and telophase (detailed in the Mitosis note).\n\n### Chromosomes vs. chromatids\n\nA **chromosome** is a single molecule of DNA wrapped around proteins. Before S phase, a cell in G1 has one copy of each chromosome (one chromatid per chromosome). After S phase, each chromosome consists of two identical **sister chromatids** joined at the **centromere**. The key point: the number of chromosomes does not change in S phase — each chromosome simply becomes a duplicated chromosome with two chromatids. Sister chromatids separate only during anaphase of mitosis, when each chromatid becomes an independent chromosome in a daughter cell.\n\n### The G0 state\n\nSome cells exit the cycle into a quiescent, non-dividing state called **G0**. Neurons and muscle cells are permanently in G0; other cells (e.g., liver cells) can re-enter the cycle if stimulated. G0 avoids endless division and is a normal part of cell-life regulation.\n\n### How It Works\n\nA cell in G1 grows and performs its job. When conditions are right and it receives the appropriate signals, it passes the G1 checkpoint and commits to division. In S phase, DNA polymerases copy every chromosome, producing two identical sister chromatids held together by **cohesin** proteins. In G2, the cell verifies replication and synthesizes the mitotic apparatus. During M phase, the mitotic spindle segregates one copy of each duplicated chromosome to each pole, then the cell splits in cytokinesis. The result: two daughter cells, each genetically identical to the parent and to each other, each back in G1 with single-chromatid chromosomes.",
+    "howItWorks": "A cell in G1 grows and performs its job. When conditions are right and it receives the appropriate signals, it passes the G1 checkpoint and commits to division. In S phase, DNA polymerases copy every chromosome, producing two identical sister chromatids held together by **cohesin** proteins. In G2, the cell verifies replication and synthesizes the mitotic apparatus. During M phase, the mitotic spindle segregates one copy of each duplicated chromosome to each pole, then the cell splits in cytokinesis. The result: two daughter cells, each genetically identical to the parent and to each other, each back in G1 with single-chromatid chromosomes.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Interphase = G1 + S + G2 (≈90% of the cycle); M phase = mitosis + cytokinesis.\n- DNA replicates in **S phase**; each chromosome becomes two sister chromatids.\n- Sister chromatids are joined at the centromere and are genetically identical.\n- Chromosome number is unchanged by S phase — only the amount of DNA doubles.\n- M phase divides the nucleus (mitosis) and then the cytoplasm (cytokinesis).\n- G0 is a non-dividing resting state (neurons, muscle cells).\n- Checkpoints at G1, G2, and M regulate progression (see the Regulation and Cancer note).",
+    "commonConfusions": "- **\"S phase adds chromosomes.\"** Wrong — chromosome number stays the same; each chromosome is duplicated into two chromatids. What doubles is DNA content and chromatid number.\n- **\"Interphase is a resting phase.\"** Wrong — it is the busiest part of the cycle (growth and DNA replication); only G0 cells are truly \"resting.\"\n- **\"Sister chromatids are two separate chromosomes.\"** Wrong — while joined at the centromere, the two chromatids together are still considered one duplicated chromosome.\n- **\"Mitosis and cytokinesis are the same thing.\"** Wrong — mitosis divides the nucleus/chromosomes; cytokinesis divides the cytoplasm, and they can be uncoupled (mitosis without cytokinesis gives a multinucleate cell).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture a cell as a factory that makes copies of itself. Most of the time (the **interphase** \"working day\"), the factory is doing its normal job and getting ready. During **S phase**, it photocopies its instruction manual — every page, so it now has two copies of the whole book (two **sister chromatids**). It's still one book per chapter, just each chapter now has two identical pages clipped together. In **M phase**, the factory splits everything into two brand-new, identical factories. So the secret is: copy the manual first, then split the factory. The analogy's limit: real DNA copying is chemically precise and checked for errors by the cell, unlike a photocopier.",
+    "quickReview": "- Cycle order: G1 → S → G2 → M (→ cytokinesis → two G1 daughter cells).\n- Interphase = growth + DNA replication; M phase = division.\n- DNA replication happens in S phase, creating sister chromatids.\n- One duplicated chromosome = two sister chromatids at one centromere.\n- Mitosis separates sister chromatids; cytokinesis splits the cytoplasm.\n- G0 = non-dividing state.\n- Two identical daughter cells result.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 10.1, \"Cell Division.\" https://openstax.org/books/biology-2e/pages/10-1-cell-division",
+        "url": "https://openstax.org/books/biology-2e/pages/10-1-cell-division"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 10.2, \"The Cell Cycle.\" https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+        "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle"
+      },
+      {
+        "text": "NCBI Bookshelf, *Molecular Biology of the Cell*, 4th ed. (Alberts et al.). https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 23
+  },
+  "aliases": [
+    {
+      "value": "cell-cycle",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "03-cell-cycle",
+      "kind": "source_file_stem",
+      "source_id": "biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:biology_notes:6075d8466ef4df69"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:biology_notes:6075d8466ef4df69"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:biology_notes:6075d8466ef4df69"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:biology_notes:6075d8466ef4df69"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/05-cell-communication-and-the-cell-cycle/03-cell-cycle.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# The Cell Cycle\n\n## Learning Goals\n\n- Name the phases of the cell cycle (G1, S, G2, M) and describe what happens in each.\n- Distinguish interphase from the mitotic (M) phase.\n- Explain the difference between a chromosome and a sister chromatid before and after S phase.\n- Describe cytokinesis and how it completes cell division.\n\n## Core Concept\n\nThe **cell cycle** is the ordered series of events by which a cell grows, duplicates its contents, and divides into two daughter cells. It has two broad parts: **interphase** (growth and DNA replication, taking up most of the cycle) and the **M phase** (mitosis and cytokinesis, when the cell actually divides). The goal is to produce two genetically identical daughter cells, each with a complete copy of the genome.\n\n## Key Concepts\n\n### Interphase (G1, S, G2)\n\nInterphase is the non-dividing portion of the cycle and typically occupies about 90% of the time. **G1 phase** (\"first gap\") is a period of growth, protein synthesis, and normal cell function; the cell prepares the machinery for DNA replication. **S phase** (\"synthesis\") is when the cell replicates its DNA — each chromosome is duplicated into two identical **sister chromatids**. **G2 phase** (\"second gap\") is a second growth/checkpoint period in which the cell produces proteins needed for mitosis (e.g., spindle components) and checks that replication is complete and undamaged.\n\n### M phase (mitosis + cytokinesis)\n\nThe **M phase** consists of **mitosis** (division of the nucleus and its duplicated chromosomes) and **cytokinesis** (division of the cytoplasm), producing two daughter cells. Mitosis itself is subdivided into prophase, prometaphase, metaphase, anaphase, and telophase (detailed in the Mitosis note).\n\n### Chromosomes vs. chromatids\n\nA **chromosome** is a single molecule of DNA wrapped around proteins. Before S phase, a cell in G1 has one copy of each chromosome (one chromatid per chromosome). After S phase, each chromosome consists of two identical **sister chromatids** joined at the **centromere**. The key point: the number of chromosomes does not change in S phase — each chromosome simply becomes a duplicated chromosome with two chromatids. Sister chromatids separate only during anaphase of mitosis, when each chromatid becomes an independent chromosome in a daughter cell.\n\n### The G0 state\n\nSome cells exit the cycle into a quiescent, non-dividing state called **G0**. Neurons and muscle cells are permanently in G0; other cells (e.g., liver cells) can re-enter the cycle if stimulated. G0 avoids endless division and is a normal part of cell-life regulation.\n\n## How It Works\n\nA cell in G1 grows and performs its job. When conditions are right and it receives the appropriate signals, it passes the G1 checkpoint and commits to division. In S phase, DNA polymerases copy every chromosome, producing two identical sister chromatids held together by **cohesin** proteins. In G2, the cell verifies replication and synthesizes the mitotic apparatus. During M phase, the mitotic spindle segregates one copy of each duplicated chromosome to each pole, then the cell splits in cytokinesis. The result: two daughter cells, each genetically identical to the parent and to each other, each back in G1 with single-chromatid chromosomes.\n\n## Why It Matters\n\nThe cell cycle is the basis of growth, development, tissue repair, and reproduction. Getting it wrong — dividing too much, too little, or at the wrong time — underlies cancer (uncontrolled division), developmental defects, and many other diseases. Understanding the cycle's phases and checkpoints is the foundation for understanding how chemotherapies (which often target rapidly dividing cells) work.\n\n## High-Yield Facts\n\n- Interphase = G1 + S + G2 (≈90% of the cycle); M phase = mitosis + cytokinesis.\n- DNA replicates in **S phase**; each chromosome becomes two sister chromatids.\n- Sister chromatids are joined at the centromere and are genetically identical.\n- Chromosome number is unchanged by S phase — only the amount of DNA doubles.\n- M phase divides the nucleus (mitosis) and then the cytoplasm (cytokinesis).\n- G0 is a non-dividing resting state (neurons, muscle cells).\n- Checkpoints at G1, G2, and M regulate progression (see the Regulation and Cancer note).\n\n## Eli Explains\n\nPicture a cell as a factory that makes copies of itself. Most of the time (the **interphase** \"working day\"), the factory is doing its normal job and getting ready. During **S phase**, it photocopies its instruction manual — every page, so it now has two copies of the whole book (two **sister chromatids**). It's still one book per chapter, just each chapter now has two identical pages clipped together. In **M phase**, the factory splits everything into two brand-new, identical factories. So the secret is: copy the manual first, then split the factory. The analogy's limit: real DNA copying is chemically precise and checked for errors by the cell, unlike a photocopier.\n\n## Common Confusions\n\n- **\"S phase adds chromosomes.\"** Wrong — chromosome number stays the same; each chromosome is duplicated into two chromatids. What doubles is DNA content and chromatid number.\n- **\"Interphase is a resting phase.\"** Wrong — it is the busiest part of the cycle (growth and DNA replication); only G0 cells are truly \"resting.\"\n- **\"Sister chromatids are two separate chromosomes.\"** Wrong — while joined at the centromere, the two chromatids together are still considered one duplicated chromosome.\n- **\"Mitosis and cytokinesis are the same thing.\"** Wrong — mitosis divides the nucleus/chromosomes; cytokinesis divides the cytoplasm, and they can be uncoupled (mitosis without cytokinesis gives a multinucleate cell).\n\n## Quick Review\n\n- Cycle order: G1 → S → G2 → M (→ cytokinesis → two G1 daughter cells).\n- Interphase = growth + DNA replication; M phase = division.\n- DNA replication happens in S phase, creating sister chromatids.\n- One duplicated chromosome = two sister chromatids at one centromere.\n- Mitosis separates sister chromatids; cytokinesis splits the cytoplasm.\n- G0 = non-dividing state.\n- Two identical daughter cells result.\n\n## Sources\n\n- OpenStax, *Biology 2e*, Ch. 10.1, \"Cell Division.\" https://openstax.org/books/biology-2e/pages/10-1-cell-division\n- OpenStax, *Biology 2e*, Ch. 10.2, \"The Cell Cycle.\" https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle\n- NCBI Bookshelf, *Molecular Biology of the Cell*, 4th ed. (Alberts et al.). https://www.ncbi.nlm.nih.gov/books/NBK21054/\n"
+}

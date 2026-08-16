@@ -1,0 +1,41 @@
+{
+  "id": "genetics-population-genetics-and-evolution-0011",
+  "subject": "genetics",
+  "lesson": "population-genetics-and-evolution",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation A population at Hardy Weinberg equilibrium has allele frequency q = 0.5 for allele *a*, so the genotype frequencies are 0.25 *AA*, 0.5 *Aa*, and 0.25 *aa*. The relative fitnesses are 1 for *AA*, 1 for *Aa*, and 0.6 for *aa*. After one generation of selection, what is the frequency of the *aa* genotype among surviving adults?",
+  "options": [
+    {
+      "id": "a",
+      "text": "0.15"
+    },
+    {
+      "id": "b",
+      "text": "0.25"
+    },
+    {
+      "id": "c",
+      "text": "0.5"
+    },
+    {
+      "id": "d",
+      "text": "1/6"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Each genotype contributes its frequency times its fitness: *AA* gives 0.25 x 1 = 0.25, *Aa* gives 0.5 x 1 = 0.5, and *aa* gives 0.25 x 0.6 = 0.15, for a surviving total of 0.9. The new *aa* frequency is 0.15/0.9 = 1/6. Option A is the *aa* contribution before renormalizing by the total, B ignores selection entirely, and C is the original allele frequency q rather than the postselection genotype frequency.",
+  "difficulty": "unknown",
+  "tags": [
+    "one",
+    "generation",
+    "selection",
+    "on",
+    "genotypes"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-c8080c5df327048e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-signaling:rtks",
+  "slug": "rtks",
+  "title": "Receptor Tyrosine Kinases (RTKs)",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-signaling",
+    "slug": "cell-signaling",
+    "title": "Cell Signaling",
+    "order": 6
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "Receptor tyrosine kinases (RTKs) are single-pass transmembrane proteins whose intracellular domain carries intrinsic tyrosine kinase activity. Ligand binding promotes receptor dimerization, which brings two kinase domains together so each phosphorylates tyrosines on the other (trans-autophosphorylation). The resulting phosphotyrosines are docking sites for intracellular proteins containing SH2 or PTB domains, which assemble signaling complexes that activate downstream pathways — most famously the Ras–MAPK pathway and the PI3K–Akt pathway. RTKs thus convert an extracellular binding event into a rich, branched intracellular response governing growth, survival, differentiation, and metabolism.",
+    "whyItMatters": "RTKs — EGFR/ErbB, PDGFR, insulin receptor, VEGFR, FGFR — control cell growth, survival, differentiation, and metabolism. Their dysregulation is central to cancer: overexpression (HER2 in breast cancer), activating mutations (EGFR in lung cancer), and gene fusions (e.g., BCR–ABL is a non-receptor tyrosine kinase with analogous activation). This makes RTKs the targets of major therapies, including trastuzumab (anti-HER2), imatinib (BCR–ABL), cetuximab (anti-EGFR), and erlotinib (EGFR kinase inhibitor). Insulin signaling — the paradigm RTK pathway — also underlies diabetes.",
+    "learningObjectives": "- Describe the domain architecture shared by receptor tyrosine kinases.\n- Explain how ligand binding drives dimerization and trans-autophosphorylation.\n- Explain how phosphotyrosine residues recruit intracellular signaling proteins.\n- Compare RTK signaling to GPCR signaling.\n- Give examples of RTKs and their ligands and of diseases caused by RTK defects.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nReceptor tyrosine kinases (RTKs) are single-pass transmembrane proteins whose intracellular domain carries intrinsic tyrosine kinase activity. Ligand binding promotes receptor dimerization, which brings two kinase domains together so each phosphorylates tyrosines on the other (trans-autophosphorylation). The resulting phosphotyrosines are docking sites for intracellular proteins containing SH2 or PTB domains, which assemble signaling complexes that activate downstream pathways — most famously the Ras–MAPK pathway and the PI3K–Akt pathway. RTKs thus convert an extracellular binding event into a rich, branched intracellular response governing growth, survival, differentiation, and metabolism.\n\n### Key Components\n\n- **Ligands**: Growth factors such as EGF, PDGF, NGF, FGF, insulin.\n- **Receptor**: Single-pass transmembrane protein with an extracellular ligand-binding domain, a transmembrane helix, and an intracellular tyrosine kinase domain.\n- **Dimerization**: Ligand-induced (or ligand-stabilized) receptor pairing.\n- **Trans-autophosphorylation**: Each kinase domain phosphorylates the partner receptor's tyrosines.\n- **Phosphotyrosine (pTyr)**: The docking mark read by SH2/PTB domains.\n- **SH2/PTB domains**: Modular binding domains that recognize pTyr in specific sequence contexts.\n- **Adaptors and effectors**: Grb2, SOS, PI3K, PLCγ, Src, STAT, and others recruited to pTyr sites.\n\n### Mechanism / How It Works\n\n1. **Ligand binding**: EGF or another growth factor binds the extracellular domain. Some ligands (EGF) cause a conformational change that exposes a dimerization interface; others (PDGF) are themselves dimeric and simply crosslink two receptors.\n2. **Dimerization**: Two receptor monomers associate, juxtaposing their kinase domains.\n3. **Trans-autophosphorylation**: Each kinase domain phosphorylates specific tyrosines on the *other* subunit (in cis for some regions). This activates the kinase fully and creates phosphotyrosine docking sites.\n4. **Recruitment**: Intracellular proteins bind the pTyr sites through SH2 or PTB domains. Grb2 (SH2–SH3–SH3) binds pTyr and, through its SH3 domains, recruits the GEF SOS, initiating Ras activation. PI3K binds pTyr and phosphorylates PIP2 to PIP3. PLCγ is recruited and activated to generate IP3/DAG.\n5. **Signal branching**: Multiple downstream cascades (Ras–MAPK, PI3K–Akt, PLCγ–Ca2+) are engaged in parallel, producing integrated outcomes such as proliferation and survival.\n6. **Termination**: Protein tyrosine phosphatases (e.g., PTP1B) remove phosphates; receptors are ubiquitinated (e.g., by Cbl) and internalized/degraded, damping the signal.\n\n### Energy and Directionality\n\nEvery phosphorylation step consumes ATP. Trans-autophosphorylation is effectively irreversible in the forward direction because it is paired with dephosphorylation by phosphatases — a separate, regulated reaction — so the cell pays ATP both to turn the signal on and (via receptor internalization and degradation) to clear it. The cascade is directional: extracellular ligand → conformational change → covalent modification (phosphorylation) → protein–protein interaction → downstream kinase cascades. Amplification occurs because one active receptor can phosphorylate many substrate molecules and recruit many signaling complexes before being downregulated.\n\n### Experimental Evidence / Technique\n\n- **Oncogenic forms**: v-ErbB (a truncated EGF receptor lacking the ligand-binding domain) is constitutively active, proving the extracellular domain normally restrains kinase activity — the first demonstration that RTK signaling drives cancer.\n- **Autophosphorylation assays**: Purified receptors incubated with [γ-32P]ATP become phosphorylated on tyrosine, confirming intrinsic kinase activity.\n- **Site-directed mutagenesis** of specific tyrosines ablates recruitment of specific SH2 proteins, mapping the docking code.\n- **Anti-phosphotyrosine immunoblotting and phospho-specific antibodies** (e.g., anti-pY1068 EGFR) monitor activation state in cells and clinical samples.",
+    "howItWorks": "1. **Ligand binding**: EGF or another growth factor binds the extracellular domain. Some ligands (EGF) cause a conformational change that exposes a dimerization interface; others (PDGF) are themselves dimeric and simply crosslink two receptors.\n2. **Dimerization**: Two receptor monomers associate, juxtaposing their kinase domains.\n3. **Trans-autophosphorylation**: Each kinase domain phosphorylates specific tyrosines on the *other* subunit (in cis for some regions). This activates the kinase fully and creates phosphotyrosine docking sites.\n4. **Recruitment**: Intracellular proteins bind the pTyr sites through SH2 or PTB domains. Grb2 (SH2–SH3–SH3) binds pTyr and, through its SH3 domains, recruits the GEF SOS, initiating Ras activation. PI3K binds pTyr and phosphorylates PIP2 to PIP3. PLCγ is recruited and activated to generate IP3/DAG.\n5. **Signal branching**: Multiple downstream cascades (Ras–MAPK, PI3K–Akt, PLCγ–Ca2+) are engaged in parallel, producing integrated outcomes such as proliferation and survival.\n6. **Termination**: Protein tyrosine phosphatases (e.g., PTP1B) remove phosphates; receptors are ubiquitinated (e.g., by Cbl) and internalized/degraded, damping the signal.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- RTKs are activated by **dimerization → trans-autophosphorylation** (not by a G protein).\n- Phosphotyrosine is the docking signal; **SH2 and PTB domains** read it.\n- Grb2 (SH2 + two SH3) links RTK → SOS → Ras (the Ras–MAPK route).\n- The insulin receptor arrives as a preformed dimer but still requires ligand-induced conformational change and autophosphorylation.\n- Negative regulation: tyrosine phosphatases, Cbl-mediated ubiquitination, and receptor endocytosis.",
+    "commonConfusions": "- **Tyrosine vs. serine/threonine kinases**: RTKs phosphorylate tyrosine; PKA, PKC, and MAP kinases are Ser/Thr kinases. Different enzyme classes, different targets.\n- **Autophosphorylation is trans, not cis**: One receptor phosphorylates its partner, which is why dimerization is required.\n- **RTK vs. GPCR**: RTKs are single-pass with intrinsic kinase activity; GPCRs are seven-pass and act through G proteins.\n- **SH2 reads pTyr, SH3 reads proline-rich motifs**: Grb2 uses its SH2 for the receptor and its SH3s for SOS.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture two workers on either side of a wall (the membrane). Outside, a delivery person (the growth factor) hands each worker a package that makes them grab hands through the wall. Once they are holding hands, each worker stamps a \"GO\" sticker (a phosphate) on the *other* worker's back. Those stickers are the real message: other workers inside the building only help people wearing the right sticker, so they rush over, read the sticker, and start a whole chain of work — building, dividing, staying alive. If someone sneaks in and puts stickers on the workers even without a delivery, the building starts growing out of control — that is what happens in many cancers. The analogy's limit: the \"stickers\" are covalent phosphate groups whose placement is read with exquisite sequence specificity, not a simple yes/no tag.",
+    "quickReview": "- Ligand → RTK dimerization → trans-autophosphorylation → pTyr docking sites.\n- SH2/PTB proteins bind pTyr → Grb2/SOS → Ras; PI3K → PIP3; PLCγ → IP3/DAG.\n- Off: phosphatases, ubiquitination, endocytosis.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 15, \"Receptor Tyrosine Kinases.\""
+      },
+      {
+        "text": "Lemmon, M. A. & Schlessinger, J., \"Cell signaling by receptor tyrosine kinases,\" *Cell* (2010)."
+      },
+      {
+        "text": "Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 16."
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"receptor tyrosine kinase.\""
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Chapter 9, \"Signaling Molecules and Cellular Receptors.\""
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/06-cell-signaling/09-rtks.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,41 @@
+{
+  "id": "genetics-human-genetics-and-medical-applications-0007",
+  "subject": "genetics",
+  "lesson": "human-genetics-and-medical-applications",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** pedigree The parents in the pedigree are unaffected and not related, and their son has Tay Sachs disease. What is the probability that his unaffected sister is a carrier of Tay Sachs disease? ```text PEDIGREE: Generation I: I-1 unaffected male; I-2 unaffected female, partners Generation II: II-1 affected male with Tay Sachs disease; II-2 unaffected female, siblings Key inference: Both parents are unaffected yet have an affected child, the signature of autosomal recessive inheritance, so both parents are obligate carriers. Most consistent mode: autosomal recessive ```",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/4"
+    },
+    {
+      "id": "b",
+      "text": "1/2"
+    },
+    {
+      "id": "c",
+      "text": "2/3"
+    },
+    {
+      "id": "d",
+      "text": "3/4"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Tay Sachs disease is autosomal recessive (*HEXA*, hexosaminidase A loss), so both parents are obligate carriers and the sibship genotypic ratio is 1:2:1 (sums to 4). Because the sister is unaffected, the aa class is excluded, leaving three genotypes of which two are carriers, giving 2/3. A is the risk of an affected child, B fails to condition on the sibling being unaffected, and D is the probability of being unaffected at all.",
+  "difficulty": "unknown",
+  "tags": [
+    "tay",
+    "sachs",
+    "sibling",
+    "carrier",
+    "probability"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-b66cd1f7b546d85d",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

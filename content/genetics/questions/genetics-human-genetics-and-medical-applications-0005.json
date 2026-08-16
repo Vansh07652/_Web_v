@@ -1,0 +1,39 @@
+{
+  "id": "genetics-human-genetics-and-medical-applications-0005",
+  "subject": "genetics",
+  "lesson": "human-genetics-and-medical-applications",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** pedigree The pedigree shows an autosomal dominant disorder in which onset is progressively earlier in each successive generation. Which molecular feature explains this pattern of anticipation in Huntington disease? ```text PEDIGREE: Generation I: I-1 affected male; I-2 unaffected female, partners Generation II: II-1 unaffected female; II-2 affected male; II-3 affected female; II-4 unaffected male Generation III: III-1 affected female; III-2 affected male, children of II-2 Key inference: Both sexes are affected, every affected person has an affected parent, male to male transmission occurs, and onset is earlier in each successive generation. Most consistent mode: autosomal dominant ```",
+  "options": [
+    {
+      "id": "a",
+      "text": "Loss of function of huntingtin caused by a frameshift mutation in the *HTT* coding sequence"
+    },
+    {
+      "id": "b",
+      "text": "CAG repeat expansion in *HTT* that tends to lengthen when transmitted, producing a gain of function and earlier onset in later generations"
+    },
+    {
+      "id": "c",
+      "text": "Deletion of the short arm of chromosome 5 that removes the *HTT* locus"
+    },
+    {
+      "id": "d",
+      "text": "A trinucleotide repeat that is inherited at an identical, fixed length in every generation"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Huntington disease is caused by a CAG repeat expansion in *HTT* (4p16.3) that acts by gain of function, and the repeat tends to lengthen with transmission, so each successive generation tends to have earlier onset and more severe symptoms, which is anticipation. A frameshift mutation would cause loss of function, and D describes fixed repeat length, both incompatible with the pattern in the pedigree. C is Cri du chat syndrome, a 5p deletion, which is unrelated to repeat expansion.",
+  "difficulty": "unknown",
+  "tags": [
+    "huntington",
+    "anticipation",
+    "mechanism"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-b66cd1f7b546d85d",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

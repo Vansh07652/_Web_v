@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-moles-and-molar-mass-q08",
+  "subject": "chemistry-2",
+  "lesson": "moles-and-molar-mass",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A student measures out 9 g of pure water (18.02 g/mol) for a classroom demonstration. Approximately how many water molecules does this sample contain?",
+  "options": [
+    {
+      "id": "a",
+      "text": "3 x 10^23 molecules, obtained by converting to moles and then multiplying by Avogadro's number"
+    },
+    {
+      "id": "b",
+      "text": "1.2 x 10^24 molecules, obtained by doubling Avogadro's number for the two hydrogen atoms"
+    },
+    {
+      "id": "c",
+      "text": "5.4 x 10^24 molecules, obtained by multiplying the mass in grams by Avogadro's number"
+    },
+    {
+      "id": "d",
+      "text": "3.3 x 10^22 molecules, obtained by dividing Avogadro's number by the molar mass"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Mass-to-particle problems take two steps: 9 g / 18.02 g/mol = 0.4994 mol, then 0.4994 mol x 6.022 x 10^23 mol^-1 = 3.008 x 10^23 molecules. Multiplying grams by Avogadro's number without the mole step inflates the result by a factor of the molar mass, giving 5.4 x 10^24. The answer is reasonable because 9 g is about half of water's 18.02 g/mol, so the count should be about half of Avogadro's number.\n\nELI-10: Treat this as a two-leg trip with moles as the connecting stop. There is no direct route from grams to molecules. Leg one: 9 g divided by 18.02 g per mole is about half a mole. Leg two: half a mole times 6.022 x 10^23 particles per mole is about 3 x 10^23 molecules. The sanity check is quick, since half a mole should give half of Avogadro's number, and it does. Any answer larger than 10^24 for such a small sample means the mole step was skipped.",
+  "difficulty": "medium",
+  "tags": [
+    "mass to particle conversion",
+    "two-step mole calculation",
+    "Avogadro's number"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-277",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

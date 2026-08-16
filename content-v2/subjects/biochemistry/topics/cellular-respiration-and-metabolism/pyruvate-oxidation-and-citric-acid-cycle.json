@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biochemistry:cellular-respiration-and-metabolism:pyruvate-oxidation-and-citric-acid-cycle",
+  "slug": "pyruvate-oxidation-and-citric-acid-cycle",
+  "title": "Pyruvate Oxidation and the Citric Acid Cycle",
+  "subject": {
+    "id": "subject:biochemistry",
+    "slug": "biochemistry",
+    "title": "Biochemistry"
+  },
+  "unit": {
+    "id": "unit:biochemistry:cellular-respiration-and-metabolism",
+    "slug": "cellular-respiration-and-metabolism",
+    "title": "Cellular Respiration and Metabolism",
+    "order": 6
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "This section covers the **second and third stages** of aerobic cellular respiration — **pyruvate oxidation** (pyruvate → acetyl-CoA) and the **citric acid cycle** (Krebs cycle) — which occur in the **mitochondria**, release carbon dioxide, and produce **electron carriers (NADH, FADH₂)** that fuel most ATP production.",
+    "whyItMatters": "These stages extract far more energy from glucose than glycolysis alone and require oxygen. They are central to how the body uses food for energy, why oxygen is essential, and how fats and proteins also feed into energy production.",
+    "learningObjectives": "- Describe **pyruvate oxidation** (to acetyl-CoA).\n- Summarize the **citric acid cycle** and its purpose.\n- Identify the key products (**NADH, FADH₂, CO₂, some ATP**).\n- Explain why these stages require **oxygen** (indirectly).",
+    "keyTerms": "",
+    "collegeNotes": "**Setting the stage.** After glycolysis, if **oxygen is available**, pyruvate enters the **mitochondria** for the aerobic stages. These stages don't use oxygen directly at this step, but they **only proceed when oxygen is available** to accept electrons at the final stage (electron transport, next section) — so they are considered **aerobic**.\n\n**Pyruvate oxidation (the transition step).** Each **pyruvate (3C)** is converted into **acetyl-CoA (2C)**:\n\n- One carbon is released as **carbon dioxide (CO₂)** (a waste product you exhale).\n- **NAD⁺ is reduced to NADH** (capturing energy-rich electrons).\n- The remaining 2-carbon group joins **coenzyme A** to form **acetyl-CoA**, which enters the citric acid cycle.\n\nSince glycolysis made **2 pyruvate**, this step runs **twice** per glucose.\n\n**The citric acid cycle (Krebs cycle).** Acetyl-CoA enters the **citric acid cycle** (also called the **Krebs cycle** or TCA cycle), a cyclical series of reactions in the **mitochondrial matrix**. Per acetyl-CoA (so **×2 per glucose**), the cycle:\n\n- Releases the remaining carbons as **CO₂**.\n- Produces **NADH** and **FADH₂** (another electron carrier) — the **main energy harvest** of the cycle (as reduced carriers).\n- Produces a small amount of **ATP** (or GTP) directly by substrate-level phosphorylation.\n\nThe cycle **regenerates** its starting molecule each turn, allowing it to run continuously.\n\n**The point of these stages.** By the end of the citric acid cycle, **glucose has been completely broken down to CO₂**, and most of its energy is now held in **NADH and FADH₂**. These carriers deliver their electrons to the **electron transport chain** (next section), where the **bulk of ATP** is actually produced. So pyruvate oxidation and the citric acid cycle mainly **load up electron carriers** for the final, high-yield stage.",
+    "howItWorks": "Aerobic stages 2–3 (per glucose = ×2):\n\n```\nLocation: MITOCHONDRIA | requires oxygen (indirectly, via final stage)\nPyruvate oxidation: pyruvate (3C) → acetyl-CoA (2C) + CO2 + NADH   (runs ×2)\nCitric acid (Krebs) cycle: acetyl-CoA → 2 CO2 + NADH + FADH2 + small ATP/GTP (runs ×2)\nResult: glucose fully broken to CO2; energy now stored in NADH + FADH2\n   → carriers feed the electron transport chain (where most ATP is made)\n```",
+    "comparisons": "| Stage | Location | Key outputs (per glucose) |\n| --- | --- | --- |\n| Pyruvate oxidation | Mitochondria | 2 acetyl-CoA, 2 CO₂, 2 NADH |\n| Citric acid cycle | Mitochondrial matrix | 4 CO₂, 6 NADH, 2 FADH₂, 2 ATP |\n\n| Electron carrier | Made where |\n| --- | --- |\n| NADH | Glycolysis, pyruvate oxidation, Krebs cycle |\n| FADH₂ | Citric acid cycle |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\nThese stages **require oxygen** (indirectly) — explaining why oxygen delivery is essential and why **hypoxia/ischemia** severely limits energy production. The **CO₂** produced here is the waste gas **exhaled by the lungs** (connecting to respiration and acid-base balance). The citric acid cycle is a **central hub** where not only carbohydrates but also **fats and proteins** feed in for energy (later section). Understanding that most energy is captured as **NADH/FADH₂** (not ATP yet) clarifies why the next stage is where most ATP is made.",
+    "commonConfusions": "- **Pyruvate oxidation and the citric acid cycle occur in the mitochondria** (glycolysis is in the cytoplasm).\n- **These stages produce mostly NADH/FADH₂ (and CO₂), not much ATP directly** — most ATP comes next.\n- **They run twice per glucose** (because glycolysis made 2 pyruvate).\n- **They are aerobic** — dependent on oxygen at the final stage.",
+    "memoryAids": "- **\"Pyruvate → acetyl-CoA: lose a carbon as CO₂, grab an NADH.\"**\n- **\"Krebs cycle = CO₂ out, NADH/FADH₂ loaded.\"**\n- **\"These stages LOAD the carriers; the next stage CASHES them in.\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nAfter sugar is split, the pieces go into the cell's \"power plants\" (mitochondria). There, they're taken completely apart — breathing out **carbon dioxide** — and the energy gets loaded onto tiny **shuttle buses** (NADH and FADH₂) to be cashed in for lots of energy next.\n\n### Analogy\nRemember the two little 3-car trains (**pyruvate**) from glycolysis? If **oxygen is around**, they roll into the cell's **power plants** — the **mitochondria**. First, each train drops off one car as **carbon dioxide** (the gas you breathe out!) and loads an energy **shuttle bus** (**NADH**); what's left becomes **acetyl-CoA**. Then acetyl-CoA enters a spinning merry-go-round called the **citric acid cycle** (or **Krebs cycle**). As it goes around, it releases the **rest of the carbons as CO₂** and loads up **more shuttle buses** (**NADH and FADH₂**), plus makes a tiny bit of energy directly. By the end, the original sugar is **completely taken apart** into CO₂, and its energy is packed onto a whole fleet of shuttle buses. Those buses are about to drive to the \"cashier\" (the electron transport chain) where the **real jackpot** of energy gets paid out.\n\n### What is actually happening\nThis is why **oxygen and breathing** are so essential. These power-plant stages only run when oxygen is available at the final step, so if tissues don't get enough oxygen (like in **shock** or a blocked artery), energy production crashes fast. The **carbon dioxide** made here is exactly what your **lungs breathe out**, which also ties into your body's acid-base balance. And the citric acid cycle is like a **central train station** — not just sugar, but also **fats and proteins** can feed into it for energy (coming up). Understanding that most energy is still \"on the buses\" (NADH/FADH₂) explains why the next stage is the big payoff.\n\n### Where the analogy stops\nA merry-go-round just spins in place, but the Krebs cycle is a precise series of enzyme reactions that transform molecules at each step — and it's constantly fed and drained, part of a vast connected metabolism, not an isolated ride.",
+    "quickReview": "- If oxygen is available, pyruvate enters the **mitochondria**: **pyruvate oxidation** converts pyruvate (3C) → **acetyl-CoA** (2C), releasing **CO₂** and making **NADH** (×2 per glucose).\n- The **citric acid (Krebs) cycle** fully breaks down acetyl-CoA to **CO₂**, producing **NADH, FADH₂**, and a little **ATP** (×2 per glucose).\n- These stages **load electron carriers (NADH/FADH₂)** that fuel the electron transport chain, where **most ATP** is made.\n- They are **aerobic**, and the **CO₂** produced is exhaled by the lungs.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Chapter 7: Cellular Respiration (pyruvate oxidation, citric acid cycle). https://openstax.org/details/books/biology-2e",
+        "url": "https://openstax.org/details/books/biology-2e"
+      },
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 24: Metabolism and Nutrition. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "pyruvate-oxidation-and-citric-acid-cycle",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "biochem-u06-s02",
+      "kind": "source_topic_id",
+      "source_id": "prenursing_notes"
+    },
+    {
+      "value": "02-pyruvate-oxidation-and-citric-acid-cycle",
+      "kind": "source_file_stem",
+      "source_id": "prenursing_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:prenursing_notes:df84f48af33de253"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:prenursing_notes:df84f48af33de253"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:prenursing_notes:df84f48af33de253"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:prenursing_notes:df84f48af33de253"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/05-biochemistry/06-cellular-respiration-and-metabolism/02-pyruvate-oxidation-and-citric-acid-cycle.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "\n# Pyruvate Oxidation and the Citric Acid Cycle\n\n## What This Topic Is\n\nThis section covers the **second and third stages** of aerobic cellular respiration — **pyruvate oxidation** (pyruvate → acetyl-CoA) and the **citric acid cycle** (Krebs cycle) — which occur in the **mitochondria**, release carbon dioxide, and produce **electron carriers (NADH, FADH₂)** that fuel most ATP production.\n\n## Why It Matters\n\nThese stages extract far more energy from glucose than glycolysis alone and require oxygen. They are central to how the body uses food for energy, why oxygen is essential, and how fats and proteins also feed into energy production.\n\n## Learning Objectives\n\n- Describe **pyruvate oxidation** (to acetyl-CoA).\n- Summarize the **citric acid cycle** and its purpose.\n- Identify the key products (**NADH, FADH₂, CO₂, some ATP**).\n- Explain why these stages require **oxygen** (indirectly).\n\n## Core Explanation\n\n**Setting the stage.** After glycolysis, if **oxygen is available**, pyruvate enters the **mitochondria** for the aerobic stages. These stages don't use oxygen directly at this step, but they **only proceed when oxygen is available** to accept electrons at the final stage (electron transport, next section) — so they are considered **aerobic**.\n\n**Pyruvate oxidation (the transition step).** Each **pyruvate (3C)** is converted into **acetyl-CoA (2C)**:\n\n- One carbon is released as **carbon dioxide (CO₂)** (a waste product you exhale).\n- **NAD⁺ is reduced to NADH** (capturing energy-rich electrons).\n- The remaining 2-carbon group joins **coenzyme A** to form **acetyl-CoA**, which enters the citric acid cycle.\n\nSince glycolysis made **2 pyruvate**, this step runs **twice** per glucose.\n\n**The citric acid cycle (Krebs cycle).** Acetyl-CoA enters the **citric acid cycle** (also called the **Krebs cycle** or TCA cycle), a cyclical series of reactions in the **mitochondrial matrix**. Per acetyl-CoA (so **×2 per glucose**), the cycle:\n\n- Releases the remaining carbons as **CO₂**.\n- Produces **NADH** and **FADH₂** (another electron carrier) — the **main energy harvest** of the cycle (as reduced carriers).\n- Produces a small amount of **ATP** (or GTP) directly by substrate-level phosphorylation.\n\nThe cycle **regenerates** its starting molecule each turn, allowing it to run continuously.\n\n**The point of these stages.** By the end of the citric acid cycle, **glucose has been completely broken down to CO₂**, and most of its energy is now held in **NADH and FADH₂**. These carriers deliver their electrons to the **electron transport chain** (next section), where the **bulk of ATP** is actually produced. So pyruvate oxidation and the citric acid cycle mainly **load up electron carriers** for the final, high-yield stage.\n\n## How It Works\n\nAerobic stages 2–3 (per glucose = ×2):\n\n```\nLocation: MITOCHONDRIA | requires oxygen (indirectly, via final stage)\nPyruvate oxidation: pyruvate (3C) → acetyl-CoA (2C) + CO2 + NADH   (runs ×2)\nCitric acid (Krebs) cycle: acetyl-CoA → 2 CO2 + NADH + FADH2 + small ATP/GTP (runs ×2)\nResult: glucose fully broken to CO2; energy now stored in NADH + FADH2\n   → carriers feed the electron transport chain (where most ATP is made)\n```\n\n## Important Relationships and Comparisons\n\n| Stage | Location | Key outputs (per glucose) |\n| --- | --- | --- |\n| Pyruvate oxidation | Mitochondria | 2 acetyl-CoA, 2 CO₂, 2 NADH |\n| Citric acid cycle | Mitochondrial matrix | 4 CO₂, 6 NADH, 2 FADH₂, 2 ATP |\n\n| Electron carrier | Made where |\n| --- | --- |\n| NADH | Glycolysis, pyruvate oxidation, Krebs cycle |\n| FADH₂ | Citric acid cycle |\n\n## High-Yield Pre-Nursing Connections\n\nThese stages **require oxygen** (indirectly) — explaining why oxygen delivery is essential and why **hypoxia/ischemia** severely limits energy production. The **CO₂** produced here is the waste gas **exhaled by the lungs** (connecting to respiration and acid-base balance). The citric acid cycle is a **central hub** where not only carbohydrates but also **fats and proteins** feed in for energy (later section). Understanding that most energy is captured as **NADH/FADH₂** (not ATP yet) clarifies why the next stage is where most ATP is made.\n\n## Common Confusions\n\n- **Pyruvate oxidation and the citric acid cycle occur in the mitochondria** (glycolysis is in the cytoplasm).\n- **These stages produce mostly NADH/FADH₂ (and CO₂), not much ATP directly** — most ATP comes next.\n- **They run twice per glucose** (because glycolysis made 2 pyruvate).\n- **They are aerobic** — dependent on oxygen at the final stage.\n\n## Memory Aids\n\n- **\"Pyruvate → acetyl-CoA: lose a carbon as CO₂, grab an NADH.\"**\n- **\"Krebs cycle = CO₂ out, NADH/FADH₂ loaded.\"**\n- **\"These stages LOAD the carriers; the next stage CASHES them in.\"**\n\n## ELI-10 Explains\n\n### Simple idea\nAfter sugar is split, the pieces go into the cell's \"power plants\" (mitochondria). There, they're taken completely apart — breathing out **carbon dioxide** — and the energy gets loaded onto tiny **shuttle buses** (NADH and FADH₂) to be cashed in for lots of energy next.\n\n### Analogy\nRemember the two little 3-car trains (**pyruvate**) from glycolysis? If **oxygen is around**, they roll into the cell's **power plants** — the **mitochondria**. First, each train drops off one car as **carbon dioxide** (the gas you breathe out!) and loads an energy **shuttle bus** (**NADH**); what's left becomes **acetyl-CoA**. Then acetyl-CoA enters a spinning merry-go-round called the **citric acid cycle** (or **Krebs cycle**). As it goes around, it releases the **rest of the carbons as CO₂** and loads up **more shuttle buses** (**NADH and FADH₂**), plus makes a tiny bit of energy directly. By the end, the original sugar is **completely taken apart** into CO₂, and its energy is packed onto a whole fleet of shuttle buses. Those buses are about to drive to the \"cashier\" (the electron transport chain) where the **real jackpot** of energy gets paid out.\n\n### What is actually happening\nThis is why **oxygen and breathing** are so essential. These power-plant stages only run when oxygen is available at the final step, so if tissues don't get enough oxygen (like in **shock** or a blocked artery), energy production crashes fast. The **carbon dioxide** made here is exactly what your **lungs breathe out**, which also ties into your body's acid-base balance. And the citric acid cycle is like a **central train station** — not just sugar, but also **fats and proteins** can feed into it for energy (coming up). Understanding that most energy is still \"on the buses\" (NADH/FADH₂) explains why the next stage is the big payoff.\n\n### Where the analogy stops\nA merry-go-round just spins in place, but the Krebs cycle is a precise series of enzyme reactions that transform molecules at each step — and it's constantly fed and drained, part of a vast connected metabolism, not an isolated ride.\n\n## Quick Recap\n\n- If oxygen is available, pyruvate enters the **mitochondria**: **pyruvate oxidation** converts pyruvate (3C) → **acetyl-CoA** (2C), releasing **CO₂** and making **NADH** (×2 per glucose).\n- The **citric acid (Krebs) cycle** fully breaks down acetyl-CoA to **CO₂**, producing **NADH, FADH₂**, and a little **ATP** (×2 per glucose).\n- These stages **load electron carriers (NADH/FADH₂)** that fuel the electron transport chain, where **most ATP** is made.\n- They are **aerobic**, and the **CO₂** produced is exhaled by the lungs.\n\n## Sources\n\n- OpenStax, *Biology 2e*, Chapter 7: Cellular Respiration (pyruvate oxidation, citric acid cycle). https://openstax.org/details/books/biology-2e\n- OpenStax, *Anatomy and Physiology 2e*, Chapter 24: Metabolism and Nutrition. https://openstax.org/details/books/anatomy-and-physiology-2e\n"
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:information-flow:epigenetic-regulation",
+  "slug": "epigenetic-regulation",
+  "title": "Epigenetic Regulation",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:information-flow",
+    "slug": "information-flow",
+    "title": "Information Flow",
+    "order": 10
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "Epigenetics is the study of heritable changes in gene expression that occur without altering the DNA sequence. The two best-characterized carriers of epigenetic information are DNA methylation (typically 5-methylcytosine at CpG dinucleotides) and covalent histone modifications such as acetylation, methylation, and phosphorylation. Together with chromatin remodelers and noncoding RNAs, these marks establish chromatin states that can be propagated to daughter cells during division, allowing a single genome to produce the many distinct cell types of a multicellular organism.",
+    "whyItMatters": "Epigenetics explains how identical genomes yield different cell types and how environment and experience can produce lasting, sometimes heritable, phenotypic changes. Aberrant epigenetics is central to cancer (promoter hypermethylation silences tumor suppressors; HDAC and DNMT inhibitors are approved drugs), to imprinting disorders (Prader-Willi, Angelman syndromes), and to developmental reprogramming used in induced pluripotent stem cells.",
+    "learningObjectives": "- Define epigenetics and distinguish it from changes in DNA sequence.\n- Describe the roles of DNA methylation and histone modifications (especially acetylation and methylation) in gene regulation.\n- Explain how epigenetic marks are written, read, and erased, and how they can be inherited through cell division.\n- Give examples of epigenetic phenomena (X-inactivation, imprinting) and disease relevance.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nEpigenetics is the study of heritable changes in gene expression that occur without altering the DNA sequence. The two best-characterized carriers of epigenetic information are DNA methylation (typically 5-methylcytosine at CpG dinucleotides) and covalent histone modifications such as acetylation, methylation, and phosphorylation. Together with chromatin remodelers and noncoding RNAs, these marks establish chromatin states that can be propagated to daughter cells during division, allowing a single genome to produce the many distinct cell types of a multicellular organism.\n\n### Key Components\n\n- **DNA methylation** — addition of a methyl group to cytosine (usually in CpG contexts) by DNA methyltransferases (DNMTs); generally repressive at promoters.\n- **Histone acetylation** — addition of acetyl groups to lysines by histone acetyltransferases (HATs), removed by histone deacetylases (HDACs); generally activating.\n- **Histone methylation** — mono/di/trimethylation of lysines/arginines by histone methyltransferases; can activate (H3K4me3) or repress (H3K9me3, H3K27me3) depending on site.\n- **Readers/writers/erasers** — proteins that deposit (write), remove (erase), or bind (read) epigenetic marks to translate them into biological effects.\n- **CpG islands** — CG-rich promoter regions whose methylation is strongly associated with silencing.\n\n### Mechanism\n\nEpigenetic marks control gene expression by altering chromatin accessibility and by recruiting regulatory proteins. Histone acetylation neutralizes the positive charge of lysines, loosening histone–DNA contacts so transcription factors and RNA polymerase can bind. Methylation of H3K9 or H3K27 recruits repressive readers (HP1, Polycomb) that compact chromatin, while H3K4me3 recruits activating complexes. DNA methylation at CpG islands recruits methyl-CpG-binding proteins and HDACs, reinforcing repression. Crucially, none of these modifications alters the base sequence: the \"epigenetic code\" sits on top of the genetic code and is cell-type-specific.\n\n### How It Works\n\n1. A signal or developmental cue recruits a writer (e.g., a HAT or DNMT) to a specific locus.\n2. The writer deposits a mark (acetylation, methylation) on histones or DNA.\n3. Reader proteins bind the mark and recruit effector complexes that open or close chromatin.\n4. The altered accessibility permits or blocks transcription of nearby genes.\n5. Erasers (HDACs, histone demethylases, TET enzymes for DNA demethylation) remove marks to reset or reverse the state.\n6. During DNA replication, parental marks are re-established on newly synthesized strands (maintenance methylation by DNMT1), propagating the state to daughter cells.\n\n### Energy and Directionality\n\nEpigenetic chemistry consumes metabolic donors: acetylation uses acetyl-CoA, and methylation uses S-adenosylmethionine (SAM), linking the epigenetic landscape to cellular metabolism. Erasure is also enzyme-catalyzed (HDAC hydrolysis; demethylase oxidation). Directionality is therefore governed by the local balance of writer and eraser activities, not by an irreversible commitment. The modifications themselves are covalent but reversible, and — critically — they never change the underlying DNA sequence, only how it is read.\n\n### Experimental Evidence\n\n- **X-chromosome inactivation** — one X in female mammals is silenced by XIST RNA and repressive marks (H3K27me3, DNA methylation), producing the Barr body; the same DNA sequence is active in males.\n- **Genomic imprinting** — only the maternal or paternal copy of certain genes (e.g., IGF2/H19) is expressed, reflecting parent-of-origin DNA methylation established in gametes.\n- **Agouti mouse studies** — maternal diet altering methyl donors changes coat-color phenotype in offspring, linking environment to epigenetic marks.\n- **Bisulfite sequencing** — chemically converts unmethylated cytosine to uracil, enabling base-resolution mapping of 5-methylcytosine genome-wide.\n- **ChIP-seq** — maps histone modifications to show H3K4me3 at active promoters and H3K27me3 at silenced developmental genes.\n\n### Technique\n\nCore tools include **bisulfite sequencing** (DNA methylation), **ChIP-seq/CUT&RUN** (histone modifications and binding proteins), **ATAC-seq** (chromatin accessibility), **DNA methyltransferase/HDAC inhibitors** (functional probing and therapy), and **single-cell multi-omics** (joint methylation and chromatin state per cell).",
+    "howItWorks": "1. A signal or developmental cue recruits a writer (e.g., a HAT or DNMT) to a specific locus.\n2. The writer deposits a mark (acetylation, methylation) on histones or DNA.\n3. Reader proteins bind the mark and recruit effector complexes that open or close chromatin.\n4. The altered accessibility permits or blocks transcription of nearby genes.\n5. Erasers (HDACs, histone demethylases, TET enzymes for DNA demethylation) remove marks to reset or reverse the state.\n6. During DNA replication, parental marks are re-established on newly synthesized strands (maintenance methylation by DNMT1), propagating the state to daughter cells.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Epigenetics = heritable, reversible changes in gene expression with NO change in DNA sequence.\n- DNA methylation: 5-methylcytosine at CpG islands, deposited by DNMTs; repressive.\n- Histone acetylation (HATs) = activating; deacetylation (HDACs) = repressing.\n- H3K4me3 = active promoters; H3K9me3 = constitutive heterochromatin; H3K27me3 = Polycomb/facultative silencing.\n- Writers/readers/erasers mediate the epigenetic code.\n- DNMT1 performs maintenance methylation through replication.\n- Acetyl-CoA and SAM are the metabolic donors for acetylation and methylation.",
+    "commonConfusions": "- **\"Epigenetic changes alter the DNA sequence\"** — they do not; they change chromatin state and expression over an unchanged sequence.\n- **\"Epigenetics = all gene regulation\"** — many regulatory events (transcription-factor binding) are transient and not heritable; epigenetics specifically concerns *heritable* states.\n- **\"Histone acetylation always turns genes on\"** — generally activating, but the effect depends on context and which residues are modified.\n- **\"DNA methylation always silences\"** — at promoters it is repressive, but gene-body methylation can accompany active transcription.\n- **\"Epigenetic marks are permanent\"** — they are reversible and dynamically rewritten in development and disease.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nYour DNA is like the sheet music for a whole orchestra — every musician has the same score. Epigenetics is the set of sticky notes and highlighter marks telling each player which passages to play loudly or skip. The notes themselves (the DNA) never change, only the markings that decide how they're performed — and those markings can be passed along when the page is copied. (The analogy's limit: real epigenetic marks are specific chemical groups — methyl and acetyl — placed at precise spots on DNA and histones, not literal notes, and they're added and removed by dedicated enzymes.)",
+    "quickReview": "- Epigenetics: heritable expression changes without DNA sequence change.\n- DNA methylation (CpG) and histone modifications are the main marks.\n- Acetylation opens chromatin; H3K9me3/H3K27me3 compact it; H3K4me3 marks active promoters.\n- Writers/readers/erasers control marks; DNMT1 maintains methylation through replication.\n- Examples: X-inactivation, imprinting, agouti mice.\n- Tools: bisulfite sequencing, ChIP-seq, ATAC-seq; drugs target DNMTs/HDACs.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "National Human Genome Research Institute, \"Epigenetics.\" https://www.genome.gov/genetics-glossary/Epigenetics",
+        "url": "https://www.genome.gov/genetics-glossary/Epigenetics"
+      },
+      {
+        "text": "National Human Genome Research Institute, \"Epigenomics Fact Sheet.\" https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet"
+      },
+      {
+        "text": "MedlinePlus Genetics, \"What is epigenetics?\" https://medlineplus.gov/genetics/understanding/howgeneswork/epigenome/",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/epigenome/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"16.3 Eukaryotic Epigenetic Gene Regulation.\" https://openstax.org/books/biology-2e/pages/16-3-eukaryotic-epigenetic-gene-regulation",
+        "url": "https://openstax.org/books/biology-2e/pages/16-3-eukaryotic-epigenetic-gene-regulation"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/10-information-flow/03-epigenetic-regulation.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:population-public-health:core-topics:epidemiology-fundamentals",
+  "slug": "epidemiology-fundamentals",
+  "title": "Epidemiology Fundamentals",
+  "subject": {
+    "id": "subject:population-public-health",
+    "slug": "population-public-health",
+    "title": "Population & Public Health Foundations"
+  },
+  "unit": {
+    "id": "unit:population-public-health:core-topics",
+    "slug": "core-topics",
+    "title": "Core Topics",
+    "order": 1
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nA clinician looks at one person and asks, \"What is wrong with you?\" An epidemiologist looks at a whole population and asks two questions: \"Who is affected, where, and when?\" (that is distribution) and \"What is driving it?\" (that is determinants). Think of an investigator who does not work a single burglary but maps every burglary in the city to find the pattern and the cause. In epidemiology the community is the patient, and the answer usually changes what happens to a whole group of people rather than to one of them.\n\n### Question 2\n\nThink of a campfire. You need a spark (the agent), dry wood that can catch (the host), and conditions like wind and dry air that carry the spark to the wood (the environment). Remove any one leg and the fire does not start. Disease works the same way, which is why public health can break the chain wherever it is easiest to break: treat the agent, protect the host with vaccine, or change the environment with clean water. Notice the model works best for infectious disease, which is exactly why chronic disease pushed epidemiologists toward multicausal models.\n\n### Question 3\n\nDescriptive epidemiology is the clue-gathering stage of an investigation, not the stage where you name a suspect. You lay out who became ill, where they live, and when symptoms started, and a pattern surfaces: everyone lives along one water line and got sick the same week. That pattern is a hypothesis, and it is genuinely valuable because you cannot test an idea you never had. The next stage, analytic epidemiology, brings in people who did not get sick so the hunch can be checked.\n\n### Question 4\n\nThe difference is who decides. In an experiment you hand out the exposure yourself, like flipping a coin to decide which patients get the new drug; because the coin has no opinion, the two groups end up similar on average in everything else, which is why a difference in outcome is most likely the drug's doing. Chance can still leave the groups a little uneven, especially in small studies, which is why researchers check that the groups started out comparable. In an observational study you only watch and record what people already do. That is weaker evidence, but it is often the only ethical option, since no one can randomly assign a person to smoke or to be poor.\n\n### Question 5\n\nTwo ways to work the same puzzle. Case-control is the rewind button: start with people who are already ill, add similar people who are not, and replay their histories to see what differed. Cohort is the fast-forward button: start with who is exposed today and watch who becomes ill later. Rewind is faster and cheaper and is the practical choice for rare diseases. Fast-forward costs more but you know for certain the exposure came first, which matters enormously when you are arguing about cause.\n\n### Question 6\n\nIce cream sales and drowning deaths rise together, but ice cream drowns no one. Hot weather drives both, so it is the hidden third factor. Here smoking is the hot weather: it pushes people toward coffee and it causes lung cancer, so coffee takes the blame for what cigarettes did. The fix is to compare like with like. Look at smokers alone and non-smokers alone; if the coffee difference vanishes inside each group, smoking was the whole story.\n\n### Question 7\n\nEvery community has a normal level of a disease, its background hum. That is endemic. An epidemic is when the level rises clearly above what that community expects. The key is that the label is relative to the baseline: ten cases of measles is an epidemic where the usual count is zero, while a hundred cases of malaria may be entirely ordinary somewhere it is endemic. So before anyone can declare an epidemic, someone has to know what normal looks like there, and that is what surveillance provides.\n\n### Question 8\n\nA relative risk is a comparison, like saying one backpack is 2.4 times as heavy as another. That tells you nothing about how many pounds either bag holds, only how they stack up. So RR 2.4 leaves the underlying risk unknown: it could be 1% versus 0.42%, or 24% versus 10%. This is why a large ratio can still mean a small absolute change, and why clinicians ask for both numbers. Also watch the order, because whichever group sits on the bottom of the fraction is the yardstick.\n\n### Question 9\n\nSurveillance is a smoke detector for a whole community, not a fire extinguisher for one room. It watches continuously, it knows what normal looks like, and, crucially, it makes noise so someone acts. A detector that senses smoke but never sounds is worthless, and health data no one reports back is the same. This is also why surveillance quietly underpins everything else in epidemiology: without a steady count of what is usual, no one can say that today's numbers are unusual.\n\n### Question 10\n\nPicture the start of a long race with two sets of participants: the physically active and the sedentary. No one has diabetes yet, and no one was told which group to join; you simply wrote down where each person already stood. Then you watch for 12 years and count new cases in each group. Watching forward from a known, disease-free starting line is what makes it a cohort study, and the reason that ordering matters is that it makes it far less likely that early, undiagnosed disease is what caused the inactivity. It is not airtight, though, since someone can have quiet early disease at the start line, which is why researchers often set aside cases diagnosed in the first year or two.\n\n### Question 11\n\nTwo questions settle most causal arguments. First, did the supposed cause come before the effect? A rooster crowing after sunrise did not raise the sun. Second, does more exposure produce more disease? If a little sun tans and a lot burns, that staircase is hard to dismiss as coincidence, since a confounder would have to line up with every rung of it. A tiny p value only says the result is unlikely to be a fluke of sampling; it cannot tell you what came first or what else was going on.\n\n### Question 12\n\nSuppose the school whose students own the most bicycles also posts the highest test scores. That does not mean the cyclists are the high scorers; the strong readers may score well while entirely different students ride. Group averages conceal who is who, and they can even point the wrong direction. To claim that vegetables protect a person, you need that person's diet paired with that person's diagnosis, not a state average paired with a state rate.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Public Health / Epidemiology — CDC",
+        "url": "https://www.cdc.gov/"
+      },
+      {
+        "text": "Social Determinants of Health — WHO",
+        "url": "https://www.who.int/health-topics/social-determinants-of-health"
+      },
+      {
+        "text": "Healthy People 2030 — HHS / ODPHP",
+        "url": "https://odphp.health.gov/healthypeople"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "expansion-question-bank",
+    "sourceFile": "Education/pre-nursing-expansion-question-bank/questions/19-population-health/358-epidemiology-fundamentals.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,427 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:respiratory-therapy",
+    "slug": "respiratory-therapy",
+    "title": "Respiratory Therapy",
+    "aliases": [],
+    "status": "final",
+    "category": "allied-health"
+  },
+  "units": [
+    {
+      "id": "unit:respiratory-therapy:patient-data-evaluation",
+      "slug": "patient-data-evaluation",
+      "title": "Patient Data Evaluation",
+      "order": 1,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:respiratory-therapy:patient-data-evaluation:patient-record-review-history-directives-and-fluid-status",
+          "slug": "patient-record-review-history-directives-and-fluid-status",
+          "title": "Patient Record Review, History, Directives, and Fluid Status",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/patient-data-evaluation/patient-record-review-history-directives-and-fluid-status.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:respiratory-therapy:patient-data-evaluation:physical-assessment-and-cardiopulmonary-examination",
+          "slug": "physical-assessment-and-cardiopulmonary-examination",
+          "title": "Physical Assessment and Cardiopulmonary Examination",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/patient-data-evaluation/physical-assessment-and-cardiopulmonary-examination.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:respiratory-therapy:patient-data-evaluation:laboratory-data-blood-gases-and-clinical-data-interpretation",
+          "slug": "laboratory-data-blood-gases-and-clinical-data-interpretation",
+          "title": "Laboratory Data, Blood Gases, and Clinical Data Interpretation",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/patient-data-evaluation/laboratory-data-blood-gases-and-clinical-data-interpretation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:respiratory-therapy:patient-data-evaluation:imaging-ecg-hemodynamics-and-monitoring",
+          "slug": "imaging-ecg-hemodynamics-and-monitoring",
+          "title": "Imaging, ECG, Hemodynamics, and Monitoring",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/patient-data-evaluation/imaging-ecg-hemodynamics-and-monitoring.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:respiratory-therapy:patient-data-evaluation:pulmonary-function-testing-and-diagnostic-procedures",
+          "slug": "pulmonary-function-testing-and-diagnostic-procedures",
+          "title": "Pulmonary Function Testing and Diagnostic Procedures",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/patient-data-evaluation/pulmonary-function-testing-and-diagnostic-procedures.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:respiratory-therapy:patient-data-evaluation:neonatal-and-pediatric-assessment",
+          "slug": "neonatal-and-pediatric-assessment",
+          "title": "Neonatal and Pediatric Assessment",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/patient-data-evaluation/neonatal-and-pediatric-assessment.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:respiratory-therapy:equipment-and-quality-control",
+      "slug": "equipment-and-quality-control",
+      "title": "Equipment and Quality Control",
+      "order": 2,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:respiratory-therapy:equipment-and-quality-control:medical-gas-sources-delivery-systems-and-oxygen-devices",
+          "slug": "medical-gas-sources-delivery-systems-and-oxygen-devices",
+          "title": "Medical Gas Sources, Delivery Systems, and Oxygen Devices",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/equipment-and-quality-control/medical-gas-sources-delivery-systems-and-oxygen-devices.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:respiratory-therapy:equipment-and-quality-control:mechanical-ventilator-systems-humidification-and-alarm-concepts",
+          "slug": "mechanical-ventilator-systems-humidification-and-alarm-concepts",
+          "title": "Mechanical Ventilator Systems, Humidification, and Alarm Concepts",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/equipment-and-quality-control/mechanical-ventilator-systems-humidification-and-alarm-concepts.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:respiratory-therapy:equipment-and-quality-control:ancillary-equipment-pleural-drainage-bronchoscopy-and-quality-control",
+          "slug": "ancillary-equipment-pleural-drainage-bronchoscopy-and-quality-control",
+          "title": "Ancillary Equipment, Pleural Drainage, Bronchoscopy, and Quality Control",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/equipment-and-quality-control/ancillary-equipment-pleural-drainage-bronchoscopy-and-quality-control.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:respiratory-therapy:airway-and-ventilation",
+      "slug": "airway-and-ventilation",
+      "title": "Airway and Ventilation",
+      "order": 3,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:respiratory-therapy:airway-and-ventilation:artificial-airways-cuff-concepts-and-airway-maintenance-devices",
+          "slug": "artificial-airways-cuff-concepts-and-airway-maintenance-devices",
+          "title": "Artificial Airways, Cuff Concepts, and Airway-Maintenance Devices",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/airway-and-ventilation/artificial-airways-cuff-concepts-and-airway-maintenance-devices.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:respiratory-therapy:airway-and-ventilation:airway-management-extubation-tracheostomy-and-suctioning-concepts",
+          "slug": "airway-management-extubation-tracheostomy-and-suctioning-concepts",
+          "title": "Airway Management, Extubation, Tracheostomy, and Suctioning Concepts",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/airway-and-ventilation/airway-management-extubation-tracheostomy-and-suctioning-concepts.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:respiratory-therapy:airway-and-ventilation:mechanical-ventilation-modes-settings-monitoring-and-graphics",
+          "slug": "mechanical-ventilation-modes-settings-monitoring-and-graphics",
+          "title": "Mechanical Ventilation Modes, Settings, Monitoring, and Graphics",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/airway-and-ventilation/mechanical-ventilation-modes-settings-monitoring-and-graphics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:respiratory-therapy:infection-prevention",
+      "slug": "infection-prevention",
+      "title": "Infection Prevention",
+      "order": 4,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:respiratory-therapy:infection-prevention:infection-prevention-disinfection-sterilization-and-vap-prevention",
+          "slug": "infection-prevention-disinfection-sterilization-and-vap-prevention",
+          "title": "Infection Prevention, Disinfection, Sterilization, and VAP Prevention",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/infection-prevention/infection-prevention-disinfection-sterilization-and-vap-prevention.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:respiratory-therapy:therapeutic-intervention",
+      "slug": "therapeutic-intervention",
+      "title": "Therapeutic Intervention",
+      "order": 5,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:respiratory-therapy:therapeutic-intervention:bronchial-hygiene-and-lung-expansion-therapies",
+          "slug": "bronchial-hygiene-and-lung-expansion-therapies",
+          "title": "Bronchial Hygiene and Lung Expansion Therapies",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/therapeutic-intervention/bronchial-hygiene-and-lung-expansion-therapies.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:respiratory-therapy:therapeutic-intervention:respiratory-pharmacology-and-specialty-gas-concepts",
+          "slug": "respiratory-pharmacology-and-specialty-gas-concepts",
+          "title": "Respiratory Pharmacology and Specialty Gas Concepts",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/therapeutic-intervention/respiratory-pharmacology-and-specialty-gas-concepts.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:respiratory-therapy:therapeutic-intervention:noninvasive-ventilation-and-specialized-respiratory-therapies",
+          "slug": "noninvasive-ventilation-and-specialized-respiratory-therapies",
+          "title": "Noninvasive Ventilation and Specialized Respiratory Therapies",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/therapeutic-intervention/noninvasive-ventilation-and-specialized-respiratory-therapies.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:respiratory-therapy:therapeutic-intervention:resuscitation-emergencies-and-critical-patient-transport-concepts",
+          "slug": "resuscitation-emergencies-and-critical-patient-transport-concepts",
+          "title": "Resuscitation, Emergencies, and Critical-Patient Transport Concepts",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/therapeutic-intervention/resuscitation-emergencies-and-critical-patient-transport-concepts.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:respiratory-therapy:therapeutic-intervention:patient-and-family-education-disease-management-and-pulmonary-rehabilitation",
+          "slug": "patient-and-family-education-disease-management-and-pulmonary-rehabilitation",
+          "title": "Patient and Family Education, Disease Management, and Pulmonary Rehabilitation",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/therapeutic-intervention/patient-and-family-education-disease-management-and-pulmonary-rehabilitation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:respiratory-therapy:exam-strategy",
+      "slug": "exam-strategy",
+      "title": "Exam Strategy",
+      "order": 6,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:respiratory-therapy:exam-strategy:tmc-clinical-reasoning-cse-decision-making-and-exam-strategy",
+          "slug": "tmc-clinical-reasoning-cse-decision-making-and-exam-strategy",
+          "title": "TMC Clinical Reasoning, CSE Decision-Making, and Exam Strategy",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/respiratory-therapy/topics/exam-strategy/tmc-clinical-reasoning-cse-decision-making-and-exam-strategy.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 6,
+    "topicCount": 19,
+    "teachingTopicCount": 19,
+    "eli10TopicCount": 19,
+    "highYieldTopicCount": 19,
+    "referencedTopicCount": 0,
+    "exactOrMappedQuestionCount": 0,
+    "subjectWideQuestionCount": 2800,
+    "uniqueQuestionCount": 2800,
+    "citationReviewRequiredCount": 0
+  },
+  "provenance": {
+    "sourceCollection": "respiratory-therapy-question-bank",
+    "sourceRoot": "Education/respiratory-therapy-question-bank",
+    "importBatch": "2026-08-14-unpublished-banks",
+    "importedWithoutRewriting": true
+  }
+}

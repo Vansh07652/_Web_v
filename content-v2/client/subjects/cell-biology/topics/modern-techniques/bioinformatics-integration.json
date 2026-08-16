@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:modern-techniques:bioinformatics-integration",
+  "slug": "bioinformatics-integration",
+  "title": "Bioinformatics and Data Integration",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:modern-techniques",
+    "slug": "modern-techniques",
+    "title": "Modern Techniques",
+    "order": 11
+  },
+  "order": 13,
+  "status": "final",
+  "sections": {
+    "overview": "Bioinformatics is the application of computational methods to biological data — storing sequences, aligning them, predicting structure and function, and, increasingly, **integrating** measurements from different layers of biology (genome, transcriptome, proteome) into coherent models. It converts raw molecular data (FASTA/FASTQ reads, expression matrices, mass spectra) into testable hypotheses. Its central power is integration: combining genomics, transcriptomics, and proteomics lets you trace a variant to an expression change to a protein-level effect. Its central caution is that **correlation is not mechanism** — computational co-occurrence and co-expression suggest relationships that must be confirmed by experiment.",
+    "whyItMatters": "Bioinformatics is the connective tissue of modern cell biology. It made genome assembly and annotation possible, powers every sequencing and proteomics experiment, enables clinical interpretation of patient genomes, and integrates multi-omics data to reveal mechanisms (e.g., linking a GWAS variant to a transcription change to a protein effect). Reproducible pipelines and open databases are what let a single experiment be reused by the entire field.",
+    "learningObjectives": "- Define bioinformatics and explain its role in storing, analyzing, and integrating molecular data.\n- Describe core resources (GenBank, UniProt, PDB) and algorithms (sequence alignment, BLAST).\n- Explain what \"multi-omics integration\" means and why it is more powerful than any single assay.\n- Distinguish correlation from causation in integrative analyses.\n- Identify the limits of computational prediction and the need for experimental validation.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nBioinformatics is the application of computational methods to biological data — storing sequences, aligning them, predicting structure and function, and, increasingly, **integrating** measurements from different layers of biology (genome, transcriptome, proteome) into coherent models. It converts raw molecular data (FASTA/FASTQ reads, expression matrices, mass spectra) into testable hypotheses. Its central power is integration: combining genomics, transcriptomics, and proteomics lets you trace a variant to an expression change to a protein-level effect. Its central caution is that **correlation is not mechanism** — computational co-occurrence and co-expression suggest relationships that must be confirmed by experiment.\n\n### Key Components\n\n### Biological databases\n- **GenBank/ENA/DDBJ** — nucleotide sequences; **UniProt** — protein sequences and annotations; **PDB** — 3-D protein structures; **GEO/SRA** — expression and sequencing datasets.\n\n### File formats and algorithms\n- **FASTA** (sequences) and **FASTQ** (sequences + quality scores); alignment algorithms (Smith-Waterman, BLAST) compare query sequences to databases to infer homology and function.\n\n### Analysis pipelines\n- Read alignment → variant calling (genomics), read counting → differential expression (RNA-Seq), spectrum matching → protein identification (proteomics). Pipelines standardize these steps and make them reproducible.\n\n### Multi-omics integration and networks\n- Combining layers (e.g., eQTL mapping links genetic variants to expression; proteogenomics links RNA to protein) and building interaction/pathway networks (Gene Ontology, KEGG, Reactome).\n\n### Statistics and machine learning\n- Differential expression testing, clustering, dimensionality reduction, and ML classifiers that find patterns (and require careful control of false discoveries).\n\n### Mechanism\n\n1. **Collect.** Raw data from sequencing, arrays, or mass spectrometry are deposited in standard formats.\n2. **Process.** Pipelines align reads, call variants, count expression, or match spectra.\n3. **Annotate.** Hits are mapped to genes, proteins, functions, and pathways via databases.\n4. **Integrate.** Data across layers (DNA, RNA, protein, clinical) are merged and analyzed jointly — e.g., identifying which variants alter expression (eQTLs) and which proteins change.\n5. **Hypothesize.** Patterns are turned into ranked candidate genes/mechanisms.\n6. **Validate.** Top candidates are tested experimentally (knockout, reporter assays, biochemistry) — the step that separates prediction from proof.\n\n### Energy and Directionality\n\nBioinformatics has no cellular energy currency; its \"energy\" is **computation** (CPU/GPU cycles and memory) and the **statistical power** of replicates. Directionality is logical: raw data → processed features → integrated model → hypothesis → experiment. The critical discipline is that this pipeline can only *propose*; the arrow from \"associated\" to \"causes\" must be closed by a wet-lab experiment, not by more computation.\n\n### Experimental Evidence\n\n- **What it measures/produces:** not a physical analyte, but **interpretations and hypotheses** — alignments, annotations, variant/expression/protein calls, networks, and ranked candidate lists.\n- **Principle:** algorithmic analysis and statistical integration of molecular datasets.\n- **Input:** sequence reads, expression matrices, spectra, clinical data; **Output:** annotated genes, differentially expressed/protein lists, pathways, and predictions.\n- **What it can prove:** sequence homology (BLAST); statistical **association** between a variant and a trait or between genes/proteins in a network; enrichment of functions in a gene list; reproducible patterns across datasets.\n- **What it cannot prove:** **causation/mechanism** — correlation, co-expression, and enrichment are not functional proof; predicted function/structure is a hypothesis until tested; poor-quality or uncurated data produce garbage output (\"garbage in, garbage out\").\n- **Controls/quality steps:** multiple-testing correction (FDR) to limit false positives; cross-validation of models; use of decoy/negative sets; benchmarking against known gold-standard data; independent datasets for replication; and always an experimental validation plan for top hits.\n- **Common mistakes:** over-interpreting a correlation as causation; ignoring multiple-testing correction (p-hacking); treating database annotations as infallible; mixing batch effects/confounders into integration; and presenting computational predictions as conclusions.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Bioinformatics = computational analysis + **integration** of biological data.\n- Key databases: **GenBank (DNA), UniProt (protein), PDB (structure), GEO/SRA (expression/seq)**.\n- **BLAST** aligns a query to a database to infer **homology/function**.\n- FASTA = sequence; **FASTQ = sequence + quality scores**.\n- Multi-omics integrates **genome + transcriptome + proteome** (e.g., eQTL, proteogenomics).\n- **Correlation ≠ causation**; predictions must be experimentally validated.",
+    "commonConfusions": "- **\"Bioinformatics proves a gene's function\"** — It predicts/associates; function is proven by experiment (knockout, rescue, biochemistry).\n- **\"Correlation implies causation\"** — Co-expression, co-occurrence, and GWAS hits are associations; mechanism requires manipulation.\n- **\"BLAST gives an exact function\"** — BLAST infers **homology**, from which function is *inferred* and must be confirmed.\n- **\"Databases are always correct\"** — Annotations carry errors and are periodically revised; quality varies by source.\n- **\"More data always means more truth\"** — Without proper statistics (FDR), replicates, and batch correction, big data can produce big false positives.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nBioinformatics is the librarian plus the detective for a gigantic biology library. Every experiment writes millions of notes (sequences, measurements), too many for any person to read. Computers sort the notes, find which ones match, and connect the dots — \"this DNA typo, that gene's activity, and that protein level all change together.\" But the detective only finds *clues*; someone still has to do the lab work to prove one thing actually caused another. (The analogy's limit: computers find patterns, not proof.)",
+    "quickReview": "- Bioinformatics stores (GenBank/UniProt/PDB), aligns (BLAST), annotates, and integrates multi-omics data.\n- Pipelines turn reads/spectra into variants, expression, and protein calls; integration links layers.\n- Output is hypotheses: correlation/association, never mechanism by itself — validate experimentally.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NHGRI, \"Bioinformatics.\" https://www.genome.gov/genetics-glossary/Bioinformatics",
+        "url": "https://www.genome.gov/genetics-glossary/Bioinformatics"
+      },
+      {
+        "text": "NHGRI, \"A Brief Guide to Genomics.\" https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics",
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"Whole-Genome Sequencing.\" https://openstax.org/books/biology-2e/pages/17-3-whole-genome-sequencing",
+        "url": "https://openstax.org/books/biology-2e/pages/17-3-whole-genome-sequencing"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"Applying Genomics.\" https://openstax.org/books/biology-2e/pages/17-4-applying-genomics",
+        "url": "https://openstax.org/books/biology-2e/pages/17-4-applying-genomics"
+      },
+      {
+        "text": "NCI, \"biomarker\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/biomarker",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/biomarker"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/11-modern-techniques/13-bioinformatics-integration.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

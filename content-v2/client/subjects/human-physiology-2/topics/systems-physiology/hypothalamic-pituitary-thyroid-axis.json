@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:human-physiology-2:systems-physiology:hypothalamic-pituitary-thyroid-axis",
+  "slug": "hypothalamic-pituitary-thyroid-axis",
+  "title": "Hypothalamic-Pituitary-Thyroid Axis",
+  "subject": {
+    "id": "subject:human-physiology-2",
+    "slug": "human-physiology-2",
+    "title": "Human Physiology II"
+  },
+  "unit": {
+    "id": "unit:human-physiology-2:systems-physiology",
+    "slug": "systems-physiology",
+    "title": "Systems Physiology",
+    "order": 1
+  },
+  "order": 26,
+  "status": "final",
+  "sections": {
+    "overview": "The hypothalamus releases thyrotropin-releasing hormone (TRH), which makes the anterior pituitary secrete thyroid-stimulating hormone (TSH). TSH drives the thyroid gland to trap iodine and synthesize thyroxine (T4) and triiodothyronine (T3), which raise basal metabolic rate and support growth and nervous-system maturation. Rising T3/T4 then feed back to suppress TRH and TSH, closing the loop. Loss of this control produces hyperthyroidism (too much hormone, as in Graves disease) or hypothyroidism (too little, as in Hashimoto thyroiditis).",
+    "whyItMatters": "Clinically, the axis is assessed by measuring serum TSH and free T4. A high TSH with a low free T4 points to a failing thyroid (primary hypothyroidism), whereas a suppressed TSH with a high free T4 points to primary hyperthyroidism — the feedback loop lets the pituitary's TSH report on the gland's status. Laboratory reference ranges, diagnostic criteria, and treatment protocols vary by institution and jurisdiction; these notes support education and do not replace clinical instruction, and any urgent symptoms require immediate evaluation by qualified clinicians or local emergency services.",
+    "learningObjectives": "1. Trace the hypothalamic-pituitary-thyroid (HPT) axis and explain how negative feedback keeps thyroid-hormone levels stable.\n2. Describe the steps of thyroid-hormone synthesis, including iodine trapping, thyroglobulin, and the formation of T3 and T4.\n3. Explain the cellular mechanism of action of thyroid hormones and their effects on basal metabolic rate, growth, and sympathetic sensitivity.\n4. Distinguish the causes and physiologic features of hyperthyroidism (Graves disease) and hypothyroidism (Hashimoto thyroiditis).",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| TRH | Hypothalamic hormone that tells the pituitary to release TSH | Starts the whole axis |\n| TSH | Pituitary hormone that drives thyroid growth and hormone output | Main stimulus for T3/T4 production |\n| Iodine trapping | Active uptake of iodide into thyroid follicular cells | First and rate-limiting step of synthesis |\n| Thyroglobulin | Large protein scaffold on which thyroid hormones are built | Storage form inside the colloid |\n| T4 (thyroxine) | Four-iodine hormone; main product of the gland | Prohormone that is converted to T3 |\n| T3 (triiodothyronine) | Three-iodine hormone; the most active form | Binds nuclear receptors to set metabolic rate |\n| BMR | Basal metabolic rate — resting energy expenditure | The key clinical measure of thyroid action |\n| Sympathomimetic effect | Increases target-tissue sensitivity to catecholamines | Explains fast heart rate in hyperthyroidism |",
+    "collegeNotes": "### 1. The axis is a negative-feedback loop\nThe hypothalamus secretes TRH into the hypophyseal portal blood. TRH stimulates anterior-pituitary thyrotrophs to release TSH. TSH binds receptors on thyroid follicular cells and stimulates every step of hormone production and release. Circulating T3 and T4 then inhibit TRH and TSH secretion at both the hypothalamus and pituitary, so the system self-regulates around a set point.\n### 2. Thyroid-hormone synthesis depends on iodine\nFollicular cells concentrate iodide from the blood (iodine trapping) using the sodium-iodide symporter, then attach it to tyrosine residues on the large protein thyroglobulin stored in the colloid. Coupling of iodinated tyrosines forms T4 (four iodines) and T3 (three iodines). T4 is the main product; most active T3 is made later by deiodination in peripheral tissues.\n### 3. Thyroid hormones act through nuclear receptors\nT3 and T4 are lipid-soluble, so they cross the cell membrane and bind nuclear receptors that regulate gene transcription. The result is increased synthesis of metabolic enzymes and proteins, raising basal metabolic rate, heat production, and sensitivity to catecholamines (a sympathomimetic effect).",
+    "howItWorks": "1. Hypothalamus releases TRH.\n2. Pituitary releases TSH.\n3. Thyroid traps iodine, builds thyroglobulin, and releases T4/T3.\n4. T3/T4 raise metabolic rate, heat production, growth, and sympathetic sensitivity.\n5. Rising hormone levels feed back to lower TRH/TSH, restoring balance.",
+    "comparisons": "",
+    "highYield": "- **High yield:** The HPT axis is a classic negative-feedback loop: TRH → TSH → T3/T4, with T3/T4 inhibiting TRH and TSH.\n- **High yield:** Iodine trapping by the sodium-iodide symporter is the essential, rate-limiting step in thyroid-hormone synthesis.\n- **High yield:** T4 is secreted in much greater amounts, but T3 is the biologically active form produced by peripheral deiodination.\n- Thyroid hormones act via intracellular nuclear receptors that alter gene transcription.\n- The sympathomimetic effect means thyroid hormone upregulates β-adrenergic receptors, raising heart rate and cardiac output.\n- **High yield:** Graves disease is an autoimmune hyperthyroidism caused by antibodies that stimulate the TSH receptor.\n- **High yield:** Hashimoto thyroiditis is an autoimmune hypothyroidism caused by destruction of the thyroid gland.\n- Primary hypothyroidism shows high TSH with low T4; primary hyperthyroidism shows low TSH with high T4 — a pattern explained by the feedback loop.\n- Normal growth and nervous-system development depend on adequate thyroid hormone, especially in early life.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| T4 (thyroxine) | T3 (triiodothyronine) | T4 has four iodines and is the main secreted product; T3 has three, is more potent, and is mostly made from T4 peripherally |\n| Primary hypothyroidism | Secondary hypothyroidism | Primary = thyroid failure (high TSH); secondary = pituitary/hypothalamic failure (low TSH) |\n| Graves disease | Hashimoto thyroiditis | Graves = antibody-stimulated overactivity; Hashimoto = antibody-mediated destruction and underactivity |\n| Thyroglobulin | Thyroxine-binding globulin (TBG) | Thyroglobulin is the synthesis scaffold in the colloid; TBG is the blood carrier protein |",
+    "memoryAids": "**\"TRH Tells, TSH Triggers, T3/T4 Take off\"** — remember the axis order (TRH → TSH → T3/T4) and that the \"Ts\" (thyroid hormones) feed back to Turn down the first two.",
+    "eli10": "Think of the HPT axis like a home thermostat. The hypothalamus is the person who sets the target temperature, the pituitary is the relay switch, and the thyroid is the furnace that actually produces heat (metabolic rate). When the house gets too warm, the thermostat tells the furnace to slow down; when it is too cold, it tells the furnace to work harder. The thyroid hormones T3 and T4 are the \"heat\" — they raise the rate at which every cell burns fuel. This comparison stops being exact because thyroid hormones do far more than generate heat: they shape brain development in childhood, alter how many receptors cells make for other signals, and their levels change slowly over days, not minute by minute like a thermostat.\n### Simple Example\nA student whose thyroid is overactive feels warm, has a racing heart, and loses weight despite a big appetite — the \"furnace\" is stuck on high. A person whose thyroid is underactive feels cold, sluggish, and gains weight easily — the \"furnace\" is barely lit.",
+    "quickReview": "### Topic Recap\n\nThe hypothalamus (TRH) and anterior pituitary (TSH) drive the thyroid to trap iodine and synthesize T4 and T3 on thyroglobulin. T3, acting through nuclear receptors, raises BMR, heat production, growth, and sympathetic sensitivity. Negative feedback from T3/T4 on TRH and TSH keeps levels stable, and its breakdown underlies Graves hyperthyroidism and Hashimoto hypothyroidism.\n\n### Knowledge Check\n\n1. Which hormone directly stimulates thyroid-hormone synthesis and release?\n2. Why is iodine trapping considered the rate-limiting step of synthesis?\n3. Which form of thyroid hormone is more biologically active, and where is most of it produced?\n4. In Graves disease, what is the underlying cause of thyroid overactivity?\n5. If a patient has a low TSH and a high free T4, does the feedback loop suggest primary hyperthyroidism or primary hypothyroidism?\n\n### Answers and Rationales\n\n1. **TSH.** It binds follicular-cell receptors and drives trapping, synthesis, and release. TRH acts one step upstream on the pituitary.\n2. **Because without iodide the gland cannot build T4 or T3 at all**, no matter how much TSH is present — trapping supplies the raw material.\n3. **T3**, and most of it is produced in peripheral tissues by deiodination of T4, not by the gland itself.\n4. **Autoantibodies that mimic TSH by stimulating the TSH receptor**, driving the gland to overproduce hormone independently of feedback.\n5. **Primary hyperthyroidism.** The low TSH reflects normal negative feedback from high thyroid hormone, indicating the gland itself is the source of the excess.",
+    "workedExamples": "1. **Synthesis:** TSH binds its receptor and activates cAMP signaling. Follicular cells pump iodide (I⁻) from blood into the cell (trapping), then into the colloid.\n2. **Iodination:** Thyroid peroxidase oxidizes iodide and attaches it to tyrosines on thyroglobulin, forming monoiodotyrosine (MIT) and diiodotyrosine (DIT).\n3. **Coupling:** Two DITs join to form T4; one DIT plus one MIT form T3. The thyroglobulin with attached hormones is stored in the colloid.\n4. **Release:** On TSH stimulation, cells endocytose colloid, lysosomal enzymes free T4 and T3, and hormones diffuse into blood, mostly bound to thyroxine-binding globulin (TBG).\n5. **Activation and effect:** Tissues convert T4 to the more potent T3 via deiodinases. T3 enters the nucleus, binds its receptor, and increases transcription of genes for Na⁺/K⁺-ATPase, mitochondrial enzymes, and β-adrenergic receptors — raising O₂ consumption (BMR), heat production, protein turnover, and heart rate. Normal growth and brain development require adequate thyroid hormone.\n6. **Feedback:** Elevated T3/T4 suppress TRH and TSH, reducing further production until levels return to normal.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "hypothalamic-pituitary-thyroid-axis",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "26-hypothalamic-pituitary-thyroid-axis",
+      "kind": "source_file_stem",
+      "source_id": "need-review-human-physiology-ii"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-human-physiology-ii",
+    "sourceFile": "human-physiology-ii-study-notes/docs/human-physiology-ii/26-hypothalamic-pituitary-thyroid-axis.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

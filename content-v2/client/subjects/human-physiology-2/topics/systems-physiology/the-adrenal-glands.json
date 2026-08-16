@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:human-physiology-2:systems-physiology:the-adrenal-glands",
+  "slug": "the-adrenal-glands",
+  "title": "The Adrenal Glands",
+  "subject": {
+    "id": "subject:human-physiology-2",
+    "slug": "human-physiology-2",
+    "title": "Human Physiology II"
+  },
+  "unit": {
+    "id": "unit:human-physiology-2:systems-physiology",
+    "slug": "systems-physiology",
+    "title": "Systems Physiology",
+    "order": 1
+  },
+  "order": 27,
+  "status": "final",
+  "sections": {
+    "overview": "Each adrenal gland has an outer cortex (three zones) and an inner medulla. The cortex produces steroid hormones: aldosterone from the zona glomerulosa (salt and water balance), cortisol from the zona fasciculata (stress, metabolism, immune suppression, and a daily rhythm), and androgens such as DHEA from the zona reticularis. The medulla is modified sympathetic nervous tissue that releases epinephrine and norepinephrine directly into the blood, amplifying the fight-or-flight response.",
+    "whyItMatters": "The HPA axis is evaluated with cortisol and ACTH measurements, and aldosterone with renin and electrolyte panels. Because cortisol has a diurnal rhythm, a single value must be interpreted with the time of day in mind, and diagnostic criteria and reference ranges vary by institution and jurisdiction. Understanding aldosterone's role in blood pressure and cortisol's immunosuppressive and metabolic effects frames many endocrine disorders, but these notes support education only and do not replace clinical instruction; urgent symptoms require immediate evaluation by qualified clinicians or local emergency services.",
+    "learningObjectives": "1. Name the three zones of the adrenal cortex and the principal hormone each produces.\n2. Describe the actions and regulation of aldosterone (a mineralocorticoid) on sodium, potassium, and blood pressure.\n3. Explain the metabolic, stress-response, immune, and diurnal effects of cortisol (a glucocorticoid).\n4. Describe the role of the adrenal medulla in releasing catecholamines during sympathetic activation.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Zona glomerulosa | Outermost cortical zone | Makes aldosterone (mineralocorticoid) |\n| Zona fasciculata | Middle, thickest cortical zone | Makes cortisol (glucocorticoid) |\n| Zona reticularis | Innermost cortical zone | Makes adrenal androgens (DHEA) |\n| Aldosterone | Mineralocorticoid that retains Na⁺ and excretes K⁺ | Controls blood volume and pressure |\n| Cortisol | Glucocorticoid that mobilizes fuel and suppresses immunity | Main stress hormone; has a daily rhythm |\n| DHEA | Adrenal androgen precursor | Minor source of sex steroids, especially in females |\n| Catecholamines | Epinephrine and norepinephrine | Fast fight-or-flight messengers from the medulla |\n| HPA axis | Hypothalamic-pituitary-adrenal axis | Controls cortisol release and stress response |",
+    "collegeNotes": "### 1. The cortex has three steroid-producing zones\nFrom outside inward: the zona glomerulosa makes mineralocorticoids (aldosterone), the zona fasciculata makes glucocorticoids (cortisol), and the zona reticularis makes adrenal androgens (mainly DHEA). All are built from cholesterol. \"Salt, sugar, sex — the deeper you go\" is the classic memory device.\n### 2. Aldosterone regulates sodium and potassium\nAldosterone acts on the distal nephron to increase sodium reabsorption and potassium (and hydrogen) secretion. It is controlled mainly by angiotensin II and plasma potassium, less so by ACTH. By retaining sodium, it raises blood volume and blood pressure.\n### 3. Cortisol is the stress and metabolism hormone\nCortisol raises blood glucose, mobilizes fuel, suppresses the immune system, and follows a strong diurnal (circadian) rhythm — highest before waking, lowest at night. Its release is driven by ACTH from the anterior pituitary in response to CRH from the hypothalamus (the HPA axis).",
+    "howItWorks": "1. The cortex converts cholesterol into aldosterone, cortisol, and DHEA in three separate zones.\n2. Aldosterone, driven by angiotensin II and K⁺, raises Na⁺ retention and blood pressure.\n3. Cortisol, driven by CRH→ACTH, mobilizes fuel, suppresses immunity, and follows a morning peak.\n4. The medulla, driven by sympathetic nerves, releases epinephrine and norepinephrine for immediate responses.\n5. Negative feedback (cortisol on CRH/ACTH; volume on renin) keeps both arms balanced.",
+    "comparisons": "",
+    "highYield": "- **High yield:** \"Salt, sugar, sex — the deeper you go\": glomerulosa → aldosterone, fasciculata → cortisol, reticularis → androgens (DHEA).\n- **High yield:** Aldosterone is regulated primarily by angiotensin II and plasma K⁺, not primarily by ACTH.\n- **High yield:** Cortisol is regulated by the HPA axis (CRH → ACTH → cortisol) with strong negative feedback.\n- **High yield:** Cortisol is catabolic — it raises blood glucose via gluconeogenesis, protein breakdown, and lipolysis while suppressing inflammation.\n- Cortisol follows a diurnal rhythm, peaking in the early morning.\n- The adrenal medulla is functionally a sympathetic ganglion whose chromaffin cells release epinephrine (~80%) and norepinephrine into the blood.\n- Medullary release is fast (seconds) and neural; cortical release is slower and hormonal.\n- Aldosterone's Na⁺ retention raises blood pressure; excess causes hypertension and low K⁺, deficiency causes salt wasting and high K⁺.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Mineralocorticoid (aldosterone) | Glucocorticoid (cortisol) | Aldosterone mainly controls Na⁺/K⁺ and volume; cortisol mainly controls fuel, stress, and immunity |\n| Adrenal cortex | Adrenal medulla | Cortex is steroid-producing endocrine tissue; medulla is neural tissue releasing catecholamines |\n| Aldosterone regulation | Cortisol regulation | Aldosterone: angiotensin II and K⁺; cortisol: ACTH from the HPA axis |\n| Catecholamines | Cortisol | Catecholamines act in seconds via membrane receptors; cortisol acts over hours via nuclear receptors |",
+    "memoryAids": "**\"Salt, Sugar, Sex — the deeper you go\"** (glomerulosa → fasciculata → reticularis), and remember the medulla is the **\"nerve in disguise\"** that releases adrenaline.",
+    "eli10": "Picture the adrenal gland as a factory with four floors. The top three floors are the cortex, and each makes a different \"product\" from the same raw material (cholesterol). The bottom floor, the medulla, is different — it is really a piece of the nervous system wearing a gland costume, spraying adrenaline into the bloodstream. The cortex handles long, steady jobs (salt balance, stress, daily energy), while the medulla handles split-second emergencies. The comparison stops being exact because the layers are physically blended and their products overlap in effect — cortisol and epinephrine both raise blood glucose, and the two parts respond to very different signals (hormones from the pituitary versus direct nerves).\n### Simple Example\nWhen you are startled, the medulla floods your blood with adrenaline within seconds, making your heart pound. Later, if stress continues, the cortex releases cortisol to keep fuel available and damp down inflammation over hours.",
+    "quickReview": "### Topic Recap\n\nThe adrenal cortex builds aldosterone (glomerulosa), cortisol (fasciculata), and DHEA (reticularis) from cholesterol. Aldosterone, driven by angiotensin II and K⁺, retains sodium to raise blood pressure. Cortisol, driven by CRH→ACTH, mobilizes fuel, suppresses immunity, and peaks each morning. The medulla, innervated by sympathetic nerves, releases epinephrine and norepinephrine for the fast fight-or-flight response.\n\n### Knowledge Check\n\n1. Which adrenal zone produces aldosterone, and which two signals mainly control it?\n2. What three metabolic effects does cortisol have on fuel availability?\n3. Why does cortisol follow a diurnal rhythm?\n4. What tissue is the adrenal medulla functionally, and which two catecholamines does it release?\n5. How does aldosterone change blood pressure, and by what mechanism?\n\n### Answers and Rationales\n\n1. **The zona glomerulosa**, controlled mainly by **angiotensin II and plasma potassium**. ACTH has only a minor role here.\n2. **It promotes gluconeogenesis in the liver, protein breakdown in muscle, and lipolysis in adipose tissue**, all of which raise blood glucose and free fatty acids.\n3. **Because the HPA axis is driven by a circadian clock**, so CRH/ACTH (and thus cortisol) peak in the early morning and fall at night.\n4. **A sympathetic ganglion**; it releases **epinephrine (mostly) and norepinephrine** into the bloodstream.\n5. **It raises blood pressure** by increasing Na⁺ reabsorption (via Na⁺/K⁺-ATPase and epithelial sodium channels) in the distal nephron, so water follows sodium and blood volume rises.",
+    "workedExamples": "1. **Mineralocorticoid pathway:** Low blood pressure or low sodium activates the renin-angiotensin-aldosterone system (RAAS). Angiotensin II and high plasma K⁺ stimulate the zona glomerulosa to release aldosterone.\n2. **Aldosterone action:** Aldosterone binds intracellular mineralocorticoid receptors in distal-tubule principal cells, increasing synthesis of Na⁺/K⁺-ATPase and epithelial sodium channels. Na⁺ is reabsorbed and K⁺ secreted; water follows sodium, so blood volume and pressure rise. Negative feedback (higher volume → less renin) turns the pathway down.\n3. **Glucocorticoid pathway:** Stress (or the circadian clock) prompts hypothalamic CRH → pituitary ACTH → zona fasciculata cortisol. Cortisol raises blood glucose by promoting gluconeogenesis in the liver, protein breakdown in muscle, and fat breakdown in adipose tissue (catabolic, fuel-mobilizing effects).\n4. **Immune and feedback effects:** Cortisol suppresses inflammation and immune activity (inhibiting cytokines and leukocyte function). Rising cortisol feeds back to suppress CRH and ACTH, closing the HPA loop.\n5. **Diurnal rhythm:** Cortisol peaks in the early morning and declines through the day, reflecting circadian drive on the HPA axis — a key point when interpreting a single cortisol measurement.\n6. **Medullary pathway:** Preganglionic sympathetic fibers directly innervate chromaffin cells of the medulla. Acetylcholine triggers release of epinephrine (mostly) and norepinephrine into blood, supporting the sympathetic response by raising heart rate, cardiac output, and blood glucose and redirecting blood to muscle.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "the-adrenal-glands",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "27-the-adrenal-glands",
+      "kind": "source_file_stem",
+      "source_id": "need-review-human-physiology-ii"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-human-physiology-ii",
+    "sourceFile": "human-physiology-ii-study-notes/docs/human-physiology-ii/27-the-adrenal-glands.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

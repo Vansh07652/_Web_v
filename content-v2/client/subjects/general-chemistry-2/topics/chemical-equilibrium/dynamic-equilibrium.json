@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-equilibrium:dynamic-equilibrium",
+  "slug": "dynamic-equilibrium",
+  "title": "Dynamic Equilibrium",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-equilibrium",
+    "slug": "chemical-equilibrium",
+    "title": "Chemical Equilibrium",
+    "order": 4
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "Chemical equilibrium is the state in which the **forward and reverse reactions proceed at the same rate**, so the concentrations of all species stop changing. The word \"dynamic\" is essential: the reaction has not stopped. Reactants are still converting to products and products back to reactants, but because the two processes balance, there is no net change. Equilibrium is a condition of *equal rates*, not *equal amounts*.",
+    "whyItMatters": "Equilibrium is the endpoint of almost every reversible chemical process — acid–base reactions, solubility, gas-phase reactions, and biochemical binding. Understanding that it is a *dynamic balance of rates* (not a static stop, and not equal concentrations) is the foundation for equilibrium constants, Le Chatelier's principle, and essentially all of acid–base and solution chemistry that follows.",
+    "learningObjectives": "- Define chemical equilibrium and explain why it is \"dynamic.\"\n- State the condition for equilibrium in terms of forward and reverse rates.\n- Explain why equilibrium concentrations are constant but not necessarily equal.\n- Recognize that equilibrium can be approached from either direction.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nChemical equilibrium is the state in which the **forward and reverse reactions proceed at the same rate**, so the concentrations of all species stop changing. The word \"dynamic\" is essential: the reaction has not stopped. Reactants are still converting to products and products back to reactants, but because the two processes balance, there is no net change. Equilibrium is a condition of *equal rates*, not *equal amounts*.\n\n### Key Ideas\n\n- At equilibrium, rate(forward) = rate(reverse), so net concentrations are constant.\n- Equilibrium is dynamic — molecules constantly interconvert in both directions.\n- Equilibrium concentrations are generally **not equal** to each other; they are fixed by the equilibrium constant.\n- The same equilibrium state is reached whether you start with pure reactants or pure products.\n\n### Equations and Variables\n\nFor the general reversible reaction aA + bB ⇌ cC + dD, at equilibrium:\n\n$$\\text{rate}_{\\text{fwd}} = \\text{rate}_{\\text{rev}}$$\n\nIf the forward reaction follows Rate = k_f[A]^a[B]^b and the reverse Rate = k_r[C]^c[D]^d (valid when the reaction is elementary), then at equilibrium:\n\n$$k_f[A]^a[B]^b = k_r[C]^c[D]^d \\quad\\Rightarrow\\quad \\frac{k_f}{k_r} = \\frac{[C]^c[D]^d}{[A]^a[B]^b} = K_c$$\n\n- k_f, k_r = forward and reverse rate constants\n- K_c = the equilibrium constant (concentration form)\n- [A], [B], [C], [D] = equilibrium concentrations (M)\n\n### How It Works\n\nStart with pure N₂O₄ gas (colorless). It begins to decompose: N₂O₄ → 2 NO₂, and NO₂ is brown, so the color deepens. As NO₂ builds up, the reverse reaction (2 NO₂ → N₂O₄) becomes faster. Eventually the forward rate (decomposition) and reverse rate (recombination) become equal. From that moment, the color stops changing — the mixture has reached a constant, brown appearance, yet both reactions continue invisibly.\n\nThat \"no net change\" is the hallmark of equilibrium. The system is not frozen; it is a steady balance. Because molecules keep moving between forms, the equilibrium can be approached from either side: starting with pure N₂O₄ or pure NO₂ leads to the same final ratio of concentrations at a given temperature.\n\n### Worked Example\n\nFor N₂O₄(g) ⇌ 2 NO₂(g) at 25 °C, K_c = 4.6 × 10⁻³. A 1.00 L flask at equilibrium contains 0.048 M NO₂ and 0.476 M N₂O₄.\n\n**(a) Verify the reaction is at equilibrium.**\n\n$$Q = \\frac{[\\text{NO}_2]^2}{[\\text{N}_2\\text{O}_4]} = \\frac{(0.048)^2}{0.476} = \\frac{2.3\\times10^{-3}}{0.476} = 4.8\\times10^{-3} \\approx K_c$$\n\nThe ratio matches K_c, consistent with equilibrium.\n\n**(b) Are the concentrations equal?** No — [NO₂] = 0.048 M while [N₂O₄] = 0.476 M, a tenfold difference. Equal *rates*, not equal *concentrations*, define equilibrium.\n\n**(c) Does the reaction stop?** No. Both the forward decomposition and the reverse recombination continue; only their rates are equal, so there is no net change in concentration.",
+    "howItWorks": "Start with pure N₂O₄ gas (colorless). It begins to decompose: N₂O₄ → 2 NO₂, and NO₂ is brown, so the color deepens. As NO₂ builds up, the reverse reaction (2 NO₂ → N₂O₄) becomes faster. Eventually the forward rate (decomposition) and reverse rate (recombination) become equal. From that moment, the color stops changing — the mixture has reached a constant, brown appearance, yet both reactions continue invisibly.\n\nThat \"no net change\" is the hallmark of equilibrium. The system is not frozen; it is a steady balance. Because molecules keep moving between forms, the equilibrium can be approached from either side: starting with pure N₂O₄ or pure NO₂ leads to the same final ratio of concentrations at a given temperature.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Equilibrium: forward rate = reverse rate (equal rates, not equal concentrations).\n- It is dynamic — both reactions continue; there is only zero *net* change.\n- Concentrations at equilibrium are constant but generally unequal.\n- The same equilibrium is reached from either starting direction.\n- The ratio k_f/k_r equals the equilibrium constant K_c.",
+    "commonConfusions": "- **\"The reaction has stopped.\"** It has not; it is balanced. Both directions proceed.\n- **\"At equilibrium, concentrations are equal.\"** They are constant, not equal.\n- **\"Equilibrium means halfway.\"** Equilibrium is wherever K says it is — often far to one side.\n- **\"Equilibrium can only be reached from reactants.\"** It can be reached from either direction.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a crowded store with two doors. People enter through one door and leave through the other. If the same number of people enter per minute as leave per minute, the store stays just as crowded — even though people are constantly moving in both directions. That's equilibrium: the \"in\" and \"out\" rates are equal, so the population looks frozen, but it isn't. And notice, the number of people inside doesn't have to equal the number outside — it just has to stay steady. Same for chemistry: reactants and products don't need equal amounts; they just need equal traffic.",
+    "quickReview": "1. State the rate condition that defines equilibrium.\n2. Why is equilibrium called \"dynamic\"?\n3. Are equilibrium concentrations necessarily equal? Explain.\n4. What does the ratio k_f/k_r equal at equilibrium?\n5. Give a visible example of a system reaching a colored equilibrium.",
+    "workedExamples": "### Worked Example\n\nFor N₂O₄(g) ⇌ 2 NO₂(g) at 25 °C, K_c = 4.6 × 10⁻³. A 1.00 L flask at equilibrium contains 0.048 M NO₂ and 0.476 M N₂O₄.\n\n**(a) Verify the reaction is at equilibrium.**\n\n$$Q = \\frac{[\\text{NO}_2]^2}{[\\text{N}_2\\text{O}_4]} = \\frac{(0.048)^2}{0.476} = \\frac{2.3\\times10^{-3}}{0.476} = 4.8\\times10^{-3} \\approx K_c$$\n\nThe ratio matches K_c, consistent with equilibrium.\n\n**(b) Are the concentrations equal?** No — [NO₂] = 0.048 M while [N₂O₄] = 0.476 M, a tenfold difference. Equal *rates*, not equal *concentrations*, define equilibrium.\n\n**(c) Does the reaction stop?** No. Both the forward decomposition and the reverse recombination continue; only their rates are equal, so there is no net change in concentration.",
+    "references": [
+      {
+        "text": "OpenStax. *Chemistry 2e*. Ch. 13, \"Chemical Equilibria.\" https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria"
+      },
+      {
+        "text": "IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"chemical equilibrium.\" https://goldbook.iupac.org/",
+        "url": "https://goldbook.iupac.org/"
+      },
+      {
+        "text": "Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman."
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/13-chemical-equilibrium/01-dynamic-equilibrium.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

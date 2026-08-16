@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:scientific-method-and-experimental-design",
+  "slug": "scientific-method-and-experimental-design",
+  "title": "Scientific Method and Experimental Design",
+  "subject": {
+    "id": "subject:mcat-foundations",
+    "slug": "mcat-foundations",
+    "title": "MCAT Foundations"
+  },
+  "unit": {
+    "id": "unit:mcat-foundations:research-methods-statistics-and-scientific-reasoning",
+    "slug": "research-methods-statistics-and-scientific-reasoning",
+    "title": "Research Methods, Statistics, and Scientific Reasoning",
+    "order": 9
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "The scientific method is the systematic framework by which researchers generate and test explanations about the natural world. On the MCAT, mastery of experimental design is essential for analyzing passages in every section: you must identify independent and dependent variables, evaluate control conditions, assess blinding, distinguish experiments from observational studies, and recognize when replication strengthens or weakens a scientific claim. These skills appear in standalone research-design questions and embedded passage analyses across biology, biochemistry, chemistry, physics, and the behavioral sciences.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- Hypothesis formation\n- Independent and dependent variables\n- Controls\n- Blinding\n- Replication",
+    "collegeNotes": "## Steps of the Scientific Method\n\nThe scientific method proceeds through a cyclical sequence: (1) Observation -- identifying a phenomenon or pattern of interest; (2) Question -- formulating a specific question about the observation; (3) Hypothesis -- proposing a testable, falsifiable explanation; (4) Experiment -- designing and conducting a controlled test to collect data; (5) Analysis -- evaluating data using statistical methods to determine if results support or refute the hypothesis; (6) Conclusion -- interpreting results in context, identifying limitations, and generating new questions. The MCAT emphasizes that the scientific method is iterative: negative results revise the hypothesis rather than being 'failures,' and conclusions ideally generate further testable predictions. This distinguishes science from non-scientific modes of inquiry.\n\n## Hypothesis Formation\n\nA hypothesis is a specific, testable, and falsifiable statement that proposes a relationship between variables. The null hypothesis (H0) states there is no effect or no relationship; the alternative hypothesis (H1 or Ha) states there is an effect. The MCAT tests this distinction heavily in Research Methods passages: investigators design experiments to reject H0, not to prove H1 directly. A strong hypothesis is falsifiable -- it must be possible to conceive of evidence that would disprove it. 'All swans are white' is falsifiable (one black swan disproves it). 'Some swans are white' is not falsifiable (no observation disproves it). Hypotheses predict directionality when the literature supports it; non-directional hypotheses are appropriate for exploratory work.\n\n## Experimental vs. Observational Studies\n\nExperimental studies manipulate an independent variable (IV) and measure the dependent variable (DV) while controlling for confounds, allowing causal inference. Randomized controlled trials (RCTs) are the gold standard. Observational studies measure variables without manipulation and cannot establish causation -- they can only identify associations. Types include: cohort studies (follow a group forward in time, measuring exposure and outcome), case-control studies (compare individuals with and without an outcome, looking backward at exposures), and cross-sectional studies (measure exposure and outcome at a single time point). The MCAT frequently asks whether a study design supports causal claims or only correlational ones. A key passage-analysis skill is recognizing when confounding variables in an observational study make a causal interpretation invalid.\n\n## Independent and Dependent Variables\n\nThe independent variable (IV) is the variable the researcher manipulates or the grouping factor being compared. The dependent variable (DV) is the outcome measured in response to changes in the IV. In an experiment testing whether drug X lowers blood pressure, drug X (treatment vs. placebo) is the IV; blood pressure readings are the DV. On graphs, the IV is plotted on the x-axis and the DV on the y-axis. Control variables (constants) are factors held constant across all groups to prevent confounding. The MCAT tests variable identification in complex passages with multiple experimental conditions, and asks students to predict how changing the IV would alter the DV, or evaluate whether a DV adequately operationalizes the construct of interest.\n\n## Controls\n\nControl groups provide a baseline for comparison in experiments. A negative control group receives no treatment or a placebo and is expected to show no effect, confirming the experimental manipulation alone produces the result. A positive control group receives a treatment known to produce the effect, confirming the experimental system is capable of detecting an effect. For example, in an enzyme inhibition assay: the negative control is enzyme-only (no inhibitor, expected full activity), the positive control is a known inhibitor (expected reduced activity), and the experimental condition uses the novel compound. Without controls, it is impossible to attribute results to the independent variable. The MCAT frequently tests whether passage-described experiments include adequate positive and negative controls, and what a failure in each control would imply about the validity of the results.\n\n## Blinding\n\nBlinding reduces bias in experimental studies by concealing group assignments from participants, researchers, or both. Single-blind design: participants do not know whether they are in the treatment or control group, reducing participant expectancy effects and placebo responses. Double-blind design: neither participants nor the researchers interacting with them know group assignments, reducing both participant expectancy effects and experimenter bias (where researchers subtly influence outcomes based on expectations). The MCAT expects students to identify which type of blinding is appropriate for a given study design and to recognize when lack of blinding introduces specific forms of bias. Blinding is not always feasible -- surgical trials, for example, cannot blind the surgeon.\n\n## Replication and Reproducibility\n\nReplication is the repetition of a study to confirm results. Direct replication uses identical methods to reproduce a finding. Conceptual replication tests the same hypothesis using different methods, strengthening generalizability. Reproducibility refers to the ability to obtain consistent results using the original data and analysis code. The MCAT emphasizes that single studies do not establish scientific truth -- replication across independent labs, different populations, and varied methods builds confidence in a finding. Failure to replicate can reveal hidden moderators, methodological artifacts, or false positives. The replication crisis in psychology (where many published findings failed to replicate) is MCAT-relevant: small sample sizes, p-hacking, publication bias, and undisclosed flexibility in analysis all undermine replicability. The MCAT may present passages contrasting two similar studies with different outcomes, asking students to identify methodological differences that explain the discrepancy.\n\n## How it works\n\nThe scientific method operates as a self-correcting system. A researcher observes a pattern, forms a falsifiable hypothesis, designs an experiment that isolates the independent variable with proper controls and blinding, measures the dependent variable objectively, and analyzes results statistically. If the data reject the null hypothesis, the alternative gains support -- but is never definitively proven. The study is then replicated by independent teams; consistent replication builds scientific consensus, while failure to replicate triggers methodological scrutiny. The MCAT tests this logic chain: can you trace a passage from observation through hypothesis to experimental design, identify flaws (missing controls, no blinding, confounds), and evaluate whether conclusions follow from the data?",
+    "howItWorks": "The scientific method operates as a self-correcting system. A researcher observes a pattern, forms a falsifiable hypothesis, designs an experiment that isolates the independent variable with proper controls and blinding, measures the dependent variable objectively, and analyzes results statistically. If the data reject the null hypothesis, the alternative gains support -- but is never definitively proven. The study is then replicated by independent teams; consistent replication builds scientific consensus, while failure to replicate triggers methodological scrutiny. The MCAT tests this logic chain: can you trace a passage from observation through hypothesis to experimental design, identify flaws (missing controls, no blinding, confounds), and evaluate whether conclusions follow from the data?",
+    "comparisons": "- C/P (Chemistry/Physics): Experimental passages present titration curves, spectrophotometric assays, and reaction kinetics. Identify the IV (concentration, temperature, pH), DV (absorbance, rate), and controls (blank, standard solution). Recognize when catalysis or inhibition experiments lack proper positive controls.\n- B/B (Biology/Biochemistry): Gene knockout experiments, drug trials, and cell-culture studies require identifying the IV (mutation, treatment), DV (protein expression, cell viability), and evaluating whether negative controls (wild-type, vehicle) and positive controls (known inducer) are present. Blinding is critical in behavioral assays.\n- P/S (Psychology/Sociology): Survey, observational, and experimental designs in social science passages require distinguishing correlation from causation, identifying confounds (selection bias, social desirability), and evaluating whether blinding and random assignment support causal claims. The replication crisis is a recurring theme.\n- CARS-like reasoning: Every MCAT section tests the ability to evaluate whether a study's design supports its conclusions. The AAMC explicitly lists 'Scientific Reasoning and Problem Solving' and 'Reasoning about the Design and Execution of Research' as foundational skills tested across all sections.",
+    "highYield": "",
+    "commonConfusions": "- \"Correlation proves causation.\" Observational studies can only establish associations. Only experimental manipulation of the IV with random assignment and proper controls supports causal inference. The MCAT rewards identifying when a passage overstates causal claims from correlational data.\n- \"A null result means the study failed.\" Failing to reject H0 is a valid scientific result. It may mean the effect does not exist, the sample was too small, or the measurement was insensitive. The MCAT tests whether you can distinguish a well-designed study with a null result from a poorly designed one.\n- \"Double-blind eliminates all bias.\" Double-blinding reduces participant and experimenter bias, but it does not eliminate selection bias (addressed by random assignment), measurement bias (addressed by reliable instruments), or confounding (addressed by control variables and randomization).\n- \"The control group is the one that gets nothing.\" Control groups can receive placebos, standard treatments, or vehicle solutions. The key is that the control provides a valid baseline. A drug trial comparing a new drug to an existing standard treatment may use the standard as an 'active control' rather than a placebo.\n- \"A single well-designed study proves a theory.\" Science advances through replication and consensus. The MCAT rewards recognizing that one study, however rigorous, is not definitive. Passage questions may ask why a follow-up study with different methodology is needed even when the original was well-designed.\n- \"Blinding is always possible.\" Some interventions cannot be blinded (surgery, psychotherapy, exercise). The MCAT expects recognition that these studies acknowledge lack of blinding as a limitation rather than being invalid.",
+    "memoryAids": "",
+    "eli10": "Imagine you are a detective investigating a case. You notice a clue (observation), form a hunch about who did it (hypothesis), and gather evidence (experiment). You do not just interview one suspect; you compare their story against alibis (control groups) and make sure witnesses do not know who you suspect (blinding). You write everything down so another detective can double-check your work (replication). A good detective knows that one piece of evidence does not close the case -- multiple sources must converge. And if new evidence contradicts your hunch, you update your theory rather than ignoring it. That is the scientific method in action: systematic, self-correcting, and built on comparing what you think against what the evidence actually shows. The limitation: real science does not always produce a clean 'who did it' answer. Many studies produce ambiguous data, and scientific progress is often messy and incremental rather than dramatic.",
+    "quickReview": "- Scientific method: Observation -> Question -> Hypothesis -> Experiment -> Analysis -> Conclusion. Iterative, self-correcting, not linear.\n- Null hypothesis (H0): no effect. Alternative (H1/Ha): there is an effect. Experiments test H0, not prove H1. Falsifiability is required.\n- Experimental studies manipulate IV to measure effect on DV, enabling causal inference. Observational studies measure without manipulation, identifying only associations.\n- IV = manipulated/grouping variable (x-axis). DV = measured outcome (y-axis). Control variables are held constant to prevent confounding.\n- Negative control: expected no effect, confirms specificity. Positive control: expected known effect, confirms assay sensitivity. Both are essential for valid interpretation.\n- Single-blind: participants unaware of group. Double-blind: both participants and researchers unaware. Reduces placebo effect and experimenter bias.\n- Direct replication: same methods, verify finding. Conceptual replication: different methods, test same hypothesis, strengthen generalizability.\n- Confounding variable: an unmeasured third variable correlated with both IV and DV, creating a spurious association. Randomized assignment is the strongest defense.\n- Internal validity: does the IV truly cause the DV change? External validity: do results generalize beyond the study sample? There is often a trade-off.\n- Reproducibility: can results be obtained from original data and code? Replicability: can results be obtained in a new study? Both are pillars of scientific credibility.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "MCAT Content Outline: Scientific Reasoning and Research Methods — Association of American Medical Colleges (AAMC)",
+        "url": "https://students-residents.aamc.org/media/9261/download"
+      },
+      {
+        "text": "Biology 2e, Chapter 1: The Science of Biology, Section 1.1 (The Science of Biology) — OpenStax",
+        "url": "https://openstax.org/books/biology-2e/pages/1-1-the-science-of-biology"
+      },
+      {
+        "text": "Psychology 2e, Chapter 2: Psychological Research, Section 2.2 (Approaches to Research) — OpenStax",
+        "url": "https://openstax.org/books/psychology-2e/pages/2-introduction"
+      },
+      {
+        "text": "Chemistry 2e, Chapter 1: Essential Ideas, Section 1.2 (Phases and Classification of Matter) — OpenStax",
+        "url": "https://openstax.org/books/chemistry-2e/pages/1-introduction"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "scientific-method-and-experimental-design",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "MCAT_STUDY_LIBRARY/pages/research_methods_statistics/01-scientific-method-and-experimental-design.md"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "MCAT_STUDY_LIBRARY/pages/research_methods_statistics/01-scientific-method-and-experimental-design.md"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "mcat-one-page-topic-library",
+    "sourceFile": "MCAT_STUDY_LIBRARY/pages/research_methods_statistics/01-scientific-method-and-experimental-design.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-mcat-library"
+  },
+  "sourceSnapshotMarkdown": ""
+}

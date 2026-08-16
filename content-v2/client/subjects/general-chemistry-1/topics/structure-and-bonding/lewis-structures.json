@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-1:structure-and-bonding:lewis-structures",
+  "slug": "lewis-structures",
+  "title": "Lewis Structures",
+  "subject": {
+    "id": "subject:general-chemistry-1",
+    "slug": "general-chemistry-1",
+    "title": "General Chemistry I"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-1:structure-and-bonding",
+    "slug": "structure-and-bonding",
+    "title": "Structure and Bonding",
+    "order": 6
+  },
+  "order": 20,
+  "status": "final",
+  "sections": {
+    "overview": "A Lewis structure shows how valence electrons are arranged as bonds and lone pairs around atoms. The octet rule states that main-group atoms tend to share or transfer electrons to achieve eight valence electrons (a filled \\\\(ns^2np^6\\\\) shell). Formal charge — computed as valence electrons minus lone-pair electrons minus half the bonding electrons — helps pick the most stable arrangement, and resonance describes a molecule whose true electron distribution is an average of several equivalent drawings rather than any single one.",
+    "whyItMatters": "Lewis structures and formal charge explain why some oxygen-containing species are highly reactive. Reactive oxygen species — radicals and ions such as superoxide (\\\\(O_2^-\\\\)) — are odd-electron or charged species whose unpaired electrons and unfavorable formal charges make them aggressive oxidizers. In the body they are tightly regulated by antioxidant enzymes, and understanding their Lewis structures is the first step to understanding both their damage and their biological signaling roles.",
+    "learningObjectives": "1. State the octet rule and its basis in electron configuration.\n2. Draw valid Lewis structures for molecules and polyatomic ions using a systematic procedure.\n3. Calculate formal charge and choose the best resonance structure.\n4. Recognize resonance and the three classes of octet exceptions (incomplete, expanded, odd-electron).",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Octet rule | Atoms tend toward eight valence electrons | Drives most bonding patterns |\n| Lewis structure | Diagram of bonds and lone pairs using valence electrons | Shows connectivity and electron placement |\n| Lone pair | A nonbonding pair of electrons on one atom | Affects geometry and reactivity |\n| Central atom | The atom other atoms bond to (usually least electronegative) | The skeleton of the structure |\n| Formal charge (FC) | Bookkeeping charge assuming equal sharing of bond electrons | Picks the most stable structure |\n| Resonance | Two or more equivalent Lewis structures for one molecule | The true structure is an average (hybrid) |\n| Incomplete octet | Fewer than eight electrons (B, Be) | Common, stable exception |\n| Expanded octet | More than eight electrons (period 3+ elements) | Allowed via d orbitals (P, S, Cl) |\n| Free radical | Species with an odd number of electrons | Unpaired electrons; reactive |",
+    "collegeNotes": "### 1. The Octet Rule\n\nMain-group atoms bond so that each tends to reach eight valence electrons (hydrogen aims for two). This mimics the stable \\\\(ns^2np^6\\\\) noble-gas configuration. The rule guides most Lewis structures but has important exceptions (below).\n\n### 2. Drawing Lewis Structures (Systematic Procedure)\n\n1. **Count** total valence electrons (add the group numbers; add one per negative charge for anions, subtract one per positive charge for cations).\n2. **Choose** the central atom — usually the least electronegative atom that is not hydrogen.\n3. **Connect** atoms with single bonds (each bond uses 2 electrons).\n4. **Distribute** remaining electrons as lone pairs, satisfying octets for the outer atoms first.\n5. **Form multiple bonds** if the central atom still lacks an octet, by converting lone pairs into shared pairs.\n6. **Check** formal charges and, for ions, enclose the structure in brackets with the charge shown.\n\n### 3. Formal Charge, Resonance, and Octet Exceptions\n\n**Formal charge** for an atom is:\n\n\\\\[ FC = V - (L + \\\\tfrac{1}{2}B) \\\\]\n\nwhere \\\\(V\\\\) = valence electrons of the free atom, \\\\(L\\\\) = lone-pair electrons, and \\\\(B\\\\) = bonding (shared) electrons. The best structure minimizes formal charges, with any negative charge on the more electronegative atom.\n\n**Resonance** occurs when two or more valid Lewis structures differ only in the placement of electrons (not atoms). The real molecule is a single, averaged electron distribution — a resonance hybrid — not a flipping between the drawings.\n\n**Octet exceptions:** (a) *Incomplete octet* — boron and beryllium are stable with fewer than eight electrons (e.g., \\\\(BF_3\\\\)); (b) *Expanded octet* — period 3 and heavier elements can use empty d orbitals to exceed eight (e.g., \\\\(SF_6\\\\), \\\\(PCl_5\\\\)); (c) *Odd-electron species* — free radicals with an unpaired electron (e.g., \\\\(NO\\\\), \\\\(NO_2\\\\)).",
+    "howItWorks": "1. Count total valence electrons, adjusting for any ion charge.\n2. Place the least electronegative non-hydrogen atom in the center and single-bond the others to it.\n3. Give outer atoms lone pairs to fill their octets.\n4. Put any remaining electrons on the central atom.\n5. If the central atom is still short of an octet, convert outer lone pairs into multiple bonds.\n6. Compute formal charges and, if needed, draw resonance structures or note an octet exception.\n7. For ions, bracket the structure and write the net charge.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Hydrogen never exceeds two electrons; it is never the central atom.\n- **High yield:** Count valence electrons and *adjust for the ion's charge* before drawing.\n- **High yield:** Formal charge = \\\\(V - (L + \\\\tfrac{1}{2}B)\\\\); the best structure minimizes formal charge.\n- **High yield:** Resonance is one averaged structure (a hybrid), not a molecule flipping between drawings.\n- **High yield:** Expanded octets require a central atom from period 3 or lower (P, S, Cl, etc.).\n- Boron and beryllium form stable incomplete octets (\\\\(BF_3\\\\), \\\\(BeCl_2\\\\)).\n- Odd-electron molecules like NO are radicals; they cannot satisfy the octet rule for every atom.\n- Resonance structures differ only in electron placement, never in atom positions.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Lone pair | Bonding pair | A lone pair sits on one atom; a bonding pair is shared between two |\n| Formal charge | Oxidation state | Formal charge assumes equal sharing; oxidation state assigns electrons to the more electronegative atom |\n| Resonance | Isomerism | Resonance keeps atoms fixed and moves only electrons; isomers rearrange atoms |\n| Incomplete octet | Expanded octet | Incomplete = fewer than 8 (B, Be); expanded = more than 8 (period 3+) |\n| Octet rule | Valence (number of bonds) | Octet counts *all* valence electrons (shared + lone), not just bonds |",
+    "memoryAids": "**\"Count, Connect, Complete, Convert, Check\"** — the five C's of Lewis drawing: Count valence electrons, Connect atoms with single bonds, Complete outer octets with lone pairs, Convert lone pairs to multiple bonds, and Check formal charges. For formal charge itself: **\"Valence minus lonely minus half the bonds.\"**",
+    "eli10": "Drawing a Lewis structure is like setting a dinner table so every guest ends up with a full plate of eight. You count how much \"food\" (valence electrons) everyone brought, seat the atoms, and pass electrons around — sharing pairs between neighbors and leaving extra pairs (lone pairs) for individuals — until as many plates as possible are full.\n\n*Where it stops being exact:* real electrons are not stationary dots glued between atoms. They are spread out in orbitals, and in resonance cases the \"double bond\" is actually smeared evenly across several positions. The drawing is a flat, static map of something fuzzy and dynamic.\n\n### Simple Example\n\nWater, \\\\(H_2O\\\\), has \\\\(6 + 2(1) = 8\\\\) valence electrons. Oxygen sits in the middle with two O–H single bonds and two lone pairs, giving oxygen eight electrons total and each hydrogen two.",
+    "quickReview": "### Topic Recap\n\nLewis structures translate the octet rule into concrete diagrams of bonds and lone pairs. A five-step procedure — count, connect, complete, convert, check — reliably builds structures for neutral molecules and ions. Formal charge identifies the best structure, resonance averages equivalent electron placements into a hybrid, and three well-defined exceptions (incomplete, expanded, and odd-electron) mark where the octet rule bends without breaking.\n\n### Knowledge Check\n\n1. How many valence electrons are used to draw the Lewis structure of \\\\(NO_3^-\\\\)?\n2. Why is boron stable with only six electrons in \\\\(BF_3\\\\)?\n3. Calculate the formal charge on nitrogen in \\\\(NH_4^+\\\\), given N has four bonds and no lone pairs.\n4. Does \\\\(O_3\\\\) (ozone) have one valid Lewis structure or resonance structures? Explain briefly.\n5. Can a period 2 element such as nitrogen form an expanded octet? Why or why not?\n\n### Answers and Rationales\n\n1. \\\\(5 + 3(6) + 1 = 24\\\\) electrons. The +1 for the negative charge accounts for the extra electron of the anion.\n2. Boron has only three valence electrons and commonly forms three bonds (six electrons), which is stable because reaching a full octet would require an unfavorable extra bond; the incomplete octet is normal for B and Be.\n3. \\\\(FC = 5 - (0 + \\\\tfrac{1}{2}\\\\times 8) = 5 - 4 = +1\\\\). This is why \\\\(NH_4^+\\\\) carries a +1 charge on nitrogen.\n4. Ozone has resonance: the double bond can be placed on either side, giving two equivalent structures; the real molecule is a hybrid with two equivalent O–O bonds.\n5. No. Nitrogen is in period 2 and has no accessible d orbitals in its valence shell, so it cannot exceed eight electrons. Expanded octets require period 3 or lower.",
+    "workedExamples": "\\\\[ FC = V - (L + \\\\tfrac{1}{2}B) \\\\]\n\n**Worked Example 1 — Carbon dioxide, \\\\(CO_2\\\\).** Total valence electrons: \\\\(4 + 2(6) = 16\\\\). Carbon is central. After single bonds (4 electrons used) and placing lone pairs on oxygen, carbon lacks an octet, so two lone pairs become two double bonds: \\\\(O=C=O\\\\). Formal charges: each O has \\\\(FC = 6 - (4 + 2) = 0\\\\); C has \\\\(FC = 4 - (0 + 4) = 0\\\\). All zero — an ideal structure.\n\n**Worked Example 2 — Sulfate ion, \\\\(SO_4^{2-}\\\\).** Total valence electrons: \\\\(6 + 4(6) + 2 = 32\\\\). Sulfur is central. Four S–O single bonds use 8 electrons, leaving 24 as lone pairs on the oxygens (6 each), which gives every atom an octet. But this leaves sulfur with \\\\(FC = 6 - (0 + 4) = +2\\\\) and two oxygens with \\\\(-1\\\\). A better description adds two S=O double bonds, giving sulfur \\\\(FC = 0\\\\) and six resonance structures overall. In practice, the four S–O bonds are equivalent, with a bond order of \\\\(1.5\\\\) from the hybrid.\n\n**Worked Example 3 — Formal charge selects a structure.** For \\\\(N_2O\\\\), the arrangement \\\\(N\\\\equiv N^+-O^-\\\\) vs \\\\(N=N=O\\\\) can be compared by formal charge; the lowest-charge, negative-on-oxygen option is preferred.\n\n**Common setup error:** in formal charge, halving the bonding electrons incorrectly (use *half* the shared electrons, not the full bond count), or forgetting to add/subtract electrons for an ion's charge.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "lewis-structures",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "20-lewis-structures",
+      "kind": "source_file_stem",
+      "source_id": "need-review-general-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-general-chemistry-i",
+    "sourceFile": "general-chemistry-i-study-notes/docs/general-chemistry-i/20-lewis-structures.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

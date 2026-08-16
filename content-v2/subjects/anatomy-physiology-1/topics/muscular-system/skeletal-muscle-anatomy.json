@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-1:muscular-system:skeletal-muscle-anatomy",
+  "slug": "skeletal-muscle-anatomy",
+  "title": "Skeletal Muscle Anatomy",
+  "subject": {
+    "id": "subject:anatomy-physiology-1",
+    "slug": "anatomy-physiology-1",
+    "title": "Anatomy & Physiology I"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-1:muscular-system",
+    "slug": "muscular-system",
+    "title": "Muscular System",
+    "order": 7
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "This section builds the structure of skeletal muscle from the whole muscle down to the **sarcomere**, introduces the connective-tissue **coverings**, and describes the **neuromuscular junction** where a nerve meets the muscle. It sets up the sliding-filament mechanism in the next section.",
+    "whyItMatters": "Understanding how a skeletal muscle is organized — nested bundles of fibers packed with contractile proteins — explains how contraction works, how muscles attach and pull, and how conditions like muscular dystrophy and myasthenia gravis disrupt movement.",
+    "learningObjectives": "- Describe the **hierarchical organization** of skeletal muscle (muscle → fascicle → fiber → myofibril → sarcomere).\n- Identify the **connective tissue coverings** and how they form tendons.\n- Describe the structure of a **sarcomere** (actin and myosin).\n- Describe the **neuromuscular junction**.",
+    "keyTerms": "- **Fascicle** — a bundle of muscle fibers.\n- **Muscle fiber (myofiber)** — a single, multinucleated muscle cell.\n- **Myofibril** — a rod-like contractile structure within a fiber.\n- **Sarcomere** — the contractile unit; the region between two Z discs.\n- **Actin (thin filament) / Myosin (thick filament)** — the contractile proteins.\n- **Neuromuscular junction (NMJ)** — the synapse between a motor neuron and a muscle fiber.\n- **Acetylcholine (ACh)** — the neurotransmitter that triggers muscle contraction.",
+    "collegeNotes": "**Muscle is organized as nested bundles.** A skeletal muscle is a hierarchy, each level wrapped in connective tissue:\n\n```\nWhole muscle\n  → fascicles (bundles of fibers)\n    → muscle fibers (single cells)\n      → myofibrils (rods inside each fiber)\n        → sarcomeres (contractile units)\n          → actin and myosin filaments\n```\n\nEach **muscle fiber** is a long, cylindrical, **multinucleated** cell packed with **myofibrils**. The myofibrils are made of repeating **sarcomeres**, and the sarcomeres contain the two proteins that do the contracting — **actin** and **myosin**.\n\n**Connective tissue coverings.** Three sheaths organize and toughen the muscle: the **endomysium** wraps each individual fiber, the **perimysium** wraps each fascicle, and the **epimysium** wraps the whole muscle. At the muscle's ends, these sheaths merge and continue as a **tendon** (or a flat sheet, an aponeurosis) that anchors muscle to bone. Because the connective tissue is continuous with the tendon and bone, a muscle's pull is transmitted directly to the skeleton.\n\n**The sarcomere — the contractile unit.** Within each myofibril, sarcomeres line up end to end, giving skeletal muscle its **striated** (striped) appearance. A sarcomere runs between two **Z discs**. Anchored to the Z discs are the **thin filaments (actin)**; overlapping them in the center are the **thick filaments (myosin)**, whose \"heads\" can grab actin. During contraction, myosin pulls the actin filaments toward the sarcomere's center, so the Z discs move closer and the sarcomere shortens — the essence of the sliding-filament mechanism detailed next. Two other proteins, **troponin** and **tropomyosin**, sit on the actin and act as a switch that controls when myosin can bind (calcium flips this switch).\n\n**The neuromuscular junction (NMJ).** Skeletal muscle contracts only when told to by a **motor neuron**. Where the neuron's axon meets the muscle fiber is the **neuromuscular junction**. When the nerve signal arrives, the neuron releases the neurotransmitter **acetylcholine (ACh)** into the tiny gap. ACh binds receptors on the muscle fiber, triggering an electrical impulse that spreads across the fiber and into its interior (via T-tubules), ultimately releasing calcium to start contraction. This junction is where several diseases and drugs act — for example, **myasthenia gravis** impairs ACh receptors, and certain paralytic drugs block this junction.",
+    "howItWorks": "From nerve signal to a shortened muscle (overview):\n\n```\nMotor neuron fires → releases acetylcholine at the NMJ\n   → muscle fiber membrane depolarizes\n   → signal spreads inward → calcium released inside the fiber\n   → calcium exposes actin → myosin pulls actin → sarcomeres shorten\n   → the whole muscle contracts and pulls on its tendon/bone\n```",
+    "comparisons": "| Level | Wrapped by | Note |\n| --- | --- | --- |\n| Whole muscle | Epimysium | Sheaths merge into tendon |\n| Fascicle | Perimysium | Bundle of fibers |\n| Muscle fiber | Endomysium | Single multinucleated cell |\n| Myofibril | (within fiber) | Made of sarcomeres |\n| Sarcomere | Z disc to Z disc | Actin + myosin; the contractile unit |\n\n| Component | Role |\n| --- | --- |\n| Actin (thin) | Pulled filament; anchored to Z discs |\n| Myosin (thick) | Has heads that pull actin |\n| Troponin/tropomyosin | Calcium-controlled switch on actin |\n| Acetylcholine | Signal that starts contraction |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\nThe **neuromuscular junction** is a major clinical site: **myasthenia gravis** (autoimmune loss of ACh receptors) causes muscle weakness; **neuromuscular blocking agents** (used in anesthesia) paralyze muscle by acting here; and **botulinum toxin** blocks ACh release. **Muscular dystrophies** stem from defective structural proteins in the fiber. Understanding tendons' continuity with muscle explains tendon injuries and why muscle contraction moves bones.",
+    "commonConfusions": "- **Muscle vs muscle fiber vs myofibril.** Muscle = organ; fiber = one cell; myofibril = a rod inside the cell; sarcomere = the unit inside the myofibril.\n- **Actin vs myosin.** Actin = thin filament (pulled); myosin = thick filament (has the pulling heads).\n- **Tendon vs the muscle sheaths.** The sheaths (endo/peri/epimysium) merge to *form* the tendon.\n- **NMJ transmitter is acetylcholine** for skeletal muscle specifically.",
+    "memoryAids": "- **Coverings: \"Endo (each fiber), Peri (perimeter of a fascicle), Epi (entire muscle).\"**\n- **\"Thin actin, thick myosin.\"**\n- **ACh = the \"action chemical\" at the muscle.**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nA muscle is like a thick rope made of smaller ropes, made of even smaller strands, all the way down to tiny units that do the actual pulling — and a nerve tells them when to fire.\n\n### Analogy\nPicture a bundle of cables. The whole cable is the **muscle**. Inside are smaller bundles (**fascicles**), each made of single wires (**muscle fibers**), each packed with tiny sliding machines (**sarcomeres**) built from two kinds of parts: thin ropes (**actin**) and thick ropes with little grabbing hands (**myosin**). All these cables are wrapped in tough sleeves that come together at the ends to form the **tendon** that ties the muscle to a bone. To start the whole thing, a nerve touches the muscle at a special \"on-switch pad\" (the **neuromuscular junction**) and squirts a chemical (**acetylcholine**) that flips the muscle on.\n\n### What is actually happening\nWhen the nerve's chemical signal lands, it sets off an electrical wave that releases **calcium** inside the fiber. The calcium uncovers the thin ropes so the thick ropes' \"hands\" can grab and pull them, sliding the parts together so the muscle shortens. Because the muscle is tied to bone by a **tendon**, that pull moves your body. This \"on-switch pad\" is exactly where some diseases (like **myasthenia gravis**) and medicines (like anesthesia paralytics) do their work.\n\n### Where the analogy stops\nCables just sit there, but muscle fibers are living cells that use energy to pull and then reset thousands of times, and they can grow thicker with exercise — no cable rebuilds itself by working out.",
+    "quickReview": "- Skeletal muscle is nested: **muscle → fascicle → fiber → myofibril → sarcomere → actin/myosin**.\n- Connective sheaths (**endomysium, perimysium, epimysium**) merge into the **tendon** that anchors muscle to bone.\n- The **sarcomere** (Z disc to Z disc) contains **actin** (thin) and **myosin** (thick); troponin/tropomyosin form a calcium-controlled switch.\n- The **neuromuscular junction** uses **acetylcholine** to start contraction — a key site for disease and drugs.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 10.2: Skeletal Muscle. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — Neuromuscular Disorders; Myasthenia Gravis. https://medlineplus.gov/myastheniagravis.html",
+        "url": "https://medlineplus.gov/myastheniagravis.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 42
+  },
+  "aliases": [
+    {
+      "value": "skeletal-muscle-anatomy",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "ap1-u07-s02",
+      "kind": "source_topic_id",
+      "source_id": "prenursing_notes"
+    },
+    {
+      "value": "02-skeletal-muscle-anatomy",
+      "kind": "source_file_stem",
+      "source_id": "prenursing_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:prenursing_notes:84c194975ee3832d"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:prenursing_notes:84c194975ee3832d"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:prenursing_notes:84c194975ee3832d"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:prenursing_notes:84c194975ee3832d"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/01-anatomy-physiology-i/07-muscular-system/02-skeletal-muscle-anatomy.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "\n# Skeletal Muscle Anatomy\n\n## What This Topic Is\n\nThis section builds the structure of skeletal muscle from the whole muscle down to the **sarcomere**, introduces the connective-tissue **coverings**, and describes the **neuromuscular junction** where a nerve meets the muscle. It sets up the sliding-filament mechanism in the next section.\n\n## Why It Matters\n\nUnderstanding how a skeletal muscle is organized — nested bundles of fibers packed with contractile proteins — explains how contraction works, how muscles attach and pull, and how conditions like muscular dystrophy and myasthenia gravis disrupt movement.\n\n## Learning Objectives\n\n- Describe the **hierarchical organization** of skeletal muscle (muscle → fascicle → fiber → myofibril → sarcomere).\n- Identify the **connective tissue coverings** and how they form tendons.\n- Describe the structure of a **sarcomere** (actin and myosin).\n- Describe the **neuromuscular junction**.\n\n## Key Terms\n\n- **Fascicle** — a bundle of muscle fibers.\n- **Muscle fiber (myofiber)** — a single, multinucleated muscle cell.\n- **Myofibril** — a rod-like contractile structure within a fiber.\n- **Sarcomere** — the contractile unit; the region between two Z discs.\n- **Actin (thin filament) / Myosin (thick filament)** — the contractile proteins.\n- **Neuromuscular junction (NMJ)** — the synapse between a motor neuron and a muscle fiber.\n- **Acetylcholine (ACh)** — the neurotransmitter that triggers muscle contraction.\n\n## Core Explanation\n\n**Muscle is organized as nested bundles.** A skeletal muscle is a hierarchy, each level wrapped in connective tissue:\n\n```\nWhole muscle\n  → fascicles (bundles of fibers)\n    → muscle fibers (single cells)\n      → myofibrils (rods inside each fiber)\n        → sarcomeres (contractile units)\n          → actin and myosin filaments\n```\n\nEach **muscle fiber** is a long, cylindrical, **multinucleated** cell packed with **myofibrils**. The myofibrils are made of repeating **sarcomeres**, and the sarcomeres contain the two proteins that do the contracting — **actin** and **myosin**.\n\n**Connective tissue coverings.** Three sheaths organize and toughen the muscle: the **endomysium** wraps each individual fiber, the **perimysium** wraps each fascicle, and the **epimysium** wraps the whole muscle. At the muscle's ends, these sheaths merge and continue as a **tendon** (or a flat sheet, an aponeurosis) that anchors muscle to bone. Because the connective tissue is continuous with the tendon and bone, a muscle's pull is transmitted directly to the skeleton.\n\n**The sarcomere — the contractile unit.** Within each myofibril, sarcomeres line up end to end, giving skeletal muscle its **striated** (striped) appearance. A sarcomere runs between two **Z discs**. Anchored to the Z discs are the **thin filaments (actin)**; overlapping them in the center are the **thick filaments (myosin)**, whose \"heads\" can grab actin. During contraction, myosin pulls the actin filaments toward the sarcomere's center, so the Z discs move closer and the sarcomere shortens — the essence of the sliding-filament mechanism detailed next. Two other proteins, **troponin** and **tropomyosin**, sit on the actin and act as a switch that controls when myosin can bind (calcium flips this switch).\n\n**The neuromuscular junction (NMJ).** Skeletal muscle contracts only when told to by a **motor neuron**. Where the neuron's axon meets the muscle fiber is the **neuromuscular junction**. When the nerve signal arrives, the neuron releases the neurotransmitter **acetylcholine (ACh)** into the tiny gap. ACh binds receptors on the muscle fiber, triggering an electrical impulse that spreads across the fiber and into its interior (via T-tubules), ultimately releasing calcium to start contraction. This junction is where several diseases and drugs act — for example, **myasthenia gravis** impairs ACh receptors, and certain paralytic drugs block this junction.\n\n## How It Works\n\nFrom nerve signal to a shortened muscle (overview):\n\n```\nMotor neuron fires → releases acetylcholine at the NMJ\n   → muscle fiber membrane depolarizes\n   → signal spreads inward → calcium released inside the fiber\n   → calcium exposes actin → myosin pulls actin → sarcomeres shorten\n   → the whole muscle contracts and pulls on its tendon/bone\n```\n\n## Important Relationships and Comparisons\n\n| Level | Wrapped by | Note |\n| --- | --- | --- |\n| Whole muscle | Epimysium | Sheaths merge into tendon |\n| Fascicle | Perimysium | Bundle of fibers |\n| Muscle fiber | Endomysium | Single multinucleated cell |\n| Myofibril | (within fiber) | Made of sarcomeres |\n| Sarcomere | Z disc to Z disc | Actin + myosin; the contractile unit |\n\n| Component | Role |\n| --- | --- |\n| Actin (thin) | Pulled filament; anchored to Z discs |\n| Myosin (thick) | Has heads that pull actin |\n| Troponin/tropomyosin | Calcium-controlled switch on actin |\n| Acetylcholine | Signal that starts contraction |\n\n## High-Yield Pre-Nursing Connections\n\nThe **neuromuscular junction** is a major clinical site: **myasthenia gravis** (autoimmune loss of ACh receptors) causes muscle weakness; **neuromuscular blocking agents** (used in anesthesia) paralyze muscle by acting here; and **botulinum toxin** blocks ACh release. **Muscular dystrophies** stem from defective structural proteins in the fiber. Understanding tendons' continuity with muscle explains tendon injuries and why muscle contraction moves bones.\n\n## Common Confusions\n\n- **Muscle vs muscle fiber vs myofibril.** Muscle = organ; fiber = one cell; myofibril = a rod inside the cell; sarcomere = the unit inside the myofibril.\n- **Actin vs myosin.** Actin = thin filament (pulled); myosin = thick filament (has the pulling heads).\n- **Tendon vs the muscle sheaths.** The sheaths (endo/peri/epimysium) merge to *form* the tendon.\n- **NMJ transmitter is acetylcholine** for skeletal muscle specifically.\n\n## Memory Aids\n\n- **Coverings: \"Endo (each fiber), Peri (perimeter of a fascicle), Epi (entire muscle).\"**\n- **\"Thin actin, thick myosin.\"**\n- **ACh = the \"action chemical\" at the muscle.**\n\n## ELI-10 Explains\n\n### Simple idea\nA muscle is like a thick rope made of smaller ropes, made of even smaller strands, all the way down to tiny units that do the actual pulling — and a nerve tells them when to fire.\n\n### Analogy\nPicture a bundle of cables. The whole cable is the **muscle**. Inside are smaller bundles (**fascicles**), each made of single wires (**muscle fibers**), each packed with tiny sliding machines (**sarcomeres**) built from two kinds of parts: thin ropes (**actin**) and thick ropes with little grabbing hands (**myosin**). All these cables are wrapped in tough sleeves that come together at the ends to form the **tendon** that ties the muscle to a bone. To start the whole thing, a nerve touches the muscle at a special \"on-switch pad\" (the **neuromuscular junction**) and squirts a chemical (**acetylcholine**) that flips the muscle on.\n\n### What is actually happening\nWhen the nerve's chemical signal lands, it sets off an electrical wave that releases **calcium** inside the fiber. The calcium uncovers the thin ropes so the thick ropes' \"hands\" can grab and pull them, sliding the parts together so the muscle shortens. Because the muscle is tied to bone by a **tendon**, that pull moves your body. This \"on-switch pad\" is exactly where some diseases (like **myasthenia gravis**) and medicines (like anesthesia paralytics) do their work.\n\n### Where the analogy stops\nCables just sit there, but muscle fibers are living cells that use energy to pull and then reset thousands of times, and they can grow thicker with exercise — no cable rebuilds itself by working out.\n\n## Quick Recap\n\n- Skeletal muscle is nested: **muscle → fascicle → fiber → myofibril → sarcomere → actin/myosin**.\n- Connective sheaths (**endomysium, perimysium, epimysium**) merge into the **tendon** that anchors muscle to bone.\n- The **sarcomere** (Z disc to Z disc) contains **actin** (thin) and **myosin** (thick); troponin/tropomyosin form a calcium-controlled switch.\n- The **neuromuscular junction** uses **acetylcholine** to start contraction — a key site for disease and drugs.\n\n## Sources\n\n- OpenStax, *Anatomy and Physiology 2e*, Chapter 10.2: Skeletal Muscle. https://openstax.org/details/books/anatomy-and-physiology-2e\n- U.S. National Library of Medicine, MedlinePlus — Neuromuscular Disorders; Myasthenia Gravis. https://medlineplus.gov/myastheniagravis.html\n"
+}

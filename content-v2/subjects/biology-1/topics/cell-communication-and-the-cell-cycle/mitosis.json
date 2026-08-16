@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:cell-communication-and-the-cell-cycle:mitosis",
+  "slug": "mitosis",
+  "title": "Mitosis",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:cell-communication-and-the-cell-cycle",
+    "slug": "cell-communication-and-the-cell-cycle",
+    "title": "Cell Communication And The Cell Cycle",
+    "order": 5
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "**Mitosis** is the division of the nucleus that distributes the duplicated chromosomes equally into two daughter nuclei. Because each duplicated chromosome was copied during S phase, mitosis separates the **sister chromatids** so each daughter cell receives one complete, identical set of chromosomes. Mitosis is conventionally described in five stages — **prophase, prometaphase, metaphase, anaphase, telophase** — followed by **cytokinesis**, which divides the cytoplasm.",
+    "whyItMatters": "Mitosis is how multicellular organisms grow, replace worn-out cells, and heal wounds, and how single-celled eukaryotes reproduce asexually. Errors in spindle attachment or chromatid separation cause **aneuploidy** (wrong chromosome number), which can kill a cell or contribute to cancer and developmental disorders. Most anticancer drugs (e.g., taxanes, vinca alkaloids) work by disrupting the spindle, which preferentially harms rapidly dividing cells.",
+    "learningObjectives": "- List the phases of mitosis in order and describe the key events of each.\n- Explain the role of the mitotic spindle, centrosomes, and kinetochores in moving chromosomes.\n- State what separates at anaphase (sister chromatids) and why daughter cells end up genetically identical.\n- Contrast cytokinesis in animal cells (cleavage furrow) and plant cells (cell plate).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Mitosis** is the division of the nucleus that distributes the duplicated chromosomes equally into two daughter nuclei. Because each duplicated chromosome was copied during S phase, mitosis separates the **sister chromatids** so each daughter cell receives one complete, identical set of chromosomes. Mitosis is conventionally described in five stages — **prophase, prometaphase, metaphase, anaphase, telophase** — followed by **cytokinesis**, which divides the cytoplasm.\n\n### Key Concepts\n\n### The mitotic spindle and centrosomes\n\nThe **mitotic spindle** is the machine that moves chromosomes, built from **microtubules**. In animal cells, spindle microtubules grow from **centrosomes** (microtubule-organizing centers, each containing a pair of centrioles) that migrate to opposite poles during prophase. The spindle has three classes of microtubules: **kinetochore** microtubules (attach to chromosomes), **polar** microtubules (overlap at the middle and push the poles apart), and **astral** microtubules (anchor the spindle to the cell cortex).\n\n### Kinetochores\n\nThe **kinetochore** is a protein structure assembled on the centromere of each sister chromatid. Spindle microtubules attach to kinetochores and use them as handles to pull chromosomes. Each sister chromatid has its own kinetochore facing opposite poles, which is what guarantees the two sisters go to opposite ends.\n\n### Phases of mitosis\n\n- **Prophase:** Chromatin condenses into visible chromosomes (each with two sister chromatids); the nucleolus disappears; the mitotic spindle begins to form; centrosomes move apart. In animal cells, the nuclear envelope is still intact at the end of prophase.\n- **Prometaphase:** The nuclear envelope fragments; spindle microtubules invade the nuclear region and attach to kinetochores. Chromosomes begin to move.\n- **Metaphase:** Chromosomes line up at the **metaphase plate** (the cell's equator), each held by kinetochore microtubules from both poles. This is the classic \"chromosomes in a row\" picture.\n- **Anaphase:** Cohesin is cleaved, allowing **sister chromatids to separate**. Each chromatid — now an independent chromosome — is pulled toward opposite poles as kinetochore microtubules shorten. This is the shortest phase and the moment chromosome number transiently doubles.\n- **Telophase:** Two daughter nuclei re-form. Chromosomes decondense, nuclear envelopes reassemble around each set, nucleoli reappear, and the spindle disassembles.\n\n### Cytokinesis: animal vs. plant\n\n**Cytokinesis** overlaps with telophase and divides the cytoplasm. In **animal cells**, a contractile ring of actin and myosin filaments pinches the cell inward, forming a **cleavage furrow** that deepens until the cell splits in two. In **plant cells**, a rigid cell wall prevents pinching; instead, Golgi-derived vesicles carrying wall materials line up at the metaphase plate and fuse into a **cell plate** that grows outward until it fuses with the plasma membrane, forming two daughter cells and new cell walls.\n\n### How It Works\n\nStart with one duplicated genome: every chromosome consists of two identical sister chromatids held together by **cohesin** rings. During prophase and prometaphase, the cell builds a bipolar spindle and attaches each sister's kinetochore to opposite poles (a state called **biorientation**). At metaphase, opposing forces align every chromosome at the equator. At anaphase, the enzyme **separase** cleaves cohesin, the sisters part, and motor proteins plus depolymerizing microtubules pull each set of chromosomes to a pole. Telophase rebuilds two nuclei; cytokinesis splits the cell. Because each chromosome was duplicated precisely in S phase and separated faithfully, the two daughters are genetically identical to each other and to the parent.",
+    "howItWorks": "Start with one duplicated genome: every chromosome consists of two identical sister chromatids held together by **cohesin** rings. During prophase and prometaphase, the cell builds a bipolar spindle and attaches each sister's kinetochore to opposite poles (a state called **biorientation**). At metaphase, opposing forces align every chromosome at the equator. At anaphase, the enzyme **separase** cleaves cohesin, the sisters part, and motor proteins plus depolymerizing microtubules pull each set of chromosomes to a pole. Telophase rebuilds two nuclei; cytokinesis splits the cell. Because each chromosome was duplicated precisely in S phase and separated faithfully, the two daughters are genetically identical to each other and to the parent.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Order: prophase → prometaphase → metaphase → anaphase → telophase → cytokinesis.\n- Spindle = microtubules from centrosomes; kinetochore microtubules attach to chromosomes at their kinetochores.\n- Metaphase = chromosomes aligned at the metaphase plate.\n- Anaphase = sister chromatids separate and move to opposite poles.\n- Telophase = two nuclei re-form; chromosomes decondense.\n- Animal cytokinesis = cleavage furrow (actin–myosin ring); plant cytokinesis = cell plate (vesicle fusion).\n- Mitosis produces two genetically identical diploid daughter cells.\n- Mitosis vs. meiosis: mitosis separates sister chromatids once; meiosis separates homologs, then chromatids (see Meiosis note).",
+    "commonConfusions": "- **\"Anaphase separates homologous chromosomes.\"** Wrong in mitosis — anaphase separates **sister chromatids** (identical copies). Separating homologs happens in meiosis I.\n- **\"Chromosome number doubles in anaphase.\"** Misleading — it *briefly* doubles as chromatids become separate chromosomes at the poles, but the final daughter cells each have the original number.\n- **\"Centromere and kinetochore are the same thing.\"** Wrong — the centromere is the DNA region where sisters are joined; the kinetochore is the protein complex built on it that microtubules grab.\n- **\"Plant cells divide with a cleavage furrow.\"** Wrong — the rigid cell wall prevents pinching; plants build a cell plate from fused vesicles.\n- **\"Prophase and prometaphase are interchangeable.\"** Wrong — prometaphase is defined by nuclear envelope breakdown and kinetochore attachment, distinct events from prophase condensation.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine you have a deck of cards and you photocopy every card, paper-clipping each original to its copy. Now you want two identical decks. You lay all the clipped pairs in a row down the middle of the table (that's **metaphase**), then a helper walks along and pulls each paper clip apart, sliding one card of each pair to the left pile and one to the right (**anaphase**). At the end you have two complete, identical decks — every card accounted for. In a cell, the \"helpers\" are the spindle fibers, and the \"paper clips\" are the proteins holding sister chromatids together. The analogy's limit: cells do this with microscopic molecular motors and checkpoints, not hands.",
+    "quickReview": "- Five phases: prophase, prometaphase, metaphase, anaphase, telophase (+ cytokinesis).\n- Spindle microtubules, centrosomes, and kinetochores move chromosomes.\n- Metaphase plate = equator; biorientation ensures one sister to each pole.\n- Anaphase: cohesin cleavage → sister chromatids separate.\n- Telophase: two nuclei re-form.\n- Animal cells: cleavage furrow; plant cells: cell plate.\n- Result: two identical daughter cells.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 10.2, \"The Cell Cycle.\" https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+        "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle"
+      },
+      {
+        "text": "NCBI Bookshelf, *Molecular Biology of the Cell*, 4th ed. (Alberts et al.). https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/"
+      },
+      {
+        "text": "NCBI Bookshelf, *The Cell: A Molecular Approach*, 2nd ed. (Cooper). https://www.ncbi.nlm.nih.gov/books/NBK9839/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9839/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "mitosis",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "04-mitosis",
+      "kind": "source_file_stem",
+      "source_id": "biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:biology_notes:e29f30c8c86b4580"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:biology_notes:e29f30c8c86b4580"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:biology_notes:e29f30c8c86b4580"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:biology_notes:e29f30c8c86b4580"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/05-cell-communication-and-the-cell-cycle/04-mitosis.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Mitosis\n\n## Learning Goals\n\n- List the phases of mitosis in order and describe the key events of each.\n- Explain the role of the mitotic spindle, centrosomes, and kinetochores in moving chromosomes.\n- State what separates at anaphase (sister chromatids) and why daughter cells end up genetically identical.\n- Contrast cytokinesis in animal cells (cleavage furrow) and plant cells (cell plate).\n\n## Core Concept\n\n**Mitosis** is the division of the nucleus that distributes the duplicated chromosomes equally into two daughter nuclei. Because each duplicated chromosome was copied during S phase, mitosis separates the **sister chromatids** so each daughter cell receives one complete, identical set of chromosomes. Mitosis is conventionally described in five stages — **prophase, prometaphase, metaphase, anaphase, telophase** — followed by **cytokinesis**, which divides the cytoplasm.\n\n## Key Concepts\n\n### The mitotic spindle and centrosomes\n\nThe **mitotic spindle** is the machine that moves chromosomes, built from **microtubules**. In animal cells, spindle microtubules grow from **centrosomes** (microtubule-organizing centers, each containing a pair of centrioles) that migrate to opposite poles during prophase. The spindle has three classes of microtubules: **kinetochore** microtubules (attach to chromosomes), **polar** microtubules (overlap at the middle and push the poles apart), and **astral** microtubules (anchor the spindle to the cell cortex).\n\n### Kinetochores\n\nThe **kinetochore** is a protein structure assembled on the centromere of each sister chromatid. Spindle microtubules attach to kinetochores and use them as handles to pull chromosomes. Each sister chromatid has its own kinetochore facing opposite poles, which is what guarantees the two sisters go to opposite ends.\n\n### Phases of mitosis\n\n- **Prophase:** Chromatin condenses into visible chromosomes (each with two sister chromatids); the nucleolus disappears; the mitotic spindle begins to form; centrosomes move apart. In animal cells, the nuclear envelope is still intact at the end of prophase.\n- **Prometaphase:** The nuclear envelope fragments; spindle microtubules invade the nuclear region and attach to kinetochores. Chromosomes begin to move.\n- **Metaphase:** Chromosomes line up at the **metaphase plate** (the cell's equator), each held by kinetochore microtubules from both poles. This is the classic \"chromosomes in a row\" picture.\n- **Anaphase:** Cohesin is cleaved, allowing **sister chromatids to separate**. Each chromatid — now an independent chromosome — is pulled toward opposite poles as kinetochore microtubules shorten. This is the shortest phase and the moment chromosome number transiently doubles.\n- **Telophase:** Two daughter nuclei re-form. Chromosomes decondense, nuclear envelopes reassemble around each set, nucleoli reappear, and the spindle disassembles.\n\n### Cytokinesis: animal vs. plant\n\n**Cytokinesis** overlaps with telophase and divides the cytoplasm. In **animal cells**, a contractile ring of actin and myosin filaments pinches the cell inward, forming a **cleavage furrow** that deepens until the cell splits in two. In **plant cells**, a rigid cell wall prevents pinching; instead, Golgi-derived vesicles carrying wall materials line up at the metaphase plate and fuse into a **cell plate** that grows outward until it fuses with the plasma membrane, forming two daughter cells and new cell walls.\n\n## How It Works\n\nStart with one duplicated genome: every chromosome consists of two identical sister chromatids held together by **cohesin** rings. During prophase and prometaphase, the cell builds a bipolar spindle and attaches each sister's kinetochore to opposite poles (a state called **biorientation**). At metaphase, opposing forces align every chromosome at the equator. At anaphase, the enzyme **separase** cleaves cohesin, the sisters part, and motor proteins plus depolymerizing microtubules pull each set of chromosomes to a pole. Telophase rebuilds two nuclei; cytokinesis splits the cell. Because each chromosome was duplicated precisely in S phase and separated faithfully, the two daughters are genetically identical to each other and to the parent.\n\n## Why It Matters\n\nMitosis is how multicellular organisms grow, replace worn-out cells, and heal wounds, and how single-celled eukaryotes reproduce asexually. Errors in spindle attachment or chromatid separation cause **aneuploidy** (wrong chromosome number), which can kill a cell or contribute to cancer and developmental disorders. Most anticancer drugs (e.g., taxanes, vinca alkaloids) work by disrupting the spindle, which preferentially harms rapidly dividing cells.\n\n## High-Yield Facts\n\n- Order: prophase → prometaphase → metaphase → anaphase → telophase → cytokinesis.\n- Spindle = microtubules from centrosomes; kinetochore microtubules attach to chromosomes at their kinetochores.\n- Metaphase = chromosomes aligned at the metaphase plate.\n- Anaphase = sister chromatids separate and move to opposite poles.\n- Telophase = two nuclei re-form; chromosomes decondense.\n- Animal cytokinesis = cleavage furrow (actin–myosin ring); plant cytokinesis = cell plate (vesicle fusion).\n- Mitosis produces two genetically identical diploid daughter cells.\n- Mitosis vs. meiosis: mitosis separates sister chromatids once; meiosis separates homologs, then chromatids (see Meiosis note).\n\n## Eli Explains\n\nImagine you have a deck of cards and you photocopy every card, paper-clipping each original to its copy. Now you want two identical decks. You lay all the clipped pairs in a row down the middle of the table (that's **metaphase**), then a helper walks along and pulls each paper clip apart, sliding one card of each pair to the left pile and one to the right (**anaphase**). At the end you have two complete, identical decks — every card accounted for. In a cell, the \"helpers\" are the spindle fibers, and the \"paper clips\" are the proteins holding sister chromatids together. The analogy's limit: cells do this with microscopic molecular motors and checkpoints, not hands.\n\n## Common Confusions\n\n- **\"Anaphase separates homologous chromosomes.\"** Wrong in mitosis — anaphase separates **sister chromatids** (identical copies). Separating homologs happens in meiosis I.\n- **\"Chromosome number doubles in anaphase.\"** Misleading — it *briefly* doubles as chromatids become separate chromosomes at the poles, but the final daughter cells each have the original number.\n- **\"Centromere and kinetochore are the same thing.\"** Wrong — the centromere is the DNA region where sisters are joined; the kinetochore is the protein complex built on it that microtubules grab.\n- **\"Plant cells divide with a cleavage furrow.\"** Wrong — the rigid cell wall prevents pinching; plants build a cell plate from fused vesicles.\n- **\"Prophase and prometaphase are interchangeable.\"** Wrong — prometaphase is defined by nuclear envelope breakdown and kinetochore attachment, distinct events from prophase condensation.\n\n## Quick Review\n\n- Five phases: prophase, prometaphase, metaphase, anaphase, telophase (+ cytokinesis).\n- Spindle microtubules, centrosomes, and kinetochores move chromosomes.\n- Metaphase plate = equator; biorientation ensures one sister to each pole.\n- Anaphase: cohesin cleavage → sister chromatids separate.\n- Telophase: two nuclei re-form.\n- Animal cells: cleavage furrow; plant cells: cell plate.\n- Result: two identical daughter cells.\n\n## Sources\n\n- OpenStax, *Biology 2e*, Ch. 10.2, \"The Cell Cycle.\" https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle\n- NCBI Bookshelf, *Molecular Biology of the Cell*, 4th ed. (Alberts et al.). https://www.ncbi.nlm.nih.gov/books/NBK21054/\n- NCBI Bookshelf, *The Cell: A Molecular Approach*, 2nd ed. (Cooper). https://www.ncbi.nlm.nih.gov/books/NBK9839/\n"
+}

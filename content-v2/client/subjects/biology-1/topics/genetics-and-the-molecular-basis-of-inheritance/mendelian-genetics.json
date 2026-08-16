@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:mendelian-genetics",
+  "slug": "mendelian-genetics",
+  "title": "Mendelian Genetics",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:genetics-and-the-molecular-basis-of-inheritance",
+    "slug": "genetics-and-the-molecular-basis-of-inheritance",
+    "title": "Genetics And The Molecular Basis Of Inheritance",
+    "order": 6
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "Gregor Mendel deduced the basic rules of heredity by tracking discrete traits in pea plants. His two laws — **segregation** and **independent assortment** — explain how alleles are transmitted from parents to offspring. Mendel's insight was that inheritance is **particulate**: parents pass discrete units (genes) that retain their identity across generations, rather than blending together.",
+    "whyItMatters": "Mendel's laws are the foundation of all genetics, from predicting inherited disorders in families to designing crosses in agriculture and research. They explain why recessive diseases can \"skip\" generations, why carriers of recessive alleles can be phenotypically normal, and how traits can be tracked through pedigrees. They also provide the baseline against which all more complex inheritance patterns (non-Mendelian, linkage) are understood.",
+    "learningObjectives": "- Define the core vocabulary: gene, allele, genotype, phenotype, homozygous, heterozygous, dominant, recessive.\n- State Mendel's Law of Segregation and Law of Independent Assortment.\n- Predict outcomes of monohybrid (3:1) and dihybrid (9:3:3:1) crosses using Punnett squares.\n- Explain testcrosses and the multiplication and addition rules of probability.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nGregor Mendel deduced the basic rules of heredity by tracking discrete traits in pea plants. His two laws — **segregation** and **independent assortment** — explain how alleles are transmitted from parents to offspring. Mendel's insight was that inheritance is **particulate**: parents pass discrete units (genes) that retain their identity across generations, rather than blending together.\n\n### Key Concepts\n\n### Vocabulary\n\nA **gene** is a stretch of DNA controlling a trait, located at a specific **locus**. **Alleles** are alternative versions of a gene. An organism's **genotype** is its allele combination; its **phenotype** is the observable trait. **Homozygous** means two identical alleles (e.g., PP or pp); **heterozygous** means two different alleles (Pp). A **dominant** allele determines the phenotype even when paired with a different allele; a **recessive** allele only shows when two copies are present.\n\n### Law of Segregation\n\nEach individual carries two alleles for each gene, which **segregate** during gamete formation so that each gamete carries only one. Fertilization restores the pair. This is the physical consequence of meiosis I separating homologous chromosomes. A monohybrid cross between two heterozygotes (Pp × Pp) therefore gives a **3:1** phenotypic ratio (3 dominant : 1 recessive) and a 1:2:1 genotypic ratio.\n\n### Law of Independent Assortment\n\nAlleles of **different** genes assort into gametes independently of one another — provided the genes are on different chromosomes (or far apart on the same one). Thus a dihybrid cross (RrYy × RrYy) yields the **9:3:3:1** phenotypic ratio: 9 showing both dominant traits, 3 showing one dominant + one recessive, 3 the reverse, and 1 both recessive.\n\n### Punnett squares and crosses\n\nA **Punnett square** is a grid listing the possible gametes of each parent on the axes and combining them to show all possible offspring genotypes. A **monohybrid cross** follows one gene; a **dihybrid cross** follows two. A **testcross** breeds an individual of unknown genotype (showing the dominant phenotype) with a **homozygous recessive** individual: if any recessive offspring appear, the unknown parent was heterozygous.\n\n### Probability rules\n\nThe **multiplication rule** applies to independent events: the probability of two independent events both happening is the product of their individual probabilities (e.g., both coins landing heads = ½ × ½ = ¼). The **addition rule** applies to mutually exclusive outcomes: the probability of either one or another is the sum (e.g., rolling a 1 or a 2 on a die = ⅙ + ⅙ = ⅓). These rules let you compute cross outcomes without drawing large squares.\n\n### How It Works\n\nConsider pea flower color: purple (P) is dominant over white (p). A Pp × Pp cross produces gametes P and p from each parent. The Punnett square yields PP, Pp, Pp, pp — a 3:1 purple:white ratio. The mechanism is meiosis: each parent's two alleles separate into different gametes (segregation), and each gamete type is produced in equal numbers. For two genes on different chromosomes, the orientation of each homologous pair at metaphase I is independent (independent assortment), so gametes carry all four allele combinations (RY, Ry, rY, ry) equally — producing the 9:3:3:1 ratio.",
+    "howItWorks": "Consider pea flower color: purple (P) is dominant over white (p). A Pp × Pp cross produces gametes P and p from each parent. The Punnett square yields PP, Pp, Pp, pp — a 3:1 purple:white ratio. The mechanism is meiosis: each parent's two alleles separate into different gametes (segregation), and each gamete type is produced in equal numbers. For two genes on different chromosomes, the orientation of each homologous pair at metaphase I is independent (independent assortment), so gametes carry all four allele combinations (RY, Ry, rY, ry) equally — producing the 9:3:3:1 ratio.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Dominant allele = expressed with one copy; recessive = needs two copies to show.\n- Genotype = allele combination; phenotype = observable trait.\n- Law of Segregation: two alleles per gene separate into different gametes.\n- Law of Independent Assortment: alleles of different genes assort independently.\n- Monohybrid heterozygote cross → 3:1 phenotype, 1:2:1 genotype.\n- Dihybrid heterozygote cross → 9:3:3:1 phenotype.\n- Testcross = cross with homozygous recessive to reveal an unknown genotype.\n- Multiplication rule = \"and\" (×); addition rule = \"or\" (+).",
+    "commonConfusions": "- **\"Dominant means more common in the population.\"** Wrong — dominance is about which allele is expressed in a heterozygote, not how frequent it is. Some dominant alleles are rare; some recessive alleles (e.g., type O blood allele) are common.\n- **\"Heterozygotes pass both alleles to each gamete.\"** Wrong — each gamete gets one allele (segregation); half the gametes get one, half get the other.\n- **\"The 9:3:3:1 ratio applies to any two traits.\"** Wrong — it requires two heterozygous genes that assort independently (different chromosomes or far apart).\n- **\"Phenotype and genotype are the same.\"** Wrong — different genotypes can give the same phenotype (PP and Pp are both purple).\n- **\"A 3:1 ratio proves each offspring has exactly a 3 in 4 chance.\"** Subtle — the ratio is a large-sample expectation; each individual offspring's probability is ¾, and small families can deviate.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine each parent gives you one of their two \"recipe cards\" for a trait — one card from each parent. Some cards are bossy (dominant): if you have even one bossy card, that version shows. Other cards are shy (recessive): they only show if you get shy cards from *both* parents. A Punnett square is just a chart listing every possible hand you could be dealt. When two genes are on different \"desks\" (chromosomes), the cards for one trait are dealt independently of the other, which is why the four combinations come out in a tidy 9:3:3:1 pattern. The analogy's limit: cards are dealt by chance, but in cells it's the physical behavior of chromosomes in meiosis that does the \"dealing.\"",
+    "quickReview": "- Genes → alleles → genotype → phenotype.\n- Segregation: gametes carry one allele per gene.\n- Independent assortment: different genes assort independently.\n- Monohybrid (Pp × Pp) → 3:1; dihybrid (RrYy × RrYy) → 9:3:3:1.\n- Testcross reveals unknown genotypes via homozygous recessive partner.\n- Probability: multiply for \"and,\" add for \"or.\"\n- Mendel's particulate inheritance replaced the blending hypothesis.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 12.1, \"Mendel's Experiments and the Laws of Probability.\" https://openstax.org/books/biology-2e/pages/12-1-mendels-experiments-and-the-laws-of-probability",
+        "url": "https://openstax.org/books/biology-2e/pages/12-1-mendels-experiments-and-the-laws-of-probability"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 12.2, \"Characteristics and Traits.\" https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits",
+        "url": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 12.3, \"Laws of Inheritance.\" https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance",
+        "url": "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance"
+      },
+      {
+        "text": "MedlinePlus Genetics, \"Inheritance Patterns.\" https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/",
+        "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 24
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/06-genetics-and-the-molecular-basis-of-inheritance/02-mendelian-genetics.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

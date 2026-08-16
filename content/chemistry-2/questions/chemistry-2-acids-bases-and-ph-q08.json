@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-acids-bases-and-ph-q08",
+  "subject": "chemistry-2",
+  "lesson": "acids-bases-and-ph",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A hypothetical laboratory solution is reported to have a pH of 3. Which value correctly gives its hydronium ion concentration?",
+  "options": [
+    {
+      "id": "a",
+      "text": "3 × 10^-3 mol/L"
+    },
+    {
+      "id": "b",
+      "text": "1 × 10^-11 mol/L"
+    },
+    {
+      "id": "c",
+      "text": "3 × 10^-1 mol/L"
+    },
+    {
+      "id": "d",
+      "text": "1 × 10^-3 mol/L"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Because pH = -log[H3O+], the concentration is recovered as [H3O+] = 10^-pH, so a pH of 3 gives 1 × 10^-3 mol/L. Option B is the hydroxide concentration of this same solution, since pOH = 14 - 3 = 11. Options A and C treat the digit 3 as a coefficient rather than as the exponent, a frequent error when converting between pH and concentration.\n\nELI-10: The pH value is an exponent, so undoing it means raising 10 to the negative of that number. A pH of 3 becomes 10^-3, which is 0.001 mol/L; the leading coefficient is 1, not 3. If the pH had been 3.5, the concentration would fall between 10^-4 and 10^-3, closer to 3 × 10^-4. Whenever a pH is a whole number, the concentration is a 1 sitting in that decimal place: pH 3 gives 0.001 and pH 5 gives 0.00001.",
+  "difficulty": "medium",
+  "tags": [
+    "pH to concentration conversion",
+    "scientific notation",
+    "hydronium ion"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-279",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

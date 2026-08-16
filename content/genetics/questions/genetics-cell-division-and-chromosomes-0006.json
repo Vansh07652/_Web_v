@@ -1,0 +1,40 @@
+{
+  "id": "genetics-cell-division-and-chromosomes-0006",
+  "subject": "genetics",
+  "lesson": "cell-division-and-chromosomes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation A human liver cell contains 46 chromosomes in G1. How many chromosomes does each daughter cell contain immediately after this cell completes mitosis and cytokinesis?",
+  "options": [
+    {
+      "id": "a",
+      "text": "46"
+    },
+    {
+      "id": "b",
+      "text": "23"
+    },
+    {
+      "id": "c",
+      "text": "92"
+    },
+    {
+      "id": "d",
+      "text": "48"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "S phase replicates each of the 46 chromosomes into a pair of sister chromatids, giving 92 chromatids, and mitotic anaphase splits every pair equally, so each daughter cell receives 92/2 = 46 chromosomes. Mitosis is equational: the chromosome number is preserved, not halved and not doubled. Option B applies meiotic halving, option C counts chromatids as chromosomes, and option D inserts a nondisjunction error that a normal mitosis does not make.",
+  "difficulty": "unknown",
+  "tags": [
+    "chromosome",
+    "number",
+    "after",
+    "mitosis"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-362d42c8f413fa58",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

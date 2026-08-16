@@ -1,0 +1,39 @@
+{
+  "id": "biology-2-viruses-and-prions-0007",
+  "subject": "biology-2",
+  "lesson": "viruses-and-prions",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**HIV** infects CD4 helper T cells and uses the cells' machinery to produce more virus particles. Which sequence best matches the HIV life cycle?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Attachment, immediate lysis of the cell, release, then infection of nearby cells."
+    },
+    {
+      "id": "b",
+      "text": "Conversion of DNA into RNA, then assembly of new capsids inside the nucleus."
+    },
+    {
+      "id": "c",
+      "text": "Attachment and entry, reverse transcription of RNA into DNA, integration into the host chromosome, then production and release of new particles."
+    },
+    {
+      "id": "d",
+      "text": "Integration of viral proteins into the cell membrane, then passive diffusion of whole viruses out of the cell."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "HIV attaches to CD4 helper T cells, enters, reverse transcribes its RNA into DNA, integrates that DNA into the host chromosome, and later produces new particles that bud from the cell. B has the direction reversed, because reverse transcription makes DNA from RNA, not the other way. A is wrong because HIV buds off rather than lysing the cell immediately. D is wrong because new viruses assemble inside the cell, and they do not diffuse out whole.",
+  "difficulty": "unknown",
+  "tags": [
+    "hiv",
+    "life",
+    "cycle"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-84946d9920d103f8",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

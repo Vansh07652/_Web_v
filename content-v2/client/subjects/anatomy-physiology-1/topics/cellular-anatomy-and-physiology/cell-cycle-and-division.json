@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-1:cellular-anatomy-and-physiology:cell-cycle-and-division",
+  "slug": "cell-cycle-and-division",
+  "title": "Cell Cycle and Division",
+  "subject": {
+    "id": "subject:anatomy-physiology-1",
+    "slug": "anatomy-physiology-1",
+    "title": "Anatomy & Physiology I"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-1:cellular-anatomy-and-physiology",
+    "slug": "cellular-anatomy-and-physiology",
+    "title": "Cellular Anatomy and Physiology",
+    "order": 3
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "Cells grow, copy their DNA, and divide in an orderly sequence called the **cell cycle**. This section covers **interphase** (G1, S, G2), the phases of **mitosis**, **cytokinesis**, an overview of **DNA replication**, and how the cycle is **regulated** — plus why this matters for growth, repair, and cancer.",
+    "whyItMatters": "Cell division builds the body from a single fertilized egg, replaces worn-out cells, and heals wounds. When its controls fail, cells divide uncontrollably — the essence of **cancer**. Understanding normal division is the foundation for understanding tumors, chemotherapy, and tissue healing.",
+    "learningObjectives": "- Describe the stages of the **cell cycle**, including **interphase**.\n- Summarize **DNA replication** and why it must precede division.\n- List the phases of **mitosis** and the role of **cytokinesis**.\n- Explain how the cell cycle is **regulated** and its link to cancer.",
+    "keyTerms": "- **Cell cycle** — the life cycle of a cell from formation to its own division.\n- **Interphase** — the non-dividing growth phase (G1, S, G2).\n- **DNA replication** — copying DNA so each new cell gets a full set (occurs in S phase).\n- **Mitosis** — division of the **nucleus** into two identical nuclei.\n- **Cytokinesis** — division of the **cytoplasm** into two cells.\n- **Checkpoint** — a control point ensuring the cycle proceeds only when conditions are correct.",
+    "collegeNotes": "**Interphase — the busy \"in-between.\"** Most of a cell's life is spent in **interphase**, not dividing, which has three parts:\n\n- **G1 (first gap):** the cell grows, makes proteins and organelles, and carries out its normal functions.\n- **S (synthesis):** the cell **replicates its DNA**, so it now has two identical copies of each chromosome.\n- **G2 (second gap):** the cell continues growing and prepares the machinery for division, checking that DNA copied correctly.\n\n(Some cells exit into **G0**, a resting state — mature neurons and most heart muscle cells largely stay here and rarely divide, which is why these tissues heal poorly.)\n\n**DNA replication (in S phase).** Before a cell divides, it must duplicate its DNA so each daughter gets a complete set. The double helix \"unzips,\" and each original strand serves as a **template** for building a new complementary strand (A pairs with T, C with G). The result is two identical double helices — a process called **semiconservative** because each new molecule keeps one old strand. Accuracy here is critical; errors become mutations.\n\n**Mitosis — dividing the nucleus.** Once DNA is copied, **mitosis** separates the two chromosome sets into two identical nuclei, in four continuous phases:\n\n1. **Prophase:** chromatin condenses into visible chromosomes (each a pair of identical **sister chromatids**); the nuclear envelope breaks down; the spindle forms.\n2. **Metaphase:** chromosomes line up single-file across the cell's middle (the metaphase plate).\n3. **Anaphase:** sister chromatids are pulled apart to opposite poles.\n4. **Telophase:** chromosomes arrive at the poles, decondense, and new nuclear envelopes form — yielding two nuclei.\n\n**Cytokinesis — dividing the cell.** Overlapping with telophase, the cytoplasm pinches in two (a \"cleavage furrow\"), producing **two genetically identical daughter cells**. Mitosis divides the nucleus; cytokinesis divides the whole cell.\n\n**Regulation and cancer.** The cycle is tightly controlled by **checkpoints** that verify the cell is large enough, DNA is undamaged, and replication finished correctly before allowing progress. Proteins that drive the cycle forward and others that halt it (tumor suppressors like p53) keep division in check. When these controls fail — through mutations — cells may divide without limit, ignore \"stop\" signals, and form a **tumor**. This is why many **chemotherapy** drugs target rapidly dividing cells (though they also affect fast-dividing normal cells like hair and gut lining, causing side effects).",
+    "howItWorks": "The cycle in order:\n\n```\nInterphase:  G1 (grow) → S (copy DNA) → G2 (prepare, check)\nDivision:    Mitosis (Prophase → Metaphase → Anaphase → Telophase) → Cytokinesis\nResult:      Two identical daughter cells\n```\n\nCheckpoints between phases stop the process if something is wrong (e.g., damaged DNA), allowing repair or triggering the cell's self-destruct.",
+    "comparisons": "| Phase | What happens |\n| --- | --- |\n| G1 | Growth, normal function |\n| S | DNA replication |\n| G2 | Growth, prep, error check |\n| Prophase | Chromosomes condense, spindle forms |\n| Metaphase | Chromosomes align at center |\n| Anaphase | Sister chromatids separate |\n| Telophase | Two nuclei re-form |\n| Cytokinesis | Cytoplasm splits → two cells |\n\n| Term | Divides… |\n| --- | --- |\n| Mitosis | The nucleus |\n| Cytokinesis | The cytoplasm/whole cell |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\nCancer is fundamentally a disease of the cell cycle — lost checkpoint control and mutated tumor suppressors. Because chemotherapy and radiation hit dividing cells hardest, their side effects (hair loss, nausea, low blood counts) fall on the body's own fast-dividing tissues. Tissues with cells stuck in **G0** (neurons, cardiac muscle) regenerate poorly, which is why nerve and heart damage tends to be permanent — a key clinical point in stroke and heart attack.",
+    "commonConfusions": "- **Mitosis vs cytokinesis.** Mitosis = nuclear division; cytokinesis = whole-cell division. They overlap but are distinct.\n- **Mitosis vs meiosis.** Mitosis makes two identical cells (growth/repair); meiosis makes gametes with half the chromosomes (covered in reproduction).\n- **Chromatid vs chromosome.** After replication, a chromosome consists of two identical sister chromatids joined together.\n- **Interphase is not \"resting.\"** It is highly active growth and DNA copying, not idle time.",
+    "memoryAids": "- **Interphase order: \"Go, Synthesize, Grow\"** → G1, S, G2.\n- **Mitosis phases: \"PMAT\"** → Prophase, Metaphase, Anaphase, Telophase.\n- **Metaphase = Middle** (chromosomes in the middle).",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nCells make more cells by first copying all their stuff and then splitting neatly into two identical cells.\n\n### Analogy\nImagine a chef who wants to turn one fully stocked kitchen into two identical kitchens. First they spend a long time cooking, growing supplies, and — most importantly — **photocopying the master recipe book** so there are two complete copies (that's **interphase**, with DNA copied in the \"S\" step). Then they carefully sort one full copy of the recipes to each side of the room (that's **mitosis**), and finally build a wall down the middle to make two separate kitchens (that's **cytokinesis**). Along the way there are **inspectors** (checkpoints) who won't let the chef continue if something's wrong.\n\n### What is actually happening\nThe \"recipe book\" is **DNA**, and copying it exactly matters — mistakes become **mutations**. Mitosis sorts the copied chromosomes so each new cell gets a complete set, and cytokinesis pinches the cell in two. The **inspectors** are real checkpoint controls; when they break, cells can divide out of control and form a **tumor** — which is what **cancer** is. That's also why cancer treatments target fast-dividing cells.\n\n### Where the analogy stops\nA chef decides when to build a new kitchen, but a cell follows automatic chemical signals — and in healthy tissue, most cells only divide when the body actually needs new cells, then stop.",
+    "quickReview": "- The **cell cycle** = **interphase** (G1 grow → S copy DNA → G2 prepare) followed by **mitosis** and **cytokinesis**.\n- **DNA replication** in S phase is semiconservative, giving each daughter a full, identical DNA set.\n- **Mitosis** (Prophase, Metaphase, Anaphase, Telophase) divides the nucleus; **cytokinesis** divides the cell → two identical cells.\n- **Checkpoints** regulate the cycle; their failure underlies **cancer**, and cells in **G0** (neurons, cardiac muscle) rarely divide, limiting repair.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 3.5: Cell Growth and Division. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — Cancer (cell growth). https://medlineplus.gov/cancer.html",
+        "url": "https://medlineplus.gov/cancer.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 42
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/06-cell-cycle-and-division.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

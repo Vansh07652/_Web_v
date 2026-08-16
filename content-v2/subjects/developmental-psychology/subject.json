@@ -1,0 +1,394 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:developmental-psychology",
+    "slug": "developmental-psychology",
+    "title": "Developmental Psychology: Lifespan Development",
+    "aliases": [
+      {
+        "value": "developmental-psychology",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "devpsy",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "developmental psychology",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "developmental_psychology",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "lifespan-development",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "devpsy",
+        "kind": "source_subject_id",
+        "source_id": "prenursing_notes"
+      }
+    ],
+    "status": "final",
+    "category": "pre-health-core"
+  },
+  "units": [
+    {
+      "id": "unit:developmental-psychology:development",
+      "slug": "development",
+      "title": "Development",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "development",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:developmental-psychology:development:introduction-to-lifespan-development",
+          "slug": "introduction-to-lifespan-development",
+          "title": "Introduction to Lifespan Development",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/introduction-to-lifespan-development.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:research-methods-and-ethics",
+          "slug": "research-methods-and-ethics",
+          "title": "Research Methods and Ethics",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/research-methods-and-ethics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:major-developmental-theories",
+          "slug": "major-developmental-theories",
+          "title": "Major Developmental Theories",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/major-developmental-theories.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:genetics-prenatal-development-and-birth",
+          "slug": "genetics-prenatal-development-and-birth",
+          "title": "Genetics, Prenatal Development, and Birth",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/genetics-prenatal-development-and-birth.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:infancy-physical-and-brain-development",
+          "slug": "infancy-physical-and-brain-development",
+          "title": "Infancy: Physical and Brain Development",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/infancy-physical-and-brain-development.json",
+          "mappedQuestionCount": 8,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 8
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:infancy-cognitive-development",
+          "slug": "infancy-cognitive-development",
+          "title": "Infancy: Cognitive Development",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/infancy-cognitive-development.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:infancy-social-and-emotional-development",
+          "slug": "infancy-social-and-emotional-development",
+          "title": "Infancy: Social and Emotional Development",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/infancy-social-and-emotional-development.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:early-childhood-physical-and-cognitive-development",
+          "slug": "early-childhood-physical-and-cognitive-development",
+          "title": "Early Childhood: Physical and Cognitive Development",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/early-childhood-physical-and-cognitive-development.json",
+          "mappedQuestionCount": 24,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 24
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:early-childhood-social-and-emotional-development",
+          "slug": "early-childhood-social-and-emotional-development",
+          "title": "Early Childhood: Social and Emotional Development",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/early-childhood-social-and-emotional-development.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:middle-childhood-development",
+          "slug": "middle-childhood-development",
+          "title": "Middle Childhood Development",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/middle-childhood-development.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:adolescence-physical-and-cognitive-development",
+          "slug": "adolescence-physical-and-cognitive-development",
+          "title": "Adolescence: Physical and Cognitive Development",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/adolescence-physical-and-cognitive-development.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:adolescence-social-and-emotional-development",
+          "slug": "adolescence-social-and-emotional-development",
+          "title": "Adolescence: Social and Emotional Development",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/adolescence-social-and-emotional-development.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:emerging-and-early-adulthood",
+          "slug": "emerging-and-early-adulthood",
+          "title": "Emerging and Early Adulthood",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/emerging-and-early-adulthood.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:middle-adulthood",
+          "slug": "middle-adulthood",
+          "title": "Middle Adulthood",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/middle-adulthood.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:late-adulthood-and-aging",
+          "slug": "late-adulthood-and-aging",
+          "title": "Late Adulthood and Aging",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/late-adulthood-and-aging.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:death-dying-and-grief",
+          "slug": "death-dying-and-grief",
+          "title": "Death, Dying, and Grief",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/death-dying-and-grief.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:family-culture-and-context-across-the-lifespan",
+          "slug": "family-culture-and-context-across-the-lifespan",
+          "title": "Family, Culture, and Context Across the Lifespan",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/family-culture-and-context-across-the-lifespan.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:developmental-psychology:development:developmental-psychopathology-and-resilience",
+          "slug": "developmental-psychopathology-and-resilience",
+          "title": "Developmental Psychopathology and Resilience",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/developmental-psychology/topics/development/developmental-psychopathology-and-resilience.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 1,
+    "topicCount": 18,
+    "teachingTopicCount": 18,
+    "eli10TopicCount": 18,
+    "highYieldTopicCount": 18,
+    "referencedTopicCount": 0,
+    "exactOrMappedQuestionCount": 32,
+    "subjectWideQuestionCount": 427,
+    "uniqueQuestionCount": 459,
+    "citationReviewRequiredCount": 459
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

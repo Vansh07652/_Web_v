@@ -1,0 +1,201 @@
+---
+title: "Occurrence, Preparation, and Properties of Nitrogen"
+subject: "Science"
+book: "Chemistry: Atoms First 2e"
+chapter: "18: Representative Metals, Metalloids, and Nonmetals"
+topic_number: "7"
+source: "chemistry-atoms-first-2e.md"
+tags:
+  - "occurrence-preparation-and-properties-of-nitrogen"
+  - "science"
+status: "complete"
+---
+
+# Occurrence, Preparation, and Properties of Nitrogen
+
+> **Book:** [Chemistry: Atoms First 2e](../../README.md)  
+> **Chapter:** [Chapter 18: Representative Metals, Metalloids, and Nonmetals](../README.md)  
+> **Topic:** 7  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Nitrogen (N, atomic number 7) is a paradox: it is the most abundant element in the atmosphere — about 78% of air by volume is \( \mathrm{N_2} \) — yet chemically the most aloof of the common nonmetals. The reason is the triple bond between the two atoms: at nearly 941 kJ/mol it is one of the strongest bonds known, so \( \mathrm{N_2} \) behaves like a locked vault; breaking in requires a spark, a catalyst, or a living organism. This topic follows the chapter's three-part pattern: occurrence, preparation, and properties and compounds. Nitrogen spans oxidation states from −3 in ammonia to +5 in nitrate, feeds billions through fertilizers, and is the element at the heart of proteins and DNA.
+
+## Why This Matters
+
+Nitrogen chemistry is the chemistry of life: every protein, nucleic acid, and ATP molecule contains nitrogen. Industrially, the Haber process (\( \mathrm{N_2 + 3\,H_2 \rightarrow 2\,NH_3} \)) supplies the ammonia fertilizer that feeds a large share of the world's population. Nitrogen also explains everyday problems: nitric acid from combustion drives acid rain and smog, nitrate runoff causes algal blooms, and sodium azide airbags inflate in a fraction of a second. For exams, nitrogen's inertness, oxidation states, and stoichiometry tie together bonding, equilibria, and redox.
+
+## Core Concepts
+
+### Occurrence: mostly air
+
+Free nitrogen exists as \( \mathrm{N_2} \), about 78% of the atmosphere by volume. It is only about the 16th most abundant element in Earth's crust by mass, but it is everywhere combined: in proteins and nucleic acids of all living matter, in nitrate minerals such as Chile saltpeter (\( \mathrm{NaNO_3} \)), and in fossil fuels. Bacteria return nitrogen to the air when organisms die.
+
+### Preparation: unlocking the triple bond
+
+**Industrial — fractional distillation of liquid air.** Air is liquefied, then warmed slowly. Since \( \mathrm{N_2} \) boils at −195.8 °C and \( \mathrm{O_2} \) at −183.0 °C, nitrogen vaporizes first and is collected nearly pure — the source of almost all commercial \( \mathrm{N_2} \).
+
+**Laboratory.** Heating ammonium chloride with sodium nitrite gives nitrogen directly:
+
+\[
+\mathrm{NH_4Cl(aq) + NaNO_2(aq) \xrightarrow{\Delta} N_2(g) + NaCl(aq) + 2\,H_2O(l)}
+\]
+
+**Haber process.** Ammonia is made by reacting nitrogen with hydrogen over an iron catalyst at about 400–500 °C and 150–300 atm:
+
+\[
+\mathrm{N_2(g) + 3\,H_2(g) \rightleftharpoons 2\,NH_3(g)}
+\]
+
+The reaction is exothermic and reversible, so yield is a compromise governed by Le Châtelier's principle (Chapter 13): high pressure favors product, high temperature speeds the reaction but lowers yield, and the catalyst makes it fast enough to be economical.
+
+### Properties: inert until provoked
+
+Pure \( \mathrm{N_2} \) is colorless, odorless, and tasteless, and supports neither combustion nor life. Liquid nitrogen (boiling point −195.8 °C) is a common cryogen. At ordinary temperatures \( \mathrm{N_2} \) reacts with almost nothing; given enough energy it reacts with hydrogen (Haber), with oxygen during lightning strikes and in engines,
+
+\[
+\mathrm{N_2(g) + O_2(g) \xrightarrow{\text{high temp}} 2\,NO(g)}
+\]
+
+and with active metals to form ionic nitrides such as \( \mathrm{Mg_3N_2} \) and \( \mathrm{Li_3N} \).
+
+### Compounds and oxidation states
+
+Nitrogen's five valence electrons let it span oxidation states from −3 to +5: ammonia \( \mathrm{NH_3} \) (−3), hydrazine \( \mathrm{N_2H_4} \) (−2, a rocket fuel), \( \mathrm{N_2} \) (0), nitric oxide \( \mathrm{NO} \) (+2, a biological signaling molecule), nitrogen dioxide \( \mathrm{NO_2} \) (+4, brown smog gas), and nitric acid \( \mathrm{HNO_3} \) (+5, made by the Ostwald process: \( \mathrm{NH_3 \rightarrow NO \rightarrow NO_2 \rightarrow HNO_3} \)). This range lets nitrogen compounds act as both oxidizing and reducing agents.
+
+## ELI-10: Explain Like I'm 10
+
+Imagine two friends holding hands so tightly that nobody else can join the game — that is the \( \mathrm{N_2} \) molecule, and that super-strong handshake is why air mostly just sits there. To make nitrogen join the game, we heat it, squeeze it, or use a helper called a catalyst to break the handshake. Once free, nitrogen loves to join hydrogen to make ammonia, which plants eat — that is why we can grow food for billions of people.
+
+## High-Yield Points
+
+- \( \mathrm{N_2} \) is about **78% of the atmosphere by volume**; the \( \mathrm{N{\equiv}N} \) triple bond (~941 kJ/mol) makes it very unreactive at room temperature.
+- **Industrial preparation:** fractional distillation of liquid air — \( \mathrm{N_2} \) boils off at −195.8 °C, before \( \mathrm{O_2} \) (−183.0 °C).
+- **Haber process:** \( \mathrm{N_2 + 3\,H_2 \rightleftharpoons 2\,NH_3} \); Fe catalyst, high pressure, moderate temperature; exothermic and reversible.
+- **Ostwald process:** \( \mathrm{NH_3 \rightarrow NO \rightarrow NO_2 \rightarrow HNO_3} \) — nitric acid, a major industrial acid.
+- Common oxidation states: −3 (NH₃, NH₄⁺), 0 (N₂), +2 (NO), +4 (NO₂), +5 (HNO₃, NO₃⁻).
+- Airbag chemistry: \( \mathrm{2\,NaN_3(s) \rightarrow 2\,Na(s) + 3\,N_2(g)} \).
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Dinitrogen (\( \mathrm{N_2} \)) | The diatomic form of nitrogen, 78% of air | The unreactive reservoir that must be "fixed" before use |
+| Nitrogen fixation | Converting \( \mathrm{N_2} \) into usable compounds | The step that feeds plants (Haber, bacteria, lightning) |
+| Haber process | Industrial \( \mathrm{N_2 + 3\,H_2 \rightleftharpoons 2\,NH_3} \) over Fe | Source of most ammonia fertilizer |
+| Nitride | Ionic compound of N with a metal (\( \mathrm{N^{3-}} \)) | Shows nitrogen's −3 oxidation state |
+
+## Worked Examples
+
+### Example 1: Percent nitrogen in ammonium nitrate fertilizer
+
+Ammonium nitrate, \( \mathrm{NH_4NO_3} \), is a common fertilizer. What is the mass percent of nitrogen in it? (Atomic masses: N = 14.01, H = 1.008, O = 16.00 g/mol.)
+
+**Step 1 — Formula for molar mass:**
+
+\[
+M(\mathrm{NH_4NO_3}) = 2(14.01) + 4(1.008) + 3(16.00) = 80.05\ \text{g/mol}
+\]
+
+**Step 2 — Divide the nitrogen mass by the formula mass:**
+
+\[
+\%\mathrm{N} = \frac{2(14.01)\ \text{g N}}{80.05\ \text{g NH}_4\mathrm{NO}_3} \times 100\% = 35.0\%
+\]
+
+**Check:** a 50 kg bag delivers ~17.5 kg of nitrogen.
+
+### Example 2: Haber process stoichiometry
+
+How many grams of ammonia form when 56.0 g of \( \mathrm{N_2} \) reacts with excess \( \mathrm{H_2} \)? (Molar masses: N₂ = 28.01 g/mol, NH₃ = 17.03 g/mol.)
+
+**Step 1 — Grams to moles (moles = mass ÷ molar mass):**
+
+\[
+n(\mathrm{N_2}) = 56.0\ \text{g} \times \frac{1\ \text{mol N}_2}{28.01\ \text{g N}_2} = 2.00\ \text{mol N}_2
+\]
+
+**Step 2 — Mole ratio (2 mol NH₃ per 1 mol N₂):**
+
+\[
+2.00\ \text{mol N}_2 \times \frac{2\ \text{mol NH}_3}{1\ \text{mol N}_2} = 4.00\ \text{mol NH}_3
+\]
+
+**Step 3 — Moles to grams:**
+
+\[
+4.00\ \text{mol NH}_3 \times \frac{17.03\ \text{g NH}_3}{1\ \text{mol NH}_3} = 68.1\ \text{g NH}_3
+\]
+
+**Unit check:** g N₂ → mol N₂ → mol NH₃ → g NH₃; every step cancels. Answer: 68.1 g NH₃.
+
+### Example 3: Airbag deployment — gas volume from sodium azide
+
+An airbag inflates when sodium azide decomposes: \( \mathrm{2\,NaN_3(s) \rightarrow 2\,Na(s) + 3\,N_2(g)} \). What volume of \( \mathrm{N_2} \) at STP (22.4 L/mol) is released by 130.0 g of \( \mathrm{NaN_3} \)? (Molar mass NaN₃ = 65.02 g/mol.)
+
+**Step 1 — Grams to moles:**
+
+\[
+n(\mathrm{NaN_3}) = 130.0\ \text{g} \times \frac{1\ \text{mol NaN}_3}{65.02\ \text{g NaN}_3} = 2.00\ \text{mol NaN}_3
+\]
+
+**Step 2 — Mole ratio (3 mol N₂ per 2 mol NaN₃):**
+
+\[
+2.00\ \text{mol NaN}_3 \times \frac{3\ \text{mol N}_2}{2\ \text{mol NaN}_3} = 3.00\ \text{mol N}_2
+\]
+
+**Step 3 — Moles to volume at STP:**
+
+\[
+V = 3.00\ \text{mol N}_2 \times \frac{22.4\ \text{L}}{1\ \text{mol}} = 67.2\ \text{L N}_2
+\]
+
+Over 67 liters of gas — enough to fill the bag instantly.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| \( \mathrm{N_2} \) (nitrogen gas) | \( \mathrm{NO_2} \) (nitrogen dioxide) | N₂ is a colorless, unreactive gas in air; NO₂ is a toxic brown smog gas |
+| Ammonia \( \mathrm{NH_3} \) | Ammonium \( \mathrm{NH_4^+} \) | NH₃ is a weak base gas; NH₄⁺ is its conjugate acid ion in salts |
+| "Nitrogen is unreactive" | "Nitrogen compounds are unreactive" | N₂'s inertness is special (triple bond); its compounds include strong acids and explosives |
+| Nitrate \( \mathrm{NO_3^-} \) | Nitrite \( \mathrm{NO_2^-} \) | Nitrate is +5 nitrogen; nitrite is +3 — different ions with different chemistry |
+
+## Quick Review
+
+1. Why is \( \mathrm{N_2} \) so unreactive at room temperature, and what three things "fix" it into usable compounds?
+2. What is the mole ratio of \( \mathrm{NH_3} \) to \( \mathrm{N_2} \) in the Haber process, and why does high pressure favor more ammonia?
+3. In which compound does nitrogen have oxidation state +5: \( \mathrm{NH_3} \), \( \mathrm{NO_2} \), \( \mathrm{HNO_3} \), or \( \mathrm{N_2} \)?
+4. How many moles of \( \mathrm{N_2} \) are produced when 2.00 mol of \( \mathrm{NaN_3} \) decomposes?
+5. What mass of nitrogen is in 100.0 g of \( \mathrm{NH_4NO_3} \)?
+
+<details>
+<summary>Show answers</summary>
+
+1. The \( \mathrm{N{\equiv}N} \) triple bond (~941 kJ/mol) is extremely strong, so there is almost no pathway to react at low temperature. Fixation happens industrially (Haber), biologically (nitrogen-fixing bacteria), and atmospherically (lightning).
+2. 2 mol NH₃ per 1 mol N₂. The reaction produces fewer gas moles than it consumes (4 → 2), so by Le Châtelier's principle, increased pressure shifts the equilibrium toward ammonia.
+3. \( \mathrm{HNO_3} \): H (+1) + N (x) + 3 O (−6) = 0, so x = +5. (In NH₃ nitrogen is −3, in NO₂ +4, in N₂ 0.)
+4. \( 2.00\ \text{mol NaN}_3 \times \frac{3\ \text{mol N}_2}{2\ \text{mol NaN}_3} = 3.00\ \text{mol N}_2 \).
+5. \( 100.0\ \text{g} \times 0.350 = 35.0\ \text{g N} \) (using the 35.0% from Example 1).
+
+</details>
+
+## Related Topics
+
+- Previous: [Occurrence, Preparation, and Properties of Carbonates](06-occurrence-preparation-and-properties-of-carbonates.md)
+- Next: [Occurrence, Preparation, and Properties of Phosphorus](08-occurrence-preparation-and-properties-of-phosphorus.md)
+- Related: [Occurrence, Preparation, and Compounds of Hydrogen](05-occurrence-preparation-and-compounds-of-hydrogen.md)
+- Related: [Chapter 18 overview](../README.md)
+- Related: [Shifting Equilibria: Le Châtelier's Principle](../chapter-13-fundamental-equilibrium-concepts/03-shifting-equilibria-le-cha-telier-s-principle.md)
+
+## Source Notes
+
+- Book: Chemistry: Atoms First 2e
+- Local outline source: `chemistry-atoms-first-2e.md`
+- Official source URL: https://openstax.org/details/books/chemistry-atoms-first-2e/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Reference-values note: atomic masses, the N₂ triple-bond energy (~941 kJ/mol), boiling points (−195.8 °C N₂, −183.0 °C O₂), and STP molar volume (22.4 L/mol) are commonly taught reference values; use the periodic table provided in your course for graded work.
+- Safety note: liquid nitrogen causes severe frostbite — general cryogen safety principles only, no lab procedures.
+- Last updated: 2026-08-16

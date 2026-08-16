@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:vesicular-traffic:endocytosis",
+  "slug": "endocytosis",
+  "title": "Endocytosis: Pinocytosis, Receptor-Mediated Endocytosis, and Phagocytosis",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:vesicular-traffic",
+    "slug": "vesicular-traffic",
+    "title": "Vesicular Traffic",
+    "order": 4
+  },
+  "order": 11,
+  "status": "final",
+  "sections": {
+    "overview": "Endocytosis is the process by which cells internalize extracellular fluid, molecules, and even whole particles by invaginating the plasma membrane and pinching off vesicles. The three main forms are **pinocytosis** (\"cell drinking,\" non-specific uptake of fluid and dissolved solutes), **receptor-mediated endocytosis** (selective, clathrin-coated uptake of specific ligands via receptors), and **phagocytosis** (\"cell eating,\" actin-driven engulfment of large particles such as bacteria). All three deliver material into the endosomal–lysosomal system for processing, recycling, or degradation.",
+    "whyItMatters": "Endocytosis controls nutrient uptake (iron via transferrin, cholesterol via LDL), downregulates signaling receptors, recycles membrane, and mediates immune defense through phagocytosis of pathogens. Defects cause disease: impaired LDL uptake → familial hypercholesterolemia; defective phagocytosis → chronic infections (chronic granulomatous disease); and many viruses and toxins (influenza, diphtheria toxin) exploit the endocytic machinery to enter cells.",
+    "learningObjectives": "- Define endocytosis and distinguish its three main forms.\n- Describe the clathrin-dependent mechanism of receptor-mediated endocytosis and pinocytosis.\n- Explain how phagocytosis differs in mechanism and purpose.\n- Identify the role of the actin cytoskeleton and GTPases in each pathway.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nEndocytosis is the process by which cells internalize extracellular fluid, molecules, and even whole particles by invaginating the plasma membrane and pinching off vesicles. The three main forms are **pinocytosis** (\"cell drinking,\" non-specific uptake of fluid and dissolved solutes), **receptor-mediated endocytosis** (selective, clathrin-coated uptake of specific ligands via receptors), and **phagocytosis** (\"cell eating,\" actin-driven engulfment of large particles such as bacteria). All three deliver material into the endosomal–lysosomal system for processing, recycling, or degradation.\n\n### Key Components\n\n- **Clathrin:** the triskelion coat protein of coated pits in pinocytosis and receptor-mediated endocytosis.\n- **Adaptor proteins (AP2):** link clathrin to cargo receptors and membrane lipids.\n- **Dynamin:** GTPase that pinches the vesicle neck off the membrane.\n- **Caveolae (caveolin):** an alternative, non-clathrin pathway for some pinocytic uptake.\n- **Macropinocytosis:** actin-driven, ruffling-based bulk fluid uptake.\n- **Phagocytic receptors (Fc receptors, complement receptors, scavenger receptors):** bind opsonized targets.\n- **Actin and Rho-family GTPases:** drive membrane protrusion in phagocytosis and macropinocytosis.\n\n### Mechanism / How It Works\n\n1. **Pinocytosis:** the plasma membrane constitutively invaginates small vesicles, sampling extracellular fluid; clathrin-coated and caveolar pathways both contribute. It is largely non-selective — whatever solutes are in the fluid are taken up.\n2. **Receptor-mediated endocytosis:** a ligand (e.g. LDL, transferrin) binds its receptor, which concentrates in clathrin-coated pits via AP2 and internalization motifs; the pit deepens, and dynamin severs the neck, releasing a clathrin-coated vesicle that uncoats and fuses with early endosomes.\n3. **Phagocytosis:** a particle opsonized with antibodies/complement binds phagocytic receptors; local actin polymerization pushes the membrane outward to form pseudopods that surround and engulf the particle, forming a phagosome that matures into a phagolysosome for destruction.\n4. In all cases, the internalized material is delivered to early endosomes, where receptors and cargo are sorted for recycling or onward transport to late endosomes and lysosomes.\n\n### Energy and Directionality\n\nEndocytosis is unidirectional (plasma membrane → cytoplasm) and consumes energy: GTP is hydrolyzed by dynamin (vesicle scission), by Rab and ARF GTPases (coat recruitment and compartment identity), and by PI-kinases; ATP is used by actin polymerization motors in phagocytosis and macropinocytosis. Receptor-mediated uptake is selective and saturable because it depends on receptor–ligand binding; pinocytosis is non-saturable bulk uptake.\n\n### Experimental Evidence / Technique\n\n- **Electron microscopy (Roth and Porter):** visualized clathrin-coated pits and vesicles in mosquito oocytes during yolk uptake, founding the field.\n- **Transferrin and LDL uptake assays:** fluorescent or radiolabeled ligands demonstrated specific, saturable receptor-mediated internalization.\n- **Dynamin temperature-sensitive mutants (in *Drosophila*, *shibire*):** at the restrictive temperature, coated pits accumulate but cannot pinch off — showing dynamin is required for scission.\n- **Phagocytosis assays with latex beads or opsonized bacteria:** quantified uptake and revealed the requirement for actin polymerization (blocked by cytochalasin).",
+    "howItWorks": "1. **Pinocytosis:** the plasma membrane constitutively invaginates small vesicles, sampling extracellular fluid; clathrin-coated and caveolar pathways both contribute. It is largely non-selective — whatever solutes are in the fluid are taken up.\n2. **Receptor-mediated endocytosis:** a ligand (e.g. LDL, transferrin) binds its receptor, which concentrates in clathrin-coated pits via AP2 and internalization motifs; the pit deepens, and dynamin severs the neck, releasing a clathrin-coated vesicle that uncoats and fuses with early endosomes.\n3. **Phagocytosis:** a particle opsonized with antibodies/complement binds phagocytic receptors; local actin polymerization pushes the membrane outward to form pseudopods that surround and engulf the particle, forming a phagosome that matures into a phagolysosome for destruction.\n4. In all cases, the internalized material is delivered to early endosomes, where receptors and cargo are sorted for recycling or onward transport to late endosomes and lysosomes.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- **Pinocytosis** = non-specific fluid uptake (\"cell drinking\").\n- **Receptor-mediated endocytosis** = selective, clathrin-coated, receptor-driven uptake (LDL, transferrin).\n- **Phagocytosis** = actin-driven engulfment of large particles (\"cell eating\").\n- **Dynamin** is the GTPase that severs the vesicle neck.\n- **Clathrin + AP2** form the coat of coated pits/vesicles.\n- **Caveolae** are a clathrin-independent pinocytic route.\n- **Macropinocytosis** = actin-driven bulk fluid uptake via membrane ruffles.\n- Endocytic vesicles feed into **early endosomes**, then recycling or degradation.",
+    "commonConfusions": "- **\"Pinocytosis, receptor-mediated endocytosis, and phagocytosis are the same thing.\"** They differ in *selectivity* and *mechanism*: pinocytosis is non-specific, receptor-mediated is selective and clathrin-based, and phagocytosis is actin-driven engulfment of large particles.\n- **\"Phagocytosis is just a bigger coated vesicle.\"** Phagocytosis is driven by *actin polymerization and membrane protrusion*, not by a clathrin coat.\n- **\"Receptor-mediated endocytosis only brings in the receptor.\"** It internalizes the receptor *plus* its bound ligand (e.g. LDL particle).\n- **\"Endocytosis doesn't require energy.\"** It requires GTP (dynamin, Rabs) and ATP (actin), even though it is \"downhill\" for the ligand gradient.\n- **\"All endocytic vesicles go to lysosomes.\"** Many recycle their receptors/cargo back to the surface via early/recycling endosomes.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine three ways to bring things into a house. \"Drinking\" is like leaving the door open so air (and whatever dust is floating) drifts in — that's pinocytosis. \"Eating\" is like using a net (a receptor) to catch exactly the one kind of ball you want — that's receptor-mediated endocytosis. And \"phagocytosis\" is like wrapping your arms around a big package and swallowing it whole. All three get material inside, just by different amounts of effort and selectivity. (The analogy omits that real cells pinch off membrane vesicles and that even \"drinking\" uses a coat called clathrin.)",
+    "quickReview": "- Endocytosis = pinocytosis (fluid) + receptor-mediated (specific, clathrin) + phagocytosis (large particles, actin).\n- Clathrin + AP2 coat selective pits; dynamin severs the vesicle.\n- Phagocytosis engulfs via actin-driven pseudopods.\n- All routes deliver cargo to early endosomes → recycling or lysosomes.\n- Clinical links: familial hypercholesterolemia (LDL), chronic granulomatous disease (phagocytosis).",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, Johnson A, Lewis J, et al. \"Transport into the Cell from the Plasma Membrane: Endocytosis.\" *Molecular Biology of the Cell.* 4th edition. Garland Science; 2002. https://www.ncbi.nlm.nih.gov/books/NBK26870/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26870/"
+      },
+      {
+        "text": "Clark MA, Choi J, Douglas M. \"5.4 Bulk Transport.\" *Biology 2e.* OpenStax. https://openstax.org/books/biology-2e/pages/5-4-bulk-transport",
+        "url": "https://openstax.org/books/biology-2e/pages/5-4-bulk-transport"
+      },
+      {
+        "text": "Clark MA, Choi J, Douglas M. \"4.4 The Endomembrane System and Proteins.\" *Biology 2e.* OpenStax. https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+        "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/04-vesicular-traffic/11-endocytosis.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

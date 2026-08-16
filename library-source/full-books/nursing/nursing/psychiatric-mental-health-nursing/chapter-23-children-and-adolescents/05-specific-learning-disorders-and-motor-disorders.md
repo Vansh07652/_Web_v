@@ -1,0 +1,166 @@
+---
+title: "Specific Learning Disorders and Motor Disorders"
+subject: "Nursing"
+book: "Psychiatric-Mental Health Nursing"
+chapter: "23: Children and Adolescents"
+topic_number: "5"
+source: "psychiatric-mental-health.md"
+tags:
+  - "specific-learning-disorders-and-motor-disorders"
+  - "nursing"
+status: "complete"
+---
+
+# Specific Learning Disorders and Motor Disorders
+
+> **Book:** [Psychiatric-Mental Health Nursing](../../README.md)  
+> **Chapter:** [Chapter 23: Children and Adolescents](../README.md)  
+> **Topic:** 5  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Specific learning disorder (SLD)** is a neurodevelopmental condition in which a person has persistent difficulty learning and using academic skills — reading, writing, or mathematics — substantially below what would be expected for their age, intelligence, and schooling. The word *specific* is essential: the difficulty is limited to particular academic domains while other abilities may be strong. SLD is not caused by low intelligence, sensory impairment, inadequate instruction, or lack of opportunity — by definition, it occurs *despite* adequate instruction and effort.
+
+The related **motor disorders** are **developmental coordination disorder (DCD)** — motor skills substantially below age expectations that interfere with daily life and school — and **stereotypic movement disorder**, repetitive, seemingly driven, nonfunctional movements that sometimes include self-injury. (Tic disorders, sometimes grouped with motor disorders, are covered separately in this chapter because their phenomenology — sudden, rapid, suppressible movements and sounds — is distinct.)
+
+All of these share a common thread: they are brain-based differences in how learning and movement develop, not measures of effort, character, or intelligence. Yet children with them are routinely misread as "lazy," "clumsy," or "not trying."
+
+## Why This Matters
+
+Specific learning disorders are common — estimates in the school-age population commonly range from about 5% to 15% depending on definition and country — and developmental coordination disorder affects roughly 5–6% of children. These are everyday reasons children struggle, avoid school, and develop anxiety and low self-esteem.
+
+The nursing stake is early recognition and early support. The earlier a child's learning or motor differences are identified, the sooner evidence-based instruction, accommodations, and skill-building can begin — and the less time the child spends concluding "I'm stupid." Nurses in schools, primary care, and community settings are often the adults who hear the pattern first: the kindergartner who can't learn to rhyme, the third-grader who reads with agonizing slowness, the child who avoids recess because catching a ball is humiliating. Nurses also combat stigma and navigate *jurisdiction-specific* educational frameworks (in the U.S., the Individuals with Disabilities Education Act and Section 504; elsewhere, national systems vary) that determine what supports a child can access.
+
+## Core Concepts
+
+### What makes a learning disorder "specific"
+
+Current diagnostic frameworks define SLD by five elements:
+
+1. **Persistent difficulty** in at least one academic domain (reading, written expression, or mathematics) lasting at least six months despite targeted help.
+2. **Performance substantially below age expectations** on standardized measures.
+3. **Onset during the school years**, though impact may not be fully felt until academic demands increase.
+4. **Interference** with academics, daily living, or occupation.
+5. **Not better explained** by intellectual disability, sensory impairment, other conditions, inadequate instruction, or lack of proficiency in the language of instruction.
+
+That last point is the gatekeeper: a child who never received phonics instruction does not have a reading disorder — they have a teaching gap. The *specific* protects against both over- and under-identification.
+
+### The three academic domains
+
+- **Reading (often called dyslexia):** difficulty with accurate or fluent word reading, decoding (mapping letters to sounds — phonological processing), and reading comprehension. The classic core is trouble connecting sounds to symbols, making reading slow, effortful, and error-prone.
+- **Written expression (sometimes called dysgraphia):** difficulty with spelling, grammar and punctuation, and organizing ideas in writing. A child may know the answer verbally but produce a page of chaotic, misspelled prose.
+- **Mathematics (sometimes called dyscalculia):** difficulty with number sense, memorizing arithmetic facts, accurate calculation, or mathematical reasoning.
+
+A person may have difficulty in one domain or several; diagnosis uses specifiers to record exactly which.
+
+### Developmental coordination disorder
+
+DCD is the "motor learning" disorder: motor skills are acquired and performed substantially below what is expected for age, despite normal opportunity to learn and practice. Children drop things, trip, have illegible handwriting, struggle with buttons and shoelaces, and avoid sports and playground games. The difficulties interfere with daily living, academics, or play — and are not explained by a medical condition such as cerebral palsy or muscular dystrophy. DCD frequently co-occurs with ADHD, SLD, and ASD, and children who "can't play" are often excluded by peers.
+
+### Stereotypic movement disorder
+
+Stereotypic movements are repetitive, seemingly driven, nonfunctional behaviors — hand flapping, rocking, head banging — that are difficult to interrupt and can interfere with functioning. When the movements are self-injurious (for example, head banging causing injury), the diagnosis is specified as *with self-injurious behavior*, and prompt evaluation and safety planning are essential. Stereotypies are common in autistic children and people with intellectual disability, but can occur in otherwise typical development; rhythmic rocking in infancy is usually benign, which is why context and persistence matter.
+
+### Assessment: from discrepancy to response to intervention
+
+The way learning disorders are identified has changed. The older **IQ–achievement discrepancy model** defined a learning disability as a gap between measured intelligence and achievement; critics noted it required children to *fail long enough* to fall behind, and it worked poorly for bright children. Modern practice increasingly uses **response to intervention (RTI):** the child receives high-quality, evidence-based instruction with progress monitoring; failure to respond despite good teaching is itself a signal for comprehensive evaluation. Final diagnosis is made by qualified professionals (typically school or clinical psychologists) using standardized achievement testing, cognitive assessment, and educational history. **There is no medical test** for SLD or DCD.
+
+### The nursing role: recognize, refer, support
+
+- **Recognize patterns:** persistent difficulty with rhyming or letter–sound correspondence, reading avoidance, handwriting far below age level, extreme difficulty with arithmetic facts, motor clumsiness causing daily problems — observations to document, not labels to apply.
+- **Refer and coordinate:** connect families to evaluation pathways (school-based assessment, developmental evaluation) and coordinate information among parents, teachers, and providers. Nurses do not diagnose.
+- **Protect self-esteem:** use person-first language, highlight strengths, and correct the "lazy" narrative. A child with dyslexia is not a failed reader; a child with DCD is not a failed athlete.
+- **Support accommodations:** extra time, audiobooks and text-to-speech, assistive technology, keyboarding instead of handwriting — the menu depends on the evaluation and the jurisdiction's educational framework.
+- **Advocate and explain:** help families understand rights and options under local law (for example, 504 plans and IEPs in the U.S.), and document the child's response to prescribed interventions.
+
+### A note on history
+
+Recognition of learning disorders is relatively recent. In 1877, German physician Adolf Kussmaul described adults with "word blindness" — loss of reading ability despite intact vision — and by the 1920s clinicians such as Samuel Orton were describing children with severe reading difficulty despite normal intelligence. For decades such children were called lazy or slow; the shift to a *neurodevelopmental* understanding — and to legally protected educational supports — is a story of science correcting stigma.
+
+## ELI-10: Explain Like I'm 10
+
+Some brains learn to read, write, do math, or move their bodies in a different order and at a different pace — like a car with all the right parts but a special engine that needs a different kind of driving. That doesn't mean the person is dumb or lazy; their brain just works differently for that one skill. We find out how their brain learns best, then give them tools — more time, different ways to read, practice that fits them — so they can show what they know.
+
+## High-Yield Points
+
+- **SLD = persistent difficulty in reading, writing, or math** despite adequate instruction and opportunity; not explained by intellectual disability, sensory loss, or poor teaching.
+- **Three domains:** reading (dyslexia — phonological processing), written expression (dysgraphia), mathematics (dyscalculia); a person may have one or several.
+- **Developmental coordination disorder:** motor skills well below age level, interfering with daily life/school; not due to a medical condition; often co-occurs with ADHD and SLD.
+- **Stereotypic movement disorder:** repetitive, nonfunctional, hard-to-interrupt movements; the self-injurious specifier demands prompt evaluation and safety planning.
+- **Modern identification uses response to intervention** (poor response to good teaching → comprehensive evaluation) rather than the older IQ–achievement gap alone.
+- **No lab test:** diagnosis by qualified professionals using standardized testing and history.
+- **Not laziness, not low intelligence** — and frequently co-occurs with ADHD and anxiety.
+- **School supports are jurisdiction-specific** (U.S.: 504 plan vs. IEP under IDEA); nurses support families through local processes.
+- **Nurses recognize, document, refer, and support** — they do not diagnose.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Specific learning disorder | Persistent difficulty learning reading, writing, or math despite adequate instruction | The core concept; "specific" means limited domains with other strengths intact |
+| Dyslexia | Reading disorder: trouble decoding, fluency, comprehension | The most common SLD; rooted in phonological processing difficulty |
+| Dysgraphia | Written-expression disorder: spelling, grammar, organization | Writing struggles may be invisible when the child speaks well |
+| Dyscalculia | Math disorder: number sense, calculation, reasoning | Easily missed; often explained away as "not a math person" |
+| Phonological processing | The ability to connect sounds to letters and manipulate them | The classic engine behind reading difficulty |
+| Response to intervention (RTI) | Tiered instruction with progress monitoring; poor response flags need for evaluation | The modern identification pathway replacing the IQ–achievement gap alone |
+| Developmental coordination disorder | Motor skills far below age level, affecting daily life | "Clumsy" is a stigma, not a diagnosis; DCD has real functional impact |
+| Stereotypic movement disorder | Repetitive, nonfunctional, driven movements | Self-injurious forms require urgent evaluation and safety planning |
+| Accommodation | A change in *how* learning is accessed (time, tools, format), not what is learned | Accommodations level the field without lowering standards |
+| 504 plan / IEP | U.S. legal school-support frameworks (IDEA) | Examples of jurisdiction-specific support systems — frameworks vary worldwide |
+
+## Example: The Boy Who "Just Won't Try"
+
+Ethan, age 8, is referred to the school nurse because he "refuses" to read aloud and is "behavioral" in class. The nurse listens to the teacher, then to Ethan's mother — who describes a bright, funny child who memorizes dinosaur facts by the dozen but comes home crying about "dumb letters." The nurse asks the mother to have Ethan read her a word he knows. He stares at it, sounds it out letter by letter, and gives up: "It's like the letters move."
+
+The nurse documents what she observes — effort is clearly *high*, not low — and sees a pattern consistent with phonological processing difficulty, not defiance. She does not diagnose. She supports the family in requesting a comprehensive school evaluation, explains the school's process, and reframes the conversation: Ethan is not refusing to try; he is trying harder than anyone and getting nowhere without the right instruction.
+
+Six months later, Ethan has a diagnosis of specific learning disorder in reading, an IEP with structured phonics-based instruction and audiobook accommodations, and — most important — a different story about himself. "He told me," his mother says, "that his brain just needed different training." That is the nursing outcome this topic is about: recognition that turns stigma into a plan.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Letter reversals | Dyslexia | Reversing b/d or writing letters backward is common in typical early development; dyslexia is persistent difficulty with word reading and phonological processing |
+| SLD | Low intelligence | SLD occurs across the intelligence range; strengths in other domains are typical |
+| SLD | Laziness or poor effort | Neurological processing differences; children with SLD often work *harder* with less result |
+| DCD | "Just clumsy" | DCD is motor skill far below age norms with real functional impact; "clumsy" dismisses a treatable difficulty |
+| Stereotypic movements | Tics | Stereotypies are rhythmic, fixed, nonfunctional, hard to interrupt; tics are sudden, rapid, suppressible, urge-driven (next topic) |
+| Accommodations | Lowering academic standards | Accommodations change access (extra time, audiobooks, assistive tech); expectations stay the same |
+| Poor instruction | SLD | SLD is defined *despite* adequate instruction — a teaching gap must be ruled out first |
+| Nurse diagnosing SLD | Nurse recognizing and referring | Diagnosis requires qualified professionals, standardized testing, and educational history |
+
+## Quick Review
+
+1. What are the three academic domains of specific learning disorder, and their common names?
+2. Why is "despite adequate instruction" a defining feature of SLD?
+3. How does response to intervention differ from the older IQ–achievement discrepancy model?
+4. What distinguishes developmental coordination disorder from ordinary clumsiness?
+5. Why is the "with self-injurious behavior" specifier for stereotypic movement disorder clinically urgent?
+6. What is the nurse's role when a child shows signs of a learning disorder?
+
+<details>
+<summary>Show answers</summary>
+
+1. Reading (often called dyslexia), written expression (sometimes called dysgraphia), and mathematics (sometimes called dyscalculia). A person may have difficulty in one or more domains.
+2. Because SLD is defined as a learning difficulty that persists *in spite of* adequate teaching and opportunity. If the child never received proper instruction, the problem is a teaching gap, not a learning disorder — ruling this out prevents over-identification.
+3. The discrepancy model defined a learning disability as a gap between IQ and achievement — requiring children to fall far behind before identification. RTI provides evidence-based instruction with progress monitoring first; poor response despite good teaching then triggers comprehensive evaluation — earlier and more equitable.
+4. DCD is motor performance substantially below age expectation that interferes with daily living, academics, or play — not explained by a medical or neurological condition. Ordinary clumsiness does not cause this level of functional interference.
+5. Because movements that injure (e.g., head banging) pose actual physical risk; the specifier signals the need for prompt evaluation, safety planning, and intervention — before injury occurs.
+6. Recognize and document the pattern, refer the family for comprehensive evaluation by qualified professionals, coordinate with teachers and providers, protect the child's self-esteem, and help the family navigate jurisdiction-specific school supports (e.g., 504/IEP in the U.S.). Nurses do not diagnose.
+
+</details>
+
+## Related Topics
+
+- Previous: [Attention-Deficit/Hyperactivity Disorder](04-attention-deficit-hyperactivity-disorder.md)
+- Next: [Tic Disorder and Tourette Syndrome](06-tic-disorder-and-tourette-syndrome.md)
+- Related: [Communication Disorders](02-communication-disorders.md) · [Children and Adolescents chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Psychiatric-Mental Health Nursing
+- Local outline source: `psychiatric-mental-health.md`
+- Official source URL: https://openstax.org/details/books/psychiatric-mental-health/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-16

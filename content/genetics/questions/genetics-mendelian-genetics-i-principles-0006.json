@@ -1,0 +1,40 @@
+{
+  "id": "genetics-mendelian-genetics-i-principles-0006",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-i-principles",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem Two pea plants heterozygous at two independently assorting loci with complete dominance are crossed. What phenotypic ratio is expected among the offspring?",
+  "options": [
+    {
+      "id": "a",
+      "text": "3:1"
+    },
+    {
+      "id": "b",
+      "text": "1:2:1"
+    },
+    {
+      "id": "c",
+      "text": "9:3:3:1"
+    },
+    {
+      "id": "d",
+      "text": "1:1:1:1"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Each locus segregates independently, so the two single locus phenotypic ratios 3:1 (sums to 4) multiply to give the dihybrid ratio 9:3:3:1 (sums to 16). A keeps only one locus, and B is the single locus genotypic ratio 1:2:1 (sums to 4). D would appear in a test cross of a dihybrid, 1:1:1:1 (sums to 4), not in a self cross.",
+  "difficulty": "unknown",
+  "tags": [
+    "dihybrid",
+    "cross",
+    "phenotypic",
+    "ratio"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-a9c23a294d5c5fc1",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

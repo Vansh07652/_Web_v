@@ -1,0 +1,39 @@
+{
+  "id": "physics-2-current-and-resistance-0005",
+  "subject": "physics-2",
+  "lesson": "current-and-resistance",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For temperature dependence of resistivity, use $V = I R$ in a Ohms law model. The first quantity is 2.50 A and the second is 5.00 Ohm. What is the potential difference?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$6.25\\ \\text{V}$"
+    },
+    {
+      "id": "b",
+      "text": "$12.50\\ \\text{V}$"
+    },
+    {
+      "id": "c",
+      "text": "$25.00\\ \\text{V}$"
+    },
+    {
+      "id": "d",
+      "text": "$15.62\\ \\text{V}$"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Using $V = I R$ gives 2.50 A times 5.00 Ohm = $12.50\\ \\text{V}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to V, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "temperature",
+    "dependence",
+    "resistivity"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-a425d99bac5ceb8c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,134 @@
+---
+title: "Delirium"
+subject: "Nursing"
+book: "Psychiatric-Mental Health Nursing"
+chapter: "14: Neurocognitive Disorders"
+topic_number: "2"
+source: "psychiatric-mental-health.md"
+tags:
+  - "delirium"
+  - "nursing"
+status: "complete"
+---
+
+# Delirium
+
+> **Book:** [Psychiatric-Mental Health Nursing](../../README.md)  
+> **Chapter:** [Chapter 14: Neurocognitive Disorders](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Delirium** is an acute, fluctuating disturbance in attention and awareness, accompanied by changes in cognition, that is caused by an underlying medical condition, medication, or substance-related problem. It is best understood as the brain's way of signaling that something is wrong in the body — like a fever or a fast heart rate, it is a *symptom of an underlying problem*, not a diagnosis in itself. The person develops confusion over hours to a few days, cannot hold attention, may be drowsy or agitated, and often has a waxing-and-waning course where they are lucid one moment and confused the next.
+
+Delirium is common in hospitalized older adults, after surgery, in intensive care, and in anyone with a serious medical illness. It is frequently reversible if the cause is found and treated quickly — and that is exactly why it is a **medical emergency**. Historically, hospital confusion was often dismissed as "sundowning" or "hospital psychosis," something to be expected in sick older patients. Research by Sharon Inouye and colleagues in the 1990s changed that view, demonstrating that delirium is common, dangerous, and often *preventable* with structured nonpharmacological approaches such as early mobilization, sleep protocols, and orientation. The lesson for nursing is direct: delirium is not normal, not trivial, and not something to wait out.
+
+## Why This Matters
+
+Delirium matters because it is both common and deadly serious. It is associated with longer hospital stays, functional decline, higher mortality, and an increased risk of later dementia. It is also a safety crisis: people with delirium fall, pull out lines and tubes, wander, and may become aggressive out of fear. For the nurse, delirium is a frontline recognition problem — nurses spend more continuous time with clients than any other clinician, and are often the first to see the change from baseline. Missed delirium is a missed medical emergency. Compounding the problem, the **hypoactive** form (quiet, withdrawn, sleepy) is the most easily missed and has a worse prognosis in some studies precisely because it goes unrecognized. Recognition, prompt reporting, and supporting the search for the cause are nursing actions that can save lives.
+
+## Core Concepts
+
+### The defining features
+
+Delirium has a recognizable signature. It is **acute** — onset over hours to days, unlike the slow onset of dementia. It **fluctuates** — symptoms come and go, often worse at night (the phenomenon behind the term "sundowning"). The core feature is disturbed **attention**: the person cannot focus, follow a conversation, or stay on task. Awareness is also altered — the person may be hyperalert and vigilant, or drowsy and difficult to arouse. Around this core, cognition changes: disorientation, memory problems, rambling or incoherent speech, and perceptual disturbances such as hallucinations (often visual) or misperceptions. Behavior may range from agitation and restlessness to withdrawal and near-stupor, and emotions may swing from fear to apathy.
+
+### Why delirium happens: causes
+
+Delirium has many triggers because the brain is vulnerable to many insults. Common categories include: **infection** (especially urinary and respiratory infections in older adults), **medications** (a leading cause — anticholinergics, sedatives, opioids, and new or changed drugs, plus withdrawal from alcohol or sedatives), **metabolic problems** (dehydration, electrolyte disturbances, low or high blood sugar, liver or kidney failure), **hypoxia** (low oxygen from pneumonia, heart failure, or anemia), **surgery and anesthesia**, **pain**, **constipation or urinary retention**, and **sensory and sleep deprivation** (being in an unfamiliar, noisy, bright environment without glasses or hearing aids). Often several factors combine. The nurse's job is not to guess the single cause but to gather and report the observations — what changed, when, and what the person is doing — that help the provider find it.
+
+### Three clinical subtypes
+
+Delirium is described by motor activity. **Hyperactive delirium** is the most recognizable: agitation, restlessness, hallucinations, pulling at lines, shouting. **Hypoactive delirium** is the quiet form: lethargy, slowed speech and movement, reduced responsiveness — easily mistaken for depression, fatigue, or "a quiet night." **Mixed delirium** alternates between the two. The hypoactive form is the classic exam trap and the clinical danger: a quiet, sleepy patient attracts less attention, and recognition is delayed. All subtypes are medical emergencies.
+
+### Risk factors
+
+Delirium risk follows a "host vulnerability plus insult" model. Older age, pre-existing dementia or mild NCD, sensory impairment, frailty, and severe illness make the brain more vulnerable, so a smaller insult (one new medication, one night of poor sleep) can tip the person into delirium. In young, healthy people, delirium usually requires a major insult such as severe infection or trauma. Recognizing who is at risk lets the nurse act preventively — protecting sleep, promoting early mobility, keeping sensory aids available, and maintaining hydration per the care plan.
+
+### Assessment and screening
+
+Assessment starts with the baseline question: **What is this person's usual mental status, and what is different now?** The Confusion Assessment Method (CAM) and its ICU version (CAM-ICU) are validated tools clinicians use to detect delirium through four features: acute onset and fluctuating course, inattention, disorganized thinking, and altered level of consciousness. Nurses also test attention directly (e.g., asking the person to recite the months backward or count backwards) and note orientation. The key comparison is always against the person's *own* baseline, obtained from family or prior records — a change from baseline is the signal. Documented observations such as "awake and oriented at 0800, confused and pulling at IV at 2300, fluctuated through the night" are the evidence the provider needs.
+
+### Nursing care: recognition, safety, escalation
+
+Nursing care for delirium has three strands. **Recognition and escalation:** any acute change in attention or awareness is reported to the provider promptly, following facility policy — delirium is a medical emergency, and the nurse never simply "watches" it. **Safety:** the environment is adjusted to protect the person — bed alarms, frequent observation, low beds, removing hazards, keeping the person near the nurses' station — while using the least restrictive measures possible per facility policy. **Supportive care:** nonpharmacological measures that help the brain recover — reorientation with a calm, simple approach (telling the person where they are and what time it is), family presence, familiar objects, glasses and hearing aids in place, lights on during the day and dim at night, early mobilization, and adequate hydration and nutrition per orders. Restraints are avoided whenever possible because they can worsen agitation and injury risk; any use follows strict facility and regulatory rules. The nurse also explains to family members that delirium is a sign of a medical problem, not "losing their mind," which reduces their fear.
+
+## ELI-10: Explain Like I'm 10
+
+Imagine your computer suddenly starts acting weird — freezing, flashing, shutting down for no reason. You wouldn't say the computer is "just getting old" and walk away; you would check for a virus, an overheating fan, or a broken part. Delirium is the brain acting weird because something else in the body is wrong — like an infection or a bad medicine. Fix the real problem, and the brain usually works again.
+
+## High-Yield Points
+
+- Delirium = **acute, fluctuating** disturbance in **attention and awareness** with cognitive changes — a symptom of an underlying medical problem and a **medical emergency**.
+- The signature features: acute onset, fluctuating course, inattention, altered awareness, disorientation, and often visual hallucinations; worse at night ("sundowning").
+- Three subtypes: hyperactive (agitated), **hypoactive (quiet — most easily missed, dangerous)**, and mixed.
+- Causes include infection, medications (especially anticholinergics and sedatives) and withdrawal, metabolic problems, hypoxia, surgery, pain, constipation/retention, and sensory/sleep deprivation.
+- Risk is highest in older adults, people with dementia, and the severely ill — a small insult can trigger delirium in a vulnerable brain.
+- The Confusion Assessment Method (CAM / CAM-ICU) is the standard detection framework; always compare against the person's **own baseline**.
+- Nursing role: recognize the change, **report it to the provider promptly per facility policy**, protect safety with least-restrictive measures, and support recovery with orientation, family presence, sensory aids, sleep, mobility, and hydration.
+- Restraint use is a last resort and tightly regulated; it can worsen delirium.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Delirium | An acute, fluctuating disturbance in attention and awareness caused by an underlying medical problem | A medical emergency; often reversible if the cause is treated quickly |
+| Attention | The ability to focus and sustain concentration | The core feature of delirium — inattention is present in every case |
+| Fluctuation | Symptoms that come and go over hours, often worse at night | Distinguishes delirium from the steady course of dementia |
+| Hyperactive delirium | Agitated, restless, hallucinating, pulling at lines | The most visible subtype; a safety crisis |
+| Hypoactive delirium | Quiet, withdrawn, sleepy, slowed | The most missed subtype — can be mistaken for depression or fatigue |
+| CAM / CAM-ICU | Validated detection tools (Confusion Assessment Method) | The standard framework for recognizing delirium in clinical settings |
+| Sundowning | Worsening of confusion in the evening and night | A pattern of delirium (and sometimes dementia) — never "normal" in a hospitalized person |
+| Underlying cause | The medical problem (infection, medication, metabolic change, etc.) driving the delirium | Finding and treating it is the whole point — delirium is a symptom, not a diagnosis |
+
+## Example: Clinical Scenario
+
+Mr. Rodriguez, 74, had hip surgery yesterday. At 11 p.m., the night nurse finds him trying to climb out of bed, shouting that he "needs to catch the bus," with the IV line pulled from his arm. He was alert and oriented at 8 p.m. The nurse recognizes the pattern immediately: acute onset, fluctuating course, inattention (he cannot follow a simple instruction), disorientation, and behavior change — a classic delirium presentation in a postoperative older adult.
+
+She does not scold him or assume he is "just confused from anesthesia." She calmly redirects him, tells him where he is and why he is there in short, simple sentences, and calls for assistance per facility protocol to keep him safe while she notifies the provider. She gathers the key data: what changed, when it started, his medications (including the new postoperative pain regimen and any anticholinergics), his pain score, his last void, and his oxygen saturation. The provider orders evaluation for common culprits — the nurse checks whether his bladder is distended and notes his O₂ sat is low, prompting oxygen and a chest assessment. Meanwhile, she keeps the room lit, returns his glasses, and asks his daughter to stay and hold his hand. By morning, with oxygen, pain control, and his daughter present, Mr. Rodriguez is back to his baseline. The teaching point: the nurse turned a confused, dangerous night into a rapid search for the cause — and the cause was found because she knew what to look for, what to report, and how to keep him safe without restraint.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Delirium | Dementia | Delirium is acute (hours to days), fluctuating, with inattention as the core; dementia is chronic, progressive, with memory loss prominent. Delirium is a medical emergency; dementia is a long-term condition |
+| Delirium | Depression | Hypoactive delirium can look like depression (withdrawal, low energy), but delirium has acute onset, fluctuating attention, and an underlying medical cause |
+| "Sundowning" being normal | A symptom of a real problem | In a hospitalized or ill person, evening confusion is a red flag for delirium, not an expected event |
+| Hyperactive delirium | "Being difficult" or "uncooperative" | Agitation in delirium is a brain symptom of an underlying illness — the response is assessment and cause-finding, not judgment |
+| Reorientation always working | Validation when needed | Simple reorientation helps many; arguing with hallucinations or fears can escalate distress — calm, non-confrontational responses and family presence are the tools |
+| Restraint as first response | Least-restrictive safety first | Restraints can worsen delirium and injury risk; observation, environmental safety, and de-escalation come first, and any restraint use follows strict policy |
+
+## Quick Review
+
+1. What are the four features assessed by the Confusion Assessment Method (CAM)?
+2. Why is hypoactive delirium considered especially dangerous?
+3. Name four categories of causes of delirium and one example in each.
+4. How does delirium differ from dementia in onset and course?
+5. A postoperative patient becomes acutely confused and agitated at night. What are the nurse's first actions?
+
+<details>
+<summary>Show answers</summary>
+
+1. Acute onset and fluctuating course, inattention, disorganized thinking, and altered level of consciousness.
+2. Because it is quiet — withdrawn and sleepy — so it is easily missed or mistaken for depression or fatigue, delaying recognition of the underlying medical emergency.
+3. Infection (urinary or respiratory), medications (anticholinergics, sedatives, opioids) and withdrawal, metabolic problems (dehydration, electrolytes, glucose), hypoxia (pneumonia, heart failure), plus surgery, pain, constipation/retention, and sensory/sleep deprivation.
+4. Delirium is acute (hours to days) and fluctuating, with attention disturbed; dementia develops slowly over months to years with a steadier course and prominent memory loss.
+5. Recognize the change from baseline, ensure safety with least-restrictive measures and assistance per facility protocol, gather observations (medications, pain, voiding, oxygen, what changed), and notify the provider promptly — delirium is a medical emergency.
+
+</details>
+
+## Related Topics
+
+- Previous: [Mild Neurocognitive Disorders](01-mild-neurocognitive-disorders.md)
+- Next: [Dementia](03-dementia.md)
+- Related: [Dementia](03-dementia.md), [Depressive Disorders](../chapter-16-mood-disorders-and-suicide/01-depressive-disorders.md)
+- Chapter overview: [Neurocognitive Disorders](../README.md)
+
+## Source Notes
+
+- Book: Psychiatric-Mental Health Nursing
+- Local outline source: `psychiatric-mental-health.md`
+- Official source URL: https://openstax.org/details/books/psychiatric-mental-health/
+- Content type: Original educational study guide based on OpenStax outline structure. Educational draft only — screening tools, escalation protocols, restraint use, and reporting requirements vary by facility and jurisdiction; follow local policy and provider orders.
+- Last updated: 2026-08-16

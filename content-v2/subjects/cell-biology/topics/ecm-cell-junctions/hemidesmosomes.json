@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:ecm-cell-junctions:hemidesmosomes",
+  "slug": "hemidesmosomes",
+  "title": "Hemidesmosomes",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:ecm-cell-junctions",
+    "slug": "ecm-cell-junctions",
+    "title": "ECM Cell Junctions",
+    "order": 9
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "**Hemidesmosomes** are rivet-like junctions that anchor the basal surface of epithelial cells firmly to the **basal lamina**, resisting mechanical shear between the epithelium and underlying connective tissue. Their molecular chain runs from extracellular **laminin** → **integrin α6β4** → cytoplasmic linker proteins **plectin** and **BP230** → **keratin intermediate filaments**. Despite the name, a hemidesmosome is **not \"half a desmosome\"** — it uses completely different molecules (integrins vs. cadherins) and connects a cell to the *matrix*, whereas desmosomes connect cell to *cell*.",
+    "whyItMatters": "Hemidesmosomes are the reason skin survives constant rubbing: when they fail, the epidermis detaches from the dermis and blisters. This underlies a family of diseases — epidermolysis bullosa (\"butterfly skin\") from mutations in hemidesmosome or laminin-332 components, and bullous pemphigoid from autoimmune attack on BP180/BP230. Understanding the lamina–integrin–intermediate-filament linkage is essential for epithelial biology, wound healing, and treating these blistering disorders.",
+    "learningObjectives": "- Describe the molecular architecture of hemidesmosomes.\n- Explain how integrin α6β4 links laminin to intermediate filaments.\n- Contrast hemidesmosomes with desmosomes (structure, molecules, function).\n- Relate hemidesmosome defects to blistering diseases.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Hemidesmosomes** are rivet-like junctions that anchor the basal surface of epithelial cells firmly to the **basal lamina**, resisting mechanical shear between the epithelium and underlying connective tissue. Their molecular chain runs from extracellular **laminin** → **integrin α6β4** → cytoplasmic linker proteins **plectin** and **BP230** → **keratin intermediate filaments**. Despite the name, a hemidesmosome is **not \"half a desmosome\"** — it uses completely different molecules (integrins vs. cadherins) and connects a cell to the *matrix*, whereas desmosomes connect cell to *cell*.\n\n### Key Components\n\n- **Integrin α6β4:** the hemidesmosome's core transmembrane receptor; the β4 subunit has an unusually large cytoplasmic tail that binds plectin.\n- **Laminin-332:** the major basal-lamina ligand for α6β4.\n- **Plectin:** a large plakin that links integrin β4 to keratin intermediate filaments.\n- **BP230 (BPAG1):** a plakin that further anchors the keratin network at the plaque.\n- **Keratin intermediate filaments (K5/K14 in epidermis):** the intracellular stress-bearing cables.\n- **BP180 (collagen XVII):** a transmembrane collagen that also participates in hemidesmosome adhesion.\n\n### Mechanism\n\nThe α6β4 integrin binds laminin-332 in the basal lamina. On the cytoplasmic side, plectin and BP230 bind the β4 tail and the keratin intermediate-filament network, creating a continuous mechanical linkage: basal lamina → integrin → plaque → intermediate filaments. This distributes shear forces across the entire cytoskeleton of the cell and the tissue, giving epithelia their resistance to rubbing and stretch. Unlike focal adhesions (which link to actin and are dynamic), hemidesmosomes link to the durable intermediate-filament system and are more stable, specialized adhesions.\n\n### How It Works\n\n1. Epithelial cells synthesize α6β4 integrin, plectin, BP230, and keratins.\n2. α6β4 binds laminin-332 in the basal lamina at the cell's basal surface.\n3. Plectin binds the β4 cytoplasmic tail and keratin intermediate filaments.\n4. BP230 further tethers the keratin network to the plaque.\n5. A continuous lamina → integrin → plaque → intermediate-filament linkage forms.\n6. The adhesion resists shear and anchors the epithelium to the matrix.\n\n### Energy and Directionality\n\nHemidesmosome adhesion is affinity-driven — integrin–laminin binding requires no ATP — but assembling and maintaining the structure is energy-dependent (protein synthesis, transport, and intermediate-filament dynamics). The functional output is directional mechanical reinforcement: force applied to the tissue is routed through the intermediate-filament network into the matrix, rather than tearing the cell membrane. The intermediate-filament linkage provides strength under tension without the constant ATP turnover characteristic of actin-based adhesions.\n\n### Experimental Evidence\n\n- **Electron microscopy:** hemidesmosomes appear as dense cytoplasmic plaques on the basal cell membrane, distinct from desmosomes.\n- **Knockout mice:** deletion of α6, β4, or plectin causes skin blistering (epidermolysis bullosa-like) and is often lethal, proving their anchoring role.\n- **Human genetics:** mutations in α6β4, plectin, BP180, or laminin-332 cause forms of **epidermolysis bullosa**.\n- **Autoimmunity:** autoantibodies against BP180/BP230 cause **bullous pemphigoid**, a blistering disease.\n\n### Technique\n\n- **Transmission electron microscopy** — identify the dense hemidesmosome plaque.\n- **Immunofluorescence** — localize α6β4, plectin, BP230, and keratin at the basal surface.\n- **Genetic sequencing** — identify mutations in epidermolysis bullosa.\n- **Autoantibody assays** — diagnose bullous pemphigoid.\n- **Skin-blistering (friction) assays in mouse models** — test adhesion strength.",
+    "howItWorks": "1. Epithelial cells synthesize α6β4 integrin, plectin, BP230, and keratins.\n2. α6β4 binds laminin-332 in the basal lamina at the cell's basal surface.\n3. Plectin binds the β4 cytoplasmic tail and keratin intermediate filaments.\n4. BP230 further tethers the keratin network to the plaque.\n5. A continuous lamina → integrin → plaque → intermediate-filament linkage forms.\n6. The adhesion resists shear and anchors the epithelium to the matrix.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Hemidesmosome = anchors **epithelial cells to the basal lamina** (cell–matrix junction).\n- Molecular chain: **laminin-332 → integrin α6β4 → plectin/BP230 → keratin intermediate filaments**.\n- Uses **integrins** (α6β4), NOT cadherins.\n- Links to **intermediate filaments**, NOT actin (unlike focal adhesions).\n- **Not \"half a desmosome\"** — different molecules and different function.\n- Diseases: epidermolysis bullosa (mutations) and bullous pemphigoid (autoantibodies).",
+    "commonConfusions": "- **\"A hemidesmosome is half of a desmosome.\"** — No. Desmosomes are cadherin-based cell–cell junctions linking intermediate filaments; hemidesmosomes are integrin-based cell–matrix junctions. Only the *appearance* (half-plaque) inspired the name.\n- **\"Hemidesmosomes use cadherins.\"** — They use integrin α6β4.\n- **\"Hemidesmosomes link to actin.\"** — They link to keratin intermediate filaments (focal adhesions link to actin).\n- **\"Hemidesmosomes and focal adhesions are the same.\"** — Both are cell–matrix adhesions, but they use different integrins, different cytoskeletal links (IF vs. actin), and different functions (stable anchor vs. dynamic signaling).\n- **\"Hemidesmosomes are everywhere.\"** — They are specialized adhesions found mainly in epithelia (skin, cornea, etc.).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a tent held down by special stakes hammered through a tough mat into the ground. The tent fabric is the cell, the mat is the basal lamina, and the stakes are the hemidesmosomes — each stake has a clip (integrin α6β4) that grabs the mat, a strong bracket (plectin/BP230), and a rope (keratin) that runs up into the tent's frame so the whole structure shares the load when the wind blows. That's why your skin doesn't peel off when you rub it. (The analogy glosses over that hemidesmosomes are made of living, regulated proteins, not fixed metal stakes — and that the \"half a desmosome\" name is misleading.)",
+    "quickReview": "- Hemidesmosome = cell–basal-lamina anchor (epithelia).\n- laminin-332 → α6β4 integrin → plectin/BP230 → keratin IFs.\n- Integrin-based (not cadherin); IF-linked (not actin).\n- Distinct from desmosomes and focal adhesions.\n- Defects → epidermolysis bullosa; autoimmunity → bullous pemphigoid.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"Cell Junctions.\" https://www.ncbi.nlm.nih.gov/books/NBK26857/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26857/"
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"basal lamina.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/basal-lamina",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/basal-lamina"
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"integrin.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/integrin",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/integrin"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"4.6 Connections between Cells and Cellular Activities.\" https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities",
+        "url": "https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "hemidesmosomes",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "08-hemidesmosomes",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:95226f4f180a66e6"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:95226f4f180a66e6"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:95226f4f180a66e6"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:95226f4f180a66e6"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/09-ecm-cell-junctions/08-hemidesmosomes.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Hemidesmosomes\n\n## Learning Goals\n- Describe the molecular architecture of hemidesmosomes.\n- Explain how integrin α6β4 links laminin to intermediate filaments.\n- Contrast hemidesmosomes with desmosomes (structure, molecules, function).\n- Relate hemidesmosome defects to blistering diseases.\n\n## Core Concept\n**Hemidesmosomes** are rivet-like junctions that anchor the basal surface of epithelial cells firmly to the **basal lamina**, resisting mechanical shear between the epithelium and underlying connective tissue. Their molecular chain runs from extracellular **laminin** → **integrin α6β4** → cytoplasmic linker proteins **plectin** and **BP230** → **keratin intermediate filaments**. Despite the name, a hemidesmosome is **not \"half a desmosome\"** — it uses completely different molecules (integrins vs. cadherins) and connects a cell to the *matrix*, whereas desmosomes connect cell to *cell*.\n\n## Key Components\n- **Integrin α6β4:** the hemidesmosome's core transmembrane receptor; the β4 subunit has an unusually large cytoplasmic tail that binds plectin.\n- **Laminin-332:** the major basal-lamina ligand for α6β4.\n- **Plectin:** a large plakin that links integrin β4 to keratin intermediate filaments.\n- **BP230 (BPAG1):** a plakin that further anchors the keratin network at the plaque.\n- **Keratin intermediate filaments (K5/K14 in epidermis):** the intracellular stress-bearing cables.\n- **BP180 (collagen XVII):** a transmembrane collagen that also participates in hemidesmosome adhesion.\n\n## Mechanism\nThe α6β4 integrin binds laminin-332 in the basal lamina. On the cytoplasmic side, plectin and BP230 bind the β4 tail and the keratin intermediate-filament network, creating a continuous mechanical linkage: basal lamina → integrin → plaque → intermediate filaments. This distributes shear forces across the entire cytoskeleton of the cell and the tissue, giving epithelia their resistance to rubbing and stretch. Unlike focal adhesions (which link to actin and are dynamic), hemidesmosomes link to the durable intermediate-filament system and are more stable, specialized adhesions.\n\n## How It Works\n1. Epithelial cells synthesize α6β4 integrin, plectin, BP230, and keratins.\n2. α6β4 binds laminin-332 in the basal lamina at the cell's basal surface.\n3. Plectin binds the β4 cytoplasmic tail and keratin intermediate filaments.\n4. BP230 further tethers the keratin network to the plaque.\n5. A continuous lamina → integrin → plaque → intermediate-filament linkage forms.\n6. The adhesion resists shear and anchors the epithelium to the matrix.\n\n## Energy and Directionality\nHemidesmosome adhesion is affinity-driven — integrin–laminin binding requires no ATP — but assembling and maintaining the structure is energy-dependent (protein synthesis, transport, and intermediate-filament dynamics). The functional output is directional mechanical reinforcement: force applied to the tissue is routed through the intermediate-filament network into the matrix, rather than tearing the cell membrane. The intermediate-filament linkage provides strength under tension without the constant ATP turnover characteristic of actin-based adhesions.\n\n## Experimental Evidence\n- **Electron microscopy:** hemidesmosomes appear as dense cytoplasmic plaques on the basal cell membrane, distinct from desmosomes.\n- **Knockout mice:** deletion of α6, β4, or plectin causes skin blistering (epidermolysis bullosa-like) and is often lethal, proving their anchoring role.\n- **Human genetics:** mutations in α6β4, plectin, BP180, or laminin-332 cause forms of **epidermolysis bullosa**.\n- **Autoimmunity:** autoantibodies against BP180/BP230 cause **bullous pemphigoid**, a blistering disease.\n\n## Technique\n- **Transmission electron microscopy** — identify the dense hemidesmosome plaque.\n- **Immunofluorescence** — localize α6β4, plectin, BP230, and keratin at the basal surface.\n- **Genetic sequencing** — identify mutations in epidermolysis bullosa.\n- **Autoantibody assays** — diagnose bullous pemphigoid.\n- **Skin-blistering (friction) assays in mouse models** — test adhesion strength.\n\n## Why It Matters\nHemidesmosomes are the reason skin survives constant rubbing: when they fail, the epidermis detaches from the dermis and blisters. This underlies a family of diseases — epidermolysis bullosa (\"butterfly skin\") from mutations in hemidesmosome or laminin-332 components, and bullous pemphigoid from autoimmune attack on BP180/BP230. Understanding the lamina–integrin–intermediate-filament linkage is essential for epithelial biology, wound healing, and treating these blistering disorders.\n\n## High-Yield Facts\n- Hemidesmosome = anchors **epithelial cells to the basal lamina** (cell–matrix junction).\n- Molecular chain: **laminin-332 → integrin α6β4 → plectin/BP230 → keratin intermediate filaments**.\n- Uses **integrins** (α6β4), NOT cadherins.\n- Links to **intermediate filaments**, NOT actin (unlike focal adhesions).\n- **Not \"half a desmosome\"** — different molecules and different function.\n- Diseases: epidermolysis bullosa (mutations) and bullous pemphigoid (autoantibodies).\n\n## Eli Explains\nImagine a tent held down by special stakes hammered through a tough mat into the ground. The tent fabric is the cell, the mat is the basal lamina, and the stakes are the hemidesmosomes — each stake has a clip (integrin α6β4) that grabs the mat, a strong bracket (plectin/BP230), and a rope (keratin) that runs up into the tent's frame so the whole structure shares the load when the wind blows. That's why your skin doesn't peel off when you rub it. (The analogy glosses over that hemidesmosomes are made of living, regulated proteins, not fixed metal stakes — and that the \"half a desmosome\" name is misleading.)\n\n## Common Confusions\n- **\"A hemidesmosome is half of a desmosome.\"** — No. Desmosomes are cadherin-based cell–cell junctions linking intermediate filaments; hemidesmosomes are integrin-based cell–matrix junctions. Only the *appearance* (half-plaque) inspired the name.\n- **\"Hemidesmosomes use cadherins.\"** — They use integrin α6β4.\n- **\"Hemidesmosomes link to actin.\"** — They link to keratin intermediate filaments (focal adhesions link to actin).\n- **\"Hemidesmosomes and focal adhesions are the same.\"** — Both are cell–matrix adhesions, but they use different integrins, different cytoskeletal links (IF vs. actin), and different functions (stable anchor vs. dynamic signaling).\n- **\"Hemidesmosomes are everywhere.\"** — They are specialized adhesions found mainly in epithelia (skin, cornea, etc.).\n\n## Quick Review\n- Hemidesmosome = cell–basal-lamina anchor (epithelia).\n- laminin-332 → α6β4 integrin → plectin/BP230 → keratin IFs.\n- Integrin-based (not cadherin); IF-linked (not actin).\n- Distinct from desmosomes and focal adhesions.\n- Defects → epidermolysis bullosa; autoimmunity → bullous pemphigoid.\n\n## Sources\n- Alberts et al., *Molecular Biology of the Cell*, \"Cell Junctions.\" https://www.ncbi.nlm.nih.gov/books/NBK26857/\n- NCI Dictionary of Cancer Terms, \"basal lamina.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/basal-lamina\n- NCI Dictionary of Cancer Terms, \"integrin.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/integrin\n- OpenStax, *Biology 2e*, \"4.6 Connections between Cells and Cellular Activities.\" https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities\n"
+}

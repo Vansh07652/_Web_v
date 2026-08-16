@@ -1,0 +1,41 @@
+{
+  "id": "genetics-dna-structure-and-replication-0012",
+  "subject": "genetics",
+  "lesson": "dna-structure-and-replication",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept DNA polymerases can add nucleotides only to an existing 3' hydroxyl group and cannot start a new chain on a bare template. What does this mean for the beginning of every DNA strand?",
+  "options": [
+    {
+      "id": "a",
+      "text": "DNA polymerase III makes a short DNA primer on the template before extending it."
+    },
+    {
+      "id": "b",
+      "text": "The Okazaki fragments already provide the 3' hydroxyl needed to start the leading strand."
+    },
+    {
+      "id": "c",
+      "text": "Primase (the *dnaG* product) must synthesize a short RNA primer that provides the 3' hydroxyl for DNA polymerase to extend."
+    },
+    {
+      "id": "d",
+      "text": "DNA ligase must create the first phosphodiester bond before polymerase can act."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Because polymerase can only extend an existing 3' hydroxyl, primase first synthesizes a short RNA primer that is later removed and replaced with DNA by DNA polymerase I (the *polA* product). Option A misassigns primer synthesis to the polymerase itself, option B confuses the primer requirement with Okazaki fragment joining, and option D gives ligase a job it performs only to seal nicks, never at the start of a chain. Every new strand, leading or lagging, begins with an RNA primer.",
+  "difficulty": "unknown",
+  "tags": [
+    "rna",
+    "primers",
+    "start",
+    "every",
+    "strand"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-5fcc89f16ce99a1e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

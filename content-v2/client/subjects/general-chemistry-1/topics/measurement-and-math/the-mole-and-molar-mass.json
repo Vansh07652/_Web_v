@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-1:measurement-and-math:the-mole-and-molar-mass",
+  "slug": "the-mole-and-molar-mass",
+  "title": "The Mole and Molar Mass",
+  "subject": {
+    "id": "subject:general-chemistry-1",
+    "slug": "general-chemistry-1",
+    "title": "General Chemistry I"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-1:measurement-and-math",
+    "slug": "measurement-and-math",
+    "title": "Measurement and Math",
+    "order": 1
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "The mole is the SI unit for amount of substance: one mole contains Avogadro's number (6.022 × 10²³) of particles. Molar mass (g/mol) links mass to moles, and Avogadro's number links moles to particle counts. Percent composition is the mass percentage of each element in a compound. Experimental mass data yield empirical formulas (simplest ratio) and, together with molar mass, molecular formulas (actual counts).",
+    "whyItMatters": "Pharmacists and lab technologists routinely use molar mass to prepare solutions: to make 1 L of 0.9% saline (about 0.154 M NaCl), they convert grams of NaCl to moles using its molar mass (58.44 g/mol). Percent composition underlies nutritional labeling and medication formulations (the percent of active ingredient). Formula determination from combustion analysis is used to identify unknown drugs and metabolites in toxicology.",
+    "learningObjectives": "1. Define the mole and Avogadro's number and convert among moles, mass, and number of particles.\n2. Calculate molar mass from the periodic table.\n3. Determine percent composition by mass from a formula.\n4. Determine empirical and molecular formulas from experimental data.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Mole | 6.022 × 10²³ particles | Counting unit for chemistry |\n| Avogadro's number | 6.022 × 10²³ mol⁻¹ | Links moles to particles |\n| Molar mass | g/mol of a substance | Links mass to moles |\n| Formula mass | Sum of atomic masses (amu) | Basis for molar mass |\n| Percent composition | Mass % of each element | Composition from formula |\n| Empirical formula | Simplest whole-number ratio | From experimental data |\n| Molecular formula | Actual atom counts | True identity |\n| Formula unit | Smallest ionic ratio unit | Ionic \"molecule\" |",
+    "collegeNotes": "### 1. Avogadro's Number and the Mole\n- 1 mole = 6.022 × 10²³ particles (atoms, molecules, ions, or formula units).\n- Avogadro's number \\(N_A = 6.022 \\times 10^{23}\\ \\mathrm{mol}^{-1}\\).\n- The mole is defined so that one mole of an element has a mass in grams numerically equal to its atomic mass (amu).\n\n### 2. Molar Mass\n- Molar mass (M) is the mass of one mole, in g/mol; it is numerically equal to the formula mass in amu.\n- Computed by summing atomic masses from the periodic table.\n- H₂O: 2(1.008) + 16.00 = 18.02 g/mol.\n- CaCl₂: 40.08 + 2(35.45) = 110.98 g/mol.\n\n### 3. Percent Composition and Formulas\n- **Percent composition by mass:** (mass of element / total molar mass) × 100%.\n- **Empirical formula** from mass percentages (or combustion data): convert to moles, divide by the smallest, scale to whole numbers.\n- **Molecular formula** = empirical formula × a whole number n, where n = (molar mass) / (empirical formula mass).",
+    "howItWorks": "1. Determine molar mass by summing atomic masses from the periodic table.\n2. Convert grams ↔ moles using molar mass.\n3. Convert moles ↔ particles using Avogadro's number.\n4. Compute percent composition from the formula (element mass ÷ total × 100%).\n5. Derive the empirical formula: assume 100 g, convert to moles, divide by the smallest, clear fractions.\n6. Derive the molecular formula: divide the true molar mass by the empirical formula mass to find n.",
+    "comparisons": "",
+    "highYield": "- **High yield:** 1 mol = 6.022 × 10²³ particles (memorize).\n- **High yield:** g → mol: divide by molar mass; mol → g: multiply by molar mass.\n- **High yield:** Percent composition sums to 100%.\n- **High yield:** Empirical formula = simplest ratio; molecular formula = (empirical) × n.\n- n = molar mass ÷ empirical formula mass (molecular/empirical).\n- Always convert masses to moles before finding ratios—never divide grams directly.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Molar mass (g/mol) | Atomic mass (amu) | Same number, different units and scale |\n| Empirical formula | Molecular formula | Empirical = reduced ratio; molecular = actual count |\n| Mole | Molecule | Mole = counting unit (6.022 × 10²³); molecule = a particle |\n| Mass | Moles | Mass = grams; moles = amount (g ÷ g/mol) |",
+    "memoryAids": "\"**G**rams = **M**oles × **M**olar mass\" (**G = M × M**) — put the three in a triangle with grams on top: cover what you want to find (top ÷ bottom, or side × side).",
+    "eli10": "Think of the mole as chemistry's \"dozen.\" A dozen is 12 of anything; a mole is 6.022 × 10²³ of anything—a huge number chosen so that one mole of any element has a mass in grams numerically equal to its atomic mass. Just as you can buy eggs by the dozen, chemists \"count\" atoms by the mole, because atoms are far too small to count one at a time.\n\nJust as a dozen small eggs and a dozen large eggs have different total masses, one mole of light atoms (carbon) and one mole of heavy atoms (lead) have different masses—that difference is the molar mass.\n\n**Where it stops being exact:** the \"dozen\" comparison makes a mole sound like an arbitrary convenience, but Avogadro's number is tied to a physical standard—the mole is now defined as exactly 6.02214076 × 10²³ entities. Also, a mole of eggs isn't a practical quantity; the number is meaningful only for counting atoms, molecules, and ions.\n\n### Simple Example\nOne mole of water (H₂O) has a molar mass of about 18.0 g/mol (2 × 1.01 + 16.0). So 18.0 g of water contains 6.022 × 10²³ water molecules.",
+    "quickReview": "### Topic Recap\n\nThe mole (6.022 × 10²³ particles) connects the microscopic world to measurable mass via molar mass. Grams, moles, and particle counts interconvert through molar mass and Avogadro's number. Percent composition and experimental mass data determine empirical and molecular formulas.\n\n### Knowledge Check\n\n1. How many atoms are in 1.00 mol of carbon?\n2. What is the molar mass of CO₂?\n3. What is the percent by mass of oxygen in H₂O (18.02 g/mol)?\n4. A compound is 75.0% C and 25.0% H. What is its empirical formula? (C = 12.01, H = 1.008)\n5. A compound has empirical formula CH and molar mass 78.1 g/mol. What is the molecular formula?\n\n### Answers and Rationales\n\n1. 6.022 × 10²³ atoms.\n2. 44.01 g/mol (12.01 + 2 × 16.00).\n3. 88.81% (16.00 / 18.02 × 100%).\n4. CH₄ — moles C = 75.0/12.01 = 6.24; moles H = 25.0/1.008 = 24.8; ratio 1:4.\n5. C₆H₆ — n = 78.1/13.02 = 6; (CH)₆.",
+    "workedExamples": "### The Mole Map (three conversions)\n\\[\n\\text{moles} = \\frac{\\text{mass (g)}}{\\text{molar mass (g/mol)}} = \\frac{\\text{number of particles}}{6.022\\times10^{23}\\ \\text{mol}^{-1}}\n\\]\n\n**Example 1 (mass → moles → particles).** How many atoms are in 24.31 g of magnesium? (Molar mass Mg = 24.31 g/mol.)\n\\[\n\\text{moles Mg} = \\frac{24.31\\ \\mathrm{g}}{24.31\\ \\mathrm{g/mol}} = 1.000\\ \\mathrm{mol}\n\\]\n\\[\n\\text{atoms} = 1.000\\ \\mathrm{mol} \\times 6.022\\times10^{23}\\ \\mathrm{atoms/mol} = 6.022\\times10^{23}\\ \\mathrm{atoms}\n\\]\n\n**Example 2 (moles → mass).** What is the mass of 0.500 mol of glucose (C₆H₁₂O₆, molar mass = 180.16 g/mol)?\n\\[\n\\text{mass} = 0.500\\ \\mathrm{mol} \\times 180.16\\ \\mathrm{g/mol} = 90.08\\ \\mathrm{g}\n\\]\n\n### Percent Composition\n**Example.** Find the percent by mass of each element in H₂O (18.02 g/mol).\n\\[\n\\%\\mathrm{H} = \\frac{2\\times1.008}{18.02}\\times100\\% = 11.19\\%\n\\]\n\\[\n\\%\\mathrm{O} = \\frac{16.00}{18.02}\\times100\\% = 88.81\\%\n\\]\n\n### Empirical and Molecular Formulas\n**Example.** A compound is 40.0% C, 6.7% H, and 53.3% O by mass, with molar mass 180 g/mol. Find the empirical and molecular formulas.\n\nStep 1 (assume a 100 g sample): 40.0 g C, 6.7 g H, 53.3 g O.\nStep 2 (convert to moles):\n\\[\n\\mathrm{C:}\\ \\frac{40.0}{12.01}=3.33;\\quad \\mathrm{H:}\\ \\frac{6.7}{1.008}=6.6;\\quad \\mathrm{O:}\\ \\frac{53.3}{16.00}=3.33\n\\]\nStep 3 (divide by the smallest, 3.33): C = 1, H = 2.0, O = 1 → empirical formula CH₂O.\nStep 4 (empirical formula mass = 12.01 + 2.016 + 16.00 = 30.03 g/mol).\nStep 5 (n = 180 / 30.03 = 6): molecular formula = (CH₂O)₆ = C₆H₁₂O₆.\n\n**Common errors:** using masses instead of moles for the ratio; rounding non-integer mole ratios incorrectly (multiply by small whole numbers to clear fractions, e.g., 1.5 → ×2); forgetting to convert percentages to masses (assume a 100 g sample); and computing n by dividing in the wrong direction.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 13
+  },
+  "aliases": [
+    {
+      "value": "the-mole-and-molar-mass",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "05-the-mole-and-molar-mass",
+      "kind": "source_file_stem",
+      "source_id": "need-review-general-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-general-chemistry-i",
+    "sourceFile": "general-chemistry-i-study-notes/docs/general-chemistry-i/05-the-mole-and-molar-mass.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

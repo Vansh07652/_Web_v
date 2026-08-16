@@ -1,0 +1,40 @@
+{
+  "id": "genetics-recombinant-dna-technology-and-biotechnology-0006",
+  "subject": "genetics",
+  "lesson": "recombinant-dna-technology-and-biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A researcher wants to express a human gene in *E. coli* so that the bacteria produce the functional protein. Why is a cDNA clone a better starting point than a genomic clone?",
+  "options": [
+    {
+      "id": "a",
+      "text": "cDNA is much smaller, so it transforms *E. coli* far more efficiently than genomic DNA"
+    },
+    {
+      "id": "b",
+      "text": "A genomic clone contains introns that *E. coli* cannot remove, whereas cDNA is reverse transcribed from mature mRNA and contains only exons"
+    },
+    {
+      "id": "c",
+      "text": "Genomic DNA cannot be cloned into any plasmid or other vector"
+    },
+    {
+      "id": "d",
+      "text": "Only cDNA carries a bacterial promoter that *E. coli* RNA polymerase can recognize"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Reverse transcriptase copies mature mRNA into cDNA, and because the mRNA has already been spliced, the cDNA contains no introns, so a bacterial host, which has no spliceosome, can translate it. A genomic clone would still carry introns, because the genome contains them. A misstates the reason: both cDNA and genomic DNA can transform bacteria, and size alone is not the basis for the choice. C is false because large genomic fragments can be cloned in BAC and YAC vectors, and D reverses the requirement, because expression in bacteria needs a promoter supplied by the vector, not by the cDNA.",
+  "difficulty": "unknown",
+  "tags": [
+    "cdna",
+    "versus",
+    "genomic",
+    "library"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-2e5f1806a7bd2d1a",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

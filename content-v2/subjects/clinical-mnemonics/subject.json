@@ -1,0 +1,603 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics",
+    "category": "healthcare-foundations",
+    "status": "final",
+    "summary": "Memory devices taken apart: what each letter stands for, the physiology underneath it, the safety caveat, and the same thing in plain language. Mnemonics the source library records as outdated are not included."
+  },
+  "statistics": {
+    "unitCount": 7,
+    "topicCount": 29,
+    "teachingTopicCount": 29,
+    "eli10TopicCount": 29,
+    "highYieldTopicCount": 0,
+    "referencedTopicCount": 9,
+    "exactOrMappedQuestionCount": 0,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 0,
+    "citationReviewRequiredCount": 0
+  },
+  "units": [
+    {
+      "id": "unit:clinical-mnemonics:emergency-trauma",
+      "slug": "emergency-trauma",
+      "title": "Emergency & Trauma",
+      "order": 1,
+      "topics": [
+        {
+          "id": "topic:clinical-mnemonics:emergency-trauma:opqrst",
+          "slug": "opqrst",
+          "title": "OPQRST",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/emergency-trauma/opqrst.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:emergency-trauma:sample",
+          "slug": "sample",
+          "title": "SAMPLE",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/emergency-trauma/sample.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:emergency-trauma:avpu",
+          "slug": "avpu",
+          "title": "AVPU",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/emergency-trauma/avpu.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:emergency-trauma:abcde",
+          "slug": "abcde",
+          "title": "ABCDE",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/emergency-trauma/abcde.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:emergency-trauma:dcap-btls",
+          "slug": "dcap-btls",
+          "title": "DCAP-BTLS",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/emergency-trauma/dcap-btls.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:emergency-trauma:mist",
+          "slug": "mist",
+          "title": "MIST",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/emergency-trauma/mist.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:emergency-trauma:fast",
+          "slug": "fast",
+          "title": "FAST",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/emergency-trauma/fast.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:clinical-mnemonics:cardiology-ecg",
+      "slug": "cardiology-ecg",
+      "title": "Cardiology & ECG",
+      "order": 2,
+      "topics": [
+        {
+          "id": "topic:clinical-mnemonics:cardiology-ecg:h-s-and-t-s",
+          "slug": "h-s-and-t-s",
+          "title": "H's and T's",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/cardiology-ecg/h-s-and-t-s.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:cardiology-ecg:tissue-paper-my-assets",
+          "slug": "tissue-paper-my-assets",
+          "title": "Tissue Paper My Assets",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/cardiology-ecg/tissue-paper-my-assets.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:cardiology-ecg:first-degree-av-block-if-the-r-is-far-from-p-it-s-a-first-degree",
+          "slug": "first-degree-av-block-if-the-r-is-far-from-p-it-s-a-first-degree",
+          "title": "First-Degree AV Block — \"If the R is Far From P, It's a First Degree\"",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/cardiology-ecg/first-degree-av-block-if-the-r-is-far-from-p-it-s-a-first-degree.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:cardiology-ecg:second-degree-av-block-mobitz-i-wenckebach-longer-longer-longer-drop",
+          "slug": "second-degree-av-block-mobitz-i-wenckebach-longer-longer-longer-drop",
+          "title": "Second-Degree AV Block, Mobitz I (Wenckebach) — \"Longer, Longer, Longer, DROP\"",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/cardiology-ecg/second-degree-av-block-mobitz-i-wenckebach-longer-longer-longer-drop.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:cardiology-ecg:second-degree-av-block-mobitz-ii-if-some-p-s-don-t-get-through-it-s-a-mobitz-ii",
+          "slug": "second-degree-av-block-mobitz-ii-if-some-p-s-don-t-get-through-it-s-a-mobitz-ii",
+          "title": "Second-Degree AV Block, Mobitz II — \"If Some P's Don't Get Through, It's a Mobitz II\"",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/cardiology-ecg/second-degree-av-block-mobitz-ii-if-some-p-s-don-t-get-through-it-s-a-mobitz-ii.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:cardiology-ecg:third-degree-complete-av-block-if-p-s-and-qrs-don-t-agree-it-s-a-third-degree",
+          "slug": "third-degree-complete-av-block-if-p-s-and-qrs-don-t-agree-it-s-a-third-degree",
+          "title": "Third-Degree (Complete) AV Block — \"If P's and QRS Don't Agree, It's a Third Degree\"",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/cardiology-ecg/third-degree-complete-av-block-if-p-s-and-qrs-don-t-agree-it-s-a-third-degree.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:clinical-mnemonics:pharmacology-electrolytes",
+      "slug": "pharmacology-electrolytes",
+      "title": "Pharmacology & Electrolytes",
+      "order": 3,
+      "topics": [
+        {
+          "id": "topic:clinical-mnemonics:pharmacology-electrolytes:murder",
+          "slug": "murder",
+          "title": "MURDER",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/pharmacology-electrolytes/murder.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:pharmacology-electrolytes:sludge",
+          "slug": "sludge",
+          "title": "SLUDGE",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/pharmacology-electrolytes/sludge.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:pharmacology-electrolytes:idea",
+          "slug": "idea",
+          "title": "IDEA",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/pharmacology-electrolytes/idea.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:clinical-mnemonics:obstetrics-pediatrics",
+      "slug": "obstetrics-pediatrics",
+      "title": "Obstetrics & Pediatrics",
+      "order": 4,
+      "topics": [
+        {
+          "id": "topic:clinical-mnemonics:obstetrics-pediatrics:apgar",
+          "slug": "apgar",
+          "title": "APGAR",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/obstetrics-pediatrics/apgar.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:obstetrics-pediatrics:veal-chop",
+          "slug": "veal-chop",
+          "title": "VEAL CHOP",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/obstetrics-pediatrics/veal-chop.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:obstetrics-pediatrics:torch",
+          "slug": "torch",
+          "title": "TORCH",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/obstetrics-pediatrics/torch.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:clinical-mnemonics:anatomy-musculoskeletal",
+      "slug": "anatomy-musculoskeletal",
+      "title": "Anatomy & Musculoskeletal",
+      "order": 5,
+      "topics": [
+        {
+          "id": "topic:clinical-mnemonics:anatomy-musculoskeletal:some-lovers-try-positions-that-they-can-t-handle",
+          "slug": "some-lovers-try-positions-that-they-can-t-handle",
+          "title": "Some Lovers Try Positions That They Can't Handle",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/anatomy-musculoskeletal/some-lovers-try-positions-that-they-can-t-handle.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:anatomy-musculoskeletal:sits-rotator-cuff",
+          "slug": "sits-rotator-cuff",
+          "title": "SITS (Rotator Cuff)",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/anatomy-musculoskeletal/sits-rotator-cuff.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:anatomy-musculoskeletal:point-and-shoot",
+          "slug": "point-and-shoot",
+          "title": "Point and Shoot",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/anatomy-musculoskeletal/point-and-shoot.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:anatomy-musculoskeletal:oh-oh-oh-to-touch-and-feel-very-good-velvet-such-heaven",
+          "slug": "oh-oh-oh-to-touch-and-feel-very-good-velvet-such-heaven",
+          "title": "Oh Oh Oh To Touch And Feel Very Good Velvet, Such Heaven",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/anatomy-musculoskeletal/oh-oh-oh-to-touch-and-feel-very-good-velvet-such-heaven.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:anatomy-musculoskeletal:some-say-marry-money-but-my-brother-says-big-brains-matter-more",
+          "slug": "some-say-marry-money-but-my-brother-says-big-brains-matter-more",
+          "title": "Some Say Marry Money But My Brother Says Big Brains Matter More",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/anatomy-musculoskeletal/some-say-marry-money-but-my-brother-says-big-brains-matter-more.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:clinical-mnemonics:internal-medicine-infection",
+      "slug": "internal-medicine-infection",
+      "title": "Internal Medicine & Infection",
+      "order": 6,
+      "topics": [
+        {
+          "id": "topic:clinical-mnemonics:internal-medicine-infection:from-jane",
+          "slug": "from-jane",
+          "title": "FROM JANE",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/internal-medicine-infection/from-jane.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:internal-medicine-infection:i-get-smashed",
+          "slug": "i-get-smashed",
+          "title": "I GET SMASHED",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/internal-medicine-infection/i-get-smashed.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:internal-medicine-infection:stones-bones-groans-thrones-psychiatric-overtones",
+          "slug": "stones-bones-groans-thrones-psychiatric-overtones",
+          "title": "Stones, Bones, Groans, Thrones, Psychiatric Overtones",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/internal-medicine-infection/stones-bones-groans-thrones-psychiatric-overtones.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:clinical-mnemonics:psychiatry",
+      "slug": "psychiatry",
+      "title": "Psychiatry",
+      "order": 7,
+      "topics": [
+        {
+          "id": "topic:clinical-mnemonics:psychiatry:sig-e-caps",
+          "slug": "sig-e-caps",
+          "title": "SIG E CAPS",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/psychiatry/sig-e-caps.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:clinical-mnemonics:psychiatry:dig-fast",
+          "slug": "dig-fast",
+          "title": "DIG FAST",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/clinical-mnemonics/topics/psychiatry/dig-fast.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ]
+}

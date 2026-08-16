@@ -1,0 +1,41 @@
+{
+  "id": "genetics-mendelian-genetics-ii-extensions-0006",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-ii-extensions",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem In summer squash, fruit shape is set by two unlinked loci with a cumulative effect: dominant alleles at both loci give disc shape, a dominant allele at exactly one locus gives sphere shape, and the double recessive *aabb* gives long shape. Two *AaBb* plants are crossed. Assuming independent assortment and complete viability, what fraction of the F2 is expected to have sphere shape?",
+  "options": [
+    {
+      "id": "a",
+      "text": "3/16"
+    },
+    {
+      "id": "b",
+      "text": "6/16"
+    },
+    {
+      "id": "c",
+      "text": "9/16"
+    },
+    {
+      "id": "d",
+      "text": "1/16"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Sphere shape comes from exactly one dominant locus, and the two classes *A_bb* and *aaB_* are independent: 3/4 x 1/4 = 3/16 and 1/4 x 3/4 = 3/16. Adding the two classes gives 3/16 + 3/16 = 6/16, the middle class of the 9:6:1 ratio (sums to 16). A is only one of the two sphere classes, C is the disc class (3/4 x 3/4 = 9/16), and D is the long class (1/4 x 1/4 = 1/16).",
+  "difficulty": "unknown",
+  "tags": [
+    "cumulative",
+    "duplicate",
+    "loci",
+    "squash",
+    "shape"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-459ae50fda335511",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

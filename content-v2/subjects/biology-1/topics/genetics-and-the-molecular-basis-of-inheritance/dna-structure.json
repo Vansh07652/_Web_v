@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:dna-structure",
+  "slug": "dna-structure",
+  "title": "DNA Structure",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:genetics-and-the-molecular-basis-of-inheritance",
+    "slug": "genetics-and-the-molecular-basis-of-inheritance",
+    "title": "Genetics And The Molecular Basis Of Inheritance",
+    "order": 6
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "**DNA (deoxyribonucleic acid)** is the molecule of heredity: a double-stranded helix that stores genetic information in the sequence of its four bases. Its structure — two **antiparallel** strands held together by specific **base pairing** — is exactly what allows it to be copied accurately and to encode information. Structure and function are inseparable here.",
+    "whyItMatters": "DNA structure explains heredity, mutation, evolution, and disease. Complementary base pairing is the basis of replication, transcription, DNA fingerprinting, PCR, sequencing, and gene editing. Understanding purine/pyrimidine pairing and the 5′→3′ directionality is a prerequisite for everything that follows in molecular biology — replication, transcription, translation, and gene regulation all depend on it.",
+    "learningObjectives": "- Describe the structure of a nucleotide and how nucleotides join into a DNA strand.\n- State the base-pairing rules (A–T, G–C) and the number of hydrogen bonds for each pair.\n- Explain what \"antiparallel double helix\" means.\n- Distinguish purines from pyrimidines.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**DNA (deoxyribonucleic acid)** is the molecule of heredity: a double-stranded helix that stores genetic information in the sequence of its four bases. Its structure — two **antiparallel** strands held together by specific **base pairing** — is exactly what allows it to be copied accurately and to encode information. Structure and function are inseparable here.\n\n### Key Concepts\n\n### Nucleotides\n\nEach DNA **nucleotide** has three parts: a **phosphate group**, a five-carbon sugar called **deoxyribose**, and a **nitrogenous base**. The four bases are **adenine (A), thymine (T), guanine (G), and cytosine (C)**. Nucleotides join by **phosphodiester bonds** between the phosphate of one and the sugar of the next, forming a sugar–phosphate **backbone** with the bases pointing inward.\n\n### Purines and pyrimidines\n\nThe bases come in two chemical classes. **Purines** (adenine and guanine) are larger, double-ring structures. **Pyrimidines** (thymine and cytosine) are smaller, single-ring structures. In the double helix, a purine always pairs with a pyrimidine, which keeps the helix a uniform width.\n\n### Base pairing\n\n**Adenine pairs with thymine** via **two hydrogen bonds**; **guanine pairs with cytosine** via **three hydrogen bonds**. This **complementarity** means the sequence of one strand determines the sequence of the other — the key to faithful replication and to information storage. Because G–C has three bonds, G–C-rich DNA is slightly more stable (harder to separate) than A–T-rich DNA.\n\n### The antiparallel double helix\n\nThe two strands run in **opposite directions**: one runs 5′ → 3′, the other 3′ → 5′. The 5′ end has a free phosphate, the 3′ end a free hydroxyl (—OH) on the sugar. The strands wind around each other into a right-handed **double helix**, with backbones outside and bases stacked inside like rungs of a twisted ladder. Each full turn is about 10 base pairs (~3.4 nm), with a major and a minor groove.\n\n### Information storage\n\nThe order of bases along a strand is the genetic code. A gene is a specific sequence of bases that encodes a functional product (usually a protein). Because the strands are complementary, either strand can serve as a template for rebuilding the other — the principle behind replication and repair.\n\n### How It Works\n\nDNA's information is stored linearly in base sequence, like letters in a sentence. The two strands are held together by hydrogen bonds between complementary bases and by base-stacking interactions between adjacent pairs. When the cell needs to copy or read the DNA, the strands separate (assisted by enzymes), and each exposed strand serves as a template: A attracts T and G attracts C, so a new complementary strand is assembled with exact fidelity.",
+    "howItWorks": "DNA's information is stored linearly in base sequence, like letters in a sentence. The two strands are held together by hydrogen bonds between complementary bases and by base-stacking interactions between adjacent pairs. When the cell needs to copy or read the DNA, the strands separate (assisted by enzymes), and each exposed strand serves as a template: A attracts T and G attracts C, so a new complementary strand is assembled with exact fidelity.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Nucleotide = phosphate + deoxyribose + nitrogenous base.\n- Four bases: A, T, G, C; purines (A, G) are double-ring; pyrimidines (T, C) are single-ring.\n- A–T: 2 hydrogen bonds; G–C: 3 hydrogen bonds (stronger).\n- Strands are antiparallel (5′→3′ and 3′→5′).\n- Backbone = sugar–phosphate (phosphodiester bonds); bases on the inside.\n- ~10 base pairs per turn; major and minor grooves.\n- Complementarity means one strand predicts the other.",
+    "commonConfusions": "- **\"A pairs with T with three bonds.\"** Wrong — A–T has **two** hydrogen bonds; G–C has three.\n- **\"Both strands run the same direction.\"** Wrong — they are **antiparallel** (5′→3′ vs. 3′→5′).\n- **\"Thymine is a purine.\"** Wrong — T and C are pyrimidines (single ring); A and G are purines (double ring).\n- **\"The sequence is stored in the backbone.\"** Wrong — the backbone is constant; the information is in the **base sequence**.\n- **\"More hydrogen bonds means A–T is stronger.\"** Wrong — G–C pairs have three bonds and are stronger/more stable.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nDNA is a twisty ladder made of two rails and rungs. The rails are the sugar–phosphate backbone. The rungs are pairs of bases that only fit together one way: A always holds hands with T (two fingers), and G always holds hands with C (three fingers). That \"only one partner\" rule is the whole trick — if you know one side of the ladder, you automatically know the other. It's like a zipper whose teeth only fit one specific mate, so you can unzip it and build a perfect matching side every time. The analogy's limit: the bases aren't choosing partners by preference; it's the precise shapes and hydrogen bonds that make A fit only T and G fit only C.",
+    "quickReview": "- Nucleotide = phosphate + deoxyribose + base.\n- Purines (A, G) pair with pyrimidines (T, C).\n- A–T = 2 H-bonds; G–C = 3 H-bonds.\n- Antiparallel double helix, bases inside, backbone outside.\n- Base sequence encodes genetic information.\n- Complementarity underlies replication, transcription, and repair.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 14.2, \"DNA Structure and Sequencing.\" https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing",
+        "url": "https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 14.1, \"Historical Basis of Modern Understanding.\" https://openstax.org/books/biology-2e/pages/14-1-historical-basis-of-modern-understanding",
+        "url": "https://openstax.org/books/biology-2e/pages/14-1-historical-basis-of-modern-understanding"
+      },
+      {
+        "text": "NCBI Bookshelf, *Molecular Biology of the Cell*, 4th ed. (Alberts et al.). https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "dna-structure",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "05-dna-structure",
+      "kind": "source_file_stem",
+      "source_id": "biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:biology_notes:92f59e0f31298501"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:biology_notes:92f59e0f31298501"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:biology_notes:92f59e0f31298501"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:biology_notes:92f59e0f31298501"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/06-genetics-and-the-molecular-basis-of-inheritance/05-dna-structure.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# DNA Structure\n\n## Learning Goals\n\n- Describe the structure of a nucleotide and how nucleotides join into a DNA strand.\n- State the base-pairing rules (A–T, G–C) and the number of hydrogen bonds for each pair.\n- Explain what \"antiparallel double helix\" means.\n- Distinguish purines from pyrimidines.\n\n## Core Concept\n\n**DNA (deoxyribonucleic acid)** is the molecule of heredity: a double-stranded helix that stores genetic information in the sequence of its four bases. Its structure — two **antiparallel** strands held together by specific **base pairing** — is exactly what allows it to be copied accurately and to encode information. Structure and function are inseparable here.\n\n## Key Concepts\n\n### Nucleotides\n\nEach DNA **nucleotide** has three parts: a **phosphate group**, a five-carbon sugar called **deoxyribose**, and a **nitrogenous base**. The four bases are **adenine (A), thymine (T), guanine (G), and cytosine (C)**. Nucleotides join by **phosphodiester bonds** between the phosphate of one and the sugar of the next, forming a sugar–phosphate **backbone** with the bases pointing inward.\n\n### Purines and pyrimidines\n\nThe bases come in two chemical classes. **Purines** (adenine and guanine) are larger, double-ring structures. **Pyrimidines** (thymine and cytosine) are smaller, single-ring structures. In the double helix, a purine always pairs with a pyrimidine, which keeps the helix a uniform width.\n\n### Base pairing\n\n**Adenine pairs with thymine** via **two hydrogen bonds**; **guanine pairs with cytosine** via **three hydrogen bonds**. This **complementarity** means the sequence of one strand determines the sequence of the other — the key to faithful replication and to information storage. Because G–C has three bonds, G–C-rich DNA is slightly more stable (harder to separate) than A–T-rich DNA.\n\n### The antiparallel double helix\n\nThe two strands run in **opposite directions**: one runs 5′ → 3′, the other 3′ → 5′. The 5′ end has a free phosphate, the 3′ end a free hydroxyl (—OH) on the sugar. The strands wind around each other into a right-handed **double helix**, with backbones outside and bases stacked inside like rungs of a twisted ladder. Each full turn is about 10 base pairs (~3.4 nm), with a major and a minor groove.\n\n### Information storage\n\nThe order of bases along a strand is the genetic code. A gene is a specific sequence of bases that encodes a functional product (usually a protein). Because the strands are complementary, either strand can serve as a template for rebuilding the other — the principle behind replication and repair.\n\n## How It Works\n\nDNA's information is stored linearly in base sequence, like letters in a sentence. The two strands are held together by hydrogen bonds between complementary bases and by base-stacking interactions between adjacent pairs. When the cell needs to copy or read the DNA, the strands separate (assisted by enzymes), and each exposed strand serves as a template: A attracts T and G attracts C, so a new complementary strand is assembled with exact fidelity.\n\n## Why It Matters\n\nDNA structure explains heredity, mutation, evolution, and disease. Complementary base pairing is the basis of replication, transcription, DNA fingerprinting, PCR, sequencing, and gene editing. Understanding purine/pyrimidine pairing and the 5′→3′ directionality is a prerequisite for everything that follows in molecular biology — replication, transcription, translation, and gene regulation all depend on it.\n\n## High-Yield Facts\n\n- Nucleotide = phosphate + deoxyribose + nitrogenous base.\n- Four bases: A, T, G, C; purines (A, G) are double-ring; pyrimidines (T, C) are single-ring.\n- A–T: 2 hydrogen bonds; G–C: 3 hydrogen bonds (stronger).\n- Strands are antiparallel (5′→3′ and 3′→5′).\n- Backbone = sugar–phosphate (phosphodiester bonds); bases on the inside.\n- ~10 base pairs per turn; major and minor grooves.\n- Complementarity means one strand predicts the other.\n\n## Eli Explains\n\nDNA is a twisty ladder made of two rails and rungs. The rails are the sugar–phosphate backbone. The rungs are pairs of bases that only fit together one way: A always holds hands with T (two fingers), and G always holds hands with C (three fingers). That \"only one partner\" rule is the whole trick — if you know one side of the ladder, you automatically know the other. It's like a zipper whose teeth only fit one specific mate, so you can unzip it and build a perfect matching side every time. The analogy's limit: the bases aren't choosing partners by preference; it's the precise shapes and hydrogen bonds that make A fit only T and G fit only C.\n\n## Common Confusions\n\n- **\"A pairs with T with three bonds.\"** Wrong — A–T has **two** hydrogen bonds; G–C has three.\n- **\"Both strands run the same direction.\"** Wrong — they are **antiparallel** (5′→3′ vs. 3′→5′).\n- **\"Thymine is a purine.\"** Wrong — T and C are pyrimidines (single ring); A and G are purines (double ring).\n- **\"The sequence is stored in the backbone.\"** Wrong — the backbone is constant; the information is in the **base sequence**.\n- **\"More hydrogen bonds means A–T is stronger.\"** Wrong — G–C pairs have three bonds and are stronger/more stable.\n\n## Quick Review\n\n- Nucleotide = phosphate + deoxyribose + base.\n- Purines (A, G) pair with pyrimidines (T, C).\n- A–T = 2 H-bonds; G–C = 3 H-bonds.\n- Antiparallel double helix, bases inside, backbone outside.\n- Base sequence encodes genetic information.\n- Complementarity underlies replication, transcription, and repair.\n\n## Sources\n\n- OpenStax, *Biology 2e*, Ch. 14.2, \"DNA Structure and Sequencing.\" https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing\n- OpenStax, *Biology 2e*, Ch. 14.1, \"Historical Basis of Modern Understanding.\" https://openstax.org/books/biology-2e/pages/14-1-historical-basis-of-modern-understanding\n- NCBI Bookshelf, *Molecular Biology of the Cell*, 4th ed. (Alberts et al.). https://www.ncbi.nlm.nih.gov/books/NBK21054/\n"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "genetics-mendelian-genetics-ii-extensions-0001",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-ii-extensions",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem Two true-breeding snapdragon strains, one with red flowers (*RR*) and one with white flowers (*rr*), are crossed to produce F1 plants with pink flowers (*Rr*). Two F1 plants are then crossed. Assuming incomplete dominance at a single locus and complete viability, what phenotypic ratio is expected in the F2?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1:2:1 red:pink:white (sums to 4)"
+    },
+    {
+      "id": "b",
+      "text": "3:1 red:white (sums to 4)"
+    },
+    {
+      "id": "c",
+      "text": "1:1 pink:white (sums to 2)"
+    },
+    {
+      "id": "d",
+      "text": "1:2:1 red:white:pink (sums to 4)"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "In **incomplete dominance** the heterozygote shows an intermediate phenotype, so the *Rr* F1 plants are pink. Two *Rr* plants produce *RR*, *Rr*, and *rr* in a 1:2:1 genotypic ratio (sums to 4), and because each genotype maps to its own phenotype the F2 phenotypic ratio is the same 1:2:1 (sums to 4). B is the complete dominance ratio, which hides the heterozygote, C is the ratio of a testcross, and D lists the correct classes in the wrong order, swapping the pink and white positions.",
+  "difficulty": "unknown",
+  "tags": [
+    "incomplete",
+    "dominance",
+    "monohybrid",
+    "ratio"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-459ae50fda335511",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

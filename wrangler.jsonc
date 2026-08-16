@@ -1,0 +1,44 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "medmosa-source-api",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-08-16",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "api.medmosa.org",
+      "custom_domain": true
+    }
+  ],
+  "vars": {
+    "ENABLE_PUBMED": "true",
+    "NCBI_EMAIL": "contact@medmosa.org",
+    "ENABLE_OPENALEX": "true",
+    "ENABLE_NLM_TERMINOLOGY": "true",
+    "ENABLE_OPEN_LIBRARY": "true",
+    "MEDMOSA_CONTACT_EMAIL": "contact@medmosa.org",
+    "ENABLE_CDC_DATA": "false"
+  },
+  "ratelimits": [
+    {
+      "name": "PUBLIC_RATE_LIMITER",
+      "namespace_id": "21001",
+      "simple": { "limit": 30, "period": 60 }
+    },
+    {
+      "name": "PUBMED_RATE_LIMITER",
+      "namespace_id": "21002",
+      "simple": { "limit": 10, "period": 10 }
+    },
+    {
+      "name": "OPEN_LIBRARY_RATE_LIMITER",
+      "namespace_id": "21003",
+      "simple": { "limit": 20, "period": 10 }
+    }
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
+}

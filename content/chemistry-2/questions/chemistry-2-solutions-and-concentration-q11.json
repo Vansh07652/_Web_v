@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-solutions-and-concentration-q11",
+  "subject": "chemistry-2",
+  "lesson": "solutions-and-concentration",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In a laboratory exercise, 100 mL of 0.2 M potassium chloride is combined with 300 mL of 0.6 M potassium chloride, and the mixture is stirred. Assuming the volumes are additive, what is the resulting concentration?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The two concentrations are averaged without weighting and the concentration becomes 0.4 M"
+    },
+    {
+      "id": "b",
+      "text": "The concentrations add directly and the concentration becomes 0.8 M, above both starting values"
+    },
+    {
+      "id": "c",
+      "text": "The moles from each portion add and the concentration becomes 0.5 M, between the two starting values"
+    },
+    {
+      "id": "d",
+      "text": "The concentration stays 0.6 M because the more concentrated portion sets the final value"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Total moles = (0.1 L)(0.2 mol/L) + (0.3 L)(0.6 mol/L) = 0.02 + 0.18 = 0.2 mol, and total volume = 0.4 L, giving 0.2 mol / 0.4 L = 0.5 M. Choice A is the common error of averaging 0.2 and 0.6 while ignoring that three times as much of the concentrated solution was used. Because no solute is added or removed, the result must lie between the two starting concentrations and be weighted toward the one contributing the larger volume.\n\nELI-10: Mixing solutions is a bookkeeping problem: total the solute, total the volume, then divide. The 100 mL portion contributes 0.02 mol and the 300 mL portion contributes 0.18 mol, for 0.2 mol in a combined 0.4 L, which is 0.5 M. Use the answer's position as a check. It must land between 0.2 M and 0.6 M, and it should sit near 0.6 M because three-quarters of the liquid came from the stronger solution. An unweighted average of 0.4 M would ignore that imbalance, and any value outside the 0.2 to 0.6 range is impossible.",
+  "difficulty": "hard",
+  "tags": [
+    "mixing solutions",
+    "weighted concentration",
+    "mole balance"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-278",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

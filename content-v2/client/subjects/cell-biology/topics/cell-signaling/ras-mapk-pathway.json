@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-signaling:ras-mapk-pathway",
+  "slug": "ras-mapk-pathway",
+  "title": "Ras–MAPK Pathway",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-signaling",
+    "slug": "cell-signaling",
+    "title": "Cell Signaling",
+    "order": 6
+  },
+  "order": 11,
+  "status": "final",
+  "sections": {
+    "overview": "The Ras–MAPK pathway is the principal route by which receptor tyrosine kinases drive cell proliferation. Ligand-activated RTKs recruit the adaptor Grb2, which recruits the guanine nucleotide exchange factor (GEF) SOS; SOS converts the small GTPase Ras to its active GTP-bound form. Active Ras recruits and activates the kinase Raf, which phosphorylates MEK, which phosphorylates ERK (MAP kinase). Activated ERK translocates to the nucleus and phosphorylates transcription factors (e.g., Elk-1) that drive immediate-early genes controlling cell-cycle entry and differentiation. Ras is a monomeric small GTPase — a binary molecular switch whose activity is governed by GEFs (on) and GTPase-activating proteins, or GAPs (off).",
+    "whyItMatters": "The Ras–MAPK pathway is the central mitogenic cascade in metazoans. Hyperactivation drives many cancers (KRAS in pancreatic/colon/lung cancer, NRAS in melanoma, BRAF-V600E in melanoma and thyroid cancer) and the RASopathies (e.g., Noonan syndrome, neurofibromatosis type 1, where NF1/GAP loss leaves Ras overactive). Pharmacologically, the pathway is targeted by BRAF inhibitors (vemurafenib) and MEK inhibitors (trametinib), and direct KRAS-G12C inhibitors (sotorasib) are now clinical reality — a landmark after decades of considering Ras \"undruggable.\"",
+    "learningObjectives": "- Trace the pathway from receptor tyrosine kinase to ERK activation.\n- Explain the roles of the adaptor Grb2 and the GEF SOS in Ras activation.\n- Describe how Ras acts as a molecular switch (GTPase cycle) and how GAPs and GEFs control it.\n- Name the three-kinase MAPK module (Raf–MEK–ERK) and its outputs.\n- Connect activating Ras mutations to cancer.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe Ras–MAPK pathway is the principal route by which receptor tyrosine kinases drive cell proliferation. Ligand-activated RTKs recruit the adaptor Grb2, which recruits the guanine nucleotide exchange factor (GEF) SOS; SOS converts the small GTPase Ras to its active GTP-bound form. Active Ras recruits and activates the kinase Raf, which phosphorylates MEK, which phosphorylates ERK (MAP kinase). Activated ERK translocates to the nucleus and phosphorylates transcription factors (e.g., Elk-1) that drive immediate-early genes controlling cell-cycle entry and differentiation. Ras is a monomeric small GTPase — a binary molecular switch whose activity is governed by GEFs (on) and GTPase-activating proteins, or GAPs (off).\n\n### Key Components\n\n- **RTK**: Activated upstream, provides the phosphotyrosine docking site.\n- **Grb2**: Adaptor (SH2 + two SH3); SH2 binds receptor pTyr, SH3s bind SOS.\n- **SOS**: Guanine nucleotide exchange factor (GEF) for Ras.\n- **Ras**: Monomeric (~21 kDa) small GTPase; membrane-anchored by lipid modification (farnesyl group).\n- **Raf**: MAP kinase kinase kinase (MAPKKK), a Ser/Thr kinase recruited by Ras-GTP.\n- **MEK**: MAP kinase kinase (MAPKK); dual-specificity kinase.\n- **ERK**: Mitogen-activated protein kinase (MAPK); the effector kinase.\n- **GAPs (e.g., NF1)**: Accelerate Ras's slow intrinsic GTP hydrolysis, turning Ras off.\n\n### Mechanism / How It Works\n\n1. **Recruitment**: Grb2's SH2 domain binds a phosphotyrosine on the activated RTK; its SH3 domains bind proline-rich motifs on SOS, tethering SOS to the membrane near Ras.\n2. **Ras activation**: SOS promotes release of GDP and binding of GTP (GTP is ~10-fold more abundant in the cell), generating Ras-GTP.\n3. **Raf recruitment and activation**: Ras-GTP binds Raf, recruiting it to the membrane and relieving autoinhibition; Raf becomes an active kinase (with additional phosphorylation/dimerization steps).\n4. **Kinase cascade**: Raf phosphorylates and activates MEK on two serines; MEK (a dual-specificity kinase) phosphorylates ERK on a Thr-Glu-Tyr motif. Each step amplifies the signal.\n5. **ERK outputs**: Active ERK phosphorylates cytoplasmic targets (phospholipase A2, RSK) and translocates to the nucleus, where it phosphorylates transcription factors such as Elk-1, which combine with SRF to turn on immediate-early genes (c-Fos, c-Jun) that promote proliferation and differentiation.\n6. **Termination**: GAPs (e.g., NF1) hydrolyze Ras-GTP → Ras-GDP; MAP kinase phosphatases (MKPs) dephosphorylate ERK.\n\n### Energy and Directionality\n\nThe pathway consumes ATP at each kinase step (Raf, MEK, ERK, RSK) and GTP at the Ras switch. Directionality and switch-like behavior come from several features: (1) the kinase cascade is a sequence of activating phosphorylations, each potentially amplifying; (2) Ras is a binary GTP/GDP switch; and (3) MEK's dual phosphorylation of ERK creates a sharp, ultrasensitive threshold — ERK activation is sigmoidal with respect to input. Turn-off is also active: GAP-stimulated GTP hydrolysis and phosphatase-mediated dephosphorylation reset the system. Sustained versus transient ERK activity is interpreted differently by the cell (proliferation vs. differentiation).\n\n### Experimental Evidence / Technique\n\n- **Oncogenic Ras**: Missense mutations (G12V, G13, Q61L) block GTP hydrolysis and lock Ras ON; they are found in ~30% of human cancers — the first human oncogenes identified (Harvey and Kirsten sarcoma viruses).\n- **Dominant-negative Ras** (e.g., S17N, which sequesters GEFs) blocks mitogen-induced proliferation, proving Ras is required.\n- **Constitutively active Raf or MEK** (oncogenic v-Raf, or MEK with activating mutations) transforms cells and induces ERK activation without upstream signal.\n- **Phospho-specific antibodies** (anti-pERK) and **FRET-based Ras/ERK biosensors** measure pathway activity in live cells.\n- **Ras farnesylation inhibitors** and MEK inhibitors (trametinib) validate the pathway as a drug target.",
+    "howItWorks": "1. **Recruitment**: Grb2's SH2 domain binds a phosphotyrosine on the activated RTK; its SH3 domains bind proline-rich motifs on SOS, tethering SOS to the membrane near Ras.\n2. **Ras activation**: SOS promotes release of GDP and binding of GTP (GTP is ~10-fold more abundant in the cell), generating Ras-GTP.\n3. **Raf recruitment and activation**: Ras-GTP binds Raf, recruiting it to the membrane and relieving autoinhibition; Raf becomes an active kinase (with additional phosphorylation/dimerization steps).\n4. **Kinase cascade**: Raf phosphorylates and activates MEK on two serines; MEK (a dual-specificity kinase) phosphorylates ERK on a Thr-Glu-Tyr motif. Each step amplifies the signal.\n5. **ERK outputs**: Active ERK phosphorylates cytoplasmic targets (phospholipase A2, RSK) and translocates to the nucleus, where it phosphorylates transcription factors such as Elk-1, which combine with SRF to turn on immediate-early genes (c-Fos, c-Jun) that promote proliferation and differentiation.\n6. **Termination**: GAPs (e.g., NF1) hydrolyze Ras-GTP → Ras-GDP; MAP kinase phosphatases (MKPs) dephosphorylate ERK.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Order: RTK → Grb2 → SOS → Ras-GTP → Raf → MEK → ERK → transcription factors.\n- Ras is a **small monomeric GTPase** (distinct from heterotrimeric G proteins); it is a GEF/GAP-regulated switch.\n- SOS is a **GEF** (exchanges GDP for GTP); **GAPs** (e.g., NF1) turn Ras off.\n- Oncogenic Ras mutations block **GTP hydrolysis**, locking Ras in the active state.\n- MEK is a **dual-specificity** kinase (phosphorylates Thr and Tyr on ERK); ERK's TEY motif is the activation loop.",
+    "commonConfusions": "- **Ras vs. heterotrimeric G proteins**: Ras is a small, monomeric GTPase with no βγ subunits; heterotrimeric G proteins (Gs, Gq) are larger αβγ complexes coupled to GPCRs.\n- **GEF vs. GAP**: GEFs turn small GTPases ON (promote GDP→GTP); GAPs turn them OFF (promote GTP hydrolysis). SOS = GEF; NF1 = GAP.\n- **Ras vs. Raf**: Ras is the GTPase switch; Raf is the downstream kinase (MAPKKK). Oncogenic Ras activates Raf, but BRAF itself is frequently mutated in cancer.\n- **MEK's dual specificity**: It phosphorylates both a threonine and a tyrosine on ERK, unlike purely Ser/Thr or purely Tyr kinases.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine Ras as a light switch that can be ON or OFF. A helper (SOS) flips it ON, and a safety inspector (GAP) flips it OFF. When a growth signal arrives, a chain of runners carries the message from the front door (the receptor) to the switch: the doorman (Grb2) grabs the message and pulls the flipper (SOS) over to flip Ras ON. Once ON, Ras starts a relay race — Raf tags MEK, MEK tags ERK, and ERK runs into the \"control room\" (the nucleus) to shout \"grow!\" In many cancers, the switch is broken so it is stuck ON, and the cell keeps shouting \"grow!\" forever. The analogy's limit: the real switch is a protein that binds one of two tiny molecules (GTP vs. GDP), and the relay \"tags\" are precise phosphate groups, not spoken messages.",
+    "quickReview": "- RTK-pTyr → Grb2(SH2) → Grb2(SH3) → SOS (GEF) → Ras-GDP → Ras-GTP.\n- Ras-GTP → Raf (MAPKKK) → MEK (MAPKK) → ERK (MAPK) → Elk-1/SRF → immediate-early genes.\n- Off: GAPs (NF1) and MAP kinase phosphatases.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 15, \"The Ras/MAP Kinase Pathway.\""
+      },
+      {
+        "text": "Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 16, \"Ras/MAP kinase.\""
+      },
+      {
+        "text": "Downward, J., \"Targeting RAS signalling pathways in cancer therapy,\" *Nature Reviews Cancer* (2003)."
+      },
+      {
+        "text": "NCI Dictionary of Genetics Terms, \"RAS.\""
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Chapter 9, \"Propagation of the Signal.\""
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/06-cell-signaling/11-ras-mapk-pathway.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

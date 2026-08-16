@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:compartments-protein-sorting:nuclear-export",
+  "slug": "nuclear-export",
+  "title": "Nuclear Export",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:compartments-protein-sorting",
+    "slug": "compartments-protein-sorting",
+    "title": "Compartments Protein Sorting",
+    "order": 3
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "Nuclear export is the mirror image of nuclear import, and it uses the same molecular logic in reverse. A **nuclear export signal (NES)** — typically a short, leucine-rich sequence — is recognized by an **exportin** (also called an export receptor), most famously CRM1/XPO1. Unlike import, the export complex assembles **inside the nucleus** because it requires **Ran-GTP**, which is concentrated there. The exportin–cargo–Ran-GTP complex transits the nuclear pore, and in the cytosol a **Ran-GAP** triggers GTP hydrolysis, converting Ran-GTP to Ran-GDP and causing the complex to disassemble — releasing the cargo into the cytoplasm. Thus export and import are governed by the same Ran gradient: cargo is dropped off wherever Ran-GTP is low (the cytosol) for export, and wherever Ran-GTP is high (the nucleus) for import.",
+    "whyItMatters": "Nuclear export balances import and is essential for gene expression: mature mRNAs, tRNAs, and ribosomal subunits must leave the nucleus, and many signaling proteins must be actively excluded from the nucleus when \"off.\" Export is a major drug target — leptomycin B and related CRM1 inhibitors (e.g., selinexor) are used to treat certain cancers by trapping tumor-suppressor proteins in the nucleus. Viruses (e.g., HIV) hijack export to ship their unspliced RNA out of the nucleus.",
+    "learningObjectives": "- Explain how a nuclear export signal (NES) directs a protein out of the nucleus.\n- Describe the role of exportins (e.g., CRM1) and Ran-GTP in export.\n- Contrast the assembly and disassembly of export versus import complexes.\n- State why directionality of export is opposite yet mechanistically symmetric to import.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nNuclear export is the mirror image of nuclear import, and it uses the same molecular logic in reverse. A **nuclear export signal (NES)** — typically a short, leucine-rich sequence — is recognized by an **exportin** (also called an export receptor), most famously CRM1/XPO1. Unlike import, the export complex assembles **inside the nucleus** because it requires **Ran-GTP**, which is concentrated there. The exportin–cargo–Ran-GTP complex transits the nuclear pore, and in the cytosol a **Ran-GAP** triggers GTP hydrolysis, converting Ran-GTP to Ran-GDP and causing the complex to disassemble — releasing the cargo into the cytoplasm. Thus export and import are governed by the same Ran gradient: cargo is dropped off wherever Ran-GTP is low (the cytosol) for export, and wherever Ran-GTP is high (the nucleus) for import.\n\n### Key Components\n\n- **Nuclear export signal (NES):** a short hydrophobic, leucine-rich sequence (e.g., LxxxLxxLxL) recognized by exportins; not cleaved.\n- **Exportin (CRM1/XPO1):** the principal export receptor for proteins bearing leucine-rich NESs.\n- **Ran-GTP:** required for export complex assembly in the nucleus.\n- **Ran-GAP (with RanBP1/RanBP2 cofactors):** triggers Ran-GTP hydrolysis in the cytosol, disassembling the export complex.\n- **Other export pathways:** tRNA export (exportin-t), mRNA export (NXF1/Nxt1-Tap and the TREX complex) — RNA export often uses different carriers than CRM1.\n\n### Mechanism / How It Works\n\n1. In the nucleus, an exportin binds both a cargo carrying an NES and **Ran-GTP**; the three components form a stable export complex.\n2. The complex diffuses through the NPC by transient interactions with FG-repeat nucleoporins (the same meshwork used for import).\n3. In the cytosol, the **Ran-GAP** (assisted by RanBP1/RanBP2) stimulates Ran to hydrolyze GTP → Ran-GDP.\n4. The conformational change on GTP hydrolysis causes the exportin to release both Ran-GDP and the cargo, which stays in the cytosol.\n5. The empty exportin re-enters the nucleus; Ran-GDP is recycled to the nucleus and reloaded with GTP by **RCC1**, completing the cycle.\n\nNote the symmetry: import complexes form in the cytosol (Ran-GTP absent) and break in the nucleus (Ran-GTP present); export complexes form in the nucleus (Ran-GTP present) and break in the cytosol (Ran-GTP absent).\n\n### Energy and Directionality\n\nAs with import, the physical passage through the pore is **diffusive** and reversible. Directionality is imposed by the **Ran GTPase cycle**: the steep Ran-GTP gradient (high in the nucleus, low in the cytosol) makes complex formation thermodynamically favorable only in the correct compartment. One GTP is hydrolyzed per exported molecule in the cytosol. The energy to maintain the gradient ultimately comes from nucleotide exchange (RCC1) and hydrolysis (Ran-GAP), coupled to the cell's GTP pool.\n\n### Experimental Evidence / Technique\n\nExport was demonstrated with **permeabilized-cell and microinjection assays**: injecting a protein bearing a leucine-rich NES into the nucleus leads to its accumulation in the cytosol, and export is blocked by GTPγS (a non-hydrolyzable GTP analog) or by the drug **leptomycin B**, which covalently inactivates CRM1. **NES-swapping experiments** showed the signal is portable — fusing an NES to a nuclear protein redirects it to the cytosol. Mutating the leucine residues of the NES abolishes export, confirming the recognition motif.",
+    "howItWorks": "1. In the nucleus, an exportin binds both a cargo carrying an NES and **Ran-GTP**; the three components form a stable export complex.\n2. The complex diffuses through the NPC by transient interactions with FG-repeat nucleoporins (the same meshwork used for import).\n3. In the cytosol, the **Ran-GAP** (assisted by RanBP1/RanBP2) stimulates Ran to hydrolyze GTP → Ran-GDP.\n4. The conformational change on GTP hydrolysis causes the exportin to release both Ran-GDP and the cargo, which stays in the cytosol.\n5. The empty exportin re-enters the nucleus; Ran-GDP is recycled to the nucleus and reloaded with GTP by **RCC1**, completing the cycle.\n\nNote the symmetry: import complexes form in the cytosol (Ran-GTP absent) and break in the nucleus (Ran-GTP present); export complexes form in the nucleus (Ran-GTP present) and break in the cytosol (Ran-GTP absent).",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Export is the reverse of import, powered by the same Ran-GTP gradient.\n- The export complex (exportin + cargo + Ran-GTP) assembles in the **nucleus** and disassembles in the **cytosol** after Ran-GAP–stimulated GTP hydrolysis.\n- Leucine-rich NES (e.g., LxxxLxxLxL) is recognized by CRM1/XPO1.\n- Leptomycin B inhibits CRM1, blocking export.\n- mRNA export uses a distinct pathway (NXF1/Tap + TREX), not CRM1.\n- Ran-GTP high in nucleus, Ran-GDP high in cytosol — export and import both depend on this.",
+    "commonConfusions": "- **\"Export needs Ran-GDP.\"** — No. Export complex assembly requires **Ran-GTP** (in the nucleus); Ran-GDP is the *product* of the cytosolic disassembly step.\n- **\"Export and import use the same receptors.\"** — They use distinct receptors: importins for import, exportins (CRM1) for export, though both are karyopherins and both bind Ran-GTP.\n- **\"NES and NLS are the same thing in different locations.\"** — They are different sequences (NLS is positively charged; NES is leucine-rich/hydrophobic) recognized by different receptors.\n- **\"Ran-GAP is in the nucleus.\"** — It is cytosolic (and at the cytosolic filaments of the NPC); RCC1/Ran-GEF is nuclear. Inverting these two is a frequent error.\n- **\"All RNA exits via CRM1.\"** — Most mRNAs exit via NXF1/Tap; CRM1 exports proteins and certain RNAs.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImport is a visitor being escorted *into* the stadium and let go at the door. Export is the same visitor being escorted *out*: the escort (exportin) can only grab the visitor's hand while the \"go\" switch (Ran-GTP) is switched on — and that switch is only on inside the stadium. Once outside, a switch-flipper (Ran-GAP) turns the switch off, the escort opens its hand, and the visitor is left standing outside. The same on/off switch makes sure people always get dropped off on the correct side, whether they're coming or going. (The analogy omits that RNA leaves through separate, specialized doormen rather than the one described here.)",
+    "quickReview": "- NES (leucine-rich) → exportin (CRM1) + Ran-GTP → nuclear assembly.\n- Transits NPC; Ran-GAP + RanBP in cytosol hydrolyze Ran-GTP → complex disassembles, cargo released.\n- Same Ran gradient as import, used in reverse.\n- Leptomycin B blocks CRM1.\n- mRNA uses a separate NXF1/Tap pathway.\n- One GTP per cycle provides directionality.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Transport of Molecules between the Nucleus and the Cytosol.\" https://www.ncbi.nlm.nih.gov/books/NBK26932/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26932/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Intracellular Compartments and Protein Sorting.\" https://www.ncbi.nlm.nih.gov/books/NBK21053/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21053/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"4.3 Eukaryotic Cells.\" https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+        "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/03-compartments-protein-sorting/05-nuclear-export.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

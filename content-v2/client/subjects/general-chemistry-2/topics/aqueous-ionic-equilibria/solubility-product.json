@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:aqueous-ionic-equilibria:solubility-product",
+  "slug": "solubility-product",
+  "title": "The Solubility-Product Constant, Ksp",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:aqueous-ionic-equilibria",
+    "slug": "aqueous-ionic-equilibria",
+    "title": "Aqueous Ionic Equilibria",
+    "order": 6
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "Even \"insoluble\" salts dissolve to a tiny extent, establishing an equilibrium between the solid and its dissolved ions. The **solubility-product constant Ksp** describes that equilibrium: for a salt MₓAᵧ, Ksp = [M]ˣ[A]ʸ, with each ion raised to its *stoichiometric coefficient* and the solid itself omitted (a pure solid has constant concentration). A smaller Ksp means a less soluble salt, and Ksp is the gateway to every quantitative solubility calculation — molar solubility, precipitation, and selective precipitation.",
+    "whyItMatters": "Ksp governs the \"how much dissolves\" question that appears everywhere from geology (limestone cave formation, mineral deposits) to medicine (kidney stones, bone mineralization, barium sulfate X-ray contrast) to water treatment (limescale, water softening). It also underpins qualitative-analysis schemes that separate metal ions by exploiting differences in their sparingly soluble salts.",
+    "learningObjectives": "- Write the Ksp expression for a sparingly soluble salt.\n- Explain why solids are omitted from the expression.\n- Relate Ksp to the position of a dissolution equilibrium.\n- Use Ksp to compare the solubility of salts with the same stoichiometry.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nEven \"insoluble\" salts dissolve to a tiny extent, establishing an equilibrium between the solid and its dissolved ions. The **solubility-product constant Ksp** describes that equilibrium: for a salt MₓAᵧ, Ksp = [M]ˣ[A]ʸ, with each ion raised to its *stoichiometric coefficient* and the solid itself omitted (a pure solid has constant concentration). A smaller Ksp means a less soluble salt, and Ksp is the gateway to every quantitative solubility calculation — molar solubility, precipitation, and selective precipitation.\n\n### Key Ideas\n\n- **Dissolution equilibrium:** AgCl(s) ⇌ Ag⁺(aq) + Cl⁻(aq).\n- **Ksp = [Ag⁺][Cl⁻]**; the solid is excluded because pure solids have constant activity.\n- **Stoichiometric exponents:** for PbCl₂, Ksp = [Pb²⁺][Cl⁻]²; for Ag₂CrO₄, Ksp = [Ag⁺]²[CrO₄²⁻].\n- **Saturated solution:** the ion product exactly equals Ksp.\n- **Ksp is temperature-dependent** (most salts are more soluble when hot).\n- **Comparing Ksp values directly is valid only for salts of the same ion ratio** (e.g., both 1:1).\n\n### Equations and Variables\n\n- General: MₓAᵧ(s) ⇌ x Mⁿ⁺(aq) + y Aᵐ⁻(aq)\n- Ksp = [Mⁿ⁺]ˣ [Aᵐ⁻]ʸ\n- Examples: AgCl: Ksp = [Ag⁺][Cl⁻]; PbCl₂: Ksp = [Pb²⁺][Cl⁻]²; Ag₂CrO₄: Ksp = [Ag⁺]²[CrO₄²⁻]\n- Qsp (ion product under any conditions) vs Ksp (at saturation)\n\n### How It Works\n\n1. Write the balanced dissolution equation, being careful with coefficients.\n2. Write Ksp as the product of the ion concentrations, each raised to its coefficient in the balanced equation.\n3. Omit the solid — its \"concentration\" is constant and is folded into the constant.\n4. At equilibrium (a saturated solution), the ion product equals Ksp; this is the maximum amount of ions the solution can hold before solid remains.\n5. The magnitude of Ksp reflects solubility: for same-type salts, smaller Ksp = less soluble.\n\n### Worked Example\n\n**Write the Ksp expression for (a) AgCl, (b) CaF₂, and (c) Ag₃PO₄, and order the 1:1 salts AgCl (Ksp = 1.8 × 10⁻¹⁰) and AgBr (Ksp = 5.0 × 10⁻¹³) by solubility.**\n\n(a) AgCl(s) ⇌ Ag⁺ + Cl⁻ → Ksp = [Ag⁺][Cl⁻]\n\n(b) CaF₂(s) ⇌ Ca²⁺ + 2 F⁻ → Ksp = [Ca²⁺][F⁻]²\n\n(c) Ag₃PO₄(s) ⇌ 3 Ag⁺ + PO₄³⁻ → Ksp = [Ag⁺]³[PO₄³⁻]\n\nBecause AgCl and AgBr are both 1:1 salts, we may compare Ksp directly: AgBr (5.0 × 10⁻¹³) is less soluble than AgCl (1.8 × 10⁻¹⁰), since its Ksp is smaller.",
+    "howItWorks": "1. Write the balanced dissolution equation, being careful with coefficients.\n2. Write Ksp as the product of the ion concentrations, each raised to its coefficient in the balanced equation.\n3. Omit the solid — its \"concentration\" is constant and is folded into the constant.\n4. At equilibrium (a saturated solution), the ion product equals Ksp; this is the maximum amount of ions the solution can hold before solid remains.\n5. The magnitude of Ksp reflects solubility: for same-type salts, smaller Ksp = less soluble.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Ksp is the equilibrium constant for a solid dissolving into its ions.\n- Solid is omitted; each ion is raised to its stoichiometric coefficient.\n- Smaller Ksp = less soluble (for salts of the same ion ratio).\n- At saturation, ion product = Ksp.\n- Ksp is temperature-dependent.\n- Ksp ≠ molar solubility; they are related through stoichiometry (next note).",
+    "commonConfusions": "- **\"Ksp includes the solid.\"** — Solids (and pure liquids) are always omitted from equilibrium expressions.\n- **\"Ksp = [M][A] for every salt.\"** — Only for 1:1 salts; you must raise each ion to its coefficient (e.g., [F⁻]² in CaF₂).\n- **\"Smaller Ksp always means less soluble.\"** — Only when comparing salts with the same stoichiometry (both 1:1, or both 1:2); otherwise convert Ksp to molar solubility first.\n- **\"Ksp is the molar solubility.\"** — Ksp is a constant; molar solubility (mol/L) is derived from it and depends on stoichiometry.\n- **\"Ksp is a fixed universal number.\"** — It changes with temperature.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nKsp is the \"maximum crowd size\" a solution can hold of dissolved ions before the solid says \"no more — I'm staying solid.\" It's like a venue's fire-code limit. For salts with the same guest count (same ion ratio), a lower limit means a less welcoming venue — less dissolves. (The limit: the fire-code \"limit\" is a product of concentrations, and different salts have different guest counts, so you can't compare limits directly unless the headcounts match.)",
+    "quickReview": "- MₓAᵧ(s) ⇌ x Mⁿ⁺ + y Aᵐ⁻; Ksp = [Mⁿ⁺]ˣ[Aᵐ⁻]ʸ.\n- Omit solids; include stoichiometric exponents.\n- Smaller Ksp = less soluble (same stoichiometry only).\n- Saturated ⇔ ion product = Ksp.\n- Ksp varies with temperature.",
+    "workedExamples": "### Worked Example\n\n**Write the Ksp expression for (a) AgCl, (b) CaF₂, and (c) Ag₃PO₄, and order the 1:1 salts AgCl (Ksp = 1.8 × 10⁻¹⁰) and AgBr (Ksp = 5.0 × 10⁻¹³) by solubility.**\n\n(a) AgCl(s) ⇌ Ag⁺ + Cl⁻ → Ksp = [Ag⁺][Cl⁻]\n\n(b) CaF₂(s) ⇌ Ca²⁺ + 2 F⁻ → Ksp = [Ca²⁺][F⁻]²\n\n(c) Ag₃PO₄(s) ⇌ 3 Ag⁺ + PO₄³⁻ → Ksp = [Ag⁺]³[PO₄³⁻]\n\nBecause AgCl and AgBr are both 1:1 salts, we may compare Ksp directly: AgBr (5.0 × 10⁻¹³) is less soluble than AgCl (1.8 × 10⁻¹⁰), since its Ksp is smaller.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"15.1 Precipitation and Dissolution.\" https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution"
+      },
+      {
+        "text": "PubChem, \"Silver Chloride.\" https://pubchem.ncbi.nlm.nih.gov/compound/Silver-chloride",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Silver-chloride"
+      },
+      {
+        "text": "Chem LibreTexts, \"General Chemistry (Petrucci) — 18: Solubility and Complex-Ion Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_%28Petrucci_et_al.%29/18%3A_Solubility_and_Complex-Ion_Equilibria",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_%28Petrucci_et_al.%29/18%3A_Solubility_and_Complex-Ion_Equilibria"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/15-aqueous-ionic-equilibria/07-solubility-product.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

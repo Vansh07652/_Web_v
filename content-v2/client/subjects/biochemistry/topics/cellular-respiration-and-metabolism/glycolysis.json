@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biochemistry:cellular-respiration-and-metabolism:glycolysis",
+  "slug": "glycolysis",
+  "title": "Glycolysis",
+  "subject": {
+    "id": "subject:biochemistry",
+    "slug": "biochemistry",
+    "title": "Biochemistry"
+  },
+  "unit": {
+    "id": "unit:biochemistry:cellular-respiration-and-metabolism",
+    "slug": "cellular-respiration-and-metabolism",
+    "title": "Cellular Respiration and Metabolism",
+    "order": 6
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "This section covers **glycolysis** — the first stage of glucose breakdown — where one glucose molecule is split into two **pyruvate** molecules, producing a small amount of **ATP** and **NADH** in the cytoplasm, with or without oxygen.",
+    "whyItMatters": "Glycolysis is the universal starting point for extracting energy from glucose. It runs in nearly all cells, works even without oxygen, and feeds the rest of cellular respiration — making it foundational for understanding metabolism, exercise, and conditions of low oxygen.",
+    "learningObjectives": "- State the purpose and location of **glycolysis**.\n- Summarize inputs and outputs (glucose → pyruvate; ATP, NADH).\n- Explain the **investment and payoff** phases conceptually.\n- Note that glycolysis does **not** require oxygen.",
+    "keyTerms": "",
+    "collegeNotes": "**Overview and location.** **Glycolysis** (\"sugar splitting\") is the **first stage** of glucose metabolism. It takes place in the **cytoplasm** (not the mitochondria) and **does not require oxygen** (it is **anaerobic**-capable). In glycolysis, one **6-carbon glucose** molecule is broken into **two 3-carbon pyruvate** molecules through a series of enzyme-catalyzed steps.\n\n**Inputs and outputs.** The key bottom line (net per glucose):\n\n- **Input:** 1 glucose, plus 2 ATP (invested to start), plus 2 NAD⁺.\n- **Output:** 2 pyruvate, a **net of 2 ATP** (4 made minus 2 invested), and **2 NADH** (electron carriers, made by reducing NAD⁺).\n\nSo glycolysis yields a **small but quick** amount of ATP directly, plus NADH that can be used to make much more ATP later (if oxygen is available).\n\n**Investment and payoff (conceptually).** Glycolysis has two conceptual phases:\n\n- **Energy investment phase** — the cell **spends 2 ATP** to \"prime\" glucose (adding phosphate groups), making it reactive and ready to split.\n- **Energy payoff phase** — the split 3-carbon molecules are processed, **producing 4 ATP and 2 NADH**. Subtracting the 2 invested gives the **net 2 ATP**.\n\n(The ATP here is made by **substrate-level phosphorylation** — directly transferring a phosphate to ADP, distinct from the later, larger ATP production.)\n\n**What happens next.** The fate of **pyruvate** depends on oxygen:\n\n- **With oxygen (aerobic):** pyruvate enters the mitochondria for the next stages (pyruvate oxidation → citric acid cycle → electron transport), producing far more ATP.\n- **Without oxygen (anaerobic):** pyruvate is converted by **fermentation** (e.g., to lactate in humans) to keep glycolysis running (covered in a later section).",
+    "howItWorks": "Glycolysis:\n\n```\nLocation: CYTOPLASM | Oxygen: NOT required (anaerobic-capable)\nGlucose (6C) → 2 pyruvate (3C each)\nNet per glucose: +2 ATP (4 made − 2 invested), +2 NADH\nPhases: investment (spend 2 ATP to prime glucose) → payoff (make 4 ATP + 2 NADH)\nATP made by substrate-level phosphorylation\nPyruvate fate: O2 present → mitochondria (more ATP) | O2 absent → fermentation (lactate)\n```",
+    "comparisons": "| Feature | Glycolysis |\n| --- | --- |\n| Location | Cytoplasm |\n| Oxygen needed? | No |\n| Starting molecule | Glucose (6C) |\n| End products | 2 pyruvate (3C), net 2 ATP, 2 NADH |\n\n| Phase | Net ATP |\n| --- | --- |\n| Investment | −2 ATP |\n| Payoff | +4 ATP (and 2 NADH) |\n| **Net** | **+2 ATP** |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\nGlycolysis provides **fast energy without oxygen** — important in intense exercise and in tissues with limited oxygen. When oxygen is low (ischemia, shock), cells rely on glycolysis + fermentation, producing **lactate** (elevated blood lactate is a clinical marker of poor tissue oxygenation). **Red blood cells** (which lack mitochondria) depend on glycolysis. Understanding glucose entering glycolysis connects to **blood glucose, diabetes, and energy metabolism**. Glycolysis is the shared first step feeding the rest of respiration.",
+    "commonConfusions": "- **Glycolysis occurs in the cytoplasm and does NOT require oxygen.**\n- **Net ATP is 2** (4 produced minus 2 invested), plus **2 NADH**.\n- **Glucose (6C) → 2 pyruvate (3C)** — the carbons are conserved.\n- **Pyruvate's fate depends on oxygen** (mitochondria vs. fermentation).",
+    "memoryAids": "- **\"Glyco-lysis = sugar (glyco) splitting (lysis).\"**\n- **\"Spend 2, make 4, net 2 ATP (plus 2 NADH).\"**\n- **\"Glycolysis needs no air (cytoplasm, anaerobic).\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\n**Glycolysis** is the first step of getting energy out of sugar. It splits one glucose into two smaller pieces (pyruvate), makes a little energy (ATP), and doesn't even need oxygen.\n\n### Analogy\nImagine glucose is a **6-car train** full of energy, and your cell wants to unload that energy. **Glycolysis** is the first stop: it **splits the 6-car train into two 3-car trains** (called **pyruvate**). To get the process going, the cell first has to **spend a little energy** (2 ATP) to \"prime the pump\" — like paying a small fee to start a machine. But then it **earns more back** (4 ATP), so it comes out **ahead by 2 ATP**. It also fills up two \"energy shuttle buses\" called **NADH**, which carry energy-rich electrons to be cashed in later for *lots* more energy. The best part? This whole first step happens **without needing any oxygen**, right out in the main part of the cell (the cytoplasm). What happens to the two 3-car trains next depends on whether **oxygen is around**: if yes, they go into the cell's \"power plants\" (mitochondria) for way more energy; if no, the cell does a backup plan called **fermentation**.\n\n### What is actually happening\nThis matters in real situations. Because glycolysis **doesn't need oxygen**, it's the body's **backup energy source** when oxygen is short — like during **intense exercise** or when blood flow is reduced. In those cases, cells make **lactate**, and doctors can measure **lactate in the blood** as a warning sign that tissues aren't getting enough oxygen (important in conditions like shock). Also, **red blood cells** rely entirely on glycolysis because they have no mitochondria. So this \"first step of burning sugar\" is both an everyday energy source and an important clinical clue.\n\n### Where the analogy stops\nTrains split cleanly in one move, but glycolysis is actually a **chain of about ten enzyme steps**, each carefully controlled — it's a whole assembly line, not a single snap.",
+    "quickReview": "- **Glycolysis** splits one **glucose (6C)** into **two pyruvate (3C)** in the **cytoplasm**, **without requiring oxygen**.\n- Net yield per glucose: **2 ATP** (4 made minus 2 invested) and **2 NADH**.\n- It has an **investment phase** (spend 2 ATP) and a **payoff phase** (make 4 ATP + 2 NADH).\n- **Pyruvate's fate depends on oxygen**: aerobic (mitochondria, more ATP) or anaerobic (fermentation → lactate).",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Chapter 7: Cellular Respiration (glycolysis). https://openstax.org/details/books/biology-2e",
+        "url": "https://openstax.org/details/books/biology-2e"
+      },
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 24: Metabolism and Nutrition. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/05-biochemistry/06-cellular-respiration-and-metabolism/01-glycolysis.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

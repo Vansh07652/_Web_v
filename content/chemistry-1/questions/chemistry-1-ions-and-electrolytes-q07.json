@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-ions-and-electrolytes-q07",
+  "subject": "chemistry-1",
+  "lesson": "ions-and-electrolytes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Clinical laboratories often report electrolytes in milliequivalents rather than millimoles. For calcium, 1 mmol of Ca2+ corresponds to how many mEq, and what does that reveal about the two units?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1 mEq, because milliequivalents and millimoles are alternative names for the same quantity"
+    },
+    {
+      "id": "b",
+      "text": "0.5 mEq, because equivalents divide the amount of substance by the magnitude of the charge"
+    },
+    {
+      "id": "c",
+      "text": "2 mEq, because equivalents weight each ion by the magnitude of the charge it carries"
+    },
+    {
+      "id": "d",
+      "text": "40 mEq, because equivalents are obtained by applying the molar mass of the element"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Milliequivalents equal millimoles multiplied by the absolute value of the ionic charge, so for the divalent Ca2+ ion 1 x 2 = 2 mEq. The equivalent expresses charge-combining capacity, which is why clinicians use it when comparing cations with anions for electroneutrality. Molar mass converts between mass and moles and plays no part in this conversion. For monovalent ions such as Na+ and K+ the two values coincide numerically, which is precisely why the distinction is easy to overlook.\n\nELI-10: Millimoles answer 'how many ions are present', while milliequivalents answer 'how much charge do they bring'. Those questions give the same number only when each ion carries exactly one charge. Calcium carries two, so a single millimole of it delivers 1 x 2 = 2 milliequivalents of positive charge. The direction matters: multiply by the charge, never divide, because a more highly charged ion supplies more charge, not less.",
+  "difficulty": "medium",
+  "tags": [
+    "milliequivalents vs millimoles",
+    "ionic valence",
+    "charge-based units"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-273",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

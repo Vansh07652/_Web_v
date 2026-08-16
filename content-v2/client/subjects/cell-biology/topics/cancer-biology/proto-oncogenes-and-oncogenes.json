@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cancer-biology:proto-oncogenes-and-oncogenes",
+  "slug": "proto-oncogenes-and-oncogenes",
+  "title": "Proto-oncogenes and Oncogenes",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cancer-biology",
+    "slug": "cancer-biology",
+    "title": "Cancer Biology",
+    "order": 8
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "**Proto-oncogenes** are normal genes that promote cell growth, division, and survival — the \"accelerator\" of the cell cycle. An **oncogene** is a mutated or overexpressed version of a proto-oncogene whose activity is increased or made independent of normal regulation, producing a **gain of function**. Because a single overactive copy is enough to drive signaling, oncogenes act dominantly: one mutant allele is sufficient to contribute to transformation, in sharp contrast to the two-hit, loss-of-function logic of tumor suppressors.",
+    "whyItMatters": "Oncogenes are central to both cancer biology and cancer therapy. Because oncogenes act dominantly and specifically, they make ideal drug targets: imatinib (BCR–ABL) transformed chronic myeloid leukemia from a fatal disease into a manageable one, and HER2 amplification guides trastuzumab treatment in breast cancer. Understanding how a normal gene becomes an oncogene also explains why certain mutations recur across patients and underpins precision oncology.",
+    "learningObjectives": "- Define proto-oncogene and oncogene and explain how one becomes the other.\n- Explain why oncogenes act in a dominant, gain-of-function manner.\n- Describe the molecular mechanisms that convert proto-oncogenes to oncogenes (mutation, amplification, translocation).\n- Compare the roles of RAS and MYC as canonical oncogenes.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Proto-oncogenes** are normal genes that promote cell growth, division, and survival — the \"accelerator\" of the cell cycle. An **oncogene** is a mutated or overexpressed version of a proto-oncogene whose activity is increased or made independent of normal regulation, producing a **gain of function**. Because a single overactive copy is enough to drive signaling, oncogenes act dominantly: one mutant allele is sufficient to contribute to transformation, in sharp contrast to the two-hit, loss-of-function logic of tumor suppressors.\n\n### Key Components\n\n- **RAS family (HRAS, KRAS, NRAS):** small GTPases that act as binary molecular switches in growth-factor signaling; oncogenic mutations lock them in the GTP-bound \"on\" state.\n- **MYC:** a transcription factor that drives expression of genes for cell growth and proliferation; often overexpressed via amplification or translocation.\n- **Receptor tyrosine kinases (e.g., HER2/ERBB2):** amplified or mutated to signal without ligand.\n- **BCR–ABL:** a fusion oncogene from a chromosomal translocation producing a constitutively active tyrosine kinase (chronic myeloid leukemia).\n- **Activation mechanisms:** point mutation, gene amplification, chromosomal translocation, and retroviral insertional activation.\n\n### Mechanism\n\nNormal proto-oncogene products are tightly regulated so that growth signals fire only when appropriate. Oncogenic conversion disrupts this regulation in a way that increases or deregulates activity: a point mutation can render a protein constitutively active; amplification can raise copy number so the protein is overproduced; a translocation can place a growth gene under a stronger promoter or fuse it to another gene to make a hyperactive chimera. The result is a persistent growth signal that the cell interprets as \"keep dividing,\" even in the absence of external growth factors.\n\n### How It Works\n\n1. A growth factor binds its receptor, activating a signaling cascade through RAS and downstream kinases.\n2. In a normal cell, RAS hydrolyzes GTP → GDP and switches off, ending the signal.\n3. An oncogenic point mutation (e.g., RAS codon 12, 13, or 61) blocks GTP hydrolysis.\n4. Mutant RAS stays GTP-bound and keeps signaling continuously — the accelerator is stuck on.\n5. Sustained signaling drives transcription (via pathways such as MAPK and PI3K) and proliferation.\n6. Alternatively, amplification of MYC or HER2 raises protein levels, or BCR–ABL fusion produces a kinase that never turns off, achieving the same unregulated growth output.\n\n### Energy and Directionality\n\nThe RAS switch is powered by **GTP hydrolysis**: the free energy of GTP → GDP + Pi drives the protein between active and inactive conformations, giving the pathway intrinsic directionality. Oncogenic RAS cannot hydrolyze GTP, so the energy-consuming \"off\" step is disabled and the switch is frozen \"on.\" Downstream, the persistent growth signal drives ATP-consuming processes — transcription, translation, and cell-cycle progression — to build new cell mass.\n\n### Experimental Evidence\n\n- **Rous sarcoma virus (1911):** the first oncogene (v-src) was discovered as a tumor-causing retroviral gene, later traced to a normal cellular proto-oncogene (c-src).\n- **DNA-transfection focus assays (Weinberg, Cooper, and others, early 1980s):** DNA from human bladder tumors transformed NIH 3T3 mouse fibroblasts, leading to identification of a point-mutated *HRAS* — proof that single altered cellular genes could drive transformation.\n- **Epidemiology:** RAS is mutated in roughly 30% of human cancers; MYC is deregulated in a majority of tumor types.\n\n### Technique\n\n- **Transformation (focus-formation) assays** in NIH 3T3 cells — detect oncogenic activity in DNA samples.\n- **Sanger/next-generation sequencing** — identify activating point mutations (e.g., KRAS G12V).\n- **FISH** — visualize gene amplification (e.g., HER2 in breast cancer).\n- **RT-PCR / cytogenetics (Philadelphia chromosome)** — detect BCR–ABL translocation.\n- **Targeted therapy monitoring** — e.g., imatinib for BCR–ABL, trastuzumab for HER2.",
+    "howItWorks": "1. A growth factor binds its receptor, activating a signaling cascade through RAS and downstream kinases.\n2. In a normal cell, RAS hydrolyzes GTP → GDP and switches off, ending the signal.\n3. An oncogenic point mutation (e.g., RAS codon 12, 13, or 61) blocks GTP hydrolysis.\n4. Mutant RAS stays GTP-bound and keeps signaling continuously — the accelerator is stuck on.\n5. Sustained signaling drives transcription (via pathways such as MAPK and PI3K) and proliferation.\n6. Alternatively, amplification of MYC or HER2 raises protein levels, or BCR–ABL fusion produces a kinase that never turns off, achieving the same unregulated growth output.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Proto-oncogene = normal growth-promoting gene; oncogene = its activated, deregulated form.\n- Oncogenes act in a **dominant gain-of-function** manner — one altered allele suffices.\n- Activation mechanisms: **point mutation, amplification, translocation, retroviral insertion**.\n- **RAS** is a GTPase; oncogenic mutations block GTP hydrolysis, freezing it \"on.\"\n- **MYC** is a transcription factor, commonly overexpressed via amplification/translocation.\n- **BCR–ABL** (from the Philadelphia chromosome) is a constitutively active tyrosine kinase.\n- RAS is mutated in ~30% of human cancers.",
+    "commonConfusions": "- **\"Oncogenes come only from viruses.\"** — Wrong. Most oncogenes are mutated versions of normal cellular genes; viral oncogenes are the exception.\n- **\"Proto-oncogenes are bad genes.\"** — Wrong. They are essential normal genes; only their *mutated or overexpressed* forms are dangerous.\n- **\"Oncogenes are recessive.\"** — Wrong. They are dominant gain-of-function mutations.\n- **\"RAS and MYC do the same thing.\"** — They act at different levels: RAS is a signaling switch, MYC is a transcription factor.\n- **\"One oncogene is enough to cause cancer.\"** — Wrong. Oncogenes cooperate with other mutations (tumor-suppressor loss) in multistep tumorigenesis.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a car's gas pedal. A proto-oncogene is the normal pedal — it makes the car go when you press it and stop when you let go. An oncogene is a gas pedal that is stuck to the floor: the car (cell) keeps going whether or not anyone wants it to. RAS is like a switch that normally snaps back to \"off,\" but the mutated version can't snap back, so the \"go\" signal never stops. (The car analogy leaves out that there are also brakes — tumor suppressors — and that a runaway car usually needs the brakes to fail too before it truly crashes.)",
+    "quickReview": "- Proto-oncogene → oncogene = gain of function, dominant.\n- Mechanisms: mutation, amplification, translocation, viral insertion.\n- RAS = GTPase stuck \"on\" (GTP hydrolysis blocked).\n- MYC = overexpressed transcription factor; HER2 = amplified RTK; BCR–ABL = fusion kinase.\n- Oncogenes are prime drug targets (imatinib, trastuzumab).",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"oncogene.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/oncogene",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/oncogene"
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"proto-oncogene.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/proto-oncogene",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/proto-oncogene"
+      },
+      {
+        "text": "National Human Genome Research Institute, \"Oncogene.\" https://www.genome.gov/genetics-glossary/Oncogene",
+        "url": "https://www.genome.gov/genetics-glossary/Oncogene"
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"ras gene.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ras-gene",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ras-gene"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"The Preventable Causes of Cancer.\" https://www.ncbi.nlm.nih.gov/books/NBK26897/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26897/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/08-cancer-biology/03-proto-oncogenes-and-oncogenes.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

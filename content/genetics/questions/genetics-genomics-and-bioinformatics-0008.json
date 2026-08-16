@@ -1,0 +1,40 @@
+{
+  "id": "genetics-genomics-and-bioinformatics-0008",
+  "subject": "genetics",
+  "lesson": "genomics-and-bioinformatics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application In a two color microarray experiment, tumor cDNA is labeled with red fluorescence and normal cDNA with green fluorescence, and both are hybridized to the same array. The spot for gene M fluoresces red. What does this spot indicate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Gene M is expressed more highly in the normal cells than in the tumor cells."
+    },
+    {
+      "id": "b",
+      "text": "Gene M is not expressed in either sample."
+    },
+    {
+      "id": "c",
+      "text": "Gene M has undergone a DNA sequence change in the tumor."
+    },
+    {
+      "id": "d",
+      "text": "Gene M is expressed more highly in the tumor cells than in the normal cells."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "In a two color array, the red dye marks the tumor cDNA and the green dye marks the normal cDNA, so a red spot means more gene M transcript from the tumor hybridized to that spot, indicating higher expression in the tumor. Option A reverses the color assignments. Fluorescence intensity reflects transcript abundance rather than DNA sequence, so the sequence change claim is unsupported, and the red signal means gene M transcripts were present, so the no expression claim is wrong.",
+  "difficulty": "unknown",
+  "tags": [
+    "two",
+    "color",
+    "microarray",
+    "readout"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-16973b1c51d4a9a2",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

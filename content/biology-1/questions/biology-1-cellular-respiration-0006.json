@@ -1,0 +1,38 @@
+{
+  "id": "biology-1-cellular-respiration-0006",
+  "subject": "biology-1",
+  "lesson": "cellular-respiration",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In **photosystem I**, the electron that is excited by light is ultimately passed to which molecule?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Oxygen, where it is released as a waste gas."
+    },
+    {
+      "id": "b",
+      "text": "NADP+, where it reduces the carrier to form NADPH."
+    },
+    {
+      "id": "c",
+      "text": "ATP synthase, where it powers the rotation of the enzyme."
+    },
+    {
+      "id": "d",
+      "text": "Water, where it is stored until the Calvin cycle needs it."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Light re-excites the electron, and photosystem I passes it to NADP+ to make NADPH, the reducing power the Calvin cycle needs. A misidentifies oxygen as the electron acceptor. C confuses electron flow with proton flow, since ATP synthase is spun by protons, not electrons. D is wrong because water is split at photosystem II, not used as an electron sink.",
+  "difficulty": "unknown",
+  "tags": [
+    "photosystem",
+    "nadph"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-247e595a482fe894",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

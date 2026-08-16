@@ -1,0 +1,252 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:health-assessment",
+    "slug": "health-assessment",
+    "title": "Health Assessment Foundations",
+    "aliases": [
+      {
+        "value": "health-assessment",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "health assessment foundations",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "physical assessment foundations",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "Health Assessment Foundations",
+        "kind": "source_subject_title",
+        "source_id": "expansion_qb"
+      },
+      {
+        "value": "14-health-assessment",
+        "kind": "source_subject_directory",
+        "source_id": "expansion_qb"
+      },
+      {
+        "value": "14",
+        "kind": "source_subject_number",
+        "source_id": "expansion_qb"
+      }
+    ],
+    "status": "final_question_bank_no_college_notes",
+    "category": "healthcare-foundations"
+  },
+  "units": [
+    {
+      "id": "unit:health-assessment:core-topics",
+      "slug": "core-topics",
+      "title": "Core Topics",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "core-topics",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:health-assessment:core-topics:subjective-vs-objective-data",
+          "slug": "subjective-vs-objective-data",
+          "title": "Subjective vs Objective Data",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/health-assessment/topics/core-topics/subjective-vs-objective-data.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:health-assessment:core-topics:general-survey-and-basic-observation",
+          "slug": "general-survey-and-basic-observation",
+          "title": "General Survey and Basic Observation",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/health-assessment/topics/core-topics/general-survey-and-basic-observation.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:health-assessment:core-topics:body-temperature",
+          "slug": "body-temperature",
+          "title": "Body Temperature",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/health-assessment/topics/core-topics/body-temperature.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:health-assessment:core-topics:pulse-and-heart-rate",
+          "slug": "pulse-and-heart-rate",
+          "title": "Pulse and Heart Rate",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/health-assessment/topics/core-topics/pulse-and-heart-rate.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:health-assessment:core-topics:respiratory-rate-and-breathing",
+          "slug": "respiratory-rate-and-breathing",
+          "title": "Respiratory Rate and Breathing",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/health-assessment/topics/core-topics/respiratory-rate-and-breathing.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:health-assessment:core-topics:blood-pressure",
+          "slug": "blood-pressure",
+          "title": "Blood Pressure",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/health-assessment/topics/core-topics/blood-pressure.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:health-assessment:core-topics:oxygen-saturation",
+          "slug": "oxygen-saturation",
+          "title": "Oxygen Saturation",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/health-assessment/topics/core-topics/oxygen-saturation.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:health-assessment:core-topics:pain-assessment-foundations",
+          "slug": "pain-assessment-foundations",
+          "title": "Pain Assessment Foundations",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/health-assessment/topics/core-topics/pain-assessment-foundations.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:health-assessment:core-topics:basic-head-to-toe-assessment-concepts",
+          "slug": "basic-head-to-toe-assessment-concepts",
+          "title": "Basic Head-to-Toe Assessment Concepts",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/health-assessment/topics/core-topics/basic-head-to-toe-assessment-concepts.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:health-assessment:core-topics:recognizing-and-describing-abnormal-findings",
+          "slug": "recognizing-and-describing-abnormal-findings",
+          "title": "Recognizing and Describing Abnormal Findings",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/health-assessment/topics/core-topics/recognizing-and-describing-abnormal-findings.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": false,
+            "eli10": true,
+            "highYield": false,
+            "quickReview": false,
+            "workedExamples": false,
+            "references": true,
+            "exactQuestions": 12
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 1,
+    "topicCount": 10,
+    "teachingTopicCount": 0,
+    "eli10TopicCount": 10,
+    "highYieldTopicCount": 0,
+    "referencedTopicCount": 10,
+    "exactOrMappedQuestionCount": 120,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 120,
+    "citationReviewRequiredCount": 0
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

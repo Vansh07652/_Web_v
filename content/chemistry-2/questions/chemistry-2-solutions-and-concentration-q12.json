@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-solutions-and-concentration-q12",
+  "subject": "chemistry-2",
+  "lesson": "solutions-and-concentration",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A textbook reports a glucose concentration of 90 mg/dL and asks students to express it in mmol/L, given that the molar mass of glucose is 180 g/mol. Which sequence of conversions and result is correct?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Multiply 90 by 10 to convert dL to L, then divide by 180 to get 5 mmol/L"
+    },
+    {
+      "id": "b",
+      "text": "Multiply 90 by 180 and divide by 1000 to get 16.2 mmol/L"
+    },
+    {
+      "id": "c",
+      "text": "Divide 90 by 10 and then by 180 to get 0.05 mmol/L, since 1 L equals 10 dL"
+    },
+    {
+      "id": "d",
+      "text": "Divide 90 by 180 to get 0.5 mmol/L, since milligrams convert directly to millimoles"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "One liter contains 10 deciliters, so 90 mg/dL equals 900 mg/L, and dividing by the molar mass expressed as 180 mg/mmol gives 5 mmol/L. Choice C inverts the deciliter conversion by dividing when it should multiply, which is the most frequent error here; choice D skips the volume conversion entirely. Mass-per-volume and amount-per-volume units describe the same solution, and 180 g/mol is numerically identical to 180 mg/mmol, which is what makes the second step a direct division.\n\nELI-10: Two independent conversions are needed, so handle them one at a time. Fix the volume first: a deciliter is one-tenth of a liter, so a liter holds ten times as much and 90 mg/dL becomes 900 mg/L. Then fix the amount unit using molar mass, which says 180 mg of glucose is one millimole, giving 900 / 180 = 5 mmol/L. Decide the direction of the volume step by asking whether a liter should contain more or less than a deciliter; the answer is more, so multiply rather than divide.",
+  "difficulty": "hard",
+  "tags": [
+    "mg/dL to mmol/L",
+    "molar mass conversion",
+    "unit analysis"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-278",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

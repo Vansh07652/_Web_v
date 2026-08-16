@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-1:atomic-structure:atomic-theory-and-structure",
+  "slug": "atomic-theory-and-structure",
+  "title": "Atomic Theory and Structure",
+  "subject": {
+    "id": "subject:general-chemistry-1",
+    "slug": "general-chemistry-1",
+    "title": "General Chemistry I"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-1:atomic-structure",
+    "slug": "atomic-structure",
+    "title": "Atomic Structure",
+    "order": 2
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "Atoms consist of a tiny, dense, positively charged nucleus (protons and neutrons) surrounded by a cloud of electrons. The atomic number (Z) counts protons and defines the element; the mass number (A) is protons plus neutrons. Isotopes are atoms of the same element with different numbers of neutrons. Average atomic mass is a weighted average of isotope masses based on natural abundance.",
+    "whyItMatters": "Isotopes matter in medicine: radioactive iodine-131 is used to treat thyroid conditions because the thyroid gland concentrates iodine. Carbon-14 dating uses the C-14/C-12 ratio to estimate the age of organic artifacts. In mass spectrometry, a molecule's isotope pattern acts as a fingerprint for identification—a core tool in toxicology and drug testing.",
+    "learningObjectives": "1. Describe how the experiments of Thomson, Millikan, and Rutherford revealed atomic structure.\n2. List the three subatomic particles with their charges, relative masses, and locations.\n3. Use atomic number and mass number to determine the numbers of protons, neutrons, and electrons.\n4. Calculate average atomic mass from isotope masses and natural abundances.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Cathode ray | Stream of electrons | Led to the electron's discovery |\n| Plum pudding model | Electrons in a positive sphere | Thomson's early (incorrect) model |\n| Gold-foil experiment | Alpha-particle scattering | Revealed the nucleus |\n| Nucleus | Dense positive core | Holds protons and neutrons |\n| Proton | +1 particle in the nucleus | Defines atomic number |\n| Neutron | Neutral nuclear particle | Adds mass; sets isotopes |\n| Electron | −1 particle outside the nucleus | Governs chemistry and bonding |\n| Atomic number (Z) | Number of protons | Element identity |\n| Mass number (A) | Protons + neutrons | Identifies the isotope |\n| Isotope | Same Z, different A | Explains mass variation |\n| Ion | Atom with a net charge | Forms via electron gain/loss |\n| amu | Atomic mass unit | Mass scale for atoms |\n| Average atomic mass | Weighted isotope average | Periodic-table value |",
+    "collegeNotes": "### 1. Discovery of Atomic Structure\n- **John Dalton (1803):** proposed atoms as indivisible spheres, reviving the atomic theory.\n- **J.J. Thomson (1897):** using a cathode-ray tube, discovered the electron—a negatively charged particle far lighter than any atom. He proposed the \"plum pudding\" model: negative electrons embedded in a positive sphere.\n- **Robert Millikan (1909):** his oil-drop experiment measured the electron's charge and mass precisely (charge = −1.602 × 10⁻¹⁹ C).\n- **Ernest Rutherford (1911):** in the gold-foil experiment, most alpha particles passed straight through a thin gold foil, but a few bounced back—revealing a tiny, dense, positively charged nucleus. He proposed the nuclear model.\n\n### 2. Subatomic Particles\n| Particle | Symbol | Charge | Approx. mass (amu) | Location |\n|---|---|---|---|---|\n| Proton | p⁺ | +1 | 1.0073 | nucleus |\n| Neutron | n⁰ | 0 | 1.0087 | nucleus |\n| Electron | e⁻ | −1 | 0.00055 | outside nucleus |\n\nProtons and neutrons make up essentially all of an atom's mass; electrons are about 1/1836 the mass of a proton but occupy the atom's volume.\n\n### 3. Atomic Number, Mass Number, and Isotopes\n- **Atomic number (Z):** the number of protons; it defines the element. In a neutral atom, protons = electrons.\n- **Mass number (A):** protons + neutrons.\n- **Isotopes:** atoms with the same Z but different A (different neutron counts). Notation: \\(^{A}_{Z}\\mathrm{X}\\) or X-A (e.g., carbon-14, \\(^{14}_{6}\\mathrm{C}\\)).\n- **Ions:** atoms that have gained or lost electrons; charge = protons − electrons.",
+    "howItWorks": "1. Thomson's cathode-ray tube showed a negative particle (the electron) lighter than any atom.\n2. Millikan's oil-drop experiment measured the electron's charge and mass.\n3. Rutherford's gold-foil experiment showed most of the atom is empty and its mass sits in a tiny positive nucleus.\n4. Chadwick (1932) discovered the neutron, explaining the nucleus's extra mass.\n5. Count particles: protons = Z; neutrons = A − Z; electrons = protons (neutral) or adjusted for ionic charge.\n6. Weight isotope masses by natural abundance to obtain average atomic mass.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Atomic number = protons = element identity; changing protons changes the element.\n- **High yield:** Mass number A = protons + neutrons; isotopes differ only in neutron count.\n- **High yield:** Average atomic mass is a weighted average, not a simple average.\n- **High yield:** Neutral atom: electrons = protons; ion: electrons = protons − charge.\n- Rutherford: tiny dense positive nucleus; Thomson: electron; Millikan: electron charge/mass.\n- 1 amu ≈ the mass of one proton or one neutron.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Atomic number | Mass number | Z = protons; A = protons + neutrons |\n| Isotope | Ion | Isotope = neutron count varies; ion = electron count varies |\n| Atomic mass | Mass number | Atomic mass = weighted average (amu); mass number = integer count |\n| Nucleus | Atom | Nucleus is the tiny core; the atom includes the electron cloud |",
+    "memoryAids": "\"**Z**ero in on **Z**\" — the atomic number Z is the proton count, the element's ZIP code that pinpoints its identity. \"**A** = **A**ll nucleons\" — the mass number A adds up all the heavy particles (protons + neutrons).",
+    "eli10": "Picture a football stadium. The **nucleus** is a marble sitting at the 50-yard line; the **electrons** are tiny gnats buzzing throughout the entire stadium. Most of the atom is empty space. The marble (nucleus) is heavy and positively charged; the electrons are light and negatively charged, attracted to the positive nucleus but never crashing into it.\n\n**Where it stops being exact:** electrons do not orbit in neat circles like tiny planets. Modern quantum mechanics describes them as clouds of probability (covered in later topics), and the \"empty space\" is really filled by the electron cloud and the electric field, not true nothingness.\n\n### Simple Example\nCarbon-12 has 6 protons, 6 neutrons, and 6 electrons. Carbon-14 (used in radiocarbon dating) also has 6 protons but 8 neutrons—the same element, a different isotope.",
+    "quickReview": "### Topic Recap\n\nExperiments by Thomson, Millikan, and Rutherford revealed the electron, its charge/mass, and the dense positive nucleus. Atoms are defined by atomic number (protons) and mass number (protons + neutrons). Isotopes vary in neutrons, and average atomic mass is the abundance-weighted average of isotope masses.\n\n### Knowledge Check\n\n1. An atom has 17 protons and 20 neutrons. What are Z, A, and the number of electrons (neutral)?\n2. Which scientist's experiment revealed the nucleus?\n3. Boron has two isotopes: B-10 (10.013 amu, 19.9%) and B-11 (11.009 amu, 80.1%). What is the average atomic mass?\n4. How many neutrons are in uranium-235 (Z = 92)?\n5. What distinguishes isotopes of the same element?\n\n### Answers and Rationales\n\n1. Z = 17, A = 37, electrons = 17 (neutral). This is chlorine-37.\n2. Rutherford — the gold-foil experiment showed a dense positive nucleus.\n3. 10.81 amu — (0.199 × 10.013) + (0.801 × 11.009) = 10.81.\n4. 143 — neutrons = A − Z = 235 − 92 = 143.\n5. Different numbers of neutrons (same number of protons/atomic number).",
+    "workedExamples": "### Average Atomic Mass\n\\[\n\\text{Average atomic mass} = \\sum (\\text{fractional abundance} \\times \\text{isotope mass})\n\\]\n\n**Example 1.** Chlorine has two naturally occurring isotopes: Cl-35 (34.969 amu, 75.77% abundance) and Cl-37 (36.966 amu, 24.23% abundance). Find the average atomic mass.\n\\[\n(0.7577 \\times 34.969\\ \\mathrm{amu}) + (0.2423 \\times 36.966\\ \\mathrm{amu}) = 26.50 + 8.956 = 35.45\\ \\mathrm{amu}\n\\]\nThis matches the periodic-table value for chlorine.\n\n**Example 2.** An element has two isotopes: X-10 (10.013 amu, 19.9%) and X-11 (11.009 amu, 80.1%). Find the average atomic mass.\n\\[\n(0.199 \\times 10.013) + (0.801 \\times 11.009) = 1.993 + 8.818 = 10.81\\ \\mathrm{amu}\n\\]\nThe element is boron.\n\n**Common errors:** using percentages without converting to decimals (divide by 100); omitting one of the isotopes; and confusing the mass number (an integer count) with atomic mass (a weighted average in amu).",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "atomic-theory-and-structure",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "02-atomic-theory-and-structure",
+      "kind": "source_file_stem",
+      "source_id": "need-review-general-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-general-chemistry-i",
+    "sourceFile": "general-chemistry-i-study-notes/docs/general-chemistry-i/02-atomic-theory-and-structure.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

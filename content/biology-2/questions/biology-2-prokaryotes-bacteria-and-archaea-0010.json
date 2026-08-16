@@ -1,0 +1,38 @@
+{
+  "id": "biology-2-prokaryotes-bacteria-and-archaea-0010",
+  "subject": "biology-2",
+  "lesson": "prokaryotes-bacteria-and-archaea",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Yeast cells in a sealed flask with no **oxygen** convert glucose into ethanol and carbon dioxide, while human muscle cells short on oxygen make lactate. What is the common mechanism behind both processes?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Aerobic respiration using the electron transport chain."
+    },
+    {
+      "id": "b",
+      "text": "**Fermentation**, which regenerates NAD+ so glycolysis can keep running without oxygen."
+    },
+    {
+      "id": "c",
+      "text": "The Krebs cycle running backward to rebuild glucose."
+    },
+    {
+      "id": "d",
+      "text": "Photosynthesis producing ethanol as a waste product."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Fermentation is the anaerobic pathway that recycles NADH back to NAD+ so glycolysis can continue producing a little ATP when oxygen is absent, with different organisms making different end products. A requires oxygen, which the stem rules out. C and D misname processes that produce neither ethanol nor lactate.",
+  "difficulty": "unknown",
+  "tags": [
+    "fermentation",
+    "mechanism"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-8607f12dba8274af",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

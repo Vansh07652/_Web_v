@@ -1,0 +1,40 @@
+{
+  "id": "physics-1-oscillations-and-simple-harmonic-motion-0002",
+  "subject": "physics-1",
+  "lesson": "oscillations-and-simple-harmonic-motion",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For restoring force proportional to displacement, use $N = f t$ in a oscillation counting model. The first quantity is 1.90 Hz and the second is 5.00 s. What is the number of cycles?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$4.75$ dimensionless"
+    },
+    {
+      "id": "b",
+      "text": "$19.00$ dimensionless"
+    },
+    {
+      "id": "c",
+      "text": "$9.50$ dimensionless"
+    },
+    {
+      "id": "d",
+      "text": "$14.50$ dimensionless"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Using $N = f t$ gives 1.90 Hz times 5.00 s = $9.50$ dimensionless. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to dimensionless, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "restoring",
+    "force",
+    "proportional",
+    "displacement"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-11fa68e46a87e419",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

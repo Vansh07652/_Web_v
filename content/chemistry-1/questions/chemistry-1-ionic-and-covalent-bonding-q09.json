@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-ionic-and-covalent-bonding-q09",
+  "subject": "chemistry-1",
+  "lesson": "ionic-and-covalent-bonding",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Aluminum forms Al3+ ions and oxygen forms O2- ions. Which formula for the compound they produce, together with its reasoning, is correct?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Al3O2, because each element's subscript is set equal to the size of that element's own charge."
+    },
+    {
+      "id": "b",
+      "text": "AlO, because every ionic compound pairs one cation with one anion in a 1:1 ratio."
+    },
+    {
+      "id": "c",
+      "text": "Al2O3, because the total positive charge (2 x 3+ = 6+) exactly balances the total negative charge (3 x 2- = 6-)."
+    },
+    {
+      "id": "d",
+      "text": "Al2O3, because each aluminum atom shares three pairs of electrons with each oxygen atom."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "An ionic formula gives the lowest whole-number ratio of ions that makes the compound electrically neutral. Two Al3+ contribute 2 x 3 = 6 units of positive charge and three O2- contribute 6 units of negative charge, so the formula is Al2O3. Option B assumes a universal 1:1 ratio, which holds only when the ion charges are equal in magnitude (as in NaCl). Option A copies each charge onto its own element instead of crossing it over, and option D gives the right formula with covalent reasoning, even though a metal oxide of this type is ionic.\n\nELI-10: Neutrality is the rule that sets every ionic formula. Each Al3+ adds 3 positive units and each O2- adds 2 negative units, so you need the smallest counts that make the totals match: two aluminums give 6 positive and three oxides give 6 negative, hence Al2O3. The crossover shortcut works because it lands on that same balance, but only if you cross the charges over, writing oxygen's 2 as aluminum's subscript and aluminum's 3 as oxygen's subscript, then reducing if possible.",
+  "difficulty": "medium",
+  "tags": [
+    "charge balance",
+    "ionic formula writing",
+    "crossover rule"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-274",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

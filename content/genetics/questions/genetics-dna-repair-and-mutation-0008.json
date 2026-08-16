@@ -1,0 +1,40 @@
+{
+  "id": "genetics-dna-repair-and-mutation-0008",
+  "subject": "genetics",
+  "lesson": "dna-repair-and-mutation",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation A DNA polymerase copies DNA with an error rate of one misincorporated base per 10^5 bases when its proofreading function is inactive. Proofreading reduces the error rate 1000-fold. What is the error rate when proofreading is active?",
+  "options": [
+    {
+      "id": "a",
+      "text": "One misincorporated base per 10^2 bases"
+    },
+    {
+      "id": "b",
+      "text": "One misincorporated base per 10^5 bases"
+    },
+    {
+      "id": "c",
+      "text": "One misincorporated base per 10^8 bases"
+    },
+    {
+      "id": "d",
+      "text": "One misincorporated base per 10^15 bases"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "A 1000-fold reduction means dividing one error per 10^5 bases by 10^3, giving 1/(10^5 x 10^3) = 1/10^8, or one misincorporated base per 10^8 bases. A comes from subtracting the exponents, 5 minus 3 equals 2, B keeps the uncorrected rate, and D comes from multiplying the exponents, 5 x 3 equals 15, instead of adding them.",
+  "difficulty": "unknown",
+  "tags": [
+    "polymerase",
+    "error",
+    "rate",
+    "calculation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ca8f349f5901cf65",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

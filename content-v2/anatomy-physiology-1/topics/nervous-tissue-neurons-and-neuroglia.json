@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-1:nervous-system-and-special-senses:nervous-tissue-neurons-and-neuroglia",
+  "slug": "nervous-tissue-neurons-and-neuroglia",
+  "title": "Nervous Tissue: Neurons and Neuroglia",
+  "subject": {
+    "id": "subject:anatomy-physiology-1",
+    "slug": "anatomy-physiology-1",
+    "title": "Anatomy & Physiology I"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-1:nervous-system-and-special-senses",
+    "slug": "nervous-system-and-special-senses",
+    "title": "Nervous System and Special Senses",
+    "order": 8
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "This section revisits nervous tissue with more depth: **neuron structure**, the **types of neurons** (sensory, motor, interneurons), and the **neuroglia** of the CNS and PNS. It builds on the histology overview and prepares for the action potential.",
+    "whyItMatters": "Neurons are the functional units of the nervous system, and glia are essential support. Knowing neuron types and glial roles explains how signals travel, why myelin matters, and the basis of diseases like multiple sclerosis and nerve injury.",
+    "learningObjectives": "- Describe the parts of a **neuron** and their functions.\n- Classify neurons as **sensory, motor, or interneurons**.\n- Identify the major **neuroglia** and their roles.\n- Explain the importance of **myelin**.",
+    "keyTerms": "- **Neuron** — the signaling cell of the nervous system.\n- **Dendrite / cell body / axon** — receive / integrate / transmit regions of a neuron.\n- **Sensory (afferent) neuron** — carries signals toward the CNS.\n- **Motor (efferent) neuron** — carries signals away from the CNS.\n- **Interneuron (association neuron)** — connects neurons within the CNS.\n- **Myelin sheath** — insulating wrap that speeds conduction.\n- **Neuroglia** — supporting cells of nervous tissue.",
+    "collegeNotes": "**Neuron structure (a closer look).** As introduced in histology, a neuron has **dendrites** (receive incoming signals), a **cell body/soma** (contains the nucleus; integrates), and an **axon** (transmits the outgoing signal). The axon ends in **axon terminals** that release neurotransmitters to the next cell. Neurons are **excitable** (they generate electrical signals) and **long-lived** but mostly **do not divide**, so lost CNS neurons generally aren't replaced.\n\n**Three functional types of neurons:**\n\n- **Sensory (afferent) neurons** carry information from receptors **toward** the CNS (for example, signaling touch or temperature).\n- **Motor (efferent) neurons** carry commands from the CNS **out** to muscles and glands.\n- **Interneurons (association neurons)** lie **entirely within the CNS** and connect sensory and motor neurons, doing most of the integrating and decision-making. They are by far the most numerous.\n\nA simple reflex illustrates all three: a sensory neuron detects a hot surface, interneurons in the spinal cord process it, and a motor neuron triggers withdrawal.\n\n**Neuroglia — essential support.** Glial cells outnumber neurons and are vital. Recall the major types:\n\n- **CNS glia:** **astrocytes** (support neurons, regulate the chemical environment, help form the **blood–brain barrier**), **oligodendrocytes** (produce **myelin** in the CNS), **microglia** (immune defense), and **ependymal cells** (line CNS cavities, help make and circulate cerebrospinal fluid).\n- **PNS glia:** **Schwann cells** (produce **myelin** in the PNS) and **satellite cells** (support neuron cell bodies in ganglia).\n\n**Myelin and conduction speed.** **Myelin** is a fatty, insulating sheath wrapped around many axons in segments, with small gaps between segments (nodes). Myelin dramatically **speeds signal conduction** because the impulse effectively \"jumps\" from gap to gap rather than traveling smoothly along the whole membrane (this saltatory conduction is detailed in the next section). Bundles of myelinated axons form the **white matter** of the CNS, while neuron cell bodies and unmyelinated fibers form the **gray matter**. Loss of myelin — as in **multiple sclerosis** (CNS) or certain neuropathies (PNS) — slows or blocks signals, causing weakness, numbness, and coordination problems.",
+    "howItWorks": "Signal handling by neuron type:\n\n```\nSensory neuron (receptor → CNS)\n   → interneurons integrate within the CNS\n   → motor neuron (CNS → muscle/gland)\nGlia support throughout; myelin (oligodendrocytes/Schwann cells) speeds conduction\n```",
+    "comparisons": "| Neuron type | Direction | Location |\n| --- | --- | --- |\n| Sensory (afferent) | Toward CNS | Mostly PNS |\n| Motor (efferent) | Away from CNS | CNS → PNS |\n| Interneuron | Within CNS | CNS only |\n\n| Glia | Location | Role |\n| --- | --- | --- |\n| Astrocyte | CNS | Support, blood–brain barrier |\n| Oligodendrocyte | CNS | Myelin |\n| Microglia | CNS | Immune defense |\n| Ependymal | CNS | Line cavities, CSF |\n| Schwann cell | PNS | Myelin |\n| Satellite cell | PNS | Support cell bodies |",
+    "highYield": "**Multiple sclerosis** (CNS demyelination) and peripheral **neuropathies** cause characteristic sensory and motor deficits explained by myelin loss. The **blood–brain barrier** (astrocytes) protects the brain but blocks many drugs, a key factor in treating CNS infections and tumors. Because CNS neurons don't regenerate, spinal cord and brain injuries tend to be permanent, while some PNS axons can regrow slowly with Schwann cell support — a difference that shapes prognosis.",
+    "commonConfusions": "- **Sensory vs motor vs interneuron.** In (afferent), out (efferent), and within-CNS (interneuron).\n- **Gray vs white matter.** Gray = cell bodies/unmyelinated; white = myelinated axons (white from myelin's fat).\n- **Oligodendrocyte vs Schwann cell.** Same job (myelin) — CNS vs PNS.\n- **Neurons rarely divide** — a reason CNS damage is often permanent.",
+    "memoryAids": "- **\"Sensory = Senses in; Motor = Moves out; Inter = In-between (CNS).\"**\n- **White matter = \"Wrapped (myelin) tracts.\"**\n- **Astrocyte = \"star that guards the brain's border.\"**",
+    "eli10": "### Simple idea\nNeurons are the body's messenger cells, and different kinds carry messages in, out, or between — while helper cells (glia) support them, including wrapping wires in speed-boosting insulation.\n\n### Analogy\nPicture a mail system. **Sensory neurons** are like reporters sending news *to* headquarters (\"hot stove!\"). **Interneurons** are the staff *inside* headquarters who read the reports and decide what to do. **Motor neurons** are the messengers carrying orders *out* to the workers (muscles). Around all these messengers is a support crew (**glia**) that feeds them, guards them, and wraps their long \"arms\" in insulating tape (**myelin**), which makes messages zip along much faster — like the plastic coating on a wire.\n\n### What is actually happening\nThose message directions are real: **in** (sensory/afferent), **within the brain and cord** (interneurons), and **out** (motor/efferent). The insulating tape (**myelin**) is made by **oligodendrocytes** in the brain and **Schwann cells** in the body's nerves, and it's so important that when it's damaged — like in **multiple sclerosis** — the body's messages slow down or get blocked, causing weakness or numbness. Star-shaped **astrocytes** even help build a protective wall (the **blood–brain barrier**) around the brain.\n\n### Where the analogy stops\nMail workers can be replaced, but most brain and spinal-cord neurons can't be — so the \"insulation crew\" and protective walls matter even more, because damage there often can't be undone.",
+    "quickReview": "- A neuron has **dendrites** (receive), a **cell body** (integrate), and an **axon** (transmit); neurons are excitable and rarely divide.\n- Three functional types: **sensory** (in), **motor** (out), **interneurons** (within CNS, most numerous).\n- **Neuroglia** support neurons: astrocytes (barrier), oligodendrocytes/Schwann cells (myelin), microglia (immune), ependymal (CSF), satellite (PNS support).\n- **Myelin** speeds conduction; its loss (e.g., MS) causes neurological deficits. White matter = myelinated; gray matter = cell bodies.",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 12.2: Nervous Tissue. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — Multiple Sclerosis. https://medlineplus.gov/multiplesclerosis.html",
+        "url": "https://medlineplus.gov/multiplesclerosis.html"
+      }
+    ]
+  },
+  "aliases": [
+    {
+      "value": "nervous-tissue-neurons-and-neuroglia",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "ap1-u08-s02",
+      "kind": "source_topic_id",
+      "source_id": "prenursing_notes"
+    },
+    {
+      "value": "02-nervous-tissue-neurons-and-neuroglia",
+      "kind": "source_file_stem",
+      "source_id": "prenursing_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:prenursing_notes:c18979aaa8089e81",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:c18979aaa8089e81",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/02-nervous-tissue-neurons-and-neuroglia.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:prenursing_notes:c18979aaa8089e81",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:c18979aaa8089e81",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/02-nervous-tissue-neurons-and-neuroglia.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:prenursing_notes:c18979aaa8089e81",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:c18979aaa8089e81",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/02-nervous-tissue-neurons-and-neuroglia.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:prenursing_notes:c18979aaa8089e81",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:c18979aaa8089e81",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/02-nervous-tissue-neurons-and-neuroglia.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "pre-nursing-study-hub-content",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/02-nervous-tissue-neurons-and-neuroglia.md",
+    "sourceStatus": "final",
+    "factChecked": true,
+    "coverageChecked": true,
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "\n# Nervous Tissue: Neurons and Neuroglia\n\n## What This Topic Is\n\nThis section revisits nervous tissue with more depth: **neuron structure**, the **types of neurons** (sensory, motor, interneurons), and the **neuroglia** of the CNS and PNS. It builds on the histology overview and prepares for the action potential.\n\n## Why It Matters\n\nNeurons are the functional units of the nervous system, and glia are essential support. Knowing neuron types and glial roles explains how signals travel, why myelin matters, and the basis of diseases like multiple sclerosis and nerve injury.\n\n## Learning Objectives\n\n- Describe the parts of a **neuron** and their functions.\n- Classify neurons as **sensory, motor, or interneurons**.\n- Identify the major **neuroglia** and their roles.\n- Explain the importance of **myelin**.\n\n## Key Terms\n\n- **Neuron** — the signaling cell of the nervous system.\n- **Dendrite / cell body / axon** — receive / integrate / transmit regions of a neuron.\n- **Sensory (afferent) neuron** — carries signals toward the CNS.\n- **Motor (efferent) neuron** — carries signals away from the CNS.\n- **Interneuron (association neuron)** — connects neurons within the CNS.\n- **Myelin sheath** — insulating wrap that speeds conduction.\n- **Neuroglia** — supporting cells of nervous tissue.\n\n## Core Explanation\n\n**Neuron structure (a closer look).** As introduced in histology, a neuron has **dendrites** (receive incoming signals), a **cell body/soma** (contains the nucleus; integrates), and an **axon** (transmits the outgoing signal). The axon ends in **axon terminals** that release neurotransmitters to the next cell. Neurons are **excitable** (they generate electrical signals) and **long-lived** but mostly **do not divide**, so lost CNS neurons generally aren't replaced.\n\n**Three functional types of neurons:**\n\n- **Sensory (afferent) neurons** carry information from receptors **toward** the CNS (for example, signaling touch or temperature).\n- **Motor (efferent) neurons** carry commands from the CNS **out** to muscles and glands.\n- **Interneurons (association neurons)** lie **entirely within the CNS** and connect sensory and motor neurons, doing most of the integrating and decision-making. They are by far the most numerous.\n\nA simple reflex illustrates all three: a sensory neuron detects a hot surface, interneurons in the spinal cord process it, and a motor neuron triggers withdrawal.\n\n**Neuroglia — essential support.** Glial cells outnumber neurons and are vital. Recall the major types:\n\n- **CNS glia:** **astrocytes** (support neurons, regulate the chemical environment, help form the **blood–brain barrier**), **oligodendrocytes** (produce **myelin** in the CNS), **microglia** (immune defense), and **ependymal cells** (line CNS cavities, help make and circulate cerebrospinal fluid).\n- **PNS glia:** **Schwann cells** (produce **myelin** in the PNS) and **satellite cells** (support neuron cell bodies in ganglia).\n\n**Myelin and conduction speed.** **Myelin** is a fatty, insulating sheath wrapped around many axons in segments, with small gaps between segments (nodes). Myelin dramatically **speeds signal conduction** because the impulse effectively \"jumps\" from gap to gap rather than traveling smoothly along the whole membrane (this saltatory conduction is detailed in the next section). Bundles of myelinated axons form the **white matter** of the CNS, while neuron cell bodies and unmyelinated fibers form the **gray matter**. Loss of myelin — as in **multiple sclerosis** (CNS) or certain neuropathies (PNS) — slows or blocks signals, causing weakness, numbness, and coordination problems.\n\n## How It Works\n\nSignal handling by neuron type:\n\n```\nSensory neuron (receptor → CNS)\n   → interneurons integrate within the CNS\n   → motor neuron (CNS → muscle/gland)\nGlia support throughout; myelin (oligodendrocytes/Schwann cells) speeds conduction\n```\n\n## Important Relationships and Comparisons\n\n| Neuron type | Direction | Location |\n| --- | --- | --- |\n| Sensory (afferent) | Toward CNS | Mostly PNS |\n| Motor (efferent) | Away from CNS | CNS → PNS |\n| Interneuron | Within CNS | CNS only |\n\n| Glia | Location | Role |\n| --- | --- | --- |\n| Astrocyte | CNS | Support, blood–brain barrier |\n| Oligodendrocyte | CNS | Myelin |\n| Microglia | CNS | Immune defense |\n| Ependymal | CNS | Line cavities, CSF |\n| Schwann cell | PNS | Myelin |\n| Satellite cell | PNS | Support cell bodies |\n\n## High-Yield Pre-Nursing Connections\n\n**Multiple sclerosis** (CNS demyelination) and peripheral **neuropathies** cause characteristic sensory and motor deficits explained by myelin loss. The **blood–brain barrier** (astrocytes) protects the brain but blocks many drugs, a key factor in treating CNS infections and tumors. Because CNS neurons don't regenerate, spinal cord and brain injuries tend to be permanent, while some PNS axons can regrow slowly with Schwann cell support — a difference that shapes prognosis.\n\n## Common Confusions\n\n- **Sensory vs motor vs interneuron.** In (afferent), out (efferent), and within-CNS (interneuron).\n- **Gray vs white matter.** Gray = cell bodies/unmyelinated; white = myelinated axons (white from myelin's fat).\n- **Oligodendrocyte vs Schwann cell.** Same job (myelin) — CNS vs PNS.\n- **Neurons rarely divide** — a reason CNS damage is often permanent.\n\n## Memory Aids\n\n- **\"Sensory = Senses in; Motor = Moves out; Inter = In-between (CNS).\"**\n- **White matter = \"Wrapped (myelin) tracts.\"**\n- **Astrocyte = \"star that guards the brain's border.\"**\n\n## ELI-10 Explains\n\n### Simple idea\nNeurons are the body's messenger cells, and different kinds carry messages in, out, or between — while helper cells (glia) support them, including wrapping wires in speed-boosting insulation.\n\n### Analogy\nPicture a mail system. **Sensory neurons** are like reporters sending news *to* headquarters (\"hot stove!\"). **Interneurons** are the staff *inside* headquarters who read the reports and decide what to do. **Motor neurons** are the messengers carrying orders *out* to the workers (muscles). Around all these messengers is a support crew (**glia**) that feeds them, guards them, and wraps their long \"arms\" in insulating tape (**myelin**), which makes messages zip along much faster — like the plastic coating on a wire.\n\n### What is actually happening\nThose message directions are real: **in** (sensory/afferent), **within the brain and cord** (interneurons), and **out** (motor/efferent). The insulating tape (**myelin**) is made by **oligodendrocytes** in the brain and **Schwann cells** in the body's nerves, and it's so important that when it's damaged — like in **multiple sclerosis** — the body's messages slow down or get blocked, causing weakness or numbness. Star-shaped **astrocytes** even help build a protective wall (the **blood–brain barrier**) around the brain.\n\n### Where the analogy stops\nMail workers can be replaced, but most brain and spinal-cord neurons can't be — so the \"insulation crew\" and protective walls matter even more, because damage there often can't be undone.\n\n## Quick Recap\n\n- A neuron has **dendrites** (receive), a **cell body** (integrate), and an **axon** (transmit); neurons are excitable and rarely divide.\n- Three functional types: **sensory** (in), **motor** (out), **interneurons** (within CNS, most numerous).\n- **Neuroglia** support neurons: astrocytes (barrier), oligodendrocytes/Schwann cells (myelin), microglia (immune), ependymal (CSF), satellite (PNS support).\n- **Myelin** speeds conduction; its loss (e.g., MS) causes neurological deficits. White matter = myelinated; gray matter = cell bodies.\n\n## Sources\n\n- OpenStax, *Anatomy and Physiology 2e*, Chapter 12.2: Nervous Tissue. https://openstax.org/details/books/anatomy-and-physiology-2e\n- U.S. National Library of Medicine, MedlinePlus — Multiple Sclerosis. https://medlineplus.gov/multiplesclerosis.html\n"
+}

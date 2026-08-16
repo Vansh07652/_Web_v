@@ -1,0 +1,40 @@
+{
+  "id": "genetics-genomics-and-bioinformatics-0006",
+  "subject": "genetics",
+  "lesson": "genomics-and-bioinformatics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A team wants to identify every genomic region where a specific transcription factor binds in a human cell line. Which approach is the most direct way to answer this question?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Whole genome sequencing of the cell line."
+    },
+    {
+      "id": "b",
+      "text": "RNA-seq of the cell line."
+    },
+    {
+      "id": "c",
+      "text": "ChIP-seq using an antibody against the transcription factor."
+    },
+    {
+      "id": "d",
+      "text": "Two color microarray comparing the cell line with a reference sample."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "ChIP-seq crosslinks the transcription factor to the DNA it occupies, pulls the factor down with its antibody, and sequences the co purified DNA, so the resulting peaks directly mark the factor's binding sites across the genome. RNA-seq and microarrays measure RNA abundance, so they show the factor's downstream effects rather than its binding. Whole genome sequencing reveals the DNA sequence but not where a protein binds.",
+  "difficulty": "unknown",
+  "tags": [
+    "chip",
+    "seq",
+    "technique",
+    "choice"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-16973b1c51d4a9a2",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

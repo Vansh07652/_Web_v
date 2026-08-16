@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:evidence-based-practice-basic-statistics:core-topics:levels-of-evidence-and-interpreting-research",
+  "slug": "levels-of-evidence-and-interpreting-research",
+  "title": "Levels of Evidence and Interpreting Research",
+  "subject": {
+    "id": "subject:evidence-based-practice-basic-statistics",
+    "slug": "evidence-based-practice-basic-statistics",
+    "title": "Evidence-Based Practice & Basic Statistics"
+  },
+  "unit": {
+    "id": "unit:evidence-based-practice-basic-statistics:core-topics",
+    "slug": "core-topics",
+    "title": "Core Topics",
+    "order": 1
+  },
+  "order": 10,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nSuppose you want to know whether a new study method raises exam scores. One well-run experiment tells you what happened to one group of students at one school, on one exam. A systematic review with meta-analysis starts by searching for every study ever done on that method, judges each one against stated rules, and then combines their numbers into a single estimate that gives more weight to the larger, better-conducted studies. Because it summarizes the whole body of evidence instead of one slice of it, it ranks first, while a respected clinician's opinion ranks last because nothing was systematically gathered or checked.\n\n### Question 2\n\nPicture several people each measuring the same room with a tape measure and reporting slightly different lengths. The systematic review is the whole procedure: deciding who counts as a measurer, tracking every one of them down, and checking whether each measured properly. The meta-analysis is the arithmetic at the end, combining those 7 numbers into one best estimate while giving more weight to the people whose method was most careful. Review is the protocol; meta-analysis is the pooling math inside it.\n\n### Question 3\n\nIf you want to know exactly what a study found, read the researchers' own report: it states who was enrolled, who was excluded, how the outcome was measured, and what the limitations were. A textbook chapter or review article about that study is a retelling. Retellings are usually accurate, but they are condensed and filtered through another author's judgment, and the details that decide whether the finding applies to your patients are often the first things dropped.\n\n### Question 4\n\nCompare two ways of forming groups for a walking program. If patients choose whether to join, the joiners are likely more motivated, healthier, and less symptomatic before anything starts, so a better outcome in that group could simply reflect who they already were. If a coin flip assigns each patient instead, motivation, baseline fitness, and traits nobody recorded end up spread across both groups by chance alone. That is what buys the randomized design its higher rung: the groups start comparable, so the ending difference is easier to credit to the intervention.\n\n### Question 5\n\nTwo different questions are in play. The level answers 'was this study built well enough to give a trustworthy answer?' Applicability answers 'is that an answer about patients like mine?' A trial run flawlessly in healthy 25-year-olds can still be a poor guide for frail 85-year-olds, whose baseline risk, coexisting conditions, and physiology differ. Nothing in the level number tells you about that gap, so you evaluate it yourself, and a weaker design done in the right population may still be worth using as long as you name its limits out loud.\n\n### Question 6\n\nImagine 8 people with a condition that usually settles on its own within two weeks. All 8 try a new remedy and all 8 recover. The recovery rate is 100 percent, and it tells you almost nothing, because you never observed anyone who skipped the remedy. Any claim that the remedy caused the improvement requires a group that did not get it, measured over the same period. That missing comparison is what a case series structurally cannot supply, no matter how carefully the 8 patients are described.\n\n### Question 7\n\nA laboratory balance sensitive to hundredths of a gram can reliably detect that one bag of chips outweighs another by 0.2 grams. The difference is real and repeatable, and no one would change what they buy because of it. A very large study behaves like that sensitive balance: it detects small differences dependably. The p value tells you that a difference this big would rarely show up if the program truly did nothing; the size of the difference tells you whether it is worth acting on. Both readings are needed, and only the second one answers 'should this change practice?'\n\n### Question 8\n\nAveraging many independent guesses of a jar's contents beats trusting a single guess, because random overestimates and underestimates partly cancel; that is precision, and it is what more participants buy you. But if every guesser used the same miscalibrated scoop, averaging their answers produces a very confident wrong number. Combining 500 people across five trials sharpens the estimate around whatever the trials were measuring; it cannot detect or undo a mistake they all made, which is why appraisal of each trial comes before the pooling.\n\n### Question 9\n\nAn evidence hierarchy is a ranking of tools for a particular job, not a universal ranking of studies. Ranking is built around 'does this treatment work?', and for that job randomization is what matters most. Change the job to 'what is this like for the patient?' and randomization has nothing to contribute, because you are no longer comparing outcomes between groups; you are trying to describe experience in the patients' own terms. The strongest answer then comes from carefully pooled qualitative studies, which is why the level system has a separate branch for that kind of evidence.\n\n### Question 10\n\nTwo features determine the rung. First, is there a concurrent comparison group? Yes, the second unit. Second, was assignment made by chance? No, a manager decided. A study that manipulates an intervention earns experimental standing, and randomization earns the top experimental rung; giving up the coin flip costs exactly one step, landing at Level III. The manager's choice is the whole problem: units are rarely chosen at random, so the unit selected may already have had better staffing or a different patient mix.\n\n### Question 11\n\nGRADE keeps two judgments apart: what kind of study produced the evidence, and how well that study was actually carried out. The design sets your opening score, so randomized trials open at 4. Then reviewers audit the work domain by domain, and each serious problem they verify costs one step, cumulatively. Two verified problems leaves 2, labeled low certainty. The practical lesson is that 'it was a randomized trial' is a starting claim, not a finishing one, and a poorly conducted randomized body of evidence can end up rated no better than a well-conducted observational one.\n\n### Question 12\n\nBeing the most reliable judge available does not obligate you to declare a winner. Here the most reliable available judge, a synthesis of randomized trials, is reporting that the true effect could be a small decline, no change, or a gain of over a point, and the data cannot distinguish among those. Whenever a confidence interval crosses zero, no difference stays on the table as a live possibility. That is a legitimate, high-quality result, and it is different from evidence of no effect: a wide interval like this one often signals that more or larger trials are needed.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Introductory Statistics — OpenStax",
+        "url": "https://openstax.org/details/books/introductory-statistics"
+      },
+      {
+        "text": "Evidence-Based Practice resources — U.S. National Library of Medicine",
+        "url": "https://www.nlm.nih.gov/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "expansion-question-bank",
+    "sourceFile": "Education/pre-nursing-expansion-question-bank/questions/17-evidence-statistics/341-levels-of-evidence-and-interpreting-research.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false
+  },
+  "sourceSnapshotMarkdown": ""
+}

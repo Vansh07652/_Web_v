@@ -1,0 +1,42 @@
+{
+  "id": "physics-2-wave-optics-0006",
+  "subject": "physics-2",
+  "lesson": "wave-optics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For thin film interference including the half wavelength phase shift on reflection, use $Delta r = m lambda$ in a interference path difference model. The first quantity is 4.05 dimensionless and the second is 0.50 m. What is the path difference?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$1.01\\ \\text{m}$"
+    },
+    {
+      "id": "b",
+      "text": "$4.05\\ \\text{m}$"
+    },
+    {
+      "id": "c",
+      "text": "$2.03\\ \\text{m}$"
+    },
+    {
+      "id": "d",
+      "text": "$2.53\\ \\text{m}$"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Using $Delta r = m lambda$ gives 4.05 dimensionless times 0.50 m = $2.03\\ \\text{m}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to m, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "thin",
+    "film",
+    "interference",
+    "including",
+    "half",
+    "wavelength"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-0ce9c49c8559f911",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

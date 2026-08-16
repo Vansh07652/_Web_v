@@ -1,0 +1,40 @@
+{
+  "id": "genetics-linkage-and-genetic-mapping-0007",
+  "subject": "genetics",
+  "lesson": "linkage-and-genetic-mapping",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation In a family based linkage study, the likelihood of the pedigree data under linkage is computed to be 1000 times the likelihood under no linkage. What is the lod score for this result?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1000"
+    },
+    {
+      "id": "b",
+      "text": "3"
+    },
+    {
+      "id": "c",
+      "text": "30"
+    },
+    {
+      "id": "d",
+      "text": "0.001"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "The lod score is the base 10 logarithm of the odds of linkage versus no linkage, so Z = log10(1000) = 3. A reports the raw odds ratio without taking the logarithm, and C multiplies by 10 instead of applying the log. D gives the reciprocal odds, 1/1000, which would point toward no linkage.",
+  "difficulty": "unknown",
+  "tags": [
+    "lod",
+    "score",
+    "odds",
+    "ratio"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-6f4c5593d895eb88",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

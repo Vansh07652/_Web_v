@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-buffers-and-physiologic-chemistry-q04",
+  "subject": "chemistry-2",
+  "lesson": "buffers-and-physiologic-chemistry",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "When a strong acid enters the bloodstream, which sequence of events describes how the bicarbonate buffer handles it?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Bicarbonate binds sodium, and the resulting salt is excreted unchanged by the kidney"
+    },
+    {
+      "id": "b",
+      "text": "Carbonic acid donates a proton to the strong acid, converting it into a weaker acid"
+    },
+    {
+      "id": "c",
+      "text": "Bicarbonate is converted directly into carbonate, which precipitates out of the plasma"
+    },
+    {
+      "id": "d",
+      "text": "Bicarbonate accepts the proton to form carbonic acid, which becomes CO2 and is exhaled"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Bicarbonate is the proton acceptor: H+ plus HCO3- yields H2CO3, which carbonic anhydrase rapidly dehydrates to CO2 and water, and ventilation eliminates the CO2. Because the acid product is physically removed rather than accumulating, the system is described as open, which greatly increases its effectiveness. The cost is consumption of the bicarbonate pool, so a hypothetical acid load of 6 mEq/L titrates a starting bicarbonate of 24 mEq/L down to about 18 mEq/L, which is why a falling bicarbonate is the laboratory signature of metabolic acidosis.\n\nELI-10: Picture bicarbonate as a sponge that soaks up loose hydrogen ions. Once it soaks one up it becomes carbonic acid, which falls apart almost instantly into water and carbon dioxide gas, and you breathe the gas out. That is why the acid genuinely leaves the body instead of piling up in the blood. The catch is that every sponge used is a sponge gone: start with 24 and spend 6, and only 18 remain for the next acid load.",
+  "difficulty": "medium",
+  "tags": [
+    "proton acceptor",
+    "carbonic anhydrase",
+    "open buffer system"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-280",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:health-assessment:core-topics:blood-pressure",
+  "slug": "blood-pressure",
+  "title": "Blood Pressure",
+  "subject": {
+    "id": "subject:health-assessment",
+    "slug": "health-assessment",
+    "title": "Health Assessment Foundations"
+  },
+  "unit": {
+    "id": "unit:health-assessment:core-topics",
+    "slug": "core-topics",
+    "title": "Core Topics",
+    "order": 1
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nArterial pressure is not steady; it rises and falls with every beat. Systolic is the top of that wave, created the moment the ventricle pushes blood into an already-full aorta. Diastolic is the bottom of the wave, the pressure that never fully drains away because the elastic aorta keeps squeezing blood forward while the ventricle refills. That leftover pressure is why blood keeps flowing between beats instead of moving in stop-and-go bursts, and it is why the two numbers are always reported together.\n\n### Question 2\n\nTwo things set the size of the gap between the numbers: how much blood is pushed out per beat, and how much the aorta can stretch to absorb it. A stretchy aorta swallows the incoming volume and releases it gradually, so the peak stays modest and the trough stays supported, keeping the gap narrow. A stiff aorta cannot absorb anything, so the peak spikes and there is no stored recoil to hold the trough up. A widening pulse pressure over time is therefore a signal about vessel elasticity, not just about the heart.\n\n### Question 3\n\nCategories are assigned by whichever number is worse, not by averaging the two. That single rule explains every option here: a diastolic of 84 lands in Stage 1 even alongside a systolic of 112, because 80 to 89 is the Stage 1 diastolic band. Elevated is the one rung where both numbers must cooperate -- systolic in the 120s and diastolic still under 80. It functions as an early-warning tier, flagging people whose pressure is drifting upward before it crosses into hypertension.\n\n### Question 4\n\nResistance to flow depends on vessel radius raised to the fourth power, which is why arterioles dominate. Halving the radius of a vessel increases its resistance roughly sixteenfold, so even modest tightening across millions of arterioles at once transforms total resistance. Veins, by contrast, are capacitance vessels: they hold volume rather than resist flow, so dilating them drains blood away from the heart and lowers filling instead of raising pressure. The two vessel types therefore pull the blood pressure equation in opposite directions.\n\n### Question 5\n\nThe cuff does not touch the artery; it must push its pressure inward through the surrounding muscle and fat. A wide bladder spreads that push across enough tissue that nearly all of the cuff pressure reaches the artery. A narrow bladder loses much of its force to the tissue at the edges, so the artery still feels less pressure than the gauge shows. The examiner has to keep pumping to close the vessel, and the gauge reading at that moment is higher than the patient's real pressure. Note that width is the dimension that matters here, and it is a separate specification from bladder length.\n\n### Question 6\n\nSound in this technique is a byproduct of turbulence, so the sequence tracks how much the cuff is squeezing the artery. Fully occluded means no flow and no sound. Partially occluded means blood forces through in bursts, and turbulence makes noise -- the first noise marks the pressure at which arterial peak just exceeds cuff pressure, which is systolic. Fully open means smooth laminar flow, which is silent, so the final silence marks the point where cuff pressure has dropped below the artery's lowest pressure. Sounds appear and disappear because of flow physics, not because the heart gets louder or quieter.\n\n### Question 7\n\nGravity adds or subtracts a column of pressure between the heart and the cuff, and the gauge cannot tell that column apart from the pressure the heart generates. Raise the arm and the blood must climb to reach the cuff, arriving with less pressure, so the number reads low. Lower the arm and gravity gives the blood a free push, so the number reads high. Only when the cuff sits level with the heart does the column height reach zero and the gauge report the pressure the heart actually produces. This is also why the error is directional and predictable rather than random.\n\n### Question 8\n\nStanding shifts roughly 500 to 800 mL of blood into the legs and abdomen within seconds, dropping venous return and therefore stroke volume. Baroreceptors normally respond within a beat or two by constricting vessels and raising heart rate, restoring pressure before the person notices. Orthostatic hypotension means that compensation failed or lagged, so pressure stayed down. The definition sets both a size threshold and a time window because a transient dip in the first few seconds is normal; what matters is a drop of 20 systolic or 10 diastolic that persists within the first three minutes. Option D shows the opposite situation: compensation is working overtime, holding pressure up at the cost of a large heart rate rise.\n\n### Question 9\n\nAn office reading is a single snapshot taken under unusual conditions, and it can be biased in either direction. Some patients react to the clinical setting with a stress-driven rise their everyday pressure never shows, which is white coat hypertension. Others have pressure driven up by things absent from the clinic -- work stress, poor sleep, alcohol, smoking, physical exertion -- so they look fine in the office and are hypertensive the rest of the week. That is masked hypertension, and it is the more dangerous pattern because nothing in the chart prompts treatment. Out-of-office monitoring is what distinguishes the two.\n\n### Question 10\n\nThe sounds you hear during deflation do not always form one continuous run; in some patients they start, vanish for a stretch of 20 or 30 mm Hg, then return. If your inflation stopped inside that quiet stretch, the first sound you hear is not the real first sound, and everything you record is anchored to the wrong starting point. Palpation sidesteps the problem entirely because a pulse you can feel does not have a gap. Once you know where the pulse truly disappears, inflating 20 to 30 mm Hg beyond it guarantees you begin above the whole sound sequence.\n\n### Question 11\n\nA compliant aorta acts as a pressure buffer, absorbing part of each ejection and releasing it during diastole so flow continues between beats. That buffering does two things at once: it caps how high systolic climbs, and it props diastolic up. When the aorta stiffens, both effects are lost simultaneously, which is why the two numbers move apart rather than together. This is also why isolated systolic hypertension is not a milder problem than combined hypertension; the wide pulse pressure itself reflects vascular damage and predicts cardiovascular risk.\n\n### Question 12\n\nAveraging a value that changes over time means weighting each level by how long it lasts, not by how extreme it is. Arterial pressure spends a brief interval near its systolic peak and a much longer interval down near diastolic, so the honest average sits low in the range rather than halfway. That is also why MAP, not systolic, is the number used to judge organ perfusion: tissues are perfused continuously, so what sustains them is the average pressure over the whole beat. Tachycardia matters here because it eats into diastole disproportionately, changing the weighting and pulling MAP upward.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Vital Signs / Encyclopedia — MedlinePlus (NLM)",
+        "url": "https://medlineplus.gov/ency/article/002341.htm"
+      },
+      {
+        "text": "Understanding Blood Pressure Readings — American Heart Association",
+        "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "expansion-question-bank",
+    "sourceFile": "Education/pre-nursing-expansion-question-bank/questions/14-health-assessment/307-blood-pressure.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false
+  },
+  "sourceSnapshotMarkdown": ""
+}

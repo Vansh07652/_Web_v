@@ -1,0 +1,42 @@
+{
+  "id": "physics-2-inductance-and-ac-circuits-0003",
+  "subject": "physics-2",
+  "lesson": "inductance-and-ac-circuits",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For rl circuit growth and decay with the time constant, use $X_L = omega L$ in a inductive reactance model. The first quantity is 21.00 rad/s and the second is 0.50 H. What is the inductive reactance?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$5.25\\ \\text{Ohm}$"
+    },
+    {
+      "id": "b",
+      "text": "$21.00\\ \\text{Ohm}$"
+    },
+    {
+      "id": "c",
+      "text": "$13.12\\ \\text{Ohm}$"
+    },
+    {
+      "id": "d",
+      "text": "$10.50\\ \\text{Ohm}$"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Using $X_L = omega L$ gives 21.00 rad/s times 0.50 H = $10.50\\ \\text{Ohm}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to Ohm, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "rl",
+    "circuit",
+    "growth",
+    "decay",
+    "time",
+    "constant"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-3641e63f8bc833b3",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cytoskeleton-motility:cilia-and-flagella",
+  "slug": "cilia-and-flagella",
+  "title": "Cilia and Flagella",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cytoskeleton-motility",
+    "slug": "cytoskeleton-motility",
+    "title": "Cytoskeleton Motility",
+    "order": 5
+  },
+  "order": 11,
+  "status": "final",
+  "sections": {
+    "overview": "Cilia and flagella are whip-like, microtubule-based projections that extend from the cell surface. **Motile cilia and flagella** share a conserved core, the **axoneme**, built on a \"9+2\" arrangement: nine outer doublet microtubules surrounding two central singlet microtubules. Bending is produced by **axonemal dynein motors** that slide adjacent doublets past one another; cross-links (nexin) and radial spokes convert this sliding into waves of bending. A related but non-motile structure, the **primary cilium (9+0)**, lacks the central pair and dynein arms and instead serves as a sensory and signaling antenna. Both are assembled and maintained by **intraflagellar transport (IFT)**, a motor-driven shuttle that carries building blocks to and from the tip.",
+    "whyItMatters": "Motile cilia clear mucus from airways, move cerebrospinal fluid (ependymal cilia), and drive the fallopian-tube egg transport; flagella propel sperm. **Primary ciliary dyskinesia (Kartagener's syndrome)**, caused by missing/broken dynein arms or radial spokes, produces chronic respiratory infections, sinusitis, and situs inversus (reversed organ laterality) because cilia set left-right body asymmetry during development. The **primary cilium** is a signaling hub for Hedgehog, Wnt, and other pathways; its defects cause \"ciliopathies\" — polycystic kidney disease, retinal degeneration (Bardet-Biedl), and developmental syndromes.",
+    "learningObjectives": "- Describe the 9+2 axoneme structure and the roles of its accessory components.\n- Explain how dynein-driven doublet sliding is converted into bending.\n- Distinguish motile cilia/flagella (9+2) from the primary cilium (9+0).\n- Outline how intraflagellar transport (IFT) builds and maintains the axoneme.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nCilia and flagella are whip-like, microtubule-based projections that extend from the cell surface. **Motile cilia and flagella** share a conserved core, the **axoneme**, built on a \"9+2\" arrangement: nine outer doublet microtubules surrounding two central singlet microtubules. Bending is produced by **axonemal dynein motors** that slide adjacent doublets past one another; cross-links (nexin) and radial spokes convert this sliding into waves of bending. A related but non-motile structure, the **primary cilium (9+0)**, lacks the central pair and dynein arms and instead serves as a sensory and signaling antenna. Both are assembled and maintained by **intraflagellar transport (IFT)**, a motor-driven shuttle that carries building blocks to and from the tip.\n\n### Key Components\n\n- **Axoneme:** the cylindrical cytoskeleton of a cilium/flagellum.\n- **9+2 arrangement:** nine outer **doublet** microtubules + two central **singlet** microtubules (motile axonemes).\n- **Doublet:** an **A tubule** (complete, 13 protofilaments) fused to a **B tubule** (incomplete, ~10 protofilaments sharing the A-tubule wall).\n- **Dynein arms:** outer and inner rows of axonemal dynein attached to the A tubule; their heads walk on the neighboring B tubule to generate sliding.\n- **Radial spokes:** projections from each A tubule toward the central pair; they transmit regulatory signals.\n- **Nexin links:** elastic connectors between adjacent doublets that resist sliding and help convert it to bending.\n- **Central pair:** the two singlet microtubules (with projections) that rotate and modulate dynein activity.\n- **Basal body:** a modified centriole (9 triplets) at the base that templates the axoneme.\n- **IFT particles:** kinesin-2 (anterograde, toward the tip) and cytoplasmic dynein-2 (retrograde, toward the base) transport cargo along the doublets.\n\n### Mechanism / How It Works\n\n1. The basal body nucleates the nine outer doublets and the central pair, establishing the 9+2 scaffold.\n2. Axonemal dynein arms on each A tubule bind the adjacent B tubule and, powered by ATP, try to walk toward its minus end (base).\n3. Because doublets are held together by nexin links and the radial spokes, this minus-end-directed dynein force makes one doublet **slide** relative to its neighbor.\n4. Resistance from the cross-links converts sliding into **bending**: sliding on one side of the axoneme bends the cilium in one direction, and alternating activation of dynein on opposite sides produces the beating waveform.\n5. The central pair/radial-spoke system acts as a regulator, coordinating dynein activity around the ring so the beat is rhythmic (beat frequencies ~10–100 Hz).\n6. IFT motors continually deliver tubulin and other proteins to the growing tip and return turnover products to the base, so the axoneme is dynamically assembled and disassembled at its distal end.\n\n### Energy and Directionality\n\nBending is powered by **ATP hydrolysis** by axonemal dynein (unlike tubulin assembly's GTP). Dynein is **minus-end-directed**, so its activity slides each doublet toward the base; the geometry of the cross-linked cylinder converts this sliding force into lateral bending. The **direction of the wave** (tip-to-base vs. base-to-tip, and the effective/recovery stroke) depends on which side's dyneins are active. IFT uses the *opposite* polarity: kinesin-2 (plus-end, toward the tip) for anterograde, dynein-2 (minus-end, toward the base) for retrograde transport.\n\n### Experimental Evidence / Technique\n\n- **Electron microscopy (thin sections + cryo-EM):** revealed the 9+2 doublet arrangement, dynein arms, radial spokes, and the 9+0 structure of primary cilia.\n- **Isolated, demembranated axonemes:** purified axonemes beat when supplied ATP, proving dynein + ATP suffice for motility.\n- **Protease/ATP sliding experiments:** gentle protease treatment removes nexin links; adding ATP then makes doublets slide completely apart (not bend), directly demonstrating dynein-driven sliding.\n- **IFT mutants:** in *Chlamydomonas* and *C. elegans*, mutations in kinesin-2 or dynein-2 block ciliogenesis, proving IFT is required to build the organelle.\n- **Kartagener's/primary ciliary dyskinesia genetics:** patients with immotile cilia have dynein-arm defects, confirming the arms are the motors.",
+    "howItWorks": "1. The basal body nucleates the nine outer doublets and the central pair, establishing the 9+2 scaffold.\n2. Axonemal dynein arms on each A tubule bind the adjacent B tubule and, powered by ATP, try to walk toward its minus end (base).\n3. Because doublets are held together by nexin links and the radial spokes, this minus-end-directed dynein force makes one doublet **slide** relative to its neighbor.\n4. Resistance from the cross-links converts sliding into **bending**: sliding on one side of the axoneme bends the cilium in one direction, and alternating activation of dynein on opposite sides produces the beating waveform.\n5. The central pair/radial-spoke system acts as a regulator, coordinating dynein activity around the ring so the beat is rhythmic (beat frequencies ~10–100 Hz).\n6. IFT motors continually deliver tubulin and other proteins to the growing tip and return turnover products to the base, so the axoneme is dynamically assembled and disassembled at its distal end.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Motile cilia/flagella have a **9+2** axoneme: 9 outer doublets + 2 central singlet microtubules.\n- Primary cilia are **9+0** (no central pair, no dynein arms) and are **sensory**, not motile.\n- Each doublet = **A tubule (13 protofilaments) + B tubule (~10)**, fused.\n- Bending is driven by **axonemal dynein** (minus-end-directed) sliding doublets, with **nexin + radial spokes** converting slide → bend.\n- **ATP** powers beating; demembranated axonemes beat with ATP alone.\n- **IFT**: kinesin-2 (anterograde/tip) + dynein-2 (retrograde/base) assemble the axoneme.\n- Ciliary dyskinesia (Kartagener's) → dynein-arm defects → chronic infection + situs inversus.\n- Basal body = modified centriole (9 triplets) that nucleates the axoneme.",
+    "commonConfusions": "- **\"Cilia and flagella differ in internal structure.\"** — In eukaryotes they share the **same 9+2 axoneme**; they differ mainly in length, beat pattern, and number (many short cilia vs. one/few long flagella). Bacterial flagella are completely different (a rotating protein filament, not 9+2).\n- **\"The central pair powers the beat.\"** — The central pair and radial spokes **regulate/coordinate** dynein; the **dynein arms** are the motors.\n- **\"9+0 means nine singlets.\"** — The nine outer elements of a primary cilium are still **doublets**; \"9+0\" means nine doublets and **no central pair**.\n- **\"Cilia are built once and last.\"** — They are continuously assembled at the tip and turned over by **intraflagellar transport**.\n- **\"Sliding doublets would shorten the cilium.\"** — Sliding alone extends/slides; **cross-links convert** it to bending, which is why the cilium bends without changing total filament length.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture nine long drinking straws standing in a circle around two center straws. Each outer straw has a row of tiny arms that can grab the next straw and pull it downward. If you glued the straws loosely together with rubber bands, pulling one straw down would make the whole bundle bend instead of slide apart. By pulling different straws at different moments, the bundle whips back and forth — that's the beating motion. A different kind of hair (the primary cilium) has no arms and can't move; instead it works like a cell's antenna, listening for chemical signals. (The analogy omits the molecular detail of dynein arms, radial spokes, and the IFT \"elevator\" that continuously rebuilds the tips.)",
+    "quickReview": "- 9+2 (motile) vs. 9+0 (primary, sensory) axonemes; doublet = A + B tubule.\n- Axonemal dynein (ATP) slides doublets; nexin + radial spokes → bending.\n- IFT (kinesin-2 up, dynein-2 down) builds/maintains the axoneme.\n- Basal body (9 triplets) templates the structure.\n- Defects → primary ciliary dyskinesia (Kartagener's), ciliopathies, situs inversus.\n- Evidence: EM structure, ATP-beating axonemes, protease sliding assays, IFT mutants.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, et al. *Molecular Biology of the Cell.* 4th ed. \"Molecular Motors.\" https://www.ncbi.nlm.nih.gov/books/NBK26888/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26888/"
+      },
+      {
+        "text": "Alberts B, et al. *Molecular Biology of the Cell.* 4th ed. Chapter 16: \"The Cytoskeleton.\" https://www.ncbi.nlm.nih.gov/books/NBK21051/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21051/"
+      },
+      {
+        "text": "OpenStax. *Biology 2e.* Chapter 4.5: \"The Cytoskeleton.\" https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+        "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/05-cytoskeleton-motility/11-cilia-and-flagella.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

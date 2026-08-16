@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:stereochemistry:chirality-and-stereocenters",
+  "slug": "chirality-and-stereocenters",
+  "title": "Chirality and Stereocenters",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:stereochemistry",
+    "slug": "stereochemistry",
+    "title": "Stereochemistry",
+    "order": 3
+  },
+  "order": 12,
+  "status": "final",
+  "sections": {
+    "overview": "Constitutional isomers share a molecular formula but differ in the order in which atoms are connected. Stereoisomers share both formula and connectivity but differ in three-dimensional arrangement. A molecule is chiral when its mirror image cannot be superimposed on the original; the usual cause in organic chemistry is a tetrahedral carbon bonded to four different groups, called a stereocenter (chiral carbon). Chirality is central in biochemistry because proteins, receptors, and many drugs are themselves chiral.",
+    "whyItMatters": "Chirality is a drug-safety issue, not just a textbook idea. Many pharmaceuticals are chiral, and the two enantiomers can act differently in the body — the classic example is thalidomide, where one enantiomer relieved morning sickness while the other caused birth defects. Enzymes and receptors are chiral proteins that bind only one mirror-image form of a substrate, which is why handedness determines whether a drug fits its target. (Conceptual only; dosing and treatment decisions belong to clinicians.)",
+    "learningObjectives": "1. Distinguish constitutional isomers from stereoisomers and state what each pair shares and does not share.\n2. Define chirality in terms of mirror images and superimposability, and recognize chiral versus achiral objects.\n3. Identify tetrahedral stereocenters (chiral carbons) in condensed, skeletal, and line-angle structures.\n4. Explain how symmetry (planes of symmetry) and prochirality relate to chirality, and why chirality matters in biological systems.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|------|---------------------------|----------------|\n| Constitutional isomers | Same formula, different atom-to-atom connectivity | They are different compounds with different names and properties |\n| Stereoisomers | Same formula and connectivity, different 3-D arrangement | They can differ in biological activity even when formulas match |\n| Chirality | Property of an object not superimposable on its mirror image | Determines whether mirror-image forms are distinct compounds |\n| Chiral object | An object whose mirror image is a different, non-superimposable object | Your hands, and most drug molecules, are chiral |\n| Mirror images | Two objects related by reflection across a plane | The relationship that defines enantiomers |\n| Superimposability | Whether two objects can be made to coincide in every part in space | The practical test for chirality |\n| Stereocenter | Atom where swapping two groups gives a different stereoisomer | The structural feature that most often creates chirality |\n| Tetrahedral stereocenter | A carbon bonded to four different groups | The \"chiral carbon\" you will identify most often |\n| Plane of symmetry | An internal mirror plane dividing a molecule into mirror halves | Its presence means the molecule is achiral |\n| Prochirality | A center that becomes a stereocenter after one substitution | Explains how enzymes distinguish identical-looking atoms |",
+    "collegeNotes": "### 1. Constitutional Isomers versus Stereoisomers\n\nIsomers are different compounds with the same molecular formula. Constitutional (structural) isomers differ in connectivity: atoms are bonded to different neighbors. For example, ethanol (\\( \\mathrm{CH_3CH_2OH} \\)) and dimethyl ether (\\( \\mathrm{CH_3OCH_3} \\)) both have formula \\( \\mathrm{C_2H_6O} \\) but different bonding. Stereoisomers have the same connectivity but a different spatial arrangement. They cannot be interconverted by rotation around single bonds alone (that would only produce conformations); stereoisomers are distinct, isolable compounds.\n\n### 2. Chirality, Mirror Images, and Superimposability\n\nAn object (or molecule) is chiral if it is not superimposable on its mirror image; an achiral object is superimposable on its mirror image. A molecule and its mirror image are a pair of enantiomers when they are nonsuperimposable mirror images. Chirality is a property of the whole object, not of any single atom.\n\n### 3. Stereocenters and Symmetry\n\nA stereocenter (stereogenic center) is an atom at which interchanging two groups produces a different stereoisomer. The most important type in this course is the tetrahedral stereocenter: a carbon with four different groups attached. To identify chiral carbons, draw out the structure and check whether each carbon carries four distinct groups. A useful shortcut is symmetry: a molecule with a plane of symmetry (an internal mirror plane) is achiral, even if it contains tetrahedral carbons that look \"four-different\" at first glance. Prochirality (introductory): a carbon bonded to two identical groups — for example, the two hydrogens of a –CH2– group — is prochiral when replacing one of those identical groups with a different group would create a stereocenter.",
+    "howItWorks": "1. Draw the full structure, expanding any implicit hydrogens.\n2. For each tetrahedral carbon, list its four attached groups.\n3. A carbon with four different groups is a stereocenter; sp² and sp carbons never are.\n4. Check the whole molecule for a plane of symmetry — if present, the molecule is achiral.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Constitutional isomers differ in connectivity; stereoisomers do not.\n- **High yield:** Chirality means a nonsuperimposable mirror image.\n- **High yield:** A tetrahedral carbon with four different groups is a stereocenter (chiral carbon).\n- Do not count sp² or sp carbons as stereocenters.\n- A plane of symmetry makes a molecule achiral.\n- Chiral molecules have no plane of symmetry (and no center of inversion).\n- Prochiral centers have two identical groups; replacing one creates a stereocenter.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|----------------|------|------------|\n| Constitutional isomers | Stereoisomers | Constitutional isomers differ in connectivity; stereoisomers differ only in 3-D arrangement |\n| Chirality | Polarity | Polarity concerns unequal charge distribution; chirality concerns handedness and mirror images |\n| A chiral carbon (stereocenter) | A chiral molecule | A molecule can contain a stereocenter yet be achiral if it has a plane of symmetry (meso) |\n| Mirror images | Superimposable objects | A chiral object's mirror image cannot be superimposed; an achiral object's can |\n| Prochiral center | Stereocenter | Prochiral centers have two identical groups; stereocenters have four different groups |",
+    "memoryAids": "Remember \"FOUR DIFFERENT = CHIRAL CARBON.\" If a carbon's four groups are all different, it is a stereocenter; if you can find a plane of symmetry, the molecule is achiral.",
+    "eli10": "Think about your left and right hands. They are mirror images of each other, and no matter how you rotate or slide one, you can never place it exactly on top of the other — a left glove will not fit a right hand. Your hands are chiral.\n\nMolecules work the same way. A molecule is chiral if its mirror image is a different object that you cannot stack on top of the original. The most common reason a small organic molecule is chiral is that one carbon holds four different groups, so those groups can be arranged in two distinct spatial orders that are mirror images.\n\nThe comparison \"stops being exact\" here: hands are built from many parts, while molecular chirality usually comes down to one or a few atoms. Also, \"superimposable\" in chemistry means an exact match of every atom and bond in three dimensions, not just a rough visual overlap.\n\n### Simple Example\n\nConsider 2-butanol, \\( \\mathrm{CH_3CH(OH)CH_2CH_3} \\). The middle carbon (C2) is bonded to four different groups: an –H, an –OH, a –CH3, and a –CH2CH3. Two different spatial arrangements of those four groups are mirror images that cannot be superimposed, so 2-butanol is chiral. By contrast, 2-propanol, \\( \\mathrm{CH_3CH(OH)CH_3} \\), has a central carbon bonded to two identical –CH3 groups; its \"mirror image\" is the same molecule, so 2-propanol is achiral.",
+    "quickReview": "### Topic Recap\n\nIsomers split into constitutional isomers (different connectivity) and stereoisomers (same connectivity, different 3-D arrangement). A molecule is chiral when it is not superimposable on its mirror image, usually because a tetrahedral carbon bears four different groups (a stereocenter). A plane of symmetry overrides an apparent stereocenter and makes the molecule achiral.\n\n### Knowledge Check\n\n1. Which pair are constitutional isomers: ethanol/dimethyl ether, or (R)-2-butanol/(S)-2-butanol?\n2. A carbon is bonded to –H, –CH3, –CH2CH3, and –Cl. Is it a stereocenter?\n3. A molecule contains a stereocenter but also has an internal plane of symmetry. Is the molecule chiral?\n4. Why is a carbonyl carbon (C=O) never a tetrahedral stereocenter?\n5. Name the two properties a pair of stereoisomers must share to be called stereoisomers rather than constitutional isomers.\n\n### Answers and Rationales\n\n1. Ethanol and dimethyl ether are constitutional isomers: same formula \\( \\mathrm{C_2H_6O} \\), different connectivity. (R)- and (S)-2-butanol are stereoisomers (enantiomers).\n2. Yes — all four groups (–H, –CH3, –CH2CH3, –Cl) are different, so it is a tetrahedral stereocenter.\n3. No. A plane of symmetry makes the molecule achiral even though a stereocenter is present (the meso situation).\n4. A carbonyl carbon is sp², trigonal planar, and bonded to only three atoms (with a double bond); its mirror image is superimposable.\n5. Stereoisomers must share the same molecular formula and the same connectivity; they differ only in three-dimensional arrangement.",
+    "workedExamples": "Identifying chiral carbons is a structure task, not a mechanism. Work through it systematically:\n\n1. Expand the skeleton. Convert line-angle and condensed structures into full atom connectivity so no implicit hydrogen is missed. In a skeletal drawing, each vertex and each line ending is a carbon with enough hydrogens to reach four bonds.\n2. List the four groups on each candidate carbon. A carbon is a stereocenter only if all four groups are different from one another.\n3. Treat entire groups, not just the directly bonded atom. For C2 of 2-butanol the groups are –H, –OH, –CH3, and –CH2CH3; two are different alkyl groups, so all four differ.\n4. Reject sp² and sp carbons. A double- or triple-bonded carbon is trigonal planar or linear, so its mirror image is superimposable; it is not a tetrahedral stereocenter.\n5. Watch for symmetry. If a molecule has an internal plane of symmetry, the molecule is achiral, and any \"stereocenter\" it contains does not actually produce chirality at the whole-molecule level (a preview of meso compounds).",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "chirality-and-stereocenters",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "12-chirality-and-stereocenters",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/12-chirality-and-stereocenters.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-equilibrium:manipulating-equilibrium-reactions",
+  "slug": "manipulating-equilibrium-reactions",
+  "title": "Manipulating Equilibrium Reactions",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-equilibrium",
+    "slug": "chemical-equilibrium",
+    "title": "Chemical Equilibrium",
+    "order": 4
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "The equilibrium constant is tied to the *way a reaction is written*. If you reverse an equation, multiply its coefficients, or add equations together, the value of K changes in a predictable way. Mastering these three rules lets you calculate K for almost any reaction from a small set of tabulated constants — the same logic behind Hess's law for ΔH.",
+    "whyItMatters": "These manipulation rules are how chemists obtain equilibrium constants that are not directly tabulated. They are essential for combining known equilibria (acid dissociations, solubility products, complex-formation steps) into an overall constant, and they mirror the algebraic reasoning used throughout thermodynamics. The rules also make clear that K is meaningless without the equation it belongs to.",
+    "learningObjectives": "- Compute K for a reaction written in the reverse direction.\n- Compute K when a reaction's coefficients are multiplied by a factor n.\n- Compute K for the sum of two or more reactions.\n- Apply these rules to derive K for a net reaction from tabulated values.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe equilibrium constant is tied to the *way a reaction is written*. If you reverse an equation, multiply its coefficients, or add equations together, the value of K changes in a predictable way. Mastering these three rules lets you calculate K for almost any reaction from a small set of tabulated constants — the same logic behind Hess's law for ΔH.\n\n### Key Ideas\n\n- **Reverse** a reaction → take the reciprocal: K' = 1/K.\n- **Multiply** all coefficients by n → raise K to the nth power: K' = Kⁿ.\n- **Add** two reactions → multiply their K values: K' = K₁ × K₂.\n- These follow directly from the algebraic form of the equilibrium expression.\n\n### Equations and Variables\n\nFor a reaction with equilibrium constant K:\n\n- Reverse: K_rev = 1/K\n- Multiply by n: K_new = Kⁿ\n- Sum of reactions 1 and 2: K_net = K₁ · K₂\n\nFor the general expression K = [C]^c[D]^d / [A]^a[B]^b:\n\n- Reversing swaps numerator and denominator.\n- Multiplying coefficients by n raises every exponent by n.\n- Adding reactions multiplies the corresponding product/reactant ratios (species appearing on both sides cancel).\n\n### How It Works\n\nEach rule is just algebra on the equilibrium expression. Reversing N₂O₄(g) ⇌ 2 NO₂(g) (K = 4.6 × 10⁻³) gives 2 NO₂(g) ⇌ N₂O₄(g), whose expression is [N₂O₄]/[NO₂]² — the reciprocal, K = 1/(4.6 × 10⁻³) = 217 ≈ 216.\n\nDoubling the coefficients of N₂O₄ ⇌ 2 NO₂ gives 2 N₂O₄ ⇌ 4 NO₂, with expression [NO₂]⁴/[N₂O₄]² = ([NO₂]²/[N₂O₄])², so K = (4.6 × 10⁻³)² = 2.1 × 10⁻⁵.\n\nWhen reactions are added, their expressions multiply, and any species appearing on both sides (as a product of one step and reactant of the next) cancels out of the net expression — just as in Hess's law. This is why the equilibrium constant of an overall reaction equals the product of the K values of the steps that sum to it.\n\n### Worked Example\n\nGiven these two equilibria at 25 °C:\n\n- (1) N₂(g) + O₂(g) ⇌ 2 NO(g), K₁ = 4.1 × 10⁻³¹\n- (2) 2 NO(g) + O₂(g) ⇌ 2 NO₂(g), K₂ = 4.5 × 10¹⁵ (value inverted from the tabulated reverse)\n\nFind K for the net reaction N₂(g) + 2 O₂(g) ⇌ 2 NO₂(g).\n\n**Step 1 — Add the equations.** Reaction (1) + reaction (2) gives:\n\nN₂ + O₂ + 2 NO + O₂ ⇌ 2 NO + 2 NO₂ → **N₂(g) + 2 O₂(g) ⇌ 2 NO₂(g)**\n\nThe 2 NO cancels (product of step 1, reactant of step 2).\n\n**Step 2 — Multiply the K values:**\n\n$$K_{\\text{net}} = K_1 \\times K_2 = (4.1\\times10^{-31})(4.5\\times10^{15}) = 1.8\\times10^{-15}$$\n\n**Step 3 — Demonstrate the reverse rule.** If instead the net reaction were written backward, 2 NO₂ ⇌ N₂ + 2 O₂, its K would be 1/(1.8 × 10⁻¹⁵) = 5.6 × 10¹⁴ — a dramatic illustration of how direction changes K.",
+    "howItWorks": "Each rule is just algebra on the equilibrium expression. Reversing N₂O₄(g) ⇌ 2 NO₂(g) (K = 4.6 × 10⁻³) gives 2 NO₂(g) ⇌ N₂O₄(g), whose expression is [N₂O₄]/[NO₂]² — the reciprocal, K = 1/(4.6 × 10⁻³) = 217 ≈ 216.\n\nDoubling the coefficients of N₂O₄ ⇌ 2 NO₂ gives 2 N₂O₄ ⇌ 4 NO₂, with expression [NO₂]⁴/[N₂O₄]² = ([NO₂]²/[N₂O₄])², so K = (4.6 × 10⁻³)² = 2.1 × 10⁻⁵.\n\nWhen reactions are added, their expressions multiply, and any species appearing on both sides (as a product of one step and reactant of the next) cancels out of the net expression — just as in Hess's law. This is why the equilibrium constant of an overall reaction equals the product of the K values of the steps that sum to it.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Reverse → reciprocal: K' = 1/K.\n- Multiply by n → K' = Kⁿ.\n- Add reactions → K' = K₁K₂ (multiply).\n- Intermediates cancel when equations are summed.\n- These are exact algebraic rules, not approximations.",
+    "commonConfusions": "- **Forgetting to square K when doubling coefficients.** K' = Kⁿ, not n·K.\n- **Adding K values when reactions are added.** You *multiply*, not add.\n- **Not canceling common species** when summing equations.\n- **Confusing this with Hess's law for ΔH.** ΔH adds (and reverses sign); K multiplies (and inverts).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nK is fussy about how you write the equation — like a recipe that changes if you read it backward or double it. Read the reaction backward and K flips upside down (1/K). Double every ingredient and K gets squared (K²). Combine two recipes into one and you multiply their K values together, canceling anything that appears in both the \"made\" and \"used\" lists. It's all just fraction arithmetic, but it's how chemists stitch little known reactions into one big unknown one.",
+    "quickReview": "1. What is K for the reverse of a reaction with constant K?\n2. What is K when all coefficients are tripled?\n3. How do you combine K values for summed reactions?\n4. For 2 NO₂ ⇌ N₂O₄ (K = 216), what is K for N₂O₄ ⇌ 2 NO₂?\n5. Why must intermediates cancel when equations are added?",
+    "workedExamples": "### Worked Example\n\nGiven these two equilibria at 25 °C:\n\n- (1) N₂(g) + O₂(g) ⇌ 2 NO(g), K₁ = 4.1 × 10⁻³¹\n- (2) 2 NO(g) + O₂(g) ⇌ 2 NO₂(g), K₂ = 4.5 × 10¹⁵ (value inverted from the tabulated reverse)\n\nFind K for the net reaction N₂(g) + 2 O₂(g) ⇌ 2 NO₂(g).\n\n**Step 1 — Add the equations.** Reaction (1) + reaction (2) gives:\n\nN₂ + O₂ + 2 NO + O₂ ⇌ 2 NO + 2 NO₂ → **N₂(g) + 2 O₂(g) ⇌ 2 NO₂(g)**\n\nThe 2 NO cancels (product of step 1, reactant of step 2).\n\n**Step 2 — Multiply the K values:**\n\n$$K_{\\text{net}} = K_1 \\times K_2 = (4.1\\times10^{-31})(4.5\\times10^{15}) = 1.8\\times10^{-15}$$\n\n**Step 3 — Demonstrate the reverse rule.** If instead the net reaction were written backward, 2 NO₂ ⇌ N₂ + 2 O₂, its K would be 1/(1.8 × 10⁻¹⁵) = 5.6 × 10¹⁴ — a dramatic illustration of how direction changes K.",
+    "references": [
+      {
+        "text": "OpenStax. *Chemistry 2e*. Ch. 13, \"Equilibrium Constants.\" https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants"
+      },
+      {
+        "text": "IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"equilibrium constant.\" https://goldbook.iupac.org/",
+        "url": "https://goldbook.iupac.org/"
+      },
+      {
+        "text": "Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman."
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/13-chemical-equilibrium/05-manipulating-equilibrium-reactions.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

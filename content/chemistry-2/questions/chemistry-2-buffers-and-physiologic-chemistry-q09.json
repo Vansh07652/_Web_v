@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-buffers-and-physiologic-chemistry-q09",
+  "subject": "chemistry-2",
+  "lesson": "buffers-and-physiologic-chemistry",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A teaching data set shows pH 7.3, PaCO2 30 mm Hg, sodium 140 mEq/L, chloride 110 mEq/L, and bicarbonate 15 mEq/L. Which interpretation fits these values?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Respiratory acidosis with metabolic compensation"
+    },
+    {
+      "id": "b",
+      "text": "Metabolic acidosis with partial respiratory compensation"
+    },
+    {
+      "id": "c",
+      "text": "Respiratory alkalosis with renal compensation"
+    },
+    {
+      "id": "d",
+      "text": "Metabolic alkalosis with partial respiratory compensation"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "The pH is acidemic and the bicarbonate is low, so the primary disturbance is metabolic acidosis; the low PaCO2 reflects compensatory hyperventilation, since a compensating system always moves in the direction that opposes the primary problem and never overshoots normal. Winter's formula predicts an expected PaCO2 of 1.5 times 15 plus 8, or about 30.5 mm Hg, so the respiratory response is appropriate in magnitude yet the pH remains below 7.35, which is why compensation is called partial rather than complete. The anion gap, 140 minus the sum of 110 and 15, equals 15 mEq/L, mildly above the usual 8 to 12 mEq/L range and suggesting an added-acid cause.\n\nELI-10: Read the pH first: 7.3 is on the acid side. Then ask who caused it. Bicarbonate is low, and bicarbonate is the metabolic number, so the metabolic side is the culprit. The low CO2 is the lungs helping by blowing off acid gas; they are helping about as hard as expected, yet the pH is still under 7.35, so the fix is incomplete. Finally check the anion gap: 140 minus (110 + 15) is 15, a bit above the usual 8 to 12, hinting that an unmeasured acid is in play.",
+  "difficulty": "medium",
+  "tags": [
+    "acid-base interpretation",
+    "compensation",
+    "anion gap"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-280",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

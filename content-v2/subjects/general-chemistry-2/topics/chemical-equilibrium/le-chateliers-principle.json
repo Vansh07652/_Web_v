@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-equilibrium:le-chateliers-principle",
+  "slug": "le-chateliers-principle",
+  "title": "Le Chatelier's Principle",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-equilibrium",
+    "slug": "chemical-equilibrium",
+    "title": "Chemical Equilibrium",
+    "order": 4
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "**Le Chatelier's principle** states that if a system at equilibrium is disturbed, the system shifts in the direction that **counteracts (partially offsets) the disturbance**, until a new equilibrium is established. It is a qualitative way to predict the response of an equilibrium to changes in concentration, pressure, or temperature — and it is fully consistent with the quantitative Q-versus-K comparison.",
+    "whyItMatters": "Le Chatelier's principle is how chemists manipulate industrial reactions to maximize yield. The Haber process uses high pressure (shifts right for fewer gas moles) and a moderate temperature (a compromise, since the reaction is exothermic) plus a catalyst to make ammonia efficiently. The same reasoning explains blood-oxygen transport (hemoglobin binding responds to O₂ and pH), buffer behavior, and countless other real equilibria.",
+    "learningObjectives": "- State Le Chatelier's principle.\n- Predict the effect of concentration, pressure/volume, and temperature changes on an equilibrium.\n- Explain which disturbances change K and which do not.\n- Explain why adding a catalyst has no effect on the equilibrium position.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Le Chatelier's principle** states that if a system at equilibrium is disturbed, the system shifts in the direction that **counteracts (partially offsets) the disturbance**, until a new equilibrium is established. It is a qualitative way to predict the response of an equilibrium to changes in concentration, pressure, or temperature — and it is fully consistent with the quantitative Q-versus-K comparison.\n\n### Key Ideas\n\n- Adding a reactant or removing a product shifts the system toward products (and vice versa).\n- Increasing pressure (decreasing volume) shifts toward the side with **fewer moles of gas**.\n- Temperature changes **change the value of K**; concentration and pressure changes do not.\n- A catalyst speeds both directions equally and does **not** change the equilibrium position or K.\n\n### Equations and Variables\n\nThe principle is a verbal rule, but it maps onto the reaction quotient Q. For aA + bB ⇌ cC + dD:\n\n$$Q = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\qquad K = \\text{constant at fixed }T$$\n\nA disturbance changes Q (concentration, pressure) or K (temperature). The system shifts so that Q returns to K.\n\nThe temperature dependence of K is governed by the van 't Hoff relation:\n\n$$\\ln\\frac{K_2}{K_1} = -\\frac{\\Delta H^{\\circ}}{R}\\left(\\frac{1}{T_2} - \\frac{1}{T_1}\\right)$$\n\n### How It Works\n\n**Concentration.** Add more reactant → Q drops below K → the forward reaction is favored (shift right). Remove product → same response. Add product or remove reactant → shift left. K stays fixed because temperature is unchanged.\n\n**Pressure/volume.** For gases, decreasing volume increases pressure and favors the side with fewer gas molecules (reduces the total number of particles, lowering pressure). For N₂ + 3 H₂ ⇌ 2 NH₃ (4 mol gas → 2 mol gas), increasing pressure shifts right toward NH₃. If Δn = 0, pressure has no effect on the position.\n\n**Temperature.** This is the one disturbance that *changes K*. For an **exothermic** reaction (ΔH° < 0), heat is a product: raising T shifts the system left (reactant-favored) and K decreases. For an **endothermic** reaction (ΔH° > 0), heat is a reactant: raising T shifts right and K increases. Treat heat as a chemical you add or remove.\n\n**Catalyst.** A catalyst lowers Ea for both directions equally, so it reaches the *same* equilibrium faster — no shift, no change in K.\n\n### Worked Example\n\nConsider N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g), ΔH° = −92 kJ/mol (exothermic).\n\n**(a) Increase [N₂].** Q decreases, so the system shifts **right**, consuming N₂ and H₂ to form more NH₃. K is unchanged.\n\n**(b) Increase pressure (decrease volume).** 4 moles of gas → 2 moles of gas, so the system shifts **right**, toward fewer gas molecules. K is unchanged.\n\n**(c) Increase temperature.** The reaction is exothermic, so heat is a product. Adding heat shifts the equilibrium **left**, toward reactants, and **K decreases**.\n\n**(d) Add a catalyst.** No shift; the system simply reaches the same equilibrium faster. K is unchanged.",
+    "howItWorks": "**Concentration.** Add more reactant → Q drops below K → the forward reaction is favored (shift right). Remove product → same response. Add product or remove reactant → shift left. K stays fixed because temperature is unchanged.\n\n**Pressure/volume.** For gases, decreasing volume increases pressure and favors the side with fewer gas molecules (reduces the total number of particles, lowering pressure). For N₂ + 3 H₂ ⇌ 2 NH₃ (4 mol gas → 2 mol gas), increasing pressure shifts right toward NH₃. If Δn = 0, pressure has no effect on the position.\n\n**Temperature.** This is the one disturbance that *changes K*. For an **exothermic** reaction (ΔH° < 0), heat is a product: raising T shifts the system left (reactant-favored) and K decreases. For an **endothermic** reaction (ΔH° > 0), heat is a reactant: raising T shifts right and K increases. Treat heat as a chemical you add or remove.\n\n**Catalyst.** A catalyst lowers Ea for both directions equally, so it reaches the *same* equilibrium faster — no shift, no change in K.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- A disturbance is offset by a shift in the opposite \"direction\" of the change.\n- Concentration and pressure changes shift the position but do **not** change K (at fixed T).\n- Temperature changes **do** change K: exothermic → K↓ with T↑; endothermic → K↑ with T↑.\n- Pressure shift favors fewer gas moles; Δn = 0 means no pressure effect.\n- Catalyst: no effect on position or K, only on speed.",
+    "commonConfusions": "- **Thinking all disturbances change K.** Only temperature changes K.\n- **Treating pressure like temperature.** Pressure/volume changes shift the position but leave K fixed.\n- **Forgetting the sign of ΔH°.** Exothermic → heat is a product; endothermic → heat is a reactant.\n- **Expecting a catalyst to increase yield.** It only shortens the time to the same equilibrium.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nLe Chatelier's principle is chemistry's version of a stubborn see-saw: push it and it pushes back. Dump in more reactant and the reaction leans forward to use it up. Squeeze the container and the reaction leans toward whichever side has fewer gas molecules, easing the pressure. Heat it up and it leans away from the heat — exothermic reactions back off (making less product), endothermic ones lean in. Only temperature actually rewrites the rulebook (K); the other pushes just make the reaction shift along the same rulebook. And a catalyst? It's a better referee — it gets you to the settled see-saw faster but doesn't change where it settles.",
+    "quickReview": "1. State Le Chatelier's principle.\n2. Which way does an equilibrium shift when a product is removed?\n3. For a gas reaction, what effect does increasing pressure have, and on which side?\n4. Which single variable changes the value of K?\n5. Why doesn't a catalyst affect the equilibrium position?",
+    "workedExamples": "### Worked Example\n\nConsider N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g), ΔH° = −92 kJ/mol (exothermic).\n\n**(a) Increase [N₂].** Q decreases, so the system shifts **right**, consuming N₂ and H₂ to form more NH₃. K is unchanged.\n\n**(b) Increase pressure (decrease volume).** 4 moles of gas → 2 moles of gas, so the system shifts **right**, toward fewer gas molecules. K is unchanged.\n\n**(c) Increase temperature.** The reaction is exothermic, so heat is a product. Adding heat shifts the equilibrium **left**, toward reactants, and **K decreases**.\n\n**(d) Add a catalyst.** No shift; the system simply reaches the same equilibrium faster. K is unchanged.",
+    "references": [
+      {
+        "text": "OpenStax. *Chemistry 2e*. Ch. 13, \"Shifting Equilibria: Le Châtelier's Principle.\" https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle"
+      },
+      {
+        "text": "IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"Le Chatelier principle.\" https://goldbook.iupac.org/",
+        "url": "https://goldbook.iupac.org/"
+      },
+      {
+        "text": "Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman."
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "le-chateliers-principle",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "08-le-chateliers-principle",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:19259e261a0e04b7"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:19259e261a0e04b7"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:19259e261a0e04b7"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:19259e261a0e04b7"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/13-chemical-equilibrium/08-le-chateliers-principle.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Le Chatelier's Principle\n\n## Learning Goals\n\n- State Le Chatelier's principle.\n- Predict the effect of concentration, pressure/volume, and temperature changes on an equilibrium.\n- Explain which disturbances change K and which do not.\n- Explain why adding a catalyst has no effect on the equilibrium position.\n\n## Core Concept\n\n**Le Chatelier's principle** states that if a system at equilibrium is disturbed, the system shifts in the direction that **counteracts (partially offsets) the disturbance**, until a new equilibrium is established. It is a qualitative way to predict the response of an equilibrium to changes in concentration, pressure, or temperature — and it is fully consistent with the quantitative Q-versus-K comparison.\n\n## Key Ideas\n\n- Adding a reactant or removing a product shifts the system toward products (and vice versa).\n- Increasing pressure (decreasing volume) shifts toward the side with **fewer moles of gas**.\n- Temperature changes **change the value of K**; concentration and pressure changes do not.\n- A catalyst speeds both directions equally and does **not** change the equilibrium position or K.\n\n## Equations and Variables\n\nThe principle is a verbal rule, but it maps onto the reaction quotient Q. For aA + bB ⇌ cC + dD:\n\n$$Q = \\frac{[C]^c[D]^d}{[A]^a[B]^b}, \\qquad K = \\text{constant at fixed }T$$\n\nA disturbance changes Q (concentration, pressure) or K (temperature). The system shifts so that Q returns to K.\n\nThe temperature dependence of K is governed by the van 't Hoff relation:\n\n$$\\ln\\frac{K_2}{K_1} = -\\frac{\\Delta H^{\\circ}}{R}\\left(\\frac{1}{T_2} - \\frac{1}{T_1}\\right)$$\n\n## How It Works\n\n**Concentration.** Add more reactant → Q drops below K → the forward reaction is favored (shift right). Remove product → same response. Add product or remove reactant → shift left. K stays fixed because temperature is unchanged.\n\n**Pressure/volume.** For gases, decreasing volume increases pressure and favors the side with fewer gas molecules (reduces the total number of particles, lowering pressure). For N₂ + 3 H₂ ⇌ 2 NH₃ (4 mol gas → 2 mol gas), increasing pressure shifts right toward NH₃. If Δn = 0, pressure has no effect on the position.\n\n**Temperature.** This is the one disturbance that *changes K*. For an **exothermic** reaction (ΔH° < 0), heat is a product: raising T shifts the system left (reactant-favored) and K decreases. For an **endothermic** reaction (ΔH° > 0), heat is a reactant: raising T shifts right and K increases. Treat heat as a chemical you add or remove.\n\n**Catalyst.** A catalyst lowers Ea for both directions equally, so it reaches the *same* equilibrium faster — no shift, no change in K.\n\n## Worked Example\n\nConsider N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g), ΔH° = −92 kJ/mol (exothermic).\n\n**(a) Increase [N₂].** Q decreases, so the system shifts **right**, consuming N₂ and H₂ to form more NH₃. K is unchanged.\n\n**(b) Increase pressure (decrease volume).** 4 moles of gas → 2 moles of gas, so the system shifts **right**, toward fewer gas molecules. K is unchanged.\n\n**(c) Increase temperature.** The reaction is exothermic, so heat is a product. Adding heat shifts the equilibrium **left**, toward reactants, and **K decreases**.\n\n**(d) Add a catalyst.** No shift; the system simply reaches the same equilibrium faster. K is unchanged.\n\n## Why It Matters\n\nLe Chatelier's principle is how chemists manipulate industrial reactions to maximize yield. The Haber process uses high pressure (shifts right for fewer gas moles) and a moderate temperature (a compromise, since the reaction is exothermic) plus a catalyst to make ammonia efficiently. The same reasoning explains blood-oxygen transport (hemoglobin binding responds to O₂ and pH), buffer behavior, and countless other real equilibria.\n\n## High-Yield Facts\n\n- A disturbance is offset by a shift in the opposite \"direction\" of the change.\n- Concentration and pressure changes shift the position but do **not** change K (at fixed T).\n- Temperature changes **do** change K: exothermic → K↓ with T↑; endothermic → K↑ with T↑.\n- Pressure shift favors fewer gas moles; Δn = 0 means no pressure effect.\n- Catalyst: no effect on position or K, only on speed.\n\n## Eli Explains\n\nLe Chatelier's principle is chemistry's version of a stubborn see-saw: push it and it pushes back. Dump in more reactant and the reaction leans forward to use it up. Squeeze the container and the reaction leans toward whichever side has fewer gas molecules, easing the pressure. Heat it up and it leans away from the heat — exothermic reactions back off (making less product), endothermic ones lean in. Only temperature actually rewrites the rulebook (K); the other pushes just make the reaction shift along the same rulebook. And a catalyst? It's a better referee — it gets you to the settled see-saw faster but doesn't change where it settles.\n\n## Common Confusions\n\n- **Thinking all disturbances change K.** Only temperature changes K.\n- **Treating pressure like temperature.** Pressure/volume changes shift the position but leave K fixed.\n- **Forgetting the sign of ΔH°.** Exothermic → heat is a product; endothermic → heat is a reactant.\n- **Expecting a catalyst to increase yield.** It only shortens the time to the same equilibrium.\n\n## Quick Review\n\n1. State Le Chatelier's principle.\n2. Which way does an equilibrium shift when a product is removed?\n3. For a gas reaction, what effect does increasing pressure have, and on which side?\n4. Which single variable changes the value of K?\n5. Why doesn't a catalyst affect the equilibrium position?\n\n## Sources\n\n- OpenStax. *Chemistry 2e*. Ch. 13, \"Shifting Equilibria: Le Châtelier's Principle.\" https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle\n- IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"Le Chatelier principle.\" https://goldbook.iupac.org/\n- Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman.\n"
+}

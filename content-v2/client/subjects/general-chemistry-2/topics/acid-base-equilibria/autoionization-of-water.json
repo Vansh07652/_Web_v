@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:acid-base-equilibria:autoionization-of-water",
+  "slug": "autoionization-of-water",
+  "title": "Autoionization of Water and the Ion-Product Constant Kw",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:acid-base-equilibria",
+    "slug": "acid-base-equilibria",
+    "title": "Acid Base Equilibria",
+    "order": 5
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "Water is not just the solvent for acid–base chemistry — it is itself a weak acid and a weak base at once. In a tiny fraction of molecules, one H₂O donates a proton to a neighbor, producing H₃O⁺ and OH⁻ in a process called **autoionization**. This equilibrium is described by the ion-product constant Kw = [H₃O⁺][OH⁻] = 1.0 × 10⁻¹⁴ at 25 °C. Because the product of the two ion concentrations is *fixed* at a given temperature, knowing one ion's concentration instantly fixes the other in every aqueous solution — acidic, basic, or neutral.",
+    "whyItMatters": "Kw explains why \"neutral\" is not an absolute property of water but depends on temperature, and it lets you convert between [H₃O⁺] and [OH⁻] in blood, seawater, rain, and buffer solutions. It is the conceptual foundation of the pH scale and of the statement pH + pOH = pKw.",
+    "learningObjectives": "- Write the autoionization equilibrium for water.\n- State the value of Kw at 25 °C and explain why it is temperature-dependent.\n- Relate [H₃O⁺] and [OH⁻] in any aqueous solution through Kw.\n- Explain why pure water is neutral but still contains both ions.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nWater is not just the solvent for acid–base chemistry — it is itself a weak acid and a weak base at once. In a tiny fraction of molecules, one H₂O donates a proton to a neighbor, producing H₃O⁺ and OH⁻ in a process called **autoionization**. This equilibrium is described by the ion-product constant Kw = [H₃O⁺][OH⁻] = 1.0 × 10⁻¹⁴ at 25 °C. Because the product of the two ion concentrations is *fixed* at a given temperature, knowing one ion's concentration instantly fixes the other in every aqueous solution — acidic, basic, or neutral.\n\n### Key Ideas\n\n- **Autoionization:** 2 H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq); K is written as Kw.\n- **Kw value:** 1.0 × 10⁻¹⁴ at 25 °C; the pure-liquid water is omitted from the expression (it is a pure liquid with constant activity).\n- **Neutral water:** [H₃O⁺] = [OH⁻] = 1.0 × 10⁻⁷ M, so pH = 7.00 at 25 °C.\n- **Temperature dependence:** Kw *increases* with temperature (autoionization is endothermic), so at 100 °C Kw ≈ 5.1 × 10⁻¹³ and \"neutral\" pH is about 6.14, not 7.\n- **Product is invariant:** raising [H₃O⁺] (adding acid) forces [OH⁻] down, and vice versa, so the product stays equal to Kw.\n\n### Equations and Variables\n\n- Kw = [H₃O⁺][OH⁻]\n- At 25 °C: Kw = 1.0 × 10⁻¹⁴\n- pKw = −log Kw = 14.00 (at 25 °C)\n- In pure water: [H₃O⁺] = [OH⁻] = √Kw = 1.0 × 10⁻⁷ M\n- Rearrangement: [OH⁻] = Kw / [H₃O⁺] and [H₃O⁺] = Kw / [OH⁻]\n\n### How It Works\n\n1. Two water molecules collide; the O–H bond of one breaks heterolytically, and the released proton jumps onto the lone pair of the other water's oxygen.\n2. The donor becomes OH⁻ (hydroxide); the acceptor becomes H₃O⁺ (hydronium). The proton hop is fast — it occurs constantly in every drop of water.\n3. Because the forward reaction needs energy to break an O–H bond and separate charge, it is endothermic; raising temperature shifts the equilibrium right and enlarges Kw.\n4. In *any* aqueous solution, whatever acid or base you add changes one ion's concentration, but the other ion adjusts so that the product [H₃O⁺][OH⁻] always equals Kw at that temperature.\n5. This \"product rule\" is the master constraint behind every pH/pOH calculation.\n\n### Worked Example\n\n**The [OH⁻] in a sample of blood plasma is 2.5 × 10⁻⁷ M at 25 °C. Find [H₃O⁺] and state whether the plasma is acidic or basic.**\n\nUsing [H₃O⁺] = Kw / [OH⁻]:\n\n[H₃O⁺] = (1.0 × 10⁻¹⁴) / (2.5 × 10⁻⁷) = 4.0 × 10⁻⁸ M\n\nSince [OH⁻] (2.5 × 10⁻⁷ M) is *larger* than [H₃O⁺] (4.0 × 10⁻⁸ M), the solution is basic. Check: (4.0 × 10⁻⁸)(2.5 × 10⁻⁷) = 1.0 × 10⁻¹⁴ ✓.",
+    "howItWorks": "1. Two water molecules collide; the O–H bond of one breaks heterolytically, and the released proton jumps onto the lone pair of the other water's oxygen.\n2. The donor becomes OH⁻ (hydroxide); the acceptor becomes H₃O⁺ (hydronium). The proton hop is fast — it occurs constantly in every drop of water.\n3. Because the forward reaction needs energy to break an O–H bond and separate charge, it is endothermic; raising temperature shifts the equilibrium right and enlarges Kw.\n4. In *any* aqueous solution, whatever acid or base you add changes one ion's concentration, but the other ion adjusts so that the product [H₃O⁺][OH⁻] always equals Kw at that temperature.\n5. This \"product rule\" is the master constraint behind every pH/pOH calculation.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- 2 H₂O ⇌ H₃O⁺ + OH⁻, with Kw = [H₃O⁺][OH⁻] = 1.0 × 10⁻¹⁴ at 25 °C.\n- Pure water at 25 °C: both ions = 1.0 × 10⁻⁷ M; pH = pOH = 7.00.\n- Kw rises with temperature because autoionization is endothermic — \"neutral pH = 7\" is only true at 25 °C.\n- Water is excluded from the Kw expression (pure liquid, constant concentration).\n- Acidic: [H₃O⁺] > [OH⁻]; basic: [OH⁻] > [H₃O⁺]; neutral: equal.",
+    "commonConfusions": "- **\"Kw is a universal constant.\"** — It is fixed only at a given temperature; it doubles, triples, and more as you heat water.\n- **\"pH 7 is always neutral.\"** — Only at 25 °C; at 50 °C neutral water has pH < 7 even though [H₃O⁺] = [OH⁻].\n- **\"Adding acid destroys OH⁻ entirely.\"** — It drives [OH⁻] far down but never to zero; the product with [H₃O⁺] must stay at Kw.\n- **\"Water should be written in the Kw expression.\"** — Pure liquids and solids are omitted from equilibrium constants.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture water as a crowded dance floor where every so often two dancers swap a single hat (the proton). Usually everyone has their own hat, but in a rare moment one dancer hands their hat to a neighbor — now you have a dancer missing a hat (OH⁻) and one wearing two hats (H₃O⁺). The \"hat product rule\" (Kw) says: no matter how many extra hats you dump in, the number of hat-less dancers times the number of double-hatted dancers stays the same. (The analogy hides that the proton hop is a real bond-breaking event that needs energy, which is why heat changes Kw.)",
+    "quickReview": "- Autoionization: 2 H₂O ⇌ H₃O⁺ + OH⁻.\n- Kw = [H₃O⁺][OH⁻] = 1.0 × 10⁻¹⁴ at 25 °C; pKw = 14.00.\n- Endothermic → larger Kw at higher temperature.\n- Knowing one ion's concentration fixes the other: [OH⁻] = Kw/[H₃O⁺].\n- Neutral = equal concentrations, not a fixed pH number across temperatures.",
+    "workedExamples": "### Worked Example\n\n**The [OH⁻] in a sample of blood plasma is 2.5 × 10⁻⁷ M at 25 °C. Find [H₃O⁺] and state whether the plasma is acidic or basic.**\n\nUsing [H₃O⁺] = Kw / [OH⁻]:\n\n[H₃O⁺] = (1.0 × 10⁻¹⁴) / (2.5 × 10⁻⁷) = 4.0 × 10⁻⁸ M\n\nSince [OH⁻] (2.5 × 10⁻⁷ M) is *larger* than [H₃O⁺] (4.0 × 10⁻⁸ M), the solution is basic. Check: (4.0 × 10⁻⁸)(2.5 × 10⁻⁷) = 1.0 × 10⁻¹⁴ ✓.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.1 Brønsted-Lowry Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.2 pH and pOH.\" https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh"
+      },
+      {
+        "text": "NIST Chemistry WebBook (water). https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      },
+      {
+        "text": "Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/14-acid-base-equilibria/02-autoionization-of-water.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

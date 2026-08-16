@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-regulation-eukaryotes-and-epigenetics-0011",
+  "subject": "genetics",
+  "lesson": "gene-regulation-eukaryotes-and-epigenetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** sequence-analysis A microRNA has the guide strand 5' UUG CAG 3'. Which sequence, written 5' to 3', is the complementary target site expected in the messenger RNA of a gene it regulates?",
+  "options": [
+    {
+      "id": "a",
+      "text": "5' UUG CAG 3'"
+    },
+    {
+      "id": "b",
+      "text": "5' AAC GUC 3'"
+    },
+    {
+      "id": "c",
+      "text": "5' CAA GUC 3'"
+    },
+    {
+      "id": "d",
+      "text": "5' CUG CAA 3'"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "MicroRNAs base pair with their target messenger RNA antiparallel, so the target site is the reverse complement of the guide strand: 5' UUG CAG 3' pairs with 3' AAC GUC 5', which reads 5' CUG CAA 3' in the standard direction. A repeats the guide strand, which cannot pair with itself. B is the complement written in the same polarity as the guide rather than reversed, which would require parallel pairing. C shifts the register, misaligning the base pairs.",
+  "difficulty": "unknown",
+  "tags": [
+    "microrna",
+    "target",
+    "site"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-8ab599ccbbccc2db",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

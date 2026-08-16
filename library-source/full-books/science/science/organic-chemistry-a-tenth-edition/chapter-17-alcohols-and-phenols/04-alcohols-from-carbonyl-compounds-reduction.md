@@ -1,0 +1,165 @@
+---
+title: "Alcohols from Carbonyl Compounds: Reduction"
+subject: "Science"
+book: "Organic Chemistry: A Tenth Edition"
+chapter: "17: Alcohols and Phenols"
+topic_number: "4"
+source: "organic-chemistry.md"
+tags:
+  - "alcohols-from-carbonyl-compounds-reduction"
+  - "science"
+status: "complete"
+---
+
+# Alcohols from Carbonyl Compounds: Reduction
+
+> **Book:** [Organic Chemistry: A Tenth Edition](../../README.md)  
+> **Chapter:** [Chapter 17: Alcohols and Phenols](../README.md)  
+> **Topic:** 4  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Reduction of a carbonyl compound adds hydrogen across the C=O double bond: the carbon gains a hydride (\(\text{H}^-\)) and the oxygen gains a proton, converting the planar \(\text{sp}^2\) carbonyl carbon into a tetrahedral \(\text{sp}^3\) alcohol carbon. The product depends on the starting carbonyl: **aldehydes give primary alcohols**, **ketones give secondary alcohols**, and — with the more powerful reagent — **esters and carboxylic acids also give primary alcohols**. Two reagents dominate: **sodium borohydride** (\(\text{NaBH}_4\)), a mild hydride source that works in water or methanol and reduces only aldehydes and ketones among common groups, and **lithium aluminum hydride** (\(\text{LiAlH}_4\)), a powerful hydride source for anhydrous ether that also reduces esters, acids, amides, and nitriles.
+
+## Why This Matters
+
+Reduction is how chemists — and cells — convert carbonyls into alcohols. Biologically, enzymes such as alcohol dehydrogenase use the coenzyme NADH to deliver hydride to carbonyls (for example, converting pyruvate to lactate). In the lab, \(\text{NaBH}_4\) and \(\text{LiAlH}_4\) are the workhorses of pharmaceutical synthesis, and the **chemoselectivity** of \(\text{NaBH}_4\) (it leaves C=C bonds, esters, and nitro groups untouched) lets a chemist reduce one group without damaging others. Reduction is also the direct reverse of oxidation (Topic 7).
+
+## Core Concepts
+
+### What "reduction" means here
+
+In organic chemistry, reduction means the addition of hydrogen (or gain of electron density). The carbonyl carbon is \(\delta+\) because oxygen pulls electrons away; hydride, with its lone pair, is attracted to it. **Mechanism in words:** the hydride's electron pair forms a new C–H bond at the carbonyl carbon, and the \(\pi\) electrons of the C=O move onto the oxygen, creating an **alkoxide** (\(\text{R–CH}_2\text{–O}^-\)). Adding water or dilute acid (the **workup**) protonates the alkoxide to give the alcohol. The carbonyl carbon drops from oxidation state +1 (aldehyde) or +2 (ketone) to −1 (primary alcohol) or 0 (secondary alcohol).
+
+### Sodium borohydride: the mild reagent
+
+\(\text{NaBH}_4\) reduces **aldehydes and ketones** cleanly in methanol, ethanol, or water — protic solvents it tolerates because it reacts with them only slowly. It does **not** reduce esters, carboxylic acids, amides, or nitriles, and it leaves C=C double bonds alone. This selectivity is its greatest asset: an \(\alpha,\beta\)-unsaturated ketone is reduced only at the C=O (1,2-reduction), preserving the alkene. One \(\text{NaBH}_4\) can deliver up to four hydrides, so the stoichiometry is roughly one mole of borohydride per four moles of ketone.
+
+### Lithium aluminum hydride: the powerful reagent
+
+\(\text{LiAlH}_4\) reduces aldehydes, ketones, **esters, carboxylic acids, amides, and nitriles** — essentially every carbonyl. It reacts violently with water and alcohols, so it must be used in anhydrous diethyl ether or THF and quenched carefully. **Esters consume two hydrides**: the first addition gives an aldehyde, the second reduces it to a primary alcohol. Because the ester's alkoxy group (\(\text{–OR}\)) is expelled as an alkoxide, **an ester gives two alcohols**.
+
+### Chemoselectivity: which functional groups survive
+
+A single molecule often contains several reducible groups. \(\text{NaBH}_4\) lets you reduce a ketone while leaving an ester, a nitro group, or a halogen untouched; \(\text{LiAlH}_4\) is far less choosy. Neither reagent reduces isolated C=C bonds (that requires catalytic hydrogenation, Chapter 8), so an alkene survives.
+
+### Stereochemistry of ketone reduction
+
+The carbonyl is planar, and simple hydride reagents attack either face with equal probability: **an achiral ketone gives a racemic mixture** of alcohol enantiomers — a textbook illustration of why a *chiral* environment (reagent, catalyst, or substrate) is needed to make one enantiomer preferentially. In a ring, facial selectivity appears: reduction of 4-*tert*-butylcyclohexanone gives predominantly *trans*-4-*tert*-butylcyclohexanol (OH equatorial) — hydride approaches the more accessible face.
+
+## ELI-10: Explain Like I'm 10
+
+A carbonyl is a carbon double-bonded to an oxygen — imagine a seesaw with the carbon at the top. Reduction pushes that seesaw down: you add a hydrogen to the carbon and a hydrogen to the oxygen, the double bond becomes a single bond, and the molecule ends up with an OH handle — it has become an alcohol. Sodium borohydride is the gentle helper that does this to aldehydes and ketones without touching anything else; lithium aluminum hydride is the strong helper that can also do it to acids and esters, but it is so powerful you must keep water away.
+
+## High-Yield Points
+
+- Aldehyde + \(\text{NaBH}_4\) or \(\text{LiAlH}_4\) → **primary alcohol**; ketone + either → **secondary alcohol**.
+- \(\text{NaBH}_4\): mild, works in protic solvents, reduces only aldehydes/ketones among common groups.
+- \(\text{LiAlH}_4\): powerful, requires **anhydrous** conditions, also reduces esters, acids, amides, nitriles.
+- Ester + \(\text{LiAlH}_4\) → **two alcohols** (acyl-side primary alcohol plus the alkoxy alcohol).
+- Hydride attacks the carbonyl carbon; **isolated C=C bonds are not reduced** by these reagents.
+- An achiral ketone reduced by an achiral reagent gives a **racemic** alcohol — no facial preference.
+- The alkoxide becomes the alcohol only after the aqueous workup.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Hydride | An \(\text{H}^-\) equivalent — a hydrogen with an extra electron pair | The nucleophile that attacks the carbonyl carbon in reductions |
+| Alkoxide | \(\text{R–O}^-\), the anionic oxygen left after hydride addition | Must be protonated in workup to give the alcohol product |
+| Sodium borohydride (\(\text{NaBH}_4\)) | Mild hydride donor that reduces aldehydes/ketones in protic solvents | The selective reagent of choice when other groups must survive |
+| Lithium aluminum hydride (\(\text{LiAlH}_4\)) | Powerful hydride donor requiring anhydrous ether | Reduces esters, acids, amides, and nitriles too |
+| Chemoselectivity | The ability of a reagent to react with one functional group and not others | Lets you reduce a ketone while leaving an ester or C=C untouched |
+| Racemic mixture | Equal amounts of both enantiomers | The expected result of reducing an achiral ketone with an achiral reagent |
+
+## How It Works / Step-by-Step Process
+
+1. Identify the carbonyl: aldehyde, ketone, ester, or carboxylic acid — this fixes the product's substitution.
+2. Choose the reagent: \(\text{NaBH}_4\) for aldehydes/ketones; \(\text{LiAlH}_4\) when esters or acids must be reduced.
+3. Add the hydride: \(\text{H}^-\) attacks the carbonyl carbon; the C=O \(\pi\) pair moves to oxygen, forming the alkoxide.
+4. Work up with water or dilute acid to protonate the alkoxide (with \(\text{LiAlH}_4\), quench excess reagent carefully). If the carbonyl is cyclic or chiral, predict the major stereoisomer from face accessibility and product stability.
+
+## Worked Examples
+
+### Example 1: Stoichiometry of a NaBH₄ reduction
+
+**Problem:** How many grams of \(\text{NaBH}_4\) (molar mass 37.83 g/mol) reduce 0.500 mol of cyclohexanone, assuming one borohydride delivers four hydrides?
+
+The mole ratio is 1 mol \(\text{NaBH}_4\) : 4 mol ketone. Write the formula before substituting:
+
+\[
+n(\text{NaBH}_4) = \frac{n(\text{ketone})}{4} = \frac{0.500 \text{ mol}}{4} = 0.125 \text{ mol}
+\]
+
+Convert moles to grams with dimensional analysis:
+
+\[
+0.125 \text{ mol NaBH}_4 \times \frac{37.83 \text{ g NaBH}_4}{1 \text{ mol NaBH}_4} = 4.73 \text{ g NaBH}_4
+\]
+
+**Answer:** 4.73 g of sodium borohydride.
+
+### Example 2: Ester reduction gives two alcohols
+
+**Problem:** What forms when methyl benzoate, \(C_6H_5CO_2CH_3\), is treated with excess \(\text{LiAlH}_4\) in ether, then worked up?
+
+**Step 1 — First hydride:** \(\text{H}^-\) adds to the ester carbonyl carbon; the \(\text{–OCH}_3\) group leaves as methoxide, giving the aldehyde benzaldehyde, \(C_6H_5CHO\).
+
+**Step 2 — Second hydride:** \(\text{H}^-\) adds to the aldehyde carbon, giving the alkoxide \(C_6H_5CH_2O^-\).
+
+**Step 3 — Workup:** Protonation gives **benzyl alcohol**, \(C_6H_5CH_2OH\) (acyl side), and the methoxide becomes **methanol**, \(CH_3OH\). One ester, two alcohols.
+
+### Example 3: Chemoselectivity on an enone
+
+**Problem:** 4-Phenyl-3-buten-2-one, \(C_6H_5CH=CHCOCH_3\), is treated with one equivalent of \(\text{NaBH}_4\) in methanol. Which functional group reacts, and what is the product?
+
+The reagent attacks only the carbonyl carbon (1,2-reduction); the C=C is untouched because hydride does not add to double bonds. The product is 4-phenyl-3-buten-2-ol, \(C_6H_5CH=CHCH(OH)CH_3\) — the alkene survives (reducing it would require \(\text{H}_2\)/Pd). A classic demonstration of reagent-controlled chemoselectivity.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| NaBH₄ scope | LiAlH₄ scope | NaBH₄ reduces aldehydes/ketones only; LiAlH₄ also reduces esters, acids, amides, nitriles |
+| Reduction of a C=O | Hydrogenation of a C=C | Hydride reagents add H to the carbonyl carbon; \(\text{H}_2\)/metal adds H,H across alkenes |
+| Aldehyde reduction product | Ketone reduction product | Aldehydes → primary alcohols; ketones → secondary alcohols |
+| Reduction | Oxidation | Reduction adds H / gains electron density; oxidation removes H / adds C–O bonds (Topic 7) |
+| Ester reduction products | One alcohol | An ester gives **two** alcohols: the acyl-side alcohol plus the alkoxy alcohol |
+| Racemic product | No reaction | A racemate means reduction happened with no facial selectivity (planar carbonyl, achiral reagent) |
+| Alkoxide | Alcohol | The direct product is the alkoxide; the alcohol appears only after the workup protonates it |
+
+## Quick Review
+
+1. What are the products of reducing an aldehyde and a ketone with NaBH₄?
+2. Why must LiAlH₄ reactions be run in anhydrous ether while NaBH₄ works in methanol or water?
+3. An enone, \(C_6H_5CH=CHCOCH_3\), is treated with NaBH₄. What is reduced, and what survives?
+4. How many moles of NaBH₄ are needed to reduce 2.00 mol of cyclohexanone (four hydrides per borohydride)?
+5. Which two alcohols form when methyl benzoate is reduced with excess LiAlH₄?
+6. Why does reduction of an achiral ketone give a racemic mixture of alcohols?
+
+<details>
+<summary>Show answers</summary>
+
+1. Aldehyde → primary alcohol; ketone → secondary alcohol.
+2. LiAlH₄ reacts violently with protic solvents, so it requires anhydrous ether/THF; NaBH₄ reacts only slowly with them, so protic solvents are fine.
+3. The carbonyl is reduced (1,2-reduction) to give 4-phenyl-3-buten-2-ol; the C=C bond survives because hydride reagents do not reduce isolated or conjugated alkenes.
+4. \(n(\text{NaBH}_4) = 2.00/4 = 0.500\) mol — one mole of NaBH₄ per four moles of ketone.
+5. Benzyl alcohol (acyl side) and methanol (methoxy group).
+6. The planar carbonyl is attacked from either face with equal probability, giving equal amounts of both enantiomers.
+
+</details>
+
+## Related Topics
+
+- Previous: [Preparation of Alcohols: A Review](03-preparation-of-alcohols-a-review.md)
+- Next: [Alcohols from Carbonyl Compounds: Grignard Reaction](05-alcohols-from-carbonyl-compounds-grignard-reaction.md)
+- Related: [Oxidation of Alcohols](07-oxidation-of-alcohols.md), [Alcohols and Phenols chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Organic Chemistry: A Tenth Edition
+- Local outline source: `organic-chemistry.md`
+- Official source URL: https://openstax.org/details/books/organic-chemistry/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Molar masses and reagent-scope statements are standard teaching values; verify against current sources before relying on them in assessments.
+- Last updated: 2026-08-16

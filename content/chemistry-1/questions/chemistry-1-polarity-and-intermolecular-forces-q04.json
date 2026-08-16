@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-polarity-and-intermolecular-forces-q04",
+  "subject": "chemistry-1",
+  "lesson": "polarity-and-intermolecular-forces",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A beaker of liquid water is heated until it boils completely away at 100 degrees Celsius. Which forces are overcome during this process?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Only London dispersion forces, because hydrogen bonds persist unchanged in steam"
+    },
+    {
+      "id": "b",
+      "text": "The O-H covalent bonds inside each molecule, releasing hydrogen and oxygen atoms"
+    },
+    {
+      "id": "c",
+      "text": "Both the O-H covalent bonds and the hydrogen bonds, in roughly equal proportion"
+    },
+    {
+      "id": "d",
+      "text": "Attractions between molecules, mainly hydrogen bonds, while O-H covalent bonds stay intact"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Boiling is a physical change that separates intact molecules from one another, so only intermolecular attractions are disrupted. The energy scale confirms this: the average O-H covalent bond enthalpy is about 463 kJ/mol, while a single hydrogen bond in water is roughly 21 kJ/mol, a gap of 442 kJ/mol, and water's enthalpy of vaporization is only 40.7 kJ/mol. Steam is still H2O; if covalent bonds were broken, boiling water would generate hydrogen and oxygen gas, which it does not.\n\nELI-10: Water molecules in the liquid are stuck to each other by hydrogen bonds, like magnets on a fridge. Boiling pulls the magnets apart, but each molecule stays a molecule, which is why steam is still water. Splitting the O-H bonds inside a molecule is a chemical change that costs more than ten times as much energy per bond and would give you hydrogen and oxygen gas instead of steam. Any time you see melting, boiling, or evaporating, think intermolecular, not intramolecular.",
+  "difficulty": "medium",
+  "tags": [
+    "intermolecular vs intramolecular forces",
+    "hydrogen bonding",
+    "phase change energetics"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-275",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

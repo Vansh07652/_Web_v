@@ -1,0 +1,40 @@
+{
+  "id": "genetics-gene-regulation-prokaryotes-0012",
+  "subject": "genetics",
+  "lesson": "gene-regulation-prokaryotes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A mutation changes the two tryptophan codons in the *trpL* leader to alanine codons. The rest of the trp operon is wild type. When tryptophan is scarce, what is the expected behavior of the operon?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It is transcribed at high levels, exactly as in wild type."
+    },
+    {
+      "id": "b",
+      "text": "It is transcribed at high levels even when tryptophan is abundant."
+    },
+    {
+      "id": "c",
+      "text": "It is unaffected, because attenuation is controlled by the Trp repressor, not by the leader."
+    },
+    {
+      "id": "d",
+      "text": "It stays off, because the ribosome never stalls in the leader, so the terminator hairpin forms even though tryptophan is needed."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Attenuation works because the ribosome stalls at the leader's two tryptophan codons when tryptophan is scarce, blocking the terminator hairpin and allowing readthrough. With those codons changed to alanine, the ribosome never stalls, so the terminator always forms and transcription ends before the structural genes even when tryptophan is low. C is wrong because attenuation and repression are separate layers that both regulate the operon.",
+  "difficulty": "unknown",
+  "tags": [
+    "trpl",
+    "attenuator",
+    "mutant",
+    "prediction"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-3367b1216fd616d4",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

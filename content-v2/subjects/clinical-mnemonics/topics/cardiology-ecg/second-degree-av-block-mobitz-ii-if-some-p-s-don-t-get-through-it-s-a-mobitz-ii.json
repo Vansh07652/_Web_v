@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:clinical-mnemonics:cardiology-ecg:second-degree-av-block-mobitz-ii-if-some-p-s-don-t-get-through-it-s-a-mobitz-ii",
+  "slug": "second-degree-av-block-mobitz-ii-if-some-p-s-don-t-get-through-it-s-a-mobitz-ii",
+  "title": "Second-Degree AV Block, Mobitz II — \"If Some P's Don't Get Through, It's a Mobitz II\"",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics"
+  },
+  "unit": {
+    "id": "unit:clinical-mnemonics:cardiology-ecg",
+    "slug": "cardiology-ecg",
+    "title": "Cardiology & ECG",
+    "order": 2
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "Recognize Mobitz II: a constant PR interval (normal or prolonged) with intermittent, sudden dropped QRS complexes — a dangerous infranodal block that can progress to complete heart block.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- **P** — P waves with a constant PR interval\n- **Drop** — Sudden intermittent non-conducted P wave\n- **Below** — Infranodal block (bundle of His / bundle branches)",
+    "collegeNotes": "Recognize Mobitz II: a constant PR interval (normal or prolonged) with intermittent, sudden dropped QRS complexes — a dangerous infranodal block that can progress to complete heart block.\n\n### P — P waves with a constant PR interval\n\nConducted beats keep the same PR interval — no warning before trouble\n\nOn conducted beats, the PR interval in Mobitz II is constant — it may be normal or prolonged, but it does not lengthen before the dropped beat. This constancy is the key difference from Mobitz I.\n\n**Physiology.** The block in Mobitz II is below the AV node (His–Purkinje system). Infranodal conduction is \"all-or-none\" — the impulse either conducts at a fixed delay or is blocked suddenly, without the gradual fatigue of AV-nodal block.\n\n**Safety.** A constant PR with dropped beats is the discriminator for Mobitz II — do not mistake it for Wenckebach, which has a progressively lengthening PR.\n\n### Drop — Sudden intermittent non-conducted P wave\n\nA P wave is blocked with no preceding PR lengthening — out of the blue\n\nMobitz II is defined by intermittent non-conducted P waves without preceding PR prolongation. The dropped beats may follow a fixed ratio (2:1, 3:1) or occur irregularly. The conducted QRS complexes are often wide, reflecting bundle-branch disease.\n\n**Physiology.** Because the block sits in the His–Purkinje system, conduction is brittle: a small change in refractoriness causes an entire beat to drop suddenly. Coexisting bundle-branch block (wide QRS) reflects disease below the AV node.\n\n**Safety.** Mobitz II is not benign — it frequently progresses to complete heart block and generally requires a pacemaker even without symptoms.\n\n### Below — Infranodal block (bundle of His / bundle branches)\n\nThe block is below the AV node — deeper, more dangerous wiring\n\nThe site of block in Mobitz II is the bundle of His or the bundle branches (infranodal), frequently with coexisting bundle-branch block. This explains the risk of progression to complete heart block and the unreliable response to atropine, which primarily affects AV-nodal conduction.\n\n**Physiology.** The His–Purkinje system is high-velocity and low-redundancy. When it fails, the ventricles must rely on a slow escape rhythm, and conduction can fail entirely and abruptly — hence the danger and the indication for permanent pacing.\n\n**Safety.** Atropine is often ineffective for infranodal block — the treatment for Mobitz II is pacing, so prepare for it rather than relying on medication.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "- P = P waves with a constant PR interval\n- Drop = Sudden intermittent non-conducted P wave\n- Below = Infranodal block (bundle of His / bundle branches)",
+    "eli10": "It's a rhythm where some of the husband's calls suddenly don't get through — with no warning — because the wiring below the checkpoint is faulty. The beats that do get through always look the same distance apart.\n\n**P — P waves with a constant PR interval.** In Mobitz II the husband's arrival time is always the same — no \"getting later and later\" warning. The P wave and its R wave keep the exact same distance apart on the conducted beats.\n\n**Drop — Sudden intermittent non-conducted P wave.** \"Drop\" is the night the husband simply doesn't show up with no warning. On the ECG a P wave appears but no QRS follows — unpredictably, not in a tidy \"later and later\" pattern.\n\n**Below — Infranodal block (bundle of His / bundle branches).** \"Below\" reminds you the problem is below the checkpoint, down in the wiring that carries the signal into the bottom rooms. Wiring problems lower down are more dangerous because the whole system can suddenly fail.",
+    "quickReview": "- P = P waves with a constant PR interval — Conducted beats keep the same PR interval — no warning before trouble\n- Drop = Sudden intermittent non-conducted P wave — A P wave is blocked with no preceding PR lengthening — out of the blue\n- Below = Infranodal block (bundle of His / bundle branches) — The block is below the AV node — deeper, more dangerous wiring",
+    "workedExamples": "",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "second-degree-av-block-mobitz-ii-if-some-p-s-don-t-get-through-it-s-a-mobitz-ii",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-nursing-mnemonics",
+    "sourceFile": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json",
+    "sourceStatus": "CURRENT",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-clinical-mnemonics"
+  },
+  "sourceSnapshotMarkdown": "{\n  \"mnemonic\": \"Second-Degree AV Block, Mobitz II — \\\"If Some P's Don't Get Through, It's a Mobitz II\\\"\",\n  \"category\": \"Cardiology & ECG\",\n  \"purpose\": \"Recognize Mobitz II: a constant PR interval (normal or prolonged) with intermittent, sudden dropped QRS complexes — a dangerous infranodal block that can progress to complete heart block.\",\n  \"eli10_purpose\": \"It's a rhythm where some of the husband's calls suddenly don't get through — with no warning — because the wiring below the checkpoint is faulty. The beats that do get through always look the same distance apart.\",\n  \"status\": \"CURRENT\",\n  \"components\": [\n    {\n      \"symbol\": \"P\",\n      \"term\": \"P waves with a constant PR interval\",\n      \"association\": \"Conducted beats keep the same PR interval — no warning before trouble\",\n      \"eli10\": \"In Mobitz II the husband's arrival time is always the same — no \\\"getting later and later\\\" warning. The P wave and its R wave keep the exact same distance apart on the conducted beats.\",\n      \"clinical_explanation\": \"On conducted beats, the PR interval in Mobitz II is constant — it may be normal or prolonged, but it does not lengthen before the dropped beat. This constancy is the key difference from Mobitz I.\",\n      \"physiology\": \"The block in Mobitz II is below the AV node (His–Purkinje system). Infranodal conduction is \\\"all-or-none\\\" — the impulse either conducts at a fixed delay or is blocked suddenly, without the gradual fatigue of AV-nodal block.\",\n      \"safety_note\": \"A constant PR with dropped beats is the discriminator for Mobitz II — do not mistake it for Wenckebach, which has a progressively lengthening PR.\"\n    },\n    {\n      \"symbol\": \"Drop\",\n      \"term\": \"Sudden intermittent non-conducted P wave\",\n      \"association\": \"A P wave is blocked with no preceding PR lengthening — out of the blue\",\n      \"eli10\": \"\\\"Drop\\\" is the night the husband simply doesn't show up with no warning. On the ECG a P wave appears but no QRS follows — unpredictably, not in a tidy \\\"later and later\\\" pattern.\",\n      \"clinical_explanation\": \"Mobitz II is defined by intermittent non-conducted P waves without preceding PR prolongation. The dropped beats may follow a fixed ratio (2:1, 3:1) or occur irregularly. The conducted QRS complexes are often wide, reflecting bundle-branch disease.\",\n      \"physiology\": \"Because the block sits in the His–Purkinje system, conduction is brittle: a small change in refractoriness causes an entire beat to drop suddenly. Coexisting bundle-branch block (wide QRS) reflects disease below the AV node.\",\n      \"safety_note\": \"Mobitz II is not benign — it frequently progresses to complete heart block and generally requires a pacemaker even without symptoms.\"\n    },\n    {\n      \"symbol\": \"Below\",\n      \"term\": \"Infranodal block (bundle of His / bundle branches)\",\n      \"association\": \"The block is below the AV node — deeper, more dangerous wiring\",\n      \"eli10\": \"\\\"Below\\\" reminds you the problem is below the checkpoint, down in the wiring that carries the signal into the bottom rooms. Wiring problems lower down are more dangerous because the whole system can suddenly fail.\",\n      \"clinical_explanation\": \"The site of block in Mobitz II is the bundle of His or the bundle branches (infranodal), frequently with coexisting bundle-branch block. This explains the risk of progression to complete heart block and the unreliable response to atropine, which primarily affects AV-nodal conduction.\",\n      \"physiology\": \"The His–Purkinje system is high-velocity and low-redundancy. When it fails, the ventricles must rely on a slow escape rhythm, and conduction can fail entirely and abruptly — hence the danger and the indication for permanent pacing.\",\n      \"safety_note\": \"Atropine is often ineffective for infranodal block — the treatment for Mobitz II is pacing, so prepare for it rather than relying on medication.\"\n    }\n  ]\n}"
+}

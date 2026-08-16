@@ -1,0 +1,40 @@
+{
+  "id": "genetics-dna-structure-and-replication-0003",
+  "subject": "genetics",
+  "lesson": "dna-structure-and-replication",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A researcher compares two double stranded DNA molecules that are the same length. Molecule 1 is 70 percent GC and molecule 2 is 30 percent GC. Why does molecule 1 separate into single strands at a higher temperature?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A G=C base pair is held together by two hydrogen bonds, fewer than the three bonds of an A=T pair."
+    },
+    {
+      "id": "b",
+      "text": "The sugar phosphate backbone of a GC rich molecule carries more phosphodiester bonds per unit length."
+    },
+    {
+      "id": "c",
+      "text": "Guanine and cytosine are larger bases, so the helix of molecule 1 is physically harder to pull apart."
+    },
+    {
+      "id": "d",
+      "text": "A G=C base pair is held together by three hydrogen bonds, while an A=T pair forms only two."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "A G=C base pair is joined by three hydrogen bonds whereas an A=T pair is joined by two, so a molecule with more GC pairs needs more energy to separate its strands and melts at a higher temperature. Option A has the bond counts reversed, option B is wrong because every base pair sits in the same sugar phosphate backbone, and option C incorrectly invokes base size. Counting hydrogen bonds, not backbone or size differences, predicts the melting behavior.",
+  "difficulty": "unknown",
+  "tags": [
+    "gc",
+    "content",
+    "melting",
+    "temperature"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-5fcc89f16ce99a1e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

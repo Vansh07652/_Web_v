@@ -1,0 +1,41 @@
+{
+  "id": "genetics-population-genetics-and-evolution-0006",
+  "subject": "genetics",
+  "lesson": "population-genetics-and-evolution",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application In a malaria endemic region, the *HBB* locus has three genotypes: *AA* individuals are susceptible to malaria, *SS* individuals have sickle cell disease from the Glu6Val beta globin variant, and *AS* heterozygotes have malaria resistance without sickle cell disease. Which genotype has the highest fitness, and why does this maintain both alleles?",
+  "options": [
+    {
+      "id": "a",
+      "text": "*SS* has the highest fitness because sickled cells directly kill malaria parasites"
+    },
+    {
+      "id": "b",
+      "text": "*AA* has the highest fitness because it never produces sickled cells"
+    },
+    {
+      "id": "c",
+      "text": "*AS* has the highest fitness because it resists malaria without sickle cell disease"
+    },
+    {
+      "id": "d",
+      "text": "All three genotypes have equal fitness, so the alleles do not change frequency"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Fitness is the relative reproductive contribution of a genotype, and in a malaria endemic area the *AS* heterozygote is protected from malaria while retaining enough normal beta globin to avoid sickle cell disease. The *SS* homozygote suffers severe illness and the *AA* homozygote is vulnerable to malaria, so the fitness ranking is *AS* above *AA* above *SS*. This heterozygote advantage keeps both alleles at stable nonzero frequencies, a balanced polymorphism, instead of purging allele *S*.",
+  "difficulty": "unknown",
+  "tags": [
+    "heterozygote",
+    "advantage",
+    "sickle",
+    "cell",
+    "disease"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-c8080c5df327048e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

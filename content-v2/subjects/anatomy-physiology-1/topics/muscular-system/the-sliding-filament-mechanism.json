@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-1:muscular-system:the-sliding-filament-mechanism",
+  "slug": "the-sliding-filament-mechanism",
+  "title": "The Sliding Filament Mechanism",
+  "subject": {
+    "id": "subject:anatomy-physiology-1",
+    "slug": "anatomy-physiology-1",
+    "title": "Anatomy & Physiology I"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-1:muscular-system",
+    "slug": "muscular-system",
+    "title": "Muscular System",
+    "order": 7
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "This section explains **how a muscle actually shortens** at the molecular level: the **sliding filament theory**, the **cross-bridge cycle** of myosin pulling on actin, and the essential roles of **calcium** and **ATP**.",
+    "whyItMatters": "This is the core \"how it works\" of muscle. It explains why muscle needs calcium and ATP, why rigor mortis happens, and how energy or calcium problems impair movement — foundational for understanding muscle physiology and many clinical conditions.",
+    "learningObjectives": "- State the **sliding filament theory**.\n- Describe the **cross-bridge cycle** steps.\n- Explain the roles of **calcium** and **ATP** in contraction.\n- Explain how contraction ends (relaxation).",
+    "keyTerms": "- **Sliding filament theory** — muscle shortens because thin (actin) filaments slide over thick (myosin) filaments.\n- **Cross-bridge** — the connection formed when a myosin head binds actin.\n- **Calcium (Ca²⁺)** — the trigger that exposes actin's binding sites.\n- **ATP** — the energy source for myosin's power stroke and for detachment.\n- **Troponin / tropomyosin** — regulatory proteins that block or expose actin's binding sites.",
+    "collegeNotes": "**The big idea: filaments slide, they don't shorten.** In the **sliding filament theory**, the actin and myosin filaments themselves stay the same length; contraction happens because the thin (actin) filaments **slide inward over** the thick (myosin) filaments, pulling the Z discs closer together. Each sarcomere shortens, and millions doing so together shorten the whole muscle. Picture two interlocking combs pulling their teeth past each other so the combs overlap more — the combs don't shrink, but the pair gets shorter.\n\n**Calcium unlocks the process.** At rest, the actin filament's binding sites are **blocked by tropomyosin**, so myosin cannot attach. When a nerve signal releases **calcium** inside the fiber, the calcium binds **troponin**, which shifts **tropomyosin** aside and **exposes the binding sites** on actin. In short: no calcium, no contraction — calcium is the on-switch.\n\n**The cross-bridge cycle.** Once sites are exposed, myosin heads repeatedly grab, pull, and release actin, ratcheting the filaments along. The cycle has four steps, powered by ATP:\n\n1. **Cross-bridge formation:** an energized myosin head binds an exposed site on actin, forming a **cross-bridge**.\n2. **Power stroke:** the myosin head pivots, pulling the actin filament toward the sarcomere's center (this is the actual \"sliding\").\n3. **Cross-bridge detachment:** a new **ATP** molecule binds myosin, causing it to release actin.\n4. **Reactivation (cocking):** ATP is split (to ADP + phosphate), re-energizing and \"re-cocking\" the myosin head, ready to grab again.\n\nAs long as calcium and ATP are present, this cycle repeats many times per second, and the sarcomere keeps shortening — like a crew pulling a rope hand over hand.\n\n**Why ATP is needed twice.** ATP is required both to **detach** myosin from actin (step 3) and to **re-energize** the head (step 4). This dual role explains **rigor mortis**: after death, ATP production stops, so myosin cannot detach from actin, and the muscles stiffen in a locked, contracted state until the proteins break down.\n\n**Ending contraction (relaxation).** When nerve stimulation stops, calcium is actively pumped back into storage (the sarcoplasmic reticulum) using ATP. With calcium gone, troponin/tropomyosin re-cover the actin sites, cross-bridges can no longer form, and the muscle **relaxes** — passively returning to resting length (helped by elasticity and opposing muscles).",
+    "howItWorks": "The contraction sequence in order:\n\n```\nNerve signal → calcium released inside the fiber\n   → calcium binds troponin → tropomyosin moves → actin sites exposed\n   → myosin binds actin (cross-bridge) → power stroke pulls actin in\n   → ATP binds myosin → detach → ATP split → re-cock head → repeat\n   → sarcomeres shorten → muscle contracts\nSignal stops → calcium pumped back (uses ATP) → sites re-covered → muscle relaxes\n```",
+    "comparisons": "| Requirement | Role in contraction |\n| --- | --- |\n| Calcium (Ca²⁺) | Exposes actin binding sites (the trigger) |\n| ATP | Powers the power stroke, detachment, and re-cocking |\n| Troponin | Binds calcium; moves tropomyosin |\n| Tropomyosin | Blocks/exposes actin sites |\n\n| State | Calcium | ATP | Result |\n| --- | --- | --- | --- |\n| Contraction | Present | Present | Cross-bridge cycling |\n| Relaxation | Removed | Used to pump Ca²⁺ | Sites re-covered |\n| Rigor mortis | Present | Absent | Myosin locked to actin |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\nThis mechanism explains why **calcium imbalances** affect muscle function and why **ATP (energy) depletion** causes weakness and cramping. **Rigor mortis** is used in estimating time of death. Understanding calcium's trigger role connects to cardiac muscle (where calcium-channel blockers reduce contraction force) and to conditions affecting neuromuscular signaling. It also underlies why adequate oxygen and fuel (for ATP) are essential for sustained muscle work.",
+    "commonConfusions": "- **Filaments slide, they don't contract.** Actin and myosin keep their length; the sarcomere shortens by increased overlap.\n- **Calcium starts it; ATP powers it.** Two different requirements — don't merge them.\n- **ATP is needed to *relax* too** (to pump calcium back and to detach myosin) — this is why death causes stiffening, not limpness at first.\n- **Troponin vs tropomyosin.** Troponin binds calcium; tropomyosin is the strand that blocks/uncovers the sites.",
+    "memoryAids": "- **\"Calcium = the key that unlocks the door; ATP = the fuel that does the work.\"**\n- **Cross-bridge cycle: \"Bind, Pull, Detach, Recharge.\"**\n- **Rigor mortis = \"no ATP, no letting go.\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nA muscle shortens when tiny hooks pull ropes past each other, ratcheting them together — and it needs a \"start signal\" (calcium) plus \"fuel\" (ATP) to do it.\n\n### Analogy\nImagine a tug-of-war team pulling a rope hand over hand. The team members are the **myosin** \"hands,\" and the rope is the **actin** filament. When they grab, pull, let go, and grab again — over and over — the rope slides toward them and the whole thing gets shorter. But there's a catch: the rope is normally covered so no one can grab it. A signal (**calcium**) pulls off the cover, letting the hands grab. And every grab-pull-release needs **fuel** (**ATP**). When the signal stops, the cover slides back on and the muscle relaxes.\n\n### What is actually happening\nThe \"hands pulling rope\" is the real **cross-bridge cycle**, and the sliding ropes are why it's called the **sliding filament** mechanism — the ropes don't shrink, they just overlap more. **Calcium** uncovers the grab-spots on actin, and **ATP** powers both the pull and the letting-go. This is why muscles need energy even to *relax*: it explains **rigor mortis**, when a body runs out of ATP after death and the \"hands\" can't let go, so the muscles stiffen.\n\n### Where the analogy stops\nA tug-of-war team gets tired and quits, but healthy muscle can keep recharging and cycling as long as it has calcium and fuel — and it resets itself for the next pull automatically, faster than you can notice.",
+    "quickReview": "- **Sliding filament theory:** actin slides over myosin, pulling Z discs together; filaments don't change length, the sarcomere shortens.\n- **Calcium** binds troponin, moving tropomyosin to **expose actin's binding sites** — the trigger.\n- The **cross-bridge cycle** (bind → power stroke → detach → re-cock) is powered by **ATP** and repeats rapidly.\n- ATP is needed for the power stroke, for **detachment**, and to **pump calcium back** for relaxation — its absence causes **rigor mortis**.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 10.3: Muscle Fiber Contraction and Relaxation. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — Muscle Disorders. https://medlineplus.gov/muscledisorders.html",
+        "url": "https://medlineplus.gov/muscledisorders.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 42
+  },
+  "aliases": [
+    {
+      "value": "the-sliding-filament-mechanism",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "ap1-u07-s03",
+      "kind": "source_topic_id",
+      "source_id": "prenursing_notes"
+    },
+    {
+      "value": "03-the-sliding-filament-mechanism",
+      "kind": "source_file_stem",
+      "source_id": "prenursing_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:prenursing_notes:c965f234e804c941"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:prenursing_notes:c965f234e804c941"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:prenursing_notes:c965f234e804c941"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:prenursing_notes:c965f234e804c941"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/01-anatomy-physiology-i/07-muscular-system/03-the-sliding-filament-mechanism.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "\n# The Sliding Filament Mechanism\n\n## What This Topic Is\n\nThis section explains **how a muscle actually shortens** at the molecular level: the **sliding filament theory**, the **cross-bridge cycle** of myosin pulling on actin, and the essential roles of **calcium** and **ATP**.\n\n## Why It Matters\n\nThis is the core \"how it works\" of muscle. It explains why muscle needs calcium and ATP, why rigor mortis happens, and how energy or calcium problems impair movement — foundational for understanding muscle physiology and many clinical conditions.\n\n## Learning Objectives\n\n- State the **sliding filament theory**.\n- Describe the **cross-bridge cycle** steps.\n- Explain the roles of **calcium** and **ATP** in contraction.\n- Explain how contraction ends (relaxation).\n\n## Key Terms\n\n- **Sliding filament theory** — muscle shortens because thin (actin) filaments slide over thick (myosin) filaments.\n- **Cross-bridge** — the connection formed when a myosin head binds actin.\n- **Calcium (Ca²⁺)** — the trigger that exposes actin's binding sites.\n- **ATP** — the energy source for myosin's power stroke and for detachment.\n- **Troponin / tropomyosin** — regulatory proteins that block or expose actin's binding sites.\n\n## Core Explanation\n\n**The big idea: filaments slide, they don't shorten.** In the **sliding filament theory**, the actin and myosin filaments themselves stay the same length; contraction happens because the thin (actin) filaments **slide inward over** the thick (myosin) filaments, pulling the Z discs closer together. Each sarcomere shortens, and millions doing so together shorten the whole muscle. Picture two interlocking combs pulling their teeth past each other so the combs overlap more — the combs don't shrink, but the pair gets shorter.\n\n**Calcium unlocks the process.** At rest, the actin filament's binding sites are **blocked by tropomyosin**, so myosin cannot attach. When a nerve signal releases **calcium** inside the fiber, the calcium binds **troponin**, which shifts **tropomyosin** aside and **exposes the binding sites** on actin. In short: no calcium, no contraction — calcium is the on-switch.\n\n**The cross-bridge cycle.** Once sites are exposed, myosin heads repeatedly grab, pull, and release actin, ratcheting the filaments along. The cycle has four steps, powered by ATP:\n\n1. **Cross-bridge formation:** an energized myosin head binds an exposed site on actin, forming a **cross-bridge**.\n2. **Power stroke:** the myosin head pivots, pulling the actin filament toward the sarcomere's center (this is the actual \"sliding\").\n3. **Cross-bridge detachment:** a new **ATP** molecule binds myosin, causing it to release actin.\n4. **Reactivation (cocking):** ATP is split (to ADP + phosphate), re-energizing and \"re-cocking\" the myosin head, ready to grab again.\n\nAs long as calcium and ATP are present, this cycle repeats many times per second, and the sarcomere keeps shortening — like a crew pulling a rope hand over hand.\n\n**Why ATP is needed twice.** ATP is required both to **detach** myosin from actin (step 3) and to **re-energize** the head (step 4). This dual role explains **rigor mortis**: after death, ATP production stops, so myosin cannot detach from actin, and the muscles stiffen in a locked, contracted state until the proteins break down.\n\n**Ending contraction (relaxation).** When nerve stimulation stops, calcium is actively pumped back into storage (the sarcoplasmic reticulum) using ATP. With calcium gone, troponin/tropomyosin re-cover the actin sites, cross-bridges can no longer form, and the muscle **relaxes** — passively returning to resting length (helped by elasticity and opposing muscles).\n\n## How It Works\n\nThe contraction sequence in order:\n\n```\nNerve signal → calcium released inside the fiber\n   → calcium binds troponin → tropomyosin moves → actin sites exposed\n   → myosin binds actin (cross-bridge) → power stroke pulls actin in\n   → ATP binds myosin → detach → ATP split → re-cock head → repeat\n   → sarcomeres shorten → muscle contracts\nSignal stops → calcium pumped back (uses ATP) → sites re-covered → muscle relaxes\n```\n\n## Important Relationships and Comparisons\n\n| Requirement | Role in contraction |\n| --- | --- |\n| Calcium (Ca²⁺) | Exposes actin binding sites (the trigger) |\n| ATP | Powers the power stroke, detachment, and re-cocking |\n| Troponin | Binds calcium; moves tropomyosin |\n| Tropomyosin | Blocks/exposes actin sites |\n\n| State | Calcium | ATP | Result |\n| --- | --- | --- | --- |\n| Contraction | Present | Present | Cross-bridge cycling |\n| Relaxation | Removed | Used to pump Ca²⁺ | Sites re-covered |\n| Rigor mortis | Present | Absent | Myosin locked to actin |\n\n## High-Yield Pre-Nursing Connections\n\nThis mechanism explains why **calcium imbalances** affect muscle function and why **ATP (energy) depletion** causes weakness and cramping. **Rigor mortis** is used in estimating time of death. Understanding calcium's trigger role connects to cardiac muscle (where calcium-channel blockers reduce contraction force) and to conditions affecting neuromuscular signaling. It also underlies why adequate oxygen and fuel (for ATP) are essential for sustained muscle work.\n\n## Common Confusions\n\n- **Filaments slide, they don't contract.** Actin and myosin keep their length; the sarcomere shortens by increased overlap.\n- **Calcium starts it; ATP powers it.** Two different requirements — don't merge them.\n- **ATP is needed to *relax* too** (to pump calcium back and to detach myosin) — this is why death causes stiffening, not limpness at first.\n- **Troponin vs tropomyosin.** Troponin binds calcium; tropomyosin is the strand that blocks/uncovers the sites.\n\n## Memory Aids\n\n- **\"Calcium = the key that unlocks the door; ATP = the fuel that does the work.\"**\n- **Cross-bridge cycle: \"Bind, Pull, Detach, Recharge.\"**\n- **Rigor mortis = \"no ATP, no letting go.\"**\n\n## ELI-10 Explains\n\n### Simple idea\nA muscle shortens when tiny hooks pull ropes past each other, ratcheting them together — and it needs a \"start signal\" (calcium) plus \"fuel\" (ATP) to do it.\n\n### Analogy\nImagine a tug-of-war team pulling a rope hand over hand. The team members are the **myosin** \"hands,\" and the rope is the **actin** filament. When they grab, pull, let go, and grab again — over and over — the rope slides toward them and the whole thing gets shorter. But there's a catch: the rope is normally covered so no one can grab it. A signal (**calcium**) pulls off the cover, letting the hands grab. And every grab-pull-release needs **fuel** (**ATP**). When the signal stops, the cover slides back on and the muscle relaxes.\n\n### What is actually happening\nThe \"hands pulling rope\" is the real **cross-bridge cycle**, and the sliding ropes are why it's called the **sliding filament** mechanism — the ropes don't shrink, they just overlap more. **Calcium** uncovers the grab-spots on actin, and **ATP** powers both the pull and the letting-go. This is why muscles need energy even to *relax*: it explains **rigor mortis**, when a body runs out of ATP after death and the \"hands\" can't let go, so the muscles stiffen.\n\n### Where the analogy stops\nA tug-of-war team gets tired and quits, but healthy muscle can keep recharging and cycling as long as it has calcium and fuel — and it resets itself for the next pull automatically, faster than you can notice.\n\n## Quick Recap\n\n- **Sliding filament theory:** actin slides over myosin, pulling Z discs together; filaments don't change length, the sarcomere shortens.\n- **Calcium** binds troponin, moving tropomyosin to **expose actin's binding sites** — the trigger.\n- The **cross-bridge cycle** (bind → power stroke → detach → re-cock) is powered by **ATP** and repeats rapidly.\n- ATP is needed for the power stroke, for **detachment**, and to **pump calcium back** for relaxation — its absence causes **rigor mortis**.\n\n## Sources\n\n- OpenStax, *Anatomy and Physiology 2e*, Chapter 10.3: Muscle Fiber Contraction and Relaxation. https://openstax.org/details/books/anatomy-and-physiology-2e\n- U.S. National Library of Medicine, MedlinePlus — Muscle Disorders. https://medlineplus.gov/muscledisorders.html\n"
+}

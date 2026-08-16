@@ -1,0 +1,196 @@
+---
+title: "Solubility"
+subject: "Science"
+book: "Chemistry: Atoms First 2e"
+chapter: "11: Solutions and Colloids"
+topic_number: "3"
+source: "chemistry-atoms-first-2e.md"
+tags:
+  - "solubility"
+  - "science"
+status: "complete"
+---
+
+# Solubility
+
+> **Book:** [Chemistry: Atoms First 2e](../../README.md)  
+> **Chapter:** [Chapter 11: Solutions and Colloids](../README.md)  
+> **Topic:** 3  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Solubility** is the maximum amount of solute that can dissolve in a given amount of solvent at a specified temperature — the practical heart of solution chemistry. Some substances dissolve almost without limit (ethanol and water mix in any proportion); others barely dissolve at all (chalk in water, ~0.0006 g per 100 mL). This topic explains what sets that limit, how temperature and pressure move it, and how to express and convert solubility values. Master two patterns: **"like dissolves like"** decides *whether* something dissolves; **temperature and pressure** decide *how much*.
+
+## Why This Matters
+
+- **Medication dosing:** A drug's solubility sets how it is formulated (tablet, syrup, injection) and how fast it can enter the bloodstream; poorly soluble drugs are a major formulation challenge.
+- **Lakes and fisheries:** Oxygen dissolves in water — but *less* at higher temperature, which is why warm summer lakes stress fish and why thermal pollution matters.
+- **Carbonated drinks:** CO₂ is forced into soda under pressure (Henry's law); the fizz on opening is dissolved gas escaping as pressure drops.
+- **Diving safety:** Nitrogen dissolves in blood under high pressure; ascending too fast makes it come out of solution and form bubbles — decompression sickness. (Follow certified dive training only.)
+- **Exams:** Solubility-curve reading, Henry's-law calculations, and "which is more soluble" comparisons are standard questions.
+
+## Core Concepts
+
+### What solubility is (and is not)
+
+Solubility is an **equilibrium property**: the maximum solute that stays dissolved while undissolved solute remains in contact with the solution, at a fixed temperature. It is reported as grams per 100 g of water (or per 100 mL), as g/L, or as molarity. Solubility is not a rate — sugar can dissolve quickly or slowly, but its *solubility* is the same at a given temperature — and it is substance-specific: no single number describes "soluble" without naming solute, solvent, and temperature.
+
+### Like dissolves like, revisited
+
+The polarity rule from the dissolution topic governs solubility directly: polar solvents (water) dissolve ionic and polar solutes; nonpolar solvents (hexane, CCl₄) dissolve nonpolar solutes. This is why NaCl (ionic) is soluble in water but not in gasoline, and why wax (nonpolar) is soluble in hexane but not in water. Exceptions exist (large molecules with mixed regions, like soap, dissolve partly in both), but the rule correctly predicts most everyday cases.
+
+### Temperature effects on solubility
+
+For most **solid** solutes in water, solubility **increases with temperature** — sugar and KNO₃ follow strongly, which is how rock candy forms as a hot sugar solution cools. A minority of solids (e.g., Ca(OH)₂, some sulfates) become *less* soluble as temperature rises; it depends on whether dissolution is endothermic (hotter helps) or exothermic (hotter hurts).
+
+For **gases** in water, solubility **decreases with temperature** — warmer water holds less dissolved oxygen and CO₂. This opposite behavior is a classic exam trap: never apply the solid pattern to gases.
+
+### Pressure effects: Henry's law
+
+Pressure has essentially no effect on the solubility of solids or liquids, but it strongly affects **gases**. Henry's law states that the concentration of a dissolved gas is proportional to its partial pressure above the solution:
+
+\[
+C = k_H P
+\]
+
+where \(C\) is the gas concentration in solution (mol/L), \(P\) is the partial pressure of the gas (atm), and \(k_H\) is the Henry's-law constant for that gas–solvent pair at a given temperature (with units mol L⁻¹ atm⁻¹). Doubling the pressure doubles the dissolved gas concentration — the physics behind carbonation, oxygen delivery in incubators, and decompression safety.
+
+### Solubility curves
+
+A **solubility curve** plots solubility (g solute per 100 g water) against temperature. A point on the curve means saturated, below it unsaturated, above it supersaturated. Steep curves (KNO₃) mean strong temperature dependence; nearly flat curves (NaCl) mean temperature barely matters.
+
+## ELI-10: Explain Like I'm 10
+
+> Solubility is how much of a thing can hide inside the water before the water says "no more room." Hot water usually makes room for more solid — that's why more sugar dissolves in hot tea than in cold. But gases are the opposite: cold water holds more air, which is why fish survive better in cold lakes. And if you squeeze the air above a drink harder (more pressure), even more gas gets pushed into the water — that's exactly how soda gets its fizz.
+
+## High-Yield Points
+
+- **Solubility = maximum solute that dissolves** at a given temperature; it is an equilibrium property, not a rate.
+- **Like dissolves like** decides whether dissolution happens; temperature and pressure decide how much.
+- **Solids in water:** usually more soluble at higher temperature (KNO₃, sugar); a few become less soluble (Ca(OH)₂).
+- **Gases in water:** always *less* soluble at higher temperature.
+- **Henry's law:** \(C = k_H P\) — gas solubility ∝ partial pressure; pressure barely affects solids/liquids.
+- A solubility curve's slope tells you how strongly temperature matters; flat curve = weak dependence.
+- Units matter: g/100 g water, g/L, and mol/L (molarity) are all used — convert carefully.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Solubility | Max solute that dissolves in a given solvent at a given temperature | The practical limit for every solution you prepare |
+| Saturated solution | At the solubility limit, in equilibrium with undissolved solute | The reference state for all solubility comparisons |
+| Unsaturated solution | Below the limit; can dissolve more solute | The usual state of solutions in the lab and body |
+| Supersaturated solution | Temporarily holds more solute than equilibrium | Unstable; crystallizes when disturbed |
+| Like dissolves like | Polar/ionic solutes dissolve in polar solvents; nonpolar in nonpolar | The first predictor of whether dissolution occurs |
+| Henry's law constant \(k_H\) | Proportionality constant for gas solubility vs. pressure | Converts pressure into dissolved-gas concentration |
+| Solubility curve | Graph of solubility vs. temperature | Instant saturated/unsaturated diagnosis |
+| Partial pressure | The pressure a single gas contributes in a gas mixture | The \(P\) that drives that gas's solubility (Henry's law) |
+
+## Worked Examples
+
+### Example 1: Henry's law — oxygen in water
+
+The Henry's-law constant for O₂ in water at 25 °C is \(1.3 \times 10^{-3}\ \text{mol L}^{-1}\text{atm}^{-1}\). (a) What is the O₂ concentration in water in equilibrium with air at 1.00 atm total pressure, if O₂'s partial pressure in air is 0.21 atm? (b) What if the partial pressure doubles to 0.42 atm?
+
+**(a) Write the formula, then substitute:**
+
+\[
+C = k_H P = (1.3 \times 10^{-3}\ \text{mol L}^{-1}\text{atm}^{-1})(0.21\ \text{atm}) = 2.7 \times 10^{-4}\ \text{mol L}^{-1}
+\]
+
+**(b) Double the pressure:**
+
+\[
+C = k_H P = (1.3 \times 10^{-3}\ \text{mol L}^{-1}\text{atm}^{-1})(0.42\ \text{atm}) = 5.5 \times 10^{-4}\ \text{mol L}^{-1}
+\]
+
+Dimensional check: atm cancels, leaving mol/L. Doubling the pressure exactly doubles the concentration — the linear signature of Henry's law, and why oxygen-enriched environments dissolve more O₂ in blood plasma.
+
+### Example 2: Converting solubility units — NaCl
+
+Table salt has a solubility of about 35.9 g per 100 g of water at 25 °C. Express this as (a) grams per liter of water and (b) molarity. Use the density of water as 1.00 g/mL and the molar mass of NaCl as 58.44 g/mol.
+
+**(a) Convert 100 g of water to liters (formula before substitution):**
+
+\[
+V = 100\ \text{g} \times \frac{1\ \text{mL}}{1.00\ \text{g}} \times \frac{1\ \text{L}}{1000\ \text{mL}} = 0.100\ \text{L}
+\]
+
+\[
+\text{solubility} = \frac{35.9\ \text{g}}{0.100\ \text{L}} = 359\ \text{g L}^{-1}
+\]
+
+**(b) Convert to molarity:**
+
+\[
+n = \frac{35.9\ \text{g}}{58.44\ \text{g mol}^{-1}} = 0.614\ \text{mol}
+\qquad
+M = \frac{0.614\ \text{mol}}{0.100\ \text{L}} = 6.14\ \text{mol L}^{-1}
+\]
+
+Dimensional check: g cancels inside each conversion, leaving L⁻¹ then mol/L. A 6.14 M result tells you salt water is concentrated — a useful reference for judging other solubilities.
+
+### Example 3: Reading a solubility curve
+
+At 20 °C, KNO₃'s solubility is about 32 g per 100 g water; at 60 °C it is about 110 g per 100 g water. (a) Is a solution of 50 g KNO₃ in 100 g water at 20 °C saturated, unsaturated, or supersaturated? (b) How much more KNO₃ can dissolve at 60 °C?
+
+**(a)** At 20 °C the limit is 32 g. Holding 50 g exceeds the limit, so the solution is **supersaturated** — unstable, and it will crystallize if disturbed (or if a seed crystal is added).
+
+**(b)** The amount that can additionally dissolve is the difference between the two limits:
+
+\[
+110\ \text{g} - 32\ \text{g} = 78\ \text{g per 100 g water}
+\]
+
+The steep rise (32 → 110 g over 40 °C) shows KNO₃'s strong temperature dependence — the classic "purify by cooling" behavior used in labs.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Solubility | Rate of dissolving | Solubility is the *limit* at equilibrium; rate is how fast you reach it — stirring changes rate, not solubility |
+| Temperature effect on solids | Temperature effect on gases | Most solids get *more* soluble when heated; gases always get *less* soluble when heated |
+| Henry's law for gases | "Like dissolves like" for solids | Henry's law sets the *amount* of gas by pressure; polarity decides *whether* a solid dissolves at all |
+| Supersaturated | Saturated | Saturated = at the limit (stable); supersaturated = beyond the limit (unstable, crystallizes on disturbance) |
+| Solubility in g/100 g water | Molarity | g/100 g is a mass ratio; molarity is mol per liter of *solution* — convert via molar mass and density |
+| High solubility | Fast dissolution | A highly soluble substance can still dissolve slowly as a large chunk; surface area controls rate |
+| Pressure effect on gases | Pressure effect on solids/liquids | Pressure strongly affects gas solubility but is negligible for solids and liquids |
+
+## Quick Review
+
+1. Define solubility and explain why it is an equilibrium property rather than a rate.
+2. State the effect of increasing temperature on (a) most solid solutes in water and (b) gases in water.
+3. Write Henry's law, define every symbol with units, and predict what happens to \(C\) if pressure triples.
+4. At 25 °C, CO₂ has \(k_H = 3.4 \times 10^{-2}\ \text{mol L}^{-1}\text{atm}^{-1}\). What is its concentration in water under a CO₂ partial pressure of 1.0 atm? Under 2.5 atm?
+5. The solubility of sugar is about 204 g per 100 g water at 20 °C. Is a solution holding 150 g sugar in 100 g water saturated, unsaturated, or supersaturated?
+6. Why does a warm carbonated drink go flat faster than a cold one?
+
+<details>
+<summary>Show answers</summary>
+
+1. Solubility is the maximum amount of solute that can dissolve in a given solvent at a given temperature, set by the equilibrium between dissolved and undissolved solute — a thermodynamic limit, independent of how fast dissolution happens.
+2. (a) Most solids become more soluble at higher temperature; (b) gases become less soluble at higher temperature.
+3. \(C = k_H P\), with \(C\) in mol/L, \(P\) in atm, \(k_H\) in mol L⁻¹ atm⁻¹. If \(P\) triples, \(C\) triples (linear proportionality).
+4. \(C = (3.4 \times 10^{-2})(1.0) = 3.4 \times 10^{-2}\ \text{mol/L}\); at 2.5 atm, \(C = (3.4 \times 10^{-2})(2.5) = 8.5 \times 10^{-2}\ \text{mol/L}\).
+5. Unsaturated — 150 g is below the 204 g limit, so more sugar could still dissolve.
+6. Gas solubility decreases with temperature, so a warm drink holds less CO₂; the dissolved gas escapes faster, and the drink goes flat sooner.
+
+</details>
+
+## Related Topics
+
+- Previous: [Electrolytes](02-electrolytes.md)
+- Next: [Colligative Properties](04-colligative-properties.md)
+- Related: [Solutions and Colloids chapter overview](../README.md)
+- Related: [The Dissolution Process](01-the-dissolution-process.md) — the mechanism behind solubility limits
+- Related: [Electrolytes](02-electrolytes.md) — which dissolved species exist in a solution
+- Related: [Gases](../chapter-08-gases/README.md) — partial pressures that drive Henry's law
+
+## Source Notes
+
+- Book: Chemistry: Atoms First 2e
+- Local outline source: `chemistry-atoms-first-2e.md`
+- Official source URL: https://openstax.org/details/books/chemistry-atoms-first-2e/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-16

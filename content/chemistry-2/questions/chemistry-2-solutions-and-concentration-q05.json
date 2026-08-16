@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-solutions-and-concentration-q05",
+  "subject": "chemistry-2",
+  "lesson": "solutions-and-concentration",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "The solubility of a salt is 36 g per 100 mL of water at 20 degrees C. A student stirs 90 g of this salt into 250 mL of water at 20 degrees C until no more dissolves. Which description of the resulting solution is accurate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Supersaturated, because the 90 g of dissolved salt exceeds the 36 g in the solubility value"
+    },
+    {
+      "id": "b",
+      "text": "Unsaturated, because additional salt would still dissolve if the mixture were stirred longer"
+    },
+    {
+      "id": "c",
+      "text": "Supersaturated, because the mixture was stirred until no further solid would dissolve"
+    },
+    {
+      "id": "d",
+      "text": "Saturated, because 250 mL of water dissolves exactly 90 g at this temperature"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Solubility is a ratio that scales with the quantity of solvent: (36 g / 100 mL) x 250 mL = 90 g, so this solution contains exactly the maximum dissolvable amount and is saturated with no excess solid present. Choices A and C confuse saturated with supersaturated; a supersaturated solution holds more solute than the equilibrium value and must be produced indirectly, typically by saturating at a higher temperature and cooling slowly without disturbance. Stirring longer cannot exceed the equilibrium limit, so choice B misattributes an equilibrium ceiling to slow kinetics.\n\nELI-10: The number 36 is meaningless without the phrase per 100 mL attached to it, so never compare 90 g to 36 g directly. Scale the ratio to the solvent you actually have: 250 mL is 2.5 times 100 mL, so the ceiling is 2.5 x 36 = 90 g. Adding exactly the ceiling amount gives a saturated solution, meaning it holds the maximum at that temperature and any further solid would sit undissolved. Supersaturated is a different, unstable state produced by a temperature trick, not by stirring harder or waiting longer.",
+  "difficulty": "medium",
+  "tags": [
+    "saturation",
+    "solubility as a ratio",
+    "saturated vs supersaturated"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-278",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

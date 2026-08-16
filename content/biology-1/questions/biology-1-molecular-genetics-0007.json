@@ -1,0 +1,39 @@
+{
+  "id": "biology-1-molecular-genetics-0007",
+  "subject": "biology-1",
+  "lesson": "molecular-genetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A **point mutation** changes the codon GAA to GAG. Because the genetic code is degenerate, both GAA and GAG specify glutamic acid, so the protein sequence is unchanged. What type of mutation is this?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Nonsense mutation"
+    },
+    {
+      "id": "b",
+      "text": "Missense mutation"
+    },
+    {
+      "id": "c",
+      "text": "Silent mutation"
+    },
+    {
+      "id": "d",
+      "text": "Frameshift mutation"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "A silent mutation changes the DNA sequence but not the amino acid it encodes, because several codons can specify the same amino acid. A nonsense mutation would create a stop codon and truncate the protein, and a missense mutation would change the amino acid. A frameshift mutation would alter the reading frame, which has not happened here.",
+  "difficulty": "unknown",
+  "tags": [
+    "silent",
+    "mutation",
+    "classification"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-2692bbd1e4c2f67c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

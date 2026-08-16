@@ -1,0 +1,135 @@
+---
+title: "Additional Care Settings in the Community"
+subject: "Nursing"
+book: "Medical-Surgical Nursing"
+chapter: "36: Home Health Nursing and Rehabilitation"
+topic_number: "3"
+source: "medical-surgical-nursing.md"
+tags:
+  - "additional-care-settings-in-the-community"
+  - "nursing"
+status: "complete"
+---
+
+# Additional Care Settings in the Community
+
+> **Book:** [Medical-Surgical Nursing](../../README.md)  
+> **Chapter:** [Chapter 36: Home Health Nursing and Rehabilitation](../README.md)  
+> **Topic:** 3  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Not everyone who needs care can receive it at home, and not everyone needs a hospital. Between the acute care floor and the patient's front door lies a web of community settings: skilled nursing facilities, assisted living, long-term care (nursing homes), adult day health centers, hospice, palliative care, and outpatient clinics. The central idea is **matching the level of care to the level of need** — the right care, in the right place, at the right time.
+
+The medical-surgical nurse meets these settings at the bedside: discharge planning depends on knowing what each option offers — home with services, a short skilled-nursing stay for rehabilitation, long-term residential care, or comfort-focused hospice care.
+
+## Why This Matters
+
+- **Discharge safety:** A setting that cannot meet the patient's needs — or one more intensive than needed — creates risk: falls, medication errors, unmet needs, and avoidable readmissions.
+- **Patient and family education:** Families ask "What does this place do?" and "What will insurance cover?" The nurse's honest, plain-language explanation shapes their decisions.
+- **Continuity of care:** Each setting has different staffing, supervision, and therapy capacity; knowing the differences makes handoffs realistic instead of assumption-based.
+- **Scope and regulation:** Community settings are licensed differently from hospitals; scope of practice, staffing, and payment rules vary by state and payer.
+
+## Core Concepts
+
+### Skilled nursing facilities (SNFs)
+
+A skilled nursing facility provides 24-hour nursing care and rehabilitative therapy for people who need more than can be managed at home but less than acute hospitalization. SNFs serve **short-stay residents** recovering from surgery, stroke, or serious illness who need therapy before returning home, and **long-stay residents** needing ongoing nursing care. Care is "skilled" when it must be delivered by licensed nursing or therapy staff (for example, complex wound care or daily rehabilitation). Whether a stay is covered depends on the payer, medical necessity, and documented progress — the nurse's documentation is central.
+
+### Assisted living and residential care
+
+Assisted living residences provide housing, meals, personal care (bathing, dressing, medication reminders), and supervision — but not the 24-hour skilled nursing care of an SNF. They suit people who cannot manage fully independently but do not need round-the-clock nursing. Because staffing is less intensive, the discharge assessment must be honest about what assisted living can and cannot handle.
+
+### Long-term care (nursing homes)
+
+Long-term care facilities provide 24-hour nursing supervision and assistance with daily living for people who can no longer live independently, often because of advanced chronic illness, dementia, or severe functional decline. Much of the care is custodial (ADL assistance, meals, supervision) rather than restorative. Quality is monitored through regulation, inspection, and publicly reported measures.
+
+### Adult day health care and respite services
+
+Adult day health centers provide structured supervision, activities, meals, and some health services during daytime hours for people who live at home but cannot be left alone safely. Respite care offers temporary relief to family caregivers — a few hours, a weekend, or longer. Both rest on one recognition: **family caregivers are part of the care system**, and supporting them keeps people at home longer and safer.
+
+### Hospice and palliative care
+
+**Palliative care** is specialized care focused on comfort, symptom management, and quality of life for people with serious illness — and it can be provided alongside curative treatment, at any stage. **Hospice** is a specific model of palliative care near the end of life, generally once cure-oriented treatment has stopped; it is interdisciplinary, supports the family including bereavement care, and can be delivered at home, in a facility, or in a hospice unit. The nurse does not decide eligibility but should recognize when a goals-of-care conversation is overdue and bring it to the team.
+
+### Outpatient and community health settings
+
+Beyond residential care, the community includes outpatient clinics, primary care practices, and community health centers — including federally qualified health centers (FQHCs) serving underserved populations regardless of ability to pay. These settings provide follow-up care, chronic disease management, and increasingly telehealth visits: where problems are caught before they become readmissions.
+
+### How settings are chosen
+
+Choosing a setting is a team decision driven by a **needs assessment**: functional status (ADLs, mobility, cognition), medical complexity (wounds, IV therapy, monitoring), home safety, caregiver availability, and the person's own preferences. Case managers and discharge planners know the local options and payer rules (Medicare, Medicaid, private insurance, and self-pay all differ). The nurse's contribution is the clinical picture — an accurate, current assessment of what the patient can and cannot do; institutional policy governs who makes referrals.
+
+## ELI-10: Explain Like I'm 10
+
+Think of care settings like seats on a long train ride. Some people need a wheelchair (a nursing home with 24-hour help), some need a seat with extra support (assisted living), some need someone to check on them during the day (adult day care), and some can walk to their own seat (home with visiting nurses). The trick is picking the seat that gives exactly the help needed — not so little that the person is unsafe, and not so much that they lose independence they still have.
+
+## High-Yield Points
+
+- **Match the setting to the need:** SNF = 24-hour nursing + therapy; assisted living = housing + personal care; long-term care = 24-hour supervision and custodial care; adult day care = daytime supervision and caregiver relief.
+- **Skilled vs. custodial care:** skilled care requires licensed nursing or therapy services; custodial care is assistance with daily living — the distinction drives payment and placement.
+- **Hospice vs. palliative care:** palliative care accompanies treatment at any stage; hospice is end-of-life-focused after curative treatment stops. Both are interdisciplinary and family-centered.
+- Placement decisions come from a **needs assessment** (function, medical complexity, home safety, caregivers, preferences); the nurse supplies the clinical picture.
+- Coverage rules vary by payer and state and hinge on documented medical necessity — **documentation matters**.
+- **Caregiver support is patient care:** respite and adult day services keep families sustainable.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Skilled nursing facility (SNF) | Facility with 24-hour nursing care and rehabilitative therapy for short- or long-stay residents | The main post-acute destination for patients needing skilled care and therapy |
+| Assisted living | Residential setting offering housing, meals, personal care, and supervision without 24-hour skilled nursing | A common step-down option for people who cannot live alone but do not need nursing-home care |
+| Long-term care facility | Facility providing 24-hour supervision and custodial care for people unable to live independently | The traditional "nursing home"; quality is regulated and publicly monitored |
+| Palliative care | Comfort-focused care for serious illness, providable alongside curative treatment | Expands comfort care beyond the end of life |
+| Hospice | End-of-life-focused interdisciplinary care after curative treatment is stopped | A distinct model with its own eligibility rules, team, and family supports |
+| Respite care | Temporary relief for family caregivers, from hours to weeks | Supports the caregiver system that keeps many people at home |
+
+## Example: Choosing the right setting for Mr. Delgado
+
+Mr. Delgado, 79, is being discharged after surgery to repair a hip fracture. He can transfer from bed to chair with one person assisting, walk a few steps with a walker, and manage his meals — but his wife is 77, has heart disease, and cannot safely help him stand. Their home has stairs to the bedroom, and no family lives nearby.
+
+The team considers the options. Home health physical therapy alone would be unsafe — his wife cannot assist with transfers and the bedroom is upstairs. Assisted living could provide meals and personal care, but he still needs daily physical therapy and nursing assessments. The team recommends a **short stay in a skilled nursing facility** for rehabilitation: daily PT and OT, nursing care, and a fall-safe environment, with the goal of returning home once he can transfer more independently.
+
+The nurse's contribution was the functional assessment and an honest conversation with the couple about what Mr. Delgado could do, what his wife could not safely do, and what the rehab goal realistically was. The case manager verified coverage and admission requirements.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Skilled nursing facility | Assisted living | SNF provides 24-hour skilled nursing and therapy; assisted living provides housing, meals, and personal care |
+| Long-term care | Rehabilitative care | Long-term care is custodial (maintenance); rehabilitation is restorative — though SNFs often provide both to different residents |
+| Palliative care | Hospice | Palliative care accompanies treatment at any stage; hospice is the end-of-life model once curative treatment stops |
+
+## Quick Review
+
+1. What is the difference between skilled care and custodial care, and why does it matter?
+2. A patient needs daily physical therapy and a skilled nursing assessment but will be ready to go home in two to three weeks. Which setting fits, and why?
+3. How does hospice differ from palliative care?
+4. Name two services whose primary purpose is supporting family caregivers, and explain why that matters for patient safety.
+5. What information does the bedside nurse contribute to a placement decision?
+
+<details>
+<summary>Show answers</summary>
+
+1. Skilled care must be delivered by licensed nursing or therapy staff (e.g., complex wound care, daily rehabilitation); custodial care is assistance with daily living. The distinction drives placement, staffing, and payer coverage.
+2. A skilled nursing facility (SNF) — it provides 24-hour nursing care plus daily rehabilitation therapy, exactly what this patient needs until able to return home.
+3. Palliative care is comfort-focused care for serious illness that can accompany curative treatment at any stage; hospice is the end-of-life model provided after curative treatment is stopped, with a full interdisciplinary team and bereavement support.
+4. Adult day health centers (daytime supervision) and respite care (temporary relief). They keep caregivers from burning out — exhausted caregivers cannot provide safe care.
+5. An accurate, current assessment of function (ADLs, mobility, cognition), medical complexity and care needs, safety observations, and the patient's and family's preferences — the clinical picture the team uses to choose the setting.
+
+</details>
+
+## Related Topics
+
+- Previous: [Rehabilitative Care](02-rehabilitative-care.md)
+- Next: [Transition and Continuity of Care](04-transition-and-continuity-of-care.md)
+- Related: [Home Health Nursing and Rehabilitation chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Medical-Surgical Nursing
+- Local outline source: `medical-surgical-nursing.md`
+- Official source URL: https://openstax.org/details/books/medical-surgical-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure. Concepts presented for learning; licensing, staffing, eligibility, and coverage rules vary by state and payer and must be verified against current local references before any placement decision.
+- Last updated: 2026-08-15

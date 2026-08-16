@@ -1,0 +1,151 @@
+---
+title: "Epidemiologic Measures"
+subject: "Nursing"
+book: "Population Health for Nurses"
+chapter: "12: Epidemiology for Informing Population/Community Health Decisions"
+topic_number: "5"
+source: "population-health.md"
+tags:
+  - "epidemiologic-measures"
+  - "nursing"
+status: "complete"
+---
+
+# Epidemiologic Measures
+
+> **Book:** [Population Health for Nurses](../../README.md)  
+> **Chapter:** [Chapter 12: Epidemiology for Informing Population/Community Health Decisions](../README.md)  
+> **Topic:** 5  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Epidemiology compares groups, and comparison requires measurement. This topic covers the quantitative language of the field: **counts, ratios, proportions, and rates**; the two great measures of disease occurrence, **incidence** and **prevalence**; and the measures that quantify association (**relative risk**, **odds ratio**, **attributable risk**) and impact (**attributable risk percent**, **population attributable fraction**). The recurring theme is the **denominator**: every meaningful measure specifies *how many people*, over *what time*, and *in which population*. A rate is not a number; it is a relationship between cases, population, and time. Master these definitions and reading studies, interpreting surveillance reports, and planning prevention become arithmetic instead of guesswork.
+
+## Why This Matters
+
+Nurses meet these measures constantly: "the incidence of falls on this unit," "the prevalence of diabetes in our community," "smokers have twice the risk," "the case fatality was 5%." Misreading them changes practice — quoting a relative risk without its absolute context overstates danger, and comparing two communities by raw case counts instead of rates produces nonsense conclusions. Public health decisions, from where to open a clinic to whether to declare an outbreak, rest on these definitions. For the nurse, understanding what a numerator and denominator actually mean is also a patient-safety skill: it is the difference between alarming a community and informing it.
+
+## Core Concepts
+
+### The four building blocks: counts, ratios, proportions, and rates
+
+A **count** is the raw number of events (e.g., 40 new cases). A **ratio** is one number divided by another, where the two need not be related (e.g., male-to-female cases, 2:1). A **proportion** is a ratio in which the numerator is *included in* the denominator — the fraction of a population that has the characteristic (e.g., 40 cases out of 2,000 people = 0.02 or 2%); proportions range from 0 to 1. A **rate** adds **time** to the denominator: cases per population per unit of time, such as "12 new cases per 1,000 people per year." Rates are the only measure that lets you compare disease occurrence between populations of different sizes or over different time spans.
+
+### Prevalence: the pool of existing disease
+
+**Prevalence** counts *existing* cases in a defined population at a given time.
+
+- **Point prevalence** = (number of existing cases at a moment) ÷ (population at that moment).
+- **Period prevalence** = cases existing at any time during a window ÷ average population over the window.
+
+Prevalence describes the **burden** of disease — how much exists now — guiding staffing, services, and resources. It is a snapshot, not a flow: it rises when new cases appear *or* when people live longer with the condition (improved survival). For stable situations, **prevalence ≈ incidence × average duration of disease**, so a chronic condition can have high prevalence but low incidence, and vice versa.
+
+### Incidence: the flow of new cases
+
+**Incidence** counts *new* cases over a period of time — the rate at which people become ill. Two versions:
+
+- **Cumulative incidence (risk)** = (number of new cases during the period) ÷ (number of people at risk at the start). It is a proportion with no units of time in the denominator, and it assumes everyone was followed for the full period.
+**Person-time** is the sum of time each person was observed and at risk (e.g., 1,000 person-years could be 1,000 people followed one year or 500 followed two). Because it accounts for people entering, leaving, or dying during follow-up, the incidence rate is the more precise measure used in most surveillance reporting.
+
+Incidence is the measure of **risk** — the probability that a person in the population will develop the condition — and it is the foundation of etiologic (cause-seeking) research.
+
+### Measures of association: comparing exposed and unexposed
+
+To ask "does exposure matter?", compare the occurrence of disease between exposed and unexposed groups.
+
+- **Risk ratio / relative risk (RR)** = risk in the exposed ÷ risk in the unexposed (from cohort studies or trials). RR = 1 means no association; RR > 1 means higher risk in the exposed group; RR < 1 means lower risk (protective).
+- **Odds ratio (OR)** = odds of exposure in cases ÷ odds of exposure in controls (from case-control studies, calculated as *ad/bc* from a 2×2 table). When the outcome is rare, the OR closely approximates the RR; when the outcome is common, the OR overstates the RR and should be interpreted with care.
+- **Risk difference / attributable risk (AR)** = risk in exposed − risk in unexposed. This is the *excess* risk that can be attributed to the exposure — arguably the most useful number for public health, because it states how many cases per population would be prevented if the exposure were removed (assuming the association is causal).
+
+### Measures of impact: how much does the exposure matter to the population?
+
+- **Attributable risk percent (ARP)** = (risk exposed − risk unexposed) ÷ risk exposed × 100 — the proportion of cases *among the exposed* attributable to the exposure.
+- **Population attributable fraction (PAF)** additionally accounts for how common the exposure is: a large RR applied to a rare exposure affects few people, while a modest RR applied to a common exposure can drive most of a population's cases. PAF tells decision-makers where intervention will yield the greatest community benefit.
+
+### Rates in practice: attack rates and mortality measures
+
+During outbreaks, the **attack rate** — (number of people who became ill) ÷ (number exposed) over the outbreak period — measures how widely an exposure spread; the **secondary attack rate** counts new cases among contacts of known cases and reflects person-to-person transmission. Among mortality measures, the **case-fatality ratio** (deaths among those with the disease) is a *proportion*, not a rate, and describes severity, while **crude mortality rates** describe deaths per population per time. Because crude rates mix populations of different age structures, **standardized (adjusted) rates** apply a common age structure so comparisons reflect real risk differences rather than age differences. What matters here is knowing *which measure answers which question*; exact formulas are found in current epidemiology references.
+
+## ELI-10: Explain Like I'm 10
+
+Imagine a swimming pool. Prevalence is how many swimmers are in the pool right now — a snapshot. Incidence is how many new swimmers jump in each hour — the flow of new arrivals. If you want to know whether one pool is more dangerous than another, you don't count raw accidents; you count accidents per swimmer per hour — that's a rate. And "twice the risk" means two swimmers of the same type in a risky pool get hurt where only one would in a safe pool.
+
+## High-Yield Points
+
+- **Count → ratio → proportion → rate**: a rate is the only measure with time built into the denominator.
+- **Prevalence = existing cases ÷ population** (snapshot of burden); **incidence = new cases over time** (measure of risk).
+- Prevalence ≈ incidence × duration: rising survival can raise prevalence without any change in new cases.
+- **Incidence rate uses person-time** in the denominator; cumulative incidence (risk) assumes complete follow-up.
+- **RR = risk exposed ÷ risk unexposed** (cohort/trials); **OR = odds of exposure in cases ÷ odds in controls** (case-control); OR ≈ RR only for rare outcomes.
+- **Attributable risk (risk difference)** = excess risk from exposure; **PAF** = share of population cases attributable to the exposure (depends on both RR and exposure prevalence).
+- **Attack rate** describes outbreak spread; **case-fatality ratio** is a proportion describing severity, not a rate.
+- **Standardized rates** allow fair comparison between populations with different age structures.
+- Always ask: numerator? denominator? time? population? — a rate without these is not interpretable.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Count | Raw number of events | The starting point; cannot be compared across populations alone |
+| Proportion | Numerator included in denominator (0 to 1) | Expresses the fraction of a population affected |
+| Rate | Events per population per unit of time | The only measure that permits fair comparison across populations |
+| Prevalence | Existing cases ÷ population at a point in time | Measures current burden; guides services and resources |
+| Incidence | New cases over a period, per population or person-time | Measures risk of developing the condition |
+| Person-time | Sum of observed time at risk across all participants | Correctly accounts for people entering/leaving follow-up |
+| Relative risk (RR) | Risk in exposed ÷ risk in unexposed | The core measure of association from cohort studies/trials |
+| Odds ratio (OR) | Odds of exposure in cases ÷ odds in controls | The measure from case-control studies; approximates RR for rare outcomes |
+| Attributable risk | Risk exposed − risk unexposed | Excess risk attributable to the exposure |
+| Attack rate | Ill among the exposed during an outbreak | Practical measure of how widely an exposure spread |
+
+## Example / Clinical Scenario
+
+A community health team studies respiratory illness among 2,000 workers at a plant, 500 of whom work in a dustier area (exposed) and 1,500 elsewhere (unexposed). Over one year, 40 exposed workers and 24 unexposed workers develop the condition. **Cumulative incidence**: exposed = 40 ÷ 500 = 0.08 (8%); unexposed = 24 ÷ 1,500 = 0.016 (1.6%). **Relative risk** = 0.08 ÷ 0.016 = 5.0 — exposed workers had five times the risk of unexposed workers. **Attributable risk** = 0.08 − 0.016 = 0.064 (6.4%) — for every 100 exposed workers, roughly 6.4 cases per year are excess, attributable to the dusty area (if the association is causal). **Attributable risk percent** = 6.4 ÷ 8 × 100 = 80% — four of every five cases among exposed workers are attributable to the exposure. To express burden at the *population* level, the team computes the **population attributable fraction** using the exposure's prevalence among all workers (500 ÷ 2,000 = 25%) — showing how many of all 64 cases could theoretically be avoided by removing the exposure. All numbers here are hypothetical and chosen to make the arithmetic easy. The team then presents the *absolute* numbers (6.4 excess cases per 100 exposed workers per year) alongside the relative risk, because reporting only "five times the risk" frightens workers without conveying how much disease actually occurs.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Prevalence | Incidence | Existing cases (snapshot of burden) vs new cases over time (measure of risk) |
+| Cumulative incidence | Incidence rate | Risk is a proportion over a defined period; the rate uses person-time and handles variable follow-up |
+| Relative risk | Odds ratio | RR comes from cohort studies/trials; OR from case-control studies; OR ≈ RR only for rare outcomes |
+| Case-fatality ratio | Mortality rate | CFR is deaths among cases (severity, a proportion); mortality rate is deaths per population per time |
+| Attributable risk | Population attributable fraction | AR is excess risk among the exposed; PAF weighs that excess by how common the exposure is in the population |
+| A rate | A proportion | A rate has time in the denominator; a proportion does not |
+| RR = 2 (relative) | "Twice as many cases" in absolute terms | A doubling of a small risk (1% → 2%) is a small absolute increase even though the relative increase is large |
+
+## Quick Review
+
+1. What distinguishes a rate from a proportion, and why does the distinction matter?
+2. In one town, 200 people currently have diabetes out of 10,000 residents; 40 new cases were diagnosed this year. Which number is prevalence and which is incidence?
+3. Why can prevalence rise even when the number of new cases stays the same?
+4. A cohort study finds risk of 10% in exposed and 2% in unexposed. Compute the relative risk and the attributable risk.
+5. When does an odds ratio closely approximate a relative risk?
+6. Why do epidemiologists use standardized rates when comparing communities?
+
+<details>
+<summary>Show answers</summary>
+
+1. A rate includes time in the denominator (events per population per time); a proportion does not. Rates allow fair comparison across populations of different sizes and follow-up durations.
+2. Prevalence: 200 ÷ 10,000 = 2% (existing cases ÷ population). Incidence: 40 new cases during the year (with person-time or population at risk in the denominator).
+3. Because prevalence ≈ incidence × duration of disease — if people live longer with the condition (better survival), the pool of existing cases grows even with no change in new cases.
+4. Relative risk = 0.10 ÷ 0.02 = 5. Attributable risk = 0.10 − 0.02 = 0.08, or 8 excess cases per 100 exposed (if causal).
+5. When the outcome is rare in the population, the odds ratio approximates the relative risk; for common outcomes the OR overstates the RR.
+6. Standardized (adjusted) rates apply a common age structure to both populations, so differences reflect true risk differences rather than differences in age composition.
+</details>
+
+## Related Topics
+
+- Previous: [Types of Study Design](04-types-of-study-design.md)
+- Next: [Communicating Inferences from Epidemiologic Data](06-communicating-inferences-from-epidemiologic-data.md)
+- Related: [Epidemiological Approaches](03-epidemiological-approaches.md)
+- Chapter: [Chapter 12: Epidemiology for Informing Population/Community Health Decisions](../README.md)
+
+## Source Notes
+
+- Book: Population Health for Nurses
+- Local outline source: `population-health.md`
+- Official source URL: https://openstax.org/details/books/population-health/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: educational material only — not medical advice. All example numbers are hypothetical and chosen for arithmetic clarity; no real-world statistics, clinical facts, or screening/treatment recommendations are asserted. Standard formulas are presented conceptually — verify exact definitions against a current epidemiology reference before use in practice.
+- Last updated: 2026-08-16

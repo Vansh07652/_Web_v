@@ -1,0 +1,40 @@
+{
+  "id": "genetics-genomics-and-bioinformatics-0009",
+  "subject": "genetics",
+  "lesson": "genomics-and-bioinformatics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A 500 base pair sequence is 95% identical between humans and mice, but it contains no open reading frame and no annotated protein coding gene. Which conclusion is best supported by these observations?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The sequence is conserved across species and therefore likely has a functional role, such as a regulatory element, even though it does not encode a protein."
+    },
+    {
+      "id": "b",
+      "text": "The sequence must encode a protein because it is so highly conserved."
+    },
+    {
+      "id": "c",
+      "text": "The sequence is probably nonfunctional junk because it does not encode a protein."
+    },
+    {
+      "id": "d",
+      "text": "The sequence is conserved because it is replicated early in the cell cycle."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Conservation across evolutionary distance is a strong bioinformatic signature of function, and many functional elements such as regulatory regions do not encode proteins. Option B is contradicted by the absence of an open reading frame. Option C ignores the conservation evidence, and option D proposes a mechanism with no support, because replication timing does not drive sequence conservation.",
+  "difficulty": "unknown",
+  "tags": [
+    "conserved",
+    "noncoding",
+    "sequence",
+    "function"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-16973b1c51d4a9a2",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

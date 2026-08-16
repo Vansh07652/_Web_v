@@ -1,0 +1,39 @@
+{
+  "id": "genetics-human-genetics-and-medical-applications-0010",
+  "subject": "genetics",
+  "lesson": "human-genetics-and-medical-applications",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A patient treated with a thiopurine drug develops severe bone marrow suppression because the drug is cleared too slowly. A pharmacogenetic test shows reduced activity of the enzyme that metabolizes thiopurines. Which gene is most directly implicated?",
+  "options": [
+    {
+      "id": "a",
+      "text": "*PAH*, encoding phenylalanine hydroxylase"
+    },
+    {
+      "id": "b",
+      "text": "*TPMT*, encoding thiopurine methyltransferase"
+    },
+    {
+      "id": "c",
+      "text": "*HEXA*, encoding hexosaminidase A"
+    },
+    {
+      "id": "d",
+      "text": "*CFTR*, encoding the CFTR chloride channel"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "*TPMT* (6p22.3) encodes thiopurine methyltransferase, the enzyme that metabolizes thiopurine drugs, and inherited low activity slows drug clearance and increases toxicity; *CYP2D6* is a similar example of a polymorphic drug metabolizing enzyme. *PAH* encodes phenylalanine hydroxylase, which converts phenylalanine to tyrosine and is the locus for phenylketonuria, not drug metabolism. *HEXA* encodes hexosaminidase A (Tay Sachs disease), and *CFTR* encodes the chloride channel mutated in cystic fibrosis.",
+  "difficulty": "unknown",
+  "tags": [
+    "pharmacogenetics",
+    "thiopurine",
+    "metabolism"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-b66cd1f7b546d85d",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

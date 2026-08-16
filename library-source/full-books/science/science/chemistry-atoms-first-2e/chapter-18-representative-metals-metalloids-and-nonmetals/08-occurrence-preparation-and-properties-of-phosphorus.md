@@ -1,0 +1,200 @@
+---
+title: "Occurrence, Preparation, and Properties of Phosphorus"
+subject: "Science"
+book: "Chemistry: Atoms First 2e"
+chapter: "18: Representative Metals, Metalloids, and Nonmetals"
+topic_number: "8"
+source: "chemistry-atoms-first-2e.md"
+tags:
+  - "occurrence-preparation-and-properties-of-phosphorus"
+  - "science"
+status: "complete"
+---
+
+# Occurrence, Preparation, and Properties of Phosphorus
+
+> **Book:** [Chemistry: Atoms First 2e](../../README.md)  
+> **Chapter:** [Chapter 18: Representative Metals, Metalloids, and Nonmetals](../README.md)  
+> **Topic:** 8  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Phosphorus (P, atomic number 15) is nitrogen's larger, more restless cousin in Group 15: it is never found free in nature because it is too reactive and too easily oxidized. Every phosphorus atom on Earth is locked inside phosphate compounds: in rocks such as apatite, in soils, and in every living cell, where phosphate groups build DNA, RNA, and the energy currency ATP. The element comes in striking allotropes: white phosphorus, a waxy, toxic solid that bursts into flame in air and glows in the dark; red phosphorus, a safer polymer used on match striking surfaces; and black phosphorus, a stable layered form. This topic covers where phosphorus is found, how it is extracted from phosphate rock in an electric furnace, and the compounds that make it indispensable to agriculture, biology, and industry.
+
+## Why This Matters
+
+Phosphorus is a limiting nutrient: plants cannot grow without it, and phosphate fertilizer is mined, not made from air — a finite strategic resource. Understanding phosphate chemistry explains why fertilizer contains phosphorus, why phosphate runoff causes algal blooms, why bones are built from calcium phosphate, and why ATP is the cell's "energy currency". White phosphorus is also a safety story: it ignites spontaneously in air, so it is stored under water. On exams, phosphorus tests your grasp of allotropy (same element, different structures and reactivities), oxidation states (+3 vs +5), and furnace-reaction stoichiometry.
+
+## Core Concepts
+
+### Occurrence: phosphate rock and living matter
+
+Phosphorus is about the 11th most abundant element in Earth's crust by mass, but it always appears combined as phosphates. The main minerals are **apatite**, \( \mathrm{Ca_5(PO_4)_3(F,OH,Cl)} \) — most commonly fluorapatite — and **phosphorite** (phosphate rock), essentially calcium phosphate, \( \mathrm{Ca_3(PO_4)_2} \), with impurities. In biology, phosphorus appears in bones and teeth (hydroxyapatite, \( \mathrm{Ca_5(PO_4)_3OH} \)), in the phosphate backbone of DNA and RNA, in phospholipid membranes, and in ATP.
+
+### Preparation: the electric furnace
+
+Because phosphorus is too reactive to occur free, it is made by reducing phosphate rock with carbon at very high temperature, using sand (\( \mathrm{SiO_2} \)) to remove calcium as slag:
+
+\[
+\mathrm{2\,Ca_3(PO_4)_2(s) + 6\,SiO_2(s) + 10\,C(s) \xrightarrow{\Delta} P_4(g) + 6\,CaSiO_3(l) + 10\,CO(g)}
+\]
+
+The reaction runs at about 1400–1500 °C in an electric furnace. The \( \mathrm{P_4} \) vapor (white phosphorus) distills off, condenses under water, and is stored there because it ignites in air.
+
+### Allotropes of phosphorus
+
+- **White phosphorus** (\( \mathrm{P_4} \)): four phosphorus atoms at the corners of a tetrahedron with strained ~60° bond angles, which explains its high reactivity. It is a waxy, poisonous solid, insoluble in water, soluble in carbon disulfide, and ignites spontaneously in air at about 30–40 °C. It glows faintly in the dark (chemiluminescence from slow oxidation).
+- **Red phosphorus**: heating white phosphorus without air gives a polymeric form that is much less reactive and used on match striking surfaces.
+- **Black phosphorus**: the most stable allotrope, graphite-like and layered; produced under high pressure.
+
+### Properties and oxidation states
+
+Phosphorus has five valence electrons. With active metals it gains three electrons to form ionic **phosphides** containing \( \mathrm{P^{3-}} \), such as \( \mathrm{Ca_3P_2} \), which reacts with water to give phosphine, \( \mathrm{PH_3} \). With nonmetals, phosphorus is covalent, showing +3 and +5 oxidation states: \( \mathrm{PCl_3} \) and \( \mathrm{PCl_5} \), and the oxoacids phosphorous acid \( \mathrm{H_3PO_3} \) (+3) and phosphoric acid \( \mathrm{H_3PO_4} \) (+5). The +5 state dominates.
+
+### Key compounds
+
+**Phosphoric acid**, \( \mathrm{H_3PO_4} \), is made industrially by treating phosphate rock with sulfuric acid:
+
+\[
+\mathrm{Ca_3(PO_4)_2(s) + 3\,H_2SO_4(aq) \rightarrow 3\,CaSO_4(s) + 2\,H_3PO_4(aq)}
+\]
+
+It is used in fertilizers, soft drinks, detergents, and rust removers. **Phosphate fertilizers**: acid treatment converts insoluble rock phosphate into soluble, plant-available phosphates (superphosphate). **Phosphine** (\( \mathrm{PH_3} \)) is a toxic, foul-smelling gas analogous to ammonia but far less basic — the P–H bond is weak and the lone pair is less available.
+
+## ELI-10: Explain Like I'm 10
+
+Phosphorus is like a very hungry puppy that never stays put — you never find it alone in nature because it grabs onto other atoms right away. One form, white phosphorus, is so eager to react that it catches fire just from touching air, so chemists keep it underwater. Its favorite job is being part of phosphate, the "handle" every living cell uses to store energy and build DNA — no phosphorus, no life.
+
+## High-Yield Points
+
+- Phosphorus is **never found free**; it occurs as phosphates (apatite, phosphate rock, \( \mathrm{Ca_3(PO_4)_2} \)).
+- **Furnace preparation:** \( \mathrm{2\,Ca_3(PO_4)_2 + 6\,SiO_2 + 10\,C \rightarrow P_4 + 6\,CaSiO_3 + 10\,CO} \), ~1400–1500 °C; product is \( \mathrm{P_4} \) (white P).
+- **Allotropes in order of stability:** white (most reactive, toxic, ignites in air, stored under water) → red (polymeric, matchboxes) → black (most stable, layered).
+- White phosphorus is \( \mathrm{P_4} \), a tetrahedron with strained ~60° angles — the strain drives its reactivity.
+- Oxidation states: −3 (phosphides), +3 (PCl₃, H₃PO₃), **+5 (PCl₅, H₃PO₄ — dominant)**.
+- \( \mathrm{H_3PO_4} \) is made from rock phosphate + \( \mathrm{H_2SO_4} \); a triprotic acid and major industrial chemical.
+- Phosphate is essential to DNA, RNA, ATP, and bone (hydroxyapatite).
+- Safety principle: white phosphorus ignites in air and is toxic — trained handling and containment required.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Phosphate | \( \mathrm{PO_4^{3-}} \) ion, or any compound containing it | The form in which phosphorus occurs, is mined, and enters biology |
+| Allotrope | Different structural form of the same element | Explains white vs red vs black P and their different reactivities |
+| Apatite | \( \mathrm{Ca_5(PO_4)_3(F,OH,Cl)} \), the main phosphate mineral | The ore from which phosphorus is extracted |
+| Phosphoric acid | \( \mathrm{H_3PO_4} \), a triprotic acid with P in +5 | Major industrial acid; fertilizers, food, detergents |
+
+## Worked Examples
+
+### Example 1: Percent phosphorus in phosphate rock
+
+What is the mass percent of phosphorus in calcium phosphate, \( \mathrm{Ca_3(PO_4)_2} \)? (Atomic masses: Ca = 40.08, P = 30.97, O = 16.00 g/mol.)
+
+**Step 1 — Formula for molar mass:**
+
+\[
+M(\mathrm{Ca_3(PO_4)_2}) = 3(40.08) + 2[30.97 + 4(16.00)] = 120.24 + 2(94.97) = 310.18\ \text{g/mol}
+\]
+
+**Step 2 — Divide the phosphorus mass by the formula mass:**
+
+\[
+\%\mathrm{P} = \frac{2(30.97)\ \text{g P}}{310.18\ \text{g Ca}_3(\mathrm{PO_4})_2} \times 100\% = 20.0\%
+\]
+
+**Check:** two P atoms (62 g) in a 310 g formula unit is one-fifth — 20%.
+
+### Example 2: Furnace stoichiometry — making white phosphorus
+
+How many grams of \( \mathrm{P_4} \) can be produced from 620.4 g of \( \mathrm{Ca_3(PO_4)_2} \)? (Molar masses: Ca₃(PO₄)₂ = 310.18 g/mol, P₄ = 123.88 g/mol.)
+
+**Step 1 — Grams to moles:**
+
+\[
+n = 620.4\ \text{g} \times \frac{1\ \text{mol Ca}_3(\mathrm{PO_4})_2}{310.18\ \text{g}} = 2.00\ \text{mol Ca}_3(\mathrm{PO_4})_2
+\]
+
+**Step 2 — Mole ratio (1 mol P₄ per 2 mol Ca₃(PO₄)₂):**
+
+\[
+2.00\ \text{mol Ca}_3(\mathrm{PO_4})_2 \times \frac{1\ \text{mol P}_4}{2\ \text{mol Ca}_3(\mathrm{PO_4})_2} = 1.00\ \text{mol P}_4
+\]
+
+**Step 3 — Moles to grams:**
+
+\[
+1.00\ \text{mol P}_4 \times \frac{123.88\ \text{g P}_4}{1\ \text{mol P}_4} = 123.9\ \text{g P}_4
+\]
+
+**Unit check:** g rock → mol rock → mol P₄ → g P₄. Answer: 123.9 g P₄.
+
+### Example 3: Making phosphoric acid
+
+How many grams of \( \mathrm{H_3PO_4} \) form when 310.2 g of \( \mathrm{Ca_3(PO_4)_2} \) reacts with excess sulfuric acid? (Molar masses: Ca₃(PO₄)₂ = 310.18 g/mol, H₃PO₄ = 98.00 g/mol.)
+
+**Step 1 — Moles of rock phosphate:**
+
+\[
+n = 310.2\ \text{g} \times \frac{1\ \text{mol}}{310.18\ \text{g}} = 1.00\ \text{mol Ca}_3(\mathrm{PO_4})_2
+\]
+
+**Step 2 — Mole ratio (2 mol H₃PO₄ per 1 mol Ca₃(PO₄)₂):**
+
+\[
+1.00\ \text{mol Ca}_3(\mathrm{PO_4})_2 \times \frac{2\ \text{mol H}_3\mathrm{PO_4}}{1\ \text{mol Ca}_3(\mathrm{PO_4})_2} = 2.00\ \text{mol H}_3\mathrm{PO_4}
+\]
+
+**Step 3 — Moles to grams:**
+
+\[
+2.00\ \text{mol H}_3\mathrm{PO_4} \times \frac{98.00\ \text{g}}{1\ \text{mol}} = 196.0\ \text{g H}_3\mathrm{PO_4}
+\]
+
+Every phosphate group ends up in product acid — atoms are conserved.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Phosphide \( \mathrm{P^{3-}} \) | Phosphate \( \mathrm{PO_4^{3-}} \) | Phosphide is a bare −3 ion; phosphate is the −3 oxoanion of P(+5) |
+| Phosphite \( \mathrm{PO_3^{3-}} \) | Phosphate \( \mathrm{PO_4^{3-}} \) | One fewer oxygen: P(+3) vs P(+5) — don't drop oxygens when naming |
+| Allotropes | Isotopes | Allotropes differ in structure (same atoms); isotopes differ in neutron number (same structure) |
+
+## Quick Review
+
+1. Why is phosphorus never found as a free element in nature?
+2. Name the three allotropes of phosphorus in increasing order of stability, and one use of each.
+3. In the furnace reaction, what roles do carbon and silicon dioxide play?
+4. What is the oxidation state of phosphorus in \( \mathrm{H_3PO_4} \), and in \( \mathrm{Ca_3P_2} \)?
+5. How many grams of \( \mathrm{P_4} \) come from 1.00 mol of \( \mathrm{Ca_3(PO_4)_2} \) (molar mass P₄ = 123.88 g/mol)?
+
+<details>
+<summary>Show answers</summary>
+
+1. Phosphorus is too reactive toward oxygen (and other elements) to survive free; it is always found oxidized as phosphate minerals.
+2. White (most reactive; stored under water) → red (polymeric; match striking surfaces) → black (most stable; layered semiconductor).
+3. Carbon is the reducing agent (oxidized to CO, reducing P(+5) to P(0) in P₄); SiO₂ combines with CaO to form calcium silicate slag, removing calcium from the reaction.
+4. In \( \mathrm{H_3PO_4} \): 3(+1) + x + 4(−2) = 0 → x = +5. In \( \mathrm{Ca_3P_2} \): 3(+2) + 2x = 0 → x = −3.
+5. \( 1.00\ \text{mol Ca}_3(\mathrm{PO_4})_2 \times \frac{1\ \text{mol P}_4}{2\ \text{mol Ca}_3(\mathrm{PO_4})_2} \times \frac{123.88\ \text{g}}{1\ \text{mol}} = 61.9\ \text{g P}_4 \).
+
+</details>
+
+## Related Topics
+
+- Previous: [Occurrence, Preparation, and Properties of Nitrogen](07-occurrence-preparation-and-properties-of-nitrogen.md)
+- Next: [Occurrence, Preparation, and Compounds of Oxygen](09-occurrence-preparation-and-compounds-of-oxygen.md)
+- Related: [Structure and General Properties of the Nonmetals](04-structure-and-general-properties-of-the-nonmetals.md)
+- Related: [Chapter 18 overview](../README.md)
+- Related: [Review of Redox Chemistry](../chapter-16-electrochemistry/01-review-of-redox-chemistry.md)
+
+## Source Notes
+
+- Book: Chemistry: Atoms First 2e
+- Local outline source: `chemistry-atoms-first-2e.md`
+- Official source URL: https://openstax.org/details/books/chemistry-atoms-first-2e/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Reference-values note: atomic masses, furnace temperatures (~1400–1500 °C), and white phosphorus autoignition (~30–40 °C) are commonly taught reference values; use the periodic table provided in your course for graded work.
+- Safety note: white phosphorus ignites in air and is toxic — general principles (store under water, avoid skin contact and inhalation, trained supervision) only, no lab procedures.
+- Last updated: 2026-08-16

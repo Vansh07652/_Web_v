@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:electrochemistry:cell-notation",
+  "slug": "cell-notation",
+  "title": "Cell Notation (Line Notation)",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:electrochemistry",
+    "slug": "electrochemistry",
+    "title": "Electrochemistry",
+    "order": 8
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "**Cell notation (line notation)** is the compact, standardized shorthand for a galvanic cell. It lists the anode half-cell on the left and the cathode half-cell on the right, with a single vertical line (|) marking a phase boundary and a double vertical line (||) marking the salt bridge. Reading left to right traces the actual flow of electrons — from the anode (oxidation) to the cathode (reduction). Species are written in the order of the phases as the electron path encounters them: electrode | ion (same oxidation state of a metal), then ||, then ion | electrode.",
+    "whyItMatters": "Cell notation is the universal \"chemical equation\" of electrochemistry — used in textbooks, research papers, and data sheets to describe cells unambiguously. Being able to write and read it instantly tells you which electrode dissolves, which plates out, where electrons flow, and how to compute the cell voltage.",
+    "learningObjectives": "- Write the shorthand line notation for a galvanic cell from its half-reactions.\n- Interpret a given cell notation to identify the anode, cathode, and overall reaction.\n- Use the conventions for phase boundaries (|) and the salt bridge (||).\n- Determine the direction of electron flow and the sign of E°cell from cell notation.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Cell notation (line notation)** is the compact, standardized shorthand for a galvanic cell. It lists the anode half-cell on the left and the cathode half-cell on the right, with a single vertical line (|) marking a phase boundary and a double vertical line (||) marking the salt bridge. Reading left to right traces the actual flow of electrons — from the anode (oxidation) to the cathode (reduction). Species are written in the order of the phases as the electron path encounters them: electrode | ion (same oxidation state of a metal), then ||, then ion | electrode.\n\n### Key Ideas\n\n- **Anode left, cathode right.** The oxidation half-cell is always written on the left.\n- **| = phase boundary, || = salt bridge.** Single line separates solid electrode from solution (or two different phases); double line is the bridge.\n- **Order follows the reaction path.** Solid electrode first, then aqueous ions, then bridge, then ions, then electrode.\n- **Inert electrodes are written when needed.** If a half-reaction has no solid metal (e.g., Fe³⁺/Fe²⁺, or a gas), a Pt (or graphite) electrode is shown, e.g., Pt(s) | Fe²⁺, Fe³⁺.\n- **Commas separate species in the same phase.** Fe²⁺(aq), Fe³⁺(aq) share one solution.\n\n### Equations and Variables\n\n| Symbol | Meaning |\n|---|---|\n| `|` | Phase boundary (solid | solution, or liquid | liquid) |\n| `||` | Salt bridge (or porous barrier) |\n| `,` | Separates species in the same phase |\n| (s), (l), (g), (aq) | Physical states |\n\n### How It Works\n\n1. Identify the oxidation half-reaction (anode) and reduction half-reaction (cathode).\n2. Write the anode on the left: solid electrode | its ions in solution.\n3. Write the salt bridge as ||.\n4. Write the cathode on the right: its ions in solution | solid electrode.\n5. Include inert electrodes (Pt, C) and gas components (with pressure) when the half-cell lacks a solid metal.\n\n### Worked Example\n\n**Write the cell notation for the cell where Zn is oxidized and Cu²⁺ is reduced, and read it back.**\n\nHalf-reactions:\n- Anode: Zn(s) → Zn²⁺(aq) + 2 e⁻\n- Cathode: Cu²⁺(aq) + 2 e⁻ → Cu(s)\n\nNotation: **Zn(s) | Zn²⁺(aq) || Cu²⁺(aq) | Cu(s)**\n\nReading it: electrons leave the Zn anode (left), flow through the external circuit, and arrive at the Cu cathode (right) where Cu²⁺ is reduced to Cu. The oxidation state is written once for Zn (Zn²⁺); the single | between Zn(s) and Zn²⁺ marks the electrode–solution boundary, and || marks the salt bridge.\n\nA second example with an inert electrode: the Fe³⁺/Fe²⁺ half-cell combined with a Zn anode is written Zn(s) | Zn²⁺(aq) || Fe³⁺(aq), Fe²⁺(aq) | Pt(s).",
+    "howItWorks": "1. Identify the oxidation half-reaction (anode) and reduction half-reaction (cathode).\n2. Write the anode on the left: solid electrode | its ions in solution.\n3. Write the salt bridge as ||.\n4. Write the cathode on the right: its ions in solution | solid electrode.\n5. Include inert electrodes (Pt, C) and gas components (with pressure) when the half-cell lacks a solid metal.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Anode (oxidation) is always on the **left**; cathode (reduction) on the **right**.\n- `|` = phase boundary; `||` = salt bridge.\n- Electron flow direction matches left → right across the notation.\n- Inert electrodes (Pt, C) are written for half-reactions with no solid metal.\n- Species in the same phase are separated by commas.\n- Gases are written next to their inert electrode (e.g., Pt(s) | H₂(g) | H⁺(aq)).",
+    "commonConfusions": "- **\"Cathode on the left.\"** — Wrong. The anode (oxidation) is written on the left; the cathode on the right.\n- **\"|| means a wire.\"** — Wrong. || is the salt bridge; electrons travel through the external wire, which is not shown in the notation.\n- **\"| and || are interchangeable.\"** — Wrong. | is a phase boundary; || is specifically the salt bridge.\n- **\"Commas mean separate solutions.\"** — Wrong. Commas separate species in the *same* solution (same phase).\n- **\"The ion with two oxidation states is written twice with a |.\"** — Wrong. Use a comma (e.g., Fe²⁺(aq), Fe³⁺(aq)) and an inert electrode.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nCell notation is a map you read left to right, like a treasure map of where electrons travel. It says: \"Start at the metal that gives up electrons (left), jump through the solution, cross the salt-bridge bridge (||), land in the other solution, and finish at the metal that grabs the electrons (right).\" The single lines are just \"you are changing phases\" signs, and the double line is the bridge in the middle. (The limit: electrons don't actually swim through the `|` solution markers — those just show phase changes; the electrons only move in the wire.)",
+    "quickReview": "- Anode left, cathode right; || is the salt bridge; | is a phase boundary.\n- Notation reads left → right = electron flow direction.\n- Inert electrodes (Pt, C) for reactions without solid metals.\n- Commas separate same-phase species.",
+    "workedExamples": "### Worked Example\n\n**Write the cell notation for the cell where Zn is oxidized and Cu²⁺ is reduced, and read it back.**\n\nHalf-reactions:\n- Anode: Zn(s) → Zn²⁺(aq) + 2 e⁻\n- Cathode: Cu²⁺(aq) + 2 e⁻ → Cu(s)\n\nNotation: **Zn(s) | Zn²⁺(aq) || Cu²⁺(aq) | Cu(s)**\n\nReading it: electrons leave the Zn anode (left), flow through the external circuit, and arrive at the Cu cathode (right) where Cu²⁺ is reduced to Cu. The oxidation state is written once for Zn (Zn²⁺); the single | between Zn(s) and Zn²⁺ marks the electrode–solution boundary, and || marks the salt bridge.\n\nA second example with an inert electrode: the Fe³⁺/Fe²⁺ half-cell combined with a Zn anode is written Zn(s) | Zn²⁺(aq) || Fe³⁺(aq), Fe²⁺(aq) | Pt(s).",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 17.2 \"Galvanic Cells.\" https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells"
+      },
+      {
+        "text": "LibreTexts, *Chemistry 2e (OpenStax)*, Ch. 17 \"Electrochemistry.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenSTAX%29/17%3A_Electrochemistry",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenSTAX%29/17%3A_Electrochemistry"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/17-electrochemistry/03-cell-notation.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const notes = JSON.parse(fs.readFileSync(path.join(root, "data/notes.json"), "utf8"));
+const subjects = JSON.parse(fs.readFileSync(path.join(root, "data/subjects.json"), "utf8"));
+const lessons = JSON.parse(fs.readFileSync(path.join(root, "data/lessons.json"), "utf8"));
+const errors = [];
+const subjectSlugs = new Set(subjects.map((item) => item.slug));
+const lessonKeys = new Set(lessons.map((item) => `${item.subject}/${item.slug}`));
+for (const note of notes) {
+  if (!subjectSlugs.has(note.subject)) errors.push(`Unknown subject in ${note.id}`);
+  if (!lessonKeys.has(`${note.subject}/${note.lesson}`)) errors.push(`Broken lesson route for ${note.id}`);
+  const file = path.resolve(root, note.filePath);
+  if (!file.startsWith(`${root}${path.sep}`) || !fs.existsSync(file)) errors.push(`Missing note target for ${note.id}`);
+}
+console.log(`LINK VALIDATION: ${errors.length ? "FAIL" : "PASS"}`);
+console.log(`Checked ${notes.length} note routes and ${lessons.length} lesson routes.`);
+for (const error of errors) console.log(`- ${error}`);
+if (errors.length) process.exit(1);

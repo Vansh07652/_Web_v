@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cancer-biology:p53",
+  "slug": "p53",
+  "title": "p53: The Central Stress-Response Tumor Suppressor",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cancer-biology",
+    "slug": "cancer-biology",
+    "title": "Cancer Biology",
+    "order": 8
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "p53 (encoded by *TP53*) is a transcription factor that serves as a central **stress-response hub**. When cells experience DNA damage, oncogene activation, hypoxia, or other insults, p53 is stabilized and coordinates an appropriate response: temporary **cell-cycle arrest** to allow repair, **senescence**, or **apoptosis** if damage is irreparable. The popular phrase \"guardian of the genome\" is a useful *historical shorthand*, not a literal description — p53 does not guard the genome directly but triggers cellular programs that prevent damaged cells from propagating.",
+    "whyItMatters": "p53 sits at the crossroads of cancer prevention and therapy. Because p53 decides between repair and death after DNA damage, its loss explains both tumor initiation and resistance to chemotherapy/radiation (which work largely by inducing p53-dependent death). Restoring or mimicking p53 function is a major therapeutic goal, and p53 status is a key prognostic and predictive marker. Understanding p53's graded response — not just \"kill or arrest\" — clarifies how cells balance survival against genomic fidelity.",
+    "learningObjectives": "- Describe the structure and normal functions of the p53 protein.\n- Explain how p53 is regulated by MDM2 and stabilized by stress signals.\n- Compare the four p53 outcomes: cell-cycle arrest, DNA repair, senescence, and apoptosis.\n- Explain why p53 is the most frequently mutated gene in human cancer and how mutant p53 can act dominantly.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\np53 (encoded by *TP53*) is a transcription factor that serves as a central **stress-response hub**. When cells experience DNA damage, oncogene activation, hypoxia, or other insults, p53 is stabilized and coordinates an appropriate response: temporary **cell-cycle arrest** to allow repair, **senescence**, or **apoptosis** if damage is irreparable. The popular phrase \"guardian of the genome\" is a useful *historical shorthand*, not a literal description — p53 does not guard the genome directly but triggers cellular programs that prevent damaged cells from propagating.\n\n### Key Components\n\n- **Domains:** N-terminal transactivation domain, central sequence-specific DNA-binding domain (where most cancer mutations cluster), and C-terminal oligomerization domain (p53 acts as a tetramer).\n- **MDM2:** an E3 ubiquitin ligase that binds p53, ubiquitinates it, and sends it for proteasomal degradation — the core negative feedback.\n- **Stabilizing kinases:** ATM, ATR, and CHK1/CHK2 phosphorylate p53 (and MDM2) after DNA damage, disrupting the p53–MDM2 interaction.\n- **Effector genes:** *CDKN1A* (p21, a CDK inhibitor that arrests the cycle), *BAX*, *PUMA*, *NOXA* (pro-apoptotic), and *GADD45* (repair).\n- **Li–Fraumeni syndrome:** germline *TP53* mutation causing early, multiple cancers.\n\n### Mechanism\n\nIn unstressed cells p53 is kept at low levels because MDM2 constantly targets it for degradation. Stress-activated kinases phosphorylate p53 and MDM2, so MDM2 can no longer bind p53; p53 accumulates, tetramerizes, and binds DNA to transactivate or repress target genes. Mild or repairable damage triggers p21-mediated G1 arrest, buying time for repair; more severe or persistent stress tips the balance toward senescence (permanent arrest) or apoptosis (via BAX/PUMA). This decision is graded — the same protein can produce opposite fates depending on the intensity and type of stress and the cell type.\n\n### How It Works\n\n1. A stressor (e.g., ionizing radiation, UV, stalled replication, oncogene activation) is sensed.\n2. ATM/ATR phosphorylate p53 and MDM2.\n3. p53 escapes MDM2-mediated degradation and accumulates in the nucleus.\n4. p53 tetramers bind promoters of target genes.\n5. p21 is induced, inhibiting cyclin–CDK complexes and halting the cycle in G1.\n6. If damage is repaired, p53 levels fall and the cycle resumes.\n7. If damage is irreparable, p53 induces PUMA/BAX → apoptosis (or drives senescence).\n\n### Energy and Directionality\n\np53 signaling is phosphorylation-driven and therefore consumes ATP at multiple steps (the ATM/ATR kinase cascade and downstream gene transcription). The \"decision\" between arrest and death is not a simple energy threshold but a signal-integration step that reads the severity and duration of stress. Directionality is cell-fate logic: arrest → repair → resume if fixed, or arrest → senescence/apoptosis if not — a one-way commitment toward eliminating irreparably damaged cells.\n\n### Experimental Evidence\n\n- ***TP53* is the most frequently mutated gene in human cancer** — mutated in roughly half of all cancers; most are missense mutations in the DNA-binding domain (hotspots such as R175, R248, R273).\n- ***Trp53* knockout mice** develop normally but are highly tumor-prone (lymphomas, sarcomas), proving p53's tumor-suppressor role.\n- ***Mdm2* knockout is embryonic-lethal**, but deleting *p53* rescues it — elegant genetic proof of the p53–MDM2 negative-feedback loop.\n- **Li–Fraumeni syndrome** links germline *TP53* mutations to early-onset, multiple cancers.\n\n### Technique\n\n- **Immunohistochemistry** — nuclear p53 accumulation indicates stabilization/mutation.\n- **Sanger/next-generation sequencing** — identify *TP53* mutations.\n- **Western blot** — measure p53 and MDM2 levels and phosphorylation.\n- **Luciferase reporter assays** — read p53 transactivation (e.g., p21 or PUMA reporters).\n- **ChIP-seq** — map genome-wide p53 binding to target promoters.",
+    "howItWorks": "1. A stressor (e.g., ionizing radiation, UV, stalled replication, oncogene activation) is sensed.\n2. ATM/ATR phosphorylate p53 and MDM2.\n3. p53 escapes MDM2-mediated degradation and accumulates in the nucleus.\n4. p53 tetramers bind promoters of target genes.\n5. p21 is induced, inhibiting cyclin–CDK complexes and halting the cycle in G1.\n6. If damage is repaired, p53 levels fall and the cycle resumes.\n7. If damage is irreparable, p53 induces PUMA/BAX → apoptosis (or drives senescence).",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- p53 is a **tetrameric transcription factor** and stress-response hub.\n- Regulated by **MDM2** (ubiquitination → degradation); stabilized by **ATM/ATR phosphorylation**.\n- Outcomes: **arrest (via p21), repair, senescence, or apoptosis (via BAX/PUMA)**.\n- **Most frequently mutated gene in human cancer (~50%)**; mutations cluster in the DNA-binding domain.\n- **Li–Fraumeni syndrome** = germline *TP53* mutation.\n- \"Guardian of the genome\" is **historical shorthand**, not a literal mechanism.\n- Mutant p53 can act **dominant-negatively** (poisoning the tetramer) and can gain new functions.",
+    "commonConfusions": "- **\"p53 is an oncogene.\"** — No, it is a tumor suppressor; its *loss* promotes cancer.\n- **\"'Guardian of the genome' is a literal job description.\"** — It is historical shorthand; p53 does not physically repair DNA, it triggers arrest/repair/senescence/apoptosis programs.\n- **\"p53 always triggers apoptosis.\"** — No, it frequently causes reversible arrest or senescence instead.\n- **\"Mutant p53 is just absent.\"** — Missense mutants often act dominant-negatively over the wild-type tetramer and can acquire oncogenic gain-of-function.\n- **\"p53 responds only to DNA damage.\"** — It also responds to oncogene activation, hypoxia, and other stresses.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine p53 as a fire alarm in a building. Normally it's quiet and hidden (kept at low levels by MDM2, the \"off\" manager). When smoke is detected (DNA damage), the alarm is switched on, and it can do one of two things: call maintenance to fix a small problem (cell-cycle arrest and repair) or, if the whole building is about to burn down, pull the fire alarm that evacuates and demolishes the building (apoptosis). The nickname \"guardian of the genome\" just means it's the one that makes sure damaged cells don't keep copying themselves. (The alarm analogy hides that p53 has a graded response — it's not simply on/off — and that it can also permanently \"retire\" a cell through senescence.)",
+    "quickReview": "- p53 = stress-responsive transcription factor (tetramer).\n- MDM2 degrades it; ATM/ATR stabilize it after stress.\n- Targets: p21 (arrest), BAX/PUMA (apoptosis), GADD45 (repair).\n- Mutated in ~50% of cancers; Li–Fraumeni = germline.\n- Outcomes are graded: arrest/repair → resume, or senescence/apoptosis.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "MedlinePlus Genetics, \"TP53 gene.\" https://medlineplus.gov/genetics/gene/tp53/",
+        "url": "https://medlineplus.gov/genetics/gene/tp53/"
+      },
+      {
+        "text": "MedlinePlus Genetics, \"Li-Fraumeni syndrome.\" https://medlineplus.gov/genetics/condition/li-fraumeni-syndrome/",
+        "url": "https://medlineplus.gov/genetics/condition/li-fraumeni-syndrome/"
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"p53 gene.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/p53-gene",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/p53-gene"
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"apoptosis.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/apoptosis",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/apoptosis"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"The Preventable Causes of Cancer.\" https://www.ncbi.nlm.nih.gov/books/NBK26897/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26897/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "p53",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "05-p53",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:ad0e8eb9c292a4a2"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:ad0e8eb9c292a4a2"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:ad0e8eb9c292a4a2"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:ad0e8eb9c292a4a2"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/08-cancer-biology/05-p53.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# p53: The Central Stress-Response Tumor Suppressor\n\n## Learning Goals\n- Describe the structure and normal functions of the p53 protein.\n- Explain how p53 is regulated by MDM2 and stabilized by stress signals.\n- Compare the four p53 outcomes: cell-cycle arrest, DNA repair, senescence, and apoptosis.\n- Explain why p53 is the most frequently mutated gene in human cancer and how mutant p53 can act dominantly.\n\n## Core Concept\np53 (encoded by *TP53*) is a transcription factor that serves as a central **stress-response hub**. When cells experience DNA damage, oncogene activation, hypoxia, or other insults, p53 is stabilized and coordinates an appropriate response: temporary **cell-cycle arrest** to allow repair, **senescence**, or **apoptosis** if damage is irreparable. The popular phrase \"guardian of the genome\" is a useful *historical shorthand*, not a literal description — p53 does not guard the genome directly but triggers cellular programs that prevent damaged cells from propagating.\n\n## Key Components\n- **Domains:** N-terminal transactivation domain, central sequence-specific DNA-binding domain (where most cancer mutations cluster), and C-terminal oligomerization domain (p53 acts as a tetramer).\n- **MDM2:** an E3 ubiquitin ligase that binds p53, ubiquitinates it, and sends it for proteasomal degradation — the core negative feedback.\n- **Stabilizing kinases:** ATM, ATR, and CHK1/CHK2 phosphorylate p53 (and MDM2) after DNA damage, disrupting the p53–MDM2 interaction.\n- **Effector genes:** *CDKN1A* (p21, a CDK inhibitor that arrests the cycle), *BAX*, *PUMA*, *NOXA* (pro-apoptotic), and *GADD45* (repair).\n- **Li–Fraumeni syndrome:** germline *TP53* mutation causing early, multiple cancers.\n\n## Mechanism\nIn unstressed cells p53 is kept at low levels because MDM2 constantly targets it for degradation. Stress-activated kinases phosphorylate p53 and MDM2, so MDM2 can no longer bind p53; p53 accumulates, tetramerizes, and binds DNA to transactivate or repress target genes. Mild or repairable damage triggers p21-mediated G1 arrest, buying time for repair; more severe or persistent stress tips the balance toward senescence (permanent arrest) or apoptosis (via BAX/PUMA). This decision is graded — the same protein can produce opposite fates depending on the intensity and type of stress and the cell type.\n\n## How It Works\n1. A stressor (e.g., ionizing radiation, UV, stalled replication, oncogene activation) is sensed.\n2. ATM/ATR phosphorylate p53 and MDM2.\n3. p53 escapes MDM2-mediated degradation and accumulates in the nucleus.\n4. p53 tetramers bind promoters of target genes.\n5. p21 is induced, inhibiting cyclin–CDK complexes and halting the cycle in G1.\n6. If damage is repaired, p53 levels fall and the cycle resumes.\n7. If damage is irreparable, p53 induces PUMA/BAX → apoptosis (or drives senescence).\n\n## Energy and Directionality\np53 signaling is phosphorylation-driven and therefore consumes ATP at multiple steps (the ATM/ATR kinase cascade and downstream gene transcription). The \"decision\" between arrest and death is not a simple energy threshold but a signal-integration step that reads the severity and duration of stress. Directionality is cell-fate logic: arrest → repair → resume if fixed, or arrest → senescence/apoptosis if not — a one-way commitment toward eliminating irreparably damaged cells.\n\n## Experimental Evidence\n- ***TP53* is the most frequently mutated gene in human cancer** — mutated in roughly half of all cancers; most are missense mutations in the DNA-binding domain (hotspots such as R175, R248, R273).\n- ***Trp53* knockout mice** develop normally but are highly tumor-prone (lymphomas, sarcomas), proving p53's tumor-suppressor role.\n- ***Mdm2* knockout is embryonic-lethal**, but deleting *p53* rescues it — elegant genetic proof of the p53–MDM2 negative-feedback loop.\n- **Li–Fraumeni syndrome** links germline *TP53* mutations to early-onset, multiple cancers.\n\n## Technique\n- **Immunohistochemistry** — nuclear p53 accumulation indicates stabilization/mutation.\n- **Sanger/next-generation sequencing** — identify *TP53* mutations.\n- **Western blot** — measure p53 and MDM2 levels and phosphorylation.\n- **Luciferase reporter assays** — read p53 transactivation (e.g., p21 or PUMA reporters).\n- **ChIP-seq** — map genome-wide p53 binding to target promoters.\n\n## Why It Matters\np53 sits at the crossroads of cancer prevention and therapy. Because p53 decides between repair and death after DNA damage, its loss explains both tumor initiation and resistance to chemotherapy/radiation (which work largely by inducing p53-dependent death). Restoring or mimicking p53 function is a major therapeutic goal, and p53 status is a key prognostic and predictive marker. Understanding p53's graded response — not just \"kill or arrest\" — clarifies how cells balance survival against genomic fidelity.\n\n## High-Yield Facts\n- p53 is a **tetrameric transcription factor** and stress-response hub.\n- Regulated by **MDM2** (ubiquitination → degradation); stabilized by **ATM/ATR phosphorylation**.\n- Outcomes: **arrest (via p21), repair, senescence, or apoptosis (via BAX/PUMA)**.\n- **Most frequently mutated gene in human cancer (~50%)**; mutations cluster in the DNA-binding domain.\n- **Li–Fraumeni syndrome** = germline *TP53* mutation.\n- \"Guardian of the genome\" is **historical shorthand**, not a literal mechanism.\n- Mutant p53 can act **dominant-negatively** (poisoning the tetramer) and can gain new functions.\n\n## Eli Explains\nImagine p53 as a fire alarm in a building. Normally it's quiet and hidden (kept at low levels by MDM2, the \"off\" manager). When smoke is detected (DNA damage), the alarm is switched on, and it can do one of two things: call maintenance to fix a small problem (cell-cycle arrest and repair) or, if the whole building is about to burn down, pull the fire alarm that evacuates and demolishes the building (apoptosis). The nickname \"guardian of the genome\" just means it's the one that makes sure damaged cells don't keep copying themselves. (The alarm analogy hides that p53 has a graded response — it's not simply on/off — and that it can also permanently \"retire\" a cell through senescence.)\n\n## Common Confusions\n- **\"p53 is an oncogene.\"** — No, it is a tumor suppressor; its *loss* promotes cancer.\n- **\"'Guardian of the genome' is a literal job description.\"** — It is historical shorthand; p53 does not physically repair DNA, it triggers arrest/repair/senescence/apoptosis programs.\n- **\"p53 always triggers apoptosis.\"** — No, it frequently causes reversible arrest or senescence instead.\n- **\"Mutant p53 is just absent.\"** — Missense mutants often act dominant-negatively over the wild-type tetramer and can acquire oncogenic gain-of-function.\n- **\"p53 responds only to DNA damage.\"** — It also responds to oncogene activation, hypoxia, and other stresses.\n\n## Quick Review\n- p53 = stress-responsive transcription factor (tetramer).\n- MDM2 degrades it; ATM/ATR stabilize it after stress.\n- Targets: p21 (arrest), BAX/PUMA (apoptosis), GADD45 (repair).\n- Mutated in ~50% of cancers; Li–Fraumeni = germline.\n- Outcomes are graded: arrest/repair → resume, or senescence/apoptosis.\n\n## Sources\n- MedlinePlus Genetics, \"TP53 gene.\" https://medlineplus.gov/genetics/gene/tp53/\n- MedlinePlus Genetics, \"Li-Fraumeni syndrome.\" https://medlineplus.gov/genetics/condition/li-fraumeni-syndrome/\n- NCI Dictionary of Cancer Terms, \"p53 gene.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/p53-gene\n- NCI Dictionary of Cancer Terms, \"apoptosis.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/apoptosis\n- Alberts et al., *Molecular Biology of the Cell*, \"The Preventable Causes of Cancer.\" https://www.ncbi.nlm.nih.gov/books/NBK26897/\n"
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:properties-of-solutions:vant-hoff-factor",
+  "slug": "vant-hoff-factor",
+  "title": "The van't Hoff Factor",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:properties-of-solutions",
+    "slug": "properties-of-solutions",
+    "title": "Properties Of Solutions",
+    "order": 2
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "The van't Hoff factor i is the number of particles a solute produces per formula unit when it dissolves. For nonelectrolytes, i = 1; for strong electrolytes, i equals the number of ions per formula unit (NaCl → 2, CaCl₂ → 3, FeCl₃ → 4). In real solutions, i is somewhat less than the ideal value because ions pair up at higher concentrations, so fewer free particles exist than the formula predicts.",
+    "whyItMatters": "- **Electrolyte corrections:** real solutions of salts behave less than ideally, which matters for freezing-point and osmotic calculations in medicine and engineering.\n- **Osmolarity in medicine:** effective osmolarity (i × molarity) determines whether an IV solution is isotonic, hypotonic, or hypertonic.\n- **Battery & industrial electrolytes:** ion pairing affects conductivity and activity, influencing device performance.\n- **Ocean chemistry:** ion pairing in seawater modifies how ions interact and precipitate.",
+    "learningObjectives": "- Define the van't Hoff factor i and explain its physical meaning.\n- State the ideal i for common electrolytes and nonelectrolytes.\n- Explain why actual i is lower than ideal i (ion pairing) and how it varies with concentration.\n- Use a measured colligative property to determine an experimental i.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe van't Hoff factor i is the number of particles a solute produces per formula unit when it dissolves. For nonelectrolytes, i = 1; for strong electrolytes, i equals the number of ions per formula unit (NaCl → 2, CaCl₂ → 3, FeCl₃ → 4). In real solutions, i is somewhat less than the ideal value because ions pair up at higher concentrations, so fewer free particles exist than the formula predicts.\n\n### Key Ideas\n\n### Ideal (theoretical) i\n- Nonelectrolytes (glucose, sucrose, ethanol): i = 1.\n- NaCl, KCl, NaNO₃ (two ions): i = 2.\n- CaCl₂, Na₂SO₄ (three ions): i = 3.\n- FeCl₃, Al(NO₃)₃ (four ions): i = 4.\n\n### Actual i\n- Measured i is usually slightly below ideal, especially in concentrated solutions.\n- Cause: **ion pairing** — cations and anions associate transiently, acting as one particle.\n\n### Where i is used\n- ΔT_b = i·K_b·m; ΔT_f = i·K_f·m; Π = i·M·R·T. (For vapor-pressure lowering with electrolytes, i also multiplies the effective solute mole fraction.)\n\n### Concentration dependence\n- As concentration increases, ion pairing increases, so i drops toward 1 (the limit of a fully paired, non-ionized solute).\n- In very dilute solutions, i approaches its ideal value.\n\n### Equations and Variables\n\n- **Definition:** i = (moles of particles in solution) / (moles of formula units dissolved).\n- **Freezing-point depression (solved for i):** i = ΔT_f / (K_f·m).\n- **Degree of dissociation for a 1:1 salt (NaCl):** i = 1 + α, where α = fraction of formula units dissociated. Rearranged, α = i − 1.\n\n### How It Works\n\n1. **Dissolve the solute** and count how many independent particles each formula unit produces.\n2. **For strong electrolytes**, assume full dissociation for the ideal i.\n3. **At finite concentration**, some ions associate into pairs, reducing the effective particle count.\n4. **Measure a colligative property** (e.g., freezing point) and back-calculate i = ΔT_f/(K_f·m).\n5. **Compare actual vs. ideal i** to gauge the extent of ion pairing.\n\n### Worked Example\n\nA 0.0500 m aqueous NaCl solution freezes at −0.178 °C (K_f = 1.86 °C·kg/mol). Calculate the actual van't Hoff factor and the percent dissociation.\n\n1. **Actual i.** ΔT_f = i·K_f·m → i = 0.178 / (1.86 × 0.0500) = 0.178 / 0.0930 = **1.91**.\n2. **Compare to ideal.** Ideal i for NaCl is 2; the measured value of 1.91 shows slight ion pairing.\n3. **Percent dissociation.** For a 1:1 salt, i = 1 + α → α = i − 1 = 0.91 = **91%** dissociated into free ions at this concentration.",
+    "howItWorks": "1. **Dissolve the solute** and count how many independent particles each formula unit produces.\n2. **For strong electrolytes**, assume full dissociation for the ideal i.\n3. **At finite concentration**, some ions associate into pairs, reducing the effective particle count.\n4. **Measure a colligative property** (e.g., freezing point) and back-calculate i = ΔT_f/(K_f·m).\n5. **Compare actual vs. ideal i** to gauge the extent of ion pairing.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- i = particles per formula unit: nonelectrolyte = 1, NaCl = 2, CaCl₂ = 3, FeCl₃ = 4.\n- Actual i < ideal i due to ion pairing, especially at high concentration.\n- As a solution becomes more dilute, i approaches its ideal value.\n- i = ΔT_f/(K_f·m) (experimental determination).\n- For a 1:1 salt, i = 1 + α (α = degree of dissociation).\n- Use i in ΔT_b, ΔT_f, and Π equations for electrolytes.",
+    "commonConfusions": "- **\"i is always the ideal integer.\"** — Wrong. Real i is usually slightly less than ideal because of ion pairing.\n- **\"i for NaCl is 1 because it's one compound.\"** — Wrong. i counts *particles in solution*: NaCl dissociates into two ions, so i = 2.\n- **\"i is the same at all concentrations.\"** — Wrong. i decreases toward 1 as concentration rises (more ion pairing).\n- **\"i only matters for freezing point.\"** — Wrong. i multiplies in boiling-point elevation and osmotic pressure too.\n- **\"Percent dissociation for a 1:1 salt is α = i.\"** — Wrong. α = i − 1 (e.g., i = 1.91 → α = 0.91).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThe van't Hoff factor is the \"splitting count.\" Drop in a sugar cube and it stays one piece (i = 1). Drop in a salt crystal and it snaps into two pieces (Na⁺ and Cl⁻, so i = 2); a different salt might snap into three (i = 3). But in a crowded solution, some pieces hold hands again and act like one piece, so the real count is a little less than the perfect splitting number — that's why real i is a bit below ideal. (The analogy's limit: \"snapping\" is dissociation into ions and \"holding hands\" is ion pairing, and the measured i is what the colligative properties actually \"see.\")",
+    "quickReview": "- i = particles per formula unit (glucose 1, NaCl 2, CaCl₂ 3, FeCl₃ 4).\n- Actual i < ideal due to ion pairing; i → ideal as dilution increases.\n- i = ΔT_f/(K_f·m) from experiment.\n- 1:1 salt: i = 1 + α.\n- Worked: 0.0500 m NaCl, ΔTf = 0.178 °C → i = 1.91 (91% dissociated).",
+    "workedExamples": "### Worked Example\n\nA 0.0500 m aqueous NaCl solution freezes at −0.178 °C (K_f = 1.86 °C·kg/mol). Calculate the actual van't Hoff factor and the percent dissociation.\n\n1. **Actual i.** ΔT_f = i·K_f·m → i = 0.178 / (1.86 × 0.0500) = 0.178 / 0.0930 = **1.91**.\n2. **Compare to ideal.** Ideal i for NaCl is 2; the measured value of 1.91 shows slight ion pairing.\n3. **Percent dissociation.** For a 1:1 salt, i = 1 + α → α = i − 1 = 0.91 = **91%** dissociated into free ions at this concentration.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"11.4 Colligative Properties.\" https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties",
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"11.2 Electrolytes.\" https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes",
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e* (book home). https://openstax.org/details/books/chemistry-2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      },
+      {
+        "text": "American Chemical Society. https://www.acs.org/",
+        "url": "https://www.acs.org/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "vant-hoff-factor",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "06-vant-hoff-factor",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b1cb3888e932433b"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b1cb3888e932433b"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b1cb3888e932433b"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:b1cb3888e932433b"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/11-properties-of-solutions/06-vant-hoff-factor.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# The van't Hoff Factor\n\n## Learning Goals\n- Define the van't Hoff factor i and explain its physical meaning.\n- State the ideal i for common electrolytes and nonelectrolytes.\n- Explain why actual i is lower than ideal i (ion pairing) and how it varies with concentration.\n- Use a measured colligative property to determine an experimental i.\n\n## Core Concept\nThe van't Hoff factor i is the number of particles a solute produces per formula unit when it dissolves. For nonelectrolytes, i = 1; for strong electrolytes, i equals the number of ions per formula unit (NaCl → 2, CaCl₂ → 3, FeCl₃ → 4). In real solutions, i is somewhat less than the ideal value because ions pair up at higher concentrations, so fewer free particles exist than the formula predicts.\n\n## Key Ideas\n### Ideal (theoretical) i\n- Nonelectrolytes (glucose, sucrose, ethanol): i = 1.\n- NaCl, KCl, NaNO₃ (two ions): i = 2.\n- CaCl₂, Na₂SO₄ (three ions): i = 3.\n- FeCl₃, Al(NO₃)₃ (four ions): i = 4.\n\n### Actual i\n- Measured i is usually slightly below ideal, especially in concentrated solutions.\n- Cause: **ion pairing** — cations and anions associate transiently, acting as one particle.\n\n### Where i is used\n- ΔT_b = i·K_b·m; ΔT_f = i·K_f·m; Π = i·M·R·T. (For vapor-pressure lowering with electrolytes, i also multiplies the effective solute mole fraction.)\n\n### Concentration dependence\n- As concentration increases, ion pairing increases, so i drops toward 1 (the limit of a fully paired, non-ionized solute).\n- In very dilute solutions, i approaches its ideal value.\n\n## Equations and Variables\n- **Definition:** i = (moles of particles in solution) / (moles of formula units dissolved).\n- **Freezing-point depression (solved for i):** i = ΔT_f / (K_f·m).\n- **Degree of dissociation for a 1:1 salt (NaCl):** i = 1 + α, where α = fraction of formula units dissociated. Rearranged, α = i − 1.\n\n## How It Works\n1. **Dissolve the solute** and count how many independent particles each formula unit produces.\n2. **For strong electrolytes**, assume full dissociation for the ideal i.\n3. **At finite concentration**, some ions associate into pairs, reducing the effective particle count.\n4. **Measure a colligative property** (e.g., freezing point) and back-calculate i = ΔT_f/(K_f·m).\n5. **Compare actual vs. ideal i** to gauge the extent of ion pairing.\n\n## Worked Example\nA 0.0500 m aqueous NaCl solution freezes at −0.178 °C (K_f = 1.86 °C·kg/mol). Calculate the actual van't Hoff factor and the percent dissociation.\n\n1. **Actual i.** ΔT_f = i·K_f·m → i = 0.178 / (1.86 × 0.0500) = 0.178 / 0.0930 = **1.91**.\n2. **Compare to ideal.** Ideal i for NaCl is 2; the measured value of 1.91 shows slight ion pairing.\n3. **Percent dissociation.** For a 1:1 salt, i = 1 + α → α = i − 1 = 0.91 = **91%** dissociated into free ions at this concentration.\n\n## Why It Matters\n- **Electrolyte corrections:** real solutions of salts behave less than ideally, which matters for freezing-point and osmotic calculations in medicine and engineering.\n- **Osmolarity in medicine:** effective osmolarity (i × molarity) determines whether an IV solution is isotonic, hypotonic, or hypertonic.\n- **Battery & industrial electrolytes:** ion pairing affects conductivity and activity, influencing device performance.\n- **Ocean chemistry:** ion pairing in seawater modifies how ions interact and precipitate.\n\n## High-Yield Facts\n- i = particles per formula unit: nonelectrolyte = 1, NaCl = 2, CaCl₂ = 3, FeCl₃ = 4.\n- Actual i < ideal i due to ion pairing, especially at high concentration.\n- As a solution becomes more dilute, i approaches its ideal value.\n- i = ΔT_f/(K_f·m) (experimental determination).\n- For a 1:1 salt, i = 1 + α (α = degree of dissociation).\n- Use i in ΔT_b, ΔT_f, and Π equations for electrolytes.\n\n## Eli Explains\nThe van't Hoff factor is the \"splitting count.\" Drop in a sugar cube and it stays one piece (i = 1). Drop in a salt crystal and it snaps into two pieces (Na⁺ and Cl⁻, so i = 2); a different salt might snap into three (i = 3). But in a crowded solution, some pieces hold hands again and act like one piece, so the real count is a little less than the perfect splitting number — that's why real i is a bit below ideal. (The analogy's limit: \"snapping\" is dissociation into ions and \"holding hands\" is ion pairing, and the measured i is what the colligative properties actually \"see.\")\n\n## Common Confusions\n- **\"i is always the ideal integer.\"** — Wrong. Real i is usually slightly less than ideal because of ion pairing.\n- **\"i for NaCl is 1 because it's one compound.\"** — Wrong. i counts *particles in solution*: NaCl dissociates into two ions, so i = 2.\n- **\"i is the same at all concentrations.\"** — Wrong. i decreases toward 1 as concentration rises (more ion pairing).\n- **\"i only matters for freezing point.\"** — Wrong. i multiplies in boiling-point elevation and osmotic pressure too.\n- **\"Percent dissociation for a 1:1 salt is α = i.\"** — Wrong. α = i − 1 (e.g., i = 1.91 → α = 0.91).\n\n## Quick Review\n- i = particles per formula unit (glucose 1, NaCl 2, CaCl₂ 3, FeCl₃ 4).\n- Actual i < ideal due to ion pairing; i → ideal as dilution increases.\n- i = ΔT_f/(K_f·m) from experiment.\n- 1:1 salt: i = 1 + α.\n- Worked: 0.0500 m NaCl, ΔTf = 0.178 °C → i = 1.91 (91% dissociated).\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"11.4 Colligative Properties.\" https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties\n- OpenStax, *Chemistry 2e*, \"11.2 Electrolytes.\" https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n- OpenStax, *Chemistry 2e* (book home). https://openstax.org/details/books/chemistry-2e\n- American Chemical Society. https://www.acs.org/\n"
+}

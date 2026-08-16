@@ -1,0 +1,40 @@
+{
+  "id": "genetics-recombinant-dna-technology-and-biotechnology-0008",
+  "subject": "genetics",
+  "lesson": "recombinant-dna-technology-and-biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application In the CRISPR-Cas9 system, what determines where in the genome the Cas9 endonuclease makes its double strand break?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The promoter of the target gene, which recruits the Cas9 endonuclease"
+    },
+    {
+      "id": "b",
+      "text": "Nothing specific, because the Cas9 endonuclease cuts DNA at random positions"
+    },
+    {
+      "id": "c",
+      "text": "The guide RNA, which base-pairs with the DNA sequence complementary to it"
+    },
+    {
+      "id": "d",
+      "text": "The replication origin, because the Cas9 endonuclease assembles there like a helicase"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "The guide RNA carries a sequence complementary to the target DNA, so it base-pairs with the target and positions the Cas9 endonuclease to make the double strand break at that site. A confuses the editing machinery with transcription machinery, because promoters recruit RNA polymerase, not Cas9. B ignores the guide RNA, without which Cas9 cannot be directed to a site, and D mistakes the editing enzyme for replication machinery, which assembles at origins.",
+  "difficulty": "unknown",
+  "tags": [
+    "crispr",
+    "guide",
+    "rna",
+    "targeting"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-2e5f1806a7bd2d1a",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

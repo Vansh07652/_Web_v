@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-chemical-reactions-and-equations-q04",
+  "subject": "chemistry-1",
+  "lesson": "chemical-reactions-and-equations",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A student tries to \"balance\" H2 + O2 -> H2O by rewriting the product formula as H2O2. What is wrong with this approach?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The mass on each side changes, but the identity of the product stays the same"
+    },
+    {
+      "id": "b",
+      "text": "The equation stays chemically valid because a subscript was changed, not a coefficient"
+    },
+    {
+      "id": "c",
+      "text": "The equation is acceptable because subscripts and coefficients both scale the product amount"
+    },
+    {
+      "id": "d",
+      "text": "The equation no longer describes water; it describes hydrogen peroxide, a different compound"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Subscripts specify the fixed composition of a compound, so changing one produces a different substance rather than a different quantity of the same substance. H2O and H2O2 differ by one oxygen atom per molecule and have entirely different chemical properties: water is stable and drinkable, hydrogen peroxide is a reactive oxidizer that decomposes readily. Balancing is legitimate only when correct formulas are held fixed and coefficients in front of them are adjusted.\n\nELI-10: A formula is the substance's identity; a coefficient is how many units of it are present. If a reaction needs more water, you write a larger number in front of H2O. Editing the subscript instead changes what the substance is, the way changing letters inside a word changes the word rather than giving you two copies of it.",
+  "difficulty": "medium",
+  "tags": [
+    "subscripts vs coefficients",
+    "chemical formulas",
+    "balancing rules"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-276",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

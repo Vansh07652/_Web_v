@@ -1,0 +1,39 @@
+{
+  "id": "genetics-dna-repair-and-mutation-0012",
+  "subject": "genetics",
+  "lesson": "dna-repair-and-mutation",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** sequence-analysis The original coding strand of a gene fragment is 5' ATG GCT GCA TTT TAA 3' (Met Ala Ala Phe stop). A deletion removes the three bases GCT, giving the mutant coding strand 5' ATG GCA TTT TAA 3'. Which statement about the deletion is correct?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The deletion creates a premature stop codon in the mutant sequence"
+    },
+    {
+      "id": "b",
+      "text": "The deletion causes a frameshift, so every downstream amino acid changes"
+    },
+    {
+      "id": "c",
+      "text": "The deletion is silent, because the protein sequence is unchanged"
+    },
+    {
+      "id": "d",
+      "text": "The deletion removes one amino acid but preserves the reading frame and the stop codon"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "The deletion removes exactly three bases, which is one whole codon, so the reading frame is preserved: the mutant codons ATG, GCA, TTT, and TAA translate to Met Ala Phe stop, one alanine shorter than the original Met Ala Ala Phe stop. B predicts a frameshift from an in frame deletion, the classic trap, C is wrong because the protein is one amino acid shorter rather than unchanged, and A is wrong because the same TAA stop codon ends both sequences.",
+  "difficulty": "unknown",
+  "tags": [
+    "frame",
+    "deletion",
+    "reading"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ca8f349f5901cf65",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

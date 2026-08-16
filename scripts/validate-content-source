@@ -1,0 +1,150 @@
+#!/usr/bin/env node
+import fs from "node:fs";
+import path from "node:path";
+import crypto from "node:crypto";
+import { fileURLToPath } from "node:url";
+
+const websiteDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const sourceDir = websiteDir;
+const errors = [];
+const warnings = [];
+const requiredData = ["subjects.json", "lessons.json", "notes.json", "questions.json", "tags.json", "content-index.json", "search-index.json"];
+const requiredSchemas = ["subject.schema.json", "lesson.schema.json", "note.schema.json", "question.schema.json", "content-index.schema.json"];
+const data = {};
+
+const fail = (code, message) => errors.push({ code, message });
+const warn = (code, message) => warnings.push({ code, message });
+const readJson = (filePath) => {
+  try { return JSON.parse(fs.readFileSync(filePath, "utf8")); }
+  catch (error) { fail("INVALID_JSON", `${path.relative(sourceDir, filePath)}: ${error.message}`); return []; }
+};
+
+if (!fs.existsSync(sourceDir)) fail("MISSING_SOURCE", sourceDir);
+for (const name of requiredData) {
+  const filePath = path.join(sourceDir, "data", name);
+  if (!fs.existsSync(filePath)) fail("MISSING_DATA", `data/${name}`);
+  else data[name.replace(".json", "")] = readJson(filePath);
+}
+for (const name of requiredSchemas) {
+  const filePath = path.join(sourceDir, "schemas", name);
+  if (!fs.existsSync(filePath)) fail("MISSING_SCHEMA", `schemas/${name}`);
+  else readJson(filePath);
+}
+
+const approvalReport = path.join(sourceDir, "validation-report.md");
+if (!fs.existsSync(approvalReport) || !fs.readFileSync(approvalReport, "utf8").includes("UPLOAD_GITHUB_READY")) fail("EXPORT_NOT_READY", "validation-report.md does not report UPLOAD_GITHUB_READY");
+
+const subjects = Array.isArray(data.subjects) ? data.subjects : [];
+const subjectSlugs = new Set(subjects.map((item) => item.slug));
+const unique = (records, label) => {
+  const seen = new Set();
+  for (const item of records ?? []) {
+    if (!item?.id) fail("MISSING_ID", `${label} record has no id`);
+    else if (seen.has(item.id)) fail("DUPLICATE_ID", `${label}: ${item.id}`);
+    else seen.add(item.id);
+  }
+};
+unique(subjects, "subjects");
+unique(data.lessons, "lessons");
+unique(data.notes, "notes");
+unique(data.questions, "questions");
+unique(data.tags, "tags");
+unique(data["content-index"], "content-index");
+
+for (const subject of subjects) {
+  if (subject.id !== subject.slug) fail("NONCANONICAL_SUBJECT", `${subject.id} does not match ${subject.slug}`);
+  if (subject.status !== "approved") fail("PROHIBITED_STATUS", `subject ${subject.id}: ${subject.status}`);
+}
+for (const [label, records] of [["lessons", data.lessons], ["notes", data.notes], ["questions", data.questions], ["content-index", data["content-index"]]]) {
+  for (const item of records ?? []) {
+    if (!subjectSlugs.has(item.subject)) fail("UNKNOWN_SUBJECT", `${label} ${item.id}: ${item.subject}`);
+    if (item.status !== "approved") fail("PROHIBITED_STATUS", `${label} ${item.id}: ${item.status}`);
+    if ((label === "notes" || label === "questions" || label === "content-index") && item.reviewStatus !== "audited") fail("PROHIBITED_REVIEW_STATUS", `${label} ${item.id}: ${item.reviewStatus}`);
+    if ((label === "notes" || label === "questions") && item.filePath && (path.isAbsolute(item.filePath) || item.filePath.includes(".."))) fail("UNSAFE_PATH", `${label} ${item.id}: ${item.filePath}`);
+  }
+}
+
+const lessonKeys = new Set((data.lessons ?? []).map((item) => `${item.subject}/${item.slug}`));
+const questionOnlyLessons = readJson(path.join(sourceDir, "data", "question-only-lessons.json"));
+for (const lesson of questionOnlyLessons) {
+  if (!lessonKeys.has(`${lesson.subject}/${lesson.slug}`)) fail("MISSING_QUESTION_ONLY_LESSON", lesson.id);
+  if ((data.notes ?? []).some((note) => note.subject === lesson.subject && note.lesson === lesson.slug)) fail("QUESTION_ONLY_LESSON_HAS_NOTE", lesson.id);
+  if (!(data.questions ?? []).some((question) => question.subject === lesson.subject && question.lesson === lesson.slug)) fail("QUESTION_ONLY_LESSON_EMPTY", lesson.id);
+}
+for (const note of data.notes ?? []) {
+  if (!lessonKeys.has(`${note.subject}/${note.lesson}`)) fail("ORPHAN_NOTE", note.id);
+}
+for (const question of data.questions ?? []) {
+  if (!lessonKeys.has(`${question.subject}/${question.lesson}`)) fail("ORPHAN_QUESTION", question.id);
+  if (!question.question || !question.explanation || !Array.isArray(question.options) || question.options.length < 2) fail("INVALID_QUESTION", question.id);
+  const optionIds = new Set((question.options ?? []).map((option) => option.id));
+  if (!optionIds.has(question.correctAnswer)) fail("INVALID_ANSWER", question.id);
+  if (question.humanVerificationRequired !== false) fail("HUMAN_REVIEW_REQUIRED", question.id);
+}
+
+for (const item of data["content-index"] ?? []) {
+  const target = path.resolve(sourceDir, item.filePath ?? "");
+  if (!target.startsWith(`${sourceDir}${path.sep}`)) fail("UNSAFE_INDEX_PATH", `${item.id}: ${item.filePath}`);
+  else if (!fs.existsSync(target)) fail("MISSING_INDEX_PATH", `${item.id}: ${item.filePath}`);
+}
+
+const noteFrontMatterRequired = ["id", "title", "slug", "subject", "subjectName", "contentType", "lesson", "lessonNumber", "description", "status", "reviewStatus", "humanVerificationRequired", "difficulty", "tags", "source", "sourceUrl", "originalFile", "lastReviewed", "version"];
+for (const note of data.notes ?? []) {
+  const target = path.join(sourceDir, note.filePath);
+  if (!fs.existsSync(target)) { fail("MISSING_NOTE", note.filePath); continue; }
+  const source = fs.readFileSync(target, "utf8");
+  const match = source.match(/^---\n([\s\S]*?)\n---\n/);
+  if (!match) { fail("INVALID_FRONT_MATTER", note.filePath); continue; }
+  for (const field of noteFrontMatterRequired) {
+    if (!new RegExp(`^${field}:`, "m").test(match[1])) fail("MISSING_FRONT_MATTER_FIELD", `${note.filePath}: ${field}`);
+  }
+  if (!/^#\s+\S/m.test(source.slice(match[0].length))) fail("MISSING_H1", note.filePath);
+  if (/humanVerificationRequired:\s*true/.test(match[1])) fail("HUMAN_REVIEW_REQUIRED", note.filePath);
+}
+
+const excludedDirectories = new Set(["node_modules", "dist", ".git", "Phase 2"]);
+const walk = (directory) => fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+  const target = path.join(directory, entry.name);
+  return entry.isDirectory() ? (excludedDirectories.has(entry.name) ? [] : walk(target)) : [target];
+});
+const allFiles = fs.existsSync(sourceDir) ? walk(sourceDir) : [];
+const secretPatterns = [
+  /-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----/,
+  /\b(?:sk_live|sk_test)_[A-Za-z0-9]{16,}\b/,
+  /\bgh[pousr]_[A-Za-z0-9]{20,}\b/,
+  /\bAKIA[0-9A-Z]{16}\b/,
+  /\bAIza[0-9A-Za-z_-]{35}\b/,
+  /\bxox[baprs]-[A-Za-z0-9-]{10,}\b/,
+  /\bnpm_[A-Za-z0-9]{20,}\b/,
+];
+for (const filePath of allFiles) {
+  if (fs.statSync(filePath).size > 5_000_000) continue;
+  const source = fs.readFileSync(filePath, "utf8");
+  if (/\/(?:Users|home)\/[^\s"']+/.test(source)) fail("ABSOLUTE_LOCAL_PATH", path.relative(sourceDir, filePath));
+  if (secretPatterns.some((pattern) => pattern.test(source))) fail("POSSIBLE_SECRET", path.relative(sourceDir, filePath));
+}
+
+const manifestPath = path.join(sourceDir, "manifest.json");
+if (!fs.existsSync(manifestPath)) fail("MISSING_MANIFEST", "manifest.json");
+else {
+  const manifest = readJson(manifestPath);
+  if (manifest.algorithm !== "SHA-256") fail("MANIFEST_ALGORITHM", String(manifest.algorithm));
+  if (manifest.fileCountExcludingManifest !== manifest.files?.length) fail("MANIFEST_COUNT", "fileCountExcludingManifest does not match files[]");
+  for (const entry of manifest.files ?? []) {
+    const target = path.resolve(sourceDir, entry.path);
+    if (!target.startsWith(`${sourceDir}${path.sep}`) || !fs.existsSync(target)) { fail("MANIFEST_PATH", entry.path); continue; }
+    const hash = crypto.createHash("sha256").update(fs.readFileSync(target)).digest("hex");
+    if (hash !== entry.sha256) fail("MANIFEST_HASH", entry.path);
+  }
+}
+
+if ((data.notes?.length ?? 0) + (data.questions?.length ?? 0) !== (data["content-index"]?.length ?? -1)) fail("INDEX_COUNT", "notes + questions does not equal content-index records");
+if ((data["search-index"]?.length ?? 0) !== (data["content-index"]?.length ?? -1)) fail("SEARCH_INDEX_COUNT", "search-index does not equal content-index records");
+if (!allFiles.some((file) => file.includes(`${path.sep}assets${path.sep}`))) warn("NO_ASSETS", "No approved asset files are currently exported; the Downloads page uses an empty state.");
+
+console.log(`CONTENT SOURCE: ${errors.length ? "FAIL" : "PASS"}`);
+console.log(`Files checked: ${allFiles.length}`);
+console.log(`Subjects: ${subjects.length}; lessons: ${data.lessons?.length ?? 0}; notes: ${data.notes?.length ?? 0}; questions: ${data.questions?.length ?? 0}`);
+console.log(`Errors: ${errors.length}; warnings: ${warnings.length}`);
+for (const issue of [...errors, ...warnings]) console.log(`- ${issue.code}: ${issue.message}`);
+if (errors.length) process.exit(1);

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:clinical-mnemonics:emergency-trauma:mist",
+  "slug": "mist",
+  "title": "MIST",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics"
+  },
+  "unit": {
+    "id": "unit:clinical-mnemonics:emergency-trauma",
+    "slug": "emergency-trauma",
+    "title": "Emergency & Trauma",
+    "order": 1
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "A structured, four-part format for handing off a trauma patient — Mechanism of injury, Injuries found or suspected, Signs and symptoms, and Treatments given — so critical information is communicated quickly, completely, and in the same order every time.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- **M** — Mechanism of injury\n- **I** — Injuries found or suspected\n- **S** — Signs and symptoms\n- **T** — Treatments given",
+    "collegeNotes": "A structured, four-part format for handing off a trauma patient — Mechanism of injury, Injuries found or suspected, Signs and symptoms, and Treatments given — so critical information is communicated quickly, completely, and in the same order every time.\n\n### M — Mechanism of injury\n\nHow the patient was hurt (forces involved)\n\nThe type and energy of the forces involved (high-speed MVC, fall from height, blunt vs penetrating, restraint use, ejection). High-energy mechanisms raise suspicion for not-yet-visible injuries and drive trauma-team activation and triage.\n\n**Physiology.** Injuries follow the physics of the event — rapid deceleration can cause aortic injury and organ shearing; knowing the mechanism lets the team anticipate and look for those patterns.\n\n**Safety.** A mild-looking mechanism does not rule out serious injury in children, older adults, or anticoagulated patients.\n\n### I — Injuries found or suspected\n\nExam findings and suspected injuries\n\nA specific, prioritized list of identified injuries (e.g., right femur deformity) and suspected injuries based on mechanism and findings, so the receiving team can plan imaging and interventions.\n\n**Physiology.** Handoff quality affects safety — clearly stating found and suspected injuries prevents the receiving team from overlooking possible injury and focuses the immediate workup.\n\n**Safety.** State suspected injuries explicitly; do not assume the receiving team will find them — missed injury at handoff is a common cause of delayed diagnosis.\n\n### S — Signs and symptoms\n\nVital signs and reported symptoms\n\nVital signs (HR, BP, RR, SpO2, temperature, GCS/mental status) and reported symptoms. Trends matter more than single values — rising heart rate or falling blood pressure can signal developing shock.\n\n**Physiology.** Vital signs reflect whether the body is compensating for injury; early shock may show only tachycardia, with hypotension a late sign.\n\n**Safety.** One normal set of vitals does not clear a trauma patient — reassess frequently; trends matter more than a single snapshot.\n\n### T — Treatments given\n\nInterventions performed and time of injury\n\nInterventions already performed and the patient's response (oxygen, IV access/fluids, splinting, hemorrhage control, medications with doses and times) plus time of injury. Time anchors time-sensitive care (tourniquet time, thrombolysis).\n\n**Physiology.** Knowing what was done prevents duplication (double-dosing) and omission; time of injury and interventions anchor time-sensitive decisions.\n\n**Safety.** Always include time of injury and intervention times — omitting them causes errors in time-sensitive care.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "- M = Mechanism of injury\n- I = Injuries found or suspected\n- S = Signs and symptoms\n- T = Treatments given",
+    "eli10": "MIST is a four-box 'report card' for a hurt patient. When one team hands the patient to another, they fill in the same four boxes — how it happened, what's hurt, how the body is doing, and what's already been done — so nothing important is forgotten.\n\n**M — Mechanism of injury.** 'Mechanism' means how it happened. A car going fast into a wall hurts the body differently than slipping on a wet floor. Knowing how the accident happened helps the team guess what injuries to expect, even before they can see them.\n\n**I — Injuries found or suspected.** After 'how it happened,' the team needs to know 'what's hurt.' You report the injuries you found — and the ones you suspect — so the next team knows where to look and what to worry about.\n\n**S — Signs and symptoms.** Signs are things you can measure or see (heart rate, blood pressure, breathing, alertness). Symptoms are what the patient feels (pain, nausea, dizziness). Both are clues about how the body is coping.\n\n**T — Treatments given.** Treatments are everything already done to help — oxygen, a splint, an IV, medicine. Telling the next team prevents them from repeating it or missing what still needs doing.",
+    "quickReview": "- M = Mechanism of injury — How the patient was hurt (forces involved)\n- I = Injuries found or suspected — Exam findings and suspected injuries\n- S = Signs and symptoms — Vital signs and reported symptoms\n- T = Treatments given — Interventions performed and time of injury",
+    "workedExamples": "",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "mist",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-nursing-mnemonics",
+    "sourceFile": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json",
+    "sourceStatus": "CURRENT",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-clinical-mnemonics"
+  },
+  "sourceSnapshotMarkdown": ""
+}

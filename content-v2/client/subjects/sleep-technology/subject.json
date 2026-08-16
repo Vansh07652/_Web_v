@@ -1,0 +1,508 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:sleep-technology",
+    "slug": "sleep-technology",
+    "title": "Sleep Technology (RPSGT)",
+    "aliases": [],
+    "status": "final",
+    "category": "allied-health"
+  },
+  "units": [
+    {
+      "id": "unit:sleep-technology:patient-preparation",
+      "slug": "patient-preparation",
+      "title": "Patient Preparation",
+      "order": 1,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:sleep-technology:patient-preparation:patient-preparation-screening-and-study-orientation",
+          "slug": "patient-preparation-screening-and-study-orientation",
+          "title": "Patient Preparation, Screening, and Study Orientation",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/patient-preparation/patient-preparation-screening-and-study-orientation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:sleep-technology:eeg-and-psg-instrumentation",
+      "slug": "eeg-and-psg-instrumentation",
+      "title": "EEG and PSG Instrumentation",
+      "order": 2,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:sleep-technology:eeg-and-psg-instrumentation:the-international-10-20-system-and-sleep-montage-landmarks",
+          "slug": "the-international-10-20-system-and-sleep-montage-landmarks",
+          "title": "The International 10-20 System and Sleep Montage Landmarks",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/eeg-and-psg-instrumentation/the-international-10-20-system-and-sleep-montage-landmarks.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:eeg-and-psg-instrumentation:psg-sensor-placement-and-signal-acquisition",
+          "slug": "psg-sensor-placement-and-signal-acquisition",
+          "title": "PSG Sensor Placement and Signal Acquisition",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/eeg-and-psg-instrumentation/psg-sensor-placement-and-signal-acquisition.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:eeg-and-psg-instrumentation:instrumentation-amplifiers-filters-sampling-and-digital-signals",
+          "slug": "instrumentation-amplifiers-filters-sampling-and-digital-signals",
+          "title": "Instrumentation, Amplifiers, Filters, Sampling, and Digital Signals",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/eeg-and-psg-instrumentation/instrumentation-amplifiers-filters-sampling-and-digital-signals.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:eeg-and-psg-instrumentation:calibration-artifacts-troubleshooting-and-data-quality",
+          "slug": "calibration-artifacts-troubleshooting-and-data-quality",
+          "title": "Calibration, Artifacts, Troubleshooting, and Data Quality",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/eeg-and-psg-instrumentation/calibration-artifacts-troubleshooting-and-data-quality.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:sleep-technology:scoring-and-data-processing",
+      "slug": "scoring-and-data-processing",
+      "title": "Scoring and Data Processing",
+      "order": 3,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:sleep-technology:scoring-and-data-processing:adult-sleep-staging",
+          "slug": "adult-sleep-staging",
+          "title": "Adult Sleep Staging",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/scoring-and-data-processing/adult-sleep-staging.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:scoring-and-data-processing:pediatric-and-infant-sleep-staging",
+          "slug": "pediatric-and-infant-sleep-staging",
+          "title": "Pediatric and Infant Sleep Staging",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/scoring-and-data-processing/pediatric-and-infant-sleep-staging.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:scoring-and-data-processing:respiratory-event-scoring",
+          "slug": "respiratory-event-scoring",
+          "title": "Respiratory Event Scoring",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/scoring-and-data-processing/respiratory-event-scoring.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:scoring-and-data-processing:movement-event-scoring",
+          "slug": "movement-event-scoring",
+          "title": "Movement Event Scoring",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/scoring-and-data-processing/movement-event-scoring.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:scoring-and-data-processing:arousal-and-cardiac-event-scoring",
+          "slug": "arousal-and-cardiac-event-scoring",
+          "title": "Arousal and Cardiac Event Scoring",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/scoring-and-data-processing/arousal-and-cardiac-event-scoring.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:scoring-and-data-processing:psg-report-generation-and-sleep-calculations",
+          "slug": "psg-report-generation-and-sleep-calculations",
+          "title": "PSG Report Generation and Sleep Calculations",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/scoring-and-data-processing/psg-report-generation-and-sleep-calculations.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:sleep-technology:sleep-physiology-and-clinical-knowledge",
+      "slug": "sleep-physiology-and-clinical-knowledge",
+      "title": "Sleep Physiology and Clinical Knowledge",
+      "order": 4,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:sleep-technology:sleep-physiology-and-clinical-knowledge:sleep-physiology-circadian-biology-and-sleep-architecture",
+          "slug": "sleep-physiology-circadian-biology-and-sleep-architecture",
+          "title": "Sleep Physiology, Circadian Biology, and Sleep Architecture",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/sleep-physiology-and-clinical-knowledge/sleep-physiology-circadian-biology-and-sleep-architecture.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:sleep-physiology-and-clinical-knowledge:sleep-wake-disorders-and-icsd-classification-concepts",
+          "slug": "sleep-wake-disorders-and-icsd-classification-concepts",
+          "title": "Sleep-Wake Disorders and ICSD Classification Concepts",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/sleep-physiology-and-clinical-knowledge/sleep-wake-disorders-and-icsd-classification-concepts.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:sleep-physiology-and-clinical-knowledge:medical-conditions-affecting-sleep-and-sleep-testing",
+          "slug": "medical-conditions-affecting-sleep-and-sleep-testing",
+          "title": "Medical Conditions Affecting Sleep and Sleep Testing",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/sleep-physiology-and-clinical-knowledge/medical-conditions-affecting-sleep-and-sleep-testing.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:sleep-technology:safety-and-patient-support",
+      "slug": "safety-and-patient-support",
+      "title": "Safety and Patient Support",
+      "order": 5,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:sleep-technology:safety-and-patient-support:safety-emergencies-infection-prevention-and-patient-support",
+          "slug": "safety-emergencies-infection-prevention-and-patient-support",
+          "title": "Safety, Emergencies, Infection Prevention, and Patient Support",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/safety-and-patient-support/safety-emergencies-infection-prevention-and-patient-support.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:sleep-technology:pap-and-therapeutic-intervention",
+      "slug": "pap-and-therapeutic-intervention",
+      "title": "PAP and Therapeutic Intervention",
+      "order": 6,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:sleep-technology:pap-and-therapeutic-intervention:pap-therapy-fundamentals",
+          "slug": "pap-therapy-fundamentals",
+          "title": "PAP Therapy Fundamentals",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/pap-and-therapeutic-intervention/pap-therapy-fundamentals.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:pap-and-therapeutic-intervention:cpap-and-bpap-titration-concepts",
+          "slug": "cpap-and-bpap-titration-concepts",
+          "title": "CPAP and BPAP Titration Concepts",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/pap-and-therapeutic-intervention/cpap-and-bpap-titration-concepts.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:pap-and-therapeutic-intervention:advanced-pap-supplemental-oxygen-and-complex-ventilatory-support-concepts",
+          "slug": "advanced-pap-supplemental-oxygen-and-complex-ventilatory-support-concepts",
+          "title": "Advanced PAP, Supplemental Oxygen, and Complex Ventilatory Support Concepts",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/pap-and-therapeutic-intervention/advanced-pap-supplemental-oxygen-and-complex-ventilatory-support-concepts.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:pap-and-therapeutic-intervention:interfaces-leak-humidification-comfort-and-adherence-support",
+          "slug": "interfaces-leak-humidification-comfort-and-adherence-support",
+          "title": "Interfaces, Leak, Humidification, Comfort, and Adherence Support",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/pap-and-therapeutic-intervention/interfaces-leak-humidification-comfort-and-adherence-support.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:pap-and-therapeutic-intervention:alternative-and-non-pap-therapy-concepts",
+          "slug": "alternative-and-non-pap-therapy-concepts",
+          "title": "Alternative and Non-PAP Therapy Concepts",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/pap-and-therapeutic-intervention/alternative-and-non-pap-therapy-concepts.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:sleep-technology:specialized-sleep-testing",
+      "slug": "specialized-sleep-testing",
+      "title": "Specialized Sleep Testing",
+      "order": 7,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:sleep-technology:specialized-sleep-testing:multiple-sleep-latency-test",
+          "slug": "multiple-sleep-latency-test",
+          "title": "Multiple Sleep Latency Test",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/specialized-sleep-testing/multiple-sleep-latency-test.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:specialized-sleep-testing:maintenance-of-wakefulness-test",
+          "slug": "maintenance-of-wakefulness-test",
+          "title": "Maintenance of Wakefulness Test",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/specialized-sleep-testing/maintenance-of-wakefulness-test.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:sleep-technology:specialized-sleep-testing:out-of-center-sleep-testing-and-home-sleep-apnea-testing",
+          "slug": "out-of-center-sleep-testing-and-home-sleep-apnea-testing",
+          "title": "Out-of-Center Sleep Testing and Home Sleep Apnea Testing",
+          "order": 23,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/sleep-technology/topics/specialized-sleep-testing/out-of-center-sleep-testing-and-home-sleep-apnea-testing.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 7,
+    "topicCount": 23,
+    "teachingTopicCount": 23,
+    "eli10TopicCount": 23,
+    "highYieldTopicCount": 23,
+    "referencedTopicCount": 0,
+    "exactOrMappedQuestionCount": 0,
+    "subjectWideQuestionCount": 566,
+    "uniqueQuestionCount": 566,
+    "citationReviewRequiredCount": 494
+  },
+  "provenance": {
+    "sourceCollection": "rpsgt-sleep-medicine-library",
+    "sourceRoot": "Education/RPSGT_SLEEP_MEDICINE_LIBRARY",
+    "importBatch": "2026-08-14-unpublished-banks",
+    "importedWithoutRewriting": true
+  }
+}

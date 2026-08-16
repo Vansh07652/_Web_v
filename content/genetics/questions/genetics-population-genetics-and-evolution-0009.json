@@ -1,0 +1,41 @@
+{
+  "id": "genetics-population-genetics-and-evolution-0009",
+  "subject": "genetics",
+  "lesson": "population-genetics-and-evolution",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application Two neighboring populations of the same species differ in allele frequency at a locus. Each generation, about 10 percent of individuals migrate between the two populations, and no other forces act. Over many generations, what is the expected outcome?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The allele frequencies of the two populations converge toward the same value"
+    },
+    {
+      "id": "b",
+      "text": "Each population becomes fixed for a different allele"
+    },
+    {
+      "id": "c",
+      "text": "The allele frequencies fluctuate randomly with no net change"
+    },
+    {
+      "id": "d",
+      "text": "The mutation rate rises to maintain the differences"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Gene flow, the movement of alleles between populations through migration, mixes the two allele pools and makes their frequencies more similar over time. Option B describes drift acting on isolated populations, and C describes drift-like fluctuation without the described migration mechanism. D invents a force that is not present; migration, not mutation, is what erases the difference.",
+  "difficulty": "unknown",
+  "tags": [
+    "gene",
+    "flow",
+    "between",
+    "neighboring",
+    "populations"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-c8080c5df327048e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

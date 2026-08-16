@@ -1,0 +1,41 @@
+{
+  "id": "genetics-recombinant-dna-technology-and-biotechnology-0005",
+  "subject": "genetics",
+  "lesson": "recombinant-dna-technology-and-biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application Genomic DNA from four individuals was digested with EcoRI, size fractionated on a gel, transferred to a membrane, and probed with a labeled fragment of the *HBB* gene. Individuals 1 and 2 show a single 6 kb band, individual 3 shows a single 9 kb band, and individual 4 shows both a 6 kb and a 9 kb band; the pattern was identical in three replicate blots. What best explains individual 4's pattern?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Individual 4 is heterozygous for a restriction site change, so the two *HBB* alleles give fragments of two different sizes"
+    },
+    {
+      "id": "b",
+      "text": "Individual 4 carries a duplication of *HBB* on one chromosome 11"
+    },
+    {
+      "id": "c",
+      "text": "Individual 4's DNA was only partially digested, leaving an uncut 9 kb fragment in addition to the 6 kb fragment"
+    },
+    {
+      "id": "d",
+      "text": "The probe cross-hybridized with a second locus, producing an extra band only in individual 4"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "On a Southern blot each band is a restriction fragment carrying the probed sequence, and because *HBB* is a single-copy gene on chromosome 11, two bands of 6 kb and 9 kb mean the two alleles differ at an EcoRI site, so individual 4 is heterozygous for the site. B is wrong because a duplication changes gene dosage but would not produce the two clean fragment sizes seen in the homozygotes. C is wrong because partial digestion leaves larger fragments and smears, never an extra smaller band, and the pattern was identical across three blots. D is wrong because a cross-hybridizing probe would add a band in all four individuals, not only individual 4.",
+  "difficulty": "unknown",
+  "tags": [
+    "southern",
+    "blot",
+    "two",
+    "band",
+    "pattern"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-2e5f1806a7bd2d1a",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

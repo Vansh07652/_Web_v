@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:aqueous-ionic-equilibria:indicators",
+  "slug": "indicators",
+  "title": "Acid–Base Indicators",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:aqueous-ionic-equilibria",
+    "slug": "aqueous-ionic-equilibria",
+    "title": "Aqueous Ionic Equilibria",
+    "order": 6
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "An **acid–base indicator** is a weak acid (or base) whose acid form and conjugate-base form have *different colors*. The equilibrium HIn ⇌ H⁺ + In⁻ shifts with pH, so the solution's color reveals the ratio [In⁻]/[HIn]. The color change is not instantaneous — it unfolds over a **transition range** of roughly **pH = pKa ± 1**, centered where [In⁻] = [HIn]. Choosing an indicator whose transition range overlaps the steep part of a titration curve lets the observed color change (the *endpoint*) approximate the stoichiometric *equivalence point*.",
+    "whyItMatters": "Indicators are the everyday face of pH measurement — litmus paper, universal indicator, and the color changes in a high-school or clinical titration all rest on this single conjugate-pair equilibrium. Knowing how to match an indicator's range to a titration's equivalence point is the difference between an accurate analysis and a systematically wrong one.",
+    "learningObjectives": "- Explain how an indicator signals pH via a conjugate-pair color change.\n- Define the transition range and relate it to pKa.\n- Choose an appropriate indicator for a given titration.\n- Distinguish the endpoint from the equivalence point.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nAn **acid–base indicator** is a weak acid (or base) whose acid form and conjugate-base form have *different colors*. The equilibrium HIn ⇌ H⁺ + In⁻ shifts with pH, so the solution's color reveals the ratio [In⁻]/[HIn]. The color change is not instantaneous — it unfolds over a **transition range** of roughly **pH = pKa ± 1**, centered where [In⁻] = [HIn]. Choosing an indicator whose transition range overlaps the steep part of a titration curve lets the observed color change (the *endpoint*) approximate the stoichiometric *equivalence point*.\n\n### Key Ideas\n\n- **Indicator equilibrium:** HIn(aq) ⇌ H₃O⁺ + In⁻; HIn and In⁻ have different colors.\n- **Color determined by the ratio** [In⁻]/[HIn], which pH controls through Ka.\n- **Transition range:** approximately pKa(indicator) ± 1 pH unit.\n- **Midpoint of change:** when [In⁻] = [HIn], pH = pKa(indicator); the color is a blend.\n- **Good endpoint:** an indicator whose transition range falls *inside the steep vertical region* of the titration curve.\n- **Universal indicators / pH paper:** mixtures of several indicators spanning the whole pH scale.\n\n### Equations and Variables\n\n- HIn + H₂O ⇌ H₃O⁺ + In⁻; KIn = [H₃O⁺][In⁻]/[HIn]\n- pH = pKIn + log([In⁻]/[HIn])\n- Transition range ≈ pKIn ± 1\n- Endpoint (observed color change) ≈ equivalence point (stoichiometric) when the indicator is well chosen\n\n### How It Works\n\n1. The indicator is added in tiny amounts so it doesn't disturb the solution's pH.\n2. As pH changes, the equilibrium HIn ⇌ H₃O⁺ + In⁻ shifts. At low pH, HIn dominates (one color); at high pH, In⁻ dominates (the other color).\n3. In the transition range, both forms coexist in visible amounts; the eye perceives a gradual blend, typically changing \"completely\" over about two pH units.\n4. For a titration, pick an indicator whose pKIn sits near the *equivalence pH*. For a strong-acid/strong-base titration (equivalence pH 7), phenolphthalein (range ~8.2–10.0) or bromothymol blue (6.0–7.6) works; for a weak-acid/strong-base titration (equivalence pH > 7), phenolphthalein is the classic choice.\n\n### Worked Example\n\n**Choose an indicator for titrating CH₃COOH (Ka = 1.8 × 10⁻⁵) with NaOH.**\n\nThe equivalence point is at pH ≈ 8.72 (the conjugate base CH₃COO⁻ makes the solution basic). The steep part of the curve lies roughly between pH 7 and 11.\n\n- Phenolphthalein: transition range ~8.2–10.0 — falls inside the steep region → good choice; it turns pink right at the equivalence point.\n- Methyl orange: range ~3.1–4.4 — far below the equivalence pH → it would change color far too early, giving a large error.\n\nChoose phenolphthalein.",
+    "howItWorks": "1. The indicator is added in tiny amounts so it doesn't disturb the solution's pH.\n2. As pH changes, the equilibrium HIn ⇌ H₃O⁺ + In⁻ shifts. At low pH, HIn dominates (one color); at high pH, In⁻ dominates (the other color).\n3. In the transition range, both forms coexist in visible amounts; the eye perceives a gradual blend, typically changing \"completely\" over about two pH units.\n4. For a titration, pick an indicator whose pKIn sits near the *equivalence pH*. For a strong-acid/strong-base titration (equivalence pH 7), phenolphthalein (range ~8.2–10.0) or bromothymol blue (6.0–7.6) works; for a weak-acid/strong-base titration (equivalence pH > 7), phenolphthalein is the classic choice.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Indicator = weak acid with different-colored HIn and In⁻ forms.\n- Transition range ≈ pKa(indicator) ± 1 pH unit.\n- At pH = pKIn, [In⁻] = [HIn] (midpoint, blended color).\n- Match the indicator's range to the equivalence-point pH, not to pH 7.\n- Phenolphthalein (8.2–10.0) suits weak-acid/strong-base titrations; methyl orange (3.1–4.4) suits strong-acid/weak-base titrations.\n- Indicator is used in trace amounts so it doesn't alter the pH being measured.",
+    "commonConfusions": "- **\"Indicators change color exactly at pH 7.\"** — Each indicator changes around its *own* pKa; phenolphthalein changes near 8.2–10.0, methyl orange near 3.1–4.4.\n- **\"The endpoint and equivalence point are the same.\"** — The endpoint is where the indicator happens to change; the equivalence point is the stoichiometric truth. Good indicator choice makes them coincide.\n- **\"Indicator color change is instantaneous.\"** — It is gradual over ~2 pH units; that range is what you must place on the steep curve.\n- **\"Add lots of indicator for a clear color.\"** — Indicators are acids/bases themselves; too much perturbs the very pH you are measuring.\n- **\"Phenolphthalein is always the right choice.\"** — For titrating a weak base with strong acid (equivalence pH < 7), methyl orange is better.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nAn indicator is like a mood ring for a solution — a molecule that wears one color in \"acid mood\" and another in \"base mood.\" It flips clothes over a small range of pH, and the exact flipping point is its own personal pKa. To use it well, you want its mood change to happen at the exact moment the titration is finished. (The limit: the flip is gradual over about two pH units, not a single sharp click, which is why matching the range matters.)",
+    "quickReview": "- HIn ⇌ H₃O⁺ + In⁻, two colors.\n- Transition range ≈ pKIn ± 1.\n- Midpoint (blend) at pH = pKIn.\n- Match indicator range to equivalence pH.\n- Endpoint ≈ equivalence point only when well matched.",
+    "workedExamples": "### Worked Example\n\n**Choose an indicator for titrating CH₃COOH (Ka = 1.8 × 10⁻⁵) with NaOH.**\n\nThe equivalence point is at pH ≈ 8.72 (the conjugate base CH₃COO⁻ makes the solution basic). The steep part of the curve lies roughly between pH 7 and 11.\n\n- Phenolphthalein: transition range ~8.2–10.0 — falls inside the steep region → good choice; it turns pink right at the equivalence point.\n- Methyl orange: range ~3.1–4.4 — far below the equivalence pH → it would change color far too early, giving a large error.\n\nChoose phenolphthalein.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.7 Acid-Base Titrations.\" https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.6 Buffers.\" https://openstax.org/books/chemistry-2e/pages/14-6-buffers",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-6-buffers"
+      },
+      {
+        "text": "Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "indicators",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "06-indicators",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:90bdbda3f326ed6c"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:90bdbda3f326ed6c"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:90bdbda3f326ed6c"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:90bdbda3f326ed6c"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/15-aqueous-ionic-equilibria/06-indicators.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Acid–Base Indicators\n\n## Learning Goals\n- Explain how an indicator signals pH via a conjugate-pair color change.\n- Define the transition range and relate it to pKa.\n- Choose an appropriate indicator for a given titration.\n- Distinguish the endpoint from the equivalence point.\n\n## Core Concept\nAn **acid–base indicator** is a weak acid (or base) whose acid form and conjugate-base form have *different colors*. The equilibrium HIn ⇌ H⁺ + In⁻ shifts with pH, so the solution's color reveals the ratio [In⁻]/[HIn]. The color change is not instantaneous — it unfolds over a **transition range** of roughly **pH = pKa ± 1**, centered where [In⁻] = [HIn]. Choosing an indicator whose transition range overlaps the steep part of a titration curve lets the observed color change (the *endpoint*) approximate the stoichiometric *equivalence point*.\n\n## Key Ideas\n- **Indicator equilibrium:** HIn(aq) ⇌ H₃O⁺ + In⁻; HIn and In⁻ have different colors.\n- **Color determined by the ratio** [In⁻]/[HIn], which pH controls through Ka.\n- **Transition range:** approximately pKa(indicator) ± 1 pH unit.\n- **Midpoint of change:** when [In⁻] = [HIn], pH = pKa(indicator); the color is a blend.\n- **Good endpoint:** an indicator whose transition range falls *inside the steep vertical region* of the titration curve.\n- **Universal indicators / pH paper:** mixtures of several indicators spanning the whole pH scale.\n\n## Equations and Variables\n- HIn + H₂O ⇌ H₃O⁺ + In⁻; KIn = [H₃O⁺][In⁻]/[HIn]\n- pH = pKIn + log([In⁻]/[HIn])\n- Transition range ≈ pKIn ± 1\n- Endpoint (observed color change) ≈ equivalence point (stoichiometric) when the indicator is well chosen\n\n## How It Works\n1. The indicator is added in tiny amounts so it doesn't disturb the solution's pH.\n2. As pH changes, the equilibrium HIn ⇌ H₃O⁺ + In⁻ shifts. At low pH, HIn dominates (one color); at high pH, In⁻ dominates (the other color).\n3. In the transition range, both forms coexist in visible amounts; the eye perceives a gradual blend, typically changing \"completely\" over about two pH units.\n4. For a titration, pick an indicator whose pKIn sits near the *equivalence pH*. For a strong-acid/strong-base titration (equivalence pH 7), phenolphthalein (range ~8.2–10.0) or bromothymol blue (6.0–7.6) works; for a weak-acid/strong-base titration (equivalence pH > 7), phenolphthalein is the classic choice.\n\n## Worked Example\n**Choose an indicator for titrating CH₃COOH (Ka = 1.8 × 10⁻⁵) with NaOH.**\n\nThe equivalence point is at pH ≈ 8.72 (the conjugate base CH₃COO⁻ makes the solution basic). The steep part of the curve lies roughly between pH 7 and 11.\n\n- Phenolphthalein: transition range ~8.2–10.0 — falls inside the steep region → good choice; it turns pink right at the equivalence point.\n- Methyl orange: range ~3.1–4.4 — far below the equivalence pH → it would change color far too early, giving a large error.\n\nChoose phenolphthalein.\n\n## Why It Matters\nIndicators are the everyday face of pH measurement — litmus paper, universal indicator, and the color changes in a high-school or clinical titration all rest on this single conjugate-pair equilibrium. Knowing how to match an indicator's range to a titration's equivalence point is the difference between an accurate analysis and a systematically wrong one.\n\n## High-Yield Facts\n- Indicator = weak acid with different-colored HIn and In⁻ forms.\n- Transition range ≈ pKa(indicator) ± 1 pH unit.\n- At pH = pKIn, [In⁻] = [HIn] (midpoint, blended color).\n- Match the indicator's range to the equivalence-point pH, not to pH 7.\n- Phenolphthalein (8.2–10.0) suits weak-acid/strong-base titrations; methyl orange (3.1–4.4) suits strong-acid/weak-base titrations.\n- Indicator is used in trace amounts so it doesn't alter the pH being measured.\n\n## Eli Explains\nAn indicator is like a mood ring for a solution — a molecule that wears one color in \"acid mood\" and another in \"base mood.\" It flips clothes over a small range of pH, and the exact flipping point is its own personal pKa. To use it well, you want its mood change to happen at the exact moment the titration is finished. (The limit: the flip is gradual over about two pH units, not a single sharp click, which is why matching the range matters.)\n\n## Common Confusions\n- **\"Indicators change color exactly at pH 7.\"** — Each indicator changes around its *own* pKa; phenolphthalein changes near 8.2–10.0, methyl orange near 3.1–4.4.\n- **\"The endpoint and equivalence point are the same.\"** — The endpoint is where the indicator happens to change; the equivalence point is the stoichiometric truth. Good indicator choice makes them coincide.\n- **\"Indicator color change is instantaneous.\"** — It is gradual over ~2 pH units; that range is what you must place on the steep curve.\n- **\"Add lots of indicator for a clear color.\"** — Indicators are acids/bases themselves; too much perturbs the very pH you are measuring.\n- **\"Phenolphthalein is always the right choice.\"** — For titrating a weak base with strong acid (equivalence pH < 7), methyl orange is better.\n\n## Quick Review\n- HIn ⇌ H₃O⁺ + In⁻, two colors.\n- Transition range ≈ pKIn ± 1.\n- Midpoint (blend) at pH = pKIn.\n- Match indicator range to equivalence pH.\n- Endpoint ≈ equivalence point only when well matched.\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"14.7 Acid-Base Titrations.\" https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations\n- OpenStax, *Chemistry 2e*, \"14.6 Buffers.\" https://openstax.org/books/chemistry-2e/pages/14-6-buffers\n- Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n"
+}

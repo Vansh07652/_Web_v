@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:clinical-mnemonics:emergency-trauma:opqrst",
+  "slug": "opqrst",
+  "title": "OPQRST",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics"
+  },
+  "unit": {
+    "id": "unit:clinical-mnemonics:emergency-trauma",
+    "slug": "emergency-trauma",
+    "title": "Emergency & Trauma",
+    "order": 1
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "A structured six-part framework to characterize a pain or chief complaint precisely enough to suggest its likely cause and urgency.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- **O** — Onset\n- **P** — Provocation / Palliation\n- **Q** — Quality\n- **R** — Region / Radiation\n- **S** — Severity\n- **T** — Timing",
+    "collegeNotes": "A structured six-part framework to characterize a pain or chief complaint precisely enough to suggest its likely cause and urgency.\n\n### O — Onset\n\nWhen and how the pain began\n\nEstablish the timing (when it started) and mode (sudden vs. gradual, and what the patient was doing). Sudden maximal-at-onset pain suggests an acute vascular or mechanical event; gradual onset more often reflects inflammation or slowly building ischemia.\n\n**Physiology.** Sudden maximal pain suggests acute vascular/mechanical events (rupture, tear, stone); gradual onset reflects progressive inflammation or ischemia.\n\n**Safety.** Sudden 'worst-ever' onset is a red flag requiring immediate escalation.\n\n### P — Provocation / Palliation\n\nWhat makes the pain worse or better\n\nAsk what worsens it (movement, breathing, eating, exertion, position) and what relieves it (rest, leaning forward, antacids, nitroglycerin). Relief from a specific intervention is informative but never diagnostic alone.\n\n**Physiology.** Structures that move with breathing or position (pleura, pericardium, chest wall) hurt with those motions; ischemic cardiac pain responds to rest and nitrates via oxygen supply-demand balance.\n\n### Q — Quality\n\nWhat the pain feels like\n\nUse the patient's own words first, then offer descriptors. Visceral pain is squeezing/pressure/cramping; somatic pain is sharp and localized; neuropathic pain is burning/shooting. A tearing or ripping quality radiating to the back raises concern for aortic dissection.\n\n**Physiology.** Different tissue types activate different pain pathways: hollow-organ stretch produces pressure/cramping, nerve injury produces burning/electric pain, and superficial injury is sharply localized.\n\n**Safety.** Tearing/ripping quality is a red flag for aortic dissection.\n\n### R — Region / Radiation\n\nWhere the pain is and where it travels\n\nHave the patient point with one finger to the worst spot, then ask if it spreads. Document primary site and radiation. Classic patterns include cardiac ischemia to the left arm/jaw, gallbladder to the right shoulder, and kidney stone from flank to groin.\n\n**Physiology.** Visceral organs share spinal cord pathways with distant dermatomes, so the brain misinterprets the origin and projects pain to a distant site (referred pain).\n\n### S — Severity\n\nHow bad the pain is (0–10)\n\nUse a consistent scale — numeric 0–10, Wong-Baker FACES for children, or a behavioral scale (FLACC) for non-verbal patients. Record severity now, at worst, and with movement. Reassessment after analgesia is a core nursing intervention and safety expectation.\n\n**Physiology.** Pain is subjective, so a shared scale is the only reliable way to trend it over time and communicate across caregivers.\n\n**Safety.** A low pain score does not exclude serious pathology — 'silent' MI occurs more often in diabetics, older adults, and women.\n\n### T — Timing\n\nConstant vs. intermittent, and total duration\n\nDocument whether the pain is constant or intermittent, episode duration and frequency, and total duration since onset. Constant unremitting pain suggests an ongoing process; intermittent reproducible pain suggests a mechanical trigger; a worsening trend suggests progression.\n\n**Physiology.** Fixed obstruction produces constant pain; hollow-organ spasm (biliary/renal colic) waxes and wanes; angina appears with demand and resolves with rest.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "- O = Onset\n- P = Provocation / Palliation\n- Q = Quality\n- R = Region / Radiation\n- S = Severity\n- T = Timing",
+    "eli10": "A checklist of six questions that turns 'it hurts' into a full story, so the nurse or doctor can guess what is wrong and how fast to act.\n\n**O — Onset.** Onset asks when the alarm first rang and whether it started with a tiny spark or a sudden explosion. A pain that suddenly explodes is a very different story from one that has been smoldering for days.\n\n**P — Provocation / Palliation.** Provocation is what pokes the bear (makes the pain flare); palliation is what calms it. If deep breaths make chest pain worse, the pain may live in the chest wall or lung lining.\n\n**Q — Quality.** Quality names the flavor of the pain — a sharp knife-stab, a dull squeeze, a burning pepper, or a crampy wave. 'An elephant sitting on my chest' means something very different from 'tiny needles.'\n\n**R — Region / Radiation.** Region asks where the ouch is and whether it travels. A heart attack can 'borrow' nerves and show up in the jaw or left arm — like a road detour sending traffic to a different exit.\n\n**S — Severity.** Severity is a thermostat reading: 0 is no pain and 10 is the worst imaginable. It tells you how hot the fire is right now and lets you check later whether it is heating up or cooling down.\n\n**T — Timing.** Timing asks if the pain stays on like a light left on, or blinks on and off — and how long it has been going on. Ten minutes is handled differently from ten days.",
+    "quickReview": "- O = Onset — When and how the pain began\n- P = Provocation / Palliation — What makes the pain worse or better\n- Q = Quality — What the pain feels like\n- R = Region / Radiation — Where the pain is and where it travels\n- S = Severity — How bad the pain is (0–10)\n- T = Timing — Constant vs. intermittent, and total duration",
+    "workedExamples": "",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "opqrst",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-nursing-mnemonics",
+    "sourceFile": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json",
+    "sourceStatus": "CURRENT",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-clinical-mnemonics"
+  },
+  "sourceSnapshotMarkdown": "{\n  \"mnemonic\": \"OPQRST\",\n  \"category\": \"Emergency & Trauma\",\n  \"purpose\": \"A structured six-part framework to characterize a pain or chief complaint precisely enough to suggest its likely cause and urgency.\",\n  \"eli10_purpose\": \"A checklist of six questions that turns 'it hurts' into a full story, so the nurse or doctor can guess what is wrong and how fast to act.\",\n  \"status\": \"CURRENT\",\n  \"components\": [\n    {\n      \"symbol\": \"O\",\n      \"term\": \"Onset\",\n      \"association\": \"When and how the pain began\",\n      \"eli10\": \"Onset asks when the alarm first rang and whether it started with a tiny spark or a sudden explosion. A pain that suddenly explodes is a very different story from one that has been smoldering for days.\",\n      \"clinical_explanation\": \"Establish the timing (when it started) and mode (sudden vs. gradual, and what the patient was doing). Sudden maximal-at-onset pain suggests an acute vascular or mechanical event; gradual onset more often reflects inflammation or slowly building ischemia.\",\n      \"physiology\": \"Sudden maximal pain suggests acute vascular/mechanical events (rupture, tear, stone); gradual onset reflects progressive inflammation or ischemia.\",\n      \"safety_note\": \"Sudden 'worst-ever' onset is a red flag requiring immediate escalation.\"\n    },\n    {\n      \"symbol\": \"P\",\n      \"term\": \"Provocation / Palliation\",\n      \"association\": \"What makes the pain worse or better\",\n      \"eli10\": \"Provocation is what pokes the bear (makes the pain flare); palliation is what calms it. If deep breaths make chest pain worse, the pain may live in the chest wall or lung lining.\",\n      \"clinical_explanation\": \"Ask what worsens it (movement, breathing, eating, exertion, position) and what relieves it (rest, leaning forward, antacids, nitroglycerin). Relief from a specific intervention is informative but never diagnostic alone.\",\n      \"physiology\": \"Structures that move with breathing or position (pleura, pericardium, chest wall) hurt with those motions; ischemic cardiac pain responds to rest and nitrates via oxygen supply-demand balance.\",\n      \"safety_note\": \"\"\n    },\n    {\n      \"symbol\": \"Q\",\n      \"term\": \"Quality\",\n      \"association\": \"What the pain feels like\",\n      \"eli10\": \"Quality names the flavor of the pain — a sharp knife-stab, a dull squeeze, a burning pepper, or a crampy wave. 'An elephant sitting on my chest' means something very different from 'tiny needles.'\",\n      \"clinical_explanation\": \"Use the patient's own words first, then offer descriptors. Visceral pain is squeezing/pressure/cramping; somatic pain is sharp and localized; neuropathic pain is burning/shooting. A tearing or ripping quality radiating to the back raises concern for aortic dissection.\",\n      \"physiology\": \"Different tissue types activate different pain pathways: hollow-organ stretch produces pressure/cramping, nerve injury produces burning/electric pain, and superficial injury is sharply localized.\",\n      \"safety_note\": \"Tearing/ripping quality is a red flag for aortic dissection.\"\n    },\n    {\n      \"symbol\": \"R\",\n      \"term\": \"Region / Radiation\",\n      \"association\": \"Where the pain is and where it travels\",\n      \"eli10\": \"Region asks where the ouch is and whether it travels. A heart attack can 'borrow' nerves and show up in the jaw or left arm — like a road detour sending traffic to a different exit.\",\n      \"clinical_explanation\": \"Have the patient point with one finger to the worst spot, then ask if it spreads. Document primary site and radiation. Classic patterns include cardiac ischemia to the left arm/jaw, gallbladder to the right shoulder, and kidney stone from flank to groin.\",\n      \"physiology\": \"Visceral organs share spinal cord pathways with distant dermatomes, so the brain misinterprets the origin and projects pain to a distant site (referred pain).\",\n      \"safety_note\": \"\"\n    },\n    {\n      \"symbol\": \"S\",\n      \"term\": \"Severity\",\n      \"association\": \"How bad the pain is (0–10)\",\n      \"eli10\": \"Severity is a thermostat reading: 0 is no pain and 10 is the worst imaginable. It tells you how hot the fire is right now and lets you check later whether it is heating up or cooling down.\",\n      \"clinical_explanation\": \"Use a consistent scale — numeric 0–10, Wong-Baker FACES for children, or a behavioral scale (FLACC) for non-verbal patients. Record severity now, at worst, and with movement. Reassessment after analgesia is a core nursing intervention and safety expectation.\",\n      \"physiology\": \"Pain is subjective, so a shared scale is the only reliable way to trend it over time and communicate across caregivers.\",\n      \"safety_note\": \"A low pain score does not exclude serious pathology — 'silent' MI occurs more often in diabetics, older adults, and women.\"\n    },\n    {\n      \"symbol\": \"T\",\n      \"term\": \"Timing\",\n      \"association\": \"Constant vs. intermittent, and total duration\",\n      \"eli10\": \"Timing asks if the pain stays on like a light left on, or blinks on and off — and how long it has been going on. Ten minutes is handled differently from ten days.\",\n      \"clinical_explanation\": \"Document whether the pain is constant or intermittent, episode duration and frequency, and total duration since onset. Constant unremitting pain suggests an ongoing process; intermittent reproducible pain suggests a mechanical trigger; a worsening trend suggests progression.\",\n      \"physiology\": \"Fixed obstruction produces constant pain; hollow-organ spasm (biliary/renal colic) waxes and wanes; angina appears with demand and resolves with rest.\",\n      \"safety_note\": \"\"\n    }\n  ]\n}"
+}

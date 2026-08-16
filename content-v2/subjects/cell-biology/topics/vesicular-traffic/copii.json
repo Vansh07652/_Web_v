@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:vesicular-traffic:copii",
+  "slug": "copii",
+  "title": "COPII: ER to Golgi Transport",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:vesicular-traffic",
+    "slug": "vesicular-traffic",
+    "title": "Vesicular Traffic",
+    "order": 4
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "COPII is the coat that buds vesicles from the **endoplasmic reticulum** and carries them **forward (anterograde) to the Golgi** — the first and mandatory step of the secretory pathway. COPII assembly is nucleated by the small GTPase **Sar1**. When Sar1 binds GTP at ER exit sites, it inserts into the membrane and recruits two coat layers: the inner **Sec23/Sec24** heterodimer (which binds cargo and Sar1) and the outer **Sec13/Sec31** cage (which deforms the membrane into a bud). Cargo is selected by **ER exit signals** (e.g., di-acidic DXE motifs) recognized by Sec24, while ER-resident proteins lacking such signals are left behind. The result is a cargo-rich vesicle that delivers its contents to the ER-Golgi intermediate compartment (ERGIC) and then the Golgi.",
+    "whyItMatters": "COPII is the gatekeeper of the secretory pathway: everything that is secreted or displayed on the cell surface must pass through it. Human **SEC23A/B** mutations cause cranio-lenticulo-sutural dysplasia and a combined deficiency of coagulation factors V and VIII (both cargo proteins fail to leave the ER). **SEC24** defects impair collagen export. COPII is also hijacked by some viruses (e.g., hepatitis C and SARS-CoV-2) and is essential for the massive secretion of antibody-producing cells.",
+    "learningObjectives": "- Describe the structure of the COPII coat and its assembly from Sar1.\n- Explain how COPII selects cargo for ER exit and excludes ER-resident proteins.\n- Trace the Sar1 GTPase cycle through COPII budding.\n- Relate COPII defects to disease.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nCOPII is the coat that buds vesicles from the **endoplasmic reticulum** and carries them **forward (anterograde) to the Golgi** — the first and mandatory step of the secretory pathway. COPII assembly is nucleated by the small GTPase **Sar1**. When Sar1 binds GTP at ER exit sites, it inserts into the membrane and recruits two coat layers: the inner **Sec23/Sec24** heterodimer (which binds cargo and Sar1) and the outer **Sec13/Sec31** cage (which deforms the membrane into a bud). Cargo is selected by **ER exit signals** (e.g., di-acidic DXE motifs) recognized by Sec24, while ER-resident proteins lacking such signals are left behind. The result is a cargo-rich vesicle that delivers its contents to the ER-Golgi intermediate compartment (ERGIC) and then the Golgi.\n\n### Key Components\n\n- **Sar1:** a small GTPase; its GTP-bound, membrane-inserted form nucleates the coat.\n- **Sec23/Sec24:** inner coat complex; Sec23 is the GAP for Sar1; Sec24 binds cargo sorting signals.\n- **Sec13/Sec31:** outer coat complex that self-assembles into a curved cage.\n- **Sec12:** the ER-resident GEF that loads Sar1 with GTP.\n- **ER exit signals:** cytoplasmic sorting motifs such as the di-acidic **DXE** (e.g., in VSV-G) or di-hydrophobic motifs.\n- **ER exit sites (ERES):** specialized ER subdomains where COPII vesicles form.\n- **ERGIC (VTCs):** vesicular-tubular clusters that ferry COPII cargo onward to the *cis*-Golgi.\n\n### Mechanism / How It Works\n\n1. **Activation.** The ER-membrane GEF **Sec12** exchanges GDP for GTP on cytosolic **Sar1**, exposing an amphipathic N-terminal helix that embeds in the ER membrane.\n2. **Inner coat.** Membrane-bound Sar1-GTP recruits **Sec23/Sec24**; Sec24 binds cargo proteins that display ER exit signals (and binds transmembrane receptors that capture lumenal cargo).\n3. **Outer coat.** **Sec13/Sec31** polymerizes over Sec23/Sec24 into a cage whose curvature deforms the membrane into a bud, concentrating selected cargo.\n4. **Scission and uncoating.** The cage closes and the vesicle pinches off. Sec23's GAP activity (stimulated by Sec13/31) promotes Sar1 GTP hydrolysis; Sar1-GDP detaches, destabilizing the coat, which disassembles to expose Rab and SNARE proteins.\n5. **Delivery.** COPII vesicles fuse with each other and with the ERGIC, and cargo moves onward through the Golgi.\n\n### Energy and Directionality\n\nCOPII budding is a **GTP-driven** cycle. Sar1 uses GTP to bind the membrane and recruit the coat, and its subsequent GTP hydrolysis (accelerated by Sec23/Sec13-31) drives coat disassembly after scission — coupling the vesicle's formation and release to the nucleotide cycle. Directionality (ER → Golgi only) is ensured because Sec12 (the Sar1 GEF) is confined to the ER membrane; Sar1 cannot be activated on the Golgi, so COPII can only form at ER exit sites. No ATP or membrane potential is required for budding itself.\n\n### Experimental Evidence / Technique\n\nCOPII was identified through **yeast secretory (sec) mutants**: temperature-sensitive mutations in *SEC12, SEC13, SEC23, SEC24, SEC31* block ER-to-Golgi transport, causing ER accumulation. The Nobel-recognized **in vitro reconstitution** by Randy Schekman's group showed that purified Sar1, Sec23/24, Sec13/31, and GTP are sufficient to form COPII vesicles from liposomes. **Cryo-electron microscopy** solved the Sec13/31 cage structure, and cargo-binding studies identified the **DXE exit signal** recognized by Sec24.",
+    "howItWorks": "1. **Activation.** The ER-membrane GEF **Sec12** exchanges GDP for GTP on cytosolic **Sar1**, exposing an amphipathic N-terminal helix that embeds in the ER membrane.\n2. **Inner coat.** Membrane-bound Sar1-GTP recruits **Sec23/Sec24**; Sec24 binds cargo proteins that display ER exit signals (and binds transmembrane receptors that capture lumenal cargo).\n3. **Outer coat.** **Sec13/Sec31** polymerizes over Sec23/Sec24 into a cage whose curvature deforms the membrane into a bud, concentrating selected cargo.\n4. **Scission and uncoating.** The cage closes and the vesicle pinches off. Sec23's GAP activity (stimulated by Sec13/31) promotes Sar1 GTP hydrolysis; Sar1-GDP detaches, destabilizing the coat, which disassembles to expose Rab and SNARE proteins.\n5. **Delivery.** COPII vesicles fuse with each other and with the ERGIC, and cargo moves onward through the Golgi.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- COPII mediates **ER → Golgi** (anterograde) transport.\n- Assembly is nucleated by **Sar1-GTP** (activated by the ER GEF **Sec12**).\n- Inner coat **Sec23/24** (Sec23 = Sar1 GAP; Sec24 = cargo binding); outer cage **Sec13/31**.\n- Cargo selected via **ER exit signals** (di-acidic **DXE** motif).\n- Sar1 GTP hydrolysis → coat disassembly after scission.\n- ER-resident proteins are excluded (and retrieved later by COPI/KDEL).\n- Defects: cranio-lenticulo-sutural dysplasia; factor V/VIII deficiency.",
+    "commonConfusions": "- **\"COPII moves Golgi → ER.\"** — That is **COPI** (retrograde). COPII is ER → Golgi (anterograde).\n- **\"Sar1 is activated by Ran or Rab.\"** — Sar1 is a distinct small GTPase activated by the ER GEF **Sec12**.\n- **\"COPII buds from the Golgi.\"** — COPII buds only from **ER exit sites**; the Golgi uses COPI and clathrin.\n- **\"Cargo is random; residents are retrieved later.\"** — Cargo is **actively selected** by Sec24 binding exit signals, though some ER residents also leak out and are retrieved by COPI.\n- **\"Budding needs dynamin.\"** — Dynamin is for clathrin (and some other) scission; COPII scission is driven by the coat cage + Sar1 cycle, not dynamin.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nCOPII is the store's outgoing shipping crew at the ER loading dock. A bell (Sec12) rings to wake up a dockworker (Sar1), who jumps onto the dock and starts grabbing shipping crates. A loader (Sec24) reads the barcodes and only picks crates meant to ship out, leaving the store's own equipment behind. A cage-builder (Sec13/31) then wraps a curved shell around the selected crates, forming a bubble that pops off the dock. Once the bubble is free, the shell falls away so the bubble can travel to the warehouse (the Golgi). (The analogy hides that \"waking the dockworker\" is a GTP coin-flip and that \"reading barcodes\" is the DXE signal.)",
+    "quickReview": "- COPII = anterograde ER → Golgi coat.\n- Sar1-GTP (Sec12 GEF) → Sec23/24 → Sec13/31 cage → bud → scission → uncoating.\n- Cargo selection via DXE exit signals bound by Sec24.\n- GTP powers assembly/disassembly; Sec12 localization enforces directionality.\n- Yeast sec mutants + in vitro reconstitution defined COPII.\n- Disease: SEC23 mutations → bleeding disorder + craniofacial syndrome.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Transport from the ER through the Golgi Apparatus.\" https://www.ncbi.nlm.nih.gov/books/NBK26941/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26941/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Molecular Mechanisms of Membrane Transport and the Maintenance of Compartmental Diversity.\" https://www.ncbi.nlm.nih.gov/books/NBK26859/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26859/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Intracellular Vesicular Traffic.\" https://www.ncbi.nlm.nih.gov/books/NBK21045/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21045/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "copii",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "02-copii",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:106c3207ecc3e08b"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:106c3207ecc3e08b"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:106c3207ecc3e08b"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:106c3207ecc3e08b"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/04-vesicular-traffic/02-copii.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# COPII: ER to Golgi Transport\n\n## Learning Goals\n\n- Describe the structure of the COPII coat and its assembly from Sar1.\n- Explain how COPII selects cargo for ER exit and excludes ER-resident proteins.\n- Trace the Sar1 GTPase cycle through COPII budding.\n- Relate COPII defects to disease.\n\n## Core Concept\n\nCOPII is the coat that buds vesicles from the **endoplasmic reticulum** and carries them **forward (anterograde) to the Golgi** — the first and mandatory step of the secretory pathway. COPII assembly is nucleated by the small GTPase **Sar1**. When Sar1 binds GTP at ER exit sites, it inserts into the membrane and recruits two coat layers: the inner **Sec23/Sec24** heterodimer (which binds cargo and Sar1) and the outer **Sec13/Sec31** cage (which deforms the membrane into a bud). Cargo is selected by **ER exit signals** (e.g., di-acidic DXE motifs) recognized by Sec24, while ER-resident proteins lacking such signals are left behind. The result is a cargo-rich vesicle that delivers its contents to the ER-Golgi intermediate compartment (ERGIC) and then the Golgi.\n\n## Key Components\n\n- **Sar1:** a small GTPase; its GTP-bound, membrane-inserted form nucleates the coat.\n- **Sec23/Sec24:** inner coat complex; Sec23 is the GAP for Sar1; Sec24 binds cargo sorting signals.\n- **Sec13/Sec31:** outer coat complex that self-assembles into a curved cage.\n- **Sec12:** the ER-resident GEF that loads Sar1 with GTP.\n- **ER exit signals:** cytoplasmic sorting motifs such as the di-acidic **DXE** (e.g., in VSV-G) or di-hydrophobic motifs.\n- **ER exit sites (ERES):** specialized ER subdomains where COPII vesicles form.\n- **ERGIC (VTCs):** vesicular-tubular clusters that ferry COPII cargo onward to the *cis*-Golgi.\n\n## Mechanism / How It Works\n\n1. **Activation.** The ER-membrane GEF **Sec12** exchanges GDP for GTP on cytosolic **Sar1**, exposing an amphipathic N-terminal helix that embeds in the ER membrane.\n2. **Inner coat.** Membrane-bound Sar1-GTP recruits **Sec23/Sec24**; Sec24 binds cargo proteins that display ER exit signals (and binds transmembrane receptors that capture lumenal cargo).\n3. **Outer coat.** **Sec13/Sec31** polymerizes over Sec23/Sec24 into a cage whose curvature deforms the membrane into a bud, concentrating selected cargo.\n4. **Scission and uncoating.** The cage closes and the vesicle pinches off. Sec23's GAP activity (stimulated by Sec13/31) promotes Sar1 GTP hydrolysis; Sar1-GDP detaches, destabilizing the coat, which disassembles to expose Rab and SNARE proteins.\n5. **Delivery.** COPII vesicles fuse with each other and with the ERGIC, and cargo moves onward through the Golgi.\n\n## Energy and Directionality\n\nCOPII budding is a **GTP-driven** cycle. Sar1 uses GTP to bind the membrane and recruit the coat, and its subsequent GTP hydrolysis (accelerated by Sec23/Sec13-31) drives coat disassembly after scission — coupling the vesicle's formation and release to the nucleotide cycle. Directionality (ER → Golgi only) is ensured because Sec12 (the Sar1 GEF) is confined to the ER membrane; Sar1 cannot be activated on the Golgi, so COPII can only form at ER exit sites. No ATP or membrane potential is required for budding itself.\n\n## Experimental Evidence / Technique\n\nCOPII was identified through **yeast secretory (sec) mutants**: temperature-sensitive mutations in *SEC12, SEC13, SEC23, SEC24, SEC31* block ER-to-Golgi transport, causing ER accumulation. The Nobel-recognized **in vitro reconstitution** by Randy Schekman's group showed that purified Sar1, Sec23/24, Sec13/31, and GTP are sufficient to form COPII vesicles from liposomes. **Cryo-electron microscopy** solved the Sec13/31 cage structure, and cargo-binding studies identified the **DXE exit signal** recognized by Sec24.\n\n## Why It Matters\n\nCOPII is the gatekeeper of the secretory pathway: everything that is secreted or displayed on the cell surface must pass through it. Human **SEC23A/B** mutations cause cranio-lenticulo-sutural dysplasia and a combined deficiency of coagulation factors V and VIII (both cargo proteins fail to leave the ER). **SEC24** defects impair collagen export. COPII is also hijacked by some viruses (e.g., hepatitis C and SARS-CoV-2) and is essential for the massive secretion of antibody-producing cells.\n\n## High-Yield Facts\n\n- COPII mediates **ER → Golgi** (anterograde) transport.\n- Assembly is nucleated by **Sar1-GTP** (activated by the ER GEF **Sec12**).\n- Inner coat **Sec23/24** (Sec23 = Sar1 GAP; Sec24 = cargo binding); outer cage **Sec13/31**.\n- Cargo selected via **ER exit signals** (di-acidic **DXE** motif).\n- Sar1 GTP hydrolysis → coat disassembly after scission.\n- ER-resident proteins are excluded (and retrieved later by COPI/KDEL).\n- Defects: cranio-lenticulo-sutural dysplasia; factor V/VIII deficiency.\n\n## Eli Explains\n\nCOPII is the store's outgoing shipping crew at the ER loading dock. A bell (Sec12) rings to wake up a dockworker (Sar1), who jumps onto the dock and starts grabbing shipping crates. A loader (Sec24) reads the barcodes and only picks crates meant to ship out, leaving the store's own equipment behind. A cage-builder (Sec13/31) then wraps a curved shell around the selected crates, forming a bubble that pops off the dock. Once the bubble is free, the shell falls away so the bubble can travel to the warehouse (the Golgi). (The analogy hides that \"waking the dockworker\" is a GTP coin-flip and that \"reading barcodes\" is the DXE signal.)\n\n## Common Confusions\n\n- **\"COPII moves Golgi → ER.\"** — That is **COPI** (retrograde). COPII is ER → Golgi (anterograde).\n- **\"Sar1 is activated by Ran or Rab.\"** — Sar1 is a distinct small GTPase activated by the ER GEF **Sec12**.\n- **\"COPII buds from the Golgi.\"** — COPII buds only from **ER exit sites**; the Golgi uses COPI and clathrin.\n- **\"Cargo is random; residents are retrieved later.\"** — Cargo is **actively selected** by Sec24 binding exit signals, though some ER residents also leak out and are retrieved by COPI.\n- **\"Budding needs dynamin.\"** — Dynamin is for clathrin (and some other) scission; COPII scission is driven by the coat cage + Sar1 cycle, not dynamin.\n\n## Quick Review\n\n- COPII = anterograde ER → Golgi coat.\n- Sar1-GTP (Sec12 GEF) → Sec23/24 → Sec13/31 cage → bud → scission → uncoating.\n- Cargo selection via DXE exit signals bound by Sec24.\n- GTP powers assembly/disassembly; Sec12 localization enforces directionality.\n- Yeast sec mutants + in vitro reconstitution defined COPII.\n- Disease: SEC23 mutations → bleeding disorder + craniofacial syndrome.\n\n## Sources\n\n- Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Transport from the ER through the Golgi Apparatus.\" https://www.ncbi.nlm.nih.gov/books/NBK26941/\n- Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Molecular Mechanisms of Membrane Transport and the Maintenance of Compartmental Diversity.\" https://www.ncbi.nlm.nih.gov/books/NBK26859/\n- Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Intracellular Vesicular Traffic.\" https://www.ncbi.nlm.nih.gov/books/NBK21045/\n"
+}

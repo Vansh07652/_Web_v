@@ -1,0 +1,498 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:biology-2",
+    "slug": "biology-2",
+    "title": "Biology II",
+    "aliases": [],
+    "status": "final",
+    "category": "pre-health-core"
+  },
+  "units": [
+    {
+      "id": "unit:biology-2:evolution-and-the-origin-of-species",
+      "slug": "evolution-and-the-origin-of-species",
+      "title": "Evolution and the Origin of Species",
+      "order": 1,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:biology-2:evolution-and-the-origin-of-species:discovering-how-populations-change",
+          "slug": "discovering-how-populations-change",
+          "title": "Discovering How Populations Change",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/evolution-and-the-origin-of-species/discovering-how-populations-change.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-2:evolution-and-the-origin-of-species:population-genetics-and-microevolution",
+          "slug": "population-genetics-and-microevolution",
+          "title": "Population Genetics and Microevolution",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/evolution-and-the-origin-of-species/population-genetics-and-microevolution.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-2:evolution-and-the-origin-of-species:speciation-and-macroevolution",
+          "slug": "speciation-and-macroevolution",
+          "title": "Speciation and Macroevolution",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/evolution-and-the-origin-of-species/speciation-and-macroevolution.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biology-2:the-evolutionary-history-of-biological-diversity",
+      "slug": "the-evolutionary-history-of-biological-diversity",
+      "title": "The Evolutionary History of Biological Diversity",
+      "order": 2,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:biology-2:the-evolutionary-history-of-biological-diversity:phylogenies-and-the-history-of-life",
+          "slug": "phylogenies-and-the-history-of-life",
+          "title": "Phylogenies and the History of Life",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/the-evolutionary-history-of-biological-diversity/phylogenies-and-the-history-of-life.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-2:the-evolutionary-history-of-biological-diversity:viruses",
+          "slug": "viruses",
+          "title": "Viruses",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/the-evolutionary-history-of-biological-diversity/viruses.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-2:the-evolutionary-history-of-biological-diversity:prokaryotes-bacteria-and-archaea",
+          "slug": "prokaryotes-bacteria-and-archaea",
+          "title": "Prokaryotes: Bacteria and Archaea",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/the-evolutionary-history-of-biological-diversity/prokaryotes-bacteria-and-archaea.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:biology-2:the-evolutionary-history-of-biological-diversity:protists",
+          "slug": "protists",
+          "title": "Protists",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/the-evolutionary-history-of-biological-diversity/protists.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:biology-2:the-evolutionary-history-of-biological-diversity:fungi",
+          "slug": "fungi",
+          "title": "Fungi",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/the-evolutionary-history-of-biological-diversity/fungi.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biology-2:plant-diversity-form-and-function",
+      "slug": "plant-diversity-form-and-function",
+      "title": "Plant Diversity, Form, and Function",
+      "order": 3,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:biology-2:plant-diversity-form-and-function:plant-evolution-and-seedless-plants",
+          "slug": "plant-evolution-and-seedless-plants",
+          "title": "Plant Evolution and Seedless Plants",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/plant-diversity-form-and-function/plant-evolution-and-seedless-plants.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-2:plant-diversity-form-and-function:seed-plants-gymnosperms-and-angiosperms",
+          "slug": "seed-plants-gymnosperms-and-angiosperms",
+          "title": "Seed Plants: Gymnosperms and Angiosperms",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/plant-diversity-form-and-function/seed-plants-gymnosperms-and-angiosperms.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-2:plant-diversity-form-and-function:plant-form-and-physiology",
+          "slug": "plant-form-and-physiology",
+          "title": "Plant Form and Physiology",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/plant-diversity-form-and-function/plant-form-and-physiology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-2:plant-diversity-form-and-function:plant-reproduction-and-development",
+          "slug": "plant-reproduction-and-development",
+          "title": "Plant Reproduction and Development",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/plant-diversity-form-and-function/plant-reproduction-and-development.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biology-2:animal-diversity",
+      "slug": "animal-diversity",
+      "title": "Animal Diversity",
+      "order": 4,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:biology-2:animal-diversity:characteristics-of-the-animal-kingdom",
+          "slug": "characteristics-of-the-animal-kingdom",
+          "title": "Characteristics of the Animal Kingdom",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/animal-diversity/characteristics-of-the-animal-kingdom.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-2:animal-diversity:invertebrates",
+          "slug": "invertebrates",
+          "title": "Invertebrates",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/animal-diversity/invertebrates.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-2:animal-diversity:vertebrates",
+          "slug": "vertebrates",
+          "title": "Vertebrates",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/animal-diversity/vertebrates.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biology-2:animal-form-and-function",
+      "slug": "animal-form-and-function",
+      "title": "Animal Form and Function",
+      "order": 5,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:biology-2:animal-form-and-function:basic-principles-of-animal-form-and-function",
+          "slug": "basic-principles-of-animal-form-and-function",
+          "title": "Basic Principles of Animal Form and Function",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/animal-form-and-function/basic-principles-of-animal-form-and-function.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-2:animal-form-and-function:integration-and-control",
+          "slug": "integration-and-control",
+          "title": "Integration and Control",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/animal-form-and-function/integration-and-control.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-2:animal-form-and-function:processing-and-transport",
+          "slug": "processing-and-transport",
+          "title": "Processing and Transport",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/animal-form-and-function/processing-and-transport.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-2:animal-form-and-function:defense-and-maintenance",
+          "slug": "defense-and-maintenance",
+          "title": "Defense and Maintenance",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/animal-form-and-function/defense-and-maintenance.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:biology-2:ecology-and-the-biosphere",
+      "slug": "ecology-and-the-biosphere",
+      "title": "Ecology and the Biosphere",
+      "order": 6,
+      "aliases": [],
+      "topics": [
+        {
+          "id": "topic:biology-2:ecology-and-the-biosphere:behavioral-ecology",
+          "slug": "behavioral-ecology",
+          "title": "Behavioral Ecology",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/ecology-and-the-biosphere/behavioral-ecology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-2:ecology-and-the-biosphere:population-ecology",
+          "slug": "population-ecology",
+          "title": "Population Ecology",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/ecology-and-the-biosphere/population-ecology.json",
+          "mappedQuestionCount": 12,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 12
+          }
+        },
+        {
+          "id": "topic:biology-2:ecology-and-the-biosphere:community-ecology",
+          "slug": "community-ecology",
+          "title": "Community Ecology",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/ecology-and-the-biosphere/community-ecology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:biology-2:ecology-and-the-biosphere:ecosystems-and-conservation-biology",
+          "slug": "ecosystems-and-conservation-biology",
+          "title": "Ecosystems and Conservation Biology",
+          "order": 23,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/biology-2/topics/ecology-and-the-biosphere/ecosystems-and-conservation-biology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 6,
+    "topicCount": 23,
+    "teachingTopicCount": 23,
+    "eli10TopicCount": 23,
+    "highYieldTopicCount": 23,
+    "referencedTopicCount": 0,
+    "exactOrMappedQuestionCount": 48,
+    "subjectWideQuestionCount": 420,
+    "uniqueQuestionCount": 468,
+    "citationReviewRequiredCount": 468
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

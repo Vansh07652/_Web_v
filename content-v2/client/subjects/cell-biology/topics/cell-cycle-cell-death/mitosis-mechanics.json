@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-cycle-cell-death:mitosis-mechanics",
+  "slug": "mitosis-mechanics",
+  "title": "Mitosis Mechanics: The Spindle and Its Microtubules",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-cycle-cell-death",
+    "slug": "cell-cycle-cell-death",
+    "title": "Cell Cycle Cell Death",
+    "order": 7
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "The mitotic spindle is a bipolar, dynamic machine built from microtubules and motor proteins that segregates duplicated chromosomes into two daughter cells. Its microtubules fall into three functional classes: kinetochore microtubules, which attach chromosomes to the spindle poles; interpolar (polar) microtubules, which overlap in the spindle midzone and push the poles apart; and astral microtubules, which radiate toward the cell cortex to position the spindle and define the cleavage plane. Microtubule dynamic instability plus the action of kinesins, dynein, and other motors let the spindle self-organize, capture chromosomes, align them, and then pull them apart.",
+    "whyItMatters": "Accurate chromosome segregation is essential for life: errors produce aneuploidy, which causes developmental disorders (trisomies) and drives cancer. The spindle is the primary target of a large class of anticancer drugs — taxanes (paclitaxel) and vinca alkaloids (vincristine) poison microtubule dynamics, and newer agents target kinesin-5 (ispinesib) and Aurora kinases. Understanding spindle mechanics also explains the mechanism of these drugs and why rapidly dividing cells are selectively vulnerable.",
+    "learningObjectives": "- Describe the structure and function of the mitotic spindle.\n- Distinguish the three functional classes of spindle microtubules: kinetochore, interpolar, and astral.\n- Explain how dynamic instability and motor proteins build and move the spindle.\n- Describe the roles of centrosomes and chromosome-driven spindle assembly.\n- Explain the forces that separate chromosomes in anaphase (anaphase A and B).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe mitotic spindle is a bipolar, dynamic machine built from microtubules and motor proteins that segregates duplicated chromosomes into two daughter cells. Its microtubules fall into three functional classes: kinetochore microtubules, which attach chromosomes to the spindle poles; interpolar (polar) microtubules, which overlap in the spindle midzone and push the poles apart; and astral microtubules, which radiate toward the cell cortex to position the spindle and define the cleavage plane. Microtubule dynamic instability plus the action of kinesins, dynein, and other motors let the spindle self-organize, capture chromosomes, align them, and then pull them apart.\n\n### Key Components\n\n- **Microtubules**: Dynamic polymers of α/β-tubulin with a fast-growing plus end and a slower minus end.\n- **Centrosome/spindle pole**: Main microtubule-organizing center (contains γ-tubulin ring complexes) at each pole.\n- **Kinetochore microtubules**: Attach to kinetochores; lose/gain tubulin to move chromosomes.\n- **Interpolar microtubules**: Overlap antiparallel at the midzone; separated by motors to elongate the spindle.\n- **Astral microtubules**: Extend to the cortex; anchor and orient the spindle.\n- **Motors**: Kinesin-5 (Eg5, slides antiparallel MTs), kinesin-4/10 (chromokinesins), kinesin-14 (minus-end-directed), cytoplasmic dynein, kinesin-13 (MCAK, depolymerizer).\n- **Kinetochore**: Chromosome attachment site; the Ndc80 complex is the core microtubule binder.\n\n### Mechanism / How It Works\n\n1. **Spindle assembly**: In prophase, duplicated centrosomes separate and nucleate microtubules. Microtubules grow and shrink by dynamic instability — stochastic switching between growth and catastrophe — a \"search-and-capture\" process that finds kinetochores.\n2. **Capture and biorientation**: Kinetochore microtubules bind kinetochores via the Ndc80 complex. Chromosomes initially attach to one pole (monotelic) and, through error correction by Aurora B and tension, become bioriented (each sister attached to opposite poles).\n3. **Congression**: Motor proteins and kinetochore microtubule dynamics move chromosomes to the spindle equator (the metaphase plate).\n4. **Anaphase A**: Once cohesin is cleaved, kinetochore microtubules shorten, primarily by plus-end depolymerization (pulling) combined with minus-end flux, moving sister chromatids toward opposite poles.\n5. **Anaphase B**: Interpolar microtubules slide apart via kinesin-5 and are lengthened, while astral microtubules pull the poles toward the cortex; the spindle elongates, further separating the chromosome sets.\n\n### Energy and Directionality\n\nThe spindle is a GTP/ATP-driven machine. Tubulin polymerization is powered by GTP hydrolysis (the tubulin-GTP cap stabilizes growing ends; GTP hydrolysis to GDP promotes catastrophe), and motor proteins move by ATP hydrolysis. Chromosome movement in anaphase A is driven largely by microtubule depolymerization itself — energy released from the GTP-hydrolyzed lattice — and by motor activity. The process is directional and irreversible: once separase cleaves cohesin and the APC/C commits the cell, sister chromatids cannot be reattached; the cell is committed to completing segregation.\n\n### Experimental Evidence / Technique\n\n- **Live-cell imaging with fluorescent tubulin** reveals spindle dynamics and chromosome movements in real time.\n- **Laser microsurgery** of individual spindle fibers or kinetochores (e.g., severing kinetochore fibers) shows each fiber's contribution to force.\n- **Drug perturbations**: Taxol stabilizes microtubules, nocodazole depolymerizes them, and monastrol inhibits kinesin-5 (producing monopolar spindles) — each maps a specific mechanical role.\n- **Micromanipulation/traction force measurements** quantify forces at kinetochores and poles.\n- **In vitro reconstitution** with purified tubulin, motors, and DNA-coated beads shows that bipolar spindles can self-organize without centrosomes (chromosome-driven assembly).",
+    "howItWorks": "1. **Spindle assembly**: In prophase, duplicated centrosomes separate and nucleate microtubules. Microtubules grow and shrink by dynamic instability — stochastic switching between growth and catastrophe — a \"search-and-capture\" process that finds kinetochores.\n2. **Capture and biorientation**: Kinetochore microtubules bind kinetochores via the Ndc80 complex. Chromosomes initially attach to one pole (monotelic) and, through error correction by Aurora B and tension, become bioriented (each sister attached to opposite poles).\n3. **Congression**: Motor proteins and kinetochore microtubule dynamics move chromosomes to the spindle equator (the metaphase plate).\n4. **Anaphase A**: Once cohesin is cleaved, kinetochore microtubules shorten, primarily by plus-end depolymerization (pulling) combined with minus-end flux, moving sister chromatids toward opposite poles.\n5. **Anaphase B**: Interpolar microtubules slide apart via kinesin-5 and are lengthened, while astral microtubules pull the poles toward the cortex; the spindle elongates, further separating the chromosome sets.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Three MT classes: **kinetochore** (attach chromosomes), **interpolar** (overlap midzone, push poles apart), **astral** (cortex, positioning).\n- **Dynamic instability** (GTP cap, catastrophe/rescue) drives search-and-capture of kinetochores.\n- **Ndc80 complex** is the core kinetochore–microtubule attachment.\n- **Anaphase A** = chromosomes move poleward (kinetochore MT shortening); **Anaphase B** = poles move apart (interpolar MT sliding + astral pulling).\n- Motors: **kinesin-5** slides antiparallel MTs; **dynein** and **kinesin-13 (MCAK)** shape the spindle.",
+    "commonConfusions": "- **Anaphase A vs. B**: A moves chromosomes toward poles (kinetochore MT shortening); B separates the poles (spindle elongation). They overlap but are mechanistically distinct.\n- **Centrosome is not absolutely required**: Some cells (plants, oocytes) build functional spindles without centrosomes via chromosome-driven assembly.\n- **Kinetochore vs. centromere**: The centromere is the DNA region; the kinetochore is the protein complex assembled on it.\n- **Plus vs. minus ends**: Kinetochore MTs attach at their plus ends; minus ends are at the poles. Depolymerization at the plus end (and flux at the minus end) drives anaphase A.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine the cell as a gym with two posts (the poles) and a set of bungee cords (microtubules) strung between them and out to the walls. Some cords grab the chromosomes like a zip-line harness (kinetochore cords), some cords push the two posts apart (interpolar cords), and some cords anchor the posts to the walls so the whole frame stays centered (astral cords). The cords are constantly growing and shrinking, letting them \"fish\" for chromosomes. At the moment of truth, the harnesses reel the chromosomes toward the posts while the posts push apart — splitting one set of chromosomes into two identical sets. The analogy's limit: real microtubules are dynamic polymers whose growth/shrinkage is a GTP-driven molecular switch, and the \"reeling\" is powered by depolymerization and motor proteins, not by a person pulling a rope.",
+    "quickReview": "- Spindle = bipolar array of dynamic microtubules + motors; three classes: kinetochore, interpolar, astral.\n- Assembly: search-and-capture by dynamic instability; biorientation via error correction (Aurora B).\n- Anaphase A (chromosome-to-pole) + Anaphase B (pole-to-pole) = segregation.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 17, \"The Mitotic Spindle.\""
+      },
+      {
+        "text": "Walczak, C. E. & Heald, R., \"Mechanisms of mitotic spindle assembly and function,\" *International Review of Cytology* (2008)."
+      },
+      {
+        "text": "Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 19."
+      },
+      {
+        "text": "NCBI Bookshelf, *The Cell: A Molecular Approach*, 2nd ed., \"The spindle.\""
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Chapter 10, \"The Process of Mitosis.\""
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/07-cell-cycle-cell-death/06-mitosis-mechanics.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

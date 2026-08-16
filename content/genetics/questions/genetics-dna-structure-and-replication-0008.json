@@ -1,0 +1,39 @@
+{
+  "id": "genetics-dna-structure-and-replication-0008",
+  "subject": "genetics",
+  "lesson": "dna-structure-and-replication",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application At a replication fork in E. coli, DNA polymerase III (the *dnaE* product) synthesizes the leading strand continuously. Which statement about the leading strand is correct?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It is assembled from Okazaki fragments that DNA ligase joins together."
+    },
+    {
+      "id": "b",
+      "text": "It is synthesized in the 3' to 5' direction, matching the template's polarity."
+    },
+    {
+      "id": "c",
+      "text": "It is synthesized in the 5' to 3' direction toward the moving fork and requires only one RNA primer."
+    },
+    {
+      "id": "d",
+      "text": "It requires a fresh RNA primer for every Okazaki fragment along the template."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "The leading strand template runs 3' to 5' away from the fork, so the polymerase follows the unwinding fork continuously in the 5' to 3' direction after a single primer. Options A and D describe the lagging strand, which is made in Okazaki fragments that each need their own primer, and option B reverses the polymerization direction, which no DNA polymerase can do. All DNA synthesis, leading or lagging, is 5' to 3'.",
+  "difficulty": "unknown",
+  "tags": [
+    "leading",
+    "strand",
+    "synthesis"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-5fcc89f16ce99a1e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

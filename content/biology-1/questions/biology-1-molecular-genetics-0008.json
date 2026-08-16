@@ -1,0 +1,40 @@
+{
+  "id": "biology-1-molecular-genetics-0008",
+  "subject": "biology-1",
+  "lesson": "molecular-genetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "The **lac operon** is normally repressed in Escherichia coli cells growing without lactose. When lactose enters the cell, what happens to the operon?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Lactose binds RNA polymerase and blocks it from reading the promoter"
+    },
+    {
+      "id": "b",
+      "text": "Lactose is converted into glucose, which permanently turns the operon off"
+    },
+    {
+      "id": "c",
+      "text": "Lactose binds the operator directly and prevents the repressor from attaching"
+    },
+    {
+      "id": "d",
+      "text": "Lactose binds the repressor and inactivates it, freeing the operator so transcription proceeds"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Lactose, converted to allolactose, binds the lac repressor and inactivates it, so the repressor falls off the operator and RNA polymerase can transcribe the structural genes. A wrongly makes RNA polymerase the target of lactose. B mistakes the metabolism of lactose for its regulatory role, and C says lactose binds the operator, but lactose targets the repressor protein, not the DNA.",
+  "difficulty": "unknown",
+  "tags": [
+    "lac",
+    "operon",
+    "response",
+    "lactose"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-2692bbd1e4c2f67c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

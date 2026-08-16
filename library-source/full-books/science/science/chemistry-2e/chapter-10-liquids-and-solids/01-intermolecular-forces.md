@@ -1,0 +1,171 @@
+---
+title: "Intermolecular Forces"
+subject: "Science"
+book: "Chemistry 2e"
+chapter: "10: Liquids and Solids"
+topic_number: "1"
+source: "chemistry-2e.md"
+tags:
+  - "intermolecular-forces"
+  - "science"
+status: "complete"
+---
+
+# Intermolecular Forces
+
+> **Book:** [Chemistry 2e](../../README.md)  
+> **Chapter:** [Chapter 10: Liquids and Solids](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Inside a molecule, atoms are held together by **intramolecular** bonds — covalent bonds sharing electrons, or ionic bonds built from opposite charges. Between separate molecules, a different, weaker set of attractions operates: **intermolecular forces** (IMFs). These forces do not hold atoms together; they hold *molecules near each other*. They are the reason a gas condenses to a liquid, a liquid freezes to a solid, water beads on a waxed car, and oil and water refuse to mix.
+
+This topic identifies the four main types of intermolecular forces — dispersion (London) forces, dipole–dipole attractions, hydrogen bonds, and ion–dipole forces — explains what determines their strength, and shows how they control physical properties like boiling point, vapor pressure, and solubility.
+
+## Why This Matters
+
+Nearly every "why" question about everyday matter is an IMF question: why water boils at 100 °C while methane boils at −162 °C, why a spider walks on a pond, why a paper towel soaks up a spill, why DNA's double helix stays zipped. In industry, IMFs decide which solvents dissolve which materials and how to separate mixtures by distillation. In biology, hydrogen bonds stabilize proteins and DNA. Comfort with IMFs unlocks the rest of this chapter and much of biochemistry.
+
+## Core Concepts
+
+### Dispersion (London) forces: the universal attraction
+
+Every molecule and atom — even a single helium atom — experiences **dispersion forces**. Electrons move constantly, so at any instant the electron cloud of an atom may be slightly lopsided. That momentary **temporary dipole** polarizes a neighbor's electron cloud, inducing a matching dipole, and the two attract. The attraction flickers on and off, but on average it is real.
+
+Two factors control dispersion strength:
+
+- **Polarizability** — how easily an electron cloud distorts. Bigger atoms with more, loosely held electrons are more polarizable.
+- **Surface contact** — larger molecules can touch neighbors at more points, multiplying the attraction.
+
+Among similar molecules, dispersion forces grow with **molar mass**. Among isomers with the same formula, the more elongated molecule has more surface contact than a compact, branched one, so it has stronger dispersion forces and a higher boiling point.
+
+### Dipole–dipole forces
+
+When a molecule has permanent bond dipoles that do not cancel (a polar molecule like HCl or acetone), its positive end attracts its neighbor's negative end. These **dipole–dipole forces** are stronger than dispersion forces for small molecules of similar size, and they add on top of dispersion forces. They explain why polar molecules of similar molar mass boil higher than nonpolar ones: compare acetone (58 g/mol, bp 56 °C) with butane (58 g/mol, bp −0.5 °C).
+
+### Hydrogen bonding: a special strong dipole–dipole force
+
+**Hydrogen bonding** is a particularly strong dipole–dipole attraction that forms when hydrogen is bonded to a highly electronegative atom — **F, O, or N** — and is attracted to a lone pair on another F, O, or N. The small, electron-poor hydrogen acts almost like a bare proton with a concentrated positive charge, so it pulls unusually hard on a neighbor's lone pair.
+
+Hydrogen bonds are about ten times weaker than covalent bonds but far stronger than ordinary dipole–dipole forces. They cause water's anomalously high boiling point, ice floating, DNA base pairing, and protein folding. A hydrogen bond needs a **donor** (H–F/O/N group) and an **acceptor** (a lone pair on F/O/N).
+
+### Ion–dipole forces
+
+When an ion meets a polar molecule, the ion's charge strongly attracts the molecule's partial charges: water's positive end points toward a negative ion and vice versa. **Ion–dipole forces** are the strongest of the intermolecular interactions and explain why ionic solids like NaCl dissolve in water: the attraction between Na⁺ or Cl⁻ and water molecules overcomes the ionic bonds in the crystal.
+
+### Relative strength
+
+Ordered from weakest to strongest:
+
+\[
+\text{dispersion} < \text{dipole–dipole} < \text{hydrogen bonding} < \text{ion–dipole}
+\]
+
+with the caveat that dispersion forces grow with size and can outrank dipole–dipole forces for large molecules. The total attraction — the **net intermolecular force** — decides the properties explored next: vapor pressure, boiling point, surface tension, viscosity, and whether a substance is a gas, liquid, or solid at room temperature.
+
+## ELI-10: Explain Like I’m 10
+
+> Molecules are like sticky magnets. Some are barely sticky at all (helium), some are medium-sticky (gasoline), and water molecules are extra sticky because their shape makes a special super-sticky patch called a hydrogen bond. How hard molecules stick together decides whether a substance is a gas that floats away, a liquid that pours, or a solid that holds its shape.
+
+## High-Yield Points
+
+- IMFs are attractions *between* molecules; bonds hold atoms *within* a molecule.
+- Dispersion forces exist in **all** molecules and atoms; they increase with polarizability and surface contact (roughly, with molar mass).
+- Dispersion < dipole–dipole < hydrogen bonding < ion–dipole (for molecules of comparable size).
+- Hydrogen bonding requires H bonded to **N, O, or F** and a lone pair on N, O, or F.
+- Stronger IMFs → higher boiling point, lower vapor pressure, higher surface tension, higher viscosity.
+- More surface contact (less branching) → stronger dispersion → higher boiling point among isomers.
+- Water's unusual properties (high boiling point, ice floating, strong cohesion) come from hydrogen bonding.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| intermolecular force (IMF) | Attraction between separate molecules (or atoms) | Controls phase, boiling point, solubility, and many physical properties |
+| dispersion force | Weak, momentary attraction from flickering electron clouds | Present in every substance; the only IMF for nonpolar molecules |
+| polarizability | How easily an electron cloud distorts in response to charge | Larger, electron-rich atoms are more polarizable → stronger dispersion |
+| dipole | A molecule (or bond) with separated partial positive and negative ends | Gives rise to dipole–dipole and hydrogen-bond attractions |
+| dipole–dipole force | Attraction between the positive end of one polar molecule and the negative end of another | Raises boiling points of polar substances |
+| hydrogen bond | Strong dipole–dipole attraction between H bonded to N/O/F and a lone pair on N/O/F | Explains water's anomalies, DNA and protein structure |
+| ion–dipole force | Attraction between an ion and a polar molecule | Key to dissolving ionic compounds in water |
+
+## How It Works / Step-by-Step Process
+
+To predict which of two substances has the stronger IMFs and the higher boiling point:
+
+1. Identify the forces each substance can experience (dispersion always; dipole–dipole if polar; hydrogen bonding if H–N/O/F is present).
+2. Compare molar masses and shapes to judge dispersion strength.
+3. Weigh the strongest force present in each substance.
+4. Predict: more IMF strength → more energy to separate molecules → higher boiling point.
+
+## Worked Examples
+
+### Example 1: Why does water boil 262 °C higher than hydrogen sulfide?
+
+H₂S has a higher molar mass (34.08 g/mol) than water (18.02 g/mol), so its dispersion forces are stronger. Yet water boils at 100 °C while H₂S boils at about −60 °C. The reason is hydrogen bonding:
+
+- In water, each O–H bond places hydrogen next to the very electronegative oxygen, and oxygen carries two lone pairs. Water molecules form strong hydrogen bonds with each other.
+- In H₂S, sulfur is less electronegative, and the S–H bond is not polar enough to support hydrogen bonding. H₂S molecules are held together only by dispersion and weak dipole–dipole forces.
+
+Extra energy must break water's hydrogen bonds before molecules can escape as vapor, so water boils far higher despite its lower molar mass. Across the series H₂O, H₂S, H₂Se, H₂Te, water is the lightest yet boils the highest.
+
+### Example 2: Comparing boiling points of hydrocarbons
+
+Rank these by predicted boiling point: butane (C₄H₁₀, 58 g/mol, straight chain), isobutane (C₄H₁₀, 58 g/mol, branched), and pentane (C₅H₁₂, 72 g/mol, straight chain).
+
+Step 1 — forces present: all three are nonpolar, so only dispersion forces act.
+
+Step 2 — molar mass: pentane (72 g/mol) has more electrons and stronger dispersion than the C₄ pair.
+
+Step 3 — shape: butane is a straight chain with more surface contact; isobutane is branched and compact, so its molecules touch fewer neighbors.
+
+Step 4 — prediction: pentane > butane > isobutane.
+
+Measured values confirm: pentane 36 °C, butane −0.5 °C, isobutane −12 °C. Molar mass dominates first; among isomers, shape decides.
+
+## Common Confusions
+
+| Common Confusion | Correct Understanding |
+|---|---|
+| "Hydrogen bonds hold the hydrogen atoms inside a water molecule." | No — the O–H bond inside water is covalent. Hydrogen bonds are *between* molecules: one molecule's H to another's O. |
+| "Polar molecules only have dipole–dipole forces." | Polar molecules also have dispersion forces; all molecules do. |
+| "Dispersion forces only occur in nonpolar molecules." | They occur in all molecules; for nonpolar ones they are simply the *only* IMF. |
+| "Bigger molar mass always means higher boiling point." | Usually true among similar molecules, but strong hydrogen bonding (water vs H₂S) can reverse the trend. |
+| "Hydrogen bonding requires any hydrogen atom." | It requires H bonded to N, O, or F, attracted to a lone pair on N, O, or F. C–H hydrogens do not hydrogen-bond. |
+| "Ion–dipole forces are weaker than hydrogen bonds." | They are stronger — the full charge of an ion beats the partial charges of a dipole. |
+
+## Quick Review
+
+1. List the four types of intermolecular forces in order of increasing strength.
+2. Why do larger molecules generally have stronger dispersion forces?
+3. What structural requirement must be met for hydrogen bonding to occur?
+4. Two isomers, one straight-chain and one branched, have the same formula. Which boils higher and why?
+5. Explain why NaCl, an ionic solid, dissolves in water despite strong ionic bonds.
+
+<details>
+<summary>Show answers</summary>
+
+1. Dispersion < dipole–dipole < hydrogen bonding < ion–dipole (for molecules of comparable size).
+2. Larger molecules have more electrons, which are more easily polarized (higher polarizability), and more surface area for contact with neighbors — both strengthen dispersion forces.
+3. Hydrogen must be covalently bonded to N, O, or F, and the molecule must have access to a lone pair on another N, O, or F (the acceptor).
+4. The straight-chain isomer boils higher: it has more surface contact, so its dispersion forces are stronger than the compact branched form's.
+5. The ion–dipole attraction between Na⁺/Cl⁻ and polar water molecules is strong enough to pull the ions apart from the crystal and keep them hydrated in solution.
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter — [Non-Ideal Gas Behavior](../chapter-09-gases/06-non-ideal-gas-behavior.md)
+- Next: [Properties of Liquids](02-properties-of-liquids.md)
+- Related: [Phase Transitions](03-phase-transitions.md)
+- Related: [Liquids and Solids chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Chemistry 2e
+- Local outline source: `chemistry-2e.md`
+- Official source URL: https://openstax.org/details/books/chemistry-2e/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Boiling points cross-checked against standard reference values (2026-08).
+- Last updated: 2026-08-16

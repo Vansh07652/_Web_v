@@ -1,0 +1,130 @@
+---
+title: "Drug Administration Routes, Preparation, and Administration"
+subject: "Nursing"
+book: "Pharmacology for Nurses"
+chapter: "2: Drug Administration"
+topic_number: "3"
+source: "pharmacology.md"
+tags:
+  - "drug-administration-routes-preparation-and-administration"
+  - "nursing"
+status: "complete"
+---
+
+# Drug Administration Routes, Preparation, and Administration
+
+> **Book:** [Pharmacology for Nurses](../../README.md)  
+> **Chapter:** [Chapter 2: Drug Administration](../README.md)  
+> **Topic:** 3  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+The **route of administration** is the path a drug takes into the body, shaping absorption speed, first-pass exposure, onset, and duration. **Preparation** turns an order into the correct form and dose — reading the label, calculating, and handling the product safely. **Administration** is giving the drug to the right person, by the right route, at the right time, using checklists such as the rights of medication administration. Most errors are caught or missed here. Scope and policies vary by state law, license type, and institution — always verify against current references, the formulary, and prescriber orders.
+
+## Why This Matters
+
+Route choice is a clinical decision with predictable consequences. The same drug can act within seconds given intravenously and much more slowly when swallowed, and the dose may differ. Nurses must understand why a route was chosen to anticipate onset, monitor for effect, and teach the person. Preparation and administration are the last line of defense: verifying the person with two identifiers, reading the label, checking the calculation, and confirming the route catch mistakes before they reach anyone. Route characteristics and the rights of administration are high-frequency exam items.
+
+## Core Concepts
+
+### Enteral routes: through the digestive tract
+
+Enteral routes deliver a drug through the gastrointestinal tract. The most common is **oral**: the person swallows the dose. Oral dosing is convenient but subject to the **first-pass effect** — part of the dose is inactivated by the liver before reaching general circulation — and onset is slow. **Sublingual** (under the tongue) and **buccal** (against the cheek) routes absorb through the oral mucosa into the bloodstream, bypassing first pass, so they act faster with lower doses. **Rectal** administration avoids some first pass and helps when a person cannot take anything by mouth. Drugs may also be given **through a feeding tube**, with one critical rule: not every formulation may be crushed — extended-release and enteric-coated products release slowly or resist stomach acid, and altering them can dump the entire dose at once. Verify before crushing.
+
+### Parenteral routes: injected, bypassing the gut
+
+Parenteral routes deliver drugs by injection, bypassing the digestive tract and, for most, avoiding first pass. **Intravenous (IV)** administration places the drug directly in the bloodstream: absorption is bypassed, onset is fastest, and control is precise — but the margin for error is smallest. **Intramuscular (IM)** injection deposits the drug in muscle, richly supplied with blood, so absorption is faster than subcutaneous but slower than IV. **Subcutaneous (SC)** injection places the drug in the fatty layer beneath the skin, where absorption is slower and more even. **Intradermal (ID)** injection delivers tiny volumes into the dermis, mainly for diagnostic testing. Because injections breach the skin, aseptic technique and proper site selection are essential — specifics vary by drug and facility policy, so they must be verified, not assumed.
+
+### Topical, transdermal, inhalation, and other routes
+
+**Topical** application to the skin or mucous membranes is designed mostly for local effects. **Transdermal** patches are different: they deliver a drug steadily through the skin into the bloodstream over an extended period, producing relatively constant systemic levels — which is why old patches must be removed and disposed of properly when a new one is applied. **Inhalation** carries a drug into the lungs, where the large absorptive surface allows rapid onset — often for a local airway effect. Other routes include **ophthalmic** (eye), **otic** (ear), **vaginal**, and **nasal** administration. A drug intended for one route must never be given by another; route misuse is a serious, preventable error.
+
+### Preparation: turning the order into the right product
+
+Preparation is where the order becomes reality. The nurse checks the order against the medication administration record (MAR), confirms the person's identity, and verifies the drug: correct drug, strength, form, expiration date, and calculation. Standard habits include reading the label three times (when the container is taken out, when the dose is prepared, and when it is returned), never preparing from an unlabeled container, and extra scrutiny for **look-alike/sound-alike** names and **high-alert** medications — classes carrying heightened risk of significant harm if misused (e.g., anticoagulants, insulin, opioids; verify the facility's list). Distractions during preparation are a known error contributor, which is why many facilities create quiet preparation zones.
+
+### The rights of medication administration
+
+The **rights of medication administration** are a mnemonic checklist that organizes verification. Most versions include the right **patient** (confirmed with two identifiers, e.g., name and date of birth, per facility policy), right **drug**, right **dose**, right **route**, right **time**, and right **documentation**, with many sources adding right **reason**, right **response**, and the person's **right to refuse**. Versions vary by source and institution, so learn the one your program and facility use. The rights structure double-checking but do not replace judgment: the nurse still applies knowledge of the drug, the person's condition, and assessment findings before, during, and after administration.
+
+### Administration and follow-up
+
+Administration follows a sequence: assess the person first (allergies, condition, and any relevant vital signs or labs per the drug's requirements), verify the rights, give the drug, observe for response and adverse effects, document promptly, and teach the person what to expect. A person always has the right to refuse; the nurse respects the refusal, explores the reason, notifies the prescriber, and documents. Nurses work within their license and facility policy; delegation of medication tasks — where permitted — is strictly limited by law. When anything is uncertain — an unclear order, an unfamiliar product, a questionable calculation — stop and verify.
+
+## ELI-10: Explain Like I'm 10
+
+The route is how the medicine gets in — like handing a letter to someone directly versus mailing it. Some routes (under the tongue, straight into a vein) skip the "mail-sorting office" (the liver), so the medicine works faster. Before giving anything, you check the name, the address, the stamp, and the amount — the rights of administration — so a mistake gets caught before it happens.
+
+## High-Yield Points
+
+- **Route determines onset and first-pass exposure**: IV fastest; oral slower, subject to first pass.
+- **Sublingual, buccal, and IV routes bypass first pass**, so doses can differ from oral.
+- **Enteral = via the GI tract; parenteral = injected, bypassing the gut.**
+- **Never crush extended-release or enteric-coated products** without verifying the specific product.
+- **Two patient identifiers** per facility policy.
+- The **rights** framework (patient, drug, dose, route, time, documentation, plus reason, response, refusal) varies by source.
+- **Transdermal = systemic through the skin; topical = usually local.**
+- Scope and technique vary by state law and facility policy — verify, don't assume.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Route of administration | The path by which a drug enters the body | Determines onset, first pass, and dosing |
+| Enteral | Via the GI tract (oral, sublingual, buccal, rectal, tube) | Mostly subject to first pass |
+| Parenteral | Bypassing the GI tract, usually by injection (IV, IM, SC, ID) | Faster onset; requires aseptic technique |
+| First-pass effect | Liver inactivates part of a drug before general circulation | Reduces oral bioavailability |
+| Transdermal | Through the skin via a patch for steady systemic levels | Requires correct application and disposal |
+| Extended-release / enteric-coated | Release slowly or resist stomach acid | Must not be crushed unless verified safe |
+| Rights of medication administration | Checklist: right patient, drug, dose, route, time, documentation (+ more) | Structured error prevention at the bedside |
+
+## Example: When "Crush It" Is the Wrong Answer
+
+A person with difficulty swallowing is ordered a medication available only as an extended-release tablet, which releases the drug gradually over many hours. If it is crushed and mixed into food, the protective mechanism is destroyed and the entire dose becomes available at once, producing a sudden spike in drug levels instead of a steady plateau — a recipe for intensified effects and toxicity. The nurse does not crush it. Instead, the nurse checks the formulary and references for an alternative form and consults the pharmacist. The same reasoning applies to enteric-coated tablets. The rule: altering a formulation is a clinical decision that requires verification, never a habit. (Educational scenario; the specific product and alternatives come from current references and the prescriber.)
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Enteral | Parenteral | Enteral = via the GI tract; parenteral = injected, bypassing the gut |
+| Sublingual | Swallowed oral | Sublingual absorbs under the tongue, avoiding first pass |
+| Transdermal | Topical | Transdermal = systemic; topical = usually local |
+| IV | IM | IV = directly in the bloodstream; IM = absorbed from muscle |
+| Crushable tablets | Extended-release / enteric-coated | Never assume a tablet can be crushed; verify each product |
+
+## Quick Review
+
+1. Which route generally produces the fastest onset, and why?
+2. Why might the oral dose of a drug be larger than its IV dose?
+3. List the core rights of medication administration.
+4. Why should an extended-release tablet never be crushed without verification?
+5. What is the difference between a transdermal patch and a topical cream?
+6. What should a nurse do when a person refuses a prescribed medication?
+
+<details>
+<summary>Show answers</summary>
+
+1. Intravenous — the drug is placed directly in the bloodstream, so absorption is bypassed entirely.
+2. Because of the first-pass effect: part of an oral dose is inactivated by the liver, so more drug is needed for the same systemic level.
+3. Right patient, drug, dose, route, time, documentation — some add reason, response, and the right to refuse.
+4. Because extended-release products release slowly by design; crushing releases the whole dose at once, risking toxicity. Verify each product first.
+5. A transdermal patch delivers drug steadily through the skin into the bloodstream (systemic); a topical product gives a mostly local effect.
+6. Respect the refusal, explore the reason, notify the prescriber, and document — the person has the right to refuse.
+
+</details>
+
+## Related Topics
+
+- Previous: [Pharmacokinetics and Pharmacodynamics](02-pharmacokinetics-and-pharmacodynamics.md)
+- Next: [Dosage Calculations](04-dosage-calculations.md)
+- Related: [Drug Administration chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Pharmacology for Nurses
+- Local outline source: `pharmacology.md`
+- Official source URL: https://openstax.org/details/books/pharmacology/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: Educational overview only. No doses, schedules, or administration recommendations; technique and scope vary by state law and facility policy — verify against current references, the formulary, and prescriber orders.
+- Last updated: 2026-08-15

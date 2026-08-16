@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-kinetics:integrated-rate-laws",
+  "slug": "integrated-rate-laws",
+  "title": "Integrated Rate Laws",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-kinetics",
+    "slug": "chemical-kinetics",
+    "title": "Chemical Kinetics",
+    "order": 3
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "The differential rate law tells you *how* rate depends on concentration. The **integrated rate law** goes one step further and tells you *how concentration depends on time*. It is obtained by integrating the differential equation and is the workhorse for prediction: given a starting concentration and k, you can compute [A] at any later time, or find the time needed to reach a target concentration.",
+    "whyItMatters": "Integrated rate laws are how kinetic data becomes prediction. Radiocarbon dating, drug half-life and dosing schedules, pollutant decay, and food-spoilage estimates all use the first-order equation. The linear-plot method is the practical way a chemist decides what order a reaction obeys from a table of concentration–time measurements.",
+    "learningObjectives": "- Write the integrated rate laws for zero-, first-, and second-order reactions.\n- Use the linearized plots ([A] vs t, ln[A] vs t, 1/[A] vs t) to identify reaction order from data.\n- Calculate and interpret half-lives for each order.\n- Apply the appropriate equation to compute concentration at a given time.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe differential rate law tells you *how* rate depends on concentration. The **integrated rate law** goes one step further and tells you *how concentration depends on time*. It is obtained by integrating the differential equation and is the workhorse for prediction: given a starting concentration and k, you can compute [A] at any later time, or find the time needed to reach a target concentration.\n\n### Key Ideas\n\n- Each reaction order has a characteristic integrated equation and a characteristic **linear plot**.\n- The **half-life** (t½) — the time for [A] to fall to half its initial value — behaves differently for each order.\n- Fitting data to a straight line is the standard way to determine order experimentally.\n- First-order kinetics (like radioactive decay) has a half-life independent of concentration.\n\n### Equations and Variables\n\n**Zero order** (Rate = k):\n\n$$[A]_t = [A]_0 - kt \\qquad t_{1/2} = \\frac{[A]_0}{2k}$$\n\nLinear plot: [A] vs t (slope = −k).\n\n**First order** (Rate = k[A]):\n\n$$\\ln[A]_t = \\ln[A]_0 - kt \\qquad t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$\n\nLinear plot: ln[A] vs t (slope = −k).\n\n**Second order** (Rate = k[A]²):\n\n$$\\frac{1}{[A]_t} = \\frac{1}{[A]_0} + kt \\qquad t_{1/2} = \\frac{1}{k[A]_0}$$\n\nLinear plot: 1/[A] vs t (slope = +k).\n\n- [A]₀ = initial concentration (M)\n- [A]ₜ = concentration at time t (M)\n- k = rate constant (units depend on order)\n- t½ = half-life (s)\n\n### How It Works\n\nEach integrated law is a straight-line equation in disguise. If you plot [A] against time and get a straight line, the reaction is zero order and the slope equals −k. If ln[A] vs t is linear, it's first order with slope −k. If 1/[A] vs t is linear, it's second order with slope +k. This \"linearization\" trick turns a messy curve into a diagnostic: whichever plot gives the best straight line reveals the order.\n\nHalf-lives behave very differently. For a first-order reaction, t½ = 0.693/k is constant — every half-life takes the same time regardless of how much is left (this is why carbon-14 dating works). For a second-order reaction, t½ = 1/(k[A]₀) grows as the concentration drops, so each successive half-life takes longer. For zero order, t½ = [A]₀/2k shrinks as [A]₀ falls.\n\n### Worked Example\n\nDinitrogen pentoxide decomposes by a first-order process: 2 N₂O₅ → 4 NO₂ + O₂, with k = 6.2 × 10⁻⁴ s⁻¹ at 45 °C.\n\n**(a) Half-life.**\n\n$$t_{1/2} = \\frac{0.693}{6.2\\times10^{-4}\\ \\text{s}^{-1}} = 1.1\\times10^{3}\\ \\text{s} \\ (\\approx 19\\ \\text{min})$$\n\n**(b) Concentration after 2.00 × 10³ s if [N₂O₅]₀ = 0.100 M.**\n\nUse the first-order integrated law:\n\n$$\\ln[A]_t = \\ln(0.100) - (6.2\\times10^{-4}\\ \\text{s}^{-1})(2.00\\times10^{3}\\ \\text{s})$$\n\n$$\\ln[A]_t = -2.303 - 1.24 = -3.54$$\n\n$$[A]_t = e^{-3.54} = 0.029\\ \\text{M}$$\n\n**(c) Time for [N₂O₅] to fall from 0.100 M to 0.0250 M.**\n\nEach half-life halves the concentration: 0.100 → 0.050 → 0.025 requires two half-lives, so t = 2 × 1.1 × 10³ s = 2.2 × 10³ s. (Equivalently, 0.0250/0.100 = ¼ = (½)².)",
+    "howItWorks": "Each integrated law is a straight-line equation in disguise. If you plot [A] against time and get a straight line, the reaction is zero order and the slope equals −k. If ln[A] vs t is linear, it's first order with slope −k. If 1/[A] vs t is linear, it's second order with slope +k. This \"linearization\" trick turns a messy curve into a diagnostic: whichever plot gives the best straight line reveals the order.\n\nHalf-lives behave very differently. For a first-order reaction, t½ = 0.693/k is constant — every half-life takes the same time regardless of how much is left (this is why carbon-14 dating works). For a second-order reaction, t½ = 1/(k[A]₀) grows as the concentration drops, so each successive half-life takes longer. For zero order, t½ = [A]₀/2k shrinks as [A]₀ falls.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Zero order: [A]ₜ = [A]₀ − kt; linear in [A]; t½ = [A]₀/2k.\n- First order: ln[A]ₜ = ln[A]₀ − kt; linear in ln[A]; t½ = 0.693/k (constant).\n- Second order: 1/[A]ₜ = 1/[A]₀ + kt; linear in 1/[A]; t½ = 1/(k[A]₀).\n- The slope of the correct linear plot gives k (magnitude).\n- Only the first-order half-life is independent of concentration.",
+    "commonConfusions": "- **Mixing up the signs.** First order subtracts kt (decay); second order adds kt (1/[A] grows). Don't blindly copy a sign.\n- **Forgetting the concentration dependence of t½.** Only first-order half-lives are constant.\n- **Using the wrong plot.** Check all three linearizations; the best straight line identifies the order.\n- **Unit errors on k.** First-order k is s⁻¹; second-order k is M⁻¹·s⁻¹.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThe differential rate law is the \"speed\"; the integrated rate law is the \"mileage log\" — it tells you where you are at any point on the trip. For a first-order reaction, the trip is special: no matter where you are, it always takes the same amount of time to go halfway to empty. That's why \"half-life\" is so convenient for drugs and radioisotopes — it never changes. For other orders, the half-life depends on how much you started with, so the \"halfway\" markers move. To find out which type of trip you're on, plot your data three ways and see which one makes a straight line.",
+    "quickReview": "1. Write the integrated law for a first-order reaction and identify the linear plot.\n2. What is the half-life formula for first, second, and zero order?\n3. Which order has a concentration-independent half-life?\n4. How do you determine reaction order from a table of [A] vs t data?\n5. If a first-order reaction has k = 0.0231 min⁻¹, what is its half-life? (Answer: 30.0 min)",
+    "workedExamples": "### Worked Example\n\nDinitrogen pentoxide decomposes by a first-order process: 2 N₂O₅ → 4 NO₂ + O₂, with k = 6.2 × 10⁻⁴ s⁻¹ at 45 °C.\n\n**(a) Half-life.**\n\n$$t_{1/2} = \\frac{0.693}{6.2\\times10^{-4}\\ \\text{s}^{-1}} = 1.1\\times10^{3}\\ \\text{s} \\ (\\approx 19\\ \\text{min})$$\n\n**(b) Concentration after 2.00 × 10³ s if [N₂O₅]₀ = 0.100 M.**\n\nUse the first-order integrated law:\n\n$$\\ln[A]_t = \\ln(0.100) - (6.2\\times10^{-4}\\ \\text{s}^{-1})(2.00\\times10^{3}\\ \\text{s})$$\n\n$$\\ln[A]_t = -2.303 - 1.24 = -3.54$$\n\n$$[A]_t = e^{-3.54} = 0.029\\ \\text{M}$$\n\n**(c) Time for [N₂O₅] to fall from 0.100 M to 0.0250 M.**\n\nEach half-life halves the concentration: 0.100 → 0.050 → 0.025 requires two half-lives, so t = 2 × 1.1 × 10³ s = 2.2 × 10³ s. (Equivalently, 0.0250/0.100 = ¼ = (½)².)",
+    "references": [
+      {
+        "text": "OpenStax. *Chemistry 2e*. Ch. 12, \"Integrated Rate Laws.\" https://openstax.org/books/chemistry-2e/pages/12-4-integrated-rate-laws",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-4-integrated-rate-laws"
+      },
+      {
+        "text": "IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"half-life.\" https://goldbook.iupac.org/",
+        "url": "https://goldbook.iupac.org/"
+      },
+      {
+        "text": "Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman."
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/12-chemical-kinetics/04-integrated-rate-laws.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

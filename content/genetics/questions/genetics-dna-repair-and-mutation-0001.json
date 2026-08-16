@@ -1,0 +1,39 @@
+{
+  "id": "genetics-dna-repair-and-mutation-0001",
+  "subject": "genetics",
+  "lesson": "dna-repair-and-mutation",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept A single base substitution in a gene changes an mRNA codon from UUU to UUC. Which class of mutation best describes this change?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Silent mutation"
+    },
+    {
+      "id": "b",
+      "text": "Missense mutation"
+    },
+    {
+      "id": "c",
+      "text": "Nonsense mutation"
+    },
+    {
+      "id": "d",
+      "text": "Frameshift mutation"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "UUU and UUC both encode phenylalanine, so this base substitution leaves the encoded amino acid unchanged, which defines a silent mutation. A missense mutation would change the amino acid, a nonsense mutation would create one of the stop codons UAA, UAG, or UGA, and a frameshift requires an insertion or deletion whose length is not a multiple of three.",
+  "difficulty": "unknown",
+  "tags": [
+    "silent",
+    "mutation",
+    "classification"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ca8f349f5901cf65",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

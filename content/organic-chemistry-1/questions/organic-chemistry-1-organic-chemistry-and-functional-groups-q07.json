@@ -1,0 +1,40 @@
+{
+  "id": "organic-chemistry-1-organic-chemistry-and-functional-groups-q07",
+  "subject": "organic-chemistry-1",
+  "lesson": "organic-chemistry-and-functional-groups",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which comparison of ester formation and ester hydrolysis is accurate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Both reactions release water, differing only in the direction of electron flow"
+    },
+    {
+      "id": "b",
+      "text": "Formation releases water, while hydrolysis consumes water to regenerate acid and alcohol"
+    },
+    {
+      "id": "c",
+      "text": "Formation consumes water, while hydrolysis releases water and creates a carbon–carbon bond"
+    },
+    {
+      "id": "d",
+      "text": "Formation joins two alcohols, while hydrolysis yields two carboxylic acids"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Esterification joins a carboxylic acid and an alcohol with loss of one H2O per bond formed, the defining pattern of a condensation (dehydration synthesis) reaction. Hydrolysis is the exact reverse: water adds across the ester linkage and splits it into the parent carboxylic acid and alcohol. Building one triglyceride from glycerol plus 3 fatty acids therefore forms 3 ester bonds and releases 3 * 1 = 3 water molecules, and digesting that triglyceride consumes the same 3 waters.\n\nELI-10: Condensation and hydrolysis are one reaction read in two directions. Going forward, the acid gives up an —OH and the alcohol gives up an —H; those fragments combine into water and the two pieces bond directly. Going backward, adding water back across the bond splits the pieces apart, which is literally what hydrolysis means. The same bookkeeping applies to fats, starches, and proteins, so once you can count waters for a triglyceride (3 * 1 = 3) you can count them for any biological polymer.",
+  "difficulty": "medium",
+  "tags": [
+    "esters",
+    "condensation reaction",
+    "hydrolysis",
+    "dehydration synthesis"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-281",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

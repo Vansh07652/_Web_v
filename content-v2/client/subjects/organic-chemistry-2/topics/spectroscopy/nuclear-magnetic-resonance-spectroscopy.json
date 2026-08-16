@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-2:spectroscopy:nuclear-magnetic-resonance-spectroscopy",
+  "slug": "nuclear-magnetic-resonance-spectroscopy",
+  "title": "Nuclear Magnetic Resonance Spectroscopy",
+  "subject": {
+    "id": "subject:organic-chemistry-2",
+    "slug": "organic-chemistry-2",
+    "title": "Organic Chemistry II"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-2:spectroscopy",
+    "slug": "spectroscopy",
+    "title": "Spectroscopy",
+    "order": 1
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "Nuclear magnetic resonance (NMR) places a molecule in a strong magnetic field and pulses it with radio waves, making certain nuclei (¹H, ¹³C) absorb energy at their resonance frequency. Each signal encodes **chemical shift** (environment), **integration** (proton count), and **splitting** (neighbor count) — together they reveal the carbon-hydrogen skeleton.",
+    "whyItMatters": "MRI is NMR applied to hydrogen nuclei of water and fat in tissue, using field gradients to map signal by location. In the lab, NMR confirms drug-candidate structure, verifies purity, and studies proteins and metabolites — including metabolomics that fingerprints disease biomarkers.",
+    "learningObjectives": "1. Explain how nuclear spin and an external magnetic field give rise to resonance, the basis of NMR.\n2. Distinguish proton NMR from carbon-13 NMR and interpret chemical equivalence, signals, shift, and integration.\n3. Apply the n+1 rule and coupling constants to predict splitting patterns (multiplicity, multiplets, complex splitting).\n4. Use DEPT and a structure-determination workflow to assemble a molecule while recognizing NMR limitations and traps.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| NMR | Magnetic resonance of nuclei | Structure tool |\n| Nuclear spin | Nuclear angular momentum | Enables NMR |\n| External magnetic field | B₀ from the magnet | Splits spin states |\n| Resonance | Radio absorption at Larmor | Produces the signal |\n| Proton NMR (¹H NMR) | NMR of hydrogen nuclei | Proton skeleton |\n| Carbon-13 NMR (¹³C NMR) | NMR of ¹³C nuclei | Carbon framework |\n| Chemical equivalence | Symmetry-related nuclei | Sets signal count |\n| Number of signals | Count of distinct environments | First clue |\n| Chemical shift (δ) | Position in ppm | Reports environment |\n| Shielding | Electrons reduce felt field | Upfield shift |\n| Deshielding | Electron withdrawal raises field | Downfield shift |\n| Anisotropic effects | Fields from π electrons | Aromatic/alkyne shifts |\n| Integration | Peak area | Gives proton count |\n| Proton count | Equivalent proton count | Fragment H-ratio |\n| Spin-spin splitting | Neighbors split a signal | Reveals connectivity |\n| Multiplicity | Lines in a signal | Neighbor count |\n| n+1 rule | \\(n\\) neighbors → \\(n+1\\) lines | Predicts splitting |\n| Coupling constant \\(J\\) | Spacing in Hz | Bonds partners |\n| Complex splitting | Splitting by non-equivalent sets | dd/dt/td |\n| Multiplets | Overlapping lines | Reported \"m\" |\n| Chemical-shift ranges | δ windows by proton type | Assigns groups |\n| Carbon-13 shifts | δ ~0–220 ppm | C=O, sp², sp³ |\n| DEPT | ¹³C by attached H | CH₃/CH₂/CH/C |\n| Structure-determination workflow | Signals→shifts→integration→splitting | Systematic method |\n| Limitations/traps | Exchange/equivalence/overlap pitfalls | Honest reading |",
+    "collegeNotes": "### 1. Nuclear spin, the external magnetic field, and resonance\nNuclei with odd mass number (¹H, ¹³C) have **nuclear spin**, a magnetic moment. In an **external magnetic field** (B₀), a spin-½ nucleus splits into two levels (aligned α, opposed β). **Resonance** occurs when a radiofrequency pulse supplies exactly the gap \\(\\Delta E = h\\nu\\), flipping nuclei to make a signal. This underlies both **proton NMR** (¹H) and **carbon-13 NMR** (¹³C).\n\n### 2. Chemical equivalence and the number of signals\n**Chemically equivalent** protons (interchangeable by symmetry or rotation) occupy one environment and give one signal, so the **number of signals** equals the number of distinct environments. In n-propane (CH₃CH₂CH₃), a mirror plane through C2 equates the two CH₃ groups, giving two ¹H signals.\n\n### 3. Chemical shift, shielding, and integration\n**Chemical shift** (δ, ppm) reports position and reflects **shielding**: electrons make local fields opposing B₀, so shielded nuclei resonate upfield (lower δ) and **deshielded** nuclei (near electron-withdrawing groups) downfield (higher δ). **Anisotropic effects** come from circulating π electrons: aromatic protons sit at 6.5–8 ppm, alkyne protons near 2–3 ppm. **Integration** measures peak area, proportional to **proton count** — ethanol's 3:2:1 areas give the relative proton numbers.",
+    "howItWorks": "1. The sample (in a deuterated solvent) sits in a strong magnet.\n2. Nuclei align into spin states split by B₀.\n3. A radio pulse excites them; as they relax they emit a decaying signal (FID).\n4. A Fourier transform converts the FID into a spectrum.\n5. Peaks are referenced to TMS (0 ppm), integrated, and analyzed.\n6. ¹H, ¹³C, and DEPT data combine with MS and IR to give the structure.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Number of signals = number of symmetry-distinct environments; equivalent protons do not split each other.\n- **High yield:** Integration areas give the proton-count ratio (e.g., 3:2:1).\n- **High yield:** n+1 applies only to *equivalent* neighbors; non-equivalent sets cause complex splitting.\n- **High yield:** Mutually coupled partners share equal \\(J\\) — matching \\(J\\) connects fragments.\n- **High yield:** Shift windows: alkyl 0–2, heteroatom-adjacent 2–4.5, alkene 5–6, aromatic 6.5–8, aldehyde 9–10, acid 10–12 ppm.\n- **High yield:** DEPT-135: CH₃/CH one phase, CH₂ the other, quaternary absent.\n- O–H/N–H protons exchange (broad, drifting, no clean integration/splitting); ¹³C NMR shows no ¹H splitting (decoupling) and no clean integration.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Chemical shift (δ, ppm) | Frequency (Hz) | δ is field-independent; Hz depends on magnet |\n| Integration | Signal height | Integration is *area*, not height |\n| Number of signals | Number of protons | One signal can represent many equivalent protons |\n| Equivalent neighbors | Non-equivalent neighbors | Clean n+1 vs. complex multiplets |\n| Coupling constant \\(J\\) | Chemical shift | \\(J\\) = line spacing (Hz); δ = center (ppm) |\n| DEPT | ¹³C chemical shift | DEPT adds H-count on top of shifts |",
+    "memoryAids": "**\"C-N-I-S: Count, Neighbors, Integrate, Shift.\"** Read any ¹H signal in four passes: **C**ount signals, **N**eighbors give multiplicity (n+1), **I**ntegrate for proton count, **S**hift tells the environment. For DEPT: **\"C-135: CH₃/CH up, CH₂ down, quaternary gone.\"**",
+    "eli10": "Some nuclei act as tiny spinning magnets. Inside the NMR magnet, each lines up \"with\" or \"against\" the field, like a compass needle. A radio pulse of exactly the right energy flips them — that flip is the signal. Where a signal appears depends on how much surrounding electrons shield the nucleus, which differs for every environment.\n\nThe comparison \"where it stops being exact\": the \"flipping magnets\" picture is a cartoon — the real process is quantum mechanical, and the machine pulses the sample and Fourier-transforms the resulting decay into the peaks you see.\n\n### Simple Example\nEthanol (CH₃CH₂OH) gives three signal groups — CH₃, CH₂, and OH protons each occupy a different environment, so each appears at a different chemical shift, with 3:2:1 areas.",
+    "quickReview": "### Topic Recap\n\nNMR detects resonance of spin-bearing nuclei (¹H, ¹³C) in an external magnetic field. A proton spectrum yields number of signals (symmetry), chemical shift (environment, with anisotropic effects), integration (proton count), and spin-spin splitting (multiplicity via the n+1 rule and coupling constants). Carbon-13 NMR adds the framework, and DEPT sorts carbons by attached hydrogens. Working signals → shifts → integration → splitting, mindful of exchange, equivalence, and overlap traps, gives the complete structure.\n\n### Knowledge Check\n\n1. A ¹H signal integrates to 2H and is a quartet. How many neighbors, and what group?\n2. Why do the two CH₃ groups of propane give one signal instead of two?\n3. A ¹³C spectrum shows four signals; DEPT-135 shows two up, one down, one absent. Describe the carbons.\n4. Why are O–H protons often broad and unreliable for integration or splitting?\n5. Two protons couple with \\(J = 7\\) Hz. What confirms they are on adjacent carbons?\n\n### Answers and Rationales\n\n1. **Three neighbors (an ethyl CH₂).** Quartet = \\(n+1 = 4\\), so \\(n = 3\\); a 2H quartet near 2–3 ppm is a CH₂ next to a CH₃.\n2. **Chemical equivalence by symmetry.** A mirror plane through C2 interchanges the CH₃ groups, so they occupy one environment; equivalent protons also do not split each other.\n3. **Two CH/CH₃ (up), one CH₂ (down), one quaternary (absent).** DEPT-135 shows CH₃ and CH in one phase, CH₂ in the other; quaternary carbons vanish.\n4. **Proton exchange.** O–H/N–H protons exchange rapidly, averaging their environments, so the signal broadens and gives no clean integration or splitting.\n5. **Matching coupling constants.** A partner with the same \\(J = 7\\) Hz spacing indicates the protons couple (bonded to adjacent atoms).",
+    "workedExamples": "*Determining a structure from NMR data:*\n\n1. **Count signals.** List distinct ¹H environments (and ¹³C environments) — the **number of signals** equals the symmetry-distinct nuclei.\n2. **Read chemical shifts** with **chemical-shift ranges**: CH₃ ~0.9, CH₂ ~1.3, CH ~1.7, X–CH ~3–4, O–CH₃ ~3.3, alkene ~5–6, aromatic ~6.5–8, aldehyde ~9–10, acid ~10–12 ppm.\n3. **Read integrations.** Convert areas to whole-number **proton counts**; their sum equals the formula's hydrogens.\n4. **Analyze splitting** with the **n+1 rule**: a proton with \\(n\\) *equivalent* neighbors splits into \\(n+1\\) lines (**multiplicity**) — one → doublet, two → triplet, three → quartet. **Spin-spin splitting** makes these multiplets; the line spacing is the **coupling constant** \\(J\\) (Hz). Non-equivalent neighbor sets give **complex splitting** (doublet of doublets); unresolved overlap gives broad **multiplets**.\n5. **Assemble fragments.** Pieces with matching \\(J\\) are bonded to each other; connect them into a skeleton consistent with shifts and integration.\n6. **Check with ¹³C and DEPT.** **Carbon-13 shifts** span ~0–220 ppm (C=O 160–220, aromatic 110–160, alkene 100–150, sp³ 0–90). **DEPT** sorts carbons by attached H count: CH/CH₃ up, CH₂ down, quaternary absent in DEPT-135.\n7. **Verify and note limits.** Cross-check MS (formula) and IR (groups). Watch **limitations/traps**: exchangeable O–H/N–H protons give broad, drifting, unintegrated signals; equivalent nuclei do not split each other; overlapping peaks hide signals.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "nuclear-magnetic-resonance-spectroscopy",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "03-nuclear-magnetic-resonance-spectroscopy",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-ii"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-ii",
+    "sourceFile": "organic-chemistry-ii-study-notes/docs/organic-chemistry-ii/03-nuclear-magnetic-resonance-spectroscopy.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

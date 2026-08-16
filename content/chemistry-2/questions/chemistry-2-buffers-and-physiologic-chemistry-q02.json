@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-buffers-and-physiologic-chemistry-q02",
+  "subject": "chemistry-2",
+  "lesson": "buffers-and-physiologic-chemistry",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which pair of substances could function together as a buffer system?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A weak acid and its conjugate base"
+    },
+    {
+      "id": "b",
+      "text": "A strong acid and the salt of a different strong acid"
+    },
+    {
+      "id": "c",
+      "text": "A strong acid and a strong base in equal concentration"
+    },
+    {
+      "id": "d",
+      "text": "Two weak acids with widely separated pKa values"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Buffering requires appreciable amounts of both a weak proton donor (HA) and its conjugate proton acceptor (A-), so that added base is absorbed by HA and added acid is absorbed by A-. Strong acids and strong bases ionize essentially completely, leaving no undissociated reservoir to trade protons with, and mixing them simply produces water and a neutral salt. Two unrelated weak acids are not a conjugate pair and buffer only in separate, non-overlapping pH windows. In plasma the working pair is carbonic acid (as dissolved CO2) and bicarbonate, normally near a 20:1 base-to-acid ratio.\n\nELI-10: A buffer is like a shop that both buys and sells the same item. The weak acid is the seller of hydrogen ions; the conjugate base is the buyer. With only strong acid, every ion has already been sold off and there is nothing left in stock to trade. In blood, bicarbonate at about 24 mmol/L is the buyer and dissolved CO2 at about 1.2 mmol/L is the seller, so there are roughly 20 buyers for every seller.",
+  "difficulty": "easy",
+  "tags": [
+    "conjugate acid-base pair",
+    "weak acid",
+    "bicarbonate buffer"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-280",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:aqueous-ionic-equilibria:acid-base-titration-curves",
+  "slug": "acid-base-titration-curves",
+  "title": "Acid–Base Titration Curves",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:aqueous-ionic-equilibria",
+    "slug": "aqueous-ionic-equilibria",
+    "title": "Aqueous Ionic Equilibria",
+    "order": 6
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "A **titration curve** plots pH against the volume of titrant added. Its shape reveals the nature of the acid and base: a strong-acid/strong-base curve is nearly flat then vertical through pH 7; a weak-acid/strong-base curve rises gradually through a buffered region and turns vertical at an equivalence point *above* pH 7. The **equivalence point** is where moles of acid equal moles of base (stoichiometric equivalence); the **endpoint** is where an indicator changes color. At the **half-equivalence point** of a weak-acid titration, exactly half the acid has been converted, so [HA] = [A⁻] and pH = pKa.",
+    "whyItMatters": "Titration is the standard lab method for finding unknown concentrations (acid content of vinegar, antacids, pollutants) and for measuring Ka/Kb. Reading the curve correctly — especially knowing that the equivalence point of a weak acid is *basic*, not neutral — is essential for choosing the right indicator and for interpreting results in analytical and clinical chemistry.",
+    "learningObjectives": "- Sketch and interpret strong acid–strong base, weak acid–strong base, and weak base–strong acid titration curves.\n- Distinguish the equivalence point from the endpoint.\n- Explain why pH = pKa at the half-equivalence point of a weak-acid titration.\n- Calculate pH at key points of a titration.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA **titration curve** plots pH against the volume of titrant added. Its shape reveals the nature of the acid and base: a strong-acid/strong-base curve is nearly flat then vertical through pH 7; a weak-acid/strong-base curve rises gradually through a buffered region and turns vertical at an equivalence point *above* pH 7. The **equivalence point** is where moles of acid equal moles of base (stoichiometric equivalence); the **endpoint** is where an indicator changes color. At the **half-equivalence point** of a weak-acid titration, exactly half the acid has been converted, so [HA] = [A⁻] and pH = pKa.\n\n### Key Ideas\n\n- **Equivalence point:** moles H₃O⁺ supplied = moles OH⁻ supplied (the stoichiometric point).\n- **Endpoint:** the observed color change of an indicator — an approximation of the equivalence point.\n- **Strong–strong:** equivalence at pH 7; huge, near-vertical jump in the middle.\n- **Weak acid + strong base:** equivalence point above pH 7 (conjugate base hydrolyzes); buffered region before it.\n- **Weak base + strong acid:** equivalence point below pH 7 (conjugate acid hydrolyzes).\n- **Half-equivalence point:** pH = pKa (for weak acid) or pOH = pKb (for weak base).\n\n### Equations and Variables\n\n- Equivalence condition: M_acid × V_acid = M_base × V_base (at the equivalence point)\n- Half-equivalence: [HA] = [A⁻] ⇒ pH = pKa\n- Weak acid at equivalence: solution is the conjugate base salt; [OH⁻] = √(Kb × C_salt)\n- Weak acid before equivalence (buffer region): pH = pKa + log([A⁻]/[HA])\n\n### How It Works\n\n1. **Start:** pH is just that of the original acid (or base) solution.\n2. **Before equivalence (weak acid):** each addition of strong base converts some HA to A⁻, creating a buffer; pH rises slowly and pH = pKa at the halfway point.\n3. **At equivalence:** all HA has been converted to A⁻. The solution is now a salt of a weak acid, so it is *basic* (pH > 7). For strong–strong, the salt is neutral and pH = 7.\n4. **After equivalence:** excess strong base (or acid) now simply accumulates; pH is set by the leftover titrant.\n5. The steep vertical region brackets the equivalence point; an indicator whose color-change range falls inside it will signal the endpoint accurately.\n\n### Worked Example\n\n**50.0 mL of 0.100 M CH₃COOH (Ka = 1.8 × 10⁻⁵) is titrated with 0.100 M NaOH. Find (a) the volume at the equivalence point and (b) the pH at that point.**\n\n(a) moles acid = 0.0500 L × 0.100 M = 0.00500 mol. At equivalence, moles NaOH = 0.00500 mol, so V = 0.00500 mol / 0.100 M = 0.0500 L = 50.0 mL (total volume now 100 mL).\n\n(b) At equivalence, all acid is now acetate ion, CH₃COO⁻, at:\n\nC = 0.00500 mol / 0.100 L = 0.0500 M\n\nKb(CH₃COO⁻) = Kw/Ka = 1.0 × 10⁻¹⁴ / 1.8 × 10⁻⁵ = 5.6 × 10⁻¹⁰\n\n[OH⁻] = √(Kb × C) = √(5.6 × 10⁻¹⁰ × 0.0500) = √(2.8 × 10⁻¹¹) = 5.3 × 10⁻⁶ M\n\npOH = 5.28 → pH = 14.00 − 5.28 = 8.72\n\nThe equivalence point (pH 8.72) is basic, as expected for a weak-acid/strong-base titration. (Half-equivalence occurs at 25.0 mL, where pH = pKa = 4.74.)",
+    "howItWorks": "1. **Start:** pH is just that of the original acid (or base) solution.\n2. **Before equivalence (weak acid):** each addition of strong base converts some HA to A⁻, creating a buffer; pH rises slowly and pH = pKa at the halfway point.\n3. **At equivalence:** all HA has been converted to A⁻. The solution is now a salt of a weak acid, so it is *basic* (pH > 7). For strong–strong, the salt is neutral and pH = 7.\n4. **After equivalence:** excess strong base (or acid) now simply accumulates; pH is set by the leftover titrant.\n5. The steep vertical region brackets the equivalence point; an indicator whose color-change range falls inside it will signal the endpoint accurately.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Equivalence point = stoichiometric point; endpoint = indicator color change.\n- Strong acid + strong base: equivalence at pH 7.\n- Weak acid + strong base: equivalence above pH 7 (conjugate base hydrolyzes).\n- Weak base + strong acid: equivalence below pH 7.\n- Half-equivalence: pH = pKa (weak acid) — the key to measuring Ka.\n- The vertical region of the curve marks where the indicator must change color.",
+    "commonConfusions": "- **\"Equivalence point = endpoint.\"** — The equivalence point is a *stoichiometric* fact; the endpoint is an *observed* color change that only approximates it.\n- **\"Weak-acid equivalence is at pH 7.\"** — It is *above* 7 because the conjugate base hydrolyzes to give OH⁻.\n- **\"pH = pKa at the equivalence point.\"** — No; pH = pKa at the *half*-equivalence point, where [HA] = [A⁻].\n- **\"The curve is steep only at pH 7.\"** — The steep jump is centered on the *equivalence pH*, which is 7 only for strong–strong titrations.\n- **\"More acid always means lower equivalence pH.\"** — The equivalence pH is set by the *salt* formed, not by how much acid was present.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a titration as slowly feeding a hungry base to an acid, spoonful by spoonful, while a pH meter (a \"sourness meter\") watches. The moment the acid is exactly full is the equivalence point. With a weak acid, finishing the meal leaves behind a slightly \"base-tasting\" leftover (its conjugate base), so the meter reads above 7. Halfway through the meal, the acid is exactly half eaten — and that is the point where the meter reads the acid's fingerprint number, pKa. (The analogy hides the stoichiometric math, but \"half-eaten = pH pKa\" is exact.)",
+    "quickReview": "- Curve = pH vs volume of titrant.\n- Equivalence (stoichiometric) ≠ endpoint (indicator).\n- Strong–strong equivalence at pH 7; weak-acid/strong-base above 7; weak-base/strong-acid below 7.\n- Half-equivalence: pH = pKa.\n- After equivalence, pH set by excess titrant.",
+    "workedExamples": "### Worked Example\n\n**50.0 mL of 0.100 M CH₃COOH (Ka = 1.8 × 10⁻⁵) is titrated with 0.100 M NaOH. Find (a) the volume at the equivalence point and (b) the pH at that point.**\n\n(a) moles acid = 0.0500 L × 0.100 M = 0.00500 mol. At equivalence, moles NaOH = 0.00500 mol, so V = 0.00500 mol / 0.100 M = 0.0500 L = 50.0 mL (total volume now 100 mL).\n\n(b) At equivalence, all acid is now acetate ion, CH₃COO⁻, at:\n\nC = 0.00500 mol / 0.100 L = 0.0500 M\n\nKb(CH₃COO⁻) = Kw/Ka = 1.0 × 10⁻¹⁴ / 1.8 × 10⁻⁵ = 5.6 × 10⁻¹⁰\n\n[OH⁻] = √(Kb × C) = √(5.6 × 10⁻¹⁰ × 0.0500) = √(2.8 × 10⁻¹¹) = 5.3 × 10⁻⁶ M\n\npOH = 5.28 → pH = 14.00 − 5.28 = 8.72\n\nThe equivalence point (pH 8.72) is basic, as expected for a weak-acid/strong-base titration. (Half-equivalence occurs at 25.0 mL, where pH = pKa = 4.74.)",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.7 Acid-Base Titrations.\" https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.6 Buffers.\" https://openstax.org/books/chemistry-2e/pages/14-6-buffers",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-6-buffers"
+      },
+      {
+        "text": "PubChem, \"Acetic Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Acetic-acid",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Acetic-acid"
+      },
+      {
+        "text": "PubChem, \"Sodium Hydroxide.\" https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-hydroxide",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-hydroxide"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "acid-base-titration-curves",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "05-acid-base-titration-curves",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:7ce7d9737e4e4f48"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:7ce7d9737e4e4f48"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:7ce7d9737e4e4f48"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:7ce7d9737e4e4f48"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/15-aqueous-ionic-equilibria/05-acid-base-titration-curves.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Acid–Base Titration Curves\n\n## Learning Goals\n- Sketch and interpret strong acid–strong base, weak acid–strong base, and weak base–strong acid titration curves.\n- Distinguish the equivalence point from the endpoint.\n- Explain why pH = pKa at the half-equivalence point of a weak-acid titration.\n- Calculate pH at key points of a titration.\n\n## Core Concept\nA **titration curve** plots pH against the volume of titrant added. Its shape reveals the nature of the acid and base: a strong-acid/strong-base curve is nearly flat then vertical through pH 7; a weak-acid/strong-base curve rises gradually through a buffered region and turns vertical at an equivalence point *above* pH 7. The **equivalence point** is where moles of acid equal moles of base (stoichiometric equivalence); the **endpoint** is where an indicator changes color. At the **half-equivalence point** of a weak-acid titration, exactly half the acid has been converted, so [HA] = [A⁻] and pH = pKa.\n\n## Key Ideas\n- **Equivalence point:** moles H₃O⁺ supplied = moles OH⁻ supplied (the stoichiometric point).\n- **Endpoint:** the observed color change of an indicator — an approximation of the equivalence point.\n- **Strong–strong:** equivalence at pH 7; huge, near-vertical jump in the middle.\n- **Weak acid + strong base:** equivalence point above pH 7 (conjugate base hydrolyzes); buffered region before it.\n- **Weak base + strong acid:** equivalence point below pH 7 (conjugate acid hydrolyzes).\n- **Half-equivalence point:** pH = pKa (for weak acid) or pOH = pKb (for weak base).\n\n## Equations and Variables\n- Equivalence condition: M_acid × V_acid = M_base × V_base (at the equivalence point)\n- Half-equivalence: [HA] = [A⁻] ⇒ pH = pKa\n- Weak acid at equivalence: solution is the conjugate base salt; [OH⁻] = √(Kb × C_salt)\n- Weak acid before equivalence (buffer region): pH = pKa + log([A⁻]/[HA])\n\n## How It Works\n1. **Start:** pH is just that of the original acid (or base) solution.\n2. **Before equivalence (weak acid):** each addition of strong base converts some HA to A⁻, creating a buffer; pH rises slowly and pH = pKa at the halfway point.\n3. **At equivalence:** all HA has been converted to A⁻. The solution is now a salt of a weak acid, so it is *basic* (pH > 7). For strong–strong, the salt is neutral and pH = 7.\n4. **After equivalence:** excess strong base (or acid) now simply accumulates; pH is set by the leftover titrant.\n5. The steep vertical region brackets the equivalence point; an indicator whose color-change range falls inside it will signal the endpoint accurately.\n\n## Worked Example\n**50.0 mL of 0.100 M CH₃COOH (Ka = 1.8 × 10⁻⁵) is titrated with 0.100 M NaOH. Find (a) the volume at the equivalence point and (b) the pH at that point.**\n\n(a) moles acid = 0.0500 L × 0.100 M = 0.00500 mol. At equivalence, moles NaOH = 0.00500 mol, so V = 0.00500 mol / 0.100 M = 0.0500 L = 50.0 mL (total volume now 100 mL).\n\n(b) At equivalence, all acid is now acetate ion, CH₃COO⁻, at:\n\nC = 0.00500 mol / 0.100 L = 0.0500 M\n\nKb(CH₃COO⁻) = Kw/Ka = 1.0 × 10⁻¹⁴ / 1.8 × 10⁻⁵ = 5.6 × 10⁻¹⁰\n\n[OH⁻] = √(Kb × C) = √(5.6 × 10⁻¹⁰ × 0.0500) = √(2.8 × 10⁻¹¹) = 5.3 × 10⁻⁶ M\n\npOH = 5.28 → pH = 14.00 − 5.28 = 8.72\n\nThe equivalence point (pH 8.72) is basic, as expected for a weak-acid/strong-base titration. (Half-equivalence occurs at 25.0 mL, where pH = pKa = 4.74.)\n\n## Why It Matters\nTitration is the standard lab method for finding unknown concentrations (acid content of vinegar, antacids, pollutants) and for measuring Ka/Kb. Reading the curve correctly — especially knowing that the equivalence point of a weak acid is *basic*, not neutral — is essential for choosing the right indicator and for interpreting results in analytical and clinical chemistry.\n\n## High-Yield Facts\n- Equivalence point = stoichiometric point; endpoint = indicator color change.\n- Strong acid + strong base: equivalence at pH 7.\n- Weak acid + strong base: equivalence above pH 7 (conjugate base hydrolyzes).\n- Weak base + strong acid: equivalence below pH 7.\n- Half-equivalence: pH = pKa (weak acid) — the key to measuring Ka.\n- The vertical region of the curve marks where the indicator must change color.\n\n## Eli Explains\nThink of a titration as slowly feeding a hungry base to an acid, spoonful by spoonful, while a pH meter (a \"sourness meter\") watches. The moment the acid is exactly full is the equivalence point. With a weak acid, finishing the meal leaves behind a slightly \"base-tasting\" leftover (its conjugate base), so the meter reads above 7. Halfway through the meal, the acid is exactly half eaten — and that is the point where the meter reads the acid's fingerprint number, pKa. (The analogy hides the stoichiometric math, but \"half-eaten = pH pKa\" is exact.)\n\n## Common Confusions\n- **\"Equivalence point = endpoint.\"** — The equivalence point is a *stoichiometric* fact; the endpoint is an *observed* color change that only approximates it.\n- **\"Weak-acid equivalence is at pH 7.\"** — It is *above* 7 because the conjugate base hydrolyzes to give OH⁻.\n- **\"pH = pKa at the equivalence point.\"** — No; pH = pKa at the *half*-equivalence point, where [HA] = [A⁻].\n- **\"The curve is steep only at pH 7.\"** — The steep jump is centered on the *equivalence pH*, which is 7 only for strong–strong titrations.\n- **\"More acid always means lower equivalence pH.\"** — The equivalence pH is set by the *salt* formed, not by how much acid was present.\n\n## Quick Review\n- Curve = pH vs volume of titrant.\n- Equivalence (stoichiometric) ≠ endpoint (indicator).\n- Strong–strong equivalence at pH 7; weak-acid/strong-base above 7; weak-base/strong-acid below 7.\n- Half-equivalence: pH = pKa.\n- After equivalence, pH set by excess titrant.\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"14.7 Acid-Base Titrations.\" https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations\n- OpenStax, *Chemistry 2e*, \"14.6 Buffers.\" https://openstax.org/books/chemistry-2e/pages/14-6-buffers\n- PubChem, \"Acetic Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Acetic-acid\n- PubChem, \"Sodium Hydroxide.\" https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-hydroxide\n"
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:information-flow:rna-polymerases",
+  "slug": "rna-polymerases",
+  "title": "RNA Polymerases",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:information-flow",
+    "slug": "information-flow",
+    "title": "Information Flow",
+    "order": 10
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "RNA polymerases transcribe DNA into RNA. Prokaryotes use a single RNA polymerase; eukaryotes use three specialized enzymes: RNA polymerase I synthesizes the large ribosomal RNAs (28S, 18S, 5.8S), RNA polymerase II synthesizes messenger RNAs and many noncoding RNAs (snRNAs, miRNAs), and RNA polymerase III synthesizes transfer RNAs, 5S rRNA, and other small RNAs. All RNA polymerases synthesize RNA in the 5′→3′ direction, require a DNA template but no primer, and use ribonucleoside triphosphates as substrates — the central step converting genetic information into functional products.",
+    "whyItMatters": "RNA polymerases are the engines of gene expression. Pol II output (mRNA) defines the proteome; Pol I activity controls ribosome biogenesis and cell growth (and is up-regulated in many cancers); Pol III supplies tRNA and 5S rRNA, limiting the translational capacity of the cell. Because transcription is the most regulated step of gene expression, understanding the polymerases underpins gene regulation, development, and disease.",
+    "learningObjectives": "- Distinguish the three eukaryotic RNA polymerases by their products.\n- Explain the basic transcription cycle: initiation, elongation, termination.\n- Contrast eukaryotic and prokaryotic transcription at a high level.\n- Describe how RNA synthesis is chemically similar to, yet distinct from, DNA synthesis.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nRNA polymerases transcribe DNA into RNA. Prokaryotes use a single RNA polymerase; eukaryotes use three specialized enzymes: RNA polymerase I synthesizes the large ribosomal RNAs (28S, 18S, 5.8S), RNA polymerase II synthesizes messenger RNAs and many noncoding RNAs (snRNAs, miRNAs), and RNA polymerase III synthesizes transfer RNAs, 5S rRNA, and other small RNAs. All RNA polymerases synthesize RNA in the 5′→3′ direction, require a DNA template but no primer, and use ribonucleoside triphosphates as substrates — the central step converting genetic information into functional products.\n\n### Key Components\n\n- **RNA polymerase I** — transcribes pre-rRNA (45S → 28S/18S/5.8S) in the nucleolus.\n- **RNA polymerase II** — transcribes mRNA precursors (plus snRNA, miRNA); requires general transcription factors.\n- **RNA polymerase III** — transcribes tRNA, 5S rRNA, and small structural RNAs (e.g., U6).\n- **General transcription factors (TFIIA–TFIIH)** — assemble with Pol II at promoters; TFIIH unwinds DNA and phosphorylates the Pol II C-terminal domain.\n- **C-terminal domain (CTD)** — repetitive tail of Pol II's largest subunit whose phosphorylation regulates the transcription cycle.\n- **Promoter** — DNA sequence directing polymerase binding and start-site selection.\n\n### Mechanism\n\nTranscription proceeds through initiation, elongation, and termination. The polymerase binds a promoter, unwinds a short DNA \"transcription bubble,\" and selects a start site. It then adds ribonucleotides complementary to the template strand (read 3′→5′), forming phosphodiester bonds as it moves, using the energy of NTP hydrolysis. Elongation is processive; termination releases the RNA and the polymerase. Because only one DNA strand is copied, transcription is asymmetric and templated, and the RNA produced is a copy of the coding (sense) sequence.\n\n### How It Works\n\n1. Pol II and general transcription factors assemble at a core promoter (TATA box recognized by TBP).\n2. TFIIH unwinds the DNA to form an open complex; Pol II is positioned at the transcription start site.\n3. TFIIH phosphorylates serine residues in the Pol II CTD, triggering promoter escape and elongation.\n4. Pol II moves along the template, matching incoming rNTPs to the DNA and synthesizing RNA 5′→3′.\n5. The RNA exits through a channel while the DNA duplex re-forms behind the polymerase.\n6. Termination signals cause the polymerase to release the transcript and dissociate (e.g., polyadenylation-linked cleavage for Pol II).\n7. Pol I and Pol III use analogous cycles at their own promoters to produce rRNA and tRNA/5S RNA.\n\n### Energy and Directionality\n\nRNA synthesis is powered by ribonucleoside triphosphates: each nucleotide addition hydrolyzes one high-energy phosphoanhydride bond (NTP → NMP + pyrophosphate), and pyrophosphate hydrolysis makes the reaction effectively irreversible. Synthesis is strictly 5′→3′ (nucleotides add to the growing 3′-OH), and the template is read 3′→5′. Promoter opening by TFIIH requires ATP, and CTD phosphorylation (ATP) licenses elongation. The directionality of the promoter fixes which strand is the template, so transcription is directional.\n\n### Experimental Evidence\n\n- **α-Amanitin sensitivity** — the mushroom toxin inhibits Pol II at low, Pol III at higher, and Pol I only at very high concentrations, proving the three enzymes are distinct.\n- **Nuclear fractionation** — rRNA, mRNA, and tRNA synthesis localize to different nuclear compartments (nucleolus vs nucleoplasm), matching Pol I/II/III activities.\n- **In vitro transcription** — purified Pol II plus general transcription factors transcribe a template from the correct start site, defining the minimal machinery.\n- **CTD truncation/phosphorylation mutants** — show that the Pol II CTD is required for promoter escape and for coupling to RNA processing.\n\n### Technique\n\nTechniques include **nuclear run-on assays** (measure active transcription), **in vitro transcription** with purified polymerases, **chromatin immunoprecipitation (ChIP)** to map polymerase occupancy, **RNA-seq** to profile transcripts, and **inhibitor studies** (α-amanitin, actinomycin D) to assign function to specific polymerases.",
+    "howItWorks": "1. Pol II and general transcription factors assemble at a core promoter (TATA box recognized by TBP).\n2. TFIIH unwinds the DNA to form an open complex; Pol II is positioned at the transcription start site.\n3. TFIIH phosphorylates serine residues in the Pol II CTD, triggering promoter escape and elongation.\n4. Pol II moves along the template, matching incoming rNTPs to the DNA and synthesizing RNA 5′→3′.\n5. The RNA exits through a channel while the DNA duplex re-forms behind the polymerase.\n6. Termination signals cause the polymerase to release the transcript and dissociate (e.g., polyadenylation-linked cleavage for Pol II).\n7. Pol I and Pol III use analogous cycles at their own promoters to produce rRNA and tRNA/5S RNA.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Eukaryotes have three RNA polymerases: Pol I (rRNA), Pol II (mRNA + snRNA/miRNA), Pol III (tRNA, 5S rRNA, small RNAs).\n- All synthesize RNA 5′→3′ from a 3′→5′-read DNA template, using NTPs; no primer needed.\n- Pol II requires general transcription factors (TFIID/TBP, TFIIH).\n- TFIIH unwinds DNA and phosphorylates the Pol II CTD to trigger elongation.\n- α-Amanitin inhibits Pol II most potently (Pol III less, Pol I least).\n- Prokaryotes use a single RNA polymerase.",
+    "commonConfusions": "- **\"One enzyme makes all RNA\"** — eukaryotes use three specialized polymerases; only prokaryotes use one.\n- **\"RNA polymerase needs a primer like DNA polymerase\"** — it does not; it can begin synthesis de novo.\n- **\"Pol II makes only mRNA\"** — it also transcribes many noncoding RNAs (snRNAs, miRNAs).\n- **\"Transcription copies both strands\"** — it copies only the template strand; the other strand is the coding (sense) strand.\n- **\"Termination is identical in all cases\"** — Pol II termination is coupled to 3′-end processing/cleavage, distinct from Pol I/III mechanisms.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of DNA as a cookbook that can never leave the kitchen (the nucleus). RNA polymerases are the copy machines that read a recipe and write out a working copy (RNA) that can be taken to the cooking station (ribosome). The cell has three copy machines with specialties: one copies the big \"how to build a ribosome\" manuals (Pol I), one copies regular recipes for proteins (Pol II), and one copies the small ingredient labels like tRNA (Pol III). (The analogy's limit: the copy machine doesn't photograph the page — it reads one strand base by base and builds a complementary RNA, using the energy of its building blocks.)",
+    "quickReview": "- Pol I → rRNA; Pol II → mRNA/snRNA/miRNA; Pol III → tRNA/5S rRNA.\n- 5′→3′ synthesis, NTP-driven, template read 3′→5′, no primer.\n- Pol II cycle: TBP/TFIID → TFIIH unwinds + CTD phosphorylation → elongation → termination.\n- α-Amanitin distinguishes the three polymerases.\n- Transcription is the key regulated step of gene expression.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"15.3 Eukaryotic Transcription.\" https://openstax.org/books/biology-2e/pages/15-3-eukaryotic-transcription",
+        "url": "https://openstax.org/books/biology-2e/pages/15-3-eukaryotic-transcription"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"15.2 Prokaryotic Transcription.\" https://openstax.org/books/biology-2e/pages/15-2-prokaryotic-transcription",
+        "url": "https://openstax.org/books/biology-2e/pages/15-2-prokaryotic-transcription"
+      },
+      {
+        "text": "National Human Genome Research Institute, \"Transcription.\" https://www.genome.gov/genetics-glossary/Transcription",
+        "url": "https://www.genome.gov/genetics-glossary/Transcription"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"From DNA to RNA.\" https://www.ncbi.nlm.nih.gov/books/NBK26887/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/10-information-flow/08-rna-polymerases.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:evidence-based-practice-basic-statistics:core-topics:bias-confounding-reliability-and-validity",
+  "slug": "bias-confounding-reliability-and-validity",
+  "title": "Bias, Confounding, Reliability, and Validity",
+  "subject": {
+    "id": "subject:evidence-based-practice-basic-statistics",
+    "slug": "evidence-based-practice-basic-statistics",
+    "title": "Evidence-Based Practice & Basic Statistics"
+  },
+  "unit": {
+    "id": "unit:evidence-based-practice-basic-statistics:core-topics",
+    "slug": "core-topics",
+    "title": "Core Topics",
+    "order": 1
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nPicture a ruler whose first inch was snapped off, so it starts at the 1-inch mark instead of 0. Every object you measure comes out exactly 1 inch too long - not sometimes long and sometimes short, but always long by the same amount. Measuring a hundred more objects will not cancel that out, because the mistake never changes direction. An error that always leans the same way is systematic error, and the only fix is repairing the instrument, not collecting more data.\n\n### Question 2\n\nSuppose you perfectly test a new walking-shoe design, but every tester happens to be an 82-year-old woman from the same building. Your results about those testers can be airtight - that is internal validity. What you cannot say is how the shoe performs for a 40-year-old man, because nobody like him was in the study. That second question, how far your findings travel beyond the people you studied, is external validity, and it depends on who you enrolled rather than on how well you ran the study.\n\n### Question 3\n\nImagine mailing 500 people a survey that asks 'Are you too busy?' and getting 150 back. The 350 who never replied are likely the busiest - the very people the question was about. Your final numbers then describe the calmer 30% and quietly leave out the rest, so the picture looks better than reality. The larger that missing share, the more room there is for that tilt, which is why researchers report response rates and check whether responders differ from everyone else.\n\n### Question 4\n\nSuppose the people who bought this supplement also exercised far less than everyone else. Little exercise on its own raises infection risk, so the supplement group got sick more often for a reason that had nothing to do with the supplement. Comparing only people with similar exercise habits strips that reason out, and the apparent effect collapses from 2.4 to 1.2. When an estimate moves that much after adjustment, the variable you adjusted for was carrying part of the story all along.\n\n### Question 5\n\nTwo teams begin with the same 240 runners, and by the finish one team has lost 36 while the other has lost only 12. If the people who quit were the ones struggling with that team's specific training, the survivors of that team are now an unusually hardy group. Comparing finishers is then comparing two differently filtered sets of people, not two treatments. Unequal quitting that is tied to what a group received is differential attrition, and here one group lost 10 percentage points more of its members.\n\n### Question 6\n\nStep on a bathroom scale five times in a row and you might see 130, 131, 129, 130, 131. Your weight did not change; that small wobble is measurement error, and a better scale wobbles less. Here the typical wobble is about 3 points, so a score moving from 40 to 42 tells you almost nothing, while 40 to 55 is far too large to blame on the instrument. Converting a reliability coefficient into that wobble, in the units you actually report, is what SEM does.\n\n### Question 7\n\nA reliability number built from half a questionnaire is like judging a runner from half a race: informative, but shakier than the full picture, because fewer items mean each item's quirks count for more. Spearman-Brown asks what that number would have been had you used the whole instrument, and it scales 0.6 up to 0.75. The same logic works forward - if you doubled the scale again, consistency would rise further, provided the new items measure the same underlying idea.\n\n### Question 8\n\nWhen a licensing board builds an exam, it hands each draft question to a panel and asks whether it genuinely belongs to the subject being tested. Six of eight experts said yes here, which is 0.75, and the customary bar for a panel that size is about 0.78 - so this question just misses and goes back for rewriting. Content validity is nothing more than that process made systematic: checking that your items cover the territory you claim to be measuring, before anyone's score is interpreted.\n\n### Question 9\n\nTwo people are asked what they ate at a banquet last month. The one who spent that night violently ill reconstructs the meal course by course; the one who felt fine gives a vague shrug. Compare their accounts and the sick person appears to have eaten far more of everything, when the real difference is how hard each person searched their memory. That unequal accuracy between groups - 30 points' worth here - is recall bias, and it is a gap in reporting, not a gap in what actually happened.\n\n### Question 10\n\nSixty percent of program participants say they feel better, which sounds decisive until you notice that a quarter of the people who got a convincing look-alike session said the same thing. Attention, expectation, and simple passage of time produce real reported improvement on their own. Only the gap between the two groups, 35 points, can be credited to the program's actual content, and you can only see that gap because someone ran a comparison group instead of measuring one group twice.\n\n### Question 11\n\nImagine two people labeling charts with two stickers they use about equally often. Even if both just flipped coins, they would land on the same sticker about half the time, so 0.5 of the agreement was free. Kappa asks a fairer question: of the agreement that luck had not already handed you, how much did you actually earn? The pair reached 0.9, closing 0.4 of the 0.5 that was still available, which is 0.8. And if one sticker were used on almost every chart, luck would hand them even more free matches, so the free share would be bigger than 0.5 and kappa would drop further below the raw 0.9. Same data, credit given only for the part that skill explains.\n\n### Question 12\n\nThink of a camera with a smudged lens. No matter what you photograph, the blur puts a hard limit on how sharp any picture can be - that limit exists before you even choose a subject. Reliability is your instrument's sharpness, and here a sharpness of 0.64 caps the best possible match with truth at 0.8. But sharpness alone is not enough: a flawless camera aimed at the wrong subject still gives you a useless photograph, which is exactly what a highly reliable measure of the wrong construct amounts to.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Introductory Statistics — OpenStax",
+        "url": "https://openstax.org/details/books/introductory-statistics"
+      },
+      {
+        "text": "Evidence-Based Practice resources — U.S. National Library of Medicine",
+        "url": "https://www.nlm.nih.gov/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "expansion-question-bank",
+    "sourceFile": "Education/pre-nursing-expansion-question-bank/questions/17-evidence-statistics/336-bias-confounding-reliability-and-validity.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false
+  },
+  "sourceSnapshotMarkdown": ""
+}

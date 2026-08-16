@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-equilibrium:ice-tables",
+  "slug": "ice-tables",
+  "title": "ICE Tables",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-equilibrium",
+    "slug": "chemical-equilibrium",
+    "title": "Chemical Equilibrium",
+    "order": 4
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "An **ICE table** is an organized bookkeeping tool for equilibrium calculations. It lays out the **Initial** concentrations, the **Change** that occurs as the system moves to equilibrium, and the resulting **Equilibrium** concentrations — all tied together by the stoichiometry of the reaction. Substituting the equilibrium row into the K expression yields an equation to solve for the unknown change x.",
+    "whyItMatters": "ICE tables are the standard technique for virtually every equilibrium calculation in chemistry — gas-phase equilibria, weak acid/base ionization, solubility, and complex-ion equilibria all use this same framework. Fluency with the table, the quadratic, and the 5% rule is the single highest-yield quantitative skill in the equilibrium unit.",
+    "learningObjectives": "- Set up an ICE (Initial, Change, Equilibrium) table for any equilibrium problem.\n- Solve the resulting equation exactly (quadratic) or with a justified approximation.\n- Apply and verify the 5% rule when using the approximation.\n- Compute equilibrium concentrations and, from them, K or a single unknown concentration.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nAn **ICE table** is an organized bookkeeping tool for equilibrium calculations. It lays out the **Initial** concentrations, the **Change** that occurs as the system moves to equilibrium, and the resulting **Equilibrium** concentrations — all tied together by the stoichiometry of the reaction. Substituting the equilibrium row into the K expression yields an equation to solve for the unknown change x.\n\n### Key Ideas\n\n- The \"Change\" row is written in terms of a single unknown x, scaled by stoichiometric coefficients.\n- For a reaction shifting right, reactants change by −(coefficient)x and products by +(coefficient)x.\n- Substituting the Equilibrium row into K gives either a simple square-root case, a quadratic, or a candidate for approximation.\n- The **5% rule** justifies dropping x in a sum/difference only if x is small relative to the initial concentration.\n\n### Equations and Variables\n\nFor aA + bB ⇌ cC + dD, the ICE table:\n\n| | A | B | C | D |\n|---|---|---|---|---|\n| Initial | [A]₀ | [B]₀ | [C]₀ | [D]₀ |\n| Change | −ax | −bx | +cx | +dx |\n| Equilibrium | [A]₀−ax | [B]₀−bx | [C]₀+cx | [D]₀+dx |\n\nThen solve:\n\n$$K = \\frac{([C]_0 + cx)^c([D]_0 + dx)^d}{([A]_0 - ax)^a([B]_0 - bx)^b}$$\n\n**5% rule:** the approximation x ≪ [X]₀ is acceptable when x/[X]₀ × 100% < 5%.\n\n### How It Works\n\nThe method is mechanical. (1) Write the balanced equation and K expression. (2) Fill the Initial row with starting concentrations. (3) Express the Change row as ±coefficient·x. (4) Write the Equilibrium row. (5) Substitute into K and solve for x. (6) Back-substitute to get every equilibrium concentration.\n\nWhen K is very small, the reaction barely proceeds, so x is tiny compared with the initial concentrations, and terms like [A]₀ − x can be approximated as [A]₀. This turns a cubic or quadratic into something easy. The 5% rule tells you whether that shortcut was valid; if x is more than 5% of the initial concentration, you must solve the full equation.\n\n### Worked Example\n\nFor N₂O₄(g) ⇌ 2 NO₂(g), K_c = 4.63 × 10⁻³ at 25 °C. A flask is charged with 0.500 M N₂O₄ (no NO₂). Find the equilibrium concentrations.\n\n**Step 1 — ICE table:**\n\n| | N₂O₄ | NO₂ |\n|---|---|---|\n| Initial | 0.500 | 0 |\n| Change | −x | +2x |\n| Equilibrium | 0.500 − x | 2x |\n\n**Step 2 — Substitute into K:**\n\n$$4.63\\times10^{-3} = \\frac{(2x)^2}{0.500 - x} = \\frac{4x^2}{0.500 - x}$$\n\n**Step 3 — Approximate (K is small, so x ≪ 0.500):**\n\n$$4.63\\times10^{-3} \\approx \\frac{4x^2}{0.500} \\quad\\Rightarrow\\quad 4x^2 = 2.315\\times10^{-3} \\quad\\Rightarrow\\quad x = 0.0241$$\n\n**Step 4 — Check the 5% rule:**\n\n$$\\frac{x}{[\\text{N}_2\\text{O}_4]_0}\\times100\\% = \\frac{0.0241}{0.500}\\times100\\% = 4.8\\% < 5\\%$$\n\nThe approximation is valid. (The exact quadratic gives x = 0.0235, within 2.6% of the approximate value.)\n\n**Step 5 — Equilibrium concentrations:**\n\n[N₂O₄] = 0.500 − 0.0241 = 0.476 M; [NO₂] = 2(0.0241) = 0.0482 M.\n\n**Check:** (0.0482)²/0.476 = 4.9 × 10⁻³ ≈ K. ✓",
+    "howItWorks": "The method is mechanical. (1) Write the balanced equation and K expression. (2) Fill the Initial row with starting concentrations. (3) Express the Change row as ±coefficient·x. (4) Write the Equilibrium row. (5) Substitute into K and solve for x. (6) Back-substitute to get every equilibrium concentration.\n\nWhen K is very small, the reaction barely proceeds, so x is tiny compared with the initial concentrations, and terms like [A]₀ − x can be approximated as [A]₀. This turns a cubic or quadratic into something easy. The 5% rule tells you whether that shortcut was valid; if x is more than 5% of the initial concentration, you must solve the full equation.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Change row = ±(coefficient)x; products gain, reactants lose (for forward shift).\n- K small ⇒ x small ⇒ approximation (x ≪ [X]₀) may apply.\n- 5% rule: approximation valid only if x/[X]₀ × 100% < 5%.\n- If the 5% test fails, solve the full quadratic.\n- Always back-substitute and check against K.",
+    "commonConfusions": "- **Sign errors in the Change row.** Products gain (+) and reactants lose (−) for a forward shift; reverse the signs for a backward shift.\n- **Forgetting to scale x by coefficients.** NO₂ changes by +2x, not +x, in the N₂O₄ example.\n- **Using the approximation without the 5% check.** Always verify.\n- **Forgetting to back-substitute x** to report actual equilibrium concentrations.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nAn ICE table is just a tidy ledger for a reaction's accounting. Start with what you have (Initial), record what shifts (Change, all in terms of one unknown x), and total it up (Equilibrium). Then plug the totals into K and solve. When K is tiny, the shift x is so small that \"0.500 − x\" is basically still 0.500, so you can ignore the minus-x and breeze through — but you must prove x really is negligible with the 5% rule, or you'll build your answer on a shaky assumption.",
+    "quickReview": "1. What do the three rows of an ICE table represent?\n2. How is the Change row related to stoichiometry?\n3. When is the \"x is negligible\" approximation reasonable?\n4. State the 5% rule.\n5. For the N₂O₄ example, why is [NO₂] = 2x and not x?",
+    "workedExamples": "### Worked Example\n\nFor N₂O₄(g) ⇌ 2 NO₂(g), K_c = 4.63 × 10⁻³ at 25 °C. A flask is charged with 0.500 M N₂O₄ (no NO₂). Find the equilibrium concentrations.\n\n**Step 1 — ICE table:**\n\n| | N₂O₄ | NO₂ |\n|---|---|---|\n| Initial | 0.500 | 0 |\n| Change | −x | +2x |\n| Equilibrium | 0.500 − x | 2x |\n\n**Step 2 — Substitute into K:**\n\n$$4.63\\times10^{-3} = \\frac{(2x)^2}{0.500 - x} = \\frac{4x^2}{0.500 - x}$$\n\n**Step 3 — Approximate (K is small, so x ≪ 0.500):**\n\n$$4.63\\times10^{-3} \\approx \\frac{4x^2}{0.500} \\quad\\Rightarrow\\quad 4x^2 = 2.315\\times10^{-3} \\quad\\Rightarrow\\quad x = 0.0241$$\n\n**Step 4 — Check the 5% rule:**\n\n$$\\frac{x}{[\\text{N}_2\\text{O}_4]_0}\\times100\\% = \\frac{0.0241}{0.500}\\times100\\% = 4.8\\% < 5\\%$$\n\nThe approximation is valid. (The exact quadratic gives x = 0.0235, within 2.6% of the approximate value.)\n\n**Step 5 — Equilibrium concentrations:**\n\n[N₂O₄] = 0.500 − 0.0241 = 0.476 M; [NO₂] = 2(0.0241) = 0.0482 M.\n\n**Check:** (0.0482)²/0.476 = 4.9 × 10⁻³ ≈ K. ✓",
+    "references": [
+      {
+        "text": "OpenStax. *Chemistry 2e*. Ch. 13, \"Equilibrium Calculations.\" https://openstax.org/books/chemistry-2e/pages/13-4-equilibrium-calculations",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-4-equilibrium-calculations"
+      },
+      {
+        "text": "IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"equilibrium constant.\" https://goldbook.iupac.org/",
+        "url": "https://goldbook.iupac.org/"
+      },
+      {
+        "text": "Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman."
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/13-chemical-equilibrium/07-ice-tables.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:membrane-structure-and-cellular-transport:bulk-transport",
+  "slug": "bulk-transport",
+  "title": "Bulk Transport: Exocytosis and Endocytosis",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:membrane-structure-and-cellular-transport",
+    "slug": "membrane-structure-and-cellular-transport",
+    "title": "Membrane Structure And Cellular Transport",
+    "order": 3
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "Membrane transport proteins can move ions and small molecules, but they cannot move whole proteins, macromolecules, or large particles. For these, the cell uses **bulk transport** — the movement of large quantities of material in membrane-bound **vesicles**. **Endocytosis** brings material *into* the cell by engulfing it in a piece of plasma membrane that pinches off inward; **exocytosis** sends material *out* by fusing an intracellular vesicle with the plasma membrane. Both require energy and both constantly add and remove membrane from the cell surface.",
+    "whyItMatters": "Phagocytosis is a central defense against infection; pinocytosis lets cells sample their environment; and receptor-mediated endocytosis is how cells take up cholesterol — a defect in the LDL receptor causes **familial hypercholesterolemia** and dangerously high blood cholesterol. Exocytosis underlies neural signaling (neurotransmitter release), hormone secretion, and wound healing. Bulk transport is also the route by which many viruses and some drugs enter cells, making it medically important beyond its normal physiology.",
+    "learningObjectives": "- Explain why very large molecules and particles require bulk (vesicular) transport rather than individual transport proteins.\n- Describe the three types of endocytosis: phagocytosis, pinocytosis, and receptor-mediated endocytosis.\n- Describe exocytosis and its roles in secretion and membrane delivery.\n- Explain how the cell recycles membrane between endocytosis and exocytosis.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nMembrane transport proteins can move ions and small molecules, but they cannot move whole proteins, macromolecules, or large particles. For these, the cell uses **bulk transport** — the movement of large quantities of material in membrane-bound **vesicles**. **Endocytosis** brings material *into* the cell by engulfing it in a piece of plasma membrane that pinches off inward; **exocytosis** sends material *out* by fusing an intracellular vesicle with the plasma membrane. Both require energy and both constantly add and remove membrane from the cell surface.\n\n### Key Concepts\n\n### Vesicles\nA **vesicle** is a small, membrane-bound sac that buds from one membrane and fuses with another. Vesicles are the cell's shipping containers, moving cargo between the plasma membrane and internal compartments (ER, Golgi, endosomes, lysosomes).\n\n### Endocytosis\nEndocytosis is the process of taking material into the cell by forming a vesicle from the plasma membrane. There are three main forms:\n\n- **Phagocytosis (\"cell eating\"):** the cell extends pseudopodia around a large particle (a bacterium, a cell fragment) and engulfs it into a large vesicle called a **phagosome**, which then fuses with a lysosome for digestion. Performed mainly by specialized immune cells such as macrophages and neutrophils.\n- **Pinocytosis (\"cell drinking\"):** the cell takes in droplets of extracellular fluid and dissolved solutes in small vesicles. It is non-specific — the cell samples whatever is dissolved in the surrounding fluid. Most cells do this continuously.\n- **Receptor-mediated endocytosis:** specific — cell-surface receptors bind particular ligands (e.g., LDL cholesterol particles, transferrin-iron), cluster into a coated pit (coated with the protein **clathrin**), and pinch inward. This lets cells take up specific molecules efficiently even at low extracellular concentrations.\n\n### Exocytosis\n**Exocytosis** is the export of material: a vesicle from inside the cell (often from the Golgi) moves to the plasma membrane, fuses with it, and releases its contents to the outside. Exocytosis secretes hormones, neurotransmitters, digestive enzymes, and extracellular matrix components, and it also delivers lipids and proteins to the membrane itself.\n\n### Membrane Recycling\nBecause endocytosis removes membrane from the cell surface and exocytosis adds it back, the two processes are balanced so cell size and surface area remain roughly constant. The membrane removed by one is recycled to the other — a continuous trafficking loop, not a one-way drain.\n\n### How It Works\n\n(1) In **receptor-mediated endocytosis**, ligand binding causes receptors to cluster, and the protein **clathrin** assembles a basket on the cytoplasmic face that curves the membrane into a pit. (2) The pit pinches off as a coated vesicle (using the GTPase **dynamin** to sever the neck), which then uncoats and fuses with an early endosome. (3) In **phagocytosis**, actin filaments push the membrane outward into pseudopodia that wrap around the particle and seal it into a phagosome, which fuses with a lysosome to degrade the contents. (4) In **exocytosis**, a vesicle is guided to the membrane by tethering and SNARE proteins, which pull the two membranes together so they fuse and release the vesicle's contents. Every step is energy-dependent and directed by proteins.",
+    "howItWorks": "(1) In **receptor-mediated endocytosis**, ligand binding causes receptors to cluster, and the protein **clathrin** assembles a basket on the cytoplasmic face that curves the membrane into a pit. (2) The pit pinches off as a coated vesicle (using the GTPase **dynamin** to sever the neck), which then uncoats and fuses with an early endosome. (3) In **phagocytosis**, actin filaments push the membrane outward into pseudopodia that wrap around the particle and seal it into a phagosome, which fuses with a lysosome to degrade the contents. (4) In **exocytosis**, a vesicle is guided to the membrane by tethering and SNARE proteins, which pull the two membranes together so they fuse and release the vesicle's contents. Every step is energy-dependent and directed by proteins.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Bulk transport moves large molecules/particles in membrane vesicles; it requires energy.\n- Endocytosis = into the cell; exocytosis = out of the cell.\n- Phagocytosis = \"cell eating\" of large particles (immune cells), forms a phagosome.\n- Pinocytosis = \"cell drinking\" of fluid and solutes; non-specific.\n- Receptor-mediated endocytosis = specific uptake via receptors in clathrin-coated pits.\n- Exocytosis secretes hormones, neurotransmitters, and enzymes and adds membrane.\n- Endocytosis and exocytosis balance each other, recycling plasma membrane.",
+    "commonConfusions": "- **\"Endocytosis and exocytosis are passive.\"** Wrong — both require energy (ATP and GTP) and protein machinery; they are forms of active transport.\n- **\"Pinocytosis is selective.\"** Wrong — pinocytosis is non-specific fluid uptake; receptor-mediated endocytosis is the selective form.\n- **\"Phagocytosis is done by all cells.\"** Wrong — it is specialized, mainly macrophages, neutrophils, and similar phagocytic cells.\n- **\"Exocytosis only secretes molecules.\"** Wrong — it also delivers lipids and proteins to the plasma membrane itself, growing/repairing it.\n- **\"Endocytosis permanently shrinks the cell.\"** Wrong — membrane is recycled: endocytosis and exocytosis are balanced.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine the cell is a soap bubble that can pinch off a little pocket of its own skin around a snack and pop the pocket inside — that's endocytosis: the bubble \"eats\" by wrapping its skin around the food. \"Cell eating\" (phagocytosis) is wrapping around a whole crumb; \"cell drinking\" (pinocytosis) is wrapping around a sip of the surrounding water. Receptor-mediated endocytosis is more picky: the bubble has special little hooks (receptors) that only grab a specific snack, like the protein that carries cholesterol. Going the other direction, a bubble inside can rise up, touch the outer skin, and pop open to spit its cargo out — that's exocytosis, how the cell \"spits out\" hormones and signals. The soap-bubble analogy's limit: real vesicles don't just pop — they fuse and refuse precisely using protein machinery (clathrin, dynamin, SNAREs), and the cell carefully counts its membrane so it doesn't shrink or balloon.",
+    "quickReview": "- Bulk transport moves large cargo in vesicles; requires energy.\n- Endocytosis (in): phagocytosis, pinocytosis, receptor-mediated.\n- Phagocytosis = large particles (immune cells); pinocytosis = fluid; receptor-mediated = specific ligands via clathrin.\n- Exocytosis (out): secretion + membrane delivery.\n- Membrane is recycled between the two processes.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"5.4 Bulk Transport.\" https://openstax.org/books/biology-2e/pages/5-4-bulk-transport",
+        "url": "https://openstax.org/books/biology-2e/pages/5-4-bulk-transport"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Transport into the Cell from the Plasma Membrane: Endocytosis.\" NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/"
+      },
+      {
+        "text": "MedlinePlus, \"Familial hypercholesterolemia.\" U.S. National Library of Medicine. https://medlineplus.gov/genetics/condition/familial-hypercholesterolemia/",
+        "url": "https://medlineplus.gov/genetics/condition/familial-hypercholesterolemia/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "bulk-transport",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "04-bulk-transport",
+      "kind": "source_file_stem",
+      "source_id": "biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:biology_notes:16503f92865e5c19"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:biology_notes:16503f92865e5c19"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:biology_notes:16503f92865e5c19"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:biology_notes:16503f92865e5c19"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/03-membrane-structure-and-cellular-transport/04-bulk-transport.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Bulk Transport: Exocytosis and Endocytosis\n\n## Learning Goals\n\n- Explain why very large molecules and particles require bulk (vesicular) transport rather than individual transport proteins.\n- Describe the three types of endocytosis: phagocytosis, pinocytosis, and receptor-mediated endocytosis.\n- Describe exocytosis and its roles in secretion and membrane delivery.\n- Explain how the cell recycles membrane between endocytosis and exocytosis.\n\n## Core Concept\n\nMembrane transport proteins can move ions and small molecules, but they cannot move whole proteins, macromolecules, or large particles. For these, the cell uses **bulk transport** — the movement of large quantities of material in membrane-bound **vesicles**. **Endocytosis** brings material *into* the cell by engulfing it in a piece of plasma membrane that pinches off inward; **exocytosis** sends material *out* by fusing an intracellular vesicle with the plasma membrane. Both require energy and both constantly add and remove membrane from the cell surface.\n\n## Key Concepts\n\n### Vesicles\nA **vesicle** is a small, membrane-bound sac that buds from one membrane and fuses with another. Vesicles are the cell's shipping containers, moving cargo between the plasma membrane and internal compartments (ER, Golgi, endosomes, lysosomes).\n\n### Endocytosis\nEndocytosis is the process of taking material into the cell by forming a vesicle from the plasma membrane. There are three main forms:\n\n- **Phagocytosis (\"cell eating\"):** the cell extends pseudopodia around a large particle (a bacterium, a cell fragment) and engulfs it into a large vesicle called a **phagosome**, which then fuses with a lysosome for digestion. Performed mainly by specialized immune cells such as macrophages and neutrophils.\n- **Pinocytosis (\"cell drinking\"):** the cell takes in droplets of extracellular fluid and dissolved solutes in small vesicles. It is non-specific — the cell samples whatever is dissolved in the surrounding fluid. Most cells do this continuously.\n- **Receptor-mediated endocytosis:** specific — cell-surface receptors bind particular ligands (e.g., LDL cholesterol particles, transferrin-iron), cluster into a coated pit (coated with the protein **clathrin**), and pinch inward. This lets cells take up specific molecules efficiently even at low extracellular concentrations.\n\n### Exocytosis\n**Exocytosis** is the export of material: a vesicle from inside the cell (often from the Golgi) moves to the plasma membrane, fuses with it, and releases its contents to the outside. Exocytosis secretes hormones, neurotransmitters, digestive enzymes, and extracellular matrix components, and it also delivers lipids and proteins to the membrane itself.\n\n### Membrane Recycling\nBecause endocytosis removes membrane from the cell surface and exocytosis adds it back, the two processes are balanced so cell size and surface area remain roughly constant. The membrane removed by one is recycled to the other — a continuous trafficking loop, not a one-way drain.\n\n## How It Works\n\n(1) In **receptor-mediated endocytosis**, ligand binding causes receptors to cluster, and the protein **clathrin** assembles a basket on the cytoplasmic face that curves the membrane into a pit. (2) The pit pinches off as a coated vesicle (using the GTPase **dynamin** to sever the neck), which then uncoats and fuses with an early endosome. (3) In **phagocytosis**, actin filaments push the membrane outward into pseudopodia that wrap around the particle and seal it into a phagosome, which fuses with a lysosome to degrade the contents. (4) In **exocytosis**, a vesicle is guided to the membrane by tethering and SNARE proteins, which pull the two membranes together so they fuse and release the vesicle's contents. Every step is energy-dependent and directed by proteins.\n\n## Why It Matters\n\nPhagocytosis is a central defense against infection; pinocytosis lets cells sample their environment; and receptor-mediated endocytosis is how cells take up cholesterol — a defect in the LDL receptor causes **familial hypercholesterolemia** and dangerously high blood cholesterol. Exocytosis underlies neural signaling (neurotransmitter release), hormone secretion, and wound healing. Bulk transport is also the route by which many viruses and some drugs enter cells, making it medically important beyond its normal physiology.\n\n## High-Yield Facts\n\n- Bulk transport moves large molecules/particles in membrane vesicles; it requires energy.\n- Endocytosis = into the cell; exocytosis = out of the cell.\n- Phagocytosis = \"cell eating\" of large particles (immune cells), forms a phagosome.\n- Pinocytosis = \"cell drinking\" of fluid and solutes; non-specific.\n- Receptor-mediated endocytosis = specific uptake via receptors in clathrin-coated pits.\n- Exocytosis secretes hormones, neurotransmitters, and enzymes and adds membrane.\n- Endocytosis and exocytosis balance each other, recycling plasma membrane.\n\n## Eli Explains\n\nImagine the cell is a soap bubble that can pinch off a little pocket of its own skin around a snack and pop the pocket inside — that's endocytosis: the bubble \"eats\" by wrapping its skin around the food. \"Cell eating\" (phagocytosis) is wrapping around a whole crumb; \"cell drinking\" (pinocytosis) is wrapping around a sip of the surrounding water. Receptor-mediated endocytosis is more picky: the bubble has special little hooks (receptors) that only grab a specific snack, like the protein that carries cholesterol. Going the other direction, a bubble inside can rise up, touch the outer skin, and pop open to spit its cargo out — that's exocytosis, how the cell \"spits out\" hormones and signals. The soap-bubble analogy's limit: real vesicles don't just pop — they fuse and refuse precisely using protein machinery (clathrin, dynamin, SNAREs), and the cell carefully counts its membrane so it doesn't shrink or balloon.\n\n## Common Confusions\n\n- **\"Endocytosis and exocytosis are passive.\"** Wrong — both require energy (ATP and GTP) and protein machinery; they are forms of active transport.\n- **\"Pinocytosis is selective.\"** Wrong — pinocytosis is non-specific fluid uptake; receptor-mediated endocytosis is the selective form.\n- **\"Phagocytosis is done by all cells.\"** Wrong — it is specialized, mainly macrophages, neutrophils, and similar phagocytic cells.\n- **\"Exocytosis only secretes molecules.\"** Wrong — it also delivers lipids and proteins to the plasma membrane itself, growing/repairing it.\n- **\"Endocytosis permanently shrinks the cell.\"** Wrong — membrane is recycled: endocytosis and exocytosis are balanced.\n\n## Quick Review\n\n- Bulk transport moves large cargo in vesicles; requires energy.\n- Endocytosis (in): phagocytosis, pinocytosis, receptor-mediated.\n- Phagocytosis = large particles (immune cells); pinocytosis = fluid; receptor-mediated = specific ligands via clathrin.\n- Exocytosis (out): secretion + membrane delivery.\n- Membrane is recycled between the two processes.\n\n## Sources\n\n- OpenStax, *Biology 2e*, \"5.4 Bulk Transport.\" https://openstax.org/books/biology-2e/pages/5-4-bulk-transport\n- Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Transport into the Cell from the Plasma Membrane: Endocytosis.\" NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK21054/\n- MedlinePlus, \"Familial hypercholesterolemia.\" U.S. National Library of Medicine. https://medlineplus.gov/genetics/condition/familial-hypercholesterolemia/\n"
+}

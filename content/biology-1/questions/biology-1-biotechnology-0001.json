@@ -1,0 +1,40 @@
+{
+  "id": "biology-1-biotechnology-0001",
+  "subject": "biology-1",
+  "lesson": "biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A researcher cuts a circular **plasmid** with a **restriction enzyme** that produces **sticky ends**, then cuts a gene of interest with the same enzyme. Which statement best explains why sticky ends make it easy to join the gene into the plasmid?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The single-stranded overhangs base-pair with the complementary overhangs on the other DNA piece, aligning the gene with the plasmid."
+    },
+    {
+      "id": "b",
+      "text": "The double-stranded overhangs are chemically labeled, so the gene can be detected wherever it lands."
+    },
+    {
+      "id": "c",
+      "text": "The overhangs are short RNA segments that recruit enzymes to splice the gene into the plasmid."
+    },
+    {
+      "id": "d",
+      "text": "The enzyme leaves blunt ends that DNA ligase cannot seal, so the gene stays separate and safe."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Restriction enzymes such as EcoRI cut at specific palindromic sequences and leave short single-stranded overhangs, called sticky ends, that base-pair with complementary overhangs on another DNA molecule. Cutting the insert and the plasmid with the same enzyme produces matching overhangs, so the gene aligns with the plasmid and DNA ligase seals the strands together. B describes chemically labeled ends, C invokes RNA guides, which are a feature of CRISPR rather than restriction enzymes, and D is wrong because this enzyme produces sticky overhangs and ligase can seal the aligned ends.",
+  "difficulty": "unknown",
+  "tags": [
+    "sticky",
+    "ends",
+    "restriction",
+    "enzymes"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-37c6d4d415f69033",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

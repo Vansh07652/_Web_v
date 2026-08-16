@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:ecm-cell-junctions:focal-adhesions",
+  "slug": "focal-adhesions",
+  "title": "Focal Adhesions",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:ecm-cell-junctions",
+    "slug": "ecm-cell-junctions",
+    "title": "ECM Cell Junctions",
+    "order": 9
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "**Focal adhesions** are large, dynamic protein assemblies where integrins anchor the actin cytoskeleton to the extracellular matrix, serving as both structural \"feet\" and signaling hubs. Their core architecture is a linear chain: **integrin → adaptor proteins (talin, vinculin, paxillin) → actin filaments**. Because focal adhesions connect the contractile actomyosin network to the ECM, they transmit force bidirectionally — pulling on the matrix during migration and sensing matrix stiffness (mechanotransduction) — and they grow stronger under tension.",
+    "whyItMatters": "Focal adhesions are how cells feel their physical environment: matrix stiffness sensed through focal adhesions guides stem-cell differentiation, wound healing, and tissue development. Their dysregulation underlies cancer invasion and fibrosis — tumor cells modulate adhesions to crawl through tissue, and fibrotic cells build oversized adhesions that drive excessive matrix contraction. They are also the physical basis for cell-migration assays used widely in drug discovery.",
+    "learningObjectives": "- Define focal adhesions and their molecular architecture.\n- Trace the integrin → adaptor → actin chain of connection.\n- Explain how actomyosin tension strengthens and matures focal adhesions.\n- Describe focal adhesions' role in cell migration and mechanotransduction.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Focal adhesions** are large, dynamic protein assemblies where integrins anchor the actin cytoskeleton to the extracellular matrix, serving as both structural \"feet\" and signaling hubs. Their core architecture is a linear chain: **integrin → adaptor proteins (talin, vinculin, paxillin) → actin filaments**. Because focal adhesions connect the contractile actomyosin network to the ECM, they transmit force bidirectionally — pulling on the matrix during migration and sensing matrix stiffness (mechanotransduction) — and they grow stronger under tension.\n\n### Key Components\n\n- **Integrins (e.g., α5β1, αvβ3):** the transmembrane anchors.\n- **Talin:** binds the β-integrin tail, activates the integrin, and links it to actin.\n- **Vinculin:** recruited by talin under tension; reinforces the integrin–actin link.\n- **Paxillin:** a scaffold/adaptor that recruits signaling proteins.\n- **FAK (focal adhesion kinase):** a tyrosine kinase that autophosphorylates and initiates outside-in signaling.\n- **Src:** a tyrosine kinase acting with FAK to propagate signals.\n- **Actomyosin:** actin filaments and myosin II, whose contractility matures adhesions.\n\n### Mechanism\n\nIntegrins bind ECM ligands and cluster; talin then binds the clustered β-integrin cytoplasmic tails and simultaneously captures actin filaments, forming the initial linkage. Myosin II–driven tension along actin stretches talin, exposing cryptic vinculin-binding sites; vinculin recruitment reinforces the connection, enlarging and stabilizing the adhesion. Tension also promotes phosphorylation of FAK and Src, which recruit further adaptors and activate signaling pathways controlling survival, proliferation, and migration. The result is a mechanosensitive feedback loop: more tension → stronger adhesions.\n\n### How It Works\n\n1. Integrins bind ECM and cluster at the cell's leading edge.\n2. Talin binds integrin tails and links them to actin.\n3. Myosin II contraction applies tension to the nascent adhesion.\n4. Tension unfolds talin, revealing vinculin-binding sites.\n5. Vinculin binds and reinforces the integrin–actin link.\n6. FAK/Src signaling is activated, promoting growth and stabilization.\n7. During migration, adhesions disassemble at the cell rear as the cell advances.\n\n### Energy and Directionality\n\nFocal-adhesion assembly and maturation are powered by **actomyosin contractility**, which hydrolyzes ATP to generate the tension that unfolds talin and recruits vinculin. FAK/Src signaling likewise consumes ATP through kinase phosphorylation. This makes focal adhesions genuine force transducers: the energy of contraction is converted into structural reinforcement and biochemical signaling. Directionality is evident in migration — adhesions assemble at the front and disassemble at the rear, cycling continuously.\n\n### Experimental Evidence\n\n- **Immunofluorescence:** vinculin and paxillin mark discrete adhesion plaques at the ends of actin stress fibers.\n- **Talin-stretch experiments:** single-molecule studies showed tension exposes vinculin-binding sites in talin, directly demonstrating force-dependent reinforcement.\n- **Traction-force microscopy:** cells exert measurable force on the substrate at focal adhesions, and stiffer substrates produce larger adhesions.\n- **FAK knockouts:** show FAK's role in adhesion turnover and migration.\n\n### Technique\n\n- **Immunofluorescence / TIRF microscopy** — image focal adhesions at the cell–substrate interface.\n- **Traction-force microscopy** — map the forces cells exert through adhesions.\n- **FRAP (fluorescence recovery after photobleaching)** — measure dynamic protein exchange in adhesions.\n- **Substrate-stiffness assays** — test mechanosensitivity (stiffer matrix → larger adhesions).\n- **Live-cell imaging** — track adhesion assembly/disassembly during migration.",
+    "howItWorks": "1. Integrins bind ECM and cluster at the cell's leading edge.\n2. Talin binds integrin tails and links them to actin.\n3. Myosin II contraction applies tension to the nascent adhesion.\n4. Tension unfolds talin, revealing vinculin-binding sites.\n5. Vinculin binds and reinforces the integrin–actin link.\n6. FAK/Src signaling is activated, promoting growth and stabilization.\n7. During migration, adhesions disassemble at the cell rear as the cell advances.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Focal adhesion = integrin-based, **actin-linked** cell–matrix adhesion.\n- Core chain: **integrin → talin/vinculin/paxillin → actin**.\n- **Talin** activates integrins and links them to actin; **vinculin** reinforces under tension.\n- **FAK/Src** tyrosine-kinase signaling is central to outside-in signaling.\n- Assembly and maturation require **actomyosin (myosin II) tension** — mechanosensitive.\n- Focal adhesions assemble at the front and disassemble at the rear during migration.",
+    "commonConfusions": "- **\"Focal adhesions are permanent structures.\"** — They are highly dynamic, constantly assembling and disassembling.\n- **\"Focal adhesions are the same as desmosomes.\"** — No: focal adhesions are integrin–actin cell–matrix contacts; desmosomes are cadherin–intermediate-filament cell–cell contacts.\n- **\"Integrins bind actin directly.\"** — They link to actin through adaptors (talin, vinculin).\n- **\"Focal adhesions are passive glue.\"** — They are active signaling and force-sensing hubs.\n- **\"All adhesions are identical.\"** — They exist on a continuum (nascent adhesions → focal complexes → mature focal adhesions).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture a rock climber pressing against a wall with suction-cup shoes and ropes. The integrins are the suction cups on the wall, the adaptor proteins (talin, vinculin) are the carabiners and straps, and actin is the rope tied to the climber's harness. The harder the climber pulls (muscle tension, like myosin), the tighter the straps cinch and the stronger the grip becomes. So the climber both grips the wall and *feels* how solid the wall is through the ropes — that \"feeling\" is exactly how cells sense the stiffness of their surroundings. (The analogy makes the process sound more deliberate than it is; the strengthening is a molecular self-reinforcing loop, not a conscious choice.)",
+    "quickReview": "- Focal adhesions: integrin → talin/vinculin/paxillin → actin.\n- Mature and strengthen under actomyosin tension (mechanotransduction).\n- FAK/Src drive outside-in signaling.\n- Essential for migration, force sensing, and stiffness-dependent cell behavior.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"Cell Junctions.\" https://www.ncbi.nlm.nih.gov/books/NBK26857/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26857/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"The Extracellular Matrix of Animals.\" https://www.ncbi.nlm.nih.gov/books/NBK26810/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26810/"
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"integrin.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/integrin",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/integrin"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"4.6 Connections between Cells and Cellular Activities.\" https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities",
+        "url": "https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "focal-adhesions",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "07-focal-adhesions",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:d36c76d3b4ce1c34"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:d36c76d3b4ce1c34"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:d36c76d3b4ce1c34"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:d36c76d3b4ce1c34"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/09-ecm-cell-junctions/07-focal-adhesions.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Focal Adhesions\n\n## Learning Goals\n- Define focal adhesions and their molecular architecture.\n- Trace the integrin → adaptor → actin chain of connection.\n- Explain how actomyosin tension strengthens and matures focal adhesions.\n- Describe focal adhesions' role in cell migration and mechanotransduction.\n\n## Core Concept\n**Focal adhesions** are large, dynamic protein assemblies where integrins anchor the actin cytoskeleton to the extracellular matrix, serving as both structural \"feet\" and signaling hubs. Their core architecture is a linear chain: **integrin → adaptor proteins (talin, vinculin, paxillin) → actin filaments**. Because focal adhesions connect the contractile actomyosin network to the ECM, they transmit force bidirectionally — pulling on the matrix during migration and sensing matrix stiffness (mechanotransduction) — and they grow stronger under tension.\n\n## Key Components\n- **Integrins (e.g., α5β1, αvβ3):** the transmembrane anchors.\n- **Talin:** binds the β-integrin tail, activates the integrin, and links it to actin.\n- **Vinculin:** recruited by talin under tension; reinforces the integrin–actin link.\n- **Paxillin:** a scaffold/adaptor that recruits signaling proteins.\n- **FAK (focal adhesion kinase):** a tyrosine kinase that autophosphorylates and initiates outside-in signaling.\n- **Src:** a tyrosine kinase acting with FAK to propagate signals.\n- **Actomyosin:** actin filaments and myosin II, whose contractility matures adhesions.\n\n## Mechanism\nIntegrins bind ECM ligands and cluster; talin then binds the clustered β-integrin cytoplasmic tails and simultaneously captures actin filaments, forming the initial linkage. Myosin II–driven tension along actin stretches talin, exposing cryptic vinculin-binding sites; vinculin recruitment reinforces the connection, enlarging and stabilizing the adhesion. Tension also promotes phosphorylation of FAK and Src, which recruit further adaptors and activate signaling pathways controlling survival, proliferation, and migration. The result is a mechanosensitive feedback loop: more tension → stronger adhesions.\n\n## How It Works\n1. Integrins bind ECM and cluster at the cell's leading edge.\n2. Talin binds integrin tails and links them to actin.\n3. Myosin II contraction applies tension to the nascent adhesion.\n4. Tension unfolds talin, revealing vinculin-binding sites.\n5. Vinculin binds and reinforces the integrin–actin link.\n6. FAK/Src signaling is activated, promoting growth and stabilization.\n7. During migration, adhesions disassemble at the cell rear as the cell advances.\n\n## Energy and Directionality\nFocal-adhesion assembly and maturation are powered by **actomyosin contractility**, which hydrolyzes ATP to generate the tension that unfolds talin and recruits vinculin. FAK/Src signaling likewise consumes ATP through kinase phosphorylation. This makes focal adhesions genuine force transducers: the energy of contraction is converted into structural reinforcement and biochemical signaling. Directionality is evident in migration — adhesions assemble at the front and disassemble at the rear, cycling continuously.\n\n## Experimental Evidence\n- **Immunofluorescence:** vinculin and paxillin mark discrete adhesion plaques at the ends of actin stress fibers.\n- **Talin-stretch experiments:** single-molecule studies showed tension exposes vinculin-binding sites in talin, directly demonstrating force-dependent reinforcement.\n- **Traction-force microscopy:** cells exert measurable force on the substrate at focal adhesions, and stiffer substrates produce larger adhesions.\n- **FAK knockouts:** show FAK's role in adhesion turnover and migration.\n\n## Technique\n- **Immunofluorescence / TIRF microscopy** — image focal adhesions at the cell–substrate interface.\n- **Traction-force microscopy** — map the forces cells exert through adhesions.\n- **FRAP (fluorescence recovery after photobleaching)** — measure dynamic protein exchange in adhesions.\n- **Substrate-stiffness assays** — test mechanosensitivity (stiffer matrix → larger adhesions).\n- **Live-cell imaging** — track adhesion assembly/disassembly during migration.\n\n## Why It Matters\nFocal adhesions are how cells feel their physical environment: matrix stiffness sensed through focal adhesions guides stem-cell differentiation, wound healing, and tissue development. Their dysregulation underlies cancer invasion and fibrosis — tumor cells modulate adhesions to crawl through tissue, and fibrotic cells build oversized adhesions that drive excessive matrix contraction. They are also the physical basis for cell-migration assays used widely in drug discovery.\n\n## High-Yield Facts\n- Focal adhesion = integrin-based, **actin-linked** cell–matrix adhesion.\n- Core chain: **integrin → talin/vinculin/paxillin → actin**.\n- **Talin** activates integrins and links them to actin; **vinculin** reinforces under tension.\n- **FAK/Src** tyrosine-kinase signaling is central to outside-in signaling.\n- Assembly and maturation require **actomyosin (myosin II) tension** — mechanosensitive.\n- Focal adhesions assemble at the front and disassemble at the rear during migration.\n\n## Eli Explains\nPicture a rock climber pressing against a wall with suction-cup shoes and ropes. The integrins are the suction cups on the wall, the adaptor proteins (talin, vinculin) are the carabiners and straps, and actin is the rope tied to the climber's harness. The harder the climber pulls (muscle tension, like myosin), the tighter the straps cinch and the stronger the grip becomes. So the climber both grips the wall and *feels* how solid the wall is through the ropes — that \"feeling\" is exactly how cells sense the stiffness of their surroundings. (The analogy makes the process sound more deliberate than it is; the strengthening is a molecular self-reinforcing loop, not a conscious choice.)\n\n## Common Confusions\n- **\"Focal adhesions are permanent structures.\"** — They are highly dynamic, constantly assembling and disassembling.\n- **\"Focal adhesions are the same as desmosomes.\"** — No: focal adhesions are integrin–actin cell–matrix contacts; desmosomes are cadherin–intermediate-filament cell–cell contacts.\n- **\"Integrins bind actin directly.\"** — They link to actin through adaptors (talin, vinculin).\n- **\"Focal adhesions are passive glue.\"** — They are active signaling and force-sensing hubs.\n- **\"All adhesions are identical.\"** — They exist on a continuum (nascent adhesions → focal complexes → mature focal adhesions).\n\n## Quick Review\n- Focal adhesions: integrin → talin/vinculin/paxillin → actin.\n- Mature and strengthen under actomyosin tension (mechanotransduction).\n- FAK/Src drive outside-in signaling.\n- Essential for migration, force sensing, and stiffness-dependent cell behavior.\n\n## Sources\n- Alberts et al., *Molecular Biology of the Cell*, \"Cell Junctions.\" https://www.ncbi.nlm.nih.gov/books/NBK26857/\n- Alberts et al., *Molecular Biology of the Cell*, \"The Extracellular Matrix of Animals.\" https://www.ncbi.nlm.nih.gov/books/NBK26810/\n- NCI Dictionary of Cancer Terms, \"integrin.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/integrin\n- OpenStax, *Biology 2e*, \"4.6 Connections between Cells and Cellular Activities.\" https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities\n"
+}

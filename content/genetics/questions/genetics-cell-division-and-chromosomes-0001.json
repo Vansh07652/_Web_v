@@ -1,0 +1,40 @@
+{
+  "id": "genetics-cell-division-and-chromosomes-0001",
+  "subject": "genetics",
+  "lesson": "cell-division-and-chromosomes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept A cell in the G1 phase sustains DNA damage, and the DNA damage checkpoint responds by stopping the cell cycle. Which protein is responsible for this arrest?",
+  "options": [
+    {
+      "id": "a",
+      "text": "cyclin dependent kinase 2"
+    },
+    {
+      "id": "b",
+      "text": "cyclin dependent kinase 1"
+    },
+    {
+      "id": "c",
+      "text": "retinoblastoma protein"
+    },
+    {
+      "id": "d",
+      "text": "p53 tumor suppressor"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "The p53 tumor suppressor, encoded by *TP53*, is the effector of the DNA damage response: it triggers cell cycle arrest so the cell can repair the damage or undergo apoptosis. Cyclin dependent kinase 2 (encoded by *CDK2*) drives entry into S phase and cyclin dependent kinase 1 (encoded by *CDK1*) drives entry into mitosis, so neither mediates arrest. The retinoblastoma protein (encoded by *RB1*) enforces the G1 restriction point in undamaged cells, but the damage-triggered arrest tested here runs through p53.",
+  "difficulty": "unknown",
+  "tags": [
+    "dna",
+    "damage",
+    "checkpoint",
+    "response"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-362d42c8f413fa58",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

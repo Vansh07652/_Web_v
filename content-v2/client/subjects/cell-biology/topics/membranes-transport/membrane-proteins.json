@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:membranes-transport:membrane-proteins",
+  "slug": "membrane-proteins",
+  "title": "Membrane Proteins: Integral, Peripheral, and Lipid-Anchored",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:membranes-transport",
+    "slug": "membranes-transport",
+    "title": "Membranes Transport",
+    "order": 2
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "Membrane proteins are classified by how they associate with the lipid bilayer. Integral membrane proteins are embedded in the hydrophobic core — transmembrane proteins span it (via α-helices or β-barrels), while monotopic proteins insert into only one leaflet. Peripheral proteins bind to the membrane surface through non-covalent electrostatic and hydrogen-bonding interactions, and lipid-anchored proteins are tethered by a covalently attached lipid (fatty acyl, prenyl, or GPI). This classification matters because it determines how tightly and how reversibly each protein is held, and hence how it can be extracted and studied.",
+    "whyItMatters": "Membrane proteins are the cell's interface with the world: receptors, channels, transporters, adhesion molecules, and enzymes. They are the targets of a large fraction of all drugs. Their classification and topology explain drug access, disease mutations (for example, in cystic fibrosis CFTR or ion channels), and how cells sense and respond to their environment.",
+    "learningObjectives": "- Classify membrane proteins as integral, peripheral, or lipid-anchored and explain how each associates with the bilayer.\n- Describe the two main transmembrane folding motifs (α-helix and β-barrel).\n- Explain how hydrophobicity predicts transmembrane segments.\n- Relate protein structure to membrane protein function and removal conditions.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nMembrane proteins are classified by how they associate with the lipid bilayer. Integral membrane proteins are embedded in the hydrophobic core — transmembrane proteins span it (via α-helices or β-barrels), while monotopic proteins insert into only one leaflet. Peripheral proteins bind to the membrane surface through non-covalent electrostatic and hydrogen-bonding interactions, and lipid-anchored proteins are tethered by a covalently attached lipid (fatty acyl, prenyl, or GPI). This classification matters because it determines how tightly and how reversibly each protein is held, and hence how it can be extracted and studied.\n\n### Key Components\n\n### Integral (transmembrane) proteins\nSpan the bilayer once or many times. Their transmembrane segments are built of nonpolar amino acids whose side chains face the lipid tails. Single-pass proteins often function as receptors; multipass proteins form transporters, channels, and pumps.\n\n### α-helical transmembrane segments\nThe most common motif: ~20 hydrophobic amino acids form a helix whose backbone hydrogen bonds are satisfied internally, so the helix can sit stably in the apolar core. Multipass proteins pack several helices into a bundle.\n\n### β-barrel transmembrane proteins\nβ-strands arranged as a closed barrel, with hydrophobic side chains facing outward toward the lipids and a hydrophilic pore inside. Found in the outer membranes of Gram-negative bacteria, mitochondria, and chloroplasts (porins, for example).\n\n### Peripheral membrane proteins\nAttach to the bilayer surface (or to integral proteins) via electrostatic interactions with charged lipid head groups and hydrogen bonds. Released by high salt or pH changes that do not dissolve the membrane — a key diagnostic feature.\n\n### Lipid-anchored proteins\nCovalently modified: fatty-acyl (myristoyl, palmitoyl) or prenyl (farnesyl, geranylgeranyl) anchors on the cytosolic side, or a GPI (glycosylphosphatidylinositol) anchor on the outer leaflet.\n\n### Mechanism\n\nThe hydrophobic effect drives insertion: hydrophobic amino-acid side chains are excluded from water and therefore partition into the lipid core, while polar residues and the peptide backbone arrange to interact with head groups or with one another (helix backbone H-bonds, barrel strand H-bonds). Glycosylated extracellular domains and charged intracellular domains then orient the protein correctly across the bilayer.\n\n### How It Works\n\n1. A nascent membrane protein is synthesized into the ER, where its hydrophobic segments are recognized and threaded through the translocon into the lipid bilayer.\n2. Hydrophobic α-helices or β-strands settle into the apolar core; hydrophilic loops face the aqueous compartments.\n3. The protein diffuses laterally to its destination and may be anchored there by cytoskeleton, matrix, or other proteins.\n4. Peripheral proteins attach post-synthetically to head groups or integral proteins.\n5. Lipid anchors (added by specific transferases) tether otherwise-soluble proteins to the membrane.\n\n### Energy and Directionality\n\nInsertion is largely spontaneous (thermodynamically favorable once the hydrophobic segments are in the bilayer), but it is orchestrated by the energy-consuming translocon and targeting machinery during biosynthesis. Attachment of lipid anchors consumes activated donors (myristoyl-CoA, palmitoyl-CoA, prenyl diphosphates, GPI precursors) and is catalyzed by enzymes.\n\n### Experimental Evidence\n\n- **Hydropathy plots (Kyte–Doolittle):** scanning an amino-acid sequence for ~20-residue hydrophobic stretches predicts the number of transmembrane α-helices; confirmed by high-resolution structures.\n- **Extraction experiments:** peripheral proteins come off with salt or pH change; integral proteins require detergents to solubilize.\n- **X-ray crystallography and cryo-EM:** solved structures of β-barrel porins, multipass transporters, and GPCRs confirm the predicted topologies.\n\n### Technique\n\nHydropathy analysis and membrane-protein expression plus detergent solubilization (followed by crystallography or cryo-EM) are the workhorses. Differential extraction (salt vs. detergent) experimentally distinguishes peripheral from integral proteins.",
+    "howItWorks": "1. A nascent membrane protein is synthesized into the ER, where its hydrophobic segments are recognized and threaded through the translocon into the lipid bilayer.\n2. Hydrophobic α-helices or β-strands settle into the apolar core; hydrophilic loops face the aqueous compartments.\n3. The protein diffuses laterally to its destination and may be anchored there by cytoskeleton, matrix, or other proteins.\n4. Peripheral proteins attach post-synthetically to head groups or integral proteins.\n5. Lipid anchors (added by specific transferases) tether otherwise-soluble proteins to the membrane.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Integral = embedded in the bilayer core (transmembrane spans it; monotopic inserts one leaflet).\n- Transmembrane motifs: α-helix (~20 hydrophobic residues) and β-barrel (outer membranes).\n- Peripheral = electrostatic/H-bond association; removed by salt or pH, not detergent.\n- Lipid-anchored: fatty acyl, prenyl (cytosolic) or GPI (outer leaflet).\n- Hydropathy plots predict α-helical transmembrane segments.\n- Integral proteins require detergent for extraction.",
+    "commonConfusions": "- **\"Peripheral proteins span the membrane.\"** No — peripheral proteins sit on a surface and are removable with salt/pH; only integral proteins are embedded.\n- **\"All integral proteins are transmembrane.\"** Monotopic integral proteins insert into only one leaflet without spanning.\n- **\"β-barrels are the common motif in plasma membranes.\"** In animals, α-helices dominate; β-barrels are typical of bacterial/mitochondrial/chloroplast outer membranes.\n- **\"Lipid anchors are electrostatic attachments.\"** They are covalent modifications (fatty acyl, prenyl, GPI).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a membrane as a sandwich of grease. Some proteins are like toothpicks pushed all the way through the grease (integral); some are like magnets stuck to the bread on either side (peripheral); and some are like balloons tied by a string to a bread slice (lipid-anchored). Whether you can pull one out with a gentle tug or need to dissolve the grease tells you which kind it is.",
+    "quickReview": "- Three classes: integral, peripheral, lipid-anchored.\n- Transmembrane: α-helix vs. β-barrel.\n- Peripheral removed by salt/pH; integral needs detergent.\n- Hydropathy plots predict transmembrane segments.\n- Membrane proteins are major drug targets.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"5.1 Components and Structure.\" https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+        "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed. https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/"
+      },
+      {
+        "text": "Cooper, *The Cell: A Molecular Approach*, 2nd ed. https://www.ncbi.nlm.nih.gov/books/NBK9839/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9839/"
+      },
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, \"3.1 The Cell Membrane.\" https://openstax.org/books/anatomy-and-physiology-2e/pages/3-1-the-cell-membrane",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-1-the-cell-membrane"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/02-membranes-transport/05-membrane-proteins.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

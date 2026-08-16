@@ -1,0 +1,38 @@
+{
+  "id": "physics-1-oscillations-and-simple-harmonic-motion-0005",
+  "subject": "physics-1",
+  "lesson": "oscillations-and-simple-harmonic-motion",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For physical pendulum, use $N = f t$ in a oscillation counting model. The first quantity is 2.50 Hz and the second is 5.00 s. What is the number of cycles?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$6.25$ dimensionless"
+    },
+    {
+      "id": "b",
+      "text": "$12.50$ dimensionless"
+    },
+    {
+      "id": "c",
+      "text": "$25.00$ dimensionless"
+    },
+    {
+      "id": "d",
+      "text": "$17.50$ dimensionless"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Using $N = f t$ gives 2.50 Hz times 5.00 s = $12.50$ dimensionless. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to dimensionless, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "physical",
+    "pendulum"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-11fa68e46a87e419",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

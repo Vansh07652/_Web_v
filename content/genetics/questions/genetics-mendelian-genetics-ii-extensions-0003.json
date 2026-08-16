@@ -1,0 +1,40 @@
+{
+  "id": "genetics-mendelian-genetics-ii-extensions-0003",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-ii-extensions",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation A woman of blood type A has genotype *I^A i* and a man of blood type B has genotype *I^B i*. Assuming the *I^A* and *I^B* alleles are codominant, *i* is recessive to both, and all genotypes are viable, what is the probability that their child has blood type O?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/16"
+    },
+    {
+      "id": "b",
+      "text": "1/8"
+    },
+    {
+      "id": "c",
+      "text": "1/4"
+    },
+    {
+      "id": "d",
+      "text": "1/2"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Blood type O requires the genotype *ii*, and each parent is heterozygous with one *i* allele, so each contributes *i* with probability 1/2. The product rule gives 1/2 x 1/2 = 1/4 for the child to be *ii*. A is the answer if the chain were expanded to 1/4 x 1/4, as for two heterozygous loci, and B is 1/2 x 1/4, a hybrid of the two. D is only the probability that the mother passes *i*, without requiring the father to pass it too.",
+  "difficulty": "unknown",
+  "tags": [
+    "abo",
+    "child",
+    "probability",
+    "calculation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-459ae50fda335511",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

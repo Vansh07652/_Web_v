@@ -1,0 +1,40 @@
+{
+  "id": "chemistry-1-atomic-structure-and-the-periodic-table-q10",
+  "subject": "chemistry-1",
+  "lesson": "atomic-structure-and-the-periodic-table",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A data table for a hypothetical element lists two isotopes: mass 63 amu at 69.2 percent abundance and mass 65 amu at 30.8 percent abundance. Which value is closest to the average atomic mass, and what does the result indicate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "63 amu; the tabulated mass is set by the most abundant isotope alone"
+    },
+    {
+      "id": "b",
+      "text": "65 amu; the heavier isotope contributes more mass and therefore dominates"
+    },
+    {
+      "id": "c",
+      "text": "64 amu; the average is the midpoint between the two isotope masses"
+    },
+    {
+      "id": "d",
+      "text": "63.6 amu; the average sits nearer 63 because that isotope is more abundant"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Converting percentages to decimals and weighting each mass gives (0.692)(63) + (0.308)(65) = 63.62 amu, or about 63.6. The value must fall between the two isotope masses, and it shifts toward the more abundant lighter isotope rather than landing on the midpoint of 64 or on either isotope mass exactly. Checking that a weighted average lies between the extremes and leans toward the dominant component is a quick way to catch arithmetic errors.\n\nELI-10: A weighted average asks not just what the values are but how many of each you have. Here nearly 70 percent of the atoms weigh 63 and only about 30 percent weigh 65, so the light group pulls the average down toward its own value. Multiply each mass by its share as a decimal and add: 0.692 x 63 = 43.6 and 0.308 x 65 = 20, for a total near 63.6. Two quick checks: the answer must land between 63 and 65, and it must sit closer to whichever isotope is more common.",
+  "difficulty": "medium",
+  "tags": [
+    "weighted average atomic mass",
+    "percent abundance",
+    "data interpretation",
+    "isotopes"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-272",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

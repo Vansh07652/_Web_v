@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-2:urinary-system-and-fluid-balance:glomerular-filtration",
+  "slug": "glomerular-filtration",
+  "title": "Glomerular Filtration",
+  "subject": {
+    "id": "subject:anatomy-physiology-2",
+    "slug": "anatomy-physiology-2",
+    "title": "Anatomy & Physiology II"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-2:urinary-system-and-fluid-balance",
+    "slug": "urinary-system-and-fluid-balance",
+    "title": "Urinary System and Fluid Balance",
+    "order": 6
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "**Glomerular filtration** is the first step of urine formation: blood pressure forces fluid out of the glomerular capillaries into the nephron. This section covers how filtration works, what gets filtered, and the **glomerular filtration rate (GFR)**.",
+    "whyItMatters": "Filtration is where the kidney begins cleaning the blood. The GFR is the key measure of kidney function, used clinically to assess and stage kidney disease.",
+    "learningObjectives": "- Explain **glomerular filtration** and its driving force.\n- Describe what is and isn't filtered.\n- Define **glomerular filtration rate (GFR)** and its regulation.\n- Connect GFR to kidney function assessment.",
+    "keyTerms": "",
+    "collegeNotes": "**Filtration by pressure.** In the **glomerulus** (the capillary tuft in the renal corpuscle), **blood pressure pushes fluid and small solutes out of the blood** and into the glomerular capsule — a pressure-driven **filtration** (recall filtration from membrane transport). The glomerular capillaries are especially leaky (well suited for filtering), and the high pressure here (higher than in ordinary capillaries) drives large volumes of fluid across.\n\n**What gets filtered — and what doesn't.** The filter acts like a sieve based on size:\n\n- **Filtered (pass through):** water, ions, glucose, amino acids, and small wastes like **urea**. The resulting fluid (**filtrate**) is like plasma minus the big stuff.\n- **Not filtered (too big):** blood cells and most **plasma proteins** stay in the blood.\n\nSo normally there should be **no proteins or blood cells in urine**. Their appearance (proteinuria, hematuria) signals a filtration problem — a clinically useful clue.\n\n**Glomerular filtration rate (GFR).** The **GFR** is the **volume of filtrate formed per minute** by all the nephrons — a direct measure of how well the kidneys are filtering. A healthy GFR is high (the kidneys filter a large volume daily, most of which is later reabsorbed). Because GFR reflects kidney function, it's a central clinical value: a **falling GFR indicates declining kidney function** and is used to **stage chronic kidney disease**.\n\n**Regulating GFR.** The kidneys keep GFR fairly steady despite changes in blood pressure, through:\n\n- **Autoregulation:** local mechanisms in the kidney adjust the diameter of the arterioles feeding and draining the glomerulus to keep filtration pressure stable.\n- **Neural and hormonal control:** the sympathetic nervous system and hormones (like those of the **RAAS**) adjust GFR during larger changes (e.g., dropping GFR to conserve fluid when blood pressure falls sharply).\n\nKeeping GFR stable ensures the kidneys filter appropriately without being derailed by every blood-pressure fluctuation — another homeostatic control.",
+    "howItWorks": "The filtration step:\n\n```\nBlood enters glomerulus (high pressure) → water + small solutes filtered into glomerular capsule (filtrate)\n   Filtered: water, ions, glucose, amino acids, urea\n   NOT filtered: blood cells, large proteins\n→ filtrate enters the renal tubule (processed next)\nGFR = filtrate volume per minute; kept steady by autoregulation + neural/hormonal control\n```",
+    "comparisons": "| Filtered (into filtrate) | Not filtered (stay in blood) |\n| --- | --- |\n| Water, ions | Blood cells |\n| Glucose, amino acids | Large plasma proteins |\n| Urea, small wastes | |\n\n| GFR concept | Meaning |\n| --- | --- |\n| High GFR | Kidneys filtering well |\n| Falling GFR | Declining kidney function (stages CKD) |\n| Regulation | Autoregulation + neural/hormonal |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\n**GFR** (often estimated from blood **creatinine**) is the main measure of kidney function and stages **chronic kidney disease** — a key lab value nurses monitor. **Protein or blood in the urine** signals glomerular damage (as in glomerulonephritis or diabetic kidney disease). Because many drugs are cleared by the kidneys, a low GFR requires **dose adjustments** to avoid toxicity. Blood-pressure changes and RAAS affect GFR, linking kidney and cardiovascular care.",
+    "commonConfusions": "- **Filtration is pressure-driven** (blood pressure), not selective transport.\n- **Proteins and blood cells shouldn't be filtered** — their presence in urine is abnormal.\n- **GFR measures filtering rate**, the core index of kidney function.\n- **Filtrate is not urine yet** — it's processed extensively before becoming urine.",
+    "memoryAids": "- **\"Glomerulus = the pressure sieve.\"**\n- **\"Small stuff filtered; cells and big proteins stay.\"**\n- **GFR = \"the kidney's report card.\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nThe first step of making urine is squeezing fluid out of the blood through a tiny sieve — small things pass through, but blood cells and big proteins are kept back.\n\n### Analogy\nImagine pouring soup through a fine strainer using pressure. The **glomerulus** is that strainer, and your **blood pressure** is what pushes the liquid through. The thin broth and tiny bits (water, salt, sugar, and waste like **urea**) pass through into a collection cup, while the big chunks — **blood cells** and large **proteins** — are too big and stay behind in the pot (your blood). The amount of liquid that gets strained each minute is called the **GFR (glomerular filtration rate)**, and it's basically a score for how well your kidneys are working.\n\n### What is actually happening\nBecause the **GFR** shows kidney health, doctors watch it closely — a **dropping GFR** means the kidneys are failing, and it's used to grade **chronic kidney disease**. The strainer is also a clue-giver: if you find **protein or blood in the urine**, it means the sieve is leaking things it shouldn't, pointing to kidney damage. And since many **medicines** leave the body through the kidneys, a low GFR means doses often have to be lowered so the drugs don't build up to dangerous levels.\n\n### Where the analogy stops\nA kitchen strainer just lets everything small through once, but your kidneys later reclaim most of that \"strained\" fluid — you filter a huge amount but only turn a tiny fraction into actual urine, which the next steps handle.",
+    "quickReview": "- **Glomerular filtration** uses **blood pressure** to push fluid and small solutes (water, ions, glucose, amino acids, **urea**) out of the glomerulus into the capsule as **filtrate**; **blood cells and large proteins are not filtered**.\n- The **glomerular filtration rate (GFR)** measures filtering rate and is the key index of kidney function (falling GFR stages CKD).\n- GFR is kept stable by **autoregulation** and neural/hormonal control.\n- Protein/blood in urine signals glomerular damage; low GFR requires drug dose adjustment.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 25.5–25.6: Physiology of Urine Formation — Glomerular Filtration. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — Kidney Tests; Chronic Kidney Disease. https://medlineplus.gov/kidneytests.html",
+        "url": "https://medlineplus.gov/kidneytests.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "glomerular-filtration",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "ap2-u06-s02",
+      "kind": "source_topic_id",
+      "source_id": "prenursing_notes"
+    },
+    {
+      "value": "02-glomerular-filtration",
+      "kind": "source_file_stem",
+      "source_id": "prenursing_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:prenursing_notes:f058b08fe8a48d59"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:prenursing_notes:f058b08fe8a48d59"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:prenursing_notes:f058b08fe8a48d59"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:prenursing_notes:f058b08fe8a48d59"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/02-anatomy-physiology-ii/06-urinary-system-and-fluid-balance/02-glomerular-filtration.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "\n# Glomerular Filtration\n\n## What This Topic Is\n\n**Glomerular filtration** is the first step of urine formation: blood pressure forces fluid out of the glomerular capillaries into the nephron. This section covers how filtration works, what gets filtered, and the **glomerular filtration rate (GFR)**.\n\n## Why It Matters\n\nFiltration is where the kidney begins cleaning the blood. The GFR is the key measure of kidney function, used clinically to assess and stage kidney disease.\n\n## Learning Objectives\n\n- Explain **glomerular filtration** and its driving force.\n- Describe what is and isn't filtered.\n- Define **glomerular filtration rate (GFR)** and its regulation.\n- Connect GFR to kidney function assessment.\n\n## Core Explanation\n\n**Filtration by pressure.** In the **glomerulus** (the capillary tuft in the renal corpuscle), **blood pressure pushes fluid and small solutes out of the blood** and into the glomerular capsule — a pressure-driven **filtration** (recall filtration from membrane transport). The glomerular capillaries are especially leaky (well suited for filtering), and the high pressure here (higher than in ordinary capillaries) drives large volumes of fluid across.\n\n**What gets filtered — and what doesn't.** The filter acts like a sieve based on size:\n\n- **Filtered (pass through):** water, ions, glucose, amino acids, and small wastes like **urea**. The resulting fluid (**filtrate**) is like plasma minus the big stuff.\n- **Not filtered (too big):** blood cells and most **plasma proteins** stay in the blood.\n\nSo normally there should be **no proteins or blood cells in urine**. Their appearance (proteinuria, hematuria) signals a filtration problem — a clinically useful clue.\n\n**Glomerular filtration rate (GFR).** The **GFR** is the **volume of filtrate formed per minute** by all the nephrons — a direct measure of how well the kidneys are filtering. A healthy GFR is high (the kidneys filter a large volume daily, most of which is later reabsorbed). Because GFR reflects kidney function, it's a central clinical value: a **falling GFR indicates declining kidney function** and is used to **stage chronic kidney disease**.\n\n**Regulating GFR.** The kidneys keep GFR fairly steady despite changes in blood pressure, through:\n\n- **Autoregulation:** local mechanisms in the kidney adjust the diameter of the arterioles feeding and draining the glomerulus to keep filtration pressure stable.\n- **Neural and hormonal control:** the sympathetic nervous system and hormones (like those of the **RAAS**) adjust GFR during larger changes (e.g., dropping GFR to conserve fluid when blood pressure falls sharply).\n\nKeeping GFR stable ensures the kidneys filter appropriately without being derailed by every blood-pressure fluctuation — another homeostatic control.\n\n## How It Works\n\nThe filtration step:\n\n```\nBlood enters glomerulus (high pressure) → water + small solutes filtered into glomerular capsule (filtrate)\n   Filtered: water, ions, glucose, amino acids, urea\n   NOT filtered: blood cells, large proteins\n→ filtrate enters the renal tubule (processed next)\nGFR = filtrate volume per minute; kept steady by autoregulation + neural/hormonal control\n```\n\n## Important Relationships and Comparisons\n\n| Filtered (into filtrate) | Not filtered (stay in blood) |\n| --- | --- |\n| Water, ions | Blood cells |\n| Glucose, amino acids | Large plasma proteins |\n| Urea, small wastes | |\n\n| GFR concept | Meaning |\n| --- | --- |\n| High GFR | Kidneys filtering well |\n| Falling GFR | Declining kidney function (stages CKD) |\n| Regulation | Autoregulation + neural/hormonal |\n\n## High-Yield Pre-Nursing Connections\n\n**GFR** (often estimated from blood **creatinine**) is the main measure of kidney function and stages **chronic kidney disease** — a key lab value nurses monitor. **Protein or blood in the urine** signals glomerular damage (as in glomerulonephritis or diabetic kidney disease). Because many drugs are cleared by the kidneys, a low GFR requires **dose adjustments** to avoid toxicity. Blood-pressure changes and RAAS affect GFR, linking kidney and cardiovascular care.\n\n## Common Confusions\n\n- **Filtration is pressure-driven** (blood pressure), not selective transport.\n- **Proteins and blood cells shouldn't be filtered** — their presence in urine is abnormal.\n- **GFR measures filtering rate**, the core index of kidney function.\n- **Filtrate is not urine yet** — it's processed extensively before becoming urine.\n\n## Memory Aids\n\n- **\"Glomerulus = the pressure sieve.\"**\n- **\"Small stuff filtered; cells and big proteins stay.\"**\n- **GFR = \"the kidney's report card.\"**\n\n## ELI-10 Explains\n\n### Simple idea\nThe first step of making urine is squeezing fluid out of the blood through a tiny sieve — small things pass through, but blood cells and big proteins are kept back.\n\n### Analogy\nImagine pouring soup through a fine strainer using pressure. The **glomerulus** is that strainer, and your **blood pressure** is what pushes the liquid through. The thin broth and tiny bits (water, salt, sugar, and waste like **urea**) pass through into a collection cup, while the big chunks — **blood cells** and large **proteins** — are too big and stay behind in the pot (your blood). The amount of liquid that gets strained each minute is called the **GFR (glomerular filtration rate)**, and it's basically a score for how well your kidneys are working.\n\n### What is actually happening\nBecause the **GFR** shows kidney health, doctors watch it closely — a **dropping GFR** means the kidneys are failing, and it's used to grade **chronic kidney disease**. The strainer is also a clue-giver: if you find **protein or blood in the urine**, it means the sieve is leaking things it shouldn't, pointing to kidney damage. And since many **medicines** leave the body through the kidneys, a low GFR means doses often have to be lowered so the drugs don't build up to dangerous levels.\n\n### Where the analogy stops\nA kitchen strainer just lets everything small through once, but your kidneys later reclaim most of that \"strained\" fluid — you filter a huge amount but only turn a tiny fraction into actual urine, which the next steps handle.\n\n## Quick Recap\n\n- **Glomerular filtration** uses **blood pressure** to push fluid and small solutes (water, ions, glucose, amino acids, **urea**) out of the glomerulus into the capsule as **filtrate**; **blood cells and large proteins are not filtered**.\n- The **glomerular filtration rate (GFR)** measures filtering rate and is the key index of kidney function (falling GFR stages CKD).\n- GFR is kept stable by **autoregulation** and neural/hormonal control.\n- Protein/blood in urine signals glomerular damage; low GFR requires drug dose adjustment.\n\n## Sources\n\n- OpenStax, *Anatomy and Physiology 2e*, Chapter 25.5–25.6: Physiology of Urine Formation — Glomerular Filtration. https://openstax.org/details/books/anatomy-and-physiology-2e\n- U.S. National Library of Medicine, MedlinePlus — Kidney Tests; Chronic Kidney Disease. https://medlineplus.gov/kidneytests.html\n"
+}

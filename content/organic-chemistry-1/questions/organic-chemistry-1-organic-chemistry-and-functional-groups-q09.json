@@ -1,0 +1,40 @@
+{
+  "id": "organic-chemistry-1-organic-chemistry-and-functional-groups-q09",
+  "subject": "organic-chemistry-1",
+  "lesson": "organic-chemistry-and-functional-groups",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which functional-group combination produces the amide linkage found in proteins?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A carboxyl group reacting with an amine group, with loss of water"
+    },
+    {
+      "id": "b",
+      "text": "Two hydroxyl groups reacting with each other, with loss of water"
+    },
+    {
+      "id": "c",
+      "text": "An amine reacting with an alcohol, with loss of water"
+    },
+    {
+      "id": "d",
+      "text": "An alcohol reacting with a carboxyl group, with loss of water"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "An amide, called a peptide bond in proteins, forms when the carboxyl carbon of one amino acid bonds to the nitrogen of another amino acid's amine group with loss of H2O. The resulting C(=O)—N linkage has partial double-bond character from resonance, making it planar and unusually resistant to spontaneous hydrolysis, which is why proteins hold defined shapes. A carboxyl plus an alcohol would give an ester, two hydroxyls would give an ether, and an amine plus an alcohol does not condense under physiological conditions. Chaining 5 amino acids creates 5 − 1 = 4 peptide bonds and releases 4 water molecules.\n\nELI-10: Every amino acid carries an acid end (—COOH) and a base end (—NH2), so one molecule's acid end can always react with the next molecule's amine end. Each joining event expels one water and forms one amide bond, so the number of bonds is always one fewer than the number of residues: 5 − 1 = 4 for a pentapeptide. Notice that ester, ether, and amide bonds all form by losing water, so the identity of the product depends entirely on which two groups reacted, not on the water released.",
+  "difficulty": "medium",
+  "tags": [
+    "amide bond",
+    "peptide bond",
+    "condensation",
+    "amino acids"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-281",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

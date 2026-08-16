@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-moles-and-molar-mass-q09",
+  "subject": "chemistry-2",
+  "lesson": "moles-and-molar-mass",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A chemistry exercise calls for preparing exactly 0.5 mol of glucose (C6H12O6, molar mass 180.16 g/mol). Which mass should be weighed out, and why?",
+  "options": [
+    {
+      "id": "a",
+      "text": "180.16 g, because the molar mass is the mass to weigh whenever a mole quantity is specified"
+    },
+    {
+      "id": "b",
+      "text": "360.32 g, because the molar mass is divided by the requested mole quantity"
+    },
+    {
+      "id": "c",
+      "text": "90.08 g, because mass equals the requested moles multiplied by the molar mass"
+    },
+    {
+      "id": "d",
+      "text": "0.00278 g, because the requested moles are divided by the molar mass"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Converting moles to mass uses mass = moles x molar mass, so 0.5 mol x 180.16 g/mol = 90.08 g. The units confirm the setup, since moles multiplied by grams per mole leaves grams. Dividing instead produces 360.32 g or 0.00278 g, both of which fail the estimation check that half a mole must weigh half of the molar mass.\n\nELI-10: If one full container of a substance weighs 180.16 grams, half a container weighs half that, which is 90.08 grams. That is the whole calculation: moles times molar mass. Build in the estimate before you compute. When the requested amount is less than one mole, the mass must come out smaller than the molar mass; when it is more than one mole, the mass must come out larger. An answer that breaks this rule means the multiplication was flipped into a division.",
+  "difficulty": "medium",
+  "tags": [
+    "mole to mass conversion",
+    "molar mass application",
+    "estimation check"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-277",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

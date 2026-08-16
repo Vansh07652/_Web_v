@@ -1,0 +1,40 @@
+{
+  "id": "genetics-dna-repair-and-mutation-0005",
+  "subject": "genetics",
+  "lesson": "dna-repair-and-mutation",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application During replication, a DNA polymerase inserts a thymine opposite a guanine in the template, leaving a mismatched base pair in the newly synthesized daughter strand. Which repair pathway removes this kind of error?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Nucleotide excision repair, because the mismatch distorts the double helix"
+    },
+    {
+      "id": "b",
+      "text": "Base excision repair, because a single damaged base is removed"
+    },
+    {
+      "id": "c",
+      "text": "Double strand break repair by homologous recombination"
+    },
+    {
+      "id": "d",
+      "text": "Mismatch repair, which excises the newly synthesized strand and corrects the mispaired base"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Mismatch repair recognizes mispaired bases that arise during replication and excises the newly synthesized strand, which in E. coli is identified by its transient lack of methylation; the machinery includes *mutS*, *mutL*, and *mutH*, with human counterparts *MLH1*, *MSH2*, *MSH6*, and *PMS2*. Nucleotide excision repair removes bulky helix distorting lesions, base excision repair removes individual damaged bases, and double strand break repair handles broken chromosomes rather than mispaired bases.",
+  "difficulty": "unknown",
+  "tags": [
+    "mismatch",
+    "repair",
+    "pathway",
+    "choice"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ca8f349f5901cf65",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

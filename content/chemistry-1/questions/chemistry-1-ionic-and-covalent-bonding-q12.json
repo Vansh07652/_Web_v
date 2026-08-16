@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-ionic-and-covalent-bonding-q12",
+  "subject": "chemistry-1",
+  "lesson": "ionic-and-covalent-bonding",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Ammonium sulfate, (NH4)2SO4, contains 15 atoms per formula unit and dissolves in water to give NH4+ and SO4 2- ions. Which statement best explains the bonding present in this compound?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Every bond in the compound is ionic, because the substance is a salt that separates into ions in water."
+    },
+    {
+      "id": "b",
+      "text": "Every bond in the compound is covalent, because the formula contains only nonmetal atoms."
+    },
+    {
+      "id": "c",
+      "text": "The N-H and S-O bonds are ionic, while the attraction between the two polyatomic ions is covalent."
+    },
+    {
+      "id": "d",
+      "text": "Covalent bonds hold the atoms together within each polyatomic ion, while ionic attractions hold NH4+ and SO4 2- to one another."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Compounds built from polyatomic ions display both bonding types at once: shared electron pairs bind N to H and S to O inside each ion, while electrostatic attraction between the resulting NH4+ and SO4 2- units builds the lattice. That is precisely why dissolution releases intact polyatomic ions instead of free N, H, S, and O atoms, ruling out option A. Option B ignores that a cation and an anion are present despite the all-nonmetal composition, and option C reverses the two bond types. Counting confirms the composition: 2 x (1 + 4) + 1 + 4 = 15 atoms per formula unit.\n\nELI-10: Polyatomic ions force you to look at two levels at once. Inside NH4+, nitrogen and hydrogen share electron pairs, and inside SO4 2-, sulfur and oxygen do the same, so those internal links are covalent and survive dissolving. Between the two clusters there is nothing shared at all, only a positive group attracted to a negative group, which is ionic. The all-nonmetal formula fools people into calling it purely covalent, but the ions in solution prove otherwise. Atom count: two NH4 groups give 2 x 5 = 10, plus one S and four O, for 15.",
+  "difficulty": "hard",
+  "tags": [
+    "polyatomic ions",
+    "mixed ionic and covalent bonding",
+    "formula unit composition"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-274",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

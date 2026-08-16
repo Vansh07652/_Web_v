@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:reference:signaling-pathway-map",
+  "slug": "signaling-pathway-map",
+  "title": "Signaling Pathway Map (GPCR-cAMP, GPCR-IP3/DAG, RTK-Ras/MAPK, PI3K/Akt)",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:reference",
+    "slug": "reference",
+    "title": "Reference",
+    "order": 12
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "Cells convert external signals into intracellular responses through a limited set of reusable signaling modules. **GPCR–cAMP** couples a seven-transmembrane receptor to Gαs, which activates adenylyl cyclase to make the second messenger cAMP and turn on protein kinase A (PKA). **GPCR–IP3/DAG** couples to Gαq, activating phospholipase C to split PIP2 into IP3 (releasing Ca²⁺ from the ER) and DAG (activating PKC). **RTK–Ras/MAPK** couples a receptor tyrosine kinase through the adaptor Grb2 and the GEF SOS to the small GTPase Ras, triggering the Raf–MEK–ERK kinase cascade that drives proliferation. **PI3K/Akt** branches from activated RTKs (or GPCRs) to generate PIP3, which recruits and activates Akt, promoting survival and growth. All four use the same logic: receptor → switch → second messenger/kinase cascade → response, with built-in amplification and termination.",
+    "whyItMatters": "These four pathways control growth, metabolism, survival, and secretion — and their dysregulation drives disease. Roughly a third of approved drugs target GPCRs (beta-blockers, antihistamines, opioids). Ras, Raf, and PI3K/Akt components are mutated in a large fraction of cancers, making them prime drug targets (e.g., MEK inhibitors, PI3K inhibitors, and the emerging Ras inhibitors). Cholera, whooping cough, and many endocrine disorders are diseases of these switches.",
+    "learningObjectives": "- Trace the molecular sequence of each of the four canonical signaling pathways from receptor to cellular response.\n- Identify the second messengers (cAMP, IP3/DAG, PIP3) and the kinases each pathway activates.\n- Explain the role of GTPase switches (heterotrimeric G proteins, Ras) in each pathway.\n- Compare the amplification and termination mechanisms of the four pathways.\n- Predict the effect of a gain-of-function mutation in each pathway's components.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nCells convert external signals into intracellular responses through a limited set of reusable signaling modules. **GPCR–cAMP** couples a seven-transmembrane receptor to Gαs, which activates adenylyl cyclase to make the second messenger cAMP and turn on protein kinase A (PKA). **GPCR–IP3/DAG** couples to Gαq, activating phospholipase C to split PIP2 into IP3 (releasing Ca²⁺ from the ER) and DAG (activating PKC). **RTK–Ras/MAPK** couples a receptor tyrosine kinase through the adaptor Grb2 and the GEF SOS to the small GTPase Ras, triggering the Raf–MEK–ERK kinase cascade that drives proliferation. **PI3K/Akt** branches from activated RTKs (or GPCRs) to generate PIP3, which recruits and activates Akt, promoting survival and growth. All four use the same logic: receptor → switch → second messenger/kinase cascade → response, with built-in amplification and termination.\n\n### Key Components\n\n| Pathway | Receptor | Switch/GEF | Second messenger | Key kinase(s) | Response |\n|---|---|---|---|---|---|\n| **GPCR–cAMP** | GPCR (Gαs) | Gαs (GTP) | **cAMP** (by adenylyl cyclase) | **PKA** | Metabolic changes, gene transcription (CREB), ion-channel modulation |\n| **GPCR–IP3/DAG** | GPCR (Gαq) | Gαq (GTP) | **IP3** + **DAG** (by PLCβ from PIP2) | **PKC** (DAG+Ca²⁺) | Ca²⁺ release from ER, secretion, contraction, gene expression |\n| **RTK–Ras/MAPK** | RTK (e.g., EGFR) | **Ras** (GEF: SOS via Grb2) | (none — kinase cascade) | **Raf → MEK → ERK** | Proliferation, differentiation, gene expression |\n| **PI3K/Akt** | RTK (or GPCR) | PI3K (lipid kinase) | **PIP3** | **Akt (PKB) → mTOR** | Survival, growth, metabolism |\n\n### Mechanism\n\n1. **Ligand binding.** A hormone/growth factor binds its receptor, changing its conformation.\n2. **Switch activation.** GPCRs activate heterotrimeric G proteins (Gα exchanges GDP for GTP); RTKs dimerize and autophosphorylate tyrosines, recruiting Grb2/SOS or PI3K.\n3. **Second messenger / cascade.** Gαs → adenylyl cyclase → cAMP → PKA; Gαq → PLCβ → IP3 + DAG; Ras-GTP → Raf → MEK → ERK; PI3K → PIP3 → Akt.\n4. **Response.** Activated kinases phosphorylate target proteins/enzymes/transcription factors to change cell behavior.\n5. **Termination.** cAMP is degraded by phosphodiesterase; Gα hydrolyzes GTP (RGS proteins accelerate it); IP3/DAG are metabolized; Ras hydrolyzes GTP (GAPs); PIP3 is dephosphorylated by the PTEN phosphatase.\n\n### Energy and Directionality\n\nEvery step is an **irreversible, energy-consuming switch** that gives the pathway its direction and amplification. Heterotrimeric G proteins and Ras are **GTPases**: binding GTP turns them on, and **GTP hydrolysis** turns them off — so signaling is a one-way pulse, not an equilibrium. Adenylyl cyclase and phospholipase C use **ATP** and **PIP2** as substrates; kinases transfer phosphate from **ATP** to substrates, a covalent, directional modification reversed only by phosphatases. Amplification arises because one receptor activates many G proteins, one adenylyl cyclase makes many cAMP molecules, and each kinase activates many downstream kinases — a small signal becomes a large response.\n\n### Experimental Evidence\n\n- **Second-messenger discovery:** Sutherland showed adrenaline stimulates adenylyl cyclase to produce cAMP, and cAMP alone mimicked hormone action — the original second-messenger proof.\n- **Cholera toxin / pertussis toxin:** cholera toxin ADP-ribosylates Gαs, locking it GTP-bound and causing uncontrolled cAMP → the massive fluid secretion of cholera; this pinpointed G protein function.\n- **Oncogene genetics:** constitutively active **Ras** (GTPase-defective mutants) and overactive RTKs are found in many cancers, proving the Ras/MAPK pathway drives proliferation.\n- **Forskolin/phosphodiesterase inhibitors:** elevate cAMP and mimic Gαs activation; IP3 microinjection releases Ca²⁺ from internal stores (confirmed by Ca²⁺ imaging).\n- **PTEN knockout:** loss of the PIP3 phosphatase PTEN hyperactivates Akt and causes tumors — direct evidence for the PI3K/Akt survival axis.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- GPCR–cAMP: **Gαs → adenylyl cyclase → cAMP → PKA**; terminated by **phosphodiesterase**.\n- GPCR–IP3/DAG: **Gαq → PLCβ → IP3 (Ca²⁺ release) + DAG (PKC)**.\n- RTK–Ras/MAPK: **RTK → Grb2 → SOS → Ras-GTP → Raf → MEK → ERK**.\n- PI3K/Akt: **PI3K → PIP3 → Akt → mTOR**; **PTEN** dephosphorylates PIP3 (tumor suppressor).\n- Cholera toxin locks **Gαs** active; oncogenic **Ras** loses GTPase activity.\n- Kinase cascades **amplify**; GAPs/RGS/phosphatases **terminate**.",
+    "commonConfusions": "- **\"cAMP and IP3 do the same job\"** — cAMP activates **PKA**; IP3 releases **Ca²⁺** from the ER and DAG activates **PKC** — different second messengers, different targets.\n- **\"GPCRs and RTKs work identically\"** — GPCRs use **heterotrimeric G proteins**; RTKs **autophosphorylate tyrosines** and recruit adaptors (Grb2/SOS, PI3K).\n- **\"Ras and Gα are the same\"** — Both are GTPases, but Ras is a **monomeric small GTPase** (MAPK pathway); Gα is part of a **heterotrimer** (GPCR pathways).\n- **\"Phosphorylation only turns things on\"** — Kinase cascades also *inhibit* targets; phosphatases reverse phosphorylation, and some signaling requires dephosphorylation.\n- **\"Termination is passive\"** — Active termination (GTP hydrolysis, phosphodiesterase, PTEN, phosphatases) is essential; its loss causes disease.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThese are four different \"telephone lines\" into the cell's control room. A messenger (hormone) rings the bell (receptor) on the outside; inside, a relay protein flips on (grabs a GTP \"battery\"), which starts a chain of workers each shouting the message to ten more workers — that's why one bell-ring can move a whole factory. A special cleanup crew then hangs up the phone (hydrolysis/phosphatases) so the line isn't stuck on. (The analogy's limit: \"flip on\" is a specific chemical change — binding GTP or adding a phosphate — and getting stuck on is exactly what causes cancer and cholera.)",
+    "quickReview": "- Four modules: GPCR→Gαs→cAMP→PKA; GPCR→Gαq→IP3/DAG→Ca²⁺/PKC; RTK→Ras→Raf/MEK/ERK; RTK/PI3K→PIP3→Akt/mTOR.\n- GTPase switches (Gα, Ras) and ATP-driven kinase cascades give direction + amplification.\n- Terminated by phosphodiesterase, GAPs/RGS, and phosphatases (PTEN); dysregulation → disease.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"Signaling Molecules and Cellular Receptors.\" https://openstax.org/books/biology-2e/pages/9-1-signaling-molecules-and-cellular-receptors",
+        "url": "https://openstax.org/books/biology-2e/pages/9-1-signaling-molecules-and-cellular-receptors"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"Propagation of the Signal.\" https://openstax.org/books/biology-2e/pages/9-2-propagation-of-the-signal",
+        "url": "https://openstax.org/books/biology-2e/pages/9-2-propagation-of-the-signal"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"Response to the Signal.\" https://openstax.org/books/biology-2e/pages/9-3-response-to-the-signal",
+        "url": "https://openstax.org/books/biology-2e/pages/9-3-response-to-the-signal"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"Signaling in Single-Celled Organisms.\" https://openstax.org/books/biology-2e/pages/9-4-signaling-in-single-celled-organisms",
+        "url": "https://openstax.org/books/biology-2e/pages/9-4-signaling-in-single-celled-organisms"
+      },
+      {
+        "text": "NCI, \"biomarker\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/biomarker",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/biomarker"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/reference/signaling-pathway-map.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

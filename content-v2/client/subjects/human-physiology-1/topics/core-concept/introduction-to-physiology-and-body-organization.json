@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:human-physiology-1:core-concept:introduction-to-physiology-and-body-organization",
+  "slug": "introduction-to-physiology-and-body-organization",
+  "title": "Introduction to Physiology and Body Organization",
+  "subject": {
+    "id": "subject:human-physiology-1",
+    "slug": "human-physiology-1",
+    "title": "Human Physiology I"
+  },
+  "unit": {
+    "id": "unit:human-physiology-1:core-concept",
+    "slug": "core-concept",
+    "title": "Core Concept",
+    "order": 1
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "Physiology is the study of how living organisms function, in contrast to anatomy, which describes structure. The body is organized into increasing levels of complexity—chemical, cellular, tissue, organ, organ-system, and organism—and function at every level depends on structure. Cells live in a fluid internal environment (extracellular fluid) that is divided into interstitial fluid and plasma. Physiologic variables such as body temperature, blood glucose, and blood pressure are held within ranges by the coordinated action of many organ systems.",
+    "whyItMatters": "Blood tests sample **plasma**, so they reveal the composition of the ECF indirectly. When clinicians measure electrolytes, glucose, or hormones, they are reading a snapshot of the internal environment that all cells share. Fluid shifts between compartments matter clinically—for example, excess interstitial fluid is edema—but interpreting and managing such conditions requires formal clinical training; the educational point here is simply that the compartments and their exchange are the foundation of every fluid- and electrolyte-based assessment.",
+    "learningObjectives": "1. Define physiology and distinguish it from anatomy, including the principle of structure–function relationships.\n2. List the six levels of organization from chemical to organism and describe each with an example.\n3. Identify the major body-fluid compartments and describe how materials exchange between them.\n4. Explain what physiologic variables are and how organ systems integrate to keep them within limits.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|------|---------------------------|----------------|\n| Physiology | Study of how the body functions | The subject of this course |\n| Anatomy | Study of body structure | Provides the structure that function depends on |\n| Levels of organization | Chemical → cell → tissue → organ → system → organism | Frames how we study the body at any scale |\n| Internal environment | The ECF surrounding cells | Keeps cells in a stable, protected setting |\n| Extracellular fluid (ECF) | All fluid outside cells | The cell's true environment |\n| Intracellular fluid (ICF) | Fluid inside cells | Where most metabolic reactions occur |\n| Interstitial fluid | ECF between cells | The immediate fluid bathing cells |\n| Plasma | Fluid portion of blood | Transport medium and ECF reservoir |\n| Body-fluid compartments | ICF and ECF (plasma + interstitial) | Partition the body's water and solutes |\n| Exchange between compartments | Movement of substances across membranes/walls | Sustains nutrient delivery and waste removal |\n| Structure–function relationship | Form matches job | Explains why each tissue looks the way it does |\n| Physiologic variables | Measurable conditions (temperature, glucose, pressure) | What homeostasis regulates |\n| Integration across organ systems | Systems working together toward shared function | Explains coordinated whole-body responses |",
+    "collegeNotes": "### 1. Physiology versus Anatomy and the Structure–Function Relationship\nPhysiology asks \"how does it work?\", while anatomy asks \"where is it and what does it look like?\". The two are linked by the structure–function relationship: the physical form of a biological structure is suited to the job it performs. A heart has thick muscular walls because it must generate pressure to pump blood; lung alveoli are thin and vast in surface area because gas must diffuse rapidly. Understanding physiology therefore always returns to anatomy, and vice versa.\n\n### 2. Levels of Organization\nLife is organized in a hierarchy. At the **chemical level**, atoms combine into molecules such as proteins, lipids, and nucleic acids. Molecules assemble into **cells**, the smallest independently living units (e.g., a muscle cell). Groups of similar cells working together form **tissues** (muscle tissue). Different tissues combine into **organs** (the heart, built of muscle, connective, epithelial, and nervous tissue). Organs with a shared job form an **organ system** (the cardiovascular system). Finally, all systems together make the **organism**, the whole living human.\n\n### 3. The Internal Environment and Body-Fluid Compartments\nCells cannot survive direct contact with the outside world, so they live in an **internal environment** of **extracellular fluid (ECF)**. ECF is subdivided into **plasma** (the fluid portion of blood inside vessels) and **interstitial fluid** (the fluid bathing cells between them). Fluid inside cells is **intracellular fluid (ICF)**. These are the major **body-fluid compartments**. Materials move constantly among them: oxygen and nutrients leave plasma, cross into interstitial fluid, and enter cells; wastes such as carbon dioxide travel the reverse path. The walls that separate these compartments—capillary walls between plasma and interstitial fluid, and cell membranes between interstitial fluid and ICF—control what moves through them.",
+    "howItWorks": "1. Atoms form molecules (chemical level).\n2. Molecules form organelles and cells (cellular level).\n3. Similar cells form tissues (tissue level).\n4. Tissues combine into organs (organ level).\n5. Organs work as organ systems (organ-system level).\n6. Systems integrate into the organism.\n7. Cells are bathed in interstitial fluid, which exchanges with plasma and ICF to sustain life.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Physiology = function; anatomy = structure; the two are inseparable.\n- **High yield:** The six levels of organization are chemical, cellular, tissue, organ, organ-system, organism.\n- **High yield:** ECF = plasma + interstitial fluid; ICF is separate and larger in total volume.\n- **High yield:** Interstitial fluid is the immediate environment of most cells.\n- **High yield:** Exchange between compartments is driven by gradients and limited by membrane permeability.\n- Structure determines what a tissue or organ can do.\n- Physiologic variables (temperature, glucose, blood pressure) are regulated across systems.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|----------------|------|------------|\n| Physiology | Anatomy | Physiology is function; anatomy is structure |\n| Interstitial fluid | Plasma | Interstitial fluid is outside vessels; plasma is inside vessels |\n| ECF | ICF | ECF is outside cells; ICF is inside cells |\n| Organ | Organ system | An organ is one structure; a system is cooperating organs |\n| Internal environment | External environment | Internal environment is the ECF, not the outside world |",
+    "memoryAids": "\"**C**harles **C**an **T**ell **O**rgan **S**ystems **O**bviously\" — **C**hemical, **C**ellular, **T**issue, **O**rgan, Organ-**S**ystem, **O**rganism (six levels). For fluids: \"**P**lumbing **I**s **I**nside\" — **P**lasma and **I**nterstitial fluid are the ECF, while **I**ntracellular fluid is **I**nside cells.",
+    "eli10": "Think of the body as a city. Anatomy is the map of the city—where the roads, buildings, and pipes are. Physiology is what the city does all day: how traffic flows, how power reaches buildings, how garbage is collected. The buildings' shapes and locations (structure) determine what they can do (function), just as a round building makes a poor runway but a fine stadium. The \"internal environment\" is like the indoor climate of every building—the water and air each worker (cell) actually touches. Where this comparison stops being exact: a city can be redesigned freely, but the body's structure and function evolved together and cannot be separated; you cannot change structure without usually changing function.\n\n### Simple Example\nA nerve cell has a long, thin extension (an axon) covered in insulation. That elongated shape exists so an electrical signal can travel a long distance quickly. If the same cell were a sphere, the signal could not go anywhere—structure (the axon's shape) is exactly what makes function (fast signaling) possible.",
+    "quickReview": "### Topic Recap\n\nPhysiology explains how the body functions, grounded in the anatomy that makes function possible. The body is built from six nested levels of organization, and its cells live in an internal environment (the extracellular fluid) divided into plasma and interstitial fluid, with intracellular fluid inside cells. Exchange among these compartments delivers nutrients and removes wastes. Physiologic variables are held within ranges by the integrated activity of organ systems—the theme that the next topic, homeostasis, develops in detail.\n\n### Knowledge Check\n\n1. Which term refers to the study of how the body works?\n2. Name the six levels of organization in order.\n3. What two subdivisions make up the extracellular fluid?\n4. Which fluid compartment is the immediate environment bathing most cells?\n5. State the structure–function relationship in one sentence.\n\n### Answers and Rationales\n\n1. **Physiology.** Anatomy describes structure; physiology describes function.\n2. **Chemical, cellular, tissue, organ, organ-system, organism.** This is the standard hierarchy from smallest to whole body.\n3. **Plasma and interstitial fluid.** ECF is everything outside cells, split into blood plasma and the fluid between cells.\n4. **Interstitial fluid.** Most cells are surrounded by interstitial fluid, not directly by plasma.\n5. **The form of a structure is suited to the job it performs.** This is why tissue shape predicts tissue function.",
+    "workedExamples": "1. **Oxygen delivery:** Oxygen diffuses from lung air into **plasma** (down its concentration gradient).\n2. **Plasma → interstitial fluid:** Blood reaches capillaries; oxygen crosses the thin capillary wall into **interstitial fluid**.\n3. **Interstitial fluid → intracellular fluid:** Oxygen crosses the cell membrane into the **ICF**, where mitochondria use it to make ATP.\n4. **Waste removal (reverse flow):** Carbon dioxide produced in cells moves ICF → interstitial fluid → plasma → lungs → outside.\n5. **Why it matters:** Each step is driven by a gradient and limited by the permeability of the separating membrane. If any exchange surface fails (e.g., fluid accumulates in the interstitial space), cells cannot get what they need or remove what they produce, and function declines.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "introduction-to-physiology-and-body-organization",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "01-introduction-to-physiology-and-body-organization",
+      "kind": "source_file_stem",
+      "source_id": "need-review-human-physiology-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-human-physiology-i",
+    "sourceFile": "human-physiology-i-study-notes/docs/human-physiology-i/01-introduction-to-physiology-and-body-organization.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

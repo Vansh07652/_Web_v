@@ -1,0 +1,41 @@
+{
+  "id": "genetics-linkage-and-genetic-mapping-0005",
+  "subject": "genetics",
+  "lesson": "linkage-and-genetic-mapping",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation A three point test cross between a triply heterozygous female (*a b c* / + + +) and a homozygous recessive male yields 1000 progeny: 410 *a b c*, 410 wild type, 30 *a*, 30 *b c*, 50 *a b*, 50 *c*, 10 *a c*, 10 *b*. What is the map distance between the outside genes *a* and *c*?",
+  "options": [
+    {
+      "id": "a",
+      "text": "16 cM"
+    },
+    {
+      "id": "b",
+      "text": "18 cM"
+    },
+    {
+      "id": "c",
+      "text": "12 cM"
+    },
+    {
+      "id": "d",
+      "text": "20 cM"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "The distance between the outside genes includes every crossover event between them: the 60 single crossovers in the *a*-*b* interval plus the 100 single crossovers in the *b*-*c* interval plus both exchanges in each double crossover, so the 20 double crossover progeny are counted twice: (60 + 100 + 2 x 20)/1000 x 100 = 200/1000 x 100 = 20 cM. A omits the double crossovers entirely, (60 + 100)/1000 x 100 = 16 cM. B counts each double crossover once, (60 + 100 + 20)/1000 x 100 = 18 cM, and C reports only the *b*-*c* interval, (100 + 20)/1000 x 100 = 12 cM.",
+  "difficulty": "unknown",
+  "tags": [
+    "double",
+    "crossover",
+    "correction",
+    "map",
+    "distance"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-6f4c5593d895eb88",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,41 @@
+{
+  "id": "physics-2-electromagnetic-induction-0003",
+  "subject": "physics-2",
+  "lesson": "electromagnetic-induction",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For lenz law and systematic direction determination, use $Phi_B = B A$ in a magnetic flux model. The first quantity is 2.10 T and the second is 3.00 m^2. What is the magnetic flux?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$3.15\\ \\text{Wb}$"
+    },
+    {
+      "id": "b",
+      "text": "$12.60\\ \\text{Wb}$"
+    },
+    {
+      "id": "c",
+      "text": "$7.88\\ \\text{Wb}$"
+    },
+    {
+      "id": "d",
+      "text": "$6.30\\ \\text{Wb}$"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Using $Phi_B = B A$ gives 2.10 T times 3.00 m^2 = $6.30\\ \\text{Wb}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to Wb, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "lenz",
+    "law",
+    "systematic",
+    "direction",
+    "determination"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ebd801aa686adb92",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cytoskeleton-motility:cell-migration-cycle",
+  "slug": "cell-migration-cycle",
+  "title": "The Cell Migration Cycle",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cytoskeleton-motility",
+    "slug": "cytoskeleton-motility",
+    "title": "Cytoskeleton Motility",
+    "order": 5
+  },
+  "order": 16,
+  "status": "final",
+  "sections": {
+    "overview": "Cell migration is a cyclic, coordinated process in which a cell **protrudes** at its front, **adheres** to the substrate, **contracts to pull its body forward (traction)**, and finally **releases** its rear attachments — the four-step cycle of **protrusion → adhesion → traction → release**. Each step uses a distinct piece of the actin machinery: Arp2/3-branched and formin-driven polymerization pushes the leading edge forward, integrin-based focal adhesions grip the substrate, actomyosin (myosin II) contraction generates the pulling force, and adhesion disassembly frees the rear. Rho-family GTPases (Rac, Cdc42, Rho) act as a spatial \"address system\" that polarizes these activities into a front and a back.",
+    "whyItMatters": "Directed cell migration builds the embryo (gastrulation, neural crest, axon guidance), defends the body (neutrophil and macrophage chemotaxis to infection), and repairs tissue (fibroblast and epithelial migration into wounds). Its misregulation drives **cancer invasion and metastasis**, chronic inflammation, and fibrosis. Understanding the cycle explains how chemotactic signals (e.g., fMLP, chemokines) steer immune cells and why targeting Rac/Rho, integrins, or myosin II can block both wound closure and tumor spread.",
+    "learningObjectives": "- List the four steps of the cell migration cycle in order.\n- Explain how actin polymerization and myosin contraction generate the forces for each step.\n- Describe how Rho-family GTPases establish front–rear cell polarity.\n- Relate the migration cycle to wound healing, immunity, and metastasis.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nCell migration is a cyclic, coordinated process in which a cell **protrudes** at its front, **adheres** to the substrate, **contracts to pull its body forward (traction)**, and finally **releases** its rear attachments — the four-step cycle of **protrusion → adhesion → traction → release**. Each step uses a distinct piece of the actin machinery: Arp2/3-branched and formin-driven polymerization pushes the leading edge forward, integrin-based focal adhesions grip the substrate, actomyosin (myosin II) contraction generates the pulling force, and adhesion disassembly frees the rear. Rho-family GTPases (Rac, Cdc42, Rho) act as a spatial \"address system\" that polarizes these activities into a front and a back.\n\n### Key Components\n\n- **Leading edge:** the front, containing lamellipodia (branched actin) and filopodia (bundled actin).\n- **Rac / Cdc42:** GTPases active at the front; Rac → lamellipodia (via WAVE/Arp2/3), Cdc42 → filopodia (via formins) and polarity.\n- **RhoA:** GTPase active at the rear/sides; drives actomyosin contraction and focal-adhesion maturation.\n- **Focal adhesions:** integrin-based attachments (see focal-adhesion note) that anchor the leading edge.\n- **Myosin II + actin stress fibers:** the contractile apparatus that pulls the cell body forward.\n- **Adhesion-disassembly machinery:** FAK turnover, calpain proteolysis, and microtubule targeting that release rear adhesions.\n\n### Mechanism / How It Works\n\n1. **Protrusion:** external cues activate **Rac** and **Cdc42** at the front, driving Arp2/3-branched actin (lamellipodium) and formin-elongated, fascin-bundled actin (filopodia). Polymerization at barbed ends pushes the membrane forward.\n2. **Adhesion:** new **focal adhesions** form just behind the leading edge, engaging the actin network to the matrix through integrins, so the protrusion is \"committed\" to the substrate.\n3. **Traction (translocation):** **RhoA → ROCK → myosin II** contracts actin stress fibers that span the cell, pulling the cell body and nucleus forward toward the new adhesions while releasing tension at the rear. The adhesions act as a clutch so contraction moves the cell rather than just sliding actin backward.\n4. **Release (de-adhesion):** adhesions at the rear are disassembled — via FAK-mediated turnover, calpain cleavage, and microtubule-directed delivery of disassembly factors — so the cell tail can detach and retract. The cycle repeats, advancing the cell stepwise.\n\n### Energy and Directionality\n\nMigration is powered by two coupled ATP-driven processes: **actin polymerization** (ATP–actin at the front) and **actomyosin contraction** (myosin II ATPase at the rear/body). Directionality is imposed by **spatial Rho-GTPase asymmetry** — Rac/Cdc42 at the front vs. RhoA at the rear — which is itself maintained by feedback loops (e.g., PI3K/PIP3 at the front, PTEN at the rear) and external gradients. Net movement results from the cycle running in a polarized, front-to-back sequence; without polarity, the cell \"ruffles\" in place.\n\n### Experimental Evidence / Technique\n\n- **Time-lapse phase-contrast / DIC microscopy:** directly records the four-step cycle in migrating fibroblasts and keratocytes.\n- **Fluorescent speckle microscopy (FSM):** reveals actin retrograde flow and the clutch behavior at adhesions during traction.\n- **Traction-force microscopy:** maps forces under the cell, showing high stress at the front and release at the rear.\n- **Rho/Rac/Cdc42 mutants:** constitutively active or dominant-negative GTPases selectively abolish protrusion (Rac/Cdc42) or contraction/rear release (Rho), assigning each GTPase to a step.\n- **Wound-healing / Boyden-chamber assays:** quantify migration and show dependence on each cycle component.",
+    "howItWorks": "1. **Protrusion:** external cues activate **Rac** and **Cdc42** at the front, driving Arp2/3-branched actin (lamellipodium) and formin-elongated, fascin-bundled actin (filopodia). Polymerization at barbed ends pushes the membrane forward.\n2. **Adhesion:** new **focal adhesions** form just behind the leading edge, engaging the actin network to the matrix through integrins, so the protrusion is \"committed\" to the substrate.\n3. **Traction (translocation):** **RhoA → ROCK → myosin II** contracts actin stress fibers that span the cell, pulling the cell body and nucleus forward toward the new adhesions while releasing tension at the rear. The adhesions act as a clutch so contraction moves the cell rather than just sliding actin backward.\n4. **Release (de-adhesion):** adhesions at the rear are disassembled — via FAK-mediated turnover, calpain cleavage, and microtubule-directed delivery of disassembly factors — so the cell tail can detach and retract. The cycle repeats, advancing the cell stepwise.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Migration cycle: **protrusion → adhesion → traction → release** (repeat).\n- **Protrusion** = Rac/Cdc42 → Arp2/3 + formin actin polymerization.\n- **Adhesion** = integrin-based focal adhesions at the front.\n- **Traction** = RhoA → ROCK → myosin II contraction on stress fibers.\n- **Release** = rear focal-adhesion disassembly (FAK, calpain, microtubules).\n- Front = **Rac/Cdc42 + PI3K/PIP3**; rear = **RhoA + PTEN**.\n- Forces: polymerization (push) + actomyosin contraction (pull), both ATP-driven.\n- Defects/dysregulation → developmental errors, impaired immunity, cancer metastasis.",
+    "commonConfusions": "- **\"Cells move only by pushing forward.\"** — Protrusion alone isn't enough; the cell must **adhere, contract, and release** the rear to actually translocate.\n- **\"Rho is at the front.\"** — **RhoA is at the rear/sides** (contraction); **Rac and Cdc42 are at the front** (protrusion).\n- **\"Adhesions are static anchors that never let go.\"** — Rear adhesions must **disassemble** for movement; a cell stuck at the rear can't migrate.\n- **\"The order of steps is flexible.\"** — The cycle is sequential and each step is a prerequisite for productive movement.\n- **\"Myosin contraction is only in muscle.\"** — Non-muscle myosin II powers the traction step of crawling in every migrating cell.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine an inchworm crossing a leaf. First it stretches its head forward (protrusion). Then it plants its front feet firmly (adhesion). Next it contracts its body to drag its back end up to its front feet (traction). Finally it lifts its old back feet off the leaf (release) so it can reach forward again. A cell does exactly this — reach, grab, pull, let go — over and over. A little \"GPS\" inside tells it which end is the head (Rac/Cdc42) and which is the tail (Rho). (The analogy omits that the cell's \"feet\" are molecular adhesions and that its \"muscles\" are contracting actin cables, and that the whole thing is steered by external chemical gradients.)",
+    "quickReview": "- Four steps: protrusion, adhesion, traction, release — repeated cyclically.\n- Front (Rac/Cdc42): polymerization pushes; rear (RhoA): contraction pulls; adhesions: grip.\n- Adhesion disassembly at the rear is essential (FAK, calpain, microtubules).\n- ATP drives both actin polymerization and myosin II contraction.\n- Steered by chemotactic gradients and front–rear polarity (PIP3/PTEN).\n- Underlies development, immunity, wound healing, and metastasis.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, et al. *Molecular Biology of the Cell.* 4th ed. \"The Cytoskeleton and Cell Behavior.\" https://www.ncbi.nlm.nih.gov/books/NBK26930/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26930/"
+      },
+      {
+        "text": "Cooper GM. *The Cell: A Molecular Approach.* 2nd ed. \"Actin, Myosin, and Cell Movement.\" https://www.ncbi.nlm.nih.gov/books/NBK9961/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9961/"
+      },
+      {
+        "text": "Cooper GM. *The Cell: A Molecular Approach.* 2nd ed. Chapter 11: \"The Cytoskeleton and Cell Movement.\" https://www.ncbi.nlm.nih.gov/books/NBK9893/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9893/"
+      },
+      {
+        "text": "OpenStax. *Biology 2e.* Chapter 4.5: \"The Cytoskeleton.\" https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+        "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "cell-migration-cycle",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "16-cell-migration-cycle",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:f9b545158cd95662"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:f9b545158cd95662"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:f9b545158cd95662"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:f9b545158cd95662"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/05-cytoskeleton-motility/16-cell-migration-cycle.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# The Cell Migration Cycle\n\n## Learning Goals\n- List the four steps of the cell migration cycle in order.\n- Explain how actin polymerization and myosin contraction generate the forces for each step.\n- Describe how Rho-family GTPases establish front–rear cell polarity.\n- Relate the migration cycle to wound healing, immunity, and metastasis.\n\n## Core Concept\nCell migration is a cyclic, coordinated process in which a cell **protrudes** at its front, **adheres** to the substrate, **contracts to pull its body forward (traction)**, and finally **releases** its rear attachments — the four-step cycle of **protrusion → adhesion → traction → release**. Each step uses a distinct piece of the actin machinery: Arp2/3-branched and formin-driven polymerization pushes the leading edge forward, integrin-based focal adhesions grip the substrate, actomyosin (myosin II) contraction generates the pulling force, and adhesion disassembly frees the rear. Rho-family GTPases (Rac, Cdc42, Rho) act as a spatial \"address system\" that polarizes these activities into a front and a back.\n\n## Key Components\n- **Leading edge:** the front, containing lamellipodia (branched actin) and filopodia (bundled actin).\n- **Rac / Cdc42:** GTPases active at the front; Rac → lamellipodia (via WAVE/Arp2/3), Cdc42 → filopodia (via formins) and polarity.\n- **RhoA:** GTPase active at the rear/sides; drives actomyosin contraction and focal-adhesion maturation.\n- **Focal adhesions:** integrin-based attachments (see focal-adhesion note) that anchor the leading edge.\n- **Myosin II + actin stress fibers:** the contractile apparatus that pulls the cell body forward.\n- **Adhesion-disassembly machinery:** FAK turnover, calpain proteolysis, and microtubule targeting that release rear adhesions.\n\n## Mechanism / How It Works\n1. **Protrusion:** external cues activate **Rac** and **Cdc42** at the front, driving Arp2/3-branched actin (lamellipodium) and formin-elongated, fascin-bundled actin (filopodia). Polymerization at barbed ends pushes the membrane forward.\n2. **Adhesion:** new **focal adhesions** form just behind the leading edge, engaging the actin network to the matrix through integrins, so the protrusion is \"committed\" to the substrate.\n3. **Traction (translocation):** **RhoA → ROCK → myosin II** contracts actin stress fibers that span the cell, pulling the cell body and nucleus forward toward the new adhesions while releasing tension at the rear. The adhesions act as a clutch so contraction moves the cell rather than just sliding actin backward.\n4. **Release (de-adhesion):** adhesions at the rear are disassembled — via FAK-mediated turnover, calpain cleavage, and microtubule-directed delivery of disassembly factors — so the cell tail can detach and retract. The cycle repeats, advancing the cell stepwise.\n\n## Energy and Directionality\nMigration is powered by two coupled ATP-driven processes: **actin polymerization** (ATP–actin at the front) and **actomyosin contraction** (myosin II ATPase at the rear/body). Directionality is imposed by **spatial Rho-GTPase asymmetry** — Rac/Cdc42 at the front vs. RhoA at the rear — which is itself maintained by feedback loops (e.g., PI3K/PIP3 at the front, PTEN at the rear) and external gradients. Net movement results from the cycle running in a polarized, front-to-back sequence; without polarity, the cell \"ruffles\" in place.\n\n## Experimental Evidence / Technique\n- **Time-lapse phase-contrast / DIC microscopy:** directly records the four-step cycle in migrating fibroblasts and keratocytes.\n- **Fluorescent speckle microscopy (FSM):** reveals actin retrograde flow and the clutch behavior at adhesions during traction.\n- **Traction-force microscopy:** maps forces under the cell, showing high stress at the front and release at the rear.\n- **Rho/Rac/Cdc42 mutants:** constitutively active or dominant-negative GTPases selectively abolish protrusion (Rac/Cdc42) or contraction/rear release (Rho), assigning each GTPase to a step.\n- **Wound-healing / Boyden-chamber assays:** quantify migration and show dependence on each cycle component.\n\n## Why It Matters\nDirected cell migration builds the embryo (gastrulation, neural crest, axon guidance), defends the body (neutrophil and macrophage chemotaxis to infection), and repairs tissue (fibroblast and epithelial migration into wounds). Its misregulation drives **cancer invasion and metastasis**, chronic inflammation, and fibrosis. Understanding the cycle explains how chemotactic signals (e.g., fMLP, chemokines) steer immune cells and why targeting Rac/Rho, integrins, or myosin II can block both wound closure and tumor spread.\n\n## High-Yield Facts\n- Migration cycle: **protrusion → adhesion → traction → release** (repeat).\n- **Protrusion** = Rac/Cdc42 → Arp2/3 + formin actin polymerization.\n- **Adhesion** = integrin-based focal adhesions at the front.\n- **Traction** = RhoA → ROCK → myosin II contraction on stress fibers.\n- **Release** = rear focal-adhesion disassembly (FAK, calpain, microtubules).\n- Front = **Rac/Cdc42 + PI3K/PIP3**; rear = **RhoA + PTEN**.\n- Forces: polymerization (push) + actomyosin contraction (pull), both ATP-driven.\n- Defects/dysregulation → developmental errors, impaired immunity, cancer metastasis.\n\n## Eli Explains\nImagine an inchworm crossing a leaf. First it stretches its head forward (protrusion). Then it plants its front feet firmly (adhesion). Next it contracts its body to drag its back end up to its front feet (traction). Finally it lifts its old back feet off the leaf (release) so it can reach forward again. A cell does exactly this — reach, grab, pull, let go — over and over. A little \"GPS\" inside tells it which end is the head (Rac/Cdc42) and which is the tail (Rho). (The analogy omits that the cell's \"feet\" are molecular adhesions and that its \"muscles\" are contracting actin cables, and that the whole thing is steered by external chemical gradients.)\n\n## Common Confusions\n- **\"Cells move only by pushing forward.\"** — Protrusion alone isn't enough; the cell must **adhere, contract, and release** the rear to actually translocate.\n- **\"Rho is at the front.\"** — **RhoA is at the rear/sides** (contraction); **Rac and Cdc42 are at the front** (protrusion).\n- **\"Adhesions are static anchors that never let go.\"** — Rear adhesions must **disassemble** for movement; a cell stuck at the rear can't migrate.\n- **\"The order of steps is flexible.\"** — The cycle is sequential and each step is a prerequisite for productive movement.\n- **\"Myosin contraction is only in muscle.\"** — Non-muscle myosin II powers the traction step of crawling in every migrating cell.\n\n## Quick Review\n- Four steps: protrusion, adhesion, traction, release — repeated cyclically.\n- Front (Rac/Cdc42): polymerization pushes; rear (RhoA): contraction pulls; adhesions: grip.\n- Adhesion disassembly at the rear is essential (FAK, calpain, microtubules).\n- ATP drives both actin polymerization and myosin II contraction.\n- Steered by chemotactic gradients and front–rear polarity (PIP3/PTEN).\n- Underlies development, immunity, wound healing, and metastasis.\n\n## Sources\n- Alberts B, et al. *Molecular Biology of the Cell.* 4th ed. \"The Cytoskeleton and Cell Behavior.\" https://www.ncbi.nlm.nih.gov/books/NBK26930/\n- Cooper GM. *The Cell: A Molecular Approach.* 2nd ed. \"Actin, Myosin, and Cell Movement.\" https://www.ncbi.nlm.nih.gov/books/NBK9961/\n- Cooper GM. *The Cell: A Molecular Approach.* 2nd ed. Chapter 11: \"The Cytoskeleton and Cell Movement.\" https://www.ncbi.nlm.nih.gov/books/NBK9893/\n- OpenStax. *Biology 2e.* Chapter 4.5: \"The Cytoskeleton.\" https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton\n"
+}

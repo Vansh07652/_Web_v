@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-acids-bases-and-ph-q12",
+  "subject": "chemistry-2",
+  "lesson": "acids-bases-and-ph",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In a model of extracellular fluid, the bicarbonate-to-dissolved-CO2 ratio falls from 20:1 to 10:1 while the pKa remains 6.1. What would happen to the pH?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It rises from about 7.4 to about 7.7"
+    },
+    {
+      "id": "b",
+      "text": "It stays near 7.4 because the pKa did not change"
+    },
+    {
+      "id": "c",
+      "text": "It falls from about 7.4 to about 7.1"
+    },
+    {
+      "id": "d",
+      "text": "It falls from about 7.4 to about 6.4"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Using pH = pKa + log([HCO3-]/[CO2]), the 20:1 ratio gives 6.1 + 1.3 = 7.4, while the 10:1 ratio gives 6.1 + 1 = 7.1. Halving the ratio lowers pH by log 2, about 0.3 unit, not a full unit, because the relationship is logarithmic. Option D would require a 2:1 ratio and option A would require the ratio to increase rather than fall.\n\nELI-10: In the Henderson–Hasselbalch equation only the ratio of the two buffer members, not their absolute amounts, sets the pH once the pKa is fixed. Because the ratio enters as a logarithm, cutting it in half subtracts log 2, which is about 0.3 unit. That is why a pH of 7.1 can arise either from losing bicarbonate or from retaining CO2: both change the same ratio, and 0.3 unit is already a large clinical move.",
+  "difficulty": "hard",
+  "tags": [
+    "Henderson–Hasselbalch equation",
+    "buffer ratio and pH",
+    "logarithmic reasoning"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-279",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:clinical-mnemonics:emergency-trauma:fast",
+  "slug": "fast",
+  "title": "FAST",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics"
+  },
+  "unit": {
+    "id": "unit:clinical-mnemonics:emergency-trauma",
+    "slug": "emergency-trauma",
+    "title": "Emergency & Trauma",
+    "order": 1
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "A rapid public/community recognition tool for the most common signs of stroke — Face drooping, Arm weakness, Speech difficulty, and Time to call emergency services — to get patients to definitive stroke care as fast as possible.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- **F** — Face drooping\n- **A** — Arm weakness\n- **S** — Speech difficulty\n- **T** — Time to call emergency services",
+    "collegeNotes": "**Status: current, with caveats.** The source library flags this one as still taught but qualified — read the safety notes on each component before relying on it.\n\nA rapid public/community recognition tool for the most common signs of stroke — Face drooping, Arm weakness, Speech difficulty, and Time to call emergency services — to get patients to definitive stroke care as fast as possible.\n\n### F — Face drooping\n\nContralateral facial weakness\n\nFacial droop from damage to the facial motor pathway, most often the corticobulbar fibers to the facial nerve nucleus. In a typical MCA stroke the lower face is most affected, with relative sparing of the forehead.\n\n**Physiology.** The forehead receives motor input from both brain hemispheres, so a one-sided stroke often spares it; the lower face receives mainly crossed input, so it droops — helping distinguish central (stroke) from peripheral (Bell's palsy) causes.\n\n**Safety.** Facial droop with other stroke signs needs immediate stroke-pathway activation; do not assume Bell's palsy without excluding stroke.\n\n### A — Arm weakness\n\nContralateral motor deficit\n\nArm or leg weakness from damage to the motor cortex or corticospinal tract on the opposite side. The classic test is pronator drift (the weak arm drifts downward and pronates). Weakness ranges from subtle drift to hemiplegia.\n\n**Physiology.** The corticospinal tract crosses in the lower medulla, so the left brain controls the right arm and vice versa; interruption anywhere along the tract causes contralateral weakness.\n\n**Safety.** Sudden, painless one-sided weakness is a stroke emergency — never dismiss it as 'just a pinched nerve.'\n\n### S — Speech difficulty\n\nDysarthria or aphasia\n\nSpeech difficulty includes dysarthria (slurred speech from weakness/incoordination of speech muscles) and aphasia (a language disorder from damage to left-hemisphere language areas). Aphasia is a cortical sign suggesting large-vessel or left-hemisphere stroke.\n\n**Physiology.** Language is processed mainly in the left hemisphere (Broca's area for expression, Wernicke's area for comprehension); dysarthria results from damage to motor pathways controlling the tongue, lips, and palate.\n\n**Safety.** Sudden confusion with speech difficulty can be mistaken for intoxication or dementia — always consider stroke and check last-known-well time.\n\n### T — Time to call emergency services\n\nTime is brain / last-known-well\n\nRoughly 1.9 million neurons may be lost per minute during a large-vessel stroke. Time-sensitive treatments include IV thrombolysis within ~4.5 hours of last-known-well and mechanical thrombectomy up to ~24 hours in selected patients. Last-known-well time is the single most important fact for treatment decisions.\n\n**Physiology.** The ischemic penumbra (threatened but salvageable brain) shrinks each minute; faster reperfusion saves more neurons and improves outcomes.\n\n**Safety.** Hold aspirin and oral intake until imaging excludes hemorrhage and dysphagia is assessed; activate the stroke pathway first.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "- F = Face drooping\n- A = Arm weakness\n- S = Speech difficulty\n- T = Time to call emergency services",
+    "eli10": "FAST is a quick three-check test (Face, Arms, Speech) plus a reminder to act fast (Time). During a stroke, brain cells die every minute, so spotting the signs quickly and calling for help saves brain.\n\n**F — Face drooping.** Ask the person to smile. If one side of the mouth doesn't lift and stays droopy, that's a warning sign — the brain's 'power cord' to one side of the face is cut, so those muscles go limp.\n\n**A — Arm weakness.** Ask the person to hold both arms out, palms up, eyes closed. If one arm drifts down or won't lift, that's a warning sign — one side of the brain controls the opposite arm, so a stroke on one side weakens the other arm.\n\n**S — Speech difficulty.** Ask the person to repeat a simple sentence. If the words come out slurred, mixed up, or they can't find the right words, that's a warning sign — a stroke can jam the brain's 'speech machinery.'\n\n**T — Time to call emergency services.** If you see any one of these signs, don't wait — call for help right away and note when the symptoms started. Every minute a stroke goes untreated, more brain cells die, so faster help saves more brain.",
+    "quickReview": "- F = Face drooping — Contralateral facial weakness\n- A = Arm weakness — Contralateral motor deficit\n- S = Speech difficulty — Dysarthria or aphasia\n- T = Time to call emergency services — Time is brain / last-known-well",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Stroke Warning Signs (FAST/BE-FAST) — American Stroke Association / American Heart Association",
+        "url": "https://www.stroke.org/en/about-stroke/stroke-symptoms"
+      },
+      {
+        "text": "Diagnostic and Statistical Manual of Mental Disorders (DSM-5-TR) — American Psychiatric Association — 2022",
+        "url": "https://www.psychiatry.org/psychiatrists/practice/dsm"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "fast",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-nursing-mnemonics",
+    "sourceFile": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json",
+    "sourceStatus": "CURRENT_WITH_CAVEATS",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-clinical-mnemonics"
+  },
+  "sourceSnapshotMarkdown": "{\n  \"mnemonic\": \"FAST\",\n  \"category\": \"Emergency & Trauma\",\n  \"purpose\": \"A rapid public/community recognition tool for the most common signs of stroke — Face drooping, Arm weakness, Speech difficulty, and Time to call emergency services — to get patients to definitive stroke care as fast as possible.\",\n  \"eli10_purpose\": \"FAST is a quick three-check test (Face, Arms, Speech) plus a reminder to act fast (Time). During a stroke, brain cells die every minute, so spotting the signs quickly and calling for help saves brain.\",\n  \"status\": \"CURRENT_WITH_CAVEATS\",\n  \"caveats\": \"FAST emphasizes anterior-circulation (middle cerebral artery) signs and can miss posterior-circulation (brainstem/cerebellar) strokes and some large-vessel occlusions. BE-FAST adds Balance and Eyes to improve sensitivity. Do not confuse the stroke FAST with the trauma ultrasound FAST (Focused Assessment with Sonography for Trauma).\",\n  \"components\": [\n    {\n      \"symbol\": \"F\",\n      \"term\": \"Face drooping\",\n      \"association\": \"Contralateral facial weakness\",\n      \"eli10\": \"Ask the person to smile. If one side of the mouth doesn't lift and stays droopy, that's a warning sign — the brain's 'power cord' to one side of the face is cut, so those muscles go limp.\",\n      \"clinical_explanation\": \"Facial droop from damage to the facial motor pathway, most often the corticobulbar fibers to the facial nerve nucleus. In a typical MCA stroke the lower face is most affected, with relative sparing of the forehead.\",\n      \"physiology\": \"The forehead receives motor input from both brain hemispheres, so a one-sided stroke often spares it; the lower face receives mainly crossed input, so it droops — helping distinguish central (stroke) from peripheral (Bell's palsy) causes.\",\n      \"safety_note\": \"Facial droop with other stroke signs needs immediate stroke-pathway activation; do not assume Bell's palsy without excluding stroke.\"\n    },\n    {\n      \"symbol\": \"A\",\n      \"term\": \"Arm weakness\",\n      \"association\": \"Contralateral motor deficit\",\n      \"eli10\": \"Ask the person to hold both arms out, palms up, eyes closed. If one arm drifts down or won't lift, that's a warning sign — one side of the brain controls the opposite arm, so a stroke on one side weakens the other arm.\",\n      \"clinical_explanation\": \"Arm or leg weakness from damage to the motor cortex or corticospinal tract on the opposite side. The classic test is pronator drift (the weak arm drifts downward and pronates). Weakness ranges from subtle drift to hemiplegia.\",\n      \"physiology\": \"The corticospinal tract crosses in the lower medulla, so the left brain controls the right arm and vice versa; interruption anywhere along the tract causes contralateral weakness.\",\n      \"safety_note\": \"Sudden, painless one-sided weakness is a stroke emergency — never dismiss it as 'just a pinched nerve.'\"\n    },\n    {\n      \"symbol\": \"S\",\n      \"term\": \"Speech difficulty\",\n      \"association\": \"Dysarthria or aphasia\",\n      \"eli10\": \"Ask the person to repeat a simple sentence. If the words come out slurred, mixed up, or they can't find the right words, that's a warning sign — a stroke can jam the brain's 'speech machinery.'\",\n      \"clinical_explanation\": \"Speech difficulty includes dysarthria (slurred speech from weakness/incoordination of speech muscles) and aphasia (a language disorder from damage to left-hemisphere language areas). Aphasia is a cortical sign suggesting large-vessel or left-hemisphere stroke.\",\n      \"physiology\": \"Language is processed mainly in the left hemisphere (Broca's area for expression, Wernicke's area for comprehension); dysarthria results from damage to motor pathways controlling the tongue, lips, and palate.\",\n      \"safety_note\": \"Sudden confusion with speech difficulty can be mistaken for intoxication or dementia — always consider stroke and check last-known-well time.\"\n    },\n    {\n      \"symbol\": \"T\",\n      \"term\": \"Time to call emergency services\",\n      \"association\": \"Time is brain / last-known-well\",\n      \"eli10\": \"If you see any one of these signs, don't wait — call for help right away and note when the symptoms started. Every minute a stroke goes untreated, more brain cells die, so faster help saves more brain.\",\n      \"clinical_explanation\": \"Roughly 1.9 million neurons may be lost per minute during a large-vessel stroke. Time-sensitive treatments include IV thrombolysis within ~4.5 hours of last-known-well and mechanical thrombectomy up to ~24 hours in selected patients. Last-known-well time is the single most important fact for treatment decisions.\",\n      \"physiology\": \"The ischemic penumbra (threatened but salvageable brain) shrinks each minute; faster reperfusion saves more neurons and improves outcomes.\",\n      \"safety_note\": \"Hold aspirin and oral intake until imaging excludes hemorrhage and dysphagia is assessed; activate the stroke pathway first.\"\n    }\n  ]\n}"
+}

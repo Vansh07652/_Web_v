@@ -1,0 +1,134 @@
+---
+title: "Gas Exchange"
+subject: "Science"
+book: "Anatomy and Physiology 2e"
+chapter: "22: The Respiratory System"
+topic_number: "4"
+source: "anatomy-and-physiology-2e.md"
+tags:
+  - "gas-exchange"
+  - "science"
+status: "complete"
+---
+
+# Gas Exchange
+
+> **Book:** [Anatomy and Physiology 2e](../../README.md)  
+> **Chapter:** [Chapter 22: The Respiratory System](../README.md)  
+> **Topic:** 4  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Ventilation moves air into the alveoli, but the actual business of respiration happens by **diffusion**: oxygen moves from the alveolar air into the blood, and carbon dioxide moves from the blood into the alveolar air. This topic explains why gases move the way they do. Two physical laws set the stage: **Dalton's law** (each gas in a mixture exerts its own partial pressure) and **Henry's law** (the amount of gas dissolving in a liquid is proportional to its partial pressure and its solubility). Gases then diffuse down their **partial-pressure gradients** across the respiratory membrane — a remarkably thin barrier of alveolar epithelium, fused basement membranes, and capillary endothelium. Exchange at the lungs (**external respiration**) loads oxygen and unloads carbon dioxide; exchange at the tissues (**internal respiration**) does the reverse. Matching ventilation to perfusion (**V/Q matching**) keeps these gradients efficient; when it fails, blood leaves the lungs carrying less oxygen than it should.
+
+## Why This Matters
+
+Every case of low blood oxygen (**hypoxemia**) traces back to one of the mechanisms described here: low inspired oxygen (high altitude), underventilation, impaired diffusion across a thickened membrane (edema, fibrosis), or blood bypassing ventilated alveoli (shunt, as in pneumonia or collapsed alveoli). Clinicians routinely use the *A-a gradient* — the difference between the oxygen partial pressure in the alveoli (calculated) and in arterial blood (measured) — to sort these causes apart: a widened gradient points to a diffusion or shunt problem, while a normal gradient points to hypoventilation or low inspired oxygen. Understanding partial pressures also explains how oxygen therapy works: raising the fraction of inspired oxygen raises alveolar PO₂ and therefore the gradient driving oxygen into the blood. And because CO₂ diffuses about 20 times more readily than O₂ across the respiratory membrane, CO₂ retention is rarely a diffusion problem — it is almost always a ventilation problem. That distinction shapes how respiratory failure is classified and treated.
+
+## Core Concepts
+
+### Dalton's law: partial pressures
+
+Air is a mixture. Dalton's law says the total pressure of a mixture equals the sum of the pressures each gas would exert alone, and each gas's **partial pressure** is proportional to its fraction of the mixture. Atmospheric air at sea level (about 760 mmHg total) is roughly 21% oxygen and 78% nitrogen, so PO₂ ≈ 0.21 × 760 ≈ 160 mmHg and PN₂ ≈ 0.78 × 760 ≈ 593 mmHg. Gases behave independently: the PO₂ gradient, not the total pressure, is what drives oxygen movement. In the alveoli the numbers differ because inspired air is warmed, humidified (water vapor adds ~47 mmHg of its own partial pressure), and mixed with CO₂ added by the blood: alveolar PO₂ is about 100 mmHg and alveolar PCO₂ about 40 mmHg (commonly taught reference values). These are the gradients' "starting points."
+
+### Henry's law: getting gas into solution
+
+Henry's law states that the amount of a gas that dissolves in a liquid is directly proportional to its partial pressure in contact with the liquid — and depends on the gas's solubility. At body temperature, CO₂ is roughly 20–24 times more soluble in plasma than O₂ — which is why very little oxygen (about 1.5% of the total) travels dissolved while a much larger fraction of CO₂ does. Dissolved gas follows the same rule as the gas phase: it diffuses from higher to lower partial pressure. Henry's law also explains the bubbles divers experience under pressure changes — covered in "Modifications in Respiratory Functions" later in this chapter.
+
+### The respiratory membrane and the diffusion gradient
+
+Gas must cross the **respiratory membrane** — alveolar fluid, alveolar epithelium (type I cells), fused basement membranes, and capillary endothelium, often under a micrometer of total thickness. Diffusion across it follows **Fick's law**: rate ∝ (surface area × partial-pressure difference) ÷ membrane thickness. Anything that thickens the membrane (fluid, fibrosis), reduces surface area (emphysema destroys alveoli), or shrinks the gradient (low inspired oxygen) slows exchange. Normal capillary transit time is under a second — plenty for equilibrium if the membrane is healthy.
+
+### External respiration: exchange at the lungs
+
+In the pulmonary capillaries, venous blood arrives with a PO₂ of about 40 mmHg and a PCO₂ of about 45 mmHg. Alveolar air has a PO₂ of about 100 mmHg and a PCO₂ of about 40 mmHg. Oxygen therefore diffuses *into* the blood (40 → 100 mmHg gradient) and carbon dioxide diffuses *out* (45 → 40 mmHg gradient) until partial pressures equilibrate. Because diffusion is so fast, blood leaving the lungs normally has a PO₂ near 100 mmHg — nearly equilibrated with alveolar air. Anything that prevents equilibration (thickened membrane, shunt, low alveolar PO₂) leaves arterial PO₂ below 100 mmHg.
+
+### Internal respiration: exchange at the tissues
+
+At the tissue capillaries, the gradient flips. Metabolizing cells consume oxygen, dropping the interstitial PO₂ to about 40 mmHg, while producing CO₂ and raising the interstitial PCO₂ to about 45 mmHg. Arterial blood arrives at about 100/40; oxygen diffuses out to the cells and CO₂ diffuses in, so venous blood leaving the tissues carries about 40 mmHg PO₂ and 45 mmHg PCO₂. The "internal respiration" step is thus the mirror image of the external one, and both obey the same physics: diffusion down partial-pressure gradients across a thin membrane. (Note: these values are commonly taught textbook references for resting conditions; actual tissue values vary with metabolic activity.)
+
+### Ventilation-perfusion (V/Q) matching
+
+For external respiration to work well, alveoli must be both **ventilated** (fresh air reaching them) and **perfused** (blood flowing past them). In an upright person, both ventilation and blood flow are greater at the lung bases than at the apices, but blood flow changes more steeply — so the apex has a higher V/Q ratio (over-ventilated relative to perfusion) and the base a lower one. The lungs compensate with **local matching**: if an alveolus is underventilated, its PO₂ falls and PCO₂ rises; the low PO₂ constricts nearby arterioles (hypoxic vasoconstriction), shunting blood away; high CO₂ relaxes nearby bronchioles, redirecting airflow toward it. These local reflexes steer ventilation and perfusion toward each other. When matching fails — a pulmonary embolism blocks blood flow to ventilated regions (**dead-space effect**), or pneumonia fills perfused alveoli (**shunt effect**) — arterial oxygen falls. A shunt is harder to fix with oxygen therapy, because blood bypassing ventilated alveoli never sees the higher inspired oxygen.
+
+## ELI-10: Explain Like I'm 10
+
+> Gases move like people leaving a crowded room — they go from where there are lots of them to where there are few, until it's even. Oxygen is crowded in the air sacs of your lungs and scarce in your blood, so it slips through the thin walls into the blood. Carbon dioxide is crowded in the blood and scarce in the air sacs, so it slips the other way and you breathe it out. The walls between the air and the blood are amazingly thin, like tissue paper, so the swap happens in a split second.
+
+## High-Yield Points
+
+- **Dalton's law:** each gas in a mixture exerts its own partial pressure; total pressure is the sum. Gases diffuse down *partial-pressure* gradients, independently of each other.
+- **Henry's law:** gas dissolving into liquid ∝ partial pressure × solubility. CO₂ is much more soluble than O₂ — one reason a larger fraction of CO₂ travels dissolved.
+- **Reference resting gradients:** alveolar PO₂ ≈ 100 mmHg, PCO₂ ≈ 40 mmHg; venous blood PO₂ ≈ 40 mmHg, PCO₂ ≈ 45 mmHg (commonly taught values — verify against current texts).
+- **External respiration** (lungs): O₂ in, CO₂ out, driven by the alveolar–capillary gradients. **Internal respiration** (tissues): the mirror image.
+- **Fick's law:** diffusion rate ∝ (surface area × ΔP) ÷ thickness. Thickened membrane, lost surface area, or a smaller gradient all slow exchange.
+- **CO₂ diffuses ~20× faster than O₂** across the respiratory membrane, so CO₂ retention signals a ventilation problem, not a diffusion problem.
+- **V/Q matching** is maintained by local reflexes: low alveolar O₂ constricts arterioles; high CO₂ relaxes bronchioles. Mismatch causes hypoxemia (shunt or dead-space patterns).
+- **A widened A-a gradient** implicates diffusion or shunt problems; a normal gradient with hypoxemia implicates hypoventilation or low inspired O₂.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Partial pressure | The pressure a single gas in a mixture would exert alone (Dalton's law) | The actual driving force for gas movement; oxygen moves down its PO₂ gradient, not down "air pressure" |
+| Dalton's law | Total pressure of a gas mixture = sum of each gas's partial pressure | Lets you compute PO₂ from the fraction of oxygen in air (~21% × 760 ≈ 160 mmHg at sea level) |
+| Henry's law | Gas dissolving into a liquid ∝ its partial pressure and solubility | Explains how much O₂ and CO₂ enter plasma and why CO₂ dissolves more readily |
+| Respiratory membrane | The thin barrier (alveolar fluid, epithelium, fused basement membranes, capillary endothelium) between air and blood | Its thickness and surface area set the maximum speed of gas exchange |
+| Fick's law of diffusion | Rate ∝ (surface area × partial-pressure difference) ÷ membrane thickness | Explains why fibrosis, edema, or emphysema impair exchange |
+| External respiration | Gas exchange between alveolar air and pulmonary capillary blood | The step that loads oxygen into arterial blood |
+| Internal respiration | Gas exchange between tissue capillaries and cells | The step that delivers oxygen to tissues and removes CO₂ |
+| Ventilation-perfusion (V/Q) ratio | The match between air reaching alveoli and blood reaching capillaries | Mismatch is the most common cause of low blood oxygen in lung disease |
+| Hypoxic vasoconstriction | Arterioles constrict near underventilated alveoli with low PO₂ | Redirects blood toward better-ventilated regions, protecting arterial oxygenation |
+| Shunt | Blood flows past alveoli that are not ventilated | Hypoxemia that responds poorly to oxygen therapy |
+| A-a gradient | Difference between alveolar and arterial PO₂ | Clinical tool for separating hypoventilation from diffusion/shunt causes of hypoxemia |
+
+## Example: Sorting Out Why a Patient's Oxygen Is Low
+
+A patient with shortness of breath has an arterial PO₂ of 55 mmHg (low). The clinician wants to know *why*. Because alveolar PO₂ can be estimated from the alveolar gas equation (from inspired oxygen fraction and arterial PCO₂), the A-a gradient can be computed. If the gradient is normal, the problem is either low inspired oxygen (altitude) or **hypoventilation** — the patient is not moving enough air, so alveolar PO₂ itself is low. If the gradient is widened, the problem is in the lungs: either a diffusion impairment (fluid or fibrosis thickening the respiratory membrane) or a **shunt** (perfused alveoli that are collapsed or filled with fluid, as in pneumonia or atelectasis). The same reasoning explains treatment choices: raising inspired oxygen fixes low alveolar PO₂ but cannot fully fix a shunt, because blood that bypasses ventilated alveoli never encounters the extra oxygen. Walking through this reasoning ties Dalton's law (computing alveolar PO₂), Fick's law (diffusion impairment), and V/Q matching (shunt) into one clinical picture — a favorite style of exam question.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Partial pressure | Total air pressure | Oxygen moves down its *partial-pressure* gradient even when total pressure is unchanged; gases act independently (Dalton's law). |
+| External respiration | Internal respiration | External = lungs (O₂ in, CO₂ out of blood); internal = tissues (O₂ out, CO₂ into blood). Both are diffusion steps — neither is "breathing." |
+| Ventilation | Gas exchange | Ventilation moves air (Topic 3); gas exchange moves gases across membranes. A ventilated alveolus can still fail to exchange gas if perfusion is absent or the membrane is abnormal. |
+| Diffusion problem | Ventilation problem | CO₂ diffuses ~20× faster than O₂, so a thickened membrane causes oxygen trouble first; CO₂ retention usually means not enough air movement, not a membrane problem. |
+| Shunt | Dead space | Shunt = blood flow with no ventilation (low V/Q, hypoxemia hard to fix with O₂); dead space = ventilation with no blood flow (high V/Q, wasted air, normal O₂). |
+| Alveolar PO₂ | Atmospheric PO₂ | Alveolar PO₂ (~100 mmHg) is lower than atmospheric (~160 mmHg) because inspired air is humidified and diluted by alveolar CO₂. |
+
+## Quick Review
+
+1. At sea level (760 mmHg total, 21% oxygen), what is the partial pressure of oxygen in dry atmospheric air? Why is alveolar PO₂ lower?
+2. State Henry's law and explain why a larger fraction of CO₂ than O₂ travels dissolved in plasma.
+3. List the layers of the respiratory membrane and state Fick's law of diffusion.
+4. What are the normal resting PO₂ and PCO₂ of venous blood arriving at the lungs, and of alveolar air? Which direction does each gas diffuse?
+5. Explain how local V/Q matching reflexes respond to an underventilated alveolus.
+6. Why does a shunt respond poorly to supplemental oxygen, while simple hypoventilation responds well?
+
+<details>
+<summary>Show answers</summary>
+
+1. PO₂ ≈ 0.21 × 760 ≈ 160 mmHg. Alveolar PO₂ is about 100 mmHg because inspired air is warmed and humidified (water vapor contributes ~47 mmHg partial pressure) and is mixed with CO₂ (about 40 mmHg) added by venous blood.
+2. Henry's law: the amount of gas dissolving in a liquid is proportional to its partial pressure and its solubility in that liquid. CO₂ is roughly 20–24 times more soluble in plasma than O₂, so a much larger proportion of the CO₂ carried travels dissolved.
+3. Alveolar fluid, alveolar epithelium (type I cells), fused basement membranes of the alveolus and capillary, and capillary endothelium. Fick's law: diffusion rate ∝ (surface area × partial-pressure difference) ÷ membrane thickness.
+4. Venous blood: PO₂ ≈ 40 mmHg, PCO₂ ≈ 45 mmHg. Alveolar air: PO₂ ≈ 100 mmHg, PCO₂ ≈ 40 mmHg. Oxygen diffuses from alveoli into blood; CO₂ diffuses from blood into alveoli (commonly taught reference values).
+5. Underventilation lowers alveolar PO₂ and raises PCO₂. The low PO₂ constricts nearby arterioles (hypoxic vasoconstriction), redirecting blood to better-ventilated alveoli; the high CO₂ relaxes nearby bronchioles, redirecting airflow toward the region.
+6. In a shunt, blood flows past unventilated alveoli, so it never contacts the higher oxygen in the inspired gas — giving more oxygen can't help that blood. In hypoventilation, all alveoli are ventilated but with low PO₂; raising inspired oxygen directly raises alveolar PO₂ and fixes the gradient.
+
+</details>
+
+## Related Topics
+
+- Previous: [The Process of Breathing](03-the-process-of-breathing.md)
+- Next: [Transport of Gases](05-transport-of-gases.md)
+- Related: [The Respiratory System chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Anatomy and Physiology 2e
+- Local outline source: `anatomy-and-physiology-2e.md`
+- Official source URL: https://openstax.org/details/books/anatomy-and-physiology-2e/
+- Content type: Original educational study guide based on OpenStax outline structure. Partial-pressure values are commonly taught textbook reference approximations for resting conditions at sea level; verify against current sources before clinical application.
+- Last updated: 2026-08-16

@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-polarity-and-intermolecular-forces-q01",
+  "subject": "chemistry-1",
+  "lesson": "polarity-and-intermolecular-forces",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Pauling electronegativity values are H = 2.2 and Cl = 3.16. Which statement best describes the bonding electrons in a molecule of HCl?",
+  "options": [
+    {
+      "id": "a",
+      "text": "They are transferred completely from hydrogen to chlorine, producing full ionic charges."
+    },
+    {
+      "id": "b",
+      "text": "They are shared equally, because a bond between two nonmetal atoms is always nonpolar."
+    },
+    {
+      "id": "c",
+      "text": "They are shared unequally and held closer to chlorine, giving chlorine a partial negative charge."
+    },
+    {
+      "id": "d",
+      "text": "They are held closer to hydrogen, because the smaller hydrogen nucleus attracts them more strongly."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "The electronegativity difference is 3.16 - 2.2 = 0.96, which falls in the polar covalent range (roughly 0.4 to 1.7 on the Pauling scale; differences above about 1.7 to 2.0 are treated as ionic). The pair remains shared, but chlorine's greater effective nuclear attraction for bonding electrons shifts electron density toward it, creating a partial negative charge on Cl and a partial positive charge on H. This permanent bond dipole (HCl has a measured dipole moment near 1.08 D) is the foundation for predicting molecular polarity and intermolecular forces.\n\nELI-10: Both atoms keep hold of the shared electrons, but chlorine pulls harder, so the electron cloud sits lopsided toward the chlorine side. Lopsided electron density means chlorine ends up slightly negative and hydrogen slightly positive, written as delta-minus and delta-plus. That is what 'polar covalent' means: still sharing, just not fairly. Complete transfer would be ionic, and that takes a much larger electronegativity gap than 0.96.",
+  "difficulty": "easy",
+  "tags": [
+    "electronegativity",
+    "polar covalent bond",
+    "partial charges"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-275",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

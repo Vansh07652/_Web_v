@@ -1,0 +1,41 @@
+{
+  "id": "chemistry-1-atomic-structure-and-the-periodic-table-q05",
+  "subject": "chemistry-1",
+  "lesson": "atomic-structure-and-the-periodic-table",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which comparison of maximum electron capacity between the second (n = 2) and third (n = 3) principal energy levels is accurate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The n = 3 level holds 18 electrons, 10 more than n = 2, since capacity follows the 2n^2 relationship"
+    },
+    {
+      "id": "b",
+      "text": "The n = 3 level holds 16 electrons, 8 more than n = 2, since each level doubles the one before it"
+    },
+    {
+      "id": "c",
+      "text": "The n = 3 level holds 8 electrons, the same as n = 2, since an octet fills every principal level"
+    },
+    {
+      "id": "d",
+      "text": "The n = 3 level holds 12 electrons, 4 more than n = 2, since each level adds a single orbital"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Maximum occupancy of a principal energy level is 2n^2, giving 2(2^2) = 8 for n = 2 and 2(3^2) = 18 for n = 3, a difference of 10 electrons. Those 10 additional slots are the five d orbitals that first become available at n = 3, which is why a transition series contains 10 elements. Capacity is not the same as row length: because 4s fills before 3d, the 3d orbitals are not occupied until the fourth period (scandium through zinc), so the third period contains only 8 elements even though n = 3 can hold 18. The octet rule describes the stable valence arrangement of main-group elements, not the absolute capacity of a shell.\n\nELI-10: Each principal energy level has a fixed number of electron spots, and the formula is 2 times the level number squared. Level 2 gives 2 x 4 = 8 spots. Level 3 gives 2 x 9 = 18 spots. The 10 extra spots at level 3 come from a new set of five d orbitals that did not exist at level 2, and each orbital holds 2 electrons. Careful, though: having the spots is not the same as filling them right away. Electrons fill the 4s orbital before the 3d ones, so those 10 d spots do not get used until the fourth row of the periodic table, where you see the block of 10 transition metals from scandium to zinc. That is why the third row has only 8 elements even though level 3 can hold 18.",
+  "difficulty": "medium",
+  "tags": [
+    "principal energy levels",
+    "electron capacity",
+    "2n^2 rule",
+    "orbitals",
+    "orbital filling order vs. period length"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-272",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

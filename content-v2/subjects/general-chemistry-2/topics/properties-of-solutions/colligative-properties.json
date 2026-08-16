@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:properties-of-solutions:colligative-properties",
+  "slug": "colligative-properties",
+  "title": "Colligative Properties",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:properties-of-solutions",
+    "slug": "properties-of-solutions",
+    "title": "Properties Of Solutions",
+    "order": 2
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "Colligative properties depend only on the *number* of solute particles in a solution, not on their identity. Dissolving a solute lowers the vapor pressure (Raoult's law), which in turn raises the boiling point and lowers the freezing point, and it creates an osmotic pressure across a semipermeable membrane. For electrolytes, each formula unit contributes i particles (the van't Hoff factor), so ionic solutes have a proportionally larger effect.",
+    "whyItMatters": "- **Antifreeze & de-icing:** ethylene glycol and road salt lower the freezing point of water.\n- **Cooking:** adding salt raises the boiling point of water.\n- **Biology/medicine:** osmotic pressure drives water balance across cell membranes; IV fluids must be isotonic (matched osmotic pressure) to avoid bursting or shrinking cells.\n- **Osmosis:** reverse osmosis desalinates seawater by applying pressure against the osmotic gradient.",
+    "learningObjectives": "- Define colligative property and explain the role of particle *number*.\n- State and apply Raoult's law for vapor-pressure lowering.\n- Calculate boiling-point elevation and freezing-point depression.\n- Calculate osmotic pressure.\n- Explain how the van't Hoff factor enters colligative calculations.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nColligative properties depend only on the *number* of solute particles in a solution, not on their identity. Dissolving a solute lowers the vapor pressure (Raoult's law), which in turn raises the boiling point and lowers the freezing point, and it creates an osmotic pressure across a semipermeable membrane. For electrolytes, each formula unit contributes i particles (the van't Hoff factor), so ionic solutes have a proportionally larger effect.\n\n### Key Ideas\n\n### The four colligative properties\n1. **Vapor-pressure lowering** (Raoult's law): P_solution = X_solvent · P°_solvent.\n2. **Boiling-point elevation:** ΔT_b = i·K_b·m.\n3. **Freezing-point depression:** ΔT_f = i·K_f·m.\n4. **Osmotic pressure:** Π = i·M·R·T.\n\n### Why they depend on particle number\n- A solute particle blocks solvent from the surface (lowers vapor pressure) and interferes with freezing; the effect scales with how many particles are present, not what they are.\n\n### Constants\n- Water: K_b = 0.512 °C·kg/mol, K_f = 1.86 °C·kg/mol.\n\n### Osmosis\n- Solvent flows through a semipermeable membrane from low to high solute concentration (toward higher osmotic pressure).\n\n### Equations and Variables\n\n- **Raoult's law:** P_solution = X_solvent · P°_solvent; vapor-pressure lowering ΔP = X_solute · P°.\n- **Boiling-point elevation:** ΔT_b = i·K_b·m.\n- **Freezing-point depression:** ΔT_f = i·K_f·m.\n- **Osmotic pressure:** Π = i·M·R·T, with R = 0.08206 L·atm/(mol·K), T in kelvin.\n  - i = van't Hoff factor, K_b/K_f = ebullioscopic/cryoscopic constants, m = molality, M = molarity.\n\n### How It Works\n\n1. **A solute lowers the solvent's vapor pressure** because fewer solvent molecules occupy the surface to escape.\n2. **Lowered vapor pressure shifts the phase equilibria:** the boiling point rises (more heat needed to reach P_vapor = P_external) and the freezing point falls (the liquid is stabilized relative to the solid).\n3. **The magnitudes scale with particle concentration** — molality (for ΔTb, ΔTf) or molarity (for Π) times i.\n4. **For electrolytes,** multiply by i (e.g., i = 2 for NaCl, 3 for CaCl₂) because each formula unit produces multiple particles.\n5. **Osmosis** drives solvent across a membrane toward the more concentrated side, generating osmotic pressure Π = iMRT.\n\n### Worked Example\n\n(a) Calculate the freezing point of a solution of 25.0 g of ethylene glycol (C₂H₆O₂, 62.07 g/mol, a nonelectrolyte) in 250 g of water. (b) Calculate the osmotic pressure of 0.0100 M sucrose at 25 °C.\n\n1. **(a) Molality.** n = 25.0 / 62.07 = 0.4027 mol; m = 0.4027 / 0.250 kg = 1.611 m.\n2. **(a) Freezing-point depression.** ΔT_f = i·K_f·m = (1)(1.86 °C/m)(1.611 m) = 2.996 °C → T_f = 0 − 2.996 = **−3.00 °C**.\n3. **(b) Osmotic pressure.** Π = i·M·R·T = (1)(0.0100 mol/L)(0.08206 L·atm/mol·K)(298.15 K) = **0.245 atm**.",
+    "howItWorks": "1. **A solute lowers the solvent's vapor pressure** because fewer solvent molecules occupy the surface to escape.\n2. **Lowered vapor pressure shifts the phase equilibria:** the boiling point rises (more heat needed to reach P_vapor = P_external) and the freezing point falls (the liquid is stabilized relative to the solid).\n3. **The magnitudes scale with particle concentration** — molality (for ΔTb, ΔTf) or molarity (for Π) times i.\n4. **For electrolytes,** multiply by i (e.g., i = 2 for NaCl, 3 for CaCl₂) because each formula unit produces multiple particles.\n5. **Osmosis** drives solvent across a membrane toward the more concentrated side, generating osmotic pressure Π = iMRT.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Colligative properties depend on particle *number*, not identity.\n- Raoult: P_solution = X_solvent·P°.\n- ΔT_b = i·K_b·m; ΔT_f = i·K_f·m; Π = i·M·R·T.\n- Water: K_b = 0.512, K_f = 1.86 °C·kg/mol.\n- Ionic solutes: multiply by i (NaCl → 2, CaCl₂ → 3).\n- Osmotic pressure uses molarity (M); ΔTb/ΔTf use molality (m).\n- Osmosis: solvent moves toward higher solute concentration.",
+    "commonConfusions": "- **\"Colligative properties depend on the solute's identity.\"** — Wrong. They depend only on the number of dissolved particles.\n- **\"ΔTf and Π both use molarity.\"** — Wrong. ΔTf and ΔTb use *molality*; osmotic pressure uses *molarity*.\n- **\"Raoult's law uses the solute's mole fraction.\"** — Wrong. P = X_solvent·P° uses the *solvent's* mole fraction (the solute lowers it).\n- **\"Adding solute raises the freezing point.\"** — Wrong. Solutes *lower* the freezing point and *raise* the boiling point.\n- **\"A nonelectrolyte and an electrolyte at the same molarity have the same effect.\"** — Wrong. The electrolyte's effect is multiplied by i.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nColligative properties are a \"head count\" effect: it doesn't matter *who* you add to the swimming pool — salt, sugar, or antifreeze — it only matters *how many* particles you add. Every particle is like a little kid getting in the way, making it harder for the water to freeze (so the freezing point drops) and harder to boil (so the boiling point rises), and pulling water across a membrane to dilute itself (osmosis). Ionic stuff is sneakier because one \"package\" of salt actually splits into two or three kids when it dissolves, so it counts double or triple. (The analogy's limit: the \"getting in the way\" is really about surface blocking and solution entropy, but the key idea — count particles, not type — is the entire point of colligative properties.)",
+    "quickReview": "- Four colligative properties: vapor-pressure lowering, bp elevation, fp depression, osmotic pressure.\n- P = X_solvent·P°; ΔT_b = i K_b m; ΔT_f = i K_f m; Π = i M R T.\n- Water K_b = 0.512, K_f = 1.86 °C·kg/mol.\n- Worked: ethylene glycol → ΔTf = 3.00 °C; 0.0100 M sucrose → Π = 0.245 atm.\n- Osmosis: solvent flows toward higher solute concentration.",
+    "workedExamples": "### Worked Example\n\n(a) Calculate the freezing point of a solution of 25.0 g of ethylene glycol (C₂H₆O₂, 62.07 g/mol, a nonelectrolyte) in 250 g of water. (b) Calculate the osmotic pressure of 0.0100 M sucrose at 25 °C.\n\n1. **(a) Molality.** n = 25.0 / 62.07 = 0.4027 mol; m = 0.4027 / 0.250 kg = 1.611 m.\n2. **(a) Freezing-point depression.** ΔT_f = i·K_f·m = (1)(1.86 °C/m)(1.611 m) = 2.996 °C → T_f = 0 − 2.996 = **−3.00 °C**.\n3. **(b) Osmotic pressure.** Π = i·M·R·T = (1)(0.0100 mol/L)(0.08206 L·atm/mol·K)(298.15 K) = **0.245 atm**.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"11.4 Colligative Properties.\" https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties",
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"11.2 Electrolytes.\" https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes",
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e* (book home). https://openstax.org/details/books/chemistry-2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      },
+      {
+        "text": "American Chemical Society. https://www.acs.org/",
+        "url": "https://www.acs.org/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "colligative-properties",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "05-colligative-properties",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:2b84cd16eeac2937"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:2b84cd16eeac2937"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:2b84cd16eeac2937"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:2b84cd16eeac2937"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/11-properties-of-solutions/05-colligative-properties.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Colligative Properties\n\n## Learning Goals\n- Define colligative property and explain the role of particle *number*.\n- State and apply Raoult's law for vapor-pressure lowering.\n- Calculate boiling-point elevation and freezing-point depression.\n- Calculate osmotic pressure.\n- Explain how the van't Hoff factor enters colligative calculations.\n\n## Core Concept\nColligative properties depend only on the *number* of solute particles in a solution, not on their identity. Dissolving a solute lowers the vapor pressure (Raoult's law), which in turn raises the boiling point and lowers the freezing point, and it creates an osmotic pressure across a semipermeable membrane. For electrolytes, each formula unit contributes i particles (the van't Hoff factor), so ionic solutes have a proportionally larger effect.\n\n## Key Ideas\n### The four colligative properties\n1. **Vapor-pressure lowering** (Raoult's law): P_solution = X_solvent · P°_solvent.\n2. **Boiling-point elevation:** ΔT_b = i·K_b·m.\n3. **Freezing-point depression:** ΔT_f = i·K_f·m.\n4. **Osmotic pressure:** Π = i·M·R·T.\n\n### Why they depend on particle number\n- A solute particle blocks solvent from the surface (lowers vapor pressure) and interferes with freezing; the effect scales with how many particles are present, not what they are.\n\n### Constants\n- Water: K_b = 0.512 °C·kg/mol, K_f = 1.86 °C·kg/mol.\n\n### Osmosis\n- Solvent flows through a semipermeable membrane from low to high solute concentration (toward higher osmotic pressure).\n\n## Equations and Variables\n- **Raoult's law:** P_solution = X_solvent · P°_solvent; vapor-pressure lowering ΔP = X_solute · P°.\n- **Boiling-point elevation:** ΔT_b = i·K_b·m.\n- **Freezing-point depression:** ΔT_f = i·K_f·m.\n- **Osmotic pressure:** Π = i·M·R·T, with R = 0.08206 L·atm/(mol·K), T in kelvin.\n  - i = van't Hoff factor, K_b/K_f = ebullioscopic/cryoscopic constants, m = molality, M = molarity.\n\n## How It Works\n1. **A solute lowers the solvent's vapor pressure** because fewer solvent molecules occupy the surface to escape.\n2. **Lowered vapor pressure shifts the phase equilibria:** the boiling point rises (more heat needed to reach P_vapor = P_external) and the freezing point falls (the liquid is stabilized relative to the solid).\n3. **The magnitudes scale with particle concentration** — molality (for ΔTb, ΔTf) or molarity (for Π) times i.\n4. **For electrolytes,** multiply by i (e.g., i = 2 for NaCl, 3 for CaCl₂) because each formula unit produces multiple particles.\n5. **Osmosis** drives solvent across a membrane toward the more concentrated side, generating osmotic pressure Π = iMRT.\n\n## Worked Example\n(a) Calculate the freezing point of a solution of 25.0 g of ethylene glycol (C₂H₆O₂, 62.07 g/mol, a nonelectrolyte) in 250 g of water. (b) Calculate the osmotic pressure of 0.0100 M sucrose at 25 °C.\n\n1. **(a) Molality.** n = 25.0 / 62.07 = 0.4027 mol; m = 0.4027 / 0.250 kg = 1.611 m.\n2. **(a) Freezing-point depression.** ΔT_f = i·K_f·m = (1)(1.86 °C/m)(1.611 m) = 2.996 °C → T_f = 0 − 2.996 = **−3.00 °C**.\n3. **(b) Osmotic pressure.** Π = i·M·R·T = (1)(0.0100 mol/L)(0.08206 L·atm/mol·K)(298.15 K) = **0.245 atm**.\n\n## Why It Matters\n- **Antifreeze & de-icing:** ethylene glycol and road salt lower the freezing point of water.\n- **Cooking:** adding salt raises the boiling point of water.\n- **Biology/medicine:** osmotic pressure drives water balance across cell membranes; IV fluids must be isotonic (matched osmotic pressure) to avoid bursting or shrinking cells.\n- **Osmosis:** reverse osmosis desalinates seawater by applying pressure against the osmotic gradient.\n\n## High-Yield Facts\n- Colligative properties depend on particle *number*, not identity.\n- Raoult: P_solution = X_solvent·P°.\n- ΔT_b = i·K_b·m; ΔT_f = i·K_f·m; Π = i·M·R·T.\n- Water: K_b = 0.512, K_f = 1.86 °C·kg/mol.\n- Ionic solutes: multiply by i (NaCl → 2, CaCl₂ → 3).\n- Osmotic pressure uses molarity (M); ΔTb/ΔTf use molality (m).\n- Osmosis: solvent moves toward higher solute concentration.\n\n## Eli Explains\nColligative properties are a \"head count\" effect: it doesn't matter *who* you add to the swimming pool — salt, sugar, or antifreeze — it only matters *how many* particles you add. Every particle is like a little kid getting in the way, making it harder for the water to freeze (so the freezing point drops) and harder to boil (so the boiling point rises), and pulling water across a membrane to dilute itself (osmosis). Ionic stuff is sneakier because one \"package\" of salt actually splits into two or three kids when it dissolves, so it counts double or triple. (The analogy's limit: the \"getting in the way\" is really about surface blocking and solution entropy, but the key idea — count particles, not type — is the entire point of colligative properties.)\n\n## Common Confusions\n- **\"Colligative properties depend on the solute's identity.\"** — Wrong. They depend only on the number of dissolved particles.\n- **\"ΔTf and Π both use molarity.\"** — Wrong. ΔTf and ΔTb use *molality*; osmotic pressure uses *molarity*.\n- **\"Raoult's law uses the solute's mole fraction.\"** — Wrong. P = X_solvent·P° uses the *solvent's* mole fraction (the solute lowers it).\n- **\"Adding solute raises the freezing point.\"** — Wrong. Solutes *lower* the freezing point and *raise* the boiling point.\n- **\"A nonelectrolyte and an electrolyte at the same molarity have the same effect.\"** — Wrong. The electrolyte's effect is multiplied by i.\n\n## Quick Review\n- Four colligative properties: vapor-pressure lowering, bp elevation, fp depression, osmotic pressure.\n- P = X_solvent·P°; ΔT_b = i K_b m; ΔT_f = i K_f m; Π = i M R T.\n- Water K_b = 0.512, K_f = 1.86 °C·kg/mol.\n- Worked: ethylene glycol → ΔTf = 3.00 °C; 0.0100 M sucrose → Π = 0.245 atm.\n- Osmosis: solvent flows toward higher solute concentration.\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"11.4 Colligative Properties.\" https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties\n- OpenStax, *Chemistry 2e*, \"11.2 Electrolytes.\" https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n- OpenStax, *Chemistry 2e* (book home). https://openstax.org/details/books/chemistry-2e\n- American Chemical Society. https://www.acs.org/\n"
+}

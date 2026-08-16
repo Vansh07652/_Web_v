@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-buffers-and-physiologic-chemistry-q07",
+  "subject": "chemistry-2",
+  "lesson": "buffers-and-physiologic-chemistry",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A buffer has its greatest capacity to resist pH change under which condition?",
+  "options": [
+    {
+      "id": "a",
+      "text": "When the weak acid has been nearly completely titrated"
+    },
+    {
+      "id": "b",
+      "text": "When the conjugate base greatly exceeds the weak acid"
+    },
+    {
+      "id": "c",
+      "text": "When the solution pH is at least two units above the pKa"
+    },
+    {
+      "id": "d",
+      "text": "When the concentrations of weak acid and conjugate base are equal"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Buffer capacity peaks when [A-] equals [HA], because equal reservoirs absorb added acid and added base equally well. That condition corresponds to pH equal to pKa, since log 1 is 0 in the Henderson-Hasselbalch equation. For the phosphate pair with a physiologic pKa near 6.8, maximal buffering therefore occurs at pH 6.8, conveniently close to intracellular pH. Each of the other three conditions describes a ratio far from 1:1: nearly complete titration of the weak acid leaves almost no HA to neutralize added base, a large excess of conjugate base leaves almost no HA for the same reason, and a pH two or more units above the pKa means the base-to-acid ratio is at least 100:1. In every one of those cases one reservoir is nearly exhausted and pH becomes highly sensitive to further additions; useful buffering is generally limited to about one pH unit on either side of the pKa.\n\nELI-10: Picture a seesaw with sandbags on both ends. With equal loads, removing one bag from either side barely tilts it. If one end is nearly empty, a single bag slams it down. Equal amounts of acid and base is the balanced seesaw, and the Henderson-Hasselbalch equation tells you where that happens: when the two are equal their ratio is 1, the logarithm of 1 is 0, so the pH sits exactly at the pKa. For phosphate that balance point is pH 6.8.",
+  "difficulty": "medium",
+  "tags": [
+    "buffer capacity",
+    "pH equals pKa",
+    "phosphate buffer"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-280",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,39 @@
+{
+  "id": "biology-1-molecular-genetics-0004",
+  "subject": "biology-1",
+  "lesson": "molecular-genetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A messenger RNA has the sequence 5-prime AUG GGU UAA 3-prime, and the ribosome reads its **codons** in the correct **reading frame**. Which statement about this message is correct?",
+  "options": [
+    {
+      "id": "a",
+      "text": "UAA is the start codon, and AUG is the stop codon"
+    },
+    {
+      "id": "b",
+      "text": "GGU codes for the first amino acid, and UAA codes for the second amino acid"
+    },
+    {
+      "id": "c",
+      "text": "The ribosome reads the codons in overlapping groups, so the message codes for six amino acids"
+    },
+    {
+      "id": "d",
+      "text": "AUG is the start codon, GGU codes for an amino acid, and UAA is the stop codon"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "The ribosome reads codons sequentially in a non-overlapping frame, starting at AUG and ending at the stop codon UAA, and GGU codes for the amino acid glycine in between. A swaps the start and stop codons. B treats UAA as a coding codon, but stop codons never specify amino acids. C describes overlapping reading, which would scramble the message and is not how translation works.",
+  "difficulty": "unknown",
+  "tags": [
+    "codons",
+    "reading",
+    "frame"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-2692bbd1e4c2f67c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

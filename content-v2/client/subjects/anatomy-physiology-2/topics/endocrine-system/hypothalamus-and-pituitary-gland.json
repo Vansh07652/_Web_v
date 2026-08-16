@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-2:endocrine-system:hypothalamus-and-pituitary-gland",
+  "slug": "hypothalamus-and-pituitary-gland",
+  "title": "Hypothalamus and Pituitary Gland",
+  "subject": {
+    "id": "subject:anatomy-physiology-2",
+    "slug": "anatomy-physiology-2",
+    "title": "Anatomy & Physiology II"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-2:endocrine-system",
+    "slug": "endocrine-system",
+    "title": "Endocrine System",
+    "order": 1
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "The **hypothalamus** and **pituitary gland** are the command center of the endocrine system. This section explains how the hypothalamus controls the **anterior** and **posterior pituitary** and surveys the major pituitary hormones.",
+    "whyItMatters": "The pituitary is often called the \"master gland\" because its hormones control other endocrine glands (thyroid, adrenals, gonads) and vital functions like growth and water balance. Understanding this hierarchy explains many endocrine disorders and how the nervous and endocrine systems connect.",
+    "learningObjectives": "- Explain the **hypothalamus–pituitary** relationship.\n- Distinguish the **anterior** and **posterior** pituitary and their control.\n- Identify major **anterior pituitary hormones** and their targets.\n- Identify the **posterior pituitary hormones**.",
+    "keyTerms": "- **Hypothalamus** — brain region linking the nervous and endocrine systems; controls the pituitary.\n- **Pituitary gland (hypophysis)** — pea-sized gland below the hypothalamus; has anterior and posterior lobes.\n- **Anterior pituitary** — glandular lobe that makes its own hormones, controlled by hypothalamic releasing/inhibiting hormones.\n- **Posterior pituitary** — neural lobe that stores and releases two hormones made by the hypothalamus.\n- **Tropic hormone** — a hormone that controls another endocrine gland.",
+    "collegeNotes": "**The hypothalamus is the link.** The **hypothalamus** sits in the brain and connects the nervous system to the endocrine system. It controls the **pituitary gland** just below it, and through the pituitary it influences much of the body's hormone activity. The pituitary has two lobes controlled in different ways.\n\n**Anterior pituitary — controlled by hormones.** The hypothalamus sends **releasing and inhibiting hormones** through a small blood network to the **anterior pituitary**, telling it when to secrete its own hormones. Several anterior pituitary hormones are **tropic hormones** — they control *other* glands:\n\n- **TSH (thyroid-stimulating hormone):** stimulates the **thyroid**.\n- **ACTH (adrenocorticotropic hormone):** stimulates the **adrenal cortex** (cortisol).\n- **FSH and LH (gonadotropins):** stimulate the **gonads** (ovaries/testes) for reproduction.\n- **GH (growth hormone):** promotes **growth** of bone and muscle and affects metabolism.\n- **Prolactin (PRL):** stimulates **milk production**.\n\nBecause TSH, ACTH, and the gonadotropins each drive another gland, the anterior pituitary is a central relay: hypothalamus → pituitary → target gland → hormone, all governed by negative feedback.\n\n**Posterior pituitary — controlled by nerves.** The **posterior pituitary** doesn't make hormones itself; it **stores and releases** two hormones actually produced by the hypothalamus and delivered down nerve fibers:\n\n- **ADH (antidiuretic hormone, vasopressin):** promotes **water reabsorption** by the kidneys, reducing urine output and conserving body water (central to fluid balance).\n- **Oxytocin:** stimulates **uterine contractions** during labor and **milk ejection** during breastfeeding (a classic positive-feedback hormone).\n\n**Why the \"master gland\" label — with a caveat.** The pituitary is called the master gland because it directs the thyroid, adrenals, and gonads. But the hypothalamus directs the pituitary, so the true top of the hierarchy is the **hypothalamus** — the real bridge between brain and hormones.",
+    "howItWorks": "The command chain:\n\n```\nHypothalamus (releasing/inhibiting hormones)\n   → Anterior pituitary → tropic hormones (TSH, ACTH, FSH/LH) → target glands (thyroid, adrenal, gonads)\n   → also GH (growth), prolactin (milk)\nHypothalamus (makes ADH, oxytocin) → stored in posterior pituitary → released into blood\nNegative feedback from target-gland hormones regulates the whole chain\n```",
+    "comparisons": "| Lobe | Control | Key hormones |\n| --- | --- | --- |\n| Anterior pituitary | Hypothalamic hormones (blood) | TSH, ACTH, FSH, LH, GH, prolactin |\n| Posterior pituitary | Hypothalamic neurons (stores/releases) | ADH, oxytocin |\n\n| Hormone | Target/effect |\n| --- | --- |\n| TSH | Thyroid |\n| ACTH | Adrenal cortex (cortisol) |\n| FSH/LH | Gonads (reproduction) |\n| GH | Growth, metabolism |\n| Prolactin | Milk production |\n| ADH | Kidney water reabsorption |\n| Oxytocin | Uterine contraction, milk ejection |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\nPituitary disorders ripple widely: too little **GH** in children causes growth failure, too much causes gigantism/acromegaly; **ADH** problems cause **diabetes insipidus** (too little ADH → excessive dilute urine) or fluid retention (too much). **Oxytocin** is used clinically to induce or augment labor. Reading a target hormone alongside its pituitary tropic hormone (e.g., TSH with thyroid hormone) localizes whether a problem is in the gland or the pituitary — a core endocrine reasoning skill.",
+    "commonConfusions": "- **Anterior vs posterior pituitary.** Anterior *makes* hormones (controlled by hypothalamic hormones); posterior only *stores/releases* ADH and oxytocin (made by the hypothalamus).\n- **Master gland caveat.** The pituitary directs other glands, but the **hypothalamus** directs the pituitary.\n- **ADH vs oxytocin.** ADH = water balance (kidneys); oxytocin = labor and milk ejection.\n- **Tropic hormones** control other glands (TSH, ACTH, FSH/LH); GH and prolactin act more directly on tissues.",
+    "memoryAids": "- **Anterior pituitary hormones: \"FLAT PiG\"** → FSH, LH, ACTH, TSH, Prolactin, GH.\n- **Posterior stores 2: \"ADH + Oxytocin.\"**\n- **ADH = \"Add water back (Anti-Diuretic).\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nDeep in your brain, a tiny boss (the hypothalamus) controls a tiny \"master gland\" (the pituitary), which sends out hormones that boss around many other glands and control things like growth and how much water you keep.\n\n### Analogy\nThink of a company. The **hypothalamus** is the CEO, and the **pituitary** is the general manager who carries out the CEO's orders. The manager has two departments. The **front department (anterior pituitary)** sends memos that tell *other* offices what to do — one memo tells the **thyroid** to work (TSH), one tells the **adrenal glands** (ACTH), and others handle **reproduction** (FSH/LH), **growth** (GH), and **milk** (prolactin). The **back department (posterior pituitary)** doesn't write its own memos — it just holds and hands out two ready-made ones from the CEO: one that tells your **kidneys to save water** (ADH) and one that helps with **childbirth and breastfeeding** (oxytocin).\n\n### What is actually happening\nThis chain — CEO (**hypothalamus**) → manager (**pituitary**) → other offices (thyroid, adrenals, gonads) — is the real command structure of your hormones, and it's kept in check by **negative feedback** (the finished work tells the boss to stop ordering more). It matters clinically: too little **ADH** makes you pee out huge amounts of water (**diabetes insipidus**), and **oxytocin** is even given in hospitals to help start labor.\n\n### Where the analogy stops\nCompany memos can be ignored, but hormone \"memos\" reliably reach every cell with the right receptor through the bloodstream, and the whole chain adjusts itself automatically through feedback — no one has to remember to send the next memo.",
+    "quickReview": "- The **hypothalamus** controls the **pituitary**, linking the nervous and endocrine systems.\n- The **anterior pituitary** (controlled by hypothalamic hormones) secretes **TSH, ACTH, FSH, LH, GH, prolactin** — several are **tropic** (control other glands).\n- The **posterior pituitary** stores/releases hypothalamic **ADH** (kidney water reabsorption) and **oxytocin** (labor, milk ejection).\n- Disorders (GH excess/deficiency, diabetes insipidus) and lab reasoning (tropic + target hormone) follow from this hierarchy.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 17.3: The Pituitary Gland and Hypothalamus. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — Pituitary Disorders. https://medlineplus.gov/pituitarydisorders.html",
+        "url": "https://medlineplus.gov/pituitarydisorders.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/02-anatomy-physiology-ii/01-endocrine-system/03-hypothalamus-and-pituitary-gland.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

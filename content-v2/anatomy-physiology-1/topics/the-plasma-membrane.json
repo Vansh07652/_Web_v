@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-1:cellular-anatomy-and-physiology:the-plasma-membrane",
+  "slug": "the-plasma-membrane",
+  "title": "The Plasma Membrane",
+  "subject": {
+    "id": "subject:anatomy-physiology-1",
+    "slug": "anatomy-physiology-1",
+    "title": "Anatomy & Physiology I"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-1:cellular-anatomy-and-physiology",
+    "slug": "cellular-anatomy-and-physiology",
+    "title": "Cellular Anatomy and Physiology",
+    "order": 3
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "The **plasma membrane** is the thin boundary around every cell. This section explains the **fluid mosaic model**, the **phospholipid bilayer** that forms the membrane, the many **membrane proteins** embedded in it, and the property of **selective (semi-)permeability** that lets the cell control its contents.",
+    "whyItMatters": "The membrane decides what enters and leaves the cell, senses signals (including hormones and drugs), and holds cells together in tissues. Nearly every physiological process — nerve signaling, muscle contraction, nutrient uptake, immune recognition — happens at or through this membrane.",
+    "learningObjectives": "- Describe the **fluid mosaic model** of the membrane.\n- Explain how the **phospholipid bilayer** forms and why it self-assembles.\n- Identify the major types and roles of **membrane proteins**.\n- Define **selective permeability** and why it matters.",
+    "keyTerms": "- **Fluid mosaic model** — the membrane is a fluid phospholipid bilayer with a \"mosaic\" of proteins that can move within it.\n- **Phospholipid** — a lipid with a polar (hydrophilic) phosphate head and two nonpolar (hydrophobic) fatty-acid tails.\n- **Hydrophilic / hydrophobic** — water-loving / water-fearing.\n- **Integral protein** — a protein spanning the membrane (often a transporter or channel).\n- **Peripheral protein** — a protein attached to the membrane surface.\n- **Selective (semi-) permeability** — the membrane allows some substances to cross while blocking others.",
+    "collegeNotes": "**The phospholipid bilayer.** Each phospholipid has a **polar head** that \"loves\" water and two **nonpolar tails** that avoid it. Dropped into the watery environments inside and outside the cell, phospholipids spontaneously arrange into a **bilayer**: heads face outward toward the water on both sides, and the tails hide inward, facing each other, away from water. This self-assembly requires no energy — it is simply the lowest-energy arrangement — and it is why membranes can spontaneously seal small tears. The tail-filled core is oily and blocks most water-soluble substances, which is the basis of the membrane's control.\n\n**The fluid mosaic model.** Describing the membrane, the **fluid mosaic model** captures two ideas. It is **fluid**: the phospholipids drift sideways, so the membrane behaves like a two-dimensional liquid rather than a rigid sheet (cholesterol wedged among the phospholipids helps keep this fluidity in a healthy range). And it is a **mosaic**: a varied patchwork of **proteins** is embedded throughout. This combination lets the membrane flex, self-heal, and host countless functions in a small space.\n\n**Membrane proteins do most of the work.** Two broad categories:\n\n- **Integral proteins** span the bilayer. Many are **transport proteins** — **channels** (tunnels for specific ions or molecules) and **carriers** (which bind and shuttle substances across). Others are **receptors** that bind signaling molecules (hormones, neurotransmitters, many drugs), triggering responses inside the cell.\n- **Peripheral proteins** sit on the surface, often anchoring the cell's shape (cytoskeleton attachment) or aiding enzyme and cell-connection functions.\n\nMembranes also carry **glycoproteins** and **glycolipids** — proteins and lipids with attached sugar chains that form a fuzzy surface coat (the **glycocalyx**) used for **cell identification and recognition**. The immune system reads these markers to tell \"self\" from \"foreign,\" and blood typing depends on them.\n\n**Selective permeability.** Because of its oily core, the membrane is **selectively permeable**: small nonpolar molecules (like O₂ and CO₂) slip through easily, while ions and larger polar molecules (like glucose) need protein channels or carriers. This gatekeeping lets the cell maintain concentrations different from its surroundings — for example, keeping potassium high and sodium low inside — which is the physical basis of nerve and muscle excitability (developed in the transport and nervous units).",
+    "howItWorks": "Predicting whether something crosses the membrane easily:\n\n1. **Small and nonpolar (O₂, CO₂)?** → crosses the lipid core directly.\n2. **Ion or polar molecule (Na⁺, glucose)?** → needs a **channel** or **carrier** protein.\n3. **Signal molecule (hormone)?** → binds a **receptor** rather than crossing.\n4. **Cell identity?** → read from surface **glycoproteins/glycolipids**.",
+    "comparisons": "| Component | Type | Main role |\n| --- | --- | --- |\n| Phospholipid bilayer | Lipid | Forms the barrier; blocks water-soluble substances |\n| Cholesterol | Lipid | Stabilizes fluidity |\n| Integral proteins | Protein | Channels, carriers, receptors |\n| Peripheral proteins | Protein | Support, enzymes, connections |\n| Glycoproteins/glycolipids | Sugar-tagged | Cell recognition (self vs foreign) |",
+    "highYield": "Most drugs act at the membrane — many bind **receptors** to mimic or block signals, and some target **channels** or **pumps** directly. Cell-surface markers (glycoproteins) underlie **blood typing**, transfusion compatibility, and the immune system's self/non-self recognition central to infection and transplant rejection. Selective permeability sets up the electrolyte gradients behind every heartbeat and nerve impulse.",
+    "commonConfusions": "- **Phospholipid heads vs tails.** Heads are polar/hydrophilic (face water); tails are nonpolar/hydrophobic (face inward).\n- **Channel vs carrier.** Channels are open (or gated) pores; carriers bind and physically move the substance.\n- **Integral vs peripheral proteins.** Integral span the membrane; peripheral attach to a surface.\n- **The membrane is not a solid wall.** It is fluid and self-sealing, not rigid.",
+    "memoryAids": "- **\"Heads love water, tails hate it\"** — remembers the bilayer orientation.\n- **Fluid mosaic = \"a moving mosaic tile floor.\"**\n- **Glyco- (sugar) = the cell's ID badge.**",
+    "eli10": "### Simple idea\nEvery cell is wrapped in a smart, slightly oily skin that decides what's allowed in and out and can recognize friend from stranger.\n\n### Analogy\nPicture the cell's skin as a double layer of tiny balloons floating on water. Each \"balloon\" has a **water-loving head** and two **water-hating tails**. In water, they line up automatically: heads facing out toward the water, tails tucked inside away from it — forming a sandwich. Dotted through this sandwich are **doors, tunnels, and doorbells** (proteins): some let specific things through, and some are doorbells that outside messengers (like hormones) can ring.\n\n### What is actually happening\nThis is the **fluid mosaic model**: a **phospholipid bilayer** (the balloon sandwich) that stays flexible, studded with a \"mosaic\" of **proteins**. **Channel** and **carrier** proteins move ions and sugars across; **receptor** proteins catch chemical signals and many medicines. Sugar tags on the surface act like **ID badges** so your immune system can tell your own cells from invaders. Because tiny gas molecules slip through but salts and sugars need a door, the membrane is **selectively permeable** — it chooses what crosses.\n\n### Where the analogy stops\nReal balloons would pop, but phospholipids actually re-seal themselves because tucking their tails away from water is automatic — so a small tear closes on its own.",
+    "quickReview": "- The plasma membrane is a **phospholipid bilayer** (polar heads out, nonpolar tails in) described by the **fluid mosaic model** — fluid, with a mosaic of proteins.\n- **Integral proteins** (channels, carriers, receptors) and **peripheral proteins** provide most functions; **glycoproteins/glycolipids** serve as recognition markers.\n- The membrane is **selectively permeable**: small nonpolar molecules cross freely; ions and polar molecules need proteins — the basis of cellular gradients.",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 3.1: The Cell Membrane. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus Genetics — Cells and DNA. https://medlineplus.gov/genetics/",
+        "url": "https://medlineplus.gov/genetics/"
+      }
+    ]
+  },
+  "aliases": [
+    {
+      "value": "the-plasma-membrane",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "ap1-u03-s02",
+      "kind": "source_topic_id",
+      "source_id": "prenursing_notes"
+    },
+    {
+      "value": "02-the-plasma-membrane",
+      "kind": "source_file_stem",
+      "source_id": "prenursing_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:prenursing_notes:0bed8e7bfa7292f9",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:0bed8e7bfa7292f9",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/02-the-plasma-membrane.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:prenursing_notes:0bed8e7bfa7292f9",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:0bed8e7bfa7292f9",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/02-the-plasma-membrane.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:prenursing_notes:0bed8e7bfa7292f9",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:0bed8e7bfa7292f9",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/02-the-plasma-membrane.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:prenursing_notes:0bed8e7bfa7292f9",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:0bed8e7bfa7292f9",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/02-the-plasma-membrane.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "pre-nursing-study-hub-content",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/01-anatomy-physiology-i/03-cellular-anatomy-and-physiology/02-the-plasma-membrane.md",
+    "sourceStatus": "final",
+    "factChecked": true,
+    "coverageChecked": true,
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "\n# The Plasma Membrane\n\n## What This Topic Is\n\nThe **plasma membrane** is the thin boundary around every cell. This section explains the **fluid mosaic model**, the **phospholipid bilayer** that forms the membrane, the many **membrane proteins** embedded in it, and the property of **selective (semi-)permeability** that lets the cell control its contents.\n\n## Why It Matters\n\nThe membrane decides what enters and leaves the cell, senses signals (including hormones and drugs), and holds cells together in tissues. Nearly every physiological process — nerve signaling, muscle contraction, nutrient uptake, immune recognition — happens at or through this membrane.\n\n## Learning Objectives\n\n- Describe the **fluid mosaic model** of the membrane.\n- Explain how the **phospholipid bilayer** forms and why it self-assembles.\n- Identify the major types and roles of **membrane proteins**.\n- Define **selective permeability** and why it matters.\n\n## Key Terms\n\n- **Fluid mosaic model** — the membrane is a fluid phospholipid bilayer with a \"mosaic\" of proteins that can move within it.\n- **Phospholipid** — a lipid with a polar (hydrophilic) phosphate head and two nonpolar (hydrophobic) fatty-acid tails.\n- **Hydrophilic / hydrophobic** — water-loving / water-fearing.\n- **Integral protein** — a protein spanning the membrane (often a transporter or channel).\n- **Peripheral protein** — a protein attached to the membrane surface.\n- **Selective (semi-) permeability** — the membrane allows some substances to cross while blocking others.\n\n## Core Explanation\n\n**The phospholipid bilayer.** Each phospholipid has a **polar head** that \"loves\" water and two **nonpolar tails** that avoid it. Dropped into the watery environments inside and outside the cell, phospholipids spontaneously arrange into a **bilayer**: heads face outward toward the water on both sides, and the tails hide inward, facing each other, away from water. This self-assembly requires no energy — it is simply the lowest-energy arrangement — and it is why membranes can spontaneously seal small tears. The tail-filled core is oily and blocks most water-soluble substances, which is the basis of the membrane's control.\n\n**The fluid mosaic model.** Describing the membrane, the **fluid mosaic model** captures two ideas. It is **fluid**: the phospholipids drift sideways, so the membrane behaves like a two-dimensional liquid rather than a rigid sheet (cholesterol wedged among the phospholipids helps keep this fluidity in a healthy range). And it is a **mosaic**: a varied patchwork of **proteins** is embedded throughout. This combination lets the membrane flex, self-heal, and host countless functions in a small space.\n\n**Membrane proteins do most of the work.** Two broad categories:\n\n- **Integral proteins** span the bilayer. Many are **transport proteins** — **channels** (tunnels for specific ions or molecules) and **carriers** (which bind and shuttle substances across). Others are **receptors** that bind signaling molecules (hormones, neurotransmitters, many drugs), triggering responses inside the cell.\n- **Peripheral proteins** sit on the surface, often anchoring the cell's shape (cytoskeleton attachment) or aiding enzyme and cell-connection functions.\n\nMembranes also carry **glycoproteins** and **glycolipids** — proteins and lipids with attached sugar chains that form a fuzzy surface coat (the **glycocalyx**) used for **cell identification and recognition**. The immune system reads these markers to tell \"self\" from \"foreign,\" and blood typing depends on them.\n\n**Selective permeability.** Because of its oily core, the membrane is **selectively permeable**: small nonpolar molecules (like O₂ and CO₂) slip through easily, while ions and larger polar molecules (like glucose) need protein channels or carriers. This gatekeeping lets the cell maintain concentrations different from its surroundings — for example, keeping potassium high and sodium low inside — which is the physical basis of nerve and muscle excitability (developed in the transport and nervous units).\n\n## How It Works\n\nPredicting whether something crosses the membrane easily:\n\n1. **Small and nonpolar (O₂, CO₂)?** → crosses the lipid core directly.\n2. **Ion or polar molecule (Na⁺, glucose)?** → needs a **channel** or **carrier** protein.\n3. **Signal molecule (hormone)?** → binds a **receptor** rather than crossing.\n4. **Cell identity?** → read from surface **glycoproteins/glycolipids**.\n\n## Important Relationships and Comparisons\n\n| Component | Type | Main role |\n| --- | --- | --- |\n| Phospholipid bilayer | Lipid | Forms the barrier; blocks water-soluble substances |\n| Cholesterol | Lipid | Stabilizes fluidity |\n| Integral proteins | Protein | Channels, carriers, receptors |\n| Peripheral proteins | Protein | Support, enzymes, connections |\n| Glycoproteins/glycolipids | Sugar-tagged | Cell recognition (self vs foreign) |\n\n## High-Yield Pre-Nursing Connections\n\nMost drugs act at the membrane — many bind **receptors** to mimic or block signals, and some target **channels** or **pumps** directly. Cell-surface markers (glycoproteins) underlie **blood typing**, transfusion compatibility, and the immune system's self/non-self recognition central to infection and transplant rejection. Selective permeability sets up the electrolyte gradients behind every heartbeat and nerve impulse.\n\n## Common Confusions\n\n- **Phospholipid heads vs tails.** Heads are polar/hydrophilic (face water); tails are nonpolar/hydrophobic (face inward).\n- **Channel vs carrier.** Channels are open (or gated) pores; carriers bind and physically move the substance.\n- **Integral vs peripheral proteins.** Integral span the membrane; peripheral attach to a surface.\n- **The membrane is not a solid wall.** It is fluid and self-sealing, not rigid.\n\n## Memory Aids\n\n- **\"Heads love water, tails hate it\"** — remembers the bilayer orientation.\n- **Fluid mosaic = \"a moving mosaic tile floor.\"**\n- **Glyco- (sugar) = the cell's ID badge.**\n\n## ELI-10 Explains\n\n### Simple idea\nEvery cell is wrapped in a smart, slightly oily skin that decides what's allowed in and out and can recognize friend from stranger.\n\n### Analogy\nPicture the cell's skin as a double layer of tiny balloons floating on water. Each \"balloon\" has a **water-loving head** and two **water-hating tails**. In water, they line up automatically: heads facing out toward the water, tails tucked inside away from it — forming a sandwich. Dotted through this sandwich are **doors, tunnels, and doorbells** (proteins): some let specific things through, and some are doorbells that outside messengers (like hormones) can ring.\n\n### What is actually happening\nThis is the **fluid mosaic model**: a **phospholipid bilayer** (the balloon sandwich) that stays flexible, studded with a \"mosaic\" of **proteins**. **Channel** and **carrier** proteins move ions and sugars across; **receptor** proteins catch chemical signals and many medicines. Sugar tags on the surface act like **ID badges** so your immune system can tell your own cells from invaders. Because tiny gas molecules slip through but salts and sugars need a door, the membrane is **selectively permeable** — it chooses what crosses.\n\n### Where the analogy stops\nReal balloons would pop, but phospholipids actually re-seal themselves because tucking their tails away from water is automatic — so a small tear closes on its own.\n\n## Quick Recap\n\n- The plasma membrane is a **phospholipid bilayer** (polar heads out, nonpolar tails in) described by the **fluid mosaic model** — fluid, with a mosaic of proteins.\n- **Integral proteins** (channels, carriers, receptors) and **peripheral proteins** provide most functions; **glycoproteins/glycolipids** serve as recognition markers.\n- The membrane is **selectively permeable**: small nonpolar molecules cross freely; ions and polar molecules need proteins — the basis of cellular gradients.\n\n## Sources\n\n- OpenStax, *Anatomy and Physiology 2e*, Chapter 3.1: The Cell Membrane. https://openstax.org/details/books/anatomy-and-physiology-2e\n- U.S. National Library of Medicine, MedlinePlus Genetics — Cells and DNA. https://medlineplus.gov/genetics/\n"
+}

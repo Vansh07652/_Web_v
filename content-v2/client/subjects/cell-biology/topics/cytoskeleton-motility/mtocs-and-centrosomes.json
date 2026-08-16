@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cytoskeleton-motility:mtocs-and-centrosomes",
+  "slug": "mtocs-and-centrosomes",
+  "title": "MTOCs and Centrosomes",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cytoskeleton-motility",
+    "slug": "cytoskeleton-motility",
+    "title": "Cytoskeleton Motility",
+    "order": 5
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "Microtubules rarely assemble spontaneously in the cell; they are **nucleated** at organized sites called **microtubule-organizing centers (MTOCs)**. In most animal cells the dominant MTOC is the **centrosome**, a structure of two barrel-shaped **centrioles** embedded in an amorphous cloud of **pericentriolar material (PCM)** that is rich in **γ-tubulin ring complexes (γ-TuRCs)**. γ-TuRCs serve as templates that seed new microtubules and **cap their minus ends**, so microtubules grow with their plus ends pointing outward into the cell. By anchoring minus ends, the centrosome fixes the polarity of the whole array — a prerequisite for directed transport and spindle assembly.",
+    "whyItMatters": "The centrosome organizes cell polarity, positions the Golgi and other organelles, and is essential for building the **bipolar mitotic spindle**. Its faithful once-per-cycle duplication is what prevents errors in chromosome number: extra centrosomes (centrosome amplification) are a hallmark of cancer cells and drive multipolar spindles and aneuploidy. Basal bodies (modified centrioles) are required to build cilia and flagella, so centrosome/centriole defects also cause ciliopathies and developmental disorders (microcephaly when PCM proteins like CDK5RAP2 are mutated). Non-centrosomal MTOCs (Golgi, cell cortex) add further polarity in differentiated cells.",
+    "learningObjectives": "- Define the microtubule-organizing center (MTOC) and describe its nucleation function.\n- Explain the role of γ-tubulin and the γ-tubulin ring complex (γ-TuRC) in templating microtubule assembly.\n- Describe centrosome structure (centrioles + pericentriolar material) and its duplication cycle.\n- Compare the centrosome with other MTOCs (basal bodies, spindle pole bodies).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nMicrotubules rarely assemble spontaneously in the cell; they are **nucleated** at organized sites called **microtubule-organizing centers (MTOCs)**. In most animal cells the dominant MTOC is the **centrosome**, a structure of two barrel-shaped **centrioles** embedded in an amorphous cloud of **pericentriolar material (PCM)** that is rich in **γ-tubulin ring complexes (γ-TuRCs)**. γ-TuRCs serve as templates that seed new microtubules and **cap their minus ends**, so microtubules grow with their plus ends pointing outward into the cell. By anchoring minus ends, the centrosome fixes the polarity of the whole array — a prerequisite for directed transport and spindle assembly.\n\n### Key Components\n\n- **γ-tubulin:** a tubulin-family member (distinct from α/β) found only at MTOCs; ~35% identical to α/β-tubulin; it does not polymerize into filaments.\n- **γ-TuRC:** a lockwasher-shaped ring of γ-tubulin plus accessory proteins (GCP2–GCP6) that provides a 13-fold template matching the microtubule's 13 protofilaments.\n- **Centrosome:** the main animal-cell MTOC = two centrioles + surrounding PCM.\n- **Centriole:** a short barrel of nine microtubule **triplets** arranged with ninefold symmetry (no central pair), oriented at right angles to its partner.\n- **Pericentriolar material (PCM):** the electron-dense matrix holding γ-TuRCs and regulators (e.g., pericentrin, CDK5RAP2); it expands dramatically at mitosis (PCM \"maturation\").\n- **Basal body:** a centriole-derived structure at the base of cilia/flagella that nucleates the axoneme.\n- **Spindle pole body (SPB):** the yeast MTOC, functionally analogous but structurally distinct (no centrioles).\n\n### Mechanism / How It Works\n\n1. γ-tubulin, with GCPs, assembles into γ-TuRCs that localize to the centrosomal PCM through anchoring proteins (pericentrin, CDK5RAP2, ninein).\n2. A γ-TuRC binds the first α-tubulin of a nascent protofilament, presenting a ring whose 13 γ-tubulin subunits template the 13 protofilaments of a new microtubule.\n3. Because the γ-TuRC binds the α-tubulin (minus) end, it **caps and stabilizes the minus end**, leaving β-tubulin exposed at the plus end.\n4. Elongation then proceeds by addition of αβ dimers at the free plus end, which grows outward, away from the centrosome.\n5. The result is a radial array with a **single, consistent polarity**: minus ends at the center, plus ends at the periphery.\n6. The centrosome duplicates once per cell cycle (controlled by PLK4 and the centriole cartwheel protein SAS-6): a new \"daughter\" centriole grows at right angles to each existing one, so each daughter cell inherits exactly one centrosome.\n\n### Energy and Directionality\n\nNucleation itself does not consume ATP or GTP; the γ-TuRC provides a **kinetic template** that overcomes the unfavorable, slow spontaneous nucleation step. Elongation of the seeded microtubule then consumes **GTP** (hydrolyzed by β-tubulin) as described for assembly. Directionality is fixed at the moment of nucleation: because the γ-TuRC caps the minus end, growth is **unidirectional**, away from the MTOC, and the array's polarity is set by the centrosome's position.\n\n### Experimental Evidence / Technique\n\n- **Electron microscopy:** centrosomes reveal paired centrioles with nine triplet microtubules and surrounding PCM; the SPB and basal bodies show analogous ninefold structures.\n- **Regrowth assays:** depolymerizing microtubules with cold or nocodazole, then washing out, shows new microtubules **regrowing from the centrosome** — the classic demonstration of its nucleation role.\n- **γ-tubulin localization/perturbation:** antibodies show γ-tubulin concentrated at the centrosome; depleting γ-tubulin or γ-TuRC components abolishes microtubule nucleation.\n- **Structural studies (cryo-EM):** resolved the γ-TuRC ring and showed how its 13-fold symmetry templates the microtubule lattice.\n- **Live imaging of centriole duplication:** fluorescent PLK4/SAS-6 reveals the once-per-cycle assembly of new centrioles.",
+    "howItWorks": "1. γ-tubulin, with GCPs, assembles into γ-TuRCs that localize to the centrosomal PCM through anchoring proteins (pericentrin, CDK5RAP2, ninein).\n2. A γ-TuRC binds the first α-tubulin of a nascent protofilament, presenting a ring whose 13 γ-tubulin subunits template the 13 protofilaments of a new microtubule.\n3. Because the γ-TuRC binds the α-tubulin (minus) end, it **caps and stabilizes the minus end**, leaving β-tubulin exposed at the plus end.\n4. Elongation then proceeds by addition of αβ dimers at the free plus end, which grows outward, away from the centrosome.\n5. The result is a radial array with a **single, consistent polarity**: minus ends at the center, plus ends at the periphery.\n6. The centrosome duplicates once per cell cycle (controlled by PLK4 and the centriole cartwheel protein SAS-6): a new \"daughter\" centriole grows at right angles to each existing one, so each daughter cell inherits exactly one centrosome.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- The centrosome is the **major MTOC** in animal cells and **nucleates** microtubules while capping their **minus ends**.\n- Nucleation is templated by **γ-tubulin ring complexes (γ-TuRCs)**, which mimic the 13-protofilament lattice.\n- A centriole has **9 triplets** of microtubules (9×3), arranged in a barrel; the centrosome has **two orthogonal centrioles**.\n- The pericentriolar material (PCM) concentrates γ-TuRCs and **expands at mitosis** (maturation).\n- Centriole duplication is **once per cell cycle**, controlled by **PLK4** and SAS-6.\n- Basal bodies nucleate cilia/flagella; **spindle pole bodies** are the yeast MTOC.\n- Centrosome **amplification** → multipolar spindles → aneuploidy (cancer).\n- Because minus ends are capped at the MTOC, all microtubules point their **plus ends outward**.",
+    "commonConfusions": "- **\"Centrioles are the nucleators.\"** — Not directly. Nucleation is done by **γ-TuRCs in the PCM**; centrioles organize/recruit the PCM and serve as templates for duplication and for cilia.\n- **\"γ-tubulin polymerizes like α/β-tubulin.\"** — No. γ-tubulin does not form filaments; it forms ring complexes that template nucleation.\n- **\"The centrosome is a permanent, static organelle.\"** — It is highly dynamic: PCM expands at mitosis, centrioles duplicate once per cycle, and the whole structure is dismantled/reorganized.\n- **\"Only animal cells have MTOCs.\"** — All eukaryotes nucleate microtubules from MTOCs; plants and fungi use acentriolar MTOCs (e.g., spindle pole bodies in yeast).\n- **\"Microtubules grow from the centrosome toward it.\"** — They grow with plus ends **away** from the centrosome; the centrosome caps the minus ends.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a factory that makes ropes. If the factory just threw fibers on the floor, they'd tangle randomly. Instead, the factory has a special spool (the γ-TuRC) with thirteen slots that grabs the very first fiber of each rope and holds it tight. The rope can only grow out of the free end, away from the spool. Because every rope is anchored to the same spool, they all point outward in the same direction — like the spokes of a wheel. The spool sits in the middle of the cell (the centrosome), so the cell always knows which way is \"out.\" (The analogy omits that the \"spool\" is a ring of γ-tubulin proteins, that the cell makes exactly one copy of the factory per division, and that yeast use a different factory design.)",
+    "quickReview": "- MTOCs nucleate microtubules and anchor their minus ends, fixing array polarity.\n- The centrosome = two centrioles (9 triplets each) + PCM containing γ-TuRCs.\n- γ-TuRC provides a 13-fold template and caps the minus end; growth is plus-end-outward.\n- Duplication is once per cycle (PLK4/SAS-6); extra centrosomes → aneuploidy.\n- Basal bodies and spindle pole bodies are analogous MTOCs.\n- Regrowth assays (cold/nocodazole washout) proved centrosomal nucleation.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, et al. *Molecular Biology of the Cell.* 4th ed. Chapter 16: \"The Cytoskeleton.\" https://www.ncbi.nlm.nih.gov/books/NBK21051/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21051/"
+      },
+      {
+        "text": "Alberts B, et al. *Molecular Biology of the Cell.* 4th ed. \"How Cells Regulate Their Cytoskeletal Filaments.\" https://www.ncbi.nlm.nih.gov/books/NBK26809/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26809/"
+      },
+      {
+        "text": "Cooper GM. *The Cell: A Molecular Approach.* 2nd ed. Chapter 11: \"The Cytoskeleton and Cell Movement.\" https://www.ncbi.nlm.nih.gov/books/NBK9893/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9893/"
+      },
+      {
+        "text": "OpenStax. *Biology 2e.* Chapter 4.5: \"The Cytoskeleton.\" https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+        "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/05-cytoskeleton-motility/09-mtocs-and-centrosomes.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

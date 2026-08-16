@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-regulation-eukaryotes-and-epigenetics-0008",
+  "subject": "genetics",
+  "lesson": "gene-regulation-eukaryotes-and-epigenetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application In mammalian females, one X chromosome is inactivated in each cell early in development. *XIST* at Xq13.2 produces a long noncoding RNA that initiates X chromosome inactivation. Which statement correctly describes how the inactive X is chosen and silenced?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The *XIST* RNA is translated into a protein that degrades the chromosome that produces it."
+    },
+    {
+      "id": "b",
+      "text": "The *XIST* RNA coats the X chromosome that transcribed it, silencing that chromosome in cis."
+    },
+    {
+      "id": "c",
+      "text": "Both X chromosomes are partially inactivated in every cell, and the active copies compensate by doubling expression."
+    },
+    {
+      "id": "d",
+      "text": "X inactivation happens only in sperm, so males carry one active and one inactive X."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "*XIST* is transcribed from the chromosome destined to become inactive, and the *XIST* RNA coats that chromosome and recruits silencing marks, so inactivation acts in cis on the chromosome that expressed it. A fails because *XIST* is noncoding and is not translated. C fails because inactivation is complete and random per cell, not partial on both chromosomes. D fails because inactivation occurs in the female embryo, while males have a single X that remains active.",
+  "difficulty": "unknown",
+  "tags": [
+    "xist",
+    "cis",
+    "inactivation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-8ab599ccbbccc2db",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

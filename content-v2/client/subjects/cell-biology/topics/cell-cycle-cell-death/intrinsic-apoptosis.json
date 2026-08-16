@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-cycle-cell-death:intrinsic-apoptosis",
+  "slug": "intrinsic-apoptosis",
+  "title": "Intrinsic (Mitochondrial) Apoptosis Pathway",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-cycle-cell-death",
+    "slug": "cell-cycle-cell-death",
+    "title": "Cell Cycle Cell Death",
+    "order": 7
+  },
+  "order": 10,
+  "status": "final",
+  "sections": {
+    "overview": "The intrinsic (mitochondrial) pathway of apoptosis is activated by intracellular stress — DNA damage, growth-factor withdrawal, ER stress, or developmental cues — rather than by an external death ligand. Its central event is mitochondrial outer-membrane permeabilization (MOMP), which releases cytochrome c (and other intermembrane-space proteins such as SMAC/DIABLO) into the cytosol. Cytochrome c binds the adaptor Apaf-1, which oligomerizes into a wheel-shaped \"apoptosome\" that recruits and activates the initiator caspase-9. Caspase-9 then activates executioner caspases that dismantle the cell. The pathway is governed by the Bcl-2 protein family — pro-apoptotic and anti-apoptotic members that regulate MOMP — and by p53.",
+    "whyItMatters": "The intrinsic pathway is the cell's response to internal damage and is the route by which most chemotherapeutics and radiation kill tumor cells (via p53 → MOMP). Its dysregulation is central to cancer: overexpression of Bcl-2 (e.g., the t(14;18) translocation in follicular lymphoma), loss of Bax, or p53 mutation lets damaged cells survive. This has produced BH3-mimetic drugs — venetoclax is approved for chronic lymphocytic leukemia and acute myeloid leukemia. The pathway is also key to developmental cell death, immune-cell homeostasis, and neurodegeneration (excess MOMP) and to the mitochondrial dysfunction in aging.",
+    "learningObjectives": "- Describe the triggers of the intrinsic apoptosis pathway.\n- Explain the role of Bcl-2 family proteins in controlling mitochondrial outer-membrane permeabilization (MOMP).\n- Trace the pathway from MOMP to cytochrome c release to caspase activation.\n- Explain how Apaf-1 and the apoptosome activate caspase-9.\n- Connect p53 and Bcl-2 family dysregulation to cancer and therapy.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe intrinsic (mitochondrial) pathway of apoptosis is activated by intracellular stress — DNA damage, growth-factor withdrawal, ER stress, or developmental cues — rather than by an external death ligand. Its central event is mitochondrial outer-membrane permeabilization (MOMP), which releases cytochrome c (and other intermembrane-space proteins such as SMAC/DIABLO) into the cytosol. Cytochrome c binds the adaptor Apaf-1, which oligomerizes into a wheel-shaped \"apoptosome\" that recruits and activates the initiator caspase-9. Caspase-9 then activates executioner caspases that dismantle the cell. The pathway is governed by the Bcl-2 protein family — pro-apoptotic and anti-apoptotic members that regulate MOMP — and by p53.\n\n### Key Components\n\n- **Bcl-2 family**: Anti-apoptotic (Bcl-2, Bcl-xL, Mcl-1) vs. pro-apoptotic. Pro-apoptotic members split into multi-domain effectors (Bax, Bak) and BH3-only sensors (Bid, Bim, Puma, Noxa, Bad).\n- **Bax/Bak**: Effector proteins that oligomerize in the outer mitochondrial membrane to form pores (MOMP).\n- **BH3-only proteins**: Stress sensors that either activate Bax/Bak or neutralize anti-apoptotic Bcl-2 proteins.\n- **Cytochrome c**: Heme protein released from the mitochondrial intermembrane space.\n- **Apaf-1**: Cytosolic adaptor; binds cytochrome c and dATP.\n- **Apoptosome**: Heptameric Apaf-1/cytochrome c complex that activates caspase-9.\n- **SMAC/DIABLO**: Releases caspase inhibition by neutralizing IAPs (inhibitor of apoptosis proteins).\n- **p53**: Transcriptionally upregulates Puma/Noxa/Bax and can act directly at mitochondria.\n\n### Mechanism / How It Works\n\n1. **Stress sensing**: DNA damage activates p53, which induces BH3-only proteins (Puma, Noxa) and Bax. Growth-factor withdrawal causes Bim (via FOXO) and Bad (dephosphorylated) activation. These signals converge on the mitochondria.\n2. **Bcl-2 family control of MOMP**: BH3-only proteins bind and neutralize anti-apoptotic Bcl-2/Bcl-xL/Mcl-1 and/or directly activate Bax and Bak. Activated Bax/Bak undergo conformational change, insert into the outer mitochondrial membrane, and oligomerize into pores — MOMP.\n3. **Cytochrome c release**: Pores release cytochrome c (and SMAC/DIABLO, Omi/HtrA2) from the intermembrane space.\n4. **Apoptosome assembly**: In the cytosol, cytochrome c binds Apaf-1, inducing a conformational change (aided by dATP) that exposes its oligomerization domain. Seven Apaf-1 molecules assemble with cytochrome c into the heptameric apoptosome, which presents caspase-recruitment domains (CARDs).\n5. **Caspase-9 activation**: Procaspase-9 is recruited to the apoptosome via CARD–CARD interactions and is activated by proximity-induced dimerization (the induced-proximity model).\n6. **Execution**: Caspase-9 cleaves and activates executioner caspases-3 and -7, which dismantle the cell. SMAC neutralizes IAPs (XIAP) that would otherwise inhibit caspases.\n\n### Energy and Directionality\n\nThe intrinsic pathway is an energy-dependent, stepwise amplification cascade. MOMP is the point of no return: once the outer membrane is permeabilized, cytochrome c is released and the cell is committed to death, even if the initial stimulus is removed — because the downstream caspase cascade is self-amplifying and feeds forward (caspase-9 → caspase-3 → more caspase-9). Apoptosome assembly requires dATP/ATP, and caspase proteolysis is irreversible (proteolysis, not reversible phosphorylation). The Bcl-2 family acts as a rheostat: the balance of pro- vs. anti-apoptotic members, not any single protein, sets the threshold for MOMP.\n\n### Experimental Evidence / Technique\n\n- **Cytochrome c release assay**: Immunofluorescence or subcellular fractionation shows cytochrome c translocating from mitochondria to cytosol upon apoptosis induction.\n- **Cell-free systems**: Adding cytochrome c and dATP to Xenopus or mammalian cytosol activates caspases — Liu et al. (1996) identified cytochrome c and Apaf-1 as the cytosolic factors.\n- **Bax/Bak double knockout**: Cells lacking both Bax and Bak resist MOMP and apoptosis, proving they are the essential pore-forming effectors.\n- **Apoptosome structure**: Cryo-EM revealed the heptameric Apaf-1–cytochrome c wheel.\n- **BH3 profiling and BH3 mimetics**: Drugs like ABT-737/venetoclax (a Bcl-2 inhibitor) trigger apoptosis in Bcl-2-dependent cancer cells, validating the pathway clinically.",
+    "howItWorks": "1. **Stress sensing**: DNA damage activates p53, which induces BH3-only proteins (Puma, Noxa) and Bax. Growth-factor withdrawal causes Bim (via FOXO) and Bad (dephosphorylated) activation. These signals converge on the mitochondria.\n2. **Bcl-2 family control of MOMP**: BH3-only proteins bind and neutralize anti-apoptotic Bcl-2/Bcl-xL/Mcl-1 and/or directly activate Bax and Bak. Activated Bax/Bak undergo conformational change, insert into the outer mitochondrial membrane, and oligomerize into pores — MOMP.\n3. **Cytochrome c release**: Pores release cytochrome c (and SMAC/DIABLO, Omi/HtrA2) from the intermembrane space.\n4. **Apoptosome assembly**: In the cytosol, cytochrome c binds Apaf-1, inducing a conformational change (aided by dATP) that exposes its oligomerization domain. Seven Apaf-1 molecules assemble with cytochrome c into the heptameric apoptosome, which presents caspase-recruitment domains (CARDs).\n5. **Caspase-9 activation**: Procaspase-9 is recruited to the apoptosome via CARD–CARD interactions and is activated by proximity-induced dimerization (the induced-proximity model).\n6. **Execution**: Caspase-9 cleaves and activates executioner caspases-3 and -7, which dismantle the cell. SMAC neutralizes IAPs (XIAP) that would otherwise inhibit caspases.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Trigger: **intracellular stress** (DNA damage, growth-factor withdrawal, ER stress).\n- Key event: **MOMP** → **cytochrome c** release (with SMAC/DIABLO).\n- Bcl-2 family: anti-apoptotic (**Bcl-2, Bcl-xL, Mcl-1**) vs. pro-apoptotic effectors (**Bax, Bak**) and BH3-only sensors (**Bim, Puma, Noxa, Bid, Bad**).\n- Cytochrome c + dATP → **Apaf-1** heptamer (**apoptosome**) → **caspase-9** activation (induced proximity).\n- p53 induces Puma/Noxa/Bax; **SMAC** neutralizes **IAPs (XIAP)**.",
+    "commonConfusions": "- **Intrinsic vs. extrinsic**: Intrinsic is triggered by *internal* stress and runs through mitochondria/cytochrome c; extrinsic is triggered by *external* death ligands and runs through death receptors (caspase-8). They converge on the executioner caspases (and can cross-talk via Bid).\n- **Bax/Bak vs. Bcl-2**: Bax/Bak are pro-apoptotic pore formers; Bcl-2/Bcl-xL are anti-apoptotic. All are structurally related (Bcl-2 family), but functionally opposite.\n- **Cytochrome c's dual role**: In healthy cells it shuttles electrons in respiration; only when released to the cytosol does it trigger apoptosis.\n- **Caspase-9 is an initiator, not an executioner**: It activates caspases-3/7; the executioners do the demolition.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture each cell as having a set of little \"self-destruct capsules\" (the mitochondria) filled with a trigger chemical (cytochrome c). Normally a family of guards keeps the capsules sealed — some guards protect the capsule (Bcl-2) and some guards are saboteurs that poke holes in it (Bax/Bak). When the cell senses serious damage inside (like broken DNA), the alarm system (p53) calls in more saboteurs, which poke holes in the capsule. The trigger chemical leaks out, and it snaps together with a builder protein (Apaf-1) into a big wheel — the \"execution machine\" — that turns on the cell's scissors (caspases). The analogy's limit: MOMP is a precisely regulated molecular pore, and once cytochrome c is out, the cell is committed — there is no putting the trigger chemical back.",
+    "quickReview": "- Stress → p53/BH3-only → neutralize Bcl-2, activate Bax/Bak → MOMP → cytochrome c (+SMAC) release.\n- Cytochrome c + dATP + Apaf-1 → apoptosome → procaspase-9 → caspase-9 (initiator) → caspase-3/7 (executioners) → cell death.\n- Point of no return = MOMP; regulated by Bcl-2 family balance.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 18, \"The Intrinsic Pathway of Apoptosis.\""
+      },
+      {
+        "text": "Liu, X. et al., \"Induction of apoptotic program in cell-free extracts: requirement for dATP and cytochrome c,\" *Cell* (1996)."
+      },
+      {
+        "text": "Tait, S. W. G. & Green, D. R., \"Mitochondria and cell death: outer membrane permeabilization and beyond,\" *Nature Reviews Molecular Cell Biology* (2010)."
+      },
+      {
+        "text": "Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 22."
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"Bcl-2,\" \"apoptosome.\""
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/07-cell-cycle-cell-death/10-intrinsic-apoptosis.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

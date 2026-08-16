@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:vesicular-traffic:copi",
+  "slug": "copi",
+  "title": "COPI: Retrograde Golgi to ER Transport",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:vesicular-traffic",
+    "slug": "vesicular-traffic",
+    "title": "Vesicular Traffic",
+    "order": 4
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "COPI is the coat that buds vesicles from the **Golgi** and carries them **backward (retrograde) to the ER** (and between Golgi cisternae). Its job is retrieval: it brings back proteins that escaped the ER and returns Golgi-resident enzymes to their correct cisternae. COPI assembly is nucleated by the small GTPase **ARF1**, which recruits a preassembled seven-subunit complex called **coatomer**. A key cargo-selection device is the **KDEL receptor**, a transmembrane receptor that captures lumenal ER-resident proteins (such as BiP, which carries the C-terminal **KDEL** sequence) that leaked forward, and returns them to the ER. COPI is thus the balance wheel of the secretory pathway: COPII pushes material forward, and COPI pulls residents and machinery back, keeping each compartment's identity stable.",
+    "whyItMatters": "COPI keeps the secretory pathway from \"running down\": without it, the ER would lose its resident chaperones and enzymes (BiP, PDI, glycosyltransferases) and the Golgi would lose its processing enzymes as cisternae mature. COPI defects are implicated in disease; for example, mutations in coatomer subunits cause a congenital disorder affecting bone and brain development, and brefeldin A's mechanism is exploited in research and underlies some of its biological effects.",
+    "learningObjectives": "- Describe the structure of the COPI coat and its assembly from ARF1.\n- Explain the role of the KDEL receptor in retrieving ER-resident proteins.\n- Contrast COPI (retrograde) with COPII (anterograde) transport.\n- Relate COPI to the cisternal-maturation model of the Golgi.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nCOPI is the coat that buds vesicles from the **Golgi** and carries them **backward (retrograde) to the ER** (and between Golgi cisternae). Its job is retrieval: it brings back proteins that escaped the ER and returns Golgi-resident enzymes to their correct cisternae. COPI assembly is nucleated by the small GTPase **ARF1**, which recruits a preassembled seven-subunit complex called **coatomer**. A key cargo-selection device is the **KDEL receptor**, a transmembrane receptor that captures lumenal ER-resident proteins (such as BiP, which carries the C-terminal **KDEL** sequence) that leaked forward, and returns them to the ER. COPI is thus the balance wheel of the secretory pathway: COPII pushes material forward, and COPI pulls residents and machinery back, keeping each compartment's identity stable.\n\n### Key Components\n\n- **ARF1:** the small GTPase that nucleates COPI at the Golgi (activated by a Golgi GEF).\n- **Coatomer:** the seven-subunit COPI coat (α-, β-, β′-, γ-, δ-, ε-, ζ-COP) recruited by ARF1-GTP.\n- **KDEL receptor (Erd2):** a Golgi/cis-Golgi transmembrane receptor that binds lumenal proteins bearing the C-terminal **KDEL** (HDEL in yeast) sequence.\n- **KKXX motif:** a C-terminal, di-lysine **retrieval signal** on many ER-resident membrane proteins, recognized directly by COPI.\n- **ARF-GAP:** promotes ARF1 GTP hydrolysis and coat disassembly.\n\n### Mechanism / How It Works\n\n1. A Golgi-localized **GEF** loads GTP onto **ARF1**, whose amphipathic helix inserts into the Golgi membrane.\n2. ARF1-GTP recruits **coatomer** from the cytosol, assembling the COPI coat on the membrane.\n3. The coat selects retrograde cargo two ways: (a) the **KDEL receptor** binds ER-resident lumenal proteins by their **KDEL** sequence and is itself sorted into the vesicle; (b) membrane proteins bearing **KKXX** (di-lysine) tails bind coatomer directly.\n4. The polymerizing coat bends the membrane into a bud, and the vesicle pinches off.\n5. After scission, **ARF-GAP** triggers ARF1 GTP hydrolysis; the coat disassembles, and the vesicle fuses with the ER (or an earlier cisterna), returning its cargo.\n6. In the ER's higher-Ca²⁺, lower-pH-relative environment, the KDEL receptor releases its cargo, and the empty receptor is recycled back to the Golgi.\n\n### Energy and Directionality\n\nCOPI, like COPII, is a **GTP-driven** cycle: ARF1 uses GTP to bind the membrane and recruit coatomer, and GTP hydrolysis (by ARF-GAP) disassembles the coat after budding. Directionality (Golgi → ER) is set by the **localization of the ARF1 GEF to the Golgi** and by the cargo receptors: the KDEL receptor binds cargo in the Golgi and releases it in the ER, where the lumenal environment (Ca²⁺ concentration and pH) is more favorable to dissociation. This difference in binding affinity between donor and acceptor compartments makes the retrieval cycle directional.\n\n### Experimental Evidence / Technique\n\nCOPI was discovered using the drug **brefeldin A**, which blocks ARF1 activation (by inhibiting a GEF) and causes the Golgi to collapse into the ER — showing that continuous retrograde transport maintains Golgi structure. **In vitro reconstitution** with ARF1, coatomer, GTP, and Golgi membranes produced COPI vesicles. **KDEL retention/reporting experiments** showed that adding a KDEL sequence to a secreted protein (e.g., lysozyme) causes it to be retrieved to and retained in the ER. Mutation of the KDEL sequence or the KKXX motif causes proteins to escape forward.",
+    "howItWorks": "1. A Golgi-localized **GEF** loads GTP onto **ARF1**, whose amphipathic helix inserts into the Golgi membrane.\n2. ARF1-GTP recruits **coatomer** from the cytosol, assembling the COPI coat on the membrane.\n3. The coat selects retrograde cargo two ways: (a) the **KDEL receptor** binds ER-resident lumenal proteins by their **KDEL** sequence and is itself sorted into the vesicle; (b) membrane proteins bearing **KKXX** (di-lysine) tails bind coatomer directly.\n4. The polymerizing coat bends the membrane into a bud, and the vesicle pinches off.\n5. After scission, **ARF-GAP** triggers ARF1 GTP hydrolysis; the coat disassembles, and the vesicle fuses with the ER (or an earlier cisterna), returning its cargo.\n6. In the ER's higher-Ca²⁺, lower-pH-relative environment, the KDEL receptor releases its cargo, and the empty receptor is recycled back to the Golgi.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- COPI mediates **retrograde** (Golgi → ER) transport.\n- Nucleated by **ARF1-GTP**; coat = **coatomer** (7 subunits).\n- **KDEL receptor** retrieves lumenal ER-resident proteins (BiP has KDEL).\n- **KKXX** is the retrieval signal on ER-resident membrane proteins.\n- ARF-GAP → GTP hydrolysis → coat disassembly.\n- Brefeldin A blocks ARF1 activation → Golgi collapses into ER.\n- COPI also recycles Golgi enzymes during cisternal maturation.",
+    "commonConfusions": "- **\"COPI and COPII go the same direction.\"** — Opposite directions: COPII is ER → Golgi; COPI is Golgi → ER.\n- **\"COPI uses Sar1.\"** — COPI uses **ARF1**; Sar1 is the COPII GTPase.\n- **\"KDEL is a signal on membrane proteins.\"** — KDEL is a **lumenal** (soluble) protein retention sequence read by the KDEL receptor; membrane proteins use **KKXX**.\n- **\"Retrograde transport is a minor leak-correction.\"** — It is essential and continuous; blocking it (brefeldin A) collapses the Golgi into the ER.\n- **\"The KDEL receptor releases cargo in the Golgi.\"** — It *binds* in the Golgi and *releases* in the ER (where Ca²⁺/pH favor dissociation).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nCOPII trucks drive goods forward from the factory (ER) to the warehouse (Golgi), but some workers and tools accidentally get swept along. COPI is the return truck that drives the opposite direction and brings those workers back. It finds them with two kinds of tags: proteins floating in the hallway carry a \"return to factory\" sticker (KDEL), and tools bolted to the wall carry a different \"return\" sticker (KKXX). A scanner on the return truck (the KDEL receptor) reads the stickers and loads them up. Without these return trips, the factory would run out of its own equipment. (The analogy simplifies that the receptor lets go of its cargo in the factory because the factory's conditions — more calcium, different acidity — loosen its grip.)",
+    "quickReview": "- COPI = retrograde Golgi → ER (and intra-Golgi) coat.\n- ARF1-GTP → coatomer → cargo selection (KDEL receptor, KKXX) → bud → ARF-GAP → uncoat.\n- KDEL (lumenal, e.g., BiP) vs KKXX (membrane) retrieval signals.\n- Brefeldin A blocks ARF1 activation, collapsing the Golgi.\n- Maintains compartment identity and supports cisternal maturation.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Transport from the ER through the Golgi Apparatus.\" https://www.ncbi.nlm.nih.gov/books/NBK26941/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26941/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Molecular Mechanisms of Membrane Transport and the Maintenance of Compartmental Diversity.\" https://www.ncbi.nlm.nih.gov/books/NBK26859/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26859/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/04-vesicular-traffic/03-copi.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

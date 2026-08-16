@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:modern-techniques:crispr-cas9",
+  "slug": "crispr-cas9",
+  "title": "CRISPR-Cas9 Genome Editing",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:modern-techniques",
+    "slug": "modern-techniques",
+    "title": "Modern Techniques",
+    "order": 11
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "CRISPR-Cas9 is an RNA-guided genome-editing system adapted from a bacterial adaptive immune mechanism. A **guide RNA (gRNA)** base-pairs with a complementary DNA sequence, directing the **Cas9** endonuclease to cut both DNA strands at that site, but only where a short **PAM** (protospacer-adjacent motif, e.g., 5′-NGG for *S. pyogenes* Cas9) is present. The resulting **double-strand break (DSB)** is repaired by the cell: error-prone **NHEJ** introduces small insertions/deletions (indels) that usually frameshift and **knock out** the gene, while **HDR** (homology-directed repair) uses a provided donor template to **knock in** a precise sequence. Because CRISPR edits the **DNA**, it produces permanent, heritable gene inactivation or modification — in contrast to RNAi, which only transiently degrades mRNA.",
+    "whyItMatters": "CRISPR-Cas9 has revolutionized genetics and medicine: it enables precise gene knockouts in any organism, correction of disease mutations, genome-wide genetic screens, and therapies for sickle-cell disease and beta-thalassemia (the approved therapy exagamglogene autotemcel). Its simplicity — a programmable RNA plus one protein — turned a months-long, organism-limited process into a routine, scalable experiment.",
+    "learningObjectives": "- Explain how a guide RNA directs Cas9 to a target sequence adjacent to a PAM.\n- Describe the double-strand break and the two repair outcomes: NHEJ and HDR.\n- Distinguish knockout (via NHEJ indels) from knock-in (via HDR with a donor template).\n- Compare CRISPR knockout to RNAi knockdown.\n- Identify off-target concerns and the controls used to validate an edit.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nCRISPR-Cas9 is an RNA-guided genome-editing system adapted from a bacterial adaptive immune mechanism. A **guide RNA (gRNA)** base-pairs with a complementary DNA sequence, directing the **Cas9** endonuclease to cut both DNA strands at that site, but only where a short **PAM** (protospacer-adjacent motif, e.g., 5′-NGG for *S. pyogenes* Cas9) is present. The resulting **double-strand break (DSB)** is repaired by the cell: error-prone **NHEJ** introduces small insertions/deletions (indels) that usually frameshift and **knock out** the gene, while **HDR** (homology-directed repair) uses a provided donor template to **knock in** a precise sequence. Because CRISPR edits the **DNA**, it produces permanent, heritable gene inactivation or modification — in contrast to RNAi, which only transiently degrades mRNA.\n\n### Key Components\n\n### Cas9 endonuclease\n- A large nuclease (from *Streptococcus pyogenes*) with two nuclease domains (HNH and RuvC) that each cut one DNA strand, producing a blunt double-strand break ~3 bp upstream of the PAM.\n\n### Guide RNA (gRNA / sgRNA)\n- A single chimeric RNA combining a **crRNA** (the ~20-nt sequence complementary to the target) and a **tracrRNA** (scaffold that binds Cas9). It determines where Cas9 cuts.\n\n### PAM (protospacer-adjacent motif)\n- A short sequence (5′-NGG for SpCas9) required immediately downstream of the target; Cas9 binds and cuts only in its presence. PAM is how the system distinguishes target from the bacterium's own CRISPR array.\n\n### Donor template (for HDR)\n- A DNA molecule carrying the desired edit flanked by homology arms, used to direct precise repair (knock-in, correction, tagging).\n\n### Mechanism\n\n1. **Targeting.** The gRNA-Cas9 complex scans DNA for a PAM, then the gRNA's 20-nt spacer base-pairs with the adjacent target.\n2. **Cleavage.** On a full match, Cas9's two nuclease domains cut each strand, creating a **DSB**.\n3. **Repair — NHEJ.** Without a donor, the cell ligates the break by non-homologous end joining, often leaving indels that disrupt the reading frame → **knockout**.\n4. **Repair — HDR.** With a donor template present (especially in S/G2 phase), homology-directed repair copies the template into the break → precise **knock-in** or correction.\n5. **Genotype.** Edited cells are cloned and genotyped (sequencing) to confirm the intended mutation; off-target sites are checked.\n\n### Energy and Directionality\n\nCas9 catalysis itself uses no external ATP — DNA cleavage is a hydrolysis reaction — but the search/targeting process is coupled to the cell's energy economy, and the repair pathways consume ATP: NHEJ (DNA-PK, ligase IV) and HDR (Rad51 strand invasion, DNA synthesis from dNTPs) both require **ATP and dNTP hydrolysis**. Directionality is enforced by two sequence checkpoints: the **PAM** (spatial anchor) and **gRNA-target complementarity** (sequence specificity), so cuts occur only at the programmed locus (and at imperfectly matched off-targets).\n\n### Experimental Evidence\n\n- **What it measures/produces:** targeted, permanent modification of a genomic locus — gene **knockout** or **knock-in**.\n- **Principle:** RNA-guided Cas9 DSB followed by endogenous NHEJ or HDR repair.\n- **Input:** Cas9 + gRNA (+ optional donor template), delivered as plasmid/RNP/virus; target cells. **Output:** cells/organisms with indels (knockout) or precise edits (knock-in).\n- **What it can prove:** a gene's necessity and sufficiency (via clean knockout and rescue), the effect of a specific mutation or tagged protein, and (with HDR) causality of a variant — a rigor RNAi cannot match.\n- **What it cannot prove:** it does not read out gene function directly (phenotypes must be assayed); mosaicism (mixed edited/unedited cells) can confuse results; and **off-target edits** at similar sequences can confound interpretation.\n- **Controls:** a **non-targeting gRNA** (negative control); **untransfected cells**; **Sanger/NGS sequencing of the target locus** to confirm the edit; **off-target analysis** (predictive + sequencing of top candidate sites); **rescue** (re-express the gene) to confirm phenotype specificity; clonal isolation to avoid mosaicism.\n- **Common mistakes:** using one gRNA with poor on-target efficiency; ignoring PAM requirements; confusing NHEJ and HDR outcomes; not verifying the genotype; and attributing a phenotype to on-target editing when off-target damage may be responsible.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- **gRNA** directs **Cas9**; **PAM (5′-NGG)** is required for binding/cutting.\n- Cas9 makes a **double-strand break (DSB)** ~3 bp upstream of the PAM.\n- **NHEJ** → indels → **knockout** (error-prone, no template).\n- **HDR** + donor template → **knock-in**/precise edit (needs homology arms).\n- CRISPR = **DNA** edit (permanent, heritable); RNAi = **mRNA** knockdown (transient).\n- Off-target editing is the key limitation; verify genotype by sequencing.",
+    "commonConfusions": "- **\"CRISPR and RNAi both knock out genes\"** — CRISPR edits **DNA** (permanent knockout/knock-in); RNAi degrades **mRNA** (transient knockdown). The DNA is untouched by RNAi.\n- **\"Cas9 cuts anywhere the gRNA matches\"** — Cutting also requires a **PAM** immediately adjacent; no PAM, no cut.\n- **\"NHEJ and HDR are interchangeable\"** — NHEJ is error-prone and template-free (knockout); HDR needs a donor and homology arms (knock-in/correction).\n- **\"CRISPR only knocks out\"** — With HDR it can knock in, correct, or tag genes; base editors and CRISPRi/a expand this further.\n- **\"An edit is guaranteed clean\"** — Off-target edits and mosaicism are real; genotyping and off-target checks are mandatory.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nCRISPR is a \"find and fix\" tool with a GPS and a pair of scissors. The GPS is a little RNA that reads the DNA like an address and brings a scissor-protein (Cas9) to exactly one house on the street — but the scissors only snip where a small \"PAM\" sign is posted. Once snipped, the cell's repair crew either slaps the ends back together sloppily (breaking the gene = knockout) or uses a spare part you supplied to fix it precisely (knock-in). (The analogy's limit: the GPS can still stop at a similar-looking house — an \"off-target\" — which is why scientists check the neighborhood afterward.)",
+    "quickReview": "- gRNA + Cas9 → bind PAM → DSB → NHEJ (indels → knockout) or HDR (+donor → knock-in).\n- Permanent DNA edit, unlike RNAi knockdown.\n- Verify by sequencing; screen for off-targets; use non-targeting gRNA controls.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NHGRI, \"CRISPR.\" https://www.genome.gov/genetics-glossary/CRISPR",
+        "url": "https://www.genome.gov/genetics-glossary/CRISPR"
+      },
+      {
+        "text": "NCI, \"CRISPR\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/crispr",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/crispr"
+      },
+      {
+        "text": "MedlinePlus, \"What are genome editing and CRISPR-Cas9?\" https://medlineplus.gov/genetics/understanding/genomicresearch/genomeediting/",
+        "url": "https://medlineplus.gov/genetics/understanding/genomicresearch/genomeediting/"
+      },
+      {
+        "text": "NCI, \"knockout\" and \"knock-in\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/knockout",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/knockout"
+      },
+      {
+        "text": "NCI, \"knock-in\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/knock-in",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/knock-in"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "crispr-cas9",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "09-crispr-cas9",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:1b8ae8e5011750f5"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:1b8ae8e5011750f5"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:1b8ae8e5011750f5"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:1b8ae8e5011750f5"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/11-modern-techniques/09-crispr-cas9.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# CRISPR-Cas9 Genome Editing\n\n## Learning Goals\n- Explain how a guide RNA directs Cas9 to a target sequence adjacent to a PAM.\n- Describe the double-strand break and the two repair outcomes: NHEJ and HDR.\n- Distinguish knockout (via NHEJ indels) from knock-in (via HDR with a donor template).\n- Compare CRISPR knockout to RNAi knockdown.\n- Identify off-target concerns and the controls used to validate an edit.\n\n## Core Concept\nCRISPR-Cas9 is an RNA-guided genome-editing system adapted from a bacterial adaptive immune mechanism. A **guide RNA (gRNA)** base-pairs with a complementary DNA sequence, directing the **Cas9** endonuclease to cut both DNA strands at that site, but only where a short **PAM** (protospacer-adjacent motif, e.g., 5′-NGG for *S. pyogenes* Cas9) is present. The resulting **double-strand break (DSB)** is repaired by the cell: error-prone **NHEJ** introduces small insertions/deletions (indels) that usually frameshift and **knock out** the gene, while **HDR** (homology-directed repair) uses a provided donor template to **knock in** a precise sequence. Because CRISPR edits the **DNA**, it produces permanent, heritable gene inactivation or modification — in contrast to RNAi, which only transiently degrades mRNA.\n\n## Key Components\n\n### Cas9 endonuclease\n- A large nuclease (from *Streptococcus pyogenes*) with two nuclease domains (HNH and RuvC) that each cut one DNA strand, producing a blunt double-strand break ~3 bp upstream of the PAM.\n\n### Guide RNA (gRNA / sgRNA)\n- A single chimeric RNA combining a **crRNA** (the ~20-nt sequence complementary to the target) and a **tracrRNA** (scaffold that binds Cas9). It determines where Cas9 cuts.\n\n### PAM (protospacer-adjacent motif)\n- A short sequence (5′-NGG for SpCas9) required immediately downstream of the target; Cas9 binds and cuts only in its presence. PAM is how the system distinguishes target from the bacterium's own CRISPR array.\n\n### Donor template (for HDR)\n- A DNA molecule carrying the desired edit flanked by homology arms, used to direct precise repair (knock-in, correction, tagging).\n\n## Mechanism\n1. **Targeting.** The gRNA-Cas9 complex scans DNA for a PAM, then the gRNA's 20-nt spacer base-pairs with the adjacent target.\n2. **Cleavage.** On a full match, Cas9's two nuclease domains cut each strand, creating a **DSB**.\n3. **Repair — NHEJ.** Without a donor, the cell ligates the break by non-homologous end joining, often leaving indels that disrupt the reading frame → **knockout**.\n4. **Repair — HDR.** With a donor template present (especially in S/G2 phase), homology-directed repair copies the template into the break → precise **knock-in** or correction.\n5. **Genotype.** Edited cells are cloned and genotyped (sequencing) to confirm the intended mutation; off-target sites are checked.\n\n## Energy and Directionality\nCas9 catalysis itself uses no external ATP — DNA cleavage is a hydrolysis reaction — but the search/targeting process is coupled to the cell's energy economy, and the repair pathways consume ATP: NHEJ (DNA-PK, ligase IV) and HDR (Rad51 strand invasion, DNA synthesis from dNTPs) both require **ATP and dNTP hydrolysis**. Directionality is enforced by two sequence checkpoints: the **PAM** (spatial anchor) and **gRNA-target complementarity** (sequence specificity), so cuts occur only at the programmed locus (and at imperfectly matched off-targets).\n\n## Experimental Evidence\n- **What it measures/produces:** targeted, permanent modification of a genomic locus — gene **knockout** or **knock-in**.\n- **Principle:** RNA-guided Cas9 DSB followed by endogenous NHEJ or HDR repair.\n- **Input:** Cas9 + gRNA (+ optional donor template), delivered as plasmid/RNP/virus; target cells. **Output:** cells/organisms with indels (knockout) or precise edits (knock-in).\n- **What it can prove:** a gene's necessity and sufficiency (via clean knockout and rescue), the effect of a specific mutation or tagged protein, and (with HDR) causality of a variant — a rigor RNAi cannot match.\n- **What it cannot prove:** it does not read out gene function directly (phenotypes must be assayed); mosaicism (mixed edited/unedited cells) can confuse results; and **off-target edits** at similar sequences can confound interpretation.\n- **Controls:** a **non-targeting gRNA** (negative control); **untransfected cells**; **Sanger/NGS sequencing of the target locus** to confirm the edit; **off-target analysis** (predictive + sequencing of top candidate sites); **rescue** (re-express the gene) to confirm phenotype specificity; clonal isolation to avoid mosaicism.\n- **Common mistakes:** using one gRNA with poor on-target efficiency; ignoring PAM requirements; confusing NHEJ and HDR outcomes; not verifying the genotype; and attributing a phenotype to on-target editing when off-target damage may be responsible.\n\n## Why It Matters\nCRISPR-Cas9 has revolutionized genetics and medicine: it enables precise gene knockouts in any organism, correction of disease mutations, genome-wide genetic screens, and therapies for sickle-cell disease and beta-thalassemia (the approved therapy exagamglogene autotemcel). Its simplicity — a programmable RNA plus one protein — turned a months-long, organism-limited process into a routine, scalable experiment.\n\n## High-Yield Facts\n- **gRNA** directs **Cas9**; **PAM (5′-NGG)** is required for binding/cutting.\n- Cas9 makes a **double-strand break (DSB)** ~3 bp upstream of the PAM.\n- **NHEJ** → indels → **knockout** (error-prone, no template).\n- **HDR** + donor template → **knock-in**/precise edit (needs homology arms).\n- CRISPR = **DNA** edit (permanent, heritable); RNAi = **mRNA** knockdown (transient).\n- Off-target editing is the key limitation; verify genotype by sequencing.\n\n## Eli Explains\nCRISPR is a \"find and fix\" tool with a GPS and a pair of scissors. The GPS is a little RNA that reads the DNA like an address and brings a scissor-protein (Cas9) to exactly one house on the street — but the scissors only snip where a small \"PAM\" sign is posted. Once snipped, the cell's repair crew either slaps the ends back together sloppily (breaking the gene = knockout) or uses a spare part you supplied to fix it precisely (knock-in). (The analogy's limit: the GPS can still stop at a similar-looking house — an \"off-target\" — which is why scientists check the neighborhood afterward.)\n\n## Common Confusions\n- **\"CRISPR and RNAi both knock out genes\"** — CRISPR edits **DNA** (permanent knockout/knock-in); RNAi degrades **mRNA** (transient knockdown). The DNA is untouched by RNAi.\n- **\"Cas9 cuts anywhere the gRNA matches\"** — Cutting also requires a **PAM** immediately adjacent; no PAM, no cut.\n- **\"NHEJ and HDR are interchangeable\"** — NHEJ is error-prone and template-free (knockout); HDR needs a donor and homology arms (knock-in/correction).\n- **\"CRISPR only knocks out\"** — With HDR it can knock in, correct, or tag genes; base editors and CRISPRi/a expand this further.\n- **\"An edit is guaranteed clean\"** — Off-target edits and mosaicism are real; genotyping and off-target checks are mandatory.\n\n## Quick Review\n- gRNA + Cas9 → bind PAM → DSB → NHEJ (indels → knockout) or HDR (+donor → knock-in).\n- Permanent DNA edit, unlike RNAi knockdown.\n- Verify by sequencing; screen for off-targets; use non-targeting gRNA controls.\n\n## Sources\n- NHGRI, \"CRISPR.\" https://www.genome.gov/genetics-glossary/CRISPR\n- NCI, \"CRISPR\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/crispr\n- MedlinePlus, \"What are genome editing and CRISPR-Cas9?\" https://medlineplus.gov/genetics/understanding/genomicresearch/genomeediting/\n- NCI, \"knockout\" and \"knock-in\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/knockout\n- NCI, \"knock-in\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/knock-in\n"
+}

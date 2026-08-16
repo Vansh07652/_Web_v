@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-2:blood-cardiovascular-and-circulation:cardiac-output-and-its-regulation",
+  "slug": "cardiac-output-and-its-regulation",
+  "title": "Cardiac Output and Its Regulation",
+  "subject": {
+    "id": "subject:anatomy-physiology-2",
+    "slug": "anatomy-physiology-2",
+    "title": "Anatomy & Physiology II"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-2:blood-cardiovascular-and-circulation",
+    "slug": "blood-cardiovascular-and-circulation",
+    "title": "Blood, Cardiovascular System, and Circulation",
+    "order": 2
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "**Cardiac output** is the amount of blood the heart pumps per minute. This section defines it (**heart rate × stroke volume**), explains what changes each factor, and introduces **preload, afterload,** and contractility.",
+    "whyItMatters": "Cardiac output determines how much oxygen-rich blood reaches the body. Its regulation underlies exercise responses, blood pressure control, and heart failure — where a failing heart can't maintain adequate output.",
+    "learningObjectives": "- Define **cardiac output**, **heart rate**, and **stroke volume**.\n- Explain the factors that regulate **heart rate**.\n- Explain **preload, afterload,** and contractility (stroke volume factors).\n- Connect cardiac output to exercise and heart failure.",
+    "keyTerms": "- **Cardiac output (CO)** — blood pumped by a ventricle per minute (**CO = HR × SV**).\n- **Heart rate (HR)** — beats per minute.\n- **Stroke volume (SV)** — blood ejected per beat.\n- **Preload** — the degree of stretch of the heart before it contracts (related to filling).\n- **Afterload** — the resistance the ventricle must pump against.\n- **Contractility** — the force of contraction.",
+    "collegeNotes": "**The key equation.** **Cardiac output** is simply how much blood the heart pumps each minute, and it equals **heart rate × stroke volume**:\n\n```\nCardiac Output (mL/min) = Heart Rate (beats/min) × Stroke Volume (mL/beat)\n```\n\nA typical resting value is around **5 liters per minute** — roughly the body's whole blood volume every minute. During exercise it can increase several-fold to meet demand. To change cardiac output, the body changes heart rate, stroke volume, or both.\n\n**Regulating heart rate.** Heart rate is set by the SA node but adjusted by:\n\n- The **autonomic nervous system:** **sympathetic** stimulation **speeds** the heart (and increases contractility); **parasympathetic (vagus)** **slows** it.\n- **Hormones:** **epinephrine** and thyroid hormone increase rate.\n- **Other factors:** body temperature, and blood ion levels (electrolytes like potassium and calcium).\n\n**Regulating stroke volume.** Stroke volume depends on three factors:\n\n- **Preload:** how much the ventricle is **stretched by filling** before it contracts. More filling stretches the muscle, and (by the **Frank–Starling law**) a more-stretched heart contracts more forcefully — so more blood returning means more pumped out. This matches output to venous return automatically.\n- **Contractility:** the intrinsic **force** of contraction, increased by sympathetic stimulation and epinephrine (and by calcium availability).\n- **Afterload:** the **resistance** the ventricle pumps against (largely arterial blood pressure). Higher afterload makes it harder to eject blood, reducing stroke volume — which is why high blood pressure strains the heart.\n\n**Putting it together.** During exercise, sympathetic activity raises heart rate and contractility while increased venous return raises preload — multiplying cardiac output to deliver more oxygen. In **heart failure**, the heart can't generate adequate output, so tissues receive too little blood and fluid may back up (causing congestion) — a topic developed in pathophysiology.",
+    "howItWorks": "Adjusting output to demand:\n\n```\nNeed more output (e.g., exercise):\n   HR ↑ (sympathetic, epinephrine) + SV ↑ (more preload, more contractility) → CO ↑↑\nHigher afterload (e.g., high BP): harder to eject → SV tends to ↓ → heart strained\nFrank–Starling: more blood in → more stretch → more forceful ejection\n```",
+    "comparisons": "| Factor | Increases it | Effect on CO |\n| --- | --- | --- |\n| Heart rate | Sympathetic, epinephrine, thyroid hormone | ↑ |\n| Preload | More venous return/filling | ↑ SV → ↑ CO |\n| Contractility | Sympathetic, epinephrine, calcium | ↑ SV → ↑ CO |\n| Afterload | Higher arterial pressure | ↑ afterload → ↓ SV |\n\n| Term | Simple meaning |\n| --- | --- |\n| Preload | Stretch before contraction (filling) |\n| Afterload | Resistance to pump against |\n| Contractility | Strength of the squeeze |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\nCardiac output concepts underlie **heart failure** (low output, congestion), **shock** (inadequate perfusion), and the effects of many drugs: **beta-blockers** lower heart rate and contractility; agents that reduce **afterload** (vasodilators) ease the heart's workload; **inotropes** increase contractility. The **Frank–Starling** principle explains why fluid status (preload) affects output — central to managing fluids in critically ill patients. High blood pressure (afterload) chronically strains the heart, contributing to failure.",
+    "commonConfusions": "- **Preload vs afterload.** Preload = filling/stretch *before* contraction; afterload = resistance the heart pumps *against*.\n- **CO = HR × SV** — changing either changes output.\n- **More preload → more output** (Frank–Starling), but excessive stretch (as in failure) can reduce effectiveness.\n- **Higher afterload lowers stroke volume** — high blood pressure makes the heart work harder.",
+    "memoryAids": "- **\"CO = HR × SV\" (Cardiac Output = Heart Rate times Stroke Volume).**\n- **Preload = \"Pre = fill first\"; Afterload = \"After = the load it pushes against.\"**\n- **Frank–Starling = \"more in, more out.\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nCardiac output is how much blood your heart pumps each minute, and it depends on two things: how *fast* it beats and how *much* it pumps each beat.\n\n### Analogy\nThink of bailing water out of a boat with a bucket. How much water you move per minute depends on how *often* you scoop (that's **heart rate**) and how *full* each scoop is (that's **stroke volume**). Multiply them and you get your total per minute — the **cardiac output**. You can move more water by scooping faster, scooping fuller, or both. A fuller bucket comes from letting it fill more before you lift (**preload**) and from a stronger lift (**contractility**), while it's harder to empty if you're pouring against a strong headwind (**afterload**, like high blood pressure).\n\n### What is actually happening\nWhen you exercise, your body scoops faster (**sympathetic** nerves speed the heart) and fuller (more blood returns and the heart squeezes harder), so cardiac output can jump several times over to deliver more oxygen. There's a neat built-in rule: the more blood flows *into* the heart, the harder it automatically squeezes it *out* (the **Frank–Starling** law). In **heart failure**, the heart can't pump enough per minute, so the body doesn't get enough blood and fluid backs up — which is why heart-failure patients get short of breath and swollen.\n\n### Where the analogy stops\nYou get tired bailing a boat, but a healthy heart adjusts its speed and strength automatically and tirelessly — and unlike a bucket, an overstretched failing heart actually pumps *less* effectively, not more.",
+    "quickReview": "- **Cardiac output = heart rate × stroke volume** (~5 L/min at rest; rises with exercise).\n- **Heart rate** is adjusted by the autonomic nervous system (sympathetic ↑, vagus ↓) and hormones.\n- **Stroke volume** depends on **preload** (filling/stretch; Frank–Starling), **contractility** (force), and **afterload** (resistance; high BP lowers SV).\n- These concepts underlie exercise responses, **heart failure**, shock, and cardiac drugs.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 19.4: Cardiac Physiology (cardiac output). https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — Heart Failure. https://medlineplus.gov/heartfailure.html",
+        "url": "https://medlineplus.gov/heartfailure.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "cardiac-output-and-its-regulation",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "ap2-u02-s07",
+      "kind": "source_topic_id",
+      "source_id": "prenursing_notes"
+    },
+    {
+      "value": "07-cardiac-output-and-its-regulation",
+      "kind": "source_file_stem",
+      "source_id": "prenursing_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:prenursing_notes:9a1e478c5a5521e1"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:prenursing_notes:9a1e478c5a5521e1"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:prenursing_notes:9a1e478c5a5521e1"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:prenursing_notes:9a1e478c5a5521e1"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/02-anatomy-physiology-ii/02-blood-cardiovascular-and-circulation/07-cardiac-output-and-its-regulation.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "\n# Cardiac Output and Its Regulation\n\n## What This Topic Is\n\n**Cardiac output** is the amount of blood the heart pumps per minute. This section defines it (**heart rate × stroke volume**), explains what changes each factor, and introduces **preload, afterload,** and contractility.\n\n## Why It Matters\n\nCardiac output determines how much oxygen-rich blood reaches the body. Its regulation underlies exercise responses, blood pressure control, and heart failure — where a failing heart can't maintain adequate output.\n\n## Learning Objectives\n\n- Define **cardiac output**, **heart rate**, and **stroke volume**.\n- Explain the factors that regulate **heart rate**.\n- Explain **preload, afterload,** and contractility (stroke volume factors).\n- Connect cardiac output to exercise and heart failure.\n\n## Key Terms\n\n- **Cardiac output (CO)** — blood pumped by a ventricle per minute (**CO = HR × SV**).\n- **Heart rate (HR)** — beats per minute.\n- **Stroke volume (SV)** — blood ejected per beat.\n- **Preload** — the degree of stretch of the heart before it contracts (related to filling).\n- **Afterload** — the resistance the ventricle must pump against.\n- **Contractility** — the force of contraction.\n\n## Core Explanation\n\n**The key equation.** **Cardiac output** is simply how much blood the heart pumps each minute, and it equals **heart rate × stroke volume**:\n\n```\nCardiac Output (mL/min) = Heart Rate (beats/min) × Stroke Volume (mL/beat)\n```\n\nA typical resting value is around **5 liters per minute** — roughly the body's whole blood volume every minute. During exercise it can increase several-fold to meet demand. To change cardiac output, the body changes heart rate, stroke volume, or both.\n\n**Regulating heart rate.** Heart rate is set by the SA node but adjusted by:\n\n- The **autonomic nervous system:** **sympathetic** stimulation **speeds** the heart (and increases contractility); **parasympathetic (vagus)** **slows** it.\n- **Hormones:** **epinephrine** and thyroid hormone increase rate.\n- **Other factors:** body temperature, and blood ion levels (electrolytes like potassium and calcium).\n\n**Regulating stroke volume.** Stroke volume depends on three factors:\n\n- **Preload:** how much the ventricle is **stretched by filling** before it contracts. More filling stretches the muscle, and (by the **Frank–Starling law**) a more-stretched heart contracts more forcefully — so more blood returning means more pumped out. This matches output to venous return automatically.\n- **Contractility:** the intrinsic **force** of contraction, increased by sympathetic stimulation and epinephrine (and by calcium availability).\n- **Afterload:** the **resistance** the ventricle pumps against (largely arterial blood pressure). Higher afterload makes it harder to eject blood, reducing stroke volume — which is why high blood pressure strains the heart.\n\n**Putting it together.** During exercise, sympathetic activity raises heart rate and contractility while increased venous return raises preload — multiplying cardiac output to deliver more oxygen. In **heart failure**, the heart can't generate adequate output, so tissues receive too little blood and fluid may back up (causing congestion) — a topic developed in pathophysiology.\n\n## How It Works\n\nAdjusting output to demand:\n\n```\nNeed more output (e.g., exercise):\n   HR ↑ (sympathetic, epinephrine) + SV ↑ (more preload, more contractility) → CO ↑↑\nHigher afterload (e.g., high BP): harder to eject → SV tends to ↓ → heart strained\nFrank–Starling: more blood in → more stretch → more forceful ejection\n```\n\n## Important Relationships and Comparisons\n\n| Factor | Increases it | Effect on CO |\n| --- | --- | --- |\n| Heart rate | Sympathetic, epinephrine, thyroid hormone | ↑ |\n| Preload | More venous return/filling | ↑ SV → ↑ CO |\n| Contractility | Sympathetic, epinephrine, calcium | ↑ SV → ↑ CO |\n| Afterload | Higher arterial pressure | ↑ afterload → ↓ SV |\n\n| Term | Simple meaning |\n| --- | --- |\n| Preload | Stretch before contraction (filling) |\n| Afterload | Resistance to pump against |\n| Contractility | Strength of the squeeze |\n\n## High-Yield Pre-Nursing Connections\n\nCardiac output concepts underlie **heart failure** (low output, congestion), **shock** (inadequate perfusion), and the effects of many drugs: **beta-blockers** lower heart rate and contractility; agents that reduce **afterload** (vasodilators) ease the heart's workload; **inotropes** increase contractility. The **Frank–Starling** principle explains why fluid status (preload) affects output — central to managing fluids in critically ill patients. High blood pressure (afterload) chronically strains the heart, contributing to failure.\n\n## Common Confusions\n\n- **Preload vs afterload.** Preload = filling/stretch *before* contraction; afterload = resistance the heart pumps *against*.\n- **CO = HR × SV** — changing either changes output.\n- **More preload → more output** (Frank–Starling), but excessive stretch (as in failure) can reduce effectiveness.\n- **Higher afterload lowers stroke volume** — high blood pressure makes the heart work harder.\n\n## Memory Aids\n\n- **\"CO = HR × SV\" (Cardiac Output = Heart Rate times Stroke Volume).**\n- **Preload = \"Pre = fill first\"; Afterload = \"After = the load it pushes against.\"**\n- **Frank–Starling = \"more in, more out.\"**\n\n## ELI-10 Explains\n\n### Simple idea\nCardiac output is how much blood your heart pumps each minute, and it depends on two things: how *fast* it beats and how *much* it pumps each beat.\n\n### Analogy\nThink of bailing water out of a boat with a bucket. How much water you move per minute depends on how *often* you scoop (that's **heart rate**) and how *full* each scoop is (that's **stroke volume**). Multiply them and you get your total per minute — the **cardiac output**. You can move more water by scooping faster, scooping fuller, or both. A fuller bucket comes from letting it fill more before you lift (**preload**) and from a stronger lift (**contractility**), while it's harder to empty if you're pouring against a strong headwind (**afterload**, like high blood pressure).\n\n### What is actually happening\nWhen you exercise, your body scoops faster (**sympathetic** nerves speed the heart) and fuller (more blood returns and the heart squeezes harder), so cardiac output can jump several times over to deliver more oxygen. There's a neat built-in rule: the more blood flows *into* the heart, the harder it automatically squeezes it *out* (the **Frank–Starling** law). In **heart failure**, the heart can't pump enough per minute, so the body doesn't get enough blood and fluid backs up — which is why heart-failure patients get short of breath and swollen.\n\n### Where the analogy stops\nYou get tired bailing a boat, but a healthy heart adjusts its speed and strength automatically and tirelessly — and unlike a bucket, an overstretched failing heart actually pumps *less* effectively, not more.\n\n## Quick Recap\n\n- **Cardiac output = heart rate × stroke volume** (~5 L/min at rest; rises with exercise).\n- **Heart rate** is adjusted by the autonomic nervous system (sympathetic ↑, vagus ↓) and hormones.\n- **Stroke volume** depends on **preload** (filling/stretch; Frank–Starling), **contractility** (force), and **afterload** (resistance; high BP lowers SV).\n- These concepts underlie exercise responses, **heart failure**, shock, and cardiac drugs.\n\n## Sources\n\n- OpenStax, *Anatomy and Physiology 2e*, Chapter 19.4: Cardiac Physiology (cardiac output). https://openstax.org/details/books/anatomy-and-physiology-2e\n- U.S. National Library of Medicine, MedlinePlus — Heart Failure. https://medlineplus.gov/heartfailure.html\n"
+}

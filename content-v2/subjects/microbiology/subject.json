@@ -1,0 +1,773 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:microbiology",
+    "slug": "microbiology",
+    "title": "Microbiology",
+    "aliases": [
+      {
+        "value": "microbiology",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "micro",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "MICRO",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "micro-biology",
+        "kind": "legacy_or_display_alias"
+      },
+      {
+        "value": "micro",
+        "kind": "source_subject_id",
+        "source_id": "prenursing_notes"
+      },
+      {
+        "value": "micro",
+        "kind": "current_web_slug",
+        "source_id": "current_web"
+      }
+    ],
+    "status": "final",
+    "category": "pre-health-core"
+  },
+  "units": [
+    {
+      "id": "unit:microbiology:core-concept",
+      "slug": "core-concept",
+      "title": "Core Concept",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "core-concept",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:microbiology:core-concept:history-scope-classification-and-nomenclature",
+          "slug": "history-scope-classification-and-nomenclature",
+          "title": "History, Scope, Classification, and Nomenclature",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/core-concept/history-scope-classification-and-nomenclature.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:core-concept:eukaryotic-microbes",
+          "slug": "eukaryotic-microbes",
+          "title": "Eukaryotic Microbes",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/core-concept/eukaryotic-microbes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:microbiology:clinical-foundation",
+      "slug": "clinical-foundation",
+      "title": "Clinical Foundation",
+      "order": 2,
+      "aliases": [
+        {
+          "value": "clinical-foundation",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:microbiology:clinical-foundation:microscopy-and-staining",
+          "slug": "microscopy-and-staining",
+          "title": "Microscopy and Staining",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/clinical-foundation/microscopy-and-staining.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:clinical-foundation:microbial-diseases-of-the-skin-and-eyes",
+          "slug": "microbial-diseases-of-the-skin-and-eyes",
+          "title": "Microbial Diseases of the Skin and Eyes",
+          "order": 27,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/clinical-foundation/microbial-diseases-of-the-skin-and-eyes.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:clinical-foundation:microbial-diseases-of-the-nervous-system",
+          "slug": "microbial-diseases-of-the-nervous-system",
+          "title": "Microbial Diseases of the Nervous System",
+          "order": 28,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/clinical-foundation/microbial-diseases-of-the-nervous-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:clinical-foundation:microbial-diseases-of-the-cardiovascular-and-lymphatic-systems",
+          "slug": "microbial-diseases-of-the-cardiovascular-and-lymphatic-systems",
+          "title": "Microbial Diseases of the Cardiovascular and Lymphatic Systems",
+          "order": 29,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/clinical-foundation/microbial-diseases-of-the-cardiovascular-and-lymphatic-systems.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:clinical-foundation:microbial-diseases-of-the-respiratory-system",
+          "slug": "microbial-diseases-of-the-respiratory-system",
+          "title": "Microbial Diseases of the Respiratory System",
+          "order": 30,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/clinical-foundation/microbial-diseases-of-the-respiratory-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:clinical-foundation:microbial-diseases-of-the-digestive-system",
+          "slug": "microbial-diseases-of-the-digestive-system",
+          "title": "Microbial Diseases of the Digestive System",
+          "order": 31,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/clinical-foundation/microbial-diseases-of-the-digestive-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:clinical-foundation:microbial-diseases-of-the-genitourinary-system",
+          "slug": "microbial-diseases-of-the-genitourinary-system",
+          "title": "Microbial Diseases of the Genitourinary System",
+          "order": 32,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/clinical-foundation/microbial-diseases-of-the-genitourinary-system.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:microbiology:cell-structure",
+      "slug": "cell-structure",
+      "title": "Cell Structure",
+      "order": 3,
+      "aliases": [
+        {
+          "value": "cell-structure",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:microbiology:cell-structure:prokaryotic-cell-structure-and-function",
+          "slug": "prokaryotic-cell-structure-and-function",
+          "title": "Prokaryotic Cell Structure and Function",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/cell-structure/prokaryotic-cell-structure-and-function.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:microbiology:metabolism",
+      "slug": "metabolism",
+      "title": "Metabolism",
+      "order": 4,
+      "aliases": [
+        {
+          "value": "metabolism",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:microbiology:metabolism:bioenergetics-enzymes-atp-and-electron-carriers",
+          "slug": "bioenergetics-enzymes-atp-and-electron-carriers",
+          "title": "Bioenergetics, Enzymes, ATP, and Electron Carriers",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/metabolism/bioenergetics-enzymes-atp-and-electron-carriers.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:metabolism:carbohydrate-catabolism-and-cellular-respiration",
+          "slug": "carbohydrate-catabolism-and-cellular-respiration",
+          "title": "Carbohydrate Catabolism and Cellular Respiration",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/metabolism/carbohydrate-catabolism-and-cellular-respiration.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:metabolism:fermentation",
+          "slug": "fermentation",
+          "title": "Fermentation",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/metabolism/fermentation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:metabolism:lipid-and-protein-catabolism",
+          "slug": "lipid-and-protein-catabolism",
+          "title": "Lipid and Protein Catabolism",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/metabolism/lipid-and-protein-catabolism.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:microbiology:growth-and-control",
+      "slug": "growth-and-control",
+      "title": "Growth and Control",
+      "order": 5,
+      "aliases": [
+        {
+          "value": "growth-and-control",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:microbiology:growth-and-control:microbial-growth-requirements-and-biofilms",
+          "slug": "microbial-growth-requirements-and-biofilms",
+          "title": "Microbial Growth Requirements and Biofilms",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/growth-and-control/microbial-growth-requirements-and-biofilms.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:growth-and-control:culture-media-and-growth-dynamics",
+          "slug": "culture-media-and-growth-dynamics",
+          "title": "Culture Media and Growth Dynamics",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/growth-and-control/culture-media-and-growth-dynamics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:growth-and-control:environmental-control-of-microbial-growth",
+          "slug": "environmental-control-of-microbial-growth",
+          "title": "Environmental Control of Microbial Growth",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/growth-and-control/environmental-control-of-microbial-growth.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:growth-and-control:antimicrobial-drugs-and-resistance",
+          "slug": "antimicrobial-drugs-and-resistance",
+          "title": "Antimicrobial Drugs and Resistance",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/growth-and-control/antimicrobial-drugs-and-resistance.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:microbiology:genetics",
+      "slug": "genetics",
+      "title": "Genetics",
+      "order": 6,
+      "aliases": [
+        {
+          "value": "genetics",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:microbiology:genetics:bacterial-dna-structure-and-replication",
+          "slug": "bacterial-dna-structure-and-replication",
+          "title": "Bacterial DNA Structure and Replication",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/genetics/bacterial-dna-structure-and-replication.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:genetics:gene-expression-and-operon-regulation",
+          "slug": "gene-expression-and-operon-regulation",
+          "title": "Gene Expression and Operon Regulation",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/genetics/gene-expression-and-operon-regulation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:genetics:mutations-recombination-and-horizontal-gene-transfer",
+          "slug": "mutations-recombination-and-horizontal-gene-transfer",
+          "title": "Mutations, Recombination, and Horizontal Gene Transfer",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/genetics/mutations-recombination-and-horizontal-gene-transfer.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:microbiology:virology",
+      "slug": "virology",
+      "title": "Virology",
+      "order": 7,
+      "aliases": [
+        {
+          "value": "virology",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:microbiology:virology:viral-structure-and-classification",
+          "slug": "viral-structure-and-classification",
+          "title": "Viral Structure and Classification",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/virology/viral-structure-and-classification.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:virology:viral-replication-cycles",
+          "slug": "viral-replication-cycles",
+          "title": "Viral Replication Cycles",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/virology/viral-replication-cycles.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:virology:viral-infections-prions-and-viroids",
+          "slug": "viral-infections-prions-and-viroids",
+          "title": "Viral Infections, Prions, and Viroids",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/virology/viral-infections-prions-and-viroids.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:microbiology:pathogenesis",
+      "slug": "pathogenesis",
+      "title": "Pathogenesis",
+      "order": 8,
+      "aliases": [
+        {
+          "value": "pathogenesis",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:microbiology:pathogenesis:disease-epidemiology-and-microbiota",
+          "slug": "disease-epidemiology-and-microbiota",
+          "title": "Disease, Epidemiology, and Microbiota",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/pathogenesis/disease-epidemiology-and-microbiota.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:pathogenesis:mechanisms-of-pathogenicity",
+          "slug": "mechanisms-of-pathogenicity",
+          "title": "Mechanisms of Pathogenicity",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/pathogenesis/mechanisms-of-pathogenicity.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:microbiology:immunology",
+      "slug": "immunology",
+      "title": "Immunology",
+      "order": 9,
+      "aliases": [
+        {
+          "value": "immunology",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:microbiology:immunology:innate-immunity",
+          "slug": "innate-immunity",
+          "title": "Innate Immunity",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/immunology/innate-immunity.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:immunology:adaptive-immunity",
+          "slug": "adaptive-immunity",
+          "title": "Adaptive Immunity",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/immunology/adaptive-immunity.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:immunology:vaccines-and-diagnostic-immunology",
+          "slug": "vaccines-and-diagnostic-immunology",
+          "title": "Vaccines and Diagnostic Immunology",
+          "order": 23,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/immunology/vaccines-and-diagnostic-immunology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:immunology:hypersensitivity-autoimmunity-and-immunodeficiency",
+          "slug": "hypersensitivity-autoimmunity-and-immunodeficiency",
+          "title": "Hypersensitivity, Autoimmunity, and Immunodeficiency",
+          "order": 24,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/immunology/hypersensitivity-autoimmunity-and-immunodeficiency.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "unit:microbiology:applied-microbiology",
+      "slug": "applied-microbiology",
+      "title": "Applied Microbiology",
+      "order": 10,
+      "aliases": [
+        {
+          "value": "applied-microbiology",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:microbiology:applied-microbiology:environmental-microbiology",
+          "slug": "environmental-microbiology",
+          "title": "Environmental Microbiology",
+          "order": 25,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/applied-microbiology/environmental-microbiology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:microbiology:applied-microbiology:food-and-industrial-microbiology",
+          "slug": "food-and-industrial-microbiology",
+          "title": "Food and Industrial Microbiology",
+          "order": 26,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/microbiology/topics/applied-microbiology/food-and-industrial-microbiology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": false,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 10,
+    "topicCount": 32,
+    "teachingTopicCount": 32,
+    "eli10TopicCount": 32,
+    "highYieldTopicCount": 32,
+    "referencedTopicCount": 0,
+    "exactOrMappedQuestionCount": 0,
+    "subjectWideQuestionCount": 300,
+    "uniqueQuestionCount": 300,
+    "citationReviewRequiredCount": 300
+  },
+  "provenance": {
+    "registryId": "eli-explains-master-curriculum",
+    "registryVersion": "1.0.0",
+    "registrySnapshot": "curriculum/master-curriculum-registry.snapshot.json"
+  }
+}

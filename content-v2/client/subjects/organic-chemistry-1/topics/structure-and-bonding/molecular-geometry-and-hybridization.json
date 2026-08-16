@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:structure-and-bonding:molecular-geometry-and-hybridization",
+  "slug": "molecular-geometry-and-hybridization",
+  "title": "Molecular Geometry and Hybridization",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:structure-and-bonding",
+    "slug": "structure-and-bonding",
+    "title": "Structure and Bonding",
+    "order": 1
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "**VSEPR theory** predicts shape by assuming electron domains (bonds and lone pairs) spread as far apart as possible, giving **tetrahedral** (4 domains), **trigonal planar** (3), and **linear** (2) geometries. **Valence-bond theory** describes bonds as overlapping orbitals: carbon **hybridizes** its orbitals into **sp³, sp², or sp** sets to match its geometry. Single bonds are one **sigma (σ) bond**; double bonds add a **pi (π) bond**; triple bonds add two. More **s character** shortens and strengthens bonds and increases acidity.",
+    "whyItMatters": "Molecular geometry determines whether a drug fits its protein target — the \"lock-and-key\" of pharmacology. A drug's three-dimensional shape and the rigid planar geometry of its sp² and sp regions control docking into an enzyme's active site. The same planarity dictates protein and DNA structure and lets chemists judge whether a candidate can adopt the shape needed to bind its receptor.",
+    "learningObjectives": "1. Use VSEPR theory to predict electron-domain and molecular geometry (linear, trigonal planar, tetrahedral).\n2. Explain how valence-bond theory combines atomic orbitals into sp³, sp², and sp hybrids.\n3. Distinguish sigma (σ) and pi (π) bonds and relate them to single, double, and triple bonds.\n4. Connect bond angles, lengths, and strengths to hybridization, and explain the hybridization–acidity relationship.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| VSEPR theory | Electron domains repel to minimize repulsion | Predicts shape from electron count |\n| Electron-domain geometry | Arrangement of all domains (bonds + lone pairs) | Parent shape for molecular geometry |\n| Molecular geometry | Arrangement of only the atoms | The shape we name and draw |\n| Tetrahedral / trigonal planar / linear | 4, 3, and 2-domain geometries | Carbon's three shapes |\n| Valence-bond theory | Bonds form by orbital overlap | Justifies hybridization |\n| Hybridization (sp³, sp², sp) | Mixing s and p orbitals into hybrids | Matches orbitals to geometry |\n| Sigma (σ) bond | Head-on overlap along the bond axis | The single bond; allows rotation |\n| Pi (π) bond | Side-by-side p-orbital overlap | Adds to σ; blocks rotation |\n| Bond angle / length / strength | Geometric/energetic bond descriptors | Trends follow s character |\n| Single / double / triple bond | 1σ; 1σ + 1π; 1σ + 2π | Sets length, strength, rotation |\n| Hybridization–acidity relationship | More s character → more acidic C–H | Explains alkyne ≫ alkene > alkane acidity |",
+    "collegeNotes": "### 1. VSEPR Theory\n\n**VSEPR theory** (Valence Shell Electron Pair Repulsion) holds that electron domains — bonds and lone pairs — repel and arrange to minimize that repulsion. **Electron-domain geometry** counts all domains; **molecular geometry** counts only atoms (lone pairs occupy space but are invisible in the shape). Two domains give **linear** (180°), three **trigonal planar** (120°), four **tetrahedral** (109.5°). Lone pairs repel more than bonding pairs, compressing angles (water's H–O–H is 104.5°).\n\n### 2. Valence-Bond Theory and Hybridization\n\n**Valence-bond theory** describes a covalent bond as the overlap of atomic orbitals, each holding one electron. **Hybridization** mixes an atom's s and p orbitals into equivalent hybrids pointing in the directions VSEPR demands: **sp³** (one s + three p → four orbitals, tetrahedral), **sp²** (one s + two p → three orbitals plus one leftover p, trigonal planar), **sp** (one s + one p → two orbitals plus two leftover p, linear). The leftover p orbitals make π bonds.\n\n### 3. Sigma and Pi Bonds\n\nA **sigma (σ) bond** comes from head-on overlap along the bond axis; it is cylindrically symmetrical and allows rotation. A **pi (π) bond** comes from side-by-side overlap of parallel p orbitals above and below the axis. A **single bond** is one σ; a **double bond** is one σ + one π; a **triple bond** is one σ + two π. π bonds lock atoms in place, preventing rotation around double bonds — the origin of cis/trans isomerism.\n\n### 4. Bond Lengths, Strengths, and the Hybridization–Acidity Relationship\n\nAs s character rises (sp³ → sp² → sp), orbitals hold electrons closer to the nucleus, so bonds get **shorter** and **stronger** and **bond angles** open (109.5° → 120° → 180°). The same effect changes acidity: more s character holds the electron pair tighter, stabilizing the conjugate base's lone pair. Hence the **hybridization–acidity relationship**: sp C–H (alkyne, pKₐ ≈ 25) is more acidic than sp² C–H (alkene, ≈ 44), which is more acidic than sp³ C–H (alkane, ≈ 50).",
+    "howItWorks": "1. Count electron domains (bonds and lone pairs) around the atom.\n2. Convert the count to geometry: 2 → linear, 3 → trigonal planar, 4 → tetrahedral.\n3. Choose the matching hybridization: sp, sp², or sp³.\n4. Assign σ bonds to hybrids and π bonds to leftover p orbitals.\n5. Apply s-character trends to bond length/strength and acidity.",
+    "comparisons": "",
+    "highYield": "- **High yield:** VSEPR counts a double or triple bond as **one** domain.\n- **High yield:** sp³ = tetrahedral (109.5°), sp² = trigonal planar (120°), sp = linear (180°).\n- **High yield:** Double bond = σ + π; triple bond = σ + 2π.\n- **High yield:** π bonds block rotation — the origin of cis/trans alkene isomerism.\n- **High yield:** C–H acidity: sp (pKₐ ≈ 25) > sp² (≈ 44) > sp³ (≈ 50).\n- Lone pairs occupy a domain but are absent from molecular geometry.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Electron-domain geometry | Molecular geometry | Domains include lone pairs; geometry ignores them |\n| Hybridization | Physical mixing of orbitals | It is mathematical recombination |\n| σ bond | π bond | Head-on vs side-by-side overlap |\n| Double bond stronger | Double bond longer | More bonds → stronger *and* shorter |\n| Atom hybridization | Whole-molecule shape | An sp² carbon is planar only locally |",
+    "memoryAids": "Remember \"**S**traight, **T**riangle, **T**etra\": **sp** → **straight** (linear, 180°), **sp²** → **tri**gonal (three, 120°), **sp³** → **tetra**hedral (four, 109.5°). The exponent plus one equals the number of domains.",
+    "eli10": "Imagine tying balloons together: they push apart as far as possible — four form a tetrahedron, three a flat triangle, two a straight line. That is VSEPR: electron \"balloons\" maximize separation. For hybridization, think of mixing letters to make new sounds — carbon combines its s and p orbitals into hybrids matching the shape it needs: sp³ for four balloons, sp² for three, sp for two. The analogy **stops being exact** because hybridization is a mathematical recombination of wave functions, not a physical mixing of objects, and the hybrids are only approximate descriptions of where electrons are.\n\n### Simple Example\n\nMethane, CH₄, has four C–H bonds in a tetrahedron (109.5°); carbon's 2s and three 2p orbitals combine into four equivalent **sp³** hybrids. Ethene (CH₂=CH₂) is trigonal planar at each carbon (sp²); ethyne (HC≡CH) is linear (sp).",
+    "quickReview": "### Topic Recap\n\nVSEPR turns electron-domain counts into the three core geometries — tetrahedral, trigonal planar, and linear. Valence-bond theory rationalizes them through sp³, sp², and sp hybridization, with σ bonds from hybrid overlap and π bonds from leftover p orbitals. Single, double, and triple bonds are σ/π combinations, and s character governs bond angles, lengths, strengths, and C–H acidity. This bridges atomic structure to the reactivity covered in later topics.\n\n### Knowledge Check\n\n1. How many electron domains surround nitrogen in ammonia (NH₃), and what is the electron-domain geometry?\n2. What is the hybridization of each carbon in ethene?\n3. Which bond is longer and weaker — C–C or C=C — and why?\n4. Why can a C=C double bond not rotate freely?\n5. Rank alkane (sp³), alkene (sp²), and alkyne (sp) C–H bonds by acidity.\n\n### Answers and Rationales\n\n1. **Four** domains (three N–H bonds + one lone pair) → **tetrahedral** electron-domain geometry; molecular geometry is trigonal pyramidal (lone pair uncounted).\n2. Each carbon is **sp²** (three domains: two C–H bonds and one C=C double bond counted as a single domain).\n3. The **single bond is longer and weaker**: a double bond's extra π overlap pulls atoms closer, shortening and strengthening it.\n4. Rotation would break the side-by-side **π overlap**; the p orbitals must stay parallel, locking the double bond planar.\n5. **Alkyne (sp) > alkene (sp²) > alkane (sp³)** — more s character stabilizes the conjugate base's lone pair.",
+    "workedExamples": "We assign geometry and hybridization to the carbons of acetaldehyde, CH₃CHO (a structure assignment; no electrons move).\n\n1. Count electron domains per carbon. The methyl carbon has four single bonds → four domains → **tetrahedral, sp³**.\n2. The carbonyl carbon has three domains — C–C, C–H, and C=O (the double bond counts as *one* domain despite holding four electrons) → **trigonal planar, sp²**.\n3. Assign bonds: three σ bonds from sp² overlap, plus one π bond from the leftover p orbital overlapping oxygen's p orbital (C=O).\n4. Predict angles: ~109.5° at the methyl carbon, ~120° at the carbonyl carbon.\n5. Read the consequences: the carbonyl carbon is planar, its π bond blocks rotation, and its sp² hybridization makes the aldehyde C–H more acidic than a normal alkane C–H.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "molecular-geometry-and-hybridization",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "04-molecular-geometry-and-hybridization",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/04-molecular-geometry-and-hybridization.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

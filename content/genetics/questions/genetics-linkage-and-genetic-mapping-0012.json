@@ -1,0 +1,40 @@
+{
+  "id": "genetics-linkage-and-genetic-mapping-0012",
+  "subject": "genetics",
+  "lesson": "linkage-and-genetic-mapping",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application In a linkage study of a rare autosomal dominant trait, a marker gives a maximum lod score of 3.4 at a recombination fraction of 0.05. What is the most defensible interpretation of this result?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The result proves the marker itself is the disease causing mutation."
+    },
+    {
+      "id": "b",
+      "text": "A lod score of 3.4 is below the conventional threshold of 5 and provides no evidence of linkage."
+    },
+    {
+      "id": "c",
+      "text": "A lod score above 3 means the marker and the trait locus assort independently."
+    },
+    {
+      "id": "d",
+      "text": "The odds in favor of linkage are 10^3.4, about 2500 to 1, so the trait locus is very likely close to the marker."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "The lod score is the base 10 logarithm of the linkage to no linkage odds, so Z = 3.4 means the data are 10^3.4, about 2500 times, more likely under linkage, and the conventional threshold for declaring linkage is Z = 3. A overstates the finding, because a lod score localizes the trait locus near the marker without identifying the mutation itself. B misstates the threshold, and C confuses a high lod score with independent assortment, the exact opposite of what it means.",
+  "difficulty": "unknown",
+  "tags": [
+    "lod",
+    "score",
+    "threshold",
+    "interpretation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-6f4c5593d895eb88",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

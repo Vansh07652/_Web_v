@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:membranes-transport:membrane-permeability",
+  "slug": "membrane-permeability",
+  "title": "Membrane Permeability: What Crosses the Bilayer and Why",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:membranes-transport",
+    "slug": "membranes-transport",
+    "title": "Membranes Transport",
+    "order": 2
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "A pure phospholipid bilayer is selectively permeable: it is most permeable to small, nonpolar gases and hydrophobic molecules, less permeable to small uncharged polar molecules such as water, much less permeable to larger uncharged polar molecules such as glucose, and essentially impermeable to ions regardless of size. This ordering follows from the bilayer's hydrophobic core, which excludes charged and strongly polar solutes. The very low permeability to ions and to large polar molecules is why cells need membrane proteins (channels, carriers, pumps) to move those solutes.",
+    "whyItMatters": "Selective permeability is the foundation of compartmentalization: the cell keeps its ions, metabolites, and proteins inside while letting gases and small nonpolar signals pass. It explains drug absorption (lipid-soluble drugs cross membranes and the blood–brain barrier easily), anesthetic action (nonpolar anesthetics partition into membranes), and why transport proteins exist at all.",
+    "learningObjectives": "- Rank classes of molecules by their ability to cross a pure lipid bilayer.\n- Explain how size, polarity, and charge determine permeability.\n- Distinguish lipid-soluble from water-soluble solutes in terms of membrane passage.\n- Connect low ion permeability to the need for channels and transporters.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA pure phospholipid bilayer is selectively permeable: it is most permeable to small, nonpolar gases and hydrophobic molecules, less permeable to small uncharged polar molecules such as water, much less permeable to larger uncharged polar molecules such as glucose, and essentially impermeable to ions regardless of size. This ordering follows from the bilayer's hydrophobic core, which excludes charged and strongly polar solutes. The very low permeability to ions and to large polar molecules is why cells need membrane proteins (channels, carriers, pumps) to move those solutes.\n\n### Key Components\n\n### Hydrophobic core\nThe fatty-acyl tail interior is a low-dielectric, nonpolar barrier — the principal filter against polar and charged solutes.\n\n### Size and polarity\nSmall, nonpolar molecules dissolve in the core and cross readily; polar molecules must shed their hydration shell, which costs energy; charged ions face an additional electrostatic penalty and essentially cannot enter the core.\n\n### Permeability coefficient (P)\nA quantitative measure of how fast a solute crosses a given membrane; it combines the solute's partition into the membrane and its diffusion across it.\n\n### Ranking (highest to lowest permeability)\nGases and small hydrophobic molecules (O₂, CO₂, N₂, steroid hormones) > small uncharged polar molecules (water, glycerol, ethanol) > larger uncharged polar molecules (glucose, sucrose) > ions (Na⁺, K⁺, Cl⁻, Ca²⁺, H⁺).\n\n### Water's special case\nWater is polar yet crosses modestly, partly because of its very small size and high concentration; specialized aquaporin channels greatly increase water flux in some tissues.\n\n### Mechanism\n\nTo cross the bilayer, a solute must (1) partition from water into the hydrophobic core, then (2) diffuse across, then (3) exit into the aqueous phase on the far side. Step 1 dominates: nonpolar solutes partition easily (favorable), whereas polar solutes pay a large desolvation penalty, and ions pay both a desolvation penalty and an electrostatic cost from entering a low-dielectric medium. The result is the permeability ranking above.\n\n### How It Works\n\n1. A small nonpolar molecule (O₂) dissolves into the lipid core with little energy cost.\n2. It diffuses down its concentration gradient through the core.\n3. It exits on the other side — rapid net flux.\n4. A polar solute (glucose) cannot shed its water shell cheaply, so it barely enters the core.\n5. An ion (Na⁺) is repelled by the apolar, low-dielectric core and crosses only through a channel or transporter, not the bare lipid.\n\n### Energy and Directionality\n\nPermeability itself is a property, not an energy-consuming process: crossing by simple diffusion is passive and downhill (driven by the concentration gradient). The *selectivity* of the barrier is thermodynamic — the free-energy cost of moving a solute from water into the apolar core, which is smallest for nonpolar solutes and largest for ions.\n\n### Experimental Evidence\n\n- **Artificial liposomes:** measuring the flux of different solutes across pure phospholipid vesicles yields the permeability ranking directly.\n- **Partition-coefficient correlations (Overton's rule):** the more lipid-soluble (higher oil/water partition coefficient) a solute is, the faster it crosses membranes — established over a century ago.\n- **Cell-swelling/shrinking assays:** cells swell or shrink in solutions of permeant vs. impermeant solutes, demonstrating selective permeability.\n\n### Technique\n\nPermeability coefficients are measured with liposomes or planar bilayers using radio-labeled or fluorescent solutes and with stopped-flow or electrode-based flux assays. Osmotic swelling of cells in different solutes is a classic, simple demonstration of selectivity.",
+    "howItWorks": "1. A small nonpolar molecule (O₂) dissolves into the lipid core with little energy cost.\n2. It diffuses down its concentration gradient through the core.\n3. It exits on the other side — rapid net flux.\n4. A polar solute (glucose) cannot shed its water shell cheaply, so it barely enters the core.\n5. An ion (Na⁺) is repelled by the apolar, low-dielectric core and crosses only through a channel or transporter, not the bare lipid.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Permeability ranking: gases/hydrophobic > small polar > larger polar > ions.\n- Ions are essentially impermeable through the bare bilayer regardless of size.\n- Water crosses slowly but measurably; aquaporins accelerate it.\n- Overton's rule: lipid solubility predicts membrane permeability.\n- Glucose and ions require channels/transporters to cross at useful rates.",
+    "commonConfusions": "- **\"Small ions cross easily because they are small.\"** No — ions are the *least* permeable species because charge excludes them from the apolar core, regardless of size.\n- **\"Water cannot cross a lipid bilayer.\"** Water crosses slowly; it is just far faster through aquaporins.\n- **\"Polarity does not matter, only size.\"** Polarity (and charge) dominate; a large nonpolar molecule crosses more readily than a small ion.\n- **\"Permeability requires energy.\"** It is a passive property; crossing by diffusion is downhill.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThe membrane's middle is like a thick oil slick. Things that are oily dissolve right through; things that are watery can barely get in, and things that carry an electric charge are turned away entirely — the oil won't let them in. That's why the cell must build special \"doors\" (channels and pumps) to let charged particles and big watery molecules through.",
+    "quickReview": "- Bilayer is most permeable to nonpolar, least to ions.\n- Order: gases > small polar > large polar > ions.\n- Desolvation and electrostatic penalties explain the ranking.\n- Overton's rule links lipid solubility to permeability.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"5.2 Passive Transport.\" https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+        "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Principles of Membrane Transport.\" https://www.ncbi.nlm.nih.gov/books/NBK26815/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+      },
+      {
+        "text": "Cooper, *The Cell: A Molecular Approach*, 2nd ed. https://www.ncbi.nlm.nih.gov/books/NBK9839/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9839/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/02-membranes-transport/06-membrane-permeability.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

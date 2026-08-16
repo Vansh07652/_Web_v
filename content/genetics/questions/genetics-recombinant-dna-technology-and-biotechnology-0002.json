@@ -1,0 +1,40 @@
+{
+  "id": "genetics-recombinant-dna-technology-and-biotechnology-0002",
+  "subject": "genetics",
+  "lesson": "recombinant-dna-technology-and-biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A researcher ligates an insert into the multiple cloning site inside the *lacZ* gene of a plasmid that also carries an ampicillin resistance gene, transforms *E. coli*, and plates the cells on medium containing ampicillin, IPTG, and X-gal. Some colonies are white. What does a white colony indicate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The insert ligated in the wrong orientation, so *lacZ* is still expressed and the colony turns blue"
+    },
+    {
+      "id": "b",
+      "text": "The bacteria became ampicillin resistant because of X-gal, so the plasmid was not needed"
+    },
+    {
+      "id": "c",
+      "text": "The plasmid failed to enter the bacteria, and untransformed cells are growing on the plate"
+    },
+    {
+      "id": "d",
+      "text": "The insert is present and disrupts *lacZ*, so beta galactosidase is not made and X-gal is not cleaved to a blue product"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "The insert is cloned inside *lacZ*, so a successful insertion disrupts the gene, no functional beta galactosidase is produced, and the chromogenic substrate X-gal is not cleaved, leaving the colony white. A misreads the orientation error, because a wrong orientation insert still interrupts *lacZ* and still gives white colonies. B confuses screening with selection, because X-gal and IPTG confer no antibiotic resistance. C is ruled out by the ampicillin selection, because cells that failed to take up the plasmid die and never form colonies.",
+  "difficulty": "unknown",
+  "tags": [
+    "blue",
+    "white",
+    "screening",
+    "colonies"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-2e5f1806a7bd2d1a",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

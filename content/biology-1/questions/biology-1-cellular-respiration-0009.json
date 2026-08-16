@@ -1,0 +1,40 @@
+{
+  "id": "biology-1-cellular-respiration-0009",
+  "subject": "biology-1",
+  "lesson": "cellular-respiration",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In the Calvin cycle, the enzyme **RuBisCO** performs carbon fixation by attaching carbon dioxide to which molecule?",
+  "options": [
+    {
+      "id": "a",
+      "text": "**RuBP**, a five-carbon molecule, producing two molecules of 3-PGA."
+    },
+    {
+      "id": "b",
+      "text": "G3P, a three-carbon sugar, producing glucose directly."
+    },
+    {
+      "id": "c",
+      "text": "NADPH, producing the energy needed for reduction."
+    },
+    {
+      "id": "d",
+      "text": "ATP, producing the phosphate needed for regeneration."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "RuBisCO attaches carbon dioxide to RuBP, a five-carbon sugar, and the unstable six-carbon product splits into two molecules of 3-PGA. B skips the fixation step, because G3P appears only after reduction. C confuses the electron carrier with the carbon acceptor. D misidentifies ATP, which is consumed later in the cycle rather than accepting carbon dioxide.",
+  "difficulty": "unknown",
+  "tags": [
+    "carbon",
+    "fixation",
+    "by",
+    "rubisco"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-247e595a482fe894",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-ions-and-electrolytes-q10",
+  "subject": "chemistry-1",
+  "lesson": "ions-and-electrolytes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A sample panel from a teaching case reports Na+ 140 mEq/L, Cl- 104 mEq/L, and HCO3- 24 mEq/L. Using the common formula anion gap = Na+ - (Cl- + HCO3-), what is the value and what does it represent?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A gap of 36 mEq/L, representing the sodium remaining after chloride has been neutralized"
+    },
+    {
+      "id": "b",
+      "text": "A gap of 12 mEq/L, representing unmeasured anions such as proteins, phosphate, and sulfate"
+    },
+    {
+      "id": "c",
+      "text": "A gap of 80 mEq/L, representing the amount by which chloride exceeds bicarbonate"
+    },
+    {
+      "id": "d",
+      "text": "A gap of 12 mEq/L, demonstrating that the sample violates the rule of electroneutrality"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "The arithmetic is 140 - (104 + 24) = 12 mEq/L. Both measured anions must be subtracted, so stopping at 140 - 104 = 36 or computing 104 - 24 = 80 misapplies the formula. Because bulk solutions are electrically neutral, no charge is genuinely missing; the gap simply reflects anions the routine panel does not measure, chiefly albumin along with phosphate, sulfate, and organic acids. The calculation is a bookkeeping device built on charge balance, not evidence against it.\n\nELI-10: Body fluid must carry equal positive and negative charge, so the anion gap is best read as an accounting remainder rather than a real imbalance. The panel measures one large cation (sodium, 140) and the two largest anions (chloride 104 plus bicarbonate 24, totaling 128). Subtracting leaves 12 units of negative charge unaccounted for. Those charges are physically present - they sit on plasma proteins and small anions the panel never reports - so the gap measures the laboratory's blind spot, and a widened gap suggests an unmeasured anion such as lactate has accumulated.",
+  "difficulty": "medium",
+  "tags": [
+    "anion gap",
+    "electroneutrality",
+    "unmeasured anions"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-273",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

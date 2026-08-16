@@ -1,0 +1,63 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    defaults:
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Audit production dependencies
+        run: npm audit --audit-level=high
+
+      # The governance validators added with the study-tools work read only
+      # files inside web/, so they are safe to run here. They are intentionally
+      # NOT in deploy-pages.yml yet: that workflow gates the live site, and a
+      # new check should prove itself on a few CI runs before it can block a
+      # deploy. Promote them once this job has been green for a while.
+      - name: Run repository validation
+        run: >-
+          npm run typecheck &&
+          npm run lint &&
+          npm test &&
+          npm run build:books &&
+          npm run validate:books &&
+          npm run validate:source &&
+          npm run validate:routes &&
+          npm run validate:architecture &&
+          npm run validate:metadata &&
+          npm run validate:source-registry &&
+          npm run validate:question-quality &&
+          npm run validate:study-paths &&
+          npm run validate:structured-data &&
+          npm run validate:completeness &&
+          npm run check:links &&
+          npm run check:assets &&
+          npm run scan:secrets &&
+          npm run build

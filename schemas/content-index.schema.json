@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Content index entry",
+  "type": "object",
+  "required": [
+    "id",
+    "subject",
+    "contentType",
+    "title",
+    "filePath",
+    "status",
+    "reviewStatus",
+    "source",
+    "originalFile"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "subject": {
+      "enum": [
+        "biology-1",
+        "biology-2",
+        "organic-chemistry-1",
+        "organic-chemistry-2",
+        "chemistry-1",
+        "chemistry-2",
+        "physics-1",
+        "physics-2",
+        "microbiology",
+        "genetics",
+        "nclex-review"
+      ]
+    },
+    "contentType": {
+      "enum": [
+        "note",
+        "question",
+        "flashcard"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "lesson": {
+      "type": "string"
+    },
+    "filePath": {
+      "type": "string"
+    },
+    "status": {
+      "const": "approved"
+    },
+    "reviewStatus": {
+      "const": "audited"
+    },
+    "source": {
+      "type": "string"
+    },
+    "originalFile": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

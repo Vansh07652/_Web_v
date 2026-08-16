@@ -1,0 +1,143 @@
+---
+title: "Embryonic Development of the Respiratory System"
+subject: "Science"
+book: "Anatomy and Physiology 2e"
+chapter: "22: The Respiratory System"
+topic_number: "7"
+source: "anatomy-and-physiology-2e.md"
+tags:
+  - "embryonic-development-of-the-respiratory-system"
+  - "science"
+status: "complete"
+---
+
+# Embryonic Development of the Respiratory System
+
+> **Book:** [Anatomy and Physiology 2e](../../README.md)  
+> **Chapter:** [Chapter 22: The Respiratory System](../README.md)  
+> **Topic:** 7  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Before birth, the lungs are not organs of gas exchange — the placenta is. The respiratory system therefore develops through structural stages that build the airways and gas-exchange surface in advance, so the first breath works on the first attempt. Development begins in the fourth week of gestation, when a **respiratory diverticulum (lung bud)** sprouts from the ventral wall of the foregut, and proceeds through five named stages — **embryonic, pseudoglandular, canalicular, saccular, and alveolar** — that transform a simple outgrowth into a tree of conducting airways ending in thin-walled sacs. Two achievements matter most for survival: **surfactant** formation (beginning late in the canalicular stage, maturing through the saccular stage — the viability threshold) and the **switch at birth** from placental to pulmonary gas exchange, when the fetal shunts close and the alveoli fill with air for the first time.
+
+## Why This Matters
+
+The developmental timeline explains a central threshold in clinical care: **prematurity**. A baby born before surfactant production has matured has stiff, collapse-prone lungs and struggles to oxygenate — the basis of neonatal respiratory distress syndrome, a major reason premature births are managed in specialized units (surfactant therapy exists but is administered by professionals; the student's task is to understand *why* surfactant matters, not to administer it). The stages and their weeks also answer classic exam questions: when conducting airways form (pseudoglandular), when the first gas-exchange surface appears (canalicular), when survival outside the womb first becomes possible (the canalicular-to-saccular transition — a "viability" boundary that varies with medical capability), and when alveolar multiplication takes off (late gestation and years *after* birth). The fetal circulation and birth transition explain why the first cry matters and how the foramen ovale and ductus arteriosus close. Embryology is the underlying "why" of neonatal physiology.
+
+## Core Concepts
+
+### Origins: the lung bud and the foregut
+
+Around the fourth week, the respiratory system begins as an outgrowth of the **endoderm** — the **respiratory diverticulum** (lung bud) appears on the ventral wall of the foregut, just caudal to the pharynx. Endoderm forms the epithelial lining of the airways; the surrounding **splanchnic mesoderm** forms connective tissue, cartilage, smooth muscle, and capillaries. The foregut and lung bud initially share a channel; the **tracheoesophageal septum** grows between them, dividing the tube into the ventral **laryngotracheal tube** (larynx, trachea, lungs) and the dorsal esophagus. Incomplete separation causes a **tracheoesophageal fistula** — an abnormal trachea–esophagus connection managed surgically after birth.
+
+### Stage 1 — Embryonic (weeks 4–7): the tree begins
+
+During the embryonic stage the lung bud elongates into the trachea and splits into right and left **primary bronchi**. The right bronchus branches into three **secondary (lobar) bronchi** (for the right lung's three lobes) and the left into two (for the left lung's two lobes); continued branching produces the segmental bronchi. Even at this early stage, the *pattern* of the adult bronchial tree is laid down — an asymmetric tree mirroring the adult arrangement (three right lobes, two left).
+
+### Stage 2 — Pseudoglandular (weeks 5–17): the conducting airways
+
+The name "pseudoglandular" comes from the microscopic appearance: branching tubules lined with cuboidal epithelium look like a developing gland. The bronchial tree branches repeatedly, generating the complete conducting airway system down to the terminal bronchioles — all the airways that will *conduct* air, but none that will *exchange* it. Because these generations form so early, disruption during this window can impair branching.
+
+### Stage 3 — Canalicular (weeks 16–25): the first gas-exchange surfaces
+
+This is the turning point. The terminal bronchioles divide into **respiratory bronchioles**, which bud into **terminal sacs (primitive alveoli)** — the first structures capable of gas exchange. The epithelium thins and capillaries approach the sac walls, forming the first thin respiratory membranes. **Type II alveolar cells begin producing surfactant** near the end of this stage (around week 20 and beyond). This is also when a fetus first becomes potentially viable: survival outside the womb becomes possible near the canalicular-to-saccular boundary, with intensive neonatal care and significant risk — viability depends on medical capability and varies over time and place.
+
+### Stage 4 — Saccular (weeks 24 to birth): saccules multiply, surfactant matures
+
+The terminal sacs multiply and enlarge, greatly increasing the future gas-exchange surface. Type II cells step up surfactant production, and the surfactant system matures — the period when the lungs become progressively able to stay open after birth. Surfactant output rises steeply late in gestation, which is why lung maturity and gestational age are so closely linked.
+
+### Stage 5 — Alveolar (week 36 to about 8 years): the final expansion
+
+True **alveoli** — the definitive gas-exchange units — begin to appear at about 36 weeks. Most alveolar formation, however, happens *after* birth: the newborn has only a fraction of the adult's roughly 300 million alveoli (commonly taught estimate), and new alveoli continue to form through early childhood, with the greatest multiplication in the first few years. Lung development is not finished at birth.
+
+### Surfactant and the premature lung
+
+Surfactant — produced by type II alveolar cells — is a mix of phospholipids and proteins that lowers surface tension at the air-liquid interface of the alveoli (see the breathing topic). In a premature infant whose surfactant has not matured, the alveoli have high surface tension, collapse easily (atelectasis), and are hard to reinflate; the infant works hard to breathe and oxygenates poorly. This is **neonatal respiratory distress syndrome (NRDS)** — a condition of prematurity, distinct from adult respiratory distress syndrome (ARDS), though both impair gas exchange. Management belongs to neonatal intensive care teams; the educational point is that the surfactant timeline *is* why gestational age predicts lung function at birth.
+
+### Before birth: the fetal circulation and the first breath
+
+The fetus does not use its lungs for gas exchange; the placenta does, so the fetal circulation is arranged to *bypass* the lungs. Oxygenated blood returns from the placenta via the umbilical vein, much of it shunted past the liver through the **ductus venosus**; in the heart, the **foramen ovale** lets blood pass from right atrium to left atrium, bypassing the right ventricle and lungs; and the **ductus arteriosus** connects the pulmonary trunk to the aorta, diverting blood away from the unexpanded lungs. At birth, several things happen at once: the first breath expands the lungs, pulmonary vascular resistance falls, blood flow to the lungs surges, and the shunts begin to close — the foramen ovale seals functionally within minutes (left atrial pressure rises), and the ductus arteriosus constricts within the first day or two (becoming the ligamentum arteriosum). The first cry is not just a sound: it is the mechanical event that inflates the lungs and triggers the transition from placental to pulmonary life. (Closure timing varies and is verified in current texts; closure is functional before it is anatomical.)
+
+## ELI-10: Explain Like I'm 10
+
+> Your lungs were built like a house before you ever used them: first a tiny bud of cells grew from your food tube and split into two branches, then the branches grew into a big tree of tubes. Near the end of pregnancy, the smallest twigs grew little balloons (air sacs) and got a soapy coating called surfactant that stops them from sticking shut. When you were born and took your first breath, the balloons popped open and your body switched from getting oxygen from your mom's placenta to getting it from the air. Babies born too early don't have enough soapy coating yet — that's why their lungs are so hard to keep open.
+
+## High-Yield Points
+
+- **Origin:** the respiratory system develops from a ventral outgrowth of the foregut endoderm (lung bud, ~week 4); the tracheoesophageal septum separates trachea from esophagus.
+- **Five stages, know the sequence and highlights:** embryonic (4–7 wk, primary/secondary bronchi) → pseudoglandular (5–17 wk, conducting airways complete) → canalicular (16–25 wk, first gas-exchange sacs + surfactant begins; viability threshold) → saccular (24 wk–birth, saccules multiply, surfactant matures) → alveolar (36 wk–~8 yr, true alveoli; most form after birth).
+- **Type II alveolar cells make surfactant**, which lowers surface tension and keeps alveoli open; its immaturity underlies neonatal respiratory distress syndrome in premature infants (a professional-care condition).
+- **The right lung buds into 3 lobar bronchi, the left into 2** — matching the adult lobar arrangement.
+- **Fetal circulation bypasses the lungs** via the ductus venosus, foramen ovale, and ductus arteriosus; the first breath lowers pulmonary resistance, and the shunts close (functionally first, anatomically later).
+- **Alveoli keep multiplying for years after birth** — the adult complement (~300 million, commonly taught estimate) is reached only in childhood.
+- **Viability is a range, not a single week:** it depends on gestational age and neonatal care capability, beginning at the canalicular-to-saccular transition.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Respiratory diverticulum (lung bud) | The endodermal outgrowth from the foregut that becomes the respiratory system | The starting point of all lung development (~week 4) |
+| Tracheoesophageal septum | Ridge of tissue that divides the foregut into the ventral trachea and dorsal esophagus | Incomplete separation causes tracheoesophageal fistula |
+| Embryonic stage | Weeks 4–7: trachea and primary/secondary bronchi form | Sets the lobar pattern (3 right, 2 left) |
+| Pseudoglandular stage | Weeks 5–17: branching builds all conducting airways | Completes the airway tree before any gas-exchange surface exists |
+| Canalicular stage | Weeks 16–25: respiratory bronchioles and first terminal sacs form; surfactant begins | The first gas-exchange capability; start of the viability window |
+| Saccular stage | Week 24 to birth: saccules multiply and surfactant matures | Lungs progressively become able to stay open after birth |
+| Alveolar stage | Week 36 to ~8 years: true alveoli form, mostly after birth | Most gas-exchange surface is built postnatally |
+| Type II alveolar cells | Cells that secrete surfactant | Their maturation sets the gestational-age threshold for lung function |
+| Surfactant | Lipoprotein that lowers alveolar surface tension | Prevents alveolar collapse; its absence underlies neonatal respiratory distress syndrome |
+| Foramen ovale | Fetal atrial opening shunting blood from right to left atrium | Bypasses the lungs before birth; closes after the first breaths |
+| Ductus arteriosus | Fetal vessel connecting pulmonary trunk to aorta | Diverts blood away from the unexpanded lungs; constricts after birth |
+| Neonatal respiratory distress syndrome (NRDS) | Breathing difficulty in premature infants due to surfactant deficiency | The clinical consequence of the developmental timeline of surfactant production |
+
+## Example: The Timeline as a Story — Why "36 Weeks" Matters
+
+Consider two births. **Birth A:** a baby is delivered at 38 weeks. Her lungs reached the alveolar stage at 36 weeks, and surfactant matured through the saccular stage, so her alveoli stay open. Her first breath inflates the lungs, pulmonary vascular resistance drops, the shunts begin closing, and she transitions smoothly to air breathing. **Birth B:** a baby is born at 26 weeks — deep in the canalicular stage. His lungs have gas-exchange sacs and some surfactant, but not enough: surface tension is high, alveoli collapse at the end of each expiration, and every breath is a struggle against stiff lungs. This is neonatal respiratory distress syndrome; he needs neonatal intensive care, including surfactant therapy given by the care team. The difference between the births is not luck but the developmental schedule: the saccular stage's surfactant maturation is exactly what the 26-week baby has not completed. Walking the timeline backward from breathing difficulty to surfactant maturation is how exam questions connect embryology to practice.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Pseudoglandular stage | Canalicular stage | Pseudoglandular (5–17 wk) builds only conducting airways, no gas exchange; canalicular (16–25 wk) produces the first respiratory bronchioles and terminal sacs — the first exchange surfaces. |
+| Type I alveolar cells | Type II alveolar cells | Type I are the thin cells that perform gas exchange; type II secrete surfactant. Both line the alveoli, but different jobs. |
+| Neonatal RDS | Adult ARDS | NRDS is surfactant deficiency of prematurity; ARDS is a lung injury syndrome in older patients. Different causes, both impair gas exchange. |
+| Functional closure of shunts | Anatomical closure | The foramen ovale and ductus arteriosus close *functionally* within minutes-to-days of birth but become permanent fibrous structures (ligaments) later. |
+| Fetal gas exchange | Neonatal gas exchange | Before birth the placenta, not the lungs, exchanges gases; the fetal circulation is designed to bypass the lungs, and the first breath triggers the switch. |
+| Alveoli at birth | Alveoli in adulthood | The newborn has only a fraction of the adult count; most alveoli form during the first years after birth. |
+| Viability week | Surfactant-mature week | Survival is possible from the canalicular-saccular boundary, but lung function improves steadily with gestational age; viability also depends on available neonatal care. |
+
+## Quick Review
+
+1. From which germ layer and which embryonic structure does the respiratory system arise, and what does the tracheoesophageal septum do?
+2. Name the five developmental stages in order, with the weeks, and give one key event of each.
+3. At what point does the fetus first have gas-exchange surfaces, and why is that also the start of the viability window?
+4. What do type II alveolar cells produce, and why does prematurity cause breathing difficulty?
+5. List the three fetal circulatory shunts/bypass routes and what happens to them at birth.
+6. Why does most alveolar formation occur after birth rather than before?
+
+<details>
+<summary>Show answers</summary>
+
+1. From the endoderm of the foregut: the respiratory diverticulum (lung bud) grows ventrally around week 4. The tracheoesophageal septum divides the foregut into the ventral laryngotracheal tube (larynx, trachea, lungs) and the dorsal esophagus; incomplete separation causes tracheoesophageal fistula.
+2. Embryonic (4–7 wk: trachea, primary and secondary bronchi) → pseudoglandular (5–17 wk: conducting airways complete) → canalicular (16–25 wk: respiratory bronchioles and first terminal sacs; surfactant begins) → saccular (24 wk–birth: saccules multiply, surfactant matures) → alveolar (36 wk–~8 yr: true alveoli form, mostly after birth).
+3. During the canalicular stage (~16–25 weeks), when respiratory bronchioles and terminal sacs form with thin epithelium and close capillary contact. Viability becomes possible from this stage onward because some gas exchange is structurally possible, though survival depends heavily on gestational age and neonatal care.
+4. Type II alveolar cells secrete surfactant, which lowers surface tension and keeps alveoli open. A premature infant has immature surfactant production, so alveoli collapse (atelectasis) and the lungs are stiff — the basis of neonatal respiratory distress syndrome.
+5. Ductus venosus (bypasses the liver), foramen ovale (right-to-left atrial shunt), and ductus arteriosus (pulmonary trunk to aorta). At birth, lung expansion and the fall in pulmonary vascular resistance shift pressures so the foramen ovale closes functionally and the ductus arteriosus constricts; both later become fibrous remnants.
+6. True alveoli only begin to appear at about 36 weeks of gestation, so a baby born at term has only a fraction of the adult complement; the greatest multiplication of alveoli occurs in the first few years of postnatal life, continuing into childhood.
+
+</details>
+
+## Related Topics
+
+- Previous: [Modifications in Respiratory Functions](06-modifications-in-respiratory-functions.md)
+- Next: End of chapter
+- Related: [The Respiratory System chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Anatomy and Physiology 2e
+- Local outline source: `anatomy-and-physiology-2e.md`
+- Official source URL: https://openstax.org/details/books/anatomy-and-physiology-2e/
+- Content type: Original educational study guide based on OpenStax outline structure. Gestational-week boundaries are commonly taught textbook ranges and vary somewhat among sources; neonatal conditions are described for educational recognition only — diagnosis and treatment require professional neonatal care.
+- Last updated: 2026-08-16

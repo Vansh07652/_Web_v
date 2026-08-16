@@ -1,0 +1,204 @@
+---
+title: "Occurrence and Preparation of the Representative Metals"
+subject: "Science"
+book: "Chemistry: Atoms First 2e"
+chapter: "18: Representative Metals, Metalloids, and Nonmetals"
+topic_number: "2"
+source: "chemistry-atoms-first-2e.md"
+tags:
+  - "occurrence-and-preparation-of-the-representative-metals"
+  - "science"
+status: "complete"
+---
+
+# Occurrence and Preparation of the Representative Metals
+
+> **Book:** [Chemistry: Atoms First 2e](../../README.md)  
+> **Chapter:** [Chapter 18: Representative Metals, Metalloids, and Nonmetals](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+The **representative metals** are the s-block metals (Groups 1 and 2) plus the p-block metals: aluminum, gallium, indium, thallium, tin, lead, and bismuth. Except for a few "noble" metals, none are found free in nature: over geological time, oxygen, sulfur, carbon dioxide, and water oxidized them into the **ores** we mine today — oxides, sulfides, carbonates, and chlorides.
+
+**Metallurgy** is the science of getting a metal back out of its ore, and it rests on one matching game: *the more reactive the metal, the harder it is to free, and the more powerful the reducing agent must be.* Gold, silver, and platinum occur free and need almost no chemistry; sodium, potassium, calcium, magnesium, and aluminum bond so strongly that only **electrolysis** of molten compounds can reduce them; in between, iron, zinc, tin, and lead are won by heating their oxides with carbon or carbon monoxide.
+
+## Why This Matters
+
+- **Metals built your world:** structural steel, aircraft and cans (aluminum), wiring, and batteries all start as ores that must be reduced.
+- **Biology runs on representative metals:** Na⁺ and K⁺ drive nerve impulses, Ca²⁺ builds bone and triggers muscle contraction, and Mg²⁺ sits at the center of chlorophyll.
+- **Extraction is expensive and environmental:** aluminum production consumes a large share of industrial electricity precisely because Al–O bonds are so strong; recycling aluminum saves roughly 95% of that energy.
+- **Exam value:** pairing a metal with its extraction method (electrolysis vs. carbon reduction vs. native) tests whether you understand the reactivity series instead of memorizing lists.
+
+## Core Concepts
+
+### Where the representative metals are found
+
+Earth's crust is about 46.6% oxygen and 27.7% silicon by mass. The most abundant metals follow: aluminum (~8.1%), iron (~5.0%), calcium (~3.6%), sodium (~2.8%), potassium (~2.6%), and magnesium (~2.1%). Seawater adds a vast reservoir of sodium and magnesium chlorides. Ore minerals belong to a few families:
+
+- **Oxides:** bauxite (\(	ext{Al}_2	ext{O}_3\cdot x	ext{H}_2	ext{O}\)) → aluminum; hematite (\(	ext{Fe}_2	ext{O}_3\)) → iron; cassiterite (\(	ext{SnO}_2\)) → tin.
+- **Sulfides:** sphalerite (ZnS) → zinc; galena (PbS) → lead; these are roasted to oxides first.
+- **Carbonates and halides:** limestone (CaCO₃), magnesite (MgCO₃), halite (NaCl).
+- **Silicates:** the most common rock-forming minerals, but too stable and complex to be economical ore sources.
+
+Only the least reactive metals — gold, silver, platinum, occasionally copper and mercury — occur **native** (uncombined): their oxides are so easily reduced that weak natural agents kept them metallic, and physical methods (panning, sluicing) concentrate the grains.
+
+### The matching game: reactivity decides the method
+
+A metal is obtained by **reducing** its compounds, and the reducing agent must be stronger than the metal itself. Carbon, CO, hydrogen, a more reactive metal, or an electric current can serve — if strong enough.
+
+**Electrolysis — the most reactive metals (Na, K, Ca, Mg, Al).** No chemical reducing agent works, so an electric current supplies electrons directly.
+
+- **Sodium (Downs cell):** molten NaCl, with CaCl₂ added to lower the melting point from ~801 °C to ~600 °C:
+
+\[
+2\text{NaCl}(l) \longrightarrow 2\text{Na}(l) + \text{Cl}_2(g)
+\]
+
+- **Magnesium (Dow process):** Mg(OH)₂ precipitated from seawater is converted to \(	ext{MgCl}_2\), dried, and electrolyzed molten. The Pidgeon process instead reduces MgO with ferrosilicon under vacuum.
+- **Aluminum (Hall–Héroult process):** purified \(	ext{Al}_2	ext{O}_3\) is dissolved in molten cryolite (\(	ext{Na}_3	ext{AlF}_6\)) at 950–1000 °C. At the cathode, \(	ext{Al}^{3+} + 3e^- \longrightarrow \text{Al}\); at the carbon anodes, oxide ions are oxidized to O₂, which slowly burns the anodes away.
+
+**Chemical reduction — moderately reactive metals (Fe, Zn, Sn, Pb).** Sulfide ores are first roasted to oxides, then the oxide is heated with carbon or CO:
+
+\[
+\text{Fe}_2\text{O}_3(s) + 3\text{CO}(g) \longrightarrow 2\text{Fe}(l) + 3\text{CO}_2(g) \quad \text{(blast furnace)}
+\]
+
+\[
+\text{SnO}_2(s) + \text{C}(s) \longrightarrow \text{Sn}(l) + \text{CO}_2(g)
+\]
+
+Zinc is roasted (ZnS → ZnO, releasing SO₂ that is captured for sulfuric acid), then reduced: \(\text{ZnO}(s) + \text{C}(s) \longrightarrow \text{Zn}(g) + \text{CO}(g)\).
+
+**Found native — noble metals (Au, Ag, Pt).** No reduction needed; the metal is separated from rock by density (panning) or, industrially, dissolved with cyanide and re-precipitated. Cyanide leaching is strictly industrial — cyanide salts are deadly and never used in student labs.
+
+### Why carbon works for iron but not aluminum
+
+The more negative the free-energy change for forming a metal oxide, the more stable the oxide and the harder it is to reduce. At blast-furnace temperatures, CO binds oxygen strongly enough to win it from iron; aluminum oxide is so stable that carbon cannot compete at any practical temperature. Only electrolysis — not limited by chemical reducing strength — can pull aluminum out. The activity series summarizes this: metals above carbon (Li through Al) need electrolysis; metals below carbon (Zn through Cu) can be reduced by carbon.
+
+## ELI-10: Explain Like I'm 10
+
+> Most metals hide inside rocks, locked up with oxygen, because they are "friendly" — they react easily. To free them you must win a tug-of-war for the oxygen. For super-friendly metals like aluminum you need a giant electric plug. For less friendly metals like iron, heating with charcoal is enough. A few metals like gold never made friends with oxygen, so you can just pick them out of the dirt.
+
+## High-Yield Points
+
+- **Most representative metals occur combined, not free**; only Au, Ag, Pt (and sometimes Cu, Hg) occur native.
+- **Reactivity controls the method:** electrolysis for Na, K, Ca, Mg, Al; carbon/CO reduction for Fe, Zn, Sn, Pb; physical separation for noble metals.
+- **Name the processes:** Downs cell (molten NaCl + CaCl₂) → Na; Hall–Héroult (Al₂O₃ in molten cryolite) → Al; blast furnace (Fe₂O₃ + 3CO → 2Fe + 3CO₂) → Fe.
+- **Sulfide ores are roasted to oxides first**, releasing SO₂ that must be captured.
+- **Aluminum is the most abundant crustal metal (~8%)** yet was isolated only in the 1800s: abundant ≠ easy to obtain.
+- **Metal forms at the cathode (reduction);** Cl₂ or O₂ forms at the anode (oxidation).
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Ore | A mineral deposit from which a metal can be extracted at a profit. | Defines what is worth mining; chemistry sets the cost. |
+| Native metal | A metal found uncombined in nature (Au, Ag, Pt). | Only unreactive metals survive in elemental form. |
+| Metallurgy | The science of extracting and refining metals from ores. | The framework for every preparation here. |
+| Roasting | Heating a sulfide ore in air to convert it to an oxide. | First step for Zn, Pb, and other sulfide ores. |
+| Smelting | Heating an ore with a reducing agent (C or CO) to get the metal. | The workhorse method for Fe, Zn, Sn, Pb. |
+| Electrolysis | Using electric current to force a nonspontaneous reduction. | The only practical route to Na, K, Ca, Mg, Al. |
+| Gangue | Worthless rock and mineral impurities in an ore. | Separating it is a major cost of metallurgy. |
+
+## Examples: stoichiometry of extraction
+
+### Example 1 — Aluminum from a ton of alumina
+
+The cell reaction is \(2\text{Al}_2\text{O}_3 \longrightarrow 4\text{Al} + 3\text{O}_2\), so **2 mol of Al form per mole of Al₂O₃**. How much aluminum comes from 1.00 × 10³ kg of pure \(	ext{Al}_2	ext{O}_3\)? Molar mass:
+
+\[
+M(\text{Al}_2\text{O}_3) = 2(26.98) + 3(16.00) = 101.96\ \text{g/mol}
+\]
+
+\[
+n(\text{Al}_2\text{O}_3) = \frac{1.00 \times 10^6\ \text{g}}{101.96\ \text{g/mol}} = 9.81 \times 10^3\ \text{mol}
+\]
+
+Convert with the mole ratio, then to mass:
+
+\[
+m(\text{Al}) = 9.81 \times 10^3\ \text{mol Al}_2\text{O}_3 \times \frac{2\ \text{mol Al}}{1\ \text{mol Al}_2\text{O}_3} \times \frac{26.98\ \text{g}}{1\ \text{mol Al}} = 5.29 \times 10^5\ \text{g} \approx 529\ \text{kg}
+\]
+
+One ton of alumina yields about **529 kg of aluminum** — the rest leaves as oxygen at the anodes.
+
+### Example 2 — Iron from impure hematite
+
+A furnace charges 2.00 × 10³ kg of ore that is 85.0% \(	ext{Fe}_2	ext{O}_3\) by mass. Using \(	ext{Fe}_2	ext{O}_3 + 3\text{CO} \longrightarrow 2\text{Fe} + 3\text{CO}_2\), find the mass of iron. First isolate the hematite:
+
+\[
+m(\text{Fe}_2\text{O}_3) = 0.850 \times 2.00 \times 10^6\ \text{g} = 1.70 \times 10^6\ \text{g}
+\]
+
+With \(M(\text{Fe}_2\text{O}_3) = 2(55.85) + 3(16.00) = 159.70\ \text{g/mol}\):
+
+\[
+m(\text{Fe}) = \frac{1.70 \times 10^6\ \text{g}}{159.70\ \text{g/mol}} \times \frac{2\ \text{mol Fe}}{1\ \text{mol Fe}_2\text{O}_3} \times \frac{55.85\ \text{g}}{1\ \text{mol Fe}} = 1.19 \times 10^6\ \text{g} \approx 1.19 \times 10^3\ \text{kg}
+\]
+
+The 15% gangue never reacts and ends up in the slag.
+
+### Example 3 — Sodium by the Downs cell
+
+A Downs cell runs at 5.00 × 10⁴ A for 2.00 h. Each Na⁺ needs one electron: \(\text{Na}^+ + e^- \longrightarrow \text{Na}\). Find the charge first:
+
+\[
+q = I \times t = (5.00 \times 10^4\ \text{A})(7200\ \text{s}) = 3.60 \times 10^8\ \text{C}
+\]
+
+Convert to moles of electrons with the Faraday constant \(F = 96{,}485\ \text{C/mol } e^-\):
+
+\[
+m(\text{Na}) = \frac{3.60 \times 10^8\ \text{C}}{96{,}485\ \text{C/mol } e^-} \times \frac{1\ \text{mol Na}}{1\ \text{mol } e^-} \times \frac{22.99\ \text{g}}{1\ \text{mol Na}} = 8.58 \times 10^4\ \text{g} \approx 85.8\ \text{kg}
+\]
+
+Two hours at industrial current deliver roughly **86 kg of sodium**, plus a stoichiometric amount of Cl₂ at the anode.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Native metal | Refined metal | Native = found free in nature (Au, Ag, Pt); refined = extracted and purified by humans. |
+| Roasting | Smelting | Roasting converts sulfide ores to oxides in air; smelting reduces oxides with C/CO to metal. |
+| Electrolysis | Smelting | Electrolysis uses electric current (very reactive metals); smelting uses chemical reducing agents (moderately reactive metals). |
+| Abundance in crust | Ease of extraction | Aluminum is the most abundant metal yet among the hardest to obtain — abundance says nothing about reactivity. |
+| Metal at the anode | Metal at the cathode | Reduction (metal deposition) always occurs at the cathode; oxidation (Cl₂, O₂ evolution) at the anode. |
+
+## Quick Review
+
+1. Why are almost no representative metals found free in nature?
+2. Match each metal to its preparation: (a) Na, (b) Fe, (c) Au, (d) Al.
+3. In the Downs cell, why is CaCl₂ added to the molten NaCl?
+4. How many kilograms of aluminum can be produced from 2.00 × 10³ kg of pure Al₂O₃? (M: Al₂O₃ = 101.96, Al = 26.98 g/mol.)
+5. A current of 1.93 × 10⁵ A runs for exactly 1.00 h in a Downs cell. How many moles of electrons pass? (F = 96,485 C/mol.)
+6. Why must sulfide ores like ZnS be roasted before carbon reduction?
+
+<details>
+<summary>Show answers</summary>
+
+1. Because they are reactive: over geological time they combined with oxygen, sulfur, carbon dioxide, and water. Only very unreactive metals (Au, Ag, Pt) survive uncombined.
+2. (a) Na — electrolysis of molten NaCl (Downs cell); (b) Fe — reduction of Fe₂O₃ with CO in the blast furnace; (c) Au — found native; (d) Al — electrolysis of Al₂O₃ in molten cryolite (Hall–Héroult).
+3. CaCl₂ lowers the melting point from ~801 °C to ~600 °C, saving energy and limiting sodium vaporization losses.
+4. Moles Al₂O₃ = 2.00×10⁶ g ÷ 101.96 g/mol = 1.96×10⁴ mol; moles Al = 2 × 1.96×10⁴ = 3.92×10⁴ mol; mass = 3.92×10⁴ × 26.98 g/mol = 1.06×10⁶ g ≈ 1.06×10³ kg.
+5. q = (1.93×10⁵ A)(3600 s) = 6.95×10⁸ C; n(e⁻) = 6.95×10⁸ C ÷ 96,485 C/mol = 7.20×10³ mol.
+6. Carbon cannot easily reduce sulfide minerals directly; roasting converts ZnS to ZnO so the oxide can be reduced by carbon (and the SO₂ is captured).
+
+</details>
+
+## Related Topics
+
+- Previous: [Periodicity](01-periodicity.md)
+- Next: [Structure and General Properties of the Metalloids](03-structure-and-general-properties-of-the-metalloids.md)
+- Related: [Structure and General Properties of the Nonmetals](04-structure-and-general-properties-of-the-nonmetals.md)
+- Related: [Occurrence, Preparation, and Compounds of Hydrogen](05-occurrence-preparation-and-compounds-of-hydrogen.md)
+- Related: [Representative Metals, Metalloids, and Nonmetals chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Chemistry: Atoms First 2e
+- Local outline source: `chemistry-atoms-first-2e.md`
+- Official source URL: https://openstax.org/details/books/chemistry-atoms-first-2e/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-16

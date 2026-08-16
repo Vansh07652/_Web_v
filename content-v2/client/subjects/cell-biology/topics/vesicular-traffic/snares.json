@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:vesicular-traffic:snares",
+  "slug": "snares",
+  "title": "SNARE Proteins and Membrane Fusion",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:vesicular-traffic",
+    "slug": "vesicular-traffic",
+    "title": "Vesicular Traffic",
+    "order": 4
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "SNAREs (Soluble NSF Attachment Protein REceptors) are the proteins that actually drive membrane fusion. A vesicle carries a \"v-SNARE\"; the target membrane carries one or more \"t-SNAREs.\" When the two membranes are brought close by tethering factors, the SNAREs wind around each other into a tight four-helix coiled-coil bundle. This \"zippering\" pulls the two lipid bilayers together so forcefully that they merge. SNAREs supply the specificity and the energy of fusion; Rab GTPases and tethering factors bring the membranes into proximity and establish identity but do not themselves fuse membranes.",
+    "whyItMatters": "SNARE function underlies every membrane fusion event in the cell — neurotransmitter release at synapses, hormone secretion, ER-to-Golgi transport, and endosome fusion. Clostridial toxins that cleave SNAREs cause botulism (flaccid paralysis) and tetanus (spastic paralysis); botulinum toxin is also used therapeutically (Botox) to relax muscles and treat migraines. Because fusion is the last, irreversible step of secretion, SNAREs are central to understanding how cells communicate.",
+    "learningObjectives": "- Explain what SNARE proteins are and how they catalyze membrane fusion.\n- Distinguish the tethering/docking role of Rab GTPases from the fusion role of SNAREs.\n- Describe how the SNARE complex forms and how it is disassembled.\n- Explain why the historical v-SNARE/t-SNARE labels have been replaced by R-/Q-SNARE classification.\n- Trace the molecular logic of regulated versus constitutive fusion.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nSNAREs (Soluble NSF Attachment Protein REceptors) are the proteins that actually drive membrane fusion. A vesicle carries a \"v-SNARE\"; the target membrane carries one or more \"t-SNAREs.\" When the two membranes are brought close by tethering factors, the SNAREs wind around each other into a tight four-helix coiled-coil bundle. This \"zippering\" pulls the two lipid bilayers together so forcefully that they merge. SNAREs supply the specificity and the energy of fusion; Rab GTPases and tethering factors bring the membranes into proximity and establish identity but do not themselves fuse membranes.\n\n### Key Components\n\n- **v-SNARE (R-SNARE):** the SNARE on the transport vesicle, e.g. synaptobrevin/VAMP. Named \"R\" because it contributes an **arginine** to the central ionic layer of the bundle.\n- **t-SNAREs (Q-SNAREs):** target-membrane SNAREs, e.g. syntaxin and SNAP-25. Named \"Q\" because they contribute a **glutamine** to the central layer.\n- **Rab GTPases:** small G proteins on the vesicle surface that recruit tethering factors and mark membrane identity (Rab5 = early endosomes, Rab7 = late endosomes/lysosomes).\n- **Tethering factors:** long coiled-coil proteins or multisubunit complexes that capture the vesicle and bring it near the target membrane.\n- **SNARE complex:** a parallel four-helix bundle (one R-helix + three Q-helices) that forms in a *trans* configuration spanning both membranes.\n- **NSF and α-SNAP:** ATPase complex that unwinds the cis-SNARE complex after fusion so the SNAREs can be reused.\n- **Synaptotagmin:** the Ca²⁺ sensor in regulated secretion that couples the Ca²⁺ signal to SNARE-driven fusion.\n\n### Mechanism / How It Works\n\n1. A vesicle budded with its v-SNARE is transported to the target membrane.\n2. A Rab GTPase in its GTP-bound form recruits a tethering factor, which captures the vesicle and docks it loosely near the target membrane.\n3. The v-SNARE and t-SNAREs begin to wind together from their N-terminal ends, forming a parallel bundle that tethers the vesicle more tightly.\n4. Zippering proceeds toward the C-terminal membrane anchors. Because the SNAREs are anchored in the two opposing membranes, zippering draws the membranes together and forces the lipid bilayers into close apposition.\n5. The energy released by bundle formation drives the lipid bilayers to merge, forming a fusion pore that widens to release vesicle contents.\n6. After fusion, all SNAREs now sit in one membrane (the *cis* configuration). NSF, together with α-SNAP, hydrolyzes ATP to pry the bundle apart, recycling the SNAREs.\n\n### Energy and Directionality\n\nFusion is energetically downhill: formation of the SNARE bundle releases energy that overcomes the repulsion between the two hydrated phospholipid bilayers. The direction of the reaction (vesicle → target) is set by the pairing of complementary SNAREs and by Rab/tethering identity. ATP is consumed only **after** fusion, by NSF, to disassemble the complex for reuse — ATP powers recycling, not the fusion event itself. In regulated secretion, Ca²⁺ is a *trigger* (it removes a block, via synaptotagmin), not an energy source.\n\n### Experimental Evidence / Technique\n\n- **Botulinum and tetanus toxins** are zinc proteases that cleave specific SNAREs (botulinum cleaves SNAP-25, synaptobrevin, or syntaxin; tetanus cleaves synaptobrevin). Cleaving any one SNARE blocks neurotransmitter release — direct evidence that SNAREs are required for fusion.\n- **In vitro reconstitution (Rothman and colleagues):** purified SNAREs reconstituted into artificial liposomes were sufficient to drive liposome–liposome fusion, showing SNAREs are the minimal fusion machinery.\n- **X-ray crystallography (Sutton, Brünger, and colleagues):** the SNARE complex structure revealed the parallel four-helix bundle and the conserved \"0-layer\" of one arginine and three glutamines, giving rise to the R/Q nomenclature.\n- **NSF/SNAP were discovered biochemically** as factors required to restore transport in an *in vitro* Golgi transport assay (the \"NEM-sensitive factor\").",
+    "howItWorks": "1. A vesicle budded with its v-SNARE is transported to the target membrane.\n2. A Rab GTPase in its GTP-bound form recruits a tethering factor, which captures the vesicle and docks it loosely near the target membrane.\n3. The v-SNARE and t-SNAREs begin to wind together from their N-terminal ends, forming a parallel bundle that tethers the vesicle more tightly.\n4. Zippering proceeds toward the C-terminal membrane anchors. Because the SNAREs are anchored in the two opposing membranes, zippering draws the membranes together and forces the lipid bilayers into close apposition.\n5. The energy released by bundle formation drives the lipid bilayers to merge, forming a fusion pore that widens to release vesicle contents.\n6. After fusion, all SNAREs now sit in one membrane (the *cis* configuration). NSF, together with α-SNAP, hydrolyzes ATP to pry the bundle apart, recycling the SNAREs.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- SNAREs **catalyze fusion**; Rab GTPases **tether** and confer identity — they do not fuse membranes.\n- The SNARE complex is a **parallel four-helix bundle**: one R-SNARE (arginine) + three Q-SNAREs (glutamine).\n- \"v-SNARE / t-SNARE\" is **historical**; the current classification is R-SNARE / Q-SNARE based on the conserved central residue.\n- Synaptobrevin/VAMP (vesicle), syntaxin + SNAP-25 (target) are the canonical neuronal SNAREs.\n- Botulinum and tetanus toxins **cleave SNAREs** and block fusion.\n- NSF + α-SNAP use **ATP** to disassemble the *cis*-SNARE complex after fusion.\n- Ca²⁺ triggers regulated fusion via the sensor **synaptotagmin**.\n- Rabs mark compartment identity: **Rab5** = early endosome, **Rab7** = late endosome.",
+    "commonConfusions": "- **\"Rab GTPases fuse membranes.\"** Wrong — Rabs are molecular switches that recruit tethers and mark identity; the SNAREs perform fusion.\n- **\"SNAREs just dock vesicles.\"** Wrong — docking/tethering is a separate upstream step; SNARE zippering is what actually merges the bilayers.\n- **\"v-SNARE and t-SNARE are the current names.\"** These are historical terms; the structural R-SNARE/Q-SNARE (arginine/glutamine) classification is now standard.\n- **\"ATP is used to fuse membranes.\"** ATP is used by NSF *after* fusion to recycle SNAREs; fusion itself is driven by the free energy of bundle assembly.\n- **\"Every SNARE pairs with any other SNARE.\"** No — pairing is specific (particular R- and Q-SNARE combinations), which contributes to targeting fidelity.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a zipper that starts at two separate pieces of clothing. One side of the zipper is on the delivery truck (the vesicle), the other side is on the dock (the target membrane). The dock worker (a Rab protein and its tether) grabs the truck and lines it up, but the zipper itself is what pulls the two sides together and seals them. The SNAREs are that zipper — once they start to zip up, they pull the truck and dock so close that their contents merge into one. (The analogy omits that real fusion merges the *membranes* into a single continuous bilayer and that a motor, NSF, unzips the SNAREs afterward using ATP so they can be reused.)",
+    "quickReview": "- SNAREs are the fusogenic machinery; a four-helix trans-complex zippers two membranes into one.\n- Rab GTPases + tethering factors dock the vesicle and establish identity before fusion.\n- NSF/α-SNAP hydrolyze ATP to recycle SNAREs after fusion.\n- Botulinum/tetanus toxins cleave SNAREs → paralysis, proving SNAREs are required.\n- Ca²⁺ (synaptotagmin) triggers fusion in regulated secretion.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, Johnson A, Lewis J, et al. \"The Molecular Mechanisms of Membrane Transport and the Maintenance of Compartmental Diversity\" (includes \"SNARE Proteins and Targeting GTPases Guide Membrane Transport\"). *Molecular Biology of the Cell.* 4th edition. Garland Science; 2002. https://www.ncbi.nlm.nih.gov/books/NBK26859/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26859/"
+      },
+      {
+        "text": "Alberts B, et al. \"Transport from the Trans Golgi Network to the Cell Exterior: Exocytosis.\" *Molecular Biology of the Cell.* 4th edition. 2002. https://www.ncbi.nlm.nih.gov/books/NBK26892/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26892/"
+      },
+      {
+        "text": "Alberts B, et al. \"Transport from the ER through the Golgi Apparatus.\" *Molecular Biology of the Cell.* 4th edition. 2002. https://www.ncbi.nlm.nih.gov/books/NBK26941/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26941/"
+      },
+      {
+        "text": "Clark MA, Choi J, Douglas M. \"4.4 The Endomembrane System and Proteins.\" *Biology 2e.* OpenStax. https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+        "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/04-vesicular-traffic/06-snares.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

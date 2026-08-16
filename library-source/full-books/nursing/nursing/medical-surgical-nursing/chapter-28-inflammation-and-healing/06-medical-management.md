@@ -1,0 +1,158 @@
+---
+title: "Medical Management"
+subject: "Nursing"
+book: "Medical-Surgical Nursing"
+chapter: "28: Inflammation and Healing"
+topic_number: "6"
+source: "medical-surgical-nursing.md"
+tags:
+  - "medical-management"
+  - "nursing"
+status: "complete"
+---
+
+# Medical Management
+
+> **Book:** [Medical-Surgical Nursing](../../README.md)  
+> **Chapter:** [Chapter 28: Inflammation and Healing](../README.md)  
+> **Topic:** 6  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Medical management** is the provider-directed plan that creates the conditions for a wound to heal. While wound care and dressings focus on the wound surface, medical management looks at the whole person: controlling infection, improving blood flow, correcting nutritional deficits, treating the underlying diseases that stall healing, and deploying specialized therapies when ordinary care is not enough.
+
+It is useful to think of medical management as the "upstream" part of wound treatment. A wound does not heal because of a good dressing alone; it heals because the person delivering it has adequate blood supply, enough nutrients, controlled blood sugar, and no active infection. Medical management is the framework that ensures those things — and it is inherently a team effort. The provider directs it, but nurses implement, monitor, and coordinate it, which is why nurses must understand the plan even though they do not author it.
+
+## Why This Matters
+
+Many wound failures are not dressing failures — they are failures of the conditions around the wound. A diabetic foot ulcer will not close if blood sugar stays uncontrolled; a venous leg ulcer will not heal if the underlying venous problem is unaddressed; a wound in ischemic tissue will not granulate no matter how perfect the dressing. Understanding medical management explains why, and it equips the nurse to recognize when a wound is not healing *despite* good local care — the moment to ask whether the upstream conditions are being managed. It also defines the nurse's role within the interprofessional team: knowing what to monitor, what to report, and what to reinforce in patient education.
+
+## Core Concepts
+
+### The goals of medical management
+
+Medical management works toward a small set of goals: eliminate or control infection, remove barriers to healing (including necrotic tissue, addressed in the debridement topic), restore or optimize tissue perfusion, correct nutritional and metabolic deficits, and treat the underlying conditions that keep wounds open. Every intervention in this topic maps to one of these goals.
+
+### Infection management
+
+Infection is the most common reason a wound stalls, and managing it is a medical responsibility. The first step is distinguishing **colonization** — bacteria present on a wound surface without causing tissue damage — from **infection**, in which bacteria invade tissue and trigger an inflammatory response. Infection is recognized through assessment (increasing pain, redness, swelling, warmth, purulent drainage, odor, delayed healing) and, when indicated, wound cultures obtained per protocol before any antibiotic is started. When antibiotics are used, they are chosen by the provider based on culture results, the patient's situation, and antimicrobial stewardship principles — the deliberate effort to use antibiotics only when they will help, to protect both the patient and the community from resistance. The nurse's role includes collecting specimens correctly, monitoring for response and adverse effects, and teaching the patient to complete prescribed treatment.
+
+### Optimizing perfusion and oxygenation
+
+Cells building new tissue need oxygen and nutrients delivered by blood. Medical management therefore assesses and supports circulation: evaluating pulses, skin color, temperature, and capillary refill; investigating suspected vascular disease; and addressing whatever reduces blood flow. Smoking cessation support is a recurring theme here — smoking impairs tissue oxygenation and wound healing, and helping a person stop is one of the most impactful things a care team can do. For wounds caused or worsened by pressure, offloading (keeping pressure off the wound) is both a nursing and a medical priority.
+
+### Nutrition and metabolic support
+
+Healing is expensive in calories and protein, plus the vitamins and minerals involved in collagen formation and cell division. Medical management includes a nutritional assessment and, when needed, a referral to a dietitian; some patients require oral supplements or other nutritional support per provider order. For people with diabetes, glycemic management is central: persistent high blood sugar impairs immune function and healing, so glucose control — by whatever means the provider prescribes — is part of the wound plan, not a separate issue.
+
+### Treating underlying conditions
+
+Chronic wounds almost always have a driver. Venous ulcers need the venous insufficiency addressed (often with compression therapy prescribed by the provider and applied according to specific orders and training); arterial ulcers need the vascular problem evaluated; pressure injuries need pressure removed; diabetic foot ulcers need offloading, glucose control, and foot care. Medical management is essentially a list of "find the driver and treat it" — a wound will not heal while its cause is still active. Nurses should expect the plan to include more than wound care, and to ask why a wound is not healing if the driver has not been identified.
+
+### Advanced and adjunctive therapies
+
+When standard care is not enough, specialized therapies may be used under provider direction: negative pressure wound therapy (suction-assisted closure), hyperbaric oxygen therapy (increased oxygen delivery in a pressurized chamber), skin grafts and bioengineered skin substitutes, and topical growth factor preparations. These are delivered by specially trained teams in designated settings — they are not routine bedside care, and eligibility depends on the wound and the patient. The nurse's role is usually preparation, education, monitoring, and coordination with the specialty service.
+
+### Pain management
+
+Wound pain is real, underappreciated, and treatable. Medical management includes assessing pain regularly and treating it per provider orders — including procedural pain at dressing changes, which can be the worst pain a person experiences during wound care. Nurses advocate for adequate pain control, coordinate analgesia timing around procedures, and use non-drug comfort measures as adjuncts.
+
+### The interprofessional team
+
+Wound healing is team work: the provider directs medical management; the wound care nurse specialist (a nurse with advanced wound care expertise) advises on assessment and treatment; the dietitian addresses nutrition; physical and occupational therapy support mobility and offloading; the pharmacist reviews medications; and the bedside nurse ties it all together — implementing orders, monitoring responses, documenting, educating, and communicating between the patient and the team. Every member sees a different facet, which is why clear communication and consistent documentation are themselves treatment.
+
+### Scope of practice and the nursing role
+
+Medical management decisions — diagnoses, medication orders, procedural choices, specialty referrals — are made by providers. Nurses implement the plan within their scope: they administer treatments, monitor for expected and unexpected outcomes, educate patients, and report findings that should change the plan. Scope varies by state law, facility policy, and individual competency, and the nurse must know the boundary and practice within it. Nothing in this study guide is a substitute for orders, protocols, or policy.
+
+## ELI-10: Explain Like I'm 10
+
+> Imagine a plant that won't grow. A good gardener doesn't just change the pot — they check the soil, the water, the sunlight, and whether bugs are eating the roots. Medical management is the doctor and team checking all the "growing conditions" for a wound: fighting germs, making sure blood and food reach the spot, and fixing problems like high blood sugar that slow healing down. The dressing is the pot; medical management is everything that makes the plant grow.
+
+## High-Yield Points
+
+- **Medical management creates the healing conditions** — infection control, perfusion, nutrition, glucose control, and treatment of the underlying cause.
+- **Colonization ≠ infection** — infection is a clinical determination made by the provider, often supported by cultures.
+- **Antibiotics are used deliberately** (antimicrobial stewardship) — not for every wound, and selected by the provider.
+- **A wound will not heal while its cause is active** — offload pressure injuries, address venous/arterial problems, control glucose, support nutrition.
+- **Smoking cessation support is wound care** — smoking impairs oxygenation and healing.
+- **Advanced therapies (NPWT, hyperbaric oxygen, grafts) are specialty, provider-directed interventions** — not routine bedside care.
+- **Pain — including procedural pain — is assessed and treated per orders.**
+- **The nurse implements and coordinates the medical plan but does not author it** — scope and policy govern.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Medical management | Provider-directed plan to create conditions for healing (infection, perfusion, nutrition, underlying disease) | The "upstream" half of wound treatment |
+| Colonization | Bacteria present on a wound without invading tissue | Does not by itself require antibiotics |
+| Infection | Bacterial invasion of tissue with inflammatory response | Requires provider-directed treatment |
+| Antimicrobial stewardship | Using antibiotics only when they will help, to limit resistance | Protects patients and communities |
+| Perfusion | Blood flow delivering oxygen and nutrients to tissue | Without it, wounds cannot granulate or close |
+| Offloading | Removing pressure from a wound or at-risk area | Essential for pressure injuries and foot ulcers |
+| Glycemic management | Controlling blood sugar in people with diabetes | Persistent high glucose impairs healing and immunity |
+| Negative pressure wound therapy (NPWT) | Sealed suction system that removes fluid and draws wound edges together | Advanced therapy for select wounds, protocol-managed |
+| Hyperbaric oxygen therapy | Breathing oxygen under increased pressure to boost tissue oxygenation | Specialty therapy for certain non-healing wounds |
+| Interprofessional team | Provider, nurse, wound specialist, dietitian, therapists, pharmacist | Coordinated care is required for complex wounds |
+
+## Example: A diabetic foot ulcer, managed as a whole person
+
+A person with diabetes develops a foot ulcer that has not improved in several weeks despite regular dressing changes. The provider's medical management plan addresses the whole chain of causes:
+
+- **Infection:** the wound is cultured per protocol; the provider reviews results and prescribes antibiotics only if infection is confirmed.
+- **Perfusion:** the team assesses foot pulses and skin findings; the provider evaluates whether vascular disease is limiting blood flow.
+- **Offloading:** the person is fitted with offloading footwear and taught to keep weight off the foot.
+- **Glucose:** the provider reviews glycemic control and adjusts the diabetes regimen; the nurse teaches monitoring and reinforces the link between glucose and healing.
+- **Nutrition:** a dietitian referral ensures adequate protein and calories.
+- **Wound care:** local dressing care continues in parallel, coordinated with the medical plan.
+
+The nurse's day-to-day role: apply the dressings, monitor the wound and the person's glucose, reinforce offloading and foot care teaching, watch for signs of infection, and report the findings that might change the plan. The wound heals not because of any single intervention, but because the conditions around it were fixed — that is medical management in action.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Medical management | Nursing management | Provider-directed diagnosis/treatment vs. nursing assessment, implementation, education, and monitoring |
+| Colonization | Infection | Colonization is bacteria present without invasion; infection involves tissue invasion and inflammation |
+| Antibiotics for every wound | Antibiotics when indicated | Many wounds need local care only; antibiotics are provider decisions based on infection, cultures, and stewardship |
+| Medical management = medications | Medical management = whole plan | It also includes perfusion, offloading, nutrition, underlying disease, and specialty therapies |
+| Medical management | Debridement | Debridement removes dead tissue (a component); medical management is the broader healing-conditions plan |
+| Wound not healing = bad dressing | Wound not healing = underlying cause | Persistent non-healing should trigger a search for the driver, not just a dressing change |
+
+## Quick Review
+
+1. What are the main goals of medical management for wound healing?
+2. What is the difference between colonization and infection, and why does it matter for antibiotic use?
+3. Why will a wound not heal while its underlying cause is still active? Give an example.
+4. Name three advanced therapies used for wounds and what makes them different from routine care.
+5. What is the nurse's role in medical management?
+6. Why does antimicrobial stewardship matter in wound care?
+
+<details>
+<summary>Show answers</summary>
+
+1. Control infection, remove barriers to healing, optimize perfusion and oxygenation, correct nutritional/metabolic deficits, and treat underlying conditions that keep wounds open.
+2. Colonization is bacteria present on the wound surface without tissue invasion; infection is bacterial invasion with an inflammatory response. Only infection warrants antibiotic treatment, and that decision belongs to the provider, guided by cultures and stewardship principles.
+3. Because the wound cannot heal while the damaging force continues — e.g., a pressure injury under unrelieved pressure, a venous ulcer with unmanaged venous insufficiency, or a diabetic foot ulcer with uncontrolled glucose and continued weight-bearing. Treat the driver, or the wound stays open.
+4. NPWT (sealed suction system), hyperbaric oxygen therapy (pressurized oxygen delivery), and skin grafts/bioengineered substitutes or growth factor preparations. They are specialized, provider-directed, delivered by trained teams in designated settings — not routine bedside care.
+5. Implementing provider orders, monitoring the wound and the patient, documenting, educating the patient and family, coordinating with the team, and reporting findings that may change the plan — all within scope and facility policy.
+6. Antibiotics used without clear need drive resistance and expose patients to side effects without benefit; stewardship means using them only when infection is present or strongly indicated, preserving their effectiveness for when they are truly needed.
+
+</details>
+
+## Related Topics
+
+- Previous: [Wound Care and Dressing](05-wound-care-and-dressing.md)
+- Next: [Nursing Management and Care Plan](07-nursing-management-and-care-plan.md)
+- Related: [Wound Healing Process](02-wound-healing-process.md), [Pressure Injury](03-pressure-injury.md), [Debridement](04-debridement.md)
+- Chapter overview: [Inflammation and Healing](../README.md)
+
+## Source Notes
+
+- Book: Medical-Surgical Nursing
+- Local outline source: `medical-surgical-nursing.md`
+- Official source URL: https://openstax.org/details/books/medical-surgical-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: Educational overview only. Medical management decisions — diagnoses, medication choices and doses, procedures, and referrals — are made by providers and governed by orders, protocols, and institutional policy. No specific treatments, doses, or guidelines are recommended here; verify everything against current local policy and evidence. Always follow facility policy and scope of practice.
+- Last updated: 2026-08-15

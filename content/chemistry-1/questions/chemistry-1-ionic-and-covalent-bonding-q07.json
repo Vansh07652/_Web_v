@@ -1,0 +1,40 @@
+{
+  "id": "chemistry-1-ionic-and-covalent-bonding-q07",
+  "subject": "chemistry-1",
+  "lesson": "ionic-and-covalent-bonding",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Solid sodium chloride does not conduct electricity, but 0.5 mol of it dissolved in water releases a total of 1 mol of ions. What happens to the electrical conductivity of the sample, and why?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It conducts electricity, because dissolving breaks covalent bonds and releases free electrons into the water."
+    },
+    {
+      "id": "b",
+      "text": "It conducts electricity, because dissolving frees the Na+ and Cl- ions to move independently and carry charge."
+    },
+    {
+      "id": "c",
+      "text": "It does not conduct electricity, because intact NaCl molecules simply spread out among the water molecules."
+    },
+    {
+      "id": "d",
+      "text": "It conducts only once molten, because water molecules surround the ions and neutralize their charges."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Conduction in solution requires mobile charge carriers. In the crystal the ions are charged but locked into fixed lattice sites; dissolution (like melting) releases them so Na+ and Cl- can migrate toward opposite electrodes, making NaCl a strong electrolyte. Each formula unit supplies 2 ions, so 0.5 mol x 2 = 1 mol of ions. NaCl contains no discrete molecules and releases no free electrons, and hydration shells stabilize ionic charge rather than cancel it.\n\nELI-10: Electric current is charge in motion, so a substance needs charges that are both present and free to travel. Solid salt has the charges but not the freedom, since every ion is pinned in the lattice, so it is an insulator. Water surrounds each ion and pulls the lattice apart, and now those charges can drift toward electrodes and carry current. Because every NaCl unit yields two ions, 0.5 mol of salt sets 1 mol of charge carriers loose. Dissolved electrolytes are also why body fluids conduct the signals an ECG records.",
+  "difficulty": "medium",
+  "tags": [
+    "electrolytes",
+    "ion mobility",
+    "dissociation",
+    "conductivity"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-274",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

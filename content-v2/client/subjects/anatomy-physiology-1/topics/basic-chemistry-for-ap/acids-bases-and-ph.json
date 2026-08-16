@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-1:basic-chemistry-for-ap:acids-bases-and-ph",
+  "slug": "acids-bases-and-ph",
+  "title": "Acids, Bases, and pH",
+  "subject": {
+    "id": "subject:anatomy-physiology-1",
+    "slug": "anatomy-physiology-1",
+    "title": "Anatomy & Physiology I"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-1:basic-chemistry-for-ap",
+    "slug": "basic-chemistry-for-ap",
+    "title": "Basic Chemistry for A&P",
+    "order": 2
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "The body carefully controls how acidic or basic its fluids are. This section defines **acids** and **bases**, explains the **pH scale**, and introduces **buffers** — the chemical teams that keep pH steady. It sets up the acid–base balance topics you will meet in the respiratory and urinary units.",
+    "whyItMatters": "Enzymes, proteins, and cell function only work within a narrow pH window. Blood pH is held between about **7.35 and 7.45**; drifting outside this range (acidosis or alkalosis) impairs the nervous system, heart, and virtually every enzyme. Nurses monitor and help correct pH constantly, so the fundamentals here recur throughout clinical care.",
+    "learningObjectives": "- Define **acid** and **base** in terms of hydrogen ions.\n- Interpret the **pH scale** and its logarithmic nature.\n- Explain what **buffers** do and why they matter.\n- State normal **blood pH** and why the range is so tight.",
+    "keyTerms": "- **Acid** — a substance that **releases hydrogen ions (H⁺)** in solution (a proton donor).\n- **Base** — a substance that **accepts H⁺** or releases hydroxide ions (OH⁻) (a proton acceptor).\n- **pH** — a measure of H⁺ concentration; the scale runs 0–14.\n- **Neutral** — pH 7 (equal H⁺ and OH⁻), as in pure water.\n- **Buffer** — a chemical system that resists changes in pH by binding or releasing H⁺.\n- **Acidosis / Alkalosis** — blood pH below 7.35 / above 7.45.",
+    "collegeNotes": "**Acids and bases are about hydrogen ions.** An **acid** releases **H⁺** into solution; the more H⁺, the more acidic. A **base** removes H⁺ (or adds OH⁻, which mops up H⁺). Stomach acid (HCl) is a strong acid; bicarbonate (HCO₃⁻) is an important base in blood.\n\n**The pH scale.** pH measures the concentration of H⁺, running from **0 (most acidic)** through **7 (neutral)** to **14 (most basic/alkaline)**. Crucially, the scale is **logarithmic**: each whole-number step is a **tenfold** change in H⁺. A solution at pH 5 has ten times more H⁺ than pH 6, and a hundred times more than pH 7. This is why even small pH shifts in blood are physiologically large.\n\nFamiliar reference points: stomach acid ~1.5–3.5, lemon juice ~2, pure water 7, blood ~7.4, and household bleach ~12.\n\n**Why the body guards pH.** Proteins — including every enzyme — fold into precise shapes held partly by weak bonds sensitive to H⁺. Too much acid or base disrupts those shapes (denaturation), so reactions slow or stop. The nervous and cardiovascular systems are especially vulnerable, which is why blood pH is defended within **7.35–7.45**.\n\n**Buffers: the first line of defense.** A **buffer** is a chemical partnership that soaks up excess H⁺ when fluids get too acidic and releases H⁺ when they get too basic, blunting swings in pH. The body's most important is the **bicarbonate buffer system**:\n\n```\nCO₂ + H₂O  ⇌  H₂CO₃  ⇌  H⁺ + HCO₃⁻\n```\n\nReading this both directions shows its power: if H⁺ rises (acid), it combines with bicarbonate (HCO₃⁻), shifting left toward CO₂ and water, which the lungs can exhale. If H⁺ falls (too basic), the reaction shifts right to release more H⁺. Because the **lungs** control CO₂ and the **kidneys** control bicarbonate and H⁺ excretion, three systems cooperate to hold pH: chemical buffers (instant), the respiratory system (minutes), and the renal system (hours to days). Each is developed in its own unit; the chemistry here is the shared foundation.",
+    "howItWorks": "Judging a solution's acidity:\n\n1. **More H⁺ → lower pH → more acidic.**\n2. **pH 7 is neutral;** below 7 acidic, above 7 basic.\n3. **Each pH unit = 10× change** in H⁺ concentration.\n4. **Buffers resist change** by binding/releasing H⁺, keeping pH near the set point.",
+    "comparisons": "| | Acid | Base |\n| --- | --- | --- |\n| Effect on H⁺ | Releases H⁺ | Accepts H⁺ / releases OH⁻ |\n| pH | Below 7 | Above 7 |\n| Body example | HCl (stomach) | HCO₃⁻ (bicarbonate) |\n\n| Defense | Speed | Mechanism |\n| --- | --- | --- |\n| Chemical buffers | Seconds | Bind/release H⁺ |\n| Respiratory (lungs) | Minutes | Adjust CO₂ (exhale/retain) |\n| Renal (kidneys) | Hours–days | Excrete H⁺, reabsorb HCO₃⁻ |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\nArterial blood gas (ABG) interpretation is built on this chapter: pH, CO₂ (respiratory), and bicarbonate (metabolic) together classify acidosis and alkalosis. Rapid breathing blows off CO₂ and raises pH; shallow breathing retains CO₂ and lowers it — the reason respiratory rate affects acid–base status. Conditions like diabetic ketoacidosis and kidney failure disturb pH, and understanding buffers explains why the body compensates the way it does.",
+    "commonConfusions": "- **High pH = low acidity.** Bigger pH numbers mean *fewer* H⁺ (more basic), which feels backward at first.\n- **pH is logarithmic.** A shift from 7.4 to 7.1 is not \"a little\" — it is a large rise in H⁺.\n- **Acidosis vs acidemia (fine point).** Acidosis is the process pushing pH down; acidemia is the actual low blood pH. Many courses use them loosely.\n- **Buffers don't remove acid permanently.** They temporarily tie up H⁺; lungs and kidneys do the final removal.",
+    "memoryAids": "- **\"Acid Adds H⁺; Base Blocks/absorbs H⁺.\"**\n- **Lower number = more sour** (like lemons at pH 2).\n- **\"7.4, out the door\"** — remember normal blood pH ~7.4.",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nBody fluids can be a little \"sour\" (acidic) or a little \"soapy\" (basic), and the body works hard to keep them just right — very close to the middle.\n\n### Analogy\nThink of a seesaw that has to stay almost perfectly level. On one side are **acids** (which add tiny particles called **hydrogen ions**), and on the other are **bases** (which take those particles away). If the seesaw tips too far either way, the body can't work right. **Buffers** are like a quick friend who jumps on whichever side is getting light, keeping the seesaw balanced.\n\n### What is actually happening\nThe balance is measured by **pH**, a scale from 0 (very acidic) to 14 (very basic), with 7 in the middle. Your **blood** stays in a tiny window around **7.4**. Each step on the scale is a *tenfold* change, so even a small move is a big deal. Your body keeps balance three ways: instant chemical **buffers**, your **lungs** (breathing out acid as CO₂), and your **kidneys** (removing acid in urine).\n\n### Where the analogy stops\nA seesaw only balances two people, but the body is juggling acids and bases from food, exercise, and breathing all at once — and it can even change how fast you breathe on purpose to fix the balance, which a seesaw can't do.",
+    "quickReview": "- **Acids** release **H⁺** (pH below 7); **bases** accept H⁺ (pH above 7); pure water is neutral at 7.\n- The **pH scale** is **logarithmic** — each unit is a tenfold change in H⁺.\n- Blood pH is tightly held at **7.35–7.45** because enzymes and proteins depend on it.\n- **Buffers** (especially the **bicarbonate system**) resist pH change instantly, while the **lungs** (CO₂) and **kidneys** (HCO₃⁻/H⁺) provide slower, lasting control.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 2 (The Chemical Level of Organization): Inorganic Compounds — Acids, Bases, and Salts. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — Fluid and Electrolyte Balance. https://medlineplus.gov/fluidandelectrolytebalance.html",
+        "url": "https://medlineplus.gov/fluidandelectrolytebalance.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 42
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/01-anatomy-physiology-i/02-basic-chemistry-for-ap/04-acids-bases-and-ph.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

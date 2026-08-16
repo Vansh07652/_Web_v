@@ -1,0 +1,40 @@
+{
+  "id": "biology-1-photosynthesis-0002",
+  "subject": "biology-1",
+  "lesson": "photosynthesis",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A signaling pathway proceeds when an extracellular signal molecule binds a receptor on the target cell, relay proteins pass the message inward, and the cell finally carries out a response such as turning on a gene. What is the correct order of the three stages of **signal transduction**?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Response, transduction, reception."
+    },
+    {
+      "id": "b",
+      "text": "Reception, transduction, response."
+    },
+    {
+      "id": "c",
+      "text": "Transduction, reception, response."
+    },
+    {
+      "id": "d",
+      "text": "Reception, response, transduction."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "The three stages always occur in the order reception, transduction, response: the signal molecule first binds its receptor, the message is then relayed through a cascade inside the cell, and the cascade finally triggers a cellular response. A and C scramble the sequence by placing transduction or response before reception. D places response before transduction, but the cell cannot respond until the relayed message reaches its target machinery.",
+  "difficulty": "unknown",
+  "tags": [
+    "three",
+    "stages",
+    "cell",
+    "signaling"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-cce32dea8cb1cdf8",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

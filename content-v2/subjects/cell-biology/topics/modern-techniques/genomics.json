@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:modern-techniques:genomics",
+  "slug": "genomics",
+  "title": "Genomics",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:modern-techniques",
+    "slug": "modern-techniques",
+    "title": "Modern Techniques",
+    "order": 11
+  },
+  "order": 10,
+  "status": "final",
+  "sections": {
+    "overview": "Genomics is the study of an organism's **complete set of DNA** — its genome — including all of its genes, regulatory regions, and structural features, considered at once rather than one gene at a time. Modern genomics rests on DNA sequencing (Sanger, then massively parallel next-generation sequencing, now long-read technologies), followed by computational **assembly** of reads into chromosomes, **annotation** of genes and regulatory elements, and comparison across individuals and species. Genomics answers \"what is in the genome, and how does it vary?\" It describes the *parts list* and its variation, but genome sequence alone does not reveal when, where, or how strongly genes are expressed — those questions belong to transcriptomics, proteomics, and functional experiments.",
+    "whyItMatters": "Genomics powers precision medicine (cancer and rare-disease diagnosis via tumor/normal sequencing), pathogen surveillance (SARS-CoV-2 variant tracking), agriculture and conservation, and our understanding of evolution and human biology. The Human Genome Project (~3 billion base pairs, ~20,000–25,000 protein-coding genes) established the reference on which most of modern biology now builds.",
+    "learningObjectives": "- Define genomics and distinguish it from genetics, transcriptomics, and proteomics.\n- Describe how DNA is sequenced, assembled, and annotated into a reference genome.\n- Explain key genome-scale concepts: genome size, gene number, structural variation, and GWAS.\n- Outline what whole-genome data can and cannot tell us about gene function.\n- Identify the analytical steps from raw sequence reads to biological interpretation.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nGenomics is the study of an organism's **complete set of DNA** — its genome — including all of its genes, regulatory regions, and structural features, considered at once rather than one gene at a time. Modern genomics rests on DNA sequencing (Sanger, then massively parallel next-generation sequencing, now long-read technologies), followed by computational **assembly** of reads into chromosomes, **annotation** of genes and regulatory elements, and comparison across individuals and species. Genomics answers \"what is in the genome, and how does it vary?\" It describes the *parts list* and its variation, but genome sequence alone does not reveal when, where, or how strongly genes are expressed — those questions belong to transcriptomics, proteomics, and functional experiments.\n\n### Key Components\n\n### DNA sequencing technologies\n- **Sanger sequencing** — chain-termination, one fragment at a time (gold standard for accuracy, low throughput).\n- **Next-generation sequencing (NGS)** — massively parallel short-read sequencing (e.g., Illumina), generating millions of reads per run.\n- **Long-read sequencing** (PacBio, Oxford Nanopore) — reads of tens of kilobases that resolve repetitive and structural regions.\n\n### Assembly and annotation\n- **Assembly** — computational reconstruction of the genome from overlapping reads into contigs/scaffolds/chromosomes.\n- **Annotation** — locating genes (coding and non-coding), promoters, and regulatory elements; often by combining sequence homology, RNA evidence, and prediction algorithms.\n\n### The reference genome and variation\n- A **reference genome** is a representative \"map\" for a species; individuals differ by SNPs, indels, and **structural variants** (copy-number changes, inversions, translocations).\n\n### Genome-wide association studies (GWAS)\n- Statistical scans correlating millions of genetic variants with traits/diseases across populations to locate associated loci.\n\n### Mechanism\n\n1. **Library preparation.** DNA is fragmented; adapters are ligated to the ends.\n2. **Sequencing.** Fragments are read (by synthesis, ligation, or nanopore) to produce raw sequence reads.\n3. **Assembly.** Reads are aligned to a reference or assembled *de novo* into contiguous sequence.\n4. **Annotation.** Gene models and regulatory elements are mapped onto the assembled sequence.\n5. **Comparison.** Genomes (or individuals' genomes) are aligned to identify variants — SNPs, indels, structural changes.\n6. **Interpretation.** Variants are linked to traits (GWAS), disease, or evolutionary history; hypotheses are then tested functionally.\n\n### Energy and Directionality\n\nSequencing is directional in two senses: sequence is read **5′→3′** along each strand (by-polymerase synthesis or motor-protein translocation in nanopores), and the process is driven by the **hydrolysis of nucleotides (dNTPs)** during sequencing-by-synthesis or by an **electric/ionic driving force** in nanopore sequencing. Computational assembly imposes a coordinate system (a linear reference) onto the genome. Information flows from sequence → structure → annotation → interpretation, but that interpretation (which genes matter) always loops back to wet-lab validation.\n\n### Experimental Evidence\n\n- **What it measures:** the complete or partial **DNA sequence** of an organism, plus its variation (SNPs, indels, structural variants).\n- **Principle:** high-throughput DNA sequencing + computational assembly and annotation.\n- **Input:** genomic DNA; **Output:** a reference genome, lists of genes/regulatory elements, and variant calls.\n- **What it can prove:** the sequence and structure of a genome; the location and number of genes; evolutionary relationships; association between a variant and a trait/disease (GWAS — *association*, not mechanism); that a patient carries a disease-linked variant.\n- **What it cannot prove:** whether and where a gene is expressed (transcriptomics); protein abundance/activity (proteomics); **causation** — a GWAS hit is a correlation that must be validated; function of the large fraction of non-coding sequence.\n- **Controls/quality steps:** coverage depth and read-quality metrics (Q scores); positive/negative variant controls in diagnostic panels; biological replicates; batch-effect correction; and orthogonal validation (Sanger confirmation, functional assays) of candidate variants.\n- **Common mistakes:** over-interpreting a GWAS association as causal; ignoring that a \"reference genome\" is not universal; poor coverage in repetitive regions; variant calling without proper filtering; and assuming gene count or genome size predicts organism complexity (the C-value paradox).",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Genomics = study of the **whole genome (DNA)**; distinct from transcriptomics (RNA) and proteomics (protein).\n- Sequencing: **Sanger → NGS (short reads) → long-read**.\n- Pipeline: **sequence → assemble → annotate → compare/interpret**.\n- Human genome ≈ **3 billion bp**, ~**20,000–25,000** protein-coding genes.\n- **GWAS finds association, not causation.**\n- Structural variants include **CNVs, inversions, translocations**.",
+    "commonConfusions": "- **\"Genomics = gene expression\"** — Genomics is DNA sequence/structure; expression (RNA) is transcriptomics, protein is proteomics.\n- **\"GWAS hit = causal gene\"** — A GWAS association is a correlation; the causal variant/gene and mechanism require functional proof.\n- **\"More DNA = more complex organism\"** — Genome size does not track complexity (the C-value paradox: some plants/salamanders have far more DNA than humans).\n- **\"The reference genome is everyone's genome\"** — It is a representative scaffold; individuals vary by millions of variants.\n- **\"Sequencing a genome explains all gene function\"** — Sequence provides the map, not the functional readout.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nGenomics is reading the entire instruction book of an organism instead of one chapter. You shred the book into tiny pieces, a machine reads every piece millions of times, and a computer glues the pieces back into the right order and labels the sentences (genes). Then you compare your book with someone else's to find the typos (variants). (The analogy's limit: reading the book tells you what sentences *could* be said, not which ones are actually being read aloud right now — that's a different tool, RNA-Seq.)",
+    "quickReview": "- Genomics sequences, assembles, and annotates whole genomes, then compares them for variation.\n- Sanger → NGS → long-read technologies; reference genome + variant calling.\n- Proves sequence/structure/association; cannot prove expression, protein, or causation by itself.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NHGRI, \"A Brief Guide to Genomics.\" https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics",
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics"
+      },
+      {
+        "text": "NHGRI, \"DNA Sequencing.\" https://www.genome.gov/genetics-glossary/DNA-Sequencing",
+        "url": "https://www.genome.gov/genetics-glossary/DNA-Sequencing"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"Mapping Genomes.\" https://openstax.org/books/biology-2e/pages/17-2-mapping-genomes",
+        "url": "https://openstax.org/books/biology-2e/pages/17-2-mapping-genomes"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"Whole-Genome Sequencing.\" https://openstax.org/books/biology-2e/pages/17-3-whole-genome-sequencing",
+        "url": "https://openstax.org/books/biology-2e/pages/17-3-whole-genome-sequencing"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"Applying Genomics.\" https://openstax.org/books/biology-2e/pages/17-4-applying-genomics",
+        "url": "https://openstax.org/books/biology-2e/pages/17-4-applying-genomics"
+      },
+      {
+        "text": "NCI, \"Sanger sequencing\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/sanger-sequencing",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/sanger-sequencing"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "genomics",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "10-genomics",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:9c4d40874fa00bdf"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:9c4d40874fa00bdf"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:9c4d40874fa00bdf"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:9c4d40874fa00bdf"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/11-modern-techniques/10-genomics.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Genomics\n\n## Learning Goals\n- Define genomics and distinguish it from genetics, transcriptomics, and proteomics.\n- Describe how DNA is sequenced, assembled, and annotated into a reference genome.\n- Explain key genome-scale concepts: genome size, gene number, structural variation, and GWAS.\n- Outline what whole-genome data can and cannot tell us about gene function.\n- Identify the analytical steps from raw sequence reads to biological interpretation.\n\n## Core Concept\nGenomics is the study of an organism's **complete set of DNA** — its genome — including all of its genes, regulatory regions, and structural features, considered at once rather than one gene at a time. Modern genomics rests on DNA sequencing (Sanger, then massively parallel next-generation sequencing, now long-read technologies), followed by computational **assembly** of reads into chromosomes, **annotation** of genes and regulatory elements, and comparison across individuals and species. Genomics answers \"what is in the genome, and how does it vary?\" It describes the *parts list* and its variation, but genome sequence alone does not reveal when, where, or how strongly genes are expressed — those questions belong to transcriptomics, proteomics, and functional experiments.\n\n## Key Components\n\n### DNA sequencing technologies\n- **Sanger sequencing** — chain-termination, one fragment at a time (gold standard for accuracy, low throughput).\n- **Next-generation sequencing (NGS)** — massively parallel short-read sequencing (e.g., Illumina), generating millions of reads per run.\n- **Long-read sequencing** (PacBio, Oxford Nanopore) — reads of tens of kilobases that resolve repetitive and structural regions.\n\n### Assembly and annotation\n- **Assembly** — computational reconstruction of the genome from overlapping reads into contigs/scaffolds/chromosomes.\n- **Annotation** — locating genes (coding and non-coding), promoters, and regulatory elements; often by combining sequence homology, RNA evidence, and prediction algorithms.\n\n### The reference genome and variation\n- A **reference genome** is a representative \"map\" for a species; individuals differ by SNPs, indels, and **structural variants** (copy-number changes, inversions, translocations).\n\n### Genome-wide association studies (GWAS)\n- Statistical scans correlating millions of genetic variants with traits/diseases across populations to locate associated loci.\n\n## Mechanism\n1. **Library preparation.** DNA is fragmented; adapters are ligated to the ends.\n2. **Sequencing.** Fragments are read (by synthesis, ligation, or nanopore) to produce raw sequence reads.\n3. **Assembly.** Reads are aligned to a reference or assembled *de novo* into contiguous sequence.\n4. **Annotation.** Gene models and regulatory elements are mapped onto the assembled sequence.\n5. **Comparison.** Genomes (or individuals' genomes) are aligned to identify variants — SNPs, indels, structural changes.\n6. **Interpretation.** Variants are linked to traits (GWAS), disease, or evolutionary history; hypotheses are then tested functionally.\n\n## Energy and Directionality\nSequencing is directional in two senses: sequence is read **5′→3′** along each strand (by-polymerase synthesis or motor-protein translocation in nanopores), and the process is driven by the **hydrolysis of nucleotides (dNTPs)** during sequencing-by-synthesis or by an **electric/ionic driving force** in nanopore sequencing. Computational assembly imposes a coordinate system (a linear reference) onto the genome. Information flows from sequence → structure → annotation → interpretation, but that interpretation (which genes matter) always loops back to wet-lab validation.\n\n## Experimental Evidence\n- **What it measures:** the complete or partial **DNA sequence** of an organism, plus its variation (SNPs, indels, structural variants).\n- **Principle:** high-throughput DNA sequencing + computational assembly and annotation.\n- **Input:** genomic DNA; **Output:** a reference genome, lists of genes/regulatory elements, and variant calls.\n- **What it can prove:** the sequence and structure of a genome; the location and number of genes; evolutionary relationships; association between a variant and a trait/disease (GWAS — *association*, not mechanism); that a patient carries a disease-linked variant.\n- **What it cannot prove:** whether and where a gene is expressed (transcriptomics); protein abundance/activity (proteomics); **causation** — a GWAS hit is a correlation that must be validated; function of the large fraction of non-coding sequence.\n- **Controls/quality steps:** coverage depth and read-quality metrics (Q scores); positive/negative variant controls in diagnostic panels; biological replicates; batch-effect correction; and orthogonal validation (Sanger confirmation, functional assays) of candidate variants.\n- **Common mistakes:** over-interpreting a GWAS association as causal; ignoring that a \"reference genome\" is not universal; poor coverage in repetitive regions; variant calling without proper filtering; and assuming gene count or genome size predicts organism complexity (the C-value paradox).\n\n## Why It Matters\nGenomics powers precision medicine (cancer and rare-disease diagnosis via tumor/normal sequencing), pathogen surveillance (SARS-CoV-2 variant tracking), agriculture and conservation, and our understanding of evolution and human biology. The Human Genome Project (~3 billion base pairs, ~20,000–25,000 protein-coding genes) established the reference on which most of modern biology now builds.\n\n## High-Yield Facts\n- Genomics = study of the **whole genome (DNA)**; distinct from transcriptomics (RNA) and proteomics (protein).\n- Sequencing: **Sanger → NGS (short reads) → long-read**.\n- Pipeline: **sequence → assemble → annotate → compare/interpret**.\n- Human genome ≈ **3 billion bp**, ~**20,000–25,000** protein-coding genes.\n- **GWAS finds association, not causation.**\n- Structural variants include **CNVs, inversions, translocations**.\n\n## Eli Explains\nGenomics is reading the entire instruction book of an organism instead of one chapter. You shred the book into tiny pieces, a machine reads every piece millions of times, and a computer glues the pieces back into the right order and labels the sentences (genes). Then you compare your book with someone else's to find the typos (variants). (The analogy's limit: reading the book tells you what sentences *could* be said, not which ones are actually being read aloud right now — that's a different tool, RNA-Seq.)\n\n## Common Confusions\n- **\"Genomics = gene expression\"** — Genomics is DNA sequence/structure; expression (RNA) is transcriptomics, protein is proteomics.\n- **\"GWAS hit = causal gene\"** — A GWAS association is a correlation; the causal variant/gene and mechanism require functional proof.\n- **\"More DNA = more complex organism\"** — Genome size does not track complexity (the C-value paradox: some plants/salamanders have far more DNA than humans).\n- **\"The reference genome is everyone's genome\"** — It is a representative scaffold; individuals vary by millions of variants.\n- **\"Sequencing a genome explains all gene function\"** — Sequence provides the map, not the functional readout.\n\n## Quick Review\n- Genomics sequences, assembles, and annotates whole genomes, then compares them for variation.\n- Sanger → NGS → long-read technologies; reference genome + variant calling.\n- Proves sequence/structure/association; cannot prove expression, protein, or causation by itself.\n\n## Sources\n- NHGRI, \"A Brief Guide to Genomics.\" https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics\n- NHGRI, \"DNA Sequencing.\" https://www.genome.gov/genetics-glossary/DNA-Sequencing\n- OpenStax, *Biology 2e*, \"Mapping Genomes.\" https://openstax.org/books/biology-2e/pages/17-2-mapping-genomes\n- OpenStax, *Biology 2e*, \"Whole-Genome Sequencing.\" https://openstax.org/books/biology-2e/pages/17-3-whole-genome-sequencing\n- OpenStax, *Biology 2e*, \"Applying Genomics.\" https://openstax.org/books/biology-2e/pages/17-4-applying-genomics\n- NCI, \"Sanger sequencing\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/sanger-sequencing\n"
+}

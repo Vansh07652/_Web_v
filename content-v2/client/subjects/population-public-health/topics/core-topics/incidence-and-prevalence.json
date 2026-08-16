@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:population-public-health:core-topics:incidence-and-prevalence",
+  "slug": "incidence-and-prevalence",
+  "title": "Incidence and Prevalence",
+  "subject": {
+    "id": "subject:population-public-health",
+    "slug": "population-public-health",
+    "title": "Population & Public Health Foundations"
+  },
+  "unit": {
+    "id": "unit:population-public-health:core-topics",
+    "slug": "core-topics",
+    "title": "Core Topics",
+    "order": 1
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nIncidence answers one question: how many people newly got this? The clock is the key. You pick a window of time, start with people who do not have the condition, and count only the ones who cross over into having it during that window. Anyone who already had it before the window opened is not counted at all, because you cannot newly get something you already have.\n\n### Question 2\n\nPicture photographing a swimming pool right now and counting everyone in the water. It does not matter whether someone jumped in five minutes ago or has been swimming for an hour: if they are in the pool when the shutter clicks, they count. That snapshot is point prevalence. Incidence would instead mean standing at the edge and counting only the people who jump in while you watch.\n\n### Question 3\n\nScan the wording for two things: a time window and the idea of newness. 'Currently living with,' 'on the day of the survey,' and 'on the first day of school' are all snapshots, like counting who is already seated in a theater. 'Developed for the first time last year' counts people who walked through the door during the show. Doors opening is incidence; seats filled is prevalence.\n\n### Question 4\n\nPicture a bathtub. Water pouring from the faucet is incidence; water sitting in the tub is prevalence. Slow the drain without touching the faucet and the water level rises even though the faucet runs at exactly the same speed. A medicine that keeps people alive with a disease is a slower drain, so the tub fills up.\n\n### Question 5\n\nTo blame something for causing a disease, you must show it came first. Incidence records the date each case begins, so you can check that the exposure was already present before onset. A count of everyone who has the disease today cannot do that, because many of those people became ill years ago and you have no record of what came first for them.\n\n### Question 6\n\nBoth measures are fractions, so the useful question is what goes on top. For prevalence, the top holds everyone who has the condition, old cases and brand-new cases together. For incidence, the top holds only the fresh arrivals. It is the difference between counting everyone at a party and counting only the people who just walked through the door.\n\n### Question 7\n\nThink about a revolving door in a busy office building. Thousands of people pass through it in a day, but photograph it at any instant and only two or three people are inside. They move through too fast to pile up. A one-week illness works the same way: heavy traffic through the door, very few people inside it at any single moment.\n\n### Question 8\n\nTwo facts, one story. New members join the club at the same steady pace every year, yet total membership keeps climbing. The most likely explanation is that fewer members are leaving. For a chronic disease, leaving mostly means dying or being cured, so steady incidence plus rising prevalence usually signals better survival rather than a worsening epidemic.\n\n### Question 9\n\nAfter patching a leaky roof, you check whether new drips appear, not how many buckets are already sitting on the floor from last month. Those old buckets stay there no matter how well you patched. Counting new drips is measuring incidence, and that is what tells you the fix is working.\n\n### Question 10\n\nWhen setting the table for dinner, you need to know how many people are in the house right now, not how many walked in during the last hour. Everyone already there still needs a plate. Existing cases still need care every week, so capacity planning uses prevalence, the count of everyone currently living with the condition.\n\n### Question 11\n\nFollow-up time is not equal, so counting heads alone is misleading. Person-time adds up actual observation: ten nurses watched for one year each equals ten person-years, the same as one nurse watched for ten years. Cases per person-year works like miles per gallon, putting everyone on the same footing no matter how long they were in the study.\n\n### Question 12\n\nTo find what fraction of a class catches a cold this week, you count only the students who were not already sick. Someone already sneezing cannot catch it again this week, so leaving them at the bottom of the fraction only makes the answer look smaller than the truth. The bottom of an incidence fraction holds exactly the people who could still become a new case.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Public Health / Epidemiology — CDC",
+        "url": "https://www.cdc.gov/"
+      },
+      {
+        "text": "Social Determinants of Health — WHO",
+        "url": "https://www.who.int/health-topics/social-determinants-of-health"
+      },
+      {
+        "text": "Healthy People 2030 — HHS / ODPHP",
+        "url": "https://odphp.health.gov/healthypeople"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "expansion-question-bank",
+    "sourceFile": "Education/pre-nursing-expansion-question-bank/questions/19-population-health/357-incidence-and-prevalence.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false
+  },
+  "sourceSnapshotMarkdown": ""
+}

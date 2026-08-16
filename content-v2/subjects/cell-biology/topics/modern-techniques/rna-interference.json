@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:modern-techniques:rna-interference",
+  "slug": "rna-interference",
+  "title": "RNA Interference (RNAi)",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:modern-techniques",
+    "slug": "modern-techniques",
+    "title": "Modern Techniques",
+    "order": 11
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "RNA interference (RNAi) is a conserved mechanism in which small double-stranded RNA molecules direct the silencing of complementary messenger RNAs, reducing the amount of a specific protein. Exogenous **siRNA** (or vector-encoded **shRNA**) is processed and loaded into the **RNA-induced silencing complex (RISC)**; the \"guide\" strand pairs with a complementary mRNA, and the Argonaute protein in RISC cleaves that mRNA or represses its translation. The result is a **knockdown** — a transient, partial loss of the gene product at the mRNA level. RNAi does **not** alter the gene itself, so it is fundamentally different from a knockout, which deletes or disables the DNA.",
+    "whyItMatters": "RNAi became a standard, fast tool for \"turning down\" a gene to study its function, and it is the basis of approved therapeutics (e.g., patisiran for hereditary transthyretin amyloidosis) that silence disease-causing mRNAs. It also revealed a major layer of endogenous gene regulation — microRNAs — and remains widely used where complete knockout is impractical or lethal.",
+    "learningObjectives": "- Explain how siRNA and shRNA trigger sequence-specific mRNA degradation via RISC.\n- Describe the roles of Dicer, Argonaute, and the guide strand.\n- Distinguish RNAi (knockdown) from a genetic knockout, and siRNA/shRNA from endogenous miRNA.\n- Identify what RNAi can and cannot prove about gene function.\n- List the controls required to validate a knockdown experiment.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nRNA interference (RNAi) is a conserved mechanism in which small double-stranded RNA molecules direct the silencing of complementary messenger RNAs, reducing the amount of a specific protein. Exogenous **siRNA** (or vector-encoded **shRNA**) is processed and loaded into the **RNA-induced silencing complex (RISC)**; the \"guide\" strand pairs with a complementary mRNA, and the Argonaute protein in RISC cleaves that mRNA or represses its translation. The result is a **knockdown** — a transient, partial loss of the gene product at the mRNA level. RNAi does **not** alter the gene itself, so it is fundamentally different from a knockout, which deletes or disables the DNA.\n\n### Key Components\n\n### siRNA / shRNA\n- **siRNA**: ~21–23 nucleotide double-stranded RNA introduced into cells; one strand becomes the guide.\n- **shRNA**: a short hairpin RNA expressed from a DNA vector, processed into an siRNA-like duplex for sustained knockdown.\n\n### Dicer\n- An RNase III enzyme that cleaves long double-stranded RNA (or shRNA hairpins) into ~21–23 nt small interfering RNA duplexes.\n\n### RISC and Argonaute (Ago2)\n- RISC is the effector complex; **Argonaute** is its catalytic \"slicer\" component. The guide strand is loaded into RISC, which then finds and cleaves complementary mRNA.\n\n### Guide strand (vs. passenger strand)\n- Only the strand whose 5′ end is less stably paired is retained as the guide; the passenger strand is discarded.\n\n### miRNA (endogenous counterpart)\n- MicroRNAs are genomically encoded small RNAs that regulate many endogenous mRNAs, usually by imperfect pairing and translational repression; RNAi harnesses the same machinery.\n\n### Mechanism\n\n1. **Entry/processing.** Synthetic siRNA (already short) enters the cell, or shRNA/long dsRNA is cut by **Dicer** into ~21–23 nt duplexes.\n2. **RISC loading.** The duplex is loaded into RISC; the passenger strand is removed, leaving the **guide strand** bound to **Argonaute**.\n3. **Target recognition.** The guide strand base-pairs with a complementary sequence in a target mRNA (perfect pairing → cleavage; imperfect → translational repression and/or destabilization).\n4. **Silencing.** Argonaute **cleaves the mRNA** (or blocks translation), and the fragments are degraded; protein output from that gene falls.\n5. **Phenotype.** The cell shows reduced levels of the target protein over days, mimicking a loss-of-function phenotype (transiently and partially).\n\n### Energy and Directionality\n\nRNAi is powered by the cell's normal energy currency. Dicer and Argonaute-catalyzed mRNA cleavage are **ATP-independent** reactions, but the processes that support and sustain silencing — RISC assembly, helicase-mediated unwinding of the duplex, and mRNA degradation — are coupled to **ATP (and GTP)** hydrolysis. Directionality is enforced by guide-strand selection and by base-pairing: the guide reads the mRNA in an antiparallel, sequence-specific manner, so only complementary transcripts are silenced.\n\n### Experimental Evidence\n\n- **What it measures:** the functional consequence of reducing a specific mRNA/protein (a **knockdown**).\n- **Principle:** small RNA-guided, Argonaute-mediated cleavage/repression of complementary mRNA.\n- **Input:** siRNA/shRNA targeting the gene of interest; control siRNA. **Output:** reduced target mRNA (by RT-qPCR) and protein (by Western blot), and an associated phenotype.\n- **What it can prove:** that lowering a gene product causes (or fails to cause) a phenotype — evidence of its function, often in loss-of-function terms.\n- **What it cannot prove:** complete loss-of-function (knockdown is partial and transient); it cannot distinguish whether residual protein masks a phenotype; off-target effects (silencing unintended mRNAs) can confound results; and it says nothing about effects that require full, permanent gene removal.\n- **Controls:** **non-targeting/scrambled siRNA** (rules out general RNAi toxicity); **untreated/mock-transfected cells**; **rescue** (re-express an siRNA-resistant version of the gene to show the phenotype is specific); measuring knockdown efficiency by **RT-qPCR (mRNA) and Western blot (protein)**; multiple independent siRNAs against the same target (to control off-target effects).\n- **Common mistakes:** reporting a phenotype without confirming knockdown actually occurred; using one siRNA only (off-target risk); confusing knockdown with knockout; and assuming protein loss equals mRNA loss without verifying.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- RNAi = **mRNA knockdown**, not knockout (gene DNA is untouched).\n- Effector = **RISC**; catalytic slicer = **Argonaute (Ago2)**.\n- **siRNA** (synthetic, ~21–23 nt) vs. **shRNA** (vector-encoded hairpin) vs. **miRNA** (endogenous).\n- **Dicer** processes long dsRNA into siRNA duplexes.\n- Guide strand base-pairs with complementary mRNA → cleavage/repression → less protein.\n- Transient and **partial**; validate with RT-qPCR + Western; use **scrambled/non-targeting controls**.",
+    "commonConfusions": "- **\"RNAi is a knockout\"** — No. Knockout alters the **DNA** (permanent); RNAi degrades **mRNA** (transient, partial knockdown).\n- **\"siRNA, shRNA, and miRNA are the same\"** — siRNA is synthetic dsRNA; shRNA is a vector-expressed hairpin; miRNA is a genomically encoded endogenous regulator. All feed the RISC pathway.\n- **\"Knockdown of mRNA automatically means no protein\"** — Some protein may persist or be compensated; verify protein levels.\n- **\"One siRNA is enough proof\"** — Off-target effects can mislead; use multiple siRNAs and rescue experiments.\n- **\"RNAi proves a gene is essential\"** — It shows reduced product changes a phenotype; only a clean knockout/knock-in (e.g., CRISPR) establishes necessity rigorously.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nRNAi is like sending a \"shred this one page\" instruction into a cell. You hand the cell a tiny two-sided note (siRNA) that matches one specific mRNA page. The cell's shredder machine (RISC) keeps one side of the note as a template, finds every matching mRNA page, and shreds it — so the protein recipe is never read. (The analogy's limit: this only *hides* the recipe temporarily and partially; it does not rip the recipe out of the cell's master cookbook, which is what a knockout does.)",
+    "quickReview": "- siRNA/shRNA → Dicer (if needed) → RISC/Argonaute → guide strand binds complementary mRNA → cleavage/repression → less protein.\n- Knockdown ≠ knockout; transient and partial.\n- Controls: scrambled siRNA, mock, rescue, RT-qPCR + Western confirmation, multiple siRNAs.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NCI, \"RNA interference\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/rna-interference",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/rna-interference"
+      },
+      {
+        "text": "NCI, \"gene expression\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/gene-expression",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/gene-expression"
+      },
+      {
+        "text": "NCI, \"knockout\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/knockout",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/knockout"
+      },
+      {
+        "text": "MedlinePlus, \"How do genes direct the production of proteins?\" https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/"
+      },
+      {
+        "text": "NCI, \"CRISPR\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/crispr",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/crispr"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "rna-interference",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "08-rna-interference",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:b3db86611f0c0574"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:b3db86611f0c0574"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:b3db86611f0c0574"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:b3db86611f0c0574"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/11-modern-techniques/08-rna-interference.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# RNA Interference (RNAi)\n\n## Learning Goals\n- Explain how siRNA and shRNA trigger sequence-specific mRNA degradation via RISC.\n- Describe the roles of Dicer, Argonaute, and the guide strand.\n- Distinguish RNAi (knockdown) from a genetic knockout, and siRNA/shRNA from endogenous miRNA.\n- Identify what RNAi can and cannot prove about gene function.\n- List the controls required to validate a knockdown experiment.\n\n## Core Concept\nRNA interference (RNAi) is a conserved mechanism in which small double-stranded RNA molecules direct the silencing of complementary messenger RNAs, reducing the amount of a specific protein. Exogenous **siRNA** (or vector-encoded **shRNA**) is processed and loaded into the **RNA-induced silencing complex (RISC)**; the \"guide\" strand pairs with a complementary mRNA, and the Argonaute protein in RISC cleaves that mRNA or represses its translation. The result is a **knockdown** — a transient, partial loss of the gene product at the mRNA level. RNAi does **not** alter the gene itself, so it is fundamentally different from a knockout, which deletes or disables the DNA.\n\n## Key Components\n\n### siRNA / shRNA\n- **siRNA**: ~21–23 nucleotide double-stranded RNA introduced into cells; one strand becomes the guide.\n- **shRNA**: a short hairpin RNA expressed from a DNA vector, processed into an siRNA-like duplex for sustained knockdown.\n\n### Dicer\n- An RNase III enzyme that cleaves long double-stranded RNA (or shRNA hairpins) into ~21–23 nt small interfering RNA duplexes.\n\n### RISC and Argonaute (Ago2)\n- RISC is the effector complex; **Argonaute** is its catalytic \"slicer\" component. The guide strand is loaded into RISC, which then finds and cleaves complementary mRNA.\n\n### Guide strand (vs. passenger strand)\n- Only the strand whose 5′ end is less stably paired is retained as the guide; the passenger strand is discarded.\n\n### miRNA (endogenous counterpart)\n- MicroRNAs are genomically encoded small RNAs that regulate many endogenous mRNAs, usually by imperfect pairing and translational repression; RNAi harnesses the same machinery.\n\n## Mechanism\n1. **Entry/processing.** Synthetic siRNA (already short) enters the cell, or shRNA/long dsRNA is cut by **Dicer** into ~21–23 nt duplexes.\n2. **RISC loading.** The duplex is loaded into RISC; the passenger strand is removed, leaving the **guide strand** bound to **Argonaute**.\n3. **Target recognition.** The guide strand base-pairs with a complementary sequence in a target mRNA (perfect pairing → cleavage; imperfect → translational repression and/or destabilization).\n4. **Silencing.** Argonaute **cleaves the mRNA** (or blocks translation), and the fragments are degraded; protein output from that gene falls.\n5. **Phenotype.** The cell shows reduced levels of the target protein over days, mimicking a loss-of-function phenotype (transiently and partially).\n\n## Energy and Directionality\nRNAi is powered by the cell's normal energy currency. Dicer and Argonaute-catalyzed mRNA cleavage are **ATP-independent** reactions, but the processes that support and sustain silencing — RISC assembly, helicase-mediated unwinding of the duplex, and mRNA degradation — are coupled to **ATP (and GTP)** hydrolysis. Directionality is enforced by guide-strand selection and by base-pairing: the guide reads the mRNA in an antiparallel, sequence-specific manner, so only complementary transcripts are silenced.\n\n## Experimental Evidence\n- **What it measures:** the functional consequence of reducing a specific mRNA/protein (a **knockdown**).\n- **Principle:** small RNA-guided, Argonaute-mediated cleavage/repression of complementary mRNA.\n- **Input:** siRNA/shRNA targeting the gene of interest; control siRNA. **Output:** reduced target mRNA (by RT-qPCR) and protein (by Western blot), and an associated phenotype.\n- **What it can prove:** that lowering a gene product causes (or fails to cause) a phenotype — evidence of its function, often in loss-of-function terms.\n- **What it cannot prove:** complete loss-of-function (knockdown is partial and transient); it cannot distinguish whether residual protein masks a phenotype; off-target effects (silencing unintended mRNAs) can confound results; and it says nothing about effects that require full, permanent gene removal.\n- **Controls:** **non-targeting/scrambled siRNA** (rules out general RNAi toxicity); **untreated/mock-transfected cells**; **rescue** (re-express an siRNA-resistant version of the gene to show the phenotype is specific); measuring knockdown efficiency by **RT-qPCR (mRNA) and Western blot (protein)**; multiple independent siRNAs against the same target (to control off-target effects).\n- **Common mistakes:** reporting a phenotype without confirming knockdown actually occurred; using one siRNA only (off-target risk); confusing knockdown with knockout; and assuming protein loss equals mRNA loss without verifying.\n\n## Why It Matters\nRNAi became a standard, fast tool for \"turning down\" a gene to study its function, and it is the basis of approved therapeutics (e.g., patisiran for hereditary transthyretin amyloidosis) that silence disease-causing mRNAs. It also revealed a major layer of endogenous gene regulation — microRNAs — and remains widely used where complete knockout is impractical or lethal.\n\n## High-Yield Facts\n- RNAi = **mRNA knockdown**, not knockout (gene DNA is untouched).\n- Effector = **RISC**; catalytic slicer = **Argonaute (Ago2)**.\n- **siRNA** (synthetic, ~21–23 nt) vs. **shRNA** (vector-encoded hairpin) vs. **miRNA** (endogenous).\n- **Dicer** processes long dsRNA into siRNA duplexes.\n- Guide strand base-pairs with complementary mRNA → cleavage/repression → less protein.\n- Transient and **partial**; validate with RT-qPCR + Western; use **scrambled/non-targeting controls**.\n\n## Eli Explains\nRNAi is like sending a \"shred this one page\" instruction into a cell. You hand the cell a tiny two-sided note (siRNA) that matches one specific mRNA page. The cell's shredder machine (RISC) keeps one side of the note as a template, finds every matching mRNA page, and shreds it — so the protein recipe is never read. (The analogy's limit: this only *hides* the recipe temporarily and partially; it does not rip the recipe out of the cell's master cookbook, which is what a knockout does.)\n\n## Common Confusions\n- **\"RNAi is a knockout\"** — No. Knockout alters the **DNA** (permanent); RNAi degrades **mRNA** (transient, partial knockdown).\n- **\"siRNA, shRNA, and miRNA are the same\"** — siRNA is synthetic dsRNA; shRNA is a vector-expressed hairpin; miRNA is a genomically encoded endogenous regulator. All feed the RISC pathway.\n- **\"Knockdown of mRNA automatically means no protein\"** — Some protein may persist or be compensated; verify protein levels.\n- **\"One siRNA is enough proof\"** — Off-target effects can mislead; use multiple siRNAs and rescue experiments.\n- **\"RNAi proves a gene is essential\"** — It shows reduced product changes a phenotype; only a clean knockout/knock-in (e.g., CRISPR) establishes necessity rigorously.\n\n## Quick Review\n- siRNA/shRNA → Dicer (if needed) → RISC/Argonaute → guide strand binds complementary mRNA → cleavage/repression → less protein.\n- Knockdown ≠ knockout; transient and partial.\n- Controls: scrambled siRNA, mock, rescue, RT-qPCR + Western confirmation, multiple siRNAs.\n\n## Sources\n- NCI, \"RNA interference\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/rna-interference\n- NCI, \"gene expression\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/gene-expression\n- NCI, \"knockout\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/knockout\n- MedlinePlus, \"How do genes direct the production of proteins?\" https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/\n- NCI, \"CRISPR\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/crispr\n"
+}

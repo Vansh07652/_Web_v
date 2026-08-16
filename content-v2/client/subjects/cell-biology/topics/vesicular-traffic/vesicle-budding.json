@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:vesicular-traffic:vesicle-budding",
+  "slug": "vesicle-budding",
+  "title": "Vesicle Budding",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:vesicular-traffic",
+    "slug": "vesicular-traffic",
+    "title": "Vesicular Traffic",
+    "order": 4
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "Transport vesicles are not pre-formed; they are **assembled de novo on demand** at a donor membrane by a sequence of tightly coupled events: (1) a **small GTPase** (Sar1 or ARF) is recruited and activated, marking the budding site; (2) **coat proteins** are recruited and simultaneously **select cargo** by binding sorting signals in the cytoplasmic tails of membrane proteins and receptors for lumenal cargo; (3) the assembling coat **bends the membrane** into a bud; and (4) the bud is **pinched off (scission)** to release a coated vesicle. Different coats — COPII, COPI, and clathrin — operate on different routes, but they all follow this same four-step logic, and all preserve the fundamental rule that the vesicle's cytosolic face stays cytosolic and its lumenal face stays lumenal.",
+    "whyItMatters": "Vesicle budding is the point at which the cell decides what moves and what stays. Cargo-selective budding is what keeps resident proteins in place while dispatching others, and defects cause disease: SEC23A mutations cause cranio-lenticulo-sutural dysplasia and combined deficiency of coagulation factors V and VIII (cargo cannot leave the ER); dynamin mutations cause Charcot-Marie-Tooth neuropathy; and many pathogens (e.g., influenza) exploit or subvert budding to enter cells.",
+    "learningObjectives": "- List the steps by which a transport vesicle forms from a donor membrane.\n- Explain the roles of cargo selection, coat assembly, membrane curvature, and scission.\n- Describe how small GTPases (Sar1/ARF) act as the master switch for budding.\n- Distinguish the three major coat types and their functions.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nTransport vesicles are not pre-formed; they are **assembled de novo on demand** at a donor membrane by a sequence of tightly coupled events: (1) a **small GTPase** (Sar1 or ARF) is recruited and activated, marking the budding site; (2) **coat proteins** are recruited and simultaneously **select cargo** by binding sorting signals in the cytoplasmic tails of membrane proteins and receptors for lumenal cargo; (3) the assembling coat **bends the membrane** into a bud; and (4) the bud is **pinched off (scission)** to release a coated vesicle. Different coats — COPII, COPI, and clathrin — operate on different routes, but they all follow this same four-step logic, and all preserve the fundamental rule that the vesicle's cytosolic face stays cytosolic and its lumenal face stays lumenal.\n\n### Key Components\n\n- **Small GTPases (Sar1, ARF):** cytosolic switches that, when loaded with GTP and bound to the membrane, initiate coat assembly.\n- **Coat proteins:** COPII (ER → Golgi), COPI (Golgi → ER), clathrin (PM/TGN → endosomes).\n- **Adaptor proteins:** link coat to cargo and membrane (e.g., AP complexes for clathrin; Sec24 for COPII).\n- **Cargo sorting signals:** short motifs in cytoplasmic tails (e.g., di-acidic DXE for COPII, YXXΦ for clathrin) or lumenal receptors (e.g., KDEL receptor for COPI).\n- **Scission machinery:** dynamin (a GTPase) for clathrin-coated vesicles; coat-driven constriction for COP coats.\n- **BAR-domain proteins:** curvature-sensing/generating proteins that help shape the bud.\n\n### Mechanism / How It Works\n\n1. **Initiation.** A guanine nucleotide exchange factor (GEF) loads GTP onto Sar1/ARF, exposing an amphipathic helix that inserts into the donor membrane, anchoring the GTPase and bending the bilayer locally.\n2. **Cargo selection and coat assembly.** Coat/adaptor proteins bind the activated GTPase, the membrane, and cargo (via cytoplasmic sorting signals or transmembrane receptors). This concentrates cargo into the forming bud while excluding residents that lack signals.\n3. **Curvature generation.** The intrinsic curvature of the polymerizing coat (and of BAR-domain proteins) molds the flat membrane into a progressively deeper bud.\n4. **Scission.** The neck of the bud is constricted and severed. For clathrin vesicles, **dynamin** assembles as a helix around the neck and, upon GTP hydrolysis, constricts and pinches it off. COPII/COPI coats drive scission largely through coat polymerization/constriction, though accessory factors assist.\n5. **Uncoating.** Immediately after release, the coat disassembles (e.g., by Hsc70/auxilin for clathrin; by GTP hydrolysis and coat disassembly for COP coats), exposing the SNAREs and Rab proteins needed for the vesicle's later targeting and fusion.\n\n### Energy and Directionality\n\nBudding consumes **GTP** at two stages: the initiating GTPase (Sar1/ARF) hydrolyzes GTP to complete/regulate coat disassembly, and **dynamin** hydrolyzes GTP to power scission. The polymerization energy of the coat drives curvature, and **ATP** is used to disassemble clathrin coats (Hsc70). Directionality is set by the GTPase cycle: GEFs turn budding \"on\" at the right membrane, and GTP hydrolysis (plus uncoating) turns it \"off\" after the vesicle is released, preventing runaway budding and recycling components.\n\n### Experimental Evidence / Technique\n\nBudding was reconstituted **in vitro with purified components**: adding Sar1/COPII proteins, GTP, and synthetic liposomes produced COPII vesicles from a flat bilayer — proving the coat is sufficient to bud a membrane. **Temperature-sensitive yeast Sec mutants** (e.g., *sec12*, *sec13*, *sec23*) blocked ER export and identified coat genes. **Dynamin mutants** (in *Drosophila shibire*) produce long necks that fail to pinch off, directly demonstrating dynamin's scission role. **Cryo-electron tomography** revealed the polyhedral COPII cage and the dynamin helix around vesicle necks.",
+    "howItWorks": "1. **Initiation.** A guanine nucleotide exchange factor (GEF) loads GTP onto Sar1/ARF, exposing an amphipathic helix that inserts into the donor membrane, anchoring the GTPase and bending the bilayer locally.\n2. **Cargo selection and coat assembly.** Coat/adaptor proteins bind the activated GTPase, the membrane, and cargo (via cytoplasmic sorting signals or transmembrane receptors). This concentrates cargo into the forming bud while excluding residents that lack signals.\n3. **Curvature generation.** The intrinsic curvature of the polymerizing coat (and of BAR-domain proteins) molds the flat membrane into a progressively deeper bud.\n4. **Scission.** The neck of the bud is constricted and severed. For clathrin vesicles, **dynamin** assembles as a helix around the neck and, upon GTP hydrolysis, constricts and pinches it off. COPII/COPI coats drive scission largely through coat polymerization/constriction, though accessory factors assist.\n5. **Uncoating.** Immediately after release, the coat disassembles (e.g., by Hsc70/auxilin for clathrin; by GTP hydrolysis and coat disassembly for COP coats), exposing the SNAREs and Rab proteins needed for the vesicle's later targeting and fusion.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Four steps: initiation (GTPase) → cargo selection + coat assembly → curvature → scission.\n- Initiators: **Sar1** (COPII) and **ARF** (COPI/clathrin).\n- Coats: COPII (ER→Golgi), COPI (Golgi→ER), clathrin (PM/TGN→endosome).\n- **Dynamin** GTPase drives clathrin scission (blocks → long unsevered necks).\n- Cargo is selected via cytoplasmic sorting signals (DXE, YXXΦ) or lumenal receptors (KDEL).\n- Vesicle topology: cytosolic face stays cytosolic, lumenal face stays lumenal.\n- Uncoating (Hsc70/auxilin) exposes Rab/SNARE for targeting/fusion.",
+    "commonConfusions": "- **\"Vesicles already exist and just float around.\"** — They are **assembled on demand** at the donor membrane; they do not exist as empty pre-formed sacs.\n- **\"The membrane spontaneously pinches off.\"** — Scission is an active, GTP-powered step (dynamin for clathrin); without it, buds remain tethered by a neck.\n- **\"Coat proteins only provide structure.\"** — Coats **select cargo** (via adaptors and sorting signals) as well as curve the membrane.\n- **\"One coat does everything.\"** — Different coats serve different routes and use different GTPases and adaptors.\n- **\"Uncoating is optional.\"** — Uncoating is essential to expose SNAREs/Rabs; coated vesicles cannot fuse with their target.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nMaking a transport bubble is like packing and sealing a little delivery bag at a store shelf. First a worker (Sar1/ARF) arrives and marks the spot. Then the bag-maker (the coat) comes and grabs the right products (cargo) — the ones with the right barcodes — while leaving the store's own shelves (resident proteins) behind. As more bag material assembles, it naturally curls into a pouch, squeezing the goods inside. Finally, a twist-tie machine (dynamin) cinches the neck shut and snips the bag free. Then the bag sheds its outer wrapping so it can be addressed and delivered. (The analogy omits that \"twisting\" is a GTP-powered molecular pinch and that different store aisles use different bag-makers.)",
+    "quickReview": "- Budding = GTPase initiation → cargo selection → coat assembly → curvature → scission.\n- Sar1 (COPII), ARF (COPI/clathrin) initiate; dynamin pinches off clathrin vesicles.\n- Cargo selection via sorting signals and adaptors.\n- GTP (initiation + dynamin) and ATP (uncoating) provide energy.\n- Reconstituted in vitro from purified components; yeast Sec mutants and dynamin mutants defined the machinery.\n- Coat removal precedes targeting/fusion.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Molecular Mechanisms of Membrane Transport and the Maintenance of Compartmental Diversity.\" https://www.ncbi.nlm.nih.gov/books/NBK26859/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26859/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Intracellular Vesicular Traffic.\" https://www.ncbi.nlm.nih.gov/books/NBK21045/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21045/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/04-vesicular-traffic/01-vesicle-budding.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

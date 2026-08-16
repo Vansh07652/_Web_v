@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-polarity-and-intermolecular-forces-q09",
+  "subject": "chemistry-1",
+  "lesson": "polarity-and-intermolecular-forces",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Ethanol (CH3CH2OH) boils at 78 degrees Celsius, but dimethyl ether (CH3OCH3), which has the identical molecular formula C2H6O, boils near -24 degrees Celsius. Which statement best explains this difference?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Ethanol's O-H group can donate and accept hydrogen bonds; the ether oxygen can only accept."
+    },
+    {
+      "id": "b",
+      "text": "Dimethyl ether is fully nonpolar, so only dispersion forces operate between its molecules."
+    },
+    {
+      "id": "c",
+      "text": "Ethanol contains an extra carbon-oxygen bond that raises the energy needed to vaporize it."
+    },
+    {
+      "id": "d",
+      "text": "Ethanol has the greater molar mass, so its London dispersion forces are much stronger."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "These isomers share the formula C2H6O and a molar mass of about 46 g/mol, so dispersion forces are comparable and cannot account for the 78 - (-24) = 102 degree Celsius gap. Hydrogen bonding requires a hydrogen covalently bound to N, O, or F: ethanol supplies that donor, so its molecules form an extended hydrogen-bonded network. Dimethyl ether's oxygen is flanked by two carbons and has lone pairs but no attached hydrogen, so in the pure liquid no donor exists and only dipole-dipole and dispersion forces remain. Both isomers are polar; polarity alone is not the deciding factor.\n\nELI-10: Hydrogen bonding takes two parts: a donor, meaning an H attached to N, O, or F, and an acceptor, meaning a lone pair. Ethanol has both, so its molecules link into chains that take a lot of heat to pull apart. Dimethyl ether has acceptors only, and an acceptor with no donor nearby has nothing to bond to, so pure ether molecules just brush past each other. Same atoms, different arrangement, and the presence or absence of one donor hydrogen shifts the boiling point by over 100 degrees.",
+  "difficulty": "medium",
+  "tags": [
+    "hydrogen bond donors and acceptors",
+    "structural isomers",
+    "boiling point comparison"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-275",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

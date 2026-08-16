@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cytoskeleton-motility:filopodia",
+  "slug": "filopodia",
+  "title": "Filopodia",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cytoskeleton-motility",
+    "slug": "cytoskeleton-motility",
+    "title": "Cytoskeleton Motility",
+    "order": 5
+  },
+  "order": 13,
+  "status": "final",
+  "sections": {
+    "overview": "Filopodia are thin, finger-like actin protrusions that a migrating or exploring cell extends from its leading edge. Unlike the broad, branched lamellipodium, a filopodium contains a **parallel bundle of actin filaments** whose **barbed (plus) ends point toward the plasma membrane tip**. Filopodia act as the cell's \"feelers\": they probe the environment, sense guidance cues, and form early contacts with other cells or the matrix. Their growth is driven by **formins** (which processively add profilin–actin to the barbed ends) and **Ena/VASP proteins** (which protect the ends from capping), while **fascin** cross-links the filaments into a stiff bundle.",
+    "whyItMatters": "Filopodia are essential for **cell migration and navigation**: they sense chemotactic gradients, guide axonal growth cones during nervous-system wiring, and initiate contacts during epithelial sheet closure (dorsal closure) and angiogenesis (endothelial tip cells). In development, filopodia on growth cones read attractive/repulsive cues to steer axons. In disease, filopodia contribute to **cancer cell invasion and metastasis**, and fascin is overexpressed in many aggressive tumors, making filopodia (and fascin) emerging therapeutic and prognostic targets.",
+    "learningObjectives": "- Define filopodia and distinguish their actin organization from that of lamellipodia.\n- Explain how formins and profilin drive filopodial actin elongation.\n- Describe the roles of fascin (bundling) and Ena/VASP (anti-capping) at the filopodial tip.\n- Relate filopodia to their sensory and adhesive functions in migrating cells.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nFilopodia are thin, finger-like actin protrusions that a migrating or exploring cell extends from its leading edge. Unlike the broad, branched lamellipodium, a filopodium contains a **parallel bundle of actin filaments** whose **barbed (plus) ends point toward the plasma membrane tip**. Filopodia act as the cell's \"feelers\": they probe the environment, sense guidance cues, and form early contacts with other cells or the matrix. Their growth is driven by **formins** (which processively add profilin–actin to the barbed ends) and **Ena/VASP proteins** (which protect the ends from capping), while **fascin** cross-links the filaments into a stiff bundle.\n\n### Key Components\n\n- **Parallel actin bundle:** ~10–30 actin filaments, all with barbed ends at the tip, cross-linked tightly.\n- **Fascin:** the bundling protein that holds filopodial actin filaments in a rigid, parallel array.\n- **Formins (e.g., mDia2):** processive barbed-end polymerases that nucleate and elongate actin using profilin–actin.\n- **Profilin:** binds actin monomers, delivers them to growing barbed ends, and catalyzes nucleotide exchange.\n- **Ena/VASP proteins:** anti-capping factors that accumulate at the filopodial tip and allow continuous elongation.\n- **Myosin-X:** an unconventional myosin that walks to the filopodial tip carrying integrins/adhesion cargo.\n- **Tip complex:** the cluster of formins, Ena/VASP, and other regulators at the membrane-proximal barbed ends.\n\n### Mechanism / How It Works\n\n1. At the leading edge, **Cdc42** (a Rho-family GTPase) activates formins such as mDia2, which nucleate new actin filaments.\n2. Formin remains attached to the growing **barbed end**, acting as a processive polymerase that adds profilin–actin monomers one at a time.\n3. The elongating filaments push against the plasma membrane; **Ena/VASP** at the tip blocks capping protein, so elongation continues.\n4. Neighboring filaments are zippered into a tight **parallel bundle by fascin**, giving the filopodium its slender, rigid shape (diameter ~100–200 nm, length up to tens of µm).\n5. **Myosin-X** walks toward the barbed ends (the tip), delivering integrins and other cargo to support adhesion and signaling at the leading point.\n6. Because all barbed ends point outward and pointed ends are at the base, actin in a filopodium undergoes net **treadmilling**: assembly at the tip, disassembly at the base (aided by cofilin).\n\n### Energy and Directionality\n\nFilopodial growth is powered by **ATP hydrolysis on actin monomers**. Actin binds ATP; upon polymerization the ATP is hydrolyzed to ADP (with a lag), and ADP-actin at the pointed (minus) end is preferentially depolymerized by cofilin. The **barbed (plus) end is the fast-growing, membrane-pushing end**, so polymerization there produces the protrusive force — assembly is directional (tip = plus end), and the ATPase cycle sustains the treadmilling flux from tip to base.\n\n### Experimental Evidence / Technique\n\n- **Electron microscopy (platinum replica):** reveals the tight, parallel actin bundle of filopodia versus the branched network of lamellipodia.\n- **Fluorescent speckle / photoactivation of actin:** shows continuous actin assembly at the filopodial tip and retrograde flow toward the base.\n- **Fascin knockdown:** cells lose filopodia but retain lamellipodia, proving fascin-dependent bundling is filopodium-specific.\n- **Ena/VASP and formin perturbation:** blocking these factors stalls filopodial elongation, confirming their tip roles.\n- **Cdc42 activation assays:** constitutively active Cdc42 induces filopodia; dominant-negative Cdc42 suppresses them.",
+    "howItWorks": "1. At the leading edge, **Cdc42** (a Rho-family GTPase) activates formins such as mDia2, which nucleate new actin filaments.\n2. Formin remains attached to the growing **barbed end**, acting as a processive polymerase that adds profilin–actin monomers one at a time.\n3. The elongating filaments push against the plasma membrane; **Ena/VASP** at the tip blocks capping protein, so elongation continues.\n4. Neighboring filaments are zippered into a tight **parallel bundle by fascin**, giving the filopodium its slender, rigid shape (diameter ~100–200 nm, length up to tens of µm).\n5. **Myosin-X** walks toward the barbed ends (the tip), delivering integrins and other cargo to support adhesion and signaling at the leading point.\n6. Because all barbed ends point outward and pointed ends are at the base, actin in a filopodium undergoes net **treadmilling**: assembly at the tip, disassembly at the base (aided by cofilin).",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Filopodia = **thin, parallel-bundled** actin protrusions (vs. lamellipodia = branched sheet).\n- Actin **barbed (plus) ends point at the tip**; pointed ends at the base.\n- Elongation by **formins** (processive polymerases) + **profilin–actin**.\n- **Ena/VASP** prevents capping at the tip; **fascin** bundles the filaments.\n- **Cdc42** (Rho GTPase) triggers filopodium formation.\n- **Myosin-X** delivers integrin cargo to the tip.\n- Actin **treadmills**: add at tip, cofilin-mediated loss at base.\n- Function: environmental **sensing/guidance**; fascin upregulation → cancer invasion.",
+    "commonConfusions": "- **\"Filopodia and lamellipodia are the same.\"** — Filopodia are **parallel-bundled** and finger-like; lamellipodia are **branched (Arp2/3)** and sheet-like.\n- **\"Filopodia grow from the pointed end.\"** — No; the **barbed (plus) ends** are at the tip and are the growing, membrane-pushing ends.\n- **\"Arp2/3 builds filopodia.\"** — Arp2/3 builds the branched lamellipodial network; filopodia are elongated by **formins** and bundled by fascin (often initiated from the lamellipodial network).\n- **\"Cdc42 and Rac do the same thing.\"** — **Cdc42 → filopodia**, **Rac → lamellipodia**, Rho → stress fibers/focal adhesions.\n- **\"Actin in filopodia is static once built.\"** — It continuously treadmills (adds at tip, disassembles at base) even when length is constant.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a blind person walking with a bundle of thin canes held tightly together, all pointing forward. The canes are the actin filaments; the person keeps adding new cane segments at the front (the tip) while recycling old ones at the back, so the bundle \"grows\" forward. These stiff little feelers poke ahead to feel for obstacles and grab onto things before the rest of the cell commits to moving. A helper protein (fascin) is the tape that keeps all the canes lined up. (The analogy omits that the \"canes\" assemble and disassemble molecule-by-molecule, that they push the membrane with polymerization force, and that filopodia also carry adhesions and signals, not just a touch function.)",
+    "quickReview": "- Filopodium = slender, fascin-bundled, parallel actin protrusion with barbed ends at the tip.\n- Growth: formin + profilin–actin elongation; Ena/VASP anti-capping; myosin-X carries cargo.\n- Triggered by Cdc42; distinct from Rac-driven lamellipodia and Rho-driven stress fibers.\n- Actin treadmills tip→base; powered by actin ATP hydrolysis.\n- Functions: sensing, guidance, adhesion, invasion; fascin = cancer marker/target.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Cooper GM. *The Cell: A Molecular Approach.* 2nd ed. \"Actin, Myosin, and Cell Movement.\" https://www.ncbi.nlm.nih.gov/books/NBK9961/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9961/"
+      },
+      {
+        "text": "Alberts B, et al. *Molecular Biology of the Cell.* 4th ed. \"The Cytoskeleton and Cell Behavior.\" https://www.ncbi.nlm.nih.gov/books/NBK26930/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26930/"
+      },
+      {
+        "text": "Cooper GM. *The Cell: A Molecular Approach.* 2nd ed. Chapter 11: \"The Cytoskeleton and Cell Movement.\" https://www.ncbi.nlm.nih.gov/books/NBK9893/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9893/"
+      },
+      {
+        "text": "OpenStax. *Biology 2e.* Chapter 4.5: \"The Cytoskeleton.\" https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+        "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/05-cytoskeleton-motility/13-filopodia.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

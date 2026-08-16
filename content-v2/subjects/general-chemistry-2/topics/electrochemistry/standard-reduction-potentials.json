@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:electrochemistry:standard-reduction-potentials",
+  "slug": "standard-reduction-potentials",
+  "title": "Standard Reduction Potentials",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:electrochemistry",
+    "slug": "electrochemistry",
+    "title": "Electrochemistry",
+    "order": 8
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "A **standard reduction potential (E°)** is the voltage of a half-reaction, written as a reduction, measured against the **standard hydrogen electrode (SHE)**, which is assigned exactly 0.00 V. Stronger oxidizers have more positive E°; stronger reducers have more negative E°. For any cell, the half-reaction with the *more positive* E° proceeds as reduction (cathode) and the *less positive* (more negative) proceeds as oxidation (anode). The cell potential is **E°cell = E°cathode − E°anode**, using the tabulated (reduction) values for both — and, critically, these potentials are *intensive* properties, so they are never multiplied by the coefficients used to balance the electrons.",
+    "whyItMatters": "Standard reduction potentials are the periodic table of electrochemistry — a compact ranking of every species' power to grab or give up electrons. From a single table you can predict the voltage of any battery, rank oxidizing and reducing agents, and foresee which metals dissolve in which acid solutions. They are the input for every spontaneity, free-energy, and equilibrium calculation in electrochemistry.",
+    "learningObjectives": "- Define the standard hydrogen electrode (SHE) and its role as the 0.00 V reference.\n- Explain what a standard reduction potential (E°) measures.\n- Calculate E°cell from tabulated reduction potentials using E°cell = E°cathode − E°anode.\n- Explain why E° values are not multiplied by stoichiometric coefficients.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA **standard reduction potential (E°)** is the voltage of a half-reaction, written as a reduction, measured against the **standard hydrogen electrode (SHE)**, which is assigned exactly 0.00 V. Stronger oxidizers have more positive E°; stronger reducers have more negative E°. For any cell, the half-reaction with the *more positive* E° proceeds as reduction (cathode) and the *less positive* (more negative) proceeds as oxidation (anode). The cell potential is **E°cell = E°cathode − E°anode**, using the tabulated (reduction) values for both — and, critically, these potentials are *intensive* properties, so they are never multiplied by the coefficients used to balance the electrons.\n\n### Key Ideas\n\n- **SHE is the zero.** 2 H⁺(aq, 1 M) + 2 e⁻ ⇌ H₂(g, 1 atm) is defined as E° = 0.00 V.\n- **Tables list reductions.** Every E° is written with electrons on the reactant side.\n- **Positive = good oxidizer, negative = good reducer.** F₂ (+2.87 V) is the strongest common oxidizer; Li⁺ (−3.04 V) the weakest (Li is the strongest reducer).\n- **Cathode picks the higher E°.** The more positive reduction potential is the cathode; flip the other sign when you reverse it for oxidation.\n- **Never scale E° by coefficients.** Doubling a half-reaction doubles electrons and ΔG but leaves E° unchanged.\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| E° | Standard reduction potential (vs. SHE) | V |\n| E°cell | Standard cell potential | V |\n| SHE | Standard hydrogen electrode (0.00 V reference) | — |\n\nE°cell = E°cathode − E°anode\n\n### How It Works\n\n1. Look up the two reduction half-reactions and their E° values.\n2. Identify the larger (more positive) E° — that half-reaction is the cathode (reduction, as written).\n3. The other is the anode; write it in reverse (oxidation).\n4. Compute E°cell = E°(cathode) − E°(anode), keeping both values as their tabulated *reduction* potentials.\n5. Balance electrons with coefficients only after the potentials are set — E° values stay as they are.\n\n### Worked Example\n\n**Find E°cell for Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).**\n\nTabulated reductions:\n- Cu²⁺ + 2 e⁻ → Cu, E° = +0.34 V\n- Zn²⁺ + 2 e⁻ → Zn, E° = −0.76 V\n\nCu²⁺ has the more positive E°, so it is reduced at the cathode. Zn is oxidized at the anode (reverse of the tabulated reaction).\n\nE°cell = E°cathode − E°anode = +0.34 V − (−0.76 V) = **+1.10 V**\n\nNote that we did **not** multiply either potential by anything. The same answer results for 2 Al + 3 Cu²⁺ → 2 Al³⁺ + 3 Cu: E°cell = +0.34 − (−1.66) = +2.00 V, even though the balanced equation has coefficients 2 and 3.",
+    "howItWorks": "1. Look up the two reduction half-reactions and their E° values.\n2. Identify the larger (more positive) E° — that half-reaction is the cathode (reduction, as written).\n3. The other is the anode; write it in reverse (oxidation).\n4. Compute E°cell = E°(cathode) − E°(anode), keeping both values as their tabulated *reduction* potentials.\n5. Balance electrons with coefficients only after the potentials are set — E° values stay as they are.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- SHE = 0.00 V by definition (2 H⁺ + 2 e⁻ ⇌ H₂).\n- Tables list half-reactions as reductions.\n- More positive E° = stronger oxidizing agent; more negative = stronger reducing agent.\n- E°cell = E°cathode − E°anode (both tabulated reduction values).\n- E° is intensive — never multiplied by stoichiometric coefficients.\n- A positive E°cell means the reaction is spontaneous.\n- F₂/F⁻ = +2.87 V (strongest oxidizer); Li⁺/Li = −3.04 V (strongest reducer).",
+    "commonConfusions": "- **\"Multiply E° by the balancing coefficient.\"** — Wrong. E° is intensive; only n (moles of electrons) scales ΔG and the electron count, never the voltage.\n- **\"E°cell = E°anode − E°cathode.\"** — Wrong. It is cathode minus anode.\n- **\"The anode half-reaction is used as written in the table.\"** — Wrong. The anode is the *reverse* of the tabulated reduction, so its tabulated E° is subtracted.\n- **\"SHE is 0 V because it has no potential.\"** — Wrong. It is 0 V by *convention* (a chosen reference), not because it has no tendency.\n- **\"A large negative E° means a strong oxidizer.\"** — Wrong. Large negative E° means a strong *reducing agent* (it readily loses electrons).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of the standard reduction table as a \"greediness ranking\" for electrons. Every atom is assigned a number showing how badly it wants electrons: a high positive number means \"I really want electrons\" (like fluorine), a low negative number means \"I'd rather give mine away\" (like lithium). To build a battery, you pair a greedy electron-wanter (cathode) with an electron-giver (anode), and the difference between their greediness numbers is the voltage. (The limit: the \"greediness\" is a measured half-cell voltage against hydrogen's zero, and the ranking is about electron *tendency*, not literal desire.)",
+    "quickReview": "- E° is measured against SHE (0.00 V).\n- Reductions are tabulated; more positive E° = stronger oxidizer.\n- E°cell = E°cathode − E°anode.\n- Never scale E° by coefficients.\n- Positive E°cell ⇒ spontaneous.",
+    "workedExamples": "### Worked Example\n\n**Find E°cell for Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).**\n\nTabulated reductions:\n- Cu²⁺ + 2 e⁻ → Cu, E° = +0.34 V\n- Zn²⁺ + 2 e⁻ → Zn, E° = −0.76 V\n\nCu²⁺ has the more positive E°, so it is reduced at the cathode. Zn is oxidized at the anode (reverse of the tabulated reaction).\n\nE°cell = E°cathode − E°anode = +0.34 V − (−0.76 V) = **+1.10 V**\n\nNote that we did **not** multiply either potential by anything. The same answer results for 2 Al + 3 Cu²⁺ → 2 Al³⁺ + 3 Cu: E°cell = +0.34 − (−1.66) = +2.00 V, even though the balanced equation has coefficients 2 and 3.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 17.3 \"Electrode and Cell Potentials.\" https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials"
+      },
+      {
+        "text": "LibreTexts, *Chemistry 2e (OpenStax)*, Ch. 17 \"Electrochemistry.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenSTAX%29/17%3A_Electrochemistry",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenSTAX%29/17%3A_Electrochemistry"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "standard-reduction-potentials",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "04-standard-reduction-potentials",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:ef356b1b60d274ae"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:ef356b1b60d274ae"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:ef356b1b60d274ae"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:ef356b1b60d274ae"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/17-electrochemistry/04-standard-reduction-potentials.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Standard Reduction Potentials\n\n## Learning Goals\n\n- Define the standard hydrogen electrode (SHE) and its role as the 0.00 V reference.\n- Explain what a standard reduction potential (E°) measures.\n- Calculate E°cell from tabulated reduction potentials using E°cell = E°cathode − E°anode.\n- Explain why E° values are not multiplied by stoichiometric coefficients.\n\n## Core Concept\n\nA **standard reduction potential (E°)** is the voltage of a half-reaction, written as a reduction, measured against the **standard hydrogen electrode (SHE)**, which is assigned exactly 0.00 V. Stronger oxidizers have more positive E°; stronger reducers have more negative E°. For any cell, the half-reaction with the *more positive* E° proceeds as reduction (cathode) and the *less positive* (more negative) proceeds as oxidation (anode). The cell potential is **E°cell = E°cathode − E°anode**, using the tabulated (reduction) values for both — and, critically, these potentials are *intensive* properties, so they are never multiplied by the coefficients used to balance the electrons.\n\n## Key Ideas\n\n- **SHE is the zero.** 2 H⁺(aq, 1 M) + 2 e⁻ ⇌ H₂(g, 1 atm) is defined as E° = 0.00 V.\n- **Tables list reductions.** Every E° is written with electrons on the reactant side.\n- **Positive = good oxidizer, negative = good reducer.** F₂ (+2.87 V) is the strongest common oxidizer; Li⁺ (−3.04 V) the weakest (Li is the strongest reducer).\n- **Cathode picks the higher E°.** The more positive reduction potential is the cathode; flip the other sign when you reverse it for oxidation.\n- **Never scale E° by coefficients.** Doubling a half-reaction doubles electrons and ΔG but leaves E° unchanged.\n\n## Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| E° | Standard reduction potential (vs. SHE) | V |\n| E°cell | Standard cell potential | V |\n| SHE | Standard hydrogen electrode (0.00 V reference) | — |\n\nE°cell = E°cathode − E°anode\n\n## How It Works\n\n1. Look up the two reduction half-reactions and their E° values.\n2. Identify the larger (more positive) E° — that half-reaction is the cathode (reduction, as written).\n3. The other is the anode; write it in reverse (oxidation).\n4. Compute E°cell = E°(cathode) − E°(anode), keeping both values as their tabulated *reduction* potentials.\n5. Balance electrons with coefficients only after the potentials are set — E° values stay as they are.\n\n## Worked Example\n\n**Find E°cell for Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).**\n\nTabulated reductions:\n- Cu²⁺ + 2 e⁻ → Cu, E° = +0.34 V\n- Zn²⁺ + 2 e⁻ → Zn, E° = −0.76 V\n\nCu²⁺ has the more positive E°, so it is reduced at the cathode. Zn is oxidized at the anode (reverse of the tabulated reaction).\n\nE°cell = E°cathode − E°anode = +0.34 V − (−0.76 V) = **+1.10 V**\n\nNote that we did **not** multiply either potential by anything. The same answer results for 2 Al + 3 Cu²⁺ → 2 Al³⁺ + 3 Cu: E°cell = +0.34 − (−1.66) = +2.00 V, even though the balanced equation has coefficients 2 and 3.\n\n## Why It Matters\n\nStandard reduction potentials are the periodic table of electrochemistry — a compact ranking of every species' power to grab or give up electrons. From a single table you can predict the voltage of any battery, rank oxidizing and reducing agents, and foresee which metals dissolve in which acid solutions. They are the input for every spontaneity, free-energy, and equilibrium calculation in electrochemistry.\n\n## High-Yield Facts\n\n- SHE = 0.00 V by definition (2 H⁺ + 2 e⁻ ⇌ H₂).\n- Tables list half-reactions as reductions.\n- More positive E° = stronger oxidizing agent; more negative = stronger reducing agent.\n- E°cell = E°cathode − E°anode (both tabulated reduction values).\n- E° is intensive — never multiplied by stoichiometric coefficients.\n- A positive E°cell means the reaction is spontaneous.\n- F₂/F⁻ = +2.87 V (strongest oxidizer); Li⁺/Li = −3.04 V (strongest reducer).\n\n## Eli Explains\n\nThink of the standard reduction table as a \"greediness ranking\" for electrons. Every atom is assigned a number showing how badly it wants electrons: a high positive number means \"I really want electrons\" (like fluorine), a low negative number means \"I'd rather give mine away\" (like lithium). To build a battery, you pair a greedy electron-wanter (cathode) with an electron-giver (anode), and the difference between their greediness numbers is the voltage. (The limit: the \"greediness\" is a measured half-cell voltage against hydrogen's zero, and the ranking is about electron *tendency*, not literal desire.)\n\n## Common Confusions\n\n- **\"Multiply E° by the balancing coefficient.\"** — Wrong. E° is intensive; only n (moles of electrons) scales ΔG and the electron count, never the voltage.\n- **\"E°cell = E°anode − E°cathode.\"** — Wrong. It is cathode minus anode.\n- **\"The anode half-reaction is used as written in the table.\"** — Wrong. The anode is the *reverse* of the tabulated reduction, so its tabulated E° is subtracted.\n- **\"SHE is 0 V because it has no potential.\"** — Wrong. It is 0 V by *convention* (a chosen reference), not because it has no tendency.\n- **\"A large negative E° means a strong oxidizer.\"** — Wrong. Large negative E° means a strong *reducing agent* (it readily loses electrons).\n\n## Quick Review\n\n- E° is measured against SHE (0.00 V).\n- Reductions are tabulated; more positive E° = stronger oxidizer.\n- E°cell = E°cathode − E°anode.\n- Never scale E° by coefficients.\n- Positive E°cell ⇒ spontaneous.\n\n## Sources\n\n- OpenStax, *Chemistry 2e*, Ch. 17.3 \"Electrode and Cell Potentials.\" https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials\n- LibreTexts, *Chemistry 2e (OpenStax)*, Ch. 17 \"Electrochemistry.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenSTAX%29/17%3A_Electrochemistry\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n"
+}

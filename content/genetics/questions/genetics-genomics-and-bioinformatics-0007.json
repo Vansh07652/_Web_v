@@ -1,0 +1,41 @@
+{
+  "id": "genetics-genomics-and-bioinformatics-0007",
+  "subject": "genetics",
+  "lesson": "genomics-and-bioinformatics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application An RNA-seq experiment compares tumor and adjacent normal tissue from the same patient. Gene R yields 150 reads per million in the normal sample and 1,500 reads per million in the tumor sample, while gene S yields equal counts in both samples. Which conclusion is best supported?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Gene S is silenced by promoter methylation in the tumor."
+    },
+    {
+      "id": "b",
+      "text": "Gene R is transcriptionally upregulated in the tumor sample relative to the normal sample."
+    },
+    {
+      "id": "c",
+      "text": "Gene R carries a mutation in the tumor that increases its mRNA level."
+    },
+    {
+      "id": "d",
+      "text": "Gene R's protein is ten times more abundant in the tumor than in the normal tissue."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "RNA-seq counts reflect the abundance of RNA transcripts, and a ten fold higher count for gene R in the tumor sample supports transcriptional upregulation in the tumor. Expression differences do not reveal mechanism, so neither promoter methylation of gene S nor a mutation in gene R is supported by these counts. RNA levels also do not directly measure protein abundance, so the protein claim is not supported.",
+  "difficulty": "unknown",
+  "tags": [
+    "rna",
+    "seq",
+    "tumor",
+    "normal",
+    "expression"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-16973b1c51d4a9a2",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

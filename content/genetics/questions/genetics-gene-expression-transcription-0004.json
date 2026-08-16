@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-expression-transcription-0004",
+  "subject": "genetics",
+  "lesson": "gene-expression-transcription",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A eukaryotic pre-mRNA has just been synthesized in the nucleus. Which set of processing events must occur before the mature mRNA can be translated in the cytoplasm?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Removal of exons, addition of a 5' cap, and polyadenylation."
+    },
+    {
+      "id": "b",
+      "text": "Addition of a poly-A tail at the 5' end and removal of introns."
+    },
+    {
+      "id": "c",
+      "text": "Replacement of thymine with uracil and removal of the promoter."
+    },
+    {
+      "id": "d",
+      "text": "Addition of a 5' cap, polyadenylation at the 3' end, and splicing out of introns."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Eukaryotic pre-mRNA is processed by adding a 5' cap, adding a poly-A tail at the 3' end, and splicing out introns, leaving the exons joined in the mature mRNA. A reverses the roles of exons and introns, since introns are removed and exons are kept. B places the poly-A tail at the wrong end, since polyadenylation occurs at the 3' end. C lists events of transcription itself, since uracil is incorporated during synthesis and the promoter is not part of the mRNA.",
+  "difficulty": "unknown",
+  "tags": [
+    "mrna",
+    "processing",
+    "events"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-d70bead5ed76165d",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

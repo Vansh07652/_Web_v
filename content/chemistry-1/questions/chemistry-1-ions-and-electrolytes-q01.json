@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-ions-and-electrolytes-q01",
+  "subject": "chemistry-1",
+  "lesson": "ions-and-electrolytes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "An aluminum atom has 13 protons and 13 electrons. If it loses 3 electrons during a chemical reaction, which term and charge correctly describe the resulting particle?",
+  "options": [
+    {
+      "id": "a",
+      "text": "An anion carrying a 3- charge, because removing electrons leaves the particle negative"
+    },
+    {
+      "id": "b",
+      "text": "An isotope carrying a 3+ charge, because the number of nuclear particles has changed"
+    },
+    {
+      "id": "c",
+      "text": "A cation carrying a 3+ charge, because protons now outnumber electrons by three"
+    },
+    {
+      "id": "d",
+      "text": "A cation carrying a 13+ charge, because all 13 protons are now unopposed"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Net ionic charge equals protons minus electrons: 13 - 10 = +3. A positively charged ion is a cation, and cations form by losing electrons. The 10 remaining electrons still cancel 10 of the 13 protons, so the charge is 3+, not 13+. Isotopes differ in neutron count, and the proton count (element identity) does not change in a chemical reaction, so the species is Al3+.\n\nELI-10: Charge is a subtraction problem, not a count of what is left. Protons are fixed at 13 and each one contributes +1; each electron contributes -1. Start at 13 plus and 13 minus, which cancel to zero. Remove 3 electrons and you have 13 plus against 10 minus, so 10 pairs cancel and 3 pluses survive: a 3+ charge. Any positively charged ion is a cation (the 't' in cation is a handy stand-in for a plus sign), and losing electrons is the only way an atom becomes one.",
+  "difficulty": "easy",
+  "tags": [
+    "cation formation",
+    "charge = protons minus electrons",
+    "ion terminology"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-273",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,193 @@
+---
+title: "Occurrence, Preparation, and Properties of the Noble Gases"
+subject: "Science"
+book: "Chemistry: Atoms First 2e"
+chapter: "18: Representative Metals, Metalloids, and Nonmetals"
+topic_number: "12"
+source: "chemistry-atoms-first-2e.md"
+tags:
+  - "occurrence-preparation-and-properties-of-the-noble-gases"
+  - "science"
+status: "complete"
+---
+
+# Occurrence, Preparation, and Properties of the Noble Gases
+
+> **Book:** [Chemistry: Atoms First 2e](../../README.md)  
+> **Chapter:** [Chapter 18: Representative Metals, Metalloids, and Nonmetals](../README.md)  
+> **Topic:** 12  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+The noble gases — helium (He), neon (Ne), argon (Ar), krypton (Kr), xenon (Xe), and radon (Rn) — make up Group 18, the last column of the periodic table. Each has a completely filled valence shell (\(1s^2\) for helium; \(ns^2np^6\) for the rest), so they show almost no tendency to gain, lose, or share electrons. Chemists once called them the "inert gases" because no compound could be made — until 1962, when Neil Bartlett prepared the first noble-gas compound, \(XePtF_6\), by reacting xenon with platinum hexafluoride. Today we know the heavier noble gases do form compounds, especially xenon, but their chemistry remains the most limited of any element family.
+
+The group is equally important for what its members *do*: helium lifts balloons and cools MRI magnets, neon paints city signs red-orange, argon shields welds, and radon — the radioactive member — is a health risk in homes. This topic covers where each noble gas comes from, how each is isolated, and the properties that explain those uses.
+
+## Why This Matters
+
+- **Medical imaging:** Liquid helium cools the superconducting magnets inside MRI scanners to about 4 K (−269 °C); without it, modern MRI would not work.
+- **Breathing and diving:** Helium–oxygen mixtures ("heliox") let divers work at pressure without nitrogen narcosis and help patients with airway obstruction.
+- **Lighting and manufacturing:** Neon and argon glow when electrically excited (neon signs, fluorescent bulbs), and argon's inertness protects reactive metals during welding and chip-making.
+- **Public health:** Radon-222 seeps from uranium-bearing soils into basements; it is the second leading cause of lung cancer after smoking.
+
+## Core Concepts
+
+### Occurrence: air, natural gas, and radioactive decay
+
+All the noble gases occur in Earth's atmosphere, but in very different amounts. Argon is the third most abundant gas in dry air at about 0.934% by volume, while neon (~18 ppm), helium (~5 ppm), krypton (~1 ppm), and xenon (~0.09 ppm) are trace components. Helium's economical source is **natural gas**: helium-4 accumulates there over geological time because alpha decay of uranium and thorium in the crust produces it continuously. Radon-222, in contrast, is a decay product of uranium-238, so it is found in soils, rocks, groundwater, and the air of buildings on uranium-bearing ground.
+
+### Preparation: fractional distillation of liquid air
+
+Neon, argon, krypton, and xenon are obtained industrially by **fractional distillation of liquid air**. Air is filtered, dried, compressed, and cooled until it liquefies (oxygen boils at 90 K, nitrogen at 77 K). The liquid is warmed slowly in a tall distillation column, and the components boil off at their different temperatures; argon, neon, krypton, and xenon are drawn off at their respective boiling points and purified further. Helium is instead separated from natural gas by cooling the gas until methane and other hydrocarbons liquefy, leaving helium (boiling point 4.2 K, the lowest of any substance) as the remaining gas. Radon is not manufactured; it is collected from radium or uranium compounds in which it forms continuously by decay.
+
+### Physical properties: tiny atoms, tiny attractions
+
+The noble gases are colorless, odorless, monatomic gases at room temperature. Their boiling points rise smoothly down the group — helium 4.2 K, neon 27 K, argon 87 K, krypton 120 K, xenon 165 K, radon 211 K — because the only intermolecular forces are weak London dispersion forces, which strengthen as atoms grow larger and more polarizable. First ionization energy decreases down the group (2372 kJ/mol for helium to ~1037 kJ/mol for radon), yet even radon's value is far too high for ordinary reactions. Electron affinity is essentially zero: a filled shell has no room for an extra electron.
+
+### Chemical properties: from "inert" to "noble"
+
+For decades no noble-gas compound could be made. In 1962, Bartlett noticed that xenon's first ionization energy (1170 kJ/mol) is close to that of molecular oxygen (1175 kJ/mol), which *does* react with \(PtF_6\), and he reasoned xenon should too. Mixing xenon with platinum hexafluoride gave an orange solid, \(Xe[PtF_6]\). Xenon soon proved to react directly with fluorine:
+
+\\[Xe + F_2 \rightarrow XeF_2 \qquad Xe + 2F_2 \rightarrow XeF_4 \qquad Xe + 3F_2 \rightarrow XeF_6\\]
+
+depending on reactant ratios and conditions. Xenon also forms oxides and oxyfluorides such as \(XeO_3\) (a dangerously explosive solid), \(XeOF_4\), and \(XeO_2F_2\). Krypton forms few compounds, the most stable being \(KrF_2\); radon forms \(RnF_2\), studied only with difficulty because of its radioactivity. Helium, neon, and argon form **no** stable compounds — their electrons are held too tightly — which is why "noble" (chemically aloof) is the accurate modern description.
+
+### Uses follow from the properties
+
+- **Helium:** balloons and airships (low density, unreactive — far safer than hydrogen), cryogenic coolant for MRI magnets and particle accelerators, carrier gas in gas chromatography.
+- **Neon:** the red-orange glow of neon signs; also fills some helium–neon lasers.
+- **Argon:** inert shielding gas for arc welding, fill gas in incandescent and fluorescent bulbs, protective atmosphere in semiconductor manufacturing.
+- **Krypton and xenon:** high-intensity lamps, airport runway lights, camera flash lamps, and xenon anesthesia in surgery.
+- **Radon:** essentially no commercial use — its importance is as a health hazard measured in homes and mines.
+
+## ELI-10: Explain Like I'm 10
+
+> The noble gases are the "lazy" elements — their outside electron shell is completely full, so they almost never react with anything. Helium makes balloons float, neon makes signs glow red-orange, and argon protects metal when it's being welded. Xenon is the one that will react if you push it hard enough, and radon is the sneaky one that can build up in basements and be dangerous.
+
+## High-Yield Points
+
+- Group 18 = He, Ne, Ar, Kr, Xe, Rn; all have filled valence shells (\(1s^2\) or \(ns^2np^6\)).
+- Argon is ~0.934% of dry air; neon, krypton, and xenon are trace gases; helium comes mainly from natural gas; radon comes from uranium/thorium decay.
+- Preparation: fractional distillation of liquid air (Ne, Ar, Kr, Xe); helium from natural gas; radon collected from radium/uranium sources.
+- Boiling points increase down the group (He 4.2 K < Rn 211 K) because only London dispersion forces act between atoms.
+- Ionization energy decreases down the group but stays too high for He, Ne, Ar to form compounds.
+- First noble-gas compound: \(Xe[PtF_6]\), Bartlett, 1962. Xenon reacts with fluorine to give \(XeF_2\), \(XeF_4\), \(XeF_6\), plus oxides like \(XeO_3\).
+- Uses: He (MRI coolant, balloons, heliox), Ne (signs), Ar (welding, bulbs), Kr/Xe (lamps), Rn (health hazard, not a product).
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Noble gas | Group 18 element with a completely filled valence shell | Explains the group's extreme unreactivity; the reference point for "inert" chemistry |
+| Filled valence shell | A highest-energy \(s\) and \(p\) subshell that is completely occupied | The electronic reason noble gases neither gain, lose, nor share electrons readily |
+| Fractional distillation | Separating liquids by boiling them off one at a time at their different boiling points | The industrial method that isolates neon, argon, krypton, and xenon from liquid air |
+| London dispersion force | The weak, temporary attraction between atoms caused by fluctuating electron distributions | The only intermolecular force among noble-gas atoms; sets their very low boiling points |
+| First ionization energy | Energy needed to remove the outermost electron from a gaseous atom | Decreases down Group 18; predicts which noble gases can be coaxed into compounds |
+| Inert gas | Old name for the noble gases, implying complete unreactivity | Replaced by "noble" after 1962, when xenon compounds were discovered |
+| Radon-222 | A radioactive noble gas produced in the uranium-238 decay chain | Seeps into buildings from soil; second-leading cause of lung cancer after smoking |
+
+## Worked Examples
+
+### Example 1: Density of helium vs. air — why balloons float
+
+A helium balloon rises because helium gas is less dense than air at the same temperature and pressure. Calculate the density of pure helium at 25 °C and 1.00 atm, and compare it with air (average molar mass \(\approx 29.0\ \text{g/mol}\)).
+
+**Step 1 — Start from the ideal gas law and solve for density.** The ideal gas law is:
+
+\\[PV = nRT\\]
+
+Substitute \(n = \dfrac{m}{M}\), then rearrange:
+
+\\[PV = \frac{m}{M}RT \qquad \Rightarrow \qquad \rho = \frac{m}{V} = \frac{PM}{RT}\\]
+
+**Step 2 — Substitute for helium.** \(P = 1.00\ \text{atm}\), \(M = 4.00\ \text{g/mol}\), \(R = 0.08206\ \text{L atm mol}^{-1}\text{K}^{-1}\), \(T = 25 + 273 = 298\ \text{K}\):
+
+\\[\rho_{He} = \frac{(1.00\ \text{atm})(4.00\ \text{g mol}^{-1})}{(0.08206\ \text{L atm mol}^{-1}\text{K}^{-1})(298\ \text{K})} = 0.164\ \text{g/L}\\]
+
+**Step 3 — Repeat for air with \(M = 29.0\ \text{g/mol}\):**
+
+\\[\rho_{air} = \frac{(1.00\ \text{atm})(29.0\ \text{g mol}^{-1})}{(0.08206\ \text{L atm mol}^{-1}\text{K}^{-1})(298\ \text{K})} = 1.18\ \text{g/L}\\]
+
+Unit check: atm cancels, mol cancels, K cancels, leaving g/L. Helium is about 7 times less dense than air (0.164 vs. 1.18 g/L), so a helium-filled balloon displaces heavier air and floats.
+
+### Example 2: How much argon is in a classroom?
+
+Dry air is 0.934% argon by volume. A classroom measures \(10.0\ \text{m} \times 8.0\ \text{m} \times 3.0\ \text{m}\). At 25 °C and 1.00 atm, what mass of argon does the room's air contain?
+
+**Step 1 — Room volume in liters.**
+
+\\[V_{room} = (10.0\ \text{m})(8.0\ \text{m})(3.0\ \text{m}) = 240\ \text{m}^3 \times \frac{1000\ \text{L}}{1\ \text{m}^3} = 2.4 \times 10^5\ \text{L}\\]
+
+**Step 2 — Volume of argon (volume percent means liters of Ar per 100 L of air):**
+
+\\[V_{Ar} = 2.4 \times 10^5\ \text{L air} \times \frac{0.934\ \text{L Ar}}{100\ \text{L air}} = 2.2 \times 10^3\ \text{L Ar}\\]
+
+**Step 3 — Moles of argon from the ideal gas law, then mass.**
+
+\\[n_{Ar} = \frac{PV}{RT} = \frac{(1.00\ \text{atm})(2.2 \times 10^3\ \text{L})}{(0.08206\ \text{L atm mol}^{-1}\text{K}^{-1})(298\ \text{K})} = 9.0 \times 10^1\ \text{mol}\\]
+
+\\[m_{Ar} = n \times M = (9.0 \times 10^1\ \text{mol})(39.95\ \text{g mol}^{-1}) = 3.6 \times 10^3\ \text{g} = 3.6\ \text{kg}\\]
+
+A typical classroom holds roughly 3.6 kg of argon — more than the mass of a large textbook — even though argon is less than 1% of the air. That is why argon is cheap enough to use as a welding shield gas.
+
+### Example 3: Stoichiometry of xenon fluoride formation
+
+Xenon reacts with excess fluorine to form xenon tetrafluoride: \(Xe + 2F_2 \rightarrow XeF_4\). What mass of \(XeF_4\) forms when 2.50 g of xenon reacts completely?
+
+**Step 1 — Mole ratio from the balanced equation:** 1 mol Xe : 1 mol \(XeF_4\).
+
+**Step 2 — Molar masses.** Xe = 131.29 g/mol; \(XeF_4\) = 131.29 + 4(19.00) = 207.29 g/mol.
+
+**Step 3 — Convert g Xe → mol Xe → mol XeF4 → g XeF4:**
+
+\\[m_{XeF4} = 2.50\ \text{g Xe} \times \frac{1\ \text{mol Xe}}{131.29\ \text{g Xe}} \times \frac{1\ \text{mol XeF4}}{1\ \text{mol Xe}} \times \frac{207.29\ \text{g XeF4}}{1\ \text{mol XeF4}} = 3.95\ \text{g XeF4}\\]
+
+Unit check: g Xe → mol Xe → mol XeF4 → g XeF4. 2.50 g of xenon (0.0190 mol) yields 3.95 g of \(XeF_4\) (0.0190 mol); the 1:1 mole ratio makes the masses differ only through the molar masses.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Noble gases being "inert" | Noble gases forming no compounds at all | They are nearly inert, but xenon (and to a lesser extent krypton and radon) forms real compounds; "inert" was abandoned after 1962 |
+| Helium's source | Helium being distilled from air | Commercial helium comes from natural gas, not air — extracting it from air is uneconomical |
+| Neon signs glowing red-orange | All "neon" signs containing neon | The red-orange glow is neon; other colors come from different gases (argon, mercury vapor) or phosphor coatings |
+| Argon being rare | Argon being a trace gas | At 0.934% of air, argon is the third most abundant gas in the atmosphere — far from rare |
+| Radon being a chemical hazard | Radon being a radioactive hazard | Radon's danger is its radioactivity (alpha decay), not its chemistry; it is chemically almost inert |
+| Noble gases being unreactive in all contexts | Noble gases being non-ionizable | They can be ionized (neon signs work by ionization) and can form compounds under forcing conditions |
+
+## Quick Review
+
+1. List the six noble gases in order of increasing atomic number, and state the electron configuration pattern that makes them unreactive.
+2. What is the industrial source and preparation method for argon? For helium?
+3. Where does radon-222 come from, and why is it a public-health concern?
+4. Arrange the noble gases in order of increasing boiling point, and explain the physical reason for the trend.
+5. Why did chemists believe the noble gases were completely inert, and what experiment changed that view?
+6. What mass of \(XeF_2\) (molar mass 169.29 g/mol) forms when 1.31 g of xenon reacts with excess fluorine in \(Xe + F_2 \rightarrow XeF_2\)?
+
+<details>
+<summary>Show answers</summary>
+
+1. He, Ne, Ar, Kr, Xe, Rn; each has a filled valence shell (\(1s^2\) for He; \(ns^2np^6\) for the rest), so there is no orbital available to accept or donate electrons in ordinary reactions.
+2. Argon: fractional distillation of liquid air (it is the most abundant noble gas in air). Helium: separated from natural gas by cooling until hydrocarbons liquefy, leaving helium gas.
+3. Radon-222 is a decay product in the uranium-238 decay chain, formed in soils and rocks. It is radioactive and can accumulate in basements; it is the second-leading cause of lung cancer after smoking.
+4. He < Ne < Ar < Kr < Xe < Rn (4.2 K to 211 K). The atoms grow larger and more polarizable down the group, strengthening the London dispersion forces that hold the liquid together.
+5. For decades no noble-gas compound could be made. In 1962, Bartlett reacted xenon with \(PtF_6\) to form \(Xe[PtF_6]\), reasoning from the similarity of xenon's ionization energy to that of \(O_2\).
+6. \(1.31\ \text{g Xe} \times (1\ \text{mol}/131.29\ \text{g}) \times (1\ \text{mol XeF2}/1\ \text{mol Xe}) \times (169.29\ \text{g/mol}) = 1.69\ \text{g XeF2}\).
+
+</details>
+
+## Related Topics
+
+- Previous: [Occurrence, Preparation, and Properties of Halogens](11-occurrence-preparation-and-properties-of-halogens.md)
+- Next: End of chapter
+- Related: [Periodicity](01-periodicity.md) — the group trends that shape noble-gas behavior
+- Related: [Representative Metals, Metalloids, and Nonmetals chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Chemistry: Atoms First 2e
+- Local outline source: `chemistry-atoms-first-2e.md`
+- Official source URL: https://openstax.org/details/books/chemistry-atoms-first-2e/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-16

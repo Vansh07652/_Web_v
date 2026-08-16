@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-regulation-eukaryotes-and-epigenetics-0007",
+  "subject": "genetics",
+  "lesson": "gene-regulation-eukaryotes-and-epigenetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application The *UBE3A* gene at 15q11.2 is imprinted in the brain, where it is expressed only from the maternal allele, and it encodes ubiquitin protein ligase E3A. Angelman syndrome results from loss of maternal *UBE3A* function, while Prader Willi syndrome results from loss of paternal *SNRPN* function. A child with Angelman syndrome carries a deletion of 15q11.2; why does losing the maternal copy cause disease while losing the paternal copy would not?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The maternal chromosome is always the one inactivated by X inactivation in neurons."
+    },
+    {
+      "id": "b",
+      "text": "Deletions are transmitted only by mothers, never by fathers."
+    },
+    {
+      "id": "c",
+      "text": "In the brain the paternal *UBE3A* allele is silenced by imprinting, so the maternal allele is the only active copy."
+    },
+    {
+      "id": "d",
+      "text": "The paternal allele carries a methylation mark that repairs the deletion."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Because *UBE3A* is imprinted in the brain, the maternal allele supplies all the ubiquitin protein ligase E3A in neurons, so a maternal deletion of 15q11.2 removes the only expressed copy and causes Angelman syndrome. A fails because *UBE3A* is autosomal, not X linked. B fails because deletions can be inherited from either parent; a paternal 15q11.2 deletion instead causes Prader Willi syndrome through loss of *SNRPN* function. D invents a repair mechanism; the paternal allele is silenced, not protective.",
+  "difficulty": "unknown",
+  "tags": [
+    "ube3a",
+    "angelman",
+    "imprinting"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-8ab599ccbbccc2db",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

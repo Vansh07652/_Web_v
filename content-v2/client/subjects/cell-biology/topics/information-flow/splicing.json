@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:information-flow:splicing",
+  "slug": "splicing",
+  "title": "RNA Splicing",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:information-flow",
+    "slug": "information-flow",
+    "title": "Information Flow",
+    "order": 10
+  },
+  "order": 12,
+  "status": "final",
+  "sections": {
+    "overview": "Eukaryotic pre-mRNA contains intervening sequences (introns) that must be removed before translation. Splicing excises introns and joins exons to produce a continuous coding sequence. Most introns are removed by the spliceosome, a large dynamic machine of small nuclear ribonucleoproteins (snRNPs: U1, U2, U4, U5, U6) and associated proteins. Splicing occurs via two sequential transesterification reactions at conserved splice sites and a branch-point adenine, precisely joining exons while releasing the intron as a lariat.",
+    "whyItMatters": "Splicing greatly expands coding capacity and is essential for correct gene expression: an estimated one-third of disease-causing mutations affect splicing. Splice-site mutations cause disorders such as β-thalassemia and spinal muscular atrophy (SMA), which is treated with an antisense drug that modulates SMN2 splicing. Splicing defects are also common in cancer, making the spliceosome a therapeutic target.",
+    "learningObjectives": "- Distinguish introns from exons and explain why splicing is needed.\n- Describe the spliceosome and the roles of snRNPs.\n- Outline the two transesterification reactions that remove an intron.\n- Explain the significance of the conserved splice-site sequences and the branch point.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nEukaryotic pre-mRNA contains intervening sequences (introns) that must be removed before translation. Splicing excises introns and joins exons to produce a continuous coding sequence. Most introns are removed by the spliceosome, a large dynamic machine of small nuclear ribonucleoproteins (snRNPs: U1, U2, U4, U5, U6) and associated proteins. Splicing occurs via two sequential transesterification reactions at conserved splice sites and a branch-point adenine, precisely joining exons while releasing the intron as a lariat.\n\n### Key Components\n\n- **Exons** — sequences retained in the mature mRNA (coding and some untranslated regions).\n- **Introns** — intervening sequences removed during splicing.\n- **5′ splice site (GU)** — donor site at the intron's 5′ end.\n- **3′ splice site (AG)** — acceptor site at the intron's 3′ end.\n- **Branch point (A)** — an adenine upstream of the 3′ splice site that forms the lariat.\n- **snRNPs (U1, U2, U4, U5, U6)** — RNA–protein complexes that carry out splicing; U1/U2 recognize the splice sites and branch point.\n- **Spliceosome** — the assembled U1/U2/U4/U5/U6 complex that catalyzes the two reactions.\n\n### Mechanism\n\nSplicing proceeds through two transesterification reactions that require no net energy input beyond ATP used in spliceosome assembly and rearrangement. First, the 2′-OH of the branch-point adenine attacks the 5′ splice-site phosphate, cleaving the 5′ exon–intron junction and forming a lariat intermediate. Second, the free 3′-OH of the 5′ exon attacks the 3′ splice site, joining the two exons and releasing the intron lariat. The spliceosome's snRNAs, especially U6, position the reactive groups and participate in catalysis.\n\n### How It Works\n\n1. U1 snRNP base-pairs with the 5′ splice site; U2 snRNP binds the branch point.\n2. The U4/U6•U5 tri-snRNP joins, forming the precatalytic spliceosome.\n3. Major rearrangements expel U1 and U4, and U6 pairs with the 5′ splice site and U2, creating the catalytic core.\n4. The branch-point adenine's 2′-OH attacks the 5′ splice site → cleavage and lariat formation (first transesterification).\n5. The 5′ exon's 3′-OH attacks the 3′ splice site → exon ligation and intron-lariat release (second transesterification).\n6. The excised lariat is debranched and degraded; the spliced mRNA (with cap and poly(A) tail) proceeds to export.\n\n### Energy and Directionality\n\nThe two transesterification reactions are isoenergetic — phosphodiester bonds are broken and re-formed, so no NTP hydrolysis is required for the chemistry itself. However, ATP-driven RNA helicases (e.g., Prp proteins) power the extensive spliceosome assembly and conformational rearrangements, and they also enforce fidelity by discarding incorrect intermediates. Directionality is guaranteed by the ordered recognition of the 5′ splice site, branch point, and 3′ splice site, ensuring introns are removed 5′→3′ and exons joined in the correct order.\n\n### Experimental Evidence\n\n- **R-loop electron microscopy** — hybridizing mature mRNA to genomic DNA showed loops of unpaired intron DNA, proving introns are removed.\n- **Lariat detection** — introns released as circular lariats were visualized biochemically, confirming the branch-point mechanism.\n- **snRNP depletion** — removing individual snRNPs (or base-pairing-disrupting mutations in their RNA) blocked splicing at defined steps.\n- **In vitro splicing** — nuclear extracts splice radiolabeled pre-mRNA in a test tube, enabling dissection of the two-step mechanism and spliceosome assembly.\n- **Intron self-splicing (group II introns)** — demonstrated that RNA can catalyze similar chemistry, supporting an RNA-based catalytic core.\n\n### Technique\n\nSplicing is studied by **in vitro splicing assays** (with mutant substrates), **RT-PCR across exon junctions** (detect spliced isoforms), **RNA-seq** (quantify isoforms and splice junctions), **psoralen cross-linking/spliceosome purification**, and **native gel analysis** of spliceosome assembly intermediates.",
+    "howItWorks": "1. U1 snRNP base-pairs with the 5′ splice site; U2 snRNP binds the branch point.\n2. The U4/U6•U5 tri-snRNP joins, forming the precatalytic spliceosome.\n3. Major rearrangements expel U1 and U4, and U6 pairs with the 5′ splice site and U2, creating the catalytic core.\n4. The branch-point adenine's 2′-OH attacks the 5′ splice site → cleavage and lariat formation (first transesterification).\n5. The 5′ exon's 3′-OH attacks the 3′ splice site → exon ligation and intron-lariat release (second transesterification).\n6. The excised lariat is debranched and degraded; the spliced mRNA (with cap and poly(A) tail) proceeds to export.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Introns removed, exons joined by the spliceosome (snRNPs U1, U2, U4, U5, U6).\n- Conserved signals: 5′ GU, 3′ AG, and branch-point adenine.\n- Two transesterification reactions; intron released as a lariat.\n- Chemistry is isoenergetic; ATP (helicases) drives assembly/rearrangement.\n- snRNAs (not proteins) form the catalytic core.\n- Splicing defects → thalassemia, SMA, cancer.",
+    "commonConfusions": "- **\"Introns are junk with no function\"** — many introns contain regulatory elements and enable alternative splicing; some are functional RNAs.\n- **\"Splicing uses ATP for the cutting reaction itself\"** — the transesterifications are energy-neutral; ATP is used for spliceosome assembly and rearrangement.\n- **\"Proteins catalyze splicing\"** — the spliceosome's RNA components (snRNAs) form the catalytic core.\n- **\"Exons = coding sequence\"** — exons include 5′ and 3′ untranslated regions as well as coding sequence.\n- **\"Splicing always joins exons in order\"** — alternative splicing can skip or rearrange exons, generating isoforms.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a gene as a movie script with extra scenes (introns) marked \"delete.\" Splicing is the editor who cuts out the delete-scenes and tapes the keep-scenes (exons) together into a clean final script. The editor has five helpers (the snRNPs) that read the \"cut here\" and \"tape here\" marks. (The analogy's limit: the real cut-and-tape is done by a giant machine whose *RNA* parts — not proteins — do the actual chemistry, and the deleted piece is released as a loop called a lariat.)",
+    "quickReview": "- Splicing removes introns and ligates exons.\n- Spliceosome: U1 (5′ site), U2 (branch point), U4/U6/U5 (catalytic core).\n- Two transesterifications → exon junction + intron lariat.\n- Conserved GU…A…AG signals.\n- ATP powers rearrangements; RNA catalysis at the core.\n- Mutations in splice sites cause thalassemia, SMA, cancer.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"15.4 RNA Processing in Eukaryotes.\" https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes",
+        "url": "https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes"
+      },
+      {
+        "text": "Nature Scitable, \"RNA Splicing.\" https://www.nature.com/scitable/topicpage/rna-splicing-introns-exons-and-spliceosome-12375/",
+        "url": "https://www.nature.com/scitable/topicpage/rna-splicing-introns-exons-and-spliceosome-12375/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"From DNA to RNA.\" https://www.ncbi.nlm.nih.gov/books/NBK26887/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+      },
+      {
+        "text": "Nature Scitable, \"Gene Expression.\" https://www.nature.com/scitable/topicpage/gene-expression-14121669/",
+        "url": "https://www.nature.com/scitable/topicpage/gene-expression-14121669/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/10-information-flow/12-splicing.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

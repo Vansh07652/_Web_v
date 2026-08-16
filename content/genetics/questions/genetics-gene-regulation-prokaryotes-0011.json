@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-regulation-prokaryotes-0011",
+  "subject": "genetics",
+  "lesson": "gene-regulation-prokaryotes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A strain carries the *lacI^s* super repressor mutation, and the rest of the lac operon is wild type. Lactose is added to the medium. What is the expected level of beta galactosidase?",
+  "options": [
+    {
+      "id": "a",
+      "text": "High, because lactose inactivates the super repressor like a normal repressor."
+    },
+    {
+      "id": "b",
+      "text": "High, because the super repressor cannot bind the operator."
+    },
+    {
+      "id": "c",
+      "text": "Low, because the super repressor binds the operator but cannot be inactivated by lactose."
+    },
+    {
+      "id": "d",
+      "text": "Low, because the super repressor is not produced at all."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "The super repressor encoded by *lacI^s* binds the *lacO* operator normally but cannot bind the inducer, so lactose fails to release it and transcription of *lacZ* stays off. That is why *lacI^s* is dominant over *lacI^+* in partial diploids. A and B both assume the inducer or the operator interaction is normal, which is exactly the defect.",
+  "difficulty": "unknown",
+  "tags": [
+    "laci",
+    "super",
+    "repressor"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-3367b1216fd616d4",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

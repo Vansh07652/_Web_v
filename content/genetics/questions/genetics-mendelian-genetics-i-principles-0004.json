@@ -1,0 +1,40 @@
+{
+  "id": "genetics-mendelian-genetics-i-principles-0004",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-i-principles",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation A monohybrid cross with complete dominance at one locus is expected to produce two phenotype classes in a 3:1 ratio (sums to 4). A student counts 160 F2 plants and calculates chi square to test goodness of fit. How many degrees of freedom does the test use?",
+  "options": [
+    {
+      "id": "a",
+      "text": "0"
+    },
+    {
+      "id": "b",
+      "text": "1"
+    },
+    {
+      "id": "c",
+      "text": "2"
+    },
+    {
+      "id": "d",
+      "text": "3"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Degrees of freedom equal the number of phenotype classes minus one, and the monohybrid cross has two phenotype classes, so the test uses 2 - 1 = 1 degree of freedom. C would apply if the test used three classes, as in a genotypic ratio 1:2:1 (sums to 4), and D would apply to a dihybrid phenotypic ratio 9:3:3:1 (sums to 16). A forgets that the total count is fixed, which removes one degree of freedom.",
+  "difficulty": "unknown",
+  "tags": [
+    "chi",
+    "square",
+    "degrees",
+    "freedom"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-a9c23a294d5c5fc1",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

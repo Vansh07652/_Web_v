@@ -1,0 +1,40 @@
+{
+  "id": "genetics-introduction-to-genetics-and-history-0008",
+  "subject": "genetics",
+  "lesson": "introduction-to-genetics-and-history",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation A pea plant is heterozygous at two unlinked loci with genotype *AaBb*. What proportion of the gametes produced by this plant is expected to carry both recessive alleles, a and b?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/2"
+    },
+    {
+      "id": "b",
+      "text": "1/3"
+    },
+    {
+      "id": "c",
+      "text": "1/4"
+    },
+    {
+      "id": "d",
+      "text": "1/16"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Each locus segregates independently, so the probability that a gamete carries a is 1/2 and the probability that it carries b is 1/2, and the product rule gives 1/2 x 1/2 = 1/4. A keeps only one of the two 1/2 events. B is not any gamete class and confuses gamete proportions with genotypic classes. D is the fraction of offspring homozygous recessive at both loci from an *AaBb* x *AaBb* cross, 1/4 x 1/4 = 1/16, not a gamete frequency.",
+  "difficulty": "unknown",
+  "tags": [
+    "gamete",
+    "probability",
+    "product",
+    "rule"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-8e27c6e4aabb150c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

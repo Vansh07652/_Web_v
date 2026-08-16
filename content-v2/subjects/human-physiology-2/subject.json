@@ -1,0 +1,613 @@
+{
+  "schemaVersion": "2.0.0",
+  "subject": {
+    "id": "subject:human-physiology-2",
+    "slug": "human-physiology-2",
+    "title": "Human Physiology II",
+    "aliases": [
+      {
+        "value": "human-physiology-2",
+        "kind": "canonical_slug"
+      },
+      {
+        "value": "human-physiology-ii-study-notes",
+        "kind": "source_directory",
+        "source_id": "need-review-human-physiology-ii"
+      }
+    ],
+    "status": "final",
+    "category": "pre-health-core"
+  },
+  "units": [
+    {
+      "id": "unit:human-physiology-2:systems-physiology",
+      "slug": "systems-physiology",
+      "title": "Systems Physiology",
+      "order": 1,
+      "aliases": [
+        {
+          "value": "systems-physiology",
+          "kind": "canonical_slug"
+        }
+      ],
+      "topics": [
+        {
+          "id": "topic:human-physiology-2:systems-physiology:cardiac-muscle-physiology-and-electrophysiology",
+          "slug": "cardiac-muscle-physiology-and-electrophysiology",
+          "title": "Cardiac Muscle Physiology and Electrophysiology",
+          "order": 1,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/cardiac-muscle-physiology-and-electrophysiology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:the-electrocardiogram-ecg-ekg",
+          "slug": "the-electrocardiogram-ecg-ekg",
+          "title": "The Electrocardiogram (ECG/EKG)",
+          "order": 2,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/the-electrocardiogram-ecg-ekg.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:the-cardiac-cycle",
+          "slug": "the-cardiac-cycle",
+          "title": "The Cardiac Cycle",
+          "order": 3,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/the-cardiac-cycle.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:cardiac-output-and-its-regulation",
+          "slug": "cardiac-output-and-its-regulation",
+          "title": "Cardiac Output and Its Regulation",
+          "order": 4,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/cardiac-output-and-its-regulation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:principles-of-hemodynamics",
+          "slug": "principles-of-hemodynamics",
+          "title": "Principles of Hemodynamics",
+          "order": 5,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/principles-of-hemodynamics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:arterial-and-venous-systems",
+          "slug": "arterial-and-venous-systems",
+          "title": "Arterial and Venous Systems",
+          "order": 6,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/arterial-and-venous-systems.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:microcirculation-and-lymphatics",
+          "slug": "microcirculation-and-lymphatics",
+          "title": "Microcirculation and Lymphatics",
+          "order": 7,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/microcirculation-and-lymphatics.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:regulation-of-blood-pressure-and-flow",
+          "slug": "regulation-of-blood-pressure-and-flow",
+          "title": "Regulation of Blood Pressure and Flow",
+          "order": 8,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/regulation-of-blood-pressure-and-flow.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:composition-and-functions-of-blood",
+          "slug": "composition-and-functions-of-blood",
+          "title": "Composition and Functions of Blood",
+          "order": 9,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/composition-and-functions-of-blood.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:hemostasis-prevention-of-blood-loss",
+          "slug": "hemostasis-prevention-of-blood-loss",
+          "title": "Hemostasis (Prevention of Blood Loss)",
+          "order": 10,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/hemostasis-prevention-of-blood-loss.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:mechanics-of-ventilation",
+          "slug": "mechanics-of-ventilation",
+          "title": "Mechanics of Ventilation",
+          "order": 11,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/mechanics-of-ventilation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:lung-volumes-and-capacities",
+          "slug": "lung-volumes-and-capacities",
+          "title": "Lung Volumes and Capacities",
+          "order": 12,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/lung-volumes-and-capacities.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:gas-exchange",
+          "slug": "gas-exchange",
+          "title": "Gas Exchange",
+          "order": 13,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/gas-exchange.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:gas-transport-in-blood",
+          "slug": "gas-transport-in-blood",
+          "title": "Gas Transport in Blood",
+          "order": 14,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/gas-transport-in-blood.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:control-of-respiration",
+          "slug": "control-of-respiration",
+          "title": "Control of Respiration",
+          "order": 15,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/control-of-respiration.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:functional-anatomy-of-the-kidney",
+          "slug": "functional-anatomy-of-the-kidney",
+          "title": "Functional Anatomy of the Kidney",
+          "order": 16,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/functional-anatomy-of-the-kidney.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:glomerular-filtration",
+          "slug": "glomerular-filtration",
+          "title": "Glomerular Filtration",
+          "order": 17,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/glomerular-filtration.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:tubular-reabsorption-and-secretion",
+          "slug": "tubular-reabsorption-and-secretion",
+          "title": "Tubular Reabsorption and Secretion",
+          "order": 18,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/tubular-reabsorption-and-secretion.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:urine-concentration-and-dilution",
+          "slug": "urine-concentration-and-dilution",
+          "title": "Urine Concentration and Dilution",
+          "order": 19,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/urine-concentration-and-dilution.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:renal-regulation-of-blood-volume-and-pressure",
+          "slug": "renal-regulation-of-blood-volume-and-pressure",
+          "title": "Renal Regulation of Blood Volume and Pressure",
+          "order": 20,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/renal-regulation-of-blood-volume-and-pressure.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:fluid-and-electrolyte-regulation",
+          "slug": "fluid-and-electrolyte-regulation",
+          "title": "Fluid and Electrolyte Regulation",
+          "order": 21,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/fluid-and-electrolyte-regulation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:acid-base-balance",
+          "slug": "acid-base-balance",
+          "title": "Acid-Base Balance",
+          "order": 22,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/acid-base-balance.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:general-principles-of-gi-function",
+          "slug": "general-principles-of-gi-function",
+          "title": "General Principles of GI Function",
+          "order": 23,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/general-principles-of-gi-function.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:gi-motility",
+          "slug": "gi-motility",
+          "title": "GI Motility",
+          "order": 24,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/gi-motility.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:gi-secretion-digestion-and-absorption",
+          "slug": "gi-secretion-digestion-and-absorption",
+          "title": "GI Secretion, Digestion, and Absorption",
+          "order": 25,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/gi-secretion-digestion-and-absorption.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:hypothalamic-pituitary-thyroid-axis",
+          "slug": "hypothalamic-pituitary-thyroid-axis",
+          "title": "Hypothalamic-Pituitary-Thyroid Axis",
+          "order": 26,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/hypothalamic-pituitary-thyroid-axis.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:the-adrenal-glands",
+          "slug": "the-adrenal-glands",
+          "title": "The Adrenal Glands",
+          "order": 27,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/the-adrenal-glands.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:endocrine-pancreas-and-energy-metabolism",
+          "slug": "endocrine-pancreas-and-energy-metabolism",
+          "title": "Endocrine Pancreas and Energy Metabolism",
+          "order": 28,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/endocrine-pancreas-and-energy-metabolism.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:male-reproductive-physiology",
+          "slug": "male-reproductive-physiology",
+          "title": "Male Reproductive Physiology",
+          "order": 29,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/male-reproductive-physiology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:female-reproductive-physiology",
+          "slug": "female-reproductive-physiology",
+          "title": "Female Reproductive Physiology",
+          "order": 30,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/female-reproductive-physiology.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        },
+        {
+          "id": "topic:human-physiology-2:systems-physiology:pregnancy-parturition-and-lactation",
+          "slug": "pregnancy-parturition-and-lactation",
+          "title": "Pregnancy, Parturition, and Lactation",
+          "order": 31,
+          "status": "final",
+          "bundlePath": "content-v2/subjects/human-physiology-2/topics/systems-physiology/pregnancy-parturition-and-lactation.json",
+          "mappedQuestionCount": 0,
+          "availability": {
+            "collegeNotes": true,
+            "eli10": true,
+            "highYield": true,
+            "quickReview": true,
+            "workedExamples": true,
+            "references": false,
+            "exactQuestions": 0
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "unitCount": 1,
+    "topicCount": 31,
+    "teachingTopicCount": 31,
+    "eli10TopicCount": 31,
+    "highYieldTopicCount": 31,
+    "referencedTopicCount": 0,
+    "exactOrMappedQuestionCount": 0,
+    "subjectWideQuestionCount": 0,
+    "uniqueQuestionCount": 0,
+    "citationReviewRequiredCount": 0
+  },
+  "provenance": {
+    "sourceCollection": "need-review-human-physiology-ii",
+    "sourceRoot": "human-physiology-ii-study-notes",
+    "importBatch": "2026-08-15-need-review-notes",
+    "importedWithoutRewriting": true
+  }
+}

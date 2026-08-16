@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-regulation-prokaryotes-0005",
+  "subject": "genetics",
+  "lesson": "gene-regulation-prokaryotes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application An *E. coli* culture is moved from a medium without tryptophan to a medium rich in tryptophan. What happens to transcription of the trp operon, and why?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Transcription is repressed, because tryptophan binds the Trp repressor and the complex binds the trp operator."
+    },
+    {
+      "id": "b",
+      "text": "Transcription is induced, because tryptophan inactivates the Trp repressor."
+    },
+    {
+      "id": "c",
+      "text": "Transcription is unchanged, because the trp operon is expressed constitutively."
+    },
+    {
+      "id": "d",
+      "text": "Transcription stops, because tryptophan binds the trp promoter directly and blocks RNA polymerase."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The trp operon is repressible, so it is transcribed by default and tryptophan acts as a corepressor that enables the Trp repressor to bind the operator and block transcription. B applies the inducible logic of the lac operon, and D invents a direct interaction between tryptophan and the promoter. The operon's enzymes synthesize tryptophan, so making them when tryptophan is already abundant would be wasteful.",
+  "difficulty": "unknown",
+  "tags": [
+    "trp",
+    "operon",
+    "repressible"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-3367b1216fd616d4",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chemistry-2-acids-bases-and-ph-q06",
+  "subject": "chemistry-2",
+  "lesson": "acids-bases-and-ph",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "What is the primary purpose of the bicarbonate buffer system in extracellular fluid?",
+  "options": [
+    {
+      "id": "a",
+      "text": "To increase the rate at which cells generate carbon dioxide"
+    },
+    {
+      "id": "b",
+      "text": "To excrete metabolic hydrogen ions from the body permanently"
+    },
+    {
+      "id": "c",
+      "text": "To hold extracellular fluid at pH 7, the value of pure water"
+    },
+    {
+      "id": "d",
+      "text": "To resist large shifts in pH when acid or base is added"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "A buffer is a weak acid paired with its conjugate base; added H+ is consumed by the base member and added OH- is consumed by the acid member, so the pH change is blunted rather than eliminated. In extracellular fluid, HCO3- neutralizes added acid while H2CO3 (from dissolved CO2) neutralizes added base. Permanent removal of acid is the job of the lungs and kidneys, not the buffer itself, and buffers hold pH near their working range, which for this system is about 7.4, not 7. Note that this system's apparent pKa is 6.1, which is outside the usual pKa ± 1 window for pH 7.4; it is nonetheless effective in the body because it is an open system, in which the lungs continuously adjust dissolved CO2 (and the kidneys adjust HCO3-) so the acid member is replenished or vented rather than exhausted.\n\nELI-10: A buffer behaves like a shock absorber for pH. When acid enters, bicarbonate captures the H+ and turns it into carbonic acid, a much weaker acid; when base enters, carbonic acid gives up an H+ to neutralize it. The added particles are not destroyed, only converted into a less disruptive form, so pH moves a little instead of a lot. In a sealed beaker this pair would be a mediocre buffer at 7.4, since its pKa of 6.1 is more than a unit away, but the body keeps it open to the air: breathing sets how much CO2 stays dissolved. Actually clearing that acid load requires exhaling CO2 and renal excretion.",
+  "difficulty": "medium",
+  "tags": [
+    "buffer systems",
+    "conjugate acid-base pair",
+    "bicarbonate buffer",
+    "open buffer system"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-279",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

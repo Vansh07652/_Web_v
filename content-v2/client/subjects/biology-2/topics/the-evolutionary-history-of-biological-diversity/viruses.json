@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-2:the-evolutionary-history-of-biological-diversity:viruses",
+  "slug": "viruses",
+  "title": "Viruses",
+  "subject": {
+    "id": "subject:biology-2",
+    "slug": "biology-2",
+    "title": "Biology II"
+  },
+  "unit": {
+    "id": "unit:biology-2:the-evolutionary-history-of-biological-diversity",
+    "slug": "the-evolutionary-history-of-biological-diversity",
+    "title": "The Evolutionary History of Biological Diversity",
+    "order": 2
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "A virus is a small infectious particle made of genetic material (DNA or RNA) wrapped in a protein coat called a capsid, sometimes inside a borrowed lipid envelope. Viruses are obligate intracellular parasites: they cannot metabolize, make proteins, or reproduce on their own, so they must enter a host cell and redirect its machinery to build new viruses. Their two main strategies are lytic (replicate and burst the cell) and lysogenic (integrate quietly and replicate with the host), and rapid evolution makes them ever-changing pathogens.",
+    "whyItMatters": "Understanding the viral life cycle is the basis of antiviral medicine: drugs block specific steps (reverse-transcriptase inhibitors and protease inhibitors for HIV; polymerase inhibitors for influenza and SARS-CoV-2), and vaccines target surface glycoproteins to elicit neutralizing antibodies. The lytic/lysogenic distinction also explains why some infections, such as herpes and HIV, become lifelong—the viral genome hides integrated in host DNA.",
+    "learningObjectives": "By the end of this topic, you should be able to:\n\n1. Explain why viruses are not classified as living cellular organisms.\n2. Describe viral structure: genome, capsid, and (when present) envelope.\n3. List the four viral genome configurations and explain positive-sense versus negative-sense RNA.\n4. Contrast the lytic and lysogenic cycles of bacteriophages.\n5. Outline the retroviral life cycle and the role of reverse transcriptase.\n6. Explain how viruses cause disease and why they evolve so quickly.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Capsid | Protein shell around the viral genome | Protects the genome and aids attachment |\n| Envelope | Host-derived lipid layer carrying viral glycoproteins | Needed for entry; target of many vaccines |\n| Obligate intracellular parasite | Reproduces only inside a host cell | Explains why viruses need a host |\n| Lytic cycle | Replicate, then burst the host cell | Productive, cell-killing replication |\n| Lysogenic cycle | Integrate as a prophage and copy with the host | Allows long-term, quiet persistence |\n| Prophage | Phage DNA integrated into a bacterial chromosome | Can later switch back to the lytic cycle |\n| Reverse transcriptase | Enzyme that copies RNA into DNA | Retroviruses depend on it; key drug target |\n| Provirus | Viral DNA integrated into a host chromosome | A permanent viral \"record\" in the cell |\n| Quasispecies | A cloud of closely related viral variants | The fuel for rapid viral evolution |",
+    "collegeNotes": "### 1. Viral Structure and Why Viruses Are Not \"Alive\"\n\nA complete virus particle (a virion) is a genome inside a capsid; some viruses also have an envelope, a host-derived membrane studded with viral glycoproteins. Viruses lack cells, cytoplasm, ribosomes, and metabolism. They cannot make ATP, cannot translate RNA into protein, and cannot reproduce independently. Because they reproduce only inside a host, they are obligate intracellular parasites—entities that replicate and evolve but sit outside the three domains of cellular life.\n\n### 2. Genomes and Replication Cycles\n\nUnlike cells (which always use double-stranded DNA), a virus may carry dsDNA, ssDNA, dsRNA, or ssRNA. Positive-sense (+ssRNA) genomes can be translated directly, like mRNA; negative-sense (−ssRNA) genomes must first be transcribed by a viral RNA polymerase that the virus carries with it. The general cycle is attachment → entry → uncoating → synthesis → assembly → release (by lysis or budding).\n\nBacteriophages illustrate two strategies. In the lytic cycle, the phage replicates and lyses the cell. In the lysogenic cycle, the phage DNA integrates into the bacterial chromosome as a prophage and is copied along with the host, until a stress signal such as DNA damage \"induces\" it back into the lytic cycle.\n\n### 3. Retroviruses and Viral Evolution\n\nRetroviruses such as HIV carry +ssRNA but replicate through a DNA intermediate, using reverse transcriptase to copy RNA into DNA, which then integrates into the host genome (a provirus). Because reverse transcriptase and RNA polymerases lack proofreading, RNA viruses mutate rapidly, generating a \"quasispecies\" of variants within a single host. Recombination and reassortment (in segmented genomes such as influenza) add further variation—the reason viruses so readily escape immunity, resist drugs, and jump to new hosts.",
+    "howItWorks": "How a retrovirus such as HIV establishes a lasting infection:\n\n1. Attach: the envelope glycoprotein binds a host receptor (for example, CD4 on a helper T cell).\n2. Enter: the envelope fuses with the host membrane, releasing the capsid.\n3. Reverse-transcribe: reverse transcriptase copies the +ssRNA into double-stranded DNA.\n4. Integrate: integrase inserts the viral DNA into the host chromosome as a provirus.\n5. Transcribe and translate: host machinery produces viral RNA and proteins.\n6. Assemble and bud: new virions form and leave, acquiring an envelope, to infect more cells.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Viruses are not cells and not \"alive\" by standard criteria—no metabolism, no ribosomes, no independent reproduction.\n- Viral genomes come in four types: dsDNA, ssDNA, dsRNA, and ssRNA (+ or − sense); only cells use dsDNA.\n- **High yield:** Lytic = replicate and lyse; lysogenic = integrate as a prophage and replicate with the host (and can be induced).\n- All viruses depend on host ribosomes; RNA viruses carry their own RNA-dependent RNA polymerase.\n- Retroviruses use reverse transcriptase to make DNA from RNA; this error-prone enzyme is a major drug target.\n- RNA viruses evolve quickly through mutation, recombination, and reassortment—hence new influenza and SARS-CoV-2 variants.\n- Enveloped viruses are more fragile outside the body; non-enveloped viruses survive better in the environment.\n- Some bacterial toxins (cholera, diphtheria) are actually encoded by prophage genes—lysogenic conversion.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Virus | Bacterium | Viruses are not cells and cannot reproduce alone; bacteria are living cells |\n| Lytic cycle | Lysogenic cycle | Lytic bursts the cell; lysogenic integrates quietly |\n| +ssRNA | −ssRNA | +ssRNA is directly translatable; −ssRNA must be transcribed first |\n| Envelope | Capsid | Capsid is protein; the envelope is a host-derived membrane |\n| Prophage | Provirus | Prophage = phage DNA in bacteria; provirus = viral DNA in a eukaryotic genome |\n| Retrovirus | \"Reverse\" being impossible | Cells also have reverse transcriptases (for example, telomerase) |",
+    "memoryAids": "\"Lytic = Lethal now; Lysogenic = Lurking.\" A lytic infection kills the host cell quickly to release new viruses, while a lysogenic infection hides quietly in the host genome, ready to act later.",
+    "eli10": "Think of a virus as a USB drive inside a protective case. On its own, the drive does nothing—no power, no screen, no programs to run. But plug it into a computer (a living cell), and the computer reads the instructions and starts making copies of the drive, sometimes until it crashes. The case (capsid) protects the instructions (the genome), and some viruses even steal a bit of bubble wrap (an envelope) from the last computer they infected.\n\nThe comparison stops being exact because a virus is not literally \"instructions run by a cell.\" It is a package of genes the cell's own machines are tricked into copying; the cell does all the work while the virus just supplies a blueprint—and unlike a USB drive, viruses evolve and change.\n\nThe real biological meaning is that viruses are not fully \"alive\" by the usual definition, yet they replicate, evolve, and shape every ecosystem on Earth—and cause many familiar diseases.\n\n### Simple Example\n\nA cold sore appears because a herpes virus entered a cell, which then made thousands of copies of the virus that spread to nearby cells—the cell did all the copying.",
+    "quickReview": "### Topic Recap\n\n- Viruses are a genome plus a capsid (and sometimes an envelope); they are obligate intracellular parasites.\n- Four genome types exist; +ssRNA is directly translatable, while −ssRNA needs a viral polymerase.\n- Lytic versus lysogenic cycles; retroviruses reverse-transcribe RNA into DNA.\n- Rapid evolution comes from error-prone replication, recombination, and reassortment.\n- The viral life cycle is the basis of antiviral drugs and vaccines.\n\n### Knowledge Check\n\n1. Why are viruses not considered living organisms?\n2. Purified viral RNA, introduced alone into cells, is immediately translated and produces infectious virus. Is it +ssRNA or −ssRNA?\n3. Why can RNA viruses evolve much faster than DNA viruses?\n4. What distinguishes the lysogenic from the lytic cycle, and what can trigger a switch from lysogenic to lytic?\n5. Why is reverse transcriptase a good antiviral drug target?\n\n### Answers and Rationales\n\n1. They lack cells, metabolism, ribosomes, and independent reproduction. The strongest single argument: they have no translation machinery.\n2. +ssRNA—positive-sense RNA is already in mRNA orientation, so it is translated directly with no viral proteins required.\n3. Their RNA polymerases (and reverse transcriptase) lack proofreading, so mutations accumulate far faster than in proofreading DNA polymerases.\n4. Lytic replication kills the host cell; lysogenic replication integrates as a prophage and copies with the host. DNA damage (the SOS response) can induce the prophage to excise and enter the lytic cycle.\n5. Host cells do not normally need an RNA-dependent DNA polymerase, so inhibiting reverse transcriptase blocks viral replication with limited host toxicity.",
+    "workedExamples": "",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "viruses",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "05-viruses",
+      "kind": "source_file_stem",
+      "source_id": "need-review-biology-2"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-biology-2",
+    "sourceFile": "biology-2-study-notes/docs/biology-2/05-viruses.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

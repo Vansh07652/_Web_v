@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-ions-and-electrolytes-q04",
+  "subject": "chemistry-1",
+  "lesson": "ions-and-electrolytes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A student finds that distilled water barely conducts current, while a 0.9% (w/v) NaCl solution - 0.9 g of NaCl per 100 mL - conducts strongly. What is the primary reason for the difference?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The roughly 9 g/L of NaCl dissociates into mobile hydrated Na+ and Cl- that serve as charge carriers"
+    },
+    {
+      "id": "b",
+      "text": "The roughly 9 g/L of NaCl stays as intact neutral units that drift toward the electrodes and carry charge"
+    },
+    {
+      "id": "c",
+      "text": "The dissolved NaCl depresses the freezing point, and solutions with lower freezing points conduct better"
+    },
+    {
+      "id": "d",
+      "text": "The dissolved NaCl raises the polarity of the water, letting the solvent itself transmit electrons"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Pure water self-ionizes only to about 1 x 10^-7 M, so it holds almost no charge carriers. A 0.9% (w/v) solution contains 0.9 g per 100 mL, and since 1 L is ten 100-mL portions, 0.9 x 10 = 9 g/L of NaCl, which dissolves and dissociates into hydrated Na+ and Cl- that migrate toward opposite electrodes and complete the circuit. Freezing-point depression is a consequence of dissolved particles rather than a mechanism of conduction, and adding salt does not make water conduct on its own.\n\nELI-10: Conduction in solution is migration of charged particles, not electron flow through the liquid. Distilled water has almost nothing charged in it, so there is nothing to migrate. Salt changes that in two steps: it dissolves, and then it dissociates into separate Na+ and Cl- that water molecules surround (hydrate) and keep apart. Note that dissolving alone is not enough - sugar dissolves just as well and still does not conduct, because its particles stay neutral. Percent w/v converts easily: 0.9 g per 100 mL is 9 g in the ten 100-mL portions that make a liter.",
+  "difficulty": "medium",
+  "tags": [
+    "ionic conduction",
+    "hydration of ions",
+    "percent w/v to g/L"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-273",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

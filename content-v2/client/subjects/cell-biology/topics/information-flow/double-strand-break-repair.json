@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:information-flow:double-strand-break-repair",
+  "slug": "double-strand-break-repair",
+  "title": "Double-Strand Break Repair",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:information-flow",
+    "slug": "information-flow",
+    "title": "Information Flow",
+    "order": 10
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "A DNA double-strand break severs both strands of the duplex — the most hazardous form of DNA damage, since there is no intact template strand at the break itself. Cells use two principal strategies. Homologous recombination (HR) repairs the break using an intact homologous sequence (the sister chromatid) as a template, making it high-fidelity and restricted to S/G2. Non-homologous end joining (NHEJ) directly re-ligates the two broken ends with little or no processing, making it fast, active throughout the cycle, but error-prone. The balance between these pathways determines genome stability and is exploited in cancer therapy.",
+    "whyItMatters": "Proper DSB repair prevents chromosome translocations, deletions, and cancer. Inherited defects in HR (BRCA1/BRCA2, Fanconi anemia) or NHEJ (severe combined immunodeficiency from Artemis/DNA-PKcs defects) cause cancer predisposition or immune deficiency. Therapies exploit this: PARP inhibitors kill HR-defective cancer cells via synthetic lethality, and radiation therapy depends on overwhelming DSB repair.",
+    "learningObjectives": "- Explain why double-strand breaks (DSBs) are especially dangerous.\n- Compare and contrast homologous recombination (HR) and non-homologous end joining (NHEJ).\n- Describe the key proteins of each pathway and when each is active in the cell cycle.\n- Relate DSB repair defects to cancer predisposition syndromes.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA DNA double-strand break severs both strands of the duplex — the most hazardous form of DNA damage, since there is no intact template strand at the break itself. Cells use two principal strategies. Homologous recombination (HR) repairs the break using an intact homologous sequence (the sister chromatid) as a template, making it high-fidelity and restricted to S/G2. Non-homologous end joining (NHEJ) directly re-ligates the two broken ends with little or no processing, making it fast, active throughout the cycle, but error-prone. The balance between these pathways determines genome stability and is exploited in cancer therapy.\n\n### Key Components\n\n- **MRN complex (MRE11–RAD50–NBS1)** — senses the break and initiates resection.\n- **ATM kinase** — master signaling kinase activated by DSBs; phosphorylates many repair factors.\n- **BRCA1, BRCA2, RAD51** — core HR proteins; RAD51 coats single-stranded DNA to catalyze strand invasion.\n- **Ku70/Ku80 heterodimer** — binds DNA ends and recruits the NHEJ machinery.\n- **DNA-PKcs, Artemis, XRCC4, and DNA ligase IV** — NHEJ processing and ligation complex.\n- **53BP1** — promotes NHEJ and inhibits resection, tilting the choice between pathways.\n\n### Mechanism\n\nHR begins with 5′→3′ resection to expose single-stranded 3′ tails. RAD51 (loaded with help from BRCA2) polymerizes on the ssDNA and searches for a homologous duplex, usually the sister chromatid; it invades, forms a D-loop, and DNA synthesis copies the missing information before the junction is resolved — restoring the original sequence faithfully. NHEJ instead has Ku70/Ku80 bind the two ends, recruit DNA-PKcs, and, after limited trimming or fill-in by Artemis/polymerases, ligate the ends directly via XRCC4–ligase IV. Because NHEJ tolerates small deletions/insertions, it is inherently error-prone.\n\n### How It Works\n\n1. A break occurs (ionizing radiation, replication collapse, or programmed events like V(D)J recombination).\n2. MRN binds the ends and activates ATM, which phosphorylates downstream effectors (including histone H2AX, marking chromatin around the break).\n3. **Pathway choice:** if 53BP1 dominates, ends are protected and NHEJ proceeds; if resection factors (CtIP, BRCA1) win, HR is favored.\n4. **NHEJ:** Ku binds ends → DNA-PKcs is recruited → Artemis trims overhangs → XRCC4–ligase IV seals the break (error-prone).\n5. **HR:** extensive resection → RPA then RAD51 coat the 3′ tail → strand invasion of the sister chromatid → templated synthesis → resolution/ligation (high fidelity).\n6. The repaired locus either exactly matches the original (HR) or carries a small mutation (NHEJ).\n\n### Energy and Directionality\n\nBoth pathways consume ATP at multiple steps: MRN resection and helicase/strand-exchange activities are ATP-dependent, and the ligases consume ATP (ligase IV in NHEJ, ligase I in HR) to form phosphodiester bonds. DNA synthesis during HR uses dNTPs. Directionality differs fundamentally: HR is *template-dependent* and directional (5′→3′ resection, templated 3′-end extension), yielding an accurate copy; NHEJ is template-independent and joins ends directly in either orientation, allowing sequence loss or gain.\n\n### Experimental Evidence\n\n- **Radiation-sensitive mutants** — ionizing-radiation-sensitive cell lines defined the NHEJ factors (Ku, DNA-PKcs, XRCC4) and HR factors (RAD51 paralogs).\n- **RAD51/BRCA2 genetics** — BRCA1/BRCA2 mutation carriers show defective HR and elevated breast/ovarian cancer risk.\n- **I-SceI reporter assays** — a single engineered DSB at a defined site measures repair by HR (GFP reconstitution) versus NHEJ (end-joining of a broken marker).\n- **γ-H2AX foci** — immunofluorescence of phosphorylated H2AX marks DSB sites and tracks repair kinetics.\n\n### Technique\n\nDSB repair is studied with **γ-H2AX/53BP1/Rad51 immunofluorescence foci**, **pulsed-field gel electrophoresis** (detect chromosome fragmentation), **I-SceI/CRISPR-based reporter assays** that quantify HR vs NHEJ outcomes, and **sister-chromatid exchange** analysis. **PARP-inhibitor sensitivity** is used clinically to identify HR-defective (BRCA-mutant) tumors.",
+    "howItWorks": "1. A break occurs (ionizing radiation, replication collapse, or programmed events like V(D)J recombination).\n2. MRN binds the ends and activates ATM, which phosphorylates downstream effectors (including histone H2AX, marking chromatin around the break).\n3. **Pathway choice:** if 53BP1 dominates, ends are protected and NHEJ proceeds; if resection factors (CtIP, BRCA1) win, HR is favored.\n4. **NHEJ:** Ku binds ends → DNA-PKcs is recruited → Artemis trims overhangs → XRCC4–ligase IV seals the break (error-prone).\n5. **HR:** extensive resection → RPA then RAD51 coat the 3′ tail → strand invasion of the sister chromatid → templated synthesis → resolution/ligation (high fidelity).\n6. The repaired locus either exactly matches the original (HR) or carries a small mutation (NHEJ).",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- DSBs have no intact template at the break — most dangerous lesion.\n- HR: template-dependent (sister chromatid), high-fidelity, S/G2 only; uses MRN, BRCA1/2, RAD51.\n- NHEJ: direct end joining, template-independent, error-prone, active all cycle; uses Ku70/80, DNA-PKcs, XRCC4–ligase IV.\n- Resection commits the break to HR; 53BP1 opposes resection and favors NHEJ.\n- ATM is the master DSB signaling kinase; γ-H2AX marks break chromatin.\n- BRCA1/2 defects → HR deficiency → cancer; NHEJ defects → SCID.\n- PARP inhibitors are synthetic-lethal with HR deficiency.",
+    "commonConfusions": "- **\"NHEJ is always sloppy and HR always perfect\"** — NHEJ can be precise when ends are clean; HR can occasionally misalign repeats and cause rearrangements.\n- **\"HR and NHEJ are equally available at all times\"** — HR needs a homologous template and is largely restricted to S/G2; NHEJ operates throughout the cycle.\n- **\"The two pathways are completely separate\"** — they compete at the same break; factors like 53BP1 and resection tip the balance.\n- **\"Only ionizing radiation causes DSBs\"** — replication-fork collapse and programmed events (meiosis, V(D)J recombination) also create them.\n- **\"BRCA mutations affect only breast cancer\"** — they also predispose to ovarian, prostate, and pancreatic cancers.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nIf DNA is a long sentence, a double-strand break is tearing the page in two. There are two ways to fix it. The careful way (HR) finds an identical backup copy of the page and rebuilds the torn part word-for-word — accurate but slow, and only possible when a copy is nearby. The quick way (NHEJ) just tapes the two torn edges back together, which is fast but may leave a word slightly mangled. Cells use the careful way when they can and the quick way when they must. (The analogy's limit: the \"backup copy\" is the sister chromatid, and the \"tape\" is a dedicated protein machine, not literal glue.)",
+    "quickReview": "- Two DSB repair routes: HR (template, high-fidelity) vs NHEJ (direct join, error-prone).\n- HR: MRN → resection → RAD51 (via BRCA2) → strand invasion → templated synthesis.\n- NHEJ: Ku70/80 → DNA-PKcs → Artemis processing → XRCC4–ligase IV.\n- ATM signals; γ-H2AX marks breaks; 53BP1 vs resection decides the pathway.\n- Defects → cancer (BRCA) or SCID (NHEJ); PARP inhibitors exploit HR deficiency.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Brown, T.A., *Genomes*, 2nd ed., \"Mutation, Repair and Recombination.\" https://www.ncbi.nlm.nih.gov/books/NBK21114/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"14.6 DNA Repair.\" https://openstax.org/books/biology-2e/pages/14-6-dna-repair",
+        "url": "https://openstax.org/books/biology-2e/pages/14-6-dna-repair"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"DNA Replication Mechanisms.\" https://www.ncbi.nlm.nih.gov/books/NBK26850/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+      },
+      {
+        "text": "Nature Scitable, \"Mutation, DNA Repair, and DNA Integrity.\" https://www.nature.com/scitable/topicpage/dna-damage-repair-mechanisms-for-maintaining-dna-344/",
+        "url": "https://www.nature.com/scitable/topicpage/dna-damage-repair-mechanisms-for-maintaining-dna-344/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/10-information-flow/07-double-strand-break-repair.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

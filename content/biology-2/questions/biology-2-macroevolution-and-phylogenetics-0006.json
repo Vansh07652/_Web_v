@@ -1,0 +1,39 @@
+{
+  "id": "biology-2-macroevolution-and-phylogenetics-0006",
+  "subject": "biology-2",
+  "lesson": "macroevolution-and-phylogenetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A **molecular clock** estimates when two lineages diverged by comparing differences in their DNA sequences. Which assumption is most important for the molecular clock to give a reliable estimate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The two lineages have identical DNA sequences today."
+    },
+    {
+      "id": "b",
+      "text": "The sequences being compared change at a roughly constant rate over time."
+    },
+    {
+      "id": "c",
+      "text": "The lineages changed rapidly early on and then stopped changing."
+    },
+    {
+      "id": "d",
+      "text": "Every mutation is preserved, and none is ever lost."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "A molecular clock converts the number of sequence differences into elapsed time by assuming a fairly steady, clock-like mutation rate, calibrated against events of known age such as the fossil record. A is wrong because identical sequences would leave no differences to count. C is wrong because a rate that stops would break the clock's assumption. D overstates the requirement, since clocks are calibrated to average rates and tolerate some back mutations and losses.",
+  "difficulty": "unknown",
+  "tags": [
+    "assumptions",
+    "molecular",
+    "clocks"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-aa66932e168d3f3b",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-equilibrium:equilibrium-constants",
+  "slug": "equilibrium-constants",
+  "title": "Equilibrium Constants",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-equilibrium",
+    "slug": "chemical-equilibrium",
+    "title": "Chemical Equilibrium",
+    "order": 4
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "The **equilibrium constant** K is a number that quantifies the position of equilibrium. For the general reaction aA + bB ⇌ cC + dD, the law of mass action states that, at equilibrium, the ratio of product concentrations to reactant concentrations (each raised to its stoichiometric coefficient) is a constant at a given temperature:\n\n$$K_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}$$\n\nK is a measure of how far a reaction proceeds — its value fixes the balance between products and reactants.",
+    "whyItMatters": "The equilibrium constant is the quantitative language of equilibrium. Every subsequent topic — reaction quotient Q, K magnitude, Kp/Kc relationships, ICE tables, and Le Chatelier's principle — is built on correctly writing and interpreting K. It lets chemists predict yields, design conditions to favor products, and understand acid strength, solubility, and complex formation.",
+    "learningObjectives": "- Write the equilibrium constant expression (Kc and Kp) from a balanced equation.\n- Apply the law of mass action correctly, omitting pure solids and liquids.\n- Explain why K has no units and depends only on temperature.\n- Distinguish homogeneous from heterogeneous equilibria.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe **equilibrium constant** K is a number that quantifies the position of equilibrium. For the general reaction aA + bB ⇌ cC + dD, the law of mass action states that, at equilibrium, the ratio of product concentrations to reactant concentrations (each raised to its stoichiometric coefficient) is a constant at a given temperature:\n\n$$K_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}$$\n\nK is a measure of how far a reaction proceeds — its value fixes the balance between products and reactants.\n\n### Key Ideas\n\n- K is written with **products in the numerator, reactants in the denominator**.\n- Each concentration is raised to its stoichiometric coefficient.\n- **Pure solids and pure liquids are omitted** (their \"concentration\" is constant and folded into K).\n- K depends only on temperature; it is independent of starting amounts and of any catalyst.\n- K is dimensionless (concentrations are understood as ratios to a standard state).\n\n### Equations and Variables\n\nConcentration form (for reactions in solution or involving gases):\n\n$$K_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}$$\n\nPressure form (for gas-phase reactions):\n\n$$K_p = \\frac{(P_C)^c(P_D)^d}{(P_A)^a(P_B)^b}$$\n\n- [X] = equilibrium molar concentration (M)\n- P_X = equilibrium partial pressure (atm)\n- a, b, c, d = stoichiometric coefficients\n\n**Omission rule:** species written as (s) or pure (l) are left out of the expression entirely.\n\n### How It Works\n\nThe law of mass action follows from the equality of forward and reverse rates at equilibrium (see the Dynamic Equilibrium note). The exponents in K are the stoichiometric coefficients — unlike in rate laws, where exponents are experimental. Here the balanced equation *does* dictate the form of the expression.\n\nFor a **homogeneous equilibrium**, all species share one phase (all gas or all solution), and every species appears. For a **heterogeneous equilibrium**, multiple phases are present, and the pure solids and liquids are dropped. Example: CaCO₃(s) ⇌ CaO(s) + CO₂(g) gives simply K_c = [CO₂] (or K_p = P_CO₂). The solids' concentrations are constant, so they are absorbed into K.\n\n### Worked Example\n\n**(a) Homogeneous gas equilibrium.** For 2 SO₂(g) + O₂(g) ⇌ 2 SO₃(g):\n\n$$K_c = \\frac{[\\text{SO}_3]^2}{[\\text{SO}_2]^2[\\text{O}_2]} \\qquad K_p = \\frac{(P_{\\text{SO}_3})^2}{(P_{\\text{SO}_2})^2(P_{\\text{O}_2})}$$\n\n**(b) Heterogeneous equilibrium.** For Fe₃O₄(s) + 4 H₂(g) ⇌ 3 Fe(s) + 4 H₂O(g), the solids Fe₃O₄ and Fe are omitted:\n\n$$K_c = \\frac{[\\text{H}_2\\text{O}]^4}{[\\text{H}_2]^4} \\qquad K_p = \\frac{(P_{\\text{H}_2\\text{O}})^4}{(P_{\\text{H}_2})^4}$$\n\n**(c) Calculation.** At 1000 K, K_c for COCl₂(g) ⇌ CO(g) + Cl₂(g) is 4.63 × 10⁻³. If at equilibrium [CO] = [Cl₂] = 0.0215 M, find [COCl₂].\n\n$$K_c = \\frac{[\\text{CO}][\\text{Cl}_2]}{[\\text{COCl}_2]} \\quad\\Rightarrow\\quad [\\text{COCl}_2] = \\frac{(0.0215)(0.0215)}{4.63\\times10^{-3}} = \\frac{4.62\\times10^{-4}}{4.63\\times10^{-3}} = 0.0998\\ \\text{M}$$",
+    "howItWorks": "The law of mass action follows from the equality of forward and reverse rates at equilibrium (see the Dynamic Equilibrium note). The exponents in K are the stoichiometric coefficients — unlike in rate laws, where exponents are experimental. Here the balanced equation *does* dictate the form of the expression.\n\nFor a **homogeneous equilibrium**, all species share one phase (all gas or all solution), and every species appears. For a **heterogeneous equilibrium**, multiple phases are present, and the pure solids and liquids are dropped. Example: CaCO₃(s) ⇌ CaO(s) + CO₂(g) gives simply K_c = [CO₂] (or K_p = P_CO₂). The solids' concentrations are constant, so they are absorbed into K.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Products over reactants, each raised to its coefficient.\n- Omit pure solids and pure liquids; include aqueous and gaseous species.\n- K is temperature-dependent only — not affected by concentration, pressure, or catalyst.\n- K is dimensionless and unitless.\n- Exponents in K come from the balanced equation (unlike rate-law exponents).",
+    "commonConfusions": "- **Including solids or liquids in K.** Only aqueous and gaseous species belong.\n- **Putting reactants on top.** Products always go in the numerator.\n- **Thinking K depends on starting amounts.** It does not; only temperature changes K.\n- **Copying rate-law exponents into K.** K's exponents are the stoichiometric coefficients.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nK is the scoreboard of a reversible reaction. It's a ratio that stays the same no matter how much of each team you start with — at a given temperature, the reaction always \"settles\" so that products-over-reactants equals K. The rules are simple: products on top, reactants on bottom, and raise each to its coefficient like an exponent. Pure solids and liquids get benched entirely — they don't change during the reaction in a way that matters, so we leave them off the scoreboard. Change the temperature and the scoreboard (K) itself changes; change the starting amounts and it doesn't.",
+    "quickReview": "1. Write Kc for aA + bB ⇌ cC + dD.\n2. Why are pure solids and liquids omitted from K?\n3. What two variables, besides the balanced equation, does K depend on (and not depend on)?\n4. Write Kp for 2 NO₂(g) ⇌ N₂O₄(g).\n5. Why is K unitless?",
+    "workedExamples": "### Worked Example\n\n**(a) Homogeneous gas equilibrium.** For 2 SO₂(g) + O₂(g) ⇌ 2 SO₃(g):\n\n$$K_c = \\frac{[\\text{SO}_3]^2}{[\\text{SO}_2]^2[\\text{O}_2]} \\qquad K_p = \\frac{(P_{\\text{SO}_3})^2}{(P_{\\text{SO}_2})^2(P_{\\text{O}_2})}$$\n\n**(b) Heterogeneous equilibrium.** For Fe₃O₄(s) + 4 H₂(g) ⇌ 3 Fe(s) + 4 H₂O(g), the solids Fe₃O₄ and Fe are omitted:\n\n$$K_c = \\frac{[\\text{H}_2\\text{O}]^4}{[\\text{H}_2]^4} \\qquad K_p = \\frac{(P_{\\text{H}_2\\text{O}})^4}{(P_{\\text{H}_2})^4}$$\n\n**(c) Calculation.** At 1000 K, K_c for COCl₂(g) ⇌ CO(g) + Cl₂(g) is 4.63 × 10⁻³. If at equilibrium [CO] = [Cl₂] = 0.0215 M, find [COCl₂].\n\n$$K_c = \\frac{[\\text{CO}][\\text{Cl}_2]}{[\\text{COCl}_2]} \\quad\\Rightarrow\\quad [\\text{COCl}_2] = \\frac{(0.0215)(0.0215)}{4.63\\times10^{-3}} = \\frac{4.62\\times10^{-4}}{4.63\\times10^{-3}} = 0.0998\\ \\text{M}$$",
+    "references": [
+      {
+        "text": "OpenStax. *Chemistry 2e*. Ch. 13, \"Equilibrium Constants.\" https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants"
+      },
+      {
+        "text": "IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"equilibrium constant,\" \"law of mass action.\" https://goldbook.iupac.org/",
+        "url": "https://goldbook.iupac.org/"
+      },
+      {
+        "text": "Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman."
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "equilibrium-constants",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "02-equilibrium-constants",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:d34552e086f47900"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:d34552e086f47900"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:d34552e086f47900"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:d34552e086f47900"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/13-chemical-equilibrium/02-equilibrium-constants.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Equilibrium Constants\n\n## Learning Goals\n\n- Write the equilibrium constant expression (Kc and Kp) from a balanced equation.\n- Apply the law of mass action correctly, omitting pure solids and liquids.\n- Explain why K has no units and depends only on temperature.\n- Distinguish homogeneous from heterogeneous equilibria.\n\n## Core Concept\n\nThe **equilibrium constant** K is a number that quantifies the position of equilibrium. For the general reaction aA + bB ⇌ cC + dD, the law of mass action states that, at equilibrium, the ratio of product concentrations to reactant concentrations (each raised to its stoichiometric coefficient) is a constant at a given temperature:\n\n$$K_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}$$\n\nK is a measure of how far a reaction proceeds — its value fixes the balance between products and reactants.\n\n## Key Ideas\n\n- K is written with **products in the numerator, reactants in the denominator**.\n- Each concentration is raised to its stoichiometric coefficient.\n- **Pure solids and pure liquids are omitted** (their \"concentration\" is constant and folded into K).\n- K depends only on temperature; it is independent of starting amounts and of any catalyst.\n- K is dimensionless (concentrations are understood as ratios to a standard state).\n\n## Equations and Variables\n\nConcentration form (for reactions in solution or involving gases):\n\n$$K_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}$$\n\nPressure form (for gas-phase reactions):\n\n$$K_p = \\frac{(P_C)^c(P_D)^d}{(P_A)^a(P_B)^b}$$\n\n- [X] = equilibrium molar concentration (M)\n- P_X = equilibrium partial pressure (atm)\n- a, b, c, d = stoichiometric coefficients\n\n**Omission rule:** species written as (s) or pure (l) are left out of the expression entirely.\n\n## How It Works\n\nThe law of mass action follows from the equality of forward and reverse rates at equilibrium (see the Dynamic Equilibrium note). The exponents in K are the stoichiometric coefficients — unlike in rate laws, where exponents are experimental. Here the balanced equation *does* dictate the form of the expression.\n\nFor a **homogeneous equilibrium**, all species share one phase (all gas or all solution), and every species appears. For a **heterogeneous equilibrium**, multiple phases are present, and the pure solids and liquids are dropped. Example: CaCO₃(s) ⇌ CaO(s) + CO₂(g) gives simply K_c = [CO₂] (or K_p = P_CO₂). The solids' concentrations are constant, so they are absorbed into K.\n\n## Worked Example\n\n**(a) Homogeneous gas equilibrium.** For 2 SO₂(g) + O₂(g) ⇌ 2 SO₃(g):\n\n$$K_c = \\frac{[\\text{SO}_3]^2}{[\\text{SO}_2]^2[\\text{O}_2]} \\qquad K_p = \\frac{(P_{\\text{SO}_3})^2}{(P_{\\text{SO}_2})^2(P_{\\text{O}_2})}$$\n\n**(b) Heterogeneous equilibrium.** For Fe₃O₄(s) + 4 H₂(g) ⇌ 3 Fe(s) + 4 H₂O(g), the solids Fe₃O₄ and Fe are omitted:\n\n$$K_c = \\frac{[\\text{H}_2\\text{O}]^4}{[\\text{H}_2]^4} \\qquad K_p = \\frac{(P_{\\text{H}_2\\text{O}})^4}{(P_{\\text{H}_2})^4}$$\n\n**(c) Calculation.** At 1000 K, K_c for COCl₂(g) ⇌ CO(g) + Cl₂(g) is 4.63 × 10⁻³. If at equilibrium [CO] = [Cl₂] = 0.0215 M, find [COCl₂].\n\n$$K_c = \\frac{[\\text{CO}][\\text{Cl}_2]}{[\\text{COCl}_2]} \\quad\\Rightarrow\\quad [\\text{COCl}_2] = \\frac{(0.0215)(0.0215)}{4.63\\times10^{-3}} = \\frac{4.62\\times10^{-4}}{4.63\\times10^{-3}} = 0.0998\\ \\text{M}$$\n\n## Why It Matters\n\nThe equilibrium constant is the quantitative language of equilibrium. Every subsequent topic — reaction quotient Q, K magnitude, Kp/Kc relationships, ICE tables, and Le Chatelier's principle — is built on correctly writing and interpreting K. It lets chemists predict yields, design conditions to favor products, and understand acid strength, solubility, and complex formation.\n\n## High-Yield Facts\n\n- Products over reactants, each raised to its coefficient.\n- Omit pure solids and pure liquids; include aqueous and gaseous species.\n- K is temperature-dependent only — not affected by concentration, pressure, or catalyst.\n- K is dimensionless and unitless.\n- Exponents in K come from the balanced equation (unlike rate-law exponents).\n\n## Eli Explains\n\nK is the scoreboard of a reversible reaction. It's a ratio that stays the same no matter how much of each team you start with — at a given temperature, the reaction always \"settles\" so that products-over-reactants equals K. The rules are simple: products on top, reactants on bottom, and raise each to its coefficient like an exponent. Pure solids and liquids get benched entirely — they don't change during the reaction in a way that matters, so we leave them off the scoreboard. Change the temperature and the scoreboard (K) itself changes; change the starting amounts and it doesn't.\n\n## Common Confusions\n\n- **Including solids or liquids in K.** Only aqueous and gaseous species belong.\n- **Putting reactants on top.** Products always go in the numerator.\n- **Thinking K depends on starting amounts.** It does not; only temperature changes K.\n- **Copying rate-law exponents into K.** K's exponents are the stoichiometric coefficients.\n\n## Quick Review\n\n1. Write Kc for aA + bB ⇌ cC + dD.\n2. Why are pure solids and liquids omitted from K?\n3. What two variables, besides the balanced equation, does K depend on (and not depend on)?\n4. Write Kp for 2 NO₂(g) ⇌ N₂O₄(g).\n5. Why is K unitless?\n\n## Sources\n\n- OpenStax. *Chemistry 2e*. Ch. 13, \"Equilibrium Constants.\" https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants\n- IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"equilibrium constant,\" \"law of mass action.\" https://goldbook.iupac.org/\n- Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman.\n"
+}

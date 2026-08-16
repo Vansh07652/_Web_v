@@ -1,0 +1,140 @@
+---
+title: "Health Informatics"
+subject: "Nursing"
+book: "Medical-Surgical Nursing"
+chapter: "37: Trends in Health-Care Technology"
+topic_number: "2"
+source: "medical-surgical-nursing.md"
+tags:
+  - "health-informatics"
+  - "nursing"
+status: "complete"
+---
+
+# Health Informatics
+
+> **Book:** [Medical-Surgical Nursing](../../README.md)  
+> **Chapter:** [Chapter 37: Trends in Health-Care Technology](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Health informatics** is the science of using data, information, and knowledge to improve health care. It is not simply "computers in hospitals": informatics is the intersection of people, processes, and technology — how health data is captured, stored, shared, protected, and turned into bedside decisions. **Nursing informatics** is the specialty that applies this science to nursing practice.
+
+Every nurse is already an informatics practitioner: charting in the electronic health record (EHR), scanning a medication barcode, reading a clinical alert, and reviewing a transmitted blood pressure reading are all informatics in action. This topic explains the systems behind those acts — and why the nurse's own documentation is the foundation everything else is built on.
+
+## Why This Matters
+
+- **Documentation is communication and law.** The EHR is the permanent record of what the nurse observed and did; poor documentation is a safety and legal problem.
+- **Data quality drives care.** Every alert, dashboard, and predictive model runs on data nurses enter — inaccurate charting misleads the team.
+- **Interoperability saves lives.** When systems cannot share information, patients are harmed: duplicate tests, missed allergies, lost medication lists during transitions.
+- **Safety technologies prevent errors.** Barcode medication administration and clinical decision support catch human error — but only when used correctly, not bypassed.
+- **Privacy and security are nursing duties.** Protecting patient information is both a legal obligation (under laws such as HIPAA in the United States) and an ethical one.
+
+## Core Concepts
+
+### What health informatics is: people, process, technology
+
+Informatics is often described with the **DIKW framework**: **Data** (raw facts, e.g., "heart rate 112"), **Information** (data with meaning, e.g., "heart rate elevated after the patient stood up"), **Knowledge** (information interpreted with context, e.g., "postural tachycardia may indicate volume depletion"), and **Wisdom** (knowledge applied to a decision, e.g., "recheck standing blood pressure and notify the provider per policy"). Nurses move through DIKW constantly; the systems support that movement, not replace it.
+
+### The electronic health record (EHR)
+
+The EHR is the digital collection of a patient's health information: history, medications, allergies, lab results, vital signs, notes, and orders. A related term, **EMR** (electronic medical record), usually refers to the record within a single practice or facility, while EHR describes records designed to be shared across settings. Key nursing realities:
+
+- **The record is a team tool.** What the nurse charts is read by providers, pharmacists, therapists, and the next shift.
+- **The patient portal** gives patients access to their own results and messages, changing how nurses communicate.
+
+### Interoperability and standards
+
+**Interoperability** is the ability of different systems and organizations to exchange and use health information — hard, because every vendor built their system differently. The solution is **standards**: shared formats and vocabularies so data means the same thing everywhere, including standardized code systems for clinical terms and lab results, and messaging standards (such as the HL7 family). When interoperability works, a medication list from one hospital appears correctly at the next; when it fails, the nurse re-asks "What medications do you take?" for the third time.
+
+### Clinical decision support (CDS)
+
+CDS is any system that gives clinicians knowledge at the point of care: drug–drug interaction alerts, allergy warnings, abnormal-lab flags, preventive-care reminders, and order sets. Done well, it prevents errors and standardizes care; done poorly, it feeds alert fatigue. The nurse's stance: **use CDS as a checkpoint, not a substitute for judgment.** An alert should trigger verification, not blind acceptance — a valid override is fine when the clinical picture supports it and policy allows it.
+
+### Safety technologies: barcode medication administration and beyond
+
+**Barcode medication administration (BCMA)** requires scanning the patient's identification band and the medication label before giving a dose; the system verifies the "five rights" (right patient, medication, dose, route, time) and warns on mismatches. Smart infusion pumps carry dose-limit libraries, and e-prescribing reduces illegible-handwriting errors. These technologies work when used as designed; the dangerous failure mode is the **workaround** — pre-scanning doses, scanning a band while the patient is elsewhere, or overriding alerts to "save time." Workarounds turn a safety system into false security.
+
+### Privacy, security, and ethics
+
+Health data is sensitive, and its protection is regulated (in the United States, primarily by HIPAA, which governs privacy and security of health information). Core nursing behaviors: log in and log out properly, never share passwords, access only records needed for care, and follow policy for reporting suspected breaches. Data accuracy is ethics too — entering information correctly is the first line of protection.
+
+## ELI-10: Explain Like I'm 10
+
+Think of health informatics as the notebook for your body's story. Every nurse, doctor, and pharmacist writes in the same notebook, so everyone knows what happened and what comes next. Informatics is the science of making that notebook easy to write in, hard to lose, impossible for strangers to read — and smart enough to whisper "wait, check this" when something looks wrong.
+
+## High-Yield Points
+
+- **Informatics = people + process + technology** for turning data into better care.
+- **DIKW:** data → information → knowledge → wisdom; the nurse's judgment sits at the wisdom level.
+- **EHR vs. EMR:** EMR is the record within one organization; EHR is built for sharing across settings.
+- **The record is written for the team:** accurate documentation is a safety and legal duty — and the fuel for every alert.
+- **CDS alerts are checkpoints, not verdicts:** verify, use judgment, document valid overrides; alert fatigue is real.
+- **BCMA and smart pumps prevent errors only when used as designed** — workarounds are the classic failure.
+- **Privacy is a nursing duty:** access only what you need, protect passwords and screens, report breaches per policy.
+- Data quality is a chain: **what the nurse charts is what the whole system knows.**
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Health informatics | The science of using data, information, and knowledge to improve health care | The framework for all the systems in this topic |
+| Electronic health record (EHR) | The digital record of a patient's health information, designed for sharing | The central tool of modern documentation |
+| Electronic medical record (EMR) | The digital record within a single practice or organization | The exam distinction: one organization vs. sharing across settings |
+| Interoperability | The ability of different systems to exchange and use health information | Without it, information is lost at every transition |
+| Barcode medication administration (BCMA) | Scanning patient and medication barcodes to verify the five rights before giving a dose | A high-value safety technology that fails when bypassed |
+
+
+## Example: The scanner says "do not give"
+
+Nurse Ramos is about to give Mr. Ito his medication. She scans his wristband and the medication label; the system warns the medication does not match his current order. The "fast" move would be to override the alert — a workaround that defeats the safety system.
+
+Instead, she stops and investigates. The provider discontinued this medication this morning and ordered a different one; the label in her hand is from yesterday. The five rights would have been violated — right medication, but not the right *current* order. She confirms the change with the provider, obtains the correct medication, administers it, and documents the discrepancy.
+
+The scanner did not decide — it raised a flag. The nurse's judgment, verification, and documentation completed the safe act. Machine flags, human decides: that is informatics in practice.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Health informatics | Information technology (IT) | IT builds and runs the systems; informatics is how people and processes use data — the nurse's domain |
+| EMR | EHR | EMR is the record within one organization; EHR is built for sharing across settings (the exam loves this distinction) |
+| Data | Information | Data is raw facts ("heart rate 112"); information is data with meaning ("heart rate rose when the patient stood up") |
+| An alert from the system | A verified clinical fact | Alerts are generated from data and rules; they can be wrong or stale — verify before acting |
+
+## Quick Review
+
+1. Define health informatics and explain how it differs from information technology.
+2. Walk through the DIKW framework using a vital sign as your example.
+3. What is the difference between an EMR and an EHR, and why does interoperability depend on standards?
+4. Describe two safety technologies and the classic workaround that defeats each.
+5. A nurse sees an alert that a prescribed medication is on the patient's allergy list. What should the nurse do — and why is "override and give it anyway" the wrong automatic response?
+6. Give three examples of privacy behaviors that are nursing duties under HIPAA.
+
+<details>
+<summary>Show answers</summary>
+
+1. Health informatics is the science of using data, information, and knowledge to improve health care — people, processes, and technology working together. IT builds the systems; informatics is how data is captured, shared, and turned into decisions — a domain nurses practice daily.
+2. Example: Data — "temperature 38.9°C." Information — "above the expected range for this post-operative patient." Knowledge — "post-operative fever can signal infection." Wisdom — "assess the incision and lungs, ask about pain, document, and notify the provider per policy."
+3. EMR is the electronic record within a single organization; EHR is designed to be shared across organizations and settings. Interoperability requires standards — shared vocabularies and messaging formats — so information means the same thing in every system.
+4. Barcode medication administration (workaround: pre-scanning doses or scanning the band while the patient is elsewhere) and smart infusion pumps with dose limits (workaround: overriding the library to "save time"). Clinical decision support (workaround: reflexive overrides without verification). Any bypass converts a safety system into false security.
+5. Stop and verify: check the order and the allergy history, question the alert rather than assuming it is wrong, and involve the pharmacist or provider if unclear. "Override and give it anyway" is wrong as an automatic response — acting reflexively in either direction skips the judgment step.
+6. Examples: access only records needed for care; never share passwords and log out of shared workstations; keep screens and conversations private; report suspected breaches per policy; verify identity before disclosing information.
+
+</details>
+
+## Related Topics
+
+- Previous: [Telemedicine and Artificial Intelligence](01-telemedicine-and-artificial-intelligence.md)
+- Next: [Influences on Delivery of Health Care](03-influences-on-delivery-of-health-care.md)
+- Related: [Trends in Health-Care Technology chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Medical-Surgical Nursing
+- Local outline source: `medical-surgical-nursing.md`
+- Official source URL: https://openstax.org/details/books/medical-surgical-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure. Concepts presented for learning; specific systems, standards, laws, and institutional workflows vary and should be verified against current local references and legal guidance.
+- Last updated: 2026-08-15

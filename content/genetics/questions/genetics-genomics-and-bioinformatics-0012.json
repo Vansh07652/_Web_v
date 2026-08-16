@@ -1,0 +1,40 @@
+{
+  "id": "genetics-genomics-and-bioinformatics-0012",
+  "subject": "genetics",
+  "lesson": "genomics-and-bioinformatics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** sequence-analysis A genome browser displays a small contig whose coding strand is 5' ATG AAG TAA GCT CGT 3', and no features are annotated yet. Which annotation of the open reading frame is correct?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The contig has no open reading frame because it lacks a stop codon."
+    },
+    {
+      "id": "b",
+      "text": "Translation runs across the entire contig and encodes six amino acids."
+    },
+    {
+      "id": "c",
+      "text": "The open reading frame starts at the AUG codon, encodes methionine followed by lysine, and is terminated by the UAA stop codon."
+    },
+    {
+      "id": "d",
+      "text": "Translation starts at the TAA codon because TAA is the start codon."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "The mRNA corresponding to the coding strand is AUG AAG UAA GCU CGU, where AUG is the start codon encoding methionine, AAG encodes lysine, and UAA is a stop codon, so the open reading frame is methionine followed by lysine and ends at the stop. Option B ignores the stop codon, option D mistakes a stop codon for a start codon, and option A is wrong because the contig does contain a stop codon.",
+  "difficulty": "unknown",
+  "tags": [
+    "open",
+    "reading",
+    "frame",
+    "annotation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-16973b1c51d4a9a2",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

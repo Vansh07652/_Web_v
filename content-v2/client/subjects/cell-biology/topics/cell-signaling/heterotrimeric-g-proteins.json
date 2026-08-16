@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-signaling:heterotrimeric-g-proteins",
+  "slug": "heterotrimeric-g-proteins",
+  "title": "Heterotrimeric G Proteins",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-signaling",
+    "slug": "cell-signaling",
+    "title": "Cell Signaling",
+    "order": 6
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "Heterotrimeric G proteins are the **molecular switches** that couple activated GPCRs to intracellular effectors. Each is a trimer of **Gα, Gβ, and Gγ** subunits. In the resting state, **Gα is bound to GDP** and associated with the Gβγ dimer. When a ligand-activated GPCR acts as a **guanine-nucleotide exchange factor (GEF)**, it induces Gα to release GDP and bind **GTP**, whereupon Gα-GTP and free **Gβγ** separate and each regulates downstream effectors (adenylyl cyclase, phospholipase C, ion channels). Gα's intrinsic **GTPase** activity, accelerated by **RGS proteins**, hydrolyzes the GTP back to GDP, allowing the subunits to reassociate and turn the switch off.",
+    "whyItMatters": "Heterotrimeric G proteins relay an enormous fraction of hormonal and sensory signaling: **Gαs** mediates epinephrine/glucagon (fight-or-flight, glycogen breakdown); **Gαi** mediates inhibition and heart-rate slowing; **Gαq** mediates smooth-muscle contraction and many neurotransmitter responses; **Gα12/13** shapes the cytoskeleton. Their dysregulation underlies endocrine tumors (mutant Gαs in pituitary/thyroid adenomas), and the toxins that target them (cholera, pertussis) cause disease precisely by jamming the switch. Many drugs (and the design of \"biased\" GPCR ligands) work by selectively tuning G-protein subtypes.",
+    "learningObjectives": "- Describe the structure of the Gαβγ heterotrimer and its GDP/GTP cycle.\n- Explain how a GPCR acts as a GEF to activate the G protein.\n- Distinguish the Gα subfamilies (Gs, Gi, Gq, G12/13) by their effectors.\n- Relate cholera and pertussis toxins to G-protein function, and explain the roles of Gβγ and RGS proteins.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nHeterotrimeric G proteins are the **molecular switches** that couple activated GPCRs to intracellular effectors. Each is a trimer of **Gα, Gβ, and Gγ** subunits. In the resting state, **Gα is bound to GDP** and associated with the Gβγ dimer. When a ligand-activated GPCR acts as a **guanine-nucleotide exchange factor (GEF)**, it induces Gα to release GDP and bind **GTP**, whereupon Gα-GTP and free **Gβγ** separate and each regulates downstream effectors (adenylyl cyclase, phospholipase C, ion channels). Gα's intrinsic **GTPase** activity, accelerated by **RGS proteins**, hydrolyzes the GTP back to GDP, allowing the subunits to reassociate and turn the switch off.\n\n### Key Components\n\n- **Gα subunit:** binds GDP/GTP; has intrinsic GTPase activity; carries lipid anchor (myristate/palmitate) for membrane attachment.\n- **Gβγ dimer:** an obligate heterodimer (Gγ is prenylated); in the resting state it holds Gα-GDP near the receptor; when released, it is a second messenger-regulator in its own right.\n- **Gα subfamilies:** **Gαs** (stimulates adenylyl cyclase → cAMP↑), **Gαi** (inhibits adenylyl cyclase → cAMP↓; also opens K⁺ channels via Gβγ), **Gαq** (activates phospholipase C-β → IP3/DAG/Ca²⁺), **Gα12/13** (activates RhoGEFs → cytoskeletal regulation).\n- **Effectors:** adenylyl cyclase, phospholipase C-β, ion channels (e.g., GIRK), phosphodiesterases.\n- **RGS proteins:** GTPase-activating proteins (GAPs) that speed up Gα's GTP hydrolysis, turning the signal off faster.\n- **GRKs + arrestins:** phosphorylate/bind the receptor to stop G-protein activation (desensitization).\n\n### Mechanism / How It Works\n\n1. Resting: **Gα-GDP** is bound to **Gβγ**, and the trimer associates with an inactive GPCR.\n2. Ligand binding activates the GPCR, which contacts Gα and acts as a **GEF**: it opens Gα's nucleotide pocket so **GDP dissociates**.\n3. Because GTP is ~10× more abundant than GDP in the cytoplasm, **GTP binds** Gα, causing a conformational change.\n4. GTP-bound Gα **dissociates from Gβγ**; both **Gα-GTP** and **free Gβγ** are now active and diffuse along the membrane to regulate their effectors.\n5. For example, **Gαs-GTP** activates **adenylyl cyclase** → cAMP↑ → PKA; **Gαq-GTP** activates **PLC-β** → IP3 + DAG → Ca²⁺ release and PKC activation.\n6. **Gα's intrinsic GTPase** hydrolyzes GTP → GDP (accelerated by **RGS** GAPs), returning Gα to its GDP state, which reassociates with Gβγ — the switch turns **off**.\n\n### Energy and Directionality\n\nThe G-protein cycle is a **GTP-driven switch**: the energy of the γ-phosphate bond (from GTP) is spent on Gα's hydrolysis, and this hydrolysis is what makes the \"on\" state transient and **irreversible in direction** (Gα-GDP cannot spontaneously activate effectors). The cycle is further made directional by the ~10:1 GTP:GDP ratio favoring activation, and by GEF (receptor) and GAP (RGS) activities that push the switch on and off, respectively.\n\n### Experimental Evidence / Technique\n\n- **GTPγS (non-hydrolyzable) assays:** agonist + GTPγS causes persistent Gα activation (measured as radiolabeled GTPγS binding), proving GTP binding is the activation step.\n- **Cholera toxin:** ADP-ribosylates Gαs, **locking it in the GTP-bound (on) state** → persistent cAMP↑ → intestinal fluid secretion (diarrhea). This mapped Gαs → adenylyl cyclase.\n- **Pertussis toxin:** ADP-ribosylates Gαi, **locking it in the GDP-bound (off) state** (prevents receptor coupling), implicating Gαi in inhibitory pathways (whooping cough).\n- **AlF₄⁻ (aluminum fluoride):** mimics the γ-phosphate and constitutively activates Gα, used to identify Gα subtypes and effectors.\n- **Gα knockout / dominant-negative mutants:** deleting Gαq, Gαs, etc., ablates specific effector responses, assigning each subfamily to its pathway.",
+    "howItWorks": "1. Resting: **Gα-GDP** is bound to **Gβγ**, and the trimer associates with an inactive GPCR.\n2. Ligand binding activates the GPCR, which contacts Gα and acts as a **GEF**: it opens Gα's nucleotide pocket so **GDP dissociates**.\n3. Because GTP is ~10× more abundant than GDP in the cytoplasm, **GTP binds** Gα, causing a conformational change.\n4. GTP-bound Gα **dissociates from Gβγ**; both **Gα-GTP** and **free Gβγ** are now active and diffuse along the membrane to regulate their effectors.\n5. For example, **Gαs-GTP** activates **adenylyl cyclase** → cAMP↑ → PKA; **Gαq-GTP** activates **PLC-β** → IP3 + DAG → Ca²⁺ release and PKC activation.\n6. **Gα's intrinsic GTPase** hydrolyzes GTP → GDP (accelerated by **RGS** GAPs), returning Gα to its GDP state, which reassociates with Gβγ — the switch turns **off**.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- G protein = **Gα (GTPase) + Gβγ (obligate dimer)**, all membrane-anchored by lipids.\n- Resting: **Gα-GDP bound to Gβγ**; activated by the **GPCR acting as a GEF** (GDP → GTP exchange).\n- On activation: **Gα-GTP and free Gβγ dissociate** and both signal.\n- **Gαs → adenylyl cyclase ↑ (cAMP↑)**; **Gαi → AC ↓ (cAMP↓)**; **Gαq → PLC-β (IP3/DAG/Ca²⁺)**; **Gα12/13 → Rho**.\n- Off switch: **intrinsic GTPase** (accelerated by **RGS GAPs**) → GDP → reassociation.\n- **Cholera toxin** locks Gαs **on**; **pertussis toxin** locks Gαi **off**.\n- **Gβγ** also signals (e.g., opens GIRK K⁺ channels, activates some kinases).\n- GTP:GDP ~10:1 favors activation; GEF/GAP activities set on/off kinetics.",
+    "commonConfusions": "- **\"The G protein is inside the GPCR.\"** — They are separate proteins; the GPCR activates the G protein by contact (GEF action).\n- **\"Gβγ is just a passive anchor.\"** — Free **Gβγ is an active signal** (opens GIRK channels, activates kinases/PLCβ), not merely a brake.\n- **\"GTP hydrolysis activates the G protein.\"** — **GTP binding** activates; **hydrolysis** turns it off.\n- **\"Cholera and pertussis toxins do the same thing.\"** — Cholera locks **Gαs on** (cAMP↑); pertussis locks **Gαi off** (blocks its inhibitory signal) — opposite subunits and effects.\n- **\"All Gα subunits activate adenylyl cyclase.\"** — Only **Gαs** does; Gαi inhibits it, and Gαq/Gα12/13 act on entirely different effectors.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of the G protein as a three-person relay team holding a \"battery-dead\" token (GDP). The receptor is the coach: when the coach gets the play call (ligand), it slaps the team, and they swap the dead battery for a fresh one (GTP). Energized, the runner (Gα) sprints off to start the machine, while the other two teammates (Gβγ) run a different errand. The runner's battery slowly drains (GTPase), and when it's dead he comes back to rejoin his teammates and wait for the next call. Poisons like cholera toxin glue a fresh battery in permanently, so the runner never stops — which is why the cell goes haywire. (The analogy omits that Gβγ is itself a signal, that helper proteins speed the battery drain, and that everything happens along the membrane.)",
+    "quickReview": "- Gαβγ: Gα-GDP + Gβγ (resting) → GPCR (GEF) → GTP binds → Gα-GTP + Gβγ dissociate.\n- Effectors by subtype: Gαs (AC↑), Gαi (AC↓), Gαq (PLCβ), Gα12/13 (Rho).\n- Off: intrinsic GTPase + RGS GAPs → GDP → reassociation.\n- Toxins: cholera (Gαs locked on), pertussis (Gαi locked off).\n- Gβγ is an active signal; lipids anchor the trimer to the membrane.\n- Evidence: GTPγS, cholera/pertussis toxins, AlF₄⁻, Gα knockouts.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, et al. *Molecular Biology of the Cell.* 4th ed. \"Signaling through G-Protein-Linked Cell-Surface Receptors.\" https://www.ncbi.nlm.nih.gov/books/NBK26912/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26912/"
+      },
+      {
+        "text": "Alberts B, et al. *Molecular Biology of the Cell.* 4th ed. Chapter 15: \"Cell Communication.\" https://www.ncbi.nlm.nih.gov/books/NBK21059/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21059/"
+      },
+      {
+        "text": "OpenStax. *Biology 2e.* Chapter 9.2: \"Propagation of the Signal.\" https://openstax.org/books/biology-2e/pages/9-2-propagation-of-the-signal",
+        "url": "https://openstax.org/books/biology-2e/pages/9-2-propagation-of-the-signal"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/06-cell-signaling/06-heterotrimeric-g-proteins.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

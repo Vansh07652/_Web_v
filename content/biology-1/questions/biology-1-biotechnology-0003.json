@@ -1,0 +1,40 @@
+{
+  "id": "biology-1-biotechnology-0003",
+  "subject": "biology-1",
+  "lesson": "biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A researcher wants bacteria to produce a human protein from a cloned gene carried on a plasmid **vector**. Besides the gene itself, which element is required for the bacteria to make the protein?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A second copy of the bacterial chromosome to house the foreign gene."
+    },
+    {
+      "id": "b",
+      "text": "A reverse transcriptase enzyme to convert the protein into messenger RNA."
+    },
+    {
+      "id": "c",
+      "text": "A promoter that the bacterial transcription machinery recognizes to start making messenger RNA."
+    },
+    {
+      "id": "d",
+      "text": "A viral capsid that packages the plasmid and delivers it into the nucleus."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "For bacteria to produce the protein, the inserted gene needs a promoter, a DNA sequence that the bacterial transcription machinery recognizes so RNA polymerase can begin transcription, plus a ribosome binding site and terminator. The origin of replication and a selectable marker such as antibiotic resistance keep the plasmid in the cells, but they do not drive expression of the cloned gene. A, B, and D name structures or processes that are not part of a bacterial expression plasmid.",
+  "difficulty": "unknown",
+  "tags": [
+    "plasmid",
+    "vectors",
+    "gene",
+    "expression"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-37c6d4d415f69033",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

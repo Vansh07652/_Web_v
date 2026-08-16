@@ -1,0 +1,40 @@
+{
+  "id": "genetics-mendelian-genetics-i-principles-0012",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-i-principles",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application Two heterozygous *Aa* plants at a single locus with complete dominance are crossed. What is the probability that an offspring is homozygous at this locus, either *AA* or *aa*?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/4"
+    },
+    {
+      "id": "b",
+      "text": "1/8"
+    },
+    {
+      "id": "c",
+      "text": "1/2"
+    },
+    {
+      "id": "d",
+      "text": "3/4"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "The *AA* and *aa* classes are mutually exclusive, so the sum rule adds their probabilities: 1/4 + 1/4 = 1/2. A counts only the *AA* class, and D answers the dominant phenotype, which also includes *Aa* and is 3/4. B comes from splitting one class's probability in half.",
+  "difficulty": "unknown",
+  "tags": [
+    "sum",
+    "rule",
+    "homozygous",
+    "classes"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-a9c23a294d5c5fc1",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

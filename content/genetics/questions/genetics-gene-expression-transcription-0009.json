@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-expression-transcription-0009",
+  "subject": "genetics",
+  "lesson": "gene-expression-transcription",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application Which statement correctly describes the direction of RNA synthesis during transcription?",
+  "options": [
+    {
+      "id": "a",
+      "text": "RNA polymerase adds ribonucleotides to the 5' end of the growing RNA, so RNA is made 3' to 5'."
+    },
+    {
+      "id": "b",
+      "text": "RNA polymerase adds each ribonucleotide to the 3' end of the growing chain, so RNA is made 5' to 3'."
+    },
+    {
+      "id": "c",
+      "text": "The RNA transcript has the same sequence as the template strand it was copied from."
+    },
+    {
+      "id": "d",
+      "text": "RNA polymerase requires a short primer before it can begin RNA synthesis."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "RNA polymerase adds each new ribonucleotide to the 3' hydroxyl of the growing chain, so the RNA is synthesized 5' to 3', antiparallel to the template strand. A states the reverse direction, a classic orientation error. C is wrong because the template strand is complementary to the RNA, while the coding strand matches it. D is wrong because transcription, unlike DNA replication, does not need a primer.",
+  "difficulty": "unknown",
+  "tags": [
+    "rna",
+    "synthesis",
+    "direction"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-d70bead5ed76165d",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

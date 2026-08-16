@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:ecm-cell-junctions:fibronectin-and-laminin",
+  "slug": "fibronectin-and-laminin",
+  "title": "Fibronectin and Laminin",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:ecm-cell-junctions",
+    "slug": "ecm-cell-junctions",
+    "title": "ECM Cell Junctions",
+    "order": 9
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "**Fibronectin** and **laminin** are the major **adhesive glycoproteins** of the ECM — multidomain molecules that link cells to the matrix and organize its assembly. Fibronectin, a dimer found in blood plasma and in connective-tissue matrix, connects cells to collagen and other matrix components and is essential for cell adhesion, migration, and wound healing. Laminin, a large cross-shaped heterotrimer, is a principal organizer of the **basal lamina**, where it anchors epithelial cells and directs cell polarity. Both work by presenting the **RGD** (and related) peptide motifs that integrin receptors recognize.",
+    "whyItMatters": "Adhesive glycoproteins are the molecular glue and instructors of tissues. Fibronectin is essential for embryonic development, blood clotting, and wound healing, and is a scaffold for migrating cells (including during cancer invasion). Laminin defects disrupt the basal lamina and cause disease — for example, mutations in laminin-332 cause junctional epidermolysis bullosa (skin blistering). These molecules are also used clinically as coatings to promote cell growth in tissue engineering and stem-cell culture.",
+    "learningObjectives": "- Describe the structure of fibronectin and its role in cell–matrix adhesion.\n- Explain laminin's heterotrimeric structure and its role in the basal lamina.\n- Explain how the RGD motif links these glycoproteins to integrins.\n- Contrast the functions of fibronectin and laminin.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Fibronectin** and **laminin** are the major **adhesive glycoproteins** of the ECM — multidomain molecules that link cells to the matrix and organize its assembly. Fibronectin, a dimer found in blood plasma and in connective-tissue matrix, connects cells to collagen and other matrix components and is essential for cell adhesion, migration, and wound healing. Laminin, a large cross-shaped heterotrimer, is a principal organizer of the **basal lamina**, where it anchors epithelial cells and directs cell polarity. Both work by presenting the **RGD** (and related) peptide motifs that integrin receptors recognize.\n\n### Key Components\n\n- **Fibronectin:** a disulfide-linked dimer of two ~250-kDa subunits built from repeating modules (type I, II, III repeats).\n- **RGD motif:** the tripeptide Arg-Gly-Asp in fibronectin (and other matrix proteins) that integrins bind.\n- **Laminin:** a heterotrimer of α, β, and γ chains assembled into a cross-shaped molecule (e.g., laminin-111, laminin-332).\n- **Integrin-binding sites:** fibronectin binds α5β1 (RGD); laminin binds α6β1 and α6β4.\n- **Basal lamina:** the laminin-rich ECM sheet beneath epithelia.\n- **Dystroglycan:** an additional laminin receptor linking the basal lamina to the cytoskeleton in muscle.\n\n### Mechanism\n\nFibronectin is secreted as a soluble dimer and assembled into insoluble fibrils at the cell surface, a process that requires integrin binding and actomyosin-generated tension: cells pull on bound fibronectin, unfolding it to expose self-association sites that drive fibril formation. Fibronectin thereby links integrins (and thus the actin cytoskeleton) to collagen, heparin, and fibrin. Laminin self-assembles into a polygonal network in the basal lamina and binds both integrins and dystroglycan, anchoring cells and imparting apical–basal polarity. Together these glycoproteins convert loose matrix into an organized, cell-instructive scaffold.\n\n### How It Works\n\n1. Cells secrete fibronectin dimers and laminin heterotrimers.\n2. Integrins on the cell surface bind fibronectin's RGD motif (or laminin's integrin sites).\n3. Actomyosin tension unfolds fibronectin, exposing self-binding sites.\n4. Fibronectin assembles into fibrils, linking cells to collagen and other matrix proteins.\n5. Laminin self-assembles into a basal-lamina network beneath epithelial cells.\n6. Cells receive adhesion and polarity signals through these integrin–glycoprotein contacts.\n\n### Energy and Directionality\n\nFibronectin fibrillogenesis is a mechanotransduction process that consumes energy indirectly through **actomyosin contractility** (ATP hydrolysis): cell-generated tension is required to unfold fibronectin and drive its assembly. Laminin network assembly is driven by favorable binding interactions (self-assembly), though its secretion and folding cost cellular energy. The directionality is instructive — the ECM glycoproteins, by engaging integrins, convert mechanical and chemical cues into organized cell behavior (migration, differentiation, polarity).\n\n### Experimental Evidence\n\n- **Fibronectin-knockout mice:** die early in embryogenesis with defects in mesoderm and blood-vessel formation — a landmark showing fibronectin's essential role.\n- **RGD peptide competition:** synthetic RGD-containing peptides block fibronectin-mediated cell adhesion, identifying the minimal integrin-binding motif.\n- **Laminin structure:** rotary-shadowing electron microscopy revealed the cross-shaped αβγ heterotrimer.\n- **Basal-lamina studies:** laminin is required for epithelial polarization and basement-membrane integrity.\n\n### Technique\n\n- **Immunofluorescence** — visualize fibronectin fibrils and laminin networks in cultured cells and tissues.\n- **Cell-adhesion assays** — plate cells on fibronectin- or laminin-coated surfaces and measure attachment.\n- **RGD blocking peptides / integrin-blocking antibodies** — dissect which receptor–ligand pair mediates adhesion.\n- **Rotary-shadowing electron microscopy** — image the shapes of these glycoproteins.\n- **Knockout/knockdown** — assess developmental and tissue roles.",
+    "howItWorks": "1. Cells secrete fibronectin dimers and laminin heterotrimers.\n2. Integrins on the cell surface bind fibronectin's RGD motif (or laminin's integrin sites).\n3. Actomyosin tension unfolds fibronectin, exposing self-binding sites.\n4. Fibronectin assembles into fibrils, linking cells to collagen and other matrix proteins.\n5. Laminin self-assembles into a basal-lamina network beneath epithelial cells.\n6. Cells receive adhesion and polarity signals through these integrin–glycoprotein contacts.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Fibronectin = **disulfide-linked dimer**, modular domains, binds integrins via the **RGD motif**.\n- Fibronectin links cells to collagen/heparin/fibrin; key in adhesion, migration, wound healing.\n- Laminin = **αβγ heterotrimer**, cross-shaped; major **basal lamina** organizer.\n- Laminin binds **α6β1/α6β4 integrins** and **dystroglycan**; directs cell polarity.\n- Fibronectin fibrillogenesis requires **integrin binding + actomyosin tension**.\n- Fibronectin-knockout is embryonic-lethal; laminin-332 defects cause epidermolysis bullosa.",
+    "commonConfusions": "- **\"Fibronectin is only in blood.\"** — A soluble form circulates in plasma, but an insoluble fibrillar form builds connective-tissue matrix.\n- **\"Laminin is the same as lamin.\"** — Lamin is a *nuclear lamina* protein; laminin is an ECM glycoprotein — unrelated.\n- **\"RGD is the laminin-binding motif.\"** — RGD is the classic *fibronectin* (and fibronectin-like) integrin motif; laminin uses distinct integrin-binding sites.\n- **\"Fibronectin and laminin do the same job.\"** — Fibronectin organizes the interstitial matrix and migration; laminin organizes the basal lamina and polarity.\n- **\"Glycoproteins just glue cells.\"** — They also actively signal and direct cell fate through integrins.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine cells as climbers on a rock wall, and fibronectin and laminin as the ropes and handholds bolted to the rock (the rest of the matrix). The climbers' hands (integrins) grab the handholds (the RGD \"hand-grip\" on fibronectin), and by pulling on the rope, the climber tightens and shapes it. Laminin is like the special base layer bolted right under a sheet of cells, telling each cell which way is \"up.\" (The analogy underplays the constant remodeling — the handholds and ropes are rebuilt on the fly, not fixed once and for all.)",
+    "quickReview": "- Fibronectin (dimer, RGD) and laminin (αβγ cross) = adhesive ECM glycoproteins.\n- Fibronectin: adhesion, migration, wound healing, matrix assembly (tension-dependent).\n- Laminin: basal-lamina organizer, epithelial polarity, binds α6 integrins + dystroglycan.\n- Both signal through integrins; defects cause developmental and blistering disorders.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"fibronectin.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/fibronectin",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/fibronectin"
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"laminin.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/laminin",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/laminin"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"The Extracellular Matrix of Animals.\" https://www.ncbi.nlm.nih.gov/books/NBK26810/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26810/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"4.6 Connections between Cells and Cellular Activities.\" https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities",
+        "url": "https://openstax.org/books/biology-2e/pages/4-6-connections-between-cells-and-cellular-activities"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/09-ecm-cell-junctions/05-fibronectin-and-laminin.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

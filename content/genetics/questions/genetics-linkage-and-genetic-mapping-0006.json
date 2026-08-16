@@ -1,0 +1,39 @@
+{
+  "id": "genetics-linkage-and-genetic-mapping-0006",
+  "subject": "genetics",
+  "lesson": "linkage-and-genetic-mapping",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A genome wide association study finds a SNP near the *HBB* gene strongly associated with sickle cell disease in a population. Which conclusion is best supported by this finding alone?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The SNP itself is the variant that causes sickle cell disease."
+    },
+    {
+      "id": "b",
+      "text": "The associated SNP must lie inside the coding sequence of *HBB*."
+    },
+    {
+      "id": "c",
+      "text": "The SNP is likely in linkage disequilibrium with the causal variant, so the association narrows the region for follow up mapping."
+    },
+    {
+      "id": "d",
+      "text": "The association proves the two loci assort independently."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Genome wide association studies test hundreds of thousands of SNPs, and an associated SNP is often not the causal variant itself but one in linkage disequilibrium with it, because recombination has not fully separated nearby alleles in the population. A overinterprets association as causation, and B is false because associated SNPs frequently lie in introns or intergenic regions. D is backwards: association between the SNP and the disease means the alleles are nonrandomly associated, the opposite of independent assortment, so the region must be narrowed to find the causal change.",
+  "difficulty": "unknown",
+  "tags": [
+    "gwas",
+    "association",
+    "interpretation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-6f4c5593d895eb88",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

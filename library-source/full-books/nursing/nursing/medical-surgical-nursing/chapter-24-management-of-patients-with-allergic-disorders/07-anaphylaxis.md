@@ -1,0 +1,127 @@
+---
+title: "Anaphylaxis"
+subject: "Nursing"
+book: "Medical-Surgical Nursing"
+chapter: "24: Management of Patients with Allergic Disorders"
+topic_number: "7"
+source: "medical-surgical-nursing.md"
+tags:
+  - "anaphylaxis"
+  - "nursing"
+status: "complete"
+---
+
+# Anaphylaxis
+
+> **Book:** [Medical-Surgical Nursing](../../README.md)  
+> **Chapter:** [Chapter 24: Management of Patients with Allergic Disorders](../README.md)  
+> **Topic:** 7  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Anaphylaxis is a severe, rapid-onset, potentially fatal systemic hypersensitivity reaction. It is usually IgE-mediated: on re-exposure, an allergen (a food, medication, insect venom, or latex protein) cross-links IgE on mast cells and basophils, which degranulate and flood the body with histamine, tryptase, leukotrienes, and other mediators. The result is widespread vasodilation (falling blood pressure), increased vascular permeability (fluid shifting into tissues — swelling), bronchoconstriction, and mucous membrane edema. Because these changes hit the skin, airway, lungs, heart, and gut all at once, anaphylaxis is a whole-body emergency, not a big allergic rash.
+
+Recognition is clinical: sudden onset of symptoms — often skin or mucosal signs (hives, flushing, angioedema) plus respiratory difficulty (wheezing, stridor) or cardiovascular collapse — after exposure to a known or possible trigger. Common triggers: foods (peanut, tree nuts, shellfish), medications (antibiotics, contrast agents, NSAIDs), insect stings, and latex. Reactions can be **biphasic**: after apparent recovery, a second wave of symptoms can occur hours later, which is why observation after the initial event matters. Older texts used "anaphylactoid" for non-IgE reactions with identical symptoms; current care treats the clinical picture the same regardless of mechanism.
+
+## Why This Matters
+
+Anaphylaxis can kill within minutes, and the first responder is often a nurse. In the hospital it can happen anywhere — during an antibiotic infusion, after contrast, after a new medication, or when a patient eats an undisclosed allergen; in the community, patients rely on education they received from nurses. The nurse's job is threefold: **recognize** the pattern quickly (hives plus throat tightness plus hypotension is not a panic attack), **mobilize** the emergency response immediately rather than waiting to "see if it gets worse," and **prepare the patient for the next time**, because everyone who has had anaphylaxis needs a follow-up plan. No amount of later care can undo a delayed response — speed is the treatment.
+
+## Core Concepts
+
+### The mechanism: one huge, sudden release of mediators
+
+During sensitization, the immune system makes IgE against an allergen. On re-exposure, the allergen binds to IgE on mast cells (in tissues) and basophils (in blood), triggering degranulation — the explosive release of histamine and other mediators within minutes. Histamine dilates blood vessels and makes them leaky (flushing, hives, swelling); leukotrienes constrict bronchial smooth muscle (wheezing); fluid shifts out of the vasculature, dropping blood pressure and, in severe cases, producing shock; gut muscle stimulation causes cramping and vomiting. The reaction is systemic because mediators travel everywhere, and fast because the cells were already primed.
+
+### Recognizing anaphylaxis: signs by body system
+
+- **Skin/mucosa (often first):** urticaria (hives), flushing, pruritus, angioedema (swelling of lips, tongue, eyelids, throat).
+- **Respiratory:** dyspnea, wheezing, stridor (upper airway swelling), hoarseness, sense of throat closing.
+- **Cardiovascular:** tachycardia, hypotension, dizziness, syncope, shock.
+- **Gastrointestinal:** nausea, vomiting, cramping, diarrhea.
+- **Neurological:** anxiety, feeling of impending doom, confusion (often from falling perfusion).
+
+Exam point: skin signs are common but **not required** — a person can present with sudden hypotension and stridor and no rash. Conversely, hives alone can be the start of anaphylaxis and must not be dismissed, especially with any respiratory or cardiovascular symptom. The faster symptoms begin after exposure, the more severe the reaction tends to be.
+
+### Biphasic and protracted reactions
+
+A **biphasic reaction** is a recurrence of symptoms hours after the initial episode appears to have resolved, even without re-exposure to the trigger. This is why patients are observed for a period of time after treatment rather than sent home the moment they feel better. A **protracted reaction** is one that continues for hours or days despite treatment. Both possibilities drive two nursing priorities: continued monitoring after the acute phase, and clear discharge teaching about what to do if symptoms return.
+
+### Nursing response and recovery care
+
+Emergency priorities follow the ABCs and institutional protocols: recognize the pattern, call for help immediately, stop or remove the trigger if possible (e.g., discontinue a suspected infusion per policy), maintain the airway, monitor breathing and circulation, position the patient per protocol, and prepare for the ordered emergency treatment. Because anaphylaxis progresses fast, never leave the patient unattended or wait for more symptoms before escalating. After the acute phase: monitor for biphasic reactions, document the timeline (trigger, symptoms, interventions, response), and prepare for discharge — trigger avoidance, epinephrine autoinjector education as prescribed, medical alert identification, and allergist follow-up. All medication administration is per prescriber orders and institutional protocol; scope varies by state and facility.
+
+## ELI-10: Explain Like I'm 10
+
+> Anaphylaxis is the body's alarm system going completely overboard. When someone allergic to, say, peanuts eats one, their body floods with chemicals that make blood vessels open wide, the throat swell, and the lungs tighten — like a fire drill where the sprinklers, alarms, and doors all fail at once. It happens in minutes and can be dangerous very fast. The treatment is to call for help immediately and give a medicine that reverses the swelling and tightness, then watch the person closely for hours in case the reaction tries to come back.
+
+## High-Yield Points
+
+- Anaphylaxis is a rapid, systemic, potentially fatal hypersensitivity reaction — usually IgE-mediated mast cell and basophil degranulation.
+- Recognition is clinical: acute onset of skin/mucosal signs **plus** respiratory or cardiovascular involvement after a possible trigger; skin signs are common but not required.
+- Common triggers: foods, medications, insect stings, latex.
+- Biphasic reactions can occur hours later — patients need observation and discharge teaching, not just "you're fine now."
+- Nursing priorities: recognize, call for help, remove the trigger (e.g., stop a suspected infusion per policy), ABCs and positioning per protocol, monitor continuously.
+- All emergency treatment is per prescriber orders and institutional protocol; scope varies by state and facility.
+- Discharge/recovery care: trigger avoidance, autoinjector education as prescribed, medical alert ID, allergist follow-up.
+- The faster symptoms start after exposure, the more severe the reaction tends to be.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Mast cell / basophil | Immune cells that store and release histamine and other mediators | Their sudden degranulation drives the whole reaction |
+| Degranulation | The explosive release of inflammatory mediators from these cells | Explains why symptoms appear within minutes |
+| Angioedema | Deep swelling of lips, tongue, eyelids, throat tissues | Can obstruct the airway — a top danger |
+| Biphasic reaction | A second wave of symptoms hours after apparent recovery | Requires continued observation and careful discharge teaching |
+| Urticaria | Hives — itchy raised welts from histamine release | Often the first visible clue of a reaction |
+| Trigger | The substance that provokes the reaction (food, drug, venom, latex) | Removing it and avoiding it later are central to care |
+
+## Example
+
+Ms. Rivera, 45, is receiving a first dose of an IV antibiotic on the unit. Fifteen minutes into the infusion she tells the nurse her hands itch. The nurse looks — hives are spreading on her forearms, and Ms. Rivera says her throat feels "funny." The nurse does not wait to see if it gets worse: she discontinues the infusion per policy, calls the rapid response team, and stays with the patient, assessing breathing and blood pressure while the team assembles. Ms. Rivera's oxygen saturation drops and she develops wheezing; the team treats her per the facility's anaphylaxis protocol. After stabilization, the nurse charts a precise timeline — time of infusion start, symptom onset, what was observed, who was called, and the response — and documents the new antibiotic allergy in the record and on the allergy band. Before discharge the next day, the nurse reviews the trigger, the reaction, the importance of reporting the allergy to every provider, and the follow-up plan with an allergist — and verifies that Ms. Rivera understands when to seek emergency care in the future. The lesson: the first nurse's split-second decision to escalate, rather than reassure, is what made the difference.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Anaphylaxis | Vasovagal syncope (fainting) | Vasovagal causes bradycardia, pallor, and sweating after a trigger like pain or needles — no hives, no wheeze; anaphylaxis typically has skin/respiratory signs and tachycardia progressing to shock |
+| Anaphylaxis | Panic/anxiety attack | Anxiety causes no hives, angioedema, or hypotension; anaphylaxis is objective and physical — treat first, label later |
+| "Hives only" | "Just a rash, no concern" | Hives can be the first sign of anaphylaxis; any respiratory or cardiovascular symptom changes the picture entirely |
+| Biphasic reaction | New exposure to the trigger | Biphasic means symptoms return hours later with *no* re-exposure; ask about new exposure but do not assume it |
+| "Anaphylactoid" reaction | "Not really anaphylaxis" | Older term for non-IgE reactions with the same clinical picture; current care treats the clinical emergency the same way |
+
+## Quick Review
+
+1. Why do anaphylaxis symptoms appear within minutes, and why do they affect so many body systems at once?
+2. A patient develops hives and throat tightness during an IV infusion. List the first three nursing actions in order of priority.
+3. Why must a patient who "recovered" from anaphylaxis still be observed for hours?
+4. A patient presents with sudden hypotension and stridor but no rash. Could this still be anaphylaxis? Why?
+5. What are the key components of discharge teaching after an episode of anaphylaxis?
+
+<details>
+<summary>Show answers</summary>
+
+1. Mast cells and basophils were already primed with IgE during sensitization; on re-exposure the allergen triggers degranulation — the sudden release of histamine and other mediators that travel through the bloodstream, so skin, airway, lungs, heart, and gut are affected at once.
+2. Stop/discontinue the suspected infusion per policy, call for help (rapid response/emergency team), and stay with the patient assessing airway, breathing, and circulation (positioning and treatment per protocol).
+3. Because of the risk of a biphasic reaction — a second wave of symptoms hours later without re-exposure — monitoring must continue even after the patient appears to have recovered.
+4. Yes. Skin signs are common but not required; sudden respiratory compromise or cardiovascular collapse after a possible trigger is anaphylaxis until proven otherwise.
+5. Avoidance of the trigger, use of an epinephrine autoinjector as prescribed (including when and how to use it), medical alert identification, and referral to an allergist for follow-up testing and a written emergency action plan.
+
+</details>
+
+## Related Topics
+
+- Previous: [Allergy to Latex](06-allergy-to-latex.md)
+- Next: End of chapter
+- Related: [Allergic Response](01-allergic-response.md) · [Allergy to Food](05-allergy-to-food.md) · [Allergy to Latex](06-allergy-to-latex.md) · [Management of Patients with Allergic Disorders chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Medical-Surgical Nursing
+- Local outline source: `medical-surgical-nursing.md`
+- Official source URL: https://openstax.org/details/books/medical-surgical-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-15
+- Safety note: Educational draft only. No medication doses, treatment algorithms, or observation durations are specified; all emergency treatment follows prescriber orders and institutional protocols, and specifics (positioning, response-team activation, observation time) vary by facility — verify with local policy and SME review.

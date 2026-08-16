@@ -1,0 +1,40 @@
+{
+  "id": "organic-chemistry-1-organic-chemistry-and-functional-groups-q02",
+  "subject": "organic-chemistry-1",
+  "lesson": "organic-chemistry-and-functional-groups",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which statement about alkanes is accurate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "They contain alternating single and double bonds within a closed ring"
+    },
+    {
+      "id": "b",
+      "text": "They contain at least one carbon–carbon double bond and follow the formula CnH2n"
+    },
+    {
+      "id": "c",
+      "text": "They contain a carbon–carbon triple bond and follow the formula CnH2n−2"
+    },
+    {
+      "id": "d",
+      "text": "They contain only carbon–carbon single bonds and follow the formula CnH2n+2"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Alkanes are saturated hydrocarbons: every carbon–carbon bond is a single bond, so each carbon holds the maximum possible number of hydrogens, giving CnH2n+2. Propane (n = 3) therefore has 2(3) + 2 = 8 hydrogens. The other choices define alkenes (CnH2n), alkynes (CnH2n−2), and aromatic rings such as benzene, all of which are unsaturated because a pi bond or ring reduces the hydrogen count.\n\nELI-10: Each carbon must form four bonds. In an alkane, a carbon spends only one bond on each neighbor, so every leftover bond goes to a hydrogen and the molecule carries as much hydrogen as it structurally can, which is what saturated means. Check it with propane: 2(3) + 2 = 8 hydrogens, matching C3H8 on a propane tank label. This same counting rule is why saturated dietary fats have no double bonds while unsaturated fats do.",
+  "difficulty": "easy",
+  "tags": [
+    "alkanes",
+    "saturated hydrocarbons",
+    "general formula CnH2n+2",
+    "hydrocarbon classes"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-281",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

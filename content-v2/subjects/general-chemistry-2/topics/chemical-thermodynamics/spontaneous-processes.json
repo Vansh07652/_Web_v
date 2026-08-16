@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-thermodynamics:spontaneous-processes",
+  "slug": "spontaneous-processes",
+  "title": "Spontaneous Processes",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-thermodynamics",
+    "slug": "chemical-thermodynamics",
+    "title": "Chemical Thermodynamics",
+    "order": 7
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "A **spontaneous process** is one that proceeds on its own without a continuous external input of energy, once it has begun. Spontaneity describes the *direction* a process will go under a given set of conditions — it says nothing about how *fast* it goes. A process that requires a continuous outside driving force is **nonspontaneous** (its reverse is spontaneous). Chemists originally guessed that exothermic reactions (ΔH < 0) were always spontaneous, but many endothermic processes — ice melting, salt dissolving, water evaporating — occur spontaneously, which shows that another factor (entropy) must also matter.",
+    "whyItMatters": "Spontaneity is the concept behind *why reactions happen at all*: combustion, metabolism, battery discharge, and the corrosion of metals are all spontaneous processes whose free-energy change can be harvested (as heat or electrical work). Knowing the direction a reaction will run — and that it can be reversed only by coupling to an energy source — is central to designing engines, fuel cells, batteries, and industrial syntheses such as ammonia production.",
+    "learningObjectives": "- Distinguish a spontaneous process from a nonspontaneous process and explain what \"spontaneous\" means thermodynamically.\n- Explain why spontaneity is about *direction* and not *speed*.\n- Describe how changes in enthalpy alone fail to predict spontaneity.\n- Identify everyday examples of spontaneous processes and state the sign of ΔS and ΔH where relevant.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA **spontaneous process** is one that proceeds on its own without a continuous external input of energy, once it has begun. Spontaneity describes the *direction* a process will go under a given set of conditions — it says nothing about how *fast* it goes. A process that requires a continuous outside driving force is **nonspontaneous** (its reverse is spontaneous). Chemists originally guessed that exothermic reactions (ΔH < 0) were always spontaneous, but many endothermic processes — ice melting, salt dissolving, water evaporating — occur spontaneously, which shows that another factor (entropy) must also matter.\n\n### Key Ideas\n\n- **Spontaneity is directional, not temporal.** \"Spontaneous\" ≠ \"instant\" or \"fast.\" Rusting of iron and diamond → graphite conversion are spontaneous but unimaginably slow.\n- **Exothermic is a tendency, not a law.** Many spontaneous processes release heat (combustion, freezing water below 0 °C), but endothermic processes (melting above 0 °C, dissolving NH₄NO₃ in water) are also spontaneous.\n- **Conditions matter.** Water freezing is spontaneous below 0 °C; the reverse (melting) is spontaneous above 0 °C. A process can flip direction when temperature changes.\n- **Driving force.** A spontaneous process increases the entropy of the universe; a nonspontaneous process can be driven only by a continuous input of energy (e.g., electrolysis, charging a battery).\n- **ΔG is the master criterion.** The thermodynamic quantity that combines enthalpy and entropy, Gibbs free energy (ΔG = ΔH − TΔS), is negative for a spontaneous process.\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| ΔH | Enthalpy change (heat at constant pressure) | kJ/mol |\n| ΔS | Entropy change | J/(mol·K) |\n| ΔG | Gibbs free-energy change; ΔG < 0 ⇒ spontaneous | kJ/mol |\n| T | Absolute temperature (Kelvin) | K |\n\n### How It Works\n\n1. A system sits in some initial state with a certain enthalpy and entropy.\n2. The universe as a whole tends toward a state of greater dispersal of energy (higher entropy).\n3. A process is spontaneous if it increases the entropy of the universe (Second Law, developed in a later note): ΔS_universe > 0.\n4. Enthalpy contributes indirectly: an exothermic process dumps heat into the surroundings, raising their entropy, which favors spontaneity.\n5. Gibbs free energy packages both effects into one number. When ΔG = ΔH − TΔS is negative, the process is spontaneous at that temperature.\n\n### Worked Example\n\n**Predict spontaneity at room temperature for each process and state the sign of ΔH and ΔS.**\n\n1. **Water freezing at −5 °C.** Spontaneous below 0 °C. ΔH < 0 (heat released as bonds form); ΔS < 0 (liquid → ordered solid). Despite the unfavorable entropy change, the low temperature lets the exothermic term dominate, so ΔG < 0.\n2. **Ice melting at +25 °C.** Spontaneous. ΔH > 0 (heat absorbed); ΔS > 0 (solid → less-ordered liquid). Here the entropy term dominates, so ΔG < 0 even though the process is endothermic.\n3. **Water decomposing to H₂ and O₂ at 25 °C.** Nonspontaneous; the reverse (H₂ + O₂ → H₂O) is spontaneous. Driving H₂O → H₂ + O₂ requires continuous electrical work (electrolysis).\n\nThis example shows the same substance can be spontaneous in one direction below 0 °C and the other above it — temperature decides.",
+    "howItWorks": "1. A system sits in some initial state with a certain enthalpy and entropy.\n2. The universe as a whole tends toward a state of greater dispersal of energy (higher entropy).\n3. A process is spontaneous if it increases the entropy of the universe (Second Law, developed in a later note): ΔS_universe > 0.\n4. Enthalpy contributes indirectly: an exothermic process dumps heat into the surroundings, raising their entropy, which favors spontaneity.\n5. Gibbs free energy packages both effects into one number. When ΔG = ΔH − TΔS is negative, the process is spontaneous at that temperature.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Spontaneous = proceeds on its own; **nonspontaneous** = requires continuous external energy.\n- Spontaneity is about **direction**, never **speed**.\n- ΔG < 0 ⇒ spontaneous; ΔG > 0 ⇒ nonspontaneous; ΔG = 0 ⇒ at equilibrium.\n- Exothermic (ΔH < 0) is *usually* favorable but **not sufficient** to guarantee spontaneity.\n- Endothermic processes can be spontaneous when they increase entropy enough (ΔS > 0).\n- Diamond → graphite is spontaneous at 25 °C but so slow it never occurs on human timescales.\n- A spontaneous process increases the entropy of the universe (ΔS_universe > 0).",
+    "commonConfusions": "- **\"Spontaneous means fast.\"** — Wrong. Spontaneity is a statement about direction, not rate. Iron rusting is spontaneous but takes years.\n- **\"Only exothermic reactions are spontaneous.\"** — Wrong. Ice melting and NH₄NO₃ dissolving are endothermic yet spontaneous because their entropy increases.\n- **\"A spontaneous process must release energy.\"** — Wrong. It must *increase the entropy of the universe*; a spontaneous process may actually absorb heat.\n- **\"If a reaction is slow, it must be nonspontaneous.\"** — Wrong. Diamond → graphite is spontaneous but kinetically frozen.\n- **\"Spontaneous and nonspontaneous are absolute properties of a reaction.\"** — Wrong. They depend on conditions (T, P, concentrations); water freezing flips direction at 0 °C.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a ball sitting on a slope. If the slope tilts downhill, the ball rolls down on its own — that's a *spontaneous* process. Rolling it back up takes someone pushing the whole way — that's *nonspontaneous*. The direction (downhill) tells you *which way* it goes, but it doesn't tell you *how fast* — a ball can roll down a very shallow hill extremely slowly, or a steep one quickly. (The analogy's limit: a ball rolls downhill because of gravity, but chemicals \"roll\" toward lower free energy because that's the direction that spreads energy out more. And unlike a ball, a chemical reaction can sit \"at the top\" forever if it needs a little push to get started — that push is called activation energy.)",
+    "quickReview": "- Spontaneous processes proceed without continuous external energy; nonspontaneous ones need a constant driving force.\n- Spontaneity indicates direction, not speed.\n- Exothermic tendency (ΔH < 0) does not by itself guarantee spontaneity.\n- Temperature can reverse a process's spontaneous direction (freezing vs. melting).\n- The real criterion is ΔS_universe > 0, packaged as ΔG = ΔH − TΔS < 0.",
+    "workedExamples": "### Worked Example\n\n**Predict spontaneity at room temperature for each process and state the sign of ΔH and ΔS.**\n\n1. **Water freezing at −5 °C.** Spontaneous below 0 °C. ΔH < 0 (heat released as bonds form); ΔS < 0 (liquid → ordered solid). Despite the unfavorable entropy change, the low temperature lets the exothermic term dominate, so ΔG < 0.\n2. **Ice melting at +25 °C.** Spontaneous. ΔH > 0 (heat absorbed); ΔS > 0 (solid → less-ordered liquid). Here the entropy term dominates, so ΔG < 0 even though the process is endothermic.\n3. **Water decomposing to H₂ and O₂ at 25 °C.** Nonspontaneous; the reverse (H₂ + O₂ → H₂O) is spontaneous. Driving H₂O → H₂ + O₂ requires continuous electrical work (electrolysis).\n\nThis example shows the same substance can be spontaneous in one direction below 0 °C and the other above it — temperature decides.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 16.1 \"Spontaneity.\" https://openstax.org/books/chemistry-2e/pages/16-1-spontaneity",
+        "url": "https://openstax.org/books/chemistry-2e/pages/16-1-spontaneity"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 16.4 \"Free Energy.\" https://openstax.org/books/chemistry-2e/pages/16-4-free-energy",
+        "url": "https://openstax.org/books/chemistry-2e/pages/16-4-free-energy"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "spontaneous-processes",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "01-spontaneous-processes",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:3efbd47ee3597c0c"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:3efbd47ee3597c0c"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:3efbd47ee3597c0c"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:3efbd47ee3597c0c"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/16-chemical-thermodynamics/01-spontaneous-processes.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Spontaneous Processes\n\n## Learning Goals\n\n- Distinguish a spontaneous process from a nonspontaneous process and explain what \"spontaneous\" means thermodynamically.\n- Explain why spontaneity is about *direction* and not *speed*.\n- Describe how changes in enthalpy alone fail to predict spontaneity.\n- Identify everyday examples of spontaneous processes and state the sign of ΔS and ΔH where relevant.\n\n## Core Concept\n\nA **spontaneous process** is one that proceeds on its own without a continuous external input of energy, once it has begun. Spontaneity describes the *direction* a process will go under a given set of conditions — it says nothing about how *fast* it goes. A process that requires a continuous outside driving force is **nonspontaneous** (its reverse is spontaneous). Chemists originally guessed that exothermic reactions (ΔH < 0) were always spontaneous, but many endothermic processes — ice melting, salt dissolving, water evaporating — occur spontaneously, which shows that another factor (entropy) must also matter.\n\n## Key Ideas\n\n- **Spontaneity is directional, not temporal.** \"Spontaneous\" ≠ \"instant\" or \"fast.\" Rusting of iron and diamond → graphite conversion are spontaneous but unimaginably slow.\n- **Exothermic is a tendency, not a law.** Many spontaneous processes release heat (combustion, freezing water below 0 °C), but endothermic processes (melting above 0 °C, dissolving NH₄NO₃ in water) are also spontaneous.\n- **Conditions matter.** Water freezing is spontaneous below 0 °C; the reverse (melting) is spontaneous above 0 °C. A process can flip direction when temperature changes.\n- **Driving force.** A spontaneous process increases the entropy of the universe; a nonspontaneous process can be driven only by a continuous input of energy (e.g., electrolysis, charging a battery).\n- **ΔG is the master criterion.** The thermodynamic quantity that combines enthalpy and entropy, Gibbs free energy (ΔG = ΔH − TΔS), is negative for a spontaneous process.\n\n## Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| ΔH | Enthalpy change (heat at constant pressure) | kJ/mol |\n| ΔS | Entropy change | J/(mol·K) |\n| ΔG | Gibbs free-energy change; ΔG < 0 ⇒ spontaneous | kJ/mol |\n| T | Absolute temperature (Kelvin) | K |\n\n## How It Works\n\n1. A system sits in some initial state with a certain enthalpy and entropy.\n2. The universe as a whole tends toward a state of greater dispersal of energy (higher entropy).\n3. A process is spontaneous if it increases the entropy of the universe (Second Law, developed in a later note): ΔS_universe > 0.\n4. Enthalpy contributes indirectly: an exothermic process dumps heat into the surroundings, raising their entropy, which favors spontaneity.\n5. Gibbs free energy packages both effects into one number. When ΔG = ΔH − TΔS is negative, the process is spontaneous at that temperature.\n\n## Worked Example\n\n**Predict spontaneity at room temperature for each process and state the sign of ΔH and ΔS.**\n\n1. **Water freezing at −5 °C.** Spontaneous below 0 °C. ΔH < 0 (heat released as bonds form); ΔS < 0 (liquid → ordered solid). Despite the unfavorable entropy change, the low temperature lets the exothermic term dominate, so ΔG < 0.\n2. **Ice melting at +25 °C.** Spontaneous. ΔH > 0 (heat absorbed); ΔS > 0 (solid → less-ordered liquid). Here the entropy term dominates, so ΔG < 0 even though the process is endothermic.\n3. **Water decomposing to H₂ and O₂ at 25 °C.** Nonspontaneous; the reverse (H₂ + O₂ → H₂O) is spontaneous. Driving H₂O → H₂ + O₂ requires continuous electrical work (electrolysis).\n\nThis example shows the same substance can be spontaneous in one direction below 0 °C and the other above it — temperature decides.\n\n## Why It Matters\n\nSpontaneity is the concept behind *why reactions happen at all*: combustion, metabolism, battery discharge, and the corrosion of metals are all spontaneous processes whose free-energy change can be harvested (as heat or electrical work). Knowing the direction a reaction will run — and that it can be reversed only by coupling to an energy source — is central to designing engines, fuel cells, batteries, and industrial syntheses such as ammonia production.\n\n## High-Yield Facts\n\n- Spontaneous = proceeds on its own; **nonspontaneous** = requires continuous external energy.\n- Spontaneity is about **direction**, never **speed**.\n- ΔG < 0 ⇒ spontaneous; ΔG > 0 ⇒ nonspontaneous; ΔG = 0 ⇒ at equilibrium.\n- Exothermic (ΔH < 0) is *usually* favorable but **not sufficient** to guarantee spontaneity.\n- Endothermic processes can be spontaneous when they increase entropy enough (ΔS > 0).\n- Diamond → graphite is spontaneous at 25 °C but so slow it never occurs on human timescales.\n- A spontaneous process increases the entropy of the universe (ΔS_universe > 0).\n\n## Eli Explains\n\nImagine a ball sitting on a slope. If the slope tilts downhill, the ball rolls down on its own — that's a *spontaneous* process. Rolling it back up takes someone pushing the whole way — that's *nonspontaneous*. The direction (downhill) tells you *which way* it goes, but it doesn't tell you *how fast* — a ball can roll down a very shallow hill extremely slowly, or a steep one quickly. (The analogy's limit: a ball rolls downhill because of gravity, but chemicals \"roll\" toward lower free energy because that's the direction that spreads energy out more. And unlike a ball, a chemical reaction can sit \"at the top\" forever if it needs a little push to get started — that push is called activation energy.)\n\n## Common Confusions\n\n- **\"Spontaneous means fast.\"** — Wrong. Spontaneity is a statement about direction, not rate. Iron rusting is spontaneous but takes years.\n- **\"Only exothermic reactions are spontaneous.\"** — Wrong. Ice melting and NH₄NO₃ dissolving are endothermic yet spontaneous because their entropy increases.\n- **\"A spontaneous process must release energy.\"** — Wrong. It must *increase the entropy of the universe*; a spontaneous process may actually absorb heat.\n- **\"If a reaction is slow, it must be nonspontaneous.\"** — Wrong. Diamond → graphite is spontaneous but kinetically frozen.\n- **\"Spontaneous and nonspontaneous are absolute properties of a reaction.\"** — Wrong. They depend on conditions (T, P, concentrations); water freezing flips direction at 0 °C.\n\n## Quick Review\n\n- Spontaneous processes proceed without continuous external energy; nonspontaneous ones need a constant driving force.\n- Spontaneity indicates direction, not speed.\n- Exothermic tendency (ΔH < 0) does not by itself guarantee spontaneity.\n- Temperature can reverse a process's spontaneous direction (freezing vs. melting).\n- The real criterion is ΔS_universe > 0, packaged as ΔG = ΔH − TΔS < 0.\n\n## Sources\n\n- OpenStax, *Chemistry 2e*, Ch. 16.1 \"Spontaneity.\" https://openstax.org/books/chemistry-2e/pages/16-1-spontaneity\n- OpenStax, *Chemistry 2e*, Ch. 16.4 \"Free Energy.\" https://openstax.org/books/chemistry-2e/pages/16-4-free-energy\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n"
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:information-flow:translation",
+  "slug": "translation",
+  "title": "Translation",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:information-flow",
+    "slug": "information-flow",
+    "title": "Information Flow",
+    "order": 10
+  },
+  "order": 14,
+  "status": "final",
+  "sections": {
+    "overview": "Translation is the ribosome-catalyzed synthesis of protein from an mRNA template. The mRNA's nucleotide sequence is read in triplets (codons), each specifying an amino acid or a stop signal. Transfer RNAs (tRNAs), each charged with its cognate amino acid by a specific aminoacyl-tRNA synthetase, decode the codons through base pairing. Translation proceeds in three phases — initiation at the AUG start codon, elongation via repeated rounds of tRNA delivery and peptide-bond formation, and termination at a stop codon — consuming GTP at several steps to ensure speed and accuracy.",
+    "whyItMatters": "Translation converts genetic information into the functional proteome, and its control regulates cell growth and stress responses. Many antibiotics (e.g., tetracycline, chloramphenicol, aminoglycosides) and toxins (ricin, diphtheria toxin) target the ribosome or elongation factors. Translation dysregulation drives cancer (e.g., increased eIF4E), and rare diseases arise from mutations in tRNA synthetases or ribosomal proteins.",
+    "learningObjectives": "- Explain how the ribosome decodes mRNA into protein.\n- Describe the roles of tRNA, aminoacyl-tRNA synthetases, and the genetic code.\n- Trace the three stages of translation: initiation, elongation, and termination.\n- Explain the roles of the ribosome's A, P, and E sites and the energy requirements of each step.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nTranslation is the ribosome-catalyzed synthesis of protein from an mRNA template. The mRNA's nucleotide sequence is read in triplets (codons), each specifying an amino acid or a stop signal. Transfer RNAs (tRNAs), each charged with its cognate amino acid by a specific aminoacyl-tRNA synthetase, decode the codons through base pairing. Translation proceeds in three phases — initiation at the AUG start codon, elongation via repeated rounds of tRNA delivery and peptide-bond formation, and termination at a stop codon — consuming GTP at several steps to ensure speed and accuracy.\n\n### Key Components\n\n- **Ribosome** — a large (60S) + small (40S) subunit complex with three tRNA-binding sites: A (aminoacyl), P (peptidyl), E (exit).\n- **mRNA** — carries the codon sequence; the start codon AUG (methionine) sets the reading frame.\n- **tRNA** — adaptor molecules with an anticodon and an attached amino acid.\n- **Aminoacyl-tRNA synthetases** — enzymes that attach each amino acid to its correct tRNA (aminoacylation).\n- **Initiation factors (eIFs)** — assemble the ribosome at the start codon (eIF4E binds the 5′ cap; eIF2 delivers initiator Met-tRNA).\n- **Elongation factors (eEF1/eEF2)** — deliver aminoacyl-tRNAs and translocate the ribosome.\n- **Release factors (eRF1/eRF3)** — recognize stop codons and trigger termination.\n\n### Mechanism\n\nThe genetic code is read 5′→3′ in non-overlapping triplets. Each tRNA carries a specific amino acid and recognizes its codon via the anticodon. In the ribosome, the incoming aminoacyl-tRNA enters the A site, a peptide bond forms between the A-site amino acid and the P-site peptidyl chain (catalyzed by the rRNA-based peptidyl transferase center), and the ribosome translocates by one codon so the growing chain moves to the P site and the spent tRNA exits through the E site. This cycle repeats until a stop codon recruits release factors, which hydrolyze the completed polypeptide from the final tRNA.\n\n### How It Works\n\n1. **Initiation:** eIF4E binds the cap, the 40S subunit scans to AUG, and the 60S subunit joins with initiator Met-tRNA in the P site.\n2. **Elongation — codon recognition:** a cognate aminoacyl-tRNA•eEF1•GTP enters the A site.\n3. **Peptide bond formation:** the peptidyl transferase center links the P-site chain to the A-site amino acid.\n4. **Translocation:** eEF2•GTP moves the ribosome one codon, shifting tRNAs from A→P and P→E; the E-site tRNA exits.\n5. **Repeat:** steps 2–4 occur for each codon.\n6. **Termination:** a stop codon (UAA/UAG/UGA) is recognized by eRF1, and eRF3•GTP triggers hydrolysis and release of the polypeptide; subunits dissociate.\n\n### Energy and Directionality\n\nTranslation is the cell's most energetically expensive process, and its energy budget is dominated by GTP hydrolysis: charging each tRNA with an amino acid costs ~2 ATP-equivalents (ATP → AMP), and elongation consumes two GTPs per added amino acid (one for aminoacyl-tRNA delivery, one for translocation), plus additional GTP for initiation and termination. Directionality is absolute — the mRNA is read 5′→3′ and the polypeptide is built N-terminus to C-terminus — and is enforced by the AUG reading frame and the ordered A→P→E tRNA flow.\n\n### Experimental Evidence\n\n- **Nirenberg & Matthaei (1961)** — synthetic poly(U) RNA directed synthesis of polyphenylalanine, cracking the first codon and proving mRNA is the template.\n- **Crick's frameshift experiments** — triplet, non-overlapping reading of the code.\n- **Aminoacylation assays** — purified synthetases attach amino acids to tRNAs in vitro, defining the adaptor hypothesis.\n- **Puromycin** — an aminoacyl-tRNA mimic that terminates elongation, used to map the A/P site and the peptidyl transferase center.\n- **Ribosome structures** — X-ray crystallography and cryo-EM captured the A/P/E sites and showed the peptidyl transferase center is composed of rRNA (ribozyme).\n\n### Technique\n\nMethods include **polysome profiling** (measure translational activity), **ribosome footprinting/Ribo-seq** (map translated codons genome-wide), **pulse-chase and ³⁵S-methionine labeling** (measure protein synthesis), **in vitro translation systems**, and **cryo-EM/X-ray crystallography** of ribosomal states.",
+    "howItWorks": "1. **Initiation:** eIF4E binds the cap, the 40S subunit scans to AUG, and the 60S subunit joins with initiator Met-tRNA in the P site.\n2. **Elongation — codon recognition:** a cognate aminoacyl-tRNA•eEF1•GTP enters the A site.\n3. **Peptide bond formation:** the peptidyl transferase center links the P-site chain to the A-site amino acid.\n4. **Translocation:** eEF2•GTP moves the ribosome one codon, shifting tRNAs from A→P and P→E; the E-site tRNA exits.\n5. **Repeat:** steps 2–4 occur for each codon.\n6. **Termination:** a stop codon (UAA/UAG/UGA) is recognized by eRF1, and eRF3•GTP triggers hydrolysis and release of the polypeptide; subunits dissociate.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Codons are read 5′→3′ as non-overlapping triplets; AUG = start (Met).\n- tRNA anticodon pairs with the codon; aminoacyl-tRNA synthetases charge tRNAs (specificity).\n- Ribosome sites: A (incoming aminoacyl-tRNA), P (peptidyl-tRNA), E (exit).\n- Initiation (eIFs) → elongation (eEF1/eEF2) → termination (eRF1/eRF3).\n- Peptide bond formation is catalyzed by rRNA (ribozyme), not protein.\n- ~2 GTP per peptide bond in elongation + ~2 ATP for aminoacylation.\n- Polypeptide grows N→C terminus; stop codons UAA/UAG/UGA.",
+    "commonConfusions": "- **\"The ribosome reads DNA\"** — it reads mRNA; DNA is the template for transcription.\n- **\"Amino acids directly read codons\"** — tRNAs (via anticodons) decode codons; amino acids are attached to tRNAs by synthetases.\n- **\"The start codon is read anywhere\"** — the ribosome scans to AUG and the reading frame is fixed from there.\n- **\"The ribosome's catalytic activity is protein-based\"** — the peptidyl transferase center is rRNA (a ribozyme).\n- **\"Energy comes mainly from ATP\"** — elongation is driven largely by GTP hydrolysis (plus ATP for aminoacylation).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of the ribosome as a 3D printer reading mRNA, a long instruction tape written in three-letter words (codons). tRNA molecules are couriers, each carrying exactly one kind of amino-acid block that matches a three-letter word. The printer reads a word, the matching courier docks, and the block is snapped onto the growing chain, which then slides over one word. When it reads a \"stop\" word, the finished chain is released and folds into a working protein. (The analogy's limit: the \"matching\" is chemical base pairing, and the snapping is a chemical reaction performed by the ribosome's *RNA* component, with GTP as the fuel.)",
+    "quickReview": "- mRNA read 5′→3′ in triplets; AUG start, UAA/UAG/UGA stop.\n- tRNA + aminoacyl-tRNA synthetases decode the genetic code.\n- Initiation (eIFs, cap, Met-tRNA) → elongation (A/P/E sites, peptide bond, translocation) → termination (release factors).\n- rRNA catalyzes peptide-bond formation; ~2 GTP/amino acid.\n- N→C growth; ribosome is the target of many antibiotics.\n- Studied by Ribo-seq, polysomes, in vitro translation, cryo-EM.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"15.5 Ribosomes and Protein Synthesis.\" https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis",
+        "url": "https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"From RNA to Protein.\" https://www.ncbi.nlm.nih.gov/books/NBK26829/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26829/"
+      },
+      {
+        "text": "Nature Scitable, \"Translation: DNA to mRNA to Protein.\" https://www.nature.com/scitable/topicpage/translation-dna-to-mrna-to-protein-393/",
+        "url": "https://www.nature.com/scitable/topicpage/translation-dna-to-mrna-to-protein-393/"
+      },
+      {
+        "text": "MedlinePlus Genetics, \"How do genes direct the production of proteins?\" https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/"
+      },
+      {
+        "text": "National Human Genome Research Institute, \"Translation.\" https://www.genome.gov/genetics-glossary/Translation",
+        "url": "https://www.genome.gov/genetics-glossary/Translation"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "translation",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "14-translation",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:86a5c5c3babb6fa6"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:86a5c5c3babb6fa6"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:86a5c5c3babb6fa6"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:86a5c5c3babb6fa6"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/10-information-flow/14-translation.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Translation\n\n## Learning Goals\n- Explain how the ribosome decodes mRNA into protein.\n- Describe the roles of tRNA, aminoacyl-tRNA synthetases, and the genetic code.\n- Trace the three stages of translation: initiation, elongation, and termination.\n- Explain the roles of the ribosome's A, P, and E sites and the energy requirements of each step.\n\n## Core Concept\nTranslation is the ribosome-catalyzed synthesis of protein from an mRNA template. The mRNA's nucleotide sequence is read in triplets (codons), each specifying an amino acid or a stop signal. Transfer RNAs (tRNAs), each charged with its cognate amino acid by a specific aminoacyl-tRNA synthetase, decode the codons through base pairing. Translation proceeds in three phases — initiation at the AUG start codon, elongation via repeated rounds of tRNA delivery and peptide-bond formation, and termination at a stop codon — consuming GTP at several steps to ensure speed and accuracy.\n\n## Key Components\n- **Ribosome** — a large (60S) + small (40S) subunit complex with three tRNA-binding sites: A (aminoacyl), P (peptidyl), E (exit).\n- **mRNA** — carries the codon sequence; the start codon AUG (methionine) sets the reading frame.\n- **tRNA** — adaptor molecules with an anticodon and an attached amino acid.\n- **Aminoacyl-tRNA synthetases** — enzymes that attach each amino acid to its correct tRNA (aminoacylation).\n- **Initiation factors (eIFs)** — assemble the ribosome at the start codon (eIF4E binds the 5′ cap; eIF2 delivers initiator Met-tRNA).\n- **Elongation factors (eEF1/eEF2)** — deliver aminoacyl-tRNAs and translocate the ribosome.\n- **Release factors (eRF1/eRF3)** — recognize stop codons and trigger termination.\n\n## Mechanism\nThe genetic code is read 5′→3′ in non-overlapping triplets. Each tRNA carries a specific amino acid and recognizes its codon via the anticodon. In the ribosome, the incoming aminoacyl-tRNA enters the A site, a peptide bond forms between the A-site amino acid and the P-site peptidyl chain (catalyzed by the rRNA-based peptidyl transferase center), and the ribosome translocates by one codon so the growing chain moves to the P site and the spent tRNA exits through the E site. This cycle repeats until a stop codon recruits release factors, which hydrolyze the completed polypeptide from the final tRNA.\n\n## How It Works\n1. **Initiation:** eIF4E binds the cap, the 40S subunit scans to AUG, and the 60S subunit joins with initiator Met-tRNA in the P site.\n2. **Elongation — codon recognition:** a cognate aminoacyl-tRNA•eEF1•GTP enters the A site.\n3. **Peptide bond formation:** the peptidyl transferase center links the P-site chain to the A-site amino acid.\n4. **Translocation:** eEF2•GTP moves the ribosome one codon, shifting tRNAs from A→P and P→E; the E-site tRNA exits.\n5. **Repeat:** steps 2–4 occur for each codon.\n6. **Termination:** a stop codon (UAA/UAG/UGA) is recognized by eRF1, and eRF3•GTP triggers hydrolysis and release of the polypeptide; subunits dissociate.\n\n## Energy and Directionality\nTranslation is the cell's most energetically expensive process, and its energy budget is dominated by GTP hydrolysis: charging each tRNA with an amino acid costs ~2 ATP-equivalents (ATP → AMP), and elongation consumes two GTPs per added amino acid (one for aminoacyl-tRNA delivery, one for translocation), plus additional GTP for initiation and termination. Directionality is absolute — the mRNA is read 5′→3′ and the polypeptide is built N-terminus to C-terminus — and is enforced by the AUG reading frame and the ordered A→P→E tRNA flow.\n\n## Experimental Evidence\n- **Nirenberg & Matthaei (1961)** — synthetic poly(U) RNA directed synthesis of polyphenylalanine, cracking the first codon and proving mRNA is the template.\n- **Crick's frameshift experiments** — triplet, non-overlapping reading of the code.\n- **Aminoacylation assays** — purified synthetases attach amino acids to tRNAs in vitro, defining the adaptor hypothesis.\n- **Puromycin** — an aminoacyl-tRNA mimic that terminates elongation, used to map the A/P site and the peptidyl transferase center.\n- **Ribosome structures** — X-ray crystallography and cryo-EM captured the A/P/E sites and showed the peptidyl transferase center is composed of rRNA (ribozyme).\n\n## Technique\nMethods include **polysome profiling** (measure translational activity), **ribosome footprinting/Ribo-seq** (map translated codons genome-wide), **pulse-chase and ³⁵S-methionine labeling** (measure protein synthesis), **in vitro translation systems**, and **cryo-EM/X-ray crystallography** of ribosomal states.\n\n## Why It Matters\nTranslation converts genetic information into the functional proteome, and its control regulates cell growth and stress responses. Many antibiotics (e.g., tetracycline, chloramphenicol, aminoglycosides) and toxins (ricin, diphtheria toxin) target the ribosome or elongation factors. Translation dysregulation drives cancer (e.g., increased eIF4E), and rare diseases arise from mutations in tRNA synthetases or ribosomal proteins.\n\n## High-Yield Facts\n- Codons are read 5′→3′ as non-overlapping triplets; AUG = start (Met).\n- tRNA anticodon pairs with the codon; aminoacyl-tRNA synthetases charge tRNAs (specificity).\n- Ribosome sites: A (incoming aminoacyl-tRNA), P (peptidyl-tRNA), E (exit).\n- Initiation (eIFs) → elongation (eEF1/eEF2) → termination (eRF1/eRF3).\n- Peptide bond formation is catalyzed by rRNA (ribozyme), not protein.\n- ~2 GTP per peptide bond in elongation + ~2 ATP for aminoacylation.\n- Polypeptide grows N→C terminus; stop codons UAA/UAG/UGA.\n\n## Eli Explains\nThink of the ribosome as a 3D printer reading mRNA, a long instruction tape written in three-letter words (codons). tRNA molecules are couriers, each carrying exactly one kind of amino-acid block that matches a three-letter word. The printer reads a word, the matching courier docks, and the block is snapped onto the growing chain, which then slides over one word. When it reads a \"stop\" word, the finished chain is released and folds into a working protein. (The analogy's limit: the \"matching\" is chemical base pairing, and the snapping is a chemical reaction performed by the ribosome's *RNA* component, with GTP as the fuel.)\n\n## Common Confusions\n- **\"The ribosome reads DNA\"** — it reads mRNA; DNA is the template for transcription.\n- **\"Amino acids directly read codons\"** — tRNAs (via anticodons) decode codons; amino acids are attached to tRNAs by synthetases.\n- **\"The start codon is read anywhere\"** — the ribosome scans to AUG and the reading frame is fixed from there.\n- **\"The ribosome's catalytic activity is protein-based\"** — the peptidyl transferase center is rRNA (a ribozyme).\n- **\"Energy comes mainly from ATP\"** — elongation is driven largely by GTP hydrolysis (plus ATP for aminoacylation).\n\n## Quick Review\n- mRNA read 5′→3′ in triplets; AUG start, UAA/UAG/UGA stop.\n- tRNA + aminoacyl-tRNA synthetases decode the genetic code.\n- Initiation (eIFs, cap, Met-tRNA) → elongation (A/P/E sites, peptide bond, translocation) → termination (release factors).\n- rRNA catalyzes peptide-bond formation; ~2 GTP/amino acid.\n- N→C growth; ribosome is the target of many antibiotics.\n- Studied by Ribo-seq, polysomes, in vitro translation, cryo-EM.\n\n## Sources\n- OpenStax, *Biology 2e*, \"15.5 Ribosomes and Protein Synthesis.\" https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis\n- Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"From RNA to Protein.\" https://www.ncbi.nlm.nih.gov/books/NBK26829/\n- Nature Scitable, \"Translation: DNA to mRNA to Protein.\" https://www.nature.com/scitable/topicpage/translation-dna-to-mrna-to-protein-393/\n- MedlinePlus Genetics, \"How do genes direct the production of proteins?\" https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/\n- National Human Genome Research Institute, \"Translation.\" https://www.genome.gov/genetics-glossary/Translation\n"
+}

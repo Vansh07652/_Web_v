@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:human-physiology-1:cellular-physiology:primary-and-secondary-active-transport",
+  "slug": "primary-and-secondary-active-transport",
+  "title": "Primary and Secondary Active Transport",
+  "subject": {
+    "id": "subject:human-physiology-1",
+    "slug": "human-physiology-1",
+    "title": "Human Physiology I"
+  },
+  "unit": {
+    "id": "unit:human-physiology-1:cellular-physiology",
+    "slug": "cellular-physiology",
+    "title": "Cellular Physiology",
+    "order": 2
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "Active transport moves solutes against their gradients using energy. Primary active transport hydrolyzes ATP directly—the sodium–potassium ATPase exports three Na⁺ and imports two K⁺ per ATP, while calcium ATPase, proton pumps, and the hydrogen–potassium ATPase similarly move their ions uphill. Secondary active transport does not use ATP directly; it harnesses the ion gradient a pump created, moving a second solute against its gradient via symport (cotransport, same direction) or antiport (countertransport, opposite direction), as in the sodium–glucose cotransporter and the sodium–calcium exchanger. Both mechanisms saturate because they rely on a limited number of transporter proteins.",
+    "whyItMatters": "The sodium–potassium ATPase consumes a large fraction of a resting cell's ATP, so its activity underpins the resting membrane potential and cell volume. The sodium–glucose cotransporter is the mechanism by which oral rehydration works at the cellular level: glucose in an oral solution drives sodium (and therefore water) absorption. The cardiac Na⁺/Ca²⁺ exchanger is also the site of action for some heart-failure medications, which modulate calcium handling. Drug selection, dosing, and clinical management require trained clinicians; these notes explain the transport mechanisms, not treatment.",
+    "learningObjectives": "1. Define active transport and contrast it with passive transport.\n2. Explain primary active transport using the sodium–potassium ATPase, calcium ATPase, proton pumps, and the hydrogen–potassium ATPase as examples.\n3. Describe how secondary active transport couples ion gradients to symport and antiport.\n4. Explain energy coupling and why active transport saturates.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|------|---------------------------|----------------|\n| Active transport | Uphill movement of solute using energy | Moves solutes against gradients |\n| ATP | The cell's energy currency | Fuels primary active transport |\n| Primary active transport | ATP-driven uphill transport | Directly builds ion gradients |\n| Sodium–potassium ATPase | Na⁺/K⁺ pump (3 Na⁺ out, 2 K⁺ in) | Establishes resting gradients |\n| Calcium ATPase | Ca²⁺ pump out of cytosol | Keeps cytosolic Ca²⁺ low |\n| Proton pumps | H⁺-ATPase moving H⁺ uphill | Acidifies compartments |\n| Hydrogen–potassium ATPase | H⁺ out / K⁺ in exchanger | Gastric acid secretion |\n| Electrochemical gradients | Concentration + electrical gradients | Store energy for transport |\n| Secondary active transport | Uphill transport powered by an ion gradient | Moves solutes without direct ATP |\n| Symport / cotransport | Two solutes move the same direction | Sodium–glucose cotransporter |\n| Antiport / countertransport | Two solutes move opposite directions | Sodium–calcium exchanger |\n| Sodium–glucose cotransporter | Na⁺ + glucose into cell together | Intestinal/renal glucose uptake |\n| Sodium–calcium exchanger | Na⁺ in, Ca²⁺ out | Removes cytosolic calcium |\n| Energy coupling | Downhill flow drives uphill movement | The basis of secondary transport |\n| Transport saturation | Maximum rate when transporters are full | Marks carrier-mediated transport |",
+    "collegeNotes": "### 1. Primary Active Transport\n**Primary active transport** moves a solute against its gradient using energy released directly from **ATP** hydrolysis. The classic example is the **sodium–potassium ATPase** (Na⁺/K⁺-ATPase), which for each ATP moves three Na⁺ out of the cell and two K⁺ into the cell—both against their gradients—establishing steep **electrochemical gradients** for both ions. **Calcium ATPase** (Ca²⁺-ATPase) pumps calcium out of the cytosol (or into the sarcoplasmic reticulum), keeping cytosolic Ca²⁺ low. **Proton pumps** (H⁺-ATPase) move hydrogen ions uphill, acidifying compartments such as lysosomes or the stomach lumen, and the **hydrogen–potassium ATPase** (H⁺/K⁺-ATPase) exchanges H⁺ out for K⁺ in, a central step in gastric acid secretion. Each is an example of an **active transporter** using ATP directly.\n\n### 2. Secondary Active Transport\n**Secondary active transport** uses the energy stored in an ion gradient (usually Na⁺) rather than ATP directly. A transporter moves the driving ion down its gradient while moving a second solute against its gradient. In **symport** (**cotransport**), both solutes move in the same direction—the **sodium–glucose cotransporter** (SGLT) brings Na⁺ and glucose into the cell together. In **antiport** (**countertransport**), the solutes move in opposite directions—the **sodium–calcium exchanger** (NCX) lets Na⁺ enter while Ca²⁺ exits. The process is **energy coupling**: the favorable downhill movement of one solute is coupled to the unfavorable uphill movement of another through a shared transport protein.\n\n### 3. Saturation and the Dependence on Gradients\nBecause active transport depends on a finite number of transporter proteins, it shows **transport saturation**: above a certain solute concentration the rate plateaus at a maximum (Vmax). Secondary active transport is doubly dependent—it ultimately relies on the gradients maintained by primary pumps, so if the Na⁺/K⁺-ATPase fails, the sodium gradient collapses and secondary transporters stall.",
+    "howItWorks": "1. The Na⁺/K⁺-ATPase uses ATP to move Na⁺ out and K⁺ in, building gradients.\n2. Calcium ATPase and proton pumps similarly move their ions uphill using ATP.\n3. The resulting Na⁺ gradient stores potential energy.\n4. Secondary transporters couple Na⁺ inflow to the uphill movement of another solute (symport or antiport).\n5. All carrier-based transport saturates at a maximum rate.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Primary active transport uses ATP directly; secondary uses an ion gradient.\n- **High yield:** Na⁺/K⁺-ATPase: 3 Na⁺ out, 2 K⁺ in per ATP—electrogenic and gradient-building.\n- **High yield:** Secondary transport = energy coupling of a downhill ion to an uphill solute.\n- **High yield:** Symport = same direction (SGLT); antiport = opposite (Na⁺/Ca²⁺ exchanger).\n- **High yield:** Calcium ATPase keeps cytosolic Ca²⁺ low, essential for signaling and muscle relaxation.\n- **High yield:** Active transport saturates because transporter proteins are finite.\n- Secondary transport ultimately depends on the primary pumps that maintain the gradient.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|----------------|------|------------|\n| Primary active transport | Secondary active transport | Primary uses ATP directly; secondary uses a gradient |\n| Symport | Antiport | Symport moves solutes the same way; antiport moves them opposite ways |\n| Na⁺/K⁺-ATPase | Sodium–glucose cotransporter | ATPase uses ATP; SGLT uses the Na⁺ gradient |\n| Active transport | Facilitated diffusion | Active moves uphill (needs energy); facilitated moves downhill |\n| Energy coupling | ATP hydrolysis | Coupling is the shared-transporter link; hydrolysis is the direct energy source |",
+    "memoryAids": "\"**S**odium **O**ut, **P**otassium **I**n = **SOPI**\" — three Na⁺ out, two K⁺ in per ATP. For direction: \"**S**ymport = **S**ame side; **A**ntiport = **A**way from each other.\"",
+    "eli10": "Imagine a water wheel in a stream. To move a solute \"uphill\" (against its gradient), a cell can either burn fuel directly (like a motorized pump—that is primary active transport) or harness an existing downhill flow (like a water wheel turning a mill—that is secondary active transport). The sodium–potassium pump is the motorized pump that keeps a steep sodium \"stream\" flowing into the cell; other transporters are water wheels that use that sodium flow to drag glucose or calcium along or push it out. Where this stops being exact: in cells, \"uphill\" means against a concentration or electrical gradient, and the coupling is chemical (binding both solutes to one protein), not mechanical gears.\n\n### Simple Example\nAfter a meal, intestinal cells absorb glucose even when glucose is already more concentrated inside them. They do this with the sodium–glucose cotransporter: sodium flows down its gradient into the cell and drags glucose uphill with it.",
+    "quickReview": "### Topic Recap\n\nActive transport moves solutes against their gradients. Primary active transport hydrolyzes ATP directly—the sodium–potassium ATPase (3 Na⁺ out, 2 K⁺ in), calcium ATPase, proton pumps, and the hydrogen–potassium ATPase all build electrochemical gradients. Secondary active transport taps those gradients to move other solutes uphill, using symport (SGLT) and antiport (Na⁺/Ca²⁺ exchanger) through the principle of energy coupling. Because all these processes use finite transporter proteins, they saturate. These mechanisms, combined with passive transport, complete the cell's solute-handling toolkit before vesicular transport is considered.\n\n### Knowledge Check\n\n1. What is the stoichiometry of the sodium–potassium ATPase per ATP?\n2. How does secondary active transport differ from primary active transport?\n3. Give one example each of a symporter and an antiporter.\n4. Why does active transport saturate?\n5. Which transporter keeps cytosolic calcium low?\n\n### Answers and Rationales\n\n1. **Three Na⁺ out and two K⁺ in per ATP.** This electrogenic exchange builds the Na⁺ and K⁺ gradients.\n2. **Secondary transport uses the energy of an ion gradient rather than ATP directly.** It couples a downhill ion flow to an uphill solute movement.\n3. **Symporter: sodium–glucose cotransporter (SGLT); antiporter: sodium–calcium exchanger (NCX).**\n4. **Because it depends on a finite number of transporter proteins**, so the rate reaches a maximum when all are occupied.\n5. **Calcium ATPase (Ca²⁺-ATPase)** pumps Ca²⁺ out of the cytosol (and into stores), keeping resting cytosolic calcium very low.",
+    "workedExamples": "**Sodium–potassium ATPase cycle**\n1. Three intracellular Na⁺ bind to the pump's intracellular sites.\n2. ATP is hydrolyzed, and the phosphate is transferred to the pump (phosphorylation), changing its shape.\n3. The pump releases three Na⁺ to the extracellular side.\n4. Two extracellular K⁺ bind, the phosphate is released (dephosphorylation), and the pump reverts, releasing K⁺ inside.\n5. **Why it matters:** Each cycle moves three Na⁺ out and two K⁺ in, making the cell interior negative and building the Na⁺ gradient that powers secondary transport, nutrient uptake, and electrical signaling.\n\n**Secondary transport (SGLT)** follows: Na⁺ binds and flows inward down its gradient; this conformational change forces glucose to bind and be carried inward against its gradient—energy coupling through a shared transporter.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "primary-and-secondary-active-transport",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "05-primary-and-secondary-active-transport",
+      "kind": "source_file_stem",
+      "source_id": "need-review-human-physiology-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-human-physiology-i",
+    "sourceFile": "human-physiology-i-study-notes/docs/human-physiology-i/05-primary-and-secondary-active-transport.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

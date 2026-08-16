@@ -1,0 +1,40 @@
+{
+  "id": "genetics-dna-structure-and-replication-0005",
+  "subject": "genetics",
+  "lesson": "dna-structure-and-replication",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application During DNA replication in E. coli, the lagging strand is made as a series of short Okazaki fragments that are later joined together. Why must the lagging strand be synthesized this way?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The lagging strand template runs 5' to 3' toward the fork, so DNA polymerase copies it continuously in short bursts."
+    },
+    {
+      "id": "b",
+      "text": "The lagging strand template runs 3' to 5' toward the fork, so DNA polymerase must copy it in short 5' to 3' pieces moving away from the fork."
+    },
+    {
+      "id": "c",
+      "text": "DNA helicase unwinds the lagging strand template only in small sections because of supercoiling stress."
+    },
+    {
+      "id": "d",
+      "text": "DNA polymerase III cannot bind to the lagging strand template at all without the DNA gyrase complex."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "DNA polymerase synthesizes only in the 5' to 3' direction, and the lagging strand template is oriented 3' to 5' toward the fork, so the polymerase must move away from the fork and restart repeatedly. Each restart begins with a new RNA primer made by primase, producing Okazaki fragments that DNA ligase later seals. Option A reverses the template polarity, option C misassigns the cause to helicase, and option D wrongly suggests gyrase is needed for polymerase binding.",
+  "difficulty": "unknown",
+  "tags": [
+    "why",
+    "okazaki",
+    "fragments",
+    "form"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-5fcc89f16ce99a1e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

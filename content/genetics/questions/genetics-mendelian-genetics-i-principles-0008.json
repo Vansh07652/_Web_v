@@ -1,0 +1,41 @@
+{
+  "id": "genetics-mendelian-genetics-i-principles-0008",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-i-principles",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem A plant with round yellow seeds shows the dominant phenotype at two independently assorting loci, *A* and *B*. It is test crossed to an *aabb* plant, and all 100 offspring are round and yellow. What is the tested plant's genotype?",
+  "options": [
+    {
+      "id": "a",
+      "text": "*AaBb*"
+    },
+    {
+      "id": "b",
+      "text": "*AABB*"
+    },
+    {
+      "id": "c",
+      "text": "*AaBB*"
+    },
+    {
+      "id": "d",
+      "text": "*AABb*"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "A test cross exposes every allele the tested plant passes on, because the *aabb* parent contributes only *a* and *b* gametes. If the tested plant carried any recessive allele, at least some offspring would show the recessive trait at that locus, but none do, so it must be homozygous dominant at both loci, *AABB*. A would give a 1:1:1:1 ratio (sums to 4), and C and D would each give a 1:1 ratio (sums to 2), both of which would be visible in the offspring.",
+  "difficulty": "unknown",
+  "tags": [
+    "two",
+    "locus",
+    "test",
+    "cross",
+    "genotype"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-a9c23a294d5c5fc1",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

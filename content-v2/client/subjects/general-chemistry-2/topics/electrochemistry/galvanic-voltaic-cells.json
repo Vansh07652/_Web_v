@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:electrochemistry:galvanic-voltaic-cells",
+  "slug": "galvanic-voltaic-cells",
+  "title": "Galvanic (Voltaic) Cells",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:electrochemistry",
+    "slug": "electrochemistry",
+    "title": "Electrochemistry",
+    "order": 8
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "A **galvanic (voltaic) cell** converts the chemical energy of a spontaneous redox reaction directly into electrical energy. The oxidation and reduction half-reactions are physically separated into two **half-cells** connected by a wire and a **salt bridge**. Oxidation always occurs at the **anode** (negative electrode) and reduction at the **cathode** (positive electrode). Electrons released at the anode travel through the external wire to the cathode, while ions migrate through the salt bridge to keep the solutions electrically neutral. Because the net reaction is spontaneous, the cell has a positive voltage (E°cell > 0).",
+    "whyItMatters": "Galvanic cells are the principle behind every battery — from disposable alkaline cells to lithium-ion batteries in phones and electric vehicles. Understanding the anode/cathode roles, electron flow, and the salt bridge's function is the foundation for batteries, fuel cells, corrosion, and the entire field of electrochemical energy storage.",
+    "learningObjectives": "- Label the anode, cathode, and salt bridge of a galvanic cell and state what happens at each electrode.\n- Explain why oxidation occurs at the anode and reduction at the cathode.\n- Describe the direction of electron flow in the external circuit and ion flow in the salt bridge.\n- Explain why a galvanic cell produces a voltage and does so spontaneously.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA **galvanic (voltaic) cell** converts the chemical energy of a spontaneous redox reaction directly into electrical energy. The oxidation and reduction half-reactions are physically separated into two **half-cells** connected by a wire and a **salt bridge**. Oxidation always occurs at the **anode** (negative electrode) and reduction at the **cathode** (positive electrode). Electrons released at the anode travel through the external wire to the cathode, while ions migrate through the salt bridge to keep the solutions electrically neutral. Because the net reaction is spontaneous, the cell has a positive voltage (E°cell > 0).\n\n### Key Ideas\n\n- **Anode = oxidation, cathode = reduction.** The mnemonic \"An Ox, Red Cat\" fixes it permanently.\n- **Electrons flow anode → cathode** through the external circuit (conventional current is the opposite way).\n- **Salt bridge closes the circuit.** It lets inert ions migrate so charge does not build up; without it, the cell would stop almost instantly.\n- **Two half-cells.** Each contains an electrode immersed in a solution of its own ions (e.g., Zn in Zn²⁺, Cu in Cu²⁺).\n- **Spontaneous ⇒ positive voltage.** The spontaneous cell is the one whose overall E°cell comes out positive.\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| E°cell | Standard cell potential (voltage) | V |\n| e⁻ | Electron flow (anode → cathode) | — |\n| — | Anode reaction | oxidation |\n| — | Cathode reaction | reduction |\n\n### How It Works\n\n1. In the **anode half-cell**, the more active metal (e.g., Zn) is oxidized: Zn → Zn²⁺ + 2 e⁻. The electrode loses mass as metal ions dissolve.\n2. The freed electrons travel through the external wire toward the cathode.\n3. In the **cathode half-cell**, cations in solution (e.g., Cu²⁺) are reduced at the electrode surface: Cu²⁺ + 2 e⁻ → Cu. The electrode gains mass as metal plates out.\n4. To keep each solution neutral, anions migrate toward the anode and cations toward the cathode through the salt bridge.\n5. The result is a steady electron current that can do work (light a bulb, run a device) until the cell runs down.\n\n### Worked Example\n\n**The Daniell cell: Zn(s) | Zn²⁺(aq) || Cu²⁺(aq) | Cu(s).**\n\n- **Anode (oxidation):** Zn(s) → Zn²⁺(aq) + 2 e⁻, E° = +0.76 V (written as oxidation)\n- **Cathode (reduction):** Cu²⁺(aq) + 2 e⁻ → Cu(s), E° = +0.34 V\n- **Net:** Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)\n- **Cell potential:** E°cell = E°cathode − E°anode = +0.34 − (−0.76) = **+1.10 V**\n\nElectrons flow from the Zn anode to the Cu cathode; Zn dissolves while Cu plates out. The positive voltage confirms the reaction is spontaneous.",
+    "howItWorks": "1. In the **anode half-cell**, the more active metal (e.g., Zn) is oxidized: Zn → Zn²⁺ + 2 e⁻. The electrode loses mass as metal ions dissolve.\n2. The freed electrons travel through the external wire toward the cathode.\n3. In the **cathode half-cell**, cations in solution (e.g., Cu²⁺) are reduced at the electrode surface: Cu²⁺ + 2 e⁻ → Cu. The electrode gains mass as metal plates out.\n4. To keep each solution neutral, anions migrate toward the anode and cations toward the cathode through the salt bridge.\n5. The result is a steady electron current that can do work (light a bulb, run a device) until the cell runs down.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Anode = oxidation (An Ox); cathode = reduction (Red Cat).\n- Electrons flow **anode → cathode** in the external wire.\n- Salt bridge completes the circuit via ion migration and prevents charge buildup.\n- Anode loses mass (metal dissolves); cathode gains mass (metal plates out) in metal/metal-ion cells.\n- A galvanic cell runs a **spontaneous** reaction; E°cell > 0.\n- By convention, the anode is the negative terminal and cathode the positive terminal in a galvanic cell.",
+    "commonConfusions": "- **\"The anode is where reduction happens.\"** — Wrong. Oxidation is at the anode; reduction at the cathode (An Ox, Red Cat).\n- **\"Electrons flow cathode → anode.\"** — Wrong. Electrons flow anode → cathode through the external circuit.\n- **\"The salt bridge carries electrons.\"** — Wrong. It carries ions; electrons travel only through the wire.\n- **\"The cathode always gains mass and the anode always loses it.\"** — Only true for metal/metal-ion half-cells; gas or inert electrodes (e.g., Pt, graphite) don't change mass.\n- **\"A galvanic cell needs an external battery.\"** — Wrong. It *produces* electricity from a spontaneous reaction; an external source is what an *electrolytic* cell needs.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture two beakers with a pipe between them and a wire on top. In the left beaker, a metal is eager to *give away* electrons (oxidation) — it dissolves and \"donates\" electrons into the wire. Those electrons rush through the wire to the right beaker, where metal ions are happy to *accept* them and plate out as shiny metal (reduction). The pipe (salt bridge) lets ions shuffle back and forth so the beakers don't get electrically lopsided. The whole setup is just a way to make electrons run through a wire — and a moving stream of electrons is electricity. (The limit: electrons actually move *through the wire*, not through the solution; only ions move through the salt bridge and solutions.)",
+    "quickReview": "- Galvanic cell = spontaneous redox → electrical energy.\n- Anode (oxidation, −), cathode (reduction, +).\n- e⁻ flow anode → cathode; ions flow through the salt bridge.\n- Salt bridge prevents charge buildup and completes the circuit.\n- E°cell > 0 for a working galvanic cell.",
+    "workedExamples": "### Worked Example\n\n**The Daniell cell: Zn(s) | Zn²⁺(aq) || Cu²⁺(aq) | Cu(s).**\n\n- **Anode (oxidation):** Zn(s) → Zn²⁺(aq) + 2 e⁻, E° = +0.76 V (written as oxidation)\n- **Cathode (reduction):** Cu²⁺(aq) + 2 e⁻ → Cu(s), E° = +0.34 V\n- **Net:** Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)\n- **Cell potential:** E°cell = E°cathode − E°anode = +0.34 − (−0.76) = **+1.10 V**\n\nElectrons flow from the Zn anode to the Cu cathode; Zn dissolves while Cu plates out. The positive voltage confirms the reaction is spontaneous.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 17.2 \"Galvanic Cells.\" https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-2-galvanic-cells"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 17.3 \"Electrode and Cell Potentials.\" https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-3-electrode-and-cell-potentials"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/17-electrochemistry/02-galvanic-voltaic-cells.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

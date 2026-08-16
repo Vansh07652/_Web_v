@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-solutions-and-concentration-q08",
+  "subject": "chemistry-2",
+  "lesson": "solutions-and-concentration",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A student must prepare 500 mL of a 0.2 M aqueous solution of a compound with a molar mass of 58.5 g/mol for a laboratory exercise. What mass of the compound is required?",
+  "options": [
+    {
+      "id": "a",
+      "text": "5.85 g, found by multiplying molarity by volume in liters and then by molar mass"
+    },
+    {
+      "id": "b",
+      "text": "0.1 g, found by multiplying molarity by the volume in liters only"
+    },
+    {
+      "id": "c",
+      "text": "29.25 g, found by multiplying molar mass by the volume in liters and omitting the molarity"
+    },
+    {
+      "id": "d",
+      "text": "11.7 g, found by multiplying molarity by molar mass and by 1 L"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Moles required = M x V(L) = 0.2 mol/L x 0.5 L = 0.1 mol, and mass = moles x molar mass = 0.1 mol x 58.5 g/mol = 5.85 g. Choice D is the classic error of leaving the volume as 500 mL and effectively treating it as 1 L, which doubles the result; choice B stops after the mole step and mislabels moles as grams; choice C multiplies the molar mass by the 0.5 L volume but drops the 0.2 mol/L factor entirely. Volume must be converted to liters before molarity is applied, because molarity is defined per liter of solution.\n\nELI-10: Split the problem at the mole. Step one converts concentration and volume into an amount: 0.2 mol/L x 0.5 L = 0.1 mol. Step two converts that amount into something weighable using molar mass as the exchange rate: 0.1 mol x 58.5 g/mol = 5.85 g. Watch the units cancel and the path is obvious, because L cancels in the first step and mol cancels in the second. The usual failure is entering 500 instead of 0.5, so convert milliliters to liters before anything else touches the calculator.",
+  "difficulty": "medium",
+  "tags": [
+    "molarity calculations",
+    "moles to mass",
+    "volume unit conversion"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-278",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

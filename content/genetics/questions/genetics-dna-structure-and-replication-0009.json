@@ -1,0 +1,40 @@
+{
+  "id": "genetics-dna-structure-and-replication-0009",
+  "subject": "genetics",
+  "lesson": "dna-structure-and-replication",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** sequence-analysis A newly synthesized Okazaki fragment has the sequence 5' GGT AAC TAC 3'. The fragment was made by DNA polymerase working along a lagging strand template. What is the sequence and polarity of that template strand?",
+  "options": [
+    {
+      "id": "a",
+      "text": "3' GGT AAC TAC 5'"
+    },
+    {
+      "id": "b",
+      "text": "5' CCA TTG ATG 3'"
+    },
+    {
+      "id": "c",
+      "text": "5' GGT AAC TAC 3'"
+    },
+    {
+      "id": "d",
+      "text": "3' CCA TTG ATG 5'"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "The template is the reverse complement of the new strand: pairing A with T and G with C and reversing polarity turns 5' GGT AAC TAC 3' into 3' CCA TTG ATG 5'. Option B has the correct bases but points the template in the wrong direction, and options A and C copy the fragment sequence instead of complementing it. The template for the lagging strand runs 3' to 5' toward the fork, which is consistent with the answer.",
+  "difficulty": "unknown",
+  "tags": [
+    "fragment",
+    "back",
+    "template",
+    "sequence"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-5fcc89f16ce99a1e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

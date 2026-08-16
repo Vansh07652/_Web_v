@@ -1,0 +1,39 @@
+{
+  "id": "genetics-linkage-and-genetic-mapping-0004",
+  "subject": "genetics",
+  "lesson": "linkage-and-genetic-mapping",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** mapping In a three point test cross producing 1000 progeny, the *a*-*b* interval is 10 map units and the *b*-*c* interval is 20 map units. If 16 double crossover progeny are observed, what is the coefficient of coincidence, and what does it indicate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "CoC = 0.8, positive interference"
+    },
+    {
+      "id": "b",
+      "text": "CoC = 0.8, negative interference"
+    },
+    {
+      "id": "c",
+      "text": "CoC = 0.2, positive interference"
+    },
+    {
+      "id": "d",
+      "text": "CoC = 1.25, negative interference"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The expected double crossover count is the product of the two single crossover fractions times the total, 0.10 x 0.20 x 1000 = 20, so the coefficient of coincidence is CoC = observed DCO / expected DCO = 16/20 = 0.8. Interference is I = 1 - CoC = 0.2, which is greater than zero, so the interference is positive. B pairs the correct CoC with the wrong sign, C swaps the CoC and the interference values, and D inverts the ratio, 20/16 = 1.25, which would indicate negative interference.",
+  "difficulty": "unknown",
+  "tags": [
+    "coefficient",
+    "coincidence",
+    "interference"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-6f4c5593d895eb88",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

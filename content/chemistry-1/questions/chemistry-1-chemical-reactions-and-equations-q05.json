@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-chemical-reactions-and-equations-q05",
+  "subject": "chemistry-1",
+  "lesson": "chemical-reactions-and-equations",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A hypothetical laboratory burner combusts propane completely: C3H8 + 5 O2 -> 3 CO2 + 4 H2O. How many moles of O2 are consumed when 2 mol of propane burns completely?",
+  "options": [
+    {
+      "id": "a",
+      "text": "2.5 mol, because the 2 mol of propane is divided by the 5:1 ratio"
+    },
+    {
+      "id": "b",
+      "text": "10 mol, because the 5:1 mole ratio is applied to 2 mol of propane"
+    },
+    {
+      "id": "c",
+      "text": "5 mol, because the coefficient of O2 in the balanced equation is 5"
+    },
+    {
+      "id": "d",
+      "text": "8 mol, because the water coefficient of 4 is scaled to the 2 mol of propane"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Coefficients in a balanced equation express mole ratios, and this equation requires 5 mol O2 per 1 mol C3H8. Multiplying that ratio by 2 mol of propane gives 2 x 5 = 10 mol O2. Reading a coefficient as a fixed absolute amount, inverting the ratio, or picking the coefficient of the wrong species are the three common errors represented by the distractors.\n\nELI-10: Treat the balanced equation as a ratio, not a fixed quantity. It says every 1 propane pairs with 5 oxygen molecules. Doubling the propane doubles everything tied to it, so 2 propane pairs with 10 oxygen. The key move is to set up the ratio as 5 mol O2 per 1 mol C3H8 and multiply, so the propane units cancel and moles of O2 remain.",
+  "difficulty": "medium",
+  "tags": [
+    "mole ratio",
+    "stoichiometry",
+    "combustion reactions"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-276",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

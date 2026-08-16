@@ -1,0 +1,39 @@
+{
+  "id": "genetics-genomics-and-bioinformatics-0001",
+  "subject": "genetics",
+  "lesson": "genomics-and-bioinformatics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept In a whole genome sequencing project, which step joins millions of short overlapping reads into long contiguous genomic segments, a prerequisite for any further analysis?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Assembly"
+    },
+    {
+      "id": "b",
+      "text": "Annotation"
+    },
+    {
+      "id": "c",
+      "text": "Variant calling"
+    },
+    {
+      "id": "d",
+      "text": "Sequence alignment"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Assembly is the step in which overlapping reads are merged into longer contiguous sequences, reconstructing the genome from fragmentary reads. Annotation, in contrast, names the features in the assembled sequence, such as genes and regulatory elements. Variant calling identifies differences between a sample and a reference, and sequence alignment positions individual reads against a reference rather than building the genome.",
+  "difficulty": "unknown",
+  "tags": [
+    "genome",
+    "assembly",
+    "step"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-16973b1c51d4a9a2",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

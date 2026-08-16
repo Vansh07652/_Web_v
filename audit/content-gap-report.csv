@@ -1,0 +1,18 @@
+subject,content_type,content_id_or_filename,expected_location,actual_status,root_cause_classification,fix_applied_or_required
+chemistry-1,question-bank,topic-272,content/chemistry-1/questions/,60-question course sequence was absent,MISSING_FROM_REPOSITORY,RESTORED: 12 final audited questions as lesson atomic-structure-and-the-periodic-table
+chemistry-1,question-bank,topic-273,content/chemistry-1/questions/,60-question course sequence was absent,MISSING_FROM_REPOSITORY,RESTORED: 12 final audited questions as lesson ions-and-electrolytes
+chemistry-1,question-bank,topic-274,content/chemistry-1/questions/,60-question course sequence was absent,MISSING_FROM_REPOSITORY,RESTORED: 12 final audited questions as lesson ionic-and-covalent-bonding
+chemistry-1,question-bank,topic-275,content/chemistry-1/questions/,60-question course sequence was absent,MISSING_FROM_REPOSITORY,RESTORED: 12 final audited questions as lesson polarity-and-intermolecular-forces
+chemistry-1,question-bank,topic-276,content/chemistry-1/questions/,60-question course sequence was absent,MISSING_FROM_REPOSITORY,RESTORED: 12 final audited questions as lesson chemical-reactions-and-equations
+chemistry-2,question-bank,topic-277,content/chemistry-2/questions/,48-question course sequence was absent,MISSING_FROM_REPOSITORY,RESTORED: 12 final audited questions as lesson moles-and-molar-mass
+chemistry-2,question-bank,topic-278,content/chemistry-2/questions/,48-question course sequence was absent,MISSING_FROM_REPOSITORY,RESTORED: 12 final audited questions as lesson solutions-and-concentration
+chemistry-2,question-bank,topic-279,content/chemistry-2/questions/,48-question course sequence was absent,MISSING_FROM_REPOSITORY,RESTORED: 12 final audited questions as lesson acids-bases-and-ph
+chemistry-2,question-bank,topic-280,content/chemistry-2/questions/,48-question course sequence was absent,MISSING_FROM_REPOSITORY,RESTORED: 12 final audited questions as lesson buffers-and-physiologic-chemistry
+organic-chemistry-1,question-bank,topic-281,content/organic-chemistry-1/questions/,12-question course sequence was absent,MISSING_FROM_REPOSITORY,RESTORED: 12 final audited questions as lesson organic-chemistry-and-functional-groups
+organic-chemistry-2,subject,organic-chemistry-2,content/organic-chemistry-2/,no exact approved source found,CONTENT_UNRECOVERABLE,Human must provide an exact approved Organic Chemistry 2 source
+nclex-review,subject,nclex-review,content/nclex-review/,preserved clinical content is outside approval boundary,QUALIFIED_REVIEW_REQUIRED,Qualified reviewer must approve current clinical content before publication
+ALL,lesson,question-only-lessons,data/lessons.json,questions would be orphaned by note-only generator,PRESENT_BUT_NOT_INDEXED,FIXED: merge and validate data/question-only-lessons.json
+ALL,route,question-only-note-routes,GitHub Pages static routes,nonexistent note entry points were generated,INDEXED_BUT_NOT_RENDERED,FIXED: generate note detail routes only for indexed notes
+ALL,lesson,subject-page-lessons-after-6,data/lessons.json and subject page,Indexed records existed but only six cards rendered,INDEXED_BUT_NOT_RENDERED,FIXED earlier: removed subject-page lesson limit and retained exact-count browser assertions
+ALL,search-result,search-results-after-100,data/search-index.json and search results,Indexed records existed but only 100 cards rendered,INDEXED_BUT_NOT_RENDERED,FIXED earlier: removed search-result cap and retained exact-count browser assertions
+ALL,tag,tag-options-after-75-and-card-tags-after-5,data/tags.json and search UI,Indexed tags existed but controls/cards rendered fixed subsets,INDEXED_BUT_NOT_RENDERED,FIXED earlier: removed tag caps and retained full-option browser assertion

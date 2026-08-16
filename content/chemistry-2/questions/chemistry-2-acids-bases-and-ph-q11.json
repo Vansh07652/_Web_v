@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-acids-bases-and-ph-q11",
+  "subject": "chemistry-2",
+  "lesson": "acids-bases-and-ph",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A hypothetical laboratory buffer must hold a test solution near pH 7.4. Four weak acid/conjugate base pairs are available, with pKa values of 3.75, 4.76, 7.21, and 9.25. Which choice and reasoning are correct?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The pKa 7.21 pair, because buffering is strongest within about 1 unit of the pKa"
+    },
+    {
+      "id": "b",
+      "text": "The pKa 4.76 pair, because a lower pKa resists added acid more effectively"
+    },
+    {
+      "id": "c",
+      "text": "The pKa 9.25 pair, because the target pH lies on the alkaline side of neutral"
+    },
+    {
+      "id": "d",
+      "text": "The pKa 3.75 pair, because the strongest weak acid provides the most capacity"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "From pH = pKa + log([A-]/[HA]), a buffer holds appreciable amounts of both members only when the target pH is within roughly 1 unit of its pKa; there the ratio stays between about 1:10 and 10:1 and capacity is greatest. A pKa of 7.21 is only 0.19 unit from 7.4, requiring a near-equimolar mixture. The pKa 4.76 and 3.75 pairs would exist almost entirely as conjugate base at pH 7.4, and the pKa 9.25 pair almost entirely as the protonated acid, leaving little of the partner species to absorb an insult in either direction.\n\nELI-10: A buffer works because both partners are present in usable amounts; whichever one runs out first sets the limit. The pKa is the pH at which the two are equal, and each pH unit away from it tilts the mixture tenfold toward one side. Two units away the minority species is only about 1 percent of the pair, so the buffer is nearly exhausted before it starts. Matching the pKa to the target pH keeps both partners stocked.",
+  "difficulty": "hard",
+  "tags": [
+    "buffer selection",
+    "pKa and buffering range",
+    "Henderson–Hasselbalch reasoning"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-279",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

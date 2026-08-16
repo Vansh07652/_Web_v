@@ -1,0 +1,40 @@
+{
+  "id": "genetics-genomics-and-bioinformatics-0003",
+  "subject": "genetics",
+  "lesson": "genomics-and-bioinformatics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A researcher has sequenced a novel human cDNA and runs a BLAST search against a database of characterized genes. The top hit is a mouse gene sharing 92% sequence identity with the query across its full length. Which conclusion is best supported by this result?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The novel gene must lie on the same chromosome as the mouse gene."
+    },
+    {
+      "id": "b",
+      "text": "The 92% identity proves the two proteins are functionally identical in every context."
+    },
+    {
+      "id": "c",
+      "text": "The novel gene is likely the human counterpart of the mouse gene, so it probably performs the same biochemical function."
+    },
+    {
+      "id": "d",
+      "text": "The BLAST hit shows that the mouse gene was originally inherited from humans."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "High sequence identity across a full length is the classic bioinformatic evidence for orthology, and orthologous genes usually retain the same function. Option B is too strong, because shared sequence supports shared function but does not prove identical behavior in every context. Chromosome assignment cannot be read from sequence identity, and the mouse gene was not inherited from humans, so A and D fail.",
+  "difficulty": "unknown",
+  "tags": [
+    "blast",
+    "hit",
+    "functional",
+    "inference"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-16973b1c51d4a9a2",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

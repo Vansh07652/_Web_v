@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-moles-and-molar-mass-q06",
+  "subject": "chemistry-2",
+  "lesson": "moles-and-molar-mass",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which comparison of 1 mol of neon gas and 1 mol of nitrogen gas (N2) is accurate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Neon holds more representative particles, because its particles are single atoms rather than molecules"
+    },
+    {
+      "id": "b",
+      "text": "Nitrogen holds more representative particles, because each of its molecules is built from two atoms"
+    },
+    {
+      "id": "c",
+      "text": "Both hold the same number of representative particles, but the nitrogen sample holds twice as many atoms"
+    },
+    {
+      "id": "d",
+      "text": "Both hold the same number of atoms, because one mole fixes the atom count at 6.022 x 10^23"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "One mole of any substance contains 6.022 x 10^23 representative particles, so both samples contain that count: atoms for neon, molecules for N2. Each N2 molecule holds two nitrogen atoms, so the nitrogen sample contains 2(6.022 x 10^23) = 1.2044 x 10^24 atoms while neon contains 6.022 x 10^23 atoms. Identifying the representative particle before converting is what prevents this very common error in mole-to-particle work.\n\nELI-10: A mole counts whatever unit the substance is made of. For neon the unit is a lone atom; for nitrogen gas the unit is a molecule of two bonded atoms. One mole of each gives the same number of units, like one dozen single socks versus one dozen pairs of socks. The dozens match, but the pairs contain twice as many actual socks. So 1 mol of N2 holds 6.022 x 10^23 molecules and 1.2044 x 10^24 nitrogen atoms. Always ask which particle the question wants counted.",
+  "difficulty": "medium",
+  "tags": [
+    "representative particle",
+    "diatomic molecules",
+    "mole to atom conversion"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-277",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

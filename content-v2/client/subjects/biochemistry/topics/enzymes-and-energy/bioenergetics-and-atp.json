@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biochemistry:enzymes-and-energy:bioenergetics-and-atp",
+  "slug": "bioenergetics-and-atp",
+  "title": "Bioenergetics and ATP",
+  "subject": {
+    "id": "subject:biochemistry",
+    "slug": "biochemistry",
+    "title": "Biochemistry"
+  },
+  "unit": {
+    "id": "unit:biochemistry:enzymes-and-energy",
+    "slug": "enzymes-and-energy",
+    "title": "Enzymes and Energy",
+    "order": 5
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "This section covers **bioenergetics** — how cells manage energy — including **exergonic vs. endergonic** reactions, the role of **ATP** as the cell's energy currency, and **oxidation-reduction (redox)** reactions that transfer energy in metabolism.",
+    "whyItMatters": "All cellular work — from muscle contraction to active transport to building molecules — is powered by energy, primarily through **ATP**. Understanding bioenergetics is the gateway to metabolism (cellular respiration), which is central to physiology and clinical nutrition.",
+    "learningObjectives": "- Distinguish **exergonic** and **endergonic** reactions.\n- Describe **ATP** and how it stores/releases energy.\n- Explain **energy coupling**.\n- Define **oxidation and reduction (redox)** in metabolism.",
+    "keyTerms": "",
+    "collegeNotes": "**Energy in reactions: exergonic vs. endergonic.** Chemical reactions either release or require energy:\n\n- **Exergonic reactions** — **release** energy (products have less energy than reactants); they tend to occur spontaneously (e.g., breaking down glucose).\n- **Endergonic reactions** — **require/absorb** energy input (products have more energy than reactants); they need an energy source (e.g., building large molecules, muscle contraction).\n\nCells use energy from exergonic reactions to power endergonic ones.\n\n**ATP: the energy currency.** **ATP (adenosine triphosphate)** is the cell's main **energy currency** — a molecule that stores and delivers energy for cellular work. Its structure is **adenosine + three phosphate groups**. The energy is held in the **bonds between the phosphate groups**. When the **terminal phosphate bond is broken by hydrolysis**, ATP becomes **ADP (adenosine diphosphate) + phosphate**, **releasing energy** the cell can use. This is reversible: cells **regenerate ATP** from ADP + phosphate using energy from food (an endergonic step powered by metabolism). ATP is constantly recycled — cells turn over enormous amounts every day.\n\n**Energy coupling.** Cells use **energy coupling** — linking an energy-releasing (exergonic) reaction, like ATP hydrolysis, to an energy-requiring (endergonic) reaction to make it happen. ATP thus acts as the **intermediary** that transfers energy from fuel breakdown to cellular work (muscle contraction, active transport, biosynthesis).\n\n**Oxidation-reduction (redox) reactions.** Energy transfer in metabolism largely occurs through **redox reactions**, which involve the transfer of **electrons**:\n\n- **Oxidation** = **loss** of electrons.\n- **Reduction** = **gain** of electrons.\n\n(A common memory device: **\"OIL RIG\" — Oxidation Is Loss, Reduction Is Gain**.) In cellular respiration, glucose is **oxidized** (loses electrons), and electron carriers like **NAD⁺** are **reduced** to **NADH**, shuttling energy-rich electrons to the process that makes most ATP (electron transport chain — later unit). Redox reactions are how cells **capture and move energy** step by step rather than in one wasteful burst.",
+    "howItWorks": "Bioenergetics:\n\n```\nExergonic = releases energy (spontaneous) | Endergonic = requires energy input\nATP = energy currency (adenosine + 3 phosphates); energy in phosphate bonds\n   ATP → ADP + phosphate (hydrolysis) = RELEASE energy for work\n   ADP + phosphate → ATP = regenerate (powered by food/metabolism) — constantly recycled\nEnergy coupling: link exergonic (ATP hydrolysis) to endergonic (work) — ATP is the middleman\nRedox (electron transfer): Oxidation = lose e− ; Reduction = gain e− (\"OIL RIG\")\n   respiration: glucose oxidized; NAD+ reduced → NADH (carries energy-rich electrons)\n```",
+    "comparisons": "| Reaction | Energy | Example |\n| --- | --- | --- |\n| Exergonic | Releases | Glucose breakdown |\n| Endergonic | Requires | Building molecules, muscle contraction |\n\n| Redox term | Electrons |\n| --- | --- |\n| Oxidation | Loss of electrons |\n| Reduction | Gain of electrons |\n\n| ATP state | Meaning |\n| --- | --- |\n| ATP | Charged (3 phosphates; stored energy) |\n| ADP + phosphate | \"Spent\" (energy released) |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\n**ATP powers all cellular work** — muscle contraction, nerve impulses, active transport (e.g., the sodium-potassium pump), and biosynthesis. Understanding ATP sets up **cellular respiration** (how food becomes ATP) — central to metabolism, nutrition, and energy balance. **Redox reactions and NAD⁺/NADH** are the backbone of energy production (next unit). Conditions that impair ATP production (poor oxygen delivery, mitochondrial problems, poisons) have severe effects — connecting to shock, ischemia, and cellular injury (Pathophysiology).",
+    "commonConfusions": "- **Exergonic (releases energy) vs. endergonic (requires energy).**\n- **ATP → ADP releases energy** (breaking the phosphate bond); regenerating ATP requires energy.\n- **Oxidation = losing electrons; reduction = gaining electrons** (OIL RIG).\n- **ATP is recycled**, not stored in large amounts — it's continuously made and used.",
+    "memoryAids": "- **\"ATP = the cell's rechargeable battery (ATP ⇄ ADP).\"**\n- **\"EXergonic EXits energy; ENDergonic needs energy.\"**\n- **\"OIL RIG: Oxidation Is Loss, Reduction Is Gain (of electrons).\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nEverything your cells do needs energy, and the cell's main way to carry energy around is a molecule called **ATP** — think of it as a rechargeable battery. Cells also move energy by passing **electrons** around in \"redox\" reactions.\n\n### Analogy\nSome reactions **give off** energy (like a ball rolling downhill) — these are **exergonic**. Others **need** energy to happen (like pushing a ball uphill) — these are **endergonic**. Cells cleverly use the \"downhill\" energy to power the \"uphill\" jobs. The go-between for all this is **ATP**, the cell's **rechargeable battery**. A \"charged\" battery is **ATP** (it has three phosphate parts). When the cell needs energy, it **snaps off the last phosphate**, turning ATP into **ADP** and **releasing energy** to do work — like using battery power. Then, using energy from the food you eat, the cell **snaps the phosphate back on** to recharge it into ATP again. This happens billions of times, constantly! Cells also shuffle energy by passing tiny **electrons** from molecule to molecule (**redox** reactions): **losing** electrons is **oxidation**, **gaining** them is **reduction** — remembered as **\"OIL RIG.\"** Special carrier molecules (like **NADH**) act like little **shuttle buses** carrying energy-rich electrons to where the cell makes the most ATP.\n\n### What is actually happening\nThis is the engine room of the body. **ATP** powers your **muscles** (including your heart), your **nerves**, and the pumps that move salts in and out of cells (like the sodium-potassium pump). Understanding ATP sets up the next big topic — **how your food gets turned into ATP** (cellular respiration). It also explains why problems that cut off energy production — like **not enough oxygen** reaching tissues (in shock or a heart attack) — are so dangerous: without ATP, cells can't do their jobs and start to fail. So this \"rechargeable battery\" idea is at the heart of both normal physiology and many emergencies.\n\n### Where the analogy stops\nA real battery slowly drains and is recharged now and then, but cells recycle ATP almost instantly and continuously — you make and spend your body weight in ATP over a day, far faster than any phone battery.",
+    "quickReview": "- **Exergonic** reactions release energy; **endergonic** reactions require it — cells use one to power the other (**energy coupling**).\n- **ATP** (adenosine + 3 phosphates) is the cell's **energy currency**; **ATP → ADP + phosphate** releases energy, and ATP is continuously **regenerated** from ADP using energy from food.\n- **Redox reactions** transfer **electrons**: **oxidation = loss**, **reduction = gain** (\"OIL RIG\").\n- In respiration, glucose is **oxidized** and carriers like **NAD⁺ → NADH** shuttle energy-rich electrons toward ATP production.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Chapter 6: Metabolism (bioenergetics, ATP, redox). https://openstax.org/details/books/biology-2e",
+        "url": "https://openstax.org/details/books/biology-2e"
+      },
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 24: Metabolism and Nutrition (ATP, cellular energy). https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/05-biochemistry/05-enzymes-and-energy/03-bioenergetics-and-atp.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

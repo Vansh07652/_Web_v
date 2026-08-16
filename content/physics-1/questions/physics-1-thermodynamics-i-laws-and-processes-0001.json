@@ -1,0 +1,40 @@
+{
+  "id": "physics-1-thermodynamics-i-laws-and-processes-0001",
+  "subject": "physics-1",
+  "lesson": "thermodynamics-i-laws-and-processes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For system surroundings and state variables, use $W = P Delta V$ in a isobaric process model. The first quantity is 255.00 Pa and the second is 0.040 m^3. What is the work by gas?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$5.10\\ \\text{J}$"
+    },
+    {
+      "id": "b",
+      "text": "$10.20\\ \\text{J}$"
+    },
+    {
+      "id": "c",
+      "text": "$20.40\\ \\text{J}$"
+    },
+    {
+      "id": "d",
+      "text": "$10.24\\ \\text{J}$"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Using $W = P Delta V$ gives 255.00 Pa times 0.040 m^3 = $10.20\\ \\text{J}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to J, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "system",
+    "surroundings",
+    "state",
+    "variables"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-07b8e02453e44d2c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

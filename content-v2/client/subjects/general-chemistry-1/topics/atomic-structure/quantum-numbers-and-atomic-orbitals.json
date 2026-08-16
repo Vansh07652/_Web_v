@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-1:atomic-structure:quantum-numbers-and-atomic-orbitals",
+  "slug": "quantum-numbers-and-atomic-orbitals",
+  "title": "Quantum Numbers and Atomic Orbitals",
+  "subject": {
+    "id": "subject:general-chemistry-1",
+    "slug": "general-chemistry-1",
+    "title": "General Chemistry I"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-1:atomic-structure",
+    "slug": "atomic-structure",
+    "title": "Atomic Structure",
+    "order": 2
+  },
+  "order": 15,
+  "status": "final",
+  "sections": {
+    "overview": "Quantum mechanics describes electrons with four quantum numbers: n (principal, energy level), l (angular momentum, sublevel shape), m_l (magnetic, orbital orientation), and m_s (spin, ±½). Together they specify the energy, shape, orientation, and spin of each electron. The l values 0, 1, 2, 3 correspond to the s, p, d, and f orbitals, whose shapes (spherical, dumbbell, cloverleaf, and more complex) describe where an electron is likely to be found.",
+    "whyItMatters": "The shapes and energies of orbitals govern chemistry that is central to medicine. The three-dimensional shapes of p and d orbitals determine how atoms pack together to form drug molecules and how they interact with biological receptors — a drug must fit a protein's binding site in 3-D, and that fit depends on orbital geometry. Transition-metal d orbitals (the reason metals such as iron and copper have characteristic colors and magnetic behavior) are essential to oxygen transport by hemoglobin (iron), electron transport in mitochondria, and imaging contrast agents such as gadolinium. Understanding orbital shapes is the foundation for molecular shape, bonding, and drug design covered in later topics.",
+    "learningObjectives": "1. List the four quantum numbers and state the allowed values of each.\n2. Relate the principal and angular momentum quantum numbers to shells and subshells.\n3. Determine the number and orientation of orbitals in any subshell using the magnetic quantum number.\n4. Describe the shapes of s, p, d, and f orbitals and connect them to the quantum numbers.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Principal quantum number (n) | Energy level (1, 2, 3, …) | Sets the electron's energy and shell size. |\n| Angular momentum quantum number (l) | Sublevel shape (0 → s, 1 → p, 2 → d, 3 → f) | Determines the orbital's shape. |\n| Magnetic quantum number (m_l) | Orbital orientation (−l to +l) | Counts how many orbitals a subshell has. |\n| Spin quantum number (m_s) | Electron spin (+½ or −½) | Allows two electrons per orbital with opposite spins. |\n| Shell | All orbitals sharing the same n | Groups electrons by energy level. |\n| Subshell | All orbitals with the same n and l | Groups orbitals by shape (for example, 2p). |\n| Orbital | A region of high electron probability | Replaces the idea of a fixed orbit. |\n| Node | A region of zero electron probability | More nodes → higher energy. |",
+    "collegeNotes": "### 1. The Four Quantum Numbers\n\nEach electron in an atom is described by a unique set of four quantum numbers:\n\n- **Principal quantum number (n)**: energy level and size. Allowed values: positive integers 1, 2, 3, …. Larger n = higher energy and larger average distance from the nucleus.\n- **Angular momentum quantum number (l)**: the sublevel (subshell) and orbital shape. Allowed values: integers from 0 to n − 1. The code is l = 0 → s, 1 → p, 2 → d, 3 → f.\n- **Magnetic quantum number (m_l)**: the orientation of the orbital in space. Allowed values: integers from −l to +l, including 0. The number of m_l values (2l + 1) equals the number of orbitals in that subshell.\n- **Spin quantum number (m_s)**: the intrinsic spin of the electron. Allowed values: +½ or −½. No two electrons in the same atom share all four quantum numbers.\n\n### 2. Shells, Subshells, and Orbitals\n\nThe n value defines a **shell** (energy level), and within each shell the l values define **subshells**. The n = 1 shell has only an s subshell (1s); n = 2 has 2s and 2p; n = 3 has 3s, 3p, and 3d; n = 4 has 4s, 4p, 4d, and 4f. Each subshell contains (2l + 1) orbitals, and each orbital holds at most 2 electrons, so:\n\n- s subshell (l = 0): 1 orbital, up to 2 electrons\n- p subshell (l = 1): 3 orbitals (m_l = −1, 0, +1), up to 6 electrons\n- d subshell (l = 2): 5 orbitals (m_l = −2 … +2), up to 10 electrons\n- f subshell (l = 3): 7 orbitals (m_l = −3 … +3), up to 14 electrons\n\nThe total number of orbitals in a shell is n², and the maximum electron capacity is 2n².\n\n### 3. Orbital Shapes\n\n- **s orbitals**: spherical, centered on the nucleus; size increases with n.\n- **p orbitals**: two lobes on opposite sides of the nucleus (a dumbbell), one along each axis (p_x, p_y, p_z), with a nodal plane through the nucleus.\n- **d orbitals**: four of the five are cloverleaf-shaped (four lobes); the fifth (d_z²) has a dumbbell along the z-axis with a doughnut-like ring around its middle.\n- **f orbitals**: complex, with multiple lobes and nodes; their shapes are rarely drawn in detail.\n\nA **node** is a region where the probability of finding the electron is zero. The number of **angular nodes** equals l, and the total number of nodes increases with n. Orbitals with more nodes have higher energy.",
+    "howItWorks": "1. Choose a shell by fixing n (the energy level).\n2. Within that shell, list the allowed sublevels l = 0, 1, …, n − 1 (s, p, d, f).\n3. For each sublevel, list the allowed m_l values from −l to +l — each is one orbital of a given orientation.\n4. Place up to two electrons (m_s = +½ and −½) in each orbital.\n5. The result is a complete map of shell → subshell → orbital → electron, each electron identified by a unique set of four quantum numbers.",
+    "comparisons": "",
+    "highYield": "- **High yield:** l ranges from 0 to n − 1; m_l ranges from −l to +l; m_s is ±½.\n- **High yield:** s = 1 orbital (2 e⁻), p = 3 (6 e⁻), d = 5 (10 e⁻), f = 7 (14 e⁻).\n- **High yield:** A shell holds n² orbitals and up to 2n² electrons.\n- Orbitals are probability regions, not paths; a boundary surface encloses ~90% of the electron density.\n- s orbitals are spherical; p orbitals are dumbbell-shaped; d orbitals are mostly cloverleaf.\n- The number of angular nodes equals l.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Shell (n) | Subshell (l) | A shell is the whole energy level; a subshell is one type of orbital within it. |\n| Orbital | Orbit | An orbital is a probability region; an orbit (Bohr) is a fixed path. |\n| l = 0 | l = 1 | l = 0 is an s (spherical) orbital; l = 1 is a p (dumbbell) orbital. |\n| m_l | m_s | m_l gives orientation; m_s gives electron spin (up/down). |",
+    "memoryAids": "\"**n** names the floor, **l** the shape, **m** the orientation, **s** the spin.\" For l: \"**s**pherical, **p**eanut (dumbbell), **d**aisy (cloverleaf), **f**ancy\" — or simply remember l = 0, 1, 2, 3 → s, p, d, f.",
+    "eli10": "Think of an apartment building. The *floor* you live on is like the principal quantum number n — the higher the floor, the more energy you have. On each floor there are different kinds of apartments — studios, one-bedrooms, two-bedrooms — which is like the sublevel l (s, p, d, f). Each apartment type also faces a different direction (north, south, east, west), which is like the magnetic quantum number m_l that tells you the orientation. Finally, each apartment can hold up to two people, one standing and one lying down — the spin quantum number m_s.\n\nThe shapes of orbitals are the \"floor plans.\" An s orbital is a simple sphere centered on the nucleus. A p orbital is a dumbbell with two lobes pointing in opposite directions, and there are three of them pointing along the x, y, and z axes. d orbitals are mostly cloverleaf shapes, and f orbitals are more complex still.\n\nThis comparison stops being exact because orbitals are not rooms with walls. They are fuzzy probability clouds — regions where the electron is *likely* to be found most of the time. The boundary of an orbital is usually drawn to enclose about 90% of that probability, so there is always some chance of finding the electron outside the shape you draw.\n\n### Simple Example\n\nThe nitrogen atom's outermost electrons live on the \"second floor\" (n = 2). On that floor there is one spherical s orbital and three dumbbell-shaped p orbitals. Nitrogen's five valence electrons spread among these four orbitals — two paired up in the s orbital, and the other three one each in the three p orbitals.",
+    "quickReview": "### Topic Recap\n\nElectrons are described by four quantum numbers — n (level), l (shape), m_l (orientation), and m_s (spin) — whose allowed values follow simple rules (l < n; m_l from −l to +l; m_s = ±½). These numbers define shells, subshells, and orbitals, with s, p, d, and f orbitals having characteristic shapes and capacities of 2, 6, 10, and 14 electrons. With orbitals defined, the next topic shows how to fill them with electrons to build electron configurations.\n\n### Knowledge Check\n\n1. What are the allowed values of l when n = 3?\n2. How many orbitals are in a d subshell, and how many electrons can it hold?\n3. Give one set of valid quantum numbers for an electron in a 3p orbital.\n4. What is the shape of an s orbital? Of a p orbital?\n5. What is the maximum number of electrons in the n = 4 shell?\n\n### Answers and Rationales\n\n1. l = 0, 1, 2 (s, p, d) — l runs from 0 to n − 1.\n2. A d subshell has 5 orbitals (m_l = −2 to +2) and holds up to 10 electrons.\n3. Any valid set, for example n = 3, l = 1, m_l = 0, m_s = +½ (l = 1 for p; m_l = −1, 0, or +1; m_s = ±½).\n4. An s orbital is spherical; a p orbital is a two-lobed dumbbell.\n5. 2n² = 2(4)² = 32 electrons.",
+    "workedExamples": "While there is no single energy equation for a general atom (unlike Bohr's hydrogen), counting orbitals and electrons relies on simple arithmetic rules.\n\n**Rules used:**\n- l ranges from 0 to n − 1; m_l ranges from −l to +l; orbitals per subshell = 2l + 1.\n- Electrons per orbital = 2; electrons per shell = 2n².\n\n**Example 1 — valid quantum number sets.** Which of the following sets of quantum numbers is allowed? (a) n = 2, l = 2, m_l = 0; (b) n = 3, l = 1, m_l = −1; (c) n = 1, l = 0, m_l = 1.\n\n(a) Not allowed: for n = 2, l can only be 0 or 1 (l must be < n), so l = 2 is invalid.\n(b) Allowed: l = 1 is less than n = 3, and m_l = −1 is within −l to +l.\n(c) Not allowed: l = 0 means m_l can only be 0, so m_l = 1 is invalid.\n\n**Example 2 — counting orbitals.** How many orbitals are in the n = 3 shell? What is the maximum number of electrons?\n\nSubshells: 3s (l = 0, 1 orbital), 3p (l = 1, 3 orbitals), 3d (l = 2, 5 orbitals). Total = 1 + 3 + 5 = 9 orbitals = n² = 3² = 9. Maximum electrons = 2n² = 18.\n\n**Example 3 — identifying an orbital.** What orbital is described by n = 4, l = 2, m_l = −1? How many electrons can it hold?\n\nn = 4 and l = 2 identifies a 4d orbital; m_l = −1 gives one specific orientation (there are five). Each orbital holds a maximum of 2 electrons (opposite spins).",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "quantum-numbers-and-atomic-orbitals",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "15-quantum-numbers-and-atomic-orbitals",
+      "kind": "source_file_stem",
+      "source_id": "need-review-general-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-general-chemistry-i",
+    "sourceFile": "general-chemistry-i-study-notes/docs/general-chemistry-i/15-quantum-numbers-and-atomic-orbitals.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

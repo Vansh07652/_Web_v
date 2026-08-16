@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:membranes-transport:primary-active-transport",
+  "slug": "primary-active-transport",
+  "title": "Primary Active Transport: The Na⁺/K⁺ ATPase and Ca²⁺ ATPase",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:membranes-transport",
+    "slug": "membranes-transport",
+    "title": "Membranes Transport",
+    "order": 2
+  },
+  "order": 10,
+  "status": "final",
+  "sections": {
+    "overview": "Primary active transport couples the hydrolysis of ATP directly to the movement of solutes against their electrochemical gradients. The energy of ATP's terminal phosphate (or its hydrolysis) is transduced through a conformational change in a \"pump\" protein to force ions uphill. The paradigm is the Na⁺/K⁺ ATPase, which pumps 3 Na⁺ out and 2 K⁺ in per ATP hydrolyzed; other examples are the Ca²⁺ ATPases and the proton-pumping V- and F-type ATPases. Because primary pumps build ion gradients, they also supply the energy for all secondary active transport.",
+    "whyItMatters": "The Na⁺/K⁺ ATPase maintains the Na⁺ and K⁺ gradients that drive action potentials, nutrient co-transport, and cell-volume control, and it is a major consumer of cellular ATP (up to a third in neurons). SERCA/PMCA keep cytosolic Ca²⁺ low so it can serve as a signaling ion. Cardiac glycosides (digoxin) target the pump clinically, and ABC transporters underlie cancer multidrug resistance.",
+    "learningObjectives": "- Define primary active transport and distinguish it from secondary active transport.\n- Describe the Na⁺/K⁺ ATPase cycle, its stoichiometry, and why it is electrogenic.\n- Describe the Ca²⁺ ATPases (SERCA, PMCA) and their role in Ca²⁺ homeostasis.\n- Identify the major classes of transport ATPases (P-, V-, F-type, ABC).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nPrimary active transport couples the hydrolysis of ATP directly to the movement of solutes against their electrochemical gradients. The energy of ATP's terminal phosphate (or its hydrolysis) is transduced through a conformational change in a \"pump\" protein to force ions uphill. The paradigm is the Na⁺/K⁺ ATPase, which pumps 3 Na⁺ out and 2 K⁺ in per ATP hydrolyzed; other examples are the Ca²⁺ ATPases and the proton-pumping V- and F-type ATPases. Because primary pumps build ion gradients, they also supply the energy for all secondary active transport.\n\n### Key Components\n\n### Na⁺/K⁺ ATPase (the sodium-potassium pump)\nA P-type ATPase present in nearly all animal-cell plasma membranes. Per ATP: 3 Na⁺ exported, 2 K⁺ imported. Because one net positive charge leaves per cycle, it is **electrogenic**. Inhibited by ouabain and related cardiac glycosides.\n\n### Ca²⁺ ATPases\nP-type pumps that eject Ca²⁺ from the cytosol — SERCA into the sarcoplasmic/endoplasmic reticulum and PMCA across the plasma membrane — keeping resting cytosolic Ca²⁺ ~10,000-fold lower than outside.\n\n### P-type ATPases\nA family that forms a phosphorylated aspartate intermediate during the cycle (hence \"P-type\"); includes Na⁺/K⁺, Ca²⁺, and H⁺/K⁺ pumps.\n\n### V-, F-type ATPases\nProton pumps that do not form a phosphorylated intermediate: V-type acidifies organelles; F-type (ATP synthase) normally runs in reverse to make ATP using a proton gradient.\n\n### ABC transporters\nATP-binding cassette transporters that use ATP to pump small molecules (not just ions) across membranes (e.g., multidrug-resistance transporters).\n\n### Mechanism\n\nPrimary pumps are \"coupled\" machines: ATP hydrolysis at a catalytic site drives a cycle of conformational states with alternating access to the two sides of the membrane and changing ion affinities. High affinity for the ion on one side loads it; the energy-releasing step lowers affinity and opens to the other side, releasing the ion against its gradient.\n\n### How It Works\n\n1. Three intracellular Na⁺ bind the Na⁺/K⁺ ATPase (high Na⁺ affinity, inward-facing).\n2. ATP phosphorylates a conserved aspartate → conformational change that occludes Na⁺ and opens outward.\n3. Na⁺ is released outside (affinity now low).\n4. Two extracellular K⁺ bind → dephosphorylation → conformational change back inward.\n5. K⁺ is released into the cytosol; the cycle repeats. Net: 3 Na⁺ out, 2 K⁺ in, 1 ATP consumed.\n\n### Energy and Directionality\n\nThe pump is an energy converter: it transduces the free energy of ATP hydrolysis (ΔG ~ −50 kJ/mol under cellular conditions) into ion gradients (stored electrochemical free energy). Direction is \"uphill\" for both Na⁺ and K⁺, made possible only by the ATP-coupled conformational cycle. The electrogenic 3:2 stoichiometry contributes a small direct negative voltage.\n\n### Experimental Evidence\n\n- **Ouabain sensitivity:** cardiac glycosides (ouabain, digoxin) specifically inhibit the Na⁺/K⁺ ATPase; their effects established the pump's role in setting ion gradients.\n- **Reconstitution:** purified Na⁺/K⁺ ATPase in liposomes pumps Na⁺ and K⁺ against gradients when supplied ATP, proving direct coupling.\n- **Stoichiometry measurements:** radioactive Na⁺/K⁺ flux and electrophysiology established 3 Na⁺ : 2 K⁺ : 1 ATP and the resulting outward current.\n\n### Technique\n\nPump activity is assayed by ATP-hydrolysis rates (ATPase assays, sensitive to ouabain), radioactive ion-flux measurements in cells or reconstituted vesicles, and electrophysiological detection of the pump's net outward current.",
+    "howItWorks": "1. Three intracellular Na⁺ bind the Na⁺/K⁺ ATPase (high Na⁺ affinity, inward-facing).\n2. ATP phosphorylates a conserved aspartate → conformational change that occludes Na⁺ and opens outward.\n3. Na⁺ is released outside (affinity now low).\n4. Two extracellular K⁺ bind → dephosphorylation → conformational change back inward.\n5. K⁺ is released into the cytosol; the cycle repeats. Net: 3 Na⁺ out, 2 K⁺ in, 1 ATP consumed.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Primary active transport = ATP hydrolysis directly coupled to uphill ion movement.\n- Na⁺/K⁺ ATPase: 3 Na⁺ out, 2 K⁺ in, 1 ATP → electrogenic (net +1 charge out).\n- Inhibited by ouabain/digoxin.\n- Ca²⁺ ATPases: SERCA (into ER/SR), PMCA (out of cell).\n- P-type = phosphorylated aspartate intermediate; V/F-type = proton pumps without it.\n- The pump *builds* gradients that power secondary transport.",
+    "commonConfusions": "- **\"The pump directly makes the resting membrane potential.\"** It *maintains* the ion gradients and adds a small direct electrogenic contribution, but the resting potential itself comes mainly from K⁺ diffusion through leak channels.\n- **\"Secondary active transport also burns ATP directly.\"** No — it borrows the gradient the primary pump built (see the secondary transport note).\n- **\"The pump is symmetrical.\"** It is asymmetric: 3 Na⁺ out vs. 2 K⁺ in, making it electrogenic.\n- **\"All ATPases form a phosphorylated intermediate.\"** V- and F-type ATPases and ABC transporters do not.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThe Na⁺/K⁺ pump is like a coin-operated turnstile that only runs uphill. Every time you feed it one ATP \"coin,\" it pushes three sodium people out of the cell and drags two potassium people in — against where they'd naturally go. It is a little motor that spends energy to pile up a \"hill\" of ions, and the cell later lets those ions roll back down the hill to do other jobs.",
+    "quickReview": "- ATP → conformational cycle → uphill transport.\n- Na⁺/K⁺ ATPase: 3 Na⁺ out : 2 K⁺ in : 1 ATP (electrogenic, ouabain-sensitive).\n- Ca²⁺ ATPases (SERCA/PMCA) keep cytosolic Ca²⁺ low.\n- Classes: P-, V-, F-type, ABC.\n- Primary pumps power all secondary active transport.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"5.3 Active Transport.\" https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+        "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport"
+      },
+      {
+        "text": "StatPearls, \"Physiology, Sodium Potassium Pump.\" https://www.ncbi.nlm.nih.gov/books/NBK537088/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK537088/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Principles of Membrane Transport.\" https://www.ncbi.nlm.nih.gov/books/NBK26815/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "primary-active-transport",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "10-primary-active-transport",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:9bb592e33d96e8b6"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:9bb592e33d96e8b6"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:9bb592e33d96e8b6"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:9bb592e33d96e8b6"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/02-membranes-transport/10-primary-active-transport.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Primary Active Transport: The Na⁺/K⁺ ATPase and Ca²⁺ ATPase\n\n## Learning Goals\n- Define primary active transport and distinguish it from secondary active transport.\n- Describe the Na⁺/K⁺ ATPase cycle, its stoichiometry, and why it is electrogenic.\n- Describe the Ca²⁺ ATPases (SERCA, PMCA) and their role in Ca²⁺ homeostasis.\n- Identify the major classes of transport ATPases (P-, V-, F-type, ABC).\n\n## Core Concept\nPrimary active transport couples the hydrolysis of ATP directly to the movement of solutes against their electrochemical gradients. The energy of ATP's terminal phosphate (or its hydrolysis) is transduced through a conformational change in a \"pump\" protein to force ions uphill. The paradigm is the Na⁺/K⁺ ATPase, which pumps 3 Na⁺ out and 2 K⁺ in per ATP hydrolyzed; other examples are the Ca²⁺ ATPases and the proton-pumping V- and F-type ATPases. Because primary pumps build ion gradients, they also supply the energy for all secondary active transport.\n\n## Key Components\n### Na⁺/K⁺ ATPase (the sodium-potassium pump)\nA P-type ATPase present in nearly all animal-cell plasma membranes. Per ATP: 3 Na⁺ exported, 2 K⁺ imported. Because one net positive charge leaves per cycle, it is **electrogenic**. Inhibited by ouabain and related cardiac glycosides.\n\n### Ca²⁺ ATPases\nP-type pumps that eject Ca²⁺ from the cytosol — SERCA into the sarcoplasmic/endoplasmic reticulum and PMCA across the plasma membrane — keeping resting cytosolic Ca²⁺ ~10,000-fold lower than outside.\n\n### P-type ATPases\nA family that forms a phosphorylated aspartate intermediate during the cycle (hence \"P-type\"); includes Na⁺/K⁺, Ca²⁺, and H⁺/K⁺ pumps.\n\n### V-, F-type ATPases\nProton pumps that do not form a phosphorylated intermediate: V-type acidifies organelles; F-type (ATP synthase) normally runs in reverse to make ATP using a proton gradient.\n\n### ABC transporters\nATP-binding cassette transporters that use ATP to pump small molecules (not just ions) across membranes (e.g., multidrug-resistance transporters).\n\n## Mechanism\nPrimary pumps are \"coupled\" machines: ATP hydrolysis at a catalytic site drives a cycle of conformational states with alternating access to the two sides of the membrane and changing ion affinities. High affinity for the ion on one side loads it; the energy-releasing step lowers affinity and opens to the other side, releasing the ion against its gradient.\n\n## How It Works\n1. Three intracellular Na⁺ bind the Na⁺/K⁺ ATPase (high Na⁺ affinity, inward-facing).\n2. ATP phosphorylates a conserved aspartate → conformational change that occludes Na⁺ and opens outward.\n3. Na⁺ is released outside (affinity now low).\n4. Two extracellular K⁺ bind → dephosphorylation → conformational change back inward.\n5. K⁺ is released into the cytosol; the cycle repeats. Net: 3 Na⁺ out, 2 K⁺ in, 1 ATP consumed.\n\n## Energy and Directionality\nThe pump is an energy converter: it transduces the free energy of ATP hydrolysis (ΔG ~ −50 kJ/mol under cellular conditions) into ion gradients (stored electrochemical free energy). Direction is \"uphill\" for both Na⁺ and K⁺, made possible only by the ATP-coupled conformational cycle. The electrogenic 3:2 stoichiometry contributes a small direct negative voltage.\n\n## Experimental Evidence\n- **Ouabain sensitivity:** cardiac glycosides (ouabain, digoxin) specifically inhibit the Na⁺/K⁺ ATPase; their effects established the pump's role in setting ion gradients.\n- **Reconstitution:** purified Na⁺/K⁺ ATPase in liposomes pumps Na⁺ and K⁺ against gradients when supplied ATP, proving direct coupling.\n- **Stoichiometry measurements:** radioactive Na⁺/K⁺ flux and electrophysiology established 3 Na⁺ : 2 K⁺ : 1 ATP and the resulting outward current.\n\n## Technique\nPump activity is assayed by ATP-hydrolysis rates (ATPase assays, sensitive to ouabain), radioactive ion-flux measurements in cells or reconstituted vesicles, and electrophysiological detection of the pump's net outward current.\n\n## Why It Matters\nThe Na⁺/K⁺ ATPase maintains the Na⁺ and K⁺ gradients that drive action potentials, nutrient co-transport, and cell-volume control, and it is a major consumer of cellular ATP (up to a third in neurons). SERCA/PMCA keep cytosolic Ca²⁺ low so it can serve as a signaling ion. Cardiac glycosides (digoxin) target the pump clinically, and ABC transporters underlie cancer multidrug resistance.\n\n## High-Yield Facts\n- Primary active transport = ATP hydrolysis directly coupled to uphill ion movement.\n- Na⁺/K⁺ ATPase: 3 Na⁺ out, 2 K⁺ in, 1 ATP → electrogenic (net +1 charge out).\n- Inhibited by ouabain/digoxin.\n- Ca²⁺ ATPases: SERCA (into ER/SR), PMCA (out of cell).\n- P-type = phosphorylated aspartate intermediate; V/F-type = proton pumps without it.\n- The pump *builds* gradients that power secondary transport.\n\n## Eli Explains\nThe Na⁺/K⁺ pump is like a coin-operated turnstile that only runs uphill. Every time you feed it one ATP \"coin,\" it pushes three sodium people out of the cell and drags two potassium people in — against where they'd naturally go. It is a little motor that spends energy to pile up a \"hill\" of ions, and the cell later lets those ions roll back down the hill to do other jobs.\n\n## Common Confusions\n- **\"The pump directly makes the resting membrane potential.\"** It *maintains* the ion gradients and adds a small direct electrogenic contribution, but the resting potential itself comes mainly from K⁺ diffusion through leak channels.\n- **\"Secondary active transport also burns ATP directly.\"** No — it borrows the gradient the primary pump built (see the secondary transport note).\n- **\"The pump is symmetrical.\"** It is asymmetric: 3 Na⁺ out vs. 2 K⁺ in, making it electrogenic.\n- **\"All ATPases form a phosphorylated intermediate.\"** V- and F-type ATPases and ABC transporters do not.\n\n## Quick Review\n- ATP → conformational cycle → uphill transport.\n- Na⁺/K⁺ ATPase: 3 Na⁺ out : 2 K⁺ in : 1 ATP (electrogenic, ouabain-sensitive).\n- Ca²⁺ ATPases (SERCA/PMCA) keep cytosolic Ca²⁺ low.\n- Classes: P-, V-, F-type, ABC.\n- Primary pumps power all secondary active transport.\n\n## Sources\n- OpenStax, *Biology 2e*, \"5.3 Active Transport.\" https://openstax.org/books/biology-2e/pages/5-3-active-transport\n- StatPearls, \"Physiology, Sodium Potassium Pump.\" https://www.ncbi.nlm.nih.gov/books/NBK537088/\n- Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Principles of Membrane Transport.\" https://www.ncbi.nlm.nih.gov/books/NBK26815/\n"
+}

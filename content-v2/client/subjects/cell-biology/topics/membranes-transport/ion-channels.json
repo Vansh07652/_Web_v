@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:membranes-transport:ion-channels",
+  "slug": "ion-channels",
+  "title": "Ion Channels: Voltage-, Ligand-, and Mechanically Gated",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:membranes-transport",
+    "slug": "membranes-transport",
+    "title": "Membranes Transport",
+    "order": 2
+  },
+  "order": 12,
+  "status": "final",
+  "sections": {
+    "overview": "Ion channels are integral membrane proteins that form water-filled pores selective for particular ions (Na⁺, K⁺, Ca²⁺, Cl⁻). When open, they let ions flow passively down their electrochemical gradients at near-diffusion-limited rates (~10⁶–10⁸ ions/s). The key regulatory feature is **gating**: channels open and close in response to a stimulus — a change in membrane voltage (**voltage-gated**), the binding of a chemical (**ligand-gated**), or mechanical deformation (**mechanically gated**). This gating converts physical or chemical signals into ionic currents that underlie electrical signaling.",
+    "whyItMatters": "Ion channels are the molecular basis of the nervous system, muscle contraction, sensory transduction, and hormone secretion. Voltage-gated Na⁺/K⁺/Ca²⁺ channels generate action potentials and synaptic release; ligand-gated channels mediate synaptic transmission; mechanically gated channels underlie hearing, touch, and blood-pressure sensing. Channelopathies (mutations in channel genes) cause epilepsy, cardiac arrhythmias, cystic fibrosis, and periodic paralysis, and channels are major drug targets (anesthetics, antiarrhythmics, anticonvulsants).",
+    "learningObjectives": "- Define ion channels and describe their selectivity and high throughput.\n- Contrast the three gating mechanisms: voltage, ligand, and mechanical.\n- Explain channel states (closed, open, inactivated) and the concept of gating.\n- Give physiological examples of each gating class.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nIon channels are integral membrane proteins that form water-filled pores selective for particular ions (Na⁺, K⁺, Ca²⁺, Cl⁻). When open, they let ions flow passively down their electrochemical gradients at near-diffusion-limited rates (~10⁶–10⁸ ions/s). The key regulatory feature is **gating**: channels open and close in response to a stimulus — a change in membrane voltage (**voltage-gated**), the binding of a chemical (**ligand-gated**), or mechanical deformation (**mechanically gated**). This gating converts physical or chemical signals into ionic currents that underlie electrical signaling.\n\n### Key Components\n\n### Pore and selectivity filter\nThe central aqueous pathway, with a narrow selectivity filter that discriminates among ions by size, charge, and dehydration energy (e.g., the K⁺ channel's signature GYG sequence).\n\n### Gating domain/sensor\nThe part that senses the stimulus and couples it to pore opening: voltage-sensing S4 helices, ligand-binding sites, or tension-sensitive linkers.\n\n### Voltage-gated channels\nOpen in response to membrane depolarization or hyperpolarization. Examples: voltage-gated Na⁺ and K⁺ channels of the action potential, voltage-gated Ca²⁺ channels of synapses and muscle.\n\n### Ligand-gated channels\nOpen when a specific molecule binds. Examples: the nicotinic acetylcholine receptor (opens on ACh binding, passing Na⁺/K⁺), glutamate (NMDA/AMPA) receptors, GABA and glycine receptors (Cl⁻), and intracellular-ligand-gated channels (e.g., ATP-gated, cyclic-nucleotide-gated).\n\n### Mechanically gated channels\nOpen in response to membrane stretch or force. Examples: touch receptors, the hair-cell transduction channels of the inner ear, and osmosensitive channels.\n\n### Channel states\nClosed (resting), open (conducting), and — for many voltage-gated channels — inactivated (non-conducting and refractory to opening).\n\n### Mechanism\n\nA channel is a passive conduit, not a pump: it accelerates diffusion by providing a low-resistance, ion-selective path through the otherwise impermeable bilayer. Gating is a conformational switch — a stimulus shifts the equilibrium between closed and open conformations, so the channel spends more time open. Ions then move strictly down their electrochemical gradients; the channel cannot move them uphill.\n\n### How It Works\n\n1. A stimulus arrives: a voltage change, a ligand, or mechanical force.\n2. The sensor changes conformation and opens the pore (gating).\n3. Ions flow down their electrochemical gradients through the selectivity filter.\n4. The channel closes (deactivation), or, for many voltage-gated channels, enters an inactivated state.\n5. The resulting ionic current changes the membrane potential and/or raises intracellular Ca²⁺, producing the cellular response.\n\n### Energy and Directionality\n\nChannel transport is passive and downhill: no ATP is hydrolyzed. The energy source is the pre-existing electrochemical gradient (maintained upstream by pumps). The channel's job is gating and selectivity — controlling *when* and *which* ions flow — not pumping. The large energy cost is paid elsewhere, by the pumps that built the gradients.\n\n### Experimental Evidence\n\n- **Patch-clamp single-channel recordings:** directly showed all-or-none, millisecond openings and closings of individual channels, and classified gating modes.\n- **Selectivity measurements:** reversal-potential experiments showed each channel type conducts only its cognate ion(s).\n- **Structure:** X-ray crystallography of the bacterial KcsA K⁺ channel (Roderick MacKinnon, Nobel Prize in Chemistry 2003) revealed the selectivity filter and ion-coordination mechanism.\n- **Voltage-clamp (Hodgkin–Huxley):** identified separate voltage-gated Na⁺ and K⁺ conductances underlying the action potential.\n\n### Technique\n\nPatch-clamp electrophysiology (single-channel and whole-cell), voltage-clamp, and site-directed mutagenesis of the pore and sensor domains, together with X-ray and cryo-EM structures, are the principal tools for dissecting channel function.",
+    "howItWorks": "1. A stimulus arrives: a voltage change, a ligand, or mechanical force.\n2. The sensor changes conformation and opens the pore (gating).\n3. Ions flow down their electrochemical gradients through the selectivity filter.\n4. The channel closes (deactivation), or, for many voltage-gated channels, enters an inactivated state.\n5. The resulting ionic current changes the membrane potential and/or raises intracellular Ca²⁺, producing the cellular response.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Channels: ion-selective aqueous pores; passive, ~10⁶–10⁸ ions/s.\n- Gating types: voltage-gated, ligand-gated, mechanically gated.\n- States: closed → open → inactivated (many voltage-gated channels).\n- Voltage-gated Na⁺/K⁺ channels → action potential.\n- Ligand-gated: nicotinic AChR (Na⁺/K⁺), GABA_A (Cl⁻), NMDA (Ca²⁺/Na⁺).\n- Mechanically gated: hair cells, touch receptors.\n- Channels never pump uphill; gradients are built by pumps.",
+    "commonConfusions": "- **\"Channels pump ions against gradients.\"** Channels are passive; only pumps and co-transporters move ions uphill.\n- **\"Channels are always open.\"** Most are gated and spend much of their time closed; gating is the whole point.\n- **\"All channels pass all ions.\"** Each is selective (Na⁺, K⁺, Ca²⁺, or Cl⁻), set by the selectivity filter.\n- **\"Channels saturate like carriers.\"** Open channels conduct at near-diffusion-limited rates and are not limited by a binding/conformational turnover the way carriers are.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nAn ion channel is like a tiny gate in a dam wall. When the gate swings open (because the water level changed, or a key molecule unlocked it, or something pushed on it), water rushes through — but only downhill. The channel can pick which kind of \"water\" (sodium, potassium, calcium) fits through its gate, and it can slam shut again, but it never pushes water back up the hill.",
+    "quickReview": "- Selective pores that conduct ions passively and fast.\n- Gating: voltage, ligand, or mechanical.\n- States: closed, open, inactivated.\n- Underlie action potentials, synapses, and sensation.\n- Channelopathies and many drugs target them.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "StatPearls, \"Physiology, Action Potential.\" https://www.ncbi.nlm.nih.gov/books/NBK538143/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK538143/"
+      },
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, \"12.4 The Action Potential.\" https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential",
+        "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-4-the-action-potential"
+      },
+      {
+        "text": "NobelPrize.org, \"The Nobel Prize in Chemistry 2003\" (ion-channel structures). https://www.nobelprize.org/prizes/chemistry/2003/summary/",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2003/summary/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Principles of Membrane Transport.\" https://www.ncbi.nlm.nih.gov/books/NBK26815/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/02-membranes-transport/12-ion-channels.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

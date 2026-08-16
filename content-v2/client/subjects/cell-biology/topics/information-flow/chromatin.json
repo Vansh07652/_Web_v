@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:information-flow:chromatin",
+  "slug": "chromatin",
+  "title": "Chromatin",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:information-flow",
+    "slug": "information-flow",
+    "title": "Information Flow",
+    "order": 10
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "Chromatin is the complex of eukaryotic nuclear DNA with histone and non-histone proteins that compacts roughly two meters of human DNA into a ~10-µm nucleus while still permitting regulated access to the genetic information. Its fundamental repeating unit is the nucleosome: about 147 base pairs of DNA wrapped around an octamer of histone proteins. Chromatin is not a static storage scaffold but a dynamic, remodeled platform whose local compaction — a continuum from open euchromatin to condensed heterochromatin — gates which genes, origins of replication, and repair machinery can reach the DNA at any moment.",
+    "whyItMatters": "Chromatin structure is the master regulator of genome access: transcription, DNA replication origin firing, recombination, and DNA repair all require local chromatin to open. Misregulation underlies developmental disorders and many cancers — mutations in chromatin remodelers (e.g., SWI/SNF subunits) and histone-modifying enzymes are among the most common cancer drivers. Chromatin is also the substrate of epigenetics and the target of histone-deacetylase inhibitors used clinically.",
+    "learningObjectives": "- Describe the molecular composition of chromatin and the structure of the nucleosome.\n- Explain how DNA is packaged from the 10-nm fiber up to the mitotic chromosome.\n- Distinguish the roles of core histones, the H1 linker histone, and non-histone chromosomal proteins.\n- Trace how chromatin structure controls DNA accessibility for transcription and replication.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nChromatin is the complex of eukaryotic nuclear DNA with histone and non-histone proteins that compacts roughly two meters of human DNA into a ~10-µm nucleus while still permitting regulated access to the genetic information. Its fundamental repeating unit is the nucleosome: about 147 base pairs of DNA wrapped around an octamer of histone proteins. Chromatin is not a static storage scaffold but a dynamic, remodeled platform whose local compaction — a continuum from open euchromatin to condensed heterochromatin — gates which genes, origins of replication, and repair machinery can reach the DNA at any moment.\n\n### Key Components\n\n- **Core histones** — H2A, H2B, H3, and H4, each present twice per nucleosome to form an octamer. Small (~11–15 kDa), strongly basic proteins rich in lysine and arginine.\n- **Histone tails** — flexible N-terminal tails that protrude from the octamer and are the major sites of post-translational modification (acetylation, methylation, phosphorylation).\n- **Linker histone H1** — binds the linker DNA where it enters/exits the nucleosome, helping compact the 10-nm \"beads-on-a-string\" fiber into higher-order structure.\n- **Non-histone proteins** — chromatin remodelers (e.g., SWI/SNF), scaffold proteins (condensin, cohesin), and architectural proteins.\n- **Nucleosome core particle** — 147 bp DNA wrapped ~1.65 turns around the octamer; the repeating unit gives a ~200 bp ladder on nuclease digestion when linker DNA is included.\n\n### Mechanism\n\nChromatin compaction is driven primarily by electrostatic attraction between the negatively charged DNA phosphate backbone and the positively charged (basic) histone residues. Wrapping DNA around the octamer bends it sharply, and successive nucleosomes are spaced by 20–80 bp of linker DNA. Beyond the nucleosome, folding is hierarchical: the 10-nm fiber coils into a ~30-nm fiber, which is organized into loop domains anchored by scaffold proteins, then further condensed by condensin during mitosis into the metaphase chromosome. Because wrapping hides DNA from transcription factors and polymerases, chromatin structure is itself a regulatory layer — nucleosome positioning, histone modification, and ATP-driven remodeling govern access.\n\n### How It Works\n\n1. Histone octamer (H2A/H2B/H3/H4)₂ assembles, and 147 bp of DNA wraps around it to form a nucleosome core particle.\n2. Adjacent nucleosomes, separated by linker DNA, produce the 10-nm \"beads-on-a-string\" fiber visible by electron microscopy under low salt.\n3. Histone H1 binds the linker and the nucleosome dyad, promoting folding into the more compact 30-nm fiber.\n4. Chromatin folds into loop domains (~50–200 kb) tethered to a protein scaffold inside the interphase nucleus.\n5. During mitosis, condensin compacts looped chromatin further into the maximally condensed chromosome; interphase decondenses again.\n6. Locally, remodeling complexes (e.g., SWI/SNF) use ATP to slide or evict nucleosomes, exposing promoters and regulatory DNA to the transcriptional machinery.\n\n### Energy and Directionality\n\nNucleosome formation is energetically favorable because of the electrostatics (basic histones neutralize DNA's phosphate charge) and favorable histone–DNA and histone–histone contacts; no ATP is consumed to wrap DNA. The *regulated* directionality of chromatin is powered by ATP: remodeling complexes couple ATP hydrolysis to sliding, ejecting, or repositioning nucleosomes, and histone acetyltransferases (which loosen chromatin) and deacetylases (which tighten it) use acetyl-CoA and hydrolysis, respectively. Compaction is thus a reversible, energy-consuming equilibrium rather than a one-way path.\n\n### Experimental Evidence\n\n- **Micrococcal nuclease (MNase) digestion** of chromatin produced DNA fragments in ~200 bp multiples, revealing the regular nucleosome repeat; limit digestion protects ~147 bp, the nucleosome core.\n- **Electron microscopy** of gently lysed nuclei showed the \"beads-on-a-string\" 10-nm fiber.\n- **X-ray crystallography of the nucleosome core particle** (Luger et al., 1997) gave an atomic-resolution view of DNA wrapped around the histone octamer, confirming histone–DNA contacts and tail positions.\n- **Chromatin immunoprecipitation (ChIP)** maps where modified histones or remodelers localize genome-wide.\n\n### Technique\n\nKey techniques include **MNase-seq** (map nucleosome positions), **ChIP-seq** (localize histone modifications and chromatin proteins), **ATAC-seq** (map open chromatin using a transposase that only inserts into accessible DNA), and **Hi-C/3C** (map long-range chromatin loops and higher-order folding). Electron microscopy and X-ray crystallography defined the static architecture, while single-molecule approaches now probe dynamic nucleosome sliding.",
+    "howItWorks": "1. Histone octamer (H2A/H2B/H3/H4)₂ assembles, and 147 bp of DNA wraps around it to form a nucleosome core particle.\n2. Adjacent nucleosomes, separated by linker DNA, produce the 10-nm \"beads-on-a-string\" fiber visible by electron microscopy under low salt.\n3. Histone H1 binds the linker and the nucleosome dyad, promoting folding into the more compact 30-nm fiber.\n4. Chromatin folds into loop domains (~50–200 kb) tethered to a protein scaffold inside the interphase nucleus.\n5. During mitosis, condensin compacts looped chromatin further into the maximally condensed chromosome; interphase decondenses again.\n6. Locally, remodeling complexes (e.g., SWI/SNF) use ATP to slide or evict nucleosomes, exposing promoters and regulatory DNA to the transcriptional machinery.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Nucleosome = 147 bp DNA + histone octamer (2 each of H2A, H2B, H3, H4).\n- Histones are basic (Lys/Arg-rich) and bind negatively charged DNA electrostatically.\n- The nuclease repeat is ~200 bp (147 bp core + linker DNA).\n- H1 is the linker histone that promotes higher-order compaction.\n- Packaging ladder: DNA double helix → nucleosome → 10-nm fiber → 30-nm fiber → loops → chromosome.\n- Chromatin remodelers (SWI/SNF) use ATP to slide/eject nucleosomes.\n- Histone N-terminal tails are the main sites of covalent modification.\n- Euchromatin = open/active; heterochromatin = condensed/repressed (relative states).",
+    "commonConfusions": "- **\"Chromatin is only for packaging/compaction\"** — wrong; chromatin also *regulates access*, and its modifications carry heritable epigenetic information.\n- **\"Euchromatin and heterochromatin are two fixed types\"** — they are relative, interconvertible functional states along a continuum, not absolute on/off categories.\n- **\"Histone modifications change the DNA sequence\"** — they do not; they alter chromatin structure and protein recruitment without touching the base sequence.\n- **\"ATP is needed to wrap DNA into nucleosomes\"** — wrapping is spontaneous and energetically favorable; ATP is spent on *remodeling* and *unwrapping*.\n- **\"The 30-nm fiber is a universal structure\"** — its exact geometry in vivo remains debated; the cell likely uses varied, dynamic folding.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of DNA as a very long string of instructions and histones as spools the string wraps around — like thread on a sewing spool. Winding the thread keeps it tidy and compact, but you can't read a message while it's tightly wound. The cell has little machines (remodelers) that spend energy to unwind a spool just enough to read the part it needs, then wind it back. (The analogy's limit: the \"spools\" aren't separate objects you add later — eight histone proteins assemble *around* the DNA, and chemical tags on the spool edges decide how tightly things wind.)",
+    "quickReview": "- Chromatin = DNA + histones + non-histone proteins; nucleosome is the repeating unit.\n- 147 bp DNA wraps 1.65 turns around an (H2A/H2B/H3/H4)₂ octamer.\n- Basic histones bind DNA by charge; H1 compacts linker DNA.\n- Hierarchical folding: nucleosome → 10 nm → 30 nm → loops → chromosome.\n- ATP-dependent remodelers and histone modifications control access.\n- Studied by MNase, ChIP-seq, ATAC-seq, crystallography, and Hi-C.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "National Human Genome Research Institute, \"Chromatin.\" https://www.genome.gov/genetics-glossary/Chromatin",
+        "url": "https://www.genome.gov/genetics-glossary/Chromatin"
+      },
+      {
+        "text": "National Human Genome Research Institute, \"Histone.\" https://www.genome.gov/genetics-glossary/histone",
+        "url": "https://www.genome.gov/genetics-glossary/histone"
+      },
+      {
+        "text": "Nature Scitable, \"DNA Packaging: Nucleosomes and Chromatin.\" https://www.nature.com/scitable/topicpage/dna-packaging-nucleosomes-and-chromatin-310/",
+        "url": "https://www.nature.com/scitable/topicpage/dna-packaging-nucleosomes-and-chromatin-310/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"16.3 Eukaryotic Epigenetic Gene Regulation.\" https://openstax.org/books/biology-2e/pages/16-3-eukaryotic-epigenetic-gene-regulation",
+        "url": "https://openstax.org/books/biology-2e/pages/16-3-eukaryotic-epigenetic-gene-regulation"
+      },
+      {
+        "text": "MedlinePlus Genetics, \"What is DNA?\" https://medlineplus.gov/genetics/understanding/basics/dna/",
+        "url": "https://medlineplus.gov/genetics/understanding/basics/dna/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/10-information-flow/01-chromatin.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

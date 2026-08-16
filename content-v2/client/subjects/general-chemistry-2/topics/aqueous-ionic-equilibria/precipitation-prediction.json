@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:aqueous-ionic-equilibria:precipitation-prediction",
+  "slug": "precipitation-prediction",
+  "title": "Predicting Precipitation: Qsp vs Ksp",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:aqueous-ionic-equilibria",
+    "slug": "aqueous-ionic-equilibria",
+    "title": "Aqueous Ionic Equilibria",
+    "order": 6
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "Whether a solid forms depends on how the *current* ion product **Qsp** compares to the equilibrium constant **Ksp**. If Qsp < Ksp, the solution is unsaturated and can dissolve more; if Qsp = Ksp, it is saturated at equilibrium; if **Qsp > Ksp, the solution is supersaturated and a precipitate forms** until the product falls back to Ksp. This is Le Châtelier's principle applied to dissolution, and it is the basis for predicting — and even engineering — precipitation in the lab and in nature.",
+    "whyItMatters": "Qsp-vs-Ksp logic drives water softening (precipitating Ca²⁺ and Mg²⁺), the removal of heavy metals from wastewater, the formation of kidney stones and scale, and qualitative-analysis separations where chemists precipitate one metal ion while leaving others in solution. It is also the conceptual bridge to the common-ion effect, which lowers solubility by pushing Qsp toward Ksp.",
+    "learningObjectives": "- Define the reaction quotient for solubility, Qsp.\n- Use Qsp vs Ksp to predict whether a precipitate forms.\n- Calculate ion concentrations after mixing solutions.\n- Explain selective precipitation of ions.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nWhether a solid forms depends on how the *current* ion product **Qsp** compares to the equilibrium constant **Ksp**. If Qsp < Ksp, the solution is unsaturated and can dissolve more; if Qsp = Ksp, it is saturated at equilibrium; if **Qsp > Ksp, the solution is supersaturated and a precipitate forms** until the product falls back to Ksp. This is Le Châtelier's principle applied to dissolution, and it is the basis for predicting — and even engineering — precipitation in the lab and in nature.\n\n### Key Ideas\n\n- **Qsp:** the ion product computed from *actual* (non-equilibrium) concentrations.\n- **Ksp:** the ion product at equilibrium (saturation).\n- **Qsp < Ksp:** no precipitate; unsaturated (more solid can dissolve).\n- **Qsp = Ksp:** saturated; at equilibrium.\n- **Qsp > Ksp:** precipitate forms until Qsp = Ksp.\n- **Mixing calculations:** after combining solutions, recompute each ion's concentration (dilution) before evaluating Qsp.\n- **Selective precipitation:** add a reagent that pushes one ion's Qsp over Ksp while others remain below theirs.\n\n### Equations and Variables\n\n- Qsp = [Mⁿ⁺]ˣ[Aᵐ⁻]ʸ (using current concentrations)\n- Precipitation occurs when Qsp > Ksp\n- Dilution after mixing: C_new = (C_original × V_original) / V_total\n- Common-ion form: adding more of an ion raises Qsp toward (or past) Ksp.\n\n### How It Works\n\n1. Write the dissolution equilibrium and the Ksp expression.\n2. After mixing any solutions, first apply the dilution formula to get the new concentration of each ion in the *total* volume.\n3. Compute Qsp with those concentrations (raised to the proper stoichiometric powers).\n4. Compare Qsp to Ksp. If Qsp exceeds Ksp, the solution is supersaturated and solid precipitates; if not, no solid forms.\n5. For selective precipitation, choose a reagent whose common ion pushes only the target ion's Qsp above its Ksp.\n\n### Worked Example\n\n**Will AgCl precipitate when 100.0 mL of 1.0 × 10⁻³ M AgNO₃ is mixed with 200.0 mL of 1.0 × 10⁻³ M NaCl? (Ksp of AgCl = 1.8 × 10⁻¹⁰.)**\n\nTotal volume = 300.0 mL = 0.300 L.\n\n[Ag⁺] = (1.0 × 10⁻³ M × 0.100 L) / 0.300 L = 3.3 × 10⁻⁴ M\n\n[Cl⁻] = (1.0 × 10⁻³ M × 0.200 L) / 0.300 L = 6.7 × 10⁻⁴ M\n\nQsp = [Ag⁺][Cl⁻] = (3.3 × 10⁻⁴)(6.7 × 10⁻⁴) = 2.2 × 10⁻⁷\n\nSince Qsp (2.2 × 10⁻⁷) > Ksp (1.8 × 10⁻¹⁰), AgCl **will precipitate**.",
+    "howItWorks": "1. Write the dissolution equilibrium and the Ksp expression.\n2. After mixing any solutions, first apply the dilution formula to get the new concentration of each ion in the *total* volume.\n3. Compute Qsp with those concentrations (raised to the proper stoichiometric powers).\n4. Compare Qsp to Ksp. If Qsp exceeds Ksp, the solution is supersaturated and solid precipitates; if not, no solid forms.\n5. For selective precipitation, choose a reagent whose common ion pushes only the target ion's Qsp above its Ksp.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Qsp = ion product from current concentrations; Ksp = value at equilibrium.\n- Qsp > Ksp ⇒ precipitate forms (supersaturated).\n- Qsp = Ksp ⇒ saturated, at equilibrium.\n- Qsp < Ksp ⇒ unsaturated, no precipitate.\n- After mixing, dilute each ion first, then compute Qsp.\n- Selective precipitation separates ions with sufficiently different Ksp values.",
+    "commonConfusions": "- **\"Any mixing of ions causes precipitation.\"** — Only if Qsp exceeds Ksp; many dilute mixes stay unsaturated.\n- **\"Forgetting to account for dilution.\"** — Mixing changes volumes, so you must recompute each ion's concentration in the combined volume before Qsp.\n- **\"Qsp and Ksp are interchangeable.\"** — Ksp is a fixed constant at a given temperature; Qsp is whatever the solution currently has.\n- **\"Qsp > Ksp means the solid dissolves.\"** — It means the opposite: solid *precipitates*.\n- **\"Common ion always causes precipitation.\"** — It lowers solubility and raises Qsp, but precipitation occurs only if the result pushes Qsp past Ksp.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nQsp is the \"how crowded is the room right now\" reading; Ksp is the \"fire-code maximum.\" If the current crowd (Qsp) exceeds the fire code (Ksp), the fire marshal kicks people out — and they leave as a solid precipitate until the room is back at the limit. If you're under the limit, everyone fits and nobody gets kicked out. (The limit: the \"crowd\" is a product of concentrations with exponents, not a simple headcount.)",
+    "quickReview": "- Qsp = current ion product; Ksp = equilibrium value.\n- Qsp > Ksp → precipitate; = → saturated; < → unsaturated.\n- Dilute each ion after mixing, then compute Qsp.\n- Selective precipitation uses different Ksp values to separate ions.",
+    "workedExamples": "### Worked Example\n\n**Will AgCl precipitate when 100.0 mL of 1.0 × 10⁻³ M AgNO₃ is mixed with 200.0 mL of 1.0 × 10⁻³ M NaCl? (Ksp of AgCl = 1.8 × 10⁻¹⁰.)**\n\nTotal volume = 300.0 mL = 0.300 L.\n\n[Ag⁺] = (1.0 × 10⁻³ M × 0.100 L) / 0.300 L = 3.3 × 10⁻⁴ M\n\n[Cl⁻] = (1.0 × 10⁻³ M × 0.200 L) / 0.300 L = 6.7 × 10⁻⁴ M\n\nQsp = [Ag⁺][Cl⁻] = (3.3 × 10⁻⁴)(6.7 × 10⁻⁴) = 2.2 × 10⁻⁷\n\nSince Qsp (2.2 × 10⁻⁷) > Ksp (1.8 × 10⁻¹⁰), AgCl **will precipitate**.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"15.1 Precipitation and Dissolution.\" https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution",
+        "url": "https://openstax.org/books/chemistry-2e/pages/15-1-precipitation-and-dissolution"
+      },
+      {
+        "text": "PubChem, \"Silver Chloride.\" https://pubchem.ncbi.nlm.nih.gov/compound/Silver-chloride",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Silver-chloride"
+      },
+      {
+        "text": "Chem LibreTexts, \"General Chemistry (Petrucci) — 18: Solubility and Complex-Ion Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_%28Petrucci_et_al.%29/18%3A_Solubility_and_Complex-Ion_Equilibria",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_%28Petrucci_et_al.%29/18%3A_Solubility_and_Complex-Ion_Equilibria"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/15-aqueous-ionic-equilibria/09-precipitation-prediction.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

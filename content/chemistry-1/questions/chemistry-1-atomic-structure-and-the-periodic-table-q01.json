@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-atomic-structure-and-the-periodic-table-q01",
+  "subject": "chemistry-1",
+  "lesson": "atomic-structure-and-the-periodic-table",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "An atom contains 15 protons, 16 neutrons, and 15 electrons. Which statement correctly identifies this atom's mass number and what that number represents?",
+  "options": [
+    {
+      "id": "a",
+      "text": "15, the number of protons in the nucleus"
+    },
+    {
+      "id": "b",
+      "text": "31, the total number of protons and neutrons in the nucleus"
+    },
+    {
+      "id": "c",
+      "text": "16, the number of neutrons in the nucleus"
+    },
+    {
+      "id": "d",
+      "text": "30, the total number of protons and electrons in the atom"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Mass number (A) is the nucleon count, protons plus neutrons, so 15 + 16 = 31. The atomic number (Z = 15) counts protons alone and fixes the element's identity (phosphorus), while electrons are roughly 1/1836 the mass of a nucleon and are excluded from the mass number. Separating A from Z is the prerequisite for reading isotope notation and for calculating neutrons as A minus Z.\n\nELI-10: Two different counts get confused all the time. The atomic number counts only protons, and it decides which element you have. The mass number counts everything heavy in the nucleus, protons plus neutrons together, because those are the particles that actually weigh something. Electrons are so light they do not change the total in any meaningful way. So here: 15 protons plus 16 neutrons gives a mass number of 31, while the atomic number stays 15.",
+  "difficulty": "easy",
+  "tags": [
+    "mass number",
+    "atomic number",
+    "subatomic particles"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-272",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

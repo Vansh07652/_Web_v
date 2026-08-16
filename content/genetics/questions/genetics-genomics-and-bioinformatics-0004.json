@@ -1,0 +1,39 @@
+{
+  "id": "genetics-genomics-and-bioinformatics-0004",
+  "subject": "genetics",
+  "lesson": "genomics-and-bioinformatics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation Two DNA sequences are aligned. The reference sequence is 5' ATGCGTACGA 3' and the sequencing read is 5' ATGCGAACGA 3'. The two sequences differ at exactly one position. What is the percent identity of the read to the reference?",
+  "options": [
+    {
+      "id": "a",
+      "text": "10%"
+    },
+    {
+      "id": "b",
+      "text": "80%"
+    },
+    {
+      "id": "c",
+      "text": "9%"
+    },
+    {
+      "id": "d",
+      "text": "90%"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "The alignment is 10 positions long with 9 matching positions and 1 mismatch, so the percent identity is 9/10 = 0.90 = 90%. Option A reports the mismatch fraction instead, 1/10 = 0.10 = 10%. Option B miscounts the matches as 8 out of 10, and option C reports the raw match count as if it were already a percentage.",
+  "difficulty": "unknown",
+  "tags": [
+    "percent",
+    "identity",
+    "calculation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-16973b1c51d4a9a2",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

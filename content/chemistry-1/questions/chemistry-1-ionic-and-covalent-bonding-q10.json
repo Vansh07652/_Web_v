@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-ionic-and-covalent-bonding-q10",
+  "subject": "chemistry-1",
+  "lesson": "ionic-and-covalent-bonding",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A student looks up Pauling electronegativity values for potassium (0.82) and bromine (2.96) to predict the bonding in potassium bromide. Which interpretation of these data is best supported?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The difference is about 3.78, so the bond is ionic because the two electronegativity values add together."
+    },
+    {
+      "id": "b",
+      "text": "The difference is about 2.14, so the bond is nonpolar covalent because both atoms are relatively large."
+    },
+    {
+      "id": "c",
+      "text": "The difference is about 2.14, so the bond is polar covalent; the shared pair stays roughly midway between the two nuclei."
+    },
+    {
+      "id": "d",
+      "text": "The difference is about 2.14, so the bond is largely ionic; potassium's valence electron transfers to bromine, forming K+ and Br- in a lattice."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Electronegativity difference is found by subtraction, not addition: 2.96 - 0.82 = 2.14. Differences above roughly 1.7 to 2.0 indicate predominantly ionic character, which fits a group 1 metal combining with a halogen. The transferred electron yields K+ and Br-, and these ions assemble into an extended crystal lattice rather than discrete KBr molecules. Option A uses the wrong operation, option B ignores the size of the difference in favor of atomic radius, and option C pairs a very large difference with equal sharing, which is self-contradictory.\n\nELI-10: Electronegativity rates how strongly an atom pulls on shared electrons, so what matters is the gap between the two ratings, which means subtraction. Bromine at 2.96 against potassium at 0.82 leaves a gap of 2.14, well past the roughly 1.7 mark where sharing stops being realistic. At that point potassium does not merely lose the tug of war, it hands the electron over, producing K+ and Br- that stack into a salt crystal. Adding the values, as in option A, measures nothing meaningful.",
+  "difficulty": "medium",
+  "tags": [
+    "predicting bond type",
+    "electronegativity difference",
+    "ionic character"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-274",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

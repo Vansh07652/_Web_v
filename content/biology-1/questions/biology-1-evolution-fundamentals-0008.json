@@ -1,0 +1,41 @@
+{
+  "id": "biology-1-evolution-fundamentals-0008",
+  "subject": "biology-1",
+  "lesson": "evolution-fundamentals",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In a population of 1000 frogs, 90 frogs show a **recessive phenotype**. If the population is in Hardy-Weinberg equilibrium, what is the frequency of the **dominant allele**?",
+  "options": [
+    {
+      "id": "a",
+      "text": "0.70"
+    },
+    {
+      "id": "b",
+      "text": "0.09"
+    },
+    {
+      "id": "c",
+      "text": "0.30"
+    },
+    {
+      "id": "d",
+      "text": "0.03"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The recessive phenotype frequency is 90 divided by 1000, or 0.09, which equals q squared, so q is 0.30. Since p plus q equals one, the dominant allele frequency p is 1 minus 0.30, or 0.70. Option B reports the phenotype frequency, C reports the recessive allele frequency, and D is a miscalculation.",
+  "difficulty": "unknown",
+  "tags": [
+    "hardy",
+    "weinberg",
+    "allele",
+    "frequency",
+    "calculation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-381a4fce6fc03b23",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:chromosomal-basis-of-inheritance",
+  "slug": "chromosomal-basis-of-inheritance",
+  "title": "The Chromosomal Basis of Inheritance",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:genetics-and-the-molecular-basis-of-inheritance",
+    "slug": "genetics-and-the-molecular-basis-of-inheritance",
+    "title": "Genetics And The Molecular Basis Of Inheritance",
+    "order": 6
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "Mendel's abstract \"factors\" are physically located on chromosomes. The **chromosome theory of inheritance** states that genes reside at specific positions (loci) on chromosomes, and that the behavior of chromosomes in meiosis — segregation of homologs and independent assortment — is the physical basis of Mendel's laws. Studying chromosomes also explains sex-linked traits, linked genes, and chromosomal disorders caused by errors in chromosome separation.",
+    "whyItMatters": "This material connects abstract inheritance to physical DNA and explains real human genetics: why color blindness and hemophilia run in families in a sex-biased way, how geneticists locate disease genes by linkage mapping, and why some children are born with extra or missing chromosomes (Down syndrome, Turner, Klinefelter). It also underlies modern tools like genetic testing and genome-wide association studies.",
+    "learningObjectives": "- State the chromosome theory of inheritance and the evidence linking genes to chromosomes.\n- Explain sex determination and X-linked (sex-linked) inheritance patterns.\n- Describe genetic linkage and how recombination frequency maps gene positions.\n- Explain nondisjunction and how it produces aneuploidy (trisomy, monosomy).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nMendel's abstract \"factors\" are physically located on chromosomes. The **chromosome theory of inheritance** states that genes reside at specific positions (loci) on chromosomes, and that the behavior of chromosomes in meiosis — segregation of homologs and independent assortment — is the physical basis of Mendel's laws. Studying chromosomes also explains sex-linked traits, linked genes, and chromosomal disorders caused by errors in chromosome separation.\n\n### Key Concepts\n\n### The chromosome theory of inheritance\n\nEarly in the 1900s, Thomas Hunt Morgan's work on the fruit fly *Drosophila* showed that a gene for eye color resides on the **X chromosome**, providing the first concrete link between a specific gene and a specific chromosome. The theory holds that chromosomes carry genes, homologous chromosomes carry alleles at corresponding loci, and meiosis's chromosome movements account for segregation and independent assortment.\n\n### Sex chromosomes and X-linked inheritance\n\nHumans have 22 pairs of **autosomes** plus one pair of **sex chromosomes** (XX in females, XY in males). The X chromosome carries many genes unrelated to sex; the Y chromosome is small and gene-poor (with the **SRY** gene that triggers male development). **X-linked (sex-linked) traits** are carried on the X chromosome. Because males have only one X, they express X-linked **recessive** alleles with a single copy — this is why red-green color blindness and hemophilia are far more common in males, who inherit the allele from their (carrier) mother and have no second X to mask it. Fathers cannot pass X-linked traits to their sons (sons get the Y from dad) but do pass them to all daughters.\n\n### Linked genes and recombination frequency\n\nGenes on the **same chromosome** tend to be inherited together and are said to be **linked** — they do not assort independently. However, **crossing over** in prophase I can exchange segments between homologs, producing **recombinant** gametes. The **recombination frequency** (percent of offspring that are recombinants) is lower when genes are close together and higher when they are far apart. Morgan's student Alfred Sturtevant used this to build the first **linkage maps**: a 1% recombination frequency defines roughly one **map unit (centimorgan)**. Genes on different chromosomes (or far apart on the same one) assort independently (≈50% recombination, the maximum).\n\n### Nondisjunction and aneuploidy\n\n**Nondisjunction** is the failure of homologous chromosomes (meiosis I) or sister chromatids (meiosis II) to separate properly. The resulting gamete has an extra or missing chromosome, and after fertilization the zygote is **aneuploid** — carrying an abnormal chromosome number. **Trisomy** = three copies of a chromosome; **monosomy** = one copy. **Down syndrome** is **trisomy 21** (three copies of chromosome 21) and is the most common viable human aneuploidy; its frequency rises with maternal age. Sex-chromosome aneuploidies (XXY/Klinefelter, XO/Turner) also occur. Most other autosomal aneuploidies are lethal early in development.\n\n### How It Works\n\nIn meiosis, each homolog carries the same genes at the same loci. Segregation of homologs (meiosis I) is the physical basis of Mendel's Law of Segregation; random orientation of different chromosome pairs at metaphase I is the basis of independent assortment. If two genes sit on the same chromosome, they travel together unless crossing over swaps them — the closer they are, the less often they recombine. When chromosomes fail to separate (nondisjunction), gametes gain or lose whole chromosomes, producing aneuploid embryos such as trisomy 21.",
+    "howItWorks": "In meiosis, each homolog carries the same genes at the same loci. Segregation of homologs (meiosis I) is the physical basis of Mendel's Law of Segregation; random orientation of different chromosome pairs at metaphase I is the basis of independent assortment. If two genes sit on the same chromosome, they travel together unless crossing over swaps them — the closer they are, the less often they recombine. When chromosomes fail to separate (nondisjunction), gametes gain or lose whole chromosomes, producing aneuploid embryos such as trisomy 21.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Chromosome theory: genes are located on chromosomes; meiosis explains Mendel's laws.\n- X-linked recessive traits (color blindness, hemophilia) appear mostly in males.\n- Fathers pass X-linked alleles to daughters (not sons); mothers can be carriers.\n- Linked genes are on the same chromosome and don't assort independently.\n- Recombination frequency = map distance (1% = 1 centimorgan).\n- Max recombination ≈ 50% (independent assortment).\n- Nondisjunction → aneuploidy; trisomy = 3 copies, monosomy = 1 copy.\n- Down syndrome = trisomy 21; risk rises with maternal age.",
+    "commonConfusions": "- **\"X-linked recessive means only males can have it.\"** Wrong — females can be affected (if homozygous) or carriers; males are just affected more often because they have one X.\n- **\"Linked genes always stay together.\"** Wrong — crossing over can separate them; the farther apart, the more recombination.\n- **\"50% recombination means the genes are on the same chromosome but far apart.\"** Ambiguous — 50% is indistinguishable from independent assortment, so you can't tell far-apart linked genes from genes on different chromosomes without more data.\n- **\"Down syndrome is inherited.\"** Usually wrong — it is most often caused by a spontaneous nondisjunction event in gamete formation, not inherited from a parent.\n- **\"Aneuploidy means any mutation.\"** Wrong — aneuploidy specifically means an abnormal *number of chromosomes*, not a change within a gene.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nChromosomes are like bookshelves, and genes are the books on them. Mendel discovered the rules of how books get handed down; later scientists figured out the books actually sit on shelves, and the shelves are what split in meiosis. Some books are only on the \"X shelf.\" Boys get one X shelf (from mom) and one tiny Y shelf (from dad), so if a boy's single X book is damaged, there's no backup copy — that's why boys get color blindness more often. Books on the same shelf usually stay together (linked), but sometimes shelves swap sections (crossing over), and the farther apart two books are, the more often they get swapped. And if a shelf doesn't split properly, a child ends up with an extra shelf — three copies of chromosome 21, which is Down syndrome. The analogy's limit: chromosomes aren't shelves you can re-sort at will; the shuffling is automatic molecular machinery.",
+    "quickReview": "- Genes are on chromosomes; meiosis underlies Mendel's laws.\n- X-linked traits: more common in males; dads → daughters, moms → carrier sons.\n- Linkage = same chromosome; crossing over creates recombinants.\n- Recombination frequency measures map distance (1% = 1 cM).\n- Nondisjunction → trisomy/monosomy (aneuploidy).\n- Down syndrome = trisomy 21.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 13.1, \"Chromosomal Theory and Genetic Linkage.\" https://openstax.org/books/biology-2e/pages/13-1-chromosomal-theory-and-genetic-linkage",
+        "url": "https://openstax.org/books/biology-2e/pages/13-1-chromosomal-theory-and-genetic-linkage"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 13.2, \"Chromosomal Basis of Inherited Disorders.\" https://openstax.org/books/biology-2e/pages/13-2-chromosomal-basis-of-inherited-disorders",
+        "url": "https://openstax.org/books/biology-2e/pages/13-2-chromosomal-basis-of-inherited-disorders"
+      },
+      {
+        "text": "MedlinePlus Genetics, \"Down Syndrome.\" https://medlineplus.gov/genetics/condition/down-syndrome/",
+        "url": "https://medlineplus.gov/genetics/condition/down-syndrome/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/06-genetics-and-the-molecular-basis-of-inheritance/04-chromosomal-basis-of-inheritance.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

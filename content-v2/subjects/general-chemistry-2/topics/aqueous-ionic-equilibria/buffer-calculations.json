@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:aqueous-ionic-equilibria:buffer-calculations",
+  "slug": "buffer-calculations",
+  "title": "Buffer Calculations: Making Buffers and Tracking pH After Additions",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:aqueous-ionic-equilibria",
+    "slug": "aqueous-ionic-equilibria",
+    "title": "Aqueous Ionic Equilibria",
+    "order": 6
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "Buffer problems are solved in **two steps: stoichiometry first, then equilibrium**. Any added strong acid or base reacts *completely* with the buffer's conjugate pair, changing the amounts of HA and A⁻. Only after that one-way reaction is finished do you apply the Henderson–Hasselbalch equation to the new ratio. This \"react first, equilibrate second\" discipline is the key to every buffer-addition calculation, including deciding whether a buffer still has capacity left.",
+    "whyItMatters": "These calculations are exactly what a pharmacist uses to formulate an IV solution, what a biochemist uses to keep an enzyme at its optimal pH, and what an environmental chemist uses to judge whether a lake can absorb acid rain. Getting the order right — react completely, then equilibrate — is also the same logic that governs titration curves.",
+    "learningObjectives": "- Calculate buffer pH after adding strong acid or strong base using stoichiometry then equilibrium.\n- Determine how to prepare a buffer at a target pH and concentration.\n- Assess buffer capacity for a given addition.\n- Decide when the buffer has been exceeded.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nBuffer problems are solved in **two steps: stoichiometry first, then equilibrium**. Any added strong acid or base reacts *completely* with the buffer's conjugate pair, changing the amounts of HA and A⁻. Only after that one-way reaction is finished do you apply the Henderson–Hasselbalch equation to the new ratio. This \"react first, equilibrate second\" discipline is the key to every buffer-addition calculation, including deciding whether a buffer still has capacity left.\n\n### Key Ideas\n\n- **Two-step method:** (1) let added H₃O⁺/OH⁻ react completely with the buffer; (2) use the new [A⁻]/[HA] ratio in the HH equation.\n- **Adding strong acid:** H₃O⁺ is consumed by A⁻ → HA, so [A⁻] decreases and [HA] increases.\n- **Adding strong base:** OH⁻ is consumed by HA → A⁻ + H₂O, so [HA] decreases and [A⁻] increases.\n- **Capacity check:** the buffer is exceeded when the added strong species is *more* than the buffer member it reacts with.\n- **Preparing a buffer:** choose pKa near target pH, then mix HA and A⁻ to give the required ratio.\n\n### Equations and Variables\n\n- Stoichiometry (complete): HA + OH⁻ → A⁻ + H₂O; A⁻ + H₃O⁺ → HA + H₂O\n- New amounts: moles(A⁻) = moles(A⁻)₀ ± moles(OH⁻) or ∓ moles(H₃O⁺)\n- pH = pKa + log([A⁻]/[HA]) (use moles ratio; volumes cancel)\n- Moles = Molarity × Volume (in L)\n\n### How It Works\n\n1. Convert everything to *moles* (moles = M × L) because the reaction consumes moles, not concentrations.\n2. **Stoichiometry step:** subtract the moles of added OH⁻ from HA and add them to A⁻ (or the reverse for added H₃O⁺). If the added amount exceeds the buffer member, that member runs out and you must treat the leftover strong acid/base directly.\n3. **Equilibrium step:** plug the *new* moles of A⁻ and HA into the Henderson–Hasselbalch equation. Because both sit in the same total volume, the volume cancels and you may use the mole ratio directly.\n4. Sanity-check: adding acid should lower pH; adding base should raise it.\n\n### Worked Example\n\n**A 1.00 L buffer contains 0.50 mol CH₃COOH and 0.50 mol CH₃COONa (pKa = 4.74). Find the pH after adding 0.10 mol of HCl.**\n\nStep 1 — stoichiometry. The added H₃O⁺ reacts with acetate:\n\nCH₃COO⁻ + H₃O⁺ → CH₃COOH + H₂O\n\nNew moles: A⁻ = 0.50 − 0.10 = 0.40 mol; HA = 0.50 + 0.10 = 0.60 mol.\n\nStep 2 — equilibrium (mole ratio):\n\npH = pKa + log(A⁻/HA) = 4.74 + log(0.40/0.60) = 4.74 + log(0.667) = 4.74 − 0.18 = 4.56.\n\nThe pH fell only 0.18 units despite 0.10 mol of strong acid. Had we added 0.60 mol HCl instead, the acetate (0.50 mol) would be exhausted, leaving excess strong acid that would crash the pH — capacity exceeded.",
+    "howItWorks": "1. Convert everything to *moles* (moles = M × L) because the reaction consumes moles, not concentrations.\n2. **Stoichiometry step:** subtract the moles of added OH⁻ from HA and add them to A⁻ (or the reverse for added H₃O⁺). If the added amount exceeds the buffer member, that member runs out and you must treat the leftover strong acid/base directly.\n3. **Equilibrium step:** plug the *new* moles of A⁻ and HA into the Henderson–Hasselbalch equation. Because both sit in the same total volume, the volume cancels and you may use the mole ratio directly.\n4. Sanity-check: adding acid should lower pH; adding base should raise it.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Always: stoichiometry first (complete reaction), then equilibrium (HH equation).\n- Added H₃O⁺ lowers [A⁻] and raises [HA] (pH drops).\n- Added OH⁻ lowers [HA] and raises [A⁻] (pH rises).\n- Use moles in the HH equation when volumes are equal (they cancel).\n- Capacity exceeded when added strong acid/base exceeds the reacting buffer member.\n- For equal moles of HA and A⁻, pH = pKa and capacity is maximal.",
+    "commonConfusions": "- **\"Plug the original concentrations into HH after adding acid.\"** — You must first update [A⁻] and [HA] for the complete neutralization reaction.\n- **\"Use concentrations directly in stoichiometry.\"** — React in moles; the strong species consumes a fixed number of moles, then convert back.\n- **\"The HH equation gives pH even past capacity.\"** — Once a buffer member is exhausted, the solution is no longer a buffer; use the leftover strong acid/base concentration instead.\n- **\"Adding base raises [HA].\"** — Adding base consumes HA (HA + OH⁻ → A⁻), so [HA] falls and [A⁻] rises.\n- **\"Volume must be divided out before using HH.\"** — The ratio of moles equals the ratio of concentrations when both are in the same total volume, so you can skip it.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nBuffer math is like balancing a bank account. First, the \"deposit or withdrawal\" happens instantly and completely — every added proton is a withdrawal from the base account (A⁻) and a deposit into the acid account (HA). Only *after* you update both balances do you read the final \"pH statement\" with the Henderson–Hasselbalch formula. (The limit: the account can be overdrawn — add more protons than there is base, and the buffer account goes negative, meaning the pH crashes like an overdraft fee.)",
+    "quickReview": "- Two steps: complete neutralization (stoichiometry), then HH (equilibrium).\n- Acid added → A⁻ consumed, HA formed.\n- Base added → HA consumed, A⁻ formed.\n- pH = pKa + log(moles A⁻/moles HA).\n- Exceeding capacity ⇒ treat leftover strong acid/base directly.",
+    "workedExamples": "### Worked Example\n\n**A 1.00 L buffer contains 0.50 mol CH₃COOH and 0.50 mol CH₃COONa (pKa = 4.74). Find the pH after adding 0.10 mol of HCl.**\n\nStep 1 — stoichiometry. The added H₃O⁺ reacts with acetate:\n\nCH₃COO⁻ + H₃O⁺ → CH₃COOH + H₂O\n\nNew moles: A⁻ = 0.50 − 0.10 = 0.40 mol; HA = 0.50 + 0.10 = 0.60 mol.\n\nStep 2 — equilibrium (mole ratio):\n\npH = pKa + log(A⁻/HA) = 4.74 + log(0.40/0.60) = 4.74 + log(0.667) = 4.74 − 0.18 = 4.56.\n\nThe pH fell only 0.18 units despite 0.10 mol of strong acid. Had we added 0.60 mol HCl instead, the acetate (0.50 mol) would be exhausted, leaving excess strong acid that would crash the pH — capacity exceeded.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.6 Buffers.\" https://openstax.org/books/chemistry-2e/pages/14-6-buffers",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-6-buffers"
+      },
+      {
+        "text": "Chem LibreTexts, \"Henderson-Hasselbalch Approximation.\" https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Acids_and_Bases/Buffers/Henderson-Hasselbalch_Approximation",
+        "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Acids_and_Bases/Buffers/Henderson-Hasselbalch_Approximation"
+      },
+      {
+        "text": "PubChem, \"Sodium Acetate.\" https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-acetate",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-acetate"
+      },
+      {
+        "text": "PubChem, \"Acetic Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Acetic-acid",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Acetic-acid"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "buffer-calculations",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "04-buffer-calculations",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:502a164556d0e8c4"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:502a164556d0e8c4"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:502a164556d0e8c4"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:502a164556d0e8c4"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/15-aqueous-ionic-equilibria/04-buffer-calculations.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Buffer Calculations: Making Buffers and Tracking pH After Additions\n\n## Learning Goals\n- Calculate buffer pH after adding strong acid or strong base using stoichiometry then equilibrium.\n- Determine how to prepare a buffer at a target pH and concentration.\n- Assess buffer capacity for a given addition.\n- Decide when the buffer has been exceeded.\n\n## Core Concept\nBuffer problems are solved in **two steps: stoichiometry first, then equilibrium**. Any added strong acid or base reacts *completely* with the buffer's conjugate pair, changing the amounts of HA and A⁻. Only after that one-way reaction is finished do you apply the Henderson–Hasselbalch equation to the new ratio. This \"react first, equilibrate second\" discipline is the key to every buffer-addition calculation, including deciding whether a buffer still has capacity left.\n\n## Key Ideas\n- **Two-step method:** (1) let added H₃O⁺/OH⁻ react completely with the buffer; (2) use the new [A⁻]/[HA] ratio in the HH equation.\n- **Adding strong acid:** H₃O⁺ is consumed by A⁻ → HA, so [A⁻] decreases and [HA] increases.\n- **Adding strong base:** OH⁻ is consumed by HA → A⁻ + H₂O, so [HA] decreases and [A⁻] increases.\n- **Capacity check:** the buffer is exceeded when the added strong species is *more* than the buffer member it reacts with.\n- **Preparing a buffer:** choose pKa near target pH, then mix HA and A⁻ to give the required ratio.\n\n## Equations and Variables\n- Stoichiometry (complete): HA + OH⁻ → A⁻ + H₂O; A⁻ + H₃O⁺ → HA + H₂O\n- New amounts: moles(A⁻) = moles(A⁻)₀ ± moles(OH⁻) or ∓ moles(H₃O⁺)\n- pH = pKa + log([A⁻]/[HA]) (use moles ratio; volumes cancel)\n- Moles = Molarity × Volume (in L)\n\n## How It Works\n1. Convert everything to *moles* (moles = M × L) because the reaction consumes moles, not concentrations.\n2. **Stoichiometry step:** subtract the moles of added OH⁻ from HA and add them to A⁻ (or the reverse for added H₃O⁺). If the added amount exceeds the buffer member, that member runs out and you must treat the leftover strong acid/base directly.\n3. **Equilibrium step:** plug the *new* moles of A⁻ and HA into the Henderson–Hasselbalch equation. Because both sit in the same total volume, the volume cancels and you may use the mole ratio directly.\n4. Sanity-check: adding acid should lower pH; adding base should raise it.\n\n## Worked Example\n**A 1.00 L buffer contains 0.50 mol CH₃COOH and 0.50 mol CH₃COONa (pKa = 4.74). Find the pH after adding 0.10 mol of HCl.**\n\nStep 1 — stoichiometry. The added H₃O⁺ reacts with acetate:\n\nCH₃COO⁻ + H₃O⁺ → CH₃COOH + H₂O\n\nNew moles: A⁻ = 0.50 − 0.10 = 0.40 mol; HA = 0.50 + 0.10 = 0.60 mol.\n\nStep 2 — equilibrium (mole ratio):\n\npH = pKa + log(A⁻/HA) = 4.74 + log(0.40/0.60) = 4.74 + log(0.667) = 4.74 − 0.18 = 4.56.\n\nThe pH fell only 0.18 units despite 0.10 mol of strong acid. Had we added 0.60 mol HCl instead, the acetate (0.50 mol) would be exhausted, leaving excess strong acid that would crash the pH — capacity exceeded.\n\n## Why It Matters\nThese calculations are exactly what a pharmacist uses to formulate an IV solution, what a biochemist uses to keep an enzyme at its optimal pH, and what an environmental chemist uses to judge whether a lake can absorb acid rain. Getting the order right — react completely, then equilibrate — is also the same logic that governs titration curves.\n\n## High-Yield Facts\n- Always: stoichiometry first (complete reaction), then equilibrium (HH equation).\n- Added H₃O⁺ lowers [A⁻] and raises [HA] (pH drops).\n- Added OH⁻ lowers [HA] and raises [A⁻] (pH rises).\n- Use moles in the HH equation when volumes are equal (they cancel).\n- Capacity exceeded when added strong acid/base exceeds the reacting buffer member.\n- For equal moles of HA and A⁻, pH = pKa and capacity is maximal.\n\n## Eli Explains\nBuffer math is like balancing a bank account. First, the \"deposit or withdrawal\" happens instantly and completely — every added proton is a withdrawal from the base account (A⁻) and a deposit into the acid account (HA). Only *after* you update both balances do you read the final \"pH statement\" with the Henderson–Hasselbalch formula. (The limit: the account can be overdrawn — add more protons than there is base, and the buffer account goes negative, meaning the pH crashes like an overdraft fee.)\n\n## Common Confusions\n- **\"Plug the original concentrations into HH after adding acid.\"** — You must first update [A⁻] and [HA] for the complete neutralization reaction.\n- **\"Use concentrations directly in stoichiometry.\"** — React in moles; the strong species consumes a fixed number of moles, then convert back.\n- **\"The HH equation gives pH even past capacity.\"** — Once a buffer member is exhausted, the solution is no longer a buffer; use the leftover strong acid/base concentration instead.\n- **\"Adding base raises [HA].\"** — Adding base consumes HA (HA + OH⁻ → A⁻), so [HA] falls and [A⁻] rises.\n- **\"Volume must be divided out before using HH.\"** — The ratio of moles equals the ratio of concentrations when both are in the same total volume, so you can skip it.\n\n## Quick Review\n- Two steps: complete neutralization (stoichiometry), then HH (equilibrium).\n- Acid added → A⁻ consumed, HA formed.\n- Base added → HA consumed, A⁻ formed.\n- pH = pKa + log(moles A⁻/moles HA).\n- Exceeding capacity ⇒ treat leftover strong acid/base directly.\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"14.6 Buffers.\" https://openstax.org/books/chemistry-2e/pages/14-6-buffers\n- Chem LibreTexts, \"Henderson-Hasselbalch Approximation.\" https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Acids_and_Bases/Buffers/Henderson-Hasselbalch_Approximation\n- PubChem, \"Sodium Acetate.\" https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-acetate\n- PubChem, \"Acetic Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Acetic-acid\n"
+}

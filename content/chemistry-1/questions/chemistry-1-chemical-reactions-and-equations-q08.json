@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-chemical-reactions-and-equations-q08",
+  "subject": "chemistry-1",
+  "lesson": "chemical-reactions-and-equations",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A sealed hypothetical vessel is charged with 4 mol H2 and 3 mol O2, which react by 2 H2 + O2 -> 2 H2O. Which outcome is expected once the reaction goes to completion?",
+  "options": [
+    {
+      "id": "a",
+      "text": "3 mol of water forms, with 1 mol of H2 left unreacted"
+    },
+    {
+      "id": "b",
+      "text": "6 mol of water forms, with all 3 mol of O2 consumed"
+    },
+    {
+      "id": "c",
+      "text": "4 mol of water forms, with 1 mol of O2 left unreacted"
+    },
+    {
+      "id": "d",
+      "text": "7 mol of water forms, with both gases fully consumed"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Divide each amount by its coefficient: H2 gives 4 / 2 = 2 reaction units, O2 gives 3 / 1 = 3, so H2 is limiting. The 4 mol of H2 produces 4 mol of H2O and consumes only 2 mol of O2, leaving 1 mol of O2 in excess. The limiting reactant is set by stoichiometric demand, not by which reactant simply has the smaller number of moles or the smaller coefficient.\n\nELI-10: Ask how many complete reactions each reactant could support. Hydrogen is used two at a time, so 4 mol of H2 supports 2 rounds. Oxygen is used one at a time, so 3 mol of O2 supports 3 rounds. Only 2 rounds can actually run, and each round makes 2 water, giving 4 mol of water. Those 2 rounds use 2 mol of O2, so 1 mol of O2 sits unused.",
+  "difficulty": "medium",
+  "tags": [
+    "limiting reactant",
+    "excess reactant",
+    "mole ratio"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-276",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

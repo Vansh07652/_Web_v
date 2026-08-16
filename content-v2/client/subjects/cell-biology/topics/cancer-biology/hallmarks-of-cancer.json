@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cancer-biology:hallmarks-of-cancer",
+  "slug": "hallmarks-of-cancer",
+  "title": "The Hallmarks of Cancer",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cancer-biology",
+    "slug": "cancer-biology",
+    "title": "Cancer Biology",
+    "order": 8
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "The **hallmarks of cancer**, proposed by Hanahan and Weinberg (2000), are a set of acquired capabilities that most cancer cells share, providing a unifying framework for understanding the enormous diversity of tumor types. The **original six** hallmarks are: (1) sustaining proliferative signaling, (2) evading growth suppressors, (3) resisting cell death, (4) enabling replicative immortality, (5) inducing angiogenesis, and (6) activating invasion and metastasis. Crucially, the framework has **expanded** — the 2011 update added two *emerging* hallmarks (deregulating cellular energetics, avoiding immune destruction) and two *enabling characteristics* (genome instability and mutation, tumor-promoting inflammation), and the 2022 \"New Dimensions\" update added further capabilities (unlocking phenotypic plasticity, non-mutational epigenetic reprogramming, polymorphic microbiomes, senescent cells).",
+    "whyItMatters": "The hallmarks framework organizes cancer research and therapy: each hallmark is a potential intervention point, which is why anti-angiogenic drugs (anti-VEGF), CDK4/6 inhibitors (proliferation), immune checkpoint inhibitors (immune evasion), and PARP inhibitors (genome instability) all exist. It also explains why effective treatment usually requires attacking multiple hallmarks simultaneously and why the framework must keep expanding as new capabilities (immune evasion, the microbiome, plasticity) are discovered.",
+    "learningObjectives": "- List the original six hallmarks of cancer and give a molecular example of each.\n- Explain how the hallmarks framework has expanded beyond the original six.\n- Distinguish hallmarks from enabling characteristics.\n- Explain why the framework is descriptive capabilities, not a linear pathway or a checklist of causes.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe **hallmarks of cancer**, proposed by Hanahan and Weinberg (2000), are a set of acquired capabilities that most cancer cells share, providing a unifying framework for understanding the enormous diversity of tumor types. The **original six** hallmarks are: (1) sustaining proliferative signaling, (2) evading growth suppressors, (3) resisting cell death, (4) enabling replicative immortality, (5) inducing angiogenesis, and (6) activating invasion and metastasis. Crucially, the framework has **expanded** — the 2011 update added two *emerging* hallmarks (deregulating cellular energetics, avoiding immune destruction) and two *enabling characteristics* (genome instability and mutation, tumor-promoting inflammation), and the 2022 \"New Dimensions\" update added further capabilities (unlocking phenotypic plasticity, non-mutational epigenetic reprogramming, polymorphic microbiomes, senescent cells).\n\n### Key Components\n\n- **Sustaining proliferative signaling:** oncogenes such as RAS and MYC keep growth signals on.\n- **Evading growth suppressors:** loss of pRb and p53 removes the brakes.\n- **Resisting cell death:** overexpression of anti-apoptotic BCL-2 or loss of pro-apoptotic factors.\n- **Enabling replicative immortality:** telomerase reactivation (or ALT) overcomes telomere shortening.\n- **Inducing angiogenesis:** VEGF drives new blood-vessel growth to feed the tumor.\n- **Activating invasion and metastasis:** epithelial–mesenchymal transition (EMT) and matrix metalloproteinases enable spread.\n- **Emerging hallmarks (2011):** deregulating cellular energetics (the Warburg effect); avoiding immune destruction.\n- **Enabling characteristics (2011):** genome instability and mutation; tumor-promoting inflammation.\n- **2022 additions:** phenotypic plasticity, non-mutational epigenetic reprogramming, polymorphic microbiomes, senescent cells.\n\n### Mechanism\n\nThe hallmarks are not independent switches but deeply interlinked capabilities that emerge from the multistep accumulation of mutations and epigenetic changes. For example, genome instability (an enabling characteristic) generates the oncogene and tumor-suppressor mutations that produce the first several hallmarks; sustained proliferation then creates hypoxia, which selects for VEGF-driven angiogenesis; and avoiding immune destruction allows the tumor to escape the very surveillance that would otherwise eliminate it. Each hallmark is underwritten by specific molecular pathways that also serve as therapeutic targets.\n\n### How It Works\n\n1. Genome instability produces the first driver mutations.\n2. Oncogenes (RAS/MYC) sustain proliferation; tumor-suppressor loss (Rb/p53) removes restraint.\n3. Anti-apoptotic changes allow damaged cells to survive.\n4. Telomerase reactivation (or ALT) permits unlimited division.\n5. Angiogenesis (VEGF) supplies oxygen and nutrients to the growing mass.\n6. EMT and protease secretion enable invasion and metastasis.\n7. Metabolic reprogramming and immune evasion support the established tumor.\n\n### Energy and Directionality\n\nTwo hallmarks concern energy directly. \"Deregulating cellular energetics\" describes how cancer cells reprogram metabolism (aerobic glycolysis, the Warburg effect) to favor biosynthesis over maximal ATP yield, and \"inducing angiogenesis\" reflects the energetic requirement that every growing cell be within diffusion distance of a capillary. The framework is descriptive rather than deterministic: it catalogues the capabilities a tumor tends to acquire, but the order and molecular route by which it acquires them vary widely among cancers.\n\n### Experimental Evidence\n\n- **Hanahan & Weinberg (2000):** synthesized decades of oncogene/tumor-suppressor research into six organizing principles.\n- **Hanahan & Weinberg (2011):** the \"Next Generation\" update formally added emerging hallmarks and enabling characteristics, documenting the framework's expansion.\n- **Hanahan (2022), \"New Dimensions\":** added phenotypic plasticity, epigenetic reprogramming, microbiomes, and senescent cells.\n- **Molecular correlates:** each hallmark is supported by specific markers (e.g., VEGF in angiogenesis, BCL-2 in apoptosis resistance, EMT markers in invasion).\n\n### Technique\n\n- **Histology and immunohistochemistry** — detect hallmark-associated markers (Ki-67 proliferation, VEGF, BCL-2, E-cadherin loss).\n- **Genomic sequencing** — identify the oncogene/tumor-suppressor mutations underlying hallmarks.\n- **Angiogenesis assays** (tube formation, Matrigel plug) — measure VEGF-driven vessel growth.\n- **Invasion/migration assays** (Boyden chamber) — quantify invasive capacity.\n- **Metabolic profiling** (Seahorse, metabolomics) — characterize the Warburg effect.",
+    "howItWorks": "1. Genome instability produces the first driver mutations.\n2. Oncogenes (RAS/MYC) sustain proliferation; tumor-suppressor loss (Rb/p53) removes restraint.\n3. Anti-apoptotic changes allow damaged cells to survive.\n4. Telomerase reactivation (or ALT) permits unlimited division.\n5. Angiogenesis (VEGF) supplies oxygen and nutrients to the growing mass.\n6. EMT and protease secretion enable invasion and metastasis.\n7. Metabolic reprogramming and immune evasion support the established tumor.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- **Original six hallmarks (2000):** sustained proliferation, evade suppressors, resist death, replicative immortality, angiogenesis, invasion/metastasis.\n- The framework **has expanded**: 2011 added emerging hallmarks (energetics, immune evasion) and enabling characteristics (genome instability, inflammation).\n- **2022** added phenotypic plasticity, epigenetic reprogramming, microbiomes, and senescent cells.\n- Hallmarks are **capabilities**, not causes and not a fixed linear pathway.\n- Each hallmark maps to molecular targets (VEGF, BCL-2, CDK4/6, immune checkpoints).",
+    "commonConfusions": "- **\"There are only six hallmarks.\"** — The framework has expanded: 2011 added more, and 2022 added still more.\n- **\"Hallmarks are the causes of cancer.\"** — They are acquired *capabilities*, downstream of the actual causes (mutations, epigenetic changes).\n- **\"Hallmarks occur in a fixed order.\"** — No fixed order; different tumors acquire them by different routes.\n- **\"Hallmarks are the same as checkpoints.\"** — Checkpoints are normal cell-cycle control mechanisms; hallmarks are the cancer cell's acquired abilities.\n- **\"Angiogenesis is optional.\"** — Solid tumors beyond ~1–2 mm require angiogenesis for oxygen and nutrients.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine describing everything a successful bank robber needs to pull off a heist: a way to keep moving (proliferation), nobody to stop them (evade suppressors), a way to survive alarms (resist death), a never-ending supply of energy (immortality + metabolism), roads to escape on (angiogenesis), and a getaway to a new city (metastasis). Hanahan and Weinberg wrote down that checklist so scientists could study each \"skill\" separately. Over the years the checklist grew — robbers also need to avoid security cameras (the immune system) and sometimes disguise themselves (plasticity). (The analogy makes the list sound deliberate; real tumors stumble into these capabilities randomly through mutation and selection.)",
+    "quickReview": "- Hallmarks = acquired capabilities common to cancers (Hanahan & Weinberg).\n- Original 6: proliferation, evade suppressors, resist death, immortality, angiogenesis, invasion/metastasis.\n- Expanded: energetics, immune evasion, genome instability, inflammation (2011); plasticity, epigenetics, microbiome, senescence (2022).\n- Framework is descriptive and expandable; each hallmark is a therapeutic target.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Hanahan D, Weinberg RA. \"Hallmarks of Cancer: The Next Generation.\" *Cell*, 2011. https://doi.org/10.1016/j.cell.2011.02.013",
+        "url": "https://doi.org/10.1016/j.cell.2011.02.013"
+      },
+      {
+        "text": "Hanahan D. \"Hallmarks of Cancer: New Dimensions.\" *Cancer Discovery*, 2022. https://pubmed.ncbi.nlm.nih.gov/35022204/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35022204/"
+      },
+      {
+        "text": "NCI, \"What Is Cancer?\" https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+        "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer"
+      },
+      {
+        "text": "NCI Dictionary of Cancer Terms, \"angiogenesis.\" https://www.cancer.gov/publications/dictionaries/cancer-terms/def/angiogenesis",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/angiogenesis"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"10.4 Cancer and the Cell Cycle.\" https://openstax.org/books/biology-2e/pages/10-4-cancer-and-the-cell-cycle",
+        "url": "https://openstax.org/books/biology-2e/pages/10-4-cancer-and-the-cell-cycle"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/08-cancer-biology/08-hallmarks-of-cancer.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

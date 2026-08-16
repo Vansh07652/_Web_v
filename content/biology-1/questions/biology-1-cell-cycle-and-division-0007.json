@@ -1,0 +1,38 @@
+{
+  "id": "biology-1-cell-cycle-and-division-0007",
+  "subject": "biology-1",
+  "lesson": "cell-cycle-and-division",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A cell cycle has three major checkpoints, including the **G1 checkpoint**, the **G2 checkpoint**, and the **M checkpoint**. Which statement correctly pairs each checkpoint with what it monitors?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The G1 checkpoint monitors spindle attachment, the G2 checkpoint monitors cell size, and the M checkpoint monitors DNA damage."
+    },
+    {
+      "id": "b",
+      "text": "The G1 checkpoint monitors cell size, nutrients, growth signals, and DNA damage, the G2 checkpoint monitors replication completion and DNA damage, and the M checkpoint monitors spindle attachment."
+    },
+    {
+      "id": "c",
+      "text": "The G1 checkpoint monitors DNA damage only, the G2 checkpoint monitors spindle attachment, and the M checkpoint monitors nutrient levels."
+    },
+    {
+      "id": "d",
+      "text": "The G1 checkpoint monitors nutrient levels only, the G2 checkpoint monitors chromosome condensation, and the M checkpoint monitors cell size."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "The G1 checkpoint gates entry into S phase by checking cell size, nutrients, growth signals, and DNA integrity, the G2 checkpoint verifies that replication finished and DNA is undamaged, and the M checkpoint delays anaphase until every chromosome is attached to the spindle. A and C swap the checkpoints' jobs, and D leaves out most of what they monitor.",
+  "difficulty": "unknown",
+  "tags": [
+    "checkpoint",
+    "responsibilities"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-d4eb26fb1a74e2b8",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

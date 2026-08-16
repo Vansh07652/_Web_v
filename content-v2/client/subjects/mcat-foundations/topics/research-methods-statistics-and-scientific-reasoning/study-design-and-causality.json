@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:mcat-foundations:research-methods-statistics-and-scientific-reasoning:study-design-and-causality",
+  "slug": "study-design-and-causality",
+  "title": "Study Design and Causality",
+  "subject": {
+    "id": "subject:mcat-foundations",
+    "slug": "mcat-foundations",
+    "title": "MCAT Foundations"
+  },
+  "unit": {
+    "id": "unit:mcat-foundations:research-methods-statistics-and-scientific-reasoning",
+    "slug": "research-methods-statistics-and-scientific-reasoning",
+    "title": "Research Methods, Statistics, and Scientific Reasoning",
+    "order": 9
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "Not all studies are created equal when it comes to establishing causation. The study design determines what conclusions can be drawn. Experimental studies, where the researcher manipulates an independent variable and randomly assigns participants, provide the strongest evidence for causality. Observational studies -- where researchers measure variables without intervention -- can reveal associations, patterns, and risk factors but cannot definitively establish cause and effect. The MCAT tests your ability to read a study description and immediately classify the design, identify its strengths and weaknesses, and judge whether the authors' causal claims are justified. Every study design sits on a spectrum from high internal validity (experiments) to high external validity (observational), and knowing this trade-off is central to evaluating research passages across all three science sections.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- Experimental studies\n- Observational studies\n- Correlational studies\n- Cross-sectional studies\n- Longitudinal studies\n- Case-control studies\n- Cohort studies\n- Case reports",
+    "collegeNotes": "## Experimental Studies\n\nExperimental studies are the only design that can establish causation because the researcher actively manipulates the independent variable and randomly assigns participants to conditions. Key features: (1) manipulation of an IV, (2) random assignment to groups, (3) a control group or comparison condition, and (4) control over extraneous variables. Example: randomly assigning patients to receive a new drug or placebo and measuring blood pressure. The hallmark is that the researcher creates the conditions rather than observing naturally occurring ones. True experiments maximize internal validity but may sacrifice external validity -- lab conditions do not always mirror real-world settings. Quasi-experiments lack random assignment but retain manipulation; they provide stronger evidence than purely observational studies but weaker than true experiments.\n\n## Observational Studies\n\nObservational studies measure variables as they naturally occur without researcher intervention. The researcher does not manipulate the IV; instead, they observe and measure relationships between variables that already vary in the population. These designs can identify associations, risk factors, and patterns but cannot establish causation because confounds are not controlled through randomization. Observational designs are essential when experiments are unethical (e.g., studying the effects of smoking on lung cancer) or impractical (e.g., studying the effects of long-term diet on health). The MCAT frequently asks you to distinguish experimental from observational designs and recognize when causal language is inappropriate for an observational study.\n\n## Correlational Studies\n\nCorrelational studies measure the strength and direction of a relationship between two continuous variables using a correlation coefficient (r), which ranges from -1 to +1. A positive correlation means both variables increase together; a negative correlation means one increases while the other decreases. The critical MCAT trap: correlation does not imply causation. Three explanations exist for any correlation: (1) X causes Y, (2) Y causes X (reverse causation), or (3) a third variable Z causes both X and Y (confounding). For example, ice cream sales and drowning rates are positively correlated -- not because ice cream causes drowning, but because hot weather (the confound) drives both. The MCAT tests whether you can identify plausible confounds or reverse-causation explanations when a passage claims causation from correlational data.\n\n## Cross-Sectional Studies\n\nCross-sectional studies collect data from a population at a single point in time. They provide a snapshot of prevalence -- how common a condition or characteristic is in a defined population at that moment. Example: surveying 1,000 adults about their exercise habits and measuring their BMI on the same day. Strengths: fast, inexpensive, and useful for generating hypotheses. Limitations: cannot establish temporal sequence (which came first?) and therefore cannot distinguish cause from effect. If a cross-sectional study finds that people with low physical activity have higher BMI, you cannot conclude inactivity causes weight gain -- it could be that high BMI makes exercise difficult, or that a third factor drives both. The MCAT tests this temporal ambiguity repeatedly.\n\n## Longitudinal Studies\n\nLongitudinal studies follow the same participants over an extended period, collecting data at multiple time points. This design establishes temporal precedence -- it shows which variable changed first -- making it stronger than cross-sectional designs for inferring causation. Example: tracking a cohort of medical students from matriculation through residency, measuring burnout scores annually. Advantages: can observe change over time, establish temporal sequence, and track developmental trajectories. Limitations: expensive, time-consuming, and subject to attrition (participants drop out), which can bias results if those who leave differ systematically from those who stay. The MCAT often asks whether attrition threatens a longitudinal study's conclusions.\n\n## Case-Control Studies\n\nCase-control studies are retrospective observational designs that start with an outcome and look backward for exposures. Researchers identify cases (people with the condition of interest) and controls (comparable people without the condition), then compare past exposures between groups. Example: identifying lung cancer patients (cases) and matched cancer-free individuals (controls), then comparing their smoking histories. Strengths: efficient for rare outcomes and diseases with long latency periods. Limitations: prone to recall bias (participants may remember or report past exposures differently), selection bias in choosing controls, and cannot establish incidence because they sample based on outcome status. The odds ratio is the typical effect measure.\n\n## Cohort Studies\n\nCohort studies follow a group of people who share a common characteristic or exposure over time to see who develops an outcome. They can be prospective (recruit now, follow into the future) or retrospective (use existing records to look backward). The key feature: the study starts with exposure status, not outcome. Example: the Framingham Heart Study, which has followed thousands of participants since 1948 to identify cardiovascular disease risk factors. Strengths: can establish temporal sequence and calculate incidence and relative risk. Limitations: expensive for rare outcomes (need very large samples), long duration, and susceptible to loss to follow-up. Cohort studies provide stronger evidence for causation than case-control or cross-sectional designs.\n\n## Case Reports\n\nCase reports describe a single patient or a small series of patients with an unusual presentation, treatment response, or outcome. Example: a physician reports on three patients who developed a rare neurological condition after exposure to a new medication. They are the lowest tier of evidence but serve important functions: generating hypotheses for larger studies, identifying rare side effects, and reporting novel conditions. Limitations: no comparison group, no statistical analysis, and no generalizability. You cannot infer causation or prevalence from a case report. The MCAT may present a case report and ask whether it supports a broader causal claim -- the answer is always no, but it may justify further investigation.\n\n## How it works\n\nWhen the MCAT presents a research passage, classify the study design first. Ask: (1) Did the researcher manipulate a variable? If yes, is it a true experiment (random assignment) or quasi-experiment (no random assignment)? (2) If no manipulation, is the design prospective (cohort, longitudinal) or retrospective (case-control)? (3) Is it a snapshot (cross-sectional) or a trend over time (longitudinal/cohort)? (4) Is there a comparison group? (5) Based on the design, are causal claims justified? This five-question classification framework determines what conclusions are permissible and forms the backbone of MCAT experimental-reasoning questions.",
+    "howItWorks": "When the MCAT presents a research passage, classify the study design first. Ask: (1) Did the researcher manipulate a variable? If yes, is it a true experiment (random assignment) or quasi-experiment (no random assignment)? (2) If no manipulation, is the design prospective (cohort, longitudinal) or retrospective (case-control)? (3) Is it a snapshot (cross-sectional) or a trend over time (longitudinal/cohort)? (4) Is there a comparison group? (5) Based on the design, are causal claims justified? This five-question classification framework determines what conclusions are permissible and forms the backbone of MCAT experimental-reasoning questions.",
+    "comparisons": "- B/B (Passage analysis): Biological research passages frequently describe cohort or case-control studies (e.g., dietary risk factors and disease); expect questions about whether the design supports the authors' conclusions.\n- C/P (Epidemiology): Chemical exposure and health outcome studies are nearly always observational; the MCAT tests whether you can distinguish association from causation.\n- P/S (Research methods): Social psychology and sociology passages use cross-sectional surveys and longitudinal cohort designs; questions ask you to evaluate whether claims exceed what the design permits.\n- RM-001 (Scientific Method): Experimental designs operationalize the hypothesis-testing framework; observational designs generate hypotheses that experiments test.\n- RM-005 (Bias and Confounding): Each study design carries specific biases -- recall bias in case-control, attrition in longitudinal -- and this topic maps design choice to its most likely confound.\n- RM-009 (Inferential Statistics): The statistical test used depends on the study design; t-tests suit experiments, chi-square suits case-control, and correlation coefficients suit correlational designs.",
+    "highYield": "",
+    "commonConfusions": "- Calling an observational finding 'causal': If the researcher did not manipulate the IV and randomly assign, the study cannot establish causation. The MCAT loves passages where authors overclaim from observational data.\n- Reverse causation in cross-sectional studies: A snapshot cannot tell you which variable came first. 'People with depression have lower income' could mean poverty causes depression OR depression causes income loss.\n- Confusing cohort and case-control: Cohort studies start with exposure and follow forward; case-control studies start with outcome and look backward. The MCAT uses this distinction in passage questions.\n- Treating a case report as evidence of causation: A single case or small series generates hypotheses but cannot establish causality, prevalence, or generalizability.\n- Ignoring attrition in longitudinal studies: Loss to follow-up that differs between groups can bias results. The MCAT asks: did the people who dropped out differ from those who stayed?\n- Assuming correlation magnitude implies causation: A strong correlation (r = 0.9) is still just an association. Even perfect correlations can be entirely spurious.",
+    "memoryAids": "",
+    "eli10": "Imagine you are a detective investigating a crime. An experimental study is like setting up a sting operation -- you control the situation, you decide who is involved, and you watch exactly what happens. That is the gold standard for proving someone did it. An observational study is like reviewing security footage -- you can see who was there and what happened, but you did not control anything, so you cannot be 100% sure why things unfolded the way they did. A cross-sectional study is a single photograph of the crime scene; it shows what is present at one moment but nothing about what happened before or after. A longitudinal study is a time-lapse camera running for years, letting you watch the sequence of events unfold. A case-control study is like finding the suspect and then digging through their past for evidence. A cohort study is like identifying a group of people you suspect might be involved and then watching them for years to see who actually commits a crime. A case report is a single eyewitness account -- interesting and potentially useful for generating leads, but nowhere near enough to convict anyone. Limitation: this detective metaphor overstates how definitive experiments really are. Real experiments never prove causation with absolute certainty; they reduce uncertainty by ruling out alternatives. Even a sting operation can have a flawed setup that implicates the wrong person.",
+    "quickReview": "- Experiment = manipulation + random assignment = can infer causation\n- Observational study = no manipulation = can only identify associations\n- Correlation coefficient (r) ranges -1 to +1; does not imply causation\n- Cross-sectional = single time point snapshot; cannot establish temporal sequence\n- Longitudinal = same participants over time; establishes temporal precedence\n- Case-control = start with outcome, look backward for exposures; prone to recall bias\n- Cohort = start with exposure, follow forward; can calculate incidence and relative risk\n- Case report = single patient or small series; hypothesis-generating only, no generalizability\n- Attrition bias threatens longitudinal and cohort studies when dropout is systematic\n- Every correlation has three explanations: X causes Y, Y causes X, or Z causes both",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Psychology 2e - Chapter 2: Psychological Research — OpenStax",
+        "url": "https://openstax.org/books/psychology-2e/pages/2-introduction"
+      },
+      {
+        "text": "MCAT Content Outline: Scientific Reasoning and Research Methods — AAMC",
+        "url": "https://students-residents.aamc.org/media/9261/download"
+      },
+      {
+        "text": "Biology 2e - Chapter 1: The Study of Life — OpenStax",
+        "url": "https://openstax.org/books/biology-2e/pages/1-introduction"
+      },
+      {
+        "text": "Simply Psychology - Experimental Designs — Simply Psychology",
+        "url": "https://www.simplypsychology.org/experimental-designs.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "study-design-and-causality",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "MCAT_STUDY_LIBRARY/pages/research_methods_statistics/03-study-design-and-causality.md"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "MCAT_STUDY_LIBRARY/pages/research_methods_statistics/03-study-design-and-causality.md"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "mcat-one-page-topic-library",
+    "sourceFile": "MCAT_STUDY_LIBRARY/pages/research_methods_statistics/03-study-design-and-causality.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-mcat-library"
+  },
+  "sourceSnapshotMarkdown": ""
+}

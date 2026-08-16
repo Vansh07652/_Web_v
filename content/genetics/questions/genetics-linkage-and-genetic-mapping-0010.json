@@ -1,0 +1,40 @@
+{
+  "id": "genetics-linkage-and-genetic-mapping-0010",
+  "subject": "genetics",
+  "lesson": "linkage-and-genetic-mapping",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A geneticist wants the most accurate map of three linked genes. Why is a single three point test cross preferred over three separate two point test crosses?",
+  "options": [
+    {
+      "id": "a",
+      "text": "It reveals the gene order directly and corrects for double crossovers that would be missed in two point crosses."
+    },
+    {
+      "id": "b",
+      "text": "It measures recombination only in the female, removing the need for reciprocal crosses."
+    },
+    {
+      "id": "c",
+      "text": "It requires no homozygous recessive tester strain."
+    },
+    {
+      "id": "d",
+      "text": "It produces exactly twice as many progeny per fly as a two point cross."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "A three point test cross provides all three pairwise distances plus the gene order from one set of progeny, and the double crossover class makes the correction for undetected double crossovers possible, so the distances are more accurate than two point estimates that omit double crossovers. B is wrong because the same single sex recombination occurs in either cross design, and C is wrong because a three point test cross still requires a homozygous recessive tester. D is false: progeny number per fly is set by the cross itself, not the number of loci scored.",
+  "difficulty": "unknown",
+  "tags": [
+    "three",
+    "point",
+    "cross",
+    "advantage"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-6f4c5593d895eb88",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

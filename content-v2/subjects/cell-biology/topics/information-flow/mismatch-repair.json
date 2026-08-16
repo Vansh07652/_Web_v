@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:information-flow:mismatch-repair",
+  "slug": "mismatch-repair",
+  "title": "Mismatch Repair",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:information-flow",
+    "slug": "information-flow",
+    "title": "Information Flow",
+    "order": 10
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "Mismatch repair (MMR) is a post-replicative system that corrects base–base mismatches and small insertion/deletion loops that escape the polymerase's proofreading exonuclease. By specifically excising and resynthesizing a stretch of the *newly synthesized* strand, MMR lowers the overall replication error rate by a further ~100–1000-fold, to roughly one error per 10⁹–10¹⁰ base pairs. Loss of MMR causes a \"mutator\" phenotype and is the molecular basis of hereditary nonpolyposis colorectal cancer (Lynch syndrome).",
+    "whyItMatters": "MMR is a first line of defense against replication errors, safeguarding genome stability. Its failure underlies Lynch syndrome (the most common hereditary colorectal cancer predisposition) and a subset of sporadic cancers with MSI, which also predicts response to immune-checkpoint therapy. Understanding MMR is thus central to cancer genetics, diagnostics, and treatment selection.",
+    "learningObjectives": "- Explain what DNA mismatch repair corrects and why it is needed.\n- Describe the eukaryotic MutS/MutL machinery and how the newly synthesized strand is identified.\n- Contrast mismatch repair with proofreading during replication.\n- Relate mismatch repair defects to cancer (Lynch syndrome).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nMismatch repair (MMR) is a post-replicative system that corrects base–base mismatches and small insertion/deletion loops that escape the polymerase's proofreading exonuclease. By specifically excising and resynthesizing a stretch of the *newly synthesized* strand, MMR lowers the overall replication error rate by a further ~100–1000-fold, to roughly one error per 10⁹–10¹⁰ base pairs. Loss of MMR causes a \"mutator\" phenotype and is the molecular basis of hereditary nonpolyposis colorectal cancer (Lynch syndrome).\n\n### Key Components\n\n- **MutS homologs (MSH2–MSH6 or MSH2–MSH3)** — recognize mismatches and insertion/deletion loops.\n- **MutL homologs (MLH1–PMS2)** — couple mismatch recognition to downstream excision.\n- **Exonuclease 1 (EXO1)** — removes the mismatched strand segment.\n- **Proliferating cell nuclear antigen (PCNA)** — directs the machinery to the correct strand and coordinates resynthesis.\n- **Replication protein A (RPA), DNA polymerase δ, and DNA ligase** — complete gap filling and sealing.\n\n### Mechanism\n\nMMR exploits the fact that, immediately after replication, the newly synthesized strand is distinguishable from the template. In bacteria this is done by transient hemimethylation (the new strand is unmethylated); in eukaryotes the strand-discrimination signal is linked to the replication machinery — nicks and PCNA mark the nascent strand. The MutS complex binds the mismatch, recruits MutL, and together they direct EXO1 to nick and degrade the error-containing strand past the mismatch; DNA polymerase δ then resynthesizes the excised region and ligase seals it.\n\n### How It Works\n\n1. A mismatch (e.g., G paired with T) or a small loop persists after replication because proofreading missed it.\n2. The MSH2–MSH6 heterodimer recognizes and binds the distortion.\n3. MLH1–PMS2 is recruited, forming a complex that scans for the strand-discrimination signal (the nick/PCNA on the nascent strand).\n4. EXO1 is directed to the nascent strand and digests it from the nick through and beyond the mismatch.\n5. RPA stabilizes the resulting single-stranded gap; DNA polymerase δ fills it using the intact template.\n6. DNA ligase seals the final nick, restoring a correct, fully paired duplex.\n\n### Energy and Directionality\n\nExcision and resynthesis are ATP- and dNTP-consuming. MutS and MutL are ATPases whose nucleotide binding/hydrolysis drives conformational changes and the long-range communication between mismatch and strand signal. Directionality is provided by the strand-discrimination signal — the mismatch is removed *only* from the newly synthesized strand, so the parental (correct) sequence is always preserved. The resynthesis step is powered by dNTP hydrolysis, as in replication.\n\n### Experimental Evidence\n\n- **Bacterial genetics** — mutator strains (mutS, mutL) accumulate point mutations at ~100–1000× the normal rate, proving the genes correct replication errors.\n- **In vitro reconstitution** — purified MutS, MutL, EXO1, PCNA, pol δ, and ligase carry out nick-directed mismatch excision, defining the eukaryotic pathway.\n- **Microsatellite instability (MSI)** — MMR-defective cells show length instability of short repeats, a diagnostic hallmark used in cancer screening.\n- **Lynch syndrome linkage** — germline mutations in MSH2, MLH1, MSH6, or PMS2 cause hereditary colorectal and other cancers, directly linking MMR to tumor suppression.\n\n### Technique\n\nDetection of MMR status uses **microsatellite instability testing** (PCR of repeat loci) and **immunohistochemistry** for MLH1/MSH2/MSH6/PMS2 on tumors. Functional assays include **in vitro mismatch repair** of heteroduplex DNA and **mutation-accumulation (mutator) assays**. Genome-wide mutation spectra are read by **whole-genome sequencing**.",
+    "howItWorks": "1. A mismatch (e.g., G paired with T) or a small loop persists after replication because proofreading missed it.\n2. The MSH2–MSH6 heterodimer recognizes and binds the distortion.\n3. MLH1–PMS2 is recruited, forming a complex that scans for the strand-discrimination signal (the nick/PCNA on the nascent strand).\n4. EXO1 is directed to the nascent strand and digests it from the nick through and beyond the mismatch.\n5. RPA stabilizes the resulting single-stranded gap; DNA polymerase δ fills it using the intact template.\n6. DNA ligase seals the final nick, restoring a correct, fully paired duplex.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- MMR corrects base mismatches and small indel loops missed by proofreading.\n- Eukaryotic machinery: MSH2–MSH6 (recognition) and MLH1–PMS2 (coupling), plus EXO1, PCNA, pol δ, ligase.\n- It excises the newly synthesized strand, guided by nicks/PCNA (eukaryotes) or hemimethylation (bacteria).\n- Adds ~100–1000× fidelity on top of proofreading.\n- Defects → microsatellite instability and Lynch syndrome (MSH2, MLH1, MSH6, PMS2).\n- Resynthesis is 5′→3′ by pol δ; ATP drives MutS/MutL.",
+    "commonConfusions": "- **\"MMR and proofreading are the same\"** — proofreading (3′→5′ exonuclease of the polymerase) acts during synthesis; MMR acts *after* synthesis to catch what proofreading missed.\n- **\"MMR repairs any DNA damage\"** — it targets replication *misincorporation* errors; chemically damaged bases are handled by BER/NER.\n- **\"Both strands are at risk of excision\"** — MMR specifically removes the new strand so the template is preserved.\n- **\"MMR defects only cause colon cancer\"** — Lynch syndrome also raises risk of endometrial, ovarian, gastric, and other cancers.\n- **\"Microsatellite instability is benign\"** — it is a diagnostic marker of defective MMR and a cancer driver.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nWhen a DNA copier makes a typo, proofreading is the spell-check that catches most mistakes. Mismatch repair is a second editor who reads the freshly copied page, finds the typo, and — crucially — knows which page is the new copy (it has the fresh, unfaded ink) versus the original, so it erases and rewrites only the new copy's wrong section. That way the original text is always kept safe. (The analogy's limit: the cell doesn't compare \"faded ink\"; it finds the new strand by molecular nicks and the clamp protein PCNA left behind during copying.)",
+    "quickReview": "- MMR fixes replication mismatches/small loops after synthesis.\n- MSH2–MSH6 recognizes; MLH1–PMS2 couples to excision; EXO1 digests the new strand.\n- Strand discrimination by nicks/PCNA (eukaryotes) or hemimethylation (prokaryotes).\n- Pol δ resynthesizes; ligase seals; ATP and dNTPs power the reaction.\n- Defects → MSI and Lynch syndrome.\n- Tested by MSI PCR and MLH1/MSH2 immunohistochemistry.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"14.6 DNA Repair.\" https://openstax.org/books/biology-2e/pages/14-6-dna-repair",
+        "url": "https://openstax.org/books/biology-2e/pages/14-6-dna-repair"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"DNA Replication Mechanisms.\" https://www.ncbi.nlm.nih.gov/books/NBK26850/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26850/"
+      },
+      {
+        "text": "Brown, T.A., *Genomes*, 2nd ed., \"Mutation, Repair and Recombination.\" https://www.ncbi.nlm.nih.gov/books/NBK21114/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21114/"
+      },
+      {
+        "text": "Nature Scitable, \"Mutation, DNA Repair, and DNA Integrity.\" https://www.nature.com/scitable/topicpage/dna-damage-repair-mechanisms-for-maintaining-dna-344/",
+        "url": "https://www.nature.com/scitable/topicpage/dna-damage-repair-mechanisms-for-maintaining-dna-344/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "mismatch-repair",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "05-mismatch-repair",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:2d8950950a8c5350"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:2d8950950a8c5350"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:2d8950950a8c5350"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:2d8950950a8c5350"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/10-information-flow/05-mismatch-repair.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Mismatch Repair\n\n## Learning Goals\n- Explain what DNA mismatch repair corrects and why it is needed.\n- Describe the eukaryotic MutS/MutL machinery and how the newly synthesized strand is identified.\n- Contrast mismatch repair with proofreading during replication.\n- Relate mismatch repair defects to cancer (Lynch syndrome).\n\n## Core Concept\nMismatch repair (MMR) is a post-replicative system that corrects base–base mismatches and small insertion/deletion loops that escape the polymerase's proofreading exonuclease. By specifically excising and resynthesizing a stretch of the *newly synthesized* strand, MMR lowers the overall replication error rate by a further ~100–1000-fold, to roughly one error per 10⁹–10¹⁰ base pairs. Loss of MMR causes a \"mutator\" phenotype and is the molecular basis of hereditary nonpolyposis colorectal cancer (Lynch syndrome).\n\n## Key Components\n- **MutS homologs (MSH2–MSH6 or MSH2–MSH3)** — recognize mismatches and insertion/deletion loops.\n- **MutL homologs (MLH1–PMS2)** — couple mismatch recognition to downstream excision.\n- **Exonuclease 1 (EXO1)** — removes the mismatched strand segment.\n- **Proliferating cell nuclear antigen (PCNA)** — directs the machinery to the correct strand and coordinates resynthesis.\n- **Replication protein A (RPA), DNA polymerase δ, and DNA ligase** — complete gap filling and sealing.\n\n## Mechanism\nMMR exploits the fact that, immediately after replication, the newly synthesized strand is distinguishable from the template. In bacteria this is done by transient hemimethylation (the new strand is unmethylated); in eukaryotes the strand-discrimination signal is linked to the replication machinery — nicks and PCNA mark the nascent strand. The MutS complex binds the mismatch, recruits MutL, and together they direct EXO1 to nick and degrade the error-containing strand past the mismatch; DNA polymerase δ then resynthesizes the excised region and ligase seals it.\n\n## How It Works\n1. A mismatch (e.g., G paired with T) or a small loop persists after replication because proofreading missed it.\n2. The MSH2–MSH6 heterodimer recognizes and binds the distortion.\n3. MLH1–PMS2 is recruited, forming a complex that scans for the strand-discrimination signal (the nick/PCNA on the nascent strand).\n4. EXO1 is directed to the nascent strand and digests it from the nick through and beyond the mismatch.\n5. RPA stabilizes the resulting single-stranded gap; DNA polymerase δ fills it using the intact template.\n6. DNA ligase seals the final nick, restoring a correct, fully paired duplex.\n\n## Energy and Directionality\nExcision and resynthesis are ATP- and dNTP-consuming. MutS and MutL are ATPases whose nucleotide binding/hydrolysis drives conformational changes and the long-range communication between mismatch and strand signal. Directionality is provided by the strand-discrimination signal — the mismatch is removed *only* from the newly synthesized strand, so the parental (correct) sequence is always preserved. The resynthesis step is powered by dNTP hydrolysis, as in replication.\n\n## Experimental Evidence\n- **Bacterial genetics** — mutator strains (mutS, mutL) accumulate point mutations at ~100–1000× the normal rate, proving the genes correct replication errors.\n- **In vitro reconstitution** — purified MutS, MutL, EXO1, PCNA, pol δ, and ligase carry out nick-directed mismatch excision, defining the eukaryotic pathway.\n- **Microsatellite instability (MSI)** — MMR-defective cells show length instability of short repeats, a diagnostic hallmark used in cancer screening.\n- **Lynch syndrome linkage** — germline mutations in MSH2, MLH1, MSH6, or PMS2 cause hereditary colorectal and other cancers, directly linking MMR to tumor suppression.\n\n## Technique\nDetection of MMR status uses **microsatellite instability testing** (PCR of repeat loci) and **immunohistochemistry** for MLH1/MSH2/MSH6/PMS2 on tumors. Functional assays include **in vitro mismatch repair** of heteroduplex DNA and **mutation-accumulation (mutator) assays**. Genome-wide mutation spectra are read by **whole-genome sequencing**.\n\n## Why It Matters\nMMR is a first line of defense against replication errors, safeguarding genome stability. Its failure underlies Lynch syndrome (the most common hereditary colorectal cancer predisposition) and a subset of sporadic cancers with MSI, which also predicts response to immune-checkpoint therapy. Understanding MMR is thus central to cancer genetics, diagnostics, and treatment selection.\n\n## High-Yield Facts\n- MMR corrects base mismatches and small indel loops missed by proofreading.\n- Eukaryotic machinery: MSH2–MSH6 (recognition) and MLH1–PMS2 (coupling), plus EXO1, PCNA, pol δ, ligase.\n- It excises the newly synthesized strand, guided by nicks/PCNA (eukaryotes) or hemimethylation (bacteria).\n- Adds ~100–1000× fidelity on top of proofreading.\n- Defects → microsatellite instability and Lynch syndrome (MSH2, MLH1, MSH6, PMS2).\n- Resynthesis is 5′→3′ by pol δ; ATP drives MutS/MutL.\n\n## Eli Explains\nWhen a DNA copier makes a typo, proofreading is the spell-check that catches most mistakes. Mismatch repair is a second editor who reads the freshly copied page, finds the typo, and — crucially — knows which page is the new copy (it has the fresh, unfaded ink) versus the original, so it erases and rewrites only the new copy's wrong section. That way the original text is always kept safe. (The analogy's limit: the cell doesn't compare \"faded ink\"; it finds the new strand by molecular nicks and the clamp protein PCNA left behind during copying.)\n\n## Common Confusions\n- **\"MMR and proofreading are the same\"** — proofreading (3′→5′ exonuclease of the polymerase) acts during synthesis; MMR acts *after* synthesis to catch what proofreading missed.\n- **\"MMR repairs any DNA damage\"** — it targets replication *misincorporation* errors; chemically damaged bases are handled by BER/NER.\n- **\"Both strands are at risk of excision\"** — MMR specifically removes the new strand so the template is preserved.\n- **\"MMR defects only cause colon cancer\"** — Lynch syndrome also raises risk of endometrial, ovarian, gastric, and other cancers.\n- **\"Microsatellite instability is benign\"** — it is a diagnostic marker of defective MMR and a cancer driver.\n\n## Quick Review\n- MMR fixes replication mismatches/small loops after synthesis.\n- MSH2–MSH6 recognizes; MLH1–PMS2 couples to excision; EXO1 digests the new strand.\n- Strand discrimination by nicks/PCNA (eukaryotes) or hemimethylation (prokaryotes).\n- Pol δ resynthesizes; ligase seals; ATP and dNTPs power the reaction.\n- Defects → MSI and Lynch syndrome.\n- Tested by MSI PCR and MLH1/MSH2 immunohistochemistry.\n\n## Sources\n- OpenStax, *Biology 2e*, \"14.6 DNA Repair.\" https://openstax.org/books/biology-2e/pages/14-6-dna-repair\n- Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"DNA Replication Mechanisms.\" https://www.ncbi.nlm.nih.gov/books/NBK26850/\n- Brown, T.A., *Genomes*, 2nd ed., \"Mutation, Repair and Recombination.\" https://www.ncbi.nlm.nih.gov/books/NBK21114/\n- Nature Scitable, \"Mutation, DNA Repair, and DNA Integrity.\" https://www.nature.com/scitable/topicpage/dna-damage-repair-mechanisms-for-maintaining-dna-344/\n"
+}

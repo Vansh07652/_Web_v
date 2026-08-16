@@ -1,0 +1,160 @@
+---
+title: "Anxiety"
+subject: "Nursing"
+book: "Psychiatric-Mental Health Nursing"
+chapter: "24: Older Adults"
+topic_number: "3"
+source: "psychiatric-mental-health.md"
+tags:
+  - "anxiety"
+  - "nursing"
+status: "complete"
+---
+
+# Anxiety
+
+> **Book:** [Psychiatric-Mental Health Nursing](../../README.md)  
+> **Chapter:** [Chapter 24: Older Adults](../README.md)  
+> **Topic:** 3  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Anxiety** — excessive fear, worry, or tension that interferes with daily life — is common in older adults and, like depression, frequently under-recognized and undertreated. Some worry is a normal response to real threats; an anxiety disorder involves worry or fear that is out of proportion, persistent, and impairing.
+
+In later life, anxiety often hides behind physical symptoms: racing heart, shortness of breath, dizziness, stomach upset, and trouble sleeping. An older person may not say "I'm anxious"; they may say "My stomach is in knots" or repeatedly call the clinic worried about their health. This topic covers how anxiety presents in older adults, how nurses distinguish it from medical problems, and how care is approached with respect, calm, and appropriate escalation.
+
+## Why This Matters
+
+- **Anxiety is common in later life** — in many studies as common as or more common than depression, yet it gets far less attention and treatment.
+- **It worsens other conditions.** Anxiety complicates heart disease, COPD, chronic pain, and dementia care, and is associated with more functional decline and more frequent health care use.
+- **It is easily mistaken for physical illness.** The overlap with cardiac, respiratory, and endocrine symptoms makes assessment challenging — and makes careful nursing observation valuable.
+- **It is treatable.** Recognition opens the door to effective, age-appropriate care; believing "worried is just how she is" closes that door.
+
+## Core Concepts
+
+### Normal worry versus an anxiety disorder
+
+Everyone worries, and older adults have real things to worry about: health, finances, family, loss. The clinical question is not "Does this person worry?" but "Is the worry out of proportion, persistent, and impairing?" Generalized anxiety — the most common anxiety disorder in older adults — involves excessive worry most days, difficulty controlling it, and symptoms such as restlessness, fatigue, poor concentration, irritability, muscle tension, and sleep disturbance. When worry stops a person from leaving the house, attending appointments, or sleeping, it has crossed from normal into impairing.
+
+### How anxiety presents in older adults
+
+- **Somatic symptoms dominate:** palpitations, chest tightness, shortness of breath, dizziness, tremor, sweating, GI upset — older adults often experience anxiety physically and report it as a medical complaint.
+- **Sleep problems:** difficulty falling or staying asleep, frequent nighttime worry.
+- **Avoidance:** declining invitations, refusing medical tests, avoiding stairs or driving after a fall.
+- **Irritability and agitation,** which family may read as "grumpiness."
+- **Excessive health worry:** repeated calls, frequent visits, catastrophic interpretation of minor symptoms.
+- **Reassurance-seeking:** asking the same question repeatedly, needing constant confirmation.
+
+### Medical mimics and contributors
+
+Anxiety symptoms can be caused or worsened by physical conditions — the nurse's "rule out medical causes" mindset is essential: **cardiac** (arrhythmias, angina, heart failure), **respiratory** (COPD, asthma — breathlessness fuels panic), **endocrine** (hyperthyroidism, hypoglycemia), **neurological** (Parkinson's disease, early dementia), **medications and substances** (stimulants, some asthma drugs, corticosteroids, caffeine, excess thyroid medication, alcohol or sedative withdrawal), and **pain and sensory loss** (unrelieved pain and feeling unsafe, e.g., poor hearing at night, generate anxiety).
+
+This is why the nurse documents *when* symptoms occur, what triggers them, and what accompanies them — a pattern ("racing heart only after exertion" vs. "racing heart while resting in bed") is a clue the provider uses to sort cardiac from anxiety causes.
+
+### The research history: how we know anxiety is common
+
+Our current understanding of anxiety in later life grew out of large community surveys of the 1980s, such as the U.S. **Epidemiologic Catchment Area (ECA) study**. Unlike earlier work that counted only people in treatment (which misses everyone who never seeks help), the ECA study interviewed representative community samples with standardized diagnostic interviews. It found that anxiety disorders were among the most common mental health conditions in the population — including among older adults — and that most affected people were not receiving treatment.
+
+Methodologically, the ECA study was a landmark: community sampling and structured interviews produced prevalence estimates far more trustworthy than clinic-based counts. Historically, it also exposed a gap — anxiety in older adults was studied far less than depression, a disparity that persists. The lesson: how you sample a population shapes what you believe about it, and under-studied groups are often under-served groups.
+
+### Anxiety and cognitive impairment
+
+Anxiety is very common in people with dementia and can appear when a person cannot understand or control their surroundings — as restlessness, calling out, pacing, or resisting care. The nurse's approach is to look for the *reason* — pain, hunger, a full bladder, a noisy room, a lost routine — before labeling the behavior. This is a person-centered, non-pharmacological stance: modify the environment and the trigger, not the person.
+
+### Nursing approach to the anxious older adult
+
+- **Stay calm and present.** A calm, unhurried nurse models safety. Speak clearly, at a reasonable volume, and give the person time.
+- **Validate, don't dismiss.** "I can see this is really worrying you" is therapeutic; "There's nothing to worry about" invalidates and escalates.
+- **Be concrete.** Breaking tasks into small steps reduces the uncertainty that fuels anxiety.
+- **Address sensory and comfort needs** — hearing aids, glasses, pain, hunger, toileting.
+- **Observe and document** the pattern: onset, triggers, physical symptoms, what helps.
+- **Escalate appropriately.** New, severe, or worsening anxiety — especially with chest pain or shortness of breath — is reported to the provider promptly so medical causes are evaluated. Agitation posing safety risk follows the facility's escalation and behavioral-emergency policy.
+
+Nurses do not prescribe or independently change anxiety treatment. Medication decisions — including the notable caution about sedatives in older adults, which carry risks of falls, sedation, and dependence — belong to the prescribing provider and follow evidence-based guidelines.
+
+## ELI-10: Explain Like I'm 10
+
+> Worrying is normal, but when an older person worries so much that they cannot sleep, leave the house, or feel calm, it is an illness called anxiety. It often shows up as a fast heart, stomach aches, or trouble breathing instead of the word "worried." Nurses help by staying calm, listening kindly, checking for physical causes, and telling the care team so the person can get the right help.
+
+## High-Yield Points
+
+- **Anxiety in older adults is common, under-recognized, and often expressed physically** (palpitations, dizziness, GI upset, insomnia) rather than verbally.
+- **Generalized anxiety = excessive, uncontrollable worry most days plus physical/emotional symptoms that impair function.**
+- **Always consider medical mimics:** cardiac, respiratory, endocrine, pain, medications, caffeine, and substance withdrawal can produce anxiety symptoms.
+- **The ECA community survey (1980s)** showed anxiety is common and undertreated in the population, including older adults — clinic samples alone underestimate prevalence.
+- **Anxiety commonly coexists with dementia** — look for the trigger (pain, discomfort, environment) before labeling behavior.
+- **Therapeutic stance:** calm presence, validation, concrete communication, sensory/comfort support — never dismiss the worry.
+- **New or severe anxiety with cardiac-like symptoms is escalated to the provider** to rule out medical causes; behavioral emergencies follow facility policy.
+- **Medication decisions are the provider's** — sedatives in older adults carry recognized risks (falls, sedation, dependence).
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Anxiety | Excessive fear, worry, or tension that impairs daily life | Common in later life, often hidden behind physical symptoms |
+| Generalized anxiety | Persistent, difficult-to-control worry most days, with restlessness, tension, poor sleep, etc. | The most common anxiety disorder pattern in older adults |
+| Somatic symptoms | Physical complaints (racing heart, dizziness, GI upset) | The way anxiety often "wears" in older adults |
+| Avoidance | Staying away from situations that trigger fear | Can shrink an older person's world — appointments, outings, stairs |
+| Reassurance-seeking | Repeatedly asking for confirmation that things are OK | A hallmark of anxiety that can strain relationships and care |
+| ECA study | Epidemiologic Catchment Area study — large community survey with standardized interviews (1980s) | Landmark evidence that anxiety is common and undertreated; a lesson in sampling |
+| Validation | Acknowledging the person's feelings as real and understandable | Reduces distress; dismissing worry escalates it |
+| Behavioral emergency | Agitation or behavior posing risk of harm | Managed per facility policy with prompt team escalation |
+
+## Example: Mrs. Okafor's racing heart
+
+Mrs. Okafor, 74, with COPD and mild arthritis, calls the nurse's station three times in one shift, each time reporting "my heart is pounding and I can't catch my breath." Her vital signs are stable. The nurse notices the pattern: the episodes began after Mrs. Okafor learned her daughter is moving to another state, and they worsen at night when she is alone. She confides, "What if something happens to me and no one is here?"
+
+The nurse does three things. First, she takes the symptoms seriously and checks vital signs and oxygen saturation — shortness of breath and palpitations always get a physical assessment first, because they can be cardiac or respiratory in origin. Second, she documents the context: onset after the daughter's news, worsening at night, stable vital signs, fear of being alone. Third, she reports to the provider, who can evaluate medical causes (including COPD status and medications) and, if appropriate, arrange a fuller mental health assessment.
+
+Meanwhile, she uses therapeutic communication: "It makes sense you feel scared about being alone — that's a big change." She closes the curtain for privacy, sits down, speaks slowly, and checks Mrs. Okafor's hearing aid batteries — earlier she had to repeat herself twice. By evening, Mrs. Okafor says, "Talking helped. I just needed someone to listen." The pounding episodes had physical and emotional fuel; both were assessed, and both were reported.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Anxiety symptoms | Cardiac/respiratory emergency | Always assess physical status first; chest pain, severe dyspnea, and unstable vitals are escalated immediately — anxiety is a consideration, not a dismissal |
+| Normal worry | Anxiety disorder | Worry is proportionate and controllable; an anxiety disorder is excessive, persistent, and impairing |
+| Anxiety in older adults | Rare or trivial | It is common, under-recognized, and associated with worse physical health and function |
+| Dismissing worry | Validating worry | "Nothing to worry about" invalidates; "I can see you're really worried" builds trust |
+| Agitation in dementia | Pure "behavior problem" | Often signals pain, discomfort, or environmental stress — find the trigger |
+| Sedatives as first-line calm | Caution in older adults | Sedatives carry high risks of falls, sedation, and dependence in older adults; treatment decisions are provider-led and guideline-driven |
+| Clinic samples | Population prevalence | Clinic counts miss people who never seek care; community surveys (ECA) show higher true prevalence |
+
+## Quick Review
+
+1. Why is anxiety in older adults frequently missed?
+2. List four physical symptoms through which anxiety may present in an older person.
+3. Name three medical conditions or substances that can cause anxiety-like symptoms.
+4. What did the ECA study add beyond earlier clinic-based research?
+5. What is the nurse's first response to a patient reporting palpitations and shortness of breath?
+6. Give an example of validation versus dismissal in response to an anxious patient.
+
+<details>
+<summary>Show answers</summary>
+
+1. Because it often presents as physical symptoms (palpitations, GI upset, insomnia) rather than expressed worry, it coexists with medical illness that "explains" the symptoms, and it is under-studied and undertreated in later life.
+2. Any four of: palpitations/racing heart, shortness of breath, dizziness, tremor, sweating, GI upset, sleep disturbance, muscle tension.
+3. Any three of: cardiac conditions (arrhythmia, angina), COPD/asthma, hyperthyroidism, hypoglycemia, pain, stimulant or corticosteroid medications, caffeine, alcohol or sedative withdrawal.
+4. It used community sampling and standardized interviews rather than counting only people in treatment, giving more trustworthy prevalence estimates and showing anxiety is common and largely untreated — including in older adults.
+5. Take the symptoms seriously and complete the physical assessment — vital signs, oxygen saturation, change from baseline — then document and report to the provider so medical causes are evaluated. Never dismiss new cardiac-like symptoms as "just anxiety."
+6. Validation: "I can see this is really worrying you — it makes sense you feel this way." Dismissal: "There's nothing to worry about" — which invalidates the experience and can escalate distress.
+
+</details>
+
+## Related Topics
+
+- Previous: [Depression](02-depression.md)
+- Next: [Delirium](04-delirium.md)
+- Related: [Healthcare Concerns and Decisions of Older Adults](01-healthcare-concerns-and-decisions-of-older-adults.md), [Pain](06-pain.md), [Psychiatric-Mental Healthcare Nursing Interventions](07-psychiatric-mental-healthcare-nursing-interventions.md)
+- Chapter overview: [Older Adults](../README.md)
+- Cross-chapter: [Anxiety, OCD, and Trauma/Stressor Disorders](../chapter-17-anxiety-ocd-and-trauma-stressor-disorders/README.md)
+
+## Source Notes
+
+- Book: Psychiatric-Mental Health Nursing
+- Local outline source: `psychiatric-mental-health.md`
+- Official source URL: https://openstax.org/details/books/psychiatric-mental-health/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: Educational overview only. New or severe anxiety with cardiac-like symptoms requires prompt provider evaluation. Diagnosis, medication decisions, and behavioral-emergency management are professional responsibilities that follow evidence-based guidelines, facility policy, and jurisdictional scope of practice.
+- Last updated: 2026-08-16

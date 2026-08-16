@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:electrochemistry:quantitative-electrolysis",
+  "slug": "quantitative-electrolysis",
+  "title": "Quantitative Electrolysis (Faraday's Laws)",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:electrochemistry",
+    "slug": "electrochemistry",
+    "title": "Electrochemistry",
+    "order": 8
+  },
+  "order": 11,
+  "status": "final",
+  "sections": {
+    "overview": "Electrolysis obeys exact stoichiometry through electric charge. The charge passed is **Q = I × t** (current × time, in coulombs). Dividing by the **Faraday constant F = 96,485 C/mol e⁻** gives the moles of electrons transferred, and the half-reaction stoichiometry (e.g., Ag⁺ + e⁻ → Ag uses 1 e⁻ per Ag; Cu²⁺ + 2 e⁻ → Cu uses 2) converts moles of electrons to moles of product — and, via molar mass, to grams. These relationships (Faraday's laws) let you predict exactly how much metal plates out, how long to run a current, or what current is needed.",
+    "whyItMatters": "Quantitative electrolysis is the arithmetic of electroplating (jewelry, chrome, circuit boards), electrorefining (purifying copper to 99.99%), and industrial electrolysis (how many grams of aluminum or chlorine a plant produces per hour). It is also the basis of the coulometer and of precise laboratory measurements of the Faraday constant, linking the electrical and chemical worlds with exact, checkable numbers.",
+    "learningObjectives": "- Calculate the charge passed from current and time using Q = I × t.\n- Convert charge to moles of electrons using Faraday's constant (F = 96,485 C/mol e⁻).\n- Use reaction stoichiometry to convert moles of electrons to moles/mass of product.\n- Solve for any of current, time, or mass given the others.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nElectrolysis obeys exact stoichiometry through electric charge. The charge passed is **Q = I × t** (current × time, in coulombs). Dividing by the **Faraday constant F = 96,485 C/mol e⁻** gives the moles of electrons transferred, and the half-reaction stoichiometry (e.g., Ag⁺ + e⁻ → Ag uses 1 e⁻ per Ag; Cu²⁺ + 2 e⁻ → Cu uses 2) converts moles of electrons to moles of product — and, via molar mass, to grams. These relationships (Faraday's laws) let you predict exactly how much metal plates out, how long to run a current, or what current is needed.\n\n### Key Ideas\n\n- **Q = I × t.** Charge (coulombs) = current (amperes) × time (seconds). 1 A = 1 C/s.\n- **Faraday constant.** One mole of electrons carries 96,485 coulombs.\n- **n(e⁻) = Q / F.** The central conversion from charge to chemical amount.\n- **Stoichiometry from the half-reaction.** Moles of product = moles of electrons ÷ (electrons per product ion).\n- **Time in seconds.** Convert minutes/hours to seconds before multiplying by current.\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| Q | Electric charge | C (coulombs) |\n| I | Current | A (amperes = C/s) |\n| t | Time | s |\n| F | Faraday constant = 96,485 C/mol e⁻ | C/mol e⁻ |\n| n(e⁻) | Moles of electrons | mol e⁻ |\n\nQ = I × t ;  n(e⁻) = Q / F\n\n### How It Works\n\n1. Compute Q = I × t (with t in seconds).\n2. Convert to moles of electrons: n(e⁻) = Q / F.\n3. Use the balanced half-reaction to find moles of product per mole of electrons.\n4. Multiply by molar mass for grams (or use ideal-gas/volume conversions for gases).\n5. Rearrange to solve for time or current if mass is the given quantity.\n\n### Worked Example\n\n**How many grams of silver plate out when a current of 1.50 A passes through AgNO₃ solution for 25.0 minutes?**\n\n- t = 25.0 min × 60 s/min = 1500 s.\n- Q = I × t = 1.50 A × 1500 s = 2250 C.\n- n(e⁻) = Q / F = 2250 C ÷ 96,485 C/mol = 0.02332 mol e⁻.\n- Half-reaction: Ag⁺ + e⁻ → Ag, so 1 mol e⁻ deposits 1 mol Ag.\n- n(Ag) = 0.02332 mol; mass = 0.02332 mol × 107.87 g/mol = **2.52 g Ag**.\n\n**Reverse problem:** to deposit 2.52 g Ag in 25 min requires I = (n·F)/t = (0.02332 × 96,485)/1500 = 1.50 A — the same numbers, run backward.",
+    "howItWorks": "1. Compute Q = I × t (with t in seconds).\n2. Convert to moles of electrons: n(e⁻) = Q / F.\n3. Use the balanced half-reaction to find moles of product per mole of electrons.\n4. Multiply by molar mass for grams (or use ideal-gas/volume conversions for gases).\n5. Rearrange to solve for time or current if mass is the given quantity.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Q = I × t (coulombs = amperes × seconds).\n- F = 96,485 C/mol e⁻.\n- n(e⁻) = Q / F.\n- Convert time to seconds before using Q = I·t.\n- Moles of product follow the half-reaction's electron count (1 e⁻ for Ag⁺, 2 for Cu²⁺, 3 for Al³⁺).\n- mass = moles × molar mass.\n- 1 ampere = 1 coulomb/second.",
+    "commonConfusions": "- **\"Use time in minutes.\"** — Wrong. Q = I × t requires seconds; convert minutes/hours first.\n- **\"F is the gas constant.\"** — Wrong. F = 96,485 C/mol e⁻ (Faraday); R = 8.314 J/(mol·K) (gas).\n- **\"Forgetting the electron stoichiometry.\"** — Wrong. Cu²⁺ needs 2 e⁻ per Cu, Al³⁺ needs 3; the mass per electron differs.\n- **\"Current in milliamps is fine as-is.\"** — Wrong. Convert mA to A (1 A = 1000 mA) before multiplying.\n- **\"Q/F gives moles of product directly.\"** — Wrong. It gives moles of *electrons*; divide by the half-reaction electron count for moles of product.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of electrons as tiny delivery trucks, and the current as how many trucks pass per second. The Faraday constant is how many trucks make up one \"mole\" of deliveries. To find out how much metal you've plated, you count the trucks that passed (current × time), divide by the trucks-per-mole to get moles of electrons, and then check the recipe — silver needs one truck per atom, copper needs two, aluminum needs three. Multiply by the metal's weight per atom and you have your grams. (The limit: real plating loses a bit to side reactions and inefficiency, so actual yields are slightly below the ideal calculation.)",
+    "quickReview": "- Q = I × t (seconds).\n- n(e⁻) = Q / F, F = 96,485 C/mol e⁻.\n- Moles of product = n(e⁻) ÷ (electrons per formula unit).\n- mass = moles × molar mass.\n- Solve forward (mass) or backward (time/current) with the same equations.",
+    "workedExamples": "### Worked Example\n\n**How many grams of silver plate out when a current of 1.50 A passes through AgNO₃ solution for 25.0 minutes?**\n\n- t = 25.0 min × 60 s/min = 1500 s.\n- Q = I × t = 1.50 A × 1500 s = 2250 C.\n- n(e⁻) = Q / F = 2250 C ÷ 96,485 C/mol = 0.02332 mol e⁻.\n- Half-reaction: Ag⁺ + e⁻ → Ag, so 1 mol e⁻ deposits 1 mol Ag.\n- n(Ag) = 0.02332 mol; mass = 0.02332 mol × 107.87 g/mol = **2.52 g Ag**.\n\n**Reverse problem:** to deposit 2.52 g Ag in 25 min requires I = (n·F)/t = (0.02332 × 96,485)/1500 = 1.50 A — the same numbers, run backward.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 17.7 \"Electrolysis.\" https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis"
+      },
+      {
+        "text": "NIST CODATA (Faraday constant). https://physics.nist.gov/cuu/Constants/",
+        "url": "https://physics.nist.gov/cuu/Constants/"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "quantitative-electrolysis",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "11-quantitative-electrolysis",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:5b4d466edde4296f"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:5b4d466edde4296f"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:5b4d466edde4296f"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:5b4d466edde4296f"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/17-electrochemistry/11-quantitative-electrolysis.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Quantitative Electrolysis (Faraday's Laws)\n\n## Learning Goals\n\n- Calculate the charge passed from current and time using Q = I × t.\n- Convert charge to moles of electrons using Faraday's constant (F = 96,485 C/mol e⁻).\n- Use reaction stoichiometry to convert moles of electrons to moles/mass of product.\n- Solve for any of current, time, or mass given the others.\n\n## Core Concept\n\nElectrolysis obeys exact stoichiometry through electric charge. The charge passed is **Q = I × t** (current × time, in coulombs). Dividing by the **Faraday constant F = 96,485 C/mol e⁻** gives the moles of electrons transferred, and the half-reaction stoichiometry (e.g., Ag⁺ + e⁻ → Ag uses 1 e⁻ per Ag; Cu²⁺ + 2 e⁻ → Cu uses 2) converts moles of electrons to moles of product — and, via molar mass, to grams. These relationships (Faraday's laws) let you predict exactly how much metal plates out, how long to run a current, or what current is needed.\n\n## Key Ideas\n\n- **Q = I × t.** Charge (coulombs) = current (amperes) × time (seconds). 1 A = 1 C/s.\n- **Faraday constant.** One mole of electrons carries 96,485 coulombs.\n- **n(e⁻) = Q / F.** The central conversion from charge to chemical amount.\n- **Stoichiometry from the half-reaction.** Moles of product = moles of electrons ÷ (electrons per product ion).\n- **Time in seconds.** Convert minutes/hours to seconds before multiplying by current.\n\n## Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| Q | Electric charge | C (coulombs) |\n| I | Current | A (amperes = C/s) |\n| t | Time | s |\n| F | Faraday constant = 96,485 C/mol e⁻ | C/mol e⁻ |\n| n(e⁻) | Moles of electrons | mol e⁻ |\n\nQ = I × t ;  n(e⁻) = Q / F\n\n## How It Works\n\n1. Compute Q = I × t (with t in seconds).\n2. Convert to moles of electrons: n(e⁻) = Q / F.\n3. Use the balanced half-reaction to find moles of product per mole of electrons.\n4. Multiply by molar mass for grams (or use ideal-gas/volume conversions for gases).\n5. Rearrange to solve for time or current if mass is the given quantity.\n\n## Worked Example\n\n**How many grams of silver plate out when a current of 1.50 A passes through AgNO₃ solution for 25.0 minutes?**\n\n- t = 25.0 min × 60 s/min = 1500 s.\n- Q = I × t = 1.50 A × 1500 s = 2250 C.\n- n(e⁻) = Q / F = 2250 C ÷ 96,485 C/mol = 0.02332 mol e⁻.\n- Half-reaction: Ag⁺ + e⁻ → Ag, so 1 mol e⁻ deposits 1 mol Ag.\n- n(Ag) = 0.02332 mol; mass = 0.02332 mol × 107.87 g/mol = **2.52 g Ag**.\n\n**Reverse problem:** to deposit 2.52 g Ag in 25 min requires I = (n·F)/t = (0.02332 × 96,485)/1500 = 1.50 A — the same numbers, run backward.\n\n## Why It Matters\n\nQuantitative electrolysis is the arithmetic of electroplating (jewelry, chrome, circuit boards), electrorefining (purifying copper to 99.99%), and industrial electrolysis (how many grams of aluminum or chlorine a plant produces per hour). It is also the basis of the coulometer and of precise laboratory measurements of the Faraday constant, linking the electrical and chemical worlds with exact, checkable numbers.\n\n## High-Yield Facts\n\n- Q = I × t (coulombs = amperes × seconds).\n- F = 96,485 C/mol e⁻.\n- n(e⁻) = Q / F.\n- Convert time to seconds before using Q = I·t.\n- Moles of product follow the half-reaction's electron count (1 e⁻ for Ag⁺, 2 for Cu²⁺, 3 for Al³⁺).\n- mass = moles × molar mass.\n- 1 ampere = 1 coulomb/second.\n\n## Eli Explains\n\nThink of electrons as tiny delivery trucks, and the current as how many trucks pass per second. The Faraday constant is how many trucks make up one \"mole\" of deliveries. To find out how much metal you've plated, you count the trucks that passed (current × time), divide by the trucks-per-mole to get moles of electrons, and then check the recipe — silver needs one truck per atom, copper needs two, aluminum needs three. Multiply by the metal's weight per atom and you have your grams. (The limit: real plating loses a bit to side reactions and inefficiency, so actual yields are slightly below the ideal calculation.)\n\n## Common Confusions\n\n- **\"Use time in minutes.\"** — Wrong. Q = I × t requires seconds; convert minutes/hours first.\n- **\"F is the gas constant.\"** — Wrong. F = 96,485 C/mol e⁻ (Faraday); R = 8.314 J/(mol·K) (gas).\n- **\"Forgetting the electron stoichiometry.\"** — Wrong. Cu²⁺ needs 2 e⁻ per Cu, Al³⁺ needs 3; the mass per electron differs.\n- **\"Current in milliamps is fine as-is.\"** — Wrong. Convert mA to A (1 A = 1000 mA) before multiplying.\n- **\"Q/F gives moles of product directly.\"** — Wrong. It gives moles of *electrons*; divide by the half-reaction electron count for moles of product.\n\n## Quick Review\n\n- Q = I × t (seconds).\n- n(e⁻) = Q / F, F = 96,485 C/mol e⁻.\n- Moles of product = n(e⁻) ÷ (electrons per formula unit).\n- mass = moles × molar mass.\n- Solve forward (mass) or backward (time/current) with the same equations.\n\n## Sources\n\n- OpenStax, *Chemistry 2e*, Ch. 17.7 \"Electrolysis.\" https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis\n- NIST CODATA (Faraday constant). https://physics.nist.gov/cuu/Constants/\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n"
+}

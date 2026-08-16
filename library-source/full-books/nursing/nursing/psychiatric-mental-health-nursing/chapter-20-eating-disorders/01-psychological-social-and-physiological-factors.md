@@ -1,0 +1,134 @@
+---
+title: "Psychological, Social, and Physiological Factors"
+subject: "Nursing"
+book: "Psychiatric-Mental Health Nursing"
+chapter: "20: Eating Disorders"
+topic_number: "1"
+source: "psychiatric-mental-health.md"
+tags:
+  - "psychological-social-and-physiological-factors"
+  - "nursing"
+status: "complete"
+---
+
+# Psychological, Social, and Physiological Factors
+
+> **Book:** [Psychiatric-Mental Health Nursing](../../README.md)  
+> **Chapter:** [Chapter 20: Eating Disorders](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Eating disorders are often misunderstood as extreme dieting or a "choice" about food. This topic sets the foundation for the rest of the chapter: eating disorders are **complex biopsychosocial illnesses** — the product of interacting **psychological** (how a person thinks and feels), **social** (culture, family, media, peers), and **physiological** (genetics, brain chemistry, the body's response to starvation) factors. No single cause explains them, and no single factor — parenting, social media, or "vanity" — is to blame.
+
+The biopsychosocial model changes clinical thinking. It explains why telling someone with anorexia nervosa to "just eat" is as useless as telling someone with asthma to "just breathe," and why two people can share the same environment while only one develops an eating disorder (biology and psychology differ). It also explains why starvation's effects can *look like* personality problems: food preoccupation, irritability, and withdrawal are symptoms of an undernourished brain, not character flaws.
+
+## Why This Matters
+
+- **Eating disorders are serious and common.** They affect people of every gender, age, body size, and background, and are commonly cited as among the highest-mortality psychiatric conditions (*review flag: estimates vary*).
+- **Medical complications show up first in general settings.** Cardiac, electrolyte, GI, and bone problems often bring a person to a general hospital first — so nurses in every specialty need to recognize the pattern.
+- **Stigma and weight bias delay care.** People with eating disorders are frequently dismissed ("you don't look like you have one") or blamed; weight stigma in healthcare is a documented barrier.
+- **Starvation itself produces psychiatric symptoms** — the Minnesota experiment (below) proved it.
+
+## Core Concepts
+
+### The biopsychosocial framework
+
+Picture three overlapping circles — biology, psychology, and social environment. Biology sets the baseline (genetic vulnerability, temperament, brain reward systems). Psychology shapes how the person thinks about food, weight, and control (perfectionism, all-or-nothing thinking, low self-esteem). The social environment supplies triggers and values (thin-ideal culture, weight teasing, family patterns, athletic or occupational pressure). A person can be vulnerable in one circle, triggered in another, and maintained in the third — hence multidisciplinary treatment (medical, nutritional, and psychological care together).
+
+### Psychological factors
+
+Commonly described features: **perfectionism**, **low self-esteem**, **body image disturbance** (seeing oneself as larger than reality, or judging self-worth by weight and shape), **all-or-nothing thinking** ("if I eat one cookie, the day is ruined"), and difficulty **regulating emotions** — for some, controlling food becomes a way to feel in control when life feels chaotic. These are risk correlates, not diagnostic criteria or causes in isolation (*review flag: causal direction is complex*).
+
+### Social and cultural factors
+
+- **Cultural ideals of thinness**: societies that idealize thinness and stigmatize larger bodies create fertile ground for body dissatisfaction.
+- **Media and social media**: exposure to idealized images and "fitspiration" content is associated with body dissatisfaction — correlational, not simple cause-and-effect.
+- **Weight stigma and teasing**: bullying about weight — including by family members — is among the most consistently reported risk factors.
+- **High-risk environments**: leanness-focused sports and professions (gymnastics, wrestling, dance, modeling) are overrepresented.
+- **Cultural variation**: eating disorders exist across cultures, but symptom content varies (*review flag: verify current literature*).
+
+### Physiological and biological factors
+
+- **Genetics**: twin and family studies commonly estimate substantial heritability for anorexia nervosa, often cited in the ~40–60% range (*review flag: estimates vary; verify current meta-analyses*).
+- **Brain and appetite systems**: research continues on reward processing, serotonin and dopamine signaling, and appetite hormones (leptin, ghrelin); these are altered by starvation and may partly normalize with nutritional rehabilitation.
+- **The body under starvation**: prolonged restriction slows gastric emptying (early fullness), causes constipation, disrupts menstrual cycles, reduces bone density, and can affect heart muscle and electrolytes — consequences that can become medical emergencies.
+- **Refeeding risk**: when a severely malnourished person begins eating again, rapid fluid and electrolyte shifts can be dangerous (refeeding syndrome). Nutritional rehabilitation is therefore medically supervised and never improvised; the nurse's role is recognition and escalation, per facility policy.
+
+### The Minnesota Starvation Experiment: a classic study with lessons
+
+In 1944–45, physiologist **Ancel Keys** and colleagues studied 36 healthy young men at the University of Minnesota (conscientious objectors volunteering for wartime research). Fed a **semi-starvation diet** for six months, previously well-adjusted men became preoccupied with food (collecting recipes, dreaming about meals), developed food rituals, became irritable and withdrawn, lost interest in sex and concentration, and showed physical changes including edema and weakness.
+
+The experiment has a double legacy. **Scientifically**, it showed that many behaviors associated with eating disorders — food obsession, rituals, emotional instability, withdrawal — are **effects of starvation itself**, not pre-existing personality flaws, which is why nutritional rehabilitation is core to eating disorder care. **Ethically**, it is a reminder of its era: the men volunteered under wartime conditions and consent standards far weaker than today's; some reported lasting distress.
+
+## ELI-10: Explain Like I'm 10
+
+An eating problem is like an iceberg: the part you can see — weird food rules or skipping meals — is tiny compared to what's underneath. Under the water are big feelings (sadness, fear, wanting control), things from culture and school (pictures of "perfect" bodies, teasing), and the brain's own wiring. When a body doesn't get enough food for a long time, the brain gets confused, thinks about food all day, and feels grumpy — that's the hunger talking, not who the person really is. That's why fixing it takes a team of doctors, therapists, and nutrition helpers.
+
+## High-Yield Points
+
+- **Biopsychosocial model**: eating disorders arise from interacting psychological, social, and physiological factors — never one cause, never the patient's fault.
+- **Starvation causes psychiatric symptoms** (food preoccupation, rituals, irritability, withdrawal) — the Minnesota experiment (Keys, 1944–45) is the classic evidence.
+- **Weight is not a reliable sign**: people of any body size can have an eating disorder.
+- **Physical complications are real emergencies**: cardiac, electrolyte, GI, and bone effects; **refeeding syndrome** risk means nutritional care is medically supervised.
+- **Screen in every setting**: rapid weight loss or distress about eating warrants a nonjudgmental conversation and referral.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Biopsychosocial model | The view that illness arises from interacting biological, psychological, and social factors | The organizing framework for understanding and treating eating disorders |
+| Body image disturbance | Seeing or judging one's body inaccurately (often as larger than it is) | A core psychological feature in anorexia and bulimia |
+| Refeeding syndrome | Dangerous fluid/electrolyte shifts when a malnourished person begins eating again | Why nutritional rehabilitation is medically supervised; nurses escalate |
+| Weight stigma | Negative attitudes and discrimination toward larger bodies | A documented barrier to care; nurses must examine their own bias |
+| All-or-nothing thinking | Seeing things as perfect or ruined, with no middle ground | Fuels the "one cookie ruins everything" spiral that maintains restriction |
+
+## Example: The "disciplined" athlete
+
+A nursing student on a family-clinic rotation meets Priya, 19, a gymnast who has lost significant weight in four months. Priya says she's fine — "just being disciplined about nutrition." She avoids the clinic's snack bowl, describes her food rules, and says she's been tired and cold but "that's normal for training." The student feels unsure: Priya doesn't fit the stereotype and is cheerful and high-achieving. Following her clinical instructor's guidance, the student asks an open, nonjudgmental question — "How are you feeling about food and training lately?" — listens without arguing, and documents Priya's own words ("I feel like I lose control if I eat off my plan"). She reports her observations to the instructor, who notifies the provider. The team (provider, dietitian, therapist) begins a proper assessment, including medical monitoring, and involves the coach only with consent. The student didn't diagnose, lecture, or compare Priya to a stereotype — she noticed, listened, documented, and escalated.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Anorexia nervosa | Bulimia nervosa | Anorexia = severe restriction with low body weight (often); bulimia = binge-purge cycles with weight typically less suppressed — features overlap and people can move between them |
+| Dieting | An eating disorder | Dieting is common and usually time-limited; an eating disorder involves distress, loss of control, and harm |
+| "Looks like" an eating disorder | Having an eating disorder | People of all body sizes and genders have eating disorders; appearance-based assumptions miss diagnoses |
+| Cause | Trigger | Genetics/temperament set vulnerability (cause); a comment, a diet, or a stressful event can ignite it (trigger) |
+| "Vanity illness" | Complex biopsychosocial illness | Body-image concerns are one layer; starvation changes the brain |
+| Eating disorder symptoms | Personality flaws | Food rituals and irritability are starvation effects (Minnesota experiment), not who the person "really is" |
+
+## Quick Review
+
+1. What are the three domains of the biopsychosocial model, and why does the model matter for treatment?
+2. What did the Minnesota Starvation Experiment demonstrate, and what are its ethical limitations?
+3. Why can't you tell whether someone has an eating disorder by looking at them?
+4. What is refeeding syndrome, and why is nutritional rehabilitation medically supervised?
+
+<details>
+<summary>Show answers</summary>
+
+1. Psychological (thinking/feeling), social (culture, family, media, peers), and physiological (genetics, brain chemistry, starvation). Because no single cause exists, treatment must be multidisciplinary.
+2. It showed that healthy men under semi-starvation developed food preoccupation, rituals, irritability, and withdrawal — proving many "eating disorder behaviors" are starvation effects, not personality flaws. Ethically, it used wartime-era consent standards far weaker than today's, and some participants reported lasting distress.
+3. Eating disorders affect people of every body size and gender; restriction, purging, and binge eating can occur at any weight, and weight stigma leads to missed diagnoses.
+4. Rapid fluid and electrolyte shifts when a severely malnourished person begins eating again — potentially dangerous, so refeeding is planned and monitored by the care team; nurses recognize risk and escalate.
+
+</details>
+
+## Related Topics
+
+- Next: [Anorexia Nervosa](02-anorexia-nervosa.md)
+- Related: [Bulimia Nervosa](04-bulimia-nervosa.md)
+- Related: [Binge-Eating Disorder](05-binge-eating-disorder.md)
+- Related: [Eating Disorders chapter overview](../README.md)
+- Related: [Dealing with Addiction](../chapter-19-substance-use-and-misuse/05-dealing-with-addiction.md) — stages-of-change thinking applies to many behavior-change conversations
+
+## Source Notes
+
+- Book: Psychiatric-Mental Health Nursing
+- Local outline source: `psychiatric-mental-health.md`
+- Official source URL: https://openstax.org/details/books/psychiatric-mental-health/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Review flags: mortality statistics, heritability estimates (~40–60%), psychological risk-correlate associations, cross-cultural patterns, and weight-bias literature should be verified against current meta-analyses and guidelines. The Minnesota Starvation Experiment (Keys et al., 1944–45) is presented with historical and ethical context.
+- Last updated: 2026-08-16

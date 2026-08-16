@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-acids-bases-and-ph-q04",
+  "subject": "chemistry-2",
+  "lesson": "acids-bases-and-ph",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A laboratory solution measured at 25 °C has a pOH of 4.5. What is its pH, and how should the solution be classified?",
+  "options": [
+    {
+      "id": "a",
+      "text": "pH 4.5; acidic"
+    },
+    {
+      "id": "b",
+      "text": "pH 9.5; basic"
+    },
+    {
+      "id": "c",
+      "text": "pH 9.5; acidic"
+    },
+    {
+      "id": "d",
+      "text": "pH 18.5; basic"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "At 25 °C the ion product of water (Kw = 1 × 10^-14) gives pH + pOH = 14, so a pOH of 4.5 corresponds to a pH of 14 - 4.5 = 9.5. Because 9.5 is above 7, hydroxide exceeds hydronium and the solution is basic. Option D comes from adding rather than subtracting, option A from assuming pH equals pOH, and option C from misclassifying a pH above 7.\n\nELI-10: pH and pOH are two readings of the same solution, and at 25 °C they always sum to 14. A pOH of 4.5 is low, which means hydroxide is relatively plentiful, so the solution must be basic and its pH must be the complement, 9.5. A quick check: any pOH below 7 forces a pH above 7. That single relationship lets you convert between the two scales without recalculating concentrations.",
+  "difficulty": "medium",
+  "tags": [
+    "pH and pOH relationship",
+    "ion product of water",
+    "classifying solutions"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-279",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

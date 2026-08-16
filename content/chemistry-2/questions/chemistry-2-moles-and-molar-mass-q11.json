@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-moles-and-molar-mass-q11",
+  "subject": "chemistry-2",
+  "lesson": "moles-and-molar-mass",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A 21.5 g sample of a purified unknown compound is determined to contain 0.25 mol of that compound. What is its molar mass, and what does this value represent?",
+  "options": [
+    {
+      "id": "a",
+      "text": "5.375 g/mol, representing the mass contributed by each individual molecule in the sample"
+    },
+    {
+      "id": "b",
+      "text": "0.0116 g/mol, representing the fraction of a mole contained in each gram of the sample"
+    },
+    {
+      "id": "c",
+      "text": "21.5 g/mol, representing the mass of the sample reported on a per-mole basis"
+    },
+    {
+      "id": "d",
+      "text": "86 g/mol, representing the mass of 6.022 x 10^23 molecules of the compound"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Molar mass is mass divided by moles: 21.5 g / 0.25 mol = 86 g/mol. Conceptually that is the mass of one full mole, meaning 6.022 x 10^23 molecules of the compound. Determining molar mass this way reverses the usual conversion and is how an unknown is identified once its empirical formula is known, since the molecular formula must be a whole-number multiple of the empirical formula mass.\n\nELI-10: You have a quarter of a container and it weighs 21.5 grams, so a full container weighs four times as much, which is 86 grams. Molar mass is that full-container weight, where a full container means 6.022 x 10^23 molecules. Dividing by 0.25 is the same as multiplying by 4, so watch the direction: the answer must be larger than 21.5 g, because a whole mole always outweighs a quarter of one. Options smaller than 21.5 g can be ruled out before any arithmetic.",
+  "difficulty": "hard",
+  "tags": [
+    "experimental molar mass determination",
+    "rearranging the mole equation",
+    "conceptual meaning of g/mol"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-277",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

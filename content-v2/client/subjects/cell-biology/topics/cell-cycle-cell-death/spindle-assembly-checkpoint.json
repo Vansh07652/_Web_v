@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-cycle-cell-death:spindle-assembly-checkpoint",
+  "slug": "spindle-assembly-checkpoint",
+  "title": "Spindle Assembly Checkpoint (SAC)",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-cycle-cell-death",
+    "slug": "cell-cycle-cell-death",
+    "title": "Cell Cycle Cell Death",
+    "order": 7
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "The spindle assembly checkpoint (SAC) ensures that anaphase begins only when every chromosome is correctly attached to the mitotic spindle through its kinetochore. Unattached or improperly attached kinetochores recruit a set of checkpoint proteins (Mad1/Mad2, Bub1/Bub3, BubR1, Mps1) that assemble a diffusible inhibitor, the mitotic checkpoint complex (MCC). The MCC binds and inhibits the anaphase-promoting complex/cyclosome (APC/C), preventing the destruction of securin and cyclin B. Only when the last kinetochore is properly attached and under tension does the SAC switch off, releasing APC/C to trigger sister-chromatid separation and mitotic exit.",
+    "whyItMatters": "The SAC is the cell's last defense against chromosome missegregation and aneuploidy. Aneuploidy is a hallmark of cancer and a cause of miscarriage and developmental disorders (e.g., Down syndrome, trisomy 21). Weakened SAC signaling (e.g., Mad2 haploinsufficiency) causes chromosomal instability and predisposes to tumors, while complete SAC loss is lethal. Clinically, SAC components and mitotic kinases (Mps1, Aurora B) are drug targets: taxanes and vinca alkaloids kill cancer cells in part by chronically activating the SAC, and SAC inhibitors are under investigation to enhance the lethality of mitotic arrest.",
+    "learningObjectives": "- State the purpose of the spindle assembly checkpoint and when it is active.\n- Describe how unattached kinetochores generate the \"wait\" signal.\n- Explain the roles of Mad and Bub proteins and the mitotic checkpoint complex (MCC).\n- Explain how the MCC inhibits the APC/C and thus anaphase onset.\n- Connect SAC dysfunction to aneuploidy and cancer.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe spindle assembly checkpoint (SAC) ensures that anaphase begins only when every chromosome is correctly attached to the mitotic spindle through its kinetochore. Unattached or improperly attached kinetochores recruit a set of checkpoint proteins (Mad1/Mad2, Bub1/Bub3, BubR1, Mps1) that assemble a diffusible inhibitor, the mitotic checkpoint complex (MCC). The MCC binds and inhibits the anaphase-promoting complex/cyclosome (APC/C), preventing the destruction of securin and cyclin B. Only when the last kinetochore is properly attached and under tension does the SAC switch off, releasing APC/C to trigger sister-chromatid separation and mitotic exit.\n\n### Key Components\n\n- **Kinetochore**: Protein machine at the centromere that binds spindle microtubules.\n- **Mad1, Mad2**: Core SAC proteins; Mad2 undergoes a conformational change (open → closed) that catalyzes MCC assembly.\n- **Bub1, Bub3, BubR1 (Mad3)**: Additional SAC components; together with Mad2 and Cdc20 they form the MCC.\n- **Mps1 and Aurora B**: Kinases that sense attachment/tension and regulate SAC signaling.\n- **Cdc20**: APC/C co-activator; the MCC sequesters it, blocking APC/C activation.\n- **APC/C**: E3 ubiquitin ligase that targets securin and cyclin B for destruction.\n- **Securin/cohesin**: Downstream targets whose degradation triggers anaphase.\n\n### Mechanism / How It Works\n\n1. **Sensor**: In prometaphase, kinetochores that lack microtubule attachment (or lack tension from biorientation) remain \"active.\" Mad1–Mad2 complexes at unattached kinetochores act as a catalytic platform.\n2. **Amplification**: At the kinetochore, Mad2 is converted from an inactive \"open\" (O-Mad2) to an active \"closed\" (C-Mad2) conformation. C-Mad2 templates the conversion of cytosolic O-Mad2, spreading the signal away from the kinetochore — an autocatalytic amplification.\n3. **MCC assembly**: C-Mad2, together with BubR1, Bub3, and Cdc20, forms the MCC, which binds and inhibits the APC/C by sequestering its activator Cdc20.\n4. **Arrest**: With APC/C inhibited, securin and cyclin B are not degraded, so separase stays inactive (bound by securin) and Cdk1 stays active — the cell holds in metaphase.\n5. **Silencing**: When a kinetochore becomes attached and bioriented (under tension), SAC proteins are stripped from it (in part by dynein-dependent transport along microtubules), and the kinetochore stops generating MCC. The last kinetochore to attach turns off the final source of the wait signal.\n6. **Anaphase onset**: MCC disassembly frees Cdc20 → APC/C ubiquitinates securin → separase cleaves cohesin → sister chromatids separate.\n\n### Energy and Directionality\n\nThe SAC is an information-processing system: it converts the mechanical state of kinetochore–microtubule attachment into a biochemical signal. Assembly and maintenance of the checkpoint consume ATP (kinase phosphorylation, the conformational cycle of Mad2) and the MCC's inhibition of APC/C is a stoichiometric sequestration of Cdc20. The transition to anaphase is irreversible because APC/C activation triggers proteolysis of securin and cyclin B — ATP-dependent destruction that cannot be undone. This makes anaphase a point of no return, exactly what the checkpoint is designed to gate.\n\n### Experimental Evidence / Technique\n\n- **Laser ablation**: Destroying the last unattached kinetochore in a cell delays anaphase, directly showing that a single unattached kinetochore produces the wait signal.\n- **micromanipulation/tension experiments**: Applying tension to a monotelic attachment (with a microneedle) can silence the checkpoint without full biorientation, showing tension is a key readout.\n- **mad/bub mutants**: Yeast with mutations in MAD or BUB genes were isolated in screens for \"mitotic arrest deficient\" mutants; they enter anaphase prematurely with misattached chromosomes, causing aneuploidy.\n- **Aurora B inhibition** (e.g., with hesperadin) abolishes the checkpoint's ability to sense tension and correct errors.\n- **Live-cell imaging** of Mad2-GFP shows it localizes to unattached kinetochores and disappears upon attachment.",
+    "howItWorks": "1. **Sensor**: In prometaphase, kinetochores that lack microtubule attachment (or lack tension from biorientation) remain \"active.\" Mad1–Mad2 complexes at unattached kinetochores act as a catalytic platform.\n2. **Amplification**: At the kinetochore, Mad2 is converted from an inactive \"open\" (O-Mad2) to an active \"closed\" (C-Mad2) conformation. C-Mad2 templates the conversion of cytosolic O-Mad2, spreading the signal away from the kinetochore — an autocatalytic amplification.\n3. **MCC assembly**: C-Mad2, together with BubR1, Bub3, and Cdc20, forms the MCC, which binds and inhibits the APC/C by sequestering its activator Cdc20.\n4. **Arrest**: With APC/C inhibited, securin and cyclin B are not degraded, so separase stays inactive (bound by securin) and Cdk1 stays active — the cell holds in metaphase.\n5. **Silencing**: When a kinetochore becomes attached and bioriented (under tension), SAC proteins are stripped from it (in part by dynein-dependent transport along microtubules), and the kinetochore stops generating MCC. The last kinetochore to attach turns off the final source of the wait signal.\n6. **Anaphase onset**: MCC disassembly frees Cdc20 → APC/C ubiquitinates securin → separase cleaves cohesin → sister chromatids separate.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Purpose: delay anaphase until **all kinetochores are attached and under tension**.\n- The wait signal comes from **unattached kinetochores**, not from chromosomes generally.\n- **Mad1–Mad2** at the kinetochore templates Mad2's open→closed change (amplification).\n- **MCC (Mad2–BubR1–Bub3–Cdc20)** binds and **inhibits the APC/C** by sequestering Cdc20.\n- APC/C is held off → securin/cyclin B stable → no anaphase; last attachment → MCC cleared → APC/C fires.",
+    "commonConfusions": "- **SAC vs. G2/M checkpoint**: The SAC acts in M phase on kinetochore attachment; the G2/M checkpoint acts before mitosis on DNA damage/replication.\n- **Attachment vs. tension**: Both matter. Monotelic attachment (only one sister attached) is sensed as error via lack of tension, even though a microtubule is bound.\n- **MCC inhibits APC/C, not Cdk1**: Cdk1 stays *active* during SAC arrest (which is why chromosomes remain condensed); APC/C is the target.\n- **Mad2 is a conformational switch**: Its open→closed transition is the core amplification step; it is not simply \"present vs. absent.\"",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture a tug-of-war team preparing to split into two equal teams. Before the referee (APC/C) blows the whistle to start, every rope (microtubule) must be tied to every athlete (kinetochore) and pulled tight from both sides. Any athlete still untied holds up a red flag (the Mad/Bub proteins), and one untied athlete is enough to stop the whole game. When the very last athlete is tied on and the rope is taut, the last red flag drops, the referee blows the whistle, and the teams split apart. The analogy's limit: the \"red flag\" is a self-propagating set of protein conformational changes, and \"taut\" is sensed by a kinase (Aurora B) that reads mechanical tension — not by an actual referee.",
+    "quickReview": "- Unattached kinetochore → Mad1–Mad2 platform → Mad2 open→closed amplification → MCC (Mad2/BubR1/Bub3/Cdc20) → inhibits APC/C → securin/cyclin B stable → metaphase arrest.\n- All kinetochores attached + tension → SAC silenced → APC/C–Cdc20 active → securin degraded → separase → anaphase.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 17, \"The Spindle Assembly Checkpoint.\""
+      },
+      {
+        "text": "Musacchio, A. & Salmon, E. D., \"The spindle-assembly checkpoint in space and time,\" *Nature Reviews Molecular Cell Biology* (2007)."
+      },
+      {
+        "text": "Rieder, C. L. et al., \"Anaphase onset in vertebrate somatic cells is controlled by a checkpoint,\" *J. Cell Biol.* (1995)."
+      },
+      {
+        "text": "Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 19."
+      },
+      {
+        "text": "NCBI Bookshelf, *The Cell: A Molecular Approach*, 2nd ed., \"The metaphase-to-anaphase transition.\""
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/07-cell-cycle-cell-death/05-spindle-assembly-checkpoint.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

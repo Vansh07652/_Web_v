@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-moles-and-molar-mass-q01",
+  "subject": "chemistry-2",
+  "lesson": "moles-and-molar-mass",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which statement best defines the molar mass of a substance?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The mass in grams of one representative particle of the substance, read directly from an analytical balance"
+    },
+    {
+      "id": "b",
+      "text": "The mass in grams of one mole of the substance, numerically equal to its atomic or formula mass in amu"
+    },
+    {
+      "id": "c",
+      "text": "The combined count of protons and neutrons in one representative particle, expressed in atomic mass units"
+    },
+    {
+      "id": "d",
+      "text": "The volume in liters that one mole of the substance occupies at standard temperature and pressure"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Molar mass is the mass of exactly one mole (6.022 x 10^23 representative particles) of a substance, with units of grams per mole. Its numerical value matches the atomic mass (for elements) or the formula/molecular mass (for compounds) expressed in atomic mass units, which is why the periodic table can be read directly as a table of molar masses: for water, 2(1.008) + 15.999 = 18.015 g/mol. A single particle has a mass of only about 10^-23 g, and molar volume is a separate quantity that varies with phase, temperature, and pressure.\n\nELI-10: Weighing is easy; counting atoms is impossible. Molar mass is the trick that turns one into the other: it tells you what one mole-sized batch of particles weighs. The convenient part is that the number is already printed on the periodic table. Hydrogen reads 1.008 and oxygen reads 15.999, so one mole of water weighs 1.008 + 1.008 + 15.999 = 18.015 grams. Same number, two different scales: amu when you are talking about one particle, grams when you are talking about a mole of them.",
+  "difficulty": "easy",
+  "tags": [
+    "molar mass",
+    "mole definition",
+    "amu to gram relationship"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-277",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

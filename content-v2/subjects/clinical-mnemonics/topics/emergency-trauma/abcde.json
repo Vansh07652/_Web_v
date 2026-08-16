@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:clinical-mnemonics:emergency-trauma:abcde",
+  "slug": "abcde",
+  "title": "ABCDE",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics"
+  },
+  "unit": {
+    "id": "unit:clinical-mnemonics:emergency-trauma",
+    "slug": "emergency-trauma",
+    "title": "Emergency & Trauma",
+    "order": 1
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "The ordered trauma primary survey — Airway, Breathing, Circulation, Disability, Exposure/Environment — that finds and treats immediate threats to life in the order they kill.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- **A** — Airway (with cervical spine control)\n- **B** — Breathing\n- **C** — Circulation (with hemorrhage control)\n- **D** — Disability (neurologic status)\n- **E** — Exposure / Environment",
+    "collegeNotes": "The ordered trauma primary survey — Airway, Breathing, Circulation, Disability, Exposure/Environment — that finds and treats immediate threats to life in the order they kill.\n\n### A — Airway (with cervical spine control)\n\nAirway patency and protection\n\nAssess airway patency — can the patient talk? Is there stridor, snoring, gurgling, or visible obstruction? In trauma, assume cervical spine injury and maintain in-line stabilization. Open the airway with a jaw thrust (avoiding head tilt) and suction/clear as needed.\n\n**Physiology.** Airway obstruction causes hypoxic death in minutes, faster than any other problem; C-spine protection prevents secondary spinal cord injury.\n\n**Safety.** In trauma, use the jaw thrust, not head-tilt/chin-lift, to protect a possibly injured cervical spine.\n\n### B — Breathing\n\nVentilation and oxygenation\n\nAssess rate, depth, effort, symmetry of chest rise, breath sounds, oxygen saturation, and signs of distress. Identify life threats such as tension pneumothorax, open pneumothorax, massive hemothorax, and flail chest; apply oxygen and assist ventilation as indicated.\n\n**Physiology.** Breathing failure produces hypoxia and hypercapnia; recognizing inadequate ventilation or asymmetric chest movement early prevents respiratory arrest.\n\n### C — Circulation (with hemorrhage control)\n\nPerfusion and bleeding control\n\nAssess pulses, skin color/temperature/capillary refill, blood pressure, and level of consciousness as a marker of brain perfusion. Control external hemorrhage with direct pressure/tourniquet, establish IV/IO access, and begin resuscitation; look for internal bleeding.\n\n**Physiology.** Hemorrhagic shock reduces oxygen delivery; hypotension is a late, ominous sign in trauma.\n\n**Safety.** Prioritize hemorrhage control and blood products (damage-control resuscitation); avoid crystalloid over-resuscitation.\n\n### D — Disability (neurologic status)\n\nLevel of consciousness and pupils\n\nRapidly assess level of consciousness (AVPU), pupils (size, equality, reactivity), and baseline GCS. Check blood glucose and look for gross motor/sensory deficits. Reassess frequently — a falling GCS is a critical finding.\n\n**Physiology.** The brain is the most oxygen-sensitive organ; depressed consciousness may reflect hypoxia, hypoperfusion, hypoglycemia, drugs, or intracranial injury.\n\n### E — Exposure / Environment\n\nFull-body exam and temperature control\n\nFully expose the patient (cutting clothes in trauma) and inspect front and back (log roll) for wounds, bleeding, rashes, burns, or needle marks. Then actively prevent hypothermia with warm blankets, warmed fluids, and a warm room.\n\n**Physiology.** Hidden posterior injuries are missed without exposure; hypothermia impairs platelet function and clotting and worsens acidosis (the lethal triad).\n\n**Safety.** Protect dignity and privacy during full exposure and re-cover promptly after inspection.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "- A = Airway (with cervical spine control)\n- B = Breathing\n- C = Circulation (with hemorrhage control)\n- D = Disability (neurologic status)\n- E = Exposure / Environment",
+    "eli10": "A rescue checklist that goes in the exact order the body fails: first the air straw, then the air pump, then the blood pump, then the brain, then the whole-body check.\n\n**A — Airway (with cervical spine control).** Airway asks if the breathing tube is open, like a clear straw. If the straw is blocked or the patient is too sleepy to keep it open, no air gets in and everything else fails. In trauma, keep the neck still too.\n\n**B — Breathing.** Breathing asks if air is actually moving in and out and getting oxygen into the blood. Even with an open straw, the lungs must pump the air — look, listen, and feel for that pumping.\n\n**C — Circulation (with hemorrhage control).** Circulation asks if the heart is pumping blood all the way out to the body and if there is enough blood in the pipes. If a pipe is leaking, you stop the leak and refill the tank.\n\n**D — Disability (neurologic status).** Disability is the brain check — how awake and clear-headed is the patient? This tells you if the brain is getting enough blood and oxygen, or if the head itself is injured.\n\n**E — Exposure / Environment.** Exposure means undressing the patient completely to check every inch of skin for hidden injuries — like checking every room of a house. Environment means keeping them warm afterward, because a cold patient bleeds worse.",
+    "quickReview": "- A = Airway (with cervical spine control) — Airway patency and protection\n- B = Breathing — Ventilation and oxygenation\n- C = Circulation (with hemorrhage control) — Perfusion and bleeding control\n- D = Disability (neurologic status) — Level of consciousness and pupils\n- E = Exposure / Environment — Full-body exam and temperature control",
+    "workedExamples": "",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "abcde",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-nursing-mnemonics",
+    "sourceFile": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json",
+    "sourceStatus": "CURRENT",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-clinical-mnemonics"
+  },
+  "sourceSnapshotMarkdown": "{\n  \"mnemonic\": \"ABCDE\",\n  \"category\": \"Emergency & Trauma\",\n  \"purpose\": \"The ordered trauma primary survey — Airway, Breathing, Circulation, Disability, Exposure/Environment — that finds and treats immediate threats to life in the order they kill.\",\n  \"eli10_purpose\": \"A rescue checklist that goes in the exact order the body fails: first the air straw, then the air pump, then the blood pump, then the brain, then the whole-body check.\",\n  \"status\": \"CURRENT\",\n  \"components\": [\n    {\n      \"symbol\": \"A\",\n      \"term\": \"Airway (with cervical spine control)\",\n      \"association\": \"Airway patency and protection\",\n      \"eli10\": \"Airway asks if the breathing tube is open, like a clear straw. If the straw is blocked or the patient is too sleepy to keep it open, no air gets in and everything else fails. In trauma, keep the neck still too.\",\n      \"clinical_explanation\": \"Assess airway patency — can the patient talk? Is there stridor, snoring, gurgling, or visible obstruction? In trauma, assume cervical spine injury and maintain in-line stabilization. Open the airway with a jaw thrust (avoiding head tilt) and suction/clear as needed.\",\n      \"physiology\": \"Airway obstruction causes hypoxic death in minutes, faster than any other problem; C-spine protection prevents secondary spinal cord injury.\",\n      \"safety_note\": \"In trauma, use the jaw thrust, not head-tilt/chin-lift, to protect a possibly injured cervical spine.\"\n    },\n    {\n      \"symbol\": \"B\",\n      \"term\": \"Breathing\",\n      \"association\": \"Ventilation and oxygenation\",\n      \"eli10\": \"Breathing asks if air is actually moving in and out and getting oxygen into the blood. Even with an open straw, the lungs must pump the air — look, listen, and feel for that pumping.\",\n      \"clinical_explanation\": \"Assess rate, depth, effort, symmetry of chest rise, breath sounds, oxygen saturation, and signs of distress. Identify life threats such as tension pneumothorax, open pneumothorax, massive hemothorax, and flail chest; apply oxygen and assist ventilation as indicated.\",\n      \"physiology\": \"Breathing failure produces hypoxia and hypercapnia; recognizing inadequate ventilation or asymmetric chest movement early prevents respiratory arrest.\",\n      \"safety_note\": \"\"\n    },\n    {\n      \"symbol\": \"C\",\n      \"term\": \"Circulation (with hemorrhage control)\",\n      \"association\": \"Perfusion and bleeding control\",\n      \"eli10\": \"Circulation asks if the heart is pumping blood all the way out to the body and if there is enough blood in the pipes. If a pipe is leaking, you stop the leak and refill the tank.\",\n      \"clinical_explanation\": \"Assess pulses, skin color/temperature/capillary refill, blood pressure, and level of consciousness as a marker of brain perfusion. Control external hemorrhage with direct pressure/tourniquet, establish IV/IO access, and begin resuscitation; look for internal bleeding.\",\n      \"physiology\": \"Hemorrhagic shock reduces oxygen delivery; hypotension is a late, ominous sign in trauma.\",\n      \"safety_note\": \"Prioritize hemorrhage control and blood products (damage-control resuscitation); avoid crystalloid over-resuscitation.\"\n    },\n    {\n      \"symbol\": \"D\",\n      \"term\": \"Disability (neurologic status)\",\n      \"association\": \"Level of consciousness and pupils\",\n      \"eli10\": \"Disability is the brain check — how awake and clear-headed is the patient? This tells you if the brain is getting enough blood and oxygen, or if the head itself is injured.\",\n      \"clinical_explanation\": \"Rapidly assess level of consciousness (AVPU), pupils (size, equality, reactivity), and baseline GCS. Check blood glucose and look for gross motor/sensory deficits. Reassess frequently — a falling GCS is a critical finding.\",\n      \"physiology\": \"The brain is the most oxygen-sensitive organ; depressed consciousness may reflect hypoxia, hypoperfusion, hypoglycemia, drugs, or intracranial injury.\",\n      \"safety_note\": \"\"\n    },\n    {\n      \"symbol\": \"E\",\n      \"term\": \"Exposure / Environment\",\n      \"association\": \"Full-body exam and temperature control\",\n      \"eli10\": \"Exposure means undressing the patient completely to check every inch of skin for hidden injuries — like checking every room of a house. Environment means keeping them warm afterward, because a cold patient bleeds worse.\",\n      \"clinical_explanation\": \"Fully expose the patient (cutting clothes in trauma) and inspect front and back (log roll) for wounds, bleeding, rashes, burns, or needle marks. Then actively prevent hypothermia with warm blankets, warmed fluids, and a warm room.\",\n      \"physiology\": \"Hidden posterior injuries are missed without exposure; hypothermia impairs platelet function and clotting and worsens acidosis (the lethal triad).\",\n      \"safety_note\": \"Protect dignity and privacy during full exposure and re-cover promptly after inspection.\"\n    }\n  ]\n}"
+}

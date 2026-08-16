@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:human-physiology-2:systems-physiology:cardiac-output-and-its-regulation",
+  "slug": "cardiac-output-and-its-regulation",
+  "title": "Cardiac Output and Its Regulation",
+  "subject": {
+    "id": "subject:human-physiology-2",
+    "slug": "human-physiology-2",
+    "title": "Human Physiology II"
+  },
+  "unit": {
+    "id": "unit:human-physiology-2:systems-physiology",
+    "slug": "systems-physiology",
+    "title": "Systems Physiology",
+    "order": 1
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "Cardiac output is the volume of blood each ventricle pumps per minute, equal to heart rate times stroke volume (CO = HR × SV), normally about 5 L/min. Heart rate is set by the autonomic nervous system (sympathetic speeding, parasympathetic slowing); stroke volume is determined by preload (the Frank-Starling mechanism), contractility (sympathetic-driven inotropy via increased Ca2+), and afterload (the pressure the ventricle must overcome). Ejection fraction (SV/EDV) and ventricular function curves summarize how well the heart translates these inputs into output.",
+    "whyItMatters": "Cardiac output, ejection fraction, and ventricular function curves are used to assess cardiovascular performance and to monitor conditions that reduce pump function (for example, heart failure, where the Frank-Starling curve is depressed and EF may fall). Measurement techniques, normal ranges, and therapeutic decisions vary by institution and jurisdiction; concerning symptoms require immediate evaluation by qualified clinicians or local emergency services. These notes support education and do not replace clinical instruction or supervision.",
+    "learningObjectives": "1. State the cardiac output equation (CO = HR × SV) and define each variable with units.\n2. Explain autonomic regulation of heart rate (chronotropy) and conduction velocity (dromotropy).\n3. Describe the three determinants of stroke volume: preload (Frank-Starling), contractility (inotropy), and afterload.\n4. Define ejection fraction and interpret ventricular function curves.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Cardiac output (CO) | Volume pumped per minute (CO = HR × SV) | The overall measure of the heart's pumping performance |\n| Chronotropy | Change in heart rate | Sympathetic raises it; parasympathetic lowers it |\n| Dromotropy | Change in AV conduction velocity | Speeding or slowing conduction alters AV coordination |\n| Preload | Ventricular stretch (end-diastolic load) before contraction | Frank-Starling: more stretch → more force → more SV |\n| Contractility (inotropy) | Intrinsic contraction strength at a given preload/afterload | Sympathetic Ca2+ boosts SV independent of stretch |\n| Afterload | Resistance/pressure the ventricle must overcome to eject | Higher afterload lowers stroke volume |\n| Ejection fraction | SV/EDV × 100% | A summary index of systolic function |",
+    "collegeNotes": "### 1. The Cardiac Output Equation\nCardiac output (CO) is the volume pumped per minute:\n\n$$CO = HR \\times SV$$\n\nwhere CO is cardiac output (L/min), HR is heart rate (beats/min), and SV is stroke volume (mL/beat, the volume ejected per beat). At rest, a typical CO ≈ 70 beats/min × 70 mL/beat ≈ 4.9 L/min, close to the ~5 L/min resting value. Cardiac output must match the body's changing needs (for example, it rises during exercise).\n\n### 2. Autonomic Regulation of Heart Rate\nHeart rate reflects the balance of sympathetic and parasympathetic drive to the SA node. Sympathetic stimulation (norepinephrine acting on β1 receptors) increases the funny current and Ca2+ currents, steepening the pacemaker potential and thus raising heart rate — a positive chronotropic effect; it also speeds conduction through the AV node — positive dromotropy. Parasympathetic stimulation (acetylcholine on M2 receptors) increases K+ conductance and decreases cAMP, flattening the pacemaker potential and slowing the rate — negative chronotropy — and slowing AV conduction — negative dromotropy. At rest, parasympathetic (vagal) tone dominates.\n\n### 3. The Three Determinants of Stroke Volume\n- Preload (Frank-Starling mechanism): the degree of ventricular stretch before contraction, approximated by EDV or end-diastolic pressure. Within the physiological range, greater stretch aligns actin and myosin more optimally and increases Ca2+ sensitivity, so a fuller ventricle contracts more forcefully and ejects more — \"the heart pumps what it receives.\"\n- Contractility (inotropy): the intrinsic strength of contraction at a given preload and afterload. Sympathetic stimulation increases Ca2+ entry and sarcoplasmic-reticulum Ca2+ release, raising the force of contraction (positive inotropy) independent of stretch.\n- Afterload: the load the ventricle must overcome to eject — approximated by aortic/arterial pressure. A higher afterload means the ventricle must generate more pressure before the aortic valve opens, reducing the velocity and volume of ejection (lower SV).",
+    "howItWorks": "1. The SA node sets heart rate; autonomic tone adjusts it (chronotropy) and AV conduction (dromotropy).\n2. Venous return determines EDV (preload).\n3. Frank-Starling matching links the incoming volume to the force and volume of the next ejection.\n4. Sympathetic Ca2+ signaling raises contractility (inotropy), increasing SV at any preload.\n5. Arterial pressure sets afterload, opposing ejection.\n6. The net result is CO = HR × SV, continuously matched to the body's needs.\n7. Ventricular function curves and ejection fraction summarize these relationships.",
+    "comparisons": "",
+    "highYield": "- **High yield:** CO = HR × SV (~5 L/min at rest).\n- **High yield:** Frank-Starling — within physiological limits, increased preload (stretch) increases stroke volume.\n- **High yield:** Sympathetic stimulation increases chronotropy, dromotropy, and inotropy (and lusitropy) via β1 receptors and cAMP.\n- Parasympathetic (vagal) tone dominates at rest, keeping resting HR below the SA node's intrinsic rate.\n- Increased afterload reduces stroke volume because more pressure must be generated before ejection begins.\n- Sympathetic stimulation or increased contractility shifts the ventricular function curve up and left; heart failure shifts it down and right.\n- Ejection fraction (SV/EDV) is normally ~55–65%.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Preload | Afterload | Preload is the filling/stretch before contraction; afterload is the resistance to ejection |\n| Contractility (inotropy) | Preload (Frank-Starling) | Contractility is intrinsic strength at a fixed stretch; Frank-Starling is a change in force due to a change in stretch |\n| Chronotropy | Dromotropy | Chronotropy = heart rate; dromotropy = conduction velocity (AV node) |\n| Stroke volume | Cardiac output | Stroke volume is per beat; cardiac output is per minute (SV × HR) |",
+    "memoryAids": "**\"HR × SV = CO.\"** For the three stroke-volume controls remember **\"P-C-A: Preload (stretch), Contractility (squeeze), Afterload (resistance).\"** Frank-Starling is the \"rubber band rule\": stretch it more (within limits) and it snaps back harder.",
+    "eli10": "Think of the heart as a water pump run by a person squeezing a bulb. Cardiac output is \"how much water comes out per minute,\" which depends on two things: how many times the bulb is squeezed each minute (heart rate) and how much water squirts out per squeeze (stroke volume). The brain and nerves act like a throttle, making the person squeeze faster or slower. The amount per squeeze depends on how full the bulb starts (preload — a fuller bulb squirts more), how hard the hand squeezes (contractility), and how much pressure the hose fights back with (afterload).\n\nComparison: it is like a garden pump whose output you can raise either by pumping faster or by drawing in and pushing out more per stroke.\n\nWhere it stops being exact: the three stroke-volume controls are not fully independent — stretching the muscle more also changes how hard it can squeeze, and the heart's \"throttle\" is a push-pull of two opposing nerves (sympathetic and parasympathetic), not a single dial.\n\n### Simple Example\nIf a water balloon is stretched fuller before you squeeze it, it recoils harder and shoots more water. That is the Frank-Starling idea: within limits, the more the ventricle fills (preload), the more it ejects.",
+    "quickReview": "### Topic Recap\n\nCardiac output equals heart rate times stroke volume. Heart rate is controlled by autonomic chronotropic (and dromotropic) influences, while stroke volume is set by preload (Frank-Starling), contractility (sympathetic inotropy), and afterload. Ejection fraction and ventricular function curves integrate these controls into a picture of overall pump performance.\n\n### Knowledge Check\n\n1. If heart rate is 80 beats/min and stroke volume is 60 mL, what is cardiac output?\n2. Which autonomic branch dominates at rest, and what is its effect on heart rate?\n3. Explain how the Frank-Starling mechanism matches output to venous return.\n4. Why does increased afterload reduce stroke volume?\n5. On a ventricular function curve, what does a shift up and to the left indicate?\n\n### Answers and Rationales\n\n1. CO = 80 × 60 = 4800 mL/min = 4.8 L/min.\n2. Parasympathetic (vagal) tone dominates at rest, slowing the SA node so resting heart rate is below its intrinsic rate.\n3. Greater venous return increases EDV and stretch; the stretched muscle contracts more forcefully, ejecting more — so the heart pumps out what it receives.\n4. Higher afterload means the ventricle must build more pressure before the aortic valve opens, leaving less time and ability to eject, so less blood is expelled.\n5. A shift up and left indicates increased contractility (or sympathetic stimulation): more stroke volume at any given preload.",
+    "workedExamples": "How each regulator changes stroke volume:\n\n1. Increased preload (for example, increased venous return) → greater EDV → greater fiber stretch → more forceful contraction (Frank-Starling) → larger SV. This is an intrinsic, beat-to-beat matching of output to inflow.\n2. Increased contractility (sympathetic, ↑ Ca2+) → at any given EDV the ventricle contracts harder → more complete emptying (lower ESV) → larger SV. Ejection fraction rises.\n3. Increased afterload (higher aortic pressure or vascular resistance) → the ventricle must reach a higher pressure before ejection begins, shortening the ejection phase → less blood ejected (higher ESV) → smaller SV.\n4. Heart rate (chronotropy) multiplies each stroke volume: at constant SV, raising HR raises CO; but extreme tachycardia shortens diastolic filling, reducing preload and eventually SV.\n\nThe ventricular function curve (Frank-Starling curve) plots SV (or cardiac work) on the y-axis against preload (EDV, end-diastolic pressure, or atrial pressure) on the x-axis. Increased contractility or sympathetic stimulation shifts the curve up and to the left (more SV for a given preload); decreased contractility (for example, heart failure) shifts it down and to the right; increased afterload also shifts it down. Ejection fraction (EF = SV/EDV × 100%, normal ~55–65%) is a clinical index of contractile function.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "cardiac-output-and-its-regulation",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "04-cardiac-output-and-its-regulation",
+      "kind": "source_file_stem",
+      "source_id": "need-review-human-physiology-ii"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-human-physiology-ii",
+    "sourceFile": "human-physiology-ii-study-notes/docs/human-physiology-ii/04-cardiac-output-and-its-regulation.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

@@ -1,0 +1,39 @@
+{
+  "id": "genetics-genomics-and-bioinformatics-0002",
+  "subject": "genetics",
+  "lesson": "genomics-and-bioinformatics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept When two sequences are aligned, the alignment is scored for identity and similarity. Which statement correctly distinguishes the two measures?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Identity counts every aligned position, while similarity counts only exact matches."
+    },
+    {
+      "id": "b",
+      "text": "Identity counts only positions where the aligned residues are exactly the same, while similarity also credits positions where the residues differ but share chemical properties, such as both being hydrophobic."
+    },
+    {
+      "id": "c",
+      "text": "Identity measures the length of the alignment, while similarity measures the fraction of matching bases."
+    },
+    {
+      "id": "d",
+      "text": "Identity and similarity are interchangeable terms for the same alignment score."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Identity is the fraction of aligned positions at which the residues are exactly identical, while similarity additionally credits conservative substitutions, positions where chemically related residues occupy the same spot. Because similarity is the more generous measure, it is always equal to or greater than identity for the same alignment. The other options either reverse the two definitions or treat them as equivalent.",
+  "difficulty": "unknown",
+  "tags": [
+    "identity",
+    "versus",
+    "similarity"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-16973b1c51d4a9a2",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

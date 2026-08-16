@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-polarity-and-intermolecular-forces-q12",
+  "subject": "chemistry-1",
+  "lesson": "polarity-and-intermolecular-forces",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "For a hypothetical polar liquid, the total intermolecular attraction is 21 kJ/mol, of which 17 kJ/mol is attributed to London dispersion and the remainder to dipole-dipole attraction. Which conclusion is best supported?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The substance behaves as a nonpolar liquid, since dispersion supplies most of the attraction."
+    },
+    {
+      "id": "b",
+      "text": "Dipole-dipole attraction outweighs dispersion whenever a substance has a permanent dipole."
+    },
+    {
+      "id": "c",
+      "text": "The substance is capable of hydrogen bonding, since the total attraction exceeds 20 kJ/mol."
+    },
+    {
+      "id": "d",
+      "text": "Dispersion can dominate in a polar substance, with dipole-dipole supplying under one fifth."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Dispersion and dipole-dipole contributions are additive, and dispersion grows steeply with electron count and polarizability, so in many polar molecules of moderate size dispersion supplies the larger share of the total attraction. Here the dipole-dipole term is 21 - 17 = 4 kJ/mol, or (21 - 17) / 21 * 100 = 19.05 percent of the total, which is below one fifth. A nonzero dipole-dipole term establishes that the substance is polar, so it cannot be treated as nonpolar, and a total near 21 kJ/mol says nothing about hydrogen bonding, which requires a hydrogen covalently bonded to N, O, or F rather than a threshold energy.\n\nELI-10: A common misconception is that once a molecule is polar, its permanent dipole becomes the main source of attraction. In reality the dispersion contribution keeps climbing as the electron cloud gets larger, and it routinely overtakes the dipole term in molecules bigger than a few atoms. Here the dipole part is about 19 out of every 100 units of attraction, so polarity is real but minor. Data like these are why chemists compare molecules on total attraction rather than assuming the presence of a dipole settles the ranking.",
+  "difficulty": "hard",
+  "tags": [
+    "additivity of intermolecular forces",
+    "dispersion vs dipole-dipole",
+    "quantitative interpretation"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-275",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

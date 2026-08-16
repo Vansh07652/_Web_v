@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:synthesis-foundation:retrosynthetic-analysis",
+  "slug": "retrosynthetic-analysis",
+  "title": "Retrosynthetic Analysis",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:synthesis-foundation",
+    "slug": "synthesis-foundation",
+    "title": "Synthesis Foundation",
+    "order": 8
+  },
+  "order": 41,
+  "status": "final",
+  "sections": {
+    "overview": "Retrosynthetic analysis plans a synthesis backward: you start from the **target molecule** and mentally cut one bond (a **disconnection**) at a time until you reach simple, available starting materials. Each cut is valid only when matched to a real forward reaction performed by a **synthetic equivalent**. The plan is then read forward to confirm **feasibility**, regiochemistry, and stereochemistry.",
+    "whyItMatters": "Retrosynthetic thinking is how medicinal chemists plan a drug candidate from an active \"hit,\" disconnecting it into fragments a reaction such as amide coupling can join. The same backward logic diagnoses unexpected lab products—you \"disconnect\" the surprise to infer which path actually occurred. This is planning and reasoning, not physical operations; any actual synthesis must follow approved institutional safety documentation.",
+    "learningObjectives": "1. Define *retrosynthesis* and distinguish working backward from a target versus planning a forward reaction sequence.\n2. Identify a strategic **disconnection** and pair it with a real **synthetic equivalent** (reagent or substrate).\n3. Use **functional-group interconversion (FGI)** to reveal disconnections hidden in the target.\n4. **Forward-check** a proposed route for regiochemistry, stereochemistry, and reagent compatibility.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|------|---------------------------|----------------|\n| Retrosynthesis | Planning a synthesis backward from the target. | Organizes complex syntheses into small, solvable decisions. |\n| Target molecule | The final compound you want to make. | The fixed endpoint every backward step must reach. |\n| Disconnection | An imaginary cleavage of a target bond. | Proposes which bond formed last, guiding reagent choice. |\n| Synthetic equivalent | The real reagents/substrates that run the forward reaction. | Turns a paper cut into a chemically real step. |\n| Thinking backward | Asking \"what could make this?\" not \"what can this make?\" | Reveals the shortest practical route. |\n| Functional-group interconversion (FGI) | Changing a group on paper to expose a hidden disconnection. | Unlocks targets with no obvious cut. |\n| One-step / two-step synthesis | A route needing one or two reactions from start to target. | Exam questions usually target short routes first. |\n| Reagent selection (conceptual) | Choosing a reagent whose reactivity matches the cut. | Determines feasibility and side-product control. |\n| Forward-checking | Reading the plan forward to verify it yields the target. | Catches impossible or low-yield steps early. |\n| Regiochemistry / stereochemistry | Which constitutional isomer forms, and its 3-D arrangement. | A valid synthesis must also be selective in both. |\n| Feasibility / planning limits | Whether each step is real, selective, and compatible. | Not every disconnection has a reaction behind it. |",
+    "collegeNotes": "### 1. Thinking Backward\nForward synthesis asks \"what can I make from this?\" Retrosynthesis inverts it: \"what starting material and reaction give *this*?\" Backward steps use the retrosynthetic arrow (⇒), meaning \"could be made from,\" never \"reacts to give.\" The goal is simple, cheap precursors—often four-to-six carbons or one recognizable functional group.\n\n### 2. Disconnection and the Synthetic Equivalent\nA **disconnection** is an imaginary cleavage of a bond, a hypothesis about the last bond formed—not a reaction. The **synthetic equivalent** is the real reagent pair that forms it forward (e.g., Grignard + aldehyde). A disconnection without a synthetic equivalent is only a wish. Recognizable patterns include the carbonyl C–C bond (Grignard, acetylide, aldol) and the C–heteroatom bond (SN2, esterification).\n\n### 3. FGI and Forward-Checking\nWhen a target's groups give no clean cut, an **FGI** rewrites one group as another on paper—a secondary alcohol becomes a ketone reduction product, an alkene becomes an elimination product—to expose a hidden disconnection. Then you **forward-check**: read the sequence start-to-finish, verifying reagent compatibility, **regiochemistry** (Markovnikov vs. anti-), and **stereochemistry** (syn/anti, inversion/racemization), and that no step destroys a group needed later.",
+    "howItWorks": "1. Draw and label the target, noting every functional group and stereocenter.\n2. Find the bond most likely formed last (usually connecting two groups, or a group to the skeleton).\n3. Perform the disconnection and assign nucleophile/electrophile polarity to the fragments.\n4. Name the synthetic equivalent—the exact reagents that re-form that bond forward.\n5. If no clean cut exists, apply an FGI and retry.\n6. Repeat until all fragments are simple available starting materials.\n7. Forward-check the whole sequence and revise any failing step.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Retrosynthesis works backward; the ⇒ arrow means \"could be made from,\" not \"reacts to give.\"\n- **High yield:** A disconnection is valid only if a real synthetic equivalent exists.\n- **High yield:** Disconnect C–C bonds next to functional groups—they map to reliable bond-forming reactions.\n- **High yield:** FGI (alcohol → ketone, alkene → halide) exposes hidden disconnections.\n- **High yield:** Always forward-check regiochemistry and stereochemistry; the wrong isomer means a wrong route.\n- SN2 inverts, SN1 racemizes, E2 needs anti-periplanar geometry—carry these forward when checking steps.\n- Markovnikov/Zaitsev rules are prediction aids; verify each step mechanistically, not by rote.\n- Prefer short, convergent routes; each extra step costs yield and adds side products.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|----------------|------|------------|\n| Retrosynthetic arrow (⇒) | Reaction arrow (→) | ⇒ is a backward plan (\"could be made from\"); → is an actual forward reaction. |\n| Disconnection | A real reaction | A disconnection is imaginary; only its synthetic equivalent is real. |\n| Synthetic equivalent | Starting material | The equivalent is the *pair* of reagents, not one compound. |\n| FGI | An actual transformation step | FGI is done on paper; it may or may not become a literal step. |\n| A valid disconnection | A feasible synthesis | A cut can be chemically sensible yet fail on compatibility or selectivity. |\n| Regiochemistry | Stereochemistry | Regio = which position; stereo = which 3-D arrangement. |",
+    "memoryAids": "**\"Cut the Target, Find the Maker, Forward-Check.\"** Cut one strategic bond (disconnection), find the real reagents that re-form it (synthetic equivalent), then read the plan forward to confirm it gives the target—because a cut without a maker is just a broken molecule.",
+    "eli10": "Imagine writing the instruction booklet for a finished LEGO model: you look at the completed build, decide which two sub-pieces were snapped together *last*, and record that step last—undoing until you reach loose bricks everyone owns. Retrosynthesis is the same: from the finished molecule you ask, \"What bond was formed last, and what reaction forms that bond?\"—repeating until you reach simple starting materials. The comparison to a chef writing a recipe backward from the finished cake is apt, while a *forward* synthesis is the recipe being followed.\n\n**Where it stops being exact:** in LEGO any two bricks snap together, so almost any split \"works.\" In chemistry a disconnection is valid only if a real, selective reaction is known to form that bond forward *and* if every other functional group can survive its conditions. Many chemically \"obvious\" cuts have no good forward reaction, so the analogy fails the moment feasibility is ignored.\n\n### Simple Example\nTarget: 3-hexanol, \\\\( \\mathrm{CH_3CH_2CH(OH)CH_2CH_2CH_3} \\\\). Disconnect the C–C bond beside the OH to give propanal (\\\\( \\mathrm{CH_3CH_2CHO} \\\\)) and propylmagnesium bromide (\\\\( \\mathrm{CH_3CH_2CH_2MgBr} \\\\)); forward, a Grignard adds to the aldehyde to give 3-hexanol after workup. The cut is valid because Grignard addition to an aldehyde is a real, reliable forward reaction.",
+    "quickReview": "### Topic Recap\n\nRetrosynthesis flips planning on its head: begin at the **target** and cut backward through **disconnections**, each justified by a real **synthetic equivalent**. When hidden, **functional-group interconversion** rewrites the target to expose a clean cut. The result is a **forward-checked** route—short, feasible, and correct in **regiochemistry** and **stereochemistry**—to simple starting materials.\n\n### Knowledge Check\n\n1. What does the retrosynthetic arrow (⇒) mean?\n2. Why is a disconnection invalid without a synthetic equivalent?\n3. A target contains a secondary alcohol; what FGI might expose a hidden disconnection?\n4. In the 3-hexyne example, why must the alkyl halide be primary rather than tertiary?\n5. What is the purpose of the forward-check step?\n\n### Answers and Rationales\n\n1. \"Could be made from\"—a backward planning statement, not a forward reaction arrow.\n2. A disconnection only asserts a bond was formed; the synthetic equivalent proves a real forward reaction exists, which is what makes the plan feasible.\n3. Write it as the corresponding ketone, then disconnect the C–C bond next to the carbonyl, revealing a Grignard/aldehyde or acetylide/ketone addition.\n4. The forward step is SN2 alkylation of an acetylide; SN2 needs an unhindered methyl/primary electrophile, and a tertiary halide would eliminate instead.\n5. To verify the sequence actually yields the target with correct regiochemistry and stereochemistry, and that no reagent destroys a needed group.",
+    "workedExamples": "Plan a two-step synthesis of 3-hexyne, \\\\( \\mathrm{CH_3CH_2C\\equiv CCH_2CH_3} \\\\), from acetylene and two alkyl halides.\n\n1. **Locate strategic bonds.** The two new C–C bonds join the central alkyne carbons to two ethyl groups.\n2. **Disconnect backward.** Cutting one ethyl gives butyne plus an ethyl electrophile; cutting the second gives acetylene plus an ethyl electrophile.\n3. **State synthetic equivalents.** A terminal alkyne is deprotonated (NaNH₂) to an **acetylide** nucleophile; the electrophile is ethyl bromide. Forward, this is **SN2 alkylation**.\n4. **Trace electrons before products.** The acetylide lone pair attacks the CH₂ bearing Br from the back; the C–Br σ bond breaks and Br⁻ leaves—concerted SN2, no carbocation.\n5. **Order and forward-check.** Deprotonate acetylene → alkylate to 1-butyne → deprotonate again → alkylate to 3-hexyne. Primary halides avoid elimination, and each step is real and selective.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "retrosynthetic-analysis",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "41-retrosynthetic-analysis",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/41-retrosynthetic-analysis.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

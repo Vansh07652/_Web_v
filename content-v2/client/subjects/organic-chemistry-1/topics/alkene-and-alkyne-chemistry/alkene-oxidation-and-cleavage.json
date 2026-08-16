@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:alkene-and-alkyne-chemistry:alkene-oxidation-and-cleavage",
+  "slug": "alkene-oxidation-and-cleavage",
+  "title": "Alkene Oxidation and Cleavage",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:alkene-and-alkyne-chemistry",
+    "slug": "alkene-and-alkyne-chemistry",
+    "title": "Alkene and Alkyne Chemistry",
+    "order": 6
+  },
+  "order": 32,
+  "status": "final",
+  "sections": {
+    "overview": "Alkenes are at an intermediate oxidation state and can be oxidized to epoxides, to 1,2-diols, or all the way to carbonyl compounds by cleavage of the C=C bond. **Epoxidation** with a peroxyacid (e.g., mCPBA) gives a three-membered-ring ether called an **epoxide** with syn oxygen delivery; ring-opening with water then gives an **anti** (trans) diol. **Syn dihydroxylation** — both OH groups added to the same face — is done conceptually with osmium tetroxide (OsO₄) or cold, dilute permanganate. **Ozonolysis** (O₃ then reductive workup) and hot acidic permanganate **cleave** the double bond into two carbonyl compounds. Each original alkene carbon becomes a carbonyl carbon, allowing structure determination by working backward from the products.",
+    "whyItMatters": "Oxidative cleavage and dihydroxylation are used in medicinal and natural-product chemistry to locate double bonds (structure elucidation) and to build oxygen-rich, bioactive fragments such as diols and epoxide-containing drugs. (OsO₄ is highly toxic, ozone is a toxic gas, peroxyacids are potentially explosive, and permanganate is a strong oxidant that can ignite organics — all handling, quantities, and disposal must follow approved institutional safety documentation. This topic is strictly conceptual.)",
+    "learningObjectives": "1. Apply oxidation-state thinking (gain of O / loss of H) to the reactions of alkenes.\n2. Distinguish epoxidation and dihydroxylation reactions, and identify syn vs anti dihydroxylation reagents (conceptually).\n3. Explain ozonolysis and oxidative cleavage, and interpret the carbonyl products to reconstruct the original alkene.\n4. Recognize the hazard boundaries of the strong oxidants and toxic reagents involved (conceptual only).",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Oxidation state (organic) | Measured by C–O vs C–H bond count | Frames alkene reactions on an oxidation ladder |\n| Epoxidation | Addition of one O to an alkene via a peroxyacid | Makes epoxides with syn delivery |\n| Epoxide (oxirane) | Strained three-membered ring ether | Reactive intermediate toward diols and other products |\n| Anti-dihydroxylation | Trans-1,2-diol from epoxidation + ring opening | Complements syn dihydroxylation |\n| Syn dihydroxylation | Cis-1,2-diol via OsO₄ or cold dilute KMnO₄ (conceptually) | Both OH groups add to one face |\n| Ozonolysis | O₃ + reductive workup cleaves C=C into two carbonyls | Structure determination and retrosynthesis |\n| Alkene cleavage | Breaking the C=C into two carbonyl fragments | Reveals the alkene's substitution pattern |",
+    "collegeNotes": "### 1. Oxidation-State Concepts\nIn organic chemistry, oxidation is an increase in C–O bonds (or a decrease in C–H bonds), and reduction is the reverse. Alkanes are the most reduced; alkenes are more oxidized than alkanes; alcohols, diols, and carbonyls are more oxidized still. Oxidizing an alkene therefore walks the carbon atoms \"up\" the oxidation ladder — to an epoxide or diol, and, with cleavage, to aldehydes, ketones, or carboxylic acids depending on conditions.\n\n### 2. Epoxidation, Epoxides, and Dihydroxylation\n**Epoxidation** uses a peroxyacid such as meta-chloroperoxybenzoic acid (mCPBA) to deliver a single oxygen to the double bond, forming an **epoxide** (oxirane), a strained three-membered ring containing one oxygen. The addition is concerted and **syn** (the O is delivered to one face), so the alkene's stereochemistry is preserved. Because epoxides are reactive, opening the ring with water (acid-catalyzed) adds OH to the *opposite* face from the oxygen — net **anti-dihydroxylation** (trans-1,2-diol). In contrast, **syn dihydroxylation** delivers both OH groups to the same face: osmium tetroxide (OsO₄, used catalytically with a co-oxidant such as NMO, conceptually) forms a cyclic osmate ester that hydrolyzes to a cis-1,2-diol; cold, dilute, basic permanganate (KMnO₄) works analogously through a cyclic manganate ester.\n\n### 3. Ozonolysis, Alkene Cleavage, and Carbonyl Interpretation\n**Ozonolysis** cleaves the C=C bond: ozone (O₃) adds to the alkene, and a reductive workup (e.g., Zn/H₂O or dimethyl sulfide) converts the intermediate ozonide into two carbonyl compounds. Hot, acidic, concentrated permanganate also achieves oxidative cleavage. The rule for **carbonyl-product interpretation**: each alkene carbon becomes a carbonyl carbon — CH₂= becomes formaldehyde (H₂C=O), RCH= becomes an aldehyde (under reductive conditions), and R₂C= becomes a ketone. Working backward from the carbonyl products reconstructs the original alkene, a classic structure-determination and retrosynthetic tool.",
+    "howItWorks": "1. Mild oxidation (peroxyacid) installs an O to give an epoxide (syn).\n2. Epoxide ring-opening with water gives the anti (trans) diol.\n3. Syn dihydroxylation (OsO₄ or cold dilute KMnO₄, conceptually) gives the cis diol directly.\n4. Strong oxidation (O₃/reductive workup or hot acidic KMnO₄) cleaves the C=C into two carbonyls.\n5. Read the carbonyls backward to identify the original alkene.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Epoxidation with mCPBA is syn; the product is an epoxide (oxirane).\n- **High yield:** Epoxidation + water ring-opening = anti (trans) diol; OsO₄/cold dilute KMnO₄ = syn (cis) diol.\n- **High yield:** Ozonolysis cleaves the double bond into two carbonyls — each alkene carbon becomes a carbonyl carbon.\n- **High yield:** CH₂= → formaldehyde, RCH= → aldehyde, R₂C= → ketone (under reductive workup).\n- No carbocations form in these oxidations, so no rearrangements occur.\n- Oxidation state increases with more C–O and fewer C–H bonds.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Syn dihydroxylation | Anti dihydroxylation | Same-face (cis) vs opposite-face (trans) diol |\n| Epoxidation | Dihydroxylation | One O (epoxide) vs two OH groups (diol) |\n| Ozonolysis | Epoxidation | Cleavage to carbonyls vs ring formation without cleavage |\n| Aldehyde vs ketone product | Based on substitution | RCH= → aldehyde; R₂C= → ketone |\n| Cold dilute KMnO₄ | Hot acidic KMnO₄ | Syn diol vs oxidative cleavage |",
+    "memoryAids": "\"**O**zone **O**pens, **P**eroxyacid **P**rotects (rings), and the **S**ame-**S**ide sisters are **O**s and **M**anganese (OsO₄ and cold KMnO₄ make syn diols).\" For products: \"Every alkene carbon wears a C=O hat after ozonolysis.\"",
+    "eli10": "Think of the double bond as a rope stretched between two posts. Mild oxidation is like clipping a small ring (the epoxide) onto the rope without cutting it. A little more oxidation adds two oxygen \"handles\" — either both on the same side (syn) or one on each side (anti). Strong oxidation is like taking scissors and cutting the rope: each cut end then gets an oxygen cap, turning each end into a carbonyl (C=O) \"flag.\"\n\nA comparison: if the rope is a word you are reading, mild oxidation edits a letter, but cleavage cuts the word cleanly into two smaller words — and by reading those two smaller words you can often figure out what the original word was. Where it stops being exact: \"cutting\" is not literal bond scissors; the electrons of the π (and eventually σ) bonds reorganize through specific intermediates (cyclic osmate or manganate esters, molozonide/ozonide), and the reagents are strong oxidants that must be handled with care.\n\n### Simple Example\nOzonolysis of 2-methyl-2-butene gives acetone (from the disubstituted carbon, R₂C=) and acetaldehyde (from the monosubstituted carbon, RCH=). Reading those two carbonyls tells you the original double bond connected a C(CH₃)₂ fragment to a CHCH₃ fragment.",
+    "quickReview": "### Topic Recap\n\nAlkenes can be oxidized stepwise: peroxyacid epoxidation (syn) leads to anti dihydroxylation via ring-opening, while OsO₄ or cold dilute KMnO₄ give syn dihydroxylation directly. Ozonolysis and hot acidic permanganate cleave the C=C into two carbonyl compounds, and reading those carbonyls backward reconstructs the original alkene. All these reagents are strong oxidants or toxic species handled only under institutional safety rules.\n\n### Knowledge Check\n\n1. What reagent converts an alkene to an epoxide, and is the addition syn or anti?\n2. How do you obtain an anti (trans) 1,2-diol from an alkene?\n3. Name two reagents (conceptually) that give syn dihydroxylation.\n4. Ozonolysis of an alkene gives only acetone. What was the alkene?\n5. How does hot acidic KMnO₄ differ from cold dilute basic KMnO₄?\n\n### Answers and Rationales\n\n1. A peroxyacid such as mCPBA; the oxygen is delivered to one face, so the addition is syn.\n2. Epoxidize with mCPBA, then open the epoxide with water; ring opening is backside attack, giving the trans (anti) diol.\n3. Osmium tetroxide (OsO₄, with a co-oxidant) and cold, dilute, basic KMnO₄ — both proceed through cyclic metal-ester intermediates.\n4. 2,3-dimethyl-2-butene. Both alkene carbons were R₂C=, so each becomes a ketone; two identical ketones (acetone) mean the alkene was symmetric with both carbons disubstituted.\n5. Hot acidic KMnO₄ oxidatively cleaves the C=C into carbonyls (and can oxidize further), whereas cold dilute basic KMnO₄ stops at syn dihydroxylation to a cis-1,2-diol.",
+    "workedExamples": "1. Epoxidation: the electron-rich π bond attacks the terminal oxygen of the peroxyacid (electrophilic O), and, in a concerted step, the O–O bond breaks as a new C–O bond forms on each alkene carbon on the same face. The byproduct is the carboxylic acid. Octets are satisfied throughout; no carbocation forms, so no rearrangement.\n2. Syn dihydroxylation: the alkene adds to OsO₄, forming a cyclic osmate ester (both new C–O bonds on one face); hydrolysis releases the cis-diol and regenerates the osmium (conceptually with a co-oxidant).\n3. Ozonolysis: ozone adds to give an initial molozonide that rearranges to an ozonide; reductive workup fragments the ozonide, placing an oxygen on each original alkene carbon and breaking the C–C bond. The two carbonyls carry all the original carbon atoms — this is how the alkene is reconstructed.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "alkene-oxidation-and-cleavage",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "32-alkene-oxidation-and-cleavage",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/32-alkene-oxidation-and-cleavage.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

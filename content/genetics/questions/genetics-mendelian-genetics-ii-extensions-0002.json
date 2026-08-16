@@ -1,0 +1,41 @@
+{
+  "id": "genetics-mendelian-genetics-ii-extensions-0002",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-ii-extensions",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** cross-problem At the *ABO* locus the *I^A* and *I^B* alleles are codominant, so an *I^A I^B* individual has blood type AB. A woman of blood type A with genotype *I^A I^A* and a man of blood type AB with genotype *I^A I^B* have children. Assuming all genotypes are equally viable, what fraction of their children is expected to have blood type AB?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/4"
+    },
+    {
+      "id": "b",
+      "text": "1/2"
+    },
+    {
+      "id": "c",
+      "text": "3/4"
+    },
+    {
+      "id": "d",
+      "text": "1"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Because the *I^A* and *I^B* alleles are **codominant**, an *I^A I^B* child shows both the A and the B sugar and is type AB. The mother is homozygous *I^A I^A*, so every egg carries *I^A* (probability 1), while the father produces *I^A* and *I^B* gametes in equal proportions, giving the chain 1 x 1/2 = 1/2. A would result from multiplying 1/2 x 1/2 = 1/4 as if both parents were heterozygous, C inverts the correct fraction, and D ignores the father's *I^A* gametes entirely.",
+  "difficulty": "unknown",
+  "tags": [
+    "codominance",
+    "abo",
+    "blood",
+    "type",
+    "cross"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-459ae50fda335511",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

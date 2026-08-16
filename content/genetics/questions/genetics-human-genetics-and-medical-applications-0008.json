@@ -1,0 +1,39 @@
+{
+  "id": "genetics-human-genetics-and-medical-applications-0008",
+  "subject": "genetics",
+  "lesson": "human-genetics-and-medical-applications",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** pedigree In the pedigree, the unaffected mother II-2 is a confirmed carrier (*X^H X^h*) and her partner II-4 is *X^H Y*. What is the probability that their next child is an affected male with hemophilia A? ```text PEDIGREE: Generation I: I-1 unaffected male; I-2 unaffected female, partners Generation II: II-1 unaffected male; II-2 unaffected female; II-3 affected male with hemophilia A; II-4 unaffected male, partner of II-2 Generation III: III-1 affected male, son of II-2 and II-4 Key inference: Only males are affected, affected males are born to unaffected mothers, and no male to male transmission occurs; each carrier female is heterozygous (X^H X^h). Most consistent mode: X linked recessive ```",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/2"
+    },
+    {
+      "id": "b",
+      "text": "2/3"
+    },
+    {
+      "id": "c",
+      "text": "1/8"
+    },
+    {
+      "id": "d",
+      "text": "1/4"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "In X linked recessive inheritance each child has a 1/2 chance of being male, and each child of a carrier mother has a 1/2 chance of inheriting the *X^h* allele, so the probability of an affected male is 1/2 x 1/2 = 1/4. A is the probability that a son is affected when the sex is already known to be male. B is the autosomal sibling correction misapplied to an X linked pedigree, and C results from multiplying by an extra 1/2 factor.",
+  "difficulty": "unknown",
+  "tags": [
+    "hemophilia",
+    "linked",
+    "recurrence"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-b66cd1f7b546d85d",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

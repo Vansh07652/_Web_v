@@ -1,0 +1,38 @@
+{
+  "id": "genetics-gene-regulation-prokaryotes-0006",
+  "subject": "genetics",
+  "lesson": "gene-regulation-prokaryotes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept What is attenuation, the second regulatory layer of the trp operon?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A mechanism in which the Lac repressor binds the operator only in the presence of lactose."
+    },
+    {
+      "id": "b",
+      "text": "A mechanism in which the ribosome's progress through the *trpL* leader mRNA decides whether a terminator hairpin forms, coupling transcription of the structural genes to tryptophan availability."
+    },
+    {
+      "id": "c",
+      "text": "A mechanism in which CAP bound to cAMP recruits RNA polymerase to the lac promoter."
+    },
+    {
+      "id": "d",
+      "text": "A mechanism in which tryptophan binds the Trp repressor at the operator and silences transcription."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Attenuation depends on translation of the *trpL* leader peptide, which contains two consecutive tryptophan codons. When tryptophan is abundant the ribosome finishes the leader quickly and a terminator hairpin forms, stopping transcription before the structural genes; when tryptophan is scarce the ribosome stalls and the terminator cannot form. D describes repression, a separate layer, and A and C describe lac mechanisms.",
+  "difficulty": "unknown",
+  "tags": [
+    "attenuation",
+    "concept"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-3367b1216fd616d4",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

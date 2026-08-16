@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-polarity-and-intermolecular-forces-q10",
+  "subject": "chemistry-1",
+  "lesson": "polarity-and-intermolecular-forces",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which change would most likely increase the rate at which a liquid evaporates from an open dish held at constant temperature?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Replacing the liquid with one whose molecules form an extensive hydrogen-bond network"
+    },
+    {
+      "id": "b",
+      "text": "Dissolving a nonvolatile solute that lowers the liquid's vapor pressure"
+    },
+    {
+      "id": "c",
+      "text": "Replacing the liquid with one whose molecules have weaker intermolecular attractions"
+    },
+    {
+      "id": "d",
+      "text": "Pouring the liquid into a narrow cylinder that exposes less surface area"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Evaporation occurs when surface molecules acquire enough kinetic energy to escape the attractions of their neighbors, so weakening those attractions increases the fraction of molecules that can escape at any given temperature. Liquids with weak intermolecular forces therefore show high vapor pressure and low enthalpy of vaporization, while water's extensive hydrogen bonding gives it an enthalpy of vaporization of about 40.7 kJ/mol, so 2 mol takes about 81.4 kJ to vaporize. The other options either strengthen the attractions holding molecules in the liquid or reduce the surface area from which escape occurs, both of which slow evaporation.\n\nELI-10: Only molecules at the surface with above-average kinetic energy can break free, so the question is how high the escape barrier sits. Weaker attractions lower that barrier, so a much larger share of surface molecules clears it every second and the dish empties faster. That is why isopropyl alcohol dries on skin within seconds while water lingers: alcohol has fewer hydrogen bonds per molecule. Surface area and added solutes change the rate too, but the options listed move both in the wrong direction.",
+  "difficulty": "medium",
+  "tags": [
+    "evaporation rate",
+    "vapor pressure",
+    "enthalpy of vaporization"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-275",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

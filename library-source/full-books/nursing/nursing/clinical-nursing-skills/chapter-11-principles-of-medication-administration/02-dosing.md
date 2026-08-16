@@ -1,0 +1,169 @@
+---
+title: "Dosing"
+subject: "Nursing"
+book: "Clinical Nursing Skills"
+chapter: "11: Principles of Medication Administration"
+topic_number: "2"
+source: "clinical-nursing-skills.md"
+tags:
+  - "dosing"
+  - "nursing"
+status: "complete"
+---
+
+# Dosing
+
+> **Book:** [Clinical Nursing Skills](../../README.md)  
+> **Chapter:** [Chapter 11: Principles of Medication Administration](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Dosing** is the part of medication administration that answers the question "how much, and how often?" A **dose** is the amount of a drug given at one time; the **dosage regimen** (or just "dosage") is the full schedule — dose, route, and frequency over time; and **concentration** is how much drug is packed into each unit of liquid or solid (for example, milligrams per milliliter, or milligrams per tablet). A nurse deals with all three every time a medication is prepared: the order says *what amount*, the label says *what concentration*, and the nurse's job is to make sure the amount that reaches the patient is exactly what was ordered.
+
+Dosing is where mathematics meets patient safety. Decimal-point errors, unit errors, and conversion errors cause real harm, which is why nursing programs drill dose calculation and why facilities require independent double checks for high-alert medications. But calculation is only half the skill. The other half is **clinical judgment**: the ability to look at a computed answer and ask, "Does this make sense for this patient?" A nurse who can calculate perfectly but never questions an absurd result is still dangerous.
+
+## Why This Matters
+
+- **Dose errors are among the most harmful medication errors.** Giving too much can cause toxicity; giving too little can fail to treat the condition. Both happen more often than anyone would like.
+- **Children and other weight-sensitive patients are dosed by weight.** A small error in weight conversion (pounds to kilograms) can produce a large error in the dose.
+- **High-alert medications leave little room for error.** Insulin, anticoagulants, opioids, and similar drugs require extra verification precisely because the consequences of a wrong dose are severe.
+- **Math is on the exam.** Dose calculations appear on NCLEX-style tests and in nearly every nursing program's med-math requirements.
+- **Dosing connects the rights framework to real administration.** "Right dose" from the previous topic becomes concrete here: how you determine it, calculate it, and verify it before the drug reaches the patient.
+
+## Core Concepts
+
+### Reading a medication order
+
+A complete medication order contains the drug name, dose, route, and frequency — plus the patient's information, the date and time, and the prescriber's signature. For example, an order might read: "Drug X 500 mg PO every 8 hours." Before preparing anything, the nurse verifies every component against the MAR and clarifies anything that is missing, ambiguous, or unsafe.
+
+Abbreviations deserve special attention. Some abbreviations are dangerous because they are easily misread — for example, writing "U" for "units" (can look like "0" or "4"), or using a trailing zero ("5.0 mg") or a missing leading zero (".5 mg" instead of "0.5 mg"). Safety organizations publish lists of error-prone abbreviations, and most facilities ban them. When in doubt, **write it out** or ask — never guess.
+
+### Dose, dosage, and concentration: knowing which is which
+
+- **Dose:** the amount given at one time (e.g., 500 mg).
+- **Dosage regimen:** dose plus frequency over time (e.g., 500 mg every 8 hours).
+- **Concentration:** amount of drug per unit of preparation (e.g., 250 mg per tablet, or 100 mg per 5 mL of liquid).
+
+Calculation questions almost always hinge on concentration: the order specifies a dose, the label specifies a concentration, and the nurse computes the volume or number of units to prepare. Confusing dose with concentration is a classic error — for example, treating "250 mg per tablet" as if the tablet contained 250 mg per some other unit.
+
+### Units of measurement and conversions
+
+Medication doses are expressed in metric units: grams (g), milligrams (mg), and micrograms (mcg) for mass; liters (L) and milliliters (mL) for volume. Converting between them means moving by factors of 1,000:
+
+- 1 g = 1,000 mg
+- 1 mg = 1,000 mcg
+- 1 L = 1,000 mL
+
+The common traps are **mcg versus mg** (a 1,000-fold difference) and **household measures** (teaspoon, tablespoon), which are imprecise and error-prone; facilities generally require metric units and metric measuring devices. Weight conversions matter too: many orders are weight-based, and pounds must be converted to kilograms (1 kg ≈ 2.2 lb) using the patient's current weight, not a remembered one.
+
+### Calculation methods
+
+Three methods produce the same answer; nurses use whichever they were taught and find reliable:
+
+- **Desired over have:** (desired dose ÷ available dose) × quantity. If the order is 500 mg and the tablet is 250 mg: (500 ÷ 250) × 1 tablet = 2 tablets.
+- **Ratio and proportion:** set up two equal ratios — desired over unknown equals available over quantity — and solve for the unknown.
+- **Dimensional analysis:** arrange the units so they cancel, leaving the answer in the desired unit. This method is especially useful for complex problems with conversions built in.
+
+**Weight-based dosing:** the order gives a dose per kilogram (for example, "5 mg per kg"), and the nurse multiplies by the patient's weight in kilograms to get the total dose, then uses the concentration to find the volume to give. **Body surface area (BSA)-based dosing** works similarly, using a calculated surface area instead of weight; it is more common in certain settings such as oncology. In every case, rounding follows facility policy — never round in a way that meaningfully changes the dose without verification.
+
+### The "does this make sense?" check
+
+Before drawing up or pouring anything, compare the calculated amount against the ordered dose and against what is reasonable for the drug and patient. If a calculation says to give an entire bottle, or a fraction so tiny it seems implausible, stop and re-check. This judgment step is why dose calculation is taught as part of nursing judgment, not just arithmetic.
+
+### Factors that shape dosing
+
+The *right* dose for one patient may be wrong for another. General factors that influence dosing include:
+
+- **Age:** infants, children, and older adults often handle drugs differently.
+- **Weight and body composition.**
+- **Organ function:** kidneys and liver clear most drugs; impaired function can change how a drug accumulates.
+- **Genetics:** people metabolize some drugs at very different rates.
+- **Drug interactions:** other medications can raise or lower a drug's effect.
+- **Tolerance and prior response.**
+
+These factors are why doses are individualized and why the nurse verifies the current weight, checks renal and hepatic function when relevant, and flags anything that looks off. (Specific doses, adjustments, and ranges come from the order, the drug reference, and the prescriber — never from memory or a study guide.)
+
+## ELI-10: Explain Like I’m 10
+
+Dosing is like following a recipe: the doctor's order is the recipe, and it says how much medicine and how often. The medicine bottle tells you how strong the medicine is — like how much chocolate is in each square. The nurse does the math to figure out how many squares (or how many spoonfuls) add up to exactly the amount the recipe asks for. Then, like a careful cook, she checks the answer twice, because too much or too little medicine can both cause problems.
+
+## High-Yield Points
+
+- **Dose ≠ dosage ≠ concentration:** amount per administration, the full schedule, and amount per unit of preparation. Know which number you're looking at.
+- Metric conversions move by 1,000: g → mg → mcg; L → mL. **mcg/mg confusion is a 1,000-fold error.**
+- Read every order completely; **dangerous abbreviations** (trailing zeros, "U" for units) are banned in most facilities — when in doubt, write it out or ask.
+- Weight-based dosing uses the **current weight in kilograms**; converting pounds incorrectly is a classic error.
+- Master one calculation method (desired-over-have, ratio-proportion, or dimensional analysis) and always **re-check**.
+- After computing, ask **"does this make sense?"** — an implausible answer means stop and re-verify, not proceed.
+- High-alert medications require **independent double checks** per facility policy.
+- Rounding follows **facility policy**, never a personal habit.
+- Real doses come from verified orders and references — study guides teach the skill, not the doses.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Dose | The amount of drug given at one time | The "how much" of the order; the nurse must prepare exactly this |
+| Dosage regimen | The full schedule: dose, route, and frequency over time | Describes how the drug is taken day to day |
+| Concentration | Amount of drug per unit of preparation (e.g., mg/mL, mg/tablet) | The label value used to calculate volume or number of units |
+| Desired over have | A calculation method: (desired ÷ available) × quantity | One reliable way to compute the amount to prepare |
+| Dimensional analysis | A method where units cancel to yield the answer in the desired unit | Especially useful for multi-step problems with conversions |
+| Weight-based dosing | Dosing calculated as a per-kilogram amount times the patient's weight | Standard for children and many other drugs; current weight is essential |
+| High-alert medication | A drug where errors carry a high risk of significant harm | Triggers extra verification such as independent double checks |
+| Dangerous abbreviation | A shorthand term prone to misreading (e.g., "U," trailing zeros) | Banned in most facilities because misreading causes dose errors |
+
+## Example
+
+**Practice problem (hypothetical numbers for math practice — not a clinical order):** The order reads "Drug Z 300 mg PO every 6 hours." The pharmacy supplies Drug Z as a liquid labeled 150 mg per 5 mL. How many milliliters should the nurse prepare for one dose?
+
+Using desired over have: desired = 300 mg, available = 150 mg, quantity = 5 mL.
+(300 ÷ 150) × 5 mL = 2 × 5 mL = **10 mL**.
+
+The nurse re-checks: 150 mg per 5 mL means 30 mg per mL, so 300 mg is 10 mL. The answer is plausible, the route (PO) matches the order, and the dose matches the order exactly. For a high-alert medication, the nurse would also have a second clinician independently verify the calculation before drawing it up. Finally, the nurse documents the dose, route, time, and patient response after administration. (Remember: these numbers exist only to practice the math — real orders, concentrations, and doses come from the verified order, the drug label, and facility references.)
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Dose | Dosage | Dose is the amount per administration; dosage is the full schedule (dose + frequency) |
+| mg | mcg | 1 mg = 1,000 mcg — a one-thousand-fold difference and a classic decimal error |
+| 0.5 mg | 5 mg | A missing leading zero or a misplaced decimal changes the dose tenfold |
+| Concentration | Dose | Concentration is amount per unit of preparation; dose is the total amount ordered. Both are needed for the calculation |
+| Frequency | Total daily dose | Frequency is how often (e.g., every 8 hours); the total daily dose is the sum of all doses in a day |
+| Metric volume (mL) | Household measures (tsp, tbsp) | Household spoons are imprecise; metric devices are required for accuracy |
+
+## Quick Review
+
+1. What is the difference between a dose, a dosage regimen, and a concentration?
+2. How many milligrams are in 2 grams? How many micrograms in 0.5 mg?
+3. **Practice problem (hypothetical):** Order: 250 mg PO. Available: 500 mg per tablet. How many tablets?
+4. Why is the patient's *current* weight in kilograms important for weight-based dosing?
+5. A calculation produces an answer that seems too large or too small. What should the nurse do?
+
+<details>
+<summary>Show answers</summary>
+
+1. A dose is the amount given at one time; a dosage regimen is the full schedule (dose, route, frequency over time); a concentration is the amount of drug per unit of preparation (e.g., mg/mL or mg/tablet).
+2. 2 g = 2,000 mg; 0.5 mg = 500 mcg.
+3. (250 ÷ 500) × 1 tablet = 0.5 tablet. Re-check: 500 mg per tablet, half a tablet gives 250 mg. (Hypothetical numbers for practice only.)
+4. Because the dose is calculated from the weight — an outdated or incorrectly converted weight (e.g., pounds mistaken for kilograms) produces an incorrect dose, which can be especially dangerous in children.
+5. Stop and re-check the order, the label, the conversion, and the arithmetic — then verify with a second person if indicated or ask the pharmacist/prescriber. Never administer a dose that doesn't make sense.
+
+</details>
+
+## Related Topics
+
+- Previous: [Rights of Medication Administration](01-rights-of-medication-administration.md)
+- Next: [Documentation of Medication Administration](03-documentation-of-medication-administration.md)
+- Chapter: [Principles of Medication Administration overview](../README.md)
+- Forward: [Preparing Unit-Dose Packaged Medications](../chapter-12-medication-administration-procedures/03-preparing-unit-dose-packaged-medications.md)
+
+## Source Notes
+
+- Book: Clinical Nursing Skills
+- Local outline source: `clinical-nursing-skills.md`
+- Official source URL: https://openstax.org/details/books/clinical-nursing-skills/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-15

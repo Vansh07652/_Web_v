@@ -1,0 +1,39 @@
+{
+  "id": "physics-2-electromagnetic-induction-0005",
+  "subject": "physics-2",
+  "lesson": "electromagnetic-induction",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For induced electric fields, use $Phi_B = B A$ in a magnetic flux model. The first quantity is 2.50 T and the second is 3.00 m^2. What is the magnetic flux?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$3.75\\ \\text{Wb}$"
+    },
+    {
+      "id": "b",
+      "text": "$7.50\\ \\text{Wb}$"
+    },
+    {
+      "id": "c",
+      "text": "$15.00\\ \\text{Wb}$"
+    },
+    {
+      "id": "d",
+      "text": "$9.38\\ \\text{Wb}$"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Using $Phi_B = B A$ gives 2.50 T times 3.00 m^2 = $7.50\\ \\text{Wb}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to Wb, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "induced",
+    "electric",
+    "fields"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ebd801aa686adb92",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

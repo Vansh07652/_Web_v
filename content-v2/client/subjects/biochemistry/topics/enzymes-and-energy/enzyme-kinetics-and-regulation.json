@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biochemistry:enzymes-and-energy:enzyme-kinetics-and-regulation",
+  "slug": "enzyme-kinetics-and-regulation",
+  "title": "Enzyme Kinetics and Regulation",
+  "subject": {
+    "id": "subject:biochemistry",
+    "slug": "biochemistry",
+    "title": "Biochemistry"
+  },
+  "unit": {
+    "id": "unit:biochemistry:enzymes-and-energy",
+    "slug": "enzymes-and-energy",
+    "title": "Enzymes and Energy",
+    "order": 5
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "This section covers **what affects enzyme activity** — temperature, pH, and substrate concentration — plus **cofactors and coenzymes**, and how enzymes are **regulated**, including **inhibition** and **feedback inhibition**.",
+    "whyItMatters": "Enzyme activity is carefully controlled so metabolism runs at the right pace. Understanding regulation explains how the body maintains balance, how vitamins act as coenzymes, and how many drugs and poisons work (by inhibiting enzymes).",
+    "learningObjectives": "- Describe how **temperature, pH, and substrate concentration** affect enzyme activity.\n- Explain **cofactors and coenzymes**.\n- Distinguish **competitive vs. noncompetitive inhibition**.\n- Describe **feedback inhibition** (allosteric regulation).",
+    "keyTerms": "",
+    "collegeNotes": "**Factors affecting enzyme activity.** Each enzyme has conditions where it works best:\n\n- **Temperature** — activity increases with temperature up to an **optimum**, then drops sharply as heat **denatures** the enzyme. Human enzymes are optimized near **body temperature (~37 °C)**.\n- **pH** — each enzyme has an **optimal pH**; large deviations reduce activity or denature the enzyme (e.g., stomach **pepsin** prefers acidic pH; most body enzymes prefer near-neutral).\n- **Substrate concentration** — activity rises as more substrate is available, until the enzymes become **saturated** (all active sites busy), after which adding more substrate doesn't speed things up.\n\n**Cofactors and coenzymes.** Many enzymes need **helper molecules** to function:\n\n- **Cofactors** — non-protein helpers, often **metal ions** (e.g., zinc, magnesium, iron).\n- **Coenzymes** — **organic** helper molecules; **many are derived from vitamins** (e.g., **NAD⁺ from niacin**, FAD from riboflavin). This is a key reason vitamins and minerals are essential in the diet.\n\n**Enzyme inhibition.** **Inhibitors** decrease enzyme activity. Two main types:\n\n- **Competitive inhibition** — the inhibitor **resembles the substrate** and **competes** for the **active site**, blocking substrate from binding. It can often be overcome by **more substrate**.\n- **Noncompetitive inhibition** — the inhibitor binds **elsewhere** (an **allosteric site**, not the active site), **changing the enzyme's shape** so it works less well; adding more substrate does **not** overcome it.\n\nMany **drugs and poisons** act as enzyme inhibitors.\n\n**Feedback inhibition (allosteric regulation).** A common control strategy: in a metabolic pathway, the **final product** inhibits an **earlier enzyme** in the pathway. When enough product accumulates, it **switches off** its own production — a self-regulating loop that prevents waste, much like a **thermostat**. This is a form of **allosteric regulation** (binding at a site other than the active site to change activity).",
+    "howItWorks": "Enzyme activity and control:\n\n```\nFactors: TEMPERATURE (optimum ~37°C, then denature) | pH (each has optimum) | SUBSTRATE conc (rises then plateaus at saturation)\nHelpers: cofactors (metal ions) + coenzymes (organic, often from VITAMINS, e.g., NAD+ from niacin)\nInhibition:\n   Competitive = mimics substrate, blocks ACTIVE SITE (overcome by more substrate)\n   Noncompetitive = binds ALLOSTERIC site, changes shape (not overcome by more substrate)\nFeedback inhibition: end product shuts off an earlier enzyme (thermostat-like self-regulation)\n```",
+    "comparisons": "| Factor | Effect on enzyme |\n| --- | --- |\n| Temperature | Optimum (~37 °C), then denatures |\n| pH | Each has an optimum |\n| Substrate concentration | Rises, then plateaus (saturation) |\n\n| Inhibition | Binds where? | Overcome by more substrate? |\n| --- | --- | --- |\n| Competitive | Active site | Yes |\n| Noncompetitive | Allosteric site | No |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\n**Body temperature and pH** must stay in range for enzymes to work — connecting fever and acid-base balance to physiology. **Vitamins and minerals as coenzymes/cofactors** explain why deficiencies cause disease (e.g., B-vitamin deficiencies). **Enzyme inhibition** is the mechanism of **many medications** (e.g., ACE inhibitors, statins, some antibiotics) and poisons. **Feedback inhibition** models how the body regulates pathways (including hormone systems — negative feedback). Understanding **saturation** connects to dosing and metabolism concepts.",
+    "commonConfusions": "- **Enzymes have optimum temperature (~37 °C) and pH** — beyond these, activity falls/denatures.\n- **Cofactors (inorganic, metal ions) vs. coenzymes (organic, often vitamin-derived).**\n- **Competitive (active site, overcome by more substrate) vs. noncompetitive (allosteric, not overcome).**\n- **Feedback inhibition = end product turns off an earlier step** (self-regulation).",
+    "memoryAids": "- **\"Competitive = Competes for the active site.\"**\n- **\"Coenzymes come from vitamins (Consumed in diet).\"**\n- **\"Feedback inhibition = a thermostat for metabolism.\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nEnzymes work best under the right conditions (the right warmth and acidity) and often need little \"helper\" molecules (many from vitamins!). The body also controls enzymes by slowing them down when needed — including a clever \"off switch\" called feedback inhibition.\n\n### Analogy\nThink of an enzyme like a worker who does their best job in **just-right conditions** — not too hot, not too cold (around **body temperature**), and not too acidic or too basic. Push the conditions too far and the worker \"quits\" (the enzyme denatures). Many enzyme-workers also need a **special tool handed to them** to do the job — these helpers are **cofactors** (often **metal ions** like iron or zinc) and **coenzymes** (often made from the **vitamins** you eat — which is a big reason vitamins matter!). Now, sometimes you need to **slow a worker down**. One way is a \"**fake substrate**\" that **plugs the worker's hands** (the active site) so the real one can't fit — that's **competitive inhibition** (you can outcompete it by flooding in more real substrate). Another way is a molecule that grabs the worker somewhere else and **changes their posture** so they can't work well — that's **noncompetitive inhibition**. And the cleverest control is a **thermostat trick** called **feedback inhibition**: when a factory has made *enough* of a product, that product itself flips an **off switch** on an early machine, stopping over-production.\n\n### What is actually happening\nThis matters a ton in real medicine. Because enzymes need the right **temperature and pH**, fevers and acid-base problems affect the whole body. Because many **coenzymes come from vitamins**, vitamin deficiencies cause real diseases. And hugely: **many medicines are enzyme inhibitors** — drugs for blood pressure, cholesterol, and infections often work by **blocking a specific enzyme**, exactly like the \"fake substrate\" or \"posture-changer\" tricks. The **feedback \"thermostat\"** idea also explains how the body keeps hormones and chemicals balanced (negative feedback). So this one topic connects vitamins, fevers, and a whole pharmacy of drugs.\n\n### Where the analogy stops\nWorkers and thermostats are simple machines, but real enzyme regulation involves many overlapping controls at once, finely tuned by the cell — the body's balancing act is far more intricate than a single on/off switch.",
+    "quickReview": "- Enzyme activity depends on **temperature** (optimum ~37 °C, then denatures), **pH** (each has an optimum), and **substrate concentration** (rises then plateaus at **saturation**).\n- Many enzymes need **cofactors** (inorganic, metal ions) or **coenzymes** (organic, often **vitamin-derived**, e.g., NAD⁺ from niacin).\n- **Competitive inhibitors** block the **active site** (overcome by more substrate); **noncompetitive inhibitors** bind an **allosteric site** (not overcome by more substrate).\n- **Feedback inhibition** lets an end product shut off an earlier enzyme — thermostat-like self-regulation; many **drugs act as enzyme inhibitors**.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Chapter 6: Metabolism (enzyme regulation, inhibition). https://openstax.org/details/books/biology-2e",
+        "url": "https://openstax.org/details/books/biology-2e"
+      },
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 24: Metabolism and Nutrition (vitamins as coenzymes). https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/05-biochemistry/05-enzymes-and-energy/02-enzyme-kinetics-and-regulation.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

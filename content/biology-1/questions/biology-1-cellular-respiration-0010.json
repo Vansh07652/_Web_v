@@ -1,0 +1,39 @@
+{
+  "id": "biology-1-cellular-respiration-0010",
+  "subject": "biology-1",
+  "lesson": "cellular-respiration",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "On a hot, dry day a **C3 plant**'s stomata close, causing oxygen levels to rise inside the leaf. Which of the following is the direct consequence?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The Calvin cycle speeds up because more oxygen energizes the reactions."
+    },
+    {
+      "id": "b",
+      "text": "RuBisCO fixes oxygen instead of carbon dioxide, and photorespiration consumes ATP without producing sugar."
+    },
+    {
+      "id": "c",
+      "text": "Photosystem II splits oxygen instead of water, doubling oxygen production."
+    },
+    {
+      "id": "d",
+      "text": "The electron transport chain runs in reverse, pumping protons out of the thylakoid."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "With stomata closed, oxygen accumulates and RuBisCO fixes oxygen instead of carbon dioxide, starting photorespiration, which burns ATP and releases already-fixed carbon without making sugar. A has the consequence backwards, since oxygen does not energize the Calvin cycle. C invents an impossible reaction, because photosystem II never splits oxygen. D contradicts the one-way flow of electrons in the transport chain.",
+  "difficulty": "unknown",
+  "tags": [
+    "photorespiration",
+    "c3",
+    "plants"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-247e595a482fe894",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

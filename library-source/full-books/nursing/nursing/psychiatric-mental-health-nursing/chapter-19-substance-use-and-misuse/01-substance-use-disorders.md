@@ -1,0 +1,132 @@
+---
+title: "Substance Use Disorders"
+subject: "Nursing"
+book: "Psychiatric-Mental Health Nursing"
+chapter: "19: Substance Use and Misuse"
+topic_number: "1"
+source: "psychiatric-mental-health.md"
+tags:
+  - "substance-use-disorders"
+  - "nursing"
+status: "complete"
+---
+
+# Substance Use Disorders
+
+> **Book:** [Psychiatric-Mental Health Nursing](../../README.md)  
+> **Chapter:** [Chapter 19: Substance Use and Misuse](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Substance use disorder (SUD) is the diagnostic term for a problematic pattern of alcohol, drug, or medication use that leads to clinically significant impairment or distress. The DSM-5-TR replaced older terms ("abuse," "dependence," "addiction") with a single diagnosis defined by eleven criteria across four domains — impaired control, social impairment, risky use, and pharmacological changes (tolerance and withdrawal) — with severity rated mild (2–3 criteria), moderate (4–5), or severe (6+). SUD is common, chronic, and relapsing, and it is one of the most stigmatized conditions in healthcare, which directly affects whether people seek and stay in care. Nurses meet people with SUD in every setting — emergency, medical-surgical, maternity, primary care, and psychiatry — which makes nonjudgmental language, screening, and knowledge of the treatment landscape core nursing competencies. No single model fully explains addiction: biological, psychological, social, and environmental factors interact, and different frameworks emphasize different pieces.
+
+## Why This Matters
+
+Large U.S. surveys estimate that roughly 1 in 10 to 1 in 7 adults meets criteria for an SUD at some point in life (estimates vary with method and survey). SUDs contribute to overdose deaths, withdrawal emergencies, chronic disease, trauma, and family disruption, and they frequently co-occur with other psychiatric disorders ("dual diagnosis"). Three nursing realities follow. First, **stigma harms outcomes**: people with SUD are often judged, undertreated, and avoided; person-first language ("person with substance use disorder," not "addict" or "abuser") is a clinical intervention, not politeness. Second, **safety is acute**: intoxication, withdrawal, and overdose can be medical emergencies, and nurses must recognize warning signs and escalate immediately to providers per facility policy — not manage them independently. Third, **treatment works**: evidence-based care (medication-assisted treatment where indicated, psychotherapy, mutual support) meaningfully improves outcomes, and nurses are often the first point of contact that either invites a person into treatment or drives them away.
+
+## Core Concepts
+
+### The 11 criteria and 4 domains
+
+The DSM-5-TR SUD criteria cluster into four domains: (1) **impaired control** — using more or longer than intended, persistent desire or unsuccessful efforts to cut down, great time spent obtaining/using/recovering, and craving; (2) **social impairment** — failure to fulfill major role obligations, continued use despite interpersonal problems, and giving up important activities; (3) **risky use** — recurrent use in hazardous situations and continued use despite knowing it causes physical or psychological problems; (4) **pharmacological** — tolerance (needing more for the same effect, or reduced effect at the same dose) and withdrawal (the characteristic syndrome when use stops or is reduced). Two or more criteria within 12 months indicate mild severity; 4–5 moderate; 6+ severe. The old DSM-IV split ("abuse" vs. "dependence") was dropped because research showed the categories did not map cleanly onto severity.
+
+### Tolerance, withdrawal, and "not all dependence is addiction"
+
+Tolerance and withdrawal are physiological adaptations that can occur with prescribed medications taken exactly as ordered — for example, opioids for pain or benzodiazepines for anxiety. Someone with physical dependence on a prescribed medication does not necessarily have a substance use disorder. The diagnosis requires the behavioral criteria (impaired control, social impairment, risky use), not just physical adaptation. This matters in care: clinicians must not assume that a person taking opioids for pain is "addicted," and must not undertreat pain out of fear. Withdrawal syndromes vary by substance and can be dangerous (alcohol and benzodiazepine withdrawal especially); monitoring and management follow provider orders and facility protocols (including standardized withdrawal scales where used) — never improvisation.
+
+### Biopsychosocial models and the "brain disease" debate
+
+Research on reward circuitry (dopamine pathways such as the mesolimbic system) shows that substances hijack motivation and learning systems, and the influential National Institute on Drug Abuse "brain disease" framework (associated with Volkow and colleagues) describes addiction as a chronic brain disorder. The framework is contested: critics argue it overemphasizes biology, underplays choice and social context, and may not reduce stigma as promised. Historical studies illustrate the social dimension — for example, the 1970s "Rat Park" experiments found that rats housed in enriched environments consumed far less morphine solution than isolated rats (small samples; heavily debated), and a landmark 1974 study of Vietnam veterans found that most soldiers who used heroin in Vietnam did not continue use after returning home. Takeaway: addiction is biopsychosocial — biology, psychology, and environment all matter, and no single model is complete.
+
+### Co-occurring disorders and dual diagnosis
+
+People with SUD commonly meet criteria for mood, anxiety, trauma-related, and psychotic disorders, and vice versa. Each condition can worsen the other: untreated mental illness drives relapse just as untreated SUD worsens mental illness. Integrated treatment — addressing both together — is the standard of care in most settings; nurses coordinate, educate, and refer.
+
+### The nursing role
+
+Nurses: (1) **screen** — validated tools like the CAGE or AUDIT (alcohol) and DAST (drugs) are administered per facility policy; a positive screen triggers further assessment by qualified clinicians, not a diagnosis; (2) **communicate** — use nonjudgmental, person-first language and motivational interviewing principles (rolling with resistance, exploring ambivalence); (3) **monitor** withdrawal and intoxication per orders, and escalate emergencies (for example, suspected overdose, seizures, severe agitation) immediately — call for help, notify the provider, follow facility protocol; (4) **teach** about treatment options (psychosocial treatment, mutual support groups, and medication-assisted treatment where indicated and ordered) and refer; (5) **support harm-reduction approaches** where facility policy and jurisdiction allow (for example, naloxone education, safer-use information) — noting that harm-reduction availability varies widely by jurisdiction and institution; and (6) **document** objectively, avoiding judgmental language. Scope of practice, policies, and legal frameworks vary by jurisdiction and facility.
+
+## ELI-10: Explain Like I’m 10
+
+A substance use disorder is when using alcohol or drugs keeps causing problems — at school, at work, with family — but the person keeps using anyway, even when it hurts them. Doctors count eleven warning signs, like "can't stop even when trying" or "needs more and more to get the same feeling." It's a real health condition that can get better with treatment, and calling someone a bad name instead of helping them doesn't fix anything.
+
+## High-Yield Points
+
+- DSM-5-TR: one diagnosis, 11 criteria, 4 domains (impaired control, social impairment, risky use, tolerance/withdrawal); 2–3 = mild, 4–5 = moderate, 6+ = severe.
+- "Abuse" and "dependence" are outdated DSM-IV terms; use "substance use disorder" plus severity.
+- Tolerance/withdrawal alone ≠ SUD — prescribed-medication dependence is not addiction; behavioral criteria are required.
+- Withdrawal from alcohol/benzodiazepines can be dangerous; monitoring follows provider orders and facility protocols.
+- Person-first language reduces stigma and improves engagement: "person with SUD," never "addict."
+- SUD is chronic and relapsing; relapse is part of the course, not a moral failure.
+- Dual diagnosis (SUD + another mental disorder) is common; integrated treatment is the standard.
+- Nurses screen with validated tools per policy; positive screens are assessed by qualified clinicians.
+- Suspected overdose or dangerous withdrawal = recognize and escalate (call for help, notify provider, follow facility policy).
+- Models of addiction (brain disease, social, choice) are debated frameworks, not settled facts — know them, don't preach them.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Substance use disorder | A problematic pattern of substance use causing impairment or distress (11 criteria, 4 domains) | The DSM-5-TR diagnosis; replaces "abuse" and "dependence" |
+| Tolerance | Needing more of a substance for the same effect | A physiological criterion — can occur with prescribed meds |
+| Withdrawal | Physical/psychological symptoms when use stops or drops | Can be dangerous; managed per provider orders and protocol |
+| Craving | Strong desire or urge to use | A criterion under impaired control |
+| Intoxication | Reversible substance-induced syndrome during or just after use | Can be a medical emergency; escalate per policy |
+| Dual diagnosis | Co-occurring SUD and another mental disorder | The rule rather than the exception; integrated treatment helps |
+| Person-first language | Referring to the person before the condition ("person with SUD") | Reduces stigma and improves engagement in care |
+| Screening | Brief validated tools (e.g., CAGE, AUDIT, DAST) per policy | Identifies risk for further assessment — not a diagnosis |
+| Harm reduction | Approaches that reduce harms of use without requiring abstinence | Policy-dependent; availability varies by jurisdiction and facility |
+| Remission | Specifier for improvement after a period without (or with only mild) symptoms | Reflects the chronic, relapsing course — improvement is possible |
+
+## Example
+
+Mr. K., 45, is admitted for elective surgery and completes an admission questionnaire. The nurse notices he answered "yes" to two CAGE questions (screening is part of the facility's standard admission process) and mentions drinking "a couple of glasses of whiskey" most evenings "to sleep." The nurse does not lecture or label. She documents his responses, discusses the positive screen with the provider, and the provider orders alcohol-withdrawal monitoring per facility protocol. The nurse then teaches Mr. K. why this matters (alcohol withdrawal can complicate surgery and recovery), uses his own words to explore his drinking without judgment ("it sounds like sleep has been hard — what's that been like?"), and mentions that support is available if he ever wants it. When Mr. K. becomes tremulous and anxious on day two, the nurse recognizes possible withdrawal, calls for help, notifies the provider, and follows the ordered protocol — no improvisation. The student learns the full nursing arc: screen per policy, report, teach, monitor per orders, escalate emergencies — all while keeping the relationship intact.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| "Abuse"/"dependence" (DSM-IV) | Substance use disorder (DSM-5-TR) | One unified diagnosis with severity levels replaced the old two-category system |
+| Tolerance/withdrawal | Substance use disorder | Physical adaptation can occur with prescribed meds; SUD requires behavioral criteria |
+| Intoxication | Overdose | Intoxication is use-related impairment; overdose is a potentially lethal toxic reaction — a medical emergency |
+| Relapse | Treatment failure | Relapse is a common part of a chronic, relapsing condition — treatment continues |
+| "Addict" (label) | "Person with substance use disorder" | Person-first language reduces stigma and is the professional standard |
+| SUD | Substance-induced disorder | Substance-induced mood/psychotic disorders are caused by intoxication or withdrawal and usually resolve with abstinence; SUD is the ongoing pattern of use |
+| Willpower model | Brain disease model | Both are frameworks; neither fully explains addiction — biopsychosocial models integrate biology, psychology, and environment |
+
+## Quick Review
+
+1. List the four domains of the DSM-5-TR substance use disorder criteria.
+2. How is severity graded, and how many criteria are required for a diagnosis?
+3. Why is it incorrect to call a patient with prescribed opioid dependence "addicted"?
+4. Name three things a nurse does when a client is suspected of overdose or dangerous withdrawal.
+5. What is dual diagnosis, and why does it matter?
+6. Why does person-first language count as a nursing intervention?
+
+<details>
+<summary>Show answers</summary>
+
+1. Impaired control, social impairment, risky use, and pharmacological criteria (tolerance and withdrawal).
+2. Two or more of the 11 criteria within 12 months = mild (2–3), moderate (4–5), severe (6+).
+3. Tolerance and withdrawal are physiological adaptations that can occur with medications taken as prescribed; SUD requires behavioral criteria such as impaired control or continued use despite harm.
+4. Recognize the warning signs, call for help immediately, notify the provider, and follow facility protocols — recognition and escalation, not independent management.
+5. Co-occurring SUD and another mental disorder; each worsens the other, so integrated treatment addressing both is the standard of care.
+6. Stigma is a documented barrier to treatment; person-first language reduces it, builds trust, and increases the likelihood the person will engage in care.
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter
+- Next: [Alcohol Use Disorder](02-alcohol-use-disorder.md)
+- Related: [Stimulant Use Disorders](03-stimulant-use-disorders.md) · [Opioid Use Disorder](04-opioid-use-disorder.md) · [Dealing with Addiction](05-dealing-with-addiction.md) · [Chapter 19 overview](../README.md)
+
+## Source Notes
+
+- Book: Psychiatric-Mental Health Nursing
+- Local outline source: `psychiatric-mental-health.md`
+- Official source URL: https://openstax.org/details/books/psychiatric-mental-health/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-16

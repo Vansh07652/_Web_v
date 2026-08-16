@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:clinical-mnemonics:pharmacology-electrolytes:idea",
+  "slug": "idea",
+  "title": "IDEA",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics"
+  },
+  "unit": {
+    "id": "unit:clinical-mnemonics:pharmacology-electrolytes",
+    "slug": "pharmacology-electrolytes",
+    "title": "Pharmacology & Electrolytes",
+    "order": 3
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "Lists four drugs that can raise the heart rate in symptomatic bradycardia — Isoproterenol, Dopamine, Epinephrine, Atropine — as a memory aid, NOT the ACLS treatment algorithm.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- **I** — Isoproterenol\n- **D** — Dopamine\n- **E** — Epinephrine\n- **A** — Atropine",
+    "collegeNotes": "**Status: current, with caveats.** The source library flags this one as still taught but qualified — read the safety notes on each component before relying on it.\n\nLists four drugs that can raise the heart rate in symptomatic bradycardia — Isoproterenol, Dopamine, Epinephrine, Atropine — as a memory aid, NOT the ACLS treatment algorithm.\n\n### I — Isoproterenol\n\nHistorical nonselective beta-agonist\n\nNonselective beta-agonist that increases rate and conduction but causes hypotension (peripheral vasodilation), increases myocardial oxygen demand, and is proarrhythmic; not in the current ACLS bradycardia algorithm.\n\n**Physiology.** Beta-1 stimulation increases SA/AV nodal automaticity and conduction; beta-2 stimulation dilates peripheral vessels, dropping blood pressure.\n\n**Safety.** Treat isoproterenol as historical for routine bradycardia; modern practice favors atropine, transcutaneous pacing, and epinephrine/dopamine.\n\n### D — Dopamine\n\nSecond-line infusion (5–20 mcg/kg/min)\n\nAccepted second-line agent for atropine-refractory symptomatic bradycardia, providing chronotropic and inotropic support while pacing is arranged.\n\n**Physiology.** Beta-1 stimulation increases heart rate and contractility; at higher doses alpha stimulation raises blood pressure via vasoconstriction.\n\n**Safety.** Infuse via pump; titrate to rate and BP; monitor for tachyarrhythmias and extravasation.\n\n### E — Epinephrine\n\nSecond-line infusion (2–10 mcg/min)\n\nThe other accepted second-line drug for atropine-refractory symptomatic bradycardia, increasing rate, contractility, and vascular tone while awaiting transcutaneous pacing.\n\n**Physiology.** Beta-1 (chronotropy/inotropy) and alpha (vasoconstriction) agonism supports both heart rate and blood pressure.\n\n**Safety.** Titrate carefully; watch for hypertension, tachyarrhythmias, and ischemia.\n\n### A — Atropine\n\nFirst-line drug (0.5 mg IV, max 3 mg)\n\nFirst-line drug for symptomatic bradycardia: 0.5 mg IV q3–5 min up to 3 mg (0.04 mg/kg); works best for vagally mediated rhythms (sinus bradycardia, first-degree, Mobitz I).\n\n**Physiology.** Blocks muscarinic (vagal) tone at the SA and AV nodes, increasing sinus rate and AV conduction.\n\n**Safety.** May worsen infranodal block (Mobitz II, third-degree); do not delay pacing for repeated atropine.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "- I = Isoproterenol\n- D = Dopamine\n- E = Epinephrine\n- A = Atropine",
+    "eli10": "A memory trick to remember the names of the 'speed-up-the-heart' medicines — but the letter order is not the do-this-first order.\n\n**I — Isoproterenol.** Isoproterenol is a 'gas pedal' drug that revs the heart, but it also makes the heart burn more fuel and skip dangerously, so doctors rarely use it now.\n\n**D — Dopamine.** Dopamine is a pump-booster medicine that, at higher doses, makes the heart beat faster and squeeze harder so blood pressure climbs.\n\n**E — Epinephrine.** Epinephrine (adrenaline) is the body's fight-or-flight medicine — it speeds the heart and squeezes vessels to raise blood pressure.\n\n**A — Atropine.** Atropine releases the vagus 'brake' on the heart so it can speed up — it's the quick first step.",
+    "quickReview": "- I = Isoproterenol — Historical nonselective beta-agonist\n- D = Dopamine — Second-line infusion (5–20 mcg/kg/min)\n- E = Epinephrine — Second-line infusion (2–10 mcg/min)\n- A = Atropine — First-line drug (0.5 mg IV, max 3 mg)",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Guidelines for CPR and Emergency Cardiovascular Care — American Heart Association — 2020",
+        "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "idea",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-nursing-mnemonics",
+    "sourceFile": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json",
+    "sourceStatus": "CURRENT_WITH_CAVEATS",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-clinical-mnemonics"
+  },
+  "sourceSnapshotMarkdown": ""
+}

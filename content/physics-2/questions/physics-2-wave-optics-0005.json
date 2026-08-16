@@ -1,0 +1,39 @@
+{
+  "id": "physics-2-wave-optics-0005",
+  "subject": "physics-2",
+  "lesson": "wave-optics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For intensity distribution qualitatively, use $Delta r = m lambda$ in a interference path difference model. The first quantity is 3.75 dimensionless and the second is 0.50 m. What is the path difference?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$0.94\\ \\text{m}$"
+    },
+    {
+      "id": "b",
+      "text": "$1.88\\ \\text{m}$"
+    },
+    {
+      "id": "c",
+      "text": "$3.75\\ \\text{m}$"
+    },
+    {
+      "id": "d",
+      "text": "$2.34\\ \\text{m}$"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Using $Delta r = m lambda$ gives 3.75 dimensionless times 0.50 m = $1.88\\ \\text{m}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to m, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "intensity",
+    "distribution",
+    "qualitatively"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-0ce9c49c8559f911",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

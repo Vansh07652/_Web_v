@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-1:nervous-system-and-special-senses:resting-and-action-potential",
+  "slug": "resting-and-action-potential",
+  "title": "Resting Membrane Potential and Action Potential",
+  "subject": {
+    "id": "subject:anatomy-physiology-1",
+    "slug": "anatomy-physiology-1",
+    "title": "Anatomy & Physiology I"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-1:nervous-system-and-special-senses",
+    "slug": "nervous-system-and-special-senses",
+    "title": "Nervous System and Special Senses",
+    "order": 8
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "This section explains the electrical signaling of neurons: the **resting membrane potential**, the **action potential** (depolarization and repolarization), how it **propagates** along an axon, and how **myelin** speeds conduction.",
+    "whyItMatters": "The action potential is *the* nerve signal — the basis of every sensation, thought, and movement, and of the heartbeat. Understanding the ion movements behind it explains how anesthetics, many drugs, and electrolyte imbalances affect the nervous system and heart.",
+    "learningObjectives": "- Explain the **resting membrane potential** and its ionic basis.\n- Describe the phases of an **action potential**.\n- Explain how the action potential **propagates**.\n- Explain how **myelin** enables **saltatory conduction**.",
+    "keyTerms": "- **Membrane potential** — the voltage difference across a cell membrane.\n- **Resting membrane potential** — the baseline voltage (~−70 mV) of a resting neuron.\n- **Depolarization** — the membrane becoming less negative (toward positive).\n- **Repolarization** — the return toward the resting negative value.\n- **Action potential** — a rapid, self-propagating electrical impulse along an axon.\n- **Threshold** — the level of depolarization that triggers an action potential.\n- **Saltatory conduction** — impulse \"jumping\" between gaps in myelin.",
+    "collegeNotes": "**The resting membrane potential.** A resting neuron is electrically **polarized**: the inside is about **−70 millivolts (mV)** relative to the outside. This is set up by two things introduced earlier: the **sodium–potassium pump** (which keeps sodium (Na⁺) high outside and potassium (K⁺) high inside) and the membrane's greater leakiness to K⁺. The result is a charged, \"ready\" membrane — like a loaded spring waiting to fire.\n\n**The action potential.** When a stimulus depolarizes the membrane to a critical **threshold**, voltage-gated channels open and a rapid, all-or-nothing electrical event — the **action potential** — sweeps down the axon. Its phases:\n\n1. **Resting state:** membrane at −70 mV; channels closed.\n2. **Depolarization:** at threshold, **sodium channels open** and Na⁺ rushes **in**, making the inside rapidly **less negative and then positive** (a spike toward about +30 mV).\n3. **Repolarization:** sodium channels close and **potassium channels open**, so K⁺ flows **out**, returning the inside toward negative.\n4. **Return to rest:** a brief overshoot (hyperpolarization) settles back to −70 mV; the sodium–potassium pump restores the original ion distribution.\n\nTwo key properties: the action potential is **all-or-none** (it either reaches threshold and fires fully, or it doesn't), and a brief **refractory period** afterward prevents the signal from running backward and sets a maximum firing rate.\n\n**Propagation.** An action potential is **self-propagating**: the depolarization at one spot triggers the next patch of membrane to reach threshold, and so on down the axon — like a row of dominoes or a lit fuse. This one-way wave carries the signal from the cell body to the axon terminals.\n\n**Myelin and saltatory conduction.** In myelinated axons, the insulating **myelin** forces the action potential to regenerate only at the **gaps** between myelin segments (nodes). The impulse therefore appears to **jump** from gap to gap — **saltatory conduction** (from Latin *saltare*, \"to leap\") — which is far faster and more energy-efficient than continuous conduction along an unmyelinated axon. This is why myelin loss (as in multiple sclerosis) slows signals so dramatically.",
+    "howItWorks": "The signal in sequence:\n\n```\nRest (−70 mV) → stimulus reaches threshold\n   → Na⁺ channels open → Na⁺ in → DEPOLARIZATION (spike to ~+30 mV)\n   → Na⁺ channels close, K⁺ channels open → K⁺ out → REPOLARIZATION\n   → brief hyperpolarization → Na⁺/K⁺ pump restores rest\nSignal propagates down the axon (jumping node to node if myelinated)\n```",
+    "comparisons": "| Phase | Ion movement | Membrane change |\n| --- | --- | --- |\n| Resting | Pump maintains gradients | −70 mV |\n| Depolarization | Na⁺ in | Toward positive |\n| Repolarization | K⁺ out | Back toward negative |\n| Recovery | Pump restores ions | Rest restored |\n\n| Feature | Effect |\n| --- | --- |\n| All-or-none | Fires fully or not at all |\n| Threshold | Trigger point for firing |\n| Refractory period | Ensures one-way, sets max rate |\n| Myelin (saltatory) | Faster, efficient conduction |",
+    "highYield": "**Local anesthetics** (like lidocaine) work by blocking sodium channels, preventing depolarization and thus pain signals. **Electrolyte imbalances** — especially potassium and sodium — alter membrane potentials and can cause dangerous nerve and cardiac effects (the heart uses the same principles). **Demyelinating diseases** slow conduction. Understanding action potentials underlies the ECG, nerve conduction studies, and why oxygen and ion balance are critical for brain and heart function.",
+    "commonConfusions": "- **Depolarization vs repolarization.** Depolarization = becoming less negative (Na⁺ in); repolarization = returning to negative (K⁺ out).\n- **Resting potential is negative inside** (~−70 mV), maintained by the Na⁺/K⁺ pump.\n- **All-or-none.** Stronger stimuli don't make a bigger action potential; they make them fire *more often*.\n- **Saltatory conduction \"jumps\" at nodes** — myelin doesn't slow the signal; it speeds it.",
+    "memoryAids": "- **\"Depolarize = Na⁺ Dashes in; Repolarize = K⁺ Kicks out.\"**\n- **Resting = \"−70, negative and ready.\"**\n- **Saltatory = \"salt/leap — the signal jumps.\"**",
+    "eli10": "### Simple idea\nA neuron sends a message as a tiny electrical spark that races down its long arm, and insulation makes the spark leap ahead so it travels super fast.\n\n### Analogy\nThink of a neuron at rest like a row of dominoes standing up, with the inside of the cell holding a slightly negative \"charge,\" ready to go. When a signal pushes hard enough (reaching **threshold**), the first domino tips — positive **sodium** particles rush *in*, flipping the charge (**depolarization**) — and that tips the next domino, and the next, all the way down the line (**propagation**). Right behind, the neuron resets itself by letting **potassium** particles out (**repolarization**), standing the dominoes back up. If the axon is wrapped in insulating tape (**myelin**) with little gaps, the spark **leaps from gap to gap** instead of crawling, which is much faster.\n\n### What is actually happening\nThis traveling spark is the **action potential**, the actual nerve signal behind everything you feel, think, and do. It's **all-or-none** — like a domino, it either fully tips or doesn't. The leaping is called **saltatory conduction**, and it's why healthy, myelinated nerves are so fast — and why losing myelin (in **multiple sclerosis**) makes signals slow and clumsy. This is also why numbing medicines work: they block the **sodium** doorways so the dominoes can't tip, and pain signals never get through.\n\n### Where the analogy stops\nDominoes have to be stood back up by hand, but a neuron resets *itself* in a fraction of a second and can fire again and again, hundreds of times per second — no one needs to reset the row.",
+    "quickReview": "- A resting neuron sits at about **−70 mV** (inside negative), maintained by the **Na⁺/K⁺ pump**.\n- An **action potential**: reaching **threshold** opens Na⁺ channels (**depolarization**, Na⁺ in), then K⁺ channels (**repolarization**, K⁺ out); it is **all-or-none** with a **refractory period**.\n- The impulse **self-propagates** one-way down the axon.\n- **Myelin** enables **saltatory conduction** (the signal jumps node to node), greatly increasing speed; anesthetics and electrolyte imbalances act on these ion movements.",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 12.4: The Action Potential. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — Neurologic Diseases. https://medlineplus.gov/neurologicdiseases.html",
+        "url": "https://medlineplus.gov/neurologicdiseases.html"
+      }
+    ]
+  },
+  "aliases": [
+    {
+      "value": "resting-and-action-potential",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "ap1-u08-s03",
+      "kind": "source_topic_id",
+      "source_id": "prenursing_notes"
+    },
+    {
+      "value": "03-resting-and-action-potential",
+      "kind": "source_file_stem",
+      "source_id": "prenursing_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:prenursing_notes:676492d85214bbf6",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:676492d85214bbf6",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/03-resting-and-action-potential.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:prenursing_notes:676492d85214bbf6",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:676492d85214bbf6",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/03-resting-and-action-potential.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:prenursing_notes:676492d85214bbf6",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:676492d85214bbf6",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/03-resting-and-action-potential.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:prenursing_notes:676492d85214bbf6",
+        "sourceReference": {
+          "id": "source-ref:prenursing_notes:676492d85214bbf6",
+          "source_id": "prenursing_notes",
+          "path": "content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/03-resting-and-action-potential.md",
+          "fields": [
+            "college_notes",
+            "eli10",
+            "high_yield",
+            "quick_review",
+            "references"
+          ],
+          "authority": "authoritative",
+          "note": "One Markdown file owns all listed teaching layers.",
+          "use_count": 4
+        }
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "pre-nursing-study-hub-content",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/01-anatomy-physiology-i/08-nervous-system-and-special-senses/03-resting-and-action-potential.md",
+    "sourceStatus": "final",
+    "factChecked": true,
+    "coverageChecked": true,
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "\n# Resting Membrane Potential and Action Potential\n\n## What This Topic Is\n\nThis section explains the electrical signaling of neurons: the **resting membrane potential**, the **action potential** (depolarization and repolarization), how it **propagates** along an axon, and how **myelin** speeds conduction.\n\n## Why It Matters\n\nThe action potential is *the* nerve signal — the basis of every sensation, thought, and movement, and of the heartbeat. Understanding the ion movements behind it explains how anesthetics, many drugs, and electrolyte imbalances affect the nervous system and heart.\n\n## Learning Objectives\n\n- Explain the **resting membrane potential** and its ionic basis.\n- Describe the phases of an **action potential**.\n- Explain how the action potential **propagates**.\n- Explain how **myelin** enables **saltatory conduction**.\n\n## Key Terms\n\n- **Membrane potential** — the voltage difference across a cell membrane.\n- **Resting membrane potential** — the baseline voltage (~−70 mV) of a resting neuron.\n- **Depolarization** — the membrane becoming less negative (toward positive).\n- **Repolarization** — the return toward the resting negative value.\n- **Action potential** — a rapid, self-propagating electrical impulse along an axon.\n- **Threshold** — the level of depolarization that triggers an action potential.\n- **Saltatory conduction** — impulse \"jumping\" between gaps in myelin.\n\n## Core Explanation\n\n**The resting membrane potential.** A resting neuron is electrically **polarized**: the inside is about **−70 millivolts (mV)** relative to the outside. This is set up by two things introduced earlier: the **sodium–potassium pump** (which keeps sodium (Na⁺) high outside and potassium (K⁺) high inside) and the membrane's greater leakiness to K⁺. The result is a charged, \"ready\" membrane — like a loaded spring waiting to fire.\n\n**The action potential.** When a stimulus depolarizes the membrane to a critical **threshold**, voltage-gated channels open and a rapid, all-or-nothing electrical event — the **action potential** — sweeps down the axon. Its phases:\n\n1. **Resting state:** membrane at −70 mV; channels closed.\n2. **Depolarization:** at threshold, **sodium channels open** and Na⁺ rushes **in**, making the inside rapidly **less negative and then positive** (a spike toward about +30 mV).\n3. **Repolarization:** sodium channels close and **potassium channels open**, so K⁺ flows **out**, returning the inside toward negative.\n4. **Return to rest:** a brief overshoot (hyperpolarization) settles back to −70 mV; the sodium–potassium pump restores the original ion distribution.\n\nTwo key properties: the action potential is **all-or-none** (it either reaches threshold and fires fully, or it doesn't), and a brief **refractory period** afterward prevents the signal from running backward and sets a maximum firing rate.\n\n**Propagation.** An action potential is **self-propagating**: the depolarization at one spot triggers the next patch of membrane to reach threshold, and so on down the axon — like a row of dominoes or a lit fuse. This one-way wave carries the signal from the cell body to the axon terminals.\n\n**Myelin and saltatory conduction.** In myelinated axons, the insulating **myelin** forces the action potential to regenerate only at the **gaps** between myelin segments (nodes). The impulse therefore appears to **jump** from gap to gap — **saltatory conduction** (from Latin *saltare*, \"to leap\") — which is far faster and more energy-efficient than continuous conduction along an unmyelinated axon. This is why myelin loss (as in multiple sclerosis) slows signals so dramatically.\n\n## How It Works\n\nThe signal in sequence:\n\n```\nRest (−70 mV) → stimulus reaches threshold\n   → Na⁺ channels open → Na⁺ in → DEPOLARIZATION (spike to ~+30 mV)\n   → Na⁺ channels close, K⁺ channels open → K⁺ out → REPOLARIZATION\n   → brief hyperpolarization → Na⁺/K⁺ pump restores rest\nSignal propagates down the axon (jumping node to node if myelinated)\n```\n\n## Important Relationships and Comparisons\n\n| Phase | Ion movement | Membrane change |\n| --- | --- | --- |\n| Resting | Pump maintains gradients | −70 mV |\n| Depolarization | Na⁺ in | Toward positive |\n| Repolarization | K⁺ out | Back toward negative |\n| Recovery | Pump restores ions | Rest restored |\n\n| Feature | Effect |\n| --- | --- |\n| All-or-none | Fires fully or not at all |\n| Threshold | Trigger point for firing |\n| Refractory period | Ensures one-way, sets max rate |\n| Myelin (saltatory) | Faster, efficient conduction |\n\n## High-Yield Pre-Nursing Connections\n\n**Local anesthetics** (like lidocaine) work by blocking sodium channels, preventing depolarization and thus pain signals. **Electrolyte imbalances** — especially potassium and sodium — alter membrane potentials and can cause dangerous nerve and cardiac effects (the heart uses the same principles). **Demyelinating diseases** slow conduction. Understanding action potentials underlies the ECG, nerve conduction studies, and why oxygen and ion balance are critical for brain and heart function.\n\n## Common Confusions\n\n- **Depolarization vs repolarization.** Depolarization = becoming less negative (Na⁺ in); repolarization = returning to negative (K⁺ out).\n- **Resting potential is negative inside** (~−70 mV), maintained by the Na⁺/K⁺ pump.\n- **All-or-none.** Stronger stimuli don't make a bigger action potential; they make them fire *more often*.\n- **Saltatory conduction \"jumps\" at nodes** — myelin doesn't slow the signal; it speeds it.\n\n## Memory Aids\n\n- **\"Depolarize = Na⁺ Dashes in; Repolarize = K⁺ Kicks out.\"**\n- **Resting = \"−70, negative and ready.\"**\n- **Saltatory = \"salt/leap — the signal jumps.\"**\n\n## ELI-10 Explains\n\n### Simple idea\nA neuron sends a message as a tiny electrical spark that races down its long arm, and insulation makes the spark leap ahead so it travels super fast.\n\n### Analogy\nThink of a neuron at rest like a row of dominoes standing up, with the inside of the cell holding a slightly negative \"charge,\" ready to go. When a signal pushes hard enough (reaching **threshold**), the first domino tips — positive **sodium** particles rush *in*, flipping the charge (**depolarization**) — and that tips the next domino, and the next, all the way down the line (**propagation**). Right behind, the neuron resets itself by letting **potassium** particles out (**repolarization**), standing the dominoes back up. If the axon is wrapped in insulating tape (**myelin**) with little gaps, the spark **leaps from gap to gap** instead of crawling, which is much faster.\n\n### What is actually happening\nThis traveling spark is the **action potential**, the actual nerve signal behind everything you feel, think, and do. It's **all-or-none** — like a domino, it either fully tips or doesn't. The leaping is called **saltatory conduction**, and it's why healthy, myelinated nerves are so fast — and why losing myelin (in **multiple sclerosis**) makes signals slow and clumsy. This is also why numbing medicines work: they block the **sodium** doorways so the dominoes can't tip, and pain signals never get through.\n\n### Where the analogy stops\nDominoes have to be stood back up by hand, but a neuron resets *itself* in a fraction of a second and can fire again and again, hundreds of times per second — no one needs to reset the row.\n\n## Quick Recap\n\n- A resting neuron sits at about **−70 mV** (inside negative), maintained by the **Na⁺/K⁺ pump**.\n- An **action potential**: reaching **threshold** opens Na⁺ channels (**depolarization**, Na⁺ in), then K⁺ channels (**repolarization**, K⁺ out); it is **all-or-none** with a **refractory period**.\n- The impulse **self-propagates** one-way down the axon.\n- **Myelin** enables **saltatory conduction** (the signal jumps node to node), greatly increasing speed; anesthetics and electrolyte imbalances act on these ion movements.\n\n## Sources\n\n- OpenStax, *Anatomy and Physiology 2e*, Chapter 12.4: The Action Potential. https://openstax.org/details/books/anatomy-and-physiology-2e\n- U.S. National Library of Medicine, MedlinePlus — Neurologic Diseases. https://medlineplus.gov/neurologicdiseases.html\n"
+}

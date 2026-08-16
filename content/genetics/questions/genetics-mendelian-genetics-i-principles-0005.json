@@ -1,0 +1,41 @@
+{
+  "id": "genetics-mendelian-genetics-i-principles-0005",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-i-principles",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation A test cross of a dominant phenotype plant is expected to give a 1:1 ratio (sums to 2) of dominant to recessive offspring. Among 100 offspring, 55 show the dominant phenotype and 45 show the recessive phenotype. What is the chi square value for goodness of fit?",
+  "options": [
+    {
+      "id": "a",
+      "text": "0.25"
+    },
+    {
+      "id": "b",
+      "text": "0.50"
+    },
+    {
+      "id": "c",
+      "text": "2.00"
+    },
+    {
+      "id": "d",
+      "text": "1.00"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "The expected count is 1/2 x 100 = 50 in each class, and each class contributes (observed - expected) squared divided by expected, so chi square = 25/50 + 25/50 = 0.5 + 0.5 = 1.00. A divides the squared deviation by the total 100 instead of the expected 50, B keeps only one class's contribution, and C squares the summed deviations 5 + 5 = 10, giving 100/50 = 2.00.",
+  "difficulty": "unknown",
+  "tags": [
+    "chi",
+    "square",
+    "goodness",
+    "fit",
+    "value"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-a9c23a294d5c5fc1",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

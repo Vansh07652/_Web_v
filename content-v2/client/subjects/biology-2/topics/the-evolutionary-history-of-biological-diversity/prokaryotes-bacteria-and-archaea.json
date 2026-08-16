@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-2:the-evolutionary-history-of-biological-diversity:prokaryotes-bacteria-and-archaea",
+  "slug": "prokaryotes-bacteria-and-archaea",
+  "title": "Prokaryotes: Bacteria and Archaea",
+  "subject": {
+    "id": "subject:biology-2",
+    "slug": "biology-2",
+    "title": "Biology II"
+  },
+  "unit": {
+    "id": "unit:biology-2:the-evolutionary-history-of-biological-diversity",
+    "slug": "the-evolutionary-history-of-biological-diversity",
+    "title": "The Evolutionary History of Biological Diversity",
+    "order": 2
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "Prokaryotes are single-celled organisms without a nucleus or membrane-bound organelles, and they make up two of the three domains of life: Bacteria and Archaea. They are the most abundant and metabolically diverse organisms on Earth, obtaining energy and carbon in far more ways than any eukaryote. Although they reproduce by simple binary fission, they rapidly share genes through horizontal gene transfer—transformation, transduction, and conjugation—which drives their fast evolution and the spread of antibiotic resistance. Ecologically, they decompose organic matter, fix nitrogen, produce oxygen, and form essential symbioses with plants and animals.",
+    "whyItMatters": "The Gram stain remains a first-line clinical tool: knowing whether an infection is Gram-positive or Gram-negative helps clinicians choose an antibiotic before full lab results arrive, because the outer membrane makes Gram-negative bacteria generally harder to treat. Horizontal gene transfer is the reason antibiotic resistance spreads so quickly through hospitals—a single resistant strain can hand its resistance genes to many other species. On the beneficial side, the human microbiome supports digestion, vitamin production, and immune training, and prokaryotes power wastewater treatment, bioremediation of oil spills, and industrial nitrogen fixation that underpins agriculture.",
+    "learningObjectives": "By the end of this topic, you should be able to:\n\n1. Distinguish the domains Bacteria and Archaea and explain why they are classified separately.\n2. Describe prokaryotic structure: cell shapes, cell walls (including the Gram stain), and motility.\n3. Compare the major modes of prokaryotic nutrition and energy acquisition.\n4. Explain binary fission and the three mechanisms of horizontal gene transfer.\n5. Describe the ecological importance of prokaryotes in decomposition, nitrogen fixation, and symbiosis.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Prokaryote | A cell with no nucleus or membrane-bound organelles | Defines Bacteria and Archaea |\n| Peptidoglycan | Sugar–amino-acid polymer in bacterial cell walls | Target of penicillin; distinguishes Bacteria |\n| Gram stain | Test separating thick-walled from thin-walled bacteria | Guides antibiotic choice in the clinic |\n| Binary fission | Asexual division into two identical daughter cells | How prokaryotes reproduce |\n| Horizontal gene transfer | Moving DNA between organisms, not parent to offspring | Drives fast evolution and resistance |\n| Transformation | Taking up free DNA from the environment | One route of gene sharing |\n| Transduction | DNA transfer carried out by a virus | Links viruses to bacterial evolution |\n| Conjugation | Direct DNA transfer through cell-to-cell contact | Main route for spreading resistance plasmids |\n| Nitrogen fixation | Converting atmospheric N₂ into usable ammonia | Sustains plant growth and food webs |\n| Microbiome | The community of microbes living in and on a host | Affects digestion, immunity, and health |",
+    "collegeNotes": "### 1. Two Domains, Distinct by Chemistry\n\nCarl Woese's ribosomal-RNA work split the old \"bacteria\" into two domains. Bacteria have peptidoglycan in their cell walls and ester-linked membrane lipids; Archaea lack peptidoglycan and use ether-linked lipids, with gene-expression machinery more like eukaryotes. Archaea are famous for extremophiles (heat-, salt-, and acid-lovers) and methanogens, but most archaea live in ordinary soils, oceans, and even the human body—\"archaea\" does not mean \"extremophile.\"\n\n### 2. Structure, Reproduction, and Genetic Exchange\n\nProkaryotes come in several shapes—cocci (spheres), bacilli (rods), and spirals—and move using rotating flagella. The Gram stain sorts Bacteria by wall structure: Gram-positive cells have a thick peptidoglycan layer (stain purple); Gram-negative cells have a thin peptidoglycan layer plus an outer membrane containing lipopolysaccharide (stain pink). Some species make protective capsules or tough, dormant endospores. They reproduce asexually by binary fission, but generate diversity through horizontal gene transfer: transformation (uptake of free DNA), transduction (DNA delivered by a virus), and conjugation (direct transfer, often of plasmids carrying antibiotic-resistance genes).\n\n### 3. Metabolism and Ecology\n\nProkaryotes show the broadest metabolic range in biology, classified by energy source (light or chemicals) and carbon source (CO₂ or organic compounds): photoautotrophs, chemoautotrophs, photoheterotrophs, and chemoheterotrophs. They also vary in oxygen use, from obligate aerobes to obligate anaerobes. Ecologically they are indispensable—decomposing dead matter, fixing atmospheric nitrogen into usable ammonia, performing photosynthesis (cyanobacteria oxygenated Earth's atmosphere), and forming mutualisms such as the human microbiome, which aids digestion, makes vitamins, and helps exclude pathogens.",
+    "howItWorks": "How antibiotic resistance spreads through a bacterial population:\n\n1. A mutation or an acquired gene makes one bacterium resistant to an antibiotic.\n2. That bacterium survives while sensitive neighbors die.\n3. The resistance gene, often on a plasmid, is copied during binary fission—vertical spread to descendants.\n4. Through conjugation, the plasmid is passed directly to other bacteria, even different species—horizontal spread.\n5. Transduction and transformation move the gene still further, without cell contact.\n6. The resistant population expands, making the drug less effective against future infections.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Bacteria and Archaea are separate domains; Archaea are not simply \"extremophile bacteria.\"\n- Gram-positive = thick peptidoglycan (purple); Gram-negative = thin peptidoglycan plus outer membrane with lipopolysaccharide (pink).\n- **High yield:** Horizontal gene transfer—transformation, transduction, and conjugation—drives rapid evolution and the spread of antibiotic resistance.\n- Prokaryotic metabolic diversity far exceeds that of eukaryotes; every combination of energy and carbon source exists.\n- Cyanobacteria were the first oxygen-producing photosynthesizers and transformed Earth's atmosphere.\n- Only prokaryotes (and a few archaea) fix atmospheric nitrogen, which all ecosystems depend on.\n- Binary fission is asexual, but gene transfer means prokaryotic populations are not simple clones.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Archaea | Bacteria | Different membrane lipids, no peptidoglycan, eukaryote-like machinery |\n| Gram-positive | Gram-negative | Thick peptidoglycan vs. thin layer plus outer membrane |\n| Transformation | Transduction | Free DNA uptake vs. virus-delivered DNA |\n| Conjugation | Binary fission | Gene sharing between cells vs. cell division into two |\n| Chemoautotroph | Chemoheterotroph | Uses CO₂ for carbon vs. organic compounds for carbon |\n| Antibiotic | Antiviral | Targets bacteria vs. targets viruses |",
+    "memoryAids": "Remember the three ways prokaryotes trade DNA with the first letters of **\"T.T.C.\"**—**T**ransformation (taking in loose DNA), **T**ransduction (a virus **t**axis it over), and **C**onjugation (cell-to-**c**ell contact). And recall Gram staining by \"**P**ositive = **P**urple, **N**egative = pi**n**k.\"",
+    "eli10": "Bacteria and their cousins the archaea are the tiniest and most successful living things on Earth. They have been here for more than 3 billion years and live everywhere—in soil, in the ocean, and all over your body, especially in your gut, where they help you digest food. Unlike plant and animal cells, they have no nucleus; their DNA just floats around inside. They can eat almost anything: some use sunlight like plants, some use chemicals from rocks, and some break down dead material. They even swap genes with each other like trading cards, which is how they learn to resist antibiotics so quickly.\n\nThe comparison stops being exact because \"trading cards\" suggests deliberate exchange, while gene transfer in prokaryotes is unplanned and mechanical—DNA simply gets picked up, carried by a virus, or passed through a tube. Also, unlike cards, swapped genes can become a permanent part of the recipient and be passed to its offspring.\n\nThe real biological meaning is that prokaryotes are not \"primitive\" simply because they are small—they are the metabolic workhorses of the planet, and without them dead matter would never rot and plants could not get the nitrogen they need to grow.\n\n### Simple Example\n\nThe yogurt in your fridge is milk that bacteria have thickened; the same bacterial trick—turning sugars into acid—is happening right now in your own gut by the trillions.",
+    "quickReview": "### Topic Recap\n\n- Bacteria and Archaea are two domains; both are prokaryotes (no nucleus, no organelles).\n- Gram staining and cell-wall chemistry distinguish major bacterial groups and guide treatment.\n- Binary fission is asexual; transformation, transduction, and conjugation generate diversity.\n- Prokaryotes show the widest metabolic range of any organisms.\n- Their ecological roles—decomposition, nitrogen fixation, photosynthesis, and symbiosis—are essential to the biosphere.\n\n### Knowledge Check\n\n1. Why are Gram-negative bacteria generally more resistant to antibiotics than Gram-positive bacteria?\n2. How does horizontal gene transfer accelerate the spread of antibiotic resistance compared with mutation alone?\n3. Why is nitrogen fixation by prokaryotes essential for life even though most organisms cannot perform it themselves?\n4. Why is it incorrect to say all archaea are extremophiles?\n\n### Answers and Rationales\n\n1. Their outer membrane acts as an extra permeability barrier and often contains efflux pumps that expel drugs; it also shields the thin peptidoglycan layer from drugs such as penicillin that target it.\n2. Mutation creates resistance in one cell and passes it only to that cell's descendants. Conjugation and transduction can spread a resistance gene to many cells—including other species—within a single generation.\n3. Only certain prokaryotes have nitrogenase to break the strong N₂ triple bond and make ammonia. Without them, bioavailable nitrogen would be depleted, limiting plant growth and nearly all food webs.\n4. Extremophiles are well studied, but archaea are also abundant in ordinary soils, oceans, and the human body; most archaeal diversity is found in moderate environments.",
+    "workedExamples": "",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": false,
+    "exactQuestions": 12
+  },
+  "aliases": [
+    {
+      "value": "prokaryotes-bacteria-and-archaea",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "06-prokaryotes-bacteria-and-archaea",
+      "kind": "source_file_stem",
+      "source_id": "need-review-biology-2"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-biology-2",
+    "sourceFile": "biology-2-study-notes/docs/biology-2/06-prokaryotes-bacteria-and-archaea.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

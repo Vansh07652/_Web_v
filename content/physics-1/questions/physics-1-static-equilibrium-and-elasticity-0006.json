@@ -1,0 +1,39 @@
+{
+  "id": "physics-1-static-equilibrium-and-elasticity-0006",
+  "subject": "physics-1",
+  "lesson": "static-equilibrium-and-elasticity",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For stress and strain definitions, use $tau = r F$ in a perpendicular lever arm model. The first quantity is 27.00 N and the second is 0.50 m. What is the torque magnitude?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$6.75\\ \\text{N m}$"
+    },
+    {
+      "id": "b",
+      "text": "$27.00\\ \\text{N m}$"
+    },
+    {
+      "id": "c",
+      "text": "$13.50\\ \\text{N m}$"
+    },
+    {
+      "id": "d",
+      "text": "$14.00\\ \\text{N m}$"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Using $tau = r F$ gives 27.00 N times 0.50 m = $13.50\\ \\text{N m}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to N m, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "stress",
+    "strain",
+    "definitions"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-450fb56868823afc",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

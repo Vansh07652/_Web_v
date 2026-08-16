@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:acid-base-equilibria:ph-and-poh",
+  "slug": "ph-and-poh",
+  "title": "The pH and pOH Scales",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:acid-base-equilibria",
+    "slug": "acid-base-equilibria",
+    "title": "Acid Base Equilibria",
+    "order": 5
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "Because [H₃O⁺] in water spans many orders of magnitude (from ~10⁰ M in strong acid to ~10⁻¹⁴ M in strong base), chemists compress it onto a log scale. **pH = −log[H₃O⁺]** and **pOH = −log[OH⁻]**. The \"p\" means \"negative base-10 logarithm,\" so every unit step on the pH scale corresponds to a *factor of ten* in acidity. At 25 °C the two scales are tied together by pH + pOH = 14.00, a direct consequence of Kw.",
+    "whyItMatters": "The pH scale is the everyday language of chemistry, medicine, and environmental science: blood (pH 7.35–7.45), gastric juice (~1–2), and acid rain (below ~5.6) are all reported in pH. Understanding the log scale — not just memorizing \"7 is neutral\" — is what lets you judge *how much* more acidic one solution is than another, a skill that matters for dosing, buffer design, and reading lab results.",
+    "learningObjectives": "- Define pH and pOH in terms of logarithms.\n- Convert between [H₃O⁺], [OH⁻], pH, and pOH.\n- Explain why a one-unit pH change is a ten-fold change in [H₃O⁺].\n- Use pH + pOH = 14.00 (at 25 °C) and its temperature caveat.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nBecause [H₃O⁺] in water spans many orders of magnitude (from ~10⁰ M in strong acid to ~10⁻¹⁴ M in strong base), chemists compress it onto a log scale. **pH = −log[H₃O⁺]** and **pOH = −log[OH⁻]**. The \"p\" means \"negative base-10 logarithm,\" so every unit step on the pH scale corresponds to a *factor of ten* in acidity. At 25 °C the two scales are tied together by pH + pOH = 14.00, a direct consequence of Kw.\n\n### Key Ideas\n\n- **pH = −log[H₃O⁺]** and **pOH = −log[OH⁻]**; both are unitless.\n- **Logarithmic scale:** pH 3 is ten times more acidic than pH 4, and 100 times more acidic than pH 5.\n- **The 25 °C rule:** pH + pOH = 14.00; derived by taking −log of both sides of Kw.\n- **Inverse logs:** [H₃O⁺] = 10^(−pH) and [OH⁻] = 10^(−pOH).\n- **Acid–base–neutral boundaries (25 °C):** acidic pH < 7, neutral pH = 7, basic pH > 7.\n- **Significant figures in logs:** the number of decimal places in pH equals the number of significant figures in the concentration (the integer part just locates the decimal point).\n\n### Equations and Variables\n\n- pH = −log[H₃O⁺]\n- pOH = −log[OH⁻]\n- [H₃O⁺] = 10^(−pH)\n- [OH⁻] = 10^(−pOH)\n- pH + pOH = 14.00 (25 °C)\n- pKw = pH + pOH (general, any temperature)\n\n### How It Works\n\n1. Take any [H₃O⁺], such as 2.5 × 10⁻⁴ M.\n2. Compute its negative logarithm: pH = −log(2.5 × 10⁻⁴) = 3.60.\n3. To go backward, raise 10 to the negative power: [H₃O⁺] = 10^(−3.60) = 2.5 × 10⁻⁴ M.\n4. Because Kw fixes [OH⁻] = Kw/[H₃O⁺], taking logs of Kw gives pH + pOH = pKw = 14.00 at 25 °C — so once you have pH, pOH is just 14.00 − pH.\n5. The sign convention (the minus) makes *smaller* pH mean *more* acidic, which is the number line students actually use.\n\n### Worked Example\n\n**A soft drink has [H₃O⁺] = 3.2 × 10⁻³ M. Find its pH and pOH, and classify it.**\n\npH = −log(3.2 × 10⁻³) = 2.49\n\npOH = 14.00 − 2.49 = 11.51\n\nBecause pH (2.49) < 7, the drink is acidic. As a check, [OH⁻] = 10^(−11.51) = 3.1 × 10⁻¹² M, and (3.2 × 10⁻³)(3.1 × 10⁻¹²) ≈ 1.0 × 10⁻¹⁴ ✓.",
+    "howItWorks": "1. Take any [H₃O⁺], such as 2.5 × 10⁻⁴ M.\n2. Compute its negative logarithm: pH = −log(2.5 × 10⁻⁴) = 3.60.\n3. To go backward, raise 10 to the negative power: [H₃O⁺] = 10^(−3.60) = 2.5 × 10⁻⁴ M.\n4. Because Kw fixes [OH⁻] = Kw/[H₃O⁺], taking logs of Kw gives pH + pOH = pKw = 14.00 at 25 °C — so once you have pH, pOH is just 14.00 − pH.\n5. The sign convention (the minus) makes *smaller* pH mean *more* acidic, which is the number line students actually use.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- pH = −log[H₃O⁺]; pOH = −log[OH⁻].\n- pH + pOH = 14.00 at 25 °C only (general form pH + pOH = pKw).\n- One pH unit = ten-fold change in [H₃O⁺]; two units = hundred-fold.\n- [H₃O⁺] = 10^(−pH); [OH⁻] = 10^(−pOH).\n- pH < 7 acidic, = 7 neutral, > 7 basic (25 °C).\n- A pH with two decimal places corresponds to a concentration with two significant figures.",
+    "commonConfusions": "- **\"pH 6 → pH 7 is a one-unit, linear change.\"** — It is a ten-fold change in [H₃O⁺]; the scale is logarithmic, not linear.\n- **\"pH + pOH = 14 always.\"** — Only at 25 °C; the general relation is pH + pOH = pKw.\n- **\"A solution with pH = 7 must be neutral.\"** — Only if the temperature is 25 °C.\n- **\"Lower [H₃O⁺] means lower pH.\"** — Opposite: lower [H₃O⁺] means *higher* pH (the minus sign inverts the relationship).\n- **\"pH can't be negative.\"** — It can; a 10 M strong acid has pH = −1.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a giant volume knob where every click makes the sound *ten times* louder or quieter — that is the pH scale for protons. Instead of writing \"0.0000001 moles of acid per liter,\" we click the knob to \"7.\" One click down to 6 means ten times more acid, one click up to 8 means ten times less. (The knob hides that pH actually *decreases* as acidity increases, which is why the minus sign is in the formula.)",
+    "quickReview": "- pH = −log[H₃O⁺], pOH = −log[OH⁻], both unitless log scales.\n- Reverse: [H₃O⁺] = 10^(−pH).\n- At 25 °C: pH + pOH = 14.00.\n- Logarithmic scale: each unit is ×10.\n- Acidic < 7, neutral = 7, basic > 7 (25 °C).",
+    "workedExamples": "### Worked Example\n\n**A soft drink has [H₃O⁺] = 3.2 × 10⁻³ M. Find its pH and pOH, and classify it.**\n\npH = −log(3.2 × 10⁻³) = 2.49\n\npOH = 14.00 − 2.49 = 11.51\n\nBecause pH (2.49) < 7, the drink is acidic. As a check, [OH⁻] = 10^(−11.51) = 3.1 × 10⁻¹² M, and (3.2 × 10⁻³)(3.1 × 10⁻¹²) ≈ 1.0 × 10⁻¹⁴ ✓.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.2 pH and pOH.\" https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.1 Brønsted-Lowry Acids and Bases.\" https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      },
+      {
+        "text": "Chem LibreTexts, \"Chemistry 2e (OpenStax) — 14: Acid-Base Equilibria.\" https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria",
+        "url": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_%28OpenStax%29/14%3A_Acid-Base_Equilibria"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/14-acid-base-equilibria/03-ph-and-poh.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

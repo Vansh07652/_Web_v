@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:vesicular-traffic:rab-gtpases",
+  "slug": "rab-gtpases",
+  "title": "Rab GTPases: Organelle Identity, Tethering, and Targeting",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:vesicular-traffic",
+    "slug": "vesicular-traffic",
+    "title": "Vesicular Traffic",
+    "order": 4
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "A transport vesicle must fuse with the correct target membrane, and that specificity is largely orchestrated by **Rab GTPases** — a large family of small monomeric GTPases (over 60 in humans) that act as **molecular addresses** for organelles and vesicles. Each Rab is associated with a particular compartment (e.g., Rab5 on early endosomes, Rab7 on late endosomes, Rab1 on the ER–Golgi pathway). In its GTP-bound form, a Rab is anchored to its membrane by a lipid tail and recruits **effector proteins** — long coiled-coil **tethers** and motor adaptors — that physically capture the incoming vesicle and hold it near the target before SNARE-mediated fusion. Rabs therefore impose the \"who fuses with whom\" logic of the cell: first tethering (Rab/effectors), then docking (SNAREs), then fusion.",
+    "whyItMatters": "Rab GTPases are the cell's addressing system, and their dysfunction causes disease. Mutations in Rab and Rab-effector genes cause **Griscelli syndrome** (a Rab27a defect causing immunodeficiency and pigmentation defects), **Charcot-Marie-Tooth neuropathy** (Rab7 mutations), and **choroideremia** (a Rab escort protein/REP-1 defect causing blindness). Many intracellular pathogens (e.g., *Legionella*, *Salmonella*) hijack Rab GTPases to build their replicative vacuoles, and Rab activity is frequently dysregulated in cancer.",
+    "learningObjectives": "- Explain how Rab GTPases confer identity to membrane compartments.\n- Describe the Rab GTPase cycle (GEF/GAP/GDI) and its membrane-cytosol shuttle.\n- Distinguish tethering, docking, and fusion in vesicle targeting.\n- Give examples of compartment-specific Rabs and their effectors.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA transport vesicle must fuse with the correct target membrane, and that specificity is largely orchestrated by **Rab GTPases** — a large family of small monomeric GTPases (over 60 in humans) that act as **molecular addresses** for organelles and vesicles. Each Rab is associated with a particular compartment (e.g., Rab5 on early endosomes, Rab7 on late endosomes, Rab1 on the ER–Golgi pathway). In its GTP-bound form, a Rab is anchored to its membrane by a lipid tail and recruits **effector proteins** — long coiled-coil **tethers** and motor adaptors — that physically capture the incoming vesicle and hold it near the target before SNARE-mediated fusion. Rabs therefore impose the \"who fuses with whom\" logic of the cell: first tethering (Rab/effectors), then docking (SNAREs), then fusion.\n\n### Key Components\n\n- **Rab GTPases:** ~60 human members; each marks a specific compartment.\n- **Rab-GEF:** activates a Rab by loading GTP (membrane recruitment).\n- **Rab-GAP:** inactivates a Rab by stimulating GTP hydrolysis.\n- **GDI (GDP-dissociation inhibitor):** binds Rab-GDP, extracting it from the membrane and holding it in the cytosol.\n- **Geranylgeranyl lipid anchor:** attaches Rab (and its GDI-bound form) to membranes.\n- **Effectors:** tethers (long coiled-coil proteins and multisubunit complexes), motors, and fusion regulators recruited by Rab-GTP.\n- **SNAREs:** the fusion machinery that acts after Rab-mediated tethering.\n\n### Mechanism / How It Works\n\n1. **Activation.** A compartment-specific **Rab-GEF** loads GTP onto its Rab; the Rab-GTP exposes a lipid anchor and embeds in the donor or target membrane.\n2. **Effector recruitment.** Rab-GTP binds **effectors** — tethering factors and motor proteins — that either reach out to capture an incoming vesicle or dock the two membranes together.\n3. **Tethering.** A tether on the target membrane (e.g., the coiled-coil protein or a multisubunit tethering complex) grabs a Rab/effector on the vesicle, bringing the two membranes into close proximity.\n4. **Docking and fusion.** With the membranes tethered, complementary **v-SNAREs (vesicle) and t-SNAREs (target)** zip together, driving membrane fusion; the cargo is delivered.\n5. **Inactivation and recycling.** A **Rab-GAP** stimulates GTP hydrolysis; **GDI** binds the resulting Rab-GDP, extracts it from the membrane, and returns it to the cytosol for another round.\n\nThe cycle (GEF → Rab-GTP → effector → GAP → GDI → Rab-GDP) is the core \"on/off\" timer that both labels compartments and licenses fusion.\n\n### Energy and Directionality\n\nThe Rab cycle is powered by **GTP**: GTP binding (via GEF) is the activation step, and GTP hydrolysis (via GAP) is the inactivation step; one GTP is consumed per cycle. Tethering itself is a binding event, but the ultimate **membrane fusion is energetically costly and is driven by SNARE zippering** — the formation of the SNARE complex is thought to provide the free energy that overcomes the repulsion between two bilayers. The ATP-hydrolyzing NSF protein then disassembles the SNARE complex after fusion so the SNAREs can be reused. Directionality and specificity are thus layered: Rab/tether gives identity and \"reach,\" and SNAREs execute fusion.\n\n### Experimental Evidence / Technique\n\nRab function was established by **dominant-negative and constitutively-active mutants**: a GTP-locked Rab (Q→L) is constitutively active and mislocalizes fusion, whereas a GDP-locked or nucleotide-free Rab (S→N) acts as a dominant negative and blocks transport. **GFP-tagged Rabs** revealed their distinct steady-state localizations (Rab5 puncta on early endosomes, Rab7 on late endosomes). **In vitro reconstitution** showed that purified tethering complexes bind specific Rab-GTP forms, and **yeast genetics** (e.g., Sec4, Ypt1) identified the first Rab family members as essential secretion factors.",
+    "howItWorks": "1. **Activation.** A compartment-specific **Rab-GEF** loads GTP onto its Rab; the Rab-GTP exposes a lipid anchor and embeds in the donor or target membrane.\n2. **Effector recruitment.** Rab-GTP binds **effectors** — tethering factors and motor proteins — that either reach out to capture an incoming vesicle or dock the two membranes together.\n3. **Tethering.** A tether on the target membrane (e.g., the coiled-coil protein or a multisubunit tethering complex) grabs a Rab/effector on the vesicle, bringing the two membranes into close proximity.\n4. **Docking and fusion.** With the membranes tethered, complementary **v-SNAREs (vesicle) and t-SNAREs (target)** zip together, driving membrane fusion; the cargo is delivered.\n5. **Inactivation and recycling.** A **Rab-GAP** stimulates GTP hydrolysis; **GDI** binds the resulting Rab-GDP, extracts it from the membrane, and returns it to the cytosol for another round.\n\nThe cycle (GEF → Rab-GTP → effector → GAP → GDI → Rab-GDP) is the core \"on/off\" timer that both labels compartments and licenses fusion.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Rabs = ~60 small GTPases that give **identity** to organelles/vesicles.\n- Cycle: **GEF (activate) → Rab-GTP → effectors → GAP (inactivate) → GDI (extract to cytosol)**.\n- Rab-GTP is membrane-bound (geranylgeranyl anchor); Rab-GDP is cytosolic (GDI-bound).\n- Examples: **Rab5** early endosome, **Rab7** late endosome, **Rab1** ER–Golgi, **Rab11** recycling endosome.\n- Order of events: **tethering (Rab/effectors) → docking (SNAREs) → fusion**.\n- SNARE zippering drives fusion; **NSF** (ATP) recycles SNAREs.\n- Mutations: Griscelli syndrome (Rab27a), Charcot-Marie-Tooth (Rab7), choroideremia (REP-1).",
+    "commonConfusions": "- **\"Rabs are the fusion machinery.\"** — Rabs and tethers bring membranes together (**tethering**); **SNAREs** execute fusion. Rab is upstream of SNARE action.\n- **\"Rab-GDP is membrane-bound.\"** — Rab-**GTP** is membrane-anchored; Rab-**GDP** is extracted to the cytosol by **GDI**.\n- **\"GDI activates Rab.\"** — GDI **inhibits/sequesters** Rab-GDP in the cytosol; GEF activates, GAP inactivates.\n- **\"One Rab does everything.\"** — Different Rabs mark different compartments (Rab5 ≠ Rab7 ≠ Rab1); each recruits specific effectors.\n- **\"Fusion is spontaneous once membranes touch.\"** — Fusion requires SNARE zippering (and energy); tethering alone does not fuse membranes.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nEvery room in the cell has its own colored doormat, and every delivery bubble has a matching colored keychain — those are the Rabs. A bubble with a green keychain can only dock at a room with a green doormat. The doormat reaches out a long arm (the tether) to grab the bubble and pull it close, and only then do the two \"zippers\" (SNAREs) snap together to seal the delivery. When the job is done, the keychain is switched off, and the bubble's keychain is recycled for the next trip. (The analogy omits that the \"colors\" are really dozens of specific Rab proteins and that the final zipper-snap is what actually forces the two membranes to merge.)",
+    "quickReview": "- Rab GTPases encode organelle identity and control targeting.\n- Cycle: GEF → Rab-GTP (membrane) → effectors/tethers → GAP → GDI → Rab-GDP (cytosol).\n- Targeting order: tethering → docking → fusion (SNAREs).\n- Rab5 (early endosome), Rab7 (late endosome), Rab1 (ER–Golgi), Rab11 (recycling).\n- GTP powers the switch; SNARE zippering powers fusion; NSF recycles SNAREs.\n- Disease: Griscelli (Rab27a), CMT (Rab7), choroideremia (REP-1).",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Molecular Mechanisms of Membrane Transport and the Maintenance of Compartmental Diversity.\" https://www.ncbi.nlm.nih.gov/books/NBK26859/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26859/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Transport from the Trans Golgi Network to the Cell Exterior: Exocytosis.\" https://www.ncbi.nlm.nih.gov/books/NBK26892/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26892/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Intracellular Vesicular Traffic.\" https://www.ncbi.nlm.nih.gov/books/NBK21045/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21045/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/04-vesicular-traffic/05-rab-gtpases.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

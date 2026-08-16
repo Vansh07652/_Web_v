@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-1:chemical-process:gas-mixtures-and-stoichiometry",
+  "slug": "gas-mixtures-and-stoichiometry",
+  "title": "Gas Mixtures and Stoichiometry",
+  "subject": {
+    "id": "subject:general-chemistry-1",
+    "slug": "general-chemistry-1",
+    "title": "General Chemistry I"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-1:chemical-process",
+    "slug": "chemical-process",
+    "title": "Chemical Process",
+    "order": 4
+  },
+  "order": 27,
+  "status": "final",
+  "sections": {
+    "overview": "In a mixture of gases, each gas exerts a pressure as if it were alone in the container; the total pressure is simply the sum of these partial pressures (Dalton's law). The mole fraction of a gas is its share of the total moles, and a gas's partial pressure equals its mole fraction times the total pressure. These ideas let chemists analyze gas mixtures and carry gas amounts through reaction stoichiometry, converting between moles of a gas and its volume using the ideal gas law or the 22.4 L molar volume at STP.",
+    "whyItMatters": "Partial pressures are central to respiratory physiology: the oxygen delivered to tissues depends on the partial pressure of O₂ in alveolar air, not on total pressure. Anesthesiologists and respiratory therapists track \\(P_{\\mathrm{O_2}}\\) and \\(P_{\\mathrm{CO_2}}\\) in arterial blood gases (Dalton's law applied to dissolved gases). In the laboratory, chemists routinely collect H₂, O₂, or CO₂ over water and must subtract the water-vapor pressure to get accurate product amounts. Dalton's law also underlies gas-blending in diving and medical oxygen mixtures, where each component's partial pressure must stay within safe physiological limits.",
+    "learningObjectives": "1. State Dalton's law of partial pressures and explain why each gas in a mixture behaves independently.\n2. Calculate mole fractions and use them to find partial pressures from a total pressure (and vice versa).\n3. Correct for water vapor when a gas is collected over water.\n4. Use balanced equations and the ideal gas law to relate gas volumes to amounts of reactants and products.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Dalton's law | Total pressure equals the sum of partial pressures | Basis for analyzing any gas mixture |\n| Partial pressure | Pressure one gas would exert if alone in the container | Lets you treat each gas independently |\n| Mole fraction | A component's moles divided by total moles | Links composition to pressure share |\n| Total pressure | Sum of all partial pressures in a mixture | What a pressure gauge actually reads |\n| Collecting over water | Trapping a gas by bubbling it through water | Requires subtracting water-vapor pressure |\n| Vapor pressure of water | Pressure of water vapor above liquid water at a given temperature | Table value subtracted in over-water collections |\n| Gas stoichiometry | Using mole ratios and gas laws to relate gas volumes to reaction amounts | Converts reaction amounts into measurable gas volumes |",
+    "collegeNotes": "### 1. Dalton's Law of Partial Pressures\n\n**Dalton's law** states that the total pressure of a gas mixture is the sum of the partial pressures of the individual gases:\n\n\\[ P_{\\text{total}} = P_1 + P_2 + P_3 + \\cdots \\]\n\nEach gas in the mixture behaves as if it occupied the container alone, colliding with the walls independently of the others. This is why the total pressure is a simple sum rather than anything more complicated.\n\n### 2. Mole Fraction\n\nThe **mole fraction** \\(X_i\\) of component \\(i\\) is the number of moles of that component divided by the total moles:\n\n\\[ X_i = \\frac{n_i}{n_{\\text{total}}} \\]\n\nBecause pressure is proportional to moles at fixed volume and temperature, the partial pressure of a gas equals its mole fraction times the total pressure:\n\n\\[ P_i = X_i \\cdot P_{\\text{total}} \\]\n\nThe mole fractions of all components must sum to exactly 1 (or 100%).\n\n### 3. Gases in Chemical Reactions and Collection Over Water\n\nGas stoichiometry uses the same mole-ratio logic as any reaction, with one extra step: after finding the moles of a gaseous product or reactant, convert moles to volume with \\(V = nRT/P\\) (or use 22.4 L/mol at STP). A common laboratory situation is **collecting a gas over water**: gas bubbles through water into an inverted tube, so the trapped gas is actually a mixture of the desired gas and water vapor. Dalton's law lets you subtract the water-vapor pressure to find the \"dry\" gas pressure:\n\n\\[ P_{\\text{dry gas}} = P_{\\text{total}} - P_{\\mathrm{H_2O}} \\]\n\nwhere \\(P_{\\mathrm{H_2O}}\\) is the vapor pressure of water at the collection temperature (a table value, e.g., 23.8 mmHg at 25 °C).",
+    "howItWorks": "1. Balance the chemical equation and identify the gas(es) of interest.\n2. Convert given amounts to moles (or to mass only after the mole step).\n3. Apply mole ratios from the balanced equation to find moles of the target gas.\n4. For a mixture, compute mole fractions and partial pressures using Dalton's law.\n5. If the gas was collected over water, subtract the water-vapor pressure first.\n6. Convert moles of gas to volume with \\(V = nRT/P\\) (or 22.4 L/mol at STP).",
+    "comparisons": "",
+    "highYield": "- **High yield:** \\(P_{\\text{total}} = P_1 + P_2 + \\cdots\\) — partial pressures always add up to the total.\n- **High yield:** \\(P_i = X_i \\cdot P_{\\text{total}}\\), and \\(X_i = n_i / n_{\\text{total}}\\).\n- **High yield:** For a gas collected over water, \\(P_{\\text{dry gas}} = P_{\\text{total}} - P_{\\mathrm{H_2O}}\\).\n- Mole fractions must sum to 1.\n- In gas stoichiometry, use the mole ratio first, then the ideal gas law — never apply the ratio to volume directly unless at constant temperature and pressure.\n- At constant temperature and pressure, gas volumes are in the same ratio as moles (Avogadro's law), which lets you use coefficients as volume ratios.\n- The vapor pressure of water rises with temperature; always use the value for the collection temperature.\n- The ideal gas law assumes a *pure* gas, so remove water vapor before applying it to over-water samples.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Partial pressure | Total pressure | Partial is one gas's contribution; total is the sum of all |\n| Mole fraction | Mole number | Mole fraction is a ratio (unitless, ≤ 1); moles are an amount |\n| Dry gas pressure | Total (wet) pressure | Dry = total minus water-vapor pressure |\n| Mole ratio (from coefficients) | Volume ratio | Volumes follow the mole ratio only at constant \\(T\\) and \\(P\\) |\n| Vapor pressure of water | Total pressure of the sample | Vapor pressure is only water's contribution and depends on temperature |",
+    "memoryAids": "**\"PaRT of the Whole\"** — **P**artial pressure equals mole fraction (**R**atio) times **T**otal pressure: \\(P_i = X_i P_{\\text{total}}\\). And **\"Dry = Total minus Water\"** for over-water collections.",
+    "eli10": "Imagine a classroom where each student's voice adds to the total noise. Each voice is independent — one student talking loudly doesn't change how loudly another talks — and the total sound is all of them added together. Gases work the same way: in a mixture, each type of gas pushes on the walls with its own \"partial pressure,\" and the total pressure is just all the partial pressures added up (Dalton's law). The \"mole fraction\" is just what fraction of the gas particles are one particular kind — if 30% of the particles are oxygen, then oxygen contributes 30% of the total pressure. This stops being exact only for real gases under extreme conditions where particles start sticking to and crowding each other; for ordinary mixtures it works beautifully.\n\n### Simple Example\n\nAir is about 21% oxygen by mole fraction. So in a sample of air at 1.00 atm total pressure, the partial pressure of oxygen is \\(0.21 \\times 1.00\\ \\text{atm} = 0.21\\ \\text{atm}\\).",
+    "quickReview": "### Topic Recap\n\nDalton's law (\\(P_{\\text{total}} = \\sum P_i\\)) and mole fractions (\\(P_i = X_i P_{\\text{total}}\\)) let us break any gas mixture into independent contributions. Gas stoichiometry applies ordinary mole ratios and then converts moles to volume via the ideal gas law. When a gas is collected over water, subtract the water-vapor pressure to obtain the dry gas pressure before any ideal-gas calculation.\n\n### Knowledge Check\n\n1. A mixture contains 0.250 mol He and 0.750 mol Ne at a total pressure of 2.00 atm. What is the partial pressure of He?\n2. What is the mole fraction of Ne in the mixture above?\n3. O₂ is collected over water at 25 °C (water vapor pressure 23.8 mmHg) at a total pressure of 760.0 mmHg. What is the pressure of the dry O₂?\n4. Using \\(2\\,\\mathrm{H_2}(g) + \\mathrm{O_2}(g) \\rightarrow 2\\,\\mathrm{H_2O}(g)\\), how many moles of O₂ react with 4.0 mol of H₂?\n5. What volume does 1.00 mol of an ideal gas occupy at 273.15 K and 1.00 atm?\n\n### Answers and Rationales\n\n1. **0.500 atm.** \\(X_{\\text{He}} = 0.250/1.00 = 0.250\\); \\(P_{\\text{He}} = 0.250 \\times 2.00 = 0.500\\ \\text{atm}\\).\n2. **0.750.** \\(X_{\\text{Ne}} = 0.750/1.00 = 0.750\\) (mole fractions sum to 1.00).\n3. **736.2 mmHg.** \\(P_{\\mathrm{O_2}} = 760.0 - 23.8 = 736.2\\ \\text{mmHg}\\).\n4. **2.0 mol O₂.** \\(4.0\\ \\mathrm{mol\\ H_2} \\times (1\\ \\mathrm{mol\\ O_2} / 2\\ \\mathrm{mol\\ H_2}) = 2.0\\ \\mathrm{mol\\ O_2}\\).\n5. **22.4 L.** At STP the molar volume is 22.4 L/mol, so 1.00 mol occupies 22.4 L.",
+    "workedExamples": "**Worked Example 1 — Partial pressures from mole fractions.** A cylinder contains 0.300 mol N₂ and 0.700 mol O₂ at a total pressure of 1.00 atm. Find each partial pressure.\n\n\\[ n_{\\text{total}} = 0.300 + 0.700 = 1.00\\ \\text{mol} \\]\n\n\\[ X_{\\mathrm{N_2}} = \\frac{0.300}{1.00} = 0.300,\\quad X_{\\mathrm{O_2}} = \\frac{0.700}{1.00} = 0.700 \\]\n\n\\[ P_{\\mathrm{N_2}} = 0.300 \\times 1.00\\ \\text{atm} = 0.300\\ \\text{atm} \\]\n\n\\[ P_{\\mathrm{O_2}} = 0.700 \\times 1.00\\ \\text{atm} = 0.700\\ \\text{atm} \\]\n\nCheck: \\(0.300 + 0.700 = 1.00\\ \\text{atm} = P_{\\text{total}}\\). ✓\n\n**Worked Example 2 — Collecting a gas over water.** Hydrogen is collected over water at 25 °C, where the vapor pressure of water is 23.8 mmHg. The total pressure in the collection tube is 750.0 mmHg. Find the pressure of the dry H₂.\n\n\\[ P_{\\mathrm{H_2}} = P_{\\text{total}} - P_{\\mathrm{H_2O}} = 750.0\\ \\text{mmHg} - 23.8\\ \\text{mmHg} = 726.2\\ \\text{mmHg} \\]\n\n\\[ 726.2\\ \\text{mmHg} \\times \\frac{1\\ \\text{atm}}{760\\ \\text{mmHg}} = 0.9555\\ \\text{atm} \\]\n\n**Worked Example 3 — Gas stoichiometry.** Propane burns according to \\(\\mathrm{C_3H_8}(g) + 5\\,\\mathrm{O_2}(g) \\rightarrow 3\\,\\mathrm{CO_2}(g) + 4\\,\\mathrm{H_2O}(g)\\). What volume of O₂ at 25.0 °C and 1.00 atm is needed to burn 0.400 mol of C₃H₈ completely?\n\nMole ratio first:\n\n\\[ 0.400\\ \\mathrm{mol\\ C_3H_8} \\times \\frac{5\\ \\mathrm{mol\\ O_2}}{1\\ \\mathrm{mol\\ C_3H_8}} = 2.00\\ \\mathrm{mol\\ O_2} \\]\n\nThen ideal gas law, with \\(T = 298.15\\ \\text{K}\\):\n\n\\[ V = \\frac{nRT}{P} = \\frac{(2.00\\ \\text{mol})(0.08206\\ \\text{L·atm·mol}^{-1}\\text{·K}^{-1})(298.15\\ \\text{K})}{1.00\\ \\text{atm}} = 48.9\\ \\text{L} \\]\n\n**Common setup errors.** (1) Forgetting to subtract water-vapor pressure in over-water collections — the trapped gas is a mixture, not pure product. (2) Using the wrong \\(R\\) for the pressure unit. (3) Applying mole ratios to *mass* instead of moles. (4) Neglecting to convert to Kelvin. (5) Assuming all gases have the same mole fraction as air when a problem doesn't say so.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "gas-mixtures-and-stoichiometry",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "27-gas-mixtures-and-stoichiometry",
+      "kind": "source_file_stem",
+      "source_id": "need-review-general-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-general-chemistry-i",
+    "sourceFile": "general-chemistry-i-study-notes/docs/general-chemistry-i/27-gas-mixtures-and-stoichiometry.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

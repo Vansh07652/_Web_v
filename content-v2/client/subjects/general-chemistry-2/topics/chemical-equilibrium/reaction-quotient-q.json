@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-equilibrium:reaction-quotient-q",
+  "slug": "reaction-quotient-q",
+  "title": "The Reaction Quotient Q",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-equilibrium",
+    "slug": "chemical-equilibrium",
+    "title": "Chemical Equilibrium",
+    "order": 4
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "The **reaction quotient Q** has exactly the same mathematical form as the equilibrium constant K, but it is evaluated using the *current* concentrations (or pressures) of the system — which may or may not be at equilibrium. Comparing Q to K tells you which way the reaction must shift to reach equilibrium:\n\n- Q < K → reaction proceeds **forward** (toward products)\n- Q > K → reaction proceeds **in reverse** (toward reactants)\n- Q = K → the system is **at equilibrium**",
+    "whyItMatters": "The Q-versus-K comparison is the single most useful diagnostic in equilibrium chemistry. It lets you predict, before doing any calculation, whether a mixture will make products or reactants, and by how far it must shift. It is the foundation of ICE-table setups and the quantitative version of Le Chatelier's principle: any disturbance changes Q (or K), and the comparison tells you the response.",
+    "learningObjectives": "- Define the reaction quotient Q and distinguish it from K.\n- Predict the direction a reaction proceeds by comparing Q and K.\n- Use Q to determine whether a system is at equilibrium.\n- Compute Q from current (non-equilibrium) concentrations or pressures.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe **reaction quotient Q** has exactly the same mathematical form as the equilibrium constant K, but it is evaluated using the *current* concentrations (or pressures) of the system — which may or may not be at equilibrium. Comparing Q to K tells you which way the reaction must shift to reach equilibrium:\n\n- Q < K → reaction proceeds **forward** (toward products)\n- Q > K → reaction proceeds **in reverse** (toward reactants)\n- Q = K → the system is **at equilibrium**\n\n### Key Ideas\n\n- Q and K use the same expression; only *when* you evaluate it differs.\n- Q is a snapshot in time; K is the fixed value the system must ultimately reach.\n- The direction of shift always moves Q toward K.\n- This comparison is the conceptual engine behind ICE tables and Le Chatelier's principle.\n\n### Equations and Variables\n\nFor aA + bB ⇌ cC + dD:\n\n$$Q = \\frac{[C]^c[D]^d}{[A]^a[B]^b} \\qquad\\text{(using current concentrations)}$$\n\n$$K = \\frac{[C]^c[D]^d}{[A]^a[B]^b} \\qquad\\text{(using equilibrium concentrations)}$$\n\n- Q = reaction quotient (unitless, current values)\n- K = equilibrium constant (unitless, at equilibrium)\n- [X] = current or equilibrium molar concentration (M)\n\nThe same structure applies to pressures (Q_p vs K_p).\n\n### How It Works\n\nImagine the product/reactant ratio as a \"score\" the reaction is always trying to reach (K). At any instant, the actual ratio is Q. If Q is too small (Q < K), the numerator is short of where it needs to be, so the reaction makes more product — it proceeds forward, raising Q. If Q is too large (Q > K), there is an excess of products, so the reaction consumes them — it proceeds in reverse, lowering Q. In both cases Q drifts toward K until they are equal.\n\nThis is also why \"at equilibrium\" means Q = K: the defining feature of equilibrium is that the ratio has reached its stable value.\n\n### Worked Example\n\nFor N₂O₄(g) ⇌ 2 NO₂(g), K_c = 4.63 × 10⁻³ at 25 °C. A 1.00 L flask is charged with 0.300 mol N₂O₄ and 0.0500 mol NO₂.\n\n**(a) Compute Q.**\n\nInitial concentrations are [N₂O₄] = 0.300 M and [NO₂] = 0.0500 M:\n\n$$Q = \\frac{[\\text{NO}_2]^2}{[\\text{N}_2\\text{O}_4]} = \\frac{(0.0500)^2}{0.300} = \\frac{2.50\\times10^{-3}}{0.300} = 8.33\\times10^{-3}$$\n\n**(b) Compare to K.** Q = 8.33 × 10⁻³ > K = 4.63 × 10⁻³, so the system has too much product relative to equilibrium.\n\n**(c) Direction of shift.** The reaction proceeds **in reverse**, converting NO₂ into N₂O₄, until Q falls to K.\n\n**(d) What if Q < K?** If instead the flask held little NO₂ (say Q = 1.0 × 10⁻³), then Q < K and the reaction would proceed forward, decomposing N₂O₄ into more NO₂.",
+    "howItWorks": "Imagine the product/reactant ratio as a \"score\" the reaction is always trying to reach (K). At any instant, the actual ratio is Q. If Q is too small (Q < K), the numerator is short of where it needs to be, so the reaction makes more product — it proceeds forward, raising Q. If Q is too large (Q > K), there is an excess of products, so the reaction consumes them — it proceeds in reverse, lowering Q. In both cases Q drifts toward K until they are equal.\n\nThis is also why \"at equilibrium\" means Q = K: the defining feature of equilibrium is that the ratio has reached its stable value.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Q uses current values; K uses equilibrium values.\n- Q < K → forward (products form).\n- Q > K → reverse (reactants form).\n- Q = K → at equilibrium.\n- The system always shifts to make Q equal K.",
+    "commonConfusions": "- **Using equilibrium concentrations to compute Q.** Q must use current values, or the comparison is meaningless.\n- **Reversing the direction rules.** Q < K means forward (products); Q > K means reverse (reactants). Think \"too little product → make more.\"\n- **Thinking Q and K are different formulas.** They are identical; only the input values differ.\n- **Forgetting to square/raise coefficients.** The expression form is the same for Q and K.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nQ is the \"where are we now?\" number, and K is the \"where we're headed\" number. They're computed with the same formula — the only difference is whether you plug in what's in the flask right now (Q) or the amounts after everything settles (K). If our current number is below the target, we push forward and make more products. If it's above target, we back up and make more reactants. Either way, the reaction keeps adjusting until the current number and the target number are the same — and that moment is called equilibrium.",
+    "quickReview": "1. How does Q differ from K?\n2. What does Q < K imply about the direction of reaction?\n3. What does Q > K imply?\n4. What condition means the system is at equilibrium?\n5. For a given reaction, if Q is doubled by adding products, which way will the system shift?",
+    "workedExamples": "### Worked Example\n\nFor N₂O₄(g) ⇌ 2 NO₂(g), K_c = 4.63 × 10⁻³ at 25 °C. A 1.00 L flask is charged with 0.300 mol N₂O₄ and 0.0500 mol NO₂.\n\n**(a) Compute Q.**\n\nInitial concentrations are [N₂O₄] = 0.300 M and [NO₂] = 0.0500 M:\n\n$$Q = \\frac{[\\text{NO}_2]^2}{[\\text{N}_2\\text{O}_4]} = \\frac{(0.0500)^2}{0.300} = \\frac{2.50\\times10^{-3}}{0.300} = 8.33\\times10^{-3}$$\n\n**(b) Compare to K.** Q = 8.33 × 10⁻³ > K = 4.63 × 10⁻³, so the system has too much product relative to equilibrium.\n\n**(c) Direction of shift.** The reaction proceeds **in reverse**, converting NO₂ into N₂O₄, until Q falls to K.\n\n**(d) What if Q < K?** If instead the flask held little NO₂ (say Q = 1.0 × 10⁻³), then Q < K and the reaction would proceed forward, decomposing N₂O₄ into more NO₂.",
+    "references": [
+      {
+        "text": "OpenStax. *Chemistry 2e*. Ch. 13, \"Equilibrium Constants\" and \"Shifting Equilibria.\" https://openstax.org/books/chemistry-2e/pages/13-4-equilibrium-calculations",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-4-equilibrium-calculations"
+      },
+      {
+        "text": "IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"reaction quotient.\" https://goldbook.iupac.org/",
+        "url": "https://goldbook.iupac.org/"
+      },
+      {
+        "text": "Atkins, P., Jones, L., & Laverman, L. *Chemical Principles: The Quest for Insight*, 7th ed. W. H. Freeman."
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/13-chemical-equilibrium/06-reaction-quotient-q.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

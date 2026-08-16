@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:nursing-math-dosage:core-topics:iv-rate-and-dosage-calculation-foundations",
+  "slug": "iv-rate-and-dosage-calculation-foundations",
+  "title": "IV Rate and Dosage Calculation Foundations",
+  "subject": {
+    "id": "subject:nursing-math-dosage",
+    "slug": "nursing-math-dosage",
+    "title": "Nursing Math & Dosage Foundations"
+  },
+  "unit": {
+    "id": "unit:nursing-math-dosage:core-topics",
+    "slug": "core-topics",
+    "title": "Core Topics",
+    "order": 1
+  },
+  "order": 10,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nThink of two watering cans. A microdrip is the one with a super-fine spout that lets out tiny drops, so it takes 60 little drops to make one milliliter. Because the drops are so small, they are easy to count exactly, which is why nurses pick it for small, careful amounts. The bigger 'macrodrip' cans pour fat drops, so only 10 to 20 of those fill a milliliter.\n\n### Question 2\n\nIf you have 1000 stickers to hand out evenly over 10 hours, you give 100 each hour. It is the same with fluid: split the whole bag (1000 mL) evenly across the 10 hours, and each hour gets 100 mL. Volume divided by time gives you the steady rate.\n\n### Question 3\n\nImagine you are timing a leaky faucet by counting drips in one minute. That count is the gtt/min. The 'drop factor' is how many drips that particular faucet takes to make one milliliter: a fine faucet needs 60 tiny drips, while a wide-open one takes only about 10 to 20 fat drips. And mL/hr is how the machine version keeps score. But when you are watching a plain gravity drip and clicking the clamp, you are steering the gtt/min.\n\n### Question 4\n\nSmall drops let you be picky and exact, like using a tiny spoon to add sugar one grain at a time. That is the microdrip at 60 drops per mL. Big drops move fluid fast, like pouring from a jug, and that is the macrodrip at 10 to 20 drops per mL. Compared side by side, the microdrip makes three times as many drops for the same milliliter.\n\n### Question 5\n\nThe formula is like a recipe: more of an ingredient on top means a bigger result. The drop factor sits on top of the fraction, so choosing tubing with more drops per mL bumps up how many drops per minute you count. Slowing down the clock or using less fluid would do the opposite and drop the number.\n\n### Question 6\n\nYou want 20 out of the 50 milligrams that live in each milliliter. Twenty out of fifty is the same as a little less than half, and a little less than half of 1 mL is 0.4 mL. You are just asking 'what slice of the milliliter carries the amount I want?'\n\n### Question 7\n\nIf a bucket holds 1000 cups and you scoop out 125 cups every hour, you count how many 125s fit into 1000, which is 8. So the bucket runs dry after 8 hours. Total amount divided by the speed tells you how long it lasts.\n\n### Question 8\n\nFirst turn the 10 hours into minutes: 10 times 60 is 600 minutes. Then the whole job is 1000 mL times 15 drops each, or 15000 drops, spread over those 600 minutes. Share 15000 drops across 600 minutes and each minute gets 25 drops.\n\n### Question 9\n\nA microdrip is special: because it makes exactly 60 drops per mL and there are 60 minutes in an hour, those two 60s cancel out. So whatever the mL-per-hour is, the drops-per-minute is the same number. Here 1500 mL over 12 hours is 125 mL/hr, so it is simply 125 gtt/min.\n\n### Question 10\n\nDo the math first: 100 mL times 10 drops each is 1000 drops, spread over 30 minutes, which is about 33 drops a minute. The student picked 100, which is about three times too fast, like sprinting when you were told to jog. Whenever a number looks surprisingly big, you recheck it before trusting it.\n\n### Question 11\n\nTurn 4 hours into 240 minutes. The whole job is 500 mL times 20 drops, which is 10000 drops, shared over 240 minutes, giving about 41.67. Since you cannot count two-thirds of a drop, you round to 42 drops each minute. Watch out for 125, that is the mL-per-hour, a different measuring stick.\n\n### Question 12\n\nStep one: how much liquid holds 4 mg if each mL has 2 mg? That is 2 mL. Step two: you give those 2 mL in 10 minutes, but the pump thinks in whole hours. Since an hour has six 10-minute chunks, six times 2 mL is 12 mL, so you set 12 mL/hr.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "SI Units / Metric System — NIST",
+        "url": "https://www.nist.gov/pml/owm/metric-si/si-units"
+      },
+      {
+        "text": "Prealgebra 2e / Elementary Algebra — OpenStax",
+        "url": "https://openstax.org/subjects/math"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "expansion-question-bank",
+    "sourceFile": "Education/pre-nursing-expansion-question-bank/questions/08-nursing-math-dosage/251-iv-rate-and-dosage-calculation-foundations.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false
+  },
+  "sourceSnapshotMarkdown": ""
+}

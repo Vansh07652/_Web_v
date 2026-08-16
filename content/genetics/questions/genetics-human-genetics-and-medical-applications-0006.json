@@ -1,0 +1,40 @@
+{
+  "id": "genetics-human-genetics-and-medical-applications-0006",
+  "subject": "genetics",
+  "lesson": "human-genetics-and-medical-applications",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** pedigree The parents in the pedigree are not related, and their daughter has cystic fibrosis. What is the probability that the next child of the same parents is affected with cystic fibrosis? ```text PEDIGREE: Generation I: I-1 unaffected male; I-2 unaffected female, partners Generation II: II-1 affected female with cystic fibrosis, child of I-1 and I-2 Key inference: Both parents are unaffected yet have an affected child, the signature of autosomal recessive inheritance, so both parents are obligate carriers. Most consistent mode: autosomal recessive ```",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/2"
+    },
+    {
+      "id": "b",
+      "text": "1/3"
+    },
+    {
+      "id": "c",
+      "text": "2/3"
+    },
+    {
+      "id": "d",
+      "text": "1/4"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Both parents are obligate carriers of a *CFTR* loss of function mutation, with deltaF508 the most common, so every pregnancy is an independent Aa x Aa cross whose genotypic ratio is 1:2:1 (sums to 4), and the affected class aa is 1/4. B confuses the outcome of a previous pregnancy with the next one, which is an independent event. C is the probability that an unaffected sibling is a carrier, not the recurrence risk. A would apply only if one parent were affected.",
+  "difficulty": "unknown",
+  "tags": [
+    "cystic",
+    "fibrosis",
+    "recurrence",
+    "risk"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-b66cd1f7b546d85d",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

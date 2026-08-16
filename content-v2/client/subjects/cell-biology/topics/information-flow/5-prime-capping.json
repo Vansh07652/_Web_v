@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:information-flow:5-prime-capping",
+  "slug": "5-prime-capping",
+  "title": "5′ Capping",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:information-flow",
+    "slug": "information-flow",
+    "title": "Information Flow",
+    "order": 10
+  },
+  "order": 10,
+  "status": "final",
+  "sections": {
+    "overview": "The 5′ cap is a modified guanine nucleotide added to the 5′ end of eukaryotic messenger RNA (and Pol II transcripts) early in transcription. It consists of a 7-methylguanosine linked by an unusual 5′–5′ triphosphate bridge to the first transcribed nucleotide. The cap is not DNA-templated: it is added enzymatically. It protects the mRNA from 5′ exonucleases, promotes splicing and nuclear export, and is recognized by the translation initiation machinery, making it essential for mRNA stability and protein synthesis.",
+    "whyItMatters": "The cap is essential for every step of an mRNA's life: without it, transcripts are rapidly degraded, poorly spliced and exported, and cannot be translated. This makes capping a cornerstone of mRNA-based medicine — mRNA vaccines use cap analogs to ensure stability and efficient translation. Defects in capping enzymes are linked to developmental and neurological disease.",
+    "learningObjectives": "- Describe the structure of the 5′ cap and the steps of its addition.\n- Explain the three functions of the cap: stability, export, and translation.\n- Identify the enzymes that add the cap and how capping is coupled to transcription.\n- Contrast the 5′ cap with other RNA modifications.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe 5′ cap is a modified guanine nucleotide added to the 5′ end of eukaryotic messenger RNA (and Pol II transcripts) early in transcription. It consists of a 7-methylguanosine linked by an unusual 5′–5′ triphosphate bridge to the first transcribed nucleotide. The cap is not DNA-templated: it is added enzymatically. It protects the mRNA from 5′ exonucleases, promotes splicing and nuclear export, and is recognized by the translation initiation machinery, making it essential for mRNA stability and protein synthesis.\n\n### Key Components\n\n- **7-Methylguanosine (m⁷G)** — the cap nucleotide, methylated at the N7 position.\n- **5′–5′ triphosphate linkage** — the reversed orientation connecting m⁷G to the first RNA nucleotide.\n- **RNA triphosphatase** — removes the γ-phosphate from the nascent 5′ end.\n- **Guanylyltransferase (capping enzyme)** — transfers GMP onto the 5′ diphosphate end.\n- **Methyltransferase** — adds the N7 methyl group (and sometimes 2′-O-methyl groups on adjacent nucleotides).\n- **Cap-binding complex (CBC)** — nuclear proteins that bind the cap and couple it to splicing and export.\n- **eIF4E** — cytoplasmic cap-binding factor that recruits the ribosome for translation.\n\n### Mechanism\n\nCapping occurs co-transcriptionally when the nascent RNA is only ~20–30 nucleotides long, using the phosphorylated C-terminal domain (CTD) of RNA polymerase II as a landing platform. The capping enzymes are recruited to the phosphorylated CTD and act in three steps: (1) RNA triphosphatase removes the terminal γ-phosphate; (2) guanylyltransferase adds a GMP via a 5′–5′ linkage; (3) a methyltransferase methylates the guanine at N7 (and frequently methylates the 2′-OH of the first two riboses). The result is an m⁷GpppN \"cap 0\" (or cap 1/cap 2 with extra methylations).\n\n### How It Works\n\n1. Pol II begins transcription and its CTD becomes phosphorylated on serine 5.\n2. Capping enzymes bind the Ser5-phosphorylated CTD, positioning them at the emerging 5′ end.\n3. RNA triphosphatase cleaves the γ-phosphate, leaving a 5′ diphosphate.\n4. Guanylyltransferase links GMP to the 5′ diphosphate through a 5′–5′ triphosphate bridge.\n5. Methyltransferase transfers a methyl group from S-adenosylmethionine to the N7 of the guanine.\n6. The completed cap is bound by the CBC, which helps recruit the spliceosome and export factors.\n7. In the cytoplasm, eIF4E replaces the CBC and recruits the small ribosomal subunit to initiate translation.\n\n### Energy and Directionality\n\nCapping consumes energy: GTP supplies the guanine (GMP transfer releases pyrophosphate), and S-adenosylmethionine (SAM) donates the methyl group, hydrolyzing its high-energy sulfonium bond. The 5′–5′ linkage is chemically opposite to the normal 5′→3′ phosphodiester backbone, which is precisely why the cap blocks 5′→3′ exonucleases (they require a normal 5′-phosphate) and marks the \"front\" end of the mRNA. Directionality is established by coupling capping to the very beginning of transcription, before the 5′ end is buried.\n\n### Experimental Evidence\n\n- **In vitro capping assays** — purified triphosphatase, guanylyltransferase, and methyltransferase add a radiolabeled m⁷G cap to synthetic RNA, defining the enzyme order.\n- **CTD truncation mutants** — Pol II lacking its CTD fails to cap efficiently, proving capping is coupled to the CTD.\n- **Cap analog inhibition of translation** — m⁷GpppN analogs compete with capped mRNA for eIF4E, blocking translation initiation.\n- **Decapping studies** — removing the cap (by Dcp2) triggers rapid 5′→3′ decay, demonstrating the cap's protective role.\n\n### Technique\n\nThe cap is studied with **cap-specific antibodies or eIF4E pull-down** (enrich capped mRNAs), **5′ RACE** and **cap-dependent translation assays**, **m⁷G-specific affinity resins**, and **mass spectrometry** of RNA 5′ ends. **In vitro transcription** with cap analogs (ARCA) produces capped mRNA for research and therapeutic applications (e.g., mRNA vaccines).",
+    "howItWorks": "1. Pol II begins transcription and its CTD becomes phosphorylated on serine 5.\n2. Capping enzymes bind the Ser5-phosphorylated CTD, positioning them at the emerging 5′ end.\n3. RNA triphosphatase cleaves the γ-phosphate, leaving a 5′ diphosphate.\n4. Guanylyltransferase links GMP to the 5′ diphosphate through a 5′–5′ triphosphate bridge.\n5. Methyltransferase transfers a methyl group from S-adenosylmethionine to the N7 of the guanine.\n6. The completed cap is bound by the CBC, which helps recruit the spliceosome and export factors.\n7. In the cytoplasm, eIF4E replaces the CBC and recruits the small ribosomal subunit to initiate translation.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- 5′ cap = 7-methylguanosine linked 5′→5′ to the first RNA nucleotide.\n- Added co-transcriptionally when the transcript is ~20–30 nt long.\n- Enzymes: RNA triphosphatase → guanylyltransferase → methyltransferase.\n- The cap is NOT DNA-templated; it is added post-synthetically by enzymes.\n- Functions: stability (blocks 5′ exonucleases), splicing, nuclear export, translation (eIF4E).\n- Ser5-phosphorylated Pol II CTD recruits the capping machinery.\n- SAM donates the methyl group; GTP donates the guanine.",
+    "commonConfusions": "- **\"The cap is encoded in the DNA\"** — it is not; it is added enzymatically after transcription begins, with no DNA template.\n- **\"The cap is a normal 5′→3′ linkage\"** — it is a reversed 5′–5′ triphosphate bridge, which is what protects against exonucleases.\n- **\"Capping happens after the transcript is complete\"** — it occurs co-transcriptionally, right at the start of elongation.\n- **\"The cap only helps translation\"** — it also stabilizes the RNA and promotes splicing and export.\n- **\"All RNAs are capped\"** — only Pol II transcripts (mRNA, snRNA) receive the m⁷G cap; rRNA, tRNA, and 5S RNA do not.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of mRNA as a paper message that gets carried out of the nucleus to the protein factory. Without protection, the front edge of the paper frays and the message gets destroyed. The 5′ cap is a hard plastic cover glued onto the front edge — it stops the fraying, helps the paper slide through the mail slot (nuclear pore), and lets the factory's reader grab hold of it. (The analogy's limit: the cap isn't a separate cover but a special backward-facing, methylated guanine nucleotide chemically attached to the RNA's very first letter.)",
+    "quickReview": "- m⁷G cap attached 5′–5′ to nascent mRNA.\n- Triphosphatase → guanylyltransferase → methyltransferase, recruited by Pol II CTD.\n- Co-transcriptional, not DNA-templated.\n- Functions: stability, splicing, export, translation (eIF4E).\n- Cap analogs underlie mRNA vaccines and in vitro transcription.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"15.4 RNA Processing in Eukaryotes.\" https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes",
+        "url": "https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"From DNA to RNA.\" https://www.ncbi.nlm.nih.gov/books/NBK26887/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26887/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"16.5 Eukaryotic Post-transcriptional Gene Regulation.\" https://openstax.org/books/biology-2e/pages/16-5-eukaryotic-post-transcriptional-gene-regulation",
+        "url": "https://openstax.org/books/biology-2e/pages/16-5-eukaryotic-post-transcriptional-gene-regulation"
+      },
+      {
+        "text": "Nature Scitable, \"Translation: DNA to mRNA to Protein.\" https://www.nature.com/scitable/topicpage/translation-dna-to-mrna-to-protein-393/",
+        "url": "https://www.nature.com/scitable/topicpage/translation-dna-to-mrna-to-protein-393/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/10-information-flow/10-5-prime-capping.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

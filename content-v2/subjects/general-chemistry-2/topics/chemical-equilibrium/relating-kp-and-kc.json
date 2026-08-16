@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-equilibrium:relating-kp-and-kc",
+  "slug": "relating-kp-and-kc",
+  "title": "Relating Kp and Kc",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-equilibrium",
+    "slug": "chemical-equilibrium",
+    "title": "Chemical Equilibrium",
+    "order": 4
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "For gas-phase equilibria we can express the constant two ways: in **concentrations (Kc)** or in **partial pressures (Kp)**. The two are related through the ideal gas law. The conversion depends on **Δn**, the change in the number of moles of *gas* from reactants to products:\n\n$$K_p = K_c\\,(RT)^{\\Delta n}$$\n\nWhen a reaction produces the same number of gas molecules it consumes (Δn = 0), the two constants are numerically equal.",
+    "whyItMatters": "Real gas-phase data are often reported as pressures (Kp) while calculations and ICE tables use concentrations (Kc). Being able to convert cleanly — and knowing that Δn counts only gas-phase species — prevents sign errors and lets you move between tabulated data and worked problems. It also reinforces the ideal-gas-law bridge between pressure and concentration.",
+    "learningObjectives": "- Convert between Kp and Kc using Kp = Kc(RT)^Δn.\n- Calculate Δn correctly as the change in moles of *gas* (not all species).\n- Recognize the special case Δn = 0, where Kp = Kc.\n- Use the appropriate value of the gas constant R.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nFor gas-phase equilibria we can express the constant two ways: in **concentrations (Kc)** or in **partial pressures (Kp)**. The two are related through the ideal gas law. The conversion depends on **Δn**, the change in the number of moles of *gas* from reactants to products:\n\n$$K_p = K_c\\,(RT)^{\\Delta n}$$\n\nWhen a reaction produces the same number of gas molecules it consumes (Δn = 0), the two constants are numerically equal.\n\n### Key Ideas\n\n- Δn = (moles of gaseous products) − (moles of gaseous reactants), using only gas-phase species.\n- R must be chosen to match the units of Kp: 0.08206 L·atm·mol⁻¹·K⁻¹ when pressures are in atm.\n- Temperature must be in kelvin.\n- Solids and liquids contribute nothing to Δn.\n\n### Equations and Variables\n\n$$K_p = K_c\\,(RT)^{\\Delta n}$$\n\n- Kp = pressure-based equilibrium constant (units from partial pressures)\n- Kc = concentration-based equilibrium constant\n- R = 0.08206 L·atm·mol⁻¹·K⁻¹ (ideal gas constant)\n- T = absolute temperature (K)\n- Δn = (moles gaseous products) − (moles gaseous reactants)\n\n### How It Works\n\nThe connection comes from the ideal gas law, P = (n/V)RT = [X]RT. Substituting P_X = [X]RT into the Kp expression and factoring out (RT) for each gas species leaves (RT) raised to the difference in gas moles:\n\n$$K_p = K_c\\,(RT)^{(\\text{gas products} - \\text{gas reactants})} = K_c\\,(RT)^{\\Delta n}$$\n\nThree cases matter:\n\n- **Δn > 0** (more gas produced): Kp > Kc at any T above absolute zero.\n- **Δn < 0** (gas consumed): Kp < Kc.\n- **Δn = 0**: Kp = Kc exactly, and the two constants carry the same value.\n\n### Worked Example\n\n**(a) N₂O₄(g) ⇌ 2 NO₂(g) at 25 °C (298 K), Kc = 4.63 × 10⁻³.**\n\nΔn = 2 − 1 = +1 (gas only):\n\n$$K_p = K_c(RT)^{1} = (4.63\\times10^{-3})(0.08206 \\times 298) = 4.63\\times10^{-3} \\times 24.45 = 0.113\\ \\text{atm}$$\n\n**(b) H₂(g) + I₂(g) ⇌ 2 HI(g) at 445 °C, Kc = 50.5.**\n\nΔn = 2 − (1 + 1) = 0:\n\n$$K_p = K_c(RT)^{0} = K_c = 50.5$$\n\n**(c) N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g), Δn = 2 − 4 = −2.**\n\n$$K_p = K_c(RT)^{-2} = \\frac{K_c}{(RT)^2}$$\n\nKp is smaller than Kc because the reaction reduces the number of gas molecules.",
+    "howItWorks": "The connection comes from the ideal gas law, P = (n/V)RT = [X]RT. Substituting P_X = [X]RT into the Kp expression and factoring out (RT) for each gas species leaves (RT) raised to the difference in gas moles:\n\n$$K_p = K_c\\,(RT)^{(\\text{gas products} - \\text{gas reactants})} = K_c\\,(RT)^{\\Delta n}$$\n\nThree cases matter:\n\n- **Δn > 0** (more gas produced): Kp > Kc at any T above absolute zero.\n- **Δn < 0** (gas consumed): Kp < Kc.\n- **Δn = 0**: Kp = Kc exactly, and the two constants carry the same value.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Kp = Kc(RT)^Δn, with Δn from gas species only.\n- Δn = 0 ⇒ Kp = Kc.\n- Δn > 0 ⇒ Kp > Kc; Δn < 0 ⇒ Kp < Kc.\n- Use R = 0.08206 L·atm·mol⁻¹·K⁻¹ with atm, and T in kelvin.\n- Solids and pure liquids are excluded from Δn.",
+    "commonConfusions": "- **Counting solids/liquids in Δn.** Only gas-phase species contribute.\n- **Using the wrong R.** For atm pressures, use 0.08206 L·atm·mol⁻¹·K⁻¹; using 8.314 gives wrong units.\n- **Wrong sign on Δn.** It is products minus reactants, not the reverse.\n- **Using °C.** Temperature must be in kelvin.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nKc and Kp are just two ways to describe the same balance — one counts molecules by concentration, the other by pressure. Converting between them is like converting between \"people per room\" and \"air pressure from all those people.\" The conversion depends on whether the reaction makes more gas or less gas. If it makes more gas (Δn positive), the pressure-based K is bigger because you've got more \"push.\" If it makes the same amount of gas (Δn = 0), the two numbers are identical — no conversion needed at all.",
+    "quickReview": "1. Write the equation relating Kp and Kc.\n2. Define Δn precisely.\n3. For which condition is Kp = Kc?\n4. For N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g), is Kp larger or smaller than Kc?\n5. What value of R should you use when pressures are in atm?",
+    "workedExamples": "### Worked Example\n\n**(a) N₂O₄(g) ⇌ 2 NO₂(g) at 25 °C (298 K), Kc = 4.63 × 10⁻³.**\n\nΔn = 2 − 1 = +1 (gas only):\n\n$$K_p = K_c(RT)^{1} = (4.63\\times10^{-3})(0.08206 \\times 298) = 4.63\\times10^{-3} \\times 24.45 = 0.113\\ \\text{atm}$$\n\n**(b) H₂(g) + I₂(g) ⇌ 2 HI(g) at 445 °C, Kc = 50.5.**\n\nΔn = 2 − (1 + 1) = 0:\n\n$$K_p = K_c(RT)^{0} = K_c = 50.5$$\n\n**(c) N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g), Δn = 2 − 4 = −2.**\n\n$$K_p = K_c(RT)^{-2} = \\frac{K_c}{(RT)^2}$$\n\nKp is smaller than Kc because the reaction reduces the number of gas molecules.",
+    "references": [
+      {
+        "text": "OpenStax. *Chemistry 2e*. Ch. 13, \"Equilibrium Constants.\" https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants"
+      },
+      {
+        "text": "IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"equilibrium constant.\" https://goldbook.iupac.org/",
+        "url": "https://goldbook.iupac.org/"
+      },
+      {
+        "text": "NIST. *CODATA recommended values of fundamental physical constants* (R = 0.082057 L·atm·mol⁻¹·K⁻¹). https://physics.nist.gov/cuu/Constants/",
+        "url": "https://physics.nist.gov/cuu/Constants/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "relating-kp-and-kc",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "04-relating-kp-and-kc",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:30a651bab5c0321e"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:30a651bab5c0321e"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:30a651bab5c0321e"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:30a651bab5c0321e"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/13-chemical-equilibrium/04-relating-kp-and-kc.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Relating Kp and Kc\n\n## Learning Goals\n\n- Convert between Kp and Kc using Kp = Kc(RT)^Δn.\n- Calculate Δn correctly as the change in moles of *gas* (not all species).\n- Recognize the special case Δn = 0, where Kp = Kc.\n- Use the appropriate value of the gas constant R.\n\n## Core Concept\n\nFor gas-phase equilibria we can express the constant two ways: in **concentrations (Kc)** or in **partial pressures (Kp)**. The two are related through the ideal gas law. The conversion depends on **Δn**, the change in the number of moles of *gas* from reactants to products:\n\n$$K_p = K_c\\,(RT)^{\\Delta n}$$\n\nWhen a reaction produces the same number of gas molecules it consumes (Δn = 0), the two constants are numerically equal.\n\n## Key Ideas\n\n- Δn = (moles of gaseous products) − (moles of gaseous reactants), using only gas-phase species.\n- R must be chosen to match the units of Kp: 0.08206 L·atm·mol⁻¹·K⁻¹ when pressures are in atm.\n- Temperature must be in kelvin.\n- Solids and liquids contribute nothing to Δn.\n\n## Equations and Variables\n\n$$K_p = K_c\\,(RT)^{\\Delta n}$$\n\n- Kp = pressure-based equilibrium constant (units from partial pressures)\n- Kc = concentration-based equilibrium constant\n- R = 0.08206 L·atm·mol⁻¹·K⁻¹ (ideal gas constant)\n- T = absolute temperature (K)\n- Δn = (moles gaseous products) − (moles gaseous reactants)\n\n## How It Works\n\nThe connection comes from the ideal gas law, P = (n/V)RT = [X]RT. Substituting P_X = [X]RT into the Kp expression and factoring out (RT) for each gas species leaves (RT) raised to the difference in gas moles:\n\n$$K_p = K_c\\,(RT)^{(\\text{gas products} - \\text{gas reactants})} = K_c\\,(RT)^{\\Delta n}$$\n\nThree cases matter:\n\n- **Δn > 0** (more gas produced): Kp > Kc at any T above absolute zero.\n- **Δn < 0** (gas consumed): Kp < Kc.\n- **Δn = 0**: Kp = Kc exactly, and the two constants carry the same value.\n\n## Worked Example\n\n**(a) N₂O₄(g) ⇌ 2 NO₂(g) at 25 °C (298 K), Kc = 4.63 × 10⁻³.**\n\nΔn = 2 − 1 = +1 (gas only):\n\n$$K_p = K_c(RT)^{1} = (4.63\\times10^{-3})(0.08206 \\times 298) = 4.63\\times10^{-3} \\times 24.45 = 0.113\\ \\text{atm}$$\n\n**(b) H₂(g) + I₂(g) ⇌ 2 HI(g) at 445 °C, Kc = 50.5.**\n\nΔn = 2 − (1 + 1) = 0:\n\n$$K_p = K_c(RT)^{0} = K_c = 50.5$$\n\n**(c) N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g), Δn = 2 − 4 = −2.**\n\n$$K_p = K_c(RT)^{-2} = \\frac{K_c}{(RT)^2}$$\n\nKp is smaller than Kc because the reaction reduces the number of gas molecules.\n\n## Why It Matters\n\nReal gas-phase data are often reported as pressures (Kp) while calculations and ICE tables use concentrations (Kc). Being able to convert cleanly — and knowing that Δn counts only gas-phase species — prevents sign errors and lets you move between tabulated data and worked problems. It also reinforces the ideal-gas-law bridge between pressure and concentration.\n\n## High-Yield Facts\n\n- Kp = Kc(RT)^Δn, with Δn from gas species only.\n- Δn = 0 ⇒ Kp = Kc.\n- Δn > 0 ⇒ Kp > Kc; Δn < 0 ⇒ Kp < Kc.\n- Use R = 0.08206 L·atm·mol⁻¹·K⁻¹ with atm, and T in kelvin.\n- Solids and pure liquids are excluded from Δn.\n\n## Eli Explains\n\nKc and Kp are just two ways to describe the same balance — one counts molecules by concentration, the other by pressure. Converting between them is like converting between \"people per room\" and \"air pressure from all those people.\" The conversion depends on whether the reaction makes more gas or less gas. If it makes more gas (Δn positive), the pressure-based K is bigger because you've got more \"push.\" If it makes the same amount of gas (Δn = 0), the two numbers are identical — no conversion needed at all.\n\n## Common Confusions\n\n- **Counting solids/liquids in Δn.** Only gas-phase species contribute.\n- **Using the wrong R.** For atm pressures, use 0.08206 L·atm·mol⁻¹·K⁻¹; using 8.314 gives wrong units.\n- **Wrong sign on Δn.** It is products minus reactants, not the reverse.\n- **Using °C.** Temperature must be in kelvin.\n\n## Quick Review\n\n1. Write the equation relating Kp and Kc.\n2. Define Δn precisely.\n3. For which condition is Kp = Kc?\n4. For N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g), is Kp larger or smaller than Kc?\n5. What value of R should you use when pressures are in atm?\n\n## Sources\n\n- OpenStax. *Chemistry 2e*. Ch. 13, \"Equilibrium Constants.\" https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants\n- IUPAC Compendium of Chemical Terminology (\"Gold Book\"), \"equilibrium constant.\" https://goldbook.iupac.org/\n- NIST. *CODATA recommended values of fundamental physical constants* (R = 0.082057 L·atm·mol⁻¹·K⁻¹). https://physics.nist.gov/cuu/Constants/\n"
+}

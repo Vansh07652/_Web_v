@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-2:enolate-chemistry:claisen-condensations",
+  "slug": "claisen-condensations",
+  "title": "Claisen Condensations",
+  "subject": {
+    "id": "subject:organic-chemistry-2",
+    "slug": "organic-chemistry-2",
+    "title": "Organic Chemistry II"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-2:enolate-chemistry",
+    "slug": "enolate-chemistry",
+    "title": "Enolate Chemistry",
+    "order": 6
+  },
+  "order": 24,
+  "status": "final",
+  "sections": {
+    "overview": "The **Claisen condensation** is the ester analog of the aldol reaction: an **ester enolate** attacks the carbonyl of a second ester in a nucleophilic *acyl substitution*, expelling an alkoxide leaving group to give a **beta-keto ester**. It requires a **matching alkoxide base** (the alkoxide matching the ester's alkoxy group) to avoid transesterification, and its **driving force** is the final, essentially irreversible deprotonation of the acidic beta-keto ester product. A **crossed Claisen** uses one non-enolizable ester, and the **Dieckmann condensation** is the intramolecular version that forms cyclic beta-keto esters.",
+    "whyItMatters": "The beta-keto ester is a central building block in medicinal and natural-product synthesis, and the *thioester* version of this reaction (Claisen condensation on acetyl-CoA) is how cells build and extend fatty-acid chains. The beta-keto ester's ability to be deprotonated, alkylated, or decarboxylated makes it one of the most reused motifs in drug discovery. Alkoxide bases and acid workups follow approved institutional safety documentation; this note is conceptual only.",
+    "learningObjectives": "1. Write the Claisen condensation mechanism by which an ester enolate converts two esters into a beta-keto ester.\n2. Explain why a \"matching\" alkoxide base is required and what drives the equilibrium forward.\n3. Contrast the Claisen condensation with the aldol reaction.\n4. Predict products of crossed Claisen and Dieckmann (intramolecular) condensations.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Claisen condensation | Two esters → beta-keto ester via enolate + acyl substitution | Core route to 1,3-dicarbonyls |\n| Ester enolate | Enolate from deprotonating an ester | The carbon nucleophile |\n| Beta-keto ester | Ketone + ester carbonyls one carbon apart | The acidic, versatile product |\n| Mechanism | Deprotonate → attack → collapse → deprotonate product | The four steps to draw in order |\n| Matching alkoxide base | Alkoxide matching the ester's alkoxy group | Prevents transesterification |\n| Driving force | Final deprotonation of the acidic beta-keto ester | Makes the reaction essentially irreversible |\n| Acid workup | Protonating the product enolate with acid | Liberates the neutral beta-keto ester (conceptual) |\n| Crossed Claisen | Two esters, one non-enolizable | Single product from mixed partners |\n| Dieckmann condensation | Intramolecular Claisen of a diester | Cyclic beta-keto esters (5- and 6-rings) |\n| Intramolecular cyclization | Ring formation within one molecule | Favors 5- and 6-membered rings |\n| Product prediction | Which enolate attacks which ester | From enolizability + ring-size logic |\n| Comparison with aldol | Addition (aldol) vs acyl substitution (Claisen) | Explains base and product differences |",
+    "collegeNotes": "### 1. Mechanism: Ester Enolate + Acyl Substitution\nA **Claisen condensation** begins with the alkoxide base deprotonating an ester's alpha carbon (ester alpha-H pKa ≈ 25) to form an **ester enolate**. That enolate attacks a *second* ester's carbonyl carbon; because esters undergo nucleophilic acyl substitution, the tetrahedral intermediate is not protonated and stopped — instead the alkoxide (–OR) is expelled as the **leaving group**, re-forming the carbonyl and giving the **beta-keto ester**. The full sequence is: deprotonation → attack → collapse (loss of alkoxide) → final deprotonation of the product.\n\n### 2. Matching Alkoxide Base and the Driving Force\nThe base must be an alkoxide whose alkyl **matches** the ester's alkoxy group (ethyl ester → NaOEt; methyl ester → NaOMe); a mismatched base would transesterify the ester (swap its OR group) and scramble the product. The **driving force** is thermodynamic: the beta-keto ester (pKa ≈ 11) is far more acidic than the starting ester (pKa ≈ 25), so the base deprotonates it essentially completely, pulling the equilibrium forward. This is why a *full equivalent* of base is required and the product is first isolated as its enolate; an **acid workup** (dilute aqueous acid) then protonates that enolate — conceptually — to give the neutral beta-keto ester.\n\n### 3. Crossed Claisen and Dieckmann Condensation\nA **crossed Claisen condensation** combines two *different* esters and is only clean when one partner cannot enolize. Common non-enolizable partners are **ethyl formate, ethyl benzoate, diethyl carbonate, and diethyl oxalate**; they act as the electrophile while the other ester supplies the enolate, giving one product. The **Dieckmann condensation** is the **intramolecular** version: a diester enolizes at one end and attacks the other end's ester carbonyl, closing a ring — **intramolecular cyclization** favoring **five- and six-membered** beta-keto ester rings.\n\n### 4. Comparison with the Aldol Reaction\nAldol and Claisen are cousins but differ in three ways: (a) **substrate** — aldehydes/ketones vs esters; (b) **outcome** — aldol does *addition* (nothing leaves) while Claisen does *acyl substitution* (an alkoxide leaves); (c) **base** — aldol typically uses catalytic base, whereas Claisen needs a full equivalent of matching alkoxide because the product must be deprotonated. Aldol gives a beta-hydroxy carbonyl; Claisen gives a beta-keto ester.",
+    "howItWorks": "1. Identify the ester(s) and their alpha hydrogens; label the alkoxy (–OR) groups.\n2. Choose the alkoxide base to **match** the ester's OR group.\n3. Deprotonate to form the ester enolate, attack the second ester, then expel the alkoxide to form the beta-keto ester.\n4. Recognize the product is deprotonated (full equivalent of base), then acid workup gives the neutral beta-keto ester.\n5. For a **crossed Claisen**, pick a non-enolizable ester as electrophile; for a **Dieckmann**, close the smallest favorable ring (5 or 6).",
+    "comparisons": "",
+    "highYield": "- **High yield:** Claisen gives a **beta-keto ester** — this is acyl substitution, not addition.\n- **High yield:** The base must **match** the ester's alkoxy group to avoid transesterification.\n- **High yield:** The driving force is final deprotonation of the acidic beta-keto ester (pKa ≈ 11), so a full equivalent of base is required.\n- **High yield:** Aldol needs only catalytic base; Claisen needs a full equivalent.\n- A crossed Claisen requires a non-enolizable ester (formate, benzoate, carbonate, oxalate).\n- **High yield:** The Dieckmann condensation makes 5- and 6-membered cyclic beta-keto esters.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Claisen condensation | Aldol reaction | Claisen = ester, acyl substitution, beta-keto ester; aldol = aldehyde/ketone, addition, beta-hydroxy carbonyl |\n| Claisen condensation | Claisen rearrangement | Condensation is enolate/acyl substitution; rearrangement is a pericyclic allyl-vinyl-ether shift |\n| Matching alkoxide | Any strong base | A mismatched base transesterifies the ester |\n| Dieckmann condensation | Crossed Claisen | Dieckmann is intramolecular (one diester); crossed is intermolecular |",
+    "memoryAids": "**\"Match, Attack, Kick, Lock.\"** Match the alkoxide to the ester's OR group, the enolate Attacks the second ester, the OR is Kicked out (leaving group), and the acidic product is Locked in by deprotonation. **\"D for Dieckmann, D for Diester, D for rings.\"**",
+    "eli10": "An ester is a carbonyl wearing a \"coat\" — an OR group — instead of a bare H or carbon. In the Claisen condensation, one ester's alpha hydrogen is ripped off to make an enolate, which attacks another ester. Because the ester wears its OR coat, something different happens than in an aldol: instead of simply adding and stopping, the OR group is kicked out as a leaving group, so the two esters genuinely *fuse* into one product.\n\nThink of two suitcases: in the aldol reaction they clasp hands (addition, nothing leaves); in the Claisen condensation one suitcase hands its handle over and *its own latch pops off* — the alkoxide leaves — so the two become a single new suitcase with a stable, double-locked frame (the beta-keto ester).\n\nWhere this stops being exact: the \"pop off and fuse\" sounds one-way, but the substitution is actually reversible. The reaction only *looks* irreversible because of a final trick — the product is very acidic, so the base immediately steals its proton, locking it in as an enolate.\n\n### Simple Example\nTwo ethyl acetate molecules with sodium ethoxide:\n\n\\[ \\ce{2 CH3CO2Et ->[NaOEt][then H3O+] CH3COCH2CO2Et + EtOH} \\]\n\nThe product is **ethyl acetoacetate** (ethyl 3-oxobutanoate), the classic beta-keto ester.",
+    "quickReview": "### Topic Recap\n\nThe Claisen condensation turns two esters into a beta-keto ester via an ester enolate and an acyl substitution that expels an alkoxide. A matching alkoxide base avoids transesterification, and the reaction is driven by final deprotonation of the acidic product (full equivalent of base, then acid workup). Crossed Claisen uses a non-enolizable ester, and the Dieckmann condensation closes 5- and 6-membered rings intramolecularly. The key contrast with the aldol reaction is addition versus acyl substitution.\n\n### Knowledge Check\n\n1. What product forms from two equivalents of ethyl acetate with NaOEt, then acid workup?\n2. Why must the alkoxide base \"match\" the ester's alkoxy group?\n3. What single factor drives the Claisen condensation to completion?\n4. How does the Claisen condensation differ from the aldol reaction at the tetrahedral intermediate?\n5. What ring sizes are favored in a Dieckmann condensation?\n\n### Answers and Rationales\n\n1. **Ethyl acetoacetate** (ethyl 3-oxobutanoate) — the enolate attacks a second ethyl acetate and ethoxide is expelled.\n2. **To prevent transesterification** — a mismatched alkoxide would swap the ester's OR group, scrambling starting material and product.\n3. **Deprotonation of the acidic beta-keto ester product** (pKa ≈ 11 vs ester pKa ≈ 25), which makes the reaction essentially irreversible.\n4. **In Claisen, the tetrahedral intermediate collapses by expelling the alkoxide (acyl substitution); in aldol it is protonated and retained (addition).**\n5. **Five- and six-membered rings**, which minimize angle and torsional strain.",
+    "workedExamples": "Claisen condensation of ethyl acetate; electron movement stated before each product.\n\n1. **Deprotonation.** Ethoxide removes an alpha-H; the C–H electrons form a C=C while the C=O π electrons rise to oxygen, forming the **ester enolate**.\n2. **Nucleophilic attack.** The enolate carbon attacks a second ethyl acetate's carbonyl carbon; the C=O π electrons move onto that oxygen — a **tetrahedral intermediate** forms.\n3. **Collapse.** The tetrahedral oxyanion electrons reform the C=O double bond while the C–O bond to the ethoxy group breaks; ethoxide leaves as the **leaving group**, giving the **beta-keto ester** plus ethoxide.\n4. **Product deprotonation.** The beta-keto ester (pKa ≈ 11) is immediately deprotonated by ethoxide, giving a resonance-stabilized enolate — this irreversible step drives the reaction, consuming a full equivalent of base.\n5. **Acid workup.** Dilute aqueous acid protonates the enolate to give the neutral **beta-keto ester**.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "claisen-condensations",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "24-claisen-condensations",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-ii"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-ii",
+    "sourceFile": "organic-chemistry-ii-study-notes/docs/organic-chemistry-ii/24-claisen-condensations.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

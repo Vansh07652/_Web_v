@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:modern-techniques:western-blot",
+  "slug": "western-blot",
+  "title": "Western Blot",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:modern-techniques",
+    "slug": "modern-techniques",
+    "title": "Modern Techniques",
+    "order": 11
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "The Western blot (immunoblot) detects a **specific protein** within a mixture. Proteins are first separated by size on an SDS-PAGE gel, then transferred to a membrane, which is probed with an antibody that binds the protein of interest; a second, enzyme- or fluorophore-conjugated antibody binds the first and produces a detectable signal. A band's position confirms the protein's molecular weight, and its intensity estimates abundance. Because signal depends on transfer efficiency and antibody affinity, a Western blot is **semiquantitative** — meaningful comparisons require normalizing the target band to a loading-control protein (e.g., β-actin, GAPDH). It proves a protein is present and roughly how much, but not whether it is active or correctly localized.",
+    "whyItMatters": "The Western blot is the standard confirmatory test for protein expression and a cornerstone of diagnostics — HIV testing (detecting anti-HIV antibodies), Lyme disease confirmation, and prion/Creutzfeldt-Jakob testing all rely on immunoblotting. In research it is the routine way to confirm that a gene's protein product is made (e.g., after knockdown/knockout or transfection), to detect post-translational modifications, and to validate results from proteomics or RNA studies.",
+    "learningObjectives": "- Describe the steps of a Western blot: SDS-PAGE, transfer, blocking, and antibody detection.\n- Explain how primary and secondary antibodies produce a specific, amplified signal.\n- Distinguish Western (protein) from Southern (DNA) and Northern (RNA) blots.\n- Explain why Western blotting is semiquantitative and how loading controls enable comparison.\n- Identify what a Western blot can and cannot prove about a protein.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe Western blot (immunoblot) detects a **specific protein** within a mixture. Proteins are first separated by size on an SDS-PAGE gel, then transferred to a membrane, which is probed with an antibody that binds the protein of interest; a second, enzyme- or fluorophore-conjugated antibody binds the first and produces a detectable signal. A band's position confirms the protein's molecular weight, and its intensity estimates abundance. Because signal depends on transfer efficiency and antibody affinity, a Western blot is **semiquantitative** — meaningful comparisons require normalizing the target band to a loading-control protein (e.g., β-actin, GAPDH). It proves a protein is present and roughly how much, but not whether it is active or correctly localized.\n\n### Key Components\n\n### SDS-PAGE-separated proteins\n- The protein sample is denatured and size-separated (see the SDS-PAGE note); the gel is the \"source\" for transfer.\n\n### Transfer membrane\n- Proteins are electroblotted onto **PVDF or nitrocellulose**, which bind proteins tightly and non-specifically; the pattern of bands is preserved.\n\n### Primary antibody\n- Binds specifically to the protein of interest (or an epitope/tag). Specificity of this antibody is what makes the assay selective.\n\n### Secondary antibody + detection\n- A labeled (enzyme-linked, e.g., horseradish peroxidase, or fluorescent) antibody that recognizes the primary antibody's species/isotype; it amplifies signal and drives detection via chemiluminescence (ECL) or fluorescence.\n\n### Blocking and loading control\n- Blocking agents (BSA, nonfat milk) coat unoccupied membrane sites to prevent non-specific antibody binding; a loading-control protein is probed to normalize amounts loaded.\n\n### Mechanism\n\n1. **Separate.** Proteins are resolved by molecular weight on SDS-PAGE.\n2. **Transfer.** An electric field drives proteins out of the gel onto a membrane.\n3. **Block.** The membrane is incubated with blocking protein to fill non-specific binding sites.\n4. **Primary antibody.** The membrane is incubated with the primary antibody, which binds its target protein.\n5. **Secondary antibody and detection.** A conjugated secondary antibody binds the primary; enzyme substrate (ECL) or fluorescence generates signal where the target protein lies.\n6. **Image and normalize.** Band position is compared to a size ladder; band intensity is normalized to a loading control for semiquantitative comparison.\n\n### Energy and Directionality\n\nThe two directional, energy-requiring steps are electrophoretic: SDS-PAGE separates proteins by size in an electric field (negatively charged SDS-coated proteins migrate to the **anode**), and electroblotting uses a perpendicular electric field to move proteins from gel to membrane. Antibody binding itself is a spontaneous, affinity-driven molecular recognition event (no added energy); signal amplification comes from enzymatic turnover of a substrate (chemiluminescence) or fluorophore excitation, not from any enzymatic change to the protein being detected.\n\n### Experimental Evidence\n\n- **What it measures:** presence, molecular weight, and relative abundance of a specific **protein**.\n- **Principle:** size separation + antibody-based immunodetection with signal amplification.\n- **Input:** protein lysate, primary antibody (specific to target), secondary antibody (labeled), membrane, substrate. **Output:** a band at the target's expected molecular weight, whose intensity approximates abundance.\n- **What it can prove:** the protein is expressed; its apparent size (detecting truncations, cleavages, or isoforms); gross abundance differences between samples; (with a phospho-specific antibody) a modification state such as phosphorylation.\n- **What it cannot prove:** that the protein is active or correctly folded/localized; precise quantitation (it is semiquantitative); DNA or RNA changes; it can also give false results if the antibody cross-reacts.\n- **Controls:** a **loading control** (housekeeping protein like β-actin/GAPDH) to normalize for pipetting/transfer differences; a **positive control** (lysate known to express the target); a **negative control** (knockout/knockdown or non-expressing cell line) to confirm antibody specificity; a molecular-weight ladder.\n- **Common mistakes:** not normalizing to a loading control (making abundance claims invalid), weak/incomplete transfer, insufficient blocking (high background), antibody cross-reactivity or using a non-validated antibody, and over-exposure that saturates signal and hides differences.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Western blot detects **protein** (Southern = DNA, Northern = RNA).\n- Order: **SDS-PAGE → transfer → block → primary Ab → secondary Ab → detect**.\n- Primary antibody binds the target; **secondary antibody amplifies** signal.\n- Membranes: **PVDF or nitrocellulose**; detection via **ECL/chemiluminescence or fluorescence**.\n- **Semiquantitative** — must normalize to a **loading control**.\n- Reports **presence + molecular weight + relative abundance**, not activity.",
+    "commonConfusions": "- **\"Western blot detects DNA/RNA\"** — No. Western = **protein** (immunoblot). DNA → Southern, RNA → Northern.\n- **\"It gives exact protein amounts\"** — It is semiquantitative; ELISA or mass spectrometry give more precise quantification.\n- **\"A band proves the protein is functional\"** — A band proves presence and size, not activity, folding, or localization.\n- **\"The primary antibody alone gives signal\"** — Detection needs the labeled secondary antibody (or a directly conjugated primary).\n- **\"No loading control needed\"** — Without a housekeeping-protein normalization, band differences may reflect loading, not biology.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nA Western blot is like finding one specific person in a stadium by their name tag. First you line everyone up by height (SDS-PAGE). Then you press a giant sticker sheet onto the crowd so everyone transfers onto it in their same spot. You pour on a \"name-tag reader\" (the primary antibody) that only grabs your target, then a second, louder announcer (the secondary antibody) that shouts \"over here!\" wherever the reader stuck. The shout tells you where the protein is and roughly how many there are. (The analogy hides that \"loudness\" is only approximate — you must compare to a known number of other people to make it fair.)",
+    "quickReview": "- SDS-PAGE separates proteins by size → transfer to membrane → block → primary then labeled secondary antibody → detect band.\n- Confirms protein presence, size, relative abundance; semiquantitative (normalize to loading control).\n- Antibody specificity is the linchpin; use positive/negative controls and a ladder.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NHGRI, \"Western Blot.\" https://www.genome.gov/genetics-glossary/Western-Blot",
+        "url": "https://www.genome.gov/genetics-glossary/Western-Blot"
+      },
+      {
+        "text": "NCI, \"western blot\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/western-blot",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/western-blot"
+      },
+      {
+        "text": "NCI, \"gel electrophoresis\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/gel-electrophoresis",
+        "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/gel-electrophoresis"
+      },
+      {
+        "text": "MedlinePlus, \"What are proteins and what do they do?\" https://medlineplus.gov/genetics/understanding/howgeneswork/protein/",
+        "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/protein/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, \"Manipulating Proteins, DNA, and RNA.\" https://www.ncbi.nlm.nih.gov/books/NBK26936/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26936/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "western-blot",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "06-western-blot",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:fd164e1b8081bca1"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:fd164e1b8081bca1"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:fd164e1b8081bca1"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:fd164e1b8081bca1"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/11-modern-techniques/06-western-blot.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Western Blot\n\n## Learning Goals\n- Describe the steps of a Western blot: SDS-PAGE, transfer, blocking, and antibody detection.\n- Explain how primary and secondary antibodies produce a specific, amplified signal.\n- Distinguish Western (protein) from Southern (DNA) and Northern (RNA) blots.\n- Explain why Western blotting is semiquantitative and how loading controls enable comparison.\n- Identify what a Western blot can and cannot prove about a protein.\n\n## Core Concept\nThe Western blot (immunoblot) detects a **specific protein** within a mixture. Proteins are first separated by size on an SDS-PAGE gel, then transferred to a membrane, which is probed with an antibody that binds the protein of interest; a second, enzyme- or fluorophore-conjugated antibody binds the first and produces a detectable signal. A band's position confirms the protein's molecular weight, and its intensity estimates abundance. Because signal depends on transfer efficiency and antibody affinity, a Western blot is **semiquantitative** — meaningful comparisons require normalizing the target band to a loading-control protein (e.g., β-actin, GAPDH). It proves a protein is present and roughly how much, but not whether it is active or correctly localized.\n\n## Key Components\n\n### SDS-PAGE-separated proteins\n- The protein sample is denatured and size-separated (see the SDS-PAGE note); the gel is the \"source\" for transfer.\n\n### Transfer membrane\n- Proteins are electroblotted onto **PVDF or nitrocellulose**, which bind proteins tightly and non-specifically; the pattern of bands is preserved.\n\n### Primary antibody\n- Binds specifically to the protein of interest (or an epitope/tag). Specificity of this antibody is what makes the assay selective.\n\n### Secondary antibody + detection\n- A labeled (enzyme-linked, e.g., horseradish peroxidase, or fluorescent) antibody that recognizes the primary antibody's species/isotype; it amplifies signal and drives detection via chemiluminescence (ECL) or fluorescence.\n\n### Blocking and loading control\n- Blocking agents (BSA, nonfat milk) coat unoccupied membrane sites to prevent non-specific antibody binding; a loading-control protein is probed to normalize amounts loaded.\n\n## Mechanism\n1. **Separate.** Proteins are resolved by molecular weight on SDS-PAGE.\n2. **Transfer.** An electric field drives proteins out of the gel onto a membrane.\n3. **Block.** The membrane is incubated with blocking protein to fill non-specific binding sites.\n4. **Primary antibody.** The membrane is incubated with the primary antibody, which binds its target protein.\n5. **Secondary antibody and detection.** A conjugated secondary antibody binds the primary; enzyme substrate (ECL) or fluorescence generates signal where the target protein lies.\n6. **Image and normalize.** Band position is compared to a size ladder; band intensity is normalized to a loading control for semiquantitative comparison.\n\n## Energy and Directionality\nThe two directional, energy-requiring steps are electrophoretic: SDS-PAGE separates proteins by size in an electric field (negatively charged SDS-coated proteins migrate to the **anode**), and electroblotting uses a perpendicular electric field to move proteins from gel to membrane. Antibody binding itself is a spontaneous, affinity-driven molecular recognition event (no added energy); signal amplification comes from enzymatic turnover of a substrate (chemiluminescence) or fluorophore excitation, not from any enzymatic change to the protein being detected.\n\n## Experimental Evidence\n- **What it measures:** presence, molecular weight, and relative abundance of a specific **protein**.\n- **Principle:** size separation + antibody-based immunodetection with signal amplification.\n- **Input:** protein lysate, primary antibody (specific to target), secondary antibody (labeled), membrane, substrate. **Output:** a band at the target's expected molecular weight, whose intensity approximates abundance.\n- **What it can prove:** the protein is expressed; its apparent size (detecting truncations, cleavages, or isoforms); gross abundance differences between samples; (with a phospho-specific antibody) a modification state such as phosphorylation.\n- **What it cannot prove:** that the protein is active or correctly folded/localized; precise quantitation (it is semiquantitative); DNA or RNA changes; it can also give false results if the antibody cross-reacts.\n- **Controls:** a **loading control** (housekeeping protein like β-actin/GAPDH) to normalize for pipetting/transfer differences; a **positive control** (lysate known to express the target); a **negative control** (knockout/knockdown or non-expressing cell line) to confirm antibody specificity; a molecular-weight ladder.\n- **Common mistakes:** not normalizing to a loading control (making abundance claims invalid), weak/incomplete transfer, insufficient blocking (high background), antibody cross-reactivity or using a non-validated antibody, and over-exposure that saturates signal and hides differences.\n\n## Why It Matters\nThe Western blot is the standard confirmatory test for protein expression and a cornerstone of diagnostics — HIV testing (detecting anti-HIV antibodies), Lyme disease confirmation, and prion/Creutzfeldt-Jakob testing all rely on immunoblotting. In research it is the routine way to confirm that a gene's protein product is made (e.g., after knockdown/knockout or transfection), to detect post-translational modifications, and to validate results from proteomics or RNA studies.\n\n## High-Yield Facts\n- Western blot detects **protein** (Southern = DNA, Northern = RNA).\n- Order: **SDS-PAGE → transfer → block → primary Ab → secondary Ab → detect**.\n- Primary antibody binds the target; **secondary antibody amplifies** signal.\n- Membranes: **PVDF or nitrocellulose**; detection via **ECL/chemiluminescence or fluorescence**.\n- **Semiquantitative** — must normalize to a **loading control**.\n- Reports **presence + molecular weight + relative abundance**, not activity.\n\n## Eli Explains\nA Western blot is like finding one specific person in a stadium by their name tag. First you line everyone up by height (SDS-PAGE). Then you press a giant sticker sheet onto the crowd so everyone transfers onto it in their same spot. You pour on a \"name-tag reader\" (the primary antibody) that only grabs your target, then a second, louder announcer (the secondary antibody) that shouts \"over here!\" wherever the reader stuck. The shout tells you where the protein is and roughly how many there are. (The analogy hides that \"loudness\" is only approximate — you must compare to a known number of other people to make it fair.)\n\n## Common Confusions\n- **\"Western blot detects DNA/RNA\"** — No. Western = **protein** (immunoblot). DNA → Southern, RNA → Northern.\n- **\"It gives exact protein amounts\"** — It is semiquantitative; ELISA or mass spectrometry give more precise quantification.\n- **\"A band proves the protein is functional\"** — A band proves presence and size, not activity, folding, or localization.\n- **\"The primary antibody alone gives signal\"** — Detection needs the labeled secondary antibody (or a directly conjugated primary).\n- **\"No loading control needed\"** — Without a housekeeping-protein normalization, band differences may reflect loading, not biology.\n\n## Quick Review\n- SDS-PAGE separates proteins by size → transfer to membrane → block → primary then labeled secondary antibody → detect band.\n- Confirms protein presence, size, relative abundance; semiquantitative (normalize to loading control).\n- Antibody specificity is the linchpin; use positive/negative controls and a ladder.\n\n## Sources\n- NHGRI, \"Western Blot.\" https://www.genome.gov/genetics-glossary/Western-Blot\n- NCI, \"western blot\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/western-blot\n- NCI, \"gel electrophoresis\" (Dictionary of Genetics Terms). https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/gel-electrophoresis\n- MedlinePlus, \"What are proteins and what do they do?\" https://medlineplus.gov/genetics/understanding/howgeneswork/protein/\n- Alberts et al., *Molecular Biology of the Cell*, \"Manipulating Proteins, DNA, and RNA.\" https://www.ncbi.nlm.nih.gov/books/NBK26936/\n"
+}

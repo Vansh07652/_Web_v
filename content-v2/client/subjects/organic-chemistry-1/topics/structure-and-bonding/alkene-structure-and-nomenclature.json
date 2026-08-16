@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:structure-and-bonding:alkene-structure-and-nomenclature",
+  "slug": "alkene-structure-and-nomenclature",
+  "title": "Alkene Structure and Nomenclature",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:structure-and-bonding",
+    "slug": "structure-and-bonding",
+    "title": "Structure and Bonding",
+    "order": 1
+  },
+  "order": 25,
+  "status": "final",
+  "sections": {
+    "overview": "An alkene is a hydrocarbon containing a carbon–carbon double bond: one sigma (σ) bond plus one pi (π) bond. The π bond is formed by side-by-side overlap of unhybridized p orbitals, which makes the double bond planar, rigid, and *unsaturated*. Naming requires selecting the longest chain that contains the double bond, numbering so the double bond gets the lowest locator, and specifying E/Z (or cis/trans) stereochemistry where needed.",
+    "whyItMatters": "Unsaturation is the structural basis of \"good\" versus \"bad\" fats: mono- and polyunsaturated fatty acids contain C=C bonds whose geometry (naturally *cis* in most dietary fats) prevents tight packing and lowers melting point. A single cis/trans switch can change a molecule's shape and biological activity.",
+    "learningObjectives": "1. Define an alkene and describe its bonding (σ + π), geometry, and hybridization.\n2. Calculate the degree of unsaturation (index of hydrogen deficiency) from a molecular formula and interpret it for alkenes.\n3. Apply IUPAC rules to name alkenes, including parent selection, numbering, and E/Z (cis/trans) designators.\n4. Classify alkenes as terminal or internal and geminal or vicinal, and convert between names and structures.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Alkene | Hydrocarbon containing a C=C double bond | Defines the functional group and reactivity |\n| Unsaturation | Fewer than the maximum number of hydrogens; a ring or π bond | Signals a double/triple bond or ring is present |\n| Degree of unsaturation (IHD) | Count of rings + π bonds from the formula | Fast structural fingerprint before drawing |\n| Parent selection | Longest chain containing the double bond | Wrong parent → wrong name |\n| Numbering | Assigning locators so the double bond is lowest | Determines the correct IUPAC name |\n| E/Z | Same/opposite side of higher-priority groups | General stereochemical designator |\n| cis/trans | Same/opposite side of identical groups on C=C | Simple designator (a special case of E/Z) |\n| Terminal alkene | C=C at the end of a chain | One carbon bears two hydrogens |\n| Internal alkene | C=C in the middle of a chain | More substituted, usually more stable |\n| Geminal substitution | Two substituents on the *same* C=C carbon | Contrast with vicinal substitution |",
+    "collegeNotes": "### 1. The Double Bond and Unsaturation\nA C=C double bond is one σ bond plus one π bond. The σ bond comes from head-on overlap of sp² hybrid orbitals; the π bond comes from side-by-side overlap of the leftover p orbitals. The π bond locks rotation, so the six atoms attached to a C=C lie in one plane.\n\n### 2. Degree of Unsaturation (Index of Hydrogen Deficiency)\nThe degree of unsaturation (DU, also called the index of hydrogen deficiency, IHD) counts rings and π bonds from a molecular formula:\n\n\\[ \\text{IHD} = \\frac{2C + 2 + N - H - X}{2} \\]\n\nwhere C = number of carbons, N = nitrogens, H = hydrogens, and X = halogens (halogens are counted as if they were hydrogens). Oxygen is ignored. Each degree equals one ring OR one π bond; a double bond counts as one, a triple bond as two. A simple acyclic alkene has IHD = 1.\n\n### 3. IUPAC Naming and Stereochemistry\nThe parent is the longest continuous chain that *contains the double bond*; drop the \"-ane\" ending and add \"-ene\" (ethene, propene, but-2-ene…). Number the chain so the double bond gets the *lowest* locator, and place that locator (the first double-bonded carbon) before the parent name. Use \"-diene\", \"-triene\" for multiple double bonds, and name/number substituents normally. For stereochemistry, compare the two groups on each double-bonded carbon by priority: if the two higher-priority groups are on the *same* side it is Z (German *zusammen*, \"together\"); if on opposite sides it is E (*entgegen*, \"opposite\"). cis/trans is the simpler label used when each double-bonded carbon carries one hydrogen and one non-hydrogen group.",
+    "howItWorks": "1. Find the longest chain that includes the double bond — that is the parent.\n2. Number the chain to give the double bond the lowest locator.\n3. Name substituents and combine them with the \"-ene\" parent name.\n4. If needed, assign E/Z (or cis/trans) by comparing priorities on each double-bonded carbon.\n5. To draw from a name, lay out the parent chain, place the double bond at its locator, then add substituents and stereochemistry.",
+    "comparisons": "",
+    "highYield": "- **High yield:** A double bond = one σ bond + one π bond; the π bond blocks rotation.\n- **High yield:** Each C=C contributes one degree of unsaturation.\n- **High yield:** Number the chain so the *double bond* gets the lowest locator, not the substituents.\n- **High yield:** E/Z uses CIP priority; cis/trans is a special case of E/Z.\n- Terminal alkenes have the C=C at a chain end; internal alkenes are more substituted.\n- Geminal = same carbon; vicinal = adjacent carbons.\n- Degree of unsaturation is a prediction tool — verify against the drawn structure.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| cis/trans | E/Z | cis/trans needs identical groups; E/Z compares priorities and always works |\n| Degree of unsaturation | Number of double bonds | IHD counts rings too; a ring and a double bond each add one |\n| Sigma bond | Pi bond | σ is head-on and rotatable; π is side-by-side and locks rotation |\n| Terminal alkene | Internal alkene | Terminal has C=C at chain end; internal does not |\n| Geminal | Vicinal | Geminal substituents share one carbon; vicinal are on adjacent carbons |",
+    "memoryAids": "**\"Z = ze same side, E = Eenemies apart.\"** Z (*zusammen*) together, E (*entgegen*) opposite — judged by the higher-priority groups.",
+    "eli10": "Picture a chain of carbon atoms holding hands. In an alkane every carbon uses both hands to grab neighbors, so the chain is \"full\" of hydrogens — *saturated*. In an alkene, two neighboring carbons grab each other with *two* hands at once (a double bond). Now those carbons each have one less hand free for a hydrogen, so the molecule is \"missing\" hydrogens and is *unsaturated*, with a flat, rigid \"double grip\" that cannot twist.\n\nA comparison: saturated fats (butter) have no double bonds and pack tightly into solids; unsaturated fats (olive oil) contain double bonds that kink the chain and stay liquid.\n\nWhere it stops being exact: the \"two hands\" picture suggests a double bond is just two identical single bonds. It is not — one bond is a σ bond (head-on overlap, free to rotate) and the other is a π bond (side-by-side overlap, locked in place). It is the π bond that makes the alkene flat and rotation-locked, which is exactly why cis/trans and E/Z stereoisomers exist.\n\n### Simple Example\nEthene, CH2=CH2, the simplest alkene. Each carbon is sp²-hybridized and trigonal planar with ~120° bond angles. The two carbons share one σ bond (sp²–sp² head-on overlap) and one π bond (side-by-side p-orbital overlap above and below the plane). There are no stereoisomers here because each carbon carries two identical hydrogens.",
+    "quickReview": "### Topic Recap\n\nAlkenes contain a C=C double bond (one σ + one π), which makes them unsaturated and planar. The degree of unsaturation counts rings and π bonds. IUPAC naming requires the longest chain that includes the double bond and the lowest possible double-bond locator, plus E/Z or cis/trans stereochemistry where relevant. Terminal versus internal alkenes and geminal versus vicinal substitution complete the classification.\n\n### Knowledge Check\n\n1. What is the degree of unsaturation of C4H8?\n2. Name CH3CH=CHCH3.\n3. Is (Z)-but-2-ene cis or trans?\n4. What two kinds of bonds make up a C=C double bond?\n5. Why can a double bond not rotate freely?\n\n### Answers and Rationales\n\n1. IHD = (2×4 + 2 − 8)/2 = 1 — one double bond (or one ring), consistent with an alkene.\n2. But-2-ene (the C=C sits between C2 and C3).\n3. cis — Z puts the two CH3 groups on the same side, which is the cis arrangement.\n4. One σ bond (head-on sp² overlap) and one π bond (side-by-side p-orbital overlap).\n5. Rotation would require breaking the side-by-side p-orbital overlap of the π bond, which locks the geometry.",
+    "workedExamples": "**Name and assign stereochemistry for (E)-3-methylpent-2-ene.**\n\n1. Longest chain containing the double bond = five carbons → parent \"pentene\".\n2. Number to give the double bond the lowest locator. Left-to-right puts the C=C between C2 and C3; right-to-left would also give 2–3, so choose the direction that gives the methyl substituent the lower number (methyl on C3).\n3. Base name: pent-2-ene; add the substituent: 3-methylpent-2-ene.\n4. Stereochemistry: on C2 the two groups are CH3 and H — CH3 outranks H. On C3 the groups are CH2CH3 (ethyl) and CH3 — ethyl outranks methyl. The two higher-priority groups (CH3 on C2, ethyl on C3) are on *opposite* sides → E.\n\n**Degree of unsaturation check.** For C6H12: IHD = (2×6 + 2 − 12)/2 = 1, consistent with one double bond (hex-1-ene) *or* one ring (cyclohexane). A molecule with both a ring and a double bond (cyclohexene, C6H10) has IHD = 2.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "alkene-structure-and-nomenclature",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "25-alkene-structure-and-nomenclature",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/25-alkene-structure-and-nomenclature.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

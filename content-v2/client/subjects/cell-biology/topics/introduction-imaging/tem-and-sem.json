@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:introduction-imaging:tem-and-sem",
+  "slug": "tem-and-sem",
+  "title": "Transmission and Scanning Electron Microscopy (TEM & SEM)",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:introduction-imaging",
+    "slug": "introduction-imaging",
+    "title": "Introduction Imaging",
+    "order": 1
+  },
+  "order": 13,
+  "status": "final",
+  "sections": {
+    "overview": "**Electron microscopy (EM)** uses a beam of electrons instead of light to image specimens. Because electrons have a far shorter wavelength than visible photons, EM achieves resolution thousands of times better than light microscopy — down to the sub-nanometer (atomic) scale. The two main forms differ in what they image: **transmission electron microscopy (TEM)** passes electrons *through* a thin specimen to reveal **internal ultrastructure** (organelles, membranes, macromolecules), while **scanning electron microscopy (SEM)** scans a focused electron beam across a specimen's *surface* and collects secondary electrons to produce a detailed **three-dimensional surface** image.",
+    "whyItMatters": "Electron microscopy is how we actually *see* the structures that light microscopy only hints at: the double membrane of mitochondria and the nuclear envelope, the thylakoid stacks of chloroplasts, ribosomes, vesicle coats, cytoskeletal filaments, and — via cryo-EM — the atomic structures of proteins and viruses. It provided much of the evidence for the endosymbiotic theory (bacterial-like organelle membranes and ribosomes) and remains the gold standard for ultrastructure, complementing light microscopy's live-cell and molecular-specificity strengths.",
+    "learningObjectives": "- Explain why electrons, rather than visible light, enable nanometer-scale resolution.\n- Distinguish TEM (internal ultrastructure) from SEM (surface topography).\n- Describe the sample preparation required for electron microscopy.\n- Compare TEM and SEM resolution and applications.\n- State the key limitation imposed by the need for a vacuum and heavy preparation.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Electron microscopy (EM)** uses a beam of electrons instead of light to image specimens. Because electrons have a far shorter wavelength than visible photons, EM achieves resolution thousands of times better than light microscopy — down to the sub-nanometer (atomic) scale. The two main forms differ in what they image: **transmission electron microscopy (TEM)** passes electrons *through* a thin specimen to reveal **internal ultrastructure** (organelles, membranes, macromolecules), while **scanning electron microscopy (SEM)** scans a focused electron beam across a specimen's *surface* and collects secondary electrons to produce a detailed **three-dimensional surface** image.\n\n### Key Components\n\n- **Electron source (gun):** emits electrons, accelerated by high voltage (typically 60–300 kV for TEM, lower for SEM) to give them a short de Broglie wavelength (λ = h/p).\n- **Electromagnetic lenses:** magnetic fields that focus and steer electrons (analogous to glass lenses for light).\n- **Vacuum column:** electrons scatter in air, so the entire path is evacuated — a defining constraint.\n- **TEM:** electrons transmit through an ultrathin section; image is formed by electrons that pass through (and are scattered by) the specimen; heavy-metal stains (osmium, uranyl, lead) increase contrast.\n- **SEM:** a focused beam raster-scans the surface; detectors collect **secondary electrons** (knocked out of the sample's surface) and backscattered electrons; a conductive coating (gold/palladium or carbon) is applied.\n- **Detector/phosphor screen (TEM) and electron detectors (SEM):** convert the electron signal into an image.\n\n### Mechanism / How It Works\n\n1. **Why electrons give high resolution.** Resolution is limited by wavelength; a 100 keV electron has λ ≈ 0.0037 nm — far shorter than visible light (~500 nm) — so the diffraction limit is dramatically smaller. (Practical TEM resolution, ~0.1 nm, is limited by lens aberrations, not wavelength.)\n2. **TEM.** A parallel electron beam illuminates an ultrathin section (typically 50–100 nm thick). Electrons that pass through are scattered differentially by dense (heavy-metal-stained) structures; denser regions scatter more electrons away and appear *dark* (electron-dense). The transmitted electrons are focused to form a 2-D projection of the section's *internal* structure. Contrast reveals membranes, organelles, and even individual macromolecules (with negative staining or cryo-EM).\n3. **SEM.** A fine electron beam rasters point by point over the specimen surface. At each point, incident electrons eject **secondary electrons** from the near-surface atoms; the detector collects them, and their intensity maps to brightness. Because the yield depends on surface angle, the result is a topographic image with a strong 3-D appearance of the *surface*.\n4. **Preparation.** Both require fixation (chemical or cryo), dehydration, and, for SEM, a conductive coating; TEM additionally requires embedding and ultrathin sectioning (or negative staining/cryo for macromolecules). Samples must be dry and vacuum-stable — meaning *living* cells cannot be imaged directly.\n\n### Comparison Table\n\n| Feature | TEM | SEM |\n|---|---|---|\n| What is imaged | Internal ultrastructure (through the sample) | Surface topography |\n| Beam interaction | Electrons transmitted through thin section | Electrons scanned over surface; secondary electrons collected |\n| Resolution | ~0.1–0.5 nm (highest of the two) | ~1–10 nm |\n| Sample | Ultrathin (50–100 nm) sections, heavy-metal stain | Bulk surface, metal-coated |\n| Image | 2-D projection of internal detail | 3-D-looking surface image |\n| Magnification | Very high (up to ~10⁶×) | Lower, but large depth of field |\n\n### Energy and Directionality\n\nThe \"energy\" in EM is the kinetic energy of accelerated electrons, set by the accelerating voltage (e.g., 100 keV). The electron wavelength follows the de Broglie relation λ = h/(2·m·e·V)^½, so higher voltage → shorter wavelength → higher potential resolution. No cellular ATP is involved; in fact, the electron beam's energy *damages* biological samples (radiation damage), which is a key limitation and a reason for cryo-EM (imaging at low temperature to slow damage).\n\n### Technique (How It Is Done)\n\n- **Fixation:** chemical crosslinking (glutaraldehyde + osmium tetroxide) or rapid freezing (cryo-fixation) to preserve structure.\n- **TEM:** dehydrate → embed in resin → cut ultrathin sections → stain with heavy metals → image in the vacuum column.\n- **SEM:** dehydrate → critical-point dry (to avoid collapse) → coat with gold/palladium → raster-scan and collect secondary electrons.\n- **Cryo-EM (TEM variant):** flash-freeze hydrated samples and image without stains, enabling near-native structures of proteins and complexes at atomic resolution.\n- **Limits:** vacuum + dehydration preclude live cells; heavy preparation can introduce artifacts (shrinkage, damage); TEM sees only very thin sections.",
+    "howItWorks": "1. **Why electrons give high resolution.** Resolution is limited by wavelength; a 100 keV electron has λ ≈ 0.0037 nm — far shorter than visible light (~500 nm) — so the diffraction limit is dramatically smaller. (Practical TEM resolution, ~0.1 nm, is limited by lens aberrations, not wavelength.)\n2. **TEM.** A parallel electron beam illuminates an ultrathin section (typically 50–100 nm thick). Electrons that pass through are scattered differentially by dense (heavy-metal-stained) structures; denser regions scatter more electrons away and appear *dark* (electron-dense). The transmitted electrons are focused to form a 2-D projection of the section's *internal* structure. Contrast reveals membranes, organelles, and even individual macromolecules (with negative staining or cryo-EM).\n3. **SEM.** A fine electron beam rasters point by point over the specimen surface. At each point, incident electrons eject **secondary electrons** from the near-surface atoms; the detector collects them, and their intensity maps to brightness. Because the yield depends on surface angle, the result is a topographic image with a strong 3-D appearance of the *surface*.\n4. **Preparation.** Both require fixation (chemical or cryo), dehydration, and, for SEM, a conductive coating; TEM additionally requires embedding and ultrathin sectioning (or negative staining/cryo for macromolecules). Samples must be dry and vacuum-stable — meaning *living* cells cannot be imaged directly.\n\n### Comparison Table\n\n| Feature | TEM | SEM |\n|---|---|---|\n| What is imaged | Internal ultrastructure (through the sample) | Surface topography |\n| Beam interaction | Electrons transmitted through thin section | Electrons scanned over surface; secondary electrons collected |\n| Resolution | ~0.1–0.5 nm (highest of the two) | ~1–10 nm |\n| Sample | Ultrathin (50–100 nm) sections, heavy-metal stain | Bulk surface, metal-coated |\n| Image | 2-D projection of internal detail | 3-D-looking surface image |\n| Magnification | Very high (up to ~10⁶×) | Lower, but large depth of field |",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- EM uses electrons (short wavelength) → sub-nm resolution vs. ~200 nm for light.\n- TEM = internal ultrastructure (electrons through thin section); SEM = surface (secondary electrons).\n- TEM resolution ~0.1–0.5 nm; SEM ~1–10 nm.\n- Electrons need a vacuum; samples must be fixed, dehydrated, and (SEM) coated.\n- Heavy-metal stains give TEM contrast (dense = dark); metal coating enables SEM.\n- Cryo-EM images near-native hydrated samples at atomic resolution.\n- λ = h/p: higher voltage → shorter wavelength → better resolution.",
+    "commonConfusions": "- **\"TEM and SEM are interchangeable.\"** — Wrong. TEM images internal structure through thin sections; SEM images surface topography. They answer different questions.\n- **\"Higher accelerating voltage always gives sharper images of living cells.\"** — Two errors: living cells cannot be in the vacuum, and higher voltage trades more radiation damage against shorter wavelength.\n- **\"Electron microscopy can watch live cells.\"** — No. The vacuum, dehydration, and beam damage make live-cell EM impossible (cryo-EM images frozen, not living, samples).\n- **\"SEM gives atomic resolution.\"** — No. SEM's resolution is ~1–10 nm; TEM (and cryo-EM) reach much finer, near-atomic resolution.\n- **\"The dark spots in TEM are always where metal is.\"** — Electron-dense regions (heavy-metal-stained structures) scatter more electrons and appear dark; it is the *staining*, not the biological material itself, that creates most contrast.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nA light microscope is like looking at a city from a plane with a fuzzy camera — you can see buildings but not the people. An electron microscope is like using a much sharper camera that can zoom in to see the bricks and even the ants. But it comes with a catch: the sample has to be dry and put in a vacuum, so nothing alive can be looked at. There are two flavors. TEM is like an X-ray through a thin slice of a cake — you see what's *inside* (the layers and the filling). SEM is like taking a photo of the cake's *outside* — you see every crumb and bump on the surface, like a 3-D picture. (The analogy's limit: TEM isn't a real X-ray picture and SEM doesn't use visible light; both use streams of tiny particles called electrons, and the \"sharp camera\" can also fry delicate samples if you're not careful.)",
+    "quickReview": "- Electrons (short λ) → sub-nm resolution; vacuum required.\n- TEM: transmits electrons through thin sections → internal ultrastructure (~0.1–0.5 nm).\n- SEM: scans surface, collects secondary electrons → 3-D surface (~1–10 nm).\n- Preparation: fix, dehydrate, embed/section + heavy-metal stain (TEM) or coat (SEM).\n- Cryo-EM: frozen hydrated samples, near-atomic resolution.\n- EM complements, not replaces, light microscopy.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NCBI Bookshelf, Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Looking at the Structure of Cells in the Microscope\" (electron microscopy). https://www.ncbi.nlm.nih.gov/books/NBK26880/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26880/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"4.1 Studying Cells.\" https://openstax.org/books/biology-2e/pages/4-1-studying-cells",
+        "url": "https://openstax.org/books/biology-2e/pages/4-1-studying-cells"
+      },
+      {
+        "text": "Florida State University, Molecular Expressions Microscopy Primer, \"Scanning Electron Microscopy.\" https://micro.magnet.fsu.edu/primer/techniques/sem/semhome.html",
+        "url": "https://micro.magnet.fsu.edu/primer/techniques/sem/semhome.html"
+      },
+      {
+        "text": "Florida State University, Molecular Expressions Microscopy Primer, \"Transmission Electron Microscopy.\" https://micro.magnet.fsu.edu/primer/techniques/tem/temhome.html",
+        "url": "https://micro.magnet.fsu.edu/primer/techniques/tem/temhome.html"
+      },
+      {
+        "text": "NCBI Bookshelf, Lodish et al., *Molecular Cell Biology*, 4th ed., \"Electron Microscopy.\" https://www.ncbi.nlm.nih.gov/books/NBK21475/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21475/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/01-introduction-imaging/13-tem-and-sem.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

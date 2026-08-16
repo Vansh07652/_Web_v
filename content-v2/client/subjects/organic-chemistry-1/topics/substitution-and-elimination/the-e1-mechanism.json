@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:substitution-and-elimination:the-e1-mechanism",
+  "slug": "the-e1-mechanism",
+  "title": "The E1 Mechanism",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:substitution-and-elimination",
+    "slug": "substitution-and-elimination",
+    "title": "Substitution and Elimination",
+    "order": 5
+  },
+  "order": 23,
+  "status": "final",
+  "sections": {
+    "overview": "E1 is unimolecular elimination: the slow step is departure of the leaving group to form a carbocation, and a fast step has a weak base remove a β hydrogen to form a π bond. The rate depends only on the substrate (rate = k[RX]). E1 favors tertiary substrates, proceeds through a carbocation (so rearrangements are possible), and gives the more substituted Zaitsev alkene. It competes directly with SN1 because both share the same carbocation intermediate.",
+    "whyItMatters": "Acid-catalyzed dehydration of alcohols (an E1 process) is a classic route to alkenes and appears in the industrial and pharmaceutical synthesis of unsaturated building blocks. The competition between substitution and elimination, and the role of temperature, mirrors the reaction-control problems chemists solve daily in process chemistry. Any actual dehydration procedure must follow institutional safety documentation; this note provides no operational, quantity, or disposal instructions.",
+    "learningObjectives": "1. State the two-step E1 mechanism and its first-order rate law, rate = k[RX].\n2. Explain how a carbocation intermediate leads to rearrangements and the Zaitsev product.\n3. Describe why E1 uses weak bases and polar protic solvents and how it competes with SN1.\n4. Analyze temperature effects and the regioselectivity and stereochemistry of E1, and draw its energy diagram.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| E1 | Unimolecular elimination | Names the mechanism: rate depends only on the substrate |\n| Carbocation | Planar, electron-poor intermediate with a positive charge | The shared intermediate of E1 and SN1 |\n| Zaitsev product | The more substituted (more stable) alkene | The usual major alkene in E1 |\n| Weak base | A base that removes protons gently (water, alcohol) | Sufficient for E1 because the cation is highly reactive |\n| Rearrangement | Hydride or alkyl shift to a more stable cation | Moves the double-bond position and is a key exam trap |\n| Polar protic solvent | Solvent with O–H or N–H bonds | Stabilizes the cation and leaving group, favoring E1 |",
+    "collegeNotes": "### 1. The Two-Step Mechanism and First-Order Rate Law\n\nStep 1 (slow, rate-determining): the C–X (or protonated C–OH) bond breaks heterolytically to give a carbocation. Step 2 (fast): a weak base removes a β hydrogen, and the C–H bonding electrons form the C=C π bond. Only the substrate appears in the slow step:\n\n\\[\\text{rate} = k\\,[\\text{RX}]\\]\n\n### 2. Carbocations, Rearrangements, and the Zaitsev Product\n\nThe carbocation follows the usual stability order (tertiary > secondary > primary, with allylic and benzylic extra-stable), and it can rearrange via 1,2-hydride or 1,2-alkyl shifts to a more stable cation before elimination. When several alkenes are possible, E1 overwhelmingly favors the more substituted, more stable alkene (Zaitsev product).\n\n### 3. Conditions, Competition with SN1, and Temperature\n\nE1 uses weak bases (water, alcohols) and polar protic solvents that stabilize the carbocation and the leaving group. Because SN1 and E1 share the same carbocation intermediate, they always compete: the carbocation either captures a nucleophile (SN1) or loses a β proton (E1). Heat favors elimination — higher temperature shifts the product mixture toward the alkene (E1) — which is the main experimental lever for steering the ratio.",
+    "howItWorks": "1. The leaving group departs (sometimes after protonation) to give a carbocation (slow).\n2. The carbocation may rearrange to a more stable cation.\n3. A weak base removes a β hydrogen, and the C–H electrons form the π bond (fast).\n4. The more substituted (Zaitsev) alkene is the major product.\n5. Heat pushes the competition with SN1 toward elimination.",
+    "comparisons": "",
+    "highYield": "- **High yield:** E1 = two steps, first order, carbocation intermediate, Zaitsev alkene.\n- **High yield:** E1 and SN1 share the carbocation and always compete; heat favors E1.\n- **High yield:** Watch for hydride and alkyl rearrangements that relocate the double bond.\n- **High yield:** Weak bases and polar protic solvents characterize E1 conditions.\n- **High yield:** Reactivity order: tertiary > secondary > primary (primary effectively does not do E1).\n- No strong base is needed because the carbocation is already highly reactive.\n- The planar carbocation allows the alkene to form as a mixture of E and Z isomers, with the more stable E (trans) alkene usually favored.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| E1 | E2 | E1 is two-step, first-order, carbocation, weak base; E2 is one-step, second-order, anti-periplanar, strong base |\n| E1 | SN1 | Both share a carbocation, but E1 loses a β proton (alkene) while SN1 adds a nucleophile (substitution) |\n| Zaitsev rule | Markovnikov rule | Zaitsev predicts the more substituted alkene in elimination; Markovnikov predicts regiochemistry in addition |\n| Heat (E1) | Heat (general) | Heat shifts the carbocation product mixture toward elimination (E1) over substitution |",
+    "memoryAids": "\"**E1 = one molecule, first order, one slow step, then (w)eak base.**\" E1 depends on one substrate, is first order, and proceeds with a weak base.",
+    "eli10": "Picture a collapsing tower. First, one support (the leaving group) drops away on its own — this is the slow part — leaving the top of the tower wobbling and unstable (the carbocation). Only afterward does a base reach in and pluck a hydrogen off a neighboring carbon, and the extra electrons snap into a double bond that steadies the structure. E1 breaks the process into two clear stages: leave first, then eliminate.\n\nComparison with E2: E2 is a one-motion yank where the base pulls the hydrogen *while* the leaving group exits. E1 lets the leaving group exit first and then removes the hydrogen afterward, so the intermediate can rearrange and the base does not need to be strong.\n\nWhere this stops being exact: the carbocation does not politely wait; it is a fleeting, high-energy species. It can rearrange (shift a hydride or alkyl group) to a more stable cation before the β hydrogen is removed, which changes where the double bond ends up. Also, E1 and SN1 share the same carbocation, so the \"elimination\" is really a race between losing a proton and capturing a nucleophile.\n\n### Simple Example\n\ntert-Butyl alcohol in warm, dilute acid (or tert-butyl bromide in a protic solvent): the C–O (or C–Br) bond breaks to give the tert-butyl cation, then a weak base (water or solvent) removes a β hydrogen to give 2-methylpropene, (CH₃)₂C=CH₂.",
+    "quickReview": "### Topic Recap\n\nE1 is a two-step, first-order elimination that proceeds through a carbocation. It uses weak bases and polar protic solvents, allows rearrangements, and gives the more substituted Zaitsev alkene. Because it shares its carbocation with SN1, the two always compete, with heat tilting the balance toward elimination.\n\n### Knowledge Check\n\n1. Write the E1 rate law and state the overall kinetic order.\n2. Why can E1 undergo rearrangements but E2 cannot?\n3. What type of base is typically used in E1 reactions?\n4. Which alkene product dominates when several are possible in E1?\n5. How does increasing temperature affect the SN1/E1 competition?\n\n### Answers and Rationales\n\n1. rate = k[RX], first order — only the substrate is in the rate-determining ionization step.\n2. E1 goes through a carbocation intermediate that can shift a hydride or alkyl group; E2 is concerted with no carbocation.\n3. A weak base (water or an alcohol) — the carbocation is reactive enough to lose a proton easily.\n4. The Zaitsev product (more substituted, more stable alkene).\n5. Higher temperature favors elimination, shifting the mixture toward the E1 alkene product.",
+    "workedExamples": "Walk through the E1 dehydration of 3-methyl-2-butanol in warm, dilute acid.\n\n1. **Protonation.** A double-headed arrow from the alcohol oxygen's lone pair grabs a proton from acid, converting the poor leaving group (–OH) into a good leaving group (–OH₂⁺).\n2. **Ionization (slow).** A double-headed arrow from the C–O bond moves both electrons onto oxygen, and water leaves, forming a secondary carbocation at C2.\n3. **Consider rearrangement.** A 1,2-hydride shift (double-headed arrow) can move a hydrogen with its electrons from C3 to C2, converting the secondary cation into a more stable tertiary cation.\n4. **Deprotonation (fast).** A weak base (water) removes a β hydrogen; a double-headed arrow moves those C–H electrons to form the C=C π bond, giving the more substituted alkene.\n5. **Account for electrons and charge.** The proton added in step 1 is regenerated in the final deprotonation (the acid is catalytic); water leaves and returns, so mass and charge balance.\n6. **State the regioselectivity.** The product is the more substituted (Zaitsev) alkene; with the rearrangement, the double bond forms where the tertiary cation sits.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "the-e1-mechanism",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "23-the-e1-mechanism",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/23-the-e1-mechanism.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

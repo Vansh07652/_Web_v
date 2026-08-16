@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:medical-office-assistant:medical-economics-billing-and-coding:encounter-forms-claims-generation",
+  "slug": "encounter-forms-claims-generation",
+  "title": "Encounter Forms and Claims Generation",
+  "subject": {
+    "id": "subject:medical-office-assistant",
+    "slug": "medical-office-assistant",
+    "title": "Medical Office Assistant"
+  },
+  "unit": {
+    "id": "unit:medical-office-assistant:medical-economics-billing-and-coding",
+    "slug": "medical-economics-billing-and-coding",
+    "title": "Medical Economics, Billing, and Coding",
+    "order": 4
+  },
+  "order": 30,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "- Describe the purpose, typical contents, and use of encounter forms (superbills) in a medical office.\n- Explain charge capture and how captured charges flow into claims generation.\n- Describe the claims generation and submission process, including claim forms, electronic transactions, and clean-claim requirements.\n- Explain how codes are accurately assigned from documentation, including the assistant's role in supporting documentation integrity and escalating discrepancies.",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nThink of the encounter form like a restaurant server's order ticket: it lists everything the patient received that day so the office knows what to bill for.\n\n### Question 2\n\nChecking boxes on the encounter form is like ticking items on a shopping list — it writes down what happened so a bill can be made.\n\n### Question 3\n\nThe encounter form is like a pre-filled menu of the most common services, so the provider just checks the ones that apply.\n\n### Question 4\n\nThe encounter form is like the recipe card the cook hands to the billing clerk — if the recipe is wrong, the dish (claim) comes out wrong.\n\n### Question 5\n\nIf the order ticket seems to be missing items, you don't guess and write them in yourself — you ask the person who knows what was served.\n\n### Question 6\n\nA claim needs the 'who' (the patient) and the 'what' (the services and diagnoses) to build a correct bill.\n\n### Question 7\n\nElectronic records turn the paper ticket into a screen where the visit's services and diagnoses are captured digitally.\n\n### Question 8\n\nCharge capture is like writing down every item a customer bought so nothing gets left off the bill.\n\n### Question 9\n\nIf the server forgets to write down your drink, the restaurant can't charge you for it and loses that money.\n\n### Question 10\n\nA charge is a pair: the diagnosis code says 'why' and the procedure code says 'what was done.'\n\n### Question 11\n\nThe diagnosis is the reason 'why' the service happened — like showing a receipt for why you bought something.\n\n### Question 12\n\nThe encounter form is a quick notes sheet for billing, but the full story lives in the patient's chart.\n\n### Question 13\n\nChecking the schedule against the tickets is like making sure every table that sat down turned in an order.\n\n### Question 14\n\nIf the notes say more happened than the ticket shows, you ask the person who knows instead of guessing or changing numbers yourself.\n\n### Question 15\n\nIf the ticket never makes it to the kitchen, the order never gets cooked or billed.\n\n### Question 16\n\nCharge capture lag is how long the bill 'sits on the counter' before it gets entered.\n\n### Question 17\n\nIf you wait too long to turn in the order ticket, the kitchen's cutoff passes and the order can't go out.\n\n### Question 18\n\nThe assistant is like the runner who makes sure every ticket is filled in and delivered — not the chef who decides what goes on the plate.\n\n### Question 19\n\nComparing the ticket to the chart is like checking the receipt against what's in the bag — they should match.\n\n### Question 20\n\nIf the receipt lists something that isn't in the bag, you fix the receipt — you don't pretend the item is there.\n\n### Question 21\n\nICD-10-CM is the 'why' code — it names the problem the patient has.\n\n### Question 22\n\nCPT is the 'what was done' code — the procedure or service the patient received.\n\n### Question 23\n\nThe CMS-1500 is the standard 'bill' doctors' offices use to ask insurance to pay for an outpatient visit.\n\n### Question 24\n\nHospitals and facilities use a different 'bill form' (UB-04) than a doctor's office (CMS-1500).\n\n### Question 25\n\nThe 837P is the electronic version of the doctor's bill, sent by computer instead of paper.\n\n### Question 26\n\nThe 837I is the hospital's electronic bill, matching the UB-04 paper form.\n\n### Question 27\n\nThe NPI is like a provider's official ID badge number that must appear on every bill.\n\n### Question 28\n\nThe clearinghouse is like a mailroom that checks each envelope and routes it to the right address.\n\n### Question 29\n\nA clean claim is like a homework paper with no mistakes — it can be graded right away without being sent back.\n\n### Question 30\n\nA claim missing a required code is like a letter with no address — it can't be delivered and processed.\n\n### Question 31\n\nScrubbing is like proofreading a letter before mailing it so the post office doesn't send it back.\n\n### Question 32\n\nAdjudication is the insurance company 'grading' the bill and deciding how much to pay.\n\n### Question 33\n\nAfter the bill is graded, the insurance company sends back a report card showing what it paid and why.\n\n### Question 34\n\nA claim needs real billing facts — who, when, what — not personal trivia like a favorite color.\n\n### Question 35\n\nThe diagnosis is the 'reason' line on the bill — without it, the insurance can't decide if it should pay.\n\n### Question 36\n\nThe insurance company has a 'due date' for receiving the bill; miss it and they won't pay.\n\n### Question 37\n\nDifferent insurance companies have different 'due dates,' just like different teachers have different deadlines.\n\n### Question 38\n\nCharge capture is gathering the ingredients; claims generation is baking the cake from them.\n\n### Question 39\n\nIt's easier to fix a typo before you mail the letter than after it comes back refused.\n\n### Question 40\n\nChecking your homework before turning it in is how you get it right the first time.\n\n### Question 41\n\nThe provider's signature is like signing a school permission slip — it says 'I stand behind this.'\n\n### Question 42\n\nThe place-of-service code is the 'where' — living room vs. doctor's office changes how it's billed.\n\n### Question 43\n\nThe acknowledgment is like a delivery-tracking number — it tells you the package arrived and where it is.\n\n### Question 44\n\nThe insurance is saying, 'The reason you gave doesn't match the service you billed.'\n\n### Question 45\n\nWhen you're not sure, you ask the teacher instead of writing down a guess on the test.\n\n### Question 46\n\nThe ABN is a 'heads up' note telling a Medicare patient, 'This might not be paid, and here's your choice.'\n\n### Question 47\n\nUsing an old map gets you lost; using old codes gets your claim rejected.\n\n### Question 48\n\nThe assistant can type in and send the carefully prepared bill, but doesn't change the recipe to make it pay more.\n\n### Question 49\n\nA wrong ID number is like putting the wrong address on a package — it won't get to the right place.\n\n### Question 50\n\nCode from the paper trail, not from guessing — like answering test questions only from the book.\n\n### Question 51\n\nIf the receipt shows an item that isn't in the bag, you don't charge for it until you confirm it's really there.\n\n### Question 52\n\nA query is politely asking the doctor, 'Can you clarify what you did so we code it correctly?'\n\n### Question 53\n\nIf the book doesn't contain the answer you're citing, that's a clue your citation is wrong.\n\n### Question 54\n\nSaying 'broken arm' is less helpful than 'broken left forearm near the wrist' — details matter.\n\n### Question 55\n\nUpcoding is like claiming you ran 10 miles when you only ran 3.\n\n### Question 56\n\nIf someone asks you to change the answer to get a better grade, the right move is to say no and tell a trusted adult.\n\n### Question 57\n\nThe diagnosis code comes from the doctor's written findings, not from guessing or copying.\n\n### Question 58\n\nYou can't fill in the test answer before the doctor has actually examined the patient — that's guessing.\n\n### Question 59\n\nDocumentation is the 'show your work' that proves the service was actually needed.\n\n### Question 60\n\nThe payer checks that the 'why' and the 'what' match up like a puzzle.\n\n### Question 61\n\nThe assistant helps the teacher keep the answer key (chart) complete and clear, but doesn't grade the test.\n\n### Question 62\n\nIf you can't read the teacher's writing, you ask the teacher — you don't guess the answer.\n\n### Question 63\n\nYou record what actually happened, not what would pay best — honesty over profit.\n\n### Question 64\n\nBilling for something that isn't in the record is like charging for work you didn't do — it gets you in trouble.\n\n### Question 65\n\nIf you accidentally undercounted, you fix the count to match the truth — you don't invent extra items.\n\n### Question 66\n\nChanging the record is like erasing and rewriting history — it makes the whole story unreliable.\n\n### Question 67\n\nFix the answer to match the book, not the book to match the answer.\n\n### Question 68\n\nThe best way to pass an inspection is to keep things correct all along, not to tidy up at the last minute.\n\n### Question 69\n\nIt's a relay race: run the visit, write the ticket, make the bill, send it, get graded, then record the payment.\n\n### Question 70\n\nEach department is a different store in the same mall — each one must ring up its own sale for the same customer.\n\n### Question 71\n\nChecking the attendance sheet against the tickets shows if any customer was served but never billed.\n\n### Question 72\n\nThe scrubber checks that the 'ID badge number' on the bill is real before mailing it.\n\n### Question 73\n\nIf the address is wrong, look it up and fix it — don't just re-mail the same envelope.\n\n### Question 74\n\nIf every student's homework is word-for-word identical, a teacher suspects copying.\n\n### Question 75\n\nCheck the receipt first, and if you can't explain it, ask the billing team before telling the customer anything for certain.\n\n### Question 76\n\nCharging only for what really happened keeps the books honest — like a store that rings up exactly what you bought.\n\n### Question 77\n\nThe full story in the chart is the real evidence; the form is just a quick summary.\n\n### Question 78\n\nCopying the same answer for every question looks fast but isn't true for each patient.\n\n### Question 79\n\nA modifier is a small note on the bill that says 'by the way, this was a special case' when it truly was.\n\n### Question 80\n\nCoding turns the doctor's story into a short set of standard numbers so computers and insurers can process it.\n\n### Question 81\n\nThe code must be a perfect fit for what the chart says, like the right puzzle piece.\n\n### Question 82\n\nThe 'when' is as important as the 'what' — the bill must say when each thing happened.\n\n### Question 83\n\nWhen something doesn't look right, you stop and ask the person in charge instead of guessing.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Centers for Medicare & Medicaid Services — CMS.gov",
+        "url": "https://www.cms.gov/"
+      },
+      {
+        "text": "American Health Information Management Association — AHIMA - Health Information and Coding",
+        "url": "https://www.ahima.org/"
+      },
+      {
+        "text": "AAPC — Medical Coding and Billing",
+        "url": "https://www.aapc.com/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 83
+  },
+  "aliases": [
+    {
+      "value": "encounter-forms-claims-generation",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "moa-04-05-05",
+      "kind": "source_topic_id",
+      "source_id": "medical-office-assistant-question-bank"
+    },
+    {
+      "value": "encounter-forms-claims-generation",
+      "kind": "source_topic_slug",
+      "source_id": "medical-office-assistant-question-bank"
+    }
+  ],
+  "authority": {
+    "questions": [
+      {
+        "source_file": "generated-subjects/medical-office-assistant-question-bank/data/04-medical-economics-billing-coding/05-05-encounter-forms-claims-generation.json"
+      }
+    ],
+    "answer_rationales": [
+      {
+        "source_file": "generated-subjects/medical-office-assistant-question-bank/data/04-medical-economics-billing-coding/05-05-encounter-forms-claims-generation.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-office-assistant-question-bank/data/04-medical-economics-billing-coding/05-05-encounter-forms-claims-generation.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-office-assistant-question-bank",
+    "sourceFile": "generated-subjects/medical-office-assistant-question-bank/data/04-medical-economics-billing-coding/05-05-encounter-forms-claims-generation.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false,
+    "importBatch": "2026-08-14-generated-subjects"
+  },
+  "sourceSnapshotMarkdown": "{\n  \"schema_version\": \"1.0\",\n  \"topic_id\": \"moa-04-05-05\",\n  \"unit_id\": \"unit-04\",\n  \"unit_title\": \"Medical Economics, Billing, and Coding\",\n  \"topic_title\": \"Encounter Forms and Claims Generation\",\n  \"topic_slug\": \"encounter-forms-claims-generation\",\n  \"audience\": \"Medical office assistant students\",\n  \"question_count\": 85,\n  \"difficulty_distribution\": {\n    \"foundational\": 26,\n    \"intermediate\": 40,\n    \"advanced\": 19\n  },\n  \"tags\": [\n    \"encounter-forms\",\n    \"superbill\",\n    \"claims\",\n    \"charge-capture\",\n    \"coding\",\n    \"documentation\",\n    \"billing\",\n    \"medical-necessity\"\n  ],\n  \"learning_objectives\": [\n    \"Describe the purpose, typical contents, and use of encounter forms (superbills) in a medical office.\",\n    \"Explain charge capture and how captured charges flow into claims generation.\",\n    \"Describe the claims generation and submission process, including claim forms, electronic transactions, and clean-claim requirements.\",\n    \"Explain how codes are accurately assigned from documentation, including the assistant's role in supporting documentation integrity and escalating discrepancies.\"\n  ],\n  \"sources\": [\n    {\n      \"source_id\": \"src-001\",\n      \"organization_or_author\": \"Centers for Medicare & Medicaid Services\",\n      \"title\": \"CMS.gov\",\n      \"publication_or_website\": \"CMS.gov\",\n      \"year_or_last_updated\": \"2026\",\n      \"url\": \"https://www.cms.gov/\",\n      \"doi_or_pmid\": null,\n      \"access_type\": \"public\"\n    },\n    {\n      \"source_id\": \"src-002\",\n      \"organization_or_author\": \"American Health Information Management Association\",\n      \"title\": \"AHIMA - Health Information and Coding\",\n      \"publication_or_website\": \"AHIMA\",\n      \"year_or_last_updated\": \"2026\",\n      \"url\": \"https://www.ahima.org/\",\n      \"doi_or_pmid\": null,\n      \"access_type\": \"public\"\n    },\n    {\n      \"source_id\": \"src-003\",\n      \"organization_or_author\": \"AAPC\",\n      \"title\": \"Medical Coding and Billing\",\n      \"publication_or_website\": \"AAPC\",\n      \"year_or_last_updated\": \"2026\",\n      \"url\": \"https://www.aapc.com/\",\n      \"doi_or_pmid\": null,\n      \"access_type\": \"public\"\n    }\n  ],\n  \"scope_note\": \"This bank teaches encounter forms (superbills), charge capture, claims generation, and accurate coding from documentation for educational purposes only and does not reproduce proprietary codebook text or specific code values. Final code selection is the responsibility of the licensed provider and qualified coding staff; medical office assistants support accurate charge capture and claims by capturing complete, accurate, legible documentation, verifying data, and escalating questions or discrepancies — they never independently assign codes, alter clinical documentation, or change codes to influence payment. Payer requirements (claim forms, timely filing, electronic transactions, and documentation standards) vary by payer and are governed by current guidelines, employer policy, and state and federal law.\"\n}"
+}

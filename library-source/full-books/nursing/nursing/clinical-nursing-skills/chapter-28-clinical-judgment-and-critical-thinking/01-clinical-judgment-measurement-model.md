@@ -1,0 +1,144 @@
+---
+title: "Clinical Judgment Measurement Model"
+subject: "Nursing"
+book: "Clinical Nursing Skills"
+chapter: "28: Clinical Judgment and Critical Thinking"
+topic_number: "1"
+source: "clinical-nursing-skills.md"
+tags:
+  - "clinical-judgment-measurement-model"
+  - "nursing"
+status: "complete"
+---
+
+# Clinical Judgment Measurement Model
+
+> **Book:** [Clinical Nursing Skills](../../README.md)  
+> **Chapter:** [Chapter 28: Clinical Judgment and Critical Thinking](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Clinical judgment is the thinking that happens between what you *notice* about a patient and what you actually *do* about it — and the Clinical Judgment Measurement Model (CJMM) is the framework the National Council of State Boards of Nursing (NCSBN) built to describe that thinking. Developed to guide nursing education and the Next Generation NCLEX (NGN), the model breaks the invisible reasoning nurses do into describable cognitive steps: you recognize cues in the data you collect, analyze what those cues mean, prioritize which problem to tackle first, generate possible solutions, take action, and then evaluate whether the action worked. At the model's center sits the judgment itself — the conclusion you reach and the decision you make — and everything around it is the thinking that produces it.
+
+Think of the CJMM as a map of the reasoning journey: it does not tell you the right answer for any given patient, but it shows you *where in your thinking* a wrong turn happened — which is why the model is used to design exam items, structure debriefings, and give students a shared vocabulary with instructors and preceptors.
+
+## Why This Matters
+
+- **Patient safety.** Many adverse events trace back to a missed or misinterpreted cue. Noticing data is only the first step; analyzing and acting on it correctly is where care is won or lost.
+- **NCLEX and nursing education.** NGN case-study items are written around the six cognitive operations, so understanding the model is like studying the test blueprint itself.
+- **Self-improvement.** After a clinical error or near-miss, the model gives you a structure for asking "where did my reasoning go wrong?" instead of just "what did I do wrong?"
+- **Communication.** "I recognized a change, analyzed it as possibly X, and prioritized checking Y" is a clearer handoff than "the patient seems off."
+
+## Core Concepts
+
+### What clinical judgment is (and is not)
+
+Clinical judgment is the **conclusion** you reach ("this change is most likely explained by…") and the **decision** you make ("so I will…"). It is not the same as the nursing process, though the two overlap: the nursing process (assessment, diagnosis, planning, implementation, evaluation — ADPIE) is a problem-solving method you *use*, while the CJMM describes the cognitive work underneath it. Judgment is also not the same as knowledge: you can know the facts and still misjudge a situation if you anchor on the first cue or close your thinking too early.
+
+### The layers of the model
+
+The CJMM is usually drawn as concentric layers. At the center is **clinical judgment** — the outcome of the whole process. Around it sit the broad cognitive functions of **noticing, interpreting, responding, and reflecting** (language from Benner and Tanner's work on how nurses think). The next layer names the six concrete cognitive **operations** that put those functions into action. The outermost layer is **context**: characteristics of the patient, the nurse, and the environment that shape every step. The outer layers are always operating — the same cue can mean something different for a 40-year-old than for a 90-year-old, and a busy, understaffed unit is a different reasoning environment than a quiet one.
+
+### The six cognitive operations
+
+1. **Recognize cues.** Identify what is relevant in the data you have gathered (assessment findings, patient reports, history).
+2. **Analyze cues.** Organize and interpret the cues — what do they point toward, and which are consistent?
+3. **Prioritize hypotheses.** Rank possible explanations by likelihood and by urgency; the most urgent or most probable explanation usually comes first.
+4. **Generate solutions.** Think through possible responses — what actions are indicated, what are the risks and benefits of each, and what is within your scope?
+5. **Take action.** Implement the chosen response correctly and safely, in line with orders, policy, and scope of practice.
+6. **Evaluate outcomes.** Reassess: did the action change the situation in the expected direction, and what will you do if it did not?
+
+### Contextual factors
+
+Context is not decoration — it changes the reasoning. Patient factors (age, culture, language, health history, baseline status), nurse factors (experience, fatigue, familiarity with the patient), and environmental factors (time pressure, staffing, available resources, policies) all influence which cues you notice and how you interpret them. Part of developing judgment is learning to name your own context: "I moved faster because the unit was busy" is an observation about the reasoning environment, not an excuse.
+
+### CJMM and the nursing process
+
+The two frameworks map onto each other — recognizing and analyzing cues aligns with assessment, prioritizing hypotheses and generating solutions with planning, taking action with implementation, and evaluating outcomes with evaluation — but the CJMM emphasizes the thinking steps and *hypotheses* (tentative explanations) rather than the formal steps of ADPIE. For exams, remember: the nursing process is what you do; the CJMM is how you think while doing it.
+
+## ELI-10: Explain Like I'm 10
+
+Clinical judgment is like being a detective for a patient's body. First you collect clues (what the patient says, what you observe, what you measure). Then you figure out which clues matter, make your best guess about what is wrong, pick the most important guess, decide what to try, do it carefully, and finally check whether the patient got better. The Clinical Judgment Measurement Model is a checklist of those detective steps so you never skip one — especially the "check whether it worked" step.
+
+## High-Yield Points
+
+- The CJMM was developed by the NCSBN and underpins Next Generation NCLEX (NGN) items.
+- Six cognitive operations, in order: **recognize cues → analyze cues → prioritize hypotheses → generate solutions → take action → evaluate outcomes**.
+- Clinical judgment is the *outcome*; the operations are the *process* that produces it.
+- Context (patient, nurse, environment) shapes every step of the model.
+- The model overlaps with the nursing process but emphasizes tentative hypotheses over formal diagnoses.
+- **Evaluate outcomes** is the step students most often skip — an action without a recheck is an unfinished reasoning cycle.
+- The model describes reasoning; it does not prescribe specific treatments.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Clinical judgment | The conclusion and decision a nurse reaches about a patient situation | It is the central outcome the whole model explains |
+| Cue | A piece of relevant information from assessment, report, history, or monitoring | Cues are the raw material of all clinical reasoning |
+| Hypothesis | A tentative explanation for what the cues mean, held until evidence supports or refutes it | Hypotheses keep thinking open instead of locking onto one answer |
+| Cognitive operation | One of the six named thinking steps in the model | NGN exam items test each step, so you must recognize them by name |
+| Context | The patient, nurse, and environmental conditions surrounding the situation | The same cue can mean different things in different contexts |
+| Evaluate outcomes | Reassessing after an action to see whether the situation changed as expected | Completing this step closes the reasoning loop and drives safety |
+
+## Example: Walking a Postoperative Patient Through the Model
+
+*Educational illustration — actual assessment, reporting, and order parameters vary by institution and scope of practice.*
+
+A nurse enters the room of a patient who is one day after abdominal surgery. The patient says the pain "feels different" from earlier and points to an area away from the incision.
+
+- **Recognize cues:** a different character of pain, a new location, and a change from the patient's earlier report.
+- **Analyze cues:** the new location and description do not match the incision itself, and the patient's earlier pain had improved — so this reads as a new problem rather than the same one.
+- **Prioritize hypotheses:** the possibility of a complication is ranked above simple incisional discomfort because it is more urgent; the nurse keeps both explanations in mind while gathering more data.
+- **Generate solutions:** options include reassessing the patient, comparing vital signs with baseline, and reporting the change — all actions within the nurse's scope.
+- **Take action:** the nurse performs the reassessment and notifies the provider according to facility policy.
+- **Evaluate outcomes:** after the provider evaluates, the nurse rechecks whether the patient's condition and report change, then documents the full cycle.
+
+Notice what the model does here: it never names the "right" diagnosis. The specific workup and orders belong to the provider and to facility policy. The model's job is to keep the reasoning complete so no step is skipped.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Clinical judgment | Critical thinking | Critical thinking is the broader reasoning skill; clinical judgment is its application to patient-care decisions |
+| Recognizing cues | Analyzing cues | Recognizing is noticing what is relevant; analyzing is interpreting what it means |
+| Generating solutions | Taking action | Generating is choosing among options; taking action is performing one safely |
+| A hypothesis | A diagnosis | A hypothesis is a tentative explanation to be tested; a diagnosis is a formal conclusion made under defined authority |
+| The nursing process | The CJMM | ADPIE is a structured method; the CJMM is a model of the cognition underneath it |
+| Evaluating outcomes | Documenting | Documentation records what happened; evaluation is the act of rechecking and deciding whether to continue, change, or stop |
+
+## Quick Review
+
+1. List the six cognitive operations of the Clinical Judgment Measurement Model in order.
+2. What is the difference between recognizing cues and analyzing cues?
+3. Why is the "evaluate outcomes" step essential to patient safety?
+4. How does context (patient, nurse, environment) change the way the model plays out?
+5. How do the nursing process and the CJMM relate to each other?
+
+<details>
+<summary>Show answers</summary>
+
+1. Recognize cues, analyze cues, prioritize hypotheses, generate solutions, take action, evaluate outcomes.
+2. Recognizing cues is identifying which pieces of data are relevant; analyzing cues is interpreting and organizing them to figure out what they mean.
+3. Without rechecking after an action, you cannot know whether the situation improved, worsened, or stayed the same — an un-evaluated action is an unfinished reasoning cycle and a missed chance to catch a wrong hypothesis.
+4. The same cue can mean different things depending on the patient's age, history, and baseline; the nurse's experience and state; and the environment's resources, staffing, and policies. Context shapes which cues you notice and how you interpret them.
+5. They overlap: recognition and analysis align with assessment, prioritizing and generating solutions with planning, taking action with implementation, and evaluating with evaluation. The nursing process is the structured method; the CJMM describes the cognitive operations underneath it.
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter
+- Next: [Developing Critical Thinking Skills](02-developing-critical-thinking-skills.md)
+- Related: [Unfolding Case Study Dissection](03-unfolding-case-study-dissection.md)
+- Related: [Clinical Judgment and Critical Thinking chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Clinical Nursing Skills
+- Local outline source: `clinical-nursing-skills.md`
+- Official source URL: https://openstax.org/details/books/clinical-nursing-skills/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-15

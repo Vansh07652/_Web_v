@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:chemical-thermodynamics:standard-molar-entropies",
+  "slug": "standard-molar-entropies",
+  "title": "Standard Molar Entropies",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:chemical-thermodynamics",
+    "slug": "chemical-thermodynamics",
+    "title": "Chemical Thermodynamics",
+    "order": 7
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "The **Third Law of Thermodynamics** states that a perfect crystal at absolute zero (0 K) has exactly one microstate, so its entropy is zero. This gives entropy an *absolute* reference point: unlike enthalpy or Gibbs free energy (which are defined relative to arbitrary formation references), every substance has a measurable, positive **standard molar entropy (S°)**. These tabulated values let us compute the entropy change of any reaction at 25 °C and 1 atm with ΔS° = ΣνS°(products) − ΣνS°(reactants).",
+    "whyItMatters": "Standard molar entropies are the data that make spontaneity calculations possible. Combining a computed ΔS° with ΔH° (from enthalpies of formation) yields ΔG°, which predicts whether a reaction is product-favored and how the equilibrium constant scales with temperature. The Third Law also matters in low-temperature physics and in understanding why absolute entropy can be measured at all.",
+    "learningObjectives": "- State the Third Law of Thermodynamics and its consequence (S = 0 at 0 K).\n- Explain what a standard molar entropy S° represents.\n- Calculate ΔS°rxn from tabulated standard molar entropies using ΔS° = ΣνS°(products) − ΣνS°(reactants).\n- Contrast absolute entropies with the \"zero reference\" used for enthalpy and free energy of formation.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe **Third Law of Thermodynamics** states that a perfect crystal at absolute zero (0 K) has exactly one microstate, so its entropy is zero. This gives entropy an *absolute* reference point: unlike enthalpy or Gibbs free energy (which are defined relative to arbitrary formation references), every substance has a measurable, positive **standard molar entropy (S°)**. These tabulated values let us compute the entropy change of any reaction at 25 °C and 1 atm with ΔS° = ΣνS°(products) − ΣνS°(reactants).\n\n### Key Ideas\n\n- **Absolute zero, one microstate.** A perfect crystal at 0 K has W = 1, so S = k ln 1 = 0.\n- **All S° values are positive.** Temperature, phase freedom, and molecular complexity all raise S° above zero.\n- **No \"formation\" reference needed.** S° is absolute; elements do *not* have S° = 0 (unlike ΔH°f and ΔG°f).\n- **Reaction entropy from tables.** ΔS°rxn = ΣνS°(products) − ΣνS°(reactants), using stoichiometric coefficients ν.\n- **Gas moles rule of thumb.** More moles of gas on the product side ⇒ ΔS°rxn > 0.\n\n### Equations and Variables\n\n| Symbol | Meaning | Common units |\n|---|---|---|\n| S° | Standard molar entropy (25 °C, 1 atm) | J/(mol·K) |\n| ν | Stoichiometric coefficient | dimensionless |\n| ΔS°rxn | Standard entropy change of reaction | J/(mol·K) |\n\nΔS°rxn = ΣνS°(products) − ΣνS°(reactants)\n\n### How It Works\n\n1. Look up S° for every reactant and product in a standard entropy table (all positive, in J/(mol·K)).\n2. Multiply each S° by its stoichiometric coefficient.\n3. Sum the products' contributions and subtract the sum of the reactants' contributions.\n4. Interpret the sign: positive means the reaction increases entropy (usually more gas moles or looser phases); negative means it decreases entropy.\n5. Keep J (not kJ) so the value plugs directly into ΔG = ΔH − TΔS.\n\n### Worked Example\n\n**Find ΔS°rxn for N₂(g) + 3 H₂(g) → 2 NH₃(g).**\n\nStandard molar entropies: S°(N₂) = 191.6, S°(H₂) = 130.7, S°(NH₃) = 192.8 J/(mol·K).\n\n- Products: 2 × 192.8 = 385.6 J/(mol·K)\n- Reactants: 191.6 + 3(130.7) = 191.6 + 392.1 = 583.7 J/(mol·K)\n- ΔS°rxn = 385.6 − 583.7 = **−198.1 J/(mol·K)**\n\nFour moles of gas become two, so the entropy decreases — the reaction \"tightens up\" the system, as the sign confirms.",
+    "howItWorks": "1. Look up S° for every reactant and product in a standard entropy table (all positive, in J/(mol·K)).\n2. Multiply each S° by its stoichiometric coefficient.\n3. Sum the products' contributions and subtract the sum of the reactants' contributions.\n4. Interpret the sign: positive means the reaction increases entropy (usually more gas moles or looser phases); negative means it decreases entropy.\n5. Keep J (not kJ) so the value plugs directly into ΔG = ΔH − TΔS.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Third Law: a perfect crystal at 0 K has **S = 0** (one microstate, W = 1).\n- S° is **absolute and always positive** — elements do *not* have S° = 0.\n- ΔS°rxn = ΣνS°(products) − ΣνS°(reactants).\n- Entropy values are in **J/(mol·K)**; convert to kJ when needed for ΔG.\n- More gas moles in products ⇒ ΔS°rxn > 0; fewer ⇒ ΔS°rxn < 0.\n- S° generally increases with molar mass, number of atoms, and phase freedom (s < l < g).",
+    "commonConfusions": "- **\"Elements have S° = 0 like they have ΔH°f = 0.\"** — Wrong. ΔH°f and ΔG°f of elements are zero *by convention*; S° is absolute and positive for every element.\n- **\"S° can be negative.\"** — Wrong. At any T > 0 K, W > 1, so S° > 0.\n- **\"Use kJ/mol for entropy.\"** — Wrong. S° and ΔS° are tabulated in J/(mol·K); only ΔH and ΔG use kJ/mol.\n- **\"Ignore stoichiometric coefficients.\"** — Wrong. Each S° is multiplied by its coefficient in the balanced equation.\n- **\"The Third Law says entropy is zero at 0 °C.\"** — Wrong. It is absolute zero (0 K ≈ −273.15 °C), and only for a perfect crystal.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nMost chemistry numbers are like heights measured from sea level — you pick a \"zero\" and measure up from it. Entropy is different: it has a real floor. At absolute zero, a perfect crystal is frozen into exactly one arrangement, so its \"number of arrangements\" is 1 — and entropy is zero, not a made-up starting point. That's why every substance's entropy is a positive, real number you can look up, like a genuine temperature rather than a relative height.",
+    "quickReview": "- Third Law: perfect crystal at 0 K has S = 0.\n- Standard molar entropies are absolute, positive, and tabulated in J/(mol·K).\n- ΔS°rxn = ΣνS°(products) − ΣνS°(reactants).\n- Sign of ΔS°rxn tracks changes in gas moles and phase freedom.\n- Elements have nonzero S°, unlike their zero ΔH°f and ΔG°f.",
+    "workedExamples": "### Worked Example\n\n**Find ΔS°rxn for N₂(g) + 3 H₂(g) → 2 NH₃(g).**\n\nStandard molar entropies: S°(N₂) = 191.6, S°(H₂) = 130.7, S°(NH₃) = 192.8 J/(mol·K).\n\n- Products: 2 × 192.8 = 385.6 J/(mol·K)\n- Reactants: 191.6 + 3(130.7) = 191.6 + 392.1 = 583.7 J/(mol·K)\n- ΔS°rxn = 385.6 − 583.7 = **−198.1 J/(mol·K)**\n\nFour moles of gas become two, so the entropy decreases — the reaction \"tightens up\" the system, as the sign confirms.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, Ch. 16.3 \"The Second and Third Laws of Thermodynamics.\" https://openstax.org/books/chemistry-2e/pages/16-3-the-second-and-third-laws-of-thermodynamics",
+        "url": "https://openstax.org/books/chemistry-2e/pages/16-3-the-second-and-third-laws-of-thermodynamics"
+      },
+      {
+        "text": "NIST Chemistry WebBook (thermodynamic data). https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      },
+      {
+        "text": "PubChem, National Library of Medicine (compound data). https://pubchem.ncbi.nlm.nih.gov/",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 1
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/16-chemical-thermodynamics/04-standard-molar-entropies.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

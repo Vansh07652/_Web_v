@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:cellular-energetics-and-metabolism:enzymes",
+  "slug": "enzymes",
+  "title": "Enzymes: Catalysts of Cellular Reactions",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:cellular-energetics-and-metabolism",
+    "slug": "cellular-energetics-and-metabolism",
+    "title": "Cellular Energetics And Metabolism",
+    "order": 4
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "**Enzymes** are proteins (and sometimes RNA) that act as **biological catalysts** — they greatly speed up reactions without being consumed, and without changing the reaction's ΔG or its equilibrium position. They work by lowering the **activation energy (Ea)** barrier, stabilizing the transition state so that reactants reach the product state far more quickly. Because nearly every reaction in a cell is enzyme-catalyzed, enzymes are the control points of metabolism: their amount, activity, and regulation decide what the cell does and how fast.",
+    "whyItMatters": "Enzymes make life possible — without them, even favorable reactions would be far too slow. They are also the main targets of pharmacology: many drugs (statins, ACE inhibitors, penicillin, proton-pump inhibitors) work by inhibiting specific enzymes. Inherited enzyme defects cause many diseases (e.g., phenylketonuria, G6PD deficiency), and enzyme levels in blood are used diagnostically (e.g., troponin or liver enzymes after tissue damage). Understanding enzyme kinetics and inhibition is therefore directly relevant to medicine, pharmacology, and biotechnology.",
+    "learningObjectives": "- Define a catalyst and explain how enzymes lower activation energy without changing ΔG or equilibrium.\n- Describe the active site, substrate binding, and the induced-fit model.\n- Distinguish cofactors from coenzymes and explain their roles.\n- Explain how temperature, pH, and substrate concentration affect enzyme activity.\n- Contrast competitive and noncompetitive (allosteric) inhibition, and describe allosteric activation and feedback inhibition.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Enzymes** are proteins (and sometimes RNA) that act as **biological catalysts** — they greatly speed up reactions without being consumed, and without changing the reaction's ΔG or its equilibrium position. They work by lowering the **activation energy (Ea)** barrier, stabilizing the transition state so that reactants reach the product state far more quickly. Because nearly every reaction in a cell is enzyme-catalyzed, enzymes are the control points of metabolism: their amount, activity, and regulation decide what the cell does and how fast.\n\n### Key Concepts\n\n### Activation Energy\nEven a spontaneous (exergonic) reaction must first push reactants over an energy \"hill\" — the **activation energy (Ea)** — the energy needed to contort and destabilize reactant molecules into the high-energy **transition state**. Enzymes lower Ea by binding and stabilizing the transition state, so more molecules have enough energy to react at a given temperature. Crucially, enzymes do **not** change ΔG or the equilibrium; they only make the reaction reach equilibrium faster.\n\n### Active Site and Substrate\nThe **substrate** is the molecule an enzyme acts on. It binds to the **active site**, a pocket or groove with a shape and chemistry (specific amino acid side chains) complementary to the substrate. The classic model was \"lock-and-key\" (rigid fit); the more accurate **induced-fit** model says the enzyme changes shape slightly as the substrate binds, wrapping around it and stressing its bonds toward the transition state.\n\n### Cofactors and Coenzymes\nMany enzymes need non-protein helpers:\n- **Cofactors** — inorganic ions such as Zn²⁺, Mg²⁺, Fe²⁺ that assist catalysis.\n- **Coenzymes** — organic molecules, often derived from vitamins (e.g., NAD⁺, FAD, coenzyme A), that shuttle electrons, atoms, or functional groups between reactions.\n\n### Enzyme Regulation\nEnzyme activity is controlled in several ways:\n- **Temperature:** activity rises with temperature (more collisions) up to an optimum; beyond it, the enzyme **denatures** (unfolds) and loses function.\n- **pH:** each enzyme has an optimal pH; extremes disrupt the ionic/hydrogen bonds that maintain its 3-D shape.\n- **Substrate concentration:** rate rises with [substrate] until the enzyme is **saturated** — every active site is occupied, and the rate reaches a maximum (Vmax).\n\n### Inhibition\n- **Competitive inhibition:** an inhibitor resembles the substrate and binds the **active site**, blocking the real substrate. It can be overcome by adding more substrate (raising [substrate] restores the rate).\n- **Noncompetitive (allosteric) inhibition:** the inhibitor binds a site **other than the active site** (an **allosteric site**) and changes the enzyme's shape so the active site works poorly. Adding more substrate does **not** overcome it.\n- **Allosteric activation:** an activator binds an allosteric site and stabilizes the active (high-affinity) shape.\n- **Feedback inhibition:** the end product of a metabolic pathway inhibits an enzyme early in the pathway, shutting off its own production when supplies are high — a negative-feedback control that prevents waste.\n\n### How It Works\n\n(1) A substrate diffuses into the active site, forming an enzyme–substrate (ES) complex. (2) The enzyme's side chains (and often a metal cofactor) position the substrate and stabilize the transition state, lowering Ea. (3) The reaction occurs — bonds break/form — producing product, which has lower affinity and is released. (4) The enzyme returns to its original state, ready for another substrate, so one enzyme can process many substrate molecules per second (high **turnover**). Regulation modulates step (1) or (2): an inhibitor can block the active site (competitive) or distort it (noncompetitive), and feedback inhibition ties the whole pathway to the cell's needs.",
+    "howItWorks": "(1) A substrate diffuses into the active site, forming an enzyme–substrate (ES) complex. (2) The enzyme's side chains (and often a metal cofactor) position the substrate and stabilize the transition state, lowering Ea. (3) The reaction occurs — bonds break/form — producing product, which has lower affinity and is released. (4) The enzyme returns to its original state, ready for another substrate, so one enzyme can process many substrate molecules per second (high **turnover**). Regulation modulates step (1) or (2): an inhibitor can block the active site (competitive) or distort it (noncompetitive), and feedback inhibition ties the whole pathway to the cell's needs.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Enzymes are catalysts: they speed reactions and are not consumed.\n- Enzymes lower activation energy (Ea); they do NOT change ΔG or equilibrium.\n- Substrate binds the active site; induced fit = enzyme shape changes on binding.\n- Cofactors = inorganic ions; coenzymes = organic molecules (often vitamins), e.g., NAD⁺, FAD.\n- Temperature and pH have optima; extremes denature the enzyme.\n- Raising [substrate] increases rate until saturation (Vmax).\n- Competitive inhibitors bind the active site (overcome by more substrate); noncompetitive inhibitors bind an allosteric site (not overcome).\n- Feedback inhibition: end product shuts off an early pathway enzyme.",
+    "commonConfusions": "- **\"Enzymes make nonspontaneous reactions spontaneous.\"** Wrong — enzymes only speed reactions; they cannot change ΔG, so an endergonic reaction stays endergonic.\n- **\"Enzymes are used up in the reaction.\"** Wrong — they are unchanged at the end and reused for many turnovers.\n- **\"Raising temperature always speeds the enzyme up.\"** Wrong — beyond the optimum, heat denatures the enzyme and activity crashes.\n- **\"Competitive and noncompetitive inhibitors both bind the active site.\"** Wrong — only competitive inhibitors bind the active site; noncompetitive inhibitors bind elsewhere (allosteric site).\n- **\"All enzymes are proteins.\"** Mostly true but incomplete — some catalytic RNAs (ribozymes) exist.\n- **\"More substrate always speeds the reaction without limit.\"** Wrong — the rate levels off at Vmax once all active sites are saturated.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a reaction as trying to push a heavy ball over a hill: even if the ball would happily roll down the far side, it first has to get over the top, which is the \"activation energy.\" An enzyme is like a bulldozer that flattens the hill into a gentle bump, so the ball rolls over in a flash — but it doesn't change where the ball ends up (the products are the same, and the \"downhill-ness,\" ΔG, is unchanged). The enzyme has a special \"hand\" (the active site) shaped to hold one kind of ball (the substrate); when the ball fits, the hand squeezes it a little (induced fit), helping it over the bump. Inhibitors are like pranksters: a *competitive* one shoves an identical-looking fake ball into the hand so the real ball can't fit (add more real balls and you win), while a *noncompetitive* one sneaks around and steps on the bulldozer's gas pedal or brake to change the whole machine's shape. The analogy's limit: enzymes don't physically \"push\" — they lower the energy barrier by stabilizing an unstable in-between state, which is why a tiny amount of enzyme can process a huge pile of substrate over and over.",
+    "quickReview": "- Catalyst: speeds reaction, not consumed.\n- Lowers Ea; ΔG and equilibrium unchanged.\n- Active site + induced fit; substrate → product.\n- Cofactors (ions) and coenzymes (NAD⁺, FAD) assist.\n- Temp/pH optima; denaturation at extremes; saturation kinetics → Vmax.\n- Competitive (active site) vs. noncompetitive/allosteric (elsewhere).\n- Feedback inhibition regulates pathways.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"6.5 Enzymes.\" https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+        "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes"
+      },
+      {
+        "text": "Berg, Tymoczko & Stryer, *Biochemistry*, 5th ed., \"Enzymes Are Powerful and Highly Specific Catalysts.\" NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/"
+      },
+      {
+        "text": "Cooper, *The Cell: A Molecular Approach*, 2nd ed., \"The Central Role of Enzymes as Biological Catalysts.\" NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK9839/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9839/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/04-cellular-energetics-and-metabolism/03-enzymes.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

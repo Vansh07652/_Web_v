@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-buffers-and-physiologic-chemistry-q11",
+  "subject": "chemistry-2",
+  "lesson": "buffers-and-physiologic-chemistry",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "The carbonic acid/bicarbonate pKa of 6.1 is well below the normal plasma pH of 7.4, yet this pair is still the body's most important extracellular buffer. What best explains this?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Its pKa shifts upward to 7.4 at body temperature, placing it at maximal capacity"
+    },
+    {
+      "id": "b",
+      "text": "It is an open system in which the lungs and kidneys independently regulate CO2 and bicarbonate"
+    },
+    {
+      "id": "c",
+      "text": "Carbonic acid is a strong acid, so it neutralizes added base faster than weak buffers do"
+    },
+    {
+      "id": "d",
+      "text": "Bicarbonate is more concentrated in plasma than chloride and all other anions"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "In a sealed beaker, a buffer operating 1.3 pH units above its pKa would be poor, because that requires a base-to-acid ratio of about 20 to 1 and leaves very little proton donor in reserve. Physiologically, ventilation continuously removes CO2 while the kidneys reclaim and regenerate bicarbonate, so numerator and denominator are separately and continuously adjustable rather than fixed. The alternatives are false as written: the pKa does not migrate to 7.4, chloride at about 100 mEq/L exceeds bicarbonate at about 24 mEq/L, and carbonic acid is a weak acid.\n\nELI-10: On paper this looks like a badly chosen buffer, since it is strongest at pH 6.1 while blood sits at 7.4. That 1.3-unit gap forces bicarbonate to outnumber dissolved CO2 by roughly 20 to 1, because 10 raised to the 1.3 power is about 19.95. What rescues it is that the body cheats. The lungs vent CO2 out of the bottom of the fraction and the kidneys make fresh bicarbonate at the top, so both dials are under active control. A buffer with two adjustable dials beats a fixed one with a better starting number.",
+  "difficulty": "hard",
+  "tags": [
+    "open buffer system",
+    "pKa versus physiologic pH",
+    "integrated regulation"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-280",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

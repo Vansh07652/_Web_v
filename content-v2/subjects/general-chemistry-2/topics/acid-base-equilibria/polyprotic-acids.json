@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:acid-base-equilibria:polyprotic-acids",
+  "slug": "polyprotic-acids",
+  "title": "Polyprotic Acids",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:acid-base-equilibria",
+    "slug": "acid-base-equilibria",
+    "title": "Acid Base Equilibria",
+    "order": 5
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "A **polyprotic acid** can donate more than one proton, but it does so in separate, *stepwise* equilibria, each with its own Ka. Successive protons are always harder to remove, so **Ka1 > Ka2 > Ka3**, often by factors of 10⁵ or more. The practical upshot: for most calculations, the first ionization alone sets the pH, because later ionizations contribute negligibly to [H₃O⁺]. Sulfuric acid is the important exception — its first proton is strong and its second is moderately weak.",
+    "whyItMatters": "Polyprotic acids include the acids of life: carbonic acid (H₂CO₃) buffers blood, phosphoric acid (H₃PO₄) is the backbone of DNA, ATP, and intracellular buffers, and citric acid runs the Krebs cycle. Understanding their stepwise behavior explains why blood pH is stable, why phosphate buffers work at physiological pH, and why solutions of amphiprotic salts (NaHCO₃, NaH₂PO₄) land at intermediate pH values.",
+    "learningObjectives": "- Recognize polyprotic acids and write their stepwise ionizations.\n- Explain why Ka1 > Ka2 > Ka3.\n- Calculate the pH of a polyprotic acid solution using the first ionization.\n- Handle the special case of sulfuric acid and amphiprotic intermediate ions.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA **polyprotic acid** can donate more than one proton, but it does so in separate, *stepwise* equilibria, each with its own Ka. Successive protons are always harder to remove, so **Ka1 > Ka2 > Ka3**, often by factors of 10⁵ or more. The practical upshot: for most calculations, the first ionization alone sets the pH, because later ionizations contribute negligibly to [H₃O⁺]. Sulfuric acid is the important exception — its first proton is strong and its second is moderately weak.\n\n### Key Ideas\n\n- **Stepwise ionization:** H₃PO₄ → H₂PO₄⁻ → HPO₄²⁻ → PO₄³⁻, each step with its own Ka.\n- **Ka ordering:** Ka1 ≫ Ka2 ≫ Ka3; each successive proton is harder to pull off a more negatively charged species.\n- **pH is set by Ka1:** because Ka2 is so much smaller, the second step's added H₃O⁺ is negligible (unless Ka values are close, as in H₂SO₄).\n- **Amphiprotic intermediates** (H₂PO₄⁻, HCO₃⁻, HSO₄⁻) can both donate and accept.\n- **A²⁻ from Ka2 equals Ka2** (approximately): for a diprotic acid H₂A, [A²⁻] ≈ Ka2 when the first ionization dominates.\n\n### Equations and Variables\n\n- Diprotic acid, step 1: H₂A + H₂O ⇌ H₃O⁺ + HA⁻, Ka1 = [H₃O⁺][HA⁻]/[H₂A]\n- Step 2: HA⁻ + H₂O ⇌ H₃O⁺ + A²⁻, Ka2 = [H₃O⁺][A²⁻]/[HA⁻]\n- Triprotic (phosphoric): Ka1 = 7.5 × 10⁻³, Ka2 = 6.2 × 10⁻⁸, Ka3 = 4.2 × 10⁻¹³\n- Sulfuric: first step complete; Ka2 = 1.2 × 10⁻² (HSO₄⁻ ⇌ H⁺ + SO₄²⁻)\n- Total ionization is NOT the sum of Kas; it is the product of the individual steps.\n\n### How It Works\n\n1. Write each ionization as its own equilibrium with its own arrow and Ka.\n2. Recognize the charge effect: after step 1 the remaining ion is negatively charged, so it holds its remaining proton more tightly; after step 2 it is more negative still. This is why Ka falls sharply.\n3. To find pH, solve step 1 alone (treat as a monoprotic weak acid with Ka = Ka1) using an ICE table.\n4. The H₃O⁺ produced in step 1 *suppresses* step 2 (common-ion effect), making its contribution negligible.\n5. If you need the concentration of the fully deprotonated ion A²⁻, it is approximately equal to Ka2 (for a diprotic acid).\n6. For H₂SO₄, add the complete first ionization (giving [H₃O⁺] = C plus the first H⁺) to the partial second ionization via an ICE table on HSO₄⁻.\n\n### Worked Example\n\n**Find the pH of 0.10 M H₂CO₃ (Ka1 = 4.3 × 10⁻⁷, Ka2 = 4.7 × 10⁻¹¹).**\n\nBecause Ka1 ≫ Ka2, use only step 1:\n\nH₂CO₃ + H₂O ⇌ H₃O⁺ + HCO₃⁻, Ka1 = x²/(0.10 − x)\n\nx ≈ √(4.3 × 10⁻⁷ × 0.10) = √(4.3 × 10⁻⁸) = 2.07 × 10⁻⁴ M\n\nCheck: (2.07 × 10⁻⁴ / 0.10) × 100% = 0.21% < 5% ✓\n\npH = −log(2.07 × 10⁻⁴) = 3.68\n\nThe second ionization contributes only about Ka2 = 4.7 × 10⁻¹¹ M of extra H₃O⁺ — utterly negligible against 2.07 × 10⁻⁴ M.",
+    "howItWorks": "1. Write each ionization as its own equilibrium with its own arrow and Ka.\n2. Recognize the charge effect: after step 1 the remaining ion is negatively charged, so it holds its remaining proton more tightly; after step 2 it is more negative still. This is why Ka falls sharply.\n3. To find pH, solve step 1 alone (treat as a monoprotic weak acid with Ka = Ka1) using an ICE table.\n4. The H₃O⁺ produced in step 1 *suppresses* step 2 (common-ion effect), making its contribution negligible.\n5. If you need the concentration of the fully deprotonated ion A²⁻, it is approximately equal to Ka2 (for a diprotic acid).\n6. For H₂SO₄, add the complete first ionization (giving [H₃O⁺] = C plus the first H⁺) to the partial second ionization via an ICE table on HSO₄⁻.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Polyprotic acids ionize stepwise; each step has its own Ka.\n- Ka1 > Ka2 > Ka3 (charge makes later protons harder to remove).\n- pH of a polyprotic acid ≈ set by Ka1 alone.\n- For diprotic H₂A with Ka1 dominating: [A²⁻] ≈ Ka2.\n- H₂SO₄ is special: step 1 is strong, Ka2 = 1.2 × 10⁻² (must include step 2).\n- Amphiprotic intermediates: HCO₃⁻, H₂PO₄⁻, HPO₄²⁻, HSO₄⁻.",
+    "commonConfusions": "- **\"Ka2 adds equally to pH.\"** — The second ionization is typically ~10⁵ times smaller, so it is negligible for pH; it matters only if Ka1 and Ka2 are close (H₂SO₄).\n- **\"H₂SO₄ is like other diprotic acids.\"** — Its first proton is *strong* (complete) and its second is weak; you must handle both.\n- **\"[A²⁻] = [H₃O⁺].\"** — For a diprotic acid, [A²⁻] ≈ Ka2, which is far smaller than [H₃O⁺] from step 1.\n- **\"The overall K equals Ka1 + Ka2.\"** — The overall ionization constant for losing two protons is the *product* Ka1 × Ka2, not the sum.\n- **\"HPO₄²⁻ is neutral in water.\"** — It is amphiprotic and basic in pure water because its Kb exceeds its Ka.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of a polyprotic acid as a parent with three kids. Letting go of the first kid (proton) is relatively easy. But now the household (the ion) is down one and has more responsibility (more negative charge), so letting go of the second kid is much harder, and the third is almost impossible. To find the pH, you usually only need to count the first kid leaving — the others barely matter. (The analogy's limit: \"harder to let go\" is really about electrostatic attraction between the increasingly negative ion and the remaining proton.)",
+    "quickReview": "- Stepwise ionization with separate Kas; Ka1 > Ka2 > Ka3.\n- pH set by Ka1; later steps negligible (except H₂SO₄).\n- [A²⁻] ≈ Ka2 for a diprotic acid.\n- H₂SO₄: strong first proton + weak second (Ka2 = 1.2 × 10⁻²).\n- Overall two-proton K = Ka1 × Ka2.",
+    "workedExamples": "### Worked Example\n\n**Find the pH of 0.10 M H₂CO₃ (Ka1 = 4.3 × 10⁻⁷, Ka2 = 4.7 × 10⁻¹¹).**\n\nBecause Ka1 ≫ Ka2, use only step 1:\n\nH₂CO₃ + H₂O ⇌ H₃O⁺ + HCO₃⁻, Ka1 = x²/(0.10 − x)\n\nx ≈ √(4.3 × 10⁻⁷ × 0.10) = √(4.3 × 10⁻⁸) = 2.07 × 10⁻⁴ M\n\nCheck: (2.07 × 10⁻⁴ / 0.10) × 100% = 0.21% < 5% ✓\n\npH = −log(2.07 × 10⁻⁴) = 3.68\n\nThe second ionization contributes only about Ka2 = 4.7 × 10⁻¹¹ M of extra H₃O⁺ — utterly negligible against 2.07 × 10⁻⁴ M.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"14.5 Polyprotic Acids.\" https://openstax.org/books/chemistry-2e/pages/14-5-polyprotic-acids",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-5-polyprotic-acids"
+      },
+      {
+        "text": "PubChem, \"Phosphoric Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Phosphoric-acid",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Phosphoric-acid"
+      },
+      {
+        "text": "PubChem, \"Sulfuric Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Sulfuric-acid",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Sulfuric-acid"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "polyprotic-acids",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "08-polyprotic-acids",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:393fd2ba44153004"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:393fd2ba44153004"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:393fd2ba44153004"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:393fd2ba44153004"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/14-acid-base-equilibria/08-polyprotic-acids.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Polyprotic Acids\n\n## Learning Goals\n- Recognize polyprotic acids and write their stepwise ionizations.\n- Explain why Ka1 > Ka2 > Ka3.\n- Calculate the pH of a polyprotic acid solution using the first ionization.\n- Handle the special case of sulfuric acid and amphiprotic intermediate ions.\n\n## Core Concept\nA **polyprotic acid** can donate more than one proton, but it does so in separate, *stepwise* equilibria, each with its own Ka. Successive protons are always harder to remove, so **Ka1 > Ka2 > Ka3**, often by factors of 10⁵ or more. The practical upshot: for most calculations, the first ionization alone sets the pH, because later ionizations contribute negligibly to [H₃O⁺]. Sulfuric acid is the important exception — its first proton is strong and its second is moderately weak.\n\n## Key Ideas\n- **Stepwise ionization:** H₃PO₄ → H₂PO₄⁻ → HPO₄²⁻ → PO₄³⁻, each step with its own Ka.\n- **Ka ordering:** Ka1 ≫ Ka2 ≫ Ka3; each successive proton is harder to pull off a more negatively charged species.\n- **pH is set by Ka1:** because Ka2 is so much smaller, the second step's added H₃O⁺ is negligible (unless Ka values are close, as in H₂SO₄).\n- **Amphiprotic intermediates** (H₂PO₄⁻, HCO₃⁻, HSO₄⁻) can both donate and accept.\n- **A²⁻ from Ka2 equals Ka2** (approximately): for a diprotic acid H₂A, [A²⁻] ≈ Ka2 when the first ionization dominates.\n\n## Equations and Variables\n- Diprotic acid, step 1: H₂A + H₂O ⇌ H₃O⁺ + HA⁻, Ka1 = [H₃O⁺][HA⁻]/[H₂A]\n- Step 2: HA⁻ + H₂O ⇌ H₃O⁺ + A²⁻, Ka2 = [H₃O⁺][A²⁻]/[HA⁻]\n- Triprotic (phosphoric): Ka1 = 7.5 × 10⁻³, Ka2 = 6.2 × 10⁻⁸, Ka3 = 4.2 × 10⁻¹³\n- Sulfuric: first step complete; Ka2 = 1.2 × 10⁻² (HSO₄⁻ ⇌ H⁺ + SO₄²⁻)\n- Total ionization is NOT the sum of Kas; it is the product of the individual steps.\n\n## How It Works\n1. Write each ionization as its own equilibrium with its own arrow and Ka.\n2. Recognize the charge effect: after step 1 the remaining ion is negatively charged, so it holds its remaining proton more tightly; after step 2 it is more negative still. This is why Ka falls sharply.\n3. To find pH, solve step 1 alone (treat as a monoprotic weak acid with Ka = Ka1) using an ICE table.\n4. The H₃O⁺ produced in step 1 *suppresses* step 2 (common-ion effect), making its contribution negligible.\n5. If you need the concentration of the fully deprotonated ion A²⁻, it is approximately equal to Ka2 (for a diprotic acid).\n6. For H₂SO₄, add the complete first ionization (giving [H₃O⁺] = C plus the first H⁺) to the partial second ionization via an ICE table on HSO₄⁻.\n\n## Worked Example\n**Find the pH of 0.10 M H₂CO₃ (Ka1 = 4.3 × 10⁻⁷, Ka2 = 4.7 × 10⁻¹¹).**\n\nBecause Ka1 ≫ Ka2, use only step 1:\n\nH₂CO₃ + H₂O ⇌ H₃O⁺ + HCO₃⁻, Ka1 = x²/(0.10 − x)\n\nx ≈ √(4.3 × 10⁻⁷ × 0.10) = √(4.3 × 10⁻⁸) = 2.07 × 10⁻⁴ M\n\nCheck: (2.07 × 10⁻⁴ / 0.10) × 100% = 0.21% < 5% ✓\n\npH = −log(2.07 × 10⁻⁴) = 3.68\n\nThe second ionization contributes only about Ka2 = 4.7 × 10⁻¹¹ M of extra H₃O⁺ — utterly negligible against 2.07 × 10⁻⁴ M.\n\n## Why It Matters\nPolyprotic acids include the acids of life: carbonic acid (H₂CO₃) buffers blood, phosphoric acid (H₃PO₄) is the backbone of DNA, ATP, and intracellular buffers, and citric acid runs the Krebs cycle. Understanding their stepwise behavior explains why blood pH is stable, why phosphate buffers work at physiological pH, and why solutions of amphiprotic salts (NaHCO₃, NaH₂PO₄) land at intermediate pH values.\n\n## High-Yield Facts\n- Polyprotic acids ionize stepwise; each step has its own Ka.\n- Ka1 > Ka2 > Ka3 (charge makes later protons harder to remove).\n- pH of a polyprotic acid ≈ set by Ka1 alone.\n- For diprotic H₂A with Ka1 dominating: [A²⁻] ≈ Ka2.\n- H₂SO₄ is special: step 1 is strong, Ka2 = 1.2 × 10⁻² (must include step 2).\n- Amphiprotic intermediates: HCO₃⁻, H₂PO₄⁻, HPO₄²⁻, HSO₄⁻.\n\n## Eli Explains\nThink of a polyprotic acid as a parent with three kids. Letting go of the first kid (proton) is relatively easy. But now the household (the ion) is down one and has more responsibility (more negative charge), so letting go of the second kid is much harder, and the third is almost impossible. To find the pH, you usually only need to count the first kid leaving — the others barely matter. (The analogy's limit: \"harder to let go\" is really about electrostatic attraction between the increasingly negative ion and the remaining proton.)\n\n## Common Confusions\n- **\"Ka2 adds equally to pH.\"** — The second ionization is typically ~10⁵ times smaller, so it is negligible for pH; it matters only if Ka1 and Ka2 are close (H₂SO₄).\n- **\"H₂SO₄ is like other diprotic acids.\"** — Its first proton is *strong* (complete) and its second is weak; you must handle both.\n- **\"[A²⁻] = [H₃O⁺].\"** — For a diprotic acid, [A²⁻] ≈ Ka2, which is far smaller than [H₃O⁺] from step 1.\n- **\"The overall K equals Ka1 + Ka2.\"** — The overall ionization constant for losing two protons is the *product* Ka1 × Ka2, not the sum.\n- **\"HPO₄²⁻ is neutral in water.\"** — It is amphiprotic and basic in pure water because its Kb exceeds its Ka.\n\n## Quick Review\n- Stepwise ionization with separate Kas; Ka1 > Ka2 > Ka3.\n- pH set by Ka1; later steps negligible (except H₂SO₄).\n- [A²⁻] ≈ Ka2 for a diprotic acid.\n- H₂SO₄: strong first proton + weak second (Ka2 = 1.2 × 10⁻²).\n- Overall two-proton K = Ka1 × Ka2.\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"14.5 Polyprotic Acids.\" https://openstax.org/books/chemistry-2e/pages/14-5-polyprotic-acids\n- PubChem, \"Phosphoric Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Phosphoric-acid\n- PubChem, \"Sulfuric Acid.\" https://pubchem.ncbi.nlm.nih.gov/compound/Sulfuric-acid\n- NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/\n"
+}

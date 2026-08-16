@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cell-cycle-cell-death:cytokinesis",
+  "slug": "cytokinesis",
+  "title": "Cytokinesis and the Actomyosin Ring",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cell-cycle-cell-death",
+    "slug": "cell-cycle-cell-death",
+    "title": "Cell Cycle Cell Death",
+    "order": 7
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "Cytokinesis is the physical division of the cytoplasm that follows chromosome segregation, producing two daughter cells. In animal cells it is driven by a contractile ring — a transient belt of actin filaments and myosin II motor proteins that assembles just beneath the plasma membrane at the cell equator. Myosin II slides actin filaments past one another, much as in muscle, constricting the ring like a drawstring until the cell pinches in two (the cleavage furrow). The position of the furrow is specified by the mitotic spindle, primarily through signals from the central spindle (antiparallel interpolar microtubules) and astral microtubules.",
+    "whyItMatters": "Cytokinesis failure produces binucleate or aneuploid cells, a source of genomic instability that contributes to cancer and developmental defects. The actomyosin ring is the clearest non-muscle example of the same contractile machinery that powers muscle contraction, cell migration, and wound closure. Cytokinesis-specific proteins (RhoA effectors, ESCRT, Aurora B, Plk1) are emerging anticancer targets: some tumor cells are hypersensitive to cytokinesis blockade, and ESCRT/Aurora inhibitors are in development. Understanding furrow positioning also informs how epithelial sheets orient divisions during development.",
+    "learningObjectives": "- Describe cytokinesis and how its timing and position are determined.\n- Explain the structure of the contractile (actomyosin) ring.\n- Describe how myosin II and actin generate the constriction force.\n- Explain how the central spindle and astral microtubules position the cleavage furrow.\n- Contrast animal cytokinesis with plant cytokinesis (cell plate).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nCytokinesis is the physical division of the cytoplasm that follows chromosome segregation, producing two daughter cells. In animal cells it is driven by a contractile ring — a transient belt of actin filaments and myosin II motor proteins that assembles just beneath the plasma membrane at the cell equator. Myosin II slides actin filaments past one another, much as in muscle, constricting the ring like a drawstring until the cell pinches in two (the cleavage furrow). The position of the furrow is specified by the mitotic spindle, primarily through signals from the central spindle (antiparallel interpolar microtubules) and astral microtubules.\n\n### Key Components\n\n- **Contractile ring**: Cortical ring of actin filaments, myosin II, and associated proteins (formin, anillin, septins).\n- **Myosin II**: Bipolar motor that crosslinks and slides antiparallel actin filaments.\n- **Actin filaments**: The cable that the ring contracts.\n- **RhoA**: Small GTPase that triggers ring assembly by activating formins (actin nucleation) and Rho kinase (myosin activation).\n- **Central spindle / midbody**: Antiparallel microtubule bundle between the separating chromosomes that positions and later stabilizes the furrow.\n- **Anillin and septins**: Scaffold/cytoskeletal proteins that anchor and stabilize the ring.\n- **Cell plate (plants)**: Vesicle-based new cell wall built at the phragmoplast.\n\n### Mechanism / How It Works\n\n1. **Positioning**: In anaphase, the spindle communicates the division plane. Antiparallel central-spindle microtubules recruit regulators (e.g., the centralspindlin complex and Ect2, a Rho GEF) to the equator; astral microtubules provide inhibitory signals that prevent furrowing at the poles.\n2. **RhoA activation**: Ect2 activates RhoA in a narrow equatorial band.\n3. **Ring assembly**: Active RhoA activates formins (which nucleate and elongate actin) and Rho kinase (which phosphorylates myosin light chain, activating myosin II). Actin and myosin II assemble into a contractile ring, scaffolded by anillin and septins, attached to the membrane.\n4. **Constriction**: Myosin II heads walk along actin filaments, sliding antiparallel filaments together and generating tension. As the ring constricts, actin filaments are disassembled and the ring maintains roughly constant thickness while shrinking.\n5. **Abscission**: Constriction proceeds until a narrow intercellular bridge with a midbody (bundled central-spindle microtubules) remains; the ESCRT machinery severs the plasma membrane to complete separation.\n\n### Energy and Directionality\n\nCytokinesis is ATP-driven: myosin II hydrolysis of ATP powers filament sliding and force generation; RhoA cycling uses GTP; actin polymerization consumes ATP. Constriction is a directional, self-reinforcing process — once the ring closes beyond a threshold, membrane tension and the narrowing geometry drive it to completion, culminating in the irreversible membrane scission of abscission. The energy cost ensures that only cells that have completed chromosome segregation (and satisfied the relevant checkpoints) complete division.\n\n### Experimental Evidence / Technique\n\n- **Drug studies**: Latrunculin (actin depolymerizer) and blebbistatin (myosin II inhibitor) block furrow ingression, proving actin and myosin II are required. Cytochalasin similarly inhibits cleavage.\n- **RhoA manipulation**: Dominant-negative RhoA or Rho GEF inhibition blocks furrow formation; constitutively active RhoA induces ectopic furrows.\n- **Micromanipulation**: Moving the spindle or creating a second spindle repositions or duplicates the furrow, showing the spindle dictates furrow position.\n- **Laser ablation** of central-spindle microtubules perturbs furrow positioning.\n- **Live imaging** of fluorescent myosin II and actin reveals ring assembly, constriction, and disassembly dynamics in real time.",
+    "howItWorks": "1. **Positioning**: In anaphase, the spindle communicates the division plane. Antiparallel central-spindle microtubules recruit regulators (e.g., the centralspindlin complex and Ect2, a Rho GEF) to the equator; astral microtubules provide inhibitory signals that prevent furrowing at the poles.\n2. **RhoA activation**: Ect2 activates RhoA in a narrow equatorial band.\n3. **Ring assembly**: Active RhoA activates formins (which nucleate and elongate actin) and Rho kinase (which phosphorylates myosin light chain, activating myosin II). Actin and myosin II assemble into a contractile ring, scaffolded by anillin and septins, attached to the membrane.\n4. **Constriction**: Myosin II heads walk along actin filaments, sliding antiparallel filaments together and generating tension. As the ring constricts, actin filaments are disassembled and the ring maintains roughly constant thickness while shrinking.\n5. **Abscission**: Constriction proceeds until a narrow intercellular bridge with a midbody (bundled central-spindle microtubules) remains; the ESCRT machinery severs the plasma membrane to complete separation.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Contractile ring = **actin + myosin II** (+ anillin, septins); myosin II slides antiparallel actin filaments.\n- **RhoA** is the master switch: activates **formins** (actin nucleation) and **Rho kinase** (myosin II activation).\n- Furrow position is set by the **central spindle** (equatorial Rho activation) and **astral MTs** (polar inhibition).\n- Constriction → intercellular bridge with **midbody** → **ESCRT**-mediated abscission.\n- Plants divide by a **cell plate** (Golgi-derived vesicles at the phragmoplast), not an actomyosin ring.",
+    "commonConfusions": "- **Mitosis vs. cytokinesis**: Mitosis divides the nucleus (chromosomes); cytokinesis divides the cytoplasm. They normally follow each other but are separate processes.\n- **Actomyosin ring vs. spindle**: The spindle segregates chromosomes (microtubules); the ring divides the cell (actin + myosin). Both use motors but different cytoskeletal systems.\n- **Myosin II, not myosin I/V**: The contractile ring uses bipolar myosin II filaments; myosin I and V are cargo transporters.\n- **Animal vs. plant cytokinesis**: Animals pinch (actomyosin ring); plants build a cell plate from the inside out (no ring).",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nPicture pinching a balloon in the middle with a string. As the string tightens, the balloon narrows and eventually splits into two smaller balloons. In a cell, the \"string\" is a ring of actin cables and myosin motors that pull the cables past each other, like tiny rowers pulling on ropes, shrinking the ring until the cell splits in two. The cell decides *where* to put the string by using the leftover spindle between the two sets of chromosomes as a landmark — the middle of the spindle marks the middle of the cell. The analogy's limit: the ring is not a single string but a dynamic mesh that keeps rebuilding itself smaller, and the final \"snip\" of the membrane is done by a dedicated set of proteins (ESCRT), not just by pulling.",
+    "quickReview": "- Anaphase → central spindle + astral MTs position furrow → Ect2 → RhoA-GTP → formin + Rho kinase → actin/myosin II ring → constriction → midbody → ESCRT abscission.\n- Failure → binucleate/aneuploid cells → genomic instability.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 6th ed., Chapter 17, \"Cytokinesis.\""
+      },
+      {
+        "text": "Glotzer, M., \"The molecular requirements for cytokinesis,\" *Science* (2005)."
+      },
+      {
+        "text": "Green, R. A. et al., \"Cytokinesis in animal cells,\" *Annual Review of Cell and Developmental Biology* (2012)."
+      },
+      {
+        "text": "Lodish et al., *Molecular Cell Biology*, 9th ed., Chapter 19."
+      },
+      {
+        "text": "NCBI Bookshelf, *The Cell: A Molecular Approach*, 2nd ed., \"Cytokinesis.\""
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/07-cell-cycle-cell-death/08-cytokinesis.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

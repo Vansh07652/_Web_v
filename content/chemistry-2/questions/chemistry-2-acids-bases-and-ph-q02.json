@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-acids-bases-and-ph-q02",
+  "subject": "chemistry-2",
+  "lesson": "acids-bases-and-ph",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "The pH scale is logarithmic. A solution at pH 4 has a hydronium ion concentration how many times greater than a solution at pH 7?",
+  "options": [
+    {
+      "id": "a",
+      "text": "3 times greater"
+    },
+    {
+      "id": "b",
+      "text": "100 times greater"
+    },
+    {
+      "id": "c",
+      "text": "1,000 times greater"
+    },
+    {
+      "id": "d",
+      "text": "10,000 times greater"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Because pH = -log[H3O+], each whole pH unit corresponds to a tenfold change in hydronium concentration. A difference of 3 pH units is therefore 10 raised to the third power, a 1,000-fold difference in [H3O+]. Option A treats the scale as linear, the most common misconception about pH; option B corresponds to a 2-unit difference and option D to a 4-unit difference.\n\nELI-10: pH counts powers of ten, not equal steps. Moving from pH 7 to pH 6 multiplies the hydronium concentration by 10, from 7 to 5 by 100, and from 7 to 4 by 1,000. Concretely, pH 7 is 0.0000001 mol/L and pH 4 is 0.0001 mol/L. That compression is why a change of even a few tenths of a unit in a patient's blood is chemically large.",
+  "difficulty": "easy",
+  "tags": [
+    "logarithmic pH scale",
+    "hydronium concentration",
+    "order of magnitude"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-279",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

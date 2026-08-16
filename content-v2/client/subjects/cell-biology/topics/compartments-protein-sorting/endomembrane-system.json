@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:compartments-protein-sorting:endomembrane-system",
+  "slug": "endomembrane-system",
+  "title": "The Endomembrane System",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:compartments-protein-sorting",
+    "slug": "compartments-protein-sorting",
+    "title": "Compartments Protein Sorting",
+    "order": 3
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "The endomembrane system is a set of membrane-bound compartments — the endoplasmic reticulum (ER), Golgi apparatus, endosomes, lysosomes, transport vesicles, and the plasma membrane — that are physically connected by the continuous budding and fusion of transport vesicles. Materials move through the system without ever crossing a membrane by free diffusion; instead they are packaged into vesicles that pinch off from one compartment and fuse with the next. A central topological fact organizes the whole system: the lumen (interior) of every one of these organelles is equivalent to the extracellular space, and the cytosolic face of every membrane stays facing the cytosol through every round of budding and fusion. This means a protein in the ER lumen is already, in a topological sense, \"outside the cell,\" and can be secreted simply by following the default forward path.",
+    "whyItMatters": "The endomembrane system underlies secretion, plasma-membrane growth, antigen presentation, neurotransmitter release, and lysosomal degradation. Its logic — connected compartments that exchange material by vesicle traffic — explains how cells export insulin, antibodies, collagen, and digestive enzymes. Defects in the machinery cause diseases: mutations in COPII components cause a bleeding disorder (combined deficiency of coagulation factors V and VIII), and lysosomal enzyme mistargeting causes the lysosomal storage diseases.",
+    "learningObjectives": "- Explain how the ER, Golgi, endosomes, lysosomes, and plasma membrane form a functionally connected compartment.\n- Describe why the interior (lumen) of endomembrane organelles is topologically equivalent to the extracellular space.\n- Distinguish the endomembrane system from mitochondria, chloroplasts, and peroxisomes.\n- Trace the default secretory pathway a newly synthesized protein follows from the ER to the cell surface.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe endomembrane system is a set of membrane-bound compartments — the endoplasmic reticulum (ER), Golgi apparatus, endosomes, lysosomes, transport vesicles, and the plasma membrane — that are physically connected by the continuous budding and fusion of transport vesicles. Materials move through the system without ever crossing a membrane by free diffusion; instead they are packaged into vesicles that pinch off from one compartment and fuse with the next. A central topological fact organizes the whole system: the lumen (interior) of every one of these organelles is equivalent to the extracellular space, and the cytosolic face of every membrane stays facing the cytosol through every round of budding and fusion. This means a protein in the ER lumen is already, in a topological sense, \"outside the cell,\" and can be secreted simply by following the default forward path.\n\n### Key Components\n\n- **Endoplasmic reticulum (ER):** entry point for the secretory pathway; rough ER (ribosome-studded) synthesizes secreted, membrane, and lysosomal proteins; smooth ER synthesizes lipids, stores Ca²⁺, and detoxifies.\n- **Golgi apparatus:** a stack of flattened cisternae with a *cis* (entry) face and a *trans* (exit) face; modifies, sorts, and dispatches glycoproteins and lipids.\n- **Transport vesicles:** small membrane carriers (COPI-, COPII-, or clathrin-coated) that move cargo between compartments.\n- **Endosomes:** sorting stations receiving material from the plasma membrane and the *trans*-Golgi network (TGN).\n- **Lysosomes:** degradative organelles containing acid hydrolases, the terminal destination of the endocytic pathway.\n- **Plasma membrane:** the ultimate delivery target for exocytic vesicles and the source of endocytic vesicles.\n\n### Mechanism / How It Works\n\n1. A protein destined for secretion is synthesized by a ribosome that becomes bound to the rough ER (targeted by an ER signal sequence).\n2. The growing polypeptide is co-translationally translocated into the ER lumen, where it folds and may be glycosylated.\n3. The protein is packaged into a COPII-coated vesicle that buds from ER exit sites and travels to the *cis*-Golgi.\n4. Cargo moves *cis* → medial → *trans* through the Golgi, where its N-linked oligosaccharides are trimmed and rebuilt and it is further sorted.\n5. At the TGN, the protein is sorted into a clathrin- or otherwise-coated vesicle destined for the plasma membrane.\n6. The vesicle fuses with the plasma membrane (exocytosis), releasing the protein to the extracellular space.\n7. Membrane and membrane proteins are internalized again by endocytosis, moving plasma membrane → early endosome → late endosome → lysosome, recycling material back through the system.\n\nThroughout, membrane topology is conserved: the lumen-facing surface stays lumen-facing, and the cytosolic surface stays cytosolic.\n\n### Energy and Directionality\n\nThe default (anterograde) flow — ER → Golgi → plasma membrane — is driven by GTP-hydrolyzing switches (Sar1, ARF, Rab GTPases) that regulate coat assembly and vesicle targeting, and by ATP-hydrolyzing motor proteins and SNARE-mediated fusion. Retrieval (retrograde) steps that balance forward flow use COPI vesicles carrying signals such as the KDEL receptor. Each budding and fusion event consumes energy (GTP and ATP) to ensure directionality; the thermodynamically \"downhill\" diffusion of lipids is irrelevant because membranes do not spontaneously fuse — fusion is a catalyzed, energy-coupled process.\n\n### Experimental Evidence / Technique\n\nThe continuity of the system was demonstrated by George Palade and colleagues using **pulse-chase autoradiography** in pancreatic acinar cells: radioactively labeled amino acids were chased through the rough ER, then the Golgi, then secretory granules, then the extracellular space over time, revealing the sequential path. **Cell-free reconstitution** and **temperature-sensitive secretory mutants** in yeast (Sec mutants) identified the machinery. **Green fluorescent protein (GFP) tagging** of a temperature-sensitive viral glycoprotein (VSV-G) allowed the cargo's movement through the Golgi to be watched live in real time.",
+    "howItWorks": "1. A protein destined for secretion is synthesized by a ribosome that becomes bound to the rough ER (targeted by an ER signal sequence).\n2. The growing polypeptide is co-translationally translocated into the ER lumen, where it folds and may be glycosylated.\n3. The protein is packaged into a COPII-coated vesicle that buds from ER exit sites and travels to the *cis*-Golgi.\n4. Cargo moves *cis* → medial → *trans* through the Golgi, where its N-linked oligosaccharides are trimmed and rebuilt and it is further sorted.\n5. At the TGN, the protein is sorted into a clathrin- or otherwise-coated vesicle destined for the plasma membrane.\n6. The vesicle fuses with the plasma membrane (exocytosis), releasing the protein to the extracellular space.\n7. Membrane and membrane proteins are internalized again by endocytosis, moving plasma membrane → early endosome → late endosome → lysosome, recycling material back through the system.\n\nThroughout, membrane topology is conserved: the lumen-facing surface stays lumen-facing, and the cytosolic surface stays cytosolic.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- The endomembrane system = ER, Golgi, endosomes, lysosomes, transport vesicles, and plasma membrane.\n- Mitochondria, chloroplasts, and peroxisomes are **not** part of the endomembrane system (they receive proteins by different, direct mechanisms).\n- Endomembrane lumens are **topologically equivalent to the extracellular space**.\n- Cytosolic faces remain cytosolic through all budding/fusion events; topology is never violated.\n- Default secretory path: rough ER → Golgi (cis → trans) → plasma membrane.\n- Rough ER = protein synthesis/translocation; smooth ER = lipid synthesis, Ca²⁺ storage, detoxification.\n- N-linked glycosylation begins in the ER and is remodeled in the Golgi.\n- Secretion is the *default* pathway; retention in the ER requires explicit signals (e.g., KDEL).",
+    "commonConfusions": "- **\"The Golgi is a separate organelle from the ER.\"** — They are separate compartments but part of one connected system linked by vesicle traffic; a protein does not leave the system between them.\n- **\"Mitochondria and chloroplasts belong to the endomembrane system.\"** — They do not; they import most proteins directly across their double membranes by the TOM/TIM (or TOC/TIC) machinery, not by vesicle traffic.\n- **\"A secreted protein must cross the plasma membrane by active transport.\"** — It never crosses; it is already in the lumen (topologically outside) and is simply released by membrane fusion.\n- **\"Vesicles are the only route.\"** — Some exchange is by direct tubular connections (e.g., ER exit sites), but the defining feature is vesicle-mediated transfer.\n- **\"The lumen is like the cytoplasm.\"** — No: the lumen is equivalent to the extracellular space, and the cytosolic face of each membrane is equivalent to the plasma membrane's inner face.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nThink of the cell's membrane system as one big folded blanket. The \"outside\" surface of the blanket is always the side that touches the outside world, and the \"inside\" of the blanket's pockets always stays inside the pockets, no matter how many little bubbles you pinch off and fuse. A factory (the ER) sews a product (a protein) and stuffs it into a pocket. A bubble pinches off, carries the product to the next workstation (the Golgi), where it gets a label and final packaging, and then a last bubble carries it to the cell's front door to be shipped out. The key trick: the product never has to be pulled through the blanket's fabric — it just rides inside bubbles the whole way. (The analogy hides that fusion and budding are precisely catalyzed by molecular machines and cost GTP/ATP, not just happen like soap bubbles.)",
+    "quickReview": "- The endomembrane system is defined by vesicle-mediated connectivity among ER, Golgi, endosomes, lysosomes, and plasma membrane.\n- Topology rule: lumen ≡ extracellular space; cytosolic face stays cytosolic.\n- Anterograde flow (ER → Golgi → PM) is the default; retrograde flow balances it.\n- Energy comes from GTPase switches and ATP; fusion is catalyzed by SNAREs.\n- Pulse-chase autoradiography established the pathway; yeast Sec mutants identified the genes.\n- Secretory and lysosomal proteins all enter the system through the ER.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"4.4 The Endomembrane System and Proteins.\" https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+        "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Compartmentalization of Cells.\" https://www.ncbi.nlm.nih.gov/books/NBK26907/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26907/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Intracellular Compartments and Protein Sorting.\" https://www.ncbi.nlm.nih.gov/books/NBK21053/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21053/"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed. https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/03-compartments-protein-sorting/01-endomembrane-system.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

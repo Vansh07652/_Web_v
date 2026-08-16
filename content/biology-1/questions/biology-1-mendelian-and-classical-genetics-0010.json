@@ -1,0 +1,41 @@
+{
+  "id": "biology-1-mendelian-and-classical-genetics-0010",
+  "subject": "biology-1",
+  "lesson": "mendelian-and-classical-genetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Two pea plants that are both RrYy for seed shape (R round, r wrinkled) and seed color (Y yellow, y green) are crossed. Using the **product rule** of probability, what is the probability that an offspring will be round and green (R_ and yy)?",
+  "options": [
+    {
+      "id": "a",
+      "text": "3/4"
+    },
+    {
+      "id": "b",
+      "text": "9/16"
+    },
+    {
+      "id": "c",
+      "text": "3/16"
+    },
+    {
+      "id": "d",
+      "text": "1/4"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "For each trait the monohybrid probabilities hold, so the chance of round seeds (R_) is 3/4 and the chance of green seeds (yy) is 1/4. Because the two genes assort independently, the product rule multiplies these chances, giving 3/4 times 1/4, or 3/16. A is the chance of round seeds alone, B is the chance of round yellow seeds, and D is the chance of green seeds alone.",
+  "difficulty": "unknown",
+  "tags": [
+    "product",
+    "rule",
+    "round",
+    "green",
+    "seeds"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-f0963ec18ccf229e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

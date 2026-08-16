@@ -1,0 +1,41 @@
+{
+  "id": "genetics-mendelian-genetics-i-principles-0002",
+  "subject": "genetics",
+  "lesson": "mendelian-genetics-i-principles",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application Two independently assorting loci control seed color and seed shape, with *A* yellow dominant over *a* green and *B* round dominant over *b* wrinkled. An *AaBb* plant is crossed with an *aabb* plant. What is the probability that an offspring is yellow and wrinkled?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1/2"
+    },
+    {
+      "id": "b",
+      "text": "1/16"
+    },
+    {
+      "id": "c",
+      "text": "1/8"
+    },
+    {
+      "id": "d",
+      "text": "1/4"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "At the color locus, *Aa* x *aa* gives 1/2 yellow offspring, and at the shape locus, *Bb* x *bb* gives 1/2 wrinkled offspring. The loci assort independently, so the product rule gives 1/2 x 1/2 = 1/4. A is the probability of a single locus in isolation, C adds a third independent factor, and B uses 1/4 single locus probabilities as though both parents were heterozygous at both loci.",
+  "difficulty": "unknown",
+  "tags": [
+    "product",
+    "rule",
+    "across",
+    "two",
+    "loci"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-a9c23a294d5c5fc1",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

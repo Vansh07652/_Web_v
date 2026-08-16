@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:healthcare-ethics-professionalism:core-topics:privacy-and-confidentiality",
+  "slug": "privacy-and-confidentiality",
+  "title": "Privacy and Confidentiality",
+  "subject": {
+    "id": "subject:healthcare-ethics-professionalism",
+    "slug": "healthcare-ethics-professionalism",
+    "title": "Healthcare Ethics & Professionalism"
+  },
+  "unit": {
+    "id": "unit:healthcare-ethics-professionalism:core-topics",
+    "slug": "core-topics",
+    "title": "Core Topics",
+    "order": 1
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nTwo different people hold the two ideas. Privacy sits with the patient: she decides what to reveal, to whom, and whether her body or her room may be entered. Confidentiality sits with you the moment she reveals it. That is why 'she told me herself' never loosens the rule — the telling created your duty, it did not end her right. And neither one clocks out at the end of the shift.\n\n### Question 2\n\nPHI is defined by the pointer, not the container. A lab value floating free identifies nobody. Attach a name, a birthdate, an address, or a room number and it now points to one human being — and it is PHI whether it sits in the EHR, on a sticky note, or in a sentence spoken aloud. Run it the other way: strip the pointers thoroughly enough and the same clinical facts stop being PHI, which is how de-identified data can be shared for research.\n\n### Question 3\n\nMinimum necessary asks one question before every handoff of information: how little would still do the job? A billing clerk needs dates and codes, not the psychiatric history. It runs in three directions — what you use internally, what you send out, and what you ask others for. The large exception is treatment: the clinician actually caring for the patient may see the whole record, because reasoning from half a chart is dangerous.\n\n### Question 4\n\nHIPAA does not demand soundproof hospitals. It asks two things: was the underlying communication one you were permitted to have, and did you take reasonable precautions? A quiet bedside handoff passes both, so a stray overheard phrase is an accepted side effect. The elevator fails the second test; opening a neighbor's chart fails the first, because there was no permitted use to begin with. 'Someone overheard' defends only the genuinely unavoidable leak.\n\n### Question 5\n\nSort every disclosure by who benefits. If the information moves so the patient can be treated, billed, or have care coordinated, it moves without a fresh signature — otherwise a surgeon would need a form before calling the lab. If it moves so someone can sell something, a signature is the gate. Two related habits follow: patients may obtain their own records without anyone's permission, and minimum-necessary trimming does not apply to the clinician treating them.\n\n### Question 6\n\nLaw and ethics answer different questions. HIPAA asks whether a disclosure is permitted. The Code asks whether it needed to be said at all. A nurse can stay entirely inside the law and still wrong a patient — repeating a technically permitted detail to a colleague with no reason to hear it, or venting about a case online. That gap between permitted and warranted is exactly what 'necessary but insufficient' names.\n\n### Question 7\n\nSplit the problem into two questions: who may see this, and how is the electronic copy protected? The Privacy Rule owns the first and covers everything, including spoken report. The Security Rule owns the second and touches only electronic PHI, naming safeguards like passwords, encryption, and audit logs. A breach can therefore arise two ways — the wrong person was authorized, or the right technical controls were never built.\n\n### Question 8\n\nA telephone removes the two things you normally rely on: you cannot see who is speaking, and you cannot check what the patient wanted. Anyone can claim to be the daughter, and someone who knows a birthdate has proven only that they know a birthdate. Being family is not the same as being authorized. The durable fix is asking the patient herself, while she is able to say, who may be told what — and documenting it before the phone rings.\n\n### Question 9\n\nIdentification works by narrowing, not by naming. 'The 82-year-old man in room 4 at County General this morning' leaves exactly one person standing, the same way 'the only left-handed pitcher on the team' does. Anyone who works on that unit, or who was visiting it, closes the gap instantly. That is why 'I didn't use a name' is never a defense — and why the breach is complete the moment the post goes up.\n\n### Question 10\n\nPermissions cannot decide every case in advance, because 'this nurse may open charts' does not answer 'may she open this one, today?' Logging closes that gap: the system records who opened what and flags openings with no assignment behind them. The point is accountability rather than permission — a chart opened out of curiosity is misuse even if the information never leaves your head. Knowing the log exists is most of the deterrent.\n\n### Question 11\n\nA promise with known exceptions written into it beforehand is still a real promise. Certain communicable diseases must be reported so the health department can interrupt transmission; that boundary existed before this conversation and is not a judgment about this patient. Three disciplines keep it honest: report only to the authority the law names, only what the law requires, and tell the patient you are doing it. Calling his employer is not reporting — it is a separate breach.\n\n### Question 12\n\nDistinguish 'can this person get in?' from 'should they?' A credential is a key, not a reason. Blanket access answers only the first question, so nothing in the system separates a nurse pulling up her assigned patient from one browsing an ex-partner's chart. Genuine emergencies are covered by break-glass access that opens on demand and logs loudly, not by leaving every door unlocked. A signed pledge is a promise; an access control is a wall — and a promise cannot stand in for a wall.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Code of Ethics for Nurses (2025) — American Nurses Association",
+        "url": "https://codeofethics.ana.org/home"
+      },
+      {
+        "text": "HIPAA / Privacy — U.S. HHS",
+        "url": "https://www.hhs.gov/hipaa/index.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "expansion-question-bank",
+    "sourceFile": "Education/pre-nursing-expansion-question-bank/questions/18-ethics-professionalism/348-privacy-and-confidentiality.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false
+  },
+  "sourceSnapshotMarkdown": ""
+}

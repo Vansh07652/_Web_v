@@ -1,0 +1,39 @@
+{
+  "id": "genetics-linkage-and-genetic-mapping-0003",
+  "subject": "genetics",
+  "lesson": "linkage-and-genetic-mapping",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept Two genes on the same chromosome are 70 map units apart, yet a two point test cross between them reports a recombination frequency near 50%, the same value expected for genes on different chromosomes. Why does the recombination frequency not reach 70%?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Crossovers occur less often between distant genes, so the recombination frequency is depressed."
+    },
+    {
+      "id": "b",
+      "text": "Genes that far apart are not actually on the same chromosome."
+    },
+    {
+      "id": "c",
+      "text": "An even number of crossovers between two genes restores the parental combination, so the observed recombination frequency saturates near 50%."
+    },
+    {
+      "id": "d",
+      "text": "Recombination frequency is capped at 50% by the map distance formula, regardless of crossover number."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Each crossover produces a single exchange between the genes, but two crossovers between them restore the parental combination, so only an odd number of crossovers yields recombinant chromosomes. When genes are far apart, an odd and an even number of crossovers become about equally likely, driving the recombination frequency toward a maximum of 50%. A reverses the real relationship, because distant genes have more crossovers, not fewer, and B is false because the genes are on the same chromosome by definition of the map. D misidentifies the biological limit as a formula artifact: map distances can exceed 50 cM even though recombination frequency cannot.",
+  "difficulty": "unknown",
+  "tags": [
+    "recombination",
+    "frequency",
+    "saturation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-6f4c5593d895eb88",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

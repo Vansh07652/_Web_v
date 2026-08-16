@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:clinical-mnemonics:cardiology-ecg:second-degree-av-block-mobitz-i-wenckebach-longer-longer-longer-drop",
+  "slug": "second-degree-av-block-mobitz-i-wenckebach-longer-longer-longer-drop",
+  "title": "Second-Degree AV Block, Mobitz I (Wenckebach) — \"Longer, Longer, Longer, DROP\"",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics"
+  },
+  "unit": {
+    "id": "unit:clinical-mnemonics:cardiology-ecg",
+    "slug": "cardiology-ecg",
+    "title": "Cardiology & ECG",
+    "order": 2
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "Recognize Mobitz I (Wenckebach): the PR interval gets progressively longer with each beat until one QRS is dropped, then the cycle repeats — the classic \"going, going, going, gone\" pattern.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- **Longer** — Progressive PR prolongation\n- **Longer** — Beat-to-beat lengthening (grouped beating)\n- **Longer** — AV node fatigue until conduction fails\n- **DROP** — Dropped QRS (non-conducted P wave)",
+    "collegeNotes": "Recognize Mobitz I (Wenckebach): the PR interval gets progressively longer with each beat until one QRS is dropped, then the cycle repeats — the classic \"going, going, going, gone\" pattern.\n\n### Longer — Progressive PR prolongation\n\nEach beat's PR interval is longer than the last — the husband comes home later and later\n\nIn Mobitz I, each successive conducted beat has a longer PR interval than the one before it. The prolongation is due to progressive fatigue of conduction through the AV node, which is the site of block in classic Wenckebach.\n\n**Physiology.** The AV node shows decremental conduction — each impulse leaves the node slightly more refractory, so the next impulse is delayed a little more. This lengthening is the ECG fingerprint of a block within the AV node.\n\n**Safety.** Progressive PR lengthening is the feature that separates Wenckebach from Mobitz II — read the whole cycle, not a single beat.\n\n### Longer — Beat-to-beat lengthening (grouped beating)\n\nThe gap grows a little more every cycle, clustering beats into groups\n\nThe progressive PR prolongation produces a pattern of grouped beating: a run of P-QRS cycles with steadily lengthening PR intervals, ending in a non-conducted P wave, then a pause, then the pattern repeats. The R-R intervals shorten as the PR lengthens.\n\n**Physiology.** Grouped beating occurs because the ventricular (R-R) interval depends partly on the incremental delay. As each beat's PR grows, the R waves crowd closer together until a QRS drops out and the pause resets the sequence.\n\n**Safety.** Grouped beating on a rhythm strip should immediately raise suspicion for Wenckebach — pause and count the PR intervals before labeling it.\n\n### Longer — AV node fatigue until conduction fails\n\nThe delay stretches until the tired checkpoint cannot pass the baton at all\n\nThe Wenckebach cycle ends when an atrial impulse arrives during the AV node's refractory period and is not conducted. After the pause, the node recovers and the cycle begins again with a shorter PR.\n\n**Physiology.** Because conduction is decremental, each impulse leaves the node more refractory until one impulse finds it fully refractory and is blocked. The resulting pause lets the node recover and reset the PR interval.\n\n**Safety.** If drops become frequent or the QRS is wide, the block may be more serious than typical Wenckebach — reassess the patient's stability.\n\n### DROP — Dropped QRS (non-conducted P wave)\n\nA P wave arrives but no QRS follows — the night the husband doesn't come home\n\nThe dropped beat is a non-conducted P wave: a P wave not followed by a QRS. It is the defining feature that makes this a second-degree block. In Mobitz I the drop is always preceded by progressive PR lengthening. The QRS is typically narrow because the block is at the AV node.\n\n**Physiology.** The non-conducted P wave marks the atrial impulse that arrived while the AV node was refractory. Conducted beats use the normal His–Purkinje pathway, so the QRS is narrow.\n\n**Safety.** Mobitz I is usually benign with a narrow QRS and no symptoms, but frequent dropped beats or symptoms (hypotension, dizziness) require treatment — atropine may help (AV-nodal block), with pacing as backup.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "- Longer = Progressive PR prolongation\n- Longer = Beat-to-beat lengthening (grouped beating)\n- Longer = AV node fatigue until conduction fails\n- DROP = Dropped QRS (non-conducted P wave)",
+    "eli10": "It's a rhythm where the electrical baton is handed off slower and slower each beat until one handoff is missed entirely, then the pattern starts fresh. Think \"going, going, going, gone.\"\n\n**Longer — Progressive PR prolongation.** \"Longer\" means the husband comes home later and later each night. On the ECG, the space between the P bump and the R spike stretches a little more with every beat, like a runner who gets more tired each lap.\n\n**Longer — Beat-to-beat lengthening (grouped beating).** Because the delay grows each beat, the beats come in little families separated by a pause — a cluster of beats, then a skip. This grouping is a big visual clue.\n\n**Longer — AV node fatigue until conduction fails.** \"Longer\" a third time means the delay keeps stretching until the tired checkpoint finally cannot pass the baton at all — the moment the cycle breaks.\n\n**DROP — Dropped QRS (non-conducted P wave).** \"DROP\" is the night the husband does not come home at all. On the ECG you see a P wave with no R spike after it — the wife did not get the message. Then the whole pattern starts over.",
+    "quickReview": "- Longer = Progressive PR prolongation — Each beat's PR interval is longer than the last — the husband comes home later and later\n- Longer = Beat-to-beat lengthening (grouped beating) — The gap grows a little more every cycle, clustering beats into groups\n- Longer = AV node fatigue until conduction fails — The delay stretches until the tired checkpoint cannot pass the baton at all\n- DROP = Dropped QRS (non-conducted P wave) — A P wave arrives but no QRS follows — the night the husband doesn't come home",
+    "workedExamples": "",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "second-degree-av-block-mobitz-i-wenckebach-longer-longer-longer-drop",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-nursing-mnemonics",
+    "sourceFile": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json",
+    "sourceStatus": "CURRENT",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-clinical-mnemonics"
+  },
+  "sourceSnapshotMarkdown": "{\n  \"mnemonic\": \"Second-Degree AV Block, Mobitz I (Wenckebach) — \\\"Longer, Longer, Longer, DROP\\\"\",\n  \"category\": \"Cardiology & ECG\",\n  \"purpose\": \"Recognize Mobitz I (Wenckebach): the PR interval gets progressively longer with each beat until one QRS is dropped, then the cycle repeats — the classic \\\"going, going, going, gone\\\" pattern.\",\n  \"eli10_purpose\": \"It's a rhythm where the electrical baton is handed off slower and slower each beat until one handoff is missed entirely, then the pattern starts fresh. Think \\\"going, going, going, gone.\\\"\",\n  \"status\": \"CURRENT\",\n  \"components\": [\n    {\n      \"symbol\": \"Longer\",\n      \"term\": \"Progressive PR prolongation\",\n      \"association\": \"Each beat's PR interval is longer than the last — the husband comes home later and later\",\n      \"eli10\": \"\\\"Longer\\\" means the husband comes home later and later each night. On the ECG, the space between the P bump and the R spike stretches a little more with every beat, like a runner who gets more tired each lap.\",\n      \"clinical_explanation\": \"In Mobitz I, each successive conducted beat has a longer PR interval than the one before it. The prolongation is due to progressive fatigue of conduction through the AV node, which is the site of block in classic Wenckebach.\",\n      \"physiology\": \"The AV node shows decremental conduction — each impulse leaves the node slightly more refractory, so the next impulse is delayed a little more. This lengthening is the ECG fingerprint of a block within the AV node.\",\n      \"safety_note\": \"Progressive PR lengthening is the feature that separates Wenckebach from Mobitz II — read the whole cycle, not a single beat.\"\n    },\n    {\n      \"symbol\": \"Longer\",\n      \"term\": \"Beat-to-beat lengthening (grouped beating)\",\n      \"association\": \"The gap grows a little more every cycle, clustering beats into groups\",\n      \"eli10\": \"Because the delay grows each beat, the beats come in little families separated by a pause — a cluster of beats, then a skip. This grouping is a big visual clue.\",\n      \"clinical_explanation\": \"The progressive PR prolongation produces a pattern of grouped beating: a run of P-QRS cycles with steadily lengthening PR intervals, ending in a non-conducted P wave, then a pause, then the pattern repeats. The R-R intervals shorten as the PR lengthens.\",\n      \"physiology\": \"Grouped beating occurs because the ventricular (R-R) interval depends partly on the incremental delay. As each beat's PR grows, the R waves crowd closer together until a QRS drops out and the pause resets the sequence.\",\n      \"safety_note\": \"Grouped beating on a rhythm strip should immediately raise suspicion for Wenckebach — pause and count the PR intervals before labeling it.\"\n    },\n    {\n      \"symbol\": \"Longer\",\n      \"term\": \"AV node fatigue until conduction fails\",\n      \"association\": \"The delay stretches until the tired checkpoint cannot pass the baton at all\",\n      \"eli10\": \"\\\"Longer\\\" a third time means the delay keeps stretching until the tired checkpoint finally cannot pass the baton at all — the moment the cycle breaks.\",\n      \"clinical_explanation\": \"The Wenckebach cycle ends when an atrial impulse arrives during the AV node's refractory period and is not conducted. After the pause, the node recovers and the cycle begins again with a shorter PR.\",\n      \"physiology\": \"Because conduction is decremental, each impulse leaves the node more refractory until one impulse finds it fully refractory and is blocked. The resulting pause lets the node recover and reset the PR interval.\",\n      \"safety_note\": \"If drops become frequent or the QRS is wide, the block may be more serious than typical Wenckebach — reassess the patient's stability.\"\n    },\n    {\n      \"symbol\": \"DROP\",\n      \"term\": \"Dropped QRS (non-conducted P wave)\",\n      \"association\": \"A P wave arrives but no QRS follows — the night the husband doesn't come home\",\n      \"eli10\": \"\\\"DROP\\\" is the night the husband does not come home at all. On the ECG you see a P wave with no R spike after it — the wife did not get the message. Then the whole pattern starts over.\",\n      \"clinical_explanation\": \"The dropped beat is a non-conducted P wave: a P wave not followed by a QRS. It is the defining feature that makes this a second-degree block. In Mobitz I the drop is always preceded by progressive PR lengthening. The QRS is typically narrow because the block is at the AV node.\",\n      \"physiology\": \"The non-conducted P wave marks the atrial impulse that arrived while the AV node was refractory. Conducted beats use the normal His–Purkinje pathway, so the QRS is narrow.\",\n      \"safety_note\": \"Mobitz I is usually benign with a narrow QRS and no symptoms, but frequent dropped beats or symptoms (hypotension, dizziness) require treatment — atropine may help (AV-nodal block), with pacing as backup.\"\n    }\n  ]\n}"
+}

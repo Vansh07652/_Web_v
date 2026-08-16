@@ -1,0 +1,157 @@
+---
+title: "Pain Assessment"
+subject: "Nursing"
+book: "Clinical Nursing Skills"
+chapter: "16: Pain Assessment"
+topic_number: "4"
+source: "clinical-nursing-skills.md"
+tags:
+  - "pain-assessment"
+  - "nursing"
+status: "complete"
+---
+
+# Pain Assessment
+
+> **Book:** [Clinical Nursing Skills](../../README.md)  
+> **Chapter:** [Chapter 16: Pain Assessment](../README.md)  
+> **Topic:** 4  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Pain is one of the most common reasons people seek health care, and it is completely invisible to anyone except the person experiencing it. **Pain assessment** is the systematic process of determining whether pain is present, where it is located, what it feels like, how intense it is, when it occurs, and how it affects daily life. Because pain is a subjective experience, the person's own report is the most reliable source of information. A widely cited definition captures this idea: pain is whatever the person experiencing it says it is, and it exists whenever the person says it does.
+
+Assessment is not a one-time question asked at admission. It is an ongoing nursing skill that includes establishing a baseline, choosing a pain scale the person can actually use, screening at regular intervals, reassessing after an intervention, and documenting findings consistently so trends can be tracked. This topic covers the standard components of a complete pain assessment, the most common pain scales, barriers that make assessment unreliable, and how to respond when a person cannot report pain verbally.
+
+## Why This Matters
+
+Unrelieved pain is not just uncomfortable — it interferes with recovery. It can limit deep breathing and movement after surgery, disrupt sleep, reduce appetite, raise stress, and contribute to longer hospital stays. Pain that is never measured is likely to be undertreated, and undertreated pain becomes harder to control. For nursing students and practicing nurses, pain assessment matters for several reasons:
+
+- **It drives everything else.** Assessment findings determine which comfort measures are appropriate, so a flawed assessment leads to flawed management.
+- **It is a patient-safety issue.** Reliable reassessment after pain medication helps the team catch both inadequate relief and excessive sedation early.
+- **It is a communication bridge.** A shared scale gives the person, family, nurse, and provider a common language for describing how the person is doing.
+- **It is an expectation of accrediting and regulatory bodies** and of most institutional policies, which typically specify how often pain is screened and reassessed. Exact intervals vary by facility and setting — always check your institution's policy.
+
+Person-first language matters throughout: a person *experiencing pain* is not "a pain patient," and a person reporting pain deserves a full assessment, not skepticism.
+
+## Core Concepts
+
+### Pain is subjective — self-report is the gold standard
+
+The single most important assessment principle is that pain cannot be measured with a machine. Vital signs, facial expression, and movement offer clues, but they are not pain itself. When a person can communicate, their self-report is considered the most valid measure and should be believed. The nurse's job is to elicit that report using words and scales the person understands.
+
+### The assessment interview: go beyond a number
+
+A complete pain assessment collects more than intensity. A common mnemonic is **PQRSTU**:
+
+- **P – Provoking/palliating factors:** What makes the pain worse? What makes it better?
+- **Q – Quality:** What does it feel like — aching, burning, sharp, throbbing, stabbing?
+- **R – Region/radiation:** Where is it, and does it spread anywhere?
+- **S – Severity:** How strong is it, using a scale?
+- **T – Timing:** When did it start? Is it constant or intermittent? Is there a pattern?
+- **U – Understanding/impact:** What does the person believe is causing it, and how is it affecting sleep, appetite, mood, and activity?
+
+Quality descriptions are clinically useful clues: burning or shooting pain may point toward nerve involvement, while aching or cramping pain is more typical of tissue or organ sources. These patterns only suggest possibilities — final interpretation belongs to the care team and uses the whole picture.
+
+### Pain intensity scales
+
+Intensity is measured with a scale matched to the person's age, language, and cognitive ability. Common options include:
+
+- **Numeric Rating Scale (0–10):** the person rates pain from 0 (no pain) to 10 (worst imaginable). Works well for most older children and adults.
+- **Verbal Descriptor Scale:** the person picks a word — none, mild, moderate, severe — which is useful when numbers are confusing.
+- **Wong-Baker FACES scale:** six faces ranging from smiling to crying; useful for children and people with limited verbal skills. It measures distress as much as intensity, so its results are not identical to a numeric rating.
+- **Behavioral scales for people who cannot self-report:** the **FLACC** scale (Face, Legs, Activity, Cry, Consolability) is commonly used for infants and young children; the **PAINAD** scale (Pain Assessment in Advanced Dementia) uses breathing, vocalization, facial expression, body language, and consolability for people with advanced dementia.
+
+Whatever scale is chosen, the same scale should be used consistently so that scores can be compared over time.
+
+### Reassessment after interventions
+
+Assessment does not end when a score is recorded. After a comfort measure or pain medication, the nurse reassesses at the interval set by facility policy (commonly 30–60 minutes after oral analgesics and sooner after intravenous analgesics — always follow institutional protocol), using the same scale. Reassessment tells the team whether the intervention worked, whether a different approach is needed, and whether the person is experiencing side effects such as excessive drowsiness.
+
+### Barriers to accurate assessment
+
+Several factors make pain assessment unreliable, and recognizing them is part of the skill:
+
+- **Cognitive or communication impairment:** dementia, delirium, intubation, language differences, or hearing loss can prevent self-report. Behavioral scales, professional interpreters, and input from people who know the person well are tools for these situations.
+- **Cultural factors:** expression of pain and willingness to report it vary across cultures; some people minimize pain, while others express it openly. Neither style reveals the true level of pain.
+- **Fear of consequences:** people may underreport pain because they worry about being seen as complaining, about addiction to pain medicine, or about the cost of care.
+- **Clinician bias:** research has repeatedly shown that nurses and other clinicians tend to underestimate pain, especially in people from marginalized groups and in people who do not "look" like they are in pain. Awareness of one's own assumptions is a professional responsibility.
+- **Age stereotypes:** children and older adults are both at risk of undertreatment because of assumptions that they feel less pain or cannot report it reliably.
+
+## ELI-10: Explain Like I'm 10
+
+Pain is like a phone call from your body, but only the person who feels it can hear the ring. The nurse's job is to answer the phone: ask where it hurts, what it feels like, and how much it hurts using a number or a picture scale. Because no machine can measure pain, the nurse trusts what the person says and writes it down so the whole team can help. After giving something to help, the nurse checks again to see whether the "phone call" got quieter.
+
+## High-Yield Points
+
+- **Self-report is the gold standard** — believe and record what the person says; behavior and vital signs are clues, not substitutes.
+- **Assess more than intensity:** use PQRSTU to capture quality, location, timing, and impact on function.
+- **Match the scale to the person:** numeric (0–10), verbal descriptor, FACES, FLACC, or PAINAD — then use the same scale every time.
+- **Reassess after interventions** at the interval required by facility policy and document the response.
+- **Nonverbal does not mean pain-free:** people who cannot speak still experience pain; use validated behavioral scales and input from caregivers.
+- **Watch for bias:** pain is underreported and underestimated across many patient groups; examine assumptions about age, culture, and behavior.
+- **Document in the person's own words** when possible, plus a scale score, location, quality, and what was done.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Self-report | The person's own description of their pain | Considered the most reliable measure of a subjective experience |
+| PQRSTU | Mnemonic for provoking/palliating factors, quality, region, severity, timing, understanding | Ensures the assessment captures more than just a number |
+| Numeric Rating Scale (NRS) | 0–10 pain rating scale | Quick, widely used intensity measure for adults |
+| Wong-Baker FACES | Picture scale with six faces | Useful for children and people with limited verbal ability |
+| FLACC | Behavioral scale: Face, Legs, Activity, Cry, Consolability | Assesses pain in infants and young children who cannot self-report |
+| PAINAD | Behavioral scale for advanced dementia | Assesses pain in people with severe cognitive impairment |
+| Baseline pain score | The person's usual or starting pain level | Needed to judge whether pain is changing and treatment is working |
+| Reassessment | Repeating the pain measure after an intervention | Confirms whether relief occurred and detects side effects |
+
+## Example: A postoperative reassessment in practice
+
+Ms. Rivera, age 68, had abdominal surgery this morning. On arrival to the unit, the nurse uses the 0–10 numeric scale and records a baseline of 6/10, described as "sharp, crampy" at the incision and made worse by movement. Two hours later she rates her pain 3/10 but tells the nurse she cannot sleep and has not wanted to get out of bed because "it hurts when I move." The nurse does not stop at the number. She asks about timing (constant, worse with movement), impact (poor sleep, avoiding activity), and what helps (a pillow pressed over the incision when she turns). The nurse documents the score, the qualitative details, and the functional impact in Ms. Rivera's own words, reports the findings to the provider, and offers a nonpharmacologic comfort measure — positioning with the pillow as a splint — while awaiting the medication order. This reassessment catches a problem the single number missed: pain that is numerically "mild" but functionally significant.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| A low pain score | The absence of a pain problem | A number can be low while pain still disrupts sleep, mood, or function |
+| Vital signs or facial expression | An accurate pain measure | These are indirect clues; they can be normal in severe pain |
+| Pain tolerance | Pain threshold | Threshold is when pain is first felt; tolerance is how much a person can withstand — both vary widely between people |
+| Asking about pain | Encouraging drug-seeking | Routine, respectful pain assessment is standard care, not suspicion |
+| A scale being "for kids" | A scale being less valid in adults | Choice of scale is about matching the person's ability, not age alone |
+| Documenting a score | Documenting the full assessment | A complete note includes location, quality, timing, impact, and response |
+
+## Quick Review
+
+1. Why is self-report considered the most reliable measure of pain?
+2. What components does the PQRSTU mnemonic capture?
+3. Which scales would you consider for a person with advanced dementia who cannot describe pain?
+4. What should a nurse do after administering a pain intervention?
+5. Give two examples of barriers that can make a pain score unreliable.
+
+<details>
+<summary>Show answers</summary>
+
+1. Pain is subjective — it exists only in the person experiencing it — so the person's own report is the most valid source; no machine or observer can measure it directly.
+2. Provoking/palliating factors, quality, region/radiation, severity, timing, and understanding/impact.
+3. A validated behavioral scale such as PAINAD, plus input from caregivers or family who know the person's usual behavior.
+4. Reassess at the interval required by facility policy (commonly 30–60 minutes after oral analgesics), using the same scale, and document the response and any side effects.
+5. Examples include cultural expectations about expressing pain, fear of being seen as complaining or of addiction, cognitive or communication impairment, and clinician bias that underestimates pain in certain groups.
+
+</details>
+
+## Related Topics
+
+- Previous: [Factors Affecting Pain](03-factors-affecting-pain.md)
+- Next: [Pain Management](05-pain-management.md)
+- Related: [The Pain Process](01-the-pain-process.md) · [Responses to Pain](02-responses-to-pain.md)
+- Chapter overview: [Chapter 16: Pain Assessment](../README.md)
+
+## Source Notes
+
+- Book: Clinical Nursing Skills
+- Local outline source: `clinical-nursing-skills.md`
+- Official source URL: https://openstax.org/details/books/clinical-nursing-skills/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Safety note: Educational draft only. Pain scales, mnemonics, and reassessment intervals vary by facility policy and clinical context; specific reassessment timing and scale selection should follow institutional protocol and provider orders. No dosing or treatment recommendations are provided. Flag for source/SME review before clinical application.
+- Last updated: 2026-08-15

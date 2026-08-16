@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-expression-translation-and-genetic-code-0002",
+  "subject": "genetics",
+  "lesson": "gene-expression-translation-and-genetic-code",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept The genetic code is described as degenerate. What does degeneracy mean?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A single codon can specify more than one amino acid"
+    },
+    {
+      "id": "b",
+      "text": "The same amino acid can be specified by more than one codon"
+    },
+    {
+      "id": "c",
+      "text": "The genetic code is different in every species"
+    },
+    {
+      "id": "d",
+      "text": "Most amino acids are specified by exactly one codon"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "The code has 64 codons but only 20 amino acids, so most amino acids are encoded by several codons; for example, leucine has six codons (UUA, UUG, CUU, CUC, CUA, CUG). A single codon never specifies more than one amino acid, so the code is degenerate but not ambiguous, ruling out A. The code is nearly universal rather than different in every species, and most amino acids are specified by more than one codon, ruling out C and D.",
+  "difficulty": "unknown",
+  "tags": [
+    "degeneracy",
+    "genetic",
+    "code"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-65cdececfa71eb09",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-2:blood-cardiovascular-and-circulation:blood-pressure-regulation",
+  "slug": "blood-pressure-regulation",
+  "title": "Blood Pressure Regulation",
+  "subject": {
+    "id": "subject:anatomy-physiology-2",
+    "slug": "anatomy-physiology-2",
+    "title": "Anatomy & Physiology II"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-2:blood-cardiovascular-and-circulation",
+    "slug": "blood-cardiovascular-and-circulation",
+    "title": "Blood, Cardiovascular System, and Circulation",
+    "order": 2
+  },
+  "order": 9,
+  "status": "final",
+  "sections": {
+    "overview": "This section explains **blood pressure** — what it is, how it's measured, and how the body regulates it through **neural**, **hormonal**, and **renal** mechanisms, including the **renin–angiotensin–aldosterone system (RAAS)**.",
+    "whyItMatters": "Blood pressure must stay high enough to perfuse organs but not so high it damages vessels. Its regulation ties together the heart, vessels, kidneys, and hormones. **Hypertension** is extremely common and a major risk factor for heart disease, stroke, and kidney disease.",
+    "learningObjectives": "- Define **blood pressure** and how it's expressed (systolic/diastolic).\n- Explain **short-term** neural regulation (baroreceptors).\n- Explain **hormonal** and **renal** long-term regulation (RAAS, ADH, ANP).\n- Connect regulation to **hypertension**.",
+    "keyTerms": "",
+    "collegeNotes": "**What blood pressure is.** **Blood pressure (BP)** is the force blood exerts on artery walls, written as **systolic/diastolic** (e.g., 120/80 mmHg) — the pressure during ventricular contraction over relaxation. BP depends on **cardiac output** and **resistance** (mainly arteriole diameter) and on **blood volume**. To change BP, the body changes heart activity, vessel diameter, or blood volume.\n\n**Short-term regulation — fast, neural.** For moment-to-moment control, **baroreceptors** (pressure sensors in large arteries like the carotid and aorta) detect changes and signal the brainstem, which adjusts the **autonomic nervous system**:\n\n- If BP **falls** (for example, standing up), the sympathetic system increases heart rate, contractility, and vessel constriction to **raise** BP.\n- If BP **rises**, parasympathetic activity slows the heart and vessels dilate to **lower** BP.\n\nThis baroreceptor reflex is a negative-feedback loop that keeps BP steady during position changes and activity (its failure causes dizziness on standing).\n\n**Long-term regulation — hormonal and renal.** Over longer periods, the **kidneys and hormones** control BP largely by adjusting **blood volume**:\n\n- **Renin–angiotensin–aldosterone system (RAAS):** when BP or blood flow to the kidneys **falls**, the kidneys release **renin**, triggering formation of **angiotensin II**, a potent **vasoconstrictor** that also stimulates **aldosterone** (sodium and water retention) — both **raising** BP by increasing resistance and blood volume.\n- **Antidiuretic hormone (ADH):** promotes **water retention** by the kidneys, raising blood volume and BP.\n- **Atrial natriuretic peptide (ANP):** released by the heart when BP is high, it promotes **sodium and water loss**, **lowering** BP — the counterbalance to RAAS.\n\nTogether, these adjust blood volume (via the kidneys) to set long-term blood pressure, while the neural reflex handles rapid changes.\n\n**Hypertension.** Chronically high BP (**hypertension**) forces the heart to work harder (increased afterload) and damages arteries over time, raising the risk of **heart attack, stroke, heart failure, and kidney disease**. Because it's often symptomless, it's called a \"silent\" condition — hence routine BP screening. Many medications target the mechanisms above: **diuretics** reduce blood volume, **ACE inhibitors/ARBs** block RAAS, **beta-blockers** reduce cardiac output, and **vasodilators/calcium channel blockers** widen vessels.",
+    "howItWorks": "Two timescales of control:\n\n```\nShort-term (seconds): baroreceptors sense BP → brainstem → autonomic adjustment (HR, contractility, vessel diameter)\nLong-term (hours–days): kidneys/hormones adjust BLOOD VOLUME\n   Low BP → RAAS (renin → angiotensin II vasoconstriction + aldosterone salt/water) + ADH → BP up\n   High BP → ANP → sodium/water loss → BP down\n```",
+    "comparisons": "| Mechanism | Speed | Action |\n| --- | --- | --- |\n| Baroreceptor reflex | Seconds | Neural HR/vessel adjustment |\n| RAAS | Hours+ | Vasoconstriction + volume ↑ (raises BP) |\n| ADH | Hours | Water retention (raises BP) |\n| ANP | Hours | Sodium/water loss (lowers BP) |\n\n| BP factor | Increases BP |\n| --- | --- |\n| Cardiac output ↑ | Yes |\n| Vessel constriction ↑ | Yes |\n| Blood volume ↑ | Yes |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\n**Hypertension** management is a huge part of nursing and depends on these mechanisms: **diuretics** (lower volume), **ACE inhibitors/ARBs** (block RAAS), **beta-blockers** (lower cardiac output), **calcium channel blockers/vasodilators** (lower resistance). The **baroreceptor reflex** explains **orthostatic hypotension** (dizziness on standing when the reflex is slow). RAAS links the kidneys, heart, and blood pressure and reappears in kidney and heart-failure care. Routine **BP measurement** and interpreting systolic/diastolic values are essential clinical skills.",
+    "commonConfusions": "- **Short- vs long-term regulation.** Neural baroreceptor reflex (fast) vs kidney/hormone volume control (slow).\n- **RAAS raises BP; ANP lowers it** — opposing systems.\n- **BP = cardiac output × resistance** (plus volume) — several ways to change it.\n- **Hypertension is usually silent** — damage happens without symptoms.",
+    "memoryAids": "- **RAAS = \"Renin → Angiotensin → Aldosterone → Squeeze + Save salt = BP up.\"**\n- **ANP = \"A Natriuretic Peptide = pee out salt = BP down.\"**\n- **Baroreceptors = \"pressure sensors, fast fix.\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nBlood pressure is the push of blood against your artery walls, and your body keeps it in a safe range using fast nerve reflexes and slower kidney-and-hormone controls.\n\n### Analogy\nThink of your blood pressure like the water pressure in a hose system, and your body is the careful gardener keeping it just right. For **quick fixes**, pressure sensors (**baroreceptors**) act like an instant hand on the tap: if pressure drops when you stand up, they crank things up so you don't faint; if it spikes, they ease off. For **slow, steady control**, the **kidneys** manage how much *water* is in the system — more water means higher pressure. A team of hormones called **RAAS** tightens the hoses and tells the kidneys to hold onto salt and water to **raise** pressure, while a heart hormone (**ANP**) does the opposite, dumping salt and water to **lower** it.\n\n### What is actually happening\nThese are real controls: the fast **baroreceptor reflex** is why you usually don't black out when you stand (and when it's sluggish, you feel dizzy — **orthostatic hypotension**). The slow **RAAS** system, run by the kidneys, is so important that many blood-pressure medicines work by blocking it (**ACE inhibitors, ARBs**), while **diuretics** (\"water pills\") lower pressure by removing fluid. High blood pressure (**hypertension**) is dangerous precisely because it usually has *no symptoms* while it quietly damages your heart, brain, and kidneys — which is why it's checked at almost every visit.\n\n### Where the analogy stops\nA gardener adjusts one hose, but your body balances heart rate, vessel width, and blood volume all at once, across seconds and days — a constant, automatic juggling act no single person could manage by hand.",
+    "quickReview": "- **Blood pressure** (systolic/diastolic) depends on **cardiac output, resistance (arteriole diameter), and blood volume**.\n- **Short-term**: the **baroreceptor reflex** adjusts heart rate and vessel diameter within seconds.\n- **Long-term**: the **kidneys and hormones** set blood volume — **RAAS** and **ADH** raise BP; **ANP** lowers it.\n- **Hypertension** (usually silent) damages the heart, brain, and kidneys; drugs target volume, RAAS, cardiac output, and vessel diameter.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 20.4: Homeostatic Regulation of the Vascular System. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — High Blood Pressure. https://medlineplus.gov/highbloodpressure.html",
+        "url": "https://medlineplus.gov/highbloodpressure.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/02-anatomy-physiology-ii/02-blood-cardiovascular-and-circulation/09-blood-pressure-regulation.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

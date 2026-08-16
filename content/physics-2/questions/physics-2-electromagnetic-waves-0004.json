@@ -1,0 +1,40 @@
+{
+  "id": "physics-2-electromagnetic-waves-0004",
+  "subject": "physics-2",
+  "lesson": "electromagnetic-waves",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For speed of light from the permittivity and permeability, use $I = P / A$ in a wave intensity model. The first quantity is 9.20 W and the second is 2.00 m^2. What is the intensity?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$4.60\\ \\text{W/m^2}$"
+    },
+    {
+      "id": "b",
+      "text": "$2.30\\ \\text{W/m^2}$"
+    },
+    {
+      "id": "c",
+      "text": "$9.20\\ \\text{W/m^2}$"
+    },
+    {
+      "id": "d",
+      "text": "$5.75\\ \\text{W/m^2}$"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Using $I = P / A$ gives 9.20 W divided by 2.00 m^2 = $4.60\\ \\text{W/m^2}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to W/m^2, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "speed",
+    "light",
+    "permittivity",
+    "permeability"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-51d410f9bdac47b5",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

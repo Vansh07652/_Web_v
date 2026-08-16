@@ -1,0 +1,40 @@
+{
+  "id": "genetics-gene-regulation-prokaryotes-0007",
+  "subject": "genetics",
+  "lesson": "gene-regulation-prokaryotes",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** sequence-analysis The coding strand of the *trpL* leader begins 5' ATG AAA GCA ATT TTC GTA CTG AAA GGT TGG TGG CGC ACT TCC 3'. The mRNA is read in the same frame as the DNA coding strand. How many tryptophan residues does the leader peptide encode, and what is their significance for attenuation?",
+  "options": [
+    {
+      "id": "a",
+      "text": "One tryptophan, positioned so the ribosome always stalls there."
+    },
+    {
+      "id": "b",
+      "text": "Three tryptophans, which inactivate the Trp repressor when translated."
+    },
+    {
+      "id": "c",
+      "text": "Two consecutive tryptophans, the codons at which the ribosome stalls when tryptophan is scarce, preventing the terminator hairpin from forming."
+    },
+    {
+      "id": "d",
+      "text": "No tryptophans, so attenuation depends only on the Trp repressor."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "The mRNA is 5' AUG AAA GCA AUU UUC GUA CUG AAA GGU UGG UGG CGC ACU UCC 3', and reading the codons in frame gives Met Lys Ala Ile Phe Val Leu Lys Gly Trp Trp, exactly two consecutive tryptophans (UGG UGG). When tryptophan is scarce the ribosome stalls at the second tryptophan codon, so the terminator hairpin does not form and transcription continues into the structural genes. A miscounts the UGG codons and B misassigns the repressor's job to the leader peptide.",
+  "difficulty": "unknown",
+  "tags": [
+    "trp",
+    "leader",
+    "sequence",
+    "analysis"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-3367b1216fd616d4",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cytoskeleton-motility:actin-treadmilling",
+  "slug": "actin-treadmilling",
+  "title": "Actin Treadmilling",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cytoskeleton-motility",
+    "slug": "cytoskeleton-motility",
+    "title": "Cytoskeleton Motility",
+    "order": 5
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "Treadmilling is the steady-state behavior of actin filaments in which monomers are added at the barbed (plus) end at the same rate that they are lost from the pointed (minus) end, so the filament maintains a constant length while its subunits flow through it like a treadmill. It occurs because ATP hydrolysis creates an asymmetry: ATP-actin (high affinity) accumulates at the barbed end while ADP-actin (lower affinity) is shed at the pointed end, giving the two ends different critical concentrations. Treadmilling lets actin filaments generate force and drive motility without changing their overall length.",
+    "whyItMatters": "Treadmilling is the engine behind actin-based motility: the leading edge of a migrating cell polymerizes actin (barbed ends pushing the membrane forward) while the rear of the network disassembles (pointed ends), producing net forward movement with no change in filament length. Pathogens such as *Listeria monocytogenes* hijack treadmilling to rocket through the cytoplasm. Defects in the accessory proteins that regulate treadmilling (profilin, cofilin) are linked to cancer metastasis and neurodevelopmental disorders.",
+    "learningObjectives": "- Define treadmilling and explain how it arises from filament polarity.\n- Explain the role of ATP hydrolysis and critical concentration in treadmilling.\n- Distinguish treadmilling from simple assembly/disassembly equilibrium.\n- Describe how treadmilling powers cellular processes such as cell crawling.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nTreadmilling is the steady-state behavior of actin filaments in which monomers are added at the barbed (plus) end at the same rate that they are lost from the pointed (minus) end, so the filament maintains a constant length while its subunits flow through it like a treadmill. It occurs because ATP hydrolysis creates an asymmetry: ATP-actin (high affinity) accumulates at the barbed end while ADP-actin (lower affinity) is shed at the pointed end, giving the two ends different critical concentrations. Treadmilling lets actin filaments generate force and drive motility without changing their overall length.\n\n### Key Components\n\n- **Barbed end (plus):** net addition of ATP-actin at steady state.\n- **Pointed end (minus):** net loss of ADP-actin at steady state.\n- **Critical concentration (Cc):** the free monomer concentration at which an end is at equilibrium (Cc_barbed < Cc_pointed).\n- **ATP hydrolysis:** converts ATP-actin to ADP-actin after incorporation, creating the end asymmetry.\n- **Profilin/cofilin (accessory proteins):** tune the monomer pool and accelerate treadmilling in cells.\n- **Phosphate (Pi) release:** the slow step that marks the transition from ATP-actin to ADP-actin within the filament.\n\n### Mechanism / How It Works\n\n1. ATP-actin monomers add preferentially to the barbed end, where the critical concentration is low.\n2. Within the filament, actin hydrolyzes its bound ATP; the γ-phosphate is released slowly, leaving ADP-actin.\n3. This creates a gradient: a cap of ATP- (and ADP-Pi-) actin near the barbed end, and progressively older ADP-actin toward the pointed end.\n4. At the pointed end, where the critical concentration is higher, ADP-actin subunits dissociate.\n5. At steady state, the free-monomer concentration sits between the two critical concentrations: the barbed end gains subunits at the same rate the pointed end loses them.\n6. The net result is a flux of subunits from the barbed end to the pointed end — the filament \"treadmills\" — while total length stays constant.\n7. In cells, profilin recharges ADP-actin monomers with ATP and feeds them back to the barbed end, while cofilin severs ADP-rich regions, accelerating the cycle.\n\n### Energy and Directionality\n\nTreadmilling is a steady-state flux maintained by continuous ATP hydrolysis. The energy of ATP (hydrolyzed as subunits cycle through the filament) is what keeps the system away from a simple equilibrium: it sustains the high-affinity ATP-cap at the plus end and the low-affinity ADP-region at the minus end. The direction of subunit flow is set by filament polarity (barbed → pointed), and the rate of treadmilling is limited by ATP hydrolysis and Pi release.\n\n### Experimental Evidence / Technique\n\n- **Pyrene-actin fluorescence assays:** following polymerization to steady state showed a constant filament length with continuous subunit exchange, the hallmark of treadmilling.\n- **Photo-bleaching / FRAP on labeled filaments:** a bleached spot on a treadmilling filament is observed to move toward the pointed end as subunits flow, directly visualizing treadmilling.\n- **Myosin-S1 decoration + EM:** identified the polarity of the filament ends, the structural basis for asymmetric addition/loss.\n- **Critical-concentration measurements:** determining Cc for the barbed vs. pointed ends (using capping proteins to isolate each end) explained how a single monomer pool can produce net addition at one end and net loss at the other.",
+    "howItWorks": "1. ATP-actin monomers add preferentially to the barbed end, where the critical concentration is low.\n2. Within the filament, actin hydrolyzes its bound ATP; the γ-phosphate is released slowly, leaving ADP-actin.\n3. This creates a gradient: a cap of ATP- (and ADP-Pi-) actin near the barbed end, and progressively older ADP-actin toward the pointed end.\n4. At the pointed end, where the critical concentration is higher, ADP-actin subunits dissociate.\n5. At steady state, the free-monomer concentration sits between the two critical concentrations: the barbed end gains subunits at the same rate the pointed end loses them.\n6. The net result is a flux of subunits from the barbed end to the pointed end — the filament \"treadmills\" — while total length stays constant.\n7. In cells, profilin recharges ADP-actin monomers with ATP and feeds them back to the barbed end, while cofilin severs ADP-rich regions, accelerating the cycle.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- **Treadmilling = barbed-end addition balanced by pointed-end loss at constant length.**\n- It requires **ATP hydrolysis** and the resulting **Cc asymmetry (Cc_barbed < Cc_pointed).**\n- An **ATP-actin cap** marks the barbed end; the pointed end is **ADP-actin**.\n- Subunits flow **barbed → pointed** through the filament.\n- **Profilin** recycles ADP-actin to ATP-actin; **cofilin** severs ADP-rich regions.\n- Treadmilling powers **cell migration** (lamellipodial protrusion) and *Listeria* motility.\n- It is a **steady state**, not an equilibrium — it consumes ATP continuously.",
+    "commonConfusions": "- **\"Treadmilling means the filament gets longer.\"** No — length is constant; only the *subunits* move through it.\n- **\"Treadmilling happens without energy.\"** It is an ATP-driven steady state; without ATP hydrolysis the two ends would have equal critical concentrations and no treadmilling would occur.\n- **\"Both ends add and lose subunits equally.\"** At steady state the barbed end *adds* and the pointed end *loses* — that asymmetry is the whole point.\n- **\"Treadmilling is unique to actin.\"** Microtubules also treadmilling (and exhibit dynamic instability), but the mechanism and nucleoside (GTP) differ.\n- **\"The ATP cap is at the pointed end.\"** The ATP-cap is at the barbed (plus) end; the pointed end is ADP-rich.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a moving walkway in an airport that stays the same length. People step on at one end (the barbed end) and step off at the other (the pointed end) at exactly the same rate. The walkway never gets longer or shorter, but everyone on it is moving forward. That is treadmilling — the filament's length is constant, but its building blocks are always flowing from the fast end to the slow end. (The analogy omits that the \"people\" change their shoes from ATP to ADP while riding, and that this change is what makes the two ends behave differently.)",
+    "quickReview": "- Treadmilling: net addition at the barbed end = net loss at the pointed end; constant length.\n- Caused by ATP hydrolysis → Cc_barbed < Cc_pointed.\n- ATP-cap at plus end; ADP-actin at minus end; subunits flow plus → minus.\n- Profilin/cofilin accelerate it in cells.\n- Drives lamellipodial protrusion and intracellular pathogen motility.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, Johnson A, Lewis J, et al. \"The Self-Assembly and Dynamic Structure of Cytoskeletal Filaments.\" *Molecular Biology of the Cell.* 4th edition. Garland Science; 2002. https://www.ncbi.nlm.nih.gov/books/NBK26862/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26862/"
+      },
+      {
+        "text": "Cooper GM. \"Structure and Organization of Actin Filaments.\" *The Cell: A Molecular Approach.* 2nd edition. Sinauer Associates; 2000. https://www.ncbi.nlm.nih.gov/books/NBK9908/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9908/"
+      },
+      {
+        "text": "Clark MA, Choi J, Douglas M. \"4.5 The Cytoskeleton.\" *Biology 2e.* OpenStax. https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+        "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "actin-treadmilling",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "02-actin-treadmilling",
+      "kind": "source_file_stem",
+      "source_id": "cell_biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:5e6dac943877c44a"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:5e6dac943877c44a"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:5e6dac943877c44a"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:cell_biology_notes:5e6dac943877c44a"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/05-cytoskeleton-motility/02-actin-treadmilling.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Actin Treadmilling\n\n## Learning Goals\n- Define treadmilling and explain how it arises from filament polarity.\n- Explain the role of ATP hydrolysis and critical concentration in treadmilling.\n- Distinguish treadmilling from simple assembly/disassembly equilibrium.\n- Describe how treadmilling powers cellular processes such as cell crawling.\n\n## Core Concept\nTreadmilling is the steady-state behavior of actin filaments in which monomers are added at the barbed (plus) end at the same rate that they are lost from the pointed (minus) end, so the filament maintains a constant length while its subunits flow through it like a treadmill. It occurs because ATP hydrolysis creates an asymmetry: ATP-actin (high affinity) accumulates at the barbed end while ADP-actin (lower affinity) is shed at the pointed end, giving the two ends different critical concentrations. Treadmilling lets actin filaments generate force and drive motility without changing their overall length.\n\n## Key Components\n- **Barbed end (plus):** net addition of ATP-actin at steady state.\n- **Pointed end (minus):** net loss of ADP-actin at steady state.\n- **Critical concentration (Cc):** the free monomer concentration at which an end is at equilibrium (Cc_barbed < Cc_pointed).\n- **ATP hydrolysis:** converts ATP-actin to ADP-actin after incorporation, creating the end asymmetry.\n- **Profilin/cofilin (accessory proteins):** tune the monomer pool and accelerate treadmilling in cells.\n- **Phosphate (Pi) release:** the slow step that marks the transition from ATP-actin to ADP-actin within the filament.\n\n## Mechanism / How It Works\n1. ATP-actin monomers add preferentially to the barbed end, where the critical concentration is low.\n2. Within the filament, actin hydrolyzes its bound ATP; the γ-phosphate is released slowly, leaving ADP-actin.\n3. This creates a gradient: a cap of ATP- (and ADP-Pi-) actin near the barbed end, and progressively older ADP-actin toward the pointed end.\n4. At the pointed end, where the critical concentration is higher, ADP-actin subunits dissociate.\n5. At steady state, the free-monomer concentration sits between the two critical concentrations: the barbed end gains subunits at the same rate the pointed end loses them.\n6. The net result is a flux of subunits from the barbed end to the pointed end — the filament \"treadmills\" — while total length stays constant.\n7. In cells, profilin recharges ADP-actin monomers with ATP and feeds them back to the barbed end, while cofilin severs ADP-rich regions, accelerating the cycle.\n\n## Energy and Directionality\nTreadmilling is a steady-state flux maintained by continuous ATP hydrolysis. The energy of ATP (hydrolyzed as subunits cycle through the filament) is what keeps the system away from a simple equilibrium: it sustains the high-affinity ATP-cap at the plus end and the low-affinity ADP-region at the minus end. The direction of subunit flow is set by filament polarity (barbed → pointed), and the rate of treadmilling is limited by ATP hydrolysis and Pi release.\n\n## Experimental Evidence / Technique\n- **Pyrene-actin fluorescence assays:** following polymerization to steady state showed a constant filament length with continuous subunit exchange, the hallmark of treadmilling.\n- **Photo-bleaching / FRAP on labeled filaments:** a bleached spot on a treadmilling filament is observed to move toward the pointed end as subunits flow, directly visualizing treadmilling.\n- **Myosin-S1 decoration + EM:** identified the polarity of the filament ends, the structural basis for asymmetric addition/loss.\n- **Critical-concentration measurements:** determining Cc for the barbed vs. pointed ends (using capping proteins to isolate each end) explained how a single monomer pool can produce net addition at one end and net loss at the other.\n\n## Why It Matters\nTreadmilling is the engine behind actin-based motility: the leading edge of a migrating cell polymerizes actin (barbed ends pushing the membrane forward) while the rear of the network disassembles (pointed ends), producing net forward movement with no change in filament length. Pathogens such as *Listeria monocytogenes* hijack treadmilling to rocket through the cytoplasm. Defects in the accessory proteins that regulate treadmilling (profilin, cofilin) are linked to cancer metastasis and neurodevelopmental disorders.\n\n## High-Yield Facts\n- **Treadmilling = barbed-end addition balanced by pointed-end loss at constant length.**\n- It requires **ATP hydrolysis** and the resulting **Cc asymmetry (Cc_barbed < Cc_pointed).**\n- An **ATP-actin cap** marks the barbed end; the pointed end is **ADP-actin**.\n- Subunits flow **barbed → pointed** through the filament.\n- **Profilin** recycles ADP-actin to ATP-actin; **cofilin** severs ADP-rich regions.\n- Treadmilling powers **cell migration** (lamellipodial protrusion) and *Listeria* motility.\n- It is a **steady state**, not an equilibrium — it consumes ATP continuously.\n\n## Eli Explains\nImagine a moving walkway in an airport that stays the same length. People step on at one end (the barbed end) and step off at the other (the pointed end) at exactly the same rate. The walkway never gets longer or shorter, but everyone on it is moving forward. That is treadmilling — the filament's length is constant, but its building blocks are always flowing from the fast end to the slow end. (The analogy omits that the \"people\" change their shoes from ATP to ADP while riding, and that this change is what makes the two ends behave differently.)\n\n## Common Confusions\n- **\"Treadmilling means the filament gets longer.\"** No — length is constant; only the *subunits* move through it.\n- **\"Treadmilling happens without energy.\"** It is an ATP-driven steady state; without ATP hydrolysis the two ends would have equal critical concentrations and no treadmilling would occur.\n- **\"Both ends add and lose subunits equally.\"** At steady state the barbed end *adds* and the pointed end *loses* — that asymmetry is the whole point.\n- **\"Treadmilling is unique to actin.\"** Microtubules also treadmilling (and exhibit dynamic instability), but the mechanism and nucleoside (GTP) differ.\n- **\"The ATP cap is at the pointed end.\"** The ATP-cap is at the barbed (plus) end; the pointed end is ADP-rich.\n\n## Quick Review\n- Treadmilling: net addition at the barbed end = net loss at the pointed end; constant length.\n- Caused by ATP hydrolysis → Cc_barbed < Cc_pointed.\n- ATP-cap at plus end; ADP-actin at minus end; subunits flow plus → minus.\n- Profilin/cofilin accelerate it in cells.\n- Drives lamellipodial protrusion and intracellular pathogen motility.\n\n## Sources\n- Alberts B, Johnson A, Lewis J, et al. \"The Self-Assembly and Dynamic Structure of Cytoskeletal Filaments.\" *Molecular Biology of the Cell.* 4th edition. Garland Science; 2002. https://www.ncbi.nlm.nih.gov/books/NBK26862/\n- Cooper GM. \"Structure and Organization of Actin Filaments.\" *The Cell: A Molecular Approach.* 2nd edition. Sinauer Associates; 2000. https://www.ncbi.nlm.nih.gov/books/NBK9908/\n- Clark MA, Choi J, Douglas M. \"4.5 The Cytoskeleton.\" *Biology 2e.* OpenStax. https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton\n"
+}

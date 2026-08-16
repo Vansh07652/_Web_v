@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-solutions-and-concentration-q09",
+  "subject": "chemistry-2",
+  "lesson": "solutions-and-concentration",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Using a 5 M stock solution, a technician needs to prepare 250 mL of a 0.4 M working solution for a teaching laboratory. What volume of stock solution should be measured out, and how should it be handled afterward?",
+  "options": [
+    {
+      "id": "a",
+      "text": "50 mL of stock, then add solvent until the total volume reaches 250 mL"
+    },
+    {
+      "id": "b",
+      "text": "20 mL of stock, then add solvent until the total volume reaches 250 mL"
+    },
+    {
+      "id": "c",
+      "text": "20 mL of stock, then add exactly 250 mL of solvent to that portion"
+    },
+    {
+      "id": "d",
+      "text": "125 mL of stock, then add solvent until the total volume reaches 250 mL"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Rearranging M1V1 = M2V2 gives V1 = (0.4 M x 250 mL) / 5 M = 20 mL of stock. That aliquot is then brought up to a final total volume of 250 mL rather than having 250 mL of solvent added to it, which would produce 270 mL and a concentration of about 0.37 M. Distinguishing dilute to a final volume from add this volume of solvent is a core laboratory technique point, and it is why volumetric flasks are filled to a calibration mark.\n\nELI-10: Work from the solute the final solution must contain: 0.4 mol/L x 0.25 L = 0.1 mol. The stock carries 5 mol in every liter, so 0.1 mol occupies 0.1/5 = 0.02 L, which is 20 mL. Transfer that 20 mL to the flask and add solvent until the meniscus reaches the 250 mL mark. Filling to a mark is not the same instruction as adding 250 mL, since the second approach overshoots the target volume and leaves the solution slightly too dilute.",
+  "difficulty": "medium",
+  "tags": [
+    "dilution calculations",
+    "stock solutions",
+    "dilute to final volume"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-278",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

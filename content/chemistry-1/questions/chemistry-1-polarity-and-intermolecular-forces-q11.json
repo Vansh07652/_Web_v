@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-polarity-and-intermolecular-forces-q11",
+  "subject": "chemistry-1",
+  "lesson": "polarity-and-intermolecular-forces",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A phospholipid molecule has one charged phosphate head group and two long hydrocarbon tails. What would happen if a large number of these molecules were placed in water?",
+  "options": [
+    {
+      "id": "a",
+      "text": "They settle as a disordered solid, since a molecule with long hydrocarbon chains is nonpolar."
+    },
+    {
+      "id": "b",
+      "text": "They dissolve completely as separate molecules, since the charged head makes each one soluble."
+    },
+    {
+      "id": "c",
+      "text": "They dissolve because the hydrocarbon tails form hydrogen bonds with surrounding water."
+    },
+    {
+      "id": "d",
+      "text": "They self-assemble with polar heads facing the water and nonpolar tails clustered away from it."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Phospholipids are amphipathic: the charged phosphate head engages in ion-dipole and hydrogen-bonding interactions with water, while the hydrocarbon tails offer only dispersion forces and force surrounding water into an entropically costly ordered cage. The system minimizes free energy by sequestering the tails, and the shape of the aggregate follows the shape of the molecule: two bulky tails under one head make the molecule roughly cylindrical, so it packs into a bilayer that typically closes into a vesicle, whereas single-tailed amphiphiles such as soaps and detergents are cone-shaped and form micelles instead. An aggregate of 500 of these two-tailed phospholipids buries 2 * 500 = 1000 tails in a shielded hydrophobic core. Because the tails are shielded rather than dissolved, the assembly is a stable structure, not a precipitate, which is why cell membranes form and reseal without any energy input.\n\nELI-10: One molecule cannot satisfy both halves at once, since the head wants water contact and the tails want to avoid it. The compromise is collective: thousands of molecules point their heads outward into the water and tuck their tails inward against each other. Two fat tails under one head make this molecule shaped more like a cylinder than a cone, so the sheet it builds is two layers thick and usually curls around to close into a hollow bubble; single-tailed molecules like soap are cone-shaped and ball up into small micelles instead. The driving force is largely the water itself, which regains freedom once it no longer has to cage greasy chains, and this single polarity argument is why every cell membrane exists and why it heals over small punctures.",
+  "difficulty": "hard",
+  "tags": [
+    "amphipathic molecules",
+    "hydrophobic effect",
+    "membrane self-assembly"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-275",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

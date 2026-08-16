@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:intermolecular-forces-liquids-solids:phase-diagrams",
+  "slug": "phase-diagrams",
+  "title": "Phase Diagrams",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:intermolecular-forces-liquids-solids",
+    "slug": "intermolecular-forces-liquids-solids",
+    "title": "Intermolecular Forces Liquids Solids",
+    "order": 1
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "A phase diagram is a map of pressure versus temperature showing which phase (solid, liquid, or gas) is stable under any set of conditions. The lines (boundaries) between regions show where two phases coexist in equilibrium; the point where all three boundaries meet is the triple point, where all three phases coexist. The liquid–gas boundary ends at the critical point, beyond which the distinction between liquid and gas disappears. Water is unusual because its solid–liquid boundary slopes to the left (negative slope), meaning ice melts under pressure.",
+    "whyItMatters": "- **Materials science:** choosing conditions (temperature, pressure) to grow, sinter, or process a material in a desired phase.\n- **Food & pharma:** freeze-drying (lyophilization) removes water by sublimation below the triple point.\n- **Supercritical fluids:** supercritical CO₂ decaffeinates coffee and extracts compounds without toxic solvents.\n- **Planetary science:** the stability of water phases sets the climate and habitability of a planet.",
+    "learningObjectives": "- Read a pressure–temperature phase diagram and identify solid, liquid, and gas regions.\n- Define the triple point and critical point.\n- Explain why water's solid–liquid boundary slopes backward (negative slope).\n- Predict phase changes from changes in temperature or pressure.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nA phase diagram is a map of pressure versus temperature showing which phase (solid, liquid, or gas) is stable under any set of conditions. The lines (boundaries) between regions show where two phases coexist in equilibrium; the point where all three boundaries meet is the triple point, where all three phases coexist. The liquid–gas boundary ends at the critical point, beyond which the distinction between liquid and gas disappears. Water is unusual because its solid–liquid boundary slopes to the left (negative slope), meaning ice melts under pressure.\n\n### Key Ideas\n\n### The three regions\n- Each region (solid, liquid, gas) gives the stable phase at that (T, P).\n- **Boundary lines** = two phases in equilibrium (e.g., boiling curve, melting curve, sublimation curve).\n\n### Triple point\n- The unique (T, P) where solid, liquid, and gas coexist.\n- Water: 0.01 °C and 0.006 atm (611 Pa). CO₂: −56.6 °C and 5.1 atm.\n\n### Critical point\n- The end of the liquid–gas boundary, at critical temperature (Tc) and pressure (Pc).\n- Above Tc, a gas cannot be liquefied by pressure alone; the substance becomes a supercritical fluid.\n- Water: Tc = 374 °C, Pc = 218 atm.\n\n### Water's anomalous slope\n- The solid–liquid boundary for water slopes left (negative). Increasing pressure favors the *liquid* because ice is less dense than water.\n- For most substances the slope is positive (solid is denser, so pressure favors solid).\n\n### CO₂ and sublimation\n- At 1 atm, CO₂ sublimes directly between solid and gas because its triple point (5.1 atm) is above atmospheric pressure — liquid CO₂ cannot exist at 1 atm.\n\n### Equations and Variables\n\n- **Phase rule (Gibbs):** F = C − P + 2, where F = degrees of freedom, C = number of components, P = number of phases in equilibrium. At the triple point (3 phases, 1 component), F = 0 — the point is fixed.\n- **Clapeyron equation (slope of a boundary):** dP/dT = ΔH_trans/(T·ΔV), where ΔH_trans = enthalpy of the transition, ΔV = volume change. Water's melting has ΔV < 0 (ice is less dense), so dP/dT < 0 (negative slope).\n- **Clausius–Clapeyron** describes the liquid–gas boundary (see dedicated note).\n\n### How It Works\n\n1. **Locate the state point.** Find (T, P); the region it falls in tells you the stable phase.\n2. **Cross a boundary → phase change.** Moving across the boiling curve vaporizes/condenses; across the melting curve freezes/melts; across the sublimation curve sublimes/deposits.\n3. **At the triple point** all three phases coexist at a single fixed (T, P).\n4. **Approach the critical point** along the liquid–gas boundary: liquid and vapor densities converge; above Tc they merge into a supercritical fluid.\n5. **Use the slope of the melting curve.** For water, squeezing (raising P) can melt ice; for most substances, squeezing favors the solid.\n\n### Worked Example\n\nUsing the phase diagram of water, describe what happens when (a) ice at −10 °C and 1 atm is warmed at constant pressure, and (b) water vapor at 0.005 atm is cooled.\n\n1. **(a) Warming ice at 1 atm.** Starting in the solid region, heating crosses the melting curve at 0 °C (ice → water), then crosses the boiling curve at 100 °C (water → vapor). This is the familiar atmospheric sequence.\n2. **(b) Cooling vapor at 0.005 atm.** At 0.005 atm (just below the triple-point pressure of 0.006 atm), cooling vapor crosses the *sublimation* boundary directly into solid — vapor → ice with no liquid stage (as in freeze-drying).\n3. **Why ice skates glide.** A skate's pressure melts a thin film of ice because water's melting curve slopes left — increasing pressure lowers the melting point slightly, so solid → liquid at the blade. (This is a real but *small* effect; a lubricating pre-melted surface layer also contributes.)",
+    "howItWorks": "1. **Locate the state point.** Find (T, P); the region it falls in tells you the stable phase.\n2. **Cross a boundary → phase change.** Moving across the boiling curve vaporizes/condenses; across the melting curve freezes/melts; across the sublimation curve sublimes/deposits.\n3. **At the triple point** all three phases coexist at a single fixed (T, P).\n4. **Approach the critical point** along the liquid–gas boundary: liquid and vapor densities converge; above Tc they merge into a supercritical fluid.\n5. **Use the slope of the melting curve.** For water, squeezing (raising P) can melt ice; for most substances, squeezing favors the solid.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Triple point = the single (T, P) where solid, liquid, and gas coexist. Water: 0.01 °C, 0.006 atm.\n- Critical point = end of the liquid–gas line; above Tc, no distinct liquid/gas (supercritical fluid). Water: 374 °C, 218 atm.\n- Water's solid–liquid boundary slopes *negative* because ice is less dense than water (pressure melts ice).\n- Most substances have a positive melting-curve slope (solid denser than liquid).\n- CO₂ triple point (5.1 atm) is above 1 atm, so CO₂ sublimes at ordinary pressure (dry ice).\n- At 1 atm, dry ice never forms liquid CO₂.",
+    "commonConfusions": "- **\"The triple point and the normal melting point are the same.\"** — Wrong. The triple point (0.01 °C, 0.006 atm) is at a very specific low pressure; the normal melting point (0 °C) is at 1 atm.\n- **\"Above the critical point the substance becomes a solid.\"** — Wrong. It becomes a supercritical fluid, neither distinctly liquid nor gas.\n- **\"Pressure always turns liquid into solid.\"** — Wrong for water: pressure melts ice because ice is less dense than liquid water.\n- **\"CO₂ has no liquid phase at all.\"** — Wrong. Liquid CO₂ exists, but only above 5.1 atm (its triple point pressure); it just can't exist at 1 atm.\n- **\"The phase diagram's lines show where only one phase exists.\"** — Wrong. The lines are where *two* phases coexist in equilibrium.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nA phase diagram is a treasure map where \"X marks the spot\" for every possible combination of hotness and squeeze. The map is split into three kingdoms — Solid Land, Liquid Land, and Gas Land — and the borders are where two kingdoms meet. There's one special dot where all three kingdoms touch at once (the triple point), and one spot where the Liquid and Gas kingdoms stop being different and blur together (the critical point). Water's map is weird: its Solid–Liquid border tilts the \"wrong\" way, so squeezing ice can turn it into liquid — which is why you can melt ice by pressing on it. (The analogy's limit: the map's borders are lines of equilibrium, not walls; crossing one just means one phase turns into the other, and it all follows the energies, not geography.)",
+    "quickReview": "- Regions = stable phases; lines = two-phase equilibrium; triple point = three phases.\n- Water triple point: 0.01 °C, 0.006 atm; critical point: 374 °C, 218 atm.\n- Water's negative melting-curve slope (ice less dense → pressure melts ice).\n- CO₂ sublimes at 1 atm (triple point at 5.1 atm).\n- Gibbs phase rule: F = C − P + 2.",
+    "workedExamples": "### Worked Example\n\nUsing the phase diagram of water, describe what happens when (a) ice at −10 °C and 1 atm is warmed at constant pressure, and (b) water vapor at 0.005 atm is cooled.\n\n1. **(a) Warming ice at 1 atm.** Starting in the solid region, heating crosses the melting curve at 0 °C (ice → water), then crosses the boiling curve at 100 °C (water → vapor). This is the familiar atmospheric sequence.\n2. **(b) Cooling vapor at 0.005 atm.** At 0.005 atm (just below the triple-point pressure of 0.006 atm), cooling vapor crosses the *sublimation* boundary directly into solid — vapor → ice with no liquid stage (as in freeze-drying).\n3. **Why ice skates glide.** A skate's pressure melts a thin film of ice because water's melting curve slopes left — increasing pressure lowers the melting point slightly, so solid → liquid at the blade. (This is a real but *small* effect; a lubricating pre-melted surface layer also contributes.)",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"10.4 Phase Diagrams.\" https://openstax.org/books/chemistry-2e/pages/10-4-phase-diagrams",
+        "url": "https://openstax.org/books/chemistry-2e/pages/10-4-phase-diagrams"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"10.3 Phase Transitions.\" https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+        "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions"
+      },
+      {
+        "text": "NIST Chemistry WebBook, \"Water.\" https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185",
+        "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e* (book home). https://openstax.org/details/books/chemistry-2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      },
+      {
+        "text": "American Chemical Society. https://www.acs.org/",
+        "url": "https://www.acs.org/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "phase-diagrams",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "06-phase-diagrams",
+      "kind": "source_file_stem",
+      "source_id": "general_chemistry_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:e0f05362f69af350"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:e0f05362f69af350"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:e0f05362f69af350"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:general_chemistry_notes:e0f05362f69af350"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/10-intermolecular-forces-liquids-solids/06-phase-diagrams.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Phase Diagrams\n\n## Learning Goals\n- Read a pressure–temperature phase diagram and identify solid, liquid, and gas regions.\n- Define the triple point and critical point.\n- Explain why water's solid–liquid boundary slopes backward (negative slope).\n- Predict phase changes from changes in temperature or pressure.\n\n## Core Concept\nA phase diagram is a map of pressure versus temperature showing which phase (solid, liquid, or gas) is stable under any set of conditions. The lines (boundaries) between regions show where two phases coexist in equilibrium; the point where all three boundaries meet is the triple point, where all three phases coexist. The liquid–gas boundary ends at the critical point, beyond which the distinction between liquid and gas disappears. Water is unusual because its solid–liquid boundary slopes to the left (negative slope), meaning ice melts under pressure.\n\n## Key Ideas\n### The three regions\n- Each region (solid, liquid, gas) gives the stable phase at that (T, P).\n- **Boundary lines** = two phases in equilibrium (e.g., boiling curve, melting curve, sublimation curve).\n\n### Triple point\n- The unique (T, P) where solid, liquid, and gas coexist.\n- Water: 0.01 °C and 0.006 atm (611 Pa). CO₂: −56.6 °C and 5.1 atm.\n\n### Critical point\n- The end of the liquid–gas boundary, at critical temperature (Tc) and pressure (Pc).\n- Above Tc, a gas cannot be liquefied by pressure alone; the substance becomes a supercritical fluid.\n- Water: Tc = 374 °C, Pc = 218 atm.\n\n### Water's anomalous slope\n- The solid–liquid boundary for water slopes left (negative). Increasing pressure favors the *liquid* because ice is less dense than water.\n- For most substances the slope is positive (solid is denser, so pressure favors solid).\n\n### CO₂ and sublimation\n- At 1 atm, CO₂ sublimes directly between solid and gas because its triple point (5.1 atm) is above atmospheric pressure — liquid CO₂ cannot exist at 1 atm.\n\n## Equations and Variables\n- **Phase rule (Gibbs):** F = C − P + 2, where F = degrees of freedom, C = number of components, P = number of phases in equilibrium. At the triple point (3 phases, 1 component), F = 0 — the point is fixed.\n- **Clapeyron equation (slope of a boundary):** dP/dT = ΔH_trans/(T·ΔV), where ΔH_trans = enthalpy of the transition, ΔV = volume change. Water's melting has ΔV < 0 (ice is less dense), so dP/dT < 0 (negative slope).\n- **Clausius–Clapeyron** describes the liquid–gas boundary (see dedicated note).\n\n## How It Works\n1. **Locate the state point.** Find (T, P); the region it falls in tells you the stable phase.\n2. **Cross a boundary → phase change.** Moving across the boiling curve vaporizes/condenses; across the melting curve freezes/melts; across the sublimation curve sublimes/deposits.\n3. **At the triple point** all three phases coexist at a single fixed (T, P).\n4. **Approach the critical point** along the liquid–gas boundary: liquid and vapor densities converge; above Tc they merge into a supercritical fluid.\n5. **Use the slope of the melting curve.** For water, squeezing (raising P) can melt ice; for most substances, squeezing favors the solid.\n\n## Worked Example\nUsing the phase diagram of water, describe what happens when (a) ice at −10 °C and 1 atm is warmed at constant pressure, and (b) water vapor at 0.005 atm is cooled.\n\n1. **(a) Warming ice at 1 atm.** Starting in the solid region, heating crosses the melting curve at 0 °C (ice → water), then crosses the boiling curve at 100 °C (water → vapor). This is the familiar atmospheric sequence.\n2. **(b) Cooling vapor at 0.005 atm.** At 0.005 atm (just below the triple-point pressure of 0.006 atm), cooling vapor crosses the *sublimation* boundary directly into solid — vapor → ice with no liquid stage (as in freeze-drying).\n3. **Why ice skates glide.** A skate's pressure melts a thin film of ice because water's melting curve slopes left — increasing pressure lowers the melting point slightly, so solid → liquid at the blade. (This is a real but *small* effect; a lubricating pre-melted surface layer also contributes.)\n\n## Why It Matters\n- **Materials science:** choosing conditions (temperature, pressure) to grow, sinter, or process a material in a desired phase.\n- **Food & pharma:** freeze-drying (lyophilization) removes water by sublimation below the triple point.\n- **Supercritical fluids:** supercritical CO₂ decaffeinates coffee and extracts compounds without toxic solvents.\n- **Planetary science:** the stability of water phases sets the climate and habitability of a planet.\n\n## High-Yield Facts\n- Triple point = the single (T, P) where solid, liquid, and gas coexist. Water: 0.01 °C, 0.006 atm.\n- Critical point = end of the liquid–gas line; above Tc, no distinct liquid/gas (supercritical fluid). Water: 374 °C, 218 atm.\n- Water's solid–liquid boundary slopes *negative* because ice is less dense than water (pressure melts ice).\n- Most substances have a positive melting-curve slope (solid denser than liquid).\n- CO₂ triple point (5.1 atm) is above 1 atm, so CO₂ sublimes at ordinary pressure (dry ice).\n- At 1 atm, dry ice never forms liquid CO₂.\n\n## Eli Explains\nA phase diagram is a treasure map where \"X marks the spot\" for every possible combination of hotness and squeeze. The map is split into three kingdoms — Solid Land, Liquid Land, and Gas Land — and the borders are where two kingdoms meet. There's one special dot where all three kingdoms touch at once (the triple point), and one spot where the Liquid and Gas kingdoms stop being different and blur together (the critical point). Water's map is weird: its Solid–Liquid border tilts the \"wrong\" way, so squeezing ice can turn it into liquid — which is why you can melt ice by pressing on it. (The analogy's limit: the map's borders are lines of equilibrium, not walls; crossing one just means one phase turns into the other, and it all follows the energies, not geography.)\n\n## Common Confusions\n- **\"The triple point and the normal melting point are the same.\"** — Wrong. The triple point (0.01 °C, 0.006 atm) is at a very specific low pressure; the normal melting point (0 °C) is at 1 atm.\n- **\"Above the critical point the substance becomes a solid.\"** — Wrong. It becomes a supercritical fluid, neither distinctly liquid nor gas.\n- **\"Pressure always turns liquid into solid.\"** — Wrong for water: pressure melts ice because ice is less dense than liquid water.\n- **\"CO₂ has no liquid phase at all.\"** — Wrong. Liquid CO₂ exists, but only above 5.1 atm (its triple point pressure); it just can't exist at 1 atm.\n- **\"The phase diagram's lines show where only one phase exists.\"** — Wrong. The lines are where *two* phases coexist in equilibrium.\n\n## Quick Review\n- Regions = stable phases; lines = two-phase equilibrium; triple point = three phases.\n- Water triple point: 0.01 °C, 0.006 atm; critical point: 374 °C, 218 atm.\n- Water's negative melting-curve slope (ice less dense → pressure melts ice).\n- CO₂ sublimes at 1 atm (triple point at 5.1 atm).\n- Gibbs phase rule: F = C − P + 2.\n\n## Sources\n- OpenStax, *Chemistry 2e*, \"10.4 Phase Diagrams.\" https://openstax.org/books/chemistry-2e/pages/10-4-phase-diagrams\n- OpenStax, *Chemistry 2e*, \"10.3 Phase Transitions.\" https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions\n- NIST Chemistry WebBook, \"Water.\" https://webbook.nist.gov/cgi/cbook.cgi?ID=C7732185\n- OpenStax, *Chemistry 2e* (book home). https://openstax.org/details/books/chemistry-2e\n- American Chemical Society. https://www.acs.org/\n"
+}

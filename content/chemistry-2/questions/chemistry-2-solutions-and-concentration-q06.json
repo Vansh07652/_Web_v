@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-solutions-and-concentration-q06",
+  "subject": "chemistry-2",
+  "lesson": "solutions-and-concentration",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "A dissolved gas has a solubility of 0.04 g/L in water when the partial pressure of that gas above the liquid is 1 atm at constant temperature. Which change would most likely occur if the partial pressure is tripled to 3 atm?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Solubility falls to about 0.013 g/L, because added pressure drives gas out of solution"
+    },
+    {
+      "id": "b",
+      "text": "Solubility rises to about 0.12 g/L, because greater pressure raises the temperature of the water"
+    },
+    {
+      "id": "c",
+      "text": "Solubility remains 0.04 g/L, because pressure changes affect only solid and liquid solutes"
+    },
+    {
+      "id": "d",
+      "text": "Solubility rises to about 0.12 g/L, because gas solubility is directly proportional to partial pressure"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Henry's law states that at constant temperature the solubility of a gas is directly proportional to the partial pressure of that gas above the liquid, so tripling the pressure triples the solubility: 0.04 g/L x 3 = 0.12 g/L. Choice B reaches the right value through a false mechanism, since the problem holds temperature constant and, in any case, a temperature increase decreases gas solubility. This proportionality explains why the amount of dissolved gas in a liquid changes with the pressure of the gas phase in contact with it.\n\nELI-10: Dissolved gas sits in a balance: molecules leave the liquid as fast as they enter it. Raising the partial pressure above the surface increases how often molecules strike and enter, so the balance shifts and more gas stays dissolved until equilibrium is restored. Triple the pressure and you triple the dissolved amount, so 0.04 g/L becomes 0.12 g/L. Temperature pushes the opposite way for gases, which is why a warm carbonated drink loses its dissolved gas much faster than a cold one.",
+  "difficulty": "medium",
+  "tags": [
+    "Henry's law",
+    "gas solubility",
+    "pressure effects"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-278",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

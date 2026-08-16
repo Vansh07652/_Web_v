@@ -1,0 +1,146 @@
+---
+title: "Identifying Varying Types of Care"
+subject: "Nursing"
+book: "Psychiatric-Mental Health Nursing"
+chapter: "25: Community Mental Health Treatment"
+topic_number: "1"
+source: "psychiatric-mental-health.md"
+tags:
+  - "identifying-varying-types-of-care"
+  - "nursing"
+status: "complete"
+---
+
+# Identifying Varying Types of Care
+
+> **Book:** [Psychiatric-Mental Health Nursing](../../README.md)  
+> **Chapter:** [Chapter 25: Community Mental Health Treatment](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+**Community mental health treatment** is not one service but a **continuum of care**: a graded set of services — from a monthly therapy appointment to a team that visits someone at home several times a week to 24-hour inpatient hospitalization — matched to each person's needs, preferences, and level of function. "Identifying varying types of care" means being able to name the levels on that continuum, describe who each level serves, and explain how people move between levels as their needs change. The continuum exists because of a historical transformation: for much of the twentieth century, most people with serious mental illness received care in large institutions; over the past several decades, care has shifted to the community — a change with enormous benefits and enduring challenges. Understanding this history, the levels of care, and the principle of the **least restrictive environment** is foundational for every nurse who will work in mental health.
+
+## Why This Matters
+
+Matching the right level of care to the right person at the right time is both a clinical skill and a safety issue. Too little support can let a person deteriorate until they need a hospital; unnecessarily restrictive care takes away freedom, dignity, and independence. Nurses work in every setting on the continuum — clinics, day programs, crisis services, hospitals, and people's homes — and they are often the ones who notice when a person needs more (or less) intensive care. Understanding the system also lets nurses guide patients and families through it, coordinate transitions (a high-risk time for setbacks), and advocate for services that fit the person rather than the other way around.
+
+## Core Concepts
+
+### From institution to community: a brief history
+
+For most of the twentieth century, state psychiatric hospitals in the United States held hundreds of thousands of people, many for years or decades. Around the mid-1950s the inpatient census peaked at roughly half a million people. Over the next decades, several forces combined to move care into the community: the introduction of psychiatric medications that reduced severe symptoms, changes in commitment laws that made involuntary hospitalization harder, and new laws — most notably the U.S. **Community Mental Health Act of 1963** — that funded community mental health centers as an alternative to institutions. This process, called **deinstitutionalization**, was intended to let people live, work, and receive treatment in their own communities. The legacy is mixed: many people gained freedom and better lives, but the community system was often underfunded and fragmented, and some people discharged from hospitals ended up homeless, in jails, or without any care. The history matters because the gaps it left — housing, workforce, crisis services, care coordination — are exactly what community mental health still struggles to fill. Note that histories and systems differ by country; some nations provide mental health care through national health services, while the United States mixes public, private, and charitable funding.
+
+### The continuum of care
+
+Levels are usually described from least to most intensive:
+
+- **Outpatient care** — therapy, medication management, and integrated primary care. The person lives at home and attends scheduled visits. This is the least restrictive and most common level.
+- **Intensive outpatient programs (IOPs)** — several hours of structured programming several days per week, often scheduled around work or school.
+- **Partial hospitalization programs (PHPs)** — full or half days of structured treatment (group therapy, skills groups, medication management) with the person returning home at night; often used as a step down from inpatient care.
+- **Assertive community treatment (ACT)** — a high-intensity team (psychiatrist, nurse, social worker, peer specialist, others) with a small caseload that delivers services in the community — home, work, anywhere the person is — with around-the-clock availability and no fixed time limit.
+- **Crisis services** — crisis hotlines, mobile crisis teams that respond in the community, and crisis stabilization units for short-term support short of hospitalization; emergency departments provide urgent evaluation.
+- **Residential and supported housing** — supervised or supported living with on-site staff, ranging from 24-hour supervision to occasional check-ins.
+- **Inpatient psychiatric hospitalization** — the most intensive level: 24-hour care for safety and acute stabilization when community care cannot meet the person's needs.
+
+### The least restrictive environment
+
+A core ethical and clinical principle: care should be provided in the setting that offers the needed support with the **most freedom and independence possible**. Restrictiveness is not a reward or punishment — it is matched to current need, and it is reviewed continuously. The same person may move from inpatient care, to a PHP, to outpatient care as they stabilize — and back again during a setback. The principle also guides planning: a person does not need a hospital bed if a day program plus safe housing would meet the same needs.
+
+### Recovery-oriented care
+
+The recovery model reframes the goal of care: people can live meaningful, satisfying lives with or despite mental health conditions. Core ideas: hope, self-determination (the person drives their own plan), a holistic view of the person (not just symptoms), strengths-based practice, and full community integration. This philosophy applies at every level of care — even a locked inpatient unit should be organized around the person's goals, not just containment.
+
+### Who provides the care
+
+A diverse workforce delivers the continuum: psychiatrists; psychiatric-mental health nurse practitioners (PMHNPs) and psychiatric nurses; psychologists; social workers; licensed counselors; case managers; and **peer support specialists** — people with lived experience of mental health conditions who are trained (and, in many places, certified) to support others. Scope of practice, training requirements, and credentialing vary by jurisdiction and setting.
+
+### Transitions and care coordination
+
+The most dangerous time in treatment is often the transition: discharge from inpatient care, transfer between programs, or a gap in follow-up. Discharge planning starts at admission; "warm handoffs" (introducing the next provider before the current one leaves) and early follow-up appointments reduce the risk of relapse and readmission. Care coordination is a nursing function across all levels.
+
+### A classic study with a cautionary tale: Rosenhan's pseudopatients
+
+In 1973, psychologist David Rosenhan published "On Being Sane in Insane Places." His method: eight healthy researchers presented to psychiatric hospitals reporting that they heard voices, then behaved normally once admitted. **All were admitted**, most with a diagnosis of schizophrenia, and all were discharged "in remission" — meaning the label stuck even after normal behavior resumed; staff interpreted ordinary behavior (note-taking, pacing, waiting) through the lens of the diagnosis. In a follow-up, after Rosenhan announced he would send more pseudopatients, one hospital that believed it could catch them "identified" dozens of fakes among new admissions — **none had actually been sent**. The study's ethics drew sharp criticism (deception of hospitals and real patients, and its effects on trust), and later scholars questioned its methods and generalizability. But historically, it forced the field to confront how diagnostic labels shape perception and how institutions treat people — a spur to community care reform and to person-first thinking that remains relevant today.
+
+## ELI-10: Explain Like I'm 10
+
+> Getting help for mental health is like a ladder with different rungs. Some people need just a visit now and then; others need a full-day program; a few need to stay somewhere safe around the clock. The rule is: use the lowest rung that gives enough help — and anyone can move up or down the ladder as they get better or worse.
+
+## High-Yield Points
+
+- **Community mental health is a continuum**, from outpatient visits to 24-hour inpatient care; people move between levels as needs change.
+- **Deinstitutionalization**: mid-20th-century shift from state hospitals to community care (U.S. Community Mental Health Act of 1963); the legacy includes both freedom and gaps in housing, workforce, and services.
+- **Least restrictive environment** is the guiding principle: enough support, maximum independence, reviewed continuously.
+- **Levels to know:** outpatient, IOP, PHP, ACT, crisis services, residential/supported housing, inpatient.
+- **ACT = intensive, multidisciplinary, community-based, 24/7, no fixed time limit** — distinct from ordinary case management.
+- **Recovery model:** hope, self-determination, strengths, community integration — applies at every level.
+- **Transitions are high-risk**; discharge planning, warm handoffs, and early follow-up prevent relapse and readmission.
+- **Rosenhan (1973):** healthy people admitted as "patients" on the basis of a single reported symptom; labels stuck and staff missed the "sanity" — a classic caution about labeling, with real ethical and methodological criticisms.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Continuum of care | The full range of mental health services, from least to most intensive | Care is matched to need, not chosen from one option |
+| Deinstitutionalization | The historical shift from large institutions to community-based care | Explains today's system, its strengths, and its gaps |
+| Least restrictive environment | The least intensive setting that still provides needed support | The ethical compass for placement decisions |
+| IOP | Intensive outpatient program: hours of programming several days a week | Middle-intensity step between outpatient and day treatment |
+| PHP | Partial hospitalization: full/half-day treatment, return home at night | Common step-down after inpatient care |
+| ACT | Assertive community treatment: multidisciplinary team, community-based, 24/7 | High-intensity community care for serious mental illness |
+| Crisis stabilization | Short-term, less-restrictive support during acute distress | Diverts people from unnecessary hospitalization |
+| Recovery model | Philosophy that people can live meaningful lives with/despite conditions | Shapes goals, language, and how services are delivered |
+| Peer support specialist | Person with lived experience trained to support others | Adds credibility, hope, and connection to the team |
+| Warm handoff | Introducing the next provider before ending the current one | Reduces loss of continuity during transitions |
+
+## Example: Stepping down the ladder
+
+Amara, 31, was hospitalized after her first episode of psychosis left her unable to care for herself. During her inpatient stay, the team planned the transition from day one: because she is stabilizing and has family support, she moves to a **partial hospitalization program** — structured groups and medication management from 9 a.m. to 3 p.m., home with her parents at night. After three weeks she steps down to an **IOP** (evening groups while she starts a part-time job), and then to weekly **outpatient** therapy and medication visits. When her case manager arranges a "warm handoff" to the outpatient nurse practitioner, Amara says, "I was scared I'd fall through a crack." Instead, each level was the least restrictive option that met her current needs — and when she later had a rough month, she returned briefly to the IOP instead of the hospital. That is the continuum working as designed.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Outpatient care | IOP or PHP | Outpatient is brief scheduled visits; IOP/PHP add hours of structured programming per week |
+| IOP | PHP | IOP: several hours, several days/week (often evenings); PHP: full or half days, home at night |
+| ACT | Case management | ACT is a shared, multidisciplinary team with 24/7 availability and no time limit; case management is typically one worker, less intensive |
+| Crisis services | Emergency department | Crisis teams/units provide community-based short-term support; the ED is for urgent medical/psychiatric evaluation |
+| Deinstitutionalization | "No more hospitals" | Community care replaced most — not all — institutional care; inpatient care remains for acute need |
+| Least restrictive environment | "The least structured option" | Restrictiveness is matched to need; too little structure can be unsafe |
+| Recovery model | "No treatment needed" | Recovery is about meaningful life with or despite symptoms — treatment supports it |
+
+## Quick Review
+
+1. List the levels of care on the continuum from least to most intensive.
+2. What was deinstitutionalization, and what is one strength and one lasting gap of the community system it created?
+3. State the principle of the least restrictive environment in one sentence.
+4. How does ACT differ from standard case management?
+5. What did Rosenhan's 1973 pseudopatient study show, and what were its major criticisms?
+6. Why are transitions between levels of care considered high-risk, and what reduces that risk?
+
+<details>
+<summary>Show answers</summary>
+
+1. Outpatient care → IOP → PHP → ACT (and crisis services at various points) → residential/supported housing → inpatient hospitalization.
+2. Deinstitutionalization was the mid-20th-century shift from large state hospitals to community-based care, driven by medications, legal changes, and the 1963 Community Mental Health Act (U.S.). Strength: many people gained freedom and community life. Gap: chronic underfunding left fragmented services, housing shortages, and workforce gaps.
+3. Provide the least intensive setting that still meets the person's needs, preserving maximum independence and freedom, and review it continuously.
+4. ACT is a multidisciplinary team sharing a small caseload, delivering services in the community with 24/7 availability and no fixed time limit; standard case management is usually one worker linking a person to services, with less intensity.
+5. Healthy researchers admitted to psychiatric hospitals on the basis of one reported symptom were labeled (mostly schizophrenic), kept in hospital, and had normal behavior reinterpreted through the diagnosis; a follow-up hospital "detected" fakes that did not exist. Criticisms: deception, effects on real patients and trust, small sample, limited generalizability.
+6. Because follow-up can lapse and the support structure changes abruptly, raising relapse/readmission risk; discharge planning from admission, warm handoffs, and early follow-up appointments reduce it.
+
+</details>
+
+## Related Topics
+
+- Next: [Community Needs](02-community-needs.md)
+- Also in this chapter: [Programming in Community and Treatment Settings](03-programming-in-community-and-treatment-settings.md) · [Workforce Reentry Programs](04-workforce-reentry-programs.md)
+- [Community Mental Health Treatment chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Psychiatric-Mental Health Nursing
+- Local outline source: `psychiatric-mental-health.md`
+- Official source URL: https://openstax.org/details/books/psychiatric-mental-health/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-16

@@ -1,0 +1,40 @@
+{
+  "id": "physics-1-rotational-motion-0001",
+  "subject": "physics-1",
+  "lesson": "rotational-motion",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For angular position velocity and acceleration, use $theta = omega t$ in a constant angular speed model. The first quantity is 1.70 rad/s and the second is 3.00 s. What is the angular displacement?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$2.55\\ \\text{rad}$"
+    },
+    {
+      "id": "b",
+      "text": "$5.10\\ \\text{rad}$"
+    },
+    {
+      "id": "c",
+      "text": "$10.20\\ \\text{rad}$"
+    },
+    {
+      "id": "d",
+      "text": "$8.10\\ \\text{rad}$"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Using $theta = omega t$ gives 1.70 rad/s times 3.00 s = $5.10\\ \\text{rad}$. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to rad, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "angular",
+    "position",
+    "velocity",
+    "acceleration"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-79ee9265a07cd8df",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

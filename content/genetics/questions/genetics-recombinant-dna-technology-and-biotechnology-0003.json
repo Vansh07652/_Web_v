@@ -1,0 +1,39 @@
+{
+  "id": "genetics-recombinant-dna-technology-and-biotechnology-0003",
+  "subject": "genetics",
+  "lesson": "recombinant-dna-technology-and-biotechnology",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation A student transforms competent *E. coli* with 10 ng of a recombinant plasmid and plates one tenth of the transformation mixture onto selective medium, counting 120 colonies after overnight growth. What is the transformation efficiency in colony-forming units (cfu) per microgram of plasmid DNA?",
+  "options": [
+    {
+      "id": "a",
+      "text": "1.2 x 10^5 cfu per microgram"
+    },
+    {
+      "id": "b",
+      "text": "1.2 x 10^6 cfu per microgram"
+    },
+    {
+      "id": "c",
+      "text": "1.2 x 10^4 cfu per microgram"
+    },
+    {
+      "id": "d",
+      "text": "1.2 x 10^3 cfu per microgram"
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "The plate holds only one tenth of the transformation mixture, so the total number of transformants is 120 x 10 = 1200. The DNA mass used was 10 ng, which is 0.01 microgram, so the efficiency is 1200 / 0.01 = 120,000, or 1.2 x 10^5 cfu per microgram. B (1.2 x 10^6) comes from applying the dilution twice, 120 x 10 x 10 = 12,000, then dividing by 0.01. C (1.2 x 10^4) divides the raw plate count by the DNA mass, 120 / 0.01, ignoring the dilution. D (1.2 x 10^3) inverts the dilution, 120 / 10 = 12, then 12 / 0.01 = 1,200.",
+  "difficulty": "unknown",
+  "tags": [
+    "transformation",
+    "efficiency",
+    "calculation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-2e5f1806a7bd2d1a",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

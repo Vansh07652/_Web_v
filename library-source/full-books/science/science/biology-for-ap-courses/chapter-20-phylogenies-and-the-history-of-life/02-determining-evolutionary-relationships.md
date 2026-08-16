@@ -1,0 +1,139 @@
+---
+title: "Determining Evolutionary Relationships"
+subject: "Science"
+book: "Biology for AP® Courses"
+chapter: "20: Phylogenies and the History of Life"
+topic_number: "2"
+source: "biology-ap-courses.md"
+tags:
+  - "determining-evolutionary-relationships"
+  - "science"
+status: "complete"
+---
+
+# Determining Evolutionary Relationships
+
+> **Book:** [Biology for AP® Courses](../../README.md)  
+> **Chapter:** [Chapter 20: Phylogenies and the History of Life](../README.md)  
+> **Topic:** 2  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+How do biologists decide that two species are relatives — and how close the relationship is? They compare evidence: physical traits, DNA and protein sequences, and even behaviors. The key skill is telling apart **homologous** features (similar because of shared ancestry) from **analogous** features (similar because of convergent evolution), because only homologous features reveal evolutionary relationships. Modern phylogenetics combines these comparisons with explicit methods — **cladistics**, **maximum parsimony**, and **maximum likelihood** — to build phylogenetic trees that are treated as testable hypotheses rather than final answers.
+
+This topic bridges the classification vocabulary of the previous section and the practice of tree building: which characters count as evidence, why molecular data transformed the field, and how scientists choose among competing trees when evidence is ambiguous.
+
+## Why This Matters
+
+Getting relationships right is not an academic exercise. Comparing viral genomes (e.g., influenza or SARS-CoV-2) with molecular methods reveals how strains spread and evolve, guiding vaccine strain selection each season. Knowing which populations are most closely related informs conservation breeding programs, and identifying the wild relatives of crop plants by their evolutionary relationships points researchers to useful gene pools. For the AP exam, homology-versus-analogy and the logic of parsimony appear in multiple-choice and free-response questions about evolutionary evidence.
+
+## Core Concepts
+
+### Homologous versus analogous structures
+
+**Homologous structures** are inherited from a common ancestor, even if they now serve different functions — the forelimbs of a human, a bat, and a whale share the same underlying bone pattern because they descend from a common tetrapod ancestor. **Analogous structures** look or function similarly but evolved independently, because similar environments favor similar solutions. The wings of birds and insects are analogous; so are the streamlined bodies of sharks (fish), dolphins (mammals), and ichthyosaurs (extinct reptiles). This independent evolution of similar traits is **convergent evolution**. Only homologous traits carry information about ancestry; analogous traits can mislead you into grouping unrelated organisms.
+
+### Molecular evidence: DNA, RNA, and proteins
+
+Since the 1960s–70s, molecular comparisons have become the most powerful source of evidence. Genes and their protein products accumulate mutations over time, so the more similar two species' DNA or amino-acid sequences are, the more recently they are inferred to share a common ancestor. Comparing **ribosomal RNA (rRNA)** sequences famously split prokaryotes into Bacteria and Archaea; mitochondrial DNA comparisons trace recent events such as human migrations. The **molecular clock** idea — that a given gene accumulates changes at a roughly steady rate — lets researchers estimate when lineages diverged, although rates vary across genes and lineages, so estimates are approximate and need fossil calibration.
+
+### Shared ancestral versus shared derived characters
+
+Not every similarity is equally informative. A **shared ancestral character** (plesiomorphy) is a trait inherited from a distant ancestor and shared by many organisms — hair is ancestral for all mammals, so it tells you little about which mammals are most closely related. A **shared derived character** (synapomorphy) is a trait that evolved in a particular lineage's common ancestor and is shared only by its descendants — for example, mammary glands or a four-chambered heart. Cladistics builds trees by identifying synapomorphies, because only these mark the branching events that define groups.
+
+### Outgroups and parsimony
+
+To recognize which traits are derived, systematists compare the study group (the **ingroup**) with a closely related species outside it (the **outgroup**). A character found in both the ingroup and the outgroup is likely ancestral; a character found only in part of the ingroup is likely derived. When multiple trees are possible, **maximum parsimony** selects the tree requiring the fewest evolutionary changes — the simplest explanation consistent with the data, following Occam's razor. **Maximum likelihood** (and its Bayesian cousins) instead evaluates the probability of the data given a model of sequence evolution and picks the tree with the highest likelihood. Parsimony is intuitive for small datasets; likelihood methods dominate modern molecular phylogenetics.
+
+### Trees are hypotheses
+
+Every phylogenetic tree is a hypothesis about ancestry that can be strengthened or overturned by new data. Different genes can yield slightly different trees, so systematists combine many genes (phylogenomics) for more robust results. When evidence conflicts, the uncertainty is sometimes shown as a **polytomy** — a node with more than two branches, meaning the order of divergence is unresolved.
+
+## ELI-10: Explain Like I'm 10
+
+> Figuring out who's related to whom is like detective work with a family tree. If two cousins both have Grandma's unusual nose, that's a clue they're related — but two strangers both wearing sunglasses just share a style, not a family. Scientists look for the inherited "family nose" traits, not the "fashion" traits invented separately, and pick the family tree that needs the fewest guesses to explain all the clues.
+
+## High-Yield Points
+
+- **Homology = shared ancestry; analogy = convergent evolution.** Only homologous traits reveal relationships.
+- **Molecular data (DNA, RNA, protein sequences)** are the most powerful modern evidence; rRNA comparisons created the three-domain system.
+- **Molecular clock** estimates divergence times but is approximate; rates vary by gene and lineage.
+- **Shared derived characters (synapomorphies)** define clades; shared ancestral characters (plesiomorphies) do not.
+- **Outgroup comparison** reveals which characters are ancestral versus derived.
+- **Maximum parsimony** = fewest evolutionary changes; **maximum likelihood** = highest probability under an evolutionary model.
+- **Convergent evolution** (analogous traits) is the classic test trap: bats and birds both have wings but are not closely related.
+- Trees are testable hypotheses; polytomies show unresolved branching.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| homologous structures | Features similar because they are inherited from a common ancestor. | The valid evidence for evolutionary relatedness. |
+| analogous structures | Features similar because of convergent evolution, not shared ancestry. | A trap that can wrongly link unrelated species. |
+| convergent evolution | Independent evolution of similar traits in unrelated lineages under similar pressures. | Explains why analogous structures exist. |
+| molecular clock | The idea that a gene's changes accumulate at a roughly steady rate. | Lets researchers estimate divergence times. |
+| shared ancestral character (plesiomorphy) | A trait inherited from a distant ancestor and shared broadly. | Too widespread to identify close relationships. |
+| shared derived character (synapomorphy) | A trait that evolved in a lineage's common ancestor and defines its descendants. | The character that marks a clade. |
+| outgroup | A species outside the study group used for comparison. | Reveals which characters are ancestral. |
+| maximum parsimony | Choosing the tree that requires the fewest evolutionary changes. | A simple, powerful rule for choosing among trees. |
+| maximum likelihood | Choosing the tree that makes the observed data most probable under a model. | The dominant method for molecular phylogenetics. |
+| polytomy | A node with more than two immediate branches. | Signals unresolved relationships. |
+
+## How It Works / Step-by-Step Process
+
+1. **Collect characters:** record morphological traits and/or molecular sequences for the species of interest.
+2. **Sort homologies from analogies:** keep similarities that reflect shared ancestry; set aside convergent ones.
+3. **Choose an outgroup:** add a related species outside the group to identify which characters are ancestral.
+4. **Score derived characters:** mark which species share each synapomorphy; shared novelties cluster species into clades.
+5. **Build and select the tree:** apply parsimony (fewest changes) or likelihood (highest probability).
+6. **Test and revise:** incorporate additional genes or fossils; unresolved nodes may be shown as polytomies.
+
+## Example
+
+Suppose you must reconstruct the relationships of four mammals — human, chimpanzee, mouse, and kangaroo. You list characters: hair (all four), mammary glands (all four), a placenta (human, chimp, mouse — not kangaroo), and a Y-shaped chromosome arrangement (human and chimp only). With a marsupial outgroup, hair and mammary glands appear in the outgroup too, so they are ancestral and uninformative here. The placenta marks a clade of the three placental mammals; the Y-shaped chromosome marks the human–chimp clade. The tree requiring the fewest changes groups human with chimpanzee first, then with mouse, then with kangaroo. Note what the characters do *not* say: humans are not "more evolved" than chimpanzees — the two simply share a more recent common ancestor than either shares with mice.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Homologous structures | Analogous structures | Homology = inherited from a common ancestor; analogy = evolved independently (convergence). |
+| Wings of birds and insects | Wings of birds and bats | Bird–insect wings are analogous; bird–bat forelimbs are homologous (both modified tetrapod limbs). |
+| Shared ancestral characters | Shared derived characters | Ancestral traits are old and widespread (hair in mammals); derived traits are newer and mark clades (mammary glands). |
+| Similar DNA always meaning very close relationship | Similar DNA usually meaning closer relationship | Sequence similarity is strong evidence of relatedness, but rates of change vary; molecular clocks are approximate. |
+| Parsimony meaning the tree is certainly correct | Parsimony meaning the simplest hypothesis | Parsimony picks the simplest explanation; new data can overturn it. |
+| A species at a tree tip being "more evolved" | Two tips being equally evolved | All living species have been evolving for the same total time since the tree's root. |
+
+## Quick Review
+
+1. A bat's wing and a bird's wing — homologous or analogous? A bat's wing and a human arm?
+2. Why is a shared ancestral character like hair in mammals useless for resolving relationships among mammals?
+3. What role does an outgroup play in building a phylogenetic tree?
+4. State the rule of maximum parsimony in one sentence.
+5. Why did molecular data (especially rRNA) change the way biologists classify life?
+
+<details>
+<summary>Show answers</summary>
+
+1. Bat wing and bird wing: analogous (convergent evolution of flight). Bat wing and human arm: homologous (both modified tetrapod forelimbs inherited from a common ancestor).
+2. Because all mammals (and many other organisms) have it, it was already present in the common ancestor; it doesn't distinguish which mammals are most closely related. Only shared derived characters that appear in subgroups mark branching events.
+3. The outgroup provides a baseline: characters present in both the ingroup and outgroup are ancestral, while characters found only within parts of the ingroup are derived and informative for grouping.
+4. Among competing trees, choose the one that requires the fewest evolutionary changes to explain the data.
+5. Molecular sequences gave thousands of comparable characters across all organisms and revealed relationships invisible in morphology — most famously splitting prokaryotes into Bacteria and Archaea based on rRNA, and enabling the three-domain system.
+
+</details>
+
+## Related Topics
+
+- Previous: [Organizing Life on Earth](01-organizing-life-on-earth.md)
+- Next: [Perspectives on the Phylogenetic Tree](03-perspectives-on-the-phylogenetic-tree.md)
+- Related: [Phylogenies and the History of Life chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Biology for AP® Courses
+- Local outline source: `biology-ap-courses.md`
+- Official source URL: https://openstax.org/details/books/biology-ap-courses/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Values and dates cited (e.g., molecular-clock methodology) are commonly taught reference concepts; verify against current texts before high-stakes use.
+- Last updated: 2026-08-16

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:anatomy-physiology-2:urinary-system-and-fluid-balance:fluid-electrolyte-and-acid-base-balance",
+  "slug": "fluid-electrolyte-and-acid-base-balance",
+  "title": "Fluid, Electrolyte, and Acid–Base Balance",
+  "subject": {
+    "id": "subject:anatomy-physiology-2",
+    "slug": "anatomy-physiology-2",
+    "title": "Anatomy & Physiology II"
+  },
+  "unit": {
+    "id": "unit:anatomy-physiology-2:urinary-system-and-fluid-balance",
+    "slug": "urinary-system-and-fluid-balance",
+    "title": "Urinary System and Fluid Balance",
+    "order": 6
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "This section pulls together the body's regulation of **water (fluid), electrolytes, and pH (acid–base balance)** — how the kidneys, lungs, and hormones cooperate to keep these in range.",
+    "whyItMatters": "Fluid, electrolyte, and acid–base balance are among the most important and clinically monitored aspects of physiology. Disturbances are common in illness and can be life-threatening, making this a cornerstone of nursing.",
+    "learningObjectives": "- Describe the body's **fluid compartments**.\n- Explain **electrolyte** balance and key electrolytes.\n- Summarize **acid–base balance** and the three control systems.\n- Connect imbalances to clinical consequences.",
+    "keyTerms": "",
+    "collegeNotes": "**Fluid compartments.** Body water is distributed between two main compartments: **intracellular fluid (ICF)** — inside cells (about two-thirds of body water) — and **extracellular fluid (ECF)** — outside cells, including blood plasma and the fluid between cells. Water moves between compartments by **osmosis** (recall: toward higher solute concentration), so electrolyte balance and fluid balance are tightly linked. Overall water balance is maintained by matching **intake** (drinking, food) with **output** (mainly urine, plus some in sweat, breath, and feces), regulated largely by **ADH** and thirst.\n\n**Electrolyte balance.** **Electrolytes** are the charged ions (recall from chemistry) essential for many functions. Key ones and their roles:\n\n- **Sodium (Na⁺):** the main ECF cation; central to fluid balance and blood pressure (regulated by aldosterone). Abnormal levels affect the nervous system.\n- **Potassium (K⁺):** the main ICF cation; critical for **nerve and muscle function**, especially the **heart**. Both high (hyperkalemia) and low (hypokalemia) potassium can cause dangerous cardiac rhythm problems.\n- **Calcium (Ca²⁺):** important for muscle, nerve, clotting, and bone (regulated by PTH/calcitonin).\n- **Bicarbonate (HCO₃⁻):** a key buffer for acid–base balance.\n\nThe kidneys are the main regulators of electrolyte levels (via reabsorption and secretion), with hormonal input.\n\n**Acid–base balance.** Recall from A&P I that blood pH must stay near **7.35–7.45**. Three systems maintain it, on different timescales:\n\n1. **Chemical buffers** (like the bicarbonate system): act in **seconds** to blunt pH changes.\n2. **Respiratory system (lungs):** acts in **minutes** by adjusting **CO₂** (faster breathing removes acid; slower retains it).\n3. **Renal system (kidneys):** acts over **hours to days** by excreting **H⁺** and reabsorbing **bicarbonate** — the slowest but most powerful and complete control.\n\nDisturbances are classified by cause and direction: **acidosis** (pH too low) or **alkalosis** (pH too high), each **respiratory** (a breathing/CO₂ problem) or **metabolic** (a bicarbonate/acid problem from the kidneys or metabolism). The body **compensates** — for example, the lungs breathe faster to blow off acid in metabolic acidosis. This integrates the respiratory and urinary systems around a shared goal.",
+    "howItWorks": "The balancing act:\n\n```\nFluid: intake vs output (urine mainly); ADH + thirst regulate water; osmosis moves water between ICF and ECF\nElectrolytes: kidneys + hormones (aldosterone for Na⁺/K⁺, PTH for Ca²⁺) keep ions in range\nAcid–base (pH 7.35–7.45): buffers (seconds) → lungs adjust CO₂ (minutes) → kidneys adjust H⁺/HCO₃⁻ (hours-days)\n   Acidosis (low pH) / alkalosis (high pH); respiratory (CO₂) or metabolic (HCO₃⁻); body compensates\n```",
+    "comparisons": "| Electrolyte | Main location | Key role |\n| --- | --- | --- |\n| Sodium (Na⁺) | ECF | Fluid balance, BP |\n| Potassium (K⁺) | ICF | Nerve/muscle, especially heart |\n| Calcium (Ca²⁺) | Bone/ECF | Muscle, nerve, clotting, bone |\n| Bicarbonate (HCO₃⁻) | ECF | Acid–base buffer |\n\n| pH control | Speed | Mechanism |\n| --- | --- | --- |\n| Chemical buffers | Seconds | Bind/release H⁺ |\n| Lungs | Minutes | Adjust CO₂ |\n| Kidneys | Hours–days | Excrete H⁺, reabsorb HCO₃⁻ |",
+    "highYield": "### High-Yield Pre-Nursing Connections\n\n**Electrolyte imbalances** are common and dangerous: **potassium** abnormalities can cause fatal **arrhythmias**, and sodium disturbances affect the nervous system. **IV fluids** are chosen based on fluid and electrolyte needs (recall tonicity). **Acid–base disorders** (respiratory/metabolic acidosis and alkalosis) are diagnosed with **arterial blood gases (ABGs)** — interpreting pH, CO₂, and bicarbonate. Conditions like **diabetic ketoacidosis**, kidney failure, vomiting, and diarrhea disrupt these balances. This topic is central to critical care and everyday nursing assessment.",
+    "commonConfusions": "- **ICF vs ECF.** Most water is intracellular; ECF includes plasma and interstitial fluid.\n- **Sodium (ECF) vs potassium (ICF).** Different main locations and roles; potassium is especially cardiac-critical.\n- **Respiratory vs metabolic acid–base problems.** Respiratory = CO₂ (lungs); metabolic = bicarbonate/acid (kidneys/metabolism).\n- **Three pH systems differ in speed** — buffers (fast) vs kidneys (slow but complete).",
+    "memoryAids": "- **\"Sodium outside (ECF), potassium inside (ICF).\"**\n- **pH defense: \"buffers (seconds), breath (minutes), kidney (days).\"**\n- **\"Potassium and the heart — keep it in range.\"**",
+    "eli10": "### ELI-10 Explains\n\n### Simple idea\nYour body keeps careful control of three things: how much water you have, the balance of important salts (electrolytes), and how acidic your blood is — and your kidneys, lungs, and hormones work as a team to keep them all just right.\n\n### Analogy\nThink of your body like an aquarium that has to stay perfectly balanced. First, the **water level** must be right — not too full, not too low — controlled by how much you drink versus how much you pee (with a hormone, **ADH**, acting like an automatic water-saver). Second, the **salts** dissolved in the water (**electrolytes** like sodium and potassium) must stay in the right amounts, because the fish (your cells, nerves, and heart) are very sensitive to them — too much or too little **potassium**, especially, can make your heart beat dangerously. Third, the water's **acidity (pH)** must stay in a tiny safe range, guarded by three teams: instant chemical helpers (**buffers**), your **lungs** (breathing out acid as CO₂), and your **kidneys** (slowly removing acid in urine).\n\n### What is actually happening\nThis balance is a huge deal in health care. **Potassium** problems can cause deadly heart-rhythm issues, which is why it's watched so closely. When someone is very sick — from **kidney failure**, uncontrolled **diabetes**, severe **vomiting or diarrhea** — these balances get thrown off, and nurses and doctors check them with blood tests (including **arterial blood gases** for pH). Fixing them often means carefully chosen **IV fluids** and treatments to restore the right water, salts, and acidity.\n\n### Where the analogy stops\nAn aquarium needs a person to test and adjust it, but your body monitors and corrects all three balances automatically and continuously — juggling water, salts, and acidity together, since changing one affects the others.",
+    "quickReview": "- Body water splits into **intracellular (ICF)** and **extracellular (ECF)** compartments; **osmosis** links fluid and electrolyte balance; **ADH** and thirst regulate water.\n- Key **electrolytes**: **sodium** (ECF, fluid/BP), **potassium** (ICF, heart/nerve/muscle — dangerous when abnormal), **calcium**, **bicarbonate**.\n- **Acid–base balance** (pH 7.35–7.45) is maintained by **buffers** (seconds), **lungs** (CO₂, minutes), and **kidneys** (H⁺/HCO₃⁻, hours–days); disorders are **respiratory or metabolic acidosis/alkalosis**, diagnosed with **ABGs**.\n- These balances are central to critical care and everyday clinical assessment.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Anatomy and Physiology 2e*, Chapter 26: Fluid, Electrolyte, and Acid-Base Balance. https://openstax.org/details/books/anatomy-and-physiology-2e",
+        "url": "https://openstax.org/details/books/anatomy-and-physiology-2e"
+      },
+      {
+        "text": "U.S. National Library of Medicine, MedlinePlus — Fluid and Electrolyte Balance. https://medlineplus.gov/fluidandelectrolytebalance.html",
+        "url": "https://medlineplus.gov/fluidandelectrolytebalance.html"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "prenursing_notes",
+    "sourceFile": "Education/pre-nursing-study-hub-content/content/02-anatomy-physiology-ii/06-urinary-system-and-fluid-balance/05-fluid-electrolyte-and-acid-base-balance.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

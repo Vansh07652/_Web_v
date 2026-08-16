@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:synthesis-foundation:changing-the-carbon-skeleton",
+  "slug": "changing-the-carbon-skeleton",
+  "title": "Changing the Carbon Skeleton",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:synthesis-foundation",
+    "slug": "synthesis-foundation",
+    "title": "Synthesis Foundation",
+    "order": 8
+  },
+  "order": 42,
+  "status": "final",
+  "sections": {
+    "overview": "To make a molecule bigger you must form a carbon–carbon bond, and the workhorse of the introductory toolkit is the **acetylide ion**: a terminal alkyne is deprotonated to give a strong carbon nucleophile that attacks a **methyl or primary alkyl halide** in an **SN2** reaction, forming a longer alkyne that can later be reduced. Retrosynthetically, disconnect the target at the new C–C bond so one fragment is a terminal alkyne (nucleophile) and the other a primary alkyl halide (electrophile).",
+    "whyItMatters": "Controlled chain extension builds drug-like backbones one bond at a time, appending alkyl groups to a scaffold without touching other functional groups; choosing an unhindered electrophile so a strong nucleophile adds rather than eliminates is a recurring medicinal-chemistry decision. This section is conceptual planning; acetylide and alkyne work must follow approved institutional safety and waste-handling documentation.",
+    "learningObjectives": "1. Explain why **carbon–carbon bond formation** is the central operation in building molecular skeletons.\n2. Use **acetylide ions** from **terminal alkynes** as nucleophiles to extend a chain by **SN2** alkylation with **alkyl halides**.\n3. Justify the **methyl/primary alkyl halide preference** and predict failure of secondary/tertiary substrates on **steric** and elimination grounds.\n4. Plan a **chain extension** by **retrosynthetic disconnection** at the new bond, selecting the correct **electrophile** and **nucleophile**.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|------|---------------------------|----------------|\n| Carbon–carbon bond formation | Making a new bond between two carbon atoms. | The fundamental way to build a larger skeleton. |\n| Acetylide ion | The conjugate base of a terminal alkyne, \\\\( \\mathrm{RC\\equiv C^-} \\\\). | A strong carbon nucleophile for new C–C bonds. |\n| Terminal alkyne | An alkyne with the triple bond at the chain end. | The source of the acetylide nucleophile. |\n| Alkyl halide | An alkane with a halogen substituent; here the electrophile. | Supplies the carbon to which the nucleophile adds. |\n| SN2 bond formation | A concerted backside displacement at an sp³ carbon. | The mechanism by which acetylides add to halides. |\n| Methyl/primary preference | Only methyl and primary halides react cleanly. | Determines which electrophiles give good yields. |\n| Steric limitations | Crowded electrophilic carbons block backside attack. | Secondary/tertiary halides fail or eliminate. |\n| Chain extension | Adding carbons to lengthen the skeleton. | The practical goal of acetylide alkylation. |\n| Retrosynthetic disconnection | Cutting the new bond backward to reveal the fragments. | Maps the target onto nucleophile + electrophile. |\n| Electrophile/nucleophile selection | Picking the halide and the acetylide that match. | Must respect sterics, acidity, and group tolerance. |",
+    "collegeNotes": "### 1. Carbon–Carbon Bond Formation\nNearly all organic synthesis assembles a carbon skeleton, and only a few introductory reactions reliably make C–C bonds: acetylide alkylation, Grignard/organolithium addition to carbonyls, and (later) aldol reactions. Recognizing which a target calls for is the first planning decision. The acetylide route is special because it *adds carbons to an alkyne*, which can then be functionalized or reduced.\n\n### 2. Acetylide Ions as Carbon Nucleophiles\nTerminal alkynes have an acidic sp C–H (pKa ≈ 25), so strong bases (NaNH₂; BuLi conceptually) deprotonate them to **acetylide ions**, \\\\( \\mathrm{RC\\equiv C^-} \\\\). The negative charge sits in an sp orbital on carbon, making the acetylide a potent carbon nucleophile *and* a strong base. By **SN2** it attacks the electrophilic carbon of an alkyl halide, displacing the halide and forging a new C–C bond.\n\n### 3. Methyl/Primary Preference and Steric Limitations\nSN2 needs backside approach, so the attacked carbon must be open. Only **methyl and primary alkyl halides** react cleanly; **secondary** halides are slow and give substantial elimination (the acetylide pulls a β-hydrogen instead), and **tertiary** halides give almost pure elimination. Vinylic and aryl halides fail because their C–X bond is strong and the backside is blocked. Practical rule: chain extension works best with R–CH₂–X or CH₃–X.",
+    "howItWorks": "1. Locate the C–C bond(s) that must be created to grow the skeleton.\n2. Disconnect that bond; label one fragment the nucleophile precursor (terminal alkyne) and the other the electrophile (alkyl halide).\n3. Confirm the electrophile is methyl or primary; otherwise redesign.\n4. Deprotonate the terminal alkyne with a strong base to form the acetylide.\n5. Add the primary halide; the acetylide attacks by SN2, forming the new C–C bond.\n6. Functionalize the alkyne as needed (hydrogenate to alkane, partial reduction, hydration).\n7. Forward-check for stereochemistry, regiochemistry, and group tolerance.",
+    "comparisons": "",
+    "highYield": "- **High yield:** C–C bond formation is the core of skeleton-building; acetylide SN2 is the simplest reliable tool.\n- **High yield:** Only *methyl and primary* halides alkylate acetylides cleanly—secondary/tertiary eliminate instead.\n- **High yield:** Terminal alkynes are acidic (pKa ≈ 25); NaNH₂ is needed to form the acetylide.\n- **High yield:** The acetylide is both strong nucleophile and strong base—steric and elimination issues follow from that dual role.\n- **High yield:** Disconnect the target at the new C–C bond so one side is an alkyne, the other a primary halide.\n- The bond forms by backside SN2; no carbocation, so no rearrangements.\n- The alkyne product can be reduced to an alkane or a cis/trans alkene, extending the route's reach.\n- Vinylic and aryl halides do not undergo this SN2—strong C–X bond and blocked backside.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|----------------|------|------------|\n| Acetylide nucleophilicity | Acetylide basicity | The same lone pair can attack carbon (SN2) or pull a proton (E2); sterics decide. |\n| Methyl/primary preference | A rule about rate only | It is not just speed—crowded halides take a *different* path (elimination). |\n| Terminal alkyne | Internal alkyne | Only terminal alkynes have an acidic C–H to deprotonate. |\n| SN2 alkylation | SN2 hydrolysis | The nucleophile here is carbon, so the product is a new C–C bond, not an alcohol. |\n| Disconnection | Actual cleavage | The disconnection is imaginary; the real step is the forward SN2. |\n| Chain extension | Functional-group change | Extension adds carbons; FGI changes groups without changing carbon count. |",
+    "memoryAids": "**\"Hook, Socket, No Crowd.\"** Make a carbon hook (deprotonate a terminal alkyne to an acetylide), plug it into an uncrowded socket (a methyl or primary alkyl halide), and keep the socket clear (no secondary/tertiary, no vinylic/aryl) so SN2 forms the bond instead of elimination.",
+    "eli10": "Think of growing a chain like adding a car to a train: you do not weld two finished halves at random; you need a coupling that works only when the two ends fit. A carbon chain is extended the same way—one fragment carries a reactive \"hook\" (a lone pair on carbon, the acetylide) and the other a \"socket\" (a carbon bonded to a leaving group such as bromine). The hook snaps in, one bond forms, and the chain is a carbon longer. The everyday image is plugging an extension cord into an outlet: prongs must line up with slots, and a bulky plug will not fit a crowded socket.\n\n**Where it stops being exact:** chemical \"plugs\" are not reversible like cords. If the socket carbon is crowded (secondary/tertiary) or the leaving group sits on a ring or double bond, the reaction stalls from **steric hindrance** or takes a different path (elimination). So the plug-and-socket picture holds only for unhindered, methyl/primary electrophiles.\n\n### Simple Example\nExtend acetylene to 1-pentyne. Deprotonate \\\\( \\mathrm{HC\\equiv CH} \\\\) with NaNH₂ to the acetylide \\\\( \\mathrm{HC\\equiv C^-} \\\\), then add 1-bromopropane (\\\\( \\mathrm{CH_3CH_2CH_2Br} \\\\)), a *primary* halide. The acetylide's lone pair attacks the carbon bearing Br, Br⁻ leaves, and the new bond gives \\\\( \\mathrm{HC\\equiv CCH_2CH_2CH_3} \\\\)—three carbons longer.",
+    "quickReview": "### Topic Recap\n\nGrowing a carbon skeleton means forming a C–C bond, and the acetylide SN2 is the reliable introductory method: deprotonate a **terminal alkyne** to an **acetylide ion**, then alkylate it with a **methyl or primary alkyl halide**. Steric and basicity limits restrict the electrophile to unhindered substrates, and the **retrosynthetic disconnection** at the new bond reveals the two fragments. The resulting alkyne is a versatile intermediate for further transformation.\n\n### Knowledge Check\n\n1. Why must a terminal (not internal) alkyne be used to make an acetylide?\n2. Which class of alkyl halide reacts cleanly with an acetylide, and why?\n3. What competing reaction occurs if a tertiary alkyl halide is used?\n4. In retrosynthesis of \\\\( \\mathrm{CH_3C\\equiv CCH_2CH_3} \\\\), which bond is disconnected, and what are the two fragments?\n5. After forming 2-pentyne by alkylation, how would you convert it to pentane?\n\n### Answers and Rationales\n\n1. Only a terminal alkyne has the acidic sp C–H proton; an internal alkyne has no such hydrogen, so no acetylide forms.\n2. Methyl and primary halides: backside SN2 attack is unhindered, so the acetylide adds rather than acting as a base.\n3. Elimination (E2): the acetylide acts as a base, removing a β-hydrogen to give an alkene, because substitution is sterically blocked.\n4. The bond between the internal alkyne carbon and the CH₂ of the ethyl group; fragments are propyne (nucleophile precursor) and an ethyl halide such as ethyl bromide (electrophile).\n5. Catalytic hydrogenation (H₂ with a metal catalyst) reduces the alkyne fully to pentane.",
+    "workedExamples": "Synthesize 2-pentyne, \\\\( \\mathrm{CH_3C\\equiv CCH_2CH_3} \\\\), from propyne and a suitable alkyl halide.\n\n1. **Disconnect.** Cut the C–C bond joining the internal alkyne carbon to the CH₂ of the ethyl group; backward gives propyne and an ethyl electrophile.\n2. **Select the electrophile.** The ethyl fragment must be a *primary* alkyl halide, ethyl bromide (\\\\( \\mathrm{CH_3CH_2Br} \\\\)), so SN2 proceeds cleanly.\n3. **State the nucleophile.** Propyne is deprotonated by NaNH₂ to \\\\( \\mathrm{CH_3C\\equiv C^- Na^+} \\\\).\n4. **Trace electrons before products.** The acetylide lone pair attacks the CH₂ carbon from the back; the C–Br σ bond breaks as bromide departs with both electrons—one concerted SN2 step, no carbocation.\n5. **Check accounting.** Two reactants give one product plus Na⁺ and Br⁻ (balanced); backside attack inverts the (achiral, primary) carbon, unobservable here. Product: 2-pentyne.\n6. **Forward-check.** Propyne's acidic proton is consumed first by NaNH₂, and the primary halide avoids elimination—a textbook chain extension.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "changing-the-carbon-skeleton",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "42-changing-the-carbon-skeleton",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/42-changing-the-carbon-skeleton.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

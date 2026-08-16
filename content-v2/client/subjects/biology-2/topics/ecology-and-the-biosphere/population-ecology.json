@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-2:ecology-and-the-biosphere:population-ecology",
+  "slug": "population-ecology",
+  "title": "Population Ecology",
+  "subject": {
+    "id": "subject:biology-2",
+    "slug": "biology-2",
+    "title": "Biology II"
+  },
+  "unit": {
+    "id": "unit:biology-2:ecology-and-the-biosphere",
+    "slug": "ecology-and-the-biosphere",
+    "title": "Ecology and the Biosphere",
+    "order": 6
+  },
+  "order": 21,
+  "status": "final",
+  "sections": {
+    "overview": "Population ecology studies groups of individuals of the same species living in the same area and how their size and structure change over time. Populations grow exponentially when resources are unlimited but logistically as they approach a carrying capacity set by limiting factors. Density-dependent factors (disease, competition) regulate populations, while density-independent factors (fires, floods) affect them regardless of size.",
+    "whyItMatters": "Population ecology underpins public health and resource planning. **Epidemiology** uses demographic models to track how diseases spread through human and animal populations, where density and contact rates influence transmission. **Age-structure diagrams** inform health systems about future demand — an aging population shifts needs toward chronic care, while a young, growing population increases demand for maternal and child health services. In **conservation and wildlife management**, carrying capacity and density-dependent factors guide harvest limits, habitat protection, and invasive-species control. These are conceptual tools that support, but do not replace, professional training in epidemiology, medicine, or conservation.",
+    "learningObjectives": "By the end of this topic, you should be able to:\n\n1. Define a population and describe how density, dispersion, and demography characterize it.\n2. Interpret survivorship curves and explain how they reflect life-history strategies.\n3. Contrast exponential and logistic population growth and explain carrying capacity.\n4. Distinguish density-dependent from density-independent limiting factors.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| **Population** | Interbreeding group of one species in an area | The basic unit of ecological study |\n| **Density** | Individuals per unit area or volume | Affects competition, disease, and growth |\n| **Dispersion** | Spacing of individuals (clumped, uniform, random) | Reveals resources and social behavior |\n| **Survivorship curve** | Graph of survival vs. age (Types I, II, III) | Summarizes a life-history pattern |\n| **Exponential growth** | Growth proportional to current size (J-curve) | What happens without limits |\n| **Carrying capacity (K)** | Maximum population the environment can sustain | The ceiling that slows growth |\n| **Logistic growth** | Growth that slows near K (S-curve) | The realistic growth model |\n| **Density-dependent factor** | A limit whose effect rises with density | Regulates populations near a stable size |\n| **Density-independent factor** | A limit independent of density | Causes crashes regardless of size |\n| **r-selected vs. K-selected** | Many small offspring vs. few large, cared-for offspring | Two ends of the life-history spectrum |",
+    "collegeNotes": "### 1. What characterizes a population\n\nA **population** is a group of individuals of the same species in the same area that interbreed. Ecologists describe it by **density** (individuals per unit area or volume), **dispersion** (how individuals are spaced — **clumped**, **uniform**, or **random**), and **demography** (birth and death rates and age structure). Dispersion reflects resources and behavior: clumped is most common (animals cluster around food or social groups), uniform often results from territoriality or competition, and random occurs when spacing is independent of others.\n\n**Survivorship curves** plot the proportion of a cohort surviving to each age:\n\n- **Type I** — high survival early, most death late in life (humans and large mammals that invest in few, well-cared-for offspring).\n- **Type II** — roughly constant death rate across ages (many birds, small mammals).\n- **Type III** — very high early mortality, but survivors live long (oysters, trees, and many fish and insects that produce huge numbers of small offspring with little care).\n\n### 2. Population growth models\n\n**Exponential growth** occurs when resources are effectively unlimited. The change in population size equals the **per capita growth rate (r)** times the current size (dN/dt = rN). Because growth is proportional to size already present, the population forms a J-shaped curve. The **intrinsic rate of increase (r-max)** is the maximum growth rate under ideal conditions.\n\n**Logistic growth** adds a limit. As the population (N) approaches the **carrying capacity (K)** — the maximum number the environment can sustain — growth declines, producing an S-shaped curve: dN/dt = rN((K − N)/K). When N is small, growth is nearly exponential; when N equals K, growth stops.\n\n### 3. What regulates population size\n\n**Density-dependent factors** change in effect as density changes: competition for resources, predation, disease, and waste accumulation. They regulate populations around a stable size because their impact grows as the population grows. **Density-independent factors** — fires, floods, storms, temperature extremes — affect a population regardless of density and can crash one of any size.\n\nThese pressures shape **life-history strategies**. **r-selected** species reproduce early, produce many small offspring, and provide little care, thriving in unstable or disturbed environments (weeds, insects). **K-selected** species reproduce later, produce few large offspring, and invest heavily in care, thriving in stable environments (elephants, whales). Most species fall between these extremes.",
+    "howItWorks": "Logistic growth, step by step:\n\n1. A small population in a resource-rich environment grows at nearly its maximum rate, roughly doubling each interval (exponential phase).\n2. As numbers rise, individuals compete for food, space, and mates, and disease or predation may increase — density-dependent brakes engage.\n3. The per capita growth rate falls as the population approaches carrying capacity (K).\n4. At K, births and deaths balance, and the population fluctuates around a stable equilibrium.\n5. If a density-independent event (fire, storm) or a new competitor changes K, the population shifts to a new equilibrium.",
+    "comparisons": "",
+    "highYield": "- **High yield:** Exponential growth = J-curve (dN/dt = rN); logistic growth = S-curve with carrying capacity K.\n- **High yield:** Carrying capacity is the maximum sustainable population size, set by limiting resources.\n- **High yield:** Density-dependent factors (competition, disease, predation) regulate populations; density-independent factors (fire, flood) do not depend on density.\n- **High yield:** Survivorship Type I = most survive to old age; Type III = most die young.\n- **High yield:** r-selected = many offspring, little care, unstable habitats; K-selected = few offspring, heavy care, stable habitats.\n- Dispersion is clumped (most common), uniform (territoriality), or random.\n- The intrinsic rate of increase (r-max) is the theoretical maximum under ideal conditions.\n- Age-structure diagrams predict future growth from the proportion of reproductive-age individuals.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Exponential growth | Logistic growth | Unlimited J-curve growth vs. S-curve growth slowed by carrying capacity |\n| Carrying capacity | Population size | K is the environmental limit; N is the current number of individuals |\n| Density-dependent factor | Density-independent factor | Effect depends on density vs. affects any population size |\n| Type I survivorship | Type III survivorship | Most survive to old age vs. most die young |\n| r-selected | K-selected | Many small offspring, little care vs. few large offspring, much care |",
+    "memoryAids": "**\"K caps the J.\"** Exponential growth makes a **J**, and the carrying capacity (**K**) flattens it into an **S**. For survivorship, remember **\"I, II, III = care, constant, crash\"** — Type I animals are cared for and live long, Type II have steady death rates, and Type III crash early but survivors persist.",
+    "eli10": "Think of a population like the number of people in a theater. When the theater is nearly empty, every new person finds a seat easily and the crowd grows fast — that is like **exponential growth**. But the theater has only so many seats; as it fills, it gets harder for newcomers to find a seat, and growth slows and stops at the number of seats available. That limit is the **carrying capacity**.\n\nThe seats are the resources: food, water, shelter, space. When resources are plentiful relative to the number of animals, the population grows; when they run short, growth can no longer continue.\n\nThe comparison stops being exact because a real environment's \"number of seats\" is not fixed — it changes with seasons, weather, and other species, and animals can sometimes find new resources or move. Still, the core idea — growth that speeds up, then slows as limits are reached — is exactly how ecologists describe real populations.\n\n### Simple Example\n\nA few bacteria in a dish with plenty of food double again and again very quickly (exponential growth). As food runs out and waste builds up, growth slows and levels off (logistic growth) — the dish's carrying capacity.",
+    "quickReview": "### Topic Recap\n\n- A population is described by density, dispersion, and demography (survivorship curves).\n- Survivorship curves (Types I, II, III) reflect how much parental investment a species provides.\n- Exponential growth (J-curve) becomes logistic growth (S-curve) as carrying capacity limits expansion.\n- Density-dependent factors regulate populations; density-independent factors crash them regardless of size.\n- r- and K-selection describe a spectrum of reproductive strategies shaped by environmental stability.\n\n### Knowledge Check\n\n1. What is the difference between exponential and logistic population growth?\n2. How does carrying capacity affect the growth rate in the logistic model?\n3. Give one density-dependent and one density-independent limiting factor.\n4. Which survivorship curve describes a species producing huge numbers of offspring with little parental care?\n5. What do r-selected and K-selected species differ in?\n\n### Answers and Rationales\n\n1. **Answer:** Exponential growth is proportional to current size and continues without limit (J-curve); logistic growth slows as the population approaches carrying capacity and levels off (S-curve). **Why:** Real environments have limits, so logistic growth is more realistic.\n2. **Answer:** As N approaches K, the term (K − N)/K shrinks, so the growth rate falls to zero. **Why:** Carrying capacity represents the resources that limit further growth.\n3. **Answer:** Density-dependent — disease or competition; density-independent — a flood or fire. **Why:** The distinction is whether the factor's impact scales with population size.\n4. **Answer:** Type III. **Why:** High fecundity with little care means most offspring die early, with few survivors living to older ages.\n5. **Answer:** Reproductive rate and parental investment — r-selected species reproduce early with many small offspring and little care, while K-selected species reproduce later with few large offspring and heavy care. **Why:** These reflect different adaptations to unstable vs. stable environments.",
+    "workedExamples": "",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": false,
+    "exactQuestions": 12
+  },
+  "aliases": [
+    {
+      "value": "population-ecology",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "21-population-ecology",
+      "kind": "source_file_stem",
+      "source_id": "need-review-biology-2"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-biology-2",
+    "sourceFile": "biology-2-study-notes/docs/biology-2/21-population-ecology.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

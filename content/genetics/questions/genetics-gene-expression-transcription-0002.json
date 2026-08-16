@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-expression-transcription-0002",
+  "subject": "genetics",
+  "lesson": "gene-expression-transcription",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept During transcription, which DNA strand is copied into RNA, and in which direction does RNA polymerase read it?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The coding strand, which is read 5' to 3' and matches the RNA sequence."
+    },
+    {
+      "id": "b",
+      "text": "The template strand, which is read 3' to 5' so the RNA is synthesized 5' to 3'."
+    },
+    {
+      "id": "c",
+      "text": "Both strands at once, each producing a separate RNA molecule."
+    },
+    {
+      "id": "d",
+      "text": "Only the coding strand, because RNA polymerase reads it 3' to 5'."
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "RNA polymerase reads the template strand in the 3' to 5' direction and adds ribonucleotides to the growing chain in the 5' to 3' direction, so the RNA is antiparallel and complementary to the template. A describes the coding strand, whose sequence matches the RNA with U for T, but the coding strand is not copied. C is wrong because only one strand of a gene is transcribed. D assigns the reading direction to the wrong strand.",
+  "difficulty": "unknown",
+  "tags": [
+    "template",
+    "strand",
+    "direction"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-d70bead5ed76165d",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

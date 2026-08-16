@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:membrane-structure-and-cellular-transport:active-transport",
+  "slug": "active-transport",
+  "title": "Active Transport: Pumps, Gradients, and the Na⁺/K⁺ ATPase",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:membrane-structure-and-cellular-transport",
+    "slug": "membrane-structure-and-cellular-transport",
+    "title": "Membrane Structure And Cellular Transport",
+    "order": 3
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "Active transport moves solutes **against** their concentration gradient — from low to high concentration — and therefore requires an input of energy, almost always **ATP**. Because the cell must do work to push \"uphill,\" active transport depends on specific **pump proteins**. It comes in two forms: **primary active transport**, which uses ATP directly, and **secondary active transport**, which uses the energy stored in an ion gradient (itself built by a primary pump) to drive another solute uphill.",
+    "whyItMatters": "The Na⁺/K⁺ pump maintains the ion gradients that underlie nerve impulses, muscle contraction, and the regulation of cell volume. Secondary active transport is how the intestine absorbs glucose and amino acids, how the kidney reabsorbs filtered nutrients, and how many drugs are handled. Disrupting these pumps — for example, with digitalis (which inhibits the Na⁺/K⁺ pump in heart cells) or in cellular energy failure — rapidly disturbs cell function, showing how fundamental active transport is to life.",
+    "learningObjectives": "- Define active transport and contrast it with passive transport.\n- Explain primary active transport using the Na⁺/K⁺ pump as the canonical example.\n- Describe secondary active transport (cotransport) and distinguish symport from antiport.\n- Explain how electrochemical gradients and membrane potential store energy for transport work.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nActive transport moves solutes **against** their concentration gradient — from low to high concentration — and therefore requires an input of energy, almost always **ATP**. Because the cell must do work to push \"uphill,\" active transport depends on specific **pump proteins**. It comes in two forms: **primary active transport**, which uses ATP directly, and **secondary active transport**, which uses the energy stored in an ion gradient (itself built by a primary pump) to drive another solute uphill.\n\n### Key Concepts\n\n### Primary Active Transport\nIn **primary active transport**, a transport protein hydrolyzes ATP and uses the released energy to move a solute against its gradient. The ATP hydrolysis and the pumping are directly coupled within a single protein. The most important example is the **Na⁺/K⁺ pump (Na⁺/K⁺-ATPase)**.\n\n### The Na⁺/K⁺ Pump\nThe Na⁺/K⁺-ATPase is an integral membrane protein that, for each molecule of ATP hydrolyzed, pumps **3 Na⁺ out** of the cell and **2 K⁺ into** the cell — both against their concentration gradients (Na⁺ is higher outside; K⁺ is higher inside). This unequal exchange (3 out vs. 2 in) makes the pump **electrogenic**: it moves one net positive charge out per cycle, helping build the membrane potential. The pump runs constantly and uses a large fraction of a resting cell's ATP.\n\n### Electrochemical Gradient and Membrane Potential\nBecause ions are charged, their movement depends on **two** forces: the **chemical gradient** (concentration difference) and the **electrical gradient** (charge difference across the membrane). Together these make up the **electrochemical gradient**. The separation of charge across the membrane is the **membrane potential** (the inside is typically negative relative to the outside). The Na⁺/K⁺ pump helps establish and maintain this potential by keeping Na⁺ high outside and K⁺ high inside.\n\n### Secondary Active Transport (Cotransport)\n**Secondary active transport** uses the potential energy stored in an ion gradient — usually the Na⁺ gradient created by the Na⁺/K⁺ pump — to move another molecule against its own gradient. The ion flows **down** its gradient (spontaneously) while the second solute is carried **up** its gradient. It does not use ATP directly, but it depends on the ATP that the primary pump spent to build the gradient.\n\n### Symport and Antiport\n- **Symport (cotransport):** the driving ion and the transported solute move in the **same direction**. Example: the Na⁺/glucose symporter in intestinal cells brings glucose into the cell by letting Na⁺ flow inward.\n- **Antiport (exchange):** the driving ion and the transported solute move in **opposite directions**. Example: the Na⁺/Ca²⁺ exchanger moves Na⁺ in while Ca²⁺ moves out.\n\n### How It Works\n\n(1) A primary pump such as the Na⁺/K⁺-ATPase binds 3 intracellular Na⁺ and hydrolyzes ATP, phosphorylating itself. (2) Phosphorylation triggers a conformational change that releases the 3 Na⁺ outside. (3) The protein then binds 2 extracellular K⁺, dephosphorylates, and returns to its original shape, releasing K⁺ inside. (4) This cycle creates a steep Na⁺ gradient and an inside-negative membrane potential. (5) A secondary transporter (e.g., Na⁺/glucose symport) then lets Na⁺ flow back down its gradient, and the energy of that downhill flow is captured to push glucose uphill into the cell. The key point: the *ultimate* energy source is always ATP, spent by the primary pump; secondary transport borrows that energy secondhand.",
+    "howItWorks": "(1) A primary pump such as the Na⁺/K⁺-ATPase binds 3 intracellular Na⁺ and hydrolyzes ATP, phosphorylating itself. (2) Phosphorylation triggers a conformational change that releases the 3 Na⁺ outside. (3) The protein then binds 2 extracellular K⁺, dephosphorylates, and returns to its original shape, releasing K⁺ inside. (4) This cycle creates a steep Na⁺ gradient and an inside-negative membrane potential. (5) A secondary transporter (e.g., Na⁺/glucose symport) then lets Na⁺ flow back down its gradient, and the energy of that downhill flow is captured to push glucose uphill into the cell. The key point: the *ultimate* energy source is always ATP, spent by the primary pump; secondary transport borrows that energy secondhand.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Active transport moves solutes against their gradient and requires energy (ATP).\n- Primary active transport hydrolyzes ATP directly; secondary uses an ion gradient.\n- Na⁺/K⁺ pump: 3 Na⁺ out, 2 K⁺ in, per ATP (electrogenic, builds membrane potential).\n- Electrochemical gradient = chemical gradient + electrical gradient.\n- Membrane potential: inside is negative relative to outside.\n- Symport = driving ion and solute move the same way; antiport = opposite ways.\n- Na⁺/glucose symporter is the classic example of secondary active transport.",
+    "commonConfusions": "- **\"Active transport means any transport protein doing work.\"** Wrong — facilitated diffusion also uses proteins but moves solutes downhill without ATP.\n- **\"The Na⁺/K⁺ pump moves equal amounts of Na⁺ and K⁺.\"** Wrong — it moves 3 Na⁺ out for 2 K⁺ in, which is why it is electrogenic.\n- **\"Secondary active transport uses ATP directly.\"** Wrong — it uses an ion gradient; the ATP was spent earlier by the primary pump that built that gradient.\n- **\"Symport and antiport are the same thing.\"** Wrong — symport moves both solutes the same direction; antiport moves them opposite directions.\n- **\"The Na⁺/K⁺ pump pushes Na⁺ into the cell.\"** Wrong — Na⁺ is pumped *out* (Na⁺ is already high outside); K⁺ is pumped in.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a water slide at a pool. Going *down* the slide (downhill, toward the water) is free — that's passive transport. Now imagine you want to get *back up* to the top of the slide: you have to climb stairs, which takes energy. Active transport is the climb. The Na⁺/K⁺ pump is like a turnstile worker who spends \"energy coins\" (ATP) to shove 3 sodium people out of the cell and 2 potassium people in — always against the crowd. Once a big crowd of sodium is piled up outside, the cell can use that crowd as a second slide: when sodium rushes back in (downhill), it pushes a glucose molecule uphill through the same turnstile, like a heavy door that only opens because sodium is pushing on it. That second slide is \"secondary\" active transport — it doesn't spend coins directly, but the coins were already spent to build the slide. The analogy's limit: real pumps and transporters are single proteins that change shape, not little workers, and \"uphill/downhill\" is really about probability — molecules drift randomly, and the cell biases the direction by spending energy.",
+    "quickReview": "- Active transport: against the gradient, needs energy.\n- Primary = ATP used directly (Na⁺/K⁺-ATPase: 3 Na⁺ out, 2 K⁺ in).\n- Secondary = ion gradient drives a second solute (cotransport).\n- Symport same direction; antiport opposite direction.\n- Electrochemical gradient combines concentration and charge.\n- Na⁺/K⁺ pump is electrogenic and maintains the membrane potential.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"5.3 Active Transport.\" https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+        "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Active Transport by ATP-Powered Pumps.\" NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/"
+      },
+      {
+        "text": "Berg, Tymoczko & Stryer, *Biochemistry*, 5th ed., \"Active Transport of Ions Across Membranes.\" NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK21154/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21154/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "active-transport",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "03-active-transport",
+      "kind": "source_file_stem",
+      "source_id": "biology_notes"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "ref_id": "source-ref:biology_notes:f9e25ece12386294"
+      }
+    ],
+    "eli10": [
+      {
+        "ref_id": "source-ref:biology_notes:f9e25ece12386294"
+      }
+    ],
+    "high_yield": [
+      {
+        "ref_id": "source-ref:biology_notes:f9e25ece12386294"
+      }
+    ],
+    "references": [
+      {
+        "ref_id": "source-ref:biology_notes:f9e25ece12386294"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/03-membrane-structure-and-cellular-transport/03-active-transport.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": "# Active Transport: Pumps, Gradients, and the Na⁺/K⁺ ATPase\n\n## Learning Goals\n\n- Define active transport and contrast it with passive transport.\n- Explain primary active transport using the Na⁺/K⁺ pump as the canonical example.\n- Describe secondary active transport (cotransport) and distinguish symport from antiport.\n- Explain how electrochemical gradients and membrane potential store energy for transport work.\n\n## Core Concept\n\nActive transport moves solutes **against** their concentration gradient — from low to high concentration — and therefore requires an input of energy, almost always **ATP**. Because the cell must do work to push \"uphill,\" active transport depends on specific **pump proteins**. It comes in two forms: **primary active transport**, which uses ATP directly, and **secondary active transport**, which uses the energy stored in an ion gradient (itself built by a primary pump) to drive another solute uphill.\n\n## Key Concepts\n\n### Primary Active Transport\nIn **primary active transport**, a transport protein hydrolyzes ATP and uses the released energy to move a solute against its gradient. The ATP hydrolysis and the pumping are directly coupled within a single protein. The most important example is the **Na⁺/K⁺ pump (Na⁺/K⁺-ATPase)**.\n\n### The Na⁺/K⁺ Pump\nThe Na⁺/K⁺-ATPase is an integral membrane protein that, for each molecule of ATP hydrolyzed, pumps **3 Na⁺ out** of the cell and **2 K⁺ into** the cell — both against their concentration gradients (Na⁺ is higher outside; K⁺ is higher inside). This unequal exchange (3 out vs. 2 in) makes the pump **electrogenic**: it moves one net positive charge out per cycle, helping build the membrane potential. The pump runs constantly and uses a large fraction of a resting cell's ATP.\n\n### Electrochemical Gradient and Membrane Potential\nBecause ions are charged, their movement depends on **two** forces: the **chemical gradient** (concentration difference) and the **electrical gradient** (charge difference across the membrane). Together these make up the **electrochemical gradient**. The separation of charge across the membrane is the **membrane potential** (the inside is typically negative relative to the outside). The Na⁺/K⁺ pump helps establish and maintain this potential by keeping Na⁺ high outside and K⁺ high inside.\n\n### Secondary Active Transport (Cotransport)\n**Secondary active transport** uses the potential energy stored in an ion gradient — usually the Na⁺ gradient created by the Na⁺/K⁺ pump — to move another molecule against its own gradient. The ion flows **down** its gradient (spontaneously) while the second solute is carried **up** its gradient. It does not use ATP directly, but it depends on the ATP that the primary pump spent to build the gradient.\n\n### Symport and Antiport\n- **Symport (cotransport):** the driving ion and the transported solute move in the **same direction**. Example: the Na⁺/glucose symporter in intestinal cells brings glucose into the cell by letting Na⁺ flow inward.\n- **Antiport (exchange):** the driving ion and the transported solute move in **opposite directions**. Example: the Na⁺/Ca²⁺ exchanger moves Na⁺ in while Ca²⁺ moves out.\n\n## How It Works\n\n(1) A primary pump such as the Na⁺/K⁺-ATPase binds 3 intracellular Na⁺ and hydrolyzes ATP, phosphorylating itself. (2) Phosphorylation triggers a conformational change that releases the 3 Na⁺ outside. (3) The protein then binds 2 extracellular K⁺, dephosphorylates, and returns to its original shape, releasing K⁺ inside. (4) This cycle creates a steep Na⁺ gradient and an inside-negative membrane potential. (5) A secondary transporter (e.g., Na⁺/glucose symport) then lets Na⁺ flow back down its gradient, and the energy of that downhill flow is captured to push glucose uphill into the cell. The key point: the *ultimate* energy source is always ATP, spent by the primary pump; secondary transport borrows that energy secondhand.\n\n## Why It Matters\n\nThe Na⁺/K⁺ pump maintains the ion gradients that underlie nerve impulses, muscle contraction, and the regulation of cell volume. Secondary active transport is how the intestine absorbs glucose and amino acids, how the kidney reabsorbs filtered nutrients, and how many drugs are handled. Disrupting these pumps — for example, with digitalis (which inhibits the Na⁺/K⁺ pump in heart cells) or in cellular energy failure — rapidly disturbs cell function, showing how fundamental active transport is to life.\n\n## High-Yield Facts\n\n- Active transport moves solutes against their gradient and requires energy (ATP).\n- Primary active transport hydrolyzes ATP directly; secondary uses an ion gradient.\n- Na⁺/K⁺ pump: 3 Na⁺ out, 2 K⁺ in, per ATP (electrogenic, builds membrane potential).\n- Electrochemical gradient = chemical gradient + electrical gradient.\n- Membrane potential: inside is negative relative to outside.\n- Symport = driving ion and solute move the same way; antiport = opposite ways.\n- Na⁺/glucose symporter is the classic example of secondary active transport.\n\n## Eli Explains\n\nImagine a water slide at a pool. Going *down* the slide (downhill, toward the water) is free — that's passive transport. Now imagine you want to get *back up* to the top of the slide: you have to climb stairs, which takes energy. Active transport is the climb. The Na⁺/K⁺ pump is like a turnstile worker who spends \"energy coins\" (ATP) to shove 3 sodium people out of the cell and 2 potassium people in — always against the crowd. Once a big crowd of sodium is piled up outside, the cell can use that crowd as a second slide: when sodium rushes back in (downhill), it pushes a glucose molecule uphill through the same turnstile, like a heavy door that only opens because sodium is pushing on it. That second slide is \"secondary\" active transport — it doesn't spend coins directly, but the coins were already spent to build the slide. The analogy's limit: real pumps and transporters are single proteins that change shape, not little workers, and \"uphill/downhill\" is really about probability — molecules drift randomly, and the cell biases the direction by spending energy.\n\n## Common Confusions\n\n- **\"Active transport means any transport protein doing work.\"** Wrong — facilitated diffusion also uses proteins but moves solutes downhill without ATP.\n- **\"The Na⁺/K⁺ pump moves equal amounts of Na⁺ and K⁺.\"** Wrong — it moves 3 Na⁺ out for 2 K⁺ in, which is why it is electrogenic.\n- **\"Secondary active transport uses ATP directly.\"** Wrong — it uses an ion gradient; the ATP was spent earlier by the primary pump that built that gradient.\n- **\"Symport and antiport are the same thing.\"** Wrong — symport moves both solutes the same direction; antiport moves them opposite directions.\n- **\"The Na⁺/K⁺ pump pushes Na⁺ into the cell.\"** Wrong — Na⁺ is pumped *out* (Na⁺ is already high outside); K⁺ is pumped in.\n\n## Quick Review\n\n- Active transport: against the gradient, needs energy.\n- Primary = ATP used directly (Na⁺/K⁺-ATPase: 3 Na⁺ out, 2 K⁺ in).\n- Secondary = ion gradient drives a second solute (cotransport).\n- Symport same direction; antiport opposite direction.\n- Electrochemical gradient combines concentration and charge.\n- Na⁺/K⁺ pump is electrogenic and maintains the membrane potential.\n\n## Sources\n\n- OpenStax, *Biology 2e*, \"5.3 Active Transport.\" https://openstax.org/books/biology-2e/pages/5-3-active-transport\n- Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Active Transport by ATP-Powered Pumps.\" NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK21054/\n- Berg, Tymoczko & Stryer, *Biochemistry*, 5th ed., \"Active Transport of Ions Across Membranes.\" NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK21154/\n"
+}

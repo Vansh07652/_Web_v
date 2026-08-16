@@ -1,0 +1,142 @@
+---
+title: "DNA Repair"
+subject: "Science"
+book: "Biology for AP® Courses"
+chapter: "14: DNA Structure and Function"
+topic_number: "6"
+source: "biology-ap-courses.md"
+tags:
+  - "dna-repair"
+  - "science"
+status: "complete"
+---
+
+# DNA Repair
+
+> **Book:** [Biology for AP® Courses](../../README.md)  
+> **Chapter:** [Chapter 14: DNA Structure and Function](../README.md)  
+> **Topic:** 6  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+DNA is remarkably stable, but not inert. Every day the DNA in a human cell is damaged thousands of times by ultraviolet light, ionizing radiation, reactive oxygen species, and the chemistry of water itself (bases fall off or get altered). Replication adds its own errors — roughly one mistake per 10⁵–10⁶ nucleotides even after proofreading (commonly taught estimates). If every lesion became a permanent mutation, cells would accumulate errors faster than life could tolerate.
+
+Cells therefore run several overlapping repair systems, each specialized for a class of damage: **direct reversal** for a few specific lesions, **base excision repair (BER)** for small chemical alterations, **nucleotide excision repair (NER)** for bulky, helix-distorting damage like thymine dimers, **mismatch repair (MMR)** for errors past proofreading, and **double-strand break repair** — **non-homologous end joining (NHEJ)** and **homologous recombination (HR)** — for broken chromosomes. When these fail, mutations accumulate, driving cancer and aging.
+
+## Why This Matters
+
+DNA repair sits at the intersection of genetics, cancer biology, and medicine. Inherited repair defects cause dramatic disease: people with **xeroderma pigmentosum** cannot repair thymine dimers and develop skin cancers very young; people with **Lynch syndrome** carry defective mismatch-repair genes and face greatly elevated colorectal cancer risk; people with certain *BRCA1* or *BRCA2* mutations have impaired homologous recombination and elevated breast and ovarian cancer risk. Cancer treatments exploit repair too: radiation and many chemotherapy drugs damage DNA, overwhelming repair in dividing cancer cells. Understanding repair explains why sun exposure causes skin cancer (UV → thymine dimers) and why repair pathways are drug targets. On the AP exam, the classic questions: which repair system handles which damage, and what happens when it fails.
+
+## Core Concepts
+
+### Where the damage comes from
+
+- **Replication errors:** mis-pairs escape proofreading (3′→5′ exonuclease).
+- **Depurination:** a purine (A or G) falls off its sugar, leaving an **AP site** ("without a base") — among the most frequent spontaneous lesions.
+- **Deamination:** cytosine becomes uracil — not normally in DNA, so the cell recognizes it as damage.
+- **UV light:** adjacent pyrimidines (often two thymines) fuse into a **thymine dimer**, kinking the helix.
+- **Ionizing radiation and free radicals:** can oxidize bases (e.g., 8-oxoguanine) or snap the backbone (**double-strand breaks**).
+- **Chemicals:** alkylating agents and bulky mutagens attach groups to bases.
+
+### Direct reversal: fixing the lesion in place
+
+A few lesions are repaired by reversing the chemistry — no cutting required. **Photolyase**, found in bacteria, fungi, plants, and some animals, splits thymine dimers using visible light (photoreactivation); humans lack it, which is why sunlight is more dangerous for us. **O⁶-methylguanine methyltransferase (MGMT)** removes alkyl groups from guanine by taking them onto itself (the enzyme is consumed). Fast and error-free, but covers only a narrow set of lesions.
+
+### Base excision repair (BER): the small-lesion specialist
+
+BER handles small, non-helix-distorting damage such as deaminated or oxidized bases. A **DNA glycosylase** snips out the damaged base, creating an **AP site**; an **AP endonuclease** cuts the backbone; a polymerase replaces one (or a few) nucleotides; **DNA ligase** seals the nick — like replacing a single defective letter in a sentence.
+
+### Nucleotide excision repair (NER): the bulky-lesion specialist
+
+NER handles bulky, helix-distorting lesions — above all **thymine dimers** and large chemical adducts. The machinery detects the distortion, unwinds the DNA, excises an oligonucleotide of roughly 24–32 nucleotides (commonly taught figures vary), fills the gap with a polymerase, and seals with ligase. Two flavors exist: **global genome NER** scans the whole genome; **transcription-coupled NER** triggers when RNA polymerase stalls at a lesion in an active gene. In humans, defects in NER genes (*XPA*–*XPG*) cause **xeroderma pigmentosum**: people with it develop skin cancers in childhood because thymine dimers are never removed.
+
+### Mismatch repair (MMR): the proofreader's backup
+
+MMR corrects errors that escape proofreading — mis-paired bases that are chemically normal but simply wrong. The challenge is knowing which strand is the mistake: MMR must fix the **new** strand, not the template. In bacteria, **hemimethylation** answers it: the parental strand is methylated, the new strand is not, so the machinery (MutS, MutL, MutH) cuts the unmethylated strand. Eukaryotes use homologs (MSH, MLH) with similar logic; defects cause **Lynch syndrome**, with high lifetime risk of colorectal and other cancers.
+
+### Double-strand break repair: two strategies
+
+A broken chromosome is the most lethal damage — one unrepaired double-strand break can kill a cell. Two strategies with opposite trade-offs:
+
+- **Non-homologous end joining (NHEJ):** Ku proteins bind the broken ends and ligase IV stitches them together — fast, any cell-cycle phase, but **error-prone**, possibly deleting or adding nucleotides; handles most breaks in G1.
+- **Homologous recombination (HR):** the cell uses the **sister chromatid** (available in S and G2) as a template to rebuild the region precisely with Rad51 — slow, needs a homolog, but **error-free**. *BRCA1* and *BRCA2* participate, which is why their loss predisposes to cancer.
+
+## ELI-10: Explain Like I'm 10
+
+Think of your DNA as a recipe book your body copies over and over. Sometimes a letter gets smudged, a page gets a coffee stain, or a page tears in half. The cell has different repair crews: one erases small smudges, one cuts out big stains and rewrites the page, one checks new copies for typos, and one tapes torn pages back together — quickly with messy tape (NHEJ) or carefully from a backup book (HR). If the crews are missing, the recipes come out wrong, and that's how cancer starts.
+
+## High-Yield Points
+
+- **Proofreading ≠ repair:** the polymerase's 3′→5′ exonuclease catches errors *during* synthesis; MMR catches the rest *after*.
+- **BER** fixes small lesions (deamination, oxidation, depurination): glycosylase → AP site → AP endonuclease → polymerase + ligase.
+- **NER** fixes bulky, helix-distorting lesions (**thymine dimers**): excises a ~24–32 nt patch. Defects → **xeroderma pigmentosum**.
+- **Humans lack photolyase** — no direct thymine-dimer repair; we rely on NER.
+- **MMR** fixes mis-pairs that escaped proofreading; bacteria distinguish strands by hemimethylation. Defects → **Lynch syndrome**.
+- **NHEJ** = fast, error-prone, any phase; **HR** = slow, error-free, needs sister chromatid (S/G2). *BRCA1/2* work in HR.
+- One unrepaired double-strand break can kill a cell; one unrepaired thymine dimer can mutate a gene.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| lesion | Any chemical change to DNA deviating from normal structure | What repair systems act on before damage becomes mutation |
+| thymine dimer | Two adjacent thymines fused by UV light | The classic UV lesion; blocks polymerases |
+| DNA glycosylase | Enzyme that removes a damaged base from its sugar | First step of BER; creates the AP site |
+| nucleotide excision repair (NER) | Excises a ~24–32 nt patch around bulky lesions | Main defense against thymine dimers; failure → xeroderma pigmentosum |
+| mismatch repair (MMR) | Corrects mis-pairs that escaped proofreading | Backs up the polymerase; failure → Lynch syndrome |
+| hemimethylation | State where only the parental strand is methylated | Tells bacteria which strand MMR should cut |
+| non-homologous end joining (NHEJ) | Direct re-joining of broken DNA ends, often with small deletions | Quick double-strand-break repair; error-prone |
+| homologous recombination (HR) | Repair of a break using the sister chromatid as a template | Error-free double-strand-break repair; involves BRCA proteins |
+
+## Example: A Day at the Beach
+
+Picture a person with xeroderma pigmentosum spending an afternoon in strong sunlight. UV photons strike DNA in their skin cells and fuse adjacent thymines into dimers. In most people, the NER machinery detects each kink, unwinds the helix, and excises the ~24–32 nucleotide patch containing the dimer; a polymerase refills the gap and ligase seals it — no mutation. In this person's cells, an NER protein (one of the XPA–XPG factors) is missing, so the dimers stay put. When the DNA is later replicated, the polymerase stalls at the dimer and bypasses it incorrectly, introducing sequence errors; over years, mutations in skin cells push them toward cancer. Now the contrast: a person with Lynch syndrome has intact NER but defective mismatch repair, so UV dimers are handled fine — their elevated risk comes instead from replication errors in rapidly dividing tissues like the colon lining, where mis-pairs that escape proofreading are never corrected. Two repair failures, two diseases, one lesson: each repair pathway is a specialist, and losing any one raises the odds of mutation-driven disease.
+
+## Common Confusions
+
+| Do Not Confuse | With | The Difference |
+|---|---|---|
+| BER | NER | BER fixes small, non-distorting lesions (deaminated/oxidized bases), replacing 1–few nucleotides; NER fixes bulky, helix-distorting lesions (thymine dimers), replacing ~24–32 nt |
+| DNA damage | Mutation | Damage is a chemical change to DNA; mutation is a heritable sequence change. Repair happens *before* damage becomes mutation |
+| Proofreading | Mismatch repair | Proofreading is the polymerase's 3′→5′ exonuclease *during* synthesis; MMR acts *after* to catch what slipped through |
+| NHEJ | Homologous recombination | NHEJ: fast, error-prone, any time, no template; HR: slow, error-free, needs a sister chromatid (S/G2) |
+| Photolyase | NER | Photolyase splits thymine dimers with light — humans don't have it and rely on NER |
+| Xeroderma pigmentosum | Lynch syndrome | XP = NER defect → skin cancers from UV; Lynch = MMR defect → colorectal cancers from replication errors |
+
+## Quick Review
+
+1. List four types of DNA damage and the repair system that handles each.
+2. Why can't humans just "photoreactivate" away thymine dimers?
+3. What is the key difference between how BER and NER deal with damage?
+4. How does a bacterial cell know which strand of a mismatched base pair is the new, erroneous strand?
+5. Why is homologous recombination considered error-free while NHEJ is not?
+6. Explain how a defect in one repair pathway (e.g., NER) can lead to cancer.
+
+<details>
+<summary>Show answers</summary>
+
+1. Replication mis-pairs → mismatch repair (MMR); deaminated/oxidized bases and AP sites → base excision repair (BER); thymine dimers and bulky adducts → nucleotide excision repair (NER); double-strand breaks → NHEJ or homologous recombination; alkylated guanine → direct reversal.
+2. Humans lack photolyase — no light-powered enzyme to split thymine dimers — so we excise and resynthesize the patch via NER.
+3. BER removes just the damaged base (glycosylase) and replaces one to a few nucleotides; NER recognizes a distorted helix, cuts out a long oligonucleotide (~24–32 nt), and resynthesizes it.
+4. By methylation (hemimethylation): the parental strand is methylated, the new strand is not, so MMR cuts and repairs the unmethylated strand.
+5. HR uses the sister chromatid as a template, rebuilding the original sequence exactly; NHEJ just joins the broken ends, possibly deleting or adding bases at the junction.
+6. Unrepaired damage (e.g., a thymine dimer) stalls or misleads the replication machinery, producing a permanent sequence change (mutation). If the mutation hits a gene controlling cell division — an oncogene or tumor suppressor — the cell may divide out of control, and more mutations accumulate into cancer.
+
+</details>
+
+## Related Topics
+
+- Previous: [DNA Replication in Eukaryotes](05-dna-replication-in-eukaryotes.md)
+- Next: End of chapter
+- Related: [Basics of DNA Replication](03-basics-of-dna-replication.md)
+- Related: [DNA Structure and Function chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Biology for AP® Courses
+- Local outline source: `biology-ap-courses.md`
+- Official source URL: https://openstax.org/details/books/biology-ap-courses/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Biological values (error rates, excised-patch sizes, lesion frequencies) are commonly taught textbook reference concepts; verify against current primary texts before high-stakes use.
+- Last updated: 2026-08-16

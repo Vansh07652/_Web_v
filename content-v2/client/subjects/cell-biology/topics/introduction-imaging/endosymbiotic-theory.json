@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:introduction-imaging:endosymbiotic-theory",
+  "slug": "endosymbiotic-theory",
+  "title": "Endosymbiotic Theory",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:introduction-imaging",
+    "slug": "introduction-imaging",
+    "title": "Introduction Imaging",
+    "order": 1
+  },
+  "order": 4,
+  "status": "final",
+  "sections": {
+    "overview": "The **endosymbiotic theory** holds that mitochondria and chloroplasts originated as free-living bacteria that were engulfed by a larger host cell and, instead of being digested, formed a stable, mutually beneficial partnership that became permanent. Specifically, mitochondria descend from an **alphaproteobacterium** (related to modern *Rickettsia*), and chloroplasts descend from a **cyanobacterium**. Over evolutionary time the engulfed bacteria lost most of their genes — many moved to the host nucleus — and became specialized organelles. The theory, championed by Lynn Margulis in the late 1960s, was long controversial but is now accepted as fact because multiple independent lines of evidence converge on it.",
+    "whyItMatters": "Endosymbiosis explains the origin of the defining energy organelles of eukaryotic life and, with them, the metabolic power behind nearly all complex organisms. It reframes \"organism\" as a community: every one of your cells is a composite, carrying the descendants of ancient bacteria. It also has direct medical relevance — mitochondrial diseases are inherited through maternal mtDNA, and the bacterial ancestry of mitochondria explains why some antibiotics (which target bacterial ribosomes) can have mitochondrial side effects, and why mitochondrial genomes are used to trace human ancestry (maternal lineage) and in forensics.",
+    "learningObjectives": "- State the endosymbiotic theory and name the bacterial ancestors of mitochondria and chloroplasts.\n- List and explain at least four lines of evidence supporting the theory.\n- Distinguish primary from secondary endosymbiosis.\n- Recognize the role of Lynn Margulis in championing the theory.\n- Explain why the theory is now considered established, not speculative.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe **endosymbiotic theory** holds that mitochondria and chloroplasts originated as free-living bacteria that were engulfed by a larger host cell and, instead of being digested, formed a stable, mutually beneficial partnership that became permanent. Specifically, mitochondria descend from an **alphaproteobacterium** (related to modern *Rickettsia*), and chloroplasts descend from a **cyanobacterium**. Over evolutionary time the engulfed bacteria lost most of their genes — many moved to the host nucleus — and became specialized organelles. The theory, championed by Lynn Margulis in the late 1960s, was long controversial but is now accepted as fact because multiple independent lines of evidence converge on it.\n\n### Key Components\n\n- **Host cell:** an early eukaryote (or its ancestor) that had a nucleus and could engulf other cells by phagocytosis-like processes.\n- **Mitochondrial ancestor:** an aerobic alphaproteobacterium; its ability to use oxygen for high-yield respiration was the benefit it provided the host.\n- **Chloroplast ancestor:** a photosynthetic cyanobacterium; it brought oxygenic photosynthesis to the host lineage, giving rise to algae and plants.\n- **Primary endosymbiosis:** a eukaryote engulfs a free-living bacterium, producing an organelle with two membranes (the bacterium's own membrane plus the host's phagosome membrane).\n- **Secondary endosymbiosis:** a eukaryote engulfs *another eukaryote* that already contains a chloroplast; the resulting plastid can have three or four membranes. This explains the diversity of algal plastids.\n\n### Mechanism / How It Works\n\n1. **Engulfment.** A heterotrophic host cell — probably one that already had a nucleus and internal membranes — engulfed an aerobic bacterium (and, in the plant lineage, later a cyanobacterium) by phagocytosis.\n2. **Escape from digestion.** Normally the engulfed cell would be broken down in a lysosome, but in this case digestion failed or was suppressed, and the bacterium survived inside a host membrane vesicle.\n3. **Metabolic exchange.** The bacterium continued to perform its metabolism — aerobic respiration or photosynthesis — and the host began to harvest the products (ATP and, for chloroplasts, fixed carbon). The bacterium, in turn, gained a protected, nutrient-rich environment. This is a mutualism.\n4. **Genome reduction and gene transfer.** Over time the endosymbiont lost genes it no longer needed (the host supplied many metabolites), and many of its remaining genes transferred to the host nucleus — a process called **endosymbiotic gene transfer (EGT)**. Today, mitochondrial and chloroplast genomes encode only a small fraction of the organelle's proteins; the rest are nuclear genes whose products are imported back into the organelle.\n5. **Fixation.** The relationship became obligate: neither partner can now live without the other. The bacterium became an organelle.\n\n### Energy and Directionality\n\nThe selective force driving endosymbiosis was **energy**. The mitochondrial ancestor gave the host access to the ~15-fold higher ATP yield of aerobic respiration, freeing an energy budget that likely enabled the evolution of larger, more complex cells with many membrane compartments and, eventually, multicellularity. The chloroplast ancestor captured solar energy, converting light into chemical energy (ATP + NADPH, then sugars) for the host. Both organelles still make ATP by chemiosmosis — the proton gradient across their inner membranes — exactly as their free-living bacterial relatives do. The directionality is clear: an initial mutualism, reinforced by gene loss, became an irreversible, obligate interdependence.\n\n### Experimental Evidence\n\n- **Double membranes:** mitochondria and chloroplasts each have two membranes; the inner is bacterial-like (the ancestral bacterial plasma membrane), the outer is host-derived. This is consistent with engulfment of a bacterium.\n- **Own DNA:** each organelle retains its own small, circular genome (mitochondrial DNA, mtDNA; chloroplast DNA, cpDNA) — the remnant of a bacterial chromosome. It is circular and lacks histone-associated packaging, like bacterial DNA.\n- **Bacterial-like ribosomes:** organelle ribosomes are ~70S (bacterial size), not the 80S ribosomes of the eukaryotic cytoplasm, and their ribosomal RNA sequences are most closely related to bacteria.\n- **Division by binary fission:** mitochondria and chloroplasts divide by a process resembling bacterial binary fission, and this division uses some bacterial-type proteins (e.g., FtsZ in chloroplast division).\n- **Antibiotic sensitivity:** organelle translation is inhibited by antibiotics that block bacterial ribosomes (e.g., chloramphenicol, streptomycin) but not by those that block eukaryotic cytoplasmic ribosomes.\n- **Sequence phylogeny:** the strongest evidence — mitochondrial genes group with alphaproteobacteria and chloroplast genes with cyanobacteria in molecular phylogenetic trees.\n- **Size and shape:** organelles are roughly the size and shape of bacteria (mitochondria ~0.5–1 µm wide, comparable to *E. coli*).",
+    "howItWorks": "1. **Engulfment.** A heterotrophic host cell — probably one that already had a nucleus and internal membranes — engulfed an aerobic bacterium (and, in the plant lineage, later a cyanobacterium) by phagocytosis.\n2. **Escape from digestion.** Normally the engulfed cell would be broken down in a lysosome, but in this case digestion failed or was suppressed, and the bacterium survived inside a host membrane vesicle.\n3. **Metabolic exchange.** The bacterium continued to perform its metabolism — aerobic respiration or photosynthesis — and the host began to harvest the products (ATP and, for chloroplasts, fixed carbon). The bacterium, in turn, gained a protected, nutrient-rich environment. This is a mutualism.\n4. **Genome reduction and gene transfer.** Over time the endosymbiont lost genes it no longer needed (the host supplied many metabolites), and many of its remaining genes transferred to the host nucleus — a process called **endosymbiotic gene transfer (EGT)**. Today, mitochondrial and chloroplast genomes encode only a small fraction of the organelle's proteins; the rest are nuclear genes whose products are imported back into the organelle.\n5. **Fixation.** The relationship became obligate: neither partner can now live without the other. The bacterium became an organelle.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Mitochondria ← alphaproteobacteria (Rickettsia-like); chloroplasts ← cyanobacteria.\n- Championed by Lynn Margulis (1967).\n- Evidence: double membranes, circular DNA, 70S ribosomes, binary-fission division, bacterial antibiotic sensitivity, sequence phylogeny.\n- Endosymbiotic gene transfer (EGT): most organelle genes moved to the nucleus.\n- Primary endosymbiosis → two-membrane organelle; secondary → three or four membranes.\n- Organelles retain a small circular genome; most organelle proteins are nuclear-encoded and imported.\n- Mitochondria are maternally inherited in most species (used in ancestry tracing).",
+    "commonConfusions": "- **\"Mitochondria came from cyanobacteria.\"** — Wrong. Cyanobacteria gave rise to *chloroplasts*; mitochondria came from an *alphaproteobacterium*.\n- **\"The theory says a cell ate a bacterium and kept it as food.\"** — No. The key point is the engulfed bacterium *survived and became a permanent, inherited partner*, not a meal.\n- **\"Organelles have no genes of their own anymore.\"** — Wrong. Mitochondria and chloroplasts each retain a small circular genome; they simply encode far fewer proteins than free-living bacteria, with most organelle proteins now nuclear-encoded.\n- **\"Endosymbiosis is still just a hypothesis.\"** — No. It is an accepted theory supported by many independent lines of evidence (genomes, ribosomes, membranes, phylogeny); the main historical debate is settled.\n- **\"The host must have been a primitive bacterium too.\"** — The host was a eukaryote-like cell (with a nucleus and phagocytosis), not a simple bacterium.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a big cell swallowed a tiny bacterium for dinner — but instead of eating it, the two became roommates who each had something the other wanted. The little bacterium was great at turning food and oxygen into energy, and the big cell gave it a safe home with free food. They liked living together so much that they never split up, and over millions of years the little bacterium moved most of its instruction book into the big cell's library and became a permanent helper we now call a mitochondrion. Plants did the same trick twice: they swallowed a green bacterium (a cyanobacterium) that could do photosynthesis, and it became the chloroplast. So you are actually a team — every cell in your body has tiny descendants of ancient bacteria inside it, making your energy. (The analogy's limit: \"roommates\" is too loose — the partnership is now so complete that neither can live alone; it's more like two things fused into one machine.)",
+    "quickReview": "- Mitochondria ← alphaproteobacteria; chloroplasts ← cyanobacteria (Margulis).\n- Evidence: two membranes, circular mtDNA/cpDNA, 70S ribosomes, binary fission, antibiotic sensitivity, phylogeny.\n- EGT: most organelle genes relocated to the nucleus.\n- Primary (2 membranes) vs. secondary (3–4 membranes) endosymbiosis.\n- Energy payoff (aerobic ATP) drove fixation; chemiosmosis conserved.\n- Maternal inheritance of mitochondria.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "NCBI Bookshelf, Cooper, *The Cell: A Molecular Approach*, 2nd ed., \"The Origin and Evolution of Cells.\" https://www.ncbi.nlm.nih.gov/books/NBK9841/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9841/"
+      },
+      {
+        "text": "NCBI Bookshelf, Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"The Evolution of the Cell.\" https://www.ncbi.nlm.nih.gov/books/NBK26810/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26810/"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, \"23.1 Eukaryotic Origins.\" https://openstax.org/books/biology-2e/pages/23-1-eukaryotic-origins",
+        "url": "https://openstax.org/books/biology-2e/pages/23-1-eukaryotic-origins"
+      },
+      {
+        "text": "Sagan (Margulis), L. \"On the origin of mitosing cells.\" *Journal of Theoretical Biology* 14:255–274 (1967). https://pubmed.ncbi.nlm.nih.gov/5344139/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/5344139/"
+      },
+      {
+        "text": "National Human Genome Research Institute (NHGRI), \"Mitochondrial DNA.\" https://www.genome.gov/genetics-glossary/Mitochondrial-DNA",
+        "url": "https://www.genome.gov/genetics-glossary/Mitochondrial-DNA"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/01-introduction-imaging/04-endosymbiotic-theory.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

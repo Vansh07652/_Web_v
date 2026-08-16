@@ -1,0 +1,39 @@
+{
+  "id": "genetics-dna-repair-and-mutation-0003",
+  "subject": "genetics",
+  "lesson": "dna-repair-and-mutation",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A mutation changes a glutamine codon, CAG, into the stop codon UAG. Which class of mutation is this, and what is the most direct consequence for the protein product?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Missense mutation; the protein has glutamine replaced by a different amino acid"
+    },
+    {
+      "id": "b",
+      "text": "Silent mutation; the protein is unchanged"
+    },
+    {
+      "id": "c",
+      "text": "Nonsense mutation; translation terminates early and produces a truncated protein"
+    },
+    {
+      "id": "d",
+      "text": "Frameshift mutation; every downstream amino acid changes"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Per the codon table, UAG is a stop codon, so a change from the glutamine codon CAG to UAG converts an amino acid codon into a translation termination signal, which defines a nonsense mutation and truncates the protein. A missense mutation would encode a different amino acid, a silent mutation would still encode glutamine, and a frameshift requires an insertion or deletion that shifts the reading frame.",
+  "difficulty": "unknown",
+  "tags": [
+    "nonsense",
+    "mutation",
+    "truncation"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ca8f349f5901cf65",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

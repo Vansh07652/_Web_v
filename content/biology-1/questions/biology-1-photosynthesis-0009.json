@@ -1,0 +1,39 @@
+{
+  "id": "biology-1-photosynthesis-0009",
+  "subject": "biology-1",
+  "lesson": "photosynthesis",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "After a cell responds to a signal, the pathway must be turned off so the cell can reset. Which of the following is a genuine mechanism of **signal termination**?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The G protein hydrolyzes its bound GTP to GDP, which returns the G protein to its inactive state."
+    },
+    {
+      "id": "b",
+      "text": "The receptor binds the ligand permanently, locking the pathway in the on position."
+    },
+    {
+      "id": "c",
+      "text": "Phosphatases are destroyed, so every phosphorylated protein stays active."
+    },
+    {
+      "id": "d",
+      "text": "Second messengers such as cyclic AMP are sealed inside the cell forever."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "Terminating a pathway means reversing its steps: the G protein inactivates itself by hydrolyzing GTP to GDP, and phosphatases erase the phosphates that kinases added. B and D do the opposite by locking the pathway on. C also keeps the pathway active, because without phosphatases the phosphorylated proteins stay switched on.",
+  "difficulty": "unknown",
+  "tags": [
+    "mechanisms",
+    "signal",
+    "termination"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-cce32dea8cb1cdf8",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

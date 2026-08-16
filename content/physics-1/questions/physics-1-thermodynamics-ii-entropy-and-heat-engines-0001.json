@@ -1,0 +1,39 @@
+{
+  "id": "physics-1-thermodynamics-ii-entropy-and-heat-engines-0001",
+  "subject": "physics-1",
+  "lesson": "thermodynamics-ii-entropy-and-heat-engines",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For second law statements, use $eta = W_out / Q_h$ in a engine efficiency model. The first quantity is 34.00 J and the second is 100.00 J. What is the thermal efficiency?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$0.17$ dimensionless"
+    },
+    {
+      "id": "b",
+      "text": "$0.34$ dimensionless"
+    },
+    {
+      "id": "c",
+      "text": "$0.68$ dimensionless"
+    },
+    {
+      "id": "d",
+      "text": "$0.43$ dimensionless"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Using $eta = W_out / Q_h$ gives 34.00 J divided by 100.00 J = $0.34$ dimensionless. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to dimensionless, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "second",
+    "law",
+    "statements"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-c7e66ab5e747e446",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

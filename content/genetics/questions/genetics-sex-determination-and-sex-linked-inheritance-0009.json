@@ -1,0 +1,41 @@
+{
+  "id": "genetics-sex-determination-and-sex-linked-inheritance-0009",
+  "subject": "genetics",
+  "lesson": "sex-determination-and-sex-linked-inheritance",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation In somatic cells, all but one X chromosome is inactivated, and each inactivated X appears as a Barr body. How many Barr bodies are present in each somatic cell of a 47,XXY individual with Klinefelter syndrome?",
+  "options": [
+    {
+      "id": "a",
+      "text": "0"
+    },
+    {
+      "id": "b",
+      "text": "2"
+    },
+    {
+      "id": "c",
+      "text": "1"
+    },
+    {
+      "id": "d",
+      "text": "3"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "The number of Barr bodies equals the number of X chromosomes minus one, because one X must remain active in every cell. A 47,XXY cell has two X chromosomes, so 2 - 1 = 1 Barr body. A (0) applies the normal male rule of no inactivation to an XXY cell, B (2) counts one Barr body per X without leaving one active, and D (3) adds the Y chromosome into the count.",
+  "difficulty": "unknown",
+  "tags": [
+    "barr",
+    "body",
+    "count",
+    "klinefelter",
+    "syndrome"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-67f5c8a12332791c",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

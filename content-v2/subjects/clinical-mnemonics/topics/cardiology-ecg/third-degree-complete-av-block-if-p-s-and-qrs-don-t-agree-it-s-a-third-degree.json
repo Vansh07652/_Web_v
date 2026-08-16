@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:clinical-mnemonics:cardiology-ecg:third-degree-complete-av-block-if-p-s-and-qrs-don-t-agree-it-s-a-third-degree",
+  "slug": "third-degree-complete-av-block-if-p-s-and-qrs-don-t-agree-it-s-a-third-degree",
+  "title": "Third-Degree (Complete) AV Block — \"If P's and QRS Don't Agree, It's a Third Degree\"",
+  "subject": {
+    "id": "subject:clinical-mnemonics",
+    "slug": "clinical-mnemonics",
+    "title": "Clinical Mnemonics"
+  },
+  "unit": {
+    "id": "unit:clinical-mnemonics:cardiology-ecg",
+    "slug": "cardiology-ecg",
+    "title": "Cardiology & ECG",
+    "order": 2
+  },
+  "order": 6,
+  "status": "final",
+  "sections": {
+    "overview": "Recognize complete heart block: the atria and ventricles beat independently (AV dissociation) — P waves and QRS complexes march to their own separate, unrelated rhythms, and no atrial impulse ever reaches the ventricles.",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "- **P** — P waves (independent atrial rhythm)\n- **QRS** — QRS complexes (slow ventricular escape rhythm)\n- **Disagree** — AV dissociation (no relationship between P and QRS)",
+    "collegeNotes": "Recognize complete heart block: the atria and ventricles beat independently (AV dissociation) — P waves and QRS complexes march to their own separate, unrelated rhythms, and no atrial impulse ever reaches the ventricles.\n\n### P — P waves (independent atrial rhythm)\n\nThe atria beat at their own rate (SA node, ~60–100 bpm) — the husband on his own schedule\n\nThe atria continue to be driven by the SA node at a normal or near-normal rate (usually 60–100 bpm), producing regular P waves. However, none of these impulses conduct through the AV node to the ventricles — the connection is completely severed.\n\n**Physiology.** In complete heart block there is total failure of AV conduction. The SA node keeps firing normally, so P waves are regular — but they are physiologically ignored by the ventricles, which must generate their own rhythm.\n\n**Safety.** Regular P waves with no conduction tell you the atria are fine and the failure is in the AV conduction system — count the P rate separately from the QRS rate.\n\n### QRS — QRS complexes (slow ventricular escape rhythm)\n\nThe ventricles beat at their own slow escape rate (~20–60 bpm) — the wife sets a slow alarm\n\nWhen no supraventricular impulses arrive, a lower pacemaker takes over. A junctional escape rhythm produces ~40–60 bpm with a narrow QRS; a ventricular escape rhythm produces ~20–40 bpm with a wide QRS. The ventricular rate is therefore slow and often inadequate for perfusion.\n\n**Physiology.** Escape rhythms are a safety net — the His bundle, bundle branches, and Purkinje fibers can all depolarize spontaneously. But the lower the pacemaker, the slower and less reliable the rate, which is why complete block causes hypotension, syncope, and shock.\n\n**Safety.** The ventricular (QRS) rate is what perfuses the body — a slow escape rhythm is a pre-arrest state; prepare for immediate pacing.\n\n### Disagree — AV dissociation (no relationship between P and QRS)\n\nP waves and QRS complexes are regular but independent — a total \"divorce\"\n\nAV dissociation is the hallmark of complete heart block: P waves and QRS complexes are regular but independent, with the atrial rate faster than the ventricular rate. The PR interval appears to vary continuously because the P waves \"walk through\" the QRS complexes.\n\n**Physiology.** Because no impulse crosses the AV junction, the timing of each QRS is set entirely by the ventricular escape focus, independent of the P waves. This produces the classic \"P's and QRS don't agree\" appearance.\n\n**Safety.** Complete heart block is a medical emergency — it can cause syncope (Stokes-Adams attacks), hypotension, and cardiac arrest; treat with transcutaneous pacing immediately, then transvenous or permanent pacing.",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "- P = P waves (independent atrial rhythm)\n- QRS = QRS complexes (slow ventricular escape rhythm)\n- Disagree = AV dissociation (no relationship between P and QRS)",
+    "eli10": "It's the \"total divorce\" rhythm: the top rooms and bottom rooms no longer talk at all, and each beats on its own. The bottom rooms beat dangerously slowly, so the body may not get enough blood.\n\n**P — P waves (independent atrial rhythm).** In complete heart block the husband (the P wave, the atria) keeps his own schedule, ticking along at a normal pace, but his messages never get through to the wife. The P waves appear on the ECG with no connection to the QRS complexes.\n\n**QRS — QRS complexes (slow ventricular escape rhythm).** Because the wife cannot hear the husband's calls anymore, she sets her own alarm — and it is a very slow one. The ventricles generate their own slow escape beat to stay alive; that beat is the QRS complex, plodding along much slower than the atria.\n\n**Disagree — AV dissociation (no relationship between P and QRS).** \"Disagree\" means the husband and wife are completely out of sync — a total divorce. The P bumps and R spikes each march at their own steady pace, never lining up. The PR distance is different every time because there is no real relationship at all.",
+    "quickReview": "- P = P waves (independent atrial rhythm) — The atria beat at their own rate (SA node, ~60–100 bpm) — the husband on his own schedule\n- QRS = QRS complexes (slow ventricular escape rhythm) — The ventricles beat at their own slow escape rate (~20–60 bpm) — the wife sets a slow alarm\n- Disagree = AV dissociation (no relationship between P and QRS) — P waves and QRS complexes are regular but independent — a total \"divorce\"",
+    "workedExamples": "",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "third-degree-complete-av-block-if-p-s-and-qrs-don-t-agree-it-s-a-third-degree",
+      "kind": "canonical_slug"
+    }
+  ],
+  "authority": {
+    "college_notes": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ],
+    "eli10": [
+      {
+        "source_file": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json"
+      }
+    ]
+  },
+  "provenance": {
+    "sourceCollection": "medical-nursing-mnemonics",
+    "sourceFile": "generated-subjects/medical-nursing-mnemonics/data/mnemonics.json",
+    "sourceStatus": "CURRENT",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-14-clinical-mnemonics"
+  },
+  "sourceSnapshotMarkdown": "{\n  \"mnemonic\": \"Third-Degree (Complete) AV Block — \\\"If P's and QRS Don't Agree, It's a Third Degree\\\"\",\n  \"category\": \"Cardiology & ECG\",\n  \"purpose\": \"Recognize complete heart block: the atria and ventricles beat independently (AV dissociation) — P waves and QRS complexes march to their own separate, unrelated rhythms, and no atrial impulse ever reaches the ventricles.\",\n  \"eli10_purpose\": \"It's the \\\"total divorce\\\" rhythm: the top rooms and bottom rooms no longer talk at all, and each beats on its own. The bottom rooms beat dangerously slowly, so the body may not get enough blood.\",\n  \"status\": \"CURRENT\",\n  \"components\": [\n    {\n      \"symbol\": \"P\",\n      \"term\": \"P waves (independent atrial rhythm)\",\n      \"association\": \"The atria beat at their own rate (SA node, ~60–100 bpm) — the husband on his own schedule\",\n      \"eli10\": \"In complete heart block the husband (the P wave, the atria) keeps his own schedule, ticking along at a normal pace, but his messages never get through to the wife. The P waves appear on the ECG with no connection to the QRS complexes.\",\n      \"clinical_explanation\": \"The atria continue to be driven by the SA node at a normal or near-normal rate (usually 60–100 bpm), producing regular P waves. However, none of these impulses conduct through the AV node to the ventricles — the connection is completely severed.\",\n      \"physiology\": \"In complete heart block there is total failure of AV conduction. The SA node keeps firing normally, so P waves are regular — but they are physiologically ignored by the ventricles, which must generate their own rhythm.\",\n      \"safety_note\": \"Regular P waves with no conduction tell you the atria are fine and the failure is in the AV conduction system — count the P rate separately from the QRS rate.\"\n    },\n    {\n      \"symbol\": \"QRS\",\n      \"term\": \"QRS complexes (slow ventricular escape rhythm)\",\n      \"association\": \"The ventricles beat at their own slow escape rate (~20–60 bpm) — the wife sets a slow alarm\",\n      \"eli10\": \"Because the wife cannot hear the husband's calls anymore, she sets her own alarm — and it is a very slow one. The ventricles generate their own slow escape beat to stay alive; that beat is the QRS complex, plodding along much slower than the atria.\",\n      \"clinical_explanation\": \"When no supraventricular impulses arrive, a lower pacemaker takes over. A junctional escape rhythm produces ~40–60 bpm with a narrow QRS; a ventricular escape rhythm produces ~20–40 bpm with a wide QRS. The ventricular rate is therefore slow and often inadequate for perfusion.\",\n      \"physiology\": \"Escape rhythms are a safety net — the His bundle, bundle branches, and Purkinje fibers can all depolarize spontaneously. But the lower the pacemaker, the slower and less reliable the rate, which is why complete block causes hypotension, syncope, and shock.\",\n      \"safety_note\": \"The ventricular (QRS) rate is what perfuses the body — a slow escape rhythm is a pre-arrest state; prepare for immediate pacing.\"\n    },\n    {\n      \"symbol\": \"Disagree\",\n      \"term\": \"AV dissociation (no relationship between P and QRS)\",\n      \"association\": \"P waves and QRS complexes are regular but independent — a total \\\"divorce\\\"\",\n      \"eli10\": \"\\\"Disagree\\\" means the husband and wife are completely out of sync — a total divorce. The P bumps and R spikes each march at their own steady pace, never lining up. The PR distance is different every time because there is no real relationship at all.\",\n      \"clinical_explanation\": \"AV dissociation is the hallmark of complete heart block: P waves and QRS complexes are regular but independent, with the atrial rate faster than the ventricular rate. The PR interval appears to vary continuously because the P waves \\\"walk through\\\" the QRS complexes.\",\n      \"physiology\": \"Because no impulse crosses the AV junction, the timing of each QRS is set entirely by the ventricular escape focus, independent of the P waves. This produces the classic \\\"P's and QRS don't agree\\\" appearance.\",\n      \"safety_note\": \"Complete heart block is a medical emergency — it can cause syncope (Stokes-Adams attacks), hypotension, and cardiac arrest; treat with transcutaneous pacing immediately, then transvenous or permanent pacing.\"\n    }\n  ]\n}"
+}

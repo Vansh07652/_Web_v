@@ -1,0 +1,40 @@
+{
+  "id": "biology-1-mendelian-and-classical-genetics-0011",
+  "subject": "biology-1",
+  "lesson": "mendelian-and-classical-genetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In labrador retrievers, gene B controls fur color, with B black and b brown, but a second gene E is needed to deposit any pigment at all, and dogs with genotype ee are yellow regardless of their B alleles. This masking of one gene by another is an example of **epistasis**. Which dog is yellow?",
+  "options": [
+    {
+      "id": "a",
+      "text": "A dog with genotype BBEE."
+    },
+    {
+      "id": "b",
+      "text": "A dog with genotype BbEe."
+    },
+    {
+      "id": "c",
+      "text": "A dog with genotype bbEe."
+    },
+    {
+      "id": "d",
+      "text": "A dog with genotype Bbee."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Because the E gene controls whether any pigment is deposited, every dog with genotype ee is yellow, and only D has two recessive e alleles. A, B, and C all carry at least one E allele, so their fur pigment is deposited and the B gene decides between black and brown. Dog D carries the B allele for black fur yet is still yellow, which is exactly the masking effect of epistasis.",
+  "difficulty": "unknown",
+  "tags": [
+    "epistasis",
+    "labrador",
+    "fur",
+    "color"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-f0963ec18ccf229e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

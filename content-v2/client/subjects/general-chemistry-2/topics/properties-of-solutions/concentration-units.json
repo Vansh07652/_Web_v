@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:properties-of-solutions:concentration-units",
+  "slug": "concentration-units",
+  "title": "Concentration Units",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:properties-of-solutions",
+    "slug": "properties-of-solutions",
+    "title": "Properties Of Solutions",
+    "order": 2
+  },
+  "order": 2,
+  "status": "final",
+  "sections": {
+    "overview": "Concentration expresses how much solute is present in a given amount of solution or solvent. The choice of unit matters because some are temperature-independent (molality, mole fraction, mass percent — based on masses/moles) while molarity changes with temperature (it depends on solution volume). Molarity (mol/L) is the workhorse of reaction stoichiometry; molality (mol/kg solvent) is preferred for colligative properties; mass percent and ppm describe trace amounts and commercial labels.",
+    "whyItMatters": "- **Medicine:** IV fluids, drug dosing, and blood electrolytes are reported in molarity, osmolarity, and mass percent.\n- **Environmental science:** pollutant limits (e.g., lead in water) are set in ppb/ppm.\n- **Industry & food:** labels use mass percent; molality is used where temperature varies.\n- **Lab work:** dilution technique (M₁V₁ = M₂V₂) is routine in any wet lab.",
+    "learningObjectives": "- Define and interconvert molarity, molality, mass percent, ppm, and mole fraction.\n- Distinguish which quantity is \"per solution\" versus \"per solvent.\"\n- Perform dilution calculations with M₁V₁ = M₂V₂.\n- Choose the appropriate unit for a given context (reactions vs. colligative properties).",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nConcentration expresses how much solute is present in a given amount of solution or solvent. The choice of unit matters because some are temperature-independent (molality, mole fraction, mass percent — based on masses/moles) while molarity changes with temperature (it depends on solution volume). Molarity (mol/L) is the workhorse of reaction stoichiometry; molality (mol/kg solvent) is preferred for colligative properties; mass percent and ppm describe trace amounts and commercial labels.\n\n### Key Ideas\n\n### Molarity (M)\n- M = moles of solute / liters of **solution**. Temperature-dependent (volume changes with T).\n- Used for stoichiometry and titrations.\n\n### Molality (m)\n- m = moles of solute / kilograms of **solvent**. Temperature-independent.\n- Used in colligative-property calculations (ΔTf, ΔTb, osmotic pressure).\n\n### Mass percent, ppm, ppb\n- mass % = (mass solute / mass solution) × 100.\n- ppm = (mass solute / mass solution) × 10⁶; ppb = × 10⁹. For dilute aqueous solutions, 1 L ≈ 1 kg, so mg/L ≈ ppm.\n\n### Mole fraction (X)\n- X_solute = n_solute / (n_solute + n_solvent); dimensionless, sums to 1.\n- Used in Raoult's law for vapor pressure.\n\n### Dilution\n- Adding solvent lowers concentration: M₁V₁ = M₂V₂ (moles are conserved).\n\n### Equations and Variables\n\n- **Molarity:** M = n_solute / V_solution(L).\n- **Molality:** m = n_solute / mass_solvent(kg).\n- **Mass percent:** mass % = (m_solute / m_solution) × 100.\n- **Parts per million:** ppm = (m_solute / m_solution) × 10⁶.\n- **Mole fraction:** X_A = n_A / n_total.\n- **Dilution:** M₁V₁ = M₂V₂.\n\n### How It Works\n\n1. **Identify what is given** (grams, moles, mL, kg) and what is asked.\n2. **Choose the matching definition** (per solution vs. per solvent).\n3. **Convert masses to moles** (n = mass / molar mass) and volumes/masses to the required units (L, kg).\n4. **Plug into the definition** and solve.\n5. **For dilutions**, recognize moles are conserved and use M₁V₁ = M₂V₂.\n\n### Worked Example\n\nA solution is made by dissolving 25.0 g of NaCl (58.44 g/mol) in 175 g of water. Calculate the mass percent, molality, and mole fraction of NaCl.\n\n1. **Moles of NaCl.** n = 25.0 / 58.44 = 0.4278 mol.\n2. **Mass percent.** mass % = 25.0 / (25.0 + 175) × 100 = 25.0 / 200 × 100 = **12.5%**.\n3. **Molality.** m = 0.4278 mol / 0.175 kg = **2.44 m**.\n4. **Mole fraction.** n_water = 175 / 18.02 = 9.71 mol. X_NaCl = 0.4278 / (0.4278 + 9.71) = 0.4278 / 10.14 = **0.0422**.\n5. **Bonus (dilution):** to dilute 25.0 mL of 12.0 M HCl to 500.0 mL, M₂ = M₁V₁/V₂ = (12.0 × 25.0) / 500.0 = **0.600 M**.",
+    "howItWorks": "1. **Identify what is given** (grams, moles, mL, kg) and what is asked.\n2. **Choose the matching definition** (per solution vs. per solvent).\n3. **Convert masses to moles** (n = mass / molar mass) and volumes/masses to the required units (L, kg).\n4. **Plug into the definition** and solve.\n5. **For dilutions**, recognize moles are conserved and use M₁V₁ = M₂V₂.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Molarity = mol solute / L **solution** (temperature-dependent).\n- Molality = mol solute / kg **solvent** (temperature-independent).\n- mass % = solute/solution × 100; ppm = solute/solution × 10⁶.\n- Mole fraction X_A = n_A / n_total (sums to 1).\n- Dilution: M₁V₁ = M₂V₂.\n- For dilute aqueous solutions, ppm ≈ mg/L.",
+    "commonConfusions": "- **\"Molarity and molality are interchangeable.\"** — Wrong. Molarity uses liters of *solution*; molality uses kilograms of *solvent*. They differ, especially in concentrated solutions.\n- **\"Mass percent is solute/solvent.\"** — Wrong. Mass percent is solute divided by total *solution* (solute + solvent).\n- **\"ppm always means mg/L.\"** — Wrong. ppm is a mass ratio (×10⁶); it equals mg/L only for dilute aqueous solutions where density ≈ 1 g/mL.\n- **\"Dilution changes the number of moles.\"** — Wrong. Dilution adds solvent; moles of solute are conserved (M₁V₁ = M₂V₂).\n- **\"Mole fractions can exceed 1.\"** — Wrong. Mole fractions are dimensionless and must sum to 1.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nConcentration is just \"how much stuff is in the drink,\" but people measure it different ways depending on what they care about. Molarity asks \"how many molecules per cup of the final drink?\" (and the cup shrinks if it gets cold). Molality asks \"how many molecules per bag of the original water?\" (which never changes with temperature). Mass percent is the label on a bottle (\"12.5% salt\"), and ppm is for counting a few grains of something in a swimming pool. Mole fraction just says \"out of every 100 molecules, how many are salt?\" (The analogy's limit: the \"drink\" can't literally change volume much, but real solutions do expand with heat, which is exactly why molarity is temperature-dependent and molality is not.)",
+    "quickReview": "- M = mol/L solution; m = mol/kg solvent; mass % = solute/solution ×100; ppm = ×10⁶.\n- Mole fraction = n_A/n_total.\n- Dilution: M₁V₁ = M₂V₂.\n- Molarity is T-dependent; molality is not.\n- Worked: 25.0 g NaCl + 175 g H₂O → 12.5%, 2.44 m, X = 0.0422.",
+    "workedExamples": "### Worked Example\n\nA solution is made by dissolving 25.0 g of NaCl (58.44 g/mol) in 175 g of water. Calculate the mass percent, molality, and mole fraction of NaCl.\n\n1. **Moles of NaCl.** n = 25.0 / 58.44 = 0.4278 mol.\n2. **Mass percent.** mass % = 25.0 / (25.0 + 175) × 100 = 25.0 / 200 × 100 = **12.5%**.\n3. **Molality.** m = 0.4278 mol / 0.175 kg = **2.44 m**.\n4. **Mole fraction.** n_water = 175 / 18.02 = 9.71 mol. X_NaCl = 0.4278 / (0.4278 + 9.71) = 0.4278 / 10.14 = **0.0422**.\n5. **Bonus (dilution):** to dilute 25.0 mL of 12.0 M HCl to 500.0 mL, M₂ = M₁V₁/V₂ = (12.0 × 25.0) / 500.0 = **0.600 M**.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"3.3 Molarity.\" https://openstax.org/books/chemistry-2e/pages/3-3-molarity",
+        "url": "https://openstax.org/books/chemistry-2e/pages/3-3-molarity"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"3.4 Other Units for Solution Concentrations.\" https://openstax.org/books/chemistry-2e/pages/3-4-other-units-for-solution-concentrations",
+        "url": "https://openstax.org/books/chemistry-2e/pages/3-4-other-units-for-solution-concentrations"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"11.4 Colligative Properties.\" https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties",
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-4-colligative-properties"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e* (book home). https://openstax.org/details/books/chemistry-2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      },
+      {
+        "text": "American Chemical Society. https://www.acs.org/",
+        "url": "https://www.acs.org/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/11-properties-of-solutions/02-concentration-units.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

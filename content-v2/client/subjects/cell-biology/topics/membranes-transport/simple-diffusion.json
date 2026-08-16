@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:membranes-transport:simple-diffusion",
+  "slug": "simple-diffusion",
+  "title": "Simple Diffusion Across Membranes",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:membranes-transport",
+    "slug": "membranes-transport",
+    "title": "Membranes Transport",
+    "order": 2
+  },
+  "order": 8,
+  "status": "final",
+  "sections": {
+    "overview": "Simple diffusion is the passive movement of molecules directly through the lipid bilayer, down their concentration gradient, without any membrane protein or energy input. Only small, nonpolar (or weakly polar) molecules cross this way — gases and lipid-soluble substances. The rate is proportional to the concentration difference, the membrane area, and the solute's permeability coefficient, as captured by Fick's law. It is the baseline against which all protein-mediated transport is compared.",
+    "whyItMatters": "Simple diffusion is how cells take up O₂ and release CO₂, and how many lipophilic drugs and steroid hormones enter cells. Its limits — near-zero permeability to ions and large polar molecules — explain why the vast majority of physiologically important transport requires proteins, and it provides the reference behavior for understanding channels and carriers.",
+    "learningObjectives": "- Define simple diffusion and state its requirements.\n- Explain why only certain molecules cross by simple diffusion.\n- Describe Fick's law and the factors that determine diffusion rate.\n- Distinguish simple diffusion from protein-mediated transport.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nSimple diffusion is the passive movement of molecules directly through the lipid bilayer, down their concentration gradient, without any membrane protein or energy input. Only small, nonpolar (or weakly polar) molecules cross this way — gases and lipid-soluble substances. The rate is proportional to the concentration difference, the membrane area, and the solute's permeability coefficient, as captured by Fick's law. It is the baseline against which all protein-mediated transport is compared.\n\n### Key Components\n\n### Concentration gradient\nThe difference in solute concentration across the membrane; the sole driving force for simple diffusion.\n\n### Permeability coefficient (P)\nA solute's intrinsic ability to cross a given membrane, combining how well it partitions into the lipid core and how fast it diffuses within it.\n\n### Membrane area (A)\nLarger surface area allows proportionally more flux per unit time.\n\n### Fick's law\nFlux J = −P·A·(C_out − C_in), or in the common form J = −D·A·(ΔC/Δx), where D is the diffusion coefficient and Δx the membrane thickness. The rate rises linearly with concentration difference.\n\n### Passive, non-saturable kinetics\nFlux increases linearly with concentration gradient and never plateaus — unlike carrier-mediated transport, which saturates.\n\n### Mechanism\n\nA solute molecule jiggles by thermal motion. If it is small and nonpolar, it can partition into the hydrophobic core; once inside, random motion carries it across, and it exits on the far side. Because more molecules cross from the high-concentration side than the low side, net flux is downhill until concentrations equalize (equilibrium, not stasis).\n\n### How It Works\n\n1. Thermal (Brownian) motion brings a nonpolar solute to the membrane surface.\n2. The solute dissolves into the lipid core (favorable for nonpolar solutes).\n3. It diffuses randomly across the bilayer interior.\n4. It exits into the aqueous phase on the opposite side.\n5. Net flux continues until the concentrations equalize; individual molecules keep crossing in both directions.\n\n### Energy and Directionality\n\nSimple diffusion is purely entropic and downhill: no ATP, no protein, no \"pushing.\" The free-energy decrease comes from moving solute from high to low concentration. Equilibrium is reached when the chemical potentials equalize, at which point net flux is zero while random exchange continues.\n\n### Experimental Evidence\n\n- **Liposome flux measurements:** pure phospholipid vesicles show a linear relationship between flux and concentration gradient for permeant solutes, with no saturation — the signature of simple diffusion.\n- **Overton's experiments:** nonpolar, lipid-soluble substances crossed cell membranes far faster than polar ones, establishing that the lipid itself is the barrier and pathway.\n- **Linearity of flux:** doubling the concentration gradient doubles the flux, confirming Fick's-law behavior.\n\n### Technique\n\nFlux is measured across planar bilayers or liposomes using radiolabeled or fluorescent solutes, with the linearity of flux versus concentration gradient (and the absence of saturation or competition) used to demonstrate simple diffusion.",
+    "howItWorks": "1. Thermal (Brownian) motion brings a nonpolar solute to the membrane surface.\n2. The solute dissolves into the lipid core (favorable for nonpolar solutes).\n3. It diffuses randomly across the bilayer interior.\n4. It exits into the aqueous phase on the opposite side.\n5. Net flux continues until the concentrations equalize; individual molecules keep crossing in both directions.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Simple diffusion: passive, down the gradient, no protein, no ATP.\n- Applies to small nonpolar solutes (O₂, CO₂, steroid hormones).\n- Fick's law: flux ∝ concentration gradient × area × permeability.\n- Kinetics are linear and non-saturable.\n- Reaches equilibrium (net flux → 0), not a dead stop.",
+    "commonConfusions": "- **\"Simple diffusion needs a channel.\"** No — it is direct passage through the lipid, with no protein at all.\n- **\"Diffusion stops at equilibrium.\"** Molecules still cross in both directions; only *net* flux becomes zero.\n- **\"Diffusion requires ATP.\"** It is fully passive and entropically driven.\n- **\"Simple diffusion is saturable.\"** It is linear with the concentration gradient; only carrier-mediated transport saturates.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nSimple diffusion is like a drop of food coloring spreading in a glass of water — particles wander randomly and, because there are more on the crowded side, more wander across than come back, until the color is evenly mixed. For membranes, only \"oily\" small particles can take this shortcut straight through the wall; everyone else needs a door.",
+    "quickReview": "- Passive, protein-free, ATP-free transport down the gradient.\n- Only small nonpolar solutes cross efficiently.\n- Rate set by Fick's law: gradient, area, permeability.\n- Linear, non-saturable kinetics.\n- Baseline for all other transport mechanisms.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, \"5.2 Passive Transport.\" https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+        "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport"
+      },
+      {
+        "text": "Alberts et al., *Molecular Biology of the Cell*, 4th ed., \"Principles of Membrane Transport.\" https://www.ncbi.nlm.nih.gov/books/NBK26815/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26815/"
+      },
+      {
+        "text": "Cooper, *The Cell: A Molecular Approach*, 2nd ed. https://www.ncbi.nlm.nih.gov/books/NBK9839/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9839/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/02-membranes-transport/08-simple-diffusion.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

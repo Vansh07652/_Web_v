@@ -1,0 +1,181 @@
+---
+title: "Measurements"
+subject: "Science"
+book: "Chemistry 2e"
+chapter: "1: Essential Ideas"
+topic_number: "4"
+source: "chemistry-2e.md"
+tags:
+  - "measurements"
+  - "science"
+status: "complete"
+---
+
+# Measurements
+
+> **Book:** [Chemistry 2e](../../README.md)  
+> **Chapter:** [Chapter 1: Essential Ideas](../README.md)  
+> **Topic:** 4  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+A measurement is a number with a unit: "25" is incomplete, but "25 mL" is information. Chemistry is a quantitative science: nearly every calculation begins with a measurement — a mass on a balance, a volume in a graduated cylinder, a temperature on a thermometer. To communicate unambiguously, scientists worldwide use the **International System of Units (SI)**, a metric system built on seven base units and powers of ten. This topic covers the base units, the derived units chemists use most (volume and density), metric prefixes, mass versus weight, and the temperature scales you will convert all semester.
+
+## Why This Matters
+
+Unit errors are not just test deductions; they have caused real disasters. In 1999, NASA lost the Mars Climate Orbiter because one team used metric newtons and another used pounds-force, and the spacecraft entered the atmosphere too low. In health care, doses are prescribed in milligrams and milliliters; a misplaced decimal can be life-threatening. Learning to convert units with dimensional analysis — writing conversion factors so units cancel — is the single most transferable skill in the course.
+
+## Core Concepts
+
+### SI base units
+
+The SI system has seven **base units**, each defining one fundamental quantity: the **meter (m)** for length, **kilogram (kg)** for mass, **second (s)** for time, **ampere (A)** for electric current, **kelvin (K)** for temperature, **mole (mol)** for amount of substance, and **candela (cd)** for luminous intensity. The kilogram is the only base unit that includes a prefix. You rarely need the definitions, but you must know which unit goes with which quantity.
+
+### Derived units: volume and density
+
+Derived units combine base units. **Volume** is length cubed, so the SI unit is m³, but chemists more often use the **liter (L)**, which equals 1 dm³. Key equivalences: 1 L = 1000 mL and 1 mL = 1 cm³. **Density** is mass divided by volume, commonly in g/mL or g/cm³ (the SI unit is kg/m³). Because 1 mL of water has a mass very close to 1 g, water's density is about 1.00 g/mL — a handy benchmark: denser objects sink, less dense objects float.
+
+### Metric prefixes
+
+Metric prefixes scale a base unit by powers of ten: kilo- (10³), centi- (10⁻²), milli- (10⁻³), micro- (10⁻⁶), nano- (10⁻⁹), pico- (10⁻¹²), plus mega- (10⁶) for large quantities. Examples: 1 km = 1000 m; 1 mL = 0.001 L; 1 μg = 10⁻⁶ g. Conversions use **dimensional analysis**: multiply the given quantity by a conversion factor (a ratio equal to 1) so the unwanted unit cancels.
+
+### Mass versus weight
+
+**Mass** is the amount of matter in an object and is constant everywhere; its SI unit is the kilogram. **Weight** is the gravitational force on an object, \(w = mg\), and changes with location: an astronaut has the same mass on Earth and the Moon but weighs about one-sixth as much there. A laboratory **balance** compares masses, while a spring **scale** measures weight. In chemistry, think in terms of mass — mass is what reacts and is conserved.
+
+### Temperature scales
+
+Three scales measure temperature. **Kelvin (K)** is the SI unit: an absolute scale starting at absolute zero, never negative, written without a degree symbol (298 K, not 298°K). **Celsius (°C)** sets water's freezing point at 0 °C and boiling point at 100 °C at 1 atm. **Fahrenheit (°F)** sets them at 32 °F and 212 °F. The conversion equations are:
+
+\[
+K = {}^\circ C + 273.15
+\]
+
+\[
+{}^\circ F = \frac{9}{5}{}^\circ C + 32
+\]
+
+A kelvin and a Celsius degree are the same size (a change of 1 K equals a change of 1 °C); a Fahrenheit degree is smaller, so 1 °C = 1.8 °F.
+
+### Measuring in the laboratory
+
+In the lab, volume is measured with a graduated cylinder, pipet, or buret (read the bottom of the meniscus at eye level); mass with an analytical balance; and length with a ruler or caliper. Always record the unit with every number and estimate one digit beyond the smallest mark (the topic of the next section).
+
+## ELI-10: Explain Like I'm 10
+
+> A measurement is a number with a unit — "5" alone doesn't tell you if it's 5 grams or 5 liters. Scientists around the world use one measuring system based on tens, so converting is mostly moving a decimal point. Temperature has three scales that measure the same hotness: Kelvin (used in science), Celsius (used in most countries), and Fahrenheit (used in the U.S.). A balance measures how much stuff you have (mass); weight is how hard gravity pulls on that stuff.
+
+## High-Yield Points
+
+- Every measurement is a number plus a unit; a unitless number is incomplete.
+- Seven SI base units: meter, kilogram, second, ampere, kelvin, mole, candela.
+- Key equivalences: 1 L = 1 dm³ = 1000 mL; 1 mL = 1 cm³.
+- Prefixes to know cold: kilo (10³), centi (10⁻²), milli (10⁻³), micro (10⁻⁶), nano (10⁻⁹).
+- Conversions: \(K = {}^\circ C + 273.15\) and \({}^\circ F = \frac{9}{5}{}^\circ C + 32\). Kelvin has no degree symbol.
+- Mass is constant and measured by a balance; weight is \(w = mg\) and changes with gravity.
+- Density \(\rho = m/V\) in g/mL or g/cm³; water ≈ 1.00 g/mL.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| SI units | The International System of Units, the global standard for measurement. | Lets scientists share measurements without ambiguity. |
+| base unit | One of seven fundamental units (m, kg, s, A, K, mol, cd). | The building blocks from which all other units are derived. |
+| derived unit | A unit formed by combining base units (volume, density, speed). | Most measured quantities in chemistry are derived. |
+| liter | A unit of volume equal to 1 dm³; 1 L = 1000 mL. | The everyday chemistry unit for liquids. |
+| mass | The amount of matter in an object, measured in kg or g. | Constant everywhere; the quantity that reacts and is conserved. |
+| weight | The gravitational force on an object, \(w = mg\). | Varies with location; measured by a spring scale, not a balance. |
+| kelvin | The SI unit of temperature, an absolute scale. | Used in gas laws and all thermodynamic calculations. |
+| density | Mass per unit volume, \(\rho = m/V\). | Identifies substances and predicts floating or sinking. |
+
+## How It Works / Step-by-Step Process
+
+1. Identify the quantity being measured (length, mass, volume, temperature) and choose the appropriate instrument.
+2. Read the instrument carefully, estimating one digit past the smallest marked division, and record number plus unit.
+3. If the unit is not the one needed, write the conversion factor as a fraction equal to 1 and cancel units.
+4. Repeat until only the desired unit remains, then check that the value makes sense.
+
+## Example: Converting Units with Dimensional Analysis
+
+A prescription calls for 2.50 L of saline. Convert to milliliters using 1 L = 1000 mL, written so liters cancel:
+
+\[
+2.50\ \text{L} \times \frac{1000\ \text{mL}}{1\ \text{L}} = 2.50 \times 10^3\ \text{mL}
+\]
+
+A drug dose is 500 μg. How many milligrams is that? Using 1 mg = 1000 μg:
+
+\[
+500\ \mu\text{g} \times \frac{1\ \text{mg}}{1000\ \mu\text{g}} = 0.500\ \text{mg}
+\]
+
+Both answers keep three significant figures and the units cancel correctly.
+
+## Example: Converting Temperatures
+
+Normal human body temperature is 37.0 °C. Convert it to kelvins and degrees Fahrenheit using the conversion formulas:
+
+\[
+K = 37.0 + 273.15 = 310.2\ \text{K}
+\]
+
+\[
+{}^\circ F = \frac{9}{5}(37.0) + 32 = 66.6 + 32 = 98.6\ {}^\circ F
+\]
+
+So 37.0 °C = 310.2 K = 98.6 °F. Note kelvins are written without a degree symbol.
+
+## Example: Measuring Density in the Lab
+
+A student measures 20.0 mL of ethanol with a graduated cylinder and finds its mass is 15.8 g. The density is:
+
+\[
+\rho = \frac{m}{V} = \frac{15.8\ \text{g}}{20.0\ \text{mL}} = 0.790\ \text{g/mL}
+\]
+
+Because 1 mL = 1 cm³, this is also 0.790 g/cm³, or 790 kg/m³ — less dense than water (≈1.00 g/mL), which is why density is a routine identity check in the lab.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Mass | Weight | Mass is constant matter (kg, measured by balance); weight is gravity's pull \(w = mg\) and varies by location. |
+| Kelvin | Celsius | K = °C + 273.15; the degree sizes are identical, only the zero points differ. |
+| Liter | Milliliter / cm³ | 1 L = 1000 mL = 1000 cm³, so 1 mL = 1 cm³. |
+| Kilogram | Gram | The kilogram is the SI base unit; 1 kg = 1000 g. Many students forget the factor of 1000. |
+
+## Quick Review
+
+1. List the seven SI base units and the quantity each measures.
+2. Convert: (a) 3.5 km to meters; (b) 250 mL to liters; (c) 2.0 mg to micrograms.
+3. Convert 100.0 °C (the boiling point of water at 1 atm) to kelvins and to degrees Fahrenheit.
+4. Why does an astronaut's mass stay the same on the Moon while their weight changes?
+5. A 30.0 mL sample of olive oil has a mass of 27.6 g. Compute its density, and predict whether it will float on water (density ≈ 1.00 g/mL).
+6. Why is "298 K" correct but "298 °K" incorrect?
+
+<details>
+<summary>Show answers</summary>
+
+1. Meter (length), kilogram (mass), second (time), ampere (electric current), kelvin (temperature), mole (amount of substance), candela (luminous intensity).
+2. (a) \(3.5\ \text{km} \times \frac{1000\ \text{m}}{1\ \text{km}} = 3.5 \times 10^3\ \text{m}\). (b) \(250\ \text{mL} \times \frac{1\ \text{L}}{1000\ \text{mL}} = 0.250\ \text{L}\). (c) \(2.0\ \text{mg} \times \frac{1000\ \mu\text{g}}{1\ \text{mg}} = 2.0 \times 10^3\ \mu\text{g}\).
+3. \(K = 100.0 + 273.15 = 373.2\ \text{K}\); \({}^\circ F = \frac{9}{5}(100.0) + 32 = 212.0\ {}^\circ F\).
+4. Mass is the amount of matter, which does not change. Weight is the gravitational force \(w = mg\); the Moon's gravity is weaker, so weight is lower.
+5. \(\rho = 27.6\ \text{g} / 30.0\ \text{mL} = 0.920\ \text{g/mL}\). Since 0.920 < 1.00, olive oil floats on water.
+6. The kelvin is an absolute scale; degree-sized units (°C, °F) get the symbol, kelvins do not.
+
+</details>
+
+## Related Topics
+
+- Previous: [Physical and Chemical Properties](03-physical-and-chemical-properties.md)
+- Next: [Measurement Uncertainty, Accuracy, and Precision](05-measurement-uncertainty-accuracy-and-precision.md)
+- Related: [Essential Ideas chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Chemistry 2e
+- Local outline source: `chemistry-2e.md`
+- Official source URL: https://openstax.org/details/books/chemistry-2e/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-16

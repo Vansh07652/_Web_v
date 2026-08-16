@@ -1,0 +1,40 @@
+{
+  "id": "genetics-population-genetics-and-evolution-0002",
+  "subject": "genetics",
+  "lesson": "population-genetics-and-evolution",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation A population of 200 fish at a single locus has 80 *AA*, 80 *Aa*, and 40 *aa* individuals. What is the frequency of allele *a*?",
+  "options": [
+    {
+      "id": "a",
+      "text": "0.2"
+    },
+    {
+      "id": "b",
+      "text": "0.4"
+    },
+    {
+      "id": "c",
+      "text": "0.6"
+    },
+    {
+      "id": "d",
+      "text": "0.8"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "The total number of alleles is 2 x 200 = 400, and the number of *a* alleles is 2 x 40 + 80 = 160, so q = 160/400 = 0.4. Option A is the *aa* genotype frequency, 40/200 = 0.2, and C is the frequency of allele *A*, 240/400 = 0.6. D comes from dividing by the number of individuals instead of the number of alleles, 160/200 = 0.8.",
+  "difficulty": "unknown",
+  "tags": [
+    "allele",
+    "frequency",
+    "genotype",
+    "counts"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-c8080c5df327048e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

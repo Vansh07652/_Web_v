@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:general-chemistry-2:properties-of-solutions:solubility",
+  "slug": "solubility",
+  "title": "Solubility",
+  "subject": {
+    "id": "subject:general-chemistry-2",
+    "slug": "general-chemistry-2",
+    "title": "General Chemistry II"
+  },
+  "unit": {
+    "id": "unit:general-chemistry-2:properties-of-solutions",
+    "slug": "properties-of-solutions",
+    "title": "Properties Of Solutions",
+    "order": 2
+  },
+  "order": 3,
+  "status": "final",
+  "sections": {
+    "overview": "Solubility is the maximum amount of solute that can dissolve in a given amount of solvent at a specified temperature, producing a saturated solution. Solubility depends on the interplay of solute–solute, solvent–solvent, and solute–solvent forces (\"like dissolves like\"), and it responds to temperature and pressure in ways that differ sharply between gases and solids: gas solubility decreases with temperature and increases with pressure, while most (but not all) solids become more soluble as temperature rises.",
+    "whyItMatters": "- **Kidney stones & gout:** precipitation of slightly soluble salts (calcium oxalate, uric acid) when their solubility limit is exceeded.\n- **Environmental O₂:** fish depend on dissolved oxygen, which drops as water warms (why heat waves and thermal pollution kill fish).\n- **Candy & crystals:** supersaturated sugar solutions are the basis of rock candy and crystallization processes.\n- **Water treatment:** solubility rules predict which ions precipitate and can be removed (e.g., adding OH⁻ to remove heavy metals).",
+    "learningObjectives": "- Define solubility and distinguish saturated, unsaturated, and supersaturated solutions.\n- Describe how temperature affects the solubility of solids and gases.\n- Describe how pressure affects the solubility of gases (and why solids/liquids are nearly unaffected).\n- Use solubility rules to predict precipitation.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nSolubility is the maximum amount of solute that can dissolve in a given amount of solvent at a specified temperature, producing a saturated solution. Solubility depends on the interplay of solute–solute, solvent–solvent, and solute–solvent forces (\"like dissolves like\"), and it responds to temperature and pressure in ways that differ sharply between gases and solids: gas solubility decreases with temperature and increases with pressure, while most (but not all) solids become more soluble as temperature rises.\n\n### Key Ideas\n\n### Saturation terminology\n- **Unsaturated:** less than the maximum solute; more can dissolve.\n- **Saturated:** the maximum solute is dissolved; undissolved solute and solution are in dynamic equilibrium.\n- **Supersaturated:** more than the equilibrium amount is dissolved (unstable; seeding causes sudden crystallization).\n\n### Temperature dependence\n- **Solids:** solubility usually *increases* with temperature (KNO₃, sugar), but not always — some salts (e.g., Ce₂(SO₄)₃, some CaSO₄) become *less* soluble when heated.\n- **Gases:** solubility *always decreases* with increasing temperature (warm soda goes flat; warm water holds less O₂).\n\n### Pressure dependence\n- **Gases:** solubility increases with the partial pressure of the gas (Henry's law, C = k_H·P).\n- **Solids/liquids:** pressure has negligible effect (they are nearly incompressible).\n\n### Solubility rules (ionic compounds in water)\n- Most alkali-metal (Li⁺, Na⁺, K⁺…) and ammonium (NH₄⁺) salts and most nitrates (NO₃⁻) are soluble.\n- Most chlorides are soluble (exceptions: AgCl, PbCl₂, Hg₂Cl₂).\n- Most sulfates are soluble (exceptions: BaSO₄, PbSO₄, CaSO₄ slightly).\n- Most carbonates, phosphates, hydroxides, and sulfides are insoluble (except with alkali metals/NH₄⁺).\n\n### Equations and Variables\n\n- **Solubility (s):** grams solute per 100 g solvent (common units) or mol/L (molar solubility).\n- **Henry's law (gas solubility vs. pressure):** C = k_H·P, where C = dissolved-gas concentration, k_H = Henry's law constant (temperature-dependent), P = partial pressure of the gas.\n- **Supersaturation** has no equation; it is a kinetic metastable state reached by cooling a saturated solution or evaporating solvent slowly.\n\n### How It Works\n\n1. **A solute dissolves until equilibrium** between dissolved solute and undissolved solid is reached — the saturation limit.\n2. **Heating usually lets more solid dissolve** because the increased thermal motion helps overcome lattice forces; but if the dissolution is exothermic, heating instead decreases solubility (Le Chatelier).\n3. **Heating always drives gases out** because dissolved gas molecules gain enough energy to escape the solvent.\n4. **Pressurizing a gas above a solution forces more gas in** (Henry's law) — more collisions, more dissolved gas.\n5. **Cooling or concentrating a saturated solution** can produce supersaturation, which crystallizes abruptly when disturbed.\n\n### Worked Example\n\nA solution is made with 80 g of KNO₃ in 100 g of water at 60 °C and then cooled to 20 °C. The solubility of KNO₃ is 110 g/100 g H₂O at 60 °C and 32 g/100 g H₂O at 20 °C. How much KNO₃ crystallizes?\n\n1. **At 60 °C,** 80 g dissolved in 100 g water is *below* the 110 g limit → the solution is unsaturated (no solid present).\n2. **Cool to 20 °C,** where only 32 g can stay dissolved.\n3. **Amount that must precipitate** = 80 g − 32 g = **48 g of KNO₃** crystallizes out.",
+    "howItWorks": "1. **A solute dissolves until equilibrium** between dissolved solute and undissolved solid is reached — the saturation limit.\n2. **Heating usually lets more solid dissolve** because the increased thermal motion helps overcome lattice forces; but if the dissolution is exothermic, heating instead decreases solubility (Le Chatelier).\n3. **Heating always drives gases out** because dissolved gas molecules gain enough energy to escape the solvent.\n4. **Pressurizing a gas above a solution forces more gas in** (Henry's law) — more collisions, more dissolved gas.\n5. **Cooling or concentrating a saturated solution** can produce supersaturation, which crystallizes abruptly when disturbed.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Solubility = max solute dissolved at a given T (saturated solution).\n- Gas solubility ↓ with T (always); solid solubility ↑ with T (usually, not always).\n- Gas solubility ↑ with pressure (Henry's law); solids/liquids ≈ unaffected by pressure.\n- Supersaturated solutions are unstable and crystallize on seeding/agitation.\n- Alkali/NH₄⁺ salts and nitrates are soluble; most carbonates/hydroxides/sulfides are not.\n- \"Like dissolves like\" is a heuristic; temperature effects follow Le Chatelier's principle.",
+    "commonConfusions": "- **\"Heating always increases solubility.\"** — Wrong. Gases always become *less* soluble when heated, and even some solids (whose dissolution is exothermic) decrease.\n- **\"Pressure strongly changes solid solubility.\"** — Wrong. Pressure matters for gases (Henry's law); solids and liquids are nearly unaffected.\n- **\"A saturated solution has no dissolved solute.\"** — Wrong. Saturated means the *maximum* is dissolved; the solute is fully present, just at its limit.\n- **\"All chlorides are soluble.\"** — Wrong. AgCl, PbCl₂, and Hg₂Cl₂ are notable insoluble exceptions.\n- **\"Supersaturated solutions are the same as saturated.\"** — Wrong. Supersaturated holds *more* than the equilibrium amount and is metastable — it will crystallize if disturbed.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nSolubility is how many people can fit in a hot tub before it's \"full.\" Warm the water and — for most solid guests — more can squeeze in (hot water dissolves more sugar). But gas guests are the opposite: they *leave* when it gets hot, like how warm soda goes flat faster than cold soda. If you carefully cool a completely full tub, sometimes you can jam in even *more* people than should fit (supersaturated) — but bump the tub and everyone suddenly piles out at once (crystallization). (The analogy's limit: the \"fullness\" is set by equilibrium between dissolving and crystallizing, and gas escape is a kinetic energy effect, but the direction of each trend matches the real chemistry.)",
+    "quickReview": "- Saturated = max dissolved; unsaturated < max; supersaturated > max (unstable).\n- Gases: solubility ↓ T, ↑ P (Henry's law). Solids: usually ↑ T, P negligible.\n- Solubility rules: alkali/NH₄⁺ and nitrates soluble; AgCl/PbCl₂/BaSO₄ and most carbonates/hydroxides insoluble.\n- Worked: cooling 80 g KNO₃ (60→20 °C) precipitates 48 g.",
+    "workedExamples": "### Worked Example\n\nA solution is made with 80 g of KNO₃ in 100 g of water at 60 °C and then cooled to 20 °C. The solubility of KNO₃ is 110 g/100 g H₂O at 60 °C and 32 g/100 g H₂O at 20 °C. How much KNO₃ crystallizes?\n\n1. **At 60 °C,** 80 g dissolved in 100 g water is *below* the 110 g limit → the solution is unsaturated (no solid present).\n2. **Cool to 20 °C,** where only 32 g can stay dissolved.\n3. **Amount that must precipitate** = 80 g − 32 g = **48 g of KNO₃** crystallizes out.",
+    "references": [
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"11.3 Solubility.\" https://openstax.org/books/chemistry-2e/pages/11-3-solubility",
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-3-solubility"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e*, \"11.1 The Dissolution Process.\" https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process",
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-1-the-dissolution-process"
+      },
+      {
+        "text": "NIST Chemistry WebBook. https://webbook.nist.gov/chemistry/",
+        "url": "https://webbook.nist.gov/chemistry/"
+      },
+      {
+        "text": "OpenStax, *Chemistry 2e* (book home). https://openstax.org/details/books/chemistry-2e",
+        "url": "https://openstax.org/details/books/chemistry-2e"
+      },
+      {
+        "text": "PubChem, \"Water\" (compound 962). https://pubchem.ncbi.nlm.nih.gov/compound/962",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": true,
+    "exactQuestions": 1
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "general_chemistry_notes",
+    "sourceFile": "Education/general-chemistry-1-2-study-notes/notes/general-chemistry-2/11-properties-of-solutions/03-solubility.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

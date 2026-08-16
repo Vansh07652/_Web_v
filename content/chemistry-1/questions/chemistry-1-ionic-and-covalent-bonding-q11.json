@@ -1,0 +1,40 @@
+{
+  "id": "chemistry-1-ionic-and-covalent-bonding-q11",
+  "subject": "chemistry-1",
+  "lesson": "ionic-and-covalent-bonding",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In a teaching data set, breaking an O-H covalent bond inside a water molecule requires about 460 kJ/mol, while breaking a hydrogen bond between two water molecules requires about 20 kJ/mol. Which conclusion is best supported by this comparison?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Boiling water breaks its O-H covalent bonds, which is why steam is chemically different from liquid water."
+    },
+    {
+      "id": "b",
+      "text": "Water's high boiling point reflects individual hydrogen bonds that are each only 23 kJ/mol weaker than an O-H bond."
+    },
+    {
+      "id": "c",
+      "text": "A hydrogen bond is a weak covalent bond in which two molecules share one hydrogen atom's single electron."
+    },
+    {
+      "id": "d",
+      "text": "The O-H bond is about 23 times stronger than the hydrogen bond, so boiling separates whole molecules without breaking O-H bonds."
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "Dividing the two values gives 460 / 20 = 23, an order-of-magnitude gap between an intramolecular covalent bond and an intermolecular attraction. Vaporization supplies far less energy than 460 kJ/mol, so it overcomes only the weaker hydrogen bonds; steam is still H2O with its O-H bonds intact. Option C misdefines a hydrogen bond, which is a strong dipole-dipole attraction rather than a shared-electron bond. Option B misreads the data: the two energies differ by a factor of 23, not by 23 kJ/mol, since 460 - 20 = 440.\n\nELI-10: Read the numbers as a ratio, because that tells you which attraction gives way first. At 460 versus 20 kJ/mol, the covalent O-H bond is about 23 times harder to break than a hydrogen bond, so any process supplying modest energy attacks the hydrogen bonds and nothing else. Boiling is exactly that: molecules separate from one another and drift off intact, which is why steam is still water and not loose H and O atoms. Hydrogen bonds are weak individually, but a liquid holds so many of them that water still needs unusual amounts of heat to boil.",
+  "difficulty": "hard",
+  "tags": [
+    "bond energy comparison",
+    "hydrogen bonding",
+    "intermolecular versus intramolecular",
+    "phase change"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-274",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

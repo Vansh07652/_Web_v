@@ -1,0 +1,40 @@
+{
+  "id": "physics-1-thermodynamics-ii-entropy-and-heat-engines-0002",
+  "subject": "physics-1",
+  "lesson": "thermodynamics-ii-entropy-and-heat-engines",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** calculation For direction of spontaneous heat flow, use $eta = W_out / Q_h$ in a engine efficiency model. The first quantity is 38.00 J and the second is 100.00 J. What is the thermal efficiency?",
+  "options": [
+    {
+      "id": "a",
+      "text": "$0.19$ dimensionless"
+    },
+    {
+      "id": "b",
+      "text": "$0.76$ dimensionless"
+    },
+    {
+      "id": "c",
+      "text": "$0.38$ dimensionless"
+    },
+    {
+      "id": "d",
+      "text": "$0.47$ dimensionless"
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Using $eta = W_out / Q_h$ gives 38.00 J divided by 100.00 J = $0.38$ dimensionless. The option at half the result drops a factor, the option at twice the result duplicates a factor, and the remaining distractor combines the inputs with the wrong operation. Units reduce to dimensionless, so the value and dimension agree.",
+  "difficulty": "unknown",
+  "tags": [
+    "direction",
+    "spontaneous",
+    "heat",
+    "flow"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-c7e66ab5e747e446",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

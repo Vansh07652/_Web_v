@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:reaction-mechanisms:thermodynamics-and-kinetics",
+  "slug": "thermodynamics-and-kinetics",
+  "title": "Thermodynamics and Kinetics",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:reaction-mechanisms",
+    "slug": "reaction-mechanisms",
+    "title": "Reaction Mechanisms",
+    "order": 4
+  },
+  "order": 16,
+  "status": "final",
+  "sections": {
+    "overview": "Thermodynamics answers \"how far?\": whether a reaction is product-favored, via \\( \\Delta G = \\Delta H - T\\Delta S \\). A negative \\( \\Delta G \\) (exergonic) means spontaneous; a positive \\( \\Delta G \\) (endergonic) means nonspontaneous. Kinetics answers \"how fast?\" and is set by the activation energy \\( E_a \\), the barrier reactants must climb to reach the transition state. A reaction can be strongly exergonic yet extremely slow because of a high \\( E_a \\), and product mixtures can be decided by the fastest pathway (kinetic control) or the most stable product (thermodynamic control).",
+    "whyItMatters": "Enzymes catalyze by lowering \\( E_a \\) without changing \\( \\Delta G \\) or \\( K \\) — the same reaction runs in milliseconds in a cell but years in a beaker. This also explains drug shelf life: a molecule may be thermodynamically unstable (\\( \\Delta G < 0 \\) for degradation) yet kinetically stable enough to store if its degradation \\( E_a \\) is high; refrigeration slows degradation further by shrinking \\( k \\). In metabolism, ATP hydrolysis (\\( \\Delta G^\\circ \\approx -30.5\\ \\text{kJ/mol} \\)) is coupled to endergonic processes to drive them forward.",
+    "learningObjectives": "1. Define enthalpy, entropy, and Gibbs free energy, and use \\( \\Delta G = \\Delta H - T\\Delta S \\) to predict spontaneity.\n2. Distinguish exergonic/endergonic from exothermic/endothermic, and spontaneity from reaction rate.\n3. Read a reaction coordinate diagram, locating transition states, intermediates, activation energy, and \\( \\Delta G \\).\n4. Explain kinetic versus thermodynamic control and why a favorable reaction is not necessarily fast.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n|---|---|---|\n| Enthalpy (\\( \\Delta H \\)) | Heat change; exothermic negative, endothermic positive | Tells whether heat is released or absorbed |\n| Entropy (\\( \\Delta S \\)) | Change in disorder/dispersal | More particles usually raise entropy |\n| Gibbs free energy (\\( \\Delta G \\)) | \\( \\Delta H - T\\Delta S \\); net driving force | Negative = spontaneous |\n| Exergonic / endergonic | \\( \\Delta G < 0 \\) / \\( \\Delta G > 0 \\) | Predicts product favorability, not speed |\n| Exothermic / endothermic | \\( \\Delta H < 0 \\) / \\( \\Delta H > 0 \\) | Describes heat flow only |\n| Spontaneity | Tendency to proceed on its own | Set by \\( \\Delta G \\), not \\( E_a \\) |\n| Equilibrium | Forward/reverse rates balance; \\( \\Delta G = 0 \\) | Sets the final ratio via \\( K \\) |\n| Reaction rate | How fast reactants become products | Controlled by \\( E_a \\) and temperature |\n| Activation energy (\\( E_a \\)) | Barrier to reach the transition state | Higher \\( E_a \\) = slower |\n| Reaction coordinate diagram | Energy vs. progress plot | Visualizes \\( E_a \\), \\( \\Delta G \\), peaks, valleys |\n| Transition state | Highest-energy peak with partial bonds | Cannot be isolated; sets \\( E_a \\) |\n| Intermediate | Local energy minimum (valley) | Real species between steps |\n| Kinetic vs. thermodynamic control | Fastest pathway vs. most stable product | Explains condition-dependent major products |",
+    "collegeNotes": "### 1. Enthalpy and Entropy\n**Enthalpy** (\\( H \\)) is heat content at constant pressure: \\( \\Delta H < 0 \\) is **exothermic** (heat released), \\( \\Delta H > 0 \\) is **endothermic** (heat absorbed). For organic reactions, \\( \\Delta H \\) is roughly bonds broken (endothermic) minus bonds formed (exothermic). **Entropy** (\\( S \\)) measures dispersal of energy and matter; splitting one molecule into two increases \\( \\Delta S \\), while joining two into one decreases it.\n\n### 2. Gibbs Free Energy\nGibbs free energy combines both effects: \\( \\Delta G = \\Delta H - T\\Delta S \\), with \\( T \\) in kelvin. \\( \\Delta G < 0 \\) is **exergonic** (spontaneous), \\( \\Delta G > 0 \\) is **endergonic** (nonspontaneous), and \\( \\Delta G = 0 \\) is **equilibrium**. It links to the equilibrium constant: \\( \\Delta G^\\circ = -RT\\ln K \\), so negative \\( \\Delta G^\\circ \\) gives \\( K > 1 \\). **Exergonic ≠ exothermic**: an endothermic reaction can still be exergonic if \\( \\Delta S \\) is positive enough that \\( -T\\Delta S \\) wins, especially at high temperature.\n\n### 3. Kinetics, Activation Energy, and Reaction Coordinate Diagrams\n**Reaction rate** is set by \\( E_a \\), not \\( \\Delta G \\). The Arrhenius equation \\( k = Ae^{-E_a/RT} \\) shows a higher barrier gives a smaller rate constant. A **reaction coordinate diagram** plots energy versus progress: **transition states** (‡) are **peaks** — highest-energy structures with partially broken/formed bonds — and **intermediates** are **valleys** — real species with finite lifetimes. \\( \\Delta G \\) is the reactants-to-products gap; \\( E_a \\) is the reactants-to-transition-state gap.",
+    "howItWorks": "1. Decide spontaneity by computing \\( \\Delta G = \\Delta H - T\\Delta S \\).\n2. Remember spontaneity says nothing about speed; rate is set by \\( E_a \\).\n3. Draw the reaction coordinate diagram, marking peaks (transition states) and valleys (intermediates).\n4. Identify the rate-determining step as the highest \\( E_a \\).\n5. For competing products, ask whether the reaction is under kinetic control (lowest \\( E_a \\)) or thermodynamic control (most stable product).\n6. Confirm that a favorable reaction may still need heat, light, or a catalyst to overcome a large \\( E_a \\).",
+    "comparisons": "",
+    "highYield": "- **High yield:** \\( \\Delta G < 0 \\) is spontaneous (exergonic); \\( \\Delta G > 0 \\) is nonspontaneous (endergonic).\n- **High yield:** Exergonic/exothermic refer to \\( \\Delta G \\) and \\( \\Delta H \\) — different quantities, never interchanged.\n- **High yield:** Negative \\( \\Delta G \\) tells you *if* a reaction can happen, not *how fast* — favorable ≠ fast.\n- \\( T \\) is in kelvin; \\( \\Delta H \\) and \\( T\\Delta S \\) must share the same units.\n- \\( \\Delta G^\\circ = -RT\\ln K \\): the more negative \\( \\Delta G^\\circ \\), the larger \\( K \\).\n- An endothermic reaction can be spontaneous if \\( \\Delta S \\) is sufficiently positive.\n- Transition states are maxima; intermediates are minima.\n- A catalyst lowers \\( E_a \\) for both directions, changing neither \\( \\Delta G \\) nor \\( K \\).\n- **High yield:** Kinetic control favors the fastest product (lowest \\( E_a \\)); thermodynamic control favors the most stable (lowest \\( \\Delta G \\)).",
+    "commonConfusions": "| Do not confuse | With | Difference |\n|---|---|---|\n| Exergonic | Exothermic | \\( \\Delta G < 0 \\) vs. \\( \\Delta H < 0 \\) |\n| Spontaneity | Reaction rate | \\( \\Delta G \\) decides \"if\"; \\( E_a \\) decides \"how fast\" |\n| Transition state | Intermediate | Peak (no lifetime) vs. valley (real species) |\n| Equilibrium constant \\( K \\) | Rate constant \\( k \\) | \\( K \\) sets final ratio; \\( k \\) sets speed |\n| Kinetic product | Thermodynamic product | Fastest to form vs. most stable |\n| Favorable | Fast | Large driving force can coexist with huge \\( E_a \\) |",
+    "memoryAids": "\"**Thermo tells you WHERE you end up** (\\( \\Delta G \\)); **Kinetics tells you HOW HIGH the hill** (\\( E_a \\)).\" For sign conventions: **EX**ergonic = energy **EX**its the free-energy account (spontaneous); **EX**othermic = heat **EX**its the system.",
+    "eli10": "Picture a ball on a hillside. Thermodynamics asks \"does the ball end up lower than it started?\" — if so, the change is spontaneous. Kinetics asks \"how tall is the hill it must roll over?\" — even a far-downhill trip is slow if a big ridge blocks the way. Thermodynamics is the **map** (net altitude change); kinetics is the **road profile** (how steep the climbs are). A trip can be downhill overall yet blocked by a steep climb.\n\nWhere it stops being exact: molecules do not literally roll like balls. Spontaneity is a statistical statement about the free-energy difference between the whole collection of reactants and products, not a single particle — and the \"downhill\" direction can even flip with temperature when the entropy term dominates.\n\n### Simple Example\nMethane combustion (\\( \\mathrm{CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O} \\)) is strongly exergonic, yet methane and oxygen can sit mixed for years with no visible reaction, because the C–H and O=O bonds must first be broken — a very high \\( E_a \\). A spark supplies that energy.",
+    "quickReview": "### Topic Recap\n\nThermodynamics predicts spontaneity through \\( \\Delta G = \\Delta H - T\\Delta S \\), linking to \\( K \\); kinetics predicts speed through \\( E_a \\), visualized on reaction coordinate diagrams with transition states (peaks) and intermediates (valleys). The two are independent: favorable ≠ fast, and product mixtures may be kinetically or thermodynamically controlled.\n\n### Knowledge Check\n\n1. A reaction has \\( \\Delta H = -20\\ \\text{kJ/mol} \\) and \\( \\Delta S = +60\\ \\text{J/(mol·K)} \\) at 298 K. Is it spontaneous?\n2. What is the difference between a transition state and an intermediate?\n3. Why can a highly exergonic reaction still be extremely slow?\n4. Define kinetic versus thermodynamic control.\n5. Does a catalyst change \\( \\Delta G \\) or \\( K \\)? Why or why not?\n\n### Answers and Rationales\n\n1. **Yes.** \\( \\Delta G = -20 - (298)(0.060) = -37.9\\ \\text{kJ/mol} \\), negative, so spontaneous.\n2. A transition state is an energy **maximum** with partial bonds and no lifetime; an intermediate is an energy **minimum** that is a real, potentially observable species.\n3. Rate depends on \\( E_a \\), not \\( \\Delta G \\); a large barrier means few molecules react at any instant regardless of favorability.\n4. Kinetic control gives the product formed **fastest** (lowest \\( E_a \\)); thermodynamic control gives the **most stable** product (lowest \\( \\Delta G \\)), usually under reversible, high-temperature conditions.\n5. No. A catalyst lowers \\( E_a \\) equally for forward and reverse, speeding both by the same factor, so \\( \\Delta G \\) and \\( K \\) are unchanged.",
+    "workedExamples": "1. **Convert units.** Entropies are often tabulated in J/(mol·K) and enthalpies in kJ/mol; divide \\( \\Delta S \\) by 1000 to share units.\n2. **Compute \\( \\Delta G \\).** With \\( \\Delta H = -50\\ \\text{kJ/mol} \\) and \\( \\Delta S = -100\\ \\text{J/(mol·K)} = -0.100\\ \\text{kJ/(mol·K)} \\):\n   \\[ \\Delta G = -50 - (298)(-0.100) = -50 + 29.8 = -20.2\\ \\text{kJ/mol}. \\]\n3. **Interpret.** \\( \\Delta G < 0 \\), so the reaction is spontaneous; the unfavorable entropy term is outweighed by the exothermic enthalpy.\n4. **Read a diagram.** On a two-step profile, identify peaks TS1 and TS2 and the intermediate valley between them; the **rate-determining step** has the larger \\( E_a \\). Overall \\( \\Delta G \\) is independent of barrier heights.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "thermodynamics-and-kinetics",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "16-thermodynamics-and-kinetics",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/16-thermodynamics-and-kinetics.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

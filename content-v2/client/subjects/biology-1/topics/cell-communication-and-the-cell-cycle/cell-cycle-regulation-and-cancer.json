@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:cell-communication-and-the-cell-cycle:cell-cycle-regulation-and-cancer",
+  "slug": "cell-cycle-regulation-and-cancer",
+  "title": "Cell Cycle Regulation and Cancer",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:cell-communication-and-the-cell-cycle",
+    "slug": "cell-communication-and-the-cell-cycle",
+    "title": "Cell Communication And The Cell Cycle",
+    "order": 5
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "The cell cycle is not an autonomous clock — it is a tightly regulated machine controlled by **cyclins and Cdks**, monitored at **checkpoints**, and held in check by external signals and internal damage sensors. Cancer is, at root, a disease of this regulation: mutations that remove the brakes (**tumor suppressors**) or jam the accelerator (**oncogenes**) allow cells to divide without limit, ignore normal constraints, and eventually invade other tissues.",
+    "whyItMatters": "Cancer is fundamentally a disease of cell-cycle control, so this material is the conceptual bridge to oncology. Treatments exploit the same logic: many chemotherapies kill rapidly dividing cells (spindle poisons, DNA-damaging agents); targeted therapies block the specific hyperactive kinases or receptors driving a tumor (e.g., HER2, BCR-ABL inhibitors). Understanding checkpoints and p53 also explains why inherited cancer syndromes (e.g., Li-Fraumeni from p53 mutation) run in families.",
+    "learningObjectives": "- Explain how cyclins and cyclin-dependent kinases (Cdks) drive the cell cycle.\n- Describe the three major checkpoints (G1, G2, M) and what each monitors.\n- Explain how growth factors, density dependence, and anchorage dependence normally restrain division.\n- Define apoptosis and its role in maintaining tissue health.\n- Distinguish proto-oncogenes, oncogenes, and tumor suppressor genes, and trace the path from benign to malignant tumor to metastasis.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nThe cell cycle is not an autonomous clock — it is a tightly regulated machine controlled by **cyclins and Cdks**, monitored at **checkpoints**, and held in check by external signals and internal damage sensors. Cancer is, at root, a disease of this regulation: mutations that remove the brakes (**tumor suppressors**) or jam the accelerator (**oncogenes**) allow cells to divide without limit, ignore normal constraints, and eventually invade other tissues.\n\n### Key Concepts\n\n### Cyclins and cyclin-dependent kinases\n\n**Cdks** are kinases that phosphorylate target proteins to drive the cycle forward, but they are inactive until bound to a **cyclin** (a regulatory protein whose levels rise and fall rhythmically). Each phase has its own cyclin–Cdk combination: G1/S-Cdk commits the cell to division, S-Cdk triggers DNA replication, and M-Cdk (MPF, \"maturation-promoting factor\") drives entry into mitosis. Cyclin abundance rises and falls, and cyclin degradation at the right moment inactivates the Cdk — this oscillation is what times the cycle.\n\n### Checkpoints\n\nCheckpoints are surveillance points where the cell verifies conditions before proceeding. The **G1 checkpoint** (restriction point) checks cell size, nutrients, growth signals, and DNA integrity before committing to S phase — the most important decision point. The **G2 checkpoint** verifies that DNA replication is complete and undamaged before mitosis. The **M (spindle) checkpoint** ensures all chromosomes are properly attached to the spindle before anaphase. Failure of these checkpoints lets damaged or incomplete genomes be passed to daughter cells.\n\n### Growth factors and external controls\n\n**Growth factors** are proteins (ligands) that stimulate target cells to divide via RTK signaling pathways. In addition, normal animal cells show **density-dependent inhibition** — they stop dividing when they crowd and touch each other — and **anchorage dependence** — they must be attached to a surface (extracellular matrix) to divide. Together these keep tissues at the right size and shape.\n\n### p53 and tumor suppressors\n\n**p53** is the most important tumor suppressor protein, sometimes called \"the guardian of the genome.\" When DNA is damaged, p53 halts the cycle (at G1) to allow repair, and if damage is irreparable, p53 triggers **apoptosis**. Mutations that inactivate p53 allow cells with damaged DNA to keep dividing, a hallmark of most human cancers. **Rb** is another key tumor suppressor that holds the G1 checkpoint.\n\n### Apoptosis\n\n**Apoptosis** is programmed cell death — an orderly, energy-requiring suicide that neatly disassembles a cell without harming neighbors (unlike messy necrosis). It shapes development (e.g., removing webbing between fingers), removes damaged cells, and is a major defense against cancer. Cancer cells often acquire mutations that disable the apoptotic program.\n\n### Oncogenes and tumor suppressors\n\nA **proto-oncogene** is a normal gene that promotes cell division (e.g., genes for growth-factor receptors, Ras, or Cdks). A single gain-of-function mutation can turn it into an **oncogene** that overdrives division — like a stuck accelerator. **Tumor suppressor genes** normally restrain division or promote repair/apoptosis; losing *both* copies removes the brakes. Cancer typically requires multiple \"hits\" — several oncogene activations and tumor-suppressor losses together.\n\n### Benign vs. malignant; metastasis\n\nA **benign tumor** is an abnormal mass that stays in one place and does not invade surrounding tissue (though it may compress it). A **malignant tumor (cancer)** invades neighboring tissues and can spread. **Metastasis** is the spread of cancer cells through the blood or lymph to establish new tumors at distant sites; it is what makes cancer dangerous and is responsible for most cancer deaths.\n\n### How It Works\n\nIn a normal cell, growth factors push the cell toward division while tumor suppressors and checkpoints restrain it, so division only happens when it is safe and needed. Cyclin–Cdk complexes act as the molecular engine: rising cyclins activate Cdks that phosphorylate proteins that, for example, fire the origins of DNA replication (S) or condense chromosomes and build the spindle (M). If DNA is damaged, ATM/ATR kinases activate p53, which either arrests the cycle or triggers apoptosis. In cancer, mutations short-circuit this: an oncogenic Ras or overactive RTK keeps growth signals \"on\" without ligand; loss of p53 removes the damage stop; loss of anchorage and density dependence lets cells pile up. Accumulated mutations allow a clone of cells to divide, invade, and metastasize.",
+    "howItWorks": "In a normal cell, growth factors push the cell toward division while tumor suppressors and checkpoints restrain it, so division only happens when it is safe and needed. Cyclin–Cdk complexes act as the molecular engine: rising cyclins activate Cdks that phosphorylate proteins that, for example, fire the origins of DNA replication (S) or condense chromosomes and build the spindle (M). If DNA is damaged, ATM/ATR kinases activate p53, which either arrests the cycle or triggers apoptosis. In cancer, mutations short-circuit this: an oncogenic Ras or overactive RTK keeps growth signals \"on\" without ligand; loss of p53 removes the damage stop; loss of anchorage and density dependence lets cells pile up. Accumulated mutations allow a clone of cells to divide, invade, and metastasize.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Cdks are active only when bound to cyclins; cyclin levels oscillate to time the cycle.\n- MPF = cyclin–Cdk complex that triggers mitosis (M-Cdk).\n- Three checkpoints: G1 (restriction point), G2 (replication/DNA), M (spindle attachment).\n- p53 halts the cycle for repair or triggers apoptosis when damage is severe — \"guardian of the genome.\"\n- Growth factors, density-dependent inhibition, and anchorage dependence restrain normal cells.\n- Proto-oncogene → oncogene = gain of function (accelerator stuck); tumor suppressors = loss of function (brakes cut).\n- Benign = localized; malignant = invasive; metastasis = distant spread (most cancer deaths).\n- Cancer is multistep: multiple mutations accumulate over time.",
+    "commonConfusions": "- **\"Cancer is caused by one mutation.\"** Wrong — it is a multistep process requiring several cooperating mutations in oncogenes and tumor suppressors.\n- **\"Tumor suppressors promote cancer when overactive.\"** Backwards — tumor suppressors *prevent* cancer; cancer arises when they are *inactivated* (lost), so the brakes are gone.\n- **\"All tumors are cancer.\"** Wrong — benign tumors do not invade or metastasize; only malignant tumors are cancer.\n- **\"p53 always kills the cell.\"** Wrong — p53 first tries to arrest the cycle and repair DNA; it triggers apoptosis only if repair fails.\n- **\"Oncogenes are foreign genes.\"** Wrong — they are mutated, overactive versions of the cell's own normal proto-oncogenes.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a car. The engine that makes the cell divide is the **cyclin–Cdk** engine. There are brakes (**tumor suppressor** genes like p53) that stop the car at red lights (**checkpoints**) to check for damage, and a gas pedal (**proto-oncogenes**) that makes it go when needed. Cancer happens when the gas pedal gets stuck down (an **oncogene**) *and* the brakes are cut (lost tumor suppressors) *and* the car ignores red lights and the rule \"don't drive into other cars.\" The car then smashes into neighboring neighborhoods — that's **metastasis**, cancer spreading to new places. The analogy's limit: real cells don't \"decide\" to misbehave; mutations physically break the proteins that would have stopped them.",
+    "quickReview": "- Cyclins activate Cdks; cyclin oscillation times the cycle.\n- G1, G2, and M checkpoints verify conditions before proceeding.\n- p53: arrest → repair → (if hopeless) apoptosis.\n- External brakes: growth-factor dependence, density-dependent inhibition, anchorage dependence.\n- Oncogenes = stuck accelerator; tumor suppressors = lost brakes.\n- Apoptosis = programmed, clean cell death.\n- Benign vs. malignant; metastasis = distant spread.\n- Cancer = accumulated mutations in cell-cycle control.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 10.3, \"Control of the Cell Cycle.\" https://openstax.org/books/biology-2e/pages/10-3-control-of-the-cell-cycle",
+        "url": "https://openstax.org/books/biology-2e/pages/10-3-control-of-the-cell-cycle"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 10.4, \"Cancer and the Cell Cycle.\" https://openstax.org/books/biology-2e/pages/10-4-cancer-and-the-cell-cycle",
+        "url": "https://openstax.org/books/biology-2e/pages/10-4-cancer-and-the-cell-cycle"
+      },
+      {
+        "text": "NCBI Bookshelf, *Molecular Biology of the Cell*, 4th ed. (Alberts et al.). https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/05-cell-communication-and-the-cell-cycle/05-cell-cycle-regulation-and-cancer.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

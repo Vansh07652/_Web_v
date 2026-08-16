@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:cell-biology:cytoskeleton-motility:microtubule-structure",
+  "slug": "microtubule-structure",
+  "title": "Microtubule Structure",
+  "subject": {
+    "id": "subject:cell-biology",
+    "slug": "cell-biology",
+    "title": "Cell Biology"
+  },
+  "unit": {
+    "id": "unit:cell-biology:cytoskeleton-motility",
+    "slug": "cytoskeleton-motility",
+    "title": "Cytoskeleton Motility",
+    "order": 5
+  },
+  "order": 7,
+  "status": "final",
+  "sections": {
+    "overview": "Microtubules are hollow, cylindrical polymers built from αβ-tubulin heterodimers, about 25 nm in outer diameter — the largest of the three cytoskeletal filaments. They are intrinsically **polar** polymers: one end (the **plus end**, capped by β-tubulin) grows and shrinks rapidly, while the other (the **minus end**, capped by α-tubulin) is comparatively stable. Because β-tubulin binds and hydrolyzes GTP, the polymer is a far-from-equilibrium structure whose assembly is coupled to nucleotide hydrolysis. This polarity and nucleotide cycle let microtubules serve as directional tracks for motor proteins (kinesins and dyneins), as the scaffold of the mitotic spindle, and as the core of cilia and flagella.",
+    "whyItMatters": "Microtubules are the cell's infrastructure and transport system. They form the **mitotic spindle** that segregates chromosomes, the **tracks** along which kinesins and dyneins move vesicles, organelles, and mRNAs, and the **axonemes** of cilia and flagella. Their dynamic plus ends are the target of the most successful anticancer drugs — taxanes (paclitaxel, docetaxel) and vinca alkaloids (vincristine, vinblastine) — which work precisely because dividing cells depend on microtubule dynamics. Defects in tubulin or MAPs (e.g., hyperphosphorylated tau) underlie neuropathies and neurodegeneration such as Alzheimer's disease.",
+    "learningObjectives": "- Describe the subunit composition and geometry of a microtubule (α/β-tubulin dimers, protofilaments, hollow tube).\n- Explain the structural basis of microtubule polarity, including which tubulin is exposed at each end.\n- Distinguish the GTP-binding sites on α-tubulin and β-tubulin and their functional consequences.\n- Relate microtubule structure to its roles as a track, a scaffold, and a force-generating polymer.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\nMicrotubules are hollow, cylindrical polymers built from αβ-tubulin heterodimers, about 25 nm in outer diameter — the largest of the three cytoskeletal filaments. They are intrinsically **polar** polymers: one end (the **plus end**, capped by β-tubulin) grows and shrinks rapidly, while the other (the **minus end**, capped by α-tubulin) is comparatively stable. Because β-tubulin binds and hydrolyzes GTP, the polymer is a far-from-equilibrium structure whose assembly is coupled to nucleotide hydrolysis. This polarity and nucleotide cycle let microtubules serve as directional tracks for motor proteins (kinesins and dyneins), as the scaffold of the mitotic spindle, and as the core of cilia and flagella.\n\n### Key Components\n\n- **αβ-tubulin heterodimer:** the basic building block; one α-tubulin and one β-tubulin, each ~55 kDa, each binding a GTP molecule.\n- **Protofilament:** a head-to-tail column of dimers; α of one dimer contacts β of the next, so all protofilaments point the same way.\n- **Microtubule wall:** 13 laterally associated protofilaments forming a hollow cylinder (~25 nm outer, ~14 nm inner diameter).\n- **Plus (+) end:** the end exposing β-tubulin; the fast-growing, dynamically active end.\n- **Minus (−) end:** the end exposing α-tubulin; usually anchored at a microtubule-organizing center.\n- **GTP-binding sites:** the **N-site** (non-exchangeable) on α-tubulin, buried at the dimer interface; the **E-site** (exchangeable) on β-tubulin, where GTP is hydrolyzed to GDP.\n- **Microtubule-associated proteins (MAPs):** tau, MAP2, MAP4, and others that bind the outer wall and stabilize or bundle microtubules.\n\n### Mechanism / How It Works\n\n1. Free αβ-tubulin dimers with GTP bound to β-tubulin add to the growing plus end of a microtubule.\n2. The E-site GTP becomes buried once a new dimer is added on top, and tubulin's GTPase activity hydrolyzes it to GDP with a short lag.\n3. The resulting GDP-bound core is slightly curved and less stable; it is held straight only by the \"cap\" of GTP-tubulin at the tip.\n4. Because dimers add faster than the lag of hydrolysis, a growing microtubule carries a protective **GTP cap** at its plus end.\n5. Lateral contacts between adjacent protofilaments (mostly between the α of one dimer and the β/α of neighbors) stiffen the wall; 13 protofilaments is the energetically favored number that closes the tube into a nearly seamless cylinder.\n6. Motor proteins read the lattice's polarity: most kinesins walk toward the plus end, cytoplasmic dynein toward the minus end, so the same structure acts as a directional roadway.\n\n### Energy and Directionality\n\nMicrotubule assembly is powered by **GTP hydrolysis**, not by ATP directly (though the cell spends GTP that ultimately traces to ATP). Each added dimer hydrolyzes one GTP to GDP + Pᵢ. Directionality is built into the dimer itself: protofilaments are head-to-tail, so the two ends are chemically distinct — the plus end (β-tubulin) has a higher on-rate and is the net growth end, while the minus end (α-tubulin) is slower and, in cells, usually capped/anchored. Hydrolysis is what makes disassembly energetically favorable once the GTP cap is lost, driving the growth/catastrophe behavior described in the dynamic-instability note.\n\n### Experimental Evidence / Technique\n\n- **Electron microscopy (negative staining + cryo-EM):** revealed the 13-protofilament hollow tube and the 25 nm diameter; cryo-EM now resolves the α/β lattice and the \"seam\" where the tube closes.\n- **In vitro polymerization assays:** purified tubulin polymerizes at 37 °C with GTP; light-scattering or pelleting assays measure assembly, showing nucleation, elongation, and a plateau (critical concentration).\n- **GTP-analog and hydrolysis studies:** non-hydrolyzable GTP analogs (e.g., GMPCPP) lock microtubules in a stable, straight, GTP-like state, proving hydrolysis (not just binding) drives dynamic turnover.\n- **Drug probes:** paclitaxel (Taxol) binds β-tubulin and stabilizes microtubules; colchicine and vinblastine/nocodazole prevent polymerization. Their distinct effects map onto the nucleotide cycle.\n- **Immunofluorescence / GFP-tubulin:** labels microtubule networks and, in live cells, reveals end dynamics and polarity of the array.",
+    "howItWorks": "1. Free αβ-tubulin dimers with GTP bound to β-tubulin add to the growing plus end of a microtubule.\n2. The E-site GTP becomes buried once a new dimer is added on top, and tubulin's GTPase activity hydrolyzes it to GDP with a short lag.\n3. The resulting GDP-bound core is slightly curved and less stable; it is held straight only by the \"cap\" of GTP-tubulin at the tip.\n4. Because dimers add faster than the lag of hydrolysis, a growing microtubule carries a protective **GTP cap** at its plus end.\n5. Lateral contacts between adjacent protofilaments (mostly between the α of one dimer and the β/α of neighbors) stiffen the wall; 13 protofilaments is the energetically favored number that closes the tube into a nearly seamless cylinder.\n6. Motor proteins read the lattice's polarity: most kinesins walk toward the plus end, cytoplasmic dynein toward the minus end, so the same structure acts as a directional roadway.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Microtubule outer diameter: **25 nm**; inner lumen ~14 nm.\n- Built from **13 protofilaments** of **αβ-tubulin heterodimers** (each subunit ~55 kDa).\n- **Plus end = β-tubulin** (fast, dynamic); **minus end = α-tubulin** (stable, anchored).\n- α-tubulin holds **GTP at the non-exchangeable N-site**; β-tubulin holds **GTP at the exchangeable E-site**, which it hydrolyzes to GDP.\n- GTP is hydrolyzed **after** polymerization (with a lag), creating the GTP cap.\n- Taxol/paclitaxel **stabilizes**; colchicine/nocodazole **destabilize** (prevent assembly).\n- In most cells the minus ends are anchored at the **centrosome (MTOC)**.\n- Microtubules are the **largest** cytoskeletal filament (vs. 7 nm actin, 10 nm intermediate filaments).",
+    "commonConfusions": "- **\"Microtubules grow from both ends equally.\"** — Wrong. The plus end is far more dynamic; in cells the minus end is anchored and stable.\n- **\"α-tubulin and β-tubulin are interchangeable.\"** — Wrong. They are distinct proteins; α is at the minus end and its GTP is never hydrolyzed or exchanged, while β is at the plus end and hydrolyzes GTP.\n- **\"GTP hydrolysis drives assembly.\"** — Backwards. GTP *binding* promotes assembly; *hydrolysis* promotes disassembly by destabilizing the GDP lattice.\n- **\"Microtubules are rigid, permanent struts.\"** — Wrong. They are highly dynamic and undergo continuous growth and shrinkage (dynamic instability).\n- **\"The wall has no seam.\"** — Most microtubules in cells have 13 protofilaments and one helical \"seam\"; the tube is not a perfect symmetric lattice.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a LEGO tower built from a special brick that has a \"top\" and a \"bottom\" side — you can only snap a new brick onto the top. The tower grows fast at the top (the plus end) and barely changes at the bottom (the minus end). Each brick holds a tiny \"battery\" (GTP) that drains shortly after the brick is snapped on; drained bricks want to fall off, but the fresh bricks on top hold everything together. As long as the top is covered in charged bricks, the tower grows; if the fresh layer breaks, the drained bricks below peel away. (The analogy omits that the real bricks are tubulin dimers adding to 13 parallel columns that wrap into a hollow tube, and that motor proteins use the tower's one-way direction as a road.)",
+    "quickReview": "- Microtubule = hollow tube, 25 nm, 13 protofilaments of αβ-tubulin dimers.\n- Polarity: plus (β, fast) vs. minus (α, stable/anchored) end.\n- β-tubulin's E-site GTP → GDP hydrolysis lags assembly, creating the GTP cap.\n- Assembly is powered by GTP hydrolysis; the polymer is dynamic, not static.\n- Roles: spindle, motor tracks, cilia/flagella core, cell shape; drug targets for chemotherapy.\n- MAPs (tau, MAP2) bind and stabilize the outer wall.",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "Alberts B, et al. *Molecular Biology of the Cell.* 4th ed. Garland Science; 2002. Chapter 16: \"The Cytoskeleton.\" https://www.ncbi.nlm.nih.gov/books/NBK21051/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21051/"
+      },
+      {
+        "text": "Alberts B, et al. *Molecular Biology of the Cell.* 4th ed. \"The Self-Assembly and Dynamic Structure of Cytoskeletal Filaments.\" https://www.ncbi.nlm.nih.gov/books/NBK26862/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK26862/"
+      },
+      {
+        "text": "Cooper GM. *The Cell: A Molecular Approach.* 2nd ed. Sinauer Associates; 2000. Chapter 11: \"The Cytoskeleton and Cell Movement.\" https://www.ncbi.nlm.nih.gov/books/NBK9893/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK9893/"
+      },
+      {
+        "text": "OpenStax. *Biology 2e.* Chapter 4.5: \"The Cytoskeleton.\" https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+        "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "cell_biology_notes",
+    "sourceFile": "Education/cell-biology-study-notes/notes/05-cytoskeleton-motility/07-microtubule-structure.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

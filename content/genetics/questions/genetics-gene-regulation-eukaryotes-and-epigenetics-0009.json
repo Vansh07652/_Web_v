@@ -1,0 +1,39 @@
+{
+  "id": "genetics-gene-regulation-eukaryotes-and-epigenetics-0009",
+  "subject": "genetics",
+  "lesson": "gene-regulation-eukaryotes-and-epigenetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** application A researcher knocks down the microRNA pathway in cultured cells. For a target gene, the messenger RNA level stays the same, but the amount of protein produced from that messenger RNA increases. Which conclusion is best supported?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The microRNA silences the target gene post transcriptionally by blocking translation rather than by degrading the messenger RNA."
+    },
+    {
+      "id": "b",
+      "text": "The microRNA silences the target gene at the level of transcription."
+    },
+    {
+      "id": "c",
+      "text": "The microRNA methylates the promoter of the target gene."
+    },
+    {
+      "id": "d",
+      "text": "The target gene is imprinted and expressed only from the paternal allele."
+    }
+  ],
+  "correctAnswer": "a",
+  "explanation": "An unchanged messenger RNA level with increased protein after microRNA knockdown shows that the microRNA was repressing translation of the message, which is post transcriptional regulation. B and C predict a change in messenger RNA quantity, because transcriptional silencing would reduce message production. D concerns parent of origin expression from imprinting, which is unrelated to the microRNA pathway.",
+  "difficulty": "unknown",
+  "tags": [
+    "microrna",
+    "translation",
+    "block"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-8ab599ccbbccc2db",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

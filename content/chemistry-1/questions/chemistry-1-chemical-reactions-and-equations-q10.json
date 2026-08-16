@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-1-chemical-reactions-and-equations-q10",
+  "subject": "chemistry-1",
+  "lesson": "chemical-reactions-and-equations",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "In a hypothetical furnace demonstration, calcium carbonate decomposes completely: CaCO3(s) -> CaO(s) + CO2(g). Using 44 g/mol as the molar mass of CO2, what mass of CO2 is released when 2 mol of CaCO3 decomposes?",
+  "options": [
+    {
+      "id": "a",
+      "text": "22 g, obtained by dividing the 44 g/mol molar mass between the 2 mol of CaCO3"
+    },
+    {
+      "id": "b",
+      "text": "200 g, because the 100 g/mol molar mass of CaCO3 is applied to the 2 mol"
+    },
+    {
+      "id": "c",
+      "text": "44 g, because one mole of CO2 leaves the solid no matter how large the sample is"
+    },
+    {
+      "id": "d",
+      "text": "88 g, because 2 mol of CO2 forms and each mole has a mass of 44 g"
+    }
+  ],
+  "correctAnswer": "d",
+  "explanation": "The balanced equation has a 1:1 mole ratio of CaCO3 to CO2, so 2 mol of carbonate releases 2 mol of CO2. Converting moles to mass with the molar mass of the gas gives 2 mol x 44 g/mol = 88 g. The two-step pattern of moles of reactant, then mole ratio, then molar mass of the requested substance is the standard route for every mass-based stoichiometry calculation, and the molar mass used must belong to the substance being asked about.\n\nELI-10: Work in two steps. First use the equation's ratio: one CaCO3 releases one CO2, so 2 mol in means 2 mol of gas out. Then convert moles of gas to grams using the molar mass of that gas: 2 x 44 = 88 g. The common trap is grabbing the molar mass of the starting solid instead of the substance the question asks for.",
+  "difficulty": "medium",
+  "tags": [
+    "mole to mass conversion",
+    "mole ratio",
+    "decomposition stoichiometry"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-276",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

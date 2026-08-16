@@ -1,0 +1,41 @@
+{
+  "id": "biology-1-mendelian-and-classical-genetics-0006",
+  "subject": "biology-1",
+  "lesson": "mendelian-and-classical-genetics",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Blood type in humans is controlled by three **multiple alleles**, IA, IB, and i, where IA and IB are each dominant to i. A man with type A blood and genotype IAi has a child with a woman who has type B blood and genotype IBi. Which blood types are possible for their child?",
+  "options": [
+    {
+      "id": "a",
+      "text": "Type AB only."
+    },
+    {
+      "id": "b",
+      "text": "Type O only."
+    },
+    {
+      "id": "c",
+      "text": "Types A, B, AB, and O are all possible."
+    },
+    {
+      "id": "d",
+      "text": "Types A and B only."
+    }
+  ],
+  "correctAnswer": "c",
+  "explanation": "Each parent passes either of their two alleles, so the IAi by IBi cross can produce IAIB (AB), IAi (A), IBi (B), and ii (O) with equal probability. A, B, and D each omit some of the four possible combinations. This is why two parents with types A and B can have a child with any blood type.",
+  "difficulty": "unknown",
+  "tags": [
+    "multiple",
+    "alleles",
+    "blood",
+    "type",
+    "outcomes"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-f0963ec18ccf229e",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

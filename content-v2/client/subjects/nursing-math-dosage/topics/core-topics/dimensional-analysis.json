@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:nursing-math-dosage:core-topics:dimensional-analysis",
+  "slug": "dimensional-analysis",
+  "title": "Dimensional Analysis",
+  "subject": {
+    "id": "subject:nursing-math-dosage",
+    "slug": "nursing-math-dosage",
+    "title": "Nursing Math & Dosage Foundations"
+  },
+  "unit": {
+    "id": "unit:nursing-math-dosage:core-topics",
+    "slug": "core-topics",
+    "title": "Core Topics",
+    "order": 1
+  },
+  "order": 5,
+  "status": "final",
+  "sections": {
+    "overview": "",
+    "whyItMatters": "",
+    "learningObjectives": "",
+    "keyTerms": "",
+    "collegeNotes": "",
+    "howItWorks": "",
+    "comparisons": "",
+    "highYield": "",
+    "commonConfusions": "",
+    "memoryAids": "",
+    "eli10": "### Question 1\n\nThink of units like train cars you want to swap. Dimensional analysis lets you hook on 'conversion cars' that carry a unit on top and the same unit on the bottom, so the ones you do not want cancel out, like crossing off matching numbers in a fraction. What is left is exactly the label you were aiming for, so you never lose track of whether you have grams, milligrams, or milliliters.\n\n### Question 2\n\nSaying '1 gram' and '1000 milligrams' is like saying 'four quarters' and 'one dollar' - two ways to name the same money. When you stack them as a fraction, the top and bottom are equal, so the fraction is just 1. And multiplying anything by 1 leaves its value alone, which is why you can safely change the unit label without changing how much you really have.\n\n### Question 3\n\nA measurement is like a nametag with a number and a word: '250' is how many, and 'mg' is what they are - like '3 apples' has the number 3 and the word 'apples.' The word part is the label, and in these problems the labels are exactly what you cross out against each other, so you always keep an eye on them.\n\n### Question 4\n\nImagine a relay race where each runner must hand off the same baton. A unit on the bottom of one fraction has to meet the same unit on the top of another so they can 'trade off' and vanish. If they line up right, the only baton left at the finish line is the unit you actually wanted, which tells you the handoffs all worked.\n\n### Question 5\n\nThese are two different maps to the same treasure. Dimensional analysis keeps writing the unit labels at every step and crosses out the ones that match, so it double-checks itself. Ratio-proportion instead sets up a fairness statement - 'this is to that as this is to that' - and solves the missing piece. Same destination, different route, and one of them keeps its eye on the labels the whole way.\n\n### Question 6\n\nIt is like trying to fit two puzzle pieces together backwards - the little bump and the little notch no longer line up, so they cannot lock. When a conversion factor is flipped, the matching units end up on the same side instead of opposite sides, so nothing cancels and you finish with a weird label like 'milligrams squared.' That strange leftover label is your clue that a piece went in upside down.\n\n### Question 7\n\nEvery trip needs a starting point before you plan the route. The given amount is your 'You Are Here' dot, and each conversion factor is a road that carries you one unit closer to where you want to go. If you never mark the starting dot, the roads have nothing to connect to and you cannot map the path to your answer.\n\n### Question 8\n\nGoing from grams to milligrams is like trading dollars for dimes - you end up with a bigger count because each new unit is smaller. Each gram breaks into 1000 milligrams, so 0.75 of a gram becomes 0.75 times 1000, which is 750. If your answer had come out smaller than 0.75, you would know you multiplied the wrong way.\n\n### Question 9\n\nA kilogram is a heavier chunk than a pound, so it takes fewer of them to describe the same weight - like needing fewer big boxes than small boxes to hold the same toys. Since each kilogram covers 2.2 pounds, you divide 33 by 2.2 and get 15. The answer being smaller than 33 is exactly what you expect when switching to the bigger unit.\n\n### Question 10\n\nThe bottle tells you that 5 mL of liquid carries 250 mg of the substance. You only need 100 mg, which is less than 250, so you must pour less than 5 mL. Working it out, 100 times 5 divided by 250 gives 2 mL. Getting a number smaller than 5 makes sense because you wanted less of the medicine than a full 5 mL scoop holds.\n\n### Question 11\n\nFirst you translate the subject's weight into kilograms, because the recipe is written per kilogram - 44 pounds becomes 20 kilograms. Then the recipe says 5 mg for each kilogram, so you hand out 5 mg twenty times, which is 100 mg. Linking the two steps like train cars, pounds cancel into kilograms and kilograms cancel into milligrams, so only milligrams reach the finish.\n\n### Question 12\n\nThe whole bottle holds 2 grams, which is really 2000 milligrams, spread across 500 mL of liquid. You only want 80 milligrams, a small slice of that 2000, so you should end up with a small slice of the 500 mL too. The math, 80 times 500 divided by 2000, gives 20 mL. The trick is turning grams into milligrams first so both sides speak the same language and the labels can cancel.",
+    "quickReview": "",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "SI Units / Metric System — NIST",
+        "url": "https://www.nist.gov/pml/owm/metric-si/si-units"
+      },
+      {
+        "text": "Prealgebra 2e / Elementary Algebra — OpenStax",
+        "url": "https://openstax.org/subjects/math"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": false,
+    "eli10": true,
+    "highYield": false,
+    "quickReview": false,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 12
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "expansion-question-bank",
+    "sourceFile": "Education/pre-nursing-expansion-question-bank/questions/08-nursing-math-dosage/246-dimensional-analysis.json",
+    "importedWithoutRewriting": true,
+    "teachingNoteAvailable": false
+  },
+  "sourceSnapshotMarkdown": ""
+}

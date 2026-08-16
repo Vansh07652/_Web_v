@@ -1,0 +1,146 @@
+---
+title: "Energy and Heat Balance"
+subject: "Science"
+book: "Anatomy and Physiology 2e"
+chapter: "24: Metabolism and Nutrition"
+topic_number: "6"
+source: "anatomy-and-physiology-2e.md"
+tags:
+  - "energy-and-heat-balance"
+  - "science"
+status: "complete"
+---
+
+# Energy and Heat Balance
+
+> **Book:** [Anatomy and Physiology 2e](../../README.md)  
+> **Chapter:** [Chapter 24: Metabolism and Nutrition](../README.md)  
+> **Topic:** 6  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Your body runs on the chemical energy locked in food, converting it into work, heat, and stored reserves. **Energy balance** is the accounting: energy in (food and drink) versus energy out (heat, work, and waste). **Heat balance** is the related accounting of heat produced by metabolism versus heat lost to the environment — the two connect because almost all extracted food energy eventually becomes heat.
+
+Keeping both accounts near zero is a matter of survival: a sustained energy surplus becomes stored fat, and a core temperature that drifts too far from normal disables the enzymes that run every chemical reaction in the body. This topic covers the energy budget, the factors that set your **basal metabolic rate**, and the thermoregulation system — hypothalamus, shivering, sweating, and the four routes of heat loss — that keeps core temperature near its set point.
+
+## Why This Matters
+
+Energy balance explains weight gain, weight loss, and why "calories in, calories out" is true but incomplete — metabolism varies from person to person. BMI and energy-balance concepts frame the worldwide problems of obesity and malnutrition. Heat balance is daily clinical reality: fever tells you the set point has been raised (often by infection); heat stroke and hypothermia are true emergencies where the set point is intact but the body cannot keep up. Nurses and clinicians assess temperature, shivering, sweating, and skin warmth constantly, and understanding the mechanisms turns "the patient is hot" into a useful clinical thought.
+
+## Core Concepts
+
+### The energy budget: intake and expenditure
+
+Energy enters the body as food. The commonly taught energy densities are **about 4 kilocalories per gram for carbohydrate, 4 for protein, and 9 for fat** (alcohol about 7). A dietary "Calorie" (capital C) is a **kilocalorie** — 1,000 small calories — which is why food-label numbers look so large.
+
+Energy leaves the body through three channels:
+
+- **Basal metabolic rate (BMR)** — energy to keep you alive at rest; in a typical sedentary adult this is the largest share, commonly taught as roughly 60–70% of daily expenditure.
+- **Physical activity** — everything from fidgeting to marathon running; the most variable component, roughly 15–30% of daily expenditure.
+- **Thermic effect of food** — the energy cost of digesting and processing what you eat, commonly cited as about 10% of intake.
+
+### Basal metabolic rate and what changes it
+
+BMR is set by body size and composition (more lean mass means more active tissue), age, sex, and hormonal state. The dominant controller is **thyroid hormone**: thyroxine and triiodothyronine raise BMR, which is why hyperthyroidism causes weight loss and heat intolerance while hypothyroidism does the opposite. BMR also rises with fever, during growth and pregnancy, and falls during fasting.
+
+### Energy balance and body weight
+
+When intake equals expenditure, weight is stable. A surplus — **positive energy balance** — is stored, mostly as fat; a deficit — **negative energy balance** — draws down stores. Small daily surpluses compound: a few extra dozen kilocalories a day becomes a kilogram of fat over months. **Body mass index** (BMI = weight in kg ÷ height in m²) is the standard rough screening tool, with commonly cited categories: underweight below 18.5, normal 18.5–24.9, overweight 25–29.9, obesity 30 and above — a screen, not a diagnosis.
+
+### Core temperature and the set point
+
+The body maintains **core temperature** — the temperature of the deep organs — near a set point of about **37°C (98.6°F)**, with normal daily variation (lowest in early morning, highest in late afternoon). The shell (skin and superficial tissues) is cooler and fluctuates with the environment — why your hands can feel cold while your core is fine. The control center is the **hypothalamus**, particularly the preoptic area, which acts like a thermostat, comparing incoming temperature signals to the set point and triggering heat-adding or heat-shedding responses.
+
+### Heat production and heat loss
+
+The body makes heat as a by-product of metabolism and can deliberately increase production. **Shivering** is the big lever: involuntary muscle contractions can multiply heat production several-fold. **Nonshivering thermogenesis** — burning fat for heat, including brown adipose tissue — matters especially in infants. Hormones (thyroid, epinephrine) raise metabolic heat over longer periods.
+
+Heat leaves through four physical routes:
+
+- **Radiation** — infrared emission to cooler surroundings; the main route at rest indoors.
+- **Conduction/convection** — direct transfer to cooler objects, or moving air/water carrying heat away.
+- **Evaporation** — sweat turning to vapor, pulling heat from the skin; the dominant route during exercise and heat.
+
+To cool down, the hypothalamus signals **vasodilation** (warm blood moves to the skin) and **sweating**; to warm up, **vasoconstriction** (blood retreats from the skin), **shivering**, and behavioral responses like adding clothes.
+
+### Fever, hyperthermia, and hypothermia
+
+**Fever** is a raised set point: **pyrogens** — molecules released during infection and inflammation — tell the hypothalamus to defend a higher temperature. The person first feels cold and shivers while climbing to the new set point, then sweats when it falls back. Fever is a regulated response, usually not itself the danger. **Hyperthermia** is different: the set point is normal, but heat gain exceeds the body's ability to lose heat — classic **heat stroke**, where sweating may fail and core temperature climbs dangerously; a true emergency. **Hypothermia** is a core temperature below roughly 35°C (95°F) (commonly cited reference) from prolonged cold exposure.
+
+## ELI-10: Explain Like I'm 10
+
+Your body is like a phone with a battery: food charges it, and everything you do drains it — even sleeping drains a little. Your brain has a thermostat that wants the inside of your body to stay comfortable, like a house set to 98.6°F. If you get too hot, it turns on the air conditioning (sweating and letting blood cool at your skin); if you get too cold, it turns on the heater (shivering). Fever is like someone turning the house thermostat up — your body works hard to get warmer on purpose.
+
+## High-Yield Points
+
+- **Energy densities (commonly taught):** ~4 kcal/g carbohydrate, ~4 kcal/g protein, ~9 kcal/g fat, ~7 kcal/g alcohol. A dietary Calorie = 1 kilocalorie.
+- **Energy expenditure = BMR (~60–70%) + physical activity (~15–30%) + thermic effect of food (~10%).**
+- **BMR is set mainly by lean body mass** and is strongly raised by **thyroid hormone**; it falls with age, fasting, and hypothyroidism.
+- **Energy balance:** surplus → stored fat; deficit → drawn-down stores. BMI is a screen, not a diagnosis (commonly cited categories: <18.5 underweight, 18.5–24.9 normal, 25–29.9 overweight, ≥30 obesity).
+- **Core temperature set point ≈ 37°C (98.6°F),** controlled by the **hypothalamus (preoptic area)**.
+- **Heat loss routes:** radiation (main at rest), conduction, convection, evaporation (main during exercise).
+- **Cooling responses:** vasodilation + sweating. **Warming responses:** vasoconstriction + shivering (+ behavioral).
+- **Fever = raised set point** (pyrogens). **Hyperthermia/heat stroke = normal set point, heat gain outruns loss** (emergency). **Hypothermia ≈ core <35°C (95°F)**.
+
+## Key Terms
+
+| Term | Plain-Language Definition | Why It Matters |
+|---|---|---|
+| Basal metabolic rate (BMR) | Energy spent at rest to keep vital functions running | The largest component of daily energy expenditure |
+| Thermic effect of food | Energy cost of digesting and processing food | A small but real component of daily expenditure (~10%) |
+| BMI (body mass index) | Weight (kg) ÷ height² (m²) | Rough population screen for weight categories; not a diagnosis |
+| Radiation | Infrared heat emission to cooler surroundings | The main heat-loss route at rest |
+| Evaporation | Sweat converting to vapor, pulling heat from skin | The main cooling route during exercise and heat |
+| Shivering | Involuntary rapid muscle contractions that generate heat | The body's most powerful heat-production lever |
+| Hyperthermia | Core overheating with a normal set point (e.g., heat stroke) | A true emergency distinct from fever |
+
+## Example: The Fever That Isn't a Fever
+
+A nurse admits a runner who collapsed during an afternoon race on a hot day. Her temperature reads 40.5°C (105°F), her skin is hot and dry, and she is confused. The first question: is this fever or hyperthermia? With **fever**, the set point is raised and the person typically feels cold and shivers; with **hyperthermia**, the set point is normal, but racing plus environmental heat overwhelmed the cooling systems — sweating has failed, so the skin is dry, and this is a medical emergency requiring rapid cooling, not antipyretics aimed at a set point that isn't elevated. Contrast a person with pneumonia whose temperature is 38.8°C (102°F) but who is shivering under blankets: that shivering is the body *defending* a raised set point — pyrogens have told the hypothalamus to run hot. Same number on the thermometer, two completely different thermoregulatory stories.
+
+## Common Confusions
+
+| Do Not Confuse | With | Difference |
+|---|---|---|
+| Calorie (small) | Calorie (dietary, kilocalorie) | A dietary Calorie = 1,000 small calories; the label number is kilocalories |
+| Fever | Hyperthermia | Fever = raised set point defended by the body; hyperthermia = normal set point, heat gain exceeds heat loss (heat stroke) |
+| Radiation | Conduction/Convection | Radiation is infrared emission to cooler surroundings; conduction is contact transfer; convection is moving air/fluid carrying heat away |
+| BMR | Total daily expenditure | BMR is the resting component; activity and food processing add on top |
+| "Calories in, calories out" being simple | The full picture | Metabolic rate, hormones, body composition, and activity make expenditure highly variable between people |
+| BMI being a diagnosis | BMI as a screen | BMI ignores muscle vs. fat and fat distribution; it is interpreted with other measures |
+| Feeling cold during fever onset | The fever breaking | Early fever: set point rising → chills/shivering; fever breaking: set point falling → sweating |
+
+## Quick Review
+
+1. How many kilocalories per gram do carbohydrate, protein, and fat supply (commonly taught values)?
+2. List the three components of daily energy expenditure and the approximate share of each in a typical sedentary adult.
+3. Name the major hormonal controller of BMR and state the direction of its effect.
+4. What are the four routes of heat loss, and which dominates during exercise?
+5. Explain the difference between fever and hyperthermia in terms of the set point.
+
+<details>
+<summary>Show answers</summary>
+
+1. ~4 kcal/g carbohydrate, ~4 kcal/g protein, ~9 kcal/g fat (alcohol ~7). A dietary Calorie is a kilocalorie.
+2. Basal metabolic rate (~60–70%), physical activity (~15–30%), and the thermic effect of food (~10%).
+3. Thyroid hormone (thyroxine/T3) raises BMR; high thyroid activity increases metabolic rate, low thyroid activity decreases it.
+4. Radiation, conduction, convection, and evaporation. Evaporation (sweating) dominates during exercise; radiation is the main route at rest.
+5. Fever is a raised set point: pyrogens make the hypothalamus defend a higher temperature, and the body works (shivering, vasoconstriction) to reach it. Hyperthermia keeps a normal set point, but heat gain exceeds heat loss (e.g., heat stroke with failing sweat), so the body overheats despite normal regulation.
+
+</details>
+
+## Related Topics
+
+- Previous: [Metabolic States of the Body](05-metabolic-states-of-the-body.md)
+- Next: [Nutrition and Diet](07-nutrition-and-diet.md)
+- Related: [Overview of Metabolic Reactions](01-overview-of-metabolic-reactions.md)
+- Chapter overview: [Metabolism and Nutrition](../README.md)
+
+## Source Notes
+
+- Book: Anatomy and Physiology 2e
+- Local outline source: `anatomy-and-physiology-2e.md`
+- Official source URL: https://openstax.org/details/books/anatomy-and-physiology-2e/
+- Content type: Original educational study guide based on OpenStax outline structure. Values (energy densities, BMR shares, temperature set point, BMI categories, hypothermia threshold) are commonly taught reference concepts to verify against current texts and institutional references.
+- Last updated: 2026-08-16

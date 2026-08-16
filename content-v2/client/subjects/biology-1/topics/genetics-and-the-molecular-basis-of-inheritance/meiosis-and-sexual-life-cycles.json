@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:biology-1:genetics-and-the-molecular-basis-of-inheritance:meiosis-and-sexual-life-cycles",
+  "slug": "meiosis-and-sexual-life-cycles",
+  "title": "Meiosis and Sexual Life Cycles",
+  "subject": {
+    "id": "subject:biology-1",
+    "slug": "biology-1",
+    "title": "Biology I"
+  },
+  "unit": {
+    "id": "unit:biology-1:genetics-and-the-molecular-basis-of-inheritance",
+    "slug": "genetics-and-the-molecular-basis-of-inheritance",
+    "title": "Genetics And The Molecular Basis Of Inheritance",
+    "order": 6
+  },
+  "order": 1,
+  "status": "final",
+  "sections": {
+    "overview": "**Meiosis** is a special type of cell division that halves the chromosome number, producing **four haploid gametes** (or spores) from one diploid cell. It achieves this with two rounds of division after a single round of DNA replication: **meiosis I separates homologous chromosomes**, and **meiosis II separates sister chromatids**. Because it shuffles and recombines chromosomes, meiosis is the chief source of genetic variation in sexually reproducing organisms.",
+    "whyItMatters": "Meiosis is the machinery behind heredity and evolution. It keeps chromosome number stable across generations and generates the variation that natural selection acts on. Errors in meiosis — **nondisjunction**, when chromosomes fail to separate properly — cause aneuploidies such as **Down syndrome (trisomy 21)**. Meiotic recombination is also why siblings (except identical twins) are genetically distinct.",
+    "learningObjectives": "- Distinguish haploid (n) and diploid (2n) cells and define homologous chromosomes.\n- Outline the two divisions of meiosis and state what separates in each (homologs in meiosis I, sister chromatids in meiosis II).\n- Explain crossing over and independent assortment and how they generate genetic variation.\n- Contrast meiosis with mitosis in both process and outcome.",
+    "keyTerms": "",
+    "collegeNotes": "### Core Concept\n\n**Meiosis** is a special type of cell division that halves the chromosome number, producing **four haploid gametes** (or spores) from one diploid cell. It achieves this with two rounds of division after a single round of DNA replication: **meiosis I separates homologous chromosomes**, and **meiosis II separates sister chromatids**. Because it shuffles and recombines chromosomes, meiosis is the chief source of genetic variation in sexually reproducing organisms.\n\n### Key Concepts\n\n### Haploid vs. diploid; homologous chromosomes\n\nA **diploid (2n)** cell has two complete sets of chromosomes — one inherited from each parent. A **haploid (n)** cell has one set. In a diploid cell, the two chromosomes of a pair are **homologous chromosomes** (homologs): same length, same centromere position, same genes in the same order, but possibly different alleles — one from each parent. Humans are 2n = 46 (23 pairs); gametes are n = 23.\n\n### The sexual life cycle\n\nIn a sexual life cycle, meiosis reduces 2n → n (making gametes), and **fertilization** restores n + n → 2n (making a zygote). The alternation of meiosis and fertilization keeps the chromosome number constant across generations. (Some organisms, like fungi, have other variations, but the core logic is the same.)\n\n### Meiosis I (reductional division)\n\nAfter S phase duplicates the DNA, **meiosis I** separates **homologous chromosomes**. **Prophase I** is long and includes **synapsis** — homologous chromosomes pair tightly into a **tetrad** (four chromatids) — and **crossing over**, in which non-sister chromatids exchange corresponding DNA segments, producing **recombinant chromosomes**. In **metaphase I**, tetrads line up at the plate with homologs oriented randomly (the physical basis of **independent assortment**). In **anaphase I**, homologs are pulled to opposite poles (sister chromatids remain attached). **Telophase I** and cytokinesis yield two haploid cells, each with duplicated chromosomes (two chromatids each).\n\n### Meiosis II (equational division)\n\n**Meiosis II** resembles mitosis but without a preceding S phase. In **anaphase II**, the **sister chromatids separate** and move to opposite poles. The result is **four haploid cells**, each with one copy of each chromosome.\n\n### Sources of variation\n\nThree mechanisms make offspring genetically unique: (1) **crossing over** in prophase I creates new combinations of alleles on a chromosome; (2) **independent assortment** of homologous pairs in metaphase I produces 2ⁿ possible chromosome combinations (for humans, 2²³ ≈ 8.4 million from assortment alone); and (3) **random fertilization** — any sperm can fuse with any egg. No two gametes (and almost no two siblings) are alike.\n\n### How It Works\n\nDNA replicates once (S phase), so each chromosome is a pair of sister chromatids. In meiosis I, homologs find each other and swap segments (crossing over), then the spindle pulls whole homologs apart, halving the chromosome number. In meiosis II, the sister chromatids separate, so each of the four products gets exactly one chromatid-derived chromosome per homolog. The key contrast with mitosis: mitosis does one division and yields two identical diploid cells; meiosis does two divisions and yields four genetically distinct haploid cells.",
+    "howItWorks": "DNA replicates once (S phase), so each chromosome is a pair of sister chromatids. In meiosis I, homologs find each other and swap segments (crossing over), then the spindle pulls whole homologs apart, halving the chromosome number. In meiosis II, the sister chromatids separate, so each of the four products gets exactly one chromatid-derived chromosome per homolog. The key contrast with mitosis: mitosis does one division and yields two identical diploid cells; meiosis does two divisions and yields four genetically distinct haploid cells.",
+    "comparisons": "",
+    "highYield": "### High-Yield Facts\n\n- Meiosis: one DNA replication, two divisions → four haploid cells.\n- Meiosis I separates **homologous chromosomes**; meiosis II separates **sister chromatids**.\n- Crossing over occurs in **prophase I** between non-sister chromatids of homologs.\n- Synapsis forms a **tetrad** (four chromatids) in prophase I.\n- Independent assortment in metaphase I gives 2ⁿ gamete combinations (n = haploid number).\n- Mitosis → 2 identical diploid cells; meiosis → 4 genetically distinct haploid cells.\n- Fertilization restores the diploid number (n + n = 2n).\n- Nondisjunction in meiosis causes aneuploidy (e.g., trisomy 21).",
+    "commonConfusions": "- **\"Meiosis II separates homologous chromosomes.\"** Wrong — meiosis II separates **sister chromatids**; it is meiosis I that separates homologs.\n- **\"Meiosis produces two diploid cells.\"** Wrong — it produces four **haploid** cells.\n- **\"DNA replicates between meiosis I and meiosis II.\"** Wrong — replication happens only once, before meiosis I; there is no S phase before meiosis II.\n- **\"Crossing over happens in mitosis too.\"** Wrong — crossing over between homologs is a meiosis I (prophase I) event; sister chromatid exchange in mitosis is a rare, different phenomenon.\n- **\"Homologous chromosomes are identical copies.\"** Wrong — homologs carry the same genes but may carry different alleles; sister chromatids are the identical copies.",
+    "memoryAids": "",
+    "eli10": "### Eli Explains\n\nImagine a deck of 46 cards: 23 came from your mom and 23 matching \"partners\" from your dad. To make an egg or sperm, the cell shuffles the deck and deals out just 23 cards — one from each pair — so the baby gets a fresh mix. Meiosis is that shuffling, and it happens in two deals. First deal (meiosis I): the mom-card and dad-card of each pair are split into two piles. Second deal (meiosis II): the copy of each card is pulled apart so each pile has a clean single card. Because the shuffle is random and some cards swap pieces mid-shuffle, every hand is different. The analogy's limit: cards don't carry instructions, and the \"dealing\" is done by a real microscopic spindle that can also make mistakes.",
+    "quickReview": "- Meiosis halves chromosome number: 2n → n.\n- Two divisions: meiosis I (homologs apart) and meiosis II (sister chromatids apart).\n- Prophase I: synapsis (tetrads) and crossing over (recombination).\n- Metaphase I: independent assortment of homolog pairs.\n- Result: four genetically unique haploid gametes.\n- Variation sources: crossing over, independent assortment, random fertilization.\n- Nondisjunction → aneuploidy (trisomy 21 = Down syndrome).",
+    "workedExamples": "",
+    "references": [
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 11.1, \"The Process of Meiosis.\" https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+        "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis"
+      },
+      {
+        "text": "OpenStax, *Biology 2e*, Ch. 11.2, \"Sexual Reproduction.\" https://openstax.org/books/biology-2e/pages/11-2-sexual-reproduction",
+        "url": "https://openstax.org/books/biology-2e/pages/11-2-sexual-reproduction"
+      },
+      {
+        "text": "NCBI Bookshelf, *Molecular Biology of the Cell*, 4th ed. (Alberts et al.). https://www.ncbi.nlm.nih.gov/books/NBK21054/",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK21054/"
+      }
+    ]
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": false,
+    "references": true,
+    "exactQuestions": 0
+  },
+  "aliases": [],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "biology_notes",
+    "sourceFile": "Education/biology-1-2-study-notes/notes/biology-1/06-genetics-and-the-molecular-basis-of-inheritance/01-meiosis-and-sexual-life-cycles.md",
+    "importedWithoutRewriting": true
+  },
+  "sourceSnapshotMarkdown": ""
+}

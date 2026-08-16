@@ -1,0 +1,165 @@
+---
+title: "Patient Admission"
+subject: "Nursing"
+book: "Fundamentals of Nursing"
+chapter: "8: Admission, Transfer, and Discharge"
+topic_number: "1"
+source: "fundamentals-nursing.md"
+tags:
+  - "patient-admission"
+  - "nursing"
+status: "complete"
+---
+
+# Patient Admission
+
+> **Book:** [Fundamentals of Nursing](../../README.md)  
+> **Chapter:** [Chapter 8: Admission, Transfer, and Discharge](../README.md)  
+> **Topic:** 1  
+> **Source structure:** OpenStax public textbook outline
+
+## Overview
+
+Admission is the formal process by which a person enters a healthcare facility to receive care — far more than "getting a bed." It is when the care team first meets the patient as a person, collects the baseline information every later decision is compared against, and begins the plan of care. Admissions are described two ways. By timing, they are **planned** (elective, scheduled ahead, such as a joint replacement with a preadmission workup) or **unplanned** (urgent or emergent, such as through the emergency department). By status, the patient is an **inpatient** (expected to need at least an overnight stay) or in **observation** (short-term monitoring to decide whether admission is needed) — a distinction that affects insurance, care planning, and documentation, and is determined by the provider under institutional policy, not by the nurse.
+
+Whatever the path in, admission follows the same spine: verify who the patient is, gather a complete history and physical baseline, screen for risks (allergies, falls, skin, nutrition, function), orient the patient and family to the environment, complete required legal and privacy documents, and record everything so the next shift starts from a complete picture.
+
+## Why This Matters
+
+- **Baseline data drives everything.** Vital signs, pain, weight, function, and cognition measured at admission become the reference points for detecting change — without them, deterioration is easily missed.
+- **Safety begins at the door.** Correct identification, allergy documentation, medication reconciliation, and falls-risk screening at admission prevent errors that are far harder to fix later.
+- **Legal and ethical obligations start here:** consent for treatment, advance directive discussion, privacy (HIPAA) notice, patient rights — and, for some patients, the nurse's role as a mandated reporter.
+- **First impressions shape the stay.** A calm, respectful, well-explained admission reduces anxiety and builds the trust every later conversation depends on.
+- **Discharge planning starts at admission** — the home situation and learning needs gathered now are the raw material for a safe discharge days later.
+
+## Core Concepts
+
+### Planned versus unplanned admission
+
+Planned admissions usually begin before arrival: the provider writes the admission order, preadmission data (history, medications, allergies, insurance) may be collected, and preadmission testing may be done. Unplanned admissions arrive with less preparation, so the admission assessment may be woven into urgent care. The nursing process is the same; the pacing differs. Patients in **observation** status receive time-limited monitoring to decide whether full admission is needed — the nurse should understand the assigned status because it shapes the care plan and what the patient is told to expect.
+
+### The admission pathway
+
+A typical admission flows through distinct steps (exact order varies by facility):
+
+1. **Admitting order and bed assignment** — placement considers diagnosis, isolation needs, mobility, and unit acuity.
+2. **Reception and identification** — the patient is identified with **two identifiers** (e.g., name and date of birth) and receives an identification band that must match before any medication, procedure, or transfer.
+3. **Valuables and belongings** — inventoried, labeled, and secured per facility policy.
+4. **Admission assessment** — nursing history and physical examination.
+5. **Orientation to the unit** — call light, bed controls, bathroom, visiting hours, and safety expectations (call for help before getting up).
+6. **Documentation and care plan initiation** — findings and screening results documented; initial plan and nursing diagnoses established.
+7. **Interdisciplinary notification** — provider, dietary, pharmacy (medication reconciliation), and case management as needed.
+
+### The admission assessment
+
+The admission assessment is the most complete data collection of the hospitalization: a **nursing history** (chief concern; past medical and surgical history; current medications including over-the-counter and herbal products; allergies and the reaction experienced; function, nutrition, sleep, elimination; psychosocial, cultural, and spiritual context; advance directive status) plus a **head-to-toe physical** including baseline vital signs, pain screening, height and weight, skin, and cognitive status. Risk screenings (falls, pressure injury, nutrition, function) are typically completed at the same time. Allergies are recorded in the patient's own words with both the allergen **and the reaction** (a rash versus trouble breathing change how the team weighs the risk). This is the nurse's independent, holistic picture — not a duplicate of, or substitute for, the provider's history and physical.
+
+### Legal documents at admission
+
+Each admission document has a distinct meaning. **Consent for treatment** (general admission consent) authorizes routine hospital care; the nurse witnesses the signature. It is **not** informed consent for a procedure, which is obtained by the provider who will perform it, after discussing risks, benefits, and alternatives. **Advance directives** (living will, health care power of attorney) are offered and discussed, and the patient's wishes documented. The patient receives a **Notice of Privacy Practices** (HIPAA) and patient rights information. If the patient cannot make decisions, a legally authorized representative acts for them — nurses should know the facility's policy and the law in their jurisdiction, including which documents a nurse may witness.
+
+### Orientation and teaching
+
+Admission teaching is safety teaching: how to use the call light, when to ask for help, how to prevent falls, what to do if something changes, and who to ask. It is done in plain language, at the patient's pace, with family or caregivers included when the patient wishes, and confirmed with **teach-back** — asking the patient to explain in their own words — rather than assuming a nod means understanding. Orientation also includes psychosocial support: hospitalization is stressful, and a brief, kind explanation of "what happens next" builds trust.
+
+## ELI-10: Explain Like I'm 10
+
+When you check into a hotel, the clerk confirms who you are, gives you a room key, and tells you where things are. Hospital admission is like check-in — but instead of just a room, the nurses write down everything about your health so every doctor and nurse who cares for you knows your story from the start and can keep you safe.
+
+## High-Yield Points
+
+- **Two identifiers** (e.g., name and date of birth) are verified before any care activity.
+- **Medication reconciliation** at admission compares home medications (including over-the-counter and herbal) with orders.
+- **Allergies are recorded with the allergen and the reaction**; "no known allergies" is written only after asking.
+- The **admission assessment is the baseline** for detecting change throughout the stay.
+- **Discharge planning begins at admission.**
+- **Consent for treatment is not informed consent for a procedure** — the provider obtains the latter.
+- **Advance directives are discussed and documented at admission.**
+- Orientation (call light, bed controls, safety expectations) is a safety intervention, not hospitality.
+
+## Key Terms
+
+| Term | Plain-language definition | Why it matters |
+|---|---|---|
+| Admission | The formal process of entering a facility for care, from order and assessment through orientation and documentation | Creates the baseline data and legal framework for the whole stay |
+| Two identifiers | Two pieces of information (such as name and date of birth) used together to confirm identity | Prevents wrong-patient errors in medication, procedures, and testing |
+| Admission assessment | The nurse's initial health history and physical examination | The reference point for detecting all later changes |
+| Medication reconciliation | Comparing home medications with current orders and resolving differences | Catches omissions, duplications, and interactions before harm |
+| Advance directive | A document stating treatment wishes (living will, health care power of attorney) | Ensures the patient's wishes guide care if they cannot speak |
+| Consent for treatment | General authorization for routine hospital care | Not the same as informed consent for specific procedures |
+| Observation status | Short-term monitoring to decide whether inpatient admission is needed | Affects the care plan, expectations, and insurance coverage |
+| Teach-back | Asking the patient to restate information in their own words | Verifies understanding instead of assuming it |
+
+## How It Works / Step-by-Step Process
+
+1. Provider writes the admission order; bed control assigns an appropriate unit and room.
+2. The patient arrives and is identified with two identifiers; the identification band is applied and verified.
+3. Belongings and valuables are inventoried and secured per facility policy.
+4. The nurse completes the admission assessment: history, allergies, medication reconciliation, baseline vital signs and pain screening, head-to-toe physical, and risk screenings.
+5. Legal documents are reviewed and signed (consent for treatment, advance directive discussion, privacy notice).
+6. The patient and family are oriented to the room and unit; safety teaching is done with teach-back.
+7. Findings and teaching are documented; the initial plan of care is established; team members are notified.
+
+*Scope note:* which steps are performed by the registered nurse versus licensed practical/vocational nurses or assistive personnel, and which documents a nurse may witness, vary by state law and facility policy.
+
+## Example: An Unplanned Admission
+
+*Educational illustration — forms, screenings, and workflows vary by institution and scope of practice.*
+
+Mr. Ruiz, age 78, arrives by ambulance after a fall at home and is admitted from the emergency department for observation. The admitting nurse greets him by name, verifies his date of birth against his identification band, and begins the admission assessment — the unit needs its own baseline even though the ED collected some data.
+
+The history reveals Mr. Ruiz lives alone, takes several heart and blood pressure medications, and fell once three months ago. The nurse documents the fall history, completes the falls risk screening, and notes he cannot find his glasses after the fall. She reconciles his home medication list with the orders, flags that one blood pressure medication is not yet ordered, places the call light within reach, and explains he should call for help before getting up — confirming with teach-back that he knows where the call light is and why to use it. She asks about advance directives, then documents and flags the fall risk and medication discrepancy for the provider.
+
+The admission did its real work: a baseline was established, a missing medication was caught, a modifiable fall risk (missing glasses, unfamiliar room) was identified, and discharge planning began — Mr. Ruiz lives alone and will need home support — all within the first hour.
+
+## Common Confusions
+
+| Do not confuse | With | Difference |
+|---|---|---|
+| Admission assessment | The provider's history and physical | The nurse's assessment is holistic and independent; neither replaces the other |
+| Consent for treatment | Informed consent for a procedure | General consent covers routine care; the provider obtains informed consent for the specific procedure |
+| Observation status | Inpatient admission | Observation is time-limited monitoring to decide on admission |
+| "No known allergies" | "Not asked" | Never record NKA without asking; a missing allergy history is an error, not a fact |
+| Admitting diagnosis | Nursing diagnosis | The admitting diagnosis is the provider's reason for hospitalization; nursing diagnoses describe the patient's responses nursing can address |
+| Being admitted | Being "settled in" | Admission is complete only when assessment, documentation, and safety teaching are done |
+
+## Quick Review
+
+1. What two identifiers are used to confirm a patient's identity, and why are two required?
+2. Why is medication reconciliation performed at admission, and what must the nurse include beyond prescribed medications?
+3. How does consent for treatment differ from informed consent for a procedure?
+4. Why is the admission assessment called the baseline?
+5. Why does discharge planning begin at admission?
+6. What is teach-back, and why is it used during admission orientation?
+
+<details>
+<summary>Show answers</summary>
+
+1. Typically name and date of birth (facility policy defines acceptable pairs). Two are required because any single piece of information can be wrong or duplicated; matching two independent identifiers dramatically reduces wrong-patient errors.
+
+2. Reconciliation compares home medications with current orders to catch omissions, duplications, and interactions. It must include over-the-counter, herbal, and supplement products, because patients often do not consider these "medications."
+
+3. Consent for treatment is a general authorization for routine hospital care, witnessed at admission. Informed consent for a procedure is specific authorization obtained by the provider performing it, after discussing risks, benefits, and alternatives.
+
+4. Because all later findings are compared against it: vital signs, pain, function, and cognition measured at admission are the reference points that make later changes detectable.
+
+5. Because the discharge plan depends on information gathered at admission — home environment, support, functional ability, learning needs — and arranging services, teaching, and follow-up takes time. Waiting until discharge is ordered leaves no time to prepare.
+
+6. Teach-back is asking the patient to restate information in their own words. It verifies real understanding of safety instructions (call light use, when to ask for help) instead of assuming a nod or "yes" means the patient understood.
+
+</details>
+
+## Related Topics
+
+- Previous: Start of chapter
+- Next: [Patient Transfer](02-patient-transfer.md)
+- Related: [Patient Discharge](03-patient-discharge.md)
+- Related: [Admission, Transfer, and Discharge chapter overview](../README.md)
+
+## Source Notes
+
+- Book: Fundamentals of Nursing
+- Local outline source: `fundamentals-nursing.md`
+- Official source URL: https://openstax.org/details/books/fundamentals-nursing/
+- Content type: Original educational study guide based on OpenStax outline structure.
+- Last updated: 2026-08-15

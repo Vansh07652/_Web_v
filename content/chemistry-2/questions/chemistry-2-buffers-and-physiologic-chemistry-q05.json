@@ -1,0 +1,39 @@
+{
+  "id": "chemistry-2-buffers-and-physiologic-chemistry-q05",
+  "subject": "chemistry-2",
+  "lesson": "buffers-and-physiologic-chemistry",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "Which comparison of respiratory and renal regulation of acid-base balance is accurate?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The respiratory system adjusts bicarbonate while the kidneys adjust carbon dioxide"
+    },
+    {
+      "id": "b",
+      "text": "The respiratory response begins within minutes, while full renal compensation takes days"
+    },
+    {
+      "id": "c",
+      "text": "Both systems reach their maximal effect at about the same rate after an acid load"
+    },
+    {
+      "id": "d",
+      "text": "The kidneys respond first because they filter the entire plasma volume many times daily"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "Chemoreceptor-driven changes in ventilation alter PaCO2 within minutes, making the lungs the rapid responder, whereas the kidneys adjust bicarbonate reabsorption and net acid excretion over roughly one to three days. The division of labor also runs the opposite way from option A: the lungs control the volatile acid component (CO2) and the kidneys control the metabolic component (HCO3-). Comparing about 15 minutes (0.25 hour) with about 72 hours shows the renal route is roughly 288 times slower, so the two systems cannot peak together.\n\nELI-10: Your lungs are the emergency brake and your kidneys are the repair crew. Within a minute or two of an acid load you can breathe faster and blow off carbon dioxide, which is fast but limited. The kidneys fix the problem more completely by excreting acid and generating new bicarbonate, but they need days to do it. Put the two on the same clock: 72 hours against a quarter of an hour is about 288 times longer.",
+  "difficulty": "medium",
+  "tags": [
+    "respiratory compensation",
+    "renal compensation",
+    "response time"
+  ],
+  "source": "OpenStax — Chemistry 2e (https://openstax.org/details/books/chemistry-2e); NIST — Reference Data / Constants (https://www.nist.gov/pml)",
+  "originalFile": "data/restored-content-sources.json#chemistry-topic-280",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}

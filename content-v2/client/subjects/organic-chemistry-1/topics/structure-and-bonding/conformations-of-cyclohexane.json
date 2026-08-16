@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "topic:organic-chemistry-1:structure-and-bonding:conformations-of-cyclohexane",
+  "slug": "conformations-of-cyclohexane",
+  "title": "Conformations of Cyclohexane",
+  "subject": {
+    "id": "subject:organic-chemistry-1",
+    "slug": "organic-chemistry-1",
+    "title": "Organic Chemistry I"
+  },
+  "unit": {
+    "id": "unit:organic-chemistry-1:structure-and-bonding",
+    "slug": "structure-and-bonding",
+    "title": "Structure and Bonding",
+    "order": 1
+  },
+  "order": 11,
+  "status": "final",
+  "sections": {
+    "overview": "Cyclohexane adopts a puckered chair conformation — its most stable shape — in which six C–H bonds point straight up or down (axial) and six point outward around the ring (equatorial). The chair interconverts with its mirror-image chair by ring flipping, passing through higher-energy boat and twist-boat forms; during the flip every axial position becomes equatorial and every equatorial becomes axial. Substituents prefer the equatorial position because an axial substituent suffers 1,3-diaxial steric interactions with axial hydrogens two carbons away. In disubstituted cyclohexanes, cis/trans relationships are fixed by which face each substituent occupies, independent of the axial/equatorial label that changes on flipping.",
+    "whyItMatters": "The chair/equatorial preference is central to understanding carbohydrates and steroids. Glucose and other sugars are six-membered rings whose hydroxyl groups occupy axial or equatorial positions, and this directly affects their reactivity and how enzymes recognize them. Steroid ring systems are largely fused cyclohexane chairs, so their overall shape — and thus hormone and drug binding — follows the same axial/equatorial logic taught here. This conformational reasoning is foundational for biochemistry and medicinal chemistry.",
+    "learningObjectives": "1. Draw the chair conformation of cyclohexane and label its axial and equatorial positions.\n2. Describe ring flipping and how it interconverts the chair, boat, and twist-boat conformations.\n3. Explain why substituents prefer the equatorial position using 1,3-diaxial interactions.\n4. Analyze monosubstituted and disubstituted cyclohexanes, including cis/trans relationships and positions after a ring flip.",
+    "keyTerms": "| Term | Plain-language definition | Why it matters |\n| --- | --- | --- |\n| Chair conformation | Puckered, strain-free cyclohexane shape | The most stable cyclohexane conformer |\n| Boat conformation | Higher-energy conformer with flagpole interactions | An unstable intermediate shape during flipping |\n| Twist-boat | Slightly puckered boat that relieves flagpole strain | Lower energy than the boat, still above the chair |\n| Axial | Bonds pointing straight up/down from the ring | Substituents here suffer 1,3-diaxial crowding |\n| Equatorial | Bonds radiating outward around the ring | The preferred position for substituents |\n| Ring flipping | Interconversion of the two chairs | Swaps every axial and equatorial position |\n| 1,3-Diaxial interaction | Steric clash between an axial group and axial H on C3/C5 | The reason equatorial is favored |\n| A-value | Energy preference for equatorial over axial | Quantifies substituent bulk |\n| Cis/trans | Whether substituents share the same face | Fixed by geometry, unaffected by flipping |",
+    "collegeNotes": "### 1. The Chair Conformation and How to Draw It\n\nThe chair is cyclohexane's lowest-energy conformation because every C–C–C bond angle is about 109.5° (no angle strain) and every C–H bond is staggered (no torsional strain). To draw it: sketch two parallel lines slanted one way for the \"seat,\" connect them with a second pair of slanted lines the opposite way, and add the six axial bonds alternating up and down, plus the six equatorial bonds roughly parallel to the ring sides. Alternate up/down as you move around the ring: axial up, down, up, down, up, down; equatorial alternates in the opposite sense.\n\n### 2. Axial vs Equatorial and Ring Flipping\n\nAxial bonds point perpendicular to the average plane of the ring (three up, three down). Equatorial bonds radiate outward, roughly in the ring's plane. Ring flipping is a conformational change that converts one chair into its mirror image through the boat and twist-boat forms. The twist-boat is lower in energy than the boat because it relieves the flagpole interactions and eclipsing of the boat; both are higher in energy than the chair, so the molecule spends almost all its time in the two chairs. After a ring flip, every axial position has become equatorial and every equatorial position has become axial.\n\n### 3. Substituted Cyclohexanes\n\nA monosubstituted cyclohexane has two chair conformers: one with the substituent axial and one with it equatorial. The equatorial conformer is favored because an axial substituent clashes with the axial hydrogens on C3 and C5 — the 1,3-diaxial interactions. The energy preference for equatorial over axial is called the A-value (about 1.7 kcal/mol for a methyl group, larger for bulkier groups). In disubstituted cyclohexanes, the more stable conformer puts the larger group equatorial. Cis/trans is a constitutional-relationship label: two substituents are cis if they point to the same face (both up or both down) and trans if they point to opposite faces. A ring flip changes axial ↔ equatorial but never changes cis ↔ trans, because both substituents flip faces together.",
+    "howItWorks": "1. Draw a chair and alternate axial bonds up/down around the ring.\n2. Draw equatorial bonds roughly parallel to the ring sides.\n3. Place substituents and record axial/equatorial and up/down face for each.\n4. Determine cis/trans from the faces.\n5. For each chair, tally 1,3-diaxial interactions for any axial substituent.\n6. Select the lower-energy chair; confirm that a ring flip swaps axial ↔ equatorial but preserves cis/trans.",
+    "comparisons": "",
+    "highYield": "- **High yield:** The chair is the most stable cyclohexane conformation (109.5° angles, staggered bonds).\n- **High yield:** A ring flip converts axial to equatorial and vice versa, and changes one chair into its mirror image.\n- **High yield:** Substituents prefer equatorial to avoid 1,3-diaxial interactions with axial hydrogens.\n- **High yield:** cis/trans is determined by up/down faces and never changes during a ring flip.\n- The boat is higher in energy than the twist-boat, which is higher than the chair.\n- Larger substituents have larger A-values and a stronger equatorial preference.\n- In disubstituted rings, the most stable chair puts the bigger group equatorial.",
+    "commonConfusions": "| Do not confuse | With | Difference |\n| --- | --- | --- |\n| Axial | Equatorial | Axial points up/down; equatorial points outward |\n| Chair | Boat/twist-boat | Chair is strain-free and most stable; boat is a high-energy intermediate |\n| cis/trans | Axial/equatorial | cis/trans is a fixed face relationship; axial/equatorial swaps on flipping |\n| Ring flip | Rotation about a bond | Flipping converts one chair to the other; it is not the same as free rotation |",
+    "memoryAids": "\"**E**quatorial is **E**asy (the stable choice); **A**xial is **A**wkward (1,3-diaxial clashes).\" For flipping: \"**F**lipping **F**lips **A**xial to **E**quatorial — but **c**is stays **c**is and **t**rans stays **t**rans.\"",
+    "eli10": "Picture a lounge chair or a recliner: the seat is the flat part and the footrest and headrest tilt up and down. A cyclohexane chair looks just like that — four carbons roughly in a plane and two carbons tipped up and down on opposite ends. From each carbon, one bond points straight up or straight down (like a flagpole — the axial bonds), and one bond points out to the side (like spokes around a wheel — the equatorial bonds).\n\nThe comparison: ring flipping is like turning a beach chair inside out, or popping a flexible umbrella from one cupped shape into its mirror image. Where it stops being exact: unlike a rigid beach chair, the atoms do not stop halfway comfortably — the boat shape in between is high-energy and wobbly, and real molecules vibrate through these shapes rather than pausing in them. Also, \"axial\" and \"equatorial\" are not fixed labels on a chair; they swap every time the ring flips.\n\n### Simple Example\n\nIn methylcyclohexane, a methyl group can sit axial (straight up/down) or equatorial (out to the side). The equatorial methyl is about 1.7 kcal/mol more stable because, when axial, it crowds the two axial hydrogens on carbons 3 and 5 (the 1,3-diaxial interactions).",
+    "quickReview": "### Topic Recap\n\nCyclohexane's chair is its strain-free, most stable conformation, with six axial and six equatorial positions. Ring flipping interconverts the two chairs through the boat and twist-boat, swapping axial and equatorial labels. Substituents prefer equatorial to avoid 1,3-diaxial interactions, and cis/trans relationships are fixed by the up/down faces and are unaffected by flipping.\n\n### Knowledge Check\n\n1. Why is the chair conformation of cyclohexane essentially strain-free?\n2. What happens to an axial substituent after a ring flip?\n3. Why does a methyl group prefer the equatorial position in methylcyclohexane?\n4. In a disubstituted cyclohexane, can a ring flip change a cis relationship into trans?\n5. Rank the chair, boat, and twist-boat conformations by increasing energy.\n\n### Answers and Rationales\n\n1. Every bond angle is about 109.5° and every bond is staggered, so angle and torsional strain are both essentially zero.\n2. It becomes equatorial — ring flipping swaps every axial and equatorial position.\n3. Equatorial methyl avoids the two 1,3-diaxial interactions with axial hydrogens, saving about 1.7 kcal/mol.\n4. No — both substituents flip faces together, so cis remains cis and trans remains trans.\n5. Chair (lowest) < twist-boat < boat (highest of the three).",
+    "workedExamples": "Analyzing a disubstituted cyclohexane, for example 1,3-dimethylcyclohexane:\n\n1. Draw the chair and assign axial/equatorial to the two substituted carbons, alternating up/down around the ring.\n2. Mark which face (up or down) each substituent occupies to determine cis/trans. If both point up (or both down), they are cis; opposite faces means trans.\n3. Build the energy budget for each chair. For an axial methyl, count its two 1,3-diaxial interactions with the axial hydrogens on the same face (each worth roughly 0.9 kcal/mol).\n4. Compare the two chair conformers and identify the lower-energy one — usually the chair that places the larger substituent equatorial.\n5. Note that flipping the ring converts the first chair into the second, swapping every axial and equatorial position.\n6. Conclude: the molecule spends most of its time in the more stable chair, but cis/trans is unaffected by the flip.",
+    "references": []
+  },
+  "availability": {
+    "collegeNotes": true,
+    "eli10": true,
+    "highYield": true,
+    "quickReview": true,
+    "workedExamples": true,
+    "references": false,
+    "exactQuestions": 0
+  },
+  "aliases": [
+    {
+      "value": "conformations-of-cyclohexane",
+      "kind": "canonical_slug"
+    },
+    {
+      "value": "11-conformations-of-cyclohexane",
+      "kind": "source_file_stem",
+      "source_id": "need-review-organic-chemistry-i"
+    }
+  ],
+  "authority": {},
+  "provenance": {
+    "sourceCollection": "need-review-organic-chemistry-i",
+    "sourceFile": "organic-chemistry-i-study-notes/docs/organic-chemistry-i/11-conformations-of-cyclohexane.md",
+    "importedWithoutRewriting": true,
+    "importBatch": "2026-08-15-need-review-notes"
+  },
+  "sourceSnapshotMarkdown": ""
+}

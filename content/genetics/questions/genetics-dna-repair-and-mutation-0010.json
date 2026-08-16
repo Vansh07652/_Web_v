@@ -1,0 +1,40 @@
+{
+  "id": "genetics-dna-repair-and-mutation-0010",
+  "subject": "genetics",
+  "lesson": "dna-repair-and-mutation",
+  "contentType": "question",
+  "questionType": "multiple-choice",
+  "question": "**Type:** concept In an Ames test, a Salmonella strain that requires histidine is exposed to a chemical, and the number of histidine independent revertant colonies is counted. An increased number of revertant colonies indicates what about the chemical?",
+  "options": [
+    {
+      "id": "a",
+      "text": "The chemical is a carcinogen in humans, because mutagens are always carcinogens in humans"
+    },
+    {
+      "id": "b",
+      "text": "The chemical is mutagenic, because reversion of the his mutation requires a new mutation that restores function"
+    },
+    {
+      "id": "c",
+      "text": "The chemical repairs the defective his gene by nucleotide excision repair"
+    },
+    {
+      "id": "d",
+      "text": "The chemical supplies histidine to the bacteria, so they grow without any mutation"
+    }
+  ],
+  "correctAnswer": "b",
+  "explanation": "The his auxotroph cannot synthesize histidine, so colonies on histidine free medium arise only when a new mutation reverts the his defect, making the number of revertant colonies a direct measure of how mutagenic the chemical is. A overstates the finding because a positive result shows mutagenicity in bacteria, not carcinogenicity in humans, C misassigns the mechanism because reversion is a new mutation rather than DNA repair, and D confuses a genetic requirement with a nutritional one.",
+  "difficulty": "unknown",
+  "tags": [
+    "ames",
+    "test",
+    "reversion",
+    "meaning"
+  ],
+  "source": "Original local study collection",
+  "originalFile": "data/source-provenance.json#source-ca8f349f5901cf65",
+  "status": "approved",
+  "reviewStatus": "audited",
+  "humanVerificationRequired": false
+}
