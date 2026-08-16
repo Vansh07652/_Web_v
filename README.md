@@ -83,6 +83,8 @@ Beyond the subject library and the `/learn` curriculum, the site serves:
 - `/resources` — optional NLM terminology/ICD-10-CM lookup and user-initiated Open Library book discovery
 - `/terms`, `/privacy`, `/licensing`, `/accessibility` — the policy pages, linked from every footer
 
+On a curriculum topic with mapped questions, **Practice a random question** opens a topic-only round. The browser shuffles the eligible question IDs once, stores only that non-sensitive round state in `sessionStorage`, and does not repeat a question until the round is complete. Topics without usable mapped questions show an honest “coming soon” state instead of a practice control.
+
 `src/data/routes.json` holds the route patterns. Adding a top-level route means editing that file, `src/App.tsx` and `scripts/site-routes.mjs` together, or the route will have no static entry point and no sitemap line.
 
 ## Free Learning Data Integrations

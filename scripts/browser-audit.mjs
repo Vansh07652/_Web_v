@@ -221,18 +221,33 @@ try {
   assert(await page.getByRole("button", { name: "Next question" }).isVisible(), "Quiz: Previous did not restore submitted feedback/navigation");
 
   const pilotTopicRoute = "/learn/anatomy-physiology-1/introduction-to-the-human-body/homeostasis";
+  const pilotTopicId = "topic:anatomy-physiology-1:introduction-to-the-human-body:homeostasis";
+  const pilotQuestionBank = JSON.parse(fs.readFileSync(path.join(root, "content-v2/subjects/anatomy-physiology-1/questions.json"), "utf8"));
+  const pilotTopicQuestions = pilotQuestionBank.questions.filter((question) => question.mappedCanonicalTopicIds.includes(pilotTopicId));
   await page.goto(`${baseUrl}${pilotTopicRoute}`, { waitUntil: "networkidle" });
   assert(await page.title() === "Homeostasis | MedMosa", `Master Curriculum: canonical topic title was not used in document metadata (${await page.title()})`);
   assert(await page.getByRole("tab", { name: "Learn" }).getAttribute("aria-selected") === "true", "Master Curriculum: Learn mode was not active by default");
   await page.getByRole("tab", { name: "Plain language" }).click();
   assert(await page.getByText("Build the mental model here").isVisible(), "Master Curriculum: ELI-10 mode did not render");
-  await page.getByRole("tab", { name: /Practice/ }).click();
-  await page.waitForFunction(() => document.querySelectorAll(".rich-practice .question-option").length > 1);
-  await page.locator(".rich-practice .question-option input").first().check();
+  assert(await page.getByRole("button", { name: "Practice a random question" }).count() === 1, "Topic practice: random-question CTA was missing");
+  assert((await page.getByText(`${pilotTopicQuestions.length} questions available`, { exact: true }).count()) === 1, "Topic practice: CTA count did not match the mapped pool");
+  await page.getByRole("button", { name: "Practice a random question" }).click();
+  await page.waitForFunction(() => document.querySelectorAll(".topic-random-practice .question-option").length > 1);
+  const firstTopicStem = await page.locator(".topic-random-practice legend").innerText();
+  const firstTopicQuestion = pilotTopicQuestions.find((question) => firstTopicStem.includes(question.stem.replace(/\*\*/g, "").slice(0, 80)));
+  assert(Boolean(firstTopicQuestion), "Topic practice: rendered a question outside the selected topic pool");
+  await page.locator(`.topic-random-practice input[value="${firstTopicQuestion?.correctAnswer}"]`).check();
   await page.getByRole("button", { name: "Check answer" }).click();
-  const richFeedback = await page.locator(".rich-practice .question-feedback").innerText();
-  assert(richFeedback.includes("Why it's correct"), "Master Curriculum: why-correct rationale did not render");
-  assert(richFeedback.includes("In plain language"), "Master Curriculum: ELI-10 rationale did not render");
+  const topicFeedback = await page.locator(".topic-random-practice .question-feedback").innerText();
+  assert(topicFeedback.includes("Why it is correct"), "Topic practice: why-correct rationale did not render");
+  assert(topicFeedback.includes("In plain language"), "Topic practice: ELI-10 rationale did not render");
+  assert(await page.locator(`.topic-random-practice input[value="${firstTopicQuestion?.correctAnswer}"]`).isDisabled(), "Topic practice: submitted answer was not locked");
+  await page.getByRole("button", { name: "Next random question" }).click();
+  assert(await page.getByText(`Question 2 of ${pilotTopicQuestions.length}`, { exact: true }).isVisible(), "Topic practice: next random question did not advance");
+  await page.reload({ waitUntil: "networkidle" });
+  await page.getByRole("tab", { name: /Practice/ }).click();
+  await page.waitForFunction(() => document.querySelectorAll(".topic-random-practice .question-option").length > 1);
+  assert(await page.getByText(`Question 2 of ${pilotTopicQuestions.length}`, { exact: true }).isVisible(), "Topic practice: session did not resume after refresh");
   assert(await page.getByText("Study material.").isVisible(), "Master Curriculum: educational-use notice did not render");
   await page.goto(`${baseUrl}/coverage`, { waitUntil: "networkidle" });
   assert(await page.locator("main h1").innerText() === "What this library actually contains", "Coverage: source-transparency route did not render");
@@ -241,22 +256,22 @@ try {
   await page.goto(`${baseUrl}${questionLedRoute}`, { waitUntil: "networkidle" });
   assert(await page.getByRole("tab", { name: "Learn" }).getAttribute("aria-selected") === "true", "Question-led topic: Learn was not the default mode");
   assert(await page.getByText("This topic is explained in plain language only.").isVisible(), "Question-led topic: plain-language-only state did not render");
-  await page.getByRole("tab", { name: /Practice/ }).click();
-  await page.waitForFunction(() => document.querySelectorAll(".rich-practice .question-option").length > 1);
-  assert(await page.locator(".rich-practice .question-option").count() === 4, "Question-led topic: exact practice questions did not load");
+  await page.getByRole("button", { name: "Practice a random question" }).click();
+  await page.waitForFunction(() => document.querySelectorAll(".topic-random-practice .question-option").length > 1);
+  assert(await page.locator(".topic-random-practice .question-option").count() === 4, "Question-led topic: exact practice questions did not load");
 
   const calculationRoute = "/learn/evidence-based-practice-basic-statistics/core-topics/introduction-to-evidence-based-practice";
   const calculationBank = JSON.parse(fs.readFileSync(path.join(root, "content-v2/subjects/evidence-based-practice-basic-statistics/questions.json"), "utf8"));
   const calculationQuestions = calculationBank.questions.filter((question) => question.mappedCanonicalTopicIds.some((id) => id.endsWith(":introduction-to-evidence-based-practice")));
   await page.goto(`${baseUrl}${calculationRoute}`, { waitUntil: "networkidle" });
-  await page.getByRole("tab", { name: /Practice/ }).click();
-  await page.waitForFunction(() => document.querySelectorAll(".rich-practice .question-option").length > 1);
+  await page.getByRole("button", { name: "Practice a random question" }).click();
+  await page.waitForFunction(() => document.querySelectorAll(".topic-random-practice .question-option").length > 1);
   for (let questionIndex = 0; questionIndex < 2; questionIndex += 1) {
-    await page.locator(`.rich-practice input[value="${calculationQuestions[questionIndex].correctAnswer}"]`).check();
+    await page.locator(`.topic-random-practice input[value="${calculationQuestions[questionIndex].correctAnswer}"]`).check();
     await page.getByRole("button", { name: "Check answer" }).click();
-    if (questionIndex === 0) await page.getByRole("button", { name: "Next question" }).click();
+    if (questionIndex === 0) await page.getByRole("button", { name: "Next random question" }).click();
   }
-  assert(await page.locator(".calculation-block").count() === 1, "Rich practice: preserved computation record did not render");
+  assert(await page.locator(".topic-random-practice .question-feedback").count() === 1, "Topic practice: calculation-topic feedback did not render");
 
   await page.goto(`${baseUrl}/learn`, { waitUntil: "networkidle" });
   const courseCardCount = await page.locator(".learn-catalog .course-grid .course-card").count();

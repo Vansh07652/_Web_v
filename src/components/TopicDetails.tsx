@@ -116,12 +116,17 @@ export function TopicFacts({ subjectSlug, topicId, metadata, questionCount, onSt
       <div className="topic-actions">
         {onStartLearning && <button type="button" className="button" onClick={onStartLearning}>Start learning</button>}
         {onPractice && (
-          <button type="button" className="button button-secondary" onClick={onPractice}>
-            Practise {questionCount.toLocaleString("en-US")} {plural(questionCount, "question")}
-          </button>
+          <div className="topic-practice-action">
+            <button type="button" className="button button-secondary" onClick={onPractice}>
+              Practice a random question
+            </button>
+            <span>{questionCount.toLocaleString("en-US")} {plural(questionCount, "question")} available</span>
+          </div>
         )}
         <button type="button" className="button button-secondary" onClick={save}>Save for review</button>
       </div>
+
+      {!onPractice && <p className="topic-practice-empty" role="note">Practice questions for this topic are coming soon.</p>}
 
       <p className="topic-save-status" role="status" aria-live="polite">{message}</p>
     </div>
@@ -165,4 +170,3 @@ export function ConnectedLearning({ topics, navigate }: { topics: RelatedTopicLi
     </section>
   );
 }
-
