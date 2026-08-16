@@ -91,6 +91,7 @@ const PRIMARY_LINKS: ReadonlyArray<readonly [string, string]> = [
 
 export function SiteHeader({ navigate, currentPath }: { navigate: Navigate; currentPath: string }) {
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const toggleRef = useRef<HTMLButtonElement>(null);
   const headerRef = useRef<HTMLElement>(null);
   const navigationId = useId();
@@ -118,13 +119,20 @@ export function SiteHeader({ navigate, currentPath }: { navigate: Navigate; curr
     };
   }, [open]);
 
+  useEffect(() => {
+    const update = () => setScrolled(window.scrollY > 12);
+    update();
+    window.addEventListener("scroll", update, { passive: true });
+    return () => window.removeEventListener("scroll", update);
+  }, []);
+
   const isCurrentSection = (href: string) =>
     href === "/" ? currentPath === "/" : currentPath === href || currentPath.startsWith(`${href}/`);
 
   const navigateAndClose: Navigate = (path) => { setOpen(false); navigate(path); };
 
   return (
-    <header className="site-header" ref={headerRef}>
+    <header className={`site-header${scrolled ? " is-scrolled" : ""}`} ref={headerRef}>
       <div className="header-inner">
         <Link href="/" navigate={navigateAndClose} className="brand">
           <span className="brand-mark" aria-hidden="true"><MosaicIcon /></span>

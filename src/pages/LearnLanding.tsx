@@ -1,5 +1,6 @@
 import { useEffect, useId, useMemo, useRef, useState, type CSSProperties } from "react";
 import { CheckIcon, Link } from "../components/ui";
+import { HomeQuestionDemo } from "../components/HomeQuestionDemo";
 import { CurriculumCourseCatalog } from "./CurriculumExplorer";
 import {
   BRAND_POSITIONING,
@@ -10,6 +11,7 @@ import {
   TRUST_LINE,
 } from "../content/brand";
 import { loadCurriculumCatalog } from "../lib/content/curriculum-v2";
+import { bookHref, libraryBooks, libraryTotals } from "../lib/book-library";
 import { listStudyPaths, studyPathHref } from "../lib/paths/study-paths";
 import { courseProgress, readProgress, summarise, type ProgressState } from "../lib/progress";
 import type { Navigate } from "../lib/navigation";
@@ -112,6 +114,8 @@ export const LearnLandingPage = ({ navigate }: { navigate: Navigate }) => {
   const headingBase = useId();
   const heading = (name: string) => `${headingBase}-${name}`;
   const paths = useMemo(() => listStudyPaths(), []);
+  const books = useMemo(() => libraryBooks(), []);
+  const bookTotals = useMemo(() => libraryTotals(), []);
   const progress = useMemo(() => readProgress(), []);
   const summary = useMemo(() => summarise(progress), [progress]);
   const continueCourse = useMemo(() => recentCourse(progress), [progress]);
@@ -147,6 +151,16 @@ export const LearnLandingPage = ({ navigate }: { navigate: Navigate }) => {
         <p>Free to begin. Progress stays in your browser.</p>
       </section>
 
+      <section className="learn-section learn-demo-section" aria-labelledby={heading("demo")}>
+        <div className="learn-demo-intro">
+          <p className="learn-eyebrow">Practice the why</p>
+          <h2 id={heading("demo")}>Learn the why.<br />Not just the answer.</h2>
+          <p>Try a real question from the curriculum. MedMosa follows every answer with the reasoning and a plain-language explanation, so practice becomes understanding.</p>
+          <p className="learn-demo-note">This sample does not change your study history.</p>
+        </div>
+        <HomeQuestionDemo />
+      </section>
+
       <section className="learn-section" aria-labelledby={heading("workspace")}>
         <div className="learn-section-heading"><p className="learn-eyebrow">One calm study workspace</p><h2 id={heading("workspace")}>Know what to learn, practise and revisit.</h2><p>Real MedMosa states, connected to the courses and tools already in the library.</p></div>
         <div className="learn-bento">
@@ -180,6 +194,24 @@ export const LearnLandingPage = ({ navigate }: { navigate: Navigate }) => {
       <section className="learn-section learn-path-section" aria-labelledby={heading("paths")}>
         <div className="learn-section-heading"><p className="learn-eyebrow">Built from the live catalog</p><h2 id={heading("paths")}>Choose a study path, not a rigid syllabus.</h2><p>Paths group existing courses without inventing prerequisites, clinical sequences or exam alignment.</p></div>
         <div className="learn-path-grid">{paths.map((path, index) => <article className="learn-path-card" key={path.slug} data-accent={index % 5}><span className="learn-path-index" aria-hidden="true">0{index + 1}</span><h3><Link href={studyPathHref(path.slug)} navigate={navigate}>{path.title}</Link></h3><p>{path.goal}</p><dl><div><dt>Courses</dt><dd>{path.courses.length}</dd></div><div><dt>Topics</dt><dd>{count(path.topicCount)}</dd></div><div><dt>Questions</dt><dd>{count(path.questionCount)}</dd></div></dl></article>)}</div>
+      </section>
+
+      <section className="learn-section learn-books-feature" aria-labelledby={heading("books")}>
+        <div className="learn-section-heading">
+          <p className="learn-eyebrow">Go deeper with complete books</p>
+          <h2 id={heading("books")}>{bookTotals.books} books, organised for focused study.</h2>
+          <p>{bookTotals.topics.toLocaleString("en-US")} source-grounded topics are available in their original chapter order, with provenance visible as you read.</p>
+        </div>
+        <div className="learn-books-preview">
+          {books.slice(0, 3).map((book, index) => <article className="learn-book-preview" key={book.slug} data-book-tone={index % 3}>
+            <div className="learn-book-cover" aria-hidden="true"><span>MedMosa<br />Library</span><i /><b>{String(index + 1).padStart(2, "0")}</b></div>
+            <p className="learn-card-label">{book.subjectArea} · {book.topicCount} topics</p>
+            <h3>{book.title}</h3>
+            <p>{book.chapters.length} chapters, in source order.</p>
+            <Link href={bookHref(book.slug)} navigate={navigate} className="learn-card-link">Open book <span aria-hidden="true">→</span></Link>
+          </article>)}
+        </div>
+        <Link href="/books" navigate={navigate} className="button button-secondary learn-library-link">Browse the full library <span aria-hidden="true">→</span></Link>
       </section>
 
       <section className="learn-section learn-catalog" aria-labelledby={heading("catalog")}>

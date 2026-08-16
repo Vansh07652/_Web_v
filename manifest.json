@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T19:03:28.626Z",
+  "generatedAt": "2026-08-16T19:29:01.142Z",
   "algorithm": "SHA-256",
   "selfHashExcluded": true,
   "selfHashExcludedReason": "A manifest cannot contain a stable hash of itself.",
@@ -24,7 +24,7 @@
     ],
     "reason": "Repository metadata, dependencies, build output, local development and audit output, operating-system metadata, and the self-referential manifest are not release-manifest entries."
   },
-  "fileCountExcludingManifest": 11539,
+  "fileCountExcludingManifest": 11540,
   "files": [
     {
       "path": ".env.example",
@@ -137,8 +137,8 @@
     {
       "path": "DESIGN.md",
       "fileType": "markdown",
-      "sizeBytes": 11941,
-      "sha256": "2fdb600c41913a46f80f1b91e2b88d5a9e59962b0800cdee9f5927cda9a52751",
+      "sizeBytes": 5091,
+      "sha256": "a39c1490f934b0786d7b0aaf209eeccc660e6e10c1b74f284cd60d00bb5509e6",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -102681,6 +102681,15 @@
       "status": "source"
     },
     {
+      "path": "src/components/HomeQuestionDemo.tsx",
+      "fileType": "typescript-react",
+      "sizeBytes": 3783,
+      "sha256": "da42ee656c2030187b14564d78e0b4caa091291794e87e054aaf9e55bc12686e",
+      "subject": null,
+      "contentType": null,
+      "status": "source"
+    },
+    {
       "path": "src/components/LegalNotice.tsx",
       "fileType": "typescript-react",
       "sizeBytes": 3148,
@@ -102818,8 +102827,8 @@
     {
       "path": "src/components/ui.tsx",
       "fileType": "typescript-react",
-      "sizeBytes": 15010,
-      "sha256": "7fd7505d20b3e82bd927d3c10ca13f9d936f04c37b632ab9c9cfee677a2beb41",
+      "sizeBytes": 15329,
+      "sha256": "ea19cafae4d8b69f636b2dbc3a35f00f13028f05901bbe9046176d390c2f36d2",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -103115,8 +103124,8 @@
     {
       "path": "src/pages/BooksLibrary.tsx",
       "fileType": "typescript-react",
-      "sizeBytes": 6957,
-      "sha256": "012a177353a12f97baf3dcd3e5d224c1c6d66389e5347b4394a1d3c04762ee12",
+      "sizeBytes": 7220,
+      "sha256": "d4d7dba448868718c01673b94426ea8b887d51111977c7ed0acfcc4b0c06ed01",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -103142,8 +103151,8 @@
     {
       "path": "src/pages/LearnLanding.tsx",
       "fileType": "typescript-react",
-      "sizeBytes": 16090,
-      "sha256": "5d4b41fd67c0d7332d849e73ba17db2291afbe4b21699b8505a8171a7eb6f025",
+      "sizeBytes": 18351,
+      "sha256": "0b977d2d7bfca6b6e04e66b35b15ce1f66c3d66afc4cb99621b88c2c37a49504",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -103286,8 +103295,8 @@
     {
       "path": "src/styles/learn.css",
       "fileType": "stylesheet",
-      "sizeBytes": 18501,
-      "sha256": "5c8a6d59c6d110b8ec25c7a46acd31f17aa8744deee6ab4942a690c07aaf1196",
+      "sizeBytes": 27645,
+      "sha256": "d94558dbaae5d026565c10d37b67d42a1836bd1dbf2a01caefb9c1eb863f9906",
       "subject": null,
       "contentType": null,
       "status": "source"
@@ -103304,8 +103313,8 @@
     {
       "path": "src/styles/main.css",
       "fileType": "stylesheet",
-      "sizeBytes": 48061,
-      "sha256": "c9fbb3e752de3897c29905c12ed73bf49d9ee9a5d2c6603237cc858d8458bc46",
+      "sizeBytes": 48547,
+      "sha256": "c4e9a2f11b1da423704ed0b1000e962df3a3d6258ba1942983ee10005e7bf1ca",
       "subject": null,
       "contentType": null,
       "status": "source"

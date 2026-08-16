@@ -20,14 +20,17 @@ function BooksCatalog({ navigate }: { navigate: Navigate }) {
   const books = libraryBooks().filter((book) => area === "All" || book.subjectArea === area);
   return <>
     <Breadcrumbs navigate={navigate} items={[{ label: "Home", href: "/" }, { label: "Books" }]} />
-    <PageHeader eyebrow="Learning library" title="Books for nursing and science" description={`${totals.books} open educational books and ${totals.topics.toLocaleString("en-US")} source-grounded topics, organised in their original chapter order.`} />
-    <div className="filter-bar" aria-label="Book subject filter">
+    <div className="books-intro">
+      <PageHeader eyebrow="Learning library" title="Books for nursing and science" description={`${totals.books} open educational books and ${totals.topics.toLocaleString("en-US")} source-grounded topics, organised in their original chapter order.`} />
+    </div>
+    <div className="filter-bar books-filter" aria-label="Book subject filter">
       <label htmlFor="book-area">Subject area</label>
       <select id="book-area" value={area} onChange={(event) => setArea(event.target.value as typeof area)}><option>All</option><option>Nursing</option><option>Science</option></select>
     </div>
     <section className="section-block" aria-labelledby="books-title">
       <h2 id="books-title">{area === "All" ? "All books" : `${area} books`}</h2>
-      <div className="unit-grid">{books.map((book) => <article className="unit-card" key={book.slug}>
+      <div className="unit-grid books-grid">{books.map((book, index) => <article className="unit-card book-card" key={book.slug} data-book-tone={index % 3}>
+        <div className="book-card-cover" aria-hidden="true"><span>MedMosa<br />Library</span><i /><b>{String(index + 1).padStart(2, "0")}</b></div>
         <p className="eyebrow">{book.subjectArea} · {book.topicCount} topics</p>
         <h3><Link href={bookHref(book.slug)} navigate={navigate}>{book.title}</Link></h3>
         <p>{book.chapters.length} chapters. Original study-guide content with visible source information.</p>
