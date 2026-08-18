@@ -134,7 +134,7 @@ export const ContentReviewProcessPage = ({ navigate }: { navigate: Navigate }) =
         Material is imported from openly published study-note libraries and open educational resources. The import
         copies each section across as written: a heading line is removed and the surrounding blank lines are trimmed,
         and that is the whole of the transformation. Tables, lists and emphasis survive intact. Nothing is
-        paraphrased, summarised or generated to fill a gap, so what you read is the source text, not a machine’s
+        paraphrased, summarized or generated to fill a gap, so what you read is the source text, not a machine’s
         impression of it.
       </p>
       <p>
@@ -146,8 +146,8 @@ export const ContentReviewProcessPage = ({ navigate }: { navigate: Navigate }) =
       <p>
         Every topic records the collection it came from and every reference host it cites, in a generated,
         machine-readable registry at <code>{REGISTRY_PATH}</code>. The registry holds 132 records — 36 source
-        collections and 96 distinct reference hosts. A licence is recorded against a source only when that exact
-        licence string appears in repository text for that same source; it is never inferred from a hostname or a
+        collections and 96 distinct reference hosts. A license is recorded against a source only when that exact
+        license string appears in repository text for that same source; it is never inferred from a hostname or a
         publisher’s usual terms. Two records carry one.
       </p>
 
@@ -183,7 +183,7 @@ export const ContentReviewProcessPage = ({ navigate }: { navigate: Navigate }) =
         means an automated check could not find a structured citation for the question.
       </p>
       <p>
-        Those questions are <strong>labelled, not hidden</strong>. A flag says the citation could not be verified; it
+        Those questions are <strong>labeled, not hidden</strong>. A flag says the citation could not be verified; it
         does not say the question is wrong, and removing the question would remove practice material on the strength
         of a missing footnote. Each course’s figure is on its coverage card, and the total is in{" "}
         <code>{COVERAGE_PATH}</code>.
@@ -323,7 +323,7 @@ export const EditorialPolicyPage = ({ navigate }: { navigate: Navigate }) => (
         <li>Print a review date derived from an import date.</li>
         <li>Claim alignment to an exam blueprint, or predict a score.</li>
         <li>Invent a citation, or attach a plausible-looking source to material that did not cite one.</li>
-        <li>Record a licence that is not written down for that exact source.</li>
+        <li>Record a license that is not written down for that exact source.</li>
         <li>Generate teaching text and present it as sourced material.</li>
       </ul>
     </PolicySection>
@@ -384,15 +384,15 @@ export const SourceCitationPolicyPage = ({ navigate }: { navigate: Navigate }) =
         Provenance lives in a generated file at <code>{REGISTRY_PATH}</code>, rebuilt from the content rather than
         maintained by hand. It holds 132 records: 36 source collections and 96 distinct reference hosts. Each record
         carries an identifier, a title taken verbatim from repository text, and — where the evidence exists — a
-        provider, a URL and an import date. Every record states the evidence behind it, including where a licence is
+        provider, a URL and an import date. Every record states the evidence behind it, including where a license is
         absent.
       </p>
       <p>
-        <strong>Exactly 2 of the 132 records carry an explicit licence</strong>, both Creative Commons Attribution 4.0
+        <strong>Exactly 2 of the 132 records carry an explicit license</strong>, both Creative Commons Attribution 4.0
         International: <code>openstax.org</code> and <code>opentextbc.ca</code>, for <em>Anatomy and Physiology 2e</em>.
-        Everything else has no licence recorded, which is a statement of evidence rather than an oversight — a licence
+        Everything else has no license recorded, which is a statement of evidence rather than an oversight — a license
         is written down only where that exact string appears in repository text for that same source, never inferred
-        from a hostname, a domain or an organisation’s usual terms. The full attribution statement and the notice and
+        from a hostname, a domain or an organization’s usual terms. The full attribution statement and the notice and
         takedown route are on{" "}
         <Link href="/licensing" navigate={navigate}>Licensing and attribution</Link>.
       </p>
@@ -410,7 +410,7 @@ export const SourceCitationPolicyPage = ({ navigate }: { navigate: Navigate }) =
         </li>
         <li>
           Most of that gap is the 446 imported study notes: none of those source notes carries a sources section, so
-          every one of those topics reports “no references” rather than borrowing a bibliography from a neighbouring
+          every one of those topics reports “no references” rather than borrowing a bibliography from a neighboring
           topic.
         </li>
         <li>
@@ -426,7 +426,7 @@ export const SourceCitationPolicyPage = ({ navigate }: { navigate: Navigate }) =
         not find a structured citation for that question. It does not mean the question is wrong.
       </p>
       <p>
-        Flagged questions are shown and labelled during practice rather than withheld, and every course states how
+        Flagged questions are shown and labeled during practice rather than withheld, and every course states how
         many of its questions carry the flag.
       </p>
     </PolicySection>
@@ -478,7 +478,7 @@ export const MedicalDisclaimerPage = ({ navigate }: { navigate: Navigate }) => (
       </p>
       <p>
         Material is imported from open educational sources with its provenance recorded, and it is reviewed against
-        those sources — not against a clinician’s judgement. The full account is on{" "}
+        those sources — not against a clinician’s judgment. The full account is on{" "}
         <Link href="/content-review" navigate={navigate}>Content review process</Link>.
       </p>
     </PolicySection>
@@ -497,7 +497,7 @@ export const MedicalDisclaimerPage = ({ navigate }: { navigate: Navigate }) => (
 
     <PolicySection id="disclaimer-scope" title="5. Scope of practice is not ours to define">
       <p>
-        What you personally may delegate, accept, document or perform is set by the rules where you practise, by your
+        What you personally may delegate, accept, document or perform is set by the rules where you practice, by your
         employer and by your program — not by this site, and not by the source note a topic came from. Treat
         everything here as a general study model and verify against your own board, regulator, program and employer
         before acting on any of it.
@@ -506,7 +506,7 @@ export const MedicalDisclaimerPage = ({ navigate }: { navigate: Navigate }) => (
 
     <PolicySection id="disclaimer-exams" title="6. Not exam content">
       <p>
-        MedMosa is not affiliated with, endorsed by or sponsored by any testing organisation, school, certifying body
+        MedMosa is not affiliated with, endorsed by or sponsored by any testing organization, school, certifying body
         or licensing board. Practice here is practice with the underlying subject matter: it does not simulate any
         exam, predict a score, or indicate that you are ready to sit one. The full statement is in the{" "}
         <Link href="/terms" navigate={navigate}>Terms of Use</Link>.
@@ -662,7 +662,7 @@ export const ReportErrorPage = ({ navigate }: { navigate: Navigate }) => (
       <ul>
         <li>
           <strong>Questions flagged for citation review.</strong> 5,463 of 25,000 question placements are flagged
-          because an automated check could not find a structured citation. They are labelled during practice rather
+          because an automated check could not find a structured citation. They are labeled during practice rather
           than hidden. A flagged question that is actually <em>wrong</em> is very much worth reporting.
         </li>
         <li>
@@ -691,7 +691,7 @@ export const ReportErrorPage = ({ navigate }: { navigate: Navigate }) => (
           Where a report is not clear-cut, you get a written answer explaining the position rather than silence.
         </li>
         <li>
-          Substantive changes are summarised on the <Link href="/changelog" navigate={navigate}>changelog</Link>.
+          Substantive changes are summarized on the <Link href="/changelog" navigate={navigate}>changelog</Link>.
         </li>
       </ul>
       <p>
@@ -746,7 +746,7 @@ const CHANGELOG_ENTRIES: readonly ChangelogEntry[] = [
     date: "15 August 2026",
     title: "Legal layer published",
     body:
-      "Terms of use, privacy policy, licensing and attribution, and an accessibility statement, plus the study-use notice that appears on every topic page. The licensing wording deliberately stops short of calling every source openly licensed, because only two records in the source registry carry an explicit licence.",
+      "Terms of use, privacy policy, licensing and attribution, and an accessibility statement, plus the study-use notice that appears on every topic page. The licensing wording deliberately stops short of calling every source openly licensed, because only two records in the source registry carry an explicit license.",
   },
   {
     date: "15 August 2026",

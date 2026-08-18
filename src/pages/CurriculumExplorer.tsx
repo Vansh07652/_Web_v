@@ -233,7 +233,7 @@ function CurriculumSubjectPage({ subjectSlug, navigate }: { subjectSlug: string;
             )}
             {stats.uniqueQuestionCount > 0 && (
               <Link href={curriculumPracticeHref(subjectSlug)} navigate={navigate} className="button button-secondary">
-                Practise all {stats.uniqueQuestionCount.toLocaleString("en-US")} questions
+                Practice all {stats.uniqueQuestionCount.toLocaleString("en-US")} questions
               </Link>
             )}
           </>
@@ -592,7 +592,7 @@ function CurriculumTopicPage({ subjectSlug, unitSlug, topicSlug, navigate }: { s
               ) : (
                 <EmptyState
                   title="Practice questions are coming soon"
-                  action={<Link href={curriculumPracticeHref(subjectSlug)} navigate={navigate} className="button">Practise the whole course</Link>}
+                  action={<Link href={curriculumPracticeHref(subjectSlug)} navigate={navigate} className="button">Practice the whole course</Link>}
                 >
                   Practice questions for this topic are coming soon. The course-wide practice set may still cover it.
                 </EmptyState>

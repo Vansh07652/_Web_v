@@ -117,7 +117,7 @@ const LONGEST_PATHS = lengthBand(band * 2);
 export const DIAGNOSTIC_QUESTIONS: readonly DiagnosticQuestion[] = [
   {
     id: "programme",
-    prompt: "Which programme are you heading into?",
+    prompt: "Which program are you heading into?",
     options: [
       {
         id: "nursing",
@@ -170,7 +170,7 @@ export const DIAGNOSTIC_QUESTIONS: readonly DiagnosticQuestion[] = [
       },
       {
         id: "starting-programme",
-        label: "Starting a nursing or allied-health programme",
+        label: "Starting a nursing or allied-health program",
         pathSlugs: ["nursing-foundations", "allied-health"],
       },
       {

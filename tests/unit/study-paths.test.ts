@@ -112,7 +112,7 @@ describe("study path definitions", () => {
     for (const path of STUDY_PATHS) {
       const joined = path.limitations.join(" ");
       expect(joined).toContain("not affiliated with");
-      expect(joined).toContain("testing organisation");
+      expect(joined).toContain("testing organization");
     }
   });
 

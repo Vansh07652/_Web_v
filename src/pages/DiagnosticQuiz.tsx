@@ -201,7 +201,7 @@ export const DiagnosticQuizPage = ({ navigate }: { navigate: Navigate }) => {
         </p>
         <p>
           Every path this suggests lists its own limitations in full on its own page. MedMosa is not affiliated with,
-          endorsed by or accredited by any testing organisation, licensing body or school, and no path is aligned to any
+          endorsed by or accredited by any testing organization, licensing body or school, and no path is aligned to any
           exam blueprint.
         </p>
       </section>

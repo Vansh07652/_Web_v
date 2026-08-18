@@ -158,7 +158,7 @@ export function StudyDashboard({ navigate }: { navigate: Navigate }) {
                 </Link>
                 {continueCourse.statistics.uniqueQuestionCount ? (
                   <Link href={curriculumPracticeHref(continueCourse.slug)} navigate={navigate} className="button">
-                    Practise questions
+                    Practice questions
                   </Link>
                 ) : null}
               </div>

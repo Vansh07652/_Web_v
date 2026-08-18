@@ -124,7 +124,7 @@ export interface StudyPathDetail extends StudyPath {
  * grouping is made of.
  */
 const SHARED_LIMITATIONS: readonly string[] = [
-  "MedMosa is not affiliated with, endorsed by or accredited by any testing organisation, licensing body or school, and claims no alignment to any exam blueprint.",
+  "MedMosa is not affiliated with, endorsed by or accredited by any testing organization, licensing body or school, and claims no alignment to any exam blueprint.",
   "A path is a grouping of courses already in this library. It is not a syllabus, an exam blueprint or a prerequisite sequence — this repository contains none of those.",
   "Course order follows content-v2/catalog.json. It is a stable order, not a recommended teaching order.",
   "Topic and question counts are each course's own catalog statistics. A question mapped into two courses is counted in both, so a path total counts placements rather than distinct questions.",
@@ -218,7 +218,7 @@ const PATH_DEFINITIONS: readonly PathDefinition[] = [
   {
     slug: "nursing-foundations",
     title: "Nursing foundations",
-    goal: "Cover the practice-facing foundations a nursing programme starts from.",
+    goal: "Cover the practice-facing foundations a nursing program starts from.",
     summary: "The dosage-maths, clinical judgment, health assessment, patient safety and pharmacology courses with Fundamentals of Nursing Practice, in catalog order.",
     courseSlugs: [
       "fundamentals-of-nursing-practice",
@@ -247,7 +247,7 @@ const PATH_DEFINITIONS: readonly PathDefinition[] = [
   {
     slug: "exam-preparation",
     title: "Entrance and certification exam preparation",
-    goal: "Practise against the courses in this library whose own titles are written towards an entrance or certification exam.",
+    goal: "Practice against the courses in this library whose own titles are written toward an entrance or certification exam.",
     summary: "Respiratory Therapy, Sleep Technology (RPSGT), MCAT Foundations and CNA Exam Preparation, in catalog order.",
     courseSlugs: ["cna-exam-prep", "respiratory-therapy", "sleep-technology", "mcat-foundations"],
     membership: "the four courses whose own catalog titles and unit lists are written towards an entrance or certification exam",
@@ -277,8 +277,8 @@ const PATH_DEFINITIONS: readonly PathDefinition[] = [
   },
   {
     slug: "allied-health",
-    title: "Allied health programmes",
-    goal: "Practise against the allied-health question banks in this library.",
+    title: "Allied health programs",
+    goal: "Practice against the allied-health question banks in this library.",
     summary: "Every course the catalog files under allied-health, in catalog order. This is the largest path by question count.",
     category: "allied-health",
     membership: "every course in the allied-health category",

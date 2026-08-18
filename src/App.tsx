@@ -107,12 +107,12 @@ const PAGE_METADATA: Record<string, { title: string; description: string }> = {
     title: "Learn",
     description: `Free learning tools, practice resources and clear explanations for aspiring healthcare professionals. ${catalog.totals.subjects} courses, ${catalog.totals.units} units and ${catalog.totals.topics} topics, with no registration or subscription.`,
   },
-  books: { title: "Books", description: `Open educational nursing and science books, organised into ${libraryTotals().topics.toLocaleString("en-US")} searchable topics.` },
+  books: { title: "Books", description: `Open educational nursing and science books, organized into ${libraryTotals().topics.toLocaleString("en-US")} searchable topics.` },
   diagnostic: {
     title: "Find your starting point",
-    description: "Answer five short questions about your programme, your goals and your time, and get a suggested study path. Nothing is sent anywhere and no account is needed.",
+    description: "Answer five short questions about your program, your goals and your time, and get a suggested study path. Nothing is sent anywhere and no account is needed.",
   },
-  "content-review": { title: "Content review process", description: "How MedMosa's material is imported, checked and labelled, and what has not been reviewed." },
+  "content-review": { title: "Content review process", description: "How MedMosa's material is imported, checked and labeled, and what has not been reviewed." },
   "editorial-policy": { title: "Editorial policy", description: "How MedMosa decides what to publish, what to hold back, and how it describes its own coverage." },
   "source-citation-policy": { title: "Source and citation policy", description: "Which sources MedMosa draws on, how they are recorded, and when a citation is described as unverified." },
   "medical-disclaimer": { title: "Medical disclaimer", description: "MedMosa is educational material, not medical advice, and carries no credentialed clinical review." },
@@ -123,13 +123,13 @@ const PAGE_METADATA: Record<string, { title: string; description: string }> = {
     title: "Classic library",
     description: "The original subject-by-subject library of approved lessons, notes and practice questions.",
   },
-  notes: { title: "Notes", description: "Read approved study notes, organised by subject and lesson." },
+  notes: { title: "Notes", description: "Read approved study notes, organized by subject and lesson." },
   questions: { title: "Practice", description: "Practice thousands of questions with worked answer explanations and plain-language rationales." },
   search: { title: "Search", description: "Search every topic, note and practice question. Search runs locally in your browser." },
   resources: { title: "Learning resources", description: "Optional educational lookups from PubMed, NLM and Open Library, with original-source links and clear attribution." },
   prototype: { title: "MedAtlas prototype", description: "MedAtlas — a front-end visual prototype of a study workspace. Demo content only." },
   downloads: { title: "Downloads", description: "Downloadable study files, when they are available." },
-  about: { title: "How this works", description: "How MedMosa organises its material, what is reviewed, and how to study with it." },
+  about: { title: "How this works", description: "How MedMosa organizes its material, what is reviewed, and how to study with it." },
   coverage: {
     title: "Content coverage",
     description: `Exactly what each of the ${catalog.totals.subjects} courses contains today: college-level notes, plain-language explanations, cited references and practice questions, course by course.`,
@@ -222,7 +222,7 @@ function staticMetadataFor(path: string): { title: string; description: string }
     if (segments[2] === "practice") {
       return {
         title: `Practice · ${subject.title}`,
-        description: `Practise ${subject.statistics.uniqueQuestionCount} ${subject.title} questions with full answer rationales.`,
+        description: `Practice ${subject.statistics.uniqueQuestionCount} ${subject.title} questions with full answer rationales.`,
       };
     }
     if (segments[3]) {
@@ -550,7 +550,7 @@ function LibraryPage({ navigate }: { navigate: Navigate }) {
       <PageHeader
         eyebrow="Classic library"
         title="Subjects"
-        description="The original lesson-by-lesson library. Open a subject to read its approved notes or practise its questions."
+        description="The original lesson-by-lesson library. Open a subject to read its approved notes or practice its questions."
         actions={<Link href="/learn" navigate={navigate} className="button">See the full curriculum instead</Link>}
       />
       <div className="notice" role="note">
@@ -641,7 +641,7 @@ function NotesIndexPage({ navigate }: { navigate: Navigate }) {
       <PageHeader
         eyebrow="Classic library"
         title="Notes"
-        description={`${notes.length} approved Markdown notes, organised by subject. Every course in the main curriculum also has its own teaching notes.`}
+        description={`${notes.length} approved Markdown notes, organized by subject. Every course in the main curriculum also has its own teaching notes.`}
         actions={<Link href="/learn" navigate={navigate} className="button">Open the full curriculum</Link>}
       />
       <section className="section-block" aria-labelledby="notes-by-subject">
@@ -793,7 +793,7 @@ function LessonIndex({ subjectSlug, navigate }: { subjectSlug: string; navigate:
   return (
     <>
       <Breadcrumbs navigate={navigate} items={libraryCrumbs(subject.name, subjectSlug, [{ label: "Lessons" }])} />
-      <PageHeader eyebrow={subject.name} title="Lessons" description="Choose a lesson to read its note or practise the related questions." />
+      <PageHeader eyebrow={subject.name} title="Lessons" description="Choose a lesson to read its note or practice the related questions." />
       <LessonList subjectSlug={subjectSlug} navigate={navigate} />
     </>
   );
@@ -834,9 +834,9 @@ function LessonPage({ subjectSlug, lessonSlug, navigate }: { subjectSlug: string
       <PageHeader
         eyebrow={`Lesson ${lesson.lessonNumber} · ${subject.name}`}
         title={lesson.title}
-        description={note ? "Read the note, then practise the related questions." : "The study material available for this lesson."}
+        description={note ? "Read the note, then practice the related questions." : "The study material available for this lesson."}
         actions={questions && questions.length > 0
-          ? <Link href={questionsHref(subjectSlug, lessonSlug)} navigate={navigate} className="button">Practise {questions.length} questions</Link>
+          ? <Link href={questionsHref(subjectSlug, lessonSlug)} navigate={navigate} className="button">Practice {questions.length} questions</Link>
           : undefined}
       />
       {note && !source && <LoadingState label="Loading note…" />}
@@ -844,7 +844,7 @@ function LessonPage({ subjectSlug, lessonSlug, navigate }: { subjectSlug: string
       {questions && !note && questions.length > 0 && (
         <article className="card card--accent">
           <p className="badge badge-question">Questions</p>
-          <h3>Practise this lesson</h3>
+          <h3>Practice this lesson</h3>
           <p>{questions.length} questions with answer explanations.</p>
           <Link href={questionsHref(subjectSlug, lessonSlug)} navigate={navigate} className="card-link">Start practice →</Link>
         </article>
@@ -934,7 +934,7 @@ function NotePage({ subjectSlug, lessonSlug, navigate }: { subjectSlug: string; 
         <aside className="related-card">
           <div>
             <p className="eyebrow">Keep going</p>
-            <h2>Practise related questions</h2>
+            <h2>Practice related questions</h2>
             <p>{relatedQuestions.length} questions are linked to this lesson.</p>
           </div>
           <Link href={questionsHref(subjectSlug, lessonSlug)} navigate={navigate} className="button">Start practice</Link>
@@ -961,7 +961,7 @@ function SubjectQuestions({ subjectSlug, navigate }: { subjectSlug: string; navi
       <PageHeader
         eyebrow={subject.name}
         title="Practice questions"
-        description={`${questions.length} question${questions.length === 1 ? "" : "s"}, organised by lesson.`}
+        description={`${questions.length} question${questions.length === 1 ? "" : "s"}, organized by lesson.`}
       />
       {lessons.length ? (
         <div className="practice-list">
@@ -974,7 +974,7 @@ function SubjectQuestions({ subjectSlug, navigate }: { subjectSlug: string; navi
                   <h3>{lesson.title}</h3>
                   <p>{count} question{count === 1 ? "" : "s"}</p>
                 </div>
-                <Link href={questionsHref(subjectSlug, lesson.slug)} navigate={navigate} className="button button-secondary">Practise</Link>
+                <Link href={questionsHref(subjectSlug, lesson.slug)} navigate={navigate} className="button button-secondary">Practice</Link>
               </article>
             );
           })}
@@ -1048,7 +1048,7 @@ function AboutPage({ navigate }: { navigate: Navigate }) {
           <li><strong>Pick a course.</strong> Start from <Link href="/learn" navigate={navigate}>all courses</Link>, or search if you already know the topic.</li>
           <li><strong>Read the topic.</strong> Each topic opens on the college-level explanation.</li>
           <li><strong>Switch to plain language.</strong> The ELI-10 tab explains the same idea without the jargon — useful when the textbook version will not click.</li>
-          <li><strong>Practise.</strong> Answer, check, and read why the right answer is right before moving on.</li>
+          <li><strong>Practice.</strong> Answer, check, and read why the right answer is right before moving on.</li>
         </ol>
 
         <h2>What is in here</h2>
