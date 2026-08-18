@@ -11,7 +11,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 // manifest — which CI then failed on, because they are not in the repository.
 const excludedDirectories = new Set([
   ".git", "node_modules", "dist", "build", "coverage",
-  ".preview", ".audit", ".vite", ".vite-temp", ".cache",
+  ".preview", ".audit", ".vite", ".vite-temp", ".cache", "tmp",
   ".wrangler", "dist-worker",
 ]);
 const excludedFiles = new Set(["manifest.json", ".DS_Store"]);

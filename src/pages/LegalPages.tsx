@@ -545,7 +545,7 @@ export function LicensingPage({ navigate }: { navigate: Navigate }) {
         </ul>
         <p>
           Most references are links and citations rather than reproductions. Where material has been adapted rather than
-          cited, the licence that permits it is named in the next section.
+          cited, the license that permits it is named in the next section.
         </p>
       </LegalSection>
 

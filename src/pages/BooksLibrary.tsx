@@ -21,7 +21,7 @@ function BooksCatalog({ navigate }: { navigate: Navigate }) {
   return <>
     <Breadcrumbs navigate={navigate} items={[{ label: "Home", href: "/" }, { label: "Books" }]} />
     <div className="books-intro">
-      <PageHeader eyebrow="Learning library" title="Books for nursing and science" description={`${totals.books} open educational books and ${totals.topics.toLocaleString("en-US")} source-grounded topics, organised in their original chapter order.`} />
+      <PageHeader eyebrow="Learning library" title="Books for nursing and science" description={`${totals.books} open educational books and ${totals.topics.toLocaleString("en-US")} source-grounded topics, organized in their original chapter order.`} />
     </div>
     <div className="filter-bar books-filter" aria-label="Book subject filter">
       <label htmlFor="book-area">Subject area</label>

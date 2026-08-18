@@ -240,7 +240,7 @@ export function Footer({ navigate }: { navigate: Navigate }) {
               <span className="brand-name">MedMosa</span>
             </Link>
             <p className="footer-mission">Open learning for the health-care path ahead.</p>
-            <p>College-level notes, plain-language explanations and practice questions for pre-health students — organised into one curriculum.</p>
+            <p>College-level notes, plain-language explanations and practice questions for pre-health students — organized into one curriculum.</p>
           </div>
           {FOOTER_COLUMNS.map((column) => (
             <div className="footer-column" key={column.title}>

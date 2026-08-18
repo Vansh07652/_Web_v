@@ -23,7 +23,7 @@ const count = (value: number): string => value.toLocaleString("en-US");
 const STEPS = [
   { title: "Choose your route", body: "Pick a subject, or use the optional diagnostic to find a sensible starting point." },
   { title: "Build the model", body: "Learn through structured topics, college-level notes and plain-language explanations." },
-  { title: "Practise the why", body: "Answer real questions, then read the rationale instead of stopping at a score." },
+  { title: "Practice the why", body: "Answer real questions, then read the rationale instead of stopping at a score." },
   { title: "Return with purpose", body: "Use local progress and the review queue to continue what needs attention." },
 ] as const;
 
@@ -162,7 +162,7 @@ export const LearnLandingPage = ({ navigate }: { navigate: Navigate }) => {
       </section>
 
       <section className="learn-section" aria-labelledby={heading("workspace")}>
-        <div className="learn-section-heading"><p className="learn-eyebrow">One calm study workspace</p><h2 id={heading("workspace")}>Know what to learn, practise and revisit.</h2><p>Real MedMosa states, connected to the courses and tools already in the library.</p></div>
+        <div className="learn-section-heading"><p className="learn-eyebrow">One calm study workspace</p><h2 id={heading("workspace")}>Know what to learn, practice and revisit.</h2><p>Real MedMosa states, connected to the courses and tools already in the library.</p></div>
         <div className="learn-bento">
           <article className="learn-bento-card learn-bento-continue">
             <p className="learn-card-label">{summary.hasAnyActivity ? "Continue learning" : "Start here"}</p>
@@ -182,7 +182,7 @@ export const LearnLandingPage = ({ navigate }: { navigate: Navigate }) => {
           <article className="learn-bento-card learn-bento-review"><span className="learn-bento-icon" aria-hidden="true">↺</span><p className="learn-card-label">Review queue</p><h3>Turn misses into momentum.</h3><p>Revisit weaker topics using the local practice history already on this device.</p><Link href="/review" navigate={navigate} className="learn-card-link">Review what is due <span aria-hidden="true">→</span></Link></article>
           <article className="learn-bento-card learn-bento-diagnostic"><span className="learn-bento-icon" aria-hidden="true">⌁</span><p className="learn-card-label">Optional diagnostic</p><h3>Not sure where to begin?</h3><p>Answer five short questions. Nothing leaves your browser.</p><Link href="/diagnostic" navigate={navigate} className="button button-secondary">Find a starting point</Link></article>
           <article className="learn-bento-card learn-bento-sources"><p className="learn-card-label">Source transparency</p><h3>See the evidence—and the gaps.</h3><p>{SOURCING_ACCURACY_NOTE}</p><div className="learn-source-sample"><span aria-hidden="true">✓</span><span><strong>Reference recorded</strong><small>OpenStax · Anatomy &amp; Physiology 2e</small></span></div><Link href="/coverage" navigate={navigate} className="learn-card-link">Explore coverage <span aria-hidden="true">→</span></Link></article>
-          <article className="learn-bento-card learn-bento-paths"><p className="learn-card-label">Study paths</p><h3>{paths.length} ways to organise the library.</h3><ul>{paths.slice(0, 3).map((path) => <li key={path.slug}>{path.title}<span>{path.courses.length} courses</span></li>)}</ul><Link href="/paths" navigate={navigate} className="learn-card-link">View every path <span aria-hidden="true">→</span></Link></article>
+          <article className="learn-bento-card learn-bento-paths"><p className="learn-card-label">Study paths</p><h3>{paths.length} ways to organize the library.</h3><ul>{paths.slice(0, 3).map((path) => <li key={path.slug}>{path.title}<span>{path.courses.length} courses</span></li>)}</ul><Link href="/paths" navigate={navigate} className="learn-card-link">View every path <span aria-hidden="true">→</span></Link></article>
         </div>
       </section>
 
@@ -199,7 +199,7 @@ export const LearnLandingPage = ({ navigate }: { navigate: Navigate }) => {
       <section className="learn-section learn-books-feature" aria-labelledby={heading("books")}>
         <div className="learn-section-heading">
           <p className="learn-eyebrow">Go deeper with complete books</p>
-          <h2 id={heading("books")}>{bookTotals.books} books, organised for focused study.</h2>
+          <h2 id={heading("books")}>{bookTotals.books} books, organized for focused study.</h2>
           <p>{bookTotals.topics.toLocaleString("en-US")} source-grounded topics are available in their original chapter order, with provenance visible as you read.</p>
         </div>
         <div className="learn-books-preview">

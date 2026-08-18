@@ -317,7 +317,7 @@ function CoverageCard({ course, navigate }: { course: CourseCoverage; navigate: 
       ))}
       <p className="coverage-links">
         <Link href={course.href} navigate={navigate}>Open course</Link>
-        {course.questionCount > 0 && <Link href={course.practiceHref} navigate={navigate}>Practise questions</Link>}
+        {course.questionCount > 0 && <Link href={course.practiceHref} navigate={navigate}>Practice questions</Link>}
       </p>
     </article>
   );
@@ -363,7 +363,7 @@ export function CoveragePage({ navigate }: { navigate: Navigate }) {
       <PageHeader
         eyebrow="Content coverage"
         title="What this library actually contains"
-        description={`Every one of the ${catalog.subjects.length} courses, with counts of the material that exists in each. No course is summarised more favourably than its numbers allow.`}
+        description={`Every one of the ${catalog.subjects.length} courses, with counts of the material that exists in each. No course is summarized more favorably than its numbers allow.`}
       />
 
       <section className="study-panel" aria-labelledby={aboutId}>
@@ -399,14 +399,14 @@ export function CoveragePage({ navigate }: { navigate: Navigate }) {
           </fieldset>
 
           <fieldset className="study-fieldset">
-            <legend>Programme</legend>
+            <legend>Program</legend>
             <label className="study-field" htmlFor={programFieldId}>Show courses mapped to</label>
             <select id={programFieldId} value={program} onChange={(event) => setProgram(event.target.value)}>
-              <option value="">All programmes</option>
+              <option value="">All programs</option>
               {programOptions.map((option) => <option key={option} value={option}>{PROGRAM_LABELS[option]}</option>)}
             </select>
             <p className="study-hint">
-              Programme is mapped from a course's category, not judged per topic.
+              Program is mapped from a course's category, not judged per topic.
             </p>
           </fieldset>
 
@@ -537,7 +537,7 @@ function WeakTopicItem({ mastery, titles, navigate }: {
       {reference && courseTitles.has(reference.subjectSlug) && (
         <p className="review-topic-links">
           <Link href={curriculumPracticeHref(reference.subjectSlug)} navigate={navigate}>
-            Practise {courseTitle ?? humanise(reference.subjectSlug)}
+            Practice {courseTitle ?? humanise(reference.subjectSlug)}
           </Link>
         </p>
       )}
@@ -625,7 +625,7 @@ export function ReviewPage({ navigate }: { navigate: Navigate }) {
       <PageHeader
         eyebrow="Review"
         title="Your review queue"
-        description="Worked out in this browser from what you have practised. It schedules revision; it does not assess you."
+        description="Worked out in this browser from what you have practiced. It schedules revision; it does not assess you."
       />
 
       <p className="study-live" aria-live="polite">{message}</p>
@@ -662,9 +662,9 @@ export function ReviewPage({ navigate }: { navigate: Navigate }) {
             </>
           )}
         >
-          Review fills up as you practise. Once you have answered some questions, the ones you got wrong come back
+          Review fills up as you practice. Once you have answered some questions, the ones you got wrong come back
           tomorrow, the ones you got right come back later and later, and any topic you are still building accuracy in
-          is listed here to revisit. Nothing appears on this page until you have practised something, and nothing here
+          is listed here to revisit. Nothing appears on this page until you have practiced something, and nothing here
           is ever shared.
         </EmptyState>
       ) : (
@@ -723,7 +723,7 @@ export function ReviewPage({ navigate }: { navigate: Navigate }) {
               )}
               {startedCourses.length > 0 && (
                 <div className="review-course-links">
-                  <h4>Where to practise</h4>
+                  <h4>Where to practice</h4>
                   <ul>
                     {startedCourses.map((entry) => (
                       <li key={entry.slug}>
@@ -814,7 +814,7 @@ export function ReviewPage({ navigate }: { navigate: Navigate }) {
           <p className="study-cleared" ref={clearedRef} tabIndex={-1}>
             {justCleared
               ? "Review history cleared. Your streak, your daily minutes and your total questions answered are unchanged."
-              : "There is no review history stored in this browser yet. Once you have practised, a control to clear it appears here."}
+              : "There is no review history stored in this browser yet. Once you have practiced, a control to clear it appears here."}
           </p>
         )}
       </section>
@@ -858,7 +858,7 @@ export function PathsPage({ navigate }: { navigate: Navigate }) {
           own statistics. There is no exam blueprint anywhere in this project, so no path claims alignment to one.
         </p>
         <p>
-          MedMosa is not affiliated with, endorsed by or accredited by any testing organisation, licensing body or
+          MedMosa is not affiliated with, endorsed by or accredited by any testing organization, licensing body or
           school. Every path lists its own limitations in full on its page — read them before planning around it.
         </p>
       </section>
